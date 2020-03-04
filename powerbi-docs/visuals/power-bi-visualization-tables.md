@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: de0328a35922279082c93a9a2d2a4948f1af7dc5
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154320"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576818"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tablas en informes y paneles de Power BI
 
@@ -175,7 +175,10 @@ A veces, Power BI trunca un encabezado de columna en un informe o un panel. Para
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 
-Al aplicar el formato de las columnas, solo puede elegir una opción de alineación por cada columna: **Automática**, **Izquierda**, **Centro** y **Derecha**. Normalmente, una columna contiene todo el texto o todos los números, y no una combinación de ellos. En casos donde una columna contiene números y texto, **Automática** alineará el texto a la izquierda y los números a la derecha. Este comportamiento es compatible con idiomas en los que se lee de izquierda a derecha.
+* Al aplicar el formato de las columnas, solo puede elegir una opción de alineación por cada columna: **Automática**, **Izquierda**, **Centro** y **Derecha**. Normalmente, una columna contiene todo el texto o todos los números, y no una combinación de ellos. En casos donde una columna contiene números y texto, **Automática** alineará el texto a la izquierda y los números a la derecha. Este comportamiento es compatible con idiomas en los que se lee de izquierda a derecha.
+
+* Si los datos de texto de las celdas o los encabezados de la tabla contienen caracteres de nueva línea, dichos caracteres se ignorarán a menos que active la opción "Ajuste de línea" en la tarjeta del panel de formato asociada del elemento. 
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 

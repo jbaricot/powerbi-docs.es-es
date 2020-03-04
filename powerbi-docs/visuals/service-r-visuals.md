@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 837412a85eff14c8eaa72fbf1625cadde524cc76
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 04fa40f5f73199ed5050870b49cd432f62cf362c
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762222"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78199082"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Creación y uso de objetos visuales de R en Power BI
 Actualmente, los objetos visuales R solo se pueden crear en **Power BI Desktop** y, después, se publican en el servicio Power BI. Para obtener más información sobre cómo crear objetos visuales de R, vea [Crear objetos visuales de Power BI con R ](../desktop-r-visuals.md).
@@ -86,7 +86,7 @@ En la siguiente tabla se describen las funcionalidades de los objetos visuales R
 Los objetos visuales R en el servicio Power BI tienen algunas limitaciones:
 
 * La compatibilidad con objetos visuales de R se limita a los paquetes que se identifican en el artículo [Paquetes de R compatibles](../service-r-packages-support.md). Actualmente, no hay compatibilidad para paquetes personalizados.
-* Limitaciones de tamaño de datos: los datos que usa el objeto visual de R para el trazado están limitados a 150.000 filas. Si se seleccionan más de 150.000 filas, solo se usan las primeras 150.000 y se muestra un mensaje en la imagen.
+* Limitaciones de tamaño de datos: los datos que usa el objeto visual de R para el trazado están limitados a 150.000 filas. Si se seleccionan más de 150.000 filas, solo se usan las primeras 150.000 y se muestra un mensaje en la imagen. Además, los datos de entrada tienen un límite de 250 MB.
 * Resolución: todos los objetos visuales de R se muestran a 72 ppp.
 * Límite de tiempo de cálculo: si un cálculo de objeto visual R supera los 60 segundos, se agota el tiempo de espera del script y se genera un error.
 * Los objetos visuales de R se actualizan en las actualizaciones de datos, el filtrado y el resaltado. En cambio, la imagen en sí no es interactiva y no es compatible con la información sobre herramientas.

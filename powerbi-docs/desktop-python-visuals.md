@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9b21b733dd673c1b672a4590032808a174ecda1f
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161602"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609835"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Creación de objetos visuales de Power BI con Python
 
@@ -170,7 +170,7 @@ Este tutorial está diseñado para ayudarle a empezar a crear objetos visuales c
 
 Los objetos visuales de Python en Power BI Desktop tienen algunas limitaciones:
 
-- Limitaciones del tamaño de datos. Los datos que usa el objeto visual de Python para el trazado están limitados a 150 000 filas. Si se seleccionan más de 150.000 filas, solo se usan las primeras 150.000 y se muestra un mensaje en la imagen.
+- Limitaciones del tamaño de datos. Los datos que usa el objeto visual de Python para el trazado están limitados a 150 000 filas. Si se seleccionan más de 150.000 filas, solo se usan las primeras 150.000 y se muestra un mensaje en la imagen. Además, los datos de entrada tienen un límite de 250 MB. 
 - Resolución. Todos los objetos visuales de Python se muestran a 72 ppp.
 - Límite de tiempo de cálculo. Si el cálculo de un objeto visual de Python supera los cinco minutos, se agota el tiempo de espera de ejecución y se genera un error.
 - Relaciones. Al igual que con otros objetos visuales de Power BI Desktop, si se seleccionan campos de datos de tablas diferentes sin ninguna relación definida entre ellos, se produce un error.

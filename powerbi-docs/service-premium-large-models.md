@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/25/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223706"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609913"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Modelos grandes en Power BI Premium (versión preliminar)
 
-Los conjuntos de datos de Power BI pueden almacenar datos en una memoria caché en memoria muy comprimida para optimizar el rendimiento de las consultas. Esto permite una rápida interactividad del usuario en grandes conjuntos de datos. La característica de modelos grandes permite que los conjuntos de datos de Power BI Premium tenga más de 10 GB de tamaño. En su lugar, el tamaño del conjunto de datos está limitado por el tamaño de la capacidad de Power BI Premium. Esto es similar a la forma en que Azure Analysis Services funciona en cuanto a las limitaciones de tamaño del modelo. Para más información sobre las capacidades de Power BI Premium, consulte Nodos de capacidad. Puede configurar modelos grandes para todas las SKU Premium P y Embedded A, pero solo funcionan con las [nuevas áreas de trabajo](service-create-the-new-workspaces.md).
+Los conjuntos de datos de Power BI pueden almacenar datos en una memoria caché en memoria muy comprimida para optimizar el rendimiento de las consultas, a fin de permitir una interactividad rápida del usuario en grandes conjuntos de datos. La característica de modelos grandes permite que los conjuntos de datos de Power BI Premium tenga más de 10 GB de tamaño. En su lugar, el tamaño del conjunto de datos está limitado por el tamaño de la capacidad de Power BI Premium, que es similar a la forma en que Azure Analysis Services funciona en cuanto a las limitaciones de tamaño del modelo. Para más información sobre las capacidades de Power BI Premium, consulte Nodos de capacidad. Puede configurar modelos grandes para todas las SKU Premium P y Embedded A, pero solo funcionan con las [nuevas áreas de trabajo](service-create-the-new-workspaces.md).
 
 Los modelos grandes no afectan al tamaño de carga de PBIX, que sigue estando limitado a 10 GB. En su lugar, los conjuntos de datos crecen más de 10 GB en el servicio al actualizarse. Puede usar la actualización incremental para configurar un conjunto de datos para que crezca más de 10 GB.
 
@@ -30,7 +30,7 @@ Para crear un conjunto de datos que crezca más de 10 GB, siga estos pasos:
 
 1. Publique el conjunto de datos en el servicio Power BI Premium.
 
-1. Ejecute los cmdlets de PowerShell siguientes para habilitar el conjunto de datos para modelos grandes. Estos cmdlets hacen que Power BI almacene el conjunto de datos en Azure Files Premium y no aplique el límite de 10 GB.
+1. Ejecute los cmdlets de PowerShell siguientes para habilitar el conjunto de datos para modelos grandes. Estos cmdlets hacen que Power BI almacene el conjunto de datos en Azure Files Premium y no aplique el límite de 10 GB.
 
 1. Invoque una actualización para cargar los datos históricos basada en la directiva de actualización incremental. La primera actualización podría tardar bastante tiempo en cargar el historial. Las actualizaciones posteriores serán más rápidas porque son incrementales.
 
@@ -90,7 +90,7 @@ Puede comprobar el estado de las conversiones del conjunto de datos hacia y desd
 
 Power BI usa la administración dinámica de la memoria para expulsar los conjuntos de datos inactivos de la memoria. Power BI expulsa los conjuntos de datos para poder cargar otros conjuntos de datos para direccionar las consultas de los usuarios. La administración dinámica de la memoria permite que la suma de los tamaños de los conjunto de datos sea bastante mayor que la memoria disponible en la capacidad, pero debe caber un solo conjunto de datos en la memoria. Para más información sobre la administración dinámica de la memoria, consulte [Funcionamiento de las capacidades](service-premium-what-is.md#how-capacities-function).
 
-Tenga en cuenta el impacto de la expulsión en los modelos grandes. A pesar de los tiempos de carga de conjuntos de datos relativamente rápidos, los usuarios podrían notar un retraso considerable si tienen que esperar a que se recarguen los conjuntos de datos grandes expulsados. Por esta razón, en su forma actual, se recomienda usar la característica de modelos grandes principalmente para las capacidades dedicadas a los requisitos de inteligencia empresarial en lugar de a entornos mixtos con requisitos de inteligencia empresarial con características de autoservicio. Las capacidades dedicadas a los requisitos de inteligencia empresarial son menos propensas a desencadenar expulsiones y por lo que no necesitan volver a cargar los conjuntos de datos con tanta frecuencia. Por otro lado, las capacidades de inteligencia empresarial con características de autoservicio pueden tener muchos conjuntos de datos pequeños que se cargan con más frecuencia dentro y fuera de la memoria.
+Tenga en cuenta el impacto de la expulsión en los modelos grandes. A pesar de los tiempos de carga de conjuntos de datos relativamente rápidos, los usuarios podrían notar un retraso considerable si tienen que esperar a que se recarguen los conjuntos de datos grandes expulsados. Por esta razón, en su forma actual, se recomienda usar la característica de modelos grandes principalmente para las capacidades dedicadas a los requisitos de inteligencia empresarial en lugar de a capacidades mixtas con requisitos de inteligencia empresarial con características de autoservicio. Las capacidades dedicadas a los requisitos de inteligencia empresarial son menos propensas a desencadenar expulsiones y por lo que no necesitan volver a cargar los conjuntos de datos con tanta frecuencia. Por otro lado, las capacidades de inteligencia empresarial con características de autoservicio pueden tener muchos conjuntos de datos pequeños que se cargan con más frecuencia dentro y fuera de la memoria.
 
 ## <a name="checking-dataset-size"></a>Comprobación del tamaño del conjunto de datos
 
@@ -110,12 +110,54 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
  [DATABASE_NAME] = '<Dataset Name>') //Sum USED_SIZE (bytes)
 ```
 
-## <a name="current-feature-restrictions"></a>Restricciones actuales de la característica
+## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 
 Tenga en cuenta las siguientes restricciones cuando use modelos grandes:
 
 - **Cifrado BYOK (Bring Your Own Key)** : los conjuntos de datos habilitados para Files Premium no se cifran mediante [BYOK](service-encryption-byok.md).
-- **Compatibilidad con múltiples ubicaciones geográficas**: los conjuntos de datos habilitados para Files Premium producirán errores en las capacidades en las que también tengan habilitadas [múltiples ubicaciones geográficas](service-admin-premium-multi-geo.md).
+- **Compatibilidad multigeográfica**: los conjuntos de datos habilitados para Files Premium producirán errores en las capacidades en las que también tengan habilitadas [múltiples ubicaciones geográficas](service-admin-premium-multi-geo.md).
 
-- **Descarga en Power BI Desktop**: si un conjunto de datos se almacena en Files Premium, se producirá un error al [descargar como archivo .pbix](service-export-to-pbix.md).
-- **Regiones admitidas**: Se admiten modelos grandes en todas las regiones de Azure que admiten el almacenamiento de archivos Premium. Para obtener más información, vea [Productos disponibles por región](https://azure.microsoft.com/global-infrastructure/services/?products=storage).
+- **Descarga en Power BI Desktop**: si un conjunto de datos se almacena en Files Premium, se producirá un error al [descargar como archivo .pbix](service-export-to-pbix.md).
+- **Regiones admitidas**: Se admiten modelos grandes en todas las regiones de Azure que admiten el almacenamiento de archivos Premium. Para más información, vea [Productos disponibles por región](https://azure.microsoft.com/global-infrastructure/services/?products=storage) y consulte la tabla de la siguiente sección.
+
+
+## <a name="availability-in-regions"></a>Disponibilidad en regiones
+
+Los modelos grandes no están disponibles en todas las regiones en las que se ofrece Power BI. Los modelos grandes de Power BI solo están disponibles en las regiones de Azure que admiten [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers).
+
+En la lista siguiente se indican las regiones en las que están disponibles los modelos grandes en Power BI. Las regiones que no están en la lista siguiente no se admiten para los modelos grandes:
+
+
+|Región de Azure  |Abreviatura de la región de Azure  |
+|---------|---------|
+|Este de Australia     | australiaeast        |
+|Sudeste de Australia     | australiasoutheast        |
+|Centro de EE. UU.     | centralus        |
+|Este de Asia     | eastasia        |
+|Este de EE. UU.     | estado        |
+|Este de EE. UU. 2     | eastus2        |
+|Japón Oriental     | japaneast        |
+|Japón Occidental     | japanwest        |
+|Centro de Corea del Sur     | koreacentral        |
+|Sur de Corea del Sur     | koreasouth        |
+|Centro-norte de EE. UU.     | northcentralus        |
+|Norte de Europa     | northeurope        |
+|Centro-sur de EE. UU.     | southcentralus        |
+|Sudeste de Asia     | southeastasia        |
+|Sur de Reino Unido     | uksouth        |
+|Oeste de Reino Unido     | ukwest        |
+|Oeste de Europa     | westeurope        |
+|Oeste de EE. UU.     | westus        |
+|Oeste de EE. UU. 2     | westus2        |
+
+
+
+## <a name="next-steps"></a>Pasos siguientes
+
+Los vínculos siguientes proporcionan información que puede ser útil para trabajar con modelos grandes:
+
+* [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Configuración de compatibilidad con Multi-Geo en Power BI Premium](service-admin-premium-multi-geo.md)
+* [Sus propias claves de cifrado para Power BI](service-encryption-byok.md)
+* [Cómo funcionan las capacidades](service-premium-what-is.md#how-capacities-function)
+* [Actualización incremental](service-premium-incremental-refresh.md)

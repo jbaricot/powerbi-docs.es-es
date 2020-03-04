@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 01/12/2019
-ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/17/2020
+ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026678"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782430"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Obtención de un objeto visual de Power BI certificado
 
@@ -43,11 +43,13 @@ Al enviar el objeto visual de Power BI, asegúrese de que el paquete compilado 
 
 Aunque no tiene que compartir el código públicamente en GitHub, el repositorio de código tiene que estar disponible para que lo revise el equipo de Power BI. La mejor manera de hacerlo consiste en proporcionar el código fuente (JavaScript o TypeScript) en GitHub.
 
-El repositorio debe contener el código de solo un objeto visual de Power BI. No puede contener código de varios objetos visuales de Power BI o código no relacionado.
-
-El repositorio debe contener una rama llamada **certificación** (en minúsculas). El código fuente de esta rama tiene que coincidir con el del paquete enviado. Este código solo se puede actualizar durante el siguiente proceso de envío, si va a volver a enviar el objeto visual de Power BI.
+El repositorio debe cumplir con los siguientes requisitos:
+* Código para un solo objeto visual de Power BI. No puede contener código de varios objetos visuales de Power BI o código no relacionado.
+* Una rama llamada **certificación** (en minúscula). El código fuente de esta rama tiene que coincidir con el del paquete enviado. Este código solo se puede actualizar durante el siguiente proceso de envío, si va a volver a enviar el objeto visual de Power BI.
 
 Si el objeto visual de Power BI usa paquetes NPM privados o submódulos de Git, debe proporcionar acceso a los repositorios adicionales que contienen este código.
+
+Para saber cuál es el aspecto de un repositorio de objetos visuales de Power BI, revise el repositorio de GitHub para obtener el [gráfico de barras de ejemplo de objetos visuales de Power BI](https://github.com/microsoft/PowerBI-visuals-sampleBarChartgi).
 
 ### <a name="file-requirements"></a>Requisitos de archivos
 
@@ -113,6 +115,18 @@ Para solicitar la certificación de Power BI:
 
 >[!NOTE]
 > Si está en medio de un proceso de envío de un objeto visual de Power BI y debe usar el [Panel de vendedores](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (la herramienta de administración anterior), revise las instrucciones para el [proceso de envío de una certificación del Panel de vendedores](seller-dashboard.md#seller-dashboard-certification-submission-process).
+
+### <a name="private-repository-submission-process"></a>Proceso de envío de un repositorio privado
+
+Si utiliza un repositorio privado como GitHub para enviar el objeto visual de Power BI para su certificación, siga las instrucciones de esta sección.
+1. Cree una cuenta para el equipo de validación.
+2. Configure la [autenticación en dos fases](https://help.github.com/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa) para la cuenta.
+3. [Genere un nuevo conjunto de códigos de recuperación](https://help.github.com/github/authenticating-to-github/configuring-two-factor-authentication-recovery-methods#generating-a-new-set-of-recovery-codes).
+4. Al enviar el objeto visual de Power BI, proporcione lo siguiente:
+    * Un vínculo al repositorio
+    * Las credenciales de inicio de sesión (incluida una contraseña)
+    * Los códigos de recuperación
+    * Los permisos de solo lectura para nuestra cuenta ([pbicvsupport](https://github.com/pbicvsupport))
 
 ## <a name="certified-power-bi-visuals"></a>Objetos visuales de Power BI certificados
 

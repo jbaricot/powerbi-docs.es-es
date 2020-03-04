@@ -60,6 +60,16 @@
               href: report-page-tooltips.md
             - name: Uso de detalles de la página del informe
               href: report-drillthrough.md
+            - name: Sugerencias para administrar los ejes
+              href: report-design-tips-axes.md
+            - name: Sugerencias para controlar las líneas de cuadrícula del gráfico
+              href: report-tips-chart-gridlines.md
+            - name: Sugerencias para optimizar el uso de etiquetas
+              href: report-tips-labels.md
+            - name: Sugerencias para dar formato e implementar leyendas
+              href: report-tips-legends.md
+            - name: Sugerencias para optimizar la visualización de colores
+              href: report-tips-visual-colors.md
         - name: Informes paginados de Power BI
           items:
             - name: Cuándo usar informes paginados

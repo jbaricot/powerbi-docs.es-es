@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: e18579d654cb2ab17ed0dbff73fba95f5f9a64ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875053"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609945"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Procedimientos recomendados para optimizar Preguntas y respuestas en Power BI
 El uso del lenguaje natural y frases comunes para formular preguntas sobre los datos resulta muy eficaz. Esto es todavía más eficaz cuando los datos responden a esas preguntas, que es lo que Preguntas y respuestas de Power BI hace.

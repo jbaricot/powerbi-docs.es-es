@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c3e2327131ae82fa025236c9242476466b6d9074
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a0f4808aaf267e3cdb822e8778005c2eca247cb5
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73864056"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78199013"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Procedimientos recomendados de rendimiento de Power BI Embedded
 
 En este artículo se proporcionan recomendaciones para un procesamiento más rápido de los informes, paneles e iconos de la aplicación.
 
 > [!Note]
-> Recuerde que el tiempo de carga depende principalmente de los elementos relevantes para el informe y los datos mismos, incluidos los objetos visuales, el tamaño de los datos y la complejidad de las consultas y medidas calculadas. Para más información, consulte [Procedimientos recomendados de rendimiento de Power BI](../power-bi-reports-performance.md).
+> Recuerde que el tiempo de carga depende principalmente de los elementos relevantes para el informe y los datos mismos, incluidos los objetos visuales, el tamaño de los datos y la complejidad de las consultas y medidas calculadas. Para más información, vea [Guía de optimización para Power BI](../guidance/power-bi-optimization.md).
 
 ## <a name="update-tools-and-sdk-packages"></a>Actualizar herramientas y paquetes SDK
 
@@ -106,6 +106,6 @@ El Analizador de rendimiento le permitirá ver y registrar los registros que mid
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [Procedimientos recomendados de rendimiento de Power BI](../power-bi-reports-performance.md)
+* [Guía de optimización para Power BI](../guidance/power-bi-optimization.md)
 * [Cómo solucionar problemas de Power BI Embedded](embedded-troubleshoot.md)
 * [Preguntas frecuentes sobre Power BI Embedded](embedded-faq.md)

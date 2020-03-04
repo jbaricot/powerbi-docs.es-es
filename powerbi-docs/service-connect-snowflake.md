@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 03e6e8efae5cd4a5f61e3d07bc0b3c524b3b0a46
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77429358"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576856"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>Conexión a Snowflake en el servicio Power BI
 
@@ -49,7 +49,7 @@ Debido al funcionamiento de Power BI, SSO solo funcionará cuando no se ejecute
 
 * Si solo va a usar un origen de Snowflake en el modelo de datos, puede utilizar el inicio de sesión único si decide no usar la puerta de enlace de datos local
 * Si va a usar un origen de Snowflake junto a otro origen, puede utilizar el inicio de sesión único si ninguno de los orígenes usa la puerta de enlace de datos local
-* Si va a usar un origen de Snowflake a través de la puerta de enlace de datos local, puede usar las credenciales de AAD pero no SSO. Esto puede ser importante en caso de que intente acceder a una red virtual desde una única dirección IP con la puerta de enlace instalada en ella, en lugar de hacerlo desde el intervalo de direcciones IP completo de Power BI.
+* Si va a usar un origen de Snowflake a través de la puerta de enlace de datos local, las credenciales de AAD no se admiten actualmente. Esto puede ser importante en caso de que intente acceder a una red virtual desde una única dirección IP con la puerta de enlace instalada en ella, en lugar de hacerlo desde el intervalo de direcciones IP completo de Power BI.
 * Si va a usar un origen de Snowflake junto a otro que requiera una puerta de enlace, se le pedirá que también use Snowflake a través de la puerta de enlace de datos local y no podrá usar SSO.
 
 Para más información sobre cómo usar la puerta de enlace de datos local, vea el artículo [¿Qué es una puerta de enlace de datos local?](https://docs.microsoft.com/power-bi/service-gateway-onprem)

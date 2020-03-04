@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: bc8b8c16675e6d413c22d4ae88018222b02b17d6
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: f5bf1b55c2e092dc755da9f391c83ce3c42661b2
+ms.sourcegitcommit: 30ed21cca2125001f2f992dc6c5f546f4956631c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709886"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77652528"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Administración del almacenamiento de datos en las áreas de trabajo de Power BI
 
@@ -28,8 +28,8 @@ Los límites de almacenamiento del área de trabajo, ya sea en Mi área de traba
 ### <a name="shared-capacity-limits"></a>Límites de la capacidad compartida
 En el caso de las áreas de trabajo en una capacidad compartida: 
 
-- Hay un límite de almacenamiento de 10 GB por área de trabajo.
-- En el caso de las áreas de trabajo de la aplicación, el uso total no puede superar los 10 GB multiplicado por el número de licencias Pro del inquilino.
+- Hay un límite de almacenamiento de 100 GB por área de trabajo.
+- En el caso de las áreas de trabajo de la aplicación, el uso total no puede superar el límite de almacenamiento del inquilino de 10 GB multiplicado por el número de licencias Pro del inquilino.
 
 ### <a name="premium-capacity-limits"></a>Límites de la capacidad Premium
 En el caso de áreas de trabajo en una capacidad Premium:

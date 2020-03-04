@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.date: 02/13/2020
+ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74999929"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576802"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicación de objetos visuales de Power BI en el Centro de partners
 
@@ -39,7 +39,7 @@ Cuando esté listo para enviar el objeto visual de Power BI, compruebe que cump
 | Capturas de pantalla |Sí |Proporcione al menos una captura de pantalla. Su formato puede ser .png, .jpg, .jpeg o .gif. Las dimensiones deben ser exactamente 1366 px (ancho) por 768 px (alto). El tamaño del archivo no puede superar los 1024 KB.<br>Si el uso va a ser mayor, agregue burbujas de texto para articular la propuesta de valor de las características clave que se muestran en cada captura. |
 | Vínculo de descarga de soporte técnico |Sí |Proporcione una dirección URL de soporte técnico para sus clientes. Este vínculo se especifica como parte de su lista del Panel de vendedores y es visible para los usuarios cuando acceden a la lista de objetos visuales en AppSource. El formato de la dirección URL debe incluir https:// o http://. |
 | Vínculo de documento de privacidad |Sí |Proporcione un vínculo a la directiva de privacidad del objeto visual. Este vínculo se especifica como parte de su lista del Panel de vendedores y es visible para los usuarios cuando acceden a la lista de objetos visuales en AppSource. El formato del vínculo debe incluir https:// o http://. |
-| Contrato de licencia para el usuario final (CLUF) |Sí |Tiene que cargar un archivo de CLUF. Puede ser su propio CLUF, o bien puede usar el CLUF predeterminado de la Tienda Office para objetos visuales de Power BI. Para usar el CLUF predeterminado, pegue la siguiente dirección URL en el cuadro de diálogo de carga del archivo del "Contrato de licencia para el usuario final" del panel del vendedor. [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
+| Contrato de licencia para el usuario final (CLUF) |Sí |Debe proporcionar un archivo del CLUF para el objeto visual de Power BI. |
 | Enlace de vídeo |No |Para aumentar el interés de los usuarios por el objeto visual personalizado, proporcione un vínculo a un vídeo sobre dicho objeto. El formato de la dirección URL debe incluir https:// o http://. |
 | Repositorio de GitHub |No |Comparta un vínculo público a un repositorio de [GitHub](https://www.github.com) con orígenes de datos de ejemplo y de objetos visuales de Power BI. Esto permite que otros desarrolladores tengan la oportunidad de proporcionar comentarios y proponer mejoras en el código. |
 

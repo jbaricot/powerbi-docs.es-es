@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154445"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576843"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creación de visualizaciones de matriz en Power BI
 
@@ -218,6 +218,10 @@ Para aplicar formato condicional, seleccione el objeto visual de matriz y abra e
 Seleccione *Controles avanzados* para mostrar un cuadro de diálogo, que permite realizar ajustes. En este ejemplo se muestra el cuadro de diálogo de **Barras de datos**.
 
 ![Panel Barras de datos](media/desktop-matrix-visual/power-bi-data-bars.png)
+
+## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
+
+* Si los datos de texto de las celdas o los encabezados de la matriz contienen caracteres de nueva línea, dichos caracteres se ignorarán a menos que active la opción "Ajuste de línea" en la tarjeta del panel de formato asociada del elemento. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 

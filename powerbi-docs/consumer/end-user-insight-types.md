@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 184aeb1f26e54bb8b8935f2f06ec6cad2e282ecf
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537927"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576766"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de información compatibles con Power BI
 
@@ -55,7 +55,7 @@ Detecta los casos en los que varias medidas muestran un patrón o una tendencia 
 ![Ejemplo de correlación](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ### <a name="low-variance"></a>Baja varianza
-Detecta casos en los que los puntos de datos no están lejos de la media.
+Detecta los casos en los que los puntos de datos de una dimensión no están lejos de la media, por lo que la "varianza" es baja. Supongamos que tiene la medida "ventas" y una dimensión "región". Y, al revisar la dimensión de región, observa que hay muy poca diferencia entre los puntos de datos y la media de dichos puntos de datos. La información se desencadena cuando la varianza de ventas en todas las regiones está por debajo de un umbral. En otras palabras, cuando las ventas son bastante similares en todas las regiones.
 
 ![Ejemplo de baja varianza](./media/end-user-insight-types/power-bi-low-variance.png)
 
@@ -75,7 +75,9 @@ Busca patrones periódicos en los datos de series temporales, por ejemplo, seman
 ![Ejemplo de estacionalidad](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>Recurso compartido constante
-Resalta los casos en los que hay una correlación de elementos primarios y secundarios entre el recurso compartido de un valor de secundario en relación con el valor global del elemento primario a través de una variable continua.
+Resalta los casos en los que hay una correlación de elementos primarios y secundarios entre el recurso compartido de un valor de secundario en relación con el valor global del elemento primario a través de una variable continua. La información del recurso compartido constante se aplica al contexto de una medida, una dimensión y otra dimensión de fecha y hora. Esta información se desencadena cuando un valor de dimensión determinado, por ejemplo, "la región noreste", tiene un porcentaje constante de ventas totales en esa dimensión de fecha y hora.
+
+La información del recurso compartido constante es similar a la información de la varianza baja, ya que ambas están relacionadas con la falta de varianza de un valor a lo largo del tiempo. Sin embargo, la información del recurso compartido constante mide la falta de varianza del **porcentaje total** a lo largo del tiempo, mientras que la información de la varianza baja mide la falta de varianza de los valores de medida absolutos en una dimensión.
 
 ![Ejemplo de recurso compartido constante](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 
