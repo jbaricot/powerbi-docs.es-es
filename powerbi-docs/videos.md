@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 03/03/2020
 ms.author: davidi
-ms.openlocfilehash: a33efaf4e0ecd871170873df072f24bf8f824cdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 41a0d100817f23d3a395f05cefbe60a0214bfb59
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871175"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260862"
 ---
 # <a name="power-bi-videos"></a>Vídeos de Power BI
 ¡Tenemos un canal de YouTube de Power BI! Puede visitar [nuestro canal](https://www.youtube.com/user/mspowerbi/videos) y, si no está familiarizado con Power BI, un buen lugar para comenzar es la [lista de reproducción sobre análisis y visualización de datos con Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
@@ -43,7 +43,6 @@ Puede comenzar con algunos vídeos de esa lista de reproducción.
 Consulte la siguiente colección de orígenes y contenido de más vídeos.
 
 * [Guided Learning for Power BI](https://powerbi.microsoft.com/guided-learning/): un paseo de aprendizaje secuencial y detallado por Power BI
-* [Canal Guy in a Cube](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w): vídeos originales sobre las características y las capacidades de Power BI
 
 ## <a name="next-steps"></a>Pasos siguientes
 [¿Qué es Power BI?](fundamentals/power-bi-overview.md)

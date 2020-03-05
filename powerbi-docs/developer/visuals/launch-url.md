@@ -43,7 +43,7 @@ export class Visual implements IVisual {
 }
 ```
 
-## <a name="usage"></a>Usage (Uso)
+## <a name="usage"></a>Uso
 
 Use la llamada API `host.launchUrl()`, y pase la dirección URL de destino como argumento de cadena:
 

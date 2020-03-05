@@ -43,7 +43,7 @@ Power BI Desktop es una aplicación gratuita que se puede instalar directament
 
 Solo un explorador web y una dirección de correo electrónico del trabajo. También se puede registrar con una dirección de correo electrónico *.gov* y *.mil*. Vea [Inscribir una organización de la Administración Pública de Estados Unidos en el servicio Power BI](../service-govus-signup.md) para obtener más información.
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>¿Por qué es necesario iniciar sesión con el correo electrónico del trabajo?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>¿Por qué tengo que registrarme con mi correo electrónico del trabajo?
 
 Power BI no admite direcciones de correo electrónico de proveedores de telecomunicaciones o servicios de correo electrónico de consumidor. Más información sobre el [proceso de registro de autoservicio para Power BI](../service-self-service-signup-for-power-bi.md).
 
