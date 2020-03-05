@@ -59,7 +59,7 @@ Los [paneles](end-user-dashboards.md) suelen confundirse con informes, ya que ta
 | Orígenes de datos |Uno o varios informes y uno o varios conjuntos de datos por cada panel |Un único conjunto de datos por informe |
 | Filtrado |No es posible filtrar ni segmentar |Numerosas formas de filtrar, resaltar y segmentar |
 | Establecimiento de alertas |Se pueden crear alertas para enviarlas por correo electrónico cuando el panel cumple determinadas condiciones |No |
-| Destacado |Se puede establecer un panel como panel destacado |No es posible crear un informe destacado |
+| Característica |Se puede establecer un panel como panel destacado |No es posible crear un informe destacado |
 | Se pueden ver campos y tablas del conjunto de datos subyacentes |No. Se pueden exportar los datos, pero no se pueden ver las tablas ni los campos del conjunto de datos en el panel |Sí. Se pueden ver las tablas, los campos y los valores del conjunto de datos para los que se tienen permisos |
 | Personalización |No  |Se puede filtrar, exportar, ver el contenido relacionado, agregar marcadores, generar códigos QR, analizar en Excel, etc. |
 

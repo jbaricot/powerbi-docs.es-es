@@ -152,7 +152,7 @@ Easily navigate between the visualizations on the report page.
     ![report Selection pane](media/end-user-reading-view/power-bi-selection-pane-new.png) -->
 
 ### <a name="zoom-in-on-individual-visuals"></a>Acercar la imagen en objetos visuales individuales
-Mantenga el puntero sobre un objeto visual y seleccione el icono **Modo Enfoque** ![](media/end-user-reading-view/pbi_popouticon.jpg). Cuando se ve una visualización en el modo de enfoque, se expande para ocupar todo el lienzo de informes como se puede ver aquí abajo.
+Mantenga el puntero sobre un objeto visual y seleccione el icono **Modo Enfoque**![](media/end-user-reading-view/pbi_popouticon.jpg). Cuando se ve una visualización en el modo de enfoque, se expande para ocupar todo el lienzo de informes como se puede ver aquí abajo.
 
 ![modo de enfoque](media/end-user-reading-view/power-bi-full-screen-before.png)
 

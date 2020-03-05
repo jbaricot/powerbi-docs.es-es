@@ -43,11 +43,11 @@ Si quiere saber más, lea [Gestures](https://developer.microsoft.com/windows/mix
 
 **Anclar un elemento** 
 
-Pulse en el aire sobre el icono **Anclar** ![icono de anclar](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png) para anclar un panel o un informe de la vista clásica de Windows en la vista holográfica. Puede anclar varios elementos en la vista holográfica. 
+Pulse en el aire sobre el icono **Anclar**![icono de anclar](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png) para anclar un panel o un informe de la vista clásica de Windows en la vista holográfica. Puede anclar varios elementos en la vista holográfica. 
 
 **Cambiar a la vista holográfica**
 
-Después de anclar elementos en la vista clásica de Windows, pulse en el aire en el icono **Pantalla completa** ![Icono de pantalla completa](./media/mobile-mixed-reality-app/power-bi-hololens-fullscreen.png) para cambiar a vista holográfica. 
+Después de anclar elementos en la vista clásica de Windows, pulse en el aire en el icono **Pantalla completa**![Icono de pantalla completa](./media/mobile-mixed-reality-app/power-bi-hololens-fullscreen.png) para cambiar a vista holográfica. 
 
 
 ## <a name="holographic-view-basics"></a>Conceptos básicos de la vista holográfica

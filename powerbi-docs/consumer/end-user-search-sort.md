@@ -28,7 +28,7 @@ Cuando comience a trabajar en el servicio Power BI, solo tendrá unos cuantos e
 ## <a name="searching-for-content"></a>Búsqueda de contenido
  La búsqueda está disponible en casi todas las partes del servicio Power BI. Solo tiene que encontrar el cuadro de búsqueda o el icono de búsqueda. ![Icono de lupa](./media/end-user-search-sort/power-bi-search-icon.png).
 
- En el campo de búsqueda, escriba parte del nombre o el nombre completo de un panel, un informe, un libro o un propietario. Power BI busca en todo el contenido. 
+ En el campo de búsqueda, escriba parte del nombre o el nombre completo de un panel, un informe, un libro o un propietario. Power BI realizará una búsqueda en todo el contenido. 
 
  ![búsqueda de un informe](./media/end-user-search-sort/power-bi-search-field.png) 
 

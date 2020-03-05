@@ -51,9 +51,9 @@ Las segmentaciones de Power BI no admiten:
    
 1. Vaya al archivo **Ejemplo de análisis de venta al por menor PBIX.pbix** y seleccione **Abrir**.
 
-1. En el panel de la izquierda, seleccione el icono **Informe** ![icono de informe](media/power-bi-visualization-kpi/power-bi-report-view.png) para abrir el archivo en la vista de informe.
+1. En el panel de la izquierda, seleccione el icono **Informe**![icono de informe](media/power-bi-visualization-kpi/power-bi-report-view.png) para abrir el archivo en la vista de informe.
 
-1. En la página **Información general**, sin nada seleccionado en el lienzo del informe, seleccione el icono **Segmentación** ![icono Segmentación](media/power-bi-visualization-slicers/slicer-icon.png) en el panel **Visualizaciones** para crear una segmentación. 
+1. En la página **Información general**, sin nada seleccionado en el lienzo del informe, seleccione el icono **Segmentación**![icono Segmentación](media/power-bi-visualization-slicers/slicer-icon.png) en el panel **Visualizaciones** para crear una segmentación. 
 
 1. Con la nueva segmentación seleccionada, seleccione **Distrito** > **Administrador de distrito** en el panel **Campos** para rellenar la segmentación. 
 
@@ -163,7 +163,7 @@ En el informe actual, la página **Ventas mensuales de distrito** tiene también
 ## <a name="format-slicers"></a>Segmentaciones de formato
 Existen diferentes opciones de formato según el tipo de segmentación. Con la orientación **Horizontal**, el diseño **dinámico** y la posibilidad de colorear **elementos**, puede generar botones o iconos en lugar de elementos de lista estándar, y hacer que los elementos de segmentación cambien de tamaño para ajustarse a diferentes diseños y tamaños de pantalla.  
 
-1. Con la segmentación **Administrador de distrito** seleccionada en cualquier página, en el panel **Visualizaciones**, seleccione el icono **Formato** ![icono Formato](media/power-bi-visualization-slicers/power-bi-paintroller.png) para mostrar los controles de formato. 
+1. Con la segmentación **Administrador de distrito** seleccionada en cualquier página, en el panel **Visualizaciones**, seleccione el icono **Formato**![icono Formato](media/power-bi-visualization-slicers/power-bi-paintroller.png) para mostrar los controles de formato. 
     
     ![Selección de formato](media/power-bi-visualization-slicers/3-format.png)
     
@@ -241,7 +241,7 @@ Las demás opciones de formato están **desactivadas** de forma predeterminada. 
 - **Borde**: agrega un borde alrededor de la segmentación y establece su color. Este borde de la segmentación es independiente y no se ve afectado por la configuración **General**. 
 
 ## <a name="next-steps"></a>Pasos siguientes
-Para obtener más información, consulte los artículos siguientes:
+Para más información, consulte los siguientes artículos:
 
 - [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 

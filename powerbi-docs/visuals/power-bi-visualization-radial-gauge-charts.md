@@ -146,7 +146,7 @@ Una vez que haya terminado con estos pasos, tendrá un gráfico de medidor que s
 
 ![Captura de pantalla del gráfico de medidor final.](media/power-bi-visualization-radial-gauge-charts/power-bi-final.png)
 
-## <a name="next-step"></a>Paso siguiente
+## <a name="next-step"></a>Siguiente paso
 
 * [Objetos visuales del indicador clave de rendimiento (KPI)](power-bi-visualization-kpi.md)
 
