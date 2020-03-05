@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a0127a6ffa0d698a94e368532c44d0f83c362b42
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75002406"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290589"
 ---
 # <a name="referencing-power-query-queries"></a>Referencia de las consultas de Power Query
 
@@ -54,5 +54,5 @@ Para obtener más información sobre este artículo, consulte los recursos sigui
 
 - [Autoservicio de preparación de los datos en Power BI](../service-dataflows-overview.md)
 - [Creación y uso de flujos de datos en Power BI](../service-dataflows-create-use.md)
-- Guy in a cube (vídeo): [Dentro de las consultas de referencia de Power Query para Power BI y Excel](https://www.youtube.com/watch?v=3uKNNZqBIkg)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)

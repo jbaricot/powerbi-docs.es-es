@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040362"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290622"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Extensión de objetos visuales con la información en pantalla de la página del informe
 
@@ -88,5 +88,5 @@ Para obtener más información sobre este artículo, consulte los recursos sigui
 - [Creación de información sobre herramientas basada en páginas de informes en Power BI Desktop](../desktop-tooltips.md)
 - [Personalización de la información sobre herramientas en Power BI Desktop](../desktop-custom-tooltips.md)
 - [Uso de elementos visuales para mejorar los informes de Power BI](../desktop-visual-elements-for-reports.md)
-- Guy in a cube (vídeo): [Información sobre herramientas de páginas de informes de Power BI: Cómo crearla en Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)
