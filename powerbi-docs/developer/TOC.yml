@@ -140,6 +140,8 @@
           items:
             - name: "Capacidad y SKU de los análisis incrustados de Power\_BI"
               href: embedded-capacity.md
+            - name: Planeamiento de capacidad
+              href: embedded-capacity-planning.md
             - name: Procedimientos recomendados de rendimiento
               href: embedded-performance-best-practices.md
             - name: Entidad de servicio
