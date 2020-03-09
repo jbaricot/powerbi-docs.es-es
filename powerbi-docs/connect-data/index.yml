@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: 'Conexión a los datos en Power BI Desktop: documentación'
+summary: En la documentación de Power BI se proporciona información de expertos y respuestas a sus necesidades, independientemente de cómo use Power BI.
+metadata:
+  title: 'Conexión a los datos en Power BI Desktop: documentación'
+  description: En la documentación de Power BI se proporciona información de expertos y respuestas a sus necesidades, independientemente de cómo use Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924147"
+landingContent:
+- title: Conectarse a los datos en Power BI
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Orígenes de datos
+      url: ../desktop-data-sources.md
+    - text: Vista de datos en Power BI Desktop
+      url: ../desktop-data-view.md
+  - linkListType: tutorial
+    links:
+    - text: Importación de datos de una página web
+      url: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+- title: Puertas de enlace
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Puertas de enlace de datos locales
+      url: ../service-gateway-onprem.md
+  - linkListType: tutorial
+    links:
+    - text: Conexión a datos locales de SQL Server
+      url: ../service-gateway-sql-tutorial.md
+  - linkListType: how-to-guide
+    links:
+    - text: Uso de puertas de enlace personales
+      url: ../service-gateway-personal-mode.md
+- title: Aplicaciones plantilla
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: ¿Qué son las aplicaciones de plantilla?
+      url: ../service-template-apps-overview.md
+  - linkListType: concept
+    links:
+    - text: Creación de aplicaciones plantilla
+      url: ../service-template-apps-create.md
+    - text: Distribución de aplicaciones de plantilla en la organización
+      url: ../service-template-apps-install-distribute.md
+- title: Actualizar datos
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Actualización de datos
+      url: ../refresh-data.md
+    - text: Actualizaciones incrementales en Power BI Premium
+      url: ../service-premium-incremental-refresh.md
+  - linkListType: how-to-guide
+    links:
+    - text: Configuración de actualización programada
+      url: ../refresh-scheduled-refresh.md

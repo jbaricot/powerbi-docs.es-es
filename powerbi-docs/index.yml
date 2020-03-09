@@ -1,0 +1,243 @@
+### YamlMime:Hub
+title: Documentación de Power BI
+summary: Power BI amplía sus conocimientos y el valor de los datos. Gracias a la documentación de Power BI, obtendrá información de expertos y respuestas a sus necesidades, independientemente de cómo use Power BI.
+brand: power-bi
+metadata:
+  title: Documentación de Power BI
+  description: Power BI amplía sus conocimientos y el valor de los datos. Encuentre información y respuestas de expertos aquí, independientemente de cómo use Power BI.
+  services: service
+  ms.service: powerbi
+  ms.subservice: subservice
+  ms.topic: hub-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: ad1e273947744f2d7611f6a4a03940e52f2a64fa
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924308"
+highlightedContent:
+  items:
+  - title: Introducción a Power BI Desktop
+    itemType: get-started
+    url: desktop-getting-started.md
+  - title: Suscribirse al servicio Power BI
+    itemType: how-to-guide
+    url: service-self-service-signup-for-power-bi.md
+  - title: Formas de colaboración y uso compartido
+    itemType: concept
+    url: service-how-to-collaborate-distribute-dashboards-reports.md
+conceptualContent:
+  items:
+  - title: 'Power BI: Comenzar'
+    links:
+    - url: power-bi-overview.md
+      itemType: overview
+      text: ¿Qué es Power BI?
+    - url: desktop-what-is-desktop.md
+      itemType: overview
+      text: ¿Qué es Power BI Desktop?
+    - url: power-bi-service-overview.md
+      itemType: overview
+      text: ¿Qué es el servicio Power BI?
+    footerLink:
+      url: fundamentals/index.yml
+      text: Ver más
+  - title: Power BI para consumidores
+    links:
+    - url: consumer/end-user-consumer.md
+      itemType: get-started
+      text: ¿Soy consumidor de Power BI?
+    - url: consumer/end-user-experience.md
+      itemType: get-started
+      text: Movimiento por el servicio Power BI
+    - url: consumer/end-user-dashboards.md
+      itemType: concept
+      text: ¿Qué es un panel?
+    footerLink:
+      url: consumer/index.yml
+      text: Ver más
+  - title: Administrar Power BI
+    links:
+    - url: service-admin-administering-power-bi-in-your-organization.md
+      itemType: overview
+      text: ¿Qué es la administración de Power BI?
+    - url: service-admin-licensing-organization.md
+      itemType: concept
+      text: Licencias en la organización
+    - url: service-admin-portal.md
+      itemType: concept
+      text: Portal de administración
+    footerLink:
+      url: admin/index.yml
+      text: Ver más
+  - title: Desarrollo en Power BI
+    links:
+    - url: developer/what-can-you-do.md
+      itemType: overview
+      text: Qué pueden hacer los desarrolladores
+    - url: power-bi-custom-visuals.md
+      itemType: overview
+      text: Desarrolladores y objetos visuales
+    - url: developer/embedding.md
+      itemType: overview
+      text: Análisis insertados
+    footerLink:
+      url: developer/index.yml
+      text: Ver más
+  - title: Conectar a datos
+    links:
+    - url: desktop-quickstart-connect-to-data.md
+      itemType: tutorial
+      text: Conectar a datos
+    - url: service-gateway-onprem.md
+      itemType: concept
+      text: Puertas de enlace de datos locales
+    - url: refresh-data.md
+      itemType: concept
+      text: Actualización de datos
+    footerLink:
+      url: connect-data/index.yml
+      text: Ver más
+  - title: Transformar y dar forma a los datos
+    links:
+    - url: desktop-analytics-pane.md
+      itemType: how-to-guide
+      text: Uso del panel Analytics
+    - url: desktop-common-query-tasks.md
+      itemType: concept
+      text: Tareas comunes relacionadas con las consultas
+    - url: desktop-shape-and-combine-data.md
+      itemType: tutorial
+      text: Dar forma a los datos y combinarlos
+    footerLink:
+      url: transform-model/index.yml
+      text: Ver más
+  - title: Modelado de datos
+    links:
+    - url: desktop-add-custom-column.md
+      itemType: how-to-guide
+      text: Adición de una columna personalizada
+    - url: desktop-tutorial-create-calculated-columns.md
+      itemType: tutorial
+      text: Creación de columnas calculadas
+    - url: desktop-create-and-manage-relationships.md
+      itemType: how-to-guide
+      text: Creación y administración de relaciones
+    footerLink:
+      url: transform-model/index.yml
+      text: Ver más
+  - title: Creación de informes y paneles
+    links:
+    - url: desktop-report-themes.md
+      itemType: concept
+      text: Temas de informes
+    - url: desktop-conditional-table-formatting.md
+      itemType: concept
+      text: ¿Qué son los informes paginados?
+    - url: paginated-reports/paginated-reports-report-builder-power-bi.md
+      itemType: how-to-guide
+      text: Crear un panel
+    footerLink:
+      url: create-reports/index.yml
+      text: Ver más
+  - title: Colaborar y compartir
+    links:
+    - url: service-share-dashboards.md
+      itemType: concept
+      text: Compartir los paneles e informes
+    - url: service-create-the-new-workspaces.md
+      itemType: how-to-guide
+      text: Creación de nuevas áreas de trabajo
+    - url: service-datasets-across-workspaces.md
+      itemType: concept
+      text: Introducción a los conjuntos de datos compartidos
+    footerLink:
+      url: collaborate-share/index.yml
+      text: Ver más
+  - title: Integración entre productos
+    links:
+    - url: service-azure-and-power-bi.md
+      itemType: concept
+      text: Azure y Power BI
+    - url: service-analyze-in-excel.md
+      itemType: concept
+      text: Analizar en Excel
+    - url: service-embed-report-spo.md
+      itemType: concept
+      text: Insertar en SharePoint Online
+    footerLink:
+      url: collaborate-share/index.yml
+      text: Ver más
+  - title: Power BI en las aplicaciones móviles
+    links:
+    - url: consumer/mobile/mobile-apps-for-mobile-devices.md
+      itemType: get-started
+      text: ¿Qué son las aplicaciones móviles?
+    - url: consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md
+      itemType: quickstart
+      text: Exploración de paneles e informes
+    - url: consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      itemType: how-to-guide
+      text: Visualización de informes locales
+    footerLink:
+      url: consumer/mobile/index.yml
+      text: Ver más
+  - title: Empresa
+    links:
+    - url: service-premium-what-is.md
+      itemType: overview
+      text: ¿Qué es Power BI Premium?
+    - url: service-admin-power-bi-security.md
+      itemType: concept
+      text: Seguridad
+    - url: admin/service-security-data-protection-overview.md
+      itemType: concept
+      text: Protección de datos
+    footerLink:
+      url: admin/index.yml
+      text: Ver más
+  - title: Guía de procedimientos recomendados
+    links:
+    - url: guidance/overview.md
+      itemType: overview
+      text: Información general de orientación
+    - url: guidance/star-schema.md
+      itemType: concept
+      text: Esquemas en estrella
+    - url: guidance/import-modeling-data-reduction.md
+      itemType: concept
+      text: Reducción del tamaño del modelo de datos
+    footerLink:
+      url: guidance/index.yml
+      text: Ver más
+  - title: Más información
+    links:
+    - url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/
+      itemType: learn
+      text: Introducción a todo lo que se puede hacer con Power BI
+    - url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/
+      itemType: learn
+      text: Análisis de datos
+    - url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/
+      itemType: learn
+      text: Introducción a la creación
+    footerLink:
+      url: guided-learning/index.yml
+      text: Ver más
+additionalContent:
+  sections:
+  - title: Herramientas relacionadas
+  - items:
+    - title: Power BI Report Server
+      summary: Explore Power BI Report Server, un servidor de informes local con un portal web en el que se muestran y administran informes de Power BI, informes paginados y KPI.
+      url: report-server/index.yml
+    - title: API REST de Power BI
+      summary: Las API de REST de Power BI proporcionan puntos de conexión de servicio para la inserción, la administración y los recursos de usuario.
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - title: Documentación de Power Platform
+      summary: Obtenga información sobre cómo Power BI, Power Apps, Power Automate y Power Virtual Agents funcionan en conjunto para mejorarse entre sí.
+      url: https://docs.microsoft.com/power-platform/

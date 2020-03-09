@@ -1,0 +1,377 @@
+- name: "Creación de informes y paneles en Power\_BI"
+  href: index.yml
+  items:
+    - name: Información general
+      expanded: true
+      items:
+        - name: Visita al editor de informes
+          href: ../service-the-report-editor-take-a-tour.md
+        - name: ¿Qué son los informes paginados?
+          href: ../paginated-reports/paginated-reports-report-builder-power-bi.md
+    - name: Tutoriales
+      expanded: true
+      items:
+        - name: 'Laboratorio práctico: Crear un informe paginado'
+          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: Creación y carga de un informe paginado
+          href: ../paginated-reports/paginated-reports-quickstart-aw.md
+    - name: Ejemplos
+      expanded: true
+      items:
+        - name: "Obtención de datos de ejemplo para Power\_BI"
+          href: ../sample-datasets.md
+        - name: Importación y apertura de paquetes de ejemplo
+          href: ../sample-tutorial-connect-to-the-samples.md
+        - name: Ejemplo de rentabilidad del cliente
+          href: ../sample-customer-profitability.md
+        - name: Ejemplo Análisis de gastos de TI
+          href: ../sample-it-spend.md
+        - name: Ejemplo de recursos humanos
+          href: ../sample-human-resources.md
+        - name: Ejemplo de análisis de oportunidades
+          href: ../sample-opportunity-analysis.md
+        - name: Ejemplo de análisis de adquisiciones
+          href: ../sample-procurement.md
+        - name: Ejemplo de análisis de venta al por menor
+          href: ../sample-retail-analysis.md
+        - name: Ejemplo de ventas y marketing
+          href: ../sample-sales-and-marketing.md
+        - name: Ejemplo de análisis de calidad de proveedores
+          href: ../sample-supplier-quality.md
+        - name: Descarga del libro de ejemplos financieros
+          href: ../sample-financial-download.md
+    - name: Conceptos
+      expanded: true
+      items:
+        - name: Informes de Power BI
+          items:
+            - name: Trabajo con la vista de informes
+              href: ../desktop-report-view.md
+            - name: Tipos de filtros en informes de Power BI
+              href: ../power-bi-report-filter-types.md
+            - name: Filtrado y resaltado en informes
+              href: ../power-bi-reports-filters-and-highlighting.md
+            - name: Muestreo de líneas de alta densidad
+              href: ../desktop-high-density-sampling.md
+            - name: "Acerca de los objetos visuales de Preguntas y respuestas de Power\_BI"
+              href: ../visuals/power-bi-visualization-q-and-a.md
+            - name: "Acerca de la accesibilidad de Power\_BI"
+              href: ../desktop-accessibility-overview.md
+            - name: Preguntas y respuestas sobre el lenguaje natural
+              items:
+                - name: Introducción a Preguntas y respuestas
+                  href: ../natural-language/q-and-a-intro.md
+                - name: Introducción a las herramientas de Preguntas y respuestas
+                  href: ../natural-language/q-and-a-tooling-intro.md
+                - name: Herramientas avanzadas de Preguntas y respuestas
+                  href: ../natural-language/q-and-a-tooling-advanced.md
+                - name: Limitaciones de Preguntas y respuestas
+                  href: ../natural-language/q-and-a-limitations.md
+                - name: Tipos de visualización en Preguntas y respuestas
+                  href: ../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
+        - name: Informes paginados
+          items:
+            - name: "Generador de informes en Power\_BI"
+              href: ../paginated-reports/report-builder-power-bi.md
+            - name: Desplazamiento por la vista Diseño del informe
+              href: ../paginated-reports/paginated-reports-report-design-view.md
+            - name: Planeación de un informe
+              href: ../paginated-reports/report-builder-planning-report.md
+            - name: Datos del generador de informes
+              href: ../paginated-reports/report-builder-data.md
+            - name: Orígenes de datos admitidos
+              href: ../paginated-reports/paginated-reports-data-sources.md
+            - name: Sugerencias de diseño
+              href: ../paginated-reports/report-builder-design-tips.md
+            - name: 'Tablas, matrices y listas'
+              href: ../paginated-reports/report-builder-tables-matrices-lists.md
+            - name: Parámetros
+              href: ../paginated-reports/report-builder-parameters.md
+            - name: Parámetros de dirección URL en los informes paginados
+              href: ../paginated-reports/report-builder-url-parameters.md
+            - name: Ejemplos de expresiones
+              href: ../paginated-reports/report-builder-expression-examples.md
+            - name: Paginación de informes
+              href: ../paginated-reports/paginated-reports-pagination.md
+            - name: Vista previa de los informes
+              href: ../paginated-reports/report-builder-previewing-reports.md
+            - name: Preguntas frecuentes sobre los informes paginados
+              href: ../paginated-reports/paginated-reports-faq.md
+    - name: Guías paso a paso
+      items:
+        - name: Publicación de conjuntos de datos e informes
+          href: ../desktop-upload-desktop-files.md
+        - name: "Adición de objetos visuales a un informe de Power\_BI (parte 1)"
+          href: ../visuals/power-bi-report-add-visualizations-i.md
+        - name: "Adición de objetos visuales a un informe de Power\_BI (parte 2)"
+          href: ../visuals/power-bi-report-add-visualizations-ii.md
+        - name: 'Personalización de los títulos, las leyendas y los fondos de los objetos visuales'
+          href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
+        - name: Característica Mostrar elementos sin datos de Power BI
+          href: ../desktop-show-items-no-data.md
+        - name: Aplicación de la fecha y hora automáticas
+          href: ../desktop-auto-date-time.md
+        - name: Informes de Power BI
+          items:
+            - name: Habilitación de la actualización automática de páginas (versión preliminar)
+              href: ../desktop-automatic-page-refresh.md
+            - name: Examen de los elementos del informe con el Analizador de rendimiento
+              href: ../desktop-performance-analyzer.md
+            - name: Adición de elementos visuales a informes
+              href: ../desktop-visual-elements-for-reports.md
+            - name: Incorporación de información en pantalla para mejorar los objetos visuales
+              href: ../desktop-tooltips.md
+            - name: Exportación de informes a archivos PDF
+              href: ../desktop-export-to-pdf.md
+            - name: Aplicaciones de las conclusiones para explicar las fluctuaciones en objetos visuales (versión preliminar)
+              href: ../desktop-insights.md
+            - name: Uso de las conclusiones para descubrir cómo varían las distribuciones (versión preliminar)
+              href: ../desktop-insights-find-where-different.md
+            - name: Creación de botones
+              href: ../desktop-buttons.md
+            - name: Creación de marcadores para guardar y compartir las conclusiones
+              href: ../desktop-bookmarks.md
+            - name: Trabajo con temas de informes
+              href: ../desktop-report-themes.md
+            - name: "Trabajo con filtros en informes de Power\_BI"
+              href: ../power-bi-report-filter.md
+            - name: Uso de la característica de obtención de detalles
+              href: ../desktop-drillthrough.md
+            - name: Uso de la característica de obtención de detalles de informes cruzados
+              href: ../desktop-cross-report-drill-through.md
+            - name: Aplicación de la agrupación y discretización
+              href: ../desktop-grouping-and-binning.md
+            - name: "Creación de objetos visuales de Power\_BI con R"
+              href: ../desktop-r-visuals.md
+            - name: Descarga y uso de objetos visuales personalizados con tecnología R
+              href: ../desktop-r-powered-custom-visuals.md
+            - name: Aplicación de líneas de la cuadrícula y ajustar a la cuadrícula
+              href: ../desktop-gridlines-snap-to-grid.md
+            - name: "Aplicación de la configuración de presentación de página en informes de Power\_BI"
+              href: ../power-bi-report-display-settings.md
+            - name: Adición de una columna desde un ejemplo
+              href: ../desktop-add-column-from-example.md
+            - name: Adición de una columna personalizada
+              href: ../desktop-add-custom-column.md
+            - name: Uso de etiquetas de jerarquía alineadas
+              href: ../desktop-inline-hierarchy-labels.md
+            - name: Uso de la segmentación de rango numérico
+              href: ../desktop-slicer-numeric-range.md
+            - name: Uso del filtro y la segmentación de fecha relativa
+              href: ../desktop-slicer-filter-date-range.md
+            - name: Creación de una segmentación de datos cuyo tamaño se pueda cambiar
+              href: ../power-bi-slicer-filter-responsive.md
+            - name: Restricción del acceso a datos con seguridad de nivel de fila
+              href: ../desktop-rls.md
+            - name: Personalización de información sobre herramientas
+              href: ../desktop-custom-tooltips.md
+            - name: Adición de cuadros de texto y formas a informes
+              href: ../power-bi-reports-add-text-and-shapes.md
+            - name: Agregar un hipervínculo a un cuadro de texto
+              href: ../service-add-hyperlink-to-text-box.md
+            - name: Incorporación de hipervínculos a una tabla
+              href: ../power-bi-hyperlinks-in-tables.md
+            - name: 'Visualización de imágenes en una tabla, una matriz o una segmentación'
+              href: ../power-bi-images-tables.md
+            - name: Visualización de cadenas de formato personalizado
+              href: ../desktop-custom-format-strings.md
+            - name: Aplicación de formato condicional de tabla
+              href: ../desktop-conditional-table-formatting.md
+            - name: Creación de títulos dinámicos y basados en expresiones
+              href: ../desktop-conditional-format-visual-titles.md
+            - name: Ordenación por columna
+              href: ../desktop-sort-by-column.md
+            - name: Optimización de informes para las aplicaciones móviles
+              href: ../desktop-create-phone-report.md
+            - name: Aplicación de las opciones Ver datos y Ver registros
+              href: ../desktop-see-data-see-records.md
+            - name: Sugerencias y trucos para la creación de informes
+              href: ../desktop-tips-and-tricks-for-creating-reports.md
+            - name: Agrupación de objetos visuales en un informe
+              href: ../desktop-grouping-visuals.md
+            - name: Creación de plantillas de informes
+              href: ../desktop-templates.md
+            - name: Creación de un informe a partir de un conjunto de datos
+              href: ../service-report-create-new.md
+            - name: Agregar un filtro a un informe
+              href: ../power-bi-report-add-filter.md
+            - name: Almacenamiento del informe
+              href: ../service-report-save.md
+            - name: Interacción con un informe en la vista de edición
+              href: ../service-interact-with-a-report-in-editing-view.md
+            - name: Analizar en Excel
+              href: ../service-analyze-in-excel.md
+            - name: Sugerencias y trucos para la creación de informes
+              href: ../power-bi-reports-tips-and-tricks-for-creating.md
+            - name: Trabajo con agregados en el servicio
+              href: ../service-aggregates.md
+            - name: Creación de un código QR para un informe
+              href: ../service-create-qr-code-for-report.md
+            - name: Exportación de un informe a Power BI Desktop (versión preliminar)
+              href: ../service-export-to-pbix.md
+        - name: Visualizaciones
+          items:
+            - name: "Adición de objetos visuales a informes de Power\_BI"
+              href: ../visuals/power-bi-report-visualizations.md
+            - name: "Modificación de objetos visuales en informes de Power\_BI"
+              href: ../visuals/power-bi-report-change-visualization-type.md
+            - name: Aplicación de los límites de punto de datos y estrategias por tipo de objeto visual
+              href: ../visuals/power-bi-data-points.md
+            - name: Visualización de los datos subyacentes de un objeto visual
+              href: ../visuals/service-reports-show-data.md
+            - name: Introducción a las propiedades de eje y formato de color
+              href: ../visuals/service-getting-started-with-color-formatting-and-axis-properties.md
+            - name: Sugerencias y trucos para el formato de color
+              href: ../visuals/service-tips-and-tricks-for-color-formatting.md
+            - name: Copiar y pegado de la visualización de un informe
+              href: ../visuals/power-bi-visualization-copy-paste.md
+            - name: Exportación de los datos que se utilizaron para crear una visualización
+              href: ../visuals/power-bi-visualization-export-data.md
+            - name: 'Traslado, cambio de tamaño y pantalla completa de un objeto visual en un informe'
+              href: ../visuals/power-bi-visualization-move-and-resize.md
+            - name: Cambiar cómo interactúan los objetos visuales en un informe
+              href: ../service-reports-visual-interactions.md
+            - name: Sugerencias y trucos para las visualizaciones de mapas de Power BI
+              href: ../visuals/power-bi-map-tips-and-tricks.md
+            - name: Personalización de las propiedades de los ejes X e Y
+              href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
+            - name: "Interacción con mapas de ArcGIS en objetos visuales de Power\_BI"
+              href: ../visuals/power-bi-visualizations-arcgis.md
+            - name: "Creación de objetos visuales de ArcGIS Maps for Power\_BI"
+              href: ../visuals/power-bi-visualization-arcgis.md
+            - name: Creación y uso de gráficos de área básicos
+              href: ../visuals/power-bi-visualization-basic-area-chart.md
+            - name: Creación de objetos visuales de tarjeta (iconos de números grandes)
+              href: ../visuals/power-bi-visualization-card.md
+            - name: Creación y uso de gráficos combinados
+              href: ../visuals/power-bi-visualization-combo-chart.md
+            - name: Creación y uso de objetos visuales de esquema jerárquico (versión preliminar)
+              href: ../visuals/power-bi-visualization-decomposition-tree.md
+            - name: Creación y uso de gráficos de anillos
+              href: ../visuals/power-bi-visualization-doughnut-charts.md
+            - name: Creación y uso de mapas coropléticos
+              href: ../visuals/power-bi-visualization-filled-maps-choropleths.md
+            - name: Creación y uso de gráficos de embudo
+              href: ../visuals/power-bi-visualization-funnel-charts.md
+            - name: Creación y uso de objetos visuales de influenciadores clave
+              href: ../visuals/power-bi-visualization-influencers.md
+            - name: Creación y uso de objetos visuales de KPI
+              href: ../visuals/power-bi-visualization-kpi.md
+            - name: Creación y uso de objetos visuales de matriz
+              href: ../visuals/desktop-matrix-visual.md
+            - name: "Creación y uso de objetos visuales de Power\_Apps"
+              href: ../visuals/power-bi-visualization-powerapp.md
+            - name: Creación y uso de objetos visuales de R
+              href: ../visuals/service-r-visuals.md
+            - name: Creación y uso de gráficos de medidor radial
+              href: ../visuals/power-bi-visualization-radial-gauge-charts.md
+            - name: Creación y uso de gráficos de franjas
+              href: ../visuals/desktop-ribbon-charts.md
+            - name: 'Creación y uso de gráficos de dispersión, las burbujas y el trazado de puntos'
+              href: ../visuals/power-bi-visualization-scatter.md
+            - name: Uso de gráficos de dispersión de alta densidad
+              href: ../visuals/desktop-high-density-scatter-charts.md
+            - name: Creación y uso de objetos visuales de mapa de formas (versión preliminar)
+              href: ../visuals/desktop-shape-map.md
+            - name: Creación y uso de segmentaciones
+              href: ../visuals/power-bi-visualization-slicers.md
+            - name: "Creación y uso de tablas en informes y paneles de Power\_BI"
+              href: ../visuals/power-bi-visualization-tables.md
+            - name: Creación y uso de gráficos de rectángulos
+              href: ../visuals/power-bi-visualization-treemaps.md
+            - name: Creación y uso de gráficos de cascada
+              href: ../visuals/power-bi-visualization-waterfall-charts.md
+        - name: Preguntas y respuestas sobre el lenguaje natural
+          items:
+            - name: Objeto visual de Preguntas y respuestas
+              href: ../visuals/power-bi-visualization-q-and-a.md
+            - name: Enseñanza de Preguntas y respuestas para la comprensión
+              href: ../natural-language/q-and-a-tooling-teach-q-and-a.md
+            - name: Procedimientos recomendados de Preguntas y respuestas
+              href: ../natural-language/q-and-a-best-practices.md
+            - name: Uso de Preguntas y respuestas para explorar los datos
+              href: ../power-bi-tutorial-q-and-a.md
+            - name: Creación de un objeto visual con Preguntas y respuestas
+              href: ../power-bi-visualization-introduction-to-q-and-a.md
+            - name: Funcionamiento correcto de los datos de Excel con Preguntas y respuestas
+              href: ../service-prepare-data-for-q-and-a.md
+            - name: Crear las preguntas destacadas para Preguntas y respuestas de
+              href: ../service-q-and-a-create-featured-questions.md
+            - name: Uso de preguntas y respuestas con conexiones dinámicas
+              href: ../service-q-and-a-direct-query.md
+            - name: Quick Insights en Power BI
+              href: ../service-insights.md
+            - name: Optimización de los datos para Conclusiones rápidas
+              href: ../service-insights-optimize.md
+        - name: Accesibilidad
+          items:
+            - name: "Diseño de informes accesibles en Power\_BI"
+              href: ../desktop-accessibility-creating-reports.md
+            - name: "Creación de informes de Power\_BI con herramientas de accesibilidad"
+              href: ../desktop-accessibility-creating-tools.md
+            - name: "Consumo de informes de Power\_BI con características de accesibilidad"
+              href: ../desktop-accessibility-consuming-tools.md
+            - name: "Métodos abreviados de teclado en Power\_BI Desktop"
+              href: ../desktop-accessibility-keyboard-shortcuts.md
+        - name: Linaje de datos
+          href: ../service-data-lineage.md
+        - name: Informes paginados
+          items:
+            - name: Escritura directa de datos en un informe paginado
+              href: ../paginated-reports/paginated-reports-enter-data.md
+            - name: Creación de un origen de datos insertados
+              href: ../paginated-reports/paginated-reports-embedded-data-source.md
+            - name: Creación de un conjunto de datos insertados
+              href: ../paginated-reports/paginated-reports-create-embedded-dataset.md
+            - name: "Crear un informe con un conjunto de datos compartido de Power\_BI"
+              href: ../paginated-reports/report-builder-shared-datasets.md
+            - name: Creación de parámetros
+              href: ../paginated-reports/paginated-reports-parameters.md
+            - name: Pasar un parámetro de informe en una dirección URL
+              href: ../paginated-reports/report-builder-url-pass-parameters.md
+            - name: Publicación de un informe paginado
+              href: ../paginated-reports/paginated-reports-save-to-power-bi-service.md
+        - name: Paneles
+          items:
+            - name: Introducción a paneles
+              href: ../service-dashboards.md
+            - name: Los iconos de panel
+              href: ../service-dashboard-tiles.md
+            - name: Creación de un panel desde un informe
+              href: ../service-dashboard-create.md
+            - name: Creación de una copia de un panel
+              href: ../service-dashboard-copy.md
+            - name: Anclar un icono a un panel desde un informe
+              href: ../service-dashboard-pin-tile-from-report.md
+            - name: Anclar un icono desde un panel a otro
+              href: ../service-pin-tile-to-another-dashboard.md
+            - name: Anclar un icono a un panel desde Excel
+              href: ../service-dashboard-pin-tile-from-excel.md
+            - name: Anclar un icono a un panel desde Preguntas y respuestas
+              href: ../service-dashboard-pin-tile-from-q-and-a.md
+            - name: Anclar una página de informe completa a un panel
+              href: ../service-dashboard-pin-live-tile-from-report.md
+            - name: Alertas de datos en el servicio Power BI
+              href: ../service-set-data-alerts.md
+            - name: 'Agregar una imagen, un cuadro de texto, un vídeo o código a un panel'
+              href: ../service-dashboard-add-widget.md
+            - name: Editar un icono
+              href: ../service-dashboard-edit-tile.md
+            - name: Sugerencias para diseñar un panel de Power BI fantástico
+              href: ../service-dashboards-design-tips.md
+            - name: Optimización del panel para teléfonos
+              href: ../service-create-dashboard-mobile-phone-view.md
+            - name: Crear un código QR para un icono
+              href: ../service-create-qr-code-for-tile.md
+            - name: Clasificación de datos del panel
+              href: ../service-data-classification.md
+            - name: Temas de panel
+              href: ../service-dashboard-themes.md
+        - name: Otras tareas
+          items:
+            - name: Cambiar el nombre del contenido dentro de Power BI
+              href: ../service-rename.md
+            - name: Establecimiento de contactos de elemento
+              href: ../service-item-contact.md
+            - name: Eliminar prácticamente cualquier cosa en Power BI
+              href: ../service-delete.md

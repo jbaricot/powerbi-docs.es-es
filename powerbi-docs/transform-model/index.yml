@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: 'Transformación, definición y modelado de datos en Power BI: documentación'
+summary: En la documentación de Power BI se proporciona información de expertos y respuestas a sus necesidades, independientemente de cómo use Power BI.
+metadata:
+  title: 'Transformación, definición y modelado de datos en Power BI: documentación'
+  description: En la documentación de Power BI se proporciona información de expertos y respuestas a sus necesidades, independientemente de cómo use Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: 738bc26097120b0075f3ca1ffb0787f241aec982
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924538"
+landingContent:
+- title: Transformar y dar forma a los datos
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Información general sobre el Editor de consultas
+      url: ../desktop-query-overview.md
+  - linkListType: tutorial
+    links:
+    - text: Dar forma a los datos y combinarlos
+      url: ../desktop-shape-and-combine-data.md
+  - linkListType: concept
+    links:
+    - text: Tareas comunes relacionadas con las consultas
+      url: ../desktop-common-query-tasks.md
+  - linkListType: how-to-guide
+    links:
+    - text: Combinar archivos (binarios)
+      url: ../desktop-combine-binaries.md
+- title: Modelado de datos
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Visualización de modelado
+      url: ../desktop-modeling-view.md
+    - text: Relaciones de varios a varios
+      url: ../desktop-many-to-many-relationships.md
+  - linkListType: how-to-guide
+    links:
+    - text: Creación y administración de relaciones
+      url: ../desktop-create-and-manage-relationships.md
+    - text: Aplicación de la categorización de datos
+      url: ../desktop-data-categorization.md
+- title: Cálculos
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Enseñanza sobre conceptos básicos de DAX
+      url: ../desktop-quickstart-learn-dax-basics.md
+    - text: Creación de columnas calculadas
+      url: ../desktop-tutorial-create-calculated-columns.md
+  - linkListType: concept
+    links:
+    - text: Tablas calculadas
+      url: ../desktop-calculated-tables.md
+  - linkListType: how-to-guide
+    links:
+    - text: Uso de medidas rápidas
+      url: ../desktop-quick-measures.md
+- title: Preparación de datos de autoservicio
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Autoservicio de preparación de los datos en Power BI
+      url: ../desktop-quickstart-connect-to-data.md
+  - linkListType: concept
+    links:
+    - text: 'Flujos de datos: Preparación de datos de autoservicio'
+      url: ../service-dataflows-overview.md
+    - text: Creación y uso de flujos de datos
+      url: ../service-dataflows-create-use.md

@@ -93,12 +93,18 @@
               href: visuals/localization.md
             - name: "Utilidades de objetos visuales de Power\_BI"
               items:
+                - name: Adición de bibliotecas externas
+                  href: visuals/adding-external-libraries.md
                 - name: Utilidades de interactividad
                   href: visuals/utils-interactivity-selections.md
                 - name: Utilidades de formato
                   href: visuals/utils-formatting.md
+                - name: Utilidades de vista de datos
+                  href: visuals/utils-dataview.md
                 - name: Utilidades de gráficos
                   href: visuals/utils-chart.md
+                - name: Útiles de color
+                  href: visuals/utils-color.md
                 - name: Utilidades de SVG
                   href: visuals/utils-svg.md
                 - name: Tipos de utilidad

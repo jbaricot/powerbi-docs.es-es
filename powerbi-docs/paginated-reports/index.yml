@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Documentación de los informes paginados de Power BI
+summary: En la documentación de los informes paginados de Power BI se proporciona información de expertos y respuestas a sus necesidades, independientemente de cómo use Power BI.
+metadata:
+  title: Documentación de los informes paginados de Power BI
+  description: En la documentación de los informes paginados de Power BI se proporciona información de expertos y respuestas a sus necesidades, independientemente de cómo use Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 47a77e156c6b59440e0de500a3f2ab9dede01c85
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924607"
+landingContent:
+- title: Sobre los informes paginados de Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: ¿Qué son los informes paginados de Power BI?
+      url: paginated-reports-report-builder-power-bi.md
+    - text: Generador de informes en Power BI
+      url: report-builder-power-bi.md
+- title: Comenzar
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Creación y carga de un informe paginado
+      url: paginated-reports-quickstart-aw.md
+  - linkListType: concept
+    links:
+    - text: Descripción de la vista de diseño de informe
+      url: paginated-reports-report-design-view.md
+    - text: Planificación de un informe paginado
+      url: report-builder-planning-report.md
+- title: Conectar a datos
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Datos de Report Builder
+      url: report-builder-data.md
+    - text: Orígenes de datos admitidos
+      url: paginated-reports-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: Creación de un origen de datos insertados
+      url: paginated-reports-embedded-data-source.md
+    - text: Creación de un conjunto de datos insertados
+      url: paginated-reports-create-embedded-dataset.md
+- title: Crear informes
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Tablas, matrices y listas
+      url: report-builder-tables-matrices-lists.md
+  - linkListType: how-to-guide
+    links:
+    - text: Creación de un informe sobre un conjunto de datos compartido
+      url: report-builder-shared-datasets.md
+    - text: Creación de parámetros
+      url: paginated-reports-parameters.md
+- title: Refinamiento y publicación de informes
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Ejemplos de expresiones
+      url: report-builder-expression-examples.md
+    - text: Paginación de informes
+      url: paginated-reports-pagination.md
+  - linkListType: how-to-guide
+    links:
+    - text: Pasar un parámetro de informe en una dirección URL
+      url: report-builder-url-pass-parameters.md
+    - text: Publicación de un informe paginado
+      url: paginated-reports-save-to-power-bi-service.md
