@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/25/2020
+ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609913"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260885"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Modelos grandes en Power BI Premium (versión preliminar)
 
@@ -123,7 +123,7 @@ Tenga en cuenta las siguientes restricciones cuando use modelos grandes:
 
 ## <a name="availability-in-regions"></a>Disponibilidad en regiones
 
-Los modelos grandes no están disponibles en todas las regiones en las que se ofrece Power BI. Los modelos grandes de Power BI solo están disponibles en las regiones de Azure que admiten [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers).
+Los modelos grandes de Power BI solo están disponibles en determinadas regiones de Azure que admiten [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers).
 
 En la lista siguiente se indican las regiones en las que están disponibles los modelos grandes en Power BI. Las regiones que no están en la lista siguiente no se admiten para los modelos grandes:
 

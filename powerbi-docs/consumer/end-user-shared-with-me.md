@@ -42,7 +42,7 @@ Tendrá opciones para interactuar con los paneles y los informes compartidos, en
 
 ### <a name="actions-available-from-the-shared-with-me-container"></a>Acciones disponibles en el contenedor **Compartido conmigo**
 Las acciones disponibles dependerán de la configuración que asigna el *diseñador* de contenido. Algunas de las opciones pueden incluir lo siguiente:
-* Seleccione el icono de estrella para añadir un ![icono de estrella](./media/end-user-shared-with-me/power-bi-star-icon.png) de [un panel o informe a Favoritos](end-user-favorite.md).
+* Seleccionar el icono de estrella para [marcar como favorito un panel o informe](end-user-favorite.md) ![icono de estrella](./media/end-user-shared-with-me/power-bi-star-icon.png).
 * Retirada de un panel o informe  ![icono de papelera](./media/end-user-shared-with-me/power-bi-delete-icon.png).
 * Algunos paneles e informes se pueden volver a compartir  ![Icono de uso compartido](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
 * [Abrir el informe en Excel](end-user-export.md) ![icono de Exportar a Excel](./media/end-user-shared-with-me/power-bi-excel.png) 

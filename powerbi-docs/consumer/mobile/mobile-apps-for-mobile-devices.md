@@ -25,7 +25,7 @@ Puede crear informes en Power BI Desktop. Puede crear paneles y ver paneles e in
 
 ### <a name="get-the-app-from-the-application-store"></a>Obtención de la aplicación desde la tienda de aplicaciones 
 
-[![Ir a Power BI en App Store](./media/mobile-apps-for-mobile-devices/mobile-apps-app-store.png)](https://go.microsoft.com/fwlink/?LinkId=526218&clcid=0x409) [![Ir a Power BI en Google Play](./media/mobile-apps-for-mobile-devices/mobile-apps-google-play.png)](https://go.microsoft.com/fwlink/?LinkId=544867&clcid=0x409) [![Ir a Power BI en la Tienda Windows](./media/mobile-apps-for-mobile-devices/mobile-apps-windows-store.png)](https://go.microsoft.com/fwlink/?LinkId=526478&clcid=0x409)
+[![Ir a Power BI en App Store](./media/mobile-apps-for-mobile-devices/mobile-apps-app-store.png)](https://go.microsoft.com/fwlink/?LinkId=526218&clcid=0x409) [ ![Ir a Power BI en Google Play](./media/mobile-apps-for-mobile-devices/mobile-apps-google-play.png)](https://go.microsoft.com/fwlink/?LinkId=544867&clcid=0x409) [![Ir a Power BI en la Tienda Windows](./media/mobile-apps-for-mobile-devices/mobile-apps-windows-store.png)](https://go.microsoft.com/fwlink/?LinkId=526478&clcid=0x409)
 
 ## <a name="mobile-apps-for-different-devices"></a>Aplicaciones móviles para dispositivos diferentes
 

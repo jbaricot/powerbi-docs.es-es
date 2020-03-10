@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/27/2020
-ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.date: 03/02/2020
+ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819546"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237969"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registro de cambios de Power BI Report Server
 
@@ -24,6 +24,14 @@ Para obtener información detallada sobre las nuevas características, consulte 
 
 ## <a name="january-2020"></a>Enero de 2020
 - **Servidor de informes de Power BI**
+    - *Versión: 1.6.7364.4075 (compilación 15.0.1102.777), fecha de publicación: 2 de marzo de 2020*
+         - Correcciones de errores
+           -  Corrección para informes de Power BI que no se pueden cargar para determinados orígenes de datos
+           -  Corrección para la ubicación de descarga del vínculo de Power BI Report Server Desktop desde el portal
+           -  Corrección para DynamicImageDPI para la representación en Excel
+           -  Corrección para las conexiones de Oracle que usan una referencia cultural de subprocesos incorrecta en ciertos escenarios de varios usuarios
+           -  Corrección para el valor predeterminado de CustomHeaders que produce errores en la inserción de informes
+           -  Corrección para los nombres de parámetros de SQL que se general incorrectamente en determinados casos
     - *Versión: 1.6.7327.3007 (compilación 15.0.1102.759), fecha de publicación: 23 de enero de 2020*
          - Características
             -  Exportación de informes de Power BI a Excel.

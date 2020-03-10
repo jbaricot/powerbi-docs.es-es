@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609927"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237992"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -134,6 +134,7 @@ La característica **Publicar en la web** se admite para la gran mayoría de los
 
 - Informes que usan la seguridad de nivel de fila.
 - Informes que usan cualquier origen de datos de conexión dinámica, incluido Analysis Services Tabular hospedado en local, Analysis Service Multidimensional y Azure Analysis Services.
+- Los informes que usan un [conjunto de datos compartido](service-datasets-across-workspaces.md), que se almacena en un área de trabajo diferente del informe.
 - Informes compartidos con usted directamente o a través de un paquete de contenido organizativo.
 - Informes en un grupo en el que no es miembro de edición.
 - Los objetos visuales "R" no se admiten actualmente en informes de **Publicar en la web**.

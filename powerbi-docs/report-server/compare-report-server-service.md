@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 02/13/2020
-ms.openlocfilehash: c760450319f5ca32856520bce9c9f9b67a8616d6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.date: 03/04/2020
+ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427769"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290668"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparación de Power BI Report Server y el servicio Power BI
 
@@ -24,11 +24,11 @@ Power BI Report Server y el servicio Power BI tienen muchas similitudes y alguna
 
 | Características | Power BI Report Server | Servicio Power BI | Notas |
 |---------|---------|---------|---------|
-| Implementación | Local u hospedada en la nube | Nube | Power BI Report Server se puede implementar en máquinas virtuales de Azure (implementación hospedada en la nube) si tiene licencia de Power BI Premium. |
+| Implementación | Local u hospedada en la nube | Nube | Power BI Report Server se puede implementar en máquinas virtuales de Azure (implementación hospedada en la nube) si tiene licencia de Power BI Premium o SQL Server Enterprise con Software Assurance.|
 | Datos de origen | Nube o local | Nube o local |  |
 | Licencia | Power BI Premium o SQL Server EE con Software Assurance (SA) | Power BI Pro o Power BI Premium | |  
 | Ciclo de vida | Directiva de ciclo de vida moderna | Servicio totalmente administrado |  |
-| Ciclo de versiones | Tres veces al año (enero, mayo, septiembre) | Una vez al mes | Las últimas características y correcciones primero se incorporan en el servicio Power BI. La mayoría de las funcionalidades se incorporan en algunas de las próximas versiones de Power BI Report Server; algunas características solo están indicadas para el servicio Power BI. |
+| Ciclo de versiones | Tres veces al año (enero, mayo, septiembre) | Una vez al mes | Las últimas características y correcciones primero se incorporan en el servicio Power BI. Un paquete acumulativo de características de las versiones de Power BI Desktop para el servicio llega a Power BI Report Server en cada versión; la mayoría de las otras características solo están destinadas al servicio Power BI. |
 | Crear informes de Power BI en Power BI Desktop | Sí | Sí |  |
 | Crear informes de Power BI en el explorador | No | Sí |  |
 | Hospedar y conectarse a conjuntos de datos compartidos de Power BI | No | Sí | [Introducción a los conjuntos de datos de áreas de trabajo](../service-datasets-across-workspaces.md) |

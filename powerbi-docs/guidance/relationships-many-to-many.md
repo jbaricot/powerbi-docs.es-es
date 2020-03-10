@@ -6,25 +6,22 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/25/2019
+ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161303"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260468"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Instrucciones para relaciones de varios a varios
 
 Este artículo está dirigido a modeladores de datos como usted que trabajan con Power BI Desktop. Describe tres escenarios diferentes de modelado de varios a varios. También se proporcionan instrucciones sobre cómo diseñarlos correctamente en los modelos.
 
-> [!NOTE]
-> En este artículo no se incluye una introducción a las relaciones de modelo. Si no está familiarizado con las relaciones, sus propiedades o cómo configurarlas, se recomienda que primero lea el artículo [Relaciones de modelos en Power BI Desktop](../desktop-relationships-understand.md).
->
-> También es importante que conozca el diseño del esquema de estrella. Para más información, vea [Descripción de un esquema de estrella e importancia para Power BI](star-schema.md).
+[!INCLUDE [relationships-prerequisite-reading](includes/relationships-prerequisite-reading.md)]
 
-En realidad, hay tres escenarios varios a varios. Se pueden producir cuando tiene que:
+En realidad, hay tres escenarios de varios a varios. Se pueden producir cuando tiene que:
 
 - [Relacionar dos tablas de tipo de dimensión](#relate-many-to-many-dimensions)
 - [Relacionar dos tablas de tipo de hechos](#relate-many-to-many-facts)
@@ -164,7 +161,7 @@ El objeto visual presenta un resultado exacto. Pero la utilidad del modelo es li
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Instrucciones para la relación de hechos varios a varios
 
-Por lo general, no se recomienda relacionar directamente dos tablas de tipo de hechos mediante la cardinalidad de varios a varios. La razón principal es que el modelo no proporcionará flexibilidad a los objetos visuales de informe para filtrar o agrupar. En el ejemplo, solo es posible que los objetos visuales filtren o agrupen por la columna **OrderID** de la tabla **Order**. Un motivo adicional está relacionado con la calidad de los datos. Si los datos tienen problemas de integridad, es posible que algunas filas se omitan durante las consultas debido a la naturaleza de la _relación débil_. Para más información, vea [Evaluación de las relaciones](../desktop-relationships-understand.md#relationship-evaluation).
+Por lo general, no se recomienda relacionar directamente dos tablas de tipo de hechos mediante la cardinalidad de varios a varios. La razón principal es que el modelo no proporcionará flexibilidad a los objetos visuales de informe para filtrar o agrupar. En el ejemplo, solo es posible que los objetos visuales filtren o agrupen por la columna **OrderID** de la tabla **Order**. Un motivo adicional está relacionado con la calidad de los datos. Si los datos tienen problemas de integridad, es posible que algunas filas se omitan durante las consultas debido a la naturaleza de la _relación débil_. Para más información, consulte [Creación de relaciones de modelos en Power BI Desktop (Evaluación de las relaciones)](../desktop-relationships-understand.md#relationship-evaluation).
 
 En lugar de relacionar directamente tablas de tipos de hechos, se recomienda adoptar principios de diseño de [esquema de estrella](star-schema.md). Para ello, agregue tablas de tipo de dimensión. Las tablas de tipo de dimensión se relacionan con las tablas de tipo de hechos mediante relaciones de uno a varios. Este enfoque de diseño es robusto, ya que ofrece opciones de informe flexibles. Permite filtrar o agrupar con cualquiera de las columnas de tipo de dimensión y resumir cualquier tabla de tipo de hechos relacionada.
 
@@ -187,7 +184,7 @@ Dedicar tiempo a aplicar los principios de diseño de esquema de estrella ofrece
 - Los objetos visuales del informe pueden _filtrar o agrupar_ por cualquier columna visible de las tablas de tipo de dimensión.
 - Los objetos visuales del informe pueden _resumir_ por cualquier columna visible de las tablas de tipo de hechos.
 - Los filtros aplicados a las tablas **OrderLine**, **OrderDate** o **Product** se propagarán a ambas tablas de tipo de hechos.
-- Todas las relaciones son de uno a varios, y cada una es una _relación sólida_. Los problemas de integridad de los datos no se enmascaran. Para más información, vea [Evaluación de las relaciones](../desktop-relationships-understand.md#relationship-evaluation).
+- Todas las relaciones son de uno a varios, y cada una es una _relación sólida_. Los problemas de integridad de los datos no se enmascaran. Para más información, consulte [Creación de relaciones de modelos en Power BI Desktop (Evaluación de las relaciones)](../desktop-relationships-understand.md#relationship-evaluation).
 
 ## <a name="relate-higher-grain-facts"></a>Relación de hechos con un nivel de detalle más alto
 
@@ -300,4 +297,6 @@ Para obtener más información sobre este artículo, consulte los recursos sigui
 
 - [Relaciones de modelos en Power BI Desktop](../desktop-relationships-understand.md)
 - [Descripción de un esquema de estrella e importancia para Power BI](star-schema.md)
+- [Instrucciones para solución de problemas de relaciones](relationships-troubleshoot.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)

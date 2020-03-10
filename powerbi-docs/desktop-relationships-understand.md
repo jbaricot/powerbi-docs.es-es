@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
-ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
+ms.openlocfilehash: 7be55c8b44a89ad5b317743b62e033cf34a01ef9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "76309102"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290691"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>Creación de relaciones de modelos en Power BI Desktop
 
@@ -65,13 +65,13 @@ En la siguiente lista con viñetas se describen las cuatro opciones, junto con s
 - Uno a uno (1:1)
 - Varios a varios (\*:\*)
 
-Cuando se crea una relación en Power BI Desktop, el diseñador detecta y establece automáticamente el tipo de cardinalidad. Puede hacerlo porque consulta el modelo para saber qué columnas contienen valores únicos. En el caso de los modelos de importación, utiliza estadísticas de almacenamiento internas; en el caso de los modelos DirectQuery, envía consultas de generación de perfiles al origen de datos. En ocasiones, sin embargo, puede equivocarse. Esto sucede porque todavía tienen que cargarse los datos de las tablas o porque las columnas que se espera que contengan valores duplicados actualmente contienen valores únicos. En cualquiera de estos casos, puede actualizar el tipo de cardinalidad, siempre que las columnas del lado "uno" contengan valores únicos (o la tabla aún se deba cargar con filas de datos).
+Cuando se crea una relación en Power BI Desktop, el diseñador detecta y establece automáticamente el tipo de cardinalidad. El diseñador consulta el modelo para saber qué columnas contienen valores únicos. En el caso de los modelos de importación, utiliza estadísticas de almacenamiento internas; en el caso de los modelos DirectQuery, envía consultas de generación de perfiles al origen de datos. En ocasiones, sin embargo, puede equivocarse. Esto sucede porque todavía tienen que cargarse los datos de las tablas o porque las columnas que se espera que contengan valores duplicados actualmente contienen valores únicos. En cualquiera de estos casos, puede actualizar el tipo de cardinalidad, siempre que las columnas del lado "uno" contengan valores únicos (o la tabla aún se deba cargar con filas de datos).
 
 Las opciones de cardinalidad de **uno a varios** y **varios a uno** son esencialmente iguales y son también los tipos de cardinalidad más comunes.
 
 A la hora de configurar una relación de uno a varios o de varios a uno, deberá elegir la que coincida con el orden en el que relacionó las columnas. Considere cómo configuraría la relación desde la tabla **Product** (Producto) a la tabla **Sales** (Ventas) mediante la columna **ProductID** (IdProducto) incluida en cada tabla. El tipo de cardinalidad sería de _uno a varios_, ya que la columna **ProductID** (IdProducto) de la tabla **Product** (Producto) contiene valores únicos. Si relacionó las tablas en dirección inversa, de **Sales** (Ventas) a **Product** (Producto), la cardinalidad sería de _varios a uno_.
 
-Una relación de **uno a uno** significa que ambas columnas contienen valores únicos. Este tipo de cardinalidad no es común y probablemente representa un diseño de modelo poco óptimo debido al almacenamiento de datos redundantes.<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
+Una relación de **uno a uno** significa que ambas columnas contienen valores únicos. Este tipo de cardinalidad no es común y probablemente representa un diseño de modelo poco óptimo debido al almacenamiento de datos redundantes. Para obtener más información sobre el uso de este tipo de cardinalidad, vea [Instrucciones para relaciones uno a uno](guidance/relationships-one-to-one.md).
 
 Una relación de **varios a varios** significa que ambas columnas pueden contener valores duplicados. Este tipo de cardinalidad no se usa con frecuencia. Suele resultar útil cuando se diseñan requisitos de modelos complejos. Para obtener instrucciones sobre el uso de este tipo de cardinalidad, vea [Instrucciones para relaciones de varios a varios](guidance/relationships-many-to-many.md).
 
@@ -95,13 +95,13 @@ La dirección del filtro cruzado _Único_ significa "dirección única" y _Ambos
 
 En el caso de las relaciones de uno a varios, la dirección del filtro cruzado siempre es desde el lado "uno" y, opcionalmente, desde el lado "varios" (bidireccional). En el caso de las relaciones de uno a uno, la dirección del filtro cruzado siempre es desde ambas tablas. Por último, en las relaciones de varios a varios, la dirección del filtro cruzado puede ser desde cualquiera de las tablas o desde ambas tablas. Tenga en cuenta que cuando el tipo de cardinalidad incluye un lado "uno", los filtros siempre se propagarán desde ese lado.
 
-Si la dirección del filtro cruzado se establece en **Ambos**, hay disponible una propiedad adicional para aplicar el filtrado bidireccional cuando se aplican reglas de seguridad de nivel de fila (RLS). Para más información sobre la seguridad de nivel de fila, consulte el artículo [Seguridad de nivel de fila (RLS) con Power BI Desktop](desktop-rls.md).
+Cuando la dirección del filtro cruzado se establece en **Ambos**, se dispone de una propiedad adicional. Puede aplicar el filtrado bidireccional cuando se aplican las reglas de seguridad de nivel de fila (RLS). Para más información sobre la seguridad de nivel de fila, consulte el artículo [Seguridad de nivel de fila (RLS) con Power BI Desktop](desktop-rls.md).
 
 La dirección del filtro cruzado de la relación, incluida la deshabilitación de la propagación de filtros, también puede modificarse mediante un cálculo del modelo. Esto se consigue gracias el uso de la función DAX [CROSSFILTER](/dax/crossfilter-function).
 
 Las relaciones bidireccionales pueden afectar negativamente al rendimiento. Además, intentar configurar una relación bidireccional podría producir rutas de propagación de filtro ambiguas. En este caso, es posible que Power BI Desktop no pueda confirmar el cambio de relación y le avisará con un mensaje de error. Sin embargo, a veces Power BI Desktop puede permitir que se definan rutas de relación ambiguas entre las tablas. Las reglas de precedencia que afectan a la detección de ambigüedades y la resolución de rutas se describen más adelante en este artículo, en el tema [Reglas de precedencia](#precedence-rules).
 
-Se recomienda usar el filtrado bidireccional solo cuando sea necesario.<!-- For guidance on bi-directional filtering, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
+Se recomienda usar el filtrado bidireccional solo cuando sea necesario. Para obtener más información, vea [Instrucciones para relaciones bidireccionales](guidance/relationships-bidirectional-filtering.md).
 
 > [!TIP]
 > En la vista de modelo de Power BI Desktop, puede interpretar la dirección del filtro cruzado de una relación mediante las puntas de flecha a lo largo de la línea de relación. Una sola punta de flecha representa un filtro de dirección única en la dirección de la punta de flecha; una punta de flecha doble representa una relación bidireccional.
@@ -110,7 +110,7 @@ Se recomienda usar el filtrado bidireccional solo cuando sea necesario.<!-- For 
 
 Solo puede haber una ruta de propagación de filtros activa entre dos tablas del modelo. Sin embargo, es posible introducir rutas de relación adicionales, aunque estas relaciones deben configurarse como _inactivas_. Las relaciones inactivas solo se pueden activar durante la evaluación de un cálculo del modelo. Esto se consigue mediante el uso de la función DAX [USERELATIONSHIP](/dax/userelationship-function-dax).
 
-<!--For guidance on defining inactive relationships, see the [Active vs inactive relationship guidance](guidance/relationships-active-inactive) article.-->
+Para más información, consulte [Instrucciones para elegir entre relaciones activas e inactivas](guidance/relationships-active-inactive.md).
 
 > [!TIP]
 > En la vista de modelo de Power BI Desktop, puede interpretar el estado activo o inactivo de una relación. Una relación activa se representa mediante una línea continua; una relación inactiva se representa como una línea discontinua.
@@ -119,7 +119,7 @@ Solo puede haber una ruta de propagación de filtros activa entre dos tablas del
 
 La propiedad _Asumir integridad referencial_ solo está disponible para las relaciones de uno a varios y uno a uno entre dos tablas del modo de almacenamiento DirectQuery basadas en el mismo origen de datos. Cuando está habilitada, las consultas nativas enviadas al origen de datos combinan las dos tablas utilizando una combinación interna en lugar de una combinación externa. La habilitación de esta propiedad mejora, por lo general, el rendimiento de la consulta, aunque depende de las características específicas del origen de datos.
 
-Esta propiedad siempre debe estar habilitada cuando existe una restricción de clave externa de base de datos entre las dos tablas. Si no existe una restricción de clave externa, puede habilitar la propiedad siempre y cuando tenga la certeza de que existe integridad de datos.
+Habilite siempre esta propiedad cuando existe una restricción de clave externa de base de datos entre las dos tablas. Si no existe una restricción de clave externa, puede habilitar la propiedad siempre y cuando tenga la certeza de que existe integridad de datos.
 
 > [!IMPORTANT]
 > Si se pone en peligro la integridad de los datos, la combinación interna eliminará las filas no coincidentes entre las tablas. Por ejemplo, supongamos que tenemos una tabla **Sales** (Ventas) del modelo con un valor en la columna **ProductID** (IdProducto) que no existe en la tabla relacionada **Product** (Producto). La propagación del filtro de la tabla **Product** (Producto) a la tabla **Sales** (Ventas) eliminaría las filas de ventas de los productos desconocidos. Esto daría lugar a una subestimación de los resultados de ventas.
@@ -164,7 +164,7 @@ En el ejemplo siguiente, hay dos relaciones fuertes, ambas marcadas como **F**. 
 
 En el caso de los modelos de importación, donde todos los datos se almacenan en la caché de Vertipaq, se crea una estructura de datos para cada relación fuerte en el momento de la actualización de datos. Las estructuras de datos están formadas por asignaciones indexadas de todos los valores de columna a columna y su finalidad es acelerar la combinación de las tablas en el momento de la consulta.
 
-Cuando se produce la consulta, las relaciones fuertes permiten que se produzca la _expansión de la tabla_. Esta expansión da como resultado la creación de una tabla virtual mediante la inclusión de las columnas nativas de la tabla base y, a continuación, su expansión en tablas relacionadas. En el caso de las tablas de importación, esto se lleva a cabo en el motor de consultas; en el caso de las tablas de DirectQuery, se lleva a cabo en la consulta nativa que se envía a la base de datos de origen (siempre que la propiedad "Asumir integridad referencial" no esté habilitada). A continuación, el motor de consultas actúa sobre la tabla expandida, aplicando los filtros y agrupando según los valores de las columnas de la tabla expandida.
+Cuando se produce la consulta, las relaciones fuertes permiten que se produzca la _expansión de la tabla_. Esta expansión da como resultado la creación de una tabla virtual mediante la inclusión de las columnas nativas de la tabla base y, a continuación, su expansión en tablas relacionadas. En el caso de las tablas de importación, esto se lleva a cabo en el motor de consultas; en el caso de las tablas de DirectQuery, se lleva a cabo en la consulta nativa que se envía a la base de datos de origen (siempre que la propiedad **Asumir integridad referencial** no esté habilitada). A continuación, el motor de consultas actúa sobre la tabla expandida, aplicando los filtros y agrupando según los valores de las columnas de la tabla expandida.
 
 > [!NOTE]
 > También se expanden las relaciones inactivas, incluso si la relación no se utiliza en ningún cálculo. Las relaciones bidireccionales no tienen ningún impacto en la expansión de tablas.
@@ -221,12 +221,16 @@ En la lista siguiente se ordena el rendimiento de la propagación de filtros, de
 3. Relaciones de modelo de varios a varios logradas con una tabla intermediaria y que implican al menos una relación bidireccional
 4. Relaciones entre islas
 
-<!--For further information and guidance on many-to-many relationships, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
-
 ## <a name="next-steps"></a>Pasos siguientes
 
+Para más información sobre este artículo, consulte los recursos siguientes:
+
 - [Descripción de un esquema de estrella e importancia para Power BI](guidance/star-schema.md)
+- [Instrucciones para relaciones uno a uno](guidance/relationships-one-to-one.md)
 - [Instrucciones para relaciones de varios a varios](guidance/relationships-many-to-many.md)
-- Vídeo: [Qué se debe hacer y qué no con las relaciones de Power BI](https://youtu.be/78d6mwR8GtA)
+- [Instrucciones para elegir entre relaciones activas e inactivas](guidance/relationships-active-inactive.md)
+- [Instrucciones para relaciones bidireccionales](guidance/relationships-bidirectional-filtering.md)
+- [Instrucciones para solución de problemas de relaciones](guidance/relationships-troubleshoot.md)
+- Vídeo: [Qué se debe hacer y qué no con las relaciones de Power BI](https://www.youtube.com/watch?v=78d6mwR8GtA)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-- ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com)
+- ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)
