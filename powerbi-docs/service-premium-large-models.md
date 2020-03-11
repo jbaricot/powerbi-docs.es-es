@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: 007ff786fcee5d2a7b7237ad578a202cfcf25b69
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260885"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401938"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Modelos grandes en Power BI Premium (versión preliminar)
 
@@ -123,7 +123,7 @@ Tenga en cuenta las siguientes restricciones cuando use modelos grandes:
 
 ## <a name="availability-in-regions"></a>Disponibilidad en regiones
 
-Los modelos grandes de Power BI solo están disponibles en determinadas regiones de Azure que admiten [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers).
+Los modelos grandes de Power BI solo están disponibles en determinadas regiones de Azure que admiten [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
 
 En la lista siguiente se indican las regiones en las que están disponibles los modelos grandes en Power BI. Las regiones que no están en la lista siguiente no se admiten para los modelos grandes:
 
@@ -156,7 +156,7 @@ En la lista siguiente se indican las regiones en las que están disponibles los 
 
 Los vínculos siguientes proporcionan información que puede ser útil para trabajar con modelos grandes:
 
-* [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
 * [Configuración de compatibilidad con Multi-Geo en Power BI Premium](service-admin-premium-multi-geo.md)
 * [Sus propias claves de cifrado para Power BI](service-encryption-byok.md)
 * [Cómo funcionan las capacidades](service-premium-what-is.md#how-capacities-function)

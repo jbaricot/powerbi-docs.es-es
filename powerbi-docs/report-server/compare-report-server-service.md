@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 4c48b9c2695c7feab5897527c9ff2fbf2a2d0455
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290668"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920933"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparación de Power BI Report Server y el servicio Power BI
 
@@ -41,7 +41,7 @@ Power BI Report Server y el servicio Power BI tienen muchas similitudes y alguna
 | Preguntas y respuestas | No | Sí | [Preguntas y respuestas en el servicio Power BI y Power BI Desktop](../power-bi-tutorial-q-and-a.md) 
 | Información rápida | No | Sí | [Generación automática de información sobre los datos con Power BI](../consumer/end-user-insights.md) |
 | Analizar en Excel | No | Sí | [Analizar en Excel](../service-analyze-in-excel.md) 
-| Informes paginados | Sí | Sí | Los [informes paginados están disponibles en el servicio Power BI](../paginated-reports-report-builder-power-bi.md), en la versión preliminar en una capacidad Premium. |
+| Informes paginados | Sí | Sí | Los [informes paginados están disponibles en el servicio Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md), en la versión preliminar en una capacidad Premium. |
 | Aplicaciones móviles de Power BI | Sí | Sí | [Información general sobre aplicaciones móviles de Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | Mapas de ArcGIS | No | Sí | [Tutorial de mapas de ArcGIS de Esri en el servicio Power BI y Power BI Desktop](../visuals/power-bi-visualization-arcgis.md) |
 | Suscripciones de correo electrónico para los informes de Power BI | No | Sí | [Suscripción personal o de otros usuarios](../service-report-subscribe.md) a un informe o panel en el servicio Power BI |

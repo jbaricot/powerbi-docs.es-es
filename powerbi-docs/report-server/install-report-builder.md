@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
-ms.openlocfilehash: 1cf8797939eafb69734ecd0f4be752926d1994a1
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953927"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919845"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>Instalación de Report Builder: Power BI Report Server
 
 Report Builder es una aplicación independiente que el usuario o un administrador pueden instalar en el equipo. Puede instalarla desde el Centro de descarga de Microsoft o Power BI Report Server.  
 
-¿Busca ayuda con la instalación de Report Builder para el servicio Power BI? Consulte en su lugar [Power BI Report Builder](../report-builder-power-bi.md).
+¿Busca ayuda con la instalación de Report Builder para el servicio Power BI? Consulte en su lugar [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md).
   
 Un administrador normalmente instala y configura Power BI Report Server, concede permiso para descargar Report Server desde el portal web y administra las carpetas y los permisos para los informes y los conjuntos de datos compartidos guardados en el servidor de informes. Para obtener más información sobre la administración de Power BI Report Server, consulte [Introducción a la administración de Power BI Report Server](admin-handbook-overview.md).  
   

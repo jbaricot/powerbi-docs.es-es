@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871491"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041732"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creación de una aplicación de plantilla en Power BI
 
@@ -58,7 +58,7 @@ Para crear una aplicación de plantilla que se pueda distribuir a otros inquilin
 
 Como sucede con un área de trabajo estándar de Power BI, el siguiente paso consiste en crear el contenido en el área de trabajo.  
 
-- [Cree el contenido de Power BI](power-bi-creator-landing.md) en el área de trabajo de la aplicación.
+- [Cree el contenido de Power BI](index.yml) en el área de trabajo de la aplicación.
 
 Si va a usar parámetros en Power Query, asegúrese de que tengan tipos bien definidos (por ejemplo, Texto). Los tipos Todo y Binario no se admiten.
 
@@ -95,7 +95,7 @@ Ahora que tiene contenido en el área de trabajo, está listo para empaquetarlo 
 
     Establezca las limitaciones y restricciones que tendrán los usuarios de la aplicación con el contenido de esta. Puede usar este control para proteger la propiedad intelectual que la aplicación pueda contener.
 
-    ![Control](media/service-template-apps-create/power-bi-create-control.png)
+    ![Controlar](media/service-template-apps-create/power-bi-create-control.png)
 
     >[!NOTE]
     >Siempre está bloqueada la exportación a formato .pbix para los usuarios que instalen la aplicación.
