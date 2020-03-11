@@ -211,7 +211,7 @@
                 - name: API REST de Power BI
                   href: 'https://msdn.microsoft.com/library/mt147898.aspx'
                 - name: Referencia de la API de REST de Power BI
-                  href: rest-api-reference.md
+                  href: automation/rest-api-reference.md
             - name: Descarga de SDK de .NET
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: Inserción de diseños personalizados en una aplicación
@@ -242,43 +242,43 @@
         - name: Información general
           items:
             - name: ¿Qué puedo hacer con la API de Power BI?
-              href: overview-of-power-bi-rest-api.md
+              href: automation/overview-of-power-bi-rest-api.md
         - name: Tutoriales
           items:
             - name: Inserción de datos en un conjunto de datos
-              href: walkthrough-push-data.md
+              href: automation/walkthrough-push-data.md
             - name: Obtener un token de acceso de autenticación
-              href: walkthrough-push-data-get-token.md
+              href: automation/walkthrough-push-data-get-token.md
             - name: Crear un conjunto de datos
-              href: walkthrough-push-data-create-dataset.md
+              href: automation/walkthrough-push-data-create-dataset.md
             - name: Obtener un conjunto de datos para agregar filas
-              href: walkthrough-push-data-get-datasets.md
+              href: automation/walkthrough-push-data-get-datasets.md
             - name: Agregar filas a una tabla
-              href: walkthrough-push-data-add-rows.md
+              href: automation/walkthrough-push-data-add-rows.md
         - name: Conceptos
           items:
             - name: Directiva de retención automática para datos en tiempo real
-              href: api-automatic-retention-policy-for-real-time-data.md
+              href: automation/api-automatic-retention-policy-for-real-time-data.md
             - name: Inserción de datos
               items:
                 - name: Limitaciones de la API de REST de Power BI
-                  href: api-rest-api-limitations.md
+                  href: automation/api-rest-api-limitations.md
                 - name: Propiedades del conjunto de datos
-                  href: api-dataset-properties.md
+                  href: automation/api-dataset-properties.md
                 - name: Control de versiones de modelos de datos
-                  href: api-data-model-versioning.md
+                  href: automation/api-data-model-versioning.md
         - name: Procedimiento
           items:
             - name: Configurar credenciales
-              href: configure-credentials.md
+              href: automation/configure-credentials.md
         - name: Referencia
           items:
             - name: API de REST
               href: 'https://docs.microsoft.com/rest/api/power-bi'
             - name: Referencia de la API de REST de Power BI
-              href: rest-api-reference.md
+              href: automation/rest-api-reference.md
             - name: Lista de código completa
-              href: walkthrough-push-data-complete-code.md
+              href: automation/walkthrough-push-data-complete-code.md
         - name: Recursos
           items:
             - name: Centro de desarrollo
