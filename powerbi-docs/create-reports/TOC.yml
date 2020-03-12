@@ -313,8 +313,6 @@
               href: ../desktop-accessibility-consuming-tools.md
             - name: "Métodos abreviados de teclado en Power\_BI Desktop"
               href: ../desktop-accessibility-keyboard-shortcuts.md
-        - name: Linaje de datos
-          href: ../service-data-lineage.md
         - name: Informes paginados
           items:
             - name: Escritura directa de datos en un informe paginado

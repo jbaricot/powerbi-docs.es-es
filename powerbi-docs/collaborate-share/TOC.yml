@@ -31,6 +31,8 @@
               href: ../service-create-distribute-apps.md
             - name: Administración de almacenamiento de datos en áreas de trabajo
               href: ../service-admin-manage-your-data-storage-in-power-bi.md
+            - name: Linaje de datos
+              href: service-data-lineage.md
             - name: Conexión a los archivos de OneDrive de su grupo
               href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Colaboración en un área de trabajo clásica
