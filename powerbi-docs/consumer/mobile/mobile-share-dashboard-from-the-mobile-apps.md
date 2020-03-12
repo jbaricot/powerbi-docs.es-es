@@ -1,19 +1,19 @@
 ---
 title: Compartir un panel o un informe desde aplicaciones móviles de Power BI
 description: Para invitar a otros usuarios a ver sus paneles e informes, comparta vínculos desde las aplicaciones móviles de Power BI. Descubra cómo hacerlo.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/20/2018
-ms.author: mshenhav
-ms.openlocfilehash: 70ecd56f2823e608aa62deb4a5033f53272d3382
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 07ddf82b120e0e4b77b7545863b536282f849de3
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221056"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114425"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Compartir un panel o un informe desde aplicaciones móviles de Power BI
 Se aplica a:

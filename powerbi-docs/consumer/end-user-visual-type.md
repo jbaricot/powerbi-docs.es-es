@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039097"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114177"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de objetos visuales en Power BI
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
+
 Encontrará objetos visuales en informes, paneles y preguntas y respuestas. Algunos de estos tipos de objetos visuales se empaquetan con Power BI y otros son *objetos visuales personalizados*. Los objetos visuales personalizados se crean fuera de Power BI y de una manera que permite a los *diseñadores* de informes agregarlos a paneles e informes de Power BI. 
 
 En este artículo se proporciona información general sobre los objetos visuales que se empaquetan con el servicio Power BI.  Estos son los objetos visuales que encontrará con mayor frecuencia. Para obtener información detallada sobre cualquiera de estos objetos visuales, vea la [documentación del *diseñador* de informes de Power BI sobre los tipos de objetos visuales](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).

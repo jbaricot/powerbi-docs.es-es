@@ -9,14 +9,16 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 1aaacfae3c9af4517f6b028852e46059884dd3d5
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888533"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113841"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interacción con objetos visuales en informes, paneles y aplicaciones
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 En su concepto más básico, una ***visualización*** (u *objeto visual*) es un tipo de gráfico generado por *diseñadores* de Power BI que utiliza los datos de los informes y los conjuntos de datos. 
 

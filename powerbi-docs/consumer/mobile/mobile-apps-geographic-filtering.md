@@ -1,18 +1,18 @@
 ---
 title: Filtrar un informe por ubicación geográfica en una aplicación móvil de Power BI
 description: Aprenda cómo filtrar un informe por ubicación geográfica en las aplicaciones móviles de Microsoft Power BI, si el propietario del informe estableció etiquetas geográficas.
-author: mshenhav
+author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/25/2019
-ms.author: mshenhav
-ms.openlocfilehash: 002ddeac915b2b2b67570e8b4078a175de09aaef
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: d4e8ab0effef52071f592902a6c2fdb2649ff52d
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538207"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114782"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Filtrar un informe por ubicación geográfica en las aplicaciones móviles de Power BI
 Se aplica a:
