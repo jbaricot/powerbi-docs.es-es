@@ -2,26 +2,41 @@
   href: /
   topicHref: /
   items:
-    - name: "Power\_BI"
-      tocHref: /power-bi/
-      topicHref: /power-bi/
+    - name: "Power\_Platform"
+      href: /power-platform/
+      topicHref: /power-platform/
       items:
-        - name: Consumidores
-          tocHref: /power-bi/consumer/
-          topicHref: /power-bi/consumer/power-bi-consumer-landing
-        - name: Desarrollador
-          tocHref: /power-bi/developer/
-          topicHref: /power-bi/developer/index
+        - name: "Power\_BI"
+          tocHref: /power-bi/
+          topicHref: /power-bi/
           items:
-            - name: Uso de objetos visuales de Power BI con tecnología de R en Power BI
+            - name: Consumidores
+              tocHref: /power-bi/consumer/
+              topicHref: /power-bi/consumer/index
+            - name: Desarrollador
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
-        - name: Aprendizaje guiado
-          tocHref: /power-bi/guided-learning/
-          topicHref: /power-bi/guided-learning/
-        - name: Servidor de informes
-          tocHref: /power-bi/report-server/
-          topicHref: /power-bi/report-server/get-started
-        - name: Instrucciones
-          tocHref: /power-bi/guidance/
-          topicHref: /power-bi/guidance/index
+            - name: Aprendizaje guiado
+              tocHref: /power-bi/guided-learning/
+              topicHref: /power-bi/guided-learning/
+            - name: Servidor de informes
+              tocHref: /power-bi/report-server/
+              topicHref: /power-bi/report-server/index
+            - name: Instrucciones
+              tocHref: /power-bi/guidance/
+              topicHref: /power-bi/guidance/index
+            - name: 'Colaboración, uso compartido e integración'
+              tocHref: /power-bi/collaborate-share/
+              topicHref: /power-bi/collaborate-share/index
+            - name: Creación de informes y paneles
+              tocHref: /power-bi/create-reports/
+              topicHref: /power-bi/create-reports/index
+            - name: Conectar a datos
+              tocHref: /power-bi/connect-data/
+              topicHref: /power-bi/connect-data/index
+            - name: Comenzar
+              tocHref: /power-bi/fundamentals/
+              topicHref: /power-bi/fundamentals/index
+            - name: Transformación y modelado de datos
+              tocHref: /power-bi/transform-model/
+              topicHref: /power-bi/transform-model/index

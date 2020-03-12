@@ -7,6 +7,8 @@
       items:
         - name: ¿Qué son las aplicaciones móviles?
           href: mobile-apps-for-mobile-devices.md
+        - name: Novedades en las aplicaciones móviles
+          href: mobile-whats-new-in-the-mobile-apps.md
         - name: Presentación de la página principal
           href: mobile-apps-home-page.md
     - name: Inicios rápidos
@@ -22,8 +24,6 @@
     - name: Conceptos
       expanded: true
       items:
-        - name: Novedades en las aplicaciones móviles
-          href: mobile-whats-new-in-the-mobile-apps.md
         - name: Obtención de datos del mundo real con las aplicaciones móviles
           href: mobile-apps-data-in-real-world-context.md
         - name: Consulta de datos sin conexión en las aplicaciones móviles
@@ -44,8 +44,6 @@
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Favoritos en las aplicaciones móviles
               href: mobile-apps-favorites.md
-            - name: Configuración de las opciones de interacción (solo teléfono)
-              href: mobile-app-interaction-settings.md
             - name: Establecer alertas de datos en las aplicaciones móviles de Power BI
               href: mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Recibir notificaciones en las aplicaciones móviles de Power BI
@@ -70,6 +68,8 @@
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
             - name: Escanear un código de barras desde la aplicación móvil de Power BI
               href: mobile-apps-scan-barcode-iphone.md
+            - name: Configuración de las opciones de interacción
+              href: mobile-app-interaction-settings.md
             - name: Configuración mediante la administración de dispositivos móviles
               href: mobile-app-configuration.md
         - name: iOS
@@ -100,7 +100,7 @@
               href: mobile-windows-10-phone-app-get-started.md
             - name: Anclar un panel a la pantalla Inicio
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Ver informes móviles y KPI de Reporting Services
+            - name: Visualización de informes locales y KPI
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: Visualización de Power BI en Surface Hub
               href: mobile-windows-10-app-presentation-mode.md

@@ -19,7 +19,7 @@
     - name: Conceptos
       expanded: true
       items:
-        - name: Creación de relaciones de modelos
+        - name: Descripción de las relaciones de modelos
           href: ../desktop-relationships-understand.md
         - name: Trabajo con la vista de modelado
           href: ../desktop-modeling-view.md
