@@ -10,11 +10,11 @@ ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
 ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870890"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79213612"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribuir Power BI contenido a usuarios invitados externos mediante Azure Active Directory B2B
 
@@ -38,7 +38,7 @@ En estas notas del producto se explican todos los detalles que necesita para com
 > [!NOTE]
 > En estas notas del producto, se hace referencia a Azure Active Directory como Azure AD y Azure Active Directory negocio a negocio como Azure AD B2B.
 
-## <a name="scenarios"></a>Situación
+## <a name="scenarios"></a>Escenarios
 
 Contoso es un fabricante de automóviles y trabaja con muchos proveedores distintos que le proporcionan todos los componentes, materiales y servicios necesarios para ejecutar sus operaciones de fabricación. Contoso desea simplificar la logística de la cadena de suministro y planear el uso de Power BI para supervisar las métricas de rendimiento clave de su cadena de suministro. Contoso desea compartir con el análisis de los asociados de la cadena de suministro externa de una manera segura y administrable.
 
@@ -218,7 +218,7 @@ La integración de Power BI con Azure AD B2B ofrece a contoso una forma sencilla
 
 - El equipo de BI de Contoso crea un área de trabajo en Power BI
 
-    ![Área](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
+    ![workspace](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
 - Otros autores se agregan al área de trabajo
@@ -336,7 +336,7 @@ Es importante reconocer que la cuenta de Azure AD se usará o se creará en el A
 Contoso puede elegir uno de los tres métodos para conceder licencias a los usuarios invitados de sus proveedores y organizaciones asociadas para tener acceso a Power BI contenido.
 
 > [!NOTE]
-> _El nivel gratis de Azure ad B2B's es suficiente para usar Power BI con Azure ad B2B. Algunas características de Azure AD B2B avanzadas, como los grupos dinámicos, requieren licencias adicionales. Consulte la documentación de Azure ad B2B para obtener información adicional:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _El nivel gratis de Azure ad B2B's es suficiente para usar Power BI con Azure ad B2B. Algunas características de Azure AD B2B avanzadas, como los grupos dinámicos, requieren licencias adicionales. Consulte la documentación de Azure ad B2B para obtener información adicional:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>Enfoque 1: contoso usa Power BI Premium
 
@@ -586,7 +586,7 @@ En el ejemplo anterior, los usuarios de cada proveedor inician sesión en el por
 
 Dentro de la aplicación Web, se insertan Power BI informes desde una implementación de Power BI Embedded. La aplicación web simplificaría el acceso a los informes y todos los servicios relacionados en una experiencia coherente para facilitar a los proveedores la interacción con contoso. Este entorno de portal se aislaría del entorno de Power BI interno de AAD de Contoso y del de Contoso para asegurarse de que los proveedores no podían acceder a esos recursos. Normalmente, los datos se almacenarían en un almacén de datos asociado independiente para garantizar también el aislamiento de los datos. Este aislamiento tiene ventajas, ya que limita el número de usuarios externos con acceso directo a los datos de la organización, lo que limita los datos que podrían estar disponibles para el usuario externo y limita el uso compartido accidental con usuarios externos.
 
-Con Power BI Embedded, el portal puede aprovechar las licencias ventajosas, mediante el token de la aplicación o el usuario maestro más la capacidad Premium adquirida en el modelo de Azure, lo que simplifica los problemas relacionados con la asignación de licencias a los usuarios finales, y puede escalar o reducir verticalmente según lo previsto. uso. El portal puede ofrecer una experiencia global y una mayor calidad, ya que los asociados acceden a un solo portal diseñado pensando en todas las necesidades de los asociados. Por último, como las soluciones basadas en Power BI Embedded suelen estar diseñadas para ser multiinquilino, facilita el aislamiento entre organizaciones asociadas.
+Con Power BI Embedded, el portal puede aprovechar las licencias ventajosas, mediante el token de la aplicación o el usuario maestro más la capacidad Premium adquirida en el modelo de Azure, lo que simplifica los problemas relacionados con la asignación de licencias a los usuarios finales, y puede escalar o reducir verticalmente en función del uso esperado. El portal puede ofrecer una experiencia global y una mayor calidad, ya que los asociados acceden a un solo portal diseñado pensando en todas las necesidades de los asociados. Por último, como las soluciones basadas en Power BI Embedded suelen estar diseñadas para ser multiinquilino, facilita el aislamiento entre organizaciones asociadas.
 
 Razones para elegir esta alternativa:
 
@@ -606,7 +606,7 @@ Razones para no elegir esta alternativa:
 
 
 
-## <a name="faq"></a>PREGUNTAS MÁS FRECUENTES
+## <a name="faq"></a>Preguntas más frecuentes
 
 **¿Puede contoso enviar una invitación para que se canjee automáticamente, de modo que el usuario esté "listo para funcionar"? ¿O el usuario siempre tiene que hacer clic en la dirección URL de canje?**
 
