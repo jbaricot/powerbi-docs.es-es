@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 656f7e532702cef8c38af96e8c9df49ffc36734a
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75304355"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381408"
 ---
 # <a name="power-bi-security-whitepaper"></a>Notas del producto sobre la seguridad de Power BI
 
@@ -45,7 +45,7 @@ Cada implementación de Power BI consta de dos clústeres: un front-end web (**W
 
 ![WFE y back-end](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI usa Azure Active Directory (**AAD**) para la autenticación y administración de cuentas. Power BI también usa **Azure Traffic Manager (ATM)** para dirigir el tráfico del usuario al centro de datos más cercano, según el registro DNS del cliente que se intenta conectar, durante el proceso de autenticación y para descargar archivos y contenido estático. Power BI usa el WFE más cercano geográficamente para distribuir de forma eficaz el contenido estático y los archivos necesarios a los usuarios, a excepción de los objetos visuales personalizados que se entregan mediante la **Content Delivery Network (CDN) de Azure**.
+Power BI usa Azure Active Directory (**AAD**) para la autenticación y administración de cuentas. Power BI también usa **Azure Traffic Manager (ATM)** para dirigir el tráfico del usuario al centro de datos más cercano, según el registro DNS del cliente que se intenta conectar, durante el proceso de autenticación y para descargar archivos y contenido estático. Power BI usa el WFE más cercano geográficamente para distribuir de forma eficaz el contenido estático y los archivos necesarios a los usuarios, con la excepción de Power BI objetos visuales que se entregan mediante la **Content Delivery Network de Azure (CDN)** .
 
 ### <a name="the-wfe-cluster"></a>El clúster WFE
 
@@ -127,7 +127,7 @@ Microsoft también proporciona centros de datos para nubes soberanas. Para obten
 
 Para obtener más información sobre dónde se almacenan los datos y cómo se usan, vea [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where). Los compromisos sobre la ubicación de los datos de cliente en reposo se especifican en los **Términos de procesamiento de datos** de los [Términos de Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31).
 
-## <a name="user-authentication"></a>Autenticación de usuarios
+## <a name="user-authentication"></a>Autenticación de usuario
 
 La autenticación de usuarios en el servicio Power BI consta de una serie de solicitudes, respuestas y redireccionamientos entre el explorador del usuario y el servicio Power BI o los servicios de Azure que se usan en Power BI. Esa secuencia describe el proceso de autenticación de usuarios en Power BI. Para más información sobre las opciones para los modelos de autenticación de usuarios (modelos de inicio de sesión) de una organización, vea [Choosing a sign-in model for Office 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/) (Elección de un modelo de inicio de sesión para Office 365).
 
@@ -165,7 +165,7 @@ En el servicio Power BI, los datos están _en reposo_ (datos disponibles para un
 
 El servicio Power BI también administra los datos de otra forma en función de si se accede a ellos mediante **DirectQuery** o importación. Por tanto, hay dos categorías de datos de usuario para Power BI: los datos a los que se accede con DirectQuery y los datos a los que no se accede con DirectQuery.
 
-**DirectQuery** es una consulta para la que se ha traducido la consulta de un usuario de Power BI del lenguaje Expresiones de análisis de datos (DAX) de Microsoft (que es el que se usa en Power BI y otros productos de Microsoft para crear consultas) al lenguaje de datos nativo del origen de datos (por ejemplo, T-SQL u otros lenguajes de base de datos nativos). Los datos asociados con DirectQuery se almacenan solo por referencia, lo que significa que los datos de origen no se almacenan en Power BI cuando DirectQuery no está activa (excepto los datos de visualización que se usan para mostrar paneles e informes, como se describe en la sección _Datos en curso (movimiento de datos)_, a continuación). En su lugar, se almacenan referencias a los datos de DirectQuery, que permiten acceder a esos datos cuando se ejecuta DirectQuery. Una instancia de DirectQuery contiene toda la información necesaria para ejecutar la consulta, incluida la cadena de conexión y las credenciales que se usan para acceder a los orígenes de datos, lo que permite a DirectQuery conectarse a los orígenes de datos incluidos para la actualización automática. Con DirectQuery, la información del modelo de datos subyacente se incorpora a DirectQuery.
+**DirectQuery** es una consulta para la que se ha traducido la consulta de un usuario de Power BI del lenguaje Expresiones de análisis de datos (DAX) de Microsoft (que es el que se usa en Power BI y otros productos de Microsoft para crear consultas) al lenguaje de datos nativo del origen de datos (por ejemplo, T-SQL u otros lenguajes de base de datos nativos). Los datos asociados con DirectQuery se almacenan solo por referencia, lo que significa que los datos de origen no se almacenan en Power BI cuando DirectQuery no está activa (excepto los datos de visualización que se usan para mostrar paneles e informes, como se describe en la sección _Datos en curso (movimiento de datos)_ , a continuación). En su lugar, se almacenan referencias a los datos de DirectQuery, que permiten acceder a esos datos cuando se ejecuta DirectQuery. Una instancia de DirectQuery contiene toda la información necesaria para ejecutar la consulta, incluida la cadena de conexión y las credenciales que se usan para acceder a los orígenes de datos, lo que permite a DirectQuery conectarse a los orígenes de datos incluidos para la actualización automática. Con DirectQuery, la información del modelo de datos subyacente se incorpora a DirectQuery.
 
 Una consulta de un conjunto de datos de importación consta de una colección de consultas DAX que _no_ se traducen directamente al lenguaje nativo de ningún origen de datos subyacente. Las consultas de importación no incluyen credenciales para los datos subyacentes, y estos se cargan en el servicio Power BI a menos que sean datos locales a los que se accede a través de una instancia de [Power BI Gateway](service-gateway-onprem.md), en cuyo caso la consulta solo almacena referencias a datos locales.
 
@@ -223,7 +223,7 @@ Para los orígenes de datos basados en la nube, el rol de movimiento de datos ci
         - Si se establece el conjunto de datos para la actualización, las credenciales se almacenan cifradas en la instancia de Azure SQL Database de Movimiento de datos. La clave de cifrado se almacena en el equipo que ejecuta la puerta de enlace en la infraestructura del cliente.
         - Si el conjunto de datos no se establece para la actualización, no se almacena ninguna credencial para los orígenes de datos
 
-1. datos
+1. Datos
 
     a. Instancia local de Analysis Services y DirectQuery: no se almacena nada en el servicio Power BI.
 
@@ -253,7 +253,7 @@ Power BI proporciona supervisión de integridad de datos de las maneras siguient
 
 2. Datos estáticos
 
-   Los datos estáticos incluyen artefactos como imágenes de fondo y objetos visuales personalizados.
+   Los datos estáticos incluyen artefactos como imágenes de fondo y objetos visuales de Power BI.
 
     &ensp; &ensp;. Para los informes creados con Excel para Office 365, no se almacena nada.
 
@@ -274,7 +274,7 @@ Power BI proporciona supervisión de integridad de datos de las maneras siguient
 
 1. Cachés: los datos necesarios para los objetos visuales en el panel normalmente se almacenan en caché y se almacenan cifrados en Azure SQL Database. Otros iconos como los objetos visuales anclados desde Excel o SQL Server Reporting Services (SSRS) se almacenan en Azure Blob como imágenes y también se cifran.
 
-2. Datos estáticos: se incluyen artefactos como imágenes de fondo y objetos visuales personalizados que se almacenan, cifrados, en Azure Blob Storage.
+2. Datos estáticos: que incluyen artefactos como imágenes de fondo y Power BI objetos visuales que se almacenan, cifran, en Azure BLOB Storage.
 
 Con independencia del método de cifrado que se use, Microsoft administra el cifrado de claves en nombre de los clientes, ya sea en un almacén de secretos o en Azure Key Vault.
 
@@ -300,7 +300,7 @@ Los dispositivos no volátiles son dispositivos que tienen memoria que persiste 
     c. Datos insertados: ninguno (no aplicable).
 
     d. ETL: ninguno (no se almacenada nada en el nodo de proceso diferente a lo que se ha explicado en la sección **Datos en reposo** anterior)
-4. datos
+4. Datos
 
     Algunos artefactos de datos se pueden almacenar en el disco de los nodos de proceso durante un período de tiempo limitado.
 
@@ -347,7 +347,7 @@ En la tabla siguiente se muestra la compatibilidad de autenticación basada en c
 
 | **Compatibilidad con CBA** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
-| **Power BI** (inicio de sesión en el servicio) | Admitido | Admitido | No admitido |
+| **Power BI** (inicio de sesión en el servicio) | compatibles | compatibles | No admitido |
 | **SSRS ADFS** (conectarse al servidor SSRS) | No admitido | Admitido | No admitido |
 
 Las aplicaciones Power BI Mobile se comunican activamente con el servicio Power BI. Se usan datos de telemetría para recopilar estadísticas de uso y datos similares de las aplicaciones móviles, que se transmiten a los servicios que se usan para supervisar el uso y la actividad; no se envían datos personales con los datos de telemetría.
@@ -372,7 +372,7 @@ Las preguntas siguientes son preguntas y respuestas comunes sobre seguridad para
 
 **¿Cómo se conectan los usuarios y obtienen acceso a los orígenes de datos mientras usan Power BI?**
 
-* **Credenciales de Power BI y credenciales de dominio:** Los usuarios inician sesión en Power BI mediante una dirección de correo electrónico; Cuando un usuario intenta conectarse a un recurso de datos, Power BI pasa la dirección de correo electrónico de inicio de sesión de Power BI como credenciales. Para los recursos conectados a un dominio (ya sea local o basado en la nube), el servicio de directorio compara el correo electrónico de inicio de sesión con un _Nombre principal de usuario_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) para determinar si existen credenciales suficientes para permitir el acceso. En las organizaciones que usan direcciones de correo electrónico de trabajo para iniciar sesión en Power BI (el mismo correo electrónico que usan para iniciar sesión en recursos de trabajo, como _david@contoso.com_), la asignación se puede producir sin problemas; en las organizaciones que no han usado direcciones de correo electrónico de trabajo (como _david@contoso.onmicrosoft.com_), se debe establecer la asignación de directorios con el fin de permitir el acceso a los recursos locales mediante credenciales de inicio de sesión de Power BI.
+* **Credenciales de Power BI y credenciales de dominio:** Los usuarios inician sesión en Power BI mediante una dirección de correo electrónico; Cuando un usuario intenta conectarse a un recurso de datos, Power BI pasa la dirección de correo electrónico de inicio de sesión de Power BI como credenciales. Para los recursos conectados a un dominio (ya sea local o basado en la nube), el servicio de directorio compara el correo electrónico de inicio de sesión con un _Nombre principal de usuario_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) para determinar si existen credenciales suficientes para permitir el acceso. En las organizaciones que usan direcciones de correo electrónico de trabajo para iniciar sesión en Power BI (el mismo correo electrónico que usan para iniciar sesión en recursos de trabajo, como _david@contoso.com_ ), la asignación se puede producir sin problemas; en las organizaciones que no han usado direcciones de correo electrónico de trabajo (como _david@contoso.onmicrosoft.com_ ), se debe establecer la asignación de directorios con el fin de permitir el acceso a los recursos locales mediante credenciales de inicio de sesión de Power BI.
 
 * **SQL Server Analysis Services y Power BI:** En el caso de las organizaciones que usan SQL Server Analysis Services locales, Power BI ofrece la Power BI puerta de enlace de datos local (que es una **puerta de enlace**, como se hace referencia en las secciones anteriores).  La puerta de enlace de datos local de Power BI puede exigir la seguridad de nivel de rol (RLS) en los orígenes de datos. Para más información sobre RLS, vea **Autenticación de usuarios en orígenes de datos** anteriormente en este documento. Para obtener más información acerca de las puertas de enlace, consulte [puerta de enlace de datos local](service-gateway-onprem.md).
 
@@ -394,7 +394,7 @@ Las preguntas siguientes son preguntas y respuestas comunes sobre seguridad para
 
 **¿Qué ocurre con la seguridad basada en roles, el uso compartido de informes, paneles y conexiones de datos? ¿Cómo funciona en cuanto al acceso a datos, la visualización del panel, el acceso a informes o la actualización?**
 
-* Para los orígenes de datos habilitados que **no admiten la seguridad de nivel de rol (RLS)**, si un panel, informe o modelo de datos se comparte con otros usuarios a través de Power BI, los datos estarán disponibles para verlos e interactuar con ellos para los usuarios con los que se hayan compartido. Power BI *no* vuelve a autenticar a los usuarios en el origen inicial de los datos; una vez que los datos se cargan en Power BI, el usuario que se ha autenticado en el origen de datos es responsable de administrar qué usuarios y grupos pueden ver los datos.
+* Para los orígenes de datos habilitados que **no admiten la seguridad de nivel de rol (RLS)** , si un panel, informe o modelo de datos se comparte con otros usuarios a través de Power BI, los datos estarán disponibles para verlos e interactuar con ellos para los usuarios con los que se hayan compartido. Power BI *no* vuelve a autenticar a los usuarios en el origen inicial de los datos; una vez que los datos se cargan en Power BI, el usuario que se ha autenticado en el origen de datos es responsable de administrar qué usuarios y grupos pueden ver los datos.
 
   Cuando se realizan conexiones de datos a un origen de datos compatible con **RLS**, como un origen de datos de Analysis Services, solo se almacenan en caché en Power BI los datos de paneles. Cada vez que se ve o se accede a un informe o conjunto de datos en Power BI en el que se usan datos procedentes del origen de datos compatible con RLS, el servicio Power BI accede al origen de datos para obtener datos en función de las credenciales del usuario, y si existen permisos suficientes, los datos se cargan en el modelo de datos o informe para ese usuario. Si se produce un error de autenticación, el usuario verá un error.
 
@@ -406,7 +406,7 @@ Las preguntas siguientes son preguntas y respuestas comunes sobre seguridad para
 
 **¿Cómo funcionan los grupos de Power BI?**
 
-* Los grupos de Power BI permiten a los usuarios colaborar de forma rápida y sencilla en la creación de paneles, informes y modelos de datos dentro de equipos establecidos. Por ejemplo, si tiene un grupo de Power BI que incluye a todos los usuarios del equipo inmediato, puede colaborar fácilmente con todos los integrantes del equipo si selecciona el grupo desde Power BI. Los grupos de Power BI son equivalentes a los grupos universales de Office 365 (que puede [crear](https://support.office.com/Article/View-create-and-delete-Groups-in-the-Office-365-admin-center-a6360120-2fc4-46af-b105-6a04dc5461c7) y [administrar](https://support.office.com/Article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a), y de los que puede [obtener más información](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1)) y usan los mismos mecanismos de autenticación que se utilizan en Azure Active Directory para proteger los datos. Puede [crear grupos en Power BI](https://support.powerbi.com/knowledgebase/articles/654250) o crear un grupo universal en el Centro de administración de Microsoft 365; en ambos casos, el resultado es el mismo para la creación de grupos en Power BI.
+* Los grupos de Power BI permiten a los usuarios colaborar de forma rápida y sencilla en la creación de paneles, informes y modelos de datos dentro de equipos establecidos. Por ejemplo, si tiene un grupo de Power BI que incluye a todos los usuarios del equipo inmediato, puede colaborar fácilmente con todos los integrantes del equipo si selecciona el grupo desde Power BI. Los grupos de Power BI son equivalentes a los grupos universales de Office 365 (que puede [crear](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1) y [administrar](https://support.office.com/Article/View-create-and-delete-Groups-in-the-Office-365-admin-center-a6360120-2fc4-46af-b105-6a04dc5461c7), y de los que puede [obtener más información](https://support.office.com/Article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)) y usan los mismos mecanismos de autenticación que se utilizan en Azure Active Directory para proteger los datos. Puede [crear grupos en Power BI](https://support.powerbi.com/knowledgebase/articles/654250) o crear un grupo universal en el Centro de administración de Microsoft 365; en ambos casos, el resultado es el mismo para la creación de grupos en Power BI.
 
   Tenga en cuenta que los datos compartidos con grupos de Power BI siguen la misma consideración de seguridad que cualquier dato compartido en Power BI. Para los orígenes de datos que no son **RLS**, Power BI **no** vuelve a autenticar a los usuarios en los datos originales, y una vez que los datos se cargan en Power BI, el usuario que se ha autenticado en el origen de datos es responsable de administrar qué usuarios y grupos pueden ver los datos. Para más información vea la sección **Autenticación de usuarios en orígenes de datos** anteriormente en este documento.
 
@@ -438,16 +438,16 @@ Las preguntas siguientes son preguntas y respuestas comunes sobre seguridad para
 
   En función de la información proporcionada durante la conexión inicial al servicio Power BI, el explorador del usuario contacta con la instancia de Azure **CDN** especificada (o para algunos archivos, el **WFE**) para descargar la colección de archivos comunes especificados que se necesitan para habilitar la interacción del explorador con el servicio Power BI. Luego, la página del explorador incluye el token de AAD, la información de la sesión, la ubicación del clúster de **back-end** asociado y la colección de archivos descargados desde Azure **CDN** y el clúster **WFE**, para la duración de la sesión de explorador del servicio Power BI.
 
-**Para los objetos visuales personalizados, ¿realiza Microsoft alguna evaluación de seguridad o privacidad del código del objeto visual personalizado antes de publicar elementos en la Galería?**
+**En el caso de los objetos visuales de Power BI, ¿Microsoft realiza alguna evaluación de seguridad o privacidad del código Visual personalizado antes de publicar elementos en la galería?**
 
-* Núm. Es responsabilidad del cliente revisar y determinar si se debe confiar en el código del objeto visual personalizado. El código de todos los objetos visuales personalizados funciona en un entorno de espacio aislado, por lo que cualquier código incorrecto en un objeto visual personalizado no afecta de forma negativa al resto del servicio Power BI.
+* No. Es responsabilidad del cliente revisar y determinar si se debe confiar en el código del objeto visual personalizado. El código de todos los objetos visuales personalizados funciona en un entorno de espacio aislado, por lo que cualquier código incorrecto en un objeto visual personalizado no afecta de forma negativa al resto del servicio Power BI.
 
 **¿Hay otros objetos visuales de Power BI que envían información fuera de la red del cliente?**
 
 * Sí. Los objetos visuales Bing Maps y ESRI transmiten datos fuera del servicio Power BI para los objetos visuales que usan esos servicios.
 
 **En el caso de las aplicaciones de plantilla, ¿Microsoft realiza alguna evaluación de seguridad o privacidad de la aplicación de plantilla antes de publicar elementos en la galería?**
-* Núm. El publicador de la aplicación es responsable del contenido, mientras que la responsabilidad del cliente es revisar y determinar si debe confiar en el publicador de la aplicación de plantilla. 
+* No. El publicador de la aplicación es responsable del contenido, mientras que la responsabilidad del cliente es revisar y determinar si debe confiar en el publicador de la aplicación de plantilla. 
 
 **¿Hay aplicaciones de plantilla que pueden enviar información fuera de la red del cliente?**
 * Sí. Es responsabilidad del cliente revisar la Directiva de privacidad del editor y determinar si se debe instalar la aplicación de plantilla en el inquilino. Además, el publicador es responsable de notificar el comportamiento y las capacidades de la aplicación.
@@ -480,7 +480,7 @@ Para obtener más información sobre Power BI, vea los recursos siguientes.
 - [Introducción a Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
 - [Información general sobre la API REST de Power BI](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Referencia de la API de Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)
+- [Puerta de enlace de datos local](service-gateway-onprem.md)
 - [Nubes nacionales de Power BI](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Uso de Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales](service-gateway-sso-overview.md)
