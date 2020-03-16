@@ -129,6 +129,8 @@
               href: ../desktop-insights-find-where-different.md
             - name: Creación de botones
               href: ../desktop-buttons.md
+            - name: Creación de botones de obtención de detalles
+              href: ../desktop-drill-through-buttons.md
             - name: Creación de marcadores para guardar y compartir las conclusiones
               href: ../desktop-bookmarks.md
             - name: Trabajo con temas de informes
