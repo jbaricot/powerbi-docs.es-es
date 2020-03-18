@@ -145,7 +145,7 @@
               href: ../desktop-grouping-and-binning.md
             - name: "Creación de objetos visuales de Power\_BI con R"
               href: ../desktop-r-visuals.md
-            - name: Descarga y uso de objetos visuales personalizados con tecnología R
+            - name: "Descarga y uso de objetos visuales de Power\_BI con tecnología de R"
               href: ../desktop-r-powered-custom-visuals.md
             - name: Aplicación de líneas de la cuadrícula y ajustar a la cuadrícula
               href: ../desktop-gridlines-snap-to-grid.md
