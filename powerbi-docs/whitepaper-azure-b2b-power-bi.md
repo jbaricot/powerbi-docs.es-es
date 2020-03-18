@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79213612"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488600"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribuir Power BI contenido a usuarios invitados externos mediante Azure Active Directory B2B
 
@@ -336,7 +336,7 @@ Es importante reconocer que la cuenta de Azure AD se usará o se creará en el A
 Contoso puede elegir uno de los tres métodos para conceder licencias a los usuarios invitados de sus proveedores y organizaciones asociadas para tener acceso a Power BI contenido.
 
 > [!NOTE]
-> _El nivel gratis de Azure ad B2B's es suficiente para usar Power BI con Azure ad B2B. Algunas características de Azure AD B2B avanzadas, como los grupos dinámicos, requieren licencias adicionales. Consulte la documentación de Azure ad B2B para obtener información adicional:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _El nivel gratis de Azure ad B2B's es suficiente para usar Power BI con Azure ad B2B. Algunas características de Azure AD B2B avanzadas, como los grupos dinámicos, requieren licencias adicionales. Consulte la documentación de Azure ad B2B para obtener información adicional:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>Enfoque 1: contoso usa Power BI Premium
 
@@ -576,7 +576,7 @@ Razones para no elegir esta alternativa:
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>Opción 2 alternativa: creación de una aplicación de Power BI Embedded personalizada mediante la autenticación personalizada
 
-Otra opción para contoso es crear su propia aplicación de Power BI incrustada personalizada con autenticación personalizada (["la aplicación posee los datos"](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers)). Aunque muchas organizaciones no tienen el tiempo o los recursos necesarios para crear una aplicación personalizada para distribuir Power BI contenido a sus asociados externos, para algunas organizaciones es el mejor enfoque y merece una consideración seria.
+Otra opción para contoso es crear su propia aplicación de Power BI incrustada personalizada con autenticación personalizada (["la aplicación posee los datos"](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers)). Aunque muchas organizaciones no tienen el tiempo o los recursos necesarios para crear una aplicación personalizada para distribuir Power BI contenido a sus asociados externos, para algunas organizaciones es el mejor enfoque y merece una consideración seria.
 
 A menudo, las organizaciones disponen de portales de partners que centralizan el acceso a todos los recursos de la organización para asociados, proporcionan aislamiento de los recursos internos de la organización y proporcionan experiencias simplificadas para que los asociados admitan muchos asociados y sus usuarios individuales.
 
