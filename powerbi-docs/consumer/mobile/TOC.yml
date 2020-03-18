@@ -110,3 +110,5 @@
       items:
         - name: Idiomas admitidos en las aplicaciones móviles
           href: mobile-apps-supported-languages.md
+        - name: "Power\_BI para Windows\_10 en dispositivos móviles: fin del soporte técnico para teléfonos Windows"
+          href: 'https://go.microsoft.com/fwlink/?linkid=2121400'
