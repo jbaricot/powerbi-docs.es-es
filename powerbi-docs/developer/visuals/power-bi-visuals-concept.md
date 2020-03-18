@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75925590"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378161"
 ---
 # <a name="visuals-in-power-bi"></a>Objetos visuales en Power BI
 
@@ -22,7 +22,7 @@ En este artículo se describe cómo los objetos visuales se integran con Power 
 
 En la ilustración siguiente se muestra cómo se procesan en Power BI las acciones comunes basadas en objetos visuales que realiza un usuario, como la selección de un marcador.
 
-![Diagrama de acciones de objetos visuales de Power BI](./media/visual-concept.svg)
+![Diagrama de acciones de objetos visuales de Power BI](media/power-bi-visuals-concept/visual-concept.svg)
 
 ## <a name="visuals-get-updates-from-power-bi"></a>Los objetos visuales obtienen actualizaciones de Power BI
 
@@ -131,4 +131,4 @@ Las acciones y posteriores actualizaciones de los objetos visuales de Power BI 
 ¿Está interesado en crear visualizaciones y agregarlas a Microsoft AppSource? Consulte estos artículos:
 
 * [Desarrollo de un objeto visual de Power BI](./custom-visual-develop-tutorial.md)
-* [Publicación de objetos visuales de Power BI en el Centro de partners](../office-store.md)
+* [Publicación de objetos visuales de Power BI en el Centro de partners](office-store.md)

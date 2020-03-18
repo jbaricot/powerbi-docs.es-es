@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427815"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381270"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Incorporación de hipervínculos (direcciones URL) a una tabla o matriz
 En este tema se enseña cómo agregar hipervínculos (direcciones URL) a una tabla. Usará Power BI Desktop para agregar hipervínculos (direcciones URL) a un conjunto de datos. Esos hipervínculos se pueden agregar luego a las tablas y matrices de informes de Power BI Desktop o del servicio Power BI. De esta manera, puede mostrar la dirección URL o un icono de vínculo, o dar formato a otra columna como texto de vínculo.
@@ -125,7 +125,7 @@ Otra manera de agregar hipervínculos a las tablas y matrices de Power BI es cre
    
    ![Lista desplegable de categorías de datos en Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
 
-6. En el servicio Power BI o Power BI Desktop, conéctese a este libro o impórtelo.
+6. En el servicio Power BI o Power BI Desktop, conéctese a este libro o impórtelo.
 7. Cree una visualización de la tabla que incluya el campo de dirección URL.
    
    ![Crear una tabla en Power BI con el campo de dirección URL](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)

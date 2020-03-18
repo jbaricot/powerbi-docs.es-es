@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496746"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205559"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configuración remota de la aplicación de Power BI mediante la herramienta de administración de dispositivos móviles (MDM)
 
@@ -22,8 +22,8 @@ La aplicación Power BI Mobile para iOS y Android admite la configuración de l
 La aplicación de Power BI Mobile admite los escenarios de configuración siguientes:
 
 * Configuración del servidor de informes (iOS y Android)
-* Configuración de la protección de datos (iOS y Android)
-* Configuración de la interacción (Android)
+* Configuración de la protección de datos (iOS)
+* Configuración de la interacción (iOS y Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Configuración del servidor de informes (iOS y Android)
 
@@ -38,19 +38,23 @@ La aplicación Power BI para iOS y Android permite a los administradores "inser
 
 ## <a name="data-protection-settings-ios"></a>Configuración de la protección de datos (iOS)
 
-La aplicación de Power BI para iOS y Android ofrece a los administradores la capacidad de personalizar la configuración predeterminada para las opciones de seguridad y privacidad. Puede obligar a que los usuarios proporcionen su identificación Face ID, Touch ID o un código de acceso al acceder a la aplicación de Power BI.
+La aplicación de Power BI para ofrece a los administradores la capacidad de personalizar la configuración predeterminada para las opciones de seguridad y privacidad. Puede obligar a que los usuarios proporcionen su identificación Face ID, Touch ID o un código de acceso al acceder a la aplicación de Power BI.
 
 | Clave | Tipo | Descripción |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Booleano | El valor predeterminado es False. <br><br>La identificación biométrica, como Touch ID o Face ID, puede ser requerida para que los usuarios puedan acceder a la aplicación en su dispositivo. Cuando es requerida, la identificación biométrica se usa además de la autenticación.<br><br>Si usa directivas de protección de aplicaciones, Microsoft recomienda deshabilitar esta opción para impedir solicitudes de acceso dobles. |
 
-## <a name="interaction-settings-android"></a>Configuración de la interacción (Android)
+## <a name="interaction-settings-ios-and-android"></a>Configuración de la interacción (iOS y Android)
 
-La aplicación de Power BI para Android ofrece a los administradores la posibilidad de configurar las opciones de interacción, en el caso de que se opte por cambiar la configuración de la interacción predeterminada entre grupos de usuarios de una organización. 
+La aplicación de Power BI para iOS y Android ofrece a los administradores la posibilidad de configurar las opciones de interacción, en el caso de que se opte por cambiar la configuración de la interacción predeterminada entre grupos de usuarios de una organización.
+
+>[!NOTE]
+>Actualmente, no todas las interacciones se admiten en todos los dispositivos. Consulte [Configuración de las opciones de interacción de los informes](mobile-app-interaction-settings.md) para ver un gráfico que muestra la disponibilidad actual en todos los dispositivos.
 
 | Clave | Tipo | Valores | Descripción |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | Cadena |  <nobr>pulsación única</nobr><br><nobr>pulsar dos veces</nobr> | Configure si la acción de pulsar un objeto visual también realiza la selección de un punto de datos. |
+| com.microsoft.powerbi.mobile.EnableMultiSelect | Booleano |  <nobr>True</nobr><br><nobr>False</nobr> | Configure si la acción de pulsar un punto de datos reemplazará la selección actual o agregará el elemento seleccionado a la selección actual. |
 | com.microsoft.powerbi.mobile.RefreshAction | Cadena |  <nobr>deslizar para actualizar</nobr><br>Nuevo… | Configure si el usuario dispondrá de un botón para actualizar el informe, o bien deberá usar la acción de deslizar para actualizar. |
 | com.microsoft.powerbi.mobile.FooterAppearance | Cadena |  acoplado<br>dinámico | Permite configurar si el pie de página del informe se acoplará a la parte inferior del informe o se ocultará de forma automática. |
 

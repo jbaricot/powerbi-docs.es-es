@@ -9,17 +9,17 @@ ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73853642"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207882"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicación de una aplicación en Power BI
 
 En Power BI, puede crear contenido empaquetado oficial y luego distribuirlo a un público amplio como una *aplicación*. Las aplicaciones se crean en *áreas de trabajo*, donde puede colaborar en contenido de Power BI con compañeros de trabajo. Después, puede publicar las aplicaciones terminadas en grandes grupos de usuarios de su organización. 
 
-![Aplicaciones de Power BI](media/service-create-distribute-apps/power-bi-new-apps.png)
+![Aplicaciones de Power BI](media/service-create-distribute-apps/power-bi-new-apps.png)
 
 Los usuarios empresariales suelen necesitar varios paneles e informes de Power BI para hacer funcionar sus negocios. Con las aplicaciones de Power BI, puede crear colecciones de paneles e informes, y publicarlas para toda la organización o para grupos o usuarios específicos. Los creadores de informes o los administradores verán lo fácil que es administrar permisos sobre estas colecciones con las aplicaciones.
 
@@ -37,7 +37,7 @@ Para crear o actualizar una aplicación necesita una licencia de Power BI Pro. L
 * **Opción 1** El área de trabajo de esta aplicación *no* está en una capacidad de Power BI Premium: todos los usuarios empresariales necesitan licencias de Power BI Pro para ver la aplicación. 
 * **Opción 2** El área de trabajo de esta aplicación *está* en una capacidad de Power BI Premium: los usuarios empresariales de la organización sin licencias de Power BI Pro pueden ver el contenido de la aplicación. Pero no pueden copiar los informes ni crear informes basados en los conjuntos de datos subyacentes. Para más información, lea [What is Power BI Premium?](service-premium.md) (¿Qué es Power BI Premium?)
 
-## <a name="publish-your-app"></a>Publicar su aplicación
+## <a name="publish-your-app"></a>Publicar la aplicación
 Cuando los paneles e informes en el área de trabajo estén listos, elija cuáles quiere publicar y luego publíquelos como una aplicación. 
 
 1. En la vista de lista del área de trabajo, decida qué paneles e informes quiere **incluir en la aplicación**.

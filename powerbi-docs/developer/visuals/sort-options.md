@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 546480ae863c63d6517fde7c98e7c9787c022ab6
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3cb8f5af63960667dc46cab1d818ba48943fd582
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875543"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378092"
 ---
 # <a name="sorting-options-for-power-bi-visuals"></a>Opciones de ordenación para objetos visuales de Power BI
 
@@ -31,7 +31,7 @@ La opción `default` es la forma más simple. Permite ordenar los datos presenta
     }
 ```
 
-![Opciones de ordenación en el menú contextual](./media/sorting.png)
+![Opciones de ordenación en el menú contextual](media/sort-options/sorting.png)
 
 ## <a name="implicit-sorting"></a>Ordenación implícita
 

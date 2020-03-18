@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ca29e711e12c3958b608dcc231de628cd7590988
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3af800696fd593f092cc46f9a59df2d0a5f94e2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880230"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380323"
 ---
 # <a name="capabilities-and-properties-of-power-bi-visuals"></a>Funcionalidades y propiedades de objetos visuales de Power BI 
 
@@ -158,7 +158,7 @@ Para definir los campos que se pueden enlazar con los datos, use `dataRoles`. `d
 
 Los roles de datos anteriores crearían los campos que se muestran en la siguiente imagen:
 
-![Campos de roles de datos](./media/data-role-display.png)
+![Campos de roles de datos](media/capabilities/data-role-display.png)
 
 ## <a name="define-how-you-want-the-data-mapped-dataviewmappings"></a>Definición de la forma en que se quieren asignar los datos: dataViewMappings
 

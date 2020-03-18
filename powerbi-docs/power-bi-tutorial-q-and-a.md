@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 71a727d1d7e39661ed86a4fdf574e3f1fa8fb595
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875082"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488876"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Uso de Preguntas y respuestas de Power BI para explorar los datos y crear objetos visuales
 
 A veces, la manera más rápida de obtener una respuesta de sus datos es formular una pregunta con un lenguaje natural. La característica Preguntas y respuestas de Power BI le permite explorar los datos con sus propias palabras.  En la primera parte de este artículo se muestra cómo se usa Preguntas y respuestas en los paneles del servicio Power BI. En la segunda parte se muestra qué se puede hacer con Preguntas y respuestas al crear informes en el servicio Power BI o en Power BI Desktop. Para más información, consulte el artículo [Preguntas y respuestas para consumidores](consumer/end-user-q-and-a.md). 
 
-[Preguntas y respuestas de las aplicaciones de Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) y [Preguntas y respuestas de Power BI Embedded](developer/qanda.md) se tratan en artículos independientes. 
+[Preguntas y respuestas de las aplicaciones de Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) y [Preguntas y respuestas de Power BI Embedded](developer/embedded/qanda.md) se tratan en artículos independientes. 
 
 Preguntas y respuestas es una característica interactiva, incluso divertida. A menudo, una pregunta conduce a otras a medida que las visualizaciones revelan rutas interesantes. Observe cómo Amanda muestra el uso de Preguntas y respuestas para crear visualizaciones, indagar en los objetos visuales y anclarlos en paneles.
 

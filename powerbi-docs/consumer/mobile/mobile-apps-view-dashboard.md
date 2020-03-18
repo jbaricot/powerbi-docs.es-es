@@ -1,19 +1,19 @@
 ---
 title: Visualización de paneles e informes en la aplicación móvil de Power BI
 description: Cree y conéctese a paneles e informes en el servicio Power BI. Después podrá verlos en las aplicaciones móviles de Power BI.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/05/2019
-ms.author: mshenhav
-ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218387"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205536"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualización de paneles e informes en la aplicación móvil de Power BI
 Se aplica a:
@@ -70,7 +70,7 @@ Este es un panel de Power BI en el servicio Power BI:
    ![Ruta de navegación](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
 ### <a name="view-dashboards-in-landscape-mode-in-your-iphone"></a>Ver paneles en modo horizontal en iPhone
-Simplemente gire el teléfono lateralmente para ver los paneles en modo horizontal. El diseño del panel cambia de una serie de iconos a una vista de todo el panel: se ven todos los iconos del panel dispuestos como en el servicio Power BI.
+Simplemente gire el teléfono lateralmente para ver los paneles en modo horizontal. El diseño del panel cambia de una serie de mosaicos a una vista de todo el panel: se ven todos los iconos del panel dispuestos como en el servicio Power BI.
 
 ![Vista horizontal del panel](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 

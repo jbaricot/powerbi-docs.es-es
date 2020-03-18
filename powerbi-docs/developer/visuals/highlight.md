@@ -6,28 +6,28 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: 0c1263760157371f9f4d9fc0f122d6e37d73d720
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d406396db64b52326bbd8ea2aa485cd3d7451294
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819178"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380078"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Resaltado de puntos de datos en objetos visuales de Power BI
 
 De forma predeterminada, cada vez que se selecciona un elemento, la matriz `values` del objeto `dataView` se filtra solo por los valores seleccionados. Hará que todos los demás objetos visuales de la página muestren solo los datos seleccionados.
 
-![Comportamiento predeterminado del resaltado de "DataView"](./media/highlight-dataview.png)
+![Comportamiento predeterminado del resaltado de "DataView"](media/highlight/highlight-dataview.png)
 
 Si establece la propiedad `supportsHighlight` de `capabilities.json` en `true`, recibirá la matriz `values` completa sin filtrar junto con una matriz `highlights`. La matriz `highlights` tendrá la misma longitud que la matriz de valores y todos los valores no seleccionados se establecerán en `null`. Con esta propiedad habilitada, el objeto visual es el responsable de resaltar los datos adecuados mediante la comparación de la matriz `values` con la matriz `highlights`.
 
-!["dataView" admite el resaltado](./media/highlight-dataview-supports.png)
+!["dataView" admite el resaltado](media/highlight/highlight-dataview-supports.png)
 
 En el ejemplo, fíjese que hay una barra seleccionada. Y es el único valor de la matriz highlights. También es importante tener en cuenta que puede haber varios elementos seleccionados y resaltados parciales. Los valores resaltados se mostrarán en la vista de datos.
 
-> [!Note]
+> [!NOTE]
 > La asignación de una vista de datos de tabla no admite la característica de resaltado.
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Resaltado de puntos de datos con asignación de una vista de datos categórica
@@ -187,7 +187,7 @@ public update(options: VisualUpdateOptions) {
 
 Donde `categoryValues` es una matriz de valores de categorías, `measureValues` es una matriz de medidas y `measureHighlights` son las partes resaltadas de los valores.
 
-> [!Note]
+> [!NOTE]
 > Los valores de la propiedad `measureHighlights` pueden ser menores que los de la propiedad `categoryValues`.
 > Eso significa que el valor se resaltó parcialmente.
 
@@ -271,7 +271,7 @@ div.value {
 
 En el resultado, el objeto visual debería representarse así.
 
-![Los objetos visuales con una asignación de vista de datos categórica y un resaltado](./media/dev-categorical-visual-highlight-demo.gif)
+![Los objetos visuales con una asignación de vista de datos categórica y un resaltado](media/highlight/dev-categorical-visual-highlight-demo.gif)
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>Resaltado de puntos de datos con una asignación de una vista de datos de matriz
 
@@ -582,7 +582,7 @@ JSON.stringify(options.dataViews[0].matrix.rows.root.children[0].children[0].chi
 
 Donde la propiedad `value` representa el valor del nodo sin aplicar una selección de otro objeto visual y la propiedad highlight indica qué parte de los datos estaba resaltada.
 
-> [!Note]
+> [!NOTE]
 > El valor de la propiedad `highlight` puede ser menor que el de la propiedad `value`.
 > Eso significa que el valor se resaltó parcialmente.
 
@@ -643,7 +643,7 @@ public update(options: VisualUpdateOptions) {
 
 Como consecuencia, obtendrá el objeto visual con botones y valores `highlighted value/default value`
 
-![El objeto visual con asignación de vistas de datos de matriz y resaltado](./media/dev-matrix-visual-highlight-demo.gif)
+![El objeto visual con asignación de vistas de datos de matriz y resaltado](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
 ## <a name="next-steps"></a>Pasos siguientes
 
