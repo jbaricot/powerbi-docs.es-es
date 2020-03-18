@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879956"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379582"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Tutorial: Adición de pruebas unitarias en proyectos de objetos visuales de Power BI
 
@@ -381,7 +381,7 @@ npm run test
 
 `karma.js` ejecuta el caso de prueba en el explorador Chrome.
 
-![JavaScript de Karma abierto en Chrome](./media/karmajs-chrome.png)
+![JavaScript de Karma abierto en Chrome](media/unit-tests-introduction/karmajs-chrome.png)
 
 > [!NOTE]
 > Debe instalar Google Chrome de forma local.
@@ -453,7 +453,7 @@ La clase `SampleBarChartDataBuilder` amplía `TestDataViewBuilder` e implementa
 
 Al colocar datos en cubos de campos de datos, Power BI genera un objeto `dataview` categórico basado en los datos.
 
-![Cubos de campos de datos](./media/fields-buckets.png)
+![Cubos de campos de datos](media/unit-tests-introduction/fields-buckets.png)
 
 En las pruebas unitarias, no tiene funciones principales de Power BI para reproducir los datos, pero debe asignar los datos estáticos al objeto `dataview` categórico. La clase `TestDataViewBuilder` puede ayudarle a asignarlos.
 
@@ -596,23 +596,23 @@ Lines        : 52.83% ( 112/212 )
 
 El objeto visual se abre en el explorador Chrome, como se muestra a continuación:
 
-![La prueba unitaria se inicia en Chrome](./media/karmajs-chrome-ut-runned.png)
+![La prueba unitaria se inicia en Chrome](media/unit-tests-introduction/karmajs-chrome-ut-runned.png)
 
 En el resumen se muestra que la cobertura ha aumentado. Para obtener más información sobre la cobertura de código actual, abra `coverage\index.html`.
 
-![Índice de cobertura de la prueba unitaria](./media/code-coverage-index.png)
+![Índice de cobertura de la prueba unitaria](media/unit-tests-introduction/code-coverage-index.png)
 
 O examine el ámbito en la carpeta `src`:
 
-![Cobertura de la carpeta src](./media/code-coverage-src-folder.png)
+![Cobertura de la carpeta src](media/unit-tests-introduction/code-coverage-src-folder.png)
 
 En el ámbito del archivo, puede ver el código fuente. Las utilidades de `Coverage` resaltan la fila en rojo si no se ha ejecutado un código determinado durante las pruebas unitarias.
 
-![Cobertura de código del archivo visual.ts](./media/code-coverage-visual-src.png)
+![Cobertura de código del archivo visual.ts](media/unit-tests-introduction/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
 > La cobertura de código no implica que tenga una buena cobertura de funcionalidad del objeto visual. Una prueba unitaria simple proporciona más del 96 % de la cobertura en `src\visual.ts`.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Cuando el objeto visual esté listo, puede enviarlo a publicación. Para más información, consulte [Publicación de objetos visuales de Power BI en AppSource](../office-store.md).
+Cuando el objeto visual esté listo, puede enviarlo a publicación. Para más información, consulte [Publicación de objetos visuales de Power BI en AppSource](office-store.md).

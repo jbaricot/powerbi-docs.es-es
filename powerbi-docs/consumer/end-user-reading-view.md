@@ -10,16 +10,19 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2019
+ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eeffb4c0fb7db57eacf18818275716db42679f6e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862691"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206042"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Inicio rápido: más información sobre las capacidades de Power BI para *consumidores*
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+
 En esta guía de inicio rápido obtendrá información sobre cómo interactuar con Power BI para detectar información empresarial basada en datos. La información del artículo no pretende ser exhaustiva, sino un resumen rápido de muchas de las acciones disponibles para los **consumidores** de Power BI.
 
 Si no está registrado en Power BI, [regístrese para obtener una evaluación gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
@@ -186,7 +189,7 @@ Además de mostrar los datos que se usan para crear un objeto visual, también p
 
 ![datos exportados a Excel](./media/end-user-reading-view/power-bi-export-powerpoint.png)
 
-<!-- Exporting isn’t limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
+<!-- Exporting isn't limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
 
 ![data exported to PowerPoint](./media/end-user-reading-view/power-bi-export-powerpoint.png) -->
 

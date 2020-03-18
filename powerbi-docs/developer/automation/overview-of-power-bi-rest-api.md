@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 3ff7eb4a771ed8c65d18262f61170f312049a898
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079425"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488441"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>¿Qué pueden hacer los desarrolladores con la API de Power BI?
 
@@ -25,10 +25,10 @@ A continuación se indican algunas de las cosas que puede hacer con las API de P
 
 | **Para más información** | **Consulte esta información** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Sobre cómo insertar informes, paneles e iconos para usuarios de Power BI y otros que no lo usen. | [Procedimiento para insertar paneles, informes e iconos de Power BI](../embed-sample-for-customers.md) |
+| Sobre cómo insertar informes, paneles e iconos para usuarios de Power BI y otros que no lo usen. | [Procedimiento para insertar paneles, informes e iconos de Power BI](../embedded/embed-sample-for-customers.md) |
 | Realice tareas de administración en objetos de Power BI. | [Referencia de la API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
 | Ampliar un flujo de trabajo de empresa existente para insertar datos clave en un panel de Power BI. | [Insertar datos en un panel](walkthrough-push-data.md) |
-| Autenticación en Power BI. | [Autenticación en Power BI](../get-azuread-access-token.md) |
+| Autenticación en Power BI. | [Autenticación en Power BI](../embedded/get-azuread-access-token.md) |
 
 > [!NOTE]
 > Las API de Power BI aún hacen referencia a las áreas de trabajo como grupos. Todas las referencias a grupos significan que está trabajando con áreas de trabajo.

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: eaa4354ed7355c0e01d9f75675cb7fed4bdc9d96
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 6170217119e443a2eb24aac056623dce5070303e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74133736"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79208020"
 ---
 # <a name="datasets-in-the-power-bi-service"></a>Conjuntos de datos en el servicio Power BI
 
@@ -26,7 +26,7 @@ Los conjuntos de datos de Power BI representan un origen de datos listo para in
 - Conectarse a un modelo de datos existente que no está hospedado en una capacidad de Power BI.
 - Cargar un archivo de Power BI Desktop que contiene un modelo.
 - Cargar un libro de Excel (con una o varias tablas de Excel o un modelo de datos de libro) o cargar un archivo CSV (valores separados por coma).
-- Usar el servicio Power BI para crear un [conjunto de datos de inserción](developer/walkthrough-push-data.md).
+- Usar el servicio Power BI para crear un [conjunto de datos de inserción](developer/automation/walkthrough-push-data.md).
 - Usar el servicio Power BI para crear un [conjunto de datos de streaming o de streaming híbrido](service-real-time-streaming.md).
 
 Excepto en lo que respecta a los conjuntos de datos de streaming, el conjunto de datos representa un modelo de datos que aprovecha las tecnologías de modelado maduras de [Analysis Services](/analysis-services/analysis-services-overview).
@@ -78,5 +78,5 @@ También es importante comprender que los modelos de importación hospedados en 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Modos de conjuntos de datos en el servicio Power BI](service-dataset-modes-understand.md)
+- [Modos de conjuntos de datos en el servicio Power BI](service-dataset-modes-understand.md)
 - ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

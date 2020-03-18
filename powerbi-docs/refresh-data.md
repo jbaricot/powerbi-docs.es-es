@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039039"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488807"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 
@@ -76,7 +76,7 @@ Como Power BI no importa los datos, no es necesario ejecutar una actualización
 Los conjuntos de datos de inserción no contienen una definición formal de un origen de datos, por lo que no requieren una actualización de datos en Power BI. Se actualizan insertando los datos en el conjunto de datos mediante un servicio o un proceso externo, como Azure Stream Analytics. Este es un enfoque habitual para realizar análisis en tiempo real con Power BI. Power BI sigue realizando actualizaciones de la memoria caché para todos los iconos que se utilizan con un conjunto de datos de inserción. Para ver un tutorial detallado, consulte [Tutorial: Stream Analytics y Power BI: un panel de análisis en tiempo real para streaming de datos](/azure/stream-analytics/stream-analytics-power-bi-dashboard).
 
 > [!NOTE]
-> El modo de inserción tiene varias limitaciones, como se documenta en [limitaciones de la API REST de Power BI](developer/api-rest-api-limitations.md).
+> El modo de inserción tiene varias limitaciones, como se documenta en [limitaciones de la API REST de Power BI](developer/automation/api-rest-api-limitations.md).
 
 ### <a name="power-bi-refresh-types"></a>Tipos de actualización de Power BI
 
@@ -317,7 +317,7 @@ El icono de advertencia ayuda a indicar problemas del conjunto de datos actual, 
 
 ## <a name="automatic-page-refresh"></a>Actualización automática de páginas
 
-La actualización automática de páginas funciona en el nivel de página de informe, y permite a los autores de informes establecer un intervalo de actualización de los objetos visuales de una página que solo está activo cuando la página se está usando. La actualización automática de páginas solo está disponible en orígenes de datos de DirectQuery. El intervalo de actualización mínimo depende del tipo de área de trabajo en la que el informe se publica y de la configuración de administración de capacidad de las áreas de trabajo Premium y [áreas de trabajo insertadas](developer/embedding.md).
+La actualización automática de páginas funciona en el nivel de página de informe, y permite a los autores de informes establecer un intervalo de actualización de los objetos visuales de una página que solo está activo cuando la página se está usando. La actualización automática de páginas solo está disponible en orígenes de datos de DirectQuery. El intervalo de actualización mínimo depende del tipo de área de trabajo en la que el informe se publica y de la configuración de administración de capacidad de las áreas de trabajo Premium y [áreas de trabajo insertadas](developer/embedded/embedding.md).
 
 Obtenga más información sobre la actualización automática de páginas en el artículo [Actualización automática de la página](desktop-automatic-page-refresh.md).
 

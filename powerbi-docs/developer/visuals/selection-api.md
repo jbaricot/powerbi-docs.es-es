@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a631e6f5baf7942b81ce22a238d80f4aea40d022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818902"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379722"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Incorporación de interactividad en un objeto visual mediante las selecciones de objetos visuales de Power BI
 
@@ -179,11 +179,11 @@ Cuando el usuario selecciona `Import Car` por `Type` (selecciona datos por serie
 | Nissan | **Automóvil importado** | 5485 |
 | Toyota | **Automóvil importado** | 20799 |
 
-![El objeto visual con selecciones para categorías y series](media/visual-selections-sample.png)
+![El objeto visual con selecciones para categorías y series](media/selection-api/visual-selections-sample.png)
 
 Debe rellenar las cestas de datos del objeto visual.
 
-![Cestas de datos del objeto visual con selecciones](media/visual-selections-databuckets.png)
+![Cestas de datos del objeto visual con selecciones](media/selection-api/visual-selections-databuckets.png)
 
 Hay `Manufacturer` como categoría (columnas), `Type` como serie (filas) y `Value` como `Values` para la serie.
 

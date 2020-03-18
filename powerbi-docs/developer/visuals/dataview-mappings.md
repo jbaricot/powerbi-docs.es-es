@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74696674"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380865"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Información sobre las asignaciones de vistas de datos en objetos visuales de Power BI
 
@@ -185,7 +185,7 @@ export class Visual implements IVisual {
 
 Como resultado, el objeto visual muestra un valor único de Power BI:
 
-![Ejemplo de objeto visual de asignación de una vista de datos simple](./media/visual-simple-dataview-mapping.png)
+![Ejemplo de objeto visual de asignación de una vista de datos simple](media/dataview-mappings/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>Asignación de datos categóricos
 
@@ -493,7 +493,7 @@ export class Visual implements IVisual {
 
 El resultado del objeto visual es el siguiente:
 
-![El objeto visual con una asignación de vista de datos categórica](./media/categorical-data-view-mapping-visual.png)
+![El objeto visual con una asignación de vista de datos categórica](media/dataview-mappings/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>Asignación de datos de tabla
 
@@ -508,7 +508,7 @@ Con las funciones especificadas:
     {
         "displayName": "Column",
         "name": "column",
-        "kind": "Measure"
+        "kind": "Grouping"
     },
     {
         "displayName": "Value",
@@ -557,7 +557,7 @@ Ejemplo de datos:
 
 Enlace de datos:
 
-![Enlaces de datos de asignación de vista de datos de tabla](./media/table-dataview-mapping-data.png)
+![Enlaces de datos de asignación de vista de datos de tabla](media/dataview-mappings/table-dataview-mapping-data.png)
 
 Power BI muestra los datos como la vista de datos de tabla. No debe asumir que los datos están ordenados.
 
@@ -603,7 +603,7 @@ Power BI muestra los datos como la vista de datos de tabla. No debe asumir que 
 
 Puede agregar los datos si selecciona el campo que quiera y después selecciona Suma.  
 
-![Agregación de datos](./media/data-aggregation.png)
+![Agregación de datos](media/dataview-mappings/data-aggregation.png)
 
 Ejemplo de código para procesar una asignación de vista de datos de tabla.
 
@@ -686,7 +686,7 @@ td {
 }
 ```
 
-![El objeto visual con una asignación de vista de datos de tabla](./media/table-dataview-mapping-visual.png)
+![El objeto visual con una asignación de vista de datos de tabla](media/dataview-mappings/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>Asignación de datos de matriz
 
@@ -767,7 +767,7 @@ Conjunto de datos:
 
 El objeto visual de la matriz principal de Power BI representa los datos como una tabla.
 
-![Objeto visual Matriz](./media/matrix-visual-smaple.png)
+![Objeto visual Matriz](media/dataview-mappings/matrix-visual-smaple.png)
 
 El objeto visual obtiene su estructura de datos tal y como se describe en el código siguiente (aquí solo se muestran las dos primeras filas de la tabla):
 

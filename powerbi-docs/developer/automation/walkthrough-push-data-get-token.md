@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: 4b1c890a69863f3e05dee052efe9529b174f0874
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079126"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488278"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Paso 2: Obtener un token de acceso de autenticación
 
 Este artículo es el segundo paso de la serie [Inserción de datos en un conjunto de datos de Power BI](walkthrough-push-data.md).
 
-En el paso 1, [registró una aplicación cliente en Azure AD](../register-app.md). En este paso, obtendrá un token de acceso de autenticación. Las aplicaciones de Power BI se integran con Azure Active Directory para proporcionar a la aplicación un inicio de sesión seguro y autorización. La aplicación usa un token para autenticarse en Azure AD y acceder a los recursos de Power BI.
+En el paso 1, [registró una aplicación cliente en Azure AD](../embedded/register-app.md). En este paso, obtendrá un token de acceso de autenticación. Las aplicaciones de Power BI se integran con Azure Active Directory para proporcionar a la aplicación un inicio de sesión seguro y autorización. La aplicación usa un token para autenticarse en Azure AD y acceder a los recursos de Power BI.
 
 ## <a name="get-an-authentication-access-token"></a>Obtener un token de acceso de autenticación
 
-Antes de comenzar, asegúrese de que ha completado el [paso anterior](../register-app.md) de la serie [Inserción de datos en un conjunto de datos de Power BI](walkthrough-push-data.md). 
+Antes de comenzar, asegúrese de que ha completado el [paso anterior](../embedded/register-app.md) de la serie [Inserción de datos en un conjunto de datos de Power BI](walkthrough-push-data.md). 
 
 Este procedimiento requiere Visual Studio 2015 o posterior.
 
@@ -39,7 +39,7 @@ Este procedimiento requiere Visual Studio 2015 o posterior.
 
 3. Agregue el código de ejemplo que aparece después de estos pasos a Program.cs.
 
-4. Reemplace "{ClientID}" por el **Identificador de cliente** que obtuvo en el [anterior artículo de la serie](../register-app.md) cuando registró la aplicación.
+4. Reemplace "{ClientID}" por el **Identificador de cliente** que obtuvo en el [anterior artículo de la serie](../embedded/register-app.md) cuando registró la aplicación.
 
 5. Ejecute la aplicación de consola e inicie sesión en su cuenta de Power BI. 
 

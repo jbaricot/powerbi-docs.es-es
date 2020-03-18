@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: c39c7234ec4bc1b632355f92bdfdec9dc2b21ae4
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079287"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488209"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Inserción de datos en un conjunto de datos de Power BI
 
 La API de Power BI permite insertar datos en un conjunto de datos de Power BI. En este artículo, le mostramos cómo insertar un conjunto de datos de marketing de ventas que contiene una tabla de productos en un conjunto de datos existente.
 
-Antes de empezar, necesita una [cuenta de Power BI](../create-an-azure-active-directory-tenant.md) y Azure Active Directory (Azure AD).
+Antes de empezar, necesita una [cuenta de Power BI](../embedded/create-an-azure-active-directory-tenant.md) y Azure Active Directory (Azure AD).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Pasos para insertar datos en un conjunto de datos
 
-* Paso 1: [Registrar una aplicación con Azure AD](../register-app.md)
+* Paso 1: [Registrar una aplicación con Azure AD](../embedded/register-app.md)
 * Paso 2: [Obtener un token de acceso de autenticación](walkthrough-push-data-get-token.md)
 * Paso 3: [Creación de un conjunto de datos en Power BI](walkthrough-push-data-create-dataset.md)
 * Paso 4: [Obtener un conjunto de datos para agregar filas a una tabla de Power BI](walkthrough-push-data-get-datasets.md)
@@ -111,11 +111,11 @@ Para un esquema de tabla de Power BI, puede usar los siguientes tipos de datos.
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Más información sobre la inserción de datos en Power BI
 
-Para empezar a insertar datos en un conjunto de datos, consulte [Paso 1: Registrar una aplicación en Azure AD](../register-app.md) en el panel de navegación.
+Para empezar a insertar datos en un conjunto de datos, consulte [Paso 1: Registrar una aplicación en Azure AD](../embedded/register-app.md) en el panel de navegación.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [Suscribirse en Power BI](../create-an-azure-active-directory-tenant.md)  
+* [Suscribirse en Power BI](../embedded/create-an-azure-active-directory-tenant.md)  
 * [Introducción a JSON](https://json.org/)  
 * [Información general sobre la API de REST de Power BI](overview-of-power-bi-rest-api.md)  
 

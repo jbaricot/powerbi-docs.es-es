@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758092"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436097"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Creación y uso de gráficos combinados en Power BI
 
@@ -98,8 +98,7 @@ En enero el porcentaje de margen bruto fue de un 35 %, en abril alcanzó un má
    ![Ejemplo de clúster de gráfico combinado](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>Agregar títulos a los ejes
-1. Seleccione el icono de rodillo de pintura 
-1. ![Icono de rodillo de pintar](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) para abrir el panel Formato.
+1. Seleccione el icono de rodillo de pintura ![Icono de rodillo de pintar](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) para abrir el panel Formato.
 1. Seleccione la flecha hacia abajo para expandir las opciones del **eje Y** .
 1. Para **Eje Y (columna)** , establezca **Posición** en **Izquierda**, **Título** en **Activado**, **Estilo** en **Mostrar solo el título** y **Mostrar unidades** en **Millones**.
 
