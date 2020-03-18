@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 0364fae1648e6155cc5e5a92850861c3bedbabdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: aaafaa5b2822e3e17fdc92b43bf7b745330a547b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871899"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946837"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>Conexión a conjuntos de datos con herramientas y aplicaciones cliente (versión preliminar)
 
@@ -104,17 +104,13 @@ Los conjuntos de datos siguientes no se admiten en el servicio Power BI:
 
 Actualmente, los roles de modelo y las pertenencias a roles no son detectables ni se muestran mediante el uso de puntos de conexión XMLA.
 
-## <a name="disable-connectivity"></a>Deshabilitar la conectividad
-
-De forma predeterminada, la conectividad con puntos de conexión XMLA está habilitada para la carga de trabajo de los conjuntos de datos. Puede deshabilitar la conectividad en [Configuración de carga de trabajo](service-admin-premium-workloads.md#workload-settings).
-
 ## <a name="audit-logs"></a>Registros de auditoría 
 
 Cuando las herramientas y aplicaciones cliente se conectan a un área de trabajo, el acceso a través de puntos de conexión XMLA se registra en los registros de auditoría de Power BI bajo la operación **GetWorkspaces**. Para más información, vea [Auditoría de Power BI](service-admin-auditing.md).
 
 ## <a name="see-also"></a>Vea también
 
-[Referencias de Analysis Services](https://docs.microsoft.com/bi-reference/#pivot=home&panel=home-all)   
+[Referencias de Analysis Services](https://docs.microsoft.com/bi-reference/?pivot=home&panel=home-all)   
 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)   
 [Protocolo tabular de SQL Server Analysis Services](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
 [Vistas de administración dinámica (DMV)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   

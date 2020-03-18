@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/28/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dd83388c00b2415c43355bb57c271b430a9abc53
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888888"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113302"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Búsqueda de paneles, informes y aplicaciones
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 En Power BI, el término *contenido* se refiere a aplicaciones, paneles e informes. Los *diseñadores* de Power BI crean el contenido y lo comparten con colegas como usted. El contenido es accesible y visible en el servicio Power BI, donde el mejor lugar para empezar a trabajar es la página **Inicio**.
 
 ## <a name="explore-power-bi-home"></a>Exploración de Inicio de Power BI
@@ -42,7 +44,7 @@ En el lienzo Inicio, puede ver todo el contenido que tiene permiso para usar. Al
 
 El lienzo Inicio también se actualiza con contenido recomendado y recursos de aprendizaje. 
  
-Durante su trabajo en el servicio Power BI, recibe paneles, informes y aplicaciones de colegas, con lo que la página Inicio al final se rellena. Con el tiempo, puede parecerse a la siguiente.
+A medida que trabaje en el servicio Power BI, recibirá paneles, informes y aplicaciones de compañeros que, finalmente, llenarán la página Inicio de Power BI. Con el tiempo, puede parecerse a la siguiente.
 
 ![Captura de pantalla de la pantalla de bienvenida del servicio Power BI.](media/end-user-home/power-bi-home-oldest.png)
 
@@ -52,7 +54,7 @@ En los siguientes temas se examina con más detenimiento este lienzo de Inicio, 
 ## <a name="most-important-content-at-your-fingertips"></a>Contenido más importante al alcance de la mano
 
 ### <a name="favorites-and-frequents"></a>Favoritos y frecuentes
-Esta sección superior contiene vínculos al contenido que se visita con mayor frecuencia o que se ha etiquetado como [destacado o favorito](end-user-favorite.md). Observe que varias tarjetas tienen estrellas amarillas; esas dos aplicaciones y ese panel se han etiquetado como favoritos. 
+Esta sección de la parte superior contiene vínculos al contenido que visita con mayor frecuencia o que ha etiquetado como [destacado o favorito](end-user-favorite.md). Observe que varias tarjetas tienen estrellas amarillas; esas dos aplicaciones y ese panel se han etiquetado como favoritos. 
 
 ![Ventana flotante de favoritos](./media/end-user-home/power-bi-favorites-frequents.png)
 
@@ -60,7 +62,7 @@ Además, puede etiquetar contenido como [destacado](end-user-featured.md). Selec
 
 
 ### <a name="recents-and-my-apps"></a>Recientes y mis aplicaciones
-En la sección siguiente se muestra el contenido que se ha visitado más recientemente. Observe la marca de tiempo en cada tarjeta. En la sección **Mis aplicaciones** aparecen las aplicaciones que se han compartido con usted o que ha [descargado de AppSource](end-user-apps.md); las aplicaciones más recientes se indican aquí. Puede seleccionar **Ver todo** para mostrar una lista de todas las aplicaciones compartidas con usted.
+En la sección siguiente se muestra el contenido que ha visitado recientemente. Observe la marca de tiempo en cada tarjeta. En la sección **Mis aplicaciones** aparecen las aplicaciones que se han compartido con usted o que ha [descargado de AppSource](end-user-apps.md); las aplicaciones más recientes se indican aquí. Puede seleccionar **Ver todo** para mostrar una lista de todas las aplicaciones compartidas con usted.
 
 ![aplicaciones recientes](./media/end-user-home/power-bi-recent-apps.png)
 
@@ -98,7 +100,7 @@ El panel de navegación clasifica el contenido de forma que le ayude a encontrar
 
 Use el panel de navegación para buscar paneles, informes y aplicaciones y desplazarse por ellos. A veces, el uso del panel de navegación es la forma más rápida de llegar al contenido. El panel de navegación está ahí al abrir la página de aterrizaje Inicio y permanece ahí mientras se abren otras áreas del servicio Power BI. Se puede seleccionar el icono Ocultar para contraerlo. ![Icono para ocultar el panel de navegación](media/end-user-home/power-bi-hide.png) .
   
-El panel de navegación organiza el contenido en contenedores que son similares a lo que ya se ha visto en el lienzo Inicio: Favoritos, Recientes, Aplicaciones, Compartido conmigo y áreas de trabajo. Con los controles flotantes, solo puede ver el contenido más reciente de cada uno de estos contenedores, o bien puede ir a listas de contenido para ver todo el contenido de cada categoría de contenedores.
+El panel de navegación organiza el contenido en contenedores que son similares a lo que ya ha visto en el lienzo Inicio: Favoritos, Recientes, Aplicaciones, Compartido conmigo y áreas de trabajo. Con los controles flotantes, solo puede ver el contenido más reciente de cada uno de estos contenedores, o bien puede ir a listas de contenido para ver todo el contenido de cada categoría de contenedores.
  
 - Para abrir una de estas secciones de contenido y mostrar una lista de todos los elementos, seleccione el encabezado.
 - Para ver lo más reciente de cada contenedor, seleccione el control flotante ( **>** ).
@@ -109,9 +111,9 @@ El panel de navegación organiza el contenido en contenedores que son similares 
 El panel de navegación es otra manera de encontrar el contenido que se quiere rápidamente. El contenido está organizado de forma similar al del lienzo Inicio, aunque se muestra en listas en lugar de en tarjetas. 
 
 ## <a name="search-all-of-your-content"></a>Búsqueda de todo el contenido
-A veces, la manera más rápida de encontrar el contenido es buscarlo. Por ejemplo, quizás haya descubierto que un panel que no ha usado desde hace tiempo no aparece en el lienzo Inicio. O bien, quizás recuerde que su colega Aaron ha compartido algo con usted, pero no cómo lo ha llamado o de qué tipo de contenido se trata, si era un panel o un informe. También, puede que tenga tanto contenido que sea más fácil realizar búsquedas en él que desplazarse u ordenarlo. 
+A veces, la manera más rápida de encontrar el contenido es buscarlo. Por ejemplo, quizá ha descubierto que un panel que no ha usado durante algún tiempo no aparece en el lienzo Inicio. O puede que recuerde que su colega Aaron compartió algo con usted, pero no recuerda cómo lo llamó ni qué tipo de contenido era, si era un panel o un informe. También, puede que tenga tanto contenido que sea más fácil realizar búsquedas en él que desplazarse u ordenarlo. 
  
-El campo de búsqueda se encuentra en la sección superior derecha de la barra de menús de Inicio. Puede escribir el nombre completo o parcial de ese panel y buscarlo. Además, puede escribir el nombre de su colega y buscar contenido que haya compartido con usted. La búsqueda se limita a buscar coincidencias en todo el contenido que posee o al que tiene acceso.
+El campo de búsqueda se encuentra en la sección superior derecha de la barra de menús de Inicio. Puede escribir el nombre completo o parcial de ese panel y buscarlo. Además, puede escribir el nombre de su compañero y buscar contenido que haya compartido con usted. La búsqueda se limita a buscar coincidencias en todo el contenido que posee o al que tiene acceso.
 
 ![Captura de pantalla del uso del campo de búsqueda de Recientes](media/end-user-home/power-bi-search-field.png)
 

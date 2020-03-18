@@ -1,19 +1,19 @@
 ---
 title: Creación de un vínculo a una ubicación específica en las aplicaciones móviles de Power BI
 description: Obtenga información sobre cómo crear un vínculo profundo a un panel, icono o informe específicos en la aplicación móvil de Power BI con un identificador uniforme de recursos (URI).
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/24/2019
-ms.author: mshenhav
-ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879286"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114495"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Creación de un vínculo a una ubicación específica en las aplicaciones móviles de Power BI
 Puede usar vínculos para acceder directamente a elementos específicos de Power BI: informe, panel e icono.
@@ -112,7 +112,7 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 Obtenga más información sobre el [Filtro de un informe con parámetros de cadena de consulta en la URL](https://docs.microsoft.com/power-bi/service-url-filters).
 
 ## <a name="next-steps"></a>Pasos siguientes
-Sus comentarios nos ayudan a decidir qué implementaremos en el futuro; no olvide votar por otras características que le gustaría ver en aplicaciones móviles de Power BI. 
+Sus comentarios nos ayudan a decidir qué implementar en el futuro; por eso, no olvide votar otras características que le gustaría ver en las aplicaciones móviles de Power BI. 
 
 * [Aplicaciones de Power BI para dispositivos móviles](mobile-apps-for-mobile-devices.md)
 * Siga @MSPowerBI en Twitter

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 1d61723b08c26197d94b53188b741fd01d47a620
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888371"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401206"
 ---
 # <a name="get-power-bi-desktop"></a>Obtener Power BI Desktop
 Power BI Desktop le permite crear consultas, modelos e informes avanzados para visualizar datos. Con Power BI Desktop, puede crear modelos de datos, crear informes y compartir el trabajo mediante su publicación en el servicio Power BI. La descarga de Power BI Desktop es gratuita.
@@ -158,6 +158,7 @@ Si va a implementar Power BI Desktop para los usuarios con una herramienta que 
 
     La carpeta de salida contiene una carpeta denominada *AttachedContainer*, que incluye los archivos .msi.
 
+No se admite la actualización de una instalación de un archivo .exe a un archivo .msi que haya extraído de un archivo .exe.   Para realizar esta actualización, primero deberá desinstalar la versión anterior de Power BI Desktop que tenga.
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Problemas al usar versiones anteriores de Power BI Desktop
 

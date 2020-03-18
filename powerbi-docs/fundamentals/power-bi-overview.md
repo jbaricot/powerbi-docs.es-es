@@ -8,15 +8,15 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9da9465bea8512b541d3f1af3983df70d184ac26
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875650"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114978"
 ---
 # <a name="what-is-power-bi"></a>¿Qué es Power BI?
-**Power BI** es una colección de servicios de software, aplicaciones y conectores que funcionan conjuntamente para convertir orígenes de datos sin relación entre sí en información coherente, interactiva y atractiva visualmente. Sus datos pueden ser una hoja de cálculo de Excel o una colección de almacenes de datos híbridos locales y basados en la nube. Power BI le permite conectarse con facilidad a los orígenes de datos, visualizar y descubrir qué es importante, y compartirlo con cualquiera o con todos los usuarios que quiera.
+**Power BI** es una colección de servicios de software, aplicaciones y conectores que funcionan conjuntamente para convertir orígenes de datos sin relación entre sí en información coherente, interactiva y atractiva visualmente. Sus datos pueden ser una hoja de cálculo de Excel o una colección de almacenes de datos híbridos locales y basados en la nube. Power BI permite conectarse con facilidad a los orígenes de datos, visualizar y descubrir qué es importante y compartirlo con cualquiera o con todos los usuarios que desee.
 
 ## <a name="the-parts-of-power-bi"></a>Las partes de Power BI
 Power BI consta de: 
@@ -37,9 +37,9 @@ Por ejemplo, podría utilizar principalmente el **servicio Power BI** para ver i
 
 Si es un desarrollador, puede usar las API de Power BI para insertar datos en conjuntos de datos o para insertar informes y paneles en sus propias aplicaciones personalizadas. ¿Tiene alguna idea de un nuevo objeto visual? Compílelo usted mismo y compártalo con los demás.  
 
-También podría usar cada elemento de Power BI en distintos momentos, en función de los objetivos o de su rol en un proyecto determinado.
+También podría usar cada elemento de Power BI en distintos momentos, en función de los objetivos o de su rol en un proyecto determinado.
 
-Su modo de usar Power BI puede basarse en la característica o servicio de Power BI que es la mejor herramienta para su situación. Por ejemplo, puede usar Power BI Desktop para crear informes para el equipo sobre estadísticas de involucración de los clientes y ver el progreso de inventario y fabricación en un panel en tiempo real en el servicio Power BI. Cada una de las partes de Power BI está a su disposición, razón por la cual es tan flexible y atractivo.
+Su modo de usar Power BI puede basarse en la característica o servicio de Power BI que es la mejor herramienta para su situación. Por ejemplo, puede usar Power BI Desktop para crear informes para el equipo sobre estadísticas de involucración de los clientes y ver el progreso de inventario y fabricación en un panel en tiempo real en el servicio Power BI. Cada una de las partes de Power BI está a su disposición, razón por la cual es tan flexible e interesante.
 
 Examine los documentos que pertenecen al rol:
 - Power BI Desktop para [*diseñadores*](../desktop-what-is-desktop.md)
@@ -51,9 +51,9 @@ Examine los documentos que pertenecen al rol:
 Un flujo de trabajo habitual en Power BI comienza con la conexión a orígenes de datos y la creación de un informe en Power BI Desktop. Después, ese informe se publica desde Power BI Desktop en el servicio Power BI y se comparte para que los usuarios finales del servicio Power BI y los dispositivos móviles puedan verlo e interactuar con él.
 Este flujo de trabajo es habitual y muestra cómo los tres elementos principales de Power BI se complementan entre sí.
 
-Esta es una [comparación de Power BI Desktop y el servicio Power BI](../designer/service-service-vs-desktop.md) detallada.
+Esta es una [comparación de Power BI Desktop y el servicio Power BI](../fundamentals/service-service-vs-desktop.md) detallada.
 
-## <a name="on-premises-reporting-with-power-bi-report-server"></a>Publicar informes en almacenamiento local con el servidor de informes de Power BI
+## <a name="on-premises-reporting-with-power-bi-report-server"></a>Elaboración de informes en el entorno local con Power BI Report Server
 
 ¿Pero qué ocurre si no está listo para pasarse a la nube y necesita conservar los informes protegidos por un firewall corporativo?  Siga leyendo.
 
@@ -61,7 +61,7 @@ Puede crear, implementar y administrar informes paginados y para dispositivos m�
 
 ![Diagrama del entorno local](media/power-bi-overview/power-bi-report-server2.png)
 
-Power BI Report Server es una solución que se implemente detrás del firewall y luego entrega los informes a los usuarios deseados de maneras diferentes, ya sea para visualizarlos en un explorador web, en un dispositivo móvil o como correo electrónico. Además, como Power BI Report Server es compatible con Power BI en la nube, puede pasarse a la nube cuando esté listo. 
+Power BI Report Server es una solución que se implementa detrás del firewall y entrega informes a los usuarios correspondientes de diferentes maneras, que pueden ser para visualizarlos en un explorador web, en un dispositivo móvil o como correo electrónico. Además, como Power BI Report Server es compatible con Power BI en la nube, puede pasarse a la nube cuando esté listo. 
 
 Obtenga más información sobre el [servidor de informes de Power BI](../report-server/get-started.md).
 

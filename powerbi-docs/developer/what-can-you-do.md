@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 9f9383e5cdb4b4690ef75294f7ff8c17fb643d9a
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4e8ce6d9a892abf3e24ecae6dee1e3ea23504d31
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265020"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041364"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>¿Qué pueden hacer los desarrolladores con Power BI?
 
@@ -37,7 +37,7 @@ Para más información sobre la inserción con Power BI, vea [Inserción con Pow
 
 ## <a name="developing-custom-visuals"></a>Desarrollar objetos visuales personalizados
 
-Puede usar objetos visuales personalizados con Power BI para crear un único tipo de objeto visual adaptado a sus necesidades o a las de su empresa. A menudo son los desarrolladores los que crean estos objetos visuales personalizados. Se crean cuando la gran cantidad de objetos visuales que se incluyen con Power BI no se ajustan a sus necesidades.
+Puede usar objetos visuales personalizados con Power BI para crear un único tipo de objeto visual adaptado a sus necesidades o a las de su empresa. A menudo son los desarrolladores los que crean estos objetos visuales personalizados. Se crean cuando los numerosos objetos visuales que se incluyen con Power BI no se ajustan a sus necesidades.
 
 Con los objetos visuales personalizados puede crear sus propios objetos visuales para usarlos en informes de Power BI. Los objetos visuales personalizados se escriben con TypeScript, que es un superconjunto de JavaScript. TypeScript es compatible con algunas características avanzadas y un acceso anticipado a la funcionalidad de ES6/ES7. La aplicación de estilos de objeto visual se administra mediante hojas de estilo en cascada (CSS). Para su comodidad, usamos el precompilador Less, que admite algunas características avanzadas (por ejemplo, el anidamiento, variables, condiciones, bucles, entre otras). Si no quiere usar ninguna de estas características, puede escribir CSS plano en el archivo de Less.
 
@@ -53,7 +53,7 @@ Los desarrolladores también pueden crear sus propias visualizaciones de datos p
 
 ![Ejemplo de inserción de datos](media/what-can-you-do/powerbi-push-data.png)
 
-Para ver algunas de las cosas que se pueden hacer con la API de Power BI, eche un vistazo a [¿Qué pueden hacer los desarrolladores con la API de Power BI?](overview-of-power-bi-rest-api.md)
+Para ver algunas de las cosas que se pueden hacer con la API de Power BI, eche un vistazo a [¿Qué pueden hacer los desarrolladores con la API de Power BI?](automation/overview-of-power-bi-rest-api.md)
 
 ## <a name="next-steps"></a>Pasos siguientes
 
@@ -61,6 +61,6 @@ Para ver algunas de las cosas que se pueden hacer con la API de Power BI, eche u
 
 [Desarrollo de objetos visuales personalizados de Power BI](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
 
-[¿Qué pueden hacer los desarrolladores con la API de Power BI?](overview-of-power-bi-rest-api.md)
+[¿Qué pueden hacer los desarrolladores con la API de Power BI?](automation/overview-of-power-bi-rest-api.md)
 
 [Centro para desarrolladores de Power BI](https://powerbi.microsoft.com/developers/)

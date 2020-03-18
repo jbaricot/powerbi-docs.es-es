@@ -6,30 +6,34 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/21/2020
+ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: fee89c65328b70e1f312b39fbad75d7148bd92f2
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: c7280b2b6bb34b070e7ced3785959d61c74cd165
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76542298"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041288"
 ---
 # <a name="configure-report-interaction-settings"></a>Configuración de las opciones de interacción de los informes
 
 ## <a name="overview"></a>Información general
 
-La aplicación móvil de Power BI tiene una serie de opciones de "interacción" configurables que permiten controlar cómo se interactúa con los datos y cómo se comportan algunos de los elementos de la aplicación móvil de Power BI. Actualmente hay opciones para:
-* [Diferencias entre la interacción de pulsación única y doble en objetos visuales de los informes](#single-tap)
-* [Diferencias entre pies de página de informe acoplados y dinámicos](#docked-report-footer-android-phones) (Android)
-* [Diferencias entre la actualización de los informes iniciada por el botón y la función de deslizar para actualizar](#report-refresh-android-phones) (Android)
+La aplicación móvil de Power BI tiene una serie de opciones de "interacción" configurables que permiten controlar cómo se interactúa con los datos y cómo se comportan algunos de los elementos de la aplicación móvil de Power BI. En la tabla siguiente se muestra la configuración de interacción que está disponible actualmente y los dispositivos que la tienen.
+
+|| Teléfono Android | iPhone | Tableta Android  | iPad |
+|-|:-:|:-:|:-:|:-:|
+| [Diferencias entre la interacción de pulsación única y doble en objetos visuales de los informes](#single-tap) |✔|✔|||
+| [Selección múltiple frente a selección única de puntos de datos en objetos visuales de un informe](#multi-select) |✔|✔|✔|✔|
+| [Pie de página de informe acoplado frente a dinámico](#docked-report-footer) |✔|✔|||
+| [Actualización de un informe iniciada con un botón frente a deslizar para actualizar](#report-refresh) |✔||||
+|
 
 Para ir a la configuración de la interacción, pulse en la imagen del perfil para abrir el [panel lateral](./mobile-apps-home-page.md#header), elija **Configuración** y busque la sección **Interacción**.
 
 ![Configuración de la interacción](./media/mobile-app-interaction-settings/powerbi-mobile-app-interactions-section.png)
 
->[!NOTE]
->La configuración de la interacción para el botón de actualización y para acoplar el pie de página del informe actualmente no afecta a los informes de Report Server. Esto cambiará con la versión de enero de 2020 de Report Server.
+La configuración de interacción se describe en las secciones siguientes.
 
 ## <a name="interaction-settings"></a>Configuración de la interacción
 
@@ -38,13 +42,24 @@ Al descargar la aplicación móvil de Power BI, está establecida para la inter
 
 Si lo prefiere, puede desactivar la interacción de pulsación única. Después, también tiene la interacción de pulsar dos veces. Con la interacción de pulsar dos veces, primero debe pulsar un objeto visual para seleccionarlo y, después, volver a pulsarlo para realizar la acción deseada.
 
-### <a name="docked-report-footer-android-phones"></a>Pie de página de informe acoplado (teléfonos Android)
+### <a name="multi-select"></a>Selección múltiple
+
+La opción de selección múltiple permite seleccionar varios puntos de datos en una página de un informe. Cuando se activa la selección múltiple, cada punto de datos que se pulsa se agrega a los otros puntos de datos seleccionados, y los resultados combinados se resaltan automáticamente en todos los objetos visuales de la página. Cuando la selección múltiple está desactivada, al pulsar para seleccionar un punto de datos, la nueva selección reemplaza a la selección actual.
+
+Para anular la selección de un punto de datos, púlselo de nuevo.
+
+>[!NOTE]
+>La selección múltiple no se admite en los objetos visuales personalizados.
+>
+>El modo de selección múltiple se incluirá en la próxima versión de Power BI Report Server.
+
+### <a name="docked-report-footer"></a>Pie de informe acoplado
 
 La configuración de pie de página de informe acoplado determina si el pie de página del informe permanece acoplado (es decir, fijo y siempre visible) en la parte inferior del informe, o bien si se oculta y vuelve a aparecer en función de las acciones que realice en el informe, como el desplazamiento.
 
 En los teléfonos Android, la configuración de pie de página de informe acoplado está **activada** de forma predeterminada, lo que significa que el pie de página del informe está acoplado y siempre visible en la parte inferior del informe. Si prefiere un pie de página de informe dinámico que aparezca y desaparezca, en función de las acciones que realice en el informe, **desactívela**.
 
-### <a name="report-refresh-android-phones"></a>Actualización de los informe (teléfonos Android)
+### <a name="report-refresh"></a>Actualización de informes
 
 La configuración de actualización de los informes define cómo se inician las actualizaciones de estos. Puede elegir entre tener un botón de actualización en todos los encabezados de informe, o bien usar la acción de deslizar para actualizar (y deslizar suavemente de arriba abajo) en la página del informe para actualizarlo. En la figura siguiente se muestran las dos alternativas. 
 

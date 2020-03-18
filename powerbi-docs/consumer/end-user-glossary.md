@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537816"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040083"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glosario para el servicio Power BI
 El servicio Power BI puede utilizar terminología desconocida o que puede llevar a confusiones. El glosario es un lugar ideal para consultar terminología, que incluso le permite marcar contenido. Otro recurso útil para conocer la base sobre la que se sustenta el servicio Power BI es [Conceptos básicos](end-user-basic-concepts.md). En Conceptos básicos encontrará información general de alto nivel sobre las *piezas* que forman Power BI y cómo se interconectan.
@@ -22,7 +22,9 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 
 ## <a name="a"></a>A
 
-**account (cuenta)** Hay diferentes tipos de cuentas de Power BI.  Una cuenta de Power BI Pro es una suscripción mensual de pago.  Una cuenta de Power BI (gratis) permite visualizar el contenido alojado en la capacidad Power BI Premium.  
+**cuenta** Hay diferentes tipos de cuentas de Power BI, también llamadas *licencias*.  Las cuentas son: por usuario u organizativas. Las cuentas por usuario están disponibles como *gratuitas* o *Pro*.  Un usuario *gratuito* de Power BI usa Power BI Desktop independiente o el servicio Power BI en una cuenta organizativa Premium. La cuenta *Pro* por usuario de Power BI es una suscripción de pago mensual que permite la colaboración y el uso compartido del contenido con otros usuarios *Pro*. 
+
+La cuenta *Premium* organizativa (también conocida como *capacidad Premium*) agrega una capa de características a las licencias por usuario. Por ejemplo, los poseedores de cuentas por usuario *gratuitas* en una organización que tenga una licencia *Premium* pueden hacer mucho más con Power BI que los usuarios *gratuitos* sin *Premium*. Por ejemplo, los usuarios *gratuitos* de cuentas organizativas *Premium* pueden colaborar con compañeros y ver el contenido que se hospeda en la capacidad Premium de Power BI.  
 
 **admin portal (portal de administración)** Ubicación en la que los administradores de Power BI administran los usuarios, las características y las opciones de configuración de Power BI en su organización. (Nota: Office 365, Azure y PowerApps usan el centro de administración).
 
@@ -73,7 +75,7 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 
 **content list (lista de contenido)** Índice de contenido de una aplicación.
 
-**content pack (paquete de contenido)** : una colección de conjuntos de datos, paneles e informes previamente empaquetados. Ahora se reemplazan por **aplicaciones**. Conozca la [nueva experiencia de área de trabajo](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
+**content pack (paquete de contenido)**: una colección de conjuntos de datos, paneles e informes previamente empaquetados. Ahora se reemplazan por **aplicaciones**. Conozca la [nueva experiencia de área de trabajo](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
 
 **content view (vista de contenido)**
 
@@ -153,7 +155,7 @@ Al seleccionar los puntos suspensivos se muestran opciones de menú adicionales.
 
 ## <a name="i"></a>I
 
-**insights (conclusiones)** Consulte **Quick Insights (Conclusiones rápidas)** .
+**insights (conclusiones)** Consulte **Quick Insights (Conclusiones rápidas)**.
 
 
 ## <a name="j"></a>J
@@ -170,13 +172,15 @@ Los controles a lo largo del borde izquierdo del servicio Power BI.
 
 Primera aparición: panel de navegación Siguientes menciones o en espacios reducidos: panel de navegación
 
+**licencia** Consulte *cuenta*.
+
 **página de lista** o **lista de contenido**: una de las páginas de la sección para los elementos del panel de navegación. Por ejemplo, Favoritos, Recientes, Mi área de trabajo, etc.
 
 ## <a name="m"></a>M
 
 **Medida**: una medida es un campo cuantitativo (numérico) que se puede usar para realizar cálculos. Los cálculos comunes son los de suma, promedio y mínimo. Por ejemplo, si la empresa fabrica y vende monopatines, las medidas podrían ser el número de monopatines vendidos y el beneficio medio al año.
 
-**Mobile app (Aplicación móvil)** : aplicaciones que le permiten ejecutar Power BI en dispositivos iOS, Android y Windows.
+**Mobile app (Aplicación móvil)**: aplicaciones que le permiten ejecutar Power BI en dispositivos iOS, Android y Windows.
 
 **modeling (modelado)** [Power BI Desktop] Disponer de los datos que ha conectado para que estén listos para utilizar en Power BI. Esto incluye la creación de relaciones entre las tablas de varios orígenes de datos, crear medidas y asignar métricas.
 
@@ -226,15 +230,17 @@ Primera aparición: panel de navegación Siguientes menciones o en espacios redu
 
 **Power BI Embedded** Un producto que utilizan los desarrolladores para insertar paneles e informes de Power BI en sus propios sitios, aplicaciones y herramientas.
 
-**Power BI Premium** Complemento de la licencia de Power BI Pro que permite a las organizaciones escalar de forma predecible las soluciones de BI mediante la compra de hardware dedicado.
+**Power BI Premium** Complemento de la licencia de Power BI Pro que permite a las organizaciones escalar de forma predecible las soluciones de BI mediante la compra de hardware dedicado. Consulte *cuenta*.
 
-**Power BI Pro license (Licencia de Power BI Pro)** Licencia de usuario mensual que ofrece la capacidad de crear paneles, colaborar en datos compartidos, mantener los datos actualizados automáticamente, auditar y controlar cómo se accede a los datos y cómo se usan, y la capacidad de empaquetar el contenido para distribuirlo (aplicaciones de Power BI).
+**Power BI Pro** Licencia mensual por usuario que ofrece la posibilidad de crear informes y paneles, colaborar en datos compartidos, mantener los datos actualizados automáticamente, auditar y regular cómo se accede a los datos y cómo se usan, además de poder empaquetar el contenido para distribuirlo (aplicaciones de Power BI). Consulte *cuenta*.
 
 **Power BI Report Server** Nueva oferta de marca de SSRS que se inicia con Power BI Premium para permitir que las organizaciones creen sistemas de BI híbridos y distribuidos (una combinación de implementaciones locales y en la nube). Embedded proporciona una manera localizada de almacenar y administrar informes de Power BI.
 
-**Power BI service (Servicio Power BI)** : un servicio SaaS (software como servicio) en línea. Para más información, consulte [¿Qué es Power BI?](../fundamentals/power-bi-overview.md)
+**Power BI service (Servicio Power BI)**: un servicio SaaS (software como servicio) en línea. Para más información, consulte [¿Qué es Power BI?](../fundamentals/power-bi-overview.md)
 
 **Premium workspace (Área de trabajo Premium)** Un área de trabajo que se ejecuta en una capacidad dedicada y que se representa a los clientes mediante un icono de rombo.  
+
+Licencia **Pro** o cuenta **Pro** Consulte *cuenta*.
 
 **publish (publicar)** Los *diseñadores* de informes del servicio Power BI agrupan el contenido de un área de trabajo de Power BI para que esté disponible para otros como una aplicación de Power BI. Los *diseñadores* de informes de Power BI Desktop usan el término publicar para referirse al envío de un informe de Power BI Desktop en formato .pbix al servicio Power BI para que puedan crear paneles desde él y compartirlo fácilmente con otros. 
 
@@ -301,7 +307,7 @@ En dispositivos móviles, “compartir” puede hacer referencia a una funcional
 
 **streaming data (transmisión de datos)** Vea *streaming en tiempo real*.
 
-**subscriptions (suscripciones)** , **suscribirse**  
+**subscriptions (suscripciones)**, **suscribirse**  
 Puede suscribirse a páginas de informes, aplicaciones y paneles, y recibir correos electrónicos que contengan una instantánea. Se requiere una licencia de Power BI Pro.
 
 **summarization (resumen)** [Power BI Desktop] Operación que se aplica a los valores de una columna.

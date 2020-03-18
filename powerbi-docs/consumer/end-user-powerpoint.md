@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 25422b2503caed78e6e6518a855f6b23a0571a8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 4194afb71dec7b50d75def0677489d3ff009917e
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74830504"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113762"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar informes de Power BI a PowerPoint
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -75,8 +77,9 @@ Lo que haga con la presentación de PowerPoint a partir de este punto, o con cua
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 Hay algunas consideraciones y limitaciones a tener en cuenta al trabajar con la característica **Exportar a PowerPoint**.
 
-* En la actualidad, no se admiten objetos visuales de R. Los objetos visuales se exportan como una imagen en blanco a PowerPoint con un mensaje de error que indica que el objeto visual no se admite.
+* En la actualidad, no se admiten objetos visuales de R y Python. Los objetos visuales se exportan como una imagen en blanco a PowerPoint con un mensaje de error que indica que el objeto visual no se admite.
 * Los objetos visuales personalizados que se han certificado son compatibles. Para obtener más información acerca de los objetos visuales personalizados certificados, incluido cómo obtener un objeto visual personalizado, consulte [Obtener un objeto visual personalizado certificado](../developer/power-bi-custom-visuals-certified.md). No se admiten los objetos visuales personalizados que no se hayan certificado. Estos se exportan como una imagen en blanco a PowerPoint con un mensaje de error que indica que el objeto visual no se admite.
+* Este objeto visual de ESRI no se admite.
 * Actualmente no se pueden exportar informes de más de 30 páginas.
 * Los objetos visuales con barras de desplazamiento se exportan en su estado predeterminado. El objeto visual de PowerPoint solo mostrará la parte superior de los datos. El desplazamiento en PowerPoint no está disponible, ya que cada diapositiva es una imagen. 
 * Tenga paciencia, ya que el proceso de exportación del informe a PowerPoint puede tardar unos minutos en completarse. Entre los factores que pueden afectar al tiempo requerido está la estructura del informe y la carga actual del servicio Power BI.
@@ -89,6 +92,7 @@ Hay algunas consideraciones y limitaciones a tener en cuenta al trabajar con la 
 * Como se mencionó anteriormente, cada página del informe se exporta como una única imagen en el archivo de PowerPoint.
 * El servicio Power BI utiliza su propia configuración de idioma como idioma para la exportación de PowerPoint. Para ver o configurar las preferencias de idioma, seleccione el icono de engranaje ![Icono de engranaje](media/end-user-powerpoint/power-bi-settings-icon.png) > **Configuración** > **General** > **Idioma**.
 * La opción de hora de **descarga** en la diapositiva de portada para el archivo PowerPoint exportado se establece en la zona horaria de su equipo en el momento de la exportación.
+* Al exportar al formato PPTX informes que usen temas con fuentes personalizadas, se reemplazarán las fuentes personalizadas por una fuente predeterminada.
 * Actualmente no se respetan los filtros de las direcciones URL al elegir **Valores actuales** para la exportación.
 
 ## <a name="next-steps"></a>Pasos siguientes

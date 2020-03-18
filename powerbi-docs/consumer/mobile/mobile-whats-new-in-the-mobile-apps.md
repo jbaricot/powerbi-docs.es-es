@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 7aa31d9c6eadd4c7c9c88c9006a360a6089f28e2
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259810"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041588"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -21,6 +21,29 @@ Para obtener información sobre novedades, vea:
 * [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novedades de Power BI Desktop](../../desktop-latest-update.md)  
 * [Novedades en el servicio Power BI](../../service-whats-new.md)  
+
+## <a name="february-2020"></a>Febrero de 2020
+
+### <a name="multi-select-mode-android-and-ios"></a>Modo de selección múltiple (Android e iOS)
+
+Hemos agregado la capacidad de seleccionar varios puntos de datos en una página del informe. Cuando se activa la selección múltiple, cada punto de datos que se pulsa se agrega a los otros puntos de datos seleccionados, y los resultados combinados se resaltan automáticamente en todos los objetos visuales de la página. Para activar el modo de selección múltiple, vaya a la página [Configuración de la aplicación móvil](./mobile-app-interaction-settings.md).
+
+>[!NOTE]
+>El modo de selección múltiple se incluirá en la próxima versión de Power BI Report Server.
+
+### <a name="report-footer-can-now-always-be-visible-in-the-mobile-app-for-iphones"></a>Actualmente, el pie de página del informe puede estar visible permanentemente en la aplicación móvil para iPhones
+
+En su iPhone, al igual que en su teléfono Android, ahora puede decidir acoplar el pie de página del informe en la parte inferior de la página del informe, donde siempre estará visible y disponible, con independencia de las acciones que realice en la página. Esto facilita el uso de todas las opciones que proporciona. Para acoplar el pie de página, alterne el modificador **Pie del informe acoplado** en la página [Configuración de la aplicación móvil](./mobile-app-interaction-settings.md).
+
+### <a name="support-for-pbirs-reports-preview-windows"></a>Compatibilidad con informes de PBIRS (versión preliminar) (Windows)
+
+Ahora puede abrir los informes de Power BI Report Server (PBIRS) en la aplicación de Power BI.
+
+### <a name="quickly-access-your-recent-items-windows"></a>Acceso rápido a los elementos recientes (Windows)
+
+Haga clic con el botón derecho en el icono de la aplicación Power BI en la barra de tareas de Windows para obtener una lista de todos los elementos vistos recientemente. Haga clic en cualquier elemento de la lista para realizar una visita rápida.
+
+![Menú de acceso rápido de la barra de tareas](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-windows-taskbar-quick-access.png)
 
 ## <a name="january-2020"></a>Enero de 2020
 
@@ -38,7 +61,7 @@ Nuestros usuarios de Android nos han hecho saber que su experiencia al usar los 
 
 Los usuarios que prefieran el comportamiento anterior pueden restaurarlo con la nueva [configuración de la interacción](./mobile-app-interaction-settings.md) de la aplicación móvil.
 
-Además, los administradores de TI pueden [invalidar de forma remota la nueva configuración predeterminada](./mobile-app-configuration.md#interaction-settings-android) en nombre de los usuarios mediante la herramienta de MDM que prefieran con un archivo de configuración de la aplicación. De esta forma, se puede configurar el mismo comportamiento para todos los usuarios de una organización.
+Además, los administradores de TI pueden [invalidar de forma remota la nueva configuración predeterminada](./mobile-app-configuration.md#interaction-settings-ios-and-android) en nombre de los usuarios mediante la herramienta de MDM que prefieran con un archivo de configuración de la aplicación. De esta forma, se puede configurar el mismo comportamiento para todos los usuarios de una organización.
 
 > [!NOTE]
 > La configuración de la interacción para el botón de actualización y para acoplar el pie de página del informe actualmente no afecta a los informes de Report Server. Esto cambiará con la versión de enero de Report Server.
@@ -673,7 +696,7 @@ El centro de notificaciones en su aplicación móvil Power BI muestra los nuevos
 * Ahora también hay **Códigos QR** disponibles **para informes**. Escanee el código con su aplicación Power BI para ir directamente a un informe relacionado, sin necesidad de navegación ni búsquedas.
 * **Administración de datos mejorada** para SQL Server 2016 Reporting Services: menores tiempos de carga y consumo de datos en su dispositivo.
 * **Informes móviles temáticos de SQL Server 2016**: consulte los temas para informes móviles en su dispositivo.
-* **Geofiltrado**: filtre informes por su ubicación actual.
+* **Filtrado geográfico**: filtre informes por su ubicación actual.
 
 ### <a name="april-2016"></a>Abril de 2016
 Consulte el [blog de abril de Power BI Mobile Apps](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/) para más información.
@@ -832,4 +855,3 @@ Mejoras en las aplicaciones móviles de Power BI: Android, iOS (iPhone y iPad) y
 * Mejora de la experiencia del usuario al tener acceso a paneles mediante seguridad basada en roles. 
 * Una nueva capacidad le permite examinar iconos del panel desde todas las perspectivas, explorándolos directamente en modo enfocado sin necesidad de volver al panel para seleccionar el icono siguiente.
 * Mejoras adicionales de estabilidad y rendimiento. 
-

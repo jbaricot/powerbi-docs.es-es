@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: 48406a8c68237d182960b46de67f91dbd2717922
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 6844d09c04759f0cdb780b3c1805698f1b1b519f
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76894669"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401916"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Direcciones URL de Power BI para la inclusión en listas blancas
 
@@ -85,13 +85,13 @@ Power BI depende de determinados puntos de conexión para poder admitir los pan
 | 1 | **Obligatorio:** integración de Excel | Consulte la documentación de Office 365 para [Office Online y las URL comunes](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
 | | | |
 
-## <a name="custom-visuals"></a>Objetos visuales personalizados
+## <a name="power-bi-visuals"></a>Objetos visuales de Power BI
 
-Power BI depende de determinados puntos de conexión para ver objetos visuales personalizados y acceder a ellos. Debe poder conectarse a los puntos de conexión de la tabla y los sitios vinculados a continuación.
+Power BI depende de determinados puntos de conexión para ver los objetos visuales de Power BI y acceder a ellos. Debe poder conectarse a los puntos de conexión de la tabla y los sitios vinculados a continuación.
 
 | Fila | Propósito | Destinos | Puertos |
 | --- | --- | --- | --- |
-| 1 | **Obligatorio:** importar un objeto visual personalizado desde la interfaz de Marketplace o desde un archivo | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
+| 1 | **Obligatorio:** importar un objeto visual personalizado desde la interfaz de Marketplace o desde un archivo | *.azureedge.net <br> *.blob.core.windows.net <br> *.osi.office.net <br> *.msecnd.net <br> store.office.com <br> web.vortex.data.microsoft.com <br> store-images.s-microsoft.com | TCP 443 |
 | 2 | **Opcional:** Mapas de Bing | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **Opcional:** PowerApps | Vea la sección [Servicios requeridos](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) del sitio de requisitos del sistema de PowerApps | N/D |
 | 4 | **Opcional:** Visio | Consulte la documentación de Office 365 para [Office Online y URL comunes](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), así como [SharePoint Online y OneDrive para la Empresa](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/D |

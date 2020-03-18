@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: 261d800dac9b65747e648bc76944a0b8a5077b73
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427102"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041686"
 ---
 # <a name="power-bi-data-sources"></a>Orígenes de datos de Power BI
 
@@ -43,7 +43,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Azure HDInsight (HDFS) | Sí | Sí | No | No | No |
 | Azure HDInsight Spark | Sí | Sí | Sí | No | No |
 | Azure SQL Database | Sí | Sí | Sí | Sí <sup>2</sup> | No |
-| Azure SQL Data Warehouse | Sí | Sí | Sí | No | No |
+| Azure SQL Data Warehouse | Sí | Sí | Sí | Sí <sup>2</sup> | No |
 | Azure Table Storage | Sí | Sí | No | Sí | No |
 | Conector de BI | Sí | Sí | Sí | Sí | Sí |
 | BI360: informes presupuestarios y financieros | Sí | Sí | No | No | No |
@@ -134,7 +134,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Twilio | Sí | Sí | No | No | No |
 | tyGraph | Sí | Sí | No | No | No |
 | Vertica | Sí | Sí | Sí | Sí | Sí |
-| Web | Sí | Sí | No | Sí | Sí |
+| Web | Sí | Sí | No | Sí | Sí <sup>6</sup> |
 | Webtrends | Sí | Sí | No | No | No |
 | Dimensiones de Workforce | Sí | Sí | No | Sí | No |
 | XML | Sí | Sí | No | Sí | No <sup>4</sup> |
@@ -143,13 +143,15 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 
 <sup>1</sup> Compatible con el [proveedor OLEDB ACE](https://www.microsoft.com/download/details.aspx?id=54920), instalado en el mismo equipo que la puerta de enlace.
 
-<sup>2</sup> Compatible con la misma función M que la versión local.
+<sup>2</sup> Se admite con la misma función M que la versión local, lo que da lugar a opciones de autenticación restringida (la puerta de enlace no admite OAuth).
 
 <sup>3</sup> Los archivos de Excel 1997-2003 (.xls) requieren el [proveedor OLEDB ACE](https://www.microsoft.com/download/details.aspx?id=54920).
 
 <sup>4</sup> Obligatorio para la versión local de la tecnología.
 
 <sup>5</sup> Solo compatible con la [puerta de enlace personal](service-gateway-personal-mode.md).
+
+<sup>6</sup> Necesario para las bases de datos .html, .xls y de Access.
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Inicio de sesión único (SSO) para orígenes de DirectQuery
 

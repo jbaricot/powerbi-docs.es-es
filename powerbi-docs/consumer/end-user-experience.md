@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fbd629ea7d2c5bb71471ac8073a5a823f1b2c192
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76975342"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040167"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Inicio rápido: Moverse por el servicio Power BI
 
@@ -72,7 +72,7 @@ Puede consultarlo personalmente seleccionando **Áreas de trabajo** en el panel 
 
 ![Mis áreas de trabajo ](./media/end-user-experience/power-bi-workspaces.png)
 
-En **Mi área de trabajo** se almacena todo el contenido que se crea y del que se es propietario. Puede considerarla como su espacio aislado o área de trabajo para su propio contenido. Para muchos *consumidores* de Power BI, la sección **Mi área de trabajo** estará vacía porque su trabajo no conlleva la creación de contenido.  Los *consumidores*, por definición, consumen datos creados por otros usuarios y usan esos datos para tomar decisiones empresariales. En el caso de que también se dedique a crear contenido, le recomendamos que lea los [artículos de Power BI para *diseñadores*](../power-bi-creator-landing.md).
+En **Mi área de trabajo** se almacena todo el contenido que se crea y del que se es propietario. Puede considerarla como su espacio aislado o área de trabajo para su propio contenido. Para muchos *consumidores* de Power BI, la sección **Mi área de trabajo** estará vacía porque su trabajo no conlleva la creación de contenido.  Los *consumidores*, por definición, consumen datos creados por otros usuarios y usan esos datos para tomar decisiones empresariales. Si ve que está creando contenido, plantéese leer los [artículos Power BI para *creadores de informes*](../index.yml).
 
 Las **áreas de trabajo de aplicación** incluyen todo el contenido de una aplicación específica.  Cuando un *diseñador* crea una aplicación, agrupa todo el contenido necesario para que esta se pueda usar.  Seleccione el área de trabajo Ventas y marketing para ver lo que el *diseñador* ha agrupado en la aplicación. 
 

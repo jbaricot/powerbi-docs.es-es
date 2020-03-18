@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c3ccbe6ad87a813185943845431fa1a859b09a76
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 498636d61f61764cfaef29db32454f55f1328243
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888440"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401221"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Requisitos previos de los orígenes de datos de Power BI
 Para cada proveedor de datos, Power BI admite una versión de proveedor específica en los objetos. Para obtener más información sobre los orígenes de datos disponibles para Power BI, vea [Orígenes de datos](desktop-data-sources.md). La tabla siguiente describe estos requisitos.
@@ -28,7 +28,7 @@ Para cada proveedor de datos, Power BI admite una versión de proveedor específ
 | | System.Data.OracleClient (integrado en .NET Framework) |.NET Framework 3.5 |9.x o superior |Tablas/vistas |Se incluye en .NET Framework 3.5 o superior |
 | IBM DB2 |Cliente ADO.Net de IBM (parte del paquete de controladores del servidor de datos IBM) |10.1 |9.1 o superior |Tablas/vistas |[Vínculo de descarga](https://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |Connector/Net |6.6.5 |5.1 |Tablas/vistas, funciones escalares |[Vínculo de descarga](https://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
-| PostgreSQL |NPGSQL ADO.NET provider |2.0.12 |9,4 |Tablas/vistas |[Vínculo de descarga](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
+| PostgreSQL |Proveedor NPGSQL de ADO.NET (incluido con Power BI Desktop) |4.0.10 |9,4 |Tablas/vistas |[Vínculo de descarga](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
 | Teradatos |Proveedor de datos .NET para Teradata |14+ |12+ |Tablas/vistas |[Vínculo de descarga](https://go.microsoft.com/fwlink/?linkid=278886&clcid=0x409) |
 | SAP Sybase SQL Anywhere |iAnywhere.Data.SQLAnywhere para .NET 3.5 |16+ |16+ |Tablas/vistas |[Vínculo de descarga](https://go.microsoft.com/fwlink/?linkid=324846) |
 

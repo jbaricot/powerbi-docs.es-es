@@ -6,21 +6,24 @@ ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099010"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114289"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Sugerencias para hacer preguntas con Preguntas y respuestas de Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palabras y terminología que reconoce Preguntas y respuestas
 La lista de palabras clave de esta página no es exhaustiva.  La mejor forma de ver si Power BI reconoce una palabra clave es probar a escribirla en el cuadro de pregunta.  Si la palabra o término aparece atenuado, Power BI no lo reconoce.
 
-La siguiente lista usa el tiempo verbal presente, pero se reconocen todos los tiempos verbales en la mayoría de los casos. Por ejemplo, "is" incluye **are**, **was**, **were**, **will be**, **have**, **has**, **had**, **will have**, **has got**, **do**, **does**, **did**.  Y "ordenar" incluye **ordenado** y **ordenando**.  Además, Power BI reconoce e incluye versiones de una palabra en singular y plural. 
+La siguiente lista usa el tiempo verbal presente, pero se reconocen todos los tiempos verbales en la mayoría de los casos. Por ejemplo, "es" incluye: **son**, **era**, **eran**, **será**, **serán**, **tiene**, **tuvo**, **tendrá**, **tienen**, **hacen**, **hace**, **hizo**...  Y "ordenar" incluye **ordenado** y **ordenando**.  Además, Power BI reconoce e incluye versiones de una palabra en singular y plural. 
 
 > [!NOTE]
 > Preguntas y respuestas está disponible igualmente en la aplicación [Microsoft Power BI para iOS en dispositivos iPad, iPhone y iPod Touch](mobile/mobile-apps-ios-qna.md).

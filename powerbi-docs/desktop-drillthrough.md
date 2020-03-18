@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/08/2019
+ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7b00b0cb611dd3e0921885ddaca6547fdb43fd3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 020b7e0a5fd0c3372e3a83d9973a404978e56b7d
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74310893"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401246"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Uso de la obtención de detalles en Power BI Desktop
 Con la *obtención de detalles* en Power BI Desktop, puede crear una página en el informe que se centre en una entidad específica, como un proveedor, un cliente o un fabricante. Puede seleccionar la obtención de detalles para usarla si hace clic con el botón derecho en un punto de datos de otras páginas del informe y, después, explora la página que tiene el foco para obtener detalles filtrados por ese contexto.
@@ -33,6 +33,11 @@ Con la *obtención de detalles* en Power BI Desktop, puede crear una página e
     Cuando se agrega un campo al área **Filtros de obtención de detalles**, Power BI Desktop crea automáticamente un objeto visual de botón *Volver*. Ese objeto visual se convierte en un botón en los informes publicados. Los usuarios que consumen el informe en el servicio Power BI pueden usar este botón para volver a la página del informe de la que proceden.
 
     ![Imagen de obtención de detalles](media/desktop-drillthrough/drillthrough_03.png)
+
+> [!IMPORTANT]
+> Puede configurar y llevar a cabo la obtención de detalles de una página del mismo informe, pero no de una página de otro informe.  
+
+
 
 ## <a name="use-your-own-image-for-a-back-button"></a>Uso de su propia imagen para un botón Atrás    
  Dado que el botón Atrás es una imagen, puede reemplazar la imagen de ese objeto visual por cualquier imagen que desee. Seguirá funcionando como botón Atrás para que los consumidores del informe puedan volver a la página original. 
@@ -54,13 +59,12 @@ Para usar una imagen propia para un botón Atrás, siga estos pasos:
 
 ## <a name="pass-all-filters-in-drillthrough"></a>Pasar todos los filtros a la obtención de detalles
 
-A partir de la versión de mayo de 2018 de Power BI Desktop, puede pasar todos los filtros aplicados a la ventana de obtención de detalles. Por ejemplo, puede seleccionar solo una determinada categoría de productos y los objetos visuales que se filtran en esa categoría y, luego, seleccionar la obtención de detalles. Puede que le interese saber cuál será el aspecto de esa obtención de detalles con todos los filtros aplicados.
+Puede pasar todos los filtros aplicados a la ventana de obtención de detalles. Por ejemplo, puede seleccionar solo una determinada categoría de productos y los objetos visuales que se filtran en esa categoría y, luego, seleccionar la obtención de detalles. Puede que le interese saber cuál será el aspecto de esa obtención de detalles con todos los filtros aplicados.
 
 Para mantener todos los filtros aplicados, en la sección **Obtención de detalles** del panel **Visualizaciones**, establezca **Pasar todos los filtros** en **Activado**. 
 
 ![Mantener todos los filtros](media/desktop-drillthrough/drillthrough_06.png)
 
-En las versiones de Power BI Desktop publicadas antes de mayo de 2018, el comportamiento equivale a tener esta opción establecida en **Desactivado**.
 
 Cuando se obtienen detalles sobre un objeto visual, puede ver los filtros que se han aplicado como resultado de la aplicación de filtros temporales en el objeto visual de origen. En la sección **Obtención de detalles** del panel **Visualización**, esos filtros transitorios se muestran en cursiva. 
 

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/24/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: 4870fac504f36600c13af49c5798d896eeb59261
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576766"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113152"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de información compatibles con Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 Puede pedir a Power BI que examine los datos y encuentre patrones y tendencias interesantes. Estas tendencias y patrones se presentan en forma de objetos visuales denominados *conclusiones*. 
 
@@ -75,7 +77,7 @@ Busca patrones periódicos en los datos de series temporales, por ejemplo, seman
 ![Ejemplo de estacionalidad](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>Recurso compartido constante
-Resalta los casos en los que hay una correlación de elementos primarios y secundarios entre el recurso compartido de un valor de secundario en relación con el valor global del elemento primario a través de una variable continua. La información del recurso compartido constante se aplica al contexto de una medida, una dimensión y otra dimensión de fecha y hora. Esta información se desencadena cuando un valor de dimensión determinado, por ejemplo, "la región noreste", tiene un porcentaje constante de ventas totales en esa dimensión de fecha y hora.
+Resalta los casos en los que hay una correlación de elementos primarios y secundarios entre el recurso compartido de un valor de secundario en relación con el valor global del elemento primario a través de una variable continua. La información del recurso compartido constante se aplica al contexto de una medida, una dimensión y otra dimensión de fecha y hora. Esta información se desencadena cuando un valor de dimensión determinado (por ejemplo, "la región noreste") tiene un porcentaje constante de ventas totales en esa dimensión de fecha y hora.
 
 La información del recurso compartido constante es similar a la información de la varianza baja, ya que ambas están relacionadas con la falta de varianza de un valor a lo largo del tiempo. Sin embargo, la información del recurso compartido constante mide la falta de varianza del **porcentaje total** a lo largo del tiempo, mientras que la información de la varianza baja mide la falta de varianza de los valores de medida absolutos en una dimensión.
 

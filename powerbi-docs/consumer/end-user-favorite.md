@@ -7,24 +7,25 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bb69d1ecc4e91912b947a2120607e1a0502d8162
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852656"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040513"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Agregar a Favoritos aplicaciones, informes y paneles en el servicio Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Cuando se convierte contenido en *favorito*, se puede acceder a él rápidamente desde la lista de contenido **Favoritos** y desde **Inicio** de Power BI > **Favoritos y frecuentes**. Los favoritos suelen ser contenido que se visita con más frecuencia y se identifican con una estrella amarilla.
 
    ![Icono de favoritos](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![Icono de favoritos y frecuentes](./media/end-user-favorite/power-bi-home.png)
-
-También puede seleccionar un solo panel como [Panel destacado](end-user-featured.md) en el servicio Power BI.
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Incorporación de un panel o informe como favorito
 
@@ -67,7 +68,7 @@ Si ya no usa un informe tanto como antes, lo puede quitar de Favoritos. Al quita
 2. Seleccione la estrella amarilla que hay junto al contenido que quiere quitar de Favoritos.
 
 > [!NOTE]
-> También puede quitar de Favoritos un panel, un informe o una aplicación. Solo tiene que abrir y anular la selección del icono amarillo. 
+> También puede quitar de Favoritos un panel, un informe o una aplicación. Simplemente abra Favoritos y seleccione la estrella amarilla para volver a ponerla en blanco. 
 > 
 > 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones

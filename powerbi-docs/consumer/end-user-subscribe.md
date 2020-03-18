@@ -8,16 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/30/2020
-rLocalizationGroup: Common tasks
-ms.openlocfilehash: 267a1e8b2f45198059e5acfcdf0233445babbd14
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.date: 03/09/2020
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888637"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114046"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Suscripción a un informe o panel en el servicio Power BI 
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -34,7 +36,7 @@ Cuando reciba el correo electrónico, incluye un vínculo para "ir al informe o 
 Para **crear** una suscripción para uno mismo se necesita un tipo determinado de licencia. Si no puede crear una suscripción, póngase en contacto con el administrador de Power BI. La **suscripción de otros usuarios** solo está disponible para el propietario del informe. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Suscribirse a un panel o una página de informe
-El proceso de suscripción a un panel o un informe es similar. El mismo botón permite suscribirse a los paneles e informes del servicio Power BI.
+El proceso para suscribirse a un panel y a un informe es similar. El mismo botón permite suscribirse a los paneles e informes del servicio Power BI.
  
 ![Selección del icono de suscripción](./media/end-user-subscribe/power-bi-subscribe.png).
 
@@ -63,7 +65,7 @@ El proceso de suscripción a un panel o un informe es similar. El mismo botón p
 
 3. Si todo es correcto, haga clic en **Guardar y cerrar** para guardar la suscripción. Recibirá un correo electrónico y la instantánea del panel o informe en la programación que haya establecido. Todas las suscripciones en las que la frecuencia se ha establecido en **Tras la actualización de los datos** solo enviarán un correo electrónico después de la primera actualización programada de ese día.
    
-   ![Instantánea del panel por correo electrónico](media/end-user-subscribe/power-bi-subscribe-email.png)
+   ![Instantánea del panel por correo electrónico](media/end-user-subscribe/power-bi-email.png)
    
     La actualización de la página del informe no actualiza el conjunto de datos. El propietario del conjunto de datos es el único que puede actualizar manualmente un conjunto de datos. Para buscar el nombre del propietario de los conjuntos de datos subyacentes, seleccione la lista desplegable de la barra de menús o busque el correo electrónico original de la suscripción.
    
@@ -73,11 +75,12 @@ El proceso de suscripción a un panel o un informe es similar. El mismo botón p
 ## <a name="manage-your-subscriptions"></a>Administrar sus suscripciones
 Solo puede administrar las suscripciones que cree. Vuelva a hacer clic en **Suscribirse** y haga clic en **Administrar todas las suscripciones** en la esquina inferior izquierda (vea las capturas de pantalla anteriores). 
 
-![Vista de todas las suscripciones en Mi área de trabajo](./media/end-user-subscribe/power-bi-manage.png)
+![Vista de todas las suscripciones en Mi área de trabajo](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
 Una suscripción finalizará si expira la licencia de Pro, el propietario elimina el panel o el informe o se elimina la cuenta de usuario utilizada para crear la suscripción.
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
+* Para evitar que los correos electrónicos de las suscripciones vayan a la carpeta de correo no deseado, agregue el alias de correo electrónico de Power Platform (PowerPlat-noreply@microsoft.com) a sus contactos. Si usa Microsoft Outlook, haga clic con el botón derecho en el alias y seleccione **Agregar a contactos de Outlook**. 
 * Es posible que los paneles con más de 25 iconos anclados, o bien con 4 páginas de informes activos ancladas, no se representen totalmente en los correos electrónicos de la suscripción enviados a los usuarios. Se recomienda contactar con el diseñador del panel y pedirle que reduzca los iconos anclados a menos de 25 y los informes activos anclados a menos de 4 para asegurarse de que el correo electrónico se representa de forma correcta.  
 * En las suscripciones de correo electrónico de panel, si se ha aplicado la seguridad de nivel de fila (RLS) a algún icono, dicho icono no se mostrará.  En cuanto a las suscripciones de correo electrónico de informe, si el conjunto de datos usa RLS, no podrá crear una suscripción.
 * Si los vínculos del correo electrónico (al contenido) dejan de funcionar, es posible que el contenido se haya eliminado. En el correo electrónico, debajo de la captura de pantalla, puede ver si se ha suscrito personalmente o si alguien lo ha hecho por usted. Si lo ha hecho otra persona, pídale que cancele los mensajes de correo electrónico o que vuelva a suscribirle.

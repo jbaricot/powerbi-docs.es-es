@@ -7,24 +7,27 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/22/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e86e8c87ca7942e74ff2f16e299304f56f4a2aa3
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863401"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113091"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Visualización de conclusiones de datos en los iconos del panel con Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Cada [icono](end-user-tiles.md) de objeto visual del panel es una puerta de entrada a la exploración de datos. Cuando se selecciona un icono, se abre un informe o las [Preguntas y respuestas](end-user-q-and-a.md), donde puede filtrar y ordenar, así como profundizar en el conjunto de datos subyacente al informe. Y al extraer información, Power BI realiza la exploración de datos por usted.
 
 ![modo del menú de puntos suspensivos](./media/end-user-insights/power-bi-insight.png)
 
 Extraiga información para generar objetos visuales interactivos interesantes basados en los datos. Se puede extraer información en un icono de un panel específico e incluso conclusiones a partir de información detallada.
 
-La característica de información detallada se basa en un creciente [conjunto de algoritmos de análisis avanzados](end-user-insight-types.md) desarrollado en combinación con Microsoft Research, que vamos a seguir usando para que más personas encuentren información en sus datos de formas nuevas e intuitivas.
+La característica de información se basa en un creciente [conjunto de algoritmos de análisis avanzados](end-user-insight-types.md) desarrollado junto con Microsoft Research, que vamos a seguir usando para que más personas encuentren información en sus datos de formas nuevas e intuitivas.
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>Información en un icono del panel
 Al extraer información en un icono de panel, Power BI busca solo los datos utilizados para crear ese icono de panel único. 
