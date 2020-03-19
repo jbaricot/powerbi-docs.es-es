@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 02/25/2020
-  ms.openlocfilehash: 47a77e156c6b59440e0de500a3f2ab9dede01c85
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.openlocfilehash: 35b32cbaa5b5835b12bf83f9c14034aae715f7d6
+  ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 03/07/2020
-  ms.locfileid: "78924607"
+  ms.lasthandoff: 03/18/2020
+  ms.locfileid: "79525853"
 landingContent:
 - title: Sobre los informes paginados de Power BI
   linkLists:
@@ -27,10 +27,12 @@ landingContent:
       url: paginated-reports-report-builder-power-bi.md
     - text: Generador de informes en Power BI
       url: report-builder-power-bi.md
-- title: Comenzar
+- title: Introducción
   linkLists:
   - linkListType: tutorial
     links:
+    - text: Curso en línea
+      url: paginated-reports-online-course.md
     - text: Creación y carga de un informe paginado
       url: paginated-reports-quickstart-aw.md
   - linkListType: concept
