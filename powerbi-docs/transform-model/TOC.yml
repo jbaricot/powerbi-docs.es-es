@@ -75,6 +75,8 @@
               href: ../desktop-measures.md
             - name: Importar y mostrar los KPI
               href: ../desktop-import-and-display-kpis.md
+            - name: Aplicación de la fecha y hora automáticas
+              href: ../desktop-auto-date-time.md
         - name: Preparación de datos de autoservicio
           items:
             - name: Creación y uso de flujos de datos
