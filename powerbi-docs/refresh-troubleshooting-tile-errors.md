@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 79f18faf56fba8afa85afd808f6faa1bd16811d8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699553"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381155"
 ---
 # <a name="troubleshooting-tile-errors"></a>Solución de problemas de errores de icono
 A continuación se muestran los errores comunes que pueden producirse con los iconos y una explicación.
@@ -35,9 +35,10 @@ No se pudo acceder a los datos porque el origen de datos no estaba accesible. Es
 
 Póngase en contacto con el propietario del panel para asegurarse de que los orígenes de datos y el modelo existan y sean accesibles para su cuenta.
 
-**El administrador ha deshabilitado los objetos visuales personalizados.**
+**El administrador ha deshabilitado los objetos visuales de Power BI.**
 
-Su administrador de Power BI ha deshabilitado el uso de objetos visuales personalizados para su organización o grupo de seguridad. No podrá usar objetos visuales personalizados desde [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) ni importar objetos visuales privados desde un archivo. Solo podrá usar el conjunto de objetos visuales empaquetado previamente.
+El administrador de Power BI ha deshabilitado el uso de objetos visuales de Power BI para la organización o el grupo de seguridad.
+No podrá usar objetos visuales de Power BI desde [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) ni importar objetos visuales privados desde un archivo. Solo podrá usar el conjunto de objetos visuales empaquetado previamente.
 
 
 **Las formas de datos deben contener al menos un grupo o cálculo con salida de datos. Póngase en contacto con el propietario del panel.**

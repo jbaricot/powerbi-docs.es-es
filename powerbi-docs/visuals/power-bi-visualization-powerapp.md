@@ -3,19 +3,19 @@ title: Insertar una nueva instancia de Power Apps en un informe de Power BI
 description: Inserte una aplicación que use el mismo origen de datos y se pueda filtrar como otros elementos de informe.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 02/03/2020
+ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 99869740eb20b14625e66ff50cb48b08e5cb3e15
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "77036685"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525945"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Tutorial: Insertar un objeto visual de Power Apps en un informe de Power BI
 
@@ -106,4 +106,5 @@ Si ya no quiere usar el Ejemplo de análisis de oportunidades, puede eliminar el
 
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Objeto visual Preguntas y respuestas](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Objeto visual Preguntas y respuestas](power-bi-visualization-types-for-reports-and-q-and-a.md)    
+[Tutorial: Inserción de un objeto visual de Power Apps en un informe de Power BI](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782447"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381316"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
 
@@ -317,7 +317,7 @@ Compatibilidad con estas características en los informes de Power BI:
 
 **Características de accesibilidad** Hay tantas características de accesibilidad que es imposible enumerarlas: por ejemplo, la [accesibilidad del panel de la lista de campos](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). El panel de la lista de campos es totalmente accesible. Puede navegar por el panel mediante el teclado y un lector de pantalla, y usar el menú contextual para agregar campos a la página del informe.
 
-#### <a name="custom-visuals"></a>Objetos visuales personalizados
+#### <a name="power-bi-visuals"></a>Objetos visuales de Power BI
 
 - La versión de la API incluida con esta versión es 2.3.
 
@@ -381,11 +381,11 @@ Compatibilidad de Direct Query de SSO de SAP HANA con Kerberos ya disponible par
 >[!Note]
 >Este escenario solo se admite cuando se trata SAP HANA como un origen de datos relacional con informes creados en Power BI Desktop.  Para habilitar en Power BI Desktop, en el menú de DirectQuery, en Opciones, active "Tratar SAP HANA como origen relacional" y haga clic en Aceptar.
 
-#### <a name="custom-visuals"></a>Objetos visuales personalizados
+#### <a name="power-bi-visuals"></a>Objetos visuales de Power BI
 
 - La versión de la API incluida con esta versión es 1.13.0.
 
-- Ahora, los objetos visuales personalizados pueden revertir a una versión anterior compatible con la versión actual de la API de servidor (si está disponible).
+- Ahora, los objetos visuales de Power BI pueden revertirse a una versión anterior compatible con la actual de la API de servidor (si está disponible).
 
 ### <a name="reporting"></a>Informes 
 
@@ -613,7 +613,7 @@ Power BI Report Server ahora admite los nuevos objetos visuales tabla y matriz d
 
 * Disponibilidad de la versión preliminar del servidor de informes de Power.
 * Posibilidad de publicar informes de Power BI en el entorno local.
-  * Compatibilidad con objetos visuales personalizados
+  * Compatibilidad con objetos visuales de Power BI
   * Compatibilidad con **conexiones dinámicas de Analysis Services** solo con más orígenes de datos que están por venir.
   * Actualización de la aplicación Power BI Mobile para mostrar los informes de Power BI hospedados en el servidor de informes de Power BI.
 * Colaboración mejorada en los informes con comentarios.

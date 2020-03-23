@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 07ddf82b120e0e4b77b7545863b536282f849de3
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114425"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435798"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Compartir un panel o un informe desde aplicaciones móviles de Power BI
 Se aplica a:
@@ -21,6 +21,9 @@ Se aplica a:
 | ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![Teléfono Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Tableta Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Teléfonos Android |Tabletas Android |Dispositivos de Windows 10 |
+
+>[!NOTE]
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Con una [licencia de Power BI Pro](../../service-features-license-type.md), puede invitar a otros usuarios a ver sus paneles e informes si comparte vínculos desde las aplicaciones móviles de Power BI. Puede compartir con cualquier usuario, ya sea dentro o fuera de su organización, que tenga o no una cuenta de correo corporativa. Sí necesitarán tener también una licencia de Power BI Pro o que el contenido esté en una [capacidad Premium](../../service-premium-what-is.md).
 

@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 40e11f6423df12355800a2c62876e5de1f8b3f82
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 344b041b8cca3e6ed4be1f40c0e783df18315679
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867453"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378602"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Muestreo de líneas de alta densidad en Power BI
-Desde la versión de junio de 2017 de **Power BI Desktop** y las actualizaciones al **servicio Power BI**, hay disponible un nuevo algoritmo de muestreo que mejora los objetos visuales con muestreos de datos de alta densidad. Por ejemplo, puede crear un gráfico de líneas a partir de los resultados de ventas de sus tiendas, con cada tienda con más de diez mil recibos de ventas cada año. Un gráfico de líneas de dicha información de ventas realizará un muestreo de los datos (se selecciona una representación significativa de los datos para ilustrar cómo varían las ventas a través del tiempo) a partir de los datos de cada tienda, y creará un gráfico de líneas de varias series que, por lo tanto, representa los datos subyacentes. Esta es una práctica habitual al visualizar datos de alta densidad. Power BI Desktop ha mejorado el muestreo de datos de alta densidad, cuyos detalles se describen en este artículo.
+Desde la versión de junio de 2017 de **Power BI Desktop** y las actualizaciones al **servicio Power BI**, hay disponible un nuevo algoritmo de muestreo que mejora los objetos visuales con muestreos de datos de alta densidad. Por ejemplo, puede crear un gráfico de líneas a partir de los resultados de ventas de las tiendas, cada tienda con más de diez mil recibos de ventas cada año. Un gráfico de líneas de dicha información de ventas realizará un muestreo de los datos (se selecciona una representación significativa de los datos para ilustrar cómo varían las ventas a través del tiempo) a partir de los datos de cada tienda, y creará un gráfico de líneas de varias series que, por lo tanto, representa los datos subyacentes. Esta es una práctica habitual al visualizar datos de alta densidad. Power BI Desktop ha mejorado el muestreo de datos de alta densidad, cuyos detalles se describen en este artículo.
 
 ![](media/desktop-high-density-sampling/high-density-sampling_01.png)
 
@@ -46,7 +46,7 @@ Para cualquier visualización, se aplican las siguientes limitaciones visuales:
 El número máximo de límites de datos es mayor para los siguientes tipos de objetos visuales, que son *excepciones* al límite de 3 500 puntos de datos:
 
 * **150 000** puntos de datos máximo para objetos visuales de R.
-* **30 000** puntos de datos para objetos visuales personalizados.
+* **30 000** puntos de datos para objetos visuales de Power BI.
 * **10 000** puntos de datos para gráficos de dispersión (el valor predeterminado de los gráficos de dispersión es de 3500)
 * **3500** para todos los demás objetos visuales
 
@@ -61,12 +61,12 @@ Como se ha mencionado anteriormente, la granularidad mínima de cada serie es 35
 
 Cada ubicación se representa mediante dos puntos de datos, que se convierten en los puntos de datos representativos de la ubicación en el objeto visual. Los puntos de datos son simplemente los valores alto y bajo para esa ubicación; la selección de los valores alto y bajo en el proceso de discretización garantiza que cualquier valor alto importante, o valor bajo significativo, se captura y aparece representado en el objeto visual.
 
-Si todo esto suena a que se analiza mucho para asegurarse de que se captura el valor atípico ocasional y se muestra correctamente en el objeto visual, es porque se trata precisamente de eso: es la razón que se encuentra tras el nuevo algoritmo y el proceso de discretización.
+Si todo esto suena a un análisis excesivo para asegurarse de que se captura el valor atípico ocasional y se muestra correctamente en el objeto visual, es precisamente eso: es la razón que se encuentra tras el nuevo algoritmo y el proceso de discretización.
 
 ## <a name="tooltips-and-high-density-line-sampling"></a>Información sobre herramientas y muestreo de líneas de alta densidad
-Es importante tener en cuenta que este proceso de discretización, que da como resultado la captura y representación de los valores mínimo y máximo en una ubicación determinada, puede afectar a la forma en la que la información sobre herramientas muestra los datos cuando se mantiene el mouse sobre los puntos de datos. Para explicar cómo y por qué ocurre esto, vamos a recurrir otra vez al ejemplo sobre cotizaciones en bolsa.
+Es importante tener en cuenta que este proceso de discretización, que da como resultado la captura y representación de los valores mínimo y máximo en una ubicación determinada, puede afectar a cómo la información sobre herramientas muestra los datos cuando se mantiene el mouse sobre los puntos de datos. Para explicar cómo y por qué ocurre esto, se recurrirá otra vez al ejemplo sobre cotizaciones en bolsa.
 
-Supongamos que va a crear un objeto visual basado en las cotizaciones en bolsa y que compara dos paquetes de acciones diferentes: ambos usan el **muestreo de alta densidad**. Los datos subyacentes para cada serie tienen un gran número de puntos de datos (por ejemplo, puede capturar el precio de las acciones cada segundo del día). El algoritmo de muestreo de líneas de alta densidad realiza la discretización de forma independiente para cada serie.
+Imagine que va a crear un objeto visual basado en las cotizaciones en bolsa y que compara dos paquetes de acciones diferentes: ambos usan el **muestreo de alta densidad**. Los datos subyacentes para cada serie tienen un gran número de puntos de datos (por ejemplo, puede capturar el precio de las acciones cada segundo del día). El algoritmo de muestreo de líneas de alta densidad realiza la discretización de forma independiente para cada serie.
 
 Ahora supongamos que el primer paquete de acciones sube de precio a las 12:02, y diez segundos más tarde, vuelve a bajar rápidamente. Este es un punto de datos importante. Cuando se produce la discretización de esas acciones, la subida de las 12:02 será un punto de datos representativo para esa ubicación.
 

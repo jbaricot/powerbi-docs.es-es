@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3063d75123069e93baa8159cddf7c551922aa2b2
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 83c0020549fd2bad939aa0876b82e58abcc88295
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076689"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381339"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 
@@ -206,7 +206,7 @@ Vea las sesiones grabadas en cualquier momento
 <br>de Kasper de Jonge
 <br>[Ver ahora](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**Ask a Partner: Developing Custom Visuals for Power BI** (Pregunte a un asociado: desarrollo de elementos visuales personalizados para Power BI)
+**Ask a Partner: Developing Power BI visuals for Power BI** (Pregunte a un asociado: desarrollo de objetos visuales de Power BI para Power BI)
 <br>de Ted Pattison
 <br>[Ver ahora](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 

@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1e69c7eefe25da771ecc4d9602d6a21081f2c052
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 067171f7ec74beccdb5a312c1cac5bbc6c87541f
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920748"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377659"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Guía de recuperación de datos de informes paginados
 
@@ -26,7 +26,7 @@ Los informes paginados admiten de forma nativa orígenes de datos relacionales y
 Si puede elegir el tipo de origen de datos (posiblemente sea el caso cuando el proyecto es nuevo), se recomienda usar orígenes de datos basados en la nube. Los informes paginados pueden conectarse con una latencia de red menor, especialmente cuando los orígenes de datos residen en la misma región que el inquilino de Power BI. Además, existe la posibilidad de conectarse a estos orígenes mediante inicio de sesión único (SSO). Esto significa que la identidad del usuario del informe puede fluir hasta el origen de datos, lo que permite que se apliquen permisos de nivel de fila por usuario. Actualmente, SSO no es compatible con los orígenes de datos locales (es decir, SQL Server Analysis Services no puede aplicar permisos de nivel de fila por usuario).
 
 > [!NOTE]
-> Aunque actualmente no es posible conectarse a bases de datos locales mediante SSO, sí que se pueden aplicar permisos de nivel de fila. Para ello, hay que pasar el campo integrado **UserID** a un parámetro de consulta de conjunto de datos. El origen de datos deberá almacenar los valores de nombre principal de usuario (UPN) de forma tal que sea posible filtrar correctamente los resultados de la consulta.
+> Aunque actualmente no es posible conectarse a bases de datos locales mediante SSO, sí que se pueden aplicar permisos de nivel de fila. Para ello, se pasa el campo integrado **UserID** a un parámetro de consulta de conjunto de datos. El origen de datos deberá almacenar los valores de nombre principal de usuario (UPN) de forma tal que sea posible filtrar correctamente los resultados de la consulta.
 >
 > Imaginemos, por ejemplo, que cada vendedor se almacena como una fila en una tabla denominada **Vendedores**.  La tabla tiene columnas para UPN y, también, la región de ventas del vendedor. En el momento de la consulta, la tabla se filtra por el UPN del usuario del informe y, asimismo, se relaciona con hechos de ventas mediante una combinación interna. De este modo, la consulta filtra eficazmente las filas de hechos de ventas para mostrar los de la región de ventas del usuario del informe en cuestión.
 

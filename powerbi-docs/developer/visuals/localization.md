@@ -7,16 +7,16 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819132"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379935"
 ---
-# <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>Agregar la configuración regional en Power BI para los objetos visuales personalizados
+# <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Adición de la configuración regional en Power BI para los objetos visuales de Power BI
 
 Los objetos visuales pueden recuperar la configuración regional de Power BI para localizar su contenido en el idioma relevante.
 
@@ -24,12 +24,12 @@ Obtenga más información sobre los [idiomas y países o regiones admitidos para
 
 Por ejemplo, para obtener la configuración regional en el objeto visual Gráfico de barras de ejemplo.
 
-![Localización en el objeto visual Gráfico de barras de ejemplo](media/locale-in-samplebarchart.png)
+![Localización en el objeto visual Gráfico de barras de ejemplo](media/localization/locale-in-samplebarchart.png)
 
 Cada uno de estos gráficos de barras se ha creado con una configuración regional diferente (inglés, euskera e hindi) y se muestran en la información sobre herramientas.
 
 > [!NOTE]
-> El administrador de localización del código del objeto visual es compatible a partir de la API 1.10.0.
+> El administrador de localización del código del objeto visual es compatible a partir de la API 1.10.0 y versiones posteriores.
 
 ## <a name="get-the-locale"></a>Obtener la configuración regional
 
@@ -95,13 +95,13 @@ zh-TW | 中國 (chino tradicional)
 > [!NOTE]
 > En Power BI Desktop, la propiedad de configuración regional contendrá el idioma de Power BI Desktop instalado.
 
-## <a name="localizing-the-property-pane-for-custom-visuals"></a>Localizar el panel de propiedades de los objetos visuales personalizados
+## <a name="localizing-the-property-pane-for-power-bi-visuals"></a>Localización del panel de propiedades para objetos visuales de Power BI
 
 Los campos del panel de propiedades se pueden localizar para ofrecer una experiencia más integrada y coherente. Hace que el objeto visual personalizado se comporte como cualquier otro objeto visual básico de Power BI.
 
 Por ejemplo, un objeto visual personalizado no localizado que se haya creado con el comando `pbiviz new` mostrará los campos siguientes en el panel de propiedades:
 
-![Localización en el panel de propiedades](media/property-pane.png)
+![Localización en el panel de propiedades](media/localization/property-pane.png)
 
 Tanto los datos de categoría como los datos de medida se definen en el archivo capabilities.json como `displayName`.
 
@@ -128,11 +128,11 @@ En primer lugar, agregue una clave de nombre para mostrar a cada nombre para mos
 }
 ```
 
-Después, agregue un directorio llamado stringResources. El directorio contendrá los distintos archivos de recursos de cadena en función de las configuraciones regionales que desee que admita el objeto visual. En este directorio deberá agregar un archivo JSON para cada configuración regional que quiera admitir. Estos archivos contienen la información de configuración regional y los valores de las cadenas localizadas para cada clave displayNameKey que desee reemplazar.
+Después, agregue un directorio llamado stringResources. El directorio contendrá los distintos archivos de recursos de cadena en función de las configuraciones regionales que desee que admita el objeto visual. En este directorio tendrá que agregar un archivo JSON para cada configuración regional que quiera admitir. Estos archivos contienen la información de configuración regional y los valores de las cadenas localizadas para cada clave displayNameKey que desee reemplazar.
 
 En nuestro ejemplo, supongamos que queremos admitir el árabe y el hebreo. Tendremos que agregar dos archivos JSON del siguiente modo:
 
-![Cadenas de localización en la carpeta de recursos de cadenas](media/stringresources-files.png)
+![Cadenas de localización en la carpeta de recursos de cadenas](media/localization/stringresources-files.png)
 
 Cada archivo JSON define una configuración regional (este archivo tiene que ser una de las configuraciones regionales de la lista anterior), con los valores de cadena de las claves de nombres para mostrar que quiere. En nuestro ejemplo, el archivo de recursos de cadenas del hebreo tendrá el siguiente aspecto:
 
@@ -161,13 +161,13 @@ Para el uso en el escritorio, descargue la versión localizada de Power BI Desk
 
 Si usa el cliente web (explorador) en el servicio, cambie el idioma en la configuración:
 
-![Localización en un servicio web](media/webservice-settings.png)
+![Localización en un servicio web](media/localization/webservice-settings.png)
 
 ## <a name="resource-file"></a>Archivo de recursos
 
 Agregue un archivo resources.resjson a una carpeta que tenga el nombre de la configuración regional que va a usar dentro de la carpeta stringResources. En nuestro ejemplo es en-US y ru-RU.
 
-![El nuevo archivo resjson](media/new-resjson.png)
+![El nuevo archivo resjson](media/localization/new-resjson.png)
 
 Después, agregue todas las cadenas de localización que va a usar en el archivo resources.resjson que ha agregado en el paso anterior.
 
@@ -195,7 +195,7 @@ Este ejemplo es la versión en-US del archivo resources.resjson:
 }
 ```
 
-Nueva instancia de localizationManager Cree una instancia de localizationManager en el código del objeto visual tal y como se indica a continuación.
+Nueva instancia de localizationManager Cree una instancia de localizationManager en el código del objeto visual como se indica a continuación.
 
 ```typescript
 private localizationManager: ILocalizationManager;

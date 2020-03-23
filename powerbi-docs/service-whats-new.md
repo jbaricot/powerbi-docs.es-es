@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920963"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488853"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
 Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI**. Para obtener información sobre novedades, vea:
 
-- Notas de la versión [Resumen de novedades de Business Intelligence](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) de octubre de 2018 del grupo de aplicaciones empresariales de Microsoft: actualizaciones más recientes de nuestras aplicaciones empresariales.
+- Notas de la versión [Resumen de novedades de Business Intelligence](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) de octubre de 2018 del grupo Microsoft Business Applications: actualizaciones más recientes de nuestras aplicaciones empresariales.
 - [Novedades de Power BI Desktop](desktop-latest-update.md)  
 - [Novedades en las aplicaciones móviles para Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Blog del equipo de Power BI](https://powerbi.microsoft.com/blog/)
@@ -91,7 +91,7 @@ Asimismo, para obtener información sobre las novedades y características, cons
 * Exportación filtrada para PPT y PDF.
 * [Configuración de ayuda y soporte técnico](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/) en el portal de administración.
 * Experiencia de linaje de datos para los [flujos de datos](service-dataflows-overview.md).
-* Configuración de los objetos visuales personalizados certificados en el portal de administración.
+* Configuración de los objetos visuales de Power BI certificados en el portal de administración.
 
 ### <a name="january-2019"></a>Enero de 2019
 * [Inserción de informes de Power BI seguros](service-embed-secure.md) en sitios web o portales internos.
@@ -126,7 +126,7 @@ Asimismo, para obtener información sobre las novedades y características, cons
 * Mejoras del [filtro Dirección URL del informe](service-url-filters.md) de Power BI.
 
 ### <a name="july-2018"></a>Julio de 2018
-* Compatibilidad de objetos visuales personalizados con [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
+* Compatibilidad de objetos visuales de Power BI con [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
 * [APIs y cmdlets de PowerShell](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/) para administradores de Power BI.
 * [Compatibilidad de Multi-Geo](service-admin-premium-multi-geo.md) con Power BI Premium.
 
@@ -153,20 +153,20 @@ Asimismo, para obtener información sobre las novedades y características, cons
 ### <a name="february-2018"></a>Febrero de 2018
 * Instalar [aplicaciones de Power BI](service-create-distribute-apps.md) para usuarios finales de forma automática.
 * Funcionalidades P4 y P5 en Power BI Premium
-* Versión preliminar de [objetos visuales personalizados de organización](developer/power-bi-custom-visuals-organization.md).
+* Versión preliminar de [Objetos visuales de Power BI de la organización](developer/visuals/power-bi-custom-visuals-organization.md).
 
 ### <a name="january-2018"></a>Enero de 2018
-*   Compartir y marcar como favoritos los informes de Power BI.
-*   OAuth2 e inicio de sesión único de DirectQuery para Azure SQL Database y Data Warehouse.
-*   Auditoría por región: los registros de auditoría ahora se pueden almacenar en la misma región de Office 365 que su inquilino.
-*   Disponibilidad general de la [parte web del informe de Power BI](https://go.microsoft.com/fwlink/p/?LinkId=825698) de SharePoint Online
-*   Control de administración para desactivar la visualización de los objetos visuales personalizados para todos los usuarios en un inquilino.
-*   Compatibilidad con la actualización programada para Azure Analysis Services (AAS).
+*    Compartir y marcar como favoritos los informes de Power BI.
+*    OAuth2 e inicio de sesión único de DirectQuery para Azure SQL Database y Data Warehouse.
+*    Auditoría por región: los registros de auditoría ahora se pueden almacenar en la misma región de Office 365 que su inquilino.
+*    Disponibilidad general de la [parte web del informe de Power BI](https://go.microsoft.com/fwlink/p/?LinkId=825698) de SharePoint Online
+*    Control de administración para desactivar la visualización de objetos visuales de Power BI para todos los usuarios en un inquilino.
+*    Compatibilidad con la actualización programada para Azure Analysis Services (AAS).
 
 ## <a name="previous-months-2017"></a>Meses anteriores (2017)
 ### <a name="october-and-november-2017"></a>Octubre y noviembre de 2017
-*   Publicación selectiva de contenido con [aplicaciones de Power BI](service-create-distribute-apps.md).
-*   Distribución de usuario externo con [B2B de Azure Active Directory](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/).
+*    Publicación selectiva de contenido con [aplicaciones de Power BI](service-create-distribute-apps.md).
+*    Distribución de usuario externo con [B2B de Azure Active Directory](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/).
 * Recomendaciones para la aplicación con tecnología de AI.
 * Actualizaciones de la IU de en el icono del panel.
 * Compatibilidad con las suscripciones de correo electrónico para las aplicaciones. 
@@ -183,8 +183,8 @@ Asimismo, para obtener información sobre las novedades y características, cons
 * Conozca a su público con las [métricas de uso por usuario](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
 * Empezar a trabajar con aplicaciones del [servicio Power BI](service-connect-to-services.md) para servicios en línea.
 * Conexión con IBM Netezza con la puerta de enlace de datos local tanto en modo de importación como de conectividad de DirectQuery.
-* Ahora se admite [RLS dinámica](developer/embedded-row-level-security.md) para Power BI Embedded.
-* Se ha agregado la [API de filtrado](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) avanzada para la versión 1.7 de la API de objetos visuales personalizados.
+* Ahora se admite [RLS dinámica](developer/embedded/embedded-row-level-security.md) para Power BI Embedded.
+* Se ha agregado la [API de filtrado](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) avanzada para la versión 1.7 de la API de objetos visuales de Power BI.
 
 ### <a name="july-2017"></a>Julio de 2017
 * Compatibilidad con [suscripciones de correo electrónico](consumer/end-user-subscribe.md) en los paneles.
@@ -197,7 +197,7 @@ Asimismo, para obtener información sobre las novedades y características, cons
 * Varias mejoras en la API para [automatizar la actualización programada](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [clonar y volver a enlazar informes](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [actualizar enlaces de puerta de enlace](https://msdn.microsoft.com/library/mt784650.aspx) y mucho más
 * Vínculos relativos en las aplicaciones de Power BI desde los iconos del panel a otros paneles e informes.
 * [Conector de Impala](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) disponible con carácter general en Power BI Desktop.
-* Amplíe las funcionalidades visuales de Power BI con [objetos visuales personalizados de R interactivos](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).
+* Amplíe las funcionalidades de objetos visuales de Power BI con [objetos visuales de Power BI de R interactivos](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).
 
 ### <a name="april-and-may-2017"></a>Abril y mayo de 2017
 * Mida y aumente el impacto con [métricas de uso para creadores de paneles e informes](service-usage-metrics.md).
@@ -213,7 +213,7 @@ Asimismo, para obtener información sobre las novedades y características, cons
 * Mensajes [de solución de problemas mejorados para consultas DAX](https://powerbi.microsoft.com/blog/power-bi-service-march-feature-summary/#DAXtroubleshooting).
 * Ejerza más control sobre los conjuntos de datos con [programaciones de actualización de caché personalizadas](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/).
 * Conéctese a [Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/).
-* Busque [objetos visuales personalizados de Power BI en la Tienda Office](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/).
+* Busque [objetos visuales de Power BI en la Tienda Office](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/).
 * Versión preliminar: [Suscríbase a las páginas de informes](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) para estar al corriente de los datos.
 * Utilice el paquete de contenido de Azure AD para obtener más información sobre cómo los empleados y asociados usan Azure AD.
 
@@ -225,7 +225,7 @@ Asimismo, para obtener información sobre las novedades y características, cons
 ### <a name="january-2017"></a>Enero de 2017
 * Administre Power BI mediante el [rol de administrador de Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole).
 * [Los registros de auditoría de Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) en el portal de auditoría de Office 365 están disponibles globalmente.
-* Se ha publicado la versión 1.4 de [las API de objetos visuales y de herramientas para desarrolladores](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/).
+* Se ha publicado la versión 1.4 de [las API de objetos visuales de Power BI y herramientas para desarrolladores](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/).
 * [Conjunto de características de transmisión en tiempo real](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/) publicado para disponibilidad general.
 * [Inserte datos en Power BI con Power Automate](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) sin escribir una sola línea de código.
 * Versión preliminar: [Suscríbase a las páginas de informes](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) para estar al corriente de los datos.
@@ -506,7 +506,7 @@ Tenemos un gran número de actualizaciones esta semana, la mayoría relacionadas
   1. Compatibilidad multidimensional de SSAS: compatibilidad con jerarquías (característica de vista previa)
   2. Conector de Stripe
   3. Conector de Smartsheet
-  4. "Especificar datos": pegue o especifique datos para crear una tabla
+  4. "Escribir datos": pegue o especifique datos para crear una tabla
   5. Mejoras de DirectQuery:  compatibilidad con todos los tipos de datos de T-SQL y SAP HANA, con las correspondientes mejoras de rendimiento.
   6. Conector de ODBC: compatibilidad para la selección de DSN de usuario o sistema
   7. Conector de CSV: capacidad de especificar el delimitador de columna en el cuadro de diálogo de origen
@@ -594,7 +594,7 @@ Para obtener todos los detalles, visite el [blog de Power BI](https://blogs.msdn
 **13 de octubre de 2015**
 
 * Modo de pantalla completa para mostrar los paneles e informes en pantallas de televisor de gran tamaño
-* Compatibilidad con 'Ajustar a la pantalla' en el modo de pantalla completa para mostrar el panel completo en el espacio disponible
+* Compatibilidad con "Ajustar a la pantalla" en el modo de pantalla completa para mostrar el panel completo en el espacio disponible
 * Modo enfocado para obtener más información acerca de los iconos de panel
 * Capacidad de ver la hora de la última actualización de cada mosaico
 * Capacidad de ver el origen de cada mosaico
@@ -604,16 +604,16 @@ Consulte nuestro [blog](https://blogs.msdn.com/b/powerbi/archive/2015/10/13/powe
 
 **6 de octubre de 2015**
 
-* Con Preguntas y respuestas de Power BI, puede explorar los datos mediante preguntas sencillas e intuitivas, así como recibir respuestas en forma de gráficos interactivos. Con esta versión, hemos agregado una característica que le ayudarán a empezar a trabajar con Preguntas y respuestas de Power BI, aunque no sepa nada acerca de los datos. Para comenzar, [diríjase a cualquier panel y haga clic en el vínculo “Cómo se pregunta” junto a un cuadro de pregunta de Preguntas y respuestas](power-bi-tutorial-q-and-a.md). Power BI presenta una serie de sugerencias basadas en los datos.
+* Con Preguntas y respuestas de Power BI, puede explorar los datos mediante preguntas sencillas e intuitivas, así como recibir respuestas en forma de gráficos interactivos. Con esta versión, hemos agregado una característica que le ayudarán a empezar a trabajar con Preguntas y respuestas de Power BI, aunque no sepa nada acerca de los datos. Para comenzar, [diríjase a cualquier panel y haga clic en el vínculo "Cómo se pregunta" junto a un cuadro de pregunta de Preguntas y respuestas](power-bi-tutorial-q-and-a.md). Power BI presenta una serie de sugerencias basadas en los datos.
 * Hace dos semanas se introdujo compatibilidad para la inserción de formas en el lienzo de informes en Power BI Desktop. Esta semana, nos complace anunciar que ahora puede agregar formas a su lienzo de informes al crear o editar informes en la aplicación web de Power BI.
-* Hemos agregado la opción para desactivar la notificación de correo electrónico cuando se comparte un panel. Solo tiene que desactivar la casilla "Enviar notificación por correo electrónico a los destinatarios " en el cuadro de diálogo del recurso compartido de Power BI. Se incluirá una dirección URL: cópiela y compártala con sus compañeros para concederles acceso al panel.
+* Hemos agregado la opción para desactivar la notificación de correo electrónico cuando se comparte un panel. Solo tiene que desactivar la casilla "Enviar notificación por correo electrónico a los destinatarios " en el cuadro de diálogo del recurso compartido de Power BI. Se incluirá una dirección URL: cópiela y compártala con sus compañeros para concederles acceso al panel.
 * Microsoft Dynamics NAV es una solución de administración empresarial para organizaciones pequeñas y medianas. Ofrece a los clientes una solución completa para sus negocios con mayor control sobre sus operaciones financieras y los procesos empresariales. El paquete de contenido de Power BI proporciona informes integrados para los usuarios de Dynamics NAV, como ventas y beneficios, canalización de oportunidades, rentabilidad y mucho más. Estas métricas se organizan en un panel que puede personalizarse completamente, lo que le permite conectarse fácilmente y comenzar a explorar los datos inmediatamente.
 
 Eche un vistazo al [blog](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx) y a la [documentación en línea](service-get-started.md) para obtener más información.
 
 **29 de septiembre de 2015**
 
-* Con la actualización de servicio de esta semana, al crear nuevos informes, ahora puede elegir entre varios tamaños de página, así como definir su propio tamaño de página. Esta opción controla el tamaño y la relación de aspecto de cada página del informe.
+* Con la actualización de servicio de esta semana, al crear informes, ahora puede elegir entre varios tamaños de página, así como definir un tamaño de página propio. Esta opción controla el tamaño y la relación de aspecto de cada página del informe.
 * Hemos agregado soporte de formato visual adicional para imágenes y gráficos de burbujas. Puede bloquear el aspecto al cambiar el tamaño de las imágenes para evitar la distorsión de la imagen y las burbujas de los gráficos de dispersión pueden configurarse para rellenarse o no.
 * Hoy, Power BI enviará invitaciones para compartir a una dirección de correo electrónico alternativa. Cuando un panel se comparta con usted, se enviará el vínculo de la invitación para compartir a su dirección de correo electrónico original y a su dirección de correo electrónico alternativa (si la tiene configurada).
 * Power BI está disponible para todos los clientes, incluidos aquellos de la arquitectura DonMT (Dedicated on Multitenant) de O365. Power BI se usará como un servicio compartido en el modo multiinquilino. En la mayoría de los casos, puede registrarse en Power BI mediante un sencillo [proceso de suscripción de autoservicio](https://powerbi.microsoft.com/): solo tiene que escribir su dirección de correo electrónico del trabajo, su nombre y contraseña para empezar. Si usted es el administrador de inquilinos, puede asignar licencias a los usuarios mediante las instrucciones que se incluyen [aquí](https://go.microsoft.com/fwlink/?LinkId=627174).
@@ -626,7 +626,7 @@ Eche un vistazo al [blog](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/po
 * Dispone de más flexibilidad en el panel para personalizar sus paneles con tamaños de icono adicionales, que van desde 1 x 1 hasta 5 x 5.
 * Ahora, puede [compartir (y dejar de compartir) un panel desde el espacio del grupo](service-collaborate-power-bi-workspace.md), exactamente como lo haría en su propio espacio. Una vez que sus compañeros acepten la invitación para compartir, el panel compartido (junto con los informes asociados) se agregará a su propio espacio con permiso de solo lectura.
 * Hemos agregado otros cinco [ejemplos relacionados con la industria](sample-datasets.md) a Power BI: rentabilidad del cliente, recursos humanos, análisis de oportunidades, análisis de adquisiciones y ventas y marketing.
-* Stripe es una plataforma de pago avanzada para empresas en línea. Desde las nuevas empresas hasta las de Fortune 500, miles de empresas usan Stripe para aceptar pagos en más de 130 monedas, de cualquier persona del mundo. Al conectar Power BI con su cuenta de Stripe existente, podrá usar el [paquete de contenido de Stripe de Power BI para supervisar, explorar y visualizar la actividad de Stripe](service-connect-to-stripe.md).
+* Stripe es una plataforma de pago avanzada para empresas en línea. Desde las nuevas empresas hasta las de Fortune 500, miles de empresas usan Stripe para aceptar pagos en más de 130 monedas, de cualquier persona del mundo. Al conectar Power BI con la cuenta de Stripe existente, podrá [usar el paquete de contenido de Stripe de Power BI para supervisar, explorar y visualizar la actividad de Stripe](service-connect-to-stripe.md).
 
 [Más información en nuestro blog](https://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx).
 
@@ -654,7 +654,7 @@ Eche un vistazo al [blog](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/po
 
 **18 de agosto de 2015**
 
-* Azure Mobile Engagement es un servicio de análisis de aplicaciones que permite a los desarrolladores realizar un seguimiento del rendimiento de la aplicación para alcanzar mayores niveles de retención y uso de la aplicación. Mediante el [paquete de contenido de Azure Mobile Engagement para Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx), puede conectarse rápidamente a un panel integrado, a un conjunto de informes y a un conjunto de datos protegidos. Al instante, obtendrá información sobre el rendimiento de la aplicación. Consulte la [página de ayuda del paquete de contenido de Azure Mobile Engagement para Power BI](service-connect-to-azure-mobile.md) para obtener más información.
+* Azure Mobile Engagement es un servicio de análisis de aplicaciones que permite a los desarrolladores realizar el seguimiento del rendimiento de la aplicación para alcanzar mayores niveles de retención y uso de la aplicación. Mediante el [paquete de contenido de Azure Mobile Engagement para Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx), puede conectarse rápidamente a un panel integrado, a un conjunto de informes y a un conjunto de datos protegidos. Al instante, obtendrá información sobre el rendimiento de la aplicación. Consulte la [página de ayuda del paquete de contenido de Azure Mobile Engagement para Power BI](service-connect-to-azure-mobile.md) para obtener más información.
 
 **11 de agosto de 2015**
 
@@ -667,7 +667,7 @@ Eche un vistazo al [blog](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/po
 
 **28 de julio de 2015**
 
-* Nos complace anunciar que la actualización de esta semana de Power BI incluye el seguimiento del rendimiento de bases de datos con el [paquete de contenido de SQL Sentry](https://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx). Este paquete de contenido incluye un panel e informes que le ayudarán a supervisar las implementaciones de SQL Server de las que realice un seguimiento mediante SQL Sentry Cloud. Para obtener más detalles sobre cómo empezar, consulte la [página de ayuda](service-connect-to-sql-sentry.md) del paquete de contenido de SQL Sentry para Power BI.
+* Nos complace anunciar que en la actualización de esta semana de Power BI se ofrece el seguimiento del rendimiento de bases de datos con el [paquete de contenido de SQL Sentry](https://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx). Este paquete de contenido incluye un panel e informes que le ayudarán a supervisar las implementaciones de SQL Server de las que realice un seguimiento mediante SQL Sentry Cloud. Para obtener más detalles sobre cómo empezar, consulte la [página de ayuda](service-connect-to-sql-sentry.md) del paquete de contenido de SQL Sentry para Power BI.
 
 **24 de julio de 2015**
 
@@ -678,7 +678,7 @@ Eche un vistazo al [blog](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/po
 * [Incorporar archivos de Excel completos](service-excel-workbook-files.md): puede incorporar a Power BI cualquier libro de Excel almacenado en OneDrive para la Empresa y ver todo el libro, exactamente como lo haría en Excel Online.
 * [Incorporar archivos CSV](service-get-data-from-files.md): al igual que los archivos de Excel o de Power BI Desktop, los archivos de texto de valores separados por comas (CSV) también pueden convertirse en conjuntos de datos para los paneles e informes de Power BI.
 * Reemplazar archivos CSV, de Excel y de Power BI Desktop: puede cargar una versión actualizada de un archivo en Power BI para que reemplace al conjunto de datos existente. A partir de ese momento, todos los informes y los paneles conectados a este conjunto de datos usarán automáticamente la versión nueva.
-* Nos complace anunciar que la actualización de esta semana de Power BI ofrece el seguimiento de elementos de trabajo en el [paquete de contenido de Visual Studio Online](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx). Esta actualización incluye un nuevo panel, informes y un conjunto de datos actualizado con información sobre los elementos de trabajo, así como métricas importantes sobre el repositorio Git, solicitudes de incorporación de cambios y contenido de control de versiones incluido en la versión inicial. Para obtener más detalles sobre cómo empezar, consulte [la página de ayuda del paquete de contenido de Visual Studio Online para Power BI](service-connect-to-quickbooks-online.md).
+* Nos complace anunciar que en la actualización de esta semana de Power BI se ofrece el seguimiento de elementos de trabajo en el [paquete de contenido de Visual Studio Online](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx). Esta actualización incluye un nuevo panel, informes y un conjunto de datos actualizado con información sobre los elementos de trabajo, así como métricas importantes sobre el repositorio Git, solicitudes de incorporación de cambios y contenido de control de versiones incluido en la versión inicial. Para obtener más detalles sobre cómo empezar, consulte [la página de ayuda del paquete de contenido de Visual Studio Online para Power BI](service-connect-to-quickbooks-online.md).
 
 **14 de julio de 2015**
 

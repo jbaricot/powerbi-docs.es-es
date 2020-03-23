@@ -6,19 +6,19 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 4ce61fcd4f322abc0362956453d76ced9b78d887
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: c87d1af9033044a8b79d6fe00d566d9b46c499fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264252"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377927"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Depuración de objetos visuales de Power BI
 
 En esta página se muestran algunas sugerencias para depurar mientras se compila el objeto visual. Incluye pasos básicos y muestra diferencias entre las aplicaciones de front-end estándar y la depuración de objetos visuales de Power BI.
-Después de leer el artículo, podrá depurar objetos visuales personalizados mediante puntos de interrupción, así como registrar y detectar excepciones en Chrome y Edge.
+Después de leer el artículo, podrá depurar objetos visuales de Power BI mediante puntos de interrupción, registrar excepciones y detectarlas en Chrome y Edge.
 
 ## <a name="using-breakpoints"></a>Uso de puntos de interrupción
 
@@ -35,7 +35,7 @@ public update(options: VisualUpdateOptions) {
 
 ## <a name="showing-exceptions"></a>Muestra de excepciones
 
-Al trabajar en el objeto visual, observará que los errores se "consumen" por el servicio Power BI. Se trata de una característica intencional de Power BI para evitar que los objetos visuales con comportamiento incorrecto provoquen que toda la aplicación se vuelva inestable.
+Al trabajar en el objeto visual, observará que el servicio Power BI "consume" los errores. Se trata de una característica intencional de Power BI para evitar que los objetos visuales con comportamiento incorrecto provoquen que toda la aplicación se vuelva inestable.
 
 Como solución alternativa, agregue código para detectar y registrar las excepciones, o bien establezca el depurador para que se interrumpa en las excepciones detectadas.
 
@@ -80,7 +80,7 @@ También puede establecer que el explorador se interrumpa en las excepciones det
 3. Haga clic en el icono de **interrupción en excepciones** (hexágono con un símbolo de pausa).
 4. Seleccione **Interrumpir en todas las excepciones**.
 
-![Campos de roles de datos](./media/how-to-debug-edge.png)
+![Campos de roles de datos](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -89,8 +89,8 @@ También puede establecer que el explorador se interrumpa en las excepciones det
 3. Haga clic en el icono de **interrupción en excepciones** (signo de parada con un símbolo de pausa).
 4. Active la casilla para **pausar en las excepciones detectadas**.
 
-![Campos de roles de datos](./media/how-to-debug-chrome.png)
+![Campos de roles de datos](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Solución de problemas con los objetos visuales de Power BI](../power-bi-custom-visuals-troubleshoot.md)
-* Para más información y responder preguntas, visite [Preguntas más frecuentes sobre objetos visuales de Power BI](../power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).
+* [Solución de problemas con los objetos visuales de Power BI](power-bi-custom-visuals-troubleshoot.md)
+* Para más información y responder preguntas, visite [Preguntas más frecuentes sobre objetos visuales de Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).

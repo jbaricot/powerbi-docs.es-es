@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f6f0db28103b937d2074e6f339c9aaa61bfd688
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2492996c8bbc6ea7a8d359b4b1015de67bb17430
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879636"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378717"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Creación de información sobre herramientas basada en páginas de informes en Power BI Desktop
 Puede crear **información en pantalla para informes** enriquecida visualmente que aparezca cuando mantenga el puntero encima de objetos visuales, en función de las páginas de informe que cree en **Power BI Desktop**. Mediante la creación de una página de informe que sirva como información en pantalla, la información personalizada puede incluir objetos visuales, imágenes y cualquier otra colección de elementos que cree en la página del informe. 
@@ -112,7 +112,7 @@ Cuando un objeto visual tiene un resaltado cruzado en un informe, la informació
 Hay algunas limitaciones y consideraciones que debe tener en cuenta en relación con la **información sobre herramientas**.
 
 * A partir de la versión de diciembre de 2018 de **Power BI Desktop**, los objetos visuales de botón también admiten información sobre herramientas.
-* La información en pantalla para informes no se admite para los objetos visuales personalizados. 
+* La información en pantalla para informes no se admite para los objetos visuales de Power BI. 
 * Los clústeres no se admiten actualmente como campos que se puedan mostrar en la información en pantalla para informes. 
 * A la hora de elegir un campo que se mostrará en la información en pantalla para informes, al usar un campo en vez de una categoría, los objetos visuales que contengan ese campo solo mostrarán la información en pantalla especificada cuando el resumen coincida con el campo seleccionado. 
 

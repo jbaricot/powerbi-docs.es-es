@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 27ebe50030fbd06f65be5530ee2a2c0a7897f0f5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426573"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488738"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organización del trabajo en las nuevas áreas de trabajo en Power BI
 
@@ -54,7 +54,7 @@ Las áreas de trabajo nuevas y actualizadas y las áreas de trabajo clásicas ex
 
 ## <a name="roles-in-the-new-workspaces"></a>Roles en las nuevas áreas de trabajo
 
-Para conceder acceso a una nueva área de trabajo, agregue grupos de usuarios o individuos a uno de los roles de área de trabajo: visores, miembros, colaboradores o administradores. Todos los miembros de un grupo de usuarios obtienen el rol que haya definido. Si un usuario está en varios grupos de usuarios, obtiene el nivel de permiso mayor proporcionado por los roles que se les asignan.
+Para conceder acceso a una nueva área de trabajo, agregue grupos de usuarios o individuos a uno de los roles de área de trabajo: administradores, miembros, colaboradores o visores. Todos los miembros de un grupo de usuarios obtienen el rol que haya definido. Si un usuario está en varios grupos de usuarios, obtiene el nivel de permiso mayor proporcionado por los roles que se les asignan.
 
 Los roles le permiten administrar quién puede hacer qué en un área de trabajo, para que los equipos puedan colaborar. Las nuevas áreas de trabajo le permiten asignar roles a usuarios y grupos de usuarios: grupos de seguridad, grupos de Office 365 y listas de distribución. 
 
@@ -70,11 +70,14 @@ Estas son las funciones de los cuatro roles: administradores, miembros, colabora
 | Publicar y actualizar una aplicación. |  X | X  |   |   |
 | Compartir un elemento o una aplicación.<sup>1</sup> |  X | X  |   |   |
 | Permitir que otros usuarios vuelvan a compartir elementos.<sup>1</sup> |  X | X  |   |   |
+| Destacar aplicaciones en la página principal de los compañeros |  X | X  |   |   |
+| Destacar paneles e informes en la página principal de los compañeros |  X | X  | X |   |
 | Crear, editar y eliminar contenido en el área de trabajo.  |  X | X  | X  |   |
 | Publicar informes en el área de trabajo, eliminar contenido.  |  X | X  | X  |   |
 | Crear un informe en otra área de trabajo en función de un conjunto de datos de esta área de trabajo<sup>1</sup>. |  X | X  | X  |   |
 | Copiar un informe.<sup>2</sup> | X | X | X |  |
 | Ver un elemento e interactuar con él.<sup>3</sup> |  X | X  | X  | X  |
+| Leer los datos almacenados en los flujos de trabajo del área de trabajo | X | X | X | X |
 
 1. Los usuarios con los roles Colaborador y Visor pueden compartir elementos en un área de trabajo si tienen permisos para volver a compartir.
 2. Para copiar un informe y crear un informe en otra área de trabajo en función de un conjunto de datos de esta área de trabajo, debe cumplir criterios adicionales:
@@ -99,7 +102,7 @@ Con las nuevas áreas de trabajo, se han rediseñado algunas características. E
 * La creación de estas áreas de trabajo no crea grupos de Office 365, como sí hacen las áreas de trabajo clásicas. Sin embargo, ahora puede usar un grupo de Office 365 para proporcionar a los usuarios acceso al área de trabajo mediante la asignación de un rol. 
 * En las áreas de trabajo clásicas solo puede agregar usuarios individuales a las listas de miembros y administradores. En las áreas de trabajo nuevas, puede agregar varios grupos de seguridad de AD, listas de distribución o grupos de Office 365 a estas listas para facilitar la administración de usuarios. 
 - Puede crear un paquete de contenido de la organización desde un área de trabajo clásica, pero no desde las áreas de trabajo nuevas.
-- Puede consumir un paquete de contenido de la organización desde un área de trabajo clásica. pero no desde las áreas de trabajo nuevas.
+- Puede consumir un paquete de contenido de la organización desde un área de trabajo clásica. Pero no puede hacerlo desde las áreas de trabajo nuevas.
 
 ## <a name="workspace-contact-list"></a>Lista de contactos del área de trabajo
 La nueva característica **Lista de contactos** le permite especificar qué usuarios reciben una notificación sobre los problemas que se producen en el área de trabajo. De forma predeterminada, se notifica a cualquier usuario o grupo especificado como administrador del área de trabajo, pero puede personalizar la lista. Los usuarios o grupos que aparecen en la lista de contactos se mostrarán en la interfaz de usuario (IU) para ayudar a los usuarios a obtener ayuda relacionada con el área de trabajo. 

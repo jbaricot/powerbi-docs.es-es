@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290622"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377751"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Extensión de objetos visuales con la información en pantalla de la página del informe
 
@@ -31,7 +31,7 @@ La información sobre herramientas de páginas de informes puede mejorar la expe
 >
 > La información sobre herramientas de página no admite la interactividad. Si quiere que los usuarios de los informes interactúen, deberá crear una [página de obtención de detalles](../desktop-drillthrough.md).
 >
-> Los objetos visuales personalizados no admiten la información sobre herramientas de página.
+> Los objetos visuales de Power BI no admiten la información sobre herramientas de página.
 
 Estos son algunos escenarios de diseño propuestos:
 

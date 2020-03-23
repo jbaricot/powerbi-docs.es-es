@@ -7,18 +7,18 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819247"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380498"
 ---
 # <a name="add-drill-down-support"></a>Adición de compatibilidad con exploración en profundidad
 
-Los objetos visuales personalizados pueden usar la exploración en profundidad de Power BI.
+Los objetos visuales de Power BI pueden usar la exploración en profundidad de Power BI.
 
 [Aquí](./../../consumer/end-user-drill.md) puede obtener más información sobre la exploración en profundidad de Power BI
 
@@ -205,38 +205,38 @@ button {
 
 Preparar los datos de ejemplo para probar el objeto visual:
 
-|   H1  |   H2    | H3  |   VALORES  |
+|   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
-|   A   |   A1  |   A11 |   1   |
-|   A   |   A1  |   A12 |   2   |
-|   A   |   A2  |   A21 |   3   |
-|   A   |   A2  |   A22 |   4   |
-|   A   |   A3  |   A31 |   5   |
-|   A   |   A3  |   A32 |   6   |
-|   B   |   B1  |   B11 |   7   |
-|   B   |   B1  |   B12 |   8   |
-|   B   |   B2  |   B21 |   9   |
-|   B   |   B2  |   B22 |   10  |
-|   B   |   B3  |   B31 |   11  |
-|   B   |   B3  |   B32 |   12  |
+|   A   |    A1  |    A11 |    1   |
+|   A    |    A1    |    A12    |    2    |
+|   A    |    A2    |    A21    |    3    |
+|   A    |    A2    |    A22    |    4    |
+|   A    |    A3    |    A31    |    5    |
+|   A    |    A3    |    A32    |    6    |
+|   B    |    B1    |    B11    |    7    |
+|   B    |    B1    |    B12    |    8    |
+|   B    |    B2    |    B21    |    9    |
+|   B    |    B2    |    B22    |    10    |
+|   B    |    B3    |    B31    |    11    |
+|   B    |    B3    |    B32    |    12    |
 
 Y crear una jerarquía en Power BI Desktop:
 
-![Crear una jerarquía](./media/create-new-hierarchy.png)
+![Crear una jerarquía](media/drill-down-support/create-new-hierarchy.png)
 
 Incluir todas las columnas de categoría (H1, H2 y H3) en la jerarquía nueva:
 
-![Crear una jerarquía](./media/new-hierarchy.png)
+![Crear una jerarquía](media/drill-down-support/new-hierarchy.png)
 
 Después de esos pasos, debería obtener el siguiente objeto visual:
 
-![Desarrollo del objeto visual con botones](./media/dev-visual-drilldown1.png)
+![Desarrollo del objeto visual con botones](media/drill-down-support/dev-visual-drilldown1.png)
 
 ## <a name="add-context-menu-to-visual-elements"></a>Agregar un menú contextual a los elementos visuales
 
 En este paso agregará un menú contextual a los botones del objeto visual:
 
-![Menú contextual en el objeto visual](./media/dev-visual-drilldown-context-menu.png)
+![Menú contextual en el objeto visual](media/drill-down-support/dev-visual-drilldown-context-menu.png)
 
 Para crear un menú contextual, guarde el objeto `host` en las propiedades del objeto visual y llame al método `createSelectionManager` para crear el administrador de selección para mostrar un menú contextual con la API de objetos visuales de Power BI.
 
@@ -305,11 +305,11 @@ Cambiar el cuerpo de la devolución de llamada de función `forEach` a:
 
 Aplicar datos al objeto visual:
 
-![El objeto visual con datos](./media/dev-visual-drilldown-data.png)
+![El objeto visual con datos](media/drill-down-support/dev-visual-drilldown-data.png)
 
 En el paso final debería obtener el objeto visual con selecciones y el menú contextual:
 
-![El objeto visual con compatibilidad con la exploración en profundidad](./media/dev-visual-drilldown-demo.gif)
+![El objeto visual con compatibilidad con la exploración en profundidad](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>Agregar compatibilidad de exploración en profundidad para la asignación de la vista de datos de matriz
 
@@ -389,7 +389,7 @@ Aplicar la siguiente asignación de vista de datos al objeto visual:
 
 Aplicar datos al objeto visual:
 
-![El objeto visual con datos](./media/dev-matrix-visual-drilldown-data.png)
+![El objeto visual con datos](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 Importar las interfaces necesarias para procesar las asignaciones de vista de datos de matriz:
 
@@ -614,7 +614,7 @@ public update(options: VisualUpdateOptions) {
 
 En el paso final debería obtener el objeto visual con el menú contextual:
 
-![El objeto visual con compatibilidad con la exploración en profundidad](./media/dev-matrix-visual-drilldown-demo.gif)
+![El objeto visual con compatibilidad con la exploración en profundidad](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>Pasos siguientes
 

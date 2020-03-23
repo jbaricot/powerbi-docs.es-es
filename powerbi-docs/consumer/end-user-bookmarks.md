@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 7d1e355f2c28679f5c2101d250a9fc2d5c99a2bd
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496627"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205651"
 ---
 # <a name="what-are-bookmarks"></a>¿Qué son los marcadores?
 
@@ -157,7 +157,7 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 En esta versión de los **marcadores** hay algunas limitaciones y consideraciones que debe tener en cuenta.
 
-* La mayoría de objetos visuales personalizados deben funcionar bien con marcadores. Si experimenta problemas con marcadores y un objeto visual personalizado, póngase en contacto con el creador de ese objeto visual personalizado y pídale que haga los marcadores compatibles con su objeto visual. 
+* La mayoría de los objetos visuales de Power BI deben funcionar bien con los marcadores. Si experimenta problemas con los marcadores y un objeto visual de Power BI, póngase en contacto con el creador de ese objeto visual y pídale que haga los marcadores compatibles con su objeto visual.
 * Si agrega un objeto visual en una página de informe después de crear un marcador, se mostrará el objeto visual en su estado predeterminado. Esto también significa que si se introduce una segmentación de datos en una página en la que previamente creó marcadores, la segmentación de datos se comportará según su estado predeterminado.
 * Por lo general, los marcadores no se ven afectados si el *diseñador* del informe lo actualiza o lo vuelve a publicar. Pero si realiza cambios importantes en el informe, como quitar campos usados por un marcador, se recibe un mensaje de error la siguiente vez que se intenta abrir ese marcador. 
 

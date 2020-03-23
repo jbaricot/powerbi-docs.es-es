@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e86e8c87ca7942e74ff2f16e299304f56f4a2aa3
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113091"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377293"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Visualización de conclusiones de datos en los iconos del panel con Power BI
 
@@ -61,7 +61,7 @@ Una vez que tenga abierta una conclusión, siga explorando.
 Para volver al informe, en la esquina superior izquierda, seleccione **Salir del modo de enfoque**.
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-- **Ver información** no funciona con todos los tipos de iconos del panel. Por ejemplo, no está disponible para objetos visuales personalizados.<!--[custom visuals](end-user-custom-visuals.md)-->
+- **Ver información** no funciona con todos los tipos de iconos del panel. Por ejemplo, no está disponible para los objetos visuales de Power BI.<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>Pasos siguientes

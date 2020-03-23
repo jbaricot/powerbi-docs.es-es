@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426665"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381132"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar Power BI Desktop optimizado para el servidor de informes de Power BI
 
@@ -70,7 +70,7 @@ Para Power BI Desktop optimizado para Power BI Report Server, el idioma se selec
 
 ### <a name="report-visuals-in-a-browser"></a>Objetos visuales de informe en un explorador
 
-Los informes de Power BI Report Server admiten casi todas las visualizaciones, incluidos los objetos visuales personalizados. Los informes del servidor de informes de Power BI no admiten:
+Los informes de Power BI Report Server admiten casi todas las visualizaciones, incluidos los objetos visuales de Power BI. Los informes del servidor de informes de Power BI no admiten:
 
 * Objetos visuales de R
 * Mapas de ArcGIS
@@ -89,7 +89,7 @@ Los informes del servidor de informes de Power BI no admiten estas característi
 
 * Objetos visuales de R
 * Mapas de ArcGIS
-* Objetos visuales personalizados
+* Objetos visuales de Power BI
 * Rutas de navegación
 * Filtrado geográfico o códigos de barras
 

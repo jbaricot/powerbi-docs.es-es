@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 0876d5ecd1d58c909242bbc05be213780d3aefdc
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237992"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488784"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -124,9 +124,9 @@ Después de crear y compartir el código para insertar de **Publicar en la web**
 
 Las actualizaciones de datos se reflejan automáticamente en el informe u objeto visual insertado. Los datos actualizados pueden tardar aproximadamente una hora en ser visibles desde los códigos para insertar. Para desactivar la actualización automática, seleccione **no actualizar** en la programación del conjunto de datos que usa el informe.  
 
-## <a name="custom-visuals"></a>Objetos visuales personalizados
+## <a name="power-bi-visuals"></a>Objetos visuales de Power BI
 
-Los objetos visuales personalizados se admiten en **Publicar en Web**. Si usa **Publicar en la web**, los usuarios con los que comparta el objeto visual publicado no tendrán que habilitar los objetos visuales personalizados para ver el informe.
+Los objetos visuales de Power BI se admiten en **Publicar en la web**. Si usa **Publicar en la web**, los usuarios con los que comparta el objeto visual publicado no tendrán que habilitar los objetos visuales de Power BI para ver el informe.
 
 ## <a name="limitations"></a>Limitaciones
 
@@ -144,7 +144,7 @@ La característica **Publicar en la web** se admite para la gran mayoría de los
 - Modelos de consulta de datos de inicio de sesión único.
 - Información confidencial o de propiedad.
 - [Conjuntos de datos certificados y compartidos](service-datasets-share.md).
-- La funcionalidad de autenticación automática que se incluye con la opción **Insertar** no funciona con la API de JavaScript para Power BI. Con la API de JavaScript para Power BI, use el enfoque de [usuario propietario de datos](developer/embed-sample-for-your-organization.md) en la inserción.
+- La funcionalidad de autenticación automática que se incluye con la opción **Insertar** no funciona con la API de JavaScript para Power BI. Con la API de JavaScript para Power BI, use el enfoque de [usuario propietario de datos](developer/embedded/embed-sample-for-your-organization.md) en la inserción.
 
 ## <a name="tenant-setting"></a>Configuración de inquilinos
 
@@ -196,7 +196,7 @@ Debe ser usuario de Microsoft Power BI para poder usar la características **Pub
 
 Cuando se crea un código para insertar mediante **Publicar en la web**, el informe se hace visible para los usuarios de Internet. Está disponible públicamente, por lo que se puede esperar que los espectadores compartan fácilmente el informe a través de redes sociales en el futuro. Cuando los usuarios ven el informe, ya sea con la dirección URL pública directa o insertado en una página web o un blog, Power BI almacena en caché la definición de informe y los resultados de las consultas necesarias para ver el informe. Esto garantiza que miles de usuarios simultáneos pueden ver el informe sin afectar al rendimiento.
 
-La caché es de larga duración, por lo que si se actualiza la definición del informe (por ejemplo, si cambia el modo de vista) o se actualizan los datos del informe, los cambios pueden tardar aproximadamente una hora en reflejarse en la versión del informe que ven los usuarios. Por lo tanto, se recomienda organizar el trabajo con antelación y crear el código para insertar de **Publicar en Web** solo cuando esté satisfecho con la configuración.
+La caché es de larga duración, por lo que si se actualiza la definición del informe (por ejemplo, si cambia el modo de vista) o se actualizan los datos del informe, los cambios pueden tardar aproximadamente una hora en reflejarse en la versión del informe que ven los usuarios. Por tanto, se recomienda organizar el trabajo con antelación y crear el código para insertar de **Publicar en la web** solo cuando esté satisfecho con la configuración.
 
 ## <a name="how-to-find-your-power-bi-administrator"></a>Cómo buscar el administrador de Power BI
 

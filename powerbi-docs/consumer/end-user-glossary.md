@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79040083"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377245"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glosario para el servicio Power BI
 El servicio Power BI puede utilizar terminología desconocida o que puede llevar a confusiones. El glosario es un lugar ideal para consultar terminología, que incluso le permite marcar contenido. Otro recurso útil para conocer la base sobre la que se sustenta el servicio Power BI es [Conceptos básicos](end-user-basic-concepts.md). En Conceptos básicos encontrará información general de alto nivel sobre las *piezas* que forman Power BI y cómo se interconectan.
@@ -75,7 +75,7 @@ La cuenta *Premium* organizativa (también conocida como *capacidad Premium*) ag
 
 **content list (lista de contenido)** Índice de contenido de una aplicación.
 
-**content pack (paquete de contenido)**: una colección de conjuntos de datos, paneles e informes previamente empaquetados. Ahora se reemplazan por **aplicaciones**. Conozca la [nueva experiencia de área de trabajo](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
+**content pack (paquete de contenido)** : una colección de conjuntos de datos, paneles e informes previamente empaquetados. Ahora se reemplazan por **aplicaciones**. Conozca la [nueva experiencia de área de trabajo](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
 
 **content view (vista de contenido)**
 
@@ -155,7 +155,7 @@ Al seleccionar los puntos suspensivos se muestran opciones de menú adicionales.
 
 ## <a name="i"></a>I
 
-**insights (conclusiones)** Consulte **Quick Insights (Conclusiones rápidas)**.
+**insights (conclusiones)** Consulte **Quick Insights (Conclusiones rápidas)** .
 
 
 ## <a name="j"></a>J
@@ -180,7 +180,7 @@ Primera aparición: panel de navegación Siguientes menciones o en espacios redu
 
 **Medida**: una medida es un campo cuantitativo (numérico) que se puede usar para realizar cálculos. Los cálculos comunes son los de suma, promedio y mínimo. Por ejemplo, si la empresa fabrica y vende monopatines, las medidas podrían ser el número de monopatines vendidos y el beneficio medio al año.
 
-**Mobile app (Aplicación móvil)**: aplicaciones que le permiten ejecutar Power BI en dispositivos iOS, Android y Windows.
+**Mobile app (Aplicación móvil)** : aplicaciones que le permiten ejecutar Power BI en dispositivos iOS, Android y Windows.
 
 **modeling (modelado)** [Power BI Desktop] Disponer de los datos que ha conectado para que estén listos para utilizar en Power BI. Esto incluye la creación de relaciones entre las tablas de varios orígenes de datos, crear medidas y asignar métricas.
 
@@ -188,7 +188,7 @@ Primera aparición: panel de navegación Siguientes menciones o en espacios redu
 
 ## <a name="n"></a>N
 
-**native (nativo0** Incluido en el producto. Por ejemplo, Power BI incluye un conjunto de tipos de visualización *nativos*. Pero también puede importar otros tipos, como objetos visuales personalizados.
+**native (nativo0** Incluido en el producto. Por ejemplo, Power BI incluye un conjunto de tipos de visualización *nativos*. Pero también puede importar otros tipos, como objetos visuales de Power BI.
 
 **navigation pane (panel de navegación)** o **nav pane** Los controles a lo largo del borde izquierdo del servicio Power BI.
 
@@ -236,7 +236,7 @@ Primera aparición: panel de navegación Siguientes menciones o en espacios redu
 
 **Power BI Report Server** Nueva oferta de marca de SSRS que se inicia con Power BI Premium para permitir que las organizaciones creen sistemas de BI híbridos y distribuidos (una combinación de implementaciones locales y en la nube). Embedded proporciona una manera localizada de almacenar y administrar informes de Power BI.
 
-**Power BI service (Servicio Power BI)**: un servicio SaaS (software como servicio) en línea. Para más información, consulte [¿Qué es Power BI?](../fundamentals/power-bi-overview.md)
+**Power BI service (Servicio Power BI)** : un servicio SaaS (software como servicio) en línea. Para más información, consulte [¿Qué es Power BI?](../fundamentals/power-bi-overview.md)
 
 **Premium workspace (Área de trabajo Premium)** Un área de trabajo que se ejecuta en una capacidad dedicada y que se representa a los clientes mediante un icono de rombo.  
 
@@ -307,7 +307,7 @@ En dispositivos móviles, “compartir” puede hacer referencia a una funcional
 
 **streaming data (transmisión de datos)** Vea *streaming en tiempo real*.
 
-**subscriptions (suscripciones)**, **suscribirse**  
+**subscriptions (suscripciones)** , **suscribirse**  
 Puede suscribirse a páginas de informes, aplicaciones y paneles, y recibir correos electrónicos que contengan una instantánea. Se requiere una licencia de Power BI Pro.
 
 **summarization (resumen)** [Power BI Desktop] Operación que se aplica a los valores de una columna.

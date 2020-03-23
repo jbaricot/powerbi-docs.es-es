@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 50cb15e95f051dd6860112243514464dd80a8b1e
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401173"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133194"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Solución de problemas de inicio de sesión en Power BI Desktop
 Puede haber ocasiones en que intente iniciar sesión en **Power BI Desktop** pero encuentre errores. Hay dos razones principales para problemas de inicio de sesión: **errores de autenticación de proxy** y **errores de redireccionamiento de dirección URL que no son HTTPS**. 
@@ -75,4 +75,37 @@ Para recopilar un seguimiento en **Power BI Desktop**, siga estos pasos:
     `C:\Users/<user name>/AppData/Local/Microsoft/Power BI Desktop/Traces`
 
 Puede haber muchos archivos de seguimiento en esa carpeta. Asegúrese de que sólo envía los archivos recientes al administrador para facilitarle una rápida identificación del error. 
+
+
+## <a name="using-default-system-credentials-for-web-proxy"></a>Uso de credenciales predeterminadas del sistema para proxy web
+
+Las solicitudes web emitidas por Power BI Desktop no usan credenciales de proxy web. En las redes que usan un servidor proxy, es posible que Power BI Desktop no pueda realizar correctamente las solicitudes web. 
+
+A partir de la versión de marzo de 2020 de Power BI Desktop, los administradores de red o del sistema pueden permitir el uso de credenciales del sistema predeterminadas para la autenticación del proxy web. Los administradores pueden crear una entrada del Registro llamada **UseDefaultCredentialsForProxy** y establecer el valor en uno (1) para habilitar el uso de las credenciales del sistema predeterminadas para la autenticación del proxy web.
+
+La entrada del Registro se puede colocar en cualquiera de las ubicaciones:
+
+`[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft Power BI Desktop]`
+`[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop]`
+
+No es necesario tener la entrada del Registro en ambas ubicaciones.
+
+![Clave del Registro para usar credenciales predeterminadas del sistema](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in-03.png)
+
+Una vez creada la entrada del Registro (es posible que sea necesario reiniciar), se usa la configuración de proxy definida en Internet Explorer cuando Power BI Desktop realiza solicitudes web. 
+
+Como sucede con cualquier cambio en la configuración de proxy o de credenciales, hay implicaciones de seguridad en la creación de esta entrada del Registro, por lo que los administradores deben asegurarse de haber configurado correctamente los proxies de Internet Explorer antes de habilitar esta característica.         
+
+### <a name="limitations-and-considerations-for-using-default-system-credentials"></a>Limitaciones y consideraciones para el uso de credenciales del sistema predeterminadas
+
+Hay una serie de implicaciones de seguridad que los administradores deben tener en cuenta antes de habilitar esta funcionalidad. 
+
+Se deben seguir las recomendaciones siguientes cada vez que se habilite esta característica para los clientes:
+
+* Use solo **Negociación** como esquema de autenticación para el servidor proxy, con el fin de asegurarse de que el cliente solo use los servidores proxy que se unen a la red de Active Directory. 
+* No use **Reserva NTLM** en los clientes que utilizan esta característica.
+* Si los usuarios no están en una red con un proxy cuando esta característica está habilitada y configurada como se recomienda en esta sección, no se usará el proceso de intentar ponerse en contacto con el servidor proxy y utilizar las credenciales predeterminadas del sistema.
+
+
+[Uso de credenciales predeterminadas del sistema para proxy web](#using-default-system-credentials-for-web-proxy)
 

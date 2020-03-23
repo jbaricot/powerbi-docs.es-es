@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 27e4bbd1437f59b7cf213333d9df27019aaadcd4
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad7c0dab0c4390326eea157351735802d12b3795
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698863"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488577"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configuración de compatibilidad con Multi-Geo en Power BI Premium
 
@@ -33,7 +33,7 @@ Multi-Geo es una característica de Power BI Premium que ayuda a que los cliente
 
 Multi-Geo no está disponible para Power BI Alemania, Power BI China operado por 21Vianet o Power BI para la Administración Pública de Estados Unidos.
 
-Multi-Geo ahora está también disponible en Power BI Embedded. Más información en [Compatibilidad de Multi-Geo con Power BI Embedded](developer/embedded-multi-geo.md).
+Multi-Geo ahora está también disponible en Power BI Embedded. Más información en [Compatibilidad de Multi-Geo con Power BI Embedded](developer/embedded/embedded-multi-geo.md).
 
 ## <a name="enable-and-configure"></a>Habilitación y configuración
 
@@ -70,7 +70,7 @@ Estos elementos permanecen en la región principal del inquilino:
 
 ## <a name="view-capacity-regions"></a>Vista de regiones de capacidad
 
-En el Portal de administración, puede ver todas las capacidades del inquilino de Power BI y las regiones donde se ubican actualmente.
+En el Portal de administración, puede ver todas las capacidades del inquilino de Power BI y las regiones donde se ubican actualmente.
 
 ![Vista de capacidades Premium](media/service-admin-premium-multi-geo/power-bi-multi-geo-premium-capacities.png) 
 
@@ -99,6 +99,6 @@ Puede quitar áreas de trabajo de la capacidad Multi-Geo de una de estas dos man
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [¿Qué es Power BI Premium?](service-premium-what-is.md)
-- [Multi-Geo para capacidades de Power BI Embedded](developer/embedded-multi-geo.md)
+- [Multi-Geo para capacidades de Power BI Embedded](developer/embedded/embedded-multi-geo.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

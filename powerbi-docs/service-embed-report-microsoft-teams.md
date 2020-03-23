@@ -1,5 +1,5 @@
 ---
-title: Inserción de un informe con la pestaña Power BI de Microsoft Teams
+title: Inserción de informes con la pestaña Power BI de Microsoft Teams
 description: Con la pestaña Power BI de Microsoft Teams, puede insertar fácilmente informes interactivos en canales y chats.
 author: LukaszPawlowski-MS
 ms.author: lukaszp
@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 01/31/2020
-ms.openlocfilehash: fb4846a777dda4787e1ed0be7de869367a616ea5
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.date: 03/12/2020
+ms.openlocfilehash: fe8b5ed0e3cdf0003986ffe6eab18e97e83f3dec
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530496"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381239"
 ---
 # <a name="embed-report-with-the-power-bi-tab-for-microsoft-teams"></a>Inserción de un informe con la pestaña Power BI de Microsoft Teams
 
@@ -68,6 +68,18 @@ Insertar un informe en Microsoft Teams no concede permiso a los usuarios para v
 > Asegúrese de revisar quién puede ver el informe en el servicio Power BI y de conceder acceso a los usuarios que no están en la lista.
 
 Una forma de garantizar que todos los miembros del equipo van a tener acceso a los informes que se insertan es incluir a esos miembros en una misma área de trabajo en Power BI, y dar acceso a ese grupo de Office 365 del equipo al área de trabajo en cuestión.
+
+## <a name="start-a-conversation"></a>Iniciar una conversación
+
+Cuando se agrega una pestaña de informe de Power BI a Teams, Teams crea de forma automática una conversación de pestañas para acompañar al informe. 
+
+- Seleccione **Mostrar la ficha Conversación** en la esquina superior derecha.
+
+    ![Icono Mostrar la ficha Conversación](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
+
+    El primer comentario es un vínculo al informe. Todos los usuarios de ese canal de Teams pueden ver y analizar el informe en la conversación.
+
+    ![Ficha Conversación](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
 
 ## <a name="known-issues-and-limitations"></a>Limitaciones y problemas conocidos
 

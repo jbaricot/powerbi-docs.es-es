@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 5208c72016a148f86a119bdddd2bbd1f69d3456b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74831105"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381040"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
@@ -95,10 +95,10 @@ Una suscripción finaliza si expira la licencia de Pro, el propietario elimina e
 * En cuanto a las suscripciones de correo de informe, si el conjunto de datos usa RLS, podrá crear una suscripción para usted. No puede suscribir a otros usuarios a un informe en el que se haya aplicado la seguridad de nivel de fila (RLS), excepto si usa un informe paginado, lo que le permitirá enviar la suscripción a otros usuarios mediante el uso de su contexto de seguridad. 
 * Las suscripciones a una página del informe están asociadas con el nombre de la página del informe. Si se suscribe a una página del informe y después cambia el nombre, tendrá que volver a crear la suscripción.
 * Su organización puede configurar ciertos parámetros en Azure Active Directory que limitan la capacidad de usar las suscripciones de correo electrónico en Power BI.  Estas limitaciones incluyen, entre otras, la autenticación multifactor o restricciones de intervalo de IP al acceder a los recursos.
-* Actualmente, en las suscripciones por correo electrónico de informes o paneles que usen conjuntos de datos de conexiones activas, no se permite suscribir a usuarios distintos del suyo, excepto si usa un informe paginado, lo que le permitirá enviar la suscripción a otros usuarios mediante el uso de su contexto de seguridad. 
-* Las suscripciones de correo electrónico no admiten la mayoría de los [objetos visuales personalizados](developer/power-bi-custom-visuals.md).  La única excepción son esos objetos visuales personalizados que se han [certificado](developer/power-bi-custom-visuals-certified.md).  
-* En la actualidad, las suscripciones de correo electrónico no admiten los objetos visuales personalizados con la tecnología de R.  
-* Las suscripciones de correo electrónico se envían con los estados de segmentación y filtros predeterminados del informe. En el correo electrónico no se muestran los cambios en los valores predeterminados que realice tras suscribirse.  Los informes paginados admiten esta función y le permiten establecer valores de parámetros específicos por suscripción.   
+* Actualmente, en las suscripciones por correo electrónico de informes o paneles que usen conjuntos de datos de conexiones activas, no se permite suscribir a usuarios distintos del suyo, excepto si usa un informe paginado, lo que le permitirá enviar la suscripción a otros usuarios mediante el uso de su contexto de seguridad.
+* Las suscripciones de correo electrónico no admiten la mayoría de los [objetos visuales de Power BI](developer/visuals/power-bi-custom-visuals.md).  La única excepción son esos objetos visuales de Power BI que se han [certificado](developer/visuals/power-bi-custom-visuals-certified.md).  
+* En la actualidad, las suscripciones de correo electrónico no admiten objetos visuales de Power BI con la tecnología de R.  
+* Las suscripciones de correo electrónico se envían con los estados de segmentación y filtros predeterminados del informe. En el correo electrónico no se muestran los cambios en los valores predeterminados que realice tras suscribirse.  Los informes paginados admiten esta función y le permiten establecer valores de parámetros específicos por suscripción.
 * Para las suscripciones de paneles en concreto, todavía no se admiten ciertos tipos de iconos.  Entre estos se incluyen: transmisión en secuencias de mosaicos, iconos de vídeo, iconos de contenido web personalizado.     
 * Si comparte un panel con un compañero de trabajo fuera de su inquilino, tampoco puede crear una suscripción para él. Por tanto, si es aaron@xyz.com, podrá compartir con anyone@ABC.com, pero todavía no podrá suscribir a anyone@ABC.com, y ese usuario no podrá suscribirse al contenido compartido.      
 * Power BI detiene de forma automática la actualización en los conjuntos de datos asociados con los paneles e informes que no se han visitado en más de dos meses.  Pero si agrega una suscripción a un panel o informe, no se detiene incluso si no recibe visitas.    

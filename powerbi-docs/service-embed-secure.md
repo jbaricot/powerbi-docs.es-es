@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78919789"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488830"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserción de informes en un sitio web o portal seguro
 
@@ -40,7 +40,7 @@ La opción **Insertar** también admite la configuración de direcciones URL y [
 
     ![Informe de inserción](media/service-embed-secure/secure-embed-report.png)
 
-5. Al usar un iFrame, puede que tenga que editar el **alto** y el **ancho** para que se adapte al tamaño de la página web del portal.
+5. Al usar un iFrame, es posible que tenga que editar el **alto** y el **ancho** para que se adapte al tamaño de la página web del portal.
 
     ![Establecimiento del alto y ancho](media/service-embed-secure/secure-embed-size.png)
 
@@ -81,7 +81,7 @@ Puede usar [filtros de direcciones URL](service-url-filters.md) para proporciona
 
 El uso de **pageName** con [filtros de direcciones URL](service-url-filters.md) puede ser eficaz. Puede crear experiencias con HTML y JavaScript básicos.
 
-Por ejemplo, puede agregar el siguiente botón a una página HTML:
+Por ejemplo, puede agregar el botón siguiente a una página HTML:
 
 ```html
 <button class="textLarge" onclick='show("ReportSection", "Energy");' style="display: inline-block;">Show Energy</button>
@@ -104,7 +104,7 @@ newUrl += "&$filter=Industries/Industry eq '" + filterValue + "'";
 
 }
 
-//Assumes there’s an iFrame on the page with id=”iFrame”
+//Assumes there's an iFrame on the page with id="iFrame"
 
 var report = document.getElementById("iFrame")
 
@@ -133,9 +133,9 @@ Puede agregar tantos botones como quiera para crear una experiencia personalizad
 
 * No se admite el servidor de SharePoint clásico, ya que requiere versiones de Internet Explorer anteriores a la 11 o habilitar el modo de vista de compatibilidad.
 
-* Para lograr una experiencia de inicio de sesión único, use la opción [Insertar en SharePoint Online](service-embed-report-spo.md), o bien cree una integración personalizada con el método de inserción [el usuario es el propietario de los datos](developer/embed-sample-for-your-organization.md). 
+* Para lograr una experiencia de inicio de sesión único, use la opción [Insertar en SharePoint Online](service-embed-report-spo.md), o bien cree una integración personalizada con el método de inserción [el usuario es el propietario de los datos](developer/embedded/embed-sample-for-your-organization.md). 
 
-* La funcionalidad de autenticación automática que se incluye con la opción **Insertar** no funciona con la API de JavaScript para Power BI. Con la API de JavaScript para Power BI, use el método de inserción [el usuario es el propietario de los datos](developer/embed-sample-for-your-organization.md). 
+* La funcionalidad de autenticación automática que se incluye con la opción **Insertar** no funciona con la API de JavaScript para Power BI. Con la API de JavaScript para Power BI, use el método de inserción [el usuario es el propietario de los datos](developer/embedded/embed-sample-for-your-organization.md). 
 
 * La vigencia del token de autenticación depende de la configuración de AAD. Cuando expire el token de autenticación, el usuario tendrá que actualizar el explorador para obtener un token de autenticación actualizado. La vigencia predeterminada es de una hora, pero puede que en su organización sea más larga o corta.
 

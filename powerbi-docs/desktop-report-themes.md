@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a4ed3ffc833b2405a3c231b80047c71b40a64cc
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.openlocfilehash: 2316fcf5d0b5c0a4c63e4786b80b8c7e20c643e3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "76753706"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378970"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Uso de los temas para los informes en Power BI Desktop
 
@@ -185,7 +185,7 @@ Para ver los colores disponibles en un tema para informes:
 
 En nuestro ejemplo, después de aplicar la gran cantidad de colores verdes y marrones del tema para informes St. Patrick's Day, vea los colores del tema. ¿Puede ver toda esa cantidad de verde? Esto se debe a que esos colores formaban parte del tema para informes que importamos y aplicamos.
 
-Los colores de la paleta de colores también son relativos al tema actual. Por ejemplo, supongamos que selecciona el tercer color de la fila superior de un punto de datos. Más adelante, si cambia a otro tema, el color del punto de datos se actualiza automáticamente al tercer color de la fila superior del nuevo tema, tal como se vería al cambiar los temas en Microsoft Office.
+Los colores de la paleta de colores también son relativos al tema actual. Por ejemplo, supongamos que selecciona el tercer color de la fila superior de un punto de datos. Más adelante, si cambia a otro tema, el color del punto de datos se actualiza automáticamente al tercer color de la fila superior del nuevo tema, como se vería al cambiar los temas en Microsoft Office.
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situaciones en las que los colores del tema no se aplican a los informes
 
@@ -195,7 +195,7 @@ Es posible que también quiera establecer manualmente el color de un punto de da
 
 ![Volver al valor predeterminado](media/desktop-report-themes/report-themes_9.png)
 
-Además, muchos otros objetos visuales personalizados no aplicarán temas para informes.
+Muchos objetos visuales de Power BI no se aplicarán a temas para informes.
 
 ## <a name="custom-report-theme-files-you-can-use-right-now"></a>Archivos de temas para informes personalizados que se pueden usar ya
 
@@ -271,7 +271,7 @@ Aparte del **nombre**, todo lo demás es opcional, lo que significa que solo tie
 
 En **Nombre**, puede agregar las siguientes propiedades básicas relacionadas con el color de los datos:
 
-- **dataColors**: lista de códigos de color hexadecimales que se usarán para colorear las formas que representan los datos de los objetos visuales de Power BI Desktop. La lista puede contener todos los colores que se desee. Cuando se hayan usado todos los colores de esta lista, si el objeto visual todavía necesita más colores, vuelva para usar la paleta de colores predeterminada de Power BI.
+- **dataColors**: lista de códigos de color hexadecimales que se usarán para colorear las formas que representan los datos de los objetos visuales de Power BI Desktop. La lista puede contener todos los colores que se desee. Cuando se hayan usado todos los colores de esta lista, si el objeto visual todavía necesita más, vuelve a usar la paleta de colores predeterminada de Power BI.
 - **bueno**, **neutro** y **malo**: estas propiedades establecen los colores de estado que se usan en el gráfico de cascada y el objeto visual de KPI.
 - **máximo**, **centro**, **mínimo** y **nulo**: estos colores establecen los distintos colores de degradado en el cuadro de diálogo de formato condicional.
 
@@ -312,13 +312,13 @@ Puede ver las seis clases de color a las que puede aplicar formato en la tabla s
 |---------|---------|
 | **firstLevelElements** <br> **foreground** (en desuso) | Color de fondo de las etiquetas (cuando están fuera de los puntos de datos) <br> Color de línea de tendencia <br>  Color predeterminado del cuadro de texto <br> Colores de fuente de valores y totales de tabla y matriz, color de eje de barras de datos <br> Etiquetas de datos de tarjeta <br> Color del valor de globo del medidor <br> Color del objetivo de KPI <br>  Color de texto de KPI <br> Color del elemento de segmentación (en el modo de enfoque)  <br> Color de fuente del elemento de lista desplegable de segmentación <br> Color de fuente de entrada numérica de segmentación <br> Color de fuente del encabezado de segmentación <br> Color de línea de proporción de gráfico de dispersión <br> Color de línea de previsión de gráfico de líneas <br> Color de línea de guía de mapa <br> Color del texto de tarjeta y panel de filtro|
 | **secondLevelElements** <br> **foregroundNeutralSecondary** (en desuso) | [Clases de texto secundario](#setting-formatted-text-defaults) "light" <br> Colores de etiqueta  <br> Color de etiqueta de leyenda <br> Color de etiqueta de eje <br> Color de fuente de encabezado de tabla y matriz <br> Color de línea de guía de destino y destino de medidor <br>  Color de eje de tendencia de KPI <br> Color de control deslizante de segmentación <br> Color de fuente de elemento de segmentación <br> Color de contorno de segmentación <br> Color al mantener el puntero en el gráfico de líneas <br> Color del título de la tarjeta de varias filas <br> Color de trazo del gráfico de la barra de herramientas <br> Color de borde del mapa de formas <br> Color de fuente del texto de botón <br> Color de línea del icono de botón <br> Color de contorno del botón |
-| **thirdLevelElements** <br >**backgroundLight** (en desuso) | Color de cuadrícula del eje <br> Color de cuadrícula de tabla y matriz <br> Color de fondo del encabezado de segmentación (en modo de enfoque)  <br> Color de esquema de tarjeta de varias filas  <br> Color de relleno de forma <br> Color de fondo del arco del medidor <br> Color de fondo de la tarjeta de filtro aplicado <br> |
-| **fourthLevelElements** <br> **foregroundNeutralTertiary** (en desuso) | color atenuado de leyenda <br> Color de etiqueta de categoría de tarjeta <br> Color de etiquetas de categoría de tarjeta de varias filas <br> Color de la barra de tarjeta de varias filas <br> Color de trazo de la tasa de conversión de gráficos de embudo
+| **thirdLevelElements** <br >**backgroundLight** (en desuso) | Color de cuadrícula del eje <br> Color de cuadrícula de tabla y matriz <br> Color de fondo del encabezado de segmentación (en modo de enfoque)  <br> Color de esquema de tarjeta de varias filas  <br> Color de relleno de forma <br> Color de fondo del arco del medidor <br> Color de fondo de la tarjeta de filtro aplicado <br> Cuando background = FFFFFF: <br> Color de relleno del botón deshabilitado <br> Color de contorno del botón deshabilitado <br> |
+| **fourthLevelElements** <br> **foregroundNeutralTertiary** (en desuso) | color atenuado de leyenda <br> Color de etiqueta de categoría de tarjeta <br> Color de etiquetas de categoría de tarjeta de varias filas <br> Color de la barra de tarjeta de varias filas <br> Color de trazo de la tasa de conversión de gráficos de embudo <br> Color de fuente del texto del botón deshabilitado <br> Color de línea del icono de botón deshabilitado <br> |
 | **background** | Color de fondo de las etiquetas (cuando están dentro de los puntos de datos) <br> Color de fondo de los elementos de lista desplegable de segmentación  <br> Color de trazo del gráfico de anillos <br> Color de trazo del gráfico de rectángulos <br> Color de fondo de gráfico combinado <br> Color de relleno del botón <br> Color de fondo de la tarjeta de filtro disponible y del panel de filtros |
-| **secondaryBackground** <br> **backgroundNeutral** (en desuso) | Color de esquema de cuadrícula de tabla y matriz <br> Color predeterminado de mapa de formas <br> Color de relleno de la cinta del gráfico de la barra de herramientas (cuando la opción de coincidencia de series está desactivada) |
+| **secondaryBackground** <br> **backgroundNeutral** (en desuso) | Color de esquema de cuadrícula de tabla y matriz <br> Color predeterminado de mapa de formas <br> Color de relleno de la cinta del gráfico de la barra de herramientas (cuando la opción de coincidencia de series está desactivada) <br> Cuando background != FFFFFF: <br> Color de relleno del botón deshabilitado <br> Color de contorno del botón deshabilitado <br> |
 | **tableAccent** | Reemplaza el color de contorno de la cuadrícula de tabla y matriz cuando existe. |
 
-Este es un tema de ejemplo con las clases de color:
+Este es un tema de ejemplo en el que se establecen las clases de color:
 
 ```json
 {
@@ -344,7 +344,7 @@ Aunque hay 12 clases de texto, solo es necesario establecer cuatro clases, denom
 
 Otras clases de texto, consideradas *clases secundarias*, obtienen automáticamente sus propiedades de sus clases principales asociadas. A menudo, una clase secundaria selecciona un tono más claro de color de texto, o un porcentaje de tamaño de texto grande o más pequeño en comparación con la clase primaria.
 
-Tome como ejemplo la clase **label**. El formato predeterminado de la clase **label** es Segoe UI, #252423 (color gris oscuro) y 12 puntos. Esta clase se utiliza para dar formato a los valores de la tabla y la matriz. Normalmente, los totales de una tabla o matriz tienen un formato similar, pero aparecen en negrita para que resalten más, de modo que usan la clase **bold label**. Sin embargo, no es necesario especificar esa clase en el archivo JSON del tema; Power BI lo hace automáticamente. Más adelante, si decide especificar etiquetas que tienen una fuente de 14 puntos en el tema, no es necesario actualizar también la clase **bold**, ya que hereda el formato de texto de la clase **label**.
+Tome como ejemplo la clase **label**. El formato predeterminado de la clase **label** es Segoe UI, #252423 (color gris oscuro) y 12 puntos. Esta clase se utiliza para dar formato a los valores de la tabla y la matriz. Normalmente, los totales de una tabla o matriz tienen un formato similar, pero aparecen en negrita para que resalten más, de modo que usan la clase **bold label**. Sin embargo, no es necesario especificar esa clase en el archivo JSON del tema; Power BI lo hace automáticamente. Más adelante, si decide especificar etiquetas que tienen una fuente de 14 puntos en el tema, no es necesario actualizar también la clase **bold label**, ya que hereda el formato de texto de la clase **label**.
 
 En la tabla siguiente se muestra la siguiente información:
 
@@ -401,7 +401,7 @@ Este es un tema de ejemplo que solo establece las clases de texto principales:
 }
 ```
 
-Dado que las clases secundarias se heredan de las clases principales, no es necesario establecerlas en el archivo de tema. Sin embargo, si no le gustan las reglas de herencia (por ejemplo, si no quiere que los totales sean una versión en negrita de los valores de una tabla), puede dar formato explícitamente a las clases secundarias del archivo de tema, al igual que puede dar formato a las clases principales.
+Dado que las clases secundarias se heredan de las clases principales, no es necesario establecerlas en el archivo de tema. Pero si no le gustan las reglas de herencia (por ejemplo, si no quiere que los totales sean una versión en negrita de los valores de una tabla), puede dar formato explícitamente a las clases secundarias del archivo de tema, al igual que puede dar formato a las clases principales.
 
 ### <a name="setting-visual-property-defaults-visualstyles"></a>Establecimiento de valores predeterminados de propiedades de objetos visuales (`visualStyles`)
 
@@ -419,7 +419,7 @@ Finalmente, para crear un archivo JSON de formato extendido, con un control más
     }
 ```
 
-En las secciones **visualName** y **cardName**, use un objeto visual y un nombre de tarjeta específicos. Actualmente, **styleName** siempre es un asterisco (*), pero en una versión futura podrá crear distintos estilos para sus objetos visuales y proporcionarles nombres (similar a la característica de estilo de tabla y matriz). **propertyName** es el nombre de la opción de formato y **propertyValue** es el valor de esa opción de formato.
+En las secciones **visualName** y **cardName**, use un objeto visual y un nombre de tarjeta específicos. Actualmente, **styleName** siempre es un asterisco (*), pero en una versión futura podrá crear otros estilos para los objetos visuales y proporcionarles nombres (similar a la característica de estilo de tabla y matriz). **propertyName** es el nombre de la opción de formato y **propertyValue** es el valor de esa opción de formato.
 
 Para **visualName** y **cardName**, use un asterisco con comillas si desea que la configuración se aplique a todos los objetos visuales o las tarjetas que tienen una propiedad. Si usa el asterisco en el nombre del objeto visual y la tarjeta, se aplicaría en la práctica una configuración global en el informe, por ejemplo, un tamaño de fuente o una familia de fuentes específica para todo el texto de todos los objetos visuales.
 
@@ -574,7 +574,7 @@ Cuando se usa **dateTime**, la fecha debe ser una fecha ISO entre comillas simpl
 
 Los valores booleanos son true o false. Las cadenas deben ir entre comillas dobles, como en "esto es una cadena". Los números son solo el propio valor, sin comillas.
 
-Los colores usan el formato siguiente, donde el código hexadecimal personalizado va donde "FFFFFF" se encuentra en el ejemplo siguiente:
+Los colores usan el formato siguiente, donde el código hexadecimal personalizado que sustituye a "FFFFFF" se encuentra en el ejemplo siguiente:
 
     { "solid": { "color": "#FFFFFF" } }
 
@@ -4491,7 +4491,7 @@ La siguiente sección define las enumeraciones que se pueden usar en el archivo 
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 
-Si utiliza uno de nuestros temas originales, el tema "Clásico", o un tema personalizado que haya importado encima de uno de estos, la sección de texto del cuadro de diálogo del tema no estará disponible para su configuración.
+Si usa uno de nuestros temas originales, el tema "Clásico", o un tema personalizado que haya importado sobre uno de estos, la sección de texto del cuadro de diálogo del tema no estará disponible para la configuración.
 
 Entre los temas integrados que se ven afectados por esta limitación se incluyen los siguientes:
 * Clásico
@@ -4503,7 +4503,7 @@ Entre los temas integrados que se ven afectados por esta limitación se incluyen
 * Puesta de sol
 * Crepúsculo
 
-Si utiliza uno de los temas afectados y no tiene que modificar la configuración de texto, puede usar de forma segura las demás pestañas del cuadro de diálogo sin problemas. Sin embargo, si quiere usar las clases de texto con uno de los temas afectados, tiene un par de opciones:
+Si usa uno de los temas afectados y no tiene que modificar la configuración de texto, puede usar de forma segura las demás pestañas del cuadro de diálogo. Sin embargo, si quiere usar las clases de texto con uno de los temas afectados, tiene un par de opciones:
 
 - La forma más rápida y fácil de habilitar las clases de texto es seleccionar las opciones del tema predeterminado.
 - Si quiere conservar el tema personalizado actual, para habilitar la pestaña de texto:

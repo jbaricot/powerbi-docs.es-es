@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/18/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538153"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435775"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -21,6 +21,9 @@ Se aplica a:
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Teléfono Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Tableta Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Dispositivos de Windows 10](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
 |:---: |:---: |:---: |:---: |:---: |
 | iPhone |iPad |Teléfonos Android |Tabletas Android |Dispositivos de Windows 10 |
+
+>[!NOTE]
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Un informe de Power BI es una vista interactiva de los datos, con objetos visuales que describen distintas conclusiones e información de dichos datos. Ver informes en las aplicaciones móviles de Power BI es el tercer paso de un proceso de tres pasos:
 
@@ -59,6 +62,14 @@ Al descargar la aplicación móvil de Power BI, está establecida para la inter
 Si lo prefiere, puede cambiar a la interacción de pulsar dos veces. Con la interacción de pulsar dos veces, primero debe pulsar un objeto visual para seleccionarlo y, después, volver a pulsarlo para realizar la acción deseada.
 
 Para cambiar a la interacción de pulsar dos veces, o bien para recuperar la de pulsación única, vaya a la [configuración de las interacciones de la aplicación](./mobile-app-interaction-settings.md).
+
+### <a name="single-select-versus-multi-select-mode-for-data-point-selection"></a>Modo de selección única frente al modo de selección múltiple para la selección de puntos de datos
+
+En un informe, debe pulsar un punto de datos para seleccionarlo. Puede elegir si desea usar el modo de selección única o de selección múltiple. En el modo de selección única, al pulsar un punto de datos para seleccionarlo, la selección reemplazará cualquier selección anterior que haya realizado. En el modo de selección múltiple, al pulsar un punto de datos para seleccionarlo, la selección se *agregará* a cualquier selección que tenga actualmente y el resultado combinado de todas las selecciones se resaltará en todos los objetos visuales del informe.
+
+Para anular la selección de un punto de datos seleccionado, simplemente púlselo de nuevo.
+
+Para cambiar entre el modo de selección única y el de selección múltiple, vaya a la [configuración de interacción de la aplicación](./mobile-app-interaction-settings.md).
 
 ### <a name="using-tap-and-long-tap"></a>Uso de pulsaciones y pulsaciones largas
 Una pulsación es como un clic del mouse. Por tanto, si quiere resaltar el informe en función de un punto de datos, pulse ese punto de datos.

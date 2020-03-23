@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b7a45309c3bfad27cc3b26990ee148a9e44b8998
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75927123"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488692"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Aplicación Métricas de Power BI Premium
 
@@ -48,7 +48,7 @@ La métrica de **memoria activa** forma parte de la categoría de *planeamiento 
 
 La **memoria activa** es la memoria usada para procesar los conjuntos de datos que se utilizan actualmente y que, por tanto, no se desalojarán cuando se necesite memoria. La métrica de memoria activa indica si la capacidad puede administrar carga adicional o si carga actual de la capacidad ya está cerca o ha superado la capacidad. La memoria activa consumida actualmente significa que hay menos memoria disponible para admitir actualizaciones y consultas adicionales. 
 
-El KPI de **memoria activa** mide el número de veces que la memoria activa de la capacidad ha superado el umbral del 70 % cincuenta veces (el marcador se establece en el 30 % de los últimos siete días), lo que indica que la capacidad se está aproximando a un punto en el que los usuarios pueden empezar a observar problemas de rendimiento con las consultas.
+El KPI de **memoria activa** mide el número de veces que la memoria activa de la capacidad ha superado el umbral del 70 % cincuenta veces (el marcador se establece en el 30 % de los últimos siete días), lo que indica que la capacidad se aproxima a un punto en el que los usuarios pueden empezar a observar problemas de rendimiento con las consultas.
 
 El objeto visual de medidor mostrado en esta sección revela que, en los últimos siete días desde el momento en que se actualizó el informe por última vez, la capacidad ha superado el umbral del 70 % cuatro veces, dividido por depósitos por hora. El valor máximo del medidor, 168, representa los últimos siete días, en horas.
 
@@ -78,7 +78,7 @@ Cuando observe tales casos, debe revisar detenidamente los demás gráficos de l
 
 El segundo objeto visual de la página, **B: Hourly loaded active datasets** (Conjuntos de datos activos cargados por hora), muestra los recuentos del número máximo de conjuntos de datos que se cargaron en la memoria, en depósitos por hora. 
 
-El tercer objeto visual, **C: Why datasets are in memory** (Por qué los conjuntos de datos están en memoria), es una tabla que muestra el conjunto de datos por nombre del área de trabajo, nombre del conjunto de datos y tamaño sin comprimir de los conjuntos de datos en memoria, y explica el motivo por el que se carga en la memoria (por ejemplo, para actualización, consulta o ambas cosas).
+El tercer objeto visual, **C: Why datasets are in memory** (Por qué los conjuntos de datos están en memoria), es una tabla en la que se muestra el conjunto de datos por nombre del área de trabajo y del conjunto de datos, y tamaño sin comprimir de los conjuntos de datos en memoria, y explica el motivo por el que se carga en la memoria (por ejemplo, para actualización, consulta o ambas).
 
 #### <a name="diagnosing-scenario-one"></a>Diagnóstico del escenario uno
 
@@ -138,7 +138,7 @@ Puede realizar los pasos siguientes para solucionar los problemas asociados con 
 
 ## <a name="the-query-waits-metric"></a>Métrica de esperas de consulta
 
-La categoría **Queries** (Consultas) indica si los usuarios pueden experimentar objetos visuales de informe con una respuesta lenta o que podrían dejar de responder. **Query waits** (Tiempos de espera de consulta) es el tiempo que tarda la consulta en iniciar la ejecución desde el momento en que se desencadenó. Este KPI mide si el 25 % o más de las consultas de la capacidad seleccionada están esperando 100 milisegundos o más para ejecutarse. Los tiempos de espera de consulta se producen cuando no hay suficiente CPU disponible para ejecutar todas las consultas pendientes. 
+La categoría **Queries** (Consultas) indica si los usuarios pueden experimentar objetos visuales de informe con una respuesta lenta o que podrían dejar de responder. **Query waits** (Tiempos de espera de consulta) es el tiempo que tarda la consulta en iniciar la ejecución desde el momento en que se desencadenó. Este KPI mide si el 25 % o más de las consultas de la capacidad seleccionada esperan 100 milisegundos o más para ejecutarse. Los tiempos de espera de consulta se producen cuando no hay suficiente CPU disponible para ejecutar todas las consultas pendientes. 
 
 ![Medidor de los tiempos de espera de consulta](media/service-premium-metrics-app/premium-metrics-app-09.png)
 
@@ -262,7 +262,7 @@ Si no hay suficiente memoria para cargar un conjunto de datos para una consulta 
 
 Para diagnosticar el escenario uno, determine primero si la limitación se debe a memoria insuficiente. Para ello, siga estos pasos:
 
-1.  Haga clic en el conjunto de datos que le interese de la **tabla A** para seleccionarlo: 
+1.    Haga clic en el conjunto de datos que le interese de la **tabla A** para seleccionarlo: 
 
     ![Tabla A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -305,7 +305,7 @@ En el caso de las capacidades dedicadas, Power BI limita el número de actualiz
 
 Para diagnosticar el escenario dos, determine primero si la limitación se debe a que se llega a la simultaneidad máxima de las actualizaciones. Para ello, siga estos pasos:
 
-1.  Haga clic en el conjunto de datos que le interese de la **tabla A** para seleccionarlo: 
+1.    Haga clic en el conjunto de datos que le interese de la **tabla A** para seleccionarlo: 
 
     ![Tabla A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -341,6 +341,6 @@ Para diagnosticar el escenario dos, determine primero si la limitación se debe 
 * [Notas del producto de Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 * [Notas del producto de la planeación de una implementación de Power BI Enterprise](https://aka.ms/pbienterprisedeploy)
 * [Extended Pro Trial activation](service-extended-pro-trial.md) (Activación de la extensión del período de prueba de Power BI Pro)
-* [Preguntas frecuentes sobre Power BI Embedded](developer/embedded-faq.md)
+* [Preguntas frecuentes sobre Power BI Embedded](developer/embedded/embedded-faq.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

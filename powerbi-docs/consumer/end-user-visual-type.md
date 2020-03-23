@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114177"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377199"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de objetos visuales en Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-Encontrará objetos visuales en informes, paneles y preguntas y respuestas. Algunos de estos tipos de objetos visuales se empaquetan con Power BI y otros son *objetos visuales personalizados*. Los objetos visuales personalizados se crean fuera de Power BI y de una manera que permite a los *diseñadores* de informes agregarlos a paneles e informes de Power BI. 
+Encontrará objetos visuales en informes, paneles y preguntas y respuestas. Algunos de estos tipos de objetos visuales se empaquetan con Power BI y otros son *objetos visuales de Power BI*. Los objetos visuales personalizados se crean fuera de Power BI y de una manera que permite a los *diseñadores* de informes agregarlos a paneles e informes de Power BI. 
 
 En este artículo se proporciona información general sobre los objetos visuales que se empaquetan con el servicio Power BI.  Estos son los objetos visuales que encontrará con mayor frecuencia. Para obtener información detallada sobre cualquiera de estos objetos visuales, vea la [documentación del *diseñador* de informes de Power BI sobre los tipos de objetos visuales](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 > [!NOTE]
-> Para obtener información sobre los objetos visuales personalizados, búsquelos en la sección **Power BI visuals** (Objetos visuales de Power BI) de [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada objeto visual, encontrará una descripción, información sobre el creador y capturas de pantalla o un vídeo. 
+> Para obtener información sobre los objetos visuales de Power BI, búsquelos en la sección **Objetos visuales de Power BI** de [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada objeto visual, encontrará una descripción, información sobre el creador y capturas de pantalla o un vídeo. 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Lista de objetos visuales disponibles en Power BI
 Todos estos objetos visuales se pueden encontrar en informes y paneles de Power BI, así como [especificados en Preguntas y respuestas](end-user-q-and-a.md). Para obtener información sobre cómo interactuar con los objetos visuales, vea [Interacción con objetos visuales en informes, paneles y aplicaciones](end-user-visualizations.md).
@@ -237,7 +237,7 @@ Los gráficos de cascada son una excelente opción:
 - Para ilustrar la plantilla inicial y final de su empresa en un año.
 - Para visualizar la cantidad de dinero que genera y gasta cada mes, y el saldo corriente de su cuenta.
 
-## <a name="qna"></a>Indicación a Preguntas y respuestas de qué objeto visual usar
+## <a name="tell-qa-which-visual-to-use"></a><a name="qna"></a>Indicación a Preguntas y respuestas de qué objeto visual usar
 Al escribir las consultas en lenguaje natural con Preguntas y respuestas de Power BI, puede especificar el tipo de objeto visual en la consulta.  Por ejemplo:
 
 

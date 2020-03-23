@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 28116a4e2b89fe5f8fe719f8d6c0d9eca28310eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6e468ac429c26f3b1880501914816ac60f8b7858
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867697"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378740"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Exportar informes a PDF desde Power BI Desktop
 En **Power BI Desktop** o en el servicio Power BI, puede exportar informes a un archivo PDF y, por tanto, compartirlos o imprimirlos fácilmente desde ese PDF.
@@ -34,7 +34,7 @@ Cuando finalice la exportación, el PDF se carga en el visor de PDF predetermina
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 Hay algunas consideraciones que se deben tener en cuenta con la característica **Exportar a PDF**.
 
-* La característica exporta objetos visuales personalizados, pero *no* exporta ningún papel tapiz que haya aplicado al informe.
+* La característica exporta objetos visuales de Power BI, pero *no* exporta ningún papel tapiz que haya aplicado al informe.
 
 Puesto que no se exporta el papel tapiz al PDF, debe prestar especial atención a los informes que usen un papel tapiz oscuro. Si el texto del informe es blanco o claro, para que destaque en el papel tapiz oscuro, será difícil de leer o no se podrá leer en el proceso de exportación a PDF puesto que no se exportará el papel tapiz con el resto del informe. 
 

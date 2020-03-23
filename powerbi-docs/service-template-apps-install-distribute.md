@@ -1,134 +1,130 @@
 ---
-title: 'Distribución de aplicaciones de plantilla en la organización: Power BI'
+title: 'Instalación y distribución de aplicaciones de plantilla en la organización: Power BI'
 description: Obtenga información sobre cómo instalar, personalizar y distribuir aplicaciones de plantilla de la organización en Power BI.
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 09/14/2019
-ms.author: tebercov
-ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.topic: how-to
+ms.date: 03/15/2020
+ms.author: painbar
+ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73871419"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436120"
 ---
-# <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Instalación y distribución de aplicaciones de plantilla en la organización: Power BI
+# <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalación y distribución de aplicaciones de plantilla en la organización
 
-¿Es un analista de Power BI? Si es así, este artículo explica cómo instalar *aplicaciones de plantilla* para conectarse a muchos de los servicios que usa para dirigir su negocio, como Salesforce, Microsoft Dynamics y Google Analytics. Puede modificar los paneles e informes para satisfacer las necesidades de su organización y distribuirlos después a sus compañeros de trabajo como una *aplicación*. 
+¿Es un analista de Power BI? Si es así, en este artículo se explica cómo instalar [aplicaciones de plantilla](service-template-apps-overview.md) para conectarse a muchos de los servicios que usa para dirigir su negocio, como Salesforce, Microsoft Dynamics y Google Analytics. Puede modificar los informes y paneles integrados de la aplicación de plantilla para adaptarlos a las necesidades de la organización, y distribuirlos a sus compañeros de trabajo como [aplicaciones](consumer/end-user-apps.md). 
 
 ![Aplicaciones de Power BI instaladas](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-Si está interesado en crear aplicaciones de plantilla para distribuirlas usted mismo, vea [Creación de una plantilla de aplicación en Power BI](service-template-apps-create.md). Los asociados de Power BI pueden crear aplicaciones de Power BI con poca o ninguna codificación e implementarlas en los clientes de Power BI. 
+Si está interesado en crear aplicaciones de plantilla para distribuirlas fuera la organización, vea [Creación de una plantilla de aplicación en Power BI](service-template-apps-create.md). Los asociados de Power BI pueden compilar aplicaciones de Power BI con poca o ninguna codificación, y hacer que estén disponibles para los clientes de Power BI. 
 
 ## <a name="prerequisites"></a>Requisitos previos  
 
-Estos son los requisitos para instalar, personalizar y distribuir una aplicación de plantilla: 
+Para instalar, personalizar y distribuir una aplicación de plantilla, necesita lo siguiente: 
 
-- Una [licencia de Power BI Pro](service-self-service-signup-for-power-bi.md).
-- Familiaridad con los [conceptos básicos de Power BI](service-basic-concepts.md).
-- Vínculo de instalación válido del creador de la aplicación plantilla o AppSource. 
-- Permisos para instalar aplicaciones de plantilla. 
+* Una [licencia de Power BI Pro](service-self-service-signup-for-power-bi.md).
+* Permisos para instalar aplicaciones de plantilla en el inquilino.
+* Un vínculo de instalación válido para la aplicación, que se obtiene de AppSource o del creador de la aplicación.
+* Estar familiarizado con los [conceptos básicos de Power BI](service-basic-concepts.md).
 
 ## <a name="install-a-template-app"></a>Instalación de una aplicación de plantilla
-
-Es posible que reciba un vínculo a una aplicación de plantilla. En caso contrario, puede buscar una que le interese en AppSource. En cualquier caso, después de la instalación, puede modificarla y distribuirla a su propia organización.
-
-### <a name="search-appsource-from-a-browser"></a>Búsqueda en AppSource desde un explorador
-
-En un explorador, haga clic en este vínculo para abrir AppSource filtrado por las aplicaciones de Power BI:
-
-- https://appsource.microsoft.com/marketplace/apps?product=power-bi
-
-### <a name="search-appsource-from-the-power-bi-service"></a>Búsqueda en AppSource desde el servicio Power BI
 
 1. En el panel de navegación del servicio Power BI, haga clic en **Aplicaciones** > **Obtener aplicaciones**.
 
     ![Obtener aplicaciones](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-2. En AppSource, haga clic en **Aplicaciones**.
+1. En la ventana de AppSource que aparece, seleccione **Aplicaciones**. Examine o busque la aplicación que quiera y, después, seleccione **Obtenerla ahora**.
 
     ![Búsqueda en AppSource](media/service-template-apps-install-distribute/power-bi-appsource.png)
 
-3. Examine o busque la aplicación, y después haga clic en **Obtenerla ahora**.
+1. En el cuadro de diálogo que aparece, haga clic en **Instalar**.
 
-4. En el cuadro de diálogo, haga clic en **Instalar**.
+    ![Instalar aplicación](media/service-template-apps-install-distribute/power-install-dialog.png)
+    
+    La aplicación se instala con un área de trabajo asociada. **Si decide personalizar la aplicación, lo hará en este área de trabajo asociada**.
 
-    ![Instalación de una aplicación](media/service-template-apps-install-distribute/power-install-dialog.png) Si tiene una licencia de Power BI Pro, la aplicación se instala con su área de trabajo asociada. La aplicación se personaliza en el área de trabajo asociada.
+    > [!NOTE]
+    > Si usa un vínculo de instalación para una aplicación que no aparece en AppSource, se le pedirá que confirme la elección en un cuadro de diálogo de validación.
+    >
+    >Para poder instalar una aplicación de plantilla que no aparece en AppSource, debe solicitar al administrador los permisos pertinentes. Vea la [configuración de aplicaciones de plantilla](service-admin-portal.md#template-apps-settings) en el portal de administración de Power BI para obtener más información.
 
-    Cuando la instalación se realice correctamente, verá una notificación en la que se indica que la nueva aplicación está lista.
-4. Haga clic en **Ir a la aplicación**.
-5. En **Empezar a trabajar con la nueva aplicación**, seleccione una de las tres opciones:
+    Cuando la instalación finalice correctamente, una notificación le indicará que la nueva aplicación está lista.
 
-    ![Empezar a trabajar con la aplicación](media/service-template-apps-create/power-bi-template-app-get-started.png)
+    ![Ir a la aplicación](media/service-template-apps-install-distribute/power-bi-go-to-app.png)
 
-    - **Explorar la aplicación**: exploración básica de datos de ejemplo. Comience aquí para obtener la apariencia de la aplicación. 
-    - **Conectar datos**: cambie el origen de datos de los datos de ejemplo al suyo propio. Puede volver a definir los parámetros de conjunto de datos y las credenciales del origen de datos. Vea [Limitaciones conocidas](service-template-apps-tips.md#known-limitations) en el artículo sobre sugerencias para aplicaciones de plantilla. 
-    - **Ir a área de trabajo** (opción más avanzada): puede realizar cualquier cambio permitido por el desarrollador de la aplicación.
+## <a name="connect-to-data"></a>Conectar a datos
 
-    O bien, omita este cuadro de diálogo y acceda a un área de trabajo asociada directamente a través de **Áreas de trabajo** en el panel de navegación.
-    >[!NOTE]
-    >Instalación de una aplicación de plantilla instalada tanto en una *aplicación de organización* como en una *área de trabajo*. Obtenga más información sobre la [distribución de aplicaciones en Power BI](service-create-distribute-apps.md).
- 
-6. Antes de compartirla con lo compañeros de trabajo, le interesará conectarse a sus propios datos. También querrá modificar el informe o el panel para que funcione para la organización. Además, en este momento puede agregar otros informes o paneles.
+1. Haga clic en **Ir a la aplicación**. Aparecerá la ventana **Empezar a trabajar con la nueva aplicación**.
 
-   Si selecciona un vínculo de instalación de una aplicación que no figure en AppSource, se le mostrará el cuadro de diálogo de validación, en el que deberá confirmar su elección.
+   ![Empezar a trabajar con la aplicación](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
 
-   ![Instalar aplicación](media/service-template-apps-install-distribute/power-install-unvalidated-dialog.png)
+1. Haga clic en **Conectar**.
+    
+    Esto abre un cuadro de diálogo o una serie de cuadros de diálogo en los que se cambia el origen de datos de los datos de ejemplo a uno propio. Normalmente, esto significa volver a definir los parámetros de conjunto de datos y las credenciales del origen de datos. Vea [Limitaciones conocidas](service-template-apps-tips.md#known-limitations).
+    
+    En el ejemplo siguiente, la conexión a los datos implica dos cuadros de diálogo.
 
-   >[!NOTE]
-   >Para instalar aplicaciones de la plantilla que no figuren en AppSource, deberá solicitar permiso al administrador. Vea la [configuración de aplicaciones de plantilla en el portal de administración](service-admin-portal.md#template-apps-settings) de Power BI para obtener más información.
+   ![Cuadros de diálogo de conexión a los datos](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
-## <a name="customize-and-publish-the-app"></a>Personalización y publicación de la aplicación
+    Una vez que haya terminado de rellenar los cuadros de diálogo de conexión, se iniciará el proceso de conexión. Un banner le informa de que está viendo datos de ejemplo.
 
-Después de actualizar la aplicación para la organización, está listo para publicarla. Los pasos son los mismos que para publicar cualquier otra aplicación.
+    ![Visualización de datos de ejemplo](media/service-template-apps-install-distribute/power-bi-template-app-viewing-sample-data.png)
 
-1. Cuando haya terminado la personalización, en la lista de áreas de trabajo seleccione **Actualizar aplicación** en la esquina superior derecha.  
+    Espere a que los datos terminen de conectarse y actualizarse. Para saber cuándo ha finalizado este proceso, observe el indicador de progreso en la fila del conjunto de datos (nuevo aspecto) o en la pestaña (aspecto anterior).
 
-    ![Inicio de la instalación de la aplicación](media/service-template-apps-install-distribute/power-bi-start-install-app.png)
+   Una vez que haya finalizado la conexión y la actualización de los datos, actualice el explorador; ahora el banner le informará de que tiene que actualizar la aplicación para aplicar los cambios que realice en ella y compartirla.
 
-2. En **Detalles**, puede modificar el color de fondo y la descripción.
+    ![Personalización y uso compartido de la aplicación](media/service-template-apps-install-distribute/power-bi-template-app-customize-share.png)
 
-   ![Configuración de la descripción y el color de la aplicación](media/service-template-apps-install-distribute/power-bi-install-app-details.png)
+## <a name="customize-and-share-the-app"></a>Personalización y uso compartido de la aplicación
 
-3. En **Navegación**, puede usar el nuevo generador de navegación de la aplicación o seleccionar el panel o el informe para la página de aterrizaje. Para obtener más detalles, consulte [Diseño de la experiencia de navegación](service-create-distribute-apps.md#design-the-navigation-experience).
+Una vez que se haya actualizado el explorador después de conectarse a los datos y actualizarlos, verá el área de trabajo que está asociada a la aplicación. En este momento, puede editar cualquiera de los artefactos, como lo haría en cualquier área de trabajo. Pero recuerde que los cambios que realice se sobrescribirán al actualizar la aplicación con una nueva versión, a menos que guarde con otro nombre los elementos que ha cambiado. [Vea detalles sobre la sobrescritura](#overwrite-behavior).
 
-   ![Configuración de la página de aterrizaje de la aplicación](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+Para obtener información sobre la edición de artefactos en el área de trabajo, consulte los vínculos siguientes:
+* [Paseo por el editor de informes de Power BI](service-the-report-editor-take-a-tour.md)
+* [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
 
-4. En **Acceso**, conceda acceso a usuarios concretos o a toda la organización.  
-
-   ![Configuración del acceso a la aplicación](media/service-template-apps-install-distribute/power-bi-install-access.png)
-
-5. Haga clic en **Actualizar aplicación**. 
-
-6. Una vez publicada correctamente, puede copiar el vínculo y compartirlo con los usuarios a quienes haya proporcionado acceso. Si lo ha compartido con ellos, también la verán en la pestaña **Mi organización** de AppSource.
+Cuando haya terminado de realizar los cambios deseados en los artefactos del área de trabajo, estará a punto para publicar y compartir la aplicación. Vea [Publicación de la aplicación](service-create-distribute-apps.md#publish-your-app) para aprender a hacerlo.
 
 ## <a name="update-a-template-app"></a>Actualización de una aplicación de plantilla
 
-Los creadores de aplicaciones de plantilla pueden publicar nuevas versiones a través de AppSource o de un vínculo directo. Al hacerlo, puede actualizar la aplicación de plantilla al volver a instalar la aplicación con la misma versión o una más reciente.
+En ocasiones, los creadores de aplicaciones de plantilla lanzan nuevas versiones mejoradas de sus aplicaciones de plantilla, a través de AppSource, un vínculo directo o ambos.
 
-  >[!NOTE]
-  >Al instalar una nueva versión, se sobrescriben los cambios realizados en los informes y paneles. Para conservar los informes y paneles actualizados, puede guardarlos con un nombre o ubicación diferentes antes de instalarlos.
+Si originalmente ha descargado la aplicación de AppSource, cuando haya disponible una nueva versión, aparecerá un banner de actualización en el servicio Power BI que le informará de que hay disponible una versión nueva de la aplicación.
 
-- **Sobrescritura de una versión existente:** sobrescribe el área de trabajo existente con la versión actualizada de la aplicación de plantilla.
+  ![Notificación de actualización de la aplicación de plantilla](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
 
-   ![Actualización de una aplicación de plantilla](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+>[!NOTE]
+>Si originalmente ha obtenido la aplicación a través de un vínculo directo, y no desde AppSource, la única forma de saber cuándo hay una versión nueva disponible es ponerse en contacto con el creador de la aplicación de plantilla.
 
-- **Instalación en una nueva área de trabajo:** instala una versión nueva del área de trabajo y la aplicación que necesita volver a configurar.
+  Para instalar la actualización, haga clic en **Obtenerla** en el banner de notificación, o bien busque de nuevo la aplicación en AppSource y elija **Obtenerla ahora**. Si ha obtenido un vínculo directo para la actualización del creador de la aplicación de plantilla, simplemente haga clic en el vínculo.
+  
+  Se le preguntará si quiere sobrescribir la versión actual o instalar la nueva en una nueva área de trabajo. De forma predeterminada, está seleccionada la opción de "sobrescritura".
+
+  ![Actualización de una aplicación de plantilla](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+
+- **Sobrescritura de una versión existente:** sobrescribe el área de trabajo existente con la versión actualizada de la aplicación de plantilla. [Vea detalles sobre la sobrescritura](#overwrite-behavior).
+
+- **Instalación en una nueva área de trabajo:** Instala una versión nueva del área de trabajo y la aplicación que tiene que volver a configurar (es decir, conectarse a los datos, definir la navegación y los permisos).
 
 ### <a name="overwrite-behavior"></a>Comportamiento de sobrescritura
 
-* Al sobrescribir, se actualizan los informes, los paneles y el conjunto de datos dentro del *área de trabajo*, no de la aplicación. La sobrescritura no cambia la navegación, la configuración y el permiso de la aplicación.
-* Después de actualizar el área de trabajo, debe *actualizar la aplicación* para aplicar los cambios del área de trabajo a la aplicación de la organización.
-* La sobrescritura mantiene los parámetros y la autenticación configurados. Después de la actualización, se inicia una actualización automática del conjunto de datos. Durante ese tiempo, la aplicación, los informes y los paneles de la organización presentan la experiencia de *datos de ejemplo*.
+* Al sobrescribir, se actualizan los informes, los paneles y el conjunto de datos dentro del área de trabajo, no de la aplicación. La sobrescritura no cambia la navegación, la configuración ni los permisos de la aplicación.
+* Después de actualizar el área de trabajo, **debe actualizar la aplicación para aplicar sobre esta los cambios del área de trabajo**.
+* La sobrescritura mantiene los parámetros y la autenticación configurados. Después de la actualización, se inicia una actualización automática del conjunto de datos. **Durante esta actualización, la aplicación, los informes y los paneles presentan datos de ejemplo**.
+
   ![Datos de ejemplo](media/service-template-apps-install-distribute/power-bi-sample-data.png)
-* Al sobrescribir siempre se muestran datos de ejemplo hasta que se completa la actualización. Si el autor de la aplicación de plantilla ha realizado cambios en el conjunto de datos o en los parámetros, los usuarios del área de trabajo y la aplicación seguirán viendo la experiencia de *datos de ejemplo*.
-* Al sobrescribir nunca se eliminan los informes o paneles *nuevos* que haya agregado al área de trabajo. Sobrescribe los informes y paneles originales con los cambios del autor original.
+
+* Al sobrescribir siempre se muestran datos de ejemplo hasta que se completa la actualización. Si el autor de la aplicación de plantilla ha realizado cambios en el conjunto de datos o en los parámetros, los usuarios del área de trabajo y la aplicación no verán los datos nuevos hasta que finalice la actualización. En su lugar, durante este tiempo seguirán viendo datos de ejemplo.
+* Al sobrescribir nunca se eliminan los informes o paneles nuevos que haya agregado al área de trabajo. Solamente se sobrescriben los informes y paneles originales con los cambios del autor original.
 
 >[!IMPORTANT]
->Recuerde [actualizar la aplicación](#customize-and-publish-the-app) después de sobrescribir para aplicar los cambios en los informes y el panel de los usuarios de la aplicación de la organización.
+>Recuerde [actualizar la aplicación](#customize-and-share-the-app) después de sobrescribir para aplicar los cambios en los informes y el panel de los usuarios de la aplicación de la organización.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

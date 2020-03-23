@@ -6,20 +6,20 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4379fbfe051b69a2c9502a033ba462c1dded2022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880359"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380664"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Información sobre herramientas en objetos visuales de Power BI
 
-Ahora, los objetos visuales pueden aprovechar la compatibilidad con la información sobre herramientas de Power BI. Con la información en pantalla de Power BI se controlan las siguientes interacciones:
+Ahora, los objetos visuales pueden aprovechar la compatibilidad con la información sobre herramientas de Power BI. Con la información en pantalla de Power BI se controlan las interacciones siguientes:'''
 
-* Mostrar una información en pantalla.
+* Mostrar una información en pantalla.'''
 * Ocultar una información en pantalla.
 * Mover una información en pantalla.
 
@@ -27,7 +27,7 @@ La información sobre herramientas puede mostrar un elemento de texto con un tí
 
 En la siguiente imagen se muestra una información sobre herramientas en un gráfico de barras de ejemplo:
 
-![Información sobre herramientas del gráfico de barras de ejemplo](./media/tooltips-in-samplebarchart.png)
+![Información sobre herramientas del gráfico de barras de ejemplo](media/add-tooltips/tooltips-in-samplebarchart.png)
 
 En la imagen de información sobre herramientas anterior se muestra una sola categoría de barra y su valor. Puede extender una sola información sobre herramientas para mostrar varios valores.
 
@@ -209,7 +209,7 @@ Un esquema de ejemplo es el siguiente:
 
 Puede definir la información sobre herramientas de la página de informes en el panel **Formato**.
 
-![Información en pantalla de la página de informes](media/report-page-tooltip.png)
+![Información en pantalla de la página de informes](media/add-tooltips/report-page-tooltips.png)
 
 * `supportedTypes`: configuración de la información sobre herramientas que admite el objeto visual y que se refleja en el área de campos. 
    * `default`: especifica si se admite el enlace de la información sobre herramientas "automática" mediante el campo de datos. 

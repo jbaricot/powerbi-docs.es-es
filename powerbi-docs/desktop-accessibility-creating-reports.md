@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925688"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379108"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Diseño de informes accesibles de Power BI
 Puede diseñar y crear informes atractivos que también permitan la accesibilidad. Cada vez que cree un informe, con independencia de quién sea su público, debe poder usarlo el mayor número posible de personas, sin necesidad de adaptarlo con un tipo de diseño especial.
@@ -55,7 +55,7 @@ Echemos un vistazo a cada una de estas características de accesibilidad integra
 
 ### <a name="keyboard-navigation"></a>Navegación mediante el teclado
 
-Los autores de informes no tienen que preocuparse de si los consumidores pueden usar el teclado para desplazarse por un informe. Todos los objetos visuales de Power BI se pueden recorrer con el teclado y el consumidor del informe puede desplazarse por sus puntos de datos, cambiar entre las pestañas de página y tener acceso a funcionalidades interactivas, como el resaltado cruzado, el filtrado y la segmentación.
+Como autor de informes, no tiene que preocuparse de si los consumidores pueden usar el teclado para desplazarse por un informe. Todos los objetos visuales de Power BI se pueden recorrer con el teclado y el consumidor del informe puede desplazarse por sus puntos de datos, cambiar entre las pestañas de página y tener acceso a funcionalidades interactivas, como el resaltado cruzado, el filtrado y la segmentación.
 
 A medida que el consumidor del informe se desplaza, se muestra el foco para indicar dónde se encuentra el usuario en el informe. En función del explorador que se use, el modo de enfoque puede aparecer de manera diferente.
 
@@ -108,7 +108,7 @@ El texto alternativo debe incluir información sobre las conclusiones que quiere
 
 ![Uso de texto alternativo descriptivo](media/desktop-accessibility/accessibility-creating-reports-06.png)
 
-Tenga en cuenta que incluir texto alternativo estático en la llamada a conclusiones o puntos de datos específicos no sea lo más adecuado, ya que los datos de Power BI son dinámicos. Si quiere usar texto alternativo dinámico, consulte la siguiente sección donde se describe el formato condicional del texto alternativo.
+Tenga en cuenta que incluir texto alternativo estático en la llamada a conclusiones o puntos de datos específicos no sea lo más adecuado, ya que los datos de Power BI son dinámicos. Si quiere usar texto alternativo dinámico, vea la siguiente sección donde se describe el formato condicional del texto alternativo.
 
 ### <a name="conditional-formatting-for-alt-text"></a>Formato condicional del texto alternativo
 
@@ -123,7 +123,7 @@ Para establecer el orden de tabulación, seleccione la pestaña **Ver** de la ci
 
 ![Menú Ver para mostrar el panel Selección](media/desktop-accessibility/accessibility-creating-reports-08.png)
 
-En el panel **Selección**, al seleccionar **Orden de tabulación** se muestra el orden de tabulación actual del informe. Puede seleccionar un objeto y, luego, usar los botones de flecha arriba y abajo para moverlo en la jerarquía; o puede seleccionar un objeto con el mouse y arrastrarlo a la posición en la que desea que se muestre en la lista. Al hacer clic en el número situado junto a un objeto, se oculta el objeto del orden de tabulación.
+En el panel **Selección**, al seleccionar **Orden de tabulación** se muestra el orden de tabulación actual del informe. Puede seleccionar un objeto y, luego, usar los botones de flecha arriba y abajo para moverlo en la jerarquía; o bien puede seleccionar un objeto con el mouse y arrastrarlo a la posición en la que quiera que se muestre en la lista. Al hacer clic en el número situado junto a un objeto, se oculta el objeto del orden de tabulación.
 
 ![Orden de tabulación en el panel Selección](media/desktop-accessibility/accessibility-creating-reports-09.png)
 
@@ -199,7 +199,7 @@ Parte de este proceso debe ser la creación basada en la accesibilidad. Es posib
 
 El informe debe ser lo más sencillo posible. Con frecuencia, las personas intentan colocar demasiado contenido en un solo objeto visual. Así que dividirlo en varios objetos visuales hace que sea más sencillo y fácil de comprender. Considere la posibilidad de emplear varios objetos visuales si muestran diferentes facetas de los datos y usar filtros o interacciones visuales para crear una experiencia enriquecida. Al mismo tiempo, reduzca al mínimo el número de objetos visuales en una página. Intente evitar redundancia innecesaria y desorden en las páginas. No se necesitan dos objetos visuales para mostrar lo mismo. Los consumidores de informes pueden sobrecargarse de toda la información que proporcionan demasiados objetos visuales, o bien pueden tener una capacidad de atención limitada y distraerse. Como resultado, no solo el informe es más difícil de consumir, sino que al tener demasiados objetos visuales en una página también se ralentiza su rendimiento.
 
-Mantenga el mismo color de fuente y estilo en los elementos de los objetos visuales del informe para dotarlo de coherencia. Use el mismo tamaño de fuente en todos los títulos de objetos visuales, igual que haría con los títulos de los ejes y las etiquetas de datos. Si usa segmentaciones en varias páginas del informe, guárdelas en la misma ubicación en cada una de estas páginas.
+Mantenga el mismo color de fuente y estilo en los elementos de los objetos visuales del informe para dotarlo de coherencia. Use el mismo tamaño de fuente en todos los títulos de objetos visuales, igual que haría con los títulos de los ejes y las etiquetas de datos. Si usa segmentaciones en varias páginas del informe, guárdelas en la misma ubicación en cada una de ellas.
 
 ### <a name="test-for-low-vision"></a>Prueba de deficiencia visual
 
@@ -253,8 +253,8 @@ Además de proporcionar herramientas y funcionalidades de accesibilidad, Power 
 * Asegúrese de que las imágenes decorativas estén marcadas como ocultas en el orden de tabulación, para que el lector de pantalla no las anuncie.
 * Evite el uso de demasiadas imágenes decorativas hasta el punto que terminen por distraer.
 
-### <a name="custom-visuals"></a>Objetos visuales personalizados
-* Compruebe la tabla accesible **Mostrar datos** para los objetos visuales personalizados. Si la información que se muestra no es suficiente, busque otro objeto visual.
+### <a name="power-bi-visuals"></a>Objetos visuales de Power BI
+* Compruebe la tabla accesible **Mostrar datos** para los objetos visuales de Power BI. Si la información que se muestra no es suficiente, busque otro objeto visual.
 * Si usa el objeto visual personalizado *Eje de reproducción*, asegúrese de que no se reproduzca automáticamente. Deje claro que el usuario debe presionar el botón de reproducción o pausa para iniciar o detener los valores cambiantes.
 
 ### <a name="across-visuals-on-the-page"></a>En los objetos visuales de la página

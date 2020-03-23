@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 03/12/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537218"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205283"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Protección de datos en Power BI (versión preliminar)
 
@@ -44,9 +44,9 @@ Para acceder a las etiquetas de confidencialidad en cualquiera de estos centros,
 
 ## <a name="how-sensitivity-labels-work"></a>Cómo funcionan las etiquetas de confidencialidad
 
-Cuando se aplica una etiqueta de confidencialidad a un panel, un informe, un conjunto de datos o un flujo de datos de Power BI, es similar a aplicar una *etiqueta* a ese recurso que aporta las siguientes ventajas:
+Cuando se aplica una etiqueta de confidencialidad a un panel, un informe, un conjunto de datos o un flujo de datos de Power BI, es similar a aplicar una *etiqueta* a ese recurso que aporta las ventajas siguientes:
 * **Personalizable**: puede crear categorías para diferentes niveles de contenido confidencial en su organización, como personal, público, general, confidencial y extremadamente confidencial.
-* **Texto no cifrado**: como la etiqueta está en texto sin cifrar, es fácil que los usuarios sepan cómo tratar el contenido de acuerdo con las directrices de la etiqueta de confidencialidad.
+* **Texto no cifrado**: como la etiqueta está en texto sin cifrar, es fácil que los usuarios sepan cómo tratar el contenido de acuerdo con las instrucciones de la etiqueta de confidencialidad.
 * **Persistente**: después de aplicar una etiqueta de confidencialidad al contenido, se aplica a dicho contenido cuando se exporta a los siguientes tipos de archivo admitidos: Excel, PowerPoint y PDF. 
 
   Esto significa que la etiqueta de confidencialidad sigue al contenido, incluida la configuración de protección y se convierte en la base para la aplicación y el cumplimiento de las directivas. 
@@ -105,9 +105,6 @@ En la lista siguiente se proporcionan algunas limitaciones de las etiquetas de c
 * La [Protección HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) no se admite para las etiquetas aplicadas en Power BI.
 * La visualización y la aplicación de etiquetas en las aplicaciones de Office tienen [requisitos de licencias](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Las etiquetas de confidencialidad solo se admiten para los inquilinos en la nube global (pública). No se admiten las etiquetas de confidencialidad para los inquilinos de otras nubes.
-* No se admiten etiquetas de confidencialidad para [usuarios externos (usuarios invitados de Azure Active Directory B2B)](../service-admin-azure-ad-b2b.md). Esto significa que los usuarios externos no pueden ver las etiquetas y se les impedirá exportar datos en archivos Excel, PDF y PPTX. [Quite la etiqueta](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels) para permitir que los usuarios externos exporten datos en esos tipos de archivo.
-
-
 
 ## <a name="next-steps"></a>Pasos siguientes
 

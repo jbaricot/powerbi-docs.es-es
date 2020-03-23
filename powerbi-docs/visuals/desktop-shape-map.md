@@ -2,19 +2,19 @@
 title: Usar mapas de formas en Power BI Desktop (versión preliminar)
 description: Crear comparaciones relativas a las regiones con mapas de formas en Power BI Desktop
 author: mihart
-ms.reviewer: amanda, justyna, sujata
+ms.reviewer: justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/14/2019
+ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762333"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525669"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Crear visualizaciones de mapa de formas en Power BI Desktop (versión preliminar)
 
@@ -22,7 +22,7 @@ ms.locfileid: "75762333"
 
 Cree un objeto visual de **Mapa de formas** para comparar las regiones de un mapa mediante colores. A diferencia del objeto visual **Mapa**, **Mapa de formas** no puede mostrar las ubicaciones geográficas precisas de los puntos de datos en un mapa. En su lugar, su propósito principal es mostrar comparaciones relativas de las regiones de un mapa mediante colores diferentes.
 
-Los objetos visuales **Mapa de formas** se basan en los mapas ESRI/TopoJSON, que tienen la capacidad atractiva de usar mapas personalizados que puede crear. Algunos ejemplos de mapas personalizados: organizaciones geográficas y de sala, planos de planta y otros. La capacidad de usar mapas personalizados no está disponible en esta versión preliminar de **Mapa de formas**.
+Los objetos visuales **Mapa de formas** se basan en los mapas TopoJSON, que tienen la capacidad atractiva de usar mapas personalizados que puede crear. Algunos ejemplos de mapas personalizados: organizaciones geográficas y de sala, planos de planta y otros. La capacidad de usar mapas personalizados no está disponible en esta versión preliminar de **Mapa de formas**.
 
 ## <a name="creating-shape-maps"></a>Crear mapas de formas
 Puede probar el control **Mapa de formas** con los mapas que se proporcionan en esta versión preliminar o puede usar su propio mapa personalizado siempre que cumpla los requisitos descritos en la sección siguiente denominada **Usar mapas personalizados**.
@@ -79,7 +79,7 @@ Puede hacer otras cosas interesantes con los mapas de estados individuales y mos
 
 ![Mapa de formas de Texas](media/desktop-shape-map/shape-map-7b.png)
 
-Si quiere probar con este conjunto de datos y visualización, en este vínculo podrá descargar el archivo PBIX original que se usó para generar este informe.
+Si quiere experimentar con este conjunto de datos y esta visualización, en este vínculo puede descargar el archivo PBIX original que se ha usado para generar este informe.
 
 * [Demo de archivo .PBIX de mapa de formas personalizado](https://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
@@ -400,7 +400,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |Nueva Hampshire |NH |
-| us-or |Oregón |O |
+| us-or |Oregón |OR |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |Id. |

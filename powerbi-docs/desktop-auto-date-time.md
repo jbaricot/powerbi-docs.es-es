@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6ec4e5afe63fbdf754fcb20ec8cd12379740d33d
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154221"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201548"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Aplicación de fecha y hora automáticas en Power BI Desktop
 
@@ -33,7 +33,7 @@ Cuando se habilita esta opción, Power BI Desktop crea una tabla oculta de fech
 Cada tabla de fecha y hora automáticas es en realidad una [tabla calculada](desktop-calculated-tables.md) que genera filas de datos mediante la función DAX [CALENDAR](/dax/calendar-function-dax). Cada tabla también incluye seis columnas calculadas: **Day**, **MonthNo**, **Month**, **QuarterNo**, **Quarter** y **Year**.
 
 > [!NOTE]
-> Power BI traduce y da formato a los nombres de las columnas y a los valores según el [lenguaje del modelo](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop).
+> Power BI traduce los nombres de las columnas y los valores según el [idioma del modelo](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop) y les da formato. Por ejemplo, si el modelo se ha creado con el idioma inglés, se seguirán mostrando los nombres de los meses (y similares) en inglés, incluso al consultarlos mediante un cliente en coreano.
 
 Power BI Desktop también crea una relación entre la columna **Date** de la tabla de fecha y hora automáticas y la columna de fecha del modelo.
 

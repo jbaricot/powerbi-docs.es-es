@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: cfe877d6fac96124badc19f6ab685523077132fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115271"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381293"
 ---
 # <a name="what-is-power-bi-administration"></a>¿Qué es la administración de Power BI?
 
@@ -59,7 +59,7 @@ Los administradores realizan muchas tareas para admitir el inquilino de Power BI
 | Administrar la capacidad Premium |<ul><li>Adquirir capacidad Premium y trabajar con ella<br><li>Garantizar la calidad del servicio|
 | Administrar la capacidad de Embedded |<ul><li>Adquirir capacidad de Embedded para simplificar cómo los ISV y los desarrolladores usan funcionalidades de Power BI</ul>|
 | Asegurar el cumplimiento de las directivas internas, las leyes y los reglamentos | <ul><li>Administrar la clasificación de datos empresariales<br><li>Ayudar a aplicar las directivas de uso compartido y publicación de contenido</ul>|
-| Administrar recursos de Power BI |<ul><li>Administrar áreas de trabajo<br><li>Publicar objetos visuales personalizados<br><li>Verificar los códigos utilizados para insertar Power BI en otras aplicaciones|
+| Administrar recursos de Power BI |<ul><li>Administrar áreas de trabajo<br><li>Publicación de objetos visuales de Power BI<br><li>Verificar los códigos utilizados para insertar Power BI en otras aplicaciones|
 | Proporcionar ayuda y soporte técnico a los usuarios del inquilino |<ul><li>Solucionar problemas de acceso a datos y otros problemas</ul>|
 | Otras tareas |<ul><li>Implementación de Power BI Desktop, por ejemplo, con Microsoft Endpoint Configuration Manager<br><li>Administrar la implementación de aplicaciones móviles de Power BI con Intune<br><li>Administrar la privacidad y la seguridad de los datos, como la seguridad de los datos de origen</ul>|
 
@@ -69,7 +69,7 @@ Hay varias herramientas relacionadas con la administración de Power BI, que se 
 
 | **Herramienta** | **Tareas habituales** |
 | --- | --- |
-| Portal de administración de Power BI |<ul><li>Adquirir capacidad Premium y trabajar con ella</li><li>Garantizar la calidad del servicio</li><li>Administrar la clasificación de datos empresariales</li><li>Ayudar a aplicar las directivas de uso compartido y publicación de contenido</li><li>Administrar áreas de trabajo<br><li>Publicar objetos visuales personalizados</li><li>Verificar los códigos utilizados para insertar Power BI en otras aplicaciones</li><li>Solucionar problemas de acceso a datos y otros problemas</li></ul>|
+| Portal de administración de Power BI |<ul><li>Adquirir capacidad Premium y trabajar con ella</li><li>Garantizar la calidad del servicio</li><li>Administrar la clasificación de datos empresariales</li><li>Ayudar a aplicar las directivas de uso compartido y publicación de contenido</li><li>Administrar áreas de trabajo<br><li>Publicación de objetos visuales de Power BI</li><li>Verificar los códigos utilizados para insertar Power BI en otras aplicaciones</li><li>Solucionar problemas de acceso a datos y otros problemas</li></ul>|
 | Centro de administración de Microsoft 365 |<ul><li>Administrar la suscripción de usuarios</li><li>Adquirir y asignar licencias Pro</li><li>Bloquear el acceso de los usuarios a Power BI</li></ul>|
 | Centro de seguridad y cumplimiento de Office 365 |<ul><li>Revisar y administrar la auditoría de eventos</li></ul>|
 | Azure Active Directory (AAD) en Azure Portal |<ul><li>Configurar el acceso condicional a los recursos de Power BI con AAD</li><li>Aprovisionar capacidad de Power BI Embedded</li></ul>|

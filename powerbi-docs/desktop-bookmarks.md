@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 00ea3e70b34ecdaf2c5bd8b8728153bfb26f899b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761896"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378993"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Creación de marcadores en Power BI Desktop para compartir información detallada y crear historias
 Con los *marcadores* de Power BI Desktop, se captura la vista configurada actualmente de una página del informe, incluidos los filtros y el estado de los objetos visuales. Después, puede volver a ese estado si selecciona el marcador guardado. 
@@ -198,7 +198,7 @@ Para habilitar la característica de marcadores de versión preliminar:
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 En esta versión de las características de marcadores, hay algunas limitaciones y consideraciones que debe tener en cuenta.
 
-* La mayoría de objetos visuales personalizados deben funcionar bien con marcadores. Pero si experimenta problemas con los marcadores y un objeto visual personalizado, póngase en contacto con el creador de ese objeto visual personalizado y pídale que agregue compatibilidad con los marcadores a su objeto visual. 
+* La mayoría de los objetos visuales de Power BI deben funcionar bien con los marcadores. Pero si experimenta problemas con los marcadores y un objeto visual personalizado, póngase en contacto con el creador de ese objeto visual personalizado y pídale que agregue compatibilidad con los marcadores a su objeto visual. 
 * Si agrega un objeto visual en una página de informe después de crear un marcador, el objeto visual se muestra en su estado predeterminado. Es decir, si se introduce una segmentación en una página en la que previamente ha creado marcadores, la segmentación se comporta según su estado predeterminado.
 * El desplazamiento por un objeto visual después de haber creado un marcador se reflejará de forma automática en este. 
 

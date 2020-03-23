@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: db636f16729847c40806bc328efbbdd700e79083
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114754"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435959"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introducción a la aplicación móvil de Power BI para Windows 10
 La aplicación móvil de Power BI para Windows 10 lleva Power BI a la tableta o el teléfono. Dispone de acceso móvil táctil y actualizado a la información de la empresa. Vea los paneles de la empresa e interactúe con ellos desde cualquier lugar, directamente en la [pantalla Inicio de Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -28,8 +28,11 @@ Después podrá interactuar con los paneles e informes, explorar los datos y com
 * [**Obtenga la aplicación móvil de Power BI para Windows 10**](https://go.microsoft.com/fwlink/?LinkID=526478) de la Tienda Windows.
   
   El dispositivo debe ejecutar Windows 10. La aplicación se puede ejecutar en dispositivos con al menos 3 GB de RAM y 8 GB de almacenamiento interno.
+
+  >[!NOTE]
+  >El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
    
-* Descubra las [novedades de las aplicaciones móviles de Power BI](mobile-whats-new-in-the-mobile-apps.md).
+* Descubra las [novedades de las aplicaciones móviles de Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Suscribirse al servicio Power BI en la Web
 Si todavía no se ha registrado, vaya al [servicio Power BI](https://powerbi.com/). Regístrese para obtener una cuenta propia para crear y almacenar paneles e informes, y reunir los datos. Después, inicie sesión en Power BI desde el dispositivo con Windows 10 para ver los paneles desde cualquier lugar.

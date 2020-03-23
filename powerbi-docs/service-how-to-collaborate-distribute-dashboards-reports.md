@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881341"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376762"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Formas de compartir el trabajo en Power BI
 
@@ -23,10 +23,12 @@ Ha creado paneles e informes, quizá incluso haya colaborado en ellos con sus co
 * Colaborar con sus compañeros para crear informes y paneles significativos en *áreas de trabajo*.
 * Agrupar los paneles e informes en *aplicaciones* y distribuirlas en un grupo más grande o en toda la organización.
 * Crear *conjuntos de datos compartidos* que sus compañeros de trabajo pueden usar como base para sus propios informes, en sus propias áreas de trabajo.
-* Crear una *aplicación de plantilla* que se puede distribuir a usuarios externos de Power BI mediante Microsoft AppSource.
 * Compartir paneles o informes con algunas personas desde el servicio o las aplicaciones móviles de Power BI.
+* Anotar y compartir desde aplicaciones móviles de Power BI.
+* Insertar un informe en Microsoft Teams.
 * Imprimir informes.
 * *Insertar* informes en portales seguros o sitios web públicos.
+* Crear una *aplicación de plantilla* que se puede distribuir a usuarios externos de Power BI mediante Microsoft AppSource.
 
 Con independencia de la opción que se elija, para compartir el contenido se necesita una [licencia de Power BI Pro](service-features-license-type.md) o que el contenido esté en una [capacidad Premium](service-premium-what-is.md). Los requisitos de licencia para los compañeros que ven su contenido varían en función de la opción que elija. En las secciones siguientes puede encontrar más detalles. 
 
@@ -44,7 +46,7 @@ Las áreas de trabajo proporcionan roles que determinan los permisos que tienen 
 
 Naturalmente, podría colocar contenido en Mi área de trabajo y compartirlo desde allí. Pero las áreas de trabajo son mejores para la colaboración que Mi área de trabajo, ya que permiten compartir la propiedad del contenido. Usted y todo su equipo pueden realizar actualizaciones o asignar acceso a otros usuarios fácilmente. Es mejor que Mi área de trabajo lo usen usuarios para contenido personal o de uso único.
 
-Imaginemos que ha terminado un panel que tiene que compartir con sus compañeros. ¿Cuál es la mejor manera para concederles acceso a él? La respuesta depende de una serie de factores. 
+Imagine que ha terminado un panel que tiene que compartir con sus compañeros. ¿Cuál es la mejor manera para concederles acceso a él? La respuesta depende de una serie de factores. 
 
 - Si sus compañeros necesitan mantener actualizado el panel o necesitan tener acceso a todo el contenido del área de trabajo, considere la posibilidad de agregarlos al área de trabajo. 
 - Si sus compañeros solo necesitan ver ese panel y no todo el contenido del área de trabajo, hay otras alternativas. Si algunas personas necesitan solo ese panel, compartirlo podría ser la mejor solución.
@@ -64,7 +66,7 @@ Después de instalar una aplicación, pueden verla en sus exploradores o disposi
 
 Para que los usuarios vean la aplicación, deben tener también una licencia de Power BI Pro o la aplicación debe estar almacenada en una capacidad de Power BI Premium. Para más información, lea [What is Power BI Premium?](service-premium-what-is.md) (¿Qué es Power BI Premium?)
 
-También puede publicar aplicaciones para personas que no pertenecen a su organización. Pueden ver el contenido de la aplicación e interactuar con él, pero no pueden compartirlo con otros usuarios. Ahora puede crear *aplicaciones de plantilla* e implementarlas en cualquier cliente de Power BI.
+También puede publicar aplicaciones para personas que no pertenecen a su organización. Pueden ver el contenido de la aplicación e interactuar con él, pero no compartirlo con otros usuarios. Ahora puede crear *aplicaciones de plantilla* e implementarlas en cualquier cliente de Power BI.
 
 ## <a name="share-a-dataset"></a>Compartir un conjunto de datos
 
@@ -97,6 +99,10 @@ Estará compartiendo una instantánea del icono, el informe o el objeto visual, 
 Más información sobre cómo [anotar y compartir iconos, informes y objetos visuales](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) desde aplicaciones móviles de iOS y Android.
 
 También puede [compartir una instantánea de un icono](consumer/mobile/mobile-windows-10-phone-app-get-started.md) desde la aplicación de Power BI para dispositivos Windows 10.
+
+## <a name="embed-a-report-in-microsoft-teams"></a>Inserción de un informe en Microsoft Teams
+
+Aumente la colaboración controlada por datos de la organización mediante la inserción de los informes e informes paginados de Power BI en Microsoft Teams. Puede agregar pestañas de Power BI independientes para cada informe individual y asignar a cada pestaña el nombre del informe o cualquier otro. Los compañeros de trabajo pueden ver los informes en las pestañas de Power BI de Teams. También pueden abrir la ventana Conversación y comentar el informe directamente en Teams. Obtenga más información sobre cómo [insertar un informe en Microsoft Teams](service-embed-report-microsoft-teams.md).
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Imprimir o guardar como PDF u otro formato de archivo estático
 

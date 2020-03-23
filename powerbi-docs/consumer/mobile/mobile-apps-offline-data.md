@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75219095"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435453"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Consulta de datos sin conexión en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -21,6 +21,9 @@ Se aplica a:
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Teléfono Android](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Tableta Android](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Teléfonos Android |Tabletas Android |Dispositivos de Windows 10 |
+
+>[!NOTE]
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Una ventaja de ver Power BI en una aplicación móvil en lugar de un explorador móvil es que puede ver los datos aunque no esté conectado a una red. 
 
@@ -34,7 +37,7 @@ Mientras está sin conexión, puede obtener acceso e interactuar con los paneles
 También tiene acceso de solo lectura a los informes de Power BI a los que ha tenido acceso previamente desde la aplicación móvil. Puede ver el informe completo, pero no filtrar, aplicar filtros cruzados, ordenar ni usar segmentaciones de datos en él.
 
 ## <a name="background-data-refresh"></a>Actualización de datos en segundo plano
-La actualización en segundo plano actualiza sus paneles favoritos, así como los paneles y los informes que ha visto en las últimas dos semanas, con los datos del servicio Power BI (no del origen de datos). Si está conectado a una red Wi-Fi, la actualización en segundo plano se realiza cada 2 horas. En cambio, si está conectado a una red 3G, Power BI actualiza el contenido cada 24 horas.
+La actualización en segundo plano actualiza sus paneles favoritos, así como los paneles y los informes que ha visto en las últimas dos semanas, con los datos del servicio Power BI (no del origen de datos). Si está conectado a una red Wi-Fi, la actualización en segundo plano se realiza cada 2 horas. En cambio, si está conectado a una red 3G, Power BI actualiza el contenido cada 24 horas.
 
 Puede desactivar la actualización en segundo plano, por ejemplo, para evitar el uso de la red. Compruebe la configuración en el dispositivo.
 
@@ -59,7 +62,7 @@ Cuando esté sin conexión con Power BI en su dispositivo móvil, puede encontra
 * Los informes paginados (RDL) no están disponibles mientras la red está sin conexión.
 
 ## <a name="next-steps"></a>Pasos siguientes
-Sus comentarios nos ayudan a decidir qué implementaremos en el futuro; no olvide votar por otras características que le gustaría ver en aplicaciones móviles de Power BI. 
+Sus comentarios nos ayudan a decidir qué implementar en el futuro; por eso, no olvide votar otras características que le gustaría ver en las aplicaciones móviles de Power BI. 
 
 * [Aplicaciones de Power BI para dispositivos móviles](mobile-apps-for-mobile-devices.md)
 * Siga @MSPowerBI en Twitter

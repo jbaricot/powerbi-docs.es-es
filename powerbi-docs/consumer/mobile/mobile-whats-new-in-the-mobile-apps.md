@@ -8,19 +8,22 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041588"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435982"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
 
 * [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novedades de Power BI Desktop](../../desktop-latest-update.md)  
-* [Novedades en el servicio Power BI](../../service-whats-new.md)  
+* [Novedades en el servicio Power BI](../../service-whats-new.md)
+
+>[!NOTE]
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="february-2020"></a>Febrero de 2020
 
@@ -396,7 +399,7 @@ Cuando un usuario comparta ahora un informe con usted, este se muestra en la pá
 
 #### <a name="improved-hyperlink-support"></a>Compatibilidad con hipervínculos mejorada
 
-Ahora puede pulsar los vínculos de los objetos visuales personalizados para abrirlos en el explorador móvil.
+Ahora puede pulsar los vínculos de los objetos visuales de Power BI para abrirlos en el explorador para dispositivos móviles.
 
 #### <a name="intune-integration-android"></a>Integración de Intune (Android)
 
@@ -470,7 +473,7 @@ Lea el [resumen de características de aplicaciones móviles de abril de 2017](h
 #### <a name="all-devices"></a>Todos los dispositivos
 **Color de fondo de informes de teléfono** Al definir un color de fondo para un informe en Power BI Desktop, el informe de teléfono tendrá el mismo color de fondo. Más información sobre cómo [optimizar páginas de informes para teléfonos](../../desktop-create-phone-report.md).
 
-**Desarrollo de objetos visuales personalizados de preparados para dispositivos móviles** Lea [Developer guide](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) (Guía del desarrollador) para ver sugerencias acerca de cómo crear objetos visuales personalizados que se vean bien y funcionen correctamente en dispositivos móviles.
+**Desarrollo de objetos visuales de Power BI preparados para dispositivos móviles** Lea esta [Guía del desarrollador](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) para obtener sugerencias sobre cómo crear objetos visuales Power BI que se vean bien y funcionen correctamente en dispositivos móviles.
 
 #### <a name="ios-devices"></a>Dispositivos iOS
 **Hablar con los datos: formulación de preguntas con la voz** Ya puede [formular preguntas sobre los datos mediante Preguntas y respuestas](mobile-apps-ios-qna.md) hablando en lugar de escribiendo. 

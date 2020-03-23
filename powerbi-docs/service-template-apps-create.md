@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041732"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436028"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creación de una aplicación de plantilla en Power BI
 
@@ -30,7 +30,7 @@ Estos son los requisitos para crear una aplicación la plantilla:
 - Una [licencia de Power BI Pro](service-self-service-signup-for-power-bi.md).
 - Una [instalación de Power BI Desktop](desktop-get-the-desktop.md) (opcional).
 - Estar familiarizado con los [conceptos básicos de Power BI](service-basic-concepts.md).
-- Permisos para compartir una aplicación de plantilla públicamente. Vea la [configuración de aplicaciones de plantilla en el portal de administración](service-admin-portal.md#template-apps-settings) de Power BI para obtener más información.
+- Permisos para compartir una aplicación de plantilla públicamente (para más información, vea [Portal de administración de Power BI, Configuración de aplicación de plantilla](service-admin-portal.md#template-apps-settings)
 
 ## <a name="create-the-template-workspace"></a>Creación del área de trabajo de plantilla
 
@@ -87,7 +87,7 @@ Ahora que tiene contenido en el área de trabajo, está listo para empaquetarlo 
 
     Active el **Nuevo generador de navegación**, donde puede definir el panel de navegación de la aplicación (para más información, consulte [Diseño de la experiencia de navegación](service-create-distribute-apps.md#design-the-navigation-experience) en este artículo).
 
-   ![Configuración de la página de aterrizaje de la aplicación](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+   ![Configuración de la página de aterrizaje de la aplicación](media/service-template-apps-create/power-bi-install-app-content.png)
     
     **Página de inicio de la aplicación:** Si decide no participar en el generador de navegación, tiene la opción de seleccionar la página de aterrizaje de la aplicación. defina un informe o panel como la página de aterrizaje de la aplicación. Use una página de aterrizaje que proporcione la impresión correcta.
 
@@ -109,7 +109,7 @@ Ahora que tiene contenido en el área de trabajo, está listo para empaquetarlo 
     - **Requerido**: úselo para requerir al instalador la entrada de un parámetro específico del usuario.
     - **Bloqueado**: el bloqueo impide que el instalador actualice un parámetro.
 
-    **Acceso**: en la fase de pruebas, decida qué otros usuarios de la organización pueden instalar y probar la aplicación. No se preocupe, siempre puede volver y cambiar esta configuración más adelante (esta configuración no afecta al acceso a la aplicación de plantilla distribuida).
+    **Acceso**: en la fase de pruebas, decida qué otros usuarios de la organización pueden instalar y probar la aplicación. No se preocupe, siempre puede volver y cambiar estas opciones más adelante. La configuración no afecta al acceso de la aplicación de plantilla distribuida.
 
 2. Haga clic en **Crear aplicación**.
 

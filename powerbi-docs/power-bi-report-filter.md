@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e991b84dede16f35a732c54ff916ec02f5610783
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762540"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201950"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Trabajo con filtros en informes de Power BI
 
@@ -52,8 +52,11 @@ Si ha activado la opción **Nuevo aspecto** del servicio Power BI, en ![Nuevo a
 
 Si no ha activado el nuevo aspecto, puede seguir estos pasos para ver la nueva experiencia de filtro.
 
-1. En el servicio Power BI, seleccione la pestaña **Informes** en la lista de contenido de un área de trabajo.
-2. Busque el informe que quiera habilitar y seleccione el icono **Configuración**![icono Configuración del informe](media/power-bi-report-filter/power-bi-settings-icon.png) de ese informe.
+1. En el servicio Power BI, abra la lista de contenido de un área de trabajo.
+2. Busque el informe que quiera habilitar, seleccione **Más opciones (...)** y, después, **Configuración** para ese informe.
+
+    ![Configuración del informe](media/power-bi-report-filter/power-bi-filter-options.png)
+
 3. En **Experiencia de filtrado**, seleccione **Habilitar el panel de filtros actualizado y mostrar los filtros en el encabezado del objeto visual de este informe**.
 
     ![Habilitación del panel de filtros actualizado](media/power-bi-report-filter/power-bi-service-filter-enable.png)
@@ -82,11 +85,21 @@ Después de habilitar el nuevo panel Filtros, lo verá a la derecha de la págin
 
 1. Los consumidores de informes podrán ver el panel Filtros de forma predeterminada. Si desea que lo vean, seleccione el icono de ojo situado junto a **Filtros**.
 
-    ![Icono de ojo de filtro de Power BI](media/power-bi-report-filter/power-bi-filter-eye.png)
+    ![Icono de ojo de filtro de Power BI](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
 
 2. Para empezar a compilar el nuevo panel Filtros, arrastre los campos de interés a este como filtros de nivel de objeto visual, página o informe.
 
 Cuando se agrega un objeto visual a un lienzo de informe, Power BI agrega de forma automática un filtro al panel Filtros de cada campo del objeto visual. 
+
+## <a name="hide-the-filters-pane-while-editing"></a>Ocultación del panel Filtros durante la edición
+
+Power BI Desktop tiene una nueva cinta en versión preliminar. En la pestaña **Vista**, el botón de alternancia **Filtros** permite mostrar u ocultar el panel Filtros. Esta característica es útil cuando no se usa el panel Filtros y se necesita espacio adicional en la pantalla. Esta adición alinea el panel Filtros con los demás paneles que se pueden abrir y cerrar, como Marcadores y Selección. 
+
+![Visualización u ocultación del panel Filtros durante la edición](media/power-bi-report-filter/power-bi-filter-hide.png)
+
+Esta opción solo oculta el panel Filtros de Power BI Desktop. Si quiere ocultar el panel Filtros para los usuarios finales, seleccione el icono de **ojo** situado junto a **Filtros**.
+
+![Icono de ojo](media/power-bi-report-filter/power-bi-filter-eye.png) 
 
 ## <a name="lock-or-hide-filters"></a>Bloquear u ocultar filtros
 
@@ -124,16 +137,16 @@ También puede aplicar formato a estos elementos en las tarjetas de filtro, seg�
 1. En el informe, haga clic en el informe propiamente dicho o en el fondo (*papel tapiz*) y, en el panel **Visualizaciones**, seleccione **Formato**. 
     Verá las opciones de formato de la página del informe, el papel tapiz y también el panel Filtros y las tarjetas de filtro.
 
-1. Expanda **Panel de filtros** para establecer el color del fondo, el icono y el borde izquierdo, a fin de complementar la página del informe.
+1. Expanda el **panel Filtros** para establecer el color del fondo, el icono y el borde izquierdo, a fin de complementar la página del informe.
 
-    ![Expandir el panel de filtros](media/power-bi-report-filter/power-bi-format-filter-pane.png)
+    ![Panel Filtros expandido](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. Expanda **Tarjetas de filtro** para establecer el color y el borde **Disponible** y **Aplicado**. Si crea las tarjetas disponibles y aplicadas con diferentes colores, es obvio qué filtros se aplican. 
   
     ![Expandir la tarjeta de filtro](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
-## <a name="theming-for-filter-pane"></a>Temas del panel de filtros
-Ya puede modificar la configuración predeterminada del panel de filtros con el archivo de tema. Este es un fragmento del tema de ejemplo que puede ayudarlo a comenzar:
+## <a name="theming-for-filters-pane"></a>Temas del panel Filtros
+Ya puede modificar la configuración predeterminada del panel Filtros con el archivo de tema. Este es un fragmento del tema de ejemplo que puede ayudarlo a comenzar:
 
  
 ```
@@ -204,9 +217,9 @@ Ya puede modificar la configuración predeterminada del panel de filtros con el 
 }] 
 ```
 
-## <a name="sort-the-filter-pane"></a>Ordenar el panel de filtros
+## <a name="sort-the-filters-pane"></a>Ordenación del panel Filtros
 
-La funcionalidad de ordenación personalizada forma parte de la nueva experiencia de panel de filtros. Los creadores de informes pueden arrastrar y colocar filtros para reorganizarlos en cualquier orden.
+La funcionalidad de ordenación personalizada forma parte de la nueva experiencia de panel Filtros. Los creadores de informes pueden arrastrar y colocar filtros para reorganizarlos en cualquier orden.
 
 ![Reorganizar el criterio de ordenación de filtros](media/power-bi-report-filter/power-bi-filter-sort.gif)
 
@@ -223,11 +236,25 @@ Al editar el panel Filtros, puede hacer doble clic en el título para editarlo. 
 
 ![Cambiar el nombre de un filtro](media/power-bi-report-filter/power-bi-filter-rename.png)
 
+## <a name="filters-pane-search"></a>Búsqueda en el Panel filtros
+
+La característica de búsqueda del panel Filtros permite realizar una búsqueda por título en las tarjetas de filtro. Esta característica es útil si tiene varias tarjetas de filtro diferentes en el panel Filtros y necesita ayuda para buscar las que le interesan.
+
+![Búsqueda de un filtro](media/power-bi-report-filter/power-bi-filter-search.png)
+
+También puede dar formato al cuadro de búsqueda, de la misma forma que a los demás elementos del panel Filtros.
+
+![Aplicación de formato al cuadro de búsqueda](media/power-bi-report-filter/power-bi-filter-format-search.png)
+
+Aunque esta característica de búsqueda del panel Filtros estará activada de forma predeterminada, también puede optar por activarla o desactivarla seleccionando **Habilitar búsqueda para el panel de filtros** en la configuración de informes del cuadro de diálogo Opciones.
+
+![Activación o desactivación de la búsqueda](media/power-bi-report-filter/power-bi-enable-search-filter.png)
+
 ## <a name="restrict-changes-to-filter-type"></a>Restringir los cambios al tipo de filtro
 
 En la sección de la experiencia de filtrado de la configuración de informes actual, tiene la opción de controlar si los usuarios pueden cambiar el tipo de filtro.
 
-![Restringir el cambio del tipo de filtro](media/power-bi-report-filter/power-bi-filter-restrict-change.png)
+![Restringir el cambio del tipo de filtro](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 

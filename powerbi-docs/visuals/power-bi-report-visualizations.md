@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099094"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381477"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizaciones en informes de Power BI
 
@@ -27,7 +27,7 @@ Existen muchos tipos diferentes de objetos visuales disponibles directamente des
 
 ![panel con iconos para cada tipo de visualización](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Y para más opciones, visite el [sitio de la comunidad de Microsoft AppSource](https://appsource.microsoft.com) para buscar y [descargar](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [objetos visuales personalizados](../developer/visuals/custom-visual-develop-tutorial.md) proporcionados por Microsoft y la comunidad.
+Asimismo, para obtener incluso más opciones, visite el [sitio de la comunidad de Microsoft AppSource](https://appsource.microsoft.com) para buscar y [descargar](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [objetos visuales de Power BI](../developer/visuals/custom-visual-develop-tutorial.md) proporcionados por Microsoft y la comunidad.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -40,7 +40,7 @@ Si no está familiarizado con Power BI o necesita ponerse al día, use los vínc
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Cargar una visualización personalizada y usarla en Power BI
 
-Agregue una visualización personalizada creada por usted mismo o que haya encontrado en el [sitio de la comunidad de Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). ¿Se siente creativo? Investigue el código fuente y use nuestras [herramientas de desarrollo](../developer/visuals/custom-visual-develop-tutorial.md) para crear un tipo de visualización y [compartirlo con la comunidad](../developer/office-store.md). Para saber más sobre cómo desarrollar objetos visuales personalizados, vea [Desarrollo de objetos visuales personalizados de Power BI](../developer/visuals/custom-visual-develop-tutorial.md).
+Agregue una visualización personalizada creada por usted mismo o que haya encontrado en el [sitio de la comunidad de Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). ¿Se siente creativo? Investigue el código fuente y use nuestras [herramientas de desarrollo](../developer/visuals/custom-visual-develop-tutorial.md) para crear un tipo de visualización y [compartirlo con la comunidad](../developer/visuals/office-store.md). Para saber más sobre cómo desarrollar objetos visuales personalizados, vea [Desarrollo de objetos visuales personalizados de Power BI](../developer/visuals/custom-visual-develop-tutorial.md).
 
 ## <a name="personalize-your-visualization-pane-preview"></a>Personalización del panel de visualización (versión preliminar)
 
@@ -52,7 +52,7 @@ Una vez que haya anclado un objeto visual, se incluye con los demás objetos vis
 
 ![Panel de visualización personalizado](media/power-bi-report-visualizations/power-bi-personalized-visualization-pane.png)
 
-Mientras esta característica esté en versión preliminar, solo verá los objetos visuales anclados en Power BI Desktop. Además, debe iniciar sesión para que esta característica esté disponible.
+Mientras esta característica esté en versión preliminar, solo verá los objetos visuales anclados en Power BI Desktop. Además, debe iniciar sesión para que esta característica esté disponible.
 
 ## <a name="change-the-visualization-type"></a>Cambiar el tipo de visualización
 
@@ -70,4 +70,4 @@ En el servicio Power BI, cuando tenga la visualización que desea, puede [anclar
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [Objetos visuales personalizados](../developer/power-bi-custom-visuals.md)
+* [Objetos visuales de Power BI](../developer/visuals/power-bi-custom-visuals.md)

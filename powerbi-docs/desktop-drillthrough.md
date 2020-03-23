@@ -1,36 +1,38 @@
 ---
-title: Uso de la obtención de detalles en Power BI Desktop
-description: Obtenga información sobre cómo usar la obtención de detalles para explorar en profundidad datos en una nueva página de informe en Power BI Desktop
+title: Configuración de la obtención de detalles en informes de Power BI
+description: Obtenga información sobre cómo usar la obtención de detalles para explorar en profundidad datos, en una nueva página de informe, en informes de Power BI
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 020b7e0a5fd0c3372e3a83d9973a404978e56b7d
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 5a494341ff6ee9c5fe4b2c2119749f58f2fd540d
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401246"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201475"
 ---
-# <a name="use-drillthrough-in-power-bi-desktop"></a>Uso de la obtención de detalles en Power BI Desktop
-Con la *obtención de detalles* en Power BI Desktop, puede crear una página en el informe que se centre en una entidad específica, como un proveedor, un cliente o un fabricante. Puede seleccionar la obtención de detalles para usarla si hace clic con el botón derecho en un punto de datos de otras páginas del informe y, después, explora la página que tiene el foco para obtener detalles filtrados por ese contexto.
+# <a name="set-up-drill-through-in-power-bi-reports"></a>Configuración de la obtención de detalles en informes de Power BI
+Con la *obtención de detalles* en informes de Power BI, puede crear una página en el informe que se centre en una entidad específica, como un proveedor, un cliente o un fabricante. Cuando los lectores del informe usan la obtención de detalles, hacen clic con el botón derecho en un punto de datos de otras páginas del informe y, después, exploran la página que tiene el foco para obtener detalles filtrados por ese contexto. También puede [crear un botón que profundice](desktop-drill-through-buttons.md) en los detalles al hacer clic en él.
 
-![Uso de la obtención de detalles](media/desktop-drillthrough/drillthrough_01.png)
+Puede configurar la obtención de detalles en los informes en Power BI Desktop o en el servicio Power BI.
 
-## <a name="using-drillthrough"></a>Uso de la obtención de detalles
-1. Para usar la obtención de detalles, cree una página del informe que contenga los objetos visuales que quiera para el tipo de entidad en la que quiere ofrecer la obtención de detalles. 
+![Uso de la obtención de detalles](media/desktop-drillthrough/power-bi-drill-through-right-click.png)
 
-    Por ejemplo, imagine que quiere proporcionar obtención de detalles para los fabricantes. En este caso, podría crear una página de obtención de detalles con objetos visuales que muestren las ventas totales, el total de unidades enviadas, las ventas por categoría y por región, y así sucesivamente. De este modo, cuando se realiza la obtención de detalles mediante esa página, los objetos visuales serán específicos para el fabricante que haya seleccionado.
+## <a name="set-up-the-drill-through-destination-page"></a>Configuración de la página de destino de obtención de detalles
+1. Para configurar la obtención de detalles, cree una página del informe que contenga los objetos visuales que quiera para el tipo de entidad en la que va a ofrecer la obtención de detalles. 
 
-2. A continuación, en esa página de obtención de detalles, en la sección **Campos** del panel **Visualizaciones**, arrastre el campo para el que desea habilitar la obtención de detalles en **Filtros de obtención de detalles**.
+    Por ejemplo, imagine que quiere proporcionar obtención de detalles para los fabricantes. En este caso, podría crear una página de obtención de detalles con objetos visuales que muestren las ventas totales, el total de unidades enviadas, las ventas por categoría y por región, y así sucesivamente. De este modo, cuando se realiza la obtención de detalles mediante esa página, los objetos visuales son específicos del fabricante que haya seleccionado.
+
+2. Después, en esa página de obtención de detalles, en la sección **Campos** del panel **Visualizaciones**, arrastre el campo para el que quiera habilitar la obtención de detalles al área **Filtros de obtención de detalles**.
 
     ![Área de obtención de detalles](media/desktop-drillthrough/drillthrough_02.png)
 
-    Cuando se agrega un campo al área **Filtros de obtención de detalles**, Power BI Desktop crea automáticamente un objeto visual de botón *Volver*. Ese objeto visual se convierte en un botón en los informes publicados. Los usuarios que consumen el informe en el servicio Power BI pueden usar este botón para volver a la página del informe de la que proceden.
+    Cuando se agrega un campo al área **Filtros de obtención de detalles**, Power BI crea de forma automática un objeto visual de botón *Atrás*. Ese objeto visual se convierte en un botón en los informes publicados. Los usuarios que consumen el informe en el servicio Power BI pueden usar este botón para volver a la página del informe de la que proceden.
 
     ![Imagen de obtención de detalles](media/desktop-drillthrough/drillthrough_03.png)
 
@@ -40,7 +42,7 @@ Con la *obtención de detalles* en Power BI Desktop, puede crear una página e
 
 
 ## <a name="use-your-own-image-for-a-back-button"></a>Uso de su propia imagen para un botón Atrás    
- Dado que el botón Atrás es una imagen, puede reemplazar la imagen de ese objeto visual por cualquier imagen que desee. Seguirá funcionando como botón Atrás para que los consumidores del informe puedan volver a la página original. 
+ Dado que el botón Atrás es una imagen, puede reemplazar la imagen de ese objeto visual por cualquier imagen que desee. Sigue funcionando como botón Atrás para que los consumidores del informe puedan volver a la página original. 
 
 Para usar una imagen propia para un botón Atrás, siga estos pasos:
 
@@ -55,16 +57,15 @@ Para usar una imagen propia para un botón Atrás, siga estos pasos:
 
     ![Menú de obtención de detalles](media/desktop-drillthrough/drillthrough_04.png)
 
-    Cuando los consumidores del informe eligen la obtención de detalles, la página se filtra para mostrar información acerca del punto de datos en el que se hizo clic con el botón derecho. Por ejemplo, imagine que los usuarios han hecho clic con el botón derecho en un punto de datos sobre Contoso (un fabricante) y han seleccionado obtener detalles. Entonces la página de obtención de detalles que aparece está filtrada para Contoso.
+    Cuando los consumidores del informe eligen la obtención de detalles, la página se filtra para mostrar información acerca del punto de datos en el que se hizo clic con el botón derecho. Por ejemplo, imagine que los usuarios han hecho clic con el botón derecho en un punto de datos sobre Contoso (un fabricante) y han seleccionado obtener detalles. La página de obtención de detalles a la que acceden está filtrada para Contoso.
 
-## <a name="pass-all-filters-in-drillthrough"></a>Pasar todos los filtros a la obtención de detalles
+## <a name="pass-all-filters-in-drill-through"></a>Paso de todos los filtros en la obtención de detalles
 
-Puede pasar todos los filtros aplicados a la ventana de obtención de detalles. Por ejemplo, puede seleccionar solo una determinada categoría de productos y los objetos visuales que se filtran en esa categoría y, luego, seleccionar la obtención de detalles. Puede que le interese saber cuál será el aspecto de esa obtención de detalles con todos los filtros aplicados.
+Puede pasar todos los filtros aplicados a la ventana de obtención de detalles. Por ejemplo, puede seleccionar solo una determinada categoría de productos y los objetos visuales filtrados por esa categoría y, luego, seleccionar la obtención de detalles. Es posible que le interese saber cuál será el aspecto de esa obtención de detalles con todos los filtros aplicados.
 
 Para mantener todos los filtros aplicados, en la sección **Obtención de detalles** del panel **Visualizaciones**, establezca **Pasar todos los filtros** en **Activado**. 
 
 ![Mantener todos los filtros](media/desktop-drillthrough/drillthrough_06.png)
-
 
 Cuando se obtienen detalles sobre un objeto visual, puede ver los filtros que se han aplicado como resultado de la aplicación de filtros temporales en el objeto visual de origen. En la sección **Obtención de detalles** del panel **Visualización**, esos filtros transitorios se muestran en cursiva. 
 
@@ -72,11 +73,11 @@ Cuando se obtienen detalles sobre un objeto visual, puede ver los filtros que se
 
 Aunque esto se podría hacer con páginas de información sobre herramientas, sería una experiencia extraña, porque daría la impresión de que la información sobre herramientas no funciona correctamente. Por este motivo, no se recomienda hacerlo con información sobre herramientas.
 
-## <a name="add-a-measure-to-drillthrough"></a>Agregar una medida para la obtención de detalles
+## <a name="add-a-measure-to-drill-through"></a>Adición de una medida para la obtención de detalles
 
-Además de pasar todos los filtros a la ventana de obtención de detalles, puede agregar una medida o una columna numérica de resumen al área sometida a la obtención de detalles. Arrastre el campo de obtención de detalles a la tarjeta **Obtención de detalles** para aplicarla. 
+Además de pasar todos los filtros a la ventana de obtención de detalles, puede agregar una medida o una columna numérica de resumen al área sometida a la obtención de detalles. Arrastre el campo de obtención de detalles a la tarjeta **Obtención de detalles** para aplicarlo. 
 
-![Agregar una medida para la obtención de detalles](media/desktop-drillthrough/drillthrough_08.png)
+![Adición de una medida para la obtención de detalles](media/desktop-drillthrough/drillthrough_08.png)
 
 Al agregar una medida o una columna numérica de resumen, si usa el campo en el área *Valor* de un objeto visual, puede obtener detalles relativos a la página.
 
@@ -86,6 +87,6 @@ Eso es todo lo necesario para usar la obtención de detalles en los informes. Es
 
 Puede que también esté interesado en los siguientes artículos:
 
-* [Uso de la obtención de detalles de varios informes en Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Uso de la obtención de detalles entre varios informes de Power BI](desktop-cross-report-drill-through.md)
 * [Uso de segmentaciones de datos en Power BI Desktop](visuals/power-bi-visualization-slicers.md)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 138173d30b9c37c04047c61dbd04cbd3101696aa
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: eefae2b230bf087635b79ed4645a9297b7194edd
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76753200"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525646"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Compra y asignación de licencias de usuario de Power BI Pro
 
@@ -28,7 +28,7 @@ Power BI Pro es una licencia de usuario individual que permite a los usuarios l
 En este artículo se explica cómo adquirir licencias de usuario de Power BI Pro en el centro de administración de Microsoft 365. Después de comprar las licencias, puede asignarlas a los usuarios en el centro de administración de Microsoft 365 o en Azure Portal.
 
 > [!NOTE]
-> A partir del 14 de enero de 2020, las funcionalidades de compra, suscripción y administración de licencias de autoservicio para los productos de Power Platform (Power BI, Power Apps y Power Automate) están disponibles para los clientes de la nube comercial en Estados Unidos. Para más información, incluidos los pasos para habilitar o deshabilitar la compra de autoservicio en su organización, consulte las [preguntas más frecuentes sobre compras de autoservicio](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq).
+> A partir del 14 de enero de 2020, las funcionalidades de compra, suscripción y administración de licencias de autoservicio para los productos de Power Platform (Power BI, Power Apps y Power Automate) están disponibles para los clientes de la nube comercial. Para más información, incluidos los pasos para habilitar o deshabilitar la compra de autoservicio en su organización, consulte las [preguntas más frecuentes sobre compras de autoservicio](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq).
 
 ### <a name="prerequisites"></a>Requisitos previos
 

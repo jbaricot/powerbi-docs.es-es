@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 3af0470e29b4f71cf8948bff4c1b317304533ac8
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114653"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435821"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Establecer alertas de datos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -103,6 +103,10 @@ Puede administrar las alertas individuales en su aplicación móvil de Power BI 
 5. Para eliminar por completo la alerta, pulse el icono de papelera ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png).
 
 ## <a name="data-alerts-on-a-windows-device"></a>Alertas de datos en un dispositivo Windows
+
+>[!NOTE]
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 ### <a name="set-data-alerts-on-a-windows-device"></a>Establecer alertas de datos en un dispositivo Windows
 1. Pulse un icono de número o medidor en un panel para abrirlo.  
 2. Pulse el icono de campana ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) para agregar una alerta.  

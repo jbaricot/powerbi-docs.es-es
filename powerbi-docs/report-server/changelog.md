@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237969"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381109"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registro de cambios de Power BI Report Server
 
@@ -200,7 +200,7 @@ Para obtener información detallada sobre las nuevas características, consulte 
         - Características
             - Compatibilidad de Direct Query de SSO de SAP HANA con Kerberos ya disponible para informes de Power BI
             - API de objeto visual personalizada incluida con la versión: versión 1.13.0
-            - Los objetos visuales personalizados se revierten a una versión anterior compatible con la versión actual de la API de servidor (si está disponible)
+            - Los objetos visuales de Power BI se revierten a una versión anterior compatible con la versión actual de la API de servidor (si está disponible)
 
 - **Power BI Desktop (optimizado para Power BI Report Server)**
     - *Versión: 2.61.5192.641 (agosto de 2018), fecha de publicación: 15 de agosto de 2018*
@@ -322,7 +322,7 @@ Para obtener información detallada sobre las nuevas características, consulte 
             - La etiqueta `{{UserId}}` se resuelve en las credenciales almacenadas en lugar de ser el usuario el que ejecute el informe en los informes de Power BI
             - Algunas imágenes no se pueden representar en los informes del servidor de informes de Power BI
             - No se puede cambiar el nombre de un informe de Power BI en el servidor de informes de Power BI
-            - No se pueden cargar los objetos visuales personalizados en la aplicación móvil de Power BI (es necesario volver a instalar la aplicación móvil para borrar la memoria caché local)
+            - No se pueden cargar objetos visuales de Power BI en la aplicación móvil de Power BI (es necesario volver a instalarla para borrar la caché local)
 
     - *Compilación 14.0.600.271, fecha de publicación: 12 de junio de 2017*
         - Versión inicial del servidor de informes de Power BI

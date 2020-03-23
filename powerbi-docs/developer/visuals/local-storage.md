@@ -6,18 +6,18 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 01/21/2019
-ms.openlocfilehash: 7665f0c8e3c909263f194a0fd54a54ed2a752c8c
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: e2cb11ea9be85916e6b5557e7933f6a6b5a7159a
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819109"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380603"
 ---
 # <a name="local-storage-api"></a>API de almacenamiento local
 
-La API de almacenamiento local es una API que cualquier objeto visual personalizado puede usar para solicitar al host que guarde o cargue datos desde el almacenamiento del dispositivo. Está aislado en el sentido de que hay una separación del almacenamiento entre los distintos tipos de objetos visuales.
+Cualquier objeto visual personalizado puede usar la API de almacenamiento local para solicitar al host que guarde o cargue datos desde el almacenamiento del dispositivo. Está aislada en el sentido de que hay una separación del almacenamiento entre los distintos tipos de objetos visuales.
 
 ## <a name="sample"></a>Ejemplo
 
@@ -59,5 +59,5 @@ export class Visual implements IVisual {
 
 ## <a name="known-limitations-and-issues"></a>Problemas y limitaciones conocidos
 
-La API de almacenamiento local no está activada de forma predeterminada para los objetos visuales personalizados. Si quiere activarla para un objeto visual personalizado, envíe una solicitud al equipo de soporte técnico de objetos visuales personalizados de Power BI `pbicvsupport@microsoft.com`.  
+La API de almacenamiento local no está activada de forma predeterminada para los objetos visuales de Power BI. Si quiere activarla para un objeto visual de Power BI, envíe una solicitud al equipo de soporte técnico de objetos visuales de Power BI `pbicvsupport@microsoft.com`.  
 **Tenga en cuenta que el objeto visual debe estar disponible en [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) y estar [certificado](https://powerbi.microsoft.com/en-us/documentation/powerbi-custom-visuals-certified/).**

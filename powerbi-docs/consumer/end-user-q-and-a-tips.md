@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: d97ff72c385edd4c59c6eb72ce1eb873656923c9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114289"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376831"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Sugerencias para hacer preguntas con Preguntas y respuestas de Power BI
 
@@ -67,7 +67,7 @@ La siguiente lista usa el tiempo verbal presente, pero se reconocen todos los ti
 |  |  |
 |**Principales N**     |     (orden, clasificación): superior, inferior, primero, último, siguiente, más antiguo, más reciente, siguiente            |
 |        |         |
-|**Tipos de objeto visual**     |  todos los tipos de objeto visual nativos en Power BI.  Si es una opción en el panel Visualizaciones, puede incluirla en la pregunta.  La excepción a esta regla son los [objetos visuales personalizados](../developer/power-bi-custom-visuals.md) que haya agregado manualmente en el panel Visualización.  |
+|**Tipos de objeto visual**     |  todos los tipos de objeto visual nativos en Power BI.  Si es una opción en el panel Visualizaciones, puede incluirla en la pregunta.  La excepción a esta regla son los [objetos visuales de Power BI](../developer/visuals/power-bi-custom-visuals.md) que haya agregado manualmente al panel Visualización.  |
 |  |  Ejemplo: mostrar distritos por mes y el total de ventas como gráfico de barras               |
 |        |         |
 |**Qu (relación, calificado)**  | cuándo, dónde, qué, a quién, quién, cuántos, cuánto, cuántas veces, con qué frecuencia, importe, número, cantidad, cuánto tiempo, qué                |

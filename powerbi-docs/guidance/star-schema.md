@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260425"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133256"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Descripción de un esquema de estrella e importancia para Power BI
 
 Este artículo va dirigido a los modeladores de datos de Power BI Desktop. En él se describe el diseño de un esquema de estrella y su importancia para desarrollar modelos de datos de Power BI optimizados para el rendimiento y la facilidad de uso.
 
-Este artículo no pretende proporcionar una explicación completa del diseño del esquema de estrella. Para obtener más detalles, vaya directamente el contenido publicado, como **The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling** (El kit de herramientas del almacenamiento de datos: guía completa del modelado dimensional) (2ª edición, 2002) de Ralph Kimball et al.
+Este artículo no pretende proporcionar una explicación completa del diseño del esquema de estrella. Para obtener más detalles, vaya directamente el contenido publicado, como **The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling** (El kit de herramientas del almacenamiento de datos: guía completa del modelado dimensional) (3.ª edición, 2013) de Ralph Kimball et al.
 
 ## <a name="star-schema-overview"></a>Información general del esquema de estrella
 
