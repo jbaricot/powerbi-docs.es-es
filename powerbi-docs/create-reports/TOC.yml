@@ -11,8 +11,8 @@
     - name: Tutoriales
       expanded: true
       items:
-        - name: 'Laboratorio práctico: Crear un informe paginado'
-          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: 'Curso en línea: Informes paginados'
+          href: ../paginated-reports/paginated-reports-online-course.md
         - name: Creación y carga de un informe paginado
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: Ejemplos
@@ -99,18 +99,6 @@
               href: ../paginated-reports/paginated-reports-faq.md
     - name: Guías paso a paso
       items:
-        - name: Publicación de conjuntos de datos e informes
-          href: ../desktop-upload-desktop-files.md
-        - name: "Adición de objetos visuales a un informe de Power\_BI (parte 1)"
-          href: ../visuals/power-bi-report-add-visualizations-i.md
-        - name: "Adición de objetos visuales a un informe de Power\_BI (parte 2)"
-          href: ../visuals/power-bi-report-add-visualizations-ii.md
-        - name: 'Personalización de los títulos, las leyendas y los fondos de los objetos visuales'
-          href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-        - name: Característica Mostrar elementos sin datos de Power BI
-          href: ../desktop-show-items-no-data.md
-        - name: Aplicación de la fecha y hora automáticas
-          href: ../desktop-auto-date-time.md
         - name: Informes de Power BI
           items:
             - name: Habilitación de la actualización automática de páginas (versión preliminar)
@@ -211,13 +199,23 @@
               href: ../service-create-qr-code-for-report.md
             - name: Exportación de un informe a Power BI Desktop (versión preliminar)
               href: ../service-export-to-pbix.md
+            - name: Publicación de conjuntos de datos e informes
+              href: ../desktop-upload-desktop-files.md
         - name: Visualizaciones
           items:
+            - name: "Adición de objetos visuales a un informe de Power\_BI (parte 1)"
+              href: ../visuals/power-bi-report-add-visualizations-i.md
+            - name: "Adición de objetos visuales a un informe de Power\_BI (parte 2)"
+              href: ../visuals/power-bi-report-add-visualizations-ii.md
             - name: "Adición de objetos visuales a informes de Power\_BI"
               href: ../visuals/power-bi-report-visualizations.md
             - name: "Modificación de objetos visuales en informes de Power\_BI"
               href: ../visuals/power-bi-report-change-visualization-type.md
-            - name: Aplicación de los límites de punto de datos y estrategias por tipo de objeto visual
+            - name: 'Personalización de los títulos, las leyendas y los fondos de los objetos visuales'
+              href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
+            - name: Característica Mostrar elementos sin datos de Power BI
+              href: ../desktop-show-items-no-data.md
+            - name: Aplicación de estrategias y límites de punto de datos por tipo de objeto visual
               href: ../visuals/power-bi-data-points.md
             - name: Visualización de los datos subyacentes de un objeto visual
               href: ../visuals/service-reports-show-data.md
@@ -317,6 +315,8 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: Informes paginados
           items:
+            - name: 'Laboratorio práctico: Crear un informe paginado'
+              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: Escritura directa de datos en un informe paginado
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: Creación de un origen de datos insertados
