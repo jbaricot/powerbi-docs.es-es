@@ -95,7 +95,7 @@ El informe de métricas de uso mejorado incluye las siguientes páginas:
 | Rendimiento de informe | Rendimiento diario | El rendimiento del 10 %, 50 % y 90 % de las acciones de apertura del informe calculado para cada día. |
 | Rendimiento de informe | Rendimiento de 7 días | El rendimiento del 10 %, 50 % y 90 % de las acciones de apertura del informe calculado en los últimos 7 días para cada fecha. |
 | Rendimiento de informe | Método de consumo | Cómo abrieron los usuarios el informe, por ejemplo, si lo hicieron a través del servicio Power BI (powerbi.com), Power BI Embedded o un dispositivo móvil. |
-| Rendimiento de informe | Exploradores | Explorador que usan los usuarios para abrir el informe, como Firefox, Edge y Chrome. |
+| Rendimiento de informe | Exploradores | Explorador que usan los usuarios para abrir el informe, como Firefox, Microsoft Edge y Chrome. |
 
 ## <a name="update-usage-metrics-report-credentials"></a>Actualización de las credenciales de los informes de métricas de uso
 
