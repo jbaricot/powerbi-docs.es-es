@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376733"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114897"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 Este artículo está destinado a los clientes de la Administración Pública de Estados Unidos que implementan Power BI como parte de un plan de Office 365 Administración Pública. Los planes de la Administración Pública están diseñados para las necesidades únicas de las organizaciones que deben cumplir los estándares de cumplimiento y seguridad de Estados Unidos. El servicio Power BI diseñado para los clientes de la Administración Pública de Estados Unidos es distinto de la versión comercial del servicio Power BI. Las funcionalidades y diferencias en las características se describen en las siguientes secciones.
@@ -95,7 +95,7 @@ Para adaptarse a los requisitos de los clientes en la nube de la Administración
 |  |Importación de datos desde archivos CSV|Disponible|Disponible|Disponible|
 |  |Importación de datos de archivos de Power BI Desktop|Disponible|Disponible|Disponible|
 |  |Conectividad con CDS|Disponible|No disponible|No disponible|
-|  |Conector de Azure Data Lake Storage Gen2|No disponible|No disponible|No disponible|
+|  |Conector de Azure Data Lake Storage Gen2|Disponible|No disponible|No disponible|
 |Administración de datos|Puerta de enlace de administración de datos|Disponible|Disponible|Disponible|
 |  |Cifrado de datos en Azure SQL|Disponible|Disponible|Disponible|
 |  |Cifrado de datos en Blob Storage para Power BI|Disponible|Disponible|Disponible|
