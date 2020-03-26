@@ -78,6 +78,12 @@
               href: report-tips-legends.md
             - name: Sugerencias para optimizar la visualización de colores
               href: report-tips-visual-colors.md
+            - name: Sugerencias para optimizar la visualización de colores
+              href: report-tips-visual-colors.md
+            - name: Sugerencias para ordenar y distribuir los trazados de datos
+              href: report-tips-sort-distribute-data-plots.md
+            - name: 'Sugerencias para trabajar con formas, imágenes e iconos'
+              href: report-tips-shapes-images-icons.md
         - name: Informes paginados de Power BI
           items:
             - name: Cuándo usar informes paginados
