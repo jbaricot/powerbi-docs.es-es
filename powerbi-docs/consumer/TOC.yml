@@ -102,12 +102,12 @@
               href: end-user-favorite.md
             - name: 'Imprimir un panel, imprimir un icono de un panel o imprimir una página de un informe'
               href: end-user-print.md
+            - name: Ver contenido compartido conmigo
+              href: end-user-shared-with-me.md
             - name: Ver contenido relacionado
               href: end-user-related.md
             - name: Ver contenido reciente
               href: end-user-recent.md
-            - name: Ver el contenido en el contenedor Compartidos conmigo
-              href: end-user-shared-with-me.md
             - name: Suscripción a un informe o panel
               href: end-user-subscribe.md
             - name: Buscar y ordenar contenido en Power BI
