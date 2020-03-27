@@ -10,12 +10,12 @@ ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488715"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114500"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -233,7 +233,12 @@ Los usuarios ven diferentes opciones en la interfaz de usuario en función del v
 
 ### <a name="export-data"></a>Exportar datos
 
-Los usuarios de la organización pueden exportar datos desde un icono o una visualización. Obtenga más información sobre la [exportación de datos desde un icono o un objeto visual](visuals/power-bi-visualization-export-data.md).
+Los usuarios de la organización pueden exportar datos desde un icono o una visualización. Esto controla Analizar en Excel, la exportación a .csv, las descargas de conjuntos de datos (.pbix) y las características Live Connect del servicio Power BI. Obtenga más información sobre la [exportación de datos desde un icono o un objeto visual](visuals/power-bi-visualization-export-data.md).
+
+>[!NOTE]
+> Antes de la introducción de la opción Exportar a Excel, esta opción también controlaba la exportación de datos a archivos de Excel. Para obtener más información, vea la [nota en Exportación a Excel](#export-to-excel).
+
+![Opción de exportación de datos](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
 
 En la imagen siguiente se muestra la opción para exportar datos desde un icono.
 
@@ -241,6 +246,15 @@ En la imagen siguiente se muestra la opción para exportar datos desde un icono.
 
 > [!NOTE]
 > Si deshabilita la opción **Exportar datos** también impedirá que los usuarios usen la característica [Analizar en Excel](service-analyze-in-excel.md), así como la conexión dinámica al servicio Power BI.
+
+### <a name="export-to-excel"></a>Exportar a Excel
+
+Los usuarios de la organización pueden exportar los datos de una visualización a un archivo de Excel.
+
+![Opción Exportar a Excel](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+
+>[!IMPORTANT]
+> Antes de la introducción de la opción Exportar a Excel, la exportación a un archivo de Excel se controlaba mediante la opción Exportar datos. Por tanto, en los inquilinos que existían antes de la introducción de la opción Exportar a Excel, la primera vez que los administradores de inquilinos examinan la opción Exportar a Excel, verán que tiene *Cambios sin aplicar*. Para que la nueva configuración surta efecto tendrán que aplicar estos cambios. De lo contrario, la exportación a un archivo de Excel se seguirá controlando mediante la opción Exportar datos.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Exportación de informes como presentaciones de PowerPoint o documentos PDF
 

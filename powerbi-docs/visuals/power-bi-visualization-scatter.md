@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: e7160505a720b6629067d7b1486f0dd227efd862
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311565"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273326"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersión, de burbujas y de trazado de punto de Power BI
 
@@ -176,7 +176,7 @@ Agregue un campo en el área **Detalles** para indicar a Power BI cómo se deben
 
 ![Captura de pantalla de un gráfico de dispersión con RowNum agregado al área Detalles.](media/power-bi-visualization-scatter/pbi-scatter-tshoot.png)
 
-Si sus datos no incluyen eso, cree un campo que concatene los valores X e Y en un valor exclusivo por cada punto:
+Si los datos no lo incluyen, cree un campo que concatene los valores X e Y en un valor exclusivo por cada punto:
 
 ![Captura de pantalla de un gráfico de dispersión con TempTime agregado al área Detalles.](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
@@ -184,8 +184,10 @@ Para crear un nuevo campo, [use el Editor de consultas de Power BI Desktop para 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [Muestreo de alta densidad en los gráficos de dispersión de Power BI](desktop-high-density-scatter-charts.md)
+Puede que también esté interesado en los siguientes artículos:
 
+* [Muestreo de alta densidad en los gráficos de dispersión de Power BI](desktop-high-density-scatter-charts.md)
 * [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Sugerencias para ordenar y distribuir trazados de datos en informes de Power BI](../guidance/report-tips-sort-distribute-data-plots.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

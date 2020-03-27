@@ -6,26 +6,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/27/2020
+ms.date: 03/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a7112ff766b3b32b374b203d9f2206cabbd7fa2e
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: abe556231978d762dab652263aa2c55cf3c8a955
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79115037"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273280"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Exploradores compatibles con Power BI
-Power BI se ejecuta en los siguientes exploradores:
+
+Power BI está diseñado para funcionar con cualquiera de estos exploradores admitidos, pero el rendimiento varía en función del explorador elegido. Si usa Internet Explorer en particular, es posible que experimente un peor rendimiento. Se recomienda encarecidamente cambiar de Internet Explorer a un explorador moderno, incluido Microsoft Edge, para obtener un mejor rendimiento. Esperamos que el rendimiento de Microsoft Edge siga mejorando con Edge Chromium. Si el rendimiento sigue sin ser aceptable, pruebe otros exploradores modernos compatibles para ver si proporcionan mejores resultados para la solución de Power BI.
+
+Power BI admite estos exploradores en todas las plataformas en las que están disponibles:
 
 - Microsoft Edge
 - Internet Explorer 11. Algunas características avanzadas, como la vista de linaje, no se admiten en Internet Explorer. Vea [Linaje de datos (versión preliminar)](collaborate-share/service-data-lineage.md) para obtener más información.
 - Última versión de Chrome para escritorio
 - Última versión de Safari Mac
 - Última versión de Firefox para escritorio. Es posible que en Firefox se cambien las fuentes que se usan en Power BI 
-
-Estos exploradores son compatibles en todas las plataformas en las que están disponibles.
 
 > [!NOTE]
 > Power BI no funciona en ningún explorador de iOS 10 o versiones anteriores.
@@ -34,4 +35,3 @@ Estos exploradores son compatibles en todas las plataformas en las que están di
 * [¿Qué es Power BI?](power-bi-overview.md)
 * Pruebe a preguntar a la [comunidad de Power BI](https://community.powerbi.com/).
 * ¿Sigue teniendo problemas? Visite la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
-

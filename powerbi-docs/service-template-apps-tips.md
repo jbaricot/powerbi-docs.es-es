@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 03/24/2020
 ms.author: tebercov
-ms.openlocfilehash: dcb7ba5dabbbb0387b92908f7e299d61f2145d44
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 92d5a5177b0fa03af583e9e89ce574c0197f3f7a
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376601"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273234"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugerencias para crear aplicaciones de plantilla en Power BI
 
@@ -150,7 +150,7 @@ Para redirigir a un usuario al vínculo de descarga de la aplicación en Power 
 
 | Característica | Limitación conocida |
 |---------|---------|
-|Contenido:  Conjuntos de datos   | Debe haber exactamente un conjunto de datos. Solo se permiten los conjuntos de datos creados en Power BI Desktop (archivos .pbix). <br>No se admiten: conjuntos de datos de otras aplicaciones de plantilla, conjuntos de datos de varias áreas de trabajo, informes paginados (archivos .rdl), libros de Excel. |
+|Contenido:  Conjuntos de datos   | Debe haber exactamente un conjunto de datos. Solo se permiten los conjuntos de datos creados en Power BI Desktop (archivos .pbix). <br>No se admiten: conjuntos de datos de otras aplicaciones de plantilla, conjuntos de datos de varias áreas de trabajo, informes paginados (archivos .rdl), libros de Excel, metadatos de conjunto de datos mejorado |
 |Contenido: Paneles | No se admiten los iconos en tiempo real (en otras palabras, no se admiten para los conjuntos de datos de inserción o streaming). |
 |Contenido: Flujos de datos | No se admiten: Flujos de datos |
 |Contenido de archivos | Solo se admiten archivos PBIX. <br>No se admiten: archivos .rdl (informes paginados), libros de Excel.   |

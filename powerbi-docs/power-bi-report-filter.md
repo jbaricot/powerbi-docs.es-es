@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/26/2020
+ms.date: 03/17/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 8dfc6e872b67605a262c7390b91703649a2cfb0f
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201950"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114083"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Trabajo con filtros en informes de Power BI
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 Los filtros de Power BI van a tener una nueva funcionalidad y un nuevo diseño. Al participar en la nueva experiencia de filtro, puede aplicar formato al panel Filtros para que su aspecto sea similar al del resto del informe. Puede bloquear e incluso ocultar filtros. Al diseñar su informe, ya no verá en absoluto el panel Filtros antiguo en el panel Visualizaciones. La edición y el formato de filtros se llevan a cabo en un solo panel Filtros. 
 
@@ -28,9 +30,9 @@ Como diseñador de informes, estas son algunas de las tareas que puede realizar 
 - Cambiar el estado del filtro.
 - Aplicar formato al panel Filtros y personalizarlo para que parezca parte del informe.
 - Definir si el panel de filtros está abierto o contraído de forma predeterminada cuando un consumidor abre el informe.
-- Ocultar el panel Filtros entero o filtros específicos que no desea que vean los consumidores del informe.
+- Ocultar el panel Filtros entero o filtros específicos que no quiera que vean los consumidores del informe.
 - Controlar, e incluso guardar como marcador, los estados de visibilidad, abierto y contraído del nuevo panel Filtros.
-- Bloquear los filtros que no desea que editen los consumidores.
+- Bloquear los filtros que no quiere que editen los consumidores.
 
 Con la nueva experiencia de filtro, los consumidores del informe también pueden mantener el mouse sobre cualquier objeto visual para ver una lista de solo lectura de todos los filtros o segmentaciones que afectan a dicho objeto.
 
@@ -111,7 +113,7 @@ Puede bloquear u ocultar tarjetas de filtro individuales. Si bloquea un filtro, 
 
 A medida que active o desactive esta configuración en el nuevo panel Filtros, verá los cambios reflejados en el informe. Los filtros ocultos no se muestran en la lista emergente de filtros de un objeto visual.
 
-También puede configurar el estado del nuevo panel Filtros para que fluya con los marcadores de informe. Los estados abierto, cerrado y de visibilidad del panel se pueden todos guardar como marcador.
+También puede configurar el estado del nuevo panel Filtros para que fluya con los marcadores de informe. Los estados abierto, cerrado y de visibilidad del panel se pueden guardar como marcadores.
  
 ## <a name="format-the-new-filters-pane"></a>Aplicar formato el nuevo panel de filtros
 
@@ -146,7 +148,7 @@ También puede aplicar formato a estos elementos en las tarjetas de filtro, seg�
     ![Expandir la tarjeta de filtro](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
 ## <a name="theming-for-filters-pane"></a>Temas del panel Filtros
-Ya puede modificar la configuración predeterminada del panel Filtros con el archivo de tema. Este es un fragmento del tema de ejemplo que puede ayudarlo a comenzar:
+Ya puede modificar la configuración predeterminada del panel Filtros con el archivo de tema. Este es un fragmento del tema de ejemplo que puede ayudarle a comenzar:
 
  
 ```

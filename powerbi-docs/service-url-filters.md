@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 03/25/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076642"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273257"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtro de un informe con parámetros de cadena de consulta en la URL
 
@@ -193,11 +193,17 @@ Esta discrepancia resulta útil cuando se quieren ver resultados diferentes: fil
 Hay un par de cosas que tener en cuenta al utilizar los parámetros de cadena de consulta.
 
 * Cuando se usa el operador *in*, los valores a la derecha de *in* deben ser una lista separada por comas entre paréntesis.    
-* Power BI Report Server también admite la capacidad de especificar filtros adicionales mediante el parámetro URL “filter”.  Por ejemplo, en Power BI Report Server, es posible que la dirección URL sea similar a la siguiente: https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
-* El filtrado de cadenas de consulta no funciona con [Publicar en la web](service-publish-to-web.md) ni [Exportar a PDF](consumer/end-user-pdf.md).
-* La [inserción de un elemento web de informes en SharePoint Online](service-embed-report-spo.md) no admite los filtros de direcciones URL.
-* El tipo de datos long es (2^53-1) debido a las limitaciones de Javascript.
+* Power BI Report Server también permite especificar filtros adicionales mediante el parámetro de URL "filter". Este es un posible ejemplo de la dirección URL en Power BI Report Server: `https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * Los filtros de dirección URL de informe tienen un límite de diez expresiones (diez filtros conectados mediante AND).
+* El tipo de datos long es (2^53-1) debido a las limitaciones de JavaScript.
+
+Los filtros de dirección URL se admiten en algunos escenarios de inserción y no en otros.
+
+- Se admite la [inserción de un informe en un sitio web o portal seguro](service-embed-secure.md).
+- En Power BI Embedded se admiten los filtros de URL. Vea [Funcionalidades avanzadas de filtrado de direcciones URL de Power BI Embedded](https://azure.microsoft.com/updates/power-bi-embedded-advanced-url-filtering-capabilities) para obtener más información.
+- El filtrado de cadenas de consulta no funciona con [Publicar en la web](service-publish-to-web.md) ni [Exportar a PDF](consumer/end-user-pdf.md).
+- La [inserción de un elemento web de informes en SharePoint Online](service-embed-report-spo.md) no admite los filtros de direcciones URL.
+- En Teams no se permite especificar una dirección URL.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

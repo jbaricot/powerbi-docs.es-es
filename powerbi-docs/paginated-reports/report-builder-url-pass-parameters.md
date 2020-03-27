@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 08/29/2019
-ms.openlocfilehash: b8301ca17559b81d4db132fbeaa0955ce68a4c6e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 7a5ec7ef1f66a4a5b6ec80c80e9fd37e19bb2813
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922537"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113563"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Pasar un parámetro de informe en una URL para un informe paginado en Power BI 
 
@@ -64,8 +64,8 @@ Para pasar un valor booleano, use 0 para false y 1 para true. Para pasar un valo
 
 > [!NOTE]
 > Si el informe contiene un parámetro de informe con un valor predeterminado y el valor de la propiedad **Prompt** es **false** (es decir, la propiedad **Prompt User** no está seleccionada en el Administrador de informes), no se puede pasar un valor para ese parámetro de informe dentro de una dirección URL. Esto proporciona a los administradores la opción de impedir que los usuarios finales agreguen o modifiquen los valores de determinados parámetros de informe.
-
-> Power BI no admite una cadena de consulta de más de 900 caracteres.  Este valor se puede superar si se usan parámetros URL para ver el informe paginado,  especialmente si se emplean parámetros con varios valores.
+> 
+> Power BI no admite una cadena de consulta de más de 2000 caracteres.  Este valor se puede superar si se usan parámetros URL para ver el informe paginado,  especialmente si se emplean parámetros con varios valores.
 
 ## <a name="additional-examples"></a>Ejemplos adicionales 
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 02/28/2020
-ms.openlocfilehash: d9d97715853ab87ac507ff41117ab176b8620e2e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.date: 03/18/2020
+ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205260"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113628"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: Preguntas frecuentes 
 
@@ -48,7 +48,7 @@ En los registro de auditoría de Office 365 se detalla el uso de este tipo de in
 - Creación del informe de Power BI
 - Informe de Power BI descargado
 
-El campo ReportType tiene el valor "PaginatedReport" para identificar los informes paginados en lugar de los informes de Power BI.
+El campo ReportType tiene el valor "PaginatedReport" para identificar los informes paginados en lugar de los informes de Power BI.
 
 Además, los registros de auditoría proporcionan los siguientes eventos para los informes paginados:
 
@@ -68,13 +68,17 @@ Puede cargar informes paginados en Mi área de trabajo sin una licencia Pro, sie
 
 Recibe un mensaje de error y no se puede ver el informe hasta que la carga de trabajo se vuelve a activar. Todavía puede eliminar el informe del área de trabajo.
 
-### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-supported-for-paginated-reports"></a>¿Cuál es la memoria predeterminada para cada una de las SKU Premium que se admite en los informes paginados?
+### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-that-support-paginated-reports"></a>¿Cuál es la memoria predeterminada para cada una de las SKU Premium que se admite en los informes paginados?
 
 Memoria predeterminada de cada SKU Premium en los informes paginados:
 
 - **P1/A4**: 20 % predeterminado; 10 % mínimo
 - **P2/A5**: 20 % predeterminado; 5 % mínimo
 - **P3/A6**: 20 % predeterminado; 2,5 % mínimo
+
+Los administradores de inquilinos de Power BI pueden modificar el porcentaje de memoria máximo predeterminado en el portal de administración. Vea la sección de la carga de trabajo **Informes paginados** de **Power BI Premium** en la pestaña **Configuración de la capacidad**.
+
+:::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Pestaña Configuración de la capacidad de Informes paginados":::
 
 ## <a name="general"></a>General
 
@@ -86,7 +90,7 @@ Los informes de Power BI están optimizados para la exploración e interactivida
 
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>En esta documentación se indica que el Generador de informes de Power BI es la herramienta de creación preferida. ¿Puedo crear informes paginados de SQL Server Data Tools para Power BI?
 
-Sí, pero el servicio Power BI solo permite cargar un solo elemento a la vez, por lo que muchos de los escenarios que los autores usan con SQL Server Data Tools (SSDT) aún no son compatibles. Consulte la [lista de características compatibles](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) completa disponible más adelante en este artículo de preguntas frecuentes.  
+Sí, pero el servicio Power BI solo permite cargar un único elemento a la vez, por lo que muchos de los escenarios que los autores usan con SQL Server Data Tools (SSDT) todavía no son compatibles. Consulte la [lista de características compatibles](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) completa disponible más adelante en este artículo de preguntas frecuentes.  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>¿Qué versiones del generador de informes se admiten?
 
@@ -100,9 +104,9 @@ Los proyectos de GitHub admiten ahora la migración de contenido de SQL Server 
 
 Sí. Hemos agregado compatibilidad para abrir informes y publicarlos directamente en el servicio desde Power BI Report Builder.
 
-### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>¿Qué características de los informes paginados de SSRS no son compatibles aún en Power BI?
+### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>¿Qué características de los informes paginados de SSRS no son compatibles todavía en Power BI?
 
-Actualmente, los informes paginados no admiten los siguientes elementos:
+En la actualidad, los informes paginados no admiten los elementos siguientes:
 
 - Orígenes de datos compartidos
 - Conjuntos de datos compartidos
@@ -146,7 +150,7 @@ Sí, las suscripciones por correo electrónico se admiten completamente para los
 
 Sí, se admite la capacidad de ejecutar código en los informes de la misma forma que en SSRS.
 
-### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>¿Puedo usar Power BI Embedded para insertar los informes paginados en una aplicación que estoy hospedando?
+### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>¿Puedo usar Power BI Embedded para insertar los informes paginados en una aplicación que hospedo?
 
 Ya está disponible la inserción de SaaS, incluida la compatibilidad con la inserción segura. En el caso de la inserción de PaaS, vea el tutorial [Inserción de informes paginados de Power BI en una aplicación para los clientes](../developer/embed-paginated-reports-customers.md).
 
@@ -160,11 +164,11 @@ Sí, se pueden implementar informes paginados con aplicaciones de las áreas de 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>¿Otras características específicas de informes de Power BI, como el anclaje de los iconos de informes en los paneles, funcionan con los informes paginados?
 
-Planeamos que los informes admitan lo máximo posible los mismos escenarios importantes en el servicio.  Lo ideal es que, aunque la herramienta de creación es diferente, desde la perspectiva del consumidor, es simplemente otro informe en su lista en el portal. No les preocupa cómo se creó, ya que pueden hacer lo que necesitan.  Un buen ejemplo de esta paridad de características es la compatibilidad planeada con los comentarios. Aunque la propia característica puede funcionar de forma ligeramente diferente para cada tipo de informe, podrá utilizar comentarios para ambos.
+Planeamos que los informes admitan lo máximo posible los mismos escenarios importantes en el servicio.  Lo ideal es que, aunque la herramienta de creación es diferente, desde la perspectiva del consumidor, es simplemente otro informe en su lista en el portal. No les preocupa cómo se ha creado, ya que pueden hacer lo que necesitan.  Un buen ejemplo de esta paridad de características es la compatibilidad planeada con los comentarios. Aunque la propia característica puede funcionar de forma ligeramente diferente para cada tipo de informe, podrá usar comentarios para ambos.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>¿Existe un control del visor de informes para los informes paginados en el servicio Power BI?
 
-No, actualmente no se encuentra disponible ningún control del visor de informes.
+No, actualmente no hay ningún control del visor de informes disponible.
 
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>¿Se pueden buscar informes paginados con la nueva experiencia de inicio del servicio Power BI?
 

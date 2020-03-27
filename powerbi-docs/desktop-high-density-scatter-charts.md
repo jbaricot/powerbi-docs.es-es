@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae33d7aac0eb42e925e78b8b76a9d7106cdf9d20
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b603ced5775d72c09419ea5e18b2eb03b2680e95
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867439"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273372"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Muestreo de alta densidad en los gráficos de dispersión de Power BI
 Desde la versión de septiembre de 2017 de **Power BI Desktop** y las actualizaciones del **servicio Power BI**, hay disponible un nuevo algoritmo de muestreo que mejora cómo se representan los datos de alta densidad en los gráficos de dispersión.
@@ -85,7 +85,8 @@ El algoritmo de muestreo de alta densidad es una mejora importante en Power BI, 
 * El algoritmo de **muestreo de alta densidad** solo funciona con conexiones dinámicas a modelos basados en el servicio Power BI, modelos importados o DirectQuery.
 
 ## <a name="next-steps"></a>Pasos siguientes
-Para más información sobre el muestreo de alta densidad en otros tipos de gráficos, vea el artículo siguiente.
+
+Para obtener más información sobre el muestreo de alta densidad, vea los artículos siguientes:
 
 * [Muestreo de líneas de alta densidad en Power BI](desktop-high-density-sampling.md)
-
+* [Sugerencias para ordenar y distribuir trazados de datos en informes de Power BI](guidance/report-tips-sort-distribute-data-plots.md)

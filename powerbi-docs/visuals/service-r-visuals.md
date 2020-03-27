@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04fa40f5f73199ed5050870b49cd432f62cf362c
-ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
+ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "78199082"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114851"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Creación y uso de objetos visuales de R en Power BI
 Actualmente, los objetos visuales R solo se pueden crear en **Power BI Desktop** y, después, se publican en el servicio Power BI. Para obtener más información sobre cómo crear objetos visuales de R, vea [Crear objetos visuales de Power BI con R ](../desktop-r-visuals.md).
@@ -88,6 +88,7 @@ Los objetos visuales R en el servicio Power BI tienen algunas limitaciones:
 * La compatibilidad con objetos visuales de R se limita a los paquetes que se identifican en el artículo [Paquetes de R compatibles](../service-r-packages-support.md). Actualmente, no hay compatibilidad para paquetes personalizados.
 * Limitaciones de tamaño de datos: los datos que usa el objeto visual de R para el trazado están limitados a 150.000 filas. Si se seleccionan más de 150.000 filas, solo se usan las primeras 150.000 y se muestra un mensaje en la imagen. Además, los datos de entrada tienen un límite de 250 MB.
 * Resolución: todos los objetos visuales de R se muestran a 72 ppp.
+* Dispositivo de trazado: solo se admite el trazado en el dispositivo predeterminado. 
 * Límite de tiempo de cálculo: si un cálculo de objeto visual R supera los 60 segundos, se agota el tiempo de espera del script y se genera un error.
 * Los objetos visuales de R se actualizan en las actualizaciones de datos, el filtrado y el resaltado. En cambio, la imagen en sí no es interactiva y no es compatible con la información sobre herramientas.
 * Los objetos visuales de R responden al resaltado de otros objetos visuales, pero no puede hacer clic en elementos del objeto visual de R para aplicar un filtro cruzado a otros elementos.

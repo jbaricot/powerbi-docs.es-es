@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5693e75ff186c3edb95eeaa92d26823e0e0d3a60
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039071"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273349"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Ejecución de scripts de Python en Power BI Desktop
 
@@ -109,6 +109,14 @@ Para ejecutar el script de Python en Power BI Desktop:
 Si Python no está instalado o identificado, se muestra una advertencia. También puede ver una advertencia si tiene varias instalaciones en el equipo local. Vuelva a consultar y revise las secciones anteriores Instalación de Python y Habilitación de la creación de scripts de Python.
 
 ![Advertencia de que Python no está instalado](media/desktop-python-scripts/python-scripts-3.png)
+
+#### <a name="using-custom-python-distributions"></a>Uso de distribuciones de Python personalizadas
+
+Power BI ejecuta los scripts de forma directa mediante el ejecutable python.exe desde un directorio proporcionado por el usuario (a través de la página de configuración). Las distribuciones que requieren un paso adicional para preparar el entorno (por ejemplo, Conda) es posible que encuentren un problema en el que se produce un error de ejecución.
+
+Se recomienda usar la distribución de Python oficial de https://www.python.org/ para evitar problemas relacionados.
+
+Como posible solución, puede iniciar Power BI Desktop desde el símbolo del sistema de Python personalizado.
 
 ### <a name="refresh"></a>Actualizar
 

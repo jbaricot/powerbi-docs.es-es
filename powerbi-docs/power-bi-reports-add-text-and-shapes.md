@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b90bfd9482e28faa8d9dfb0d089ca07656663b53
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762471"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273211"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Adición de cuadros de texto y formas en informes de Power BI
 Con el servicio Power BI y Power BI Desktop puede agregar cuadros de texto y formas a los informes. En ambos casos, debe tener permisos de edición para el informe. Si un informe se ha compartido con usted en el servicio Power BI, no tendrá permisos de edición. 
@@ -63,8 +63,10 @@ Use en su lugar Power BI Desktop para [agregar imágenes estáticas a un informe
    > 
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Agregar un hipervínculo a un cuadro de texto](service-add-hyperlink-to-text-box.md)
 
-[Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
+Puede que también esté interesado en los siguientes artículos:
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
+* [Agregar un hipervínculo a un cuadro de texto](service-add-hyperlink-to-text-box.md)
+* [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
+* [Sugerencias para mejorar el análisis con formas, imágenes e iconos en informes de Power BI](guidance/report-tips-shapes-images-icons.md)
+* ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
