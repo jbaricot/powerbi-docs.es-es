@@ -18,10 +18,8 @@
     - name: Ejemplos
       expanded: true
       items:
-        - name: "Obtención de datos de ejemplo para Power\_BI"
+        - name: "Obtención de ejemplos para Power\_BI"
           href: ../sample-datasets.md
-        - name: Importación y apertura de paquetes de ejemplo
-          href: ../sample-tutorial-connect-to-the-samples.md
         - name: Ejemplo de rentabilidad del cliente
           href: ../sample-customer-profitability.md
         - name: Ejemplo Análisis de gastos de TI
@@ -34,6 +32,8 @@
           href: ../sample-procurement.md
         - name: Ejemplo de análisis de venta al por menor
           href: ../sample-retail-analysis.md
+        - name: Exploración de un ejemplo de análisis de venta al por menor
+          href: ../sample-tutorial-connect-to-the-samples.md
         - name: Ejemplo de ventas y marketing
           href: ../sample-sales-and-marketing.md
         - name: Ejemplo de análisis de calidad de proveedores
