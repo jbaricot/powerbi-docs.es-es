@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dcf8f3ca104e4caf749070b45cd47b0ca03f0dbd
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 62159b9dec4f82cfad3eecbc13b1d3a2c3b68f17
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699599"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404843"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Solución de problemas de escenarios de actualización
 
@@ -79,11 +79,11 @@ Si se produce un error en una actualización programada en cuatro ocasiones en u
 
 ## <a name="access-to-the-resource-is-forbidden"></a>El acceso al recurso queda prohibido  
 
-Este error puede producirse debido a que las credenciales almacenadas en caché han expirado. Para borrar la memoria caché del explorador web, inicie sesión en Power BI y vaya a https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. De esta manera se fuerza la actualización de las credenciales.
+Este error puede producirse debido a que las credenciales almacenadas en caché han expirado. Para borrar la memoria caché del explorador web, inicie sesión en Power BI y vaya a `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true`. De esta manera se fuerza la actualización de las credenciales.
 
 ## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>Error al actualizar los datos debido a que ha cambiado la contraseña o las credenciales han expirado
 
-Otro posible error en la actualización de datos podría deberse a que la credencial almacenada en caché ha expirado. Para borrar la memoria caché del explorador web, inicie sesión en Power BI y vaya a https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. De esta manera se fuerza la actualización de las credenciales.
+Otro posible error en la actualización de datos podría deberse a que la credencial almacenada en caché ha expirado. Para borrar la memoria caché del explorador web, inicie sesión en Power BI y vaya a `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true`. De esta manera se fuerza la actualización de las credenciales.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

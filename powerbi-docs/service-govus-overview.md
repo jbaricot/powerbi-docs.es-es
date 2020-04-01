@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 14c01eb3041964a858b1aeeaeaa471f0d839898e
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114897"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404798"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 Este artículo está destinado a los clientes de la Administración Pública de Estados Unidos que implementan Power BI como parte de un plan de Office 365 Administración Pública. Los planes de la Administración Pública están diseñados para las necesidades únicas de las organizaciones que deben cumplir los estándares de cumplimiento y seguridad de Estados Unidos. El servicio Power BI diseñado para los clientes de la Administración Pública de Estados Unidos es distinto de la versión comercial del servicio Power BI. Las funcionalidades y diferencias en las características se describen en las siguientes secciones.
@@ -56,7 +56,7 @@ Use una dirección URL para conectarse a Power BI para la Administración Públi
 
 | Dirección URL de la versión comercial | Dirección URL de la versión de la Administración Pública de Estados Unidos | Dirección URL del gobierno de EE. UU. para GCC High |
 | --- | --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
+| `https://app.powerbi.com/` |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 Es posible que su cuenta se aprovisione en más de una nube. En ese caso, al usar Power BI Desktop, puede elegir a qué nube conectarse cuando inicie sesión.
 

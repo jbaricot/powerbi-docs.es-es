@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 29a6e9f67258d4babc58d8195dda59afe97554c6
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 7ab9ac60e416502f69401fcea87a697f53176448
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205237"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404781"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>¿Qué son los informes paginados en Power BI Premium?
 
@@ -25,7 +25,7 @@ Pruebe el [Laboratorio práctico: Creación de un informe paginado de Microsoft�
 
 ![Paginado](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-Puede obtener una vista previa del informe en el generador de informes y luego publicarlo en el servicio Power BI, https://app.powerbi.com. Necesita una licencia de Power BI Pro para publicar un informe en el servicio. Puede publicar y compartir informes paginados en Mi área de trabajo o en las áreas de trabajo de la aplicación, siempre que el área de trabajo tenga la capacidad Premium de Power BI. Además, un administrador de Power BI debe habilitar los informes paginados en la [sección de capacidades Premium](../service-admin-premium-workloads.md#paginated-reports) del portal de administración de Power BI. 
+Puede obtener una vista previa del informe en el generador de informes y luego publicarlo en el servicio Power BI, `https://app.powerbi.com`. Necesita una licencia de Power BI Pro para publicar un informe en el servicio. Puede publicar y compartir informes paginados en Mi área de trabajo o en las áreas de trabajo de la aplicación, siempre que el área de trabajo tenga la capacidad Premium de Power BI. Además, un administrador de Power BI debe habilitar los informes paginados en la [sección de capacidades Premium](../service-admin-premium-workloads.md#paginated-reports) del portal de administración de Power BI. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Creación de informes en el Generador de informes de Power BI
 
@@ -61,7 +61,7 @@ Todo el contenido de un informe paginado, desde el propio informe hasta cada cua
 
 ## <a name="creating-a-report-definition"></a>Creación de una definición de informe
 
-Al diseñar un informe paginado, realmente crea una *definición de informe*. No contiene los datos. Especifica de dónde se obtienen los datos, qué datos se obtienen y cómo mostrar los datos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Cargue la definición de informe en el servicio Power BI, https://app.powerbi.com, en Mi área de trabajo o en un área de trabajo compartida con sus compañeros. Si el origen de datos del informe es local, después de cargar el informe, redirija la conexión del origen de datos para que pase por una puerta de enlace. 
+Al diseñar un informe paginado, realmente crea una *definición de informe*. No contiene los datos. Especifica de dónde se obtienen los datos, qué datos se obtienen y cómo mostrar los datos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Cargue la definición de informe en el servicio Power BI, `https://app.powerbi.com`, en Mi área de trabajo o en un área de trabajo compartida con sus compañeros. Si el origen de datos del informe es local, después de cargar el informe, redirija la conexión del origen de datos para que pase por una puerta de enlace. 
 
 ## <a name="view-your-paginated-report"></a>Visualización del informe paginado
 Verá el informe paginado en el servicio Power BI en un explorador y también en las aplicaciones móviles de Power BI. En el servicio Power BI, puede exportar el informe a varios formatos, como HTML, MHTML, PDF, XML, CSV, TIFF, Word y Excel. También puede compartirlo con otros usuarios.  

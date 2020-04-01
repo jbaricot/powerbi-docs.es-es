@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 80b97757ab0ab8fefa23f4481abb2d8bc02de78d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 66a1253233ab623ff2332a7b112575a7509c0e3c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492500"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403709"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Seguridad de nivel de fila con Power BI Embedded
 
@@ -217,7 +217,7 @@ Estos son los pasos para comenzar a configurar la característica CustomData() c
 
 7. Use las API de Power BI para utilizar la característica CustomData en su aplicación.  Al generar un token con la característica Customdata, es necesario tener un nombre de usuario. El nombre de usuario debe ser igual que el UPN del usuario maestro. El usuario maestro debe ser miembro de los roles que ha creado. Si no se especifica ningún rol, todos los roles de los que es miembro el usuario maestro se usan para la evaluación de RLS.
 
-    Cuando trabaje con una [entidad de servicio](embed-service-principal.md) también deberá seguir los pasos anteriores en lugar de usar una cuenta maestra. Al generar el token de inserción, use el [identificador de objeto de la entidad de servicio](embed-service-principal.md#how-to-get-the-service-principal-object-id) como el nombre de usuario.
+    Cuando trabaje con una [entidad de servicio](embed-service-principal.md) también deberá seguir los pasos anteriores en lugar de usar una cuenta maestra. Al generar el token de inserción, use el [identificador de objeto de la entidad de servicio](embed-service-principal.md) como el nombre de usuario.
 
     > [!Note]
     > Cuando esté listo para implementar la aplicación en producción, la opción o el campo de la cuenta de usuario maestro no deben ser visible para el usuario final.

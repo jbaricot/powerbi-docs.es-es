@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
-ms.openlocfilehash: 37f8858d3581f58fc82fcbd1f3a1718ca56b6d72
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4eca0a799440da57cdb37a603447ba2b0d0c99c8
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79494041"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403822"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Insertar contenido de Power BI en una aplicación para los clientes
 
@@ -438,7 +438,7 @@ Una vez creada una capacidad dedicada, puede asignar el área de trabajo a esa c
 
 Todas las áreas de trabajo que contengan recursos de Power BI relacionados con contenido insertado (incluidos conjuntos de datos, informes y paneles) se deben asignar a capacidades dedicadas. Por ejemplo, si un informe insertado y su conjunto de datos enlazado se encuentran en áreas de trabajo diferentes, las dos áreas de trabajo se deben asignar a capacidades dedicadas.
 
-Para asignar una capacidad dedicada a un área de trabajo mediante la [entidad de servicio](embed-service-principal.md), use la [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Cuando use las API REST de Power BI, asegúrese de usar el [identificador de objeto de entidad de servicio](embed-service-principal.md#how-to-get-the-service-principal-object-id).
+Para asignar una capacidad dedicada a un área de trabajo mediante la [entidad de servicio](embed-service-principal.md), use la [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Cuando use las API REST de Power BI, asegúrese de usar el [identificador de objeto de entidad de servicio](embed-service-principal.md).
 
 Siga estos pasos para asignar una capacidad dedicada a un área de trabajo mediante una **cuenta maestra**.
 

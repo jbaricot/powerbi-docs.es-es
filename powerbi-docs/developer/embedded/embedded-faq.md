@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 6dd5b7838a1f59971e11a4674853abead7af0b90
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492799"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403666"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Preguntas más frecuentes acerca de Power BI Embedded
 
@@ -96,7 +96,7 @@ El usuario puede resolver este problema mediante una llamada a la [API refreshUs
 
 Puede usar el portal de PBI para saber cuál es la región de su inquilino de PBI.
 
-[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Acerca de Power BI
+[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Acerca de Power BI
 
 ![Acerca de Power BI](media/embedded-faq/about-01.png)
 ![Región del inquilino](media/embedded-faq/tenant-location-01.png)
@@ -200,7 +200,7 @@ Esto es importante cuando se agrega la entidad de servicio como un **administrad
 
 El **[identificador de aplicación](embed-sample-for-customers.md#application-id)** se usa para crear el token de acceso cuando se pasa el identificador de aplicación para la autenticación.
 
-Para hacer referencia a una entidad de servicio para operaciones o realizar cambios, use el **[identificador de objeto de entidad de servicio](embed-service-principal.md#how-to-get-the-service-principal-object-id)** ; por ejemplo, para aplicar una entidad de servicio como un administrador a un área de trabajo.
+Para hacer referencia a una entidad de servicio para operaciones o realizar cambios, use el **[identificador de objeto de entidad de servicio](embed-service-principal.md)** ; por ejemplo, para aplicar una entidad de servicio como un administrador a un área de trabajo.
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>¿Se puede administrar una puerta de enlace de datos local con la entidad de servicio?
 

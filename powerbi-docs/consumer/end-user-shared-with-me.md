@@ -3,23 +3,22 @@ title: Mostrar los paneles y los informes que se han compartido conmigo
 description: documentación compartida conmigo en Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d97727969ed48c50a86be032835b237d293a1d96
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114143"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302489"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Mostrar los paneles y los informes que se han compartido conmigo
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -27,7 +26,7 @@ Cuando algún compañero comparta contenido con usted con el botón **Compartir*
 
 ![Icono de uso compartido](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Amanda explica la lista de contenido **Compartido conmigo** y muestra cómo navegar y filtrar la lista. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo. Para poder ver paneles que hayan compartido con usted, debe tener una licencia de Power BI Pro. Lea [Tipos de licencias de Power BI](end-user-license.md) para obtener más información.
+Amanda explica la lista de contenido **Compartido conmigo** y muestra cómo navegar y filtrar la lista. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo. Para poder ver paneles que hayan compartido con usted, debe tener una licencia de Power BI Pro. Para más información, lea [What is Power BI Premium?](../service-premium-what-is.md) (¿Qué es Power BI Premium?)
     
 
 > [!NOTE]
