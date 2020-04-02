@@ -1,0 +1,83 @@
+### YamlMime:Landing
+title: Documentación de análisis insertados de Power BI
+summary: 'Aprenda a usar las dos soluciones de análisis insertados: Power BI Embedded y la inserción con Power BI Premium.'
+metadata:
+  title: Documentación de análisis insertados de Power BI
+  description: 'Aprenda a usar las dos soluciones de análisis insertados: Power BI Embedded y la inserción con Power BI Premium.'
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 3f7bf1ebb51e7f9e5916e16280a2e10d7339df73
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516270"
+landingContent:
+- title: Comenzar
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: ¿Qué es la inserción con Power BI?
+      url: embedding.md
+    - text: ¿Qué es Power BI Embedded de Azure?
+      url: azure-pbie-what-is-power-bi-embedded.md
+    - text: Preguntas más frecuentes
+      url: embedded-faq.md
+- title: Inserción de informes o paneles
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 'Tutorial: Insertar contenido de Power BI en una aplicación para los clientes'
+      url: embed-sample-for-customers.md
+    - text: 'Tutorial: Insertar contenido de Power BI en una aplicación para la organización'
+      url: embed-sample-for-your-organization.md
+    - text: 'Tutorial: Inserción de informes paginados de Power BI en una aplicación para los clientes.'
+      url: embed-paginated-reports-customers.md
+    - text: 'Tutorial: Inserción de contenido de Power BI en una aplicación para nubes nacionales'
+      url: embed-sample-for-customers-national-clouds.md
+  - linkListType: reference
+    links:
+    - text: Herramienta de configuración de inserción
+      url: https://app.powerbi.com/embedsetup
+    - text: Scripts y ejemplos para desarrolladores
+      url: https://github.com/Microsoft/PowerBI-Developer-Samples
+- title: Plan para la producción
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: Capacidad y SKU
+      url: embedded-capacity.md
+    - text: Planeamiento de capacidad
+      url: embedded-capacity-planning.md
+  - linkListType: concept
+    links:
+    - text: Procedimientos recomendados de rendimiento
+      url: embedded-performance-best-practices.md
+    - text: Permisos de Power BI
+      url: power-bi-permissions.md
+    - text: Preguntas y respuestas
+      url: qanda.md
+    - text: Solución de problemas de una aplicación insertada
+      url: embedded-troubleshoot.md
+- title: Referencias y recursos
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: API REST de Power BI
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Referencia de la API de REST de Power BI
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: Centro para desarrolladores
+      url: https://powerbi.microsoft.com/developers/
+    - text: Bibliotecas de Power BI
+      url: https://www.nuget.org/profiles/powerbi
+    - text: Área de juegos
+      url: https://microsoft.github.io/PowerBI-JavaScript/demo/v2-demo/index.html
+    - text: Wiki de JavaScript
+      url: https://github.com/Microsoft/powerbi-javascript/wiki

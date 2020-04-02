@@ -20,6 +20,8 @@
       items:
         - name: "Obtención de ejemplos para Power\_BI"
           href: ../sample-datasets.md
+        - name: "Ejemplo de COVID-19 de EE.\_UU."
+          href: sample-covid-19-us.md
         - name: Ejemplo de rentabilidad del cliente
           href: ../sample-customer-profitability.md
         - name: Ejemplo Análisis de gastos de TI

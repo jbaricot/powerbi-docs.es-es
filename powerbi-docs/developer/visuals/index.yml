@@ -1,0 +1,59 @@
+### YamlMime:Landing
+title: Documentación sobre objetos visuales de Power BI
+summary: Desarrolle objetos visuales personales de Power BI para uso propio, de la organización o de toda la comunidad de Power BI. Nuestra documentación proporciona la información que necesita.
+metadata:
+  title: Documentación sobre objetos visuales de Power BI
+  description: Desarrolle objetos visuales personales de Power BI para uso propio, de la organización o de toda la comunidad de Power BI. Nuestra documentación proporciona la información que necesita.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516247"
+landingContent:
+- title: Comenzar
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Objetos visuales en Power BI
+      url: power-bi-custom-visuals.md
+    - text: Estructura de proyecto de objeto visual de Power BI
+      url: visual-project-structure.md
+    - text: Preguntas más frecuentes
+      url: power-bi-custom-visuals-faq.md
+- title: Desarrollo de un objeto visual de Power BI
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 'Tutorial: Desarrollo de un objeto visual de Power BI'
+      url: custom-visual-develop-tutorial.md
+    - text: 'Tutorial: Adición de opciones de formato a un objeto visual de Power BI'
+      url: custom-visual-develop-tutorial-format-options.md
+  - linkListType: concept
+    links:
+    - text: Instrucciones para objetos visuales de Power BI
+      url: guidelines-powerbi-visuals.md
+- title: Publicación de objetos visuales de Power BI
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Publicación de objetos visuales de Power BI en el Centro de partners
+      url: office-store.md
+    - text: Obtención de un objeto visual de Power BI certificado
+      url: power-bi-custom-visuals-certified.md
+- title: Referencias y recursos
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Ejemplos de objetos visuales de Power BI
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - text: Repositorio de Git
+      url: https://github.com/Microsoft/PowerBI-visuals

@@ -1,0 +1,65 @@
+### YamlMime:Landing
+title: Documentación de automatización de Power BI
+summary: Con la automatización de Power BI puede realizar tareas de administración en objetos de Power BI, como informes, conjuntos de datos y áreas de trabajo.
+metadata:
+  title: Documentación de automatización de Power BI
+  description: Con la automatización de Power BI puede realizar tareas de administración en objetos de Power BI, como informes, conjuntos de datos y áreas de trabajo.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 33f3caa20bc29c41b9d2c43f6727947ce9b7d446
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516408"
+landingContent:
+- title: Comenzar
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Obtenga información sobre lo que puede hacer con la API de Power BI.
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: tutorial
+    links:
+    - text: 'Tutorial: Inserción de datos en un conjunto de datos'
+      url: walkthrough-push-data.md
+    - text: 'Tutorial: Obtener un token de acceso de autenticación'
+      url: walkthrough-push-data-get-token.md
+    - text: 'Tutorial: Crear un conjunto de datos'
+      url: walkthrough-push-data-create-dataset.md
+    - text: Obtener un conjunto de datos para agregar filas
+      url: walkthrough-push-data-get-datasets.md
+    - text: Agregar filas a una tabla de Power BI
+      url: walkthrough-push-data-add-rows.md
+- title: Trabajar con datos
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Directiva de retención automática para datos en tiempo real
+      url: api-automatic-retention-policy-for-real-time-data.md
+    - text: Limitaciones de la API de REST de Power BI
+      url: api-rest-api-limitations.md
+    - text: Propiedades del conjunto de datos
+      url: api-dataset-properties.md
+  - linkListType: how-to-guide
+    links:
+    - text: Configurar credenciales
+      url: configure-credentials.md
+- title: Referencias y recursos
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: API REST de Power BI
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Referencia de la API de REST de Power BI
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: Centro para desarrolladores
+      url: https://powerbi.microsoft.com/developers/
+    - text: Bibliotecas de Power BI
+      url: https://www.nuget.org/profiles/powerbi

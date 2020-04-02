@@ -1,93 +1,110 @@
-### YamlMime:Landing
+### YamlMime:Hub
 title: Documentación para desarrolladores de Power BI
-summary: La documentación de Power BI proporciona información de expertos y respuestas a sus necesidades, sin importar cómo utilice Power BI.
+summary: Como desarrollador de Power BI, puede insertar contenido de Power BI, desarrollar un objeto visual de Power BI y automatizar procesos de Power BI.
+brand: power-bi
 metadata:
   title: Documentación para desarrolladores de Power BI
-  description: La documentación de Power BI proporciona información de expertos y respuestas a sus necesidades, sin importar cómo utilice Power BI.
+  description: Como desarrollador de Power BI, puede insertar contenido de Power BI, desarrollar un objeto visual de Power BI y automatizar procesos de Power BI.
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-developer
-  ms.topic: landing-page
+  ms.topic: hub-page
   ms.collection: collection
-  author: maggiesMSFT
-  ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: b03678dba371ed26a8965c2ebbcd26453689cea2
-  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 03/18/2020
-  ms.locfileid: "79487772"
-landingContent:
-- title: Sobre Power BI para desarrolladores
-  linkLists:
-  - linkListType: overview
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80487796"
+highlightedContent:
+  items:
+  - title: Análisis integrado con Power BI
+    itemType: overview
+    url: embedded/embedding.md
+  - title: ¿Qué es Power BI Embedded de Azure?
+    itemType: overview
+    url: embedded/azure-pbie-what-is-power-bi-embedded.md
+  - title: Objetos visuales en Power BI
+    itemType: overview
+    url: visuals/power-bi-custom-visuals.md
+  - title: ¿Qué pueden hacer los desarrolladores con la API de Power BI?
+    itemType: overview
+    url: automation/overview-of-power-bi-rest-api.md
+conceptualContent:
+  items:
+  - title: Análisis insertados
     links:
-    - text: Qué pueden hacer los desarrolladores
-      url: what-can-you-do.md
-    - text: Objetos visuales en Power BI
-      url: visuals/power-bi-custom-visuals.md
-    - text: Qué es la inserción
-      url: embedded/embedding.md
-    - text: Qué es la API de Power BI
-      url: automation/overview-of-power-bi-rest-api.md
-  - linkListType: reference
+    - url: embedded/embedding.md
+      itemType: overview
+      text: Análisis integrado con Power BI
+    - url: embedded/azure-pbie-what-is-power-bi-embedded.md
+      itemType: overview
+      text: ¿Qué es Power BI Embedded de Azure?
+    - url: embedded/embedded-capacity.md
+      itemType: concept
+      text: Capacidad y SKU
+    footerLink:
+      url: embedded/index.yml
+      text: Ver más
+  - title: Objetos visuales de Power BI
     links:
-    - text: Centro de desarrolladores
-      url: https://powerbi.microsoft.com/developers/
-    - text: Ejemplos para desarrolladores
-      url: https://github.com/Microsoft/PowerBI-Developer-Samples
-    - text: Wiki de JavaScript
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
-    - text: API de REST
+    - url: visuals/power-bi-custom-visuals.md
+      itemType: overview
+      text: Objetos visuales en Power BI
+    - url: visuals/custom-visual-develop-tutorial.md
+      itemType: tutorial
+      text: Desarrollo de un objeto visual de Power BI
+    - url: visuals/office-store.md
+      itemType: how-to-guide
+      text: Publicación de objetos visuales de Power BI en el Centro de partners
+    footerLink:
+      url: visuals/index.yml
+      text: Ver más
+  - title: Automatización
+    links:
+    - url: automation/overview-of-power-bi-rest-api.md
+      itemType: overview
+      text: ¿Qué pueden hacer los desarrolladores con la API de Power BI?
+    - url: automation/walkthrough-push-data.md
+      itemType: tutorial
+      text: Inserción de datos en un conjunto de datos de Power BI
+    - url: automation/configure-credentials.md
+      itemType: how-to-guide
+      text: Configurar credenciales
+    footerLink:
+      url: automation/index.yml
+      text: Ver más
+additionalContent:
+  sections:
+  - title: Herramientas relacionadas
+  - items:
+    - title: API REST de Power BI
+      summary: Las API de REST de Power BI proporcionan puntos de conexión de servicio para la inserción, la administración y los recursos de usuario.
       url: https://docs.microsoft.com/rest/api/power-bi/
-    - text: API REST de Azure Resource Manager
+    - title: API de REST de Azure Resource Manager
+      summary: API que proporciona un conjunto de servicios web compatibles con REST que le permiten crear, recuperar, actualizar y eliminar capacidades dedicadas de Power BI.
       url: https://docs.microsoft.com/rest/api/power-bi-embedded/
-- title: Objetos visuales
-  linkLists:
-  - linkListType: tutorial
-    links:
-    - text: Desarrollo de un objeto visual
-      url: visuals/custom-visual-develop-tutorial.md
-  - linkListType: concept
-    links:
-    - text: Preguntas frecuentes sobre los objetos visuales
-      url: visuals/power-bi-custom-visuals-faq.md
-    - text: Instrucciones para objetos visuales
-      url: visuals/guidelines-powerbi-visuals.md
-    - text: Modo de edición avanzada en objetos visuales
-      url: visuals/advanced-edit-mode.md
-  - linkListType: how-to-guide
-    links:
-    - text: Obtención de un objeto visual certificado
-      url: visuals/power-bi-custom-visuals-certified.md
-    - text: Publicación de objetos visuales de Power BI en AppSource
-      url: visuals/office-store.md
-- title: Análisis insertados
-  linkLists:
-  - linkListType: tutorial
-    links:
-    - text: Inserción de contenido para clientes
-      url: embedded/embed-sample-for-customers.md
-    - text: Inserción de contenido para su organización
-      url: embedded/embed-sample-for-your-organization.md
-  - linkListType: concept
-    links:
-    - text: Seguridad de nivel de fila
-      url: embedded/embedded-row-level-security.md
-    - text: Administración de varios inquilinos
-      url: embedded/embed-multi-tenancy.md
-    - text: Preguntas más frecuentes incrustadas
-      url: embedded/embedded-faq.md
-    - text: Permisos
-      url: embedded/power-bi-permissions.md
-  - linkListType: how-to-guide
-    links:
-    - text: Inserción desde aplicaciones
-      url: embedded/embed-from-apps.md
-    - text: Crear un inquilino de Azure Active Directory
-      url: embedded/create-an-azure-active-directory-tenant.md
-    - text: Obtener un token de acceso de Azure AD
-      url: embedded/get-azuread-access-token.md
-    - text: Funcionalidad de Preguntas y respuestas en Power BI Embedded
-      url: embedded/qanda.md
+    - title: Documentación de Power Platform
+      summary: Obtenga información sobre cómo Power BI, Power Apps, Power Automate y Power Virtual Agents funcionan en conjunto para mejorarse entre sí.
+      url: https://docs.microsoft.com/power-platform/
+    - title: Centro para desarrolladores de Power BI
+      summary: Cree con Power BI.
+      url: https://powerbi.microsoft.com/developers/
+    - title: Ejemplos de objetos visuales de Power BI
+      summary: Colección de ejemplos de Power BI con sus bibliotecas de código.
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - title: Bibliotecas de Power BI
+      summary: Bibliotecas de Power BI (NuGet).
+      url: https://www.nuget.org/profiles/powerbi
+    - title: Herramienta de configuración de inserción
+      summary: Configure el entorno de inserción de Power BI.
+      url: https://app.powerbi.com/embedsetup
+    - title: Área de juegos
+      summary: Pruebe las características y explore las API.
+      url: https://aka.ms/pbieplayground
+    - title: Wiki de JavaScript
+      summary: Explore la base de conocimiento de JavaScript.
+      url: https://github.com/Microsoft/powerbi-javascript/wiki
