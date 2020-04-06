@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8124a80f471e33ebbd140a30d6a49e2a762206ee
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858866"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404107"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Ejemplo de recursos humanos para Power BI: Dar un paseo
 
@@ -61,7 +61,7 @@ Como alternativa, puede descargar el Ejemplo de recursos humanos como un [archiv
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obtención del libro de Excel de este ejemplo
 
-Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](https://go.microsoft.com/fwlink/?LinkId=529780). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
+Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](https://go.microsoft.com/fwlink/?LinkId=529780). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Exploración de los ejemplos de Excel en Excel](sample-datasets.md#explore-excel-samples-inside-excel) y obtendrá más información.
 
 ## <a name="new-hires"></a>Nuevas contrataciones
 En primer lugar, veamos las nuevas contrataciones.
@@ -78,8 +78,8 @@ En primer lugar, veamos las nuevas contrataciones.
 3. Examine estos elementos de interés:
 
     * El gráfico combinado **New Hire Count, New Hires SPLY and Actives YoY % Change by Month** (Recuento de nuevas contrataciones, nuevas contrataciones en el mismo período del año anterior, cambio de % interanual de empleados activos por mes) muestra que contratamos un mayor número de empleados cada mes de este año en comparación con el año anterior. Bastantes más algunos meses.
-    * En el gráfico combinado **New Hire Count and Active Employee Count by Region and Ethnicity**, observe que estamos contratando menos empleados en la región **East** .
-    * El gráfico de cascada **New Hires YoY Var by Age Group** muestra que se contratan principalmente empleados jóvenes. Esta tendencia puede deberse a la naturaleza de los trabajos, principalmente a tiempo parcial.
+    * En el gráfico combinado **New Hire Count and Active Employee Count by Region and Ethnicity** (Recuento de nuevas contrataciones y recuento de empleados activos por región y origen étnico), observe que estamos contratando menos empleados en la región **East** (Este).
+    * El gráfico de cascada **New Hires YoY Var by Age Group** (Variación interanual de nuevas contrataciones por grupo de edad) muestra que se contratan principalmente empleados jóvenes. Esta tendencia puede deberse a la naturaleza de los trabajos, principalmente a tiempo parcial.
     * El gráfico circular **New Hire Count by Gender** (Recuento de nuevas contrataciones por mes) muestra una división bastante uniforme.
 
     ¿Puede extraer alguna idea clara? Por ejemplo, una región donde la división por género no sea uniforme. 
@@ -108,7 +108,7 @@ Vamos a examinar los datos de los empleados actualmente activos y de aquellos qu
     * Si se examinan los gráficos circulares, se puede ver que hay una división uniforme en nuestros empleados activos por género y grupo de edad. Seleccione los diferentes grupos de edad para las diferencias de género divididas por edad. ¿Tenemos una división uniforme por género en cada grupo de edad?
 
 ## <a name="reasons-for-separation"></a>Motivos de cese de actividad laboral
-Echemos un vistazo al informe en la Vista de edición. Puede cambiar los gráficos circulares para mostrar los datos de ceses de actividad laboral de los empleados en lugar de los datos de empleados activos.
+Echemos un vistazo al informe en la vista de edición. Puede cambiar los gráficos circulares para mostrar los datos de ceses de actividad laboral de los empleados en lugar de los datos de empleados activos.
 
 1. Seleccione **Editar informe** en la esquina superior izquierda.
 

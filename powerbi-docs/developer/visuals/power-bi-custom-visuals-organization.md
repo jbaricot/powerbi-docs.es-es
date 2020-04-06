@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab2aa7f1771c09a7ec725f9cc533717e7daf11a0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383514"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464583"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Objetos visuales de la organización en Power BI
 
@@ -35,7 +35,7 @@ Para obtener más información sobre cómo utilizar los objetos visuales de Powe
 Para obtener más información sobre cómo administrar, implementar y administrar objetos visuales de Power BI de la organización, consulte el siguiente artículo: [Obtenga información sobre implementación y administración de objetos visuales de Power BI de organización](https://go.microsoft.com/fwlink/?linkid=866790).
 
 > [!WARNING]
-> Un objeto visual personalizado podría contener código que presente riesgos para la seguridad o la privacidad. Asegúrese de que confía en el autor y el origen de cualquier objeto visual personalizado antes de implementarlo en el repositorio de la organización.
+> Un objeto visual de Power BI instalado desde un archivo puede contener código con riesgos para la seguridad o la privacidad. Asegúrese de que confía en el autor y el origen de cualquier archivo de objeto visual de Power BI antes de implementarlo en el repositorio de la organización.
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
@@ -45,7 +45,9 @@ Administrador:
 
 * No se admiten objetos visuales de Power BI heredados (por ejemplo, los que no se compilan en las nuevas API con control de versiones).
 
-* Si se elimina un objeto visual personalizado del repositorio, los informes existentes que usen el objeto visual eliminado dejarán de representarlo. La operación de eliminación del repositorio no es reversible. Para deshabilitar temporalmente un objeto visual personalizado, use la característica "Deshabilitar".
+* Si se elimina un objeto visual de Power BI de AppSource o un archivo, los informes existentes que usen el objeto visual eliminado dejarán de representarlo. La eliminación del repositorio no es reversible. Para deshabilitar temporalmente un objeto visual de Power BI de AppSource o un archivo, use la característica "Deshabilitar".
+
+* Los objetos visuales de Power BI de la organización no se admiten en el servidor de informes de Power BI.
 
 Usuario final:
 

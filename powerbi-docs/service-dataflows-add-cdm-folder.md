@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73872688"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404763"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Incorporación de una carpeta de CDS a Power BI como flujo de datos (versión preliminar)
 
@@ -24,9 +24,10 @@ En Power BI, puede agregar carpetas de Common Data Service (CDS) almacenadas en 
 
 Hay algunos requisitos para la creación de flujos de datos desde las carpetas de CDS, como se describe en la lista siguiente:
 
+* Un administrador debe vincular la cuenta de almacenamiento de ADLS Gen2 dentro de Power BI para poder usarla. Consulte [Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos](service-dataflows-connect-azure-data-lake-storage-gen2.md) para obtener información sobre cómo vincular una cuenta de ADLS Gen2 a Power BI.
 * La creación de flujos de datos desde carpetas de CDS *solo* está disponible en la [nueva experiencia de área de trabajo](service-create-the-new-workspaces.md). 
 * Para agregar una carpeta de CDS a Power BI, es necesario que el usuario que agrega la carpeta tenga [autorización para la carpeta de CDS y sus archivos](https://go.microsoft.com/fwlink/?linkid=2029121).
-* Debe tener concedidos permisos de lectura y ejecución en todos los archivos y carpetas de la carpeta de CDS para agregarlos a Power BI.
+* Debe tener concedidos permisos de lectura y ejecución en todos los archivos y carpetas de la carpeta de CDS para agregarlos a Power BI.
 
 En las secciones siguientes se describe cómo crear un flujo de datos desde una carpeta de CDS.
 
@@ -57,12 +58,12 @@ Al trabajar con permisos para un flujo de datos creado a partir de una carpeta d
 
 Las listas siguientes ayudan a aclarar cómo funcionan los flujos de datos de carpetas de CDS con Power BI.
 
-Áreas de trabajo de Power BI Pro, Premium y Embedded:
+Áreas de trabajo de Power BI Pro, Premium y Embedded:
 * Los flujos de datos de carpetas de CDS no se pueden editar
 * Los permisos para leer un flujo de datos creado a partir de una carpeta de CDS son administrados por el propietario de la carpeta de CDS y no por Power BI.
 
 Power BI Desktop:
-* Solo los usuarios que tengan autorización para el área de trabajo en la que se creó el flujo de datos, y para la carpeta de CDS, pueden acceder a sus datos desde el conector de flujos de datos de Power BI.
+* Solo los usuarios que tengan autorización para el área de trabajo en la que se creó el flujo de datos y la carpeta de CDS pueden acceder a sus datos desde el conector de flujos de datos de Power BI.
 
 
 También hay algunos otros aspectos que se deben tener en cuenta y que se describen en la lista siguiente:
@@ -71,13 +72,13 @@ También hay algunos otros aspectos que se deben tener en cuenta y que se descri
 * Las entidades vinculadas no están disponibles para flujos de datos creados a partir de carpetas de CDS
 
 
-Los clientes de **Power BI Desktop** no pueden acceder a los flujos de datos almacenados en la cuenta de Azure Data Lake Storage Gen2, a menos que sean propietarios del flujo de datos o que tengan autorización explícita para la carpeta de CDS del flujo de datos. Considere la siguiente situación:
+Los clientes de **Power BI Desktop** no pueden acceder a los flujos de datos almacenados en la cuenta de Azure Data Lake Storage Gen2, a menos que sean propietarios del flujo de datos o que tengan autorización explícita para la carpeta de CDS del flujo de datos. Considere la siguiente situación:
 
-1.  Anna crea un área de trabajo y la configura para almacenar los flujos de datos de una carpeta de CDS.
-2.  Ben, que también es miembro del área de trabajo que ha creado Anna, quiere usar Power BI Desktop y el conector de flujo de datos para obtener datos del flujo de datos que ha creado su compañera.
-3.  Ben recibe un error porque no se le ha agregado como usuario autorizado a la carpeta de CDS del flujo de datos en la instancia de Data Lake.
+1.    Anna crea un área de trabajo y la configura para almacenar los flujos de datos de una carpeta de CDS.
+2.    Ben, que también es miembro del área de trabajo que ha creado Anna, quiere usar Power BI Desktop y el conector de flujo de datos para obtener datos del flujo de datos que ha creado su compañera.
+3.    Ben recibe un error porque no se le ha agregado como usuario autorizado a la carpeta de CDS del flujo de datos en la instancia de Data Lake.
 
-    ![Error al intentar usar el flujo de datos](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
+  ![Error al intentar usar el flujo de datos](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
 Para resolver este problema, Ben debe tener permisos de lector para la carpeta de CDS y sus archivos. Puede aprender más sobre cómo acceder a la carpeta de CDS en [este artículo](https://go.microsoft.com/fwlink/?linkid=2029121).
 

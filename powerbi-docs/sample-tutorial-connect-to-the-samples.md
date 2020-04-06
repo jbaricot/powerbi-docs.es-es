@@ -1,37 +1,37 @@
 ---
-title: Conexión a los ejemplos en el servicio Power BI
-description: Aprenda a instalar y explorar los ejemplos en el servicio Power BI.
+title: Exploración del ejemplo de análisis de minoristas
+description: Aprenda a instalar y explorar el ejemplo de análisis de minoristas en el servicio Power BI y en Power BI Desktop.
 author: maggiesMSFT
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f18ec650167b7872cb332bc9ccd606f7ea1f7500
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762172"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404606"
 ---
-#  <a name="import-and-open-sample-packs-for-power-bi"></a>Importación y apertura de paquetes de ejemplo para Power BI
+# <a name="explore-the-retail-analysis-sample"></a>Exploración del ejemplo de análisis de minoristas
 
 En este tutorial, se muestra cómo: 
-- Importar un paquete de contenido de ejemplo, agregarlo al servicio de Power BI y abrir el contenido. Un *paquete de contenido* es un tipo de ejemplo en el que el conjunto de datos está integrado en un panel y un informe. 
-- Abra un archivo .pbix de ejemplo en Power BI Desktop.
+- Importar el paquete de contenido de ejemplo de análisis de minoristas, agregarlo al servicio de Power BI y abrir el contenido. Un *paquete de contenido* es un tipo de ejemplo en el que el conjunto de datos está integrado en un panel y un informe. 
+- Abra el archivo .pbix del ejemplo de análisis de minoristas en Power BI Desktop.
 
 Para obtener más información, vea [Conjuntos de datos de ejemplo para Power BI](sample-datasets.md). En ese artículo, obtendrá información sobre los ejemplos: cómo obtenerlos, dónde guardarlos, cómo usarlos y algunas de las historias que nos explica cada ejemplo. 
 
 ## <a name="prerequisites"></a>Requisitos previos
-Los ejemplos están disponibles para el servicio de Power BI y para Power BI Desktop. Para continuar, usaremos el ejemplo Retail Analysis.
+Los ejemplos están disponibles para el servicio de Power BI y para Power BI Desktop. Estamos utilizando el ejemplo de análisis de minoristas, si quiere continuar.
 
 El paquete de contenido *Ejemplo de análisis de minoristas* que se usa en este tutorial se compone de un panel, un informe y un conjunto de datos.
 Para familiarizarse con este paquete de contenido en particular y su escenario, vea [Ejemplo de análisis de venta minorista para Power BI: paseo](sample-retail-analysis.md) antes de empezar.
 
-## <a name="samples-in-the-power-bi-service"></a>Ejemplos en el servicio de Power BI
+## <a name="import-the-sample-in-the-power-bi-service"></a>Importación del ejemplo en el servicio Power BI
 
 1. Abra el servicio Power BI (app.powerbi.com), inicie sesión y abra el área de trabajo donde desea guardar el ejemplo. 
 
@@ -94,8 +94,8 @@ Ahora, explore el panel, el conjunto de datos y los informes por su cuenta. Hay 
      
     ![Informe de conclusiones](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
-## <a name="samples-in-power-bi-desktop"></a>Ejemplos en Power BI Desktop 
-Al abrir por primera vez el archivo .pbix de ejemplo en Power BI Desktop, se mostrará en la vista Informe, donde puede explorar, crear y modificar cualquier número de páginas del informe con visualizaciones. La vista de informes proporciona prácticamente la misma experiencia de diseño que la vista de edición de un informe en el servicio de Power BI. Puede mover visualizaciones, copiar y pegar, combinar, etc. 
+## <a name="download-the-sample-in-power-bi-desktop"></a>Descarga del ejemplo en Power BI Desktop 
+Al abrir por primera vez el archivo .pbix de ejemplo en Power BI Desktop, se mostrará en la vista Informe, donde puede explorar, crear y modificar cualquier número de páginas del informe con visualizaciones. La vista de informes proporciona prácticamente la misma experiencia de diseño que la vista de edición de un informe en el servicio Power BI. Puede mover visualizaciones, copiar y pegar, combinar, etc. 
 
 A diferencia de la edición de informes en el servicio de Power BI, en Power BI Desktop también puede trabajar con sus consultas y modelar los datos para asegurarse de que admitan las mejores conclusiones en sus informes. A continuación, puede guardar el archivo de Power BI Desktop donde quiera, ya sea en la unidad local o en la nube.
 

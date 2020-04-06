@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381132"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404175"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar Power BI Desktop optimizado para el servidor de informes de Power BI
 
@@ -62,7 +62,7 @@ Al editar un informe de Power BI desde Power BI Report Server, así como al crea
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
-Los informes de Power BI de Power BI Report Server, del servicio Power BI (https://app.powerbi.com) ) y de las aplicaciones móviles de Power BI actúan prácticamente igual, pero hay algunas características diferentes.
+Los informes de Power BI de Power BI Report Server del servicio Power BI (`https://app.powerbi.com`) y de las aplicaciones móviles de Power BI actúan prácticamente igual, pero hay algunas características diferentes.
 
 ### <a name="selecting-a-language"></a>Selección de un idioma
 

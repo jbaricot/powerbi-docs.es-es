@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 403537f8cd18948c99cc4dffb911009771a8b806
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040454"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404734"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Creación y uso de flujos de datos en Power BI
 
@@ -32,7 +32,7 @@ Hay tres pasos principales para usar un flujo de datos:
 2. Programar la frecuencia de actualización de los datos que desea incorporar a su flujo de datos
 3. Crear el conjunto de datos mediante el flujo de datos con Power BI Desktop 
 
-En las secciones siguientes, observamos cada uno de estos pasos y nos familiarizamos con las herramientas proporcionadas para completar cada paso. Comencemos.
+En las secciones siguientes, observamos cada uno de estos pasos y nos familiarizamos con las herramientas proporcionadas para completar cada paso. Empecemos.
 
 ## <a name="creating-a-dataflow"></a>Creación de un flujo de datos
 Para crear un flujo de datos, inicie el servicio Power BI en un explorador y luego seleccione un **área de trabajo** (los flujos de datos no están disponibles en *Mi área de trabajo* en el servicio Power BI) en el panel de navegación de la izquierda, como se muestra en la siguiente pantalla. También puede crear un área de trabajo en el que crear el flujo de datos. 
@@ -75,7 +75,7 @@ Si desea ver el código que el Editor de consultas está creando con cada paso, 
 
 ### <a name="dataflows-and-the-common-data-model-cdm"></a>Flujos de datos y Common Data Service (CDM)
 
-Las entidades de flujos de datos incluyen nuevas herramientas para asignar con facilidad los datos empresariales a Common Data Service (esquema estandarizado de Microsoft), enriquecerlos con datos de Microsoft y de terceros y obtener acceso simplificado a aprendizaje automático. Estas nuevas funcionalidades se pueden usar para ofrecer información detallada inteligente y útil en los datos empresariales. Una vez completadas todas las transformaciones en el paso de edición de consultas, puede asignar columnas de las tablas de origen de datos a campos de entidad estándar, según se define en Common Data Service. Las entidades estándar tienen un esquema conocido definido por Common Data Service.
+Las entidades de flujos de datos incluyen nuevas herramientas para asignar con facilidad los datos empresariales a Common Data Model (esquema estandarizado de Microsoft), enriquecerlos con datos de Microsoft y de terceros y obtener acceso simplificado a aprendizaje automático. Estas nuevas funcionalidades se pueden usar para ofrecer información detallada inteligente y útil en los datos empresariales. Una vez completadas todas las transformaciones en el paso de edición de consultas, puede asignar columnas de las tablas de origen de datos a campos de entidad estándar, según se define en Common Data Model. Las entidades estándar tienen un esquema conocido definido por Common Data Service.
 
 Obtenga información sobre este enfoque y sobre Common Data Service en el artículo [¿Qué es Common Data Service?](https://docs.microsoft.com/powerapps/common-data-model/overview)
 
@@ -127,7 +127,7 @@ Para más información sobre la programación de actualizaciones, vea el artícu
 
 ## <a name="connect-to-your-dataflow-in-power-bi-desktop"></a>Conexión a un flujo de datos en Power BI Desktop
 
-Una vez creado su flujo de datos y programada la frecuencia de actualización de cada origen de datos que rellenará el modelo, está listo para el tercer y último paso, que se conecta a su flujo de datos desde **Power BI Desktop**. 
+Una vez creado su flujo de datos y programada la frecuencia de actualización de cada origen de datos que rellenará el modelo, está listo para el tercer y último paso, que se conecta a su flujo de datos desde **Power BI Desktop**. 
 
 Para conectarse al flujo de datos, en Power BI Desktop, seleccione **Obtener datos > Power BI > Flujos de datos de Power BI (Beta)** , como se muestra en la siguiente imagen.
 
@@ -150,9 +150,9 @@ Puede haber ocasiones en las que la conexión a los orígenes de datos de los fl
 
 * **Conector de Salesforce**: el uso de una cuenta de evaluación para Salesforce con flujos de datos genera un error de conexión sin proporcionar información. Para resolver este problema, use una cuenta de Salesforce de producción o una cuenta de desarrollador para las pruebas.
 
-* **Conector de SharePoint**: asegúrese de proporcionar la dirección raíz del sitio de SharePoint, sin subcarpetas ni documentos. Por ejemplo, use un vínculo similar al siguiente: https://microsoft.sharepoint.com/teams/ObjectModel/ 
+* **Conector de SharePoint**: asegúrese de proporcionar la dirección raíz del sitio de SharePoint, sin subcarpetas ni documentos. Por ejemplo, use un vínculo similar al siguiente: `https://microsoft.sharepoint.com/teams/ObjectModel/` 
 
-* **Conector de archivos JSON**: actualmente puede conectarse a un archivo JSON solo con autenticación básica.  La conexión a un archivo de JSON proporcionando las credenciales en la URL (por ejemplo, https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. ) **no** se admite actualmente.  
+* **Conector de archivos JSON**: actualmente puede conectarse a un archivo JSON solo con autenticación básica.  La conexión a un archivo de JSON proporcionando las credenciales en la URL (por ejemplo, `https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg`) **no** se admite actualmente.  
 
 * **Azure SQL Data Warehouse**: actualmente los flujos de datos no admiten la autenticación de Azure Active Directory (AAD) para Azure SQL Data Warehouse. Use la autenticación básica en este caso.
 

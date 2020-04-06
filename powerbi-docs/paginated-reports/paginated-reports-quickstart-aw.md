@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: aa916afbf439beb7019bd6f0af30cc56ad903704
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207238"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404886"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Creación de un informe paginado y su carga en el servicio Power BI
 
@@ -286,7 +286,7 @@ Una mejora más del formato antes de publicar el informe en el servicio Power BI
 
 Ahora que ha creado este informe paginado, es el momento de cargarlo en el servicio Power BI.
 
-1. En el servicio Power BI, (https://app.powerbi.com) ), en el panel de navegación, seleccione **Áreas de trabajo** > **Crear área de trabajo**.
+1. En el servicio Power BI, (`https://app.powerbi.com`), en el panel de navegación, seleccione **Áreas de trabajo** > **Crear área de trabajo**.
 
 2. Asigne al área de trabajo el nombre **Azure AW** u otro nombre exclusivo. Es el único miembro por ahora. 
 

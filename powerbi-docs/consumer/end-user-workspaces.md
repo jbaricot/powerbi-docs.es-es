@@ -6,22 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/05/2020
+ms.date: 03/10/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 0f0957962a761623262268f8c84c338000ba56f2
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6886bc628add44f94c91b77cada97abf81635e78
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79078988"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302278"
 ---
 # <a name="collaborate-in-workspaces"></a>Colaboración en áreas de trabajo
 
  Las *áreas de trabajo* son lugares de colaboración con compañeros en contenido específico. Los *diseñadores* de Power BI crean las áreas de trabajo para incluir colecciones de paneles, informes y aplicaciones. 
 
+## <a name="types-of-workspaces"></a>Tipos de áreas de trabajo
+En **Mi área de trabajo** se almacena todo el contenido que se crea y del que se es propietario. Puede considerarla como su espacio aislado o área de trabajo para su propio contenido. Para muchos consumidores de Power BI, la sección **Mi área de trabajo** está vacía porque su trabajo no conlleva la creación de contenido. Los consumidores, por definición, consumen datos creados por otros usuarios y usan esos datos para tomar decisiones empresariales. En el caso de que también se dedique a crear contenido, le recomendamos que lea [los artículos de Power BI para diseñadores](../create-reports/index.yml).
 
-<art showing different wss>
+Las **áreas de trabajo de aplicación** incluyen todo el contenido de una aplicación específica. Cuando un *diseñador* crea una aplicación, agrupa todo el contenido necesario para que esta se pueda usar. El contenido puede incluir paneles, informes, aplicaciones y conjuntos de datos. No todas las aplicaciones contendrán estos cuatro elementos de contenido. Una aplicación puede contener solo un panel, tres elementos de cada tipo o incluso veinte informes. Todo ello depende de lo que el *diseñador* incluya en la aplicación. Las áreas de trabajo de aplicaciones para *consumidores* normalmente no incluyen conjuntos de datos.
+
+<!--<art showing different wss> -->
 
 ## <a name="roles-in-the-workspaces"></a>Roles en las áreas de trabajo
 
@@ -42,3 +46,16 @@ Puede haber ocasiones en las que se le invitará a un área de trabajo fuera de 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Aplicaciones de Power BI](end-user-apps.md)    
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+
+
+
+
+
+
+
+
+
+
+
+
+

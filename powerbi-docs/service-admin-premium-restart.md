@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8bb95da5383eedac57fb705f697a8481e934e379
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: ccc14cb041c5131d2cb06a8ad362b7054bcde857
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79202031"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464688"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Reinicio de una capacidad de Power BI Premium
 
@@ -40,7 +40,7 @@ Haga lo siguiente para reiniciar una capacidad.
 
 1. En el portal de administración de Power BI, en la pestaña **Configuración de la capacidad**, vaya a la capacidad. 
 
-1. Agregue la *marca de característica* **CapacityRestart** a la dirección URL de la capacidad https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true.
+1. Agregue la *marca de característica* **CapacityRestart** a la dirección URL de la capacidad: `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
 
 1. En **Configuración avanzada** > **REINICIO DE LA CAPACIDAD**, seleccione **Reinicio de capacidad**.
 

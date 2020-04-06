@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 15a4d88ac9de5d50caeb975afa8ad1758246031f
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881811"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551084"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Descarga de un informe desde el servicio Power BI a Power BI Desktop (versión preliminar)
 En Power BI Desktop, puede publicar un informe (un archivo *.pbix*) desde el equipo local en el servicio Power BI. Los informes de Power BI también pueden ir en la dirección contraria: puede descargar un informe desde el servicio Power BI a Power BI Desktop. En cualquier caso, la extensión de un informe de Power BI es .pbix.
 
-Más adelante en este artículo se describen algunas limitaciones y consideraciones que deben tenerse en cuenta.
+Hay algunas limitaciones que se deben tener en cuenta, que se describen en la sección [Consideraciones y solución de problemas](#considerations-and-troubleshooting) de este artículo.
 
 ![Menú desplegable de archivos](media/service-export-to-pbix/power-bi-file-export.png)
 
@@ -55,6 +55,7 @@ Hay algunas consideraciones y limitaciones importantes asociadas con la descarga
 * Use siempre la versión más reciente de Power BI Desktop para abrir los archivos descargados. Es posible que los archivos .pbix descargados no se abran en versiones no actuales de Power BI Desktop.
 * Si el administrador ha desactivado la capacidad de descargar datos, esta característica no será visible en el servicio Power BI.
 * Los conjuntos de datos con actualización incremental no se pueden descargar en un archivo .pbix.
+* Si crea un informe de Power BI basado en un conjunto de datos de un área de trabajo y lo publica en otra área de trabajo, usted y sus usuarios no podrán descargarlo. La característica de descarga no se admite actualmente en este escenario.
 
 ## <a name="next-steps"></a>Pasos siguientes
 Vea el vídeo de un minuto que **Guy in a Cube** dedicó a esta característica:

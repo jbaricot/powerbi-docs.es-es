@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d871fa15c999e5b6c83b0334d6c978b2ba3c9870
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4863bfe3d99a63fbf4ad49834e66ecb8fcaf5525
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858703"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404149"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de oportunidades para Power BI: Dar un paseo
 
@@ -66,7 +66,7 @@ Como alternativa, puede descargar el Ejemplo de análisis de oportunidades como 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obtención del libro de Excel de este ejemplo
 
-Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](https://go.microsoft.com/fwlink/?LinkId=529782). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
+Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](https://go.microsoft.com/fwlink/?LinkId=529782). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Exploración de los ejemplos de Excel en Excel](sample-datasets.md#explore-excel-samples-inside-excel) y obtendrá más información.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>¿Qué indica el panel?
 La jefa de ventas creó un panel para realizar el seguimiento de las métricas que considera más importantes. Si encuentra algo interesante, puede seleccionar un icono para examinar los datos:

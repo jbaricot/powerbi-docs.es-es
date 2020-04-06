@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f53f7a1e51ce1cb17c337569ba770ac2b5643d19
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381178"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329659"
 ---
 # <a name="what-is-power-bi-premium"></a>¿Qué es Power BI Premium?
 
-Power BI Premium proporciona recursos dedicados y mejorados para ejecutar el servicio Power BI en la organización. Por ejemplo:
+Puede usar Power BI Premium para obtener recursos dedicados y mejorados para su organización, de modo que los usuarios de su organización puedan usar el servicio Power BI con un mejor rendimiento y capacidad de respuesta. Por ejemplo, con una suscripción Power BI Premium, usted y los usuarios de su organización obtienen acceso a:
 
 > [!div class="checklist"]
 > * Mayor escalabilidad y rendimiento
@@ -29,13 +29,16 @@ Power BI Premium proporciona recursos dedicados y mejorados para ejecutar el ser
 > * Admitir la residencia de datos por región (Multi-Geo)
 > * Compartir datos con cualquier usuario sin tener que comprar una licencia por usuario
 
+
+![Portal de administración](media/service-premium-what-is/premium-admin-portal.png) 
+
 En este artículo se presentan las características principales de Power BI Premium. Si es necesario, se proporcionan vínculos a otros artículos con información más detallada. Para más información sobre Power BI Pro y Power BI Premium, consulte la sección de _comparación de las características de Power BI_ de [Precios de Power BI](https://powerbi.microsoft.com/pricing/).
 
 ## <a name="subscriptions-and-licensing"></a>Suscripciones y licencias
 
 Power BI Premium es una suscripción de Office 365 de nivel de inquilino disponible en dos familias de SKU (referencia de almacén):
 
-- SKU **P** (P1-P3) para la inserción y las funciones empresariales, que requieren un compromiso mensual o anual, se facturan mensualmente e incluyen una licencia para instalar Power BI Report Server en el entorno local.
+- SKU **P** (P1-P5) para la inserción y las funciones empresariales, que requieren un compromiso mensual o anual, se facturan mensualmente e incluyen una licencia para instalar Power BI Report Server en el entorno local.
 
 - SKU **EM** (EM1-EM3) para la inserción de la _organización_, que requieren un compromiso anual que se factura mensualmente. Las SKU EM1 y EM2 solo están disponibles a través de planes de licencias por volumen. No se pueden comprar directamente.
 
@@ -81,6 +84,8 @@ Los recursos y los límites de cada SKU Premium (y la SKU A de tamaño equivalen
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 > [!NOTE]
@@ -219,7 +224,7 @@ Para más información, vea [Power BI Report Server](report-server/get-started.m
 
 ## <a name="unlimited-content-sharing"></a>Uso compartido de contenido ilimitado
 
-Con Premium, todos los usuarios dentro o fuera de la organización pueden ver el contenido de Power BI, incluidos los informes paginados e interactivos, sin necesidad de comprar licencias individuales. 
+Con Premium, todos los usuarios dentro o fuera de la organización pueden ver el contenido de Power BI, incluidos los informes paginados e interactivos, sin necesidad de comprar licencias individuales. 
 
 ![Uso compartido de contenido](media/service-premium-what-is/premium-sharing.png)
 
@@ -229,13 +234,14 @@ Para más información, vea [Licencias de Power BI](service-admin-licensing-orga
 
 ## <a name="analysis-services-in-power-bi-premium-preview"></a>Analysis Services en Power BI Premium (versión preliminar)
 
-De forma interna, el **motor Vertipaq de Analysis Services** probado por Microsoft impulsa los conjuntos de datos de Power BI. Analysis Services proporciona la capacidad de programación y compatibilidad con herramientas y aplicaciones cliente a través de las bibliotecas de cliente y las API que admiten el protocolo XMLA de estándar abierto. En la actualidad, los conjuntos de datos de Power BI Premium admiten conexiones *de solo lectura* desde herramientas y aplicaciones cliente de Microsoft y de terceros a través de **puntos de conexión XMLA**. 
+De forma interna, el **motor Vertipaq de Analysis Services** probado por Microsoft impulsa los conjuntos de datos y áreas de trabajo de Power BI Premium. Analysis Services proporciona la capacidad de programación y compatibilidad con herramientas y aplicaciones cliente a través de las bibliotecas de cliente y las API que admiten el protocolo XMLA de estándar abierto. De manera predeterminada, las cargas de trabajo del conjunto de datos de la capacidad Premium de Power BI admiten conexiones *de solo lectura* desde herramientas y aplicaciones cliente de Microsoft y de terceros a través de un **punto de conexión de XMLA**. Los administradores de capacidad también pueden optar por deshabilitar o permitir las operaciones de *lectura/escritura* a través del punto de conexión.
 
-Herramientas de Microsoft como SQL Server Management Studio y SQL Server Profiler, y aplicaciones de terceros como DAX Studio y aplicaciones de visualización de datos, se pueden conectar a conjuntos de datos Premium y consultarlos mediante XMLA, MDX, DAX, DMV y eventos de seguimiento. 
+Con el acceso de solo lectura, herramientas de Microsoft como SQL Server Management Studio (SSMS) y SQL Server Profiler, y aplicaciones de terceros como DAX Studio y aplicaciones de visualización de datos, se pueden conectar a conjuntos de datos Premium y consultarlos mediante XMLA, MDX, DAX, DMV y eventos de seguimiento. Con el acceso de lectura y escritura, herramientas de modelado de datos empresariales como Visual Studio con la extensión de proyectos de Analysis Services o Tabular Editor de código abierto pueden implementar modelos tabulares como un conjunto de datos en un área de trabajo Premium. Y con herramientas como SSMS, los administradores pueden usar el lenguaje de scripting de modelos tabulares (TMSL) para generar scripts de cambios de metadatos y escenarios de actualización de datos avanzados. 
+
+Para obtener más información, consulte [Conectividad del conjunto de datos con el punto de conexión de XMLA](service-premium-connect-tools.md).
 
 ![SSMS](media/service-premium-what-is/connect-tools-ssms-dax.png)
 
-Para más información, vea [Conexión a conjuntos de datos con herramientas y aplicaciones cliente](service-premium-connect-tools.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

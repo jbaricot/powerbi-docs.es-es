@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6b2b457c2df8e37b4fac3108061a325261f5574b
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873217"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487772"
 ---
 # <a name="azure-and-power-bi"></a>Azure y Power BI
 
@@ -58,7 +58,7 @@ Inserte visualizaciones de datos, sorprendentes e interactivas, en aplicaciones,
 
 Hay mucha información sobre las API de Power BI en el [Portal para desarrolladores de Power BI](https://dev.powerbi.com).
 
-Para más información, consulte [¿Qué pueden hacer los desarrolladores con Power BI?](developer/what-can-you-do.md).
+Para más información, consulte [¿Qué es Power BI Embedded de Azure?](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
 
 ## <a name="embed-your-power-bi-data-within-your-app"></a>Inserción de los datos de Power BI en la aplicación
 

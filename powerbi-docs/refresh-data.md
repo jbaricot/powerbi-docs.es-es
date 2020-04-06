@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 03/26/2020
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 63275e882d71cd5c47a9a10baf4f0975abc2a845
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488807"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302477"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 
@@ -92,7 +92,7 @@ Una operación de actualización de Power BI puede constar de varios tipos de ac
 
 #### <a name="data-refresh"></a>Actualización de datos
 
-Para los usuarios de Power BI, actualizar los datos normalmente significa importar datos desde los orígenes de datos originales en un conjunto de datos, ya sea mediante una actualización programada o a petición. Puede realizar varias actualizaciones de los conjuntos de datos diariamente; esto podría ser necesario si el origen de datos subyacente cambia con frecuencia. Power BI limita los conjuntos de datos en la capacidad compartida a ocho actualizaciones diarias. Si el conjunto de datos reside en una capacidad Premium, puede programar hasta 48 actualizaciones al día en la configuración de dicho conjunto de datos. Para obtener más información, consulte [Configuración de actualizaciones programadas](#configure-scheduled-refresh) más adelante en este artículo.
+Para los usuarios de Power BI, actualizar los datos normalmente significa importar datos desde los orígenes de datos originales en un conjunto de datos, ya sea mediante una actualización programada o a petición. Puede realizar varias actualizaciones de los conjuntos de datos diariamente; esto podría ser necesario si el origen de datos subyacente cambia con frecuencia. Power BI limita los conjuntos de datos en la capacidad compartida a ocho actualizaciones diarias. Si el conjunto de datos reside en una capacidad Premium, puede programar hasta 48 actualizaciones al día en la configuración de dicho conjunto de datos. Para obtener más información, consulte [Configuración de actualizaciones programadas](#configure-scheduled-refresh) más adelante en este artículo. Los conjuntos de valores de capacidad Premium con el [punto de conexión de XMLA ](service-premium-connect-tools.md) habilitado para lectura y escritura admiten operaciones de actualización ilimitadas cuando se configuran mediante programación con TMSL o PowerShell.
 
 También es importante destacar que la limitación de capacidad compartida de las actualizaciones diarias se aplica tanto a las actualizaciones programadas como a las actualizaciones de API combinadas. También puede desencadenar una actualización a petición si selecciona **Actualizar ahora** en el menú del conjunto de datos, tal y como muestra la captura de pantalla siguiente. Las actualizaciones a petición no se incluyen en la limitación de actualización. Tenga en cuenta también que los conjuntos de datos de una capacidad Premium no imponen limitaciones para las actualizaciones de API. Si está interesado en crear su propia solución de actualización mediante la API REST de Power BI, consulte [Conjuntos de datos: actualizar conjunto de datos](/rest/api/power-bi/datasets/refreshdataset).
 
