@@ -1,167 +1,191 @@
 ---
 title: Entidad de servicio con Power BI
-description: Obtenga información sobre cómo registrar una aplicación en Azure Active Directory con una entidad de servicio para usarla con la inserción de contenido de Power BI.
+description: Obtenga información sobre cómo registrar una aplicación en Azure Active Directory con una entidad de servicio y un secreto de aplicación para usarla con la inserción de contenido de Power BI.
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: nishalit
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 12/12/2019
-ms.openlocfilehash: ce72abc3f3b60423344c2b28f39d9bdbfbcee7cd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.date: 03/30/2020
+ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493512"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403552"
 ---
-# <a name="service-principal-with-power-bi"></a>Entidad de servicio con Power BI
+# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Inserción de contenido de Power BI con entidad de servicio y secreto de aplicación
 
-Con una **entidad de servicio**, puede insertar contenido de Power BI en una aplicación y usar la automatización con Power BI mediante un token **de solo aplicación**. La entidad de servicio es útil cuando se usa **Power BI Embedded** o al **automatizar procesos y tareas de Power BI**.
+La entidad de servicio es un método de autenticación que se puede usar para permitir que una aplicación de Azure AD tenga acceso a las API y el contenido del servicio Power BI.
 
-Cuando se trabaja con Power BI Embedded, el uso de la entidad de servicio ofrece diversas ventajas. Una ventaja importante es que no se necesita una cuenta maestra (una licencia de Power BI Pro, que simplemente es un nombre de usuario y una contraseña para iniciar sesión) para autenticarse en la aplicación. La entidad de servicio usa un identificador y un secreto de aplicación para autenticar la aplicación.
+Al crear una aplicación de Azure Active Directory (Azure AD), se crea un [objeto de entidad de servicio](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object). El objeto de entidad de servicio, también conocido como *entidad de servicio*, permite que Azure AD autentique su aplicación. Una vez autenticada, la aplicación puede acceder a los recursos del inquilino de Azure AD.
 
-Cuando trabaja para automatizar las tareas de Power BI, también puede incluir en un script la forma de procesar y administrar las entidades de servicio para escalarlas.
+Para realizar la autenticación, la entidad de servicio usa el *identificador de aplicación* de la aplicación de Azure AD y uno de los siguientes:
+* Secreto de aplicación
+* Certificado
 
-## <a name="application-and-service-principal-relationship"></a>Relación entre la entidad de servicio y la aplicación
+En este artículo se describe la autenticación de la entidad de servicio mediante el *identificador de aplicación* y el *secreto de aplicación*. Para autenticar mediante una entidad de servicio con un certificado, consulte [Autenticación basada en certificados de Power BI]().
 
-Para acceder a los recursos que protegen a un inquilino de Azure AD, la entidad que requiere el acceso representa una entidad de seguridad. Esta acción se cumple tanto para los usuarios (entidad de usuario) como para las aplicaciones (entidad de servicio).
+## <a name="method"></a>Método
 
-La entidad de seguridad define la directiva de acceso y los permisos para los usuarios y las aplicaciones en el inquilino de Azure AD. Esta directiva de acceso permite características básicas como la autenticación de usuarios y aplicaciones durante el inicio de sesión, y la autorización durante el acceso a los recursos. Para más información, vea [Objetos de aplicación y de entidad de servicio de Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals).
+Para usar la entidad de servicio y un identificador de aplicación con análisis insertados, siga estos pasos:
 
-Cuando se registra una aplicación de Azure AD en Azure Portal, se crean dos objetos en el inquilino de Azure AD:
+1. Cree una [aplicación de Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management).
 
-* Un [objeto de aplicación](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#application-object)
-* Un [objeto de entidad de servicio](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)
+    1. Cree el secreto de la aplicación de Azure AD.
+    
+    2. Obtenga el *identificador de aplicación* y el *secreto de aplicación* de la aplicación.
 
-Considere el objeto de aplicación como la representación *global* de la aplicación para su uso en todos los inquilinos, y el objeto de entidad de servicio como la representación *local* para su uso en un inquilino específico.
+    >[!NOTE]
+    >Estos pasos se describen en el **paso 1**. Para obtener más información sobre la creación de una aplicación de Azure AD, consulte el artículo [Creación de una aplicación de Azure AD](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal).
 
-El objeto de aplicación actúa como la plantilla de la que se que *derivan* propiedades comunes y predeterminadas que se usan en la creación de los correspondientes objetos de entidad de servicio.
+2. Cree de un grupo de seguridad de Azure AD.
 
-Se necesita una entidad de servicio por cada inquilino en el que se use la aplicación, lo que le permite establecer una identidad para el inicio de sesión y el acceso a los recursos que están protegidos por el inquilino. Una aplicación de inquilino único solo tiene una entidad de servicio (en su inquilino principal), que se crea y se puede usar durante el registro de la aplicación.
+3. Habilite la configuración de administración del servicio Power BI.
 
-## <a name="service-principal-with-power-bi-embedded"></a>Entidad de servicio con Power BI Embedded
+4. Agregue la entidad de servicio a su área de trabajo.
 
-Con la entidad de servicio, puede enmascarar la información de la cuenta maestra en la aplicación mediante un identificador y un secreto de aplicación. Ya no es necesario codificar de forma rígida una cuenta maestra en la aplicación para autenticarse.
+5. Inserte el contenido.
 
-Como en las **API de Power BI** y el **SDK de .NET de Power BI** ahora se admiten llamadas con la entidad de servicio, se pueden usar las [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/) con la entidad de servicio. Por ejemplo, puede realizar cambios en las áreas de trabajo, como crear áreas de trabajo, agregar o quitar usuarios de las áreas de trabajo, e importar contenido a áreas de trabajo.
+> [!IMPORTANT]
+> Después de habilitar la entidad de servicio para usarla con Power BI, los permisos de AD de la aplicación ya no tendrán efecto. Los permisos de la aplicación se administrarán desde el portal de administración de Power BI.
 
-Solo se puede usar la entidad de servicio si los artefactos y recursos de Power BI se almacenan en la [nueva área de trabajo de Power BI](../../service-create-the-new-workspaces.md).
+## <a name="step-1---create-an-azure-ad-app"></a>Paso 1: Creación de una aplicación de Azure AD
 
-## <a name="service-principal-vs-master-account"></a>Diferencias entre la entidad de servicio y la cuenta maestra
+Cree una aplicación de Azure AD con uno de estos métodos:
+* Cree la aplicación en [Microsoft Azure Portal](https://ms.portal.azure.com/#allservices).
+* Cree la aplicación mediante [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
 
-Hay diferencias entre el uso de una entidad de servicio y una cuenta maestra estándar (licencia de Power BI Pro) para la autenticación. En la tabla siguiente se resaltan algunas diferencias importantes.
+### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Creación de una aplicación de Azure AD en Microsoft Azure Portal
 
-| Función | Cuenta de usuario maestra <br> (licencia de Power BI Pro) | Entidad de servicio <br> (token de solo aplicación) |
-|------------------------------------------------------|---------------------|-------------------|
-| Puede iniciar sesión en el servicio Power BI  | Sí | No |
-| Está habilitada en el portal de administración de Power BI | No | Sí |
-| [Funciona con áreas de trabajo (v1)](../../service-create-workspaces.md) | Sí | No |
-| [Funciona con las nuevas áreas de trabajo (v2)](../../service-create-the-new-workspaces.md) | Sí | Sí |
-| Tiene que ser un administrador del área de trabajo si se usa con Power BI Embedded | Sí | Sí |
-| Puede usar las API REST de Power BI | Sí | Sí |
-| Se necesita un administrador global para crearla | Sí | No |
-| Puede instalar y administrar una puerta de enlace de datos local | Sí | No |
+1. Inicie sesión en [Microsoft Azure](https://ms.portal.azure.com/#allservices).
 
-## <a name="get-started-with-a-service-principal"></a>Tareas iniciales con una entidad de servicio
+2. Busque **Registros de aplicaciones** y haga clic en el vínculo **Registros de aplicaciones**.
 
-A diferencia del uso de una cuenta maestra tradicional, para utilizar la entidad de servicio (el token de solo aplicación) es necesario configurar varios elementos distintos. Para empezar a trabajar con la entidad de servicio (el token de solo aplicación), tendrá que configurar el entorno adecuado.
+    ![registro de aplicaciones de Azure](media/embed-service-principal/azure-app-registration.png)
 
-1. [Registre una aplicación web del lado servidor](register-app.md) en Azure Active Directory (AAD) para usarla con Power BI. Después de registrar una aplicación puede capturar un identificador y un secreto de aplicación, y el identificador de objeto de entidad de servicio para acceder al contenido de Power BI. Puede crear una entidad de servicio con [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+3. Haga clic en **Nuevo registro**.
 
-    A continuación se muestra script de ejemplo para crear una aplicación de Azure Active Directory.
+    ![nuevo registro](media/embed-service-principal/new-registration.png)
 
-    ```powershell
-    # The app id - $app.appid
-    # The service principal object id - $sp.objectId
-    # The app key - $key.value
+4. Rellene la información necesaria:
+    * **Nombre**: escriba un nombre para la aplicación.
+    * **Tipos de cuenta admitidos**: seleccione tipos de cuenta admitidos.
+    * (Opcional) **URI de redireccionamiento**: escriba un URI si es necesario.
 
-    # Sign in as a user that is allowed to create an app.
-    Connect-AzureAD
+5. Haga clic en **Registrar**.
 
-    # Create a new AAD web application
-    $app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
+6. Después del registro, el *identificador de la aplicación* está disponible en la pestaña **Información general**. Copie y guarde el *identificador de aplicación* para su uso posterior.
 
-    # Creates a service principal
-    $sp = New-AzureADServicePrincipal -AppId $app.AppId
+    ![Identificador de aplicación](media/embed-service-principal/application-id.png)
 
-    # Get the service principal key.
-    $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
-    ```
+7. Haga clic en la pestaña **Certificados y secretos**.
 
-   > [!Important]
-   > Después de habilitar la entidad de servicio para usarla con Power BI, los permisos de AD de la aplicación ya no tendrán efecto. Los permisos de la aplicación se administrarán desde el portal de administración de Power BI.
+     ![identificador de aplicación](media/embed-service-principal/certificates-and-secrets.png)
 
-2.  **Recomendado**: cree un grupo de seguridad en Azure Active Directory (AAD) y agregue la [aplicación](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals) que ha creado a ese grupo de seguridad. Puede crear un grupo de seguridad de AAD con [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+8. Haga clic en **Nuevo secreto de cliente**.
 
-    A continuación se muestra un script de ejemplo para crear un grupo de seguridad y agregarle una aplicación.
+    ![nuevo secreto de cliente](media/embed-service-principal/new-client-secret.png)
 
-    ```powershell
-    # Required to sign in as a tenant admin
-    Connect-AzureAD
+9. En la ventana *Agregar un secreto de cliente*, escriba una descripción, especifique cuándo desea que expire el secreto de cliente y haga clic en **Agregar**.
 
-    # Create an AAD security group
-    $group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
+10. Copie y guarde el valor del *secreto de cliente*.
 
-    # Add the service principal to the group
-    Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
-    ```
+    ![valor de secreto de cliente](media/embed-service-principal/client-secret-value.png)
 
-3. Como administrador de Power BI, tendrá que habilitar la entidad de servicio en la **configuración de desarrollador** en el portal de administración de Power BI. Agregue el grupo de seguridad que ha creado en Azure AD a la sección de grupos de seguridad específicos en la **Configuración del desarrollador**. También puede habilitar el acceso de la entidad de servicio a toda la organización. En ese caso, no es necesario el paso 2.
+    >[!NOTE]
+    >Después de salir de esta ventana, se ocultará el valor de secreto de cliente y no podrá verlo ni copiarlo de nuevo.
 
-   > [!Important]
-   > Las entidades de servicio tienen acceso a las configuraciones de inquilino que están habilitadas para toda la organización o para grupos de seguridad que tienen entidades de servicio como parte del grupo. Para restringir el acceso de entidades de servicio a determinada configuración de inquilino, permita el acceso únicamente a grupos de seguridad específicos o cree un grupo de seguridad dedicado con las entidades de servicio y exclúyalo.
+### <a name="creating-an-azure-ad-app-using-powershell"></a>Creación de una aplicación de Azure AD con PowerShell
 
-    ![Portal de administración](media/embed-service-principal/admin-portal.png)
+En esta sección se incluye un script de ejemplo para crear una nueva aplicación de Azure AD con [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 
-4. Configure el [entorno de Power BI](embed-sample-for-customers.md#set-up-your-power-bi-environment).
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
 
-5. Agregue la entidad de servicio como un **administrador** a la nueva área de trabajo que ha creado. Puede administrar esta tarea a través de las [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) o con el servicio Power BI.
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
 
-    ![Incorporación de una entidad de servicio como administrador a un área de trabajo](media/embed-service-principal/add-service-principal-in-the-UI.png)
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
 
-6. Ahora, elija insertar el contenido en una aplicación de ejemplo o en una aplicación propia.
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
 
-    * [Inserción de contenido mediante la aplicación de ejemplo](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-    * [Inserción de contenido en una aplicación propia](embed-sample-for-customers.md#embed-content-within-your-application)
+# Get the service principal key
+$key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
+```
 
-7. Ahora ya está listo para [pasar a producción](embed-sample-for-customers.md#move-to-production).
+## <a name="step-2---create-an-azure-ad-security-group"></a>Paso 2: Creación de un grupo de seguridad de Azure AD
 
-## <a name="migrate-to-service-principal"></a>Migración a la entidad de servicio
+La entidad de servicio no tiene acceso al contenido ni a las API de Power BI. Para conceder acceso a la entidad de servicio, cree un grupo de seguridad en Azure AD y agregue la entidad de servicio que creó a ese grupo de seguridad.
 
-Puede migrar para usar la entidad de servicio si en la actualidad usa una cuenta maestra con Power BI o Power BI Embedded.
+Hay dos maneras de crear un grupo de seguridad de Azure AD:
+* Manualmente (en Azure)
+* Uso de PowerShell
 
-Complete los tres primeros pasos en la sección [Tareas iniciales con una entidad de servicio](#get-started-with-a-service-principal) y, después, vea la información siguiente.
+### <a name="create-a-security-group-manually"></a>Creación de un grupo de seguridad manualmente
 
-Si ya usa las [nuevas áreas de trabajo](../../service-create-the-new-workspaces.md) de Power BI, agregue la entidad de servicio como un **administrador** a las áreas de trabajo que contengan los artefactos de Power BI. Pero si usa las [áreas de trabajo tradicionales](../../service-create-workspaces.md), copie o mueva los artefactos y recursos de Power BI a las áreas de trabajo nuevas y, después, agregue la entidad de servicio como un **administrador** a esas áreas de trabajo.
+Para crear un grupo de seguridad de Azure manualmente, siga las instrucciones del artículo [Creación de un grupo básico e incorporación de miembros con Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
 
-No hay ninguna característica de interfaz de usuario para mover artefactos y recursos de Power BI desde un área de trabajo a otra, por lo que tendrá que usar las [API](https://powerbi.microsoft.com/pt-br/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/) para realizar esta tarea. Al usar las API con la entidad de servicio, necesita el identificador de objeto de entidad de servicio.
+### <a name="create-a-security-group-using-powershell"></a>Creación de un grupo de seguridad mediante PowerShell
 
-### <a name="how-to-get-the-service-principal-object-id"></a>Cómo obtener el identificador de objeto de entidad de servicio
+A continuación se muestra un script de ejemplo para crear un nuevo grupo de seguridad y agregar una aplicación a ese grupo de seguridad.
 
-Para asignar una entidad de servicio a una nueva área de trabajo, se usan las [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). Para hacer referencia a una entidad de servicio para operaciones o para realizar cambios, use el **identificador de objeto de entidad de servicio**; por ejemplo, para aplicar una entidad de servicio como un administrador a un área de trabajo.
+>[!NOTE]
+>Si desea habilitar el acceso de la entidad de servicio para toda la organización, omita este paso.
 
-A continuación se muestran los pasos para obtener el identificador de objeto de entidad de servicio desde Azure Portal.
+```powershell
+# Required to sign in as a tenant admin
+Connect-AzureAD
 
-1. Cree un registro de aplicación en Azure Portal.  
+# Create an Azure AD security group
+$group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
 
-2. Después, en **Aplicación administrada en directorio local**, seleccione el nombre de la aplicación que ha creado.
+# Add the service principal to the group
+Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
+```
 
-   ![Aplicación administrada en el directorio local](media/embed-service-principal/managed-application-in-local-directory.png)
+## <a name="step-3---enable-the-power-bi-service-admin-settings"></a>Paso 3: Habilitación de la configuración de administración del servicio Power BI
 
-    > [!NOTE]
-    > El identificador de objeto de la imagen anterior no es el que se usa con la entidad de servicio.
+Para que una aplicación de Azure AD pueda acceder al contenido y las API de Power BI, un administrador de Power BI debe habilitar el acceso de entidad de servicio en el portal de administración de Power BI.
 
-3. Haga clic en **Propiedades** para ver el identificador de objeto.
+Agregue el grupo de seguridad que ha creado en Azure AD a la sección de grupos de seguridad específicos en la **Configuración del desarrollador**.
 
-    ![Propiedades del identificador de objeto de entidad de servicio](media/embed-service-principal/service-principal-object-id-properties.png)
+>[!IMPORTANT]
+>Las entidades de servicio tienen acceso a cualquier configuración de inquilino para la que estén habilitadas. En función de la configuración de administración, esto incluye grupos de seguridad específicos o toda la organización.
+>
+>Para restringir el acceso de la entidad de servicio a una configuración de inquilino específica, permita el acceso únicamente a grupos de seguridad específicos. También puede crear un grupo de seguridad dedicado para entidades de servicio y excluirlo de la configuración de inquilino que desee.
 
-A continuación se muestra un script de ejemplo para recuperar el identificador de objeto de entidad de servicio con PowerShell.
+![Portal de administración](media/embed-service-principal/admin-portal.png)
 
-   ```powershell
-   Get-AzureADServicePrincipal -Filter "DisplayName eq '<application name>'"
-   ```
+## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>Paso 4: Adición de la entidad de servicio como administrador al área de trabajo
+
+Para habilitar los artefactos de acceso a la aplicación de Azure AD como informes, paneles y conjuntos de datos en el servicio Power BI, agregue la instancia de la entidad de servicio como miembro o administrador al área de trabajo.
+
+>[!NOTE]
+>En esta sección se proporcionan instrucciones para la interfaz de usuario. También puede agregar una entidad de servicio a un área de trabajo mediante la [API Grupos: agregar usuario de grupo](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser).
+
+1. Desplácese hasta el área de trabajo para el que desea habilitar el acceso y, en el menú **Más**, seleccione **Acceso al área de trabajo**.
+
+    ![Configuración del área de trabajo](media/embed-service-principal/workspace-access.png)
+
+2. Agregue la entidad de servicio como **administrador** o **miembro** al área de trabajo.
+
+    ![Administrador del área de trabajo](media/embed-service-principal/add-service-principal-in-the-UI.png)
+
+## <a name="step-5---embed-your-content"></a>Paso 5: Inserción del contenido
+
+Puede insertar el contenido en una aplicación de ejemplo o en una aplicación propia.
+
+* [Inserción de contenido mediante la aplicación de ejemplo](embed-sample-for-customers.md#embed-content-using-the-sample-application)
+* [Inserción de contenido en una aplicación propia](embed-sample-for-customers.md#embed-content-within-your-application)
+
+Una vez insertado el contenido, está listo para [pasar a producción](embed-sample-for-customers.md#move-to-production).
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
@@ -171,14 +195,15 @@ A continuación se muestra un script de ejemplo para recuperar el identificador 
 * No se puede iniciar sesión en el portal de Power BI con la entidad de servicio.
 * Se necesitan derechos de administrador de Power BI para habilitar la entidad de servicio en la configuración de desarrollador en el portal de administración de Power BI.
 * No se puede instalar ni administrar una puerta de enlace de datos local con la entidad de servicio.
-* En las aplicaciones de [inserción para la organización](embed-sample-for-your-organization.md) no se puede usar la entidad de servicio.
+* Las aplicaciones de [inserción para la organización](embed-sample-for-your-organization.md) no pueden usar la entidad de servicio.
 * No se admite la administración de [flujos de datos](../../service-dataflows-overview.md).
 * Actualmente la entidad de servicio no admite ninguna API de administración.
 * Al usar una entidad de servicio con un origen de datos de [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), la propia entidad de servicio debe tener permisos de una instancia de Azure Analysis Services. El uso de un grupo de seguridad que contiene la entidad de servicio para este propósito no funciona.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [Registro de una aplicación](register-app.md)
 * [Power BI Embedded para los clientes](embed-sample-for-customers.md)
-* [Objetos de aplicación y de entidad de servicio de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
 * [Seguridad de nivel de fila mediante puerta de enlace de datos local con entidad de servicio](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+* [Inserción de contenido de Power BI con entidad de servicio y un certificado]()
