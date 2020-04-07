@@ -254,8 +254,14 @@
           items:
             - name: Conexión a servicios con aplicaciones
               href: ../service-connect-to-services.md
+            - name: "Informe de seguimiento de la COVID-19 en EE.\_UU."
+              href: service-connect-to-covid-19-tracking.md
+            - name: Informe de presencia de comunicación de crisis
+              href: service-connect-to-crisis-communication-presence-report.md
             - name: GitHub
               href: ../service-connect-to-github.md
+            - name: Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias
+              href: service-connect-to-health-emergency-response.md
             - name: Calculadora de sostenibilidad de Microsoft
               href: ../service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
