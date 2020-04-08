@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 02774bb495fb5a41dddf1c3fad43caaab339960c
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 9ca5d47a938210c10903c916c54713b89923e287
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525899"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751547"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Cambio de cadenas de conexión de origen de datos en informes de Power BI con PowerShell: Power BI Report Server
 
@@ -54,7 +54,7 @@ Puede cambiar las cadenas de conexión de origen de datos en informes de Power 
     Para cambiar el nombre de usuario y la contraseña del origen de datos:
 
     ```powershell
-    $dataSources[0].DataModelDataSource.Username = 'domain\user
+    $dataSources[0].DataModelDataSource.Username = 'domain\user'
     ```
     ```powershell
     $dataSources[0].DataModelDataSource.Secret = 'password'

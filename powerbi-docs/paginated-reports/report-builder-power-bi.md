@@ -9,18 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78923020"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621522"
 ---
 # <a name="power-bi-report-builder"></a>Generador de informes de Power BI
 
  Power BI Report Builder es una herramienta para crear informes paginados.  Al diseñar un informe paginado, se crea una definición de informe que especifica qué datos recuperar y de dónde y cómo mostrarlos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Puede obtener una vista previa del informe en el Generador de informes. Después, puede publicar el informe en el servicio Power BI.
-
-Pruebe el [Laboratorio práctico: Creación de un informe paginado de Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 
 ¿Prefiere aprender de los vídeos? Consulte la serie de vídeos sobre los informes paginados de Power BI en YouTube de Chris Finlan, jefe principal de programas de Power BI.
 
@@ -30,13 +28,13 @@ El informe paginado siguiente muestra una matriz con grupos de filas y columnas,
 
 ![Informe paginado en el servicio Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-##  <a name="JumpStartReptCreation"></a> Inicio de la creación de informes  
+##  <a name="jump-start-report-creation"></a><a name="JumpStartReptCreation"></a> Inicio de la creación de informes  
  
 -   **Comience con el Asistente para tablas, matrices o gráficos**. Cree una conexión al origen de datos, arrastre y suelte los campos para crear una consulta del conjunto de datos, seleccione un diseño y un estilo y personalice el informe.  
   
 -   **Comience con el Asistente para mapas** para crear informes que muestren datos agregados con un fondo geométrico o geográfico. Los datos de mapas pueden ser datos espaciales de una consulta Transact-SQL o un archivo de forma de Environmental Systems Research Institute, Inc. (ESRI). También puede agregar un fondo de mosaico de mapa de Microsoft Bing.  
 
-##  <a name="DesignRept"></a> Diseño del informe  
+##  <a name="design-your-report"></a><a name="DesignRept"></a> Diseño del informe  
   
 -   **Cree informes paginados con diseños de forma libre, gráfico, matriz y tabla.** Cree informes de tabla para datos basados en columnas, informes de matrices (como informes de tabla dinámica y de tabla cruzada) para datos resumidos, informes de gráficos para datos gráficos e informes de forma libre para todo lo demás. Los informes pueden insertar otros informes y gráficos, además de listas, gráficos y controles para aplicaciones basadas en web dinámicas.  
   
@@ -52,7 +50,7 @@ El informe paginado siguiente muestra una matriz con grupos de filas y columnas,
   
 -   **Inserte imágenes y otros recursos o haga referencia a ellos**, incluido contenido externo.  
   
-##  <a name="ManageRpt"></a> Administración del informe  
+##  <a name="manage-your-report"></a><a name="ManageRpt"></a> Administración del informe  
   
 -   **Guarde la definición del informe** en el equipo o en el servidor de informes, donde puede administrarlo y compartirlo con otros usuarios.  
   
@@ -63,5 +61,4 @@ El informe paginado siguiente muestra una matriz con grupos de filas y columnas,
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [¿Qué son los informes paginados en Power BI Premium?](paginated-reports-report-builder-power-bi.md)
-- Pruebe el [Laboratorio práctico: Creación de un informe paginado de Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 - Vea la [serie de vídeos sobre los informes paginados de Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) en YouTube de Chris Finlan, jefe principal de programas de Power BI.

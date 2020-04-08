@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114885"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802146"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver informes de Power BI optimizados para el teléfono
 
@@ -39,10 +39,11 @@ Las restantes características de los informes de Power BI funcionan en los info
 ## <a name="filter-the-report-page-on-a-phone"></a>Filtrado de la página del informe en un teléfono
 Si un informe optimizado para el teléfono tiene filtros definidos, cuando vea el informe en un teléfono, podrá usar esos filtros. El informe se abre en el teléfono, filtrado por los valores que se filtran en el informe en Internet. Verá un mensaje que indica que hay filtros activos en la página. Puede cambiar los filtros en el teléfono.Puede cambiar los filtros en el teléfono.
 
-1. Pulse el icono de filtro ![Icono de filtro en el teléfono](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) en la parte inferior de la página. 
+1. Pulse el icono de filtro ![Icono de filtro en el teléfono](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) en la parte inferior de la página.
+
 2. Use el filtrado básico o avanzado para ver los resultados que le interesan.
    
-    ![Filtro avanzado de informes de teléfono de Power BI](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
+    ![Filtro avanzado de informes de teléfono de Power BI](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.png)
 
 ## <a name="cross-highlight-visuals"></a>Objetos visuales de resaltado cruzado
 Los objetos visuales de resaltado cruzado en vista vertical funcionan igual que en el servicio Power BI y en los teléfonos en vista horizontal: al seleccionar los datos de un objeto visual, se resaltan los datos relacionados en los demás objetos visuales de la página.

@@ -8,20 +8,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 7ab9ac60e416502f69401fcea87a697f53176448
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 924c2850efe1e9e09a8f6f350be616695ab061ea
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404781"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621551"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>¿Qué son los informes paginados en Power BI Premium?
 
 Los informes paginados, con el formato de informe estándar de SQL Server Reporting Services, ya están disponibles en el servicio Power BI. Estos informes se pueden imprimir o compartir. Se denominan "paginados" porque presentan un formato apto para encajar en una página. Muestran todos los datos en una tabla, incluso si esta abarca varias páginas. A veces se denominan "píxel perfecto", porque se puede controlar exactamente el diseño de página del informe. Los informes paginados se basan en la tecnología de informe RDL de SQL Server Reporting Services. El generador de informes es la herramienta independiente para crear informes paginados. 
 
 Los informes paginados pueden tener muchas páginas. Por ejemplo, este informe tiene 563 páginas. Cada una de ellas está diseñada con precisión, con una página por factura y encabezados y pies de página que se repiten.
-
-Pruebe el [Laboratorio práctico: Creación de un informe paginado de Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 
 ![Paginado](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
@@ -87,5 +85,4 @@ Estas son algunas otras características que no son compatibles con la versión 
 - [Instalación del Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Tutorial: Crear un informe paginado](paginated-reports-quickstart-aw.md)
 - [Escritura directa de datos en un informe paginado](paginated-reports-enter-data.md)
-- [Laboratorio práctico: Creación de un informe paginado de Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
-- [Tutorial: Inserción de informes paginados de Power BI en una aplicación para los clientes](../developer/embed-paginated-reports-customers.md).
+- [Tutorial: Inserción de informes paginados de Power BI en una aplicación para los clientes](../developer/embed-paginated-reports-customers.md)
