@@ -49,15 +49,15 @@
           items:
             - name: Trabajo con la vista de informes
               href: ../desktop-report-view.md
-            - name: Tipos de filtros en informes de Power BI
+            - name: Tipos de filtros en informes
               href: ../power-bi-report-filter-types.md
             - name: Filtrado y resaltado en informes
               href: ../power-bi-reports-filters-and-highlighting.md
             - name: Muestreo de líneas de alta densidad
               href: ../desktop-high-density-sampling.md
-            - name: "Acerca de los objetos visuales de Preguntas y respuestas de Power\_BI"
+            - name: Acerca de los objetos visuales de Preguntas y respuestas
               href: ../visuals/power-bi-visualization-q-and-a.md
-            - name: "Acerca de la accesibilidad de Power\_BI"
+            - name: Acerca de la accesibilidad
               href: ../desktop-accessibility-overview.md
             - name: Preguntas y respuestas sobre el lenguaje natural
               items:
@@ -125,7 +125,7 @@
               href: ../desktop-bookmarks.md
             - name: Trabajo con temas de informes
               href: ../desktop-report-themes.md
-            - name: "Trabajo con filtros en informes de Power\_BI"
+            - name: Trabajo con filtros en informes
               href: ../power-bi-report-filter.md
             - name: Uso de la característica de obtención de detalles
               href: ../desktop-drillthrough.md
@@ -139,7 +139,7 @@
               href: ../desktop-r-powered-custom-visuals.md
             - name: Aplicación de líneas de la cuadrícula y ajustar a la cuadrícula
               href: ../desktop-gridlines-snap-to-grid.md
-            - name: "Aplicación de la configuración de presentación de página en informes de Power\_BI"
+            - name: Aplicación de la configuración de presentación de página en informes
               href: ../power-bi-report-display-settings.md
             - name: Adición de una columna desde un ejemplo
               href: ../desktop-add-column-from-example.md
@@ -147,12 +147,16 @@
               href: ../desktop-add-custom-column.md
             - name: Uso de etiquetas de jerarquía alineadas
               href: ../desktop-inline-hierarchy-labels.md
-            - name: Uso de la segmentación de rango numérico
+            - name: Segmentaciones
+              href: ../visuals/power-bi-visualization-slicers.md
+            - name: Segmentaciones de rango numérico
               href: ../desktop-slicer-numeric-range.md
-            - name: Uso del filtro y la segmentación de fecha relativa
-              href: ../desktop-slicer-filter-date-range.md
+            - name: Segmentaciones y filtros de fecha relativa
+              href: ../visuals/desktop-slicer-filter-date-range.md
             - name: Creación de una segmentación de datos cuyo tamaño se pueda cambiar
               href: ../power-bi-slicer-filter-responsive.md
+            - name: Adición de varios campos a una segmentación
+              href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Restricción del acceso a datos con seguridad de nivel de fila
               href: ../desktop-rls.md
             - name: Personalización de información sobre herramientas
@@ -205,17 +209,17 @@
               href: ../desktop-upload-desktop-files.md
         - name: Visualizaciones
           items:
-            - name: "Adición de objetos visuales a un informe de Power\_BI (parte 1)"
+            - name: Adición de objetos visuales a un informe (parte 1)
               href: ../visuals/power-bi-report-add-visualizations-i.md
-            - name: "Adición de objetos visuales a un informe de Power\_BI (parte 2)"
+            - name: Adición de objetos visuales a un informe (parte 2)
               href: ../visuals/power-bi-report-add-visualizations-ii.md
-            - name: "Adición de objetos visuales a informes de Power\_BI"
+            - name: Adición de objetos visuales a informes
               href: ../visuals/power-bi-report-visualizations.md
-            - name: "Modificación de objetos visuales en informes de Power\_BI"
+            - name: Cambio de objetos visuales en informes
               href: ../visuals/power-bi-report-change-visualization-type.md
             - name: 'Personalización de los títulos, las leyendas y los fondos de los objetos visuales'
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-            - name: Característica Mostrar elementos sin datos de Power BI
+            - name: Mostrar elementos sin datos
               href: ../desktop-show-items-no-data.md
             - name: Aplicación de estrategias y límites de punto de datos por tipo de objeto visual
               href: ../visuals/power-bi-data-points.md
@@ -233,7 +237,7 @@
               href: ../visuals/power-bi-visualization-move-and-resize.md
             - name: Cambiar cómo interactúan los objetos visuales en un informe
               href: ../service-reports-visual-interactions.md
-            - name: Sugerencias y trucos para las visualizaciones de mapas de Power BI
+            - name: Sugerencias y trucos para las visualizaciones de mapas
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: Personalización de las propiedades de los ejes X e Y
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
@@ -241,47 +245,45 @@
               href: ../visuals/power-bi-visualizations-arcgis.md
             - name: "Creación de objetos visuales de ArcGIS Maps for Power\_BI"
               href: ../visuals/power-bi-visualization-arcgis.md
-            - name: Creación y uso de gráficos de área básicos
+            - name: Gráficos de área básicos
               href: ../visuals/power-bi-visualization-basic-area-chart.md
             - name: Creación de objetos visuales de tarjeta (iconos de números grandes)
               href: ../visuals/power-bi-visualization-card.md
-            - name: Creación y uso de gráficos combinados
+            - name: Gráficos combinados
               href: ../visuals/power-bi-visualization-combo-chart.md
-            - name: Creación y uso de objetos visuales de esquema jerárquico (versión preliminar)
+            - name: Objetos visuales de esquema jerárquico (versión preliminar)
               href: ../visuals/power-bi-visualization-decomposition-tree.md
-            - name: Creación y uso de gráficos de anillos
+            - name: Gráficos de anillos
               href: ../visuals/power-bi-visualization-doughnut-charts.md
-            - name: Creación y uso de mapas coropléticos
+            - name: Mapas coropléticos
               href: ../visuals/power-bi-visualization-filled-maps-choropleths.md
-            - name: Creación y uso de gráficos de embudo
+            - name: Gráficos de embudo
               href: ../visuals/power-bi-visualization-funnel-charts.md
-            - name: Creación y uso de objetos visuales de influenciadores clave
+            - name: Objeto visual de influenciadores clave
               href: ../visuals/power-bi-visualization-influencers.md
-            - name: Creación y uso de objetos visuales de KPI
+            - name: Objetos visuales de KPI
               href: ../visuals/power-bi-visualization-kpi.md
-            - name: Creación y uso de objetos visuales de matriz
+            - name: Objetos visuales de matriz
               href: ../visuals/desktop-matrix-visual.md
-            - name: "Creación y uso de objetos visuales de Power\_Apps"
+            - name: Objetos visuales de Power Apps
               href: ../visuals/power-bi-visualization-powerapp.md
-            - name: Creación y uso de objetos visuales de R
+            - name: Objetos visuales de R
               href: ../visuals/service-r-visuals.md
-            - name: Creación y uso de gráficos de medidor radial
+            - name: Gráficos de medidor radial
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
-            - name: Creación y uso de gráficos de franjas
+            - name: Gráficos de la barra de herramientas
               href: ../visuals/desktop-ribbon-charts.md
-            - name: 'Creación y uso de gráficos de dispersión, las burbujas y el trazado de puntos'
+            - name: 'Gráficos de dispersión, de burbujas y de trazado de punto'
               href: ../visuals/power-bi-visualization-scatter.md
             - name: Uso de gráficos de dispersión de alta densidad
               href: ../visuals/desktop-high-density-scatter-charts.md
-            - name: Creación y uso de objetos visuales de mapa de formas (versión preliminar)
+            - name: Objetos visuales de mapa de formas (versión preliminar)
               href: ../visuals/desktop-shape-map.md
-            - name: Creación y uso de segmentaciones
-              href: ../visuals/power-bi-visualization-slicers.md
-            - name: "Creación y uso de tablas en informes y paneles de Power\_BI"
+            - name: Tablas en informes y paneles
               href: ../visuals/power-bi-visualization-tables.md
-            - name: Creación y uso de gráficos de rectángulos
+            - name: Gráficos de rectángulos
               href: ../visuals/power-bi-visualization-treemaps.md
-            - name: Creación y uso de gráficos de cascada
+            - name: Gráficos de cascada
               href: ../visuals/power-bi-visualization-waterfall-charts.md
         - name: Preguntas y respuestas sobre el lenguaje natural
           items:
@@ -301,17 +303,17 @@
               href: ../service-q-and-a-create-featured-questions.md
             - name: Uso de preguntas y respuestas con conexiones dinámicas
               href: ../service-q-and-a-direct-query.md
-            - name: Quick Insights en Power BI
+            - name: Información rápida
               href: ../service-insights.md
             - name: Optimización de los datos para Conclusiones rápidas
               href: ../service-insights-optimize.md
         - name: Accesibilidad
           items:
-            - name: "Diseño de informes accesibles en Power\_BI"
+            - name: Diseño de informes accesibles
               href: ../desktop-accessibility-creating-reports.md
-            - name: "Creación de informes de Power\_BI con herramientas de accesibilidad"
+            - name: Creación de informes con herramientas de accesibilidad
               href: ../desktop-accessibility-creating-tools.md
-            - name: "Consumo de informes de Power\_BI con características de accesibilidad"
+            - name: Consumo de informes con características de accesibilidad
               href: ../desktop-accessibility-consuming-tools.md
             - name: "Métodos abreviados de teclado en Power\_BI Desktop"
               href: ../desktop-accessibility-keyboard-shortcuts.md
@@ -351,7 +353,7 @@
               href: ../service-dashboard-pin-tile-from-q-and-a.md
             - name: Anclar una página de informe completa a un panel
               href: ../service-dashboard-pin-live-tile-from-report.md
-            - name: Alertas de datos en el servicio Power BI
+            - name: Alertas de datos en el servicio
               href: ../service-set-data-alerts.md
             - name: 'Agregar una imagen, un cuadro de texto, un vídeo o código a un panel'
               href: ../service-dashboard-add-widget.md
@@ -369,9 +371,9 @@
               href: ../service-dashboard-themes.md
         - name: Otras tareas
           items:
-            - name: Cambiar el nombre del contenido dentro de Power BI
+            - name: Cambio del nombre del contenido
               href: ../service-rename.md
             - name: Establecimiento de contactos de elemento
               href: ../service-item-contact.md
-            - name: Eliminar prácticamente cualquier cosa en Power BI
+            - name: Eliminación de prácticamente cualquier cosa
               href: ../service-delete.md
