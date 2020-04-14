@@ -7,20 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a61288c9792d562e9a5efecd43d879d6df6d1782
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 268aa73506be5cc025645672f402b88646497b1c
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698886"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813084"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Supervisión de capacidades Premium con la aplicación
 
 La supervisión de las capacidades es esencial para tomar decisiones fundamentadas sobre el uso óptimo de los recursos de capacidad Premium. Puede supervisar la capacidad en el portal de administración o con la aplicación **Power BI Premium Capacity Metrics**. En este artículo se describe el uso de la aplicación Premium Capacity Metrics. La aplicación proporciona la información más detallada del rendimiento de las capacidades. Para obtener una introducción de nivel superior del promedio de métricas de uso durante los últimos siete días, puede usar el portal de administración. Para obtener más información sobre la supervisión en el portal, vea [Supervisión de capacidades Premium en el portal de administración](service-admin-premium-monitor-portal.md).
 
 La aplicación se actualiza periódicamente con nuevas características y funcionalidades. Asegúrese de ejecutar la versión más reciente. Si ya tiene instalada una versión anterior de la aplicación, se recomienda eliminarla de las aplicaciones y, después, presionar CTRL+F5 para actualizar.
+
+> [!IMPORTANT]
+> Si la capacidad de Power BI Premium experimenta un uso elevado de los recursos, lo que da lugar a incidencias de rendimiento o fiabilidad, se pueden recibir mensajes de correo electrónico de notificación para identificar y resolver la incidencia en cuestión. Esto puede ser una manera optimizada de solucionar problemas de capacidades sobrecargadas. Para obtener más información, vea las [notificaciones de capacidad y fiabilidad](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
 ## <a name="install-the-app"></a>Instalación de la aplicación
 
@@ -60,7 +63,7 @@ En el panel se incluyen las métricas siguientes:
 
 #### <a name="top"></a>Superior
 
-| Métrica | Descripción |
+| Metric | Descripción |
 | --- | --- |
 | Versión | Versión de la aplicación. | 
 | Capacidades | Número de capacidades para las que es administrador. | 
@@ -69,7 +72,7 @@ En el panel se incluyen las métricas siguientes:
 
 #### <a name="system-summary"></a>Resumen del sistema
 
-| Métrica | Descripción |
+| Metric | Descripción |
 | --- | --- |
 | Capacidad de uso más alto de la CPU | Capacidad con el número máximo de veces que la CPU superó el 80 % de los umbrales en los últimos siete días. |
 | Recuento de uso más alto de la CPU | Número de veces que la capacidad con nombre superó el 80 % de los umbrales en los últimos siete días. | 
@@ -79,7 +82,7 @@ En el panel se incluyen las métricas siguientes:
 
 #### <a name="dataset-summary"></a>Resumen del conjunto de datos
 
-| Métrica | Descripción |
+| Metric | Descripción |
 | --- | --- |
 | Conjuntos de datos | Número total de conjuntos de datos en todas las áreas de trabajo de las capacidades.|
 | Tamaño promedio de los conjuntos de datos (MB) | Tamaño promedio de los conjuntos de datos en todas las áreas de trabajo de las capacidades.|  
@@ -106,7 +109,7 @@ En el panel se incluyen las métricas siguientes:
 
 #### <a name="dataflow-summary"></a>Resumen del flujo de datos
 
-| Métrica | Descripción |
+| Metric | Descripción |
 | --- | --- |
 | Flujos de datos |  Número total de flujos de datos en todas las áreas de trabajo de las capacidades.|
 | Total de actualizaciones | Número total de actualizaciones en los últimos siete días.|  
@@ -120,7 +123,7 @@ En el panel se incluyen las métricas siguientes:
 
 #### <a name="paginated-report-summary"></a>Resumen de informe paginado
 
-| Métrica | Descripción |
+| Metric | Descripción |
 | --- | --- |
 | Informes paginados |  Número total de informes paginados en todas las áreas de trabajo de las capacidades. |
 | Total de vistas | Número total de veces que los usuarios han visto todos los informes. | 
@@ -134,7 +137,7 @@ En el panel se incluyen las métricas siguientes:
 
 #### <a name="ai-summary"></a>Resumen de IA
 
-| Métrica | Descripción |
+| Metric | Descripción |
 | --- | --- |
 | Ejecución de la función de inteligencia artificial | Número total de ejecuciones en los últimos siete días. |
 | Confiabilidad de la ejecución de la función de inteligencia artificial (%) | Número de ejecuciones correctas dividido entre el número total de ejecuciones en los últimos siete días. |

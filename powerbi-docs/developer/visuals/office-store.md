@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: bfdac85b50851f840db04d2b3d8e88d434ab7b7e
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "80550908"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621461"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicación de objetos visuales de Power BI en el Centro de partners
 
@@ -100,6 +100,8 @@ Siga los pasos que aparecen a continuación para enviar el objeto visual de Powe
 10. Seleccione **Configuración del producto** y haga clic en **Revisar y publicar**.
 
 ## <a name="tracking-submission-status-and-usage"></a>Seguimiento del uso y estado del envío
+
+Puede revisar las [directivas de validación](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
 
 Después del envío, el estado del envío se puede ver en el [panel de la aplicación](https://sellerdashboard.microsoft.com/Application/Summary/).
 

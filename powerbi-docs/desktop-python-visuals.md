@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 04/03/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 72c285fd57af21fcb3d1a4568a5ff2e83016072f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609835"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979877"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Creación de objetos visuales de Power BI con Python
 
@@ -155,9 +155,9 @@ Al seleccionar el botón **Ejecutar script**, se genera el siguiente gráfico de
 > **Seguridad de scripts de Python:** los objetos visuales de Python se crean a partir de scripts de Python, que podrían contener código que presente riesgos para la seguridad o la privacidad. Al intentar ver o interactuar con un objeto visual de Python por primera vez, un usuario recibe un mensaje de advertencia de seguridad. Habilite los objetos visuales de Python únicamente si confía en el autor y en el origen, o bien tras revisar el script de Python y asegurarse de que lo comprende.
 >  
 
-## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>Más información sobre el trazado con Matprolib, Pandas y Python
+## <a name="more-information-about-plotting-with-matplotlib-pandas-and-python"></a>Más información sobre el trazado con Matplotlib, Pandas y Python
 
-Este tutorial está diseñado para ayudarle a empezar a crear objetos visuales con Python en Power BI Desktop. Es apenas una muestra de las muchas opciones y funcionalidades para crear informes visuales mediante Python, Pandas y la biblioteca de Matprolib. Hay mucha más información disponible; aquí tiene algunos vínculos que le ayudarán a empezar.
+Este tutorial está diseñado para ayudarle a empezar a crear objetos visuales con Python en Power BI Desktop. Es apenas una muestra de las muchas opciones y capacidades para crear informes visuales mediante Python, Pandas y la biblioteca de Matplotlib. Hay mucha más información disponible; aquí tiene algunos vínculos que le ayudarán a empezar.
 
 - Documentación en el sitio web de [Matplotlib](https://matplotlib.org/). 
 - [Matplotlib Tutorial: A Basic Guide to Use Matplotlib with Python](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) (Tutorial de Matplotlib: una guía básica para usar Matplotlib con Python) 
@@ -177,6 +177,7 @@ Los objetos visuales de Python en Power BI Desktop tienen algunas limitaciones:
 - Los objetos visuales de Python se actualizan al actualizar, filtrar y resaltar datos. En cambio, la imagen en sí no es interactiva y no puede ser el origen del filtro cruzado.
 - Los objetos visuales de Python responden al resaltado de otros objetos visuales, pero no puede hacer clic en elementos del objeto visual de Python para aplicar un filtro cruzado a otros elementos.
 - Solo los trazados que se trazan con el dispositivo de pantalla predeterminado de Python se muestran correctamente en el lienzo. Evite usar explícitamente otro dispositivo de pantalla de Python.
+- Los objetos visuales de Python no admiten el cambio de nombre de las columnas de entrada. Se hará referencia a las columnas por su nombre original durante la ejecución del script.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

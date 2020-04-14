@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
+ms.date: 04/08/2020
 ms.author: maggies
-ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237532"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979854"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI en Power BI Report Server
 Los informes de Power BI pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services.
@@ -156,7 +156,7 @@ Power BI Report Server no admite la autenticación basada en OAuth para la actua
 | Lista de SharePoint Online |No |No |No |No |
 | Snowflake |No |No |No |No |
 | Base de datos de Sybase |No |No |Sí |Sí |
-| Teradatos |No |No |Sí |Sí |
+| Teradatos |No |No |Sí |Sí** |
 | appFigures (Beta) |No |No |No |No |
 | Base de datos de Azure Analysis Services (Beta) |No |No |No |No |
 | Azure Cosmos DB (Beta) |No |No |No |No |
@@ -189,6 +189,8 @@ Power BI Report Server no admite la autenticación basada en OAuth para la actua
 | Visual Studio Team Services (Beta) |No |No |No |No |
 | Webtrends (Beta) |No |No |No |No |
 | Zendesk (Beta) |No |No |No |No |
+
+** No se admite el uso de la autenticación LDAP con Teradata (habilitada en Power BI Desktop mediante el comando "setx PBI_EnableTeradataLdap true"del símbolo del sistema) para la actualización del modelo.
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>Lista de métodos de autenticación admitidos para DirectQuery
 

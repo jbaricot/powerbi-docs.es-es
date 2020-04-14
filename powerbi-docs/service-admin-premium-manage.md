@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: e60aed5b538eab3b630f42a665d96256cc07879c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2aa62197bc9af359962f25394d4f202a945d97d8
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74700105"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813107"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Configuración y administración de capacidades en Power BI Premium
 
@@ -94,6 +94,10 @@ Los administradores de Power BI y los administradores globales de Office 365 pue
     Los administradores pueden crear, cambiar el tamaño y eliminar nodos libremente, siempre y cuando tengan el número necesario de núcleos virtuales.
 
     Las SKU P no se pueden reducir a SKU EM. Al mantener el puntero sobre cualquier opción deshabilitada, verá una explicación.
+
+> [!IMPORTANT]
+> Si la capacidad de Power BI Premium experimenta un uso elevado de los recursos, lo que da lugar a incidencias de rendimiento o fiabilidad, se pueden recibir mensajes de correo electrónico de notificación para identificar y resolver la incidencia en cuestión. Para obtener más información, vea las [notificaciones de capacidad y fiabilidad](service-interruption-notifications.md#capacity-and-reliability-notifications).
+
 
 ### <a name="manage-user-permissions"></a>Administración de permisos de usuario
 

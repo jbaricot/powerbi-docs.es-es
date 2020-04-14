@@ -7,21 +7,21 @@ featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74163751"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621625"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Alertas de datos en el servicio Power BI
 
 Establezca alertas que le envíen notificaciones cada vez que los datos de sus paneles cambien más allá de los límites establecidos.
 
-Puede establecer alertas en los iconos si tiene una licencia de Power BI Pro. También puede establecer alertas si alguien comparte un panel que se encuentra en una [capacidad Premium](service-premium-what-is.md). Las alertas solo se pueden configurar en los iconos anclados desde objetos visuales de informes y solo en medidores, KPI y tarjetas. Las alertas se pueden establecer en los objetos visuales creados a partir de conjuntos de objetos de streaming que se anclan desde un informe a un panel. No se pueden establecer alertas en iconos de streaming creados directamente en el panel mediante **Agregar icono** > **Datos de transmisión personalizados**.
+Puede establecer alertas en iconos de Mi área de trabajo. También se pueden establecer alertas si alguien comparte un panel que se encuentra en una [capacidad Premium](service-premium-what-is.md). Si tiene una licencia de Power BI Pro, puede establecer alertas también en los iconos de cualquier otra área de trabajo. Las alertas solo se pueden configurar en los iconos anclados desde objetos visuales de informes y solo en medidores, KPI y tarjetas. Las alertas se pueden establecer en los objetos visuales creados a partir de conjuntos de objetos de streaming que se anclan desde un informe a un panel. No se pueden establecer alertas en iconos de streaming creados directamente en el panel mediante **Agregar icono** > **Datos de transmisión personalizados**.
 
 Nadie más podrá ver las alertas que establezca, aunque comparta el panel. Ni siquiera el propietario del panel puede ver las alertas establecidas en la vista del panel. Las alertas de datos están completamente sincronizadas en las plataformas; establezca y vea las alertas de datos [en las aplicaciones móviles de Power BI](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) y en el servicio Power BI. No están disponibles para Power BI Desktop. Incluso puede automatizar e integrar alertas con Power Automate. Puede probarlo personalmente en este artículo sobre [Power Automate y Power BI](service-flow-integration.md).
 

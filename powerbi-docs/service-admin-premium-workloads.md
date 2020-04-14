@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/24/2020
+ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: d468ab70f47edcd5487b548596f4aea4080cd994
-ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
+ms.openlocfilehash: aa44f0c8c11cb26ecfc7763ec127ca8a8505536a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80329649"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979923"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configuración de cargas de trabajo en una capacidad Premium
 
@@ -65,7 +65,7 @@ La carga de trabajo de conjuntos de datos está habilitada de forma predetermina
 | **Valor máximo de memoria (%)** | Porcentaje máximo de memoria disponible que los conjuntos de datos pueden usar en una capacidad. |
 | **Punto de conexión XMLA** | Especifica que las conexiones de las aplicaciones cliente respetan la pertenencia al grupo de seguridad establecida en los niveles del área de trabajo y la aplicación. Para más información, vea [Conexión a conjuntos de datos con herramientas y aplicaciones cliente](service-premium-connect-tools.md). |
 | **Número máximo de conjuntos de filas intermedias** | Número máximo de filas intermedias devueltas por DirectQuery. El valor predeterminado es de 1 000 000, y el intervalo permitido está entre 100 000 y 2 147 483 647. |
-| **Tamaño máximo del conjunto de datos sin conexión (GB)** | Tamaño máximo del conjunto de datos sin conexión en memoria. Es el tamaño comprimido en el disco. El valor predeterminado se establece por SKU, y el intervalo permitido está entre 0,1 y 10 GB. |
+| **Tamaño máximo del conjunto de datos sin conexión (GB)** | Tamaño máximo del conjunto de datos sin conexión en memoria. Es el tamaño comprimido en el disco. El valor predeterminado es 0, que es el límite superior que define la SKU. El intervalo permitido está entre 0 y el límite de tamaño de la capacidad. |
 | **Número máximo de conjuntos de filas de resultados** | Número máximo de filas devueltas en una consulta DAX. El valor predeterminado es de -1 (sin límite), y el intervalo permitido está entre 100 000 y 2 147 483 647. |
 | **Límite de memoria de consulta (%)** | El porcentaje máximo de memoria disponible en la carga de trabajo que se puede usar para ejecutar una consulta MDX o DAX. El valor predeterminado es 0, lo que da como resultado la aplicación del límite de memoria de consulta automática específico de la SKU. |
 | **Tiempo de espera de la consulta (en segundos)** | Tiempo de espera máximo de una consulta. El valor predeterminado es de 3600 segundos (1 hora). Un valor de 0 especifica que las consultas no superarán el tiempo de espera. |
@@ -203,6 +203,9 @@ Las cargas de trabajo se pueden habilitar y asignar a una capacidad mediante las
 ## <a name="monitoring-workloads"></a>Supervisión de cargas de trabajo
 
 La aplicación [Métricas de capacidad de Power BI Premium](service-admin-premium-monitor-capacity.md) proporciona métricas de conjuntos de datos, flujos de datos e informes paginados para supervisar las cargas de trabajo habilitadas para sus capacidades. 
+
+> [!IMPORTANT]
+> Si la capacidad de Power BI Premium experimenta un uso elevado de los recursos, lo que da lugar a incidencias de rendimiento o fiabilidad, se pueden recibir mensajes de correo electrónico de notificación para identificar y resolver la incidencia en cuestión. Para obtener más información, vea las [notificaciones de capacidad y fiabilidad](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

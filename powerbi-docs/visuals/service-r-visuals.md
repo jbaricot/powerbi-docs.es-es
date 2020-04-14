@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114851"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979831"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Creación y uso de objetos visuales de R en Power BI
 Actualmente, los objetos visuales R solo se pueden crear en **Power BI Desktop** y, después, se publican en el servicio Power BI. Para obtener más información sobre cómo crear objetos visuales de R, vea [Crear objetos visuales de Power BI con R ](../desktop-r-visuals.md).
@@ -93,7 +93,8 @@ Los objetos visuales R en el servicio Power BI tienen algunas limitaciones:
 * Los objetos visuales de R se actualizan en las actualizaciones de datos, el filtrado y el resaltado. En cambio, la imagen en sí no es interactiva y no es compatible con la información sobre herramientas.
 * Los objetos visuales de R responden al resaltado de otros objetos visuales, pero no puede hacer clic en elementos del objeto visual de R para aplicar un filtro cruzado a otros elementos.
 * Los objetos visuales R no se admiten para el tipo de datos *Hora*. Use Fecha y hora en su lugar.
-* Los objetos visuales R no se muestran al usar **Publicar en Web**.
+* Los objetos visuales de R no se muestran al usar **Publicar en Web**.
+* Los objetos visuales de R no admiten el cambio de nombre de las columnas de entrada. Se hará referencia a las columnas por su nombre original durante la ejecución del script.
 * Actualmente, los objetos visuales R no se imprimen con la impresión de informes y panel
 * Actualmente, no se admiten los objetos visuales R en el modo DirectQuery de Analysis Services
 * Los objetos visuales de R tienen la capacidad de convertir etiquetas de texto en elementos gráficos. Para hacerlo en el servicio Power BI, se debe seguir este paso adicional:
