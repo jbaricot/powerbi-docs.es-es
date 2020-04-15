@@ -1,0 +1,21 @@
+- name: Catálogo de cursos
+  href: index.yml
+  items:
+    - name: Responsables de toma de decisiones empresariales
+      href: learning-catalog-bdm.md
+    - name: Consumidores
+      href: learning-catalog-consumer.md
+    - name: Creadores de informes
+      href: learning-catalog-report-creator.md
+    - name: Analistas de datos
+      href: learning-catalog-data-analyst.md
+    - name: Administradores
+      href: learning-catalog-administrator.md
+    - name: Desarrolladores
+      href: learning-catalog-developer.md
+    - name: Roles de preventas de asociados
+      href: learning-catalog-presales.md
+    - name: Consultores funcionales
+      href: learning-catalog-functional-consultant.md
+    - name: Arquitectos de soluciones
+      href: learning-catalog-solution-architect.md

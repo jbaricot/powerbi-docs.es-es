@@ -81,6 +81,8 @@
           items:
             - name: Creación y uso de flujos de datos
               href: ../service-dataflows-create-use.md
+            - name: Promoción o certificado de flujos de datos
+              href: service-dataflows-promote-certify.md
             - name: Uso del motor de proceso mejorado con flujos de datos
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: Entidades calculadas con Power BI Premium

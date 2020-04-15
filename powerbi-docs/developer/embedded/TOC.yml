@@ -48,6 +48,8 @@
           href: embed-from-apps.md
         - name: Exportar informe a archivo
           href: export-to.md
+        - name: Exportación de un informe paginado a un archivo
+          href: export-paginated-report.md
         - name: Instalación automática de las aplicaciones
           href: embed-auto-install-app.md
         - name: Crear un inquilino de Azure Active Directory
