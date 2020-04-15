@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea4e8da2e821483fc567a3038c6133c60992e593
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: ab171f81224c3c6cf90070bf221e6b93285d8caa
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538437"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006420"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi-preview"></a>Aplicación de etiquetas de confidencialidad de datos en Power BI (versión preliminar)
 
@@ -79,7 +79,7 @@ La aplicación de etiquetas de confidencialidad de datos tiene las siguientes co
 * Las etiquetas de confidencialidad de los recursos de Power BI solo son visibles en la lista de áreas de trabajo y en las vistas de linaje; las etiquetas no están visibles actualmente en las vistas favoritos, compartido conmigo, reciente o aplicación. Tenga en cuenta, sin embargo, que una etiqueta aplicada a un recurso de Power BI, incluso si no está visible, siempre se conservará en los datos exportados a archivos de Excel, PowerPoint y PDF.
 * La *configuración de cifrado de archivos* de la etiqueta de confidencialidad, configurada en el [Centro de seguridad de Microsoft 365](https://security.microsoft.com/) o el [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/), se aplica solo a los archivos que son *exportados desde* Power BI; no se aplica *dentro de* Power BI.
 * La [Protección HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) no se admite para las etiquetas aplicadas en Power BI.
-* La visualización y la aplicación de etiquetas en las aplicaciones de Office tienen [requisitos de licencias](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels).
+* La visualización y la aplicación de etiquetas en las aplicaciones de Office tienen [requisitos de licencias](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Las etiquetas de confidencialidad solo se admiten para los inquilinos en la nube global (pública). No se admiten las etiquetas de confidencialidad para los inquilinos de otras nubes.
 * No se admiten etiquetas de confidencialidad para [usuarios externos (usuarios invitados de Azure Active Directory B2B)](../service-admin-azure-ad-b2b.md). Esto significa que los usuarios externos no pueden ver las etiquetas y se les impedirá exportar datos en archivos Excel, PDF y PPTX. [Quite la etiqueta](#removing-sensitivity-labels) para permitir que los usuarios externos exporten datos en esos tipos de archivo.
 

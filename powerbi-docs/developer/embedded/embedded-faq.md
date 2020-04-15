@@ -96,7 +96,7 @@ El usuario puede resolver este problema mediante una llamada a la [API refreshUs
 
 Puede usar el portal de PBI para saber cuál es la región de su inquilino de PBI.
 
-[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Acerca de Power BI
+`https://app.powerbi.com/` > ? > Acerca de Power BI
 
 ![Acerca de Power BI](media/embedded-faq/about-01.png)
 ![Región del inquilino](media/embedded-faq/tenant-location-01.png)

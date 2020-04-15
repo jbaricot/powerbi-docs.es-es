@@ -7,19 +7,19 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 06/18/2019
-ms.openlocfilehash: b850fddeb08428171aa653b97a6fb9e45a3afce7
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.date: 04/09/2020
+ms.openlocfilehash: 3896d5d4698f815b5bce53dd80639ff6de975257
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114291"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006213"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Información sobre herramientas en objetos visuales de Power BI
 
-Ahora, los objetos visuales pueden aprovechar la compatibilidad con la información sobre herramientas de Power BI. Con la información en pantalla de Power BI se controlan las interacciones siguientes:'''
+Ahora, los objetos visuales pueden aprovechar la compatibilidad con la información sobre herramientas de Power BI. Con la información en pantalla de Power BI se controlan las siguientes interacciones:
 
-* Mostrar una información en pantalla.'''
+* Mostrar una información en pantalla.
 * Ocultar una información en pantalla.
 * Mover una información en pantalla.
 
