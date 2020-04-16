@@ -32,6 +32,9 @@
             - name: Aprendizaje guiado
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
+            - name: Catálogo de cursos
+              tocHref: /power-bi/learning-catalog/
+              topicHref: /power-bi/learning-catalog/index
             - name: Servidor de informes
               tocHref: /power-bi/report-server/
               topicHref: /power-bi/report-server/index
