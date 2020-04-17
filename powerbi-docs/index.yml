@@ -13,12 +13,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/31/2020
-  ms.openlocfilehash: ac6ecb181cd5b06e54ab611976532638d43359f6
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.openlocfilehash: 0ad39302737284ecbde50a8810b740d68706c809
+  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 04/01/2020
-  ms.locfileid: "80487699"
+  ms.lasthandoff: 04/16/2020
+  ms.locfileid: "81439403"
 highlightedContent:
   items:
   - title: Creación de un informe de COVID-19 con datos de EE. UU.
@@ -217,19 +217,19 @@ conceptualContent:
     footerLink:
       url: guidance/index.yml
       text: Ver más
-  - title: Más información
+  - title: Catálogo de cursos
     links:
-    - url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/
+    - url: learning-catalog/learning-catalog-bdm.md
       itemType: learn
-      text: Introducción a todo lo que se puede hacer con Power BI
-    - url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/
+      text: Responsables de toma de decisiones empresariales
+    - url: guided-learning/introductiontodax.yml?tutorial-step=1
       itemType: learn
-      text: Análisis de datos
-    - url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/
+      text: Introducción a DAX
+    - url: learning-catalog/learning-catalog-solution-architect.md
       itemType: learn
-      text: Introducción a la creación
+      text: Arquitectos de soluciones
     footerLink:
-      url: guided-learning/index.yml
+      url: learning-catalog/index.yml
       text: Ver más
 additionalContent:
   sections:

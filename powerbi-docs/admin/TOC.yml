@@ -16,14 +16,24 @@
       items:
         - name: Rol de administración en Microsoft 365
           href: ../service-admin-role.md
+        - name: Licencias para la organización
+          href: ../service-admin-licensing-organization.md
+        - name: Power BI para la Administración Pública de Estados Unidos
+          items:
+            - name: Power BI para la Administración Pública de Estados Unidos
+              href: ../service-govus-overview.md
+            - name: Inscripción de una organización de la Administración Pública de Estados Unidos
+              href: ../service-govus-signup.md
+        - name: Power BI en nubes regionales
+          items:
+            - name: Migración a regiones alemanas de Go Local
+              href: service-admin-migrate-data-germany.md
+            - name: Preguntas más frecuentes para clientes en la nube de Alemania
+              href: ../service-govde-faq.md
         - name: Preguntas más frecuentes (P+F)
           href: ../service-admin-faq.md
         - name: P+F sobre alta disponibilidad y conmutación por error
           href: ../service-admin-failover.md
-        - name: Migración a regiones alemanas de Go Local
-          href: service-admin-migrate-data-germany.md
-        - name: Preguntas más frecuentes para clientes en la nube de Alemania
-          href: ../service-govde-faq.md
         - name: Power BI Premium
           items:
             - name: Administración de las capacidades Premium
@@ -38,14 +48,14 @@
       items:
         - name: Licencias y registro
           items:
-            - name: Licencias para la organización
-              href: ../service-admin-licensing-organization.md
+            - name: Obtención de Power BI para su organización
+              href: service-admin-org-subscription.md
             - name: Comprar Power BI Pro
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Power BI para la Administración Pública de Estados Unidos
-              href: ../service-govus-overview.md
-            - name: Inscripción de una organización de la Administración Pública de Estados Unidos
-              href: ../service-govus-signup.md
+            - name: Deshabilitación del registro de autoservicio
+              href: service-admin-disable-self-service.md
+            - name: Visualización y administración de licencias de usuario
+              href: service-admin-manage-licenses.md
             - name: "Registro con una prueba de Microsoft\_365"
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: Adición de Power BI con un asociado de Microsoft 365

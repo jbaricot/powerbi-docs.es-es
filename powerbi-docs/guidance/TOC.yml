@@ -64,6 +64,8 @@
               href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: Informes de Power BI
           items:
+            - name: Separación de informes y modelos
+              href: report-separate-from-model.md
             - name: Extensión de objetos visuales con la información en pantalla de la página del informe
               href: report-page-tooltips.md
             - name: Uso de detalles de la página del informe
