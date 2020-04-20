@@ -108,6 +108,8 @@
               href: gateway-onprem-sizing.md
             - name: Supervisión del rendimiento de los informes
               href: monitor-report-performance.md
+            - name: Solución de problemas de rendimiento de los informes
+              href: report-performance-troubleshoot.md
     - name: Notas del producto
       items:
         - name: Información general sobre las notas del producto
