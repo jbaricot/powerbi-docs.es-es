@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
-ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
+ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80147386"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006382"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicación de una aplicación en Power BI
 
@@ -43,25 +43,26 @@ Cuando los paneles e informes en el área de trabajo estén listos, elija cuále
 
 1. En la vista de lista del área de trabajo, decida qué paneles e informes quiere **incluir en la aplicación**.
 
-     ![Seleccionar el panel que va a publicar](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
+    ![Seleccionar el panel que va a publicar](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
-     Si decide no incluir un informe que tiene un panel relacionado, verá una advertencia junto al informe. Todavía puede publicar la aplicación, pero el panel relacionado no tendrá los iconos de ese informe.
+    Si decide no incluir un informe que tiene un panel relacionado, verá una advertencia junto al informe. Todavía puede publicar la aplicación, pero el panel relacionado no tendrá los iconos de ese informe.
 
-     ![Advertencia sobre un panel relacionado](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
+    ![Advertencia sobre un panel relacionado](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
 2. Seleccione el botón **Publicar aplicación** de la esquina superior derecha para iniciar el proceso de creación y publicación de una aplicación desde el área de trabajo.
    
-     ![Publicar aplicación](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+    ![Publicar aplicación](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. En **Configuración**, rellene el nombre y la descripción para ayudar a los usuarios a encontrar la aplicación. Puede establecer un color de tema para personalizarla. También puede agregar un vínculo a un sitio de soporte técnico.
    
-     ![Compilación de la aplicación](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
+    ![Compilación de la aplicación](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
 4. En **Navegación**, seleccione el contenido que se va a publicar como parte de la aplicación. Después, agregue navegación de la aplicación, para organizar el contenido en secciones. Vea [Diseño de la experiencia de navegación de la aplicación](#design-the-navigation-experience) en este artículo para obtener más información.
    
-     ![Navegación de la aplicación](media/service-create-distribute-apps/power-bi-apps-navigation.png)
+    ![Navegación de la aplicación](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. En **Permisos**, decida quién tiene acceso a la aplicación y qué puede hacer con ella. 
+
     - En [Áreas de trabajo clásicas](service-create-workspaces.md): todas las personas de la organización, usuarios específicos o grupos de seguridad de Azure Active Directory (AAD).
     - En las [áreas de trabajo de la nueva experiencia](service-create-the-new-workspaces.md): usuarios específicos, grupos de seguridad de AAD y listas de distribución, y grupos de Office 365. Todos los usuarios del área de trabajo reciben automáticamente acceso a la aplicación para el área de trabajo.
     - Puede permitir que los usuarios de la aplicación se conecten a los conjuntos de datos subyacentes de la aplicación si les asigna el permiso de compilación. Verán estos conjuntos de datos cuando busquen conjuntos de datos compartidos. Lea más sobre [cómo permitir que los usuarios se conecten a los conjuntos de datos de la aplicación](#allow-users-to-connect-to-datasets) en este artículo.
@@ -73,11 +74,11 @@ Cuando los paneles e informes en el área de trabajo estén listos, elija cuále
 
 6. Puede instalar la aplicación de forma automática para los destinatarios, si el administrador de Power BI ha habilitado esta opción automáticamente en el Portal de administración de Power BI. Obtenga más información sobre [la instalación automática de una aplicación](#automatically-install-apps-for-end-users) en este artículo.
 
-     ![Permisos de aplicación](media/service-create-distribute-apps/power-bi-apps-permissions.png)
+    ![Permisos de aplicación](media/service-create-distribute-apps/power-bi-apps-permissions.png)
 
 7. Al seleccionar **Publicar aplicación**, verá un mensaje en el que se confirma que está lista para publicarse. En el cuadro de diálogo **Compartir esta aplicación**, puede copiar la dirección URL que es un vínculo directo a esta aplicación.
    
-     ![Finalización de la aplicación](media/service-create-distribute-apps/power-bi-apps-success.png)
+    ![Finalización de la aplicación](media/service-create-distribute-apps/power-bi-apps-success.png)
 
 Puede enviar ese vínculo directo a los usuarios con los que la ha compartido, o bien pueden encontrar la aplicación en la pestaña Aplicaciones, en **Descargar y explorar más aplicaciones de AppSource**. Obtenga información sobre la [experiencia de aplicación para usuarios empresariales](consumer/end-user-apps.md).
 
@@ -86,11 +87,11 @@ Después de publicar la aplicación, puede que desee cambiarla o actualizarla. E
 
 1. Abra el área de trabajo que se corresponde a la aplicación. 
    
-     ![Abrir área de trabajo](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
+    ![Abrir área de trabajo](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
 2. Realice los cambios que quiera en los paneles o informes.
  
-     El área de trabajo es el área de ensayo, por lo que los cambios no se envían en directo a la aplicación hasta que la vuelva a publicar. Esto le permite realizar cambios sin que ello afecte a las aplicaciones publicadas.  
+    El área de trabajo es el área de ensayo, por lo que los cambios no se envían en directo a la aplicación hasta que la vuelva a publicar. Esto le permite realizar cambios sin que ello afecte a las aplicaciones publicadas.  
  
     > [!IMPORTANT]
     > Si quita un informe y actualiza la aplicación, incluso si vuelve a agregar el informe a la aplicación, los consumidores de la aplicación perderán todas las personalizaciones, como marcadores, comentarios, etc.  
@@ -99,7 +100,7 @@ Después de publicar la aplicación, puede que desee cambiarla o actualizarla. E
    
 1. Si es necesario, actualice **Instalación**, **Navegación** y **Permisos**, y después seleccione **Actualizar aplicación**.
    
-Las personas para las que ha publicado la aplicación ven automáticamente la versión actualizada de la aplicación. 
+Las personas para las que ha publicado la aplicación ven automáticamente la versión actualizada. 
 
 ## <a name="design-the-navigation-experience"></a>Diseño de la experiencia de navegación
 La opción **Nuevo generador de navegación** permite crear una navegación personalizada para la aplicación. La navegación personalizada hace que la búsqueda y el uso del contenido de la aplicación resulten más fáciles para los usuarios. En las aplicaciones existentes esta opción está desactivada y en las nuevas está activada de forma predeterminada.
@@ -111,6 +112,7 @@ Al activar **Nuevo generador de navegación**, puede diseñar una navegación pe
 ![Navegación de la aplicación](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 Puede personalizar aún más la navegación de aplicación si:
+
 * Reordena los elementos mediante las flechas Arriba y Abajo. 
 * Cambia el nombre de los elementos en **Detalles del informe**, **Detalles del panel** y **Detalles del libro**.
 * Oculta elementos concretos en el panel de navegación.
@@ -121,16 +123,20 @@ Cuando se agrega un **vínculo**, en **Detalles del vínculo** puede elegir dón
 
 ### <a name="considerations-for-using-the-new-navigation-builder-option"></a>Consideraciones sobre el uso de la nueva opción Generador de navegación
 Estos son aspectos generales que deben tenerse en cuenta al usar el nuevo Generador de navegación:
-* Las páginas del informe se muestran en el área de navegación de la aplicación como una sección expandible.
+
+* Las páginas del informe se muestran en el área de navegación de la aplicación como una sección expandible. Cuando un informe tiene una página visible, solo se muestra el nombre del informe. Al hacer clic en el nombre del informe en la navegación, se abre la primera página del informe. 
+
+    > [!NOTE]
+    > Es posible que el informe tenga solo una página visible, ya que ha configurado la navegación al resto de las páginas con botones o acciones de obtención de detalles.
+
 * Si desactiva el nuevo generador de navegación y después publica o actualiza la aplicación, se perderán las personalizaciones que haya realizado. Por ejemplo, se perderán las secciones, la ordenación, los vínculos y los nombres personalizados para los elementos de navegación.
+* La opción de no usar el generador de aplicaciones está disponible.
 
 Al agregar vínculos a la navegación de la aplicación y seleccionar la opción Área de contenido:
 * Asegúrese de que el vínculo se puede insertar. Algunos servicios bloquean la inserción de su contenido en sitios de terceros como Power BI.
 * No se admite la inserción de contenido del servicio Power BI, como informes o paneles en otras áreas de trabajo. 
 * Inserte contenido de Power BI Report Server a través de su dirección URL de inserción de contenido nativa desde una implementación local. Siga los pasos descritos en [Creación de la dirección URL de Power BI Report Server](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) para obtener la dirección URL. Tenga en cuenta que se aplican las reglas de autenticación convencionales, de modo que para ver el contenido se necesita una conexión VPN al servidor local. 
 * Se muestra una advertencia de seguridad en la parte superior del contenido insertado para indicar que no está en Power BI.
-
-
 
 ## <a name="automatically-install-apps-for-end-users"></a>Instalar aplicaciones para usuarios finales de forma automática
 Si un administrador le concede permisos, puede instalar aplicaciones de forma automática, para *insertarlas* en los usuarios finales. Esta funcionalidad de inserción facilita la distribución de las aplicaciones correctas a los usuarios o grupos adecuados. La aplicación aparecerá de forma automática en la lista de contenido Aplicaciones de los usuarios finales. No tendrán que buscarla en Microsoft AppSource ni seguir un vínculo de instalación. Vea cómo los administradores habilitan [la inserción de aplicaciones en los usuarios finales](service-admin-portal.md#push-apps-to-end-users) en el artículo del portal de administración de Power BI.
@@ -181,22 +187,28 @@ Cualquier miembro de un área de trabajo puede cancelar la publicación de la ap
 
 * En un área de trabajo, seleccione el botón de puntos suspensivos ( **…** ) en la esquina superior derecha > **Cancelar publicación de la aplicación**.
   
-     ![Cancelar publicación de la aplicación](media/service-create-distribute-apps/power-bi-app-unpublish.png)
+    ![Cancelar publicación de la aplicación](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
 Esta acción desinstala la aplicación para todos los usuarios para los que se haya publicado, los cuales dejarán de tener acceso a ella. No se elimina el área de trabajo ni su contenido.
 
 ## <a name="view-your-published-app"></a>Visualización de la aplicación publicada
 
-Cuando los consumidores de la aplicación la abran, verán el panel de navegación que ha creado, en lugar del panel de navegación estándar de Power BI. La navegación de la aplicación enumera los informes y paneles en las secciones que haya definido. También se muestran las páginas individuales de cada informe, no solo el nombre del informe.
+Cuando los consumidores de la aplicación la abran, verán el panel de navegación que ha creado, en lugar del panel de navegación estándar de Power BI. La navegación de la aplicación enumera los informes y paneles en las secciones que haya definido. También se muestran las páginas individuales de cada informe, no solo el nombre del informe. Puede expandir y contraer el panel de navegación de la izquierda mediante las flechas de la barra de menús.
 
 ![Aplicación con navegación](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+En el modo de pantalla completa, puede mostrar u ocultar la navegación si selecciona la opción en la esquina.
+
+![Navegación de pantalla completa](media/service-create-distribute-apps/full-screen-app-show-navigation.png)
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 Aspectos que hay que tener en cuenta sobre la publicación de aplicaciones:
 
+* La página Permisos no cambia el permiso para los conjuntos de datos de otras áreas de trabajo. Verá una advertencia en la que se le recuerda que conceda acceso a esos conjuntos de datos de forma independiente. Un procedimiento recomendado es ponerse en contacto con el propietario del conjunto de datos antes de empezar a compilar la aplicación para asegurarse de que es correcto conceder a todos los usuarios de la aplicación acceso a esos conjuntos de datos. 
 * Puede tener como máximo 100 usuarios o grupos en la lista de acceso de la aplicación. Sin embargo, puede conceder acceso a la aplicación a más de 100 usuarios. Para ello, use uno o varios grupos de usuarios que contengan todos los usuarios que se quieran.
 * Para la nueva experiencia de área de trabajo, si el usuario agregado a la lista de acceso de la aplicación ya tiene acceso a dicha aplicación a través del área de trabajo, no se mostrará en la lista de acceso de esta.  
-
+* Cuando se usa el nuevo aspecto del servicio Power BI, la dirección URL del sitio de soporte se muestra en la tarjeta de información del elemento. Obtenga más información sobre el ["nuevo aspecto" en Power BI](service-new-look.md).
+* Las aplicaciones tienen una opción para permitir a los usuarios compartir la aplicación y sus conjuntos de datos subyacentes mediante el permiso de uso compartido. En el caso de las aplicaciones nuevas, esta opción está desactivada de forma predeterminada. Se recomienda desactivar esta opción para las aplicaciones existentes y actualizar el permiso en los conjuntos de datos subyacentes. La opción se ha habilitado para las aplicaciones existentes porque inicialmente se diseñaron para reemplazar los paquetes de contenido, que tenían este comportamiento.
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Crear un área de trabajo](service-create-workspaces.md)

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/04/2018
+ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877597"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006512"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Crear una segmentación con capacidad de respuesta que se puede cambiar de tamaño en Power BI
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 Las segmentaciones con capacidad de respuesta se pueden cambiar de tamaño para ajustarse a cualquier espacio en el informe. Con las segmentaciones con capacidad de respuesta, puede cambiar a diferentes tamaños y formas, desde horizontal a cuadrado o vertical y los valores de la segmentación se reorganizan por sí mismos cuando lo hace. En Power BI Desktop y en el servicio Power BI, puede realizar segmentaciones horizontales y segmentaciones de fecha y rango con capacidad de respuesta. Las segmentaciones de fecha y rango también disponen de áreas táctiles mejoradas para que sea más fácil cambiarlas con el dedo. Puede hacer segmentaciones con capacidad de respuesta tan pequeñas o tan grandes como desee; también cambian de tamaño automáticamente para ajustarse a los informes en el servicio Power BI y en las aplicaciones móviles de Power BI. 
 
@@ -26,7 +28,7 @@ Las segmentaciones con capacidad de respuesta se pueden cambiar de tamaño para 
 
 El primer paso para crear una segmentación dinámica es crear una segmentación básica. 
 
-1. Seleccione el icono **Segmentación** ![icono Segmentación](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) en el panel **Visualizaciones**.
+1. Seleccione el icono **Segmentación**![icono Segmentación](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) en el panel **Visualizaciones**.
 2. Arrastre el campo que desea filtrar a **Campo**.
 
     ![Agregar un campo a la segmentación](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
@@ -73,7 +75,7 @@ Obtenga más información sobre la creación de [informes optimizados para aplic
 Puede seguir los mismos pasos para convertir una segmentación de fecha e intervalo en una segmentación con capacidad de respuesta. Después de establecer **Con capacidad de respuesta** en **Activar**, se aprecian algunas cosas:
 
 - Los objetos visuales optimizan el orden de los cuadros de entrada según el tamaño permitido en el lienzo. 
-- La visualización del elemento de datos está optimizada para hacer que la segmentación sea tan utilizable como sea posible, en función del tamaño que se permite en el lienzo. 
+- La representación de elementos de datos está optimizada para que la segmentación sea lo más utilizable posible, en función del tamaño que se permita en el lienzo. 
 - Los nuevos manipuladores de los controles deslizantes optimizan las interacciones táctiles. 
 - Cuando un objeto visual se vuelve demasiado pequeño para ser útil, se convierte en un icono que representa el tipo de objeto visual en su lugar. Para interactuar con él, simplemente pulse dos veces para abrirlo en modo de enfoque. Esto ahorra un espacio valioso en la página del informe sin perder la funcionalidad.
 

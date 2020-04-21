@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: be8716cebb091dafcc927b4bd1ecd0942ad88b47
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cd2086facbeb581a4418a3358a79cca0e80140ff
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79208066"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267351"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Modos de conjuntos de datos en el servicio Power BI
 
@@ -77,19 +77,10 @@ Hay varias ventajas asociadas con los modelos de DirectQuery:
 - Los informes en tiempo real se pueden desarrollar mediante la característica [Actualización automática de páginas](desktop-automatic-page-refresh.md).
 - Los iconos del panel, cuando se basan en los modelos de DirectQuery, se pueden actualizar automáticamente con una frecuencia de cada 15 minutos.
 
-Sin embargo, hay muchas desventajas y limitaciones asociadas a los modelos de DirectQuery:
+Pero hay algunas limitaciones asociadas a los modelos de DirectQuery:
 
-- El modelo se debe basar en un origen de datos compatible único. Es por esto que cualquier integración de datos ya se debe lograr en el origen de datos. Los orígenes de datos admitidos son sistemas relacionales y de análisis, con compatibilidad para muchos almacenes de datos populares.
-
-    > [!TIP]
-    > Se admiten muchos orígenes de datos de Microsoft. Los orígenes de datos de Microsoft incluyen SQL Server, Azure Databricks, Azure HDInsight Spark (versión beta), Azure SQL Database y Azure SQL Data Warehouse. Para más información, consulte el artículo [Orígenes de datos admitidos por DirectQuery en Power BI](desktop-directquery-data-sources.md).
-
-- El rendimiento puede ser lento, lo que podría afectar negativamente el servicio Power BI. Este problema puede deberse a que algunas consultas consumen mucha CPU para el servicio Power BI. También podría deberse a que el origen de datos no está optimizado para las consultas que Power BI envía.
-- Las consultas de Power Query se deben poder plegar. Este requisito significa que la lógica de Power Query no puede ser demasiado compleja. Además, la lógica se debe limitar a usar las expresiones de M y las funciones que se pueden transponer en consultas nativas que comprende el origen de datos.
-- Las fórmulas de DAX se limitan a usar solo las funciones que se pueden transponer en consultas nativas que comprende el origen de datos. Además, no hay compatibilidad con las tablas calculadas ni las funciones de inteligencia de tiempo de DAX.
-- Se producirá un error en las consultas de modelo que requieren recuperar más de un millón de filas.
-- Los informes y paneles con varios objetos visuales pueden mostrar resultados incoherentes, especialmente cuando el origen de datos es volátil.
-- No se admiten las características Preguntas y respuestas y Conclusiones rápidas.
+- Las fórmulas de DAX se limitan a usar solo las funciones que se pueden transponer en consultas nativas que comprende el origen de datos. No se admiten las tablas calculadas.
+- No se admiten las características Preguntas y respuestas, y Conclusiones rápidas.
 
 Desde una perspectiva de recursos del servicio Power BI, los modelos de DirectQuery requieren:
 

@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377245"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267236"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glosario para el servicio Power BI
 El servicio Power BI puede utilizar terminología desconocida o que puede llevar a confusiones. El glosario es un lugar ideal para consultar terminología, que incluso le permite marcar contenido. Otro recurso útil para conocer la base sobre la que se sustenta el servicio Power BI es [Conceptos básicos](end-user-basic-concepts.md). En Conceptos básicos encontrará información general de alto nivel sobre las *piezas* que forman Power BI y cómo se interconectan.
@@ -24,7 +24,7 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 
 **cuenta** Hay diferentes tipos de cuentas de Power BI, también llamadas *licencias*.  Las cuentas son: por usuario u organizativas. Las cuentas por usuario están disponibles como *gratuitas* o *Pro*.  Un usuario *gratuito* de Power BI usa Power BI Desktop independiente o el servicio Power BI en una cuenta organizativa Premium. La cuenta *Pro* por usuario de Power BI es una suscripción de pago mensual que permite la colaboración y el uso compartido del contenido con otros usuarios *Pro*. 
 
-La cuenta *Premium* organizativa (también conocida como *capacidad Premium*) agrega una capa de características a las licencias por usuario. Por ejemplo, los poseedores de cuentas por usuario *gratuitas* en una organización que tenga una licencia *Premium* pueden hacer mucho más con Power BI que los usuarios *gratuitos* sin *Premium*. Por ejemplo, los usuarios *gratuitos* de cuentas organizativas *Premium* pueden colaborar con compañeros y ver el contenido que se hospeda en la capacidad Premium de Power BI.  
+La cuenta *Premium* organizativa (también conocida como *capacidad Premium*) agrega una capa de características a las licencias por usuario. Por ejemplo, los poseedores de cuentas por usuario *gratuitas* en una organización que tenga una licencia *Premium* pueden hacer mucho más con Power BI que los usuarios *gratuitos* sin *Premium*. Por ejemplo, los usuarios *gratuitos* de cuentas *Premium* de la organización pueden colaborar con compañeros y ver el contenido que se hospeda en la capacidad Premium de Power BI.  
 
 **admin portal (portal de administración)** Ubicación en la que los administradores de Power BI administran los usuarios, las características y las opciones de configuración de Power BI en su organización. (Nota: Office 365, Azure y PowerApps usan el centro de administración).
 
@@ -36,8 +36,7 @@ La cuenta *Premium* organizativa (también conocida como *capacidad Premium*) ag
 
 **annotate (anotar)** Escribir líneas, texto o estampar sellos en una copia de instantánea de un icono, informe u objeto visual en la aplicación móvil de Power BI para dispositivos iOS y Android.
 
-**app, apps (aplicación, aplicaciones)** 
-
+**aplicación, aplicaciones** Un conjunto de paneles, informes y conjuntos de datos. También hace referencia a las aplicaciones móviles para consumir contenido, como la aplicación de Power BI para iOS.
 
 **AppSource**: repositorio en línea centralizado donde puede examinar y detectar paneles, informes, conjuntos de datos y aplicaciones para descargar.
 
@@ -203,7 +202,7 @@ Primera aparición: panel de navegación Siguientes menciones o en espacios redu
 
 **OneDrive for Business (OneDrive para la Empresa)** frente a **OneDrive** OneDrive es una cuenta personal y en OneDrive para la Empresa se usan cuentas profesionales.  
 
-**On-premises (entorno local)** El término utilizado para distinguir la informática en el entorno local (en la que los recursos informáticos se encuentran en las propias instalaciones del cliente) de la informática en la nube.
+**Entorno local** El término que se usa para distinguir la informática en el entorno local (en la que los recursos informáticos se encuentran en las propias instalaciones del cliente) de la informática en la nube.
 
 
 ## <a name="p"></a>P

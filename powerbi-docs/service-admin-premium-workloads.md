@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: aa44f0c8c11cb26ecfc7763ec127ca8a8505536a
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: a252c10b247ad5fc06565139bc69fc43a9add467
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979923"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267489"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configuración de cargas de trabajo en una capacidad Premium
 
@@ -24,23 +24,13 @@ En este artículo se describe cómo habilitar y configurar las cargas de trabajo
 
 Las cargas de trabajo de consulta están optimizadas y limitadas en función de los recursos determinados por la SKU de la capacidad Premium. Las capacidades Premium también admiten cargas de trabajo adicionales que pueden usar recursos de su capacidad. Los valores de memoria predeterminados para estas cargas de trabajo se basan en los nodos de capacidad disponibles para su SKU. Estos valores de memoria máxima no son acumulativos. La memoria, hasta el valor máximo especificado, se asigna dinámicamente para AI y flujos de datos, pero estáticamente para informes paginados.
 
-### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>SKU de Microsoft Office para los escenarios de software como servicio (SaaS)
-
-|                     | EM2                      | EM3                       | P1                      | P2                       | P3                       |
-|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|--------------------------|
-| INTELIGENCIA ARTIFICIAL | 40 % predeterminado; 40 % mínimo | 20 % predeterminado; 20 % mínimo | 20 % predeterminado; 8 % mínimo | 20 % predeterminado; 4 % mínimo | 20 % predeterminado; 2 % mínimo |
-| Flujos de datos | N/D |20 % predeterminado; 12 % mínimo  | 20 % predeterminado; 5 % mínimo  | 20 % predeterminado; 3 % mínimo | 20 % predeterminado; 2 % mínimo  |
-| Informes paginados | N/D |N/D | 20 % predeterminado; 10 % mínimo | 20 % predeterminado; 5 % mínimo | 20 % predeterminado; 2,5 % mínimo |
-| | | | | | |
-
-### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>SKU de Microsoft Azure para los escenarios de plataforma como servicio (PaaS)
-
-|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
-|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| INTELIGENCIA ARTIFICIAL | N/D  | 40 % predeterminado; 40 % mínimo  | 20 % predeterminado; 20 % mínimo | 20 % predeterminado; 8 % mínimo | 20 % predeterminado; 4 % mínimo | 20 % predeterminado; 2 % mínimo |
-| Flujos de datos         | 40 % predeterminado; 40 % mínimo | 24 % predeterminado; 24 % mínimo | 20 % predeterminado; 12 % mínimo | 20 % predeterminado; 5 % mínimo  | 20 % predeterminado; 3 % mínimo | 20 % predeterminado; 2 % mínimo   |
-| Informes paginados | N/D                      | N/D                      | N/D                     | 20 % predeterminado; 10 % mínimo | 20 % predeterminado; 5 % mínimo | 20 % predeterminado; 2,5 % mínimo |
-| | | | | | |
+|                   | EM1/A1                  | EM2/A2                  | EM3/A3                  | P1/A4                  | P2/A5                  | P3/A6                   |
+|-------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|
+| INTELIGENCIA ARTIFICIAL                | No compatible               | 40 % predeterminado; 40 % mínimo  | 20 % predeterminado; 20 % mínimo  | 20 % predeterminado; 8 % mínimo  | 20 % predeterminado; 4 % mínimo  | 20 % predeterminado; 2 % mínimo   |
+| Conjuntos de datos          | 100 % predeterminado; 67 % mínimo | 100 % predeterminado; 40 % mínimo | 100 % predeterminado; 20 % mínimo | 100 % predeterminado; 8 % mínimo | 100 % predeterminado; 4 % mínimo | 100 % predeterminado; 2 % mínimo  |
+| Flujos de datos         | 40 % predeterminado; 40 % mínimo  | 24 % predeterminado; 24 % mínimo  | 20 % predeterminado; 12 % mínimo  | 20 % predeterminado; 5 % mínimo  | 20 % predeterminado; 3 % mínimo  | 20 % predeterminado; 2 % mínimo   |
+| Informes paginados | No compatible               | No compatible               | No compatible               | 20 % predeterminado; 10 % mínimo | 20 % predeterminado; 5 % mínimo  | 20 % predeterminado; 2,5 % mínimo |
+|                   |                           |                           |                           |                          |                          |                           |
 
 ## <a name="workload-settings"></a>Configuración de la carga de trabajo
 
@@ -83,9 +73,16 @@ Tenga en cuenta que esta configuración solo afecta a las consultas de DirectQue
 
 #### <a name="max-offline-dataset-size"></a>Tamaño máximo del conjunto de datos sin conexión
 
-Use esta configuración para impedir que los creadores de informes publiquen un conjunto de datos grande que pueda afectar negativamente a la capacidad. Tenga en cuenta que Power BI no puede determinar el tamaño real en memoria hasta que el conjunto de datos se cargue en la memoria. Es posible que un conjunto de datos con un tamaño sin conexión más pequeño tenga una superficie de memoria mayor que un conjunto de datos de un tamaño sin conexión mayor.
+Use esta configuración para impedir que los creadores de informes publiquen un conjunto de datos grande que pueda afectar negativamente a la capacidad. Tenga en cuenta que Power BI no puede determinar el tamaño real en memoria hasta que el conjunto de datos se cargue en la memoria. Es posible que un conjunto de datos con un tamaño sin conexión más pequeño tenga una superficie de memoria mayor que un conjunto de datos de un tamaño sin conexión mayor.
 
-Si tiene un conjunto de datos que es mayor que el tamaño especificado para esta opción, el conjunto de datos no se cargará cuando un usuario intente acceder a él.
+Si tiene un conjunto de datos que es mayor que el tamaño especificado para esta opción, el conjunto de datos no se cargará cuando un usuario intente acceder a él. También se puede producir un error al cargar el conjunto de datos si es mayor que la memoria máxima configurada para su carga de trabajo.
+
+Para proteger el rendimiento del sistema, se aplica un límite máximo de tiempo adicional específico de la SKU para el tamaño máximo de conjunto de datos sin conexión, con independencia del valor configurado. Este límite máximo no se aplica a los conjuntos de datos de Power BI que están optimizados para tamaños de datos grandes. Para obtener más información, vea [Modelos grandes en Power BI Premium](service-premium-large-models.md).
+
+|                                           | EM1/A1 | EM2/A2 | EM3/A3 | P1/A4 | P2/A5 | P3/A6 |   
+|-------------------------------------------|----------|----------|----------|---------|---------|---------|
+| Límite máximo para el tamaño máximo del conjunto de datos sin conexión | 3 GB     | 5 GB     | 6 GB     | 10 GB   | 10 GB   | 10 GB   |
+|                                           |          |          |          |         |         |         |
 
 #### <a name="max-result-row-set-count"></a>Número máximo de conjuntos de filas de resultados
 
@@ -110,6 +107,7 @@ La opción de configuración predeterminada es 0, lo que da como resultado la ap
 | Límite de memoria de consulta automática | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
 |                              |          |          |          |         |         |         |
 
+Para proteger el rendimiento del sistema, se aplica un límite máximo de 10 GB para todas las consultas ejecutadas por informes de Power BI, con independencia del límite de memoria de consulta configurado por el usuario. Este límite máximo no se aplica a las consultas emitidas por herramientas que usan el protocolo Analysis Services (también conocido como XMLA). Los usuarios deben considerar la posibilidad de simplificar la consulta o sus cálculos si la consulta tiene un uso intensivo de memoria.
 
 #### <a name="query-timeout"></a>Tiempo de espera de la consulta
 
@@ -132,8 +130,8 @@ Tenga en cuenta que en los informes de Power BI este valor predeterminado se inv
 
 Cuando está habilitada, la actualización automática de páginas permite a sus usuarios con capacidad Premium actualizar las páginas de los informes en un intervalo definido, en el caso de los orígenes de DirectQuery. Como administrador de la capacidad, puede hacer lo siguiente:
 
-1.  Activar y desactivar la actualización automática de páginas
-2.  Definir un intervalo de actualización mínimo
+- Activar y desactivar la actualización automática de páginas
+- Definir un intervalo de actualización mínimo
 
 En la siguiente imagen se indica dónde está la opción de intervalo de actualización automática:
 

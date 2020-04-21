@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/10/2020
+ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dedbe3800dc4a6b1088ca5a4037bc8451c61d986
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 0f2d6bae607383eb8934b3f395add540c6754690
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076648"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006719"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Acerca del uso de DirectQuery en Power BI
 
@@ -98,7 +98,7 @@ En la tabla siguiente se describen los escenarios en los que la conexión con Di
 
 | Limitación | Descripción |
 | --- | --- |
-| Los datos cambian con frecuencia y se requiere generar informes casi en tiempo real |Los modelos con datos importados se pueden actualizar como máximo una vez por hora. Si los datos cambian constantemente y es necesario que en los informes se muestren los datos más recientes, es posible que usar la importación con actualización programada no satisfaga esas necesidades. Puede transmitir datos en secuencias directamente a Power BI, aunque existen límites en los volúmenes de datos que se admiten en este caso. <br/> <br/> Por el contrario, el uso de DirectQuery significa que cuando se abre o actualiza un informe o panel siempre se muestran los datos más recientes en el origen. Además, los iconos de panel se pueden actualizar con más frecuencia (incluso cada 15 minutos). |
+| Los datos cambian con frecuencia y se requiere generar informes casi en tiempo real |Los modelos con datos importados se pueden actualizar como máximo una vez por hora (con más frecuencia en suscripciones de Power BI Pro o Power BI Premium). Si los datos cambian constantemente y es necesario que en los informes se muestren los datos más recientes, es posible que usar la importación con actualización programada no satisfaga esas necesidades. Puede transmitir datos en secuencias directamente a Power BI, aunque existen límites en los volúmenes de datos que se admiten en este caso. <br/> <br/> Por el contrario, el uso de DirectQuery significa que cuando se abre o actualiza un informe o panel siempre se muestran los datos más recientes en el origen. Además, los iconos de panel se pueden actualizar con más frecuencia (incluso cada 15 minutos). |
 | El volumen de datos es muy grande |Si el volumen de datos es muy grande, sin duda no sería posible importarlos todos. Por el contrario, DirectQuery no requiere una transferencia de datos de gran volumen, puesto que la consulta se realiza en contexto. <br/> <br/> Pero los datos de gran tamaño también podrían implicar que el rendimiento de las consultas sobre ese origen subyacente es demasiado lento, tal y como se describe en [Implicaciones del uso de DirectQuery](#implications-of-using-directquery). No siempre tiene que importar los datos detallados completos. En cambio, los datos se pueden agregar previamente durante la importación. El *Editor de consultas* facilita la agregación previa durante la importación. En último caso, sería posible importar exactamente los datos agregados que se necesitan para cada objeto visual. Si bien DirectQuery es el enfoque más simple cuando se trata de datos de gran tamaño, la importación de datos agregados podría ser una buena solución si el origen subyacente es demasiado lento. |
 | Las reglas de seguridad están definidas en el origen subyacente |Cuando se importan los datos, Power BI se conectará al origen de datos con las credenciales del usuario actual en Power BI Desktop o con las credenciales definidas como parte de la configuración de la actualización programada en el servicio Power BI. Al publicar y compartir dicho informe, tenga cuidado de compartirlo solo con usuarios que tienen permitido ver los mismos datos o definir seguridad de nivel de fila como parte del conjunto de datos. <br/> <br/> Idealmente, como DirectQuery siempre consulta el origen subyacente, esta configuración permitiría aplicar cualquier medida de seguridad en ese origen subyacente. Sin embargo, actualmente Power BI siempre se conecta al origen subyacente con las mismas credenciales que se usarían para la importación. <br/> <br/> Hasta que Power BI permita que la entidad del consumidor del informe pase al origen subyacente, DirectQuery no ofrece ninguna ventaja en cuanto a la seguridad del origen de datos. |
 | Se aplican restricciones de soberanía de datos |Algunas organizaciones tienen directivas en torno a la soberanía de datos, lo que significa que los datos no pueden salir de las instalaciones de la organización. Claramente, una solución basada en la importación presentaría problemas. Por el contrario, con DirectQuery los datos quedan en el origen subyacente. <br/> <br/> Sin embargo, incluso con DirectQuery, algunas cachés de datos en el nivel de objeto visual se mantienen en el servicio Power BI debido a la actualización programada de los iconos. |

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: dfb57d6344e6a8e020404f9cd23c957967b960f7
+ms.sourcegitcommit: a9ebab692c670192b62a31bfe99447908506251b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404175"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "81122253"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar Power BI Desktop optimizado para el servidor de informes de Power BI
 
@@ -96,6 +96,10 @@ Los informes del servidor de informes de Power BI no admiten estas característi
 ### <a name="custom-security"></a>Seguridad personalizada
 
 Power BI Desktop optimizado para Power BI Report Server no admite la seguridad personalizada. Si la instancia de Power BI Report Server se configura con una extensión de seguridad personalizada, no puede guardar un informe de Power BI desde Power BI Desktop (optimizado para Power BI Report Server) en la instancia de Power BI Report Server. Tendrá que guardar el archivo de informe .pbix de Power BI Desktop y cargarlo al sitio del portal de Power BI Report Server.
+
+### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>Guardado de informes en una instancia de Power BI Report Server en otro dominio
+
+Cuando se guarda un informe de Power BI en Power BI Report Server, se usan las credenciales de Windows. No se puede guardar directamente en un servidor de informes de otro dominio con las credenciales de Windows. Puede usar un explorador web para ver el servidor de informes y, en su lugar, cargar manualmente el archivo desde el equipo.
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop para versiones anteriores de Power BI Report Server
 

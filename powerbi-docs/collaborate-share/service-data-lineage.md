@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: cb58b71d4fe15458516dc0b1d3f25d79e6ef1a62
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 165651beab2e20f033d20480e78a3876931ea806
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79126061"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267282"
 ---
 # <a name="data-lineage-preview"></a>Linaje de datos (versión preliminar)
-En los proyectos de inteligencia empresarial (BI) modernos, comprender el flujo de datos desde el origen de datos hasta su destino puede ser un desafío. El desafío es incluso mayor si se han creado proyectos analíticos avanzados que abarcan varios orígenes de datos, artefactos y dependencias. Preguntas como "¿Qué ocurre si cambio estos datos?" o "¿Por qué no se ha actualizado este informe?" pueden ser difíciles de responder. Es posible que para entenderlas se necesite un equipo de expertos o una investigación en profundidad. Para ayudarle a responder a estas preguntas se ha diseñado una vista de linaje.
+En los proyectos de inteligencia empresarial (BI) modernos, comprender el flujo de datos desde el origen de datos hasta su destino puede ser un desafío. El desafío es incluso mayor si se han creado proyectos analíticos avanzados que abarcan varios orígenes de datos, artefactos y dependencias. Preguntas como "¿Qué ocurre si cambio estos datos?" o bien, "¿Por qué no se ha actualizado este informe?" pueden ser difíciles de responder. Es posible que para entenderlas se necesite un equipo de expertos o una investigación en profundidad. Para ayudarle a responder a estas preguntas se ha diseñado una vista de linaje.
 
 ![Vista de linaje de Power BI](media/service-data-lineage/service-data-lineage-view.png)
  
@@ -93,3 +93,4 @@ La vista de linaje es un lienzo interactivo. Puede usar el mouse y el panel tác
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [Introducción a los conjuntos de datos de áreas de trabajo (versión preliminar)](../service-datasets-across-workspaces.md)
+* [Análisis de impacto para conjuntos de datos](service-dataset-impact-analysis.md)

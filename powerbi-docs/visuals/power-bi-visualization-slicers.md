@@ -1,31 +1,35 @@
 ---
 title: Segmentaciones de datos en Power BI
 description: Una segmentación de Power BI es una forma alternativa de filtro que limita la parte del conjunto de datos que se muestra en las demás visualizaciones de un informe.
-author: v-thepet
+author: maggiesMSFT
 ms.reviewer: ''
-featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
-ms.date: 11/04/2019
-ms.author: mihart
+ms.topic: conceptual
+ms.date: 04/06/2020
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97ad95346715cd5ad38f41d6e7b9df3cc7493f40
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265392"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006811"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentaciones de datos en Power BI
 
-[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-Imagine que quiere que los lectores del informe puedan consultar métricas de ventas generales, pero también resaltar el rendimiento de administradores de distrito concretos y diferentes períodos de tiempo. Podría crear informes independientes o gráficos comparativos. O bien, podría usar segmentaciones. Una segmentación es una forma alternativa de filtro que limita la parte del conjunto de datos que se muestra en otras visualizaciones de un informe. 
-
-En este tutorial se usa el [ejemplo de análisis de minoristas](../sample-retail-analysis.md) gratuito para guiarlo a la hora de crear segmentaciones de plazos de tiempo, así como darles formato y crear listas de ellas. Diviértase descubriendo maneras de dar formato y usar segmentaciones. 
+Imagine que quiere que los lectores del informe puedan consultar métricas de ventas generales, pero también resaltar el rendimiento de administradores de distrito concretos y diferentes períodos de tiempo. Podría crear informes independientes o gráficos comparativos. O bien, podría usar *segmentaciones*. Una segmentación es una forma alternativa de filtro que limita la parte del conjunto de datos que se muestra en otras visualizaciones de un informe. 
 
 ![Animación de segmentación](media/power-bi-visualization-slicers/slicer2.gif)
+
+En este artículo se explica cómo crear y dar formato a una segmentación básica, mediante el [Ejemplo de análisis de minoristas](../sample-retail-analysis.md) gratuito. También se muestra cómo puede controlar qué objetos visuales se ven afectados por una segmentación y cómo sincronizar con segmentaciones en otras páginas. Estos son otros artículos en los que se explica cómo crear tipos específicos de segmentaciones:
+
+- [Segmentaciones de rango numérico](../desktop-slicer-numeric-range.md).
+- [Segmentaciones de fecha relativa](desktop-slicer-filter-date-range.md).
+- [Segmentaciones que se pueden cambiar de tamaño](../power-bi-slicer-filter-responsive.md) y con capacidad de respuesta.
+- [Segmentaciones de jerarquía](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md) con varios campos.
 
 ## <a name="when-to-use-a-slicer"></a>Cuándo usar una segmentación
 Las segmentaciones son una excelente opción si desea:
@@ -40,14 +44,11 @@ Las segmentaciones de Power BI no admiten:
 - Campos de entrada
 - Exploración en profundidad
 
+## <a name="create-a-slicer"></a>Crear una segmentación
 
-## <a name="create-slicers"></a>Creación de segmentaciones
+Esta segmentación filtra los datos por administrador de distrito. Si quiere seguir este procedimiento, descargue el [archivo PBIX Ejemplo de análisis de minoristas](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-**Creación de una segmentación para filtrar los datos por administrador de distrito**
-
-1. Descargue el [archivo PBIX del ejemplo de análisis de minoristas](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
-
-1. Desde la barra de menús de Power BI Desktop, seleccione **Archivo** > **Abrir**.
+1. Abra Power BI Desktop y, desde la barra de menús, seleccione **Archivo** > **Abrir**.
    
 1. Vaya al archivo **Ejemplo de análisis de venta al por menor PBIX.pbix** y seleccione **Abrir**.
 
@@ -73,36 +74,6 @@ Las segmentaciones de Power BI no admiten:
 
    >[!TIP]
    >De forma predeterminada, los elementos de lista de la segmentación se ordenan de forma ascendente. Para ordenar en orden descendente, haga clic en el botón de puntos suspensivos ( **...** ), situado en la esquina superior derecha de la segmentación, y elija **Orden descendente**.
-
-**Creación de una segmentación para filtrar los datos por intervalo de fechas**
-
-1. Seleccione la página **Información general** del informe. Sin ninguna selección en el lienzo del informe, en el panel **Campos**, seleccione **Tienda** >  **Fecha de apertura**.
-
-    Esta acción rellena el cuadro **Valores** del panel **Visualizaciones** para crear una visualización.
-
-1. Con la nueva visualización seleccionada en el informe, seleccione el icono **Segmentación** en el panel **Visualizaciones** para convertirla en una segmentación. Esta segmentación **Fecha de apertura** es un control deslizante con el intervalo de fechas rellenado.
-    
-    ![Creación de la visualización Fecha de apertura](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
-
-1. Cambie el tamaño de la segmentación y los demás elementos, y arrástrelos en el lienzo para dejar espacio a la segmentación. Aunque el tamaño de la segmentación se cambia con el del control deslizante, desaparece y las fechas se recortan si elige un tamaño demasiado pequeño para la segmentación. 
-
-1. Seleccione otros intervalos de fechas con el control deslizante, o bien un campo de fecha para escribir una fecha o abrir una ventana emergente con un calendario para hacer una selección más precisa. Observe los efectos que tiene en las demás visualizaciones de la página.
-    
-    >[!NOTE]
-    >Los tipos de datos numéricos y de fecha/hora generan las segmentaciones de control deslizante de intervalo de forma predeterminada. A partir de la actualización de febrero de 2018 de Power BI, las segmentaciones de intervalo de tipo de datos de número entero ahora se ajustan a los valores de número entero en lugar de mostrar las posiciones decimales. 
-
-1. Para cambiar el tipo de segmentación, con la segmentación seleccionada, mantenga el mouse sobre el área superior derecha, seleccione el icono de acento circunflejo que aparece y elija una de las opciones, como **Lista** o **Antes**. Observe cómo cambian las opciones de selección y la apariencia de la segmentación. 
- 
-    ![Nuevo intervalo para la segmentación](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
-
-
-Para obtener más información sobre cómo crear segmentaciones de intervalos numéricos y de fecha, vea el vídeo siguiente y vea [Uso de la segmentación de intervalos numéricos en Power BI Desktop](../desktop-slicer-numeric-range.md).
-   > [!NOTE]
-   > En este vídeo se usa una versión anterior de Power BI Desktop.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
 
 ## <a name="control-which-page-visuals-are-affected-by-slicers"></a>Control de qué objetos visuales de página se ven afectados por las segmentaciones
 De forma predeterminada, las segmentaciones de las páginas del informe afectan a todas las visualizaciones de la página. Cuando elija los valores en los controles deslizantes de lista y fecha que acaba de crear, observe los efectos en las demás visualizaciones. Los datos filtrados están una intersección de los valores seleccionados en las dos segmentaciones. 
@@ -208,7 +179,7 @@ Para más información sobre las orientaciones horizontales y los diseños diná
 
 ### <a name="title-options"></a>Opciones de título
 La opción **Título** está **activada** de forma predeterminada. Esta selección muestra el nombre del campo de datos en la parte superior de la segmentación. 
-- En este tutorial, dé formato al texto del título como se indica a continuación: 
+- En este artículo, aplique formato al texto como se indica a continuación: 
    - **Color de fuente**: rojo
    - **Tamaño del texto**: **14 pt**
    - **Alineación**: **Centro**
@@ -216,7 +187,7 @@ La opción **Título** está **activada** de forma predeterminada. Esta selecci�
 
 
 ### <a name="items-options-list-slicers-only"></a>Opciones de Elementos (solo para segmentaciones de lista)
-1. En este tutorial, dé formato a las opciones de **Elementos** como se indica a continuación:
+1. En este artículo, aplique los formatos siguientes a las opciones de **Elementos**:
     - **Color de fuente**: negro
     - **Fondo**: rojo claro
     - **Tamaño del texto**: **10 pt**
