@@ -1,20 +1,20 @@
 ---
 title: Uso de marcadores en Power BI Desktop para compartir información detallada y crear historias
 description: Los marcadores de Power BI Desktop le permiten guardar vistas y configuraciones en los informes y crear presentaciones a modo de historias
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/18/2019
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 00ea3e70b34ecdaf2c5bd8b8728153bfb26f899b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: b986b86642e5ac3e6a8394010bf27922daaf5ea7
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79378993"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439926"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Creación de marcadores en Power BI Desktop para compartir información detallada y crear historias
 Con los *marcadores* de Power BI Desktop, se captura la vista configurada actualmente de una página del informe, incluidos los filtros y el estado de los objetos visuales. Después, puede volver a ese estado si selecciona el marcador guardado. 

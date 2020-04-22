@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a6dd3040fd765010c5d6baaf76991f7d1be4cfa7
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877060"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637890"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Obtención de datos de archivos de libro de Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -41,7 +41,7 @@ Si utiliza Excel para conectarse a un origen de datos externo, una vez que el li
 ### <a name="workbooks-with-power-view-sheets-pivottables-and-charts"></a>Libros con hojas de Power View, tablas dinámicas y gráficos
 El modo en que las hojas de PowerView, las tablas dinámicas y los gráficos aparecen, o no aparecen, en Power BI depende de dónde se guarda el archivo de libro y cómo decide consultarlo en Power BI. Esto se tratará más adelante.
 
-## <a name="data-types"></a>Tipo de datos
+## <a name="data-types"></a>Tipos de datos
 Power BI admite los siguientes tipos de datos: Número entero, Número decimal, Moneda, Fecha, Verdadero/Falso, Texto. Marcar datos con tipos específicos en Excel mejorará la experiencia de Power BI.
 
 ## <a name="prepare-your-workbook-for-power-bi"></a>Preparación del libro para Power BI
@@ -124,8 +124,6 @@ Actualmente, al elegir Importar, Power BI solo importa datos que formen parte de
 **Programar actualización**: si el archivo de libro de Excel se conecta a orígenes de datos externos o se importa desde una unidad local, puede configurar una actualización programada para asegurarse de que el conjunto de datos está siempre actualizado. En la mayoría de los casos, la configuración de una actualización programada es bastante fácil de hacer. Sin embargo, ofrecer una información más detallada está fuera del ámbito de este artículo. Consulte [Actualizar datos en Power BI](refresh-data.md) para más información.
 
 [Publicación en Power BI desde Excel 2016](service-publish-from-excel.md)
-
-[Power BI Publisher para Excel](publisher-for-excel.md)
 
 [Actualizar datos en Power BI](refresh-data.md)
 

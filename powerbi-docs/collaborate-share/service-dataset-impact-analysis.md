@@ -1,5 +1,5 @@
 ---
-title: Análisis de impacto para conjuntos de datos (versión preliminar)
+title: Análisis de impacto para conjuntos de datos
 description: Visualice y analice el impacto posterior de la realización de cambios en los conjuntos de datos.
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 016c555c6df65a45a9d429c25db93110022d9d8f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268038"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525339"
 ---
-# <a name="dataset-impact-analysis-preview"></a>Análisis de impacto para conjuntos de datos (versión preliminar)
+# <a name="dataset-impact-analysis"></a>Análisis de impacto para conjuntos de datos
 
 Cuando se realizan cambios en un conjunto de datos o se considera la posibilidad de realizarlos, es importante poder evaluar el impacto posterior que tendrán en los informes y paneles que dependan de ese conjunto de datos. El **análisis de impacto para conjuntos de datos** proporciona información que puede ayudarle a realizar esta valoración.
 * Muestra el número de áreas de trabajo, informes y paneles que se pueden ver afectados por el cambio y proporciona una navegación sencilla a las áreas de trabajo donde se encuentran los informes y paneles afectados para que pueda investigar más.
