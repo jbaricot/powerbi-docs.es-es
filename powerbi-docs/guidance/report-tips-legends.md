@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5c026e2b7625a2306092f04e11aa77cb275c1f5f
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 098c01aacca7fca0621efe12367f2f66cd0d9d96
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006098"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066116"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Sugerencias para dar formato e implementar leyendas en informes de Power BI
 
@@ -39,7 +39,7 @@ En resumen, las seis mejores sugerencias para dar formato e implementar leyendas
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
-- [Sugerencias para crear informes impactantes](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [Sugerencias para crear informes impactantes](../desktop-tips-and-tricks-for-creating-reports.md)
 - Vídeo de biDezine: [Las 6 mejores sugerencias para aplicar formato e implementar en Power BI](https://www.youtube.com/watch?v=r9XnHmuWkZQ)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 54364162b48b591e0f8eccdeb05e07f02656632a
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 98bb0e31a8cc92f5969f62f8b2a9e03637790fc3
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006581"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065556"
 ---
 # <a name="tips-to-optimize-the-use-of-labels-in-power-bi-reports"></a>Sugerencias para optimizar el uso de etiquetas en informes de Power BI
 
@@ -37,7 +37,7 @@ En resumen, las cuatro mejores sugerencias para optimizar el uso de etiquetas en
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
-- [Sugerencias para crear informes impactantes](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [Sugerencias para crear informes impactantes](../desktop-tips-and-tricks-for-creating-reports.md)
 - Vídeo de biDezine: [Las cuatro sugerencias principales para optimizar el uso de etiquetas en Power BI](https://www.youtube.com/watch?v=ywx5xUN5VQM)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com)

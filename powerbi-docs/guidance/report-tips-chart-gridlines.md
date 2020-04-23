@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: eeb8689ee1c5ba704c4aad9b61ce9b6feab725bf
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: c40d93cc06204ee7a935727c3b38494fdeb71256
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006121"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065534"
 ---
 # <a name="tips-to-control-chart-gridlines-in-power-bi-reports"></a>Sugerencias para controlar las líneas de cuadrícula de gráficos en informes de Power BI
 
@@ -36,7 +36,7 @@ En resumen, las tres mejores sugerencias para controlar las líneas de cuadrícu
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
-- [Sugerencias para crear informes impactantes](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [Sugerencias para crear informes impactantes](../desktop-tips-and-tricks-for-creating-reports.md)
 - Vídeo de biDezine: [Las tres sugerencias principales para controlar las líneas de cuadrícula de los gráficos en Power BI](https://www.youtube.com/watch?v=Y-igshes2LI)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com)
