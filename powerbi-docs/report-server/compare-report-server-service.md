@@ -54,7 +54,7 @@ Power BI Report Server y el servicio Power BI tienen muchas similitudes y alguna
 | Características en vista previa | No | Sí | [Participación en las características de versión preliminar del servicio Power BI](../consumer/end-user-preview-features.md) |
 | Objetos visuales de Power BI | Sí | Sí | [Objetos visuales de Power BI](../developer/visuals/power-bi-custom-visuals.md) |
 | Modelos compuestos | No | Sí |
-| Power BI Desktop | Versión optimizada para Report Server, disponible para su descarga con Report Server | Versión optimizada para el servicio Power BI, disponible desde Mirosoft Store | [Power BI Desktop para Report Server](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop para el servicio Power BI](https://aka.ms/pbidesktopstore) |
+| Power BI Desktop | Versión optimizada para Report Server, disponible para su descarga con Report Server | Versión optimizada para el servicio Power BI, disponible desde Microsoft Store | [Power BI Desktop para Report Server](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop para el servicio Power BI](https://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>Pasos siguientes
 
