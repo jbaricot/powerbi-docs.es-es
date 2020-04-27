@@ -1,20 +1,20 @@
 ---
 title: Configuración de actualización programada
 description: Esta sección abarca los pasos para seleccionar una puerta de enlace y configurar la actualización programada.
-author: maggiesMSFT
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.author: maggies
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: cc0527d093118fdb585800d0038f824223098119
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74958411"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675691"
 ---
 # <a name="configure-scheduled-refresh"></a>Configuración de actualización programada
 
@@ -38,7 +38,7 @@ Si ninguna puerta de enlace está disponible, verá la opción **Conexión de pu
 
 ![Puerta de enlace no configurada](media/refresh-scheduled-refresh/gateway-not-configured.png)
 
-Si tiene configurada una puerta de enlace personal, estará disponible para seleccionarla si está en línea. Mostrará sin conexión si no está disponible.
+Si tiene configurada una puerta de enlace personal y está en línea, estará disponible para seleccionarla. Si no está disponible, se mostrará sin conexión.
 
 ![Conexión de puerta de enlace](media/refresh-scheduled-refresh/gateway-connection.png)
 
@@ -55,9 +55,9 @@ Si utiliza la puerta de enlace personal para actualizar los datos, debe proporci
 Solo es necesario que inicie sesión en un origen de datos la primera vez que use la actualización en ese conjunto de datos. Una vez introducidas, esas credenciales se conservan con el conjunto de datos.
 
 > [!NOTE]
-> En algunos métodos de autenticación, si la contraseña que se usa para iniciar sesión en un origen de datos expira o se modifica, será necesario cambiarla también en el origen de datos en **Credenciales del origen de datos**.
+> En algunos métodos de autenticación, si la contraseña que se usa para iniciar sesión en un origen de datos expira o se modifica, necesitará cambiarla también en el origen de datos en **Credenciales de origen de datos**.
 
-Cuando existe algún problema, suele deberse a que la puerta de enlace está sin conexión porque no pudo iniciar sesión en Windows e iniciar el servicio o porque Power BI no pudo iniciar sesión en los orígenes de datos para consultar los datos actualizados. Si se produce un error en la actualización, compruebe la configuración del conjunto de datos. Si el servicio de puerta de enlace está sin conexión, verá el error en **Estado**. Si Power BI no puede iniciar sesión en los orígenes de datos, verá un error en Credenciales del origen de datos.
+Cuando existe algún problema, suele deberse a que la puerta de enlace está sin conexión porque no pudo iniciar sesión en Windows e iniciar el servicio, o bien porque Power BI no pudo iniciar sesión en los orígenes de datos para consultar los datos actualizados. Si se produce un error en la actualización, compruebe la configuración del conjunto de datos. Si el servicio de puerta de enlace está sin conexión, verá el error en **Estado**. Si Power BI no puede iniciar sesión en los orígenes de datos, verá un error en "Credenciales de origen de datos".
 
 ### <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
 
@@ -82,7 +82,11 @@ Cambie el valor del control deslizante **Mantener los datos actualizados** a **S
 > [!NOTE]
 > Después de dos meses de inactividad, se realiza una pausa en la actualización programada en el conjunto de datos. Se considera que un conjunto de datos está inactivo cuando ningún usuario ha visitado un panel o informe generado en el conjunto de datos. En ese momento, el propietario del conjunto de datos recibe un mensaje de correo electrónico en el que se le indica que la actualización programada está en pausa. La programación de la actualización del conjunto de datos se muestra como **deshabilitada**. Para reanudar la actualización programada, basta con volver a visitar cualquier panel o informe creado en el conjunto de datos.
 
-## <a name="whats-supported"></a>¿Qué es compatible?
+## <a name="whats-supported"></a>¿Qué se admite?
+
+
+> [!NOTE]
+> La actualización programada también se deshabilitará automáticamente después de cuatro errores consecutivos.
 
 Algunos conjuntos de datos se admiten con diferentes puertas de enlace en la actualización programada. Esta es una referencia para comprender lo que está disponible.
 
@@ -90,8 +94,8 @@ Algunos conjuntos de datos se admiten con diferentes puertas de enlace en la act
 
 **Power BI Desktop**
 
-* Todos los orígenes de datos en línea que se muestran en **Obtener datos** y en el Editor de consultas de Power BI Desktop.
-* Todos los orígenes de datos locales que se muestran en **Obtener datos** y en el Editor de consultas de Power BI Desktop, excepto el archivo Hadoop (HDFS) y Microsoft Exchange.
+* Todos los orígenes de datos en línea que se muestran en **Obtener datos** y en el Editor de consultas de Power BI Desktop.
+* Todos los orígenes de datos locales que se muestran en **Obtener datos** y en el Editor de consultas de Power BI Desktop, excepto el archivo Hadoop (HDFS) y Microsoft Exchange.
 
 **Excel**
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: e2c742abe5db21ef567d07cf88755eb459d8e091
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006627"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637607"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Protección de datos en Power BI (versión preliminar)
 
@@ -105,7 +105,7 @@ En la lista siguiente se proporcionan algunas limitaciones de las etiquetas de c
 * La [Protección HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) no se admite para las etiquetas aplicadas en Power BI.
 * La visualización y la aplicación de etiquetas en las aplicaciones de Office tienen [requisitos de licencias](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Las etiquetas de confidencialidad solo se admiten para los inquilinos en la nube global (pública). No se admiten las etiquetas de confidencialidad para los inquilinos de otras nubes.
-* No se admiten las etiquetas de confidencialidad para las aplicaciones de plantilla.
+* No se admiten las etiquetas de confidencialidad para las aplicaciones de plantilla. Las etiquetas de confidencialidad establecidas por el creador de la aplicación de plantilla se quitan cuando se extrae la aplicación y se instala. Asimismo, al actualizar la aplicación, las etiquetas de confidencialidad agregadas a los artefactos de una aplicación de plantilla instalada por el consumidor de la aplicación se pierden (se restablecen vacías).
 * Power BI no admite etiquetas de confidencialidad de los tipos de protección **No reenviar** y **Ad hoc**.
 
 ## <a name="next-steps"></a>Pasos siguientes

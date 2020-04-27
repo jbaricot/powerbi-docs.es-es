@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: a142b950375014c4d1adba917cceb2c6d9af4825
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: df905c4174c366f64b58d257786f002c607f3edb
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427700"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675662"
 ---
 # <a name="analyze-in-excel"></a>Analizar en Excel
 Puede que en ocasiones prefiera usar Excel para ver un conjunto de datos que tenga en Power BI e interactuar con él. Con **Analizar en Excel**, puede hacer justamente eso y acceder a las características de segmentación de datos, gráfico y tabla dinámica de Excel según el conjunto de datos que exista en Power BI.
@@ -68,9 +68,7 @@ Aunque ya haya iniciado sesión en Power BI en el explorador, la primera vez que
 ### <a name="users-with-multiple-power-bi-accounts"></a>Usuarios con varias cuentas de Power BI
 Algunos usuarios tienen varias cuentas de Power BI y pueden encontrarse con una situación en la que han iniciado sesión en Power BI con una cuenta, pero la cuenta que tiene acceso al conjunto de datos usado en Analizar en Excel es otra diferente. En estos casos, es posible que obtenga un error **Prohibido** o de inicio de sesión al intentar acceder a un conjunto de datos usado en un libro de Analizar en Excel.
 
-Tendrá la oportunidad de iniciar sesión de nuevo, momento en el cual puede hacerlo con la cuenta de Power BI que tiene acceso a dicho conjunto de datos. También puede seleccionar **Perfil** en la pestaña de la cinta de opciones de **Power BI** en Excel, que identifica la cuenta con la que ha iniciado actualmente sesión, y proporciona un vínculo que le permite cerrarla (y, posteriormente, iniciarla con una cuenta diferente). Puede [descargar Power BI Publisher para Excel](https://www.microsoft.com/download/details.aspx?id=50729) si aún no lo tiene instalado, que es cómo se instala la cinta de Power BI en Excel.
-
-![Ver su perfil](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
+Tendrá la oportunidad de iniciar sesión de nuevo, momento en el cual puede hacerlo con la cuenta de Power BI que tiene acceso a dicho conjunto de datos. También puede seleccionar su nombre en la cinta de opciones superior de Excel, que identifica la cuenta con la que ha iniciado actualmente sesión. Cierre la sesión y vuelva a iniciarla con una cuenta distinta.
 
 ### <a name="enable-data-connections"></a>Habilitación de conexiones de datos
 Para analizar los datos de Power BI en Excel, se le solicita que compruebe el nombre de archivo y la ruta de acceso al archivo .odc y que luego seleccione **Habilitar**.

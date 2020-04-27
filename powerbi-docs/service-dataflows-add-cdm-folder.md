@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: cc47820e5903426d4f3635c78e0dc108049f897e
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404763"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439351"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Incorporación de una carpeta de CDS a Power BI como flujo de datos (versión preliminar)
 
@@ -30,6 +30,12 @@ Hay algunos requisitos para la creación de flujos de datos desde las carpetas d
 * Debe tener concedidos permisos de lectura y ejecución en todos los archivos y carpetas de la carpeta de CDS para agregarlos a Power BI.
 
 En las secciones siguientes se describe cómo crear un flujo de datos desde una carpeta de CDS.
+
+## <a name="authorizing-users-for-cdm-folders-to-create-a-dataflow"></a>Autorización de usuarios para carpetas de CDM para crear un flujo de datos
+
+Para crear un flujo de datos a partir de una carpeta de CDM, se deben agregar los siguientes permisos:
+* El usuario que tendrá acceso a la carpeta de CDM a través de Power BI debe figurar en el rol **Propietario de datos de Storage Blob** de la cuenta de almacenamiento.
+* El usuario que tendrá acceso a la carpeta de CDM a través de Power BI debe tener ACL de **acceso de lectura** y **acceso de ejecución** en la carpeta de CDM y en los archivos o carpetas que esta contiene. 
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Crear un flujo de datos desde una carpeta de CDS
 

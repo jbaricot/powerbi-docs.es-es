@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/24/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bfec81aaa47f210855c4db4c8c97ab259b685110
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 10d1e87fabc54c5886930c52ce60ed4a62479847
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302443"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525454"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Suscripción a un informe o panel en el servicio Power BI 
 
@@ -33,7 +33,7 @@ Cuando reciba el correo electrónico, incluye un vínculo para "ir al informe o 
 
 
 ## <a name="requirements"></a>Requisitos
-Para **crear** una suscripción para uno mismo se necesita un tipo determinado de [licencia](end-user-license.md). Si no puede crear una suscripción, póngase en contacto con el administrador de Power BI. La **suscripción de otros usuarios** solo está disponible para el propietario del informe. La suscripción a informes paginados varía un poco. Para obtener más información, consulte  [Suscripción personal y de otros usuarios a un informe paginado en el servicio Power BI](paginated-reports-subscriptions.md) . 
+Para **crear** una suscripción para uno mismo se necesita un tipo determinado de [licencia](end-user-license.md). Si no puede crear una suscripción, póngase en contacto con el administrador de Power BI. La **suscripción de otros usuarios** solo está disponible para el propietario del informe. La suscripción a informes paginados varía un poco. Para obtener más información, consulte [Suscripción personal y de otros usuarios a un informe paginado en el servicio Power BI](paginated-reports-subscriptions.md). 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Suscribirse a un panel o una página de informe
 El proceso para suscribirse a un panel y a un informe es similar. El mismo botón permite suscribirse a los paneles e informes del servicio Power BI.
@@ -55,9 +55,9 @@ El proceso para suscribirse a un panel y a un informe es similar. El mismo botó
 
     c. Opcionalmente, agregue un asunto y los detalles del mensaje de correo electrónico. 
 
-    d. Seleccione una **Frecuencia** para la suscripción.  Puede elegir Diaria, Semanal o Tras la actualización de los datos (una vez al día).  Para recibir el correo electrónico de suscripción solo en días concretos, seleccione **Semanal** y elija los días en los que quiera recibirlo.  Por ejemplo, si le gustaría recibir el correo electrónico de suscripción solo los días laborables, seleccione **Semanal** para la frecuencia y desactive las casillas para Sáb. y Dom. Si selecciona   **Mensual**, escriba los días del mes en los que quiere recibir el correo de suscripción.   
+    d. Seleccione una **Frecuencia** para la suscripción.  Puede elegir Diaria, Semanal o Tras la actualización de los datos (una vez al día).  Para recibir el correo electrónico de suscripción solo en días concretos, seleccione **Semanal** y elija los días en los que quiera recibirlo.  Por ejemplo, si le gustaría recibir el correo electrónico de suscripción solo los días laborables, seleccione **Semanal** para la frecuencia y desactive las casillas para Sáb. y Dom. Si selecciona **Mensual**, escriba los días del mes en los que quiere recibir el correo de suscripción.   
 
-    e. Si elige Diaria, Horaria, Mensual o Semanal, también puede elegir una hora programada para la suscripción. Puede hacer que se ejecute a la hora, o bien pasados 15, 30 o 45 minutos. Seleccione por la mañana (a. m.) o por la tarde/noche (p. m.). También puede especificar la zona horaria. Si especifica Horaria, seleccione la hora programada en que quiera que se inicie la suscripción, y se ejecutará cada hora a partir de entonces.  
+    e. Si elige Diaria, Horaria, Mensual o Semanal, también puede elegir una Hora programada para la suscripción. Puede hacer que se ejecute a la hora, o bien pasados 15, 30 o 45 minutos. Seleccione por la mañana (a. m.) o por la tarde/noche (p. m.). También puede especificar la zona horaria. Si elige Horaria, seleccione la Hora programada a la que quiera que se inicie la suscripción, y se ejecutará cada hora a partir de entonces.  
 
     f. Para programar la fecha de inicio y la fecha de finalización, escríbalas en los campos de fecha. De forma predeterminada, la hora de inicio para la suscripción será la fecha en la que la haya creado y la fecha de finalización será un año más tarde. Puede cambiarla a cualquier fecha en el futuro (hasta el año 9999) en cualquier momento antes de que finalice la suscripción. Cuando una suscripción alcanza una fecha de finalización, se detiene hasta que vuelva a habilitarla.  Recibirá notificaciones antes de la fecha de finalización programada para preguntarle si quiere ampliarla.     
 
@@ -73,7 +73,7 @@ El proceso para suscribirse a un panel y a un informe es similar. El mismo botó
 
 
 ## <a name="manage-your-subscriptions"></a>Administrar sus suscripciones
-Solo puede administrar las suscripciones que cree. Vuelva a hacer clic en **Suscribirse** y haga clic en **Administrar todas las suscripciones** en la esquina inferior izquierda (vea las capturas de pantalla anteriores). Las suscripciones concretas que se muestran dependen del área de trabajo que está activa en ese momento. Para ver a la vez todas las suscripciones de todas las áreas de trabajo, asegúrese de que  **Mi área de trabajo**  está activa. Para entender las áreas de trabajo, consulte  [Áreas de trabajo de Power BI](end-user-workspaces.md). 
+Solo puede administrar las suscripciones que cree. Vuelva a hacer clic en **Suscribirse** y haga clic en **Administrar todas las suscripciones** en la esquina inferior izquierda (vea las capturas de pantalla anteriores). Las suscripciones concretas que se muestran dependen del área de trabajo que está activa en ese momento. Para ver a la vez todas las suscripciones de todas las áreas de trabajo, asegúrese de que **Mi área de trabajo** está activa. Para entender las áreas de trabajo, consulte [Áreas de trabajo de Power BI](end-user-workspaces.md). 
 
 ![Vista de todas las suscripciones en Mi área de trabajo](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 

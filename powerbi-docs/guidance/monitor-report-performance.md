@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ab74ec7f7f6594450ec2cf95528d06dc45f613
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77610027"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525546"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Supervisión del rendimiento de los informes en Power BI
 
@@ -85,6 +85,7 @@ Para más información sobre este artículo, consulte los recursos siguientes:
 
 - [Diagnóstico de consulta](/power-query/QueryDiagnostics)
 - [Analizador de rendimiento](../desktop-performance-analyzer.md)
+- [Solución de problemas de rendimiento de los informes en Power BI](report-performance-troubleshoot.md)
 - [Aplicación Métricas de Power BI Premium](../service-premium-metrics-app.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)

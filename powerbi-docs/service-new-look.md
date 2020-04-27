@@ -6,19 +6,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: de30da9c5cf6ad2046a99fb327cdad825725a14d
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881386"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637819"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Nuevo aspecto del servicio Power BI
 
-El servicio Power BI (app.powerbi.com) tiene un nuevo aspecto que facilita la visualización de los informes y la interacción con ellos. El nuevo aspecto es más sencillo y se basa en su familiaridad con otros productos de Microsoft. En el servicio Power BI, hemos convertido el contenido del informe en el principal punto de atención al cambiar a un tema de color más claro y actualizar los iconos. Este es un resumen de lo que ha cambiado en el nuevo aspecto. Consulte las secciones numeradas para obtener más información:
+El servicio Power BI (app.powerbi.com) tiene un nuevo aspecto que facilita la visualización de los informes y la interacción con ellos. El nuevo aspecto es más sencillo y se basa en su familiaridad con otros productos de Microsoft. En el servicio Power BI, hemos convertido el contenido del informe en el principal punto de atención al cambiar a un tema de color más claro y actualizar los iconos. 
+
+¿Busca información sobre el nuevo aspecto de **Power BI Desktop**? Consulte [Uso de la cinta actualizada en Power BI Desktop](desktop-ribbon.md).
+
+Este es un resumen de lo que ha cambiado en el nuevo aspecto. Consulte las secciones numeradas para obtener más información:
 
 ![Resumen de cambios del nuevo aspecto](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -36,7 +40,7 @@ Cualquier usuario del servicio Power BI puede participar en el nuevo aspecto. B
 
 ![Participación en el nuevo aspecto](media/service-new-look/power-bi-new-look-off.png)
 
-Si tiene que volver a la vista anterior, solo tiene que cambiar el control deslizante de **Nuevo aspecto activado** a ![Desactivado](media/service-new-look/power-bi-new-look-toggle-on.png). Si no lo ve, seleccione el menú de puntos suspensivos en la esquina superior derecha.
+Si tiene que volver al aspecto anterior, solo tiene que cambiar el control deslizante a **Desactivado** desde ![Nuevo aspecto activado](media/service-new-look/power-bi-new-look-toggle-on.png). Si no lo ve, seleccione el menú de puntos suspensivos en la esquina superior derecha.
 
 ![No participación en el nuevo aspecto](media/service-new-look/power-bi-new-look-on.png)
 
@@ -87,4 +91,6 @@ Hemos mantenido la experiencia de creación similar a la experiencia de Desktop.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Power BI para consumidores](consumer/end-user-consumer.md)
+- [Uso de la cinta actualizada en Power BI Desktop](desktop-ribbon.md)
+- [Activación del "nuevo aspecto" de las áreas de trabajo](collaborate-share/service-workspaces-new-look.md)
+- [Power BI para consumidores](consumer/end-user-consumer.md)

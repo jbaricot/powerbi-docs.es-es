@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267512"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525477"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportación de un informe de Power BI a un archivo (versión preliminar)
 
@@ -68,7 +68,7 @@ Con la [seguridad de nivel de fila (RLS)](embedded-row-level-security.md), puede
 
 Para realizar la exportación mediante la seguridad de nivel de fila, debe tener los siguientes permisos:
 * Permisos para escribir y volver a compartir para el conjunto de datos al que está conectado el informe
-* Si el informe reside en un área de trabajo v1, debe ser el administrador de dicho espacio de trabajo
+* Si el informe reside en un área de trabajo v1, debe ser el administrador de dicho espacio de trabajo.
 * Si el informe reside en un área de trabajo v2, debe ser un miembro o administrador del área de trabajo
 
 ### <a name="data-protection"></a>Protección de datos
@@ -106,7 +106,8 @@ Un trabajo que supere su número de solicitudes simultáneas no se termina. Por 
 * Un informe con una etiqueta de confidencialidad no se puede exportar a un archivo .pdf o .pptx mediante una [entidad de servicio](embed-service-principal.md).
 * El número de páginas que se pueden incluir en un informe exportado es treinta. Si el informe incluye más páginas, la API devuelve un error y el trabajo de exportación se cancela.
 * Los [marcadores personales](../../consumer/end-user-bookmarks.md#personal-bookmarks) y los [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) no se admiten.
-* Los objetos visuales de Power BI que se enumeran a continuación no se admiten. Cuando se exporta un informe que contiene estos objetos visuales, las partes del informe que contienen dichos objetos visuales no se representarán y mostrarán un símbolo de error.
+* No se admiten las nubes soberanas.
+* Los objetos visuales de Power BI que se enumeran a continuación no se admiten. Cuando se exporta un informe que contiene estos objetos visuales, las partes del informe que contienen dichos objetos visuales no se representarán y mostrarán un símbolo de error.
     * Objetos visuales de Power BI sin certificar
     * Objetos visuales de R
     * PowerApps

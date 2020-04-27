@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576843"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637842"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creación de visualizaciones de matriz en Power BI
 
@@ -57,7 +57,8 @@ El estado de expansión de la matriz se guardará con el informe. Una matriz se 
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-
+> [!NOTE]
+> Si va a crear un informe sobre un modelo multidimensional de Analysis Services, hay algunas consideraciones especiales que debe tener en cuenta para expandir o contraer si el modelo usa la característica de miembro predeterminado. Para obtener más información, consulte el artículo [Trabajo con modelos multidimensionales en Power BI](../desktop-default-member-multidimensional-models.md).
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Uso de la exploración en profundidad con el objeto visual de matriz
 Con el objeto visual de matriz, puede realizar todo tipo de actividades interesantes de exploración en profundidad que no estaban disponibles anteriormente. Esto incluye la capacidad de explorar en profundidad mediante filas, columnas e incluso en celdas y secciones individuales. Veamos cómo funciona cada una de ellas.

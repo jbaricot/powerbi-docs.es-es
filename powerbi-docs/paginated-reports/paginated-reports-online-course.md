@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267604"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675642"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Curso en línea: Informes paginados de Power BI en un día
 
@@ -83,7 +83,7 @@ El [curso de 24 vídeos](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icI
 
 Puede descargar y configurar un kit para ampliar conocimientos, que consta del contenido de la presentación y de ocho laboratorios prácticos:
 
-1. Use [este vínculo](https://aka.ms/priad-ilt-student) para descargar el kit para ampliar conocimientos (.zip) de forma local en el equipo.
+1. Use [este vínculo](https://aka.ms/priad-student) para descargar el kit para ampliar conocimientos (.zip) de forma local en el equipo.
 1. Abra las propiedades del archivo y active "desbloquear" (es posible que Windows marque el archivo como potencialmente no de confianza).
 1. Extraiga el contenido del archivo en una carpeta del sistema de archivos. Se recomienda crear una carpeta fácil de encontrar, por ejemplo, **Entrenamiento**. Los documentos del laboratorio harán referencia a esta ubicación como **&lt;CourseFolder&gt;** .
 
@@ -105,6 +105,10 @@ Cuando esté listo para iniciar el primer laboratorio, abra el archivo **&lt;Cou
 > Tendrá que iniciar sesión en Power BI para publicar un archivo de Power BI Desktop en un área de trabajo. El resultado de la publicación es un conjunto de datos que se usa como origen de datos de informe. No necesita una licencia de Power BI Pro ni una suscripción de Power BI Premium para usar un conjunto de datos como origen de datos de informe.
 >
 > Pero algunas tareas del laboratorio implican la publicación de un informe paginado en un área de trabajo. Solo se puede abrir un informe paginado cuando se guarda en un área de trabajo de [capacidad dedicada](../service-premium-what-is.md#dedicated-capacities), que tiene habilitada la carga de trabajo de informes paginados. Si no tiene acceso a un área de trabajo adecuada, se le proporcionará un vínculo para ver un vídeo en el que se muestra la publicación del informe en su lugar.
+
+## <a name="instructor-kit"></a>Kit de instructor
+
+Use [este vínculo](https://aka.ms/priad-instructor) para descargar el kit de instructor (.zip) de forma local en el equipo.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
