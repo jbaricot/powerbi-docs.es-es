@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: a9a5f3fd5304e64209b6069741dffcc3fa9b07c8
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81436354"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256144"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 Este artículo está destinado a los clientes de la Administración Pública de Estados Unidos que implementan Power BI como parte de un plan de Office 365 Administración Pública. Los planes de la Administración Pública están diseñados para las necesidades únicas de las organizaciones que deben cumplir los estándares de cumplimiento y seguridad de Estados Unidos. El servicio Power BI diseñado para los clientes de la Administración Pública de Estados Unidos es distinto de la versión comercial del servicio Power BI. Las funcionalidades y diferencias en las características se describen en las siguientes secciones.
@@ -88,7 +88,7 @@ Para adaptarse a los requisitos de los clientes en la nube de la Administración
 |Creación de informes|Creación y visualización de paneles e informes|Disponible|Disponible|Disponible|
 |  |Actualización de datos programada|Disponible|Disponible|Disponible|
 |  |Paneles de equipo actualizables|Disponible|Disponible|Disponible|
-|  |Informes paginados|Disponible|Disponible|En la hoja de ruta|
+|  |Informes paginados|Disponible|En la hoja de ruta|En la hoja de ruta|
 |  |Aplicaciones plantilla|No disponible|No disponible|No disponible|
 |Conectar a datos|Importación de datos e informes de Excel|Disponible|Disponible|Disponible|
 |  |Importación de datos desde archivos CSV|Disponible|Disponible|Disponible|
