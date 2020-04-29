@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/24/2020
 ms.author: tebercov
-ms.openlocfilehash: 92d5a5177b0fa03af583e9e89ce574c0197f3f7a
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273234"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066291"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugerencias para crear aplicaciones de plantilla en Power BI
 
@@ -128,7 +128,7 @@ Las aplicaciones de plantilla solo admiten aplicaciones de datos de ejemplo, ase
 * Dé indicaciones para que el equipo de validación las siga, que incluyen las credenciales y los parámetros necesarios para conectarse a los datos.
 * La aplicación debe incluir un icono de la aplicación en Power BI y en la oferta CPP. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Página de inicio configurado. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Asegúrese de seguir la documentación en la [oferta de la aplicación Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
+* Asegúrese de seguir la documentación que encontrará en el [Centro de partners -> Oferta de la aplicación Power BI](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 * En caso de que un panel forme parte de la aplicación, asegúrese de que no esté vacío.
 * Instale la aplicación mediante el vínculo de la aplicación antes de enviarla, asegúrese de que puede conectar el conjunto de datos y que la experiencia de la aplicación es la que planeó.
 * Antes de cargar pbix en el área de trabajo de plantilla, asegúrese de descargar cualquier conexión innecesaria.

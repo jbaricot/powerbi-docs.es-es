@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad de características para usuarios de la licencia gratuita
+title: Disponibilidad de características para usuarios con licencias gratuitas
 description: Explicación y gráfico en el que se muestran las características disponibles para los consumidores y los usuarios de la licencia gratuita.
 author: mihart
 ms.reviewer: ''
@@ -7,17 +7,17 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/05/2020
+ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 60ac58c2d1cb815ca322abf6806d9e866f719660
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268015"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065780"
 ---
-# <a name="power-bi-feature-list-for-consumers-and-other-free-users"></a>Lista de características de Power BI para *consumidores* y otros usuarios de la licencia gratuita
+# <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lista de características de Power BI para *consumidores* y otros usuarios con licencias gratuitas
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
@@ -27,40 +27,47 @@ Los diseñadores pueden compartir contenido de muchas maneras diferentes. Pero e
 
 ![Panel de navegación de Power BI](media/end-user-features/power-bi-share.png)
 
-En el artículo [anterior](end-user-license.md) se han descrito los distintos tipos de licencias de Power BI (gratuita y Pro), las suscripciones (Premium) y se ha mostrado cómo buscar la licencia y la suscripción que se usan. En este artículo se enumeran las características de Power BI disponibles en función de la licencia y la suscripción.   
+En el [artículo anterior](end-user-license.md), ha aprendido que lo que puede hacer con los paneles, informes y aplicaciones (contenido) en el servicio Power BI depende de tres cosas: sus licencias, sus roles y permisos, y el lugar en el que se almacena el contenido.
+
+En este artículo se enumeran las características del servicio Power BI que están disponibles para los *consumidores* como usted. Por definición, los *consumidores* usan una licencia gratuita para trabajar en el servicio Power BI (no Power BI Desktop) y son miembros de organizaciones con capacidad Premium.
 
 <art>
 
 ## <a name="quick-review-of-terminology"></a>Revisión rápida de la terminología
-Ahora se revisarán algunos conceptos de Power BI antes de llegar a la lista. Se trata de una revisión rápida; si necesita más detalles, visite [Licencias y suscripciones para consumidores](end-user-license.md) o [Conceptos básicos de Power BI](end-user-basic-concepts.md).
+Ahora se revisarán algunos conceptos de Power BI antes de llegar a la lista. Se trata de una revisión rápida; si necesita más detalles, visite [Licencias para consumidores](end-user-license.md) o [Conceptos básicos de Power BI](end-user-basic-concepts.md).
 
 ### <a name="workspaces-and-roles"></a>Áreas de trabajo y roles
-Existen dos tipos de áreas de trabajo: **Mi área de trabajo** y las áreas de trabajo de la aplicación. Solo usted tiene acceso a **Mi área de trabajo**. Para tareas de colaboración y uso compartido, el diseñador de contenido tiene que usar un área de trabajo de la aplicación. 
+Existen dos tipos de áreas de trabajo: **Mi área de trabajo** y las áreas de trabajo de la aplicación. Solo usted tiene acceso a **Mi área de trabajo**. Para tareas de colaboración y uso compartido, los *diseñadores* de contenido con licencias de Pro tienen que usar un área de trabajo de la aplicación. 
 
-Los diseñadores de Power BI usan *roles* del área de trabajo para administrar quién puede hacer qué en un área de trabajo. A los *consumidores* se les asigna el rol **Visor**. 
+En las áreas de trabajo de la aplicación, los diseñadores asignan *roles* para administrar quién puede hacer qué en esa área de trabajo. A los *consumidores* se les asigna el rol **Visor**. 
 
-### <a name="premium-capacity-subscription"></a>Suscripción de la capacidad Premium
-Cuando una organización tiene una suscripción de capacidad Premium, los administradores y los usuarios de Pro pueden asignar áreas de trabajo a la *capacidad Premium*. Un área de trabajo en una capacidad Premium es un espacio en el que los usuarios de Pro pueden compartir y colaborar con usuarios que tienen una licencia gratuita, sin necesidad de que estos últimos tengan licencias de Pro. Dentro de esas áreas de trabajo, los usuarios de la licencia gratuita tienen permisos elevados (vea la lista siguiente). 
+### <a name="premium-capacity"></a>Capacidad Premium
+Cuando una organización tiene una suscripción de capacidad Premium, los administradores y los usuarios de Pro pueden asignar áreas de trabajo a la *capacidad dedicada*. Un área de trabajo en una capacidad dedicada es un espacio en el que los usuarios de Pro pueden compartir contenido y colaborar con usuarios que tienen una licencia gratuita, sin necesidad de que estos últimos tengan licencias de Pro. Dentro de esas áreas de trabajo, los usuarios de la licencia gratuita tienen permisos elevados (vea la lista siguiente). 
 
 ### <a name="licenses"></a>Licencias 
-Cada usuario del servicio Power BI tiene una licencia gratuita o una licencia Pro. Ciertas características están reservadas para los usuarios con licencias Pro.
+Cada usuario del servicio Power BI tiene una licencia gratuita o una licencia Pro. Los *consumidores* tienen licencias gratuitas.
 
-- **Licencia gratuita**: normalmente se asigna a los *consumidores* dentro de una organización. También la usa cualquiera que se suscriba a Power BI como individuo y quiera probar el [servicio Power BI en modo independiente](../service-self-service-signup-for-power-bi.md).  
-- **Licencia de Pro**: normalmente se asigna a diseñadores, analistas y desarrolladores dentro de una organización.   
-- **Licencia gratuita y Capacidad Premium**: permite a los usuarios de la licencia gratuita (*consumidores*) ver e interactuar con el contenido que los usuarios de Pro han creado en la capacidad Premium y han compartido. De esta manera, los usuarios de Pro pueden colaborar con los usuarios de la licencia gratuita en el área de trabajo o mediante **Compartido conmigo**.
+- **Licencia gratuita**: normalmente se asigna a los *consumidores* dentro de una organización (vea la primera imagen abajo). También la usa cualquiera que se suscriba al servicio Power BI como individuo y quiera probar el [servicio Power BI en modo independiente](../service-self-service-signup-for-power-bi.md) (vea la segunda imagen abajo). 
 
-Para los usuarios de la licencia gratuita, ser miembro de una organización que tiene una suscripción de capacidad Premium es lo que les proporciona superpoderes. Mientras que los compañeros de Pro usen áreas de trabajo de capacidad Premium para compartir contenido, los usuarios de la licencia gratuita podrán verlos y colaborar con ellos.  **De esta manera, el usuario de la licencia gratuita se convierte en un *consumidor* de Power BI, con la capacidad de recibir y compartir contenido para tomar decisiones empresariales.** 
+    ![pantalla en la que se muestra un usuario con una licencia gratuita](media/end-user-features/power-bi-free-organization.png)
+
+    A los usuarios de la licencia gratuita, ser miembro de una organización que tiene capacidad Premium les proporciona superpoderes. Mientras que los compañeros de Pro usen áreas de trabajo de capacidad Premium para compartir contenido, los usuarios de la licencia gratuita podrán verlos y colaborar con ellos.  **De esta manera, el usuario de la licencia gratuita se convierte en un *consumidor* de Power BI, con la capacidad de recibir y compartir contenido para tomar decisiones empresariales.** 
+ 
+    ![pantalla en la que se muestra un usuario con una licencia gratuita](media/end-user-features/power-bi-free-user.png)
+
+
+   
 
 ## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>Lista de características de Power BI para *consumidores* y usuarios de la licencia gratuita
-En el gráfico siguiente se identifican las tareas que puede realizar un *consumidor* de una organización que tiene una suscripción Premium.    
+En el gráfico siguiente se identifican las tareas que puede realizar un *consumidor* que interactúe con el contenido en capacidad Premium y en capacidad compartida.    
 
-La primera columna representa a un usuario de la licencia gratuita que trabaja con contenido en **Mi área de trabajo**. Este usuario no puede colaborar con compañeros en áreas de trabajo. Los compañeros no pueden compartir contenido directamente con este usuario y este usuario no puede compartir desde **Mi área de trabajo**. 
+La primera columna representa a un usuario de la licencia gratuita que trabaja con contenido en **Mi área de trabajo**. Este usuario no puede colaborar con compañeros en el servicio Power BI. Los compañeros no pueden compartir contenido directamente con este usuario y este usuario no puede compartir desde **Mi área de trabajo**. 
 
 La segunda columna representa un *consumidor*.  Un consumidor:
 
 - tiene una licencia de usuario gratuita
 - forma parte de una organización que tiene una suscripción de capacidad Premium
-- obtiene contenido (aplicaciones, paneles e informes) de los usuarios de Pro que lo comparten mediante áreas de trabajo de la aplicación en la capacidad Premium.
+- obtiene contenido (aplicaciones, paneles e informes) de los usuarios de Pro que lo comparten mediante áreas de trabajo de la aplicación en la capacidad dedicada.
 - se le asigna el rol **Visor** para esas áreas de trabajo de la aplicación. 
 
 ### <a name="legend"></a>Leyenda
@@ -72,7 +79,7 @@ La segunda columna representa un *consumidor*.  Un consumidor:
 
 ### <a name="feature-list"></a>Lista de características
 
-|Características   | Escenario 1: Un usuario de la licencia gratuita de Power BI sin acceso al contenido hospedado en la capacidad Premium.    | Escenario 2: Un usuario de la licencia gratuita de Power BI con permisos **Visor** para el contenido hospedado en la capacidad Premium. Este usuario es un *consumidor* de Power BI. |
+|Características   | Escenario 1: Usuario de la licencia gratuita de Power BI sin acceso al contenido hospedado en la capacidad dedicada.    | Escenario 2: Usuario de la licencia gratuita de Power BI con permisos **Visor** para el contenido hospedado en la capacidad dedicada. Este usuario es un *consumidor* de Power BI. |
 |---|---|---|
 |**Aplicaciones** 
 |Se instalan de forma automática | ![X de color naranja](media/end-user-features/orange-x.png) | ![Punto de color verde](media/end-user-license/power-bi-green-dot.png)*| 

@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2020
+ms.date: 04/22/2020
 ms.author: davidi
-ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 95492b8561c37b52e77fbd8b16ce5e1e2ec4e4e1
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427263"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066245"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugerencias y trucos para crear informes en Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado. 
@@ -148,10 +148,10 @@ Ahora tiene una tabla de dimensiones que puede usar para crear una relación ent
 El Editor de consultas es muy eficaz a la hora de manipular los datos para darles forma y limpiarlos para que estén listos para la visualización o el modelado. Existen determinados patrones que debe tener en cuenta.
 
 ### <a name="temporary-columns-can-be-deleted-after-computing-a-result"></a>Las columnas temporales se pueden eliminar después de calcular un resultado
-A menudo es necesario crear un cálculo en Power BI Desktop capaz de transformar los datos de varias columnas en una única nueva columna. Esto puede resultar complejo. Una forma sencilla de solucionar el problema es dividir la operación en pasos. Comience por duplicar las columnas iniciales. A continuación, cree los pasos en una columna temporal. Luego cree una columna para el resultado final. En este punto, podrá eliminar las columnas temporales para que el conjunto de datos final no esté lleno. Esto es posible porque la pestaña de consulta ejecuta los pasos en orden. 
+A menudo es necesario crear un cálculo en Power BI Desktop capaz de transformar los datos de varias columnas en una única nueva columna. Esto puede resultar complejo. Una forma sencilla de solucionar el problema es dividir la operación en pasos. Comience por duplicar las columnas iniciales. A continuación, cree las columnas temporales. Luego, cree la columna para el resultado final. En este punto, podrá eliminar las columnas temporales para que el conjunto de datos final no esté lleno. Esto es posible porque la pestaña de consulta ejecuta los pasos en orden. 
 
 ### <a name="duplicate-or-reference-queries-followed-by-merge-to-original-query"></a>Consultas duplicadas o de referencia seguidas por la combinación en la consulta original
-A veces es útil calcular las estadísticas de resumen para un conjunto de datos. Una manera fácil de hacerlo es duplicar o hacer referencia a la consulta en la pestaña de la consulta. A continuación, use la opción **Agrupar por** para calcular las estadísticas de resumen. Las estadísticas de resumen le ayudarán a normalizar los datos en los datos originales para que sean más comparables como en . Esto resulta especialmente útil para comparar valores individuales con el conjunto completo. Para ello, vaya a la consulta original y seleccione la opción de combinación. A continuación, combine los datos de la consulta de estadísticas de resumen que coincida con los identificadores adecuados. Ahora está listo para normalizar los datos según sea necesario para su análisis.
+A veces es útil calcular las estadísticas de resumen para un conjunto de datos. Una manera fácil de hacerlo es duplicar o hacer referencia a la consulta en la pestaña de la consulta. A continuación, use la opción **Agrupar por** para calcular las estadísticas de resumen. Las estadísticas de resumen le ayudarán a normalizar los datos en los datos originales para que se puedan comparar mejor. Esto resulta especialmente útil para comparar valores individuales con el conjunto completo. Para ello, vaya a la consulta original y seleccione la opción de combinación. A continuación, combine los datos de la consulta de estadísticas de resumen que coincida con los identificadores adecuados. Ahora está listo para normalizar los datos según sea necesario para su análisis.
 
 ## <a name="using-dax-for-the-first-time"></a>Uso de DAX por primera vez
 DAX es el lenguaje de fórmulas de cálculos de Power BI Desktop. Está optimizado para el análisis de BI. Es un poco distinto de los lenguajes con los que es posible que ya esté familiarizado si solo ha usado SQL como lenguaje de consulta. Existen numerosos recursos disponibles en línea, así como documentación de aprendizaje de DAX. 
@@ -161,3 +161,64 @@ DAX es el lenguaje de fórmulas de cálculos de Power BI Desktop. Está optimiza
 [Referencia de expresiones de análisis de datos (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
 
 [Centro de recursos de DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+
+## <a name="power-bi-service-and-power-bi-desktop"></a>Servicio Power BI *y* Power BI Desktop
+
+### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Leer o ver “How to design visually stunning reports (and dashboards) in Power BI” (Cómo diseñar informes [y paneles] visualmente espectaculares en Power BI)
+Miguel Myers, miembro de la comunidad, es científico de datos y diseñador gráfico.
+
+![Informe de Power BI](media/desktop-tips-and-tricks-for-creating-reports/power-bi-reports.png)
+
+* [Leer el blog](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
+* [Ver el seminario web](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
+
+### <a name="consider-your-audience"></a>Tenga en cuenta al público
+¿Cuáles son las métricas claves que le ayudarán a tomar decisiones? ¿Cómo se utilizará el informe? ¿Qué suposiciones adquiridas o culturales pueden afectar a las opciones de diseño? ¿Qué información necesita su público para conseguir buenos resultados?
+
+¿Dónde se mostrará el informe? Si el panel se va a mostrar en un monitor grande, puede incluir más contenido. Si los lectores lo consultarán en tabletas, cuantos menos visualizaciones tenga, más legible será.
+
+### <a name="tell-a-story-and-keep-it-to-one-screen"></a>Cuente una historia y muéstrela en una pantalla
+Cada página del informe debe contar una historia de un vistazo. ¿Puede evitar las barras de desplazamiento en las páginas? ¿Está el informe demasiado abarrotado u ocupado?  Quítelo todo, excepto la información esencial que se pueda leer e interpretar fácilmente.
+
+### <a name="make-the-most-important-information-biggest"></a>Muestre la información más importante a mayor tamaño
+Si el texto y las visualizaciones son del mismo tamaño en la página del informe, a los lectores les costará centrarse en lo más importante. Por ejemplo, las visualizaciones de tarjeta son una buena forma de mostrar un número importante de forma destacada:  
+![Visualización de tarjeta](media/service-dashboards-design-tips/pbi_card.png)
+
+### <a name="but-be-sure-to-provide-context"></a>Pero no olvide proporcionar un contexto.  
+
+Use características como cuadros de texto e información sobre herramientas para agregar contexto a las visualizaciones.
+
+### <a name="put-the-most-important-information-in-the-upper-corner"></a>Coloque la información más importante en la parte superior
+La mayoría de las personas leen de arriba abajo, por lo que se recomienda colocar la información con mayor nivel de detalle en la parte superior e ir mostrando más detalles a medida que avanza en la dirección en que lee el público (de izquierda a derecha, o de derecha a izquierda).
+
+### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Use el formato y la visualización correcta para los datos para facilitar la lectura
+Evite utilizar distintos tipos de visualizaciones simplemente para aportar variedad.  Las visualizaciones deben transmitir una imagen, y ser fáciles de "leer" e interpretar.  En el caso de algunos datos y visualizaciones, basta con una sencilla visualización gráfica. Sin embargo, otros datos pueden requerir una visualización más compleja. Por ello, asegúrese de usar títulos, etiquetas y las personalizaciones necesarias para ayudar al lector.  
+
+* Tenga cuidado al usar gráficos que distorsionen la realidad, como los tridimensionales y aquellos que no empiezan desde cero. Tenga en cuenta que al cerebro humano le cuesta más interpretar las formas circulares. Los gráficos circulares, de anillos, de medidores y otros tipos de gráficos circulares pueden parecer atractivos, pero hay alternativas.    
+* Sea coherente con las escalas del gráfico en los ejes, el orden de las dimensiones del gráfico y los colores que use para los valores de las dimensiones de los gráficos.    
+* Asegúrese de codificar correctamente los datos cuantitativos. No use más de tres o cuatro dígitos al mostrar números. Muestre las medidas con uno o dos números a la izquierda de la coma decimal y reduzca los millares o millones, es decir, escriba "3,4 millones" en lugar de "3.400.000".    
+* Trate de evitar mezclar niveles de precisión y tiempo. Asegúrese de que los intervalos de tiempo se comprenden perfectamente.  No coloque un gráfico del mes pasado junto a gráficos filtrados de un mes concreto del año.    
+* No mezcle medidas grandes y pequeñas en la misma escala, por ejemplo, en un gráfico de barras o líneas.  Por ejemplo, una medida puede estar en millones y otra en millares.  Con una escala tan grande, sería difícil comprender las diferencias de la medida en millares.  Si tiene que mezclarlas, elija una visualización, como un gráfico combinado, que permita usar un segundo eje.    
+* No abarrote los gráficos con etiquetas de datos innecesarias. Normalmente, los valores de los gráficos de barras, ***si son lo suficientemente grandes***, se entienden bien sin necesidad de mostrar el número real.   
+* Preste atención a la manera de [ordenar los gráficos](consumer/end-user-change-sort.md). Si desea llamar la atención sobre el número más alto o más bajo, ordene por medida. Si desea que los usuarios puedan encontrar rápidamente una categoría determinada entre muchas otras categorías, ordene por eje.  
+* Los gráficos circulares funcionan mejor si no superan las ocho categorías. Los valores no se pueden comparar en paralelo, y es más difícil hacerlo en un gráfico circular que en los gráficos de barras y columnas. Los gráficos circulares resultan útiles para ver las relaciones de una parte con respecto a un todo, no para comparar los elementos. Por último, los gráficos de medidor son ideales para mostrar el estado actual en el contexto de un objetivo.    
+
+Para más instrucciones específicas sobre la visualización, consulte [Tipos de visualización en Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
+
+### <a name="learn-more-about-best-practice-dashboard-design"></a>Obtenga más información sobre el diseño de paneles según los procedimientos recomendados
+Estos son algunos de nuestros libros favoritos:
+
+* *Storytelling with Data*, de Cole Nussbaumer Knafic
+* *Data points*, de Nathan Yau
+* *The truthful Art*, de Alberto Cairo
+* *Now you see it* , de Stephen Few  
+* *Envisioning information* , de Edward Tufte  
+* *Advanced Presentations Design*, de Andrew Abela   
+
+## <a name="next-steps"></a>Pasos siguientes
+* [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
+* [Informes en Power BI](consumer/end-user-reports.md)
+
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
+
+
