@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872683"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Conectarse a orígenes de datos de flujos de datos de Power BI
@@ -49,12 +49,12 @@ Puede ver los orígenes de datos disponibles si selecciona **Obtener datos** en 
 Los orígenes de datos de los flujos de datos se organizan en las siguientes categorías, que aparecen dispuestas a lo largo de la parte superior del cuadro de diálogo **Obtener datos**:
 
 * Todas las categorías
-* Archivo
-* Base de datos
-* Power BI
-* Azure
-* Servicios en línea
-* Otros
+* archivo
+* Database
+* Power BI
+* Celeste
+* Online Services
+* Otro
 
 La categoría **Todas las categorías** incluye todos los tipos de orígenes de datos de todas las categorías. 
 
@@ -74,12 +74,12 @@ La categoría **Base de datos** incluye las siguientes conexiones de datos dispo
 * Base de datos de PostgreSQL
 * Base de datos de SQL Server
 * Base de datos de Sybase
-* Teradatos
+* Teradata
 * Vertica
 
 La categoría **Power BI** incluye las siguientes conexiones de datos disponibles para los flujos de datos:
 
-* Flujos de datos de Power BI
+* Flujos de datos de Power BI
 
 La categoría **Azure** incluye las siguientes conexiones de datos disponibles para los flujos de datos:
 
@@ -93,7 +93,7 @@ La categoría **Online Services** incluye las siguientes conexiones de datos dis
 
 * Amazon Redshift
 * Common Data Service para aplicaciones
-* Microsoft Exchange Online
+* Microsoft Exchange Online
 * Objetos de Salesforce
 * Informes de Salesforce
 * Lista de SharePoint Online
@@ -104,7 +104,7 @@ La categoría **Otro** incluye las siguientes conexiones de datos disponibles pa
 * Active Directory
 * OData
 * Lista de SharePoint
-* API web
+* API Web
 * Página web
 * Tabla en blanco
 * Consulta en blanco
@@ -174,7 +174,7 @@ Eso es todo lo que se necesita para conectarse a orígenes de datos en los flujo
 
 En este artículo se ha explicado a qué orígenes de datos podemos conectarnos en relación con los flujos de datos. En los siguientes artículos se ofrecen más detalles sobre escenarios de uso común de los flujos de datos. 
 
-* [Autoservicio de preparación de datos en Power BI](service-dataflows-overview.md)
+* [Autoservicio de preparación de los datos en Power BI](service-dataflows-overview.md)
 * [Creación y uso de flujos de datos en Power BI](service-dataflows-create-use.md)
 * [Uso de entidades calculadas en Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Uso de flujos de datos con orígenes de datos locales](service-dataflows-on-premises-gateways.md)

@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: bf007dfe70b5bfb7be9fa8c00865663b07210367
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698771"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Actualización de un conjunto de datos creado a partir de un libro de Excel en una unidad local
@@ -39,7 +39,7 @@ En Power BI, se admite la actualización inmediata y la programación de actuali
 > 
 
 ## <a name="how-do-i-make-sure-data-is-loaded-to-the-excel-data-model"></a>¿Cómo puedo asegurarme de que los datos se cargan en el modelo de datos de Excel?
-Si usa Power Query (Obtener y transformar del menú Datos en Excel 2016) para conectarse a un origen de datos, tiene varias opciones de ubicación donde cargar los datos. Para asegurarse de que los datos se cargan en el modelo de datos, debe seleccionar la opción **Agregar estos datos al modelo de datos** en el cuadro de diálogo **Cargar en** .
+Si usa Power Query (Obtener y transformar del menú Datos en Excel 2016) para conectarse a un origen de datos, tiene varias opciones de ubicación donde cargar los datos. Para asegurarse de que los datos se cargan en el modelo de datos, debe seleccionar la opción **Agregar estos datos al modelo de datos** en el cuadro de diálogo **Cargar en**.
 
 > [!NOTE]
 > Las imágenes que aquí se muestran corresponden a Excel 2016.
@@ -49,7 +49,7 @@ Si usa Power Query (Obtener y transformar del menú Datos en Excel 2016) para co
 En **Navegador**, haga clic en **Cargar en...**  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-O bien, si hace clic en **Editar** en Navegador, se abrirá el Editor de consultas. Puede hacer clic en **Cerrar y cargar en...**  
+O bien, si hace clic en **Editar** en Navegador, se abrirá el Editor de consultas. Puede hacer clic en **Cerrar y cargar en**.  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
 A continuación, en **Cargar en**, asegúrese de seleccionar **Agregar estos datos al modelo de datos**.  
