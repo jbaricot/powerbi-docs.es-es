@@ -10,10 +10,10 @@ ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871037"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Cambio del tipo de visualización en un informe de Power BI
@@ -35,7 +35,7 @@ Pruebe diferentes tipos de visualizaciones en el servicio Power BI y en Power 
 Si cambia el tipo de visualización del informe después de anclarlo al panel, el icono del panel no se actualiza de forma automática. Por tanto, si usó el servicio Power BI para anclar la visualización como gráfico de líneas y después, en el informe, la cambió a un gráfico de barras, la versión ya anclada de estos datos seguirá siendo un gráfico de líneas. Ancle el gráfico de barras para verlo también en el panel.
 
 ## <a name="next-steps"></a>Pasos siguientes
-Obtenga más información sobre [Visualizaciones en informes de Power BI](power-bi-report-visualizations.md)
+Obtenga más información sobre [Visualizaciones en informes de Power BI](power-bi-report-visualizations.md).
 
 [Power BI: Conceptos básicos](../consumer/end-user-basic-concepts.md)
 

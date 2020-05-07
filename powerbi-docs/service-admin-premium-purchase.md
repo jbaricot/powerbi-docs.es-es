@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: aed0d1e4dec6f6efe49dd39cd5b6fc60f8977e44
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488623"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Adquisición de Power BI Premium
@@ -35,7 +35,7 @@ Puede crear un inquilino con una SKU P1 de Power BI Premium configurada, o bien
 
 ### <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Creación de un nuevo inquilino con Power BI Premium P1
 
-Si no tiene ningún inquilino y desea crear uno, puede adquirir Power BI Premium a la vez. El vínculo siguiente le guiará por el proceso de creación de un inquilino y le permitirá adquirir Power BI Premium: [oferta de Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Al crear el inquilino, se le asignará automáticamente el rol de administrador global de Microsoft 365 para el inquilino.
+Si no tiene ningún inquilino y desea crear uno, puede adquirir Power BI Premium a la vez. El vínculo siguiente le guiará por el proceso de creación de un inquilino y le permitirá adquirir Power BI Premium: [oferta Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Al crear el inquilino, se le asignará automáticamente el rol de administrador global de Microsoft 365 para el inquilino.
 
 Después de comprar la capacidad, obtenga información sobre cómo [administrar capacidades](service-admin-premium-manage.md#manage-capacity) y [asignar áreas de trabajo](service-admin-premium-manage.md#assign-a-workspace-to-a-capacity) a una capacidad.
 
@@ -57,7 +57,7 @@ Para comprar capacidad Premium, siga estos pasos.
 
 1. Mantenga el puntero sobre los puntos suspensivos ( **. . .** ) y después seleccione **Comprar ahora**.
 
-    ![comprar ahora](media/service-admin-premium-purchase/premium-purchase.png)
+    ![Comprar ahora](media/service-admin-premium-purchase/premium-purchase.png)
 
 1. Siga estos pasos para completar la compra.
 

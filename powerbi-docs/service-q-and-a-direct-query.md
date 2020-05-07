@@ -10,10 +10,10 @@ ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: cf1d67318fc86b1044e38e6f4f5f56c9473c39a1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74265488"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Habilitación de Preguntas y respuestas en Power BI
@@ -62,7 +62,7 @@ La característica tiene algunas limitaciones:
 
 - [Puerta de enlace de datos local](service-gateway-onprem.md)  
 - [Administrar el origen de datos: Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-- [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)  
+- [Conceptos básicos para diseñadores en el servicio Power BI](service-basic-concepts.md)  
 - [Introducción a Preguntas y respuestas de Power BI](consumer/end-user-q-and-a.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

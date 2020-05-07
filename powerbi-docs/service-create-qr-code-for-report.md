@@ -10,10 +10,10 @@ ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853366"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Cree un código QR para un informe en Power BI para su uso en aplicaciones móviles
@@ -39,16 +39,16 @@ Los compañeros con quienes haya compartido el informe pueden detectar el códig
 ## <a name="print-the-qr-code"></a>Imprimir el código QR
 Power BI genera el código QR como archivo JPG, listo para imprimir. 
 
-1. Seleccione **Descargar** y, luego, abra el archivo JPG en un equipo conectado a una impresora.  
+1. Seleccione **Descargar** y abra el archivo JPG en un equipo conectado a una impresora.  
    
    El archivo JPG tiene el mismo nombre que el icono. Por ejemplo, "Ejemplo de marketing y ventas.jpg".
    
-1. Imprima el archivo al 100 % o en "tamaño real".  
+1. Imprima el archivo al 100 % o en "tamaño real".  
 2. Recorte el código QR por el borde y péguelo en un lugar importante del informe. 
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Get Power BI data from the real world with the mobile apps](consumer/mobile/mobile-apps-data-in-real-world-context.md) (Obtener datos de Power BI del mundo real con las aplicaciones móviles)
+* [Conectarse a datos de Power BI procedentes del mundo real](consumer/mobile/mobile-apps-data-in-real-world-context.md) con las aplicaciones móviles
 * [Detección de un código QR de Power BI desde un dispositivo móvil](consumer/mobile/mobile-apps-qr-code.md)
 * [Creación de un código QR para un icono](service-create-qr-code-for-tile.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+* ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

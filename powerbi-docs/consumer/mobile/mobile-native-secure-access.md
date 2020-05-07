@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: painbar
 ms.openlocfilehash: ce7b3c3bc667023ef36650d8c551caaceab04c02
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802810"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>Protección de la aplicación Power BI con Face ID, Touch ID, código de acceso o datos biométricos 
@@ -24,7 +24,7 @@ Se aplica a:
 
 | ![iPhone](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![iPad](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![Teléfono Android](././media/mobile-native-secure-access/android-logo-40-px.png) | ![Tableta Android](././media/mobile-native-secure-access/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
-|iPhone |iPad |Teléfonos Android |Tabletas Android |
+|iPhones |iPad |Teléfonos Android |Tabletas Android |
 
 ## <a name="turn-on-face-id-touch-id-or-passcode-on-ios"></a>Activación de Face ID, Touch ID o un código de acceso en iOS
 

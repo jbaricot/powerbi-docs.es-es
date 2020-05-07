@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 17175e1accb5013b960c5e1a71ae036b3dda72f3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73855566"
 ---
 # <a name="power-bi-and-azure-egress"></a>Salida de Power BI y Azure
@@ -35,7 +35,7 @@ Para obtener más información acerca de Power BI Premium o Multi-Geo, eche un v
 * [¿Qué es Microsoft Power BI Premium?](service-premium-what-is.md)
 * [Adquisición de Power BI Premium](service-admin-premium-purchase.md)
 * [Compatibilidad con Multi-Geo en Power BI Premium (versión preliminar)](service-admin-premium-multi-geo.md)
-* [¿Dónde se encuentra mi inquilino de Power BI?](service-admin-where-is-my-tenant-located.md)
+* [¿Dónde se encuentra mi inquilino de Power BI?](service-admin-where-is-my-tenant-located.md)
 * [Preguntas más frecuentes sobre Power BI Premium](service-premium-faq.md)
 
 
