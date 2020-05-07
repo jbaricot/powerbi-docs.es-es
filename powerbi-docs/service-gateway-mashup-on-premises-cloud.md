@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 10aec8659fcb643c5b0511360ba798c7b4873c77
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697897"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Combinar o anexar orígenes de datos locales o en la nube
@@ -35,7 +35,7 @@ Use la puerta de enlace de datos local para combinar o anexar orígenes de datos
 
 1. En la esquina superior derecha del servicio Power BI, seleccione el icono del engranaje ![Icono de engranaje de configuración](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **Administrar puertas de enlace**.
 
-    ![Administrar puertas de enlace](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
+    ![Administración de puertas de enlace](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
 
 2. Seleccione la puerta de enlace que quiere configurar.
 

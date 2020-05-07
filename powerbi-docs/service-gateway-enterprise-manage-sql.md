@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c0dc3b9eeb7932ca0cb6784fd6a46857821d1b12
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698127"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Administrar el origen de datos: SQL Server
@@ -22,7 +22,7 @@ ms.locfileid: "74698127"
 
 Después de [instalar la puerta de enlace de datos local](/data-integration/gateway/service-gateway-install), tendrá que [agregar orígenes de datos](service-gateway-data-sources.md#add-a-data-source) que puedan usarse con esta. En este artículo se describe cómo trabajar con puertas de enlace y orígenes de datos de SQL Server que se usan para la actualización programada o para DirectQuery.
 
-## <a name="add-a-data-source"></a>Elegir un origen de datos
+## <a name="add-a-data-source"></a>Agregar un origen de datos
 
 Para más información sobre cómo agregar un origen de datos, consulte [Adición de un origen de datos](service-gateway-data-sources.md#add-a-data-source). En **Tipo de origen de datos**, seleccione **SQL Server**.
 
@@ -33,10 +33,10 @@ Para más información sobre cómo agregar un origen de datos, consulte [Adició
 
 Rellene la información del origen de datos, incluidos el **Servidor** y la **Base de datos**. 
 
-En **Método de autenticación**, seleccione **Windows** o **Básico**. Seleccione **Básico** si tiene previsto usar la autenticación de SQL en lugar de la autenticación de Windows. A continuación, escriba las credenciales que se usarán para este origen de datos.
+En **Método de autenticación**, seleccione **Windows** o **Básico**. Seleccione **Básico** si tiene previsto usar la autenticación de SQL en lugar de la autenticación de Windows. A continuación, escriba las credenciales que se van a usar con este origen de datos.
 
 > [!NOTE]
-> Todas las consultas al origen de datos se ejecutarán con estas credenciales, excepto si se ha configurado el inicio de sesión único (SSO) de Kerberos y se ha habilitado para el origen de datos. Con el inicio de sesión único, los conjuntos de datos de importación usan las credenciales almacenadas, pero los conjuntos de datos de DirectQuery utilizan el usuario actual de Power BI para ejecutar las consultas mediante inicio de sesión único. Para más información sobre cómo se almacenan las credenciales, vea [Almacenamiento de credenciales cifradas en la nube](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud). También puede ver el artículo donde se describe cómo [usar Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales](service-gateway-sso-kerberos.md).
+> Todas las consultas al origen de datos se ejecutarán con estas credenciales, excepto si se ha configurado el inicio de sesión único (SSO) de Kerberos y se ha habilitado para el origen de datos. Con el inicio de sesión único, los conjuntos de datos de importación usan las credenciales almacenadas, pero los conjuntos de datos de DirectQuery utilizan el usuario actual de Power BI para ejecutar las consultas mediante inicio de sesión único. Para más información sobre cómo se almacenan las credenciales, consulte [Almacenamiento de credenciales cifradas en la nube](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud). También puede ver el artículo donde se describe cómo [usar Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales](service-gateway-sso-kerberos.md).
 
 ![Rellene la configuración del origen de datos](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 
@@ -59,7 +59,7 @@ Después de haber creado el origen de datos, estará disponible para usarse con 
 
 El vínculo entre el conjunto de datos y el origen de datos dentro de la puerta de enlace se basa en el nombre del servidor y en el nombre de la base de datos. Estos nombres deben coincidir. Por ejemplo, si proporciona una dirección IP para el nombre del servidor, dentro de Power BI Desktop, tendrá que usar la dirección IP del origen de datos dentro de la configuración de la puerta de enlace. Si usa *SERVIDOR\INSTANCIA* en Power BI Desktop, tendrá que usarlo también en el origen de datos configurado para la puerta de enlace.
 
-Este requisito se aplica tanto en DirectQuery como en la actualización programada.
+Este requisito se aplica tanto a DirectQuery como a la actualización programada.
 
 ### <a name="use-the-data-source-with-directquery-connections"></a>Uso del origen de datos con conexiones de DirectQuery
 
@@ -80,5 +80,5 @@ Si aparece en la pestaña **Usuarios** del origen de datos configurado dentro de
 * [Solución de problemas de puertas de enlace: Power BI](service-gateway-onprem-tshoot.md)
 * [Uso de Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales](service-gateway-sso-kerberos.md)
 
-¿Tiene más preguntas? Pruebe a preguntar a la [comunidad de Power BI](https://community.powerbi.com/).
+¿Tiene más preguntas? Pruebe a preguntar a la [Comunidad de Power BI](https://community.powerbi.com/).
 

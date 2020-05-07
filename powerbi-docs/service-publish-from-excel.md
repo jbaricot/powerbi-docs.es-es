@@ -10,10 +10,10 @@ ms.date: 03/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80329614"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Publicación en Power BI desde Microsoft Excel
@@ -61,7 +61,7 @@ Una vez guardado el libro en OneDrive para la Empresa, al seleccionar **Publicar
 
 ![Opciones para Power BI](media/service-publish-from-excel/pbi_uploadexport2.png)
 
-#### <a name="upload-your-workbook-to-power-bi"></a>Cargar el libro en Power BI
+#### <a name="upload-your-workbook-to-power-bi"></a>Carga de un libro en Power BI
 Si elige la opción **Cargar**, aparecerá el libro en Power BI tal como lo haría en Excel Online. Sin embargo, a diferencia de Excel Online, podrá disfrutar de opciones que le permiten anclar elementos de las hojas de cálculo en los paneles.
 
 No puede editar el libro en Power BI, pero si necesita realizar algunos cambios en los datos, puede seleccionar **Editar** y, a continuación, edite el libro en Excel Online o ábralo en Excel en el equipo. Todos los cambios que realice se guardarán en el libro en OneDrive para la Empresa.
