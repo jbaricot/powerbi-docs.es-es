@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
 ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874240"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Configuración de Kerberos para el uso de informes de Power BI
@@ -194,7 +194,7 @@ Va a configurar la delegación restringida con tránsito de protocolo. Con la de
 6. En el cuadro de diálogo nuevo, seleccione **Users or Computers** (Usuarios o equipos).
 7. Escriba la cuenta de servicio para el servicio Analysis Services y seleccione **Aceptar**.
 8. Seleccione el SPN que ha creado. Empezará por `MSOLAPSvc.3`. Si ha agregado tanto el SPN de FQDN como el de NetBIOS, se seleccionarán ambos. Es posible que solo vea uno.
-9. Seleccione **Aceptar**.  Ahora debería ver el SPN en la lista.
+9. Haga clic en **Aceptar**.  Ahora debería ver el SPN en la lista.
 10. Si lo desea, puede seleccionar **Expandido** para mostrar el SPN de FQDN y el de NetBIOS en la lista.
 11. Seleccione **Agregar** de nuevo. Ahora va a agregar el SPN de SQL Browser.
 12. En el cuadro de diálogo nuevo, seleccione **Users or Computers** (Usuarios o equipos).

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
 ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859476"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Administración de contenido en el portal web 
@@ -22,8 +22,8 @@ El portal web del servidor de informes de Power BI es una ubicación local para 
 
 Puede ver el portal web en cualquier explorador moderno. En el portal web, los informes y los KPI se organizan en carpetas y puede marcarlos como favoritos. También puede almacenar libros de Excel en él. Desde el portal web, puede iniciar las herramientas que necesite para crear informes:
 
-* **Informes de Power BI** creados con Power BI Desktop: véalos en el portal web y en las aplicaciones móviles de Power BI.
-* **Informes paginados** creados en el Generador de informes: documentos de aspecto moderno y diseño fijo optimizados para la impresión.
+* **Informes de Power BI** creados con Power BI Desktop: se pueden ver en el portal web y en las aplicaciones móviles de Power BI.
+* **Informes paginados** creados en el generador de informes: documentos de aspecto moderno y diseño fijo optimizados para la impresión.
 * **KPI** creado justo en el portal web.
 
 En el portal web puede examinar las carpetas del servidor de informes o buscar informes concretos. Puede ver un informe, sus propiedades generales y copias anteriores del informe capturadas en el historial del informe. Dependiendo de sus permisos, es posible que pueda suscribirse a informes que se entregan en la bandeja de entrada del correo electrónico o en una carpeta compartida en el sistema de archivos.
@@ -39,7 +39,7 @@ El portal web es una aplicación que se ejecuta en un explorador. Al iniciar el 
    
     La dirección URL predeterminada es <em>https://[NombreDelEquipo]/reports</em>.
    
-    El servidor de informes puede estar configurado para utilizar un puerto específico. Por ejemplo, <em>https://[NombreDelEquipo]:80/Reports</em> o <em>https://[NombreDelEquipo]:8080/Reports</em>
+    El servidor de informes se puede configurar para usar un puerto concreto. Por ejemplo, <em>https://[NombreDelEquipo]:80/Reports</em> o <em>https://[NombreDelEquipo]:8080/Reports</em>
    
     El portal web agrupa los elementos en estas categorías:
    

@@ -10,10 +10,10 @@ ms.date: 12/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: aa05ffa7ba07ea1daf162f8ebb2baa3d18f64b29
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75256365"
 ---
 # <a name="migrate-your-subscription-to-the-new-go-local-german-regions"></a>Migración de la suscripción a las nuevas regiones alemanas de "Go Local"
@@ -24,6 +24,6 @@ Si la organización decide participar, puede esperar que la migración comience 
 
 Después de migrar la suscripción, se reducirán los precios para que coincidan con los de la nube pública. Los clientes directos verán una nueva suscripción con una nueva fecha de renovación anual. Como parte de este enfoque se migrarán los servicios siguientes:
 
-* Power BI
+* Power BI
 
 Seguiremos actualizando este artículo en los próximos meses para agregar información detallada sobre los requisitos previos, procedimientos paso a paso y cualquier efecto que la migración pueda tener en la organización.
