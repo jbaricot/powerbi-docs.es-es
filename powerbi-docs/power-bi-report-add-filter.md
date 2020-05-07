@@ -10,10 +10,10 @@ ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 143851013679dd0356c1ea5036c3d724b1dc436d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73875169"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Incorporación de un filtro a un informe en Power BI
@@ -29,7 +29,7 @@ En este artículo se explica cómo agregar un filtro de página, un filtro de vi
 Power BI ofrece una serie de diferentes tipos de filtros, desde los manuales y automáticos hasta los de obtención de detalles y paso a través. Obtenga información sobre los [diferentes tipos de filtros](power-bi-report-filter-types.md).
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>Filtros en la vista de edición o en la vista de lectura
-Puede interactuar con informes en dos vistas diferentes: la vista de lectura y la vista de edición. Las funcionalidades de filtrado disponibles dependen de la vista en la que se encuentre. Lea toda la [información sobre filtros y resaltado en informes de Power BI](power-bi-reports-filters-and-highlighting.md) para obtener detalles.
+Puede interactuar con informes en dos vistas diferentes: vista de lectura y vista de edición. Las funcionalidades de filtrado disponibles dependen de la vista en la que se encuentre. Lea toda la [información sobre filtros y resaltado en informes de Power BI](power-bi-reports-filters-and-highlighting.md) para obtener detalles.
 
 En este artículo se describe cómo crear filtros en la **Vista de edición** del informe.  Para más información sobre los filtros en la vista de lectura, vea [Interacción con un informe en la vista de lectura en Power BI](consumer/end-user-report-filter.md).
 
@@ -89,7 +89,7 @@ Ahora vamos a agregar un campo nuevo a la visualización como un filtro de nivel
      
     ![Agregar un campo al panel Filtros](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
-    Tenga en cuenta que **District Manager** *no* se agrega a la misma visualización. La visualización se todavía se compone de **StoreNumberName** como el eje y **This Year Sales** como el valor.  
+    Tenga en cuenta que **District Manager***no* se agrega a la misma visualización. La visualización se todavía se compone de **StoreNumberName** como el eje y **This Year Sales** como el valor.  
      
     ![El campo no está en el objeto visual](media/power-bi-report-add-filter/power-bi-visualization.png)
 

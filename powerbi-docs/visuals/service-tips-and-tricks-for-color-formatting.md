@@ -10,16 +10,16 @@ ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76895063"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Sugerencias y trucos para el formato de color en Power BI
 Power BI permite personalizar los paneles y los informes de muchas formas. En este artículo se detallan una serie de sugerencias para que las visualizaciones de Power BI resulten más atractivas, interesantes y personalizadas según sus necesidades.
 
-A continuación se proporcionan varias sugerencias. ¿Tiene alguna otra? Magnífico. Envíenosla para que estudiemos si puede agregarse a esta lista.
+A continuación se proporcionan varias sugerencias. ¿Tiene alguna otra? Excelente. Envíenosla para que estudiemos si puede agregarse a esta lista.
 
 * Aplicar un tema a todo el informe
 * Cambiar el color de un solo punto de datos
@@ -120,7 +120,7 @@ Para usar escalas de colores divergentes, active la casilla **Divergente**. Cuan
 
 ![Cuadro de diálogo de color predeterminado con Escala de colores seleccionado](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging-colors.png)
 
-Al activar el control deslizante **Divergente** , pueden establecerse los colores **Mínimo**, **Máximo** y **Centro** por separado. En la imagen siguiente, **Centro** está establecido en 0.2 para **% Market Share SPLY YTD**, por lo que las barras con valores superiores a 0.2 presentan un tono degradado verde y las barras con valores inferiores a uno presentan tonos rojos.
+Al activar el control deslizante **Divergente**, pueden establecerse los colores **Mínimo**, **Máximo** y **Centro** por separado. En la imagen siguiente, **Centro** está establecido en 0.2 para **% Market Share SPLY YTD**, por lo que las barras con valores superiores a 0.2 presentan un tono degradado verde y las barras con valores inferiores a uno presentan tonos rojos.
 
 ![gráfico de columnas con barras rojas y verdes](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
 

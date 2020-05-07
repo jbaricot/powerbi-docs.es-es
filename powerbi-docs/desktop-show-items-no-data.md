@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a8d99a041edbbe353badbb580940e918b30a0a9d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73879730"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Característica Mostrar elementos sin datos de Power BI
@@ -31,7 +31,7 @@ Para empezar a entender cómo Power BI determina qué datos son pertinentes para
 |*Product[Color]*  |*Product[Size]*  |
 |---------|---------|
 |Azul     |Grande         |
-|Azul     |Mediano         |
+|Azul     |Mediana         |
 |Azul     |Pequeño         |
 |Rojo     |Grande         |
 
@@ -80,7 +80,7 @@ Para habilitar la característica **Mostrar elementos sin datos**, seleccione un
 ![Habilitación de la característica Mostrar elementos sin datos](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
 
-La característica **Mostrar elementos sin datos** *no* tiene efecto en las siguientes circunstancias:
+La característica **Mostrar elementos sin datos***no* tiene efecto en las siguientes circunstancias:
 
 * No se han agregado medidas al objeto visual y las columnas de agrupamiento proceden de la misma tabla.
 * Los grupos no están relacionados; Power BI no ejecuta consultas de objetos visuales que tengan grupos no relacionados.
@@ -99,7 +99,7 @@ Cómo aparece si está la característica **Mostrar elementos sin datos** desact
 
 |*Product[Color]*  |*Product[Size]*  |*[SumQuantity]*  |
 |---------|---------|---------|
-|Azul     |Mediano         |15         |
+|Azul     |Mediana         |15         |
 |Azul     |Pequeño         |10         |
 
 Cómo aparece si está la característica **Mostrar elementos sin datos** activada:
@@ -107,7 +107,7 @@ Cómo aparece si está la característica **Mostrar elementos sin datos** activa
 |*Product[Color]*  |*Product[Size]*  |*[SumQuantity]*  |
 |---------|---------|---------|
 |Azul     |Grande         |         |
-|Azul     |Mediano         |15         |
+|Azul     |Mediana         |15         |
 |Azul     |Pequeño         |10         |
 |Rojo     |Grande         |         |
 
@@ -163,7 +163,7 @@ Por ejemplo, en un objeto visual de matriz con cuatro campos en el depósito **F
 
 ![Los campos del mismo objeto visual habilitan Mostrar elementos sin datos de forma automática](media/desktop-show-items-no-data/show-items-no-data-05.png)
 
-Por el contrario, el campo *Continente* que se muestra en el cubo **Columnas** *no* tiene habilitada de forma automática la opción **Mostrar elementos sin datos**. 
+Por el contrario, el campo *Continente* que se muestra en el cubo **Columnas***no* tiene habilitada de forma automática la opción **Mostrar elementos sin datos**. 
 
 Este comportamiento visual se suele ver cuando se convierte un objeto visual a otro tipo, por ejemplo al convertir un objeto visual de matriz en uno de tabla. En estas conversiones, la opción **Mostrar elementos sin datos** se habilita de forma automática para cualquier campo que se haya movido a un cubo que tenga un campo con la característica habilitada. En el ejemplo anterior, si *SupplierID* tiene habilitada la característica **Mostrar elementos sin datos** y el objeto visual se convierte en una tabla, el campo *Continente* del cubo **Columnas** se mueve (junto con los campos del cubo **Filas**) al único cubo que se usa en un objeto visual de tabla: **Valores**. Por tanto, todos los campos del cubo **Valores** tendrán habilitada la característica **Mostrar elementos sin datos**.
 
@@ -183,7 +183,7 @@ En esta sección se muestra el modelo de datos de ejemplo que se ha utilizado en
 |Product[ProductId]|    Product[ProductName]|   Product[Color]| Product[Size]|  Product[CategoryId]|    Product[StyleId]|
 |---------|---------|---------|---------|---------|---------|
 |1  |Prod1  |Azul   |Pequeño  |1  |1 |
-|2  |Prod2  |Azul   |Mediano |2  |2 |
+|2  |Prod2  |Azul   |Mediana |2  |2 |
 |3  |Prod3  |Rojo    |Grande  |1  |1 |
 |4  |Prod4  |Azul   |Grande  |2  |2 |
 

@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 5bc0d3bbfb2c2b67b56e6406646f6131a360b97d
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73800133"
 ---
 Una diferencia significativa entre **DAX** y el lenguaje de fórmulas de Excel es que DAX le permite pasar *tablas enteras* entre expresiones en lugar de estar limitado a un único valor. Un efecto eficaz es que DAX permite filtrar las tablas en sus expresiones y, después, trabajar con el conjunto de valores filtrados.
@@ -16,7 +16,7 @@ Con DAX, puede crear tablas calculadas completamente nuevas y, después, tratarl
 DAX tiene un amplio conjunto de funciones de **tabla**, incluidas las siguientes:
 
 * FILTER
-* ALL
+* TODO
 * VALUES
 * DISTINCT
 * RELATEDTABLE

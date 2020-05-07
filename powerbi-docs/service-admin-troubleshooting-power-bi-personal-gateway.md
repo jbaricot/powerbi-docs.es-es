@@ -10,10 +10,10 @@ ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 910f52466b4700e4d0cc4168ef80ea5ee0164364
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698403"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Solución de problemas de Power BI Gateway (modo personal)
@@ -22,7 +22,7 @@ ms.locfileid: "74698403"
 
 En las secciones siguientes se examinan algunos problemas comunes que se pueden producir al usar la puerta de enlace de datos local (modo personal) de Power BI.
 
-## <a name="update-to-the-latest-version"></a>Actualizar a la versión más reciente
+## <a name="update-to-the-latest-version"></a>Actualización a la versión más reciente
 
 La versión actual de la puerta de enlace para uso personal es la puerta de enlace de datos local (modo personal). Actualice la instalación para usar esa versión.
 

@@ -11,10 +11,10 @@ ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877432"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Anclar un icono a un panel de Power BI desde Excel
@@ -80,7 +80,7 @@ Al seleccionar un icono de libro se abre el libro vinculado en Power BI. Puesto 
  ![Vídeo](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-Características no admitidas: Power BI usa Excel Services para recuperar los iconos del libro. Por lo tanto, dado que no se admiten algunas características de Excel en la API de REST de Excel Services, no se verán en los iconos de Power BI. Por ejemplo: minigráficos, formato condicional del conjunto de iconos y segmentaciones de tiempo. Para una lista completa de características no compatibles, consulte [Características no admitidas en la API de REST de Excel Services](https://msdn.microsoft.com/library/office/ff394477.aspx).
+Características no compatibles: Power BI usa Excel Services para recuperar los iconos del libro. Por lo tanto, dado que no se admiten algunas características de Excel en la API de REST de Excel Services, no se verán en los iconos de Power BI. Por ejemplo: minigráficos, formato condicional del conjunto de iconos y segmentaciones de tiempo. Para obtener una lista completa de características no compatibles, consulte [Características no admitidas en la API de REST de Excel Services](https://msdn.microsoft.com/library/office/ff394477.aspx)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Compartir un panel que contiene vínculos a un libro de Excel](service-share-dashboard-that-links-to-excel-onedrive.md)
