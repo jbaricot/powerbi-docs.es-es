@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006811"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82585075"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentaciones de datos en Power BI
 
@@ -131,6 +131,11 @@ En el informe actual, la página **Ventas mensuales de distrito** tiene también
     >[!NOTE]
     >Si sincroniza una segmentación con una página pero no la hace visible en esa página, las selecciones de segmentación realizadas en las demás páginas seguirán filtrando los datos en la página.
  
+## <a name="filtering-slicers"></a>Filtrado de segmentaciones
+Puede aplicar filtros de nivel de objeto visual a las segmentaciones para reducir la lista de valores que se muestran en la segmentación. Por ejemplo, puede filtrar los valores en blanco de una segmentación de lista o filtrar determinadas fechas de una segmentación de intervalo. Al hacerlo, solo afecta a los *valores que se muestran en la segmentación*, no al *filtro que la segmentación aplica a otros objetos visuales* cuando se realiza una selección. Por ejemplo, supongamos que aplica un filtro a una segmentación de intervalo para mostrar solo determinadas fechas. La selección en la segmentación solo mostrará la primera y la última fecha de ese intervalo, pero aun así verá otras fechas en otros objetos visuales. Una vez que cambie el intervalo seleccionado en la segmentación, verá que los demás objetos visuales se actualizan. Si borra la segmentación, se mostrarán de nuevo todas las fechas.
+
+Consulte [Tipos de filtros](../power-bi-report-filter-types.md) para obtener más información sobre los filtros de nivel de objeto visual.
+
 ## <a name="format-slicers"></a>Segmentaciones de formato
 Existen diferentes opciones de formato según el tipo de segmentación. Con la orientación **Horizontal**, el diseño **dinámico** y la posibilidad de colorear **elementos**, puede generar botones o iconos en lugar de elementos de lista estándar, y hacer que los elementos de segmentación cambien de tamaño para ajustarse a diferentes diseños y tamaños de pantalla.  
 

@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381086"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmisión en tiempo real en Power BI
@@ -43,7 +43,7 @@ Hay dos factores a tener en cuenta acerca de los iconos anclados desde un conjun
 * Una vez que un objeto visual está anclado a un panel, puede usar **Preguntas y respuestas** para formular preguntas sobre el conjunto de datos de inserción en lenguaje natural. Después de realizar la consulta de **Preguntas y respuestas**, puede anclar el objeto visual resultante al panel, y ese panel *también* se actualizará en tiempo real.
 
 ### <a name="streaming-dataset"></a>Conjunto de datos de streaming
-Con un **conjunto de datos de streaming**, también se insertan datos en el servicio Power BI, con una diferencia importante: Power BI solo almacena los datos en una caché temporal, que expira rápidamente. La memoria caché temporal solo se usa para mostrar los objetos visuales que tienen cierto sentido de historial transitorio, por ejemplo, un gráfico de líneas que tiene un período de tiempo de una hora.
+Con un **conjunto de datos de streaming**, los datos también se insertan en el servicio Power BI, con una diferencia importante: Power BI solo almacena los datos en una caché temporal, que expira rápidamente. La memoria caché temporal solo se usa para mostrar los objetos visuales que tienen cierto sentido de historial transitorio, por ejemplo, un gráfico de líneas que tiene un período de tiempo de una hora.
 
 Con un **conjunto de datos de streaming**, *no* hay una base de datos subyacente, por lo que *no* se crean objetos visuales de informe con los datos que llegan desde el flujo. Por tanto, no se pueden usar funciones de informes como objetos visuales de Power BI o filtros, entre otras.
 

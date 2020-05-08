@@ -10,10 +10,10 @@ ms.date: 07/16/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 6c944b52deb72e556506d88f4358af2c816b46fc
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698173"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Administrar el origen de datos: SAP HANA
@@ -22,7 +22,7 @@ ms.locfileid: "74698173"
 
 Después de [instalar la puerta de enlace de datos local](/data-integration/gateway/service-gateway-install), tendrá que [agregar orígenes de datos](service-gateway-data-sources.md#add-a-data-source) que se puedan usar con ella. En este artículo se describe cómo trabajar con puertas de enlace y orígenes de datos de SAP HANA que se usan para la actualización programada o para DirectQuery.
 
-## <a name="add-a-data-source"></a>Elegir un origen de datos
+## <a name="add-a-data-source"></a>Agregar un origen de datos
 
 Para más información sobre cómo agregar un origen de datos, consulte [Adición de un origen de datos](service-gateway-data-sources.md#add-a-data-source). En **Tipo de origen de datos**, seleccione **SAP HANA**.
 
@@ -31,7 +31,7 @@ Para más información sobre cómo agregar un origen de datos, consulte [Adició
 Después de seleccionar el tipo de origen de datos SAP HANA, rellene los campos **Servidor**, **Nombre de usuario** y **Contraseña** del origen de datos.
 
 > [!NOTE]
-> Todas las consultas que se realicen al origen de datos se ejecutarán con estas credenciales. Para más información sobre cómo se almacenan las credenciales, vea [Almacenamiento de credenciales cifradas en la nube](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
+> Todas las consultas que se realicen al origen de datos se ejecutarán con estas credenciales. Para más información sobre cómo se almacenan las credenciales, consulte [Almacenamiento de credenciales cifradas en la nube](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Rellene la configuración del origen de datos](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 
@@ -54,7 +54,7 @@ Después de haber creado el origen de datos, estará disponible para usarse con 
 
 El vínculo entre el conjunto de datos y el origen de datos dentro de la puerta de enlace se basa en el nombre del servidor y en el nombre de la base de datos. Estos nombres deben coincidir. Por ejemplo, si proporciona una dirección IP para el nombre del servidor, dentro de Power BI Desktop, tendrá que usar la dirección IP del origen de datos dentro de la configuración de la puerta de enlace. Si usa *SERVER\INSTANCE* en Power BI Desktop, también tiene que usar lo mismo en el origen de datos configurado para la puerta de enlace.
 
-Este requisito se aplica tanto en DirectQuery como en la actualización programada.
+Este requisito se aplica tanto a DirectQuery como a la actualización programada.
 
 ### <a name="use-the-data-source-with-directquery-connections"></a>Uso del origen de datos con conexiones de DirectQuery
 
@@ -73,5 +73,5 @@ Si aparece en la pestaña **Usuarios** del origen de datos configurado dentro de
 * [Solución de problemas con la puerta de enlace de datos local](/data-integration/gateway/service-gateway-tshoot)
 * [Solución de problemas de puertas de enlace: Power BI](service-gateway-onprem-tshoot.md) 
 
-¿Tiene más preguntas? Pruebe a preguntar a la [comunidad de Power BI](https://community.powerbi.com/).
+¿Tiene más preguntas? Pruebe a preguntar a la [Comunidad de Power BI](https://community.powerbi.com/).
 

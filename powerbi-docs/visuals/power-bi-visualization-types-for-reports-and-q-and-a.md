@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381431"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualización en Power BI
@@ -25,7 +25,7 @@ Eche un vistazo a [Microsoft AppSource](https://appsource.microsoft.com/marketp
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lista de visualizaciones disponibles en Power BI
 Todas estas visualizaciones pueden agregarse a los informes de Power BI, especificados en Preguntas y respuestas y anclados a los paneles.
 
-### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de áreas: básico (en capa) y de área apilada
+### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de área: básicos (en capa) y de área apilada
 ![gráficos de áreas](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
 
 >[!TIP]
@@ -41,7 +41,7 @@ Para más información, vea [Gráfico de áreas básico](power-bi-visualization-
 >[!TIP]
 >Los gráficos de barras son el estándar para buscar un valor concreto en categorías diferentes.
 
-### <a name="cards-multi-row"></a>Tarjetas: de varias filas
+### <a name="cards-multi-row"></a>Tarjetas: varias filas
 ![tarjeta de varias filas](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>Tarjetas: número único
@@ -110,7 +110,7 @@ Para más información, vea [KPI en Power BI](power-bi-visualization-kpi.md).
 
 Para obtener más información, consulte [Sugerencias y trucos para las visualizaciones de mapa](power-bi-map-tips-and-tricks.md).
 
-### <a name="maps-arcgis-maps"></a>Mapas: Mapas de ArcGIS
+### <a name="maps-arcgis-maps"></a>Mapas: mapas de ArcGIS
 ![mapa de ArcGIS](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 Para más información, vea [Mapas de ArcGIS en Power BI](power-bi-visualization-arcgis.md).
@@ -201,7 +201,7 @@ Para más información, vea [Segmentaciones en Power BI](power-bi-visualization-
 ### <a name="standalone-images"></a>Imágenes independientes
 ![objeto visual de imagen independiente](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
-Para más información, consulte [Agregar un widget de imagen a un panel](../service-dashboard-add-widget.md).
+Para obtener más información, consulte [Add an image widget to a dashboard](../service-dashboard-add-widget.md) (Agregar un widget de imagen a un panel).
 
 ### <a name="tables"></a>Tablas
 ![objeto visual de tabla](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
@@ -212,7 +212,7 @@ Para más información, consulte [Agregar un widget de imagen a un panel](../ser
 Para más información, consulte [Working with tables in Power BI](power-bi-visualization-tables.md) (Trabajar con tablas en Power BI).
 
 ### <a name="treemaps"></a>Gráficos de rectángulos
-![gráfico de rectángulos](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![rectángulos](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 Para más información, vea [Gráficos de rectángulos en Power BI](power-bi-visualization-treemaps.md).
 

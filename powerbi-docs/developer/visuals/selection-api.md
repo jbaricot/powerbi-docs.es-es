@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113701"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Incorporación de interactividad en un objeto visual mediante las selecciones de objetos visuales de Power BI
@@ -81,7 +81,7 @@ Este objeto tiene métodos correspondientes para crear `selections` para diferen
 
 Vamos a revisar cómo se representan las selecciones en la asignación de vistas de datos categóricos para el conjunto de datos de ejemplo:
 
-| Fabricante | Tipo | Valor |
+| Fabricante | Tipo | Value |
 | - | - | - |
 | Chrysler | Automóvil nacional | 28883 |
 | Chrysler | Camión nacional | 117131 |
@@ -161,7 +161,7 @@ Además, el objeto visual debe poder segmentar los datos por `Manufacturer` y `T
 
 Por ejemplo, cuando el usuario selecciona `Chrysler` por `Manufacturer`, otros objetos visuales deberían mostrar los datos siguientes:
 
-| Fabricante | Tipo | Valor |
+| Fabricante | Tipo | Value |
 | - | - | - |
 | **Chrysler** | Automóvil nacional | 28883 |
 | **Chrysler** | Camión nacional | 117131 |
@@ -170,7 +170,7 @@ Por ejemplo, cuando el usuario selecciona `Chrysler` por `Manufacturer`, otros o
 
 Cuando el usuario selecciona `Import Car` por `Type` (selecciona datos por serie), otros objetos visuales deberían mostrar estos datos:
 
-| Fabricante | Tipo | Valor |
+| Fabricante | Tipo | Value |
 | - | - | - |
 | Chrysler | **Automóvil importado** | 0 |
 | Ford | **Automóvil importado** | 0 |

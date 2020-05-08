@@ -1,23 +1,23 @@
 ---
-title: Insertar el elemento web de informes en SharePoint Online
+title: Insertar un elemento web de informes en SharePoint Online
 description: Con el nuevo elemento web de informes de Power BI para SharePoint Online, puede insertar fácilmente informes de Power BI interactivos en páginas de SharePoint Online.
-author: KesemSharabi
-ms.author: kesharab
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 12/18/2019
-ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/27/2020
+ms.openlocfilehash: 5b726137fae0087701833b2d713cf7b5a329f899
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221721"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82585191"
 ---
-# <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insertar el elemento web de informes en SharePoint Online
+# <a name="embed-a-report-web-part-in-sharepoint-online"></a>Insertar un elemento web de informes en SharePoint Online
 
 Con el nuevo elemento web de informes de Power BI para SharePoint Online, puede insertar fácilmente informes de Power BI interactivos en páginas de SharePoint Online.
 
@@ -38,9 +38,9 @@ Para insertar un informe en SharePoint Online, se debe obtener la dirección URL
 
 1. En Power BI, vea el informe.
 
-2. Seleccione el menú desplegable **Archivo** y luego seleccione **Insertar en SharePoint Online**.
+2. En el menú desplegable **Más opciones (…)** , seleccione **Insertar** > **SharePoint Online**.
 
-    ![Menú Abrir](media/service-embed-report-spo/powerbi-file-menu.png)
+    ![Menú Más opciones, SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
 3. Copie la dirección URL del informe desde el cuadro de diálogo.
 
