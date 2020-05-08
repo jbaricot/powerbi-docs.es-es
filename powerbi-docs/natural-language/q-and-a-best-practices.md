@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609945"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841926"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Procedimientos recomendados para optimizar Preguntas y respuestas en Power BI
 El uso del lenguaje natural y frases comunes para formular preguntas sobre los datos resulta muy eficaz. Esto es todavía más eficaz cuando los datos responden a esas preguntas, que es lo que Preguntas y respuestas de Power BI hace.
@@ -194,6 +194,8 @@ La única excepción a la regla "la normalización es mejor" se produce cuando h
 Este paso se aplica específicamente a Preguntas y respuestas (y no a los informes de Power BI en general). Los usuarios suelen tener una variedad de términos que se usan para hacer referencia a la misma cosa, como ventas totales, ventas netas o total de ventas netas. Puede agregar estos sinónimos a tablas y columnas en el modelo de Power BI. 
 
 Este paso puede ser importante. Incluso con nombres de columnas y tablas sencillos, los usuarios de Preguntas y respuestas formulan preguntas utilizando el vocabulario que les viene a la mente. No eligen de una lista predefinida de columnas. Cuantos más sinónimos significativos agregue, mejor será la experiencia de los usuarios con el informe. Para agregar sinónimos, en Power BI Desktop, vaya a la vista de modelo, seleccione la pestaña Modelado y seleccione un campo o una tabla. En el panel Propiedades se muestra el cuadro **Sinónimos**, donde puede agregar sinónimos.
+
+
 
 ![Sinónimos en el panel Propiedades de Preguntas y respuestas](media/qna-modelling-pane-synonyms.png)
 

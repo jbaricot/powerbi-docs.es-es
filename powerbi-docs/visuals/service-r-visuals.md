@@ -7,16 +7,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/14/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: eee7b67fcfaed987170baa8cb5a0b3c8cba86350
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979831"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866431"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Creación y uso de objetos visuales de R en Power BI
+
+[!INCLUDE[consumer-appliesto-nnyn](../includes/consumer-appliesto-nnyn.md)]
+
 Actualmente, los objetos visuales R solo se pueden crear en **Power BI Desktop** y, después, se publican en el servicio Power BI. Para obtener más información sobre cómo crear objetos visuales de R, vea [Crear objetos visuales de Power BI con R ](../desktop-r-visuals.md).
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Visualización de objetos visuales de R en el servicio Power BI
@@ -65,7 +68,7 @@ Como otro ejemplo, la siguiente imagen muestra el mensaje de error que aparece s
 
 ![Captura de pantalla que muestra un error de runtime](media/service-r-visuals/r-visuals-service-5.png)
 
-## <a name="licensing"></a>Licencias
+## <a name="licensing"></a>Administración de licencias
 Los objetos visuales de R requieren una licencia de [Power BI Pro](../service-self-service-signup-for-power-bi.md) para poder representarse en informes, actualizarse, filtrarse y filtrarse de forma cruzada. Para obtener más información sobre las licencias de Power BI Pro y cómo se diferencian de las licencias gratuitas, consulte [Contenido de Power BI Pro: ¿qué es?](../service-admin-purchasing-power-bi-pro.md)
 
 Los usuarios gratuitos de Power BI solo pueden usar iconos compartidos con ellos en áreas de trabajo Premium. Consulte [Adquisición de Power BI Pro](../service-admin-purchasing-power-bi-pro.md) para obtener más información.

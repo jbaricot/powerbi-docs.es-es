@@ -10,10 +10,10 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207077"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filtros y resaltado en informes de Power BI
@@ -49,7 +49,7 @@ Puede realizar búsquedas en los filtros de página, objeto visual e informe en 
 
 ![Búsqueda en un filtro](media/power-bi-reports-filters-and-highlighting/power-bi-search-filter.png)
 
-Si el filtro contiene las palabras **Todos o Todas** junto a él significa que todos los valores del campo se incluyen en el filtro.  Por ejemplo, **Cadena(Todas)** , como se puede ver en la captura de pantalla siguiente, indica que esta página del informe incluye datos sobre todas las cadenas del almacén.  Por otro lado, el filtro de nivel de informe **AñoFiscal es 2013 o 2014** nos indica que el informe solo incluye los datos de los años fiscales de 2013 y 2014.
+Si el filtro contiene la palabra **Todo** junto a él, que significa que todos los valores del campo se incluyen en el filtro.  Por ejemplo, **Cadena(Todas)** , como se puede ver en la captura de pantalla siguiente, indica que esta página del informe incluye datos sobre todas las cadenas del almacén.  Por otro lado, el filtro de nivel de informe **AñoFiscal es 2013 o 2014** nos indica que el informe solo incluye los datos de los años fiscales de 2013 y 2014.
 
 ## <a name="filters-in-reading-or-editing-view"></a>Filtros en las vistas de lectura y edición
 Existen dos modos de interactuar con los informes: [la vista de lectura](consumer/end-user-reading-view.md) y la vista de edición. Las funcionalidades de filtrado disponibles dependen del modo en el que se encuentre.
@@ -97,7 +97,7 @@ Seleccione un valor o una etiqueta de eje en un objeto visual para resaltar los 
 
 [Ver los filtros de informes](consumer/end-user-report-filter.md)
 
-[Cambiar el filtro cruzado y el resaltado cruzado entre los objetos visuales de los informes](consumer/end-user-interactions.md)
+[Cambiar el filtro cruzado y el resaltado entre los objetos visuales de los informes](consumer/end-user-interactions.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

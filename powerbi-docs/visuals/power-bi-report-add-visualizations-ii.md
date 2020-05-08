@@ -10,10 +10,10 @@ ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758431"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Adición de objetos visuales a un informe de Power BI (parte 2)

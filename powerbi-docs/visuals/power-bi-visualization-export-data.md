@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9823e35fb2ddb99cf2932fa83e92598ba40f6690
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f82bde423d910cb5622e5e709890502e96daab36
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381385"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585376"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportación de los datos usados para crear una visualización
 
@@ -242,7 +242,7 @@ Estas limitaciones y consideraciones se aplican a Power BI Desktop y el servicio
 
 - La exportación utilizando *Datos subyacentes* no funcionará si habilita la opción *Mostrar elementos sin datos* para la visualización que Power BI está exportando.
 
-- Si se usa DirectQuery, la cantidad máxima de datos que Power BI puede exportar es 16 MB de datos sin comprimir. Un resultado no deseado puede ser que exporte menos que el número máximo de filas. Esto es probable si:
+- Si se usa DirectQuery, la cantidad máxima de datos que Power BI puede exportar es 16 MB de datos sin comprimir. Un resultado no deseado puede ser que exporte menos que el número máximo de 150 000 filas. Esto es probable si:
 
     - Hay muchas columnas.
 

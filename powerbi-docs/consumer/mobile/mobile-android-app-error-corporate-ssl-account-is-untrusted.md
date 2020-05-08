@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: a68644c63d3d5eaeb54a71683629af01817d62a7
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114605"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Corrección del problema de "su certificado SSL corporativo no es de confianza" - Power BI
@@ -44,5 +44,5 @@ Si usa un servidor de autenticación personalizada, el certificado SSL del servi
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Descarga de la aplicación Android](https://go.microsoft.com/fwlink/?LinkID=544867) desde la tienda de aplicaciones Android.
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/) 
+* ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/) 
 

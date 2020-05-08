@@ -11,10 +11,10 @@ ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79436097"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Creación y uso de gráficos combinados en Power BI
@@ -68,7 +68,7 @@ Vea cómo Will crea un gráfico combinado con el Ejemplo de marketing y ventas.
     ![Ejemplo de tutorial combinado](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Seleccione **Más opciones** (...) en la esquina superior derecha de la visualización y, después, seleccione **Ordenar por > FiscalMonth** (MesFiscal). Para cambiar el criterio de ordenación, vuelva a hacer clic en los puntos suspensivos y elija **Orden ascendente** u **Orden descendente**. En este ejemplo, se usará **Orden ascendente**.
 
-6. Convierta el gráfico de columnas en un gráfico combinado. Hay dos gráficos combinados disponibles: **Gráfico de columnas apiladas y de líneas** y **Gráfico de columnas agrupadas y de líneas**. Con el gráfico de columnas seleccionado, en el panel **Visualizaciones**, seleccione el **Gráfico de columnas agrupadas y de líneas**.
+6. Convierta el gráfico de columnas en un gráfico combinado. Hay dos gráficos combinados disponibles: **de columnas apiladas y de líneas** y **de columnas agrupadas y de líneas**. Con el gráfico de columnas seleccionado, en el panel **Visualizaciones**, seleccione el **Gráfico de columnas agrupadas y de líneas**.
 
     ![Ejemplo de conversión de gráfico combinado](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
 7. En el panel **Campos**, arrastre **Ventas** \> **Ventas del año anterior** al cubo **Valores de líneas**.
@@ -83,7 +83,7 @@ Vea cómo Will crea un gráfico combinado con el Ejemplo de marketing y ventas.
 En esta tarea, compararemos el margen bruto y las ventas.
 
 1. Cree un nuevo gráfico de líneas que realice un seguimiento del **Porcentaje de margen bruto del último año** por **FiscalMonth**. Haga clic en los puntos suspensivos para ordenar por **Mes** y **Ascendente**.  
-En enero el porcentaje de margen bruto fue de un 35 %, en abril alcanzó un máximo de un 45 %, en julio descendió y luego volvió a alcanzar otro máximo en agosto. ¿Se verá un patrón similar en las ventas del año anterior y este año?
+En enero el porcentaje de margen bruto fue de un 35 %, en abril alcanzó un máximo de un 45 %, en julio descendió y luego volvió a alcanzar otro máximo en agosto. ¿Se verá un patrón similar en las ventas del año anterior y este año?
 
    ![Ventas de ejemplo de gráfico combinado](media/power-bi-visualization-combo-chart/combo1-new.png)
 2. Agregue **Ventas de este año > Valor** y **Ventas del último año** al gráfico de líneas. La escala de **porcentaje de margen bruto del último año** es mucho menor que la escala de **Ventas**, lo que dificulta la comparación.      
@@ -99,7 +99,7 @@ En enero el porcentaje de margen bruto fue de un 35 %, en abril alcanzó un má
 
 ## <a name="add-titles-to-the-axes"></a>Agregar títulos a los ejes
 1. Seleccione el icono de rodillo de pintura ![Icono de rodillo de pintar](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) para abrir el panel Formato.
-1. Seleccione la flecha hacia abajo para expandir las opciones del **eje Y** .
+1. Seleccione la flecha hacia abajo para expandir las opciones del **eje Y**.
 1. Para **Eje Y (columna)** , establezca **Posición** en **Izquierda**, **Título** en **Activado**, **Estilo** en **Mostrar solo el título** y **Mostrar unidades** en **Millones**.
 
    ![Ejemplo de apertura de y de gráfico combinado](media/power-bi-visualization-combo-chart/power-bi-open-y.png)

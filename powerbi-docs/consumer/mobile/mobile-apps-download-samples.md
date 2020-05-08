@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: painbar
 ms.openlocfilehash: 82a299dad5d58ca03d2b05ae02c49e0da0478303
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75256802"
 ---
 # <a name="downloading-samples-to-my-workspace-in-the-power-bi-service"></a>Descarga de ejemplos en Mi área de trabajo en el servicio Power BI
@@ -46,4 +46,4 @@ Ya está listo para ver los ejemplos en el dispositivo móvil.
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Guía de inicio rápido](mobile-apps-quickstart-view-dashboard-report.md)
-* ¿Tiene alguna pregunta? Consulte la [sección sobre aplicaciones móviles de la comunidad de Power BI](https://go.microsoft.com/fwlink/?linkid=839277)
+* ¿Preguntas? Consulte la [sección sobre aplicaciones móviles de la comunidad de Power BI](https://go.microsoft.com/fwlink/?linkid=839277)

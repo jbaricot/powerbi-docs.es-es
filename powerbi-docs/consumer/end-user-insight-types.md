@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4870fac504f36600c13af49c5798d896eeb59261
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113152"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de información compatibles con Power BI
@@ -51,7 +51,7 @@ Resalta cuando hay cambios significativos en las tendencias de datos de una seri
 
 ![Ejemplo de cambio de puntos de una serie temporal](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
-### <a name="correlation"></a>Correlación
+### <a name="correlation"></a>Correlation
 Detecta los casos en los que varias medidas muestran un patrón o una tendencia similar cuando se trazan sobre una categoría o un valor del conjunto de datos.
 
 ![Ejemplo de correlación](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
