@@ -10,10 +10,10 @@ ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273349"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Ejecución de scripts de Python en Power BI Desktop
@@ -50,7 +50,7 @@ Para habilitar la creación de scripts de Python:
 
    En la imagen anterior, la ruta de instalación local de Python es *C:\Python*. Asegúrese de que la ruta sea de la instalación local de Python que quiere que use Power BI Desktop.
 
-1. Seleccione **Aceptar**.
+1. Haga clic en **Aceptar**.
 
 Después de especificar la instalación de Python, ya puede empezar a ejecutar scripts de Python en Power BI Desktop.
 
@@ -100,7 +100,7 @@ Para ejecutar el script de Python en Power BI Desktop:
 
    ![Script de Python de ejemplo](media/desktop-python-scripts/python-scripts-6.png)
 
-1. Seleccione **Aceptar**. Si el script se ejecuta correctamente, aparecerá **Navegador** y podrá cargar los datos y usarlos. En el ejemplo, seleccione **df**, tal como se muestra en la imagen y, después, seleccione **Cargar**.
+1. Haga clic en **Aceptar**. Si el script se ejecuta correctamente, aparecerá **Navegador** y podrá cargar los datos y usarlos. En el ejemplo, seleccione **df**, tal como se muestra en la imagen y, después, seleccione **Cargar**.
 
    ![Navegador que muestra los datos que se van a cargar y usar](media/desktop-python-scripts/python-scripts-5.png) 
 
@@ -118,7 +118,7 @@ Se recomienda usar la distribución de Python oficial de https://www.python.org/
 
 Como posible solución, puede iniciar Power BI Desktop desde el símbolo del sistema de Python personalizado.
 
-### <a name="refresh"></a>Actualizar
+### <a name="refresh"></a>Refresh
 
 Puede actualizar un script de Python en Power BI Desktop. Para actualizarlo, vaya a la cinta **Inicio** y seleccione **Actualizar**. Al actualizar un script de Python, Power BI Desktop vuelve a ejecutarlo.
 

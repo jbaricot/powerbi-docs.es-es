@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
 ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79492845"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capacidad y SKU de los análisis incrustados de Power BI
@@ -112,8 +112,8 @@ En esta tabla se proporciona un resumen de las características, la capacidad re
 <td style="text-align: center">✔</td>
 </tr>
 <tr>
-<td rowspan="3">Contenido de Power BI<br>(con una licencia gratuita de Power BI)</td>
-<td>Servicio Power BI</td>
+<td rowspan="3">Power BI content<br>(con una licencia gratuita de Power BI)</td>
+<td>Servicio Power BI</td>
 <td style="text-align: center">✖</td>
 <td style="text-align: center">✖</td>
 <td style="text-align: center">✔</td>
@@ -147,7 +147,7 @@ En la tabla siguiente se enumeran las consideraciones sobre el pago y uso por ca
 </tr>
 <tr>
 <td><p><strong>Oferta</strong></p></td>
-<td style="text-align: center;"><p>Azure</p></td>
+<td style="text-align: center;"><p>Celeste</p></td>
 <td style="text-align: center;" colspan="2"><p>Office</p></td>
 </tr>
 <tr>
@@ -164,7 +164,7 @@ En la tabla siguiente se enumeran las consideraciones sobre el pago y uso por ca
 </tr>
 <tr>
 <td><p><strong>Asignación</strong></td>
-<td style="text-align: center;">Ninguno</td>
+<td style="text-align: center;">ninguno</td>
 <td style="text-align: center;">Anualmente</td>
 <td style="text-align: center;">Mensual o anual</td>
 </tr>
@@ -184,10 +184,10 @@ En la tabla siguiente se describen los recursos y los límites de cada SKU.
 
 | Nodos de capacidad | Total de núcleos virtuales | Núcleos virtuales de back-end | RAM (GB) | Núcleos virtuales de front-end | Límites de conexiones dinámicas/DirectQuery (por segundo) | Paralelismo de actualización de modelo |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
+| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
-| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
-| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
+| EM3/A3 | T4 | 2 | 10 | 2 | 15 | T3 |
+| P1/A4 | 8 | T4 | 25 | T4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | P4 | 64 | 32 | 200 | 32 | 240 | 48 |

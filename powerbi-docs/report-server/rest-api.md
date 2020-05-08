@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874076"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Desarrollo con las API de REST para Power BI Report Server
@@ -29,7 +29,7 @@ Un par de solicitud y respuesta de la API de REST puede dividirse en cinco compo
 
 * El **identificador URI de la solicitud**, que consta de: `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`. Aunque el identificador URI de la solicitud se incluye en el encabezado del mensaje de solicitud, lo llamamos aquí por separado porque la mayoría de los lenguajes o marcos de trabajo exigen pasarla por separado del mensaje de solicitud.
   
-  * Esquema URI: indica el protocolo utilizado para transmitir la solicitud. Por ejemplo, `http` o `https`.
+  * Esquema de URI: indica el protocolo utilizado para transmitir la solicitud. Por ejemplo, `http` o `https`.
   * Host del URI: especifica el nombre de dominio o la dirección IP del servidor donde se hospeda el punto de conexión del servicio REST, como `myserver.contoso.com`.
   * Ruta de acceso del recurso: especifica el recurso o colección de recursos, que puede incluir varios segmentos utilizados por el servicio para determinar la selección de esos recursos. Por ejemplo: `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` se puede utilizar para obtener las propiedades especificadas para CatalogItem.
   * Cadena de consulta (opcional): proporciona parámetros simples adicionales, como los criterios de selección de recursos o la versión de la API.
@@ -50,7 +50,7 @@ Un par de solicitud y respuesta de la API de REST puede dividirse en cinco compo
 
 Una API de REST moderna lleva consigo una documentación de la API moderna. La API de REST se basa en la especificación OpenAPI (también conocida como la especificación de swagger) y la documentación está disponible en [SwaggerHub](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0). Más allá de la documentación de la API, SwaggerHub ayuda a generar una biblioteca de cliente en el lenguaje que elija: JavaScript, TypeScript, C#, Java, Python, Ruby y otros.
 
-## <a name="testing-api-calls"></a>Prueba de las llamadas a la API
+## <a name="testing-api-calls"></a>Probar las llamadas API
 
 [Fiddler](https://www.telerik.com/fiddler) es una herramienta para probar los mensajes de solicitud y respuesta HTTP. Fiddler es un proxy para depuración web gratuito que puede interceptar las solicitudes REST, lo que facilita el diagnóstico de los mensajes de solicitud y respuesta HTTP.
 

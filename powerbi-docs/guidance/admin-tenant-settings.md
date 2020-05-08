@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
 ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79487818"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Guía para la configuración de la administración de inquilinos
@@ -86,7 +86,7 @@ Se recomienda que asigne uno o varios grupos de seguridad. Se puede conceder _o 
 
 ![Se muestra la opción "Compartir contenido con usuarios externos".](media/admin-tenant-settings/share-content-with-external-users.png)
 
-### <a name="publish-to-web"></a>Publicar en Web
+### <a name="publish-to-web"></a>Publicar en web
 
 La característica [Publicar en Web](../service-publish-to-web.md) permite publicar informes públicos en la Web. Si se usa incorrectamente, existe el riesgo de que la información confidencial esté disponible en la Web.
 
@@ -100,7 +100,7 @@ Además, hay una opción para elegir cómo funcionan los códigos para insertar.
 
 También se recomienda que revise regularmente los [códigos para insertar de Publicar en Web](https://app.powerbi.com/admin-portal/embedCodes). Quite los códigos si provocan la publicación de información privada o confidencial.
 
-### <a name="export-data"></a>Exportar datos
+### <a name="export-data"></a>Exportación de datos
 
 Puede impedir que los usuarios exporten datos de los iconos del panel o los objetos visuales del informe.
 
@@ -126,7 +126,7 @@ Si necesita autorizar que usuarios externos editen y administren contenido, se r
 
 ![Se muestra la opción "Permitir a los usuarios externos editar y administrar el contenido de la organización".](media/admin-tenant-settings/allow-external-guest-users.png)
 
-### <a name="developer-settings"></a>Configuración de desarrollador
+### <a name="developer-settings"></a>Configuración del desarrollador
 
 Hay dos configuraciones de inquilinos relacionadas con la [inserción de contenido de Power BI](../developer/embedded/embedding.md). Son las siguientes:
 
@@ -143,5 +143,5 @@ Para obtener más información sobre este artículo, consulte los recursos sigui
 
 - [¿Qué es la administración de Power BI?](../service-admin-administering-power-bi-in-your-organization.md)
 - [Administración de Power BI en el portal de administración](../service-admin-portal.md)
-- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com)

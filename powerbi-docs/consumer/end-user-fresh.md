@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 81581b861f731ac287cc18f4ab1fdf77ab7a4e7c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040122"
 ---
 # <a name="your-content-is-up-to-date"></a>Su contenido está actualizado
@@ -55,7 +55,7 @@ En la pantalla de la aplicación, se muestra el nombre del diseñador y la fecha
     ![Dos aplicaciones y una seleccionada](media/end-user-fresh/power-bi-app.png)
 
 
-### <a name="shared-with-me"></a>Compartidos conmigo
+### <a name="shared-with-me"></a>Compartido conmigo
 En la pantalla **Compartidos conmigo**, se muestra el nombre del propietario del contenido, así como la fecha en la que se ha compartido por última vez el contenido con el usuario.
 
 ![Pantalla Compartidos conmigo donde se muestran la fecha de modificación y el propietario](media/end-user-fresh/power-bi-share.png) 
@@ -64,7 +64,7 @@ En la pantalla **Compartidos conmigo**, se muestra el nombre del propietario del
 ## <a name="how-to-look-up-the-last-refresh-date"></a>Búsqueda de la fecha de la última actualización
 Si le interesa, puede buscar la fecha de la última actualización de la mayoría del contenido. 
 
-### <a name="dashboard-tiles"></a>Los iconos de panel
+### <a name="dashboard-tiles"></a>Iconos de panel
 En el caso de los iconos del panel, visualice el icono en el modo de enfoque para ver la marca de tiempo de la última actualización.
 
 1. En un icono del panel, seleccione **Más opciones** (…) y haga clic en **Abrir en modo de enfoque**.

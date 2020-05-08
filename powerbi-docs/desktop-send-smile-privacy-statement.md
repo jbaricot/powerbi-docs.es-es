@@ -10,15 +10,15 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 39fa082133b519feab004f475110a3a701ff085c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73876114"
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop Enviar una sonrisa Declaración de privacidad
 
-A partir de la versión de marzo de 2018 de **Power BI Desktop**, la generación de informes de errores usa la plataforma Informe de errores de Windows en lugar de usar la funcionalidad *Enviar una sonrisa* o *Enviar una desaprobación*. Puede obtener más información sobre la plataforma Informe de errores de Windows en el [blog de privacidad de Windows](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/). 
+A partir de la versión de marzo de 2018 de **Power BI Desktop**, la generación de informes de errores usa la plataforma Informe de errores de Windows en lugar de usar la funcionalidad *Enviar una sonrisa* o *Enviar un ceño fruncido*. Puede obtener más información sobre la plataforma Informe de errores de Windows en el [blog de privacidad de Windows](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/). 
 
 ## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>Para las versiones de Power BI Desktop anteriores a marzo de 2018
 

@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: ea6d4186d2f02665201f2161f50e06ad8f0f45a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699415"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Administrar el origen de datos: Analysis Services
@@ -27,7 +27,7 @@ Para obtener más información sobre cómo configurar una conexión dinámica a 
 > [!NOTE]
 > Si tiene un origen de datos de Analysis Services, deberá instalar la puerta de enlace en un equipo unido al mismo bosque o dominio que el servidor de Analysis Services.
 
-## <a name="add-a-data-source"></a>Elegir un origen de datos
+## <a name="add-a-data-source"></a>Agregar un origen de datos
 
 Para obtener información sobre cómo agregar un origen de datos, vea [Adición de un origen de datos](service-gateway-data-sources.md#add-a-data-source). Seleccione **Analysis Services** para **Tipo de origen de datos** si se conecta a un servidor tabular o multidimensional.
 
@@ -36,7 +36,7 @@ Para obtener información sobre cómo agregar un origen de datos, vea [Adición 
 Rellene la información del origen de datos, que incluye el **Servidor** y la **Base de datos**. La puerta de enlace usará la información escrita en **Nombre de usuario** y **Contraseña** para conectarse a la instancia de Analysis Services.
 
 > [!NOTE]
-> La cuenta de Windows que especifique debe tener permisos de administrador del servidor para la instancia con la que se va a conectar. Si la contraseña de la cuenta se configura para caducar, los usuarios podrían obtener un error de conexión si no se actualiza la contraseña para el origen de datos. Para más información sobre cómo se almacenan las credenciales, vea [Almacenamiento de credenciales cifradas en la nube](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
+> La cuenta de Windows que especifique debe tener permisos de administrador del servidor para la instancia con la que se va a conectar. Si la contraseña de la cuenta se configura para caducar, los usuarios podrían obtener un error de conexión si no se actualiza la contraseña para el origen de datos. Para más información sobre cómo se almacenan las credenciales, consulte [Almacenamiento de credenciales cifradas en la nube](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Rellene la configuración del origen de datos](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 
@@ -154,7 +154,7 @@ Para configurar la puerta de enlace para realizar la búsqueda de Active Directo
 
 Para crear una regla de asignación, escriba un valor para **Nombre original** y **Nuevo nombre** y, después, seleccione **Agregar**.
 
-| Campo | Descripción |
+| Campo | Description |
 | --- | --- |
 | Reemplazar (nombre original) |La dirección de correo electrónico que usó para iniciar sesión en Power BI. |
 | Por (nuevo nombre) |Valor por el que se desea reemplazarla. El resultado de la sustitución es lo que se pasará a la propiedad EffectiveUserName para la conexión de Analysis Services. |
@@ -223,7 +223,7 @@ Es posible que no sepa cuál es su UPN y que no sea un administrador de dominio.
 
 El resultado es similar a una dirección de correo electrónico, pero se trata del UPN de la cuenta de dominio. Si usa un origen de datos de Analysis Services para las conexiones dinámicas, y si este UPN no coincide con la dirección de correo electrónico utilizada para iniciar sesión en Power BI, puede consultar la sección sobre [asignación de nombres de usuario](#map-user-names-for-analysis-services-data-sources).
 
-## <a name="synchronize-an-on-premises-active-directory-with-azure-ad"></a>Sincronización de un servidor de Active Directory local con Azure AD
+## <a name="synchronize-an-on-premises-active-directory-with-azure-ad"></a>Sincronización de una instancia de Active Directory local con Azure AD
 
 Si tiene previsto usar las conexiones dinámicas de Analysis Services, las cuentas de Active Directory locales deben coincidir con Azure AD. El UPN debe coincidir entre las cuentas.
 

@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205881"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Objetos y propiedades de objetos visuales de Power BI
@@ -202,7 +202,7 @@ Las propiedades de `enumerateObjectInstances` reflejan las propiedades que ha de
 
 El selector de `enumerateObjectInstances` determina dónde se enlaza cada objeto en el elemento dataView. Hay cuatro opciones disponibles.
 
-#### <a name="static"></a>static
+#### <a name="static"></a>estática
 
 Este objeto se enlaza a los metadatos `dataviews[index].metadata.objects`, como se muestra aquí.
 

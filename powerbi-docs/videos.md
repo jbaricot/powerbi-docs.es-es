@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
 ms.openlocfilehash: 41a0d100817f23d3a395f05cefbe60a0214bfb59
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78260862"
 ---
 # <a name="power-bi-videos"></a>Vídeos de Power BI
@@ -31,7 +31,7 @@ Puede comenzar con algunos vídeos de esa lista de reproducción.
   
   <iframe width="560" height="315" src="https://www.youtube.com/embed/07uBWhaCo78" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-* Power BI para desarrolladores
+* Power BI para desarrolladores
   <iframe width="560" height="315" src="https://www.youtube.com/embed/47uXJW1GIUY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
 
 ## <a name="watch-some-of-our-new-uploads"></a>Vea algunas de nuestras nuevas cargas

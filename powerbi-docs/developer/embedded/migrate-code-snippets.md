@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114493"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para migrar contenido de la colección de áreas de trabajo de Power BI
@@ -23,7 +23,7 @@ Puede usar una **herramienta de migración** con el fin de ayudar a copiar el co
 
 El código siguiente son ejemplos con C# y el [SDK de .NET para Power BI](https://www.nuget.org/profiles/powerbi).
 
-Asegúrese de usar los espacios de nombres siguientes para ejecutar estos fragmentos de código.
+Asegúrese de utiliza los espacios de nombres siguientes para ejecutar los fragmentos de código de abajo.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;

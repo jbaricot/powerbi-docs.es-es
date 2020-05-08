@@ -12,10 +12,10 @@ ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040167"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Inicio rápido: Moverse por el servicio Power BI
@@ -26,7 +26,7 @@ Ahora que ya conocemos los conceptos básicos de Power BI, echemos un vistazo a
  
 ## <a name="prerequisites"></a>Requisitos previos
 
-- Si no está registrado en Power BI, [regístrese para obtener una evaluación gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
+- Si no está registrado para Power BI, [registrarse para obtener una versión de prueba gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
 
 - Leer los [conceptos básicos del servicio Power BI](end-user-basic-concepts.md).
 
@@ -127,12 +127,12 @@ Para obtener más información, consulte [Favoritos](end-user-favorite.md).
 Para más información, consulte [Contenido reciente en el servicio Power BI](end-user-recent.md)
 
 ### <a name="search-and-sort-content"></a>Buscar y ordenar contenido
-Si empieza a usar el servicio Power BI por primera vez, solo tendrá algunos elementos de contenido. Sin embargo, a medida que sus compañeros empiecen a compartir contenido con usted, y usted empiece a descargar aplicaciones, puede que acabe teniendo extensas listas de contenido. En ese momento verá que las opciones de búsqueda y ordenación le son de gran utilidad.
+Si empieza a usar el servicio Power BI por primera vez, solo tendrá algunos elementos de contenido. Sin embargo, a medida que los compañeros comiencen a compartir contenido con usted y empiece a descargar aplicaciones, puede acabar con largas listas de contenido. En este momento encontrará las funciones de búsqueda y ordenación muy útiles.
 
-La búsqueda está disponible desde casi cualquier parte del servicio Power BI. Para usarla, solo tiene que localizar el cuadro de búsqueda o el icono de lupa.    
+La búsqueda está disponible en casi todas las partes del servicio Power BI. Para usarla, solo tiene que localizar el cuadro de búsqueda o el icono de lupa.    
 ![Icono de lupa](./media/end-user-experience/power-bi-search-icon.png)
 
-En el campo Búsqueda, escriba el nombre completo (o una parte) de un panel, un informe, un libro de trabajo, una aplicación o un propietario. Power BI realizará una búsqueda en todo el contenido.
+En el campo de búsqueda, escriba parte del nombre o el nombre completo de un panel, un informe, un libro o un propietario. Power BI realizará una búsqueda en todo el contenido.
 
 ![búsqueda de un informe](./media/end-user-experience/power-bi-search-field.png)
 
