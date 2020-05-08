@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 218a05c41c3befed8f8600f6a584560f5be92a1f
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 4ce9946672514d3d3f181c573789b256888a4372
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709597"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82584846"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>Especificación de categorías de datos en Power BI Desktop
 En Power BI Desktop, puede especificar la *categoría de datos* para una columna, de manera que Power BI Desktop sepa cómo debe tratar sus valores en una visualización.
@@ -33,7 +33,7 @@ Sin embargo, existen algunos casos que son un poco más difíciles, como la ubic
 **Para especificar una categoría de datos**
 
 1. En las vistas **Informes** o **Datos**, en la lista **Campos**, seleccione el campo que quiera ordenar por una categorización diferente.
-2. En la cinta de opciones, en el área **Propiedades** de la pestaña **Modelado**, seleccione la flecha desplegable situada junto a **Categoría de datos**.  De esta forma, se muestra la lista de categorías de datos que puede elegir para la columna. Algunas selecciones pueden deshabilitarse si no funcionan con el tipo de datos actual de la columna.  Por ejemplo, si una columna es un tipo de datos binarios, Power BI Desktop no le permitirá elegir categorías de datos geográficos. 
+2. En la cinta de opciones, en el área **Propiedades** de la pestaña **Modelado**, seleccione la flecha desplegable situada junto a **Categoría de datos**.  De esta forma, se muestra la lista de categorías de datos que puede elegir para la columna. Algunas selecciones pueden deshabilitarse si no funcionan con el tipo de datos actual de la columna.  Por ejemplo, si una columna es un tipo de fecha y hora, Power BI Desktop no le permitirá elegir categorías de datos geográficos. 
 3. Seleccione la categoría que quiera.
 
    ![](media/desktop-data-categorization/desktop-data-categorization.png)

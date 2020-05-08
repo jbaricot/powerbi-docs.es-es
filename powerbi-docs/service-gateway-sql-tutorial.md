@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958454"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Actualización de los datos desde una base de datos local de SQL Server
@@ -48,7 +48,7 @@ Use el procedimiento siguiente para crear un informe básico de Power BI con la 
 
 2. En el cuadro de diálogo **Base de datos de SQL Server**, escriba los nombres del **Servidor** y la **Base de datos (opcional)** , asegúrese de que el **Modo Conectividad de datos** sea **Importar** y después seleccione **Aceptar**.
 
-    ![Base de datos SQL Server](./media/service-gateway-sql-tutorial/sql-server-database.png)
+    ![Base de datos SQL Server](./media/service-gateway-sql-tutorial/sql-server-database.png)
 
     No usamos **Opciones avanzadas** en este tutorial, pero tenga en cuenta que puede especificar una instrucción SQL y establecer otras opciones como el uso de la [conmutación por error de SQL Server](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server).
 
@@ -103,7 +103,7 @@ En Power BI Desktop, se conecta directamente a la base de datos local de SQL Ser
 
 3. Expanda **Conexión de puerta de enlace** y compruebe que aparece al menos una puerta de enlace. Si no tiene una puerta de enlace, consulte la sección [Requisitos previos](#prerequisites) anteriormente en este tutorial para obtener un vínculo a la documentación del producto a fin de instalar y configurar una puerta de enlace.
 
-    ![Conexión de puerta de enlace](./media/service-gateway-sql-tutorial/gateway-connection.png)
+    ![Conexión de la puerta de enlace](./media/service-gateway-sql-tutorial/gateway-connection.png)
 
 4. En **Acciones**, expanda el botón de alternancia para ver los orígenes de datos y seleccione el vínculo **Agregar a la puerta de enlace**.
 
@@ -114,12 +114,12 @@ En Power BI Desktop, se conecta directamente a la base de datos local de SQL Ser
 
 5. En la página de administración **Puertas de enlace**, en la pestaña **Configuración de origen de datos**, escriba y compruebe la información siguiente y seleccione **Agregar**.
 
-    | Opción | Valor |
+    | Opción | Value |
     | --- | --- |
-    | Nombre del origen de datos | AdventureWorksProducts |
-    | Tipo de origen de datos | SQL Server |
-    | Servidor | El nombre de la instancia de SQL Server, por ejemplo, SQLServer01 (debe ser idéntico al especificado en Power BI Desktop). |
-    | Base de datos | El nombre de la base de datos de SQL Server, por ejemplo, AdventureWorksDW (debe ser idéntico al especificado en Power BI Desktop). |
+    | Data Source Name | AdventureWorksProducts |
+    | Tipo de origen de datos | SQL Server |
+    | Server | El nombre de la instancia de SQL Server, por ejemplo, SQLServer01 (debe ser idéntico al especificado en Power BI Desktop). |
+    | Database | El nombre de la base de datos de SQL Server, por ejemplo, AdventureWorksDW (debe ser idéntico al especificado en Power BI Desktop). |
     | Método de autenticación | Windows o Básico (normalmente, Windows). |
     | Nombre de usuario | La cuenta de usuario que utilice para conectarse a SQL Server. |
     | Contraseña | La contraseña de la cuenta que use para conectarse a SQL Server. |

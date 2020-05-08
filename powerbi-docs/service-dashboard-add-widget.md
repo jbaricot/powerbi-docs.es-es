@@ -11,10 +11,10 @@ ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76282032"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Adición de imágenes, vídeos y mucho más al panel
@@ -226,7 +226,7 @@ Puede pegar o escribir cualquier contenido HTML, como un icono, en el informe o 
   January 30, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   ```
 
-## <a name="edit-a-tile"></a>Editar un icono
+## <a name="edit-a-tile"></a>Editar un mosaico
 Para realizar cambios en un icono existente:
 
 1. Mueva el puntero sobre la esquina superior derecha del icono y seleccione **Más opciones** (...).

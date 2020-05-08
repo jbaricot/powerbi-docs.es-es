@@ -13,10 +13,10 @@ metadata:
   ms.author: maggies
   ms.date: 02/25/2020
   ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 03/07/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "78924147"
 landingContent:
 - title: Conectarse a los datos en Power BI
@@ -57,7 +57,7 @@ landingContent:
       url: ../service-template-apps-create.md
     - text: Distribución de aplicaciones de plantilla en la organización
       url: ../service-template-apps-install-distribute.md
-- title: Actualizar datos
+- title: Actualización de datos
   linkLists:
   - linkListType: concept
     links:
@@ -67,5 +67,5 @@ landingContent:
       url: ../service-premium-incremental-refresh.md
   - linkListType: how-to-guide
     links:
-    - text: Configuración de actualización programada
+    - text: Configuración de la actualización programada
       url: ../refresh-scheduled-refresh.md

@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205927"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicación Power BI for Mixed Reality (versión preliminar)
 Vea los paneles e informes en la aplicación Power BI for Mixed Reality (versión preliminar), tanto si está inmerso en el mundo virtual como si los coloca en ubicaciones específicas en el contexto de su entorno. 
 
-[Descargue la aplicación Power BI para Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) de la Tienda Windows: En Windows Store, se llama "Power BI Mobile". Interactúe con sus paneles e informes en el mundo virtual y luego seleccione los que quiera aplicar. 
+[Descargue la aplicación Power BI for Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) desde Microsoft Store; la encontrará por el nombre "Power BI Mobile". Interactúe con sus paneles e informes en el mundo virtual y luego seleccione los que quiera aplicar. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>Dos vistas: clásica de Windows y holográfica
 

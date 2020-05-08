@@ -8,10 +8,10 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404046"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Migración de contenido de la colección de áreas de trabajo de Power BI a Power BI Embedded
@@ -45,7 +45,7 @@ Hay algunas cosas que debe hacer para preparar la migración de la colección de
     Debe determinar qué configuración de inquilino se va a usar.
 
    * ¿Se usa el inquilino de Power BI corporativo actual?
-   * ¿Se usa un inquilino independiente para la aplicación?
+   * ¿Hay que usar un inquilino independiente para la aplicación?
    * ¿Se usa un inquilino independiente para cada cliente?
 
      Si decide crear un inquilino para la aplicación o para cada cliente, consulte [Crear un inquilino de Azure Active Directory](create-an-azure-active-directory-tenant.md) u [Obtención de un inquilino de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant).
@@ -140,7 +140,7 @@ Se trata de conjuntos de datos e informes creados antes de octubre de 2016. Down
 
 **Flujo**
 
-1. Obtenga PBIX desde su entorno de desarrollo (su control de código fuente interno).
+1. Obtenga PBIX desde el entorno de desarrollo (su control de código fuente interno).
 2. Llame a Import PBIX para importar los archivos PBIX al área de trabajo de SaaS.
 
 #### <a name="push-dataset--report"></a>Informe y conjunto de datos de inserción

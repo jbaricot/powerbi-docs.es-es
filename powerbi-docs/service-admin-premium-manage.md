@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637926"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Configuración y administración de capacidades en Power BI Premium
@@ -62,7 +62,7 @@ Si tiene núcleos virtuales disponibles, puede configurar la nueva capacidad sig
 
 Los administradores de capacidad, así como los administradores de Power BI y los administradores globales de Office 365, podrán ver posteriormente la capacidad en el portal de administración.
 
-### <a name="capacity-settings"></a>Configuración de la capacidad
+### <a name="capacity-settings"></a>Configuración de capacidad
 
 1. En la pantalla de administración de la capacidad Premium, bajo **Acciones**, seleccione el **icono de engranaje** para revisar y actualizar la configuración. 
 
@@ -70,7 +70,7 @@ Los administradores de capacidad, así como los administradores de Power BI y lo
 
 1. Puede ver quiénes son los administradores del servicio, la SKU o el tamaño de la capacidad, y en qué región está.
 
-    ![Configuración de la capacidad](media/service-admin-premium-manage/capacity-settings.png)
+    ![Configuración de capacidad](media/service-admin-premium-manage/capacity-settings.png)
 
 1. También puede cambiar el nombre de una capacidad o eliminarla.
 
@@ -126,7 +126,7 @@ Los administradores de capacidad, junto con los administradores de Power BI y lo
 
     ![Asignar áreas de trabajo](media/service-admin-premium-manage/assign-workspaces.png)
 
-   | Selección | Descripción |
+   | Selection | Description |
    | --- | --- |
    | **Áreas de trabajo por usuarios** | Al asignar áreas de trabajo por usuario o grupo, todas las áreas de trabajo que pertenecen a esos usuarios se asignan a la capacidad Premium, incluida el área de trabajo personal del usuario. Estos usuarios obtendrán automáticamente permisos de asignación de área de trabajo.<br>Esto incluye las áreas de trabajo ya asignadas a una capacidad diferente. |
    | **Áreas de trabajo específicas** | Escriba el nombre de un área de trabajo específica para asignar a la capacidad seleccionada. |

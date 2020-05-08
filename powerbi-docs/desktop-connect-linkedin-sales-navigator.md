@@ -10,10 +10,10 @@ ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565639"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Conexión con LinkedIn Sales Navigator en Power BI Desktop
@@ -79,8 +79,8 @@ Puede obtener la aplicación de plantilla de **LinkedIn Sales Navigator** desde 
 
 La aplicación de plantilla proporciona cuatro pestañas que lo ayudarán a analizar y compartir la información:
 
-* Usage (Uso)
-* Buscar
+* Uso
+* Search
 * Correo electrónico
 * SSI
 
@@ -106,7 +106,7 @@ Para pasar de los datos de ejemplo a sus propios datos, seleccione **Editar apli
 
 Desde ahí, puede conectar sus propios datos y seleccionar cuántos días de datos se van a cargar. Puede cargar hasta 365 días de datos. Deberá iniciar sesión nuevamente con la misma dirección de correo electrónico que usa para iniciar sesión en LinkedIn Sales Navigator a través del sitio web. 
 
-![Iniciar sesión](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-17.png)
+![Inicio de sesión](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-17.png)
 
 La aplicación de plantilla actualiza los datos de la aplicación con sus datos. También puede configurar una actualización programada, por lo que los datos de la aplicación son tan actuales como lo especifica la frecuencia de actualización. 
 

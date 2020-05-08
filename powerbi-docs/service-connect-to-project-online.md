@@ -10,10 +10,10 @@ ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 32d731c354d848809d336392ef51f667b14427d8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565674"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Conexión a Project Web App con Power BI
@@ -37,13 +37,13 @@ Conéctese a la [aplicación de plantilla de Project Web App](https://appsource.
    ![Instalación del proyecto web](media/service-connect-to-project-online/ProjectTile.png)
 5. En el panel **Aplicaciones**, seleccione el icono **Microsoft Project Web App**. 
    
-   ![Microsoft Project Web App](media/service-connect-to-project-online/getstarted.png)
+   ![Microsoft Project Web App](media/service-connect-to-project-online/getstarted.png)
 6. En **Empezar a trabajar con la nueva aplicación**, seleccione **Conectar datos**.
    
-   ![Conectar a datos](media/service-connect-to-project-online/mproject.png)
+   ![Conexión a datos](media/service-connect-to-project-online/mproject.png)
 7. En el cuadro de texto **Dirección URL de Project Web App**, escriba la dirección URL de Project Web App (PWA) a la se que quiera conectar.  Tenga en cuenta que puede diferir del ejemplo si tiene un dominio personalizado. En el cuadro de texto **Idioma del sitio de Project Web App**, escriba el número correspondiente a su idioma del sitio de Project Web App. Escriba "1" para inglés, "2" para francés, "3" para alemán, "4" para portugués (Brasil), "5" para portugués (Portugal) y "6" para español. 
    
-   ![Conectarse a Microsoft Project Online](media/service-connect-to-project-online/params.png)
+   ![Conexión a Microsoft Project Online](media/service-connect-to-project-online/params.png)
 8. En Método de autenticación, seleccione **oAuth2** \> **Iniciar sesión**. Cuando se le solicite, escriba las credenciales de Project Web App y siga el proceso de autenticación.
 
     > [!NOTE]
