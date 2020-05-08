@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
 ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79494961"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Administración de varios inquilinos con análisis integrado de Power BI
@@ -257,4 +257,4 @@ A medida que los usuarios finales editan o crean informes, pueden usar el conjun
 * [Análisis integrado con Power BI](embedding.md)
 * [¿Qué es Power BI Embedded de Azure?](azure-pbie-what-is-power-bi-embedded.md)
 * [Power BI Premium](../../service-premium-what-is.md)
-* [Uso de la seguridad de nivel de fila con contenido insertado de Power BI](embedded-row-level-security.md)
+* [Seguridad de nivel de fila](embedded-row-level-security.md)

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: maggies
 ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979854"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI en Power BI Report Server
@@ -52,14 +52,14 @@ Otros orígenes de datos pueden funcionar aunque no estén en la lista de admiti
 | Impala |Sí |No |No |
 | JSON |Sí |Sí |No |
 | Microsoft Exchange |Sí |No |No |
-| Microsoft Exchange Online |Sí |No |No |
+| Microsoft Exchange Online |Sí |No |No |
 | Base de datos de MySQL |Sí |Sí |No |
 | Fuente de OData |Sí |Sí |No |
 | ODBC |Sí |Sí |No |
 | OLE DB |Sí |Sí |No |
 | Base de datos de Oracle |Sí |Sí |Sí |
 | Base de datos de PostgreSQL |Sí |Sí |No |
-| Servicio Power BI |No |No |No |
+| Servicio Power BI |No |No |No |
 | Script R |Sí |No |No |
 | Objetos de Salesforce |Sí |No |No |
 | Informes de Salesforce |Sí |No |No |
@@ -70,17 +70,17 @@ Otros orígenes de datos pueden funcionar aunque no estén en la lista de admiti
 | Lista de SharePoint Online |Sí |No |No |
 | Snowflake |Sí |No |No |
 | Base de datos de Sybase |Sí |Sí |No |
-| Teradatos |Sí |Sí |Sí |
+| Teradata |Sí |Sí |Sí |
 | Texto o CSV |Sí |Sí |No |
 | Web |Sí |Sí |No |
 | XML |Sí |Sí |No |
 | appFigures (Beta) |Sí |No |No |
 | Base de datos de Azure Analysis Services |Sí |No |Sí |
-| Azure Cosmos DB (Beta) |Sí |No |No |
+| Azure Cosmos DB (beta) |Sí |No |No |
 | Azure HDInsight Spark (Beta) |Sí |No |No |
 | Common Data Service (Beta) |Sí |No |No |
 | comScore Digital Analytix (beta) |Sí |No |No |
-| Dynamics 365 for Customer Insights (Beta) |Sí |No |No |
+| Dynamics 365 para Customer Insights (Beta) |Sí |No |No |
 | Dynamics 365 for Financials (Beta) |Sí |No |No |
 | GitHub (Beta) |Sí |No |No |
 | Google BigQuery (beta) |Sí |No |No |
@@ -138,14 +138,14 @@ Power BI Report Server no admite la autenticación basada en OAuth para la actua
 | Base de datos IBM DB2 |No |No |Sí |Sí |
 | Impala |No |No |No |No |
 | Microsoft Exchange |No |No |No |No |
-| Microsoft Exchange Online |No |No |No |No |
+| Microsoft Exchange Online |No |No |No |No |
 | Base de datos de MySQL |No |No |Sí |Sí |
 | Fuente de OData |Sí |Sí |Sí |Sí |
 | ODBC |Sí |No |Sí |Sí |
 | OLE DB |Sí |No |Sí |Sí |
 | Base de datos de Oracle |No |No |Sí |Sí |
 | Base de datos de PostgreSQL |No |No |Sí |No |
-| Servicio Power BI |No |No |No |No |
+| Servicio Power BI |No |No |No |No |
 | Script R |No |No |No |No |
 | Objetos de Salesforce |No |No |No |No |
 | Informes de Salesforce |No |No |No |No |
@@ -156,14 +156,14 @@ Power BI Report Server no admite la autenticación basada en OAuth para la actua
 | Lista de SharePoint Online |No |No |No |No |
 | Snowflake |No |No |No |No |
 | Base de datos de Sybase |No |No |Sí |Sí |
-| Teradatos |No |No |Sí |Sí** |
+| Teradata |No |No |Sí |Sí** |
 | appFigures (Beta) |No |No |No |No |
 | Base de datos de Azure Analysis Services (Beta) |No |No |No |No |
-| Azure Cosmos DB (Beta) |No |No |No |No |
+| Azure Cosmos DB (beta) |No |No |No |No |
 | Azure HDInsight Spark (Beta) |No |No |No |No |
 | Common Data Service (Beta) |No |No |No |No |
 | comScore Digital Analytix (beta) |No |No |No |No |
-| Dynamics 365 for Customer Insights (Beta) |No |No |No |No |
+| Dynamics 365 para Customer Insights (Beta) |No |No |No |No |
 | Dynamics 365 for Financials (Beta) |No |No |No |No |
 | GitHub (Beta) |No |No |No |No |
 | Google BigQuery (beta) |No |No |No |No |
@@ -205,7 +205,7 @@ Power BI Report Server no admite la autenticación basada en OAuth para DirectQu
 | Base de datos de Oracle |No |No |Sí |Sí |Sí |
 | Servidor de SAP Business Warehouse |No |No |Sí |No |No |
 | Base de datos SAP HANA |No |No |Sí |Sí |Sí** |
-| Teradatos |No |No |Sí |Sí |Sí |
+| Teradata |No |No |Sí |Sí |Sí |
 
 ** SAP HANA admite DirectQuery con la autenticación integrada de Windows solo cuando se usa como base de datos relacional en el archivo de Power BI Desktop publicado (.pbix).
 

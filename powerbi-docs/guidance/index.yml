@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: eecccb15eb48e922fd6b29e703a2bc4f298caa6e
-  ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+  ms.openlocfilehash: 2aba7eb9ff9fbd6941c84a9f3db10758724cdb0c
+  ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 04/16/2020
-  ms.locfileid: "81525362"
+  ms.lasthandoff: 05/05/2020
+  ms.locfileid: "82841588"
 landingContent:
 - title: Guía de Power BI
   linkLists:
@@ -28,7 +28,7 @@ landingContent:
     - text: Guía de optimización para Power BI
       url: power-bi-optimization.md
     - text: Información general sobre las notas del producto
-      url: ../whitepapers.md
+      url: whitepapers.md
 - title: Transformar y dar forma a los datos
   linkLists:
   - linkListType: concept
@@ -53,7 +53,7 @@ landingContent:
       url: auto-date-time.md
     - text: Relaciones uno a uno
       url: relationships-one-to-one.md
-    - text: Relaciones de varios a varios
+    - text: Relaciones varios a varios
       url: relationships-many-to-many.md
     - text: Relaciones activas frente a inactivas
       url: relationships-active-inactive.md

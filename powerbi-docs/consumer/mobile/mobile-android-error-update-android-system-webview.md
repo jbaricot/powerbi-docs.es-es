@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 82005eb448164b863811ab78a8f76ed954da60a2
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114551"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>Corrección del problema de "need to update Android System Webview" (Debe actualizar Android System Webview)
@@ -30,5 +30,5 @@ Realmente necesita actualizar la aplicación Chrome.
 ## <a name="next-steps"></a>Pasos siguientes
 * [Descarga de la aplicación Android](https://go.microsoft.com/fwlink/?LinkID=544867) desde la tienda de aplicaciones Android.
 * [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+* ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

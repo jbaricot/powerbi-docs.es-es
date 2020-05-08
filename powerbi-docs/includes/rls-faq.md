@@ -1,12 +1,12 @@
 ---
 ms.openlocfilehash: cd0696b44e285119193059304c89cfa04c755771
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "71409385"
 ---
-## <a name="faq"></a>PREGUNTAS MÁS FRECUENTES
+## <a name="faq"></a>Preguntas frecuentes
 **Pregunta:** ¿Qué ocurre si tengo roles y reglas creados previamente para un conjunto de datos en el servicio Power BI? ¿Seguirán funcionando si no hago nada?  
 **Respuesta:** No, los objetos visuales no se representarán correctamente. Tendrá que volver a crear los roles y las reglas en Power BI Desktop y, después, publicarlos en el servicio Power BI.
 

@@ -99,6 +99,14 @@
               href: ../paginated-reports/report-builder-previewing-reports.md
             - name: Preguntas frecuentes sobre los informes paginados
               href: ../paginated-reports/paginated-reports-faq.md
+        - name: Canalizaciones de implementación
+          items:
+            - name: Introducción a las canalizaciones de implementación
+              href: deployment-pipelines-overview.md
+            - name: comprender el proceso de implementación
+              href: deployment-pipelines-process.md
+            - name: Procedimientos recomendados
+              href: deployment-pipelines-best-practices.md
     - name: Guías paso a paso
       items:
         - name: Informes de Power BI
@@ -121,22 +129,20 @@
               href: ../desktop-buttons.md
             - name: Creación de botones de obtención de detalles
               href: ../desktop-drill-through-buttons.md
+            - name: Uso de la característica de obtención de detalles
+              href: ../desktop-drillthrough.md
+            - name: Uso de la característica de obtención de detalles de informes cruzados
+              href: ../desktop-cross-report-drill-through.md
             - name: Creación de marcadores para guardar y compartir las conclusiones
               href: ../desktop-bookmarks.md
             - name: Trabajo con temas de informes
               href: ../desktop-report-themes.md
             - name: Trabajo con filtros en informes
               href: ../power-bi-report-filter.md
-            - name: Uso de la característica de obtención de detalles
-              href: ../desktop-drillthrough.md
-            - name: Uso de la característica de obtención de detalles de informes cruzados
-              href: ../desktop-cross-report-drill-through.md
+            - name: Agregar un filtro a un informe
+              href: ../power-bi-report-add-filter.md
             - name: Aplicación de la agrupación y discretización
               href: ../desktop-grouping-and-binning.md
-            - name: "Creación de objetos visuales de Power\_BI con R"
-              href: ../desktop-r-visuals.md
-            - name: "Descarga y uso de objetos visuales de Power\_BI con tecnología de R"
-              href: ../desktop-r-powered-custom-visuals.md
             - name: Aplicación de líneas de la cuadrícula y ajustar a la cuadrícula
               href: ../desktop-gridlines-snap-to-grid.md
             - name: Aplicación de la configuración de presentación de página en informes
@@ -153,6 +159,8 @@
               href: ../desktop-slicer-numeric-range.md
             - name: Segmentaciones y filtros de fecha relativa
               href: ../visuals/desktop-slicer-filter-date-range.md
+            - name: Segmentaciones y filtros de tiempo relativo
+              href: slicer-filter-relative-time.md
             - name: Creación de una segmentación de datos cuyo tamaño se pueda cambiar
               href: ../power-bi-slicer-filter-responsive.md
             - name: Adición de varios campos a una segmentación
@@ -189,8 +197,6 @@
               href: ../desktop-templates.md
             - name: Creación de un informe a partir de un conjunto de datos
               href: ../service-report-create-new.md
-            - name: Agregar un filtro a un informe
-              href: ../power-bi-report-add-filter.md
             - name: Almacenamiento del informe
               href: ../service-report-save.md
             - name: Interacción con un informe en la vista de edición
@@ -201,6 +207,8 @@
               href: ../service-aggregates.md
             - name: Creación de un código QR para un informe
               href: ../service-create-qr-code-for-report.md
+            - name: Posibilidad de que los consumidores personalicen objetos visuales (versión preliminar)
+              href: power-bi-personalize-visuals.md
             - name: Exportación de un informe a Power BI Desktop (versión preliminar)
               href: ../service-export-to-pbix.md
             - name: Publicación de conjuntos de datos e informes
@@ -267,6 +275,10 @@
               href: ../visuals/power-bi-visualization-powerapp.md
             - name: Objetos visuales de R
               href: ../visuals/service-r-visuals.md
+            - name: "Creación de objetos visuales de Power\_BI con R"
+              href: ../desktop-r-visuals.md
+            - name: "Descarga y uso de objetos visuales de Power\_BI con tecnología de R"
+              href: ../desktop-r-powered-custom-visuals.md
             - name: Gráficos de medidor radial
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: Gráficos de la barra de herramientas
@@ -371,6 +383,12 @@
               href: ../service-data-classification.md
             - name: Temas de panel
               href: ../service-dashboard-themes.md
+        - name: Canalizaciones de implementación
+          items:
+            - name: Comenzar
+              href: deployment-pipelines-get-started.md
+            - name: Solución de problemas
+              href: deployment-pipelines-troubleshooting.md
         - name: Otras tareas
           items:
             - name: Cambio del nombre del contenido

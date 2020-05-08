@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435338"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Filtrar un informe por ubicación geográfica en las aplicaciones móviles de Power BI
@@ -19,7 +19,7 @@ Se aplica a:
 
 | ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Teléfono Android](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Tableta Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Teléfono Windows](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Teléfonos Android |Tabletas Android |Teléfonos con Windows 10 |
+| iPhones |iPad |Teléfonos Android |Tabletas Android |Teléfonos con Windows 10 |
 
 Al examinar un informe de Power BI en su dispositivo móvil, ¿ve un pequeño icono de chincheta en la esquina superior derecha? Si es así, puede filtrar ese informe según su ubicación geográfica.
 
@@ -49,7 +49,7 @@ Para ver las etiquetas de ubicación, se deben cumplir estas tres condiciones.
 Obtenga más información sobre cómo [configurar el filtrado geográfico](../../desktop-mobile-geofiltering.md) en Power BI Desktop.
 
 ### <a name="next-steps"></a>Pasos siguientes
-* [Get Power BI data from the real world with the mobile apps](mobile-apps-data-in-real-world-context.md) (Obtener datos de Power BI del mundo real con las aplicaciones móviles)
+* [Conectarse a datos de Power BI procedentes del mundo real](mobile-apps-data-in-real-world-context.md) con las aplicaciones móviles
 * [Categorización de datos en Power BI Desktop](../../desktop-data-categorization.md) 
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+* ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

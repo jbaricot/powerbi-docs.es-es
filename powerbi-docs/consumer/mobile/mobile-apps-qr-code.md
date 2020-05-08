@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
 ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802081"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Detección de un código QR de Power BI desde un dispositivo móvil
@@ -20,9 +20,9 @@ Se aplica a:
 
 | ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPad](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Teléfono Android](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Tableta Android](././media/mobile-apps-qr-code/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
-|iPhone |iPad |Teléfonos Android |Tabletas Android |
+|iPhones |iPad |Teléfonos Android |Tabletas Android |
 
-Los códigos QR de Power BI pueden conectar  cualquier elemento del mundo real directamente con información de BI relacionada &#151; no es necesario realizar ninguna exploración o búsqueda.
+Los códigos QR de Power BI pueden conectar  cualquier elemento del mundo real directamente con información de BI relacionada & #151; no es necesario realizar ninguna exploración o búsqueda.
 
 Suponga que un compañero ha [creado un código QR en el servicio Power BI](../../service-create-qr-code-for-tile.md) para un informe o para un icono en un panel, ha compartido el panel o el informe con usted y ha colocado dicho código en una ubicación clave, por ejemplo, en un mensaje de correo o en un elemento concreto. 
 
@@ -74,9 +74,9 @@ Si su compañero no ha compartido el panel o informe con usted, puede solicitar 
 2. Si no tiene instalada la aplicación Power BI, se le redirigirá a [Google Play para descargarla](https://go.microsoft.com/fwlink/?LinkID=544867). 
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Get Power BI data from the real world with the mobile apps](mobile-apps-data-in-real-world-context.md) (Obtener datos de Power BI del mundo real con las aplicaciones móviles)
+* [Conectarse a datos de Power BI procedentes del mundo real](mobile-apps-data-in-real-world-context.md) con las aplicaciones móviles
 * [Crear un código QR para un icono en el servicio Power BI](../../service-create-qr-code-for-tile.md)
 * [Crear un código QR para un informe en el servicio Power BI](../../service-create-qr-code-for-report.md)
 * También puede [escanear un código QR con la aplicación Power BI for Mixed Reality](mobile-mixed-reality-app.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+* ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 
