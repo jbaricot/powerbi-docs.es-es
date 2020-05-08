@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79079678"
 ---
 # <a name="dataset-properties"></a>Propiedades del conjunto de datos
@@ -24,54 +24,54 @@ La v1 actual de la API de conjuntos de datos solo permite crear un conjunto de d
 
 ## <a name="dataset"></a>Conjunto de datos
 
-Nombre  |Tipo  |Descripción  |Solo lectura  |Requerido
+Nombre  |Tipo  |Description  |Solo lectura  |Obligatoria
 ---------|---------|---------|---------|---------
-id     |  GUID       | Identificador único de todo el sistema para el conjunto de datos.        | Verdadero        | False        
-name     | Cadena        | Nombre definido por el usuario del conjunto de datos.        | False        | Verdadero        
-tables     | Tabla[]        | Colección de tablas.        |  False       | False        
-relationships     | Relación[]        | Colección de relaciones entre tablas.        | False        |  False  
-defaultMode     | Cadena        | Determina si el conjunto de datos se inserta, se transmite, o ambas posibilidades, con los valores de "Push" y "Streaming".         | False        |  False
+id.     |  GUID       | Identificador único de todo el sistema para el conjunto de datos.        | True        | Falso        
+nombre     | Cadena        | Nombre definido por el usuario del conjunto de datos.        | Falso        | True        
+tables     | Tabla[]        | Colección de tablas.        |  Falso       | Falso        
+relationships     | Relación[]        | Colección de relaciones entre tablas.        | Falso        |  Falso  
+defaultMode     | Cadena        | Determina si el conjunto de datos se inserta, se transmite, o ambas posibilidades, con los valores de "Push" y "Streaming".         | Falso        |  Falso
 
 ## <a name="table"></a>Tabla
 
-Nombre  |Tipo  |Descripción  |Solo lectura  |Requerido
+Nombre  |Tipo  |Description  |Solo lectura  |Obligatoria
 ---------|---------|---------|---------|---------
-name     | Cadena        |  Nombre definido por el usuario de la tabla. También se usa como identificador de la tabla.       | False        |  Verdadero       
-columns     |  columna[]       |  Colección de columnas.       | False        |  Verdadero       
-measures     | medida[]        |  Colección de medidas.       | False        |  False       
-isHidden     | Booleano        | Si es true, se ocultará la tabla de las herramientas cliente.        | False        | False        
+nombre     | Cadena        |  Nombre definido por el usuario de la tabla. También se usa como identificador de la tabla.       | Falso        |  True       
+columns     |  columna[]       |  Colección de columnas.       | Falso        |  True       
+measures     | medida[]        |  Colección de medidas.       | Falso        |  Falso       
+isHidden     | Boolean        | Si es true, se ocultará la tabla de las herramientas cliente.        | Falso        | Falso        
 
 ## <a name="column"></a>Columna
 
-Nombre  |Tipo  |Descripción  |Solo lectura  |Requerido
+Nombre  |Tipo  |Description  |Solo lectura  |Obligatoria
 ---------|---------|---------|---------|---------
-name     |  Cadena        | Nombre definido por el usuario de la columna.        |  False       | Verdadero       
-dataType     |  Cadena       |  [Tipos de datos de EDM](https://msdn.microsoft.com/library/ee382832.aspx) y restricciones compatibles. Vea [Restricciones de tipo de datos](#data-type-restrictions).      |  False       | Verdadero        
-formatString     | Cadena        | Cadena que describe cómo debe ser el formato del valor al mostrarse. Para más información sobre el formato de cadena, vea [FORMAT_STRING, contenido](https://msdn.microsoft.com/library/ms146084.aspx).      | False        | False        
-sortByColumn    | Cadena        |   Nombre de cadena de una columna de la misma tabla que se va a usar para ordenar la columna actual.     | False        | False       
-dataCategory     | Cadena        |  Valor de cadena que se va a usar para la categoría de datos que describe los datos de esta columna. Algunos valores habituales son: dirección, ciudad, continente, país, imagen, URL de imagen, latitud, longitud, organización, ubicación, código postal, estado o provincia, URL de web       |  False       | False        
-isHidden    |  Booleano       |  Propiedad que indica si la columna está oculta de la vista. El valor predeterminado es false.       | False        | False        
-summarizeBy     | Cadena        |  Método de agregación predeterminado para la columna. Los valores incluyen: default, none, sum, min, max, count, average, distinctCount     |  False       | False
+nombre     |  Cadena        | Nombre definido por el usuario de la columna.        |  Falso       | True       
+dataType     |  Cadena       |  [Tipos de datos de EDM](https://msdn.microsoft.com/library/ee382832.aspx) y restricciones compatibles. Vea [Restricciones de tipo de datos](#data-type-restrictions).      |  Falso       | True        
+formatString     | Cadena        | Cadena que describe cómo debe ser el formato del valor al mostrarse. Para más información sobre el formato de cadena, vea [FORMAT_STRING, contenido](https://msdn.microsoft.com/library/ms146084.aspx).      | Falso        | Falso        
+sortByColumn    | Cadena        |   Nombre de cadena de una columna de la misma tabla que se va a usar para ordenar la columna actual.     | Falso        | Falso       
+dataCategory     | Cadena        |  Valor de cadena que se va a usar para la categoría de datos que describe los datos de esta columna. Algunos valores habituales son: dirección, ciudad, continente, país, imagen, URL de imagen, latitud, longitud, organización, ubicación, código postal, estado o provincia, URL de web       |  Falso       | Falso        
+isHidden    |  Boolean       |  Propiedad que indica si la columna está oculta de la vista. El valor predeterminado es false.       | Falso        | Falso        
+summarizeBy     | Cadena        |  Método de agregación predeterminado para la columna. Los valores incluyen: default, none, sum, min, max, count, average, distinctCount     |  Falso       | Falso
 
-## <a name="measure"></a>Medida
+## <a name="measure"></a>Medir
 
-Nombre  |Tipo  |Descripción  |Solo lectura  |Requerido
+Nombre  |Tipo  |Description  |Solo lectura  |Obligatoria
 ---------|---------|---------|---------|---------
-name     | Cadena        |  Nombre definido por el usuario de la medida.       |  False       | Verdadero        
-expression     | Cadena        | Expresión DAX válida.        | False        |  Verdadero       
-formatString     | Cadena        |  Cadena que describe cómo debe ser el formato del valor al mostrarse. Para más información sobre el formato de cadena, vea [FORMAT_STRING, contenido](https://msdn.microsoft.com/library/ms146084.aspx).       | False        | False        
-isHidden     | Cadena        |  Si es true, se ocultará la tabla de las herramientas cliente.       |  False       | False       
+nombre     | Cadena        |  Nombre definido por el usuario de la medida.       |  Falso       | True        
+expression     | Cadena        | Expresión DAX válida.        | Falso        |  True       
+formatString     | Cadena        |  Cadena que describe cómo debe ser el formato del valor al mostrarse. Para más información sobre el formato de cadena, vea [FORMAT_STRING, contenido](https://msdn.microsoft.com/library/ms146084.aspx).       | Falso        | Falso        
+isHidden     | Cadena        |  Si es true, se ocultará la tabla de las herramientas cliente.       |  Falso       | Falso       
 
 ## <a name="relationship"></a>Relación
 
-Nombre  |Tipo  |Descripción  |Solo lectura  |Requerido 
+Nombre  |Tipo  |Description  |Solo lectura  |Obligatoria 
 ---------|---------|---------|---------|---------
-name     | Cadena        | Nombre definido por el usuario de la relación. También se usa como identificador de la relación.        | False       | Verdadero        
-crossFilteringBehavior     | Cadena        |    La dirección del filtro de la relación: OneDirection (valor predeterminado), BothDirections, Automatic       | False        | False        
-fromTable     | Cadena        | Nombre de la tabla de clave externa.        | False        | Verdadero         
-fromColumn    | Cadena        | Nombre de la columna de clave externa.        | False        | Verdadero         
-toTable    | Cadena        | Nombre de la tabla de clave principal.        | False        | Verdadero         
-toColumn     | Cadena        | Nombre de la columna de clave principal.        | False        | Verdadero        
+nombre     | Cadena        | Nombre definido por el usuario de la relación. También se usa como identificador de la relación.        | Falso       | True        
+crossFilteringBehavior     | Cadena        |    La dirección de filtro de la relación: OneDirection (valor predeterminado), BothDirections, Automatic       | Falso        | Falso        
+fromTable     | Cadena        | Nombre de la tabla de clave externa.        | Falso        | True         
+fromColumn    | Cadena        | Nombre de la columna de clave externa.        | Falso        | True         
+toTable    | Cadena        | Nombre de la tabla de clave principal.        | Falso        | True         
+toColumn     | Cadena        | Nombre de la columna de clave principal.        | Falso        | True        
 
 ## <a name="data-type-restrictions"></a>Restricciones de tipos de datos
 
@@ -81,7 +81,7 @@ Tipo de datos  |Restricciones
 ---------|---------
 Int64     |   Int64.MaxValue e Int64.MinValue no están permitidos.      
 Doble     |  Double.MaxValue y Double.MinValue no están permitidos. NaN no se admite. +Infinity y -Infinity no se admiten en algunas funciones (por ejemplo, Min, Max).       
-Booleano     |   True o False.
+Boolean     |   True o False.
 Fecha y hora    |   Durante la carga de datos se cuantifican valores con fracciones de día a múltiplos enteros de 1/300 segundos (3,33 ms).      
 Cadena     |  Actualmente, se permite un máximo de 4000 caracteres por valor de cadena.
 Decimal|precisión=28, escala=4

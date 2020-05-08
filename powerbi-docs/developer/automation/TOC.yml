@@ -32,9 +32,9 @@
               href: api-dataset-properties.md
             - name: Control de versiones de modelos de datos
               href: api-data-model-versioning.md
-    - name: Procedimiento
+    - name: Procedimientos
       items:
-        - name: Configurar credenciales
+        - name: Configuración de credenciales
           href: configure-credentials.md
     - name: Referencia
       items:
@@ -46,9 +46,9 @@
           href: walkthrough-push-data-complete-code.md
     - name: Recursos
       items:
-        - name: Centro de desarrollo
+        - name: Centro para desarrolladores
           href: 'https://powerbi.microsoft.com/en-us/developers/'
-        - name: 'Repositorio Git de C# de Power BI'
+        - name: 'Repositorio Git de Power BI C#'
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: Descarga de SDK de .NET
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
