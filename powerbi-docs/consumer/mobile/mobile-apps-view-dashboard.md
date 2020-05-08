@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205536"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualización de paneles e informes en la aplicación móvil de Power BI
@@ -74,12 +74,12 @@ Simplemente gire el teléfono lateralmente para ver los paneles en modo horizont
 
 ![Vista horizontal del panel](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 
-Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del panel, y el de desplazamiento lateral para navegar por él. Y puede [pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrirlo en modo enfocado e interactuar con los datos.
+Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del panel, y el de desplazamiento lateral para navegar por él. Aún puede [pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrir el icono en el modo de enfoque e interactuar con los datos.
 
 ## <a name="view-dashboards-on-your-ipad"></a>Ver paneles en el iPad
 1. Abra la aplicación Power BI.
    
-   ¿Necesita [descargar la App para iPad](https://go.microsoft.com/fwlink/?LinkId=522062) del App Store de Apple primero?
+   ¿Necesita [descargar la aplicación de iPad](https://go.microsoft.com/fwlink/?LinkId=522062) primero?
 2. Pulse **Paneles** en la parte superior de la aplicación.  
    
    ![Página principal de paneles](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -102,7 +102,7 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
 ## <a name="view-dashboards-on-your-android-phone"></a>Visualización de paneles en el teléfono Android
 1. Abra la aplicación de Power BI en su teléfono Android e inicie sesión.
    
-   ¿Necesita [descargar la aplicación Android](https://go.microsoft.com/fwlink/?LinkID=544867) primero?
+   ¿Necesita [descargar la aplicación de Android](https://go.microsoft.com/fwlink/?LinkID=544867) primero?
 2. Pulse un panel para abrirlo.   
    
    ![Página principal de paneles](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -119,14 +119,14 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
 
 1. En el panel, puede pulsar el botón vertical **Más opciones** (...) al lado del nombre para invitar a un colega, para actualizar o para obtener información sobre el panel:
    
-   ![Menú de puntos suspensivos](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
-2. Deslice el dedo hacia arriba y hacia abajo para ver todos los [iconos del panel](mobile-tiles-in-the-mobile-apps.md). 
+   ![Menú del botón de puntos suspensivos](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
+2. Deslice un dedo hacia arriba y hacia abajo para ver todos los[ iconos del panel](mobile-tiles-in-the-mobile-apps.md). 
 3. Para volver a la página principal de paneles, pulse el nombre del panel para abrir el rastro de la ruta de exploración y, después, pulse **Mi área de trabajo**.   
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Visualización de paneles en tabletas Android
 1. Abra la aplicación Power BI en su tableta Android e inicie sesión.
    
-   ¿Necesita [descargar la aplicación Android](https://go.microsoft.com/fwlink/?LinkID=544867) primero?
+   ¿Necesita [descargar la aplicación de Android](https://go.microsoft.com/fwlink/?LinkID=544867) primero?
 2. Pulse un panel para abrirlo.   
    
    ![Página principal de paneles](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
@@ -135,15 +135,15 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
    * La notación debajo de cada nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../service-data-classification.md).
 3. En el panel, puede pulsar el botón vertical **Más opciones** (...) al lado del nombre para invitar a un colega, para actualizar o para obtener información sobre el panel:
    
-   ![Menú de puntos suspensivos](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
-4. Deslice el dedo hacia arriba y hacia abajo para ver todos los [iconos del panel](mobile-tiles-in-the-mobile-apps.md). 
+   ![Menú del botón de puntos suspensivos](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
+4. Deslice un dedo hacia arriba y hacia abajo para ver todos los[ iconos del panel](mobile-tiles-in-the-mobile-apps.md). 
    
-   Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del panel, y el de desplazamiento lateral para navegar por él. Y puede [pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrirlo en modo enfocado e interactuar con los datos.
+   Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del panel, y el de desplazamiento lateral para navegar por él. Aún puede [pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrir el icono en el modo de enfoque e interactuar con los datos.
 5. Para volver a la página principal de paneles, pulsa el nombre del panel para abrir el rastro de la ruta de exploración y, después, pulse **Mi área de trabajo**:
    
     ![Ruta de navegación](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
-    Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del panel, y el de desplazamiento lateral para navegar por él. Y puede [pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrirlo en modo enfocado e interactuar con los datos.
+    Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del panel, y el de desplazamiento lateral para navegar por él. Aún puede [pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrir el icono en el modo de enfoque e interactuar con los datos.
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>Crear una vista de teléfono de un panel en el servicio Power BI
 Si es el propietario del panel, *en el servicio Power BI* puede crear una vista del panel específicamente para teléfonos en modo vertical. 
@@ -156,5 +156,5 @@ Más información sobre [creación de una vista de teléfono de un panel](../../
 * [Descarga de la aplicación de Android](https://go.microsoft.com/fwlink/?LinkID=544867) desde Google Play  
 * [Introducción a la aplicación de Android para Power BI](mobile-android-app-get-started.md)  
 * [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+* ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

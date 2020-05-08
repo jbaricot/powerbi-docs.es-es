@@ -1,5 +1,5 @@
 ---
-title: Instalar Power BI Report Server
+title: Instalar un servidor de informes de Power BI
 description: Aprenda a instalar un servidor de informes de Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,13 +9,13 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/16/2020
 ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160613"
 ---
-# <a name="install-power-bi-report-server"></a>Instalar Power BI Report Server
+# <a name="install-power-bi-report-server"></a>Instalar un servidor de informes de Power BI
 
 Aprenda a instalar un servidor de informes de Power BI.
 
@@ -65,7 +65,7 @@ No es necesario tener un servidor de motor de base de datos de SQL Server dispon
 
 2. Seleccione **Install Power BI Report Server** (Instalar servidor de informes de Power BI).
 
-    ![Instalar Power BI Report Server](media/install-report-server/pbireportserver-install.png)
+    ![Instalar un servidor de informes de Power BI](media/install-report-server/pbireportserver-install.png)
 3. Elija una edición para instalar y seleccione **Siguiente**.
 
     ![Elegir una edición](media/install-report-server/pbireportserver-choose-edition.png)
@@ -77,7 +77,7 @@ No es necesario tener un servidor de motor de base de datos de SQL Server dispon
     En caso contrario, escriba la clave de producto que obtuvo en el servicio Power BI o en el Centro de servicio de licencias por volumen. Para más información sobre cómo conseguir la clave de producto, consulte la sección anterior [Antes de la instalación](#before-you-install).
 4. Lee y acepte los términos y condiciones de la licencia y seleccione **Siguiente**.
 
-    ![Términos de licencia](media/install-report-server/pbireportserver-eula.png)
+    ![Términos de la licencia](media/install-report-server/pbireportserver-eula.png)
 5. Debe tener un motor de base de datos disponible para almacenar la base de datos del servidor de informes. Seleccione **Siguiente** para instalar solo el servidor de informes.
 
     ![Instalar solo archivos](media/install-report-server/pbireportserver-install-files-only.png)
@@ -109,13 +109,13 @@ Para solucionar el error, puede cambiar la cuenta de servicio a Servicio de red 
 
 ![Configurar la cuenta de servicio del servidor de informes](media/install-report-server/pbireportserver-configure-account.png)
 
-Para más información, consulte [Configure the report server service account](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configurar la cuenta de servicio del servidor de informes).
+Para más información, vea [Configurar la cuenta del servicio del servidor de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager).
 
 ## <a name="windows-service"></a>Servicio de Windows
 
 Se crea un servicio de Windows como parte de la instalación. Se muestra como **Servidor de informes de Power BI**. El nombre del servicio es **PowerBIReportServer**.
 
-![Servicio de Windows del servidor de informes](media/install-report-server/pbireportserver-windows-service.png)
+![Servicio Servidor de informes de Windows](media/install-report-server/pbireportserver-windows-service.png)
 
 ![Propiedades del servicio de Windows del servidor de informes](media/install-report-server/pbireportserver-windows-service2.png)
 
@@ -123,9 +123,9 @@ Se crea un servicio de Windows como parte de la instalación. Se muestra como **
 
 Las reservas de dirección URL están compuestas por un prefijo, el nombre de host, el puerto y el directorio virtual:
 
-| Parte | Descripción |
+| Parte | Description |
 | --- | --- |
-| Prefijo |El prefijo predeterminado es HTTP. Si instaló antes un certificado de Capa de sockets seguros (SSL), el programa de instalación intenta crear reservas de dirección URL que usan el prefijo HTTPS. |
+| Prefijo |El prefijo predeterminado es HTTP. Si ha instalado anteriormente un certificado de Capa de sockets seguros (SSL), el programa de instalación intenta crear reservas de direcciones URL que usen el prefijo HTTPS. |
 | Nombre de host |El nombre de host predeterminado es un carácter comodín seguro (+). Especifica que el servidor de informes acepta cualquier solicitud HTTP en el puerto designado para cualquier nombre de host que se resuelva en el equipo, lo que incluye `https://<computername>/reportserver`, `https://localhost/reportserver` o `https://<IPAddress>/reportserver.` |
 | Puerto |El puerto predeterminado es 80. Si usa cualquier otro puerto, tiene que agregarlo explícitamente a la dirección URL al abrir el portal web en una ventana del explorador. |
 | Directorio virtual |De forma predeterminada, los directorios virtuales se crean en el formato de servidor de informes para el servicio web del servidor de informes y de informes para el portal web. Para el servicio web del servidor de informes, el directorio virtual predeterminado es **reportserver**. Para el portal web, el directorio virtual predeterminado es **reports**. |

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: kfollis
 ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74696542"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Opciones de soporte técnico de Power BI Pro y Power BI Premium
@@ -23,9 +23,9 @@ En este artículo se describen las opciones de soporte técnico disponibles para
 | --- | --- | --- | --- | --- | --- |
 | **Soporte técnico de la comunidad**: foros web en los que los usuarios pueden obtener soporte técnico de otros usuarios, así como instrucciones y procedimientos recomendados con respuestas ofrecidas por una comunidad internacional de expertos de Power BI y empleados de Microsoft. | X |   |   | Ninguno; la involucración del usuario depende del esfuerzo de cada uno. | [Comunidad de Power BI](https://community.powerbi.com) |
 | **Soporte técnico del usuario final de Power BI Pro**: soporte técnico básico para usuarios finales que crean y consumen contenido de Power BI. | X |   |   | Un día hábil. | [Sitio de soporte técnico de Power BI](https://support.powerbi.com)  |
-| **Soporte técnico para administradores de Power BI Premium**: soporte técnico para administradores que implementan y utilizan las capacidades de Power BI Premium. | X |   |   | Un día laborable o una hora, según la gravedad del caso.\* | [Sitio de soporte técnico de Power BI](https://support.powerbi.com)<br>O<br>[Centro de administración de Microsoft 365](https://portal.office.com/adminportal)<br>O<br> Teléfono |
-| **Soporte técnico para administradores de Power BI**: soporte técnico y en materia de facturación para los administradores de implementaciones de Power BI en sus organizaciones.  Para usar esta opción, debe ser un administrador de empresa de Azure Active Directory, administrador global de Office 365, administrador de servicios de Office 365 o administrador de servicios de Power BI. | X | X |   | Un día laborable o una hora, según la gravedad del caso.\* | [Centro de administración de Microsoft 365](https://portal.office.com/adminportal)<br>O<br> Teléfono |
-| **Soporte técnico Premier de Microsoft**: soporte técnico con un enfoque empresarial, con administración de cuentas, opción de soporte técnico in situ y servicios proactivos, como la optimización del entrenamiento y el rendimiento de los modelos de datos. | X | X | X | Múltiples, en función de la oferta y la gravedad del caso.\* | Responsable técnico de cuentas <br>O<br> [Centro de administración de Microsoft 365](https://portal.office.com/adminportal) |
+| **Soporte técnico para administradores de Power BI Premium**: soporte técnico para administradores que implementan y utilizan las capacidades de Power BI Premium. | X |   |   | Un día laborable o una hora, según la gravedad del caso.\* | [Sitio de soporte técnico de Power BI](https://support.powerbi.com)<br>OR<br>[Centro de administración de Microsoft 365](https://portal.office.com/adminportal)<br>OR<br> Teléfono |
+| **Soporte técnico para administradores de Power BI**: soporte técnico y en materia de facturación para los administradores de implementaciones de Power BI en sus organizaciones.  Para usar esta opción, debe ser un administrador de empresa de Azure Active Directory, administrador global de Office 365, administrador de servicios de Office 365 o administrador de servicios de Power BI. | X | X |   | Un día laborable o una hora, según la gravedad del caso.\* | [Centro de administración de Microsoft 365](https://portal.office.com/adminportal)<br>OR<br> Teléfono |
+| **Soporte técnico Premier de Microsoft**: soporte técnico con un enfoque empresarial, con administración de cuentas, opción de soporte técnico in situ y servicios proactivos, como la optimización del entrenamiento y el rendimiento de los modelos de datos. | X | X | X | Múltiples, en función de la oferta y la gravedad del caso.\* | Responsable técnico de cuentas <br>OR<br> [Centro de administración de Microsoft 365](https://portal.office.com/adminportal) |
 | | | | | | |
 
 \* El Acuerdo de Nivel de Servicio de una hora solo está disponible en _casos de gravedad A_, que requieren la justificación del impacto empresarial inmediato y directo de la interrupción del trabajo en los informes de producción existentes.

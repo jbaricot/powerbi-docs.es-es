@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
 ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381477"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizaciones en informes de Power BI
@@ -36,7 +36,7 @@ Si no está familiarizado con Power BI o necesita ponerse al día, use los vínc
 
 ## <a name="add-a-visualization-in-power-bi"></a>Agregar una visualización en Power BI
 
-[Cree visualizaciones](power-bi-report-add-visualizations-i.md) de las páginas de los informes. Examine la [lista de visualizaciones disponibles y los tutoriales disponibles sobre visualizaciones](power-bi-visualization-types-for-reports-and-q-and-a.md). 
+[Cree visualizaciones](power-bi-report-add-visualizations-i.md) de las páginas de los informes. Examine la [lista de visualizaciones disponibles y los tutoriales disponibles sobre visualizaciones.](power-bi-visualization-types-for-reports-and-q-and-a.md) 
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Cargar una visualización personalizada y usarla en Power BI
 

@@ -11,10 +11,10 @@ ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381270"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Incorporación de hipervínculos (direcciones URL) a una tabla o matriz
@@ -121,7 +121,7 @@ Otra manera de agregar hipervínculos a las tablas y matrices de Power BI es cre
    > Las direcciones URL tienen que comenzar con determinados prefijos. Para obtener una lista completa, consulte [Consideraciones y solución de problemas](#considerations-and-troubleshooting).
    > 
    
-5. En el grupo **Propiedades de informes** , seleccione la lista desplegable **Categoría de datos** y elija **Dirección URL web**. 
+5. En el grupo **Propiedades de informes**, seleccione la lista desplegable **Categoría de datos** y elija **Dirección URL web**. 
    
    ![Lista desplegable de categorías de datos en Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
 
@@ -134,21 +134,21 @@ Otra manera de agregar hipervínculos a las tablas y matrices de Power BI es cre
 
 Las direcciones URL tienen que comenzar con uno de los siguientes elementos:
 - http
-- https
+- HTTPS
 - -mailto
 - file
 - ftp
 - news
 - telnet
 
-P: ¿Puedo usar una dirección URL personalizada como hipervínculo en una tabla o matriz?    
-R: No. Puede utilizar un icono de vínculo. Si necesita texto personalizado para los hipervínculos y la lista de direcciones URL es breve, considere la posibilidad de utilizar un cuadro de texto en su lugar.
+P: ¿Puedo usar una dirección URL personalizada como un hipervínculo en una tabla o matriz?    
+A: No. Puede utilizar un icono de vínculo. Si necesita texto personalizado para los hipervínculos y la lista de direcciones URL es breve, considere la posibilidad de utilizar un cuadro de texto en su lugar.
 
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Visualizaciones en informes de Power BI](visuals/power-bi-report-visualizations.md)
 
-[Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
+[Conceptos básicos para diseñadores en el servicio Power BI](service-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

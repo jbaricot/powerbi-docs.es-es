@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
 ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76710215"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Always Encrypted en Power BI Report Server
@@ -27,7 +27,7 @@ En este momento, si un usuario tiene acceso al informe, Power BI Report Server 
 
 ### <a name="key-storage-strategies"></a>Estrategias de almacenamiento de claves
 
-|Almacenamiento  |Admitido  |
+|HDInsight  |Admitido  |
 |---------|---------|
 |Almacén de certificados de Windows | Sí |
 |Azure Key Vault | No |

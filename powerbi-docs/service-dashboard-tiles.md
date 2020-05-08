@@ -11,10 +11,10 @@ ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637871"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introducción a los iconos del panel para los diseñadores de Power BI
@@ -96,7 +96,7 @@ Al seleccionar un icono, lo que sucede después depende de cómo lo ha creado. E
 - [Creación de una tarjeta (icono grande de número) para el panel](power-bi-visualization-card.md)
 - [Introducción a los paneles para los diseñadores de Power BI](service-dashboards.md)  
 - [Actualizar datos en Power BI](refresh-data.md)
-- [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
+- [Conceptos básicos para diseñadores en el servicio Power BI](service-basic-concepts.md)
 - [Integración de iconos de Power BI en documentos de Office](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Anclado de elementos de Reporting Services en los paneles de Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
 

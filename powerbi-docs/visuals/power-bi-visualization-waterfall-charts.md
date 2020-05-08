@@ -11,10 +11,10 @@ ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74907673"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascada en Power BI
@@ -23,7 +23,7 @@ ms.locfileid: "74907673"
 
 Los gráficos de cascada muestran un total acumulado a medida que Power BI agrega y resta valores. Son útiles para comprender cómo afecta una serie de cambios positivos y negativos a un valor inicial (por ejemplo, ingresos netos).
 
-Las columnas están codificadas por color para identificar rápidamente los aumentos y las disminuciones. Las columnas de los valores inicial y final a menudo [comienzan en el eje horizontal](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "inicio en el eje horizontal"), mientras que los valores intermedios son columnas flotantes. Debido a este estilo, los gráficos de cascada también se denominan gráficos de puente.
+Las columnas están codificadas por color para identificar rápidamente los aumentos y las disminuciones. Las columnas de los valores inicial y final a menudo [comienzan en el eje horizontal](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "comenzar en el eje horizontal"), mientras que los valores intermedios son columnas flotantes. Debido a este estilo, los gráficos de cascada también se denominan gráficos de puente.
 
    > [!NOTE]
    > En este vídeo se usa una versión anterior de Power BI Desktop.
@@ -42,7 +42,7 @@ Los gráficos de cascada son una excelente opción:
 
 * Para trazar el beneficio anual de la compañía mostrando varias fuentes de ingresos y obtener la ganancia total (o pérdida).
 
-* Para ilustrar la plantilla inicial y final de su empresa en un año.
+* Para ilustrar el principio y final del número de empleados de su empresa en un año.
 
 * Para visualizar la cantidad de dinero que genera y gasta cada mes, y el saldo corriente de su cuenta.
 
@@ -73,7 +73,7 @@ Vamos a crear un gráfico de cascada que muestre la varianza de las ventas (vent
 
     ![Plantillas de visualización](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. Seleccione **Tiempo** > **MesFiscal** para agregarlo al área **Categoría**.
+1. Seleccione **Tiempo** > **FiscalMonth** para agregarlo al área **Categoría**.
 
     ![de cascada](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
