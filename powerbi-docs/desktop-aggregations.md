@@ -10,10 +10,10 @@ ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77427674"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Uso de agregaciones en Power BI Desktop
@@ -46,11 +46,11 @@ Después de crear la nueva tabla que contiene los campos deseados, en el panel *
 El cuadro de diálogo **Administrar agregaciones** muestra una fila para cada columna de la tabla, donde se puede especificar el comportamiento de la agregación. En el ejemplo siguiente, las consultas a la tabla de detalles **Sales** se redirigen internamente a la tabla de agregación **Sales Agg**. 
 
 En la lista desplegable **Resumen** del cuadro de diálogo **Administrar agregaciones**, se ofrecen los valores siguientes:
-- Recuento
+- Count
 - GroupBy
-- Max
+- Máx.
 - Mín.
-- Suma
+- Sumar
 - Contar filas de tabla
 
 ![Cuadro de diálogo Administrar agregaciones](media/desktop-aggregations/aggregations_07.jpg)
@@ -116,11 +116,11 @@ En su lugar, cree la tabla de agregación **Sales Agg**. En la tabla **Sales Agg
 
 Si las siguientes tablas de dimensiones son las que se usan con más frecuencia para las consultas con un valor de negocio alto, pueden filtrar **Sales Agg** mediante relaciones *uno a varios* o *varios a uno*.
 
-- Geografía
-- Cliente
-- Fecha
+- Geography
+- Customer
+- Date (Fecha)
 - Subcategoría de producto
-- Product Category
+- Categoría de productos
 
 La siguiente imagen muestra este modelo.
 

@@ -10,19 +10,19 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 5aed52ec232d3e603d69bfe93640187401279ff6
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75885240"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Inicio rápido: Conectarse a los datos en Power BI Desktop
 
 En este inicio rápido, se conecta a datos mediante Power BI Desktop, que es el primer paso para compilar modelos de datos y crear informes.
 
-![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
+![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
-Si no está registrado en Power BI, [regístrese para obtener una evaluación gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
+Si no está registrado para Power BI, [registrarse para obtener una versión de prueba gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -38,7 +38,7 @@ Una vez que instale Power BI Desktop, inicie la aplicación, para que se ejecut
 
 ![Power BI Desktop con lienzo en blanco](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 
-## <a name="connect-to-data"></a>Conectar a datos
+## <a name="connect-to-data"></a>Conexión a datos
 
 Con Power BI Desktop puede conectarse a muchos tipos de datos diferentes. Estos orígenes incluyen orígenes de datos básicos, como un archivo de Microsoft Excel. Puede conectarse a servicios en línea que contienen todo tipo de datos, como Salesforce, Microsoft Dynamics, Azure Blob Storage y muchos más.
 

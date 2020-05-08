@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/16/2020
+ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e44a50a6e44006c0b23b0d57917f16260fdbe2f8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114500"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82585432"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -203,30 +203,28 @@ En la imagen siguiente se muestra el mensaje que aparece al compartir con un usu
 
 ### <a name="publish-to-web"></a>Publicar en Web
 
-Los usuarios de la organización pueden publicar informes en la web. [Más información](service-publish-to-web.md). Esto hace que el informe y los datos que contiene estén disponibles para cualquier persona en la web.
+Como administrador de un inquilino de Power BI, el valor **Publicar en la web** ofrece opciones para las que los usuarios pueden crear códigos para insertar a fin de publicar informes en la web. Esta funcionalidad hace que el informe y los datos que contiene estén disponibles para cualquier persona en la web. Obtenga más información sobre cómo [publicar en la web](service-publish-to-web.md).
 
 > [!NOTE]
-> Un administrador de Power BI debe permitir la creación de nuevos códigos para insertar de publicación en web. Las organizaciones pueden tener códigos para insertar existentes. Use la página de [códigos para insertar](service-admin-portal.md#embed-codes) para revisar los informes publicados actualmente.
+> Solo los administradores de Power BI pueden permitir la creación de códigos para insertar de publicación en la web. Las organizaciones pueden tener códigos para insertar existentes. Vea la sección [Códigos para insertar](service-admin-portal.md#embed-codes) del portal de administración para revisar los informes publicados actualmente.
 
-En la imagen siguiente se muestra el menú **Archivo** de un informe cuando está habilitada la opción **Publicar en la web**.
+En la imagen siguiente se muestra el menú **Más opciones (…)** de un informe cuando está habilitada la opción **Publicar en la web**.
 
-![Publicación en web en el menú Archivo](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![Publicar en la web en el menú Más opciones](media/service-admin-portal/power-bi-more-options-publish-web.png)
 
-La configuración **Publicar en la web** proporciona opciones para las que los usuarios pueden crear códigos para insertar.
+El valor **Publicar en la web** del portal de administración proporciona opciones para las que los usuarios pueden crear códigos para insertar.
 
 ![Opción de publicación en la web](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-
-Se pide a los usuarios que se pongan en contacto con el administrador de Power BI para permitirles crear un código para insertar cuando la opción **Elegir cómo funcionan los códigos para insertar** está establecida en **Allow only existing embed codes** (Permitir solo los códigos para insertar existentes) y la opción **Publicar en la web** está **Habilitada**.
+Los administradores pueden establecer **Publicar en la web** en **Habilitado** y **Elegir cómo funcionan los códigos para insertar** en **Solo permitir códigos existentes**. En ese caso, los usuarios pueden crear códigos para insertar, pero tienen que ponerse en contacto con el administrador de Power BI para que les permita hacerlo.
 
 ![Mensaje de Publicar en la web](media/service-publish-to-web/publish_to_web_admin_prompt.png)
-
 
 Los usuarios ven diferentes opciones en la interfaz de usuario en función del valor de la opción **Publicar en la web**.
 
 |Característica |Habilitada para toda la organización |Deshabilitada para toda la organización |Grupos de seguridad específicos   |
 |---------|---------|---------|---------|
-|**Publicar en la web** en el menú **Archivo**.|Habilitada para todos|No visible para todos|Solo visible para usuarios o grupos autorizados.|
+|**Publicar en la web** en el menú **Más opciones (…)**|Habilitada para todos|No visible para todos|Solo visible para usuarios o grupos autorizados.|
 |**Administrar códigos para insertar** en **Configuración**|Habilitada para todos|Habilitada para todos|Habilitada para todos<br><br>Opción * **Eliminar** solo para usuarios o grupos autorizados.<br>* **Obtener código** habilitada para todos.|
 |**Códigos de inserción** en el portal de administración|El estado refleja uno de los siguientes:<br>* Activo<br>* No admitido<br>* Bloqueado|El estado muestra **Deshabilitado**.|El estado refleja uno de los siguientes:<br>* Activo<br>* No admitido<br>* Bloqueado<br><br>Si el usuario no está autorizado según la configuración del inquilino, el estado muestra **Infracción**.|
 |Informes publicados existentes|Todos habilitados|Todos deshabilitados|Los informes continúan generándose para todos.|

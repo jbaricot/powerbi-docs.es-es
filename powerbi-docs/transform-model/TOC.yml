@@ -14,7 +14,7 @@
       items:
         - name: Creación de medidas propias
           href: ../desktop-tutorial-create-measures.md
-        - name: Creación de columnas calculadas
+        - name: Crear columnas calculadas
           href: ../desktop-tutorial-create-calculated-columns.md
     - name: Conceptos
       expanded: true
@@ -55,7 +55,7 @@
               href: ../desktop-combine-binaries.md
             - name: Uso de Conclusiones de IA (versión preliminar)
               href: ../desktop-ai-insights.md
-        - name: Modelar los datos
+        - name: Modelado de los datos
           items:
             - name: Creación de medidas rápidas para cálculos comunes
               href: ../desktop-quick-measures.md
@@ -67,7 +67,7 @@
               href: ../desktop-mobile-barcodes.md
             - name: "Establecimiento del filtrado geográfico en Power\_BI para las aplicaciones móviles"
               href: ../desktop-mobile-geofiltering.md
-            - name: Creación de columnas calculadas
+            - name: Crear columnas calculadas
               href: ../desktop-calculated-columns.md
             - name: Creación de tablas calculadas
               href: ../desktop-calculated-tables.md
@@ -99,7 +99,7 @@
               href: ../service-dataflows-developer-resources.md
             - name: Conexión a flujos de datos en Power BI Desktop
               href: ../desktop-connect-dataflows.md
-            - name: Integración de flujos de datos y Azure Data Lake (versión preliminar)
+            - name: Integración con flujos de datos y Azure Data Lake (versión preliminar)
               href: ../service-dataflows-azure-data-lake-integration.md
             - name: Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos
               href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md

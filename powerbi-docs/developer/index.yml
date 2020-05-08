@@ -14,10 +14,10 @@ metadata:
   ms.author: kesharab
   ms.date: 31/03/2020
   ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 04/01/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "80487796"
 highlightedContent:
   items:
@@ -49,7 +49,7 @@ conceptualContent:
     footerLink:
       url: embedded/index.yml
       text: Ver más
-  - title: Objetos visuales de Power BI
+  - title: Objetos visuales de Power BI
     links:
     - url: visuals/power-bi-custom-visuals.md
       itemType: overview
@@ -63,7 +63,7 @@ conceptualContent:
     footerLink:
       url: visuals/index.yml
       text: Ver más
-  - title: Automatización
+  - title: Automation
     links:
     - url: automation/overview-of-power-bi-rest-api.md
       itemType: overview
@@ -73,7 +73,7 @@ conceptualContent:
       text: Inserción de datos en un conjunto de datos de Power BI
     - url: automation/configure-credentials.md
       itemType: how-to-guide
-      text: Configurar credenciales
+      text: Configuración de credenciales
     footerLink:
       url: automation/index.yml
       text: Ver más
@@ -81,7 +81,7 @@ additionalContent:
   sections:
   - title: Herramientas relacionadas
   - items:
-    - title: API REST de Power BI
+    - title: API de REST de Power BI
       summary: Las API de REST de Power BI proporcionan puntos de conexión de servicio para la inserción, la administración y los recursos de usuario.
       url: https://docs.microsoft.com/rest/api/power-bi/
     - title: API de REST de Azure Resource Manager

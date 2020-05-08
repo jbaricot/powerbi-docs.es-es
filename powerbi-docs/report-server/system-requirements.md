@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/20/2020
 ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77558569"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de hardware y software para instalar el servidor de informes de Power BI
@@ -25,8 +25,8 @@ En este artículo se especifican los requisitos mínimos de hardware y software 
 | --- | --- |
 | .NET Framework |4,7<br><br>.NET Framework se puede instalar manualmente desde [Microsoft .NET Framework 4.7 (Instalador web) para Windows](https://support.microsoft.com/en-us/kb/3186500).<br/><br/> Para más información, recomendaciones e instrucciones sobre .NET Framework 4.7, vea [Guía de implementación de .NET Framework para desarrolladores](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>Windows 8.1 y Windows Server 2012 R2 requieren [KB2919355](https://support.microsoft.com/kb/2919355) antes de instalar .NET Framework 4.7. |
 | Disco duro |El servidor de informes de Power BI requiere un mínimo de 1 GB de espacio disponible en disco duro.<br><br>Se requerirá espacio adicional en el servidor de bases de datos en el que se hospeda la base de datos del servidor de informes. |
-| Memoria |**Mínimo:** 1 GB<br/><br/> **Recomendado:** como mínimo 4 GB |
-| Velocidad del procesador |**Mínimo:** procesador x64: 1,4 GHz<br/><br/> **Recomendado:** 2.0 GHz o más rápido |
+| Memoria |**Mínimo**: 1 GB<br/><br/> **Recomendado:** 4 GB como mínimo |
+| Velocidad del procesador |**Mínimo:** procesador x64 de 1,4 GHz<br/><br/> **Recomendado:** 2,0 GHz o superior |
 | Tipo de procesador |Procesador x64: AMD Opteron, AMD Athlon 64, Intel Xeon compatible con Intel EM64T, Intel Pentium IV compatible con EM64T |
 | Sistema operativo |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
 
@@ -49,7 +49,7 @@ Al crear la base de datos del servidor de informes en un equipo remoto, se debe 
 
 ## <a name="considerations"></a>Consideraciones
 
-El servidor de informes de Power BI instalará los valores predeterminados a fin de establecer la configuración principal necesaria para que un servidor de informes esté operativo. Tiene los siguientes requisitos:
+El servidor de informes de Power BI instalará los valores predeterminados a fin de establecer la configuración principal necesaria para que un servidor de informes esté operativo. Tiene los requisitos siguientes:
 
 * Los idiomas admitidos para Power BI Report Server son: inglés, alemán, español, japonés, italiano, francés, ruso, chino simplificado, chino tradicional, portugués brasileño y coreano
 * Debe haber un motor de base de datos de SQL Server disponible después de la instalación y antes de configurar la base de datos del servidor de informes. En la instancia del motor de base de datos se hospeda la base de datos del servidor de informes que el Administrador de configuración de Reporting Services creará. El motor de base de datos no es necesario para la experiencia de instalación real.
@@ -78,6 +78,6 @@ Puede usar una conexión activa con instancias tabulares o multidimensionales. E
 [Información general de administrador](admin-handbook-overview.md)  
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Descargar SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Descargar las últimas herramientas de datos SQL Server](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

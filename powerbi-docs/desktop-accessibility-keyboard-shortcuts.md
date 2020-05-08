@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c4db4d659c64fba8b7a79e6e36a5f27d8dd5d34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 986c09e404e0190a3efee8480d413d49cbd49186
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869374"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82584803"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Métodos abreviados de teclado en Power BI Desktop
 
@@ -56,6 +56,7 @@ En nuestro continuo esfuerzo por mejorar la accesibilidad, la lista anterior de 
 | Selección múltiple | **Ctrl + Entrar** o **Ctrl + Barra espaciadora** |
 | Clic con el botón derecho | <ul><li>Teclado de Windows: **Tecla contextual de Windows + F10**. La clave de contexto de Windows está entre la tecla Alt de la izquierda y la tecla de flecha izquierda.</li><li>Otro teclado: **Mayús + F10**</li></ul> |
 | Borrar selección | **Ctrl + Mayús + C** |
+| Mostrar u ocultar información sobre herramientas | **Ctrl+H** |
 
 ## <a name="table-and-matrix-navigation"></a>Navegación por tablas y matrices
 | Para realizar esta acción          | Presione                |
