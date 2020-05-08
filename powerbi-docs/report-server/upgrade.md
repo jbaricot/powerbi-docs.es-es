@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
 ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873958"
 ---
-# <a name="upgrade-power-bi-report-server"></a>Actualización de Power BI Report Server
+# <a name="upgrade-power-bi-report-server"></a>Actualización del servidor de informes de Power BI
 
 Aprenda a actualizar un servidor de informes de Power BI.
 
- **Descargar** ![download](media/upgrade/download.png "descargar")
+ **Descarga** ![descarga](media/upgrade/download.png "descargar")
 
 Para descargar el servidor de informes de Power BI y Power BI Desktop optimizado para el servidor de informes de Power BI, vaya a [Publicar informes en almacenamiento local con el servidor de informes de Power BI](https://powerbi.microsoft.com/report-server/).
 
@@ -38,7 +38,7 @@ Dado que un servidor de informes es un servidor sin estado, todos los datos de a
 
 * Utilice el modelo de recuperación completa para realizar una copia de seguridad de la base de datos **reportserver**.
 * Utilice el modelo de recuperación simple para realizar una copia de seguridad de la base de datos **reportservertempdb**.
-* Puede utilizar distintas programaciones de copia de seguridad para cada base de datos. La única razón por la que debe realizar una copia de seguridad de **reportservertempdb** es para evitar tener que volver a crearla en caso de que se produzca algún error de hardware. Si se diera el caso, no es necesario recuperar los datos de **reportservertempdb**, pero sí necesita la estructura de tabla. Si pierde **reportservertempdb**, la única manera de recuperarla es volver a crear la base de datos del servidor de informes. Si vuelve a crear **reportservertempdb**, es importante que tenga el mismo nombre que la base de datos del servidor de informes principal.
+* Puede utilizar distintas programaciones de copia de seguridad para cada base de datos. La copia de seguridad de **reportservertempdb** solo se realiza para evitar tener que volver a crearla en caso de un error de hardware. Si se diera el caso, no es necesario recuperar los datos de **reportservertempdb**, pero sí necesita la estructura de tabla. Si pierde **reportservertempdb**, la única manera de recuperarla es volver a crear la base de datos del servidor de informes. Si vuelve a crear **reportservertempdb**, es importante que tenga el mismo nombre que la base de datos del servidor de informes principal.
 
 Para obtener más información sobre copia de seguridad y recuperación de bases de datos relacionales de SQL Server, vea [Realizar copias de seguridad y restaurar bases de datos de SQL Server](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases).
 
@@ -62,7 +62,7 @@ Es sencillo actualizar el servidor de informes de Power BI. Solo hay que seguir 
 
 2. Seleccione **Upgrade Power BI Report Server** (Actualizar servidor de informes de Power BI).
 
-    ![Actualización de Power BI Report Server](media/upgrade/reportserver-upgrade1.png "Actualización de Power BI Report Server")
+    ![Actualización de Power BI Report Server](media/upgrade/reportserver-upgrade1.png "Actualización del servidor de informes de Power BI")
 
 3. Lea y acepte los términos y condiciones de la licencia y después seleccione **Actualizar**.
 

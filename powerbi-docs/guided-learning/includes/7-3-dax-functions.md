@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73800132"
 ---
 Con DAX, hay muchas funciones disponibles para dar forma, formar o analizar los datos. Estas funciones se pueden agrupar en un conjunto de categorías:
@@ -29,7 +29,7 @@ Ahora que sabemos cómo obtener fórmulas de DAX, veamos cada una de estas categ
 DAX tiene diversas funciones de **agregación**, incluidas las siguientes usadas habitualmente:
 
 * SUM
-* AVERAGE
+* PROMEDIO
 * MIN
 * MAX
 * SUMX (y otras funciones *X*)
@@ -52,8 +52,8 @@ Estas funciones cuentan elementos diferentes, como valores distintos, valores no
 ## <a name="logical-functions"></a>Funciones lógicas
 La colección de funciones **lógicas** de DAX incluye:
 
-* AND
-* OR
+* Y
+* O
 * NOT
 * IF
 * IFERROR

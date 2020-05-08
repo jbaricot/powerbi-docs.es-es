@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
 ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78919845"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>Instalación de Report Builder: Power BI Report Server
@@ -46,7 +46,7 @@ Puede instalar Report Builder desde un portal web de Power BI Report Server. Qu
     ![Pantalla Nuevo informe o conjunto de datos](media/quickstart-create-paginated-report/reportserver-paginated-new-report-screen.png)
  
 
-##  <a name="download"></a> Instalación de Report Builder desde el Centro de descarga  
+##  <a name="install-report-builder-from-the-download-center"></a><a name="download"></a> Instalación de Report Builder desde el Centro de descarga  
   
 1.  En la [página de Report Builder del Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?LinkID=734968), seleccione **Descargar**.  
   

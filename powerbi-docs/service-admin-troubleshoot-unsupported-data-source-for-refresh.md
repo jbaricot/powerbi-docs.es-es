@@ -11,10 +11,10 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74791981"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Solución de problemas de origen de datos no admitido para la actualización
@@ -22,7 +22,7 @@ Puede ver un error al intentar configurar un conjunto de datos para la actualiza
 
         You cannot schedule refresh for this dataset because it gets data from sources that currently don’t support refresh.
 
-Esto sucede cuando no se admite el origen de datos que usa, en Power BI Desktop, para la actualización. Tendrá que buscar el origen de datos que está usando y compararlo con la lista de orígenes de datos compatibles en [Actualizar datos en Power BI](refresh-data.md). 
+Esto sucede cuando no se admite el origen de datos que usa, en Power BI Desktop, para la actualización. Tendrá que buscar el origen de datos que está usando y compárelo con la lista de orígenes de datos compatibles en [Actualización de datos en Power BI](refresh-data.md). 
 
 ## <a name="find-the-data-source"></a>Búsqueda del origen de datos
 Si no está seguro de qué origen de datos se utilizó, puede encontrarlo siguiendo los siguientes pasos en Power BI Desktop.  

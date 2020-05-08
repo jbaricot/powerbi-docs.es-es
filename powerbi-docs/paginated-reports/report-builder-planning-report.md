@@ -9,10 +9,10 @@ ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922997"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Planeamiento de un informe en el Generador de informes de Power BI
@@ -29,11 +29,11 @@ Puede elegir entre tabular, matriz (similar a un informe de tabla dinámica o de
   
 ## <a name="how-do-you-want-your-report-to-look"></a>¿Qué aspecto desea que tenga el informe?
   
-El Generador de informes proporciona una gran cantidad de elementos de informes que se pueden agregar a un informe para que resulte más fácil de leer, resaltar información clave, ayudar a su público a visitar el informe y otros. Saber qué aspecto desea para el informe puede determinar si necesita elementos de informes como cuadros de texto, imágenes, rectángulos y líneas. También es posible que desee mostrar u ocultar elementos, agregar un mapa del documento, incluir informes detallados o subinformes o vincular a otros informes.   
+El Generador de informes proporciona una gran cantidad de elementos de informes que se pueden agregar a un informe para que resulte más fácil de leer, resaltar información clave, ayudar a su público a visitar el informe y otros. Saber qué aspecto desea para el informe puede determinar si necesita elementos de informes como cuadros de texto, imágenes, rectángulos y líneas. Es posible que desee también mostrar u ocultar elementos, agregar un mapa del documento, incluir informes detallados o subinformes, o crear vínculos con otros informes.   
   
 ## <a name="should-the-data-be-filtered"></a>¿Se deben filtrar los datos?
   
-Es posible que desee restringir el ámbito del informe a ubicaciones o usuarios específicos o a un período de tiempo determinado. Para filtrar los datos del informe, use parámetros para recuperar y mostrar solo los datos que desee. Para más información, consulte [Parámetros del informe en el Generador de informes de Power BI](paginated-reports-parameters.md).  
+Es posible que desee restringir el ámbito del informe a ubicaciones o usuarios específicos o a un período de tiempo determinado. Para filtrar los datos del informe, utilice los parámetros para recuperar y mostrar solo los datos que desea. Para más información, consulte [Parámetros del informe en el Generador de informes de Power BI](paginated-reports-parameters.md).  
   
 ## <a name="do-you-need-to-create-calculations"></a>¿Necesita crear cálculos? 
   
@@ -41,7 +41,7 @@ A veces, el origen de datos y los conjuntos de datos no contienen los campos exa
   
 ## <a name="do-you-want-to-hide-report-items-initially"></a>¿Desea ocultar inicialmente los elementos del informe?
   
-Tenga en cuenta si desea ocultar los elementos del informe, incluyendo las regiones de datos, los grupos y las columnas, cuando el informe se ejecuta por primera vez. Por ejemplo, puede presentar inicialmente una tabla de resumen y, a continuación, profundizar en los datos detallados. 
+Tenga en cuenta si desea ocultar los elementos del informe, incluyendo las regiones de datos, los grupos y las columnas, cuando el informe se ejecuta por primera vez. Por ejemplo, puede presentar inicialmente una tabla de resumen y, a continuación, explorar en profundidad los datos detallados. 
   
 ## <a name="how-are-you-going-to-deliver-your-report"></a>¿Cómo va a distribuir el informe?  
   

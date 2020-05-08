@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
 ms.openlocfilehash: e2b1c90c6a4ee237af0d800dd7d1c6e1dc8dc3ba
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760914"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Etiquetado de códigos de barras en Power BI Desktop para su uso en las aplicaciones móviles
@@ -47,5 +47,5 @@ Estos son los códigos de barras que Power BI reconoce si los puede etiquetar en
 * [Scan a barcode from the Power BI app on your iPhone (Digitalización de un código de barras desde Power BI en su iPhone)](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
 * [Problemas al digitalizar códigos de barras en un iPhone](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Categorización de datos en Power BI Desktop](desktop-data-categorization.md)  
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+* ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

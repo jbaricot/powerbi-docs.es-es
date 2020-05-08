@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 8dc488a47ac2b5b4e7980b7404b2722b1120b6ab
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464415"
 ---
 ## <a name="validate-the-roles-within-power-bi-desktop"></a>Validar los roles en Power BI Desktop
@@ -29,7 +29,7 @@ Después de haber creado los roles, pruebe sus resultados en Power BI Desktop.
 
    En Power BI Desktop, **Otro usuario** solo muestra otros resultados si usa la seguridad dinámica basada en las expresiones DAX. 
 
-5. Seleccione **Aceptar**. 
+5. Haga clic en **Aceptar**. 
 
    El informe se representará en función de lo que pueda ver ese usuario.
 

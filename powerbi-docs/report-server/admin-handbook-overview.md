@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73860221"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Información general para administradores, Power BI Report Server
@@ -25,7 +25,7 @@ Para empezar a usar Power BI Report Server, es preciso instalarlo. Disponemos de
 
 Antes de empezar a instalar, actualizar o migrar a Power BI Report Server, eche un vistazo a los [requisitos del sistema](system-requirements.md) para el servidor de informes.
 
-### <a name="installing"></a>Instalando
+### <a name="installing"></a>Instalación
 Si va a implementar una instancia nueva de Power BI Report Server, utilice los siguientes documentos, ya que le servirán de ayuda. 
 
 [Instalar un servidor de informes de Power BI](install-report-server.md)
@@ -48,7 +48,7 @@ La seguridad y la protección son dos aspectos importantes para todas las organi
 [Buscar la clave de producto del servidor de informes](find-product-key.md)  
 [Instalar Power BI Desktop optimizado para el servidor de informes de Power BI](install-powerbi-desktop.md)  
 [Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Descargar SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Descargar las últimas herramientas de datos SQL Server](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

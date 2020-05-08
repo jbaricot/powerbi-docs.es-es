@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 42b9057ccfaa918593e1be8a182c7b0ee57f9760
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920996"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Creación de parámetros de informes paginados en el servicio Power BI
@@ -60,7 +60,7 @@ La siguiente ilustración muestra la vista de diseño del Generador de informes 
   
     -   Para ocultar el parámetro y evitar que pueda modificarse en el servidor de informes una vez publicado el informe, seleccione **Interno**. El parámetro de informe solo puede verse entonces en la definición de informe. Para esta opción, debe establecer un valor predeterminado o permitir que el parámetro acepte un valor NULL.  
   
-9. Seleccione **Aceptar**. 
+9. Haga clic en **Aceptar**. 
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 

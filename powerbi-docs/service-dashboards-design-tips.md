@@ -10,10 +10,10 @@ ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877395"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Sugerencias para diseñar un panel de Power BI fantástico
@@ -51,7 +51,7 @@ Si el texto y las visualizaciones son del mismo tamaño en el panel, a los lecto
 
 Pero no olvide proporcionar un contexto.  
 
-Más información sobre cómo [crear un icono con un solo número](visuals/power-bi-visualization-card.md).
+Obtenga más información sobre cómo [crear un icono con un solo número](visuals/power-bi-visualization-card.md).
 
 ## <a name="place-the-most-important-information"></a>Colocar la información más importante
 La mayoría de los usuarios leen de arriba abajo. Por tanto, coloque el nivel más alto de datos en la esquina superior izquierda y muestre más detalles a medida que avance en la dirección de lectura del público (de izquierda a derecha, de arriba a abajo).
@@ -68,18 +68,18 @@ Evite utilizar distintos tipos de visualizaciones simplemente para aportar varie
 * No abarrote los gráficos con etiquetas de datos innecesarias. Normalmente, los valores de los gráficos de barras se entienden sin necesidad de mostrar el número real.
 * Preste atención a la manera de [ordenar los gráficos](consumer/end-user-change-sort.md). Si desea llamar la atención sobre el número más alto o más bajo, ordene por medida. Si quiere que los usuarios puedan encontrar rápidamente una categoría determinada entre muchas otras categorías, ordene por el eje.  
 
-Para más instrucciones específicas sobre la visualización, consulte [Tipos de visualización en Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
+Para obtener más instrucciones específicas sobre la visualización, vea [Visualization types in Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ## <a name="learn-more-about-dashboard-design"></a>Más información sobre el diseño de paneles
 Si desea aprender a diseñar paneles fantásticos, considere la posibilidad de aprender los principios básicos de Gestalt sobre la percepción visual y la manera de comunicar claramente información accionable en contexto. Afortunadamente, existen numerosos recursos disponibles en nuestros blogs. Estos son algunos de nuestros libros favoritos:
 
-* *Information dashboard design* , de Stephen Few  
-* *Show me the numbers* , de Stephen Few  
+* *Information dashboard design*, de Stephen Few  
+* *Show me the numbers*, de Stephen Few  
 * *Now you see it* , de Stephen Few  
 * *Envisioning information* , de Edward Tufte  
-* *Advanced presentations by design* , de Andrew Abela   
+* *Advanced presentations by design*, de Andrew Abela   
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Creación de un panel desde un informe](service-dashboard-create.md)  
-[Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)  
+[Conceptos básicos para diseñadores en el servicio Power BI](service-basic-concepts.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

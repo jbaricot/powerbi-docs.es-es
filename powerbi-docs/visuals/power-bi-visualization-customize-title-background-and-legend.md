@@ -11,10 +11,10 @@ ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78893425"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalización de los títulos, los fondos y las leyendas de las visualizaciones
@@ -28,7 +28,7 @@ No se pueden personalizar todas las visualizaciones. Consulte la [lista completa
 
 - Servicio Power BI o Power BI Desktop
 
-- Informe del ejemplo de análisis de minoristas
+- Informe del Ejemplo de análisis de minoristas
 
 ## <a name="customize-visualization-titles-in-reports"></a>Personalización de los títulos de las visualizaciones en los informes
 
@@ -133,7 +133,7 @@ Para aplicar un tema a un informe, seleccione **Cambiar tema** en la barra de me
 
 A continuación, encontrará una lista de las visualizaciones y opciones de personalización que están disponibles para cada tipo:
 
-| Visualización | Título | Fondo | Leyenda |
+| Visualización | Título | Información previa | Leyenda |
 |:--- |:--- |:--- |:--- |
 | Área | sí | sí |sí |
 | Barra | sí | sí |sí |
@@ -157,7 +157,7 @@ A continuación, encontrará una lista de las visualizaciones y opciones de pers
 | Segmentación | sí | sí | n/d |
 | Tabla | sí | sí | n/d |
 | Cuadro de texto | no | sí | n/d |
-| Gráfico de rectángulos | sí | sí | sí |
+| Treemap | sí | sí | sí |
 | Cascada | sí | sí | sí |
 
 ## <a name="next-steps"></a>Pasos siguientes

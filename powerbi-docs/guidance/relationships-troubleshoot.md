@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
 ms.openlocfilehash: e2854d82d858bb1963b691d32d561c7b3bbfc11a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78263654"
 ---
 # <a name="relationship-troubleshooting-guidance"></a>Instrucciones para solución de problemas de relaciones
@@ -49,7 +49,7 @@ Esta es una lista de problemas junto con las posibles soluciones.
 |El objeto visual muestra los resultados, pero no son correctos.|- El objeto visual no está configurado correctamente.<br />- La lógica de medida es incorrecta.<br />- Los datos del modelo deben actualizarse.<br />- Los datos del informe son incorrectos.<br />- Las columnas de relación están incorrectamente relacionadas (por ejemplo, la columna **ProductID** se asigna a **CustomerID**).<br />- Es una relación entre dos tablas de DirectQuery y la columna "uno" de una relación contiene valores duplicados.|
 |Aparecen agrupaciones o elementos de filtro o segmentación en blanco y las columnas de origen no contienen espacios en blanco.|- Se trata de una relación fuerte y la columna "varios" contiene valores que no se almacenan en la columna "uno"; vea [Creación de relaciones de modelos en Power BI Desktop (Relaciones fuertes)](../desktop-relationships-understand.md#strong-relationships).<br />- Se trata de una relación de uno a uno sólida y las columnas relacionadas contienen espacios en blanco; vea [Creación de relaciones de modelos en Power BI Desktop (Relaciones fuertes)](../desktop-relationships-understand.md#strong-relationships).<br />- La columna "varios" de la relación inactiva almacena espacios en blanco o tiene valores que no están almacenados en el lado "uno".|
 |Faltan datos en el objeto visual.|- Se aplican filtros incorrectos o inesperados.<br />- Se aplica la seguridad de nivel de fila.<br />- Se trata de una relación débil y hay espacios en blanco en las columnas relacionadas, o problemas de integridad de datos; vea [Creación de relaciones de modelos en Power BI Desktop (Relaciones débiles)](../desktop-relationships-understand.md#weak-relationships).<br />- Se trata de una relación entre dos tablas DirectQuery, la relación se configura para [asumir la integridad referencial](../desktop-relationships-understand.md#assume-referential-integrity), pero hay problemas de integridad de datos (valores no coincidentes en las columnas relacionadas).|
-|La seguridad de nivel de fila no se aplica correctamente.|- Las relaciones no se propagan entre tablas; _siga la lista de comprobación anterior_.<br />- Se aplica la seguridad de nivel de fila, pero no se habilita la propagación de una relación bidireccional; consulte [Seguridad de nivel de fila (RLS) con Power BI Desktop](../desktop-rls.md)|
+|La seguridad de nivel de fila no se aplica correctamente.|- Las relaciones no se propagan entre tablas, _siga la lista de comprobación anterior_.<br />- Se aplica la seguridad de nivel de fila, pero no se habilita la propagación de una relación bidireccional; consulte [Seguridad de nivel de fila (RLS) con Power BI Desktop](../desktop-rls.md)|
 |||
 
 ## <a name="next-steps"></a>Pasos siguientes
@@ -57,5 +57,5 @@ Esta es una lista de problemas junto con las posibles soluciones.
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
 - [Relaciones de modelos en Power BI Desktop](../desktop-relationships-understand.md)
-- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)

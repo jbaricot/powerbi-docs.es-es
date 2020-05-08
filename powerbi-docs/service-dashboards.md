@@ -10,17 +10,17 @@ ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160797"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introducción a los paneles para los diseñadores de Power BI
 
 Un *panel* de Power BI incluye una única página, que se suele denominar lienzo, que cuenta una historia mediante visualizaciones. Dado que se limita a una sola página, un panel bien diseñado contiene únicamente los elementos destacados de esa historia. Los lectores pueden ver informes relacionados para conocer los detalles.
 
-![Panel](media/service-dashboards/power-bi-dashboard2.png)
+![panel](media/service-dashboards/power-bi-dashboard2.png)
 
 Los paneles son una característica exclusiva del servicio Power BI. y no están disponibles en Power BI Desktop. Aunque no se pueden crear paneles en dispositivos móviles, puede [verlos y compartirlos](mobile-apps-view-dashboard.md) desde allí.
 
@@ -33,7 +33,7 @@ Las visualizaciones de un panel proceden de informes y cada informe se basa en u
 ![Diagrama que muestra la relación entre paneles, informes y conjuntos de datos](media/service-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>Ventajas de los paneles
-Los paneles son una magnífica manera de supervisar su empresa y ver las métricas más importantes de un vistazo. Las visualizaciones de un panel pueden proceder de un conjunto de datos subyacente o de varios, y de un informe subyacente o de varios. Un panel combina datos locales y en la nube, lo que proporciona una vista consolidada, independientemente de dónde residen los datos.
+Los paneles son una magnífica manera de supervisar su empresa y ver las métricas más importantes de un vistazo. Las visualizaciones de un panel pueden proceder de un conjunto de datos subyacente o de varios, y de un informe subyacente o de varios. En un panel se combinan datos locales y en la nube, de forma que se obtiene una vista consolidada con independencia de donde residan los datos.
 
 Un panel no es simplemente una foto bonita. Es muy interactivo y los iconos se actualizan según cambian los datos subyacentes.
 
@@ -53,12 +53,12 @@ Los [informes](service-reports.md) y los paneles parecen similares, porque ambos
 | Orígenes de datos |Uno o varios informes y uno o varios conjuntos de datos por cada panel |Un único conjunto de datos por informe |
 | Disponible en Power BI Desktop |No | Sí. Pueden generar y ver informes en Power BI Desktop |
 | Suscribirse |Sí. Es posible suscribirse a un panel |Sí. Es posible suscribirse a una página del informe |
-| Filtrado |No. No es posible filtrar ni segmentar |Sí. Numerosas formas de filtrar, resaltar y segmentar |
+| Filtrado |Núm. No es posible filtrar ni segmentar |Sí. Numerosas formas de filtrar, resaltar y segmentar |
 | Destacado |Sí. Se puede definir un panel como *destacado* |No |
 | Favorito | Sí. Se pueden definir varios paneles como *favoritos* | Sí. Se pueden definir varios informes como *favoritos*
 | Establecimiento de alertas |Sí. Disponible para iconos de panel en determinadas circunstancias |No |
 | Consultas en lenguaje natural |Sí | Sí, siempre que tenga permisos de edición para el informe y el conjunto de datos subyacente |
-| Se pueden ver campos y tablas del conjunto de datos subyacentes |No. Se pueden exportar datos, pero no se pueden ver tablas ni campos en el propio panel |Sí |
+| Se pueden ver campos y tablas del conjunto de datos subyacentes |Núm. Se pueden exportar datos, pero no se pueden ver tablas ni campos en el propio panel |Sí |
 
 
 ## <a name="next-steps"></a>Pasos siguientes

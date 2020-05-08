@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76268856"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copia de informes desde otras áreas de trabajo (versión preliminar)
@@ -107,4 +107,4 @@ Puede decidir que ya no quiere ni el informe ni su conjunto de datos compartido 
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [Uso de conjuntos de datos entre áreas de trabajo (versión preliminar)](service-datasets-across-workspaces.md)
-- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

@@ -11,10 +11,10 @@ ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74415310"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Uso de medidas rápidas para cálculos comunes
@@ -134,5 +134,5 @@ Hay algunas limitaciones y consideraciones que debe tener en cuenta.
 Puede usar tablas de fechas personalizadas propias con medidas rápidas de inteligencia de tiempo. Si va a usar un modelo tabular externo, asegúrese de que al compilar el modelo, la columna de fecha principal de la tabla se haya marcado como una tabla de fechas, como se describe en [Especificación de Marcar como tabla de fechas para su uso en la inteligencia de tiempo](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular). Si va a importar una tabla de fechas propia, asegúrese de marcarla como una tabla de fechas, como se describe en [Configuración y uso de tablas de fechas en Power BI Desktop](desktop-date-tables.md).
 
 ### <a name="additional-information-and-examples"></a>Información adicional y ejemplos
-¿Tiene alguna idea para una medida rápida que todavía no se haya proporcionado? Magnífico. Consulte la página [Ideas de Power BI](https://go.microsoft.com/fwlink/?linkid=842906) y envíe las ideas y fórmulas DAX para medidas rápidas que le gustaría ver en Power BI Desktop. Consideraremos la posibilidad de agregarlas a la lista de medidas rápidas en una versión futura.
+¿Tiene alguna idea para una medida rápida que todavía no se haya proporcionado? Excelente. Consulte la página [Ideas de Power BI](https://go.microsoft.com/fwlink/?linkid=842906) y envíe las ideas y fórmulas DAX para medidas rápidas que le gustaría ver en Power BI Desktop. Consideraremos la posibilidad de agregarlas a la lista de medidas rápidas en una versión futura.
 

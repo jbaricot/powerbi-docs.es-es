@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 21b7b93b4e522a8e6a49d22b54c9ddd83cb5e042
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699630"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Actualización de un conjunto de datos creado a partir de un libro de Excel en OneDrive o SharePoint Online
@@ -71,7 +71,7 @@ Al configurar una actualización programada de este modo, la única diferencia e
 
 ## <a name="how-do-i-make-sure-data-is-loaded-to-the-excel-data-model"></a>¿Cómo puedo asegurarme de que los datos se cargan en el modelo de datos de Excel?
 
-Si usa Power Query (**Obtener y transformar** en Excel 2016) para conectarse a un origen de datos, tiene varias opciones de ubicación donde cargar los datos. Para asegurarse de que los datos se cargan en el modelo de datos, debe seleccionar la opción **Agregar estos datos al modelo de datos** en el cuadro de diálogo **Cargar en** .
+Si usa Power Query (**Obtener y transformar** en Excel 2016) para conectarse a un origen de datos, tiene varias opciones de ubicación donde cargar los datos. Para asegurarse de que los datos se cargan en el modelo de datos, debe seleccionar la opción **Agregar estos datos al modelo de datos** en el cuadro de diálogo **Cargar en**.
 
 > [!NOTE]
 > Las imágenes que aquí se muestran corresponden a Excel 2016.
@@ -82,7 +82,7 @@ En **Navegador**, haga clic en **Cargar en...**
 
 ![Comando Cargar en...](media/refresh-excel-file-onedrive/refresh_loadtodm_1.png)
 
-O bien, si hace clic en **Editar** en **Navegador**, se abrirá el Editor de consultas. Puede hacer clic en **Cerrar y cargar en...**  
+O bien, si hace clic en **Editar** en **Navegador**, se abrirá el Editor de consultas. Puede hacer clic en **Cerrar y cargar en**.  
 
 ![Comando Cerrar y cargar en...](media/refresh-excel-file-onedrive/refresh_loadtodm_2.png)
 

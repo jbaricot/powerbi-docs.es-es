@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 4f135a411d69835e925cf97b418bda6ae80adc1a
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113188"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Idiomas admitidos en las aplicaciones móviles de Power BI
@@ -59,6 +59,6 @@ Actualmente, las aplicaciones móviles de Power Bi admiten estos idiomas:
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Idiomas y países o regiones admitidos en Power BI](../../supported-languages-countries-regions.md)
-* ¿Tiene alguna pregunta? Pruebe a preguntar a la [comunidad de Power BI](https://community.powerbi.com/).
+* ¿Preguntas? Pruebe a preguntar a la [Comunidad de Power BI](https://community.powerbi.com/).
 * ¿Sigue teniendo problemas? Visite la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
 

@@ -9,10 +9,10 @@ ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921157"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Ejemplos de expresiones en el Generador de informes de Power BI
@@ -34,11 +34,11 @@ En este tema se proporcionan ejemplos de expresiones que se pueden usar para tar
   
 Para más información sobre las expresiones simples y complejas, dónde se pueden usar las expresiones y los tipos de referencias que se pueden incluir en una expresión, consulte los temas incluidos en [Expressions in Power BI Report Builder](report-builder-expressions.md) (Expresiones en el Generador de informes de Power BI). 
   
-## <a name="functions"></a>Funciones  
+## <a name="functions"></a>Functions  
  Muchas expresiones en un informe contienen funciones. Puede usar esta funciones para dar formato a los datos, aplicar lógica y acceder a los metadatos del informe. Puede escribir expresiones que usen funciones de la biblioteca en tiempo de ejecución de Microsoft Visual Basic y de los espacios de nombres `xref:System.Convert` y `xref:System.Math`. Puede agregar referencias a funciones en el código personalizado. También puede usar las clases de Microsoft .NET Framework, incluida `xref:System.Text.RegularExpressions`.  
   
-##  <a name="VisualBasicFunctions"></a> Funciones de Visual Basic  
- Puede usar funciones de Visual Basic para manipular los datos que se muestran en los cuadros de texto o que se utilizan para los parámetros, las propiedades u otras áreas del informe. En esta sección se proporcionan ejemplos que demuestran algunas de estas funciones. Para más información, consulte [Miembros de la biblioteca en tiempo de ejecución de Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) en MSDN.  
+##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Funciones de Visual Basic  
+ Puede usar funciones de Visual Basic para manipular los datos que se muestran en los cuadros de texto o que se utilizan para los parámetros, las propiedades u otras áreas del informe. En esta sección se proporcionan ejemplos que demuestran algunas de estas funciones. Para obtener más información, vea [Miembros de la biblioteca en tiempo de ejecución de Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) en MSDN.  
   
  .NET Framework proporciona muchas opciones de formato personalizado, por ejemplo, formatos de fecha específicos. Para más información, consulte [Aplicar formato a tipos en .NET](/dotnet/standard/base-types/formatting-types).  
   
@@ -56,9 +56,9 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     = Round(1.3*5)/5  
     ```  
   
-###  <a name="DateFunctions"></a> Funciones de fecha  
+###  <a name="date-functions"></a><a name="DateFunctions"></a> Funciones de fecha  
   
--   La función **Today** proporciona la fecha actual. Esta expresión puede utilizarse en un cuadro de texto para mostrar la fecha en el informe, o en un parámetro para filtrar los datos según la fecha actual.  
+-   La función **Today** proporciona la fecha actual. Esta expresión puede utilizarse en un cuadro de texto para mostrar la fecha en el informe o puede utilizarse en un parámetro para filtrar los datos por la fecha actual.  
   
     ```  
     =Today()  
@@ -89,7 +89,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =DateAdd(DateInterval.Month, 6, Parameters!StartDate.Value)  
     ```  
   
--   La función **año** muestra el año correspondiente a una fecha determinada. Se puede usar para agrupar fechas o para mostrar el año como una etiqueta para un conjunto de fechas. Esta expresión proporciona el año de un grupo determinado de fechas de pedidos de ventas. La función **Month** y otras funciones también pueden usarse para manipular fechas. Para más información, consulte la documentación sobre Visual Basic.  
+-   La función **Year** muestra el año correspondiente a una fecha determinada. Se puede usar para agrupar fechas o para mostrar el año como una etiqueta para un conjunto de fechas. Esta expresión proporciona el año correspondiente a un determinado grupo de fechas de pedidos de venta. La función **Month** y otras funciones también pueden usarse para manipular fechas. Para más información, consulte la documentación sobre Visual Basic.  
   
     ```  
     =Year(Fields!OrderDate.Value)  
@@ -117,7 +117,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =FORMAT(Fields!SellStartDate.Value, "dd/MM/yyyy")  
     ```  
   
--   La función **CDate** convierte el valor en una fecha. La función **Now** devuelve un valor de fecha que contiene la fecha y hora actuales según el sistema. **DateDiff** devuelve un valor Long que especifica el número de intervalos de tiempo entre dos valores de fecha.  
+-   La función **CDate** convierte el valor en una fecha. La función **Now** devuelve un valor de fecha que contiene la fecha y la hora actuales del sistema. **DateDiff** devuelve un valor Long que especifica el número de intervalos de tiempo entre dos valores de fecha.  
   
      En el ejemplo siguiente se muestra la fecha de inicio del año actual.  
   
@@ -161,9 +161,9 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
 |Hace un año|`=DateSerial(Year(Parameters!TodaysDate.Value)-1,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
 |Hace dos años|`=DateSerial(Year(Parameters!TodaysDate.Value)-2,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
   
-###  <a name="StringFunctions"></a> Funciones de cadena  
+###  <a name="string-functions"></a><a name="StringFunctions"></a> Funciones de cadena  
   
--   Combine más de un campo mediante el uso de operadores de concatenación y constantes de Visual Basic. La siguiente expresión devuelve dos campos, cada uno en una línea diferente del mismo cuadro de texto:  
+-   Combine más de un campo mediante el uso de operadores de concatenación y constantes de Visual Basic. La expresión siguiente devuelve dos campos, cada uno de ellos en una línea diferente del mismo cuadro de texto:  
   
     ```  
     =Fields!FirstName.Value & vbCrLf & Fields!LastName.Value   
@@ -189,13 +189,13 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =Parameters!User.Value.Substring(Parameters!User.Value.IndexOf("\")+1, Parameters!User.Value.Length-Parameters!User.Value.IndexOf("\")-1)  
     ```  
   
--   Muestre los valores seleccionados de un parámetro de varios valores. En el ejemplo siguiente se usa la función **Join** para concatenar los valores seleccionados del parámetro *MySelection* en una sola cadena que se puede establecer como una expresión para el valor de un cuadro de texto en un elemento de informe:  
+-   Muestre los valores seleccionados en un parámetro de varios valores. En el ejemplo siguiente se usa la función **Join** para concatenar los valores seleccionados del parámetro *MySelection* en una sola cadena que se puede establecer como una expresión para el valor de un cuadro de texto en un elemento de informe:  
   
     ```  
     = Join(Parameters!MySelection.Value)  
     ```  
   
-     El ejemplo siguiente hace lo mismo que el ejemplo anterior, y muestra también una cadena de texto antes de la lista de valores seleccionados.  
+     El ejemplo siguiente hace lo mismo que el ejemplo anterior, además de mostrar una cadena de texto antes de la lista de valores seleccionados.  
   
     ```  
     ="Report for " & JOIN(Parameters!MySelection.Value, " & ")  
@@ -211,7 +211,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     > [!NOTE]  
     >  Compruebe que el valor de Fields!Phone.Value no tenga espacios adicionales y es del tipo `xref:System.String`.  
   
-### <a name="lookup"></a>Lookup  
+### <a name="lookup"></a>Búsqueda  
   
 -   Puede especificar un campo de clave para usar la función **Lookup** para recuperar un valor de un conjunto de datos en una relación uno a uno; por ejemplo, un par de clave y valor. La siguiente expresión muestra el nombre del producto de un conjunto de datos ("Product") que coincida con el identificador de producto especificado:  
   
@@ -227,7 +227,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =Join(LookupSet(Fields!ContactID.Value, Fields!PersonID.Value, Fields!PhoneNumber.Value, "PhoneList"),",")  
     ```  
   
-###  <a name="ConversionFunctions"></a> Funciones de conversión  
+###  <a name="conversion-functions"></a><a name="ConversionFunctions"></a> Funciones de conversión  
  Puede usar funciones de Visual Basic para convertir un campo de un tipo de datos a otro. Las funciones de conversión se pueden usar para convertir el tipo de datos predeterminado de un campo al tipo de datos necesario para realizar cálculos o para combinar texto.  
   
 -   La expresión siguiente convierte la constante 500 al tipo Decimal con el fin de compararla con un tipo de datos monetario de Transact-SQL en el campo Value de una expresión de filtro.  
@@ -242,7 +242,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =CStr(Parameters!MySelection.Count)  
     ```  
   
-###  <a name="DecisionFunctions"></a> Funciones de decisión  
+###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> Funciones de decisión  
   
 -   La función **Iif** devuelve uno de dos valores dependiendo de si la expresión es cierta o no. La siguiente expresión utiliza la función **Iif** para devolver un valor booleano **True** si el valor de `LineTotal` es superior a 100. De lo contrario, devuelve **False**:  
   
@@ -264,7 +264,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =Switch(Fields!PctComplete.Value >= 10, "Green", Fields!PctComplete.Value >= 1, "Blue", Fields!PctComplete.Value = 1, "Yellow", Fields!PctComplete.Value <= 0, "Red")  
     ```  
   
-     Los valores mayores o iguales que 10 se muestran con un fondo verde, entre 1 y 9 se muestran con un fondo azul, igual que 1 se muestra con un fondo amarillo, y 0 o menores se muestran con un fondo rojo.  
+     Los valores mayores o iguales que 10 se muestran con un fondo verde, los valores entre 1 y 9 se muestran con un fondo azul, los valores iguales que 1 se muestran con un fondo amarillo, y los valores iguales o menores que 0 se muestran con un fondo rojo.  
   
 -   Prueba el valor del campo `ImportantDate` y devuelve "Red" si tiene más de una semana de antigüedad o "Blue" en caso contrario. Esta expresión puede utilizarse para controlar la propiedad Color de un cuadro de texto en un elemento de informe:  
   
@@ -297,10 +297,10 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
   
     ```  
   
-##  <a name="ReportFunctions"></a> Funciones de informe  
+##  <a name="report-functions"></a><a name="ReportFunctions"></a> Funciones de informe  
  En una expresión, puede agregar una referencia a funciones de informe adicionales que manipulan los datos de un informe. En esta sección se proporcionan ejemplos de estas funciones. 
   
-###  <a name="Sum"></a> Sum  
+###  <a name="sum"></a><a name="Sum"></a> Sum  
   
 -   La función **Sum** puede sumar los valores de un grupo o una región de datos. Esta función puede ser útil en el encabezado o pie de página de un grupo. La siguiente expresión muestra la suma de los datos del grupo o la región de datos Order:  
   
@@ -308,13 +308,13 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =Sum(Fields!LineTotal.Value, "Order")  
     ```  
   
--   También puede usar **Sum** para calcular agregados condicionales. Por ejemplo, si un conjunto de datos tiene un campo llamado State con los valores posibles No Started, Started y Finished, cuando se coloca en un encabezado de grupo, la siguiente expresión calcula la suma agregada solo para el valor Finished:  
+-   También puede usar **Sum** para calcular agregados condicionales. Por ejemplo, si un conjunto de datos tiene un campo denominado State cuyos valores posibles son Not Started, Started y Finished, la expresión siguiente, situada en un encabezado de grupo, calcula la suma de agregados solamente para el valor Finished:  
   
     ```  
     =Sum(IIF(Fields!State.Value = "Finished", 1, 0))  
     ```  
   
-###  <a name="RowNumber"></a> RowNumber  
+###  <a name="rownumber"></a><a name="RowNumber"></a> RowNumber  
   
 -   Cuando se usa en un cuadro de texto dentro de una región de datos, la función **RowNumber** muestra el número de fila de cada instancia del cuadro de texto en el que aparece la expresión. Esta función puede ser útil para numerar las filas de una tabla. También puede ser útil para tareas más complejas, como proporcionar saltos de página en función del número de filas. Para más información, consulte [Saltos de página](#PageBreaks) en este tema.  
   
@@ -324,10 +324,10 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =RowNumber(Nothing)  
     ```  
   
-##  <a name="AppearanceofReportData"></a> Apariencia de los datos del informe  
+##  <a name="appearance-of-report-data"></a><a name="AppearanceofReportData"></a> Apariencia de los datos del informe  
  Puede usar expresiones para manipular cómo aparecen los datos en un informe. Por ejemplo, puede mostrar los valores de dos campos en un solo cuadro de texto, mostrar información sobre el informe o especificar cómo se insertan los saltos de página en el informe.  
   
-###  <a name="PageHeadersandFooters"></a> Encabezados y pies de página  
+###  <a name="page-headers-and-footers"></a><a name="PageHeadersandFooters"></a> Encabezados y pies de página  
  Al diseñar un informe, quizás quiera mostrar el nombre de lo informes y número de página en el pie de página del informe. Para ello, puede usar las siguientes expresiones:  
   
 -   La siguiente expresión proporciona el nombre del informe y la fecha y hora a la que se ejecutó. Se puede colocar en un cuadro de texto en el pie de página o en el cuerpo del informe. La fecha y hora se presenta con el formato de fecha corta de .NET Framework:  
@@ -367,7 +367,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
 > [!NOTE]  
 >  Solo puede hacer referencia a un elemento de informe por expresión en un encabezado o pie de página. Además, en las expresiones de pie de página o encabezado, puede hacer referencia al nombre del cuadro de texto, pero no a la expresión de datos real dentro del cuadro de texto.  
   
-###  <a name="PageBreaks"></a> Saltos de página  
+###  <a name="page-breaks"></a><a name="PageBreaks"></a> Saltos de página  
  En algunos informes, tal vez quiera insertar un salto de página al final de un número de filas determinado en lugar o además de por grupos o elementos de informe. Para ello, cree un grupo que contenga los grupos o registros detallados que desee, agregue un salto de página al grupo y, a continuación, agregue una expresión de grupo para agrupar por un número determinado de filas.  
   
 -   Cuando se coloca en la expresión de grupo, la siguiente expresión asigna a un número a cada conjunto de 25 filas. Cuando se define un salto de página para el grupo, la expresión inserta un salto de página cada 25 filas.  
@@ -382,10 +382,10 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =Ceiling(RowNumber(Nothing)/Parameters!RowsPerPage.Value)  
     ```  
   
-##  <a name="Properties"></a> Propiedades  
+##  <a name="properties"></a><a name="Properties"></a> Propiedades  
  Las expresiones no sirven únicamente para mostrar datos en cuadros de texto. También pueden usarse para cambiar cómo se aplican las propiedades a los elementos de informe. Puede cambiar la información de estilo de un elemento de informe o cambiar su visibilidad.  
   
-###  <a name="Formatting"></a> Formato  
+###  <a name="formatting"></a><a name="Formatting"></a> Formato  
   
 -   Cuando se utiliza en la propiedad Color de un cuadro de texto, la siguiente expresión cambia el color del texto según el valor del campo `Profit`:  
   
@@ -415,8 +415,8 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
 ### <a name="chart-colors"></a>Colores de gráfico  
  Para especificar los colores de un gráfico de forma, puede usar código personalizado para controlar el orden con el que los colores se asignan a los valores de punto de datos. Esto le permitirá usar colores coherentes en distintos gráficos que tengan los mismos grupos de categorías. 
   
-###  <a name="Visibility"></a> Visibilidad  
- Puede mostrar y ocultar los elementos de un informe mediante las propiedades de visibilidad del elemento de informe. En una región de datos, como una tabla, puede ocultar inicialmente las filas de detalle en función del valor de una expresión.  
+###  <a name="visibility"></a><a name="Visibility"></a> Visibilidad  
+ Es posible mostrar y ocultar los elementos de un informe mediante las propiedades de visibilidad del elemento de informe. En una región de datos, como una tabla, puede ocultar inicialmente las filas de detalle en función del valor de una expresión.  
   
 -   Cuando se usa para la visibilidad inicial de las filas de detalles de un grupo, la siguiente expresión muestra las filas de detalles de todas las ventas que superen el 90 por ciento en el campo `PctQuota`:  
   
@@ -436,7 +436,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =IIF(Fields!Column_1.IsMissing, true, false)  
     ```  
   
-###  <a name="Hyperlinks"></a> Direcciones URL  
+###  <a name="urls"></a><a name="Hyperlinks"></a> Direcciones URL  
  Puede personalizar las direcciones URL usando los datos del informe y también puede controlar condicionalmente si las direcciones URL se agregan como una acción para un cuadro de texto.  
   
 -   Cuando se usa como una acción en un cuadro de texto, la siguiente expresión genera una dirección URL personalizada que especifica el campo de conjunto de datos `EmployeeID` como un parámetro de URL.  
@@ -445,16 +445,16 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     ="https://adventure-works/MyInfo?ID=" & Fields!EmployeeID.Value  
     ```  
   
--   La expresión siguiente controla de forma condicional si se debe agregar una dirección URL a un cuadro de texto. Esta expresión depende de un parámetro llamado `IncludeURLs` que permite al usuario decidir si desea incluir direcciones URL activas en un informe. Esta expresión se establece como una acción en un cuadro de texto. Para exportar el informe a Microsoft Excel sin hipervínculos, puede establecer el parámetro en False y, a continuación, ver el informe.  
+-   La expresión siguiente controla de forma condicional si debe agregarse una dirección URL a un cuadro de texto. Esta expresión depende de un parámetro llamado `IncludeURLs` que permite al usuario decidir si desea incluir direcciones URL activas en un informe. Esta expresión se establece como una acción en un cuadro de texto. Si se establece el parámetro en FALSE y, a continuación, se visualiza el informe, puede exportar el informe a Microsoft Excel sin hipervínculos.  
   
     ```  
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
-##  <a name="ReportData"></a> Datos del informe  
+##  <a name="report-data"></a><a name="ReportData"></a> Datos del informe  
  Las expresiones pueden usarse para manipular los datos que se incluyen en el informe. Se puede hacer referencia a parámetros y otra información del informe. Puede cambiar incluso la consulta que se usa para recuperar los datos del informe.  
   
-###  <a name="Parameters"></a> Parámetros  
+###  <a name="parameters"></a><a name="Parameters"></a> Parámetros  
  Puede utilizar expresiones en un parámetro para modificar el valor predeterminado del parámetro. Por ejemplo, puede usar un parámetro para filtrar los datos de un usuario determinado basándose en el identificador de usuario utilizado para ejecutar el informe.  
   
 -   Cuando se usa como el valor predeterminado de un parámetro, la siguiente expresión recopila el identificador de usuario de la persona que ejecuta el informe:  
@@ -475,7 +475,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =Fields(Parameters!ParameterField.Value).Value  
     ```  
   
-##  <a name="CustomCode"></a> Código personalizado  
+##  <a name="custom-code"></a><a name="CustomCode"></a> Código personalizado  
  Puede usar código personalizado insertado en un informe. 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>Uso de variables de grupo para la agregación personalizada  
