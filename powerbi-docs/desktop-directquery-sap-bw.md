@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761189"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Conexión a SAP Business Warehouse mediante DirectQuery en Power BI
@@ -42,13 +42,13 @@ Las restricciones de modelado adicionales principales al conectarse a SAP BW med
 Las restricciones adicionales principales relativas a las visualizaciones al conectarse a SAP BW mediante DirectQuery en Power BI son las siguientes:
 
 * **No se permite la agregación de columnas:** no es posible cambiar la agregación de una columna en un objeto visual; es siempre *No resumir*
-* **El filtrado de medidas está deshabilitado:** el filtrado de medidas se deshabilita para reflejar la compatibilidad que ofrece SAP BW.
+* **El filtrado de medidas está deshabilitado:** El filtrado de medidas se deshabilita para reflejar la compatibilidad que ofrece SAP BW.
 * **Selección múltiple e inclusión/exclusión:** la capacidad de selección múltiple de puntos de datos en un objeto visual se deshabilita si los puntos representan valores de más de una columna. Por ejemplo, en un gráfico de barras que muestra las ventas por país, con Category en la leyenda, no sería posible seleccionar el punto de (USA, Bikes) y (France, Clothes). De forma similar, no sería posible seleccionar el punto de (USA, Bikes) y excluirlo del objeto visual. Ambas limitaciones se admiten para reflejar la compatibilidad que ofrece SAP BW.
 
 ## <a name="support-for-sap-bw-features"></a>Compatibilidad con las características de SAP BW
 En la tabla siguiente se enumera todas las características de SAP BW que no son totalmente compatibles, o que se comportarán de forma diferente cuando se usa Power BI.   
 
-| Característica | Descripción |
+| Característica | Description |
 | --- | --- |
 | Cálculos locales |Los cálculos locales definidos en una consulta BEx cambiará los números como muestran herramientas como BEx Analyzer. Sin embargo, no se reflejan en los números que devuelve SAP, a través de la interfaz pública de MDX. <br/> <br/> **Por lo tanto, los números que se ven en un objeto visual de Power BI no necesariamente coincidirán con los de un objeto visual correspondiente en una herramienta SAP.**<br/> <br/>  Por ejemplo, al conectar con un cubo de consultas desde una consulta BEx que establece que la agregación sea acumulada (es decir, suma continua), Power BI devolvería los números base sin tener en cuenta dicha opción.  A partir de ahí, un analista puede aplicar un cálculo de suma continua localmente en Power BI, pero tendría que tener cuidado con respecto a la forma en que se interpretan los números si no se hace. |
 | Agregaciones |En algunos casos (especialmente cuando se trabaja con varias monedas), los números de agregado que devuelve la interfaz pública de SAP no coinciden con los que muestran las herramientas SAP. <br/> <br/> **Por lo tanto, los números que se ven en un objeto visual de Power BI no necesariamente coincidirán con los de un objeto visual correspondiente en una herramienta SAP.** <br/> <br/> Por ejemplo, los totales en distintas monedas se mostrarían como "*" en BEx Analyzer, pero el total lo devolvería la interfaz pública de SAP, sin ninguna información que indique que dicho número de agregado no tiene sentido. Por consiguiente, Power BI mostraría el número (agregando, por ejemplo, $, EUR y AUD). |

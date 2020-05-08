@@ -10,10 +10,10 @@ ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 33d0b7850b5e396d8f03e80cbcb32768fb26bf6d
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439811"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Uso de la obtención de detalles de varios informes en Power BI
@@ -44,7 +44,7 @@ Después de validar los modelos, habilite el informe de origen para usar la obte
 1. En Power BI Desktop, vaya a **Archivo** > **Opciones y configuración** > **Opciones**. 
 1. En la ventana **Opciones** de navegación de la izquierda, en la parte inferior de la sección **Archivo actual**, seleccione **Configuración de informes**. 
 1. En la esquina inferior derecha, debajo de **Obtención de detalles de varios informes**, seleccione **Permitir a los objetos visuales de este informe utilizar los destinos de obtención de detalles de otros informes**. 
-1. Seleccione **Aceptar**. 
+1. Haga clic en **Aceptar**. 
    
    ![Habilitación de la obtención de detalles de varios informes en Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
 
@@ -70,7 +70,7 @@ Puede configurar un destino para la obtención de detalles de varios informes en
 1. Si solo va a usar la página para la obtención de detalles de varios informes, elimine el botón **Atrás** que se agrega automáticamente al lienzo. El botón **Atrás** solo funciona para la navegación dentro de un informe. 
 1. Después de configurar la página de destino, guarde el informe si usa el servicio Power BI, o bien, si usa Power BI Desktop, guárdelo y publíquelo.
 
-Ya está. Los informes están listos para la obtención de detalles de varios informes. 
+Eso es todo. Los informes están listos para la obtención de detalles de varios informes. 
 
 ## <a name="use-cross-report-drillthrough"></a>Uso de la obtención de detalles en varios informes
 

@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495812"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Registro de diagnóstico para el servicio de Power BI Embedded en Azure
@@ -41,7 +41,7 @@ Con los diagnósticos puede responder a ciertos escenarios, como:
     * **Send to Log Analytics** (Enviar a Log Analytics): para usar esta opción, use un área de trabajo existente o cree un área de trabajo de Log Analytics nueva con los pasos para [crear un área de trabajo](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) que aparecen en el portal. Esto aprovecha [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview), que proporciona funcionalidades integradas de notificaciones, paneles y análisis. Puede usar Log Analytics para conectar más datos de otros orígenes y obtener una vista completa unificada de los datos de todos los recursos de la aplicación. También se puede conectar a [Power BI con un solo clic](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi).
     Para más información sobre cómo ver los registros en Log Analytics, consulte [Visualización de los registros de Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity).
     * **Engine** (Motor): seleccione esta opción para registrar el conjunto de [eventos de motor](#whats-logged) que aparece a continuación.
-    * **AllMetrics** (Todas las métricas): seleccione esta opción para almacenar datos detallados en [Métricas](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics). Si va a archivar en una cuenta de almacenamiento, puede seleccionar el período de retención de los registros de diagnóstico. Los registros se eliminan automáticamente una vez que expira el período de retención.
+    * **AllMetrics** (Todas las métricas): seleccione esta opción para almacenar datos detallados en [Métricas](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics). Si va a archivar en una cuenta de almacenamiento, puede seleccionar el período de retención para los registros de diagnóstico. Los registros se eliminan automáticamente una vez que expira el período de retención.
 
 3. Seleccione **Guardar**.
 
@@ -53,7 +53,7 @@ Con los diagnósticos puede responder a ciertos escenarios, como:
 
 Para habilitar las métricas y el registro de diagnóstico mediante PowerShell, use estos comandos:
 
-* Para habilitar el almacenamiento de los registros de diagnóstico en una cuenta de almacenamiento, use este comando:
+* Para habilitar el almacenamiento de registros de diagnóstico en una cuenta de almacenamiento, use este comando:
 
     ```powershell
     Set-AzureRmDiagnosticSetting -ResourceId [your resource id] -StorageAccountId [your storage account id] -Enabled $true
@@ -65,7 +65,7 @@ Para habilitar las métricas y el registro de diagnóstico mediante PowerShell, 
     ```powershell
     Set-AzureRmDiagnosticSetting -ResourceId [your resource id] -ServiceBusRuleId [your service bus rule id] -Enabled $true
     ```
-* El identificador de regla de Azure Service Bus es una cadena que tiene este formato:
+* El identificador de regla de Azure Service Bus es una cadena con este formato:
 
     ```powershell
     {service bus resource ID}/authorizationrules/{key name}
@@ -97,7 +97,7 @@ Obtenga información sobre cómo [habilitar la configuración de diagnóstico en
 
 Puede seleccionar las categorías **Engine** o **AllMetrics**.
 
-### <a name="engine"></a>Engine
+### <a name="engine"></a>Motor
 
 La categoría Engine (Motor) le indica al recurso que registre los eventos siguientes y cada uno de los eventos tiene propiedades:
 
@@ -118,7 +118,7 @@ La categoría Engine (Motor) le indica al recurso que registre los eventos sigui
 | Nombre de la propiedad | Ejemplo de fin de consulta Vertipaq | Descripción de la propiedad |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass (Clase de evento) | XM_SEQUERY_END | Clase de evento se usa para categorizar los eventos. |
-| EventSubclass | 0 | Subclase de evento proporciona información adicional sobre cada clase de evento. (por ejemplo, 0: Examen de VertiPaq) |
+| EventSubclass (Subclase de evento) | 0 | Subclase de evento proporciona información adicional sobre cada clase de evento. (por ejemplo, 0: examen de VertiPaq) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | Identificador de actividad raíz. |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | Hora de inicio del evento, si está disponible. |
 | StartTime | 2018-04-06T18:30:11.9137358Z | Hora de inicio del evento, si está disponible. |
@@ -126,16 +126,16 @@ La categoría Engine (Motor) le indica al recurso que registre los eventos sigui
 | ObjectID | 464 | Identificador de objeto |
 | ObjectType | 802012 | ObjectType |
 | EndTime | 2018-04-06T18:30:11.9137358Z | Hora de finalización del evento. |
-| Duración | 0 | Cantidad de tiempo (en milisegundos) que tarda el evento. |
-| SessionType | Usuario | Tipo de sesión (entidad que ha provocado la operación). |
+| Duration | 0 | Cantidad de tiempo (en milisegundos) que tarda el evento. |
+| SessionType | User (Usuario) | Tipo de sesión (entidad que ha provocado la operación). |
 | ProgressTotal | 0 | Progreso total. |
 | IntegerData | 0 | Datos enteros. |
-| Gravedad | 0 | Nivel de gravedad de una excepción. |
-| Correcto | 1 | 1 = operación completada correctamente. 0 = error (por ejemplo, 1 significa que una comprobación de permisos se realizó correctamente y 0 significa error en dicha comprobación). |
+| Severity | 0 | Nivel de gravedad de una excepción. |
+| Operación completada correctamente | 1 | 1 = operación completada correctamente. 0 = error (por ejemplo, 1 significa que una comprobación de permisos se realizó correctamente y 0 significa error en dicha comprobación). |
 | Error | 0 | Número de error de un evento determinado. |
-| ConnectionID | 3 | Id. de conexión única. |
+| ConnectionID | T3 | Id. de conexión única. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | Identificador del conjunto de datos en el que se ejecuta la instrucción del usuario. |
-| SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | GUID de sesión. |
+| SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | GUID de la sesión. |
 | SPID | 180 | Id. de proceso de servidor. Identifica una sesión de usuario de manera única. Corresponde directamente al GUID de la sesión que XML/A usa. |
 | ClientProcessID | null | El identificador de proceso de la aplicación cliente. |
 | ApplicationName | null | Nombre de la aplicación cliente que creó la conexión al servidor. |

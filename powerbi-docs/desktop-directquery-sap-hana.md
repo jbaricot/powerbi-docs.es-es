@@ -10,16 +10,16 @@ ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 86307a871503dd42e565099b810cb82efa109417
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761235"
 ---
 # <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>Conexión a orígenes de datos SAP HANA mediante DirectQuery en Power BI
 Puede conectarse a los orígenes de datos de **SAP HANA** directamente mediante **DirectQuery**. Hay dos opciones para conectarse a SAP HANA:
 
-* **Tratar SAP HANA como un origen multidimensional (opción predeterminada):**  En este caso, el comportamiento es similar a cuando Power BI se conecta a otros orígenes multidimensionales, como SAP Business Warehouse o Analysis Services. Al conectarse a SAP HANA con esta configuración, se selecciona una única vista de análisis o cálculo, y todas las medidas, jerarquías y atributos de esa vista estarán disponibles en la lista de campos. A medida que se creen objetos visuales, los datos agregados se recuperarán siempre de SAP HANA. Este método, que es el recomendado, es el método predeterminado para los informes nuevos de DirectQuery en SAP HANA.
+* **Tratar SAP HANA como un origen multidimensional (opción predeterminada):** En este caso, el comportamiento es similar a cuando Power BI se conecta a otros orígenes multidimensionales, como SAP Business Warehouse o Analysis Services. Al conectarse a SAP HANA con esta configuración, se selecciona una única vista de análisis o cálculo, y todas las medidas, jerarquías y atributos de esa vista estarán disponibles en la lista de campos. A medida que se creen objetos visuales, los datos agregados se recuperarán siempre de SAP HANA. Este método, que es el recomendado, es el método predeterminado para los informes nuevos de DirectQuery en SAP HANA.
 
 * **Tratar SAP HANA como origen relacional:** en este caso, Power BI trata SAP HANA como un origen relacional. Este escenario ofrece una mayor flexibilidad. Sin embargo, es necesario tener cuidado con este enfoque para garantizar que las medidas se agregan del modo esperado y para evitar problemas de rendimiento.
 

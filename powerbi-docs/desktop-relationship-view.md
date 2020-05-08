@@ -10,10 +10,10 @@ ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: ea568c061142e66e79351de8a6c0f0603a46f775
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76753243"
 ---
 # <a name="work-with-model-view-in-power-bi-desktop"></a>Trabajo con la vista Modelo en Power BI Desktop
@@ -26,4 +26,4 @@ Seleccione el icono **Modelo** cerca del lateral de la ventana para ver una vist
 
 En la ilustración, puede ver que la tabla *Stores* tiene una columna *StoreKey* que está relacionada con la tabla *Sales*, que también tiene una columna *StoreKey*. Las dos tablas tienen una relación del tipo *varios a uno* (\*:1). Una flecha en el centro de la línea muestra la dirección del flujo de contexto del filtro. Las flechas dobles significan que la dirección del filtro cruzado se establece en *Ambos*.
 
-Se puede hacer doble clic en una relación para abrirla en el cuadro de diálogo **Editar relación**. Para obtener más información sobre las relaciones, consulte [Crear y administrar relaciones en Power BI Desktop](desktop-create-and-manage-relationships.md).
+Se puede hacer doble clic en una relación para abrirla en el cuadro de diálogo **Editar relación**. Para obtener más información acerca de las relaciones, vea [Creación y administración de relaciones en Power BI Desktop](desktop-create-and-manage-relationships.md).

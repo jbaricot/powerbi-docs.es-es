@@ -11,10 +11,10 @@ ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
 ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207468"
 ---
 # <a name="manage-data-sources"></a>Administración de orígenes de datos
@@ -25,11 +25,11 @@ Power BI admite muchos [orígenes de datos locales](power-bi-data-sources.md), 
 
 La mayoría de las operaciones de administración de los orígenes de datos también se pueden realizar mediante API. Para más información, vea [API REST (puertas de enlace)](/rest/api/power-bi/gateways).
 
-## <a name="add-a-data-source"></a>Elegir un origen de datos
+## <a name="add-a-data-source"></a>Agregar un origen de datos
 
 1. En la esquina superior derecha del servicio Power BI, seleccione el icono del engranaje ![Icono de engranaje de configuración](media/service-gateway-data-sources/icon-gear.png) > **Administrar puertas de enlace**.
 
-    ![Administrar puertas de enlace](media/service-gateway-data-sources/manage-gateways.png)
+    ![Administración de puertas de enlace](media/service-gateway-data-sources/manage-gateways.png)
 
 2. Seleccione una puerta de enlace y, después, **Agregar origen de datos**. O bien, vaya a **Puertas de enlace** > **Agregar origen de datos**.
 
@@ -87,7 +87,7 @@ El vínculo entre el conjunto de datos y el origen de datos de la puerta de enla
 
 Si aparece en la pestaña **Usuarios** del origen de datos configurado en la puerta de enlace y los nombres del servidor y de la base de datos coinciden, verá la puerta de enlace como una opción para usar con la actualización programada.
 
-![Conexión de puerta de enlace](media/service-gateway-data-sources/gateway-connection.png)
+![Conexión de la puerta de enlace](media/service-gateway-data-sources/gateway-connection.png)
 
 > [!WARNING]
 > Si el conjunto de datos contiene varios orígenes de datos, deberá agregar cada uno en la puerta de enlace. Si no se agregan uno o varios orígenes de datos a la puerta de enlace, no la verá como disponible para la actualización programada.

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 01/03/2020
-ms.openlocfilehash: 0207cbdbc3fae8636f8fd73a008d54ee7d10c5f9
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.date: 05/04/2020
+ms.openlocfilehash: 3e7e1590adbf953db4232ddffa5f26778e5670c2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921617"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781625"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Publicación de un informe paginado en el servicio Power BI
 
@@ -107,9 +107,6 @@ Al igual que cualquier otro informe de Power BI, si el origen de datos del infor
 
 1. Vea el artículo del servicio Power BI [Qué es una puerta de enlace de datos local](../service-gateway-onprem.md) para obtener detalles y conocer los pasos siguientes.
 
-### <a name="gateway-limitations"></a>Limitaciones de la puerta de enlace
-
-Actualmente, las puertas de enlace no admiten parámetros de varios valores.
 
 
 ## <a name="next-steps"></a>Pasos siguientes
