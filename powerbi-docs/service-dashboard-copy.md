@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ab629c15f1e1e998c3870b95993cdf7348cb15ff
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872840"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Creación de una copia de un panel en el servicio Power BI
@@ -35,7 +35,7 @@ Para hacer una copia de un panel, debe ser el *creador* del panel. Los paneles q
    ![Cuadro de diálogo Duplicar panel](media/service-dashboard-copy/power-bi-name.png)
 4. El nuevo panel se guarda en la misma área de trabajo que el original. 
    
-   ![Pestaña Paneles](media/service-dashboard-copy/power-bi-copied.png)
+   ![Pestaña de paneles](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    Abra el nuevo panel y modifíquelo según sea necesario. Estas son algunas acciones que podría desear hacer a continuación:    
     a. [Mover, cambiar el nombre, cambiar el tamaño o incluso eliminar iconos](service-dashboard-edit-tile.md).  

@@ -10,10 +10,10 @@ ms.date: 01/02/2020
 ms.author: gepopell
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b604ade56335e65b25501eb9fe3d3c2fd185a6f0
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761415"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Extensibilidad de los conectores en Power BI
@@ -24,7 +24,7 @@ Para usar conectores personalizados no certificados que usted o un tercero hayan
 
 Otra opción que tiene el desarrollador es firmar el conector con un certificado y proporcionar la información que se necesita para usarlo sin cambiar la configuración de seguridad. Para obtener más información, vea [Acerca de los conectores de terceros de confianza](desktop-trusted-third-party-connectors.md).
 
-## <a name="custom-connectors"></a>Conectores personalizados
+## <a name="custom-connectors"></a>Conectores personalizados.
 
 Los conectores personalizados no certificados pueden abarcar desde pequeñas API críticas para el negocio hasta servicios de gran tamaño específicos del sector para los que Microsoft no ha publicado ningún conector. Muchos conectores son distribuidos por proveedores. Si necesita un conector de datos concreto, póngase en contacto con el proveedor. 
 

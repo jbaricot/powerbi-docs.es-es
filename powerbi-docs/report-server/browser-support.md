@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874303"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Compatibilidad del explorador con el servidor de informes de Power BI
@@ -88,10 +88,10 @@ Si la generación de scripts no está habilitada, verá un mensaje de error simi
 Your browser does not support scripts or has been configured to not allow scripts to run. Click here to view this report without scripts
 ```
 
- Si elige ver el informe sin compatibilidad con scripts, se representa en HTML sin funcionalidades de visor de informes, como la barra de herramientas de informes y el mapa del documento.
+ Si decide ver el informe prescindiendo de la compatibilidad con script, se representará en formato HTML y no incorporará funcionalidad del Visor de informes, como la barra de herramientas Informes y el mapa del documento.
 
 > [!NOTE]
-> La barra de herramientas de informes es parte del componente Visor HTML. De forma predeterminada, aparece en la parte superior de cada informe que se representa en una ventana de explorador. El visor de informes proporciona características que incluyen la posibilidad de buscar información en el informe, desplazarse a una página específica y ajustar el tamaño de página para verla mejor. Para más información sobre la barra de herramientas de informes o el Visor HTML, consulte [HTML Viewer and the Report Toolbar](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar) (Visor HTML y barra de herramientas de informes).
+> La barra de herramientas Informes forma parte del componente Visor HTML. De forma predeterminada, aparece en la parte superior de cada informe que se representa en una ventana de explorador. El visor de informes proporciona características que incluyen la posibilidad de buscar información en el informe, desplazarse a una página específica y ajustar el tamaño de página para verla mejor. Para más información sobre la barra de herramientas de informes o el Visor HTML, consulte [HTML Viewer and the Report Toolbar](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar) (Visor HTML y barra de herramientas de informes).
 > 
 > 
 
@@ -114,7 +114,7 @@ Use un explorador con compatibilidad habilitada para scripts. Si el explorador n
 [Información general de administrador](admin-handbook-overview.md)  
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Descargar SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Descargar las últimas herramientas de datos SQL Server](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: cf08f984e98b1497b04d1e19bd870ebcdda010b3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877223"
 ---
 # <a name="developer-resources-for-power-bi-dataflows"></a>Recursos para desarrolladores de flujos de datos de Power BI
@@ -26,7 +26,7 @@ Hay muchas formas de usar flujos de datos sin código, mediante la creación de 
 Los siguientes recursos para desarrolladores están disponibles para trabajar con flujos de datos de Power BI:
 
 
-| Recurso de flujo de datos | Descripción |
+| Recurso de flujo de datos | Description |
 | --- | --- |
 | [Referencia sobre la API de REST para flujos de datos de Power BI](https://go.microsoft.com/fwlink/?linkid=2047629)    | Una guía de referencia completa sobre la API de REST para flujos de datos.|
 

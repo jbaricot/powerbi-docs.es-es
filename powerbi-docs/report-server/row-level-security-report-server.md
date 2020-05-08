@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
 ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859176"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Seguridad de nivel de fila (RLS) en Power BI Report Server
@@ -97,7 +97,7 @@ Los autores de informes no tendrán acceso para ver los datos del informe en Pow
 
  
 
-## <a name="faq"></a>PREGUNTAS MÁS FRECUENTES 
+## <a name="faq"></a>Preguntas frecuentes 
 
 ### <a name="can-i-create-these-roles-for-analysis-services-data-sources"></a>¿Puedo crear estos roles para orígenes de datos de Analysis Services? 
 
@@ -105,7 +105,7 @@ Puede hacerlo si importa los datos a Power BI Desktop. Si usa una conexión din�
 
 ### <a name="can-i-use-rls-to-limit-the-columns-or-measures-accessible-by-my-users"></a>¿Puedo usar RLS para limitar las columnas o medidas accesibles por mis usuarios? 
 
-No. Si un usuario tiene acceso a una fila de datos determinada, ese usuario puede ver todas las columnas de datos de esa fila. 
+Núm. Si un usuario tiene acceso a una fila de datos determinada, ese usuario puede ver todas las columnas de datos de esa fila. 
 
 ### <a name="does-rls-let-me-hide-detailed-data-but-give-access-to-data-summarized-in-visuals"></a>¿Permite RLS ocultar datos detallados pero dar acceso a datos resumidos en objetos visuales? 
 

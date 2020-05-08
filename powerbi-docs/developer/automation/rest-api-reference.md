@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 05/25/2018
 ms.openlocfilehash: e7f7a94eb94054510046e5e873281cf68eb3bf3d
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79079379"
 ---
 # <a name="power-bi-rest-api-reference"></a>Referencia de la API de REST de Power BI
@@ -27,7 +27,7 @@ La API de REST de Power BI tiene las siguientes operaciones:
 
 * Operaciones de conjunto de datos: obtener y crear conjuntos de datos.
 * Operaciones de tabla: obtener tablas y actualizar el esquema de tabla.
-* Operaciones de fila: agregar y eliminar filas.
+* Operaciones de fila: agregar filas y eliminar filas.
 * Operaciones de grupo: obtener grupos.
 
 Para obtener más información sobre la API de REST de Power BI, vea [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/) (API de REST de Power BI).

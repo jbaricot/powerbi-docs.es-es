@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
 ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75219915"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Visualización del contenido de Power BI compartido con usted desde una organización externa
@@ -24,7 +24,7 @@ Se aplica a:
 
 | ![iPhone](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![iPad](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Teléfono Android](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Tableta Android](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Teléfonos Android |Tabletas Android |
+| iPhones |iPad |Teléfonos Android |Tabletas Android |
 
 ## <a name="accessing-shared-content"></a>Acceder al contenido compartido
 

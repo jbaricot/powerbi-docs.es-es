@@ -9,10 +9,10 @@ ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921134"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Expresiones en el Generador de informes de Power BI
@@ -30,7 +30,7 @@ ms.locfileid: "78921134"
   
  Para escribir expresiones manualmente, seleccione un elemento en la superficie de diseño y utilice los menús contextuales y los cuadros de diálogo para establecer las propiedades del elemento. Cuando vea el botón ***(fx)*** o el valor `<Expression>` en una lista desplegable, sabrá que puede establecer la propiedad en una expresión. 
   
-##  <a name="Types"></a> Descripción de las expresiones simples y complejas  
+##  <a name="understanding-simple-and-complex-expressions"></a><a name="Types"></a> Descripción de las expresiones simples y complejas  
  Las expresiones comienzan por un signo igual (=) y se escriben en Microsoft Visual Basic. Las expresiones pueden incluir una combinación de constantes, operadores y referencias a valores integrados (campos, colecciones y funciones) y a código externo o personalizado.  
   
  Puede utilizar expresiones para especificar el valor de muchas propiedades de elementos de informe. Las propiedades más comunes son los valores de los cuadros de texto y el texto de los marcadores de posición. Normalmente, si un cuadro de texto contiene solo una expresión, esta es el valor de la propiedad del cuadro de texto. Si un cuadro de texto contiene varias expresiones, cada una es el valor del texto de los marcadores de posición en el cuadro de texto.  
@@ -50,31 +50,31 @@ ms.locfileid: "78921134"
 ![Formato de ejemplo de las expresiones en el Generador de informes](media/report-builder-expressions/report-builder-expression-sample-values-format.png)  
 
 
-## <a name="DisplayText"></a> Descripción de los símbolos de prefijo en expresiones simples  
+## <a name="understanding-prefix-symbols-in-simple-expressions"></a><a name="DisplayText"></a> Descripción de los símbolos de prefijo en expresiones simples  
 
-Las expresiones simples usan símbolos para indicar si la referencia es un campo, un parámetro, una colección integrada o la colección ReportItems. En la tabla siguiente se muestran ejemplos de texto para mostrar y texto de la expresión:  
+Las expresiones simples usan símbolos para indicar si la referencia es a un campo, un parámetro, una colección integrada o la colección ReportItems. En la tabla siguiente se muestran ejemplos de texto para mostrar y texto de la expresión:  
   
-|Artículo|Ejemplo de texto para mostrar|Ejemplo de texto de la expresión|  
+|Item (Elemento)|Ejemplo de texto para mostrar|Ejemplo de texto de la expresión|  
 |----------|--------------------------|-----------------------------|  
 |Campos del conjunto de datos|`[Sales]`<br /><br /> `[SUM(Sales)]`<br /><br /> `[FIRST(Store)]`|`=Fields!Sales.Value`<br /><br /> `=Sum(Fields!Sales.Value)`<br /><br /> `=First(Fields!Store.Value)`|  
 |Parámetros de informe|`[@Param]`<br /><br /> `[@Param.Label]`|`=Parameters!Param.Value`<br /><br /> `=Parameters!Param.Label`|  
 |Campos integrados|`[&ReportName]`|`=Globals!ReportName.Value`|  
 |Caracteres literales usados para mostrar texto|`\[Sales\]`|`[Sales]`|  
   
-##  <a name="References"></a> Escritura de expresiones complejas  
+##  <a name="writing-complex-expressions"></a><a name="References"></a> Escritura de expresiones complejas  
  Las expresiones pueden incluir referencias a funciones, operadores, constantes, campos, parámetros, elementos de colecciones integradas y código personalizado insertado o ensamblados personalizados.  
   
  En la tabla siguiente se enumeran los tipos de referencias que puede incluir en una expresión:  
   
-|Referencias|Descripción|Ejemplo|  
+|Referencias|Description|Ejemplo|  
 |----------------|-----------------|-------------|  
-|Constantes|Describe las constantes a las que puede tener acceso interactivamente para las propiedades que requieren valores constantes, como los colores de fuente.|`="Blue"`|  
+|Constantes|Describe las constantes a las que puede tener acceso interactivamente para las propiedades que requieren valores constantes, por ejemplo los colores de fuente.|`="Blue"`|  
 |Operadores|Describe los operadores que puede utilizar para combinar referencias en una expresión. Por ejemplo, el operador **&** se utiliza para concatenar cadenas.|`="The report ran at: " & Globals!ExecutionTime & "."`|  
 |Colecciones integradas|Describe las colecciones integradas que puede incluir en una expresión, por ejemplo, `Fields`, `Parameters` y `Variables`.|`=Fields!Sales.Value`<br /><br /> `=Parameters!Store.Value`<br /><br /> `=Variables!MyCalculation.Value`|  
 |Informes integrados y funciones de agregado|Describe las funciones integradas, como `Sum` o `Previous`, a las que puede tener acceso desde una expresión.|`=Previous(Sum(Fields!Sales.Value))`|  
 |Referencias a código y ensamblados personalizados en expresiones en el Generador de informes |Describe cómo obtener acceso a las clases integradas de CLR `xref:System.Math` y `xref:System.Convert`, otras clases de CLR, funciones de biblioteca en tiempo de ejecución de Visual Basic o métodos de un ensamblado externo.<br /><br /> Describe cómo tener acceso a código personalizado que está insertado en el informe o que se compila e instala como un ensamblado personalizado en el cliente de informes y el servidor de informes.|`=Sum(Fields!Sales.Value)`<br /><br /> `=CDate(Fields!SalesDate.Value)`<br /><br /> `=DateAdd("d",3,Fields!BirthDate.Value)`<br /><br /> `=Code.ToUSD(Fields!StandardCost.Value)`|  
    
-##  <a name="Valid"></a> Validación de expresiones  
+##  <a name="validating-expressions"></a><a name="Valid"></a> Validación de expresiones  
  Cuando se crea una expresión para una propiedad de elemento de informe determinada, las referencias que se pueden incluir en una expresión dependen de los valores que la propiedad deñ elemento de informe puede aceptar y el ámbito en el que se evalúa la propiedad. Por ejemplo:  
   
 -   De forma predeterminada, la expresión [sum] calcula la suma de los datos que están en el ámbito en el momento en que se evalúa la expresión. En el caso de una celda de tabla, el ámbito depende de la pertenencia a grupos de filas y columnas. 

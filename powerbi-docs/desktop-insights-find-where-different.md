@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 33fc0faf92d1730c1d08f91eabc276cdafadfffb
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761120"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>Aplicación de información en Power BI Desktop para detectar dónde varían las distribuciones (versión preliminar)
@@ -66,14 +66,14 @@ Es probable que se pregunte qué significa *diferente*. Por ejemplo, supongamos 
 
 |País  |Ventas (M de $)|
 |---------|----------|
-|EE. UU.      |15        |
+|Estados Unidos      |15        |
 |Canadá   |5         |
 
 Para una categoría de producto determinada (*bicicleta de carretera*), el reparto de ventas podría ser el siguiente:
 
 |País  |Ventas (M de $)|
 |---------|----------|
-|EE. UU.      |3        |
+|Estados Unidos      |T3        |
 |Canadá   |1         |
 
 Aunque los números son diferentes en cada una de estas tablas, los valores relativos entre Estados Unidos y Canadá son idénticos (75 % y 25 % en total y para las bicicletas de carretera). Por este motivo, no se consideran diferentes. Para las medidas de adición simples como esta, el algoritmo busca las diferencias en el valor *relativo*.  
@@ -82,14 +82,14 @@ Por el contrario, considere una medida como un margen, que se calcula como el be
 
 |País  |Margen (%)|
 |---------|----------|
-|EE. UU.      |15        |
+|Estados Unidos      |15        |
 |Canadá   |5         |
 
 Para una categoría de producto determinada (*bicicleta de carretera*), el reparto de ventas podría ser el siguiente:
 
 |País  |Margen (%)|
 |---------|----------|
-|EE. UU.      |3        |
+|Estados Unidos      |T3        |
 |Canadá   |1         |
 
 Dada la naturaleza de dichas medidas, esto *sí* se considera diferente. Para las medidas que no son de adición, como este ejemplo de margen, el algoritmo busca las diferencias en el valor absoluto.

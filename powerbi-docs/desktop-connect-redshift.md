@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c303bbd3fe229ea48dbad3da9d003851f7441956
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761643"
 ---
 # <a name="connect-to-an-amazon-redshift-database-in-power-bi-desktop"></a>Conectarse a una base de datos de Amazon Redshift en Power BI Desktop
@@ -24,7 +24,7 @@ Para conectarse a una base de datos de **Amazon Redshift**, seleccione **Obtener
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
-En la ventana **Amazon Redshift** que aparece, escriba o pegue en el cuadro el nombre de su servidor o de su base de datos de **Amazon Redshift**. Como parte del campo *Servidor*, los usuarios pueden especificar un puerto en el siguiente formato: *URLdelServidor:Puerto*
+En la ventana **Amazon Redshift** que aparece, escriba o pegue en el cuadro el nombre de su servidor o de su base de datos de **Amazon Redshift**. Como parte del campo *Servidor*, los usuarios pueden especificar un puerto en el siguiente formato: *URLdelServidor:Puerto*.
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 
