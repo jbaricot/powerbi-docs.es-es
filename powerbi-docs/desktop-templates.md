@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 25ed90dba0c164a44d691f8247023f2ff7e0a67f
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76913531"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Creación de plantillas de informe para Power BI Desktop
@@ -66,7 +66,7 @@ Una vez que se proporcionan los parámetros necesarios, se le pide la ubicación
 
 Una vez especificados los parámetros y los datos, se crea un informe que contiene todas las páginas, los objetos visuales, los artefactos del modelo de datos y las consultas que formaban parte del informe en el que se basa la plantilla. 
 
-Ya está. Crear y usar plantillas de informe en Power BI Desktop es fácil, lo que permite reproducir fácilmente diseños atractivos y otros aspectos del informe y compartirlos con otros usuarios.
+Eso es todo. Crear y usar plantillas de informe en Power BI Desktop es fácil, lo que permite reproducir fácilmente diseños atractivos y otros aspectos del informe y compartirlos con otros usuarios.
 
 ## <a name="next-steps"></a>Pasos siguientes
 También podría interesarle obtener información sobre los **parámetros de consulta**:

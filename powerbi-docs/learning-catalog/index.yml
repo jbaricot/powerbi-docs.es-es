@@ -10,10 +10,10 @@ metadata:
   ms.author: v-lshann
   ms.date: 04/08/2020
   ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
-  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 04/16/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "81439305"
 landingContent:
 - title: Responsables de toma de decisiones empresariales
@@ -34,11 +34,11 @@ landingContent:
     links:
     - text: Catálogo de cursos para creadores de informes
       url: learning-catalog-report-creator.md#
-    - text: Comenzar
+    - text: Introducción
       url: learning-catalog-report-creator.md#get-started
     - text: Paneles
       url: learning-catalog-report-creator.md#dashboards
-    - text: Diseño del informe
+    - text: Diseño de informes
       url: learning-catalog-report-creator.md#report-design
     - text: Visualización
       url: learning-catalog-report-creator.md#visualization
@@ -50,7 +50,7 @@ landingContent:
     links:
     - text: Catálogo de cursos para analistas de datos
       url: learning-catalog-data-analyst.md#
-    - text: Comenzar
+    - text: Introducción
       url: learning-catalog-data-analyst.md#get-started
     - text: Procedimientos recomendados
       url: learning-catalog-data-analyst.md#best-practices
@@ -72,9 +72,9 @@ landingContent:
     links:
     - text: Catálogo de aprendizaje para administradores
       url: learning-catalog-administrator.md
-    - text: Comenzar
+    - text: Introducción
       url: learning-catalog-administrator.md#get-started
-    - text: Implementar
+    - text: Implementación
       url: learning-catalog-administrator.md#deploy
 - title: Desarrolladores
   linkLists:
@@ -82,7 +82,7 @@ landingContent:
     links:
     - text: Catálogo de aprendizaje para desarrolladores
       url: learning-catalog-developer.md
-    - text: Comenzar
+    - text: Introducción
       url: learning-catalog-developer.md#get-started
     - text: Insertado
       url: learning-catalog-developer.md#embedded
@@ -102,7 +102,7 @@ landingContent:
     links:
     - text: Catálogo de aprendizaje para asesores de aplicaciones funcionales
       url: learning-catalog-functional-consultant.md
-    - text: Comenzar
+    - text: Introducción
       url: learning-catalog-functional-consultant.md#get-started
     - text: Procedimientos recomendados
       url: learning-catalog-functional-consultant.md#best-practices
@@ -124,7 +124,7 @@ landingContent:
     links:
     - text: Catálogo de cursos para arquitectos de soluciones
       url: learning-catalog-solution-architect.md
-    - text: Comenzar
+    - text: Introducción
       url: learning-catalog-solution-architect.md#get-started
     - text: Casos prácticos
       url: learning-catalog-solution-architect.md#case-studies

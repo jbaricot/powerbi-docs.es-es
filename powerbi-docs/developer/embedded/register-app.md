@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
 ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404027"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registro de una aplicación de Azure AD para usarla con Power BI
@@ -54,7 +54,7 @@ Aquí se muestra cómo registrar la aplicación con la herramienta de registro d
 
 5. Si ha seleccionado **Aplicación web del lado servidor** para el tipo de aplicación, continúe con la introducción de un valor para **URL de página principal** y **URL de redireccionamiento**. La **URL de redireccionamiento** funciona con cualquier dirección URL válida y se debe corresponder con la aplicación que ha creado. Si ha seleccionado **Nativa**, vaya al paso 6.
 
-6. Elija las API de Power BI que necesite la aplicación. Para más información sobre los permisos de acceso a Power BI, consulte [Permisos de Power BI](power-bi-permissions.md). Después, haga clic en **Registrar**.
+6. Elija las API de Power BI que necesite la aplicación. Para obtener más información sobre los permisos de acceso a Power BI, consulte [Permisos de Power BI](power-bi-permissions.md). Después, haga clic en **Registrar**.
 
     ![Elección de las API que se van a registrar](media/register-app/register-app-new-app-registration-apis-register.png)
 

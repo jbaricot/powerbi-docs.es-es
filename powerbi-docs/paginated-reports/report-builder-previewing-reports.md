@@ -9,10 +9,10 @@ ms.assetid: ba6b5bdd-d8c6-4aa8-ba32-3a10b11969d4
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: afbc31e3ece8bc72ad52bb2fe7c3d871b2f68e1b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922951"
 ---
 # <a name="previewing-reports-in-power-bi-report-builder"></a>Vista previa de los informes en el Generador de informes de Power BI
@@ -32,9 +32,9 @@ ms.locfileid: "78922951"
 -   Agregar, cambiar o eliminar un conjunto de datos. El conjunto de datos almacenado en memoria caché contiene todos los conjuntos de datos utilizados por un informe y la modificación de cualquier conjunto de datos invalida el conjunto de datos en la memoria caché. Esto incluye cambiar el nombre, la consulta o los campos del conjunto de datos.  
   
     > [!NOTE]  
-    >  Si el conjunto de datos tiene un gran número de campos que no espera utilizar, considere la posibilidad de actualizar el conjunto de datos para omitirlos. Aunque esto crea una nueva sesión de edición y la primera vista previa del informe es más lenta, un conjunto de datos en caché más pequeño resulta beneficioso para el rendimiento del servidor de informes.  
+    >  Si el conjunto de datos tiene un gran número de campos que no espera utilizar, considere la posibilidad de actualizar el conjunto de datos para omitirlos. Aunque esto crea una nueva sesión de edición y la primera vista previa del informe es más lenta, el menor conjunto de datos almacenado en memoria caché resulta beneficioso en conjunto para el rendimiento del servidor de informes.  
   
--   Agregar, cambiar o eliminar un origen de datos. Esto incluye cambiar el nombre o las propiedades del origen de datos, la extensión de los datos del origen de datos o las propiedades de la conexión al origen de datos.  
+-   Agregar, cambiar o eliminar un origen de datos. Esto incluye cambiar el nombre o las propiedades del origen de datos, la extensión de datos del origen de datos o las propiedades de la conexión con el origen de datos.  
   
 -   Cambiar el origen de datos que utiliza el informe a un origen de datos diferente.  
   
@@ -44,7 +44,7 @@ ms.locfileid: "78922951"
   
 -   Agregar, cambiar o eliminar los parámetros de consulta del informe o los valores de los parámetros.  
   
- Los cambios realizados en el diseño del informe y el formato de los datos no afectan al conjunto de datos de la memoria caché. Puede realizar las acciones siguientes sin actualizar el conjunto de datos de la memoria caché:  
+ Los cambios realizados en el diseño del informe y el formato de los datos no afectan al conjunto de datos de la memoria caché. Puede efectuar las acciones siguientes sin actualizar el conjunto de datos almacenado en memoria caché:  
   
 -   Agregar o eliminar regiones de datos, como tablas, matrices o gráficos.  
   
@@ -68,7 +68,7 @@ De forma predeterminada, la memoria caché de los datos puede contener hasta cin
 Con frecuencia, se obtiene una vista previa de un informe como un paso de su actualización para, a continuación, guardar el informe en el servicio Power BI. Cuando se actualiza un informe, es posible que otra persona esté actualizando y guardando el informe al mismo tiempo. El informe que se guarda en último lugar es la versión del informe que está disponible para su posterior consulta y actualización. Esto significa que la versión del informe del que se obtuvo una vista previa podría no ser la versión que se vuelva a abrir. Tiene la opción de guardar el informe con un nombre nuevo mediante la opción **Guardar como** del menú del Generador de informes.  
   
 ## <a name="external-report-items"></a>Elementos externos del informe  
- El informe puede incluir elementos como imágenes externas que se almacenan por separado del informe. Dado que los elementos se almacenan por separado, es posible que se puedan mover a otra ubicación o ser eliminados. Si esto ocurre, podría producirse un error al obtener una vista previa del informe. Puede actualizar el informe para indicar la ubicación actualizada del elemento o, si el elemento se eliminó, reemplazarlo por un elemento existente o eliminar la referencia al elemento desde el informe.  
+ El informe puede incluir elementos como imágenes externas que se almacenan por separado del informe. Dado que los elementos se almacenan por separado, es posible que se puedan mover a otra ubicación o ser eliminados. Si ocurre esto, podría no obtenerse una vista previa del informe. Puede actualizar el informe para indicar la ubicación actualizada del elemento o, si el elemento se eliminó, reemplazarlo por un elemento existente o eliminar la referencia al elemento desde el informe.  
   
 ## <a name="next-steps"></a>Pasos siguientes
 

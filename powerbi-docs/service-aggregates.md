@@ -11,10 +11,10 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
 ms.openlocfilehash: bc172f3f5c25a0f0c3773befe5bd846f95a9a2e0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698357"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Trabajo con agregados (suma, promedio, etc.) en el servicio Power BI
@@ -98,7 +98,7 @@ Por ejemplo, estos datos:
 
 | País | Cantidad |
 |:--- |:--- |
-| Estados Unidos |100 |
+| EE. UU. |100 |
 | Reino Unido |150 |
 | Canadá |100 |
 | Alemania |125 |

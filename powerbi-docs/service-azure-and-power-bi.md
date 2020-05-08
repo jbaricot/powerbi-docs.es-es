@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 6b2b457c2df8e37b4fac3108061a325261f5574b
-ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80487772"
 ---
 # <a name="azure-and-power-bi"></a>Azure y Power BI
 
 Con los servicios de **Azure** y **Power BI**, puede convertir sus operaciones de procesamiento de datos en análisis e informes que proporcionen información detallada en tiempo real sobre su negocio. Tanto si el procesamiento de datos está basado en la nube como si es local, sencillo o complejo, de un origen único o de escala masiva, de almacén o en tiempo real, Azure y Power BI ofrecen integración y conectividad integradas para que sus esfuerzos en inteligencia empresarial cobren vida.
 
-![Azure](media/service-azure-and-power-bi/azure_1.png)
+![Celeste](media/service-azure-and-power-bi/azure_1.png)
 
 Power BI tiene un gran número de conexiones de Azure disponibles, y las soluciones de inteligencia empresarial que puede crear con esos servicios son tan únicas como su negocio. Puede conectar un solo origen de datos de Azure, o bien unos cuantos, y luego modelar y precisar los datos para crear informes personalizados.
 
@@ -34,7 +34,7 @@ Hay mucha más información sobre [Azure SQL Database](https://azure.microsoft.c
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>Transformar, modelar y combinar los datos de la nube
 
-¿Tiene datos más complejos y todo tipo de orígenes? No hay problema. Con **Power BI Desktop** y los servicios de Azure, las conexiones están a una sola pulsación del cuadro de diálogo **Obtener datos** . Desde la misma consulta, puede conectarse a **Azure SQL Database**, al origen de datos de **Azure HDInsight** y a **Azure Blob Storage** (o **Azure Table Storage**) y, luego, seleccionar solo los subconjuntos que necesite de cada uno para refinarlos desde allí.
+¿Tiene datos más complejos y todo tipo de orígenes? No hay problema. Con **Power BI Desktop** y los servicios de Azure, las conexiones están a una sola pulsación del cuadro de diálogo **Obtener datos**. Desde la misma consulta, puede conectarse a **Azure SQL Database**, al origen de datos de **Azure HDInsight** y a **Azure Blob Storage** (o **Azure Table Storage**) y, luego, seleccionar solo los subconjuntos que necesite de cada uno para refinarlos desde allí.
 
 Puede crear informes diferentes para distintos públicos con las mismas conexiones de datos e incluso la misma consulta. Solo tiene que crear una nueva página de informe, refinar las visualizaciones para cada público y observar si mantiene a la empresa informada.
 
@@ -43,8 +43,8 @@ Puede crear informes diferentes para distintos públicos con las mismas conexion
 Para obtener más información, eche un vistazo a los siguientes recursos:
 
 * [Azure SQL Database](https://azure.microsoft.com/services/sql-database/)
-* [Azure HDInsight](https://azure.microsoft.com/services/hdinsight/)
-* [Azure Storage](https://azure.microsoft.com/services/storage/) (Blob storage y Table storage)
+* [HDInsight de Azure](https://azure.microsoft.com/services/hdinsight/)
+* [Azure Storage](https://azure.microsoft.com/services/storage/) (Blob Storage y Table Storage)
 
 ## <a name="get-complex-and-ahead-using-azure-services-and-power-bi"></a>Aumentar la complejidad (y anticiparse) mediante los servicios de Azure y Power BI
 
@@ -56,7 +56,7 @@ Puede realizar la expansión que considere necesaria con Azure y Power BI. Aprov
 
 Inserte visualizaciones de datos, sorprendentes e interactivas, en aplicaciones, sitios web, portales y mucho más, para sacar partido de sus datos empresariales. Con [Power BI Embedded como un recurso de Azure](https://azure.microsoft.com/services/power-bi-embedded/), puede insertar fácilmente informes y paneles interactivos para que sus usuarios disfruten de experiencias coherentes y sumamente confiables en todos los dispositivos.  El uso de Power BI con el análisis integrado sirve para ayudarle en su recorrido desde Datos -> Conocimiento -> Información -> Acciones.  Además, inserte análisis visuales en las [aplicaciones y los portales internos de su organización](https://powerbi.microsoft.com/developers/embedded-analytics/organization/) para ampliar el valor de Power BI y Azure.
 
-Hay mucha información sobre las API de Power BI en el [Portal para desarrolladores de Power BI](https://dev.powerbi.com).
+Hay mucha información acerca de las API de Power BI en el [Portal para desarrolladores de Power BI](https://dev.powerbi.com).
 
 Para más información, consulte [¿Qué es Power BI Embedded de Azure?](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
 

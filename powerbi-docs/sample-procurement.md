@@ -1,6 +1,6 @@
 ---
-title: 'Ejemplo de análisis de adquisiciones: Dar un paseo'
-description: 'Ejemplo de análisis de adquisiciones para Power BI: Dar un paseo'
+title: 'Ejemplo de análisis de adquisiciones: un paseo'
+description: 'Ejemplo de análisis de compra para Power BI: un paseo'
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404659"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de adquisiciones para Power BI: Dar un paseo
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de compra para Power BI: un paseo
 
 El paquete de contenido de ejemplo de análisis de adquisiciones contiene un panel, un informe y un conjunto de datos que permiten analizar el gasto de un fabricante en proveedores por categoría y ubicación. En el ejemplo, exploramos estas áreas:
 
@@ -30,7 +30,7 @@ Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Powe
 
 En este tutorial se explora el paquete de contenido de ejemplo de análisis de adquisiciones del servicio Power BI. Dado que la experiencia de informes es similar en Power BI Desktop y en el servicio, también puede proceder con el archivo .pbix de ejemplo de Power BI Desktop. 
 
-Para explorar los ejemplos de Power BI Desktop, no necesita una licencia de Power BI. Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en Mi área de trabajo del servicio Power BI. 
+Para explorar los ejemplos de Power BI Desktop, no necesita una licencia de Power BI. Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en la sección Mi área de trabajo del servicio Power BI. 
 
 ## <a name="get-the-sample"></a>Obtención del ejemplo
 
@@ -138,7 +138,7 @@ Seleccione **Editar informe** en la esquina superior izquierda y examínelo en l
 * Cambie el tipo de visualización de un gráfico; por ejemplo, cambie el gráfico de rectángulos por un gráfico de anillos.
 * Puede anclar gráficos al panel.
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
+## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: conectarse a sus propios datos
 Este entorno es seguro porque puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
 
 Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecer recomendaciones sobre los datos de ejemplo. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Para obtener más información, consulte [Introducción al servicio Power BI](service-get-started.md).

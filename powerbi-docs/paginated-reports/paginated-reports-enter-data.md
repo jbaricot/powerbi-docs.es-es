@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
 ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922100"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Escritura directa de datos en un informe paginado en el Generador de informes: Power BI
@@ -25,7 +25,7 @@ En este artículo, obtendrá información sobre una característica de la nueva 
 - Para guardar el informe paginado en el servicio Power BI, necesita una [cuenta de Power BI Pro](../service-self-service-signup-for-power-bi.md) y acceso de escritura a un área de trabajo en una [capacidad Premium de Power BI](../service-premium-what-is.md).
 - Para guardar el informe paginado en un servidor de informes, necesita permisos para [editar el archivo RsReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
-## <a name="get-started"></a>Comenzar
+## <a name="get-started"></a>Introducción
 
 Una vez que haya descargado e instalado el Generador de informes, siga el mismo flujo de trabajo que usa para agregar un origen de datos y un conjunto de datos insertados al informe. En el siguiente procedimiento, en **Orígenes de datos** verá una nueva opción: **Especificar datos**.  Solo tiene que configurar este origen de datos una vez en un informe. Después, puede crear varias tablas de datos especificados como conjuntos de datos independientes, todo ello con ese único origen de datos.
 

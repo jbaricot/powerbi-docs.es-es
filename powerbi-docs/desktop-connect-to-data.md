@@ -11,10 +11,10 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 751a53e2bfe0c9743a71cc41aa349afa23fd013a
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76539197"
 ---
 # <a name="connect-to-data-sources-in-power-bi-desktop"></a>Conexión a orígenes de datos en Power BI Desktop
@@ -39,7 +39,7 @@ Seleccione **Obtener datos** > **Otros** > **Web**. En **De la web**, escriba la
 
 ![Indicación de una dirección de origen web](media/desktop-connect-to-data/connecttodata_3.png)
 
-Al seleccionar **Aceptar**, la funcionalidad de *consulta* de Power BI Desktop entra en acción. Power BI Desktop conecta con el recurso web y la ventana **Navegador** devuelve los resultados de lo que encontró en la página web. En este caso, encuentra una tabla y el documento general. Nos interesa la tabla, así que la seleccionamos de la lista. La ventana **Navegador** muestra una vista previa.
+Al seleccionar **Aceptar**, la funcionalidad de *consulta* de Power BI Desktop entra en acción. Power BI Desktop conecta con el recurso web y la ventana  **Navegador** devuelve los resultados de lo que encontró en la página web. En este caso, encuentra una tabla y el documento general. Nos interesa la tabla, así que la seleccionamos de la lista. La ventana **Navegador** muestra una vista previa.
 
 ![Vista previa de los datos en el Navegador](media/desktop-connect-to-data/datasources_fromnavigatordialog.png)
 
@@ -76,7 +76,7 @@ Se puede hacer todo tipo de cosas con Power BI Desktop. Para obtener más inform
 * [Combinar datos y darles forma en Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Realización de tareas de consultas comunes en Power BI Desktop](desktop-common-query-tasks.md)   
 
-¿Desea enviar comentarios? Magnífico. Utilice el elemento de menú **Enviar una idea** en Power BI Desktop o visite [Comentarios de la comunidad](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). ¡Esperamos tener noticias suyas!
+¿Desea enviar comentarios? Excelente. Utilice el elemento de menú **Enviar una idea** en Power BI Desktop o visite [Comentarios de la comunidad](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). ¡Esperamos tener noticias suyas!
 
 ![Enviar una idea](media/desktop-connect-to-data/sendfeedback.png)
 

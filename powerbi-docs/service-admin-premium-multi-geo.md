@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: 4b30e2fbf4ec3607b3ee155749a1ddeeb9f76cad
-ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80147363"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configuración de compatibilidad con Multi-Geo en Power BI Premium
@@ -27,7 +27,7 @@ Multi-Geo es una característica de Power BI Premium que ayuda a que los cliente
 - Europa
 - Japón
 - India
-- Asia Pacífico
+- Asia Oriental
 - Australia
 - África
 

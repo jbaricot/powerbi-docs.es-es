@@ -1,6 +1,6 @@
 ---
-title: 'Ejemplo de análisis de gasto en TI para Power BI: Dar un paseo'
-description: 'Ejemplo de análisis de gasto en TI para Power BI: Dar un paseo'
+title: 'Ejemplo de análisis de gasto en TI para Power BI: un paseo'
+description: 'Ejemplo de análisis de gasto en TI para Power BI: un paseo'
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 00effa1838327a9463671cf9be2f5764be71deb4
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404700"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de gasto en TI para Power BI: Dar un paseo
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de gasto en TI para Power BI: un paseo
 
 El paquete de contenido Ejemplo de análisis de gastos de TI contiene un panel, informe y conjunto de datos que analizan los costos planeados frente a los costos reales de un departamento de TI. Esta comparación nos ayuda a comprender la calidad del planeamiento anual y de la investigación de las áreas con enormes desviaciones del planeamiento que ha realizado la empresa. La empresa de este ejemplo pasa por un ciclo de planeamiento anual y produce trimestralmente un nuevo último cálculo que ayuda a analizar los cambios del gasto en TI durante el año fiscal.
 
@@ -24,9 +24,9 @@ El paquete de contenido Ejemplo de análisis de gastos de TI contiene un panel, 
 
 Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Se ha creado mediante [obviEnce](http://www.obvience.com/) con datos reales anonimizados. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
 
-En este tutorial se explora el paquete de contenido de ejemplo de análisis de gastos de TI del servicio Power BI. Dado que la experiencia de informes es similar en Power BI Desktop y en el servicio, también puede proceder con el archivo .pbix de ejemplo de Power BI Desktop. 
+En este tutorial se explora el paquete de contenido de ejemplo de análisis de gastos de TI del servicio Power BI. Dado que la experiencia de informes es similar en Power BI Desktop y en el servicio, también puede proceder con el archivo .pbix de ejemplo de Power BI Desktop. 
 
-Para explorar los ejemplos de Power BI Desktop, no necesita una licencia de Power BI. Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en Mi área de trabajo del servicio Power BI. 
+Para explorar los ejemplos de Power BI Desktop, no necesita una licencia de Power BI. Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en la sección Mi área de trabajo del servicio Power BI. 
 
 ## <a name="get-the-sample"></a>Obtención del ejemplo
 
@@ -72,7 +72,7 @@ Pero si solo miramos este gráfico y sacamos conclusiones podemos equivocarnos. 
 1. Seleccione **Australia y Nueva Zelanda** en el gráfico **Var Plan % by Sales Region** (% de desviación del planeamiento por región de venta) y observe el gráfico **Var Plan by IT Area** (Desviación del planeamiento por área de TI).
 
    ![Página de análisis de tendencia de gasto en TI hasta la fecha](media/sample-it-spend/it3.png)
-2. Ahora seleccione **EE. UU.** Para hacerse una idea, Australia supone una parte muy reducida de nuestro gasto general en comparación con EE. Tenga en cuenta que Australia y Nueva Zelanda son una parte muy pequeña de nuestro gasto general en comparación con Estados Unidos.
+2. Ahora seleccione **EE. UU.** Tenga en cuenta que Australia y Nueva Zelanda son una parte muy pequeña de nuestro gasto general en comparación con Estados Unidos.
 
     A continuación, veamos qué categoría en EE. UU. está causando la desviación.
 
@@ -126,7 +126,7 @@ Seleccione **Editar informe** en la esquina superior izquierda para explorar en 
 * Cambie el tipo de visualización para cada gráfico.
 * Ancle gráficos de interés al panel.
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
+## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: conectarse a sus propios datos
 Este entorno es seguro porque puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
 
 Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecer recomendaciones sobre los datos de ejemplo. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Para obtener más información, consulte [Introducción al servicio Power BI](service-get-started.md).

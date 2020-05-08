@@ -10,10 +10,10 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878874"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Agregar una columna personalizada en Power BI Desktop
@@ -38,7 +38,7 @@ Para empezar a crear una columna personalizada, siga estos pasos:
 
 2. En la pestaña **Agregar columna** en la cinta de opciones, seleccione **Columna personalizada**.
 
-   ![Seleccionar Columna personalizada](media/desktop-add-custom-column/add-custom-column_02.png)
+   ![Selección de una columna personalizada](media/desktop-add-custom-column/add-custom-column_02.png)
 
    Se abre la ventana **Agregar columna personalizada**.
 
@@ -67,7 +67,7 @@ La ventana **Agregar columna personalizada** tiene las siguientes característic
 
    ![Error en la página Agregar columna personalizada](media/desktop-add-custom-column/add-custom-column_05.png)
 
-3. Seleccione **Aceptar**. 
+3. Haga clic en **Aceptar**. 
 
    Power BI Desktop agrega la columna personalizada al modelo y agrega el paso **Personalizada agregada** a la lista **Pasos aplicados** de la consulta en **Configuración de la consulta**.
 

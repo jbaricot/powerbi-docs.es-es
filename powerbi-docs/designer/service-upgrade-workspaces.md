@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 266a8609123f05f258daee60f6ae17f032ebae29
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74410816"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Actualización de las áreas de trabajo clásicas a las áreas de trabajo nuevas en Power BI
@@ -38,7 +38,7 @@ Es necesario hacer varias tareas *después* de actualizar. Es mejor planearlas *
 
 Cualquier administrador del área de trabajo puede actualizarla. En el caso de las áreas de trabajo clásicas, para ser administrador del área de trabajo debe ser Propietario del grupo de Office 365 subyacente. Para actualizar un área de trabajo, siga estos pasos.
 
-1. En la lista de contenido del área de trabajo, seleccione **Más opciones** (**…**) > **Editar esta área de trabajo**.
+1. En la lista de contenido del área de trabajo, seleccione **Más opciones** ( **…** ) > **Editar esta área de trabajo**.
 
     ![Editar esta área de trabajo](media/service-upgrade-workspaces/power-bi-content-list-edit-workspace.png)
 
@@ -146,7 +146,7 @@ Como parte de la experiencia de actualización, durante 30 días a contar de la 
 
 Para volver atrás, debe ser Propietario del grupo de Office 365 con el que estaba asociada el área de trabajo antes de la actualización. Siga estos pasos.
 
-1. En la lista de contenido del área de trabajo, seleccione **Más opciones** (**…**) > **Configuración del área de trabajo**.
+1. En la lista de contenido del área de trabajo, seleccione **Más opciones** ( **…** ) > **Configuración del área de trabajo**.
 
     ![Configuración del área de trabajo](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
 
@@ -212,4 +212,4 @@ Se pueden producir varios problemas conocidos:
 ## <a name="next-steps"></a>Pasos siguientes
 * [Crear las nuevas áreas de trabajo en Power BI](../service-create-the-new-workspaces.md)
 * [Crear las áreas de trabajo clásicas](../service-create-workspaces.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+* ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
