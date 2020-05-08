@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
 ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79041686"
 ---
 # <a name="power-bi-data-sources"></a>Orígenes de datos de Power BI
@@ -25,7 +25,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 
 | Origen de datos | Conexión desde el Escritorio | Conexión y actualización desde el servicio | DirectQuery/Conexiones dinámicas | Puerta de enlace (compatible) | Puerta de enlace (obligatoria) |
 |---|---|---|---|---|---|---|---|
-| Base de datos Access | Sí | Sí | No | Sí <sup>1</sup> | Sí |
+| Base de datos de Access | Sí | Sí | No | Sí <sup>1</sup> | Sí |
 | Active Directory | Sí | Sí | No | Sí | Sí |
 | Adobe Analytics | Sí | Sí | No | No | No |
 | Amazon Redshift | Sí | Sí | Sí | Sí | No |
@@ -62,7 +62,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Exasol | Sí | Sí | Sí | Sí | Sí |
 | Excel | Sí <sup>3</sup> | Sí <sup>3</sup> | No | Sí <sup>3</sup> | No <sup>4</sup> |
 | Facebook | Sí | Sí | No | No | No |
-| Archivo | Sí | Sí | No | Sí | Sí |
+| archivo | Sí | Sí | No | Sí | Sí |
 | Carpeta | Sí | Sí | No | Sí | Sí |
 | GitHub | Sí | Sí | No | No | No |
 | Google Analytics | Sí | Sí | No | No | No |
@@ -86,7 +86,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | MarkLogic ODBC | Sí | Sí | Sí | Sí | Sí |
 | Microsoft Azure Consumption Insights | Sí | Sí | No | No | No |
 | Microsoft Exchange | Sí | Sí | No | Sí | No |
-| Microsoft Exchange Online | Sí | Sí | No | No | No |
+| Microsoft Exchange Online | Sí | Sí | No | No | No |
 | Microsoft Graph Security | Sí | Sí | No | Sí | No |
 | Mixpanel | Sí | Sí | No | No | No |
 | MySQL | Sí | Sí | No | Sí | Sí |
@@ -100,14 +100,14 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Planview Enterprise One - PRM | Sí | Sí | No | No | No |
 | Planview Projectplace | Sí | Sí | No | No | No |
 | PostgreSQL | Sí | Sí | Sí | Sí | No |
-| Flujos de datos de Power BI | Sí | Sí | No | No | No |
-| Conjuntos de datos de Power BI | Sí | Sí | Sí | No | No |
+| Flujos de datos de Power BI | Sí | Sí | No | No | No |
+| Conjuntos de datos de Power BI | Sí | Sí | Sí | No | No |
 | Flujos de datos de Power Platform | Sí | Sí | No | No | No |
 | Script de Python | Sí | Sí <sup>5</sup> | No | Sí <sup>5</sup> | Sí |
 | QubolePresto | Sí | Sí | Sí | Sí | Sí |
 | Quick Base | Sí | Sí | No | Sí | Sí |
 | QuickBooks Online | Sí | Sí | No | No | No |
-| Script de R | Sí | Sí <sup>5</sup> | No | Sí <sup>5</sup> | No |
+| Script R | Sí | Sí <sup>5</sup> | No | Sí <sup>5</sup> | No |
 | Roamler | Sí | Sí | No | Sí | No |
 | Objetos de Salesforce | Sí | Sí | No | No | No |
 | Informes de Salesforce | Sí | Sí | No | No | No |
@@ -121,7 +121,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Snowflake | Sí | Sí | Sí | Sí | No |
 | Spark | Sí | Sí | Sí | Sí | No |
 | SparkPost | Sí | Sí | No | No | No |
-| SQL Server | Sí | Sí | Sí | Sí | Sí |
+| SQL Server | Sí | Sí | Sí | Sí | Sí |
 | SQL Server Analysis Services | Sí | Sí | Sí | Sí | Sí |
 | Stripe | Sí | Sí | No | No | No |
 | SurveyMonkey | Sí | Sí | No | Sí | No |
@@ -129,7 +129,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Sybase | Sí | Sí | No | Sí | Sí |
 | TeamDesk | Sí | Sí | No | Sí | No |
 | Tenforce | Sí | Sí | No | No | No |
-| Teradatos | Sí | Sí | Sí | Sí | Sí |
+| Teradata | Sí | Sí | Sí | Sí | Sí |
 | Texto o CSV | Sí | Sí | No | Sí | No <sup>4</sup> |
 | Twilio | Sí | Sí | No | No | No |
 | tyGraph | Sí | Sí | No | No | No |
@@ -166,8 +166,8 @@ La opción SSO surte efecto en todos los conjuntos de datos que usan este origen
 - Servidor de mensajes de SAP BW
 - Snowflake
 - Spark
-- SQL Server
-- Teradatos
+- SQL Server
+- Teradata
 
 > [!Note]
 > No se admite Azure Multi-Factor Authentication (MFA). Los usuarios que quieran usar SSO con DirectQuery se deben excluir de MFA.
