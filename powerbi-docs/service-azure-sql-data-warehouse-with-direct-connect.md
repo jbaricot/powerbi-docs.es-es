@@ -8,14 +8,14 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 932c13b84184ad237879e33e943d85020640dd4c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 472eacea2a84d1f4a71d6869406e17f2ffd03e6b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698331"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82255883"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse con DirectQuery
 
@@ -61,7 +61,7 @@ SQL Data Warehouse también se muestra en la página Obtener datos de Power BI.
 
     ![Bases de datos](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
 
-3. Seleccione **SQL Data Warehouse**\>**Conectar**.
+3. Seleccione **SQL Data Warehouse** \> **Conectar**.
 
     ![Azure SQL Data Warehouse con conexión directa](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 

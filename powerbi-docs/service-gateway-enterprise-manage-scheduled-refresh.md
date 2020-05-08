@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 13d8cd9838cdcb035e7dd30a1180ac77957441ea
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207422"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Administrar el origen de datos: importación o actualización programada
@@ -22,7 +22,7 @@ ms.locfileid: "79207422"
 
 Después de [instalar la puerta de enlace de datos local](/data-integration/gateway/service-gateway-install), tendrá que [agregar orígenes de datos](service-gateway-data-sources.md#add-a-data-source) que se puedan usar con ella. En este artículo se examina cómo trabajar con puertas de enlace y orígenes de datos que se usan para la actualización programada en lugar de DirectQuery o conexiones dinámicas.
 
-## <a name="add-a-data-source"></a>Elegir un origen de datos
+## <a name="add-a-data-source"></a>Agregar un origen de datos
 
 Para más información sobre cómo agregar un origen de datos, consulte [Adición de un origen de datos](service-gateway-data-sources.md#add-a-data-source). Seleccione un tipo de origen de datos.
 
@@ -39,7 +39,7 @@ Después, rellene la información del origen de datos, incluidas la información
 
 Para obtener una lista de tipos de orígenes de datos que se pueden usar con la actualización programada, vea [Lista de tipos de orígenes de datos disponibles](service-gateway-data-sources.md#list-of-available-data-source-types).
 
-Después de rellenar todo, seleccione **Agregar**. Ahora puede usar este origen de datos para la actualización programada con sus datos locales. Si se realiza correctamente, verá el mensaje *Conexión correcta*.
+Después de rellenar todo, seleccione **Agregar**. Ahora puede usar este origen de datos para la actualización programada con sus datos locales. Si se realiza correctamente, verá el mensaje *Se conectó correctamente*.
 
 ![Representación del estado de conexión](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings4.png)
 
@@ -56,14 +56,14 @@ Después de haber creado el origen de datos, estará disponible para usarse con 
 > [!NOTE]
 > El nombre del servidor y de la base de datos deben coincidir entre Power BI Desktop y el origen de datos dentro de la puerta de enlace de datos local.
 
-El vínculo entre el conjunto de datos y el origen de datos dentro de la puerta de enlace se basa en el nombre del servidor y en el nombre de la base de datos. Estos nombres deben coincidir. Por ejemplo, si proporciona una dirección IP para el nombre del servidor, dentro de Power BI Desktop, tendrá que usar la dirección IP del origen de datos dentro de la configuración de la puerta de enlace. Si usa *SERVIDOR\INSTANCIA* en Power BI Desktop, también tiene que usar lo mismo en el origen de datos configurado para la puerta de enlace.
+El vínculo entre el conjunto de datos y el origen de datos dentro de la puerta de enlace se basa en el nombre del servidor y en el nombre de la base de datos. Estos nombres deben coincidir. Por ejemplo, si proporciona una dirección IP para el nombre del servidor, dentro de Power BI Desktop, tendrá que usar la dirección IP del origen de datos dentro de la configuración de la puerta de enlace. Si usa *SERVER\INSTANCE* en Power BI Desktop, también tiene que usar lo mismo en el origen de datos configurado para la puerta de enlace.
 
 Si aparece en la pestaña **Usuarios** del origen de datos configurado dentro de la puerta de enlace y los nombres del servidor y de la base de datos coinciden, verá la puerta de enlace como una opción para usar con la actualización programada.
 
 ![Representación de los usuarios](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
 
 > [!WARNING]
-> Si el conjunto de datos contiene varios orígenes de datos, deberá agregar cada uno de los orígenes de datos dentro de la puerta de enlace. Si no se agrega uno o más orígenes de datos a la puerta de enlace, no la verá como disponible para la actualización programada.
+> Si el conjunto de datos contiene varios orígenes de datos, deberá agregar cada uno de los orígenes de datos dentro de la puerta de enlace. Si no se agregan uno o varios orígenes de datos a la puerta de enlace, no la verá como disponible para la actualización programada.
 
 ## <a name="limitations"></a>Limitaciones
 

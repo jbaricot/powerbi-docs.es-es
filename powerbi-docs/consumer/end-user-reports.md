@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114251"
 ---
 # <a name="reports-in-power-bi"></a>Informes en Power BI
@@ -62,7 +62,7 @@ Los [paneles](end-user-dashboards.md) suelen confundirse con informes, ya que ta
 | Filtrado |No es posible filtrar ni segmentar |Numerosas formas de filtrar, resaltar y segmentar |
 | Establecimiento de alertas |Se pueden crear alertas para enviarlas por correo electrónico cuando el panel cumple determinadas condiciones |No |
 | Característica |Se puede establecer un panel como panel destacado |No es posible crear un informe destacado |
-| Se pueden ver campos y tablas del conjunto de datos subyacentes |No. Se pueden exportar los datos, pero no se pueden ver las tablas ni los campos del conjunto de datos en el panel |Sí. Se pueden ver las tablas, los campos y los valores del conjunto de datos para los que se tienen permisos |
+| Se pueden ver campos y tablas del conjunto de datos subyacentes |Núm. Se pueden exportar los datos, pero no se pueden ver las tablas ni los campos del conjunto de datos en el panel |Sí. Se pueden ver las tablas, los campos y los valores del conjunto de datos para los que se tienen permisos |
 | Personalización |No  |Se puede filtrar, exportar, ver el contenido relacionado, agregar marcadores, generar códigos QR, analizar en Excel, etc. |
 
 <!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |

@@ -10,30 +10,30 @@ ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
 ms.openlocfilehash: fea4e4927b009e30bc040593f9237cc49ff73956
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921456"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Datos del informe en el Generador de informes de Power BI
 
-Los datos del informe pueden proceder de varios orígenes de datos de la organización. El primer paso para diseñar un informe en el Generador de informes de Power BI consiste en crear los orígenes de datos y los conjuntos de datos que representan los datos del informe subyacente. Cada origen de datos incluye la información de la conexión de datos. Cada conjunto de datos incluye un comando de consulta que define el conjunto de campos que se utilizan como datos de un origen de datos. Para visualizar los datos de cada conjunto de datos, agregue una región de datos, como una tabla, una matriz, un gráfico o un mapa. Cuando se procesa el informe, las consultas se ejecutan en el origen de datos y cada región de datos se expande según sea necesario para mostrar los resultados de la consulta para el conjunto de datos.  
+Los datos del informe pueden proceder de varios orígenes de datos de la organización. El primer paso para diseñar un informe en el Generador de informes de Power BI consiste en crear los orígenes de datos y los conjuntos de datos que representan los datos del informe subyacente. Cada origen de datos incluye información de conexión de datos. Cada conjunto de datos incluye un comando de consulta que define el conjunto de campos que se utilizan como datos de un origen de datos. Para visualizar los datos de cada conjunto de datos, agregue una región de datos, como una tabla, una matriz, un gráfico o un mapa. Cuando se procesa el informe, las consultas se ejecutan en el origen de datos y cada región de datos se expande según sea necesario para mostrar los resultados de la consulta para el conjunto de datos.  
 
 Obtenga información sobre la [Creación de un origen de datos insertado para informes paginados en el Generador de informes de Power BI](paginated-reports-embedded-data-source.md).
 
 
-##  <a name="BkMk_ReportDataTerms"></a> Términos  
+##  <a name="terms"></a><a name="BkMk_ReportDataTerms"></a> Términos  
   
-- **Conexión de datos.** También se conoce como un *origen de datos*. Una conexión de datos incluye un nombre de conexión y propiedades que dependen del tipo de conexión. Por diseño, una conexión de datos no incluye las credenciales. Una conexión de datos no especifica qué datos deben recuperarse del origen de datos externo. Para ello, se especifica una consulta al crear un conjunto de datos.  
+- **Conexión de datos.** También se conoce como un *origen de datos*. Una conexión de datos incluye un nombre de conexión y propiedades que dependen del tipo de conexión. Por diseño, una conexión de datos no incluye las credenciales. Una conexión de datos no especifica qué datos deben recuperarse del origen de datos externo. Para ello, se especifica una consulta cuando se crea un conjunto de datos.  
   
 - **Cadena de conexión.** Una cadena de conexión es una versión de cadena de las propiedades de conexión que son necesarias para conectarse a un origen de datos. Las propiedades de conexión varían en función del tipo de conexión de datos.  
   
-- **Origen de datos insertado.** También se denomina un *origen de datos específico del informe*. Un origen de datos que se define en un informe y se usa solo en ese informe.  
+- **Origen de datos insertado.** También conocido como *origen de datos específicos del informe*. Un origen de datos que se define en un informe y se usa solo en ese informe.  
   
 - **Credenciales.** Las credenciales son la información de autenticación que se debe proporcionar para poder tener acceso a datos externos.  
   
-##  <a name="BkMk_ReportDataTips"></a> Sugerencias para especificar los datos del informe
+##  <a name="tips-for-specifying-report-data"></a><a name="BkMk_ReportDataTips"></a> Sugerencias para especificar los datos del informe
 
  Use la siguiente información para diseñar la estrategia de datos del informe.  
   

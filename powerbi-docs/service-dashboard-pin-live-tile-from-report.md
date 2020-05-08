@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853070"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Anclar una página de informe completa, como un icono dinámico, a un panel de Power BI
@@ -37,7 +37,7 @@ Ve cómo Amanda ancla una página de un informe activo a un panel y, luego, siga
 2. Sin que haya ninguna visualización seleccionada, en la barra de menús, seleccione **Página Anclar elemento activo**.
    
    ![Icono de Página Anclar elemento activo](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. Ancle el icono a un panel existente o a un nuevo panel. Observe el texto resaltado: *La página Anclar elemento activo permite mostrar en el icono del panel los cambios en los informes cuando se actualiza la página.*
+3. Ancle el icono a un panel existente o a un nuevo panel. Observe el texto resaltado: *Página Anclar elemento activo permite realizar cambios en los informes que aparecen en el icono del panel cuando se actualiza la página.*
    
    * Panel existente: seleccione el nombre del panel en la lista desplegable. Los paneles compartidos con usted no aparecerán en la lista desplegable.
    * Nuevo panel: escriba el nombre del nuevo panel.

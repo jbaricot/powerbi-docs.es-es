@@ -10,10 +10,10 @@ ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 28be15b1f62f410c14faaa5d3e8c36060596c466
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79208135"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Autoservicio de preparación de los datos en Power BI
@@ -26,7 +26,7 @@ Power BI presenta los **flujos de datos** para ayudar a las organizaciones a uni
 
 Los datos se almacenan como entidades en [**Common Data Service**](https://docs.microsoft.com/powerapps/common-data-model/overview) en Azure Data Lake Storage Gen2. Los flujos de datos se crean y administran en las áreas de trabajo mediante el servicio Power BI.  
  
-Los **flujos de datos**se han diseñado para usar**Common Data Service**, una colección estandarizada, modular y extensible de esquemas de datos publicados por Microsoft que están diseñados para facilitarle la compilación, el uso y el análisis de datos. Con este modelo, puede pasar de los orígenes de datos a los paneles de Power BI prácticamente sin hacer nada.
+Los **flujos de datos** se han diseñado para usar **Common Data Service**, una colección estandarizada, modular y extensible de esquemas de datos publicados por Microsoft que están diseñados para facilitarle la compilación, el uso y el análisis de datos. Con este modelo, puede pasar de los orígenes de datos a los paneles de Power BI prácticamente sin hacer nada.
 
 Puede usar los flujos de datos para ingerir datos desde un conjunto grande y creciente de orígenes de datos basados en la nube y locales compatibles, incluidos Dynamics 365, Salesforce, Azure SQL Database, Excel, SharePoint y muchos más.
 

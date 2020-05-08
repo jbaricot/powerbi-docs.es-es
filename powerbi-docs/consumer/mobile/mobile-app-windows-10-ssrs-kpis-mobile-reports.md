@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
 ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435384"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Visualización de informes y KPI del entorno local en la aplicación Power BI para Windows
@@ -75,7 +75,7 @@ Los KPI y los informes móviles de Reporting Services y los informes de Power B
 * Puntee un KPI para verlo en el modo de enfoque.
   
     ![KPI en modo de enfoque](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-kpis.png)
-* Puntee un informe móvil para abrirlo e interactuar con él en la aplicación de Power BI.
+* Pulse un informe móvil para abrirlo e interactuar con él en la aplicación de Power BI.
   
     ![Informes móviles de Reporting Services](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
@@ -108,5 +108,5 @@ Los informes móviles y KPI de Reporting Services no se crean en la aplicación 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Introducción a la aplicación móvil de Power BI para Windows 10](mobile-windows-10-phone-app-get-started.md)  
 * [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)  
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+* ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

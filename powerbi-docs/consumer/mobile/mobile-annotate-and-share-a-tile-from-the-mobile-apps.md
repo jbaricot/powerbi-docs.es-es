@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205513"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Anotación y uso compartido de un icono, informe u objeto visual en las aplicaciones móviles de Power BI
@@ -20,7 +20,7 @@ Se aplica a:
 
 | ![iPhone](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/ipad-logo-50-px.png) | ![Teléfono Android](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Tableta Android](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Teléfonos Android |Tabletas Android |
+| iPhones |iPad |Teléfonos Android |Tabletas Android |
 
 Puede anotar y compartir una instantánea de un icono, un informe o un objeto visual desde la aplicación móvil de Power BI para dispositivos iOS y Android. Los destinatarios la verán exactamente igual que como era cuando envió el correo, más un vínculo. Puede enviar instantáneas de iconos a cualquier persona, no solo a compañeros en el mismo dominio de correo electrónico. Puede agregarle anotaciones (líneas, texto o marcas) antes de compartirla.
 
@@ -73,5 +73,5 @@ También puede [compartir un icono desde la aplicación móvil de Power BI para 
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Compartir un panel desde las aplicaciones móviles de Power BI](mobile-share-dashboard-from-the-mobile-apps.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+* ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

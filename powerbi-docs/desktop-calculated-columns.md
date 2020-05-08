@@ -10,10 +10,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 425bf50ad6eb4da9b50f7d9cdc760ef71cb7bff2
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76753327"
 ---
 # <a name="create-calculated-columns-in-power-bi-desktop"></a>Creación de columnas calculadas en Power BI Desktop
@@ -21,7 +21,7 @@ Con las columnas calculadas, se pueden agregar nuevos datos a una tabla ya exist
 
 A diferencia de las columnas personalizadas creadas como parte de una consulta con la opción **Agregar columnas personalizadas** en el Editor de consultas, las columnas calculadas creadas en las vistas **Informes** o **Datos** se basan en datos cargados previamente en el modelo. Por ejemplo, tal vez elija concatenar los valores de dos columnas diferentes en dos tablas diferentes pero relacionadas, hacer sumas o extraer subcadenas.
 
-Las columnas calculadas que cree aparecerán en la lista **Campos** como cualquier otro campo, pero tendrán un icono especial para indicar que sus valores son resultado de una fórmula. Puede asignar el nombre que desee a las columnas y agregarlas a la visualización de un informe, igual que cualquier otro campo.
+Las columnas calculadas que cree aparecerán en la lista **Campos** como cualquier otro campo, pero tendrán un icono especial para indicar que sus valores son resultado de una fórmula. Puede asignar el nombre que desee a las columnas y agregarlas a la visualización de un informe, igual que cualquier otro campo. 
 
 ![](media/desktop-calculated-columns/calccolinpbid_fields.png)
 
