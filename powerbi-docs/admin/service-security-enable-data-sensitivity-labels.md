@@ -10,10 +10,10 @@ ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76537241"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Habilitación de las etiquetas de confidencialidad de datos en Power BI (versión preliminar)
@@ -60,7 +60,7 @@ Power BI usa las etiquetas de confidencialidad de Microsoft Information Prote
 * Las etiquetas de confidencialidad no se han migrado a la versión de Microsoft Information Protection compatible con Power BI. Más información sobre la [migración de etiquetas de confidencialidad](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
 * No se ha definido ninguna etiqueta de confidencialidad de Microsoft Information Protection en la organización. Además, para que se pueda usar, una etiqueta debe formar parte de una directiva publicada. [Más información sobre las etiquetas de confidencialidad](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) o visite el [Centro de seguridad y cumplimiento de Microsoft](https://sip.protection.office.com/sensitivity?flight=EnableMIPLabels) para obtener información sobre cómo definir etiquetas y publicar directivas para su organización.
 
-## <a name="licensing"></a>Licencias
+## <a name="licensing"></a>Administración de licencias
 
 * Para ver o aplicar las etiquetas de Microsoft Information Protection en Power BI, los usuarios deben tener una licencia de Azure Information Protection Premium P1 o Premium P2. Microsoft Azure Information Protection se puede adquirir de forma independiente o mediante uno de los conjuntos de licencias de Microsoft. Consulte [Precios de Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) para más detalles.
 * Los usuarios que necesiten aplicar etiquetas en recursos de Power BI deben tener una licencia de Power BI Pro.

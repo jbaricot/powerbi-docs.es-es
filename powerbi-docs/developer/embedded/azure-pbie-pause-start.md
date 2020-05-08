@@ -1,5 +1,5 @@
 ---
-title: Pausar e iniciar una capacidad de Power BI Embedded en Azure Portal | Microsoft Docs
+title: Pausa e inicio de la capacidad de Power BI Embedded en Azure Portal | Microsoft Docs
 description: En este artículo se explica cómo pausar e iniciar una capacidad de Power BI Embedded en Microsoft Azure.
 services: power-bi-embedded
 author: KesemSharabi
@@ -10,10 +10,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
 ms.openlocfilehash: 07c9c12366b100936e03fe07358ee180e026dfc5
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114759"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Pausar e iniciar una capacidad de Power BI Embedded en Azure Portal
@@ -43,7 +43,7 @@ Si pausa la capacidad, detiene la facturación. Es muy útil pausar la capacidad
 
     ![Pausar la capacidad](media/azure-pbie-pause-start/azure-portal-pause-capacity.png)
 
-5. Seleccione **Sí** para confirmar que quiere pausar la capacidad.
+5. Seleccione **Sí** para confirmar que desea pausar la capacidad.
 
     ![Confirmación de la pausa](media/azure-pbie-pause-start/azure-portal-confirm-pause.png)
 
@@ -65,7 +65,7 @@ Inicie la capacidad para seguir usándola. Al iniciar la capacidad, también se 
 
     ![Iniciar la capacidad](media/azure-pbie-pause-start/azure-portal-start-capacity.png)
 
-5. Seleccione **Sí** para confirmar que quiere iniciar la capacidad.
+5. Seleccione **Sí** para confirmar que desea iniciar la capacidad.
 
     ![Confirmación del inicio](media/azure-pbie-pause-start/azure-portal-confirm-start.png)
 

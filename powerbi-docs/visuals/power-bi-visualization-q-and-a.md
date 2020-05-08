@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762287"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Introducción a las visualizaciones de preguntas y respuestas de Power BI
@@ -148,7 +148,7 @@ El objeto visual Preguntas y respuestas se integra con Office y Bing para intent
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Hay varias formas de integrar el lenguaje natural. Para más información, consulte los siguientes artículos:
+Hay varias formas de integrar el lenguaje natural. Para obtener más información, consulte los artículos siguientes:
 
 * [Introducción a Preguntas y respuestas](../natural-language/q-and-a-tooling-intro.md)
 * [Procedimientos recomendados de Preguntas y respuestas](../natural-language/q-and-a-best-practices.md)

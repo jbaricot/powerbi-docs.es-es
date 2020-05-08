@@ -1,6 +1,6 @@
 ---
-title: 'Tutorial: Creación de columnas calculadas en Power BI Desktop'
-description: 'Tutorial: Creación de columnas calculadas en Power BI Desktop'
+title: 'Tutorial: Crear columnas calculadas en Power BI Desktop'
+description: 'Tutorial: Crear columnas calculadas en Power BI Desktop'
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: cdd4f4f5058b57cbf59a3a0b35286243bd8c8f37
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75731887"
 ---
-# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Creación de columnas calculadas en Power BI Desktop
+# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Crear columnas calculadas en Power BI Desktop
 
 A veces los datos que está analizando no contienen un determinado campo necesario para obtener los resultados buscados. Aquí es donde entran en escena las *columnas calculadas*. Las columnas calculadas utilizan fórmulas de expresiones de análisis de datos (DAX) para definir los valores de una columna, cualquier cosa desde poner juntos valores de texto de un par de columnas diferentes hasta calcular un valor numérico a partir de otros valores. Por ejemplo, supongamos que sus datos tienen los campos **Ciudad** y **Estado**, pero desea un único campo **Ubicación** que tenga ambos, como "Miami, Florida". Para esto es precisamente que sirven las columnas calculadas.
 
