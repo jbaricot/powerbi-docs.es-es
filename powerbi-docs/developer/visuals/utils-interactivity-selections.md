@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/24/2020
 ms.openlocfilehash: f4d47347c98d19afdfbf07615842bfb4649dc1b9
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379269"
 ---
 # <a name="power-bi-visuals-interactivity-utils"></a>Utilidades de interactividad de objetos visuales de Power BI
@@ -171,7 +171,7 @@ Por lo general, los puntos de datos contienen selecciones y valores. La interfaz
     }
     ```
 
-    **Extensión de la clase `BaseBehavior`**
+    **Extensión de la clase `BaseBehavior`** 
 
     ```typescript
     import powerbi from "powerbi-visuals-api";
@@ -186,7 +186,7 @@ Por lo general, los puntos de datos contienen selecciones y valores. La interfaz
     }
     ```
 
-5. Para controlar la acción de hacer clic en los elementos, llame al método `on` del objeto de selección *d3*. Esto también se aplica a `elementsSelection` y `clearCatcherSelection`.
+5. Para controlar la acción de hacer clic en los elementos, llame al método *del objeto de selección*d3`on`. Esto también se aplica a `elementsSelection` y `clearCatcherSelection`.
 
     ```typescript
     protected bindClick() {

@@ -10,14 +10,14 @@ ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133194"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Solución de problemas de inicio de sesión en Power BI Desktop
-Puede haber ocasiones en que intente iniciar sesión en **Power BI Desktop** pero encuentre errores. Hay dos razones principales para problemas de inicio de sesión: **errores de autenticación de proxy** y **errores de redireccionamiento de dirección URL que no son HTTPS**. 
+Puede haber ocasiones en que intente iniciar sesión en **Power BI Desktop** pero encuentre errores. Son dos los motivos principales que provocan errores en el inicio de sesión: **errores de autenticación en el proxy** y **errores de redireccionamiento a direcciones URL que no son HTTPS**. 
 
 Para determinar qué está causando el problema de inicio de sesión, el primer paso es ponerse en contacto con el administrador y proporcionar información de diagnóstico para que pueda determinar la causa del problema. Mediante un seguimiento de los problemas asociados con su dificultad para iniciar sesión, los administradores pueden determinar cuál de los siguientes errores se aplica al usuario. 
 
@@ -55,7 +55,7 @@ Las versiones actuales de **Power BI Desktop** usan la versión actual de la Bib
 
 Las siguientes excepciones en los archivos de seguimiento de *Power BI Desktop* están asociadas a este error:
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: no se admite el redireccionamiento a direcciones URL que no son HTTPS en vista web*
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: Non-HTTPS url redirect is not supported in webview*
 * *ErrorCode: non_https_redirect_failed*
 
 Si se produce el error *ErrorCode: non_https_redirect_failed*, una o varias páginas o proveedores de redireccionamiento de la cadena de redireccionamiento no son un punto de conexión protegido con HTTPS, o un emisor de certificados de uno o varios redireccionamientos no está entre las raíces de confianza del dispositivo. Todos los proveedores de cualquier cadena de redireccionamiento de inicio de sesión deben usar una dirección URL HTTPS. Para solucionar este problema, póngase en contacto con el administrador y solicite que se usen direcciones URL seguras para sus sitios de autenticación. 

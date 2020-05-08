@@ -10,10 +10,10 @@ ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621522"
 ---
 # <a name="power-bi-report-builder"></a>Generador de informes de Power BI
@@ -36,7 +36,7 @@ El informe paginado siguiente muestra una matriz con grupos de filas y columnas,
 
 ##  <a name="design-your-report"></a><a name="DesignRept"></a> Diseño del informe  
   
--   **Cree informes paginados con diseños de forma libre, gráfico, matriz y tabla.** Cree informes de tabla para datos basados en columnas, informes de matrices (como informes de tabla dinámica y de tabla cruzada) para datos resumidos, informes de gráficos para datos gráficos e informes de forma libre para todo lo demás. Los informes pueden insertar otros informes y gráficos, además de listas, gráficos y controles para aplicaciones basadas en web dinámicas.  
+-   **Cree informes paginados con diseños de tabla, matriz, gráfico y formato libre.** Cree informes de tabla para datos basados en columnas, informes de matrices (como informes de tabla dinámica y de tabla cruzada) para datos resumidos, informes de gráficos para datos gráficos e informes de forma libre para todo lo demás. Los informes pueden insertar otros informes y gráficos, además de listas, gráficos y controles para aplicaciones basadas en web dinámicas.  
   
 -   **Informes a partir de una variedad de orígenes de datos.** Puede crear informes que usan datos relacionales y multidimensionales de SQL Server y Analysis Services, Oracle, conjuntos de datos de Power BI y otras bases de datos.  
   

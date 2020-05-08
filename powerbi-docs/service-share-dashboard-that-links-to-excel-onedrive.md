@@ -10,10 +10,10 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: ee32d10ffeb22160b054661ca91c46890a877fa3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871462"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Comparta un panel de Power BI que contiene vínculos a un archivo de Excel en OneDrive
@@ -40,7 +40,7 @@ Para compartir un panel vinculado a un libro de Excel en OneDrive para la Empres
 ## <a name="create-an-organizational-content-pack-with-a-dashboard-that-contains-workbook-tiles"></a>Crear un paquete de contenido organizativo con un panel que contiene iconos de libro
 Cuando [publica un paquete de contenido](service-organizational-content-pack-create-and-publish.md), concede acceso a compañeros o grupos individuales. Cuando publique un paquete de contenido que contenga vínculos del libro, tendrá la opción de modificar los permisos para el libro de Excel vinculado antes de la publicación.
 
-1. En la pantalla **Crear paquete de contenido** , escriba las direcciones de correo electrónico, asigne un título y una descripción al paquete de contenido y cargue una imagen.
+1. En la pantalla **Crear paquete de contenido**, escriba las direcciones de correo electrónico, asigne un título y una descripción al paquete de contenido y cargue una imagen.
 2. Seleccione el panel o informe que esté vinculado al libro de Excel en OneDrive para la Empresa.
    
     ![Libro de Excel en un paquete de contenido](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
@@ -55,6 +55,6 @@ El uso compartido de un panel de un área de trabajo de Power BI es similar al u
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Anclar un icono a un panel de Power BI desde Excel](service-dashboard-pin-tile-from-excel.md)
-* [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
+* [Conceptos básicos para diseñadores en el servicio Power BI](service-basic-concepts.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

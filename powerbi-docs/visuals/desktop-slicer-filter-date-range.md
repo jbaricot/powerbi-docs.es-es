@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006803"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Uso de un filtro y una segmentación de fecha relativa en Power BI
@@ -42,7 +42,7 @@ En la primera configuración de la *segmentación de fecha relativa*, tiene las 
 
 ![Captura de pantalla de las opciones de configuración de Relativa con la primera configuración destacada.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* Último
+* Últimos
 
 * Siguiente
 

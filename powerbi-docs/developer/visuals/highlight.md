@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
 ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114161"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Resaltado de puntos de datos en objetos visuales de Power BI
@@ -327,8 +327,8 @@ Los datos de ejemplo para crear una jerarquía para la asignación de la vista d
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |
-|   R1   |   R11   |   R113   |   C1   |   C11   |   C113   |   3   |
-|   R1   |   R12   |   R121   |   C1   |   C12   |   C121   |   4   |
+|   R1   |   R11   |   R113   |   C1   |   C11   |   C113   |   T3   |
+|   R1   |   R12   |   R121   |   C1   |   C12   |   C121   |   T4   |
 |   R1   |   R12   |   R122   |   C1   |   C12   |   C122   |   5   |
 |   R1   |   R12   |   R123   |   C1   |   C12   |   C123   |   6   |
 |   R1   |   R13   |   R131   |   C1   |   C13   |   C131   |   7   |

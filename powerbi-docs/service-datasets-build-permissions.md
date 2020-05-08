@@ -10,10 +10,10 @@ ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77426619"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Permiso de compilación para conjuntos de datos compartidos (versión preliminar)
@@ -57,7 +57,7 @@ En algún momento, es posible que tenga que quitar el permiso de compilación pa
 1. En un área de trabajo, vaya a la página de la lista **Conjuntos de datos**. 
 1. Seleccione **Más opciones** (...) junto al conjunto de datos > **Administrar permisos**.
 
-    ![Administrar permisos](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
+    ![Administración de permisos](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
 1. Seleccione **Más opciones** (...) junto a un nombre > **Quitar compilación**.
 
@@ -87,7 +87,7 @@ Supongamos que ha distribuido una aplicación desde un área de trabajo a un gru
 1. En el área de trabajo, vaya a la página de la lista **Conjuntos de datos**. 
 1. Seleccione **Más opciones** (...) junto al conjunto de datos > **Administrar permisos**.
 
-    ![Administrar permisos](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
+    ![Administración de permisos](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
 1. Seleccione **Más opciones** (...) junto al nombre > **Quitar compilación**.
 
@@ -108,4 +108,4 @@ Puede quitar los permisos de compilación. Si lo hace, los usuarios cuyos permis
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [Uso de conjuntos de datos entre áreas de trabajo (versión preliminar)](service-datasets-across-workspaces.md)
-- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

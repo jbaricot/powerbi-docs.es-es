@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
 ms.openlocfilehash: 51c43a19613381d39e0397864e55baed2022663c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79491373"
 ---
 # <a name="power-bi-permissions"></a>Permisos de Power BI
@@ -21,7 +21,7 @@ ms.locfileid: "79491373"
 
 Permisos de Power BI proporcionan a una aplicación la capacidad de realizar ciertas acciones en nombre de un usuario. Todos los permisos deben ser aprobados por un usuario para que sean válidos.
 
-| Nombre para mostrar | Descripción | Valor de ámbito |
+| Nombre para mostrar | Description | Valor de ámbito |
 | --- | --- | --- |
 | Ver todos los conjuntos de datos |La aplicación puede ver todos los conjuntos de datos para el usuario que tiene la sesión iniciada y los conjuntos de datos a los que tiene acceso el usuario. |Dataset.Read.All |
 | Leer y escribir todos los conjuntos de datos |La aplicación puede ver y escribir en todos los conjuntos de datos para el usuario que tiene la sesión iniciada y los conjuntos de datos a los que tiene acceso el usuario. |Dataset.ReadWrite.All |
@@ -50,7 +50,7 @@ Mientras que puede llamar a la API para autenticarse con un nombre de usuario y 
 * **Interfaz de usuario de inicio de sesión**: se trata de una interfaz de usuario que el desarrollador puede evocar para solicitar permisos. Necesitaría que el usuario inicie sesión si no lo ha hecho ya. El usuario también necesitaría aprobar los permisos que solicita la aplicación. La ventana de inicio de sesión publicará un código de acceso o un mensaje de error en una dirección URL de redireccionamiento proporcionada.
   * Power BI debe proporcionar una dirección URL de redireccionamiento estándar para su uso por parte de las aplicaciones nativas.
 * **Código de autorización**: los códigos de autorización se devuelven a las aplicaciones web después de iniciar sesión a través de los parámetros de dirección URL en la dirección URL de redireccionamiento. Como son parámetros de entrada, hay cierto riesgo de seguridad. Las aplicaciones web tendrán que intercambiar el código de autorización para un token de autorización
-* **Token de autorización**: se usan para autenticar las llamadas de API en nombre de otro usuario. Se limitarán a una aplicación específica. Los tokens tienen una duración establecida y cuando caducan necesitan actualizarse.
-* **Token de actualización** : cuando expiran los tokens, se produce un proceso de actualización de estos.
+* **Token de autorización**: se usa para autenticar las llamadas de API en nombre de otro usuario. Se limitarán a una aplicación específica. Los tokens tienen una duración establecida y cuando caducan necesitan actualizarse.
+* **Token de actualización**: cuando expiren los tokens, se producirá un proceso de actualización de estos.
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

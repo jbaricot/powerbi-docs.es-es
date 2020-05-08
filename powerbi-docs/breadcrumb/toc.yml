@@ -2,11 +2,11 @@
   href: /
   topicHref: /
   items:
-    - name: "Power\_Platform"
+    - name: Power Platform
       href: /power-platform/
       topicHref: /power-platform/
       items:
-        - name: "Power\_BI"
+        - name: Power BI
           tocHref: /power-bi/
           topicHref: /power-bi/
           items:
@@ -23,10 +23,10 @@
                 - name: Análisis insertados
                   tocHref: /power-bi/developer/embedded/
                   topicHref: /power-bi/developer/embedded/
-                - name: "Objetos visuales de Power\_BI"
+                - name: Objetos visuales de Power BI
                   tocHref: /power-bi/developer/visuals/
                   topicHref: /power-bi/developer/visuals/
-                - name: Automatización
+                - name: Automation
                   tocHref: /power-bi/developer/automation/
                   topicHref: /power-bi/developer/automation/
             - name: Aprendizaje guiado
@@ -38,7 +38,7 @@
             - name: Servidor de informes
               tocHref: /power-bi/report-server/
               topicHref: /power-bi/report-server/index
-            - name: Instrucciones
+            - name: Guía
               tocHref: /power-bi/guidance/
               topicHref: /power-bi/guidance/index
             - name: 'Colaboración, uso compartido e integración'
@@ -47,10 +47,10 @@
             - name: Creación de informes y paneles
               tocHref: /power-bi/create-reports/
               topicHref: /power-bi/create-reports/index
-            - name: Conectar a datos
+            - name: Conexión a datos
               tocHref: /power-bi/connect-data/
               topicHref: /power-bi/connect-data/index
-            - name: Comenzar
+            - name: Introducción
               tocHref: /power-bi/fundamentals/
               topicHref: /power-bi/fundamentals/index
             - name: Transformación y modelado de datos

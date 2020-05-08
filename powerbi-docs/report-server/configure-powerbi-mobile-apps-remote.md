@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
 ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73925883"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Configuración del acceso de la aplicación remota de Power BI a Report Server de manera remota
@@ -38,12 +38,12 @@ Como administrador, estos son los pasos que debe seguir en Microsoft Intune para
 
 En la tabla de abajo se detallan los pares.
 
-|Clave  |Tipo  |Descripción  |
+|Clave  |Tipo  |Description  |
 |---------|---------|---------|
 | com.microsoft.powerbi.mobile.ServerURL | Cadena | URL del servidor de informes <br> Debe empezar por http/https |
 | com.microsoft.powerbi.mobile.ServerUsername | Cadena | (opcional) <br> El nombre de usuario que se usará para conectar el servidor. <br> Si no existe, la aplicación pide al usuario que escriba el nombre de usuario para la conexión.| 
 | com.microsoft.powerbi.mobile.ServerDisplayName | Cadena | (opcional) <br> El valor predeterminado es “Servidor de informes” <br> Nombre descriptivo que se usa en la aplicación para representar el servidor | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Booleano | El valor predeterminado es True <br>Si se establece en "true", invalida cualquier definición de servidor de informes que ya esté disponible en el dispositivo móvil. Los servidores existentes ya configurados se eliminan. <br> Al establecer Reemplazar en True también se evita que el usuario quite esa configuración. <br> Si se establece en “False”, se agregan los valores insertados, dejando cualquier configuración existente. <br> Si la misma dirección URL del servidor ya está configurada en la aplicación móvil, esta deja dicha configuración tal cual. La aplicación no pide al usuario que vuelva a autenticarse para el mismo servidor. |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | El valor predeterminado es True <br>Si se establece en "true", invalida cualquier definición de servidor de informes que ya esté disponible en el dispositivo móvil. Los servidores existentes ya configurados se eliminan. <br> Al establecer Reemplazar en True también se evita que el usuario quite esa configuración. <br> Si se establece en “False”, se agregan los valores insertados, dejando cualquier configuración existente. <br> Si la misma dirección URL del servidor ya está configurada en la aplicación móvil, esta deja dicha configuración tal cual. La aplicación no pide al usuario que vuelva a autenticarse para el mismo servidor. |
 
 Este es un ejemplo de configuración de la directiva de configuración mediante Intune.
 

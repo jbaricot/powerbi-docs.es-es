@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488830"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82585038"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserción de informes en un sitio web o portal seguro
 
@@ -22,11 +22,13 @@ Con la nueva opción **Insertar** para los informes de Power BI, puede insertar 
 
 La opción **Insertar** también admite la configuración de direcciones URL y [filtros de direcciones URL](service-url-filters.md). Esto le permite realizar la integración con portales mediante un método en el que se usa código de forma limitada y para el que solo se necesitan conocimientos básicos de HTML y JavaScript.
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>Cómo **insertar** informes de Power BI en portales
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>Cómo insertar informes de Power BI en portales
 
-1. La nueva opción **Insertar** se encuentra disponible en el menú **Archivo** de informes del servicio Power BI.
+1. Abra un informe en el servicio Power BI.
 
-    ![Opción de lista desplegable de opciones de inserción segura](media/service-embed-secure/secure-embed-drop-down-menu.png)
+2. En el menú **Más opciones (…)** , seleccione **Insertar** >  **Sitio web o portal**.
+
+    ![Opción Sitio web o portal](media/service-embed-secure/power-bi-more-options-website.png)
 
 2. Seleccione la opción **Insertar** para abrir un cuadro de diálogo que proporciona un vínculo y un iFrame que puede usar para insertar el informe de forma segura.
 

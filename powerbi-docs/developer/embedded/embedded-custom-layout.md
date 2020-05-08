@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 12/19/2017
 ms.openlocfilehash: e114c208093c9f3401c43e9ea44502e65d6d84fd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79493213"
 ---
 # <a name="custom-layouts"></a>Diseños personalizados
@@ -62,7 +62,7 @@ enum DisplayOption {
 ```
 
 - `pageSize`: use el tamaño de página para controlar el tamaño del área del lienzo (es decir, el área en blanco del informe).
-- `displayOptions`: Los valores posibles son: FitToWidth, FitToPage o ActualSize. Controla cómo escalar el lienzo para que se ajuste al iframe.
+- `displayOptions`: los posibles valores son: FitToWidth, FitToPage o ActualSize. Controla cómo escalar el lienzo para que se ajuste al iframe.
 - `pagesLayout`: controla el diseño de cada objeto visual. Para más información, consulte PagesLayout.
 
 ## <a name="pages-layout"></a>Diseño de páginas
@@ -109,7 +109,7 @@ enum VisualContainerDisplayMode {
 ```
 
 - `x,y,z`: define la nueva posición del objeto visual.
-- `width`, alto: define el nuevo tamaño del objeto visual.
+- `width`, altura: define el nuevo tamaño del objeto visual.
 - `displayState`: define la visibilidad del objeto visual.
 
 ## <a name="update-layout"></a>Actualización del diseño
@@ -170,7 +170,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Inserción de paneles, informes e iconos de Power BI](embed-sample-for-customers.md)   
 [Pregunte a la comunidad de Power BI](https://community.powerbi.com/)

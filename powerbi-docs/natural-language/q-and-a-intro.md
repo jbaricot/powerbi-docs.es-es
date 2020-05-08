@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874965"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867792"
 ---
 # <a name="intro-to-power-bi-qa"></a>Introducción a Preguntas y respuestas de Power BI
 
@@ -66,9 +66,9 @@ A medida que escribe su pregunta, Preguntas y respuestas intenta interpretar y v
 
 - Gráfico de líneas
 - Gráfico de barras
-- Matriz
+- Matrix
 - Tabla
-- Tarjeta
+- Card
 - Área
 - Gráfico circular
 - Gráfico de dispersión o de burbujas
@@ -99,7 +99,7 @@ De forma predeterminada, Preguntas y respuestas está disponible en la parte sup
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Puede integrar el lenguaje natural en los informes de varias maneras. Para más información, consulte estos artículos:
+Puede integrar el lenguaje natural en los informes de varias maneras. Para obtener más información, consulte estos artículos:
 
 * [Objeto visual Preguntas y respuestas](../visuals/power-bi-visualization-q-and-a.md)
 * [Procedimientos recomendados de Preguntas y respuestas](q-and-a-best-practices.md)

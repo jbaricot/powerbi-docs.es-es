@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: f689ba79f9cce7d6ee815e0712491e7d00647fe8
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729722"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841673"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de datos en Power BI Desktop
 Este artículo describe los tipos de datos admitidos en Power BI Desktop y Expresiones de análisis de datos (DAX). 
@@ -35,6 +35,8 @@ En Power BI Desktop, puede determinar y especificar un tipo de datos de una colu
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 El menú desplegable de tipo de datos en el Editor de consultas tiene dos tipos de datos que no se encuentran presentes actualmente en la vista de informes o de datos: **Fecha/hora/zona horaria** y **Duración**. Cuando una columna con estos tipos de datos se carga en el modelo y se visualiza en la vista de datos o informes, una columna con tipo de datos de fecha/hora/zona horaria se convertirá en una fecha/hora y una columna con un tipo de datos de duración en un número decimal.
+
+El tipo de datos **binario** no se admite actualmente fuera del Editor de consultas. En el Editor de consultas, puede usarlo al cargar archivos binarios si lo convierte a otros tipos de datos antes de cargarlo en el modelo de Power BI. Existe en los menús de vista de datos o de informes por motivos de herencia, pero si intenta cargar columnas binarias en el modelo de Power BI puede que encuentre errores.  
 
 ### <a name="number-types"></a>Tipos de número
 Power BI Desktop admite tres tipos de números:
@@ -72,6 +74,17 @@ Power BI Desktop admite cinco tipos de datos de fecha y hora en la Vista de con
 ### <a name="blanksnulls-type"></a>Tipo de valores en blanco/NULL
 **En blanco** : es un tipo de datos en DAX que representa y reemplaza a los valores NULL de SQL. Puede crear un espacio en blanco con la función [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) y probarlos con la función lógica [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
 
+### <a name="binary-data-type"></a>Tipo de datos binario
+
+El tipo de datos binario se puede usar para representar cualquier otro dato con un formato binario. En el Editor de consultas, puede usarlo al cargar archivos binarios si lo convierte en otros tipos de datos antes de cargarlo en el modelo de Power BI. Las columnas binarias no se admiten en el modelo de datos de Power BI. Existe en los menús de vista de datos o de informes por motivos de herencia, pero si intenta cargar columnas binarias en el modelo de Power BI puede que encuentre errores.
+
+
+
+
+> [!NOTE]
+>  Si una columna binaria está en la salida de los pasos de una consulta, al intentar actualizar los datos a través de una puerta de enlace pueden producirse errores. Se recomienda quitar explícitamente las columnas binarias como último paso de las consultas.    
+> 
+
 ### <a name="table-data-type"></a>Tipo de datos de tabla
 DAX usa un tipo de datos de tabla en muchas funciones, como las agregaciones y los cálculos de inteligencia de tiempo. Algunas funciones requieren una referencia a una tabla; otras funciones devuelven una tabla que puede usarse como entrada para otras funciones. En algunas funciones que requieren una tabla como entrada, puede especificar una expresión que se evalúa en una tabla; para algunas funciones, se requiere una referencia a una tabla base. Para información acerca de los requisitos de funciones específicas, consulte [Referencia de funciones DAX](https://msdn.microsoft.com/library/ee634396.aspx).
 
@@ -95,10 +108,10 @@ El tipo de conversión que se realiza está determinado por el operador, que con
 
 **Suma (+)**
 
-| Operador (+) | ENTERO | MONEDA | REAL | Fecha y hora |
+| Operador (+) | ENTERO | CURRENCY | REAL | Fecha y hora |
 | --- | --- | --- | --- | --- |
-| ENTERO |ENTERO |MONEDA |REAL |Fecha y hora |
-| MONEDA |MONEDA |MONEDA |REAL |Fecha y hora |
+| ENTERO |ENTERO |CURRENCY |REAL |Fecha y hora |
+| CURRENCY |CURRENCY |MONEDA |REAL |Fecha y hora |
 | REAL |REAL |REAL |REAL |Fecha y hora |
 | Fecha y hora |Fecha y hora |Fecha y hora |Fecha y hora |Fecha y hora |
 
@@ -108,10 +121,10 @@ Por ejemplo, si se usa un número real en una operación de suma en combinación
 
 En la tabla siguiente, el encabezado de fila es el minuendo (izquierda) y el encabezado de columna es el substraendo (derecha).
 
-| Operador (-) | ENTERO | MONEDA | REAL | Fecha y hora |
+| Operador (-) | ENTERO | CURRENCY | REAL | Fecha y hora |
 | --- | --- | --- | --- | --- |
-| ENTERO |ENTERO |MONEDA |REAL |REAL |
-| MONEDA |MONEDA |MONEDA |REAL |REAL |
+| ENTERO |ENTERO |CURRENCY |REAL |REAL |
+| CURRENCY |CURRENCY |MONEDA |REAL |REAL |
 | REAL |REAL |REAL |REAL |REAL |
 | Fecha y hora |Fecha y hora |Fecha y hora |Fecha y hora |Fecha y hora |
 
@@ -124,11 +137,11 @@ Por ejemplo, si se usa una fecha en una operación de resta con cualquier otro t
 
 **Multiplicación (*)**
 
-| Operator(*) | ENTERO | MONEDA | REAL | Fecha y hora |
+| Operator(*) | ENTERO | CURRENCY | REAL | Fecha y hora |
 | --- | --- | --- | --- | --- |
-| ENTERO |ENTERO |MONEDA |REAL |ENTERO |
-| MONEDA |MONEDA |REAL |MONEDA |MONEDA |
-| REAL |REAL |MONEDA |REAL |REAL |
+| ENTERO |ENTERO |CURRENCY |REAL |ENTERO |
+| CURRENCY |MONEDA |REAL |CURRENCY |MONEDA |
+| REAL |REAL |CURRENCY |REAL |REAL |
 
 Por ejemplo, si un entero se combina con un número real en una operación de multiplicación, ambos números se convierten a números reales y el valor devuelto también es REAL.
 
@@ -136,10 +149,10 @@ Por ejemplo, si un entero se combina con un número real en una operación de mu
 
 En la siguiente tabla, el encabezado de fila es el numerador y el encabezado de columna es el denominador.
 
-| Operador (/) (fila/columna) | ENTERO | MONEDA | REAL | Fecha y hora |
+| Operador (/) (fila/columna) | ENTERO | CURRENCY | REAL | Fecha y hora |
 | --- | --- | --- | --- | --- |
-| ENTERO |REAL |MONEDA |REAL |REAL |
-| MONEDA |MONEDA |REAL |MONEDA |REAL |
+| ENTERO |REAL |CURRENCY |REAL |REAL |
+| CURRENCY |MONEDA |REAL |CURRENCY |REAL |
 | REAL |REAL |REAL |REAL |REAL |
 | Fecha y hora |REAL |REAL |REAL |REAL |
 
@@ -158,10 +171,10 @@ Las siguientes expresiones DAX muestran este comportamiento:
 
 Las conversiones se realizan implícitamente para tipos de fecha y hora, o numéricos, como se describe en la tabla siguiente:
 
-| Operadores de comparación | ENTERO | MONEDA | REAL | Fecha y hora |
+| Operadores de comparación | ENTERO | CURRENCY | REAL | Fecha y hora |
 | --- | --- | --- | --- | --- |
-| ENTERO |ENTERO |MONEDA |REAL |REAL |
-| MONEDA |MONEDA |MONEDA |REAL |REAL |
+| ENTERO |ENTERO |CURRENCY |REAL |REAL |
+| CURRENCY |CURRENCY |MONEDA |REAL |REAL |
 | REAL |REAL |REAL |REAL |REAL |
 | Fecha y hora |REAL |REAL |REAL |Fecha y hora |
 
@@ -172,16 +185,16 @@ La forma en la que se administran los espacios en blanco en operaciones como la 
 
 | Expresión | DAX | Excel |
 | --- | --- | --- |
-| EN BLANCO + EN BLANCO |EN BLANCO |0 (cero) |
+| EN BLANCO + EN BLANCO |BLANK |0 (cero) |
 | En blanco + 5 |5 |5 |
-| EN BLANCO * 5 |EN BLANCO |0 (cero) |
+| EN BLANCO * 5 |BLANK |0 (cero) |
 | 5/EN BLANCO |Infinito |Error |
 | 0/EN BLANCO |NaN |Error |
-| EN BLANCO/EN BLANCO |EN BLANCO |Error |
+| EN BLANCO/EN BLANCO |BLANK |Error |
 | FALSO O EN BLANCO |FALSO |FALSO |
 | FALSO Y EN BLANCO |FALSO |FALSO |
 | VERDADERO O EN BLANCO |VERDADERO |VERDADERO |
 | VERDADERO Y EN BLANCO |FALSO |VERDADERO |
 | EN BLANCO O EN BLANCO |EN BLANCO |Error |
-| EN BLANCO Y EN BLANCO |EN BLANCO |Error |
+| EN BLANCO Y EN BLANCO |BLANK |Error |
 

@@ -9,10 +9,10 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114961"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Usar OAuth para conectarse a Power BI Report Server y a SSRS
@@ -134,7 +134,7 @@ Puede crear el grupo de aplicaciones mediante los pasos siguientes.
 
 13. Seleccione **Siguiente**.
 
-14. Seleccione **Cerrar**.
+14. Haga clic en **Cerrar**.
 
 Cuando haya finalizado, debería ver que las propiedades del grupo de aplicaciones tienen un aspecto similar al siguiente.
 
@@ -185,7 +185,7 @@ Para configurar la delegación restringida, deberá hacer lo siguiente.
 
     ![WAP restringido 04](media/mobile-oauth-ssrs/wap-contrained-delegation4.png)
 
-11. Seleccione **Aceptar**.
+11. Haga clic en **Aceptar**.
 
 ### <a name="add-wap-application"></a>Agregar la aplicación WAP
 
@@ -232,7 +232,7 @@ Cuando seleccione **Conectar**, se le dirigirá a la página de inicio de sesió
 
 Después de seleccionar **Iniciar sesión**, verá los elementos del servidor de Reporting Services.
 
-## <a name="multi-factor-authentication"></a>Autenticación multifactor
+## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
 Puede habilitar la autenticación multifactor para proporcionar seguridad adicional para su entorno. Para obtener más información, consulte [Configure AD FS 2016 and Azure MFA (Configurar AD FS 2016 y Azure MFA)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
@@ -254,5 +254,5 @@ Si el inicio de sesión funciona correctamente al usar Fiddler, puede que tenga 
 [Servicios de federación de Active Directory](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Web Application Proxy in Windows Server 2016 (Proxy de aplicación web en Windows Server 2016)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Publishing Applications using AD FS Preauthentication (Publicar aplicaciones usando la autenticación previa de AD FS)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[Configure AD FS 2016 and Azure MFA (Configurar AD FS 2016 y Azure MFA)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[Configuración de AD FS 2016 y Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 301d6397e4a3ae4498234bae3ad8a49aa7552722
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80464635"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82584670"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Uso de metadatos de conjunto de datos mejorado (versión preliminar)
 
@@ -46,6 +46,7 @@ Una vez habilitada la característica de versión preliminar, Power BI Desktop 
 
 En la versión preliminar, se aplican las siguientes limitaciones cuando está habilitada la característica en versión preliminar.
 
+### <a name="unsupported-features-and-connectors"></a>Características y conectores no admitidos
 Al abrir un archivo PBIX o PBIT existente que no se ha actualizado, se producirá un error en la actualización si el conjunto de datos contiene cualquiera de las siguientes características o conectores. Si se produce este error, no debería haber ningún impacto inmediato en la experiencia del usuario y Power BI Desktop seguirá usando el formato de metadatos anterior.
 
 * Scripts de Python
@@ -67,6 +68,8 @@ Al abrir un archivo PBIX o PBIT existente que no se ha actualizado, se producir�
 
 Además, los archivos PBIX y PBIT que ya se han actualizado correctamente para usar **Metadatos del conjunto de datos mejorado** *no pueden* usar las características ni los conectores anteriores en la versión actual.
 
+### <a name="lineage-view"></a>Vista de linaje
+Los conjuntos de datos que usan el nuevo formato de metadatos no muestran actualmente vínculos a flujos de datos en la vista de linaje en el servicio Power BI.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

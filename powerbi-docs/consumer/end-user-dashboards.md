@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496314"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Panel para los consumidores del servicio Power BI
@@ -53,7 +53,7 @@ Los informes suelen confundirse con paneles, ya que son igualmente lienzos con v
 | Filtrado |No es posible filtrar ni segmentar |Numerosas formas de filtrar, resaltar y segmentar |
 | Establecimiento de alertas |Se pueden crear alertas para enviarlas por correo electrónico cuando se cumplen determinadas condiciones |No |
 | Destacado |Se puede establecer un panel como panel "destacado" |No es posible crear un informe destacado |
-| Se pueden ver campos y tablas del conjunto de datos subyacentes |No. Se pueden exportar datos pero no se pueden ver tablas ni campos en el panel |Sí. Se pueden ver tablas, campos y valores del conjunto de datos |
+| Se pueden ver campos y tablas del conjunto de datos subyacentes |Núm. Se pueden exportar datos pero no se pueden ver tablas ni campos en el panel |Sí. Se pueden ver tablas, campos y valores del conjunto de datos |
 
 
 ## <a name="dashboard-designers-and-dashboard-consumers"></a>Diseñadores de paneles y consumidores de paneles
