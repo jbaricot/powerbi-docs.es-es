@@ -3,21 +3,22 @@ title: Gráficos de rectángulos en Power BI
 description: Gráficos de rectángulos en Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b70e9611b22f1df20d39cdbd338fd5b6bfe1b43d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880741"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866895"
 ---
 # <a name="treemaps-in-power-bi"></a>Gráficos de rectángulos en Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -39,14 +40,6 @@ En la rama **Urban** anterior, se vendieron mucha ropa de **VanArsdel**. Se vend
 
 Podría comparar el número de elementos vendidos en las demás categorías de prendas si comparo el tamaño y el sombreado de cada nodo de hoja; los rectángulos de mayor tamaño y más oscuros significarán un valor mayor.
 
-¿Quiere ver primero a otra persona creando un gráfico de rectángulos? Vaya al minuto 2:10 de este vídeo para ver cómo Amanda crea un gráfico de rectángulos.
-
-   > [!NOTE]
-   > En este vídeo se usa una versión anterior de Power BI Desktop.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-treemap"></a>Cuándo usar un gráfico de rectángulos
 
@@ -75,6 +68,10 @@ En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas]
 1. Abra el **archivo PBIX del Ejemplo de análisis de minoristas** en la vista de informe ![Captura de pantalla del icono de vista de informe](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
 1. Seleccionar ![Captura de pantalla de la pestaña amarilla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para agregar una nueva página.
+
+> [!NOTE]
+> Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium.    
+
 
 
 Después de obtener el conjunto de datos **Ejemplo de análisis de minoristas**, puede empezar a trabajar.

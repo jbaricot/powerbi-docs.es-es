@@ -10,10 +10,10 @@ ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 511fb6674d84cc0d206fdb1807fcb9ebf9e41d30
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873103"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Conexión a Azure Search con Power BI
@@ -30,7 +30,7 @@ Conéctese al [paquete de contenido de Azure Search](https://app.powerbi.com/get
 2. En el cuadro **Servicios** , seleccione **Obtener**.
    
    ![](media/service-connect-to-azure-search/pbi_getservices.png) 
-3. Seleccione **Azure Search**\>**Obtener**.
+3. Seleccione **Azure Search** \> **Obtener**.
    
    ![](media/service-connect-to-azure-search/azuresearch.png)
 4. Proporcione el nombre de la cuenta de Table Storage donde está almacenado el análisis de Azure Search.
@@ -59,5 +59,5 @@ Asegúrese de que el nombre de la cuenta de almacenamiento esté correctamente i
 ## <a name="next-steps"></a>Pasos siguientes
 [¿Qué es Power BI?](fundamentals/power-bi-overview.md)
 
-[Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
+[Conceptos básicos para diseñadores en el servicio Power BI](service-basic-concepts.md)
 

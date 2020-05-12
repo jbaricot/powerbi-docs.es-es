@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 1dfb75595de939f99bf269d67bf9c29a2f0db249
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871628"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Almacenamiento de un informe en el servicio Power BI y en Power BI Desktop
@@ -28,7 +28,7 @@ Después de cambiar un informe en Power BI, puede guardarlo, guardarlo con un no
 1. Si intenta salir de un informe y el informe tiene cambios, Power Bi mostrará un mensaje.
    
    ![Guardar cambios](media/service-report-save/power-bi-unsaved.png)
-2. Otra manera de guardar el informe consiste en seleccionar **ARCHIVO**\>**Guardar** o **Guardar como**. Si se encuentra en [Vista de lectura](consumer/end-user-reading-view.md) solo verá la opción de Guardar como. 
+2. Otra manera de guardar el informe consiste en seleccionar **ARCHIVO** \> **Guardar** o **Guardar como**. Si se encuentra en [Vista de lectura](consumer/end-user-reading-view.md) solo verá la opción de Guardar como. 
    
    ![Guardado de informe](media/service-report-save/power-bi-save-new.png)
 3. Si se trata de un nuevo informe (Guardar) o una nueva versión de un informe existente (Guardar como), asígnele un nombre descriptivo.  **El informe se agregará al área de trabajo activa**.

@@ -2,27 +2,35 @@
 title: Gráficos de líneas en Power BI
 description: Gráficos de líneas en Power BI
 author: mihart
-ms.reviewer: amac
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871077"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867033"
 ---
 # <a name="line-charts-in-power-bi"></a>Gráficos de líneas en Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 Un gráfico de líneas es una serie de puntos de datos representados por puntos y conectados por líneas rectas. Un gráfico de líneas puede tener una o varias líneas. Los gráficos de líneas tienen una eje X y un eje Y. 
 
 ![gráfico de líneas simple](media/power-bi-line-charts/power-bi-line.png)
 
+
+
 ## <a name="create-a-line-chart"></a>Creación de un gráfico de líneas
 Estas instrucciones utilizan la aplicación Ejemplo de marketing y ventas para crear un gráfico de líneas que muestra las ventas de este año por categoría. Para poder continuar, obtenga la aplicación de ejemplo de appsource.com.
+
+> [!NOTE]
+> Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium.
 
 1. Empiece en una página de informe en blanco. Si está utilizando el servicio Power BI, asegúrese de que abre el informe en [Vista de edición](../service-interact-with-a-report-in-editing-view.md).
 

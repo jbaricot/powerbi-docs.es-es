@@ -1,5 +1,5 @@
 ---
-title: Uso del objeto visual de matriz en Power BI
+title: Crear un objeto visual de matriz en Power BI
 description: Conozca cómo el objeto visual de matriz permite diseños de paso y resaltado pormenorizado en Power BI.
 author: mihart
 ms.reviewer: ''
@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637842"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866596"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creación de visualizaciones de matriz en Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,6 +30,8 @@ Puede crear objetos visuales de matriz en elementos cruzados e informes de **Pow
 
 Hay muchas características asociadas a la matriz que iremos revisando en las siguientes secciones de este artículo.
 
+> [!NOTE]
+> Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium.
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Descripción del cálculo de los totales por Power BI
 

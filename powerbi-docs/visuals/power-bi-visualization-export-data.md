@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f82bde423d910cb5622e5e709890502e96daab36
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82585376"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781740"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportación de los datos usados para crear una visualización
 
@@ -265,6 +265,8 @@ Estas limitaciones y consideraciones se aplican a Power BI Desktop y el servicio
   1. Seleccione **Obtener datos externos** > **Desde texto**.
   
   1. Vaya a la carpeta local donde se almacena el archivo y seleccione el archivo *.csv*.
+
+- Al exportarlo a *.csv*, ciertos caracteres se incluirán entre secuencias de escape con una **'** delante.
 
 - Los administradores de Power BI pueden deshabilitar la exportación de datos.
 

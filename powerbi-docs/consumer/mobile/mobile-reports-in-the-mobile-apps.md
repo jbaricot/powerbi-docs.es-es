@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435775"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841742"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -45,7 +45,7 @@ En las aplicaciones móviles de Power BI Mobile hay dos iconos para los informe
 * ![Icono de informe de teléfono](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) indica un informe que tiene al menos una página optimizada para teléfono, que se presentará en orientación vertical.
 
 > [!NOTE]
-> Al mantener el teléfono en orientación horizontal, siempre obtendrá el diseño horizontal, incluso si la página del informe tiene diseño de teléfono.
+> Al sujetar el teléfono en horizontal, siempre obtendrá el diseño horizontal, aunque la página del informe esté en diseño para dispositivos móviles.
 
 Para obtener un informe desde un panel, pulse **Más opciones** (...) en la esquina superior derecha de un icono y, después, pulse **Abrir informe**:
   

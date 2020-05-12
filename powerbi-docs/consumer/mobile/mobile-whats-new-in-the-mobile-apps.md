@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802104"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841719"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -24,6 +24,14 @@ Para obtener información sobre novedades, vea:
 
 >[!NOTE]
 >El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="april-2020"></a>Abril de 2020
+
+### <a name="sharing-from-workspaces-is-now-available"></a>Ya es posible compartir desde las áreas de trabajo
+Hemos agregado la capacidad de compartir informes y paneles desde áreas de trabajo. Ahora puede compartir el contenido desde "Mi área de trabajo" y desde otras áreas de trabajo si el propietario del área de trabajo lo permite, como ocurre en el servicio Power BI. 
+
+### <a name="dashboards-now-support-full-screen-mode-ios-and-android"></a>Los paneles ahora admiten el modo de pantalla completa (iOS y Android)
+Ahora puede ver los paneles en modo de pantalla completa; así tendrá más espacio para ver el contenido del panel. 
 
 ## <a name="march-2020"></a>Marzo de 2020
 
@@ -871,4 +879,4 @@ Mejoras en las aplicaciones móviles de Power BI: Android, iOS (iPhone y iPad) y
 * Mejora de la representación del icono del mapa en modo enfocado para maximizar el espacio de la pantalla.
 * Mejora de la experiencia del usuario al tener acceso a paneles mediante seguridad basada en roles. 
 * Una nueva capacidad le permite examinar iconos del panel desde todas las perspectivas, explorándolos directamente en modo enfocado sin necesidad de volver al panel para seleccionar el icono siguiente.
-* Mejoras adicionales de estabilidad y rendimiento. 
+* Mejoras adicionales de estabilidad y rendimiento.

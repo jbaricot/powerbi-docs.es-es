@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: b5865219d84c8fa388f297824550fd715f0c2923
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841926"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866868"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Procedimientos recomendados para optimizar Preguntas y respuestas en Power BI
 El uso del lenguaje natural y frases comunes para formular preguntas sobre los datos resulta muy eficaz. Esto es todavía más eficaz cuando los datos responden a esas preguntas, que es lo que Preguntas y respuestas de Power BI hace.
@@ -195,8 +195,10 @@ Este paso se aplica específicamente a Preguntas y respuestas (y no a los inform
 
 Este paso puede ser importante. Incluso con nombres de columnas y tablas sencillos, los usuarios de Preguntas y respuestas formulan preguntas utilizando el vocabulario que les viene a la mente. No eligen de una lista predefinida de columnas. Cuantos más sinónimos significativos agregue, mejor será la experiencia de los usuarios con el informe. Para agregar sinónimos, en Power BI Desktop, vaya a la vista de modelo, seleccione la pestaña Modelado y seleccione un campo o una tabla. En el panel Propiedades se muestra el cuadro **Sinónimos**, donde puede agregar sinónimos.
 
-
-
-![Sinónimos en el panel Propiedades de Preguntas y respuestas](media/qna-modelling-pane-synonyms.png)
+![Sinónimos en el panel Propiedades de Preguntas y respuestas](media/q-and-a-best-practices/qna-modelling-pane-synonyms.png)
 
  Tenga cuidado al agregar sinónimos. Agregar el mismo sinónimo a más de una columna o tabla introduce ambigüedad. Preguntas y respuestas usa el contexto siempre que sea posible para elegir entre sinónimos ambiguos, pero no todas las preguntas tienen suficiente contexto. Por ejemplo, cuando el usuario pregunta "recuento de los clientes", si tiene tres elementos con el sinónimo "cliente" en el modelo, podría no obtener la respuesta que está buscando. En estos casos, asegúrese de que el sinónimo principal es único, ya que es lo que se usa en la redefinición. Puede alertar al usuario de la ambigüedad (por ejemplo, una redefinición de "mostrar el número de registros de clientes archivados") y mostrar sugerencias sobre lo que desean preguntar de manera diferente.
+
+## <a name="next-steps"></a>Pasos siguientes
+
+[Introducción a Preguntas y respuestas de Power BI](q-and-a-intro.md)

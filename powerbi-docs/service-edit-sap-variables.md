@@ -9,16 +9,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a05b677a3a6c826c8207af29e965a7cd76149fbe
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74010888"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841052"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>Edición de variables de SAP en el servicio Power BI
 
-Al usar SAP Business Warehouse o SAP HANA con DirectQuery, los autores de informes ya pueden permitir que los usuarios finales editen variables de SAP en el **servicio Power BI** para áreas de trabajo Premium y compartidas. Tenga en cuenta que esta característica NO funciona para los informes de la pestaña Compartido conmigo de Mi área de trabajo. 
+Al usar SAP Business Warehouse o SAP HANA con DirectQuery, los autores de informes ya pueden permitir que los usuarios finales editen variables de SAP en el **servicio Power BI** para áreas de trabajo Premium y compartidas. Tenga en cuenta que esta característica NO funciona para los informes de la pestaña Compartido conmigo de Mi área de trabajo y las aplicaciones creadas desde espacios de trabajo V1. 
 
 ![Cuadro de diálogo Editar variables](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 

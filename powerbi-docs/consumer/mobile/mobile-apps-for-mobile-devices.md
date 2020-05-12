@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: 3eb8aafca2257bff12d3b248d4f3c1d43708e563
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 8e24258d7431996bcdcc1c049daa2a6cbd4f60b5
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435408"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841765"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>¿Qué son las aplicaciones móviles de Power BI?
 Power BI ofrece un conjunto de aplicaciones móviles para dispositivos móviles iOS, Android y Windows 10. En las aplicaciones móviles, puede conectarse a datos locales y en la nube e interactuar con ellos. 
@@ -31,7 +31,7 @@ Puede crear informes en Power BI Desktop. Puede crear paneles y ver paneles e in
 
 | **Dispositivo** | **Información destacada** |
 | --- | --- |
-| [![iPhone](./media/mobile-apps-for-mobile-devices/iphone-logo-50-px.png)](mobile-iphone-app-get-started.md) |**iPhones** va a todas partes y la [aplicación móvil de Power BI para iPhone](mobile-iphone-app-get-started.md) también. Además de ver los [informes de Power BI en una vista de diseño de teléfono especial](mobile-apps-view-phone-report.md), también puede [agregar Power BI a su Apple Watch](mobile-apple-watch.md) y [formular preguntas con el analista virtual de Preguntas y respuestas](mobile-apps-ios-qna.md). <br/>Empiece a usar la [aplicación móvil de Power BI para iOS](mobile-iphone-app-get-started.md). |
+| [![iPhone](./media/mobile-apps-for-mobile-devices/iphone-logo-50-px.png)](mobile-iphone-app-get-started.md) |**iPhones** va a todas partes y la [aplicación móvil de Power BI para iPhone](mobile-iphone-app-get-started.md) también. Además de ver los [informes de Power BI en una vista de diseño especial para dispositivos móviles](mobile-apps-view-phone-report.md), también puede [agregar Power BI a su Apple Watch](mobile-apple-watch.md) y [formular preguntas con el analista virtual de Preguntas y respuestas](mobile-apps-ios-qna.md). <br/>Empiece a usar la [aplicación móvil de Power BI para iOS](mobile-iphone-app-get-started.md). |
 | [![iPad](./media/mobile-apps-for-mobile-devices/ipad-logo-50-px.png)](mobile-iphone-app-get-started.md) |En **iPad**, la aplicación móvil de Power BI muestra los paneles e informes tal como se diseñaron para el servicio Power BI. Además, puede ver los [KPI y los informes de Power BI Report Server y de Reporting Services](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) directamente en su iPad. Puede [configurar alertas de datos en la aplicación móvil de Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) para recibir una notificación cuando cambian los datos en un panel más allá de los límites establecidos. <br/>Empiece a usar la [aplicación móvil de Power BI para iOS](mobile-iphone-app-get-started.md). |
 | [![Teléfono Android](media/mobile-apps-for-mobile-devices/android-phone-logo-50-px.png)](mobile-android-app-get-started.md) |La aplicación móvil de Power BI para **teléfonos Android** le permite llevar Power BI en el bolsillo, con acceso móvil actualizado y táctil a la información de su empresa. Puede [filtrar un informe por su ubicación geográfica](mobile-apps-geographic-filtering.md). Puede [detectar códigos QR con el teléfono Android](mobile-apps-qr-code.md) e ir directamente a un panel o informe de Power BI. <br/>Empiece a usar la [aplicación móvil de Power BI para Android](mobile-android-app-get-started.md). |
 | [![Tableta Android](./media/mobile-apps-for-mobile-devices/android-tablet-logo-50-px.png)](mobile-android-app-get-started.md) |Esta aplicación móvil se ejecuta en diversas **tabletas Android** y le ofrece acceso móvil táctil y actualizado a la información de su empresa. En una tableta Android, la aplicación móvil de Power BI muestra los paneles e informes tal como se diseñaron para el servicio Power BI. También puede [marcar sus paneles e informes favoritos](mobile-apps-favorites.md), de forma que pueda acceder a ellos rápidamente, junto con sus KPI e informes favoritos del servidor de informes de Power BI y de Reporting Services. <br/>Empiece a usar la [aplicación móvil de Power BI para Android](mobile-android-app-get-started.md). |

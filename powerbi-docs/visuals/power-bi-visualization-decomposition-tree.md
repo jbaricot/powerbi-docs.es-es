@@ -8,16 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885266"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865577"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Creación y visualización de objetos visuales de esquema jerárquico en Power BI (versión preliminar)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 El objeto visual del esquema jerárquico de Power BI le permite visualizar datos en varias dimensiones. Agrega datos de manera automática y permite explorar en profundidad las dimensiones en cualquier orden. También es una visualización de inteligencia artificial (IA), por lo que puede pedirle que busque la dimensión siguiente para explorar en profundidad en función de ciertos criterios. Esto lo convierte en una herramienta valiosa para la exploración ad hoc y para analizar la causa principal.
@@ -29,6 +32,8 @@ En este tutorial se usan dos ejemplos:
 - Un escenario de cadena de suministro que analiza el porcentaje de productos que una empresa tiene como pendientes (sin existencias).  
 - Un escenario de ventas que divide las ventas de videojuegos en numerosos factores, como el género y el publicador del juego.
 
+> [!NOTE]
+> Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium.    
 
 ## <a name="get-started"></a>Comenzar
 Seleccione el icono del esquema jerárquico en el panel Visualizaciones.

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802146"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841788"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver informes de Power BI optimizados para el teléfono
 
@@ -131,7 +131,7 @@ Los autores de informes pueden [definir la obtención de detalles](https://docs.
 
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Crear informes optimizados para las aplicaciones de teléfono de Power BI](../../desktop-create-phone-report.md)
+* [Creación de informes optimizados para las aplicaciones móviles de Power BI](../../desktop-create-phone-report.md)
 * [Create a phone view of a dashboard in Power BI (Crear una vista de teléfono de un panel en Power BI)](../../service-create-dashboard-mobile-phone-view.md)
 * [Crear objetos visuales con capacidad de respuesta optimizados para cualquier tamaño](../../visuals/desktop-create-responsive-visuals.md)
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

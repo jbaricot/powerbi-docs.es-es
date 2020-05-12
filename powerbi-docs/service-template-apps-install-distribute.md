@@ -4,16 +4,16 @@ description: Obtenga información sobre cómo instalar, personalizar y distribui
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-ms.date: 03/15/2020
+ms.subservice: powerbi-template-apps
+ms.topic: conceptual
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 86fe618508504faebc920c77a1f9605da59040d9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436120"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781709"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalación y distribución de aplicaciones de plantilla en la organización
 
@@ -65,9 +65,9 @@ Para instalar, personalizar y distribuir una aplicación de plantilla, necesita 
 
 1. Haga clic en **Conectar**.
     
-    Esto abre un cuadro de diálogo o una serie de cuadros de diálogo en los que se cambia el origen de datos de los datos de ejemplo a uno propio. Normalmente, esto significa volver a definir los parámetros de conjunto de datos y las credenciales del origen de datos. Vea [Limitaciones conocidas](service-template-apps-tips.md#known-limitations).
+    Esto abre un cuadro de diálogo o una serie de cuadros de diálogo en los que se cambia el origen de datos de los datos de ejemplo a uno propio. Normalmente, esto significa volver a definir los parámetros de conjunto de datos y las credenciales del origen de datos. Vea [Limitaciones conocidas](service-template-apps-overview.md#known-limitations).
     
-    En el ejemplo siguiente, la conexión a los datos implica dos cuadros de diálogo.
+    En el ejemplo de abajo, la conexión a los datos implica dos cuadros de diálogo.
 
    ![Cuadros de diálogo de conexión a los datos](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
@@ -95,14 +95,18 @@ Cuando haya terminado de realizar los cambios deseados en los artefactos del ár
 
 En ocasiones, los creadores de aplicaciones de plantilla lanzan nuevas versiones mejoradas de sus aplicaciones de plantilla, a través de AppSource, un vínculo directo o ambos.
 
-Si originalmente ha descargado la aplicación de AppSource, cuando haya disponible una nueva versión, aparecerá un banner de actualización en el servicio Power BI que le informará de que hay disponible una versión nueva de la aplicación.
+Si originalmente descargó la aplicación de AppSource, cuando haya disponible una nueva versión de la aplicación de plantilla, recibirá una notificación de dos maneras:
+* Aparece un banner de actualización en el servicio Power BI que le informa de que hay disponible una nueva versión de la aplicación.
+  ![Notificación de actualización de la aplicación de plantilla](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+* Recibirá una notificación en el panel de notificaciones de Power BI.
 
-  ![Notificación de actualización de la aplicación de plantilla](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
+
+  ![Notificación de actualización de la aplicación de plantilla](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >Si originalmente ha obtenido la aplicación a través de un vínculo directo, y no desde AppSource, la única forma de saber cuándo hay una versión nueva disponible es ponerse en contacto con el creador de la aplicación de plantilla.
 
-  Para instalar la actualización, haga clic en **Obtenerla** en el banner de notificación, o bien busque de nuevo la aplicación en AppSource y elija **Obtenerla ahora**. Si ha obtenido un vínculo directo para la actualización del creador de la aplicación de plantilla, simplemente haga clic en el vínculo.
+  Para instalar la actualización, haga clic en **Obtenerla** en el banner de notificación o en el centro de notificaciones, o bien busque de nuevo la aplicación en AppSource y elija **Obtenerla ahora**. Si ha obtenido un vínculo directo para la actualización del creador de la aplicación de plantilla, simplemente haga clic en el vínculo.
   
   Se le preguntará si quiere sobrescribir la versión actual o instalar la nueva en una nueva área de trabajo. De forma predeterminada, está seleccionada la opción de "sobrescritura".
 

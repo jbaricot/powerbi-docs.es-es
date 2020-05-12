@@ -7,22 +7,27 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/18/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5717d543d5c70bbbe7c25ed3e55778639d777170
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525669"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866550"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Crear visualizaciones de mapa de formas en Power BI Desktop (versión preliminar)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Cree un objeto visual de **Mapa de formas** para comparar las regiones de un mapa mediante colores. A diferencia del objeto visual **Mapa**, **Mapa de formas** no puede mostrar las ubicaciones geográficas precisas de los puntos de datos en un mapa. En su lugar, su propósito principal es mostrar comparaciones relativas de las regiones de un mapa mediante colores diferentes.
 
 Los objetos visuales **Mapa de formas** se basan en los mapas TopoJSON, que tienen la capacidad atractiva de usar mapas personalizados que puede crear. Algunos ejemplos de mapas personalizados: organizaciones geográficas y de sala, planos de planta y otros. La capacidad de usar mapas personalizados no está disponible en esta versión preliminar de **Mapa de formas**.
+
+> [!NOTE]
+> Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium.
 
 ## <a name="creating-shape-maps"></a>Crear mapas de formas
 Puede probar el control **Mapa de formas** con los mapas que se proporcionan en esta versión preliminar o puede usar su propio mapa personalizado siempre que cumpla los requisitos descritos en la sección siguiente denominada **Usar mapas personalizados**.
@@ -115,7 +120,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="australia-states"></a>Australia: estados
 
-| ID. | abrev. | iso | nombre | código postal |
+| Id. | abrev. | iso | name | código postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Australia Occidental |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -128,21 +133,21 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="austria-states"></a>Austria: estados
 
-| ID. | iso | nombre | nombre (español) | código postal |
+| Id. | iso | name | nombre (español) | código postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Viena |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
 | at-tr |AT-7 |Tirol |Tirol |TR |
 | at-st |AT-6 |Steiermark |Estiria |ST |
-| at-sz |AT-5 |Salzburg |Salzburg |SZ |
+| at-sz |AT-5 |Salzburg |Salzburgo |SZ |
 | at-oo |AT-4 |Oberösterreich |Alta Austria |OO |
 | at-no |AT-3 |Niederösterreich |Baja Austria |NO |
 | at-ka |AT-2 |Kärnten |Carintia |KA |
-| at-bu |AT-1 |Burgenland |Burgenland |BU |
+| at-bu |AT-1 |Burgenland |Burgenland |Unidad de negocio |
 
 ### <a name="brazil-states"></a>Brasil: estados
 
-| ID. |
+| Id. |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -178,7 +183,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="canada-provinces"></a>Canadá: provincias
 
-| ID. | iso | nombre | código postal |
+| Id. | iso | name | código postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Territorios Noroccidentales |NT |
@@ -186,8 +191,8 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 | ca-sk |CA-SK |Saskatchewan |SK |
 | ca-qc |CA-QC |Quebec |QC |
 | ca-pe |CA-PE |Isla del Príncipe Eduardo |PE |
-| ca-on |CA-ON |Ontario |ACTIVADO |
-| ca-ns |CA-NS |Nueva Escocia |NG |
+| ca-on |CA-ON |Ontario |ON |
+| ca-ns |CA-NS |Nueva Escocia |NS |
 | ca-nl |CA-NL |Terranova y Labrador |NL |
 | ca-nb |CA-NB |Nuevo Brunswick |NB |
 | ca-mb |CA-MB |Manitoba |MB |
@@ -196,12 +201,12 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="france-regions"></a>Francia: regiones
 
-| ID. | nombre | nombre (español) |
+| Id. | name | nombre (español) |
 | --- | --- | --- |
 | Auvernia-Ródano-Alpes |  |  |
 | Borgoña-Franco Condado |  |  |
 | Bretagne |Bretagne |Bretaña |
-| Centre-Val de Loire |Centre-Val de Loire |Centre-Val de Loire |
+| Centro-Valle de Loira |Centre-Val de Loire |Centro-Valle de Loira |
 | Corse |Corse |Córcega |
 | Gran Este |  |  |
 | Guadalupe | |   |
@@ -218,28 +223,28 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="germany-states"></a>Alemania: estados
 
-| ID. | iso | nombre | nombre (español) | código postal |
+| Id. | iso | name | nombre (español) | código postal |
 | --- | --- | --- | --- | --- |
-| de-be |DE-BE |Berlín |Berlín |BE |
+| de-be |DE-BE |Berlin |Berlín |BE |
 | de-th |DE-TH |Thüringen |Turingia |TH |
 | de-st |DE-ST |Sachsen-Anhalt |Sajonia-Anhalt |ST |
 | de-sn |DE-SN |Sachsen |Sajonia |SN |
-| de-mv |DE-MV |Mecklemburgo-Pomerania Occidental |Mecklemburgo-Pomerania Occidental |MV |
-| de-bb |DE-BB |Brandenburg |Brandenburg |BB |
+| de-mv |DE-MV |Mecklenburg-Vorpommern |Mecklemburgo-Pomerania Occidental |MV |
+| de-bb |DE-BB |Brandenburg |Brandeburgo |BB |
 | de-sh |DE-SH |Schleswig-Holstein |Schleswig-Holstein |SH |
-| de-sl |DE-SL |Saarland |Saarland |SL |
+| de-sl |DE-SL |Saarland |Sarre |SL |
 | de-rp |DE-RP |Rheinland-Pfalz |Renania-Palatinado |RP |
 | de-nw |DE-NW |Nordrhein-Westfalen |Renania del Norte-Westfalia |NW |
 | de-ni |DE-NI |Niedersachsen |Baja Sajonia |NI |
 | de-he |DE-HE |Hessen |Hesse |HE |
-| de-hh |DE-HH |Hamburg |Hamburg |HH |
+| de-hh |DE-HH |Hamburg |Hamburgo |HH |
 | de-hb |DE-HB |Bremen |Bremen |HB |
-| de-by |DE-BY |Bayern |Baviera |POR |
+| de-by |DE-BY |Bayern |Baviera |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg |BW |
 
 ### <a name="ireland-counties"></a>Irlanda: condados
 
-| ID. |
+| Id. |
 | --- |
 | Wicklow |
 | Wexford |
@@ -270,32 +275,32 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="italy-regions"></a>Italia: regiones
 
-| ID. | iso | nombre | nombre (español) | código postal |
+| Id. | iso | name | nombre (español) | código postal |
 | --- | --- | --- | --- | --- |
-| it-vn |IT-34 |Veneto |Veneto |VN |
+| it-vn |IT-34 |Veneto |Véneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Valle de Aosta |VD |
-| it-um |IT-55 |Umbría |Umbría |UM |
+| it-um |IT-55 |Umbria |Umbría |UM |
 | it-tt |IT-32 |Trentino-Alto Adige |Trentino-Alto Adigio |TT |
 | it-tc |IT-52 |Toscana |Toscana |TC |
 | it-sc |IT-82 |Sicilia |Sicilia |SC |
 | it-sd |IT-88 |Sardegna |Cerdeña |SD |
-| it-pm |IT-21 |Piemonte |Piamonte |14:49:57 |
+| it-pm |IT-21 |Piemonte |Piamonte |PM |
 | it-ml |IT-67 |Molise |Molise |ML |
-| it-mh |IT-57 |Marcas |Marcas |MH |
+| it-mh |IT-57 |Marche |Marcas |MH |
 | it-lm |IT-25 |Lombardia |Lombardía |LM |
 | it-lg |IT-42 |Liguria |Liguria |LG |
-| it-lz |IT-62 |Lazio |Lazio |LZ |
-| it-fv |IT-36 |Friuli-Venezia Giulia |Friuli-Venezia Giulia |FV |
-| it-er |IT-45 |Emilia-Romaña |Emilia-Romaña |ER |
+| it-lz |IT-62 |Lazio |Lacio |LZ |
+| it-fv |IT-36 |Friuli-Venezia Giulia |Friuli-Venecia Julia |FV |
+| it-er |IT-45 |Emilia-Romagna |Emilia-Romaña |ER |
 | it-cm |IT-72 |Campania |Campania |CM |
 | it-lb |IT-78 |Calabria |Calabria |LB |
 | it-bc |IT-77 |Basilicata |Basilicata |BC |
 | it-pu |IT-75 |Apulia |Apulia |PU |
-| it-ab |IT-65 |Abruzos |Abruzos |AB |
+| it-ab |IT-65 |Abruzzo |Abruzos |AB |
 
 ### <a name="mexico-states"></a>México: estados
 
-| ID. | abreviatura | iso | nombre | nombre (español) | código postal |
+| Id. | abreviatura | iso | name | nombre (español) | código postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatán |YU |
@@ -332,33 +337,33 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="netherlands-provinces"></a>Países Bajos: provincias
 
-| ID. | iso | nombre | nombre (español) |
+| Id. | iso | name | nombre (español) |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Holanda Meridional |
-| nl-ze |NL-ZE |Zeeland |Zeeland |
+| nl-ze |NL-ZE |Zeeland |Zelanda |
 | nl-ut |NL-UT |Utrecht |Utrecht |
 | nl-ov |NL-OV |Overijssel |Overijssel |
 | nl-nh |NL-NH |Noord-Holland |Holanda Septentrional |
 | nl-nb |NL-NB |Noord-Brabant |Brabante Septentrional |
-| nl-li |NL-LI |Limburg |Limburg |
-| nl-gr |NL-GR |Groninga |Groninga |
-| nl-ge |NL-GE |Güeldres |Güeldres |
+| nl-li |NL-LI |Limburg |Limburgo |
+| nl-gr |NL-GR |Groningen |Groninga |
+| nl-ge |NL-GE |Gelderland |Güeldres |
 | nl-fr |NL-FR |Fryslân |Frisia |
-| nl-fl |NL-FL |Flevoland |Flevoland |
-| nl-dr |NL-DR |Drente |Drente |
+| nl-fl |NL-FL |Flevoland |Flevolanda |
+| nl-dr |NL-DR |Drenthe |Drente |
 
-### <a name="uk-countries"></a>Reino Unido: países
+### <a name="uk-countries"></a>Reino Unido: Países
 
-| ID. | iso | nombre |
+| Id. | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Gales |
 | gb-sct |GB-SCT |Escocia |
 | gb-nir |GB-NIR |Irlanda del Norte |
 | gb-eng |GB-ENG |Inglaterra |
 
-### <a name="usa-states"></a>Estados Unidos: estados
+### <a name="usa-states"></a>EE. UU.: estados
 
-| ID. | nombre | código postal |
+| Id. | name | código postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -374,7 +379,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 | us-tx |Texas |TX |
 | us-tn |Tennessee |TN |
 | us-nc |Carolina del norte |NC |
-| us-ok |Oklahoma |ACEPTAR |
+| us-ok |Oklahoma |Aceptar |
 | us-az |Arizona |AZ |
 | us-mo |Misuri |MO |
 | us-va |Virginia |VA |
@@ -394,19 +399,19 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 | us-nj |Nueva Jersey |NJ |
 | us-ri |Rhode Island |RI |
 | us-ct |Connecticut |CT |
-| us-pa |Pensilvania |PA |
+| us-pa |Pennsylvania |PA |
 | us-ny |Nueva York |NY |
 | us-ne |Nebraska |NE |
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |Nueva Hampshire |NH |
-| us-or |Oregón |O |
+| us-or |Oregón |OR |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
-| us-id |Idaho |ID. |
+| us-id |Idaho |Id. |
 | us-wi |Wisconsin |WI |
 | us-wy |Wyoming |WY |
-| us-sd |Dakota del sur |SD |
+| us-sd |South Dakota |SD |
 | us-nd |North Dakota |ND |
 | us-me |Maine |ME |
 | us-mt |Montana |MT |

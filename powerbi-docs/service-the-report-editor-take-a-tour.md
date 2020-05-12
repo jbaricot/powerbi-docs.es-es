@@ -11,10 +11,10 @@ ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871358"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Paseo por el editor de informes de Power BI
@@ -64,7 +64,7 @@ Por ejemplo, al seleccionar un objeto visual individual como este gráfico de co
 
 ![Icono de rodillo de pintura](media/service-the-report-editor-take-a-tour/power-bi-paint-roller.png) **Formato** Para mostrar el panel de formato de la visualización seleccionada, seleccione el icono de rodillo de pintura.
 
-![icono de lupa](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png) **Análisis** Para mostrar el panel Análisis, seleccione el icono de lupa.
+![Icono de lupa](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png) **Análisis** Para mostrar el panel Análisis, seleccione el icono de lupa.
 
 **En el panel Campos** se enumeran todas las tablas disponibles en el modelo de datos. Al expandir una tabla, verá los campos que contiene. La marca de verificación de color amarillo indica que al menos un campo de esas tabla está en una visualización.
 

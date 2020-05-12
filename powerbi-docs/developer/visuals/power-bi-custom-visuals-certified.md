@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 2dee596648c9921cefab6903167e780bfacb122e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b759d19046ddb375646743a50025689ab9a566c0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113909"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613543"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Obtención de un objeto visual de Power BI certificado
 
@@ -82,8 +82,6 @@ Use la versión más reciente de [powerbi-visuals-tools](https://www.npmjs.com/p
 
 Debe compilar el objeto visual de Power BI con `pbiviz package`. Si va a usar sus propios scripts de compilación, proporcione un comando de compilación `npm run package` personalizado.
 
-
-
 ### <a name="source-code-requirements"></a>Requisitos del código fuente
 
 Compruebe que sigue la lista de directivas de [certificación adicional de objetos visuales de Power BI](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification). Si el envío no sigue estas directrices, el correo electrónico de rechazo del Centro de partners incluirá los números de la directiva que aparecen en este vínculo.
@@ -150,6 +148,25 @@ Una vez certificado un objeto visual de Power BI, obtiene un distintivo designad
     ![Objeto visual de Power BI certificado de la interfaz de Power BI](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
 * Puede mostrar solo los objetos visuales de Power BI certificados seleccionando la opción de filtro *Certificado por Power BI*.
+
+## <a name="publication-timeline"></a>Plazos de publicación
+
+La implementación en AppSource es un proceso que puede tardar cierto tiempo. El objeto visual de Power BI estará disponible para su descarga en AppSource cuando este proceso haya finalizado.
+
+### <a name="when-will-users-be-able-to-download-my-visual"></a>¿Cuándo podrán los usuarios descargar el objeto visual?
+
+* Si es la primera vez que envía un objeto visual de Power BI, estará listo para descargarlo unas horas después de que reciba un correo electrónico de AppSource.
+
+* Si ha enviado una actualización de un objeto visual de Power BI existente, los usuarios podrán descargarla en el plazo de un mes desde su envío.
+
+    >[!NOTE]
+    > El campo *versión* de AppSource se actualizará con el día en que AppSource aprobó el objeto visual de Power BI, aproximadamente una semana después de haber enviado el objeto visual. Los usuarios podrán descargar el objeto visual actualizado, pero las características actualizadas no surtirán efecto. Las nuevas capacidades del objeto visual afectarán a los informes de los usuarios transcurrido un mes aproximadamente. 
+
+### <a name="when-will-my-power-bi-visual-display-a-certification-badge"></a>¿Cuándo mostrará el objeto visual de Power BI un distintivo de certificación?
+
+* Si ha enviado un objeto visual de Power BI por primera vez, el distintivo de certificación aparecerá en el plazo de un día desde que reciba el correo electrónico de aprobación de AppSource.
+
+* Si está solicitando la certificación de un objeto visual de Power BI, el distintivo de certificación estará visible en el plazo de un mes de su envío.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

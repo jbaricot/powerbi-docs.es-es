@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ca3e954f64665798c439fba47c3135e93fe51ac0
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80329614"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866803"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Publicación en Power BI desde Microsoft Excel
 Con Microsoft Excel 2016 y versiones posteriores, puede publicar libros de Excel directamente en el área de trabajo de [Power BI](https://powerbi.microsoft.com) y, una vez allí, crear informes y paneles sumamente interactivos basados en los datos del libro. Luego, puede compartir sus recomendaciones con otras personas de la organización.
@@ -42,7 +42,7 @@ Excel admite la publicación de archivos de Excel locales. Ya no hace falta guar
 > Solo puede publicar archivos locales si usa Excel 2016 (o posterior) con una suscripción a Office 365. Las instalaciones independientes de Excel 2016 pueden publicar en Power BI, pero solo cuando el libro se guarda en OneDrive para la Empresa o SharePoint Online.
 > 
 
-Al seleccionar **Publicar**, puede seleccionar el área de trabajo en la que desea publicar. El área de trabajo puede ser su área de trabajo personal o un área de trabajo de grupo a la que tenga acceso, tal como se muestra en la siguiente imagen.
+Al seleccionar **Publicar**, puede seleccionar el área de trabajo en la que desea publicar. Si el archivo de Excel reside en OneDrive para la Empresa, solo se puede publicar en *Mi área de trabajo*. Si el archivo de Excel reside en una unidad local, puede publicar en *Mi área de trabajo* o en un área de trabajo compartida a la que tenga acceso.
 
 ![Publicar en Power BI](media/service-publish-from-excel/pbi_choose_workspace.png)
 
@@ -61,7 +61,7 @@ Una vez guardado el libro en OneDrive para la Empresa, al seleccionar **Publicar
 
 ![Opciones para Power BI](media/service-publish-from-excel/pbi_uploadexport2.png)
 
-#### <a name="upload-your-workbook-to-power-bi"></a>Carga de un libro en Power BI
+#### <a name="upload-your-workbook-to-power-bi"></a>Cargar el libro en Power BI
 Si elige la opción **Cargar**, aparecerá el libro en Power BI tal como lo haría en Excel Online. Sin embargo, a diferencia de Excel Online, podrá disfrutar de opciones que le permiten anclar elementos de las hojas de cálculo en los paneles.
 
 No puede editar el libro en Power BI, pero si necesita realizar algunos cambios en los datos, puede seleccionar **Editar** y, a continuación, edite el libro en Excel Online o ábralo en Excel en el equipo. Todos los cambios que realice se guardarán en el libro en OneDrive para la Empresa.

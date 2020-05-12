@@ -10,7 +10,7 @@
     - name: Conceptos
       expanded: true
       items:
-        - name: Organizar el trabajo
+        - name: Organización del trabajo en áreas de trabajo
           href: ../service-new-workspaces.md
         - name: Supervisión del uso en áreas de trabajo clásicas
           href: ../service-usage-metrics.md
@@ -27,7 +27,7 @@
               href: service-workspaces-new-look.md
             - name: Actualización de áreas de trabajo clásicas
               href: ../designer/service-upgrade-workspaces.md
-            - name: Creación de áreas de trabajo
+            - name: Crear áreas de trabajo
               href: ../service-create-workspaces.md
             - name: Publicación de aplicaciones de áreas de trabajo
               href: ../service-create-distribute-apps.md
@@ -73,9 +73,9 @@
               href: ../service-analyze-in-excel.md
             - name: Solución de problemas con la función Analizar en Excel
               href: ../desktop-troubleshooting-analyze-in-excel.md
-            - name: 'Error: No se encontraron datos en su libro de Excel'
+            - name: 'Error: Datos no encontrados en el libro de Excel'
               href: ../service-admin-troubleshoot-excel-workbook-data.md
-            - name: "Power Automate y Power\_BI"
+            - name: "Power\_Automate y Power\_BI"
               href: ../service-flow-integration.md
             - name: Usar aplicaciones de terceros
               href: ../service-power-bi-get-started-third-party-apps.md

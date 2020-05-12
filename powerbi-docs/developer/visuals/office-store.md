@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621461"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613566"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicación de objetos visuales de Power BI en el Centro de partners
 
@@ -101,9 +101,11 @@ Siga los pasos que aparecen a continuación para enviar el objeto visual de Powe
 
 ## <a name="tracking-submission-status-and-usage"></a>Seguimiento del uso y estado del envío
 
-Puede revisar las [directivas de validación](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
+* Puede revisar las [directivas de validación](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
 
-Después del envío, el estado del envío se puede ver en el [panel de la aplicación](https://sellerdashboard.microsoft.com/Application/Summary/).
+* Después del envío, el estado del envío se puede ver en el [panel de la aplicación](https://sellerdashboard.microsoft.com/Application/Summary/).
+
+* Para saber cuándo estará disponible el objeto visual de Power BI para descargarlo de AppSource, revise el [plazo de publicación](power-bi-custom-visuals-certified.md#publication-timeline) de objetos visuales de Power BI.
 
 ## <a name="certify-your-visual"></a>Certificación del objeto visual
 
