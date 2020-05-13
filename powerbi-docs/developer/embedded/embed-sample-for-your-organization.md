@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 332b9d500aa45ed25199630422e89f890a81f6a3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621644"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349802"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Insertar contenido de Power BI en una aplicación para la organización
 
@@ -31,7 +31,7 @@ En este tutorial, aprenderá las tareas siguientes:
 
 Para empezar, es necesario que tenga:
 
-* Una [cuenta de Power BI Pro](../../service-self-service-signup-for-power-bi.md).
+* Una [cuenta de Power BI Pro](../../fundamentals/service-self-service-signup-for-power-bi.md).
 * Una suscripción a [Microsoft Azure](https://azure.microsoft.com/).
 * Debe tener configurado un [inquilino de Azure Active Directory](create-an-azure-active-directory-tenant.md) propio.
 * Para insertar informes paginados, necesita al menos una capacidad P1. Vea [¿Qué tamaño de capacidad Premium se necesita para los informes paginados?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
@@ -60,7 +60,7 @@ Después de crear la aplicación en Azure, ábrala en Azure, vaya a *Autenticaci
 
 ### <a name="create-a-workspace"></a>Creación de un área de trabajo
 
-Si va a insertar informes, paneles o iconos para los clientes, tiene que colocar el contenido en un área de trabajo. Existen distintos tipos de áreas de trabajo que se pueden configurar: las [áreas de trabajo tradicionales](../../service-create-workspaces.md) o las [áreas de trabajo nuevas](../../service-create-the-new-workspaces.md).
+Si va a insertar informes, paneles o iconos para los clientes, tiene que colocar el contenido en un área de trabajo. Existen distintos tipos de áreas de trabajo que se pueden configurar: las [áreas de trabajo tradicionales](../../collaborate-share/service-create-workspaces.md) o las [áreas de trabajo nuevas](../../collaborate-share/service-create-the-new-workspaces.md).
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Creación y publicación de informes de Power BI
 
@@ -381,9 +381,9 @@ Ahora que ya ha terminado de desarrollar la aplicación, es el momento de propor
 
 ### <a name="create-a-dedicated-capacity"></a>Crear una capacidad dedicada
 
-Al crear una capacidad dedicada, puede aprovechar las ventajas de disponer de un recurso dedicado para el contenido del área de trabajo. En el caso de los informes paginados, debe asignar al área de trabajo al menos una capacidad P1. Puede crear una capacidad dedicada mediante [Power BI Premium](../../service-premium-what-is.md).
+Al crear una capacidad dedicada, puede aprovechar las ventajas de disponer de un recurso dedicado para el contenido del área de trabajo. En el caso de los informes paginados, debe asignar al área de trabajo al menos una capacidad P1. Puede crear una capacidad dedicada mediante [Power BI Premium](../../admin/service-premium-what-is.md).
 
-En la tabla siguiente se enumeran las SKU de Power BI Premium disponibles en [Microsoft Office 365](../../service-admin-premium-purchase.md):
+En la tabla siguiente se enumeran las SKU de Power BI Premium disponibles en [Microsoft Office 365](../../admin/service-admin-premium-purchase.md):
 
 | Nodo de capacidad | Núcleos virtuales totales<br/>(back-end y front-end) | Núcleos virtuales de back-end | Núcleos virtuales de front-end | Límites de conexiones dinámicas/DirectQuery |
 | --- | --- | --- | --- | --- | --- |
@@ -418,7 +418,7 @@ Después de crear una capacidad dedicada, puede asignar el área de trabajo a es
 
 ## <a name="admin-settings"></a>Configuración de administrador
 
-Los administradores globales o los administradores de servicios de Power BI pueden activar o desactivar la capacidad para usar las API REST de un inquilino. Los administradores de Power BI pueden establecer esta opción para toda la organización o para grupos de seguridad individuales. De forma predeterminada, está habilitada para toda la organización. Puede realizar estos cambios en el [portal de administración de Power BI](../../service-admin-portal.md).
+Los administradores globales o los administradores de servicios de Power BI pueden activar o desactivar la capacidad para usar las API REST de un inquilino. Los administradores de Power BI pueden establecer esta opción para toda la organización o para grupos de seguridad individuales. De forma predeterminada, está habilitada para toda la organización. Puede realizar estos cambios en el [portal de administración de Power BI](../../admin/service-admin-portal.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

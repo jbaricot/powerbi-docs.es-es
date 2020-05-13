@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1aa682a71fe7469f8a9c7d5415fb843400e5d312
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613566"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148324"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicación de objetos visuales de Power BI en el Centro de partners
 
@@ -27,7 +27,7 @@ Una vez que haya creado un objeto visual de Power BI, puede publicarlo en AppSo
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Preparación para enviar el objeto visual de Power BI
 
-Antes de enviar un objeto visual de Power BI a AppSource, asegúrese de que ha leído las [directrices de objetos visuales de Power BI](guidelines-powerbi-visuals.md) y ha [probado el objeto visual](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md).
+Antes de enviar un objeto visual de Power BI a AppSource, asegúrese de que ha leído las [directrices de objetos visuales de Power BI](guidelines-powerbi-visuals.md) y ha [probado el objeto visual](./submission-testing.md).
 
 Cuando esté listo para enviar el objeto visual de Power BI, compruebe que cumple con todos los requisitos que se enumeran a continuación.
 
@@ -99,9 +99,10 @@ Siga los pasos que aparecen a continuación para enviar el objeto visual de Powe
 
 10. Seleccione **Configuración del producto** y haga clic en **Revisar y publicar**.
 
+
 ## <a name="tracking-submission-status-and-usage"></a>Seguimiento del uso y estado del envío
 
-* Puede revisar las [directivas de validación](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
+Puede revisar las [directivas de validación](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
 
 * Después del envío, el estado del envío se puede ver en el [panel de la aplicación](https://sellerdashboard.microsoft.com/Application/Summary/).
 

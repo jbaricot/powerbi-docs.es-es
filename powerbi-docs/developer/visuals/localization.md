@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379935"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349296"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Adición de la configuración regional en Power BI para los objetos visuales de Power BI
 
 Los objetos visuales pueden recuperar la configuración regional de Power BI para localizar su contenido en el idioma relevante.
 
-Obtenga más información sobre los [idiomas y países o regiones admitidos para Power BI](./../../supported-languages-countries-regions.md)
+Obtenga más información sobre los [idiomas y países o regiones admitidos para Power BI](./../../fundamentals/supported-languages-countries-regions.md)
 
 Por ejemplo, para obtener la configuración regional en el objeto visual Gráfico de barras de ejemplo.
 
@@ -153,7 +153,7 @@ A continuación se describen todos los pasos necesarios para usar el administrad
 
 ## <a name="setup-environment"></a>Entorno de configuración
 
-### <a name="desktop"></a>Desktop
+### <a name="desktop"></a>Escritorio
 
 Para el uso en el escritorio, descargue la versión localizada de Power BI Desktop en https://powerbi.microsoft.com.
 
