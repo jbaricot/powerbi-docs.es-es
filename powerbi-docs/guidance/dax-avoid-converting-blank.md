@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700395"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279650"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: Impedimento de la conversión de BLANK en valores
 
@@ -66,7 +66,7 @@ El objeto visual de tabla ahora muestra solo los clientes que han tenido ventas 
 ![El mismo objeto visual de tabla ahora muestra cuatro filas de datos. Cada fila es para un cliente que tiene un valor de ventas y los valores de Profit Margin no son cero.](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
-> Si es necesario, puede configurar un objeto visual para mostrar todas las agrupaciones (que devuelven valores o en blanco) dentro del contexto de filtro habilitando la opción [Mostrar elementos sin datos](../desktop-show-items-no-data.md).
+> Si es necesario, puede configurar un objeto visual para mostrar todas las agrupaciones (que devuelven valores o en blanco) dentro del contexto de filtro habilitando la opción [Mostrar elementos sin datos](../create-reports/desktop-show-items-no-data.md).
 
 ## <a name="recommendation"></a>Recomendación
 
@@ -80,3 +80,4 @@ Para más información sobre este artículo, consulte los recursos siguientes:
 
 - [Referencia de expresiones de análisis de datos (DAX)](/dax/)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+

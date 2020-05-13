@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 811e0513c1b4a16a731e6d9bd90cbc0689ca76e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496472"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279788"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Cambio del modo de ordenar un gráfico en un informe de Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "77496472"
 
 
 > [!IMPORTANT]
-> **Este artículo está destinado a usuarios de Power BI que no tienen permisos de edición para el informe o el conjunto de datos y que solo trabajan en la versión en línea de Power BI (el servicio Power BI). Si es *diseñador*, *administrador* o *propietario* de un informe, puede que este artículo no contenga toda la información que necesita. Así que lea mejor [Ordenar por columnas en Power BI Desktop](../desktop-sort-by-column.md)** .
+> **Este artículo está destinado a usuarios de Power BI que no tienen permisos de edición para el informe o el conjunto de datos y que solo trabajan en la versión en línea de Power BI (el servicio Power BI). Si es *diseñador*, *administrador* o *propietario* de un informe, puede que este artículo no contenga toda la información que necesita. Así que lea mejor [Ordenar por columnas en Power BI Desktop](../create-reports/desktop-sort-by-column.md)** .
 
 En el servicio Power BI, puede cambiar el aspecto de un objeto visual al ordenar por campos de datos diferentes. Al cambiar cómo se ordena un objeto visual, puede resaltar la información que quiere transmitir. Independientemente de si usa datos numéricos (como cifras de ventas) o datos de texto (como nombres de estado), puede ordenar sus visualizaciones de la forma que quiera. Power BI proporciona mucha flexibilidad para la ordenación y menús rápidos para su uso. 
 
@@ -69,7 +69,7 @@ Solo la persona que diseñó el informe puede hacer estos cambios. Para encontra
 
 ![Elemento desplegable que muestra la información de contacto](media/end-user-change-sort/power-bi-contact.png)
 
-Si es *diseñador* y tiene permisos de edición para el contenido, lea [Ordenar por columnas en Power BI Desktop](../desktop-sort-by-column.md) para saber cómo actualizar el conjunto de datos y habilitar este tipo de ordenación.
+Si es *diseñador* y tiene permisos de edición para el contenido, lea [Ordenar por columnas en Power BI Desktop](../create-reports/desktop-sort-by-column.md) para saber cómo actualizar el conjunto de datos y habilitar este tipo de ordenación.
 
 ## <a name="next-steps"></a>Pasos siguientes
 Más información sobre [Visualizaciones en Power BI](end-user-visualizations.md).

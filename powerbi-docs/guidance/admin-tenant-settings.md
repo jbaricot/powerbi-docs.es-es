@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79487818"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279765"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Guía para la configuración de la administración de inquilinos
 
@@ -21,7 +21,7 @@ Este artículo está dirigido a administradores de Power BI encargados de insta
 
 Proporciona instrucciones para la configuración específica de inquilinos que ayuda a mejorar la experiencia de Power BI, o que podrían poner en riesgo la organización. Se recomienda configurar siempre el inquilino de modo que esté alineado con las directivas y los procesos de la organización.
 
-La [configuración de inquilinos](../service-admin-portal.md#tenant-settings) se administra en el [portal de administración](https://app.powerbi.com/admin-portal/tenantSettings) y la puede llevar a cabo [un administrador del servicio Power BI](../service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi). Muchos valores de configuración de inquilino pueden restringir las capacidades y características a un conjunto limitado de usuarios. Así pues, le recomendamos que se familiarice con la configuración para planear los grupos de seguridad que necesitará. Es posible que descubra que puede aplicar el mismo grupo de seguridad a varias configuraciones.
+La [configuración de inquilinos](../admin/service-admin-portal.md#tenant-settings) se administra en el [portal de administración](https://app.powerbi.com/admin-portal/tenantSettings) y la puede llevar a cabo [un administrador del servicio Power BI](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi). Muchos valores de configuración de inquilino pueden restringir las capacidades y características a un conjunto limitado de usuarios. Así pues, le recomendamos que se familiarice con la configuración para planear los grupos de seguridad que necesitará. Es posible que descubra que puede aplicar el mismo grupo de seguridad a varias configuraciones.
 
 ## <a name="improve-power-bi-experience"></a>Mejora de la experiencia de Power BI
 
@@ -88,7 +88,7 @@ Se recomienda que asigne uno o varios grupos de seguridad. Se puede conceder _o 
 
 ### <a name="publish-to-web"></a>Publicar en web
 
-La característica [Publicar en Web](../service-publish-to-web.md) permite publicar informes públicos en la Web. Si se usa incorrectamente, existe el riesgo de que la información confidencial esté disponible en la Web.
+La característica [Publicar en Web](../collaborate-share/service-publish-to-web.md) permite publicar informes públicos en la Web. Si se usa incorrectamente, existe el riesgo de que la información confidencial esté disponible en la Web.
 
 La opción **Publicar en Web** está habilitada de forma predeterminada para toda la organización, pero restringe la capacidad de los usuarios que no son administradores para crear códigos para insertar. Se encuentra en el grupo **Exportar y compartir configuración**.
 
@@ -109,7 +109,7 @@ La opción **Exportar datos** está habilitada de forma predeterminada para toda
 Se recomienda que asigne uno o varios grupos de seguridad. Se puede conceder _o denegar_ permiso a estos grupos para publicar informes.
 
 > [!IMPORTANT]
-> Si se deshabilita esta opción, también se restringe el uso de las características [Analizar en Excel](../service-analyze-in-excel.md) y [Conexión dinámica](../desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) del servicio Power BI.
+> Si se deshabilita esta opción, también se restringe el uso de las características [Analizar en Excel](../collaborate-share/service-analyze-in-excel.md) y [Conexión dinámica](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) del servicio Power BI.
 
 ![Se muestra la opción "Exportar datos".](media/admin-tenant-settings/export-data.png)
 
@@ -118,7 +118,7 @@ Se recomienda que asigne uno o varios grupos de seguridad. Se puede conceder _o 
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Permitir a los usuarios externos editar y administrar el contenido de la organización
 
-Es posible que los usuarios invitados externos puedan editar y administrar el contenido de Power BI. Para más información, consulte [Distribuir contenido de Power BI a usuarios externos invitados con Azure AD B2B](../service-admin-azure-ad-b2b.md).
+Es posible que los usuarios invitados externos puedan editar y administrar el contenido de Power BI. Para más información, consulte [Distribuir contenido de Power BI a usuarios externos invitados con Azure AD B2B](../admin/service-admin-azure-ad-b2b.md).
 
 La opción **Permitir a los usuarios externos editar y administrar el contenido de la organización** está deshabilitada de forma predeterminada para toda la organización. Se encuentra en el grupo **Exportar y compartir configuración**.
 
@@ -141,7 +141,8 @@ Si no tiene intención de usar las API de desarrollador para insertar contenido,
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
-- [¿Qué es la administración de Power BI?](../service-admin-administering-power-bi-in-your-organization.md)
-- [Administración de Power BI en el portal de administración](../service-admin-portal.md)
+- [¿Qué es la administración de Power BI?](../admin/service-admin-administering-power-bi-in-your-organization.md)
+- [Administración de Power BI en el portal de administración](../admin/service-admin-portal.md)
 - ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com)
+

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 3ca49008639f7e3e084c8d045bc911aff57b7b21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 42d99c7139586a78565198b59bc74716261537e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75498746"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279627"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX: Referencias de columnas y medidas
 
@@ -43,7 +43,7 @@ Se recomienda usar siempre nombres completos para las referencias de columna. Lo
 
 ## <a name="measures"></a>Medidas
 
-Una medida es un objeto de nivel de modelo. Por esta razón, los nombres de medida deben ser únicos en el modelo. Pero en el panel **Campos**, los autores del informe verán cada medida asociada a una sola tabla de modelo. Esta asociación se establece por motivos cosméticos y puede configurarla si establece la propiedad **Tabla inicial** de la medida. Para obtener más información, vea [Medidas en Power BI Desktop (organización de las medidas)](../desktop-measures.md#organizing-your-measures).
+Una medida es un objeto de nivel de modelo. Por esta razón, los nombres de medida deben ser únicos en el modelo. Pero en el panel **Campos**, los autores del informe verán cada medida asociada a una sola tabla de modelo. Esta asociación se establece por motivos cosméticos y puede configurarla si establece la propiedad **Tabla inicial** de la medida. Para obtener más información, vea [Medidas en Power BI Desktop (organización de las medidas)](../transform-model/desktop-measures.md#organizing-your-measures).
 
 Es posible usar una medida completa en las expresiones. IntelliSense para DAX ofrecerá incluso la sugerencia. Pero no es necesario y no es un procedimiento recomendado. Si cambia la tabla inicial de una medida, se interrumpirán todas las expresiones en las que se use una referencia de medida completa. Después, tendrá que editar cada fórmula interrumpida para quitar (o actualizar) la referencia de la medida.
 
@@ -68,3 +68,4 @@ Para más información sobre este artículo, consulte los recursos siguientes:
 
 - [Referencia de expresiones de análisis de datos (DAX)](/dax/)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+

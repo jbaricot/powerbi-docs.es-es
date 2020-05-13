@@ -8,26 +8,26 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ace93dfe358c85e54863dece0303c889c6a766b2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75223637"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279604"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Instrucciones del modelo de DirectQuery en Power BI Desktop
 
 Este artículo está destinado a los modeladores de datos que desarrollan modelos de DirectQuery de Power BI, desarrollados mediante Power BI Desktop o el servicio Power BI. Describe los casos de uso, las limitaciones y la guía de DirectQuery. Específicamente, la guía está diseñada para ayudarle a determinar si DirectQuery es el modo adecuado para el modelo y para mejorar el rendimiento de los informes basados en modelos de DirectQuery. Este artículo se aplica a los modelos de DirectQuery hospedados en el servicio Power BI o en Power BI Report Server.
 
-Este artículo no pretende proporcionar una explicación completa sobre el diseño del modelo de DirectQuery. Para obtener una introducción, consulte el artículo [Modelos de DirectQuery en Power BI Desktop](../desktop-directquery-about.md). Para obtener una explicación más detallada, consulte directamente las notas del producto en [DirectQuery en SQL Server 2016 Analysis Services](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf). Tenga en cuenta que en las notas del producto se describe el uso de DirectQuery en SQL Server Analysis Services. Sin embargo, gran parte del contenido es aplicable a los modelos de DirectQuery de Power BI.
+Este artículo no pretende proporcionar una explicación completa sobre el diseño del modelo de DirectQuery. Para obtener una introducción, consulte el artículo [Modelos de DirectQuery en Power BI Desktop](../connect-data/desktop-directquery-about.md). Para obtener una explicación más detallada, consulte directamente las notas del producto en [DirectQuery en SQL Server 2016 Analysis Services](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf). Tenga en cuenta que en las notas del producto se describe el uso de DirectQuery en SQL Server Analysis Services. Sin embargo, gran parte del contenido es aplicable a los modelos de DirectQuery de Power BI.
 
-En este artículo no se describen directamente los modelos compuestos. Un modelo compuesto contendrá al menos un origen de DirectQuery y, posiblemente, más. Las instrucciones descritas en este artículo siguen siendo adecuadas, al menos en parte, en el diseño del modelo compuesto. Pero las implicaciones de combinar tablas de importación con tablas de DirectQuery no están en el ámbito de este artículo. Para más información, consulte [Usar modelos compuestos en Power BI Desktop](../desktop-composite-models.md).
+En este artículo no se describen directamente los modelos compuestos. Un modelo compuesto contendrá al menos un origen de DirectQuery y, posiblemente, más. Las instrucciones descritas en este artículo siguen siendo adecuadas, al menos en parte, en el diseño del modelo compuesto. Pero las implicaciones de combinar tablas de importación con tablas de DirectQuery no están en el ámbito de este artículo. Para más información, consulte [Usar modelos compuestos en Power BI Desktop](../transform-model/desktop-composite-models.md).
 
 Es importante comprender que los modelos de DirectQuery imponen otra carga de trabajo en el entorno de Power BI (servicio Power BI o Power BI Report Server) y también en los orígenes de datos subyacentes. Si determina que DirectQuery es el enfoque de diseño adecuado, se recomienda que incorpore a las personas adecuadas al proyecto. A menudo vemos que una implementación correcta del modelo de DirectQuery es el resultado de un equipo de profesionales de TI que trabaja en estrecha colaboración. Normalmente, el equipo se compone de desarrolladores de modelos y administradores de las bases de datos de origen. También puede implicar a los arquitectos de datos y a los desarrolladores de almacenamiento de datos y ETL. A menudo, es necesario aplicar optimizaciones directamente al origen de datos para lograr buenos resultados de rendimiento.
 
 ## <a name="design-in-power-bi-desktop"></a>Diseño en Power BI Desktop
 
-Los orígenes de datos de Azure SQL Data Warehouse y Azure HDInsight Spark se pueden conectar directamente, sin necesidad de utilizar Power BI Desktop. Esto se consigue en el servicio Power BI mediante la "Obtención de datos" y la elección del icono de bases de datos. Para más información, vea [Azure SQL Data Warehouse con DirectQuery](../service-azure-sql-data-warehouse-with-direct-connect.md).
+Los orígenes de datos de Azure SQL Data Warehouse y Azure HDInsight Spark se pueden conectar directamente, sin necesidad de utilizar Power BI Desktop. Esto se consigue en el servicio Power BI mediante la "Obtención de datos" y la elección del icono de bases de datos. Para más información, vea [Azure SQL Data Warehouse con DirectQuery](../connect-data/service-azure-sql-data-warehouse-with-direct-connect.md).
 
 Aunque la conexión directa es conveniente, no se recomienda usar este enfoque. La razón principal es que no es posible actualizar la estructura del modelo en caso de que el esquema del origen de datos subyacente cambie.
 
@@ -77,8 +77,8 @@ Un modelo de DirectQuery se puede optimizar de muchas maneras, como se describe 
     Hay una excepción a esta guía y se refiere al uso de la función de DAX [COMBINEVALUES](/dax/combinevalues-function-dax). El propósito de esta función es admitir relaciones de varias columnas en el modelo. En lugar de generar una expresión que la relación utilizará, genera un predicado de combinación SQL de varias columnas.
 - **Evitar las relaciones en columnas de "identificador único":** Power BI no admite de forma nativa el tipo de datos de identificador único (GUID). Al definir una relación entre columnas de este tipo, Power BI generará una consulta de origen con una combinación que implica una conversión. Esta conversión de datos en tiempo de consulta suele provocar un rendimiento deficiente. Hasta que este caso se optimice, la única solución es materializar columnas de un tipo de datos alternativo en la base de datos subyacente.
 - **Ocultar la columna del lado uno de las relaciones:** se debe ocultar la columna del lado uno de una relación. (Normalmente, es la columna de clave principal de las tablas de tipo de dimensión). Cuando está oculta, no está disponible en el panel **Campos** y, por tanto, no se puede usar para configurar un objeto visual. La columna del lado varios puede estar visible si resulta útil para agrupar o filtrar los informes por los valores de columna. Por ejemplo, considere un modelo en el que existe una relación entre las tablas **Ventas** y **Producto**. Las columnas de la relación contienen valores de SKU (Unidades de stock) del producto. Si se debe agregar el valor de SKU del producto a los objetos visuales, debe ser visible solo en la tabla **Ventas**. Cuando esta columna se usa para filtrar o agrupar en un objeto visual, Power BI generará una consulta que no necesita combinar las tablas **Ventas** y **Producto**.
-- **Establecer relaciones para aplicar la integridad:** la propiedad **Asumir integridad referencial** de las relaciones de DirectQuery determina si Power BI generará consultas del origen mediante una combinación interna en lugar de una combinación externa. Normalmente, esto mejora el rendimiento de las consultas, aunque depende de los detalles específicos del origen de base de datos relacional. Para más información, vea [Configuración de Asumir integridad referencial en Power BI Desktop](../desktop-assume-referential-integrity.md).
-- **Evitar el uso del filtrado de relaciones bidireccional:** El uso del filtrado de relaciones bidireccional puede conducir a instrucciones de consulta que no tienen buen rendimiento. Use esta característica de la relación solo cuando sea necesario, como es habitual al implementar una relación de varios a varios en una tabla puente. Para más información, vea [Relaciones con una cardinalidad de varios a varios en Power BI Desktop](../desktop-many-to-many-relationships.md).
+- **Establecer relaciones para aplicar la integridad:** la propiedad **Asumir integridad referencial** de las relaciones de DirectQuery determina si Power BI generará consultas del origen mediante una combinación interna en lugar de una combinación externa. Normalmente, esto mejora el rendimiento de las consultas, aunque depende de los detalles específicos del origen de base de datos relacional. Para más información, vea [Configuración de Asumir integridad referencial en Power BI Desktop](../connect-data/desktop-assume-referential-integrity.md).
+- **Evitar el uso del filtrado de relaciones bidireccional:** El uso del filtrado de relaciones bidireccional puede conducir a instrucciones de consulta que no tienen buen rendimiento. Use esta característica de la relación solo cuando sea necesario, como es habitual al implementar una relación de varios a varios en una tabla puente. Para más información, vea [Relaciones con una cardinalidad de varios a varios en Power BI Desktop](../transform-model/desktop-many-to-many-relationships.md).
 - **Limitar las consultas paralelas:** puede establecer el número máximo de conexiones que abre DirectQuery para cada origen de datos subyacente. Controla el número de consultas que se envían de forma simultánea al origen de datos.
 
     ![La ventana Power BI Desktop está abierta y la página DirectQuery del archivo actual está seleccionada. Se resalta la propiedad Conexiones máximas por origen de datos.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
@@ -121,9 +121,9 @@ Además de la lista anterior de técnicas de optimización, cada una de las func
 
 ## <a name="convert-to-a-composite-model"></a>Conversión a un modelo compuesto
 
-Las ventajas de los modelos de importación y de DirectQuery se pueden combinar en un único modelo mediante la configuración del modo de almacenamiento de las tablas del modelo. El modo de almacenamiento de las tablas puede ser Importar, DirectQuery o ambos, conocido como Dual. Cuando un modelo contiene tablas con modos de almacenamiento diferentes, se conoce como modelo compuesto. Para más información, consulte [Usar modelos compuestos en Power BI Desktop](../desktop-composite-models.md).
+Las ventajas de los modelos de importación y de DirectQuery se pueden combinar en un único modelo mediante la configuración del modo de almacenamiento de las tablas del modelo. El modo de almacenamiento de las tablas puede ser Importar, DirectQuery o ambos, conocido como Dual. Cuando un modelo contiene tablas con modos de almacenamiento diferentes, se conoce como modelo compuesto. Para más información, consulte [Usar modelos compuestos en Power BI Desktop](../transform-model/desktop-composite-models.md).
 
-Hay muchas mejoras funcionales y de rendimiento que se pueden lograr mediante la conversión de un modelo de DirectQuery en un modelo compuesto. Un modelo compuesto puede integrar más de un origen de DirectQuery y también puede incluir agregaciones. Las tablas de agregación se pueden agregar a las tablas de DirectQuery para importar una representación resumida de la tabla. Pueden conseguir importantes mejoras de rendimiento cuando los objetos visuales consultan agregados de nivel superior. Para más información, vea [Agregaciones en Power BI Desktop](../desktop-aggregations.md).
+Hay muchas mejoras funcionales y de rendimiento que se pueden lograr mediante la conversión de un modelo de DirectQuery en un modelo compuesto. Un modelo compuesto puede integrar más de un origen de DirectQuery y también puede incluir agregaciones. Las tablas de agregación se pueden agregar a las tablas de DirectQuery para importar una representación resumida de la tabla. Pueden conseguir importantes mejoras de rendimiento cuando los objetos visuales consultan agregados de nivel superior. Para más información, vea [Agregaciones en Power BI Desktop](../transform-model/desktop-aggregations.md).
 
 ## <a name="educate-users"></a>Educación de los usuarios
 
@@ -137,7 +137,7 @@ Al entregar informes sobre orígenes de datos volátiles, asegúrese de educar a
 
 Para más información acerca de DirectQuery, revise los siguientes recursos:
 
-- [Modelos de DirectQuery en Power BI Desktop](../desktop-directquery-about.md)
-- [Usar DirectQuery en Power BI Desktop](../desktop-use-directquery.md)
-- [Solución de problemas del modelo de DirectQuery en Power BI Desktop](../desktop-directquery-troubleshoot.md)
+- [Modelos de DirectQuery en Power BI Desktop](../connect-data/desktop-directquery-about.md)
+- [Usar DirectQuery en Power BI Desktop](../connect-data/desktop-use-directquery.md)
+- [Solución de problemas del modelo de DirectQuery en Power BI Desktop](../connect-data/desktop-directquery-troubleshoot.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

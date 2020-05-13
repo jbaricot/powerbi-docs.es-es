@@ -9,16 +9,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a65b17c91640f6ea7fff1d762e8d5b71cc99575e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a143a9b158d8a00fc129953a601f9e4c8f19875f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77154152"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279719"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Guía sobre la fecha y hora automáticas en Power BI Desktop
 
-Este artículo se dirige a los modeladores de datos que desarrollan modelos compuestos o de importación en Power BI Desktop. Proporciona instrucciones, recomendaciones y consideraciones al usar la funcionalidad _Fecha y hora automáticas_ de Power BI Desktop en situaciones específicas. Para información general sobre la funcionalidad _Fecha y hora automáticas_, consulte [Fecha y hora automáticas en Power BI Desktop](../desktop-auto-date-time.md).
+Este artículo se dirige a los modeladores de datos que desarrollan modelos compuestos o de importación en Power BI Desktop. Proporciona instrucciones, recomendaciones y consideraciones al usar la funcionalidad _Fecha y hora automáticas_ de Power BI Desktop en situaciones específicas. Para información general sobre la funcionalidad _Fecha y hora automáticas_, consulte [Fecha y hora automáticas en Power BI Desktop](../transform-model/desktop-auto-date-time.md).
 
 La opción _Fecha y hora automáticas_ ofrece inteligencia de tiempo cómoda, rápida y fácil de usar. Los autores de informes pueden trabajar con la inteligencia de tiempo al filtrar, agrupar y explorar los períodos de tiempo de calendario.
 
@@ -34,13 +34,13 @@ En la lista con viñetas siguiente se describen las consideraciones (y posibles 
     Esta es la razón por la que es importante que los filtros o agrupaciones se lleven a cabo en la columna **Year**. Al explorar en profundidad mediante la jerarquía, se filtrará el año, a menos que el nivel **Year** se quite de manera intencional. Si no hay ningún filtro o grupo por año, una agrupación por mes, por ejemplo, resumiría los valores de todos los años correspondientes a ese mes.
 - **Filtrado de fecha de una sola tabla:** como cada columna de fecha genera su propia tabla de fecha y hora automáticas (oculta), no es posible aplicar un filtro de tiempo a una tabla y hacer que lo propague a varias tablas de modelo. Filtrar de esta manera es un requisito de modelado común cuando se notifican varios asuntos (tablas de tipo de hechos), como las ventas y el presupuesto de ventas. Al usar la fecha y hora automáticas, el autor de informe deberá aplicar filtros a cada columna de fecha distinta.
 - **Tamaño del modelo:** para cada columna de fecha que genera una tabla de fecha y hora automáticas oculta, generará un tamaño de modelo mayor y también ampliará la hora de actualización de los datos.
-- **Otras herramientas de informes:** no es posible trabajar con tablas de fecha y hora automáticas al usar [Analizar en Excel](../service-analyze-in-excel.md) ni al conectarse al modelo mediante diseñadores de informes que no sean de Power BI.
+- **Otras herramientas de informes:** no es posible trabajar con tablas de fecha y hora automáticas al usar [Analizar en Excel](../collaborate-share/service-analyze-in-excel.md) ni al conectarse al modelo mediante diseñadores de informes que no sean de Power BI.
 
 ## <a name="recommendations"></a>Recomendaciones
 
 Se recomienda mantener habilitada la opción _Fecha y hora automáticas_ solo al trabajar con períodos de tiempo de calendario y cuando tenga requisitos de modelo simplistas con respecto al tiempo. Usar esta opción también puede ser útil cuando se crean modelos ad hoc o se realiza la generación de perfiles o la exploración de datos.
 
-Cuando el origen de datos ya define una tabla de dimensión de fecha, esta tabla se debe usar para definir de manera coherente la hora dentro de la organización. Seguramente será el caso si el origen de datos es un almacenamiento de datos. De lo contrario, puede generar tablas de fechas en el modelo si usa las funciones [CALENDAR](/dax/calendar-function-dax) o [CALENDARAUTO](/dax/calendarauto-function-dax) de DAX. Luego puede agregar columnas calculadas para admitir los requisitos conocidos de agrupación y filtrado de tiempo. Este enfoque de diseño puede permitirle crear una tabla de fechas única que se propague a todas las tablas de tipo de hechos, lo que posiblemente resulte en una tabla única para aplicar los filtros de tiempo. Para más información sobre cómo crear las tablas de fechas, lea el artículo [Configuración y uso de tablas de fechas en Power BI Desktop](../desktop-date-tables.md).
+Cuando el origen de datos ya define una tabla de dimensión de fecha, esta tabla se debe usar para definir de manera coherente la hora dentro de la organización. Seguramente será el caso si el origen de datos es un almacenamiento de datos. De lo contrario, puede generar tablas de fechas en el modelo si usa las funciones [CALENDAR](/dax/calendar-function-dax) o [CALENDARAUTO](/dax/calendarauto-function-dax) de DAX. Luego puede agregar columnas calculadas para admitir los requisitos conocidos de agrupación y filtrado de tiempo. Este enfoque de diseño puede permitirle crear una tabla de fechas única que se propague a todas las tablas de tipo de hechos, lo que posiblemente resulte en una tabla única para aplicar los filtros de tiempo. Para más información sobre cómo crear las tablas de fechas, lea el artículo [Configuración y uso de tablas de fechas en Power BI Desktop](../transform-model/desktop-date-tables.md).
 
 Si la opción _Fecha y hora automáticas_ no es pertinente para sus proyectos, le recomendamos deshabilitar la opción _Fecha y hora automáticas_ local. Esto garantizará que todos los archivos de Power BI Desktop nuevos que cree no habilitarán la opción _Fecha y hora automáticas_.
 
@@ -48,7 +48,7 @@ Si la opción _Fecha y hora automáticas_ no es pertinente para sus proyectos, l
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
-- [Fecha y hora automáticas en Power BI Desktop](../desktop-auto-date-time.md)
-- [Configuración y uso de tablas de fechas en Power BI Desktop](../desktop-date-tables.md)
+- [Fecha y hora automáticas en Power BI Desktop](../transform-model/desktop-auto-date-time.md)
+- [Configuración y uso de tablas de fechas en Power BI Desktop](../transform-model/desktop-date-tables.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)
