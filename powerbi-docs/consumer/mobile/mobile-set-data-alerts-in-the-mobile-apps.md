@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435821"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279558"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Establecer alertas de datos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -29,7 +29,7 @@ Puede establecer alertas en los iconos si tiene una licencia de Power BI Pro o s
 > [!WARNING]
 > Las notificaciones de alerta controladas por datos proporcionan información acerca de los datos. Si le roban el dispositivo, recomendamos ir al servicio de Power BI para desactivar todas las reglas de alertas controladas por datos. 
 > 
-> Obtenga más información sobre [Administrar alertas de datos en el servicio de Power BI](../../service-set-data-alerts.md).
+> Obtenga más información sobre [Administrar alertas de datos en el servicio de Power BI](../../create-reports/service-set-data-alerts.md).
 > 
 > 
 
@@ -58,7 +58,7 @@ Puede establecer alertas en los iconos si tiene una licencia de Power BI Pro o s
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>Administrar alertas en su dispositivo iPhone o iPad
-Puede administrar las alertas individualmente en su dispositivo móvil o [administrar todas las alertas en el servicio Power BI](../../service-set-data-alerts.md).
+Puede administrar las alertas individualmente en su dispositivo móvil o [administrar todas las alertas en el servicio Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. En un panel, pulse un icono de número o medidor que tenga una alerta.  
    
@@ -92,7 +92,7 @@ Puede administrar las alertas individualmente en su dispositivo móvil o [admini
 8. Puntee en **Guardar**.
 
 ### <a name="manage-alerts-on-an-android-device"></a>Administrar alertas en un dispositivo Android
-Puede administrar las alertas individuales en su aplicación móvil de Power BI o [administrar todas las alertas en el servicio Power BI](../../service-set-data-alerts.md).
+Puede administrar las alertas individuales en su aplicación móvil de Power BI o [administrar todas las alertas en el servicio Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. En un panel, pulse un icono de carta o medidor que tenga una alerta.  
 2. Pulse el icono de campana de color sólido ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
@@ -131,7 +131,7 @@ Puede administrar las alertas individuales en su aplicación móvil de Power BI 
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>Administrar alertas en un dispositivo Windows
-Puede administrar las alertas individuales en su aplicación móvil de Power BI o [administrar todas las alertas en el servicio Power BI](../../service-set-data-alerts.md).
+Puede administrar las alertas individuales en su aplicación móvil de Power BI o [administrar todas las alertas en el servicio Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. En un panel, pulse un icono de carta o medidor que tenga una alerta.  
 2. Pulse el icono de la campana ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
@@ -172,7 +172,6 @@ Los orígenes de datos se configuran a menudo para actualizarse diariamente, aun
 * Las alertas no funcionan con los iconos que contienen datos de streaming.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Administrar las alertas en el servicio Power BI](../../service-set-data-alerts.md)
+* [Administrar las alertas en el servicio Power BI](../../create-reports/service-set-data-alerts.md)
 * [Centro de notificaciones de Power BI Mobile](mobile-apps-notification-center.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 7284532d95cce780f4022477faab9033adcd764a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492615"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279397"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Procedimientos recomendados de rendimiento de Power BI Embedded
 
@@ -59,7 +59,7 @@ Al insertar varios informes en el mismo IFrame, no genere un IFrame nuevo para c
 
 Las organizaciones con capacidad de Power BI Premium o capacidad de Power BI Embedded pueden aprovechar el almacenamiento en caché de consultas para acelerar los informes asociados a un conjunto de datos.
 
-[Más información sobre el almacenamiento en caché de consultas en Power BI](../../power-bi-query-caching.md).
+[Más información sobre el almacenamiento en caché de consultas en Power BI](../../connect-data/power-bi-query-caching.md).
 
 ## <a name="preload"></a>Carga previa
 
@@ -99,7 +99,7 @@ Los datos en caché se representan cuando están disponibles pero no se genera n
 Para examinar el rendimiento de los elementos del informe, puede usar el Analizador de rendimiento de Power BI Desktop.
 El Analizador de rendimiento le permitirá ver y registrar los registros que midan el rendimiento de cada uno de los elementos del informe.
 
-[Más información sobre el Analizador de rendimiento](../../desktop-performance-analyzer.md).
+[Más información sobre el Analizador de rendimiento](../../create-reports/desktop-performance-analyzer.md).
 
 > [!NOTE]
 > Recuerde siempre comparar el rendimiento de los informes insertados con el rendimiento en powerbi.com. Esto puede ayudarlo a comprender el origen de los problemas de rendimiento.

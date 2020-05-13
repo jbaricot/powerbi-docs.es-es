@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7816fd6e75c9b8925ba0d707f6a63f58af546fcf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205789"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279489"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>Técnicas de reducción de datos para modelos de importación
 
@@ -23,8 +23,8 @@ Los modelos de importación se cargan con datos comprimidos y optimizados y lueg
 
 A pesar de la eficacia lograda por el motor de almacenamiento VertiPaq, es importante intentar minimizar los datos que se van a cargar en los modelos. Esto es especialmente así en el caso de los modelos de gran tamaño, o bien de los modelos que se prevé que vayan a crecer hasta alcanzar un gran tamaño con el tiempo. Los cuatro motivos de peso incluyen:
 
-- Es posible que la capacidad no admita tamaños de modelo más grandes. La capacidad compartida puede hospedar modelos de hasta 1 GB de tamaño, mientras que las capacidades Premium pueden hospedar modelos de hasta 13 GB de tamaño. Para obtener más información, lea el artículo [Compatibilidad de Power BI Premium con conjuntos de datos grandes](../service-premium-large-datasets.md).
-- Los tamaños de modelo más pequeños reducen la contención de los recursos de capacidad, en particular, memoria. Permite que se carguen más modelos de forma simultánea durante períodos de tiempo más largos, lo que da lugar a tasas de expulsión inferiores. Para más información, vea [Administración de las capacidades Premium](../service-premium-capacity-manage.md).
+- Es posible que la capacidad no admita tamaños de modelo más grandes. La capacidad compartida puede hospedar modelos de hasta 1 GB de tamaño, mientras que las capacidades Premium pueden hospedar modelos de hasta 13 GB de tamaño. Para obtener más información, lea el artículo [Compatibilidad de Power BI Premium con conjuntos de datos grandes](../admin/service-premium-what-is.md).
+- Los tamaños de modelo más pequeños reducen la contención de los recursos de capacidad, en particular, memoria. Permite que se carguen más modelos de forma simultánea durante períodos de tiempo más largos, lo que da lugar a tasas de expulsión inferiores. Para más información, vea [Administración de las capacidades Premium](../admin/service-premium-capacity-manage.md).
 - Los modelos más pequeños logran una actualización de datos más rápida, lo que da lugar a informes de latencia inferiores, mayor rendimiento de actualización de conjuntos de datos y menos presión sobre el sistema de origen y los recursos de capacidad.
 - Los recuentos de filas de tablas más pequeños pueden dar lugar a evaluaciones de cálculo más rápidas, lo que puede proporcionar un mejor rendimiento general de las consultas.
 
@@ -88,7 +88,7 @@ Las consultas de Power Query diseñadas para permitir la integración de datos c
 
 ## <a name="disable-auto-datetime"></a>Deshabilitar fecha y hora automáticas
 
-Power BI Desktop incluye una opción llamada _Fecha y hora automáticas_. Cuando se habilita, crea una tabla de fecha y hora automática oculta para las columnas de fecha a fin de ayudar a los autores de informes al configurar filtros, agrupar y explorar en profundidad los períodos de tiempo de calendario. Las tablas ocultas son en realidad tablas calculadas que aumentan el tamaño del modelo. Para obtener instrucciones sobre el uso de esta opción, consulte el artículo [Guía de fecha y hora automáticas en Power BI Desktop](../desktop-auto-date-time.md).
+Power BI Desktop incluye una opción llamada _Fecha y hora automáticas_. Cuando se habilita, crea una tabla de fecha y hora automática oculta para las columnas de fecha a fin de ayudar a los autores de informes al configurar filtros, agrupar y explorar en profundidad los períodos de tiempo de calendario. Las tablas ocultas son en realidad tablas calculadas que aumentan el tamaño del modelo. Para obtener instrucciones sobre el uso de esta opción, consulte el artículo [Guía de fecha y hora automáticas en Power BI Desktop](../transform-model/desktop-auto-date-time.md).
 
 ## <a name="switch-to-mixed-mode"></a>Cambiar al modo mixto
 
@@ -96,12 +96,13 @@ En Power BI Desktop, un diseño de modo mixto genera un modelo compuesto. Básic
 
 Una técnica eficaz para reducir el tamaño del modelo consiste en establecer la propiedad Modo de almacenamiento de las tablas de tipo de hechos mayores en DirectQuery. Piense que este enfoque de diseño podría funcionar bien con la técnica [Agrupar y resumir](#group-by-and-summarize) presentada antes. Por ejemplo, los datos de ventas resumidos se podrían usar para lograr informes de "resumen" de alto rendimiento. Una página de obtención de detalles podría mostrar las ventas pormenorizadas de un contexto de filtrado (y delimitación) específico y mostrar todos los pedidos de ventas en contexto. En este ejemplo, la página de obtención de detalles incluiría objetos visuales basados en una tabla de DirectQuery para recuperar los datos de pedidos de ventas.
 
-Pero hay muchas implicaciones de seguridad y rendimiento relacionadas con los modelos compuestos. Para obtener más información, lea el artículo [Usar modelos compuestos en Power BI Desktop](../desktop-composite-models.md).
+Pero hay muchas implicaciones de seguridad y rendimiento relacionadas con los modelos compuestos. Para obtener más información, lea el artículo [Usar modelos compuestos en Power BI Desktop](../transform-model/desktop-composite-models.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 Para obtener más información sobre el diseño del modelo de importación de Power BI, vea los siguientes artículos:
 
-- [Usar modelos compuestos en Power BI Desktop](../desktop-composite-models.md)
-- [Modo de almacenamiento en Power BI Desktop](../desktop-storage-mode.md)
+- [Usar modelos compuestos en Power BI Desktop](../transform-model/desktop-composite-models.md)
+- [Modo de almacenamiento en Power BI Desktop](../transform-model/desktop-storage-mode.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80464583"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278822"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Objetos visuales de la organización en Power BI
 
@@ -42,8 +42,6 @@ Para obtener más información sobre cómo administrar, implementar y administra
 Hay varias consideraciones y limitaciones que debe tener en cuenta.
 
 Administrador:
-
-* No se admiten objetos visuales de Power BI heredados (por ejemplo, los que no se compilan en las nuevas API con control de versiones).
 
 * Si se elimina un objeto visual de Power BI de AppSource o un archivo, los informes existentes que usen el objeto visual eliminado dejarán de representarlo. La eliminación del repositorio no es reversible. Para deshabilitar temporalmente un objeto visual de Power BI de AppSource o un archivo, use la característica "Deshabilitar".
 
