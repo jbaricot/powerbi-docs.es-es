@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 53a4ae78fa996c1e48ed0c16e0caf15e4f687697
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81638534"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347939"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>Activación del "nuevo aspecto" de las áreas de trabajo (versión preliminar)
 
-Las áreas de trabajo tienen un nuevo aspecto que coincide con el [nuevo aspecto](../service-new-look.md) del servicio Power BI. Cualquiera que use el servicio Power BI (app.powerbi.com) puede activarlo. Al activar el **nuevo aspecto** en la barra de encabezado negra, el nuevo aspecto se activará para los informes y las áreas de trabajo. Todas las áreas de trabajo, tanto clásicas como nuevas, pueden beneficiarse del nuevo aspecto.
+Las áreas de trabajo tienen un nuevo aspecto que coincide con el [nuevo aspecto](../consumer/service-new-look.md) del servicio Power BI. Cualquiera que use el servicio Power BI (app.powerbi.com) puede activarlo. Al activar el **nuevo aspecto** en la barra de encabezado negra, el nuevo aspecto se activará para los informes y las áreas de trabajo. Todas las áreas de trabajo, tanto clásicas como nuevas, pueden beneficiarse del nuevo aspecto.
 
-¿Busca información sobre el nuevo aspecto de **Power BI Desktop**? Consulte [Uso de la cinta actualizada en Power BI Desktop](../desktop-ribbon.md).
+¿Busca información sobre el nuevo aspecto de **Power BI Desktop**? Consulte [Uso de la cinta actualizada en Power BI Desktop](../create-reports/desktop-ribbon.md).
 
 ## <a name="features-of-the-new-look"></a>Características del nuevo aspecto
 
@@ -50,7 +50,6 @@ Si tiene que volver al aspecto anterior, solo tiene que cambiar el control desli
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Uso de la cinta actualizada en Power BI Desktop](../desktop-ribbon.md)
-- [Nuevo aspecto del servicio Power BI](../service-new-look.md)
+- [Uso de la cinta actualizada en Power BI Desktop](../create-reports/desktop-ribbon.md)
+- [Nuevo aspecto del servicio Power BI](../consumer/service-new-look.md)
 - ¿Tiene alguna pregunta? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
-

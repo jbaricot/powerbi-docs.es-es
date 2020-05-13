@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 557334ed8aecccd646fde92a6d2cfa7852aff36b
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77259769"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347226"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introducción a la aplicación móvil de Power BI en dispositivos Android
 La aplicación móvil de Microsoft Power BI para Android ofrece la experiencia de BI móvil para Power BI, el servidor de informes de Power BI y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. 
@@ -46,7 +46,7 @@ Descubra las [novedades de las aplicaciones móviles de Power BI](../../mobile-w
 Si aún no se ha registrado, vaya al [servicio Power BI](https://powerbi.com/) para registrarse para tener su propia cuenta para crear y almacenar paneles e informes, así como para reunir todos sus datos. A continuación, inicie sesión en Power BI desde su dispositivo Android para ver sus paneles desde cualquier lugar.
 
 1. En el servicio de Power BI, pulse [Registrarse](https://go.microsoft.com/fwlink/?LinkID=513879) para crear una cuenta de Power BI.
-2. Empiece a [crear sus propios informes y paneles](../../service-get-started.md).
+2. Empiece a [crear sus propios informes y paneles](../../fundamentals/service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app-on-your-device"></a>Introducción a la aplicación de Power BI en su dispositivo
 1. En la pantalla de inicio de su dispositivo Android, abra la aplicación Power BI para Android.
@@ -94,17 +94,17 @@ Microsoft Intune permite a las organizaciones controlar elementos como requerir 
 > 
 > 
 
-Obtenga más información sobre cómo [configurar la aplicación móvil Power BI con Microsoft Intune](../../service-admin-mobile-intune.md). 
+Obtenga más información sobre cómo [configurar la aplicación móvil Power BI con Microsoft Intune](../../admin/service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Pasos siguientes
 Estas son algunas de las cosas que puede hacer en la aplicación de Power BI para dispositivos Android con los paneles e informes de Power BI, y con los informes los KPI del portal web de Power BI Report Server o Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Paneles e informes de Power BI
-* Ver [sus aplicaciones](../../service-create-distribute-apps.md).
+* Ver [sus aplicaciones](../../collaborate-share/service-create-distribute-apps.md).
 * Ver sus [paneles](../../mobile-apps-view-dashboard.md).
 * Explorar los [iconos de sus paneles](../../mobile-tiles-in-the-mobile-apps.md).
 * Abrir [informes de Power BI](../../mobile-reports-in-the-mobile-apps.md).
-* Ver [sus aplicaciones](../../service-create-distribute-apps.md).
+* Ver [sus aplicaciones](../../collaborate-share/service-create-distribute-apps.md).
 * [Anotar y compartir iconos](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * Compartir [paneles](../../mobile-share-dashboard-from-the-mobile-apps.md).
 * [Escanear un código QR de Power BI](../../mobile-apps-qr-code.md) con su teléfono Android para abrir un icono o informe relacionado con el panel. 
@@ -119,5 +119,3 @@ Estas son algunas de las cosas que puede hacer en la aplicación de Power BI par
 * [Descarga de la aplicación Android](https://go.microsoft.com/fwlink/?LinkID=544867) desde la tienda de aplicaciones Android.
 * [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-
-

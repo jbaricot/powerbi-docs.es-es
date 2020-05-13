@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a22bba65b44446e7027627a24ebcf316f8f073d4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79040004"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348399"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 
@@ -42,21 +42,21 @@ Para obtener más información, consulte [Tipos de licencias de Power BI](end-u
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>¿Y si tengo preguntas sobre Power BI Premium?
 
-Para preguntas relacionadas con Power BI Premium, consulte [Power BI Premium FAQ](../service-premium-faq.md) (Preguntas frecuentes de Power BI Premium).
+Para preguntas relacionadas con Power BI Premium, consulte [Power BI Premium FAQ](../admin/service-premium-faq.md) (Preguntas frecuentes de Power BI Premium).
 
 ## <a name="what-is-power-bi-desktop"></a>¿Qué es Power BI Desktop?
 
-Power BI Desktop es una aplicación gratuita que se puede instalar directamente en un equipo. Power BI Desktop funciona junto con el servicio Power BI.  Los científicos de datos, diseñadores de informes, administradores y desarrolladores trabajan con Power BI Desktop para generar informes y ponerlos a disposición de otros *consumidores* del servicio Power BI, como usted. Obtenga más información sobre [qué es Power BI Desktop](../desktop-what-is-desktop.md).
+Power BI Desktop es una aplicación gratuita que se puede instalar directamente en un equipo. Power BI Desktop funciona junto con el servicio Power BI.  Los científicos de datos, diseñadores de informes, administradores y desarrolladores trabajan con Power BI Desktop para generar informes y ponerlos a disposición de otros *consumidores* del servicio Power BI, como usted. Obtenga más información sobre [qué es Power BI Desktop](../fundamentals/desktop-what-is-desktop.md).
 
 ## <a name="what-do-i-need-to-use-the-power-bi-service-as-a-consumer"></a>¿Qué se necesita para usar el servicio Power BI como *consumidor*?
 
 Si su compañía ha adquirido licencias de Power BI o una cuenta de la capacidad Premium, todo lo que necesita es un explorador web y credenciales. Para iniciar sesión, debe usar su dirección de correo electrónico del trabajo y una contraseña (establecida por su administrador de Power BI).  
 
-También puede registrarse en el servicio Power BI como usuario individual. Consulte el [proceso de registro de autoservicio para Power BI](../service-self-service-signup-for-power-bi.md).
+También puede registrarse en el servicio Power BI como usuario individual. Consulte el [proceso de registro de autoservicio para Power BI](../fundamentals/service-self-service-signup-for-power-bi.md).
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>¿Por qué es necesario iniciar sesión con el correo electrónico del trabajo?
 
-Power BI no admite direcciones de correo electrónico de proveedores de telecomunicaciones o servicios de correo electrónico de consumidor. Obtenga más información sobre [el proceso de registro de autoservicio de Power BI](../service-self-service-signup-for-power-bi.md).
+Power BI no admite direcciones de correo electrónico de proveedores de telecomunicaciones o servicios de correo electrónico de consumidor. Obtenga más información sobre [el proceso de registro de autoservicio de Power BI](../fundamentals/service-self-service-signup-for-power-bi.md).
 
 ## <a name="does-power-bi-support-mobile-devices"></a>¿Power BI admite dispositivos móviles?
 
@@ -80,12 +80,12 @@ Las aplicaciones móviles de Power BI se pueden descargar desde sus tiendas resp
 
 Los siguientes recursos están disponibles para ayudarle a empezar:
 
-* [Blog de Power BI](https://blogs.msdn.com/b/powerbi/)
-* [Seminarios web](../webinars.md)
+* [Blog de Power BI](https://powerbi.microsoft.com/blog/)
+* [Seminarios web](../fundamentals/webinars.md)
 * Vídeos de introducción en nuestro [canal de YouTube](https://www.youtube.com/user/mspowerbi)
 * Artículo [Introducción a Power BI como *consumidor*](index.yml)
 * [Únase a nuestra comunidad](https://community.powerbi.com/) y formule preguntas
-* Consulte [10 sugerencias para obtener ayuda](../service-tips-for-finding-help.md) para conocer más sugerencias
+* Consulte [10 sugerencias para obtener ayuda](../fundamentals/service-tips-for-finding-help.md) para conocer más sugerencias
 
 ## <a name="what-browsers-does-power-bi-support"></a>¿Qué exploradores admite Power BI?
 
@@ -93,7 +93,7 @@ Esta es una lista completa de los [exploradores compatibles con Power BI](../ser
 
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>¿Qué regiones e idiomas admite Power BI?
 
-Esta es una lista completa de las [regiones y los idiomas que admite Power BI](../supported-languages-countries-regions.md).
+Esta es una lista completa de las [regiones y los idiomas que admite Power BI](../fundamentals/supported-languages-countries-regions.md).
 
 ## <a name="where-can-i-learn-more-about-security"></a>¿Dónde puedo obtener más información acerca de la seguridad?
 
@@ -101,7 +101,7 @@ Más información sobre seguridad, privacidad y cumplimiento de Power BI aquí:
 
 * Estas notas del producto sobre la [seguridad de Power BI](https://go.microsoft.com/fwlink/?LinkId=829185).
 
-* Este artículo sobre [soporte técnico de seguridad de Power BI](../service-admin-power-bi-security.md).
+* Este artículo sobre [soporte técnico de seguridad de Power BI](../admin/service-admin-power-bi-security.md).
 
 ## <a name="how-do-i-undo-in-power-bi"></a>¿Cómo deshacer acciones en Power BI?
 

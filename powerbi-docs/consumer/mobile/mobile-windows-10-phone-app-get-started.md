@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435959"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349365"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introducción a la aplicación móvil de Power BI para Windows 10
 La aplicación móvil de Power BI para Windows 10 lleva Power BI a la tableta o el teléfono. Dispone de acceso móvil táctil y actualizado a la información de la empresa. Vea los paneles de la empresa e interactúe con ellos desde cualquier lugar, directamente en la [pantalla Inicio de Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
 
 ![Icono dinámico de Windows](./media/mobile-windows-10-phone-app-get-started/pbi_win10_livetile.gif)
 
-Puede [crear paneles e informes en el servicio Power BI](../../service-get-started.md) con sus propios datos. 
+Puede [crear paneles e informes en el servicio Power BI](../../fundamentals/service-get-started.md) con sus propios datos. 
 
 Después podrá interactuar con los paneles e informes, explorar los datos y compartirlos desde la aplicación para móviles Power BI para Windows 10.
 
@@ -38,7 +38,7 @@ Después podrá interactuar con los paneles e informes, explorar los datos y com
 Si todavía no se ha registrado, vaya al [servicio Power BI](https://powerbi.com/). Regístrese para obtener una cuenta propia para crear y almacenar paneles e informes, y reunir los datos. Después, inicie sesión en Power BI desde el dispositivo con Windows 10 para ver los paneles desde cualquier lugar.
 
 1. En el servicio de Power BI, pulse [Registrarse](https://go.microsoft.com/fwlink/?LinkID=513879) para crear una cuenta de Power BI.
-2. Empiece a [crear sus propios informes y paneles](../../service-get-started.md).
+2. Empiece a [crear sus propios informes y paneles](../../fundamentals/service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app"></a>Introducción a la aplicación de Power BI
 1. En la pantalla Inicio del dispositivo con Windows 10, abra la aplicación de Power BI.
@@ -110,7 +110,7 @@ Obtenga más información sobre los [favoritos en las aplicaciones móviles Powe
 Estas son otras cosas que puede hacer en la aplicación de Power BI para dispositivos Windows 10 con los paneles e informes de Power BI, y con los informes móviles y KPI de Reporting Services en el portal web de Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Paneles e informes de Power BI
-* Ver [sus aplicaciones](../../service-create-distribute-apps.md).
+* Ver [sus aplicaciones](../../collaborate-share/service-create-distribute-apps.md).
 * Ver sus [paneles](mobile-apps-view-dashboard.md).
 * [Anclar iconos y paneles de Power BI](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) a la pantalla Inicio de su dispositivo como iconos dinámicos.
 * [Compartir iconos](mobile-windows-10-phone-app-get-started.md).
@@ -125,4 +125,3 @@ Estas son otras cosas que puede hacer en la aplicación de Power BI para disposi
 * [Descargue la aplicación Power BI](https://go.microsoft.com/fwlink/?LinkID=526478) de la Tienda Windows.  
 * [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

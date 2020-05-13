@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381316"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348169"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
 
@@ -23,8 +23,8 @@ Descargue [Power BI Report Server y Power BI Desktop optimizado para Power BI
 
 Para consultar información sobre las "novedades" de Power BI, vea:
 
-* [Novedades en el servicio Power BI](../service-whats-new.md)
-* [Novedades de Power BI Desktop](../desktop-latest-update.md)
+* [Novedades en el servicio Power BI](../fundamentals/service-whats-new.md)
+* [Novedades de Power BI Desktop](../fundamentals/desktop-latest-update.md)
 * [Novedades en las aplicaciones móviles para Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="january-2020"></a>Enero de 2020
@@ -128,7 +128,7 @@ Este mes se publica un nuevo formato de archivo: .pbids, para simplificar la exp
 
 Cuando un creador de informes abre un archivo .pbids, Power BI Desktop solicita autenticación para conectarse al origen de datos especificado en el archivo. A continuación, el usuario selecciona las tablas que se van a cargar en el modelo. Puede que los usuarios deban seleccionar la base de datos si no hay ninguna especificada en el archivo. A partir de ahí, el creador del informe puede empezar a crear visualizaciones.
 
-Puede encontrar detalles y ejemplos en la sección [Uso de archivos. pbids para obtener datos](../desktop-data-sources.md#using-pbids-files-to-get-data) del artículo "Orígenes de datos en Power BI Desktop".
+Puede encontrar detalles y ejemplos en la sección [Uso de archivos. pbids para obtener datos](../connect-data/desktop-data-sources.md#using-pbids-files-to-get-data) del artículo "Orígenes de datos en Power BI Desktop".
 
 *Mejoras en el rendimiento de las operaciones de modelado*
 
@@ -239,11 +239,11 @@ Estos son algunos de los aspectos destacados de la versión:
 
 #### <a name="performance-analyzer"></a>Analizador de rendimiento 
 
-Si el informe se ejecuta más lentamente de lo esperado, pruebe el Analizador de rendimiento en Power BI Desktop. Al iniciarlo, se crea un archivo de registro con información sobre cada acción que se realiza en el informe. Obtenga más información sobre el [Analizador de rendimiento](../desktop-performance-analyzer.md).
+Si el informe se ejecuta más lentamente de lo esperado, pruebe el Analizador de rendimiento en Power BI Desktop. Al iniciarlo, se crea un archivo de registro con información sobre cada acción que se realiza en el informe. Obtenga más información sobre el [Analizador de rendimiento](../create-reports/desktop-performance-analyzer.md).
 
 #### <a name="new-modeling-view"></a>Nueva vista de modelo
 
-En la nueva Vista de modelo de Power BI Desktop, puede ver y trabajar con conjuntos de datos complejos que contienen muchas tablas. Los resaltados incluyen varios diseños de diagramas y edición masiva de columnas, medidas y tablas. Obtenga más información sobre [Vista de modelo](../desktop-modeling-view.md).
+En la nueva Vista de modelo de Power BI Desktop, puede ver y trabajar con conjuntos de datos complejos que contienen muchas tablas. Los resaltados incluyen varios diseños de diagramas y edición masiva de columnas, medidas y tablas. Obtenga más información sobre [Vista de modelo](../transform-model/desktop-modeling-view.md).
 
 #### <a name="accessible-visual-interaction"></a>Interacción de objetos visuales accesible
 
@@ -251,11 +251,11 @@ Ahora puede usar la navegación con el teclado para acceder a los puntos de dato
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>Títulos de formato condicional y acciones de dirección URL web
 
-Los informes de Power BI son interactivos. Tiene sentido que los títulos de un informe sean dinámicos, a fin de reflejar el estado actual del informe. Puede usar el mismo formato enlazado a una expresión para que las direcciones URL de los botones, formas e imágenes sean dinámicas. Obtenga más información sobre los [Títulos basados en expresiones](../desktop-conditional-format-visual-titles.md).
+Los informes de Power BI son interactivos. Tiene sentido que los títulos de un informe sean dinámicos, a fin de reflejar el estado actual del informe. Puede usar el mismo formato enlazado a una expresión para que las direcciones URL de los botones, formas e imágenes sean dinámicas. Obtenga más información sobre los [Títulos basados en expresiones](../create-reports/desktop-conditional-format-visual-titles.md).
 
 #### <a name="cross-highlight-by-axis-labels"></a>Resaltado cruzado por etiquetas de eje
 
-Seleccione las etiquetas de la categoría del eje en un elemento visual para resaltar de forma cruzada el resto de elementos de una página, igual que seleccionaría los puntos de datos de un elemento visual. Obtenga más información sobre el [Resaltado cruzado](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
+Seleccione las etiquetas de la categoría del eje en un elemento visual para resaltar de forma cruzada el resto de elementos de una página, igual que seleccionaría los puntos de datos de un elemento visual. Obtenga más información sobre el [Resaltado cruzado](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
 
 #### <a name="all-the-new-features"></a>Todas las características nuevas
 

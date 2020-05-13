@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525408"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348215"
 ---
 # <a name="data-lineage"></a>Linaje de datos
 En los proyectos de inteligencia empresarial (BI) modernos, comprender el flujo de datos desde el origen de datos hasta su destino puede ser un desafío. El desafío es incluso mayor si se han creado proyectos analíticos avanzados que abarcan varios orígenes de datos, artefactos y dependencias. Preguntas como "¿Qué ocurre si cambio estos datos?" o bien, "¿Por qué no se ha actualizado este informe?" pueden ser difíciles de responder. Es posible que para entenderlas se necesite un equipo de expertos o una investigación en profundidad. Para ayudarle a responder a estas preguntas se ha diseñado una vista de linaje.
@@ -88,9 +88,9 @@ La vista de linaje es un lienzo interactivo. Puede usar el mouse y el panel tác
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
-- La vista de linaje no está disponible en Internet Explorer. Vea [Exploradores compatibles con Power BI](../power-bi-browsers.md) para más información.
+- La vista de linaje no está disponible en Internet Explorer. Vea [Exploradores compatibles con Power BI](../fundamentals/power-bi-browsers.md) para más información.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [Introducción a los conjuntos de datos de áreas de trabajo (versión preliminar)](../service-datasets-across-workspaces.md)
+* [Introducción a los conjuntos de datos de áreas de trabajo (versión preliminar)](../connect-data/service-datasets-across-workspaces.md)
 * [Análisis de impacto para conjuntos de datos](service-dataset-impact-analysis.md)

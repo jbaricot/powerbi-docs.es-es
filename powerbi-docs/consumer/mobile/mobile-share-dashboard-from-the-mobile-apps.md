@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31d3ee405f77acaa47bb158ddde97778a8af9ff0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435798"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349342"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Compartir un panel o un informe desde aplicaciones móviles de Power BI
 Se aplica a:
@@ -25,7 +25,7 @@ Se aplica a:
 >[!NOTE]
 >El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
 
-Con una [licencia de Power BI Pro](../../service-features-license-type.md), puede invitar a otros usuarios a ver sus paneles e informes si comparte vínculos desde las aplicaciones móviles de Power BI. Puede compartir con cualquier usuario, ya sea dentro o fuera de su organización, que tenga o no una cuenta de correo corporativa. Sí necesitarán tener también una licencia de Power BI Pro o que el contenido esté en una [capacidad Premium](../../service-premium-what-is.md).
+Con una [licencia de Power BI Pro](../../fundamentals/service-features-license-type.md), puede invitar a otros usuarios a ver sus paneles e informes si comparte vínculos desde las aplicaciones móviles de Power BI. Puede compartir con cualquier usuario, ya sea dentro o fuera de su organización, que tenga o no una cuenta de correo corporativa. Sí necesitarán tener también una licencia de Power BI Pro o que el contenido esté en una [capacidad Premium](../../admin/service-premium-what-is.md).
 
 Desde las aplicaciones móviles de Power BI para iOS y Android, también puede [anotar y compartir una instantánea de un icono, un informe o un objeto visual](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) con cualquier persona. 
 
@@ -42,7 +42,7 @@ Desde las aplicaciones móviles de Power BI para iOS y Android, también puede [
    * En la aplicación móvil de Power BI, pulse **Más opciones** (...) en la barra de navegación y elija ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartido conmigo**.
    * En el servicio Power BI, haga clic en ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartido conmigo** en el panel de navegación de la izquierda.
    
-   Lea más [notas sobre cómo compartir con sus compañeros](../../service-share-dashboards.md).
+   Lea más [notas sobre cómo compartir con sus compañeros](../../collaborate-share/service-share-dashboards.md).
 
 ### <a name="unshare-from-your-iphone-or-ipad"></a>Detención del uso compartido desde el iPhone o iPad
 Solo se puede dejar de compartir cuando se es el propietario.
@@ -67,7 +67,7 @@ Solo se puede dejar de compartir cuando se es el propietario.
    * En la aplicación móvil de Power BI, pulse **Más opciones** (...) en la barra de navegación y elija ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartido conmigo**.
    * En el servicio Power BI, haga clic en ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartido conmigo** en el panel de navegación de la izquierda.
    
-   Lea más [notas sobre cómo compartir con sus compañeros](../../service-share-dashboards.md).
+   Lea más [notas sobre cómo compartir con sus compañeros](../../collaborate-share/service-share-dashboards.md).
 
 
 ### <a name="unshare-from-your-android-device"></a>Dejar de compartir desde el dispositivo Android
@@ -97,10 +97,9 @@ Solo se puede dejar de compartir cuando se es el propietario.
    * En la aplicación móvil de Power BI, pulse **Más opciones** (...) en la barra de navegación y elija ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartido conmigo**.
    * En el servicio Power BI, haga clic en ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartido conmigo** en el panel de navegación de la izquierda.
    
-   Lea más [notas sobre cómo compartir con sus compañeros](../../service-share-dashboards.md).
+   Lea más [notas sobre cómo compartir con sus compañeros](../../collaborate-share/service-share-dashboards.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Anotación y uso compartido de instantáneas de iconos, informes u objetos visuales en las aplicaciones móviles](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
-* [Compartir un panel o informe en Power BI](../../service-share-dashboards.md)
+* [Compartir un panel o informe en Power BI](../../collaborate-share/service-share-dashboards.md)
 * ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

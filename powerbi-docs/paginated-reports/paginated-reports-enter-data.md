@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 074bc95a9e259df84211d3f922831db323d506cc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922100"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348675"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Escritura directa de datos en un informe paginado en el Generador de informes: Power BI
 
@@ -22,7 +22,7 @@ En este artículo, obtendrá información sobre una característica de la nueva 
 ## <a name="prerequisites"></a>Requisitos previos
 
 - Para escribir datos directamente en un informe paginado, instale la nueva versión del [Generador de informes desde el Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=53613). 
-- Para guardar el informe paginado en el servicio Power BI, necesita una [cuenta de Power BI Pro](../service-self-service-signup-for-power-bi.md) y acceso de escritura a un área de trabajo en una [capacidad Premium de Power BI](../service-premium-what-is.md).
+- Para guardar el informe paginado en el servicio Power BI, necesita una [cuenta de Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md) y acceso de escritura a un área de trabajo en una [capacidad Premium de Power BI](../admin/service-premium-what-is.md).
 - Para guardar el informe paginado en un servidor de informes, necesita permisos para [editar el archivo RsReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
 ## <a name="get-started"></a>Introducción

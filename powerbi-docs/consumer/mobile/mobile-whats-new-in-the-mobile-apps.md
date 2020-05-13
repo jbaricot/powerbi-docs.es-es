@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841719"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349273"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
 
 * [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
-* [Novedades de Power BI Desktop](../../desktop-latest-update.md)  
-* [Novedades en el servicio Power BI](../../service-whats-new.md)
+* [Novedades de Power BI Desktop](../../fundamentals/desktop-latest-update.md)  
+* [Novedades en el servicio Power BI](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
 >El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -476,7 +476,7 @@ Lea el [resumen de características de aplicaciones móviles de julio de 2017](h
 
 ### <a name="june-2107"></a>Junio de 2107
 #### <a name="all-devices"></a>Todos los dispositivos
-**Agregar aplicaciones a favoritos** Ya sabe cómo agregar un panel a Favoritos. Recientemente, [Power BI agregó aplicaciones](../../service-create-distribute-apps.md) y ya puede también agregar aplicaciones a Favoritos. 
+**Agregar aplicaciones a favoritos** Ya sabe cómo agregar un panel a Favoritos. Recientemente, [Power BI agregó aplicaciones](../../collaborate-share/service-create-distribute-apps.md) y ya puede también agregar aplicaciones a Favoritos. 
 
 ### <a name="may-2017"></a>Mayo de 2017
 #### <a name="all-devices"></a>Todos los dispositivos
@@ -493,7 +493,7 @@ Lea más sobre [cómo está organizado el contenido de Power BI](mobile-apps-qui
 Lea el [resumen de características de aplicaciones móviles de abril de 2017](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-march-april-2017/).
 
 #### <a name="all-devices"></a>Todos los dispositivos
-**Color de fondo de informes de teléfono** Al definir un color de fondo para un informe en Power BI Desktop, el informe de teléfono tendrá el mismo color de fondo. Más información sobre cómo [optimizar páginas de informes para teléfonos](../../desktop-create-phone-report.md).
+**Color de fondo de informes de teléfono** Al definir un color de fondo para un informe en Power BI Desktop, el informe de teléfono tendrá el mismo color de fondo. Más información sobre cómo [optimizar páginas de informes para teléfonos](../../create-reports/desktop-create-phone-report.md).
 
 **Desarrollo de objetos visuales de Power BI preparados para dispositivos móviles** Lea esta [Guía del desarrollador](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) para obtener sugerencias sobre cómo crear objetos visuales Power BI que se vean bien y funcionen correctamente en dispositivos móviles.
 
@@ -553,7 +553,7 @@ Lea en el [blog el resumen de las características de aplicaciones móviles de e
 #### <a name="all-devices"></a>Todos los dispositivos
 **Cargar más de 100 filas en tablas y matrices** Ahora, si tiene una tabla grande o una matriz en su panel o informe, mostramos la mayor cantidad de datos posible en el icono. En el modo de enfoque, puede desplazarse hacia abajo para cargar más filas.
 
-**Disponibilidad general de los informes en el teléfono** Los informes en el teléfono de Power BI ahora están disponibles de forma generalizada. En Power BI Desktop, puede personalizar una vista vertical de un informe existente para los usuarios móviles. Obtenga más información sobre la [creación de informes en el teléfono en Power BI Desktop](../../desktop-create-phone-report.md) y la [experiencia con informes en el teléfono](mobile-apps-view-phone-report.md).
+**Disponibilidad general de los informes en el teléfono** Los informes en el teléfono de Power BI ahora están disponibles de forma generalizada. En Power BI Desktop, puede personalizar una vista vertical de un informe existente para los usuarios móviles. Obtenga más información sobre la [creación de informes en el teléfono en Power BI Desktop](../../create-reports/desktop-create-phone-report.md) y la [experiencia con informes en el teléfono](mobile-apps-view-phone-report.md).
 
 #### <a name="ios"></a>iOS
 **Autenticación de SSRS con Servicios de federación de Active Directory (ADFS) Preview** Ahora, puede iniciar sesión en servidores locales de SQL Server Reporting Services desde su dispositivo móvil con su cuenta profesional. Obtenga más información sobre cómo [usar OAuth para conectarse a servidores SSRS](mobile-oauth-ssrs.md).
@@ -644,7 +644,7 @@ Lea el [resumen de características de aplicaciones móviles de Power BI de octu
 #### <a name="all-phones"></a>Todos los teléfonos
 **Favoritos** Vea sus paneles favoritos desde todas las aplicaciones móviles Power BI y administre la lista de favoritos desde las aplicaciones móviles Power BI para dispositivos iOS y Windows 10. Obtenga más información sobre los [favoritos en las aplicaciones móviles Power BI](mobile-apps-favorites.md).
 
-**Clasificación de datos del panel** Vea las clasificaciones de datos que los propietarios del panel han asignado a sus escritorios. Obtenga más información sobre cómo [clasificar paneles](../../service-data-classification.md).
+**Clasificación de datos del panel** Vea las clasificaciones de datos que los propietarios del panel han asignado a sus escritorios. Obtenga más información sobre cómo [clasificar paneles](../../create-reports/service-data-classification.md).
 
 **Alertas controladas por datos** Reciba una alerta de notificación cuando cambien sus datos de manera predefinida para los KPI, el medidor y las ventanas de tarjetas. Más información sobre:
 
@@ -659,14 +659,14 @@ Lea el [resumen de características de aplicaciones móviles de Power BI de octu
 
 **Compatibilidad con MAM de Intune** Se ha agregado compatibilidad con las funciones de administración de aplicaciones móviles (MAM) de Microsoft Intune.
 
-Obtenga más información acerca de [Microsoft Intune en aplicaciones móviles de Power BI](../../service-admin-mobile-intune.md).
+Obtenga más información acerca de [Microsoft Intune en aplicaciones móviles de Power BI](../../admin/service-admin-mobile-intune.md).
 
 #### <a name="windows-10-devices"></a>Dispositivos de Windows 10
 **Modos de pantalla completa y presentación** Muestre informes en modo de presentación en Surface Hub y muestre paneles, informes e iconos en modo de pantalla completa en dispositivos con Windows 10.
 
 ### <a name="july-2016"></a>Julio de 2016
 #### <a name="all-phones"></a>Todos los teléfonos
-En el servicio Power BI ahora puede [crear una vista de un panel específicamente para teléfonos](../../service-create-dashboard-mobile-phone-view.md) en modo vertical. 
+En el servicio Power BI ahora puede [crear una vista de un panel específicamente para teléfonos](../../create-reports/service-create-dashboard-mobile-phone-view.md) en modo vertical. 
 
 #### <a name="android-phones"></a>Teléfonos Android
 **Pestaña Favoritos** Acceda a todos sus paneles favoritos desde una única ubicación.
@@ -795,7 +795,7 @@ Todas las mejoras de enero están ya en la nueva [aplicación móvil de Power BI
 
 **Iconos R y widgets web** Vea estos nuevos tipos de iconos en los paneles en el dispositivo móvil en mosaico.
 
-**Paneles de Bing** En el servicio Power BI, ahora se pueden crear [paneles con los resultados de búsquedas en Bing](../../service-connect-to-services.md) y verlos en el dispositivo móvil.
+**Paneles de Bing** En el servicio Power BI, ahora se pueden crear [paneles con los resultados de búsquedas en Bing](../../connect-data/service-connect-to-services.md) y verlos en el dispositivo móvil.
 
 **Páginas de informe ancladas como iconos en los paneles** Ahora que puede anclar una página de informe completa a un panel en el servicio Power BI, puede ver páginas de informe en la aplicación Power BI en un iPhone o en un teléfono Android.
 
@@ -805,41 +805,42 @@ El equipo de Power BI cerró el 2015 con fuerza, con varias adiciones y actualiz
 #### <a name="sql-server-2016-reporting-services-mobile-reports-in-ios"></a>Informes móviles de SQL Server 2016 Reporting Services en iOS
 Ahora puede ver los informes móviles de SQL Server de la aplicación de Power BI en el dispositivo iOS, ya sea iPad o iPhone. Más información en:
 
-* Entrada de blog [SQL 16 SSRS on Power BI app for iOS](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/sql-16-ssrs-on-power-bi-app-for-ios.aspx) (SQL 16 SSRS en la aplicación Power BI para iOS)
+* Entrada de blog [SQL 16 SSRS on Power BI app for iOS](https://powerbi.microsoft.com/blog/sql-16-ssrs-on-power-bi-app-for-ios/
+) (SQL 16 SSRS en la aplicación Power BI para iOS)
 * Consulte la documentación sobre [informes móviles y KPI de SQL Server en las aplicaciones de iPhone y iPad](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)
 
 #### <a name="power-bi-app-for-windows-10-phones"></a>Aplicación de Power BI para teléfonos con Windows 10
 La nueva aplicación de Power BI para teléfonos con Windows 10 está optimizada para tecnología táctil y la productividad móvil. Explore paneles e informes, invite a colegas a ver datos y comparta información por correo electrónico para captar la atención de su equipo. Además, puede [anclar paneles de Power BI a la pantalla Inicio de los teléfonos con Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
 
-* Lea la [entrada de blog sobre la aplicación Power BI para teléfonos con Windows 10](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx).
+* Lea la [entrada de blog sobre la aplicación Power BI para teléfonos con Windows 10](https://powerbi.microsoft.com/blog/announcing-the-power-bi-app-for-windows-10-mobile/).
 * [Introducción a la aplicación Power BI para teléfonos con Windows 10](mobile-windows-10-phone-app-get-started.md).
 
 #### <a name="other-additions"></a>Otras adiciones
-Para más información, lea la [entrada de blog de diciembre sobre aplicaciones móviles de Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/power-bi-mobile-apps-update-_2d00_-december-2015.aspx).
+Para más información, lea la [entrada de blog de diciembre sobre aplicaciones móviles de Power BI](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-2d00-december-2015/).
 
 * Reciba notificaciones cuando algún compañero comparta un panel con usted. (iOS)
 * Consulte todas las páginas de informe ancladas en los paneles. (iOS y Android)
-* [Escanee un código QR](https://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx) y vaya directamente al icono pertinente en el teléfono Android.
+* [Escanee un código QR](https://powerbi.microsoft.com/blog/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes/) y vaya directamente al icono pertinente en el teléfono Android.
 
 ### <a name="november-2015"></a>Noviembre de 2015
-Lea la [entrada del blog sobre aplicaciones móviles de Power BI de noviembre de 2015](https://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx).
+Lea la [entrada del blog sobre aplicaciones móviles de Power BI de noviembre de 2015](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-2d00-november-2015/).
 
 #### <a name="all-power-bi-mobile-apps"></a>Todas las aplicaciones móviles de Power BI
 * Una nueva experiencia de bienvenida.
 * Capacidad de datos de gráficos mejorada.
 
 #### <a name="ios-and-android-mobile-apps"></a>Aplicaciones móviles para iOS y Android
-* Ahora las empresas pueden [configurar aplicaciones móviles de Power BI para iOS y Android con Microsoft Intune](../../service-admin-mobile-intune.md) para administrar dispositivos y aplicaciones.
+* Ahora las empresas pueden [configurar aplicaciones móviles de Power BI para iOS y Android con Microsoft Intune](../../admin/service-admin-mobile-intune.md) para administrar dispositivos y aplicaciones.
 
 #### <a name="iphone-mobile-app"></a>Aplicación móvil de iPhone
 * [Agregue un icono de imagen a un panel](mobile-iphone-app-get-started.md) directamente desde el iPhone.
-* [Cree códigos QR en el servicio Power B](../../service-create-qr-code-for-tile.md)I y, después, escanéelos desde el iPhone para abrir la aplicación Power BI en un icono concreto.
+* [Cree códigos QR en el servicio Power B](../../create-reports/service-create-qr-code-for-tile.md)I y, después, escanéelos desde el iPhone para abrir la aplicación Power BI en un icono concreto.
 
 #### <a name="the-power-bi-app-for-windows-devices"></a>Aplicación de Power BI para dispositivos Windows
-* [Cree un vínculo directamente desde un icono a una dirección URL concreta](../../service-dashboard-edit-tile.md#hyperlink).
+* [Cree un vínculo directamente desde un icono a una dirección URL concreta](../../create-reports/service-dashboard-edit-tile.md#hyperlink).
 
 ### <a name="october-2015"></a>Octubre de 2015
-Lea la [entrada del blog sobre aplicaciones móviles de Power BI de mediados de octubre](https://blogs.msdn.com/b/powerbi/archive/2015/10/21/power-bi-mobile-mid-october-updates-are-here.aspx).
+Lea la [entrada del blog sobre aplicaciones móviles de Power BI de mediados de octubre](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-october-updates-are-here/).
 
 #### <a name="all-power-bi-mobile-apps"></a>Todas las aplicaciones móviles de Power BI
 * Ahora, los gráficos de líneas con un eje Y de porcentaje calculan el intervalo visual con datos reales. El gráfico comienza ahora en el punto de datos más bajo del gráfico, en lugar de empezar con un valor predeterminado.
@@ -851,12 +852,12 @@ Lea la [entrada del blog sobre aplicaciones móviles de Power BI de mediados de 
 * Manténgase al día con los paneles más recientes de los grupos: reciba notificaciones en su iPhone cada vez que un miembro del equipo agregue un panel a uno de los grupos.
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
-* Ahora solo tiene que girar el teléfono para poder ver los paneles horizontalmente. Más información acerca del [modo horizontal en la aplicación de iPhone](https://blogs.msdn.com/b/powerbi/archive/2015/11/02/enjoy-the-landscape-with-the-power-bi-iphone-app.aspx).
+* Ahora solo tiene que girar el teléfono para poder ver los paneles horizontalmente. Más información acerca del [modo horizontal en la aplicación de iPhone](https://powerbi.microsoft.com/blog/enjoy-the-landscape-with-the-power-bi-iphone-app/).
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>Septiembre de 2015
-Mejoras en las aplicaciones móviles de Power BI: Android, iOS (iPhone y iPad) y Windows. Lea la [entrada del blog sobre aplicaciones móviles de Power BI de mediados de septiembre](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx).
+Mejoras en las aplicaciones móviles de Power BI: Android, iOS (iPhone y iPad) y Windows. Lea la [entrada del blog sobre aplicaciones móviles de Power BI de mediados de septiembre](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-september-updates-are-here/).
 
 #### <a name="android"></a>Android
 * Compatibilidad con áreas de trabajo de grupos: colabore con compañeros en áreas de trabajo de grupo. 

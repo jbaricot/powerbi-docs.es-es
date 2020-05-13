@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79126268"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349227"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Comparación de Power BI Desktop y el servicio Power BI
 
@@ -23,7 +23,7 @@ En un diagrama de Venn en el que se comparan Power BI Desktop y el servicio Powe
 
 ![Diagrama de Venn de Power BI Desktop y servicio Power BI](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-**Power BI Desktop** es una herramienta completa de creación de informes y análisis de datos que se instala para la aplicación gratuita en el equipo local. Incluye el Editor de consultas, en el que puede conectarse a muchos orígenes de datos diferentes y combinarlos en un modelo de datos (lo que se suele denominar modelado). Después, se diseña un informe basado en ese modelo de datos. La [Guía de introducción de Power BI Desktop](../desktop-getting-started.md) le orientará por este proceso.
+**Power BI Desktop** es una herramienta completa de creación de informes y análisis de datos que se instala para la aplicación gratuita en el equipo local. Incluye el Editor de consultas, en el que puede conectarse a muchos orígenes de datos diferentes y combinarlos en un modelo de datos (lo que se suele denominar modelado). Después, se diseña un informe basado en ese modelo de datos. La [Guía de introducción de Power BI Desktop](desktop-getting-started.md) le orientará por este proceso.
 
 El **servicio Power BI** es un servicio basado en la nube. Admite la edición y colaboración ligeras de informes para equipos y organizaciones. En el servicio Power BI también puede conectarse a orígenes de datos, pero el modelado está limitado. 
 
@@ -50,19 +50,18 @@ En este vídeo se muestra el editor de informes en Power BI Desktop.
 ### <a name="collaborating"></a>Colaboración
 
 
-Después de crear los informes, puede guardarlos en un *área de trabajo* en el **servicio Power BI**, donde puede colaborar con sus compañeros. Los *paneles* se crean a partir de estos informes y, después, esos paneles e informes se comparten con los consumidores de informes dentro y fuera de la organización. Los consumidores de los informes los visualizan en el servicio Power BI en una *vista de lectura*, no en la vista de edición. No tienen acceso a todas las características disponibles para los creadores de informes.  También puede compartir los conjuntos de datos y permitir que otros usuarios creen sus propios informes a partir de ellos. Obtenga más información sobre la [colaboración en el servicio Power BI](../service-new-workspaces.md).
+Después de crear los informes, puede guardarlos en un *área de trabajo* en el **servicio Power BI**, donde puede colaborar con sus compañeros. Los *paneles* se crean a partir de estos informes y, después, esos paneles e informes se comparten con los consumidores de informes dentro y fuera de la organización. Los consumidores de los informes los visualizan en el servicio Power BI en una *vista de lectura*, no en la vista de edición. No tienen acceso a todas las características disponibles para los creadores de informes.  También puede compartir los conjuntos de datos y permitir que otros usuarios creen sus propios informes a partir de ellos. Obtenga más información sobre la [colaboración en el servicio Power BI](../collaborate-share/service-new-workspaces.md).
 
 ### <a name="self-service-data-prep-with-dataflows"></a>Preparación de datos de autoservicio con flujos de datos
 
-Los flujos de datos ayudan a las organizaciones a unificar datos desde fuentes diversas y a prepararlos para el modelado. Los analistas pueden crear flujos de datos con facilidad, con el uso de herramientas familiares de autoservicio. Los analistas usan los flujos de datos para ingerir, transformar, integrar y enriquecer macrodatos mediante la definición de conexiones de orígenes de datos, lógica de ETL, programaciones de actualizaciones y mucho más. Más información sobre la [preparación de datos de autoservicio con flujos de datos](../service-dataflows-overview.md).
+Los flujos de datos ayudan a las organizaciones a unificar datos desde fuentes diversas y a prepararlos para el modelado. Los analistas pueden crear flujos de datos con facilidad, con el uso de herramientas familiares de autoservicio. Los analistas usan los flujos de datos para ingerir, transformar, integrar y enriquecer macrodatos mediante la definición de conexiones de orígenes de datos, lógica de ETL, programaciones de actualizaciones y mucho más. Más información sobre la [preparación de datos de autoservicio con flujos de datos](../transform-model/service-dataflows-overview.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[¿Qué es Power BI Desktop?](../desktop-what-is-desktop.md)
+[¿Qué es Power BI Desktop?](desktop-what-is-desktop.md)
 
-[Creación de un informe](../service-report-create-new.md) en el servicio Power BI
+[Creación de un informe](../create-reports/service-report-create-new.md) en el servicio Power BI
 
-[Conceptos básicos para diseñadores](../service-basic-concepts.md)
+[Conceptos básicos para diseñadores](service-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
-

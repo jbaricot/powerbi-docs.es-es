@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8a3a80ea7bb318944961a57ac6fdac695aa46253
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205536"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349457"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualización de paneles e informes en la aplicación móvil de Power BI
 Se aplica a:
@@ -29,8 +29,8 @@ Los paneles sirven como portal para ver los procesos y el ciclo de vida de su em
 
 Para ver más paneles e informes en su dispositivo móvil, tiene que crearlos o conectarse a ellos en un explorador web. 
 
-1. Vaya al servicio Power BI ([https://www.powerbi.com](https://www.powerbi.com)) y [regístrese para obtener una cuenta](../../service-self-service-signup-for-power-bi.md).
-2. [Cree sus propios informes y paneles de Power BI](../../service-get-started.md) o conéctese a [aplicaciones de Power BI](../../service-connect-to-services.md) existentes para disfrutar de varios servicios, como [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md).
+1. Vaya al servicio Power BI ([https://www.powerbi.com](https://www.powerbi.com)) y [regístrese para obtener una cuenta](../../fundamentals/service-self-service-signup-for-power-bi.md).
+2. [Cree sus propios informes y paneles de Power BI](../../fundamentals/service-get-started.md) o conéctese a [aplicaciones de Power BI](../../connect-data/service-connect-to-services.md) existentes para disfrutar de varios servicios, como [Microsoft Dynamics CRM](../../connect-data/service-connect-to-services.md).
 
 Este es un panel de Power BI en el servicio Power BI:
 
@@ -45,14 +45,14 @@ Este es un panel de Power BI en el servicio Power BI:
     ![Pulsar panel](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
    * Las estrellas amarillas ![Estrellas de favoritos](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) muestran cuáles son los paneles favoritos. 
-   * La notación debajo de cada nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../service-data-classification.md).
+   * La notación debajo de cada nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../create-reports/service-data-classification.md).
    
    De forma predeterminada, los paneles de Power BI en iPhone tienen un aspecto un poco distinto. Todos los iconos aparecen del mismo tamaño y están ordenados uno tras otro de arriba hacia abajo.
    
     ![Vista vertical del panel](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
-   > Si es el propietario del panel, en el servicio Power BI puede [crear una vista del panel específicamente para teléfonos](../../service-create-dashboard-mobile-phone-view.md) en modo vertical. 
+   > Si es el propietario del panel, en el servicio Power BI puede [crear una vista del panel específicamente para teléfonos](../../create-reports/service-create-dashboard-mobile-phone-view.md) en modo vertical. 
    > 
    > 
    
@@ -85,7 +85,7 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
    ![Página principal de paneles](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * Las estrellas amarillas ![Estrella de favorito](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) muestran cuáles son los paneles favoritos. 
-   * La notación debajo de cada nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../service-data-classification.md).
+   * La notación debajo de cada nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../create-reports/service-data-classification.md).
 3. Puede compartir un panel desde el área de trabajo. Pulse el botón de puntos suspensivos ( **...** ) en la esquina inferior derecha del icono de panel y, después, **Invitar a otros**.
    
    ![Icono de invitación](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
@@ -109,13 +109,13 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
 
     Las estrellas amarillas ![Estrella de favorito](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) muestran cuáles son los paneles favoritos. 
 
-    Una notación debajo de un nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../service-data-classification.md).
+    Una notación debajo de un nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../create-reports/service-data-classification.md).
 
     Los paneles de Power BI tienen un aspecto un poco distinto en el teléfono Android. Todos los iconos aparecen de la misma anchura y están ordenados uno tras otro de arriba hacia abajo.
 
     ![Vista vertical del panel](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-    Si es el propietario del panel, en el servicio Power BI puede [crear una vista del panel específicamente para teléfonos](../../service-create-dashboard-mobile-phone-view.md) en modo vertical. 
+    Si es el propietario del panel, en el servicio Power BI puede [crear una vista del panel específicamente para teléfonos](../../create-reports/service-create-dashboard-mobile-phone-view.md) en modo vertical. 
 
 1. En el panel, puede pulsar el botón vertical **Más opciones** (...) al lado del nombre para invitar a un colega, para actualizar o para obtener información sobre el panel:
    
@@ -132,7 +132,7 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
    ![Página principal de paneles](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * Las estrellas amarillas ![Estrella de favorito](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) muestran cuáles son los paneles favoritos. 
-   * La notación debajo de cada nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../service-data-classification.md).
+   * La notación debajo de cada nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../create-reports/service-data-classification.md).
 3. En el panel, puede pulsar el botón vertical **Más opciones** (...) al lado del nombre para invitar a un colega, para actualizar o para obtener información sobre el panel:
    
    ![Menú del botón de puntos suspensivos](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -150,11 +150,10 @@ Si es el propietario del panel, *en el servicio Power BI* puede crear una vista 
 
 ![Vista de teléfono de panel](./media/mobile-apps-view-dashboard/power-bi-phone-dashboard-in-progress.png)
 
-Más información sobre [creación de una vista de teléfono de un panel](../../service-create-dashboard-mobile-phone-view.md).
+Más información sobre [creación de una vista de teléfono de un panel](../../create-reports/service-create-dashboard-mobile-phone-view.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Descarga de la aplicación de Android](https://go.microsoft.com/fwlink/?LinkID=544867) desde Google Play  
 * [Introducción a la aplicación de Android para Power BI](mobile-android-app-get-started.md)  
 * [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
 * ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

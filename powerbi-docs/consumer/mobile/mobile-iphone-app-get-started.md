@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 56b3a4f67f5bc6dda777ea7c94b92c65abb4f3b0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77426642"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349411"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Introducción a la aplicación móvil de Power BI en dispositivos iOS
 La aplicación Microsoft Power BI para iOS en el iPhone o iPad proporciona la experiencia de BI móvil para Power BI, Power BI Report Server y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. Y manténgase al día y a tiempo con los datos en su [Apple Watch](mobile-apple-watch.md).  
@@ -22,7 +22,7 @@ La aplicación Microsoft Power BI para iOS en el iPhone o iPad proporciona la e
 
 Podrá crear informes de Power BI en Power BI Desktop y publicarlos:
 
-* [Publíquelos en el servicio Power BI](../../service-get-started.md) y cree paneles.
+* [Publíquelos en el servicio Power BI](../../fundamentals/service-get-started.md) y cree paneles.
 * [Publíquelos en Power BI Report Server](../../report-server/quickstart-create-powerbi-report.md).
 
 De este modo, podrá interactuar con los paneles y los informes locales o en la nube en la aplicación móvil de Power BI para iOS.
@@ -79,11 +79,9 @@ Microsoft Intune permite a las organizaciones controlar elementos como requerir 
 > Si usa la aplicación móvil de Power BI en el dispositivo iOS y su organización ha configurado Microsoft Intune MAM, la actualización de datos en segundo plano estará desactivada. La próxima vez que entre en la aplicación, Power BI actualizará los datos desde el servicio de Power BI en la web.
 > 
 
-Obtenga más información sobre cómo [configurar la aplicación móvil Power BI con Microsoft Intune](../../service-admin-mobile-intune.md). 
+Obtenga más información sobre cómo [configurar la aplicación móvil Power BI con Microsoft Intune](../../admin/service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-
-

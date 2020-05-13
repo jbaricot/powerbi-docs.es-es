@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: efc316e93bea9cfc1b3f429657ac2810e13f4e63
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76975019"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349480"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Creación de un informe de Power BI para Power BI Report Server
 Puede almacenar y administrar informes de Power BI en el portal web de Power BI Report Server, así como también puede almacenarlos en la nube del servicio Power BI (https://powerbi.com) ). Cree y edite informes en Power BI Desktop y publíquelos en el portal web. Luego, los lectores de informes de su organización pueden verlos en un explorador o en una aplicación móvil de Power BI de un dispositivo móvil.
@@ -79,7 +79,7 @@ Por ejemplo, puede crear un gráfico de embudo de clientes y los valores de grup
 2. Arrastre el campo de recuento a **Valores**. Si no es un campo numérico, Power BI Desktop lo convierte automáticamente en un *recuento* del valor.
 3. Arrastre el campo al grupo de **Grupo**.
 
-Más información acerca del [diseño de un informe de Power BI](../desktop-report-view.md).
+Más información acerca del [diseño de un informe de Power BI](../create-reports/desktop-report-view.md).
 
 ## <a name="step-4-save-your-report-to-the-report-server"></a>Paso 4: Guardado del informe en el servidor de informes
 Cuando el informe esté listo, guárdelo en la instancia de Power BI Report Server que eligió en el paso 2.
@@ -98,7 +98,7 @@ Cuando el informe esté listo, guárdelo en la instancia de Power BI Report Serv
 ### <a name="power-bi-desktop"></a>Power BI Desktop
 Hay muchos recursos excelentes para crear informes en Power BI Desktop. Este vínculo es un buen punto de partida.
 
-* [Introducción a Power BI Desktop](../desktop-getting-started.md)
+* [Introducción a Power BI Desktop](../fundamentals/desktop-getting-started.md)
 * Aprendizaje guiado: [Exploración de Power BI Desktop](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
