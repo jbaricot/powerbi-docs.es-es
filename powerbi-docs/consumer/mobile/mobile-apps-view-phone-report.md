@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841788"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273532"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver informes de Power BI optimizados para el teléfono
 
@@ -48,7 +48,7 @@ Si un informe optimizado para el teléfono tiene filtros definidos, cuando vea e
 ## <a name="cross-highlight-visuals"></a>Objetos visuales de resaltado cruzado
 Los objetos visuales de resaltado cruzado en vista vertical funcionan igual que en el servicio Power BI y en los teléfonos en vista horizontal: al seleccionar los datos de un objeto visual, se resaltan los datos relacionados en los demás objetos visuales de la página.
 
-Lea más sobre el [filtrado y resaltado en Power BI](../../power-bi-reports-filters-and-highlighting.md).
+Lea más sobre el [filtrado y resaltado en Power BI](../../create-reports/power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="select-visuals"></a>Seleccionar objetos visuales
 En los informes de teléfono cuando se selecciona un objeto visual, el informe de teléfono resalta ese objeto visual y se centra en él, lo que neutraliza los gestos del lienzo.
@@ -131,8 +131,7 @@ Los autores de informes pueden [definir la obtención de detalles](https://docs.
 
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Creación de informes optimizados para las aplicaciones móviles de Power BI](../../desktop-create-phone-report.md)
-* [Create a phone view of a dashboard in Power BI (Crear una vista de teléfono de un panel en Power BI)](../../service-create-dashboard-mobile-phone-view.md)
+* [Creación de informes optimizados para las aplicaciones móviles de Power BI](../../create-reports/desktop-create-phone-report.md)
+* [Create a phone view of a dashboard in Power BI (Crear una vista de teléfono de un panel en Power BI)](../../create-reports/service-create-dashboard-mobile-phone-view.md)
 * [Crear objetos visuales con capacidad de respuesta optimizados para cualquier tamaño](../../visuals/desktop-create-responsive-visuals.md)
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

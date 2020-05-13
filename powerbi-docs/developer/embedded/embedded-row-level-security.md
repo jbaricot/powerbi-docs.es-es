@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 19abcd84809f0bf8d3560fd8734d30fcf31b9ecb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550969"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277028"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Seguridad de nivel de fila con Power BI Embedded
 
@@ -21,7 +21,7 @@ La **seguridad de nivel de fila (RLS)** se puede usar para restringir el acceso 
 
 Si va a realizar una inserción para usuarios que no son de Power BI (la aplicación posee los datos), que es normalmente un escenario de ISV, este es el artículo que necesita. Configure el token de inserción para tener en cuenta el usuario y el rol.
 
-Si va a realizar la inserción para usuarios de Power BI (el usuario posee los datos), dentro de su organización, RLS funciona igual que dentro del servicio Power BI directamente. No tiene que hacer nada más en la aplicación. Para más información, vea [Seguridad de nivel de fila (RLS) con Power BI](../../service-admin-rls.md).
+Si va a realizar la inserción para usuarios de Power BI (el usuario posee los datos), dentro de su organización, RLS funciona igual que dentro del servicio Power BI directamente. No tiene que hacer nada más en la aplicación. Para más información, vea [Seguridad de nivel de fila (RLS) con Power BI](../../admin/service-admin-rls.md).
 
 ![Elementos relacionados con la seguridad de nivel de fila.](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
@@ -29,7 +29,7 @@ Para aprovechar las ventajas de RLS, es importante que comprenda tres conceptos 
 
 **Usuarios**: los usuarios finales que ven el artefacto (panel, icono, informe o conjunto de datos). En Power BI Embedded, los usuarios se identifican por la propiedad de nombre de usuario de un token de inserción.
 
-**Roles**: los usuarios pertenecen a roles. Un rol es un contenedor de reglas y se puede designar algo como *Representante de ventas* o *Rep. de ventas*. Los roles se crean en Power BI Desktop. Para más información, consulte [Seguridad de nivel de fila (RLS) con Power BI Desktop](../../desktop-rls.md).
+**Roles**: los usuarios pertenecen a roles. Un rol es un contenedor de reglas y se puede designar algo como *Representante de ventas* o *Rep. de ventas*. Los roles se crean en Power BI Desktop. Para más información, consulte [Seguridad de nivel de fila (RLS) con Power BI Desktop](../../create-reports/desktop-rls.md).
 
 **Reglas**: los roles tienen reglas y esas reglas son los filtros reales que se van a aplicar a los datos. Las reglas podrían ser algo tan sencillo como "País = EE. UU." o algo mucho más dinámico.
 En el resto de este artículo, se incluye un ejemplo de la creación de RLS y su uso dentro de una aplicación insertada. En nuestro ejemplo se usa el archivo PBIX de [ejemplo de análisis de minoristas](https://go.microsoft.com/fwlink/?LinkID=780547).
@@ -135,7 +135,7 @@ La identidad efectiva que se proporciona para la propiedad username debe ser la 
 
 ### <a name="on-premises-data-gateway-configuration"></a>Configuración de una puerta de enlace de datos local
 
-Se usa una [puerta de enlace de datos local](../../service-gateway-onprem.md) cuando se trabaja con conexiones activas de Analysis Services. Cuando se genera un token de inserción, con una identidad mostrada, la cuenta maestra debe aparecer como administrador de la puerta de enlace. Si no aparece la cuenta maestra, la seguridad de nivel de fila no se aplica a la propiedad de los datos. Un usuario de la puerta de enlace distinto del administrador puede proporcionar roles, pero deberá especificar su propio nombre de usuario para la identidad efectiva.
+Se usa una [puerta de enlace de datos local](../../connect-data/service-gateway-onprem.md) cuando se trabaja con conexiones activas de Analysis Services. Cuando se genera un token de inserción, con una identidad mostrada, la cuenta maestra debe aparecer como administrador de la puerta de enlace. Si no aparece la cuenta maestra, la seguridad de nivel de fila no se aplica a la propiedad de los datos. Un usuario de la puerta de enlace distinto del administrador puede proporcionar roles, pero deberá especificar su propio nombre de usuario para la identidad efectiva.
 
 ### <a name="use-of-roles"></a>Uso de roles
 
@@ -235,9 +235,9 @@ Estos son los pasos para comenzar a configurar la característica CustomData() c
 
 A la hora de decidir sobre el filtrado de los datos en un informe, puede usar **seguridad de nivel de fila (RLS)** o **filtros de JavaScript**.
 
-[Seguridad de nivel de fila](../../service-admin-rls.md) es una característica que filtra los datos en el nivel de modelo de datos. El origen de datos back-end controla la configuración de RLS. Según el modelo de datos, la generación de tokens de inserción establece el nombre de usuario y los roles de la sesión. No se puede reemplazar, eliminar o controlar mediante el código del lado cliente y por eso se considera segura. Se recomienda usar RLS para filtrar los datos de forma segura. Puede filtrar datos con RLS mediante una de las opciones siguientes.
+[Seguridad de nivel de fila](../../admin/service-admin-rls.md) es una característica que filtra los datos en el nivel de modelo de datos. El origen de datos back-end controla la configuración de RLS. Según el modelo de datos, la generación de tokens de inserción establece el nombre de usuario y los roles de la sesión. No se puede reemplazar, eliminar o controlar mediante el código del lado cliente y por eso se considera segura. Se recomienda usar RLS para filtrar los datos de forma segura. Puede filtrar datos con RLS mediante una de las opciones siguientes.
 
-* [Configuración de roles en un informe de Power BI](../../desktop-rls.md).
+* [Configuración de roles en un informe de Power BI](../../create-reports/desktop-rls.md).
 * Configuración de roles en el nivel de origen de datos (solo conexión dinámica de Analysis Services).
 * Mediante programación con un [token de inserción](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) con `EffectiveIdentity`. Cuando se usa un token de inserción, el filtro real pasa por el token de inserción en una sesión específica.
 

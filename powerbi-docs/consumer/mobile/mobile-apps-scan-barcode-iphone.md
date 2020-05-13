@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: dfe5e6350d0209f836900a921aadc5347b181766
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802058"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276177"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Escanear un código de barras con su dispositivo desde la aplicación móvil de Power BI
 Escanee códigos de barras en el mundo real para ir directamente a información filtrada de BI en la aplicación móvil Power BI.
@@ -25,7 +25,7 @@ Se aplica a:
 |:--- |:--- |:--- |:--- |
 |iPhone |iPad |Teléfonos Android |Tabletas Android |
 
-Suponga que un compañero ha [etiquetado un campo de código de barras en un informe de Power BI Desktop](../../desktop-mobile-barcodes.md) y ha compartido el informe con usted. 
+Suponga que un compañero ha [etiquetado un campo de código de barras en un informe de Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md) y ha compartido el informe con usted. 
 
 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
@@ -64,13 +64,12 @@ El valor de código de barras que ha escaneado existe en el modelo pero todos o 
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>"Parece que no tiene ningún informe que se pueda filtrar por códigos de barras".
 Esto significa que no tiene ningún informe habilitado para códigos de barras. El escáner de código de barras solo puede filtrar los informes que tienen una columna marcada como **Código de barras**.  
 
-Asegúrese de que usted o el propietario del informe han etiquetado una columna como **Código de barras** en Power BI Desktop. Obtenga más información sobre el [etiquetado de un campo de código de barras en Power BI Desktop](../../desktop-mobile-barcodes.md)
+Asegúrese de que usted o el propietario del informe han etiquetado una columna como **Código de barras** en Power BI Desktop. Obtenga más información sobre el [etiquetado de un campo de código de barras en Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md)
 
 ### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>"No se pudo filtrar el informe: parece que este código de barras no existe en los datos del informe".
 El informe que ha elegido para filtrar se basa en un modelo de datos que no incluye este valor de código de barras. Por ejemplo, el producto "agua mineral" no se incluye en el informe. Puede escanear un producto diferente, elegir otro informe (si hay más de uno disponible) o ver el informe sin filtrar. 
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Tag a barcode field in Power BI Desktop (Etiquetar un campo de código de barras en Power BI Desktop)](../../desktop-mobile-barcodes.md)
+* [Tag a barcode field in Power BI Desktop (Etiquetar un campo de código de barras en Power BI Desktop)](../../transform-model/desktop-mobile-barcodes.md)
 * [Iconos de paneles en Power BI](../end-user-tiles.md)
 * [Paneles en Power BI](../end-user-dashboards.md)
-

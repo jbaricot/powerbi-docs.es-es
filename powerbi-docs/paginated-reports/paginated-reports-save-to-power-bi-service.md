@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 05/04/2020
-ms.openlocfilehash: 3e7e1590adbf953db4232ddffa5f26778e5670c2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a634844093f103c942b70cd81d93822ca240cf0a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781625"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272037"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Publicación de un informe paginado en el servicio Power BI
 
@@ -105,7 +105,7 @@ Al igual que cualquier otro informe de Power BI, si el origen de datos del infor
 
    ![Administración del informe paginado](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. Vea el artículo del servicio Power BI [Qué es una puerta de enlace de datos local](../service-gateway-onprem.md) para obtener detalles y conocer los pasos siguientes.
+1. Vea el artículo del servicio Power BI [Qué es una puerta de enlace de datos local](../connect-data/service-gateway-onprem.md) para obtener detalles y conocer los pasos siguientes.
 
 
 
@@ -114,4 +114,5 @@ Al igual que cualquier otro informe de Power BI, si el origen de datos del infor
 - [Visualización de un informe paginado en el servicio Power BI](../consumer/paginated-reports-view-power-bi-service.md)
 - [¿Qué son los informes paginados en Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 - [Tutorial: Inserción de informes paginados de Power BI en una aplicación para los clientes](../developer/embed-paginated-reports-customers.md)
+
 

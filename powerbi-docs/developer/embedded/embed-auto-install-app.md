@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 0adfb72c408f96749afc8a3d7a6884e10e52fadb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 10939c23a5c25a2ff4233f6b74f9efd99d8e10fd
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114690"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148075"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Instalación automática de aplicaciones de Power BI al insertar contenido para la organización
 
-Para insertar contenido desde una aplicación, el usuario que realiza la inserción debe tener [acceso a la aplicación](../../service-create-distribute-apps.md). Si el usuario tiene instalada la aplicación, la inserción funciona sin problemas. Para más información, consulte [Inserción de informes o paneles desde una aplicación](embed-from-apps.md). En PowerBI.com, se puede definir que todas las aplicaciones se puedan [instalar automáticamente](https://powerbi.microsoft.com/blog/automatically-install-apps/). Sin embargo, esta acción se realiza en el nivel de inquilino y se aplica a todas las aplicaciones.
+Para insertar contenido desde una aplicación, el usuario que realiza la inserción debe tener [acceso a la aplicación](../../collaborate-share/service-create-distribute-apps.md). Si el usuario tiene instalada la aplicación, la inserción funciona sin problemas. Para más información, consulte [Inserción de informes o paneles desde una aplicación](embed-from-apps.md). En PowerBI.com, se puede definir que todas las aplicaciones se puedan [instalar automáticamente](https://powerbi.microsoft.com/blog/automatically-install-apps/). Sin embargo, esta acción se realiza en el nivel de inquilino y se aplica a todas las aplicaciones.
 
 ## <a name="auto-install-app-on-embedding"></a>Instalación automática de aplicaciones al insertar contenido
 

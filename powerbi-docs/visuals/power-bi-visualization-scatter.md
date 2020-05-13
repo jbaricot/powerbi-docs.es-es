@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866918"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276844"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersión, de burbujas y de trazado de punto de Power BI
 
@@ -177,13 +177,13 @@ Si los datos no lo incluyen, cree un campo que concatene los valores X e Y en un
 
 ![Captura de pantalla de un gráfico de dispersión con TempTime agregado al área Detalles.](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
-Para crear un nuevo campo, [use el Editor de consultas de Power BI Desktop para agregar una columna de índice](../desktop-add-custom-column.md) al conjunto de datos. A continuación, agregue esta columna al área **Detalles** de la visualización.
+Para crear un nuevo campo, [use el Editor de consultas de Power BI Desktop para agregar una columna de índice](../create-reports/desktop-add-custom-column.md) al conjunto de datos. A continuación, agregue esta columna al área **Detalles** de la visualización.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 Puede que también esté interesado en los siguientes artículos:
 
-* [Muestreo de alta densidad en los gráficos de dispersión de Power BI](desktop-high-density-scatter-charts.md)
+* [Muestreo de alta densidad en los gráficos de dispersión de Power BI](../create-reports/desktop-high-density-scatter-charts.md)
 * [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [Sugerencias para ordenar y distribuir trazados de datos en informes de Power BI](../guidance/report-tips-sort-distribute-data-plots.md)
 

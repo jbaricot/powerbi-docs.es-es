@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 28acd982faed44a0912a486262c9db7611531265
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c0f4e8fd72f3808633cde64a880130798fabb173
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81447496"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83138300"
 ---
 # <a name="get-a-power-bi-subscription-for-your-organization"></a>Obtención de una suscripción de Power BI para la organización
 
@@ -41,7 +41,7 @@ Siga estos pasos para registrarse:
 
 ## <a name="sign-up-through-microsoft-365"></a>Registro a través de Microsoft 365
 
-Si es administrador global de Microsoft 365 o administrador de facturación, puede obtener una suscripción Power BI para su organización. Vea [¿Quién puede adquirir y asignar licencias?](../service-admin-licensing-organization.md#who-can-purchase-and-assign-licenses) para obtener más información.
+Si es administrador global de Microsoft 365 o administrador de facturación, puede obtener una suscripción Power BI para su organización. Vea [¿Quién puede adquirir y asignar licencias?](service-admin-licensing-organization.md#who-can-purchase-and-assign-licenses) para obtener más información.
 
 > [!NOTE]
 >

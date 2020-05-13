@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 60b7c858a98a105454efe0233484120ad4319f62
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76537241"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131913"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Habilitación de las etiquetas de confidencialidad de datos en Power BI (versión preliminar)
 
 Cuando las [etiquetas de confidencialidad de datos de Microsoft Information Protection](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) están habilitadas en Power BI, se aplica lo siguiente:
 
-* Algunos usuarios y grupos de seguridad de una organización pueden clasificar y [aplicar etiquetas de confidencialidad](../designer/service-security-apply-data-sensitivity-labels.md) a sus paneles, informes, conjuntos de datos y flujos de datos de Power BI (en adelante denominados *recursos*).
+* Algunos usuarios y grupos de seguridad de una organización pueden clasificar y [aplicar etiquetas de confidencialidad](../collaborate-share/service-security-apply-data-sensitivity-labels.md) a sus paneles, informes, conjuntos de datos y flujos de datos de Power BI (en adelante denominados *recursos*).
 * Todos los miembros de la organización pueden ver esas etiquetas.
 
 Las etiquetas de confidencialidad de datos fomentan la protección de datos, ya que los autores y consumidores de Power BI son conscientes de la confidencialidad de los datos, a la vez que proporcionan información sobre lo que significa la clasificación y cómo se deben controlar los datos que tienen esa clasificación.
@@ -71,6 +71,6 @@ Power BI usa las etiquetas de confidencialidad de Microsoft Information Prote
 En este artículo se describe cómo habilitar las etiquetas de confidencialidad de datos en Power BI. En los artículos siguientes se proporcionan más detalles acerca de la protección de datos en Power BI. 
 
 * [Introducción a la protección de datos en Power BI](service-security-data-protection-overview.md)
-* [Aplicación de etiquetas de confidencialidad de datos en Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Aplicación de etiquetas de confidencialidad de datos en Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [Uso de controles de Microsoft Cloud App Security en Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
 * [Informe de métricas de protección de datos](service-security-data-protection-metrics-report.md)

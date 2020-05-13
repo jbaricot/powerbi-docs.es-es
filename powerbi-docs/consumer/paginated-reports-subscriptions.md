@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: d3813636010dcbf5c866248111755beb0dca99b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c7f377c1295d4cd8f0d226331fcb6db697786e5a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74834641"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141269"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes paginados en el servicio Power BI 
 
@@ -39,7 +39,6 @@ En la configuración de las suscripciones, elija la frecuencia con la que quiere
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI](../service-report-subscribe.md)
+[Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI](../collaborate-share/service-report-subscribe.md)
 
 [Informes paginados en el servicio Power BI](end-user-paginated-report.md)
-

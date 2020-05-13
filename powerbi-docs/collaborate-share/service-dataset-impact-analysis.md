@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525339"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274866"
 ---
 # <a name="dataset-impact-analysis"></a>Análisis de impacto para conjuntos de datos
 
@@ -54,7 +54,7 @@ Las métricas de uso están relacionadas con los últimos 30 días, excepto el 
 
 ## <a name="notify-contacts"></a>Notificación a los contactos
 
-Si ha realizado un cambio en un conjunto de datos o piensa realizarlo, es posible que quiera ponerse en contacto con los usuarios pertinentes para notificárselo. Al notificar a los contactos, se envía un correo electrónico a las [listas de contactos](../service-create-the-new-workspaces.md#workspace-contact-list) de todas las áreas de trabajo afectadas. En el correo electrónico aparece su nombre, para que los contactos puedan encontrarlo y responder en un nuevo hilo de correo. 
+Si ha realizado un cambio en un conjunto de datos o piensa realizarlo, es posible que quiera ponerse en contacto con los usuarios pertinentes para notificárselo. Al notificar a los contactos, se envía un correo electrónico a las [listas de contactos](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) de todas las áreas de trabajo afectadas. En el correo electrónico aparece su nombre, para que los contactos puedan encontrarlo y responder en un nuevo hilo de correo. 
 
 1. Haga clic en **Notificar a los contactos** en el panel lateral Análisis de impacto. Aparecerá el cuadro de diálogo Notificar a los contactos.
 
@@ -89,5 +89,6 @@ Cuando realiza un cambio en un conjunto de datos en Power BI Desktop y, despué
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [Introducción a los conjuntos de datos de áreas de trabajo (versión preliminar)](../service-datasets-across-workspaces.md)
+* [Introducción a los conjuntos de datos de áreas de trabajo (versión preliminar)](../connect-data/service-datasets-across-workspaces.md)
 * [Linaje de datos](service-data-lineage.md)
+

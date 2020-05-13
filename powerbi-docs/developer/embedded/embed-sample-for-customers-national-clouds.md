@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3277bba0a4351f17d671adf9a70aae4adb7ddbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d30dfaa36bc55e8da769d4eaf0f7c2d1b9be0724
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525385"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145207"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Inserción de contenido de Power BI en una aplicación para nubes nacionales
 
@@ -38,7 +38,7 @@ Las distintas nubes nacionales son:
 
 ![Panel insertado](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Para empezar a trabajar con este tutorial, necesita una **cuenta de Power BI**. Si no tiene una cuenta configurada, según el tipo de gobierno o país, puede elegir la nube nacional adecuada para usted. Puede registrarse para obtener una [cuenta de Power BI del gobierno de EE. UU.](../../service-govus-signup.md), una [cuenta de Power BI para la nube de Alemania](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) o una [cuenta de Power BI para la nube de China](https://www.21vbluecloud.com/powerbi/).
+Para empezar a trabajar con este tutorial, necesita una **cuenta de Power BI**. Si no tiene una cuenta configurada, según el tipo de gobierno o país, puede elegir la nube nacional adecuada para usted. Puede registrarse para obtener una [cuenta de Power BI del gobierno de EE. UU.](../../admin/service-govus-signup.md), una [cuenta de Power BI para la nube de Alemania](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) o una [cuenta de Power BI para la nube de China](https://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > En lugar de eso, ¿desea insertar un panel para la organización? Consulte [Integrar un panel en una aplicación para la organización](embed-sample-for-your-organization.md).

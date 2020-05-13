@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4f0bfdbf3eb3856f872c872fbe0880ad39839e07
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 31563e5bb5b91468b8913c3204e9d27607716c77
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867608"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279213"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Usar un filtro y una segmentación de tiempo relativo en Power BI
 
@@ -24,7 +24,7 @@ Con los escenarios de actualización rápida que están surgiendo, la capacidad 
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Ejemplo de tiempo relativo":::
 
-No es necesario usar esta característica junto con la característica de [actualización automática de páginas](../desktop-automatic-page-refresh.md), pero muchos escenarios de tiempo relativo se emparejan bien con la característica de actualización automática de páginas.  
+No es necesario usar esta característica junto con la característica de [actualización automática de páginas](../create-reports/desktop-automatic-page-refresh.md), pero muchos escenarios de tiempo relativo se emparejan bien con la característica de actualización automática de páginas.  
 
 > [!NOTE]
 > Al aplicar un filtro de tiempo relativo o una segmentación de página o de informe, todos los objetos visuales de esa página o informe se filtran hasta el mismo intervalo de tiempo, mediante un tiempo *delimitador* compartido. Dado que los objetos visuales pueden tener tiempos de ejecución ligeramente diferentes, este tiempo delimitador compartido garantiza que los objetos visuales se sincronizan en la página o en el informe. En este artículo podrá leer más sobre el [tiempo delimitador](#understanding-anchor-time).
@@ -107,4 +107,3 @@ Actualmente se aplican estas limitaciones y consideraciones al filtro y la segme
 
 - [Uso de un filtro y una segmentación de fecha relativa en Power BI](../visuals/desktop-slicer-filter-date-range.md)
 - [Segmentaciones en Power BI](../visuals/power-bi-visualization-slicers.md)
-

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758632"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276568"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Visualización de los datos subyacentes de una visualización
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>Mostrar datos
 Una visualización de Power BI se construye con datos provenientes de los conjuntos de datos. Si quiere ver lo que sucede en segundo plano, Power BI le permite *mostrar* los datos que se usan para crear el objeto visual. Cuando se selecciona **Mostrar datos**, Power BI muestra los datos que están situados debajo (o cerca) de la visualización.
@@ -24,7 +26,7 @@ Una visualización de Power BI se construye con datos provenientes de los conjun
 También puede exportar los datos que se usan para crear la visualización como un archivo .xlsx o .csv y verlos en Excel. Para obtener más información, consulte [Exportar datos de visualizaciones de Power BI](power-bi-visualization-export-data.md).
 
 > [!NOTE]
-> Las opciones *Mostrar datos* y *Exportar datos* están disponibles en el servicio Power BI y Power BI Desktop. Pero Power BI Desktop proporciona un nivel adicional de detalle. Mediante [*Mostrar registros*, se muestran las filas reales del conjunto de datos](../desktop-see-data-see-records.md).
+> Las opciones *Mostrar datos* y *Exportar datos* están disponibles en el servicio Power BI y Power BI Desktop. Pero Power BI Desktop proporciona un nivel adicional de detalle. Mediante [*Mostrar registros*, se muestran las filas reales del conjunto de datos](../create-reports/desktop-see-data-see-records.md).
 > 
 > 
 
@@ -75,4 +77,5 @@ También puede centrarse en un registro de datos de una visualización y profund
 [Exportación de datos de visualizaciones de Power BI](power-bi-visualization-export-data.md)    
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
+
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 78bfc17e81a3de3ce9f6f32c694de902ae0a1ef9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 015c227fd600827e306c8b31b68992e33e6a3206
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114840"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276200"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual de Preguntas y respuestas en las aplicaciones iOS: Power BI
 
@@ -102,7 +102,7 @@ Para mejorar los resultados que se obtienen cuando se usa el analista virtual de
 * Siga estas [sugerencias para hacer preguntas en Preguntas y respuestas](../end-user-q-and-a-tips.md) del servicio Power BI o en el analista virtual de Preguntas y respuestas en la aplicación móvil de iOS.
 
 ### <a name="how-to-enhance-the-dataset"></a>Cómo mejorar el conjunto de datos
-* Mejore el conjunto de datos en Power BI Desktop o en el servicio Power BI para que [los datos funcionen bien con Preguntas y respuestas y con el analista virtual de Preguntas y respuestas](../../service-prepare-data-for-q-and-a.md).
+* Mejore el conjunto de datos en Power BI Desktop o en el servicio Power BI para que [los datos funcionen bien con Preguntas y respuestas y con el analista virtual de Preguntas y respuestas](../../create-reports/service-prepare-data-for-q-and-a.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Preguntas y respuestas en el servicio Power BI](../end-user-q-and-a.md)

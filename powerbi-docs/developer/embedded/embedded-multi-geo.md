@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114667"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149254"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Compatibilidad de Multi-Geo con Power BI Embedded
 
 La **compatibilidad de Multi-Geo con Power BI Embedded** significa que los ISV y las organizaciones que compilan aplicaciones con Power BI Embedded para insertar análisis en sus aplicaciones ahora pueden implementar sus datos en diferentes regiones de todo el mundo.
 
-Ahora los clientes que usan **Power BI Embedded** pueden configurar una **capacidad A** mediante **Multi-Geo**, según las mismas características y limitaciones que [admite Power BI Premium mediante Multi-Geo](../../service-admin-premium-Multi-Geo.md).
+Ahora los clientes que usan **Power BI Embedded** pueden configurar una **capacidad A** mediante **Multi-Geo**, según las mismas características y limitaciones que [admite Power BI Premium mediante Multi-Geo](../../admin/service-admin-premium-Multi-Geo.md).
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>Creación de nuevos recurso de capacidad de Power BI Embedded con Multi-Geo
 
@@ -89,6 +89,6 @@ Consulte los siguientes vínculos para más información sobre las capacidades d
 
 * [Creación de una capacidad de Power BI Embedded](azure-pbie-create-capacity.md)
 
-* [Multi-Geo en capacidades de Power BI Premium](../../service-admin-premium-multi-geo.md)
+* [Multi-Geo en capacidades de Power BI Premium](../../admin/service-admin-premium-multi-geo.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

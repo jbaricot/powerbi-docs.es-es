@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637607"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83132053"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Protección de datos en Power BI (versión preliminar)
 
@@ -113,6 +113,6 @@ En la lista siguiente se proporcionan algunas limitaciones de las etiquetas de c
 En este artículo se proporciona una introducción a la protección de datos en Power BI. En los artículos siguientes se proporcionan más detalles acerca de la protección de datos en Power BI. 
 
 * [Habilitación de etiquetas de confidencialidad de datos en Power BI](service-security-enable-data-sensitivity-labels.md)
-* [Aplicación de etiquetas de confidencialidad de datos en Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Aplicación de etiquetas de confidencialidad de datos en Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [Uso de controles de Microsoft Cloud App Security en Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
 * [Informe de métricas de protección de datos](service-security-data-protection-metrics-report.md)

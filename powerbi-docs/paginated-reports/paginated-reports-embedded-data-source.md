@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b70db42732143d5db938ad793be8aa3997ecdd8c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921778"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276913"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Creación de un origen de datos insertado para informes paginados en el servicio Power BI
 
@@ -27,11 +27,11 @@ En este artículo, obtendrá información sobre cómo crear y modificar un orige
 - Oracle 
 - Teradatos 
 
-Para los siguientes orígenes de datos, use la opción [Conexión de SQL Server Analysis Services](../service-premium-connect-tools.md):
+Para los siguientes orígenes de datos, use la opción [Conexión de SQL Server Analysis Services](../admin/service-premium-connect-tools.md):
 
 - Conjuntos de datos de Power BI Premium
 
-Los informes paginados se conectan a los orígenes de datos locales mediante una [puerta de enlace de Power BI](../service-gateway-onprem.md). Configure la puerta de enlace después de publicar el informe en el servicio Power BI.
+Los informes paginados se conectan a los orígenes de datos locales mediante una [puerta de enlace de Power BI](../connect-data/service-gateway-onprem.md). Configure la puerta de enlace después de publicar el informe en el servicio Power BI.
 
 Consulte [Datos del informe en el Generador de informes de Power BI](report-builder-data.md) para más información.
 
@@ -93,3 +93,4 @@ Los informes paginados que se conectan a los conjuntos de datos de Power BI sig
 
 - [Creación de un conjunto de datos insertado para un informe paginado en el servicio Power BI](paginated-reports-create-embedded-dataset.md)
 - [¿Qué son los informes paginados en Power BI Premium?](paginated-reports-report-builder-power-bi.md)
+

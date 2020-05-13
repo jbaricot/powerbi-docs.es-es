@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: e8123bba9f68305e1944dbfb280b5255e4fb9b48
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 271ccd9abcba8fe75f0ad66a88cb970584855a35
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75622157"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149169"
 ---
 # <a name="query-folding-guidance-in-power-bi-desktop"></a>Instrucciones de plegado de consultas en Power BI Desktop
 
@@ -52,5 +52,5 @@ En la siguiente lista con viñetas se proporcionan instrucciones concretas.
 Para más información sobre este artículo, consulte los recursos siguientes:
 
 - Artículo de concepto [Plegado de consultas](/power-query/power-query-folding) de Power Query
-- [Actualizaciones incrementales en Power BI Premium](../service-premium-incremental-refresh.md)
+- [Actualizaciones incrementales en Power BI Premium](../admin/service-premium-incremental-refresh.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

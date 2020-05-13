@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435913"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273095"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Exploración de iconos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -52,7 +52,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
-    Los vínculos pueden apuntar a otros paneles de Power BI o a una dirección URL externa. Puede [pulsar el vínculo](../../service-dashboard-edit-tile.md#hyperlink) para abrirlo en la aplicación Power BI. Si apuntan a un sitio externo, Power BI le pide que los permita.
+    Los vínculos pueden apuntar a otros paneles de Power BI o a una dirección URL externa. Puede [pulsar el vínculo](../../create-reports/service-dashboard-edit-tile.md#hyperlink) para abrirlo en la aplicación Power BI. Si apuntan a un sitio externo, Power BI le pide que los permita.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -77,7 +77,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
-    Los vínculos pueden apuntar a otros paneles de Power BI o a una dirección URL externa. Puede [pulsar el vínculo](../../service-dashboard-edit-tile.md#hyperlink) para abrirlo en la aplicación Power BI. Si apuntan a un sitio externo, Power BI le pide que los permita.
+    Los vínculos pueden apuntar a otros paneles de Power BI o a una dirección URL externa. Puede [pulsar el vínculo](../../create-reports/service-dashboard-edit-tile.md#hyperlink) para abrirlo en la aplicación Power BI. Si apuntan a un sitio externo, Power BI le pide que los permita.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -98,7 +98,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
     Pulse **Abrir informe** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) para [ver el informe subyacente](mobile-reports-in-the-mobile-apps.md).
    
-    [Abra el vínculo](../../service-dashboard-edit-tile.md#hyperlink), en caso de que haya. Los vínculos pueden apuntar a paneles de Power BI o a una dirección URL externa.
+    [Abra el vínculo](../../create-reports/service-dashboard-edit-tile.md#hyperlink), en caso de que haya. Los vínculos pueden apuntar a paneles de Power BI o a una dirección URL externa.
 3. Pulse **Expandir icono** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png). Se abre en modo de enfoque, donde resulta más fácil ver y explorar los datos del icono. En este modo, puede:
    
    Gire un gráfico circular para mostrar los valores de la porción situada en la parte superior del gráfico.  
@@ -130,4 +130,3 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
 ## <a name="next-steps"></a>Pasos siguientes
 * [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

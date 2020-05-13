@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867033"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274199"
 ---
 # <a name="line-charts-in-power-bi"></a>Gráficos de líneas en Power BI
 
@@ -32,7 +32,7 @@ Estas instrucciones utilizan la aplicación Ejemplo de marketing y ventas para c
 > [!NOTE]
 > Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium.
 
-1. Empiece en una página de informe en blanco. Si está utilizando el servicio Power BI, asegúrese de que abre el informe en [Vista de edición](../service-interact-with-a-report-in-editing-view.md).
+1. Empiece en una página de informe en blanco. Si está utilizando el servicio Power BI, asegúrese de que abre el informe en [Vista de edición](../create-reports/service-interact-with-a-report-in-editing-view.md).
 
 2. En el panel Campos, seleccione **SalesFact** \> **Total de unidades** y seleccione **Fecha** > **Mes**.  Power BI crea un gráfico de columnas en el lienzo del informe.
 
@@ -74,7 +74,7 @@ Para mostrar valores muy divergentes en un gráfico, utilice un gráfico combina
    ![valores muy divergentes](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>Resaltado y filtrado cruzado
-Para más información acerca de cómo usar el panel Filtros, consulte [Agregar un filtro a un informe](../power-bi-report-add-filter.md).
+Para más información acerca de cómo usar el panel Filtros, consulte [Agregar un filtro a un informe](../create-reports/power-bi-report-add-filter.md).
 
 Al seleccionar un punto de datos en un gráfico de líneas, se realiza un resaltado y un filtrado cruzados de las demás visualizaciones en la página del informe y viceversa. Para poder continuar, abra la pestaña **Cuota de mercado**.  
 
@@ -86,7 +86,7 @@ En este ejemplo, hemos seleccionado un punto de datos que abarca: Julio de 2014,
 
 Tenga en cuenta cómo el gráfico de columnas tiene un resaltado cruzado y el medidor tiene un filtro cruzado.
 
-Para administrar cómo se realiza un resaltado y un filtrado cruzados de los gráficos, consulte [Interacciones de visualización en un informe de Power BI](../service-reports-visual-interactions.md).
+Para administrar cómo se realiza un resaltado y un filtrado cruzados de los gráficos, consulte [Interacciones de visualización en un informe de Power BI](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 * Un gráfico de líneas no puede tener dos ejes Y.  Deberá usar un gráfico combinado en su lugar.
@@ -95,5 +95,8 @@ Para administrar cómo se realiza un resaltado y un filtrado cruzados de los gr�
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+
 
 

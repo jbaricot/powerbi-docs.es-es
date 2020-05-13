@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c8dcfec103bb53d645cdfd347112d7443506569
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 036343df0a9af678b5a88c261a60ce603483a1cc
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867010"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277189"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Creación y uso de gráficos combinados en Power BI
 
@@ -121,16 +121,19 @@ En enero el porcentaje de margen bruto fue de un 35 %, en abril alcanzó un má
 
 Desde aquí puede realizar las siguientes acciones:
 
-* [Agregue el gráfico combinado como un icono de panel](../service-dashboard-tiles.md).
-* [Guarde el informe](../service-report-save.md).
+* [Agregue el gráfico combinado como un icono de panel](../create-reports/service-dashboard-tiles.md).
+* [Guarde el informe](../create-reports/service-report-save.md).
 * [Haga que el informe sea más accesible para personas con discapacidades](../desktop-accessibility.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Resaltado cruzado y filtrado cruzado
 
-Al resaltar una columna o una línea en un gráfico combinado, se realiza un resaltado cruzado y un filtrado cruzado de las demás visualizaciones en la página del informe y viceversa. Para cambiar este comportamiento predeterminado, use [Interacciones de objetos visuales](../service-reports-visual-interactions.md).
+Al resaltar una columna o una línea en un gráfico combinado, se realiza un resaltado cruzado y un filtrado cruzado de las demás visualizaciones en la página del informe y viceversa. Para cambiar este comportamiento predeterminado, use [Interacciones de objetos visuales](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Gráficos de anillos en Power BI](power-bi-visualization-doughnut-charts.md)
 
 [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+

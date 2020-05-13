@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d70d1357af3309ddd9584b11ccf79115cde095c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a66b0fc1a984e0905fba209ca59afb3a02696b2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79383307"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131312"
 ---
 # <a name="power-bi-visuals-faq"></a>Preguntas más frecuentes de objetos visuales de Power BI
 
@@ -24,7 +24,7 @@ El portal de administración permite administrar objetos visuales de Power BI p
 
 ### <a name="how-can-the-admin-manage-organizational-power-bi-visuals"></a>¿Cómo puede gestionar el administrador los objetos visuales de Power BI de la organización?
 
-En el portal de administración, en la pestaña *Objetos visuales de la organización*, el administrador puede ver y [administrar todos los objetos visuales de Power BI de la organización de la empresa](../../service-admin-portal.md#organizational-visuals). Esto incluye agregar, deshabilitar, habilitar y eliminar objetos visuales de Power BI.
+En el portal de administración, en la pestaña *Objetos visuales de la organización*, el administrador puede ver y [administrar todos los objetos visuales de Power BI de la organización de la empresa](../../admin/service-admin-portal.md#organizational-visuals). Esto incluye agregar, deshabilitar, habilitar y eliminar objetos visuales de Power BI.
 
 Los usuarios de la organización pueden encontrar fácilmente objetos visuales de Power BI e importarlos a sus informes directamente desde Power BI Desktop o desde el servicio Power BI.
 

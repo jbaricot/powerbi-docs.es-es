@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 717627e171df6a0843453a72b54ec591a7fd5a19
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78923204"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276637"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Creación de un informe paginado basado en un conjunto de datos compartido de Power BI
 
@@ -20,14 +20,14 @@ Puede usar un conjunto de datos creado en Power BI Desktop como origen de datos 
 
 ![Informe paginado de Power BI Desktop al Generador de informes](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-No es necesario que el conjunto de datos esté en un área de trabajo de una capacidad Premium, ni tampoco que sea miembro de esa área de trabajo. Solo debe tener [permiso de compilación](../service-datasets-build-permissions.md) para el conjunto de datos. Para publicar el informe paginado, necesita una licencia de Power BI Pro. También necesita al menos un rol de colaborador para un área de trabajo en una capacidad Premium.
+No es necesario que el conjunto de datos esté en un área de trabajo de una capacidad Premium, ni tampoco que sea miembro de esa área de trabajo. Solo debe tener [permiso de compilación](../connect-data/service-datasets-build-permissions.md) para el conjunto de datos. Para publicar el informe paginado, necesita una licencia de Power BI Pro. También necesita al menos un rol de colaborador para un área de trabajo en una capacidad Premium.
 
 ## <a name="what-you-need"></a>Lo que necesita
 
 Esta es una lista de lo que necesita y no necesita para usar un conjunto de datos compartido en el Generador de informes de Power BI.
 
 - Generador de informes de Power BI. [Descargue e instale el Generador de informes de Power BI](https://go.microsoft.com/fwlink/?linkid=2086513).
-- Para acceder a un conjunto de datos de Power BI, debe tener el permiso de compilación para el conjunto de datos. Más información sobre el [permiso de compilación](../service-datasets-build-permissions.md).
+- Para acceder a un conjunto de datos de Power BI, debe tener el permiso de compilación para el conjunto de datos. Más información sobre el [permiso de compilación](../connect-data/service-datasets-build-permissions.md).
 - No necesita una licencia de Power BI Pro para crear un informe paginado en el Generador de informes. 
 - Para publicar el informe paginado, necesita una licencia de Power BI Pro. También necesita al menos un rol de colaborador para un área de trabajo en una capacidad Premium. 
 - Opcional: Si quiere seguir este artículo, descargue el archivo de Power BI Desktop [Ejemplo de análisis de minoristas.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), ábralo en Power BI Desktop y agregue una tabla con muchas columnas. En el panel **Formato**, desactive **Totales**. Después, publíquelo en un área de trabajo del servicio Power BI.
@@ -74,7 +74,7 @@ Estos son los pasos para obtener la consulta.
 1. Abra el informe de Power BI (.pbix) en Power BI Desktop.
 1. Asegúrese de que tiene una tabla en el informe que contenga todos los datos que quiere en el informe paginado. La tabla debe cumplir estos dos requisitos:
     - Debe ser una tabla plana, no una matriz ni ningún otro objeto visual. Si no es una tabla, conviértala en una tabla ahora, siga los pasos del Analizador de rendimiento que se indican a continuación y, tras ello, vuelva a convertirla en el objeto visual que quiera.
-    - Con los campos numéricos, debe usar *medidas predefinidas*. Verá un símbolo de calculadora junto a ellos. Obtenga información sobre cómo [crear medidas](../desktop-measures.md). 
+    - Con los campos numéricos, debe usar *medidas predefinidas*. Verá un símbolo de calculadora junto a ellos. Obtenga información sobre cómo [crear medidas](../transform-model/desktop-measures.md). 
 
         ![Icono de medida](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 

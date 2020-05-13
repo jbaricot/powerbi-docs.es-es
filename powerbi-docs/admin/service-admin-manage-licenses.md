@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c3f0b536695f5ed126ddc82c9e1891d317ef953f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 2d5eab5dbbf600227611cadc870fab1b3e44a4b7
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81447450"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83138898"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Visualización y administración de licencias de usuario de Power BI
 
@@ -60,5 +60,5 @@ Siga estos pasos para ver y asignar licencias de Power BI mediante Azure Portal
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Comprar Power BI Pro](../service-admin-purchasing-power-bi-pro.md)
-- [Licencias para la organización](../service-admin-licensing-organization.md)
+- [Comprar Power BI Pro](service-admin-purchasing-power-bi-pro.md)
+- [Licencias para la organización](service-admin-licensing-organization.md)

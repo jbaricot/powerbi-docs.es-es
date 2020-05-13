@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: f437b1d1fbfc1e905878fbb99875f1fc455e7b14
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79493259"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145123"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Planeamiento de la capacidad de análisis insertado de Power BI
 
@@ -51,7 +51,7 @@ Estos son algunos ejemplos de cómo puede usar la herramienta de planeamiento.
 
 Para ver los efectos de la prueba de carga en la aplicación de métricas después de que se ejecute la prueba, siga las instrucciones que se indican a continuación. Puede esperar un retraso de hasta 15 minutos desde el momento en que la prueba comienza a generar la carga, hasta el momento en que la carga es visible en las métricas.
 
-1. Expanda la pestaña **Conjuntos de datos** de la página de inicio de la [aplicación de métricas](../../service-admin-premium-monitor-capacity.md).
+1. Expanda la pestaña **Conjuntos de datos** de la página de inicio de la [aplicación de métricas](../../admin/service-admin-premium-monitor-capacity.md).
 2. Inicie una actualización a petición haciendo clic en **Actualizar ahora**. Los administradores deben hacerlo.
 
     ![Métricas de capacidad de Power BI Premium](media/embedded-capacity-planning/embedded-capacity-planning.png)

@@ -1,0 +1,112 @@
+---
+title: Optimización de informes para las aplicaciones móviles de Power BI
+description: Aprenda a optimizar las páginas de informe para las aplicaciones móviles de Power BI mediante la creación de una versión vertical del informe específica para teléfonos y tabletas.
+author: maggiesMSFT
+ms.reviewer: ''
+ms.service: powerbi
+ms.subservice: powerbi-desktop
+ms.topic: conceptual
+ms.date: 11/18/2019
+ms.author: maggies
+LocalizationGroup: Create reports
+ms.openlocfilehash: 593847d229dcd4e2081843523a0a988415a9ef81
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83297984"
+---
+# <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Optimización de informes de Power BI para las aplicaciones móviles
+Puede crear un diseño vertical para mejorar la experiencia de visualización de informes en las aplicaciones móviles. En Power BI Desktop y el servicio Power BI, puede reorganizar y cambiar el tamaño de los objetos visuales del informe para obtener una experiencia óptima en modo vertical.  
+
+Si lo que busca es información sobre cómo ver los informes en un dispositivo móvil, pruebe este inicio rápido [Exploración de paneles e informes en la aplicación móvil de Power BI](../consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
+
+![Informe optimizado en un teléfono](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
+
+Puede crear [objetos visuales con capacidad de respuesta](#optimize-a-visual-for-any-size) y [segmentaciones de datos con capacidad de respuesta](#enhance-slicers-to-work-well-in-phone-reports) que cambien de tamaño en cualquier parte. Si agrega filtros a un informe, esos filtros se muestran automáticamente en el informe optimizado.
+
+## <a name="lay-out-a-portrait-version-of-a-report-page"></a>Diseño de una versión vertical de una página de informe
+
+Después de crear un informe, puede optimizarlo para teléfonos y tabletas.
+
+1. En la vista **Informe** de Power BI Desktop, en la pestaña **Vista**, seleccione **Diseño de teléfono**.  
+   
+    ![Icono Diseño de teléfono](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
+   
+    En el servicio Power BI, seleccione **Editar informe** > **Diseño para móviles**.
+
+    Verá un lienzo en blanco con la forma de un teléfono. Todos los objetos visuales de la página de informe original se muestran en el panel **Visualizaciones** de la derecha.
+
+1. Para agregar un objeto visual al diseño de teléfono, arrástrelo desde el panel **Visualizaciones** al lienzo de teléfono.
+   
+    Informes de teléfono utilizan un diseño de cuadrícula. Al arrastrar objetos visuales al lienzo móvil, se ajustan a la cuadrícula.
+   
+    ![Arrastrar y soltar un objeto visual](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
+   
+    Puede agregar todos o algunos de los objetos visuales de página de informe maestro a la página de informe de teléfono. Puede agregar cada objeto visual solo una vez y no tiene que incluirlos todos.
+
+1. Puede cambiar el tamaño de los objetos visuales en la cuadrícula, como lo haría para los mosaicos en los paneles y paneles móviles.
+   
+   La cuadrícula del informe de teléfono se escala en los teléfonos de tamaños diferentes, por lo que el informe se ve correctamente tanto en teléfonos con pantallas pequeñas y grandes.
+   
+   ![Cambiar el tamaño de un objeto visual](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
+
+## <a name="optimize-a-visual-for-any-size"></a>Optimización de un objeto visual de cualquier tamaño
+Puede configurar los objetos visuales en el panel o informe para que tengan *capacidad de respuesta*. Los objetos visuales cambian de forma dinámica para mostrar la máxima cantidad de datos y conclusiones, con independencia del tamaño de la pantalla. 
+
+Cuando un objeto visual cambia de tamaño, Power BI da prioridad a la vista de datos. Por ejemplo, puede eliminar el relleno y desplazar la leyenda de la parte superior del objeto visual automáticamente, para que este siga siendo informativo aunque se haga de menor tamaño.
+
+![Cambio de tamaño de un objeto visual con capacidad de respuesta](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
+
+Elija si desea activar la capacidad de respuesta de cada objeto visual. Obtenga más información sobre la [optimización de objetos visuales](../visuals/desktop-create-responsive-visuals.md).
+
+## <a name="considerations-when-creating-phone-report-layouts"></a>Consideraciones sobre la creación de diseños de informe de teléfono
+* Para los informes con varias páginas, puede optimizar todas las páginas o solo algunas. 
+* Si se ha definido un color de fondo de una página de informe, el informe de teléfono tendrá el mismo color de fondo.
+* No puede modificar la configuración de formato solo para el teléfono. La aplicación de formato es coherente entre los diseños maestros y móviles. Por ejemplo, los tamaños de fuente serán los mismos.
+* Para cambiar un objeto visual, como cambiar su formato, conjunto de datos, filtros o cualquier otro atributo, vuelva al modo de creación de informes regulares.
+* Power BI proporciona títulos y nombres de página predeterminados para los informes de teléfono de la aplicación móvil. Si ha creado objetos visuales de texto para títulos y nombres de página en el informe, considere la posibilidad de no agregarlos a los informes de teléfono.     
+
+## <a name="remove-a-visual-from-the-phone-layout"></a>Quitar un objeto visual del diseño de teléfono
+* Para quitar un objeto visual, seleccione la **X** de la parte superior derecha del objeto visual en el lienzo de teléfono, o bien selecciónelo y presione **Eliminar**.
+  
+   Si quita el objeto visual de aquí solo lo quita del lienzo de diseño del teléfono. El objeto visual y el informe original no se ven afectados.
+  
+   ![Quitar un objeto visual](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
+
+## <a name="enhance-slicers-to-work-well-in-phone-reports"></a>Mejorar segmentaciones para que funcionen bien en los informes de teléfono
+Las segmentaciones ofrecen el filtrado en lienzo de los datos de informes. Al diseñar las segmentaciones en el modo de creación de informes regular, puede modificar la configuración de la segmentación para que sean más útiles en los informes de teléfono:
+
+* Decida si los lectores de los informes pueden seleccionar un solo elemento o varios.
+* Coloque un cuadro alrededor de la segmentación para facilitar el análisis del informe.
+* Haga que la segmentación sea vertical, horizontal o *con capacidad de respuesta*. 
+
+Si crea una segmentación con capacidad de respuesta, al cambiar su tamaño y forma muestra más o menos opciones. Puede ser alta, baja, ancha o estrecha. Si la hace suficientemente pequeña, se convierte en un icono de filtro en la página del informe. 
+
+![Segmentación con capacidad de respuesta de Power BI](media/desktop-create-phone-report/desktop-create-phone-report-8.png)
+
+Obtenga más información sobre la [creación de segmentaciones con capacidad de respuesta](power-bi-slicer-filter-responsive.md).
+
+## <a name="publish-a-phone-report"></a>Publicar un informe de teléfono
+Para publicar la versión de teléfono de un informe, [publique el informe principal de Power BI Desktop al servicio Power BI](desktop-upload-desktop-files.md) y la versión de teléfono se publica al mismo tiempo.
+  
+Obtenga más información sobre [el uso compartido y los permisos en Power BI](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md).
+
+## <a name="view-optimized-and-unoptimized-reports-on-a-phone-or-tablet"></a>Visualización de informes tanto optimizados como no optimizados en un teléfono o tableta
+En las aplicaciones móviles de los teléfonos, Power BI detecta automáticamente informes de teléfono optimizados y no optimizados. Si existe un informe optimizado de teléfono, la aplicación de teléfono de Power BI abre automáticamente el informe en el modo de informe de teléfono.
+
+Si no existe ningún informe optimizado para móviles, el informe se abre en la vista horizontal no optimizada.  
+
+En un informe para móviles, si se cambia la orientación del teléfono a horizontal, el informe se abre en la vista no optimizada con el diseño original, independientemente de si el informe está optimizado o no.
+
+Si solo optimiza algunas páginas, los lectores ven un mensaje en vista vertical, que indica que el informe está disponible en horizontal.
+
+![Página de informe no optimizada](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
+
+Los lectores de informes pueden activar sus teléfonos o tabletas lateralmente para ver la página en modo horizontal. Obtenga más información sobre la [interacción con informes de Power BI optimizados para el modo vertical](../consumer/mobile/mobile-apps-view-phone-report.md).
+
+## <a name="next-steps"></a>Pasos siguientes
+* [Creación de una vista de teléfono de un panel en Power BI](service-create-dashboard-mobile-phone-view.md).
+* [Visualización de informes de Power BI optimizados para el teléfono](../consumer/mobile/mobile-apps-view-phone-report.md).
+* [Creación de objetos visuales con capacidad de respuesta optimizados para cualquier tamaño](../visuals/desktop-create-responsive-visuals.md).
+* ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/).

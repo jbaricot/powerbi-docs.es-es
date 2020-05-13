@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751640"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275970"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Inserción de contenido de Power BI con entidad de servicio y secreto de aplicación
 
@@ -183,14 +183,14 @@ Una vez insertado el contenido, está listo para [pasar a producción](embed-sam
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
-* La entidad de servicio solo funciona con [áreas de trabajo nuevas](../../service-create-the-new-workspaces.md).
+* La entidad de servicio solo funciona con [áreas de trabajo nuevas](../../collaborate-share/service-create-the-new-workspaces.md).
 * Cuando se usa la entidad de servicio, no se admite **Mi área de trabajo**.
 * Para pasar a producción, se necesita capacidad dedicada.
 * No se puede iniciar sesión en el portal de Power BI con la entidad de servicio.
 * Se necesitan derechos de administrador de Power BI para habilitar la entidad de servicio en la configuración de desarrollador en el portal de administración de Power BI.
 * No se puede instalar ni administrar una puerta de enlace de datos local con la entidad de servicio.
 * Las aplicaciones de [inserción para la organización](embed-sample-for-your-organization.md) no pueden usar la entidad de servicio.
-* No se admite la administración de [flujos de datos](../../service-dataflows-overview.md).
+* No se admite la administración de [flujos de datos](../../transform-model/service-dataflows-overview.md).
 * Actualmente la entidad de servicio no admite ninguna API de administración.
 * Al usar una entidad de servicio con un origen de datos de [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), la propia entidad de servicio debe tener permisos de una instancia de Azure Analysis Services. El uso de un grupo de seguridad que contiene la entidad de servicio para este propósito no funciona.
 

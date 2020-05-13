@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751606"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273463"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Descripción de un esquema de estrella e importancia para Power BI
 
@@ -42,7 +42,7 @@ Tenga en cuenta que cada objeto visual de informe de Power BI genera una consult
 - Las tablas de dimensiones admiten el _filtrado_ y la _agrupación_
 - Las tablas de hechos admiten el _resumen_
 
-Los modeladores no establecen ninguna propiedad de tabla para configurar el tipo de tabla como dimensión o hecho. Es un hecho que las relaciones de modelo determinan. Una relación de modelo establece una ruta de propagación de filtros entre dos tablas, mientras que la propiedad **Cardinalidad** de la relación es la que determina el tipo de tabla. Una cardinalidad de relación común es _uno a varios_ o su inversa _varios a uno_. El "uno" es siempre una tabla de tipo de dimensiones, mientras que el "varios" siempre es una tabla de tipo de hechos. Para más información sobre las relaciones, consulte [Creación de relaciones de modelos en Power BI Desktop (Evaluación de relaciones)](../desktop-relationships-understand.md).
+Los modeladores no establecen ninguna propiedad de tabla para configurar el tipo de tabla como dimensión o hecho. Es un hecho que las relaciones de modelo determinan. Una relación de modelo establece una ruta de propagación de filtros entre dos tablas, mientras que la propiedad **Cardinalidad** de la relación es la que determina el tipo de tabla. Una cardinalidad de relación común es _uno a varios_ o su inversa _varios a uno_. El "uno" es siempre una tabla de tipo de dimensiones, mientras que el "varios" siempre es una tabla de tipo de hechos. Para más información sobre las relaciones, consulte [Creación de relaciones de modelos en Power BI Desktop (Evaluación de relaciones)](../transform-model/desktop-relationships-understand.md).
 
 ![Esquema de estrella conceptual](media/star-schema/star-schema-example2.png)
 
@@ -209,10 +209,12 @@ Este enfoque de diseño de varios a varios está bien documentado y se puede log
 Para obtener más información sobre el diseño de esquemas de estrella o el diseño del modelo de Power BI, vea los siguientes artículos:
 
 - [Artículo de la Wikipedia sobre el modelado dimensional](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Crear y administrar relaciones en Power BI Desktop](../desktop-create-and-manage-relationships.md)
+- [Crear y administrar relaciones en Power BI Desktop](../transform-model/desktop-create-and-manage-relationships.md)
 - [Instrucciones para relaciones uno a uno](relationships-one-to-one.md)
 - [Instrucciones para relaciones de varios a varios](relationships-many-to-many.md)
 - [Instrucciones para relaciones bidireccionales](relationships-bidirectional-filtering.md)
 - [Instrucciones para relaciones activas frente a inactivas](relationships-active-inactive.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)
+
+

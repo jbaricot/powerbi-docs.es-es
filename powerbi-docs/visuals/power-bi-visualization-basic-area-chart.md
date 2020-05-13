@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866981"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277166"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Creación y uso de gráficos de área básicos
 
@@ -68,7 +68,7 @@ En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas]
    d.  Para mostrar el gráfico por mes, seleccione el botón de puntos suspensivos (esquina superior derecha del objeto visual) y elija **Sort by month** (Ordenar por mes). Para cambiar el criterio de ordenación, vuelva a hacer clic en los puntos suspensivos y seleccione **Orden ascendente** u **Orden descendente**.
 
 ## <a name="highlighting-and-cross-filtering"></a>Resaltado y filtrado cruzado
-Para más información acerca de cómo usar el panel Filtros, consulte [Agregar un filtro a un informe](../power-bi-report-add-filter.md).
+Para más información acerca de cómo usar el panel Filtros, consulte [Agregar un filtro a un informe](../create-reports/power-bi-report-add-filter.md).
 
 Para resaltar un área concreta en el gráfico, seleccione ese área o su borde superior.  A diferencia de otros tipos de visualización, si hay otras visualizaciones en la misma página, el resaltado de un gráfico de área básico no realiza un filtrado cruzado de las otras visualizaciones de la página del informe. Pero otras visualizaciones de la página de informe pueden desencadenar el filtrado cruzado de los gráficos de área. 
 
@@ -78,7 +78,7 @@ Para resaltar un área concreta en el gráfico, seleccione ese área o su borde 
 
     ![Ejemplos de filtro](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
-Para más información, consulte [Interacciones de objetos visuales en los informes](../service-reports-visual-interactions.md)
+Para más información, consulte [Interacciones de objetos visuales en los informes](../create-reports/service-reports-visual-interactions.md)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas   
@@ -87,4 +87,6 @@ Para más información, consulte [Interacciones de objetos visuales en los infor
 
 ## <a name="next-step"></a>Siguiente paso
 [Informes en Power BI](power-bi-visualization-card.md)  
+
+
 

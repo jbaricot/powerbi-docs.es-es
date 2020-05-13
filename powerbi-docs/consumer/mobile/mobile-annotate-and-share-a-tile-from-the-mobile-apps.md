@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31a899001b5a821a38a3de01db0357c26f2e58dc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205513"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149206"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Anotación y uso compartido de un icono, informe u objeto visual en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -28,7 +28,7 @@ Puede anotar y compartir una instantánea de un icono, un informe o un objeto vi
 
 *Informe con anotaciones*
 
-El correo con la instantánea del icono, el informe o el objeto visual también incluye un vínculo al objeto real en el servicio Power BI ([https://powerbi.com](https://powerbi.com)). Los destinatarios pueden hacer clic en el vínculo e ir directamente a ese icono, informe u objeto visual si usted y ellos tienen licencias de Power BI Pro, o el contenido está en una [capacidad premium](../../service-premium-what-is.md), y ya ha compartido el elemento con ellos. 
+El correo con la instantánea del icono, el informe o el objeto visual también incluye un vínculo al objeto real en el servicio Power BI ([https://powerbi.com](https://powerbi.com)). Los destinatarios pueden hacer clic en el vínculo e ir directamente a ese icono, informe u objeto visual si usted y ellos tienen licencias de Power BI Pro, o el contenido está en una [capacidad premium](../../admin/service-premium-what-is.md), y ya ha compartido el elemento con ellos. 
 
 También puede [compartir un icono desde la aplicación móvil de Power BI para dispositivos Windows 10](mobile-windows-10-phone-app-get-started.md), pero no puede anotarlo.
 
@@ -74,4 +74,3 @@ También puede [compartir un icono desde la aplicación móvil de Power BI para 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Compartir un panel desde las aplicaciones móviles de Power BI](mobile-share-dashboard-from-the-mobile-apps.md)
 * ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c72863407fea0cf550643e5193a8b514b2bb51bd
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82585075"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276338"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentaciones de datos en Power BI
 
@@ -24,11 +24,11 @@ Imagine que quiere que los lectores del informe puedan consultar métricas de ve
 
 ![Animación de segmentación](media/power-bi-visualization-slicers/slicer2.gif)
 
-En este artículo se explica cómo crear y dar formato a una segmentación básica, mediante el [Ejemplo de análisis de minoristas](../sample-retail-analysis.md) gratuito. También se muestra cómo puede controlar qué objetos visuales se ven afectados por una segmentación y cómo sincronizar con segmentaciones en otras páginas. Estos son otros artículos en los que se explica cómo crear tipos específicos de segmentaciones:
+En este artículo se explica cómo crear y dar formato a una segmentación básica, mediante el [Ejemplo de análisis de minoristas](../create-reports/sample-retail-analysis.md) gratuito. También se muestra cómo puede controlar qué objetos visuales se ven afectados por una segmentación y cómo sincronizar con segmentaciones en otras páginas. Estos son otros artículos en los que se explica cómo crear tipos específicos de segmentaciones:
 
-- [Segmentaciones de rango numérico](../desktop-slicer-numeric-range.md).
+- [Segmentaciones de rango numérico](../create-reports/desktop-slicer-numeric-range.md).
 - [Segmentaciones de fecha relativa](desktop-slicer-filter-date-range.md).
-- [Segmentaciones que se pueden cambiar de tamaño](../power-bi-slicer-filter-responsive.md) y con capacidad de respuesta.
+- [Segmentaciones que se pueden cambiar de tamaño](../create-reports/power-bi-slicer-filter-responsive.md) y con capacidad de respuesta.
 - [Segmentaciones de jerarquía](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md) con varios campos.
 
 ## <a name="when-to-use-a-slicer"></a>Cuándo usar una segmentación
@@ -92,7 +92,7 @@ Use interacciones de objetos visuales para impedir que algunas visualizaciones d
 
    Ahora, cuando seleccione los nombres e intervalos de fechas en las segmentaciones, el gráfico **Varianza total de ventas por mes fiscal y administrador de distrito** no se modifica.
 
-Para más información sobre cómo editar las interacciones, vea [Cambio de la interacción de los objetos visuales en un informe de Power BI](../service-reports-visual-interactions.md).
+Para más información sobre cómo editar las interacciones, vea [Cambio de la interacción de los objetos visuales en un informe de Power BI](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Sincronización y uso de las segmentaciones en otras páginas
 A partir de la actualización de febrero de 2018 de Power BI se puede sincronizar una segmentación y usarla en una o todas las páginas de un informe. 
@@ -134,7 +134,7 @@ En el informe actual, la página **Ventas mensuales de distrito** tiene también
 ## <a name="filtering-slicers"></a>Filtrado de segmentaciones
 Puede aplicar filtros de nivel de objeto visual a las segmentaciones para reducir la lista de valores que se muestran en la segmentación. Por ejemplo, puede filtrar los valores en blanco de una segmentación de lista o filtrar determinadas fechas de una segmentación de intervalo. Al hacerlo, solo afecta a los *valores que se muestran en la segmentación*, no al *filtro que la segmentación aplica a otros objetos visuales* cuando se realiza una selección. Por ejemplo, supongamos que aplica un filtro a una segmentación de intervalo para mostrar solo determinadas fechas. La selección en la segmentación solo mostrará la primera y la última fecha de ese intervalo, pero aun así verá otras fechas en otros objetos visuales. Una vez que cambie el intervalo seleccionado en la segmentación, verá que los demás objetos visuales se actualizan. Si borra la segmentación, se mostrarán de nuevo todas las fechas.
 
-Consulte [Tipos de filtros](../power-bi-report-filter-types.md) para obtener más información sobre los filtros de nivel de objeto visual.
+Consulte [Tipos de filtros](../create-reports/power-bi-report-filter-types.md) para obtener más información sobre los filtros de nivel de objeto visual.
 
 ## <a name="format-slicers"></a>Segmentaciones de formato
 Existen diferentes opciones de formato según el tipo de segmentación. Con la orientación **Horizontal**, el diseño **dinámico** y la posibilidad de colorear **elementos**, puede generar botones o iconos en lugar de elementos de lista estándar, y hacer que los elementos de segmentación cambien de tamaño para ajustarse a diferentes diseños y tamaños de pantalla.  
@@ -169,7 +169,7 @@ Existen diferentes opciones de formato según el tipo de segmentación. Con la o
 
     ![Opciones horizontales](media/power-bi-visualization-slicers/6-buttons.png)
 
-Para más información sobre las orientaciones horizontales y los diseños dinámicos, vea [Creación de una segmentación con capacidad de respuesta que se puede cambiar de tamaño en Power BI](../power-bi-slicer-filter-responsive.md).
+Para más información sobre las orientaciones horizontales y los diseños dinámicos, vea [Creación de una segmentación con capacidad de respuesta que se puede cambiar de tamaño en Power BI](../create-reports/power-bi-slicer-filter-responsive.md).
 
 ### <a name="selection-controls-options-list-slicers-only"></a>Opciones de controles de selección (solo segmentaciones de lista)
 1. En **Controles de selección**, **active** **Mostrar la opción "Seleccionar todo"** para agregar un elemento **Seleccionar todo** a la segmentación. 
@@ -222,4 +222,3 @@ Para más información, consulte los siguientes artículos:
 - [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 - [Tablas en Power BI](power-bi-visualization-tables.md)
-

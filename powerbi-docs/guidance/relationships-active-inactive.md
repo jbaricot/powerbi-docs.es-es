@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a8c8c50369911e76376ccbda3a95743813fde6bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263677"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273233"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Instrucciones para elegir entre relaciones activas e inactivas
 
@@ -114,7 +114,7 @@ Este diseño de modelo permite generar el siguiente diseño de informe.
 
 La página del informe filtra por Q4 (cuarto trimestre) de 2019. El objeto visual de la tabla agrupa por mes y muestra varias estadísticas de ventas. Las medidas **Orders** (Pedidos) y **Orders Shipped** (Pedidos expedidos) generan resultados diferentes. Cada una de ellas usa la misma lógica de resumen (recuento de filas de la tabla **Sales** [Ventas]), pero una diferente propagación del filtro de tabla **Date** (Fecha).
 
-Observe que la segmentación del trimestre incluye un elemento en blanco. Este elemento de segmentación aparece como resultado de la [expansión de tabla](../desktop-relationships-understand.md#strong-relationships). Aunque cada fila de tabla **Sales** (Ventas) tiene una fecha de pedido, algunas filas tienen una fecha de envío en blanco; estos pedidos todavía faltan por enviarse. La expansión de tablas también tiene en cuenta las relaciones inactivas, por lo que pueden aparecer espacios en blanco por haber espacios en blanco en la mayoría de la relación o debido a problemas de integridad de los datos.
+Observe que la segmentación del trimestre incluye un elemento en blanco. Este elemento de segmentación aparece como resultado de la [expansión de tabla](../transform-model/desktop-relationships-understand.md#strong-relationships). Aunque cada fila de tabla **Sales** (Ventas) tiene una fecha de pedido, algunas filas tienen una fecha de envío en blanco; estos pedidos todavía faltan por enviarse. La expansión de tablas también tiene en cuenta las relaciones inactivas, por lo que pueden aparecer espacios en blanco por haber espacios en blanco en la mayoría de la relación o debido a problemas de integridad de los datos.
 
 ## <a name="recommendations"></a>Recomendaciones
 
@@ -129,7 +129,7 @@ Sin embargo, en determinadas circunstancias, puede definir una o varias relacion
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
-- [Relaciones de modelos en Power BI Desktop](../desktop-relationships-understand.md)
+- [Relaciones de modelos en Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Descripción de un esquema de estrella e importancia para Power BI](star-schema.md)
 - [Instrucciones para solución de problemas de relaciones](relationships-troubleshoot.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

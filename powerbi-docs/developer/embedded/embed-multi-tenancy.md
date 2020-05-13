@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cd30727e6329ca91413f2023f7dc3bd715bcbca6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79494961"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276016"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Administración de varios inquilinos con análisis integrado de Power BI
 
@@ -40,7 +40,7 @@ En este artículo se describen los diferentes enfoques y se analizan en función
 
 **Inquilino de Power BI**: conjunto de recursos de Power BI asociado a un único inquilino de AAD.
 
-**[Área de trabajo de Power BI](../../service-create-workspaces.md)** : contenedor para el contenido de Power BI.
+**[Área de trabajo de Power BI](../../collaborate-share/service-create-workspaces.md)** : contenedor para el contenido de Power BI.
 
 **Artefactos de Power BI**: hay varios artefactos de Power BI en áreas de trabajo de Power BI, como paneles, informes, conjuntos de datos y flujos de datos.
 
@@ -52,11 +52,11 @@ En este artículo se describen los diferentes enfoques y se analizan en función
 
 **Usuario de aplicación de AAD (entidad de servicio)** : identidad que representa la aplicación SaaS en Power BI y que la aplicación SaaS usa al llamar a las API de Power BI. Debe ser una aplicación web de AAD. Puede reemplazar el uso de un usuario *maestro* para autenticarse en Power BI.
 
-**Capacidad**: conjunto de recursos dedicados a ejecutar el servicio Power BI. [Capacidades de Power BI Premium](../../service-premium-what-is.md): opción destinada a empresas que usan Power BI internamente, mientras que las [capacidades de Power BI Embedded](azure-pbie-create-capacity.md) están previstas para que los desarrolladores de aplicaciones desarrollen aplicaciones SaaS para terceros.
+**Capacidad**: conjunto de recursos dedicados a ejecutar el servicio Power BI. [Capacidades de Power BI Premium](../../admin/service-premium-what-is.md): opción destinada a empresas que usan Power BI internamente, mientras que las [capacidades de Power BI Embedded](azure-pbie-create-capacity.md) están previstas para que los desarrolladores de aplicaciones desarrollen aplicaciones SaaS para terceros.
 
-**[Licencia de Power BI Pro](../../service-admin-purchasing-power-bi-pro.md)** : licencia basada en usuarios, que concede derechos para publicar contenido en áreas de trabajo, consumir aplicaciones sin la capacidad Premium, compartir paneles y suscribirse a paneles e informes.
+**[Licencia de Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md)** : licencia basada en usuarios, que concede derechos para publicar contenido en áreas de trabajo, consumir aplicaciones sin la capacidad Premium, compartir paneles y suscribirse a paneles e informes.
 
-**[Modos de conectividad de datos](../../desktop-directquery-about.md)** : la conexión de orígenes de datos a Power BI que se pueden realizar en modos distintos:
+**[Modos de conectividad de datos](../../connect-data/desktop-directquery-about.md)** : la conexión de orígenes de datos a Power BI que se pueden realizar en modos distintos:
 
    * Importar: la manera más común de obtener datos.
    * DirectQuery: conexión directa a los datos en su repositorio de origen.
@@ -104,9 +104,9 @@ Power BI Embedded admite la implementación de varios puntos geográficos (carac
 
 ### <a name="cost"></a>Costo
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) tiene un modelo de compra basado en recursos, como **Power BI Premium**. Puede comprar una o más capacidades con capacidad de proceso y memoria fijas. Esta capacidad es el elemento de mayor costo cuando se trabaja con **Power BI Embedded**. No hay ningún límite en el número de usuarios con la capacidad. El único límite es el rendimiento de la capacidad. Se requiere una [licencia de Power BI Pro](../../service-admin-licensing-organization.md) para cada usuario *maestro*, o usuarios específicos que necesitan acceder al portal de Power BI.
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) tiene un modelo de compra basado en recursos, como **Power BI Premium**. Puede comprar una o más capacidades con capacidad de proceso y memoria fijas. Esta capacidad es el elemento de mayor costo cuando se trabaja con **Power BI Embedded**. No hay ningún límite en el número de usuarios con la capacidad. El único límite es el rendimiento de la capacidad. Se requiere una [licencia de Power BI Pro](../../admin/service-admin-licensing-organization.md) para cada usuario *maestro*, o usuarios específicos que necesitan acceder al portal de Power BI.
 
-Se recomienda la prueba y la medición de la carga esperada de su capacidad mediante la simulación del uso y el entorno de producción y la ejecución de pruebas de carga sobre la capacidad. Puede medir la carga y el rendimiento con las diversas métricas disponibles en la capacidad de Azure o la [aplicación de las métricas de capacidad Premium](../../service-admin-premium-monitor-capacity.md).
+Se recomienda la prueba y la medición de la carga esperada de su capacidad mediante la simulación del uso y el entorno de producción y la ejecución de pruebas de carga sobre la capacidad. Puede medir la carga y el rendimiento con las diversas métricas disponibles en la capacidad de Azure o la [aplicación de las métricas de capacidad Premium](../../admin/service-admin-premium-monitor-capacity.md).
 
 ### <a name="content-customization-and-authoring"></a>Creación y personalización del contenido
 
@@ -131,7 +131,7 @@ Hay dos enfoques principales para administrar los datos de inquilino.
 
 Si el almacenamiento de una aplicación SaaS consiste en mantener una base de datos independiente por inquilino, la opción natural es usar conjuntos de datos de un solo inquilino en Power BI con la cadena de conexión para cada conjunto de datos apuntando a la base de datos coincidente.
 
-Si el almacenamiento de la aplicación SaaS usa una base de datos de varios inquilinos para todos los inquilinos, es fácil separarlos por área de trabajo. Puede configurar la conexión de la base de datos para el conjunto de datos de Power BI con una consulta de la base de datos parametrizada que solo recupera los datos del inquilino correspondiente. Puede actualizar la conexión con [Power BI Desktop](../../desktop-query-overview.md) o mediante la [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) con [parámetros](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) en la consulta.
+Si el almacenamiento de la aplicación SaaS usa una base de datos de varios inquilinos para todos los inquilinos, es fácil separarlos por área de trabajo. Puede configurar la conexión de la base de datos para el conjunto de datos de Power BI con una consulta de la base de datos parametrizada que solo recupera los datos del inquilino correspondiente. Puede actualizar la conexión con [Power BI Desktop](../../transform-model/desktop-query-overview.md) o mediante la [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) con [parámetros](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) en la consulta.
 
 ### <a name="data-isolation"></a>Aislamiento de datos
 
@@ -193,7 +193,7 @@ Con el aislamiento basado en seguridad de nivel de fila, la separación de datos
 
 ### <a name="scalability"></a>Escalabilidad
 
-Con el aislamiento basado en seguridad de nivel de fila, los datos deben adaptarse al límite de tamaño del conjunto de datos, que actualmente es de 10 GB. Con la introducción de la [actualización incremental](../../service-premium-incremental-refresh.md) y la próxima publicación de un punto de conexión XMLA para conjuntos de datos de Power BI, el límite de tamaño del conjunto de datos se espera que aumente significativamente. Pero los datos aún se deben adaptar a la memoria de la capacidad, y dejar suficiente memoria adicional para la ejecución de las actualizaciones de datos. Las implementaciones a gran escala necesitan una gran capacidad para evitar que los usuarios experimenten problemas debidos a la superación por la memoria de los límites de la capacidad actual. Otras maneras de gestionar el escalado incluyen el uso de [agregaciones](../../desktop-aggregations.md) o la conexión al origen de datos directamente mediante DirectQuery o la conexión dinámica, en lugar de almacenar en caché todos los datos de la capacidad de Power BI.
+Con el aislamiento basado en seguridad de nivel de fila, los datos deben adaptarse al límite de tamaño del conjunto de datos, que actualmente es de 10 GB. Con la introducción de la [actualización incremental](../../admin/service-premium-incremental-refresh.md) y la próxima publicación de un punto de conexión XMLA para conjuntos de datos de Power BI, el límite de tamaño del conjunto de datos se espera que aumente significativamente. Pero los datos aún se deben adaptar a la memoria de la capacidad, y dejar suficiente memoria adicional para la ejecución de las actualizaciones de datos. Las implementaciones a gran escala necesitan una gran capacidad para evitar que los usuarios experimenten problemas debidos a la superación por la memoria de los límites de la capacidad actual. Otras maneras de gestionar el escalado incluyen el uso de [agregaciones](../../transform-model/desktop-aggregations.md) o la conexión al origen de datos directamente mediante DirectQuery o la conexión dinámica, en lugar de almacenar en caché todos los datos de la capacidad de Power BI.
 
 ### <a name="automation--operational-complexity"></a>Automatización y complejidad operativa
 
@@ -244,17 +244,17 @@ A medida que los usuarios finales editan o crean informes, pueden usar el conjun
 
 **Consideraciones y limitaciones de capacidad de Power BI:**
 
-* Cada capacidad solo puede usar su memoria y núcleos virtuales asignados, según la [SKU adquirida](../../service-premium-what-is.md).
-* Para obtener más detalles sobre el tamaño del conjunto de datos recomendado para cada SKU, consulte [Compatibilidad de Power BI Premium para grandes conjuntos de datos](../../service-premium-what-is.md#large-datasets).
+* Cada capacidad solo puede usar su memoria y núcleos virtuales asignados, según la [SKU adquirida](../../admin/service-premium-what-is.md).
+* Para obtener más detalles sobre el tamaño del conjunto de datos recomendado para cada SKU, consulte [Compatibilidad de Power BI Premium para grandes conjuntos de datos](../../admin/service-premium-what-is.md#large-datasets).
 * El tamaño máximo del conjunto de datos en una capacidad dedicada es de 10 GB.
 * El número de actualizaciones programadas para un conjunto de datos del *modo de importación* en un día es de 48.
 * El tiempo entre actualizaciones programadas para un conjunto de datos del *modo de importación* es de 30 minutos.
-* Para el número de actualizaciones que pueden ejecutarse simultáneamente en una capacidad, consulte [Optimización y administración de recursos](../../service-premium-what-is.md#capacity-nodes).
+* Para el número de actualizaciones que pueden ejecutarse simultáneamente en una capacidad, consulte [Optimización y administración de recursos](../../admin/service-premium-what-is.md#capacity-nodes).
 * El tiempo medio de escalado de una capacidad está entre 1 y 2 minutos. Durante ese tiempo, la capacidad no está disponible. Se recomienda usar un enfoque de escalado horizontal para [evitar tiempos de inactividad](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [Análisis integrado con Power BI](embedding.md)
 * [¿Qué es Power BI Embedded de Azure?](azure-pbie-what-is-power-bi-embedded.md)
-* [Power BI Premium](../../service-premium-what-is.md)
+* [Power BI Premium](../../admin/service-premium-what-is.md)
 * [Seguridad de nivel de fila](embedded-row-level-security.md)

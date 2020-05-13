@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0481a09aaeac4f6c76c49d3a816ac880cdb9d60b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e82c82430b42874e512265b9dae113b86925a51d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114056"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273279"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
 
@@ -69,7 +69,7 @@ Además de los iconos anclados de los informes, los *diseñadores* puede agregar
 3. Para cerrar el menú Acción, seleccione un área en blanco en el lienzo.
 
 ### <a name="select-click-a-tile"></a>Seleccionar (hacer clic en) un icono
-Al seleccionar un icono, lo que sucede después depende de cómo se creó el icono y de si tiene un [vínculo personalizado](../service-dashboard-edit-tile.md). Si tiene un vínculo personalizado, al seleccionar el icono se le lleva a ese vínculo. En caso contrario, al seleccionar el icono se le dirigirá al informe, al libro de Excel Online, al informe de SSRS local o a la pregunta de Preguntas y respuestas que se usó para crear el icono.
+Al seleccionar un icono, lo que sucede después depende de cómo se creó el icono y de si tiene un [vínculo personalizado](../create-reports/service-dashboard-edit-tile.md). Si tiene un vínculo personalizado, al seleccionar el icono se le lleva a ese vínculo. En caso contrario, al seleccionar el icono se le dirigirá al informe, al libro de Excel Online, al informe de SSRS local o a la pregunta de Preguntas y respuestas que se usó para crear el icono.
 
 > [!NOTE]
 > La excepción son los iconos de vídeo creados directamente en el panel con **Agregar icono**. Al seleccionar un icono de vídeo (que se creó de este modo), el vídeo se reproduce directamente en el panel.   
@@ -85,6 +85,8 @@ Al seleccionar un icono, lo que sucede después depende de cómo se creó el ico
 * Si la visualización original usada para crear el icono cambia, no se produce ningún cambio en el icono.  Por ejemplo, si el *diseñador* ha anclado un gráfico de líneas desde un informe y posteriormente ha cambiado el gráfico de líneas a un gráfico de barras, el icono del panel seguirá mostrando un gráfico de líneas. Los datos se actualizan, pero no el tipo de visualización.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Actualización de datos](../refresh-data.md)
+[Actualización de datos](../connect-data/refresh-data.md)
 
 [Power BI: Conceptos básicos](end-user-basic-concepts.md)
+
+

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 711c920f5b0b7feeeeb2297e0f93714e1e89f1a2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75219915"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148187"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Visualización del contenido de Power BI compartido con usted desde una organización externa
 
@@ -28,7 +28,7 @@ Se aplica a:
 
 ## <a name="accessing-shared-content"></a>Acceder al contenido compartido
 
-**En primer lugar, necesita que un usuario de una organización externa comparta un elemento con usted.** Cuando alguien [comparte un elemento con usted](../../service-share-dashboards.md), ya sea desde la misma organización o desde una organización externa, recibe un correo electrónico con un vínculo a ese elemento compartido. Al seguir ese vínculo en el dispositivo móvil, se abre la aplicación móvil de Power BI. Si la aplicación reconoce que el elemento se ha compartido desde una organización externa, la aplicación se vuelve a conectar a esa organización con su identidad. Luego la aplicación carga todos los elementos que se han compartido con usted desde esa organización.
+**En primer lugar, necesita que un usuario de una organización externa comparta un elemento con usted.** Cuando alguien [comparte un elemento con usted](../../collaborate-share/service-share-dashboards.md), ya sea desde la misma organización o desde una organización externa, recibe un correo electrónico con un vínculo a ese elemento compartido. Al seguir ese vínculo en el dispositivo móvil, se abre la aplicación móvil de Power BI. Si la aplicación reconoce que el elemento se ha compartido desde una organización externa, la aplicación se vuelve a conectar a esa organización con su identidad. Luego la aplicación carga todos los elementos que se han compartido con usted desde esa organización.
 
 ![Power BI abre un elemento compartido desde el correo electrónico ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 

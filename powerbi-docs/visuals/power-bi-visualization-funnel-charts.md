@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b60a4c14873427bd06d2b6abce48c9d3d3008859
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 6eee86423fdfc1e1a9338aa4fecfd5eae0c0d111
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865262"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272865"
 ---
 # <a name="create-and-use-funnel-charts"></a>Creación y uso de gráficos de embudo
 
@@ -94,20 +94,23 @@ Ahora cree su propio gráfico de embudo que muestre la cantidad de oportunidades
      
      ![Detalles de la barra Propuesta](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
 
-6. [Guarde el informe](../service-report-save.md).
+6. [Guarde el informe](../create-reports/service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Resaltado y filtrado cruzado
-Para más información acerca de cómo usar el panel Filtros, consulte [Agregar un filtro a un informe](../power-bi-report-add-filter.md).
+Para más información acerca de cómo usar el panel Filtros, consulte [Agregar un filtro a un informe](../create-reports/power-bi-report-add-filter.md).
 
 Al resaltar una barra en un gráfico de embudo, se realiza un filtrado cruzado de las demás visualizaciones en la página del informe, y viceversa. Para poder continuar, agregue algunos objetos visuales más a la página de informe que contiene el gráfico de embudo.
 
 1. En el embudo, seleccione la barra **Propuesta**. Esto realiza un resaltado cruzado de las demás visualizaciones de la página. Use CTRL para realizar una selección múltiple.
    
    ![Vídeo breve en el que se muestran las interacciones de objetos visuales](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Para establecer las preferencias del resaltado cruzado y del filtrado cruzado de los objetos visuales, consulte [Interacciones visuales en Power BI](../service-reports-visual-interactions.md).
+2. Para establecer las preferencias del resaltado cruzado y del filtrado cruzado de los objetos visuales, consulte [Interacciones visuales en Power BI](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Medidores en Power BI](power-bi-visualization-radial-gauge-charts.md)
 
 [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+

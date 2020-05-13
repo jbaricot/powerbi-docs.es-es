@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4d8b3d48828840920b6bbd792c9fe9da40308b39
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79496272"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83142301"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Contenido destacado en la página Inicio de Power BI de los compañeros
 
@@ -24,9 +24,9 @@ Puede destacar paneles, informes y aplicaciones de forma que aparezcan en la sec
 
 ## <a name="who-can-feature-content"></a>Quién puede destacar contenido
 
-Es decisión del administrador de inquilinos de Power BI habilitar la posibilidad de destacar contenido en el inquilino. El administrador también elige quién puede destacar contenido. Vea el artículo del [portal de administración](../service-admin-portal.md#featured-content) para obtener información.
+Es decisión del administrador de inquilinos de Power BI habilitar la posibilidad de destacar contenido en el inquilino. El administrador también elige quién puede destacar contenido. Vea el artículo del [portal de administración](../admin/service-admin-portal.md#featured-content) para obtener información.
 
-Si forma parte del grupo de elegidos en la organización con esa responsabilidad, debe tener una licencia de Power BI Pro. Para destacar paneles e informes, necesita el rol de administrador, miembro o colaborador en el área de trabajo. Para destacar la propia aplicación, debe tener el rol de administrador o de miembro en el área de trabajo. Vea [Roles en las áreas de trabajo nuevas](../service-new-workspaces.md#roles-in-the-new-workspaces) para obtener más información.
+Si forma parte del grupo de elegidos en la organización con esa responsabilidad, debe tener una licencia de Power BI Pro. Para destacar paneles e informes, necesita el rol de administrador, miembro o colaborador en el área de trabajo. Para destacar la propia aplicación, debe tener el rol de administrador o de miembro en el área de trabajo. Vea [Roles en las áreas de trabajo nuevas](service-new-workspaces.md#roles-in-the-new-workspaces) para obtener más información.
 
 ## <a name="who-sees-featured-content"></a>Quién ve el contenido destacado
 
@@ -58,7 +58,6 @@ Ahora, todos los usuarios que tengan acceso a esta aplicación también la verá
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [¿Cómo debo compartir paneles e informes y colaborar en ellos?](../service-how-to-collaborate-distribute-dashboards-reports.md)
-* [Administración de contenido destacado en el portal de administración](../service-admin-portal.md#manage-featured-content)
+* [¿Cómo debo compartir paneles e informes y colaborar en ellos?](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
+* [Administración de contenido destacado en el portal de administración](../admin/service-admin-portal.md#manage-featured-content)
 * ¿Preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
-

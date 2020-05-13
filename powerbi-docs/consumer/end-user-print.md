@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 61322db7085bd41539c0c79d483403b794f23f26
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8c91e2a07143a6355b7049e80cbdc3e4ba906013
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114311"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145380"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Impresión desde el servicio Power BI
 
@@ -116,7 +116,6 @@ Los informes se pueden imprimir una página a la vez.
 * R: Vuelva al panel o informe en la vista predeterminada, abra de nuevo el objeto visual en modo de enfoque y, después, en modo de pantalla completa. 
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Uso compartido de paneles e informes con compañeros y otros usuarios](../service-share-dashboards.md)
+[Uso compartido de paneles e informes con compañeros y otros usuarios](../collaborate-share/service-share-dashboards.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
-

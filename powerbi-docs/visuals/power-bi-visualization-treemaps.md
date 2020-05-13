@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: afc18fa33ec1612900cecc0a34eb50851804fb62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866895"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276706"
 ---
 # <a name="treemaps-in-power-bi"></a>Gráficos de rectángulos en Power BI
 
@@ -120,10 +120,11 @@ Al resaltar una **Categoría** o un **Detalle** en un gráfico de rectángulos, 
 1. En el gráfico circular **Last Year Sales by Chain**, seleccione el sector **Fashions Direct**.
    ![GIF de demostración de la característica de filtrado cruzado.](media/power-bi-visualization-treemaps/treemapnoowl.gif)
 
-1. Para administrar cómo se realiza un resaltado y un filtrado cruzados de los gráficos, consulte [Cambiar cómo interactúan los objetos visuales en un informe de Power BI](../service-reports-visual-interactions.md).
+1. Para administrar cómo se realiza un resaltado y un filtrado cruzados de los gráficos, consulte [Cambiar cómo interactúan los objetos visuales en un informe de Power BI](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [Gráficos de cascada en Power BI](power-bi-visualization-waterfall-charts.md)
 
 * [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+

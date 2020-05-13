@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 65d1401a66f8e670df1af3097f0e99fb6b647022
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82615712"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272819"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Subinformes en informes paginados de Power BI
 
@@ -74,7 +74,7 @@ Ya ha guardado los dos informes en la misma área de trabajo Premium, así que y
   
  Se puede colocar un subinforme en el cuerpo principal del informe o en una región de datos. Si se coloca un subinforme en una región de datos, el subinforme se repite con cada instancia del grupo o de la fila de la región de datos. Puede pasar un valor del grupo o de la fila al subinforme. En la propiedad de valor del subinforme, use una expresión de campo para el campo que contiene el valor que quiere pasar al parámetro del subinforme.  
   
- Para más información sobre cómo trabajar con parámetros y subinformes, vea [Adición de un subinforme y parámetros](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs.md) en la documentación de SQL Server Reporting Services.  
+ Para más información sobre cómo trabajar con parámetros y subinformes, vea [Adición de un subinforme y parámetros](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs) en la documentación de SQL Server Reporting Services.  
 
 ## <a name="preview-paginated-reports-in-report-builder"></a>Vista previa de informes paginados en Report Builder
 
