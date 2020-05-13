@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866596"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279190"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creación de visualizaciones de matriz en Power BI
 
@@ -62,7 +62,7 @@ El estado de expansión de la matriz se guardará con el informe. Una matriz se 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
-> Si va a crear un informe sobre un modelo multidimensional de Analysis Services, hay algunas consideraciones especiales que debe tener en cuenta para expandir o contraer si el modelo usa la característica de miembro predeterminado. Para obtener más información, consulte el artículo [Trabajo con modelos multidimensionales en Power BI](../desktop-default-member-multidimensional-models.md).
+> Si va a crear un informe sobre un modelo multidimensional de Analysis Services, hay algunas consideraciones especiales que debe tener en cuenta para expandir o contraer si el modelo usa la característica de miembro predeterminado. Para obtener más información, consulte el artículo [Trabajo con modelos multidimensionales en Power BI](../connect-data/desktop-default-member-multidimensional-models.md).
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Uso de la exploración en profundidad con el objeto visual de matriz
 Con el objeto visual de matriz, puede realizar todo tipo de actividades interesantes de exploración en profundidad que no estaban disponibles anteriormente. Esto incluye la capacidad de explorar en profundidad mediante filas, columnas e incluso en celdas y secciones individuales. Veamos cómo funciona cada una de ellas.
@@ -211,7 +211,7 @@ Si tiene una columna o una medida que contiene direcciones URL de sitios web, pu
 
 Active **Dirección URL web** y seleccione un campo para usarlo como dirección URL de la columna. Una vez aplicados, los valores de ese campo (columna) se convierten en vínculos activos. Mantenga el mouse para ver el vínculo y selecciónelo para saltar a esa página. 
 
-Para más información, consulte [Formato de tabla condicional](../desktop-conditional-table-formatting.md).
+Para más información, consulte [Formato de tabla condicional](../create-reports/desktop-conditional-table-formatting.md).
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Colores de fuente y sombreado con objetos visuales de matriz
 Con el objeto visual de matriz, puede aplicar formato condicional (colores, sombreado y barras de datos) al fondo de las celdas de la matriz y también al texto y a los valores propiamente dichos.
@@ -233,3 +233,5 @@ Seleccione *Controles avanzados* para mostrar un cuadro de diálogo, que permite
 [Objeto visual de Power Apps para Power BI](power-bi-visualization-powerapp.md)
 
 [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

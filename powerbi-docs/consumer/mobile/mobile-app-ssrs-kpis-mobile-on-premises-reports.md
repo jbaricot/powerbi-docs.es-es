@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 387f0cd4ecea59fd55af0a9eceff2272ddd8097b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75220132"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278868"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Visualización de informes y KPI locales del servidor de informes en la aplicaciones móviles de Power BI
 
@@ -107,7 +107,7 @@ Los informes de Power BI, y los informes móviles y KPI de Reporting Services se
   > El rastreo agrupando y desagrupando datos actualmente no está habilitado en los informes de Power BI de Power BI Report Server.
   
     ![Informe de Power BI](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
-* En Power BI Desktop, los propietarios de informes pueden [optimizar un informe](../../desktop-create-phone-report.md) para las aplicaciones móviles de Power BI. En el teléfono móvil, los informes optimizados tienen un icono, ![icono de informe de Power BI optimizado](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png), y un diseño especiales.
+* En Power BI Desktop, los propietarios de informes pueden [optimizar un informe](../../create-reports/desktop-create-phone-report.md) para las aplicaciones móviles de Power BI. En el teléfono móvil, los informes optimizados tienen un icono, ![icono de informe de Power BI optimizado](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png), y un diseño especiales.
   
     ![Informe de Power BI optimizado para móvil](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-report.png)
 * Puntee un KPI para verlo en el modo de enfoque.
@@ -133,4 +133,3 @@ Puede marcar KPI e informes como favoritos en el portal web y verlos después en
 ## <a name="next-steps"></a>Pasos siguientes
 * [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)  
 * ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

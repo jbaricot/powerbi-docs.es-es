@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b951e96a5d81603dc91e4fc47a2b412d4140f85d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 65f1246185584b5887d97bb9188b43e016e78e8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752059"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279259"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Conexión al Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias
 La aplicación de plantilla del Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias es el componente de informes de la [solución de Power Platform para la respuesta ante emergencias sanitarias](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). El panel muestra que los administradores de emergencia agregan datos a través de su sistema de mantenimiento para ayudarles a tomar decisiones oportunas y correctas.
@@ -86,21 +86,21 @@ Al instalar la solución de Power Platform Respuesta ante emergencias hospitalar
 
 ## <a name="schedule-report-refresh"></a>Programación de la actualización del informe
 
-Cuando se haya completado la actualización de los datos, [configure una programación de actualización](../refresh-scheduled-refresh.md) para mantener actualizados los datos del informe.
+Cuando se haya completado la actualización de los datos, [configure una programación de actualización](../connect-data/refresh-scheduled-refresh.md) para mantener actualizados los datos del informe.
 
 1. En la barra de encabezado superior, seleccione **Power BI**.
 
    ![Ruta de navegación de Power BI](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-powerbi-breadcrumb.png)
 
-1. En el panel de navegación izquierdo, busque el área de trabajo del Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias en **Áreas de trabajo** y siga las instrucciones descritas en el artículo [Configuración de la actualización programada](../refresh-scheduled-refresh.md).
+1. En el panel de navegación izquierdo, busque el área de trabajo del Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias en **Áreas de trabajo** y siga las instrucciones descritas en el artículo [Configuración de la actualización programada](../connect-data/refresh-scheduled-refresh.md).
 
 ## <a name="customize-and-share"></a>Personalizar y compartir
 
-Vea [Personalización y uso compartido de la aplicación](../service-template-apps-install-distribute.md#customize-and-share-the-app) para obtener detalles. Asegúrese de revisar las [declinaciones de responsabilidades del informe](../create-reports/sample-covid-19-us.md#disclaimers) antes de publicar o distribuir la aplicación.
+Vea [Personalización y uso compartido de la aplicación](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) para obtener detalles. Asegúrese de revisar las [declinaciones de responsabilidades del informe](../create-reports/sample-covid-19-us.md#disclaimers) antes de publicar o distribuir la aplicación.
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Descripción del informe de Respuesta ante emergencias hospitalarias](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
 * [Configuración e información sobre la plantilla de ejemplo de Comunicación de crisis en Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-* [¿Qué son las aplicaciones de plantilla de Power BI?](../service-template-apps-overview.md)
-* [Instalación y distribución de aplicaciones de plantilla en la organización](../service-template-apps-install-distribute.md)
+* [¿Qué son las aplicaciones de plantilla de Power BI?](../connect-data/service-template-apps-overview.md)
+* [Instalación y distribución de aplicaciones de plantilla en la organización](../connect-data/service-template-apps-install-distribute.md)

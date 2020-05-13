@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290589"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278684"
 ---
 # <a name="referencing-power-query-queries"></a>Referencia de las consultas de Power Query
 
@@ -42,7 +42,7 @@ El uso de la función [Table.Buffer](/powerquery-m/table-buffer) en la consulta 
 
 Por lo general, se recomienda hacer referencia a las consultas para evitar la duplicación de lógica en las consultas. Sin embargo, tal como se describe en este artículo, este enfoque de diseño puede contribuir a las actualizaciones de datos lentas y a los orígenes de datos sobrecargados.
 
-En su lugar, se recomienda crear un [flujo de datos](../service-dataflows-overview.md). Usar un flujo de datos puede mejorar el tiempo de actualización de los datos y disminuir el impacto en los orígenes de datos.
+En su lugar, se recomienda crear un [flujo de datos](../transform-model/service-dataflows-overview.md). Usar un flujo de datos puede mejorar el tiempo de actualización de los datos y disminuir el impacto en los orígenes de datos.
 
 Puede diseñar el flujo de datos para que encapsule los datos de origen y las transformaciones. Como el flujo de datos es un almacén de datos persistente del servicio Power BI, su recuperación de datos es rápida. Por lo tanto, incluso cuando las consultas a las que se hace referencia generan varias solicitudes para el flujo de datos, es posible mejorar los tiempos de actualización de los datos.
 
@@ -52,7 +52,7 @@ En el ejemplo, si la consulta **Query1** se rediseña como una entidad de flujo 
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
-- [Autoservicio de preparación de los datos en Power BI](../service-dataflows-overview.md)
-- [Creación y uso de flujos de datos en Power BI](../service-dataflows-create-use.md)
+- [Autoservicio de preparación de los datos en Power BI](../transform-model/service-dataflows-overview.md)
+- [Creación y uso de flujos de datos en Power BI](../transform-model/service-dataflows-create-use.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)

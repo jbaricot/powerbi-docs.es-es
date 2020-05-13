@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114329"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277626"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualización de un informe en el servicio Power BI para *consumidores*
 
@@ -99,14 +99,14 @@ Los informes se pueden abrir desde un panel. La mayoría de los [iconos](end-use
     ![Informe abierto en vista de lectura](./media/end-user-report-open/power-bi-report-tabs.png)
 
 > [!NOTE]
-> No todos los iconos conducen a un informe. Si selecciona un icono que ha sido [creado con Preguntas y respuestas](end-user-q-and-a.md), se abrirá la pantalla de Preguntas y respuestas. Si selecciona un icono que ha sido [creado mediante el widget **Agregar icono** del panel](../service-dashboard-add-widget.md), pueden pasar varias cosas: puede que se reproduzca un vídeo, un sitio web o algo distinto.  
+> No todos los iconos conducen a un informe. Si selecciona un icono que ha sido [creado con Preguntas y respuestas](end-user-q-and-a.md), se abrirá la pantalla de Preguntas y respuestas. Si selecciona un icono que ha sido [creado mediante el widget **Agregar icono** del panel](../create-reports/service-dashboard-add-widget.md), pueden pasar varias cosas: puede que se reproduzca un vídeo, un sitio web o algo distinto.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Más maneras aún de abrir un informe
 Conforme se vaya familiarizando con la navegación por el servicio Power BI, descubrirá qué flujos de trabajo funcionan mejor en su caso. Algunas otras maneras de acceder a los informes:
 - Desde el panel de navegación mediante [Favoritos](end-user-favorite.md) y [Recientes](end-user-recent.md)    
 - Mediante [Ver relacionados](end-user-related.md)    
-- En un correo electrónico cuando alguien [comparte con usted](../service-share-reports.md) o [establece una alerta](end-user-alerts.md).    
+- En un correo electrónico cuando alguien [comparte con usted](../collaborate-share/service-share-reports.md) o [establece una alerta](end-user-alerts.md).    
 - Desde el [Centro de notificaciones](end-user-notification-center.md)    
 - Desde un área de trabajo
 - Y más

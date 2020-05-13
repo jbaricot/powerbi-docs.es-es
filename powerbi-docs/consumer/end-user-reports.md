@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 28af5cd89e918fad7fc7064479ac95c67ca3cee3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114251"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277465"
 ---
 # <a name="reports-in-power-bi"></a>Informes en Power BI
 
@@ -76,7 +76,7 @@ O bien, es posible que sea un *consumidor*, alguien que recibe los informes de o
 
 * Comience con un [paseo por el servicio Power BI](end-user-basic-concepts.md) para saber dónde se encuentran los informes y las herramientas de informes.
 * Aprenda a [abrir un informe](end-user-report-open.md) y conozca todas las [interacciones disponibles para los consumidores](end-user-reading-view.md).
-* Familiarícese con los informes viendo uno de nuestros [ejemplos](../sample-tutorial-connect-to-the-samples.md).  
+* Familiarícese con los informes viendo uno de nuestros [ejemplos](../create-reports/sample-tutorial-connect-to-the-samples.md).  
 * Para ver qué conjunto de datos usa el informe y qué paneles muestran objetos visuales del informe (*marcas*), consulte [Visualización del contenido relacionado en el servicio Power BI](end-user-related.md).
 
 > [!TIP]
@@ -86,3 +86,4 @@ O bien, es posible que sea un *consumidor*, alguien que recibe los informes de o
 
 [Abrir y ver un informe](end-user-report-open.md)    
 [Paneles en el servicio Power BI](end-user-dashboards.md)
+

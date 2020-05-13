@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263815"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278270"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Instrucciones para relaciones uno a uno
 
@@ -99,7 +99,7 @@ Cuando sea posible, le recomendamos que evite crear relaciones de modelo uno a u
 - Limitar la capacidad de crear jerarquías, ya que sus niveles se deben basar en columnas de la _misma tabla_
 - Generar resultados inesperados cuando no hay una coincidencia completa de filas entre las tablas
 
-Las recomendaciones específicas difieren dependiendo de si la relación uno a uno es _intraisla_ o _entre islas_. Para más información sobre la evaluación de relaciones, consulte [Creación de relaciones de modelos en Power BI Desktop (Evaluación de relaciones)](../desktop-relationships-understand.md#relationship-evaluation).
+Las recomendaciones específicas difieren dependiendo de si la relación uno a uno es _intraisla_ o _entre islas_. Para más información sobre la evaluación de relaciones, consulte [Creación de relaciones de modelos en Power BI Desktop (Evaluación de relaciones)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ### <a name="intra-island-one-to-one-relationship"></a>Relación uno a uno intraisla
 
@@ -107,7 +107,7 @@ Cuando existe una relación uno a uno _intraisla_ entre las tablas, recomendamos
 
 Los siguientes pasos presentan una metodología para consolidar y modelar los datos relacionados uno a uno:
 
-1. **Combinar consultas**: al [combinar las dos consultas](../desktop-shape-and-combine-data.md#combine-queries), tenga en cuenta la integridad de los datos en cada consulta. Si una consulta contiene un conjunto completo de filas (como una lista maestra), combine la otra consulta con ella. Configure la transformación de combinación para usar una _combinación externa izquierda_, que es el tipo de combinación predeterminado. Este tipo de combinación garantiza que mantendrá todas las filas de la primera consulta y las complementará con las filas coincidentes de la segunda consulta. Expanda todas las columnas requeridas de la segunda consulta en la primera consulta.
+1. **Combinar consultas**: al [combinar las dos consultas](../connect-data/desktop-shape-and-combine-data.md#combine-queries), tenga en cuenta la integridad de los datos en cada consulta. Si una consulta contiene un conjunto completo de filas (como una lista maestra), combine la otra consulta con ella. Configure la transformación de combinación para usar una _combinación externa izquierda_, que es el tipo de combinación predeterminado. Este tipo de combinación garantiza que mantendrá todas las filas de la primera consulta y las complementará con las filas coincidentes de la segunda consulta. Expanda todas las columnas requeridas de la segunda consulta en la primera consulta.
 2. **Deshabilitar la carga de consultas**: asegúrese de [deshabilitar la carga](import-modeling-data-reduction.md#disable-power-query-query-load) de la segunda consulta. De esta manera, no cargará su resultado como una tabla modelo. Esta configuración reduce el tamaño de almacenamiento del modelo de datos y ayuda a despejar el panel **Campos**.
 
     En nuestro ejemplo, los autores de informes ahora encuentran una sola tabla llamada **Product** en el panel **Campos**. Contiene todos los campos relacionados con el producto.
@@ -131,11 +131,11 @@ En nuestro ejemplo, los autores de informes pueden encontrar el campo **Category
 
 ![El panel Campos muestra el campo Category dentro de una carpeta para mostrar denominada Marketing.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Si todavía decide definir relaciones uno a uno intraisla en su modelo, cuando sea posible, asegúrese de que haya filas coincidentes en las tablas relacionadas. Dado que una relación uno a uno intraisla se evalúa como una [relación sólida](../desktop-relationships-understand.md#strong-relationships), podrían surgir problemas de integridad de datos en los objetos visuales del informe como BLANCOS. (Puede ver un ejemplo de una agrupación EN BLANCO en el primer objeto visual de la tabla presentado en este artículo).
+Si todavía decide definir relaciones uno a uno intraisla en su modelo, cuando sea posible, asegúrese de que haya filas coincidentes en las tablas relacionadas. Dado que una relación uno a uno intraisla se evalúa como una [relación sólida](../transform-model/desktop-relationships-understand.md#strong-relationships), podrían surgir problemas de integridad de datos en los objetos visuales del informe como BLANCOS. (Puede ver un ejemplo de una agrupación EN BLANCO en el primer objeto visual de la tabla presentado en este artículo).
 
 ### <a name="inter-island-one-to-one-relationship"></a>Relación uno a uno entre islas
 
-Cuando existe una relación uno a uno _entre islas_ entre las tablas, no hay un diseño de modelo alternativo, a menos que consolide previamente los datos en los orígenes de datos. Power BI evaluará la relación del modelo uno a uno como una [relación débil](../desktop-relationships-understand.md#weak-relationships). Por lo tanto, asegúrese de que haya filas coincidentes en las tablas relacionadas, ya que las filas no coincidentes se eliminarán de los resultados de la consulta.
+Cuando existe una relación uno a uno _entre islas_ entre las tablas, no hay un diseño de modelo alternativo, a menos que consolide previamente los datos en los orígenes de datos. Power BI evaluará la relación del modelo uno a uno como una [relación débil](../transform-model/desktop-relationships-understand.md#weak-relationships). Por lo tanto, asegúrese de que haya filas coincidentes en las tablas relacionadas, ya que las filas no coincidentes se eliminarán de los resultados de la consulta.
 
 Veamos qué sucede cuando los campos de ambas tablas se agregan a una tabla visual, y existe una relación débil entre las tablas.
 
@@ -147,7 +147,7 @@ La tabla solo muestra dos filas. El producto SKU CL-02 no está porque no hay un
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
-- [Relaciones de modelos en Power BI Desktop](../desktop-relationships-understand.md)
+- [Relaciones de modelos en Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Descripción de un esquema de estrella e importancia para Power BI](star-schema.md)
 - [Instrucciones para solución de problemas de relaciones](relationships-troubleshoot.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

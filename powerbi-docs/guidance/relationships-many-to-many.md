@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260468"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278339"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Instrucciones para relaciones de varios a varios
 
@@ -161,7 +161,7 @@ El objeto visual presenta un resultado exacto. Pero la utilidad del modelo es li
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Instrucciones para la relación de hechos varios a varios
 
-Por lo general, no se recomienda relacionar directamente dos tablas de tipo de hechos mediante la cardinalidad de varios a varios. La razón principal es que el modelo no proporcionará flexibilidad a los objetos visuales de informe para filtrar o agrupar. En el ejemplo, solo es posible que los objetos visuales filtren o agrupen por la columna **OrderID** de la tabla **Order**. Un motivo adicional está relacionado con la calidad de los datos. Si los datos tienen problemas de integridad, es posible que algunas filas se omitan durante las consultas debido a la naturaleza de la _relación débil_. Para más información, consulte [Creación de relaciones de modelos en Power BI Desktop (Evaluación de las relaciones)](../desktop-relationships-understand.md#relationship-evaluation).
+Por lo general, no se recomienda relacionar directamente dos tablas de tipo de hechos mediante la cardinalidad de varios a varios. La razón principal es que el modelo no proporcionará flexibilidad a los objetos visuales de informe para filtrar o agrupar. En el ejemplo, solo es posible que los objetos visuales filtren o agrupen por la columna **OrderID** de la tabla **Order**. Un motivo adicional está relacionado con la calidad de los datos. Si los datos tienen problemas de integridad, es posible que algunas filas se omitan durante las consultas debido a la naturaleza de la _relación débil_. Para más información, consulte [Creación de relaciones de modelos en Power BI Desktop (Evaluación de las relaciones)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 En lugar de relacionar directamente tablas de tipos de hechos, se recomienda adoptar principios de diseño de [esquema de estrella](star-schema.md). Para ello, agregue tablas de tipo de dimensión. Las tablas de tipo de dimensión se relacionan con las tablas de tipo de hechos mediante relaciones de uno a varios. Este enfoque de diseño es robusto, ya que ofrece opciones de informe flexibles. Permite filtrar o agrupar con cualquiera de las columnas de tipo de dimensión y resumir cualquier tabla de tipo de hechos relacionada.
 
@@ -184,7 +184,7 @@ Dedicar tiempo a aplicar los principios de diseño de esquema de estrella ofrece
 - Los objetos visuales del informe pueden _filtrar o agrupar_ por cualquier columna visible de las tablas de tipo de dimensión.
 - Los objetos visuales del informe pueden _resumir_ por cualquier columna visible de las tablas de tipo de hechos.
 - Los filtros aplicados a las tablas **OrderLine**, **OrderDate** o **Product** se propagarán a ambas tablas de tipo de hechos.
-- Todas las relaciones son de uno a varios, y cada una es una _relación sólida_. Los problemas de integridad de los datos no se enmascaran. Para más información, consulte [Creación de relaciones de modelos en Power BI Desktop (Evaluación de las relaciones)](../desktop-relationships-understand.md#relationship-evaluation).
+- Todas las relaciones son de uno a varios, y cada una es una _relación sólida_. Los problemas de integridad de los datos no se enmascaran. Para más información, consulte [Creación de relaciones de modelos en Power BI Desktop (Evaluación de las relaciones)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ## <a name="relate-higher-grain-facts"></a>Relación de hechos con un nivel de detalle más alto
 
@@ -209,7 +209,7 @@ Una relación entre las tablas **Date** y **Target** debe ser de uno a varios. S
 
 Pero debe tener cuidado para asegurarse de que los filtros de nivel de mes o de fecha producen un resultado significativo. Sin una lógica de cálculo especial, los objetos visuales de informe pueden notificar que las fechas de destino son literalmente el primer día de cada año. Todos los demás días (y todos los meses excepto enero) resumirán la cantidad de destino como en blanco.
 
-En el siguiente objeto visual de matriz se muestra lo que sucede cuando el usuario del informe profundiza en los meses de un año. El objeto visual resume la columna **TargetQuantity**. (La opción [Mostrar elementos sin datos](../desktop-show-items-no-data.md) se ha habilitado para las filas de la matriz).
+En el siguiente objeto visual de matriz se muestra lo que sucede cuando el usuario del informe profundiza en los meses de un año. El objeto visual resume la columna **TargetQuantity**. (La opción [Mostrar elementos sin datos](../create-reports/desktop-show-items-no-data.md) se ha habilitado para las filas de la matriz).
 
 ![Un objeto visual de matriz muestra la cantidad de destino del año 2020 como 270. Cuando se expande para mostrar los meses de 2020, enero es 270 y todas las demás cantidades de destino de nivel mensual están en blanco.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
@@ -295,7 +295,7 @@ Si necesita relacionar una tabla de tipo de dimensión con una de tipo de hechos
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
-- [Relaciones de modelos en Power BI Desktop](../desktop-relationships-understand.md)
+- [Relaciones de modelos en Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Descripción de un esquema de estrella e importancia para Power BI](star-schema.md)
 - [Instrucciones para solución de problemas de relaciones](relationships-troubleshoot.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

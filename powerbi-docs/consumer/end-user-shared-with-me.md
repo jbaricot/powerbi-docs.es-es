@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e54fbf7c521d057b6cc9fe1dde6c66358a9c349d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80302489"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277534"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Mostrar los paneles y los informes que se han compartido conmigo
 
@@ -26,7 +26,7 @@ Cuando algún compañero comparta contenido con usted con el botón **Compartir*
 
 ![Icono de uso compartido](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Amanda explica la lista de contenido **Compartido conmigo** y muestra cómo navegar y filtrar la lista. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo. Para poder ver paneles que hayan compartido con usted, debe tener una licencia de Power BI Pro. Para más información, lea [What is Power BI Premium?](../service-premium-what-is.md) (¿Qué es Power BI Premium?)
+Amanda explica la lista de contenido **Compartido conmigo** y muestra cómo navegar y filtrar la lista. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo. Para poder ver paneles que hayan compartido con usted, debe tener una licencia de Power BI Pro. Para más información, lea [What is Power BI Premium?](../admin/service-premium-what-is.md) (¿Qué es Power BI Premium?)
     
 
 > [!NOTE]
@@ -50,7 +50,7 @@ Las acciones disponibles dependerán de la configuración que asigna el *diseña
 * [Ver información](end-user-insights.md) que Power BI encuentra en el ![icono de información](./media/end-user-shared-with-me/power-bi-insights.png) de datos.
   
   > [!NOTE]
-  > Para obtener información sobre las clasificaciones de EGRC, seleccione el botón de **Clasificación** o [visite la Clasificación de datos del panel](../service-data-classification.md).
+  > Para obtener información sobre las clasificaciones de EGRC, seleccione el botón de **Clasificación** o [visite la Clasificación de datos del panel](../create-reports/service-data-classification.md).
   > 
 
 

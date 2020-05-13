@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a1d0abc065380a30b1868710bea31d0bf1fa89f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 110aadce6bafd61b3c8b60a7370cedecf0d27ae0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82066159"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278109"
 ---
 # <a name="tips-to-manage-axes-in-power-bi-reports"></a>Sugerencias para administrar los ejes en informes de Power BI
 
@@ -41,7 +41,8 @@ En resumen, las ocho mejores sugerencias para administrar de forma eficaz los ej
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
-- [Sugerencias para crear informes impactantes](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Sugerencias para crear informes impactantes](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - Vídeo de biDezine: [Las ocho mejores sugerencias para administrar de forma eficaz los ejes en Power BI](https://www.youtube.com/watch?v=3t9W7Xvpzo0)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com)
+

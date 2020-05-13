@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/28/2020
-ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692888"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279167"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Orígenes de datos admitidos para informes paginados de Power BI
 
@@ -38,7 +38,7 @@ Para los orígenes de datos de Azure SQL Database, debe proporcionar más inform
 
 ## <a name="other-data-sources"></a>Otros orígenes de datos
 
-Además de los orígenes de datos anteriores admitidos de forma nativa, se puede acceder a los siguientes a través de una [puerta de enlace de datos de Power BI](../service-gateway-onprem.md):
+Además de los orígenes de datos anteriores admitidos de forma nativa, se puede acceder a los siguientes a través de una [puerta de enlace de datos de Power BI](../connect-data/service-gateway-onprem.md):
 
 - SQL Server
 - SQL Server Analysis Services
@@ -74,3 +74,4 @@ Para que SSO y OAuth2 funcionen correctamente, el servidor de Azure SQL Database
 [Visualización de un informe paginado en el servicio Power BI](../consumer/paginated-reports-view-power-bi-service.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
+

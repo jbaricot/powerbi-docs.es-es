@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584927"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277902"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>Ejemplo de seguimiento de la COVID-19 para gobiernos locales y estatales de EE. UU.
 
@@ -48,7 +48,7 @@ Para incluir el gráfico interactivo en el sitio, copie y pegue el siguiente có
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-El código para insertar es un elemento iFrame de HTML que puede insertar en cualquier página HTML. Ajuste el ancho y el alto del iFrame proporcionado para que quepa en el sitio. El informe de ejemplo se ha creado en la proporción 16:9, por lo que debe elegir un tamaño que conserve esta dimensión. Cuando se implementa correctamente, el gráfico aparece sin ningún borde gris adicional. Resulta útil [revisar las sugerencias y trucos para el tamaño de iFrame](../service-publish-to-web.md#tips-for-iframe-height-and-width) al realizar estos cambios.
+El código para insertar es un elemento iFrame de HTML que puede insertar en cualquier página HTML. Ajuste el ancho y el alto del iFrame proporcionado para que quepa en el sitio. El informe de ejemplo se ha creado en la proporción 16:9, por lo que debe elegir un tamaño que conserve esta dimensión. Cuando se implementa correctamente, el gráfico aparece sin ningún borde gris adicional. Resulta útil [revisar las sugerencias y trucos para el tamaño de iFrame](../collaborate-share/service-publish-to-web.md#tips-for-iframe-height-and-width) al realizar estos cambios.
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>Opción 2: Personalizar el archivo de Power BI de ejemplo
 
@@ -93,18 +93,18 @@ Para empezar, [descargue el archivo .pbix (aquí)](https://go.microsoft.com/fwli
 
 ### <a name="publish-your-report-to-the-power-bi-service"></a>Publicación del informe en el servicio Power BI
 
-Una vez que haya personalizado el informe a su gusto, [siga los pasos que se describen aquí para publicarlo](../desktop-upload-desktop-files.md) en el servicio Power BI.
+Una vez que haya personalizado el informe a su gusto, [siga los pasos que se describen aquí para publicarlo](../create-reports/desktop-upload-desktop-files.md) en el servicio Power BI.
 
 ### <a name="configure-scheduled-refresh"></a>Configuración de actualización programada
 
-Para mantener actualizados los datos del informe, puede [configurar la actualización programada](../refresh-scheduled-refresh.md) después de publicar el informe.
+Para mantener actualizados los datos del informe, puede [configurar la actualización programada](../connect-data/refresh-scheduled-refresh.md) después de publicar el informe.
 
 Cuando siga los pasos, elija las opciones siguientes:
 
 1. Método de autenticación de credenciales de origen de datos: Anónimo
 2. Nivel de privacidad para este origen de datos: Público
 
-Para probar la configuración de la actualización, seleccione la opción [Actualizar ahora](../refresh-data.md#data-refresh), disponible en el elemento del conjunto de datos.
+Para probar la configuración de la actualización, seleccione la opción [Actualizar ahora](../connect-data/refresh-data.md#data-refresh), disponible en el elemento del conjunto de datos.
 
 Los datos actualizados se cargan cada vez que se ejecuta la programación. Los datos subyacentes los proporciona USAFacts y puede que no se actualicen con tanta frecuencia como la programación de la actualización. Consulte el [sitio web de USAFacts](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/) para saber cuándo se actualizaron por última vez los datos subyacentes. 
 
@@ -112,7 +112,7 @@ Si tiene previsto publicar el informe personalizado en su sitio web, es mejor co
 
 ### <a name="create-a-publish-to-web-embed-code"></a>Creación de un código para insertar de Publicar en Web 
 
-Para insertar el informe personalizado en su propio sitio web, siga las instrucciones para [crear su propio código para insertar de Publicar en Web](../service-publish-to-web.md#create-embed-codes-with-publish-to-web).
+Para insertar el informe personalizado en su propio sitio web, siga las instrucciones para [crear su propio código para insertar de Publicar en Web](../collaborate-share/service-publish-to-web.md#create-embed-codes-with-publish-to-web).
 
 Una vez que publique el código para insertar, use el iFrame del cuadro de diálogo de confirmación para insertarlo en el sitio web.
 
@@ -143,7 +143,7 @@ También puede combinar los datos de este informe con datos de otro origen. El e
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-load-data.png" alt-text="Carga de datos desde la Web":::
 
-    En el artículo [Conexión a páginas web desde Power BI Desktop](../desktop-connect-to-web.md) se proporciona más información acerca de la carga de datos desde la Web.
+    En el artículo [Conexión a páginas web desde Power BI Desktop](../connect-data/desktop-connect-to-web.md) se proporciona más información acerca de la carga de datos desde la Web.
     
 A continuación, puede usar Power BI Desktop para visualizar los datos. Por último, siga los pasos descritos en la **Opción 2:** [Publicación del informe en el servicio Power BI](#publish-your-report-to-the-power-bi-service) para publicar el informe y crear un código para insertar personalizado. 
 
@@ -168,4 +168,8 @@ Los datos de la Universidad Johns Hopkins están protegidos con el copyright 202
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Obtención de ejemplos para Power BI](../sample-datasets.md)
+[Obtención de ejemplos para Power BI](../create-reports/sample-datasets.md)
+
+
+
+

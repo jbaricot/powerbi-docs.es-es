@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6af8568dc39544ce064643c8dfb80fa2932cf13a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82149679"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279236"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Conexión con el panel de respuesta ante emergencias regionales
 El panel de respuesta ante emergencias regionales es el componente de informes de la [solución de respuesta ante emergencias regionales de Microsoft Power Platform](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview). Los administradores de la organización regional pueden visualizar el panel en su inquilino de Power BI, lo que les permite ver rápidamente datos y métricas importantes que les ayudarán a tomar decisiones eficaces.
@@ -82,21 +82,21 @@ Al instalar la solución de respuesta ante emergencias regionales, tome nota de 
 
 ## <a name="schedule-report-refresh"></a>Programación de la actualización del informe
 
-Cuando se haya completado la actualización de los datos, [configure una programación de actualización](../refresh-scheduled-refresh.md) para mantener actualizados los datos del informe.
+Cuando se haya completado la actualización de los datos, [configure una programación de actualización](../connect-data/refresh-scheduled-refresh.md) para mantener actualizados los datos del informe.
 
 1. En la barra de encabezado superior, seleccione **Power BI**.
 
    ![Ruta de navegación de Power BI](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-powerbi-breadcrumb.png)
 
-1. En el panel de navegación izquierdo, busque el área de trabajo del panel de respuesta ante emergencias regionales en **Áreas de trabajo** y siga las instrucciones descritas en el artículo [Configuración de la actualización programada](../refresh-scheduled-refresh.md).
+1. En el panel de navegación izquierdo, busque el área de trabajo del panel de respuesta ante emergencias regionales en **Áreas de trabajo** y siga las instrucciones descritas en el artículo [Configuración de la actualización programada](../connect-data/refresh-scheduled-refresh.md).
 
 ## <a name="customize-and-share"></a>Personalizar y compartir
 
-Vea [Personalización y uso compartido de la aplicación](../service-template-apps-install-distribute.md#customize-and-share-the-app) para obtener detalles. Asegúrese de revisar las [declinaciones de responsabilidades del informe](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) antes de publicar o distribuir la aplicación.
+Vea [Personalización y uso compartido de la aplicación](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) para obtener detalles. Asegúrese de revisar las [declinaciones de responsabilidades del informe](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) antes de publicar o distribuir la aplicación.
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Descripción del panel de respuesta ante emergencias regionales](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
 * [Configuración e información sobre la plantilla de ejemplo de Comunicación de crisis en Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-* [¿Qué son las aplicaciones de plantilla de Power BI?](../service-template-apps-overview.md)
-* [Instalación y distribución de aplicaciones de plantilla en la organización](../service-template-apps-install-distribute.md)
+* [¿Qué son las aplicaciones de plantilla de Power BI?](../connect-data/service-template-apps-overview.md)
+* [Instalación y distribución de aplicaciones de plantilla en la organización](../connect-data/service-template-apps-install-distribute.md)

@@ -4,22 +4,24 @@ description: Introducción a las visualizaciones de informes (objetos visuales) 
 author: mihart
 ms.author: mihart
 ms.reviewer: ''
-featuredvideoid: SYk_gWrtKvM
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 65a6ab132cccc56d96f5ac22fef5d80f59f96ca9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381477"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277557"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizaciones en informes de Power BI
 
-Las visualizaciones (también conocidas como objetos visuales) muestran conclusiones que se han descubierto en los datos. Un informe de Power BI puede tener una sola página con un objeto visual o podría tener páginas enteras de objetos visuales. En el servicio Power BI, los objetos visuales se pueden [anclar desde los informes a los paneles](../service-dashboard-pin-tile-from-report.md).
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
+
+Las visualizaciones (también conocidas como objetos visuales) muestran conclusiones que se han descubierto en los datos. Un informe de Power BI puede tener una sola página con un objeto visual o podría tener páginas enteras de objetos visuales. En el servicio Power BI, los objetos visuales se pueden [anclar desde los informes a los paneles](../create-reports/service-dashboard-pin-tile-from-report.md).
 
 Es importante distinguir entre *diseñadores* de informes y *consumidores* de informes.  Si es la persona que crea o modifica el informe, es un diseñador.  Los diseñadores tienen permisos de edición en el informe y el conjunto de datos subyacente. En Power BI Desktop, esto significa que puede abrir el conjunto de datos en la vista de datos y crear objetos visuales en la vista de informe. En el servicio Power BI, esto significa que puede abrir el conjunto de datos o el informe en el editor de informes en la [vista de edición](../consumer/end-user-reading-view.md). Si un informe o un panel se ha [compartido con usted](../consumer/end-user-shared-with-me.md), será un *consumidor* del informe. No solo podrá ver el informe y sus objetos visuales, sino también interactuar con ellos, pero no podrá realizar tantos cambios como un *diseñador*.
 
@@ -28,9 +30,6 @@ Existen muchos tipos diferentes de objetos visuales disponibles directamente des
 ![panel con iconos para cada tipo de visualización](media/power-bi-report-visualizations/power-bi-icons.png)
 
 Asimismo, para obtener incluso más opciones, visite el [sitio de la comunidad de Microsoft AppSource](https://appsource.microsoft.com) para buscar y [descargar](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [objetos visuales de Power BI](../developer/visuals/custom-visual-develop-tutorial.md) proporcionados por Microsoft y la comunidad.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
-
 
 Si no está familiarizado con Power BI o necesita ponerse al día, use los vínculos siguientes para aprender los conceptos básicos de las visualizaciones de Power BI.  También puede usar la tabla de contenido (en el lado izquierdo de este artículo) para buscar información todavía más útil.
 
@@ -60,7 +59,7 @@ Intente [cambiar el tipo de visualización](power-bi-report-change-visualization
 
 ## <a name="pin-the-visualization"></a>Anclar la visualización
 
-En el servicio Power BI, cuando tenga la visualización que desea, puede [anclarla a un panel](../service-dashboard-pin-tile-from-report.md) como un icono. Si cambia la visualización que se usa en el informe después de anclarlo, el icono del panel no cambia: si era un gráfico de líneas, se mantiene como un gráfico de líneas, incluso si se cambia a un gráfico de anillos en el informe.
+En el servicio Power BI, cuando tenga la visualización que desea, puede [anclarla a un panel](../create-reports/service-dashboard-pin-tile-from-report.md) como un icono. Si cambia la visualización que se usa en el informe después de anclarlo, el icono del panel no cambia: si era un gráfico de líneas, se mantiene como un gráfico de líneas, incluso si se cambia a un gráfico de anillos en el informe.
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 - En función del origen de datos y el número de campos (medidas o columnas), puede que un objeto visual cargue lentamente.  Se recomienda limitar los objetos visuales a 10-20 campos de totales, tanto por motivos de legibilidad como de rendimiento. 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f71eab47aba9621805891b10874ea9e501ed0bf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496291"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277925"
 ---
 # <a name="view-a-dashboard"></a>Visualización de un panel
 
@@ -49,10 +49,10 @@ Puede encontrar paneles en todos los contenedores del panel de navegación.
 - **Recientes**: si ha visitado recientemente un panel
 - **Aplicaciones**: la mayoría de aplicaciones contienen paneles e informes
 - **Compartido conmigo** : si un compañero ha [compartido un panel con usted](end-user-shared-with-me.md)
-- **Mi área de trabajo**: si ha descargado alguno de los [ejemplos de Power BI](../sample-datasets.md)
+- **Mi área de trabajo**: si ha descargado alguno de los [ejemplos de Power BI](../create-reports/sample-datasets.md)
 
 
 
 ## <a name="next-steps"></a>Pasos siguientes
-* Familiarícese con los paneles viendo uno de nuestros [paneles de ejemplo](../sample-tutorial-connect-to-the-samples.md).    
+* Familiarícese con los paneles viendo uno de nuestros [paneles de ejemplo](../create-reports/sample-tutorial-connect-to-the-samples.md).    
 * Obtenga información acerca de los [iconos de panel](end-user-tiles.md) y lo que ocurre al seleccionar uno.

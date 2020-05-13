@@ -9,16 +9,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525546"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279029"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Supervisión del rendimiento de los informes en Power BI
 
-Supervise el rendimiento de los informes en Power BI Desktop mediante la [aplicación Métricas de Power BI Premium](../service-premium-metrics-app.md), aprenda dónde están los cuellos de botella y obtenga información sobre cómo puede mejorar el rendimiento de los informes.
+Supervise el rendimiento de los informes en Power BI Desktop mediante la [aplicación Métricas de Power BI Premium](../admin/service-premium-metrics-app.md), aprenda dónde están los cuellos de botella y obtenga información sobre cómo puede mejorar el rendimiento de los informes.
 
 La supervisión del rendimiento es importante en las siguientes situaciones:
 
@@ -39,7 +39,7 @@ Use [Diagnóstico de consulta](/power-query/QueryDiagnostics) en Power BI Deskto
 
 ## <a name="use-performance-analyzer"></a>Uso del Analizador de rendimiento
 
-Use el [Analizador de rendimiento](../desktop-performance-analyzer.md) en Power BI Desktop para saber el comportamiento de cada uno de los elementos de informe, como los objetos visuales y las fórmulas DAX. Es especialmente útil para determinar si la representación de las consultas o de los objetos visuales contribuye a los problemas de rendimiento.
+Use el [Analizador de rendimiento](../create-reports/desktop-performance-analyzer.md) en Power BI Desktop para saber el comportamiento de cada uno de los elementos de informe, como los objetos visuales y las fórmulas DAX. Es especialmente útil para determinar si la representación de las consultas o de los objetos visuales contribuye a los problemas de rendimiento.
 
 ## <a name="use-sql-server-profiler"></a>Uso de SQL Server Profiler
 
@@ -77,15 +77,15 @@ Una ventaja de utilizar SQL Server Profiler es que es posible guardar un seguimi
 
 ## <a name="monitor-premium-metrics"></a>Supervisión de métricas en Premium
 
-Para las capacidades de Power BI Premium, use la **aplicación Métricas de Power BI Premium** para supervisar el estado y la capacidad de su suscripción a Power BI Premium. Para más información, vea [Aplicación Métricas de Power BI Premium](../service-premium-metrics-app.md).
+Para las capacidades de Power BI Premium, use la **aplicación Métricas de Power BI Premium** para supervisar el estado y la capacidad de su suscripción a Power BI Premium. Para más información, vea [Aplicación Métricas de Power BI Premium](../admin/service-premium-metrics-app.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 Para más información sobre este artículo, consulte los recursos siguientes:
 
 - [Diagnóstico de consulta](/power-query/QueryDiagnostics)
-- [Analizador de rendimiento](../desktop-performance-analyzer.md)
+- [Analizador de rendimiento](../create-reports/desktop-performance-analyzer.md)
 - [Solución de problemas de rendimiento de los informes en Power BI](report-performance-troubleshoot.md)
-- [Aplicación Métricas de Power BI Premium](../service-premium-metrics-app.md)
+- [Aplicación Métricas de Power BI Premium](../admin/service-premium-metrics-app.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)

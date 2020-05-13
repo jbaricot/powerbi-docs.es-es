@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 853f6d7f5cd6696be55edeea101bc0ca51922ad3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290599"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278086"
 ---
 # <a name="use-report-page-drillthrough"></a>Uso de detalles de la página del informe
 
-Este artículo está dirigido a usted como autor de informes que diseña informes de Power BI. Proporciona sugerencias y recomendaciones a la hora de crear una [obtención de detalles de páginas de informes](../desktop-drillthrough.md).
+Este artículo está dirigido a usted como autor de informes que diseña informes de Power BI. Proporciona sugerencias y recomendaciones a la hora de crear una [obtención de detalles de páginas de informes](../create-reports/desktop-drillthrough.md).
 
 Se recomienda diseñar el informe para que los usuarios de los informes puedan tener el siguiente flujo:
 
@@ -58,8 +58,8 @@ En el momento del diseño del informe, se recomienda aplicar las siguientes prá
 - **Filtros de obtención de detalles:** Establezca filtros de obtención de detalles para poder obtener una vista previa de un resultado realista al diseñar la página de obtención de detalles. Asegúrese de quitar estos filtros antes de publicar el informe.
 - **Capacidades adicionales:** Una página de obtención de detalles es como cualquier página de informe. Incluso puede mejorarla con más capacidades interactivas, como las segmentaciones o los filtros.
 - **Espacios en blanco:** Evite agregar objetos visuales que puedan mostrar valores en blanco o generar errores al aplicar filtros de obtención de detalles.
-- **Visibilidad de la página:** Considere la posibilidad de ocultar las páginas de obtención de detalles. Si decide mantener visible una página de obtención de detalles, no olvide agregar un botón que permita a los usuarios borrar todos los filtros de obtención de detalles establecidos previamente. Asigne un [marcador](../desktop-bookmarks.md) al botón. El marcador se debe configurar para quitar todos los filtros.
-- **Botón Atrás:** Al asignar un filtro de obtención de detalles, se agrega automáticamente un botón [Atrás](../desktop-buttons.md). Es buena idea conservarlo. De esta forma, los usuarios del informe podrán volver fácilmente a la página de origen.
+- **Visibilidad de la página:** Considere la posibilidad de ocultar las páginas de obtención de detalles. Si decide mantener visible una página de obtención de detalles, no olvide agregar un botón que permita a los usuarios borrar todos los filtros de obtención de detalles establecidos previamente. Asigne un [marcador](../create-reports/desktop-bookmarks.md) al botón. El marcador se debe configurar para quitar todos los filtros.
+- **Botón Atrás:** Al asignar un filtro de obtención de detalles, se agrega automáticamente un botón [Atrás](../create-reports/desktop-buttons.md). Es buena idea conservarlo. De esta forma, los usuarios del informe podrán volver fácilmente a la página de origen.
 - **Detección:** Ayude a promover la conciencia de una página de obtención de detalles estableciendo un texto de icono del encabezado visual o agregando instrucciones a un cuadro de texto. También puede diseñar una superposición, como se describe en [esta entrada de blog](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/).
 
 > [!TIP]
@@ -69,6 +69,6 @@ En el momento del diseño del informe, se recomienda aplicar las siguientes prá
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
-- [Uso de la obtención de detalles en Power BI Desktop](../desktop-drillthrough.md)
+- [Uso de la obtención de detalles en Power BI Desktop](../create-reports/desktop-drillthrough.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)

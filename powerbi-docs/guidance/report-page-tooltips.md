@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377751"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277856"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Extensión de objetos visuales con la información en pantalla de la página del informe
 
-Este artículo está dirigido a usted como autor de informes que diseña informes de Power BI. Proporciona sugerencias y recomendaciones a la hora de crear [información sobre herramientas de páginas de informes](../desktop-tooltips.md).
+Este artículo está dirigido a usted como autor de informes que diseña informes de Power BI. Proporciona sugerencias y recomendaciones a la hora de crear [información sobre herramientas de páginas de informes](../create-reports/desktop-tooltips.md).
 
 ## <a name="suggestions"></a>Sugerencias
 
@@ -29,7 +29,7 @@ La información sobre herramientas de páginas de informes puede mejorar la expe
 > [!NOTE]
 > Un objeto visual de informe solo puede mostrar cierta información sobre herramientas de página si los filtros de página de información sobre herramientas son compatibles con el diseño del objeto visual. Por ejemplo, un objeto visual que agrupa por _producto_ será compatible con una página de información sobre herramientas que filtre por _producto_.
 >
-> La información sobre herramientas de página no admite la interactividad. Si quiere que los usuarios de los informes interactúen, deberá crear una [página de obtención de detalles](../desktop-drillthrough.md).
+> La información sobre herramientas de página no admite la interactividad. Si quiere que los usuarios de los informes interactúen, deberá crear una [página de obtención de detalles](../create-reports/desktop-drillthrough.md).
 >
 > Los objetos visuales de Power BI no admiten la información sobre herramientas de página.
 
@@ -65,7 +65,7 @@ Los encabezados visuales se pueden configurar para mostrar la información sobre
 
 Curiosamente, los botones, imágenes, cuadros de texto y formas también pueden mostrar información sobre herramientas de página de un encabezado visual.
 
-En el ejemplo siguiente se muestra lo que sucede cuando el usuario de un informe mantiene el cursor sobre el [icono de encabezado visual](../desktop-visual-elements-for-reports.md).
+En el ejemplo siguiente se muestra lo que sucede cuando el usuario de un informe mantiene el cursor sobre el [icono de encabezado visual](../create-reports/desktop-visual-elements-for-reports.md).
 
 ![Un usuario de un informe ha situado el cursor sobre el icono de encabezado visual (icono de signo de interrogación). Ha aparecido información sobre herramientas con formato enriquecido.](media/report-page-tooltips/suggestion-add-help.png)
 
@@ -85,8 +85,8 @@ En el momento del diseño del informe, se recomienda aplicar las siguientes prá
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
-- [Creación de información sobre herramientas basada en páginas de informes en Power BI Desktop](../desktop-tooltips.md)
-- [Personalización de la información sobre herramientas en Power BI Desktop](../desktop-custom-tooltips.md)
-- [Uso de elementos visuales para mejorar los informes de Power BI](../desktop-visual-elements-for-reports.md)
+- [Creación de información sobre herramientas basada en páginas de informes en Power BI Desktop](../create-reports/desktop-tooltips.md)
+- [Personalización de la información sobre herramientas en Power BI Desktop](../create-reports/desktop-custom-tooltips.md)
+- [Uso de elementos visuales para mejorar los informes de Power BI](../create-reports/desktop-visual-elements-for-reports.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)
