@@ -12,60 +12,60 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 02/25/2020
-  ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: b1f5d2842bb65710cda9e83dc821b7a60117f756
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "78924147"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83273877"
 landingContent:
 - title: Conectarse a los datos en Power BI
   linkLists:
   - linkListType: concept
     links:
     - text: Orígenes de datos
-      url: ../desktop-data-sources.md
+      url: desktop-data-sources.md
     - text: Vista de datos en Power BI Desktop
-      url: ../desktop-data-view.md
+      url: desktop-data-view.md
   - linkListType: tutorial
     links:
     - text: Importación de datos de una página web
-      url: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+      url: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
 - title: Puertas de enlace
   linkLists:
   - linkListType: concept
     links:
     - text: Puertas de enlace de datos locales
-      url: ../service-gateway-onprem.md
+      url: service-gateway-onprem.md
   - linkListType: tutorial
     links:
     - text: Conexión a datos locales de SQL Server
-      url: ../service-gateway-sql-tutorial.md
+      url: service-gateway-sql-tutorial.md
   - linkListType: how-to-guide
     links:
     - text: Uso de puertas de enlace personales
-      url: ../service-gateway-personal-mode.md
+      url: service-gateway-personal-mode.md
 - title: Aplicaciones plantilla
   linkLists:
   - linkListType: overview
     links:
     - text: ¿Qué son las aplicaciones de plantilla?
-      url: ../service-template-apps-overview.md
+      url: service-template-apps-overview.md
   - linkListType: concept
     links:
     - text: Creación de aplicaciones plantilla
-      url: ../service-template-apps-create.md
+      url: service-template-apps-create.md
     - text: Distribución de aplicaciones de plantilla en la organización
-      url: ../service-template-apps-install-distribute.md
-- title: Actualización de datos
+      url: service-template-apps-install-distribute.md
+- title: Actualizar datos
   linkLists:
   - linkListType: concept
     links:
     - text: Actualización de datos
-      url: ../refresh-data.md
+      url: refresh-data.md
     - text: Actualizaciones incrementales en Power BI Premium
-      url: ../service-premium-incremental-refresh.md
+      url: ../admin/service-premium-incremental-refresh.md
   - linkListType: how-to-guide
     links:
-    - text: Configuración de la actualización programada
-      url: ../refresh-scheduled-refresh.md
+    - text: Configuración de actualización programada
+      url: refresh-scheduled-refresh.md

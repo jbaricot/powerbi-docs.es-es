@@ -21,7 +21,7 @@
             - name: Deshabilitación de la actualización en segundo plano de Power Query
               href: power-query-background-refresh.md
             - name: Prácticas recomendadas para flujos de datos
-              href: ../service-dataflows-best-practices.md
+              href: ../transform-model/service-dataflows-best-practices.md
         - name: Modelado de datos
           items:
             - name: ¿Qué es un esquema de estrella?
@@ -32,7 +32,7 @@
               href: auto-date-time.md
             - name: Relaciones uno a uno
               href: relationships-one-to-one.md
-            - name: Relaciones varios a varios
+            - name: Relaciones de varios a varios
               href: relationships-many-to-many.md
             - name: Relaciones activas frente a inactivas
               href: relationships-active-inactive.md

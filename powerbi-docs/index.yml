@@ -13,12 +13,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/31/2020
-  ms.openlocfilehash: 0ad39302737284ecbde50a8810b740d68706c809
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 57fd08720d908ac67e383b91239e44373b1e586f
+  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439403"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83348767"
 highlightedContent:
   items:
   - title: Creación de un informe de COVID-19 con datos de EE. UU.
@@ -26,24 +26,24 @@ highlightedContent:
     url: create-reports/sample-covid-19-us.md
   - title: Introducción a Power BI Desktop
     itemType: get-started
-    url: desktop-getting-started.md
+    url: fundamentals/desktop-getting-started.md
   - title: Suscribirse al servicio Power BI
     itemType: how-to-guide
-    url: service-self-service-signup-for-power-bi.md
+    url: fundamentals/service-self-service-signup-for-power-bi.md
   - title: Formas de colaboración y uso compartido
     itemType: concept
-    url: service-how-to-collaborate-distribute-dashboards-reports.md
+    url: collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md
 conceptualContent:
   items:
   - title: 'Power BI: Comenzar'
     links:
-    - url: power-bi-overview.md
+    - url: fundamentals/power-bi-overview.md
       itemType: overview
       text: ¿Qué es Power BI?
-    - url: desktop-what-is-desktop.md
+    - url: fundamentals/desktop-what-is-desktop.md
       itemType: overview
       text: ¿Qué es Power BI Desktop?
-    - url: power-bi-service-overview.md
+    - url: fundamentals/power-bi-service-overview.md
       itemType: overview
       text: ¿Qué es el servicio Power BI?
     footerLink:
@@ -65,13 +65,13 @@ conceptualContent:
       text: Ver más
   - title: Administrar Power BI
     links:
-    - url: service-admin-administering-power-bi-in-your-organization.md
+    - url: admin/service-admin-administering-power-bi-in-your-organization.md
       itemType: overview
       text: ¿Qué es la administración de Power BI?
-    - url: service-admin-licensing-organization.md
+    - url: admin/service-admin-licensing-organization.md
       itemType: concept
       text: Licencias en la organización
-    - url: service-admin-portal.md
+    - url: admin/service-admin-portal.md
       itemType: concept
       text: Portal de administración
     footerLink:
@@ -93,13 +93,13 @@ conceptualContent:
       text: Ver más
   - title: Conectar a datos
     links:
-    - url: desktop-quickstart-connect-to-data.md
+    - url: connect-data/desktop-quickstart-connect-to-data.md
       itemType: tutorial
       text: Conectar a datos
-    - url: service-gateway-onprem.md
+    - url: connect-data/service-gateway-onprem.md
       itemType: concept
       text: Puertas de enlace de datos locales
-    - url: refresh-data.md
+    - url: connect-data/refresh-data.md
       itemType: concept
       text: Actualización de datos
     footerLink:
@@ -107,13 +107,13 @@ conceptualContent:
       text: Ver más
   - title: Transformar y dar forma a los datos
     links:
-    - url: desktop-analytics-pane.md
+    - url: transform-model/desktop-analytics-pane.md
       itemType: how-to-guide
       text: Uso del panel Analytics
-    - url: desktop-common-query-tasks.md
+    - url: transform-model/desktop-common-query-tasks.md
       itemType: concept
       text: Tareas comunes relacionadas con las consultas
-    - url: desktop-shape-and-combine-data.md
+    - url: connect-data/desktop-shape-and-combine-data.md
       itemType: tutorial
       text: Dar forma a los datos y combinarlos
     footerLink:
@@ -121,13 +121,13 @@ conceptualContent:
       text: Ver más
   - title: Modelado de datos
     links:
-    - url: desktop-add-custom-column.md
+    - url: create-reports/desktop-add-custom-column.md
       itemType: how-to-guide
       text: Adición de una columna personalizada
-    - url: desktop-tutorial-create-calculated-columns.md
+    - url: transform-model/desktop-tutorial-create-calculated-columns.md
       itemType: tutorial
       text: Creación de columnas calculadas
-    - url: desktop-create-and-manage-relationships.md
+    - url: transform-model/desktop-create-and-manage-relationships.md
       itemType: how-to-guide
       text: Creación y administración de relaciones
     footerLink:
@@ -135,13 +135,13 @@ conceptualContent:
       text: Ver más
   - title: Creación de informes y paneles
     links:
-    - url: desktop-report-themes.md
+    - url: create-reports/desktop-report-themes.md
       itemType: concept
       text: Temas de informes
     - url: paginated-reports/paginated-reports-report-builder-power-bi.md
       itemType: concept
       text: ¿Qué son los informes paginados?
-    - url: service-dashboard-create.md
+    - url: create-reports/service-dashboard-create.md
       itemType: how-to-guide
       text: Crear un panel
     footerLink:
@@ -149,13 +149,13 @@ conceptualContent:
       text: Ver más
   - title: Colaborar y compartir
     links:
-    - url: service-share-dashboards.md
+    - url: collaborate-share/service-share-dashboards.md
       itemType: concept
       text: Compartir los paneles e informes
-    - url: service-create-the-new-workspaces.md
+    - url: collaborate-share/service-create-the-new-workspaces.md
       itemType: how-to-guide
       text: Creación de nuevas áreas de trabajo
-    - url: service-datasets-across-workspaces.md
+    - url: connect-data/service-datasets-across-workspaces.md
       itemType: concept
       text: Introducción a los conjuntos de datos compartidos
     footerLink:
@@ -163,13 +163,13 @@ conceptualContent:
       text: Ver más
   - title: Integración entre productos
     links:
-    - url: service-azure-and-power-bi.md
+    - url: connect-data/service-azure-and-power-bi.md
       itemType: concept
       text: Azure y Power BI
-    - url: service-analyze-in-excel.md
+    - url: collaborate-share/service-analyze-in-excel.md
       itemType: concept
       text: Analizar en Excel
-    - url: service-embed-report-spo.md
+    - url: collaborate-share/service-embed-report-spo.md
       itemType: concept
       text: Insertar en SharePoint Online
     footerLink:
@@ -191,10 +191,10 @@ conceptualContent:
       text: Ver más
   - title: Empresa
     links:
-    - url: service-premium-what-is.md
+    - url: admin/service-premium-what-is.md
       itemType: overview
       text: ¿Qué es Power BI Premium?
-    - url: service-admin-power-bi-security.md
+    - url: admin/service-admin-power-bi-security.md
       itemType: concept
       text: Seguridad
     - url: admin/service-security-data-protection-overview.md

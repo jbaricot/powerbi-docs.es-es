@@ -6,339 +6,339 @@
       expanded: true
       items:
         - name: "Orígenes de datos en Power\_BI"
-          href: ../service-get-data.md
+          href: service-get-data.md
         - name: ¿Qué es una puerta de enlace de datos local?
-          href: ../service-gateway-onprem.md
+          href: service-gateway-onprem.md
     - name: Inicios rápidos
       expanded: true
       items:
         - name: Conectarse a los datos en Power BI Desktop
-          href: ../desktop-quickstart-connect-to-data.md
+          href: desktop-quickstart-connect-to-data.md
     - name: Tutoriales
       items:
         - name: Uso compartido y combinación de varios orígenes de datos
-          href: ../desktop-shape-and-combine-data.md
+          href: desktop-shape-and-combine-data.md
         - name: Importación y análisis de datos de páginas web
-          href: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
         - name: Análisis de datos de ventas de Excel y una fuente de OData
-          href: ../desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
         - name: Análisis de datos de Facebook
-          href: ../desktop-tutorial-facebook-analytics.md
+          href: desktop-tutorial-facebook-analytics.md
         - name: Implementación de seguridad de nivel de fila en un modelo tabular de Analysis Services
-          href: ../desktop-tutorial-row-level-security-onprem-ssas-tabular.md
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Introducción a Power BI
-          href: ../service-get-started.md
+          href: ../fundamentals/service-get-started.md
         - name: Conexión a un ejemplo de GitHub
-          href: ../service-tutorial-connect-to-github.md
+          href: service-tutorial-connect-to-github.md
         - name: Uso de Analizar en Excel
-          href: ../service-tutorial-analyze-in-excel.md
+          href: ../collaborate-share/service-tutorial-analyze-in-excel.md
         - name: Uso de Cognitive Services
-          href: ../service-tutorial-use-cognitive-services.md
+          href: service-tutorial-use-cognitive-services.md
         - name: Integración de Machine Learning
-          href: ../service-tutorial-invoke-machine-learning-model.md
+          href: service-tutorial-invoke-machine-learning-model.md
         - name: Compilación de un modelo de Machine Learning
-          href: ../service-tutorial-build-machine-learning-model.md
+          href: service-tutorial-build-machine-learning-model.md
         - name: Actualización de los datos de SQL Server
-          href: ../service-gateway-sql-tutorial.md
+          href: service-gateway-sql-tutorial.md
     - name: Conceptos
       items:
         - name: Orígenes de datos de Power BI
-          href: ../power-bi-data-sources.md
+          href: power-bi-data-sources.md
         - name: Requisitos previos de los orígenes de datos de Power BI
-          href: ../desktop-data-source-prerequisites.md
+          href: desktop-data-source-prerequisites.md
         - name: Uso de metadatos de conjuntos de datos mejorados en Power BI Desktop (versión preliminar)
-          href: ../desktop-enhanced-dataset-metadata.md
+          href: desktop-enhanced-dataset-metadata.md
         - name: "Trabajo con modelos multidimensionales en Power\_BI"
-          href: ../desktop-default-member-multidimensional-models.md
+          href: desktop-default-member-multidimensional-models.md
         - name: "Acerca del uso de DirectQuery en Power\_BI"
-          href: ../desktop-directquery-about.md
+          href: desktop-directquery-about.md
         - name: Puertas de enlace
           items:
             - name: Instrucciones para implementar una puerta de enlace de datos
-              href: ../service-gateway-deployment-guidance.md
+              href: service-gateway-deployment-guidance.md
             - name: Preguntas más frecuentes sobre la puerta de enlace de datos local
-              href: ../service-gateway-power-bi-faq.md
+              href: service-gateway-power-bi-faq.md
     - name: Guías paso a paso
       items:
         - name: Conexión a orígenes de datos
-          href: ../desktop-connect-to-data.md
+          href: desktop-connect-to-data.md
         - name: Conectar a datos
           items:
             - name: Conexión a orígenes de datos
-              href: ../desktop-data-sources.md
+              href: desktop-data-sources.md
             - name: Creación de un informe en una lista de SharePoint
-              href: ../desktop-sharepoint-online-list.md
+              href: desktop-sharepoint-online-list.md
             - name: Conectar con LinkedIn Sales Navigator
-              href: ../desktop-connect-linkedin-sales-navigator.md
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: Obtención de datos de páginas web con ejemplos
-              href: ../desktop-connect-to-web-by-example.md
+              href: desktop-connect-to-web-by-example.md
             - name: Conexión a conjuntos de datos en el servicio Power BI
-              href: ../desktop-report-lifecycle-datasets.md
+              href: desktop-report-lifecycle-datasets.md
             - name: Importación de libros de Excel
-              href: ../desktop-import-excel-workbooks.md
+              href: desktop-import-excel-workbooks.md
             - name: "Conexión a datos con las interfaces genéricas de Power\_BI Desktop"
-              href: ../desktop-connect-using-generic-interfaces.md
+              href: desktop-connect-using-generic-interfaces.md
             - name: Conexión a archivos PDF
-              href: ../desktop-connect-pdf.md
+              href: desktop-connect-pdf.md
             - name: Conectarse a Adobe Analytics
-              href: ../desktop-connect-adobe-analytics.md
+              href: desktop-connect-adobe-analytics.md
             - name: Conectarse a una base de datos de Oracle
-              href: ../desktop-connect-oracle-database.md
+              href: desktop-connect-oracle-database.md
             - name: Python
               items:
                 - name: Ejecución de scripts de Python
-                  href: ../desktop-python-scripts.md
+                  href: desktop-python-scripts.md
                 - name: Uso de Python en el Editor de consultas
-                  href: ../desktop-python-in-query-editor.md
+                  href: desktop-python-in-query-editor.md
                 - name: Uso de un IDE externo de Python
-                  href: ../desktop-python-ide.md
+                  href: desktop-python-ide.md
                 - name: Creación de objetos visuales con Python
-                  href: ../desktop-python-visuals.md
+                  href: desktop-python-visuals.md
             - name: Ejecutar scripts de R
-              href: ../desktop-r-scripts.md
+              href: desktop-r-scripts.md
             - name: Uso de R en el Editor de consultas
-              href: ../desktop-r-in-query-editor.md
+              href: desktop-r-in-query-editor.md
             - name: Uso de un IDE externo de R
-              href: ../desktop-r-ide.md
+              href: desktop-r-ide.md
             - name: Creación de objetos visuales con paquetes de R
-              href: ../service-r-packages-support.md
+              href: service-r-packages-support.md
             - name: Especificar datos directamente en Power BI Desktop
-              href: ../desktop-enter-data-directly-into-desktop.md
+              href: desktop-enter-data-directly-into-desktop.md
             - name: Conexión a libros de Excel
-              href: ../desktop-connect-excel.md
+              href: desktop-connect-excel.md
             - name: Conexión a modelos SSAS multidimensionales
-              href: ../desktop-ssas-multidimensional.md
+              href: desktop-ssas-multidimensional.md
             - name: Conexión a archivos CSV
-              href: ../desktop-connect-csv.md
+              href: desktop-connect-csv.md
             - name: Conexión a una base de datos de Google BigQuery
-              href: ../desktop-connect-bigquery.md
+              href: desktop-connect-bigquery.md
             - name: Conectarse a una base de datos de Impala
-              href: ../desktop-connect-impala.md
+              href: desktop-connect-impala.md
             - name: Conexión a fuentes de OData
-              href: ../desktop-connect-odata.md
+              href: desktop-connect-odata.md
             - name: Conectarse a una base de datos de Amazon Redshift
-              href: ../desktop-connect-redshift.md
+              href: desktop-connect-redshift.md
             - name: Conexión a páginas web
-              href: ../desktop-connect-to-web.md
+              href: desktop-connect-to-web.md
             - name: Conectar a un almacén de Snowflake Computing
-              href: ../desktop-connect-snowflake.md
+              href: desktop-connect-snowflake.md
             - name: Creación de objetos visuales con el conector de Azure Cost Management
-              href: ../desktop-connect-azure-cost-management.md
+              href: desktop-connect-azure-cost-management.md
             - name: Conexión a los datos de Azure Consumption Insights
-              href: ../desktop-connect-azure-consumption-insights.md
+              href: desktop-connect-azure-consumption-insights.md
             - name: "Conexión a bases de datos SAP\_HANA"
-              href: ../desktop-sap-hana.md
+              href: desktop-sap-hana.md
             - name: "Habilitación del cifrado para SAP\_HANA"
-              href: ../desktop-sap-hana-encryption.md
+              href: desktop-sap-hana-encryption.md
             - name: Conexión a datos tabulares de Analysis Services
-              href: ../desktop-analysis-services-tabular-data.md
+              href: desktop-analysis-services-tabular-data.md
             - name: Conexión a orígenes de datos con DirectQuery
-              href: ../desktop-use-directquery.md
+              href: desktop-use-directquery.md
             - name: Conexión a SAP Business Warehouse con DirectQuery
-              href: ../desktop-directquery-sap-bw.md
+              href: desktop-directquery-sap-bw.md
             - name: "Conexión a orígenes de datos de SAP\_HANA con DirectQuery"
-              href: ../desktop-directquery-sap-hana.md
+              href: desktop-directquery-sap-hana.md
             - name: Aplicación de la configuración Asumir integridad referencial
-              href: ../desktop-assume-referential-integrity.md
+              href: desktop-assume-referential-integrity.md
             - name: "Acceso a los datos de SAP\_BW con el conector de SAP\_BW"
-              href: ../desktop-sap-bw-connector.md
+              href: desktop-sap-bw-connector.md
             - name: Uso de vínculos de OneDrive para la Empresa
-              href: ../desktop-use-onedrive-business-links.md
+              href: desktop-use-onedrive-business-links.md
             - name: 'Servicio de terceros: Uso del conector de Facebook'
-              href: ../service-facebook-connector.md
+              href: service-facebook-connector.md
             - name: 'Servicio de terceros: Uso del conector de Google Analytics'
-              href: ../service-google-analytics-connector.md
+              href: service-google-analytics-connector.md
             - name: "Conexión a datos de Project Online a través de Power\_BI\_Desktop"
-              href: ../desktop-project-online-connect-to-data.md
+              href: desktop-project-online-connect-to-data.md
         - name: Obtener datos de los archivos
           items:
             - name: Obtención de datos de archivos
-              href: ../service-get-data-from-files.md
+              href: service-get-data-from-files.md
             - name: De Excel a un informe sorprendente
-              href: ../service-from-excel-to-stunning-report.md
+              href: service-from-excel-to-stunning-report.md
             - name: Obtención de datos de archivos de libro de Excel
-              href: ../service-excel-workbook-files.md
+              href: service-excel-workbook-files.md
             - name: Obtención de datos de archivos de Power BI Desktop
-              href: ../service-desktop-files.md
+              href: service-desktop-files.md
             - name: Editar parámetros
-              href: ../service-parameters.md
+              href: service-parameters.md
             - name: Obtención de datos de archivos .csv (valores separados por comas)
-              href: ../service-comma-separated-value-files.md
+              href: service-comma-separated-value-files.md
             - name: Transmisión en tiempo real en Power BI
-              href: ../service-real-time-streaming.md
+              href: service-real-time-streaming.md
             - name: Publicación en Power BI desde Excel
-              href: ../service-publish-from-excel.md
+              href: service-publish-from-excel.md
             - name: Reducir el tamaño de un libro de Excel
-              href: ../reduce-the-size-of-an-excel-workbook.md
+              href: reduce-the-size-of-an-excel-workbook.md
         - name: Obtención de datos de conjuntos de datos compartidos
           items:
             - name: Uso de conjuntos de datos entre áreas de trabajo
-              href: ../service-datasets-across-workspaces.md
+              href: service-datasets-across-workspaces.md
             - name: Uso compartido de conjuntos de datos (versión preliminar)
-              href: ../service-datasets-share.md
+              href: service-datasets-share.md
             - name: Permiso de compilación para conjuntos de datos compartidos
-              href: ../service-datasets-build-permissions.md
+              href: service-datasets-build-permissions.md
             - name: Creación de informes basados en conjuntos de datos
-              href: ../service-datasets-discover-across-workspaces.md
+              href: service-datasets-discover-across-workspaces.md
             - name: Copia de informes basados en conjuntos de datos
-              href: ../service-datasets-copy-reports.md
+              href: service-datasets-copy-reports.md
             - name: Control del uso de los conjuntos de datos
-              href: ../service-datasets-admin-across-workspaces.md
+              href: service-datasets-admin-across-workspaces.md
         - name: Aprobación de conjuntos de datos
           items:
             - name: Promoción de los conjuntos de datos
-              href: ../service-datasets-promote.md
+              href: service-datasets-promote.md
             - name: Certificación de los conjuntos de datos
-              href: ../service-datasets-certify.md
+              href: service-datasets-certify.md
         - name: Obtener datos de las bases de datos
           items:
             - name: Azure y Power BI
-              href: ../service-azure-and-power-bi.md
+              href: service-azure-and-power-bi.md
             - name: Salida de Power BI y Azure
-              href: ../service-azure-egress-power-bi.md
+              href: service-azure-egress-power-bi.md
             - name: Azure SQL Data Warehouse con DirectQuery
-              href: ../service-azure-sql-data-warehouse-with-direct-connect.md
+              href: service-azure-sql-data-warehouse-with-direct-connect.md
             - name: Azure SQL Database con DirectQuery
-              href: ../service-azure-sql-database-with-direct-connect.md
+              href: service-azure-sql-database-with-direct-connect.md
             - name: Datos activos de SQL Server Analysis Services en Power BI
-              href: ../sql-server-analysis-services-tabular-data.md
+              href: sql-server-analysis-services-tabular-data.md
         - name: Actualizar datos
           items:
             - name: Actualizar datos en Power BI
-              href: ../refresh-data.md
+              href: refresh-data.md
             - name: Configuración de actualización programada
-              href: ../refresh-scheduled-refresh.md
+              href: refresh-scheduled-refresh.md
             - name: Configuración de la actualización incremental
-              href: ../service-premium-incremental-refresh.md
+              href: ../admin/service-premium-incremental-refresh.md
             - name: Actualización de un conjunto de datos local a partir de un archivo de Power BI Desktop
-              href: ../refresh-desktop-file-local-drive.md
+              href: refresh-desktop-file-local-drive.md
             - name: Actualización de un conjunto de datos en la nube a partir de un archivo de Power BI Desktop
-              href: ../refresh-desktop-file-onedrive.md
+              href: refresh-desktop-file-onedrive.md
             - name: Actualización de un conjunto de datos local a partir de un libro de Excel local
-              href: ../refresh-excel-file-local-drive.md
+              href: refresh-excel-file-local-drive.md
             - name: Actualización de un conjunto de datos en la nube a partir de un libro de Excel local
-              href: ../refresh-excel-file-onedrive.md
+              href: refresh-excel-file-onedrive.md
             - name: Actualización de un conjunto de datos a partir de un archivo .csv en OneDrive
-              href: ../refresh-csv-file-onedrive.md
+              href: refresh-csv-file-onedrive.md
             - name: "Almacenamiento en caché de consultas en Power\_BI\_Premium"
-              href: ../power-bi-query-caching.md
+              href: power-bi-query-caching.md
         - name: Aplicaciones plantilla
           items:
             - name: Información general de las aplicaciones plantilla
-              href: ../service-template-apps-overview.md
+              href: service-template-apps-overview.md
             - name: Creación de aplicaciones plantilla
-              href: ../service-template-apps-create.md
+              href: service-template-apps-create.md
             - name: Sugerencias para la creación de aplicaciones plantilla
-              href: ../service-template-apps-tips.md
+              href: service-template-apps-tips.md
             - name: Instalación y distribución de aplicaciones plantilla
-              href: ../service-template-apps-install-distribute.md
+              href: service-template-apps-install-distribute.md
             - name: "Actualización, eliminación y extracción de una aplicación de plantilla de Power\_BI"
-              href: ../service-template-update-delete-extract.md
+              href: service-template-update-delete-extract.md
             - name: Ejemplos de aplicaciones plantilla
-              href: ../service-template-apps-samples.md
+              href: service-template-apps-samples.md
         - name: Solucionar problemas
           items:
             - name: Solución de problemas con los escenarios de actualización
-              href: ../refresh-troubleshooting-refresh-scenarios.md
+              href: refresh-troubleshooting-refresh-scenarios.md
             - name: Solución de problemas con un origen de datos no admitido para la actualización
-              href: ../service-admin-troubleshoot-unsupported-data-source-for-refresh.md
+              href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
             - name: Solución de problemas con la actualización programada de bases de datos SQL de Azure
-              href: ../service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+              href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: Solución de problemas con la función Analizar en Excel
-              href: ../desktop-troubleshooting-analyze-in-excel.md
+              href: ../collaborate-share/desktop-troubleshooting-analyze-in-excel.md
             - name: 'Error: Datos no encontrados en el libro de Excel'
-              href: ../service-admin-troubleshoot-excel-workbook-data.md
+              href: service-admin-troubleshoot-excel-workbook-data.md
             - name: Actualización de las credenciales del paquete de contenido de Xero después de un error de actualización
-              href: ../service-refresh-xero-credentials.md
+              href: service-refresh-xero-credentials.md
         - name: Conectarse a los servicios
           items:
             - name: Conexión a servicios con aplicaciones
-              href: ../service-connect-to-services.md
+              href: service-connect-to-services.md
             - name: "Informe de seguimiento de la COVID-19 en EE.\_UU."
               href: service-connect-to-covid-19-tracking.md
             - name: Informe de presencia de comunicación de crisis
               href: service-connect-to-crisis-communication-presence-report.md
             - name: GitHub
-              href: ../service-connect-to-github.md
+              href: service-connect-to-github.md
             - name: Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias
               href: service-connect-to-health-emergency-response.md
             - name: Calculadora de sostenibilidad de Microsoft
-              href: ../service-connect-to-microsoft-sustainability-calculator.md
+              href: service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
-              href: ../service-connect-to-office365mon.md
+              href: service-connect-to-office365mon.md
             - name: Project Online
-              href: ../service-connect-to-project-online.md
+              href: service-connect-to-project-online.md
             - name: QuickBooks Online
-              href: ../service-connect-to-quickbooks-online.md
+              href: service-connect-to-quickbooks-online.md
             - name: Panel de respuesta ante emergencias regionales
               href: service-connect-to-regional-emergency-response.md
             - name: Salesforce
-              href: ../service-connect-to-salesforce.md
+              href: service-connect-to-salesforce.md
             - name: Smartsheet
-              href: ../service-connect-to-smartsheet.md
+              href: service-connect-to-smartsheet.md
             - name: Xero
-              href: ../service-connect-to-xero.md
+              href: service-connect-to-xero.md
             - name: Zendesk
-              href: ../service-connect-to-zendesk.md
+              href: service-connect-to-zendesk.md
         - name: Puertas de enlace
           items:
             - name: Detalles sobre la puerta de enlace de datos local
-              href: ../service-gateway-onprem-indepth.md
+              href: service-gateway-onprem-indepth.md
             - name: Puerta de enlace de datos local (modo personal)
-              href: ../service-gateway-personal-mode.md
+              href: service-gateway-personal-mode.md
             - name: Administración de orígenes de datos de puerta de enlace
               items:
                 - name: Administración de orígenes de datos
-                  href: ../service-gateway-data-sources.md
+                  href: service-gateway-data-sources.md
                 - name: 'Administrar el origen de datos de su empresa: Analysis Services'
-                  href: ../service-gateway-enterprise-manage-ssas.md
+                  href: service-gateway-enterprise-manage-ssas.md
                 - name: 'Administrar el origen de datos de su empresa: SAP HANA'
-                  href: ../service-gateway-enterprise-manage-sap.md
+                  href: service-gateway-enterprise-manage-sap.md
                 - name: 'Administrar origen de datos empresarial: SQL'
-                  href: ../service-gateway-enterprise-manage-sql.md
+                  href: service-gateway-enterprise-manage-sql.md
                 - name: 'Administrar el origen de datos: Oracle'
-                  href: ../service-gateway-onprem-manage-oracle.md
+                  href: service-gateway-onprem-manage-oracle.md
                 - name: 'Administrar el origen de datos de su empresa: importación o actualización programada'
-                  href: ../service-gateway-enterprise-manage-scheduled-refresh.md
+                  href: service-gateway-enterprise-manage-scheduled-refresh.md
                 - name: Combinación de orígenes de datos locales y en la nube
-                  href: ../service-gateway-mashup-on-premises-cloud.md
+                  href: service-gateway-mashup-on-premises-cloud.md
             - name: Habilitar el inicio de sesión único (SSO)
               items:
                 - name: Información general de SSO
-                  href: ../service-gateway-sso-overview.md
+                  href: service-gateway-sso-overview.md
                 - name: SSO basado en Kerberos
                   items:
                     - name: Configuración de SSO basado en Kerberos
-                      href: ../service-gateway-sso-kerberos.md
+                      href: service-gateway-sso-kerberos.md
                     - name: Configuración específica de orígenes de datos
                       items:
                         - name: SAP HANA
-                          href: ../service-gateway-sso-kerberos-sap-hana.md
+                          href: service-gateway-sso-kerberos-sap-hana.md
                         - name: 'SAP BW: sapcrypto.dll (biblioteca de criptografía común)'
-                          href: ../service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                          href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
                         - name: 'SAP BW: gx64krb5.dll'
-                          href: ../service-gateway-sso-kerberos-sap-bw-gx64krb.md
+                          href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
                 - name: SSO basado en SAML
-                  href: ../service-gateway-sso-saml.md
+                  href: service-gateway-sso-saml.md
             - name: Solución de problemas de la puerta de enlace
-              href: ../service-gateway-onprem-tshoot.md
+              href: service-gateway-onprem-tshoot.md
             - name: Solución de problemas de la puerta de enlace (modo personal)
-              href: ../service-admin-troubleshooting-power-bi-personal-gateway.md
+              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Uso de conectores personalizados
-              href: ../service-gateway-custom-connectors.md
+              href: service-gateway-custom-connectors.md
         - name: Solucionar problemas
           items:
             - name: Solución de problemas de importación de archivos .xls de Access y Excel
-              href: ../desktop-access-database-errors.md
+              href: desktop-access-database-errors.md
             - name: "Solución de problemas de apertura de Power\_BI Desktop"
-              href: ../desktop-error-launching-desktop.md
+              href: desktop-error-launching-desktop.md
             - name: Solución de problemas de desarrollo de modelos de DirectQuery
-              href: ../desktop-directquery-troubleshoot.md
+              href: desktop-directquery-troubleshoot.md
     - name: Referencia
       items:
         - name: Tipos de datos en Power BI Desktop
-          href: ../desktop-data-types.md
+          href: desktop-data-types.md
         - name: Extensibilidad de los conectores
-          href: ../desktop-connector-extensibility.md
+          href: desktop-connector-extensibility.md
         - name: Conectores de terceros de confianza
-          href: ../desktop-trusted-third-party-connectors.md
+          href: desktop-trusted-third-party-connectors.md

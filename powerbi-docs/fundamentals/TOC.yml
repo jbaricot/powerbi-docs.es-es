@@ -6,50 +6,50 @@
       expanded: true
       items:
         - name: ¿Qué es Power BI?
-          href: ../power-bi-overview.md
+          href: power-bi-overview.md
         - name: ¿Qué es Power BI Desktop?
-          href: ../desktop-what-is-desktop.md
+          href: desktop-what-is-desktop.md
         - name: ¿Qué es el servicio Power BI?
-          href: ../power-bi-service-overview.md
+          href: power-bi-service-overview.md
         - name: Comparación de Power BI Desktop y el servicio
-          href: ../service-service-vs-desktop.md
+          href: service-service-vs-desktop.md
     - name: Conceptos
       items:
         - name: Novedades de la última versión de Power BI Desktop
-          href: ../desktop-latest-update.md
+          href: desktop-latest-update.md
         - name: Novedades en el servicio Power BI
-          href: ../service-whats-new.md
+          href: service-whats-new.md
         - name: Comprender el servicio Power BI
-          href: ../service-basic-concepts.md
+          href: service-basic-concepts.md
         - name: 10 sugerencias para obtener ayuda
-          href: ../service-tips-for-finding-help.md
+          href: service-tips-for-finding-help.md
         - name: Licencias
           items:
             - name: Suscribirse en Power BI
-              href: ../service-self-service-signup-for-power-bi.md
+              href: service-self-service-signup-for-power-bi.md
             - name: Características por tipo de licencia
-              href: ../service-features-license-type.md
+              href: service-features-license-type.md
     - name: Guías paso a paso
       items:
         - name: Obtener Power BI Desktop
-          href: ../desktop-get-the-desktop.md
+          href: desktop-get-the-desktop.md
         - name: Introducción a Power BI Desktop
-          href: ../desktop-getting-started.md
+          href: desktop-getting-started.md
     - name: Referencia
       items:
         - name: Idiomas y países o regiones admitidos
-          href: ../supported-languages-countries-regions.md
+          href: supported-languages-countries-regions.md
         - name: Exploradores compatibles
-          href: ../power-bi-browsers.md
+          href: power-bi-browsers.md
     - name: Recursos
       items:
         - name: Vídeos
-          href: ../videos.md
+          href: videos.md
         - name: Seminarios web
-          href: ../webinars.md
+          href: webinars.md
         - name: Vídeos de Power BI Desktop
-          href: ../desktop-videos.md
+          href: desktop-videos.md
         - name: "Archivo de actualizaciones de Power\_BI Desktop"
-          href: ../desktop-latest-update-archive.md
+          href: desktop-latest-update-archive.md
         - name: Power BI Desktop Enviar una sonrisa Declaración de privacidad
-          href: ../desktop-send-smile-privacy-statement.md
+          href: desktop-send-smile-privacy-statement.md

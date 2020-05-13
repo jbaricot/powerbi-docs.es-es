@@ -90,7 +90,7 @@ En estos ejemplos, "Productos" puede ser un nombre de columna o una medida.
 
 También puede especificar una agregación en la propia expresión de Preguntas y respuestas. Por ejemplo, si "Productos populares" son productos con al menos 100 unidades vendidas, puede definir productos con la "suma de unidades vendidas > 100" como popular.  
 
-:::image type="content" source="media/q-and-a-tooling-teach-q-and-a/power-bi-qna-popular-products.png" alt-text="Definir "productos populares"":::
+:::image type="content" source="media/q-and-a-tooling-teach-q-and-a/power-bi-qna-popular-products.png" alt-text="Definir productos populares":::
 
 Solo se puede definir una condición en las herramientas. Para definir condiciones más complejas, use DAX para crear una columna o medida calculada y, después, use la sección de herramientas para crear una condición única para esa columna o medida.
 
