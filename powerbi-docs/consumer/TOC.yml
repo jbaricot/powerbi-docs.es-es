@@ -72,6 +72,8 @@
               href: end-user-bookmarks.md
             - name: Adición de un punto destacado a u informe
               href: end-user-spotlight.md
+            - name: Personalización de un objeto visual
+              href: end-user-personalize-visuals.md
             - name: Informes paginados en Power BI
               items:
                 - name: Informes paginados

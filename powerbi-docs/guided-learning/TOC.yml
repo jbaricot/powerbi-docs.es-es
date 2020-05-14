@@ -1,12 +1,12 @@
-- name: "Exploración de Power\_BI (consumidor)"
+- name: "Exploración de Power\_BI (../consumidor)"
   href: 'https://docs.microsoft.com/learn/modules/explore-power-bi-service'
-- name: "Análisis de datos en Power\_BI (consumidor)"
+- name: "Análisis de datos en Power\_BI (../consumidor)"
   href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
 - name: "Introducción a la compilación con Power\_BI"
   href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'
 - name: Obtener datos
   href: 'https://docs.microsoft.com/learn/modules/get-data-power-bi'
-- name: Datos del modelo
+- name: Modelado de datos
   href: 'https://docs.microsoft.com/learn/modules/model-data-power-bi'
 - name: Uso de objetos visuales
   href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'

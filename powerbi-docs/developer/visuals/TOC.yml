@@ -12,6 +12,10 @@
       items:
         - name: Desarrollo de un objeto visual de Power BI
           href: custom-visual-develop-tutorial.md
+        - name: Creación de objetos visuales basados en React
+          href: create-react-visual.md
+        - name: Creación de un gráfico de barras
+          href: create-bar-chart.md
         - name: Adición de opciones de formato
           href: custom-visual-develop-tutorial-format-options.md
         - name: Adición de pruebas unitarias para el proyecto de objetos visuales
@@ -38,14 +42,20 @@
           href: objects-properties.md
         - name: Modo de edición avanzada
           href: advanced-edit-mode.md
+        - name: Característica supportsKeyboardFocus
+          href: supportskeyboardfocus-feature.md
+        - name: supportsMultiVisualSelection-feature.md
+          href: supportsmultivisualselection-feature.md
     - name: Procedimiento
       items:
         - name: Obtención de un objeto visual de Power BI certificado
           href: power-bi-custom-visuals-certified.md
         - name: "Publicación de objetos visuales de Power\_BI en AppSource"
           href: office-store.md
+        - name: "Prueba del objeto visual de Power\_BI"
+          href: submission-testing.md
         - name: Uso de objetos visuales de Power BI con tecnología de R en Power BI
-          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+          href: ../../create-reports/desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
         - name: Interacciones de objetos visuales
           href: visuals-interactions.md
         - name: Adición de selecciones
@@ -64,6 +74,8 @@
           href: context-menu.md
         - name: Adición de compatibilidad con exploración en profundidad
           href: drill-down-support.md
+        - name: Adición de colores al objeto visual
+          href: add-colors-power-bi-visual.md
         - name: Resaltado de datos en objetos visuales
           href: highlight.md
         - name: Adición de compatibilidad con el modo de contraste alto
@@ -78,10 +90,14 @@
           href: power-bi-custom-visuals-troubleshoot.md
     - name: Referencia
       items:
+        - name: Registro de cambios
+          href: changelog.md
         - name: Página de aterrizaje
           href: landing-page.md
         - name: Inicio de URL
           href: launch-url.md
+        - name: API de objeto visual
+          href: visual-api.md
         - name: API de almacenamiento local
           href: local-storage.md
         - name: Representación de eventos
@@ -119,8 +135,8 @@
         - name: Centro de desarrollo
           href: 'https://powerbi.microsoft.com/developers/'
         - name: "Ejemplos de objetos visuales de Power\_BI"
-          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-        - name: "Repositorio Git de objetos visuales de Power\_BI"
+          href: samples.md
+        - name: Repositorio Git de objetos visuales personalizados
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
         - name: Creación de un certificado SSL
           href: create-ssl-certificate.md
