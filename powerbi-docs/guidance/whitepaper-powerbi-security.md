@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: ff8b6a139d0088b2ff2acc8f73b75431e500ba51
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279098"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407534"
 ---
 # <a name="power-bi-security-whitepaper"></a>Notas del producto sobre la seguridad de Power BI
 
@@ -263,7 +263,7 @@ Power BI proporciona supervisión de integridad de datos de las maneras siguient
 
     &ensp;&ensp;un. Para los informes creados con Excel para Office 365, no se almacena nada en caché.
 
-    &ensp;&ensp;b. Para los informes de Power BI, los datos para los objetos visuales que se muestran se almacenan en caché cifrados en Azure SQL Database.
+    &ensp;&ensp;b. En el caso de Power BI informes, los datos de los objetos visuales de los informes mostrados se almacenan en caché y se almacenan en la memoria caché de datos visual que se describe en la sección siguiente.
  
 
 4. Archivos originales de Power BI Desktop (.pbix) o Excel (.xlsx) publicados en Power BI.
@@ -272,11 +272,20 @@ Power BI proporciona supervisión de integridad de datos de las maneras siguient
 
 #### <a name="dashboards-and-dashboard-tiles"></a>Paneles e iconos de paneles
 
-1. Cachés: los datos necesarios para los objetos visuales en el panel normalmente se almacenan en caché y se almacenan cifrados en Azure SQL Database. Otros iconos como los objetos visuales anclados desde Excel o SQL Server Reporting Services (SSRS) se almacenan en Azure Blob como imágenes y también se cifran.
+1. Memorias caché: los datos necesarios para los objetos visuales en el panel normalmente se almacenan en caché y se almacenan en la memoria caché de datos visual que se describe en la sección siguiente. Otros iconos como los objetos visuales anclados desde Excel o SQL Server Reporting Services (SSRS) se almacenan en Azure Blob como imágenes y también se cifran.
 
 2. Datos estáticos: que incluyen artefactos como imágenes de fondo y Power BI objetos visuales que se almacenan, cifran, en Azure BLOB Storage.
 
-Con independencia del método de cifrado que se use, Microsoft administra el cifrado de claves en nombre de los clientes, ya sea en un almacén de secretos o en Azure Key Vault.
+Independientemente del método de cifrado usado, Microsoft administra el cifrado de claves en nombre de los clientes.
+
+#### <a name="visual-data-cache"></a>Caché de datos visual
+
+Los datos visuales se almacenan en caché en ubicaciones diferentes, en función de si el conjunto de datos está hospedado en una capacidad de Power BI Premium. En el caso de los conjuntos de datos que no se hospedan en una capacidad, los datos visuales se almacenan en caché y se almacenan cifrados en un Azure SQL Database. En el caso de los conjuntos de datos que se hospedan en una capacidad, los datos visuales se pueden almacenar en caché en cualquiera de las siguientes ubicaciones:
+
+* Azure Blob Storage
+* Archivos Premium de Azure
+* Nodo capacidad de Power BI Premium
+
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>Datos almacenados de forma transitoria en dispositivos no volátiles
 
