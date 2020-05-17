@@ -171,7 +171,7 @@ Por lo general, los puntos de datos contienen selecciones y valores. La interfaz
     }
     ```
 
-    **Extensión de la clase `BaseBehavior`** 
+    **Extensión de la clase `BaseBehavior`**
 
     ```typescript
     import powerbi from "powerbi-visuals-api";
@@ -186,7 +186,7 @@ Por lo general, los puntos de datos contienen selecciones y valores. La interfaz
     }
     ```
 
-5. Para controlar la acción de hacer clic en los elementos, llame al método *del objeto de selección*d3`on`. Esto también se aplica a `elementsSelection` y `clearCatcherSelection`.
+5. Para controlar la acción de hacer clic en los elementos, llame al método `on` del objeto de selección *d3*. Esto también se aplica a `elementsSelection` y `clearCatcherSelection`.
 
     ```typescript
     protected bindClick() {
