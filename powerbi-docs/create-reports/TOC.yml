@@ -339,6 +339,8 @@
               href: ../paginated-reports/report-builder-shared-datasets.md
             - name: Creación de parámetros
               href: ../paginated-reports/paginated-reports-parameters.md
+            - name: Establecimiento de vistas de informe
+              href: ../paginated-reports/page-view.md
             - name: Subinformes
               href: ../paginated-reports/subreports.md
             - name: Solución de problemas con los subinformes
