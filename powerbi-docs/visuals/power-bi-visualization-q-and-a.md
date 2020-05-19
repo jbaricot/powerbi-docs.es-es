@@ -1,20 +1,23 @@
 ---
 title: Uso del objeto visual Preguntas y respuestas de Power BI
 description: Configuración del objeto visual Preguntas y respuestas de Power BI
-author: mihart
+author: rien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e94b27945f277c352773e7f9eaa3979fa8bc7451
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762287"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148340"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Introducción a las visualizaciones de preguntas y respuestas de Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -47,8 +50,10 @@ El objeto visual Preguntas y respuestas consta de cuatro componentes principales
 
 1. Seleccionar ![Captura de pantalla de la pestaña amarilla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para agregar una nueva página.
 
+Si aparece algún error al crear un objeto visual Preguntas y respuestas, asegúrese de consultar la sección de [limitaciones](../natural-language/q-and-a-limitations.md) para ver si se admite la configuración del origen de datos.    
 
-Si aparece algún error al crear un objeto visual Preguntas y respuestas, asegúrese de consultar la sección de [limitaciones](../natural-language/q-and-a-limitations.md) para ver si se admite la configuración del origen de datos.
+> [!NOTE]
+> Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium. Consulte [cómo compartir informes](../collaborate-share/service-share-reports.md).
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>Creación de un objeto visual Preguntas y respuestas mediante una pregunta sugerida
 En este ejercicio, vamos a seleccionar una de las preguntas sugeridas para crear un objeto visual Preguntas y respuestas. 
@@ -148,7 +153,7 @@ El objeto visual Preguntas y respuestas se integra con Office y Bing para intent
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Hay varias formas de integrar el lenguaje natural. Para obtener más información, consulte los artículos siguientes:
+Hay varias formas de integrar el lenguaje natural. Para más información, consulte los siguientes artículos:
 
 * [Introducción a Preguntas y respuestas](../natural-language/q-and-a-tooling-intro.md)
 * [Procedimientos recomendados de Preguntas y respuestas](../natural-language/q-and-a-best-practices.md)

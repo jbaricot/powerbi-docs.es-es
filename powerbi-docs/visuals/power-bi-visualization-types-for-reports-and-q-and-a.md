@@ -7,14 +7,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7210e2f2f6fa3581744a5400bcdeb795d8883120
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381431"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276821"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualización en Power BI
 ## <a name="power-bi-visualizations"></a>Visualizaciones de Power BI
@@ -25,7 +25,7 @@ Eche un vistazo a [Microsoft AppSource](https://appsource.microsoft.com/marketp
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lista de visualizaciones disponibles en Power BI
 Todas estas visualizaciones pueden agregarse a los informes de Power BI, especificados en Preguntas y respuestas y anclados a los paneles.
 
-### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de área: básicos (en capa) y de área apilada
+### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de áreas: básico (en capa) y de área apilada
 ![gráficos de áreas](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
 
 >[!TIP]
@@ -41,7 +41,7 @@ Para más información, vea [Gráfico de áreas básico](power-bi-visualization-
 >[!TIP]
 >Los gráficos de barras son el estándar para buscar un valor concreto en categorías diferentes.
 
-### <a name="cards-multi-row"></a>Tarjetas: varias filas
+### <a name="cards-multi-row"></a>Tarjetas: de varias filas
 ![tarjeta de varias filas](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>Tarjetas: número único
@@ -110,7 +110,7 @@ Para más información, vea [KPI en Power BI](power-bi-visualization-kpi.md).
 
 Para obtener más información, consulte [Sugerencias y trucos para las visualizaciones de mapa](power-bi-map-tips-and-tricks.md).
 
-### <a name="maps-arcgis-maps"></a>Mapas: mapas de ArcGIS
+### <a name="maps-arcgis-maps"></a>Mapas: Mapas de ArcGIS
 ![mapa de ArcGIS](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 Para más información, vea [Mapas de ArcGIS en Power BI](power-bi-visualization-arcgis.md).
@@ -157,7 +157,7 @@ Para obtener más información, consulte [Agregar un objeto visual de Power Apps
 ![Objetos visuales de Preguntas y respuestas](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
 
 >[!TIP]
->De forma similar a como funciona [Preguntas y respuestas en los paneles](../power-bi-tutorial-q-and-a.md), el objeto visual Preguntas y respuestas le permite formular preguntas acerca de sus datos mediante un lenguaje natural. 
+>De forma similar a como funciona [Preguntas y respuestas en los paneles](../create-reports/power-bi-tutorial-q-and-a.md), el objeto visual Preguntas y respuestas le permite formular preguntas acerca de sus datos mediante un lenguaje natural. 
 
 Para más información, consulte el artículo en el que se explican los [objetos visuales de Preguntas y respuestas en Power BI](power-bi-visualization-q-and-a.md).
 
@@ -191,7 +191,7 @@ Para más información, vea [Gráficos de dispersión en Power BI](power-bi-visu
 >[!TIP]
 >Si hay demasiados puntos de datos en un objeto visual pueden provocar que se ralentice, por lo que se usa un algoritmo de muestreo sofisticado para garantizar la precisión de la visualización.
 
-Para más información, vea [Gráficos de dispersión de alta densidad en Power BI](desktop-high-density-scatter-charts.md).
+Para más información, vea [Gráficos de dispersión de alta densidad en Power BI](../create-reports/desktop-high-density-scatter-charts.md).
 
 ### <a name="slicers"></a>Segmentaciones
 ![segmentación](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
@@ -201,7 +201,7 @@ Para más información, vea [Segmentaciones en Power BI](power-bi-visualization-
 ### <a name="standalone-images"></a>Imágenes independientes
 ![objeto visual de imagen independiente](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
-Para obtener más información, consulte [Add an image widget to a dashboard](../service-dashboard-add-widget.md) (Agregar un widget de imagen a un panel).
+Para más información, consulte [Agregar un widget de imagen a un panel](../create-reports/service-dashboard-add-widget.md).
 
 ### <a name="tables"></a>Tablas
 ![objeto visual de tabla](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
@@ -212,7 +212,7 @@ Para obtener más información, consulte [Add an image widget to a dashboard](..
 Para más información, consulte [Working with tables in Power BI](power-bi-visualization-tables.md) (Trabajar con tablas en Power BI).
 
 ### <a name="treemaps"></a>Gráficos de rectángulos
-![rectángulos](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![gráfico de rectángulos](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 Para más información, vea [Gráficos de rectángulos en Power BI](power-bi-visualization-treemaps.md).
 
@@ -232,8 +232,11 @@ Al escribir las consultas en lenguaje natural con Preguntas y respuestas de Powe
 
 "***ventas por estado en un gráfico de rectángulos***"
 
+Si el panel no tiene un campo de preguntas y respuestas, es posible que el administrador de inquilinos lo haya deshabilitado. 
+
 ![Cuadro de preguntas y respuestas que muestra el tipo de visualización especificado](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Visualizaciones de informes de Power BI](power-bi-report-visualizations.md)    
 [The right visual reference from sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (La referencia visual correcta de sqlbi.com)
+

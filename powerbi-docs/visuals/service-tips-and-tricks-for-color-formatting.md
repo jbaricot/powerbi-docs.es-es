@@ -6,20 +6,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c2800ab9d57732448db9e4fe647a0601a20a816c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76895063"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276614"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Sugerencias y trucos para el formato de color en Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Power BI permite personalizar los paneles y los informes de muchas formas. En este artículo se detallan una serie de sugerencias para que las visualizaciones de Power BI resulten más atractivas, interesantes y personalizadas según sus necesidades.
 
-A continuación se proporcionan varias sugerencias. ¿Tiene alguna otra? Excelente. Envíenosla para que estudiemos si puede agregarse a esta lista.
+A continuación se proporcionan varias sugerencias. ¿Tiene alguna otra? Magnífico. Envíenosla para que estudiemos si puede agregarse a esta lista.
 
 * Aplicar un tema a todo el informe
 * Cambiar el color de un solo punto de datos
@@ -40,7 +43,7 @@ Cuando aparezcan los paneles **Filtros** y **Visualizaciones** en el lado derech
 ![lienzo del informe en la vista de edición](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
 ## <a name="apply-a-theme"></a>Aplicación de un tema
-Con los temas para informes puede aplicar cambios de diseño a todo el informe; por ejemplo, usar colores corporativos, cambiar conjuntos de iconos o aplicar nuevos formatos visuales predeterminados. Al aplicar un tema para informe, todos los objetos visuales del informe usan los colores y el formato del tema seleccionado. Para obtener más información, consulte [Uso de temas de informes](../desktop-report-themes.md)
+Con los temas para informes puede aplicar cambios de diseño a todo el informe; por ejemplo, usar colores corporativos, cambiar conjuntos de iconos o aplicar nuevos formatos visuales predeterminados. Al aplicar un tema para informe, todos los objetos visuales del informe usan los colores y el formato del tema seleccionado. Para obtener más información, consulte [Uso de temas de informes](../create-reports/desktop-report-themes.md)
 
 ![Icono Cambiar tema en la barra de menús](media/service-tips-and-tricks-for-color-formatting/power-bi-theme.png)
 
@@ -120,7 +123,7 @@ Para usar escalas de colores divergentes, active la casilla **Divergente**. Cuan
 
 ![Cuadro de diálogo de color predeterminado con Escala de colores seleccionado](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging-colors.png)
 
-Al activar el control deslizante **Divergente**, pueden establecerse los colores **Mínimo**, **Máximo** y **Centro** por separado. En la imagen siguiente, **Centro** está establecido en 0.2 para **% Market Share SPLY YTD**, por lo que las barras con valores superiores a 0.2 presentan un tono degradado verde y las barras con valores inferiores a uno presentan tonos rojos.
+Al activar el control deslizante **Divergente** , pueden establecerse los colores **Mínimo**, **Máximo** y **Centro** por separado. En la imagen siguiente, **Centro** está establecido en 0.2 para **% Market Share SPLY YTD**, por lo que las barras con valores superiores a 0.2 presentan un tono degradado verde y las barras con valores inferiores a uno presentan tonos rojos.
 
 ![gráfico de columnas con barras rojas y verdes](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
 
@@ -151,4 +154,6 @@ Para descartar todos los cambios realizados en una tarjeta de formato, seleccion
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Introducción a las propiedades de eje y formato de color](service-getting-started-with-color-formatting-and-axis-properties.md)
+
+[Filtrado y uso compartido de un informe de Power BI](../collaborate-share/service-share-reports.md).
 

@@ -7,23 +7,26 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4cad37b9d4a7bf9e74a29312786a02b26fce5463
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496531"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83382770"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Tutorial: Establecer alertas en paneles de Power BI
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Establezca alertas que le envíen notificaciones cada vez que los datos de sus paneles cambien por encima o por debajo de los límites establecidos. Las alertas funcionan en medidores, KPI y tarjetas. Esta característica sigue evolucionando, así que vea la sección [Sugerencias y solución de problemas](#tips-and-troubleshooting) más adelante.
+Establezca alertas que le envíen notificaciones cada vez que los datos de sus paneles cambien por encima o por debajo de los límites establecidos. Las alertas solo se pueden configurar en los iconos anclados desde objetos visuales de informes y solo en medidores, KPI y tarjetas. 
+
+Los *consumidores* pueden agregar alertas a los iconos de los paneles que han creado en **Mi área de trabajo**. Los *consumidores* también pueden agregar alertas a los iconos de los paneles que se han compartido con ellos en una [capacidad Premium](end-user-license.md). Si tiene una licencia de Power BI Pro, puede establecer alertas también en los iconos de cualquier otra área de trabajo.
+Esta característica sigue evolucionando, así que vea la sección [Sugerencias y solución de problemas](#tips-and-troubleshooting) más adelante.
 
 ![icono, tarjeta, KPI](media/end-user-alerts/card-gauge-kpi.png)
 
@@ -44,12 +47,12 @@ En este artículo se tratan los temas siguientes:
 
 Si no está registrado en Power BI, [regístrese para obtener una evaluación gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
 
-En este ejemplo se usa un icono de tarjeta de panel de la aplicación de ejemplo Sales & Marketing. Esta aplicación está disponible en [Microsoft AppSource](https://appsource.microsoft.com). Para averiguar cómo obtener la aplicación, vea [Instalación y uso de aplicaciones con Power BI](end-user-app-view.md).
+En este ejemplo se usa un icono de tarjeta de panel de la aplicación de ejemplo Sales & Marketing. Esta aplicación está disponible en [Microsoft AppSource](https://appsource.microsoft.com). Para obtener ayuda para obtener la aplicación, consulte el artículo sobre cómo [instalar y usar la aplicación Ventas y marketing](end-user-app-marketing.md).
 
 1. En un icono de tarjeta, KPI o medidor del panel, seleccione los puntos suspensivos.
    
    ![icono de tarjeta](media/end-user-alerts/power-bi-cards.png)
-2. Haga clic en el icono de campana ![icono de alerta](media/end-user-alerts/power-bi-bell-icon.png), o bien en **Administrar alertas**, para agregar una o varias alertas para **Total de tiendas**.
+2. Haga clic en el icono de campana ![icono de alerta](media/end-user-alerts/power-bi-bell-icon.png), o bien en **Administrar alertas**, para agregar una o varias alertas para **% de unidades de cuota de mercado**.
 
    ![icono de tarjeta con puntos suspensivos seleccionados](media/end-user-alerts/power-bi-ellipses.png)
 
@@ -85,7 +88,7 @@ Después, Power BI envía una alerta al centro de notificaciones y, opcionalment
 
 ## <a name="managing-alerts"></a>Administración de alertas
 
-Hay muchas maneras de administrar las alertas: desde el icono del panel, desde el menú de configuración de Power BI y en un icono individual en la [aplicación móvil de Power BI en el iPhone](mobile/mobile-set-data-alerts-in-the-mobile-apps.md) o en la [aplicación móvil de Power BI para Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
+Hay muchas maneras de administrar las alertas: desde el icono del panel, desde el menú de configuración de Power BI y en un icono individual en la [aplicación móvil de Power BI en el iPhone](mobile/mobile-set-data-alerts-in-the-mobile-apps.md) o en la [aplicación móvil de Power BI para Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
 
 ### <a name="from-the-tile-itself"></a>Desde el icono
 
@@ -111,10 +114,10 @@ Hay muchas maneras de administrar las alertas: desde el icono del panel, desde e
 
 ## <a name="tips-and-troubleshooting"></a>Sugerencias y solución de problemas 
 
-* Las alertas solo se pueden establecer en medidores, KPI y tarjetas.
-* Si no puede establecer una alerta para un medidor, KPI o tarjeta, póngase en contacto con el administrador del sistema para pedir ayuda. A veces, las alertas se desactivan o no están disponibles para el panel o para tipos específicos de iconos del panel.
+* Si no puede establecer una alerta para un medidor, KPI o tarjeta, póngase en contacto con el administrador de inquilinos para pedir ayuda. A veces, las alertas se desactivan o no están disponibles para el panel o para tipos específicos de iconos del panel.
 * Las alertas solo funcionan en los datos que se actualizan. No funcionan con datos estáticos. La mayoría de los ejemplos proporcionados por Microsoft son estáticos. 
-* Los *consumidores* no crean sus propios paneles, sino que son los *diseñadores* quienes los crean y comparten con los consumidores. Para recibir y ver contenido compartido, se necesita una licencia Power BI Pro o Premium. Para más información, vea [¿Qué licencia tengo?](end-user-license.md) 
+* Para recibir y ver contenido compartido, se necesita una licencia Power BI Pro o Premium. Para obtener más información, vea [¿Qué licencia tengo?](end-user-license.md)
+* Las alertas se pueden establecer en los objetos visuales creados a partir de conjuntos de streaming que se anclan desde un informe a un panel. No se pueden establecer alertas en iconos de streaming creados directamente en el panel mediante **Agregar icono** > **Datos de transmisión personalizados**.
 
 
 ## <a name="clean-up-resources"></a>Limpieza de recursos

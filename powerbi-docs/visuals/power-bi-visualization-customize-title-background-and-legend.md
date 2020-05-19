@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5a55fca07e4a0e5f9c027bcd17c3fba66a09958e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78893425"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277143"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalización de los títulos, los fondos y las leyendas de las visualizaciones
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 
 En este tutorial obtendrá información sobre diferentes formas de personalizar las visualizaciones. Hay numerosas opciones para personalizar las visualizaciones. La mejor manera para obtener información de todas ellas es explorando el panel **Formato** (seleccione el icono de rodillo de pintura). Para ayudarle a comenzar, en este artículo se muestra cómo personalizar un título de visualización, una leyenda o un fondo, y agregar un tema.
 
@@ -28,14 +31,17 @@ No se pueden personalizar todas las visualizaciones. Consulte la [lista completa
 
 - Servicio Power BI o Power BI Desktop
 
-- Informe del Ejemplo de análisis de minoristas
+- Informe del ejemplo de análisis de minoristas
+
+> [!NOTE]
+> Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium. Consulte [Filtrado y uso compartido de un informe de Power BI](../collaborate-share/service-share-reports.md).
 
 ## <a name="customize-visualization-titles-in-reports"></a>Personalización de los títulos de las visualizaciones en los informes
 
-Para continuar, inicie sesión en Power BI Desktop y abra el informe [Ejemplo de análisis de minoristas](../sample-datasets.md).
+Para continuar, inicie sesión en Power BI Desktop y abra el informe [Ejemplo de análisis de minoristas](../create-reports/sample-datasets.md).
 
 > [!NOTE]
-> Al anclar una visualización a un panel, se convierte en un icono de panel. Los iconos también se pueden personalizar con [nuevos títulos y subtítulos, hipervínculos y cambios de tamaño](../service-dashboard-edit-tile.md).
+> Al anclar una visualización a un panel, se convierte en un icono de panel. Los iconos también se pueden personalizar con [nuevos títulos y subtítulos, hipervínculos y cambios de tamaño](../create-reports/service-dashboard-edit-tile.md).
 
 1. Vaya a la página **Nuevas tiendas** del informe **Ejemplo de análisis de minoristas**.
 
@@ -133,7 +139,7 @@ Para aplicar un tema a un informe, seleccione **Cambiar tema** en la barra de me
 
 A continuación, encontrará una lista de las visualizaciones y opciones de personalización que están disponibles para cada tipo:
 
-| Visualización | Título | Información previa | Leyenda |
+| Visualización | Título | Fondo | Leyenda |
 |:--- |:--- |:--- |:--- |
 | Área | sí | sí |sí |
 | Barra | sí | sí |sí |
@@ -157,7 +163,7 @@ A continuación, encontrará una lista de las visualizaciones y opciones de pers
 | Segmentación | sí | sí | n/d |
 | Tabla | sí | sí | n/d |
 | Cuadro de texto | no | sí | n/d |
-| Treemap | sí | sí | sí |
+| Gráfico de rectángulos | sí | sí | sí |
 | Cascada | sí | sí | sí |
 
 ## <a name="next-steps"></a>Pasos siguientes
@@ -167,3 +173,5 @@ A continuación, encontrará una lista de las visualizaciones y opciones de pers
 - [Introducción a las propiedades de eje y formato de color](service-getting-started-with-color-formatting-and-axis-properties.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
+
+

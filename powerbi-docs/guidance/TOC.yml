@@ -110,6 +110,8 @@
               href: monitor-report-performance.md
             - name: Solución de problemas de rendimiento de los informes
               href: report-performance-troubleshoot.md
+            - name: Procedimientos recomendados para las canalizaciones de implementación
+              href: ../create-reports/deployment-pipelines-best-practices.md
     - name: Notas del producto
       items:
         - name: Información general sobre las notas del producto

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2018
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8b0012224d145f40cb6b9784da1a40957efce50
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758431"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277787"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Adición de objetos visuales a un informe de Power BI (parte 2)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -59,7 +61,7 @@ Cree una visualización seleccionando un campo en el panel **Campos** . El tipo 
 5. [Cambie el tamaño de la visualización](power-bi-visualization-move-and-resize.md). Para ello, elíjala, seleccione uno de los círculos del esquema y arrástrelo. Debería ser lo bastante ancha como para que desaparezca la barra de desplazamiento y no demasiado grande, para que quede espacio suficiente para agregar otra visualización.
    
    ![captura de pantalla de un objeto visual de gráfico de áreas](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
-6. [Guarde el informe](../service-report-save.md).
+6. [Guarde el informe](../create-reports/service-report-save.md).
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>Incorporación de una visualización de mapa que examina las ventas por ubicación
 
@@ -68,6 +70,9 @@ Cree una visualización seleccionando un campo en el panel **Campos** . El tipo 
 
 2. Agregue una leyenda.  Para ver los datos por nombre de tienda, arrastre **Store** (Tienda)  > **Chain** (Cadena) al área Leyenda.  
    ![Lienzo de informe con una flecha del campo Chain (Cadena) de la lista al valor Chain (Cadena) de Leyenda](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
+
+> [!NOTE]
+> Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium. Consulte el artículo sobre [cómo compartir informes](../collaborate-share/service-share-reports.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 * Más información sobre [Visualizaciones en Power BI](power-bi-report-visualizations.md).  

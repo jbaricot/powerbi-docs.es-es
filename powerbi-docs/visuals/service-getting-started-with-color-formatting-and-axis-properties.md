@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76895240"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276591"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Introducción al panel de formato
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Si tiene permisos de edición para un informe, hay numerosas opciones de formato disponibles. En los informes de Power BI, puede cambiar el color de la serie de datos, los puntos de datos e incluso el fondo de las visualizaciones. Puede cambiar la presentación de los ejes X e Y. Incluso puede aplicar formato a las propiedades de fuente de visualizaciones, formas y títulos. Power BI proporciona control total sobre el modo en que aparecen los informes.
 
 Para empezar, abra un informe en Power BI Desktop o en el servicio Power BI. En ambos casos se proporcionan opciones de formato prácticamente idénticas. Al abrir un informe en el servicio Power BI, asegúrese de seleccionar **Editar** en la barra de menús. 
@@ -154,8 +157,10 @@ Hemos seleccionado la visualización para activarla y abrir la pestaña Formato.
 Estas son solo algunas de las tareas de formato posibles. Abra un informe en el modo de edición y diviértase explorando el panel de formato para crear visualizaciones atractivas e informativas.
 
 ## <a name="next-steps"></a>Pasos siguientes
-Para obtener más información, consulte el artículo siguiente:  
+Para obtener más información, consulte el artículo siguiente: 
+
+* [Filtrado y uso compartido de un informe de Power BI](../collaborate-share/service-share-reports.md)
 
 * [Sugerencias y trucos para el formato de color en Power BI](service-tips-and-tricks-for-color-formatting.md)  
-* [Formato condicional en tablas](../desktop-conditional-table-formatting.md)
+* [Formato condicional en tablas](../create-reports/desktop-conditional-table-formatting.md)
 

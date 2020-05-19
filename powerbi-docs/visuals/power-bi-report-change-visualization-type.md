@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 12/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 33511dd5a61882de77d6089a5f77e70361f3cbed
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871037"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277603"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Cambio del tipo de visualización en un informe de Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -29,13 +31,15 @@ Pruebe diferentes tipos de visualizaciones en el servicio Power BI y en Power 
 3. En el panel Visualizaciones, seleccione el nuevo tipo de visualización. 
    
    ![Vídeo que muestra el cambio de gráfico de columnas a gráfico de líneas](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif).
-4. (Opcional) Puede [anclar la visualización](../service-dashboard-pin-tile-from-report.md) al panel como icono. 
+4. (Opcional) Puede [anclar la visualización](../create-reports/service-dashboard-pin-tile-from-report.md) al panel como icono. 
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 Si cambia el tipo de visualización del informe después de anclarlo al panel, el icono del panel no se actualiza de forma automática. Por tanto, si usó el servicio Power BI para anclar la visualización como gráfico de líneas y después, en el informe, la cambió a un gráfico de barras, la versión ya anclada de estos datos seguirá siendo un gráfico de líneas. Ancle el gráfico de barras para verlo también en el panel.
 
+Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium. Consulte [Filtrado y uso compartido de un informe de Power BI](../collaborate-share/service-share-reports.md).
+
 ## <a name="next-steps"></a>Pasos siguientes
-Obtenga más información sobre [Visualizaciones en informes de Power BI](power-bi-report-visualizations.md).
+Obtenga más información sobre [Visualizaciones en informes de Power BI](power-bi-report-visualizations.md)
 
 [Power BI: Conceptos básicos](../consumer/end-user-basic-concepts.md)
 
