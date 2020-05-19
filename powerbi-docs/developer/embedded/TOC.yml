@@ -24,7 +24,7 @@
       items:
         - name: "Capacidad y SKU de los análisis incrustados de Power\_BI"
           href: embedded-capacity.md
-        - name: Planificación de capacidad
+        - name: Planeamiento de capacidad
           href: embedded-capacity-planning.md
         - name: Procedimientos recomendados de rendimiento
           href: embedded-performance-best-practices.md
@@ -42,7 +42,7 @@
           href: embedded-faq.md
         - name: Permisos de Power BI
           href: power-bi-permissions.md
-    - name: Procedimientos
+    - name: Procedimiento
       items:
         - name: Insertar contenido desde una aplicación
           href: embed-from-apps.md
@@ -52,11 +52,11 @@
           href: export-paginated-report.md
         - name: Instalación automática de las aplicaciones
           href: embed-auto-install-app.md
-        - name: Creación de un inquilino de Azure Active Directory
+        - name: Crear un inquilino de Azure Active Directory
           href: create-an-azure-active-directory-tenant.md
-        - name: Registro de una aplicación
+        - name: Registrar una aplicación
           href: register-app.md
-        - name: Obtención de un token de acceso de Azure AD
+        - name: Obtener un token de acceso de Azure AD
           href: get-azuread-access-token.md
         - name: Conexión de un informe mediante enlaces dinámicos
           href: embed-dynamic-binding.md
@@ -64,7 +64,7 @@
           href: qanda.md
         - name: Solución de problemas de una aplicación insertada
           href: embedded-troubleshoot.md
-        - name: Administración de capacidades de Azure
+        - name: Administración de capacidades en Azure
           items:
             - name: Creación de una capacidad en Azure
               href: azure-pbie-create-capacity.md
@@ -74,9 +74,9 @@
               href: azure-pbie-scale-capacity.md
             - name: Pausa e inicio de una capacidad en Azure
               href: azure-pbie-pause-start.md
-        - name: Migración desde colecciones de áreas de trabajo
+        - name: Migración desde colecciones de área de trabajo
           items:
-            - name: Migración de colecciones de áreas de trabajo de Power BI
+            - name: Cómo hacer una migración desde colecciones de área de trabajo de Power BI
               href: migrate-from-powerbi-embedded.md
             - name: Herramienta de migración
               href: migrate-tool.md
@@ -84,12 +84,12 @@
               href: migrate-code-snippets.md
     - name: Referencia
       items:
-        - name: API existentes
+        - name: API
           items:
-            - name: API de REST de Azure Resource Manager
+            - name: API REST de administración de recursos de Azure
               href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
-            - name: API de REST de Power BI
-              href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+            - name: API REST de Power BI
+              href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: "Bibliotecas de Power\_BI"
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: Inserción de diseños personalizados en una aplicación
@@ -100,9 +100,9 @@
           href: 'https://powerbi.microsoft.com/en-us/developers/'
         - name: Herramienta de configuración de inserción
           href: 'https://aka.ms/embedsetup'
-        - name: Ejemplo de JavaScript Playground
+        - name: Ejemplo de área de juegos de JavaScript
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Wiki de Power BI JavaScript
+        - name: Wiki de JavaScript para Power BI
           href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
         - name: Scripts y ejemplos para desarrolladores
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
