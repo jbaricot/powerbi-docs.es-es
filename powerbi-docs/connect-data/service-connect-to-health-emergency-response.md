@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 65f1246185584b5887d97bb9188b43e016e78e8f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a585c78de4a95981ff157413e857b48fd35c14
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279259"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407580"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Conexión al Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias
 La aplicación de plantilla del Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias es el componente de informes de la [solución de Power Platform para la respuesta ante emergencias sanitarias](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). El panel muestra que los administradores de emergencia agregan datos a través de su sistema de mantenimiento para ayudarles a tomar decisiones oportunas y correctas.
@@ -32,11 +32,11 @@ Al instalar la solución de Power Platform Respuesta ante emergencias hospitalar
 
 ## <a name="install-the-app"></a>Instalación de la aplicación
 
-1. Haga clic en el vínculo siguiente para obtener la aplicación: [Aplicación de plantilla del Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+1. Haga clic en el vínculo siguiente para obtener la aplicación: [Aplicación de plantilla del Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias](https://aka.ms/AppSource_Hospital_offer)
 
-1. En la página AppSource de la aplicación, seleccione [**OBTENER AHORA**](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare).
+1. En la página AppSource de la aplicación, seleccione [**OBTENER AHORA**](https://aka.ms/AppSource_Hospital_offer).
 
-    [![Aplicación Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias en AppSource](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+    [![Aplicación Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias en AppSource](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://aka.ms/AppSource_Hospital_offer)
 
 1. Lea la información en **Una cosa más** y seleccione **Continuar**.
 

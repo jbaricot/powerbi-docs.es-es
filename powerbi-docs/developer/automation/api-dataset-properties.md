@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079678"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561510"
 ---
 # <a name="dataset-properties"></a>Propiedades del conjunto de datos
 
@@ -46,8 +46,8 @@ isHidden     | Boolean        | Si es true, se ocultará la tabla de las herrami
 Nombre  |Tipo  |Description  |Solo lectura  |Obligatoria
 ---------|---------|---------|---------|---------
 nombre     |  Cadena        | Nombre definido por el usuario de la columna.        |  Falso       | True       
-dataType     |  Cadena       |  [Tipos de datos de EDM](https://msdn.microsoft.com/library/ee382832.aspx) y restricciones compatibles. Vea [Restricciones de tipo de datos](#data-type-restrictions).      |  Falso       | True        
-formatString     | Cadena        | Cadena que describe cómo debe ser el formato del valor al mostrarse. Para más información sobre el formato de cadena, vea [FORMAT_STRING, contenido](https://msdn.microsoft.com/library/ms146084.aspx).      | Falso        | Falso        
+dataType     |  Cadena       |  [Tipos de datos de EDM](/dotnet/framework/data/adonet/entity-data-model-primitive-data-types) y restricciones compatibles. Vea [Restricciones de tipo de datos](#data-type-restrictions).      |  Falso       | True        
+formatString     | Cadena        | Cadena que describe cómo debe ser el formato del valor al mostrarse. Para más información sobre el formato de cadena, vea [FORMAT_STRING, contenido](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).      | Falso        | Falso        
 sortByColumn    | Cadena        |   Nombre de cadena de una columna de la misma tabla que se va a usar para ordenar la columna actual.     | Falso        | Falso       
 dataCategory     | Cadena        |  Valor de cadena que se va a usar para la categoría de datos que describe los datos de esta columna. Algunos valores habituales son: dirección, ciudad, continente, país, imagen, URL de imagen, latitud, longitud, organización, ubicación, código postal, estado o provincia, URL de web       |  Falso       | Falso        
 isHidden    |  Boolean       |  Propiedad que indica si la columna está oculta de la vista. El valor predeterminado es false.       | Falso        | Falso        
@@ -59,7 +59,7 @@ Nombre  |Tipo  |Description  |Solo lectura  |Obligatoria
 ---------|---------|---------|---------|---------
 nombre     | Cadena        |  Nombre definido por el usuario de la medida.       |  Falso       | True        
 expression     | Cadena        | Expresión DAX válida.        | Falso        |  True       
-formatString     | Cadena        |  Cadena que describe cómo debe ser el formato del valor al mostrarse. Para más información sobre el formato de cadena, vea [FORMAT_STRING, contenido](https://msdn.microsoft.com/library/ms146084.aspx).       | Falso        | Falso        
+formatString     | Cadena        |  Cadena que describe cómo debe ser el formato del valor al mostrarse. Para más información sobre el formato de cadena, vea [FORMAT_STRING, contenido](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).       | Falso        | Falso        
 isHidden     | Cadena        |  Si es true, se ocultará la tabla de las herramientas cliente.       |  Falso       | Falso       
 
 ## <a name="relationship"></a>Relación

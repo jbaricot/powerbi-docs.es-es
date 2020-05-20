@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d8872499bb54e23aabe642f88a541b85948d6656
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377162"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83562021"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Conceptos básicos para consumidores de Power BI
 
@@ -116,7 +116,7 @@ Algunas de las visualizaciones que encontrará en Power BI son: cascada, cinta d
 
    ![Captura de pantalla de ocho elementos visuales de ejemplo.](media/end-user-basic-concepts/power-bi-visuals.png)
 
-Consulte la [lista completa de visualizaciones incluidas en Power BI](../power-bi-visualization-types-for-reports-and-q-and-a.md).
+Consulte la [lista completa de visualizaciones incluidas en Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 Las visualizaciones llamadas *objetos visuales de Power BI* también están disponibles desde la comunidad. Si recibe un informe con un objeto visual que no reconoce, probablemente es un objeto visual personalizado. Si necesita ayuda para interpretar el objeto visual personalizado, busque el nombre del *diseñador* del informe o panel y póngase en contacto con él o ella.
 

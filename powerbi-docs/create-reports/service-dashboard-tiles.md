@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b0bf61672d383900dad50e5fe7404f7f4a7f0bc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 96a780d7d7b100acb283623107d4ec841666bb8f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348928"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561671"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introducción a los iconos del panel para los diseñadores de Power BI
 
@@ -23,7 +23,7 @@ Un icono es una instantánea de sus datos, anclado en el panel. Un icono se pued
 
 ![Panel de Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-Los paneles y los iconos de paneles son una característica del servicio Power BI y no de Power BI Desktop. No puede crear paneles en dispositivos móviles, pero puede [verlos y compartirlos allí]../consumer/mobile/mobile-apps-view-dashboard.md).
+Los paneles y los iconos de paneles son una característica del servicio Power BI y no de Power BI Desktop. No puede crear paneles en dispositivos móviles, pero puede [verlos y compartirlos](../consumer/mobile/mobile-apps-view-dashboard.md) allí.
 
 Además de anclar iconos, puede crear iconos independientes directamente en el panel mediante el control [Agregar icono](service-dashboard-add-widget.md). Los iconos independientes incluyen: cuadros de texto, imágenes, vídeos, datos de transmisión y contenido web.
 
@@ -98,6 +98,6 @@ Al seleccionar un icono, lo que sucede después depende de cómo lo ha creado. E
 - [Actualizar datos en Power BI](../connect-data/refresh-data.md)
 - [Conceptos básicos para los diseñadores en el servicio Power BI](../fundamentals/service-basic-concepts.md)
 - [Integración de iconos de Power BI en documentos de Office](https://powerbi.microsoft.com/blog/integrating-power-bi-tiles-into-office-documents/)
-- [Anclado de elementos de Reporting Services en los paneles de Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
+- [Anclado de elementos de Reporting Services en los paneles de Power BI](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/).
