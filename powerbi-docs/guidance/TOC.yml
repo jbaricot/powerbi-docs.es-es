@@ -118,7 +118,9 @@
           href: whitepapers.md
         - name: Notas del producto sobre la seguridad de Power BI
           href: whitepaper-powerbi-security.md
-        - name: Implementación de Power BI Premium
+        - name: "Notas del producto sobre la implementación de Power\_BI Enterprise"
+          href: whitepaper-powerbi-enterprise-deployment.md
+        - name: "Implementación de Power\_BI Premium"
           href: whitepaper-powerbi-premium-deployment.md
         - name: Distribución de Power BI externamente con Azure Active Directory B2B
           href: whitepaper-azure-b2b-power-bi.md
