@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1dbb35ab45a1172044cedb7fbe484ed4da6c43db
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f70c41e40ff2da385b2f63798b93dec3fcd7b7c5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348376"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565750"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportación de informes a PowerPoint
 
@@ -31,7 +31,7 @@ Con el servicio Power BI (app.powerbi.com), puede publicar el informe en Microso
 
 Exportar su **informe de Power BI** a **PowerPoint** es muy fácil. Siga los pasos descritos en la sección siguiente.
 
-También puede copiar un solo objeto visual cada vez desde el servicio Power BI y pegarlo en PowerPoint (o en cualquier otro programa que admita pegar). Seleccione el icono **Copiar como imagen** para copiar el objeto visual en el portapapeles. Después, abra PowerPoint y pegue el objeto visual. Para obtener más información, vea el artículo sobre cómo [copiar objetos visuales como imágenes estáticas](../power-bi-visualization-copy-paste.md).
+También puede copiar un solo objeto visual cada vez desde el servicio Power BI y pegarlo en PowerPoint (o en cualquier otro programa que admita pegar). Seleccione el icono **Copiar como imagen** para copiar el objeto visual en el portapapeles. Después, abra PowerPoint y pegue el objeto visual. Para obtener más información, vea el artículo sobre cómo [copiar objetos visuales como imágenes estáticas](../visuals/power-bi-visualization-copy-paste.md).
 
 ![Seleccionar icono Copiar como imagen](media/end-user-powerpoint/power-bi-copy.png)
 
@@ -87,12 +87,12 @@ Lo que haga con la presentación de PowerPoint a partir de este punto, o con cua
 Hay algunas consideraciones y limitaciones a tener en cuenta al trabajar con la característica **Exportar a PowerPoint**.
  
 
-* Actualmente no se respetan los [filtros de las direcciones URL](../service-url-filters.md) al elegir **Valores actuales** para la exportación.
+* Actualmente no se respetan los [filtros de las direcciones URL](../collaborate-share/service-url-filters.md) al elegir **Valores actuales** para la exportación.
 
 * Al exportar a PowerPoint, si el informe usa una fuente personalizada, esa fuente se reemplazará por una predeterminada.
 
 * No se admiten los siguientes tipos de objetos visuales y no se exportarán a PowerPoint:
-   - No se admiten los [objetos visuales personalizados que no se hayan certificado](../developer/power-bi-custom-visuals-certified.md). 
+   - No se admiten los [objetos visuales personalizados que no se hayan certificado](../developer/visuals/power-bi-custom-visuals-certified.md). 
    - El [objeto visual de ESRI ArcGIS](../visuals/power-bi-visualizations-arcgis.md) no se admite.
    - No se admiten los objetos visuales de R ni de Python.
    - Las imágenes de fondo se recortan con el área de límite del gráfico. Se recomienda quitar las imágenes de fondo antes de realizar la exportación a PowerPoint.
@@ -109,5 +109,5 @@ Hay algunas consideraciones y limitaciones a tener en cuenta al trabajar con la 
 
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Copiar objetos visuales como imágenes estáticas](../power-bi-visualization-copy-paste.md)    
+[Copiar objetos visuales como imágenes estáticas](../visuals/power-bi-visualization-copy-paste.md)    
 [Imprimir un informe](end-user-print.md)

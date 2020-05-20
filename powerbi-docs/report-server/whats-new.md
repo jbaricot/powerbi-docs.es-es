@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348169"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565155"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
 
@@ -247,7 +247,7 @@ En la nueva Vista de modelo de Power BI Desktop, puede ver y trabajar con conjun
 
 #### <a name="accessible-visual-interaction"></a>Interacción de objetos visuales accesible
 
-Ahora puede usar la navegación con el teclado para acceder a los puntos de datos en muchos de los objetos visuales integrados. Obtenga más información sobre [Accesibilidad en los informes de Power BI](../desktop-accessibility.md).
+Ahora puede usar la navegación con el teclado para acceder a los puntos de datos en muchos de los objetos visuales integrados. Obtenga más información sobre [Accesibilidad en los informes de Power BI](../create-reports/desktop-accessibility-overview.md).
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>Títulos de formato condicional y acciones de dirección URL web
 

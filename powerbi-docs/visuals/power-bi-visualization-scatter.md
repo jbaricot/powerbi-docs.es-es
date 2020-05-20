@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4a6ba7f171f462fe6fe0d386305c82b486db5ed4
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276844"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565035"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersión, de burbujas y de trazado de punto de Power BI
 
@@ -128,7 +128,7 @@ Ahora vamos a agregar una tercera dimensión.
     > [!NOTE]
     > Más puntos de datos pueden significar un tiempo de carga más largo. Si decide publicar informes con límites en el extremo superior de la escala, asegúrese de probar los informes también en la web y en el dispositivo móvil. Desea confirmar que el rendimiento del gráfico se adapta a las expectativas de los usuarios.
 
-1. Continúe con la aplicación de formato a los colores de la visualización, las etiquetas, los títulos, el fondo, etc. Para [mejorar la accesibilidad](../desktop-accessibility.md), considere la posibilidad de agregar formas de marcador a cada línea. Para seleccionar la forma del marcador, expanda **Formas**, seleccione **Forma de marcador** y seleccione una forma.
+1. Continúe con la aplicación de formato a los colores de la visualización, las etiquetas, los títulos, el fondo, etc. Para [mejorar la accesibilidad](../create-reports/desktop-accessibility-overview.md), considere la posibilidad de agregar formas de marcador a cada línea. Para seleccionar la forma del marcador, expanda **Formas**, seleccione **Forma de marcador** y seleccione una forma.
 
     ![Captura de pantalla de la lista desplegable Formas con las opciones de Forma de marcador indicadas.](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 

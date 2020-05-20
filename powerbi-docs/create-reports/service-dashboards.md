@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 35e5d3b93305f8f2271db6343164cad8b57a4bfd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c687486af1293660af5496e27ea707bb1afeec80
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348859"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564561"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introducción a los paneles para los diseñadores de Power BI
 
@@ -22,7 +22,7 @@ Un *panel* de Power BI incluye una única página, que se suele denominar lienzo
 
 ![Panel](media/service-dashboards/power-bi-dashboard2.png)
 
-Los paneles son una característica exclusiva del servicio Power BI. y no están disponibles en Power BI Desktop. Aunque no puede crear paneles en dispositivos móviles, puede [verlos y compartirlos allí]../consumer/mobile/mobile-apps-view-dashboard.md).
+Los paneles son una característica exclusiva del servicio Power BI. y no están disponibles en Power BI Desktop. Aunque no se pueden crear paneles en dispositivos móviles, puede [verlos y compartirlos](../consumer/mobile/mobile-apps-view-dashboard.md) desde allí.
 
 ## <a name="dashboard-basics"></a>Conceptos básicos de los paneles 
 

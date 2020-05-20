@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 380057c2c65db3ea659adc39d692d8955201483b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273532"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565132"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver informes de Power BI optimizados para el teléfono
 
@@ -60,7 +60,7 @@ Los informes de teléfono también ofrecen un modo de enfoque: se obtiene una vi
 
 * En un informe para móviles, pulse los puntos suspensivos ( **...** ) en la esquina superior derecha de un objeto visual > **Ampliar al modo enfocado**.
   
-    ![Ampliar al modo enfocado](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Ampliar al modo enfocado](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
 Lo que se hace en el modo de enfoque se trasmite al lienzo del informe y viceversa. Por ejemplo, si resalta un valor en un objeto visual y después vuelve al informe completo, este se filtra por el valor resaltado en el objeto visual.
 
@@ -72,7 +72,7 @@ Algunas acciones solo son posibles en el modo de enfoque debido a restricciones 
   
     Para borrar todas las exploraciones de un objeto visual, pulse los puntos suspensivos ( **...** ) > **Revert** (Revertir).
   
-    ![Revertir](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Revertir](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
     Revertir está disponible en el nivel de informe, donde borra la exploración de todos los objetos visuales, o en el nivel de objeto visual, donde quita la exploración del objeto visual seleccionado.   
 
@@ -86,14 +86,14 @@ Hay pocos tipos de exploración en profundidad:
 2. Aparece la información sobre herramientas y, si la jerarquía está definida, el pie de página de la información sobre herramientas muestra la flecha hacia abajo y hacia arriba para explorar en profundidad.
 3. Pulse en la flecha hacia abajo para explorar en profundidad
 
-    ![Pulsado en Explorar en profundidad](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![Pulsado en Explorar en profundidad](media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. Pulse en la flecha hacia arriba para resumir.
 
 ### <a name="drill-to-next-level"></a>Exploración al nivel siguiente
 1. En un informe de un móvil, pulse los puntos suspensivos ( **...** ) en la esquina superior derecha > **Ampliar al modo enfocado**.
    
-    ![Ampliar al modo enfocado](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Ampliar al modo enfocado](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     En este ejemplo, las barras muestran los valores de los estados.
 2. Pulse el icono de exploración ![Icono de exploración](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) en la parte inferior izquierda.
@@ -111,7 +111,7 @@ Hay pocos tipos de exploración en profundidad:
     ![Expandido al nivel inferior](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
 5. Para volver al nivel original, puntee vuelve a pulsar los puntos suspensivos ( **...** ) > **Revert** (Revertir).
    
-    ![Revertir](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Revertir](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>Obtención de detalles de un valor
 La obtención de detalles conecta valores de una página de informe con otras páginas de informe. Al obtener detalles de un punto de datos a otra página de informe, los valores del punto de datos se usan para filtrar la página cuyos detalles se han obtenido, o está en el contexto de los datos seleccionados.
@@ -121,11 +121,11 @@ Los autores de informes pueden [definir la obtención de detalles](https://docs.
 2. Aparece la información sobre herramientas y, si la obtención de detalles está definida, el pie de página de la información sobre herramientas muestra la flecha de obtención de detalles.
 3. Pulse en la flecha para obtener detalles
 
-    ![Pulsado en Obtener detalles](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![Pulsado en Obtener detalles](media/mobile-apps-view-phone-report/report-drill-through1.png)
 
 4. Seleccione la página de informe cuyos detalles se van a obtener
 
-    ![Seleccionar página del informe](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![Seleccionar página del informe](media/mobile-apps-view-phone-report/report-drill-through2.png)
 
 5. Use el botón Atrás en el encabezado de la aplicación para volver a la página desde la que ha empezado.
 
@@ -133,5 +133,5 @@ Los autores de informes pueden [definir la obtención de detalles](https://docs.
 ## <a name="next-steps"></a>Pasos siguientes
 * [Creación de informes optimizados para las aplicaciones móviles de Power BI](../../create-reports/desktop-create-phone-report.md)
 * [Create a phone view of a dashboard in Power BI (Crear una vista de teléfono de un panel en Power BI)](../../create-reports/service-create-dashboard-mobile-phone-view.md)
-* [Crear objetos visuales con capacidad de respuesta optimizados para cualquier tamaño](../../visuals/desktop-create-responsive-visuals.md)
+* [Crear objetos visuales con capacidad de respuesta optimizados para cualquier tamaño](../../visuals/power-bi-report-visualizations.md)
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

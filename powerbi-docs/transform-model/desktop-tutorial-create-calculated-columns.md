@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 858ecc07deabf5b91295220c2b92791b998ecf3a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e5394a9ac7b7dbfc9edcfac53ea87d061e306a47
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349250"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565842"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Crear columnas calculadas en Power BI Desktop
 
@@ -46,7 +46,7 @@ En su informe de ventas, desea mostrar categorías y subcategorías de producto 
 
 2. De forma predeterminada, una nueva columna calculada se denomina **Columna**. Si no cambia su nombre, las nuevas columnas adicionales se denominarán **Columna 2**, **Columna 3** y así sucesivamente. Quiere que la columna sea más fácil de identificar, por lo que, con el nombre **Columna** resaltado en la barra de fórmulas, cámbielo escribiendo **ProductFullCategory** y luego escriba un signo igual ( **=** ).
 
-3. Quiere que los valores de la nueva columna empiecen con el nombre que se indica en el campo **ProductCategory**. Dado que esta columna está en una tabla diferente pero relacionada, vamos a usar la función [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) para ayudarle a conseguir su objetivo.
+3. Quiere que los valores de la nueva columna empiecen con el nombre que se indica en el campo **ProductCategory**. Dado que esta columna está en una tabla diferente pero relacionada, vamos a usar la función [RELATED](/dax/related-function-dax) para ayudarle a conseguir su objetivo.
 
    Después del signo igual escriba **r**. Una lista desplegable de sugerencias muestra todas las funciones DAX que empiezan por la letra R. Al seleccionar cada función, se muestra una descripción de su efecto. A medida que escribe, la lista de sugerencias se aproxima más a la función que necesita. Seleccione **RELATED** y presione **Intro**.
 
@@ -97,7 +97,7 @@ Ahora puede usar la nueva columna **ProductFullCategory** para ver **SalesAmount
 
 El ejemplo de las ventas de Contoso contiene datos de ventas de tiendas activas e inactivas. Quiere asegurarse de que las ventas de las tiendas activas están claramente separadas de las ventas de las tiendas inactivas en el informe mediante la creación de un campo **Active StoreName**. En la nueva columna calculada **Active StoreName**, cada tienda activa aparecerá con el nombre completo de la tienda, mientras que las ventas de las tiendas inactivas se agruparán en un elemento de línea denominado **Inactive**.
 
-Afortunadamente, la tabla **Stores** tiene una columna denominada **Status**, con valores de "On" para las tiendas activas y "Off" para las tiendas inactivas, que podemos usar para crear valores para nuestra nueva columna **Active StoreName**. La fórmula DAX usará la función lógica [IF](https://msdn.microsoft.com/library/ee634824.aspx) para comprobar el **Status** de cada tienda y devolver un valor determinado dependiendo del resultado. La fórmula devolverá el nombre de la tienda si esta tiene un **Status** "On". Si el estado es "Off", la fórmula asignará un valor de **Active StoreName** de "Inactive".
+Afortunadamente, la tabla **Stores** tiene una columna denominada **Status**, con valores de "On" para las tiendas activas y "Off" para las tiendas inactivas, que podemos usar para crear valores para nuestra nueva columna **Active StoreName**. La fórmula DAX usará la función lógica [IF](/dax/if-function-dax) para comprobar el **Status** de cada tienda y devolver un valor determinado dependiendo del resultado. La fórmula devolverá el nombre de la tienda si esta tiene un **Status** "On". Si el estado es "Off", la fórmula asignará un valor de **Active StoreName** de "Inactive".
 
 1. Cree una nueva columna calculada en la tabla **Stores** y llámela **Active StoreName** en la barra de fórmulas.
 
@@ -133,4 +133,4 @@ Las columnas calculadas pueden enriquecer los datos y proporcionar información 
 
 Si desea profundizar más en las fórmulas DAX y crear columnas calculadas con fórmulas DAX más avanzadas, consulte [Aspectos básicos de DAX en Power BI Desktop](desktop-quickstart-learn-dax-basics.md). Ese artículo se centra en los conceptos fundamentales en DAX, como la sintaxis, las funciones y una explicación más exhaustiva sobre el contexto.
 
-Asegúrese de agregar la [Referencia de expresiones de análisis de datos (DAX)](https://msdn.microsoft.com/library/gg413422.aspx) a sus favoritos. Ahí encontrará información detallada sobre la sintaxis y los operadores de DAX, así como sus 200 funciones.
+Asegúrese de agregar la [Referencia de expresiones de análisis de datos (DAX)](/dax/) a sus favoritos. Ahí encontrará información detallada sobre la sintaxis y los operadores de DAX, así como sus 200 funciones.

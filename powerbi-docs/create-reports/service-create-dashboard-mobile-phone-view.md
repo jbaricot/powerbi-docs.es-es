@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93d94aadb8e7606fd6d55c463a2be88f87e48047
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa75d1cbe04f33197bf8941fd101c66384142dd
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314866"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565819"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Optimización de un panel para teléfonos móviles: Power BI 
 Al ver los paneles en modo vertical en un teléfono, observará que los iconos del panel se colocan uno tras otro y tienen todos el mismo tamaño. En el servicio Power BI puede crear una vista personalizada de un panel, específicamente para el modo vertical de los teléfonos. Incluso si crea una vista para teléfono, al poner el teléfono en modo horizontal, verá el panel como se ha diseñado en el servicio.
@@ -57,5 +57,5 @@ Al ver los paneles en modo vertical en un teléfono, observará que los iconos d
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Crear informes optimizados para las aplicaciones de teléfono de Power BI](desktop-create-phone-report.md)
-* [Crear objetos visuales con capacidad de respuesta optimizados para cualquier tamaño](../visuals/desktop-create-responsive-visuals.md)
+* [Crear objetos visuales con capacidad de respuesta optimizados para cualquier tamaño](../visuals/power-bi-report-visualizations.md)
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

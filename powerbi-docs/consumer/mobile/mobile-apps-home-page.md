@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 16d62af90855c99f9d50c35dd411ef50f2a9a4e6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205674"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565178"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>Un paseo rápido por la página de inicio de la aplicación móvil
 En este paseo, se familiarizará con la página de inicio de la aplicación móvil de Power BI y las ayudas de navegación que proporciona para que obtenga rápidamente lo que necesita.
@@ -41,7 +41,7 @@ La fuente de actividades ayuda a realizar el seguimiento de lo que ocurre con el
 Las actualizaciones de la fuente incluyen lo siguiente:
 * **Datos actualizados**: cuando se actualizan los datos subyacentes de uno de los informes o paneles favoritos o recientes.
 * **Nuevos comentarios**: cuando los usuarios crean un comentario en un informe o panel que se encuentra en los favoritos o recientes, o bien cuando alguien lo menciona en un comentario.
-* **Alertas de datos**: cuando los datos alcanzan un umbral establecido previamente en una [alerta de datos](../../mobile-set-data-alerts-in-the-mobile-apps.md).
+* **Alertas de datos**: cuando los datos alcanzan un umbral establecido previamente en una [alerta de datos](mobile-set-data-alerts-in-the-mobile-apps.md).
 * **Actualizaciones de la aplicación**: cuando el creador de una aplicación que usa publica una actualización.
 
  Pulse en un elemento de actividad para ir a la ubicación correspondiente y seguir explorando.
@@ -57,13 +57,13 @@ En la parte inferior de la página se encuentra la barra de navegación.
 La barra de navegación proporciona acceso rápido a:
 
 * ![icono Inicio](./media/mobile-apps-home-page/powerbi-mobile-app-home-icon.png) **Inicio**: le devuelve a la página de inicio.
-* ![icono Favoritos](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **Favoritos**: los informes, paneles y aplicaciones que ha marcado como [favoritos](../../mobile-apps-favorites.md).
+* ![icono Favoritos](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **Favoritos**: los informes, paneles y aplicaciones que ha marcado como [favoritos](mobile-apps-favorites.md).
 * ![icono de aplicaciones](./media/mobile-apps-home-page/powerbi-mobile-app-apps-icon.png) **Aplicaciones**: las aplicaciones que ha instalado en la cuenta.
 * ![icono de áreas de trabajo](./media/mobile-apps-home-page/powerbi-mobile-app-workspaces-icon.png) **Áreas de trabajo**: las carpetas de trabajo en las que se agrupan los informes y paneles que compilan los creadores de contenido.
 * ![icono Recientes](./media/mobile-apps-home-page/powerbi-mobile-app-recents-icon.png) **Recientes**: los elementos que ha visto recientemente.
 * ![icono compartido conmigo](./media/mobile-apps-home-page/powerbi-mobile-app-shared-with-me-icon.png) **Compartido conmigo**: los elementos que otras personas han compartido con usted.
 * ![icono ejemplos](./media/mobile-apps-home-page/powerbi-mobile-app-samples-icon.png) **Ejemplos**: ejemplos de Power BI que puede usar para obtener información sobre las funciones de Power BI.
-* ![icono del escáner](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **Escáner**: la cámara del dispositivo que puede usar como escáner para examinar [códigos de barras](../../mobile-apps-scan-barcode-iphone.md) y [códigos QR](../../mobile-apps-qr-code.md).
+* ![icono del escáner](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **Escáner**: la cámara del dispositivo que puede usar como escáner para examinar [códigos de barras](mobile-apps-scan-barcode-iphone.md) y [códigos QR](mobile-apps-qr-code.md).
 
 ## <a name="header"></a>Encabezado
 
@@ -72,11 +72,11 @@ En la parte superior de la página, el encabezado muestra el nombre de la págin
 ![header](./media/mobile-apps-home-page/powerbi-mobile-app-header.png)
 
 El encabezado proporciona los siguientes elementos de navegación:
-* **Imagen de perfil o avatar**: abre el panel lateral en el que puede [cambiar entre las cuentas del servicio Power BI y el servidor de informes](../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md), así como acceder la configuración de la aplicación móvil de Power BI.
+* **Imagen de perfil o avatar**: abre el panel lateral en el que puede [cambiar entre las cuentas del servicio Power BI y el servidor de informes](mobile-app-ssrs-kpis-mobile-on-premises-reports.md), así como acceder la configuración de la aplicación móvil de Power BI.
 
     ![Panel lateral](./media/mobile-apps-home-page/powerbi-mobile-app-side-panel.png)
 
-* **Notificaciones**: abre la página [Notificaciones](../../mobile-apps-notification-center.md) donde puede ver y acceder a las notificaciones. Un punto en la campana de notificaciones indica que tiene nuevas notificaciones.
+* **Notificaciones**: abre la página [Notificaciones](mobile-apps-notification-center.md) donde puede ver y acceder a las notificaciones. Un punto en la campana de notificaciones indica que tiene nuevas notificaciones.
 
     ![Página de notificaciones](./media/mobile-apps-home-page/powerbi-mobile-app-notifications-page.png)
 
@@ -86,5 +86,5 @@ El encabezado proporciona los siguientes elementos de navegación:
 
 ## <a name="next-steps"></a>Pasos siguientes
 En este paseo, ha explorado la página de inicio de la aplicación móvil de Power BI. Obtenga más información sobre cómo usar la aplicación móvil de Power BI. 
-* [Exploración de paneles e informes](../../mobile-apps-quickstart-view-dashboard-report.md)
-* [Exploración de informes en las aplicaciones móviles de Power BI](../../mobile-reports-in-the-mobile-apps.md)
+* [Exploración de paneles e informes](mobile-apps-quickstart-view-dashboard-report.md)
+* [Exploración de informes en las aplicaciones móviles de Power BI](mobile-reports-in-the-mobile-apps.md)

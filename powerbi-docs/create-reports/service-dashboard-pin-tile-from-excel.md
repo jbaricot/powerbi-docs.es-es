@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3f3b5f8967890a3bb0cda3464b8d122d40938f62
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 283b43ef60d88df64b66812956e79bdcce1f16e9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322019"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565796"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Anclar un icono a un panel de Power BI desde Excel
 Antes de poder anclar un icono del libro de Excel, deberá conectar ese libro al servicio Power BI (app.powerbi.com). Al conectar un libro, básicamente se incorpora una versión vinculada de solo lectura de ese libro al servicio Power BI, lo que permite anclar intervalos a los paneles. Puede incluso anclar una hoja de cálculo entera a un panel.  
@@ -80,7 +80,7 @@ Al seleccionar un icono de libro se abre el libro vinculado en Power BI. Puesto 
  ![Vídeo](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-Características no compatibles: Power BI usa Excel Services para recuperar los iconos del libro. Por lo tanto, dado que no se admiten algunas características de Excel en la API de REST de Excel Services, no se verán en los iconos de Power BI. Por ejemplo: minigráficos, formato condicional del conjunto de iconos y segmentaciones de tiempo. Para obtener una lista completa de características no compatibles, consulte [Características no admitidas en la API de REST de Excel Services](https://msdn.microsoft.com/library/office/ff394477.aspx)
+Características no compatibles: Power BI usa Excel Services para recuperar los iconos del libro. Por lo tanto, dado que no se admiten algunas características de Excel en la API de REST de Excel Services, no se verán en los iconos de Power BI. Por ejemplo: minigráficos, formato condicional del conjunto de iconos y segmentaciones de tiempo. Para obtener una lista completa de características no compatibles, consulte [Características no admitidas en la API de REST de Excel Services](/sharepoint/dev/general-development/unsupported-features-in-excel-services-rest-api)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Compartir un panel que contiene vínculos a un libro de Excel](../collaborate-share/service-share-dashboard-that-links-to-excel-onedrive.md)
