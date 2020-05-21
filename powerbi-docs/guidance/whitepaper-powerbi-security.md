@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407534"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565286"
 ---
 # <a name="power-bi-security-whitepaper"></a>Notas del producto sobre la seguridad de Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "83407534"
 
 **Power BI** es una oferta de servicio de software en línea (_SaaS_o software como servicio) de Microsoft que le permite crear con facilidad y rapidez paneles, informes, conjuntos de información y visualizaciones de Business Intelligence de autoservicio. Con Power BI, se puede conectar a muchos orígenes de datos diferentes, combinar y dar forma a los datos de esas conexiones y, después, crear informes y paneles que se pueden compartir con otros usuarios.
 
-El servicio Power BI se rige por los [términos de Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) y la [Declaración de privacidad de Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para conocer la ubicación de procesamiento de datos, vea los términos de ubicación de procesamiento de datos de los Términos de Microsoft Online Services. Para obtener información de cumplimiento, el [Centro de confianza de Microsoft](https://www.microsoft.com/trustcenter) es el principal recurso para Power BI. El equipo de Power BI se esfuerza para brindar a sus clientes las innovaciones y la productividad más recientes. Power BI está actualmente en el nivel D del [marco de cumplimiento de Office 365](https://www.microsoft.com/trust-center/compliance/compliance-overview).
+El servicio Power BI se rige por los [términos de Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) y la [Declaración de privacidad de Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para conocer la ubicación de procesamiento de datos, vea los términos de ubicación de procesamiento de datos de los Términos de Microsoft Online Services. Para obtener información de cumplimiento, el [Centro de confianza de Microsoft](https://www.microsoft.com/trustcenter) es el principal recurso para Power BI. El equipo de Power BI se esfuerza para brindar a sus clientes las innovaciones y la productividad más recientes. Power BI está actualmente en el nivel D del marco de cumplimiento de Microsoft 365. Obtenga más información sobre el cumplimiento en el [centro de confianza de Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview).
 
 En este artículo se describe la seguridad de Power BI a través de una explicación de su arquitectura; después se explica cómo se autenticarán los usuarios en Power BI y cómo se establecen las conexiones de datos y, luego, cómo se almacenan y mueven los datos a través del servicio en Power BI. La última sección está dedicada a preguntas relacionadas con la seguridad, con las respuestas correspondientes.
 
@@ -87,13 +87,13 @@ Power BI usa dos repositorios principales para almacenar y administrar datos: lo
 
 Por ejemplo, cuando un usuario importa un libro de Excel al servicio Power BI, se crea una base de datos tabular de Analysis Services en memoria, y los datos se almacenan en memoria hasta un máximo de una hora (o hasta que en el sistema se produzca presión de memoria). Los datos también se envían a **Azure Blob Storage**.
 
-Los metadatos sobre la suscripción de Power BI de un usuario, como paneles, informes, orígenes de datos recientes, áreas de trabajo, información de la organización y del inquilino, y otros metadatos sobre el sistema, se almacenan y actualizan en **Azure SQL Database**. Toda la información almacenada en Azure SQL Database está totalmente cifrada mediante la tecnología [Cifrado de datos transparente (TDE) de Azure SQL](https://msdn.microsoft.com/library/dn948096.aspx). También se cifran todos los datos que se almacenan en Azure Blob Storage. En la sección **Almacenamiento y movimiento de datos** se describe más información sobre el proceso de carga, almacenamiento y movimiento de los datos.
+Los metadatos sobre la suscripción de Power BI de un usuario, como paneles, informes, orígenes de datos recientes, áreas de trabajo, información de la organización y del inquilino, y otros metadatos sobre el sistema, se almacenan y actualizan en **Azure SQL Database**. Toda la información almacenada en Azure SQL Database está totalmente cifrada mediante la tecnología [Cifrado de datos transparente (TDE) de Azure SQL](/azure/sql-database/transparent-data-encryption-azure-sql). También se cifran todos los datos que se almacenan en Azure Blob Storage. En la sección **Almacenamiento y movimiento de datos** se describe más información sobre el proceso de carga, almacenamiento y movimiento de los datos.
 
 ## <a name="tenant-creation"></a>Creación de inquilinos
 
 Un inquilino es una instancia dedicada del servicio Azure AD que una organización recibe y posee cuando se suscribe a un servicio en la nube de Microsoft como Azure, Microsoft Intune, Office 365 o Power BI. Cada inquilino de Azure AD es distinto e independiente de los demás inquilinos de Azure AD.
 
-Un inquilino aloja los usuarios de una empresa y la información sobre ellos: sus contraseñas, datos de perfil de usuario, permisos, etc. También contiene grupos, aplicaciones y otra información relativa a una organización y su seguridad. Para obtener más información, consulte [¿Qué es un inquilino de Azure ad](https://msdn.microsoft.com/library/azure/jj573650.aspx#BKMK_WhatIsAnAzureADTenant).
+Un inquilino aloja los usuarios de una empresa y la información sobre ellos: sus contraseñas, datos de perfil de usuario, permisos, etc. También contiene grupos, aplicaciones y otra información relativa a una organización y su seguridad. Para obtener más información, consulte [¿Qué es un inquilino de Azure ad](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings).
 
 Un inquilino de Power BI se crea en el centro de datos que se considera más cercano a la información del país (o región) y el estado proporcionada para el inquilino en Azure Active Directory, que se proporciona cuando se aprovisiona inicialmente el servicio de Office 365 o Power BI. El inquilino de Power BI no se mueve de esa ubicación de centro de datos hoy.
 
@@ -172,7 +172,7 @@ Una consulta de un conjunto de datos de importación consta de una colección de
 En la tabla siguiente se describen los datos de Power BI en función del tipo de consulta que se usa. Una **X** indica la presencia de datos de Power BI al usar el tipo de consulta asociado.
 
 
-|  |Importar  |DirectQuery  |Live Connect  |
+|  |Importación  |DirectQuery  |Live Connect  |
 |---------|---------|---------|---------|
 |Schema     |     X    |    X     |         |
 |Datos de fila     |    X     |         |         |
@@ -198,7 +198,7 @@ La clave de cifrado de claves (KEK) que se usa para cifrar la CEK es una clave p
 
 Las claves de cifrado de puerta de enlace basadas en la clave de recuperación nunca abandonan una infraestructura local. Power BI no puede acceder a los valores de las credenciales cifradas en el entorno local y no puede interceptarlas; los clientes web cifran la credencial con una clave pública que está asociada con la puerta de enlace con la que se comunica.
 
-Para los orígenes de datos basados en la nube, el rol de movimiento de datos cifra las claves de cifrado con métodos de [Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx). Obtenga más información sobre la [característica de base de datos Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx).
+Para los orígenes de datos basados en la nube, el rol de movimiento de datos cifra las claves de cifrado con métodos de [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine). Obtenga más información sobre la [característica de base de datos Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine).
 
 #### <a name="datasets"></a>Conjuntos de datos
 
@@ -356,7 +356,7 @@ En la tabla siguiente se muestra la compatibilidad de autenticación basada en c
 
 | **Compatibilidad con CBA** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
-| **Power BI** (inicio de sesión en el servicio) | admitido | admitido | No compatible |
+| **Power BI** (inicio de sesión en el servicio) | admitido | admitido | Incompatible |
 | **SSRS ADFS** (conectarse al servidor SSRS) | No compatible | Compatible | No compatible |
 
 Las aplicaciones Power BI Mobile se comunican activamente con el servicio Power BI. Se usan datos de telemetría para recopilar estadísticas de uso y datos similares de las aplicaciones móviles, que se transmiten a los servicios que se usan para supervisar el uso y la actividad; no se envían datos personales con los datos de telemetría.
@@ -381,7 +381,7 @@ Las preguntas siguientes son preguntas y respuestas comunes sobre seguridad para
 
 **¿Cómo se conectan los usuarios y obtienen acceso a los orígenes de datos mientras usan Power BI?**
 
-* **Credenciales de Power BI y credenciales de dominio:** Los usuarios inician sesión en Power BI mediante una dirección de correo electrónico; Cuando un usuario intenta conectarse a un recurso de datos, Power BI pasa la dirección de correo electrónico de inicio de sesión de Power BI como credenciales. Para los recursos conectados a un dominio (ya sea local o basado en la nube), el servicio de directorio compara el correo electrónico de inicio de sesión con un _Nombre principal de usuario_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) para determinar si existen credenciales suficientes para permitir el acceso. En el caso de las organizaciones que usan direcciones de correo electrónico basadas en el trabajo para iniciar sesión en Power BI (el mismo correo electrónico que usan para iniciar sesión en los recursos de trabajo, como _david@contoso.com_ ), la asignación puede producirse sin problemas; en el caso de las organizaciones que no usan direcciones de correo electrónico basadas en el trabajo (como _david@contoso.onmicrosoft.com_ ), se debe establecer la asignación de directorios para permitir el Power BI acceso
+* **Credenciales de Power BI y credenciales de dominio:** Los usuarios inician sesión en Power BI mediante una dirección de correo electrónico; Cuando un usuario intenta conectarse a un recurso de datos, Power BI pasa la dirección de correo electrónico de inicio de sesión de Power BI como credenciales. Para los recursos conectados a un dominio (ya sea local o basado en la nube), el servicio de directorio compara el correo electrónico de inicio de sesión con un _Nombre principal de usuario_ ([UPN](/windows/win32/secauthn/user-name-formats)) para determinar si existen credenciales suficientes para permitir el acceso. En el caso de las organizaciones que usan direcciones de correo electrónico basadas en el trabajo para iniciar sesión en Power BI (el mismo correo electrónico que usan para iniciar sesión en los recursos de trabajo, como _david@contoso.com_ ), la asignación puede producirse sin problemas; en el caso de las organizaciones que no usan direcciones de correo electrónico basadas en el trabajo (como _david@contoso.onmicrosoft.com_ ), se debe establecer la asignación de directorios para permitir el Power BI acceso
 
 * **SQL Server Analysis Services y Power BI:** En el caso de las organizaciones que usan SQL Server Analysis Services locales, Power BI ofrece la Power BI puerta de enlace de datos local (que es una **puerta de enlace**, como se hace referencia en las secciones anteriores).  La puerta de enlace de datos local de Power BI puede exigir la seguridad de nivel de rol (RLS) en los orígenes de datos. Para más información sobre RLS, vea **Autenticación de usuarios en orígenes de datos** anteriormente en este documento. Para obtener más información acerca de las puertas de enlace, consulte [puerta de enlace de datos local](../connect-data/service-gateway-onprem.md).
 
@@ -487,8 +487,8 @@ Para obtener más información sobre Power BI, vea los recursos siguientes.
 
 - [Grupos en Power BI](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Introducción a Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Información general sobre la API REST de Power BI](https://msdn.microsoft.com/library/dn877544.aspx)
-- [Referencia de la API de Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
+- [Información general sobre la API REST de Power BI](/rest/api/power-bi/)
+- [Referencia de la API de Power BI](/rest/api/power-bi/)
 - [Puerta de enlace de datos local](../connect-data/service-gateway-onprem.md)
 - [Nubes nacionales de Power BI](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
