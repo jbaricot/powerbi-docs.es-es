@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a80870963cf045730fff18413884d9871354b169
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565286"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792906"
 ---
 # <a name="power-bi-security-whitepaper"></a>Notas del producto sobre la seguridad de Power BI
 
@@ -91,11 +91,11 @@ Los metadatos sobre la suscripción de Power BI de un usuario, como paneles, inf
 
 ## <a name="tenant-creation"></a>Creación de inquilinos
 
-Un inquilino es una instancia dedicada del servicio Azure AD que una organización recibe y posee cuando se suscribe a un servicio en la nube de Microsoft como Azure, Microsoft Intune, Office 365 o Power BI. Cada inquilino de Azure AD es distinto e independiente de los demás inquilinos de Azure AD.
+Un inquilino es una instancia dedicada del servicio Azure AD que una organización recibe y posee cuando se suscribe a un servicio en la nube de Microsoft, como Azure, Microsoft Intune, Power BI o Microsoft 365. Cada inquilino de Azure AD es distinto e independiente de los demás inquilinos de Azure AD.
 
 Un inquilino aloja los usuarios de una empresa y la información sobre ellos: sus contraseñas, datos de perfil de usuario, permisos, etc. También contiene grupos, aplicaciones y otra información relativa a una organización y su seguridad. Para obtener más información, consulte [¿Qué es un inquilino de Azure ad](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings).
 
-Un inquilino de Power BI se crea en el centro de datos que se considera más cercano a la información del país (o región) y el estado proporcionada para el inquilino en Azure Active Directory, que se proporciona cuando se aprovisiona inicialmente el servicio de Office 365 o Power BI. El inquilino de Power BI no se mueve de esa ubicación de centro de datos hoy.
+Se crea un inquilino de Power BI en el centro de datos que se considera más cercano al país (o región) y la información de estado proporcionada para el inquilino en Azure Active Directory, que se proporcionó cuando se aprovisionó inicialmente el Microsoft 365 o el servicio Power BI. El inquilino de Power BI no se mueve de esa ubicación de centro de datos hoy.
 
 ### <a name="multiple-geographies-multi-geo"></a>Varias zonas geográficas (Multi-Geo)
 
@@ -129,7 +129,7 @@ Para obtener más información sobre dónde se almacenan los datos y cómo se us
 
 ## <a name="user-authentication"></a>Autenticación de usuarios
 
-La autenticación de usuarios en el servicio Power BI consta de una serie de solicitudes, respuestas y redireccionamientos entre el explorador del usuario y el servicio Power BI o los servicios de Azure que se usan en Power BI. Esa secuencia describe el proceso de autenticación de usuarios en Power BI. Para más información sobre las opciones para los modelos de autenticación de usuarios (modelos de inicio de sesión) de una organización, vea [Choosing a sign-in model for Office 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/) (Elección de un modelo de inicio de sesión para Office 365).
+La autenticación de usuarios en el servicio Power BI consta de una serie de solicitudes, respuestas y redireccionamientos entre el explorador del usuario y el servicio Power BI o los servicios de Azure que se usan en Power BI. Esa secuencia describe el proceso de autenticación de usuarios en Power BI. Para obtener más información sobre las opciones de los modelos de autenticación de usuario (modelos de inicio de sesión) de una organización, consulte [elección de un modelo de inicio de sesión para Microsoft 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/).
 
 ### <a name="authentication-sequence"></a>Secuencia de autenticación
 
@@ -245,9 +245,9 @@ Power BI proporciona supervisión de integridad de datos de las maneras siguient
 
 1. Metadatos (definición de informe)
 
-   a. Los informes pueden ser de Excel para Office 365 o de Power BI. Lo siguiente se aplica a los metadatos en función del tipo de informe:
+   a. Los informes pueden ser Excel para informes de Microsoft 365 o informes de Power BI. Lo siguiente se aplica a los metadatos en función del tipo de informe:
         
-    &ensp;&ensp;un. Los metadatos de informe de Excel se almacenan cifrados en SQL Azure. Los metadatos también se almacenan en Office 365.
+    &ensp;&ensp;un. Los metadatos de informe de Excel se almacenan cifrados en SQL Azure. Los metadatos también se almacenan en Microsoft 365.
 
     &ensp;&ensp;b. Power BI informes se almacenan cifrados en Azure SQL Database.
 
@@ -255,13 +255,13 @@ Power BI proporciona supervisión de integridad de datos de las maneras siguient
 
    Los datos estáticos incluyen artefactos como imágenes de fondo y objetos visuales de Power BI.
 
-    &ensp;&ensp;un. Para los informes creados con Excel para Office 365, no se almacena nada.
+    &ensp;&ensp;un. En el caso de los informes creados con Excel para Microsoft 365, no se almacena nada.
 
     &ensp;&ensp;b. Para los informes de Power BI, los datos estáticos se almacenan y se cifran en Azure Blob Storage.
 
 3. Memorias caché
 
-    &ensp;&ensp;un. Para los informes creados con Excel para Office 365, no se almacena nada en caché.
+    &ensp;&ensp;un. En el caso de los informes creados con Excel para Microsoft 365, no se almacena nada en la memoria caché.
 
     &ensp;&ensp;b. En el caso de Power BI informes, los datos de los objetos visuales de los informes mostrados se almacenan en caché y se almacenan en la memoria caché de datos visual que se describe en la sección siguiente.
  
