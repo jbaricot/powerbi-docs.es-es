@@ -43,7 +43,7 @@
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Colaboración en un área de trabajo clásica
               href: service-collaborate-power-bi-workspace.md
-            - name: Administración del grupo en Power BI y Office 365
+            - name: "Administración del grupo en Power\_BI y Microsoft\_365"
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
         - name: Publicación y uso compartido del trabajo
           items:
@@ -71,6 +71,8 @@
           items:
             - name: Analizar en Excel
               href: service-analyze-in-excel.md
+            - name: "Tablas destacadas de Power\_BI en Excel"
+              href: service-excel-featured-tables.md
             - name: Solución de problemas con la función Analizar en Excel
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Error: Datos no encontrados en el libro de Excel'

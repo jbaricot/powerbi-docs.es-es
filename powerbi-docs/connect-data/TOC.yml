@@ -174,7 +174,7 @@
           items:
             - name: Uso de conjuntos de datos entre áreas de trabajo
               href: service-datasets-across-workspaces.md
-            - name: Uso compartido de conjuntos de datos (versión preliminar)
+            - name: Uso compartido de conjuntos de datos
               href: service-datasets-share.md
             - name: Permiso de compilación para conjuntos de datos compartidos
               href: service-datasets-build-permissions.md
