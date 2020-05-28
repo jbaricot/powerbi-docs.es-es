@@ -1,6 +1,6 @@
 ---
 title: Colaboración en un área de trabajo clásica
-description: Obtenga información sobre cómo colaborar en archivos de Power BI Desktop en su área de trabajo y con servicios de Office 365, como el uso compartido de archivos en OneDrive para la Empresa, las conversaciones en Exchange, el calendario y las tareas.
+description: Obtenga información sobre cómo colaborar en archivos de Power BI Desktop en su área de trabajo y con servicios de Microsoft 365, como el uso compartido de archivos en OneDrive para la Empresa, las conversaciones en Exchange, el calendario y las tareas.
 author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 70e5a77b4a0669669cd7a80894e3a32b9b8ac49b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7c95bf46998b18534994ebf083d3a118a061f555
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348238"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693552"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>Colaboración en un área de trabajo clásica
 Las áreas de trabajo de Power BI son lugares excelentes para colaborar con sus compañeros de trabajo en paneles, informes y conjuntos de datos para crear *aplicaciones*. En este artículo, se proporciona información sobre las áreas de trabajo *clásicas* originales.  
 
-La colaboración no termina con las áreas de trabajo en Power BI. Al crear una de las áreas de trabajo clásicas en Power BI, se crea automáticamente un grupo de Office 365 en segundo plano. Office 365 ofrece otros servicios de grupo, como el uso compartido de archivos en OneDrive para la Empresa, las conversaciones de Exchange, tareas y calendario compartidos, etc. Más información sobre [grupos en Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
+La colaboración no termina con las áreas de trabajo en Power BI. Al crear una de las áreas de trabajo clásicas en Power BI, se crea automáticamente un grupo de Microsoft 365 en segundo plano. Microsoft 365 ofrece otros servicios de grupo, como el uso compartido de archivos en OneDrive para la Empresa, las conversaciones de Exchange, tareas y calendario compartidos, etc. Más información sobre [grupos en Microsoft 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
 
 > [!NOTE]
-> La versión preliminar de la nueva experiencia de áreas de trabajo cambiará la relación entre las áreas de trabajo de Power BI y los grupos de Office 365. Al crear una de las nuevas áreas de trabajo en Power BI, ya no se creará automáticamente un grupo de Office 365 en segundo plano. Para obtener más información, consulte [Crear nuevas áreas de trabajo en Power BI](service-create-the-new-workspaces.md).
+> La nueva experiencia de áreas de trabajo cambiará la relación entre las áreas de trabajo de Power BI y los grupos de Microsoft 365. Al crear una de las nuevas áreas de trabajo en Power BI, ya no se creará automáticamente un grupo de Microsoft 365 en segundo plano. Para obtener más información, consulte [Crear nuevas áreas de trabajo en Power BI](service-create-the-new-workspaces.md).
 
 Para crear un área de trabajo, se necesita una [licencia de Power BI Pro](../fundamentals/service-features-license-type.md).
 
@@ -41,38 +41,38 @@ Después de crear un archivo de Power BI Desktop, puede publicarlo en un área d
    
     A partir de aquí, es como cualquier otro informe de Power BI. Todos los usuarios del área de trabajo pueden modificar el informe y guardar los iconos en el panel que prefiera.
 
-## <a name="collaborate-in-office-365"></a>Colaborar en Office 365
-La colaboración en Office 365 empieza en el área de trabajo clásica en Power BI.
+## <a name="collaborate-in-microsoft-365"></a>Colaboración en Microsoft 365
+La colaboración en Microsoft 365 empieza en el área de trabajo clásica de Power BI.
 
 1. En el servicio Power BI, seleccione la flecha situada junto a **Áreas de trabajo**, seleccione **Más opciones** (...) junto al nombre del área de trabajo. 
    
    ![Menú Áreas de trabajo](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. En este menú, puede colaborar con su grupo de varias maneras: 
    
-   * Mantener una [conversación de grupo en Office 365](#have-a-group-conversation-in-office-365).
+   * Mantener una [conversación de grupo en Microsoft 365](#have-a-group-conversation-in-microsoft-365).
    * [Programar un evento](#schedule-an-event-on-the-group-workspace-calendar) en el calendario del área de trabajo de grupo.
    
-   La primera vez que vaya a su área de trabajo de grupo de Office 365, puede tardar algún tiempo. Espere de 15 a 30 minutos y actualice el explorador.
+   La primera vez que vaya a su área de trabajo de grupo de Microsoft 365, puede tardar algún tiempo. Espere de 15 a 30 minutos y actualice el explorador.
 
-## <a name="have-a-group-conversation-in-office-365"></a>Mantenimiento de una conversación de grupo en Office 365
+## <a name="have-a-group-conversation-in-microsoft-365"></a>Mantenimiento de una conversación de grupo en Microsoft 365
 1. Seleccione **Más opciones** (…) junto al nombre del área de trabajo \> **Conversaciones**. 
    
     ![Pestaña Conversaciones](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
-   El sitio de correo electrónico y conversación del área de trabajo de grupo se abrirá en Outlook para Office 365.
+   El sitio de correo electrónico y conversación del área de trabajo de grupo se abrirá en Outlook para Microsoft 365.
    
    ![Elemento de menú Calendario](media/service-collaborate-power-bi-workspace/pbi_grps_o365convo.png)
-2. Más información sobre las [conversaciones en grupo en Outlook para Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
+2. Obtenga más información sobre las [conversaciones en grupo en Outlook para Microsoft 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
 ## <a name="schedule-an-event-on-the-group-workspace-calendar"></a>Programación de un evento en el calendario del área de trabajo de grupo
 1. Seleccione **Más opciones** (…) junto al nombre del área de trabajo \> **Calendario**. 
    
    ![Pestaña Calendario](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
-   El calendario del área de trabajo de grupo se abrirá en Outlook para Office 365.
+   El calendario del área de trabajo de grupo se abrirá en Outlook para Microsoft 365.
    
-   ![Outlook para Office 365](media/service-collaborate-power-bi-workspace/pbi_grps_o365_calendar.png)
-2. Más información sobre los [calendarios de grupo de Outlook en Office 365](https://support.office.com/Article/Add-edit-and-subscribe-to-group-events-0cf1ad68-1034-4306-b367-d75e9818376a).
+   ![Outlook para Microsoft 365](media/service-collaborate-power-bi-workspace/pbi_grps_o365_calendar.png)
+2. Obtenga más información sobre los [calendarios de grupo de Outlook en Microsoft 365](https://support.office.com/Article/Add-edit-and-subscribe-to-group-events-0cf1ad68-1034-4306-b367-d75e9818376a).
 
 ## <a name="manage-a-classic-workspace"></a>Administración de un área de trabajo clásica
 Si es el propietario o administrador de un área de trabajo, puede agregar o quitar miembros del área de trabajo. Obtenga más información sobre cómo [administrar un área de trabajo de Power BI](service-manage-app-workspace-in-power-bi-and-office-365.md).

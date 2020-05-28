@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: e621deb2cc2db74d8836900aa65105a075d4cd3c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c7d1c9a29c95cb039c90fd339f6e6a38de111916
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139633"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563694"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Configurar aplicaciones móviles con Microsoft Intune
 
@@ -24,7 +24,7 @@ Microsoft Intune permite a las organizaciones administrar dispositivos y aplicac
 
 En este artículo se supone que Intune está configurado correctamente y que tiene dispositivos inscritos con Intune. Este artículo no está pensado como una guía de configuración completa de Microsoft Intune. Para obtener más información sobre Intune, vea [¿Qué es Intune?](/intune/introduction-intune/)
 
-Microsoft Intune puede coexistir con Administración de dispositivos móviles (MDM) en Office 365. Si usa MDM, el dispositivo se mostrará inscrito en MDM, pero disponible para administrarse en Intune.
+Microsoft Intune puede coexistir con administración de dispositivos móviles (MDM) en Microsoft 365. Si usa MDM, el dispositivo se mostrará inscrito en MDM, pero disponible para administrarse en Intune.
 
 > [!NOTE]
 > Después de configurar Intune, la actualización de datos en segundo plano se desactiva para la aplicación móvil de Power BI en su dispositivo iOS o Android. Power BI actualizará los datos desde el servicio Power BI en la web cuando se acceda a la aplicación.
@@ -79,7 +79,7 @@ Puede crear primero la aplicación o la directiva primero. No importa el orden e
 
 1. Vaya al portal de Intune y seleccione **Aplicaciones** en el menú izquierdo.
 
-1. Seleccione **Agregar aplicación**. Se iniciará la aplicación **Agregar Software**.
+1. Seleccione **Agregar aplicación**. Se iniciará la aplicación **Agregar Software** .
 
 ### <a name="create-for-ios"></a>Crear para iOS
 
@@ -121,21 +121,21 @@ Después de agregar la aplicación, deberá implementarla para que esté disponi
 
 ### <a name="deploy-for-ios"></a>Implementar para iOS
 
-1. En la pantalla de aplicaciones, seleccione la aplicación que creó. A continuación, seleccione el vínculo **Administrar implementación**.
+1. En la pantalla de aplicaciones, seleccione la aplicación que creó. A continuación, seleccione el vínculo **Administrar implementación** .
 
     ![Administrar la implementación](media/service-admin-mobile-intune/intune-deploy-ios1.png)
 
-1. En la pantalla **Seleccionar grupos**, puede elegir en qué grupos quiere implementar esta aplicación. Seleccione **Siguiente**.
+1. En la pantalla **Seleccionar grupos** , puede elegir en qué grupos quiere implementar esta aplicación. Seleccione **Siguiente**.
 
-1. En la pantalla **Acción de implementación**, puede elegir cómo quiere implementar esta aplicación. Al seleccionar **Instalación disponible**o **Instalación requerida**, la aplicación estará disponible en el Portal de empresa para que los usuarios puedan instalarla a petición. Cuando termine de realizar su selección, seleccione **Siguiente**.
+1. En la pantalla **Acción de implementación** , puede elegir cómo quiere implementar esta aplicación. Al seleccionar **Instalación disponible**o **Instalación requerida**, la aplicación estará disponible en el Portal de empresa para que los usuarios puedan instalarla a petición. Cuando termine de realizar su selección, seleccione **Siguiente**.
 
     ![Acción de implementación](media/service-admin-mobile-intune/intune-deploy-ios2.png)
 
-1. En la pantalla **Administración de aplicaciones móviles**, puede seleccionar la directiva de administración de aplicaciones móviles que creamos en el [paso 2](#step-2-create-a-mobile-application-management-policy). De manera predeterminada, se establecerá la directiva que creó, si es la única directiva de iOS disponible. Seleccione **Siguiente**.
+1. En la pantalla **Administración de aplicaciones móviles**, puede seleccionar la directiva de administración de aplicaciones móviles que creamos en el [Paso 2](#step-2-create-a-mobile-application-management-policy). De manera predeterminada, se establecerá la directiva que creó, si es la única directiva de iOS disponible. Seleccione **Siguiente**.
 
     ![Administración de aplicaciones móviles](media/service-admin-mobile-intune/intune-deploy-ios3.png)
 
-1. En la pantalla **Perfil de VPN**, puede seleccionar una directiva si dispone de una para su organización. El valor predeterminado es **Ninguna**. Seleccione **Siguiente**.
+1. En la pantalla **Perfil de VPN** , puede seleccionar una directiva si dispone de una para su organización. El valor predeterminado es **Ninguna**. Seleccione **Siguiente**.
 
 1. En la pantalla **Configuración de la aplicación móvil** , puede seleccionar una **Directiva de configuración de la aplicación** si creó una. El valor predeterminado es **Ninguna**. Esto no es necesario. Seleccione **Finalizar**.
 
@@ -143,16 +143,16 @@ Después de implementar la aplicación, debería mostrarse **Sí** para indicarl
 
 ### <a name="deploy-for-android"></a>Implementar para Android
 
-1. En la pantalla de aplicaciones, seleccione la aplicación que creó. A continuación, seleccione el vínculo **Administrar implementación**.
+1. En la pantalla de aplicaciones, seleccione la aplicación que creó. A continuación, seleccione el vínculo **Administrar implementación** .
 
     ![Administrar la implementación](media/service-admin-mobile-intune/intune-deploy-android1.png)
-1. En la pantalla **Seleccionar grupos**, puede elegir en qué grupos quiere implementar esta aplicación. Seleccione **Siguiente**.
+1. En la pantalla **Seleccionar grupos** , puede elegir en qué grupos quiere implementar esta aplicación. Seleccione **Siguiente**.
 
-1. En la pantalla **Acción de implementación**, puede elegir cómo quiere implementar esta aplicación. Al seleccionar **Instalación disponible**o **Instalación requerida**, la aplicación estará disponible en el Portal de empresa para que los usuarios puedan instalarla a petición. Cuando termine de realizar su selección, seleccione **Siguiente**.
+1. En la pantalla **Acción de implementación** , puede elegir cómo quiere implementar esta aplicación. Al seleccionar **Instalación disponible**o **Instalación requerida**, la aplicación estará disponible en el Portal de empresa para que los usuarios puedan instalarla a petición. Cuando termine de realizar su selección, seleccione **Siguiente**.
 
     ![Acción de implementación](media/service-admin-mobile-intune/intune-deploy-android2.png)
 
-1. En la pantalla **Administración de aplicaciones móviles**, puede seleccionar la directiva de administración de aplicaciones móviles que creamos en el [paso 2](#step-2-create-a-mobile-application-management-policy). De manera predeterminada, se establecerá la directiva que creó, si es la única directiva de Android disponible. Seleccione **Finalizar**.
+1. En la pantalla **Administración de aplicaciones móviles**, puede seleccionar la directiva de administración de aplicaciones móviles que creamos en el [Paso 2](#step-2-create-a-mobile-application-management-policy). De manera predeterminada, se establecerá la directiva que creó, si es la única directiva de Android disponible. Seleccione **Finalizar**.
 
     ![Administración de aplicaciones móviles](media/service-admin-mobile-intune/intune-deploy-android3.png)
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 11/27/2019
-ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/14/2020
+ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144748"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565515"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>¿Qué son los informes paginados en Power BI Premium?
 
@@ -76,7 +76,7 @@ Estas son algunas otras características que no son compatibles con la versión 
 
 - Anclar páginas de informes u objetos visuales a los paneles de Power BI. Aún puede anclar visualizaciones a un panel de Power BI desde un informe paginado local en un servidor de informes de Power BI o un servidor de informes de Reporting Services. Para más información, consulte [Anclar elementos de Reporting Services en paneles de Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards).
 - Mapas del documento.
-- Subinformes e informes de obtención de detalles.  Sin embargo, puede considerar el uso de parámetros de dirección URL con informes paginados para lograr escenarios de obtención de detalles.
+- Informes detallados.  Plantéese el uso de parámetros de dirección URL con informes paginados en escenarios de obtención de detalles.
 - Orígenes de datos compartidos y conjuntos de datos compartidos.
 
  
@@ -85,4 +85,4 @@ Estas son algunas otras características que no son compatibles con la versión 
 - [Instalación del Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Tutorial: Crear un informe paginado](paginated-reports-quickstart-aw.md)
 - [Escritura directa de datos en un informe paginado](paginated-reports-enter-data.md)
-- [Tutorial: Inserción de informes paginados de Power BI en una aplicación para los clientes](../developer/embed-paginated-reports-customers.md)
+- [Tutorial: Inserción de informes paginados de Power BI en una aplicación para los clientes](../developer/embedded/embed-paginated-reports-customers.md)
