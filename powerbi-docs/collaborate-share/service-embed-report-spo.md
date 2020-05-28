@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 60232b81633542d28b4cd52baf171557e95074c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 046ebacc69642c1e7f399f0a44d7c5a32e411cb1
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143736"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693878"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>Insertar un elemento web de informes en SharePoint Online
 
@@ -79,7 +79,7 @@ Insertar un informe en SharePoint Online no da a los usuarios permiso para ver e
 > [!IMPORTANT]
 > Asegúrese de revisar quién puede ver el informe en el servicio Power BI y de conceder acceso a los usuarios que no están en la lista.
 
-Hay dos formas de proporcionar acceso a los informes en Power BI. La primera, si se usa un grupo de Office 365 para compilar el sitio de grupo de SharePoint Online, es enumerar a los usuarios como miembros del **área de trabajo en el servicio Power BI** y la **página de SharePoint**. Para más información, consulte [Administración de un área de trabajo](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Hay dos formas de proporcionar acceso a los informes en Power BI. La primera, si se usa un grupo de Microsoft 365 para compilar el sitio de grupo de SharePoint Online, es mostrar al usuario como miembro del **área de trabajo en el servicio Power BI** y la **página de SharePoint**. Para más información, consulte [Administración de un área de trabajo](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 La segunda consiste en insertar un informe en una aplicación y compartirla directamente con los usuarios:  
 
@@ -157,7 +157,7 @@ Los usuarios que ven un informe en SharePoint necesitan una **licencia de Power 
 
 * Power BI no admite los mismos idiomas localizados que SharePoint Online. En consecuencia, es posible que no vea una localización correcta en el informe insertado.
 
-* Si utiliza Internet Explorer 10, pueden surgir problemas. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+* Si utiliza Internet Explorer 10, pueden surgir problemas. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * El elemento web de Power BI no está disponible para [nubes nacionales](https://powerbi.microsoft.com/clouds/).
 

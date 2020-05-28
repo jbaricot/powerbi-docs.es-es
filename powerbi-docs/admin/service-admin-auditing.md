@@ -10,22 +10,22 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8fc1f2a668a0dfff4418749e7f3de7e0379b603f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129122"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564624"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Seguimiento de actividades de usuario en Power BI
 
-Es fundamental saber quién realiza cada acción en cada elemento del inquilino de Power BI para ayudar a la organización a satisfacer sus requisitos, como el cumplimiento normativo y la administración de registros. Con Power BI, tiene dos opciones para realizar el seguimiento de la actividad del usuario: El [Registro de actividad de Power BI](#use-the-activity-log) y el [Registro de auditoría de Office 365 unificado](#use-the-audit-log). Estos registros contienen una copia completa de los [datos de auditoría de Power BI](#operations-available-in-the-audit-and-activity-logs), pero hay varias diferencias clave, como se resume en la tabla siguiente.
+Es fundamental saber quién realiza cada acción en cada elemento del inquilino de Power BI para ayudar a la organización a satisfacer sus requisitos, como el cumplimiento normativo y la administración de registros. Con Power BI, tiene dos opciones para realizar el seguimiento de la actividad del usuario: El [Registro de actividad de Power BI](#use-the-activity-log) y el [Registro de auditoría unificado](#use-the-audit-log). Estos registros contienen una copia completa de los [datos de auditoría de Power BI](#operations-available-in-the-audit-and-activity-logs), pero hay varias diferencias clave, como se resume en la tabla siguiente.
 
-| **Registro de auditoría de Office 365 unificado** | **Registro de actividad de Power BI** |
+| **Registro de auditoría unificado** | **Registro de actividad de Power BI** |
 | --- | --- |
 | Incluye eventos de SharePoint Online, Exchange Online, Dynamics 365 y otros servicios además de los eventos de auditoría de Power BI. | Solo incluye los eventos de auditoría de Power BI. |
 | Solo tienen acceso, como administradores globales y auditores, los usuarios con permisos Registros de auditoría o Registros de auditoría de solo lectura. | Los administradores globales y los administradores del servicio Power BI tienen acceso. |
-| Los administradores y auditores globales pueden buscar en el registro de auditoría unificado mediante el Centro de seguridad y cumplimiento de Office 365, el Centro de seguridad de Microsoft 365 y el Centro de cumplimiento de Microsoft 365. | Todavía no hay ninguna interfaz de usuario para buscar en el registro de actividad. |
+| Los administradores y auditores globales pueden buscar en el registro de auditoría unificado mediante el Centro de seguridad de Microsoft 365 y el Centro de cumplimiento de Microsoft 365. | Todavía no hay ninguna interfaz de usuario para buscar en el registro de actividad. |
 | Los administradores y auditores globales pueden descargar entradas del registro de auditoría mediante los cmdlets y las API de administración de Office 365. | Los administradores globales y los administradores del servicio Power BI pueden descargar entradas del registro de actividad mediante una API REST de Power BI y un cmdlet de administración. |
 | Mantiene los datos de auditoría durante 90 días | Mantiene los datos de actividad durante 30 días (versión preliminar pública). |
 | Conserva los datos de auditoría, incluso si el inquilino se mueve a otra región de Azure. | No conserva los datos de actividad cuando el inquilino se mueve a otra región de Azure. |
@@ -105,7 +105,7 @@ $activities[0]
 
 ## <a name="use-the-audit-log"></a>Uso del registro de auditoría
 
-Si su tarea consiste en realizar el seguimiento de las actividades del usuario en Power BI y Office 365, puede trabajar con la auditoría en el Centro de seguridad y cumplimiento de Office 365, o bien usar PowerShell. La auditoría se basa en la funcionalidad de Exchange Online, que se aprovisiona automáticamente para admitir Power BI.
+Si su tarea consiste en realizar el seguimiento de las actividades del usuario en Power BI y Microsoft 365, trabaje con la auditoría en el Centro de seguridad y cumplimiento de Microsoft 365 o use PowerShell. La auditoría se basa en la funcionalidad de Exchange Online, que se aprovisiona automáticamente para admitir Power BI.
 
 Puede filtrar los datos de auditoría por intervalo de fechas, usuario, panel, informe, conjunto de datos y tipo de actividad. También puede descargar las actividades en un archivo .csv (valores separados por comas) para analizarlo sin conexión.
 
@@ -184,7 +184,7 @@ El área **Resultados** tiene la siguiente información sobre cada evento devuel
 
 #### <a name="view-the-details-for-an-event"></a>Ver los detalles de un evento
 
-Para ver más detalles de un evento, seleccione el registro de eventos en la lista de resultados de la búsqueda. Aparece una página **Detalles** con las propiedades detalladas del registro de eventos. En la página **Detalles** se muestran las propiedades en función del servicio de Office 365 donde ocurre el evento.
+Para ver más detalles de un evento, seleccione el registro de eventos en la lista de resultados de la búsqueda. Aparece una página **Detalles** con las propiedades detalladas del registro de eventos. En la página **Detalles** se muestran las propiedades en función del servicio de Microsoft 365 donde ocurre el evento.
 
 Para mostrar estos detalles, seleccione **Más información**. Todas las entradas de Power BI tienen un valor de 20 para la propiedad RecordType. Para obtener información sobre otras propiedades, vea [Propiedades detalladas del registro de auditoría de Office 365](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
 

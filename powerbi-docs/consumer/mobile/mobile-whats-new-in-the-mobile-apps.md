@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349273"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565309"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -274,7 +274,7 @@ El vínculo de informe de apertura que incluye la cadena de consulta ahora se ab
 
 ### <a name="shared-credentials-now-in-android"></a>Credenciales compartidas (ahora en Android)
 
-Iniciar sesión en Power BI desde su aplicación móvil nunca había sido tan fácil. Con las credenciales compartidas, hemos simplificado el proceso de inicio de sesión mediante el uso de otras credenciales de aplicación de Office 365 en el dispositivo para autenticarse en el servicio Power BI.
+Iniciar sesión en Power BI desde su aplicación móvil nunca había sido tan fácil. Con las credenciales compartidas, hemos simplificado el proceso de información de inicio de sesión mediante el uso de otras credenciales de aplicación de Microsoft 365 en el dispositivo para autenticarse en el servicio Power BI.
 
 ### <a name="in-app-urls-now-in-android"></a>Direcciones URL de la aplicación (ahora en Android) 
 
@@ -294,7 +294,7 @@ Lea la entrada de blog [ de Power BI sobre los informes paginados en aplicacione
 
 ### <a name="shared-credentials-ios"></a>Credenciales compartidas (iOS)
 
-Iniciar sesión en Power BI desde su aplicación móvil nunca había sido tan fácil. Con las credenciales compartidas, hemos simplificado el proceso de inicio de sesión mediante el uso de otras credenciales de aplicación de Office 365 en el dispositivo para autenticarse en el servicio Power BI.
+Iniciar sesión en Power BI desde su aplicación móvil nunca había sido tan fácil. Con las credenciales compartidas, hemos simplificado el proceso de información de inicio de sesión mediante el uso de otras credenciales de aplicación de Microsoft 365 en el dispositivo para autenticarse en el servicio Power BI.
 
 ### <a name="in-app-urls-ios"></a>URL de la aplicación (iOS) 
 

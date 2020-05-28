@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdb6ee8f50eaf70c9180e2c5a01cefef1143aa0d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83142887"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693852"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Supervisión de las métricas de uso en la nueva experiencia de área de trabajo
 
@@ -132,7 +132,7 @@ Use el procedimiento siguiente para hacerse cargo de un conjunto de datos de inf
 
 ## <a name="disable-usage-metrics-reports"></a>Deshabilitación de los informes de métricas de uso
 
-Los informes de métricas de uso son una característica que el administrador de Power BI u Office 365 puede activar o desactivar. Los administradores tienen control granular sobre qué usuarios tienen acceso a las métricas de uso. Estas están activas de manera predeterminada para todos los usuarios de la organización. Consulte [Control de métricas de uso](../admin/service-admin-portal.md#control-usage-metrics) en el artículo del portal de administrador para obtener más información sobre estas opciones.
+Los informes de métricas de uso son una característica que el administrador de Power BI u Microsoft 365 puede activar o desactivar. Los administradores tienen control granular sobre qué usuarios tienen acceso a las métricas de uso. Estas están activas de manera predeterminada para todos los usuarios de la organización. Consulte [Control de métricas de uso](../admin/service-admin-portal.md#control-usage-metrics) en el artículo del portal de administrador para obtener más información sobre estas opciones.
 
 > [!NOTE]
 > Solo los administradores del inquilino de Power BI pueden ver el portal de administración y editar la configuración.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ec9848f71aa8ba69089de5222dfa9f63703f43c5
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129974"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438025"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Solución de problemas de inicio de sesión de Power BI
 
@@ -26,7 +26,7 @@ Si es **administrador de inquilinos** de la organización y aún no puede inicia
 
 En primer lugar, intente crear una incidencia de soporte técnico a través de la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
 
-Si no puede hacerlo en la página de soporte técnico de Power BI, intente crear una incidencia a través de la [página de soporte técnico de Office 365](https://support.office.com/home/contact).
+Si no puede hacerlo en la página de soporte técnico de Power BI, intente crear una incidencia a través de [Soporte de Office](https://support.office.com/home/contact).
 
 Si no puede crear un ticket a través de cualquiera de estas páginas, intente ponerse en contacto con el soporte técnico por teléfono:
 
@@ -34,7 +34,7 @@ Si no puede crear un ticket a través de cualquiera de estas páginas, intente p
 * Para los clientes de Europa, Oriente Medio y Asia (EMEA): +44-844-800-2400
 * Para los clientes de la India: +1-800-419-5666
 
-Otra opción para ponerse en contacto con soporte técnico de Microsoft a fin de obtener ayuda es adquirir [soporte técnico Premier de Microsoft](https://support.microsoft.com/premier). Si sabe que la organización ha adquirido soporte técnico Premier de Microsoft y sigue sin poder crear un caso desde el canal de Office 365 o Power BI, puede ponerse en contacto con soporte técnico Premier por teléfono:
+Otra opción para ponerse en contacto con soporte técnico de Microsoft a fin de obtener ayuda es adquirir [soporte técnico Premier de Microsoft](https://support.microsoft.com/premier). Si sabe que la organización ha adquirido soporte técnico Premier de Microsoft y sigue sin poder crear un caso desde el canal de Power BI o Soporte de Office, puede ponerse en contacto con soporte técnico Premier por teléfono:
 
 * Para los clientes de los Estados Unidos (EE. UU.) y el resto de América: +1-800-936-3100
 * Para los clientes de Europa, Oriente Medio y Asia (EMEA): +44-844-800-8338

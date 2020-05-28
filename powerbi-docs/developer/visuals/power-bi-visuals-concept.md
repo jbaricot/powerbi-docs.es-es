@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: af3bf93469887a449f60fa051b7e7b5fb85060df
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378161"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407674"
 ---
 # <a name="visuals-in-power-bi"></a>Objetos visuales en Power BI
 
@@ -128,7 +128,7 @@ Las acciones y posteriores actualizaciones de los objetos visuales de Power BI 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-¿Está interesado en crear visualizaciones y agregarlas a Microsoft AppSource?  Consulte estos artículos:
+¿Está interesado en crear visualizaciones y agregarlas a Microsoft AppSource? Consulte estos artículos:
 
 * [Desarrollo de un objeto visual de Power BI](./custom-visual-develop-tutorial.md)
 * [Publicación de objetos visuales de Power BI en el Centro de partners](office-store.md)

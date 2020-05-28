@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: f66e564091c30e11604d0ab3fe58ba1f93addb28
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349112"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564584"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugerencias y trucos para crear informes en Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado. 
@@ -112,7 +112,7 @@ Veamos un ejemplo:
 
 Supongamos que cargamos conjuntos de datos de solicitudes de soporte de clientes activos y otro conjunto de datos de elementos de trabajo que tienen esquemas como el siguiente:
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName } 
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName} 
 > 
 > 
 
@@ -158,7 +158,7 @@ DAX es el lenguaje de fórmulas de cálculos de Power BI Desktop. Está optimiza
 
 [Aspectos básicos de DAX en Power BI Desktop](../transform-model/desktop-quickstart-learn-dax-basics.md)
 
-[Referencia de expresiones de análisis de datos (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
+[Referencia de expresiones de análisis de datos (DAX)](/dax/)
 
 [Centro de recursos de DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 

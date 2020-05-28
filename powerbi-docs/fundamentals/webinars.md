@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/23/2020
+ms.date: 05/18/2020
 ms.author: kfollis
-ms.openlocfilehash: 7ed9f22f262e03885681cf2fdc36867533837cdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360931"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566049"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 [//]: # "Tatevik Tatero es un proveedor que trabaja con Chauncy Freels y ayuda a mantener esta lista de seminarios web"
@@ -22,13 +22,20 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 
 ## <a name="upcoming-webinars"></a>Próximos seminarios web
 
-Todavía no hay seminarios web programados. Vuelva pronto para ver más eventos.
+**What's the difference between Analytics and BI?** (¿Cuál es la diferencia entre Analytics y BI?)
+<br>por Nate Findley y Charles Feddersen, Microsoft
+<br>[Regístrese para verlo el 3 de junio de 2020, de 10:00 a 11:00 (hora de verano del Pacífico)]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
+
 
 >[Próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Seminarios web destacados
 
 Empiece por estos seminarios web a petición populares
+
+**Explore the Total Economic Impact of Microsoft Power BI** (Exploración del impacto económico total de Microsoft Power BI)
+<br>por Nuria Tomlin, Microsoft y Jonathan Lipsitz, Forrester Consulting
+<br>[Ver ahora]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
 
 **Análisis en un evento virtual de Azure: acelere el tiempo de información con Azure Synapse Analytics**
 <br>de Gayle Sheppard y John Macintyre
@@ -86,7 +93,7 @@ Empiece por estos seminarios web a petición populares
 <br>de Nimrod Shalit
 <br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
-**Power BI, Excel y Office 365: Optimize Your Enterprise Data** (Power BI, Excel y Office 365: optimización de los datos empresariales)
+**Power BI, Excel y Microsoft 365: Optimize Your Enterprise Data** (Power BI, Excel y Office 365: optimización de los datos empresariales)
 <br>de Olaf Hubel y Miguel Martinez
 <br>[Registrarse y ver ahora](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
