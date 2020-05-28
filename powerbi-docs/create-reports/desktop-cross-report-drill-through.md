@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0c9f9c0f24ad40fadb7d0bd61cd6a6ce7d318e74
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 178ad340a9a3ccd9d6427dc6bad03b6d8d08ce90
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297846"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694054"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Uso de la obtención de detalles de varios informes en Power BI
 
@@ -31,7 +31,7 @@ La acción de obtención de detalles abre la *página de destino* en el *informe
 En este artículo se muestra cómo configurar y usar la obtención de detalles de varios informes para informes de Power BI.
 
 > [!NOTE]
-> La obtención de detalles de varios informes no se puede usar con los [informes Compartidos conmigo](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report), es decir, los compartidos de forma individual en **Mi área de trabajo**. Para usar la obtención de detalles de varios informes, debe acceder a los informes en el área de trabajo desde la que se han compartido.
+> La obtención de detalles de varios informes no se puede usar con los [informes Compartidos conmigo](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report) que se comparten de forma individual. Para usar la obtención de detalles de varios informes, debe acceder a informes de áreas de trabajo de las que sea miembro.
 
 ## <a name="enable-cross-report-drillthrough"></a>Habilitación de la obtención de detalles entre varios informes
 
@@ -44,7 +44,7 @@ Después de validar los modelos, habilite el informe de origen para usar la obte
 1. En Power BI Desktop, vaya a **Archivo** > **Opciones y configuración** > **Opciones**. 
 1. En la ventana **Opciones** de navegación de la izquierda, en la parte inferior de la sección **Archivo actual**, seleccione **Configuración de informes**. 
 1. En la esquina inferior derecha, debajo de **Obtención de detalles de varios informes**, seleccione **Permitir a los objetos visuales de este informe utilizar los destinos de obtención de detalles de otros informes**. 
-1. Haga clic en **Aceptar**. 
+1. Seleccione **Aceptar**. 
    
    ![Habilitación de la obtención de detalles de varios informes en Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
 
@@ -70,7 +70,7 @@ Puede configurar un destino para la obtención de detalles de varios informes en
 1. Si solo va a usar la página para la obtención de detalles de varios informes, elimine el botón **Atrás** que se agrega automáticamente al lienzo. El botón **Atrás** solo funciona para la navegación dentro de un informe. 
 1. Después de configurar la página de destino, guarde el informe si usa el servicio Power BI, o bien, si usa Power BI Desktop, guárdelo y publíquelo.
 
-Eso es todo. Los informes están listos para la obtención de detalles de varios informes. 
+Ya está. Los informes están listos para la obtención de detalles de varios informes. 
 
 ## <a name="use-cross-report-drillthrough"></a>Uso de la obtención de detalles en varios informes
 
