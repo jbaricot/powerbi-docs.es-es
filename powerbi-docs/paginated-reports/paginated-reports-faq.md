@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82585001"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565635"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: Preguntas frecuentes 
 
@@ -41,7 +41,7 @@ El administrador puede habilitar o deshabilitar la carga de trabajo de los infor
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>¿Cómo se puede supervisar el uso de los informes paginados en mi inquilino?
 
-En los registro de auditoría de Office 365 se detalla el uso de este tipo de informe en los siguientes eventos: 
+En los registros de auditoría se detalla el uso de este tipo de informe en los siguientes eventos:
 
 - Visualización del informe de Power BI
 - Eliminación del informe de Power BI
@@ -152,7 +152,7 @@ Sí, se admite la capacidad de ejecutar código en los informes de la misma form
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>¿Puedo usar Power BI Embedded para insertar los informes paginados en una aplicación que hospedo?
 
-Ya está disponible la inserción de SaaS, incluida la compatibilidad con la inserción segura. En el caso de la inserción de PaaS, vea el tutorial [Inserción de informes paginados de Power BI en una aplicación para los clientes](../developer/embed-paginated-reports-customers.md).
+Ya está disponible la inserción de SaaS, incluida la compatibilidad con la inserción segura. En el caso de la inserción de PaaS, vea el tutorial [Inserción de informes paginados de Power BI en una aplicación para los clientes](../developer/embedded/embed-paginated-reports-customers.md).
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>¿Puedo extraer los detalles de un informe de Power BI en un informe paginado?
 

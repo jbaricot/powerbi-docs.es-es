@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 05/19/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d3cb3c8093446d4417a59c5f64ab6b85a765e3c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 562e011bf280930fdcaf19cc87edc97b2bec131b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301526"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694036"
 ---
-# <a name="create-a-drill-through-button-in-power-bi-preview"></a>Creación de un botón de obtención de detalles en Power BI (versión preliminar)
+# <a name="create-a-drill-through-button-in-power-bi"></a>Creación de un botón de obtención de detalles en Power BI
 
-Al crear un botón en Power BI, puede seleccionar la acción **Obtener detalles (versión preliminar)** . Este tipo de acción crea un botón que profundiza en una página enfocada para obtener detalles filtrados por un contexto específico.
+Al crear un botón en Power BI, puede seleccionar la acción **Obtener detalles**. Este tipo de acción crea un botón que profundiza en una página enfocada para obtener detalles filtrados por un contexto específico.
 
 Un botón de obtención de detalles puede ser útil si quiere aumentar la capacidad de detección de escenarios importantes de obtención de detalles en los informes.
 

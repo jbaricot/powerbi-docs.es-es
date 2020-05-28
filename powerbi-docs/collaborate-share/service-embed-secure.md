@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2b7c442ef39bba58b7ac7f8224928d29ea56d9c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348146"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693837"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserción de informes en un sitio web o portal seguro
 
@@ -50,7 +50,7 @@ La opción **Insertar** también admite la configuración de direcciones URL y [
 
 La opción **Insertar** no permite a los usuarios ver el informe automáticamente. Los permisos de vista se establecen en el servicio Power BI.
 
-En el servicio Power BI, puede compartir informes insertados y solicitar que los usuarios inicien la sesión. Si usa un grupo de Office 365, puede mostrar una lista al usuario como un miembro del área de trabajo. Para más información, consulte cómo [administrar el área de trabajo en Power BI y en Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
+En el servicio Power BI, puede compartir informes insertados y solicitar que los usuarios inicien la sesión. Si usa un grupo de Microsoft 365, puede mostrar una lista al usuario como un miembro del área de trabajo. Para más información, consulte cómo [administrar el área de trabajo en Power BI y en Microsoft 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="licensing"></a>Licencias
 
