@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4995671fe5a3a4af0e74ce97d3227f73f005dc3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348537"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564092"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Conexión a los archivos almacenados en OneDrive del área de trabajo de Power BI
 Una vez que [haya creado un área de trabajo en Power BI](../collaborate-share/service-create-distribute-apps.md), puede almacenar los archivos de Excel, CSV y Power BI Desktop en la instancia de OneDrive para la Empresa de dicha área. Puede seguir actualizando los archivos que se almacenan en OneDrive. Esas actualizaciones se reflejan automáticamente en los informes y paneles de Power BI según los archivos. 
 
 > [!NOTE]
-> La versión preliminar de la nueva experiencia de áreas de trabajo cambiará la relación entre las áreas de trabajo de Power BI y los grupos de Office 365. Ya no se crea automáticamente un grupo de Office 365 cada vez que crea una de las nuevas áreas de trabajo. Lea sobre la [creación de las nuevas áreas de trabajo](../collaborate-share/service-create-the-new-workspaces.md).
+> La nueva experiencia de áreas de trabajo cambiará la relación entre las áreas de trabajo de Power BI y los grupos de Microsoft 365. Ya no se crea automáticamente un grupo de Microsoft 365 cada vez que crea una de las nuevas áreas de trabajo. Lea sobre la [creación de las nuevas áreas de trabajo](../collaborate-share/service-create-the-new-workspaces.md).
 
 La incorporación de archivos al área de trabajo es un proceso que consta de dos pasos: 
 
@@ -34,10 +34,10 @@ La incorporación de archivos al área de trabajo es un proceso que consta de do
 1. En el servicio Power BI, seleccione la flecha situada junto a Áreas de trabajo y, después, el botón de puntos suspensivos ( **...** ) junto al nombre del área de trabajo. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
-2. Seleccione **Archivos** para abrir OneDrive para la Empresa del área de trabajo en Office 365.
+2. Seleccione **Archivos** para abrir OneDrive para la Empresa del área de trabajo en Microsoft 365.
    
    > [!NOTE]
-   > Si no ve **Archivos** en el área de trabajo, seleccione **Miembros** para abrir OneDrive para la Empresa del área de trabajo. Una vez ahí, seleccione **Archivos**. Office 365 configura una ubicación de almacenamiento en OneDrive para los archivos del área de trabajo de su aplicación. Este proceso puede tardar algún tiempo. 
+   > Si no ve **Archivos** en el área de trabajo, seleccione **Miembros** para abrir OneDrive para la Empresa del área de trabajo. Una vez ahí, seleccione **Archivos**. Microsoft 365 configura una ubicación de almacenamiento en OneDrive para los archivos del área de trabajo de su aplicación. Este proceso puede tardar algún tiempo.
    > 
    > 
 3. Aquí puede cargar los archivos en OneDrive para la Empresa del área de trabajo. Seleccione **Cargar**y vaya a los archivos.

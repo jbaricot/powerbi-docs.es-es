@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a143a9b158d8a00fc129953a601f9e4c8f19875f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279719"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566003"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Guía sobre la fecha y hora automáticas en Power BI Desktop
 
@@ -34,7 +34,10 @@ En la lista con viñetas siguiente se describen las consideraciones (y posibles 
     Esta es la razón por la que es importante que los filtros o agrupaciones se lleven a cabo en la columna **Year**. Al explorar en profundidad mediante la jerarquía, se filtrará el año, a menos que el nivel **Year** se quite de manera intencional. Si no hay ningún filtro o grupo por año, una agrupación por mes, por ejemplo, resumiría los valores de todos los años correspondientes a ese mes.
 - **Filtrado de fecha de una sola tabla:** como cada columna de fecha genera su propia tabla de fecha y hora automáticas (oculta), no es posible aplicar un filtro de tiempo a una tabla y hacer que lo propague a varias tablas de modelo. Filtrar de esta manera es un requisito de modelado común cuando se notifican varios asuntos (tablas de tipo de hechos), como las ventas y el presupuesto de ventas. Al usar la fecha y hora automáticas, el autor de informe deberá aplicar filtros a cada columna de fecha distinta.
 - **Tamaño del modelo:** para cada columna de fecha que genera una tabla de fecha y hora automáticas oculta, generará un tamaño de modelo mayor y también ampliará la hora de actualización de los datos.
-- **Otras herramientas de informes:** no es posible trabajar con tablas de fecha y hora automáticas al usar [Analizar en Excel](../collaborate-share/service-analyze-in-excel.md) ni al conectarse al modelo mediante diseñadores de informes que no sean de Power BI.
+- **Otras herramientas de informes:** No es posible trabajar con tablas de fecha y hora automáticas cuando:
+  - Se usa [Analizar en Excel](../collaborate-share/service-analyze-in-excel.md).
+  - Se usan diseñadores de consultas de Analysis Services en informes paginados de Power BI.
+  - Se establece una conexión al modelo con diseñadores de informes que no son de Power BI.
 
 ## <a name="recommendations"></a>Recomendaciones
 

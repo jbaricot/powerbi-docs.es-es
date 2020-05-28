@@ -5,22 +5,22 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 28353ec6d0b2f8a1f83544d63526748c621cb858
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435384"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694100"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Visualización de informes y KPI del entorno local en la aplicación Power BI para Windows
 La aplicación móvil Power BI para Windows 10 proporciona acceso móvil táctil en directo a la información local más importante de su empresa en SQL Server 2016 Reporting Services. 
 
-![Informes móviles de Reporting Services](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
+![Informes móviles de Reporting Services](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="first-things-first"></a>Lo primero es lo primero
-[Cree informes móviles de Reporting Services](https://msdn.microsoft.com/library/mt652547.aspx) con el Publicador de informes móviles de SQL Server 2016 Enterprise Edition y publíquelos en el [portal web de Reporting Services](https://msdn.microsoft.com/library/mt637133.aspx). Cree KPI justo en el portal web. Organícelos en carpetas y marque sus favoritos, así podrá encontrarlos fácilmente. 
+[Cree informes móviles de Reporting Services](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) con el Publicador de informes móviles de SQL Server 2016 Enterprise Edition y publíquelos en el [portal web de Reporting Services](/sql/reporting-services/web-portal-ssrs-native-mode). Cree KPI justo en el portal web. Organícelos en carpetas y marque sus favoritos, así podrá encontrarlos fácilmente. 
 
 Después, en la aplicación Power BI para Windows 10, podrá ver los KPI, los informes móviles y los informes de Power BI organizados en carpetas o como favoritos. 
 
@@ -34,18 +34,18 @@ Después, en la aplicación Power BI para Windows 10, podrá ver los KPI, los 
 Aunque no tenga acceso a un portal web de Reporting Services, puede explorar las características de los informes móviles de Reporting Services.
 
 1. En el dispositivo Windows 10, abra la aplicación Power BI.
-2. Pulse el botón de navegación global ![Botón de navegación global](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) en la esquina superior izquierda.
-3. Pulse el icono **Configuración**![icono Configuración](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png), haga clic con el botón derecho o pulse y mantenga pulsado **Conectarse al servidor** y luego **Ver ejemplos**.
+2. Pulse el botón de navegación global ![Botón de navegación global](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) en la esquina superior izquierda.
+3. Pulse el icono **Configuración**![icono Configuración](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png), haga clic con el botón derecho o pulse y mantenga pulsado **Conectarse al servidor** y luego **Ver ejemplos**.
    
-   ![Ver ejemplos de SSRS](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)
+   ![Ver ejemplos de SSRS](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)
 4. Abra la carpeta Informes de venta directa o Informes de ventas para explorar los KPI e informes móviles.
    
-   ![Informes móviles y KPI de ejemplo](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-ssrs-sample-kpis.png)
+   ![Informes móviles y KPI de ejemplo](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-ssrs-sample-kpis.png)
 
 Examine los ejemplos para interactuar con informes móviles y KPI.
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>Conexión a un servidor de informes de Reporting Services
-1. En la parte inferior del panel de navegación, pulse **Configuración** ![Icono Configuración](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
+1. En la parte inferior del panel de navegación, pulse **Configuración** ![Icono Configuración](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
 2. Pulse **Conectarse al servidor**.
 3. Rellene la dirección del servidor y su nombre de usuario y contraseña. Use este formato para la dirección del servidor:
    
@@ -61,30 +61,33 @@ Examine los ejemplos para interactuar con informes móviles y KPI.
    
    Ahora verá el servidor en el panel de navegación.
    
-   ![Servidor en el panel de navegación](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
+   ![Servidor en el panel de navegación](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
    
    >[!TIP]
-   >Pulse el botón de navegación global ![botón de navegación global](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) en cualquier momento para desplazarse entre los informes móviles de Reporting Services y los paneles del servicio Power BI. 
+   >Pulse el botón de navegación global ![botón de navegación global](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) en cualquier momento para desplazarse entre los informes móviles de Reporting Services y los paneles del servicio Power BI. 
    > 
+
+   >[!NOTE]
+   >No se admiten los servidores de informes configurados con puertos personalizados y no se puede acceder a ellos desde la aplicación de Windows para Power BI. 
 
 ## <a name="view-reporting-services-kpis-and-mobile-reports-in-the-power-bi-app"></a>Visualización de informes móviles y KPI de Reporting Services en la aplicación de Power BI
 Los KPI y los informes móviles de Reporting Services y los informes de Power BI (versión preliminar) se muestran en las mismas carpetas en las que se encuentran en el portal web de Reporting Services.
 
-![Carpetas de informes](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-folders.png)
+![Carpetas de informes](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-folders.png)
 
 * Puntee un KPI para verlo en el modo de enfoque.
   
-    ![KPI en modo de enfoque](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-kpis.png)
-* Pulse un informe móvil para abrirlo e interactuar con él en la aplicación de Power BI.
+    ![KPI en modo de enfoque](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-kpis.png)
+* Puntee un informe móvil para abrirlo e interactuar con él en la aplicación de Power BI.
   
-    ![Informes móviles de Reporting Services](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
+    ![Informes móviles de Reporting Services](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="view-your-favorite-kpis-and-reports"></a>Ver los informes y KPI favoritos
 Puede marcar los KPI, informes móviles e informes de Power BI como favoritos en el portal web de Reporting Services y después verlos en una carpeta adecuada en el dispositivo con Windows 10, junto con sus informes y paneles favoritos de Power BI.
 
 * Pulse **Favoritos**.
   
-   ![Icono de favoritos](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-favorite-menu.png)
+   ![Icono de favoritos](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-favorite-menu.png)
   
    Todos los favoritos del portal web se encuentran en esta página.
   
@@ -93,20 +96,19 @@ Obtenga más información sobre los [favoritos en las aplicaciones móviles Powe
 ## <a name="remove-a-connection-to-a-report-server"></a>Quitar una conexión a un servidor de informes
 Solo puede conectarse a un servidor de informes a la vez desde su aplicación móvil de Power BI. Si quiere conectarse a otro servidor, antes deberá desconectarse del actual.
 
-1. En la parte inferior del panel de navegación, pulse **Configuración** ![Icono Configuración](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
+1. En la parte inferior del panel de navegación, pulse **Configuración** ![Icono Configuración](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
 2. Mantenga pulsado el nombre del servidor al que no quiere estar conectado.
 3. Pulse **Quitar servidor**.
    
-    ![Quitar servidor](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-remove-server-menu.png)
+    ![Quitar servidor](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-remove-server-menu.png)
 
 ## <a name="create-reporting-services-mobile-reports-and-kpis"></a>Crear informes móviles y KPI de Reporting Services
 Los informes móviles y KPI de Reporting Services no se crean en la aplicación móvil Power BI. Se crean en el Publicador de informes móviles de SQL Server y un portal web de SQL Server 2016 Reporting Services.
 
-* [Cree sus propios informes móviles de Reporting Services](https://msdn.microsoft.com/library/mt652547.aspx) y publíquelos en un portal web de Reporting Services.
-* Crear [KPI en un portal web de Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx)
+* [Cree sus propios informes móviles de Reporting Services](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) y publíquelos en un portal web de Reporting Services.
+* Crear [KPI en un portal web de Reporting Services](/sql/reporting-services/working-with-kpis-in-reporting-services)
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Introducción a la aplicación móvil de Power BI para Windows 10](mobile-windows-10-phone-app-get-started.md)  
 * [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)  
-* ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

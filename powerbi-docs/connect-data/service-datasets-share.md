@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ba0e04ff4cd56566f7d33445fafa7c8cfcc6b7ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284805"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565469"
 ---
 # <a name="share-a-dataset-preview"></a>Uso compartido de un conjunto de datos (versión preliminar)
 
@@ -24,7 +24,7 @@ Como creador de *modelos de datos* en Power BI Desktop, creará *conjuntos de d
 
 1. Primero debe crear un archivo .pbix con un modelo de datos en Power BI Desktop. Si piensa ofrecer este conjunto de datos para que otros usuarios generen informes, ni siquiera tendrá que diseñar un informe en el archivo .pbix.
 
-    Un procedimiento recomendado consiste en guardar el archivo .pbix en un grupo de Office 365.
+    Un procedimiento recomendado consiste en guardar el archivo .pbix en un grupo de Microsoft 365.
 
 1. Publique el archivo .pbix en una [nueva experiencia de área de trabajo](../collaborate-share/service-create-the-new-workspaces.md) en el servicio Power BI.
     
@@ -54,4 +54,4 @@ Cuando tiene un conjunto de datos compartido en el área de trabajo, es posible 
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [Uso de conjuntos de datos entre áreas de trabajo (versión preliminar)](service-datasets-across-workspaces.md)
-- ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

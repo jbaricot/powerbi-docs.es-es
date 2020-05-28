@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/10/2020
+ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9ee04211c44fb342e4baf904bcfa73bab489a1ba
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273647"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438232"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
@@ -105,12 +105,13 @@ Los administradores de Power BI pueden usar los registros de auditoría de Powe
 
 ### <a name="general"></a>General
 
-- En raras ocasiones, puede que las suscripciones de correo tarden más de quince minutos en entregarse a los destinatarios. Si esto ocurre, se recomienda ejecutar la actualización de datos y la suscripción de correo electrónico a otras horas para garantizar la entrega puntual. Si la incidencia persiste, póngase en contacto con el soporte técnico de Power BI.
-- Para evitar que los correos electrónicos de las suscripciones vayan a la carpeta de correo no deseado, agregue el alias de correo electrónico de Power BI [no-reply-powerbi@microsoft.com](mailto:no-reply-powerbi@microsoft.com)) a los contactos. Si usa Microsoft Outlook, haga clic con el botón derecho en el alias y seleccione **Agregar a contactos de Outlook**.
+- Al igual que otros productos de BI, el momento en el que se establece la suscripción es cuando esta comienza el procesamiento.  Una vez completado el procesamiento del informe, la suscripción se pone en cola y se envía a los destinatarios de correo electrónico.  Nos esforzamos por procesar y ofrecer todas las suscripciones lo antes posible. Aunque, a veces, en períodos de demanda máxima, se puede ver un retraso más largo debido al número de suscripciones que Power BI puede enviar a la vez. La mayoría de los clientes no debe ver un retraso de más de 15 minutos en el procesamiento y envío de informes. El proceso puede tardar hasta 30 minutos en determinadas horas e inquilinos con un uso significativo.  Nunca esperamos que ningún retraso en la entrega sea superior a 60 minutos desde el momento en que se programa la suscripción.  Si experimenta un retraso tan grande, asegúrese primero de que la dirección `no-reply-powerbi@microsoft.com` está en la lista blanca de su proveedor de correo electrónico.  Si es así, póngase en contacto con soporte técnico de Power BI para obtener ayuda.
 - En la actualidad, al suscribir a otros usuarios, no se admiten las suscripciones de correo electrónico relativas a informes o paneles que usen conjuntos de datos con conexión dinámica, excepto para los informes paginados. Puede suscribir a otros usuarios a un informe paginado mediante el contexto de seguridad. Obtenga más información sobre la [suscripción a informes paginados](../consumer/paginated-reports-subscriptions.md).
 - Power BI detiene de forma automática la actualización en los conjuntos de datos asociados con los paneles e informes que no se han visitado en más de dos meses. Pero si agrega una suscripción a un panel o informe, no se detiene incluso si no recibe visitas.
 - Si no recibe los mensajes de correo electrónico de suscripción, asegúrese de que el nombre principal de usuario (UPN) puede recibirlos.
 - Si el panel o el informe están en la capacidad Premium, puede usar el alias de correo electrónico del grupo para las suscripciones en lugar de suscribir las direcciones de correo electrónico de sus compañeros de trabajo de una en una. Los alias se basan en el directorio actual de Active Directory.
+- Si el contenido no se encuentra en una capacidad Premium, solo los usuarios de Power BI Pro pueden recibir suscripciones por correo electrónico. 
+- Las suscripciones no admiten marcadores actualmente.
 
 ### <a name="dashboards"></a>Paneles
 
@@ -118,7 +119,7 @@ Los administradores de Power BI pueden usar los registros de auditoría de Powe
 - En raras ocasiones, puede que las suscripciones de correo tarden más de quince minutos en entregarse a los destinatarios. Si esto ocurre, se recomienda ejecutar la actualización de datos y la suscripción de correo electrónico a otras horas para garantizar la entrega puntual. Si la incidencia persiste, póngase en contacto con el soporte técnico de Power BI.
 - En las suscripciones de correo de panel, si se ha aplicado la seguridad de nivel de fila (RLS) a algún icono, ese icono no se muestra.
 - Para las suscripciones de paneles en concreto, todavía no se admiten ciertos tipos de iconos. Entre estos se incluyen: streaming de iconos, iconos de vídeo e iconos de contenido web personalizado.
-- Si comparte un panel con un compañero fuera del inquilino, no puede crear una suscripción para ese compañero *a menos que* el panel se encuentre en una aplicación o un área de trabajo Premium. Por tanto, si es aaron@contoso.com, podrá compartir con anyone@fabrikam.com, pero todavía no podrá suscribir a anyone@fabrikam.com, y ese usuario no podrá suscribirse al contenido compartido.
+- Si comparte un panel con un compañero fuera del inquilino, no puede crear una suscripción para ese compañero *a menos que* el panel se encuentre en una aplicación o un área de trabajo Premium. Por tanto, si es `aaron@contoso.com`, podrá compartir con `anyone@fabrikam.com`, pero todavía no podrá suscribir a `anyone@fabrikam.com`, y ese usuario no podrá suscribirse al contenido compartido.
 
 ### <a name="reports"></a>Informes
 
