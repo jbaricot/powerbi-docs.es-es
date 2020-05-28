@@ -1,5 +1,5 @@
 ---
-title: Seguimiento del estado del servicio Power BI en Office 365
+title: Seguimiento del estado del servicio Power BI en Microsoft 365
 description: Aprenda a ver el estado actual e histórico del servicio en el Centro de administración de Microsoft 365.
 author: kfollis
 ms.reviewer: ''
@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9d0ed841da3f398b8e0a8dc0a35ed040ccf3cab6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3498b893d7916c37d21e66908cbea4e6a919f978
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139736"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563712"
 ---
-# <a name="track-power-bi-service-health-in-office-365"></a>Seguimiento del estado del servicio Power BI en Office 365
+# <a name="track-power-bi-service-health-in-microsoft-365"></a>Seguimiento del estado del servicio Power BI en Microsoft 365
 
 El Centro de administración de Microsoft 365 proporciona herramientas importantes para los administradores de Power BI. Las herramientas incluyen información actual e histórica sobre el estado del servicio. Para acceder a la información de estado del servicio, debe tener uno de los siguientes roles:
 
 * Administrador de servicios de Power BI
 
-* Administrador global de Office 365
+* Administrador global
 
 Para más información sobre los roles, consulte [Administración de Power BI en su organización](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
 

@@ -7,47 +7,43 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/11/2020
+ms.date: 05/18/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 84ce61c98048690c1560a2c49aed07591a22119f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8bea8c2fc59deeb6aec4817f27d10371518f523e
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83137671"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564362"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Supervisión de capacidades Premium con la aplicación
 
 La supervisión de las capacidades es esencial para tomar decisiones fundamentadas sobre el uso óptimo de los recursos de capacidad Premium. Puede supervisar la capacidad en el portal de administración o con la aplicación **Power BI Premium Capacity Metrics**. En este artículo se describe el uso de la aplicación Premium Capacity Metrics. La aplicación proporciona la información más detallada del rendimiento de las capacidades. Para obtener una introducción de nivel superior del promedio de métricas de uso durante los últimos siete días, puede usar el portal de administración. Para obtener más información sobre la supervisión en el portal, vea [Supervisión de capacidades Premium en el portal de administración](service-admin-premium-monitor-portal.md).
 
-La aplicación se actualiza periódicamente con nuevas características y funcionalidades. Asegúrese de ejecutar la versión más reciente. Si ya tiene instalada una versión anterior de la aplicación, se recomienda eliminarla de las aplicaciones y, después, presionar CTRL+F5 para actualizar.
+La aplicación se actualiza periódicamente con nuevas características y funcionalidades. Asegúrese de ejecutar la versión más reciente. Cuando haya una nueva versión disponible, recibirá una [notificación](../connect-data/service-template-apps-install-distribute.md#update-a-template-app).
 
 > [!IMPORTANT]
 > Si la capacidad de Power BI Premium experimenta un uso elevado de los recursos, lo que da lugar a incidencias de rendimiento o fiabilidad, se pueden recibir mensajes de correo electrónico de notificación para identificar y resolver la incidencia en cuestión. Esto puede ser una manera optimizada de solucionar problemas de capacidades sobrecargadas. Para obtener más información, vea las [notificaciones de capacidad y fiabilidad](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
 ## <a name="install-the-app"></a>Instalación de la aplicación
 
-Puede ir directamente a la [aplicación Premium Capacity Metrics](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics), o bien instalarla como hace con otras aplicaciones en Power BI.
-
-1. En Power BI, haga clic en **Aplicaciones**.
-
-    ![Ir a Aplicaciones](media/service-admin-premium-monitor-capacity/apps.png)
-
-2. En el lado derecho, haga clic en **Obtener aplicaciones**.
-3. En la categoría **Aplicaciones**, busque **Power BI Premium Capacity Metrics**.
-4. Suscríbase para instalar la aplicación.
-
-Tenga paciencia. La instalación y actualización de las métricas tarda unos minutos. Si la aplicación muestra las métricas en blanco, presione F5 para actualizar el explorador.
+Vaya a [Conexión a Power BI Premium Capacity Metrics](../connect-data/service-connect-to-pbi-premium-capacity-metrics.md) para ver cómo instalar la aplicación y conectarse a los datos. También puede [ir directamente a la aplicación](https://go.microsoft.com/fwlink/?linkid=2114036).
 
 ## <a name="get-app-refresh-history"></a>Obtención del historial de actualización de la aplicación
 
-Para comprobar la última vez que se ha actualizado la aplicación Premium Capacity Metrics, haga clic en **Configuración** > **Conjuntos de datos** > **Power BI Premium Capacity Metrics** > **Historial de actualización**. 
+Para comprobar la última vez que se actualizó la aplicación Premium Capacity Metrics:
 
-![Historial de actualización en la configuración](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
+1. Vaya al área de trabajo que se instaló con la aplicación.
 
-Se muestra la última actualización, o bien haga clic en **Actualizar historial** para ver las actualizaciones programadas y a petición.
+   ![Ir al área de trabajo de la aplicación](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
-![Última actualización](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
+1. Haga clic en el botón **Programar actualización** en la línea de conjunto de datos.
+
+   ![Botón Programar actualización](media/service-admin-premium-monitor-capacity/schedule-refresh.png)
+
+   Se muestra la última actualización. Haga clic en **Actualizar historial** para ver las actualizaciones programadas y a petición.
+
+   ![Última actualización](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
 
 ## <a name="monitor-capacities-with-the-app"></a>Supervisión de capacidades con la aplicación
 

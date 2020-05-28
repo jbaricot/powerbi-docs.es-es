@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 08b9585195e805548546e832915e07f0e02265f5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348284"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693566"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicación de una aplicación en Power BI
 
@@ -64,7 +64,7 @@ Cuando los paneles e informes en el área de trabajo estén listos, elija cuále
 5. En **Permisos**, decida quién tiene acceso a la aplicación y qué puede hacer con ella. 
 
     - En [Áreas de trabajo clásicas](service-create-workspaces.md): todas las personas de la organización, usuarios específicos o grupos de seguridad de Azure Active Directory (AAD).
-    - En las [áreas de trabajo de la nueva experiencia](service-create-the-new-workspaces.md): usuarios específicos, grupos de seguridad de Azure AD y listas de distribución, y grupos de Office 365. Todos los usuarios del área de trabajo reciben automáticamente acceso a la aplicación para el área de trabajo.
+    - En las [áreas de trabajo de la nueva experiencia](service-create-the-new-workspaces.md): usuarios específicos, grupos de seguridad de Azure AD y listas de distribución, y grupos de Microsoft 365. Todos los usuarios del área de trabajo reciben automáticamente acceso a la aplicación para el área de trabajo.
     - Puede permitir que los usuarios de la aplicación se conecten a los conjuntos de datos subyacentes de la aplicación si les asigna el permiso de compilación. Verán estos conjuntos de datos cuando busquen conjuntos de datos compartidos. Lea más sobre [cómo permitir que los usuarios se conecten a los conjuntos de datos de la aplicación](#allow-users-to-connect-to-datasets) en este artículo.
     - Los usuarios con el permiso de compilación también pueden tener permiso para copiar informes desde esta aplicación en otra área de trabajo. Lea más sobre [cómo permitir que los usuarios copien datos en la aplicación](#allow-users-to-copy-reports) en este artículo.
     

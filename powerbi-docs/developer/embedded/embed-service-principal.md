@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275970"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121204"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Inserción de contenido de Power BI con entidad de servicio y secreto de aplicación
 
@@ -188,7 +188,6 @@ Una vez insertado el contenido, está listo para [pasar a producción](embed-sam
 * Para pasar a producción, se necesita capacidad dedicada.
 * No se puede iniciar sesión en el portal de Power BI con la entidad de servicio.
 * Se necesitan derechos de administrador de Power BI para habilitar la entidad de servicio en la configuración de desarrollador en el portal de administración de Power BI.
-* No se puede instalar ni administrar una puerta de enlace de datos local con la entidad de servicio.
 * Las aplicaciones de [inserción para la organización](embed-sample-for-your-organization.md) no pueden usar la entidad de servicio.
 * No se admite la administración de [flujos de datos](../../transform-model/service-dataflows-overview.md).
 * Actualmente la entidad de servicio no admite ninguna API de administración.

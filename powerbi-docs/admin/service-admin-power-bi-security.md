@@ -9,18 +9,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 4524e7c6cb8297f3c9bf71284140ddc31b38e33f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275418"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564395"
 ---
 # <a name="power-bi-security"></a>Seguridad de Power BI
 
 Para obtener una explicación detallada de la seguridad de Power BI, [lea las notas del producto sobre seguridad de Power BI](../guidance/whitepaper-powerbi-security.md).
 
-El servicio de Power BI se basa en **Azure**, que es la plataforma y la infraestructura de informática en la nube de Microsoft.  La arquitectura de servicio de Power BI se basa en dos clústeres: el front-end web (**WFE**) y el **back-end**. El clúster WFE administra la conexión inicial y la autenticación en el servicio de Power BI y, una vez realizada la autenticación, el back-end controla todas las interacciones de usuario siguientes. Power BI usa Azure Active Directory (AAD) para almacenar y administrar identidades de usuario, y administra el almacenamiento de datos y metadatos con Azure Blob y Azure SQL Database, respectivamente.
+El servicio de Power BI se basa en **Azure**, que es la plataforma y la infraestructura de informática en la nube de Microsoft. La arquitectura de servicio de Power BI se basa en dos clústeres: el front-end web (**WFE**) y el **back-end**. El clúster WFE administra la conexión inicial y la autenticación en el servicio de Power BI y, una vez realizada la autenticación, el back-end controla todas las interacciones de usuario siguientes. Power BI usa Azure Active Directory (AAD) para almacenar y administrar identidades de usuario, y administra el almacenamiento de datos y metadatos con Azure Blob y Azure SQL Database, respectivamente.
 
 ## <a name="power-bi-architecture"></a>Arquitectura de Power BI
 
@@ -45,9 +45,9 @@ La línea de puntos en la imagen del clúster del **back-end** anterior aclara e
 
 ## <a name="user-authentication"></a>Autenticación de usuarios
 
-Power BI usa Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) para autenticar a los usuarios que inician sesión en el servicio Power BI y, a su vez, usa las credenciales de inicio de sesión de Power BI siempre que un usuario intenta acceder a recursos que requieren autenticación. Los usuarios inician sesión en el servicio Power BI con la dirección de correo electrónico usada para establecer la cuenta de Power BI; Power BI usa ese correo electrónico de inicio de sesión como *nombre de usuario en vigor* y lo pasa a los recursos cuando un usuario intenta conectarse a los datos. El *nombre de usuario eficaz* se asigna después a un *nombre principal de usuario* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) y se resuelve en la cuenta de dominio de Windows asociada, en la que se aplica la autenticación.
+Power BI usa Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) para autenticar a los usuarios que inician sesión en el servicio Power BI y, a su vez, usa las credenciales de inicio de sesión de Power BI siempre que un usuario intenta acceder a recursos que requieren autenticación. Los usuarios inician sesión en el servicio Power BI con la dirección de correo electrónico usada para establecer la cuenta de Power BI; Power BI usa ese correo electrónico de inicio de sesión como *nombre de usuario en vigor* y lo pasa a los recursos cuando un usuario intenta conectarse a los datos. El *nombre de usuario efectivo* se asigna después a un [*Nombre principal de usuario* (UPN)](/windows/win32/secauthn/user-name-formats) y se resuelve en la cuenta de dominio de Windows asociada, en la que se aplica la autenticación.
 
-Para las organizaciones que usaron mensajes de correo electrónico de trabajo para el inicio de sesión de Power BI (como <em>david@contoso.com</em>, el *nombre de usuario eficaz* para la asignación de UPN es sencillo. Las organizaciones que no usaron correos electrónicos de trabajo para el inicio de sesión de Power BI (como <em>david@contoso.onmicrosoft.com</em>, la asignación entre AAD y las credenciales locales) requerirán una [sincronización de directorios](https://technet.microsoft.com/library/jj573653.aspx) para funcionar correctamente.
+Para las organizaciones que usaron mensajes de correo electrónico de trabajo para el inicio de sesión de Power BI (como <em>david@contoso.com</em>, el *nombre de usuario eficaz* para la asignación de UPN es sencillo. Las organizaciones que no usaron correos electrónicos de trabajo para el inicio de sesión de Power BI (como <em>david@contoso.onmicrosoft.com</em>, la asignación entre AAD y las credenciales locales) requerirán una [sincronización de directorios](/azure/active-directory-domain-services/synchronization) para funcionar correctamente.
 
 La seguridad de la plataforma de Power BI también incluye una seguridad de entorno de varios inquilinos, una seguridad de red y la capacidad de agregar medidas de seguridad basadas en AAD.
 
@@ -68,4 +68,3 @@ Esta aplicación puede realizarse estableciendo administrativamente las claves d
 **Power BI Desktop** respeta la configuración de clave del Registro descrita en estos artículos y solo crea las conexiones que usan la versión de TLS permitida según esa configuración del Registro, cuando está presente.
 
 Para obtener más información acerca de cómo establecer estas claves del Registro, consulte el artículo [Configuración del registro de seguridad de la capa de transporte (TLS)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).
-

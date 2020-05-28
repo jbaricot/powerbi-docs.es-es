@@ -10,22 +10,22 @@ ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8ff022c09fc58f5ebeadbb869039c00c6dd28533
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275602"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564481"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
 El portal de administración le permite administrar un *inquilino* de Power BI de su organización. El portal incluye elementos como métricas de uso, acceso al Centro de administración de Microsoft 365 y configuración.
 
-El portal de administración completo es accesible para todos los usuarios que sean administradores globales de Office 365 o a los que se les haya asignado el rol de administrador del servicio Power BI. Si no está en uno de estos roles, solo verá **Configuración de la capacidad** en el portal. Para más información acerca del rol de administrador del servicio Power BI, consulte [Descripción del rol de administrador de Power BI](service-admin-role.md).
+El portal de administración completo es accesible para todos los usuarios que sean administradores globales o a los que se les haya asignado el rol de administrador del servicio Power BI. Si no está en uno de estos roles, solo verá **Configuración de la capacidad** en el portal. Para más información acerca del rol de administrador del servicio Power BI, consulte [Descripción del rol de administrador de Power BI](service-admin-role.md).
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Acceso al portal de administración
 
-La cuenta debe estar marcada como **Administrador global** en Office 365 o Azure Active Directory (Azure AD) o tener asignado el rol Administrador del servicio Power BI para acceder al portal de administración de Power BI. Para más información acerca del rol de administrador del servicio Power BI, consulte [Descripción del rol de administrador de Power BI](service-admin-role.md). Para acceder al portal de administración de Power BI, haga lo siguiente.
+La cuenta debe estar marcada como **Administrador global** en Microsoft 365 o Azure Active Directory (Azure AD) o tener asignado el rol Administrador del servicio Power BI para acceder al portal de administración de Power BI. Para más información acerca del rol de administrador del servicio Power BI, consulte [Descripción del rol de administrador de Power BI](service-admin-role.md). Para acceder al portal de administración de Power BI, haga lo siguiente.
 
 1. Seleccione el engranaje de configuración en la parte superior derecha del servicio Power BI.
 
@@ -85,7 +85,7 @@ Con esta información, puede obtener información real sobre cómo las personas 
 
 ## <a name="control-usage-metrics"></a>Control de métricas de uso
 
-Los informes de métricas de uso son una característica que el administrador de Power BI u Office 365 puede activar o desactivar. Los administradores tienen control granular sobre qué usuarios tienen acceso a las métricas de uso. De forma predeterminada, todos los usuarios de la organización tienen esta opción en modo **Activado**.
+Los informes de métricas de uso son una característica que el administrador de Power BI u Microsoft 365 puede activar o desactivar. Los administradores tienen control granular sobre qué usuarios tienen acceso a las métricas de uso. De forma predeterminada, todos los usuarios de la organización tienen esta opción en modo **Activado**.
 
 Los administradores también pueden determinar si los creadores de contenido pueden ver los datos de cada usuario en las métricas de uso. 
 
@@ -181,7 +181,7 @@ Los grupos de seguridad habilitados para correo recibirán notificaciones por co
 En **Configuración de inquilinos**, el portal de administración tiene dos secciones para controlar las áreas de trabajo:
 
 - Creación de las nuevas experiencias de área de trabajo
-- Uso de conjuntos de datos por áreas de trabajo
+- Uso de conjuntos de datos entre áreas de trabajo.
 
 ### <a name="create-the-new-workspaces"></a>Creación de nuevas áreas de trabajo
 
@@ -189,10 +189,10 @@ Las áreas de trabajo son lugares en los que los usuarios pueden colaborar en pa
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Creación de las nuevas experiencias de áreas de trabajos":::
 
-Para las áreas de trabajo clásicas basadas en grupos de Office 365, la administración continúa ocurriendo en el portal de administración de Office 365 y en Azure Active Directory.
+Para las áreas de trabajo clásicas basadas en grupos de Microsoft 365, la administración sigue ocurriendo en el portal de administración y en Azure Active Directory.
 
 > [!NOTE]
-> La opción **Creación de áreas de trabajo (nueva experiencia de áreas de trabajo)** establece de forma predeterminada que solo los usuarios que pueden crear grupos de Office 365 puedan crear las nuevas áreas de trabajo de Power BI. Asegúrese de establecer un valor en el portal de administración de Power BI para garantizar que los usuarios apropiados puedan crearlas.
+> La opción **Creación de áreas de trabajo (nueva experiencia de áreas de trabajo)** establece de forma predeterminada que solo los usuarios que pueden crear grupos de Microsoft 365 puedan crear las nuevas áreas de trabajo de Power BI. Asegúrese de establecer un valor en el portal de administración de Power BI para garantizar que los usuarios apropiados puedan crearlas.
 
 **Lista de áreas de trabajo**
 
@@ -334,7 +334,7 @@ La siguiente imagen muestra la opción **Toda mi organización** al crear un paq
 
 ### <a name="create-template-apps-and-organizational-content-packs"></a>Crear paquetes de contenido organizativos y aplicaciones de plantilla
 
-Los usuarios de la organización pueden crear paquetes de contenido organizativos y aplicaciones de plantilla que utilizan conjuntos de datos integrados en un origen de datos de Power BI Desktop. Obtenga más información sobre las [aplicaciones de plantilla](../template-content-pack-authoring.md).
+Los usuarios de la organización pueden crear paquetes de contenido organizativos y aplicaciones de plantilla que utilizan conjuntos de datos integrados en un origen de datos de Power BI Desktop. Obtenga más información sobre las [aplicaciones de plantilla](../connect-data/service-template-apps-create.md).
 
 ### <a name="push-apps-to-end-users"></a>Insertar aplicaciones para los usuarios finales
 
@@ -625,7 +625,3 @@ Vea [Contenido destacado](#featured-content) en este artículo para obtener info
 [Auditoría de Power BI en su organización](service-admin-auditing.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-
-
-
-

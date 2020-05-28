@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/09/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: abc936c6ea4b61e4837e05fbde110e5159296815
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867125"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407584"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Permitir a los usuarios personalizar los objetos visuales en un informe
 
@@ -26,7 +26,7 @@ Al compartir un informe con un público amplio, es posible que algunos de los us
  
 ## <a name="what-report-consumers-can-change"></a>Qué pueden cambiar los consumidores del informe
 
-Esta característica permite a los consumidores obtener información adicional a través de la exploración ad hoc de objetos visuales en un informe de Power BI. La característica es ideal para los creadores de informes que quieran habilitar escenarios de exploración básicos para los lectores de informes. Estas son las modificaciones que pueden realizar los lectores de informes:
+Esta característica permite a los consumidores obtener información adicional a través de la exploración ad hoc de objetos visuales en un informe de Power BI. Para aprender a usar esta característica como consumidor, consulte [Personalización de objetos visuales en un informe](../consumer/end-user-personalize-visuals.md). La característica es ideal para los creadores de informes que quieran habilitar escenarios de exploración básicos para los lectores de informes. Estas son las modificaciones que pueden realizar los lectores de informes:
 
 - Cambiar el tipo de visualización
 - Intercambiar una medida o una dimensión
@@ -34,7 +34,7 @@ Esta característica permite a los consumidores obtener información adicional a
 - Comparar dos o más medidas
 - Cambiar agregaciones, etc.
 
-Esta característica no solo permite nuevas capacidades de exploración, sino que también incluye otras maneras de que los consumidores capturen y compartan sus cambios:
+Esta característica no solo incorpora nuevas funcionalidades de exploración, sino que también permite que los consumidores capturen y compartan sus cambios:
 
 - Capturar los cambios
 - Compartir los cambios
@@ -84,69 +84,6 @@ Deslice **Personalizar objeto visual** >  **Activar** o **Desactivar**.
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Activar o desactivar personalización del objeto visual":::
 
-## <a name="personalize-visuals-in-the-power-bi-service"></a>Personalizar objetos visuales en el servicio Power BI
-
-Al personalizar un objeto visual, los consumidores pueden explorar los datos de muchas maneras, sin tener que salir de la vista de lectura del informe. En estos ejemplos se muestran distintas formas en que los usuarios pueden modificar una visualización para satisfacer sus necesidades. 
-
-1. Abra un informe en la vista de lectura en el servicio Power BI.
-
-2. En la esquina superior derecha del objeto visual, seleccione el icono **Personalizar este objeto visual** ![icono Personalizar este objeto visual](media/power-bi-personalize-visuals/power-bi-personalize-visual-icon.png). 
-
-### <a name="change-the-visualization-type"></a>Cambiar el tipo de visualización
-
-Puede ver la visualización en una representación diferente cambiando el **Tipo de visualización**.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="Cambiar el tipo de visualización":::
- 
-### <a name="swap-out-a-measure-or-dimension"></a>Intercambiar una medida o una dimensión
-Para reemplazar una medida o una dimensión en el eje X, seleccione el campo que quiere reemplazar y, después, seleccione otra medida o dimensión.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="Cambiar el eje":::
- 
-### <a name="add-or-remove-a-legend"></a>Agregar o quitar una leyenda
-Al agregar una leyenda, puede codificar por colores un objeto visual según una categoría. Puede eliminar la codificación por colores de categorías si desactiva el cuadro **Leyenda** en el panel **Personalizar**. 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="Agregar o quitar la leyenda":::
-
-### <a name="compare-two-or-more-different-measures"></a>Comparar dos o más medidas diferentes
-Puede comparar y contrastar los valores de distintas medidas mediante el icono + para agregar varias medidas para un objeto visual.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="Comparar medidas":::
-
-### <a name="change-aggregations"></a>Cambiar agregaciones
-Puede cambiar el modo en que se calcula una medida si cambia la agregación en el panel **Personalizar**.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="Cambiar agregaciones":::
-
-### <a name="capture-changes"></a>Capturar cambios 
-Use marcadores personales para capturar los cambios, para que pueda volver a la vista personalizada. 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="Crear un marcador":::
- 
-También puede convertir el marcador en la vista predeterminada.
-
-### <a name="share-changes"></a>Compartir cambios 
-Si tiene permisos para leer y volver a compartir, cuando comparta el informe podrá elegir incluir los cambios.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="Compartir cambios":::
- 
-### <a name="reset-all-your-changes-to-a-report"></a>Restablecer todos los cambios en un informe
-
-Seleccione **Restablecer valores predeterminados** para quitar todos los cambios del informe y volver a establecerlo en la última vista guardada del informe.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="Restablecer todos los cambios":::
- 
-### <a name="reset-all-your-changes-to-a-visual"></a>Restablecer todos los cambios en un objeto visual
-
-Seleccione **Restablecer este objeto visual** para quitar todos los cambios de un determinado objeto visual y volver a establecerlo en la última vista guardada de ese objeto visual.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="Restablecer todos los cambios del objeto visual":::
- 
-### <a name="clear-recent-changes"></a>Borrar cambios recientes
-
-Seleccione el icono de borrador para borrar todos los cambios recientes realizados desde que abrió el panel **Personalizar**.  
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Revertir cambios recientes":::
 
 ## <a name="limitations-and-known-issues"></a>Limitaciones y problemas conocidos
 
@@ -164,7 +101,8 @@ También hay algunos problemas conocidos que estamos tratando:
 
 ## <a name="next-steps"></a>Pasos siguientes
 
+[Personalice objetos visuales en los informes](../consumer/end-user-personalize-visuals.md).     
+
 Pruebe la nueva experiencia de personalización visual. Proporciónenos sus comentarios sobre esta característica y cómo podemos seguir mejorándola en el [sitio Ideas sobre Power BI](https://ideas.powerbi.com/forums/265200-power-bi). 
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
-

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c206e35651ef28c03151c6c5af8e5bae453d5d2b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274383"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438255"
 ---
 # <a name="what-is-power-bi-premium"></a>¿Qué es Power BI Premium?
 
@@ -59,6 +59,7 @@ Con Power BI Premium, se obtienen *capacidades dedicadas*. A diferencia de una c
 * Libros de Excel (a menos que los datos se importen primero en Power BI Desktop)
 * [Conjuntos de datos de inserción](/rest/api/power-bi/pushdatasets)
 * [Conjuntos de datos de streaming](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
+* [Preguntas y respuestas](../create-reports/power-bi-tutorial-q-and-a.md)
 
 Las áreas de trabajo residen dentro de las capacidades. Cada usuario de Power BI tiene un área de trabajo personal que se conoce como **Mi área de trabajo**. Pueden crearse áreas de trabajo adicionales, llamadas **áreas de trabajo** para posibilitar la colaboración. De forma predeterminada, las áreas de trabajo, incluidas las personales, se crean en la capacidad compartida. Cuando tiene capacidades Premium, Mis áreas de trabajo y las áreas de trabajo se pueden asignar a las capacidades Premium.
 
@@ -68,7 +69,7 @@ Como se describe en la sección [Suscripciones y licencias](#subscriptions-and-l
 
 El procesamiento se consigue mediante un número determinado de núcleos virtuales, que se divide por igual entre el back-end y el front-end.
 
-Los **núcleos virtuales de back-end** son responsables de funciones básicas de Power BI, como el procesamiento de consultas, la administración de caché, la ejecución de servicios R, la actualización del modelo, el procesamiento de lenguaje natural (Preguntas y respuestas) y la representación de informes e imágenes en el lado servidor. A los núcleos virtuales de back-end se les asigna una cantidad fija de memoria que se usa principalmente para hospedar modelos, también conocidos como "conjuntos de datos activos".
+Los **núcleos virtuales de back-end** son responsables de funciones básicas de Power BI, como el procesamiento de consultas, la administración de caché, la ejecución de servicios R, la actualización del modelo y la representación de informes e imágenes en el lado servidor. A los núcleos virtuales de back-end se les asigna una cantidad fija de memoria que se usa principalmente para hospedar modelos, también conocidos como "conjuntos de datos activos".
 
 Los **núcleos virtuales de front-end** son responsables de la administración de documentos de informes, paneles y servicios web, la administración de derechos de acceso, la programación, las API, las cargas y descargas, y en general de todo lo relacionado con las experiencias del usuario.
 
