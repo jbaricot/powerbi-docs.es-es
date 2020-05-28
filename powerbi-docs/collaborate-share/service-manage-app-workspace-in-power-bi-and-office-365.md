@@ -1,6 +1,6 @@
 ---
-title: Administración del área de trabajo en Power BI y Office 365
-description: Las áreas de trabajo de Power BI son una experiencia de colaboración basada en los grupos de Office 365. Administre las áreas de trabajo en Power BI y también en Office 365.
+title: Administración del área de trabajo en Power BI y Microsoft 365
+description: Las áreas de trabajo de Power BI son una experiencia de colaboración basada en los grupos de Microsoft 365. Administre las áreas de trabajo en Power BI y también en Microsoft 365.
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 27f3c88607f57be8b5abffdbec71ecfe80beea23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1365eba697538255ea8c23b03f0b5db71a7ba1cd
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348077"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693812"
 ---
-# <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Administración del área de trabajo en Power BI y Office 365
+# <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>Administración del área de trabajo en Power BI y Microsoft 365
 
-Como creador o administrador de un [área de trabajo de Power BI](service-create-distribute-apps.md) u Office 365, administrará algunos aspectos de ella en Power BI. Otros aspectos que administra en Office 365.
+Como creador o administrador de un [área de trabajo de Power BI](service-create-distribute-apps.md) o de Microsoft 365, administrará algunos aspectos del área de trabajo en Power BI. Otros aspectos que administra en Microsoft 365.
 
 > [!NOTE]
-> La versión preliminar de la nueva experiencia de áreas de trabajo cambiará la relación entre las áreas de trabajo de Power BI y los grupos de Office 365. Ya no creará automáticamente un grupo de Office 365 cada vez que cree una de las nuevas áreas de trabajo. Obtenga información sobre [la creación de las nuevas áreas de trabajo](service-create-the-new-workspaces.md).
+> La nueva experiencia de áreas de trabajo cambiará la relación entre las áreas de trabajo de Power BI y los grupos de Microsoft 365. Ya no creará automáticamente un grupo de Microsoft 365 cada vez que cree una de las nuevas áreas de trabajo. Obtenga información sobre [la creación de las nuevas áreas de trabajo](service-create-the-new-workspaces.md).
 
 En **Power BI** puede:
 
 * Agregar o quitar miembros del área de trabajo y también convertir a un miembro del área de trabajo en administrador.
 * Editar el nombre del área de trabajo.
-* Elimine el área de trabajo, lo cual también elimina el grupo de Office 365.
+* Elimine el área de trabajo, con lo cual elimina también el grupo de Microsoft 365.
 
-En **Office 365** puede:
+En **Microsoft 365** puede:
 
 * Agregar o quitar miembros de grupos del área de trabajo y también convertir a un miembro en propietario.
 * Edite el nombre, imagen, descripción y otras opciones del grupo.
@@ -53,9 +53,9 @@ Necesita una [licencia de Power BI Pro](../fundamentals/service-features-licen
 
 1. Seleccione **Guardar** o **Cancelar**.
 
-## <a name="edit-power-bi-workspace-properties-in-office-365"></a>Edición de propiedades del área de trabajo de Power BI en Office 365
+## <a name="edit-power-bi-workspace-properties-in-microsoft-365"></a>Edición de propiedades del área de trabajo de Power BI en Microsoft 365
 
-También puede editar aspectos de un área de trabajo directamente en Outlook para Office 365.
+También puede editar aspectos de un área de trabajo directamente en Outlook para Microsoft 365.
 
 ### <a name="edit-the-members-of-the-workspace-group"></a>Edición de los miembros del grupo del área de trabajo
 
@@ -63,17 +63,17 @@ También puede editar aspectos de un área de trabajo directamente en Outlook pa
 
    ![Editar áreas de trabajo en Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
-   Se abre la vista de grupo de Outlook para Office 365 del área de trabajo. Es posible que tenga que iniciar sesión en la cuenta de trabajo.
+   Se abre la vista grupo de Outlook para Microsoft 365 del área de trabajo. Es posible que tenga que iniciar sesión en la cuenta de trabajo.
 
 1. Seleccione el rol situado junto al nombre de un compañero de equipo para convertirlo en **Miembro** o **Propietario**. Seleccione la **X** para quitar a la persona del grupo.
 
-   ![Editar un grupo de Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![Edición de un grupo de Microsoft 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>Adición de una imagen y establecimiento de otras propiedades del área de trabajo
 
-Cuando se distribuye la aplicación desde el área de trabajo, la imagen que agrega aquí es la imagen de la aplicación. Consulte [Adición de una imagen al área de trabajo de Office 365](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional) del artículo **Creación de las nuevas áreas de trabajo**.
+Cuando se distribuye la aplicación desde el área de trabajo, la imagen que agrega aquí es la imagen de la aplicación. Consulte [Adición de una imagen al área de trabajo de Microsoft 365](service-create-workspaces.md#add-an-image-to-your-microsoft-365-workspace-optional) del artículo **Creación de nuevas áreas de trabajo**.
 
-1. En la vista de Outlook para Office 365 del área de trabajo, vaya a la pestaña **Acerca de** y seleccione **Editar**.
+1. En la vista de Outlook para Microsoft 365 del área de trabajo, vaya a la pestaña **Acerca de** y seleccione **Editar**.
 
     ![Icono de Editar grupo](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 1. Puede editar el nombre, la descripción y el idioma de las notificaciones relacionadas con el grupo. Aquí también puede agregar una imagen y establecer otras propiedades.
