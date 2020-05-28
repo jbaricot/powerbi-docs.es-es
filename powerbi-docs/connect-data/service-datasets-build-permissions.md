@@ -1,22 +1,22 @@
 ---
-title: Permiso de compilación para conjuntos de datos compartidos (versión preliminar)
+title: Permiso de compilación para conjuntos de datos compartidos
 description: Obtenga información sobre cómo controlar el acceso a los datos mediante el permiso de compilación.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af2e4c865609846d8fcfc792eee4f483afef2160
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 84f6a9d152151c6d6f44bcbad9e0a4d54fc0c293
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285357"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793006"
 ---
-# <a name="build-permission-for-shared-datasets-preview"></a>Permiso de compilación para conjuntos de datos compartidos (versión preliminar)
+# <a name="build-permission-for-shared-datasets"></a>Permiso de compilación para conjuntos de datos compartidos
 
 Cuando se crea un informe en Power BI Desktop, los datos de ese informe se almacenan en un *modelo de datos*. Al publicar los informes en el servicio Power BI, los datos también se están publicando como un *conjunto de datos*. Puede conceder a otros usuarios *permiso de compilación* en ese informe para que puedan encontrar y volver a usar el conjunto de datos que ha compartido. En este artículo se explica cómo controlar el acceso a los datos mediante el permiso de compilación.
 
@@ -57,7 +57,7 @@ En algún momento, es posible que tenga que quitar el permiso de compilación pa
 1. En un área de trabajo, vaya a la página de la lista **Conjuntos de datos**. 
 1. Seleccione **Más opciones** (...) junto al conjunto de datos > **Administrar permisos**.
 
-    ![Administración de permisos](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
+    ![Administrar permisos](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
 1. Seleccione **Más opciones** (...) junto a un nombre > **Quitar compilación**.
 
@@ -87,7 +87,7 @@ Supongamos que ha distribuido una aplicación desde un área de trabajo a un gru
 1. En el área de trabajo, vaya a la página de la lista **Conjuntos de datos**. 
 1. Seleccione **Más opciones** (...) junto al conjunto de datos > **Administrar permisos**.
 
-    ![Administración de permisos](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
+    ![Administrar permisos](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
 1. Seleccione **Más opciones** (...) junto al nombre > **Quitar compilación**.
 
@@ -107,5 +107,5 @@ Puede quitar los permisos de compilación. Si lo hace, los usuarios cuyos permis
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Uso de conjuntos de datos entre áreas de trabajo (versión preliminar)](service-datasets-across-workspaces.md)
-- ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- [Uso de conjuntos de datos entre áreas de trabajo](service-datasets-across-workspaces.md)
+- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

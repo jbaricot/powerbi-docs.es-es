@@ -4,17 +4,17 @@ description: En este artículo se muestra cómo explorar en profundidad en un ob
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9b1cd7e7bfd808edc89dc4490e252a89ac5acb3e
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496414"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813747"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Modo de exploración en un objeto visual de Power BI
 
