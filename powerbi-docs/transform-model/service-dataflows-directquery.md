@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/19/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9de8c9611b24eaa627b3ddf044f13d36d7b9a3d4
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 469b8b13f77c56f9371ae8c1c81dcb94278c62e0
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83694582"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794028"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>Uso de DirectQuery con flujos de datos en Power BI (versión preliminar)
 
@@ -22,7 +22,7 @@ Puede usar DirectQuery para conectarse directamente a flujos de datos y así con
 
 El uso de DirectQuery con flujos de datos permite las siguientes mejoras en los procesos de Power BI y flujos de entrada:
 
-* **Evitar programaciones de actualización independientes**: DirectQuery se conecta directamente a un flujo de entrada, lo que elimina la necesidad de crear un conjunto de datos. Como tal, el uso de DirectQuery con los flujos de datos significa que ya no necesita programaciones de actualización independientes del flujo de datos y el conjunto de datos para asegurarse de que los datos se sincronizan.
+* **Evitar programaciones de actualización independientes**: DirectQuery se conecta directamente a un flujo de entrada, lo que elimina la necesidad de crear un conjunto de datos importado. Como tal, el uso de DirectQuery con los flujos de datos significa que ya no necesita programaciones de actualización independientes del flujo de datos y el conjunto de datos para asegurarse de que los datos se sincronizan.
 
 * **Filtrar datos**: DirectQuery resulta útil para trabajar en una vista filtrada de los datos dentro de un flujo de datos. Si desea filtrar los datos y, por tanto, trabajar con un subconjunto más pequeño de los datos del flujo de datos, puede usar DirectQuery (y el motor de proceso) para filtrar los datos de flujo de datos y trabajar con el subconjunto filtrado que necesite.
 
@@ -38,7 +38,7 @@ También hay requisitos previos para usar DirectQuery con flujos de datos:
 
 ## <a name="enable-directquery-for-dataflows"></a>Habilitación de DirectQuery para flujos de datos
 
-Para asegurarse de que el flujo de datos está disponible para el acceso de DirectQuery, el motor de proceso mejorado debe estar en su estado optimizado. Para habilitar DirectQuery para flujos de datos, establezca la nueva opción **Configuración mejorada del motor de proceso** en **Optimizado**. La siguiente imagen muestra la opción seleccionada correctamente.
+Para asegurarse de que el flujo de datos está disponible para el acceso de DirectQuery, el motor de proceso mejorado debe estar en su estado optimizado. Para habilitar DirectQuery para flujos de datos, establezca la nueva opción **Configuración mejorada del motor de proceso** en **Activada**. La siguiente imagen muestra la opción seleccionada correctamente.
 
 ![Habilitación del motor de proceso mejorado con flujos de datos](media/service-dataflows-directquery/dataflows-directquery-01.png)
 
@@ -50,7 +50,15 @@ Cuando haya aplicado esa opción, actualice el flujo de datos para que la optimi
 Existen algunas limitaciones conocidas de DirectQuery y los flujos de datos, que se explican en la siguiente lista.
 
 * DirectQuery para flujos de datos no funciona con la característica en **versión preliminar de metadatos mejorados** habilitada. Se espera que esta exclusión se quite en una próxima versión mensual de Power BI Desktop.
+
 * Durante el período de versión preliminar de esta característica, algunos clientes pueden experimentar tiempos de espera o problemas de rendimiento al usar DirectQuery con flujos de datos. Estos problemas se solucionan activamente durante este período de versión preliminar.
+
+* Los modelos compuestos o mixtos con orígenes de datos de importación y DirectQuery no se admiten actualmente.
+
+* Durante la visualización, los flujos de datos de gran tamaño pueden presentar problemas relacionados con incidencias de tiempo de expiración. Se espera que esta limitación se elimine cuando la característica pase a la disponibilidad general. Hasta entonces, los flujos de datos de gran tamaño que presenten problemas relacionados con incidencias de tiempo de expiración deberán usar el modo de importación.
+
+* En la configuración del origen de datos, el conector de flujo de datos mostrará las credenciales no válidas si usa DirectQuery. Esto no afecta al comportamiento, de modo que el conjunto de datos funcionará correctamente. Este problema se resolverá a medida que se acerque la disponibilidad general.
+
 
 
 ## <a name="next-steps"></a>Pasos siguientes
