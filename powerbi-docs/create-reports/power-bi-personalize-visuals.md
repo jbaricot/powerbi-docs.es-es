@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2020
+ms.date: 05/21/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: 27f71da8a8396de30254c1a02307aa48281db5a8
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407584"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793596"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Permitir a los usuarios personalizar los objetos visuales en un informe
 
@@ -91,7 +91,7 @@ Actualmente, la característica tiene algunas limitaciones que se deben tener en
 
 - Esta característica no es compatible con escenarios de inserción, incluido publicar en la web.
 - Las exploraciones de los usuarios no se conservan automáticamente. Debe guardar la vista como un marcador personal para capturar los cambios.
-- No se pueden cambiar los objetos visuales mientras se está en Power BI para aplicaciones móviles. Pero todos los cambios visuales que guarde en un marcador personal mientras está en el servicio Power BI se respetan en las aplicaciones móviles.
+- Esta característica se admite en las aplicaciones móviles de Power BI para tabletas iOS y Android, así como en su versión para Windows; no se admite en las aplicaciones móviles de Power BI para teléfonos. Pero cualquier cambio en un objeto visual que guarde en un marcador personal mientras se encuentre en el servicio Power BI se respetará en todas las aplicaciones móviles de Power BI.
 
 También hay algunos problemas conocidos que estamos tratando:
 

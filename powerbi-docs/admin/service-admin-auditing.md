@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564624"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812436"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Seguimiento de actividades de usuario en Power BI
 
@@ -26,7 +26,7 @@ Es fundamental saber quién realiza cada acción en cada elemento del inquilino 
 | Incluye eventos de SharePoint Online, Exchange Online, Dynamics 365 y otros servicios además de los eventos de auditoría de Power BI. | Solo incluye los eventos de auditoría de Power BI. |
 | Solo tienen acceso, como administradores globales y auditores, los usuarios con permisos Registros de auditoría o Registros de auditoría de solo lectura. | Los administradores globales y los administradores del servicio Power BI tienen acceso. |
 | Los administradores y auditores globales pueden buscar en el registro de auditoría unificado mediante el Centro de seguridad de Microsoft 365 y el Centro de cumplimiento de Microsoft 365. | Todavía no hay ninguna interfaz de usuario para buscar en el registro de actividad. |
-| Los administradores y auditores globales pueden descargar entradas del registro de auditoría mediante los cmdlets y las API de administración de Office 365. | Los administradores globales y los administradores del servicio Power BI pueden descargar entradas del registro de actividad mediante una API REST de Power BI y un cmdlet de administración. |
+| Los administradores y auditores globales pueden descargar entradas del registro de auditoría mediante los cmdlets y las API de administración de Microsoft 365. | Los administradores globales y los administradores del servicio Power BI pueden descargar entradas del registro de actividad mediante una API REST de Power BI y un cmdlet de administración. |
 | Mantiene los datos de auditoría durante 90 días | Mantiene los datos de actividad durante 30 días (versión preliminar pública). |
 | Conserva los datos de auditoría, incluso si el inquilino se mueve a otra región de Azure. | No conserva los datos de actividad cuando el inquilino se mueve a otra región de Azure. |
 
@@ -239,6 +239,7 @@ Las operaciones siguientes están disponibles en los registros de auditoría y d
 
 | Nombre descriptivo                                     | Nombre de operación                              | Notas                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Tablas destacadas de Power BI a las que se ha accedido en Excel | AnalyzedByExternalApplication |    |
 | Origen de datos agregado a la puerta de enlace de Power BI             | AddDatasourceToGateway                      |                                          |
 | Acceso a la carpeta de Power BI agregado                      | AddFolderAccess                             | No se usa actualmente                       |
 | Miembros del grupo de Power BI agregados                      | AddGroupMembers                             |                                          |
@@ -299,6 +300,7 @@ Las operaciones siguientes están disponibles en los registros de auditoría y d
 | Panel de Power BI imprimido                        | PrintDashboard                              |                                          |
 | Página de informe de Power BI imprimida                      | PrintReport                                 |                                          |
 | Informe de Power BI publicado en la Web                  | PublishToWebReport <sup>2</sup>                         |                                          |
+| Tablas destacadas publicadas o actualizadas | UpdateFeaturedTables <sup>3</sup>   | |
 | Flujo de datos de Power BI secreto recibido de Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Se ha eliminado un origen de datos de la puerta de enlace de Power BI         | RemoveDatasourceFromGateway                 |                                          |
 | Miembros del grupo de Power BI eliminados                    | DeleteGroupMembers                          |                                          |
@@ -341,6 +343,8 @@ Las operaciones siguientes están disponibles en los registros de auditoría y d
 <sup>1</sup> La publicación desde Power BI Desktop en el servicio es un evento CreateReport en el servicio.
 
 <sup>2</sup> PublishtoWebReport hace referencia a la característica [Publicar en la web](../collaborate-share/service-publish-to-web.md).
+
+<sup>3</sup> UpdateFeaturedTables hace referencia a [Tablas destacadas de Power BI en Excel](../collaborate-share/service-excel-featured-tables.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
