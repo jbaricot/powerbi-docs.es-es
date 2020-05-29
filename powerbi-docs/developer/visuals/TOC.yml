@@ -52,6 +52,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: "Publicación de objetos visuales de Power\_BI en AppSource"
           href: office-store.md
+        - name: Creación de objetos visuales con tecnología de R
+          href: create-r-based-power-bi-desktop.md
         - name: "Prueba del objeto visual de Power\_BI"
           href: submission-testing.md
         - name: Uso de objetos visuales de Power BI con tecnología de R en Power BI
