@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3a7d7b0afa4a1eb3d6af81d3e6ba1315e291c4b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 25a0f5abe07b82c2397ab2800802eba6f624a27c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324733"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119938"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Agrupación de objetos visuales en informes de Power BI Desktop
 Con la **agrupación** de **Power BI Desktop**, puede agrupar objetos visuales en el informe, como botones, cuadros de texto, imágenes de formas y cualquier objeto visual que cree, de la misma manera que agrupa elementos en PowerPoint. La agrupación de objetos visuales en un informe permite tratar el grupo como un solo objeto, lo que hace que el movimiento, el cambio de tamaño y el trabajo con capas del informe sean más sencillos, rápidos e intuitivos.
@@ -33,6 +33,8 @@ Los grupos se muestran en el panel **Selección**. Puede tener todos los grupos 
 ![Anidación de grupos](media/desktop-grouping-visuals/grouping-visuals-03.png)
 
 En el panel **Selección**, también puede arrastrar y colocar objetos visuales individuales para incluirlos en un grupo, quitarlos de un grupo, anidar un grupo o quitar un grupo o un objeto visual individual de una anidación. Simplemente arrastre el objeto visual que pretende ajustar y colóquelo donde quiera. La disposición en capas de objetos visuales, si hay superposición, viene determinada por su orden en la lista *Orden de las capas*.
+
+Cambiar el nombre de un grupo es sencillo: simplemente haga doble clic en el nombre del grupo en el panel **Selección** y escriba el nombre nuevo del grupo.
 
 ![Arrastre y colocación de grupos](media/desktop-grouping-visuals/grouping-visuals-04.png)
 

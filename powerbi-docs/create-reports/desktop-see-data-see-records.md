@@ -1,30 +1,30 @@
 ---
-title: Ver datos y registros en objetos visuales de Power BI Desktop
-description: Usar las características Ver datos y Ver registros de Power BI Desktop para profundizar en la información
+title: Tabla de objeto visual y registros en objetos visuales de Power BI Desktop
+description: Uso de las características de tabla de objeto visual y tabla de punto de datos de Power BI Desktop para profundizar en los detalles
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d1aca2499ecf2be3e38fe36bd00f5ff5b2c17cc7
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334370"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793932"
 ---
-# <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Usar Ver datos y Ver registros en Power BI Desktop
+# <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Uso de tabla de objeto visual y tabla de punto de datos en Power BI Desktop
 En **Power BI Desktop**, puede profundizar en los detalles de una visualización y ver representaciones textuales de los datos subyacentes o de los registros de datos individuales del objeto visual seleccionado. Estas características se conocen a veces como *click-through*, o *drill-through* u *obtención de detalles*.
 
-Puede usar **Ver datos** para ver una versión textual de los valores usados por la visualización seleccionada, o usar **Ver registros** para ver todos los datos de un registro o punto de datos seleccionado. 
+Puede usar la **tabla de objeto visual** para ver los datos en un objeto visual como una tabla, o bien use la **tabla de punto de datos** para ver una tabla de los datos que se usan para calcular un punto de datos único. 
 
-![Ver datos y Ver registros](media/desktop-see-data-see-records/see-data-record.png)
+![Tabla de objeto visual y tabla de punto de datos](media/desktop-see-data-see-records/see-data-record.png)
 
 >[!IMPORTANT]
->**Ver datos** y **Ver registros** admiten solo los siguientes tipos de visualización:
+>La **tabla de objeto visual** y la **tabla de punto de datos** solo admiten los tipos de visualización siguientes:
 >  - Gráfico de barras
 >  - Gráfico de columnas
 >  - Gráfico de anillos
@@ -32,59 +32,58 @@ Puede usar **Ver datos** para ver una versión textual de los valores usados por
 >  - Embudo
 >  - Mapa
 >  - Gráfico circular
->  - Treemap
+>  - Gráfico de rectángulos
 
-## <a name="use-see-data-in-power-bi-desktop"></a>Uso de Ver datos en Power BI Desktop
+## <a name="use-visual-table-in-power-bi-desktop"></a>Uso de la tabla de objeto visual en Power BI Desktop
 
-**Ver datos** muestra los datos que subyacen a una visualización. **Ver datos** aparece en la pestaña **Datos y rastreo** en la sección **Visual Tools** de la cinta al seleccionarse una visualización.
+La **tabla de objeto visual** muestra los datos que subyacen a una visualización. La **tabla de objeto visual** aparece en la pestaña **Datos y detalles** de la sección **Mostrar** de la cinta de opciones cuando se selecciona un objeto visual.
 
-![Ver Datos en la cinta](media/desktop-see-data-see-records/see-data1.png)
+![Tabla de objeto visual en la cinta de opciones](media/desktop-see-data-see-records/visual-table-01.png)
 
-También puede ver los datos al hacer clic con el botón derecho en una visualización y seleccionar **Permite mostrar datos** en el menú que aparece, o bien, al seleccionar **Más opciones** (...) en la esquina superior derecha de una visualización y, después, **Permite mostrar datos**.
+También puede ver los datos al hacer clic con el botón derecho en una visualización y seleccionar **Permite mostrar datos** en el menú que aparece, o bien, al seleccionar **Más opciones** (...) en la esquina superior derecha de una visualización y, después, **Mostrar como tabla**.
 
-![Mostrar datos clic con el botón derecho](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![Mostrar datos Más opciones](media/desktop-see-data-see-records/see-data3.png)
+![Mostrar datos clic con el botón derecho](media/desktop-see-data-see-records/visual-table-02.png)&nbsp;&nbsp;![Mostrar datos Más opciones](media/desktop-see-data-see-records/visual-table-03.png)
 
 > [!NOTE]
 > Debe mantener el puntero sobre un punto de datos del objeto visual para que el menú contextual esté disponible.
 
-Al seleccionar **Ver datos** o **Mostrar datos**, el lienzo de Power BI Desktop muestra tanto la representación visual como la representación textual de los datos. En la *vista horizontal*, el objeto visual se muestra en la mitad superior del lienzo, mientras que los datos aparecen en la mitad inferior. 
+Al seleccionar **Tabla de objeto visual** o **Tabla de punto de datos**, el lienzo de Power BI Desktop muestra tanto la representación visual como la representación textual de los datos. En la *vista horizontal*, el objeto visual se muestra en la mitad superior del lienzo, mientras que los datos aparecen en la mitad inferior. 
 
-![vista horizontal](media/desktop-see-data-see-records/see-data4a.png)
+![vista horizontal](media/desktop-see-data-see-records/visual-table-04.png)
 
 Puede alternar entre la vista horizontal y una *vista vertical* si selecciona el icono en la esquina superior derecha del lienzo.
 
-![alternar vista vertical](media/desktop-see-data-see-records/see-data4.png)
+![alternar vista vertical](media/desktop-see-data-see-records/visual-table-05.png)
 
 Para volver al informe, seleccione **< Volver al informe** en la esquina superior izquierda del lienzo.
 
-![Volver al informe](media/desktop-see-data-see-records/see-data5.png)
+![Volver al informe](media/desktop-see-data-see-records/visual-table-06.png)
 
-## <a name="use-see-records-in-power-bi-desktop"></a>Uso de Ver registros en Power BI Desktop
+## <a name="use-data-point-table-in-power-bi-desktop"></a>Uso de la tabla de punto de datos en Power BI Desktop
 
-También puede centrarse en un registro de datos de una visualización y profundizar en los datos que contiene. Para usar **Ver registros**, seleccione una visualización y, a continuación, **Ver registros** en la pestaña **Datos y detalles** en la sección **Herramientas visuales** de la cinta. Después, seleccione una fila o punto de datos en la visualización. 
+También puede centrarse en un registro de datos de una visualización y profundizar en los datos que contiene. Para usar **Tabla de punto de datos**, seleccione una visualización y, a continuación, **Tabla de punto de datos** en la pestaña **Datos y detalles** en la sección **Herramientas visuales** de la cinta. Después, seleccione una fila o punto de datos en la visualización. 
 
-![Ver Registros en la cinta](media/desktop-see-data-see-records/see-record1.png)
+![Tabla de punto de datos en la cinta de opciones](media/desktop-see-data-see-records/visual-table-07.png)
 
 > [!NOTE]
-> Si el botón **Ver registros** de la cinta está deshabilitado y en gris, significa que la visualización seleccionada no admite **Ver registros**.
+> Si el botón **Tabla de punto de datos** de la cinta de opciones está deshabilitado y atenuado, significa que la visualización seleccionada no admite la **Tabla de punto de datos**.
 
-También puede hacer clic con el botón derecho en un elemento de datos y seleccionar **Ver registros** en el menú que aparece.
+También puede hacer clic con el botón derecho en un elemento de datos y seleccionar **Tabla de punto de datos** en el menú que aparece.
 
-![Ver registros haciendo clic con el botón derecho](media/desktop-see-data-see-records/see-record2.png)
+![Tabla de puntos de datos mediante un clic con el botón derecho](media/desktop-see-data-see-records/visual-table-08.png)
 
-Al seleccionar **Ver registros** para un elemento de datos, el lienzo de Power BI Desktop muestra todos los datos asociados al elemento seleccionado. 
+Al seleccionar **Tabla de punto de datos** para un elemento de datos, el lienzo de Power BI Desktop muestra todos los datos asociados al elemento seleccionado. 
 
-![](media/desktop-see-data-see-records/see-record3.png)
+![](media/desktop-see-data-see-records/visual-table-09.png)
 
 Para volver al informe, seleccione **< Volver al informe** en la esquina superior izquierda del lienzo.
 
-![](media/desktop-see-data-see-records/see-record4.png)
 
 > [!NOTE]
->**Ver registros** tiene las siguientes limitaciones:
-> - No puede cambiar los datos en la vista **Ver registros** y guardarlos de nuevo en el informe.
-> - No se puede usar **Ver registros** cuando el objeto visual utiliza una medida calculada.
-> - No se puede usar **Ver registros** al conectarse a un modelo multidimensional (MD) activo.
+>La **Tabla de punto de datos** tiene estas limitaciones:
+> - No puede cambiar los datos de la vista **Tabla de punto de datos** y guardarlos de nuevo en el informe.
+> - No se puede usar **Tabla de punto de datos** cuando el objeto visual usa una medida calculada.
+> - No se puede usar **Tabla de punto de datos** al conectarse a un modelo multidimensional (MD) activo.
 
 ## <a name="next-steps"></a>Pasos siguientes
 **Power BI Desktop** incluye todo tipo de características de administración de datos y formato de informes. Para ver algunos ejemplos, consulte los siguientes recursos:

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/12/2020
+ms.date: 05/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1a6cf5cad4fe4b76d44dcfaecd81324003687b10
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: aa8b457dfd33cff40dbd651f0e07811e361e52d9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407895"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120947"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Automatización de tareas de área de trabajo y conjunto de datos de Premium con entidades de servicio
 
@@ -29,7 +29,7 @@ En **Power BI Premium**, las entidades de servicio también se pueden usar con 
 - Azure Logic Apps
 - Aplicaciones cliente personalizadas
 
-Las entidades de servicio solo se pueden usar con el punto de conexión XMLA en las [nuevas áreas de trabajo](../collaborate-share/service-new-workspaces.md). No se admiten las áreas de trabajo clásicas. Una entidad de servicio tiene los permisos necesarios para realizar tareas en las áreas de trabajo a las que se asignan. Los permisos se asignan mediante el acceso al área de trabajo, de forma muy similar a las cuentas UPN normales.
+Solo las [nuevas áreas de trabajo](../collaborate-share/service-new-workspaces.md) admiten conexiones de punto de conexión XMLA mediante entidades de servicio. No se admiten las áreas de trabajo clásicas. Una entidad de servicio tiene los permisos necesarios para realizar tareas en las áreas de trabajo a las que se asignan. Los permisos se asignan mediante el acceso al área de trabajo, de forma muy similar a las cuentas UPN normales.
 
 Para realizar operaciones de escritura, la **carga de trabajo de los conjuntos de datos** de la capacidad debe tener el [punto de conexión XMLA habilitado para lectura y escritura](service-premium-connect-tools.md#enable-xmla-read-write). Los conjuntos de datos publicados desde Power BI Desktop deben tener habilitada la característica [Enhanced metadata format](../connect-data/desktop-enhanced-dataset-metadata.md) (Formato de metadatos mejorado).
 
@@ -91,7 +91,7 @@ $PWord = ConvertTo-SecureString -String $AppSecret -AsPlainText -Force
 
 $Credential = New-Object -TypeName "System.Management.Automation.PSCredential" -ArgumentList $AppId, $PWord
 
-Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -Database "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
+Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -DatabaseName "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
 ```
 
 ### <a name="amo-and-adomd"></a>AMO y ADOMD

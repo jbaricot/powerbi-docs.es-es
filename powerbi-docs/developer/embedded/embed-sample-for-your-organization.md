@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49465556d7b11b911e24df06ab6598bb2dbe9707
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349802"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794136"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Insertar contenido de Power BI en una aplicación para la organización
 
@@ -383,7 +383,7 @@ Ahora que ya ha terminado de desarrollar la aplicación, es el momento de propor
 
 Al crear una capacidad dedicada, puede aprovechar las ventajas de disponer de un recurso dedicado para el contenido del área de trabajo. En el caso de los informes paginados, debe asignar al área de trabajo al menos una capacidad P1. Puede crear una capacidad dedicada mediante [Power BI Premium](../../admin/service-premium-what-is.md).
 
-En la tabla siguiente se enumeran las SKU de Power BI Premium disponibles en [Microsoft Office 365](../../admin/service-admin-premium-purchase.md):
+En la tabla siguiente se enumeran las SKU de Power BI Premium disponibles en [Microsoft 365](../../admin/service-admin-premium-purchase.md):
 
 | Nodo de capacidad | Núcleos virtuales totales<br/>(back-end y front-end) | Núcleos virtuales de back-end | Núcleos virtuales de front-end | Límites de conexiones dinámicas/DirectQuery |
 | --- | --- | --- | --- | --- | --- |

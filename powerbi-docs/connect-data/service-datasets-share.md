@@ -1,22 +1,22 @@
 ---
-title: Uso compartido de un conjunto de datos (versión preliminar)
+title: Compartir un conjunto de datos
 description: Como propietario de un conjunto de datos, puede crear y compartir los conjuntos de datos para que otros usuarios puedan usarlos. Obtenga información sobre cómo compartirlos.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565469"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794086"
 ---
-# <a name="share-a-dataset-preview"></a>Uso compartido de un conjunto de datos (versión preliminar)
+# <a name="share-a-dataset"></a>Compartir un conjunto de datos
 
 Como creador de *modelos de datos* en Power BI Desktop, creará *conjuntos de datos* que puede distribuir en el servicio Power BI. A continuación, otros creadores de informes podrán usar los conjuntos de valores como base para sus propios informes. En este artículo, aprenderá a compartir sus conjuntos de archivos. Para obtener información sobre cómo conceder y quitar el acceso a los conjuntos de datos compartidos, lea sobre el [permiso de compilación](service-datasets-build-permissions.md).
 
@@ -26,7 +26,7 @@ Como creador de *modelos de datos* en Power BI Desktop, creará *conjuntos de d
 
     Un procedimiento recomendado consiste en guardar el archivo .pbix en un grupo de Microsoft 365.
 
-1. Publique el archivo .pbix en una [nueva experiencia de área de trabajo](../collaborate-share/service-create-the-new-workspaces.md) en el servicio Power BI.
+1. Publique el archivo .pbix en una [nueva experiencia de área de trabajo](../collaborate-share/service-create-the-new-workspaces.md) del servicio Power BI.
     
     Otros miembros de esta área de trabajo ya pueden crear informes en otras áreas de trabajo en función de este conjunto de datos.
 
@@ -53,5 +53,5 @@ Cuando tiene un conjunto de datos compartido en el área de trabajo, es posible 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Uso de conjuntos de datos entre áreas de trabajo (versión preliminar)](service-datasets-across-workspaces.md)
+- [Uso de conjuntos de datos entre áreas de trabajo](service-datasets-across-workspaces.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

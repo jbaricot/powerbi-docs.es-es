@@ -1,22 +1,22 @@
 ---
-title: 'Copia de informes de otras aplicaciones o áreas de trabajo (versión preliminar): Power BI'
+title: 'Copia de informes de otras aplicaciones o áreas de trabajo: Power BI'
 description: Obtenga información sobre cómo puede crear una copia de un informe y guardarla en su propia área de trabajo.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d70f029568dca578bb76350a42b5146ecc335759
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83312635"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793107"
 ---
-# <a name="copy-reports-from-other-workspaces-preview"></a>Copia de informes desde otras áreas de trabajo (versión preliminar)
+# <a name="copy-reports-from-other-workspaces"></a>Copia de informes desde otras áreas de trabajo
 
 Si encuentra un informe que le gusta en un área de trabajo o una aplicación, puede realizar una copia y guardarlo en otra área de trabajo. Luego puede modificar la copia del informe mediante la incorporación o eliminación de objetos visuales y otros elementos. No tiene que preocuparse de crear el modelo de datos. Ya se ha creado de forma automática. Y resulta mucho más fácil modificar un informe existente que empezar desde cero. Pero si se crea una aplicación desde la nueva área de trabajo, a veces no se puede publicar la copia del informe en la aplicación. Vea [Consideraciones y limitaciones en el artículo "Uso de conjuntos de datos entre áreas de trabajo"](service-datasets-across-workspaces.md#considerations-and-limitations) para obtener detalles.
 
@@ -106,5 +106,5 @@ Puede decidir que ya no quiere ni el informe ni su conjunto de datos compartido 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Uso de conjuntos de datos entre áreas de trabajo (versión preliminar)](service-datasets-across-workspaces.md)
-- ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- [Uso de conjuntos de datos entre áreas de trabajo](service-datasets-across-workspaces.md)
+- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

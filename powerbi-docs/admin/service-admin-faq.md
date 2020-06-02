@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ce18b3cb077e0fee2eea4d0d31327329f405a51a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 25b5665aa531c347d43a197b53938aec569b9d2d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563761"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812183"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administración de Power BI: preguntas más frecuentes (P+F)
 
@@ -27,8 +27,8 @@ En este artículo se tratan las preguntas más frecuentes para la administració
 * [Uso de PowerShell](#using-powershell)
 * [¿Cómo se suscriben los usuarios a Power BI?](#how-do-users-sign-up-for-power-bi)
 * [¿Cómo se suscriben los usuarios individuales de mi organización?](#how-do-individual-users-in-my-organization-sign-up)
-* [¿Cómo puedo impedir que los usuarios se unan a mi inquilino de Office 365 existente?](#how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant)
-* [¿Cómo puedo permitir que los usuarios se unan a mi inquilino de Office 365 existente?](#how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant)
+* [¿Cómo impido que los usuarios se unan a mi organización existente?](#how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant)
+* [¿Cómo permito que los usuarios se unan a mi organización existente?](#how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant)
 * [¿Cómo puedo comprobar si tengo el bloqueo activado en el inquilino?](#how-do-i-check-if-i-have-the-block-on-in-the-tenant)
 * [¿Cómo puedo impedir que mis usuarios existentes comiencen a usar Power BI?](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
 * [¿Cómo puedo permitir a mis usuarios existentes que se suscriban a Power BI?](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)

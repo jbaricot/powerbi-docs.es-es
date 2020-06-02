@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 05/26/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 45229edbc6ed2c9e9c4618d44b4b74e42d0037b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9df00079488b248f2e5bab52395a637e37045a24
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274613"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119988"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configuración de compatibilidad con Multi-Geo en Power BI Premium
 
@@ -27,7 +27,7 @@ Multi-Geo es una característica de Power BI Premium que ayuda a que los cliente
 - Europa
 - Japón
 - India
-- Asia Oriental
+- Asia Pacífico
 - Australia
 - África
 
@@ -68,6 +68,8 @@ Estos elementos permanecen en la región principal del inquilino:
 - Permisos
 - Credenciales de conjuntos de datos
 
+
+
 ## <a name="view-capacity-regions"></a>Vista de regiones de capacidad
 
 En el Portal de administración, puede ver todas las capacidades del inquilino de Power BI y las regiones donde se ubican actualmente.
@@ -93,6 +95,7 @@ Puede quitar áreas de trabajo de la capacidad Multi-Geo de una de estas dos man
 - Confirme que cualquier movimiento que inició entre regiones cumple con todos los requisitos de cumplimiento corporativos y gubernamentales antes de iniciar la transferencia de datos.
 - Una consulta en caché almacenada en una región remota permanece en esa región en reposo. Sin embargo, otros datos en tránsito pueden ir y venir entre distintas geografías.
 - Al mover datos de una región a otra en un entorno de Multi-Geo, los datos de origen pueden permanecer en la región desde donde se movieron los datos durante hasta 30 días. Durante ese período, los usuarios finales no tienen acceso a ellos. Se quitan de esta región y se destruyen durante el período de 30 días.
+- El tráfico de texto de consulta y de resultado de consulta para los modelos de datos importados no atraviesa la región principal. Los metadatos del informe sí provienen todavía de la región remota y ciertos estados de enrutamiento DNS pueden llevar el tráfico fuera de la región. 
 
 - En la actualidad la característica [flujos de datos](../transform-model/service-dataflows-overview.md) no se admite en Multi-GEO.
 

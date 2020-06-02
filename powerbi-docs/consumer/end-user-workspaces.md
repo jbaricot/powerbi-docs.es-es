@@ -4,21 +4,21 @@ description: Obtenga información sobre las áreas de trabajo y los roles de ár
 author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/22/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 801b5cf5400bbe1cc0487eef596ea3d1cdc5fb1e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a255ae90bd9ba429937582b0d11ccfb8944aecc4
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120205"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121154"
 ---
 # <a name="collaborate-in-workspaces"></a>Colaboración en áreas de trabajo
 
- Las *áreas de trabajo* son lugares de colaboración con compañeros en contenido específico. Los *diseñadores* de Power BI crean las áreas de trabajo para incluir colecciones de paneles e informes. Después, estas colecciones se pueden agrupar en *aplicaciones* y distribuirse por toda la organización o a grupos o usuarios específicos. 
+ Las *áreas de trabajo* son lugares de colaboración con compañeros en contenido específico. Los *diseñadores* de Power BI crean las áreas de trabajo para incluir colecciones de paneles e informes. A continuación, el diseñador puede compartir el área de trabajo con compañeros y también puede agrupar esa colección en una *aplicación* y distribuirla a toda la organización o a personas o grupos específicos. 
 
  Todos los usuarios que usan el servicio Power BI tienen también un espacio denominado **Mi área de trabajo**.  Mi área de trabajo es su espacio aislado personal donde se puede crear contenido.
 
@@ -29,9 +29,9 @@ ms.locfileid: "82120205"
 ## <a name="types-of-workspaces"></a>Tipos de áreas de trabajo
 En **Mi área de trabajo** se almacena todo el contenido que se crea y del que se es propietario. Puede considerarla como su espacio aislado o área de trabajo para su propio contenido. Para muchos *consumidores* de Power BI, la sección **Mi área de trabajo** estará vacía porque su trabajo no conlleva la creación de contenido. Los *consumidores*, por definición, consumen datos creados por otros usuarios y usan esos datos para tomar decisiones empresariales. En el caso de que también se dedique a crear contenido, le recomendamos que lea [los artículos de Power BI para diseñadores](../create-reports/index.yml).
 
-Las **áreas de trabajo de aplicación** incluyen todo el contenido de una aplicación específica. Cuando un *diseñador* crea una aplicación, agrupa todo el contenido necesario para que esta se pueda usar. El contenido puede incluir paneles, informes y conjuntos de datos. No todas las aplicaciones contendrán estos tres elementos de contenido. Una aplicación puede contener solo un panel, tres elementos de cada tipo o incluso veinte informes. Todo ello depende de lo que el *diseñador* incluya en la aplicación. Las áreas de trabajo de aplicaciones para *consumidores* normalmente no incluyen los conjuntos de datos.
+Las **áreas de trabajo** incluyen todo el contenido de una aplicación específica. Cuando un *diseñador* crea una aplicación, agrupa todo el contenido necesario para que esta se pueda usar. El contenido puede incluir paneles, informes y conjuntos de datos. No todas las aplicaciones contendrán estos tres elementos de contenido. Una aplicación puede contener solo un panel, tres elementos de cada tipo o incluso veinte informes. Todo ello depende de lo que el *diseñador* incluya en la aplicación. Las áreas de trabajo de aplicaciones para *consumidores* normalmente no incluyen los conjuntos de datos.
 
-La siguiente área de trabajo de la aplicación de cifras de ventas contiene tres informes y un panel. 
+El área de trabajo de Cifras de ventas siguiente contiene tres informes y un panel. 
 
 ![Panel de navegación en el que se muestran dos tipos de áreas de trabajo](media/end-user-workspaces/power-bi-app-workspace.png)
 
@@ -47,28 +47,10 @@ Para obtener una lista detallada de lo que puede hacer como *consumidor* con el 
 
 
 ### <a name="workspace-roles"></a>Roles de área de trabajo
-Estas son las funciones de los cuatro roles: administradores, miembros, colaboradores y visores. Todas estas funciones, excepto las de visualización e interacción, requieren una licencia de Power BI Pro.
 
-|Funcionalidad   | Administrador  | Miembro  | Colaborador  | Visor |
-|---|---|---|---|---|
-| Actualizar y eliminar el área de trabajo.  | X  |   |   |   | 
-| Agregar o quitar usuarios, incluidos otros administradores.  | X  |   |   |   |
-| Agregar miembros u otros usuarios con permisos inferiores.  |  X | X  |   |   |
-| Publicar y actualizar una aplicación. |  X | X  |   |   |
-| Compartir un elemento o una aplicación.<sup>1</sup> |  X | X  |   |   |
-| Permitir que otros usuarios vuelvan a compartir elementos.<sup>1</sup> |  X | X  |   |   |
-| Destacar aplicaciones en la página principal de los compañeros |  X | X  |   |   |
-| Destacar paneles e informes en la página principal de los compañeros |  X | X  | X |   |
-| Crear, editar y eliminar contenido en el área de trabajo.  |  X | X  | X  |   |
-| Publicar informes en el área de trabajo, eliminar contenido.  |  X | X  | X  |   |
-| Crear un informe en otra área de trabajo en función de un conjunto de datos de esta área de trabajo<sup>1</sup>. |  X | X  | X  |   |
-| Copiar un informe. | X | X | X |  |
-| Ver un elemento e interactuar con él<sup>2</sup>. |  X | X  | X  | X  |
-| Leer los datos almacenados en los flujos de trabajo del área de trabajo | X | X | X | X |
+Estas son las funcionalidades de los cuatro roles: Administradores, Miembros, Colaboradores y Espectadores. Todas estas funciones, excepto las de visualización e interacción, requieren una licencia de Power BI Pro.
 
-1. Los usuarios con los roles de Colaborador y Miembro pueden compartir elementos en un área de trabajo si tienen permisos para volver a compartir.
-
-2. Incluso aunque no tenga una licencia de Power BI Pro, puede ver los elementos e interactuar con ellos en el servicio Power BI si los elementos están en un área de trabajo de una capacidad Premium.
+[!INCLUDE[power-bi-workspace-roles-table](../includes/power-bi-workspace-roles-table.md)]
 
 ## <a name="licensing-workspaces-and-capacity"></a>Licencias, áreas de trabajo y capacidad
 Las licencias también desempeñan un papel importante al determinar lo que puede hacer y lo que no en un área de trabajo. Muchas características requieren que el usuario tenga una licencia de Power BI *Pro*. La mayoría de los *consumidores* trabajan con una licencia *gratuita*. 

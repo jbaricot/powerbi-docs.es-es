@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 119571e49b69ad6e3c6cfa0a7d3758912ebec0dc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d094e3411bd5b8bef9b4a8f488412d903723a703
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348123"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733563"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Uso compartido de informes y paneles de Power BI con compañeros y otros usuarios
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir los paneles e informes](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -127,7 +127,7 @@ Aspectos que hay que tener en cuenta sobre el uso compartido de paneles e inform
 * Todos los usuarios con quienes comparta el panel podrán visualizarlo e interactuar con los informes relacionados en la [vista de lectura](../consumer/end-user-reading-view.md#reading-view). Por lo general, no pueden crear informes ni guardar cambios en los informes existentes. Pero si selecciona **Permitir que los usuarios compilen nuevo contenido a partir de los conjuntos de datos subyacentes**, estos podrán crear informes propios en otras áreas de trabajo basados en el conjunto de datos de este panel o informe.
 * Aunque ningún usuario puede ver o descargar el conjunto de datos, pueden acceder directamente al conjunto de datos mediante la característica Analizar en Excel. Un administrador puede restringir la capacidad de usar Analizar en Excel para todos los miembros de un grupo. Sin embargo, la restricción es para todos los usuarios de ese grupo y para todas las áreas de trabajo a las que pertenece el grupo.
 * Todo el mundo puede [actualizar los datos](../connect-data/refresh-data.md) manualmente.
-* Si usa Office 365 para el correo electrónico, puede compartir datos con los miembros de un grupo de distribución. Para ello, escriba la dirección de correo electrónico asociada al grupo de distribución.
+* Si usa Microsoft 365 para el correo electrónico, puede compartir datos con los miembros de un grupo de distribución. Para ello, escriba la dirección de correo electrónico asociada al grupo de distribución.
 * Los compañeros de trabajo que tengan el mismo dominio de correo electrónico y aquellos cuyo dominio sea distinto, pero esté registrado en el mismo inquilino, pueden compartir el panel con otros. Por ejemplo, imagine que los dominios contoso.com y contoso2.com están registrados en el mismo inquilino y que la dirección de correo electrónico es konrads@contoso.com. Tanto ravali@contoso.com como gustav@contoso2.com pueden compartir el panel, siempre y cuando les otorgue permiso para compartirlo.
 * Si sus compañeros de trabajo ya tienen acceso a un panel o informe específico, puede enviar un vínculo directo con solo copiar la dirección URL cuando se encuentre dentro del panel o informe. Por ejemplo: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`.
 * Del mismo modo, si sus compañeros de trabajo ya tienen acceso a un panel específico, puede [enviar un vínculo directo al informe subyacente](service-share-reports.md). 

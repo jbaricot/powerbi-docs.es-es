@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 39d30cc7949565872fd638f289756be6541eee0d
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 530b1dd757f8fe0bfdb120601ae8ea28d95ed835
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564995"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793694"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 
@@ -27,14 +27,14 @@ ms.locfileid: "83564995"
 
 Power BI es un servicio de análisis empresarial basado en la nube que permite a cualquier persona visualizar y analizar datos de forma más rápida, eficaz y consciente. Conecta a los usuarios a una gran variedad de datos locales y basados en la nube a través de paneles fáciles de usar, informes interactivos y visualizaciones atractivas que hacen que los datos cobren vida. Lea más acerca de [Power BI](../fundamentals/power-bi-overview.md).
 
-## <a name="what-is-the-microsoft-power-bi-service-for-consumers"></a>¿Qué es el servicio Microsoft Power BI para *consumidores*?
+## <a name="what-is-a-power-bi-consumers"></a>¿Qué es un *consumidor* de Power BI?
 
 La manera en que interactúa con Power BI dependerá de su función. Como usuario final o *consumidor*, recibe el contenido (paneles, informes y aplicaciones) de sus compañeros de trabajo. Puede trabajar en la versión en línea o móvil de Power BI, que se denomina servicio Power BI, revisando este contenido e interactuando con él para tomar decisiones empresariales.  Más información acerca de [Power BI para consumidores](index.yml).
 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>¿Cuál es la diferencia entre Power BI Pro y Power BI Premium?
 
-Power BI Pro es una licencia de usuario individual que permite el acceso a todo el contenido y toda la funcionalidad del servicio Power BI. Puede incluso compartir el contenido y colaborar con otros usuarios con la licencia Pro. Solo los usuarios de la versión Pro pueden publicar contenido en áreas de trabajo, compartir paneles y suscribirse a paneles e informes. Este tipo de licencia suele asignarse a los *diseñadores* de informes, desarrolladores y administradores de Power BI. 
+Power BI Pro es una licencia de usuario individual que permite el acceso a todo el contenido y toda la funcionalidad del servicio Power BI. Puede incluso compartir el contenido y colaborar con otros usuarios con la licencia Pro. Solo los usuarios de la versión Pro pueden publicar contenido en áreas de trabajo, compartir paneles y suscribirse a paneles e informes. 
 
 Power BI Premium proporciona capacidad dedicada para proporcionar un rendimiento más estable. También admite volúmenes de datos mayores en Power BI. Para usuarios individuales, Premium permite una amplia distribución de contenido por parte de los usuarios con licencia Pro y no requiere licencias Pro por usuario para los destinatarios que ven el contenido. Esto significa que los *consumidores* pueden colaborar con compañeros y ver e interactuar con paneles, informes y aplicaciones que han compartido con ellos. 
 
@@ -54,13 +54,13 @@ Si su compañía ha adquirido licencias de Power BI o una cuenta de la capacida
 
 También puede registrarse en el servicio Power BI como usuario individual. Consulte el [proceso de registro de autoservicio para Power BI](../fundamentals/service-self-service-signup-for-power-bi.md).
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>¿Por qué es necesario iniciar sesión con el correo electrónico del trabajo?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>¿Por qué tengo que registrarme con mi correo electrónico del trabajo?
 
-Power BI no admite direcciones de correo electrónico de proveedores de telecomunicaciones o servicios de correo electrónico de consumidor. Obtenga más información sobre [el proceso de registro de autoservicio de Power BI](../fundamentals/service-self-service-signup-for-power-bi.md).
+Power BI no admite direcciones de correo electrónico de proveedores de telecomunicaciones o servicios de correo electrónico de consumidor. Más información sobre el [proceso de registro de autoservicio para Power BI](../fundamentals/service-self-service-signup-for-power-bi.md).
 
 ## <a name="does-power-bi-support-mobile-devices"></a>¿Power BI admite dispositivos móviles?
 
-Sí. Power BI tiene aplicaciones nativas para teléfonos y tabletas Android, dispositivos iOS y dispositivos con Windows 10. Descargue una de las [aplicaciones móviles de Power BI](https://powerbi.microsoft.com/mobile) desde sus tiendas respectivas:  
+Sí. Power BI tiene aplicaciones nativas para teléfonos y tabletas Android, dispositivos iOS y dispositivos con Windows 10. Descargue una de las [aplicaciones móviles de Power BI](https://powerbi.microsoft.com/mobile) de su tienda respectiva:  
 
 * [App Store de Apple](https://go.microsoft.com/fwlink/?LinkId=526218)
 * [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)

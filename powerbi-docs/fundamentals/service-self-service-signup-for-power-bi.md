@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/27/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 721479910a430bb04dc6404936b37fbb00a2c5a8
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cbc89e5f428e13cce35a1d293752091958d82496
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361989"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813839"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>Registro en el servicio Power BI como usuario individual
 
-Power BI puede convertirse en su herramienta personal de análisis y visualización de datos, así como actuar como el motor de análisis y de decisión que dé impulso a proyectos en grupo, divisiones o empresas enteras. En este artículo se explica cómo registrarse en Power BI como usuario individual. Si es administrador global o de Power BI, consulte [Permisos de roles de administrador en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).
+Power BI puede convertirse en su herramienta personal de análisis y visualización de datos, así como actuar como el motor de análisis y de decisión que dé impulso a proyectos en grupo, divisiones o empresas enteras. En este artículo se explica cómo registrarse en Power BI como usuario individual. Si es un administrador global o un administrador de facturación, consulte [Licencias de Power BI en la organización](../admin/service-admin-licensing-organization.md).
 
 ## <a name="what-is-power-bi"></a>¿Qué es Power BI?
 Power BI es una plataforma de inteligencia empresarial de autoservicio unificada que combina una experiencia de usuario intuitiva con visualizaciones de datos inteligentes para proporcionar información más detallada sobre los datos. Los informes se pueden compartir en herramientas de Microsoft como Teams, SharePoint, PowerPoint u otras utilidades de productividad. Se proporciona como una oferta en línea de SaaS (software como servicio) con dos aplicaciones complementarias: una aplicación de escritorio de Microsoft Windows denominada Power BI Desktop para crear informes y una serie de aplicaciones de BI móviles nativas para consumir informes en dispositivos iOS y Android. 
@@ -74,7 +74,7 @@ Los pasos exactos para registrarse pueden variar en función de la organización
 
        ![Comenzar](media/service-self-service-signup-for-power-bi/power-bi-did-you.png)
    
-    - Si recibe un mensaje similar al siguiente, acepte los términos y condiciones.
+    - Si recibe un mensaje similar al siguiente, revise los términos y condiciones. Si está de acuerdo, seleccione **Iniciar**. 
 
         ![Comenzar](media/service-self-service-signup-for-power-bi/power-bi-almost.png)
 
@@ -91,7 +91,7 @@ Enhorabuena por iniciar sesión en su cuenta de Power BI por primera vez. Ahora
 
 ![Cuadro de diálogo de la versión de prueba de Power BI](media/service-self-service-signup-for-power-bi/power-bi-start-trial.png)    
 
-<sup>2</sup> En algunas organizaciones, la cuenta de Power BI predeterminada puede ser una licencia de Power BI **Pro**. Por ejemplo, algunas versiones de Office 365 incluyen una licencia de Power BI Pro. Para obtener información sobre cómo buscar la licencia de usuario, consulte [¿Qué licencia tengo?](../consumer/end-user-license.md)
+<sup>2</sup> En algunas organizaciones, la cuenta de Power BI predeterminada puede ser una licencia de Power BI **Pro**. Por ejemplo, algunas versiones de Microsoft 365 incluyen una licencia de Power BI Pro. Para obtener información sobre cómo buscar la licencia de usuario, consulte [¿Qué licencia tengo?](../consumer/end-user-license.md)
 
 
 
@@ -112,13 +112,13 @@ En la mayoría de los casos, puede registrarse en Power BI si sigue el proceso 
 | Síntoma o mensaje de error | Causa y solución |
 | ----------------------- | -------------------- |
 | <strong>Direcciones de correo electrónico personales (por ejemplo nancy@gmail.com)</strong> Recibirá un mensaje parecido a este durante el registro: <br /><br /> *Escribió una dirección de correo electrónico personal: escriba su dirección de correo electrónico de trabajo para que podamos almacenar con seguridad los datos de su compañía.* <br /><br /> o bien <br /><br /> *Escribió una dirección de correo electrónico personal. Escriba la dirección de trabajo para que podamos conectarle con otras personas de su empresa. Y no se preocupe. No compartiremos su dirección con nadie.* | Power BI no admite direcciones de correo electrónico de proveedores de telecomunicaciones o servicios de correo electrónico de consumidor. <br /><br /> Para finalizar el registro, inténtelo de nuevo mediante una dirección de correo electrónico asignada, profesional o educativa. <br /><br /> Si todavía no puede suscribirse pero puede completar un proceso de instalación más avanzado, [regístrese para obtener una nueva suscripción de prueba de Office 365 y use ese correo electrónico para suscribirse](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> También puede hacer que un usuario existente [le invite](../admin/service-admin-azure-ad-b2b.md). |
-| **Registro de autoservicio deshabilitado**: Recibirá un mensaje parecido a este durante el registro: <br /><br /> *No podemos completar la suscripción. El departamento de TI desactivó la suscripción de Microsoft Power BI. Póngase en contacto con ellos para completar la suscripción.* <br /><br /> | El [administrador global](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles.md) de su organización ha deshabilitado la suscripción de autoservicio para Power BI. <br /><br /> Para finalizar el registro, póngase en contacto con su administrador global y pídale que [siga las instrucciones para habilitar el registro](../admin/service-admin-disable-self-service.md). <br/><br/> También puede experimentar este problema si se suscribió a Office 365 a través de un asociado. En este caso, póngase en contacto con la organización responsable de proporcionarle Office 365. |
-| **La dirección de correo electrónico no es un identificador de Office 365** Recibirá un mensaje parecido a este durante el registro: <br /><br /> *No lo hemos encontrado en contoso.com.  ¿Usa un identificador diferente en el trabajo o en el colegio? <br /><br /> Pruebe a iniciar sesión con el identificador y, si no funciona, póngase en contacto con el departamento de TI.* | Su organización usa identificadores para iniciar sesión en Office 365 y otros servicios de Microsoft que son diferentes de su dirección de correo electrónico.  Por ejemplo, su dirección de correo electrónico podría ser Nancy.Smith@contoso.com pero el identificador es nancys@contoso.com. <br /><br /> Para finalizar el registro, use el identificador que su organización le haya asignado para iniciar sesión en Office 365 u otros servicios Microsoft.  Si no sabe cuál es, póngase en contacto con el administrador global. <br /><br /> Si todavía no puede suscribirse pero puede completar un proceso de instalación más avanzado, [regístrese para obtener una nueva suscripción de prueba de Office 365 y use ese correo electrónico para suscribirse](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
+| **Registro de autoservicio deshabilitado**: Recibirá un mensaje parecido a este durante el registro: <br /><br /> *No podemos completar la suscripción. El departamento de TI desactivó la suscripción de Microsoft Power BI. Póngase en contacto con ellos para completar la suscripción.* <br /><br /> | El [administrador global](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles.md) de su organización ha deshabilitado la suscripción de autoservicio para Power BI. <br /><br /> Para finalizar el registro, póngase en contacto con su administrador global y pídale que [siga las instrucciones para habilitar el registro](../admin/service-admin-disable-self-service.md). <br/><br/> También puede experimentar este problema si se ha suscrito a Microsoft 365 a través de un asociado. En ese caso, póngase en contacto con la organización responsable de proporcionarle Microsoft 365. |
+| **La dirección de correo electrónico no es un identificador de Microsoft 365** Recibirá un mensaje parecido a este durante el registro: <br /><br /> *No lo hemos encontrado en contoso.com.  ¿Usa un identificador diferente en el trabajo o en el colegio? <br /><br /> Pruebe a iniciar sesión con el identificador y, si no funciona, póngase en contacto con el departamento de TI.* | Su organización usa identificadores para iniciar sesión en Microsoft 365 y otros servicios de Microsoft que son diferentes de su dirección de correo electrónico.  Por ejemplo, su dirección de correo electrónico podría ser Nancy.Smith@contoso.com pero el identificador es nancys@contoso.com. <br /><br /> Para finalizar el registro, use el identificador que su organización le haya asignado para iniciar sesión en Microsoft 365 u otros servicios Microsoft.  Si no sabe cuál es, póngase en contacto con el administrador global. <br /><br /> Si todavía no puede suscribirse pero puede completar un proceso de instalación más avanzado, [regístrese para obtener una nueva suscripción de prueba de Office 365 y use ese correo electrónico para suscribirse](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 El inicio de sesión de Power BI no reconoce su contraseña.  |  En ocasiones, hay que realizar varios intentos. Si vuelve a probar la contraseña varias veces y sigue sin poder iniciar sesión, pruebe a ejecutar el explorador en modo de incógnito (Chrome) o InPrivate (Edge).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Adquisición de Power BI Pro](../admin/service-admin-purchasing-power-bi-pro.md)  
-[Acuerdo de servicio de Power BI para usuarios individuales](https://powerbi.microsoft.com/terms-of-service/)  
+[Características de Power BI por tipo de licencia](../consumer/end-user-features.md)    
+[Sugerencias para buscar ayuda](../fundamentals/service-tips-for-finding-help.md)    
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

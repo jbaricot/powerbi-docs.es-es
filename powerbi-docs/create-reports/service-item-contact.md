@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5330b4c42794f0fa3110cef57f6d62ead0381e52
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 08a05a266dd505dd991d90738b81a2e7d413f090
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561797"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119859"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Establecimiento de la información de contacto para paneles e informes en el servicio Power BI
 En este artículo se explica cómo establecer la información de contacto para un panel o informe en el servicio Power BI.
@@ -28,7 +28,7 @@ Puede agregar varios usuarios o grupos al contacto para un elemento. Pueden ser:
 * Un grupo de seguridad habilitado para correo electrónico
 * Una lista de distribución
 
-De forma predeterminada, la persona que crea un nuevo informe o panel será la que figure como su contacto. Si establece un valor, este invalida el valor predeterminado. Por supuesto, puede quitar todas las personas o grupos de la lista de contactos. Al hacerlo, en las áreas de trabajo clásicas, se mostrará el grupo de Microsoft 365 para el área de trabajo. En el caso de las nuevas experiencias de área de trabajo, se usará la [lista de contactos del área de trabajo](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list). Si no se establece la lista de contactos del área de trabajo, se muestran los administradores del área de trabajo.
+De forma predeterminada, la persona que crea un nuevo informe o panel será la que figure como su contacto. Si establece un valor, este invalida el valor predeterminado. Por supuesto, puede quitar todas las personas o grupos de la lista de contactos. Al hacerlo, en las áreas de trabajo clásicas, se mostrará el grupo de Microsoft 365 para el área de trabajo. En el caso de las nuevas experiencias de área de trabajo, se usará la [lista de contactos del área de trabajo](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list). Si no se establece la lista de contactos del área de trabajo, se muestran los administradores del área de trabajo.
 
 La información de contacto se muestra a los usuarios que ven el elemento. 
 

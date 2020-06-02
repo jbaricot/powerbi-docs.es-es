@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: 67a9725e55f82e325466789064f5738222919ac8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114736"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794111"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Crear un inquilino de Azure Active Directory para su uso con Power BI
 
 Aprenda a crear un nuevo inquilino de Azure Active Directory (Azure AD) para una aplicación personalizada que llama a las [API REST de Power BI](../automation/rest-api-reference.md).
 
-Un inquilino representa a una organización en Azure Active Directory. Es una instancia dedicada del servicio de Azure AD que una organización recibe y posee cuando se suscribe a un servicio en la nube de Microsoft como Azure, Microsoft Intune u Office 365. Cada inquilino de Azure AD es distinto e independiente de otros inquilinos de Azure AD.
+Un inquilino representa a una organización en Azure Active Directory. Es una instancia dedicada del servicio de Azure AD que una organización recibe y posee cuando se suscribe a un servicio en la nube de Microsoft como Azure, Microsoft Intune o Microsoft 365. Cada inquilino de Azure AD es distinto e independiente de otros inquilinos de Azure AD.
 
 Una vez que tenga un inquilino de Azure AD, puede definir una aplicación y asignar permisos para que la aplicación pueda llamar a las [API REST de Power BI](../automation/rest-api-reference.md).
 
@@ -27,7 +27,7 @@ Es posible que su organización ya tenga un inquilino de Azure AD que puede usar
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Crear un inquilino de Azure Active Directory
 
-Para integrar Power BI en su aplicación personalizada, debe definir primero una aplicación en Azure AD, lo que requiere un directorio de Azure AD. Este directorio es su *inquilino*. Si su organización aún no tiene un inquilino porque no usa Power BI u Office 365, [deberá configurar un entorno de desarrollo](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). También deberá crear uno si no desea que la aplicación se combine con el inquilino de su organización para mantener los elementos aislados. O bien, puede crear un inquilino solo con fines de prueba.
+Para integrar Power BI en su aplicación personalizada, debe definir primero una aplicación en Azure AD, lo que requiere un directorio de Azure AD. Este directorio es su *inquilino*. Si su organización aún no tiene un inquilino porque no usa Power BI ni Microsoft 365, [deberá configurar un entorno de desarrollo](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). También deberá crear uno si no desea que la aplicación se combine con el inquilino de su organización para mantener los elementos aislados. O bien, puede crear un inquilino solo con fines de prueba.
 
 Para crear un nuevo inquilino de Azure AD:
 

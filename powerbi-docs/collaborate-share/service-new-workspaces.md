@@ -6,99 +6,100 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/07/2020
+ms.date: 05/26/2020
 ms.author: maggies
+ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 701f478ce4dd59d77c1722b1386cd79ad3fbf2a0
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 77de9608978379cee83236b0c362bd2d7d57d5c6
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693782"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120375"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organización del trabajo en las nuevas áreas de trabajo en Power BI
 
 Las *áreas de trabajo* son lugares donde se colabora con compañeros para crear colecciones de paneles, informes, conjuntos de datos e informes paginados. La nueva experiencia de áreas de trabajo le ayuda a administrar mejor el acceso al contenido. En este artículo se describen las nuevas áreas de trabajo y cómo se diferencian de las áreas de trabajo clásicas.  Al igual que con las áreas de trabajo clásicas, se siguen utilizando para crear y distribuir aplicaciones. ¿Listo para crear un área de trabajo? Lea [Creación de una nueva experiencia de áreas de trabajo](service-create-the-new-workspaces.md).
 
-Las áreas de trabajo nuevas y actualizadas pueden coexistir en paralelo con las áreas de trabajo clásicas existentes. La nueva experiencia de áreas de trabajo es el tipo de área de trabajo predeterminado. Aún puede crear y utilizar [áreas de trabajo clásicas](service-create-workspaces.md) en función de los grupos de Microsoft 365, si lo necesita. ¿Está listo para migrar el área de trabajo clásica? Para más información, consulte [Actualización de las áreas de trabajo clásicas a las nuevas áreas de trabajo de Power BI](service-upgrade-workspaces.md).
+:::image type="content" source="media/service-new-workspaces/power-bi-workspace-opportunity.png" alt-text="Nueva experiencia de área de trabajo de Power BI":::
 
-Con las nuevas áreas de trabajo puede hacer lo siguiente:
-
-- Asignar roles de área de trabajo a grupos de usuarios: grupos de seguridad, listas de distribución, grupos de Microsoft 365 y usuarios.
-- Crear un área de trabajo en Power BI sin crear un grupo de Microsoft 365 subyacente asociado. Toda la administración del área de trabajo se realiza en Power BI, no en Microsoft 365.
-- Seguir administrando el acceso del usuario al contenido a través de los grupos de Microsoft 365, si quiere. Solo tiene que agregar un grupo de Microsoft 365 en la lista de acceso al área de trabajo.
-- Usar roles de las áreas de trabajo más granulares para flexibilizar la administración de permisos en un área de trabajo.
-
-Power BI continúa mostrando todos los grupos de Microsoft 365 de los que se es miembro. De esta forma, se evita tener que cambiar los flujos de trabajo existentes.
+Las áreas de trabajo nuevas y actualizadas pueden coexistir en paralelo con las áreas de trabajo clásicas existentes. La nueva experiencia de áreas de trabajo es el tipo de área de trabajo predeterminado. Sin embargo, puede crear y utilizar [áreas de trabajo clásicas](service-create-workspaces.md) basadas en grupos de Microsoft 365, si lo necesita. ¿Está listo para migrar el área de trabajo clásica? Para más información, consulte [Actualización de las áreas de trabajo clásicas a las nuevas áreas de trabajo de Power BI](service-upgrade-workspaces.md).
 
 ## <a name="new-and-classic-workspace-differences"></a>Diferencias entre áreas de trabajo nuevas y clásicas
 
 Con las nuevas áreas de trabajo, se han rediseñado algunas características. Estas son las diferencias principales.
 
-- La creación de estas áreas de trabajo no crea grupos de Microsoft 365, como sí hacen las áreas de trabajo clásicas. Sin embargo, ahora puede usar un grupo de Microsoft 365 para proporcionar a los usuarios acceso al área de trabajo mediante la asignación de un rol.
-- En las áreas de trabajo clásicas solo puede agregar usuarios individuales a las listas de miembros y administradores. En las nuevas áreas de trabajo, puede agregar varios grupos de seguridad de Active Directory, listas de distribución o grupos de Microsoft 365 a estas listas para facilitar la administración de usuarios.
-- Puede crear un paquete de contenido de la organización desde un área de trabajo clásica, pero no desde las áreas de trabajo nuevas.
-- Puede consumir un paquete de contenido de la organización desde un área de trabajo clásica. Pero no puede hacerlo desde las áreas de trabajo nuevas.
+- **Al crear las nuevas áreas de trabajo no se crean grupos de Microsoft 365**, como sí ocurría con las áreas de trabajo clásicas. Toda la administración de la nueva área de trabajo se realiza en Power BI, no en Office 365. Puede seguir administrando el acceso del usuario al contenido a través de los grupos de Microsoft 365, si así lo desea. Solo tiene que agregar un grupo de Microsoft 365 en la lista de acceso al área de trabajo.
+- **Uso de roles de área de trabajo más pormenorizados** para flexibilizar la administración de permisos en las nuevas áreas de trabajo.  En las áreas de trabajo clásicas solo puede agregar usuarios individuales a las listas de miembros y administradores. 
+- **Asignación de roles de área de trabajo a grupos de usuarios**: en las nuevas áreas de trabajo, puede agregar estos roles a varios grupos de seguridad de Active Directory, listas de distribución o grupos de Microsoft 365 para facilitar la administración de usuarios. 
+- **Lista de contactos**: en las nuevas áreas de trabajo, puede especificar quién recibe notificaciones sobre la actividad del área de trabajo.
+- **Creación de aplicaciones de plantilla**: solo puede crear *aplicaciones de plantilla* en las nuevas áreas de trabajo. Las aplicaciones de plantilla son aplicaciones que se pueden distribuir a los clientes de fuera de la organización. Después, esos clientes pueden conectarse a sus propios datos con la aplicación de plantilla. Más información sobre las [aplicaciones de plantilla](../connect-data/service-template-apps-overview.md).
+- **Uso compartido de conjuntos de datos**: para compartir un conjunto de datos fuera de un área de trabajo específica, debe guardar el informe que contiene el conjunto de datos en una de las nuevas áreas de trabajo. No se pueden compartir conjuntos de datos de áreas de trabajo clásicas. Más información sobre los [conjuntos de datos compartidos](../connect-data/service-datasets-across-workspaces.md).
+- **Paquetes de contenido organizativo**: cree y consuma paquetes de contenido organizativos en áreas de trabajo clásicas. Esto no puede hacerlo en las nuevas áreas de trabajo. Las aplicaciones y las aplicaciones de plantilla reemplazan a los paquetes de contenido organizativos en las nuevas áreas de trabajo.
 
-### <a name="workspace-features-that-work-differently"></a>Características del área de trabajo que funcionan otra forma
+En este artículo se explican estas características con más detalle.
 
-Algunas características funcionan de manera diferente en las áreas de trabajo actuales y en las áreas de trabajo nuevas. Estas diferencias son intencionales, en función de los comentarios que hemos recibido de los clientes, y permiten un enfoque más flexible hacia la colaboración con áreas de trabajo.
+> [!NOTE]
+> Power BI continúa mostrando todos los grupos de Microsoft 365 de los que se es miembro. De esta forma, se evita tener que cambiar los flujos de trabajo existentes.
 
-- **Cumplimiento de licencias**: para publicar informes en la nueva experiencia de área de trabajo, es necesario aplicar las reglas de licencia existentes. Los usuarios que colaboran en las áreas de trabajo o que comparten contenido con otras personas en el servicio de Power BI necesitan una licencia de Power BI Pro. Los usuarios sin una licencia Pro ven el error "Solo los usuarios con licencias de Power BI Pro pueden publicar en esta área de trabajo".
-- **Los miembros pueden o no pueden volver a compartir**: el rol de colaborador sustituye a esta configuración.
-- **Áreas de trabajo de solo lectura**: en lugar de conceder a los usuarios acceso de solo lectura a un área de trabajo, asígneles el rol de visor. Este rol permite acceso de solo lectura al contenido de un área de trabajo de forma similar.
-- Los **usuarios sin una licencia de Pro** pueden acceder al área de trabajo cuando esta se encuentra en una capacidad Power BI Premium, pero solo si tienen el rol visor.
-- **Permitir que los usuarios exporten datos**: los usuarios con un rol de visor pueden exportar datos si tienen permiso de compilación para los conjuntos de datos en el área de trabajo. Obtenga más información sobre [Permiso de compilación para conjuntos de datos](../connect-data/service-datasets-build-permissions.md).
-- Ausencia del botón **Abandonar área de trabajo**.
+### <a name="features-that-work-differently"></a>Características que funcionan de forma diferente
+
+En las nuevas áreas de trabajo, algunas características funcionan de manera diferente. Estas diferencias son intencionales, en función de los comentarios que hemos recibido de los clientes, y permiten un enfoque más flexible hacia la colaboración en las áreas de trabajo.
+
+- **Cumplimiento de licencias**: al publicar informes en una nueva experiencia de área de trabajo se aplican las reglas de licencia existentes. Los usuarios que colaboran en las nuevas áreas de trabajo o que comparten contenido con otras personas en el servicio Power BI necesitan una licencia de Power BI Pro. Los usuarios sin una licencia Pro ven el error "Solo los usuarios con licencias de Power BI Pro pueden publicar en esta área de trabajo".
+- **Opción "Members can reshare" (Los miembros pueden volver a compartir)** : el rol de colaborador de las nuevas áreas de trabajo reemplaza a la opción "Members can reshare" (Los miembros pueden volver a compartir) de las áreas de trabajo clásicas.
+- **Áreas de trabajo de solo lectura**: el rol de espectador de las nuevas áreas de trabajo reemplaza a la concesión de acceso de solo lectura a los usuarios a un área de trabajo clásica. El rol de espectador permite acceso de solo lectura similar al contenido de las nuevas áreas de trabajo.
+- Los **usuarios sin una licencia Pro** pueden acceder a la nueva área de trabajo cuando esta se encuentra en una capacidad Power BI Premium, pero solo si tienen el rol de espectador.
+- **Permitir que los usuarios exporten datos**: incluso los usuarios con un rol de espectador en la nueva área de trabajo pueden exportar datos si tienen permiso de compilación sobre los conjuntos de datos de esa área de trabajo. Obtenga más información sobre [Permiso de compilación para conjuntos de datos](../connect-data/service-datasets-build-permissions.md).
+- No hay botón **Abandonar área de trabajo** en las nuevas áreas de trabajo.
 
 ### <a name="workspace-contact-list"></a>Lista de contactos del área de trabajo
 
-La nueva característica **Lista de contactos** le permite especificar qué usuarios reciben una notificación sobre los problemas que se producen en el área de trabajo. De forma predeterminada, se notifica a cualquier usuario o grupo especificado como administrador del área de trabajo, pero puede personalizar la lista. Los usuarios o grupos que aparecen en la lista de contactos se mostrarán en la interfaz de usuario (IU) para ayudar a los usuarios a obtener ayuda relacionada con el área de trabajo. 
+La nueva característica **Lista de contactos** le permite especificar qué usuarios reciben una notificación sobre los problemas que se producen en las nuevas áreas de trabajo. De forma predeterminada, reciben notificaciones los usuarios o grupos especificados como administradores de áreas de trabajo en la nueva área de trabajo. Puede agregar otros a esa lista. Los usuarios o grupos de la lista de contactos también se enumeran en la interfaz de usuario (UI) de las nuevas áreas de trabajo, por lo que los usuarios finales del área de trabajo saben con quién ponerse en contacto. 
 
-Lea más sobre la [configuración de la lista de contactos del área de trabajo](service-create-the-new-workspaces.md#workspace-contact-list).
+Lea acerca de [cómo crear la lista de contactos del área de trabajo](service-create-the-new-workspaces.md#create-a-contact-list).
 
 ### <a name="workspace-onedrive"></a>Área de trabajo: OneDrive
 
-La característica Área de trabajo: OneDrive permite configurar un grupo de Microsoft 365 cuyo almacenamiento de archivos de la biblioteca de documentos de SharePoint esté disponible para los usuarios del área de trabajo. Primero se crea el grupo fuera de Power BI.
+Como se ha indicado, Power BI no crea un grupo de Microsoft 365 en segundo plano al crear una de las nuevas áreas de trabajo. Aun así, puede que le resulte útil tener una instancia de OneDrive asociada a la nueva área de trabajo. La característica de área de trabajo OneDrive de las nuevas áreas de trabajo permite configurar un grupo de Microsoft 365 cuyo almacenamiento de archivos de la biblioteca de documentos de SharePoint está disponible para los usuarios del área de trabajo. Primero se crea el grupo fuera de Power BI.
+ 
+Power BI no realiza la sincronización entre la pertenencia a grupos de Microsoft 365 y los permisos de usuarios o grupos con acceso a la nueva área de trabajo. Puede sincronizarlos de la siguiente manera: Administre el acceso al área de trabajo a través del mismo grupo de Microsoft 365 cuyo almacenamiento de archivos se define en esta opción. 
 
-Power BI no sincroniza los permisos de los usuarios o grupos que están configurados para tener acceso al área de trabajo con la pertenencia al grupo de Microsoft 365. El procedimiento recomendado consiste en administrar el acceso al área de trabajo a través del mismo grupo de Microsoft 365 cuyo almacenamiento de archivos se define en esta opción.
-
-Obtenga información sobre cómo [establecer Área de trabajo: OneDrive y acceder a esta característica](service-create-the-new-workspaces.md#workspace-onedrive).  
+Lea sobre cómo [establecer el área de trabajo OneDrive](service-create-the-new-workspaces.md#set-a-workspace-onedrive).  
 
 ## <a name="roles-in-the-new-workspaces"></a>Roles en las nuevas áreas de trabajo
 
-Para conceder acceso a una nueva área de trabajo, agregue grupos de usuarios o individuos a uno de los roles de área de trabajo: administradores, miembros, colaboradores o visores. Todos los miembros de un grupo de usuarios obtienen el rol que haya definido. Si un usuario está en varios grupos de usuarios, obtiene el nivel de permiso mayor proporcionado por los roles que se le asignan.
+Los roles le permiten administrar quién puede hacer qué en las nuevas áreas de trabajo, para que los equipos puedan colaborar. Las nuevas áreas de trabajo le permiten asignar roles a usuarios y grupos de usuarios: grupos de seguridad, grupos de Microsoft 365 y listas de distribución. 
 
-Los roles le permiten administrar quién puede hacer qué en un área de trabajo, para que los equipos puedan colaborar. Las nuevas áreas de trabajo le permiten asignar roles a usuarios y grupos de usuarios: grupos de seguridad, grupos de Microsoft 365 y listas de distribución.
-
-Al asignar roles a un grupo de usuarios, cada uno de ellos tiene acceso al contenido. Si anida grupos de usuarios, todos los usuarios contenidos tienen permiso.
+Para conceder acceso a una nueva área de trabajo, asigne a esos usuarios o grupos de usuarios uno de los roles del área de trabajo: administrador, miembro, colaborador o espectador. Todos los miembros de un grupo de usuarios obtienen el rol que haya definido. Si algún usuario está en varios grupos de usuarios, obtiene el nivel de permiso mayor proporcionado por los roles que se le asignan. Si anida grupos de usuarios, todos los usuarios contenidos tienen permiso. Todas estas funciones, excepto las de visualización e interacción, requieren una licencia de Power BI Pro. Más información sobre las [licencias](#licenses) en este artículo.
 
 [!INCLUDE [power-bi-workspace-roles-table](../includes/power-bi-workspace-roles-table.md)]
 
 > [!NOTE]
-> Para imponer la seguridad de nivel de fila (RLS) para los usuarios que exploran el contenido en un área de trabajo, use el rol Visor. Para aplicar RLS sin permitir el acceso al área de trabajo, publique una aplicación Power BI en esos usuarios, o bien utilice el uso compartido para distribuir el contenido.
+> - Puede asignar roles a los usuarios, ya sea de forma individual o en grupo, incluso si no pueden usar el rol. En otras palabras, puede asignar a los usuarios que no tengan licencias de Power BI Pro un rol que requiera una licencia. Consulte [Licencias](#licenses) en este artículo para más información.
+> - Para imponer [seguridad de nivel de fila (RLS)](../admin/service-admin-rls.md) a los usuarios que exploran el contenido de un área de trabajo, use el rol de espectador. También puede aplicar RLS sin ofrecer acceso a la nueva área de trabajo. [Publique una aplicación](service-create-distribute-apps.md) y distribúyala a esos usuarios, o utilice el [uso compartido para distribuirles contenido](service-share-dashboards.md).
 
-## <a name="licensing"></a>Licencias
-Todos los usuarios que agregue a un área de trabajo en la capacidad compartida necesitan una licencia de Power BI Pro. En el área de trabajo, estos usuarios pueden colaborar en paneles e informes que planee publicar para un público más amplio, o incluso para toda la organización. 
+## <a name="licensing-and-administering"></a>Licencias y administración
 
-Si quiere distribuir contenido a otros usuarios dentro de la organización, puede asignar licencias de Power BI Pro a los usuarios o colocar el área de trabajo en una capacidad de Power BI Premium.
+### <a name="licenses"></a>Licencias
+Si una de las nuevas áreas de trabajo está en una capacidad compartida, todos los usuarios que agregue a ella necesitarán una licencia de Power BI Pro. Estos usuarios pueden colaborar en los paneles e informes de la nueva área de trabajo. Si quiere distribuir contenido a otros usuarios dentro de la organización, asigne licencias de Power BI Pro a esos usuarios o coloque el área de trabajo en una capacidad Power BI Premium.
 
-Cuando el área de trabajo está en una capacidad de Power BI Premium, los usuarios con el rol Visor pueden acceder al área de trabajo incluso si no tienen una licencia de Power BI Pro. Sin embargo, si asigna a estos usuarios un rol superior, como administrador, miembro o colaborador, se les pedirá que inicien una evaluación Pro al intentar acceder al área de trabajo. Para usar el rol de visor con los usuarios sin licencias Pro, asegúrese de que no tengan otros roles de área de trabajo, ya sea de forma individual o mediante un grupo de usuarios.
+Cuando la nueva área de trabajo está en una capacidad Power BI Premium, los usuarios con el rol de espectador pueden acceder al área de trabajo incluso si no tienen una licencia de Power BI Pro. Sin embargo, si asigna a estos usuarios un rol superior, como administrador, miembro o colaborador, se les pedirá que inicien una evaluación Pro al intentar acceder al área de trabajo. Si quiere que los usuarios sin licencias Pro usen el rol de espectador, asegúrese de que no tengan también otros roles de área de trabajo, ya sea como individuos o como parte de un grupo de usuarios.
 
 > [!NOTE]
-> La publicación de informes en la nueva experiencia de áreas de trabajo tiene el cumplimiento más estricto de las reglas de licencia existentes. Si intenta publicar desde Power BI Desktop u otras herramientas cliente sin una licencia de Pro, verá el error "Solo los usuarios con licencias de Power BI Pro pueden publicar en esta área de trabajo.".
+> La publicación de informes en la nueva experiencia de área de trabajo tiene el cumplimiento más estricto de las reglas de licencia existentes. Si intenta publicar desde Power BI Desktop u otras herramientas cliente sin una licencia de Pro, verá el error "Solo los usuarios con licencias de Power BI Pro pueden publicar en esta área de trabajo.".
 
-## <a name="administering-new-workspace-experience-workspaces"></a>Administración de áreas de trabajo de la nueva experiencia de áreas de trabajo
-
-La administración de las áreas de trabajo de la nueva experiencia está ahora en el portal de administración de Power BI. Los administradores de Power BI deciden qué usuarios de una organización pueden crear áreas de trabajo y distribuir aplicaciones. Los administradores pueden ver el estado de todas las áreas de trabajo de su organización. También pueden administrar y recuperar áreas de trabajo. Obtenga más información sobre la [creación de nuevas áreas de trabajo](../admin/service-admin-portal.md#create-the-new-workspaces) en el artículo del portal de administración.
-
-## <a name="guest-users"></a>Usuarios invitados
+### <a name="guest-users"></a>Usuarios invitados
 
 De forma predeterminada, los [usuarios invitados de Azure AD B2B](../admin/service-admin-azure-ad-b2b.md) no pueden tener acceso a las áreas de trabajo. El administrador de Power BI puede [permitir a los usuarios invitados externos editar y administrar el contenido de la organización](../admin/service-admin-azure-ad-b2b.md#guest-users-who-can-edit-and-manage-content). Los usuarios invitados habilitados pueden acceder a las áreas de trabajo para las que tienen permiso.
 
-## <a name="auditing"></a>Auditoría
+### <a name="administering-new-workspace-experience-workspaces"></a>Administración de áreas de trabajo de la nueva experiencia de áreas de trabajo
 
-Power BI audita las siguientes actividades para nuevas áreas de trabajo de experiencia de áreas de trabajo.
+La administración de las áreas de trabajo de la nueva experiencia está en el portal de administración de Power BI. Los administradores de Power BI deciden qué usuarios de una organización pueden crear áreas de trabajo y distribuir aplicaciones. Los administradores pueden ver el estado de todas las áreas de trabajo de su organización. También pueden administrar y recuperar áreas de trabajo. Más información sobre la [administración de las nuevas áreas de trabajo](../admin/service-admin-portal.md#create-the-new-workspaces) en el artículo del portal de administración.
+
+### <a name="auditing"></a>Auditoría
+
+Power BI audita las siguientes actividades en las áreas de trabajo de la nueva experiencia.
 
 | Nombre descriptivo | Nombre de operación |
 |---|---|
@@ -119,11 +120,11 @@ Limitaciones que se deben tener en cuenta:
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
-**¿Afecta la disponibilidad general de la nueva experiencia de áreas de trabajo a los vínculos a contenido existente?**
+**¿Afecta la nueva experiencia de área de trabajo a los vínculos a contenido existentes?**
 
 No. Los vínculos a los elementos existentes de las áreas de trabajo clásicas no se ven afectados por la nueva experiencia de áreas de trabajo. La disponibilidad general (GA) de la nueva experiencia de áreas de trabajo cambia el área de trabajo predeterminada que se crea, pero no cambia las áreas de trabajo existentes. 
 
-**¿Se actualizan las áreas de trabajo existentes a la nueva experiencia de áreas de trabajo con disponibilidad general?**
+**¿Se actualizan las áreas de trabajo existentes a la nueva experiencia de área de trabajo con disponibilidad general?**
 
 No. La disponibilidad general de la nueva experiencia de áreas de trabajo solo cambia el tipo de área de trabajo predeterminado a la nueva experiencia de áreas de trabajo. Las áreas de trabajo clásicas existentes que se basan en grupos de Microsoft 365 permanecen sin cambios.
 

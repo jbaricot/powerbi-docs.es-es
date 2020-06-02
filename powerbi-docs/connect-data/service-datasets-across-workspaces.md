@@ -1,22 +1,22 @@
 ---
-title: Introducción a los conjuntos de datos de áreas de trabajo (versión preliminar)
+title: Introducción a los conjuntos de datos en áreas de trabajo
 description: Obtenga información sobre cómo se puede compartir un conjunto de datos con usuarios en toda la organización. Después, podrán crear informes basados en el conjunto de datos en sus propias áreas de trabajo.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fe0478a7fa570b4d88f4493c4b27fec083041ae
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0458498b5677f20bac3a2e50f884d820ef1c3648
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285472"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793629"
 ---
-# <a name="intro-to-datasets-across-workspaces-preview"></a>Introducción a los conjuntos de datos de áreas de trabajo (versión preliminar)
+# <a name="intro-to-datasets-across-workspaces"></a>Introducción a los conjuntos de datos en áreas de trabajo
 
 La inteligencia empresarial es una actividad de colaboración. Es importante establecer conjuntos de datos estandarizados que puedan ser el "único origen de la verdad". La detección y reutilización de esos conjuntos de datos estandarizados es fundamental. Cuando los expertos en modelos de datos de la organización crean y comparten conjuntos de datos optimizados, los creadores de informes pueden comenzar con esos conjuntos de datos para generar informes precisos. Después, la organización contará con datos coherentes para tomar decisiones, y una cultura de datos en buen estado.
 
@@ -33,9 +33,9 @@ La creación de informes basados en conjuntos de datos de diferentes áreas de t
 - En Power BI Desktop, puede publicar informes de Live Connect en otras áreas de trabajo, siempre y cuando sus conjuntos de datos estén en la nueva experiencia de áreas de trabajo.
 - Al copiar informes entre áreas de trabajo, el área de trabajo de destino debe ser un área de trabajo de la nueva experiencia.
 
-## <a name="discover-datasets-preview"></a>Detección de conjuntos de datos (versión preliminar)
+## <a name="discover-datasets"></a>Detección de los conjuntos de datos
 
-Cuando se compila un informe a partir de un conjunto de datos existente, el primer paso es conectarse al conjunto de datos, ya sea en el servicio Power BI o en Power BI Desktop. Más información sobre [detección de conjuntos de datos de diferentes áreas de trabajo (versión preliminar)](service-datasets-discover-across-workspaces.md)
+Cuando se compila un informe a partir de un conjunto de datos existente, el primer paso es conectarse al conjunto de datos, ya sea en el servicio Power BI o en Power BI Desktop. Más información sobre [detección de conjuntos de datos de diferentes áreas de trabajo](service-datasets-discover-across-workspaces.md)
 
 ## <a name="copy-a-report"></a>Copia de un informe
 

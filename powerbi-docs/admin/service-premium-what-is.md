@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7c9f198ac15311948e1789173851a6c85debc856
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438255"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812459"
 ---
 # <a name="what-is-power-bi-premium"></a>¿Qué es Power BI Premium?
 
@@ -50,7 +50,7 @@ Azure Power BI Embedded queda fuera del ámbito de este artículo, pero se descr
 
 ### <a name="purchasing"></a>Compra
 
-Los administradores compran las suscripciones de Power BI Premium en el Centro de administración de Microsoft 365. En concreto, solo los administradores globales de Office 365 o los administradores de facturación pueden comprar las SKU. Una vez compradas, el inquilino recibe un número correspondiente de núcleos virtuales para asignar a las capacidades, lo que se conoce como *agrupación de núcleos virtuales*. Por ejemplo, la compra de una SKU P3 proporciona al inquilino 32 núcleos virtuales. Para más información, vea [Adquisición de Power BI Premium](service-admin-premium-purchase.md).
+Los administradores compran las suscripciones de Power BI Premium en el Centro de administración de Microsoft 365. En concreto, solo los administradores globales o los administradores de facturación pueden comprar las SKU. Una vez compradas, el inquilino recibe un número correspondiente de núcleos virtuales para asignar a las capacidades, lo que se conoce como *agrupación de núcleos virtuales*. Por ejemplo, la compra de una SKU P3 proporciona al inquilino 32 núcleos virtuales. Para más información, vea [Adquisición de Power BI Premium](service-admin-premium-purchase.md).
 
 ## <a name="dedicated-capacities"></a>Capacidades dedicadas
 
@@ -127,13 +127,13 @@ Notas de la sección:
 
 ### <a name="regional-support"></a>Compatibilidad con regiones
 
-Al crear una capacidad, los administradores globales de Office 365 y los administradores del servicio Power BI pueden especificar una región donde residirán las áreas de trabajo asignadas a la capacidad. Esto se conoce como **Multi-Geo**. Con Multi-Geo, las organizaciones pueden cumplir los requisitos de residencia de datos mediante la implementación de contenido en los centros de datos de una región específica, incluso si es distinta de la región en la que reside la suscripción a Office 365. Para más información, vea [Compatibilidad de Multi-Geo con Power BI Premium](service-admin-premium-multi-geo.md).
+Al crear una capacidad, los administradores globales y los administradores del servicio Power BI pueden especificar una región donde residirán las áreas de trabajo asignadas a la capacidad. Esto se conoce como **Multi-Geo**. Con Multi-Geo, las organizaciones pueden cumplir los requisitos de residencia de datos mediante la implementación de contenido en los centros de datos de una región específica, incluso si es distinta de la región en la que reside la suscripción a Office 365. Para más información, vea [Compatibilidad de Multi-Geo con Power BI Premium](service-admin-premium-multi-geo.md).
 
 ### <a name="capacity-management"></a>Administración de capacidades
 
 La administración de las capacidades Premium implica las tareas de crear o eliminar capacidades, asignar administradores y áreas de trabajo, configurar cargas de trabajo, supervisar y realizar ajustes para optimizar el rendimiento de la capacidad. 
 
-Los administradores globales de Office 365 y los administradores del servicio Power BI pueden crear capacidades Premium a partir de los núcleos virtuales disponibles, o bien modificar capacidades Premium existentes. Cuando se crea una capacidad, se especifican el tamaño de la capacidad y la región geográfica, y se asigna al menos un administrador. 
+Los administradores globales y los administradores del servicio Power BI pueden crear capacidades Premium a partir de los núcleos virtuales disponibles, o bien modificar capacidades Premium existentes. Cuando se crea una capacidad, se especifican el tamaño de la capacidad y la región geográfica, y se asigna al menos un administrador. 
 
 Cuando se crean capacidades, la mayoría de las tareas administrativas se realizan en el [Portal de administración](service-admin-portal.md).
 

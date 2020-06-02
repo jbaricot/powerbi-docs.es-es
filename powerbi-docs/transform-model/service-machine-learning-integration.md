@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 1004549c37f4bff92e4a8b1d31b3844b7cdd0f2d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5562271eebc10789e27f7e65c7ff96b72de43aae
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83330414"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121060"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Integración de Azure Machine Learning en Power BI
 
@@ -30,6 +30,9 @@ Para obtener más información sobre Azure Machine Learning, consulte:
 
 - Información general:  [¿Qué es Azure Machine Learning?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
 - Guías de inicio rápido y tutoriales de Azure Machine Learning:  [Documentación de Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/)
+
+> [!NOTE]
+> Se requiere una suscripción de Power BI Premium para usar la integración de Azure Machine Learning.
 
 ## <a name="granting-access-to-the-azure-ml-model-to-a-power-bi-user"></a>Concesión de acceso al modelo de Azure ML a un usuario de Power BI
 

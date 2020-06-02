@@ -1,22 +1,22 @@
 ---
-title: 'Creación de informes basados en conjuntos de datos de diferentes áreas de trabajo (versión preliminar): Power BI'
+title: 'Creación de informes basados en conjuntos de datos de diferentes áreas de trabajo: Power BI'
 description: Obtenga información sobre cómo se puede compartir un conjunto de datos con usuarios en toda la organización. Después, podrán crear informes basados en el conjunto de datos en sus propias áreas de trabajo.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af8cab7403a0ee34505ff395248aec188fd54666
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0e7574f9f1d3b4d6c818115af1f2cb4dcd7b8374
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284736"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793027"
 ---
-# <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Creación de informes basados en conjuntos de datos de diferentes áreas de trabajo (versión preliminar)
+# <a name="create-reports-based-on-datasets-from-different-workspaces"></a>Creación de informes basados en conjuntos de datos de diferentes áreas de trabajo
 
 Obtenga información sobre cómo puede crear informes en áreas de trabajo propias basados en conjuntos de datos de otras. Para generar un informe sobre un conjunto de datos existente, puede empezar desde Power BI Desktop o desde el servicio Power BI, en Mi área de trabajo o en una [nueva experiencia de área de trabajo](../collaborate-share/service-create-the-new-workspaces.md).
 
@@ -61,5 +61,5 @@ Hay dos tipos diferentes de conjuntos de datos aprobados. Los propietarios del c
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Uso de conjuntos de datos entre áreas de trabajo (versión preliminar)](service-datasets-across-workspaces.md)
+- [Uso de conjuntos de datos entre áreas de trabajo](service-datasets-across-workspaces.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

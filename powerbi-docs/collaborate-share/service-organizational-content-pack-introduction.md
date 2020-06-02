@@ -9,25 +9,25 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ad60e65406ee69bed4e544486c955765203ddc5c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a2c4925e03a0e356ca44556fa7e545459c487dac
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348008"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733402"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Paquetes de contenido organizativos en Power BI: introducción
 > [!NOTE]
 > No se pueden crear paquetes de contenido de la organización ni instalarlos en las nuevas experiencias de áreas de trabajo. Ahora es un buen momento para actualizar los paquetes de contenido a aplicaciones, si todavía no ha empezado. Obtenga [más información sobre la nueva experiencia de áreas de trabajo](service-create-the-new-workspaces.md).
 > 
 
-¿Distribuye informes periódicamente por correo electrónico a su equipo? Pruebe lo siguiente en su lugar: empaquete los paneles, informes, libros de Excel y conjuntos de datos, y publíquelos en el equipo como *paquete de contenido organizativo*. Su equipo encontrará con facilidad los paquetes de contenido que cree, ya que todos ellos están en AppSource. Dado que son parte de Power BI, aprovechan todas las características de Power BI, como la exploración interactiva de datos, los nuevos objetos visuales, las preguntas y respuestas, la integración con otros orígenes de datos, la actualización de datos y mucho más.
+¿Distribuye informes periódicamente por correo electrónico a su equipo? En su lugar, pruebe lo siguiente: empaquete los paneles, informes, libros de Excel y conjuntos de datos, y publíquelos en el equipo como *paquete de contenido organizativo*. Su equipo encontrará con facilidad los paquetes de contenido que cree, ya que todos ellos están en AppSource. Dado que son parte de Power BI, aprovechan todas las características de Power BI, como la exploración interactiva de datos, los nuevos objetos visuales, las preguntas y respuestas, la integración con otros orígenes de datos, la actualización de datos y mucho más.
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
 Es distinto crear paquetes de contenido que compartir paneles o colaborar en ellos en un área de trabajo. Lea [¿Cómo debo compartir paneles, informes e iconos?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir cuál es la mejor opción en su caso. 
 
-En AppSource, puede explorar o buscar paquetes de contenido publicados en toda la organización o en los grupos de distribución o de seguridad, y en los [grupos de Office 365 a los que pertenece](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9). Si no es miembro de un grupo específico, no verá los paquetes de contenido compartidos con ese grupo. Todos los miembros del grupo tienen el mismo permiso de solo lectura para tener acceso a los datos del paquete de contenido, los informes y los paneles (a menos que sea un origen de datos de SQL Server Analysis Services, también denominado SSAS, en cuyo caso los privilegios se heredan con el origen de datos).
+En AppSource, puede explorar o buscar paquetes de contenido publicados en toda la organización o en los grupos de distribución o de seguridad, y en los [grupos de Microsoft 365 a los que pertenece](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9). Si no es miembro de un grupo específico, no verá los paquetes de contenido compartidos con ese grupo. Todos los miembros del grupo tienen el mismo permiso de solo lectura para tener acceso a los datos del paquete de contenido, los informes y los paneles (a menos que sea un origen de datos de SQL Server Analysis Services, también denominado SSAS, en cuyo caso los privilegios se heredan con el origen de datos).
 
 Los paneles, informes y libros de Excel son de solo lectura, aunque puede copiar y usar los paneles e informes como punto de partida para crear su propia versión personalizada del paquete de contenido.
 
@@ -58,15 +58,15 @@ El ciclo de vida tiene un aspecto similar al siguiente:
 5. Nate realiza cambios en el panel y, cuando está listo, publica una nueva versión del paquete de contenido.
    
    * Julio, otro miembro del grupo de distribución, no personalizó el paquete de contenido original. Los cambios nuevos se aplican automáticamente en su versión del paquete de contenido.  
-   * Julia personalizó el paquete de contenido. Jane recibe una notificación de que hay una nueva versión.  Puede ir a AppSource y obtener el paquete de contenido actualizado sin perder su versión personalizada. Jane tiene ahora dos versiones: la versión personalizada y el paquete de contenido actualizado.
-6. Imaginemos que Nate cambia la configuración de seguridad. Julio y Julia ya no tienen acceso al contenido. Digamos que se les ha eliminado del grupo de distribución Marketing.
+   * Jane personalizó el paquete de contenido. Jane recibe una notificación de que hay una nueva versión.  Puede ir a AppSource y obtener el paquete de contenido actualizado sin perder su versión personalizada. Jane tiene ahora dos versiones: la versión personalizada y el paquete de contenido actualizado.
+6. Imaginemos que Nate cambia la configuración de seguridad. Julio y Jane ya no tienen acceso al contenido. Digamos que se les ha eliminado del grupo de distribución Marketing.
    
    * Julio no personalizó el paquete de contenido original, por lo que el contenido se quita automáticamente. 
-   * Julia personalizó el paquete de contenido. La próxima vez que abra el panel, todos los iconos del paquete de contenido original habrán desaparecido, pero aún se mostrarán los iconos que ancló desde otros informes (que todavía tiene permiso para usar). Los informes y el conjunto de datos asociados ya no están disponibles (y no aparecen en el panel de navegación).
+   * Jane personalizó el paquete de contenido. La próxima vez que abra el panel, todos los iconos del paquete de contenido original habrán desaparecido, pero aún se mostrarán los iconos que ancló desde otros informes (que todavía tiene permiso para usar). Los informes y el conjunto de datos asociados ya no están disponibles (y no aparecen en el panel de navegación).
 7. O bien, Nate elimina el paquete de contenido.
    
    * Julio no personalizó el paquete de contenido original, por lo que el contenido se quita automáticamente. 
-   * Julia personalizó el paquete de contenido. La próxima vez que abra el panel, todos los iconos del paquete de contenido original habrán desaparecido, pero aún se mostrarán los iconos que ancló desde otros informes. Los informes y el conjunto de datos asociados ya no están disponibles (y no aparecen en el panel de navegación).
+   * Jane personalizó el paquete de contenido. La próxima vez que abra el panel, todos los iconos del paquete de contenido original habrán desaparecido, pero aún se mostrarán los iconos que ancló desde otros informes. Los informes y el conjunto de datos asociados ya no están disponibles (y no aparecen en el panel de navegación).
 
 ## <a name="data-security"></a>Seguridad de los datos
 Todos los miembros del grupo de distribución tienen los mismos permisos con respecto a los datos que el creador del paquete de contenido. La única excepción son los conjuntos de datos tabulares de instancias locales de SQL Server Analysis Services (SSAS). Como los informes y paneles se conectan de forma dinámica al modelo de SSAS local, se usan las credenciales de cada miembro del grupo de distribución para determinar a qué datos pueden acceder.
@@ -74,5 +74,5 @@ Todos los miembros del grupo de distribución tienen los mismos permisos con res
 ## <a name="next-steps"></a>Pasos siguientes
 * [Creación y publicación de un paquete de contenido organizativo](service-organizational-content-pack-create-and-publish.md)
 * [Creación y distribución de una aplicación en Power BI](service-create-distribute-apps.md) 
-* [Conceptos básicos para diseñadores en el servicio Power BI](../fundamentals/service-basic-concepts.md)
+* [Conceptos básicos para los diseñadores en el servicio Power BI](../fundamentals/service-basic-concepts.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

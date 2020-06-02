@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/13/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 7f5f24273b05666098376a2ef04a5dcaada6461b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b2743fee2c681f0923d243304ea8f44b45ee3e17
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139825"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812160"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>¿Olvidó su contraseña de Power BI?
 
@@ -22,7 +22,7 @@ Si ha olvidado la contraseña, puede utilizar el siguiente vínculo para solicit
 
 <https://passwordreset.microsoftonline.com>
 
-Si se le indica que su cuenta no está configurada para el restablecimiento de la contraseña, póngase en contacto con el administrador de Office 365. Si usa la versión de prueba gratuita, el administrador es la primera persona de su organización que se registró.
+Si se le indica que su cuenta no está configurada para el restablecimiento de la contraseña, póngase en contacto con el administrador. Si usa la versión de prueba gratuita, el administrador es la primera persona de su organización que se registró.
 
 Si sigue teniendo problemas para obtener acceso a su cuenta, puede intentar ponerse en contacto con el equipo de soporte técnico para restablecer una contraseña.
 

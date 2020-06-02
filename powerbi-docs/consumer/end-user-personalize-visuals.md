@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/09/2020
+ms.date: 05/21/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83f040fd021a3d3e1cd6ce344c84051c7ff58bb0
-ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
+ms.openlocfilehash: 9599d9b96b98feed4a8751c6bd028ca8b3f77ed3
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83383166"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793583"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Personalización de objetos visuales en un informe
 
@@ -117,7 +117,7 @@ Actualmente, la característica tiene algunas limitaciones que se deben tener en
 
 - **Personalizar este objeto visual** se puede desactivar para un informe entero o para un determinado objeto visual. Si no tiene una opción para personalizar un objeto visual, consulte con el administrador de inquilinos o al propietario del informe. Para mostrar la información de contacto del propietario del informe, seleccione el nombre del informe en la barra de menús de Power BI.
 - Las exploraciones de los usuarios no se conservan automáticamente. Debe guardar la vista como un marcador personal para capturar los cambios.
-- No se pueden cambiar los objetos visuales mientras se está en Power BI para aplicaciones móviles. Pero todos los cambios visuales que guarde en un marcador personal mientras está en el servicio Power BI se respetan en las aplicaciones móviles.
+- Esta característica se admite en las aplicaciones móviles de Power BI para tabletas iOS y Android, así como en su versión para Windows; no se admite en las aplicaciones móviles de Power BI para teléfonos. Pero cualquier cambio en un objeto visual que guarde en un marcador personal mientras se encuentre en el servicio Power BI se respetará en todas las aplicaciones móviles de Power BI.
 
 También hay algunos problemas conocidos que estamos tratando:
 

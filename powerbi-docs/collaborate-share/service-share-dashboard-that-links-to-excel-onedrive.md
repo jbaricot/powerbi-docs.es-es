@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1cd90c4348c33726cdf171f4948b617498c63a1f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3fcf15d7179c86b2c6859fe3c5704ac2cf1b9ce5
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348054"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733080"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Comparta un panel de Power BI que contiene vínculos a un archivo de Excel en OneDrive
 En Power BI, puede [conectarse a libros de Excel en OneDrive para la Empresa](../connect-data/service-excel-workbook-files.md) y anclar iconos a un panel de ese libro. Cuando comparta ese panel o cree un paquete de contenido que lo incluya:
@@ -40,7 +40,7 @@ Para compartir un panel vinculado a un libro de Excel en OneDrive para la Empres
 ## <a name="create-an-organizational-content-pack-with-a-dashboard-that-contains-workbook-tiles"></a>Crear un paquete de contenido organizativo con un panel que contiene iconos de libro
 Cuando [publica un paquete de contenido](service-organizational-content-pack-create-and-publish.md), concede acceso a compañeros o grupos individuales. Cuando publique un paquete de contenido que contenga vínculos del libro, tendrá la opción de modificar los permisos para el libro de Excel vinculado antes de la publicación.
 
-1. En la pantalla **Crear paquete de contenido**, escriba las direcciones de correo electrónico, asigne un título y una descripción al paquete de contenido y cargue una imagen.
+1. En la pantalla **Crear paquete de contenido** , escriba las direcciones de correo electrónico, asigne un título y una descripción al paquete de contenido y cargue una imagen.
 2. Seleccione el panel o informe que esté vinculado al libro de Excel en OneDrive para la Empresa.
    
     ![Libro de Excel en un paquete de contenido](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
@@ -49,11 +49,11 @@ Cuando [publica un paquete de contenido](service-organizational-content-pack-cre
 5. Seleccione **Publicar**.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Compartir un panel de un área de trabajo de Power BI
-El uso compartido de un panel de un área de trabajo de Power BI es similar al uso compartido de un panel de su propia área de trabajo, excepto en que los archivos se encuentran en un sitio de área de trabajo de Office 365, en lugar de su OneDrive para la Empresa privado. Modifique los permisos del libro de Excel antes de compartir el panel con personas de fuera del área de trabajo.
+El uso compartido de un panel de un área de trabajo de Power BI es similar al uso compartido de un panel de su propia área de trabajo, excepto en que los archivos se encuentran en un sitio de área de trabajo de Microsoft 365, en lugar de su OneDrive para la Empresa privado. Modifique los permisos del libro de Excel antes de compartir el panel con personas de fuera del área de trabajo.
 
 ![Compartir desde OneDrive](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_onedriveshare.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Anclar un icono a un panel de Power BI desde Excel](../create-reports/service-dashboard-pin-tile-from-excel.md)
-* [Conceptos básicos para diseñadores en el servicio Power BI](../fundamentals/service-basic-concepts.md)
+* [Conceptos básicos para los diseñadores en el servicio Power BI](../fundamentals/service-basic-concepts.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

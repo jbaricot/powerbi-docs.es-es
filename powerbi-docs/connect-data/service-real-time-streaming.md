@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b0ee72fdfdf504537073b0de22e5c386ca2572ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8e991a8696ac35ed0a7d4b448bb4dd83d9a19c42
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83327953"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793434"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmisión en tiempo real en Power BI
 Con la transmisión en tiempo real de Power BI, puede transmitir los datos y actualizar los paneles en tiempo real. Cualquier objeto visual o panel que se pueda crear en Power BI también se puede crear para mostrar y actualizar datos en tiempo real y objetos visuales. Los dispositivos y orígenes de datos de transmisión pueden ser sensores de fábrica, orígenes de redes sociales, métricas de uso del servicio y cualquier otro elemento a partir del que se puedan recopilar o transmitir datos.
@@ -52,7 +52,7 @@ La única manera de visualizar un conjunto de datos de streaming es agregar un i
 En la práctica, los conjuntos de datos de streaming y los objetos visuales de streaming que los acompañan son útiles cuando es necesario minimizar la latencia entre el momento en que se insertan los datos y el momento en que se visualizan. Además, es aconsejable insertar los datos con un formato que se pueda visualizar tal cual, sin agregar nada. Algunos ejemplos de datos que está listos tal cual son las temperaturas y las medias previamente calculadas.
 
 ### <a name="pubnub-streaming-dataset"></a>Conjunto de datos de streaming PubNub
-Con un conjunto de datos de streaming **PubNub**, el cliente web de Power BI usa el SDK de PubNub para leer un flujo de datos de PubNub existente, y el servicio Power BI no almacena ningún dato. Puesto que esta llamada se realiza directamente desde el cliente web, tendría que incluir el tráfico a PubNub en la lista de permitidos si solo permite en esta lista el tráfico de salida desde la red. Consulte las instrucciones del artículo de soporte técnico sobre la [inclusión en la lista de permitidos del tráfico de salida de PubNub](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-).
+Con un conjunto de datos de streaming **PubNub**, el cliente web de Power BI usa el SDK de PubNub para leer un flujo de datos de PubNub existente, y el servicio Power BI no almacena ningún dato. Como esta llamada se realiza directamente desde el cliente web, tendría que incluir el tráfico a PubNub como permitido si solo permitió en esta lista el tráfico de salida desde la red. Consulte las instrucciones del artículo de soporte técnico sobre la [inclusión en la lista de permitidos del tráfico de salida de PubNub](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-).
 
 Como sucede con el **conjunto de datos de streaming**, con el **conjunto de datos de streaming de PubNub** no hay ninguna base de datos subyacente en Power BI y, por tanto, no se pueden crear objetos visuales de informe con los datos del flujo, y no se pueden aprovechar las ventajas de la funcionalidad de informes como objetos visuales de Power BI, filtros, etc. El **conjunto de datos de streaming de PubNub** solo se puede visualizar si se agrega un icono al panel y se configura un flujo de datos de PubNub como origen.
 
@@ -215,7 +215,7 @@ Los conjuntos de datos de streaming están diseñados para mostrar los datos má
 Para los conjuntos de datos de inserción, siempre que tenga una marca de tiempo en el esquema, puede intentar crear un informe visual con el filtro últimos N.
 
 #### <a name="can-i-connect-to-push-or-streaming-datasets-in-power-bi-desktop"></a>¿Puedo conectarme a conjuntos de datos de streaming o de inserción en Power BI Desktop?
-Lamentablemente, no es posible en este momento.
+Los conjuntos de datos de inserción e híbridos pueden estar conectados de manera dinámica en Power BI Desktop, pero no se pueden conectar otros conjuntos de datos de streaming en Power BI Desktop.
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>Siguiendo la pregunta anterior, ¿cómo puedo realizar modelados en conjuntos de datos en tiempo real?
 El modelado no es posible en un conjunto de datos de streaming porque los datos no se almacenan permanentemente. En el caso de los conjuntos de datos de inserción, puede usar la API de REST de actualización de tabla o conjunto de datos para agregar medidas y relaciones. 

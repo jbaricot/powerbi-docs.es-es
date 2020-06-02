@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 73aade0ee10fe47ff669ccd6bd8c8ab0482f1f78
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: eb9a10c715a03adc9149ca8793ff248a23b9914d
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274498"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121017"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Actualizaciones incrementales en Power BI
 
@@ -172,13 +172,9 @@ El [punto de conexión de XMLA](service-premium-connect-tools.md) para los conju
 
 ### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>Actualización de la administración con SQL Server Management Studio (SSMS)
 
-Con la lectura y escritura del punto de conexión de XMLA habilitadas, SSMS se puede usar para ver y administrar las particiones generadas por la aplicación de directivas de actualización incremental.
+Con la lectura y escritura del punto de conexión de XMLA habilitadas, SSMS se puede usar para ver y administrar las particiones generadas por la aplicación de directivas de actualización incremental. Esto permite, por ejemplo, actualizar una partición histórica específica que no está en el intervalo incremental para realizar una actualización con fecha en el pasado sin tener que actualizar todos los datos históricos. También puede usar SSMS para cargar datos históricos para conjuntos de datos muy grandes mediante la incorporación o actualización incremental de particiones históricas en lotes.
 
 ![Particiones en SSMS](media/service-premium-incremental-refresh/ssms-partitions.png)
-
-#### <a name="refresh-historical-partitions"></a>Actualización de particiones históricas
-
-Esto permite, por ejemplo, actualizar una partición histórica específica que no está en el intervalo incremental para realizar una actualización con fecha en el pasado sin tener que actualizar todos los datos históricos.
 
 #### <a name="override-incremental-refresh-behavior"></a>Reemplazo del comportamiento de actualización incremental
 

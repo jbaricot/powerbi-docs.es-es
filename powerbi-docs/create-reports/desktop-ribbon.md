@@ -1,37 +1,32 @@
 ---
-title: Uso de la cinta actualizada en Power BI Desktop (versión preliminar)
+title: Uso de la cinta actualizada en Power BI Desktop
 description: Navegue fácilmente por los menús y comandos con la cinta nueva de Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/20/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c406782d8e27cf57a60504c2cf05a5079e3580ce
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6df5c0310fca47dfd590671766c47349ebb47f7f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349204"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793967"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Uso de la cinta actualizada en Power BI Desktop
 
-A partir de la actualización de marzo de 2020, Power BI Desktop va a revisar su cinta de opciones para alinear mejor su apariencia y experiencia con otros productos de Microsoft, como Microsoft Office. La cinta actualizada aparece en las actualizaciones mensuales desde noviembre de 2019 como una característica en versión preliminar (GB) y, a partir de la actualización de marzo de 2020, la cinta nueva es la experiencia predeterminada.
+Power BI Desktop ha revisado su cinta de opciones para alinear mejor su apariencia y experiencia con otros productos de Microsoft, como Microsoft Office.
 
 ![Nueva cinta de Power BI Desktop](media/desktop-ribbon/desktop-ribbon-02.png)
 
 ## <a name="how-to-enable-the-updated-ribbon"></a>Habilitación de la cinta actualizada
 
-A partir de la actualización de marzo de 2020, la cinta actualizada está activada de forma predeterminada. Para las versiones anteriores de Power BI Desktop (a partir de la actualización de noviembre de 2019), la cinta actualizada en Power BI era una característica en versión preliminar y debe estar habilitada. Para habilitarla en esas actualizaciones anteriores, seleccione **Archivo > Opciones y configuración > Opciones** y, luego, **Características en versión preliminar**, en la columna de la izquierda. En el panel derecho hay una selección de **Cinta de opciones actualizada**. Active la casilla junto a **Cinta de opciones actualizada** para habilitar la característica en vista previa (GB). Para que el cambio de la característica en vista previa (GB) se aplique, debe reiniciar Power BI Desktop.
+La cinta de opciones actualizada está disponible con carácter general a partir de la versión de mayo de 2020 de Power BI Desktop. A partir de la actualización de marzo de 2020, la cinta actualizada está activada de forma predeterminada. 
 
-![La opción de cinta de opciones actualizada para Power BI Desktop](media/desktop-ribbon/desktop-ribbon-01.png)
-
-> [!NOTE]
-> En el caso de las versiones de Power BI Desktop a partir de marzo de 2020, no es necesario habilitar la cinta actualizada, ya que a partir de marzo de 2020 es la experiencia predeterminada.
-
-## <a name="features-of-the-new-ribbon"></a>Características de la nueva cinta de opciones
+## <a name="features-of-the-updated-ribbon"></a>Características de la cinta de opciones actualizada
 
 Las ventajas de actualizar la cinta de opciones están pensadas para que la experiencia de Power BI Desktop, así como otros productos de Microsoft, resulte fácil y familiar. 
 

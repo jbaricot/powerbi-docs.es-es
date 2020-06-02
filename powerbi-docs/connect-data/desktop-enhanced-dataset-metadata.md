@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/31/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 87b4be55b1b811f63dbb7fe271bc3c3fa4af2755
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42e3f36689e62b196f5d8cb82bd4dd5ee118bf8b
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347433"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793404"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Uso de metadatos de conjunto de datos mejorado (versión preliminar)
 
@@ -42,6 +42,23 @@ Una vez habilitada la característica de versión preliminar, Power BI Desktop 
 > [!IMPORTANT]
 > La habilitación de la característica de **metadatos mejorados del conjunto de datos** se traduce en una actualización irreversible de los informes. Cualquier informe de Power BI cargado o creado con Power BI Desktop, una vez habilitados los **metadatos mejorados del conjunto de datos**, se convierten de forma irreversible al formato de metadatos mejorados del conjunto de datos.
 
+## <a name="report-backup-files"></a>Archivos de copia de seguridad de informe
+
+La actualización de un informe para usar la característica de **metadatos mejorados de conjuntos de datos** es irreversible. Sin embargo, durante la actualización, se crea un archivo de copia de seguridad de informe para guardar una versión del informe en su formato original (anterior a la actualización). El archivo de copia de seguridad se quitará después de 30°días. 
+
+Para buscar el archivo de informe de copia de seguridad, haga lo siguiente:
+
+1. Vaya a la ubicación siguiente: ```C:\Users\<user>\AppData\Local\Microsoft\Power BI Desktop\TempSaves\Backup```. Si usa la versión de Power BI Desktop de Microsoft Store, use esta ubicación: ```C:\Users\<user>\Microsoft\Power BI Desktop Store App\TempSaves\Backups``` 
+
+2. Ahí, busque una copia del informe con el nombre y la marca de tiempo del archivo original.
+
+3. Copie el archivo en la ubicación que prefiera para conservarlo.
+
+4. Asegúrese de que la característica en vista previa (GB) **Formato de metadatos mejorados** está deshabilitada en Power BI Desktop si elige abrir o usar ese archivo original. 
+
+El archivo de copia de seguridad se crea cuando se actualiza el informe, por lo que no se incluyen los cambios realizados después de la actualización. Nuevos informes creados cuando la característica **Formato de metadatos mejorados** está habilitada no tiene un archivo de copia de seguridad.
+
+
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
 En la versión preliminar, se aplican las siguientes limitaciones cuando está habilitada la característica en versión preliminar.
@@ -49,6 +66,7 @@ En la versión preliminar, se aplican las siguientes limitaciones cuando está h
 ### <a name="unsupported-features-and-connectors"></a>Características y conectores no admitidos
 Al abrir un archivo PBIX o PBIT existente que no se ha actualizado, se producirá un error en la actualización si el conjunto de datos contiene cualquiera de las siguientes características o conectores. Si se produce este error, no debería haber ningún impacto inmediato en la experiencia del usuario y Power BI Desktop seguirá usando el formato de metadatos anterior.
 
+* Todos los conectores personalizados
 * Scripts de Python
 * Conectores personalizados
 * Azure DevOps Server
@@ -66,7 +84,16 @@ Al abrir un archivo PBIX o PBIT existente que no se ha actualizado, se producir�
 * Expresiones M que contienen determinadas combinaciones de caracteres como "\\n" en nombres de columna
 * Cuando se usan conjuntos de datos con la característica **Metadatos del conjunto de datos mejorado** habilitada, los orígenes de datos de inicio de sesión único (SSO) no se pueden configurar en el servicio Power BI
 
+Los informes que usen estos conectores mencionados no se actualizarán al formato nuevo. Los informes que ya se hayan actualizado o que se hayan creado después de habilitar esta característica nueva no permitirán agregar las características o los conectores no compatibles mencionados. 
+
+No se admiten consultas con orígenes de datos dinámicos. Los informes que tienen orígenes de datos dinámicos no se actualizarán al formato nuevo y los informes que ya se actualizaron o que se crearon recientemente con la característica habilitada no permitirán agregar orígenes de datos dinámicos. Una consulta tiene un origen de datos dinámico si el origen cambia en función de un parámetro, una entrada de función o una función volátil. 
+
+No se admiten las consultas con errores en pasos o ramas ascendentes. 
+
 Además, los archivos PBIX y PBIT que ya se han actualizado correctamente para usar **Metadatos del conjunto de datos mejorado** *no pueden* usar las características ni los conectores anteriores en la versión actual.
+
+
+
 
 ### <a name="lineage-view"></a>Vista de linaje
 Los conjuntos de datos que usan el nuevo formato de metadatos no muestran actualmente vínculos a flujos de datos en la vista de linaje en el servicio Power BI.

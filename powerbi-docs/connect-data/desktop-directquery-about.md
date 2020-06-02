@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 05df39b58334b33046fde0f95b9f1ca596c1eec1
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563296"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120549"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Acerca del uso de DirectQuery en Power BI
 
@@ -184,7 +184,7 @@ Cada interacción del usuario en el informe podría hacer que se actualicen los 
 
 De manera similar, la edición de un nuevo informe requiere enviar consultas para cada paso de la ruta de acceso para generar el objeto visual final.
 
-Hay algún tipo de almacenamiento en caché de los resultados en caché. La actualización de un objeto visual es instantánea es instantánea si se han obtenido exactamente los mismos resultados recientemente. Si no se define seguridad de nivel de fila, estas cachés no se comparten entre los usuarios.
+Hay algún tipo de almacenamiento en caché de los resultados en caché. La actualización de un objeto visual es instantánea es instantánea si se han obtenido exactamente los mismos resultados recientemente. Si se define seguridad de nivel de fila, estas cachés no se comparten entre los usuarios.
 
 #### <a name="dashboard-refresh"></a>Actualización de paneles
 
@@ -359,13 +359,13 @@ En algunos orígenes de DirectQuery, este registro incluye todas las consultas e
 
 El archivo de seguimiento lo puede encontrar en la carpeta *AppData* del usuario actual:
 
-*\<Usuario>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces*
+*\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces*
 
 Para llegar a esta carpeta, en Power BI Desktop, seleccione **Archivo** > **Opciones y configuración** > **Opciones**, y luego elija **Diagnóstico**. Aparecerá el siguiente cuadro de diálogo:
 
 ![Vínculo para abrir la carpeta de seguimientos](media/desktop-directquery-about/directquery-about_06.png)
 
-Cuando selecciona **Abre la carpeta de volcado de memoria y seguimiento**, en **Opciones de diagnóstico**, se abre la carpeta siguiente: *\<Usuario>\AppData\Local\Microsoft\Power BI Desktop\Traces*.
+Cuando selecciona **Permite abrir la carpeta de volcado de memoria y seguimiento**, en **Opciones de diagnóstico**, se abre esta carpeta: *\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces*.
 
 Vaya a la carpeta principal de esta carpeta donde se muestra la carpeta que contiene *AnalysisServicesWorkspaces*, que contendrá una carpeta de área de trabajo para cada instancia abierta de Power BI Desktop. El nombre de estas carpetas incluye un sufijo de entero, como *AnalysisServicesWorkspace2058279583*.
 
@@ -381,7 +381,7 @@ Siga estos pasos para abrir el archivo de seguimiento:
 
 1. En SQL Server Profiler, seleccione **Archivo** > **Abrir** > **Archivo de seguimiento**.
 
-1. Escriba la ruta de acceso al archivo de seguimiento de la sesión de Power BI actualmente abierta, como: *C:\Users\<usuario>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data*.
+1. Escriba la ruta de acceso al archivo de seguimiento de la sesión de Power BI actualmente abierta, como: *C:\Usuarios\<user>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data*.
 
 1. Abra *FlightRecorderCurrent.trc*.
 

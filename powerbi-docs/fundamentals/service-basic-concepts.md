@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0620ca7373f247cf5475f43ddaceb69ded60bc59
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: bcd5713b2ee7f053448718bc5dd93c24b0d53de6
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83358447"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813885"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceptos básicos para los diseñadores en el servicio Power BI
 
@@ -29,7 +29,7 @@ En este artículo, si aún no tiene sus propios informes, pruebe a instalar uno 
 Cuando abra el servicio Power BI en un explorador, empezará en su pantalla Inicio. Estos son los elementos que puede ver:
 
 1. Panel de navegación
-2. Iniciador de aplicaciones de Office 365
+2. Iniciador de aplicaciones de Microsoft 365
 3. Botón Inicio de Power BI
 4. Botones de iconos, incluidos los de configuración, ayuda y comentarios
 5. Cuadro de búsqueda
@@ -106,7 +106,7 @@ Ahora, pasemos al siguiente tema: los informes.
 * [Conjuntos de datos de ejemplo para Power BI](../create-reports/sample-datasets.md)
 
 ## <a name="reports"></a>Informes
-Un informe de Power BI se compone de una o más páginas de visualizaciones, como gráficos de líneas, mapas y gráficos de rectángulos. A las visualizaciones también se les denomina **_objetos visuales_** . Todas las visualizaciones de un informe proceden de un único conjunto de datos. Se pueden crear informes desde cero en Power BI, se pueden importar con paneles que otros compañeros compartan con usted o se pueden crear en Power BI mediante la conexión a conjuntos de datos de Excel, Power BI Desktop, bases de datos y aplicaciones SaaS.  Por ejemplo, cuando se conecta a un libro de Excel que contiene hojas de Power View, Power BI crea un informe basado en dichas hojas. Y cuando se conecta a una aplicación de SaaS, Power BI importa un informe previamente creado.
+Un informe de Power BI se compone de una o más páginas de visualizaciones, como gráficos de líneas, mapas y gráficos de rectángulos. A las visualizaciones también se les denomina **_objetos visuales_**. Todas las visualizaciones de un informe proceden de un único conjunto de datos. Se pueden crear informes desde cero en Power BI, se pueden importar con paneles que otros compañeros compartan con usted o se pueden crear en Power BI mediante la conexión a conjuntos de datos de Excel, Power BI Desktop, bases de datos y aplicaciones SaaS.  Por ejemplo, cuando se conecta a un libro de Excel que contiene hojas de Power View, Power BI crea un informe basado en dichas hojas. Y cuando se conecta a una aplicación de SaaS, Power BI importa un informe previamente creado.
 
 Hay dos maneras de ver los informes e interactuar con ellos: *Vista de lectura* y *vista de edición*. Al abrir un informe, se abre en la vista de lectura. Si tiene permisos de edición, verá **Editar informe** en la esquina superior izquierda y podrá ver el informe en la vista de edición.  Si un informe se encuentra en un área de trabajo, todos los usuarios con un rol de *administrador*, *miembro* o *colaborador* pueden editarlo. Estos usuarios tienen acceso a todas las funcionalidades de exploración, diseño, creación y uso compartido de ese informe en la vista de edición. Las personas con las que comparta el informe pueden explorarlo e interactuar con él mediante la vista de lectura.   
 
@@ -228,8 +228,8 @@ Observe el icono "C" después del título del panel. Este panel tiene una [etiqu
 
 ![Icono de clasificación de datos](media/service-basic-concepts/power-bi-title.png)
 
-### <a name="6-office-365-app-launcher"></a>6. **Iniciador de aplicaciones de Office 365**
-Con el iniciador de aplicaciones, todas las aplicaciones de Office 365 están disponibles fácilmente con un solo clic. Desde aquí, puede iniciar rápidamente el correo electrónico, los documentos, el calendario y mucho más.
+### <a name="6-microsoft-365-app-launcher"></a>6. **Iniciador de aplicaciones de Microsoft 365**
+Con el iniciador de aplicaciones, todas las aplicaciones de Microsoft 365 están disponibles fácilmente con un solo clic. Desde aquí, puede iniciar rápidamente el correo electrónico, los documentos, el calendario y mucho más.
 
 ![Iniciador de aplicaciones de Office](media/service-basic-concepts/power-bi-waffle.png)
 

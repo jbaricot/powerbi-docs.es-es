@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 892414704592347af81ed29763a4d6a34bb12c0f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 189710c613c7d48f76ee0bb23a430ac4d9908c74
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83133466"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792866"
 ---
 # <a name="power-bi-premium-faq"></a>Preguntas más frecuentes sobre Power BI Premium
 
@@ -41,7 +41,7 @@ Power BI Premium es una licencia basada en la capacidad, mientras que Power BI P
 * Crear paneles personales (anclar al panel nuevo)
 * Analizar datos en Excel o Power BI Desktop
 * Compartir mediante Excel Web App
-* Compartir paneles y colaborar con grupos de Office 365
+* Compartir paneles y colaborar con grupos de Microsoft 365
 * Integrar contenido con Microsoft Teams
 
 **¿Necesito Power BI Pro para usar Power BI Premium?**  

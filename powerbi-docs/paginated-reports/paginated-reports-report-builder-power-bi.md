@@ -4,26 +4,39 @@ description: Los informes paginados, con el formato de informe estándar de SQL 
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/14/2020
-ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/19/2020
+ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565515"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733425"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>¿Qué son los informes paginados en Power BI Premium?
 
-Los informes paginados, con el formato de informe estándar de SQL Server Reporting Services, ya están disponibles en el servicio Power BI. Estos informes se pueden imprimir o compartir. Se denominan "paginados" porque presentan un formato apto para encajar en una página. Muestran todos los datos en una tabla, incluso si esta abarca varias páginas. A veces se denominan "píxel perfecto", porque se puede controlar exactamente el diseño de página del informe. Los informes paginados se basan en la tecnología de informe RDL de SQL Server Reporting Services. El generador de informes es la herramienta independiente para crear informes paginados. 
+Los *informes paginados* están diseñados para imprimirse o compartirse. Se denominan *paginados* porque presentan un formato apto para encajar en una página. Muestran todos los datos en una tabla, incluso si esta abarca varias páginas. A veces se denominan *perfectos hasta el último detalle*, porque se puede controlar exactamente el diseño de página del informe. Power BI Report Builder es la herramienta independiente para crear informes paginados. Los informes paginados se basan en la tecnología de informe RDL, el formato de informe largo estándar de SQL Server Reporting Services. 
 
-Los informes paginados pueden tener muchas páginas. Por ejemplo, este informe tiene 563 páginas. Cada una de ellas está diseñada con precisión, con una página por factura y encabezados y pies de página que se repiten.
+Los informes paginados suelen tener muchas páginas. Por ejemplo, este informe tiene 563 páginas. Cada una de ellas está diseñada con precisión, con una página por factura y encabezados y pies de página que se repiten.
 
 ![Paginado](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 Puede obtener una vista previa del informe en el generador de informes y luego publicarlo en el servicio Power BI, `https://app.powerbi.com`. Necesita una licencia de Power BI Pro para publicar un informe en el servicio. Puede publicar y compartir informes paginados en Mi área de trabajo o en las áreas de trabajo de la aplicación, siempre que el área de trabajo tenga la capacidad Premium de Power BI. Además, un administrador de Power BI debe habilitar los informes paginados en la [sección de capacidades Premium](../admin/service-admin-premium-workloads.md#paginated-reports) del portal de administración de Power BI. 
+
+## <a name="compare-power-bi-reports-and-paginated-reports"></a>Comparación entre los informes de Power BI y los informes paginados
+
+Una ventaja importante de los informes paginados es la posibilidad de imprimir todos los datos de una tabla, sin importar lo largos que sean. Imagine que coloca una tabla en un informe de Power BI. Verá algunas de sus filas en la página y tendrá una barra de desplazamiento para ver el resto. Si imprime esa página o la exporta a PDF, las únicas filas que imprime son las que vio en la página. 
+
+Ahora, supongamos que coloca la misma tabla en un informe paginado. Al imprimirlo o exportarlo a PDF, el informe paginado tiene tantas páginas como sea necesario para imprimir cada fila de esa tabla. 
+
+En el siguiente vídeo, Peter Myers, uno de los profesionales más valiosos de Microsoft de plataforma de datos, y Chris Finlan, jefe de programación principal, demuestran la impresión de una tabla similar en los dos formatos de informe. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jXTiYJKw1Rs?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT" frameborder="0" allowfullscreen></iframe>
+
+Este vídeo forma parte de un curso en vídeo de ocho módulos, [Informes paginados de Power BI en un día](../learning-catalog/paginated-reports-online-course.md). Este curso está concebido para proporcionarle, como autor de informes, los conocimientos técnicos necesarios para crear, publicar y distribuir informes paginados de Power BI.
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Creación de informes en el Generador de informes de Power BI
 

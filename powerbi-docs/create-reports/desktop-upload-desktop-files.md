@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/20/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a67c36b2594696e1c576693cc5808eb0227c1c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83333496"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733490"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Publicar conjuntos de datos e informes desde Power BI Desktop
 Al publicar un archivo de Power BI Desktop en el servicio Power BI, se publican los datos del modelo en el área de trabajo de Power BI. Lo mismo se aplica a los informes creados en la vista **Informes**. Verá un nuevo conjunto de datos con el mismo nombre y los informes en el Explorador de área de trabajo.
@@ -49,5 +49,9 @@ Este proceso es sencillo, pero hay algunas cosas que debe saber:
 * Si cambia el nombre o elimina una columna o medida, las visualizaciones que ya tenga en Power BI con ese campo podrían interrumpirse. 
 * Power BI omite los cambios de formato de las columnas existentes. Por ejemplo, si cambia el formato de una columna de 0,25 % a 25 %.
 * Supongamos que tiene una programación de actualización que está configurada para el conjunto de datos existente en Power BI. Al agregar nuevos orígenes de datos al archivo y, después, volverlo a publicar, tendrá que iniciar sesión en estos antes de la siguiente actualización programada.
-* Cuando se vuelve a publicar un conjunto de datos publicado desde Power BI Desktop y se define una programación de actualización, se inicia una actualización del conjunto de datos en cuanto se vuelve a publicar. 
+* Cuando se vuelve a publicar un conjunto de datos publicado desde Power BI Desktop y se define una programación de actualización, se inicia una actualización del conjunto de datos en cuanto se vuelve a publicar.
+* Cuando realiza un cambio en un conjunto de datos y luego vuelve a publicarlo, en un mensaje se muestra el número de áreas de trabajo, informes y paneles potencialmente afectados por el cambio y se le pide que confirme que quiere reemplazar el conjunto de datos publicado actual por el que ha modificado. El mensaje también proporciona un vínculo al análisis de impacto completo del conjunto de datos en el servicio Power BI, donde puede ver más información y adoptar medidas para mitigar los riesgos del cambio.
 
+   ![Advertencia sobre el impacto de volver a publicar un conjunto de datos](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
+
+   [Más información sobre el Análisis de impacto para conjuntos de datos](../collaborate-share/service-dataset-impact-analysis.md).

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/11/2020
-ms.openlocfilehash: 66ef36f669b5f34c19f283cf9ebc8be2b12332ec
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/17/2020
+ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148646"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813632"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capacidad y SKU de los análisis incrustados de Power BI
 
@@ -64,74 +64,22 @@ Power BI Premium ofrece dos SKU: *P* y *EM*.
 
 ### <a name="which-sku-should-i-use"></a>¿Qué SKU debo usar?
 
-En esta tabla se proporciona un resumen de las características, la capacidad requerida y el SKU específico que se necesita para cada una de ellas. 
+En la tabla que aparece a continuación se proporciona un resumen de las características, la capacidad requerida y la SKU específica que se necesita para cada una de ellas.
 
-</br>
-<table>
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<tbody>
-<tr>
-<td style="text-align: center"; colspan="2"><p><b>Característica</b></p></td>
-<td style="text-align: center">
-<p><b>¿Qué es Power BI Embedded de Azure?</b></p>
-</td>
-<td style="text-align: center"; colspan="2">
-<p><b>Power BI Premium</b></p>
-</td>
-</tr>
-<tr>
-<td><p><em>¿Qué es lo que se consume?</em><p></td>
-<td><p><em>¿Qué elemento realiza tal consumo?</em><p></td>
-<td style="text-align: center"><p><em>SKU A</br>(Azure)</em></p></td>
-<td style="text-align: center"><p><em>SKU EM</br>(Office)</em></p></td>
-<td style="text-align: center"><p><em>SKU P</br>(Office)</em></p></td>
-</tr>
-<tr>
-<td>Inserción de artefactos desde un área de trabajo de Power BI</td>
-<td>
-</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="2">Informes de Power BI</td>
-<td>Aplicación insertada para la organización</br>(datos en posesión del usuario)</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>Aplicación insertada para los clientes</br>(datos en posesión de la aplicación)</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="3">Power BI content<br>(con una licencia gratuita de Power BI)</td>
-<td>Servicio Power BI</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>Power BI Mobile</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>Aplicaciones de MS Office</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-</tbody>
-</table>
+En esta tabla, una aplicación personalizada hace referencia a una aplicación web creada mediante el análisis insertado. Al hacer la inserción en una aplicación web personalizada como desarrollador (mediante los SDK de JavaScript o .NET o las API REST), tiene la capacidad de controlar y personalizar la experiencia de usuario. Esta capacidad no está disponible cuando se usan otras opciones de inserción, como el servicio Power BI y Power BI Mobile.
+
+
+|         |         |         |
+|---------|---------|---------|
+|**Escenario**</br><p></p>|**Azure**</br>(SKU A)|**Office**</br>(SKU de P y EM)|
+|[Insertar para los clientes](embed-sample-for-customers.md)</br>(datos en posesión de la aplicación)     |✔        |✔        |
+|[Insertar para la organización](embed-sample-for-your-organization.md)</br>(datos en posesión del usuario)     |✖        |✔         |
+|Aplicaciones de Microsoft 365</br>(antes conocidas como aplicaciones de Office 365)<ul><li>[Insertar en Teams](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[Insertar en SharePoint](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |
+|[Inserción de dirección URL segura](../../collaborate-share/service-embed-secure.md)</br>(inserción desde el servicio Power BI)     |✖        |✔        |
+
+>[!NOTE]
+>* Para publicar contenido en un área de trabajo de aplicación de Power BI, se necesita una [licencia de Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md).
+>* Solo la **SKU de P** permite a los usuarios de Power BI gratuitos consumir aplicaciones y contenido compartido de Power BI en el servicio Power BI.
 
 ### <a name="capacity-considerations"></a>Consideraciones de capacidad
 
@@ -147,33 +95,33 @@ En la tabla siguiente se enumeran las consideraciones sobre el pago y uso por ca
 </tr>
 <tr>
 <td><p><strong>Oferta</strong></p></td>
-<td style="text-align: center;"><p>Celeste</p></td>
-<td style="text-align: center;" colspan="2"><p>Office</p></td>
+<td style="text-align: center"><p>Azure</p></td>
+<td style="text-align: center" colspan="2"><p>Office</p></td>
 </tr>
 <tr>
 <td><p><strong>SKU</strong></p></td>
-<td style="text-align: center;"><p>A</p></td>
-<td style="text-align: center;"><p>EM</p></td>
-<td style="text-align: center;"><p>P</p></td>
+<td style="text-align: center"><p>A</p></td>
+<td style="text-align: center"><p>EM</p></td>
+<td style="text-align: center"><p>P</p></td>
 </tr>
 <tr>
 <td><p><strong>Facturación</strong></td>
-<td style="text-align: center;">Cada hora</td>
-<td style="text-align: center;">Mensual</td>
-<td style="text-align: center;">Mensual</td>
+<td style="text-align: center">Cada hora</td>
+<td style="text-align: center">Mensual</td>
+<td style="text-align: center">Mensual</td>
 </tr>
 <tr>
 <td><p><strong>Asignación</strong></td>
-<td style="text-align: center;">ninguno</td>
-<td style="text-align: center;">Anualmente</td>
-<td style="text-align: center;">Mensual o anual</td>
+<td style="text-align: center">Ninguno</td>
+<td style="text-align: center">Anualmente</td>
+<td style="text-align: center">Mensual o anual</td>
 </tr>
 <tr>
 <td valign="top"><p><strong>Uso</strong></td>
-<td style="text-align: center;">Los recursos de Azure se pueden:</br>- <a href="azure-pbie-scale-capacity.md">Escalar vertical y horizontalmente</a></br>- <a href="azure-pbie-pause-start.md">Pausar y reanudar</a>
-</td>
-<td style="text-align: center;">Incrustar en aplicaciones y en</br> aplicaciones de Microsoft</td>
-<td style="text-align: center;">Incrustar en aplicaciones, así como en</br> la memoria y capacidad de computación</td>
+<td style="text-align: center">Los recursos de Azure se pueden:<li><a href="azure-pbie-scale-capacity.md">Escalar vertical y horizontalmente</a></li><li><a href="azure-pbie-pause-start.md">Pausar y reanudar</a>
+</td></li>
+<td style="text-align: center">Incrustar en aplicaciones y en</br> aplicaciones de Microsoft</td>
+<td style="text-align: center">Incrustar en aplicaciones, así como en</br> la memoria y capacidad de computación</td>
 </tr>
 </tbody>
 </table>
@@ -184,10 +132,10 @@ En la tabla siguiente se describen los recursos y los límites de cada SKU.
 
 | Nodos de capacidad | Total de núcleos virtuales | Núcleos virtuales de back-end | RAM (GB) | Núcleos virtuales de front-end | Límites de conexiones dinámicas/DirectQuery (por segundo) | Paralelismo de actualización de modelo |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3,75 | 1 |
+| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
-| EM3/A3 | T4 | 2 | 10 | 2 | 15 | T3 |
-| P1/A4 | 8 | T4 | 25 | T4 | 30 | 6 |
+| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
+| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | P4 | 64 | 32 | 200 | 32 | 240 | 48 |

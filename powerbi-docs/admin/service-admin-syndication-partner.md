@@ -1,6 +1,6 @@
 ---
 title: No se puede agregar Power BI al asociado de O365
-description: No se puede agregar Power BI a un asociado de redifusión web de Office 365. El modelo de redifusión web es un modelo de compra usado por Office 365.
+description: No se puede agregar Power BI a un asociado de redifusión web de Microsoft 365. El modelo de redifusión web es un modelo de compra usado por Microsoft 365.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 5907f23bb5bf1bcdc5a4ca3412e5331a09d145c9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344949"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812344"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>No se puede agregar Power BI a la suscripción de asociado de Office 365
 
-Office 365 permite a las empresas revender Office 365 empaquetado e integrado con sus propias soluciones, lo que proporciona a los clientes finales un único punto de contacto de compras, facturación y soporte técnico.
+Microsoft 365 permite a las empresas revender Microsoft 365 empaquetado e integrado con sus propias soluciones, lo que proporciona a los clientes finales un único punto de contacto de compras, facturación y soporte técnico.
 
 Si está interesado en adquirir Power BI, junto con su suscripción de Office 365, es recomendable que se ponga en contacto con su asociado para tal fin. Si su asociado no ofrece Power BI actualmente, existen diferentes opciones de compra.
 
@@ -52,13 +52,13 @@ Puede registrarse para obtener una evaluación gratuita de Power BI. Si no comp
 
 ### <a name="enable-ad-hoc-subscriptions"></a>Habilitar las suscripciones ad hoc
 
-De forma predeterminada, se deshabilitan los registros individuales, también conocidos como suscripciones ad hoc. En este caso, verá el mensaje siguiente al intentar registrarse: *El departamento de TI ha desactivado la suscripción de Microsoft Power BI*.
+De forma predeterminada, se deshabilitan los registros individuales, también conocidos como suscripciones ad hoc. En este caso, verá el siguiente mensaje cuando intente iniciar sesión: *El departamento de TI ha desactivado la suscripción de Microsoft Power BI*.
 
 ![Imagen para pedir disculpas](media/service-admin-syndication-partner/sorry.png)
 
 Para habilitar las suscripciones de ad hoc, puede ponerse en contacto con un asociado y solicitar su activación. Si es un administrador del inquilino y sabe cómo usar los comandos de PowerShell de Azure Active Directory, puede habilitar las suscripciones ad hoc usted mismo. [PowerShell de Azure Active Directory para Graph](/powershell/azure/active-directory/install-adv2/)
 
-1. Inicie sesión en Azure Active Directory con sus credenciales de Office 365. La primera línea del siguiente script le pide las credenciales. La segunda línea se conecta a Azure Active Directory.
+1. Inicie sesión en Azure Active Directory con sus credenciales de Microsoft 365. La primera línea del siguiente script le pide las credenciales. La segunda línea se conecta a Azure Active Directory.
 
     ```powershell
     $msolcred = get-credential
