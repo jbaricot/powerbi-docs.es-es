@@ -6,15 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/07/2020
+ms.date: 05/27/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 9f94d6a1b99bce40d3f901dd71877da3f6b236af
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f4f0bc5de0480748344fa029c774c4d262facc08
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792901"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159706"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 Este artículo está destinado a los clientes de la Administración Pública de Estados Unidos que implementan Power BI como parte de un plan de Microsoft 365 Administración Pública. Los planes de la Administración Pública están diseñados para las necesidades únicas de las organizaciones que deben cumplir los estándares de cumplimiento y seguridad de Estados Unidos. El servicio Power BI diseñado para los clientes de la Administración Pública de Estados Unidos es distinto de la versión comercial del servicio Power BI. Las funcionalidades y diferencias en las características se describen en las siguientes secciones.
@@ -97,7 +98,7 @@ Para adaptarse a los requisitos de los clientes en la nube de la Administración
 |Administración de datos|Puerta de enlace de administración de datos|Disponible|Disponible|Disponible|
 |  |Cifrado de datos en Azure SQL Database|Disponible|Disponible|Disponible|
 |  |Cifrado de datos en Blob Storage para Power BI|Disponible|Disponible|Disponible|
-|Integración entre productos|Inserción en SharePoint Online mediante el elemento web de Power BI|No disponible|No disponible|No disponible|
+|Integración entre productos|Inserción en SharePoint Online mediante el elemento web de Power BI|Disponible|No disponible|No disponible|
 |  |Inserción en SharePoint Online mediante el elemento web de Embed|Disponible|Disponible|Disponible|
 |  |Flujos de datos y funciones de IA|No disponible|No disponible|No disponible|
 |  |Conectividad de Power Automate para alertas orientadas a datos|No disponible|No disponible|No disponible|
