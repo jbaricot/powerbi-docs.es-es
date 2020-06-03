@@ -20,6 +20,8 @@
           href: custom-visual-develop-tutorial-format-options.md
         - name: Adición de pruebas unitarias para el proyecto de objetos visuales
           href: unit-tests-introduction.md
+        - name: Creación de un trazado de embudo a partir de un script de R para un elemento visual de R
+          href: funnel-plot-from-r.md
     - name: Conceptos
       items:
         - name: "Estructura de proyecto de objeto visual de Power\_BI"
