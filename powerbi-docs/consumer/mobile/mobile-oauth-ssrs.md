@@ -7,23 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
-ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 06/01/2020
+ms.openlocfilehash: 3ca896512103aa285170eadc8435003257e57ac3
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565727"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316095"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Usar OAuth para conectarse a Power BI Report Server y a SSRS
 
 Puede usar OAuth para conectarse a Power BI Report Server y a Reporting Services para mostrar informes móviles o KPI. Obtenga información sobre cómo configurar el entorno para admitir la autenticación de OAuth con la aplicación móvil de Power BI para conectarse a Power BI Report Server y a SQL Server Reporting Services 2016 o una versión posterior.
-
-Vea que Adam se conecta desde Power BI Mobile a SSRS mediante OAuth:
-
-
-<iframe width="560" height="350" src="https://www.youtube.com/embed/okzPAI2uUek" frameborder="0" allowfullscreen></iframe>
-
 
 > [!NOTE]
 > Ya se pueden ver informes de Power BI hospedados en Power BI Report Server mediante WAP para la autenticación en aplicaciones para iOS y Android.
@@ -134,7 +128,7 @@ Puede crear el grupo de aplicaciones mediante los pasos siguientes.
 
 13. Seleccione **Siguiente**.
 
-14. Haga clic en **Cerrar**.
+14. Seleccione **Cerrar**.
 
 Cuando haya finalizado, debería ver que las propiedades del grupo de aplicaciones tienen un aspecto similar al siguiente.
 
@@ -185,7 +179,7 @@ Para configurar la delegación restringida, deberá hacer lo siguiente.
 
     ![WAP restringido 04](media/mobile-oauth-ssrs/wap-contrained-delegation4.png)
 
-11. Haga clic en **Aceptar**.
+11. Seleccione **Aceptar**.
 
 ### <a name="add-wap-application"></a>Agregar la aplicación WAP
 
@@ -232,7 +226,7 @@ Cuando seleccione **Conectar**, se le dirigirá a la página de inicio de sesió
 
 Después de seleccionar **Iniciar sesión**, verá los elementos del servidor de Reporting Services.
 
-## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
+## <a name="multi-factor-authentication"></a>Autenticación multifactor
 
 Puede habilitar la autenticación multifactor para proporcionar seguridad adicional para su entorno. Para obtener más información, consulte [Configure AD FS 2016 and Azure MFA (Configurar AD FS 2016 y Azure MFA)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
@@ -254,5 +248,5 @@ Si el inicio de sesión funciona correctamente al usar Fiddler, puede que tenga 
 [Servicios de federación de Active Directory](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Web Application Proxy in Windows Server 2016 (Proxy de aplicación web en Windows Server 2016)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Publishing Applications using AD FS Preauthentication (Publicar aplicaciones usando la autenticación previa de AD FS)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[Configuración de AD FS 2016 y Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[Configure AD FS 2016 and Azure MFA (Configurar AD FS 2016 y Azure MFA)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

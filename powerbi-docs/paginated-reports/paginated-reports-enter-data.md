@@ -25,7 +25,7 @@ En este artículo, obtendrá información sobre una característica de la nueva 
 - Para guardar el informe paginado en el servicio Power BI, necesita una [cuenta de Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md) y acceso de escritura a un área de trabajo en una [capacidad Premium de Power BI](../admin/service-premium-what-is.md).
 - Para guardar el informe paginado en un servidor de informes, necesita permisos para [editar el archivo RsReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
-## <a name="get-started"></a>Introducción
+## <a name="get-started"></a>Comenzar
 
 Una vez que haya descargado e instalado el Generador de informes, siga el mismo flujo de trabajo que usa para agregar un origen de datos y un conjunto de datos insertados al informe. En el siguiente procedimiento, en **Orígenes de datos** verá una nueva opción: **Especificar datos**.  Solo tiene que configurar este origen de datos una vez en un informe. Después, puede crear varias tablas de datos especificados como conjuntos de datos independientes, todo ello con ese único origen de datos.
 

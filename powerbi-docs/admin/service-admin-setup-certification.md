@@ -44,4 +44,4 @@ La certificación de conjuntos de datos y flujos de datos forma parte de la *apr
 * [Certificación de los conjuntos de datos](../connect-data/service-datasets-certify.md)
 * [Promoción de flujos de datos](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
 * [Certificación de flujos de datos](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
-* ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

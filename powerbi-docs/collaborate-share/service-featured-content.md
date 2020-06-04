@@ -60,4 +60,4 @@ Ahora, todos los usuarios que tengan acceso a esta aplicación también la verá
 
 * [¿Cómo debo compartir paneles e informes y colaborar en ellos?](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Administración de contenido destacado en el portal de administración](../admin/service-admin-portal.md#manage-featured-content)
-* ¿Preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

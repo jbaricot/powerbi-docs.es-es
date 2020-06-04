@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: f74bfb92508564a01422729eefc251acc124baea
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: c3a3bd98dc65e3b73ffe04b95fa9001c90af1d53
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83692732"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315934"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Direcciones URL de Power BI para la inclusión en listas blancas
 [//]: # "suparnap y miwehnia son contactos para mantener esta lista"
@@ -46,14 +46,15 @@ Para usar Power BI de forma general, debe poder conectarse a los puntos de conex
 
 | Fila | Propósito | Destinos | Puertos |
 | --- | --- | --- | --- |
-| 1 | **Obligatorio:** API de back-end | *.analysis.windows.net | TCP 443 |
-| 2 | **Obligatorio:** API de back-end | *.pbidedicated.windows.net | TCP 443 |
-| 3 | **Obligatorio:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
-| 4 | **Obligatorio:** Integración de Microsoft 365 | Consulte la documentación para obtener las [direcciones URL de Microsoft 365 Common y Office Online](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online). | N/D |
-| 5 | **Obligatorio:** Portal | app.powerbi.com | TCP 443 |
-| 6 | **Obligatorio:** telemetría de servicio | dc.services.visualstudio.com | TCP 443 |
-| 7 | **Opcional:** mensajes informativos | dynmsg.modpim.com | TCP 443 |
-| 8 | **Opcional:** encuestas de NPS | nps.onyx.azure.net | TCP 443 |
+| 1 | **Obligatorio:** API de back-end | api.powerbi.com | TCP 443 |
+| 2 | **Obligatorio:** API de back-end | *.analysis.windows.net | TCP 443 |
+| 3 | **Obligatorio:** API de back-end | *.pbidedicated.windows.net | TCP 443 |
+| 4 | **Obligatorio:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
+| 5 | **Obligatorio:** Integración de Microsoft 365 | Consulte la documentación para obtener las [direcciones URL de Microsoft 365 Common y Office Online](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online). | N/D |
+| 6 | **Obligatorio:** Portal | app.powerbi.com | TCP 443 |
+| 7 | **Obligatorio:** telemetría de servicio | dc.services.visualstudio.com | TCP 443 |
+| 8 | **Opcional:** mensajes informativos | dynmsg.modpim.com | TCP 443 |
+| 9 | **Opcional:** encuestas de NPS | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Administración

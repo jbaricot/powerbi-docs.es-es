@@ -105,7 +105,7 @@ Puede hacerlo si importa los datos a Power BI Desktop. Si usa una conexión din�
 
 ### <a name="can-i-use-rls-to-limit-the-columns-or-measures-accessible-by-my-users"></a>¿Puedo usar RLS para limitar las columnas o medidas accesibles por mis usuarios? 
 
-Núm. Si un usuario tiene acceso a una fila de datos determinada, ese usuario puede ver todas las columnas de datos de esa fila. 
+No. Si un usuario tiene acceso a una fila de datos determinada, ese usuario puede ver todas las columnas de datos de esa fila. 
 
 ### <a name="does-rls-let-me-hide-detailed-data-but-give-access-to-data-summarized-in-visuals"></a>¿Permite RLS ocultar datos detallados pero dar acceso a datos resumidos en objetos visuales? 
 

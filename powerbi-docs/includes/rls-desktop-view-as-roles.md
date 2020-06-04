@@ -29,7 +29,7 @@ Después de haber creado los roles, pruebe sus resultados en Power BI Desktop.
 
    En Power BI Desktop, **Otro usuario** solo muestra otros resultados si usa la seguridad dinámica basada en las expresiones DAX. 
 
-5. Haga clic en **Aceptar**. 
+5. Seleccione **Aceptar**. 
 
    El informe se representará en función de lo que pueda ver ese usuario.
 

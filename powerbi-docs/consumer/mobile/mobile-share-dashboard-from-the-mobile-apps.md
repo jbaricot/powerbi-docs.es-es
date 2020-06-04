@@ -20,7 +20,7 @@ Se aplica a:
 
 | ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![Teléfono Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Tableta Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhones |iPad |Teléfonos Android |Tabletas Android |Dispositivos de Windows 10 |
+| iPhone |iPad |Teléfonos Android |Tabletas Android |Dispositivos de Windows 10 |
 
 >[!NOTE]
 >El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -59,7 +59,7 @@ Solo se puede dejar de compartir cuando se es el propietario.
     *  Desde un panel o un informe, pulse **Más opciones** (...) en la parte superior del panel o informe, y elija **Invite a un colega**.
     *  En la página principal de un panel o informe, pulse **Más opciones** (...) junto al nombre del panel o del informe y, después, pulse el icono **Compartir** ![icono Invitar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png) en la pestaña de información que aparece.
  
-2. Escriba direcciones de correo electrónico y un mensaje para acompañar su invitación del panel. En caso contrario, Power BI envía un mensaje predeterminado. Para volver a compartir, seleccione **Permitir a los destinatarios compartir este panel**. Volver a compartir permite que sus compañeros reenvíen la invitación de correo electrónico a otras personas de su organización, ya sea a través del explorador o de las aplicaciones móviles.
+2. Escriba direcciones de correo electrónico y un mensaje para acompañar su invitación del panel. En caso contrario, Power BI envía un mensaje predeterminado. Para volver a compartir, seleccione **Permitir a los destinatarios compartir este panel** . Volver a compartir permite que sus compañeros reenvíen la invitación de correo electrónico a otras personas de su organización, ya sea a través del explorador o de las aplicaciones móviles.
    
 3. Pulse el icono de **Enviar**![icono de Enviar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png) en la esquina superior derecha para enviar el correo.
    
@@ -88,7 +88,7 @@ Solo se puede dejar de compartir cuando se es el propietario.
    
    Si es el propietario del panel, verá la lista de compañeros con los que ha compartido este panel o informe.
 
-2. Escriba direcciones de correo electrónico y un mensaje para acompañar a la invitación. En caso contrario, Power BI envía un mensaje predeterminado. Para volver a compartir, seleccione **Permitir a los destinatarios compartir este panel**. Con la opción de volver a compartir, sus compañeros pueden compartir con otras personas de su organización, ya sea a través del explorador o de las aplicaciones móviles.
+2. Escriba direcciones de correo electrónico y un mensaje para acompañar a la invitación. En caso contrario, Power BI envía un mensaje predeterminado. Para volver a compartir, seleccione **Permitir a los destinatarios compartir este panel** . Con la opción de volver a compartir, sus compañeros pueden compartir con otras personas de su organización, ya sea a través del explorador o de las aplicaciones móviles.
    
 3. Pulse el icono de **Enviar**![icono de Enviar](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png).
    
@@ -102,4 +102,4 @@ Solo se puede dejar de compartir cuando se es el propietario.
 ## <a name="next-steps"></a>Pasos siguientes
 * [Anotación y uso compartido de instantáneas de iconos, informes u objetos visuales en las aplicaciones móviles](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Compartir un panel o informe en Power BI](../../collaborate-share/service-share-dashboards.md)
-* ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
