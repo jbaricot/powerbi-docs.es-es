@@ -9,12 +9,12 @@ metadata:
   author: loreleishannonmsft
   ms.author: v-lshann
   ms.date: 04/08/2020
-  ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: c53b6e74933557937f4a9449925199d6325f78e3
+  ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439305"
+  ms.lasthandoff: 06/04/2020
+  ms.locfileid: "84427817"
 landingContent:
 - title: Responsables de toma de decisiones empresariales
   linkLists:
@@ -34,11 +34,11 @@ landingContent:
     links:
     - text: Catálogo de cursos para creadores de informes
       url: learning-catalog-report-creator.md#
-    - text: Introducción
+    - text: Comenzar
       url: learning-catalog-report-creator.md#get-started
     - text: Paneles
       url: learning-catalog-report-creator.md#dashboards
-    - text: Diseño de informes
+    - text: Diseño del informe
       url: learning-catalog-report-creator.md#report-design
     - text: Visualización
       url: learning-catalog-report-creator.md#visualization
@@ -50,7 +50,7 @@ landingContent:
     links:
     - text: Catálogo de cursos para analistas de datos
       url: learning-catalog-data-analyst.md#
-    - text: Introducción
+    - text: Comenzar
       url: learning-catalog-data-analyst.md#get-started
     - text: Procedimientos recomendados
       url: learning-catalog-data-analyst.md#best-practices
@@ -60,6 +60,8 @@ landingContent:
       url: learning-catalog-data-analyst.md#dashboards
     - text: Visualizaciones
       url: learning-catalog-data-analyst.md#visualizations
+    - text: DAX
+      url: learning-catalog-data-analyst.md#dax
     - text: Gobernanza e implementación
       url: learning-catalog-data-analyst.md#governance-deployment
     - text: Integración
@@ -72,9 +74,9 @@ landingContent:
     links:
     - text: Catálogo de aprendizaje para administradores
       url: learning-catalog-administrator.md
-    - text: Introducción
+    - text: Comenzar
       url: learning-catalog-administrator.md#get-started
-    - text: Implementación
+    - text: Implementar
       url: learning-catalog-administrator.md#deploy
 - title: Desarrolladores
   linkLists:
@@ -82,12 +84,10 @@ landingContent:
     links:
     - text: Catálogo de aprendizaje para desarrolladores
       url: learning-catalog-developer.md
-    - text: Introducción
+    - text: Comenzar
       url: learning-catalog-developer.md#get-started
     - text: Insertado
       url: learning-catalog-developer.md#embedded
-    - text: DAX
-      url: learning-catalog-developer.md#dax
     - text: Desarrollo
       url: learning-catalog-developer.md#development
 - title: Roles de preventas de asociados
@@ -102,7 +102,7 @@ landingContent:
     links:
     - text: Catálogo de aprendizaje para asesores de aplicaciones funcionales
       url: learning-catalog-functional-consultant.md
-    - text: Introducción
+    - text: Comenzar
       url: learning-catalog-functional-consultant.md#get-started
     - text: Procedimientos recomendados
       url: learning-catalog-functional-consultant.md#best-practices
@@ -124,7 +124,7 @@ landingContent:
     links:
     - text: Catálogo de cursos para arquitectos de soluciones
       url: learning-catalog-solution-architect.md
-    - text: Introducción
+    - text: Comenzar
       url: learning-catalog-solution-architect.md#get-started
     - text: Casos prácticos
       url: learning-catalog-solution-architect.md#case-studies
