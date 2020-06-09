@@ -8,18 +8,18 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 04/28/2020
+ms.date: 06/03/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 166f5abb2e773ebdbdce552b4dd2fff99b3142f8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cde97805519a800fc98668cb523db92f0276b06d
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302285"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336989"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse con DirectQuery
 
-Azure SQL Data Warehouse con DirectQuery permite crear informes dinámicos en función de los datos y métricas que ya existen en Azure SQL Data Warehouse. Con DirectQuery, las consultas se vuelven a enviar a Azure SQL Data Warehouse en tiempo real a medida que explora los datos. Las consultas en tiempo real, combinadas con el escalado de SQL Data Warehouse, permiten a los usuarios crear informes dinámicos en cuestión de minutos con terabytes de datos. Además, la incorporación del botón **Abrir en Power BI** permite a los usuarios conectar directamente Power BI co SQL Data Warehouse sin tener que especificar manualmente la información.
+Azure SQL Data Warehouse con DirectQuery permite crear informes dinámicos en función de los datos y métricas que ya existen en Azure SQL Data Warehouse. Con DirectQuery, las consultas se vuelven a enviar a Azure SQL Data Warehouse en tiempo real a medida que explora los datos. Las consultas en tiempo real, combinadas con el escalado de SQL Data Warehouse, permiten a los usuarios crear informes dinámicos en cuestión de minutos con terabytes de datos. Además, el vínculo **Creación de paneles e informes** permite a los usuarios crear informes de Power BI con su instancia de SQL Data Warehouse.
 
 Cuando use el conector de SQL Data Warehouse:
 
@@ -28,65 +28,49 @@ Cuando use el conector de SQL Data Warehouse:
 * Cada acción, como seleccionar una columna o agregar un filtro, enviará directamente una consulta al almacenamiento de datos.
 * Los iconos se configuran para actualizarse aproximadamente cada 15 minutos y no es necesario programar la actualización.  La actualización se puede ajustar en la configuración avanzada al conectarse.
 * Preguntas y respuestas no está disponible para conjuntos de datos de DirectQuery.
-* los cambios de esquema no se recogen automáticamente
+* Los cambios de esquema no se detectan automáticamente
 
-Estas restricciones y notas pueden cambiar mientras seguimos mejorando las experiencias. A continuación, se detallan los pasos para conectarse.
+Estas restricciones y notas pueden cambiar mientras se sigue mejorando la experiencia. A continuación, se detallan los pasos para conectarse.
 
-## <a name="using-the-open-in-power-bi-button"></a>Uso del botón "Abrir en Power BI"
+## <a name="build-dashboards-and-reports-in-power-bi"></a>Creación de paneles e informes en Power BI
 
 > [!Important]
-> Hemos mejorado la conectividad con Azure SQL Data Warehouse.  Use Power BI Desktop para disfrutar de la mejor experiencia de conexión al origen de datos de Azure SQL Data Warehouse.  Una vez creados el modelo y el informe, puede publicarlos en el servicio Power BI.  Ahora, el conector directo de Azure SQL Data Warehouse en el servicio Power BI está en desuso.
+> Hemos mejorado la conectividad con Azure SQL Data Warehouse. Use Power BI Desktop para disfrutar de la mejor experiencia de conexión al origen de datos de Azure SQL Data Warehouse. Una vez creados el modelo y el informe, puede publicarlos en el servicio Power BI. El conector directo de Azure SQL Data Warehouse en el servicio Power BI ya no está disponible.
 
-La manera más sencilla de cambiar entre SQL Data Warehouse y Power BI es con el botón **Abrir en Power BI** en Azure Portal. Este botón le permite comenzar a crear sin ningún problema nuevos paneles en Power BI.
+La manera más sencilla de cambiar entre SQL Data Warehouse y Power BI consiste en crear informes en Power BI Desktop. Puede usar el botón **Creación de paneles e informes** de Azure Portal.
 
-1. Para comenzar, vaya a su la instancia de SQL Data Warehouse en Azure Portal. Tenga en cuenta que SQL Data Warehouse solo está presente en Azure Portal en este momento.
+1. Para empezar, descargue e instale Power BI Desktop. Vea el artículo [Obtención de Power BI Desktop](../fundamentals/desktop-get-the-desktop.md) para obtener información sobre la descarga e instalación, o bien vaya directamente al paso siguiente.
 
-2. Haga clic en el botón **Abrir en Power BI** .
+2. También puede hacer clic en el vínculo **Creación de paneles e informes** para descargar Power BI Desktop.
 
-    ![Abrir en Power BI](media/service-azure-sql-data-warehouse-with-direct-connect/openinpowerbi.png)
+    ![Abrir en Power BI](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-01.png)
 
-3. Si no es posible iniciar sesión directamente o si no dispone de una cuenta de Power BI, deberá iniciar sesión.
 
-4. Se le redirigirá a la página de conexión de SQL Data Warehouse, con la información de SQL Data Warehouse previamente completada. Especifique sus credenciales y seleccione la opción de conexión para crear una conexión.
+## <a name="connecting-through-power-bi-desktop"></a>Conexión a través de Power BI Desktop
 
-## <a name="connecting-through-power-bi"></a>Conexión a través de Power BI
+Puede conectarse a una instancia de SQL Data Warehouse mediante el botón **Obtener datos** de Power BI Desktop. 
 
-SQL Data Warehouse también se muestra en la página Obtener datos de Power BI. 
+1. Seleccione el botón **Obtener datos** en el menú **Inicio**.  
 
-1. Seleccione **Obtener datos** en la parte inferior del panel de navegación.  
+    ![Botón Obtener datos](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-02.png)
 
-    ![Botón Obtener datos](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
+2. Seleccione **Más...** para ver todos los orígenes de datos disponibles. En la ventana que aparece, seleccione **Azure** en el panel de la izquierda y después **Azure SQL Data Warehouse** en la lista de conectores disponibles en el panel de la derecha.
 
-2. En **Bases de datos**, seleccione **Obtener**.
+    ![Orígenes de datos de Azure](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-03.png)
 
-    ![Bases de datos](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
+3. En la ventana que aparece, escriba el servidor y, opcionalmente, indique la base de datos a la que se quiere conectar. También puede seleccionar el modo de conectividad de datos: Importar o DirectQuery. Para acceder en tiempo real a la información de la instancia de Azure SQL Data Warehouse, use DirectQuery.
 
-3. Seleccione **SQL Data Warehouse** \> **Conectar**.
+    ![Azure SQL Data Warehouse con conexión directa](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-04.png)
 
-    ![Azure SQL Data Warehouse con conexión directa](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+4. Para ver las opciones avanzadas de la conexión Azure SQL Data Warehouse, seleccione la flecha hacia abajo situada junto a **Opciones avanzadas** para mostrar opciones adicionales para la conexión.
 
-4. Escriba la información necesaria para conectarse. En la sección **Búsqueda de parámetros** siguiente se muestra dónde se encuentran estos datos en Azure Portal.
+    ![Nombre del servidor](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-05.png)
 
-    ![Nombre del servidor](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
-
-    ![Opciones avanzadas de Nombre del servidor](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
-
-    ![Nombre de usuario](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
-
-   > [!NOTE]
-   > El nombre de usuario será un usuario definido en la instancia de Azure SQL Data Warehouse.
-
-5. Profundice en el conjunto de datos seleccionando el nuevo icono o el conjunto de datos recién creado, indicado por un asterisco. Este conjunto de datos tendrá el mismo nombre que la base de datos.
-
-    ![Conjunto de datos 2](media/service-azure-sql-data-warehouse-with-direct-connect/dataset2.png)
-
-6. Puede explorar todas las tablas y columnas. Si selecciona una columna enviará una consulta al origen y se creará dinámicamente el objeto visual. Los filtros también se volverán a transformar en consultas en el almacenamiento de datos. Estos elementos visuales pueden guardarse en un informe nuevo y anclarse de nuevo al panel.
-
-    ![Explorar 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+En la sección siguiente se describe cómo buscar valores de parámetro para la conexión. 
 
 ## <a name="finding-parameter-values"></a>Buscar valores de parámetro
 
-El nombre completo del servidor y el nombre de la base de datos pueden encontrarse en Azure Portal. Tenga en cuenta que SQL Data Warehouse solo está presente en Azure Portal en este momento.
+El nombre completo del servidor y el nombre de la base de datos pueden encontrarse en Azure Portal. Tenga en cuenta que SQL Data Warehouse solo está presente en Azure Portal en este momento.
 
 ![Azure Portal](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
@@ -97,6 +81,7 @@ El nombre completo del servidor y el nombre de la base de datos pueden encontrar
 
 ## <a name="next-steps"></a>Pasos siguientes
 
+* [Acerca del uso de DirectQuery en Power BI](desktop-directquery-about.md)
 * [¿Qué es Power BI?](../fundamentals/power-bi-overview.md)  
 * [Obtener datos para Power BI](service-get-data.md)  
 * [Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)

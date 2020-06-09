@@ -6,19 +6,22 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 05/29/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 3544a5330a21036e0ddecb351fd67b424ca6ebc7
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cceeb3c874bf3320b7c826790c46b4cafd6d45a2
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348882"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219483"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Habilitación de Preguntas y respuestas en Power BI
-## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>¿Qué es la puerta de enlace de datos local?  ¿Qué es una conexión dinámica?
-Los conjuntos de datos de Power BI se pueden importar a Power BI, o bien puede crear una conexión dinámica con ellos. Con frecuencia, los conjuntos de datos de conexión dinámica se conocen como "locales". Las conexiones dinámicas se administran mediante una [puerta de enlace](../connect-data/service-gateway-onprem.md) y los datos y las consultas se envían de un lado a otro mediante consultas dinámicas.
+
+Puede importar los conjuntos de datos a Power BI, o bien puede crear una *conexión dinámica* a ellos. Con frecuencia, los conjuntos de datos de conexión dinámica están en el entorno local. En ese caso, puede administrar las conexiones dinámicas mediante una [puerta de enlace](../connect-data/service-gateway-onprem.md). Los datos y las consultas se envían a través de consultas dinámicas.
+
+> [!NOTE]
+> Las conexiones dinámicas también admiten conjuntos de datos de Azure Analysis Services, que no requieren una puerta de enlace.
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>Preguntas y respuestas acerca de los conjuntos de datos de la puerta de enlace de datos local
 Si quiere usar Preguntas y respuestas con los conjuntos de datos a los que tiene acceso a través de una puerta de enlace, primero debe habilitarlos.
@@ -62,7 +65,7 @@ La característica tiene algunas limitaciones:
 
 - [Puerta de enlace de datos local](../connect-data/service-gateway-onprem.md)  
 - [Administrar el origen de datos: Analysis Services](../connect-data/service-gateway-enterprise-manage-ssas.md)  
-- [Conceptos básicos para diseñadores en el servicio Power BI](../fundamentals/service-basic-concepts.md)  
+- [Conceptos básicos para los diseñadores en el servicio Power BI](../fundamentals/service-basic-concepts.md)  
 - [Introducción a Preguntas y respuestas de Power BI](../consumer/end-user-q-and-a.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

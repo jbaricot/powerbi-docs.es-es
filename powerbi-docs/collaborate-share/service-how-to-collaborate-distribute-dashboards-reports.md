@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c71467a279ed3a2304d6af82f7493dac97425c4f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 68ead14063c290c8ec9db5cb24814b93e493ea6b
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348100"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272963"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Formas de compartir el trabajo en Power BI
 
@@ -82,7 +82,7 @@ Supongamos que ha finalizado un panel y un informe en su propia área de trabajo
 
 ![Uso compartido de un informe](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
-Para compartir el contenido necesitará una licencia de Power BI Pro (y aquellos con quienes lo comparta, también) o que el contenido esté en un área de trabajo de una [capacidad Premium](../admin/service-premium-what-is.md). Cuando comparte un panel o un informe con otras personas, los destinatarios pueden verlo e interactuar con él, pero no pueden modificarlo. Ellos ven los mismos datos que usted ve en el panel y en los informes, a menos que se aplique la seguridad de nivel de fila (RLS) al conjunto de datos subyacente. Los compañeros con los que los comparte pueden compartirlos a su vez con sus propios compañeros, si tienen permiso para hacerlo. 
+Para compartir el contenido necesitará una licencia de Power BI Pro (y aquellos con quienes lo comparta, también) o que el contenido esté en un área de trabajo de una [capacidad Premium](../admin/service-premium-what-is.md). Cuando comparte un panel o un informe con otras personas, los destinatarios pueden verlo e interactuar con él, pero no pueden modificarlo. Ven los mismos datos que usted ve en el panel o informe, y tienen acceso a todos los datos del conjunto de datos subyacente, a menos que se aplique la [seguridad de nivel de fila (RLS)](../admin/service-admin-rls.md). Los compañeros con los que los comparte pueden compartirlos a su vez con sus propios compañeros, si tienen permiso para hacerlo. 
 
 También puede compartir con usuarios que no pertenezcan a su organización. Pueden ver el panel o el informe e interactuar con él, pero no pueden compartirlo. 
 

@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/26/2019
+ms.date: 06/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7c9ba490a2cc30d42fee4f2317dbf5d4026ab59a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1ff21d0508889fecda5022edb0e48714c8be3ed6
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83299709"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337105"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Actualización automática de la página en Power BI Desktop (versión preliminar)
 
@@ -25,7 +25,7 @@ La característica de actualización automática de páginas de Power BI permit
 
 ## <a name="using-automatic-page-refresh"></a>Usar la actualización automática de páginas
 
-En esta versión preliminar, la característica de actualización automática de páginas se debe habilitar en Power BI Desktop. Vaya a **Archivo > Opciones y configuración**, seleccione **Opciones** y, después, seleccione **Características de versión preliminar** en el panel izquierdo. Para habilitar la característica, active la casilla situada junto *Actualización automática de páginas*. La actualización automática de páginas solo está disponible en orígenes de datos de DirectQuery.
+En esta versión preliminar, la característica de actualización automática de páginas se debe habilitar en Power BI Desktop. Vaya a **Archivo > Opciones y configuración**, seleccione **Opciones** y, después, seleccione **Características de versión preliminar** en el panel izquierdo. Para habilitar la característica, active la casilla situada junto *Actualización automática de páginas*. La actualización automática de páginas *solo* está disponible para orígenes de datos de DirectQuery.
 
 Para usar la actualización automática de páginas, seleccione la página del informe donde quiera habilitar la actualización. En el panel **Visualizaciones**, seleccione el icono **Formato** (un rodillo de pintura) y busque **Actualización de página** cerca de la parte inferior del panel. 
 
@@ -121,15 +121,15 @@ Estos son algunos detalles de estos dos escenarios de área de trabajo:
 
  1. *Activación/desactivación de la característica*: si el administrador de la capacidad ha decidido deshabilitar la característica, no se podrá configurar ningún tipo de actualización de página en el informe publicado.
 
- 2. *Intervalo de actualización mínimo*: al habilitar la característica, el administrador de la capacidad debe configurar un intervalo de actualización mínimo. Si su intervalo es inferior al mínimo, el servicio Power BI lo invalida para respetar el intervalo mínimo establecido por el administrador de la capacidad.
+ 2. *Intervalo de actualización mínimo*: al habilitar la característica, el administrador de la capacidad debe configurar un intervalo de actualización mínimo. Si el intervalo es inferior al mínimo, el servicio Power BI lo *invalida* para respetar el intervalo mínimo establecido por el administrador de la capacidad. Esa invalidación se conoce como *Invalidación de la administración de capacidad* en la tabla siguiente. 
 
-En la siguiente tabla se describe con más detalle dónde está disponible esta característica, así como los límites de cada tipo de capacidad y [modo de almacenamiento](../connect-data/service-dataset-modes-understand.md).
+En la tabla siguiente se describe con más detalle dónde está disponible esta característica, así como los límites de cada tipo de capacidad y [modo de almacenamiento](../connect-data/service-dataset-modes-understand.md):
 
 | Modo de almacenamiento | Capacidad dedicada | Capacidad compartida |
 | --- | --- | --- |
 | Direct Query | **Admitida**: sí. <br>**Intervalo de actualización mínimo**: 1 segundo. <br>**Invalidación de la administración de capacidad**: sí. | **Admitida**: sí. <br>**Intervalo de actualización mínimo**: 30 minutos. <br>**Invalidación de la administración de capacidad**: no. |
 | Importación | **Admitida**: no. <br>**Intervalo de actualización mínimo**: no procede. <br>**Invalidación de la administración de capacidad**: no procede. | **Admitida**: no. <br>**Intervalo de actualización mínimo**: no procede. <br>**Invalidación de la administración de capacidad**: no procede. |
-| Modo mixto (DirectQuery+otros) | **Admitida**: sí. <br>**Intervalo de actualización mínimo**: 1 segundo. <br>**Invalidación de la administración de capacidad**: sí. | **Admitida**: sí. <br>**Intervalo de actualización mínimo**: 30 minutos. <br>**Invalidación de la administración de capacidad**: no. |
+| Modo mixto (DirectQuery y otros orígenes de datos) | **Admitida**: sí. <br>**Intervalo de actualización mínimo**: 1 segundo. <br>**Invalidación de la administración de capacidad**: sí. | **Admitida**: sí. <br>**Intervalo de actualización mínimo**: 30 minutos. <br>**Invalidación de la administración de capacidad**: no. |
 | Live Connect AS | **Admitida**: no. <br>**Intervalo de actualización mínimo**: no procede. <br>**Invalidación de la administración de capacidad**: no procede. | **Admitida**: no. <br>**Intervalo de actualización mínimo**: no procede. <br>**Invalidación de la administración de capacidad**: no procede. |
 | Live Connect PBI | **Admitida**: no. <br>**Intervalo de actualización mínimo**: no procede. <br>**Invalidación de la administración de capacidad**: no procede. | **Admitida**: no. <br>**Intervalo de actualización mínimo**: no procede. <br>**Invalidación de la administración de capacidad**: no procede. |
 
@@ -186,7 +186,7 @@ En esta sección se proporcionan preguntas y respuestas comunes sobre el asunto 
     * La configuración de la actualización automática de páginas establecida en la interfaz de usuario de administración de la capacidad tarda hasta 5 minutos en propagarse a los informes.
     * Aparte de activar la actualización automática de páginas de la capacidad, también hay que activarla en las páginas del informe donde quiera ver reflejada la actualización.
 
-3. Mi informe funciona en modo mixto (DirectQuery+Importación). No todos los objetos visuales se están actualizando.
+3. El informe funciona en modo mixto (significa que tiene una conexión DirectQuery y un origen de datos de importación). No todos los objetos visuales se están actualizando.
 
     * Si los objetos visuales hacen referencia a las tablas de importación, esto entra dentro de lo previsto. La actualización automática de páginas no se admite en el modo de importación.
     * Vea la pregunta 1 de esta sección.
@@ -211,6 +211,7 @@ En esta sección se proporcionan preguntas y respuestas comunes sobre el asunto 
 Para más información, consulte los siguientes artículos:
 
 * [Uso de DirectQuery en Power BI](../connect-data/desktop-directquery-about.md)
+* [Usar modelos compuestos en Power BI Desktop](../transform-model/desktop-composite-models.md)
 * [Usar el Analizador de rendimiento para examinar el rendimiento de los elementos de informe](desktop-performance-analyzer.md)
 * [Implementación y administración de las capacidades de Power BI Premium](../guidance/whitepaper-powerbi-premium-deployment.md)
 * [Orígenes de datos en Power BI Desktop](../connect-data/desktop-data-sources.md)

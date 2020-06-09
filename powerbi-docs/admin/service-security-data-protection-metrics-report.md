@@ -6,34 +6,34 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/23/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: e16acffd683b14eb48a6e21ddc456caeac25efc3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdc246d1edb487ce7280ceee8a3727d2faeb0252
+ms.sourcegitcommit: 12f26ae9a2615cb287fee9046b0dc713af764c04
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131997"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "84229075"
 ---
-# <a name="data-protection-metrics-report-preview"></a>Informe de métricas de protección de datos (versión preliminar)
+# <a name="data-protection-metrics-report"></a>Informe de métricas de protección de datos
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>¿Qué es el informe de métricas de protección de datos?
-El informe de métricas de protección de datos es un informe dedicado que los [administradores de Power BI](../admin/service-admin-role.md) pueden usar para supervisar el uso y la adopción de etiquetas de confidencialidad de datos en su inquilino y realizar un seguimiento.
+El informe de métricas de protección de datos es un informe dedicado que los [administradores de Power BI](../service-admin-role.md) pueden usar para supervisar el uso y la adopción de etiquetas de confidencialidad de datos en su inquilino y realizar un seguimiento.
 
 ![Informe de métricas de protección de datos](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
 El informe incluye lo siguiente:
 * Gráfico de columnas 100 % apiladas en el que se muestra el uso diario de las etiquetas de confidencialidad en el inquilino para los últimos 7, 30 o 90 días. Este gráfico facilita el seguimiento del uso relativo de los distintos tipos de etiqueta a lo largo del tiempo.
 * Gráficos de anillos en los que se muestra el estado actual del uso de las etiquetas de confidencialidad en el inquilino para los paneles, los informes, los conjuntos de datos y los flujos de datos.
-* Vínculo al portal de Cloud App Security en el que hay alertas relativas a Power BI, los usuarios en riesgo, los registros de actividad y otra información. Para obtener más información, vea [Uso de controles de Microsoft Cloud App Security en Power BI (versión preliminar)](./service-security-using-microsoft-cloud-app-security-controls.md).
+* Vínculo al portal de Cloud App Security en el que hay alertas relativas a Power BI, los usuarios en riesgo, los registros de actividad y otra información. Para obtener más información, vea [Uso de controles de Microsoft Cloud App Security en Power BI](./service-security-using-microsoft-cloud-app-security-controls.md).
 
 El informe se actualiza cada 24 horas.
 
 ## <a name="viewing-the-data-protection-metrics-report"></a>Visualización del informe de métricas de protección de datos
 
-Para abrir y ver el informe, debe tener un [rol de administrador de Power BI](../admin/service-admin-role.md).
-Para ver el informe, vaya a **Configuración > Portal de administración** y elija **Métricas de protección (versión preliminar)** .
+Para abrir y ver el informe, debe tener un [rol de administrador de Power BI](../service-admin-role.md).
+Para ver el informe, vaya a **Configuración > Portal de administración** y elija **Métricas de protección**.
 
 ![Portal de administración de métricas de protección](./media/service-security-data-protection-metrics-report/protection-metrics-admin-portal.png)
  
@@ -51,9 +51,9 @@ Periódicamente se publican versiones mejoradas del informe de métricas de prot
 * Para acceder a la información de Cloud App Security, la organización debe tener la [licencia de Cloud App Security](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing) adecuada.
 * Si decide compartir información del informe de métricas de protección de datos con un usuario que no sea un administrador de Power BI, recuerde que este informe contiene información confidencial sobre la organización.
 * El informe de métricas de protección de datos es un tipo especial de informe y no se muestra en las listas "Compartido conmigo", "Recientes" ni "Favoritos".
-* El informe de métricas de protección de datos no está disponible para [usuarios externos (usuarios invitados de Azure Active Directory B2B)](../admin/service-admin-azure-ad-b2b.md).
+* El informe de métricas de protección de datos no está disponible para [usuarios externos (usuarios invitados de Azure Active Directory B2B)](../service-admin-azure-ad-b2b.md).
 ## <a name="next-steps"></a>Pasos siguientes
-* [Protección de datos en Power BI (versión preliminar)](./service-security-data-protection-overview.md)
-* [Uso de controles de Microsoft Cloud App Security en Power BI (versión preliminar)](./service-security-using-microsoft-cloud-app-security-controls.md)
-* [Descripción del rol Administrador del servicio Power BI](../admin/service-admin-role.md)
-* [Habilitación de etiquetas de confidencialidad de datos en Power BI](./service-security-enable-data-sensitivity-labels.md)
+* [Protección de datos en Power BI](./service-security-data-protection-overview.md)
+* [Uso de controles de Microsoft Cloud App Security en Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
+* [Descripción del rol Administrador del servicio Power BI](service-admin-role.md)
+* [Habilitación de etiquetas de confidencialidad de datos en Power BI](service-security-enable-data-sensitivity-labels.md)

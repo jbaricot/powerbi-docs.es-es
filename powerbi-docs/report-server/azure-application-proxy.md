@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/06/2020
+ms.date: 05/27/2020
 ms.author: maggies
-ms.openlocfilehash: 548e66685c7b460829e171d097d18640cd5b0f57
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3bd792c585f42add6652205a6e4a99fe116ad20f
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922606"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159844"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Configuración de Power BI Report Server con Azure Application Proxy
 
@@ -166,7 +166,10 @@ Hemos configurado la dirección URL externa `https://pbirsazureapp-umacontoso241
 
 ![Grupo de conectores predeterminado](media/azure-application-proxy/report-server-application-proxy-1.png)
 
-No hemos realizado ningún cambio en la sección **Configuración adicional**. Está definida para funcionar con las opciones predeterminadas:
+No hemos realizado ningún cambio en la sección **Configuración adicional**. Está configurada para funcionar con las opciones predeterminadas.
+
+> [!IMPORTANT]
+> Al configurar el proxy de aplicación, tenga en cuenta que la propiedad **Tiempo de espera de las aplicaciones de back-end** está establecida en **Predeterminado** (85 segundos). Si tiene informes que tardan más de 85 segundos en ejecutarse, establezca esta propiedad en **Largo** (180 segundos), que es el valor de tiempo de espera más alto posible. Cuando se configura en **Largo**, todos los informes se deben completar en 180 segundos o se agota el tiempo de espera y se produce un error.
 
 ![Configuración adicional](media/azure-application-proxy/report-server-application-proxy-1.png)
 

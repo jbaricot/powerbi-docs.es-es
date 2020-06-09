@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279765"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273908"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Guía para la configuración de la administración de inquilinos
 
@@ -44,7 +44,7 @@ Estas direcciones URL estarán disponibles como vínculos en el menú de ayuda d
 ![Se muestra la opción "Publicar información de 'Obtener ayuda'".](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>Administración de los riesgos.
-
+La configuración para administrar los riesgos puede ayudarle a establecer directivas de gobernanza en el inquilino de Power BI. Pero tenga en cuenta que la configuración de gobernanza no es una medida de seguridad. Por ejemplo, al deshabilitar la configuración **Exportar datos** se quita la característica de la interfaz de usuario de Power BI y, de este modo, los usuarios de Power BI pueden trabajar de acuerdo con las directivas de gobernanza de la organización, pero no se impide que algunos usuarios exporten datos mediante otras opciones. Desde un punto de vista de la seguridad, un usuario de Power BI con acceso de lectura a un conjunto de datos tiene permiso para consultarlo y puede conservar los resultados con independencia de las características disponibles en la interfaz de usuario de Power BI.
 ### <a name="receive-email-notification-service-outages-or-incidents"></a>Recepción de notificaciones por correo electrónico sobre interrupciones o incidentes en el servicio
 
 Puede recibir una notificación por correo electrónico si el inquilino se ve afectado por un incidente o una interrupción del servicio. De este modo, puede responder a los incidentes de forma proactiva.
@@ -86,7 +86,7 @@ Se recomienda que asigne uno o varios grupos de seguridad. Se puede conceder _o 
 
 ![Se muestra la opción "Compartir contenido con usuarios externos".](media/admin-tenant-settings/share-content-with-external-users.png)
 
-### <a name="publish-to-web"></a>Publicar en web
+### <a name="publish-to-web"></a>Publicar en Web
 
 La característica [Publicar en Web](../collaborate-share/service-publish-to-web.md) permite publicar informes públicos en la Web. Si se usa incorrectamente, existe el riesgo de que la información confidencial esté disponible en la Web.
 
@@ -100,7 +100,7 @@ Además, hay una opción para elegir cómo funcionan los códigos para insertar.
 
 También se recomienda que revise regularmente los [códigos para insertar de Publicar en Web](https://app.powerbi.com/admin-portal/embedCodes). Quite los códigos si provocan la publicación de información privada o confidencial.
 
-### <a name="export-data"></a>Exportación de datos
+### <a name="export-data"></a>Exportar datos
 
 Puede impedir que los usuarios exporten datos de los iconos del panel o los objetos visuales del informe.
 
@@ -126,7 +126,7 @@ Si necesita autorizar que usuarios externos editen y administren contenido, se r
 
 ![Se muestra la opción "Permitir a los usuarios externos editar y administrar el contenido de la organización".](media/admin-tenant-settings/allow-external-guest-users.png)
 
-### <a name="developer-settings"></a>Configuración del desarrollador
+### <a name="developer-settings"></a>Configuración de desarrollador
 
 Hay dos configuraciones de inquilinos relacionadas con la [inserción de contenido de Power BI](../developer/embedded/embedding.md). Son las siguientes:
 
@@ -143,6 +143,6 @@ Para obtener más información sobre este artículo, consulte los recursos sigui
 
 - [¿Qué es la administración de Power BI?](../admin/service-admin-administering-power-bi-in-your-organization.md)
 - [Administración de Power BI en el portal de administración](../admin/service-admin-portal.md)
-- ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com)
 

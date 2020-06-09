@@ -8,21 +8,23 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bab0eba6e2ae3d0ec8ede57f9875385dbb26a60a
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812229"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159867"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Registro en Power BI con una nueva prueba de Microsoft 365
 
-En este artículo se describe una manera alternativa de registrarse en Power BI si todavía no tiene una cuenta de correo electrónico profesional o educativa.
+En este artículo se describe una manera alternativa de registrarse en el servicio Power BI si todavía no tiene una cuenta de correo electrónico profesional o educativa.
 
 Si tiene problemas para registrarse en Power BI con su dirección de correo electrónico, primero debe asegurarse de que se trata de una [dirección de correo electrónico que se puede usar con Power BI](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses). Si no es apropiada, regístrese para obtener una versión de prueba de Microsoft 365 y crear una cuenta profesional. Después, use esa nueva cuenta profesional para registrarse en el servicio Power BI. Podrá usar Power BI incluso después de que expire la versión de prueba de Microsoft 365.
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Registro para obtener una evaluación de Microsoft 365 de Office
+
 Regístrese para obtener una versión de prueba de Microsoft 365 en el [sitio web de Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans). Si aún no tiene una cuenta, Microsoft le guiará a través de los pasos necesarios para crear una. Puesto que las cuentas de correo electrónico comerciales (como hotmail y gmail) no funcionarán con Microsoft 365, creará una cuenta que lo hará.  Esta cuenta de correo electrónico tendrá una apariencia similar a *zalan@onmicrosoft.com* .
 
 ![Selección de Pruébelo gratis](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)

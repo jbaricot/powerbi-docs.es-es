@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d094e3411bd5b8bef9b4a8f488412d903723a703
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: cf971de1a60636def852080a523c227f08b4f888
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733563"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272940"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Uso compartido de informes y paneles de Power BI con compañeros y otros usuarios
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir los paneles e informes](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -26,7 +26,7 @@ Con el uso compartido, si comparte contenido dentro o fuera de su organización,
 
 Puede compartir paneles e informes de la mayoría de las ubicaciones del servicio de Power BI: Favoritos, Recientes, Mi área de trabajo y Compartidos conmigo, si el propietario lo permite. También puede compartir elementos desde otras áreas de trabajo si tiene el [rol de administrador, miembro o colaborador](service-new-workspaces.md#roles-in-the-new-workspaces) en el área de trabajo. 
 
-Cuando comparte un panel o un informe, los usuarios con quienes los comparte pueden verlos e interactuar con ellos, pero no modificarlos. Ellos ven los mismos datos que usted ve en el panel o informe, a menos que se aplique la [seguridad de nivel de fila (RLS)](../admin/service-admin-rls.md). Los compañeros con los que los comparte también pueden compartirlos a su vez con sus propios compañeros, si tienen permiso para hacerlo. Los usuarios que no pertenecen a la organización pueden ver el panel o el informe, e interactuar con ellos, pero no compartirlos. 
+Cuando comparte un panel o un informe, los usuarios con quienes los comparte pueden verlos e interactuar con ellos, pero no modificarlos. Ven los mismos datos que usted ve en el panel y los informes, y tienen acceso a la totalidad del conjunto de datos subyacente, a menos que se le aplique la seguridad de nivel de fila (RLS).  Los compañeros con los que los comparte también pueden compartirlos a su vez con sus propios compañeros, si tienen permiso para hacerlo. Los usuarios que no pertenecen a la organización pueden ver el panel o el informe, e interactuar con ellos, pero no compartirlos. 
 
 No se puede *compartir* contenido directamente desde Power BI Desktop. Los [informes se publican desde Power BI Desktop](../create-reports/desktop-upload-desktop-files.md) en el servicio Power BI. Sin embargo, puede [compartir un panel desde las aplicaciones móviles de Power BI](../consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md).  
 
@@ -123,7 +123,7 @@ Solo el propietario del panel o informe puede activar y desactivar Volver a comp
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 Aspectos que hay que tener en cuenta sobre el uso compartido de paneles e informes:
 
-* Por lo general, usted y sus compañeros ven los mismos datos en el panel o informe. Por tanto, si tiene permisos para ver más datos que ellos, verán todos los datos en el panel o informe. Pero si se aplica la [seguridad de nivel de fila (RLS)](../admin/service-admin-rls.md) al conjunto de datos subyacente de un panel o informe, las credenciales de cada usuario determinan los datos a los que puede acceder.
+* Cuando comparte un panel con compañeros, también comparte el conjunto de datos subyacente. Los compañeros obtienen acceso a todo el conjunto de datos a menos que esté limitado por la [seguridad de nivel de fila (RLS)](../admin/service-admin-rls.md). Los autores de informes pueden usar funciones que personalicen las experiencias del usuario al ver o interactuar con los informes, por ejemplo ocultar columnas, limitar las acciones en objetos visuales y otras. Esta experiencia de usuario personalizada no restringe los datos a los que los usuarios pueden acceder en el conjunto de datos. Use la [seguridad de nivel de fila (RLS)](../admin/service-admin-rls.md) en el conjunto de datos para que las credenciales de cada usuario determinen los datos a los que puede acceder.
 * Todos los usuarios con quienes comparta el panel podrán visualizarlo e interactuar con los informes relacionados en la [vista de lectura](../consumer/end-user-reading-view.md#reading-view). Por lo general, no pueden crear informes ni guardar cambios en los informes existentes. Pero si selecciona **Permitir que los usuarios compilen nuevo contenido a partir de los conjuntos de datos subyacentes**, estos podrán crear informes propios en otras áreas de trabajo basados en el conjunto de datos de este panel o informe.
 * Aunque ningún usuario puede ver o descargar el conjunto de datos, pueden acceder directamente al conjunto de datos mediante la característica Analizar en Excel. Un administrador puede restringir la capacidad de usar Analizar en Excel para todos los miembros de un grupo. Sin embargo, la restricción es para todos los usuarios de ese grupo y para todas las áreas de trabajo a las que pertenece el grupo.
 * Todo el mundo puede [actualizar los datos](../connect-data/refresh-data.md) manualmente.

@@ -8,13 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: cce546b489e0f49ff87af22f4955af1922f628e5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fc0bfea05449b3169e7a5f73a4c096d28579b35c
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344972"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159683"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Compra y asignación de licencias de usuario de Power BI Pro
 
@@ -38,6 +39,9 @@ Para asignar licencias en Azure Portal, debe ser propietario de la suscripción 
 
 ### <a name="purchase-licenses-in-microsoft-365"></a>Compra de licencias en Microsoft 365
 
+> [!NOTE]
+> Si normalmente compra licencias a través de un contrato de licencias por volumen, como un Contrato Enterprise, y quiere recibir una factura en lugar de comprar con una tarjeta de crédito o una cuenta bancaria, tendrá que enviar el pedido de otra manera. Trabaje con el revendedor de Microsoft o el Centro de servicios de licencias por volumen para agregar o quitar licencias. Para obtener más información, vea [Administración de licencias de suscripción](https://docs.microsoft.com/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide).
+
 Siga estos pasos para comprar licencias de Power BI Pro en el Centro de administración de Microsoft 365:
 
 1. Inicie sesión en el [Centro de administración de Microsoft 365](https://admin.microsoft.com).
@@ -57,6 +61,7 @@ Siga estos pasos para comprar licencias de Power BI Pro en el Centro de adminis
 8. Para comprobar la compra, vaya a **Facturación** > **Productos y servicios** y busque **Power BI Pro**.
 
 9. Para agregar más licencias más adelante, busque **Power BI Pro** en la página **Productos y servicios** y, a continuación, seleccione **Agregar o quitar licencias**.
+
 
 ## <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>Asignación de licencias en el Centro de administración de Microsoft 365
 

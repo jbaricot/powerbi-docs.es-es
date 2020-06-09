@@ -7,94 +7,115 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f29d59d3b10f8dc963d8ba1965638bc01bae0c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a145814938b15b55476f4cc0536290cd009cfe
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83335704"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273226"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Uso de los temas para los informes en Power BI Desktop
 
 Con los *temas para informes* de Power BI Desktop puede aplicar cambios de diseño a todo el informe; por ejemplo, usar colores corporativos, cambiar conjuntos de iconos o aplicar nuevos formatos visuales predeterminados. Al aplicar un tema para informes, todos los objetos visuales del informe usan los colores y el formato del tema seleccionado. Hay algunas excepciones que se describen más adelante en este artículo.
 
-![Temas de informes](media/desktop-report-themes/report-themes-1a.png)
+Para seleccionar los temas de informe, vaya a la cinta **Vista**, seleccione el botón de flecha desplegable de la sección **Temas** y después el tema que quiera. Los temas disponibles son similares a los que se ven en otros productos de Microsoft, como Microsoft PowerPoint.
 
-Hay dos tipos de temas para informes: los que vienen integrados y los personalizados.
+![Temas de informes](media/desktop-report-themes/report-themes-01.png)
 
-- Los temas para informes integrados proporcionan diferentes tipos de esquemas de colores predefinidos que se instalan con Power BI Desktop. Estos se seleccionan directamente desde el menú de Power BI Desktop.
+Hay dos tipos de temas de informes: los integrados y los archivos de tema personalizados.
 
-- Los archivos de temas para informes personalizados se crean en archivos JSON que definen su estructura básica. Para aplicar un tema para informes personalizado, importe su archivo JSON en Power BI Desktop y aplíquelo al informe.
+- Los temas de informes **integrados** proporcionan diferentes tipos de esquemas de colores predefinidos que se instalan con Power BI Desktop. Estos se seleccionan directamente desde el menú de Power BI Desktop.
 
-  También puede personalizar un tema para informes existente desde Power BI Desktop con el [cuadro de diálogo **Personalización del tema**](#create-and-customize-a-theme-in-power-bi-desktop).
+- Para crear temas de informes **personalizados**, se ajusta un tema actual y se guarda como tema personalizado, o bien se crea un tema personalizado propio mediante un archivo JSON. El archivo JSON proporciona un control granular sobre muchos aspectos de un tema de informe, como se describe más adelante en este artículo. 
 
-Puede personalizar y normalizar casi todos los elementos que se enumeran en la sección **Formato** del panel **Visualizaciones**, ya sea a través de las personalizaciones realizadas directamente en Power BI Desktop o a través de un archivo JSON de temas para informes. El objetivo es ofrecer el control total de la apariencia y el comportamiento de los informes a un nivel pormenorizado.
+Ahora se analizará cómo funcionan los temas de informes y cómo crear temas personalizados.
+
 
 ## <a name="how-report-themes-work"></a>Funcionamiento de los temas para informes
 
-Para aplicar un tema para informes a un informe de Power BI Desktop, puede seleccionar entre los [temas para informes integrados disponibles](#built-in-report-themes), puede [importar un archivo JSON de temas personalizado](#import-custom-report-theme-files) o puede [usar el cuadro de diálogo **Personalización del tema**](#create-and-customize-a-theme-in-power-bi-desktop).
+Para aplicar un tema para informes a un informe de Power BI Desktop, puede seleccionar entre las opciones siguientes:
 
-Para obtener información detallada sobre los valores predeterminados que se pueden personalizar, consulte la sección siguiente sobre el [formato JSON de temas para informes](#report-theme-json-file-format).
+* Seleccionar uno de los [Temas para informes integrados](#built-in-report-themes) que están integrados en Power BI Desktop.
+* Personalizar un tema mediante el cuadro de diálogo **Personalización del tema**.
+* [Importar un archivo JSON de tema personalizado](#import-custom-report-theme-files).
+
+Cada una de estas opciones se describirá de forma individual.
 
 ### <a name="built-in-report-themes"></a>Temas para informes integrados
 
 Para seleccionar los temas para informes integrados que hay disponibles:
 
-1. Seleccione **Cambiar tema** en la cinta de opciones **Inicio**.
+1. Seleccione el botón de flecha desplegable **Cambiar tema** de **Temas** en la cinta **Vista**.
 
-   ![Seleccionar un tema de informe](media/desktop-report-themes/report-themes-2a.png)
+   ![Seleccionar un tema de informe](media/desktop-report-themes/report-themes-02.png)
 
-2. Seleccione uno de los temas incluidos en el menú desplegable.
+2. Seleccione entre los temas incluidos en el menú desplegable que aparece.
+
+   ![Seleccionar un tema de informe](media/desktop-report-themes/report-themes-03.png)
 
    El tema para informes está ahora aplicado al informe.
 
-En la tabla siguiente se muestran los temas para informes integrados disponibles.
+    En la tabla siguiente se muestran los temas para informes integrados disponibles.
+    
+    | Tema para informes integrado | Secuencia de color predeterminada |
+    |------ |---------- |
+    | Predeterminado | ![Predeterminado](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+    | Rascacielos | ![Rascacielos](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+    | Ejecutivo | ![Ejecutivo](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+    | Frontera| ![Frontera](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+    | Innovación | ![Innovación](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+    | Eclosión | ![Eclosión](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+    | Corriente| ![Corriente](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+    | Temperatura | ![Temperatura](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+    | Solar| ![Solar](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+    | Divergente | ![Divergente](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+    | Tormenta | ![Tormenta](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+    | Clásico | ![Clásico](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+    | Parque | ![Parque](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+    | Clase | ![Clase](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+    | Apto para daltónicos | ![Apto para daltónicos](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+    | Eléctrico | ![Eléctrico](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+    | Contraste alto | ![Contraste alto](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+    | Puesta de sol | ![Puesta de sol](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+    | Crepúsculo | ![Crepúsculo](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+    
+3. También puede examinar la colección de temas creados por miembros de la comunidad de Power BI; para ello, seleccione **Galería de temas** en el menú desplegable Temas.
 
-| Tema para informes integrado | Secuencia de color predeterminada |
-|------ |---------- |
-| Predeterminado | ![Predeterminado](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| Rascacielos | ![Rascacielos](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
-| Ejecutivo | ![Ejecutivo](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
-| Frontera| ![Frontera](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
-| Innovación | ![Innovación](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
-| Eclosión | ![Eclosión](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
-| Corriente| ![Corriente](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
-| Temperatura | ![Temperatura](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
-| Solar| ![Solar](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
-| Divergente | ![Divergente](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
-| Tormenta | ![Tormenta](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
-| Clásico | ![Clásico](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
-| Parque | ![Parque](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
-| Clase | ![Clase](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
-| Apto para daltónicos | ![Apto para daltónicos](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
-| Eléctrico | ![Eléctrico](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
-| Contraste alto | ![Contraste alto](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
-| Puesta de sol | ![Puesta de sol](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
-| Crepúsculo | ![Crepúsculo](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+   ![Galería de temas](media/desktop-report-themes/report-themes-04.png)
+
+    Desde la galería, puede seleccionar el tema que quiera y descargar su archivo JSON asociado. 
+
+    Para instalar el archivo descargado, seleccione **Buscar temas** en la lista desplegable **Temas**, navegue hasta la ubicación donde haya descargado el archivo JSON y selecciónelo para importar el tema en Power BI Desktop como un tema nuevo.
+
+    Power BI mostrará un cuadro de diálogo en el que se indica que la importación se ha realizado correctamente.
+
+   ![Importación correcta del tema](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="customize-report-themes"></a>Personalización de temas para informes
 
-A partir de la versión de diciembre de 2019 de Power BI Desktop, ahora hay dos maneras de personalizar un tema para informes:
+Puede personalizar y normalizar casi todos los elementos que se enumeran en la sección **Formato** del panel **Visualizaciones**, ya sea a través de las personalizaciones realizadas directamente en Power BI Desktop o a través de un archivo JSON de temas para informes. El objetivo es ofrecer el control total de la apariencia y el comportamiento de los informes a un nivel pormenorizado.
+
+Las dos formas de personalizar los temas de informe son las siguientes:
 
 - [Creación y personalización de temas en Power BI Desktop](#create-and-customize-a-theme-in-power-bi-desktop)
 - [Creación y personalización de archivos JSON de temas para informes personalizados](#introduction-to-report-theme-json-files)
 
+Ahora se describirá cada uno de estos enfoques, en las secciones siguientes.
+
 ### <a name="create-and-customize-a-theme-in-power-bi-desktop"></a>Creación y personalización de temas en Power BI Desktop
 
-Para personalizar un tema directamente en Power BI Desktop:
+Para personalizar un tema directamente en Power BI Desktop, puede seleccionar un tema similar al que le gusta y realizar algunos ajustes. En primer lugar, seleccione el tema que se asemeje (o simplemente comience con cualquier tema y personalice a partir de él) y realice los pasos siguientes:
 
-1. En la cinta de opciones **Inicio**, seleccione **Cambiar tema** > **Personalizar tema actual**.
+1. Desde la cinta **Vista**, seleccione el botón desplegable **Temas** y después **Personalizar tema actual**.
 
-   Aparece un cuadro de diálogo que muestra las formas de personalizar el tema para informes que se aplica actualmente al informe.
+   ![Personalización del tema](media/desktop-report-themes/report-themes-06.png)
 
-   ![Personalización del tema](media/desktop-report-themes/report-themes_5b.png)
+2. Aparece un cuadro de diálogo donde puede realizar todo tipo de cambios en el tema actual y, después, guardar la configuración como un tema nuevo.
 
-2. Si le gusta un tema existente y quiere realizar algunos ajustes, seleccione (o importe) el tema y, luego, elija **Personalizar tema actual**.
-
-   ![Personalización del tema actual](media/desktop-report-themes/report-themes_5c.png)
+   ![Personalización del tema actual](media/desktop-report-themes/report-themes-07.png)
 
 Las opciones de tema que se pueden personalizar se encuentran en las categorías siguientes, reflejadas en el cuadro de diálogo **Personalizar tema**:
 
@@ -113,11 +134,11 @@ Este tipo de personalización del tema actual simplifica y agiliza la personaliz
 
 ### <a name="import-custom-report-theme-files"></a>Importación de archivos de tema para informes personalizado
 
-Para importar un archivo de tema para informes personalizado:
+También puede importar un archivo de tema de informe personalizado, para lo que debe seguir estos pasos:
 
-1. Seleccione **Cambiar tema** en la cinta de opciones **Inicio** y, a continuación, seleccione **Importar tema** en el menú desplegable.
+1. Seleccione la cinta **Vista** y, después, en el botón desplegable **Temas**, seleccione **Buscar temas**.
 
-   ![Importar tema](media/desktop-report-themes/report-themes-3a.png)
+   ![Importar tema](media/desktop-report-themes/report-themes-08.png)
 
    Aparecerá una ventana que le permite examinar la ubicación del archivo del tema JSON.
 
@@ -127,7 +148,7 @@ Para importar un archivo de tema para informes personalizado:
 
    Cuando el archivo de tema se haya cargado correctamente, Power BI Desktop muestra un mensaje de operación correcta.
 
-   ![El tema se ha importado correctamente.](media/desktop-report-themes/report-themes_5.png)
+   ![Importación correcta del tema](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="introduction-to-report-theme-json-files"></a>Introducción a los archivos JSON de temas para informes
 
@@ -172,7 +193,7 @@ Para ver los colores disponibles en un tema para informes:
 
 3. Seleccione la lista desplegable de un elemento para ver la información de **Colores del tema** del tema para informes.
 
-   ![Colores del tema](media/desktop-report-themes/report-themes_8.png)
+   ![Colores del tema](media/desktop-report-themes/report-themes-09.png)
 
 En nuestro ejemplo, después de aplicar la gran cantidad de colores verdes y marrones del tema para informes St. Patrick's Day, vea los colores del tema. ¿Puede ver toda esa cantidad de verde? Esto se debe a que esos colores formaban parte del tema para informes que importamos y aplicamos.
 
@@ -184,7 +205,7 @@ Supongamos que aplica un conjunto de colores personalizado (o uno solo) a un pun
 
 Es posible que también quiera establecer manualmente el color de un punto de datos mediante el uso de la sección **Colores de tema**. Al aplicar un nuevo tema para informes, los colores *no* se actualizan. Para volver a los colores predeterminados y así permitir que se actualicen cuando aplique un nuevo tema para informes, seleccione **Volver al valor predeterminado** o un color en la paleta **Colores del tema** en el selector de colores.
 
-![Volver al valor predeterminado](media/desktop-report-themes/report-themes_9.png)
+![Volver al valor predeterminado](media/desktop-report-themes/report-themes-10.png)
 
 Muchos objetos visuales de Power BI no se aplicarán a temas para informes.
 
@@ -230,9 +251,9 @@ A continuación, se incluyen algunos temas para informes que puede usar como pun
 
 Los temas para informes pueden crear coloridos informes de Power BI Desktop para usted, su organización o incluso para la temporada o festividad que se celebre en ese momento.
 
-## <a name="export-report-themes-preview"></a>Exportación de temas para informes (versión preliminar)
+## <a name="export-report-themes"></a>Exportación de temas para informes
 
-A partir de la versión de diciembre de 2019 de Power BI Desktop, ahora puede tener la opción de exportar el tema para informes aplicado actualmente directamente desde Power BI Desktop a un archivo JSON. Después de exportar un tema para informes, puede reutilizarlo en otros informes. Esta opción permite exportar el archivo JSON para la mayoría de los temas integrados. Las únicas excepciones son los temas base: el clásico y el predeterminado, en los que se basan otros temas cuando se importan.
+Puede exportar el tema del informe aplicado actualmente de forma directa desde Power BI Desktop a un archivo JSON. Después de exportar un tema para informes, puede reutilizarlo en otros informes. Esta opción permite exportar el archivo JSON para la mayoría de los temas integrados. Las únicas excepciones son los temas base: el clásico y el predeterminado, en los que se basan otros temas cuando se importan.
 
 Para exportar el tema actualmente aplicado desde Power BI Desktop:
 
@@ -559,7 +580,7 @@ La siguiente tabla define los valores de **cardName**. El primer valor de cada c
 
 En la siguiente sección se definen las propiedades de cada tarjeta. El nombre de la tarjeta va seguido del nombre de cada propiedad. Para cada nombre de propiedad verá si se muestra el panel de formato, una descripción de lo que hace la opción de formato y el tipo de la opción de formato. Este enfoque le permite saber qué tipo de valores puede usar en el archivo de tema.
 
-Cuando se usa **dateTime**, la fecha debe ser una fecha ISO entre comillas simples, precedida de datetime. Vea el ejemplo siguiente:
+Cuando se usa **dateTime**, la fecha debe ser una fecha ISO entre comillas simples, precedida de datetime. Observe el ejemplo siguiente:
 
   "datetime'2011-10-05T14:48:00.000Z'"
 

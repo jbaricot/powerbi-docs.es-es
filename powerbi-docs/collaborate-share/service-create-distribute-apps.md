@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a26a93851d3914527bbb61275d763f95f21d7603
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693566"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336829"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicación de una aplicación en Power BI
 
@@ -209,6 +209,7 @@ Aspectos que hay que tener en cuenta sobre la publicación de aplicaciones:
 * Para la nueva experiencia de área de trabajo, si el usuario agregado a la lista de acceso de la aplicación ya tiene acceso a dicha aplicación a través del área de trabajo, no se mostrará en la lista de acceso de esta.  
 * Cuando se usa el nuevo aspecto del servicio Power BI, la dirección URL del sitio de soporte se muestra en la tarjeta de información del elemento. Obtenga más información sobre el ["nuevo aspecto" en Power BI](../consumer/service-new-look.md).
 * Las aplicaciones tienen una opción para permitir a los usuarios compartir la aplicación y sus conjuntos de datos subyacentes mediante el permiso de uso compartido. En el caso de las aplicaciones nuevas, esta opción está desactivada de forma predeterminada. Se recomienda desactivar esta opción para las aplicaciones existentes y actualizar el permiso en los conjuntos de datos subyacentes. La opción se ha habilitado para las aplicaciones existentes porque inicialmente se diseñaron para reemplazar los paquetes de contenido, que tenían este comportamiento.
+* Las aplicaciones pueden tener un máximo de 200 paneles. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Crear un área de trabajo](service-create-workspaces.md)

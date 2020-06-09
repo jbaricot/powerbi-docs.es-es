@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 7e93e8a08b6dd662f3ada089c5ee8745bb24b3e2
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865577"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337059"
 ---
-# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Creación y visualización de objetos visuales de esquema jerárquico en Power BI (versión preliminar)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Creación y visualización de objetos visuales de esquema jerárquico en Power BI
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
@@ -32,6 +32,9 @@ En este tutorial se usan dos ejemplos:
 - Un escenario de cadena de suministro que analiza el porcentaje de productos que una empresa tiene como pendientes (sin existencias).  
 - Un escenario de ventas que divide las ventas de videojuegos en numerosos factores, como el género y el publicador del juego.
 
+Puede encontrar el archivo .pbix que se usa en el escenario de cadena de suministro aquí: [Supply Chain Sample.pbix](
+https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Reports/Supply%20Chain%20Sample.pbix).
+
 > [!NOTE]
 > Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium.    
 
@@ -39,17 +42,21 @@ En este tutorial se usan dos ejemplos:
 Seleccione el icono del esquema jerárquico en el panel Visualizaciones.
 ![Marca de agua del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-watermark.png)
 
-La visualización requiere dos tipos de entrada.
+La visualización requiere dos tipos de entrada:
 
-**Analyze**: la métrica que quisiera analizar. Debe ser una medida o un agregado.  
-**Explain By**: una o más dimensiones que quisiera explorar en profundidad.
+ - **Analyze**: la métrica que quisiera analizar. Debe ser una medida o un agregado.  
+ - **Explain By**: una o más dimensiones que quisiera explorar en profundidad.
 
-Una vez que arrastra la medida al campo, el objeto visual se actualiza y muestra la medida agregada. En el ejemplo siguiente, se visualiza el % promedio de los productos pendientes (5,07 %) ![Nodo raíz del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-root.png)
+Una vez que arrastra la medida al campo, el objeto visual se actualiza y muestra la medida agregada. En el ejemplo siguiente, se visualiza el porcentaje promedio de los productos pendientes (5,07 %).
+
+![Nodo raíz del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-root.png)
 
 El paso siguiente consiste en incorporar una o varias dimensiones que quisiera explorar en profundidad. Agregue estos campos al cubo **Explain by**. Observe que aparece un signo más junto al nodo raíz. Al seleccionar el signo +, puede elegir qué campo quiere explorar en profundidad (puede explorar los campos en el orden que quiera).
+
 ![Menú del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 Si selecciona **Forecast bias** (Sesgo de la previsión), el árbol se expandirá y desglosará la medida según los valores de la columna. Es posible repetir este proceso si elige otro nodo que desglosar.
+
 ![Expansión del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-expansion.png)
 
 Al seleccionar un nodo del último nivel, se realiza un filtrado cruzado de los datos. Al seleccionar un nodo de un nivel anterior, se cambia la ruta de acceso.
@@ -72,10 +79,12 @@ Puede usar "Divisiones de IA" para saber en qué parte de los datos debe fijarse
 
 El análisis puede funcionar de dos maneras según sus preferencias. El comportamiento predeterminado es el siguiente:
 
-**Valor alto**: considera todos los campos disponibles y determina cuál se debe explorar en profundidad para obtener el valor más alto de la medida que se está analizando.  
-**Valor bajo**: considera todos los campos disponibles y determina cuál se debe explorar en profundidad para obtener el valor más bajo de la medida que se está analizando.  
+ - **Valor alto**: considera todos los campos disponibles y determina cuál se debe explorar en profundidad para obtener el valor más alto de la medida que se está analizando.  
+ - **Valor bajo**: considera todos los campos disponibles y determina cuál se debe explorar en profundidad para obtener el valor más bajo de la medida que se está analizando.  
 
-Si selecciona **Valor alto** en el ejemplo de los pedidos pendientes, ocurre lo siguiente: ![División de IA del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
+Si selecciona **Valor alto** en el ejemplo de los pedidos pendientes, ocurre lo siguiente:
+
+![División de IA del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
 
 Aparece una bombilla junto a **Tipo de producto**, lo que indica que se trataba de una "división de IA". El árbol también proporciona una línea de puntos que recomienda el nodo **Supervisión del paciente**, que genera el valor más alto de pedidos pendientes (9,2 %). 
 
@@ -83,7 +92,9 @@ Mantenga el mouse sobre la bombilla para ver información sobre herramientas. En
 
 Puede configurar el objeto visual para encontrar divisiones de IA **relativas** en lugar de **absolutas**. 
 
-El modo relativo busca valores altos que se destaquen (en comparación con el resto de los datos de la columna). Para ilustrar esto, echemos un vistazo a un ejemplo: ![División absoluta del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
+El modo relativo busca valores altos que se destaquen (en comparación con el resto de los datos de la columna). Para ilustrar esto, echemos un vistazo a un ejemplo:
+
+![División absoluta del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
 
 En la captura de pantalla anterior, examinamos una venta de videojuegos en Norteamérica. Primero dividimos el árbol por **Nombre del publicador** y, luego, desglosamos hasta llegar a Nintendo. Si selecciona **Valor alto**, se expande **La plataforma es Nintendo**. Dado que Nintendo (el publicador) solo desarrolla para consolas de Nintendo, no hay más que un valor presente y, por lo tanto, no sorprende que sea el valor más alto.
 
@@ -111,9 +122,13 @@ Si prefiere no usar ninguna división de IA en el árbol, también tiene la opci
 
 ## <a name="tree-interactions-with-ai-splits"></a>Interacciones del esquema con divisiones de IA
 
-Puede tener varios niveles de IA subsiguientes. También puede combinar varios tipos de niveles de IA (vaya de Valor alto a Valor bajo y vuelva a Valor alto): ![Varias rutas de acceso de IA del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
+Puede tener varios niveles de IA subsiguientes. También puede combinar varios tipos de niveles de IA (vaya de Valor alto a Valor bajo y vuelva a Valor alto):
 
-Si selecciona otro nodo del árbol, las divisiones de IA se recalculan de cero. En el ejemplo siguiente, cambiamos el nodo seleccionado en el nivel **Forecast Bias** (Sesgo de la previsión). Los niveles subsiguientes cambian para generar los valores Alto y Bajo correctos ![Interacciones de IA del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
+![Varias rutas de acceso de IA del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
+
+Si selecciona otro nodo del árbol, las divisiones de IA se recalculan de cero. En el ejemplo siguiente, cambiamos el nodo seleccionado en el nivel **Forecast Bias** (Sesgo de la previsión). Los niveles siguientes cambian para generar los valores Alto y Bajo correctos.
+
+![Interacciones de IA del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
 
 Los niveles de IA también se recalculan cuando se aplica un filtro cruzado del esquema jerárquico según otro objeto visual. En el ejemplo siguiente, podemos ver que el porcentaje de pedidos pendientes es mayor para la planta n.° 0477.
 
@@ -144,15 +159,11 @@ El esquema jerárquico no se admite en los escenarios siguientes:
 
 Las divisiones de IA no se admiten en los escenarios siguientes:  
 -   Azure Analysis Services
--   Direct Query
 -   Power BI Report Server
 -   Publicar en web
 -   Medidas complejas y medidas de los esquemas de extensión en "Analyze"
 
-Otras limitaciones de la versión preliminar:
-- Power BI Mobile  
-- Anclaje en el panel
-- Funcionalidad Mostrar datos
+Otras limitaciones:
 - Soporte dentro de Preguntas y respuestas
 
 ## <a name="next-steps"></a>Pasos siguientes

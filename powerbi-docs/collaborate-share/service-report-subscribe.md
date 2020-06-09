@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: c43b0710c15fcc77a08aa789a92d840d2425f5ab
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438232"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315957"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
@@ -71,6 +71,10 @@ La suscripción a informes paginados varía un poco. Para obtener más informaci
 1. (Opcional) Seleccione si quiere incluir un vínculo de vuelta al contenido en Power BI y si quiere proporcionar a los usuarios acceso al contenido al que les suscribe.  Si decide incluir un vínculo, para obtener la mejor experiencia, asegúrese de que todos los usuarios tengan acceso al informe.
 2. Seleccione **Guardar y cerrar**. Los que se hayan suscrito reciben un correo electrónico y una instantánea de la página de panel o informe para la frecuencia y la hora que se hayan seleccionado. En total, puede crear hasta 24 suscripciones por informe o panel, y pueden proporcionar destinatarios, horas y frecuencias únicos para cada suscripción. Todas las suscripciones establecidas en **Tras la actualización de los datos** para el informe o panel solo enviarán un correo electrónico después de la primera actualización programada.
 
+    > [!NOTE]
+    > Si modifica la suscripción después de guardarla y cerrarla, se habilita la selección para ofrecer acceso a los usuarios al contenido al que se va a suscribir, con independencia de las selecciones anteriores.
+    >
+
     > [!TIP]
     > ¿Quiere enviar el correo electrónico desde una suscripción al instante o a petición en cualquier momento? Seleccione **Ejecutar ahora** para las suscripciones del panel o informe que quiera enviar. Verá una notificación en la que se indica que hay un correo electrónico en camino para todos los usuarios de esa suscripción concreta. Esta acción no cuenta para el límite de 24 ejecuciones de suscripción programadas al día por informe o panel. Esto NO desencadena una actualización de datos del conjunto de datos subyacente.
     >
@@ -112,6 +116,7 @@ Los administradores de Power BI pueden usar los registros de auditoría de Powe
 - Si el panel o el informe están en la capacidad Premium, puede usar el alias de correo electrónico del grupo para las suscripciones en lugar de suscribir las direcciones de correo electrónico de sus compañeros de trabajo de una en una. Los alias se basan en el directorio actual de Active Directory.
 - Si el contenido no se encuentra en una capacidad Premium, solo los usuarios de Power BI Pro pueden recibir suscripciones por correo electrónico. 
 - Las suscripciones no admiten marcadores actualmente.
+- La opción de proporcionar acceso al informe o panel siempre aparece como habilitada al editar una suscripción existente.  Si desactiva esta opción y guarda la suscripción, se guardará ese estado. Pero al volver a editar el informe, se activará de forma predeterminada.
 
 ### <a name="dashboards"></a>Paneles
 

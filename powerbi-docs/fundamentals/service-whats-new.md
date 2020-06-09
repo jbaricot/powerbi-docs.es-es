@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813356"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273078"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
 Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI**. Para obtener información sobre novedades, vea:
@@ -646,7 +646,7 @@ Eche un vistazo al [blog](https://powerbi.microsoft.com/blog/power-bi-service-we
 * Con la actualización de servicio de esta semana, al crear informes, ahora puede elegir entre varios tamaños de página, así como definir un tamaño de página propio. Esta opción controla el tamaño y la relación de aspecto de cada página del informe.
 * Hemos agregado soporte de formato visual adicional para imágenes y gráficos de burbujas. Puede bloquear el aspecto al cambiar el tamaño de las imágenes para evitar la distorsión de la imagen y las burbujas de los gráficos de dispersión pueden configurarse para rellenarse o no.
 * Hoy, Power BI enviará invitaciones para compartir a una dirección de correo electrónico alternativa. Cuando un panel se comparta con usted, se enviará el vínculo de la invitación para compartir a su dirección de correo electrónico original y a su dirección de correo electrónico alternativa (si la tiene configurada).
-* Power BI está disponible para todos los clientes, incluidos aquellos de la arquitectura DonMT (Dedicated on Multitenant) de O365. Power BI se usará como un servicio compartido en el modo multiinquilino. En la mayoría de los casos, puede registrarse en Power BI mediante un sencillo [proceso de suscripción de autoservicio](https://powerbi.microsoft.com/): solo tiene que escribir su dirección de correo electrónico del trabajo, su nombre y contraseña para empezar. Si usted es el administrador de inquilinos, puede asignar licencias a los usuarios mediante las instrucciones que se incluyen [aquí](https://go.microsoft.com/fwlink/?LinkId=627174).
+* Power BI está disponible para todos los clientes, incluidos los de la arquitectura DonMT (Dedicated on Multitenant) Microsoft 365. Power BI se usará como un servicio compartido en el modo multiinquilino. En la mayoría de los casos, puede registrarse en Power BI mediante un sencillo [proceso de suscripción de autoservicio](https://powerbi.microsoft.com/): solo tiene que escribir su dirección de correo electrónico del trabajo, su nombre y contraseña para empezar. Si usted es el administrador de inquilinos, puede asignar licencias a los usuarios mediante las instrucciones que se incluyen [aquí](https://go.microsoft.com/fwlink/?LinkId=627174).
 * La opción Registros de auditoría de Azure le permite ver registros operativos de plano de control en su suscripción de Azure. El paquete de contenido Registros de auditoría de Azure de Power BI puede ayudarle a analizar y visualizar fácilmente la gran cantidad de información que incluyen estos registros. El paquete de contenido le permite conectarse a los datos y comenzar a descubrir información con el panel y los informes integrados. Lea el [blog](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/) y la [documentación en línea](../connect-data/service-connect-to-services.md) para obtener más información.
 
 [Más información en nuestro blog](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/).

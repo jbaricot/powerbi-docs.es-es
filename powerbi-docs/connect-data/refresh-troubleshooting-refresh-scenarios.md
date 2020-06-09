@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 09/13/2019
+ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 38f3b9e40001b5cc3d90d35ed56e768237345e5d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: f28182b8ecfcadae92f64a725622493ebd7a6c61
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84119798"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160258"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Solución de problemas de escenarios de actualización
 
@@ -23,7 +23,14 @@ Aquí puede encontrar información sobre distintos escenarios que pueden darse a
 > [!NOTE]
 > Si se encuentra con un escenario que no se menciona a continuación y está causando incidencias, puede pedir ayuda adicional en el [sitio de la comunidad](https://community.powerbi.com/) o crear una [incidencia de soporte técnico](https://powerbi.microsoft.com/support/).
 >
->
+
+Siempre debe asegurarse de que se cumplen y se comprueban los requisitos básicos para la actualización. Estos requisitos básicos incluyen lo siguiente:
+
+* Comprobar que la versión de la puerta de enlace está actualizada
+* Comprobar que el informe tiene una puerta de enlace seleccionada; de lo contrario, es posible que el origen de datos haya cambiado o falte
+
+Una vez que haya confirmado que se cumplen estos requisitos, consulte las secciones siguientes para obtener más información. 
+
 
 ## <a name="email-notifications"></a>Notificaciones por correo electrónico
 

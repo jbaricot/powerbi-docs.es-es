@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e126451bf016bf4e9dcce7b7a4df51db9ed20386
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ec0d12ddf91b04654b90c5a3e7cdfda24bc04604
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320524"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315911"
 ---
 # <a name="the-enhanced-compute-engine"></a>Motor de proceso mejorado
 
@@ -31,6 +31,9 @@ En las secciones siguientes se describe cómo habilitar el motor de proceso mejo
 El motor de proceso mejorado está habilitado en la página **Configuración de capacidad** en el servicio Power BI, en la sección correspondiente a los **flujos de datos**. De forma predeterminada, el motor de proceso mejorado está **Apagado**. Para encenderlo, cambie la alternancia a **Encendido**, como se muestra en la siguiente imagen, y guarde la configuración. 
 
 ![Encendido del motor de proceso mejorado](media/service-dataflows-enhanced-compute-engine/enhanced-compute-engine-01.png)
+
+> [!IMPORTANT]
+> El motor de proceso mejorado solo funciona para las capacidades A3 y superiores de Power BI.
 
 Una vez que active el motor de proceso mejorado, vuelva a los flujos de datos y debería ver una mejora del rendimiento en cualquier entidad calculada que realice operaciones complejas, como *combinaciones* u operaciones de *agrupar por* para flujos de datos creados a partir de entidades vinculadas existentes en la misma capacidad. 
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 01f2d8add417b1d1d37ef043ccb3c48c2609162d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b0fc91eab8c377f5571e66eb7baaf55234fafa97
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813609"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337036"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportación de los datos usados para crear una visualización
 
@@ -154,24 +154,26 @@ Cuando selecciona **Exportar**, Power BI exporta los datos a un archivo *.xlsx* 
 
     - Como se han aplicado filtros a la visualización, los datos exportados se exportarán como filtrados. Observe que la primera fila muestra **Filtros aplicados: Ciudad no es Atlanta, GA**. 
 
-## <a name="protecting-proprietary-data"></a>Protección de datos de propiedad
+## <a name="customize-the-export-data-user-experience"></a>Personalización de la experiencia del usuario de exportación de datos
 
-Es posible que el conjunto de datos incluya contenido que no deba ser visible para todos los usuarios. Si no tiene cuidado, la exportación de los datos subyacentes puede permitir a los usuarios ver todos los datos detallados de ese objeto visual, todas las columnas y filas de los datos. 
+A los usuarios a los que se concede acceso a un informe se les **concede acceso a todo el conjunto de datos subyacente**, a menos que la [seguridad de nivel de fila (RLS)(../admin/service-admin-rls.md) limite su acceso. Los autores de informes y los administradores de Power BI pueden usar las funciones que se describen a continuación para personalizar la experiencia del usuario.
 
-Existen varias estrategias que los administradores y diseñadores de Power BI pueden usar para proteger los datos propietarios. 
+- Los autores de informes [deciden qué *opciones de exportación*](#set-the-export-options) están disponibles para los usuarios.  
 
-- Los diseñadores [deciden qué *opciones de exportación*](#set-the-export-options) están disponibles para los usuarios.  
-
-- Los administradores de Power BI pueden desactivar la exportación de datos para su organización. 
+- Los administradores de Power BI pueden desactivar algunas o todas las opciones de exportación de datos para su organización.  
 
 - Los propietarios de conjuntos de datos pueden establecer la seguridad de nivel de fila (RLS). RLS restringirá el acceso a los usuarios de solo lectura. Sin embargo, si ha configurado un área de trabajo de la aplicación y ha asignado permisos de edición a los miembros, no se les aplicarán los roles de RLS. Para obtener más información, vea [Seguridad de nivel de fila](../admin/service-admin-rls.md).
 
-- Los diseñadores de informes pueden ocultar columnas para que no aparezcan en la lista **Campos**. Para obtener más información, vea [Propiedades de conjuntos de datos](../developer/automation/api-dataset-properties.md).
+- Los autores de informes pueden ocultar columnas para que no aparezcan en la lista **Campos**. Para obtener más información, vea [Propiedades de conjuntos de datos](../developer/automation/api-dataset-properties.md).
 
-- Los administradores de Power BI pueden agregar [etiquetas de confidencialidad](../admin/service-security-data-protection-overview.md) a paneles, informes, conjuntos de datos y flujos de datos. Después, pueden aplicar opciones de protección, como el cifrado o las marcas de agua, al exportar los datos. 
 
-- Los administradores de Power BI pueden usar [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) para supervisar el acceso y la actividad de los usuarios, realizar análisis de riesgos en tiempo real y establecer controles específicos de etiquetas. Por ejemplo, las organizaciones pueden usar Microsoft Cloud App Security para configurar una directiva que impida a los usuarios descargar datos confidenciales de Power BI a dispositivos no administrados. 
+**Esta experiencia de usuario personalizada no restringe los datos a los que los usuarios pueden acceder en el conjunto de datos. Use la [seguridad de nivel de fila (RLS)](../admin/service-admin-rls.md) en el conjunto de datos para que las credenciales de cada usuario determinen los datos a los que puede acceder.**
 
+## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>Protección de los datos cuando se exportan fuera de Power BI
+
+- Los autores de informes pueden aplicar [etiquetas de confidencialidad](../admin/service-security-data-protection-overview.md) a los informes.  Estas etiquetas determinan quién puede acceder a los datos del informe y cómo se exportan a Excel, PowerPoint y PDF. Algunos niveles de confidencialidad incluyen opciones de protección (por ejemplo, permisos o cifrado) que se aplican al exportar los datos. Si el nivel de confidencialidad incluye opciones de protección, se aplicarán al exportar datos a Excel, PowerPoint y PDF. Solo los que tengan los permisos adecuados podrán exportar, ver, guardar y compartir los datos del informe. 
+
+- Los administradores de seguridad y Power BI pueden usar [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) para supervisar el acceso y la actividad de los usuarios, realizar análisis de riesgos en tiempo real y establecer controles específicos de etiquetas. Por ejemplo, las organizaciones pueden usar Microsoft Cloud App Security para configurar una directiva que impida a los usuarios descargar datos confidenciales de Power BI a dispositivos no administrados.
 
 ## <a name="export-underlying-data-details"></a>Exportación de los detalles de los datos subyacentes
 

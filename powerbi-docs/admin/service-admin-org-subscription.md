@@ -1,5 +1,5 @@
 ---
-title: Obtención de una suscripción de Power BI para la organización
+title: Obtención de una suscripción del servicio Power BI para la organización
 description: Cómo registrarse para obtener una suscripción del servicio Power BI como administrador y adquirir licencias en masa.
 author: kfollis
 ms.reviewer: ''
@@ -8,17 +8,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/13/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bb8abab7d3f8430037b31e2797d62ce8d7b03e1
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 39ecda08527e0805b1ce26ebd9a1c83ceb57187b
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438174"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160051"
 ---
-# <a name="get-a-power-bi-subscription-for-your-organization"></a>Obtención de una suscripción de Power BI para la organización
+# <a name="get-a-power-bi-service-subscription-for-your-organization"></a>Obtención de una suscripción del servicio Power BI para la organización
 
-Los administradores pueden suscribirse a Power BI a través de la página **Servicios de compra** del Centro de administración de Microsoft 365. Cuando un administrador se registre en Power BI, puede asignar licencias de usuario a usuarios que deben tener acceso.
+Los administradores se pueden suscribir al servicio Power BI a través de la página **Servicios de compra** del Centro de administración de Microsoft 365. Cuando un administrador se registre en Power BI, puede asignar licencias de usuario a usuarios que deben tener acceso.
 
 Los usuarios de la organización pueden suscribirse a Power BI a través del sitio web de Power BI. Cuando un usuario de la organización se suscribe a Power BI, se le asigna automáticamente una licencia de Power BI. Si quiere desactivar este autoservicio, siga los pasos descritos en [Activación o desactivación del registro y la compra de autoservicio](service-admin-disable-self-service.md).
 

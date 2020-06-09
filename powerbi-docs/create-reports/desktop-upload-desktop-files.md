@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 417d5a03ed45897896db15f2fd31d3badae837c5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733490"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273469"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Publicar conjuntos de datos e informes desde Power BI Desktop
 Al publicar un archivo de Power BI Desktop en el servicio Power BI, se publican los datos del modelo en el área de trabajo de Power BI. Lo mismo se aplica a los informes creados en la vista **Informes**. Verá un nuevo conjunto de datos con el mismo nombre y los informes en el Explorador de área de trabajo.
@@ -23,13 +23,12 @@ La publicación desde Power BI Desktop tiene el mismo efecto que usar **Obtener 
 
 > [!NOTE]
 > Los cambios que realice en el informe en Power BI no se volverán a guardar en el archivo de Power BI Desktop original. Esto incluye la adición, eliminación o cambio de visualizaciones en los informes.
-> 
-> 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Para publicar informes y conjuntos de datos de Power BI Desktop
 1. En Power BI Desktop, elija **Archivo** \> **Publicar** \> **Publicar en Power BI**, o bien seleccione **Publicar** en la cinta de opciones.  
 
    ![Botón Publicar](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
+
 
 2. Inicie sesión en Power BI.
 3. Seleccione el destino.
@@ -55,3 +54,7 @@ Este proceso es sencillo, pero hay algunas cosas que debe saber:
    ![Advertencia sobre el impacto de volver a publicar un conjunto de datos](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
 
    [Más información sobre el Análisis de impacto para conjuntos de datos](../collaborate-share/service-dataset-impact-analysis.md).
+
+> [!NOTE]
+> Alguna conexión de datos de los informes de Power BI puede incluir vínculos a datos, en lugar de los datos del conjunto de datos que se importan en el servicio Power BI. Por ejemplo, las conexiones de DirectQuery se vinculan a los datos a medida que se producen actualizaciones o interacciones, en lugar de importar los propios datos. Si los orígenes de datos vinculados del informe son locales, es posible que necesite una puerta de enlace para acceder a ellos desde Power BI. Para obtener más información, vea [¿Qué es una puerta de enlace de datos local?](../connect-data/service-gateway-onprem.md)
+> 

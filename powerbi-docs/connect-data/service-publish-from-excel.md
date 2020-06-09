@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ca3e954f64665798c439fba47c3135e93fe51ac0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9bbd5cbafa7f6c17fd9b9a02b93a27cc5859ee4a
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83305620"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272779"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Publicación en Power BI desde Microsoft Excel
 Con Microsoft Excel 2016 y versiones posteriores, puede publicar libros de Excel directamente en el área de trabajo de [Power BI](https://powerbi.microsoft.com) y, una vez allí, crear informes y paneles sumamente interactivos basados en los datos del libro. Luego, puede compartir sus recomendaciones con otras personas de la organización.
@@ -39,7 +39,7 @@ Si selecciona **Exportar**, puede exportar los datos de la tabla y su modelo de 
 Excel admite la publicación de archivos de Excel locales. Ya no hace falta guardarlos en OneDrive para la Empresa o SharePoint Online.
 
 > [!IMPORTANT]
-> Solo puede publicar archivos locales si usa Excel 2016 (o posterior) con una suscripción a Office 365. Las instalaciones independientes de Excel 2016 pueden publicar en Power BI, pero solo cuando el libro se guarda en OneDrive para la Empresa o SharePoint Online.
+> Solo puede publicar archivos locales si usa Excel 2016 (o posterior) con una suscripción de Microsoft 365. Las instalaciones independientes de Excel 2016 pueden publicar en Power BI, pero solo cuando el libro se guarda en OneDrive para la Empresa o SharePoint Online.
 > 
 
 Al seleccionar **Publicar**, puede seleccionar el área de trabajo en la que desea publicar. Si el archivo de Excel reside en OneDrive para la Empresa, solo se puede publicar en *Mi área de trabajo*. Si el archivo de Excel reside en una unidad local, puede publicar en *Mi área de trabajo* o en un área de trabajo compartida a la que tenga acceso.

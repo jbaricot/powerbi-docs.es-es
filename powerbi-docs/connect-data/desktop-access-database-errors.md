@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1816fb7926ed378cdb70ce2e0ade08893828ce4c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1d0dcc80c358fa4c6f0768d515c399a3f381bfe7
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301342"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273377"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Solución de problemas al importar archivos .xls de Excel y Access en Power BI Desktop
 
@@ -30,7 +30,7 @@ Si el mensaje de error de Power BI Desktop indica que el motor de base de datos
 
 ## <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>Situación 2: la versión de bits (32 o 64 bits) del motor de base de datos de Access es diferente de la versión de bits de Power BI Desktop
 
-A menudo esta situación se produce cuando la versión instalada de Microsoft Office es de 32 bits y la versión de Power BI Desktop instalada es de 64 bits. También puede suceder lo contrario, en cuyo caso también se produciría una discrepancia de versiones de bits. Si usa una suscripción de Office 365, consulte en la [situación 3](#situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription) un problema y una solución diferentes. Cualquiera de las siguientes soluciones puede corregir este error de diferencia de versión de bits:
+A menudo esta situación se produce cuando la versión instalada de Microsoft Office es de 32 bits y la versión de Power BI Desktop instalada es de 64 bits. También puede suceder lo contrario, en cuyo caso también se produciría una discrepancia de versiones de bits. Si usa una suscripción de Microsoft 365, vea la [situación 3](#situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription) para obtener un problema y una solución diferentes. Cualquiera de las siguientes soluciones puede corregir este error de diferencia de versión de bits:
 
 ### <a name="solution-1"></a>Solución 1
 
@@ -46,7 +46,7 @@ Cambie la versión de Power BI Desktop para que coincida con la versión de bits
  
 1. En la pantalla que aparece, seleccione la casilla situada junto a PBIDesktop.msi, para la versión de 32 bits, o PBIDesktop_x64.msi, para la versión de 64 bits. 
 
-   En la siguiente captura de pantalla, aparece seleccionada la versión de 64 bits.
+   En la captura de pantalla siguiente, aparece seleccionada la versión de 64 bits.
    
    ![Selección del tipo de descarga de Power BI Desktop](media/desktop-access-database-errors/desktop-access-errors-2.png)
    
@@ -79,9 +79,9 @@ Para instalar ambas versiones de bits del motor de base de datos de Access, siga
    
        c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
 
-## <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>Situación 3: Problemas para usar archivos de Access o .XLS con una suscripción a Office 365
+## <a name="situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription"></a>Situación 3: Problemas para usar archivos de Access o .XLS con una suscripción de Microsoft 365
 
-Si usa una suscripción a Office 365, ya sea **Office 2013** u **Office 2016**, el proveedor del motor de base de datos de Access se registra en una ubicación del Registro virtual que *solo* es accesible para los procesos de Microsoft Office. Como resultado, el motor Mashup (responsable de ejecutar procesos de Excel y Power BI Desktop que no son de Office 365, y que a su vez no es un proceso de Office) no puede usar el proveedor del motor de base de datos de Access.
+Si usa una suscripción de Microsoft 365, ya sea **Office 2013** u **Office 2016**, el proveedor del motor de base de datos de Access se registra en una ubicación del Registro virtual que *solo* es accesible para los procesos de Microsoft Office. Como resultado, el motor Mashup (responsable de ejecutar procesos de Excel y Power BI Desktop que no son de Office 365, y que a su vez no es un proceso de Office) no puede usar el proveedor del motor de base de datos de Access.
 
 Para solucionar esta situación, [descargue e instale el componente redistribuible del motor de base de datos de Access](https://www.microsoft.com/download/details.aspx?id=13255) que coincida con la versión de bits de la instalación de Power BI Desktop. Para más información sobre las versiones de bits, consulte las secciones anteriores de este artículo.
 

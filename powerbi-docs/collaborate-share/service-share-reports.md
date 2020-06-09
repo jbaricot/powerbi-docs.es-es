@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 636aaf59a3a949b5b3571012d12cecc234e9763b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e91698413df11a2f593128a616948935b65c0c4e
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347962"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272917"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>Filtrado y uso compartido de un informe de Power BI
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. ¿Qué sucede si quiere compartir una versión filtrada de un informe? Es posible que desee que el informe muestre únicamente los datos de una ciudad, un vendedor o un año específicos. En este artículo se explica cómo filtrar un informe y compartir la versión filtrada. Otra manera de compartir un informe filtrado es [agregar parámetros de consulta a la dirección URL del informe](service-url-filters.md). En ambos casos, el informe se filtra cuando los destinatarios lo abren por primera vez. Estos pueden borrar las selecciones de filtro del informe.
@@ -77,6 +77,10 @@ Guarde el informe.
 
 7. Cuando comparta este vínculo, los destinatarios verán el informe filtrado. 
 
+## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
+Aspectos que se deben tener en cuenta sobre el uso compartido de los informes:
+
+* Al compartir un conjunto de datos mediante la administración de permisos, el uso compartido de informes o paneles, o bien la publicación de una aplicación, se le concede acceso a todo el conjunto de datos a menos que se limite mediante la [seguridad de nivel de fila (RLS)](../admin/service-admin-rls.md). Los autores de informes pueden usar funciones que personalicen las experiencias del usuario al ver o interactuar con los informes, por ejemplo ocultar columnas, limitar las acciones en objetos visuales y otras. Esta experiencia de usuario personalizada no restringe los datos a los que los usuarios pueden acceder en el conjunto de datos. Use la [seguridad de nivel de fila (RLS)](../admin/service-admin-rls.md) en el conjunto de datos para que las credenciales de cada usuario determinen los datos a los que puede acceder.
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Formas de compartir el trabajo en Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
