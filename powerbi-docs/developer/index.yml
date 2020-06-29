@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 57dbd3c64265ba532167db806d714054767bc506
+  ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80487796"
+  ms.lasthandoff: 06/16/2020
+  ms.locfileid: "84795056"
 highlightedContent:
   items:
   - title: Análisis integrado con Power BI
@@ -49,7 +49,7 @@ conceptualContent:
     footerLink:
       url: embedded/index.yml
       text: Ver más
-  - title: Objetos visuales de Power BI
+  - title: Objetos visuales de Power BI
     links:
     - url: visuals/power-bi-custom-visuals.md
       itemType: overview
@@ -95,7 +95,7 @@ additionalContent:
       url: https://powerbi.microsoft.com/developers/
     - title: Ejemplos de objetos visuales de Power BI
       summary: Colección de ejemplos de Power BI con sus bibliotecas de código.
-      url: https://microsoft.github.io/PowerBI-visuals/samples/
+      url: visuals/samples.md
     - title: Bibliotecas de Power BI
       summary: Bibliotecas de Power BI (NuGet).
       url: https://www.nuget.org/profiles/powerbi
