@@ -18,13 +18,15 @@
           href: embed-sample-for-your-organization.md
         - name: Inserción de informes paginados para clientes
           href: embed-paginated-reports-customers.md
+        - name: Inserción de informes paginados para la organización
+          href: embed-paginated-reports-organization.md
         - name: Inserción de contenido para nubes nacionales
           href: embed-sample-for-customers-national-clouds.md
     - name: Conceptos
       items:
         - name: "Capacidad y SKU de los análisis incrustados de Power\_BI"
           href: embedded-capacity.md
-        - name: Planeamiento de capacidad
+        - name: Planificación de capacidad
           href: embedded-capacity-planning.md
         - name: Procedimientos recomendados de rendimiento
           href: embedded-performance-best-practices.md
@@ -38,7 +40,7 @@
           href: azure-pbie-diag-logs.md
         - name: Preguntas frecuentes sobre la inserción
           href: embedded-faq.md
-    - name: Procedimiento
+    - name: Procedimientos
       items:
         - name: Inserción mediante una entidad de servicio con certificado
           href: embed-service-principal-certificate.md
@@ -52,11 +54,11 @@
           href: export-paginated-report.md
         - name: Instalación automática de las aplicaciones
           href: embed-auto-install-app.md
-        - name: Crear un inquilino de Azure Active Directory
+        - name: Creación de un inquilino de Azure Active Directory
           href: create-an-azure-active-directory-tenant.md
-        - name: Registrar una aplicación
+        - name: Registro de una aplicación
           href: register-app.md
-        - name: Obtener un token de acceso de Azure AD
+        - name: Obtención de un token de acceso de Azure AD
           href: get-azuread-access-token.md
         - name: Conexión de un informe mediante enlaces dinámicos
           href: embed-dynamic-binding.md
@@ -64,7 +66,7 @@
           href: qanda.md
         - name: Solución de problemas de una aplicación insertada
           href: embedded-troubleshoot.md
-        - name: Administración de capacidades en Azure
+        - name: Administración de capacidades de Azure
           items:
             - name: Creación de una capacidad en Azure
               href: azure-pbie-create-capacity.md
@@ -88,7 +90,7 @@
           items:
             - name: API REST de administración de recursos de Azure
               href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
-            - name: API REST de Power BI
+            - name: API de REST de Power BI
               href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: "Bibliotecas de Power\_BI"
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
@@ -104,7 +106,7 @@
           href: 'https://aka.ms/embedsetup'
         - name: Ejemplo de área de juegos de JavaScript
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Wiki de JavaScript para Power BI
+        - name: Wiki de Power BI JavaScript
           href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
         - name: Scripts y ejemplos para desarrolladores
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'

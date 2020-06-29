@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 8ca7d8b2d4582b309d06363d0c6b87383e1b2550
-  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+  ms.openlocfilehash: adb776b24dd356b70d4438ea74a49f58f6905a56
+  ms.sourcegitcommit: eff98b49e794c7c07670dcfb871f43cb06ed9d3a
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/13/2020
-  ms.locfileid: "83273348"
+  ms.lasthandoff: 06/19/2020
+  ms.locfileid: "85094751"
 landingContent:
 - title: Guía de Power BI
   linkLists:
@@ -49,11 +49,9 @@ landingContent:
       url: star-schema.md
     - text: Técnicas de reducción de datos
       url: import-modeling-data-reduction.md
-    - text: Guía de fecha y hora automáticas
-      url: auto-date-time.md
     - text: Relaciones uno a uno
       url: relationships-one-to-one.md
-    - text: Relaciones de varios a varios
+    - text: Relaciones varios a varios
       url: relationships-many-to-many.md
     - text: Relaciones activas frente a inactivas
       url: relationships-active-inactive.md
@@ -65,6 +63,8 @@ landingContent:
       url: directquery-model-guidance.md
     - text: Guía del modelo compuesto
       url: composite-model-guidance.md
+    - text: Guía de la Seguridad de nivel de fila (RLS)
+      url: rls-guidance.md
 - title: DAX
   linkLists:
   - linkListType: concept

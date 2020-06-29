@@ -84,6 +84,8 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: Integración de la búsqueda de dispositivos iOS
               href: mobile-apps-iOS-search-integration.md
+            - name: Modo oscuro
+              href: mobile-apps-dark-mode.md
             - name: Aplicación Power BI en Apple Watch
               href: mobile-apple-watch.md
         - name: Dispositivos Android
@@ -106,7 +108,7 @@
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
             - name: Visualización de informes locales y KPI
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: Visualización de Power BI en Surface Hub
+            - name: "Modo de presentación para dispositivos Surface Hub y Windows\_10"
               href: mobile-windows-10-app-presentation-mode.md
             - name: Inicio de sesión único en la aplicación de Windows
               href: mobile-windows-10-app-single-sign-on-sso.md

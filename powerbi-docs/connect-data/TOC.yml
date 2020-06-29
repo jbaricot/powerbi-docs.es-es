@@ -9,7 +9,7 @@
           href: service-get-data.md
         - name: ¿Qué es una puerta de enlace de datos local?
           href: service-gateway-onprem.md
-    - name: Inicios rápidos
+    - name: Guías de inicio rápido
       expanded: true
       items:
         - name: Conectarse a los datos en Power BI Desktop
@@ -60,11 +60,11 @@
               href: service-gateway-power-bi-faq.md
     - name: Guías paso a paso
       items:
-        - name: Conexión a orígenes de datos
+        - name: Conectarse a orígenes de datos
           href: desktop-connect-to-data.md
         - name: Conectar a datos
           items:
-            - name: Conexión a orígenes de datos
+            - name: Conectarse a orígenes de datos
               href: desktop-data-sources.md
             - name: Creación de un informe en una lista de SharePoint
               href: desktop-sharepoint-online-list.md
@@ -122,6 +122,8 @@
               href: desktop-connect-to-web.md
             - name: Conectar a un almacén de Snowflake Computing
               href: desktop-connect-snowflake.md
+            - name: "Conexión a Snowflake en el servicio Power\_BI"
+              href: service-connect-snowflake.md
             - name: Creación de objetos visuales con el conector de Azure Cost Management
               href: desktop-connect-azure-cost-management.md
             - name: Conexión a los datos de Azure Consumption Insights
@@ -202,11 +204,11 @@
               href: service-azure-sql-database-with-direct-connect.md
             - name: Datos activos de SQL Server Analysis Services en Power BI
               href: sql-server-analysis-services-tabular-data.md
-        - name: Actualizar datos
+        - name: Actualización de datos
           items:
-            - name: Actualizar datos en Power BI
+            - name: "Actualizar datos en Power\_BI"
               href: refresh-data.md
-            - name: Configuración de actualización programada
+            - name: Configuración de la actualización programada
               href: refresh-scheduled-refresh.md
             - name: Resúmenes de las actualizaciones
               href: refresh-summaries.md
@@ -238,7 +240,7 @@
               href: service-template-update-delete-extract.md
             - name: Ejemplos de aplicaciones plantilla
               href: service-template-apps-samples.md
-        - name: Solucionar problemas
+        - name: Solución de problemas
           items:
             - name: Solución de problemas con los escenarios de actualización
               href: refresh-troubleshooting-refresh-scenarios.md
@@ -252,7 +254,7 @@
               href: service-admin-troubleshoot-excel-workbook-data.md
             - name: Actualización de las credenciales del paquete de contenido de Xero después de un error de actualización
               href: service-refresh-xero-credentials.md
-        - name: Conectarse a los servicios
+        - name: Conexión a los servicios
           items:
             - name: Conexión a servicios con aplicaciones
               href: service-connect-to-services.md
@@ -330,7 +332,7 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Uso de conectores personalizados
               href: service-gateway-custom-connectors.md
-        - name: Solucionar problemas
+        - name: Solución de problemas
           items:
             - name: Solución de problemas de importación de archivos .xls de Access y Excel
               href: desktop-access-database-errors.md
