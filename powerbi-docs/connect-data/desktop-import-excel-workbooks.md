@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 68dce4919dcc15cfcdd6a7c6776d569e43f9666b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 6fce5e88fa41c2eb7ed03b805494165344701da7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561751"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85223538"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Importación de libros de Excel en Power BI Desktop
 Si usa Power BI Desktop, puede importar fácilmente a él libros de Excel que contienen consultas de Power Query, modelos de Power Pivot y hojas de cálculo de Power View. Power BI Desktop crea automáticamente informes y visualizaciones basados en libros de Excel. Una vez importados los libros, puede seguir mejorándolos y perfeccionándolos con Power BI Desktop, usando las características ya existentes o las nuevas que se publican con cada actualización mensual de Power BI Desktop.

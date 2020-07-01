@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7f04a57b64256f83b485a79fe2fd949994b023a4
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273095"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85221684"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Exploración de iconos en las aplicaciones móviles de Power BI
 Se aplica a:
