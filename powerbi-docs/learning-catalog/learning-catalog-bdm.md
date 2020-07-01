@@ -1,17 +1,17 @@
 ---
 title: Catálogo de aprendizaje para responsables de la toma de decisiones técnicas y empresariales
 description: Búsqueda de todas las opciones de entrenamiento para Power BI
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: fbdd55309de033c4173c9068cf0f2bc499855307
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.author: margoc
+ms.openlocfilehash: f41699791ee79ae963978f69974e91f336ccd193
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268452"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532773"
 ---
 # <a name="business-and-technical-decision-makers-learning-catalog"></a>Catálogo de aprendizaje para responsables de la toma de decisiones técnicas y empresariales
 

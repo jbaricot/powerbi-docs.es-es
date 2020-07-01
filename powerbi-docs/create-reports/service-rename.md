@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: fe2eb4524bb49e206eb92e1b21bfb0e3fc3da497
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d37dfece5c7f181ddf55b58ea461e48fdd090d11
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314291"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218755"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Cambiar el nombre de prácticamente cualquier cosa en el servicio Power BI
 Este artículo le enseña a cambiar el nombre de un panel, un informe, una página de informe, un libro, un conjunto de datos, una aplicación y un área de trabajo en el servicio Power BI.

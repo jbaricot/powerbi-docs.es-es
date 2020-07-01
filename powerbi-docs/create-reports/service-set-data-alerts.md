@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f14a9222021a38616b872679a2d8798c15b4c666
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dab2e4b7bdc3da8278db6765e7233d98d7dba473
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83321260"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218732"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Alertas de datos en el servicio Power BI
 
@@ -89,7 +89,7 @@ Hay muchas maneras de administrar las alertas:
 
 ### <a name="from-the-dashboard-tile"></a>Desde el icono del panel
 
-1. Si tiene que cambiar o quitar una alerta de un icono, seleccione el icono de campana **icono de alerta** para volver a abrir la ventana ![Administrar alertas](media/service-set-data-alerts/power-bi-bell-icon.png).
+1. Si tiene que cambiar o quitar una alerta de un icono, seleccione el icono de campana ![icono de alerta](media/service-set-data-alerts/power-bi-bell-icon.png) para volver a abrir la ventana **Administrar alertas**.
 
     Power BI muestra todas las alertas que ha configurado para ese icono.
 

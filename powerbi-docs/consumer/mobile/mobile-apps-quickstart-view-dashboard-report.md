@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 0313dc2014130ded9b9ed4ad112aa26803d92d28
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3b0fba18250853eec7eef85b5cfc9161290bacb
+ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435729"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84685331"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Inicio rápido: exploración de paneles e informes en la aplicación móvil de Power BI
 En este inicio rápido, realizará un recorrido rápido por la aplicación Power BI Mobile y explorará un informe y un panel de ejemplo. Se muestra la aplicación Power BI para iOS, pero puede seguir los pasos en otros dispositivos.
@@ -47,8 +47,6 @@ Una vez que haya completado los requisitos previos y descargado el ejemplo de an
     ![Paneles en Mi área de trabajo](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-dashboard.png)
    
     Los paneles de Power BI tienen un aspecto ligeramente distinto en el dispositivo móvil que en el servicio Power BI. Todos los iconos aparecen de la misma anchura y están ordenados uno tras otro de arriba hacia abajo.
-
-5. Pulse el icono de estrella ![Icono de estrella de Favoritos](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) en la barra de herramientas inferior para convertirlo en un panel favorito. Cuando se crea un favorito en la aplicación móvil, se convierte en favorito en el servicio Power BI, y viceversa.
 
 6. Desplácese hacia abajo y pulse el gráfico de líneas rellenas "This Year's Sales, Last Year's Sales".
 

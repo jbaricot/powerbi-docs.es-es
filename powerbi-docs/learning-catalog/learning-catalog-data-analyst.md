@@ -1,17 +1,17 @@
 ---
 title: Catálogo de aprendizaje para analistas de datos
 description: Búsqueda de todas las opciones de entrenamiento para Power BI
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 97ecff0abf13ff72d7794b06085be077efbe9027
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.author: margoc
+ms.openlocfilehash: 4664966098089d564e82207eb7aac923bc626b77
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565773"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532198"
 ---
 # <a name="data-analyst-learning-catalog"></a>Catálogo de aprendizaje para analistas de datos
 
@@ -55,6 +55,11 @@ El catálogo siguiente se organiza a partir de los conocimientos básicos en dom
 | [Make Your Power BI Data Visual: Core Chart Types and How to Use Them](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-OnDemandRegistration.html) (Haga que sus datos de Power BI sean visuales: tipos de gráficos principales y cómo usarlos)  | El tipo de gráfico es uno de los bloques de creación más fundamentales del análisis visual. Con el uso adecuado de los gráficos, se crean los patrones y la claridad correctos, y se proporcionan las respuestas adecuadas para los usuarios.  | Seminario web |             |
 | [Visualize public or private datasets with the new Power BI and data.world connector](https://info.microsoft.com/data-world-connector-powerbi-ondemand.html) (Visualización de los conjuntos de datos públicos o privados con el nuevo conector de Power BI y data.world)  | En colaboración con data.world, Microsoft ha lanzado un nuevo conector de datos que le permite importar conjuntos de datos de data.world en Power BI Desktop. Junto con data.world, nos complace ayudar a los aficionados a los datos a recopilar, administrar, explorar, visualizar y compartir conclusiones de forma más sencilla con otros usuarios.  | Seminario web |             |
 | [Obtención de conclusiones útiles mediante visualizaciones del mundo real en el panel de Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/8-10-18-Webinar-Get-actionable-insights-using-real-world/td-p/480242) | Únase a Charles Sterling y Shakun Grover mientras recorren el uso de visualizaciones del mundo real en su panel de Power BI.  Microsoft Visio ofrece el lienzo perfecto para la contextualización visual de los datos y la representación de flujos de proceso. Con el nuevo objeto visual de Visio para Power BI, puede incorporar con facilidad las eficaces funciones de visualización de Visio directamente en los paneles de Power BI para impulsar la información y la acción.                              | Seminario web | 34 min 19 s |
+## <a name="dax"></a>DAX<a name="dax"></a>
+| Contenido | Descripción | Formato  | Longitud      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+| [DAX práctico para Power BI, por Phil Seamark](https://www.youtube.com/watch?v=1fGfqzS37qs)  | Para acompañar a su nuevo libro, Phil Seamark examinará algunos procedimientos recomendados para DAX práctico en Power BI   | Vídeo de YouTube | 59 min 41 s |
+| [Soluciones creativas de DAX de Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) | ¿Sabía que el lenguaje DAX sirve para mucho más que para ejecutar simplemente una operación SUM en una columna o contar las filas de una tabla? DAX se basa en una de las bases de datos más rápidas que existen. Únase a Charles Sterling y Philip Seamark mientras exploran algunos escenarios inusuales y creativos que posiblemente no haya pensado que sean posibles. | Seminario web       | 58 min 12 s |
 ## <a name="governance-and-deployment"></a>Gobernanza e implementación<a name="governance-deployment"></a>
 | Contenido  | Descripción   | Formato  | Longitud |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------|

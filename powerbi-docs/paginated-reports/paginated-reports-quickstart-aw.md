@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 81e293f4dbf15a21c2546a54f140b163ebc93c05
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 5243f80fea732e01fee600d738ae6e6cde56e261
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83565658"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427734"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Creación de un informe paginado y su carga en el servicio Power BI
 
@@ -36,7 +36,7 @@ Si no tiene ninguna suscripción a Azure, cree una [cuenta gratuita](https://azu
 
 Estos son los requisitos previos para crear el informe paginado:
 
-- Instale el [Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513). 
+- Instale el [Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://aka.ms/pbireportbuilder). 
 
 - Siga la guía de inicio rápido [Creación de una instancia de ejemplo de Azure SQL Database en Azure Portal](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal). Copie y guarde el valor en el cuadro **Nombre del servidor** en la pestaña **Introducción**. Recuerde el nombre de usuario y la contraseña que creó en Azure.
 

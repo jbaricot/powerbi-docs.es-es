@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565635"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427552"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: Preguntas frecuentes 
 
@@ -96,7 +96,7 @@ Sí, pero el servicio Power BI solo permite cargar un único elemento a la vez,
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>¿Qué versiones del generador de informes se admiten?
 
-Publicamos Power BI Report Builder como la principal herramienta de creación de informes paginados en el servicio Power BI. Instale el [Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513).
+Publicamos Power BI Report Builder como la principal herramienta de creación de informes paginados en el servicio Power BI. Instale el [Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://aka.ms/pbireportbuilder).
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>¿Cómo se pueden mover a Power BI los informes existentes guardados en SQL Server Reporting Services?
 
@@ -181,5 +181,5 @@ Debe tener en cuenta lo siguiente al trabajar con campos DateTime en informes pa
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Instalación del Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Instalación del Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://aka.ms/pbireportbuilder)
 - [Tutorial: Crear un informe paginado](paginated-reports-quickstart-aw.md)
