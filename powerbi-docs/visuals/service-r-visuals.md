@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 722516004a454f970b7a88e2bf4c48d1d0176b6b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 91ca05a144166abbc903d42ba30a5c70b839987d
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237358"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782800"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Creación y uso de objetos visuales de R en Power BI
 
@@ -104,15 +104,19 @@ Los objetos visuales R en el servicio Power BI tienen algunas limitaciones:
   
   * Agregue la línea siguiente al comienzo del script de R:
     
-        powerbi_rEnableShowText =  1
+```powerbi_rEnableShowText =  1```
+
 * Las fuentes de los idiomas chino, japonés y coreano requieren todos los pasos adicionales siguientes para que funcionen correctamente en el servicio Power BI:
   
   * En primer lugar, instale el paquete de R *showtext* y todas sus dependencias. Puede hacerlo mediante la ejecución del siguiente script:
     
-        *install.packages("showtext")*
+```install.packages("showtext")```
+
   * A continuación, agregue la línea siguiente al comienzo del script de R:
     
-        powerbi_rEnableShowTextForCJKLanguages =  1
+```R script
+powerbi_rEnableShowTextForCJKLanguages =  1
+```
 
 ## <a name="overview-of-r-packages"></a>Información general de paquetes R
 Los paquetes R son colecciones de funciones, datos y código compilado R que se combinan en un formato bien definido. Cuando se instala R, incluye un conjunto estándar de paquetes y hay otros paquetes disponibles para su descarga e instalación. Una vez instalado, se debe cargar un paquete de R en la sesión que se usará. El origen principal de los paquetes R gratuitos es CRAN, la [red integral de archivos R](https://cran.r-project.org/web/packages/available_packages_by_name.html).

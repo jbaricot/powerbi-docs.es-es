@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2783f434e2bb1d6d45ed1a9442c60da7b09e7ae4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565446"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782779"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribuir contenido de Power BI a usuarios externos invitados mediante Azure Active Directory B2B
 
@@ -71,7 +71,7 @@ Algunas organizaciones requieren más control sobre cuándo se agregan usuarios 
 
 
 
-1. El proceso estrellas con un administrador de ti que invita al usuario invitado, ya sea manualmente o a través de la API proporcionada por Azure Active Directory
+1. El proceso se inicia con un administrador de ti que invita al usuario invitado, ya sea manualmente o a través de la API proporcionada por Azure Active Directory
 2. El usuario acepta la invitación a la organización.
 3. Una vez que el usuario ha aceptado la invitación, un usuario de Power BI puede compartir un informe o un panel con el usuario externo o con un grupo de seguridad en el que se encuentran. Al igual que con el uso compartido normal en Power BI el usuario externo recibe un correo electrónico con el vínculo al elemento.
 4. Cuando el usuario externo tiene acceso al vínculo, su autenticación en su directorio se pasa a la Azure AD de Contoso y se usa para obtener acceso al contenido del Power BI.

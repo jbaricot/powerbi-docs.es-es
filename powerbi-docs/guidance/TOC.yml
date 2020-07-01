@@ -34,7 +34,7 @@
               href: auto-date-time.md
             - name: Relaciones uno a uno
               href: relationships-one-to-one.md
-            - name: Relaciones varios a varios
+            - name: Relaciones de varios a varios
               href: relationships-many-to-many.md
             - name: Relaciones activas frente a inactivas
               href: relationships-active-inactive.md
@@ -66,6 +66,8 @@
               href: dax-column-measure-references.md
             - name: Evitar el uso de FILTER como argumento de filtro
               href: dax-avoid-avoid-filter-as-filter-argument.md
+            - name: Modelo de ejemplo
+              href: dax-sample-model.md
         - name: Informes de Power BI
           items:
             - name: Separación de informes y modelos
