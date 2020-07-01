@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9f017a4e93e76d91949b3cc3e12ef0c652664a91
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7ba75bf5bce05f7a2614dc27d5ff8245ec1a31ef
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281447"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239180"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Configuración de la obtención de detalles en informes de Power BI
 Con la *obtención de detalles* en informes de Power BI, puede crear una página en el informe que se centre en una entidad específica, como un proveedor, un cliente o un fabricante. Cuando los lectores del informe usan la obtención de detalles, hacen clic con el botón derecho en un punto de datos de otras páginas del informe y, después, exploran la página que tiene el foco para obtener detalles filtrados por ese contexto. También puede [crear un botón que profundice](desktop-drill-through-buttons.md) en los detalles al hacer clic en él.

@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: e2014f359d4085ab0dcb85135f7436c9e403eaab
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 93679c3abcebfee31e1fc5dc20b463a6ef3df549
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114522"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239192"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Explorar los datos en la aplicación móvil de Power BI de su Apple Watch
 Con la aplicación Power BI en Apple Watch, puede ver KPI y ventanas de tarjeta desde los paneles de Power BI en el reloj. Los KPI y las ventanas de tarjeta son apropiados para proporcionar una medida de latido en la pantalla pequeña. Puede actualizar un panel desde un iPhone o desde el mismo Watch.

@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2960bb75e408011cbdf6b05117ac7f6073517f9b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83315947"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238129"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Agregar un hipervínculo a un cuadro de texto de un informe
 Puede agregar un cuadro de texto a un informe en Power BI Desktop o en el servicio Power BI. Puede anclar un cuadro de texto desde un informe a un panel, o bien puede agregar un cuadro de texto directamente a un panel. Sin importar dónde esté el cuadro de texto, siempre podrá agregarle un hipervínculo. En este artículo, se muestra cómo agregar un hipervínculo a un cuadro de texto en un informe. 
