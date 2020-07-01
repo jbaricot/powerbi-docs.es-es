@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 698765cd71873de3badfce45ef546ed61220b323
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 0fd6e2d9a05c07ae5ed74a4f3f35af5267a68a87
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565332"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236207"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Solución de problemas de puertas de enlace: Power BI
 
@@ -54,7 +54,7 @@ En **Mostrar detalles**, puede ver el código de error **DM_GWPipeline_UnknownEr
 
 También puede mirar en **Registros de eventos** > **Registros de aplicaciones y servicios** > **Servicio de puerta de enlace de datos local** para más información.
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Error: Hemos detectado un error al intentar conectar con \<servidor\>. Detalles: "Se conectó con una puerta de enlace de datos, pero esta no puede acceder al origen de datos en el entorno local".
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Error: Se encontró un error al intentar conectarse a \<server\>. Detalles: "Se conectó con una puerta de enlace de datos, pero esta no puede acceder al origen de datos en el entorno local".
 
 No se pudo establecer la conexión al origen de datos especificado. Asegúrese de validar la información proporcionada para ese origen de datos.
 

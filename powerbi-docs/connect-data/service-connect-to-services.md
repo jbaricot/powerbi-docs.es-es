@@ -4,16 +4,16 @@ description: Conéctese a los distintos servicios que usa en su empresa, como Sa
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7465d2f94fcddd37e20b1c1e5a2679810d1a135c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: fa4c8102eeb41fb754604eb646c11f44891413c9
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325170"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236249"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Conexión a los servicios que usa con Power BI
 Con Power BI, puede conectarse a los distintos servicios que usa en su empresa, como Salesforce, Microsoft Dynamics y Google Analytics. Power BI empieza usando sus credenciales para conectarse al servicio. Crea una *área de trabajo* de Power BI con un panel y un conjunto de informes de Power BI que muestran los datos automáticamente y proporcionan información visual sobre la empresa.

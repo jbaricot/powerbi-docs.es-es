@@ -4,15 +4,15 @@ description: Obtenga información sobre cómo buscar contenido y acceder a este 
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
-ms.openlocfilehash: 177f029073320c8db68b532fdb282b745c69a408
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cb6d2d1474ffaeddc98b5019830920f3064e3df2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802649"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235138"
 ---
 # <a name="find-and-access-your-content-with-google-search"></a>Búsqueda de contenido y acceso a este con Google Search
 
