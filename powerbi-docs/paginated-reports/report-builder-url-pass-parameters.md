@@ -3,18 +3,18 @@ title: 'Pasar un parámetro de informe en una URL para un informe paginado: Gene
 description: En este tema se describe cómo pasar parámetros de informe a un informe incluyéndolos en una URL de informe paginado.
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: e6e4187f89bb0ae6e6772f29b19782ee7fbfad25
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c26f9c8f219517e3039b62cdbc89af24ba1af288
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692839"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239551"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Pasar un parámetro de informe en una URL para un informe paginado en Power BI 
 

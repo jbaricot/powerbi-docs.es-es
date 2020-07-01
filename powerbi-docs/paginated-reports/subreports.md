@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9ced88289b2170d503a8394d5b83175659178e85
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272819"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239588"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Subinformes en informes paginados de Power BI
 
@@ -23,7 +23,7 @@ Un *subinforme* es un elemento de informe paginado que muestra otro informe pagi
   
  En esta ilustración, la información de contacto que se muestra en el informe de pedido de ventas procede en realidad de un subinforme de Contactos.  
   
-En Power BI Report Builder puede crear y modificar archivos de definición de informe paginados (.rdl). Puede cargar subinformes almacenados en SQL Server Reporting Services a un área de trabajo Premium en el servicio Power BI. Los informes principales y los subinformes deben publicarse en la misma área de trabajo. Instale [Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513).
+En Power BI Report Builder puede crear y modificar archivos de definición de informe paginados (.rdl). Puede cargar subinformes almacenados en SQL Server Reporting Services a un área de trabajo Premium en el servicio Power BI. Los informes principales y los subinformes deben publicarse en la misma área de trabajo. Instale [Power BI Report Builder](https://aka.ms/pbireportbuilder).
   
 ## <a name="work-with-report-builder-and-the-power-bi-service"></a>Trabajar con Report Builder y el servicio Power BI
 
