@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b10bbaa4158e6c5392cb6ed937c54bdbb5d555d2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9632bfaecc524aac95ec524cccb59ba08a7bc21f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83295339"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229066"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Adición de una columna a partir de ejemplos en Power BI Desktop
 Con *Agregar columna a partir de los ejemplos* en el Editor de Power Query, se pueden agregar columnas nuevas al modelo de datos simplemente proporcionando uno o más valores de ejemplo para las columnas nuevas. Se pueden crear los nuevos ejemplos de columnas a partir de una selección, o bien proporcionar entradas basadas en todas las columnas existentes en la tabla.

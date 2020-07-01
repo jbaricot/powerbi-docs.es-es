@@ -4,16 +4,16 @@ description: Cómo obtener e instalar el panel de ayuda para la toma de decision
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279236"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229674"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Conexión con el panel de respuesta ante emergencias regionales
 El panel de respuesta ante emergencias regionales es el componente de informes de la [solución de respuesta ante emergencias regionales de Microsoft Power Platform](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview). Los administradores de la organización regional pueden visualizar el panel en su inquilino de Power BI, lo que les permite ver rápidamente datos y métricas importantes que les ayudarán a tomar decisiones eficaces.
