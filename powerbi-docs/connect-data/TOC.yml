@@ -9,7 +9,7 @@
           href: service-get-data.md
         - name: ¿Qué es una puerta de enlace de datos local?
           href: service-gateway-onprem.md
-    - name: Guías de inicio rápido
+    - name: Inicios rápidos
       expanded: true
       items:
         - name: Conectarse a los datos en Power BI Desktop
@@ -60,11 +60,11 @@
               href: service-gateway-power-bi-faq.md
     - name: Guías paso a paso
       items:
-        - name: Conectarse a orígenes de datos
+        - name: Conexión a orígenes de datos
           href: desktop-connect-to-data.md
         - name: Conectar a datos
           items:
-            - name: Conectarse a orígenes de datos
+            - name: Conexión a orígenes de datos
               href: desktop-data-sources.md
             - name: Creación de un informe en una lista de SharePoint
               href: desktop-sharepoint-online-list.md
@@ -94,6 +94,8 @@
                   href: desktop-python-ide.md
                 - name: Creación de objetos visuales con Python
                   href: desktop-python-visuals.md
+                - name: Conozca qué paquetes de Python se admiten
+                  href: service-python-packages-support.md
             - name: Ejecutar scripts de R
               href: desktop-r-scripts.md
             - name: Uso de R en el Editor de consultas
@@ -204,11 +206,11 @@
               href: service-azure-sql-database-with-direct-connect.md
             - name: Datos activos de SQL Server Analysis Services en Power BI
               href: sql-server-analysis-services-tabular-data.md
-        - name: Actualización de datos
+        - name: Actualizar datos
           items:
-            - name: "Actualizar datos en Power\_BI"
+            - name: Actualizar datos en Power BI
               href: refresh-data.md
-            - name: Configuración de la actualización programada
+            - name: Configuración de actualización programada
               href: refresh-scheduled-refresh.md
             - name: Resúmenes de las actualizaciones
               href: refresh-summaries.md
@@ -240,7 +242,7 @@
               href: service-template-update-delete-extract.md
             - name: Ejemplos de aplicaciones plantilla
               href: service-template-apps-samples.md
-        - name: Solución de problemas
+        - name: Solucionar problemas
           items:
             - name: Solución de problemas con los escenarios de actualización
               href: refresh-troubleshooting-refresh-scenarios.md
@@ -254,7 +256,7 @@
               href: service-admin-troubleshoot-excel-workbook-data.md
             - name: Actualización de las credenciales del paquete de contenido de Xero después de un error de actualización
               href: service-refresh-xero-credentials.md
-        - name: Conexión a los servicios
+        - name: Conectarse a los servicios
           items:
             - name: Conexión a servicios con aplicaciones
               href: service-connect-to-services.md
@@ -332,7 +334,7 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Uso de conectores personalizados
               href: service-gateway-custom-connectors.md
-        - name: Solución de problemas
+        - name: Solucionar problemas
           items:
             - name: Solución de problemas de importación de archivos .xls de Access y Excel
               href: desktop-access-database-errors.md
