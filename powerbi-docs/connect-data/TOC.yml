@@ -26,8 +26,6 @@
           href: desktop-tutorial-facebook-analytics.md
         - name: Implementación de seguridad de nivel de fila en un modelo tabular de Analysis Services
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: Introducción a Power BI
-          href: ../fundamentals/service-get-started.md
         - name: Conexión a un ejemplo de GitHub
           href: service-tutorial-connect-to-github.md
         - name: Uso de Analizar en Excel
