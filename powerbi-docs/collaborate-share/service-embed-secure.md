@@ -6,15 +6,15 @@ ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693837"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226208"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserción de informes en un sitio web o portal seguro
 
@@ -139,7 +139,7 @@ Puede agregar tantos botones como quiera para crear una experiencia personalizad
 
 * La funcionalidad de autenticación automática que se incluye con la opción **Insertar** no funciona con la API de JavaScript para Power BI. Con la API de JavaScript para Power BI, use el método de inserción [el usuario es el propietario de los datos](../developer/embedded/embed-sample-for-your-organization.md). 
 
-* La vigencia del token de autenticación depende de la configuración de AAD. Cuando expire el token de autenticación, el usuario tendrá que actualizar el explorador para obtener un token de autenticación actualizado. La vigencia predeterminada es de una hora, pero puede que en su organización sea más larga o corta.
+* La vigencia del token de autenticación depende de la configuración de AAD. Cuando expire el token de autenticación, el usuario tendrá que actualizar el explorador para obtener un token de autenticación actualizado. La vigencia predeterminada es de una hora, pero puede que en su organización sea más larga o corta.  No se puede actualizar automáticamente el token en este escenario.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

@@ -10,12 +10,12 @@ ms.date: 04/07/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: f494533c8b79dce250f3f25c706896d542f01f26
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 885490554acfec10503ba8ce7bc1db6937ec8fce
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159568"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485470"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Inscripción de una organización de la Administración Pública de Estados Unidos en el servicio Power BI
 
@@ -32,7 +32,7 @@ Para obtener más información sobre el servicio Power BI para la Administraci�
 
 Su organización de la Administración Pública de Estados Unidos podría ser un cliente nuevo de Government Cloud Community o podría tener ya una suscripción. En las secciones siguientes se detallan los pasos de inicio de sesión según su relación con Microsoft 365 Administración Pública y Power BI. Estos pasos son diferentes en función de su suscripción actual.
 
-Después de registrarse en Power BI para la Administración Pública de Estados Unidos, trabaje con el equipo de cuentas para iniciar el [proceso de inclusión en la *lista de permitidos*](#additional-signup-information) que se describe en este artículo. Este paso es necesario para habilitar completamente su organización en Government Community Cloud.
+Después de registrarse en Power BI para la Administración Pública de Estados Unidos, trabaje con el equipo de cuentas para iniciar el [proceso de inclusión en listas de permitidos](#additional-signup-information) que se describe en este artículo. Este paso es necesario para habilitar completamente su organización en Government Community Cloud.
 
 ## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>Regístrese en un nuevo plan de Microsoft 365 Administración Pública
 
@@ -69,9 +69,9 @@ Si su organización ya tiene un plan de Microsoft 365 Administración Pública,
 
 ## <a name="additional-signup-information"></a>Información adicional sobre la suscripción
 
-Para poder usar los servicios de Power BI para la Administración Pública de Estados Unidos, tiene que trabajar con su equipo de cuentas de Microsoft para iniciar el proceso de *inclusión en la lista de permitidos* para su organización. La inclusión en la lista de permitidos es un proceso que usa el equipo de ingeniería de Power BI para mover a los clientes del entorno de la nube comercial al entorno seguro de Government Community Cloud. Este paso garantiza que las características disponibles en la nube de la Administración Pública de Estados Unidos funcionarán según lo previsto. 
+Para poder usar los servicios Power BI para la Administración Pública de Estados Unidos, tiene que trabajar con su equipo de cuentas de Microsoft para agregar su organización a la lista de permitidos. El proceso de inclusión en la lista de permitidos lo usa el equipo de ingeniería de Power BI para mover a los clientes del entorno de nube comercial al entorno seguro de Government Community Cloud. Este paso garantiza que las características disponibles en la nube de la Administración Pública de Estados Unidos funcionarán según lo previsto. 
 
-Para iniciar el proceso de inclusión en la lista de permitidos, póngase en contacto con su equipo de cuentas de Microsoft para obtener ayuda. Solo los administradores pueden solicitar la inclusión en la lista de permitidos. El proceso tarda aproximadamente tres semanas. Durante este tiempo, el equipo de ingeniería de Power BI realiza los cambios adecuados para asegurarse de que el inquilino funcione correctamente en la nube de la Administración Pública de Estados Unidos.
+Para iniciar el proceso de inclusión en la lista de permitidos, póngase en contacto con su equipo de cuentas de Microsoft para obtener ayuda. Solo los administradores pueden solicitar incorporaciones a la lista de permitidos. El proceso tarda aproximadamente tres semanas. Durante este tiempo, el equipo de ingeniería de Power BI realiza los cambios adecuados para asegurarse de que el inquilino funcione correctamente en la nube de la Administración Pública de Estados Unidos.
 
 
 ## <a name="next-steps"></a>Pasos siguientes

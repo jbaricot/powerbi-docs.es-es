@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/31/2020
-ms.openlocfilehash: 0391f0f2e4340b01c1f1ad7a3bce860487daabc9
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.date: 06/30/2020
+ms.openlocfilehash: 0339dd4a8fa7b429db01715060bfd146db115e46
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272664"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782739"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registro de cambios de Power BI Report Server
 
@@ -21,9 +21,15 @@ Este registro de cambios es para el servidor de informes de Power BI y enumera l
 
 Para obtener información detallada sobre las nuevas características, consulte [Novedades en el servidor de informes de Power BI](whats-new.md). 
 
-
 ## <a name="may-2020"></a>Mayo de 2020
 - **Servidor de informes de Power BI**
+    - *Versión: 1.8.7485.35104 (compilación 15.0.1103.234), fecha de publicación: 30 de junio de 2020*
+        - Correcciones de errores
+            - Se corrigió un error en escenarios de escalabilidad horizontal en que los informes no estaban reflejando las ediciones de manera inmediata en el servidor después de la carga.
+    - *Versión: 1.8.7468.41510 (compilación 15.0.1103.232), fecha de publicación: 15 de junio de 2020*
+        - Correcciones de errores
+            - Se corrigió un error en el que los informes no estaban reflejando las ediciones de manera inmediata en el servidor después de la carga.
+            - Se corrigió un error en el que no se completaba la actualización cuando se usaba la coincidencia aproximada para combinar consultas.
     - *Versión: 1.8.7450.37410 (compilación 15.0.1103.227), fecha de publicación: 27 de mayo de 2020*
          - Características
             -  Se ha agregado compatibilidad para el tamaño de grupo de conexiones de catálogo personalizable (vea [Configuración de MaxCatalogConnectionPoolSizePerProcess](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service) para obtener más detalles).

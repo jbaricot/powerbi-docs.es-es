@@ -5,17 +5,17 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272687"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782406"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Seguimiento de actividades de usuario en Power BI
 
@@ -244,8 +244,9 @@ Las operaciones siguientes están disponibles en los registros de auditoría y d
 | Acceso a la carpeta de Power BI agregado                      | AddFolderAccess                             | No se usa actualmente                       |
 | Miembros del grupo de Power BI agregados                      | AddGroupMembers                             |                                          |
 | Cuenta de almacenamiento del flujo de datos adjuntado al inquilino por el administrador | AdminAttachedDataflowStorageAccountToTenant | No se usa actualmente                       |
-| Se ha analizado un conjunto de datos de Power BI                         | AnalyzedByExternalApplication               |                                          |
-| Informe de Power BI analizado                          | AnalyzeInExcel                              | Se genera cuando los usuarios interactúan con el servicio. La descarga del archivo `*.odc` no crea un evento de auditoría                                         |
+| Se ha analizado un conjunto de datos de Power BI                         | AnalyzedByExternalApplication               | Se genera cuando los usuarios interactúan con el servicio                                         |
+| Informe de Power BI analizado                          | AnalyzeInExcel                              |                                          |
+| Asignado un área de trabajo a una canalización de implementación                          | AssignWorkspaceToPipeline                              |                                          |
 | Cuenta de almacenamiento del flujo de datos asociada                 | AttachedDataflowStorageAccount              |                                          |
 | Conjunto de datos de Power BI enlazado a la puerta de enlace                | BindToGateway                               |                                          |
 | Actualización de flujo de datos cancelada                        | CancelDataflowRefresh                       |                                          |
@@ -254,7 +255,9 @@ Las operaciones siguientes están disponibles en los registros de auditoría y d
 | Conexiones de datos de Power BI cambiadas              | SetAllConnections                           |                                          |
 | Se han cambiado los administradores de la puerta de enlace de Power BI                   | ChangeGatewayAdministrators                 |                                          |
 | Se han cambiado los usuarios de los orígenes de datos de la puerta de enlace de Power BI        | ChangeGatewayDatasourceUsers                |                                          |
+| Se creó un objeto visual personalizado de organización                          | InsertOrganizationalGalleryItem                                |                                          |
 | Paquete de contenido organizativo de Power BI creado      | CreateOrgApp                                |                                          |
+| Se creó una canalización de implementación      | CreateAlmPipeline                                |                                          |
 | Aplicación de Power BI creada                              | CreateApp                                   |                                          |
 | Panel de Power BI creado                        | CreateDashboard                             |                                          |
 | Flujo de datos de Power BI creado                         | CreateDataflow                              |                                          |
@@ -264,9 +267,13 @@ Las operaciones siguientes están disponibles en los registros de auditoría y d
 | Se ha creado una puerta de enlace de Power BI                          | CreateGateway                               |                                          |
 | Grupo de Power BI creado                            | CreateGroup                                 |                                          |
 | Informe de Power BI creado                           | CreateReport <sup>1</sup>                                |                                          |
+| El objeto visual personalizado solicitó un token de acceso a Azure AD                           | GenerateCustomVisualAADAccessToken                                |                                          |
+| El objeto visual personalizado solicitó un token de acceso a Office Web Apps                           | GenerateCustomVisualWACAccessToken                                |                                          |
 | Flujo de datos migrado a la cuenta de almacenamiento externa     | DataflowMigratedToExternalStorageAccount    | No se usa actualmente                       |
 | Permisos de flujo de datos agregados                        | DataflowPermissionsAdded                    | No se usa actualmente                       |
 | Permisos de flujo de datos eliminados                      | DataflowPermissionsRemoved                  | No se usa actualmente                       |
+| Se eliminó un objeto visual personalizado de organización     | DeleteOrganizationalGalleryItem                                |                                          |
+| Se eliminó una canalización de implementación      | DeleteAlmPipeline                                |                                          |
 | Paquete de contenido organizativo de Power BI eliminado      | DeleteOrgApp                                |                                          |
 | Comentario de Power BI eliminado                          | DeleteComment                               |                                          |
 | Panel de Power BI eliminado                        | DeleteDashboard                             | No se usa actualmente                       |
@@ -278,6 +285,7 @@ Las operaciones siguientes están disponibles en los registros de auditoría y d
 | Se ha eliminado una puerta de enlace de Power BI                          | DeleteGateway                               |                                          |
 | Grupo de Power BI eliminado                            | DeleteGroup                                 |                                          |
 | Informe de Power BI eliminado                           | DeleteReport                                |                                          |
+| Implementado en una fase de canalización                           | DeployAlmPipeline                                |                                          |
 | Orígenes de datos de conjunto de datos de Power BI detectados          | GetDatasources                              |                                          |
 | Informe de Power BI descargado                        | DownloadReport                              |                                          |
 | Propiedades del flujo de datos editadas                        | EditDataflowProperties                      |                                          |
@@ -302,6 +310,7 @@ Las operaciones siguientes están disponibles en los registros de auditoría y d
 | Informe de Power BI publicado en la Web                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | Tablas destacadas publicadas o actualizadas | UpdateFeaturedTables <sup>3</sup>   | |
 | Flujo de datos de Power BI secreto recibido de Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
+| Se quitó un área de trabajo de una canalización de implementación         | UnassignWorkspaceFromPipeline                 |                                          |
 | Se ha eliminado un origen de datos de la puerta de enlace de Power BI         | RemoveDatasourceFromGateway                 |                                          |
 | Miembros del grupo de Power BI eliminados                    | DeleteGroupMembers                          |                                          |
 | Área de trabajo de una capacidad eliminada                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -321,9 +330,12 @@ Las operaciones siguientes están disponibles en los registros de auditoría y d
 | Control tomado sobre un flujo de datos de Power BI                     | TookOverDataflow                             |                                          |
 | Publicación de una aplicación de Power BI anulada                          | UnpublishApp                                |                                          |
 | Configuración de gobernanza de recursos de capacidad actualizada      | UpdateCapacityResourceGovernanceSettings    | No se encuentra en el Centro de administración de Microsoft 365 |
+| Se actualizó un objeto visual personalizado de organización                     | UpdateOrganizationalGalleryItem                   |                                          |
 | Administración de capacidad actualizada                            | UpdateCapacityAdmins                        |                                          |
 | Nombre para mostrar de la capacidad actualizado                     | UpdateCapacityDisplayName                   |                                          |
 | Permisos de asignación de almacenamiento del flujo de datos actualizados   | UpdatedDataflowStorageAssignmentPermissions |                                          |
+| Se actualizó el acceso a una canalización de implementación   | UpdateAlmPipelineAccess |                                          |
+| Se actualizó la configuración de una canalización de implementación   | SetConfigurationAlmPipeline |                                          |
 | Configuración de Power BI de la organización actualizada          | UpdatedAdminFeatureSwitch                   |                                          |
 | Aplicación de Power BI actualizada                              | UpdateApp                                   |                                          |
 | Flujo de datos de Power BI actualizados                         | UpdateDataflow                              |                                          |

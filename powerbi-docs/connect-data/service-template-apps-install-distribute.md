@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693068"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235705"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalación y distribución de aplicaciones de plantilla en la organización
 
@@ -38,15 +38,19 @@ Para instalar, personalizar y distribuir una aplicación de plantilla, necesita 
 
     ![Obtener aplicaciones](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-1. En la ventana de AppSource que aparece, seleccione **Aplicaciones**. Examine o busque la aplicación que quiera y, después, seleccione **Obtenerla ahora**.
+1. En el marketplace de aplicaciones de Power BI que aparece, seleccione **Aplicaciones de plantilla**. Se mostrarán todas las aplicaciones de plantilla disponibles en AppSource. Busque la aplicación de plantilla que está buscando u obtenga una selección filtrada mediante el cuadro de búsqueda. Al escribir parte del nombre de una aplicación de plantilla o de una categoría, como finanzas, análisis, marketing, etc., resultará más fácil encontrar el elemento que está buscando.
 
     ![Búsqueda en AppSource](media/service-template-apps-install-distribute/power-bi-appsource.png)
+
+1. Cuando encuentre la aplicación de plantilla que está buscando, haga clic en ella. Se mostrará el anuncio de la aplicación de plantilla. Haga clic en **OBTENERLO AHORA**.
+
+   ![Anuncio de la aplicación de plantilla](media/service-template-apps-install-distribute/power-bi-template-app-offer.png)
 
 1. En el cuadro de diálogo que aparece, haga clic en **Instalar**.
 
     ![Instalar aplicación](media/service-template-apps-install-distribute/power-install-dialog.png)
     
-    La aplicación se instala con un área de trabajo asociada. **Si decide personalizar la aplicación, lo hará en este área de trabajo asociada**.
+    La aplicación se instala, junto con un área de trabajo con el mismo nombre que tiene todos los artefactos necesarios para una mayor [personalización](#customize-and-share-the-app).
 
     > [!NOTE]
     > Si usa un vínculo de instalación para una aplicación que no aparece en AppSource, se le pedirá que confirme la elección en un cuadro de diálogo de validación.

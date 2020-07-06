@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 56e0c3c6dde3a745448092ad118275ed847506fa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 706e4221c131f1743ff00bb9a7b6c0812394cbb8
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230228"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782436"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Conexión a GitHub con Power BI
 En este artículo, se explica cómo obtener datos de una cuenta de GitHub con una aplicación de plantilla de Power BI. La aplicación de plantilla genera un área de trabajo con un panel, un conjunto de informes y un conjunto de datos para que pueda explorar los datos de GitHub. La aplicación de GitHub para Power BI le muestra conclusiones sobre su repositorio de GitHub, con datos sobre contribuciones, problemas, solicitudes de incorporación de cambios y usuarios activos.
@@ -100,7 +100,7 @@ Los siguientes datos están disponibles desde GitHub en Power BI:
 | --- | --- |
 | Contribuciones |La tabla de contribuciones proporciona el total de adiciones, eliminaciones y confirmaciones creadas por el colaborador de forma agregada por semana. Se incluyen los 100 colaboradores principales. |
 | Problemas |Lista de todos los problemas para el repositorio seleccionado con cálculos como, por ejemplo, tiempo total y promedio para cerrar un problema, total de problemas abiertos o total de problemas cerrados. Esta tabla estará vacía cuando no haya ningún problema en el repositorio. |
-| Solicitudes de extracción |Esta tabla contiene todas las solicitudes de extracción para el repositorio, así como quién extrajo la solicitud. También contiene cálculos de las solicitudes de incorporación de cambios abiertas, cerradas y el total, cuánto tiempo se ha necesitado para incorporar los cambios y cuánto tiempo se ha tardado de media para cada solicitud de incorporación de cambios. Esta tabla estará vacía cuando no haya ningún problema en el repositorio. |
+| Solicitudes de extracción |Esta tabla contiene todas las solicitudes de extracción para el repositorio, así como quién extrajo la solicitud. También contiene cálculos de las solicitudes de incorporación de cambios abiertas, cerradas y el total, cuánto tiempo se ha necesitado para incorporar los cambios y cuánto tiempo se ha tardado de media para cada solicitud de incorporación de cambios. Esta tabla estará vacía cuando no haya ninguna solicitud de incorporación de cambios en el repositorio. |
 | Usuarios |En esta tabla, se muestra una lista de colaboradores o usuarios de GitHub que han realizado contribuciones, registrado problemas o solucionado solicitudes de incorporación de cambios para el repositorio seleccionado. |
 | Hitos |Contiene todos los hitos para el repositorio seleccionado. |
 | DateTable |Estas tablas contienen fechas actuales y de años anteriores, y permiten analizar los datos de GitHub por fecha. |

@@ -5,17 +5,17 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/03/2019
+ms.topic: how-to
+ms.date: 06/16/2020
 ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 469f217426f4c66c6d1d0d72192efbda8391689c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4addd87085eb4321253bcf34842ca135f536f981
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83315303"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238110"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Trabajo con agregados (suma, promedio, etc.) en el servicio Power BI
 
@@ -152,13 +152,13 @@ También es posible agregar un campo no numérico. Por ejemplo, si tiene un camp
 
 P:  ¿Por qué no dispongo de la opción **No resumir**?
 
-R:  El campo que ha seleccionado es probablemente una medida calculada o una medida avanzada creada en Excel o [Power BI Desktop](../transform-model/desktop-measures.md). Cada medida calculada tiene su propia fórmula codificada de forma rígida. No puede cambiar la agregación que usa Power BI. Por ejemplo, si es una suma, solo puede ser una suma. En la lista **Campos**, aparecen las *medidas calculadas* con el símbolo de la calculadora.
+R:  El campo que ha seleccionado es probablemente una medida calculada en un modelo multidimensional, o una medida creada en Excel o [Power BI Desktop](../transform-model/desktop-measures.md). Cada medida tiene su propia fórmula codificada de forma rígida. No puede cambiar la agregación que usa Power BI. Por ejemplo, si es una suma, solo puede ser una suma. En la lista **Campos**, aparecen las *medidas* con el símbolo de la calculadora.
 
 P:  Mi campo **es** numérico; ¿por qué solo tengo las opciones **Recuento** y **Recuento distinto**?
 
 R1:  Lo más probable es que el propietario del conjunto de datos *no* haya clasificado el campo como un número. Por ejemplo, si un conjunto de datos tiene un campo de **año**, el propietario del conjunto de datos puede clasificar el valor como texto. Es más probable que Power BI cuente el campo de **año** (por ejemplo, el número de personas nacidas en 1974). Es menos probable que Power BI lo sume o calcule su promedio. Si es el propietario, puede abrir el conjunto de datos en Power BI Desktop y usar la pestaña **Modelado** para cambiar el tipo de datos.
 
-A2: Si el campo tiene un icono de calculadora, eso significa que es una *medida calculada*. Cada medida calculada tiene su propia fórmula codificada de forma rígida que solo puede cambiar el propietario del conjunto de datos. El cálculo que usa Power BI puede ser una agregación simple como un promedio o una suma, pero también podría ser algo más complicado como un "porcentaje de contribución a la categoría primaria" o "total acumulado desde el inicio del año". Power BI no va a sumar ni calcular el promedio de los resultados. En su lugar, simplemente volverá a calcular (mediante la fórmula codificada de forma rígida) para cada punto de datos.
+A2: Si el campo tiene un icono de calculadora, eso significa que es una *medida*. Cada medida tiene su propia fórmula que solo puede cambiar el propietario del conjunto de datos. El cálculo que usa Power BI puede ser una agregación simple como un promedio o una suma, pero también podría ser algo más complicado como un "porcentaje de contribución a la categoría primaria" o "total acumulado desde el inicio del año". Power BI no va a sumar ni calcular el promedio de los resultados. En su lugar, simplemente volverá a calcular (mediante la fórmula codificada de forma rígida) para cada punto de datos.
 
 A3:  Otra posibilidad es que el campo esté en un *depósito* que solo permite valores de categoría.  En ese caso, las únicas opciones que tendrá disponibles serán recuento y recuento distinto.
 

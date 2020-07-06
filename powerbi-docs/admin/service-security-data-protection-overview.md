@@ -4,17 +4,17 @@ description: Obtenga información sobre cómo funciona la protección de datos e
 author: paulinbar
 manager: rkarlin
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/21/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa969f8f738cf09e9e01e284de8f60e2fd8ce9ab
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 4575c80106329a00c959db73c2851c99959f41ec
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315681"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393666"
 ---
 # <a name="data-protection-in-power-bi"></a>Protección de datos en Power BI
 
@@ -37,7 +37,7 @@ Para acceder a las etiquetas de confidencialidad en cualquiera de estos centros,
 > Si en la organización se usan etiquetas de confidencialidad de Azure Information Protection, tendrá que [migrarlas](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) a uno de los servicios enumerados antes para que se puedan usar en Power BI.
 
 > [!NOTE]
-> Las etiquetas de confidencialidad solo se admiten para inquilinos de nubes públicas, no para los de nubes soberanas.
+> Las etiquetas de confidencialidad solo se admiten para inquilinos de nubes públicas, no para los de nubes nacionales.
 
 ## <a name="how-sensitivity-labels-work-in-power-bi"></a>Cómo funcionan las etiquetas de confidencialidad en Power BI
 

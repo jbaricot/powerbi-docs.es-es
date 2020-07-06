@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 67c83f2cc0eb81e90f447961ed178a04e97e050e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba59a08ee1b50e44af71312a25d77fb67c8fca2d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292096"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485447"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Solución de problemas de apertura de Power BI Desktop
 
@@ -36,7 +36,7 @@ Puede desinstalar la puerta de enlace de datos local de Power BI si ya no la nec
 
 En su lugar, puede iniciar correctamente Power BI Desktop como administrador, lo que también permite la apertura correcta de Power BI Desktop. Se sigue recomendando instalar la versión más reciente de la puerta de enlace de datos local de Power BI, como se ha descrito anteriormente.
 
-Power BI Desktop se ha diseñado como una arquitectura multiproceso, y algunos de estos procesos se comunican mediante canalizaciones con nombre de Windows. Puede haber otros procesos que interfieran con estas canalizaciones con nombre. La razón más común para este tipo de interferencias es la seguridad, incluidas las situaciones donde firewalls o software antivirus podrían bloquear las canalizaciones o redirigir el tráfico a un puerto específico. La apertura de Power BI Desktop con privilegios de administrador puede resolver ese problema. Si no puede abrir con privilegios de administrador, pida a este que determine qué reglas de seguridad impiden a las canalizaciones con nombre comunicarse correctamente. A continuación, incluya Power BI Desktop en la lista de permitidos y sus subprocesos correspondientes.
+Power BI Desktop se ha diseñado como una arquitectura multiproceso, y algunos de estos procesos se comunican mediante canalizaciones con nombre de Windows. Puede haber otros procesos que interfieran con estas canalizaciones con nombre. La razón más común para este tipo de interferencias es la seguridad, incluidas las situaciones donde firewalls o software antivirus podrían bloquear las canalizaciones o redirigir el tráfico a un puerto específico. La apertura de Power BI Desktop con privilegios de administrador puede resolver ese problema. Si no puede abrir con privilegios de administrador, pida a este que determine qué reglas de seguridad impiden a las canalizaciones con nombre comunicarse correctamente. A continuación, agregue Power BI Desktop y sus subprocesos respectivos a las listas de permitidos.
 
 ## <a name="resolve-issues-when-connecting-to-sql-server"></a>Resolver problemas al conectarse a SQL Server
 

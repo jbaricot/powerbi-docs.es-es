@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c43b0710c15fcc77a08aa789a92d840d2425f5ab
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: d7e1365ce1328e529d056a80b46230b97febc446
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315957"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485677"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
@@ -109,7 +109,7 @@ Los administradores de Power BI pueden usar los registros de auditoría de Powe
 
 ### <a name="general"></a>General
 
-- Al igual que otros productos de BI, el momento en el que se establece la suscripción es cuando esta comienza el procesamiento.  Una vez completado el procesamiento del informe, la suscripción se pone en cola y se envía a los destinatarios de correo electrónico.  Nos esforzamos por procesar y ofrecer todas las suscripciones lo antes posible. Aunque, a veces, en períodos de demanda máxima, se puede ver un retraso más largo debido al número de suscripciones que Power BI puede enviar a la vez. La mayoría de los clientes no debe ver un retraso de más de 15 minutos en el procesamiento y envío de informes. El proceso puede tardar hasta 30 minutos en determinadas horas e inquilinos con un uso significativo.  Nunca esperamos que ningún retraso en la entrega sea superior a 60 minutos desde el momento en que se programa la suscripción.  Si experimenta un retraso tan grande, asegúrese primero de que la dirección `no-reply-powerbi@microsoft.com` está en la lista blanca de su proveedor de correo electrónico.  Si es así, póngase en contacto con soporte técnico de Power BI para obtener ayuda.
+- Al igual que otros productos de BI, el momento en el que se establece la suscripción es cuando esta comienza el procesamiento.  Una vez completado el procesamiento del informe, la suscripción se pone en cola y se envía a los destinatarios de correo electrónico.  Nos esforzamos por procesar y ofrecer todas las suscripciones lo antes posible. Aunque, a veces, en períodos de demanda máxima, se puede ver un retraso más largo debido al número de suscripciones que Power BI puede enviar a la vez. La mayoría de los clientes no debe ver un retraso de más de 15 minutos en el procesamiento y envío de informes. El proceso puede tardar hasta 30 minutos en determinadas horas e inquilinos con un uso significativo.  Nunca esperamos que ningún retraso en la entrega sea superior a 60 minutos desde el momento en que se programa la suscripción.  Si experimenta un retraso así, asegúrese primero de que la dirección `no-reply-powerbi@microsoft.com` está en la lista de remitentes seguros y de que el proveedor de correo electrónico no la tiene bloqueada.  Si el correo electrónico no está bloqueado, póngase en contacto con el soporte técnico de Power BI para obtener ayuda.
 - En la actualidad, al suscribir a otros usuarios, no se admiten las suscripciones de correo electrónico relativas a informes o paneles que usen conjuntos de datos con conexión dinámica, excepto para los informes paginados. Puede suscribir a otros usuarios a un informe paginado mediante el contexto de seguridad. Obtenga más información sobre la [suscripción a informes paginados](../consumer/paginated-reports-subscriptions.md).
 - Power BI detiene de forma automática la actualización en los conjuntos de datos asociados con los paneles e informes que no se han visitado en más de dos meses. Pero si agrega una suscripción a un panel o informe, no se detiene incluso si no recibe visitas.
 - Si no recibe los mensajes de correo electrónico de suscripción, asegúrese de que el nombre principal de usuario (UPN) puede recibirlos.
@@ -134,6 +134,7 @@ Los administradores de Power BI pueden usar los registros de auditoría de Powe
 - Las suscripciones de correo electrónico no admiten la mayoría de los [objetos visuales personalizados](../developer/power-bi-custom-visuals.md). La única excepción son esos objetos visuales personalizados que se han [certificado](../developer/power-bi-custom-visuals-certified.md).
 - En la actualidad, las suscripciones de correo electrónico no admiten los objetos visuales personalizados con la tecnología de R.
 - Las suscripciones de correo electrónico se envían con los estados de segmentación y filtros predeterminados del informe. En el correo electrónico no se muestran los cambios en los valores predeterminados que realice tras suscribirse. Los informes paginados admiten esta función y le permiten establecer valores de parámetro específicos por suscripción.
+- Supongamos que tiene un informe con una conexión dinámica a Analysis Services y tiene la suscripción establecida para ejecutarse después de la actualización de datos. Se ejecutará la primera vez que el servicio Power BI detecte un cambio en el modelo local al sondear la instancia de Analysis Services.  Power BI revisa cada hora si hay un cambio en el modelo de datos de Analysis Services para determinar cuándo se debe enviar la suscripción.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

@@ -5,17 +5,17 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: edc06d7a46589c999e4bf18613c0c75f6d5bf983
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: c3a625dcdd58f881c9314e821753f66098e073f5
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120591"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354441"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Creación de las nuevas áreas de trabajo en Power BI
 
@@ -144,6 +144,20 @@ Cualquier persona que tenga un rol de administrador en un área de trabajo puede
 Si quiere distribuir contenido oficial a un público amplio dentro de la organización, puede publicar una *aplicación* desde el área de trabajo.  Cuando el contenido esté listo, elija en qué paneles e informes quiere publicarlo y publíquelo como una aplicación. Puede crear una aplicación desde cada área de trabajo.
 
 Lea sobre la [publicación de una aplicación desde las nuevas áreas de trabajo](service-create-distribute-apps.md).
+
+## <a name="security-settings"></a>Configuración de seguridad
+
+El parámetro **Allow contributors to update the app for this workspace** (Permitir que los colaboradores actualicen la aplicación para esta área de trabajo) permite a los administradores del área de trabajo delegar en los usuarios con el rol de colaborador la capacidad de actualizar la aplicación para el área de trabajo. De forma predeterminada, solo los administradores y miembros del área de trabajo pueden publicar y actualizar la aplicación para el área de trabajo. 
+
+Cuando está habilitado, los colaboradores pueden:
+* Actualizar metadatos de la aplicación, como el nombre, el icono, la descripción, el sitio de soporte técnico y el color
+* Agregar o quitar elementos incluidos en la aplicación, como la adición de informes o conjuntos de valores
+* Cambiar la navegación de la aplicación o el elemento predeterminado en el que se abre la aplicación
+
+Sin embargo, los colaboradores no pueden:
+* Publicar la aplicación por primera vez
+* Cambiar quién tiene permiso para la aplicación
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 * Lea sobre la [organización del trabajo en la nueva experiencia de área de trabajo en Power BI](service-new-workspaces.md).

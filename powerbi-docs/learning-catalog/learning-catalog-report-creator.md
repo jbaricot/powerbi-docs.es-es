@@ -1,17 +1,17 @@
 ---
 title: Catálogo de aprendizaje para creadores de informes
 description: Búsqueda de todas las opciones de entrenamiento para Power BI
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: f318aa59f33a9993b31787fcb3e0036286616608
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.author: margoc
+ms.openlocfilehash: ed36d045047215babb092eb074156c950af9d16f
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268820"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532290"
 ---
 # <a name="report-creator-learning-catalog"></a>Catálogo de aprendizaje para creadores de informes
 
@@ -39,6 +39,7 @@ El catálogo siguiente se organiza a partir de los conocimientos básicos en dom
 ## <a name="report-design"></a>Diseño de informes<a name="report-design"></a>
 | Contenido | Descripción  | Formato | Longitud   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|
+|[Curso en línea: Power BI paginado en un día](paginated-reports-online-course.md)|Un curso en línea que pretende ayudarlo como autor de informes con los conocimientos técnicos necesarios para crear, publicar y distribuir informes paginados de Power BI. Se recomienda ver los vídeos en la secuencia grabada, empezando por el vídeo 1 y finalizando con el vídeo 24.|Lista de reproducción de YouTube y kit para ampliar conocimientos|4 h 20 min|
 | [Contar historias de datos con Power BI, de Tristan Malherbe](https://www.youtube.com/watch?v=egk0suekwHo)  | Contar historias de datos con Power BI, de Tristan Malherbe  | Vídeo de YouTube | 59 min 54 s    |
 | [Trucos, consejos y herramientas de Power BI de los propietarios de PowerBI.Tips](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-Tricks-Tips-and-Tools-from-the-owners-of-PowerBI-Tips/td-p/382848) | En esta reunión especial del grupo de usuarios, los propietarios de Power BI.Tips y MVP de Power BI, Seth Bauer y Mike Carlo, compartirán todo el arsenal de trucos, consejos y herramientas de Power BI que han publicado en http://PowerBI.Tips en los últimos 18 meses. Demostraciones para incluir su generador de temas, agregar tipos de datos en el editor de consultas y sus últimos diseños de Power BI (y un paseo por el más reciente, "Cool Blue").  | Seminario web       | 1 h 7 min 4 s |
 | [Seminario web 11/9/18: Nuevas herramientas y plantillas, incluido un tutorial de lo que ha cambiado en el color](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/9-11-18-Webinar-New-tools-and-new-templates-including-a/td-p/480220) | Únase a Charles Sterling y a los creadores de PowerBI.Tips y MVP de Microsoft, Seth Bauer y Mike Carlo, mientras comparten su inagotable arsenal de trucos, consejos y herramientas de Power BI que han publicado en https://PowerBI.Tips durante los últimos 6 meses. Las demostraciones incluirán su generador de temas más reciente, sugerencias y trucos, y los últimos diseños de Power BI.  | Seminario web       | 53 min 34 s    |

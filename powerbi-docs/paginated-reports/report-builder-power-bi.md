@@ -1,7 +1,7 @@
 ---
 title: Generador de informes de Power BI
 description: Power BI Report Builder es una herramienta para crear informes paginados.
-ms.date: 11/27/2019
+ms.date: 06/29/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621522"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782745"
 ---
 # <a name="power-bi-report-builder"></a>Generador de informes de Power BI
 
- Power BI Report Builder es una herramienta para crear informes paginados.  Al diseñar un informe paginado, se crea una definición de informe que especifica qué datos recuperar y de dónde y cómo mostrarlos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Puede obtener una vista previa del informe en el Generador de informes. Después, puede publicar el informe en el servicio Power BI.
+ Power BI Report Builder es una herramienta para crear informes paginados que se pueden publicar en el servicio Power BI.  Al diseñar un informe paginado, se crea una definición de informe que especifica qué datos recuperar y de dónde y cómo mostrarlos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Puede obtener una vista previa del informe en el Generador de informes. Después, puede publicar el informe en el servicio Power BI.
+ 
+¿Está listo para empezar a crear? [Instale Power BI Report Builder](https://aka.ms/pbireportbuilder) desde el Centro de descarga de Microsoft.
 
 ¿Prefiere aprender de los vídeos? Consulte la serie de vídeos sobre los informes paginados de Power BI en YouTube de Chris Finlan, jefe principal de programas de Power BI.
 
@@ -36,7 +38,7 @@ El informe paginado siguiente muestra una matriz con grupos de filas y columnas,
 
 ##  <a name="design-your-report"></a><a name="DesignRept"></a> Diseño del informe  
   
--   **Cree informes paginados con diseños de tabla, matriz, gráfico y formato libre.** Cree informes de tabla para datos basados en columnas, informes de matrices (como informes de tabla dinámica y de tabla cruzada) para datos resumidos, informes de gráficos para datos gráficos e informes de forma libre para todo lo demás. Los informes pueden insertar otros informes y gráficos, además de listas, gráficos y controles para aplicaciones basadas en web dinámicas.  
+-   **Cree informes paginados con diseños de forma libre, gráfico, matriz y tabla.** Cree informes de tabla para datos basados en columnas, informes de matrices (como informes de tabla dinámica y de tabla cruzada) para datos resumidos, informes de gráficos para datos gráficos e informes de forma libre para todo lo demás. Los informes pueden insertar otros informes y gráficos, además de listas, gráficos y controles para aplicaciones basadas en web dinámicas.  
   
 -   **Informes a partir de una variedad de orígenes de datos.** Puede crear informes que usan datos relacionales y multidimensionales de SQL Server y Analysis Services, Oracle, conjuntos de datos de Power BI y otras bases de datos.  
   

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 06/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276591"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354602"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Introducción al panel de formato
 
@@ -28,11 +28,11 @@ Para empezar, abra un informe en Power BI Desktop o en el servicio Power BI. E
 
 Cuando vaya a editar un informe y tenga una visualización seleccionada, aparece el panel **Visualizaciones**. Use este panel para cambiar las visualizaciones. Justo debajo del panel **Visualizaciones** hay tres iconos: el icono **Campos** (una pila de barras), el icono **Formato** (un rodillo de pintura) y el icono **Análisis** (una lupa). En la imagen siguiente, el icono **Campos** está seleccionado, lo que se indica con una barra amarilla debajo.
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
+![Panel Visualizaciones con el icono de Campos seleccionado](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
 Al seleccionar **Formato**, el área debajo del icono muestra las personalizaciones disponibles para la visualización seleccionada.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
+![Panel Visualizaciones con el icono de Formato seleccionado](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
 Puede personalizar muchos elementos de cada visualización: Las opciones disponibles dependen del objeto visual seleccionado. Algunas de estas opciones son:
 
@@ -119,7 +119,7 @@ Incluso después de aplicar un estilo, puede seguir dando formato a las propieda
 ## <a name="changing-axis-properties"></a>Cambio de las propiedades del eje
 
 A menudo, resulta útil modificar el eje X o el eje Y. De igual forma que al trabajar con colores, puede modificar un eje seleccionando el icono de flecha abajo, situado a la izquierda del eje que quiere cambiar, tal como se muestra en la siguiente imagen.  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
+![Panel de formato con una flecha a la tarjeta del eje Y](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
 En el ejemplo siguiente, hemos aplicado formato al eje Y de esta manera:
 - se han movido las etiquetas al lado derecho de la visualización.

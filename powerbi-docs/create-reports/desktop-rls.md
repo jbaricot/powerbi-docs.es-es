@@ -6,16 +6,16 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: ''
 ms.date: 01/31/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 89c33de2ef7319c6dcbeace0df79786128e16cd9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9036967c826dee83847c3bc3d4a903bbe749b2ce
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334324"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238638"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Restricción del acceso a datos con seguridad de nivel de fila (RLS) en Power BI Desktop
 
@@ -36,6 +36,9 @@ Ahora puede configurar RLS para los modelos de datos que se han importado en Pow
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Seguridad de nivel de fila (RLS) con el servicio Power BI](../admin/service-admin-rls.md)  
+Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/).
+- [Seguridad de nivel de fila (RLS) con Power BI](../admin/service-admin-rls.md)
+- [Instrucciones de seguridad de nivel de fila (RLS) en Power BI Desktop](../guidance/rls-guidance.md)
+- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)

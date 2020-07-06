@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 42304e60740c215b1300e66f074807aea10ec6f9
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84317061"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354487"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Tutorial: Creación de un trazado de embudo a partir de un script de R para un elemento visual de R
 En este artículo se describe paso a paso cómo crear un trazado de embudo a partir de un script de R en un objeto visual de R.
@@ -89,13 +89,13 @@ El objeto visual todavía no es descriptivo porque el usuario tiene que conocer 
 
    Tendrá que actualizar las secciones: en `dataRoles` y `dataViewMappings`, se definen los nombres, los tipos, la información sobre herramientas y el número máximo de columnas para cada campo de entrada.
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
+   ![antes y después](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
    
    Para obtener más información, vea [funcionalidades](./capabilities.md).
 
 1. Edite *script.r* para admitir `Population`, `Number` y `Tooltips` como tramas de datos de entrada en lugar de `dataset`, o bien descargue [script.r](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/script.r).
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
+   ![script](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
 
    > [!TIP]
    > Para seguir los cambios en el script de R, busque bloques de comentarios: 
@@ -125,7 +125,7 @@ El objeto visual todavía no es descriptivo porque el usuario tiene que conocer 
 
    Descargue [capabilities.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/capabilities.json) y vea [propiedades de objeto](./objects-properties.md) para obtener más información.
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
+   ![capabilities](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
 
 1. Edite *src/settings.ts* para reflejar [este archivo settings.ts](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts). Este archivo está escrito en TypeScript.  
 
@@ -133,7 +133,7 @@ El objeto visual todavía no es descriptivo porque el usuario tiene que conocer 
    - Declaración de una interfaz nueva para que contenga el valor de propiedad
    - Definición de una propiedad miembro y valores predeterminados
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
+   ![configuración](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
 
 1. Edite *script.r* para reflejar [este archivo script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r). Esto agrega compatibilidad con los parámetros en la interfaz de usuario mediante la adición de llamadas a `if.exists` por cada parámetro de usuario.
 
@@ -150,7 +150,7 @@ El objeto visual todavía no es descriptivo porque el usuario tiene que conocer 
    > #RVIZ_IN_PBI_GUIDE:END:Removed to enable user parameters
    > ```
 
-   ![](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
+   ![script antes y después](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
 
    Puede decidir no exponer los parámetros en la interfaz de usuario, como se ha hecho.  
 

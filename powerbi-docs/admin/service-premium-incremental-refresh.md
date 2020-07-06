@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 05/26/2020
+ms.topic: how-to
+ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 2257e38183d87ef7fd4fdd12546c2a191a7acf74
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159890"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227433"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Actualizaciones incrementales en Power BI
 
@@ -114,7 +114,7 @@ La primera actualización en el servicio Power BI puede tardar más en importar 
 
 #### <a name="current-date"></a>Fecha actual
 
-La *fecha actual* se basa en la fecha del sistema en el momento de la actualización. Si la actualización programada está habilitada para el conjunto de datos en el servicio Power BI, se tendrá en cuenta la zona horaria especificada al determinar la fecha actual. Tanto las actualizaciones programadas como las que se invocan manualmente respetan la zona horaria si está disponible. Por ejemplo, en una actualización que se produce a las 8 P.M. con Hora del Pacífico (EE. UU. y Canadá) especificada como zona horaria, la fecha actual se determinará según la hora del Pacífico, y no GMT (que, de otro modo, sería al día siguiente).
+La *fecha actual* se basa en la fecha del sistema en el momento de la actualización. Si la actualización programada está habilitada para el conjunto de datos en el servicio Power BI, se tendrá en cuenta la zona horaria especificada al determinar la fecha actual. Tanto las actualizaciones programadas como las que se invocan manualmente mediante el servicio Power BI respetan la zona horaria si está disponible. Por ejemplo, en una actualización que se produce a las 8 P.M. con Hora del Pacífico (EE. UU. y Canadá) especificada como zona horaria, la fecha actual se determinará según la hora del Pacífico, y no GMT (que, de otro modo, sería al día siguiente). Las operaciones de actualización que no se invocan a través del servicio Power BI, como el [comando de actualización de TMSL](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current), no tendrán en cuenta la zona horaria de la actualización programada.
 
 ![Zona horaria](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -186,7 +186,7 @@ Los parámetros siguientes se pueden insertar en el comando de actualizar de TMS
 
 - **applyRefreshPolicy**: si una tabla tiene definida una directiva de actualización incremental, applyRefreshPolicy determinará si la directiva se aplica o no. Si no se aplica la directiva, una operación de proceso completo dejará las definiciones de partición sin cambios y todas las particiones de la tabla se actualizarán por completo. El valor predeterminado es true.
 
-- **effectiveDate**: si se está aplicando una directiva de actualización incremental, debe conocer la fecha actual para determinar los intervalos de periodos acumulados para el intervalo histórico y el intervalo incremental. El parámetro effectiveDate permite invalidar la fecha actual. Esto resulta útil para pruebas, demostraciones y escenarios empresariales en los que los datos se actualizan incrementalmente hasta una fecha anterior o posterior (por ejemplo, presupuestos en el futuro). El valor predeterminado es la [fecha actual](#current-date).
+- **effectiveDate**: si se está aplicando una directiva de actualización incremental, debe conocer la fecha actual para determinar los intervalos de periodos acumulados para el intervalo histórico y el intervalo incremental. El parámetro effectiveDate permite invalidar la fecha actual. Esto resulta útil para pruebas, demostraciones y escenarios empresariales en los que los datos se actualizan incrementalmente hasta una fecha anterior o posterior (por ejemplo, presupuestos en el futuro). El valor predeterminado es la fecha actual.
 
 ```json
 { 
@@ -205,6 +205,8 @@ Los parámetros siguientes se pueden insertar en el comando de actualizar de TMS
   }
 }
 ```
+
+Para obtener más información sobre cómo invalidar el comportamiento predeterminado de la actualización incremental con TMSL, vea [comando Refresh](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current).
 
 ### <a name="custom-queries-for-detect-data-changes"></a>Personalización de consultas para detectar cambios de datos
 

@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794111"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354947"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Crear un inquilino de Azure Active Directory para su uso con Power BI
 
@@ -60,29 +60,29 @@ Ahora que tiene un directorio, vamos a crear al menos dos usuarios. Uno es un ad
 
 1. En Azure Portal, asegúrese de que está en el menú emergente de Azure Active Directory.
 
-    ![](media/create-an-azure-active-directory-tenant/aad-flyout.png)
+    ![Menú emergente de Azure AD](media/create-an-azure-active-directory-tenant/aad-flyout.png)
 
     Si no lo está, seleccione el icono de Azure Active Directory en la barra de servicios situada a la izquierda.
 
-    ![](media/create-an-azure-active-directory-tenant/aad-service.png)
+    ![Icono de Azure AD](media/create-an-azure-active-directory-tenant/aad-service.png)
 
 2. En **Administrar**, seleccione **Usuarios**.
 
-    ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
+    ![Usuarios y grupos de Azure AD](media/create-an-azure-active-directory-tenant/users-and-groups.png)
 
 3. Seleccione **Todos los usuarios** y, a continuación, seleccione **+ Nuevo usuario**.
 
 4. Proporcione un **Nombre** y un **Nombre de usuario** para el administrador global del inquilino. Cambie el **Rol del directorio** a **Administrador global**. También puede mostrar la contraseña temporal. Cuando haya terminado, seleccione **Crear**.
 
-    ![](media/create-an-azure-active-directory-tenant/global-admin.png)
+    ![Administrador global de Azure AD](media/create-an-azure-active-directory-tenant/global-admin.png)
 
 5. Realice lo mismo para un usuario del inquilino normal. Puede usar esta cuenta para la cuenta de inserción maestra. En esta ocasión, para **Rol del directorio**, déjelo como **Usuario**. Anote la contraseña y, a continuación, seleccione **Crear**.
 
-    ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
+    ![Usuario de Azure AD](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
 
 6. Regístrese en Power BI con la cuenta de usuario que creó en el paso 5. Vaya a [powerbi.com](https://powerbi.microsoft.com/get-started/) y seleccione **Probar gratis** en **Power BI: colaboración y uso compartido en la nube**.
 
-    ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
+    ![Crear inquilino](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 
     Al registrarse, se le pedirá que pruebe Power BI Pro gratis durante 60 días. Puede optar por convertirse en un usuario Pro, le ofrece la opción de [empezar a desarrollar una solución insertada](embed-sample-for-customers.md).
 

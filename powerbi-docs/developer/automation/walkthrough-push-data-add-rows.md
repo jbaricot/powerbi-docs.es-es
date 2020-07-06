@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ecd5b71d0b64e235d69d2b6d3933d393cb684b04
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079264"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355039"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Paso 5: Agregar filas a una tabla de Power BI
 
@@ -23,7 +23,7 @@ En el **paso 4** de Insertar datos en un conjunto de datos, [Obtener un conjunto
 
 Al llamar a la operación [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows), se agregan filas a un conjunto de datos.
 
-![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
+![agregar filas](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
 Aquí se muestra cómo agregar filas a un conjunto de datos mediante la API de Power BI.
 
@@ -310,7 +310,7 @@ A continuación se muestra la [lista de código completa](#code).
     }
 ```
 
-A pesar de que en el código anterior se ha especificado **_//Get the first id_** , lo correcto es buscar el conjunto de datos por nombre.
+A pesar de que en el código anterior se ha especificado **_//Get the first id_**, lo correcto es buscar el conjunto de datos por nombre.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Insertar datos en un panel de Power BI](walkthrough-push-data.md)  

@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: dfb307a53ac4fd75188965618a08bb4bdee5689b
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: e82dde5022bf0ad28d37e0ed9a8ac9553fbbd75d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794176"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485907"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Suscripción a un informe o panel en el servicio Power BI 
 
@@ -93,7 +93,7 @@ Una suscripción finalizará si expira la licencia de Pro, el propietario elimin
 * Para las suscripciones de unos paneles en concreto, no se admiten aún ciertos tipos de iconos.  Entre estos se incluyen: transmisión en secuencias de mosaicos, iconos de vídeo, iconos de contenido web personalizado.     
 * Las suscripciones pueden provocar errores en paneles o informes con imágenes muy grandes debido a las limitaciones de tamaño del correo electrónico.    
 * Power BI detiene de forma automática la actualización en los conjuntos de datos asociados con los paneles e informes que no se han visitado en más de dos meses.  Pero si agrega una suscripción a un panel o informe, no se detendrá aunque no reciba visitas.
-* Tenga en cuenta que, al igual que otros productos de BI, el momento en el que se establece la suscripción es cuando esta comienza el procesamiento.  Una vez completado el procesamiento del informe, la suscripción se pone en cola y se envía a los destinatarios de correo electrónico.  Aunque nos esforzamos por procesar y ofrecer todas las suscripciones lo más rápido posible, en algunas ocasiones durante los períodos de demanda máxima puede ver un retraso más largo debido a la cantidad de suscripciones que se pueden enviar a la vez.  Para la mayoría de los clientes, no deberían ver un retraso de más de 15 minutos para procesar y enviar sus informes, aunque puede tardar hasta 30 minutos en determinados momentos e inquilinos con un uso considerable.  Nunca esperamos que ningún retraso en la entrega sea superior a 60 minutos desde el momento en que se programa la suscripción.  Si algún cliente ve un retraso de ese tipo, primero debe asegurarse de que la dirección no-reply-powerbi@microsoft.com esté en la lista de permitidos por su proveedor de correo electrónico.  Si es así, debe ponerse en contacto con soporte técnico de Power BI para obtener ayuda.
+* Tenga en cuenta que, al igual que otros productos de BI, el momento en el que se establece la suscripción es cuando esta comienza el procesamiento.  Una vez completado el procesamiento del informe, la suscripción se pone en cola y se envía a los destinatarios de correo electrónico.  Aunque nos esforzamos por procesar y ofrecer todas las suscripciones lo más rápido posible, en algunas ocasiones durante los períodos de demanda máxima puede ver un retraso más largo debido a la cantidad de suscripciones que se pueden enviar a la vez.  Para la mayoría de los clientes, no deberían ver un retraso de más de 15 minutos para procesar y enviar sus informes, aunque puede tardar hasta 30 minutos en determinados momentos e inquilinos con un uso considerable.  Nunca esperamos que ningún retraso en la entrega sea superior a 60 minutos desde el momento en que se programa la suscripción.  Si algún cliente experimenta un retraso de ese tipo, primero debe asegurarse de que la dirección no-reply-powerbi@microsoft.com está en la lista de remitentes seguros y que no está bloqueada por el proveedor de correo electrónico.  Si el correo electrónico no está bloqueado, debe ponerse en contacto con el soporte técnico de Power BI para obtener ayuda.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

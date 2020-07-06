@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128551"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782332"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>P+F sobre alta disponibilidad, conmutación por error y recuperación ante desastres en Power BI
 
@@ -38,7 +38,7 @@ Todos los componentes del servicio Power BI sincronizan con regularidad sus inst
 
 Las instancias de copia de seguridad residen dentro de la misma ubicación geográfica (geoárea) que seleccionó cuando la organización se registró en Power BI, excepto donde se indique en el [Centro de confianza de Microsoft](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). Una geoárea puede contener varias regiones, y Microsoft puede replicar datos en cualquiera de las regiones dentro de una geoárea determinada para lograr la resistencia de los datos. Microsoft no replicará ni moverá los datos del cliente fuera de la geoárea. Para obtener una asignación de las geoáreas que ofrece Power BI y las regiones que contienen, vea el [Centro de confianza de Microsoft](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
 
-## <a name="how-does-microsoft-decide-to-failover"></a>¿Cómo decide Microsoft la conmutación por error?
+## <a name="how-does-microsoft-decide-to-fail-over"></a>¿Cómo decide Microsoft la conmutación por error?
 
 Hay dos sistemas diferentes que indican cuándo puede ser necesaria una conmutación por error:
 
@@ -57,6 +57,9 @@ Una vez que se determina que es necesaria una conmutación por error, Power BI 
 
 Tras la conmutación por error, Power BI usa la replicación geográfica de Azure Storage para realizar la conmutación por error. Este tipo de replicaciones suele tener un punto de retorno de 15 minutos, pero [Azure Storage no garantiza este período de tiempo](https://docs.microsoft.com/azure/storage/common/storage-redundancy) con un acuerdo de nivel de servicio y, por tanto, Power BI tampoco puede garantizarlo. 
 
+## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>¿Qué ocurre con las áreas de trabajo y los informes si mi capacidad Premium deja de estar disponible? 
+
+Si una capacidad Premium deja de estar disponible, las áreas de trabajo y los informes siguen estando accesibles y visibles para todos los usuarios con licencia de Power BI Pro que antes tenían acceso a ellos.
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>¿Cuando vuelve la instancia de Power BI a la región original?
 

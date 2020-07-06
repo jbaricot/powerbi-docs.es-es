@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/21/2020
+ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 42e3f36689e62b196f5d8cb82bd4dd5ee118bf8b
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 0a09311c5fdb1a8b2e008996d993015f33ee9b5f
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793404"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739262"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Uso de metadatos de conjunto de datos mejorado (versión preliminar)
 
@@ -64,11 +64,13 @@ El archivo de copia de seguridad se crea cuando se actualiza el informe, por lo 
 En la versión preliminar, se aplican las siguientes limitaciones cuando está habilitada la característica en versión preliminar.
 
 ### <a name="unsupported-features-and-connectors"></a>Características y conectores no admitidos
+
+Se aplican las siguientes limitaciones:
+
 Al abrir un archivo PBIX o PBIT existente que no se ha actualizado, se producirá un error en la actualización si el conjunto de datos contiene cualquiera de las siguientes características o conectores. Si se produce este error, no debería haber ningún impacto inmediato en la experiencia del usuario y Power BI Desktop seguirá usando el formato de metadatos anterior.
 
-* Todos los conectores personalizados
+* Todos los conectores personalizados (limitación de la versión de mayo 2020)
 * Scripts de Python
-* Conectores personalizados
 * Azure DevOps Server
 * Conector de BI
 * Denodo
@@ -84,16 +86,15 @@ Al abrir un archivo PBIX o PBIT existente que no se ha actualizado, se producir�
 * Expresiones M que contienen determinadas combinaciones de caracteres como "\\n" en nombres de columna
 * Cuando se usan conjuntos de datos con la característica **Metadatos del conjunto de datos mejorado** habilitada, los orígenes de datos de inicio de sesión único (SSO) no se pueden configurar en el servicio Power BI
 
-Los informes que usen estos conectores mencionados no se actualizarán al formato nuevo. Los informes que ya se hayan actualizado o que se hayan creado después de habilitar esta característica nueva no permitirán agregar las características o los conectores no compatibles mencionados. 
+Si usa la versión de **junio de 2020** de Power BI Desktop (o posterior), todos los conectores personalizados y todos los conectores integrados *se admiten* para Power BI Desktop y el servicio Power BI. Durante el proceso de publicación al usar la versión de junio de 2020 o posterior, si la puerta de enlace encuentra problemas, el conjunto de datos se publicará correctamente, pero los usuarios deberán volver a publicar el informe para actualizar los datos. El cuadro de diálogo **Configuración del origen de datos** es el único indicador de los problemas que se producen durante el proceso de publicación.
+
+Los informes que usan características o conectores no admitidos no se actualizarán al nuevo formato. Los informes que ya se hayan actualizado o que se hayan creado después de habilitar esta característica nueva no permitirán agregar las características o los conectores no compatibles mencionados. 
 
 No se admiten consultas con orígenes de datos dinámicos. Los informes que tienen orígenes de datos dinámicos no se actualizarán al formato nuevo y los informes que ya se actualizaron o que se crearon recientemente con la característica habilitada no permitirán agregar orígenes de datos dinámicos. Una consulta tiene un origen de datos dinámico si el origen cambia en función de un parámetro, una entrada de función o una función volátil. 
 
 No se admiten las consultas con errores en pasos o ramas ascendentes. 
 
-Además, los archivos PBIX y PBIT que ya se han actualizado correctamente para usar **Metadatos del conjunto de datos mejorado** *no pueden* usar las características ni los conectores anteriores en la versión actual.
-
-
-
+Además, los archivos PBIX y PBIT que ya se han actualizado correctamente para usar **Metadatos del conjunto de datos mejorado** *no pueden* usar las características anteriores (ni los conectores no admitidos).
 
 ### <a name="lineage-view"></a>Vista de linaje
 Los conjuntos de datos que usan el nuevo formato de metadatos no muestran actualmente vínculos a flujos de datos en la vista de linaje en el servicio Power BI.

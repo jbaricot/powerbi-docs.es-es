@@ -1,36 +1,36 @@
 ---
-title: Direcciones URL de Power BI para la inclusión en listas blancas
-description: En este artículo se enumeran los puntos de conexión de dirección URL y los puertos de la lista segura para la conectividad a Power BI.
+title: Incorporación de direcciones URL de Power BI a la lista de permitidos
+description: En este artículo se enumeran los puntos de conexión de dirección URL y los puertos que se van a agregar a la lista de permitidos para la conectividad a Power BI.
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: c3a3bd98dc65e3b73ffe04b95fa9001c90af1d53
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 38e6668c0fb15d1279923b77042cdedebe6dd139
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315934"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485079"
 ---
-# <a name="power-bi-urls-for-whitelisting"></a>Direcciones URL de Power BI para la inclusión en listas blancas
-[//]: # "suparnap y miwehnia son contactos para mantener esta lista"
+# <a name="add-power-bi-urls-to-your-allow-list"></a>Incorporación de direcciones URL de Power BI a la lista de permitidos
+[//]: # "suparnap, miwehnia y natham son contactos para mantener esta lista"
 
-**El servicio Power BI en línea**, también conocido como la aplicación de SaaS (software como servicio) de Power BI, requiere conectividad a internet. Los clientes que usen el servicio Power BI en línea deben poder acceder a los puntos de conexión siguientes.
+El servicio Power BI requiere conectividad a Internet. Los puntos de conexión que aparecen en las tablas de este artículo deben ser accesibles para los clientes que usan el servicio Power BI.
 
-Para usar el servicio Power BI en línea, debe poder conectarse a los puntos de conexión marcados como **obligatorios** en las tablas siguientes y los puntos de conexión marcados como **obligatorios** en los sitios vinculados. Si el vínculo a un sitio externo hace referencia a una sección concreta, solo tiene que revisar los puntos de conexión de esa sección.
+Para usar el servicio Power BI, debe poder conectarse a los puntos de conexión marcados como **obligatorios** en las tablas siguientes y a los puntos de conexión marcados como **obligatorios** en los sitios vinculados. Si el vínculo a un sitio externo hace referencia a una sección concreta, solo tiene que revisar los puntos de conexión de esa sección.
 
-Los puntos de conexión marcados como **Opcional** también se pueden incluir en la **lista de permitidos** para que funcionen funcionalidades específicas.
+Los puntos de conexión marcados como **Opcional** también se pueden agregar a la lista de permitidos para que funcionen funcionalidades específicas.
 
-El servicio Power BI en línea solo requiere que el puerto TCP 443 esté abierto para los puntos de conexión enumerados.
+El servicio Power BI solo requiere que el puerto TCP 443 esté abierto para los puntos de conexión enumerados.
 
-Los caracteres comodín (*) representan todos los niveles bajo el dominio raíz y usamos N/D cuando la información no está disponible. En la columna **Destinos**, se incluye una lista con FQDN, dominios y vínculos a sitios externos, que contienen más información sobre el punto de conexión.
+Los caracteres comodín (*) representan todos los niveles bajo el dominio raíz y usamos N/D cuando la información no está disponible. En la columna **Destinos** se muestran nombres de dominio y vínculos a sitios externos, que contienen más información sobre el punto de conexión.
 
 >[!Important]
->La información de las tablas siguientes no representa la **nube del gobierno estadounidense**, **la nube de Alemania** ni **la nube de China**.
+>La información de las tablas siguientes no se aplica a Power BI Alemania, Power BI China operado por 21Vianet ni a Power BI para la Administración Pública de Estados Unidos. Lea [Conexión con la Administración Pública y los servicios globales en la nube de Azure](service-govus-overview.md#connect-government-and-global-azure-cloud-services) para más información sobre la comunicación entre servicios en la nube.
 
 ## <a name="authentication"></a>Autenticación
 
@@ -51,7 +51,7 @@ Para usar Power BI de forma general, debe poder conectarse a los puntos de conex
 | 3 | **Obligatorio:** API de back-end | *.pbidedicated.windows.net | TCP 443 |
 | 4 | **Obligatorio:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
 | 5 | **Obligatorio:** Integración de Microsoft 365 | Consulte la documentación para obtener las [direcciones URL de Microsoft 365 Common y Office Online](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online). | N/D |
-| 6 | **Obligatorio:** Portal | app.powerbi.com | TCP 443 |
+| 6 | **Obligatorio:** Portal | *.powerbi.com | TCP 443 |
 | 7 | **Obligatorio:** telemetría de servicio | dc.services.visualstudio.com | TCP 443 |
 | 8 | **Opcional:** mensajes informativos | dynmsg.modpim.com | TCP 443 |
 | 9 | **Opcional:** encuestas de NPS | nps.onyx.azure.net | TCP 443 |
@@ -102,7 +102,7 @@ Power BI depende de determinados puntos de conexión para ver los objetos visua
 
 ## <a name="related-external-sites"></a>Sitios externos relacionados
 
-Vínculos de Power BI a otros sitios relacionados. Estos sitios hospedan documentación, soporte técnico, solicitudes de nuevas funciones, etc. El acceso a estos sitios no afectará a la funcionalidad de Power BI, por lo que la inclusión en listas blancas es opcional.
+Vínculos de Power BI a otros sitios relacionados. Estos sitios hospedan documentación, soporte técnico, solicitudes de nuevas funciones, etc. El acceso a estos sitios no afectará la funcionalidad de Power BI, por lo que su inclusión en las listas de permitidos es opcional.
 
 | Fila | Propósito | Destinos | Puertos |
 | --- | --- | --- | --- |

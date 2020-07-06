@@ -1,23 +1,23 @@
 ---
-title: Habilitar el cifrado para SAP HANA
+title: Habilitación del cifrado para SAP HANA
 description: Aprenda a cifrar la conexión gracias al inicio de sesión único de SAML al conectarse a un servidor de HANA desde Power BI.
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 364736ae8f4cf800c9c63282feb07f8e081aeb42
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 83e1725b7ce7d38a00d0564702977c3a8eef7c1d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83289221"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222882"
 ---
-# <a name="enable-encryption-for-sap-hana"></a>Habilitar el cifrado para SAP HANA
+# <a name="enable-encryption-for-sap-hana"></a>Habilitación del cifrado para SAP HANA
 
 Al establecer una conexión con un servidor de SAP HANA desde Power BI Desktop y el servicio Power BI, se recomienda cifrarla. Puede habilitar el cifrado de HANA mediante la biblioteca CommonCryptoLib (anteriormente conocida como sapcrypto) de OpenSSL y SAP. SAP recomienda el uso de CommonCryptoLib, pero las características de cifrado básicas están disponibles con cualquiera de las bibliotecas.
 
@@ -100,11 +100,11 @@ Pruebe la conexión en Power BI Desktop o en el servicio Power BI.
 
 1. En Power BI Desktop o en la página **Administrar puertas de enlace** del servicio Power BI, asegúrese de que **Validar certificado de servidor** esté habilitado al intentar establecer una conexión con el servidor de SAP HANA. En **Proveedor de cifrado SSL**, seleccione mscrypto si ha seguido los pasos de instalación de OpenSSL, o bien commoncrypto si ha configurado dicha biblioteca como proveedor de cifrado. Deje en blanco los campos Almacén de claves SSL y Almacén de confianza SSL.
 
-    - Power BI Desktop
+    - Power BI Desktop
 
         ![Validación del certificado del servidor (servicio)](media/desktop-sap-hana-encryption/validate-server-certificate-service.png)
 
-    - Servicio Power BI
+    - Servicio Power BI
 
         ![Validación del certificado del servidor (escritorio)](media/desktop-sap-hana-encryption/validate-server-certificate-desktop.png)
 

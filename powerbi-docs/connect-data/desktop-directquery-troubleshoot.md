@@ -5,15 +5,15 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 002df4e6c3eec7095258647a0015042efb98257f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 54091175b49a0465a56a689190965429715a4754
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292510"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485562"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Solución de problemas de desarrollo de modelos de DirectQuery en Power BI Desktop
 
@@ -42,13 +42,13 @@ En el caso de algunos orígenes de DirectQuery, este registro incluye todas las 
 - Teradatos
 - SAP HANA
 
-El archivo de seguimiento lo puede encontrar en la carpeta **AppData** del usuario actual: _\\\<Usuario>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
+El archivo de seguimiento se puede encontrar en la carpeta **AppData** para el usuario actual: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
 
 Este es un método fácil para llegar a esta carpeta: en Power BI Desktop, seleccione _Archivo > Opciones y configuración > Opciones_ y, luego, seleccione la página **Diagnóstico**. Aparecerá la siguiente ventana de diálogo:
 
 ![La ventana de Power BI Desktop está abierta y la página Diagnóstico global está seleccionada. La sección Opciones de diagnóstico tiene dos propiedades: Habilitar seguimiento y Omisión de la caché de geocodificación. La opción Habilitar seguimiento está habilitada. La sección Recopilación del volcado de memoria tiene un botón Habilitar ahora y un vínculo para abrir la carpeta de volcado de memoria y seguimiento.](media/desktop-directquery-troubleshoot/desktop-directquery-troubleshoot-desktop-file-options-diagnostics.png)
 
-Cuando selecciona el vínculo **Permite abrir la carpeta de volcado de memoria y seguimiento**, en Recopilación del volcado de memoria, se abre la carpeta siguiente: _\\\<Usuario>\AppData\Local\Microsoft\Power BI Desktop\Traces_
+Cuando selecciona el vínculo **Permite abrir la carpeta de volcado de memoria y seguimiento**, en Recopilación del volcado de memoria, se abre la carpeta siguiente: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
 
 Vaya a la carpeta principal de esta carpeta donde se muestra la carpeta que contiene _AnalysisServicesWorkspaces_, que contendrá una subcarpeta de área de trabajo para cada instancia abierta de Power BI Desktop. El nombre de estas subcarpetas tiene un sufijo de entero, como _AnalysisServicesWorkspace2058279583_.
 
@@ -63,7 +63,7 @@ Una vez que descargue e instale SQL Server Management Studio, ejecute SQL Serv
 Siga estos pasos para abrir el archivo de seguimiento:
 
 1. En SQL Server Profiler, seleccione _Archivo > Abrir > Archivo de seguimiento_
-2. Escriba la ruta de acceso al archivo de seguimiento de la sesión de Power BI actualmente abierta, como: _\\\<Usuario>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_
+2. Escriba la ruta de acceso al archivo de seguimiento para la sesión de Power BI abierta actualmente, como: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_
 3. Abra _FlightRecorderCurrent.trc_
 
 Se muestran todos los eventos de la sesión actual. A continuación, se muestra un ejemplo con anotaciones en el que se resaltan los grupos de eventos. Cada grupo tiene los siguientes elementos:

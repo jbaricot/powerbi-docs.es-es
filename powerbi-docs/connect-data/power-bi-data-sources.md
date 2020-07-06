@@ -1,19 +1,19 @@
 ---
 title: Orígenes de datos de Power BI
 description: En este artículo se enumeran los orígenes de datos que admite Power BI, incluida información sobre DirectQuery y la puerta de enlace de datos local.
-author: kfollis
+author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2020
-ms.author: kfollis
-ms.openlocfilehash: 7fcd5b5f7a6365aac597186618ce2b18fcc44d7f
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.date: 06/10/2020
+ms.author: davidi
+ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
+ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273400"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84681868"
 ---
 # <a name="power-bi-data-sources"></a>Orígenes de datos de Power BI
 
@@ -25,7 +25,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 
 | Origen de datos | Conexión desde el Escritorio | Conexión y actualización desde el servicio | DirectQuery/Conexiones dinámicas | Puerta de enlace (compatible) | Puerta de enlace (obligatoria) |
 |---|---|---|---|---|---|---|---|
-| Base de datos de Access | Sí | Sí | No | Sí <sup>1</sup> | Sí |
+| Base de datos Access | Sí | Sí | No | Sí <sup>1</sup> | Sí |
 | Active Directory | Sí | Sí | No | Sí | Sí |
 | Adobe Analytics | Sí | Sí | No | No | No |
 | Amazon Redshift | Sí | Sí | Sí | Sí | No |
@@ -62,7 +62,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Exasol | Sí | Sí | Sí | Sí | Sí |
 | Excel | Sí <sup>3</sup> | Sí <sup>3</sup> | No | Sí <sup>3</sup> | No <sup>4</sup> |
 | Facebook | Sí | Sí | No | No | No |
-| archivo | Sí | Sí | No | Sí | Sí |
+| Archivo | Sí | Sí | No | Sí | Sí |
 | Carpeta | Sí | Sí | No | Sí | Sí |
 | GitHub | Sí | Sí | No | No | No |
 | Google Analytics | Sí | Sí | No | No | No |
@@ -86,11 +86,11 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | MarkLogic ODBC | Sí | Sí | Sí | Sí | Sí |
 | Microsoft Azure Consumption Insights | Sí | Sí | No | No | No |
 | Microsoft Exchange | Sí | Sí | No | Sí | No |
-| Microsoft Exchange Online | Sí | Sí | No | No | No |
+| Microsoft Exchange Online | Sí | Sí | No | No | No |
 | Microsoft Graph Security | Sí | Sí | No | Sí | No |
 | Mixpanel | Sí | Sí | No | No | No |
 | MySQL | Sí | Sí | No | Sí | Sí |
-| OData | Sí | Sí | No | Sí | No |
+| OData | Sí | Sí <sup>7</sup> | No | Sí | No |
 | ODBC | Sí | Sí | No | Sí | Sí |
 | OleDb | Sí | Sí | No | Sí | Sí |
 | Oracle | Sí | Sí | Sí | Sí | Sí |
@@ -100,14 +100,14 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Planview Enterprise One - PRM | Sí | Sí | No | No | No |
 | Planview Projectplace | Sí | Sí | No | No | No |
 | PostgreSQL | Sí | Sí | Sí | Sí | No |
-| Flujos de datos de Power BI | Sí | Sí | No | No | No |
-| Conjuntos de datos de Power BI | Sí | Sí | Sí | No | No |
+| Flujos de datos de Power BI | Sí | Sí | No | No | No |
+| Conjuntos de datos de Power BI | Sí | Sí | Sí | No | No |
 | Flujos de datos de Power Platform | Sí | Sí | No | No | No |
 | Script de Python | Sí | Sí <sup>5</sup> | No | Sí <sup>5</sup> | Sí |
 | QubolePresto | Sí | Sí | Sí | Sí | Sí |
 | Quick Base | Sí | Sí | No | Sí | Sí |
 | QuickBooks Online | Sí | Sí | No | No | No |
-| Script R | Sí | Sí <sup>5</sup> | No | Sí <sup>5</sup> | No |
+| Script de R | Sí | Sí <sup>5</sup> | No | Sí <sup>5</sup> | No |
 | Roamler | Sí | Sí | No | Sí | No |
 | Objetos de Salesforce | Sí | Sí | No | No | No |
 | Informes de Salesforce | Sí | Sí | No | No | No |
@@ -121,7 +121,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Snowflake | Sí | Sí | Sí | Sí | No |
 | Spark | Sí | Sí | Sí | Sí | No |
 | SparkPost | Sí | Sí | No | No | No |
-| SQL Server | Sí | Sí | Sí | Sí | Sí |
+| SQL Server | Sí | Sí | Sí | Sí | Sí |
 | SQL Server Analysis Services | Sí | Sí | Sí | Sí | Sí |
 | Stripe | Sí | Sí | No | No | No |
 | SurveyMonkey | Sí | Sí | No | Sí | No |
@@ -129,7 +129,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Sybase | Sí | Sí | No | Sí | Sí |
 | TeamDesk | Sí | Sí | No | Sí | No |
 | Tenforce | Sí | Sí | No | No | No |
-| Teradata | Sí | Sí | Sí | Sí | Sí |
+| Teradatos | Sí | Sí | Sí | Sí | Sí |
 | Texto o CSV | Sí | Sí | No | Sí | No <sup>4</sup> |
 | Twilio | Sí | Sí | No | No | No |
 | tyGraph | Sí | Sí | No | No | No |
@@ -153,6 +153,8 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 
 <sup>6</sup> Necesario para las bases de datos .html, .xls y de Access.
 
+<sup>7</sup> El servicio Power BI no es compatible con las fuentes de OData que requieren autenticación.
+
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Inicio de sesión único (SSO) para orígenes de DirectQuery
 
 Cuando se habilita la opción SSO y los usuarios acceden a informes creados sobre el origen de datos, Power BI envía sus credenciales autenticadas de Azure AD en las consultas al origen de datos subyacente. Esto permite a Power BI respetar la configuración de seguridad establecida en el nivel de origen de datos.
@@ -166,8 +168,8 @@ La opción SSO surte efecto en todos los conjuntos de datos que usan este origen
 - Servidor de mensajes de SAP BW
 - Snowflake
 - Spark
-- SQL Server
-- Teradata
+- SQL Server
+- Teradatos
 
 > [!Note]
 > No se admite Azure Multi-Factor Authentication (MFA). Los usuarios que quieran usar SSO con DirectQuery se deben excluir de MFA.

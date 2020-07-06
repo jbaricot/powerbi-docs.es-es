@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: ee5536f2c4026ceb019c5f89b6045afd44b35529
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84316072"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299627"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Supervisión de las métricas de uso en la nueva experiencia de área de trabajo
 
@@ -257,6 +257,7 @@ Además de las diferencias anteriores entre los informes de métricas de uso ant
 - El enmascaramiento de usuario no funciona como se esperaba al usar grupos anidados. Si su organización ha deshabilitado los datos por usuario en métricas de uso para creadores de contenido en la configuración del inquilino del portal de administración, solo se enmascaran los miembros del nivel superior. Los miembros de los subgrupos siguen estando visibles.
 - La inicialización del conjunto de datos de informe de métricas de uso puede tardar unos minutos, lo que hace que se muestre un informe de métricas de uso en blanco porque la interfaz de usuario de Power BI no espera a que termine la actualización. Compruebe el historial de actualización en la configuración del conjunto de datos de informe de métricas de uso para comprobar que la operación de actualización se realizó correctamente.
 - La inicialización del conjunto de datos de informe de métricas de uso podría dar error debido a que se encontró que el tiempo de espera se había agotado durante la actualización. Consulte la sección de solución de problemas a continuación para resolver este problema.
+- El uso compartido está deshabilitado para el informe de métricas de uso. Para proporcionar a los usuarios acceso de lectura al informe, primero debe concederles acceso al área de trabajo.
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 

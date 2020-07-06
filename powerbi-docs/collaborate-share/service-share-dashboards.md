@@ -3,37 +3,34 @@ title: Uso compartido de informes y paneles de Power BI con compañeros y otros 
 description: Cómo compartir paneles e informes de Power BI con compañeros dentro y fuera de la organización, y lo que necesita saber sobre el uso compartido.
 author: maggiesMSFT
 ms.reviewer: lukaszp
-featuredvideoid: 0tUwn8DHo3s
+ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 11/26/2019
+ms.topic: how-to
+ms.date: 06/26/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cf971de1a60636def852080a523c227f08b4f888
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: d09ebee0cc22c7037db437e1c7a46a3d19ff36fd
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272940"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485604"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Uso compartido de informes y paneles de Power BI con compañeros y otros usuarios
-*Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir los paneles e informes](service-how-to-collaborate-distribute-dashboards-reports.md).
-
-![Icono de uso compartido en una lista de paneles](media/service-share-dashboards/power-bi-share-new-look.png)
-
-Con el uso compartido, si comparte contenido dentro o fuera de su organización, se necesita una [licencia de Power BI Pro](../fundamentals/service-features-license-type.md). Sus destinatarios también necesitan licencias de Power BI Pro, excepto si el contenido está en una [función premium](../admin/service-premium-what-is.md). 
-
-Puede compartir paneles e informes de la mayoría de las ubicaciones del servicio de Power BI: Favoritos, Recientes, Mi área de trabajo y Compartidos conmigo, si el propietario lo permite. También puede compartir elementos desde otras áreas de trabajo si tiene el [rol de administrador, miembro o colaborador](service-new-workspaces.md#roles-in-the-new-workspaces) en el área de trabajo. 
+*Compartir* es la forma más sencilla de proporcionar a los usuarios acceso a los paneles e informes en el servicio Power BI. Puede compartir con usuarios de su organización o con usuarios que no pertenezcan a ella.
 
 Cuando comparte un panel o un informe, los usuarios con quienes los comparte pueden verlos e interactuar con ellos, pero no modificarlos. Ven los mismos datos que usted ve en el panel y los informes, y tienen acceso a la totalidad del conjunto de datos subyacente, a menos que se le aplique la seguridad de nivel de fila (RLS).  Los compañeros con los que los comparte también pueden compartirlos a su vez con sus propios compañeros, si tienen permiso para hacerlo. Los usuarios que no pertenecen a la organización pueden ver el panel o el informe, e interactuar con ellos, pero no compartirlos. 
 
+![Icono de uso compartido en una lista de paneles](media/service-share-dashboards/power-bi-share-new-look.png)
+
+Puede compartir paneles e informes de muchas ubicaciones en el servicio Power BI: Favoritos, Recientes, Mi área de trabajo. También puede compartir elementos desde otras áreas de trabajo si tiene el [rol de administrador, miembro o colaborador](service-new-workspaces.md#roles-in-the-new-workspaces) en el área de trabajo. También puede compartir paneles e informes en Compartidos conmigo, si el propietario lo permite. 
+
+El servicio Power BI también ofrece otras maneras de colaborar y distribuir los paneles e informes. Lea [Formas de colaborar y compartir en Power BI](service-how-to-collaborate-distribute-dashboards-reports.md) para ver qué es lo que funciona mejor dadas las circunstancias. 
+
+Con el uso compartido, si comparte contenido dentro o fuera de su organización, se necesita una [licencia de Power BI Pro](../fundamentals/service-features-license-type.md). Sus destinatarios también necesitan licencias de Power BI Pro, excepto si el contenido está en una [función premium](../admin/service-premium-what-is.md). 
+
 No se puede *compartir* contenido directamente desde Power BI Desktop. Los [informes se publican desde Power BI Desktop](../create-reports/desktop-upload-desktop-files.md) en el servicio Power BI. Sin embargo, puede [compartir un panel desde las aplicaciones móviles de Power BI](../consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md).  
-
-## <a name="video-share-a-dashboard"></a>Vídeo: Compartir un panel
-Vea cómo Amanda comparte el panel con sus compañeros dentro y fuera de la compañía. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0tUwn8DHo3s?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="share-a-dashboard-or-report"></a>Uso compartido de un panel o informe
 
@@ -98,6 +95,14 @@ Si envía un vínculo desde una aplicación móvil de Power BI a contactos exter
 
 El administrador de Power BI puede permitir a los usuarios externos editar y administrar el contenido de la organización. En ese caso, los usuarios externos no tendrán esa experiencia de solo consumo. Pueden editar y administrar el contenido de la organización. Obtenga más información sobre la [distribución de contenido de Power BI a usuarios externos invitados con Azure AD B2B](../admin/service-admin-azure-ad-b2b.md).
 
+## <a name="share-with-more-than-100-separate-users"></a>Uso compartido con más de 100 usuarios
+
+Como máximo, puede compartir con 100 usuarios o grupos en una sola acción de uso compartido. Sin embargo, puede conceder acceso a un elemento a más de 500 usuarios. Estas son algunas sugerencias:
+
+- Comparta contenido varias veces mediante la especificación individual de los usuarios.
+- Comparta contenido con un grupo de usuarios que incluya todos los usuarios. 
+- Cree el informe o el panel en un área de trabajo y, después, cree una aplicación desde el área de trabajo. Puede compartir la aplicación con muchos más usuarios. Obtenga más información sobre la [publicación de aplicaciones en Power BI](service-create-distribute-apps.md).
+
 ## <a name="stop-or-change-sharing"></a>Detención o cambio del uso compartido
 Solo el propietario del panel o informe puede activar y desactivar Volver a compartir.
 
@@ -132,50 +137,10 @@ Aspectos que hay que tener en cuenta sobre el uso compartido de paneles e inform
 * Si sus compañeros de trabajo ya tienen acceso a un panel o informe específico, puede enviar un vínculo directo con solo copiar la dirección URL cuando se encuentre dentro del panel o informe. Por ejemplo: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`.
 * Del mismo modo, si sus compañeros de trabajo ya tienen acceso a un panel específico, puede [enviar un vínculo directo al informe subyacente](service-share-reports.md). 
 
-### <a name="share-with-more-than-100-separate-users"></a>Uso compartido con más de 100 usuarios
-
-Como máximo, puede compartir con 100 usuarios o grupos en una sola acción de uso compartido. Sin embargo, puede conceder acceso a un elemento a más de 500 usuarios. Estas son algunas sugerencias:
-
-- Comparta contenido varias veces mediante la especificación individual de los usuarios.
-- Comparta contenido con un grupo de usuarios que incluya todos los usuarios. 
-- Cree el informe o el panel en un área de trabajo y, después, cree una aplicación desde el área de trabajo. Puede compartir la aplicación con muchos más usuarios. Obtenga más información sobre la [publicación de aplicaciones en Power BI](service-create-distribute-apps.md).
-
-## <a name="troubleshoot-sharing"></a>Solución de problemas de uso compartido
-
-### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>Los destinatarios del panel ven un icono de bloqueo en un icono o un mensaje "Permisos requeridos"
-
-Las personas con las que comparte puede que vean un icono de bloqueo en un panel o un mensaje "Permisos requeridos" al intentar ver un informe.
-
-![Icono de bloqueo de Power BI](media/service-share-dashboards/power-bi-locked_tile_small.png)
-
-Si es así, debe concederles permiso al conjunto de datos subyacente.
-
-1. Vaya a la pestaña **Conjuntos de datos** en la lista de contenido.
-
-1. Seleccione el símbolo de puntos suspensivos ( **…** ) junto al conjunto de datos y, después, haga clic en **Administrar permisos**.
-
-    ![Administrar permisos](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
-
-1. Seleccione **Agregar usuario**.
-
-    ![Seleccionar Agregar usuario](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
-
-1. Escriba las direcciones de correo electrónico completas de las personas, los grupos de distribución o los grupos de seguridad. No se puede compartir con listas de distribución dinámicas.
-
-    ![Agregar direcciones de correo electrónico](media/service-share-dashboards/power-bi-add-user-dataset.png)
-
-
-1. Seleccione **Agregar**.
-
-### <a name="i-cant-share-a-dashboard-or-report"></a>No se puede compartir un panel o informe
-
-Para compartir un panel o informe, necesita permiso para volver a compartir el contenido subyacente (es decir, los informes y conjuntos de datos relacionados). Si ve un mensaje que indica que no se puede compartir, solicite al autor del informe que le conceda permisos para volver a compartir los informes y los conjuntos de datos.
-
-![Mensaje "No se puede compartir"](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
-
-
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [¿Cómo debo compartir paneles e informes y colaborar en ellos?](service-how-to-collaborate-distribute-dashboards-reports.md)
-* [Uso compartido de informes de Power BI con los compañeros](service-share-reports.md)
-* ¿Tiene alguna pregunta? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
+- [¿Cómo debo compartir paneles e informes y colaborar en ellos?](service-how-to-collaborate-distribute-dashboards-reports.md)
+- [Solución de problemas con el uso compartido de paneles e informes](service-troubleshoot-sharing.md)
+- [Solicitud o concesión de acceso a paneles o informes compartidos](service-request-access.md)
+- [Uso compartido de informes de Power BI con los compañeros](service-share-reports.md)
+- ¿Tiene alguna pregunta? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

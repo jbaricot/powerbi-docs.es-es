@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: b95eafbe797dcc28c54aa9781b0422820ccf1f4b
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566003"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393620"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Guía sobre la fecha y hora automáticas en Power BI Desktop
 
@@ -26,7 +26,7 @@ La opción _Fecha y hora automáticas_ ofrece inteligencia de tiempo cómoda, r�
 
 En la lista con viñetas siguiente se describen las consideraciones (y posibles limitaciones) relacionadas con la opción _Fecha y hora automáticas_.
 
-- **Se aplica a todos o a ninguno:** si la opción _Fecha y hora automáticas_ está habilitada, se aplicará a todas las columnas de fecha (excepto a las columnas calculadas) en las tablas de importación que no sean el lado &quot;varios&quot; de una relación. No se puede habilitar ni deshabilitar de manera selectiva columna por columna.
+- **Se aplica a todos o a ninguno:** cuando la opción _Fecha y hora automáticas_ está habilitada, se aplica a todas las columnas de fechas en las tablas de importación que no son el lado &quot;varios&quot; de una relación. No se puede habilitar ni deshabilitar de manera selectiva columna por columna.
 - **Solo períodos de calendario:** las columnas de año y trimestre se relacionan con los períodos de calendario. Significa que el año empieza el 1 de enero y finaliza el 31 de diciembre. No es posible personalizar la fecha de inicio (o finalización) del año.
 - **Personalización:** no es posible personalizar los valores que se usan para describir los períodos de tiempo. Además, no es posible agregar otras columnas para describir otros períodos de tiempo, por ejemplo, semanas.
 - **Filtrado de año:** los valores de la columnas **Quarter**, **Month** y **Day** no incluyen el valor de año. Por ejemplo, la columna **Month** contiene solo los nombres de los meses (es decir, enero, febrero, etc.). Los valores no son totalmente autodescriptivos y es posible que, en algunos diseños de informes, no comuniquen el contexto de filtro de año.
@@ -51,6 +51,7 @@ Si la opción _Fecha y hora automáticas_ no es pertinente para sus proyectos, l
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
+- [Creación de tablas de fechas en Power BI Desktop](model-date-tables.md)
 - [Fecha y hora automáticas en Power BI Desktop](../transform-model/desktop-auto-date-time.md)
 - [Configuración y uso de tablas de fechas en Power BI Desktop](../transform-model/desktop-date-tables.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

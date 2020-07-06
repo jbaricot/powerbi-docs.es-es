@@ -1,22 +1,22 @@
 ---
-title: Conexión a Conclusiones de IA en Power BI Desktop (versión preliminar)
+title: Conexión a Conclusiones de IA en Power BI Desktop
 description: Conéctese fácilmente a datos de Conclusiones de IA y úselos en Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
-ms.date: 11/12/2019
+ms.topic: how-to
+ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fec1a1a632244ef0c1923e2d68f76a7364d3c7b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7f067e87bf155b45be1d4c34f27d41649b6247df
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311738"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237974"
 ---
-# <a name="use-ai-insights-in-power-bi-desktop-preview"></a>Uso de Conclusiones de IA en Power BI Desktop (versión preliminar)
+# <a name="use-ai-insights-in-power-bi-desktop"></a>Uso de Conclusiones de IA en Power BI Desktop
 
 En Power BI, puede usar Conclusiones de IA para obtener acceso a una colección de modelos de Machine Learning entrenados previamente que mejoran los esfuerzos de preparación de datos. A Conclusiones de IA se accede en el **Editor de Power Query** y es posible acceder a sus características y funciones asociadas a través de las pestañas **Inicio** y **Agregar columna** del **Editor de Power Query**. 
 
@@ -26,7 +26,10 @@ En este artículo se describen las funciones de Text Analytics y Vision, ambas d
 
 ## <a name="how-to-enable-ai-insights"></a>Habilitación de Conclusiones de IA
 
-Conclusiones de IA de Power BI es una característica en vista previa (GB) y se debe habilitar. Para habilitarla, seleccione **Archivo > Opciones y configuración > Opciones** y, luego, **Características en vista previa (GB)** en la columna de la izquierda. En el panel de la derecha hay una selección del **explorador de funciones de Conclusiones de IA**. Active la casilla junto al **explorador de funciones de Conclusiones de IA** para habilitar la característica en vista previa (GB). Para que el cambio de la característica en vista previa (GB) se aplique, debe reiniciar Power BI Desktop.
+Conclusiones de IA ha pasado a estar disponible con carácter general en la versión de junio de 2020 de Power BI Desktop. En el caso de las versiones anteriores de Power BI Desktop, habilite Conclusiones de IA en Power BI seleccionando **Archivos > Opciones y configuración > Opciones** y luego **Características en versión preliminar** en la columna izquierda. En el panel de la derecha hay una selección del **explorador de funciones de Conclusiones de IA**. Active la casilla junto al **explorador de funciones de Conclusiones de IA** para habilitar la característica en vista previa (GB). Para que el cambio de la característica en vista previa (GB) se aplique, debe reiniciar Power BI Desktop.
+
+> [!NOTE]
+> Conclusiones de IA está disponible con carácter general para todas las versiones de Power BI Desktop a partir de la versión de junio de 2020 y, para esas versiones, no es necesario habilitarla como una característica en versión preliminar.
 
 ![Opción de Conclusiones de IA para Power BI Desktop](media/desktop-ai-insights/ai-insights-01.png)
 

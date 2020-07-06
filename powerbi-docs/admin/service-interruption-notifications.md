@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/11/2020
 ms.author: kfollis
-ms.openlocfilehash: 344ce3b83bbb9922e0359e04e65c01a1a088bcb3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 43d78710e4b60ed57ac46f713ce7bc787e852f26
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135428"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485493"
 ---
 # <a name="service-interruption-notifications"></a>Notificaciones de interrupción del servicio
 
@@ -67,7 +67,7 @@ Un administrador de inquilinos de Power BI habilita las notificaciones en el por
     ![Habilitación de notificaciones del servicio](media/service-interruption-notifications/enable-notifications.png)
 
 > [!NOTE]
-> Power BI envía notificaciones desde la cuenta no-reply-powerbi@microsoft.com. Asegúrese de que esta cuenta esté en la lista de permitidas para que las notificaciones no terminen en una carpeta de correo no deseado.
+> Power BI envía notificaciones desde la cuenta no-reply-powerbi@microsoft.com. Asegúrese de que esta cuenta se agregue a la lista de remitentes seguros para que las notificaciones no vayan a una carpeta de correo no deseado.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

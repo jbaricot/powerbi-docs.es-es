@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/14/2020
+ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160005"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85484941"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Licencias del servicio Power BI para los usuarios de la organización
 
@@ -39,6 +39,8 @@ Estos roles administran la organización. Para obtener información sobre los ro
 
 ## <a name="get-power-bi-for-your-organization"></a>Obtención de Power BI para su organización
 
+Para información sobre los precios, vea [Comparación de productos y precios](https://powerbi.microsoft.com/pricing/).
+
 Un administrador global o un administrador de facturación puede suscribirse al servicio Power BI y comprar licencias para los usuarios de su organización. Si no está preparado para realizar la compra, seleccione la evaluación de Power BI Pro. Obtendrá 25 licencias que podrá usar durante un mes. Para obtener instrucciones paso a paso sobre cómo suscribirse, consulte cómo [obtener una suscripción de Power BI para su organización](service-admin-org-subscription.md).
 
 ## <a name="about-self-service-sign-up"></a>Acerca del registro de autoservicio
@@ -46,6 +48,16 @@ Un administrador global o un administrador de facturación puede suscribirse al 
 Los usuarios individuales pueden obtener sus propias licencias de Power BI registrándose con su cuenta profesional o educativa. Con una licencia gratuita, los usuarios pueden explorar Power BI para analizar y visualizar datos personales desde la sección Mi área de trabajo, pero no pueden compartirlos con otros usuarios. Se requiere una licencia de Power BI Pro para compartir contenido. Los usuarios pueden actualizar su tipo de licencia a Pro, o registrarse directamente en Pro, si su organización usa la nube comercial. La compra directa o la actualización a Pro no está disponible para organizaciones educativas ni para organizaciones implementadas en nubes de Azure Government, Azure Alemania o Azure China 21Vianet.
 
 Si no quiere que los usuarios de la organización usen el registro de autoservicio, consulte el artículo [Activación o desactivación del registro de autoservicio](service-admin-disable-self-service.md) para obtener información sobre cómo desactivarlo.
+
+Al desactivar el registro de autoservicio, los usuarios no pueden explorar Power BI para la visualización y el análisis de datos. Si bloquea el registro individual, puede que desee obtener licencias de Power BI (gratis) para su organización y asignarlas a todos los usuarios. Siga estos pasos para asignar automáticamente una licencia de Power BI (gratis) a todos los usuarios existentes:
+
+1. Inicie sesión en el [centro de administración de Microsoft 365](https://admin.microsoft.com) con las credenciales de administrador global o administrador de facturación.
+1. En el menú de la barra lateral izquierda, seleccione **Facturación** > **Servicios de compra**.
+1. Busque o desplácese para buscar la oferta de Power BI (gratis). Seleccione la oferta y, a continuación, seleccione **Obtener ahora**.
+1. Escriba el número de licencias necesarias para cubrir a todos los usuarios.
+1. Seleccione **Automatically assign to all of your users with no licenses** (Asignar automáticamente a todos los usuarios sin licencia) y, después, eche un vistazo.
+
+  ![Suscripción gratuita a Power BI asignada automáticamente](media/service-admin-licensing-organization/m365-auto-assign.png) 
 
 Si quiere ver qué usuarios de su organización puede que ya dispongan de una licencia, consulte el artículo sobre cómo [ver y administrar licencias de usuario](service-admin-manage-licenses.md).
 

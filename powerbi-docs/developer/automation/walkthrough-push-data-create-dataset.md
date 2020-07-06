@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: 149b4f8663838c0a87609a1ec24358fb9ee9727e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8860a06355f201c463e97d81021a8e5476ac98c8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403631"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354993"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Paso 3: Creación de un conjunto de datos en Power BI
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
@@ -26,7 +26,7 @@ Para autenticar una operación de REST de Power BI, debe agregar el token que ob
 
 Al llamar a la operación [PostDataSet](https://docs.microsoft.com/rest/api/power-bi/pushdatasets), se crea un nuevo conjunto de datos. 
 
-![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
+![Crear conjunto de datos](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
 Aquí se indica cómo crear un conjunto de datos en Power BI.
 

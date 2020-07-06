@@ -1,6 +1,6 @@
 ---
 title: Curso Informes paginados de Power BI en un día
-description: Este curso en línea pretende ayudarle como autor de informes con los conocimientos técnicos necesarios para crear, publicar y distribuir informes paginados de Power BI.
+description: Este curso basado en vídeo pretende ayudarle como autor de informes con los conocimientos técnicos necesarios para crear, publicar y distribuir informes paginados de Power BI.
 author: peter-myers
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3b6c3f79b6695c670b942253ddd2c2b158dc3acc
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693240"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427505"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Curso Informes paginados de Power BI en un día
 
@@ -93,11 +93,11 @@ Después de la extracción, tendrá la carpeta **PowerBIPRIAD**, en la que encon
 - **MySolution**: esta carpeta almacena los archivos de la solución. Las instrucciones del laboratorio le indicarán cuándo usarlo.
 - **Presentation**: esta carpeta contiene el archivo de presentación del curso, disponible como documento PDF.
 
-### <a name="getting-started-with-the-kit"></a>Introducción al kit
+### <a name="get-started-with-the-kit"></a>Introducción al kit
 
 Se recomienda ver primero el curso en línea. Puede volver a consultar la teoría de la presentación si abre el archivo **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf**. La presentación incluye ocho diapositivas de laboratorio, que indican cuándo es el momento de poner en práctica la teoría. También incluye muchos vínculos de recursos para ayudarle a encontrar contenido relacionado.
 
-Cuando esté listo para iniciar el primer laboratorio, abra el archivo **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Este documento le guía por el inicio de sesión en el servicio Power BI, la carga de un conjunto de datos y, después, la instalación del [Generador de informes de Power BI](../paginated-reports/report-builder-power-bi.md).
+Cuando esté listo para iniciar el primer laboratorio, abra el archivo **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Este documento le guía por el inicio de sesión en el servicio Power BI, la carga de un conjunto de datos y, después, la instalación del [Generador de informes de Power BI](https://aka.ms/pbireportbuilder).
 
 > [!NOTE]
 > Su responsabilidad es tener una cuenta propia de Power BI. Si todavía no tiene una, vea [Registro en Power BI como usuario individual](../fundamentals/service-self-service-signup-for-power-bi.md).

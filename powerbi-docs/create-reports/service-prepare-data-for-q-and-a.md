@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 102145e8c5b2fd3ad19b6703710405d06da5a93a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f7760021966673b93313809a806473b94c7750d3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323238"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218709"
 ---
 # <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Funcionamiento correcto de los datos de Excel con Preguntas y respuestas en Power BI
 Si es la persona que crea modelos de datos o compila libros de Excel que se usarán con Power BI, siga leyendo...
@@ -40,7 +40,7 @@ Estas son algunas sugerencias para sacar el máximo partido de Preguntas y respu
 
 * Si el libro tiene un modelo de datos de PowerPivot, puede hacer más optimizaciones todavía. Lea más sobre [Desmitificación de Preguntas y respuestas de Power BI parte 2](https://powerbi.microsoft.com/blog/demystifying-power-bi-q-amp-a-part-2/), redactado por nuestro equipo interno de expertos en lenguaje natural.
 
-* Abra el conjunto de datos en Power BI Desktop y podrá crear nuevas columnas, crear medidas calculadas, concatenar campos para crear valores únicos, clasificar los datos por tipo (por ejemplo, fechas, cadenas, datos geográficos, imágenes, direcciones URL) y mucho más.
+* Abra el conjunto de datos en Power BI Desktop y podrá crear nuevas columnas, crear medidas, concatenar campos para crear valores únicos, clasificar los datos por tipo (por ejemplo, fechas, cadenas, datos geográficos, imágenes, direcciones URL) y mucho más.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

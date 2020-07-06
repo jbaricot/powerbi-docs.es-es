@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/27/2020
-ms.openlocfilehash: ee725457475f1bccd593e2331d9e62c85ef08762
-ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
+ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84126305"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739239"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
 
@@ -215,7 +215,7 @@ Power BI Report Server admite ahora el cifrado de base de datos transparente pa
 
 #### <a name="power-bi-visuals-api"></a>API de objetos visuales de Power BI
 
-La versión de la API incluida con esta versión es la 2.6.
+La versión de la API incluida con esta versión es la 2.6.0.
 
 #### <a name="microsoft-report-builder-update"></a>Actualización de Generador de informes de Microsoft
 
@@ -366,7 +366,7 @@ Compatibilidad con estas características en los informes de Power BI:
 
 #### <a name="power-bi-visuals"></a>Objetos visuales de Power BI
 
-- La versión de la API incluida con esta versión es 2.3.
+- La versión de la API incluida con esta versión es la 2.3.0.
 
 ### <a name="administrator-settings"></a>Configuración del administrador
 

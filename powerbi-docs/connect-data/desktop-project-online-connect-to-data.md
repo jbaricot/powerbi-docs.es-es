@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563061"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85223315"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Conexión a datos de Project Online a través de Power BI Desktop
 Puede conectarse a los datos en Project Online a través de Power BI Desktop.
@@ -29,7 +29,7 @@ Puede conectarse a los datos en Project Online a través de Power BI Desktop.
 3. Elija **Fuente de OData** y seleccione **Conectar**.
 4. Escriba la dirección de su fuente de OData en el cuadro de la dirección URL y, a continuación, haga clic en Aceptar.
    
-   Si la dirección del sitio de Project Web App se parece a *https://\<nombreinquilino\>.sharepoint.com/sites/pwa*,la dirección que especificará para la fuente de OData será *https://\<nombreinquilino\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
+   Si la dirección del sitio de Project Web App se parece a *https://\<tenantname\>.sharepoint.com/sites/pwa*, la dirección que especificará para la fuente de OData será *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
    
    En nuestro ejemplo, estamos usando:
 

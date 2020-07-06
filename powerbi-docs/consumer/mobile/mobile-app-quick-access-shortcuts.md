@@ -4,15 +4,15 @@ description: Obtenga información sobre cómo acceder rápidamente a contenido v
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
-ms.openlocfilehash: 1aa2e80e7624fb50878c70e464aac7edd943e0a8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ec4763118360ea02362e3f49fe9776224e9c087a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802787"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229403"
 ---
 # <a name="use-android-app-shortcuts-in-the-power-bi-android-app"></a>Uso de accesos directos a aplicaciones Android en la aplicación Power BI para Android
 
@@ -33,7 +33,7 @@ La aplicación móvil de Power BI para Android proporciona dos maneras sencilla
 
 Se pueden crear accesos directos a cualquier informe o panel.
 
-1. En el menú Acciones, haga clic en **Más opciones...** y seleccione **Agregar acceso directo**.
+1. En un informe, en el menú Acciones, haga clic en **Más opciones...** y seleccione **Agregar acceso directo**. En un panel, pulse **Agregar acceso directo** en el menú Acciones.
 
    ![Incorporación de un menú de acción de acceso directo](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-action-menu.png)
 
@@ -44,7 +44,6 @@ Se pueden crear accesos directos a cualquier informe o panel.
    Debajo se muestran estas dos experiencias.
 
    ![Incorporación de un banner de acceso directo](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-banner.png)
-
 
  1. Se mostrará una opción del cuadro de diálogo **Agregar acceso directo** con el nombre del elemento. Se puede editar el nombre si se quiere. Cuando termine, pulse **AGREGAR**.
 
@@ -60,7 +59,7 @@ Se pueden crear accesos directos a cualquier informe o panel.
 
 ## <a name="edit-the-shortcut-name"></a>Edición del nombre del acceso directo
 
-Para editar el nombre de un acceso directo, en el menú Acciones seleccione **Más opciones...** y, después, elija **Editar el nombre de acceso directo**.
+Para editar el nombre de un acceso directo, en el menú Acciones de nun informe, pulse **Más opciones...** y, después, elija **Editar el nombre de acceso directo**. En un panel, pulse **Agregar acceso directo**. Aparecerá el cuadro de diálogo **Editar nombre de acceso directo**.
 
  ![Edición del nombre del acceso directo](media/mobile-app-quick-access-shortcuts/mobile-edit-shortcut.png)
 

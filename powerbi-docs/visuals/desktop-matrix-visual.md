@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/10/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279190"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354717"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creación de visualizaciones de matriz en Power BI
 
@@ -49,17 +49,17 @@ Al examinar los totales y subtotales, recuerde que estos valores se basan en los
 ## <a name="expanding-and-collapsing-row-headers"></a>Expansión y contracción de encabezados de fila
 Hay dos maneras de expandir los encabezados de fila. La primera es mediante el menú contextual. Verá opciones para expandir el encabezado de fila específico que seleccionó, el nivel entero o todo hasta el último nivel de la jerarquía. También tiene opciones similares para contraer los encabezados de fila.
 
-![](media/desktop-matrix-visual/power-bi-expand1.png)
+![menú que muestra Expandir y Selección](media/desktop-matrix-visual/power-bi-expand1.png)
 
 Además, puede agregar botones +/-a los encabezados de fila mediante el panel de formato situado bajo la tarjeta **Encabezados de fila**. De forma predeterminada, los iconos coinciden con el formato del encabezado de fila, pero puede personalizar los colores y tamaños de los iconos por separado si así lo desea.
 
 Una vez que los iconos están activados, funcionan de forma similar a los de la tabla dinámica de Excel.
 
-![](media/desktop-matrix-visual/power-bi-expand2.png)
+![matriz que muestra los iconos activados](media/desktop-matrix-visual/power-bi-expand2.png)
 
 El estado de expansión de la matriz se guardará con el informe. Una matriz se puede anclar a un panel expandido o contraído. Cuando se selecciona el icono del panel y se abre el informe, se puede cambiar el estado de expansión en el informe. 
 
-![](media/desktop-matrix-visual/power-bi-expand3.png)
+![matriz que muestra el estado de expansión](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
 > Si va a crear un informe sobre un modelo multidimensional de Analysis Services, hay algunas consideraciones especiales que debe tener en cuenta para expandir o contraer si el modelo usa la característica de miembro predeterminado. Para obtener más información, consulte el artículo [Trabajo con modelos multidimensionales en Power BI](../connect-data/desktop-default-member-multidimensional-models.md).

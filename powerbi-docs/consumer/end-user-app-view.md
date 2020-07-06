@@ -5,16 +5,17 @@ author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 04/18/2020
+ms.topic: how-to
+ms.date: 05/26/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: a38b3aa72c37d10ce19344ebe6f3c3f286661d62
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8040822453050b06f29ee8c6799e26d1d0a6dbea
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275533"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238449"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalación y uso de aplicaciones con los paneles e informes de Power BI
 
@@ -25,88 +26,58 @@ ms.locfileid: "83275533"
 Ahora que tiene [conocimientos básicos sobre las aplicaciones](end-user-apps.md), vamos a aprender a abrirlas e interactuar con ellas. 
 
 ## <a name="ways-to-get-a-new-app"></a>Maneras de obtener una nueva aplicación
-Hay varias maneras de obtener una nueva aplicación. Un compañero diseñador de informes podría instalar la aplicación automáticamente en su cuenta de Power BI o enviarle un vínculo directo a una aplicación. También puede ir a AppSource y buscar aplicaciones que los diseñadores de aplicaciones han puesto a su disposición tanto dentro como fuera de la empresa. 
+Hay varias maneras de obtener una nueva aplicación:
+* Puede obtenerlo desde el marketplace de aplicaciones de Power BI en Power BI.
+* Puede usar un vínculo directo a una aplicación que haya recibido del creador de la aplicación. 
+* Un diseñador de informes de su organización puede instalar la aplicación automáticamente en su cuenta de Power BI.
 
-En Power BI desde su dispositivo móvil, solo puede instalar una aplicación desde un vínculo directo y no desde AppSource. Si el diseñador de la aplicación la instala automáticamente, podrá verla en la lista de aplicaciones.
+En la aplicación móvil de Power BI, solo puede instalar una aplicación desde un vínculo directo. Si el diseñador de la aplicación la instala automáticamente, podrá verla en la lista de aplicaciones.
 
 ## <a name="apps-and-licenses"></a>Aplicaciones y licencias
 No todos los usuarios de Power BI pueden ver las aplicaciones e interactuar con ellas. 
 - Si tiene una licencia gratuita, puede abrir aplicaciones que se hayan compartido con usted y que estén almacenadas en un área de trabajo en la capacidad Premium.
 - Si tiene una licencia Pro, puede abrir las aplicaciones que se han compartido con usted.
 
+## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Obtención de la aplicación en el marketplace de aplicaciones de Power BI
+
+Puede buscar e instalar aplicaciones en el marketplace de aplicaciones de Power BI. En el marketplace de aplicaciones puede obtener aplicaciones de organización y de plantilla.
+
+1. [Inicie sesión en el servicio Power BI](./end-user-sign-in.md) si aún no lo ha hecho. 
+
+1. Una vez que esté en Power BI, seleccione **Aplicaciones > Obtener aplicaciones**. 
+
+    ![Obtener aplicaciones  ](./media/end-user-app-view/power-bi-get-apps.png)
+
+1. Se abre el marketplace de aplicaciones de Power BI.
+
+   ![Marketplace de aplicaciones de Power BI](./media/end-user-app-view/power-bi-app-marketplace.png)
+
+   Hay tres pestañas que puede utilizar:
+   * **Todas las aplicaciones**: examine las aplicaciones de plantilla y todas las aplicaciones de la organización disponibles. Las aplicaciones de plantilla se distinguen por el icono de la bolsa de la compra en la esquina superior derecha de los iconos.
+   * **Aplicaciones de la organización**: examine las aplicaciones de la organización que se han compartido con usted. 
+   * **Aplicaciones de plantilla**: examine las aplicaciones de plantilla que se hospedan en AppSource.
+
+   Como alternativa, puede usar el cuadro de búsqueda para obtener una selección filtrada de aplicaciones. Al escribir parte del nombre de una aplicación o de una categoría, como finanzas, análisis, marketing, etc., resultará más fácil encontrar el elemento que está buscando. 
+
+   El cuadro de búsqueda depende de la pestaña que haya abierto (solo se devolverán las aplicaciones del tipo seleccionado). Si la pestaña **Todas las aplicaciones** está abierta, se devuelven las aplicaciones de plantilla y de la organización. Esto puede dar lugar a confusiones cuando una aplicación de la organización y una aplicación de plantilla tienen el mismo nombre. Simplemente recuerde que los iconos de la aplicación de plantilla tienen un icono de bolsa de la compra en la esquina superior derecha.
+
+Cuando encuentre la aplicación que desee, haga clic en **Obtenerlo ahora** para instalarla.
+* Si va a instalar una aplicación de la organización, se agregará inmediatamente a la lista de aplicaciones.
+* Si va a instalar una aplicación de plantilla, se le dirigirá al anuncio de la aplicación de plantilla en AppSource. Consulte [un ejemplo](end-user-app-marketing.md) de cómo descargar e instalar una aplicación de plantilla de muestra en el marketplace de aplicaciones de Power BI. 
+
+   > [!NOTE]
+   > Si usa una licencia de usuario gratuita, podrá descargar aplicaciones, pero no podrá verlas a menos que actualice a una cuenta de Power BI Pro o que la aplicación esté almacenada en una capacidad Premium. Para obtener más información, consulte [Licencias para consumidores](end-user-license.md).
+
 ## <a name="install-an-app-from-a-direct-link"></a>Instalar una aplicación desde un vínculo directo
-La manera más fácil de instalar manualmente una aplicación nueva es obtener un vínculo directo del diseñador de la aplicación por correo electrónico.  
+También puede instalar una aplicación de la organización desde el vínculo directo de un correo electrónico en el diseñador de aplicaciones.  
 
 **En el equipo** 
 
 Al hacer clic en el vínculo en el correo, el servicio Power BI ([https://powerbi.com](https://powerbi.com)) abre la aplicación en el explorador. 
 
-![Página de aterrizaje de la aplicación en el servicio Power BI](./media/end-user-app-view/power-bi-app-from-link.png)
-
 **En su dispositivo móvil de iOS o Android** 
 
 Si selecciona el vínculo del correo desde su dispositivo móvil, la aplicación se instala automáticamente y se abre en la aplicación móvil. Es posible que primero tenga que iniciar sesión. 
-
-![Lista de contenido de una aplicación del dispositivo móvil](./media/end-user-app-view/power-bi-ios.png)
-
-## <a name="get-the-app-from-microsoft-appsource"></a>Obtención de la aplicación desde Microsoft AppSource
-También puede buscar e instalar aplicaciones desde Microsoft AppSource. Solo se muestran las aplicaciones a las que puede acceder (es decir, el autor de la aplicación le ha concedido permiso a usted o a todos los usuarios). 
-
-> [!NOTE]
-> Si usa una licencia de usuario gratuita, podrá descargar aplicaciones, pero no podrá verlas a menos que actualice a una cuenta de Power BI Pro o que la aplicación esté almacenada en una capacidad Premium. Para obtener más información, consulte [Licencias para consumidores](end-user-license.md).
-
-1. Seleccione **Aplicaciones**  > **Obtener aplicaciones**. 
-   
-    ![Icono de Obtener aplicaciones](./media/end-user-app-view/power-bi-get-app2.png)    
-2. En AppSource, en **Mi organización**, busque para limitar los resultados y encontrar la aplicación que está buscando.
-   
-    ![En AppSource en Mi organización](./media/end-user-app-view/power-bi-opportunity-app.png)
-3. Seleccione **Obtenerla ahora** para agregarla a la lista de contenido Aplicaciones. 
-
-## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Obtención de una aplicación desde el sitio web de Microsoft AppSource 
-
-En este ejemplo, abriremos una de las aplicaciones de ejemplo de Microsoft. En AppSource encontrará aplicaciones para muchos de los servicios que usa para llevar su negocio.  Servicios como Salesforce, Microsoft Dynamics, Google Analytics, GitHub, zendesk, Marketo y muchos más. Para saber más, vea [Aplicaciones para los servicios que usa con Power BI](../connect-data/service-connect-to-services.md). 
-
-1. En un explorador, abra [https://appsource.microsoft.com](https://appsource.microsoft.com) y seleccione las **aplicaciones de Power BI**.
-
-    ![Sitio web de AppSource con Power BI apps seleccionado  ](./media/end-user-apps/power-bi-appsource.png)
-
-
-2. Seleccione **Ver todo** para ver la lista de todas las aplicaciones Power BI disponibles actualmente en AppSource. Desplácese o busque la aplicación denominada **Microsoft Sample - Sales & Marketing**.
-
-    ![Sitio web de AppSource con la aplicación Microsoft Sample - Sales & Marketing resaltada  ](./media/end-user-apps/power-bi-appsource-samples.png)
-
-3. Seleccione **Obtenerla ahora** y acepte los términos de uso.
-
-    ![Términos de uso del sitio web de AppSource ](./media/end-user-apps/power-bi-permission.png)
-
-
-4. Confirme que quiere instalar la aplicación.
-
-    ![¿Instalar esta aplicación?  ](./media/end-user-apps/power-bi-app-install.png)
-
-5. El servicio Power BI mostrará un mensaje de operación correcta cuando se instale la aplicación. Seleccione **Ir a la aplicación** para abrir la aplicación. En función de cómo el diseñador haya creado la aplicación, se mostrará el panel de la aplicación o el informe de la aplicación.
-
-
-
-    ![Aplicación instalada correctamente ](./media/end-user-apps/power-bi-app-ready.png)
-
-    > [!NOTE]
-    > Si usa una licencia de usuario gratuita, podrá descargar aplicaciones, pero no podrá verlas a menos que actualice a una cuenta de Power BI Pro. 
-
-    También puede abrir la aplicación directamente desde la lista de contenido de la aplicación; para ello, seleccione **Aplicaciones** y elija **Sales & Marketing**.
-
-    ![Aplicaciones de Power BI](./media/end-user-apps/power-bi-apps.png)
-
-
-6. Decida si quiere explorar o personalizar y compartir la nueva aplicación. Como hemos seleccionado una aplicación de ejemplo de Microsoft, vamos a empezar explorándola. 
-
-    ![Explorar con datos de ejemplo](./media/end-user-apps/power-bi-explore.png)
-
-7.  La nueva aplicación se abre con un panel. Pero el *diseñador* de la aplicación también podría haber configurado la aplicación para que se abra en un informe.  
-
-    ![Explorar con datos de ejemplo](./media/end-user-apps/power-bi-new-app.png)
-
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interacción con los paneles e informes en la aplicación
 Dedique algún tiempo a explorar los datos de los paneles y los informes que componen la aplicación. Puede acceder a todas las interacciones estándar de Power BI, como filtrar, resaltar, ordenar y explorar en profundidad.  ¿Aún no tiene clara la diferencia entre paneles e informes?  Lea el [artículo sobre paneles](end-user-dashboards.md) y el [artículo sobre informes](end-user-reports.md).  
@@ -130,7 +101,6 @@ En ocasiones, los creadores de aplicaciones pueden publicar nuevas versiones de 
     3. Como ya tiene una versión de esta aplicación, decida si quiere reemplazar la existente o instalar la aplicación actualizada en una nueva área de trabajo.   
 
         ![Sobrescritura de la versión anterior de la aplicación](./media/end-user-app-view/power-bi-already-installed.png) 
-
 
     > [!NOTE] 
     > Al instalar una versión nueva, se sobrescriben los cambios que pueda haber realizado en los informes y paneles. Para conservar los informes y paneles actualizados, puede guardarlos con otro nombre o en otra ubicación antes de instalarlos. 

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/27/2020
+ms.topic: how-to
+ms.date: 06/16/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 9bc8f7c100acc3805fbe6ab949e3584cb5fd26e1
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: ddb5e4d1476025965e6227e9ae443441f2060fcd
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121044"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219744"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 
@@ -112,7 +112,7 @@ Power BI hace una actualización basada en un id. de elemento en OneDrive, por 
 Puede trasladar el archivo a otra ubicación (por ejemplo, mediante arrastrar y colocar) y la actualización seguirá funcionando porque Power BI todavía conoce el id. de archivo. Pero si copia el archivo en otra ubicación, se crea una instancia del archivo y un valor fileID nuevos. Por tanto, la referencia al archivo de Power BI ya no es válida y se producirá un error en la actualización.
 
 > [!NOTE]
-> Power BI puede tardar hasta 10 minutos en actualizar un conjunto de datos, incluso una vez que se completa la sincronización en la máquina local y después de que haya usado *Actualizar ahora* en el servicio Power BI.
+> Power BI puede tardar hasta 60 minutos en actualizar un conjunto de datos, incluso una vez que se completa la sincronización en la máquina local y después de que haya usado *Actualizar ahora* en el servicio Power BI.
 
 Para revisar los ciclos de sincronización anteriores, consulte la pestaña OneDrive en el historial de actualizaciones. La captura de pantalla siguiente muestra un ciclo de sincronización completa para un conjunto de datos de ejemplo.
 
@@ -202,14 +202,15 @@ A diferencia de una puerta de enlace de datos de empresa, no es necesario agrega
 
 ![Configuración de las credenciales del origen de datos para la puerta de enlace](media/refresh-data/configure-data-source-credentials-gateway.png)
 
-> [!NOTE]
-> La puerta de enlace de datos personal no admite conjuntos de datos en los modos DirectQuery o LiveConnect. La página de configuración del conjunto de datos podría pedirle que lo instale, pero si solo tiene una puerta de enlace personal, no puede configurar una conexión de puerta de enlace. Asegúrese de que tiene una puerta de enlace de datos de empresa para admitir estos tipos de conjuntos de datos.
 
 ### <a name="accessing-cloud-data-sources"></a>Acceso a orígenes de datos en la nube
 
 Los conjuntos de datos que utilizan orígenes de datos en la nube, como Azure SQL DB, no requieren una puerta de enlace de datos si Power BI puede establecer una conexión de red directa con el origen. Por lo tanto, puede administrar la configuración de estos orígenes de datos mediante la sección **Credenciales de origen de datos** en la configuración del conjunto de datos. Tal y como se muestra en la siguiente captura de pantalla, no es necesario configurar una conexión de puerta de enlace.
 
 ![Configuración de las credenciales del origen de datos sin una puerta de enlace](media/refresh-data/configure-data-source-credentials.png)
+
+> [!NOTE]
+> Cada usuario solo puede tener un conjunto de credenciales por origen de datos, en todos los conjuntos de datos que posea, independientemente de las áreas de trabajo en las que residan los conjuntos de datos. 
 
 ### <a name="accessing-on-premises-and-cloud-sources-in-the-same-source-query"></a>Acceso a orígenes locales y en la nube en la misma consulta de origen
 

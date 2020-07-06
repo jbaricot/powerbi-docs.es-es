@@ -5,16 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: da21acf2c37136b70bdb7ab70060422655ac879c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323882"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231078"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Solución de problemas de Power BI Gateway (modo personal)
 
@@ -47,7 +47,7 @@ Si la versión de la puerta de enlace no está actualizada, pueden aparecer much
 ## <a name="schedule-refresh"></a>Programar actualización
 **Error: Falta la credencial almacenada en la nube.**
 
-Es posible que reciba este error en la configuración del \<conjunto de datos\> si tiene una actualización programada y después desinstala y vuelve a instalar la puerta de enlace (modo personal). Si desinstala una puerta de enlace (modo personal), las credenciales del origen de datos para un conjunto de datos que se configuró para la actualización se quitan del servicio Power BI.
+Es posible que reciba este error en la configuración de\<dataset\> si tiene una actualización programada y después desinstala y vuelve a instalar la puerta de enlace (modo personal). Si desinstala una puerta de enlace (modo personal), las credenciales del origen de datos para un conjunto de datos que se configuró para la actualización se quitan del servicio Power BI.
 
 **Solución:** En Power BI, vaya a la configuración de actualización de un conjunto de datos. En **Administrar orígenes de datos**, para cualquier origen de datos con un error, seleccione **Editar credenciales**. Luego, vuelva a iniciar sesión en el origen de datos.
 

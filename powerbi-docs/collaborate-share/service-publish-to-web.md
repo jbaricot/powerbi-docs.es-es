@@ -6,15 +6,15 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 5e7fe8a7c71927a1e89bd4e86209c580ae1f3b29
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272986"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225666"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -118,11 +118,11 @@ Después de crear un código para insertar de **Publicar en la web**, se pueden 
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Actualizaciones de informes y datos
 
-Después de crear y compartir el código para insertar de **Publicar en la web**, el informe se actualiza con los cambios que realice y el vínculo del código para insertar se activa de forma inmediata. Cualquiera que abra el vínculo puede verlo. Sin embargo, después de esta acción inicial, las actualizaciones de los informes u objetos visuales pueden tardar entre dos y tres horas antes de convertirse en visibles para los usuarios. Para obtener más información, consulte la sección [**Cómo funciona**](#howitworks) más adelante en este artículo. 
+Después de crear y compartir el código para insertar de **Publicar en la web**, el informe se actualiza con los cambios que realice y el vínculo del código para insertar se activa de forma inmediata. Cualquiera que abra el vínculo puede verlo. Después de la creación inicial, pueden pasar hasta dos horas hasta que las actualizaciones de informes u objetos visuales sean visibles para los usuarios. Los datos se almacenan en memoria caché durante una hora a partir del momento en que se recuperan. No se recomienda el uso de Publicar en Web para los datos que deben actualizarse con frecuencia. Para obtener más información, consulte la sección [**Cómo funciona**](#howitworks) más adelante en este artículo. 
 
 ### <a name="data-refresh"></a>Actualización de datos
 
-Las actualizaciones de datos se reflejan automáticamente en el informe u objeto visual insertado. Los datos actualizados pueden tardar aproximadamente una hora en ser visibles desde los códigos para insertar. Para desactivar la actualización automática, seleccione **no actualizar** en la programación del conjunto de datos que usa el informe.  
+Las actualizaciones de datos se reflejan automáticamente en el informe u objeto visual insertado. Los datos actualizados pueden tardar hasta dos horas en ser visibles desde los códigos para insertar. Para desactivar la actualización automática, seleccione **no actualizar** en la programación del conjunto de datos que usa el informe.  
 
 ## <a name="power-bi-visuals"></a>Objetos visuales de Power BI
 
@@ -159,7 +159,7 @@ Debe ser usuario de Microsoft Power BI para poder usar la características **Pub
 
 Cuando se crea un código para insertar mediante **Publicar en la web**, el informe se hace visible para los usuarios de Internet. Está disponible públicamente, por lo que se puede esperar que los espectadores compartan fácilmente el informe a través de redes sociales en el futuro. Cuando los usuarios ven el informe, ya sea con la dirección URL pública directa o insertado en una página web o un blog, Power BI almacena en caché la definición de informe y los resultados de las consultas necesarias para ver el informe. Este almacenamiento en caché garantiza que miles de usuarios simultáneos pueden ver el informe sin afectar al rendimiento.
 
-La memoria caché es de larga duración. Si actualiza la definición del informe (por ejemplo, si cambia el modo de vista) o los datos del informe, los cambios pueden tardar aproximadamente una hora en reflejarse en la versión del informe que ven los usuarios. Puesto que cada elemento y valor de datos se almacena en caché de forma independiente, cuando se produce una actualización de los datos, se puede mostrar una combinación de valores actuales y anteriores a un usuario. Por tanto, se recomienda organizar el trabajo con antelación y crear el código para insertar de **Publicar en la web** solo cuando esté satisfecho con la configuración. Si los datos se van a actualizar, minimice el número de actualizaciones y realice las actualizaciones en horas de inactividad.
+Los datos se almacenan en memoria caché durante una hora a partir del momento en que se recuperan. Si actualiza la definición del informe (por ejemplo, si cambia el modo de vista) o los datos del informe, los cambios pueden tardar hasta dos horas en reflejarse en la versión del informe que ven los usuarios. Puesto que cada elemento y valor de datos se almacena en caché de forma independiente, cuando se produce una actualización de los datos, se puede mostrar una combinación de valores actuales y anteriores a un usuario. Por tanto, se recomienda organizar el trabajo con antelación y crear el código para insertar de **Publicar en la web** solo cuando esté satisfecho con la configuración. Si los datos se van a actualizar, minimice el número de actualizaciones y realice las actualizaciones en horas de inactividad. No se recomienda el uso de Publicar en Web para los datos que deben actualizarse con frecuencia.
 
 ## <a name="find-your-power-bi-administrator"></a>Buscar el administrador de Power BI
 

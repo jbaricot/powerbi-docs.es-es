@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e3a9d6db1b7f51f02f3dbc94da1d6b35eac3222
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1e0fdf11eab5ea264e78363984ff49bbc95660d8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348905"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354326"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Anclaje de un icono a un panel de Power BI desde un informe
 
@@ -57,6 +57,11 @@ Ahora, cree su propio panel con uno de los informes de ejemplo de Power BI.
 Otra opción es anclar una página de informe completa a un panel, que es una manera fácil de anclar más de una visualización a la vez. Si ancla una página completa, los iconos serán *dinámicos*. Es decir, puede interactuar con ellos desde allí o desde el panel. Los cambios que haga en cualquier visualización del editor de informes, como agregar un filtro o cambiar los campos utilizados en el gráfico, se reflejan también en el icono del panel.  
 
 Para más información, consulte [Anclar una página de informe completa](service-dashboard-pin-live-tile-from-report.md).
+
+> [!NOTE]
+> Algunas opciones de formato no se aplican a los objetos visuales cuando están anclados a un panel. La configuración de borde, sombra y fondo se omitirá en el icono anclado. En el caso de los objetos visuales de tarjeta, el texto utilizado para el valor siempre se muestra en los paneles mediante la familia de fuentes "DIN". 
+> 
+>
 
 ## <a name="next-steps"></a>Pasos siguientes
 - [Dashboards for Power BI service consumers](../consumer/end-user-dashboards.md) (Paneles para los consumidores del servicio Power BI)

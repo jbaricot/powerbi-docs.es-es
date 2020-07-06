@@ -1,6 +1,6 @@
 ---
 title: ¿Qué son los informes paginados en Power BI Premium?
-description: Los informes paginados, con el formato de informe estándar de SQL Server Reporting Services, ya están disponibles en el servicio Power BI. Estos informes se pueden imprimir o compartir. Puede controlar el diseño del informe totalmente. Muestran todos los datos en una tabla, por ejemplo, incluso si la tabla abarca varias páginas.
+description: Los informes paginados ahora están disponibles en el servicio Power BI. Durante mucho tiempo, han sido el formato de informe estándar en SQL Server Reporting Services. Estos informes se pueden imprimir o compartir. Puede controlar el diseño del informe totalmente. Muestran todos los datos en una tabla, por ejemplo, incluso si la tabla abarca varias páginas.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 7483b6878a7f7c2e01be7869827f8de66499cc5f
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733425"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393798"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>¿Qué son los informes paginados en Power BI Premium?
 
@@ -95,7 +95,8 @@ Estas son algunas otras características que no son compatibles con la versión 
  
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Instalación del Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Instalación del Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://aka.ms/pbireportbuilder)
 - [Tutorial: Crear un informe paginado](paginated-reports-quickstart-aw.md)
+- [Curso en línea: Informes paginados de Power BI en un día](../learning-catalog/paginated-reports-online-course.md)
 - [Escritura directa de datos en un informe paginado](paginated-reports-enter-data.md)
 - [Tutorial: Inserción de informes paginados de Power BI en una aplicación para los clientes](../developer/embedded/embed-paginated-reports-customers.md)

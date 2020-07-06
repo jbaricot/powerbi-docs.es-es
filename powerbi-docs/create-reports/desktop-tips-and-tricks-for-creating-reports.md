@@ -6,15 +6,15 @@ ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564584"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238487"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugerencias y trucos para crear informes en Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado. 
@@ -99,11 +99,11 @@ El último paso es crear el histograma. Arrastre el campo Cubo desde la tabla "C
 ## <a name="histograms"></a>Histogramas
 En Power BI Desktop, puede usar un campo calculado para definir un histograma. Identifique la tabla y la columna en las que desea crear un histograma. En el área de cálculo, escriba la fórmula siguiente:
 
-> Frequency:=COUNTROWS(\<Nombre de columna\>)
+> Frequency:=COUNTROWS(\<Column Name\>)
 > 
 > 
 
-Guarde los cambios y vuelva al informe. Agregue el \<Nombre de columna\> y la frecuencia a una tabla para, a continuación, convertirlos en un gráfico de barras. Asegúrese de que el \<Nombre de columna\> se encuentra en el eje x y de que el campo calculado Frecuencia se encuentra en el eje y.
+Guarde los cambios y vuelva al informe. Agregue \<Column Name\> y la frecuencia a una tabla para, a continuación, convertirlos en un gráfico de barras. Asegúrese de que \<Column Name\> se encuentra en el eje x y de que el campo calculado Frecuencia se encuentra en el eje y.
 
 ## <a name="tips-and-tricks-for-creating-relationships-in-power-bi-desktop"></a>Sugerencias y trucos para crear relaciones en Power BI Desktop
 A menudo al cargar conjuntos de datos detallados de varios orígenes, problemas como los valores nulos, los valores en blanco o los valores duplicados impiden crear las relaciones. 

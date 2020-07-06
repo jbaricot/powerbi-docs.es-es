@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149254"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238782"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Compatibilidad de Multi-Geo con Power BI Embedded
 
@@ -80,6 +80,8 @@ Para que sea posible la administración de capacidades con Multi-Geo mediante AP
 * Al mover datos de una región a otra en un entorno Multi-Geo, los datos de origen pueden permanecer en la región de la que se movieron durante 30 días como máximo. Durante ese período, los usuarios no tienen acceso a ellos. Se quitan de esta región y se destruyen durante el período de 30 días.
 
 * En términos generales, Multi-Geo no genera un mejor rendimiento. La carga de informes y paneles aún implica solicitudes de metadatos a la región principal.
+
+* En una inserción para el escenario de los clientes, el texto de la consulta y el resultado de la consulta continúan en tránsito a través del inquilino de inicio.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

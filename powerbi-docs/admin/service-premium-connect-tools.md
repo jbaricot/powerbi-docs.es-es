@@ -6,16 +6,16 @@ ms.author: owend
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 03/26/2020
+ms.topic: how-to
+ms.date: 06/04/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 74ea78bf9f5e845eb86a38bad54ebde5e99ffbb0
-ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
+ms.openlocfilehash: b327730db126ad3f83e0a680d8dc29f384e606fe
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "84219556"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227426"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Conectividad del conjunto de datos con el punto de conexión XMLA (versión preliminar)
 
@@ -169,7 +169,7 @@ Los metadatos especificados mediante el punto de conexión de XMLA pueden crear 
 
 ### <a name="service-principals"></a>Entidades de servicio
 
-Durante la versión preliminar pública, no se admite la conexión con el punto de conexión de XMLA mediante una [entidad de servicio](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals) para escenarios de automatización.
+Las entidades de servicio de Azure se pueden usar para realizar operaciones de nivel de servicio y de recurso desatendidas. Para obtener más información, consulte [Automatización de tareas de área de trabajo y conjunto de datos de Premium con entidades de servicio](service-premium-service-principal.md).
 
 ## <a name="deploy-model-projects-from-visual-studio-ssdt"></a>Implementación de proyectos de modelo desde Visual Studio (SSDT)
 

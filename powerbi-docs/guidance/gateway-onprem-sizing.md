@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279535"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485953"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Ajuste de tamaño de la puerta de enlace de datos local
 
@@ -84,7 +84,7 @@ Planee la mejor conectividad posible entre el servicio Power BI y la puerta de 
 
 - Busque confiabilidad, velocidad rápida y latencias sistemáticamente bajas
 - Elimine (o reduzca) los saltos de máquina entre la puerta de enlace y los orígenes de datos.
-- Quite todas las limitaciones de red impuestas por la capa de proxy del firewall. Para más información sobre los puntos de conexión de Power BI, consulte [Direcciones URL de Power BI para la inclusión en listas blancas](../admin/power-bi-whitelist-urls.md).
+- Quite todas las limitaciones de red impuestas por la capa de proxy del firewall. Para más información sobre los puntos de conexión de Power BI, consulte [Incorporación de direcciones URL de Power BI a la lista de permitidos](../admin/power-bi-whitelist-urls.md).
 - Configure [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) para establecer conexiones privadas y administradas a Power BI
 - En el caso de los orígenes de datos de máquinas virtuales de Azure, asegúrese de que las máquinas virtuales estén [colocadas con el servicio Power BI](../admin/service-admin-where-is-my-tenant-located.md)
 - En el caso de cargas de trabajo de conexión dinámica a SQL Server Analysis Services (SSAS) que supongan RLS dinámico, asegúrese de que la conectividad entre la máquina de puerta de enlace y Active Directory local sea correcta.

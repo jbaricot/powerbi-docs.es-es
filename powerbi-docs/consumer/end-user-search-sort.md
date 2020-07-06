@@ -6,16 +6,16 @@ ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114130"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782535"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Navegación para consumidores de Power BI: búsqueda global
 
@@ -39,11 +39,11 @@ Cuando comience a trabajar en el servicio Power BI, solo tendrá unos cuantos e
 
 ## <a name="sorting-content-lists"></a>Ordenación de las listas de contenido
 
-Si solo tiene algunas partes de contenido, es posible que no sea necesario ordenarlo.  Sin embargo, cuando tenga listas largas de paneles e informes, la ordenación le ayudará a encontrar lo que necesita. Por ejemplo, esta lista de **Compartido conmigo** tiene 63 elementos. 
+Si solo tiene algunas partes de contenido, es posible que no sea necesario ordenarlo.  Sin embargo, cuando tenga listas largas de paneles e informes, la ordenación le ayudará a encontrar lo que necesita. Por ejemplo, esta lista de **Compartidos conmigo** tiene 257 elementos. 
 
-![lista de contenido de compartido conmigo](./media/end-user-search-sort/power-bi-long-lists.png)
+![lista de contenido de compartido conmigo](./media/end-user-search-sort/power-bi-all-shared.png)
 
-En este momento, esta lista de contenido está ordenada por fecha, de la más reciente a la más antigua. Para cambiar los criterios de ordenación, seleccione la flecha situada a la derecha de **Fecha (más reciente)** .
+Actualmente, esta lista de contenido está ordenada alfabéticamente por nombre, de la A a la Z. Para cambiar los criterios de ordenación, seleccione la flecha que se encuentra a la derecha de **Nombre (A-Z)** .
 
 ![Menú desplegable de ordenación](./media/end-user-search-sort/power-bi-sort-date.png)
 
@@ -60,5 +60,7 @@ No todas las columnas se pueden ordenar. Mantenga el puntero sobre los encabezad
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Ordenación de objetos visuales en informes](end-user-change-sort.md)
+
+[Ordenación de datos en objetos visuales](end-user-change-sort.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

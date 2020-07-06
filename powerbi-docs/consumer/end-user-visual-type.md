@@ -5,27 +5,29 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/24/2020
 ms.author: mihart
+ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 605b3fbc49d9a9dbf60b6963a89487ca15284b29
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279443"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393850"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de objetos visuales en Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-Encontrará objetos visuales en informes, paneles y preguntas y respuestas. Algunos de estos tipos de objetos visuales se empaquetan con Power BI y otros son *objetos visuales de Power BI*. Los objetos visuales personalizados se crean fuera de Power BI y de una manera que permite a los *diseñadores* de informes agregarlos a paneles e informes de Power BI. 
+Los objetos visuales (también conocidos como *gráficos* y *visualizaciones*) son representaciones gráficas de los datos. Algunos ejemplos comunes son los gráficos de columnas, mapas, gráficos de dispersión y medidores radiales. Encontrará objetos visuales en informes, paneles y preguntas y respuestas.
 
-En este artículo se proporciona información general sobre los objetos visuales que se empaquetan con el servicio Power BI.  Estos son los objetos visuales que encontrará con mayor frecuencia. Para obtener información detallada sobre cualquiera de estos objetos visuales, vea la [documentación del *diseñador* de informes de Power BI sobre los tipos de objetos visuales](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+Los objetos visuales descritos en esta página son los que se empaquetan con Power BI. Estos son los tipos visuales que encontrará con mayor frecuencia. En esta página se ofrece una descripción general rápida de estos objetos visuales preempaquetados. Para obtener información detallada sobre cualquiera de estos objetos visuales, vea la [documentación del *diseñador* de informes de Power BI sobre los tipos de objetos visuales](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-> [!NOTE]
-> Para obtener información sobre los objetos visuales de Power BI, búsquelos en la sección **Objetos visuales de Power BI** de [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada objeto visual, encontrará una descripción, información sobre el creador y capturas de pantalla o un vídeo. 
+Los objetos visuales que no se incluyen automáticamente con Power BI se conocen como *objetos visuales personalizados*. Los objetos visuales personalizados se pueden importar en Power BI desde sitios web externos, como Microsoft AppSource, o desde orígenes internos, como el almacén de la organización. Para importar objetos visuales personalizados, se requieren permisos de edición para el informe. Para obtener información sobre estos objetos visuales de complementos, consulte [Objetos visuales en Power BI](../developer/visuals/power-bi-custom-visuals.md).
+
+
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Lista de objetos visuales disponibles en Power BI
 Todos estos objetos visuales se pueden encontrar en informes y paneles de Power BI, así como [especificados en Preguntas y respuestas](end-user-q-and-a.md). Para obtener información sobre cómo interactuar con los objetos visuales, vea [Interacción con objetos visuales en informes, paneles y aplicaciones](end-user-visualizations.md).
@@ -64,6 +66,12 @@ Los gráficos combinados son una excelente opción:
 - Para ilustrar la correlación entre dos medidas en un objeto visual.
 - Para comprobar si una medida cumple el objetivo que se define mediante otra medida.
 - Para ahorrar espacio en el lienzo.
+
+
+### <a name="decomposition-tree"></a>Esquema jerárquico
+![Esquema jerárquico](media/end-user-visual-type/power-bi-decomposition.png)
+
+El objeto visual del esquema jerárquico le permite visualizar datos en varias dimensiones. Agrega datos de manera automática y permite explorar en profundidad las dimensiones en cualquier orden. También es una visualización de inteligencia artificial (IA), por lo que puede pedirle que busque la dimensión siguiente para explorar en profundidad en función de ciertos criterios. Esto lo convierte en una herramienta valiosa para la exploración ad hoc y para analizar la causa principal.
 
 ### <a name="doughnut-charts"></a>Gráficos de anillos
 ![gráfico de anillos](media/end-user-visual-type/donut-small.png)
@@ -210,10 +218,10 @@ Las tablas son una excelente opción:
 - Para mostrar datos en un formato tabular
 - Para mostrar datos numéricos por categorías
 
-### <a name="treemaps"></a>Gráficos de rectángulos
-![gráfico de rectángulos](media/end-user-visual-type/pbi-nancy-viz-tree.png)
+### <a name="tree-maps"></a>Gráficos de rectángulos
+![Gráfico de rectángulos](media/end-user-visual-type/pbi-nancy-viz-tree.png)
 
-Los gráficos de rectángulos son gráficos de rectángulos coloreados, cuyo tamaño representa el valor.  Puede ser jerárquicos, con rectángulos anidados dentro de los rectángulos principales. El espacio dentro de cada rectángulo se asigna en función del valor que se va a medir. Y los rectángulos se organizan por tamaño desde la esquina superior izquierda (mayor) a la inferior derecha (menor).
+Los gráficos de rectángulos son gráficos de rectángulos con color, cuyo tamaño representa el valor.  Puede ser jerárquicos, con rectángulos anidados dentro de los rectángulos principales. El espacio dentro de cada rectángulo se asigna en función del valor que se va a medir. Y los rectángulos se organizan por tamaño desde la esquina superior izquierda (mayor) a la inferior derecha (menor).
 
 Los gráficos de rectángulos son una excelente opción:
 - Para mostrar grandes cantidades de datos jerárquicos.
