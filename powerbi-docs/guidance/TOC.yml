@@ -118,6 +118,14 @@
               href: report-performance-troubleshoot.md
             - name: Procedimientos recomendados para las canalizaciones de implementación
               href: ../create-reports/deployment-pipelines-best-practices.md
+    - name: Centro de excelencia (COE)
+      items:
+        - name: Transformación de la BI de Microsoft
+          href: center-of-excellence-microsoft-business-intelligence-transformation.md
+        - name: Establecimiento de un COE
+          href: center-of-excellence-establish.md
+        - name: Arquitectura de la solución de BI en el COE
+          href: center-of-excellence-business-intelligence-solution-architecture.md
     - name: Notas del producto
       items:
         - name: Información general sobre las notas del producto

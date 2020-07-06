@@ -11,7 +11,7 @@
           href: end-user-basic-concepts.md
         - name: "Paseo por el servicio Power\_BI"
           href: end-user-reading-view.md
-    - name: Introducción
+    - name: Comenzar
       expanded: true
       items:
         - name: Obtener información básica sobre Power BI
@@ -30,7 +30,7 @@
           href: service-new-look.md
         - name: 'El nuevo aspecto: ¿Dónde están ahora las acciones?'
           href: service-new-look-where-actions.md
-    - name: Procedimientos
+    - name: Procedimiento
       items:
         - name: Paneles
           items:
@@ -40,7 +40,7 @@
               href: end-user-dashboard-open.md
             - name: Paneles destacados
               href: end-user-featured.md
-            - name: Iconos de panel
+            - name: Los iconos de panel
               href: end-user-tiles.md
             - name: Agregar un comentario o iniciar una conversación
               href: end-user-comment.md
@@ -68,6 +68,8 @@
               href: end-user-pdf.md
             - name: Exportar un informe a PowerPoint
               href: end-user-powerpoint.md
+            - name: Cómo identificar y usar botones
+              href: end-user-buttons.md
             - name: Adición de marcadores en los informes
               href: end-user-bookmarks.md
             - name: Adición de un punto destacado a u informe
@@ -134,7 +136,7 @@
               href: end-user-apps.md
             - name: Instalar y usar aplicaciones
               href: end-user-app-view.md
-            - name: Conexión a los servicios
+            - name: Conectarse a los servicios
               href: end-user-connect-to-services.md
             - name: Obtención de una aplicación de ejemplo desde el marketplace de aplicaciones
               href: end-user-app-marketing.md
