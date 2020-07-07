@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: Información general
+    - name: Introducción
       expanded: true
       items:
         - name: Formas de compartir el trabajo
@@ -38,7 +38,7 @@
             - name: Análisis de impacto para conjuntos de datos
               href: service-dataset-impact-analysis.md
             - name: Aplicación de etiquetas de confidencialidad de datos
-              href: ../collaborate-share/service-security-apply-data-sensitivity-labels.md
+              href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: Conexión a los archivos de OneDrive de su grupo
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Colaboración en un área de trabajo clásica
