@@ -30,7 +30,7 @@
               href: service-admin-migrate-data-germany.md
             - name: Preguntas más frecuentes para clientes en la nube de Alemania
               href: service-govde-faq.md
-        - name: Preguntas más frecuentes
+        - name: Preguntas más frecuentes (P+F)
           href: service-admin-faq.md
         - name: P+F sobre alta disponibilidad y conmutación por error
           href: service-admin-failover.md
@@ -44,7 +44,7 @@
               href: service-premium-capacity-scenarios.md
             - name: Preguntas más frecuentes sobre Power BI Premium
               href: service-premium-faq.md
-    - name: Procedimientos
+    - name: Procedimiento
       items:
         - name: Licencias y registro
           items:
@@ -66,7 +66,7 @@
           href: service-admin-access-usage.md
         - name: Seguimiento de actividades de usuario
           href: service-admin-auditing.md
-        - name: Realización de seguimiento del estado
+        - name: Seguimiento de estado del servicio
           href: service-admin-health.md
         - name: Cierre de la cuenta
           href: service-admin-closing-your-account.md
@@ -74,15 +74,17 @@
           href: service-admin-azure-ad-b2b.md
         - name: "Administración del formulario de inicio de sesión de Power\_BI Desktop"
           href: desktop-admin-sign-in-form.md
-        - name: Protección de los datos
+        - name: Protección de datos
           items:
-            - name: Información general sobre la protección de datos
-              href: service-security-data-protection-overview.md
-            - name: Habilitación de las etiquetas de confidencialidad de datos
+            - name: "Etiquetas de confidencialidad en Power\_BI"
+              href: service-security-sensitivity-label-overview.md
+            - name: Habilitación de etiquetas de confidencialidad
               href: service-security-enable-data-sensitivity-labels.md
+            - name: Aplicación de etiquetas de confidencialidad
+              href: service-security-apply-data-sensitivity-labels.md
             - name: Uso de Microsoft Cloud App Security con Power BI
               href: service-security-using-microsoft-cloud-app-security-controls.md
-            - name: Informe de métricas de protección de datos
+            - name: Informe de métricas de protección
               href: service-security-data-protection-metrics-report.md
         - name: Seguridad de nivel de fila
           href: service-admin-rls.md
@@ -135,7 +137,7 @@
           href: service-admin-power-bi-security.md
         - name: Niveles de privacidad
           href: desktop-privacy-levels.md
-    - name: Solución de problemas
+    - name: Solucionar problemas
       items:
         - name: ¿No puede iniciar sesión?
           href: power-bi-cannot-sign-in.md
