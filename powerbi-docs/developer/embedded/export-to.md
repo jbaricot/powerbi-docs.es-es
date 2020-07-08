@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 546f712c87e67240fd15ee2563252d8f322212c7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221009"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034506"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportación de un informe de Power BI a un archivo (versión preliminar)
 
@@ -73,7 +73,7 @@ Para realizar la exportación mediante la seguridad de nivel de fila, debe tener
 
 ### <a name="data-protection"></a>Protección de datos
 
-Los formatos .pdf y .pptx admiten [etiquetas de confidencialidad](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi). Si exporta un informe con una etiqueta de confidencialidad a un archivo .pdf o .pptx, el archivo exportado mostrará el informe con su etiqueta de confidencialidad.
+Los formatos .pdf y .pptx admiten [etiquetas de confidencialidad](../../admin/service-security-sensitivity-label-overview.md). Si exporta un informe con una etiqueta de confidencialidad a un archivo .pdf o .pptx, el archivo exportado mostrará el informe con su etiqueta de confidencialidad.
 
 Un informe con una etiqueta de confidencialidad no se puede exportar a un archivo .pdf o .pptx mediante una [entidad de servicio](embed-service-principal.md).
 

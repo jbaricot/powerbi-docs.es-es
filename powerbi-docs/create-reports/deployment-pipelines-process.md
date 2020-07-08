@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782569"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034299"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Descripción del proceso de implementación (versión preliminar)
 
@@ -234,7 +234,7 @@ En esta sección se enumeran la mayoría de las limitaciones de las canalizacion
 
 * El área de trabajo debe residir en una  [capacidad Premium](../admin/service-premium-what-is.md).
 
-* Los elementos de Power BI, tales como los informes y paneles que tienen [etiquetas de confidencialidad](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi) de Power BI, no se pueden implementar.
+* Los elementos de Power BI, tales como los informes y paneles que tienen [etiquetas de confidencialidad](../admin/service-security-sensitivity-label-overview.md) de Power BI, no se pueden implementar.
 
 * El número máximo de elementos de Power BI que se pueden implementar en una sola implementación es 300.
 
