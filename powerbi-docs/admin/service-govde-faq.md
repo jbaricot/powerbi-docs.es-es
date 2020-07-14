@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 31a39d32e61ff82dcc9e451fbf1119938e5bb2e2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fb67243b14fc5a89de0efc6f8248aa2b37fb2bbf
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344880"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034092"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Preguntas más frecuentes sobre Power BI para clientes en la nube de Alemania
 El **servicio Power BI** tiene una versión disponible para los clientes de la Unión Europea o pertenecientes al Acuerdo Europeo de Libre Comercio (UE/AELC) a la que a menudo se hace referencia como Microsoft Cloud Deutschland (MCD). La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la UE/AELC y es distinta de la versión comercial del **servicio Power BI** o de los servicios Power BI proporcionados a clientes gubernamentales.
 
-![](media/service-govde-faq/govde-faq_01.png)
+![Captura de pantalla de la página principal de Microsoft Power BI Germany.](media/service-govde-faq/govde-faq_01.png)
 
 ## <a name="questions-and-answers"></a>Preguntas y respuestas
 

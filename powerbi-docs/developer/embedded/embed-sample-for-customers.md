@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
+ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337082"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "86092248"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Insertar contenido de Power BI en una aplicación para los clientes
 
@@ -428,9 +428,12 @@ En la tabla siguiente se describen los recursos y los límites de cada SKU. Para
 
 ### <a name="development-testing"></a>Pruebas de desarrollo
 
-El uso de tokens de inserción con licencias Pro está pensado para pruebas de desarrollo, de modo que el número de tokens de inserción que puede generar una cuenta maestra o una entidad de servicio de Power BI es limitado. Se necesita una capacidad dedicada para realizar inserciones en un entorno de producción. No hay ningún límite en cuanto a la cantidad de tokens de inserción que puede generar con una capacidad dedicada. Vaya a [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) (Características disponibles) para comprobar el valor de uso que indica el porcentaje de uso actual de Power BI Embedded. El porcentaje de uso depende de la cuenta maestra.
+En el caso de las pruebas de desarrollo, puede usar tokens de prueba de inserción con una licencia de Pro. Para realizar inserciones en un entorno de producción, use una capacidad dedicada.
 
-Para más información, consulte las [notas del producto de planeamiento de la capacidad de análisis integrado](https://aka.ms/pbiewhitepaper).
+El número de tokens de prueba de inserción que puede generar una entidad de seguridad o una cuenta maestra del servicio Power BI es limitado. Use la API [Características disponibles](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) para comprobar el porcentaje del uso insertado actual. La cantidad de uso se muestra por entidad de servicio o por cuenta maestra.
+
+Si se queda sin tokens de inserción durante las pruebas, debe adquirir una [capacidad](embedded-capacity.md) de Power BI Embedded o Premium. No hay ningún límite en cuanto a la cantidad de tokens de inserción que puede generar con una capacidad dedicada.
+
 
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Asignación de un área de trabajo a una capacidad dedicada
 

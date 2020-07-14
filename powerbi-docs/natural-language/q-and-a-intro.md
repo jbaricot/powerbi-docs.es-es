@@ -5,20 +5,20 @@ author: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 07/01/2020
 ms.author: mohaali
-ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 295fc7732729fc464676257ab63dcadfa967771b
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867792"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939658"
 ---
 # <a name="intro-to-power-bi-qa"></a>Introducción a Preguntas y respuestas de Power BI
 
 A veces, la manera más rápida de obtener una respuesta a partir de los datos es realizar una búsqueda en los datos con un lenguaje natural. La característica Preguntas y respuestas de Power BI le permite explorar los datos con sus propias palabras mediante lenguaje natural. Preguntas y respuestas es una característica interactiva, incluso divertida. A menudo, una pregunta conduce a otras a medida que las visualizaciones revelan rutas interesantes. La formulación de la pregunta es solo el principio. Recorra sus datos, perfeccione o amplíe su pregunta, descubra valiosa información nueva, profundice al máximo en los detalles y obtenga una visión más amplia. La experiencia es interactiva y rápida, con tecnología de almacenamiento en memoria. 
 
-Preguntas y respuestas de Power BI es gratis y está disponible para todos los usuarios. En Power BI Desktop, los diseñadores de informes pueden usar Preguntas y respuestas para explorar los datos y crear visualizaciones. En el servicio Power BI, todo el mundo puede explorar los datos con Preguntas y respuestas. Si tiene permisos para editar un panel o un informe, también puede anclar los resultados de Preguntas y respuestas.
+Preguntas y respuestas de Power BI es gratis y está disponible para todos los usuarios. En Power BI Desktop, los diseñadores de informes pueden usar Preguntas y respuestas para explorar los datos y crear visualizaciones. En el servicio Power BI, todo el mundo puede explorar los datos con Preguntas y respuestas. Nuestras aplicaciones móviles también admiten Preguntas y respuestas, con el asistente virtual de Preguntas y respuestas en iOS y el objeto visual de Preguntas y respuestas en dispositivos Android. Si tiene permisos para editar un panel o un informe, también puede anclar los resultados de Preguntas y respuestas.
 
 ## <a name="how-to-use-qa"></a>Uso de Preguntas y respuestas
 
@@ -66,9 +66,9 @@ A medida que escribe su pregunta, Preguntas y respuestas intenta interpretar y v
 
 - Gráfico de líneas
 - Gráfico de barras
-- Matrix
+- Matriz
 - Tabla
-- Card
+- Tarjeta
 - Área
 - Gráfico circular
 - Gráfico de dispersión o de burbujas
@@ -99,7 +99,7 @@ De forma predeterminada, Preguntas y respuestas está disponible en la parte sup
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Puede integrar el lenguaje natural en los informes de varias maneras. Para obtener más información, consulte estos artículos:
+Puede integrar el lenguaje natural en los informes de varias maneras. Para más información, consulte estos artículos:
 
 * [Objeto visual Preguntas y respuestas](../visuals/power-bi-visualization-q-and-a.md)
 * [Procedimientos recomendados de Preguntas y respuestas](q-and-a-best-practices.md)

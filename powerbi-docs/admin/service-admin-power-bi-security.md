@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564395"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034169"
 ---
 # <a name="power-bi-security"></a>Seguridad de Power BI
 
@@ -28,11 +28,11 @@ Cada implementación de Power BI consta de dos clústeres: un front-end web (**W
 
 El clúster **WFE** administra el proceso de autenticación y conexión inicial para Power BI, con AAD para autenticar clientes y proporcionar tokens para conexiones de clientes siguientes al servicio de Power BI. Power BI también usa el **Administrador de tráfico de Azure** para dirigir el tráfico de usuario al centro de datos más cercano, según el registro DNS del cliente que intenta conectarse, durante el proceso de autenticación y para descargar archivos y contenido estático. Power BI usa **Azure Content Delivery Network** (CDN) para distribuir eficazmente el contenido estático y los archivos necesarios a los usuarios en función de la región geográfica.
 
-![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
+![Diagrama que muestra la arquitectura de Power BI para el clúster front-end web.](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
 El clúster **back-end** informa de cómo interactúan los clientes autenticados con el servicio de Power BI. El clúster **back-end** administra visualizaciones, paneles para el usuario, conjuntos de datos, informes, almacenamiento de datos, conexiones de datos, actualización de datos y otros aspectos de la interacción con el servicio de Power BI. El rol **Puerta de enlace** actúa como una puerta de enlace entre las solicitudes del usuario y el servicio de Power BI. Los usuarios no interactúan directamente con los roles distintos del rol **Puerta de enlace**. **Azure API Management** controlará finalmente el rol **Puerta de enlace**.
 
-![](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
+![Diagrama que muestra la arquitectura de Power BI para el clúster back-end web.](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
 
 > [!IMPORTANT]
 > Es imprescindible recordar que solo los roles **Azure API Management** (APIM) y **Puerta de enlace** (GW) son accesibles mediante la red pública de Internet. Proporcionan autenticación, autorización, protección DDoS, limitación, equilibrio de carga, enrutamiento y otras capacidades.

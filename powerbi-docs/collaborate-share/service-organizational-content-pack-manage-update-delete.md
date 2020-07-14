@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3857478e972caef0a53c1de82f6dcc96650a7386
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d741a489c5655e5a08f49f7197389a67c5d016ed
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225699"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034414"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Administración, actualización y eliminación de paquetes de contenido organizativos
 > [!NOTE]
@@ -40,12 +40,12 @@ Cuando realiza y guarda un cambio en el panel que ha incluido en un paquete de c
 
 1. Seleccione **Ver paquetes de contenido** en el mensaje.
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
-2. O seleccione el icono de engranaje en la esquina superior derecha ![](media/service-organizational-content-pack-manage-update-delete/cog.png) y seleccione **Ver paquetes de contenido**.
+   ![Captura de pantalla de un cuadro de diálogo de mensaje para seleccionar Ver paquetes de contenido.](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
+2. O bien seleccione el icono de engranaje de la esquina superior derecha ![Captura de pantalla del icono de engranaje.](media/service-organizational-content-pack-manage-update-delete/cog.png) y seleccione **Ver paquete de contenido**.
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
+   ![Captura de pantalla del icono de engranaje de la esquina superior derecha.](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
-   Observe el icono de advertencia ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png).  Esto le permite saber que ha modificado de alguna manera el paquete de contenido y ya no coincide con el que publicó.
+   Observe el icono de advertencia. ![Captura de pantalla del icono de advertencia.](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png).  Esto le permite saber que ha modificado de alguna manera el paquete de contenido y ya no coincide con el que publicó.
 3. Seleccione **Editar**.  
 4. Realice los cambios necesarios en la ventana **Actualizar paquete de contenido** y seleccione **Actualizar**. Aparece un mensaje de operación **correcta** .
    
@@ -55,7 +55,7 @@ Cuando realiza y guarda un cambio en el panel que ha incluido en un paquete de c
 ## <a name="update-the-audience-expand-or-restrict-access"></a>Actualice el público: amplíe o restrinja el acceso
 Otra modificación disponible para creadores de los paquetes de contenido es ampliar y restringir el acceso al paquete de contenido.  Quizás publicó un paquete de contenido para un público amplio y decidió restringir el acceso a un grupo más reducido.  
 
-1. Seleccione el icono de engranaje ![](media/service-organizational-content-pack-manage-update-delete/cog.png) y elija **Ver paquetes de contenido**.
+1. Seleccione el icono de engranaje ![Captura de pantalla del icono de engranaje.](media/service-organizational-content-pack-manage-update-delete/cog.png) y elija **Ver paquetes de contenido**.
 2. Seleccione **Editar**. 
 3. Realice los cambios necesarios en la ventana **Actualizar paquete de contenido** y seleccione **Actualizar**. Por ejemplo, elimine el grupo de distribución original en el campo **Grupos específicos** y reemplácelo por otro grupo de distribución (que tenga menos miembros).
    
@@ -77,7 +77,7 @@ Solo puede eliminar de AppSource aquellos paquetes de contenido si lo ha creado.
 > 
 > 
 
-1. Para eliminar un paquete de contenido de AppSource, vaya al área de trabajo en la que creó el paquete de contenido, seleccione el icono del engranaje ![](media/service-organizational-content-pack-manage-update-delete/cog.png) y elija **Ver paquetes de contenido**.
+1. Para eliminar un paquete de contenido de AppSource, vaya al área de trabajo en la que creó el paquete de contenido, seleccione el icono del engranaje ![Captura de pantalla del icono de engranaje.](media/service-organizational-content-pack-manage-update-delete/cog.png) y elija **Ver paquetes de contenido**.
 2. Seleccione **Eliminar \> Eliminar**. 
    
    * Para los miembros del grupo que no personalizaron el paquete de contenido, se quitan automáticamente el panel y los informes asociados a ese paquete de contenido. Ya no están disponibles y el paquete de contenido no aparece en el panel de navegación.

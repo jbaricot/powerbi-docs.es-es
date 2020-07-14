@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355016"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034069"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Configuración de credenciales mediante programación para Power BI
 
@@ -49,13 +49,16 @@ Siga los pasos de este artículo para configurar las credenciales mediante progr
 
     ---
 
-2. Llame a [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) (Obtener puerta de enlace) para recuperar la clave pública de puerta de enlace.
+    >[!NOTE]
+    >Si usa orígenes de datos en la nube, no realice los pasos siguientes de esta sección. Llame a [Actualizar origen de datos](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) para establecer las credenciales con el identificador de puerta de enlace y el identificador de origen de datos obtenidos en el paso 1,. 
+
+3. Llame a [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) (Obtener puerta de enlace) para recuperar la clave pública de puerta de enlace.
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
     ```
 
-3. Cifre las credenciales.
+4. Cifre las credenciales.
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -73,7 +76,7 @@ Siga los pasos de este artículo para configurar las credenciales mediante progr
 
     ---  
 
-4. Compile los detalles de las credenciales con credenciales cifradas.
+5. Compile los detalles de las credenciales con credenciales cifradas.
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -101,7 +104,7 @@ Siga los pasos de este artículo para configurar las credenciales mediante progr
 
     ---
 
-5. Llame a [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) (Actualizar origen de datos) para establecer las credenciales.
+6. Llame a [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) (Actualizar origen de datos) para establecer las credenciales.
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);

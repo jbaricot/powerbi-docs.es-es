@@ -10,36 +10,36 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28eb1efb28a1b8d394d68a9c57a9c2733cc08972
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d0c7bf64eaae7467963ce1bfd7638e8eb87ae249
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224547"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86033885"
 ---
 # <a name="connect-to-excel-workbooks-in-power-bi-desktop"></a>Connect to Excel workbooks in Power BI Desktop (Conectarse a libros de Excel en Power BI Desktop)
 Conectarse a un libro de Excel desde Power BI Desktop es sencillo y en este artículo se le guiará a través de los pasos.
 
 En Power BI Desktop, seleccione **Obtener datos > Excel** en la cinta **Inicio** .
 
-![](media/desktop-connect-excel/connect_to_excel_1.png)
+![Captura de pantalla de la opción Excel.](media/desktop-connect-excel/connect_to_excel_1.png)
 
 Seleccione el libro en el cuadro de diálogo **Abrir** que aparece.
-![](media/desktop-connect-excel/connect_to_excel_2.png)
+![Captura de pantalla del cuadro de diálogo Abrir.](media/desktop-connect-excel/connect_to_excel_2.png)
 
 Power BI Desktop presenta las tablas en otros elementos de datos del libro en la ventana **Navegador**. Al seleccionar una tabla en el panel izquierdo, aparece una vista previa de los datos en el panel derecho.
 
-![](media/desktop-connect-excel/connect_to_excel_3.png)
+![Captura de pantalla de la ventana Navegador.](media/desktop-connect-excel/connect_to_excel_3.png)
 
 Puede seleccionar el botón Cargar para importar los datos, o si quiere editar los datos mediante el **Editor de consultas** antes de ponerlos en Power BI Desktop, seleccione el botón **Editar**.
 
 Al cargar los datos, Power BI Desktop muestra la ventana **Cargar** y muestra la actividad asociada a la carga de los datos.  
 
-![](media/desktop-connect-excel/connect_to_excel_4.png)
+![Captura de pantalla de la ventana Cargar.](media/desktop-connect-excel/connect_to_excel_4.png)
 
 Cuando haya finalizado, Power BI Desktop muestra las tablas y campos que ha importado del libro de Excel en el panel **Campos**, en el lado derecho del escritorio.
 
-![](media/desktop-connect-excel/connect_to_excel_5.png)
+![Captura de pantalla del panel Campos.](media/desktop-connect-excel/connect_to_excel_5.png)
 
 ¡Eso es todo!
 

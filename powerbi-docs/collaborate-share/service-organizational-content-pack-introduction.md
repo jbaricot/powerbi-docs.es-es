@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ace3b89051ee5f7b082979f2739cef71ceb05440
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84ecbb51663629b663373b884af86329f49e974f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225732"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034483"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Paquetes de contenido organizativos en Power BI: introducción
 > [!NOTE]
@@ -23,7 +23,7 @@ ms.locfileid: "85225732"
 
 ¿Distribuye informes periódicamente por correo electrónico a su equipo? En su lugar, pruebe lo siguiente: empaquete los paneles, informes, libros de Excel y conjuntos de datos, y publíquelos en el equipo como *paquete de contenido organizativo*. Su equipo encontrará con facilidad los paquetes de contenido que cree, ya que todos ellos están en AppSource. Dado que son parte de Power BI, aprovechan todas las características de Power BI, como la exploración interactiva de datos, los nuevos objetos visuales, las preguntas y respuestas, la integración con otros orígenes de datos, la actualización de datos y mucho más.
 
-![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
+![Captura de pantalla de un panel que muestra paquetes de contenido de la organización.](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
 Es distinto crear paquetes de contenido que compartir paneles o colaborar en ellos en un área de trabajo. Lea [¿Cómo debo compartir paneles, informes e iconos?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir cuál es la mejor opción en su caso. 
 

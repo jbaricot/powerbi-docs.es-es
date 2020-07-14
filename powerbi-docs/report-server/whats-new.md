@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.date: 07/06/2020
+ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739239"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034046"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
 
@@ -28,9 +28,11 @@ Para consultar información sobre las "novedades" de Power BI, vea:
 
 ## <a name="may-2020"></a>Mayo de 2020
 
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Desktop optimizado para Power BI Report Server
+
 Entre los aspectos destacados de esta actualización se encuentran los objetos visuales de segmentación de datos jerárquica y de esquema jerárquico, y los diagnósticos de consultas. A continuación se muestra una lista completa de las características nuevas y actualizadas. Para obtener más información, vea la [entrada de blog de Power BI Report Server de mayo de 2020](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/). 
 
-### <a name="reporting"></a>Informes
+#### <a name="reporting"></a>Informes
 
 - Segmentación de datos jerárquica
 - Nuevos tipos de acción para botones:
@@ -51,7 +53,7 @@ Entre los aspectos destacados de esta actualización se encuentran los objetos v
     - Nueva experiencia del panel de filtros
     - Búsqueda en el panel de filtros
     
-### <a name="modeling"></a>Modelado
+#### <a name="modeling"></a>Modelado
 
 - Nuevas funciones de DAX:
 
@@ -61,18 +63,24 @@ Entre los aspectos destacados de esta actualización se encuentran los objetos v
 
 - Separadores DAX estándar
 
-### <a name="visualizations"></a>Visualizaciones
+#### <a name="visualizations"></a>Visualizaciones
 
 - Nuevos iconos de visualización
 - Sombras paralelas para objetos visuales
 
-### <a name="data-preparation"></a>Preparación de los datos
+#### <a name="data-preparation"></a>Preparación de los datos
 
 - Diagnóstico de consultas
 
-### <a name="other"></a>Otros
+#### <a name="other"></a>Otros
 
 - Uso de credenciales predeterminadas del sistema para proxy web
+
+### <a name="power-bi-report-server"></a>Power BI Report Server
+
+#### <a name="power-bi-visuals-api"></a>API de objetos visuales de Power BI
+
+La versión de la API incluida con esta versión es la 3.2.
 
 ## <a name="january-2020"></a>Enero de 2020
 

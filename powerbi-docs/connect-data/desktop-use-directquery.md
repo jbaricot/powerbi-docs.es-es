@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 07/02/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcf774af00fe65c5f9708f85f6270cda8405896f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222561"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939497"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usar DirectQuery en Power BI Desktop
 Con *Power BI Desktop*, cuando se conecta al origen de datos, siempre es posible importar una copia de los datos en Power BI Desktop. Para algunos orígenes de datos, existe un enfoque alternativo: conectarse directamente al origen de datos mediante DirectQuery.
@@ -53,7 +53,7 @@ Actualmente, existen algunas limitaciones en el uso de DirectQuery:
 
 - Para asegurarse de que las consultas enviadas al origen de datos subyacente tienen un rendimiento aceptable, se aplican limitaciones a las expresiones DAX que se permiten en las medidas.
 
-- Hay un límite de 1 millón de filas para devolver datos cuando se usa DirectQuery, a menos que se utilice una capacidad premium. El límite no afecta a las agregaciones o cálculos utilizados para crear el conjunto de datos devuelto mediante DirectQuery. Solo afecta a las filas devueltas. Las capacidades premium pueden establecer límites máximos de filas, tal y como se describe en [esta publicación](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/). 
+- Hay un límite de un millón de filas para orígenes en la nube, con orígenes locales limitados a una carga útil definida de aproximadamente 4 MB por fila (según el algoritmo de compresión propietario) o un tamaño de datos de 16 MB para todo el objeto visual. Se pueden elevar ciertos límites al usar la capacidad Premium. El límite no afecta a las agregaciones o cálculos utilizados para crear el conjunto de datos devuelto mediante DirectQuery. Solo afecta a las filas devueltas. Las capacidades premium pueden establecer límites máximos de filas, tal y como se describe en [esta publicación](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/). 
 
     Por ejemplo, puede agregar 10 millones de filas a la consulta que se ejecuta en el origen de datos. La consulta devuelve con precisión los resultados de esa agregación a Power BI mediante DirectQuery si el número de filas de datos de Power BI devueltos es inferior a un millón. Si se devuelve más de 1 millón filas desde DirectQuery, Power BI devuelve un error (a menos que esté en la capacidad premium y el recuento de filas esté por debajo del límite del conjunto de administradores).
 

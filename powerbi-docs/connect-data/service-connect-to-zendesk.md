@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cac39407cac3af833656a4e94edf9a3c80bbc26
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e32824a58faa3a6a98e4d38f7362c62ab13b069e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231624"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034460"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Conexión a Zendesk con Power BI
 
@@ -28,6 +28,9 @@ Después de instalar la aplicación de plantilla, puede cambiar el panel y el in
 
 >[!NOTE]
 >Necesita una cuenta de administrador de Zendesk para conectarse. Consulte más detalles sobre los [requisitos](#system-requirements) a continuación.
+
+>[!WARNING]
+>Antes del 15 de octubre de 2019, la API de búsqueda de Zendesk Support permitía recibir un total de 200 000 resultados a través de la paginación de consultas de gran tamaño. Para alinear el uso de búsqueda con su ámbito previsto, Zendesk limita ahora el número máximo de resultados que se devuelven a 1000 resultados totales, con un máximo de 100 resultados por página. Sin embargo, el conector de Zendesk actual para Power BI todavía puede crear llamadas API que superen estos nuevos límites, lo que podría dar lugar a resultados engañosos.
 
 ## <a name="how-to-connect"></a>Cómo conectarse
 

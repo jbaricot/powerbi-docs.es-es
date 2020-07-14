@@ -7,19 +7,19 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1120b15974d0e747dc60cf2c56dff1135c9d29c
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85dc7e9807e11114c4fb6abb988d10c583b9e56c
+ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782517"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "85837048"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportación de informes a PowerPoint
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 
 Con el servicio Power BI (app.powerbi.com), puede publicar el informe en Microsoft PowerPoint y crear fácilmente una presentación de diapositivas basada en el informe de Power BI. Cuando se exporta a PowerPoint, ocurre lo siguiente:
@@ -40,7 +40,7 @@ En el **servicio Power BI**, seleccione un informe para mostrarlo en el lienzo.
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Cuando el informe que quiere exportar a PowerPoint aparezca en el lienzo, seleccione **Exportar** > **PowerPoint** en la barra de menús.
+Cuando el informe que quiere exportar a PowerPoint aparezca en el lienzo, seleccione **Archivo** > **Exportar a PowerPoint** en la barra de menús.
 
 ![Selección de Exportar en la barra de menús](media/end-user-powerpoint/power-bi-export.png)
 
@@ -86,6 +86,10 @@ Lo que haga con la presentación de PowerPoint a partir de este punto, o con cua
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 Hay algunas consideraciones y limitaciones a tener en cuenta al trabajar con la característica **Exportar a PowerPoint**.
  
+
+* Si no ve la opción **Exportar**, asegúrese de que ha activado "Nuevo aspecto" y de que está viendo un informe (no un panel).
+
+    ![Captura de pantalla del botón de activación/desactivación Nuevo aspecto.](media/end-user-powerpoint/power-bi-new-look.png)
 
 * Actualmente no se respetan los [filtros de las direcciones URL](../collaborate-share/service-url-filters.md) al elegir **Valores actuales** para la exportación.
 
