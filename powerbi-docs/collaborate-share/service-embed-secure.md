@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
+ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226208"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86301008"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserción de informes en un sitio web o portal seguro
 
@@ -122,8 +122,6 @@ Puede agregar tantos botones como quiera para crear una experiencia personalizad
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
 * Los informes paginados se admiten con escenarios de inserción seguros; también se admiten los informes paginados con parámetros de dirección URL. Obtenga más información sobre cómo [pasar parámetros de informe en una dirección URL para un informe paginado](../paginated-reports/report-builder-url-pass-parameters.md).
-
-* No admite usuarios invitados externos con Azure B2B (negocio a negocio).
 
 * La inserción segura funciona en informes publicados en el servicio Power BI.
 

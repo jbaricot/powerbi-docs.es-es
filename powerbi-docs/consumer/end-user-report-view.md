@@ -2,19 +2,19 @@
 title: Cambio del tamaño de presentación y la proporción de una página de informe
 description: Cambiar la configuración de presentación de una página en un informe de Power BI
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1274f281c25c89776fc601caf762ad1aea5fe7f3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f8d5fd8eeece23b6491318f54064c19fe11a8c00
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238847"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264303"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Cambio de la pantalla de una página del informe
 
