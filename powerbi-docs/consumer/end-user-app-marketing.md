@@ -2,19 +2,19 @@
 title: Instalación y uso de la aplicación de marketing y ventas en el servicio Power BI
 description: En Power BI, las aplicaciones permiten reunir paneles e informes relacionados en un solo lugar. Instale la aplicación de marketing y ventas desde el Marketplace de aplicaciones de Power BI.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 06/09/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: df22baeae8acb09ac9b7f071c16ec8697203f8fa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f2e97a5b1ba8fc62581244cf26cd069ce5c2586
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236580"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162261"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Instalación y uso de la aplicación de ejemplo de marketing y ventas en el servicio Power BI
 
