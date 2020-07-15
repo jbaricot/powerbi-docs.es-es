@@ -3,18 +3,19 @@ title: Cómo Power BI garantiza que el contenido esté actualizado
 description: Obtenga información sobre cómo Power BI garantiza que trabaje con la versión más reciente de los datos, informes, paneles y aplicaciones.
 author: mihart
 ms.service: powerbi
+ms.reviewer: mihart
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f03493ad6aef1b9ed8393ef684d4c18143085964
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 73affb07b137ee60fe00f7d344759ec2de1bcb85
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234999"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215913"
 ---
 # <a name="your-content-is-up-to-date"></a>Su contenido está actualizado
 

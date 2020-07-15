@@ -2,7 +2,7 @@
 title: Disponibilidad de características para usuarios con licencias gratuitas
 description: Explicación y gráfico en el que se muestran las características disponibles para los consumidores y los usuarios de la licencia gratuita.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
@@ -10,12 +10,12 @@ ms.date: 04/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: cea72988c812bd4628e62600c6585e93e7fecc11
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: b6beb2115f664de12382933c8200b07b510bd083
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160212"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215881"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lista de características de Power BI para *consumidores* y otros usuarios con licencias gratuitas
 

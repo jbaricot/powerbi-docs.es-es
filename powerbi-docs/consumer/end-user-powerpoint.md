@@ -2,7 +2,7 @@
 title: Exportación de informes completos a PowerPoint
 description: Aprenda cómo exportar un informe de Power BI a PowerPoint.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 85dc7e9807e11114c4fb6abb988d10c583b9e56c
-ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
+ms.openlocfilehash: d49d92261b141a66021bb0809c214e712bd687c8
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85837048"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263716"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportación de informes a PowerPoint
 
