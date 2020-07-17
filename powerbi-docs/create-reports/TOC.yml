@@ -47,6 +47,8 @@
       items:
         - name: Informes de Power BI
           items:
+            - name: "Power\_BI Desktop y herramientas externas"
+              href: desktop-external-tools.md
             - name: "Cinta moderna de Power\_BI"
               href: desktop-ribbon.md
             - name: Trabajo con la vista de informes
@@ -155,7 +157,7 @@
               href: desktop-add-custom-column.md
             - name: Uso de etiquetas de jerarquía alineadas
               href: desktop-inline-hierarchy-labels.md
-            - name: Segmentaciones de datos
+            - name: Segmentaciones
               href: ../visuals/power-bi-visualization-slicers.md
             - name: Segmentaciones de rango numérico
               href: desktop-slicer-numeric-range.md
@@ -355,7 +357,7 @@
           items:
             - name: Introducción a paneles
               href: service-dashboards.md
-            - name: Iconos de panel
+            - name: Los iconos de panel
               href: service-dashboard-tiles.md
             - name: Creación de un panel desde un informe
               href: service-dashboard-create.md
@@ -389,7 +391,7 @@
               href: service-dashboard-themes.md
         - name: Canalizaciones de implementación
           items:
-            - name: Introducción
+            - name: Comenzar
               href: deployment-pipelines-get-started.md
             - name: Solución de problemas
               href: deployment-pipelines-troubleshooting.md
