@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2c92fb47f576b750aa4815b56fabece2b5bc1de5
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 396c760a97911a35d7fdc0c608fc35de1cf6586d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565980"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216825"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>Técnicas de reducción de datos para modelos de importación
 
@@ -84,7 +84,7 @@ Pero, en algunos casos, las columnas calculadas del modelo pueden ser la mejor o
 
 Las consultas de Power Query diseñadas para permitir la integración de datos con otras consultas no deben cargarse en el modelo. Para evitar la carga de la consulta en el modelo, asegúrese de deshabilitar la carga de consultas en estas instancias.
 
-![Deshabilitación de la carga de una consulta de Power Query](media/import-modeling-data-reduction/power-query-disable-query-load.png)
+![Captura de pantalla de Power Query en la que se muestra la opción "Habilitar carga".](media/import-modeling-data-reduction/power-query-disable-query-load.png)
 
 ## <a name="disable-auto-datetime"></a>Deshabilitar fecha y hora automáticas
 

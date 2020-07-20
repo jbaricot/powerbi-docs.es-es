@@ -7,24 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/06/2020
-ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/08/2020
+ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034046"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214364"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
 
-Conozca las novedades de Power BI Report Server y Power BI Desktop optimizado para Power BI Report Server. En este artículo se cubren las principales áreas de características y se actualiza con cada nueva versión.
+Conozca las novedades de Power BI Report Server y Power BI Desktop optimizado para Power BI Report Server. En este artículo se cubren las principales áreas de características y se actualiza con cada nueva versión. Para obtener más información sobre las novedades de Power BI Report Server, vea el [Registro de cambios de Power BI Report Server](changelog.md).
 
 Descargue [Power BI Report Server y Power BI Desktop optimizado para Power BI Report Server](https://powerbi.microsoft.com/report-server/).
-
-Para consultar información sobre las "novedades" de Power BI, vea:
-
-- [Novedades en el servicio Power BI](../fundamentals/service-whats-new.md)
-- [Novedades de Power BI Desktop](../fundamentals/desktop-latest-update.md)
 
 ## <a name="may-2020"></a>Mayo de 2020
 

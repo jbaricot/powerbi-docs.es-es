@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4f9b69e863b71fda0cece06df7065740bd55463e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 620e71ffa08a02dc0d0080b310fb0252388e1b10
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228888"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161201"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Encontrar usuarios de Power BI que hayan iniciado sesión
 
@@ -29,7 +29,7 @@ Cualquier usuario (incluidos los no administradores) puede ver un informe de sus
 
 * El inquilino debe tener una licencia de Azure AD Premium asociada.
 
-* Debe tener uno de los siguientes roles: Administrador global, Administrador de seguridad o Lector de seguridad.
+* Debe tener alguno de los roles siguientes: administrador global, administrador de seguridad o lector de seguridad.
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>Uso de Azure Portal para ver los inicios de sesión
 
@@ -51,7 +51,7 @@ Para ver la actividad de inicio de sesión, siga estos pasos.
 
 También se puede [descargar un informe de inicio de sesión](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report) en cualquiera de los dos formatos: un archivo CSV o un archivo JSON.
 
-![Captura de pantalla del botón de descarga.](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![Captura de pantalla de la exportación de datos con la opción Descarga resaltada.](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
 En la parte superior del informe de **Inicios de sesión**, seleccione **Descargar** y luego seleccione una de las opciones siguientes:
 

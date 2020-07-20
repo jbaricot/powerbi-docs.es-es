@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273908"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216707"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Guía para la configuración de la administración de inquilinos
 
@@ -41,7 +41,7 @@ Estas direcciones URL estarán disponibles como vínculos en el menú de ayuda d
 > [!NOTE]
 > El hecho de proporcionar la dirección URL de las **solicitudes de licencias** impedirá que los usuarios individuales se suscriban a la versión de evaluación gratuita de 60 días de Power BI Pro. En su lugar, se les dirigirá al sitio interno con información sobre cómo adquirir una licencia, ya sea gratis o Pro.
 
-![Se muestra la opción "Publicar información de 'Obtener ayuda'".](media/admin-tenant-settings/publish-get-help-information.png)
+![Captura de pantalla de Power BI Desktop en la que se muestra la configuración de Ayuda y soporte técnico.](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>Administración de los riesgos.
 La configuración para administrar los riesgos puede ayudarle a establecer directivas de gobernanza en el inquilino de Power BI. Pero tenga en cuenta que la configuración de gobernanza no es una medida de seguridad. Por ejemplo, al deshabilitar la configuración **Exportar datos** se quita la característica de la interfaz de usuario de Power BI y, de este modo, los usuarios de Power BI pueden trabajar de acuerdo con las directivas de gobernanza de la organización, pero no se impide que algunos usuarios exporten datos mediante otras opciones. Desde un punto de vista de la seguridad, un usuario de Power BI con acceso de lectura a un conjunto de datos tiene permiso para consultarlo y puede conservar los resultados con independencia de las características disponibles en la interfaz de usuario de Power BI.
@@ -51,7 +51,7 @@ Puede recibir una notificación por correo electrónico si el inquilino se ve af
 
 Le recomendamos que habilite la opción **Recepción de notificaciones por correo electrónico sobre interrupciones o incidentes en el servicio**. Se encuentra en el grupo **Configuración de la ayuda y el soporte técnico**. Asigne uno o varios grupos de seguridad _habilitados para correo_.
 
-![Se muestra la opción "Recepción de notificaciones por correo electrónico sobre interrupciones o incidentes en el servicio".](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
+![Captura de pantalla de Power BI Desktop en la que se muestra la opción "Recepción de notificaciones por correo electrónico sobre interrupciones o incidentes en el servicio".](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
 
 ### <a name="information-protection"></a>Protección de la información
 
@@ -74,7 +74,7 @@ Se recomienda que asigne uno o varios grupos de seguridad. Se puede conceder _o 
 
 Asegúrese de incluir instrucciones en la documentación que permitan a los usuarios (que no tienen derechos de creación de áreas de trabajo) saber cómo pueden solicitar una nueva área de trabajo.
 
-![Se muestra la opción "Crear áreas de trabajo".](media/admin-tenant-settings/create-workspaces.png)
+![Captura de pantalla de Power BI Desktop en la que se muestra el valor "Crear áreas de trabajo".](media/admin-tenant-settings/create-workspaces.png)
 
 ### <a name="share-content-with-external-users"></a>Compartir contenido con usuarios externos
 
@@ -84,7 +84,7 @@ La opción **Compartir contenido con usuarios externos** está habilitada de for
 
 Se recomienda que asigne uno o varios grupos de seguridad. Se puede conceder _o denegar_ permiso a estos grupos para compartir contenido con usuarios externos.
 
-![Se muestra la opción "Compartir contenido con usuarios externos".](media/admin-tenant-settings/share-content-with-external-users.png)
+![Captura de pantalla de Power BI Desktop en la que se muestra el valor "Compartir contenido con usuarios externos".](media/admin-tenant-settings/share-content-with-external-users.png)
 
 ### <a name="publish-to-web"></a>Publicar en Web
 
@@ -96,7 +96,7 @@ Si está habilitada, se recomienda que asigne uno o varios grupos de seguridad. 
 
 Además, hay una opción para elegir cómo funcionan los códigos para insertar. De forma predeterminada, se establece en **Solo permitir códigos existentes**. Esto implica que se solicitará a los usuarios que se pongan en contacto con un administrador de Power BI para crear un código para insertar.
 
-![Se muestra la opción "Publicar en Web".](media/admin-tenant-settings/publish-to-web.png)
+![Captura de pantalla de Power BI Desktop en la que se muestra el valor "Publicar en la web".](media/admin-tenant-settings/publish-to-web.png)
 
 También se recomienda que revise regularmente los [códigos para insertar de Publicar en Web](https://app.powerbi.com/admin-portal/embedCodes). Quite los códigos si provocan la publicación de información privada o confidencial.
 
@@ -111,7 +111,7 @@ Se recomienda que asigne uno o varios grupos de seguridad. Se puede conceder _o 
 > [!IMPORTANT]
 > Si se deshabilita esta opción, también se restringe el uso de las características [Analizar en Excel](../collaborate-share/service-analyze-in-excel.md) y [Conexión dinámica](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) del servicio Power BI.
 
-![Se muestra la opción "Exportar datos".](media/admin-tenant-settings/export-data.png)
+![Captura de pantalla de Power BI Desktop en la que se muestra el valor "Exportar datos".](media/admin-tenant-settings/export-data.png)
 
 > [!NOTE]
 > Si los usuarios permiten que los usuarios exporten datos, puede agregar una capa de protección aplicando la [protección de datos](../admin/service-security-data-protection-overview.md). Si está configurada, se impedirá a los usuarios no autorizados exportar contenido con etiquetas de confidencialidad.
@@ -124,7 +124,7 @@ La opción **Permitir a los usuarios externos editar y administrar el contenido 
 
 Si necesita autorizar que usuarios externos editen y administren contenido, se recomienda que asigne uno o varios grupos de seguridad. Se puede conceder _o denegar_ permiso a estos grupos para publicar informes.
 
-![Se muestra la opción "Permitir a los usuarios externos editar y administrar el contenido de la organización".](media/admin-tenant-settings/allow-external-guest-users.png)
+![Captura de pantalla de Power BI Desktop en la que se muestra el valor "Permitir a los usuarios externos editar y administrar el contenido de la organización".](media/admin-tenant-settings/allow-external-guest-users.png)
 
 ### <a name="developer-settings"></a>Configuración de desarrollador
 
@@ -135,7 +135,7 @@ Hay dos configuraciones de inquilinos relacionadas con la [inserción de conteni
 
 Si no tiene intención de usar las API de desarrollador para insertar contenido, se recomienda que las deshabilite. O bien, al menos, configure grupos de seguridad específicos que realizarían esta función.
 
-![Se muestra la configuración de desarrollador.](media/admin-tenant-settings/developer-settings.png)
+![Captura de pantalla de Power BI Desktop en la que se muestra la configuración de desarrollador.](media/admin-tenant-settings/developer-settings.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 
@@ -145,4 +145,3 @@ Para obtener más información sobre este artículo, consulte los recursos sigui
 - [Administración de Power BI en el portal de administración](../admin/service-admin-portal.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com)
-

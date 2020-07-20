@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/14/2018
 ms.author: willthom
 LocalizationGroup: Learn more
-ms.openlocfilehash: 538464477a65600efd7b8486ff2fee281d1d4500
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: af67eca7b1a4d1cb82f3b58ea4abdbb8b2ad4671
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83130202"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86160856"
 ---
 # <a name="power-bi-desktop-privacy"></a>Privacidad de Power BI Desktop
 
@@ -24,12 +24,12 @@ La información que recopilamos de los usuarios de **Power BI Desktop** puede in
  
 Si no quiere permitir que se realice esta recopilación de datos, puede hacerlo desde **Archivo > Opciones y configuración > Opciones** y, en la pestaña **Datos de uso**, desactive la casilla **Enviar datos de uso**, como se muestra en esta imagen.
 
-![Configuración de opciones para enviar datos de uso](media/desktop-privacy/privacy_01.png)
+![Captura de pantalla de los valores de configuración de Enviar datos de uso.](media/desktop-privacy/privacy_01.png)
 
 ## <a name="sending-additional-information"></a>Enviar información adicional
 
 Si la aplicación se bloquea o tiene otro tipo de problemas, puede optar por enviar informes de errores e información adicional que será útil para solucionar el problema en una versión futura. También recopilamos información sobre el estado del archivo de **Power BI Desktop** con el que estaba trabajando, como la configuración regional, las características de vista previa que están habilitadas y el modo de almacenamiento de archivo. Esto puede incluir capturas de pantalla, mensajes de error y fórmulas del modelo. Estos elementos podrían incluir el contenido de los archivos que estaba usando cuando se produjo un error, por lo que debe revisarlos antes de enviarlos. Le recordamos que, antes de enviarlos, puede elegir qué información se envía a Microsoft.  
  
-Si no quiere enviar esta información, puede hacer clic en **Cerrar** cuando se produce un error o dejar de enviar datos de uso, como ya hemos explicado. 
+Si no quiere enviar esta información, puede hacer clic en **Cerrar** cuando se produce un error o dejar de enviar datos de uso, como ya hemos explicado.
 
-![Cuadro de diálogo de bloqueo](media/desktop-privacy/privacy_02.png)
+![Captura de pantalla del cuadro de diálogo de bloqueo, con la opción de notificar el problema o cerrar.](media/desktop-privacy/privacy_02.png)

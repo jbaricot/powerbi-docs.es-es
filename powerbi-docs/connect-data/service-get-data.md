@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 021b5f0856ef4ff3730102efda88fd089a36dfcf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: bd3ab4a1c6f702ad866211339a3d3a386c4981fa
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320087"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264413"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Orígenes de datos del servicio Power BI
 Los datos son la esencia de Power BI. Supongamos que va a explorar datos. Puede hacerlo creando gráficos y paneles o planteando preguntas con **preguntas y respuestas**. Las visualizaciones y respuestas que vea obtienen los datos subyacentes de un conjunto de datos. Pero, ¿de dónde procede ese conjunto de datos? Proceden de un origen de datos.
@@ -23,14 +23,14 @@ En este artículo, vamos a examinar los tipos de orígenes de datos a los que pu
 
 Para obtener datos de cualquiera de los orígenes de datos de Power BI, puede seleccionar **Obtener datos** en la esquina inferior izquierda de la página.
 
-![](media/service-get-data/pbi-getdata-navigation-link.png) 
+![Captura de pantalla de Obtener datos, que se muestra en la parte inferior izquierda de la pantalla del servicio Power BI.](media/service-get-data/pbi-getdata-navigation-link.png) 
 
 Después de seleccionar **Obtener datos**, puede elegir los datos a los que desea tener acceso.
 
-![](media/service-get-data/pbi-getdata-startscreen.png)
+![Captura de pantalla de las opciones de Obtener datos, donde se muestran las opciones para elegir los datos a los que se quiere acceder.](media/service-get-data/pbi-getdata-startscreen.png)
 
 ## <a name="discover-content"></a>Descubrir contenido
-![](media/service-get-data/pbi-getdata-discovercontent.png)
+![Captura de pantalla de la sección Descubrir contenido, en la que se muestran logotipos de asociado.](media/service-get-data/pbi-getdata-discovercontent.png)
 
 La sección **Descubrir contenido** incluye todos los datos e informes que necesita ya preparados. Hay dos tipos de paquetes de contenido en Power BI: organizativos y servicios. 
 
@@ -43,7 +43,7 @@ La sección **Descubrir contenido** incluye todos los datos e informes que neces
 La sección **Crear contenido** contiene las opciones que necesita para crear e importar contenido por sí mismo. En Power BI, hay dos maneras de crear o importar su contenido: archivos y bases de datos. 
 
 ### <a name="files"></a>Archivos
-![](media/service-get-data/pbi_getdata_files.png)
+![Icono de Excel, Power BI Desktop y CSV](media/service-get-data/pbi_getdata_files.png)
 
 **Excel** ( *.xlsx*, *.xlsm*): en Excel, un libro puede incluir diferentes tipos de datos. Por ejemplo, puede incluir datos que ha escrito usted mismo en hojas de cálculo. También puede incluir los datos que ha consultado y cargado de orígenes de datos externos mediante Power Query. Power Query está disponible mediante **Obtener y transformar** en Excel 2016 o Power Pivot. Puede importar datos de tablas en hojas de cálculo o importar datos de un modelo de datos. Para más información, consulte [Obtener datos de archivos en Power BI](service-get-data-from-files.md).
 
@@ -56,7 +56,7 @@ Para otros tipos de archivo, como Tabla XML ( *.xml*) o archivos de texto ( *.tx
 El lugar donde se almacenan los archivos supone una diferencia muy significativa. OneDrive para la Empresa proporciona la máxima flexibilidad e integración con Power BI. Está bien para mantener los archivos en la unidad local. Sin embargo, si necesita actualizar los datos, hay algunos pasos adicionales. Para más información, consulte los artículos siguientes.
 
 ### <a name="databases"></a>Bases de datos
-![](media/service-get-data/pbi_getdata_databases.png)
+![Captura de pantalla de las bases de datos, en la que se muestran los logotipos de bases de datos en la nube.](media/service-get-data/pbi_getdata_databases.png)
 
 **Bases de datos en la nube**: desde el servicio Power BI, puede conectar dinámicamente con:
 

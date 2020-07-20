@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: bd671e32167837a5b8b96388bb2687616e6cada5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 50d3adef65791c3fecd1a2125f67318fb8ab0298
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228561"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214259"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Administración del almacenamiento de datos en las áreas de trabajo de Power BI
 
@@ -48,40 +48,38 @@ Los conjuntos de datos e informes de Excel propios y aquellos elementos que los 
 
 El tamaño del panel que comparta varía en función de lo que tenga anclado. Por ejemplo, si ancla elementos de dos informes que forman parte de dos conjuntos de datos diferentes, el tamaño incluirá ambos conjuntos de datos.
 
-<a name="manage"/>
-
 ## <a name="manage-items-you-own"></a>Administrar elementos de su propiedad
 
 Consulte el almacenamiento de datos que usa en su cuenta de Power BI y administre su cuenta.
 
 1. Para administrar su propio almacenamiento, vaya a **Mi área de trabajo** en el panel de navegación.
    
-    ![Mi área de trabajo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+    ![Captura de pantalla del panel de navegación con Mi área de trabajo destacada.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 
-2. Seleccione el icono de engranaje ![Icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) en la esquina superior derecha de \> **Administrar almacenamiento personal**.
+2. Seleccione el icono de engranaje ![Icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) en la esquina superior derecha de **Administrar almacenamiento personal**.
    
     La barra superior muestra la cantidad del límite de almacenamiento que se ha usado.
    
-    ![Administrar el límite de almacenamiento](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
+    ![Captura de pantalla de Administrar el límite de almacenamiento, en la que se muestra la cantidad de almacenamiento que se ha usado.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
     Los informes y los conjuntos de datos se dividen en dos pestañas:
    
     **De mi propiedad:** son informes y conjuntos de datos que ha cargado en la cuenta de Power BI, incluidos los conjuntos de datos de servicio como Salesforce y Dynamics CRM.  
 
     **Propiedad de otros:** son informes y conjuntos de datos que otras personas han compartido con usted.
-1. Para eliminar un informe o un conjunto de datos, seleccione el ![icono de la Papelera.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+1. Para eliminar un informe o un conjunto de datos, seleccione el ![Icono de la Papelera](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 Tenga en cuenta que usted u otra persona puede tener informes y paneles basados en un conjunto de datos. Si elimina el conjunto de datos, los informes y paneles no volverán a funcionar.
 
 ## <a name="manage-your-workspace"></a>Administración del área de trabajo
-1. Seleccione la flecha situada junto a **Áreas de trabajo** \> y el nombre del área de trabajo.
+1. Seleccione la flecha situada junto a **Áreas de trabajo** y el nombre del área de trabajo.
    
-    ![Selección de un área de trabajo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. Seleccione el icono de engranaje ![icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) de la esquina superior derecha de \> **Administrar almacenamiento del grupo**.
+    ![Captura de pantalla de la selección del área de trabajo, en la que se muestra el área de trabajo Grupo de ventas.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+2. Seleccione el icono de engranaje ![icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) de la esquina superior derecha de **Administrar almacenamiento del grupo**.
    
     La barra superior muestra la cantidad del límite de almacenamiento del grupo que se ha usado.
    
-    ![Administración del almacenamiento del área de trabajo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Captura de pantalla de Administrar almacenamiento, en la que se muestra el límite de almacenamiento que ha usado el grupo de ventas.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     Los informes y los conjuntos de datos se dividen en dos pestañas:
    
@@ -89,7 +87,7 @@ Tenga en cuenta que usted u otra persona puede tener informes y paneles basados 
 
     **Propiedad de otros:** son informes y conjuntos de datos que otras personas han compartido con el grupo.
 
-3. Para eliminar un informe o un conjunto de datos, seleccione el ![icono de la Papelera.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+3. Para eliminar un informe o un conjunto de datos, seleccione el ![Icono de la Papelera](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
    > Tenga en cuenta que usted u otra persona en el grupo puede tener informes y paneles basados en un conjunto de datos. Si elimina el conjunto de datos, los informes y paneles no volverán a funcionar.
@@ -104,15 +102,15 @@ Cuando alcance el límite de capacidad de datos de lo que puede hacer, se muestr
 
 Al seleccionar el icono de engranaje ![Icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png), se ve una barra roja que le indica que ha superado su límite de capacidad de datos.
 
-![Límite de almacenamiento alcanzado](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![Captura de pantalla de la capacidad de almacenamiento, en la que se muestra que se ha alcanzado el límite.](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
 Este límite también aparece indicado dentro de **Administrar almacenamiento personal**.
 
- ![Administrar el almacenamiento personal, límite de almacenamiento alcanzado](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
+ ![Captura de pantalla de la capacidad de almacenamiento personal, en la que se muestra que se ha alcanzado el límite de Jane.](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
- Cuando intente realizar una acción que alcance uno de los límites, verá un mensaje que le indicará que está por encima del límite. Puede [administrar](#manage) su almacenamiento para reducir el volumen de almacenamiento y no superar el límite.
+ Cuando intente realizar una acción que alcance uno de los límites, verá un mensaje que le indicará que está por encima del límite. Puede [administrar el almacenamiento](#manage-items-you-own) para reducir la cantidad y superar el límite.
 
- ![Supera el límite de almacenamiento](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![Captura de pantalla del cuadro de diálogo Límite de almacenamiento superado, en la que se muestra que se han alcanzado los límites.](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
  ## <a name="next-steps"></a>Pasos siguientes
 

@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b649b3694eab5a573f814efd707155154d54b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c34244669b538a5c3138536adbfd022eb00e646d
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236682"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263031"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Obtención de datos de archivos de Power BI Desktop
-![](media/service-desktop-files/pbid_file_icon.png)
+![Icono de archivo de Power BI Desktop](media/service-desktop-files/pbid_file_icon.png)
 
 **Power BI Desktop** hace que las tareas de business intelligence y los informes sean más fáciles. Da igual si debe conectarse a muchos orígenes de datos diferentes, consultar, transformar y modelar datos o crear informes eficaces y dinámicos, **Power BI Desktop** agiliza las tareas de business intelligence y las hace más intuitivas. Si no está familiarizado con **Power BI Desktop**, revise [Introducción a Power BI Desktop](../fundamentals/desktop-getting-started.md).
 
@@ -38,13 +38,13 @@ Una vez que los datos están en **Power BI Desktop** y se crean unos cuantos inf
 
 1. En Power BI, en el panel del navegador, haga clic en ** Obtener datos**.
    
-   ![](media/service-desktop-files/pbid_get_data_button.png)
+   ![Captura de pantalla de Obtener datos, en la que se muestra el botón en el panel de navegación.](media/service-desktop-files/pbid_get_data_button.png)
 2. En **Archivos**, haga clic en **Obtener**.
    
-   ![](media/service-desktop-files/pbid_files_get.png)
+   ![Captura de pantalla del cuadro de diálogo Archivos, en el que se muestra el botón Obtener.](media/service-desktop-files/pbid_files_get.png)
 3. Busque el archivo. Los archivos de Power BI Desktop tienen una extensión .PBIX.
    
-   ![](media/service-desktop-files/pbid_find_your_file.png)
+   ![Captura de pantalla de cuatro iconos para buscar el archivo, en la que se muestran los iconos Archivo local, OneDrive para la Empresa, OneDrive personal y SharePoint.](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>Publique un archivo desde Power BI Desktop al sitio de Power BI
 El uso de Publicar desde Power BI Desktop es similar al uso de Obtener datos en Power BI, en cuanto a la importación inicial de los datos de archivo desde una unidad local o al conectarse a él en OneDrive. Sin embargo, hay diferencias: si realiza la carga desde una unidad local, querrá actualizar los datos con frecuencia para asegurarse de que las copias locales y en línea de los datos estén actualizadas entre sí. 
@@ -53,12 +53,12 @@ Aquí se muestra el modo rápido, pero puede consultar el artículo [Publicar de
 
 1. En Power BI Desktop, haga clic en **Archivo** > **Publicar** > **Publicar en Power BI** o bien haga clic en **Publicar** en la cinta de opciones.
    
-   ![](media/service-desktop-files/pbid_publish.png)
+   ![Captura de pantalla de Publicar en la cinta, en la que se muestra cómo publicar desde Power BI Desktop.](media/service-desktop-files/pbid_publish.png)
 2. Inicie sesión en Power BI. Solo necesitará hacer esto la primera vez.
    
    Cuando haya finalizado, obtendrá un vínculo para abrir el informe en el sitio de Power BI.
    
-   ![](media/service-desktop-files/pbid_publishing.png)
+   ![Captura de pantalla del cuadro de diálogo de confirmación de inicio de sesión, en la que se muestra que ha iniciado sesión correctamente con un vínculo para abrir el informe.](media/service-desktop-files/pbid_publishing.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 **Exploración de los datos**: cuando obtenga datos e informes del archivo en Power BI, será el momento de explorarlos. Si el archivo ya contiene informes, aparecerán en el panel del navegador en **Informes**. Si el archivo solo tenía datos, puede crear nuevos informes. Simplemente haga clic con el botón derecho en el nuevo conjunto de datos y, a continuación, haga clic en **Explorar**.

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: de20bc743c582d42d81f2d4c2544e3acf5f1b99c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234491"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264910"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual de Preguntas y respuestas en las aplicaciones iOS: Power BI
 
@@ -49,40 +49,40 @@ Una vez que haya completado los requisitos previos, está listo para probar el a
 3. Escriba **show** (mostrar), pulse **sales** (ventas) en la lista de sugerencias > **Enviar** ![icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Mostrar ventas](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. Pulse **by** (por) en las palabras clave y pulse **item** (elemento) en la lista de sugerencias > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+4. Pulse **by** (por) en las palabras clave y después **item** (elemento) en la lista de sugerencias > **Enviar** ![Icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Ventas por artículo](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. Pulse **as** (como) en las palabras clave, pulse el icono de gráfico de columnas ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) y después **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+5. Pulse **as** (como) en las palabras clave, pulse el icono de gráfico de columnas ![Icono Gráfico](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) y después **Enviar** ![Icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 6. Mantenga pulsado el gráfico resultante y, después, pulse **Expandir**.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
+    ![Captura de pantalla de un gráfico de columnas, en la que se muestra un puntero a Expandir.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
 
     El gráfico se abre en modo de enfoque en la aplicación.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
+    ![Captura de pantalla de un gráfico de columnas, en la que se muestra el modo de enfoque del gráfico.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. Pulse la flecha de la esquina superior izquierda para volver a la ventana de chat del analista virtual de Preguntas y respuestas.
 8. Pulse la X situada a la derecha del cuadro de texto para eliminar el texto y volver a empezar.
-9. Pruebe con una nueva pregunta: pulse **top** (principales) en las palabras clave, pulse **sale by avg $/unit ly (venta por $ prom/unidad año pasado)**  > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+9. Pruebe con una nueva pregunta: pulse **top** (principales) en las palabras clave, pulse **sale by avg $/unit ly (venta por $ prom/unidad año pasado)**  > **Enviar** ![Icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. Elija **by** (por) en las palabras clave, pulse **time** (tiempo) en la lista de sugerencias en la parte superior > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+    ![Captura de pantalla de una pregunta, en la que se muestra la venta superior por importe medio por unidad.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
+10. Elija **by** (por) en las palabras clave, pulse **time** (tiempo) en la lista de sugerencias de la parte superior > **Enviar** ![Icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
-     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. Escriba **as** (como), elija el icono de gráfico de líneas ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) en la lista de sugerencias > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+     ![Captura de pantalla de un gráfico, en la que se muestra la venta superior por importe medio por unidad por tiempo.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
+11. Escriba **as** (como), elija el icono de gráfico de líneas ![Icono Gráfico](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) en la lista de sugerencias > **Enviar** ![Icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
+    ![Captura de pantalla de un gráfico de columnas y líneas, en la que se muestra un puntero desde la columna a un gráfico de líneas](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
 ## <a name="try-saying-your-questions"></a>Formule sus preguntas
 Ahora puede hacer preguntas sobre sus datos en la aplicación móvil de Power BI con la voz en lugar de escribir.
 
 1. Pulse en el icono del analista virtual de Preguntas y respuestas ![Icono del analista virtual de Preguntas y respuestas](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) en el menú de acciones, en la parte inferior de la página (en la parte superior de la página en un iPad).
-2. Pulse el icono de micrófono ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png).
+2. Pulse el icono de micrófono ![Icono Micrófono](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
+    ![Captura de pantalla de una pregunta, en la que se muestra que el micrófono está activo.](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. Empiece a hablar cuando dicho icono esté activo. Por ejemplo, diga "precio unitario medio según la hora" y, después, pulse **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+1. Empiece a hablar cuando dicho icono esté activo. Por ejemplo, diga "precio unitario medio por hora" y, después, pulse **Enviar** ![Icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
+    ![Captura de pantalla de una pregunta, en la que se muestra que se ha terminado de hablar.](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 
 ### <a name="questions-about-privacy-when-using-speech-to-text"></a>¿Tiene alguna duda sobre su privacidad al usar la conversión de voz en texto?
 Consulte la sección Reconocimiento de voz de [Novedades de iOS](https://go.microsoft.com/fwlink/?linkid=845624) en las Guías para desarrolladores de iOS de Apple.
@@ -91,7 +91,7 @@ Consulte la sección Reconocimiento de voz de [Novedades de iOS](https://go.micr
 * ¿Necesita ayuda? Diga “Hi” (Hola) o “Help” (Ayuda) para obtener asistencia para comenzar una nueva pregunta.
 * ¿Le importaría proporcionarnos sus comentarios sobre los resultados? Mantenga pulsado un gráfico u otro resultado y, a continuación, pulse la cara sonriente o la cara con el ceño fruncido.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
+    ![Captura de pantalla de un gráfico de columnas, en la que se muestra un comentario con un puntero a una cara sonriente.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
 
     Sus comentarios son anónimos y nos ayudan a mejorar nuestras respuestas a las preguntas.
 

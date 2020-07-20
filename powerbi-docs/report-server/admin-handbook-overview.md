@@ -8,24 +8,24 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f292b8474c478c178b85f2c015781ead1fa503c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73860221"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86213825"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Información general para administradores, Power BI Report Server
 Este artículo contiene información general de administración de Power BI Report Server, una ubicación local para almacenar y administrar informes paginados, móviles o de Power BI. En este artículo se presentan los conceptos de planeamiento, implementación y administración de Power BI Report Server, con vínculos a información adicional.
 
-![](media/admin-handbook-overview/admin-handbook.png)
-
+![Captura de pantalla de Power BI Report Server con las opciones de inicio de sesión.](media/admin-handbook-overview/admin-handbook.png)
+ 
 ## <a name="installing-and-migration"></a>Instalación y migración
 Para empezar a usar Power BI Report Server, es preciso instalarlo. Disponemos de artículos que explican cómo controlar esta tarea.
 
 Antes de empezar a instalar, actualizar o migrar a Power BI Report Server, eche un vistazo a los [requisitos del sistema](system-requirements.md) para el servidor de informes.
 
-### <a name="installing"></a>Instalación
+### <a name="installing"></a>Instalando
 Si va a implementar una instancia nueva de Power BI Report Server, utilice los siguientes documentos, ya que le servirán de ayuda. 
 
 [Instalar un servidor de informes de Power BI](install-report-server.md)
@@ -48,7 +48,7 @@ La seguridad y la protección son dos aspectos importantes para todas las organi
 [Buscar la clave de producto del servidor de informes](find-product-key.md)  
 [Instalar Power BI Desktop optimizado para el servidor de informes de Power BI](install-powerbi-desktop.md)  
 [Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Descargar las últimas herramientas de datos SQL Server](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Descargar SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

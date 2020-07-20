@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 21105513bf77a4ede8d788860a99fedaf3a6c48c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278684"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214878"
 ---
 # <a name="referencing-power-query-queries"></a>Referencia de las consultas de Power Query
 
@@ -23,13 +23,13 @@ Aclaremos lo que esto significa: _Cuando una consulta hace referencia a una segu
 
 Considere varias consultas: **Query1** obtiene los datos de un servicio web y su carga está deshabilitada. Las consultas **Query2**, **Query3** y **Query4** hacen referencia a **Query1** y sus salidas se cargan en el modelo de datos.
 
-![Vista Dependencias de consulta, donde se muestran las consultas descritas en el párrafo anterior.](media/power-query-referenced-queries/query-dependencies-web-service.png)
+![Diagrama en el que se muestra la vista Dependencias de consulta, con las consultas descritas en el párrafo anterior.](media/power-query-referenced-queries/query-dependencies-web-service.png)
 
 Cuando se actualiza el modelo de datos, a menudo se presupone que Power Query recupera el resultado de **Query1** y que lo reutilizan las consultas a las que se hace referencia. Esto no es correcto. De hecho, Power Query ejecuta las consultas **Query2**, **Query3** y **Query4** por separado.
 
 Puede pensar que la consulta **Query2** tiene insertados los pasos de la consulta **Query1**. Esto también pasa con las consultas **Query3** y **Query4**. En el diagrama siguiente se muestra una imagen más clara de cómo se ejecutan las consultas.
 
-![Una versión modificada de la vista Dependencias de consulta, donde se muestran las consultas Query 2, Query 3 y Query 4. Cada una de las tres consultas tiene insertada la consulta Query1.](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
+![Diagrama en el que se muestra una versión modificada de la vista Dependencias de consulta, donde se muestran las consultas Query 2, Query 3 y Query 4.](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
 
 La consulta **Query1** se ejecuta tres veces. Las diversas ejecuciones pueden dar lugar a una actualización de datos lenta e influir negativamente en el origen de datos.
 

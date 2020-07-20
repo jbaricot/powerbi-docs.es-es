@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 276770b677d85e0e125e7dd87bb0a800248d71c2
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85484941"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161482"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Licencias del servicio Power BI para los usuarios de la organización
 
@@ -57,7 +57,7 @@ Al desactivar el registro de autoservicio, los usuarios no pueden explorar Power
 1. Escriba el número de licencias necesarias para cubrir a todos los usuarios.
 1. Seleccione **Automatically assign to all of your users with no licenses** (Asignar automáticamente a todos los usuarios sin licencia) y, después, eche un vistazo.
 
-  ![Suscripción gratuita a Power BI asignada automáticamente](media/service-admin-licensing-organization/m365-auto-assign.png) 
+  ![Captura de pantalla de la suscripción gratuita de Power BI asignada automáticamente, en la que se muestra el registro de autoservicio.](media/service-admin-licensing-organization/m365-auto-assign.png)
 
 Si quiere ver qué usuarios de su organización puede que ya dispongan de una licencia, consulte el artículo sobre cómo [ver y administrar licencias de usuario](service-admin-manage-licenses.md).
 

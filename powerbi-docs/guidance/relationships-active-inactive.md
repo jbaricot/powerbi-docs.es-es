@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e8ba3203728a72b26d188e96eb1fa66f62f89a55
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273233"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215116"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Instrucciones para elegir entre relaciones activas e inactivas
 
@@ -29,7 +29,7 @@ Piense, por ejemplo, en un modelo de importación diseñado para analizar la pun
 
 Este es un diagrama de modelos parcial de las dos tablas.
 
-![Un diagrama de modelos contiene dos tablas: Flight (Vuelo) y Airport (Aeropuerto). En el párrafo siguiente se describe el diseño de relación.](media/relationships-active-inactive/flight-model-1.png)
+![Diagrama en el que se muestra un modelo que contiene dos tablas: Flight (Vuelo) y Airport (Aeropuerto). En el párrafo siguiente se describe el diseño de relación.](media/relationships-active-inactive/flight-model-1.png)
 
 Existen dos relaciones de modelo entre las tablas **Flight** (Vuelo) y **Airport** (Aeropuerto). En la tabla **Flight** (Vuelo), las columnas **DepartureAirport** (Aeropuerto de salida) y **ArrivalAirport** (Aeropuerto de llegada) se relacionan con la columna **Airport** (Aeropuerto) de la tabla **Airport** (Aeropuerto). En el diseño de esquemas de estrella, la tabla **Airport** (Aeropuerto) se describe como [una dimensión realizadora de roles](star-schema.md#role-playing-dimensions). En este modelo, los dos roles son el _aeropuerto de salida_ y el _aeropuerto de llegada_.
 
@@ -39,13 +39,13 @@ Este diseño de modelo impone serias limitaciones a la forma en que se pueden pr
 
 Este es el diseño mejorado del modelo.
 
-![Ahora el diagrama de modelo contiene cuatro tablas: Date (Fecha), Flight (Vuelo), Departure Airport (Aeropuerto de salida) y Arrival Airport (Aeropuerto de llegada). En el párrafo siguiente se describe el diseño de relación.](media/relationships-active-inactive/flight-model-2.png)
+![Diagrama en el que se muestra un modelo que contiene cuatro tablas: Date (Fecha), Flight (Vuelo), Departure Airport (Aeropuerto de salida) y Arrival Airport (Aeropuerto de llegada).](media/relationships-active-inactive/flight-model-2.png)
 
 El modelo tiene ahora dos tablas de aeropuertos: **Departure Airport** (Aeropuerto de salida) y **Arrival Airport** (Aeropuerto de llegada). Las relaciones de modelo entre estas tablas y la tabla **Flight** (Vuelo) están activas. Observe también que los nombres de columna de las tablas **Departure Airport** (Aeropuerto de salida) y **Arrival Airport** (Aeropuerto de llegada) llevan como prefijo la palabra _Departure_ (Salida) o _Arrival_ (Llegada).
 
 El diseño de modelo mejorado permite generar el siguiente diseño de informe.
 
-![Una página de informe tiene dos segmentaciones y un objeto visual de tabla. Las segmentaciones son el mes y el aeropuerto de salida. En el objeto visual de tabla se recogen los aeropuertos de llegada y varias estadísticas.](media/relationships-active-inactive/flight-report-design.png)
+![Diagrama en el que se muestra una página de informe con dos segmentaciones y un objeto visual de tabla. Las segmentaciones son el mes y el aeropuerto de salida.](media/relationships-active-inactive/flight-report-design.png)
 
 La página del informe filtra por Melbourne como aeropuerto de salida y los grupos de objetos visuales de la tabla por aeropuertos de llegada.
 
@@ -86,7 +86,7 @@ Ahora vamos a considerar los diferentes requisitos de modelo e informes:
 
 Este es un diagrama de modelos parcial de las dos tablas.
 
-![Un diagrama de modelos contiene dos tablas: Sales (Ventas) y Date (Fecha). La tabla Sales (Ventas) incluye seis medidas. En el párrafo siguiente se describe el diseño de relación.](media/relationships-active-inactive/sales-model.png)
+![Diagrama en el que se muestra un modelo que contiene dos tablas: Sales (Ventas) y Date (Fecha). La tabla Sales (Ventas) incluye seis medidas.](media/relationships-active-inactive/sales-model.png)
 
 Existen dos relaciones de modelo entre las tablas **Sales** (Ventas) y **Date** (Fecha). En la tabla **Sales** (Ventas), las columnas **OrderDate** (Fecha de pedido) y **ShipDate** (Fecha de expedición) se relacionan con la columna **Date** (Fecha) de la tabla **Date** (Fecha). En este modelo, los dos roles de la tabla **Date** (Fecha) son la _fecha de pedido_ y la _fecha de expedición_. Es la relación con la columna **OrderDate** (Fecha de pedido) la que está activa.
 
@@ -110,7 +110,7 @@ CALCULATE(
 
 Este diseño de modelo permite generar el siguiente diseño de informe.
 
-![Una página de informe tiene una segmentación y un objeto visual de tabla. La segmentación es Quarter (Trimestre) y el objeto visual de la tabla muestra las estadísticas de ventas mensuales.](media/relationships-active-inactive/sales-report-design.png)
+![Diagrama en el que se muestra una página de informe con una segmentación y un objeto visual de tabla. La segmentación es Quarter (Trimestre) y el objeto visual de la tabla muestra las estadísticas de ventas mensuales.](media/relationships-active-inactive/sales-report-design.png)
 
 La página del informe filtra por Q4 (cuarto trimestre) de 2019. El objeto visual de la tabla agrupa por mes y muestra varias estadísticas de ventas. Las medidas **Orders** (Pedidos) y **Orders Shipped** (Pedidos expedidos) generan resultados diferentes. Cada una de ellas usa la misma lógica de resumen (recuento de filas de la tabla **Sales** [Ventas]), pero una diferente propagación del filtro de tabla **Date** (Fecha).
 

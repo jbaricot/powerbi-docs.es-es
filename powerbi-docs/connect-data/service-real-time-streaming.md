@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2679e9fa21b193fa4c19384c2bd7d22660cf657a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0472baffa765f1a1e7d39e365e40a1f596472a16
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235788"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264393"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmisión en tiempo real en Power BI
 Con la transmisión en tiempo real de Power BI, puede transmitir los datos y actualizar los paneles en tiempo real. Cualquier objeto visual o panel que se pueda crear en Power BI también se puede crear para mostrar y actualizar datos en tiempo real y objetos visuales. Los dispositivos y orígenes de datos de transmisión pueden ser sensores de fábrica, orígenes de redes sociales, métricas de uso del servicio y cualquier otro elemento a partir del que se puedan recopilar o transmitir datos.
 
-![Captura de pantalla en la que se muestran los resultados de los sensores de entorno en tiempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
+![Captura de pantalla del panel de sensores de entorno, en el que se muestran los resultados de los datos en tiempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 En este artículo se muestra cómo configurar un conjunto de datos de streaming en tiempo real en Power BI. Pero, antes, es importante entender los tipos de conjuntos de datos en tiempo real que están diseñados para mostrarse en los iconos (y paneles) y la diferencia entre estos conjuntos de datos.
 
@@ -61,7 +61,7 @@ Los iconos basados en un **conjunto de datos de streaming de PubNub** están opt
 ### <a name="streaming-dataset-matrix"></a>Matriz del conjunto de datos de streaming
 La tabla siguiente (o matriz, si lo prefiere) describe los tres tipos de conjuntos de datos para streaming en tiempo real y muestra las funcionalidades y limitaciones de cada uno.
 
-![](media/service-real-time-streaming/real-time-streaming_11.png)
+![Captura de pantalla de una tabla, en la que se muestra la matriz del conjunto de datos de transmisión.](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
 > Vea [este artículo](../developer/automation/api-rest-api-limitations.md) para obtener más información sobre los límites de **inserción**, sobre la cantidad de datos que se puede insertar.
@@ -92,11 +92,11 @@ Todas las solicitudes a las API de REST se protegen con **Azure AD OAuth**.
 ### <a name="using-the-streaming-dataset-ui-to-push-data"></a>Uso de la interfaz de usuario de conjunto de datos de streaming para insertar datos
 Para crear un conjunto de datos en el servicio Power BI, use la **API** tal y como se muestra en la siguiente imagen.
 
-![](media/service-real-time-streaming/real-time-streaming_0b.png)
+![Captura de pantalla de las opciones de Nuevo conjunto de datos de transmisión, en la que se muestra la selección de API.](media/service-real-time-streaming/real-time-streaming_0b.png)
 
 Al crear el nuevo conjunto de datos de streaming, puede seleccionar habilitar **Análisis de datos históricos**, tal y como se muestra a continuación; esta acción tiene un impacto significativo.
 
-![](media/service-real-time-streaming/real-time-streaming_0c.png)
+![Captura de pantalla del nuevo conjunto de datos de transmisión, en la que se muestra el análisis de datos históricos habilitado.](media/service-real-time-streaming/real-time-streaming_0c.png)
 
 Cuando **Análisis de datos históricos** está deshabilitado (de forma predeterminada), se crea un **conjunto de datos de streaming**, tal y como se describió anteriormente en este artículo. Cuando **Análisis de datos históricos** está *habilitado*, el conjunto de datos que se crea se convierte en tanto en un **conjunto de datos de streaming** como en **conjunto de datos de inserción**. Esto equivale a usar las API de REST de Power BI para crear un conjunto de datos con el indicador *defaultMode* establecido en *pushStreaming*, tal y como se describió anteriormente en este artículo.
 
@@ -125,19 +125,19 @@ Para empezar a trabajar con la transmisión en tiempo real, debe elegir una de l
 
 Con cualquiera de estas opciones, deberá configurar los **Datos de transmisión** en Power BI. Para hacerlo, en el panel (un panel existente o uno nuevo) seleccione **Agregar un icono** y, a continuación, seleccione **Datos de transmisión personalizados**.
 
-![](media/service-real-time-streaming/real-time-streaming_1.png)
+![Captura de pantalla del panel, en la que se muestra la selección de Datos de transmisión personalizados en la sección Agregar icono.](media/service-real-time-streaming/real-time-streaming_1.png)
 
 Si no ha configurado todavía los datos de transmisión, no se preocupe, puede seleccionar **Administrar datos** para comenzar.
 
-![](media/service-real-time-streaming/real-time-streaming_2.png)
+![Captura de pantalla del panel, en la que se muestra el vínculo Administrar datos en Agregar un icono de datos de transmisión personalizados.](media/service-real-time-streaming/real-time-streaming_2.png)
 
 En esta página, puede escribir el extremo de su conjunto de datos de transmisión si ya tiene uno creado (en el cuadro de texto). Si aún no tiene un conjunto de datos de transmisión, seleccione el icono del signo más ( **+** ) en la esquina superior derecha para ver las opciones disponibles para crear un conjunto de datos de transmisión.
 
-![](media/service-real-time-streaming/real-time-streaming_3.png)
+![Captura de pantalla del panel, en la que se muestra cómo especificar el punto de conexión del conjunto de datos de transmisión con un puntero al icono de signo más.](media/service-real-time-streaming/real-time-streaming_3.png)
 
 Al hacer clic en el icono **+** , verá dos opciones:
 
-![](media/service-real-time-streaming/real-time-streaming_4a.png)
+![Captura de pantalla de las opciones de Nuevo conjunto de datos de transmisión, en la que se muestran las opciones API y PubNub.](media/service-real-time-streaming/real-time-streaming_4a.png)
 
 La siguiente sección describe estas opciones y explica con más detalle cómo crear un **icono** de transmisión o cómo crear un **conjunto de datos** desde el origen de datos de transmisión por secuencias, que puede usar a continuación para generar informes.
 
@@ -152,7 +152,7 @@ Las secciones siguientes detallan cada una de las opciones.
 ### <a name="using-the-power-bi-rest-api"></a>Uso de la API de REST de Power BI
 **API de REST de Power BI**: las mejoras recientes en la API de REST de Power BI están diseñadas para facilitar la transmisión en tiempo real a los desarrolladores. Al seleccionar **API** desde la ventana **Nuevo conjunto de datos de transmisión**, se visualizan las entradas que se pueden proporcionar y que permiten que Power BI se conecte y utilice su extremo:
 
-![](media/service-real-time-streaming/real-time-streaming_5.png)
+![Captura de pantalla del cuadro de diálogo Nuevo conjunto de datos de transmisión en el que se muestran las entradas de API REST de Power BI para la conexión.](media/service-real-time-streaming/real-time-streaming_5.png)
 
 Si desea que Power BI almacene los datos que se envían a través de esta secuencia de datos, habilite *Análisis del historial de datos* y se podrán realizar informes y análisis en el flujo de datos recopilados. También puede [obtener más información acerca de la API](https://docs.microsoft.com/rest/api/power-bi/).
 
@@ -163,7 +163,7 @@ Al realizar solicitudes *POST*, debe asegurarse de que el cuerpo de la solicitud
 ### <a name="using-pubnub"></a>Uso de PubNub
 Con la integración de la transmisión de **PubNub** con Power BI, puede usar los flujos de datos de **PubNub** de baja latencia (o crear nuevos) y usarlos en Power BI. Al seleccionar **PubNub** y, después, seleccionar **Siguiente**, verá la siguiente ventana:
 
-![](media/service-real-time-streaming/real-time-streaming_7.png)
+![Captura de pantalla del cuadro de diálogo Nuevo conjunto de datos de transmisión en el que se muestran las entradas PubNub para la conexión.](media/service-real-time-streaming/real-time-streaming_7.png)
 
 > [!WARNING]
 > Los canales PubNub se pueden proteger mediante una clave de autenticación de PubNub Access Manager (PAM). Esta clave se compartirá con todos los usuarios que tengan acceso al panel. Obtenga [más información sobre el control de acceso mediante PubNub](https://www.pubnub.com/docs/web-javascript/pam-security).
@@ -179,7 +179,7 @@ En este ejemplo, utilizamos una secuencia disponible públicamente de **PubNub**
 
 1. En el **servicio Power BI**, seleccione un panel (o cree uno nuevo) y seleccione **Agregar icono** > **Datos de transmisión personalizados** y, a continuación, seleccione el botón **Siguiente**.
    
-   ![](media/service-real-time-streaming/real-time-streaming_1.png)
+   ![Captura de pantalla del panel, en la que se muestra la selección de Agregar icono con Datos de transmisión personalizados.](media/service-real-time-streaming/real-time-streaming_1.png)
 2. Si no tiene un origen de datos de transmisión, seleccione el enlace **Administrar datos** (justo encima del botón **Siguiente**), a continuación, seleccione **+ Agregar datos de transmisión** desde el enlace situado en el lado superior derecho de la ventana. Seleccione **PubNub** y, a continuación, seleccione **Siguiente**.
 3. Cree un nombre para el conjunto de datos, y después, pegue los valores siguientes en la ventana que aparece y seleccione **Siguiente**:
    
@@ -190,13 +190,13 @@ En este ejemplo, utilizamos una secuencia disponible públicamente de **PubNub**
    
        pubnub-sensor-network
    
-   ![](media/service-real-time-streaming/real-time-streaming_8.png)
+   ![Captura de pantalla del cuadro de diálogo Nuevo conjunto de datos de transmisión, en la que se muestra cómo crear un Nombre de conjunto de datos y entradas en los campos Subclave y Nombre de canal.](media/service-real-time-streaming/real-time-streaming_8.png)
 4. En la siguiente ventana, simplemente seleccione los valores predeterminados (que se rellenan automáticamente) y, después, seleccione **Crear**.
    
-   ![](media/service-real-time-streaming/real-time-streaming_9.png)
+   ![Captura de pantalla del cuadro de diálogo Nuevo conjunto de datos de transmisión, en el que se muestran los valores predeterminados de los campos Nombre de conjunto de datos y Valores de la transmisión.](media/service-real-time-streaming/real-time-streaming_9.png)
 5. Vuelva al área de trabajo de Power BI, cree un nuevo panel y después agregue un icono (consulte los pasos anteriores si es necesario). Esta vez cuando se cree un icono y seleccione **Datos de transmisión personalizados**, tiene un conjunto de datos de transmisión para trabajar con él. Adelante, practique con él. Al agregar los campos de *números* a los gráficos de líneas y, después, agregar otros iconos, puede obtener un panel en tiempo real similar al siguiente:
    
-   ![Captura de pantalla en la que se muestran los resultados de los sensores de entorno en tiempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
+   ![Captura de pantalla del panel de sensores de entorno, en el que se muestran los resultados en tiempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Pruébelo y practique con el conjunto de datos de ejemplo. Después, cree sus propios conjuntos de datos y transmita datos en directo a Power BI.
 

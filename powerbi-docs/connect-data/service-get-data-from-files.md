@@ -10,15 +10,15 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 40844f41483fa7c4ca66e831b0766d6f41fcd83a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7b886b5e0c21c77e0a5a6aca83fa0ae0751f435
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221331"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264103"
 ---
 # <a name="get-data-from-files-for-power-bi"></a>Obtener datos de archivos en Power BI
-![](media/service-get-data-from-files/file_icons.png)
+![Icono de Excel, Power BI Desktop y CSV](media/service-get-data-from-files/file_icons.png)
 
 En Power BI, puede importar datos e informes de tres tipos de archivos o conectarse a ellos.
 

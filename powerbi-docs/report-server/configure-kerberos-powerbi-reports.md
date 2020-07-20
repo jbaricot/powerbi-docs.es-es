@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: aee58d27eb75bbe14629235591065e236502588a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236105"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216499"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Configuración de Kerberos para el uso de informes de Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -31,14 +31,14 @@ Si el servidor de informes no está configurado correctamente, puede recibir el 
 
     Something went wrong.
 
-    We couldn’t run the report because we couldn’t connect to its data source. The report or data source might not be configured correctly. 
+    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
 
 En los detalles técnicos, verá este mensaje de error.
 
-    We couldn’t connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
-
+![Captura de pantalla de los informes de Power BI en la que se muestra el mensaje de error relacionado con los problemas de conexión con el servidor de Analysis Services.](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
+ 
 ## <a name="configuring-kerberos-constrained-delegation"></a>Configuración de la delegación restringida de Kerberos
 Hay varios elementos que se deben configurar para que la delegación restringida de Kerberos funcione. Entre ellos, la configuración de los nombres de entidad de servicio (SPN) y de la delegación en las cuentas de servicio.
 
@@ -194,7 +194,7 @@ Va a configurar la delegación restringida con tránsito de protocolo. Con la de
 6. En el cuadro de diálogo nuevo, seleccione **Users or Computers** (Usuarios o equipos).
 7. Escriba la cuenta de servicio para el servicio Analysis Services y seleccione **Aceptar**.
 8. Seleccione el SPN que ha creado. Empezará por `MSOLAPSvc.3`. Si ha agregado tanto el SPN de FQDN como el de NetBIOS, se seleccionarán ambos. Es posible que solo vea uno.
-9. Haga clic en **Aceptar**.  Ahora debería ver el SPN en la lista.
+9. Seleccione **Aceptar**.  Ahora debería ver el SPN en la lista.
 10. Si lo desea, puede seleccionar **Expandido** para mostrar el SPN de FQDN y el de NetBIOS en la lista.
 11. Seleccione **Agregar** de nuevo. Ahora va a agregar el SPN de SQL Browser.
 12. En el cuadro de diálogo nuevo, seleccione **Users or Computers** (Usuarios o equipos).
@@ -202,14 +202,14 @@ Va a configurar la delegación restringida con tránsito de protocolo. Con la de
 14. Seleccione el SPN que ha creado. Empezará por `MSOLAPDisco.3`. Si ha agregado tanto el SPN de FQDN como el de NetBIOS, se seleccionarán ambos. Es posible que solo vea uno.
 15. Seleccione **Aceptar**. El cuadro de diálogo debe ser similar al siguiente si ha activado **Expandido**.
     
-    ![](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
+    ![Captura de pantalla de los informes de Power BI en la que se muestra la pestaña Delegación de la ventana Propiedades.](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
 16. Seleccione **Aceptar**.
 17. Reinicie el servidor de informes de Power BI.
 
 ## <a name="running-a-power-bi-report"></a>Ejecución de un informe de Power BI
 Una vez realizada toda la configuración anterior, el informe se debe mostrar correctamente. 
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report.png)
+![Captura de pantalla de los informes de Power BI en la que se muestra la vista Panel de ejemplo.](media/configure-kerberos-powerbi-reports/powerbi-report.png)
 
 Aunque esta configuración debería funcionar en la mayoría de los casos, con Kerberos, puede requerir una configuración diferente en función de su entorno. Si aun así no se carga el informe, deberá ponerse en contacto con el administrador de dominio para investigar en profundidad o con el soporte técnico.
 

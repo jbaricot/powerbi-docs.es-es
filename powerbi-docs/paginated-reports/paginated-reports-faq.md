@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/29/2020
-ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.date: 07/08/2020
+ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427552"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216664"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: Preguntas frecuentes 
 
@@ -162,7 +162,7 @@ Sí, puede hacerlo mediante parámetros URL con los informes paginados.
 
 Sí, se pueden implementar informes paginados con aplicaciones de las áreas de trabajo v1 y v2. 
 
-### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>¿Otras características específicas de informes de Power BI, como el anclaje de los iconos de informes en los paneles, funcionan con los informes paginados?
+### <a name="will-other-report-specific-features-in-power-bi-like-pinning-report-tiles-to-dashboards-work-with-paginated-reports"></a>¿Otras características específicas de informes de Power BI, como el anclaje de los iconos de informes en los paneles, funcionarán con los informes paginados?
 
 Planeamos que los informes admitan lo máximo posible los mismos escenarios importantes en el servicio.  Lo ideal es que, aunque la herramienta de creación es diferente, desde la perspectiva del consumidor, es simplemente otro informe en su lista en el portal. No les preocupa cómo se ha creado, ya que pueden hacer lo que necesitan.  Un buen ejemplo de esta paridad de características es la compatibilidad planeada con los comentarios. Aunque la propia característica puede funcionar de forma ligeramente diferente para cada tipo de informe, podrá usar comentarios para ambos.
 

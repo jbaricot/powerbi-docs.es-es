@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0be1f3aeb48e4596566c36c1ee8cfadeb3c33d10
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349227"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214028"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Comparación de Power BI Desktop y el servicio Power BI
 
 En un diagrama de Venn en el que se comparan Power BI Desktop y el servicio Power BI, en el área central se muestra cómo se superponen los dos. Esto quiere decir que algunas tareas se pueden realizar tanto en Power BI Desktop como en el servicio Power BI. En los dos lados del diagrama de Venn se muestran las características únicas de la aplicación y el servicio.  
 
-![Diagrama de Venn de Power BI Desktop y servicio Power BI](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
+![Diagrama de Venn en el que se muestra la relación entre Power BI Desktop y el servicio Power BI.](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
 **Power BI Desktop** es una herramienta completa de creación de informes y análisis de datos que se instala para la aplicación gratuita en el equipo local. Incluye el Editor de consultas, en el que puede conectarse a muchos orígenes de datos diferentes y combinarlos en un modelo de datos (lo que se suele denominar modelado). Después, se diseña un informe basado en ese modelo de datos. La [Guía de introducción de Power BI Desktop](desktop-getting-started.md) le orientará por este proceso.
 
@@ -33,7 +33,7 @@ La mayoría de los diseñadores de informes que trabajan en proyectos de intelig
 
 Tanto en la aplicación como en el servicio se pueden crear y editar *informes*. Un informe puede tener una o varias páginas con objetos visuales y colecciones de objetos visuales. Agregue marcadores, botones, filtros y opciones de obtención de detalles para mejorar la navegación en los informes.
 
-![Editar un informe en Power BI Desktop o en el servicio Power BI](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
+![Capturas de pantallas de Power BI Desktop y el servicio Power BI, con secciones numeradas.](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
 Los editores de informes en Power BI Desktop y en el servicio Power BI son similares. Constan de tres secciones:  
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/02/2020
+ms.date: 07/08/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ee3919be08cfb2af2ad0e82e9f0f35b5d13147c6
-ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
+ms.openlocfilehash: 7b9f69607d2fef823ba67d5af035e1e2064a9a72
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85943317"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162399"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Tutorial: Introducción a la creación en el servicio Power BI
 Este tutorial es una introducción a algunas de las características del *servicio Power BI*. En este servicio se conecta a los datos, se crea un informe y un panel y se formulan preguntas de los datos. Puede hacer mucho más en el servicio Power BI; este tutorial es solo para abrir boca. Para entender cómo encaja el servicio Power BI con otras ofertas de Power BI, es recomendable leer primero [¿Qué es Power BI?](power-bi-overview.md).
@@ -224,4 +224,7 @@ Ahora que ya hemos finalizado el tutorial, podemos eliminar el conjunto de datos
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Para mejorar el aspecto de los paneles aún más, agregue más iconos de visualización y [cámbieles el nombre o el tamaño, vincúlelos y reubíquelos](../create-reports/service-dashboard-edit-tile.md).
+Explore estas colecciones de contenido de Microsoft Learn para Power BI:
+
+- [Aprender a usar Power BI](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/r52to235xrjxk)
+- [Conviértase en un analista de datos de Power BI](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm)

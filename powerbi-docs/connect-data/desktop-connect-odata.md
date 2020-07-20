@@ -10,37 +10,37 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: edbea68fac44811469e0f6f90d68028eeb35be71
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9e10d694940bda465e68f54370d87aab15b628ee
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224387"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216481"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>Conectarse a fuentes OData en Power BI Desktop
 En Power BI Desktop, puede conectarse a una **fuente OData** y usar los datos subyacentes igual que cualquier otro origen de datos en Power BI Desktop.
 
 Para conectarse a una fuente OData, seleccione **Obtener datos > Fuente OData** en la cinta **Inicio** en Power BI Desktop.
 
-![](media/desktop-connect-odata/connect-to-odata_1.png)
+![Captura de pantalla de la cinta Obtener datos de Power BI Desktop, donde se muestra la selección de Fuente OData.](media/desktop-connect-odata/connect-to-odata_1.png)
 
 En la ventana **Fuente OData** que aparece, escriba o pegue la URL de la fuente OData en el cuadro y seleccione **Aceptar**.
 
-![](media/desktop-connect-odata/connect-to-odata_2.png)
+![Captura de pantalla del cuadro de diálogo Fuente OData, en el que se muestra el campo Dirección URL.](media/desktop-connect-odata/connect-to-odata_2.png)
 
 Power BI Desktop se conecta a la fuente OData y muestra las tablas disponibles y otros elementos de datos en la ventana **Navegador**. Al seleccionar un elemento, el panel derecho de la ventana **Navegador** muestra una vista previa de los datos. Puede seleccionar tantas tablas como quiera importar. La ventana **Navegador** muestra una vista previa de la tabla seleccionada actualmente.
 
-![](media/desktop-connect-odata/connect-to-odata_3.png)
+![Captura de pantalla del cuadro de diálogo Navegador en la que se muestra una vista previa de los datos de la tabla seleccionada.](media/desktop-connect-odata/connect-to-odata_3.png)
 
 Puede elegir el botón **Editar**, que inicia el **Editor de consultas**, donde puede dar forma y transformar los datos de la fuente OData antes de importarla en Power BI Desktop. O puede seleccionar el botón **Cargar** e importar todos los elementos de datos que ha seleccionado en el panel izquierdo.
 
 Al seleccionar **Cargar**, Power BI Desktop importa los elementos seleccionados y muestra la ventana **Carga** del progreso de la importación.
 
-![](media/desktop-connect-odata/connect-to-odata_4.png)
+![Captura de pantalla del cuadro de diálogo Cargar, en el que se muestra el progreso de la importación.](media/desktop-connect-odata/connect-to-odata_4.png)
 
 Una vez que haya finalizado, Power BI Desktop hace que las tablas seleccionadas y otros elementos de datos estén disponibles en el panel **Campos**, que se encuentra en el lado derecho de la vista *Informes* en Power BI Desktop.
 
-![](media/desktop-connect-odata/connect-to-odata_5.png)
+![Captura de pantalla del panel Campos, en el que se muestra la lista de tablas seleccionadas.](media/desktop-connect-odata/connect-to-odata_5.png)
 
 ¡Eso es todo!
 

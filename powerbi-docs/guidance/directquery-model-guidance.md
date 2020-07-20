@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ace93dfe358c85e54863dece0303c889c6a766b2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 264d3f4a0c611ca01de627b7656584ceb60e7b18
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279604"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214522"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Instrucciones del modelo de DirectQuery en Power BI Desktop
 
@@ -54,9 +54,9 @@ Un modelo de DirectQuery se puede optimizar de muchas maneras, como se describe 
 
 - **Evitar consultas complejas de Power Query:** se puede lograr un diseño de modelo eficaz mediante la eliminación de la necesidad de que las consultas de Power Query apliquen transformaciones. Esto significa que cada consulta se asigna a una sola tabla o vista del origen de base de datos relacional. Puede obtener una vista previa de una representación de la instrucción de la consulta SQL real correspondiente a un paso aplicado de Power Query; para ello, seleccione la opción **Ver consulta nativa**.
 
-    ![Los pasos aplicados del Editor de consultas muestran cinco pasos. Un clic con el botón derecho en el último paso, llamado "Columnas con nombre cambiado" abre el menú contextual. La opción "Ver consulta nativa" está habilitada y resaltada.](media/directquery-model-guidance/directquery-model-guidance-query-editor-view-native-query.png)
+    ![Captura de pantalla de Power BI Desktop, en la que se muestra la opción "Ver consulta nativa" en Pasos aplicados.](media/directquery-model-guidance/directquery-model-guidance-query-editor-view-native-query.png)
     
-    ![La ventana Consulta nativa muestra una consulta T-SQL que combina las tablas de origen.](media/directquery-model-guidance/directquery-model-guidance-native-query-window.png)
+    ![Captura de pantalla de Power BI Desktop en la que se muestra la ventana Consulta nativa. Una instrucción de consulta combina dos tablas de origen.](media/directquery-model-guidance/directquery-model-guidance-native-query-window.png)
 
 - **Examinar el uso de las columnas calculadas y los cambios de tipo de datos:** los modelos de DirectQuery admiten la adición de cálculos y pasos de Power Query para convertir tipos de datos. Sin embargo, a menudo se consigue un mejor rendimiento al materializar los resultados de la transformación en el origen de base de datos relacional, siempre que sea posible.
 - **No usar el filtrado de fechas relativas de Power Query:** es posible definir el filtrado de fechas relativas en una consulta de Power Query. Por ejemplo, para recuperar los pedidos de ventas creados en el último año (con respecto a la fecha de hoy). Este tipo de filtro se traduce en una consulta nativa ineficaz, como se indica a continuación:
@@ -81,7 +81,7 @@ Un modelo de DirectQuery se puede optimizar de muchas maneras, como se describe 
 - **Evitar el uso del filtrado de relaciones bidireccional:** El uso del filtrado de relaciones bidireccional puede conducir a instrucciones de consulta que no tienen buen rendimiento. Use esta característica de la relación solo cuando sea necesario, como es habitual al implementar una relación de varios a varios en una tabla puente. Para más información, vea [Relaciones con una cardinalidad de varios a varios en Power BI Desktop](../transform-model/desktop-many-to-many-relationships.md).
 - **Limitar las consultas paralelas:** puede establecer el número máximo de conexiones que abre DirectQuery para cada origen de datos subyacente. Controla el número de consultas que se envían de forma simultánea al origen de datos.
 
-    ![La ventana Power BI Desktop está abierta y la página DirectQuery del archivo actual está seleccionada. Se resalta la propiedad Conexiones máximas por origen de datos.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
+    ![Captura de pantalla de Power BI Desktop en la que se muestra la ventana Opciones de consulta nativa.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
     
     La configuración solo está habilitada cuando hay al menos un origen de DirectQuery en el modelo. El valor se aplica a todos los orígenes de DirectQuery y a los nuevos orígenes de DirectQuery agregados al modelo.
 
@@ -95,7 +95,7 @@ Los informes basados en un conjunto de datos de DirectQuery se pueden optimizar 
 
 - **Habilitar técnicas de reducción de consultas:** en _Opciones y configuración_ de Power BI Desktop se incluye una página Reducción de consulta. Esta página tiene tres opciones útiles. Se puede deshabilitar el resaltado cruzado y el filtrado cruzado de forma predeterminada, aunque esto se puede invalidar mediante la edición de interacciones. También es posible mostrar un botón Aplicar en las segmentaciones y los filtros. Las opciones de segmentación o filtro no se aplicarán hasta que el usuario del informe haga clic en el botón. Si habilita estas opciones, se recomienda que lo haga al crear el informe por primera vez.
 
-    ![La ventana Power BI Desktop está abierta y la página de reducción de consultas del archivo actual está seleccionada. Hay tres opciones disponibles para reducir el número de consultas enviadas y para mostrar un botón Aplicar en las segmentaciones y los filtros.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-query-reduction.png)
+    ![Captura de pantalla de Power BI Desktop en la que se muestra el filtro Reducción de consulta en la ventana Opciones.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-query-reduction.png)
     
 - **Aplique primero los filtros:** al diseñar los informes por primera vez, se recomienda aplicar los filtros correspondientes (en el nivel de informe, página u objeto visual) antes de asignar campos a los campos del objeto visual. Por ejemplo, en lugar de arrastrar las medidas **País** y **Ventas** y, a continuación, filtrar por un año determinado, aplique primero el filtro en el campo **Año**. Se debe a que cada paso de la creación de un objeto visual enviará una consulta y, aunque es posible realizar otro cambio antes de que se complete la primera consulta, se crea una carga innecesaria en el origen de datos subyacente. Al aplicar los filtros al principio, normalmente las consultas intermedias se convierten en menos costosas y más rápidas. Además, si no se aplican los filtros temprano, se puede superar el límite de un millón de filas, como se ha descrito antes.
 - **Limite la cantidad de objetos visuales de una página:** Cuando se abre una página del informe (y cuando se aplican los filtros de la página), se actualizan todos los objetos visuales de dicha página. Sin embargo, hay un límite en el número de consultas que se pueden enviar en paralelo, impuestas por el entorno de Power BI y la configuración **Conexiones máximas por origen de datos** del modelo, como se ha descrito anteriormente. Por lo tanto, a medida que aumenta el número de objetos visuales de la página, es más probable que se actualicen en serie. Esto aumenta el tiempo necesario para actualizar toda la página y también la posibilidad de que los objetos visuales puedan mostrar resultados incoherentes (para orígenes de datos volátiles). Por estos motivos, se recomienda limitar el número de objetos visuales de cualquier página y, en su lugar, tener páginas más sencillas. El reemplazo de varios objetos visuales de tarjeta por un solo objeto visual de tarjeta de varias filas puede lograr un diseño de página similar.
@@ -105,7 +105,7 @@ Además de la lista anterior de técnicas de optimización, cada una de las func
 
 - **Filtros de medidas:** los objetos visuales que contienen medidas (o agregados de columnas) pueden tener filtros aplicados a dichas medidas. Por ejemplo, el objeto visual siguiente muestra **Sales** (Ventas) por **Category** (Categoría), pero solo para aquellas categorías con más de 15 millones de dolares de ventas.
 
-    ![Un objeto visual de tabla tiene dos columnas: Categoría y ventas. El panel Filtros revela un filtro en la medida Ventas para valores mayores de 15 millones de dolares. La tabla tiene tres filas y cada fila tiene un valor de Ventas mayor de 15 millones de dolares.](media/directquery-model-guidance/directquery-model-guidance-example-measure-filter.png)
+    ![Captura de pantalla de Power BI Desktop en la que se muestran datos tabulares con filtros aplicados.](media/directquery-model-guidance/directquery-model-guidance-example-measure-filter.png)
     
     
     Esto puede dar lugar a que se envíen dos consultas al origen subyacente:

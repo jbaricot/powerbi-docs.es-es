@@ -8,18 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 18dc88404b84e786bfee0a15ac169a6e0c1496e4
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940166"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162376"
 ---
 # <a name="microsofts-bi-transformation"></a>Transformación de la BI de Microsoft
 
 Este artículo se dirige a los profesionales y administradores de TI. Conocerá nuestra estrategia y visión de BI, que nos permite aprovechar continuamente nuestros datos como recurso. También aprenderá a impulsar correctamente una referencia cultural de datos de toma de decisiones empresariales con Power BI.
 
-Alguna información previa primero: En la actualidad, la explosión de datos afecta a los consumidores y a las empresas a velocidades de vértigo. Para tener éxito en este entorno con un uso intensivo de datos se requieren analistas y ejecutivos que puedan sintetizar una enorme cantidad de datos en conclusiones concisas. Las innovaciones en las herramientas de BI de Microsoft han revolucionado la forma en que Microsoft explora sus datos y obtiene las conclusiones adecuadas que se necesitan para impulsar el impacto en la empresa.
+Alguna información previa primero: En la actualidad, la explosión de datos afecta a los consumidores y a las empresas a velocidades de vértigo. Para tener éxito en este entorno con un uso intensivo de datos se requieren analistas y ejecutivos que puedan sintetizar una enorme cantidad de datos en conclusiones concisas. Las innovaciones en las herramientas de BI de Microsoft han cambiado la forma en que Microsoft explora sus datos y obtiene las conclusiones adecuadas que se necesitan para impulsar el impacto en la empresa.
 
 Por lo tanto, ¿cómo puede su organización revolucionar también la manera en que trabaja con los datos? Para ayudarle a comprenderlo, vamos a contarle la historia de nuestro recorrido de transformación de BI.
 

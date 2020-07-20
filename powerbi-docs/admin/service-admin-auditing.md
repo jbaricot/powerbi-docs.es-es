@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782406"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161730"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Seguimiento de actividades de usuario en Power BI
 
@@ -157,13 +157,13 @@ Puede buscar registros por intervalo de fechas mediante el campo **Fecha de inic
 
 Recibirá un error si el intervalo de fechas seleccionado es superior a 90 días. Si usa el intervalo de fechas máximo de 90 días, debe seleccionar la hora actual en la **fecha de inicio**. De lo contrario, aparece un error que indica que la fecha de inicio es anterior a la fecha de finalización. Si ha activado la auditoría durante los 90 últimos días, el intervalo de fechas no puede empezar antes de la fecha de activación de la auditoría.
 
-![Captura de pantalla de la búsqueda de registros de auditoría con las opciones de fecha de inicio y fecha de finalización resaltadas.](media/service-admin-auditing/search-audit-log-by-date.png)
+![Captura de pantalla de la búsqueda de registros de auditoría con las opciones Fecha de inicio y Fecha de finalización resaltadas.](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ### <a name="search-the-audit-logs-by-users"></a>Buscar en los registros de auditoría por usuario
 
 Puede buscar entradas del registro de auditoría para actividades realizadas por usuarios específicos. Escriba uno o varios nombres de usuario en el campo **Usuarios**. El nombre de usuario es similar a una dirección de correo electrónico. Es la cuenta con la que los usuarios inician sesión en Power BI. Si deja este cuadro en blanco, se devolverán las entradas de todos los usuarios (y las cuentas de servicio) de la organización.
 
-![Búsqueda por usuarios](media/service-admin-auditing/search-audit-log-by-user.png)
+![Captura de pantalla de la búsqueda de registros de auditoría con los usuarios resaltados.](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ### <a name="view-search-results"></a>Ver los resultados de la búsqueda
 
@@ -198,7 +198,7 @@ Para exportar el registro de auditoría de Power BI a un archivo .csv, siga esto
 
 1. Seleccione **Save loaded results** (Guardar resultados cargados) o **Download all results** (Descargar todos los resultados).
 
-    ![Captura de pantalla de la opción Exportar resultados.](media/service-admin-auditing/export-auditing-results.png)
+    ![Captura de pantalla de la opción Exportar resultados con Descargar todos los resultados destacado.](media/service-admin-auditing/export-auditing-results.png)
 
 ### <a name="use-powershell-to-search-audit-logs"></a>Uso de PowerShell para buscar registros de auditoría
 

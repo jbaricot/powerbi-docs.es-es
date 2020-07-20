@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b110dceb7427e3aeefe8e7ef48e579943a7e6f3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228457"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161362"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Visualización y administración de licencias de usuario de Power BI
 
@@ -35,7 +35,7 @@ Para ver las suscripciones de Power BI de las que dispone su organización, sig
 
 Las suscripciones de Power BI activas se muestran junto con cualquier otra suscripción que tenga. Es posible que vea una suscripción inesperada para Power BI (gratis), como se muestra aquí.
 
-  ![Suscripción de Power BI gratis activada por el usuario](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
+  ![Captura de pantalla de la suscripción de Power BI, en la que se muestra una suscripción gratuita.](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
 Este tipo de suscripción se crea automáticamente cuando los usuarios aprovechan el registro de autoservicio. Para obtener más información, consulte [Power BI en su organización](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
 

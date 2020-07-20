@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 03/04/2020
-ms.openlocfilehash: a6cb8575ef5265264cf0c15c4cfcfc4207726a07
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 07/08/2020
+ms.openlocfilehash: 34f4265444d030902474c740dda91f8431d36625
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565589"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216523"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparación de Power BI Report Server y el servicio Power BI
 
@@ -50,7 +50,8 @@ Power BI Report Server y el servicio Power BI tienen muchas similitudes y alguna
 | Seguridad de nivel de fila (RLS) | Sí | Sí | Disponible en DirectQuery (origen de datos) y en el modo de importación <br><br>Seguridad de nivel de fila (RLS) en el [servicio Power BI](../admin/service-admin-rls.md) <br><br>Seguridad de nivel de fila (RLS) en [Power BI Report Server](row-level-security-report-server.md) |
 | Modo de pantalla completa | No | Sí | [Modo de pantalla completa](../consumer/end-user-focus.md) en el servicio Power BI |
 | Colaboración de Microsoft 365 avanzada | No | Sí | [Colaboración en un área de trabajo](../collaborate-share/service-collaborate-power-bi-workspace.md) con Microsoft 365 |
-| Objetos visuales de R | No | Sí | [Cree objetos visuales de R](../create-reports/desktop-r-visuals.md) en Power BI Desktop y publíquelos en el servicio Power BI. No se pueden guardar los informes de Power BI con objetos visuales de R en Power BI Report Server.  |
+| Scripts y objetos visuales de R | No | Sí | [Cree objetos visuales de R](../create-reports/desktop-r-visuals.md) y ejecute scripts de R en Power BI Desktop, y publíquelos en el servicio Power BI. No se pueden guardar los informes de Power BI con objetos visuales o scripts de R en Power BI Report Server.  |
+| Scripts y objetos visuales de Python | No | Sí | [Cree scripts de Python](../connect-data/desktop-python-scripts.md) y objetos visuales en Power BI Desktop y publíquelos en el servicio Power BI. No se pueden guardar los informes de Power BI con objetos visuales o scripts de Python en Power BI Report Server. |
 | Características en vista previa | No | Sí | [Participación en las características de versión preliminar del servicio Power BI](../consumer/end-user-preview-features.md) |
 | Objetos visuales de Power BI | Sí | Sí | [Objetos visuales de Power BI](../developer/visuals/power-bi-custom-visuals.md) |
 | Modelos compuestos | No | Sí |

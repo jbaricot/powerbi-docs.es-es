@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 3d1c1919b5a940bc4ed6c5b0de9bd0af6444af00
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6cddfd820da45de6141b698b8cb6e3c2bfc68069
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220066"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264891"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Establecer alertas de datos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -37,14 +37,14 @@ Puede establecer alertas en los iconos si tiene una licencia de Power BI Pro o s
 ### <a name="set-an-alert-on-an-iphone-or-ipad"></a>Establecer una alerta en un iPhone o iPad
 1. Pulse un icono de número o medidor en un panel para abrirlo en modo enfocado.  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
-2. Pulse el icono de campana ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) para agregar una alerta.  
+   ![Captura de pantalla de un panel, en el que se muestra el icono de medidor en modo de enfoque.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
+2. Pulse el icono de la campana ![en Icono de campana](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) para agregar una alerta.  
 3. Pulse **Agregar regla de alertas**.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
+   ![Captura de pantalla de la regla de alerta en la que se muestra que no se ha establecido ninguna alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
 4. Elija recibir alertas cuando se esté por encima o por debajo de un valor y, a continuación, establezca el valor.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-set-alert-threshold.png)
+   ![Captura de pantalla de la configuración de alertas, en la que se muestran el título y el valor de alerta que se va a establecer](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-set-alert-threshold.png)
 5. Decida si desea recibir alertas cada hora o cada día y si desea recibir además un correo electrónico cuando reciba la alerta.
    
    > [!NOTE]
@@ -55,32 +55,32 @@ Puede establecer alertas en los iconos si tiene una licencia de Power BI Pro o s
 7. Puntee en **Guardar**.
 8. Un solo icono puede contener alertas para los valores que estén por encima y por debajo de los umbrales. En **Administrar alertas**, pulse **Agregar regla de alertas**.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
+   ![Captura de pantalla de Administrar alertas, en la que se muestra un puntero a Agregar una regla de alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>Administrar alertas en su dispositivo iPhone o iPad
 Puede administrar las alertas individualmente en su dispositivo móvil o [administrar todas las alertas en el servicio Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. En un panel, pulse un icono de número o medidor que tenga una alerta.  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+   ![Captura de pantalla del panel, en la que se muestra el icono de número con una alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
 
-2. Pulse el icono de la campana ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png).  
+2. Pulse el icono de la campana ![en Icono de campana](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png).  
 3. Pulse el nombre de la alerta para editarla, pulse el control deslizante para desactivar las alertas de correo electrónico o pulse la papelera para eliminar la alerta.
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
+    ![Captura de pantalla de una alerta, que apunta al nombre de la alerta, la papelera para eliminar la alerta y el control deslizante para desactivarla.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
 
 ## <a name="data-alerts-on-an-android-device"></a>Alertas de datos en un dispositivo Android
 ### <a name="set-an-alert-on-an-android-device"></a>Establecer una alerta en un dispositivo Android
 1. En un panel de Power BI, pulse en un número o icono medidor para abrirlo.  
-2. Pulse el icono de campana ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) para agregar una alerta.  
+2. Pulse el icono de la campana ![en Icono de campana](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) para agregar una alerta.  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
+   ![Captura de pantalla del panel, en la que se muestra el icono de número con una alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
 3. Pulse el icono del signo más (+).
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
+   ![Captura de pantalla de Administrar alertas, en la que se muestra un puntero al icono del signo más.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
 4. Elija recibir alertas por encima o por debajo de un valor y escriba el valor.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tablet-set-alert-condition.png)
+   ![Captura de pantalla de la configuración de alerta, en la que se muestran punteros a Guardar y Listo.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tablet-set-alert-condition.png)
 5. Pulse **Hecho**.
 6. Decida si desea recibir alertas cada hora o cada día y si desea recibir además un correo electrónico cuando reciba la alerta.
    
@@ -95,12 +95,12 @@ Puede administrar las alertas individualmente en su dispositivo móvil o [admini
 Puede administrar las alertas individuales en su aplicación móvil de Power BI o [administrar todas las alertas en el servicio Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. En un panel, pulse un icono de carta o medidor que tenga una alerta.  
-2. Pulse el icono de campana de color sólido ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
+2. Pulse el icono de campana de color sólido ![en Icono de campana](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
 3. Pulse la alerta para cambiar un valor o desactivarla.
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
+    ![Captura de pantalla del icono Administrar alerta, en la que se muestra el icono de signo más para agregar una alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
 4. Pulse el icono de signo más (+) para agregar otra alerta para el mismo icono.
-5. Para eliminar por completo la alerta, pulse el icono de papelera ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png).
+5. Para eliminar por completo la alerta, pulse el icono de la papelera ![Icono Papelera](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png).
 
 ## <a name="data-alerts-on-a-windows-device"></a>Alertas de datos en un dispositivo Windows
 
@@ -109,15 +109,15 @@ Puede administrar las alertas individuales en su aplicación móvil de Power BI 
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>Establecer alertas de datos en un dispositivo Windows
 1. Pulse un icono de número o medidor en un panel para abrirlo.  
-2. Pulse el icono de campana ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) para agregar una alerta.  
+2. Pulse el icono de la campana ![en Icono de campana](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) para agregar una alerta.  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
+   ![Captura de pantalla del panel, en la que se muestra el icono de número con una alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
 3. Pulse el icono del signo más (+).
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
+   ![Captura de pantalla de Administrar alertas, en la que se muestra que no se ha establecido ninguna.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
 4. Elija recibir alertas por encima o por debajo de un valor y escriba el valor.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-set-alert.png)
+   ![Captura de pantalla de la configuración de alertas, en la que se muestran las entradas para editar la alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-set-alert.png)
 5. Decida si desea recibir alertas cada hora o cada día y si desea recibir además un correo electrónico cuando reciba la alerta.
    
    > [!NOTE]
@@ -128,18 +128,18 @@ Puede administrar las alertas individuales en su aplicación móvil de Power BI 
 7. Pulse la marca de verificación.
 8. Un solo icono puede contener alertas para los valores que estén por encima y por debajo de los umbrales. En **Administrar alertas**, pulse el signo más (+).
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
+   ![Captura de pantalla de Administrar alertas, en la que se muestra el icono de signo más para agregar una alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>Administrar alertas en un dispositivo Windows
 Puede administrar las alertas individuales en su aplicación móvil de Power BI o [administrar todas las alertas en el servicio Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. En un panel, pulse un icono de carta o medidor que tenga una alerta.  
-2. Pulse el icono de la campana ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
+2. Pulse el icono de la campana ![en Icono de campana](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
+   ![Captura de pantalla del panel, en la que se muestra el icono de número con una alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
 3. Pulse la alerta para cambiar un valor o desactivarla.
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
+    ![Captura de pantalla de Administrar alertas, en la que se muestra el icono de signo más para agregar una alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 4. Para eliminar por completo la alerta, haga clic con el botón derecho o mantenga seleccionado > **Eliminar**.
 
 ## <a name="receiving-alerts"></a>Recibir alertas
@@ -152,7 +152,7 @@ Los orígenes de datos se configuran a menudo para actualizarse diariamente, aun
    Siempre que los datos superen el umbral, obtendrá una alerta cada hora o cada 24 horas.
 2. Si ha configurado la alerta para que se envíe un correo electrónico, encontrará algo parecido a esto en su bandeja de entrada.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
+   ![Captura de pantalla de una notificación por correo electrónico en la que se muestra la alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
 3. Power BI agrega un mensaje al [centro de notificaciones](mobile-apps-notification-center.md) y un punto de color amarillo al icono de campana ![icono de campana](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) en la barra de título (iOS y Android) o al botón de navegación global ![botón de navegación global](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (dispositivos Windows 10).
 
 

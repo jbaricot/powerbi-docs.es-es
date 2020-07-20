@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 644966663ea9d53b34861f1b33b2cab8f5fcee31
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7cc8a159139cc53a0e243134b31305dff95812d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223675"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216444"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Conexión a SAP Business Warehouse mediante DirectQuery en Power BI
 Puede conectarse a los orígenes de datos de **SAP Business Warehouse (BW)** directamente mediante **DirectQuery**. Dada la naturaleza multidimensional/de procesamiento analítico en línea de SAP BW, existen muchas diferencias importantes entre DirectQuery a través de SAP BW frente a los orígenes relacionales como SQL Server. Estas diferencias se resumen como sigue:
@@ -42,13 +42,13 @@ Las restricciones de modelado adicionales principales al conectarse a SAP BW med
 Las restricciones adicionales principales relativas a las visualizaciones al conectarse a SAP BW mediante DirectQuery en Power BI son las siguientes:
 
 * **No se permite la agregación de columnas:** no es posible cambiar la agregación de una columna en un objeto visual; es siempre *No resumir*
-* **El filtrado de medidas está deshabilitado:** El filtrado de medidas se deshabilita para reflejar la compatibilidad que ofrece SAP BW.
+* **El filtrado de medidas está deshabilitado:** el filtrado de medidas se deshabilita para reflejar la compatibilidad que ofrece SAP BW.
 * **Selección múltiple e inclusión/exclusión:** la capacidad de selección múltiple de puntos de datos en un objeto visual se deshabilita si los puntos representan valores de más de una columna. Por ejemplo, en un gráfico de barras que muestra las ventas por país, con Category en la leyenda, no sería posible seleccionar el punto de (USA, Bikes) y (France, Clothes). De forma similar, no sería posible seleccionar el punto de (USA, Bikes) y excluirlo del objeto visual. Ambas limitaciones se admiten para reflejar la compatibilidad que ofrece SAP BW.
 
 ## <a name="support-for-sap-bw-features"></a>Compatibilidad con las características de SAP BW
 En la tabla siguiente se enumera todas las características de SAP BW que no son totalmente compatibles, o que se comportarán de forma diferente cuando se usa Power BI.   
 
-| Característica | Description |
+| Característica | Descripción |
 | --- | --- |
 | Cálculos locales |Los cálculos locales definidos en una consulta BEx cambiará los números como muestran herramientas como BEx Analyzer. Sin embargo, no se reflejan en los números que devuelve SAP, a través de la interfaz pública de MDX. <br/> <br/> **Por lo tanto, los números que se ven en un objeto visual de Power BI no necesariamente coincidirán con los de un objeto visual correspondiente en una herramienta SAP.**<br/> <br/>  Por ejemplo, al conectar con un cubo de consultas desde una consulta BEx que establece que la agregación sea acumulada (es decir, suma continua), Power BI devolvería los números base sin tener en cuenta dicha opción.  A partir de ahí, un analista puede aplicar un cálculo de suma continua localmente en Power BI, pero tendría que tener cuidado con respecto a la forma en que se interpretan los números si no se hace. |
 | Agregaciones |En algunos casos (especialmente cuando se trabaja con varias monedas), los números de agregado que devuelve la interfaz pública de SAP no coinciden con los que muestran las herramientas SAP. <br/> <br/> **Por lo tanto, los números que se ven en un objeto visual de Power BI no necesariamente coincidirán con los de un objeto visual correspondiente en una herramienta SAP.** <br/> <br/> Por ejemplo, los totales en distintas monedas se mostrarían como "*" en BEx Analyzer, pero el total lo devolvería la interfaz pública de SAP, sin ninguna información que indique que dicho número de agregado no tiene sentido. Por consiguiente, Power BI mostraría el número (agregando, por ejemplo, $, EUR y AUD). |
@@ -56,7 +56,7 @@ En la tabla siguiente se enumera todas las características de SAP BW que no son
 | Unidades de medida |Las unidades de medida (por ejemplo, 230 KG) no se reflejan en Power BI. |
 | Clave frente a texto (corta, media, larga) |En el caso de una característica de SAP BW como CostCenter, la lista de campos mostrará una sola columna Cost Center.  Si se usa dicha columna, se mostrará el texto predeterminado.  Al mostrar los campos ocultos, también se podrá ver la columna de nombre único (que devuelve el nombre único asignado por SAP BW y es la base de la unicidad).<br/> <br/>  La clave y otros campos de texto no están disponibles. |
 | Varias jerarquías de una característica |En **SAP**, una característica puede tener varias jerarquías. A continuación, en herramientas como BEx Analyzer, cuando una característica se incluye en una consulta, el usuario puede seleccionar la jerarquía que se va a usar. <br/> <br/> En **Power BI**, las distintas jerarquías se pueden ver en la lista de campos como jerarquías diferentes en la misma dimensión.  Sin embargo, si se seleccionan varios niveles de dos jerarquías diferentes en la misma dimensión, SAP devolverá datos vacíos. |
-| Tratamiento de las jerarquías desiguales |![](media/desktop-directquery-sap-bw/directquery-sap-bw_01.png) |
+| Tratamiento de las jerarquías desiguales |![Captura de pantalla de contenido desigual, en el que se muestra Tratamiento de las jerarquías desiguales.](media/desktop-directquery-sap-bw/directquery-sap-bw_01.png) |
 | Factor de escala/invertir signo |En SAP, una cifra clave puede tener un factor de escala (por ejemplo, 1000) definido como opción de formato, lo que significa que todo lo que se muestra se escalará por dicho valor. <br/> <br/> De forma similar puede tener una propiedad establecida que invierta el signo. El uso de dicha cifra clave en Power BI (en un objeto visual o como parte de un cálculo) provocará que se use el número sin escala (y que el signo no se invierta). El factor de escala subyacente no está disponible. En los objetos visuales de Power BI, las unidades de escalado que se muestran en el eje (K, M, B) se pueden controlar del formato del objeto visual. |
 | Jerarquías en las que aparecen y desaparecen niveles dinámicamente |Inicialmente al establecer conexión con SAP BW, se recuperará la información acerca de los niveles de una jerarquía, lo que generará un conjunto de campos en la lista de campos. Esto se almacena en la memoria caché y si el conjunto de niveles cambia, el conjunto de campos no cambia hasta que se invoca la actualización. <br/> <br/> Esto solo se puede hacer en **Power BI Desktop**. Dicha actualización para reflejar los cambios en los niveles no se puede invocar en el servicio Power BI después de la publicación. |
 | Filtro predeterminado |Una consulta BEx puede incluir filtros predeterminados, que SAP BEx Analyzer se aplicará automáticamente. Dichos filtro no se exponen y, por consiguiente, el uso equivalente en Power BI no aplicará los mismos filtros de forma predeterminada. |

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 806fb9fffccaffee62d8cafb00dc94b5ad7b0def
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ef9c39f6c00738718d88dd485430b150ad95ec50
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220894"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216335"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Actualización de un conjunto de datos creado a partir de un libro de Excel en una unidad local
 ## <a name="whats-supported"></a>¿Qué es compatible?
@@ -39,7 +39,7 @@ En Power BI, se admite la actualización inmediata y la programación de actuali
 > 
 
 ## <a name="how-do-i-make-sure-data-is-loaded-to-the-excel-data-model"></a>¿Cómo puedo asegurarme de que los datos se cargan en el modelo de datos de Excel?
-Si usa Power Query (Obtener y transformar del menú Datos en Excel 2016) para conectarse a un origen de datos, tiene varias opciones de ubicación donde cargar los datos. Para asegurarse de que los datos se cargan en el modelo de datos, debe seleccionar la opción **Agregar estos datos al modelo de datos** en el cuadro de diálogo **Cargar en**.
+Si usa Power Query (Obtener y transformar del menú Datos en Excel 2016) para conectarse a un origen de datos, tiene varias opciones de ubicación donde cargar los datos. Para asegurarse de que los datos se cargan en el modelo de datos, debe seleccionar la opción **Agregar estos datos al modelo de datos** en el cuadro de diálogo **Cargar en** .
 
 > [!NOTE]
 > Las imágenes que aquí se muestran corresponden a Excel 2016.
@@ -47,13 +47,13 @@ Si usa Power Query (Obtener y transformar del menú Datos en Excel 2016) para co
 > 
 
 En **Navegador**, haga clic en **Cargar en...**  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
+    ![Captura de pantalla de Cargar en Navegador, con la selección de Cargar en.](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-O bien, si hace clic en **Editar** en Navegador, se abrirá el Editor de consultas. Puede hacer clic en **Cerrar y cargar en**.  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
+O bien, si hace clic en **Editar** en Navegador, se abrirá el Editor de consultas. Puede hacer clic en **Cerrar y cargar en...**  
+    ![Captura de pantalla de la pestaña Inicio de Navegador, con la selección de Cerrar y cargar en.](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
 A continuación, en **Cargar en**, asegúrese de seleccionar **Agregar estos datos al modelo de datos**.  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
+    ![Captura de pantalla del cuadro de diálogo Cargar en, con la casilla Agregar estos datos al modelo de datos activada.](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>¿Qué ocurre si utilizo Obtener datos externos en Power Pivot?
 No hay problema. Siempre que usa Power Pivot para conectarse a datos y consultarlos desde un origen de datos local o en línea, los datos se cargan automáticamente en el modelo de datos.

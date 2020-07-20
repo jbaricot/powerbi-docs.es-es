@@ -1,7 +1,7 @@
 ---
 title: Generador de informes de Power BI
 description: Power BI Report Builder es una herramienta para crear informes paginados.
-ms.date: 06/29/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782745"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216742"
 ---
 # <a name="power-bi-report-builder"></a>Generador de informes de Power BI
 
@@ -22,9 +22,7 @@ ms.locfileid: "85782745"
  
 ¿Está listo para empezar a crear? [Instale Power BI Report Builder](https://aka.ms/pbireportbuilder) desde el Centro de descarga de Microsoft.
 
-¿Prefiere aprender de los vídeos? Consulte la serie de vídeos sobre los informes paginados de Power BI en YouTube de Chris Finlan, jefe principal de programas de Power BI.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/78TZeiEhveY?list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ" frameborder="0" allowfullscreen></iframe>
+¿Prefiere aprender de los vídeos? Consulte el [curso basado en vídeo: Informes paginados de Power BI en un día](../learning-catalog/paginated-reports-online-course.md).
 
 El informe paginado siguiente muestra una matriz con grupos de filas y columnas, minigráficos, indicadores y un gráfico circular de resumen en la celda de la esquina, acompañada de un mapa con dos conjuntos de datos geográficos representados por el color y el tamaño del círculo.  
 
@@ -63,4 +61,4 @@ El informe paginado siguiente muestra una matriz con grupos de filas y columnas,
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [¿Qué son los informes paginados en Power BI Premium?](paginated-reports-report-builder-power-bi.md)
-- Vea la [serie de vídeos sobre los informes paginados de Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) en YouTube de Chris Finlan, jefe principal de programas de Power BI.
+- [Curso basado en vídeo: Informes paginados de Power BI en un día](../learning-catalog/paginated-reports-online-course.md)

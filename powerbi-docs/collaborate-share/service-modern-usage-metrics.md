@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ee5536f2c4026ceb019c5f89b6045afd44b35529
-ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
+ms.openlocfilehash: 380fe94a123c26d7502ce68bc21372f791a3508f
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85299627"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162052"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Supervisión de las métricas de uso en la nueva experiencia de área de trabajo
 
@@ -82,7 +82,7 @@ El informe de métricas de uso mejorado incluye las siguientes páginas:
 | Uso de informes | Espectadores únicos | Un espectador es alguien que abrió el informe al menos una vez durante el período de tiempo (en función de la cuenta de usuario de AAD). |
 | Uso de informes | Visualización de la tendencia | La tendencia de la vista refleja los cambios en el recuento de vistas con el tiempo. En ella se compara la primera mitad del período seleccionado con la segunda mitad. |
 | Uso de informes | Segmentación de fecha | Puede cambiar el período en la página de uso del informe para calcular, por ejemplo, las tendencias de semana en semana o cada dos semanas. En la esquina inferior izquierda de la página de uso del informe, puede determinar la fecha más antigua y más reciente en que los datos de uso están disponibles para el informe seleccionado. |
-| Uso de informes | Clasificación | Según el recuento de vistas, la clasificación muestra la popularidad de un informe en comparación con todos los demás informes de la organización.   |
+| Uso de informes | Clasificación | Según el recuento de vistas, la clasificación muestra la popularidad de un informe en comparación con todos los demás informes de la organización. Una clasificación de 1 significa que el informe es el que más vistas tiene de todos los de la organización.   |
 | Uso de informes | Vistas de informe por día | Número total de vistas por día. |
 | Uso de informes | Espectadores únicos por día | Número total de usuarios diferentes que han visto el informe (según la cuenta de usuario de AAD). |
 | Uso de informes | Método de distribución | Cómo obtuvieron los usuarios acceso al informe, por ejemplo, por ser miembros de un área de trabajo, por tener el informe compartido con ellos o por instalar una aplicación. |
@@ -258,6 +258,8 @@ Además de las diferencias anteriores entre los informes de métricas de uso ant
 - La inicialización del conjunto de datos de informe de métricas de uso puede tardar unos minutos, lo que hace que se muestre un informe de métricas de uso en blanco porque la interfaz de usuario de Power BI no espera a que termine la actualización. Compruebe el historial de actualización en la configuración del conjunto de datos de informe de métricas de uso para comprobar que la operación de actualización se realizó correctamente.
 - La inicialización del conjunto de datos de informe de métricas de uso podría dar error debido a que se encontró que el tiempo de espera se había agotado durante la actualización. Consulte la sección de solución de problemas a continuación para resolver este problema.
 - El uso compartido está deshabilitado para el informe de métricas de uso. Para proporcionar a los usuarios acceso de lectura al informe, primero debe concederles acceso al área de trabajo.
+- En algunos escenarios, es posible que observe que faltan los datos de rendimiento. Esto puede ocurrir si un usuario abre un informe e interactúa con él antes de que se haya completado la carga o si se ha producido un error durante la carga del informe.
+- Los datos de rendimiento se basan en el cliente o dispositivo que envía los datos a Power BI. En función de la latencia de red, los bloqueadores de anuncios, los firewalls y las reglas de red establecidas por la organización, es posible que los datos de rendimiento nunca lleguen a Power BI. Por tanto, los datos de rendimiento solo pueden presentar una muestra y no pueden incluir o mostrar todos los usuarios. 
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
@@ -309,7 +311,7 @@ La plataforma indica la tecnología que usa un espectador para abrir un informe:
 
 **P:** ¿Cómo funciona la clasificación del informe?
 
-**R:** Según el recuento de vistas, la clasificación muestra la popularidad de un informe en comparación con todos los demás informes de la organización.
+**R:** Según el recuento de vistas, la clasificación muestra la popularidad de un informe en comparación con todos los demás informes de la organización. Una clasificación de 1 significa que el informe es el que más vistas tiene de todos los de la organización.
 
 **P:** ¿Quiénes son los "usuarios sin nombre"?
 

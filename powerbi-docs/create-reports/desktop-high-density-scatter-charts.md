@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4166c734dd89acdc50967aee90b6a268546a383a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c744b7b9b0ec15258214c9c7e27332eb4a49ead4
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83338556"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86262927"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Muestreo de alta densidad en los gráficos de dispersión de Power BI
 Desde la versión de septiembre de 2017 de **Power BI Desktop** y las actualizaciones del **servicio Power BI**, hay disponible un nuevo algoritmo de muestreo que mejora cómo se representan los datos de alta densidad en los gráficos de dispersión.
 
 Por ejemplo, podría crear un gráfico de dispersión de la actividad de ventas de la organización, cada almacén con decenas de miles de puntos de datos de cada año. Un gráfico de dispersión de dicha información realizará un muestreo de los datos (seleccionando una representación significativa de los datos para ilustrar cómo se producen las ventas a través del tiempo) a partir de los datos disponibles y creará un gráfico de dispersión que representa los datos subyacentes. Esta es una práctica habitual en los gráficos de dispersión de alta densidad. Power BI ha mejorado el muestreo de datos de alta densidad, cuyos detalles se describen en este artículo.
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
+![Captura de pantalla de un gráfico de dispersión, en el que se muestran datos de muestreo de alta densidad.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
 
 > [!NOTE]
 > El algoritmo de **muestreo de alta densidad** que se describe en este artículo está disponible en los gráficos de dispersión, tanto para **Power BI Desktop** como para el **servicio Power BI**.
@@ -59,17 +59,17 @@ Hay circunstancias en las que el **muestreo de alta densidad** no se puede aplic
 
 * Si hace clic con el botón derecho en un valor en **Detalles** y lo establece en **Mostrar elementos sin datos** en el menú, el gráfico de dispersión volverá al algoritmo original.
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
+  ![Captura de pantalla del menú Visualización, en el que se muestra el panel Detalles con la selección de Mostrar elementos sin datos.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
 * Cualquier valor en el eje **Reproducir** dará como resultado que el gráfico de dispersión vuelva al algoritmo original.
 * Si faltan los ejes X e Y en un gráfico de dispersión, el gráfico vuelve al algoritmo original.
 * El uso de una **línea de relación** en el panel **Análisis** hace que el gráfico se revierte al algoritmo original.
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
+  ![Captura de pantalla del menú Visualización, en el que se muestra un puntero al panel Análisis y la línea de proporción.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Activación del muestreo de alta densidad para un gráfico de dispersión
 Para activar el **muestreo de alta densidad**, seleccione un gráfico de dispersión, vaya al panel **Formato**, expanda la tarjeta **General** y, cerca de la parte inferior de la tarjeta, deslice el control deslizante **Muestreo de alta densidad** a **Activar**.
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
+![Captura de pantalla del menú Visualización, en el que se muestra un puntero al panel Formato, la tarjeta General y el control deslizante Muestreo de alta densidad.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
 
 > [!NOTE]
 > Una vez que el control deslizante está activado, Power BI intentará usar el algoritmo de **muestreo de alta densidad** siempre que sea posible. Cuando el algoritmo no se puede usar (por ejemplo, si se coloca un valor en el eje *Reproducir*), el control deslizante permanece en la posición **Activado** aunque el gráfico se haya revertido al algoritmo estándar. Si después quita un valor del eje *Reproducir* (o cambian las condiciones para habilitar el uso del algoritmo de muestreo de alta densidad), el gráfico usará automáticamente el muestreo de alta densidad para ese gráfico porque la característica está activa.

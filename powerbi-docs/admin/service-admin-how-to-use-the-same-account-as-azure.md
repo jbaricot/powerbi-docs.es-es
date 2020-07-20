@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4f1f8947827500ec89d189e17f8ab2189caaff93
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fe93fa3f41cf1c340b31ce3c6f817f842f3039ff
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138980"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161661"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Uso de la misma cuenta para Power BI y Azure
 
@@ -32,7 +32,7 @@ Puede agregar su cuenta de la organización como coadministrador en Azure median
 
 1. En el panel de navegación, seleccione **Control de acceso (IAM)** y, luego, **Agregar** \> **Agregar coadministrador**.
 
-    ![Adición de un coadministrador en Azure Portal](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
+    ![Captura de pantalla del control de acceso con Agregar coadministrador destacado.](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
 
 1. Escriba la dirección de correo electrónico asociada a su cuenta de la organización y seleccione **Agregar**.
 

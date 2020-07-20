@@ -8,17 +8,17 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: davidi
-ms.openlocfilehash: 49b7d1129f73e146db1e34b1ec7d39a176cb37ed
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 44add6bf76e5bc4445df08a76859e05c8fa1638d
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228911"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86160879"
 ---
 # <a name="administrators-manage-the-power-bi-desktop-sign-in-form"></a>Administradores: Administrar el formulario de inicio de sesión de Power BI Desktop
 La primera vez que se inicia Power BI Desktop, aparece un formulario de inicio de sesión. Se puede rellenar la información o iniciar sesión en Power BI para continuar. Los administradores administran este formulario mediante una clave de registro. 
 
-![Formulario de inicio de sesión inicial para Power BI Desktop](media/desktop-admin-sign-in-form/sign-in-form.png)
+![Captura de pantalla de un formulario de inicio de sesión inicial para Power BI Desktop.](media/desktop-admin-sign-in-form/sign-in-form.png)
 
 Los administradores usan la siguiente clave de registro para deshabilitar el formulario de inicio de sesión. Esto también se puede desarrollar en toda la organización mediante directivas globales.
 

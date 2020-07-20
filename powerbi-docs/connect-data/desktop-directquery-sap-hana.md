@@ -9,23 +9,23 @@ ms.topic: how-to
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f121d4fb4e60fc29ef887d27c148aa3063dcee82
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4d2c48f39fff9cd55243848b2ee62d05f9d5db00
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223698"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216399"
 ---
 # <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>Conexión a orígenes de datos SAP HANA mediante DirectQuery en Power BI
 Puede conectarse a los orígenes de datos de **SAP HANA** directamente mediante **DirectQuery**. Hay dos opciones para conectarse a SAP HANA:
 
-* **Tratar SAP HANA como un origen multidimensional (opción predeterminada):** En este caso, el comportamiento es similar a cuando Power BI se conecta a otros orígenes multidimensionales, como SAP Business Warehouse o Analysis Services. Al conectarse a SAP HANA con esta configuración, se selecciona una única vista de análisis o cálculo, y todas las medidas, jerarquías y atributos de esa vista estarán disponibles en la lista de campos. A medida que se creen objetos visuales, los datos agregados se recuperarán siempre de SAP HANA. Este método, que es el recomendado, es el método predeterminado para los informes nuevos de DirectQuery en SAP HANA.
+* **Tratar SAP HANA como un origen multidimensional (opción predeterminada):**  En este caso, el comportamiento es similar a cuando Power BI se conecta a otros orígenes multidimensionales, como SAP Business Warehouse o Analysis Services. Al conectarse a SAP HANA con esta configuración, se selecciona una única vista de análisis o cálculo, y todas las medidas, jerarquías y atributos de esa vista estarán disponibles en la lista de campos. A medida que se creen objetos visuales, los datos agregados se recuperarán siempre de SAP HANA. Este método, que es el recomendado, es el método predeterminado para los informes nuevos de DirectQuery en SAP HANA.
 
 * **Tratar SAP HANA como origen relacional:** en este caso, Power BI trata SAP HANA como un origen relacional. Este escenario ofrece una mayor flexibilidad. Sin embargo, es necesario tener cuidado con este enfoque para garantizar que las medidas se agregan del modo esperado y para evitar problemas de rendimiento.
 
 El enfoque de conexión viene determinado por una opción de herramienta global, que se configura al seleccionar **Archivo > Opciones y configuración** y **Opciones > DirectQuery**, y luego la opción **Tratar SAP HANA como origen relacional**, como se ve en la imagen siguiente. 
 
-![](media/desktop-directquery-sap-hana/directquery-sap-hana_01a.png)
+![Captura de pantalla del cuadro de diálogo Opciones, en el que se muestran las opciones de DirectQuery.](media/desktop-directquery-sap-hana/directquery-sap-hana_01a.png)
 
 La opción para tratar SAP HANA como un origen relacional controla el método usado para todos los informes *nuevos* que usen DirectQuery en SAP HANA. No surte efecto en las conexiones de SAP HANA existentes en el informe actual ni en las conexiones de otros informes que estén abiertas. Por tanto, si la opción está actualmente desactivada, al agregar una nueva conexión a SAP HANA mediante la opción **Obtener datos**, esta se establecerá tratando SAP HANA como origen multidimensional. Sin embargo, si se abre un informe diferente que también se conecta a SAP HANA, ese informe seguirá comportándose de acuerdo con la opción que se estableció *en el momento de creación*, lo que significa que los informes que se conectan a SAP HANA creados antes de febrero de 2018 seguirá tratando a SAP HANA como un origen relacional. 
 
@@ -84,7 +84,7 @@ Al elegir la opción de conectarse a SAP HANA como un origen relacional, hay dis
 
 Resulta útil comenzar aclarar el comportamiento de un origen relacional como SQL Server, cuando la consulta definida en **Obtener datos** o en el **Editor de consultas** realiza una agregación. En el ejemplo siguiente, una consulta definida en el **Editor de consultas** devuelve el precio medio por *ProductID*.  
 
-![](media/desktop-directquery-sap-hana/directquery-sap-hana_01.png)
+![Diagrama en el que se muestra una consulta definida en el Editor de consultas que devuelve el precio medio por id. de producto.](media/desktop-directquery-sap-hana/directquery-sap-hana_01.png)
 
 Si se va a importar los datos en Power BI (frente al uso de DirectQuery), el resultado sería el siguiente:
 
@@ -112,7 +112,7 @@ Al utilizar DirectQuery sobre SAP HANA, es necesario tener en cuenta las siguien
   
 Veamos un ejemplo. En el ejemplo siguiente, la selección de cinco columnas (**CalendarQuarter**, **Color**, **LastName**, **ProductLine**, **SalesOrderNumber**) en el cuadro de diálogo **Obtener datos**, junto con la medida *OrderQuantity*, supondrá que la posterior creación de un objeto visual sencillo que contiene la medida mínima de OrderQuantity dé como resultado la siguiente consulta de SQL a SAP HANA. La parte sombreada es la subselección, que contiene la consulta de **Obtener datos** / **Editor de consultas**. Si esta subselección ofrece un resultado de cardinalidad alto, entonces es probable que el rendimiento resultante de SAP HANA sea bajo.  
 
-![](media/desktop-directquery-sap-hana/directquery-sap-hana_03.png)
+![Captura de pantalla de un ejemplo de consulta, en la que se muestra la consulta SQL a SAP HANA.](media/desktop-directquery-sap-hana/directquery-sap-hana_03.png)
 
    
 Debido a este comportamiento, se recomienda limitar los elementos seleccionados en **Obtener datos** o en el **Editor de consultas** a aquellos elementos que sean necesarios, pero siempre que el resultado sea una consulta razonable para SAP HANA.  

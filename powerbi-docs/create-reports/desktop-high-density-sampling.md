@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 344b041b8cca3e6ed4be1f40c0e783df18315679
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a41af59873aa8e0504e7ee808a2e87dba1af1121
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324641"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86262883"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Muestreo de líneas de alta densidad en Power BI
 Desde la versión de junio de 2017 de **Power BI Desktop** y las actualizaciones al **servicio Power BI**, hay disponible un nuevo algoritmo de muestreo que mejora los objetos visuales con muestreos de datos de alta densidad. Por ejemplo, puede crear un gráfico de líneas a partir de los resultados de ventas de las tiendas, cada tienda con más de diez mil recibos de ventas cada año. Un gráfico de líneas de dicha información de ventas realizará un muestreo de los datos (se selecciona una representación significativa de los datos para ilustrar cómo varían las ventas a través del tiempo) a partir de los datos de cada tienda, y creará un gráfico de líneas de varias series que, por lo tanto, representa los datos subyacentes. Esta es una práctica habitual al visualizar datos de alta densidad. Power BI Desktop ha mejorado el muestreo de datos de alta densidad, cuyos detalles se describen en este artículo.
 
-![](media/desktop-high-density-sampling/high-density-sampling_01.png)
+![Captura de pantalla de los gráficos de líneas, en la que se muestran datos de muestreo de alta densidad.](media/desktop-high-density-sampling/high-density-sampling_01.png)
 
 > [!NOTE]
 > El algoritmo de **muestreo de alta densidad** que se describe en este artículo está disponible tanto en **Power BI Desktop** como en el **servicio Power BI**.
@@ -77,7 +77,7 @@ Esta situación aparece con frecuencia en la información sobre herramientas. Lo
 ## <a name="how-to-turn-on-high-density-line-sampling"></a>Cómo activar el muestreo de líneas de alta densidad
 De forma predeterminada, el nuevo algoritmo está **activado**. Para cambiar este valor, vaya al panel **Formato**, en la tarjeta **General** y, en la parte inferior, verá un control deslizante llamado **Muestreo de alta densidad**. Para desactivar esta función, cámbiela a **Desactivar**.
 
-![](media/desktop-high-density-sampling/high-density-sampling_02.png)
+![Captura de pantalla de un muestreo de líneas de alta densidad, con punteros al panel Formato, General y Muestreo de alta densidad.](media/desktop-high-density-sampling/high-density-sampling_02.png)
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 El nuevo algoritmo para el muestreo de líneas de alta densidad es una mejora importante en Power BI, pero hay algunas consideraciones que debe conocer a la hora de trabajar con datos y valores de alta densidad.

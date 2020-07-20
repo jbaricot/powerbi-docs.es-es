@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9632bfaecc524aac95ec524cccb59ba08a7bc21f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 68f2dc14b713345796ba0472fc3d55f6baedf819
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229066"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263200"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Adición de una columna a partir de ejemplos en Power BI Desktop
 Con *Agregar columna a partir de los ejemplos* en el Editor de Power Query, se pueden agregar columnas nuevas al modelo de datos simplemente proporcionando uno o más valores de ejemplo para las columnas nuevas. Se pueden crear los nuevos ejemplos de columnas a partir de una selección, o bien proporcionar entradas basadas en todas las columnas existentes en la tabla.
 
-![](media/desktop-add-column-from-example/add-column-from-example_01.png)
+![Captura de pantalla del Editor de Power Query, en el que se muestra cómo agregar una columna a partir de los ejemplos de Power BI Desktop.](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
 El uso de *Agregar columna a partir de los ejemplos* permite crear columnas nuevas de forma más rápida y sencilla, y es muy útil para estas situaciones:
 
@@ -165,4 +165,3 @@ Al usar **Agregar columna a partir de los ejemplos**, hay muchas transformacione
 - Sumar
 - Tangente
 - Creación de depósitos y rangos
-

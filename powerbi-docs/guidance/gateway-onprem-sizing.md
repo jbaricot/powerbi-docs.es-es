@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: e1a24d8d15881bf8a1948d91758c7592f75ea7ac
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485953"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214216"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Ajuste de tamaño de la puerta de enlace de datos local
 
@@ -33,7 +33,7 @@ La carga de trabajo de _datos en caché_ recupera y transforma los datos de orig
 1. **Recuperación y transformación de datos**: los datos se recuperan y, cuando es necesario, se transforman. Siempre que sea posible, el motor de mashup de Power Query inserta pasos de transformación en el origen de datos, lo que se conoce como _[plegado de consultas](power-query-folding.md)_ . Cuando no es posible, las transformaciones deben hacerse mediante la puerta de enlace. En este caso, la puerta de enlace consumirá más recursos de CPU y memoria.
 1. **Transferencia**: los datos se transfieren al servicio Power BI: se necesita una conexión a Internet confiable y rápida, en especial con grandes volúmenes de datos.
 
-![En un diagrama se muestra la puerta de enlace de datos local que se conecta a los orígenes locales: base de datos relacional, libro de Excel y archivos CSV. La puerta de enlace recupera y transforma los datos.](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
+![Diagrama de datos en caché en el que se muestra la puerta de enlace de datos local que se conecta a los orígenes locales.](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
 
 ### <a name="live-connection-and-directquery-workloads"></a>Cargas de trabajo de conexión dinámica y DirectQuery
 
@@ -46,7 +46,7 @@ Esta carga de trabajo requiere recursos de CPU para el enrutamiento y los result
 
 Es importante una conectividad confiable, rápida y coherente para garantizar que los usuarios de informes tengan experiencias que respondan.
 
-![En un diagrama se muestra la puerta de enlace de datos local que se conecta a los orígenes locales: Base de datos tabular y relacional de Analysis Services. La puerta de enlace funciona principalmente en modo de paso a través.](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
+![Diagrama de Conexión dinámica y DirectQuery en el que se muestra la puerta de enlace de datos local que se conecta a los orígenes locales.](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
 
 ## <a name="sizing-considerations"></a>Consideraciones de tamaño
 

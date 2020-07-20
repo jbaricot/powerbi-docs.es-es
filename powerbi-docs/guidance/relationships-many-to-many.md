@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c2351fe5032ba91fa6c0f964bd844ef479b05
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532428"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216683"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Instrucciones para relaciones de varios a varios
 
@@ -35,20 +35,20 @@ El modelado de estas entidades es sencillo. En una tabla de tipo de dimensión s
 
 Este es un sencillo diagrama de modelo de las tres tablas.
 
-![Un diagrama de modelos contiene tres tablas. En el párrafo siguiente se describe el diseño.](media/relationships-many-to-many/bank-account-customer-model-example.png)
+![Diagrama en el que se muestra un modelo que contiene tres tablas. En el párrafo siguiente se describe el diseño.](media/relationships-many-to-many/bank-account-customer-model-example.png)
 
 La primera tabla se denomina **Account** (Cuenta) y contiene dos columnas: **AccountID** (IdDeCuenta) y **Account** (Cuenta). La segunda tabla se denomina **AccountCustomer** (ClienteCuenta) y contiene dos columnas: **AccountID** (IdDeCuenta) y **CustomerID** (IdDeCliente). La tercera tabla se denomina **Customer** (Cliente) y contiene dos columnas: **CustomerID** (IdDeCliente) y **Customer** (Cliente). No existen relaciones entre ninguna de las tablas.
 
 Se agregan dos relaciones uno a varios para relacionar las tablas. Este es un diagrama de modelo actualizado de las tablas relacionadas. Se ha agregado una tabla de tipo de hechos denominada **Transaction** (Transacción). Registra las transacciones de las cuentas. Se han ocultado la tabla de puente y todas las columnas de identificador.
 
-![Ahora el diagrama de modelo contiene cuatro tablas. Se han agregado relaciones uno a varios para relacionar todas las tablas.](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
+![Diagrama en el que se muestra que ahora el modelo contiene cuatro filas. Se han agregado relaciones uno a varios para relacionar todas las tablas.](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
 
 Para facilitar la descripción del funcionamiento de la propagación del filtro de relaciones, se ha modificado el diagrama del modelo para mostrar las filas de la tabla.
 
 > [!NOTE]
 > No es posible mostrar filas de tabla en el diagrama de modelo de Power BI Desktop. En este artículo se hace para complementar la explicación con ejemplos claros.
 
-![Ahora el diagrama del modelo muestra las filas de la tabla. En el párrafo siguiente se describen los detalles de las filas.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![Diagrama en el que se muestra que ahora el modelo muestra las filas de la tabla. En el párrafo siguiente se describen los detalles de las filas.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 Los detalles de las filas de las cuatro tablas se describen en la siguiente lista con viñetas:
 
@@ -71,7 +71,7 @@ A continuación se verá lo que sucede cuando se consulta el modelo.
 
 A continuación se muestran dos objetos visuales que resumen la columna **Amount** de la tabla **Transaction**. El primer objeto visual agrupa por cuenta y, por tanto, la suma de las columnas **Amount** representa el _saldo de cuenta_. El segundo objeto visual agrupa por cliente y, por tanto, la suma de las columnas **Amount** representa el _saldo del cliente_.
 
-![Dos objetos visuales de informe en paralelo. En el párrafo siguiente se describen los objetos visuales.](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
+![Diagrama en el que se muestran dos objetos visuales de informe en paralelo. En el párrafo siguiente se describen los objetos visuales.](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
 
 El nombre del primer objeto visual es **Account Balance** (Saldo de la cuenta) y tiene dos columnas: **Account** (Cuenta) y **Amount** (Cantidad). Muestra el resultado siguiente:
 
@@ -91,9 +91,9 @@ Pero parece que algo no es correcto en el objeto visual **Customer Balance**. Ca
 
 Siga las direcciones del filtro de relaciones desde la tabla **Customer** a la tabla**Transaction**. Debe ser evidente que la relación entre la tabla **Account** y **AccountCustomer** se propaga en la dirección equivocada. La dirección del filtro para esta relación se debe establecer en **Ambos**.
 
-![El diagrama del modelo se ha actualizado. Se ha realizado un solo cambio en la relación entre la tabla Account y AccountCustomer. Ahora se filtra en ambas direcciones.](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
+![Diagrama en el que se muestra que el modelo se ha actualizado. Ahora se filtra en ambas direcciones.](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
 
-![Los dos mismos objetos visuales de informe en paralelo. El primer objeto visual no ha cambiado. El segundo objeto visual revela otro resultado, que se describe en los párrafos siguientes.](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
+![Diagrama en el que se muestran los dos mismos objetos visuales de informe en paralelo. El primer objeto visual no ha cambiado, mientras que el segundo sí.](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
 
 Como se esperaba, no ha habido ningún cambio en el objeto visual **Account Balance**.
 
@@ -131,13 +131,13 @@ El segundo tipo de escenario de varios a varios implica la relación de dos tabl
 
 Considere un ejemplo con dos tablas de tipo de hechos: **Order** (Pedido) y **Fulfillment** (Suministro). La tabla **Order** contiene una fila por línea de pedido y la tabla **Fulfillment** puede contener cero o más filas por línea de pedido. Las filas de la tabla **Order** representan pedidos de venta. Las filas de la tabla **Fulfillment** representan los artículos de pedidos que se han enviado. Una relación varios a varios relaciona las dos columnas **OrderID**, y el filtro solo se propaga desde la tabla **Order** (**Order** filtra **Fulfillment**).
 
-![Un diagrama de modelos contiene dos tablas: Order y Fulfillment. Una relación de varios a varios relaciona las dos columnas OrderID, y realiza el filtrado de Order a Fulfillment.](media/relationships-many-to-many/order-fulfillment-model-example.png)
+![Diagrama en el que se muestra un modelo que contiene dos tablas: Order y Fulfillment.](media/relationships-many-to-many/order-fulfillment-model-example.png)
 
 La cardinalidad de relación se establece en varios a varios para admitir el almacenamiento de valores **OrderID** duplicados en las dos tablas. En la tabla **Order** pueden existir valores **OrderID** duplicados porque un pedido puede tener varias líneas. En la tabla **Fulfillment** pueden existir valores **OrderID** duplicados porque los pedidos pueden tener varias líneas, y las líneas de pedido se pueden cumplir con varios envíos.
 
 A continuación se examinarán las filas de la tabla. En la tabla **Fulfillment**, observe que varios pedidos se pueden cumplir mediante varios envíos. (La ausencia de una línea de pedido significa que el pedido todavía no se ha cumplido).
 
-![Ahora el diagrama del modelo muestra las filas de la tabla. En el párrafo siguiente se describen los detalles de las filas.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![Diagrama en el que se muestra que ahora el modelo muestra las filas de la tabla. En el párrafo siguiente se describen los detalles de las filas.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 Los detalles de las filas de las dos tablas se describen en la siguiente lista con viñetas:
 
@@ -155,7 +155,7 @@ Los detalles de las filas de las dos tablas se describen en la siguiente lista c
 
 A continuación se verá lo que sucede cuando se consulta el modelo. A continuación se muestra un objeto visual de tabla en el que se comparan las cantidades de pedidos y de cumplimiento por la columna **OrderID** de la tabla **Order**.
 
-![Un objeto visual de tabla tiene tres columnas: OrderID, OrderQuantity y FulfillmentQuantity. Hay tres filas, una para cada pedido. OrderID 2 y 3 no se han cumplido de forma completa.](media/relationships-many-to-many/order-fulfillment-model-queried.png)
+![Diagrama en el que se muestra un objeto visual de tabla con tres columnas: OrderID, OrderQuantity y FulfillmentQuantity.](media/relationships-many-to-many/order-fulfillment-model-queried.png)
 
 El objeto visual presenta un resultado exacto. Pero la utilidad del modelo es limitada: solo se puede filtrar o agrupar por la columna **OrderID** de la tabla **Order**.
 
@@ -167,7 +167,7 @@ En lugar de relacionar directamente tablas de tipos de hechos, se recomienda ado
 
 A continuación se considerará una solución mejor.
 
-![Un diagrama de modelo incluye seis tablas: OrderLine, OrderDate, Order, Fulfillment, Product y FulfillmentDate. Todas las tablas están relacionadas. En el párrafo siguiente se describe el diseño.](media/relationships-many-to-many/order-fulfillment-model-improved.png)
+![Diagrama en el que se muestra un modelo con seis tablas: OrderLine, OrderDate, Order, Fulfillment, Product y FulfillmentDate.](media/relationships-many-to-many/order-fulfillment-model-improved.png)
 
 Tenga en cuenta los siguientes cambios de diseño:
 
@@ -192,11 +192,11 @@ Este escenario de varios a varios es muy diferente de los otros dos que ya se ha
 
 A continuación se verá un ejemplo en el que se incluyen cuatro tablas: **Date** (Fecha), **Sales** (Ventas), **Product** (Producto) y **Target** (Destino). **Date** y **Product** son tablas de tipo de dimensión, y las relaciones de uno a varios las relacionan con la tabla de tipo de hechos **Sales**. Hasta ahora, representa un buen diseño de esquema de estrella. Pero la tabla **Target** todavía se tiene que relacionar con las demás tablas.
 
-![Un diagrama de modelo incluye cuatro tablas: Date, Sales, Product y Target. La tabla Target no está relacionada con ninguna otra. En el párrafo siguiente se describe el diseño.](media/relationships-many-to-many/sales-targets-model-example.png)
+![Diagrama en el que se muestra un modelo con cuatro tablas: Date, Sales, Product y Target.](media/relationships-many-to-many/sales-targets-model-example.png)
 
 La tabla **Target** contiene tres columnas: **Category**, **TargetQuantity** y **TargetYear**. Las filas de la tabla revelan una granularidad de año y categoría de producto. En otras palabras, los destinos, que se usan para medir el rendimiento de las ventas, se establecen cada año para cada categoría de producto.
 
-![La tabla Target tiene tres columnas: TargetYear, Category y TargetQuantity. Seis filas registran los destinos para 2019 y 2020, para tres categorías cada uno.](media/relationships-many-to-many/sales-targets-model-target-rows.png)
+![Diagrama en el que se muestra la tabla Target con tres columnas: TargetYear, Category y TargetQuantity.](media/relationships-many-to-many/sales-targets-model-target-rows.png)
 
 Como en la tabla **Target** se almacenan datos en un nivel superior al de las tablas de tipo de dimensión, no se puede crear una relación de uno a varios. Bueno, es cierto para una sola de las relaciones. A continuación se verá cómo se puede relacionar la tabla **Target** con las tablas de tipo de dimensión.
 
@@ -211,7 +211,7 @@ Pero debe tener cuidado para asegurarse de que los filtros de nivel de mes o de 
 
 En el siguiente objeto visual de matriz se muestra lo que sucede cuando el usuario del informe profundiza en los meses de un año. El objeto visual resume la columna **TargetQuantity**. (La opción [Mostrar elementos sin datos](../create-reports/desktop-show-items-no-data.md) se ha habilitado para las filas de la matriz).
 
-![Un objeto visual de matriz muestra la cantidad de destino del año 2020 como 270. Cuando se expande para mostrar los meses de 2020, enero es 270 y todas las demás cantidades de destino de nivel mensual están en blanco.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
+![Diagrama en el que se muestra un objeto visual de matriz donde la cantidad de destino del año 2020 es 270.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
 Para evitar este comportamiento, se recomienda controlar el resumen de los datos de hechos mediante medidas. Una manera de controlar el resumen consiste en devolver un valor en blanco cuando se consultan los períodos de tiempo de nivel inferior. Otra manera, definida con sofisticadas funciones DAX, consiste en es prorratear los valores en períodos de tiempo de nivel inferior.
 
@@ -228,7 +228,7 @@ IF(
 
 El siguiente objeto visual de matriz usa ahora la medida **Target Quantity** (Cantidad de destino). Muestra que todas las cantidades de destino mensuales están en blanco.
 
-![Un objeto visual de matriz muestra la cantidad de destino del año 2020 como 270. Cuando se expande para mostrar los meses de 2020, todas las cantidades de destino de nivel mensual están en blanco.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![Diagrama en el que se muestra un objeto visual de matriz donde la cantidad de destino del año 2020 es 270.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>Relación con un nivel de detalle más alto (distinto de fechas)
 
@@ -236,21 +236,21 @@ Al relacionar una columna que no sea de fecha de una tabla de tipo de dimensión
 
 Las columnas **Category** (de las tablas **Product** y **Target**) contienen valores duplicados. Por tanto, no hay ningún "uno" para una relación de uno a varios. En este caso, tendrá que crear una relación de varios a varios. La relación debe propagar los filtros en una sola dirección, desde la tabla de tipo de dimensión a la de tipo de hechos.
 
-![Un fragmento de diagrama del modelo muestra las tablas Target y Product. Una relación de varios a varios relaciona las dos tablas. La dirección del filtro es desde Product a Target.](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
+![Diagrama en el que se muestra un modelo de las tablas Target y Product. Una relación de varios a varios relaciona las dos tablas.](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
 
 A continuación se examinarán las filas de la tabla.
 
-![Un diagrama de modelos contiene dos tablas: Target y Product. Una relación de varios a varios relaciona las dos columnas Category. En el párrafo siguiente se describen los detalles de las filas.](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
+![Diagrama en el que se muestra un modelo que contiene dos tablas: Target y Product. Una relación de varios a varios relaciona las dos columnas Category.](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
 
 En la tabla **Target** hay cuatro filas: dos para cada año de destino (2019 y 2020) y dos categorías (ropa y accesorios). En la tabla **Product** hay tres productos. Dos pertenecen a la categoría de ropa y uno a la de accesorios. Uno de los colores de la ropa es el verde y los dos restantes son azules.
 
 Un objeto visual de tabla que agrupe por la columna **Category** de la tabla **Product** genera el resultado siguiente.
 
-![Un objeto visual de tabla tiene dos columnas: Category y TargetQuantity. Accessories es 60, Clothing es 40 y el total es 100.](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
+![Diagrama en el que se muestra un objeto visual de tabla con dos columnas: Category y TargetQuantity. Accessories es 60, Clothing es 40 y el total es 100.](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
 
 Este objeto visual genera el resultado correcto. Ahora se verá qué sucede cuando se usa la columna **Color** de la tabla **Product** para agrupar la cantidad de destino.
 
-![Un objeto visual de tabla tiene dos columnas: Color y TargetQuantity. Blue es 100, Green es 40 y el total es 100.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
+![Diagrama en el que se muestra un objeto visual de tabla con dos columnas: Color y TargetQuantity. Blue es 100, Green es 40 y el total es 100.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
 
 El objeto visual genera una representación incorrecta de los datos. ¿Qué sucede aquí?
 
@@ -272,11 +272,11 @@ IF(
 
 El siguiente objeto visual de tabla usa ahora la medida **Target Quantity** (Cantidad de destino). Muestra que todas las cantidades de destino de color están en blanco.
 
-![Un objeto visual de tabla tiene dos columnas: Color y TargetQuantity. Blue está en blanco, Green está en blanco y el total es 100.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
+![Diagrama en el que se muestra un objeto visual de tabla con dos columnas: Color y TargetQuantity. Blue está en blanco, Green está en blanco y el total es 100.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
 
 El diseño final del modelo es similar al siguiente.
 
-![El diagrama del modelo muestra que las tablas Date y Target se relacionan con una relación de uno a varios. Las tablas Product y Target están relacionadas con una relación de varios a varios, y se filtra de Product a Target.](media/relationships-many-to-many/sales-targets-model-example-final.png)
+![Diagrama en el que se muestra un modelo donde las tablas Date y Target tienen una relación de uno a varios.](media/relationships-many-to-many/sales-targets-model-example-final.png)
 
 ### <a name="relate-higher-grain-facts-guidance"></a>Instrucciones para la relación de hechos con un nivel de detalle más alto
 

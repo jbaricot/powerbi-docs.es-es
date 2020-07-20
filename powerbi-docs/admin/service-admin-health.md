@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 610fe7ea2188d40d42ab91a355df68bc07bb0d84
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3b3faab2a01a00e09560d39e850f40d0672a5863
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228518"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161178"
 ---
 # <a name="track-power-bi-service-health-in-microsoft-365"></a>Seguimiento del estado del servicio Power BI en Microsoft 365
 
@@ -38,7 +38,7 @@ Para más información sobre los roles, consulte [Administración de Power BI e
 
 1. Para obtener más información, seleccione **Mostrar detalles** para un elemento. En la captura de pantalla siguiente, puede ver detalles adicionales, incluidas las actualizaciones de estado recientes.
 
-    ![Captura de pantalla de los detalles del aviso.](media/service-admin-health/advisory-details.png)
+    ![Captura de pantalla de Detalles de avisos, en la que se muestra información adicional.](media/service-admin-health/advisory-details.png)
 
     Desplácese hacia abajo para ver más información y, a continuación, cierre el panel cuando haya terminado.
 

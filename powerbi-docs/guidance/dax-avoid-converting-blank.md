@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6b130016bf4514b817edbf8c91cfb24d2063e6f1
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279650"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215459"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: Impedimento de la conversión de BLANK en valores
 
@@ -47,7 +47,7 @@ Además, si hay demasiadas agrupaciones, los usuarios de los informes podrían s
 
 Veamos lo que sucede cuando se agrega la medida **Profit Margin** a un objeto visual de tabla, agrupando por cliente.
 
-![Un objeto visual de tabla tiene tres columnas: Customer (Cliente), Sales (Ventas) y Profit Margin (Margen de beneficio). La tabla muestra aproximadamente 10 filas de datos, pero la barra de desplazamiento vertical indica que hay muchas más filas que se podrían mostrar. La columna Sales no muestra ningún valor. La columna Profit Margin muestra solo cero.](media/dax-avoid-converting-blank/table-visual-poor.png)
+![Captura de pantalla de Power BI Desktop con una tabla de datos con una fila por cliente. Los valores de ventas están en blanco y los valores de margen de beneficio son cero por ciento. ](media/dax-avoid-converting-blank/table-visual-poor.png)
 
 El objeto visual de tabla muestra un enorme número de filas (en realidad hay 18 484 clientes en el modelo, por lo que la tabla intenta mostrarlos todos). Tenga en cuenta que los clientes de la vista no han conseguido ninguna venta. Pero como la medida **Profit Margin** siempre devuelve un valor, estos se muestran.
 
@@ -63,7 +63,7 @@ DIVIDE([Profit], [Sales])
 
 El objeto visual de tabla ahora muestra solo los clientes que han tenido ventas en el contexto de filtro actual. La medida mejorada da como resultado una experiencia más eficaz y práctica para los usuarios de los informes.
 
-![El mismo objeto visual de tabla ahora muestra cuatro filas de datos. Cada fila es para un cliente que tiene un valor de ventas y los valores de Profit Margin no son cero.](media/dax-avoid-converting-blank/table-visual-good.png)
+![Captura de pantalla de Power BI Desktop con un objeto visual de tabla de datos con contenido filtrado.](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
 > Si es necesario, puede configurar un objeto visual para mostrar todas las agrupaciones (que devuelven valores o en blanco) dentro del contexto de filtro habilitando la opción [Mostrar elementos sin datos](../create-reports/desktop-show-items-no-data.md).
@@ -80,4 +80,3 @@ Para más información sobre este artículo, consulte los recursos siguientes:
 
 - [Referencia de expresiones de análisis de datos (DAX)](/dax/)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

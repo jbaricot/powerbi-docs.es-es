@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9e19216f9e080d73cf0965ad430dcc4839bdc617
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 11389b5986d0dd627b0077808a74db5ab2769a65
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348560"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216304"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Conexión a Azure Search con Power BI
 Azure Search Traffic Analytics permite supervisar y comprender el tráfico al servicio Azure Search. El paquete de contenido de Azure Search para Power BI proporciona información detallada sobre los datos de búsqueda, que incluye la búsqueda, la indexación, las estadísticas del servicio y la latencia de los últimos 30 días. Puede encontrar más detalles en la [entrada de blog de Azure](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).
@@ -26,22 +26,22 @@ Conéctese al [paquete de contenido de Azure Search](https://app.powerbi.com/get
 ## <a name="how-to-connect"></a>Cómo conectarse
 1. Seleccione **Obtener datos** en la parte inferior del panel de navegación.
    
-   ![](media/service-connect-to-azure-search/pbi_getdata.png) 
+   ![Captura de pantalla de Obtener datos de Power BI Desktop, donde se muestra el botón del panel de navegación.](media/service-connect-to-azure-search/pbi_getdata.png) 
 2. En el cuadro **Servicios** , seleccione **Obtener**.
    
-   ![](media/service-connect-to-azure-search/pbi_getservices.png) 
+   ![Captura de pantalla del cuadro de diálogo Servicios, en el que se muestra el botón Obtener.](media/service-connect-to-azure-search/pbi_getservices.png) 
 3. Seleccione **Azure Search** \> **Obtener**.
    
-   ![](media/service-connect-to-azure-search/azuresearch.png)
+   ![Captura de pantalla del cuadro de diálogo Servicios de Azure, en el que se muestra el vínculo Obtener.](media/service-connect-to-azure-search/azuresearch.png)
 4. Proporcione el nombre de la cuenta de Table Storage donde está almacenado el análisis de Azure Search.
    
-   ![](media/service-connect-to-azure-search/params.png)
+   ![Captura de pantalla del cuadro de diálogo Conectar con Azure Search, donde se muestra el campo Nombre de la cuenta de almacenamiento de Azure.](media/service-connect-to-azure-search/params.png)
 5. Seleccione **Clave** como mecanismo de autenticación y proporcione la clave de cuenta de almacenamiento. Haga clic en **Iniciar sesión** e inicie el proceso de carga.
    
-   ![](media/service-connect-to-azure-search/creds.png)
+   ![Captura de pantalla del cuadro de diálogo Conectar con Azure Search, en el que se muestra que se ha escrito Clave en el campo Método de autenticación.](media/service-connect-to-azure-search/creds.png)
 6. Cuando se complete la carga, aparecerán un nuevo panel, un informe y un modelo en el panel de navegación. Seleccione el panel para ver los datos importados.
    
-    ![](media/service-connect-to-azure-search/dashboard2.png)
+    ![Captura de pantalla del panel de navegación, en la que muestran el panel, el informe y el modelo.](media/service-connect-to-azure-search/dashboard2.png)
 
 **¿Qué más?**
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c40ba6827e788a51402b3aa22497b5ddde1bcdc2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9ebc5857248b2d8c764262e2f27559c1960e1884
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240405"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263300"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introducción a la aplicación móvil de Power BI para Windows 10
 La aplicación móvil de Power BI para Windows 10 lleva Power BI a la tableta o el teléfono. Dispone de acceso móvil táctil y actualizado a la información de la empresa. Vea los paneles de la empresa e interactúe con ellos desde cualquier lugar, directamente en la [pantalla Inicio de Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -67,12 +67,12 @@ Puede ver e interactuar con los ejemplos de paneles de Power BI. Pero hay alguna
 
 ### <a name="reporting-services-mobile-report-samples"></a>Ejemplos de informes móviles de Reporting Services
 1. Pulse el botón de navegación global ![botón de navegación global](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) en la esquina superior izquierda.
-2. Pulse el icono **Configuración**![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), haga clic con el botón derecho o pulse y mantenga pulsado **Conectarse al servidor** y luego **Ver ejemplos**.
+2. Pulse el icono **Configuración**![icono Configuración](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), haga clic con el botón derecho o pulse y mantenga pulsado **Conectarse al servidor** y luego **Ver ejemplos**.
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
+   ![Captura de la pantalla Configuración, en la que se muestra un puntero desde el icono de configuración a Conectarse al servidor.](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. Abra la carpeta Informes de venta directa o Informes de ventas para explorar los KPI e informes móviles.
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
+   ![Captura de pantalla de un informe, en la que se muestran los KPI e informes móviles.](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
 
 ## <a name="search-for-dashboards-reports-and-apps"></a>Buscar paneles, informes y aplicaciones
 Para encontrar sus paneles, informes y aplicaciones rápidamente, escriba en el cuadro de búsqueda, siempre en la parte superior de la aplicación.

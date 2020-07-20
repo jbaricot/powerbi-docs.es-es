@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 59cb62a9186da03a265fc3a8711d7275c3772af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 39eef27e746e636ddb331d28a930c1cd0dca0a5d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75623070"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214916"
 ---
 # <a name="disable-power-query-background-refresh"></a>Deshabilitación de la actualización en segundo plano de Power Query
 
@@ -28,19 +28,19 @@ Pero cuando el archivo de Power BI Desktop contiene muchas consultas, la recupe
 
 Para lograr una actualización más rápida, establezca el archivo de Power BI Desktop para actualizar la caché de vista previa _en segundo plano_. Para habilitarlo En Power BI Desktop, seleccione _Archivo > Opciones y configuración > Opciones_ y, después, seleccione la página _Carga de datos_. Después, puede activar la opción **Permitir que se descargue la vista previa de datos en segundo plano**. Tenga en cuenta que esta opción solo se puede establecer para el archivo actual.
 
-![Opciones de datos en segundo plano de Power BI Desktop](media/power-query-background-refresh/power-query-options-background-data.png)
+![Captura de pantalla de Power BI Desktop con las opciones de Datos en segundo plano.](media/power-query-background-refresh/power-query-options-background-data.png)
 
 La habilitación de la actualización en segundo plano puede dar lugar a que los datos de vista previa estén desactualizados. En ese caso, el Editor de Power Query le notificará la siguiente advertencia:
 
-![Advertencia del Editor de Power Query sobre datos de vista previa antiguos](media/power-query-background-refresh/power-query-preview-data-old.png)
+![Captura de pantalla de Power BI Desktop en la que se muestra la Advertencia del Editor de Power Query sobre datos de vista previa antiguos.](media/power-query-background-refresh/power-query-preview-data-old.png)
 
 Siempre se puede actualizar la caché de vista previa. Puede actualizarla para una sola consulta o para todas mediante el comando **Actualizar vista previa**. Lo encontrará en la cinta **Inicio** de la ventana del Editor de Power Query.
 
-![Comandos del Editor de Power Query para actualizar los datos de vista previa](media/power-query-background-refresh/power-query-refresh-preview-data.png)
+![Captura de pantalla de Power BI Desktop en la que se muestran Comandos del Editor de Power Query para actualizar los datos de vista previa.](media/power-query-background-refresh/power-query-refresh-preview-data.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
 - [Documentación de Power Query](/power-query/)
-- ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

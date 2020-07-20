@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 25b5665aa531c347d43a197b53938aec569b9d2d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: aed09a9cd26452a03363e8606e45938715595558
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812183"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161684"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administración de Power BI: preguntas más frecuentes (P+F)
 
@@ -130,7 +130,7 @@ Use el siguiente script de PowerShell para deshabilitar las suscripciones ad hoc
      connect-msolservice -credential $msolcred
     ```
 
-   ![Captura de pantalla del inicio de sesión de Azure Active Directory a través de PowerShell](media/service-admin-licensing-organization/azure-ad-sign-in.png)
+   ![Captura de pantalla del inicio de sesión de Azure Active Directory a través de PowerShell.](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
 1. Después de iniciar sesión, ejecute el comando siguiente para ver cómo está configurado actualmente el inquilino.
 

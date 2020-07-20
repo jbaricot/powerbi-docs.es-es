@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 62beab136dce53c7a3412eb5e2a4ec6470d14ec2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e2144cc7460ea2eff84bbcc1e93f02c99d650b35
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220917"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216376"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Actualización de un conjunto de datos almacenado en OneDrive o SharePoint Online
 Importar archivos desde OneDrive o SharePoint Online en el servicio Power BI es una excelente manera de asegurarse de que el trabajo que está realizando en Power BI Desktop permanece sincronizado con el servicio Power BI.
@@ -25,11 +25,11 @@ Cuando almacena un archivo de Power BI Desktop en OneDrive o SharePoint Onlin
 
 Para realizar una actualización manual única directamente en Power BI Desktop, seleccione **Actualizar** en la cinta de opciones **Inicio**. Cuando se selecciona **Actualizar**, se actualiza el modelo del archivo con los datos actualizados del origen de datos original. Este tipo de actualización ocurre por completo dentro de la propia aplicación de Power BI Desktop. Es diferente de una actualización programada o manual en Power BI, y es importante comprender la diferencia.
 
-![](media/refresh-desktop-file-onedrive/pbix-refresh.png)
+![Captura de pantalla de la cinta Inicio de Power BI Desktop, donde se muestra la selección de Actualizar.](media/refresh-desktop-file-onedrive/pbix-refresh.png)
 
 Al importar el archivo de Power BI Desktop desde OneDrive o SharePoint Online, los datos y otra información acerca del modelo se cargan en un conjunto de datos en Power BI. Desea actualizar el conjunto de datos en el servicio Power BI porque eso es en lo que se basan los informes. Dado que los orígenes de datos son externos, puede actualizar manualmente el conjunto de datos mediante **Actualizar ahora** o bien puede configurar una programación de actualización mediante **Programar actualización**. 
 
-![](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
+![Captura de pantalla del conjunto de datos en Power BI Desktop, donde se muestra la selección de Programar actualización.](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
 
 Al actualizar el conjunto de datos, Power BI no se conecta al archivo en OneDrive o SharePoint Online para consultar los datos actualizados. Utiliza la información del conjunto de datos para conectarse directamente a los orígenes de datos y consultar los datos actualizados. A continuación, carga datos en el conjunto de datos. Estos datos actualizados en el conjunto de datos no se vuelven a sincronizar con el archivo en OneDrive o SharePoint Online.
 
@@ -58,7 +58,7 @@ La conexión a OneDrive para la Empresa en Power BI es fácil porque su cuenta 
 
 Si inicia sesión con su cuenta Microsoft, asegúrese de seleccionar **Mantener la sesión iniciada**. Posteriormente, Power BI podrá sincronizar todas las actualizaciones que realice en el archivo en Power BI Desktop con los conjuntos de datos de Power BI.
 
-![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
+![Captura de pantalla del cuadro de diálogo Iniciar sesión, con la casilla Mantener la sesión iniciada activada.](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
 
 Si ha cambiado sus credenciales de Microsoft, no puede sincronizar los cambios entre el archivo en OneDrive y el conjunto de datos en Power BI. Tendrá que conectarse a OneDrive e importar el archivo de nuevo desde ahí.
 
@@ -81,4 +81,4 @@ A veces, la actualización de datos no funciona según lo previsto. Normalmente 
 
 [Solución de problemas de Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-¿Tiene más preguntas? Pruebe a preguntar a la [Comunidad de Power BI](https://community.powerbi.com/).
+¿Tiene más preguntas? Pruebe a preguntar a la [comunidad de Power BI](https://community.powerbi.com/).

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4d01c7c8b57dda6667ffcd744a7d914ff936b09
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bc1c9987205e86ee9a123bf8ba9afd567c59ff52
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231055"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264709"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Optimización de un panel para teléfonos móviles: Power BI 
 Al ver los paneles en modo vertical en un teléfono, observará que los iconos del panel se colocan uno tras otro y tienen todos el mismo tamaño. En el servicio Power BI puede crear una vista personalizada de un panel, específicamente para el modo vertical de los teléfonos. Incluso si crea una vista para teléfono, al poner el teléfono en modo horizontal, verá el panel como se ha diseñado en el servicio.
@@ -30,25 +30,25 @@ Al ver los paneles en modo vertical en un teléfono, observará que los iconos d
 1. En el servicio Power BI, abra un panel.
 2. Seleccione la flecha situada junto a **Vista web** en la esquina superior derecha > seleccione **Vista de teléfono**.
 
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-dashboard.png)
+    ![Captura de pantalla del menú desplegable Vista web, en el que se muestra un puntero a la vista Teléfono.](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-dashboard.png)
 
     Si no es el propietario del panel, no verá esta opción.
 
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-canvas.png)
+    ![Captura de pantalla de un panel de teléfono, en el que se muestra la opción Editar vista para desanclar, cambiar el tamaño y reorganizar los iconos para ajustarlos a la vista de teléfono.](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-canvas.png)
 
     Se abre la vista de edición del panel de teléfono. Aquí puede desanclar, cambiar de tamaño y reorganizar los iconos para que se ajusten a la vista de teléfono. La versión web del panel no cambia.
 
 
 1. Seleccione un icono para arrastrar, cambiar el tamaño o desanclar. Observe que los otros iconos se apartan mientras arrastra un icono.
    
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-unpin-tile-phone-dashboard.png)
+    ![Captura de pantalla de los iconos de teléfono, con una selección de icono para arrastrar, cambiar de tamaño o desanclar.](media/service-create-dashboard-mobile-phone-view/power-bi-unpin-tile-phone-dashboard.png)
    
     Los iconos desanclados van al panel de iconos desanclados, donde permanecen a menos que vuelva a agregarlos.
    
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-post-edit.png)
+    ![Captura de pantalla de un panel de teléfono, en la que se muestran iconos en el panel de mosaicos desanclado.](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-post-edit.png)
 2. Si cambia de opinión, seleccione **Restablecer iconos** para volver a ponerlos en el tamaño y orden en el que se encontraban antes.
    
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-reset-tiles.png)
+    ![Captura de pantalla del panel Iconos desanclados, en la que se muestra un puntero a Restablecer iconos.](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-reset-tiles.png)
    
     Abrir simplemente la vista de edición de teléfono en el servicio Power BI cambia ligeramente el tamaño y la forma de los iconos en un teléfono. Para devolver el panel a su estado exacto antes de abrirlo en la vista de edición de teléfono, seleccione **Restablecer iconos**.
 3. Cuando esté conforme con el diseño del panel de teléfono, seleccione la flecha junto a **Vista de teléfono** en la esquina superior derecha > seleccione **Vista web**.

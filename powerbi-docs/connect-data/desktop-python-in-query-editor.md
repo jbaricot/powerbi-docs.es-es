@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5fb76d5f4e32c1ff7f9d68757e071f1bc69a7ddf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6e1c18f61cc822cd9656a49a65c98b225709c540
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223294"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215494"
 ---
 # <a name="use-python-in-query-editor"></a>Uso de Python en el Editor de consultas
 En el **Editor de consultas** de Power BI Desktop, puede usar **Python**, un lenguaje de programación usado ampliamente por estadistas, científicos de datos y analistas de datos. Esta integración de Python en el **Editor de consultas** permite limpiar datos con Python y realizar acciones avanzadas, como analizar y dar forma a los datos en conjuntos de datos, incluida la operación de completar datos que faltan, las predicciones y la agrupación en clústeres, por nombrar algunas. **Python** es un lenguaje eficaz y se puede usar en el **Editor de consultas** para preparar el modelo de datos y crear informes.
@@ -27,19 +27,19 @@ Para mostrar cómo se usa **Python** en el **Editor de consultas**, vea este eje
 
 1. En primer lugar, cargue los datos en **Power BI Desktop**. En este ejemplo, cargue el archivo *EuStockMarkets_NA.csv* y seleccione **Obtener datos > CSV** en la cinta de opciones **Inicio** de **Power BI Desktop**.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-1.png)
+   ![Captura de pantalla de la cinta Obtener datos de Power BI Desktop, donde se muestra la selección de CSV.](media/desktop-python-in-query-editor/python-in-query-editor-1.png)
 2. Seleccione primero el archivo y, después, **Abrir** para que el archivo .csv se muestre en el cuadro de diálogo **Archivo CSV**.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-2.png)
+   ![Captura de pantalla del cuadro de diálogo Archivo CSV, en el que se muestra el CSV seleccionado.](media/desktop-python-in-query-editor/python-in-query-editor-2.png)
 3. Una vez cargados los datos, los verá en el panel **Campos** de Power BI Desktop.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-3.png)
+   ![Captura de pantalla del panel Campos, en el que se muestran los datos cargados.](media/desktop-python-in-query-editor/python-in-query-editor-3.png)
 4. En **Power BI Desktop**, seleccione **Editar consultas** en la pestaña **Inicio** para abrir el **Editor de consultas**.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-4.png)
+   ![Captura de pantalla del Editor de consultas de Power BI Desktop, donde se muestra la selección Editar consultas.](media/desktop-python-in-query-editor/python-in-query-editor-4.png)
 5. En la pestaña **Transformar**, haga clic en **Ejecutar script de Python** para que aparezca el editor de **Ejecutar script de Python** (se muestra en el paso siguiente). Tenga en cuenta que en las filas 15 y 20 faltan datos, al igual que en otras filas que no se ven en la siguiente imagen. En los pasos siguientes se muestra cómo Python completa los datos que faltan en esas filas.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
+   ![Captura de pantalla de la pestaña Transformar, en la que se muestran filas de datos.](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
 6. En este ejemplo, escriba el siguiente código de script:
    
     ```python
@@ -55,13 +55,13 @@ Para mostrar cómo se usa **Python** en el **Editor de consultas**, vea este eje
    
    Cuando se incluye en el cuadro de diálogo **Ejecutar script de Python**, el código es similar al siguiente:
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-5b.png)
+   ![Captura de pantalla del cuadro de diálogo Ejecutar script de Python, donde se muestra el código de script.](media/desktop-python-in-query-editor/python-in-query-editor-5b.png)
 7. Después de seleccionar **Aceptar**, el **Editor de consultas** muestra una advertencia sobre la privacidad de datos.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-6.png)
+   ![Captura de pantalla del panel Editor de consultas, en la que se muestra la advertencia sobre la privacidad de los datos.](media/desktop-python-in-query-editor/python-in-query-editor-6.png)
 8. Para que los scripts de Python funcionen correctamente en el servicio Power BI, todos los orígenes de datos se deben establecer como *públicos*. Para obtener más información sobre la configuración de privacidad y sus implicaciones, consulte [Niveles de privacidad](../admin/desktop-privacy-levels.md).
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-7.png)
+   ![Captura de pantalla del cuadro de diálogo Niveles de privacidad, en la que se muestra que se ha establecido en Público.](media/desktop-python-in-query-editor/python-in-query-editor-7.png)
    
    Observe que en el panel **Campos** hay una columna nueva denominada *completedValues*. Observe que algunos elementos de datos faltan, como en las filas 15 y 18. Vea cómo Python lo aborda en la sección siguiente.
    
@@ -71,12 +71,12 @@ Con solo cinco líneas de script de Python, el **Editor de consultas** ha rellen
 ## <a name="creating-visuals-from-python-script-data"></a>Creación de objetos visuales a partir de los datos del script de Python
 Ahora se puede crear un objeto visual para ver cómo el código de script de Python, mediante la biblioteca *pandas*, ha completado los valores que faltaban, como se muestra en la imagen siguiente:
 
-![](media/desktop-python-in-query-editor/python-in-query-editor-8.png)
+![Captura de pantalla del objeto visual, en la que se muestran datos originales y valores completados que faltan de la biblioteca Pandas.](media/desktop-python-in-query-editor/python-in-query-editor-8.png)
 
 Una vez completado ese objeto visual, y cualquier otro que quiera crear con **Power BI Desktop**, puede guardar el archivo de **Power BI Desktop** (que se guarda con el formato .pbix) y, después, usar el modelo de datos, incluidos los scripts de Python que forman parte del mismo, en el servicio Power BI.
 
 > [!NOTE]
-> ¿Quiere ver un archivo .pbix finalizado con estos pasos completados? Está de suerte: puede descargar **desde aquí** el archivo de [Power BI Desktop](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix) finalizado que se ha usado en estos ejemplos.
+> ¿Quiere ver un archivo .pbix finalizado con estos pasos completados? Está de suerte: puede descargar [desde aquí](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix) el archivo de **Power BI Desktop** finalizado que se ha usado en estos ejemplos.
 
 Una vez que haya cargado el archivo .pbix en el servicio Power BI, son necesarios dos pasos más para habilitar la actualización de datos (en el servicio) y de objetos visuales en el servicio (para que los objetos visuales se actualicen, los datos deben acceder a Python). Los pasos adicionales son los siguientes:
 
@@ -88,11 +88,11 @@ Existen algunas limitaciones para las consultas que incluyen scripts de Python c
 
 * La configuración de origen de datos de Python se debe establecer en *Pública*, y todos los demás pasos de una consulta creada en el **Editor de consultas** también deben ser públicos. Para obtener la configuración de origen de datos en **Power BI Desktop**, seleccione **Archivo > Opciones y configuración > Configuración de origen de datos**.
   
-  ![](media/desktop-python-in-query-editor/python-in-query-editor-9.png)
+  ![Captura de pantalla del menú archivo en Power BI Desktop, en la que se muestra la selección de Configuración de origen de datos.](media/desktop-python-in-query-editor/python-in-query-editor-9.png)
   
-  Asegúrese de que el **Nivel de privacidad** esté establecido en **Público** y, desde el cuadro de diálogo **Configuración de origen de datos**, seleccione primero los orígenes de datos, o solo uno, y, después, *Editar permisos...* .
+  Asegúrese de que el **Nivel de privacidad** esté establecido en *Público* y, desde el cuadro de diálogo **Configuración de origen de datos**, seleccione primero los orígenes de datos, o solo uno, y, después, **Editar permisos...** .
   
-  ![](media/desktop-python-in-query-editor/python-in-query-editor-10.png)    
+  ![Captura de pantalla del cuadro de diálogo Configuración de origen de datos, en la que se muestra que Nivel de privacidad está establecido en Público.](media/desktop-python-in-query-editor/python-in-query-editor-10.png)    
 * Para habilitar la actualización programada de los objetos visuales o del conjunto de datos de Python, debe habilitar **Actualización programada** y tener **puerta de enlace personal** instalada en el equipo que hospeda el libro y la instalación de Python. Para obtener más información sobre ambos, consulte la sección anterior de este artículo y siga los vínculos que se proporcionan.
 * En la actualidad, no se admiten las tablas anidadas (tabla de tablas) 
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d74c6583197441d63cb6c7c40ba44a5b21885b28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 76c76cf5ae41c369e3810f3a52ee43816184d8e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219192"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263058"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Anclar un icono a un panel desde Preguntas y respuestas
 ## <a name="how-to-pin-a-tile-from-qa"></a>Cómo anclar un icono de preguntas y respuestas
@@ -32,7 +32,7 @@ Para continuar, abra el [panel de ejemplo de análisis de venta directa](sample-
    ![Escritura de una pregunta](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    el cuadro de pregunta le ofrece sugerencias.
-4. Para agregar el gráfico al panel como un icono, seleccione el icono de anclaje ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) de la parte superior derecha del lienzo. Si el panel ha sido compartido con usted, no podrá anclar ninguna visualización.
+4. Para anclar el gráfico al panel como un icono, seleccione el icono ![Icono de anclaje](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) en el lado superior derecho del lienzo. Si el panel ha sido compartido con usted, no podrá anclar ninguna visualización.
 
 5. Ancle el icono a un panel existente o a un nuevo panel.
 

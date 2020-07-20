@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 41d5350bf2986f9b8f0f01acf97e96eafc3b4db8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9fcf67a52bde69e62816af09a8fed69c8383927d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229516"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216189"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Conexión a Salesforce con Power BI
 Power BI le permite conectarse fácilmente a su cuenta de Salesforce.com. Con esta conexión, puede recuperar los datos de Salesforce y disponer de un panel e informes proporcionados automáticamente.
@@ -24,37 +24,37 @@ Más información sobre la [Integración de Salesforce](https://powerbi.microsof
 ## <a name="how-to-connect"></a>Cómo conectarse
 1. En Power BI, seleccione **Obtener datos** en la parte inferior del panel de navegación.
    
-   ![](media/service-connect-to-salesforce/pbi_getdata.png) 
+   ![Captura de pantalla del botón Obtener datos, mostrado en el panel de navegación.](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. En el cuadro **Servicios** , seleccione **Obtener**.
    
-   ![](media/service-connect-to-salesforce/pbi_getservices.png) 
+   ![Captura de pantalla del cuadro de diálogo Servicios, en el que se muestra el botón Obtener.](media/service-connect-to-salesforce/pbi_getservices.png) 
 3. Seleccione **Datos de análisis para Salesforce** y seleccione **Obtener**.  
    
-   ![](media/service-connect-to-salesforce/salesforce.png)
+   ![Captura de pantalla del cuadro de diálogo Analytics for Salesforce, donde se muestra el vínculo Obtener ahora.](media/service-connect-to-salesforce/salesforce.png)
 4. Seleccione **Iniciar sesión** para iniciar el flujo de inicio de sesión.
    
-    ![](media/service-connect-to-salesforce/dialog.png)
+    ![Captura de pantalla del cuadro de diálogo Conectar con Salesforce, en la que se muestra el botón Iniciar sesión.](media/service-connect-to-salesforce/dialog.png)
 5. Cuando se le solicite, escriba sus credenciales de Salesforce. Seleccione **Permitir** para que Power BI pueda tener acceso a la información básica y los datos de Salesforce.
    
-   ![](media/service-connect-to-salesforce/sf_authorize.png)
+   ![Captura de pantalla de las credenciales de Salesforce, en la que se muestra que Power BI solicita permiso para acceder a la información.](media/service-connect-to-salesforce/sf_authorize.png)
 6. Configure lo que quiere importar en Power BI mediante la opción de lista desplegable:
    
    * **Panel**
      
      Seleccione un panel predefinido basado en un rol (como, por ejemplo **Jefe de ventas**). Estos paneles recuperan un conjunto específico de datos estándar de Salesforce que no incluyen los campos personalizados.
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
+     ![Captura de pantalla del panel de Salesforce, en el que se muestra la opción para seleccionar un panel predefinido basado en un rol.](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
    * **Informes**
      
      Seleccione uno o más informes personalizados de su cuenta de Salesforce. Estos informes coincidirán con sus vistas en Salesforce y pueden incluir datos de campos personalizados y objetos.
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcereports.png)
+     ![Captura de pantalla de los informes de Salesforce, en la que se muestra una lista de informes personalizados.](media/service-connect-to-salesforce/pbi_salesforcereports.png)
      
      Si no ve ningún informe, agréguelos o créelos en su cuenta de Salesforce y vuelva a intentarlo.
 
 7. Seleccione **Conectar** para comenzar el proceso de importación. Durante la importación verá una notificación que muestra que la importación está en curso. Una vez finalizada la importación, en el panel de navegación verá un panel, un informe y un conjunto de datos para los datos de Salesforce.
    
-   ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
+   ![Captura de pantalla del panel Sales Manager, en el que se muestran el panel, el informe y los conjuntos de datos.](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
 Puede cambiar este panel para mostrar los datos de la forma que desee. Puede realizar preguntas con Preguntas y respuestas o [seleccionar un icono](../consumer/end-user-tiles.md) para abrir el informe subyacente y [editar o eliminar los iconos del panel](../create-reports/service-dashboard-edit-tile.md).
 

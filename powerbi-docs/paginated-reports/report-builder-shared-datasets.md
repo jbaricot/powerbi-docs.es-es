@@ -1,18 +1,18 @@
 ---
 title: 'Creación de un informe paginado con un conjunto de datos compartido de Power BI: Power BI Report Builder'
 description: Cree un informe paginado de Power BI Report Builder basado en un conjunto de datos compartido de Power BI.
-ms.date: 02/12/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d3955b8dde22863e7b0224d335b162846e0741d2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239797"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216833"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Creación de un informe paginado basado en un conjunto de datos compartido de Power BI
 
@@ -104,6 +104,9 @@ Estos son los pasos para obtener la consulta.
     ![Diseñador de consultas de Generador de informes](media/report-builder-shared-datasets/power-bi-report-builder-query-designer.png)
 
 1. En el cuadro superior, pegue la consulta que ha copiado de Power BI Desktop.
+
+    > [!NOTE]
+    > Si la consulta incluye la función TOPN, elimínela de la consulta.
 
 1. Seleccione **Ejecutar consulta** (el signo de exclamación de color rojo, !) para asegurarse de que la consulta funciona. 
 

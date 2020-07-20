@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5a363a951e9c8f6cc04f825c64dce811d0a954e8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ce25bb448d698f8c1ce4b77e8823e96220a1792
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219330"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264457"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Crear un código QR para un icono en Power BI para su uso en aplicaciones móviles
 Los códigos QR de Power BI pueden conectar  cualquier cosa del mundo real directamente con información de BI relacionada &#151; no es necesario realizar ninguna exploración o búsqueda.
@@ -26,13 +26,13 @@ Los compañeros con quienes haya compartido el panel pueden [detectar el código
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Crear un código QR para un icono
 1. Abra un panel en el servicio Power BI.
-2. Seleccione **Más opciones** (...) en la esquina superior derecha del icono y, después, seleccione **Modo Enfoque** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
+2. Seleccione **Más opciones** (...) en la esquina superior derecha del icono y después, **Modo Enfoque** ![icono Pantalla completa](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
 3. Seleccione **Más opciones** (...) en la esquina superior derecha y elija **Generar código QR**. 
    
-    ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
+    ![Captura de pantalla de un icono, en la que se muestra un puntero desde los puntos suspensivos hasta Generar código QR.](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. Aparece un cuadro de diálogo con el código QR. 
    
-    ![](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
+    ![Captura de pantalla de un cuadro de diálogo, en la que se muestra que el código QR está listo para descargarse o guardarse.](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
 5. Desde aquí puede escanear el código QR o descargarlo y guardarlo para poder: 
    
    * Agregarlo a un correo electrónico o a otro documento, o 

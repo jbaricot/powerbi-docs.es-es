@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
-ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f82a3a9e1cf207a006319e6ac7e662baaf5d9d1f
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80647663"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216580"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Instrucciones para el planeamiento de la capacidad de Power BI Report Server
 Power BI Report Server es una solución de informes empresariales y BI con características de autoservicio que los clientes pueden implementar en sus instalaciones, detrás de su firewall. En ella se combinan la funcionalidad de informe interactivo de Power BI Desktop con la plataforma de servidor local de SQL Server Reporting Services. Con el uso intensivo y creciente de análisis e informes dentro de las empresas, elaborar un presupuesto para la infraestructura de hardware y las licencias de software necesarias para extenderla a una base de usuarios empresariales puede ser un verdadero desafío. Este documento pretende ofrecer instrucciones sobre el planeamiento de la capacidad de Power BI Report Server mediante el uso compartido de los resultados de numerosas ejecuciones de pruebas de carga en un servidor de informes. Aunque los informes, las consultas y los patrones de uso de las organizaciones pueden variar ampliamente, los resultados presentados en este documento, junto con las pruebas reales usadas y una descripción detallada de cómo se ejecutaron, sirven como punto de referencia para todo aquel que se encuentre en las primeras etapas del proceso de planeamiento de la implementación de Power BI Report Server.
@@ -41,10 +41,10 @@ La implementación de Power BI Report Server consta de las siguientes máquinas 
 
 * Controlador de dominio de Active Directory: era necesario en el Motor de base de datos de SQL Server, SQL Server Analysis Services y Power BI Report Server para autenticar de forma segura todas las solicitudes.
 * Motor de base de datos SQL Server y SQL Server Analysis Services: aquí fue donde se almacenaron todas las bases de datos para su uso en los informes al representarlos.
-* Servidor de informes de Power BI
+* Power BI Report Server
 * Base de datos de Power BI Report Server. La base de datos del servidor de informes se hospeda en una máquina diferente a la de Power BI Report Server, así que no es necesario competir con el Motor de base de datos SQL Server por memoria, CPU, red y recursos de disco.
 
-![](media/capacity-planning/report-server-topology.png)
+![Diagrama en el que se muestran las relaciones entre Power BI Report Server, Active Directory y las bases de datos asociadas.](media/capacity-planning/report-server-topology.png)
 
 Consulte el apéndice 1.1 Topología de Power BI Report Server y el apéndice 1.2 Configuración de máquina virtual de Power BI Report Server para obtener una configuración completa de cada máquina virtual usada en la topología.
 
@@ -62,14 +62,14 @@ Todas las pruebas se escribieron para realizar una operación de extremo a extre
 > Microsoft no admite oficialmente la herramienta, pero el equipo de producto contribuye al proyecto y responde a las incidencias generadas por otros colaboradores.
 
 ### <a name="workloads"></a>Cargas de trabajo
-Hay dos perfiles de carga de trabajo que se usan en las pruebas: Power BI Report Heavy y Paginated Report Heavy. En la tabla siguiente describe la distribución de las solicitudes ejecutadas en el servidor de informes.
+Hay 2 perfiles de carga de trabajo que se usan en las pruebas: Power BI Report Heavy y Paginated Report Heavy. En la tabla siguiente describe la distribución de las solicitudes ejecutadas en el servidor de informes.
 
-| Activity (Actividad) | Power BI Report Heavy, frecuencia de repetición | Paginated Report Heavy, frecuencia de repetición |
+| Actividad | Power BI Report Heavy, frecuencia de repetición | Paginated Report Heavy, frecuencia de repetición |
 | --- | --- | --- |
-| **Representación de informes de Power BI** |60 % |10 % |
-| **Representación de informes paginados (RDL)** |30 % |60 % |
-| **Representación de informes móviles** |5 % |20 % |
-| **Operaciones del portal web** |5 % |10 % |
+| **Representación de informes de Power BI** |60 % |10 % |
+| **Representación de informes paginados (RDL)** |30 % |60 % |
+| **Representación de informes móviles** |5 % |20 % |
+| **Operaciones del portal web** |5 % |10 % |
 
 ### <a name="user-load"></a>Carga de usuarios
 Por cada serie de pruebas, se ejecutaron pruebas según la frecuencia especificada en una de las dos cargas de trabajo. Las pruebas comenzaron con 20 solicitudes de usuario simultáneas al servidor de informes. La carga de usuarios se aumentó paulatinamente hasta que la confiabilidad descendió por debajo del objetivo del 99 %.

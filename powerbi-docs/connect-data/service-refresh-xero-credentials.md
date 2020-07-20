@@ -9,40 +9,40 @@ ms.topic: how-to
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 3559b330cef803b5bc9bf2c3d22313ba59acf4cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a1697bfce1db1ca92d50bfb83210d21b2820fdae
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235748"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263705"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Actualización de las credenciales del paquete de contenido de Xero después de un error de actualización
 Si usa el paquete de contenido de Xero Power BI, quizás haya experimentado algunos problemas con la actualización diaria del paquete de contenido debido a un incidente reciente con el servicio de Power BI.
 
 Puede ver si el paquete de contenido se actualiza correctamente comprobando el estado de la última actualización para el conjunto de datos Xero como se muestra en la captura de pantalla que aparece a continuación.
 
-![](media/service-refresh-xero-credentials/powerbi-xero-refresh-failed.png)
+![Captura de pantalla del cuadro de diálogo Xero, en la que se muestra el estado de actualización del conjunto de datos Xero.](media/service-refresh-xero-credentials/powerbi-xero-refresh-failed.png)
 
 Si ve que se produce el error de actualización indicado anteriormente, siga estos pasos para renovar sus credenciales del paquete de contenido.
 
 1. Haga clic en **Más opciones** (...) junto a su conjunto de datos Xero y, después, haga clic en **Programar actualización**. Se abre la página de configuración para el paquete de contenido de Xero.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-schedule-refresh.png)
+    ![Captura de pantalla del cuadro de diálogo Xero con la selección de Programar actualización.](media/service-refresh-xero-credentials/powerbi-xero-schedule-refresh.png)
 2. En la página **Configuración de Xero**, seleccione **Credenciales del origen de datos** > **Editar credenciales**.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-settings-page.png)
+    ![Captura de pantalla del cuadro de diálogo Configuración de Xero, en el que se muestran los valores de Xero con Editar credenciales seleccionado.](media/service-refresh-xero-credentials/powerbi-xero-settings-page.png)
 3. Escriba el nombre de su organización > **Siguiente**.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-configure.png)
+    ![Captura de pantalla del cuadro de diálogo Configurar Xero, en el que se muestra el nombre de la organización.](media/service-refresh-xero-credentials/powerbi-xero-configure.png)
 4. Inicie sesión con su cuenta de Xero.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-welcome.png)
+    ![Captura de pantalla del cuadro de diálogo de inicio de sesión de Xero, en la que se muestra cómo iniciar sesión en la cuenta de Xero.](media/service-refresh-xero-credentials/powerbi-xero-welcome.png)
 5. Ahora que sus credenciales están actualizadas, asegurémonos de que se establece la ejecución diaria de la programación de actualización. Para ello, haga clic en **Más opciones** (...) junto a su conjunto de datos Xero y, después, haga clic en **Programar actualización** de nuevo.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-schedule.png)
+    ![Captura de pantalla del cuadro de diálogo Programar actualización, en el que muestra la frecuencia de actualización y la zona horaria.](media/service-refresh-xero-credentials/powerbi-xero-refresh-schedule.png)
 6. También puede actualizar el conjunto de datos inmediatamente. Haga clic en **Más opciones** (...) junto a su conjunto de datos Xero y, después, haga clic en **Actualizar ahora**.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
+    ![Captura de pantalla del cuadro de diálogo Xero con la selección de Actualizar ahora.](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 
 Si sigue teniendo problemas de actualización, no dude en ponerse en contacto con nosotros en [https://support.powerbi.com](https://support.powerbi.com) 
 

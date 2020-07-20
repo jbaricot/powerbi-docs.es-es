@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3c76fed8f5533ad339904c4f8251a7404270a0ae
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279029"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216595"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Supervisión del rendimiento de los informes en Power BI
 
@@ -35,7 +35,7 @@ Use [Diagnóstico de consulta](/power-query/QueryDiagnostics) en Power BI Deskto
 > [!NOTE]
 > Query Diagnostics actualmente es una característica en vista previa, por lo que debe habilitarla en _Opciones y configuración_. Una vez habilitada, sus comandos están disponibles en la ventana del Editor de Power Query, en la pestaña de la cinta de opciones **Herramientas**.
 
-![En la imagen se muestra la pestaña de la cinta de opciones Herramientas del Editor de Power Query. En la cinta de opciones se muestran los comandos Paso del diagnóstico, Iniciar diagnósticos y Detener diagnósticos.](media/monitor-report-performance/power-query-diagnotics.png)
+![Captura de pantalla de la cinta Herramientas del Editor de Power Query en la que se muestran los comandos Paso del diagnóstico, Iniciar diagnósticos y Detener diagnósticos.](media/monitor-report-performance/power-query-diagnotics.png)
 
 ## <a name="use-performance-analyzer"></a>Uso del Analizador de rendimiento
 

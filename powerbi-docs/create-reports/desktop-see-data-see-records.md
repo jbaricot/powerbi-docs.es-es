@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238620"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264738"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Uso de tabla de objeto visual y tabla de punto de datos en Power BI Desktop
 En **Power BI Desktop**, puede profundizar en los detalles de una visualización y ver representaciones textuales de los datos subyacentes o de los registros de datos individuales del objeto visual seleccionado. Estas características se conocen a veces como *click-through*, o *drill-through* u *obtención de detalles*.
@@ -74,7 +74,7 @@ También puede hacer clic con el botón derecho en un elemento de datos y selecc
 
 Al seleccionar **Tabla de punto de datos** para un elemento de datos, el lienzo de Power BI Desktop muestra todos los datos asociados al elemento seleccionado. 
 
-![](media/desktop-see-data-see-records/visual-table-09.png)
+![Captura de pantalla de un lienzo, en la que se muestran todos los datos asociados al elemento seleccionado al seleccionar la tabla de puntos de datos.](media/desktop-see-data-see-records/visual-table-09.png)
 
 Para volver al informe, seleccione **< Volver al informe** en la esquina superior izquierda del lienzo.
 

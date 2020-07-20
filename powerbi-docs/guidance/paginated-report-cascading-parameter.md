@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920784"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214097"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Uso de parámetros en cascada en informes paginados
 
@@ -60,7 +60,7 @@ Echemos un vistazo a tres ejemplos que le ayudarán a limitar grandes conjuntos 
 
 En este ejemplo, el usuario del informe interactúa con cinco parámetros de informe. Deben seleccionar país-región, estado-provincia, ciudad y código postal. A continuación, un parámetro final enumera los revendedores que residen en esa ubicación geográfica.
 
-![La imagen muestra cinco parámetros de informe: País-región, estado-provincia, ciudad, código postal y revendedor. Los cuatro primeros tienen valores establecidos y la lista de revendedores se filtra a solo cuatro elementos.](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
+![Captura de pantalla de los parámetros de informes paginados de Power BI donde se muestra el filtro por columnas relacionadas.](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
 
 A continuación se muestra cómo puede desarrollar los parámetros en cascada:
 
@@ -134,7 +134,7 @@ A continuación se muestra cómo puede desarrollar los parámetros en cascada:
 
 En este ejemplo, el usuario del informe interactúa con un parámetro de informe para seleccionar la primera letra del revendedor. Un segundo parámetro muestra a los revendedores cuando el nombre comienza con la letra seleccionada.
 
-![La imagen muestra dos parámetros de informe: Grupo y Revendedor. El primer valor de parámetro se establece en la letra A, y la lista de revendedores se filtra por varios elementos que empiezan con esa letra.](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
+![Captura de pantalla de los parámetros de informes paginados de Power BI donde se muestra el filtro por una columna de agrupación.](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
 
 A continuación se muestra cómo puede desarrollar los parámetros en cascada:
 
@@ -196,7 +196,7 @@ GO
 
 En este ejemplo, el usuario del informe interactúa con un parámetro de informe para especificar un patrón de búsqueda. Un segundo parámetro muestra después a los revendedores cuando el nombre contiene el patrón.
 
-![La imagen muestra dos parámetros de informe: Buscar y Revendedor. El primer valor de parámetro se establece en el texto "red" y la lista de revendedores se filtra por varios elementos que contienen ese texto.](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
+![Captura de pantalla de los parámetros de informes paginados de Power BI donde se muestra el filtro por patrón de búsqueda.](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
 
 A continuación se muestra cómo puede desarrollar los parámetros en cascada:
 
@@ -242,7 +242,7 @@ En este escenario, puede usar datos factuales para limitar los valores disponibl
 
 En este ejemplo, el usuario del informe interactúa con tres parámetros de informe. Los dos primeros establecen un intervalo de fechas de pedidos de venta. El tercer parámetro muestra a continuación los revendedores que han creado pedidos durante ese período de tiempo.
 
-![La imagen muestra tres parámetros de informe: fecha de inicio del pedido, fecha de finalización del pedido y revendedor. Los dos parámetros de fecha se establecen para el mes de enero de 2020 y la lista de revendedores se filtra por varios elementos que representan a los revendedores que han realizado pedidos durante este mes.](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
+![Captura de pantalla de los parámetros de informes paginados de Power BI donde se muestran tres parámetros de informe: fecha de inicio del pedido, fecha de finalización del pedido y revendedor.](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
 
 A continuación se muestra cómo puede desarrollar los parámetros en cascada:
 

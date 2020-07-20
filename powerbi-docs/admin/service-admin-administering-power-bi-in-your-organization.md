@@ -10,18 +10,18 @@ ms.topic: overview
 ms.date: 05/29/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 7628106c29be75c4eb01bc9d7d52a3c9ededb9e8
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: c3e56df49caac8b5250a4e382cab253a0a9c5210
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272568"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161339"
 ---
 # <a name="what-is-power-bi-administration"></a>Qué es la administración de Power BI
 
 La administración de Power BI es la administración de la configuración de toda la organización que controla cómo funciona Power BI. Los usuarios asignados a roles de administrador configuran, supervisan y aprovisionan los recursos de la organización. En este artículo se ofrece información general sobre los roles, las tareas y las herramientas de administración para ayudarle a empezar a trabajar.
 
-![Portal de administración de Power BI](media/service-admin-administering-power-bi-in-your-organization/admin-portal.png)
+![Captura de pantalla del portal de administración de Power BI, en la que se muestra la configuración para toda la organización.](media/service-admin-administering-power-bi-in-your-organization/admin-portal.png)
 
 ## <a name="administrator-roles-related-to-power-bi"></a>Roles de administrador relacionados con Power BI
 

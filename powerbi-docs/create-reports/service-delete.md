@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f74b90b944f40b5d5ff046f60bd67ca4c3c7eb83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff31548801f372fa1e20949e5c109cc9214f55e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238423"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264489"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminar prácticamente cualquier cosa en el servicio Power BI
 Este artículo le enseña a eliminar un panel, un informe, un libro, un conjunto de datos, una aplicación, una visualización y un área de trabajo en el servicio Power BI.
@@ -125,7 +125,7 @@ Las aplicaciones se pueden quitar fácilmente de la página con la lista de apli
 Al eliminarse una aplicación de la página con la lista de aplicaciones, no se elimina para los demás miembros.
 
 1. En el panel de navegación, seleccione **Aplicaciones** para abrir la página con la lista de aplicaciones.
-2. Mantenga el puntero sobre la aplicación que desea eliminar y seleccione el icono Eliminar ![](media/service-delete/power-bi-delete-report2.png).
+2. Mantenga el puntero sobre la aplicación que quiera eliminar y seleccione el icono Eliminar ![Icono Papelera](media/service-delete/power-bi-delete-report2.png)  .
 
    ![Selección de aplicaciones](media/service-delete/power-bi-delete-app.png)
 

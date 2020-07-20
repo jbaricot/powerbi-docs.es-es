@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2bb48ad44c1f1d440fb5741fc55cc4a83f315dc8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 129b4a22e17b5eab03018efae113ff47133e9dda
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237140"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214161"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Uso de medidas rápidas para cálculos comunes
 Puede usar *medidas rápidas* para realizar fácilmente cálculos eficaces y comunes. Una medida rápida ejecuta un conjunto de comandos de Expresiones de análisis de datos (DAX) en segundo plano y, después, presenta los resultados para que los use en el informe. No tiene que escribir DAX, ya que se realiza de forma automática en función de la entrada proporcionada en un cuadro de diálogo. Hay muchas categorías disponibles de cálculos, y formas de modificarlos para ajustarlo a sus necesidades. Y posiblemente lo mejor de todo es que puede ver la fórmula DAX que ejecuta la medida rápida y empezar a poner en práctica los conocimientos sobre DAX, o ampliarlos.
@@ -90,7 +90,7 @@ En la ventana **Medidas rápidas**, en **Cálculo**, seleccione **Promedio por c
 
 Arrastre **Promedio de precio unitario** desde el panel **Campos** hasta el campo **Valor base**. Deje **Categoría** en el campo **Categoría** y seleccione **Aceptar**. 
 
-![](media/desktop-quick-measures/quick-measures_06.png)
+![Captura de pantalla de Power BI Desktop en la que se muestra la opción Filtros del panel Campos.](media/desktop-quick-measures/quick-measures_06.png)
 
 Al seleccionar **Aceptar**, se producen varias cosas interesantes.
 
@@ -134,5 +134,5 @@ Hay algunas limitaciones y consideraciones que debe tener en cuenta.
 Puede usar tablas de fechas personalizadas propias con medidas rápidas de inteligencia de tiempo. Si va a usar un modelo tabular externo, asegúrese de que al compilar el modelo, la columna de fecha principal de la tabla se haya marcado como una tabla de fechas, como se describe en [Especificación de Marcar como tabla de fechas para su uso en la inteligencia de tiempo](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular). Si va a importar una tabla de fechas propia, asegúrese de marcarla como una tabla de fechas, como se describe en [Configuración y uso de tablas de fechas en Power BI Desktop](desktop-date-tables.md).
 
 ### <a name="additional-information-and-examples"></a>Información adicional y ejemplos
-¿Tiene alguna idea para una medida rápida que todavía no se haya proporcionado? Excelente. Consulte la página [Ideas de Power BI](https://go.microsoft.com/fwlink/?linkid=842906) y envíe las ideas y fórmulas DAX para medidas rápidas que le gustaría ver en Power BI Desktop. Consideraremos la posibilidad de agregarlas a la lista de medidas rápidas en una versión futura.
+¿Tiene alguna idea para una medida rápida que todavía no se haya proporcionado? Magnífico. Consulte la página [Ideas de Power BI](https://go.microsoft.com/fwlink/?linkid=842906) y envíe las ideas y fórmulas DAX para medidas rápidas que le gustaría ver en Power BI Desktop. Consideraremos la posibilidad de agregarlas a la lista de medidas rápidas en una versión futura.
 
