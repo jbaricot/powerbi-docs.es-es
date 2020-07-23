@@ -9,7 +9,7 @@
           href: service-get-data.md
         - name: ¿Qué es una puerta de enlace de datos local?
           href: service-gateway-onprem.md
-    - name: Inicios rápidos
+    - name: Guías de inicio rápido
       expanded: true
       items:
         - name: Conectarse a los datos en Power BI Desktop
@@ -156,8 +156,6 @@
           items:
             - name: Obtención de datos de archivos
               href: service-get-data-from-files.md
-            - name: De Excel a un informe sorprendente
-              href: service-from-excel-to-stunning-report.md
             - name: Obtención de datos de archivos de libro de Excel
               href: service-excel-workbook-files.md
             - name: Obtención de datos de archivos de Power BI Desktop
@@ -332,7 +330,7 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Uso de conectores personalizados
               href: service-gateway-custom-connectors.md
-        - name: Solucionar problemas
+        - name: Solución de problemas
           items:
             - name: Solución de problemas de importación de archivos .xls de Access y Excel
               href: desktop-access-database-errors.md
