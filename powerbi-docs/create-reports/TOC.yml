@@ -11,6 +11,10 @@
     - name: Tutoriales
       expanded: true
       items:
+        - name: 'Power BI Desktop: de Excel a un informe'
+          href: desktop-excel-stunning-report.md
+        - name: "Servicio Power\_BI: de Excel a un informe"
+          href: service-from-excel-to-stunning-report.md
         - name: 'Curso en línea: Informes paginados'
           href: ../learning-catalog/paginated-reports-online-course.md
         - name: Creación y carga de un informe paginado
@@ -391,7 +395,7 @@
               href: service-dashboard-themes.md
         - name: Canalizaciones de implementación
           items:
-            - name: Comenzar
+            - name: Introducción
               href: deployment-pipelines-get-started.md
             - name: Solución de problemas
               href: deployment-pipelines-troubleshooting.md
