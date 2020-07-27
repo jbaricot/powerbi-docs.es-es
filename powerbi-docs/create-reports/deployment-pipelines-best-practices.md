@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e76d820e804a19db148e0db4c2702e002ee2c017
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4dd5698f91177733e150577490775eefb7e2f2ef
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275924"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557196"
 ---
 # <a name="deployment-pipelines-best-practices-preview"></a>Procedimientos recomendados para las canalizaciones de implementación (versión preliminar)
 
@@ -140,7 +140,7 @@ Asegúrese de que estos tres factores se aborden en el entorno de prueba:
 
 Al realizar pruebas, puede usar la misma capacidad que la fase de producción. Sin embargo, esto puede hacer que la producción sea inestable durante las pruebas de carga. Para evitar la producción inestable, use otra capacidad similar en recursos a la capacidad de producción para realizar pruebas. Para evitar costos adicionales, puede usar [las funcionalidades de Azure](../developer/embedded/azure-pbie-create-capacity.md) para pagar solo por el tiempo de prueba.
 
-![diagrama de los procedimientos recomendados de las canalizaciones de implementación](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
+![Diagrama que muestra una canalización de implementación con un entorno de prueba que simula el entorno de producción.](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
 
 ### <a name="use-dataset-rules-with-a-real-life-data-source"></a>Uso de reglas de conjunto de datos con un origen de datos real
 

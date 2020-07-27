@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034299"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557219"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Descripción del proceso de implementación (versión preliminar)
 
@@ -152,11 +152,11 @@ Las [aplicaciones de Power BI](../consumer/end-user-apps.md) son la manera reco
 
 Cree una aplicación para cada fase de canalización de implementación; de esta forma puede probar cada actualización de la aplicación desde el punto de vista de un usuario final. Una canalización de implementación le permite administrar este proceso fácilmente. Use el botón Publicar o Ver de la tarjeta del área de trabajo para publicar o ver la aplicación en una fase de canalización específica.
 
-[![publicar aplicación](media/deployment-pipelines-process/publish.png "Publicar aplicación")](media/deployment-pipelines-process/publish.png#lightbox)
+[![Captura de pantalla que resalta el botón para publicar aplicación, en la parte inferior derecha de la fase de producción.](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
 En la fase de producción, el botón de acción principal situado en la esquina inferior izquierda abre la página de actualización de la aplicación en Power BI, de modo que las actualizaciones de contenido pasan a estar disponibles para los usuarios de la aplicación.
 
-[![actualizar aplicación](media/deployment-pipelines-process/update-app.png "Actualizar aplicación")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![Captura de pantalla que resalta el botón para actualizar aplicación, en la parte inferior derecha de la fase de producción.](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >El proceso de implementación no incluye la actualización del contenido o la configuración de la aplicación. Para aplicar cambios al contenido o la configuración, debe actualizar manualmente la aplicación en la fase de canalización requerida.

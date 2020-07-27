@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e68d860800f2265923189e470bc633589e612c11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 785ad7b7d10a164f8257f8aacab177116c0b553b
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224148"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459632"
 ---
 # <a name="connect-to-pdf-files-in-power-bi-desktop"></a>Conectarse a archivos PDF en Power BI Desktop
 En Power BI Desktop, puede conectarse a un **archivo PDF** y usar los datos incluidos del archivo, como con cualquier otro origen de datos en Power BI Desktop.
@@ -39,6 +39,10 @@ Al activar una casilla junto a elementos detectados en el archivo PDF, estos se 
 A partir del lanzamiento de **Power BI Desktop** en noviembre de 2018, puede especificar la **página de inicio** y la **página de finalización** como parámetros opcionales para la conexión PDF. También puede especificar estos parámetros en el lenguaje de fórmulas M, con el formato siguiente:
 
 `Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
+
+## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
+
+Cuando se trabaja con el conector PDF en conjuntos de datos de una capacidad Premium, el conector PDF no realiza correctamente la conexión. Para permitir que el conector PDF funcione en un conjunto de datos en una capacidad Premium, configure ese conjunto de datos para que use una puerta de enlace y confirme que la conexión a ese conjunto de datos pasa a través de la puerta de enlace.  
 
 
 ## <a name="next-steps"></a>Pasos siguientes

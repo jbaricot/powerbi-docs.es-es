@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/22/2020
+ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 056d69a866b0b56e83557e77462e03e3e00a2c8d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218548"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409522"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Usar un filtro y una segmentación de tiempo relativo en Power BI
 
@@ -22,18 +22,12 @@ ms.locfileid: "85218548"
 
 Con los escenarios de actualización rápida que están surgiendo, la capacidad de filtrar por un período de tiempo más pequeño puede resultar útil. Con la segmentación de tiempo relativo o el filtro de tiempo relativo, puede aplicar filtros basados en el tiempo a cualquier columna de fecha o de hora del modelo de datos. Por ejemplo, puede usar la segmentación de tiempo relativa para mostrar solo las vistas de vídeo de la última hora o el último minuto. 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Ejemplo de tiempo relativo":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Captura de pantalla del ejemplo de tiempo relativo.":::
 
 No es necesario usar esta característica junto con la característica de [actualización automática de páginas](../create-reports/desktop-automatic-page-refresh.md), pero muchos escenarios de tiempo relativo se emparejan bien con la característica de actualización automática de páginas.  
 
 > [!NOTE]
 > Al aplicar un filtro de tiempo relativo o una segmentación de página o de informe, todos los objetos visuales de esa página o informe se filtran hasta el mismo intervalo de tiempo, mediante un tiempo *delimitador* compartido. Dado que los objetos visuales pueden tener tiempos de ejecución ligeramente diferentes, este tiempo delimitador compartido garantiza que los objetos visuales se sincronizan en la página o en el informe. En este artículo podrá leer más sobre el [tiempo delimitador](#understanding-anchor-time).
-
-## <a name="turn-on-relative-time-preview"></a>Activar la vista previa de tiempo relativo
-
-El filtro de tiempo relativo está en vista previa, por lo que se debe activar la modificación de característica. Vaya a **Archivo** > **Opciones y configuración** > **Opciones**. En **Configuración global** > **Características en vista previa**, asegúrese de que está seleccionado **Filtro de tiempo relativo**.
-
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-preview.png" alt-text="Establecer la opción de vista previa de tiempo relativo":::
 
 ## <a name="create-a-relative-time-slicer-or-filter"></a>Crear un filtro o segmentación de tiempo relativo
 
@@ -45,7 +39,7 @@ Después de habilitar la característica, puede arrastrar y colocar el campo de 
 
 2. Seleccione el tipo de visualización **Segmentación de datos**.
 
-    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="Crear una segmentación de tiempo":::
+    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="Captura de pantalla de creación de una segmentación de tiempo.":::
 
 ### <a name="create-a-filter"></a>Crear un filtro
  
@@ -55,27 +49,27 @@ Después de habilitar la característica, puede arrastrar y colocar el campo de 
 
 Después, cambie el tipo de filtro a **Tiempo relativo**.
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="Cambiar a tiempo relativo":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="Captura de pantalla del cambio al tiempo relativo.":::
  
 Este es el aspecto que tiene en una segmentación:
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="Tiempo relativo en una segmentación":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="Captura de pantalla del tiempo relativo en una segmentación.":::
 
 Este es el aspecto que tiene en una tarjeta de filtro: 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="Tiempo relativo en un filtro":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="Captura de pantalla del tiempo relativo en un filtro.":::
  
 Con este nuevo tipo de filtro, tiene la opción de filtrar según **Último**, **Siguiente** o **Este período de tiempo**: 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="Elegir Último, Siguiente o Este período de tiempo":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="Captura de pantalla de la elección de Último, Siguiente o Este período de tiempo.":::
  
 La ventana de tiempo se especifica con un número entero y una unidad de tiempo: **Minutos** u **Horas**.
  
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="Elegir minutos u horas":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="Captura de pantalla de la elección de minutos u horas.":::
 
 Si necesita ahorrar espacio en el lienzo, también puede crear el filtro de tiempo relativo como una tarjeta de filtro en el panel Filtros.
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="Establecer tiempo relativo en un filtro":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="Captura de pantalla del establecimiento del tiempo relativo en un filtro.":::
  
 ## <a name="understanding-anchor-time"></a>Descripción del tiempo delimitador
 
@@ -101,7 +95,7 @@ Actualmente se aplican estas limitaciones y consideraciones al filtro y la segme
     - No se admite a través de la API de inserción.
     - No se admite para publicar en la web.
 
-- **Almacenamiento en caché de consultas**: Usamos la memoria caché del cliente. Por lo tanto, supongamos que especifica "último minuto", luego "últimos 5 minutos" y después vuelve a "último minuto". En ese momento, verá los mismos resultados que cuando se ejecutó por primera vez, a menos que actualice la página o la página se actualice automáticamente.
+- **Almacenamiento en caché de consultas**: Usamos la memoria caché del cliente. Supongamos que especifica "último minuto", luego "últimos 5 minutos" y después vuelve a "último minuto". En ese momento, verá los mismos resultados que cuando se ejecutó por primera vez, a menos que actualice la página o la página se actualice automáticamente.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

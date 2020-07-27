@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: be945d1d9612804a90c14c47d2c468f5ed5a843f
-ms.sourcegitcommit: 008467dc9d4f88f91728c59caeb68b7db94f267c
+ms.openlocfilehash: 5522d84cab235270a2eb368be02cfa0fb4e5eaa9
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "82885039"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557150"
 ---
 # <a name="introduction-to-deployment-pipelines-preview"></a>Introducción a las canalizaciones de implementación (versión preliminar)
 
@@ -40,7 +40,7 @@ La herramienta está diseñada como una canalización con tres fases:
 
     Después de probar el contenido, use la fase de producción para compartir la versión final del contenido con los usuarios empresariales de la organización.
 
-![canalizaciones de implementación](media/deployment-pipelines-overview/deployment-pipelines.png)
+![Captura de pantalla de una canalización de implementación funcional con las tres fases (desarrollo, prueba y producción) rellenadas.](media/deployment-pipelines-overview/deployment-pipelines.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 

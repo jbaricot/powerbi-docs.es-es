@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354740"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557265"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>Introducción a las canalizaciones de implementación (versión preliminar)
 
@@ -31,7 +31,7 @@ Podrá acceder a la característica de canalizaciones de implementación si se c
 >[!NOTE]
 > También podrá ver el botón de canalizaciones de implementación, si anteriormente creó una canalización o si se compartió una canalización con usted.
 
-![página de aterrizaje de canalizaciones de implementación](media/deployment-pipelines-get-started/creating-pipeline.png)
+![Captura de pantalla de la página de aterrizaje de canalizaciones de implementación.](media/deployment-pipelines-get-started/creating-pipeline.png)
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>Paso1 : Crear una canalización de implementación
 
@@ -84,7 +84,7 @@ Una vez finalizada la implementación, actualice el conjunto de datos. Para más
 
 Seleccione la fase desde la que desea realizar la implementación y haga clic en el botón de implementación. El proceso de implementación crea un área de trabajo duplicada en la fase de destino. Esta área de trabajo incluye todo el contenido existente en la fase actual.
 
-[![implementación](media/deployment-pipelines-get-started/deploy.png "Implementar todo el contenido")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![Captura de pantalla que muestra el botón de implementación para las fases de desarrollo y pruebas en una canalización de implementación.](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>Implementación selectiva
 
@@ -92,7 +92,7 @@ Para implementar solo elementos específicos, haga clic en el vínculo **Mostrar
 
 Dado que los paneles, informes y conjuntos de datos están relacionados y tienen dependencias, puede usar el botón de selección de relacionados para comprobar todos los elementos de los que dependen esos elementos. Por ejemplo, si desea implementar un informe en la siguiente fase, al hacer clic en el botón de selección de relacionados, se marcará el conjunto de datos al que está conectado el informe, de modo que ambos se implementarán a la vez y el informe no se interrumpirá.
 
-[![implementación selectiva](media/deployment-pipelines-get-started/selective-deploy.png "Implementación selectiva")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![Captura de pantalla que muestra la opción de implementación selectiva en canalizaciones de implementación, disponible después de seleccionar la opción mostrar más.](media/deployment-pipelines-get-started/selective-deploy.png)](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * No se puede implementar un informe o un panel en la siguiente fase si los elementos de los que depende no existen en la fase en la que se está realizando la implementación.
@@ -104,7 +104,7 @@ Puede optar por implementar en una fase anterior, por ejemplo, en un escenario e
 
 La implementación en una fase anterior solo funciona si dicha fase no tiene contenido. Cuando se implementa en una fase anterior, no se pueden seleccionar elementos específicos. Se implementará todo el contenido de la fase.
 
-[![implementación hacia atrás](media/deployment-pipelines-get-started/deploy-back.png "Implementación hacia atrás")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![Captura de pantalla que muestra el botón de implementación en la fase anterior, disponible en los menús de fase de prueba o de producción.](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>Paso 4: Crear reglas de conjunto de datos
 
@@ -121,15 +121,15 @@ Las reglas de conjunto de datos se definen en orígenes de datos y parámetros, 
 
 1. En la fase de canalización para la que desea crear una regla de conjunto de datos, haga clic en **Configuración de la implementación**.
 
-    ![configuración de la implementación](media/deployment-pipelines-get-started/deployment-settings.png)
+    ![Captura de pantalla del botón configuración de implementación, que se encuentra en la parte superior derecha de cada fase de canalización de implementación.](media/deployment-pipelines-get-started/deployment-settings.png)
 
 2. En el panel Configuración de la implementación, seleccione el conjunto de datos para el que desea crear una regla.
 
-    [![reglas del conjunto de datos](media/deployment-pipelines-get-started/dataset-rules.png "Selección de un conjunto de datos")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![Captura de pantalla que muestra la selección de un conjunto de datos para crear una regla de conjunto de datos.](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. Seleccione el tipo de regla que desea crear, expanda la lista y haga clic en **Agregar regla**.
 
-     [![agregar regla](media/deployment-pipelines-get-started/add-rule.png "Adición de una regla")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![Captura de pantalla que muestra la selección de una regla de origen de datos, y clic en la opción agregar regla.](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>Tipos de reglas de conjunto de datos
 
@@ -152,6 +152,8 @@ Hay dos tipos de reglas que puede crear:
 * Cuando se quita o elimina un elemento, también se eliminan sus reglas. Estas reglas no se pueden restaurar.
 
 * Si el origen de datos o los parámetros definidos en una regla se cambian o se quitan del conjunto de datos de origen, la regla no será válida y se producirá un error en la implementación.
+
+* Las reglas de parámetros no se pueden definir para los parámetros que son de tipo *Cualquiera* o *Binario*. Para obtener más información, vea las [restricciones de los parámetros de actualización en conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters).
 
 * Las reglas de origen de datos solo se pueden definir para los siguientes orígenes de datos:
     * Azure Analysis Services
@@ -180,7 +182,7 @@ El tiempo de implementación es útil para establecer cuándo se actualizó por 
 
 Cuando dos fases secuenciales tienen contenido, este se compara en función de los metadatos de los elementos de contenido. Esta comparación no incluye la comparación de datos o el tiempo de actualización entre fases.
 
- [![flujo de implementación](media/deployment-pipelines-get-started/deployment-flow.png "Comparación de fases")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![Captura de pantalla que muestra una canalización de implementación con sus indicadores de comparación.](media/deployment-pipelines-get-started/deployment-flow.png)](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 Para permitir una conclusión visual rápida de las diferencias entre dos fases secuenciales, aparece un indicador de icono de comparación entre ellas. El indicador de comparación tiene dos estados:
 
@@ -201,13 +203,13 @@ Cuando dos fases secuenciales no son iguales, aparece un vínculo **Comparar** d
     >[!NOTE]
     >La implementación no afectará a los elementos con la etiqueta *Falta en*.
 
- [![comparar](media/deployment-pipelines-get-started/compare.png "Vista de comparación")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![Captura de pantalla que muestra la opción de comparación que amplía la vista de comparación y permite comparar los elementos entre las fases de canalización de implementación.](media/deployment-pipelines-get-started/compare.png)](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>Invalidación de contenido
 
 Cuando se implementa después de realizar cambios en el contenido de la fase de origen, el contenido cambiado en la fase de destino se sobrescribe. Después de hacer clic en *Implementar*, aparecerá una advertencia con el número de elementos que se sobrescribirán.
 
-![advertencia de contenido reemplazado](media/deployment-pipelines-get-started/replaced-content.png)
+![Captura de pantalla de la advertencia de contenido reemplazado que se muestra cuando una implementación está a punto de producir cambios en los elementos de la fase en la que se está implementando.](media/deployment-pipelines-get-started/replaced-content.png)
 
 Puede obtener más información sobre [qué elementos se copian a la siguiente fase](deployment-pipelines-process.md#deployed-items) y [qué elementos no se copian](deployment-pipelines-process.md#unsupported-items), en [Descripción del proceso de implementación](deployment-pipelines-process.md).
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/08/2020
-ms.openlocfilehash: 037fbdf3c1e4c01bac91e6089f9fa1c7dd1635d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 07/14/2020
+ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238994"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437224"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicación de objetos visuales de Power BI en el Centro de partners
 
@@ -23,7 +23,7 @@ Una vez que haya creado un objeto visual de Power BI, puede publicarlo en AppSo
 
 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) es el lugar donde podrá encontrar aplicaciones SaaS y complementos para sus productos y servicios de Microsoft.
 
-![Tienda Office](media/office-store/appsource-01.png)
+![Captura de pantalla de los objetos visuales de Power BI en AppSource.](media/office-store/appsource-01.png)
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Preparación para enviar el objeto visual de Power BI
 
@@ -61,7 +61,7 @@ Adjunte tanto el **archivo pbiviz** como el **archivo pbix del informe de ejempl
 
 ## <a name="submitting-to-appsource"></a>Envío a AppSource
 
-Para enviar el objeto visual de Power BI a AppSource, debe obtener un paquete de la aplicación desde el equipo de Power BI y, luego, enviarlo al Centro de partners. 
+Para enviar el objeto visual de Power BI a AppSource, debe obtener un paquete de la aplicación desde el equipo de Power BI y, luego, enviarlo al Centro de partners.
 
 ### <a name="getting-the-app-package"></a>Obtención del paquete de la aplicación
 
@@ -73,6 +73,11 @@ El equipo de Power BI tiene que comprobar en los archivos si hay envíos de nue
 
 Para enviar el objeto visual de Power BI al Centro de partners, debe estar registrado en dicho centro. Si todavía no está registrado, [abra una cuenta de desarrollador en el Centro de partners](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
 
+>[!NOTE]
+>Los **publicadores individuales** pueden usar uno de estos métodos para enviar un objeto visual de Power BI:
+>* Si tiene una cuenta de Panel de vendedores antigua, puede seguir usando las credenciales de esta cuenta para iniciar sesión en el Centro de partners.
+>* Si no tiene una cuenta de Panel de vendedores antigua y no se ha registrado en el Centro de partners, deberá [abrir una cuenta de desarrollador en el Centro de partners](https://docs.microsoft.com/office/dev/store/open-a-developer-account) mediante el correo electrónico profesional.
+
 Siga los pasos que aparecen a continuación para enviar el objeto visual de Power BI al Centro de partners. Para más información sobre el proceso de envío, consulte [Enviar la solución de Office a AppSource con el Centro de partners](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource).
 
 1. Inicie sesión en el **Centro de partners**.
@@ -83,7 +88,7 @@ Siga los pasos que aparecen a continuación para enviar el objeto visual de Powe
 
 4. Seleccione **Crear** y, en el menú desplegable, seleccione **Objeto visual de Power BI**.
 
-    ![Tienda Office](media/office-store/power-bi-visual.png)
+    ![Captura de pantalla de creación de un nuevo objeto visual de Power BI en la pestaña de la tienda Office del Centro de partners.](media/office-store/power-bi-visual.png)
 
 5. En la ventana **Crear un objeto visual de Power BI**, escriba un nombre para el objeto visual de Power BI y seleccione **Crear**.
 

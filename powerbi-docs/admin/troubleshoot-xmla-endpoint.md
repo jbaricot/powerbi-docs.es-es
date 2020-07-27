@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 06/16/2020
+ms.date: 07/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: be55180f57fec683b8da426e6c73bb95d6365d2f
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 5d6e3af615a73f8e4a3db42406bf94e33f16a2a3
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485539"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459678"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Solución de problemas de conectividad de los puntos de conexión XMLA
 
@@ -89,7 +89,7 @@ No se admite la creación de un proyecto tabular nuevo en Visual Studio mediant
 
 Se recomienda especificar el nivel de compatibilidad 1500 (o superior) para los modelos tabulares. Este nivel de compatibilidad admite la mayoría de las funcionalidades y los tipos de orígenes de datos. Los niveles de compatibilidad posteriores son compatibles con las versiones anteriores de los niveles.
 
-### <a name="unsupported-data-providers"></a>Proveedores de datos no admitidos
+### <a name="supported-data-providers"></a>Proveedores de datos admitidos
 
 En el nivel de compatibilidad 1500, Power BI admite estos tipos de orígenes de datos:
 

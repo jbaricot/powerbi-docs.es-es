@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 02/21/2020
+ms.date: 07/16/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e1b127bae83338264ac450438956e03a5ec24cb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7fecec5ed41f0de9227cf30ed3ba4f39b23f21e9
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236647"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459563"
 ---
 # <a name="manage-data-sources"></a>Administración de orígenes de datos
 
@@ -101,6 +101,9 @@ OAuth es un esquema de autenticación compatible solo para conectores personaliz
 Después de agregar un origen de datos a una puerta de enlace, conceda acceso a los usuarios y grupos de seguridad habilitados para correo electrónico al origen de datos específico (no a toda la puerta de enlace). La lista de usuarios del origen de datos controla solo a quién se le permite publicar informes que incluyen datos del origen de datos. Los propietarios de informes pueden crear paneles, paquetes de contenido y aplicaciones y compartir esos elementos con otros usuarios.
 
 También puede conceder acceso administrativo a los usuarios y grupos de seguridad a la puerta de enlace.
+
+> [!NOTE]
+> Los usuarios con acceso al origen de los datos pueden asociar los conjuntos de datos al origen de datos y conectarse a ellos, en función de las opciones de seguridad (las credenciales almacenadas o el inicio de sesión único) seleccionadas durante la creación de un origen de datos.
 
 ### <a name="add-users-to-a-data-source"></a>Adición de usuarios a un origen de datos
 

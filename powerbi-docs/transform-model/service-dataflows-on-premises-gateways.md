@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 01/08/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4146cef6ae34c7c6e5eb9713242c3a2cb0257ee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a3e393fa02d0bccc3e966c467b41883e72ae05e
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237770"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459655"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Uso de flujos de datos con orígenes de datos locales
 
@@ -69,6 +69,7 @@ Hay algunas limitaciones conocidas para el uso de Enterprise Gateway y de los fl
 * Cambiar la puerta de enlace repercute en todo el flujo de datos.
 * Si se necesitan varias puertas de enlace, el procedimiento recomendado es crear varios flujos de datos (uno para cada puerta de enlace) y usar las funcionalidades de referencia a procesos o entidades para unificar los datos.
 * Los flujos de datos solo se admiten con Enterprise Gateway. Las puertas de enlace personales no estarán disponibles para seleccionarlas en las listas desplegables ni en las pantallas de configuración.
+* Los orígenes de datos locales configurados con la opción [Uso de SSO mediante Kerberos en consultas de importación y DirectQuery](../connect-data/service-gateway-sso-kerberos.md#run-a-power-bi-report) no se admiten en flujos de datos.
 
 
 ## <a name="next-steps"></a>Pasos siguientes

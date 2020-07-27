@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 03/24/2020
-ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/13/2020
+ms.openlocfilehash: 04dae0a59391ba48c7a8b6858c98ed11490ca946
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034506"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557115"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportación de un informe de Power BI a un archivo (versión preliminar)
 
@@ -117,9 +117,10 @@ Un trabajo que supere su número de solicitudes simultáneas no se termina. Por 
 
 Cuando crea un trabajo de exportación, hay tres pasos que se deben seguir:
 
-1. Envío de una solicitud de exportación.
-2. Sondeo.
-3. Obtención del archivo.
+1. [Envío de una solicitud de exportación](#step-1---sending-an-export-request).
+2. [Sondeo](#step-2---polling).
+3. [Obtención del archivo](#step-3---getting-the-file).
+4. [Uso de la secuencia de archivo](#step-4---using-the-file-stream).
 
 En esta sección se proporcionan ejemplos para cada paso.
 
@@ -231,6 +232,10 @@ public class ExportedFile
     public string FileSuffix;
 }
 ```
+
+### <a name="step-4---using-the-file-stream"></a>Paso 4: uso de la secuencia de archivo
+
+Cuando tenga la secuencia de archivo, puede administrarla de la manera que mejor se adapte a sus necesidades. Por ejemplo, puede enviarla por correo electrónico o usarla para descargar los informes exportados.
 
 ### <a name="end-to-end-example"></a>Ejemplo de un extremo a otro
 

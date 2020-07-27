@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/04/2020
+ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: dc71bff7cd27ec369899a02cc9da0f916a043af1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225228"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437285"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtro de un informe con parámetros de cadena de consulta en la URL
 
 Al abrir un informe en el servicio Power BI, cada página del informe tiene su propia URL única. Para filtrar esa página del informe, podría utilizar el panel Filtros del lienzo de informes.  También podría agregar parámetros de cadena de consulta a la dirección URL para filtrar previamente el informe. Es posible que tenga un informe que quiera prefiltrarlo para mostrarlo a sus compañeros. Una manera de filtrar es comenzar con la dirección URL predeterminada del informe, agregarle los parámetros de filtro y luego enviar por correo electrónico la nueva dirección URL completa.
 
-![Informe de Power BI en el servicio](media/service-url-filters/power-bi-report2.png)
+Este artículo usa el ejemplo de análisis de minoristas. Para seguir este tutorial, puede [descargar el informe de ejemplo](../create-reports/sample-retail-analysis.md#get-the-sample).
+
+![Captura de pantalla del informe de Power BI en el servicio.](media/service-url-filters/power-bi-retail-analysis-sample.png)
 
 ## <a name="uses-for-query-string-parameters"></a>Usos de los parámetros de cadena de consulta
 
@@ -35,18 +37,10 @@ Con los parámetros, puede filtrar el informe por uno o varios valores, aunque e
 
 *URL*?filter=*Table*/*Field* eq '*value*'
 
-![Dirección URL con filtro](media/service-url-filters/power-bi-filter-urls7b.png)
+![Captura de pantalla de la dirección URL con filtro.](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * Los nombres de **Tabla** y **Campo** distinguen mayúsculas de minúsculas, pero **valor** no.
 * Todavía se pueden seguir filtrando los campos que están ocultos en la vista de informes.
-
-### <a name="reports-in-apps"></a>Informes en aplicaciones
-
-Si desea agregar un filtro de dirección URL a un informe en una aplicación, el formato es un poco diferente. Los vínculos a los informes de una aplicación tienen un parámetro de consulta (ctid) que se agrega a la dirección URL. Separe los parámetros de consulta con una Y comercial (&). Mantenga "?filter=" y mueva el parámetro ctid al final de la dirección URL, precedido por una Y comercial (&). 
-
-Al igual que en este ejemplo:
-
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq "*value*"&ctid=*ctid*
 
 ### <a name="field-types"></a>Tipos de campos
 
@@ -62,27 +56,19 @@ Si le sigue sin quedar claro, siga leyendo.
 
 Supongamos que la URL del informe es la siguiente.
 
-![Dirección URL de inicio](media/service-url-filters/power-bi-filter-urls6.png)
+![Captura de pantalla de la dirección URL de inicio.](media/service-url-filters/power-bi-filter-urls6.png)
 
-Y que tenemos almacenes en Carolina del Norte, tal como vemos en nuestra visualización de mapas (arriba).
+Y que tenemos almacenes en Carolina del Norte, tal como vemos en nuestra visualización de mapas (arriba). *NC* es el valor que representa a Carolina del Norte en el campo **Territorio** de la tabla **Almacén**. Para filtrar el informe para que solo muestre los datos de tiendas de "NC", anexamos esta cadena a la dirección URL:
 
->[!NOTE]
->Este artículo se basa en el ejemplo de [análisis de minoristas](../create-reports/sample-datasets.md).
-> 
+```
+?filter=Store/Territory eq 'NC'
+```
 
-Para filtrar el informe para que solo muestre los datos de tiendas de "NC" (Carolina del Norte), anexe la URL con lo siguiente:
+![Captura de pantalla de la dirección URL con filtro.](media/service-url-filters/power-bi-filter-urls7.png)
 
-?filter=Tienda/Territorio eq 'NC'
+Ahora, el informe se filtra por Carolina del Norte; todas las visualizaciones del informe muestran datos solo para Carolina del Norte.
 
-![Dirección URL con filtro](media/service-url-filters/power-bi-filter-urls7.png)
-
->[!NOTE]
->*NC* es un valor almacenado en el campo **Territorio** de la tabla **Almacén**.
-> 
-
-El informe se filtra por North Carolina; todas las visualizaciones de la página del informe solo muestran datos de Carolina del Norte.
-
-![Informe filtrado para Carolina del Norte](media/service-url-filters/power-bi-report4.png)
+![Captura de pantalla del informe filtrado para Carolina del Norte.](media/service-url-filters/power-bi-url-filter-nc.png)
 
 ## <a name="filter-on-more-than-one-value-in-a-field"></a>Filtrado por más de un valor en un campo
 
@@ -92,7 +78,9 @@ Para filtrar por más de un valor en un solo campo, use el operador **in** en lu
 
 Usando el mismo ejemplo, para filtrar el informe de forma que solo se muestren los datos de los almacenes de "NC" (Carolina del norte) o "TN" (Tennessee), anexe a la dirección URL lo siguiente:
 
+```
 ?filter=Store/Territory in ('NC', 'TN')
+```
 
 Consulte la tabla [Operadores](#operators) más adelante en el artículo para ver una lista de otros operadores útiles.
 
@@ -167,10 +155,10 @@ Los caracteres especiales y los espacios en los nombres de tabla y de columna ne
 |**[Columna]**     |  [es 0x005B] es 0x005D       |  _x005B_Column_x005D_       |
 |**Columna+Más**     | + es 0x2B        |  Column_x002B_Plus       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![objeto visual de tabla que representa caracteres especiales](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![Captura de pantalla del objeto visual de tabla que representa caracteres especiales.](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![objeto visual de tabla que representa caracteres especiales](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Captura de pantalla del objeto visual de tabla que representa caracteres especiales.](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>Caracteres especiales en valores
 
@@ -200,7 +188,9 @@ TerritoryChain = [Territorio] & " - " & [Cadena]
 
 Publique el informe en el servicio Power BI y, luego, use la cadena de consulta de URL para filtrar y mostrar los datos de solo las tiendas Lindseys de Carolina del Norte.
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
+https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Anclaje de un icono desde un informe filtrado
 
@@ -216,6 +206,7 @@ Hay un par de cosas que tener en cuenta al utilizar los parámetros de cadena de
 * Power BI Report Server también permite especificar filtros adicionales mediante el parámetro de URL "filter". Este es un posible ejemplo de la dirección URL en Power BI Report Server: `https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * Los filtros de dirección URL de informe tienen un límite de diez expresiones (diez filtros conectados mediante AND).
 * El tipo de datos long es (2^53-1) debido a las limitaciones de JavaScript.
+* Power BI no limita el número de caracteres de las cadenas de consulta de dirección URL. Los distintos exploradores tienen restricciones de longitud diferentes.
 
 Los filtros de dirección URL se admiten en algunos escenarios de inserción y no en otros.
 
