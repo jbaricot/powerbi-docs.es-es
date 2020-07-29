@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3cf9d59926c1a38d83f386c7ae01fbdcf1a7fc95
-ms.sourcegitcommit: a58d10ca62bc55e83b58cf8e8495ac01a4bd6532
+ms.openlocfilehash: 4af8f9edd3d51214aaa766219e4903eb4b26b813
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2020
-ms.locfileid: "85120443"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252553"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Formas de colaborar y compartir en Power BI
 
@@ -73,7 +73,7 @@ Cuando se agrega una pestaña de informe de Power BI a Microsoft Teams, este c
 
 :::image type="content" source="media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-teams-conversation-tab.png" alt-text="Pestaña conversación de Microsoft Teams":::
 
-Obtenga más información sobre la [colaboración en Microsoft Teams con Power BI](service-embed-report-microsoft-teams.md).
+Obtenga más información sobre la [colaboración en Microsoft Teams con Power BI](service-collaborate-microsoft-teams.md).
 
 ## <a name="share-dashboards-and-reports"></a>Compartir los paneles e informes
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 40f1e0938f54fe55abf8148e12f8842041b42c3d
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273078"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252783"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
 Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI**. Para obtener información sobre novedades, vea:
@@ -42,7 +42,7 @@ Asimismo, para obtener información sobre las novedades y características, cons
 
 ### <a name="february-2020"></a>Febrero de 2020
 * Capacidad de promocionar paneles, informes y aplicaciones en Inicio de Power BI.
-* Nueva [pestaña Power BI](../collaborate-share/service-embed-report-microsoft-teams.md) para insertar informes en Microsoft Teams.
+* Nueva [pestaña Power BI](../collaborate-share/service-collaborate-microsoft-teams.md) para insertar informes en Microsoft Teams.
 * Disponibilidad general de [actualizaciones incrementales](../admin/service-premium-incremental-refresh.md) con compatibilidad para usuarios de Power BI Pro.
 * Compatibilidad de las suscripciones de correo electrónico con direcciones de correo electrónico externas.
 * Disponibilidad general de [Bring Your Own Key (BYOK)](../admin/service-encryption-byok.md) para Power BI Premium.
