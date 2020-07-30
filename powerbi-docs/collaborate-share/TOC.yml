@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: Introducción
+    - name: Información general
       expanded: true
       items:
         - name: Formas de compartir el trabajo
@@ -27,7 +27,7 @@
               href: service-workspaces-new-look.md
             - name: Actualización de áreas de trabajo clásicas
               href: ../collaborate-share/service-upgrade-workspaces.md
-            - name: Creación de áreas de trabajo
+            - name: Crear áreas de trabajo
               href: service-create-workspaces.md
             - name: Publicación de aplicaciones de áreas de trabajo
               href: service-create-distribute-apps.md
@@ -37,6 +37,8 @@
               href: service-data-lineage.md
             - name: Análisis de impacto para conjuntos de datos
               href: service-dataset-impact-analysis.md
+            - name: Análisis del impacto de los orígenes de datos
+              href: service-data-source-impact-analysis.md
             - name: Aplicación de etiquetas de confidencialidad de datos
               href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: Conexión a los archivos de OneDrive de su grupo
@@ -45,6 +47,16 @@
               href: service-collaborate-power-bi-workspace.md
             - name: "Administración del grupo en Power\_BI y Microsoft\_365"
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
+        - name: "Power\_BI en Teams"
+          items:
+            - name: Colaboración en Teams
+              href: service-collaborate-microsoft-teams.md
+            - name: Inserción de informes en Teams
+              href: service-embed-report-microsoft-teams.md
+            - name: Uso compartido directamente en Teams
+              href: service-share-report-teams.md
+            - name: Vista previa de un vínculo en Teams
+              href: service-teams-link-preview.md
         - name: Publicación y uso compartido del trabajo
           items:
             - name: Compartir los paneles e informes
@@ -61,8 +73,6 @@
               href: service-report-subscribe.md
             - name: Contenido destacado en Inicio
               href: service-featured-content.md
-            - name: Inserción de un informe en Microsoft Teams
-              href: service-embed-report-microsoft-teams.md
             - name: Inserción de informes en SharePoint Online
               href: service-embed-report-spo.md
             - name: Inserción de informes en un sitio web o portal seguro
@@ -71,20 +81,22 @@
               href: service-publish-to-web.md
             - name: Compartir un panel que se vincula a un libro de Excel en OneDrive
               href: service-share-dashboard-that-links-to-excel-onedrive.md
-        - name: Amplíe Power BI
+        - name: "Power\_BI en Excel"
           items:
             - name: Analizar en Excel
               href: service-analyze-in-excel.md
-            - name: "Tablas destacadas de Power\_BI en Excel"
+            - name: "Uso de tablas destacadas de Power\_BI en Excel"
               href: service-excel-featured-tables.md
+            - name: Establecimiento de tablas destacadas
+              href: service-create-excel-featured-tables.md
             - name: Solución de problemas con la función Analizar en Excel
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Error: Datos no encontrados en el libro de Excel'
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
-            - name: "Power\_Automate y Power\_BI"
-              href: service-flow-integration.md
-            - name: Usar aplicaciones de terceros
-              href: service-power-bi-get-started-third-party-apps.md
+        - name: "Power\_Automate y Power\_BI"
+          href: service-flow-integration.md
+        - name: Usar aplicaciones de terceros
+          href: service-power-bi-get-started-third-party-apps.md
         - name: Paquetes de contenido organizativos
           items:
             - name: Introducción a los paquetes de contenido organizativos
