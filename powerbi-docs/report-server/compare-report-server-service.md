@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 07/08/2020
-ms.openlocfilehash: 34f4265444d030902474c740dda91f8431d36625
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.date: 07/27/2020
+ms.openlocfilehash: c91642a08642a52b333ccba14078068eaa9ba616
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216523"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252875"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparación de Power BI Report Server y el servicio Power BI
 
@@ -48,6 +48,7 @@ Power BI Report Server y el servicio Power BI tienen muchas similitudes y alguna
 | Suscripciones de correo electrónico para informes paginados | Sí | Sí | [Suscripción personal y de otros usuarios a informes paginados en el servicio Power BI](../consumer/paginated-reports-subscriptions.md)<br><br>[Entrega de correo electrónico en Reporting Services](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | Alertas de datos | No | Sí | [Alertas de datos](../create-reports/service-set-data-alerts.md) en el servicio Power BI
 | Seguridad de nivel de fila (RLS) | Sí | Sí | Disponible en DirectQuery (origen de datos) y en el modo de importación <br><br>Seguridad de nivel de fila (RLS) en el [servicio Power BI](../admin/service-admin-rls.md) <br><br>Seguridad de nivel de fila (RLS) en [Power BI Report Server](row-level-security-report-server.md) |
+| Obtención de detalles de varios informes | No | Sí | [Uso de la obtención de detalles de varios informes](../create-reports/desktop-cross-report-drill-through.md) |
 | Modo de pantalla completa | No | Sí | [Modo de pantalla completa](../consumer/end-user-focus.md) en el servicio Power BI |
 | Colaboración de Microsoft 365 avanzada | No | Sí | [Colaboración en un área de trabajo](../collaborate-share/service-collaborate-power-bi-workspace.md) con Microsoft 365 |
 | Scripts y objetos visuales de R | No | Sí | [Cree objetos visuales de R](../create-reports/desktop-r-visuals.md) y ejecute scripts de R en Power BI Desktop, y publíquelos en el servicio Power BI. No se pueden guardar los informes de Power BI con objetos visuales o scripts de R en Power BI Report Server.  |

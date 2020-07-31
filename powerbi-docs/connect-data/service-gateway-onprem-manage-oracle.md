@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc9a36b4a4e54d6388625921c98c571859568f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0b617afdeb69f2367b83ad40b2146f5ce78cdc89
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237585"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364017"
 ---
 # <a name="manage-your-data-source---oracle"></a>Administrar el origen de datos: Oracle
 
@@ -22,44 +22,22 @@ ms.locfileid: "85237585"
 
 Después de [instalar la puerta de enlace de datos local](/data-integration/gateway/service-gateway-install), tendrá que [agregar orígenes de datos](service-gateway-data-sources.md#add-a-data-source) que se puedan usar con ella. En este artículo se describe cómo trabajar con puertas de enlace y orígenes de datos de Oracle para la actualización programada o para DirectQuery.
 
+## <a name="connect-to-an-oracle-database"></a>Conectarse a una base de datos de Oracle
+Para conectarse a una base de datos de Oracle con la puerta de enlace de datos local, en el equipo donde se ejecute la puerta de enlace debe estar instalado el software cliente de Oracle correcto. El software cliente de Oracle que use dependerá de la versión del servidor de Oracle, pero siempre coincidirá con la puerta de enlace de 64 bits.
+
+Versiones de Oracle compatibles: 
+- Oracle Server 9 y versiones posteriores
+- Software de Oracle Data Access Client (ODAC) 11.2 y versiones posteriores
+
 ## <a name="install-the-oracle-client"></a>Instalación del cliente de Oracle
+- [Descargue e instale el cliente de Oracle de 64 bits](https://www.oracle.com/database/technologies/odac-downloads.html).
 
-Para conectar la puerta de enlace al servidor de Oracle, el proveedor de datos de Oracle para .NET (ODP.NET) ha de estar instalado y configurado. ODP.NET forma parte de Oracle Data Access Components (ODAC).
-
-En el caso de las versiones de 32 bits de Power BI Desktop, use el vínculo siguiente para descargar e instalar el cliente de 32 bits de Oracle:
-
-* [Oracle Data Access Components (ODAC) de 32 bits con Oracle Developer Tools para Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
-
-En el caso de las versiones de 64 bits de Power BI Desktop o de la puerta de enlace de datos local, use el siguiente vínculo para descargar e instalar el cliente de Oracle de 64 bits:
-
-* [ODAC 12.2c versión 1 (12.2.0.1.0) de 64 bits para Windows x64](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
-
-Después de instalar el cliente, configure el archivo tnsnames.ora con la información adecuada para la base de datos. Power BI Desktop y la puerta de enlace se activan mediante el parámetro net_service_name definido en el archivo tnsnames.ora. Si net_service_name no está configurado, no podrá conectarse. La ruta de acceso predeterminada para tnsnames.ora es `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Para obtener más información sobre cómo configurar los archivos tnsnames.ora, consulte [Oracle: Parámetros de nomenclatura local (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm).
-
-### <a name="example-tnsnamesora-file-entry"></a>Ejemplo de entrada de archivo tnsnames.ora
-
-Este es el formato básico de una entrada en tnsname.ora:
-
-```
-net_service_name=
- (DESCRIPTION=
-   (ADDRESS=(protocol_address_information))
-   (CONNECT_DATA=
-     (SERVICE_NAME=service_name)))
-```
-
-Aquí tiene un ejemplo que incluye la información del servidor y el puerto:
-
-```
-CONTOSO =
-  (DESCRIPTION =
-    (ADDRESS = (PROTOCOL = TCP)(HOST = oracleserver.contoso.com)(PORT = 1521))
-    (CONNECT_DATA =
-      (SERVER = DEDICATED)
-      (SERVICE_NAME = CONTOSO)
-    )
-  )
-```
+> [!NOTE]
+> Elija una versión de Oracle Data Access Client (ODAC) que sea compatible con el servidor de Oracle. Por ejemplo, ODAC 12.x no siempre es compatible con la versión 9 de Oracle Server.
+> Elija el instalador de Windows del cliente de Oracle.
+> Durante la configuración del cliente de Oracle, asegúrese de habilitar *Configurar los proveedores de ODP.NET y/o Oracle para ASP.NET en el nivel de equipo* mediante la casilla correspondiente en el asistente para la instalación. Algunas versiones del asistente para clientes de Oracle activan la casilla de forma predeterminada y otras no. Asegúrese de que la casilla está activada para que Power BI pueda conectarse a la base de datos de Oracle.
+ 
+Una vez que se ha instalado el cliente y después de configurar ODAC correctamente, se recomienda usar Power BI Desktop u otro cliente de prueba para comprobar la instalación y configuración correctas en la puerta de enlace.
 
 ## <a name="add-a-data-source"></a>Elegir un origen de datos
 
@@ -121,8 +99,9 @@ Es posible que se produzcan varios errores en Oracle si la sintaxis de los nombr
 
 Estos errores podrían producirse si el cliente de Oracle no está instalado o no se ha configurado correctamente. Si está instalado, compruebe que el archivo tnsnames.ora esté configurado correctamente y que usa el parámetro net_service_name adecuado. También tendrá que asegurarse de que net_service_name sea el mismo en la máquina en donde se usa Power BI Desktop y la que ejecuta la puerta de enlace. Para obtener más información, vea [Instalación del cliente de Oracle](#install-the-oracle-client).
 
-> [!NOTE]
-> También podría encontrar un problema de compatibilidad entre la versión del servidor y la del cliente de Oracle. Normalmente, las versiones deberían coincidir.
+También es posible que encuentre un problema de compatibilidad entre la versión del servidor de Oracle y la de Oracle Data Access Client. Normalmente, le interesa que estas versiones coincidan, ya que algunas combinaciones son incompatibles. Por ejemplo, ODAC 12.x no es compatible con la versión 9 de Oracle Server.
+
+Para diagnosticar problemas de conectividad entre el servidor de origen de datos y el equipo de puerta de enlace, se recomienda instalar un cliente (como Power BI Desktop u Oracle ODBC Test) en el equipo de puerta de enlace. Puede usar el cliente para comprobar la conectividad con el servidor de origen de datos.
 
 Para obtener más información sobre la solución de problemas relacionados con la puerta de enlace, vea [Solución de problemas con la puerta de enlace de datos local](/data-integration/gateway/service-gateway-tshoot).
 

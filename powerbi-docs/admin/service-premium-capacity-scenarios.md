@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9b3e06172d29f218f9234cf1f3d7e1f623495001
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dc5f952aa38e2ab36887ec3f2727e2e253389460
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135119"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952671"
 ---
 # <a name="premium-capacity-scenarios"></a>Escenarios de las capacidades Premium
 
@@ -67,7 +67,7 @@ El administrador de Power BI puede intentar resolver el problema tomando medida
 
 ## <a name="identifying-slow-responding-datasets"></a>Identificación de los conjuntos de datos de respuesta lenta
 
-En este escenario, se ha iniciado una investigación porque los usuarios se han quejado de que determinados informes tardaban demasiado tiempo en abrirse y, a veces, se bloqueaban.
+En este escenario, se ha iniciado una investigación porque los usuarios se han quejado de que determinados informes tardaban demasiado tiempo en abrirse y, en ocasiones, dejaban de responder.
 
 En la aplicación, el administrador de Power BI puede utilizar el objeto visual **Duraciones de consulta** para determinar los conjuntos de datos de peor rendimiento mediante la ordenación de estos en orden descendente por **Duración promedio**. Este objeto visual también muestra los recuentos de consultas de conjuntos de datos, por lo que puede ver la frecuencia con que se consultan estos.
 
@@ -141,7 +141,7 @@ Este efecto puede ser especialmente visible cuando un conjunto de datos se utili
 
 En algunos casos, los administradores de Power BI pueden solicitar que los propietarios de los conjuntos de datos creen una carga de trabajo de consultas menos volátil mediante la creación de un panel (que realiza consultas periódicas con cualquier actualización del conjunto de datos de los iconos en caché) en lugar de un informe. Esto puede ayudar a evitar picos cuando se carga el panel. Esta solución no siempre es posible para determinados requisitos empresariales pero puede ser una manera eficaz de evitar la saturación de la CPU sin realizar cambios en el conjunto de datos.
 
-## <a name="acknowledgements"></a>Agradecimientos
+## <a name="acknowledgments"></a>Agradecimientos
 
 Este artículo es obra de Peter Myers, MVP de plataforma de datos y experto independiente de BI con [Bitwise Solutions](https://www.bitwisesolutions.com.au/).
 

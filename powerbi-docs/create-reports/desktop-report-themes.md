@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/01/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 48ff2852f2c7df3a1b005d730a3f91dc9e434f62
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232243"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364109"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Uso de los temas para los informes en Power BI Desktop
 
@@ -43,6 +43,9 @@ Para aplicar un tema para informes a un informe de Power BI Desktop, puede sele
 * [Importar un archivo JSON de tema personalizado](#import-custom-report-theme-files).
 
 Cada una de estas opciones se describirá de forma individual.
+
+> [!NOTE]
+> Los temas solo se pueden aplicar cuando se usa Power BI Desktop. No se pueden aplicar temas a los informes existentes en el servicio Power BI. 
 
 ### <a name="built-in-report-themes"></a>Temas para informes integrados
 
@@ -78,7 +81,7 @@ Para seleccionar los temas para informes integrados que hay disponibles:
     | Clase | ![Clase](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
     | Apto para daltónicos | ![Apto para daltónicos](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
     | Eléctrico | ![Eléctrico](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
-    | Contraste alto | ![Contraste alto](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+    | Alto contraste | ![Contraste alto](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
     | Puesta de sol | ![Puesta de sol](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
     | Crepúsculo | ![Crepúsculo](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
     
@@ -198,6 +201,15 @@ Para ver los colores disponibles en un tema para informes:
 En nuestro ejemplo, después de aplicar la gran cantidad de colores verdes y marrones del tema para informes St. Patrick's Day, vea los colores del tema. ¿Puede ver toda esa cantidad de verde? Esto se debe a que esos colores formaban parte del tema para informes que importamos y aplicamos.
 
 Los colores de la paleta de colores también son relativos al tema actual. Por ejemplo, supongamos que selecciona el tercer color de la fila superior de un punto de datos. Más adelante, si cambia a otro tema, el color del punto de datos se actualiza automáticamente al tercer color de la fila superior del nuevo tema, como se vería al cambiar los temas en Microsoft Office.
+
+La configuración de los temas de un informe cambia los colores predeterminados que se usan en los objetos visuales de todo el informe. Power BI mantiene una lista que consta de cientos de colores, para asegurarse de que los objetos visuales tienen muchos colores únicos que mostrar en un informe. Cuando Power BI asigna colores a una serie de objetos visuales, los colores se seleccionan por orden de aparición. Al importar un tema, se restablece la asignación de colores de la serie de datos. 
+
+Power BI realiza el seguimiento del color de una serie dinámica y usa el mismo color para el valor de otros objetos visuales. En una *serie dinámica*, el número de series presentadas en los objetos visuales puede cambiar en función de medidas, valores u otros aspectos. Por ejemplo, si muestra *Beneficios por región* en un informe, el número de regiones de ventas podría ser cinco o nueve. El número de regiones es dinámico, por lo que se considera una serie dinámica. 
+
+Por el contrario, para las *series estáticas*, el número de series es conocido. Por ejemplo, *Beneficios* e *Ingresos* son series estáticas. En una serie estática, Power BI asigna colores por índice dentro de las paletas de temas. Puede invalidar la asignación de color predeterminada si selecciona un color en el panel de formato en **Colores de datos**. Es posible que tenga que cambiar las selecciones de segmentación para ver todos los valores posibles de la serie y establecer también sus colores. Si establece de forma explícita un color en un solo objeto visual mediante el panel **Propiedades**, el tema importado no se aplica a ninguno de los colores definidos explícitamente. 
+
+Para permitir que el tema se aplique a los colores seleccionados de forma explícita, use **Volver al valor predeterminado** en la sección **Colores de datos** del objeto visual en el que se ha establecido explícitamente el color, para deshacer la aplicación de color explícita y permitir que se aplique el tema.
+
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situaciones en las que los colores del tema no se aplican a los informes
 
@@ -4511,7 +4523,7 @@ Entre los temas integrados que se ven afectados por esta limitación se incluyen
 * Clase
 * Apto para daltónicos
 * Eléctrico
-* Alto contraste
+* Contraste alto
 * Puesta de sol
 * Crepúsculo
 

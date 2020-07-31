@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f2fb659188a5c413ec7a203c6f1a55bb24826c15
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228744"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252530"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -185,6 +185,7 @@ En **Configuración de inquilinos**, el portal de administración tiene dos secc
 
 - Creación de las nuevas experiencias de área de trabajo
 - Uso de conjuntos de datos entre áreas de trabajo.
+- Bloqueo de la creación de áreas de trabajo clásicas.
 
 ### <a name="create-the-new-workspaces"></a>Creación de nuevas áreas de trabajo
 
@@ -213,6 +214,13 @@ Los administradores pueden controlar qué usuarios de la organización pueden us
 
 Para más información, consulte [Introducción a los conjuntos de datos de áreas de trabajo (versión preliminar)](../connect-data/service-datasets-across-workspaces.md).
 
+### <a name="block-classic-workspace-creation"></a>Bloqueo de la creación de áreas de trabajo clásicas
+
+Los administradores pueden controlar si la organización puede crear áreas de trabajo clásicas. Cuando se habilita esta opción, los usuarios que crean un área de trabajo solo pueden crear las de la nueva experiencia de área de trabajo. 
+
+![Bloqueo de la creación de áreas de trabajo clásicas](media/service-admin-portal/power-bi-admin-block-classic-workspaces.png)
+
+Cuando está habilitado, los grupos de Office 365 recién creados no se mostrarán en la lista de áreas de trabajo de Power BI. Las áreas de trabajo clásicas existentes se siguen mostrando en la lista. Cuando el valor se deshabilita, todos los grupos de Office 365 a los que pertenece el usuario aparecen en la lista de áreas de trabajo. Obtenga más información sobre las [áreas de trabajo de la nueva experiencia de área de trabajo](../collaborate-share/service-new-workspaces.md).
 
 ## <a name="export-and-sharing-settings"></a>Configuración de exportación y uso compartido
 
@@ -369,6 +377,15 @@ En **Configuración de inquilinos**, la configuración de inquilino **Allow conn
 Las conexiones a tablas destacadas también se deshabilitan si la configuración de inquilino **Exportar datos** está establecida en **Deshabilitada**.
 
 Más información sobre las [tablas destacadas de Power BI en Excel](../collaborate-share/service-excel-featured-tables.md).
+
+## <a name="share-to-teams-tenant-setting"></a>Configuración de inquilino Compartir en Teams
+
+La opción **Compartir en Teams** se encuentra en la sección **Configuración de inquilinos** del portal de administración de Power BI. Esta opción permite a las organizaciones ocultar los botones **Compartir en Teams** en el servicio Power BI. Cuando se deshabilita, los usuarios no ven los botones **Compartir en Teams** en la barra de acciones ni en los menús contextuales cuando ven informes y paneles en el servicio Power BI.
+
+![Captura de pantalla de la opción de inquilino Compartir en Teams en el portal de administración de Power BI.](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
+
+Obtenga más información sobre [compartir contenido de Power BI en Teams](../collaborate-share/service-share-report-teams.md).
+
 
 ## <a name="power-bi-visuals-settings"></a>Opciones de objetos visuales de Power BI
 
@@ -591,7 +608,7 @@ De forma predeterminada, los datos usados con Power BI se almacenan en almacenam
 
 Como administrador, puede ver las áreas de trabajo que existen en el inquilino. Puede ordenar y filtrar la lista de áreas de trabajo y mostrar los detalles de cada una de ellas. Las columnas de la tabla se corresponden con las propiedades devueltas por la [API de REST de administración de Power BI](/rest/api/power-bi/admin) para las áreas de trabajo. Las áreas de trabajo personales son de tipo **PersonalGroup**, las clásicas son de tipo **Group** y las áreas de trabajo de la nueva experiencia de áreas de trabajo son de tipo **Workspace**. Para más información, consulte [Organización del trabajo en las nuevas áreas de trabajo](../collaborate-share/service-new-workspaces.md).
 
-Los administradores también pueden administrar y recuperar áreas de trabajo mediante el portal de administración o los cmdlets de PowerShell. 
+Los administradores también pueden administrar y recuperar áreas de trabajo mediante el portal de administración o cmdlets de PowerShell. 
 
 ![Lista de áreas de trabajo](media/service-admin-portal/workspaces-list.png)
 

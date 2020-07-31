@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/28/2020
-ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.date: 07/27/2020
+ms.openlocfilehash: 4f4650d47e420313075509301e940bf7092d4d5a
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83279167"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252852"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Orígenes de datos admitidos para informes paginados de Power BI
 
@@ -29,7 +29,7 @@ Los informes paginados admiten de forma nativa la siguiente lista de orígenes d
 | Instancia administrada de Azure SQL | Básico | A través de un punto de conexión público o privado (el privado debe enrutarse a través de Enterprise Gateway)  |
 | Azure Analysis Services | SSO, OAuth2 | El firewall de AAS debe estar deshabilitado o configurado para permitir todos los intervalos IP.|
 | Conjunto de datos de Power BI | SSO | Conjuntos de datos de Power BI Premium y no Premium. Requiere permiso de lectura |
-| Conjunto de datos de Power BI Premium (XMLA) | SSO |   |
+| Conjunto de datos de Power BI Premium (XMLA) | SSO | Los conjuntos de datos de Power BI no se admiten como origen de datos para los informes paginados insertados.  |
 | Especificar datos | N/D | Los datos se insertan en el informe. |
 
 A excepción de Azure SQL Database, todos los orígenes de datos están listos para usarse después de haber cargado el informe en el servicio Power BI. De forma predeterminada, los orígenes de datos usan el inicio de sesión único (SSO), si procede. Para Azure Analysis Services, puede cambiar el tipo de autenticación a OAuth2. Sin embargo, una vez que se cambia el tipo de autenticación para un origen de datos determinado a OAuth2, no se puede revertir para usar SSO.  Además, este cambio se aplica a todos los informes que usan ese origen de datos en todas las áreas de trabajo de un inquilino determinado.  La seguridad de nivel de fila en los informes paginados no funcionará a menos que los usuarios elijan SSO para el tipo de autenticación.
@@ -43,7 +43,7 @@ Además de los orígenes de datos anteriores admitidos de forma nativa, se puede
 - SQL Server
 - SQL Server Analysis Services
 - Oracle
-- Teradatos
+- Teradata
 
 En el caso de los informes paginados, en la actualidad no se puede acceder a Azure SQL Database y Azure Analysis Services a través de una puerta de enlace de datos de Power BI.
 

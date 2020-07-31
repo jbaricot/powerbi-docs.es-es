@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d4bfb6de39f0a8dee678e8224cca1cb03646abca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226979"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952771"
 ---
 # <a name="analyze-in-excel"></a>Analizar en Excel
 Con **Analizar en Excel**, puede traer conjuntos de datos de Power BI a Excel y luego verlos e interactuar con ellos a través de tablas dinámicas, gráficos, segmentaciones y otras características de Excel. Para usar **Analizar en Excel**, primero debe descargar la característica desde Power BI, instalarla y, luego, seleccionar uno o varios conjuntos de datos para usarlos en Excel. 
@@ -62,36 +62,41 @@ Una vez que se complete el proceso, estará listo para seleccionar un informe en
 
 ## <a name="connect-to-power-bi-data"></a>Conectarse a datos de Power BI
 
-En el servicio Power BI, vaya al conjunto de datos o al informe que quiere analizar en Excel y seleccione el menú **Más opciones** (los puntos suspensivos) para buscar la opción de menú **Analizar en Excel**. En la imagen siguiente se muestra la selección de un informe.
-
-![Instalación de actualizaciones](media/service-analyze-in-excel/analyze-excel-06.png)
-
-Hay algunos pasos para colocar un conjunto de datos del servicio Power BI en Excel:
+En el servicio Power BI, navegue hasta el conjunto de datos o el informe que quiera analizar en Excel y, después:
 
 1. Seleccione el menú **Más opciones**.
-2. Seleccione **Analizar en Excel** en los elementos de menú que aparecen.
 
-    El servicio Power BI luego crea un archivo del conjunto de datos que está diseñado (y estructurado) para su uso con **Analizar en Excel** que tiene la extensión de archivo .ODC. Se crea el archivo y automáticamente se inicia un proceso de descarga en el explorador.
+1. Seleccione **Analizar en Excel** en los elementos de menú que aparecen.
+
+    En la imagen siguiente se muestra la selección de un informe.
+
+    ![Instalación de actualizaciones](media/service-analyze-in-excel/analyze-excel-06.png)
     
-    ![Descarga del archivo ODC](media/service-analyze-in-excel/analyze-excel-07.png)
+    >[!NOTE]
+    >Recuerde que, si selecciona Analizar en Excel desde el menú de un informe, lo que se abre en Excel es el conjunto de datos subyacente del informe.
+
+    Después, el servicio Power BI crea un archivo de Excel del conjunto de datos que está diseñado (y estructurado) para su uso con **Analizar en Excel** e inicia un proceso de descarga en el explorador.
     
-    El nombre de archivo coincide con el conjunto de datos (o informe u otro origen de datos) del que se deriva. Por lo tanto, si el informe tenía el nombre *Latest-Sales*, el archivo descargado se llamará **Latest-Sales.ODC**.
+    ![Descarga del archivo de Excel](media/service-analyze-in-excel/analyze-in-excel-download-xlsx.png)
 
-3. Abra el archivo .ODC.
+    El nombre de archivo coincide con el conjunto de datos (o informe u otro origen de datos) del que se deriva. Por tanto, si el nombre del informe es *Informe trimestral*, el archivo descargado será **Informe trimestral.xlsx**.
 
-El archivo ya está asociado con **Analizar en Excel** por lo que, cuando seleccione o abra ese archivo .ODC, se iniciará Excel y el archivo .ODC se empezará a cargar automáticamente. Sin embargo, es probable que vea una advertencia sobre una amenaza de origen de datos externo:
+3. Abra el archivo de Excel.
 
-![Advertencia de seguridad](media/service-analyze-in-excel/analyze-excel-08.png)
+    >[!NOTE]
+    >La primera vez que abra el archivo, es posible que tenga que **Habilitar la edición** y, después, **Habilitar el contenido**, en función de la configuración de [Vista protegida](https://support.microsoft.com/en-gb/office/what-is-protected-view-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653?ui=en-us&rs=en-gb&ad=gb) y [Documento de confianza](https://support.microsoft.com/en-us/office/trusted-documents-cf872bd8-47ec-4c02-baa5-1fdba1a11b53).
+    >
+    >![Captura de pantalla del banner Habilitar edición de la vista protegida](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
+    >
+    >![Captura de pantalla del banner Habilitar contenido de Documento de confianza](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
 
-Seleccione **Habilitar** para cargar el archivo .ODC para **Analizar en Excel** y Excel cargará el archivo. 
+## <a name="use-excel-to-analyze-the-data"></a>Uso de Excel para analizar los datos
 
-## <a name="use-excel-to-analyze-the-data"></a>Usar Excel para analizar los datos
+Una vez que haya habilitado la edición y el contenido, Excel le presentará una **tabla dinámica** vacía y una lista de **campos** del conjunto de datos de Power BI listos para su análisis.
 
-Una vez que seleccione **Habilitar** en el aviso de seguridad para permitir cargar el archivo .ODC, Excel le presentará una **tabla dinámica** vacía y una lista de **campos** del conjunto de datos de Power BI para su análisis.
+![Excel con datos conectados](media/service-analyze-in-excel/analyze-in-excel-connected.png)
 
-![Excel con datos conectados](media/service-analyze-in-excel/analyze-excel-09.png)
-
-El archivo .ODC tiene una cadena de conexión de MSOLAP que conecta con su conjunto de datos en Power BI. Al analizar o trabajar con los datos, Excel consulta ese conjunto de datos en Power BI y devuelve los resultados a Excel. Si ese conjunto de datos se conecta a un origen de datos activo mediante DirectQuery, Power BI consulta el origen de datos y devuelve el resultado a Excel.
+El archivo de Excel tiene una cadena de conexión de MSOLAP que se conecta al conjunto de datos en Power BI. Al analizar o trabajar con los datos, Excel consulta ese conjunto de datos en Power BI y devuelve los resultados a Excel. Si ese conjunto de datos se conecta a un origen de datos activo mediante DirectQuery, Power BI consulta el origen de datos y devuelve el resultado a Excel.
 
 Una vez establecida la conexión con los datos de Power BI, puede crear tablas dinámicas, gráficos y analizar ese conjunto de datos tal como lo haría con un conjunto de datos local en Excel.
 
@@ -107,7 +112,7 @@ Hay algunos aspectos que se deben tener en cuenta al empezar a usar Analizar en 
 
 
 ### <a name="sign-in-to-power-bi"></a>Iniciar sesión en Power BI
-Aunque ya haya iniciado sesión en Power BI en el explorador, la primera vez que abra un nuevo archivo .ODC en Excel se le podría solicitar que inicie sesión en Power BI con su cuenta de Power BI. Esto autentica la conexión de Excel a Power BI.
+Aunque haya iniciado sesión en Power BI en el explorador, la primera vez que abra un nuevo archivo de Excel en Excel, es posible que se le pida que inicie sesión en Power BI con la cuenta de Power BI. Esto autentica la conexión de Excel a Power BI.
 
 ### <a name="users-with-multiple-power-bi-accounts"></a>Usuarios con varias cuentas de Power BI
 Algunos usuarios tienen varias cuentas de Power BI. Si es así, es posible que haya iniciado sesión en Power BI con una cuenta, pero que sea otra cuenta la que tenga acceso al conjunto de datos que se está usando en Analizar en Excel. En ese caso, es posible que obtenga un error **Prohibido** o de inicio de sesión al intentar acceder a un conjunto de datos usado en un libro de Analizar en Excel.

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/16/2020
+ms.date: 07/22/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7fecec5ed41f0de9227cf30ed3ba4f39b23f21e9
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 92c3a65b11435403b61a06324f534e6d82e4b7cb
+ms.sourcegitcommit: efe11c819be75887c4242afa64d32bb0698da569
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459563"
+ms.lasthandoff: 07/24/2020
+ms.locfileid: "87123497"
 ---
 # <a name="manage-data-sources"></a>Administración de orígenes de datos
 
@@ -44,6 +44,9 @@ La mayoría de las operaciones de administración de los orígenes de datos tamb
     ![Configuración del origen de datos](media/service-gateway-data-sources/data-source-settings.png)
 
 5. Para SQL Server, elija un **Método de autenticación** de **Windows** o **Básico** (Autenticación de SQL). Si elige **Básico**, escriba las credenciales del origen de datos.
+
+    > [!NOTE]
+    > Si el método de autenticación seleccionado es OAuth, puede producirse un error en cualquier consulta que se ejecute durante más tiempo que la directiva de expiración de tokens de OAuth.
 
 6. En **Configuración avanzada**, puede configurar el [inicio de sesión único (SSO)](service-gateway-sso-overview.md) del origen de datos. 
 

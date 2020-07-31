@@ -1,5 +1,5 @@
 ---
-title: Cmdlets de PowerShell, API de REST y SDK de .NET para administradores
+title: Cmdlets de PowerShell, API REST y bibliotecas cliente de .NET para administradores
 description: Obtenga información sobre las distintas formas de administrar Power BI a través de scripts y API de programación.
 author: kfollis
 ms.reviewer: ''
@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: b4f4227a53a87cd831962bc5c944a569531b8232
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e1c95c330687131a29753359f5223e096bddab1d
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136288"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952625"
 ---
-# <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>Cmdlets de PowerShell, API de REST y SDK de .NET para la administración de Power BI
-Con Power BI, los administradores pueden generar scripts de tareas comunes usando cmdlets de PowerShell. Power BI expone también API de REST y proporciona un SDK de .NET para desarrollar soluciones de carácter administrativo. En este tema encontrará una lista de cmdlets y el método de SDK y punto de conexión de API de REST correspondientes. Para más información, consulte:
+# <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>Cmdlets de PowerShell, API REST y biblioteca cliente de .NET para la administración de Power BI
+Con Power BI, los administradores pueden generar scripts de tareas comunes usando cmdlets de PowerShell. También expone API REST y proporciona una biblioteca cliente de .NET para desarrollar soluciones administrativas. En este tema se muestra una lista de cmdlets y las API y el punto de conexión de API REST correspondientes. Para más información, consulte:
 
 - [Descarga](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) y [documentación](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps) de PowerShell
 - [Documentación](https://docs.microsoft.com/rest/api/power-bi/admin) de la API de REST
-- [Descarga](https://www.nuget.org/packages/Microsoft.PowerBI.Api/) de SDK de .NET
+- [Descarga](https://www.nuget.org/packages/Microsoft.PowerBI.Api/) de la biblioteca cliente de .NET
 
 > Se debe llamar a los cmdlets siguientes con `-Scope Organization` para operar en el inquilino de cara a la administración.
 
-| **Nombre del cmdlet** | **Alias** | **Método del SDK** | **Punto de conexión de la API de REST** | **Descripción** |
+| **Nombre del cmdlet** | **Alias** | **API** | **Punto de conexión de la API de REST** | **Descripción** |
 | --- | --- | --- | --- | --- |
 | `Get-PowerBIDatasource` | N/D | `Datasets_GetDataSourcesAsAdmin` | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | Obtiene los orígenes de datos de un conjunto de datos determinado. |
 | `Get-PowerBIDataset` | N/D | `Datasets_GetDatasetsAsAdmin` | /v1.0/myorg/admin/datasets | Obtiene la lista completa de conjuntos de datos de un inquilino de Power BI. |

@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a3df69e52614fba3152f6539b2c4cbcf4f5c87d2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8f79037c4117baaba1a50b6fe4e728b57fad362f
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227664"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252093"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Registro en Power BI con una nueva prueba de Microsoft 365
 
@@ -25,7 +25,7 @@ Si tiene problemas para registrarse en Power BI con su dirección de correo ele
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Registro para obtener una evaluación de Microsoft 365 de Office
 
-Regístrese para obtener una versión de prueba de Microsoft 365 en el [sitio web de Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans). Si aún no tiene una cuenta, Microsoft le guiará a través de los pasos necesarios para crear una. Puesto que las cuentas de correo electrónico comerciales (como hotmail y gmail) no funcionarán con Microsoft 365, creará una cuenta que lo hará.  Esta cuenta de correo electrónico tendrá una apariencia similar a *zalan@onmicrosoft.com* .
+Regístrese para obtener una versión de prueba de Microsoft 365 en el [sitio web de Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans). Si aún no tiene una cuenta, Microsoft le guiará a través de los pasos necesarios para crear una. Puesto que las cuentas de correo electrónico comerciales (como hotmail y gmail) no funcionarán con Microsoft 365, creará una cuenta que lo hará.  Esa cuenta de correo electrónico será similar a *zalan\@onmicrosoft.com*.
 
 ![Selección de Pruébelo gratis](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)
 

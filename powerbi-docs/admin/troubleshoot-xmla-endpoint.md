@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 07/16/2020
+ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5d6e3af615a73f8e4a3db42406bf94e33f16a2a3
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459678"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363971"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Solución de problemas de conectividad de los puntos de conexión XMLA
 
@@ -135,6 +135,10 @@ La configuración de suplantación que se puede definir para los orígenes de da
 Al desencadenar una actualización programada o una actualización a petición en Power BI, Power BI habitualmente actualiza todo el conjunto de datos. En muchos casos, resulta más eficaz hacer actualizaciones de manera más selectiva. Puede realizar tareas de procesamiento detallado en SQL Server Management Studio (SSMS) tal como se muestra a continuación, o bien mediante el uso de scripts o herramientas de terceros.
 
 :::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Proceso de tablas en SSMS":::
+
+### <a name="overrides-in-refresh-tmsl-command"></a>Invalidaciones en el comando Refresh de TMSL
+
+Las invalidaciones en el [comando Refresh (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl) permiten a los usuarios elegir otra definición de consulta de partición o de origen de datos para la operación de actualización. Actualmente, en Power BI Premium **no se admiten las invalidaciones**. Se devuelve un error que indica que el enlace fuera de línea no se permite en Power BI Premium. Para obtener más información, vea "Compatibilidad con la lectura y escritura de XMLA" en la documentación del producto" .
 
 ## <a name="see-also"></a>Vea también
 

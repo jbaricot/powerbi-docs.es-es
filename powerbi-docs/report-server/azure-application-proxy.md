@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 05/27/2020
+ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: f4237379ffefeeb7ba9d105f5fbd61ff84959807
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239518"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364086"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Configuración de Power BI Report Server con Azure Application Proxy
 
@@ -110,7 +110,7 @@ Debemos configurar las opciones de delegación en la cuenta de servicio del serv
 3. Queremos configurar una delegación restringida con tránsito de protocolo. Con la delegación restringida, debemos ser explícitos en cuanto a los servicios en los que queremos delegar.
 4. Haga clic con el botón derecho en la **cuenta de servicio del servidor de informes** y seleccione **Propiedades**.
 5. Seleccione la ficha **Delegación**.
-6. Seleccione **Confiar en este equipo para la delegación solo a los servicios especificados**.
+6. Seleccione **Confiar en este usuario para la delegación solo a los servicios especificados**.
 7. Seleccione **Usar cualquier protocolo de autenticación**.
 8. En **Servicios a los que esta cuenta puede presentar credenciales delegadas**, seleccione **Agregar**.
 9. En el cuadro de diálogo nuevo, seleccione **Users or Computers** (Usuarios o equipos).

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238487"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953016"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugerencias y trucos para crear informes en Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado. 
@@ -54,7 +54,7 @@ Cuando se usa un valor de categoría (cadena) en Power BI para los ejes de gráf
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Creación de mapas simplificada con las sugerencias de Bing
 Power BI se integra con Bing para proporcionar las coordenadas de mapas predeterminadas (es decir, un proceso denominado codificación geográfica) y facilitar la creación de mapas. Bing usa algunos algoritmos y sugerencias para intentar obtener la ubicación correcta, aunque es un cálculo aproximado. Para aumentar la probabilidad de realizar la codificación geográfica de manera correcta, use las sugerencias siguientes:
 
-Cuando se crea un mapa, a menudo se busca trazar países, estados y ciudades. En Power BI Desktop, el uso de columnas de nombres después de la designación geográfica ayudará a Bing a adivinar lo que desea mostrar. Por ejemplo, si tiene un campo de nombres de estado de Estados Unidos como, por ejemplo, "California" y "Washington", Bing podría devolver la ubicación de Washington, DC, en lugar de la del estado de Washington debido a la palabra "Washington". Asignar a la columna el nombre "Estado" mejorará la codificación geográfica. Lo mismo ocurre para las columnas denominadas "País" y "Ciudad". 
+Cuando se crea un mapa, a menudo se busca trazar países, regiones, estados y ciudades. En Power BI Desktop, el uso de columnas de nombres después de la designación geográfica ayudará a Bing a adivinar lo que desea mostrar. Por ejemplo, si tiene un campo de nombres de estado de Estados Unidos como, por ejemplo, "California" y "Washington", Bing podría devolver la ubicación de Washington, DC, en lugar de la del estado de Washington debido a la palabra "Washington". Asignar a la columna el nombre "Estado" mejorará la codificación geográfica. Lo mismo ocurre para las columnas denominadas "País" y "Ciudad". 
 
 Algunas designaciones son ambiguas cuando se consideran en el contexto de varios países/regiones. En determinados países o regiones, los "Estados" se consideran como una "provincia" o un "condado" u otras designaciones. Puede aumentar la precisión de la codificación geográfica con la creación de columnas con varios campos juntos que permitan trazar las ubicaciones de los datos. Un ejemplo de ello sería, en lugar de pasar solo "Wiltshire", pasar "Wiltshire, Inglaterra" para obtener un resultado más preciso de codificación geográfica. 
 

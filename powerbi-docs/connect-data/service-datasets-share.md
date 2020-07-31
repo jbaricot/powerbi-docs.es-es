@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a1fd2ee46edd2447e7cf5096307f9d4947168a6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fd31c3b97eef80b0e4457fe6e61c1a8bf101db7b
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236737"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252668"
 ---
 # <a name="share-a-dataset"></a>Compartir un conjunto de datos
 
@@ -54,7 +54,7 @@ Cuando tiene un conjunto de datos compartido en el área de trabajo, es posible 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 Aspectos que se deben tener en cuenta sobre el uso compartido de conjuntos de datos:
 
-* Al compartir un conjunto de datos mediante la administración de permisos, el uso compartido de informes o paneles, o bien la publicación de una aplicación, se le concede acceso a todo el conjunto de datos a menos que se limite mediante la [seguridad de nivel de fila (RLS)](../admin/service-admin-rls.md). Los autores de informes pueden usar funciones que personalicen las experiencias del usuario al ver o interactuar con los informes, por ejemplo ocultar columnas, limitar las acciones en objetos visuales y otras. Esta experiencia de usuario personalizada no restringe los datos a los que los usuarios pueden acceder en el conjunto de datos. Use la [seguridad de nivel de fila (RLS)](../admin/service-admin-rls.md) en el conjunto de datos para que las credenciales de cada usuario determinen los datos a los que puede acceder.
+* Al compartir un conjunto de datos mediante la administración de permisos, el uso compartido de informes o paneles, o bien la publicación de una aplicación, se concede acceso a todo el conjunto de datos a menos que se limite mediante la [seguridad de nivel de fila (RLS)](../admin/service-admin-rls.md). Los autores de informes pueden usar funciones que personalicen las experiencias del usuario al ver o interactuar con los informes, por ejemplo ocultar columnas, limitar las acciones en objetos visuales y otras. Esta experiencia de usuario personalizada no restringe los datos a los que los usuarios pueden acceder en el conjunto de datos. Use la [seguridad de nivel de fila (RLS)](../admin/service-admin-rls.md) en el conjunto de datos para que las credenciales de cada usuario determinen los datos a los que puede acceder.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
