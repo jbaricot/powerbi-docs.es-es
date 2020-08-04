@@ -30,7 +30,7 @@
               href: service-admin-migrate-data-germany.md
             - name: Preguntas más frecuentes para clientes en la nube de Alemania
               href: service-govde-faq.md
-        - name: Preguntas más frecuentes (P+F)
+        - name: Preguntas más frecuentes
           href: service-admin-faq.md
         - name: P+F sobre alta disponibilidad y conmutación por error
           href: service-admin-failover.md
@@ -44,7 +44,7 @@
               href: service-premium-capacity-scenarios.md
             - name: Preguntas más frecuentes sobre Power BI Premium
               href: service-premium-faq.md
-    - name: Procedimiento
+    - name: Procedimientos
       items:
         - name: Licencias y registro
           items:
@@ -62,6 +62,8 @@
               href: service-admin-syndication-partner.md
         - name: Uso del portal de administración
           href: service-admin-portal.md
+        - name: "Administración de la configuración de administrador de objetos visuales de Power\_BI"
+          href: organizational-visuals.md
         - name: Búsqueda de usuarios que hayan iniciado sesión
           href: service-admin-access-usage.md
         - name: Seguimiento de actividades de usuario
@@ -137,7 +139,7 @@
           href: service-admin-power-bi-security.md
         - name: Niveles de privacidad
           href: desktop-privacy-levels.md
-    - name: Solucionar problemas
+    - name: Solución de problemas
       items:
         - name: ¿No puede iniciar sesión?
           href: power-bi-cannot-sign-in.md
