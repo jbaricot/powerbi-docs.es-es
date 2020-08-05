@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ec521c256209c258604e13483a9f3159b24626ae
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252530"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537513"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -43,8 +43,8 @@ Hay nueve pestañas en el portal. En el resto de este artículo se proporciona i
 * [Configuración de inquilinos](#tenant-settings)
 * [Configuración de capacidad](#capacity-settings)
 * [Códigos para insertar](#embed-codes)
-* [Objetos visuales de la organización](#organizational-visuals)
-* [Almacenamiento de flujos de datos (versión preliminar)](#dataflowStorage)
+* [Objetos visuales de la organización](organizational-visuals.md#organizational-visuals)
+* [Almacenamiento de flujos de datos (versión preliminar)](#dataflow-storage-preview)
 * [Áreas de trabajo](#workspaces)
 * [Personalización de marca](#custom-branding)
 
@@ -386,55 +386,6 @@ La opción **Compartir en Teams** se encuentra en la sección **Configuración d
 
 Obtenga más información sobre [compartir contenido de Power BI en Teams](../collaborate-share/service-share-report-teams.md).
 
-
-## <a name="power-bi-visuals-settings"></a>Opciones de objetos visuales de Power BI
-
-### <a name="add-and-use-power-bi-visuals"></a>Adición y uso de objetos visuales de Power BI
-
-Los usuarios de la organización pueden interactuar con los objetos visuales de Power BI y compartirlos. [Más información](../developer/visuals/power-bi-custom-visuals.md)
-
-> [!NOTE]
-> Esta configuración se puede aplicar en toda la organización o puede limitarse a grupos específicos.
-
-Power BI Desktop (a partir de la versión de marzo de 2019) admite el uso de **Directiva de grupo** para deshabilitar el uso de objetos visuales de Power BI en los equipos implementados de una organización.
-
-<table>
-<tr><th>Atributo</th><th>Valor</th>
-</tr>
-<td>key</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableCustomVisuals</td>
-</tr>
-</table>
-
-Un valor de 1 (decimal) permite el uso de objetos visuales de Power BI en Power BI (este es el valor predeterminado).
-
-Un valor de 0 (decimal) no permite el uso de objetos visuales de Power BI en Power BI.
-
-### <a name="allow-only-certified-visuals"></a>Permitir solo objetos visuales certificados
-
-Los usuarios de la organización a los que se les han concedido permisos para agregar y usar objetos visuales de Power BI (lo que se indica mediante la opción "Agregar y usar objetos visuales de Power BI") solo podrán usar [objetos visuales de Power BI certificados](https://go.microsoft.com/fwlink/?linkid=2002010). Los objetos visuales no certificados se bloquearán y se mostrará un mensaje de error cuando se usen. 
-
-
-Power BI Desktop (a partir de la versión de marzo de 2019) admite el uso de **Directiva de grupo** para deshabilitar el uso de objetos visuales de Power BI sin certificar en los equipos implementados de una organización.
-
-<table>
-<tr><th>Atributo</th><th>Valor</th>
-</tr>
-<td>key</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableUncertifiedVisuals</td>
-</tr>
-</table>
-
-Un valor de 1 (decimal) permite el uso de objetos visuales de Power BI sin certificar en Power BI (este es el valor predeterminado).
-
-Un valor de 0 (decimal) no permite el uso de objetos visuales de Power BI sin certificar en Power BI (esta opción solo permite el uso de [objetos visuales de Power BI certificados](https://go.microsoft.com/fwlink/?linkid=2002010)).
-
 ## <a name="r-visuals-settings"></a>Configuración de objetos visuales de R
 
 ### <a name="interact-with-and-share-r-visuals"></a>Compartir objetos visuales de R e interactuar con ellos
@@ -540,67 +491,7 @@ Como administrador, puede ver los códigos para insertar que se generan para su 
 
 ![Códigos para insertar en el portal de administración de Power BI](media/service-admin-portal/embed-codes.png)
 
- ## <a name=""></a><a name="organizational-visuals">Objetos visuales de la organización</a> 
-
-La pestaña **Objetos visuales de la organización** permite implementar y administrar los objetos visuales de Power BI dentro de la organización. Con objetos visuales de la organización, puede implementar fácilmente objetos visuales propietarios en su organización, que los autores de informes pueden detectar e importar después en sus informes de Power BI Desktop. [Más información](../developer/visuals/power-bi-custom-visuals-organization.md)
-
-> [!WARNING]
-> Un objeto visual personalizado podría contener código con riesgos para la seguridad o la privacidad; asegúrese de que confía en el autor y del origen del objeto visual personalizado antes de implementar en el repositorio de la organización.
-
-En la imagen siguiente se muestran todos los objetos visuales de Power BI que están implementados actualmente en un repositorio de la organización.
-
-![Objeto visual de administrador de organización](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
-
-### <a name="add-a-new-custom-visual"></a>Adición de un nuevo objeto visual personalizado
-
-Para agregar un nuevo objeto visual personalizado a la lista, siga estos pasos. 
-
-1. En el panel derecho, seleccione **Agregar objeto visual personalizado**.
-
-    ![Formulario de objetos visuales de Power BI](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
-
-1. Rellene el formulario **Agregar objeto visual personalizado**:
-
-    * **Elija un archivo .pbiviz** (obligatorio): seleccione un archivo visual personalizado para cargar. Solo se admiten objetos visuales de Power BI de API con control de versiones (lea aquí lo que esto significa).
-
-    Antes de cargar un objeto visual personalizado, debe revisar la seguridad y privacidad de dicho objeto visual para asegurarse de que se ajusta a los estándares de su organización.
-
-    * **Asigne un nombre a los objetos visuales personalizados** (obligatorio): asigne un título corto al objeto visual para que los usuarios de Power BI Desktop sepan fácilmente para qué sirve.
-
-    * **Icono**: El archivo de icono que se muestra en la interfaz de usuario de Power BI Desktop.
-
-    * **Descripción**: una descripción breve del objeto visual para proporcionar más contexto e información al usuario.
-
-1. Seleccione **Agregar** para iniciar la solicitud de carga. Si se realiza correctamente, verá el nuevo elemento en la lista. Si el proceso no se completa, recibirá el mensaje de error pertinente.
-
-### <a name="delete-a-custom-visual-from-the-list"></a>Eliminación de un objeto visual personalizado de la lista
-
-Para eliminar de forma permanente un objeto visual, seleccione el icono de la Papelera de reciclaje para el objeto visual en el repositorio.
-
-> [!IMPORTANT]
-> La eliminación es irreversible. Una vez eliminado, el objeto visual deja de representarse de inmediato en los informes existentes. Aunque se cargue el mismo objeto visual de nuevo, no reemplazará al anterior que se eliminó. Sin embargo, los usuarios pueden volver a importar el nuevo objeto visual y reemplazar la instancia que tienen en los informes.
-
-### <a name="disable-a-custom-visual-in-the-list"></a>Deshabilitación de un objeto visual personalizado en la lista
-
-Para deshabilitar el objeto visual desde la tienda de la organización, seleccione el icono de engranaje. En la sección **Acceso**, deshabilite el objeto visual personalizado.
-
-Después de deshabilitar el objeto visual, ya no se representa en los informes existentes y se muestra el mensaje de error siguiente.
-
-*This custom visual is no longer available (Este objeto visual personalizado ya no está disponible). Please contact your administrator for details* (Póngase en contacto con su administrador para más información).
-
-Sin embargo, los objetos visuales guardados como marcador siguen funcionando.
-
-Después de una actualización o un cambio por el administrador, los usuarios de Power BI Desktop deben reiniciar la aplicación o actualizar el explorador en el servicio Power BI para ver las actualizaciones.
-
-### <a name="update-a-visual"></a>Actualización de un objeto visual
-
-Para actualizar el objeto visual desde la tienda de la organización, seleccione el icono de engranaje. Examine y cargue una nueva versión del objeto visual.
-
-Asegúrese de que el identificador del objeto visual no cambie. El archivo nuevo reemplaza al archivo anterior en todos los informes de la organización. Sin embargo, si la versión nueva del objeto visual puede generar errores en el uso o la estructura de datos de la versión anterior del objeto visual, no reemplace la versión anterior. En lugar de eso, debe crear una nueva lista para la versión nueva del objeto visual. Por ejemplo, agregue un número de versión nuevo (versión X.X) al título del objeto visual nuevo. De este modo, resulta claro que es el mismo objeto visual solo con un número de versión actualizado, por lo que los informes existentes no interrumpen su funcionalidad. Vuelva a asegurarse de que el identificador del objeto visual no cambie. Luego, la próxima vez que los usuarios entren en el repositorio de la organización desde Power BI Desktop, pueden importar la versión nueva, donde se les pide que reemplacen la versión actual que tienen en el informe.
-
-Para obtener más información, visite [Preguntas más frecuentes sobre objetos visuales de Power BI de la organización](../developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).
-
-## <a name=""></a><a name="dataflowStorage">Almacenamiento de flujos de datos (versión preliminar)</a>
+## <a name="dataflow-storage-preview"></a>Almacenamiento de flujos de datos (versión preliminar)
 
 De forma predeterminada, los datos usados con Power BI se almacenan en almacenamiento interno proporcionado por Power BI. Con la integración de flujos de datos y Azure Data Lake Storage Gen2 (ADLS Gen2), puede almacenar los flujos de datos en la cuenta de Azure Data Lake Storage Gen2 de su organización. Para obtener más información, vea [Integración de flujos de datos y Azure Data Lake (versión preliminar)](../transform-model/service-dataflows-azure-data-lake-integration.md).
 

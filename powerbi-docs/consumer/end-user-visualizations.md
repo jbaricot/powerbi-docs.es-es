@@ -2,19 +2,19 @@
 title: Trabajo con visualizaciones (objetos visuales) como consumidor
 description: 'Conceptos y terminología de Power BI: visualizaciones, objetos visuales. Qué es una visualización u objeto visual de Power BI.'
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 60b43a428d9a657a0464c2f308aeac8fe5f5102e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a65752f6b49590c4b83c6dee471fa881a639acbe
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237336"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537674"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interacción con objetos visuales en informes, paneles y aplicaciones
 
