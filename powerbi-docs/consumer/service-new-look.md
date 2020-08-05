@@ -2,19 +2,19 @@
 title: Nuevo aspecto del servicio Power BI
 description: El servicio Power BI (app.powerbi.com) tiene un nuevo aspecto. En este artículo se describe cómo navegar por los informes con el nuevo aspecto.
 author: maggiesMSFT
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 188f4bfb5e54d3b132d77dbf7229e58491281042
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 01edbc2a3ec3fe9423b5eab575b1b0450185d6bd
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813908"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538042"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Nuevo aspecto del servicio Power BI
 

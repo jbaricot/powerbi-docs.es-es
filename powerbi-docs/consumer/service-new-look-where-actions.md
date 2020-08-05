@@ -2,19 +2,19 @@
 title: 'El nuevo aspecto: ¿Dónde están ahora las acciones?'
 description: El servicio Power BI (app.powerbi.com) tiene un nuevo aspecto, y muchas acciones se han reubicado. En este artículo se incluye una tabla que establece una correspondencia entre las ubicaciones antiguas y las nuevas.
 author: maggiesMSFT
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 779c480cd029f6f2bb4ef7d52d49115ff348eb11
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: c184fa19c2d94690f8609871babf5b60b2855b99
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813862"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538065"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>El nuevo aspecto: ¿Dónde están ahora las acciones?
 
