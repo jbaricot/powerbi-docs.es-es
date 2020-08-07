@@ -1,6 +1,6 @@
 ---
 title: Objetos visuales en Power BI
-description: Visualizaciones personalizadas en Power BI
+description: En este artículo se describen los objetos visuales personalizados de Power BI
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 01/03/2019
+ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9dc53eb3f49a1ef62e4e3539ac7eb6d92b317af
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561648"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538019"
 ---
 # <a name="visuals-in-power-bi"></a>Objetos visuales en Power BI
 
 Power BI incluye de serie muchos objetos visuales de Power BI. Estos objetos visuales están disponibles en el panel de visualización de [Power BI Desktop](https://powerbi.microsoft.com/desktop/) y el [servicio Power BI](https://app.powerbi.com), y se pueden usar para crear y editar contenido de Power BI.
 
-![visualizaciones](media/power-bi-custom-visuals/power-bi-visualizations.png)
+![Captura de pantalla del panel de visualización de Power BI tal y como aparece en los servicios Power BI Desktop y Power BI.](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
 Hay muchos más objetos visuales de Power BI disponibles en Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) o a través de Power BI. Estos objetos visuales son creados por Microsoft y los partners de Microsoft, y validados por el equipo de validación de AppSource.
 
@@ -38,6 +38,11 @@ Para restaurar los objetos visuales predeterminados de Power BI en el panel de 
 ## <a name="appsource-power-bi-visuals"></a>Objetos visuales de Power BI de AppSource
 
 Microsoft y los miembros de la comunidad aportan objetos visuales de Power BI para el beneficio público y los publican en [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Puede descargar estos objetos visuales y agregarlos a los informes de Power BI. Microsoft ha probado y aprobado la funcionalidad y calidad de todos estos objetos visuales de Power BI.
+
+>[!NOTE]
+>* Mediante el uso de objetos visuales de Power BI creados con nuestro SDK, es posible que esté importando datos de terceros u otros servicios, o enviando datos a estos, que se encuentren fuera del área geográfica, el límite de cumplimiento o la instancia de la nube nacional del inquilino de Power BI.
+>* Los objetos visuales certificados de Power BI son objetos visuales en AppSource que se han probado además para comprobar que el objeto visual no tiene acceso a recursos o servicios externos.
+>* Una vez importados los objetos visuales de Power BI desde AppSource, estos pueden actualizarse automáticamente sin ningún aviso adicional.
 
 ### <a name="what-is-appsource"></a>¿Qué es AppSource?
 
@@ -74,10 +79,17 @@ Si es desarrollador web y está interesado en crear un objeto visual propio y ag
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* Si es desarrollador, comience por el tutorial [Desarrollo de un objeto visual de Power BI](custom-visual-develop-tutorial.md).
+>[!div class="nextstepaction"]
+>[Desarrollo de un objeto visual de Power BI](custom-visual-develop-tutorial.md)
 
-* Obtenga información sobre la [Estructura de proyecto de objeto visual de Power BI](visual-project-structure.md).
+>[!div class="nextstepaction"]
+>[Estructura de proyectos de objetos visuales de Power BI](visual-project-structure.md)
 
-* Examine las [Instrucciones para objetos visuales de Power BI](guidelines-powerbi-visuals.md).
+>[!div class="nextstepaction"]
+>[Instrucciones para objetos visuales de Power BI](guidelines-powerbi-visuals.md)
 
-¿Tiene más preguntas? Pruebe la página [Preguntas más frecuentes de objetos visuales de Power BI](power-bi-custom-visuals-faq.md) o la [Comunidad de Power BI](https://community.powerbi.com/).
+>[!div class="nextstepaction"]
+>[Preguntas más frecuentes](power-bi-custom-visuals-faq.md)
+
+>[!div class="nextstepaction"]
+>[Comunidad de Power BI](https://community.powerbi.com/)

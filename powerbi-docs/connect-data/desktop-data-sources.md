@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d20f9aa5311d8ee96246ab8b3ed832330742973
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223922"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411989"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Orígenes de datos en Power BI Desktop
 
@@ -73,7 +73,7 @@ La categoría **Base de datos** proporciona las siguientes conexiones de datos:
 * Base de datos Access
 * Base de datos SQL Server Analysis Services
 * Base de datos Oracle
-* Base de datos IBM DB2
+* Base de datos IBM Db2
 * Base de datos Informix de IBM (beta)
 * IBM Netezza
 * Base de datos MySQL
@@ -116,7 +116,7 @@ La categoría **Power Platform** proporciona las conexiones de datos siguientes:
 * Conjuntos de datos de Power BI
 * Flujos de datos de Power BI
 * Common Data Service
-* Flujos de datos de Power Platform
+* Flujos de entrada de Power Platform (Beta)
 
 En la imagen siguiente se muestra la ventana **Obtener datos** para **Power Platform**.
 
@@ -133,6 +133,7 @@ La categoría **Azure** proporciona las siguientes conexiones de datos:
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB
+* Azure Data Explorer (Kusto)
 * Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
@@ -171,21 +172,19 @@ La categoría **Online Services** proporciona las siguientes conexiones de datos
 * Marketo (Beta)
 * Mixpanel (Beta)
 * Planview Enterprise One - PRM (Beta)
-* PlanView Projectplace (Beta)
 * QuickBooks Online (Beta)
 * Smartsheet
 * SparkPost (Beta)
 * SweetIQ (Beta)
 * Planview Enterprise One - CTM (Beta)
 * Twilio (Beta)
-* tyGraph (Beta)
-* Webtrends (Beta)
 * Zendesk (Beta)
 * Asana (beta)
 * Dynamics 365 Customer Insights (Beta)
 * Origen de datos de Emigo
 * Entersoft Business Suite (Beta)
-* FactSet Analytics (Beta)
+* FactSet Analytics
+* Palantir Foundry
 * Industrial App Store
 * Intune Data Warehouse (Beta)
 * Microsoft Graph Security (Beta)
@@ -218,7 +217,10 @@ La categoría **Otros** proporciona las siguientes conexiones de datos:
 * Script de Python
 * ODBC
 * OLE DB
+* Acterys: Planeamiento y automatización de modelos (Beta)
+* Automation Anywhere (Beta)
 * Solver
+* Cherwell (Beta)
 * Cognite Data Fusion (Beta)
 * FHIR
 * Information Grid (Beta)
@@ -233,6 +235,7 @@ La categoría **Otros** proporciona las siguientes conexiones de datos:
 * Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (beta)
 * Vena (Beta)
+* Vessel Insight (Beta)
 * Dimensiones de Workforce (Beta)
 * Zucchetti HR Infinity (Beta)
 * Consulta en blanco

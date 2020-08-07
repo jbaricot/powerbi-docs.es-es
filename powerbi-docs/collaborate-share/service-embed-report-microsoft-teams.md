@@ -9,19 +9,28 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 68459deb29c59af3b9e2b185d54cf4e523d555d8
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252576"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478024"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Inserción de contenido de Power BI en Microsoft Teams
 
 Puede insertar fácilmente informes interactivos de Power BI en canales y chats de Microsoft Teams. 
 
-Vea [Colaboración en Microsoft Teams con Power BI](service-embed-report-microsoft-teams.md) para obtener información sobre el funcionamiento conjunto de Power BI y Teams, incluidos los requisitos que debe cumplir.
+## <a name="requirements"></a>Requisitos
+
+Para usar la pestaña **Power BI** de Microsoft Teams, asegúrese de lo siguiente:
+
+- Microsoft Teams tiene la pestaña **Power BI**.
+- Para agregar un informe en Microsoft Teams con la pestaña **Power BI**, tiene como mínimo un rol de visor en el área de trabajo en la que se hospeda el informe. Consulte [Roles en las nuevas áreas de trabajo](service-new-workspaces.md#roles-in-the-new-workspaces) para obtener información sobre los distintos roles.
+- Para ver el informe en la pestaña **Power BI** de Microsoft Teams, los usuarios deben tener permiso para ver el informe.
+- Los usuarios deben ser usuarios de Microsoft Teams con acceso a canales y chats.
+
+Vea [Colaboración en Microsoft Teams con Power BI](service-embed-report-microsoft-teams.md) para obtener información sobre el funcionamiento conjunto de Power BI y Teams, incluidos otros requerimientos.
 
 ## <a name="embed-a-report-in-teams"></a>Inserción de un informe en Teams
 

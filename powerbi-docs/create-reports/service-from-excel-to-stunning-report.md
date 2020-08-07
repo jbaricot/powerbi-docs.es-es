@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/23/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: f901dcad1743383b85db3935ede8fddf8a4ed492
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251794"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478139"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Tutorial: De libro de Excel a un informe sorprendente en el servicio Power BI a Microsoft Teams
 La jefa quiere ver al final del día un informe sobre las cifras de ventas y beneficios más recientes. Pero los datos más recientes se encuentran en varios sistemas de terceros y en archivos del portátil. En el pasado, tardaba horas en crear objetos visuales y dar formato a un informe, y empieza a ponerse nervioso.
@@ -204,8 +204,6 @@ También puede compartir informes y paneles directamente con compañeros de trab
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [Introducción al servicio Power BI](../fundamentals/service-get-started.md)
-* [Introducción a Power BI Desktop](../fundamentals/desktop-getting-started.md)
-* [Conceptos básicos para los diseñadores en el servicio Power BI](../fundamentals/service-basic-concepts.md)
+* Ahora que ha creado un informe básico en el servicio Power BI, ¿qué le parece crear un informe en Power BI Desktop? Pruebe el tutorial [De libro de Excel a un informe sorprendente en Power BI Desktop](desktop-excel-stunning-report.md).
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/).

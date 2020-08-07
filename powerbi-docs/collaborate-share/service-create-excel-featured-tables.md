@@ -6,24 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/24/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e39d2fe11a58691b259784c292fec6e5ee6cb322
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254222"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478093"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Establecimiento de tablas destacadas en Power BI Desktop (versión preliminar)
 
 En la galería de tipos de datos de Excel, los usuarios pueden buscar datos de *tablas destacadas* de los conjuntos de datos de Power BI. En este artículo, aprenderá a establecer tablas como *destacadas* en los conjuntos de datos. Estas etiquetas facilitan a los usuarios la adición de datos empresariales a sus hojas de Excel. Estos son los pasos básicos para configurar y compartir tablas destacadas.
 
-1. Debe [promocionar o certificar los conjuntos de datos en Power BI](../connect-data/service-datasets-promote.md). 
 1. Debe identificar las tablas destacadas en los conjuntos de datos en Power BI Desktop (este artículo).
 1. Debe guardar esos conjuntos de datos con las tablas destacadas en una de las nuevas áreas de trabajo. Los creadores de informes pueden crear informes con esas tablas destacadas. 
 1. El resto de la organización puede conectarse a esas tablas destacadas, denominadas *tipos de datos* en Excel, para obtener datos pertinentes y actualizables. En el artículo [Acceso a tablas destacadas de Power BI en Excel (versión preliminar)](service-excel-featured-tables.md) se describe el consumo de estas tablas destacadas en Excel.
+
+> [!NOTE]
+> Puede [promover o certificar conjuntos de datos en Power BI](../connect-data/service-datasets-promote.md). A esto se le denomina *aprobación*. Excel da prioridad a las tablas de los conjuntos de datos aprobados en la Galería de tipos de datos. Excel muestra en primer lugar las tablas destacadas en conjuntos de datos certificados y, después, las tablas de los conjuntos de datos promovidos. Después, Excel muestra las tablas destacadas en conjuntos de datos no aprobados. 
 
 ## <a name="turn-on-the-featured-table-preview"></a>Activación de la versión preliminar de una tabla destacada
 
@@ -31,6 +33,8 @@ En la galería de tipos de datos de Excel, los usuarios pueden buscar datos de *
 2. Active la casilla **Tablas destacadas**.
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="Opción de tablas destacadas en versión preliminar":::
+
+3. Reinicie Power BI Desktop.
 
 ## <a name="select-a-table"></a>Selección de una tabla
 

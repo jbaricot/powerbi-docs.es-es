@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: fd3b50e9016298db8b692d6a2f3549b770f143e8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 21a4075861bfa37407ef8ffc73e2beabe50ff095
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700671"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537559"
 ---
 # <a name="dax-use-countrows-instead-of-count"></a>DAX: Uso de COUNTROWS en lugar de COUNT
 
@@ -52,4 +52,6 @@ Si su intención es contar las filas de una tabla, le recomendamos que use siemp
 Para más información sobre este artículo, consulte los recursos siguientes:
 
 - [Referencia de expresiones de análisis de datos (DAX)](/dax/)
+- Ruta de aprendizaje: [Uso de DAX en Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com)

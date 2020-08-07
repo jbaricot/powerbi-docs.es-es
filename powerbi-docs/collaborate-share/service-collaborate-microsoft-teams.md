@@ -9,17 +9,17 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 17a0879dac416a98d214ed11861947cb2c311487
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254217"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478047"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Colaboración en Microsoft Teams con Power BI
 
-Tiene varias opciones para compartir y colaborar en contenido de Power BI interactivo en los canales y chats de Microsoft Teams. 
+Puesto que contar con personal distribuido y remoto cada vez es más habitual, más organizaciones confían en los equipos de Microsoft para mantener a los empleados sincronizados. Power BI ofrece varias opciones para compartir y colaborar en contenido de Power BI interactivo en los canales y chats de Microsoft Teams. 
 
 - Con la pestaña **Power BI** para Microsoft Teams, puede [insertar informes interactivos en canales y chats de Microsoft Teams](service-embed-report-microsoft-teams.md). La pestaña **Power BI** ayuda a los compañeros de trabajo a encontrar los datos del equipo y analizar los datos en los canales del equipo. 
 - Cree una [vista previa del vínculo](service-teams-link-preview.md) cuando pegue un vínculo a los informes, a los paneles y a las aplicaciones en el cuadro de mensaje de Microsoft Teams. La vista previa del vínculo muestra información sobre el vínculo. 
@@ -34,17 +34,6 @@ En general, para que Power BI funcione en Microsoft Teams, asegúrese de lo si
 - Los usuarios tienen una licencia de Power BI Pro o el informe está incluido en una [capacidad de Power BI Premium (SKU EM o P)](../admin/service-premium-what-is.md) con una licencia de Power BI.
 - Los usuarios han iniciado sesión en el servicio Power BI para activar la licencia de Power BI.
 - Los usuarios cumplen los requisitos para usar la pestaña **Power BI** en Microsoft Teams.
-
-Para usar la pestaña **Power BI** de Microsoft Teams, asegúrese de lo siguiente:
-
-- Microsoft Teams tiene la pestaña **Power BI**.
-- Para agregar un informe en Microsoft Teams con la pestaña **Power BI**, tiene como mínimo un rol de visor en el área de trabajo en la que se hospeda el informe. Consulte [Roles en las nuevas áreas de trabajo](service-new-workspaces.md#roles-in-the-new-workspaces) para obtener información sobre los distintos roles.
-- Para ver el informe en la pestaña **Power BI** de Microsoft Teams, los usuarios deben tener permiso para ver el informe.
-- Los usuarios deben ser usuarios de Microsoft Teams con acceso a canales y chats.
-
-Para usar la funcionalidad **Compartir en Teams** en Power BI, asegúrese de esta configuración:
-
-- Los administradores de Power BI no han deshabilitado la configuración del inquilino **Compartir en Teams** en el portal de administración de Power BI. Este valor permite a las organizaciones ocultar los botones **Compartir en Teams**. Vea el artículo del [portal de administración de Power BI](../admin/service-admin-portal.md#share-to-teams-tenant-setting) para obtener información.
 
 ## <a name="grant-access-to-reports"></a>Concesión de acceso a los informes
 

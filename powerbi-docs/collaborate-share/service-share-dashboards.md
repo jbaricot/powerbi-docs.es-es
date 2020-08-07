@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d09ebee0cc22c7037db437e1c7a46a3d19ff36fd
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 68d6a399a5ecccf07aaa71f74b18fd4ddd6082f5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485604"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768525"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Uso compartido de informes y paneles de Power BI con compañeros y otros usuarios
 *Compartir* es la forma más sencilla de proporcionar a los usuarios acceso a los paneles e informes en el servicio Power BI. Puede compartir con usuarios de su organización o con usuarios que no pertenezcan a ella.
@@ -34,7 +34,7 @@ No se puede *compartir* contenido directamente desde Power BI Desktop. Los [inf
 
 ## <a name="share-a-dashboard-or-report"></a>Uso compartido de un panel o informe
 
-1. En una lista de paneles o informes, o en un panel o informe abierto, seleccione **Compartir** ![icono de Compartir](media/service-share-dashboards/power-bi-share-icon.png).
+1. En una lista de paneles o informes, o en un panel o informe abierto, seleccione **Compartir** :::image type="icon" source="../media/power-bi-share-icon.png" border="false":::.
 
 2. En el cuadro superior, escriba las direcciones de correo electrónico completas de las personas, los grupos de distribución o los grupos de seguridad. No se puede compartir con listas de distribución dinámicas. 
    
@@ -67,7 +67,7 @@ No se puede *compartir* contenido directamente desde Power BI Desktop. Los [inf
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>Consulta de quién tiene acceso a un panel o informe
 En ocasiones necesitará ver a las personas con las que ha compartido y ver con quiénes lo han compartido esas personas.
 
-1. En la lista de paneles e informes, o en el panel o informe propiamente dicho, seleccione **Compartir** ![icono Compartir](media/service-share-dashboards/power-bi-share-icon.png). 
+1. En la lista de paneles e informes, o en el mismo panel o informe, seleccione **Compartir** :::image type="icon" source="../media/power-bi-share-icon.png" border="false":::. 
 2. En el cuadro de diálogo **Compartir panel** o **Compartir informe**, seleccione **Acceso**.
    
     ![Cuadro de diálogo Compartir panel, pestaña Acceso](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -110,7 +110,7 @@ Solo el propietario del panel o informe puede activar y desactivar Volver a comp
 * Desactive la casilla **Permitir que los destinatarios compartan su panel (o informe)** en la parte inferior de la invitación antes de enviarla.
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>Si ya ha compartido el panel o informe
-1. En la lista de paneles e informes, o en el panel o informe propiamente dicho, seleccione **Compartir** ![icono Compartir](media/service-share-dashboards/power-bi-share-icon.png). 
+1. En la lista de paneles e informes, o en el mismo panel o informe, seleccione **Compartir** :::image type="icon" source="../media/power-bi-share-icon.png" border="false":::. 
 2. En el cuadro de diálogo **Compartir panel** o **Compartir informe**, seleccione **Acceso**.
    
     ![Cuadro de diálogo Compartir panel, pestaña Acceso](media/service-share-dashboards/power-bi-share-dialog-access.png)

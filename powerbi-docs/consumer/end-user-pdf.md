@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ff79017bd77dd63ce1aa50b9c5361bf82a060820
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236416"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768812"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportación de informes de Power BI a PDF
 
@@ -55,7 +55,7 @@ Hay algunas consideraciones y limitaciones que se deben tener en cuenta cuando s
 * En la actualidad, no se admiten objetos visuales de R y Python. En el archivo PDF, estos objetos visuales están en blanco y muestran un mensaje de error. 
 * Se admiten los objetos visuales de Power BI que se han certificado. Para obtener más información sobre los objetos visuales de Power BI certificados, incluido cómo obtener un objeto visual de Power BI certificado, vea [Obtención de un objeto visual de Power BI certificado](../developer/visuals/power-bi-custom-visuals-certified.md). No se admiten los objetos visuales de Power BI que no se hayan certificado. En el archivo PDF, se muestran con un mensaje de error.
 * Este objeto visual de ESRI no se admite.
-* Actualmente no se pueden exportar informes de más de 30 páginas.
+* Actualmente no se pueden exportar informes de más de 50 páginas.
 * El proceso de exportación del informe a PDF puede tardar unos minutos en completarse, por lo que debe tener paciencia. Entre los factores que pueden afectar al tiempo requerido está la estructura del informe y la carga actual del servicio Power BI.
 * Si el elemento de menú **Exportar a PDF** no está disponible en el servicio Power BI, probablemente se deba a que el administrador de inquilinos ha deshabilitado la característica. Póngase en contacto con el administrador de inquilinos para obtener más información.
 * Las imágenes de fondo se recortan con el área de límite del gráfico. Se recomienda quitar las imágenes de fondo antes de realizar la exportación a PDF.

@@ -10,14 +10,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953039"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478162"
 ---
-# <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Supervisión de las métricas de uso en la nueva experiencia de área de trabajo
+# <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Supervisión de las métricas de uso en la nueva experiencia de área de trabajo (versión preliminar)
 
 Conocer cómo se usa el contenido le ayuda a demostrar su impacto y a priorizar sus esfuerzos. Las métricas de uso pueden mostrarle que un segmento considerable de la organización utiliza a diario uno de sus informes y también que un panel que creó no lo está viendo nadie. Este tipo de comentario es muy valioso a la hora de dirigir los esfuerzos de trabajo que realiza.
 
@@ -81,7 +81,7 @@ El informe de métricas de uso mejorado incluye las siguientes páginas:
 
 | **Page** | **Métrica** | **Descripción** |
 | --- | --- | --- |
-| Uso de informes | Vistas de informes | Cada vez que alguien abre un informe, se registra una vista del informe. Tenga en cuenta que la definición de una vista difiere de los informes de métricas de uso anteriores. Cambiar las páginas del informe ya no se considera una vista adicional. |
+| Uso de informes | Vistas de informes | Cada vez que alguien abre un informe, se registra una vista del informe. Tenga en cuenta que la definición de una vista difiere de los informes de métricas de uso anteriores. Cambiar las páginas del informe ya no se considera una vista adicional. Las actividades como el uso compartido y el anclaje ya no se tienen en cuenta en las métricas de uso.|
 | Uso de informes | Espectadores únicos | Un espectador es alguien que abrió el informe al menos una vez durante el período de tiempo (en función de la cuenta de usuario de AAD). |
 | Uso de informes | Visualización de la tendencia | La tendencia de la vista refleja los cambios en el recuento de vistas con el tiempo. En ella se compara la primera mitad del período seleccionado con la segunda mitad. |
 | Uso de informes | Segmentación de fecha | Puede cambiar el período en la página de uso del informe para calcular, por ejemplo, las tendencias de semana en semana o cada dos semanas. En la esquina inferior izquierda de la página de uso del informe, puede determinar la fecha más antigua y más reciente en que los datos de uso están disponibles para el informe seleccionado. |

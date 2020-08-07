@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 08/03/2020
 ms.author: kfollis
-ms.openlocfilehash: 34c46f97128d1229f46eeed254bdecee58a32aaf
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409476"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768410"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) es un proveedor que trabaja con Chauncy Freels y ayuda a mantener esta lista de seminarios web."
@@ -27,6 +27,10 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 ## <a name="featured-webinars"></a>Seminarios web destacados
 
 Empiece por estos seminarios web a petición populares
+
+**Mejora de la satisfacción del usuario con los procedimientos recomendados para administrar el contenido de BI**  
+de Nimrod Shalit  
+[Ver ahora](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html?lcid=en-us)
 
 **De la información a la acción: impulso de una cultura de datos con Power BI**  
 por Arun Ulagaratchagan y Amir Netz  
