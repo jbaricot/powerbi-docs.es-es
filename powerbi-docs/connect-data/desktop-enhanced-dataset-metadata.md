@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a09311c5fdb1a8b2e008996d993015f33ee9b5f
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: b1204b28ae5239bf4080472129b0862862446e5d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739262"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878465"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Uso de metadatos de conjunto de datos mejorado (versión preliminar)
 
 Cuando Power BI Desktop crea informes, también crea metadatos de conjunto de datos en los archivos PBIX y PBIT correspondientes. Anteriormente, los metadatos se almacenaban en un formato específico de Power BI Desktop. Se usaban expresiones de M codificadas con Base 64 y orígenes de datos, y se formulaban suposiciones sobre cómo se almacenaban los metadatos.
 
-Con el lanzamiento de la característica **Metadatos del conjunto de datos mejorado**, se quitan muchas de estas limitaciones. Con la característica **Metadatos del conjunto de datos mejorado** habilitada, los metadatos creados por Power BI Desktop usan un formato similar al de los tabulares de Analysis Services, que se basa en el [Modelo de objetos tabulares](https://docs.microsoft.com/bi-reference/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo).
+Con el lanzamiento de la característica **Metadatos del conjunto de datos mejorado**, se quitan muchas de estas limitaciones. Con la característica **Metadatos del conjunto de datos mejorado** habilitada, los metadatos creados por Power BI Desktop usan un formato similar al de los tabulares de Analysis Services, que se basa en el [Modelo de objetos tabulares](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo).
 
 
 La característica **Metadatos del conjunto de datos mejorado** es estratégica y fundamental, ya que la futura funcionalidad de Power BI se generará en función de sus metadatos. Algunas de las funcionalidades adicionales que se benefician de la característica Metadatos del conjunto de datos mejorado incluyen la [lectura y escritura de XMLA](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite) para la administración de conjuntos de datos de Power BI y la migración de cargas de trabajo de Analysis Services a Power BI para aprovechar las características de próxima generación.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 889f7359e0711ecafb44caa6cf98f8a4df6bb0fa
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 5815ba5036da543fb51319e8a2af287cf6ce4ce7
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794032"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878667"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Inserción de contenido de Power BI en una aplicación para nubes nacionales
 
@@ -116,7 +116,7 @@ Este artículo muestra el código usado en [App Owns Data sample](https://github
 
 * Parámetros de Power BI para la nube de China
 
-1. Sobrescriba el archivo Cloud.config con el contenido de [Power BI para la nube de China](https://github.com/microsoft/PowerBI-Developer-Samples/blob/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
+1. Sobrescriba el archivo Cloud.config con el contenido de [Power BI para la nube de China](https://github.com/microsoft/PowerBI-Developer-Samples/blob/master/.NET%20Framework/Embed%20for%20your%20organization/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
 
 2. Actualice los campos applicationId (identificador de la aplicación nativa), workspaceId, user (el usuario principal) y password del archivo Web.config.
 
@@ -143,7 +143,7 @@ Para realizar llamadas a la API REST, registre la aplicación en Azure AD. Para 
 
 * Power BI para la nube de China: ```https://app.powerbi.cn/apps```
 
-Si ha descargado el [ejemplo de inserción de contenido para el cliente](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData), use el **identificador de aplicación** que obtenga para que el ejemplo pueda autenticarse en Azure AD. Para configurar el ejemplo, cambie el **identificador de aplicación** en el archivo *web.config*.
+Si ha descargado el [ejemplo de inserción de contenido para el cliente](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData), use el **identificador de aplicación** que obtenga para que el ejemplo pueda autenticarse en Azure AD. Para configurar el ejemplo, cambie el **identificador de aplicación** en el archivo *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Paso 2: Obtener un token de acceso de Azure AD
 
@@ -309,7 +309,7 @@ var embedConfig = new TileEmbedConfig()
 
 Puede usar JavaScript para cargar un panel en un elemento div en su página web. El ejemplo utiliza un modelo de EmbedConfig/TileEmbedConfig junto con vistas de un panel, icono o informe. Para obtener un ejemplo completo del uso de la API de JavaScript, puede usar [Microsoft Power BI Embedded Sample](https://microsoft.github.io/PowerBI-JavaScript/demo) (Ejemplo de inserción en Microsoft Power BI).
 
-Hay una aplicación de ejemplo disponible en el [ejemplo Inserción de contenido para la organización](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
+Hay una aplicación de ejemplo disponible en el [ejemplo Inserción de contenido para la organización](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData).
 
 ### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
@@ -436,7 +436,7 @@ Hay una aplicación de ejemplo disponible en el [ejemplo Inserción de contenido
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* Una aplicación de ejemplo está disponible en GitHub para que la revise. Los ejemplos anteriores se basan en ese ejemplo. Para más información, consulte el [ejemplo de inserción de contenido para la organización](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
+* Una aplicación de ejemplo está disponible en GitHub para que la revise. Los ejemplos anteriores se basan en ese ejemplo. Para más información, consulte el [ejemplo de inserción de contenido para la organización](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData).
 
 * Para más información sobre la API de JavaScript, consulte [API de JavaScript para Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 

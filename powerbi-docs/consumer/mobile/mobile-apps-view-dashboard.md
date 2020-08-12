@@ -1,21 +1,21 @@
 ---
-title: Visualización de paneles e informes en la aplicación móvil de Power BI
-description: Cree y conéctese a paneles e informes en el servicio Power BI. Después podrá verlos en las aplicaciones móviles de Power BI.
+title: Ver paneles en la aplicación móvil de Power BI
+description: Cree y conéctese a los paneles en el servicio Power BI. Después podrá verlos en las aplicaciones móviles de Power BI.
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/10/2020
 ms.author: painbar
-ms.openlocfilehash: 5911d1ded5c2ccf780454c60b7a5867223801a49
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: db889c945a7ea6f674bcc95e8ccf2c2075d56094
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220411"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091718"
 ---
-# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualización de paneles e informes en la aplicación móvil de Power BI
+# <a name="view-dashboards-in-the-power-bi-mobile-apps"></a>Ver paneles en la aplicación móvil de Power BI
 Se aplica a:
 
 | ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Teléfono Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Tableta Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 

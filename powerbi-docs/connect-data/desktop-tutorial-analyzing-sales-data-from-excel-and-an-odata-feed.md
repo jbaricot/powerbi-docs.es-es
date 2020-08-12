@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: bf4a4ba9c816aaca19e04d0061df7316ffcc7a2b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2ef73377728703926ac6bc51f847a54451e1321e
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83287312"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878721"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Análisis de datos de ventas de Excel y una fuente de OData
 
@@ -273,6 +273,6 @@ El informe completo combina los datos del archivo de Excel *Products.xlsx* y la 
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [Lea otros tutoriales de Power BI Desktop](/power-bi/guided-learning/)
-* [Vea vídeos de Power BI Desktop](/power-bi/desktop-videos)
+* [Vea vídeos de Power BI Desktop](/power-bi/fundamentals/desktop-videos)
 * [Visite el foro de Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Lea el blog de Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)

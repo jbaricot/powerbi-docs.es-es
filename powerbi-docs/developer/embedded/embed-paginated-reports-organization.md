@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 2c27ccdc2e8703e532a105d0b833bcd5164d245e
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782840"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878742"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Tutorial: Inserción de informes paginados de Power BI en una aplicación para la organización
 
@@ -185,7 +185,7 @@ Rellene la información **AADAuthorityUrl** con la dirección URL que le permite
 
 Para insertar con el inquilino organizativo, use la dirección URL: *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Para insertar con un invitado, use la dirección URL: *https://login.microsoftonline.com/report-owner-tenant-id* , donde se agrega el identificador de inquilino del propietario del informe en sustitución de *report-owner-tenant-id*.
+Para insertar con un invitado, use la dirección URL: *`https://login.microsoftonline.com/report-owner-tenant-id`* , donde se agrega el identificador de inquilino del propietario del informe en sustitución de *report-owner-tenant-id*.
 
 ### <a name="run-the-application"></a>Ejecutar la aplicación
 

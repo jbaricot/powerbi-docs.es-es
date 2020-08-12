@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 72e2744fc325f5e5b36f3abcf4a6d3d71767fbd4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 899055ea26d1f36592c426ba402aa363b65bfa15
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227639"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878359"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Compra y asignación de licencias de usuario de Power BI Pro
 
@@ -29,7 +29,7 @@ Power BI Pro es una licencia de usuario individual que permite a los usuarios l
 En este artículo se explica cómo adquirir licencias de usuario de Power BI Pro en el centro de administración de Microsoft 365. Después de comprar las licencias, puede asignarlas a los usuarios en el centro de administración de Microsoft 365 o en Azure Portal.
 
 > [!NOTE]
-> A partir del 14 de enero de 2020, las funcionalidades de compra, suscripción y administración de licencias de autoservicio para los productos de Power Platform (Power BI, Power Apps y Power Automate) están disponibles para los clientes de la nube comercial. Para obtener más información, vea las [preguntas más frecuentes sobre las compras de autoservicio](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq). Para habilitar o deshabilitar las funcionalidades de compra de autoservicio, consulte cómo [habilitar o deshabilitar el registro y la compra de autoservicio](/service-admin-disable-self-service.md).
+> A partir del 14 de enero de 2020, las funcionalidades de compra, suscripción y administración de licencias de autoservicio para los productos de Power Platform (Power BI, Power Apps y Power Automate) están disponibles para los clientes de la nube comercial. Para obtener más información, vea las [preguntas más frecuentes sobre las compras de autoservicio](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq). Para habilitar o deshabilitar las funcionalidades de compra de autoservicio, consulte cómo [habilitar o deshabilitar el registro y la compra de autoservicio](/power-bi/admin/service-admin-disable-self-service).
 
 ### <a name="prerequisites"></a>Requisitos previos
 

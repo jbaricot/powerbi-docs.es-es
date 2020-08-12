@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 972241228ca9fc669289d3c0efa0a357094f6f67
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4426960cefc23111740d0e930f7a9704e18f8bb6
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286369"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878300"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Implementación de seguridad de nivel de fila en un modelo tabular de Analysis Services
 
@@ -64,7 +64,7 @@ Estos pasos requieren el uso de la base de datos relacional AdventureworksDW2012
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Tarea 2: Crear el modelo tabular con tablas de hechos y dimensiones
 
-Una vez que el almacenamiento de datos relacionales está listo, es el momento de definir el modelo tabular. El modelo se puede crear con [SQL Server Data Tools](/sql/ssdt/sql-server-data-tools) (SSDT). Para más información, consulte [Crear un nuevo proyecto de modelo tabular](/sql/analysis-services/lesson-1-create-a-new-tabular-model-project).
+Una vez que el almacenamiento de datos relacionales está listo, es el momento de definir el modelo tabular. El modelo se puede crear con [SQL Server Data Tools](/sql/ssdt/sql-server-data-tools) (SSDT). Para más información, consulte [Crear un nuevo proyecto de modelo tabular](/analysis-services/tutorial-tabular-1400/as-lesson-1-create-a-new-tabular-model-project).
 
 1. Importe todas las tablas necesarias en el modelo tal y como se muestra a continuación.
 
@@ -101,7 +101,7 @@ Una vez que el almacenamiento de datos relacionales está listo, es el momento d
 
     Esta fórmula especifica que todas las columnas se resuelven en `false`, lo que significa que no se pueden consultar las columnas de la tabla `DimUserSecurity`.
 
-Ahora tiene que procesar e implementar el modelo. Para obtener más información, consulte [Implementación](/sql/analysis-services/lesson-13-deploy).
+Ahora tiene que procesar e implementar el modelo. Para obtener más información, consulte [Implementación](/analysis-services/tutorial-tabular-1200/lesson-13-deploy).
 
 ## <a name="task-3-add-data-sources-within-your-on-premises-data-gateway"></a>Tarea 3: Agregar orígenes de datos de la puerta de enlace de datos local
 
@@ -164,9 +164,9 @@ Cuando Rita inicia sesión en el servicio Power BI y ve el panel compartido que
 En esta tarea se supone que está familiarizado con [SQL Server Profiler](/sql/tools/sql-server-profiler/sql-server-profiler), ya que tiene que capturar un seguimiento de SQL Server Profiler en la instancia tabular de SSAS local.
 
 La sesión se inicializa en cuanto la usuaria (Rita) accede al panel en el servicio Power BI. Puede ver que el rol **salesterritoryusers** tiene efecto inmediato con el nombre de usuario vigente como **<EffectiveUserName>rita@contoso.com</EffectiveUserName>** .
-
+```
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>rita@contoso.com</EffectiveUserName></PropertyList>
-
+```
 Según la solicitud de nombre de usuario vigente, Analysis Services convierte la solicitud a la credencial real de `contoso\rita` después de consultar Active Directory local. Una vez que Analysis Services obtiene la credencial, Analysis Services devuelve los datos para los que el usuario tiene permiso de visualización y acceso.
 
 Si se produce más actividad con el panel, con SQL Profiler verá una consulta específica que vuelve al modelo tabular de Analysis Services como una consulta DAX. Por ejemplo, si Rita va del panel al informe subyacente, se produce la siguiente consulta.

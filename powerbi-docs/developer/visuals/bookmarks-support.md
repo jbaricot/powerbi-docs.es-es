@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: aed8317c36cdd118b03bff2db93788f493ac9ad2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380534"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878585"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Adición de compatibilidad de los marcadores para los objetos visuales de Power BI
 
@@ -49,9 +49,9 @@ El objeto visual debe restaurar los valores de filtro para mostrar el estado cor
 
 Si el objeto visual interactúa con otros objetos visuales mediante [Selection](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md), puede agregar marcadores de una de estas dos maneras:
 
-* Si el objeto visual aún no ha usado [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md), puede utilizar el método `FilterManager.restoreSelectionIds`.
+* Si el objeto visual aún no ha usado [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts), puede utilizar el método `FilterManager.restoreSelectionIds`.
 
-* Si el objeto visual ya ha usado [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) para administrar selecciones, debe utilizar el método `applySelectionFromFilter` en la instancia de `InteractivityService`.
+* Si el objeto visual ya ha usado [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts) para administrar selecciones, debe utilizar el método `applySelectionFromFilter` en la instancia de `InteractivityService`.
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>Uso de ISelectionManager.registerOnSelectCallback
 

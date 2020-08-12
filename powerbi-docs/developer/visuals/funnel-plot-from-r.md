@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354487"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878700"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Tutorial: Creación de un trazado de embudo a partir de un script de R para un elemento visual de R
 En este artículo se describe paso a paso cómo crear un trazado de embudo a partir de un script de R en un objeto visual de R.
@@ -75,7 +75,7 @@ Después, edite el script para reflejar [este script](https://github.com/microso
 1. Vuelva a empaquetar el objeto visual con el comando `pbiviz package` e intente importarlo en Power BI.
 
 > [!NOTE]
-> Vea [PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3-RCustomVisual/funnelPlot_RCustomVisual.pbix) y [código fuente](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/) para la descarga.
+> Vea [PBIX](https://github.com/microsoft/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) y [código fuente](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/) para la descarga.
 
 ## <a name="make-r-based-visual-improvements"></a>Mejoras de objetos visuales basados en R
 
@@ -274,7 +274,7 @@ Como el objeto visual resultante está basado en PNG, no responde al desplazamie
 
 * Todos los objetos visuales de R aplican el operador `unique` a su tabla de entrada. Para evitar que se quiten filas idénticas, considere la posibilidad de agregar un campo de entrada adicional con un identificador único y omitirlo en el código de R.   
 
-* Si tiene una cuenta de Power BI, use el servicio Power BI para desarrollar un objeto visual [sobre la marcha](/PowerBI-visuals/docs/step-by-step-lab/creating-a-custom-visual/#testing-the-custom-visual) en lugar de volver a empaquetarlos con el comando `pbiviz package`.
+* Si tiene una cuenta de Power BI, use el servicio Power BI para desarrollar un objeto visual [sobre la marcha](/power-bi/developer/visuals/custom-visual-develop-tutorial/) en lugar de volver a empaquetarlos con el comando `pbiviz package`.
 
 ### <a name="html-widgets-gallery"></a>Galería de widgets HTML
 Explore los objetos visuales en la [galería de widgets HTML](http://gallery.htmlwidgets.org/) para usarlos en el siguiente objeto visual. Para facilitar el proceso, se ha creado un [repositorio de proyectos de objetos visuales](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) con más de 20 objetos visuales HTML interactivos entre los que elegir.

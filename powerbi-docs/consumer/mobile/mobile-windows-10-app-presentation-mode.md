@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 06/28/2020
+ms.date: 08/11/2020
 ms.author: painbar
-ms.openlocfilehash: 436ef20a54312f2e169c428cf1d2914bc47eafb0
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85ba8b893dfa6da7934aff6b7890530e0acb2961
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782614"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091693"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Visualización de informes y paneles en modo de presentación en Surface Hub y dispositivos Windows 10
 Use el modo de presentación para mostrar los informes y paneles en pantalla completa en dispositivos Windows 10 y Surface Hub. El modo de presentación es útil para mostrar Power BI en reuniones o conferencias, para visualizarlo en un proyector dedicado en la oficina o incluso para aprovechar al máximo el espacio de una pantalla pequeña.
@@ -73,4 +73,3 @@ De forma predeterminada, una presentación de diapositivas recorre las páginas,
 ## <a name="next-steps"></a>Pasos siguientes
 * [Mostrar paneles e informes en el modo de pantalla completa desde el servicio Power BI](../end-user-focus.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-
