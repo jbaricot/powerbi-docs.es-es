@@ -114,6 +114,8 @@
               href: service-admin-premium-multi-geo.md
             - name: Uso de claves de cifrado propias
               href: service-encryption-byok.md
+            - name: Uso de claves administradas por el cliente
+              href: service-encryption-customer-managed-keys.md
             - name: Reinicio de una capacidad Premium
               href: service-admin-premium-restart.md
             - name: Conectividad del conjunto de datos con el punto de conexión de XMLA
