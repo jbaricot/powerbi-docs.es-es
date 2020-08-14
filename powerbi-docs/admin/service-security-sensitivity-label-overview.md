@@ -6,15 +6,15 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/05/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea161af0156aa0bee2fe92ab2f87fb82630f5589
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 4d719d7df5b982341b6377c41e448267197e769b
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252139"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049258"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Etiquetas de confidencialidad en Power BI
 
@@ -39,7 +39,7 @@ Las etiquetas de confidencialidad y el cifrado de archivos **no** se aplican en 
 
 ## <a name="how-sensitivity-labels-work-in-power-bi"></a>Cómo funcionan las etiquetas de confidencialidad en Power BI
 
-Cuando se aplica una etiqueta de confidencialidad a un panel, informe, conjunto de datos o flujo de datos de Power BI, es similar a aplicar una etiqueta a ese recurso con las ventajas siguientes:
+Aplicar una etiqueta de confidencialidad a un panel, informe, conjunto de datos o flujo de datos de Power BI es similar a aplicar una etiqueta a ese recurso con las ventajas siguientes:
 * **Personalizable**: puede crear categorías para diferentes niveles de contenido confidencial en su organización, como personal, público, general, confidencial y extremadamente confidencial.
 * **Texto no cifrado**: como la etiqueta está en texto sin cifrar, es fácil que los usuarios sepan cómo tratar el contenido de acuerdo con las instrucciones de la etiqueta de confidencialidad.
 * **Persistente**: después de aplicar una etiqueta de confidencialidad al contenido, le acompaña cuando se exporta a archivos de Excel, PowerPoint y PDF, y se convierte en la base de la aplicación de directivas.
@@ -69,21 +69,33 @@ Cuando los datos se exportan desde Power BI a archivos de Excel, PowerPoint o P
 
 Un usuario que exporta un archivo de Power BI tiene permisos para acceder al archivo y editarlo según la configuración de la etiqueta de confidencialidad; no obtienen permiso del propietario en el archivo.
 
-La protección y las etiquetas de confidencialidad no se aplican cuando los datos se exportan a archivos .csv o .pbix, a Analizar en Excel o cualquier otra ruta de exportación.
+La protección y las etiquetas de confidencialidad no se aplican cuando los datos se exportan a archivos .csv o .pbix, o a cualquier otra ruta de exportación.
 
 La aplicación de una etiqueta de confidencialidad y protección a un archivo exportado no le agrega marcas de contenido. Pero si la etiqueta está configurada para aplicar marcas de contenido, el cliente de etiquetado unificado de Azure Information Protection aplica las marcas automáticamente cuando el archivo se abre en las aplicaciones de escritorio de Office. Las marcas de contenido no se aplican de forma automática cuando se usa el etiquetado integrado para aplicaciones web, para dispositivos móviles o de escritorio. Vea [Cuando las aplicaciones de Office aplican marcas de contenido y cifrado](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption) para obtener más detalles.
 
 Se produce un error en la exportación si no se puede aplicar una etiqueta al exportar los datos a un archivo. Para comprobar si se ha producido un error en la exportación porque no se ha podido aplicar la etiqueta, haga clic en el nombre del panel o informe en el centro de la barra de título y compruebe si en el cuadro desplegable de información que se abre se indica "No se puede cargar la etiqueta de confidencialidad". Esto puede suceder como resultado de un problema temporal del sistema o si el administrador de seguridad no ha publicado ni ha eliminado la etiqueta aplicada.
 
+## <a name="sensitivity-label-inheritance-in-analyze-in-excel"></a>Herencia de las etiquetas de confidencialidad en Analizar en Excel
+
+Al crear una tabla dinámica en Excel con una conexión dinámica a un conjunto de datos de Power BI (esto puede hacerlo desde Power BI mediante [Analizar en Excel](../collaborate-share/service-analyze-in-excel.md) o desde [Excel](https://support.microsoft.com/office/create-a-pivottable-from-power-bi-datasets-31444a04-9c38-4dd7-9a45-22848c666884?ui=en-US&rs=en-US&ad=US)), la etiqueta de confidencialidad del conjunto de datos se hereda y se aplica al archivo de Excel, junto con cualquier protección asociada. Si la etiqueta del conjunto de datos cambia posteriormente a una más restrictiva, la etiqueta aplicada al archivo de Excel vinculado se actualizará automáticamente tras la actualización de los datos.
+
+![Captura de pantalla de Excel que muestra la etiqueta de confidencialidad heredada del conjunto de datos mediante conexión dinámica.](media/service-security-sensitivity-label-overview/live-connection-inheritance.png)
+ 
+La etiqueta de confidencialidad del conjunto de datos no sobrescribe automáticamente las etiquetas de confidencialidad de Excel que se establecieron manualmente. En su lugar, un mensaje emergente le informa de que el conjunto de datos tiene una etiqueta de confidencialidad y recomienda aplicarla.
+
+>[!NOTE]
+>Si la etiqueta de confidencialidad del conjunto de datos es menos restrictiva que la etiqueta de confidencialidad del archivo de Excel, las etiquetas ni se heredan ni se actualizan. Un archivo de Excel nunca hereda una etiqueta de confidencialidad menos restrictiva.
+
+
 ## <a name="sensitivity-label-persistence-in-embedded-reports-and-dashboards"></a>Persistencia de la etiqueta de confidencialidad en informes y paneles insertados
 
-Puede insertar informes, paneles y objetos visuales de Power BI en aplicaciones empresariales tales como Microsoft Teams y SharePoint, o en el sitio web de una organización. Al insertar un objeto visual, informe o panel que tenga una etiqueta de confidencialidad aplicada, la etiqueta de confidencialidad estará visible en la vista insertada, y la etiqueta y su protección se conservarán cuando los datos se exporten a Excel.
+Puede insertar informes, paneles y objetos visuales de Power BI en aplicaciones empresariales tales como Microsoft Teams y SharePoint, o en el sitio web de una organización. Al insertar un objeto visual, informe o panel que tenga aplicada una etiqueta de confidencialidad, esta etiqueta se verá en la vista insertada, y la etiqueta y su protección se conservarán cuando los datos se exporten a Excel.
 
 ![Captura de pantalla del informe insertado en SharePoint Online](media/service-security-sensitivity-label-overview/embedded-report-sensitivity-label.png)
 
 Se admiten los escenarios insertados siguientes:
 * [Insertar para la organización](../developer/embedded/embed-sample-for-your-organization.md)
-* Aplicaciones de Microsoft 365 (por ejemplo, [Teams](../collaborate-share/service-collaborate-microsoft-teams.md) y [SharePoint](../collaborate-share/service-embed-report-spo.md))
+* Aplicaciones de Microsoft 365 (por ejemplo, [Teams](../collaborate-share/service-embed-report-microsoft-teams.md) y [SharePoint](../collaborate-share/service-embed-report-spo.md))
 * [Inserción de dirección URL segura](../collaborate-share/service-embed-secure.md) (inserción desde el servicio Power BI) 
 
 ## <a name="sensitivity-labels-in-the-power-bi-mobile-apps"></a>Etiquetas de confidencialidad en las aplicaciones móviles de Power BI
@@ -95,18 +107,9 @@ Las etiquetas de confidencialidad se pueden ver en los informes y paneles de las
 ## <a name="supported-clouds"></a>Nubes admitidas
 Las etiquetas de confidencialidad solo se admiten para inquilinos de nubes (públicas) globales, no para los de nubes nacionales.
 
-## <a name="requirements-for-using-sensitivity-labels-in-power-bi"></a>Requisitos para el uso de etiquetas de confidencialidad en Power BI
+## <a name="licensing-and-requirements"></a>Licencia y requisitos
 
-Antes de poder habilitar las etiquetas de confidencialidad y usarlas en Power BI, primero debe completar los siguientes requisitos previos:
-* Asegúrese de que las etiquetas de confidencialidad se han definido en el [Centro de seguridad de Microsoft 365](https://security.microsoft.com/) o el [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/).
-* [Habilite las etiquetas de confidencialidad](service-security-enable-data-sensitivity-labels.md) en Power BI.
-* Asegúrese de que los usuarios tienen las [licencias adecuadas](#licensing).
-
-## <a name="licensing"></a>Licencias
-
-* Para ver o aplicar las etiquetas de confidencialidad de Microsoft Information Protection en Power BI, es necesaria una licencia de Azure Information Protection Premium P1 o Premium P2. Microsoft Azure Information Protection se puede adquirir de forma independiente o mediante uno de los conjuntos de licencias de Microsoft. Consulte [Precios de Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) para más detalles.
-* La visualización y la aplicación de etiquetas en las aplicaciones de Office tienen [requisitos de licencias](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels).
-* Para aplicar etiquetas a contenido de Power BI, un usuario debe tener una licencia de Power BI Pro además de una de las licencias de Azure Information Protection mencionadas anteriormente.
+Consulte [Licencia y requisitos](service-security-enable-data-sensitivity-labels.md#licensing-and-requirements).
 
 ## <a name="sensitivity-label-creation-and-management"></a>Creación y administración de etiquetas de confidencialidad
 
@@ -125,7 +128,7 @@ En la lista siguiente se proporcionan algunas limitaciones de las etiquetas de c
 * Las etiquetas de confidencialidad de los recursos de Power BI son visibles en la lista de áreas de trabajo y en las vistas de linaje, favoritos, recientes y aplicaciones; no son visibles actualmente en la vista "compartido conmigo". Tenga en cuenta, sin embargo, que una etiqueta aplicada a un recurso de Power BI, incluso si no está visible, siempre se conservará en los datos exportados a archivos de Excel, PowerPoint y PDF.
 * No se admiten las etiquetas de confidencialidad para las aplicaciones de plantilla. Las etiquetas de confidencialidad establecidas por el creador de la aplicación de plantilla se quitan cuando se extrae la aplicación y se instala. Asimismo, al actualizar la aplicación, las etiquetas de confidencialidad agregadas a los artefactos de una aplicación de plantilla instalada por el consumidor de la aplicación se pierden (se restablecen vacías).
 * Power BI no admite etiquetas de confidencialidad de los tipos de protección [No reenviar](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions), [definido por el usuario](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions) e [HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions). Los tipos de protección No reenviar y definido por el usuario hacen referencia a las etiquetas definidas en el [Centro de seguridad de Microsoft 365](https://security.microsoft.com/) o el [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/).
-* No se recomienda permitir que los usuarios apliquen etiquetas primarias en Power BI. Si se aplica una etiqueta primaria al contenido, se producirá un error al exportar los datos de ese contenido a un archivo (Excel, PowerPoint y PDF). Vea [Subetiquetas (etiquetas de agrupación)](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels).
+* No se recomienda permitir que los usuarios apliquen etiquetas primarias en Power BI. Si se aplica una etiqueta principal al contenido, se producirá un error al exportar los datos de ese contenido a un archivo (Excel, PowerPoint y PDF). Vea [Subetiquetas (etiquetas de agrupación)](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

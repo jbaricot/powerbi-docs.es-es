@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: f92d10fdff880049460d24c714201d9a433745d8
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: be2f98341abd581cd2df717d19b3a9110548a2ec
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86035153"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049216"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Aplicación de etiquetas de confidencialidad en Power BI
 
@@ -21,8 +21,8 @@ Las etiquetas de confidencialidad de Microsoft Information Protection para info
 
 Para poder aplicar etiquetas de confidencialidad en Power BI:
 * Debe tener una licencia de Power BI Pro y permisos de edición en el contenido que quiera etiquetar.
-* Debe pertenecer a un grupo de seguridad que tenga permisos para aplicar etiquetas de confidencialidad, tal y como se describe en el artículo titulado [Habilitación de etiquetas de confidencialidad en Power BI](./service-security-enable-data-sensitivity-labels.md#enable-sensitivity-labels).
-* Se deben haber cumplidos todos los [requisitos previos](./service-security-sensitivity-label-overview.md#requirements-for-using-sensitivity-labels-in-power-bi) y [requisitos de licencias](./service-security-data-protection-overview.md#licensing).
+* Debe pertenecer a un grupo de seguridad que tenga permisos para aplicar etiquetas de confidencialidad, tal y como se describe en el artículo titulado [Habilitación de etiquetas de confidencialidad en Power BI](./service-security-enable-data-sensitivity-labels.md).
+* Se deben haber cumplido todos los [requisitos de licencia y otros](./service-security-enable-data-sensitivity-labels.md#licensing-and-requirements).
 
 Para obtener más información sobre las etiquetas de confidencialidad en Power BI, consulte [Etiquetas de confidencialidad en Power BI](service-security-sensitivity-label-overview.md).
 

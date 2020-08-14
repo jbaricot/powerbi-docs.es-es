@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0fe1b7b1b8175511838005b7b63ca7543bbf939a
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ebc4601f3575e84c248aef9204537a7d93c428ac
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034345"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049193"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Habilitación de etiquetas de confidencialidad en Power BI
 
@@ -24,7 +24,20 @@ Cuando las etiquetas de confidencialidad están habilitadas:
 * Usuarios y grupos de seguridad concretos de la organización pueden clasificar y [aplicar etiquetas de confidencialidad](./service-security-apply-data-sensitivity-labels.md) a sus paneles, informes, conjuntos de datos y flujos de datos de Power BI.
 * Todos los miembros de la organización pueden ver esas etiquetas.
 
-La habilitación de etiquetas de confidencialidad requiere una licencia de Azure Information Protection. Vea [Licencias](service-security-sensitivity-label-overview.md#licensing) para obtener más detalles.
+La habilitación de etiquetas de confidencialidad requiere una licencia de Azure Information Protection. Para más información, consulte [Licencia y requisitos](#licensing-and-requirements).
+
+## <a name="licensing-and-requirements"></a>Licencia y requisitos
+
+* Para ver o aplicar etiquetas de confidencialidad de Microsoft Information Protection en Power BI, se necesita una licencia de Azure Information Protection Premium P1 o Premium P2. Azure Information Protection se puede adquirir de forma independiente o mediante uno de los conjuntos de licencias de Microsoft. Consulte [Precios de Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) para más detalles.
+
+* Para aplicar etiquetas a contenido de Power BI, un usuario debe tener una licencia de Power BI Pro además de una de las licencias de Azure Information Protection mencionadas anteriormente.
+
+* Las aplicaciones de Office tienen sus propios [requisitos de licencia para ver y aplicar etiquetas de confidencialidad]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels ).
+
+* Antes de habilitar etiquetas de confidencialidad en el inquilino, asegúrese de que se hayan definido y publicado para los usuarios y grupos pertinentes. Para más información, consulte [Crear y configurar etiquetas de confidencialidad y sus directivas](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide).
+
+>[!NOTE]
+> Si su organización usa etiquetas de confidencialidad de Azure Information Protection, se deben migrar a la plataforma de etiquetado unificado de Microsoft Information Protection para usarlas en Power BI. [Más información sobre la migración de etiquetas de confidencialidad](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
 
 ## <a name="enable-sensitivity-labels"></a>Habilitación de etiquetas de confidencialidad
 
@@ -52,9 +65,9 @@ En la sección **Information Protection**, realice los pasos siguientes:
 
 Power BI usa las etiquetas de confidencialidad de Microsoft Information Protection. Por lo tanto, si encuentra un mensaje de error al intentar habilitar las etiquetas de confidencialidad, puede deberse a uno de los siguientes motivos:
 
-* No tiene una [licencia](service-security-sensitivity-label-overview.md#licensing) de Azure Information Protection.
-* Las etiquetas de confidencialidad no se han migrado a la versión de Microsoft Information Protection compatible con Power BI. Más información sobre la [migración de etiquetas de confidencialidad](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
-* No se ha definido ninguna etiqueta de confidencialidad de Microsoft Information Protection en la organización. Tenga en cuenta que para poder usar una etiqueta, debe formar parte de una directiva publicada. [Más información sobre las etiquetas de confidencialidad](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) o visite el [Centro de seguridad y cumplimiento de Microsoft](https://sip.protection.office.com/sensitivity?flight=EnableMIPLabels) para obtener información sobre cómo definir etiquetas y publicar directivas para su organización.
+* No tiene una [licencia](#licensing-and-requirements) de Azure Information Protection.
+* Las etiquetas de confidencialidad no se han [migrado](#enable-sensitivity-labels) a la versión de Microsoft Information Protection compatible con Power BI.
+* No se ha definido ninguna etiqueta de confidencialidad de Microsoft Information Protection [en la organización](#enable-sensitivity-labels).
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 

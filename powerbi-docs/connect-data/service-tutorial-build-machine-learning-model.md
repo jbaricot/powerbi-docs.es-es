@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 03/29/2019
+ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2d65b63238009c5a743d83a13d596f36aad4b2a3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9f25c9ffc294a1733a3dba5818dc00bd23124837
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281700"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878826"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Tutorial: Compilación de un modelo de Machine Learning en Power BI
 
@@ -154,6 +154,26 @@ Al aplicar un modelo Predicción binaria, se agregan cuatro columnas con el resu
 Cuando se haya completado la actualización del flujo de entrada, puede seleccionar la entidad **Online Visitors enriched Purchase Intent Prediction** para ver los resultados.
 
 ![Ver los resultados](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-21.png)
+
+También puede invocar cualquier modelo de AutoML en el área de trabajo, directamente desde el Editor de Power Query en el flujo de entrada. Para acceder a los modelos de AutoML, seleccione el botón Editar correspondiente a la entidad que quiera enriquecer con conclusiones de su modelo de AutoML, como se muestra en la siguiente imagen.
+
+![Edición de la entidad](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-22.png)
+
+Al seleccionar el botón Editar se abre el Editor de Power Query para las entidades de su flujo de datos. Seleccione el botón "Conclusiones de AI" en la cinta de opciones.
+
+![Conclusiones de IA](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-23.png)
+
+ Seleccione la carpeta de modelos de aprendizaje automático de Power BI en el menú del panel de navegación. Aquí aparecen todos los modelos de AutoML a los que tiene acceso como funciones de Power Query. Asimismo, los parámetros de entrada del modelo de AutoML se asignan automáticamente como parámetros de la función de Power Query correspondiente. Tenga en cuenta que la asignación automática de parámetros solo se produce si el nombre y el tipo de datos del parámetro son los mismos.
+ 
+Para invocar un modelo de AutoML, puede especificar cualquiera de las columnas de la entidad seleccionada como entrada en el menú desplegable. También puede especificar un valor constante que se va a usar como entrada cambiando el icono de la columna a la izquierda del cuadro de diálogo de entrada.
+
+![Explorador de funciones de PQO](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-24.png)
+
+Seleccione Aplicar para ver la versión preliminar de la salida del modelo de AutoML como una nueva columna de la tabla de entidades. También verá la invocación de modelos como paso aplicado para la consulta.
+
+![Vista de resultados](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-25.png)
+
+Una vez que guarde su flujo de datos, el modelo se invocará automáticamente al actualizarse el flujo de datos, para cualquier fila nueva o actualizada de la tabla de entidades.
 
 ## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>Uso de la salida puntuada del modelo en un informe de Power BI
 

@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768812"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837506"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportación de informes de Power BI a PDF
 
@@ -52,6 +52,7 @@ Y eso es todo. Puede descargar el archivo y abrirlo con cualquier visor de PDF, 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 Hay algunas consideraciones y limitaciones que se deben tener en cuenta cuando se trabaja con la característica **Exportar a PDF**.
 
+* El PDF incluirá los datos y las visualizaciones visibles en el lienzo de Power BI. Si el objeto visual incluye barras de desplazamiento, el PDF incluirá el objeto visual en su estado predeterminado no desplazado.  
 * En la actualidad, no se admiten objetos visuales de R y Python. En el archivo PDF, estos objetos visuales están en blanco y muestran un mensaje de error. 
 * Se admiten los objetos visuales de Power BI que se han certificado. Para obtener más información sobre los objetos visuales de Power BI certificados, incluido cómo obtener un objeto visual de Power BI certificado, vea [Obtención de un objeto visual de Power BI certificado](../developer/visuals/power-bi-custom-visuals-certified.md). No se admiten los objetos visuales de Power BI que no se hayan certificado. En el archivo PDF, se muestran con un mensaje de error.
 * Este objeto visual de ESRI no se admite.

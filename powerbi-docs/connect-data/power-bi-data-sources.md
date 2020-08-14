@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 08/05/2020
 ms.author: davidi
-ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
-ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
+ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84681868"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837575"
 ---
 # <a name="power-bi-data-sources"></a>Orígenes de datos de Power BI
 
@@ -94,7 +94,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | ODBC | Sí | Sí | No | Sí | Sí |
 | OleDb | Sí | Sí | No | Sí | Sí |
 | Oracle | Sí | Sí | Sí | Sí | Sí |
-| Paxata | Sí | Sí | No | Sí | No |
+| Paxata <sup>8</sup> | Sí | Sí | No | Sí | No |
 | PDF | Sí | Sí | No | Sí | No <sup>4</sup> |
 | Planview Enterprise One - CTM | Sí | Sí | No | No | No |
 | Planview Enterprise One - PRM | Sí | Sí | No | No | No |
@@ -155,6 +155,8 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 
 <sup>7</sup> El servicio Power BI no es compatible con las fuentes de OData que requieren autenticación.
 
+<sup>8</sup> Paxata se admite en la versión de Power BI Desktop optimizada para Power BI Report Server. No se admite en los informes de Power BI publicados en Power BI Report Server. Para ver una lista de los orígenes de datos admitidos, consulte [Orígenes de datos de los informes de Power BI en Power BI Report Server](../report-server/data-sources.md).
+
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Inicio de sesión único (SSO) para orígenes de DirectQuery
 
 Cuando se habilita la opción SSO y los usuarios acceden a informes creados sobre el origen de datos, Power BI envía sus credenciales autenticadas de Azure AD en las consultas al origen de datos subyacente. Esto permite a Power BI respetar la configuración de seguridad establecida en el nivel de origen de datos.
@@ -168,7 +170,7 @@ La opción SSO surte efecto en todos los conjuntos de datos que usan este origen
 - Servidor de mensajes de SAP BW
 - Snowflake
 - Spark
-- SQL Server
+- SQL Server
 - Teradatos
 
 > [!Note]
@@ -180,3 +182,4 @@ La opción SSO surte efecto en todos los conjuntos de datos que usan este origen
 [Uso de DirectQuery en Power BI](desktop-directquery-about.md)  
 [Datos activos de SQL Server Analysis Services en Power BI](sql-server-analysis-services-tabular-data.md)  
 [¿Qué es una puerta de enlace de datos local?](service-gateway-onprem.md)  
+[Orígenes de datos de los informes de Power BI en Power BI Report Server](../report-server/data-sources.md)

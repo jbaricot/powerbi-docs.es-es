@@ -7,15 +7,15 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 08/07/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0be1f3aeb48e4596566c36c1ee8cfadeb3c33d10
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 4118e5c009a8d7372d5cb58d1e1b9d033a70494e
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214028"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988733"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Comparación de Power BI Desktop y el servicio Power BI
 
@@ -23,15 +23,17 @@ En un diagrama de Venn en el que se comparan Power BI Desktop y el servicio Powe
 
 ![Diagrama de Venn en el que se muestra la relación entre Power BI Desktop y el servicio Power BI.](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-**Power BI Desktop** es una herramienta completa de creación de informes y análisis de datos que se instala para la aplicación gratuita en el equipo local. Incluye el Editor de consultas, en el que puede conectarse a muchos orígenes de datos diferentes y combinarlos en un modelo de datos (lo que se suele denominar modelado). Después, se diseña un informe basado en ese modelo de datos. La [Guía de introducción de Power BI Desktop](desktop-getting-started.md) le orientará por este proceso.
+**Power BI Desktop** es una herramienta completa de creación de informes y análisis de datos que se instala de forma gratuita en el equipo local. Incluye el Editor de consultas, en el que puede conectarse a muchos orígenes de datos diferentes y combinarlos en un modelo de datos (lo que se suele denominar modelado). Después, se diseña un informe basado en ese modelo de datos. La [Guía de introducción de Power BI Desktop](desktop-getting-started.md) le orientará por este proceso.
 
-El **servicio Power BI** es un servicio basado en la nube. Admite la edición y colaboración ligeras de informes para equipos y organizaciones. En el servicio Power BI también puede conectarse a orígenes de datos, pero el modelado está limitado. 
+El **servicio Power BI** es un servicio basado en la nube. Admite la edición y colaboración ligeras de informes para equipos y organizaciones. En el servicio Power BI también puede conectarse a orígenes de datos, pero el modelado está limitado.
 
-La mayoría de los diseñadores de informes que trabajan en proyectos de inteligencia empresarial usan **Power BI Desktop** para crear informes y, luego, recurren al **servicio Power BI** para distribuirlos con otros usuarios.
+La mayoría de los diseñadores de informes de Power BI que trabajan en proyectos de inteligencia empresarial usan **Power BI Desktop** para crear informes de Power BI y, luego, usan el **servicio Power BI** para distribuirlos y colaborar con otros usuarios.
 
-## <a name="report-editing"></a>Edición de informes
+El servicio Power BI también hospeda *informes paginados* en áreas de trabajo respaldadas por una capacidad de Power BI Premium. Los informes paginados se crean con el Generador de informes de Power BI. Consulte [Comparación entre los informes de Power BI y los informes paginados](../paginated-reports/paginated-reports-report-builder-power-bi.md#compare-power-bi-reports-and-paginated-reports) en el artículo "¿Qué son los informes paginados en Power BI Premium?" para más información.
 
-Tanto en la aplicación como en el servicio se pueden crear y editar *informes*. Un informe puede tener una o varias páginas con objetos visuales y colecciones de objetos visuales. Agregue marcadores, botones, filtros y opciones de obtención de detalles para mejorar la navegación en los informes.
+## <a name="editing-power-bi-reports"></a>Edición de informes de Power BI
+
+Los *informes* de Power BI se pueden crear y editar tanto en la aplicación como en el servicio. Un informe puede tener una o varias páginas con objetos visuales y colecciones de objetos visuales. Agregue marcadores, botones, filtros y opciones de obtención de detalles para mejorar la navegación en los informes.
 
 ![Capturas de pantallas de Power BI Desktop y el servicio Power BI, con secciones numeradas.](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
@@ -48,7 +50,6 @@ En este vídeo se muestra el editor de informes en Power BI Desktop.
 ## <a name="working-in-the-power-bi-service"></a>Trabajar en el servicio Power BI
 
 ### <a name="collaborating"></a>Colaboración
-
 
 Después de crear los informes, puede guardarlos en un *área de trabajo* en el **servicio Power BI**, donde puede colaborar con sus compañeros. Los *paneles* se crean a partir de estos informes y, después, esos paneles e informes se comparten con los consumidores de informes dentro y fuera de la organización. Los consumidores de los informes los visualizan en el servicio Power BI en una *vista de lectura*, no en la vista de edición. No tienen acceso a todas las características disponibles para los creadores de informes.  También puede compartir los conjuntos de datos y permitir que otros usuarios creen sus propios informes a partir de ellos. Obtenga más información sobre la [colaboración en el servicio Power BI](../collaborate-share/service-new-workspaces.md).
 

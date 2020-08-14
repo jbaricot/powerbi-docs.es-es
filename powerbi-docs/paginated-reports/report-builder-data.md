@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
-ms.date: 06/06/2019
-ms.openlocfilehash: fea4e4927b009e30bc040593f9237cc49ff73956
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 08/04/2020
+ms.openlocfilehash: fe6ca733a5498c0e576ec30e6992ffbf26d54319
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921456"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837598"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Datos del informe en el Generador de informes de Power BI
 
@@ -27,33 +27,36 @@ Obtenga información sobre la [Creación de un origen de datos insertado para in
   
 - **Conexión de datos.** También se conoce como un *origen de datos*. Una conexión de datos incluye un nombre de conexión y propiedades que dependen del tipo de conexión. Por diseño, una conexión de datos no incluye las credenciales. Una conexión de datos no especifica qué datos deben recuperarse del origen de datos externo. Para ello, se especifica una consulta cuando se crea un conjunto de datos.  
   
-- **Cadena de conexión.** Una cadena de conexión es una versión de cadena de las propiedades de conexión que son necesarias para conectarse a un origen de datos. Las propiedades de conexión varían en función del tipo de conexión de datos.  
+- **Cadena de conexión.** Una cadena de conexión es una versión de cadena de las propiedades de conexión que son necesarias para conectarse a un origen de datos. Las propiedades de conexión varían en función del tipo de conexión de datos. 
+
+    > [!NOTE]
+    > Las cadenas de conexión del origen de datos no se pueden basar en expresiones.
   
-- **Origen de datos insertado.** También conocido como *origen de datos específicos del informe*. Un origen de datos que se define en un informe y se usa solo en ese informe.  
+- **Origen de datos incrustado.** También conocido como *origen de datos específicos del informe*. Es un origen de datos que se define en un informe y se usa solo en ese informe.  
   
 - **Credenciales.** Las credenciales son la información de autenticación que se debe proporcionar para poder tener acceso a datos externos.  
   
 ##  <a name="tips-for-specifying-report-data"></a><a name="BkMk_ReportDataTips"></a> Sugerencias para especificar los datos del informe
 
- Use la siguiente información para diseñar la estrategia de datos del informe.  
+ Use la siguiente información para diseñar una estrategia de datos de informe.  
   
-- **Filtrar datos**. Los datos del informe se pueden filtrar en la consulta o en el informe. Puede usar variables de consulta y conjuntos de datos para crear parámetros en cascada y proporcionar al usuario la posibilidad de reducir las opciones de miles de selecciones a un número más fácil de administrar. Puede filtrar los datos de una tabla o un gráfico según los valores de los parámetros u otros valores que especifique.  
+- **Filtrar datos** Los datos del informe se pueden filtrar en la consulta o en el informe. Puede usar conjuntos de datos y variables de consulta para crear parámetros en cascada y proporcionar al usuario la posibilidad de reducir las opciones de miles de selecciones a un número más fácil de administrar. Puede filtrar los datos en una tabla o un gráfico basándose en los valores de parámetro u otros valores que especifique.  
   
-- **Parámetros**. Los comandos de la consulta del conjunto de datos que incluyen variables de consulta crean automáticamente los parámetros del informe correspondiente. También puede crear manualmente los parámetros. Cuando se visualiza un informe, la barra de herramientas del informe muestra los parámetros. Los usuarios pueden seleccionar valores para controlar los datos del informe o el aspecto del informe. Para personalizar los datos del informe para públicos específicos, puede crear conjuntos de parámetros del informe con diferentes valores predeterminados vinculados a la misma definición de informe o usar el campo integrado **UserID**. 
+- **Parámetros** Los comandos de consulta de conjunto datos que incluyen variables de consulta crean automáticamente los parámetros de informe correspondientes. También puede crear los parámetros de forma manual. Al ver un informe, la barra de herramientas de informe muestra los parámetros. Los usuarios pueden seleccionar valores para controlar el aspecto del informe o de los datos del informe. Para personalizar los datos de destinatarios específicos, puede crear conjuntos de parámetros de informe con diferentes valores predeterminados vinculados a la misma definición de informe o usar el campo integrado **UserID** . 
   
-- **Agrupar y agregar datos**. Los datos del informe se pueden agrupar y agregar en la consulta o en el informe. Si agrega los valores en la consulta, puede también combinar los valores en el informe dentro de las restricciones de lo que es significativo.  
+- **Datos de grupo y de agregado** Los datos del informe se pueden agrupar y agregar en la consulta o en el informe. Si agrega valores a la consulta, puede continuar combinando valores en el informe dentro de los límites de lo que es significativo.  
   
-- **Ordenar datos**. Los datos del informe se pueden ordenar en la consulta o en el informe. En las tablas también puede agregar un botón de ordenación interactivo para permitir al usuario controlar el criterio de ordenación.  
+- **Ordenar datos** Los datos de informe se pueden clasificar en la consulta o en el informe. En las tablas, también puede agregar un botón de ordenación interactivo para permitir al usuario controlar el criterio de ordenación.  
   
-- **Datos basados en expresiones**. Puesto que la mayoría de las propiedades del informe pueden estar basadas en expresiones y las expresiones pueden incluir referencias a los campos del conjunto de datos y los parámetros del informe, puede escribir expresiones eficaces para controlar los datos y el aspecto del informe. Puede proporcionar a un usuario la posibilidad de controlar los datos que visualiza mediante la definición de parámetros.  
+- **Datos basados en expresiones** Dado que la mayoría de las propiedades del informe pueden estar basadas en expresiones y las expresiones pueden incluir referencias a campos de conjunto de datos y parámetros de informe, puede escribir expresiones eficaces para controlar los datos y el aspecto del informe. Puede proporcionar a un usuario la capacidad de controlar los datos que visualiza si define parámetros.  
   
-- **Mostrar los datos de un conjunto de datos**. Los datos de un conjunto de datos normalmente se muestran en una o más regiones de datos; por ejemplo, una tabla y un gráfico.  
+- **Mostrar datos de un conjunto de datos** Los datos de un conjunto de datos aparecen normalmente en una o varias regiones de datos, por ejemplo, una tabla y un gráfico.  
   
-- **Mostrar los datos de varios conjuntos de datos**. Puede escribir expresiones en una región de datos basadas en un conjunto de datos que busca o agrega los valores de otros conjuntos de datos. Puede incluir subinformes en una tabla basada en un conjunto de datos para mostrar los datos de un origen de datos diferente.  
+- **Mostrar datos de varios conjuntos de datos**  Puede escribir expresiones en una región de datos basada en un conjunto de datos que buscan valores o agregados en otros conjuntos de datos. Puede incluir subinformes en una tabla basada en un conjunto de datos para mostrar los datos de un origen de datos.  
   
- Utilice la siguiente lista para ayudar a definir los orígenes de datos de un informe.  
+ Use la lista siguiente como ayuda para definir orígenes de datos para un informe.  
   
-- Comprender la arquitectura de la capa de datos del software de la organización y las posibles incidencias que surgen de los tipos de datos. Comprender cómo pueden afectar las extensiones de datos y las extensiones de procesamiento de datos a los resultados de la consulta. Los tipos de datos varían entre el origen de datos, los proveedores de datos y los tipos de datos almacenados en el archivo de definición del informe (.rdl).  
+- Comprenda la arquitectura de nivel de datos de software de su organización y los problemas potenciales que surgen de los tipos de datos. Conozca cómo las extensiones de datos y de procesamiento de datos pueden afectar a los resultados de la consulta. Los tipos de datos difieren entre el origen de datos, los proveedores de datos y los tipos de datos almacenados en el archivo de definición de informe (.rdl).  
   
 - Los orígenes de datos y los conjuntos de datos se crean en un informe y se publican en el servicio Power BI. Una vez que se publican, puede configurar las credenciales directamente en el servicio Power BI o en la puerta de enlace empresarial. 
 

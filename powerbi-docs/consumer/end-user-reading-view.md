@@ -12,14 +12,14 @@ ms.subservice: powerbi-consumer
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/17/2020
+ms.date: 08/10/2020
 ms.author: mihart
-ms.openlocfilehash: 7d9d0a3f9aaea77a969f11561a22ab68fbec0264
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0d0d6e935f8405aa063ed90cf5a2f403faeba893
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537260"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049745"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Inicio rápido: más información sobre las capacidades de Power BI para *consumidores*
 
@@ -102,7 +102,7 @@ Los datos están activos y los objetos visuales se actualizan automáticamente p
 ![icono, tarjeta, KPI](media/end-user-alerts/card-gauge-kpi.png)
 
 Power BI le envía un correo electrónico cuando el valor aumente o disminuya más allá del límite que establezca.  
-![Correo electrónico de alerta](media/end-user-alerts/power-bi-alert-email.png)
+![Correo electrónico de alerta](media/end-user-alerts/power-bi-email.png)
 
 Obtenga más información sobre las [alertas de Power BI](end-user-alerts.md).
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 08/07/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: dea1198519f59a81c49e2f7a95a903c37bd4fb11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c171369cad8a311f91bd4b8542577cbd0c8e4657
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236623"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988713"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Uso de conectores de datos personalizados con la puerta de enlace de datos local
 
@@ -47,6 +47,7 @@ Si esta opción está habilitada, verá los conectores personalizados como oríg
 * Asegúrese de que el servicio de la puerta de enlace en segundo plano puede acceder a la carpeta que cree. Normalmente, no se puede acceder a las carpetas que hay en la carpeta de Windows o del sistema de los usuarios. La aplicación de puerta de enlace de datos local muestra un mensaje si no se puede acceder a la carpeta. Esta instrucción no se aplica a la puerta de enlace de datos local (modo personal).
 * Para que los conectores personalizados funcionen con la puerta de enlace de datos local, tienen que implementar una sección "TestConnection" en el código del conector personalizado. Esta sección no es necesaria al usar conectores personalizados con Power BI Desktop. Por este motivo, puede tener un conector que funciona con Power BI Desktop, pero no con la puerta de enlace. Para obtener más información sobre cómo implementar una sección TestConnection, vea [esta documentación](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support).
 * OAuth para conectores personalizados mediante puertas de enlace solo se admite actualmente para administradores de puerta de enlace, pero no para otros usuarios de orígenes de datos.
+* Si el conector personalizado está en una unidad de red, incluya la ruta de acceso completa en la aplicación de puerta de enlace de datos local.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
@@ -58,4 +59,4 @@ Si esta opción está habilitada, verá los conectores personalizados como oríg
 * [Configuración de los valores del proxy para la puerta de enlace de datos local](/data-integration/gateway/service-gateway-proxy)
 * [Uso de Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales](service-gateway-sso-kerberos.md)  
 
-¿Tiene más preguntas? Pruebe a preguntar a la [Comunidad de Power BI](https://community.powerbi.com/).
+¿Tiene más preguntas? Pruebe a preguntar a la [comunidad de Power BI](https://community.powerbi.com/).

@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/08/2020
+ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 00c00ca7bbd7ad3f901c98f44a2900f332e3616a
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80979854"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837621"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI en Power BI Report Server
-Los informes de Power BI pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services.
+Los informes de Power BI pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services. Algunos orígenes de datos se admiten en Power BI Desktop optimizados para Power BI Report Server, pero no están optimizados para informes de Power BI publicados en Power BI Report Server. Consulte la lista siguiente para ver los orígenes de datos que se admiten en ambos lugares.
 
 Estos orígenes de datos son específicos de los informes de Power BI que se utilizan en Power BI Report Server. Para obtener información acerca de los orígenes de datos compatibles con informes paginados (.dll), consulte [Orígenes de datos admitidos por Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
@@ -24,15 +24,13 @@ Estos orígenes de datos son específicos de los informes de Power BI que se uti
 > Todos los orígenes de datos de un informe de Power BI Desktop deben admitir la configuración de la actualización programada.
 >  
 
-## <a name="list-of-supported-data-sources"></a>Lista de orígenes de datos admitidos
-
-Otros orígenes de datos pueden funcionar aunque no estén en la lista de admitidos.
+## <a name="list-of-supported-data-sources"></a>Lista de orígenes de datos que se admiten
 
 | **Origen de datos** | **Datos almacenados en caché** | **Actualización programada** | **Dinámica/DirectQuery** |
 | --- | --- | --- | --- |
 | Base de datos de SQL Server |Sí |Sí |Sí |
 | SQL Server Analysis Services |Sí |Sí |Sí |
-| Azure SQL Database |Sí |Sí |Sí |
+| Azure SQL Database |Sí |Sí |Sí |
 | Azure SQL Data Warehouse |Sí |Sí |Sí |
 | Excel |Sí |Sí |No |
 | Base de datos de Access |Sí |Sí |No |
@@ -52,9 +50,9 @@ Otros orígenes de datos pueden funcionar aunque no estén en la lista de admiti
 | Impala |Sí |No |No |
 | JSON |Sí |Sí |No |
 | Microsoft Exchange |Sí |No |No |
-| Microsoft Exchange Online |Sí |No |No |
+| Microsoft Exchange Online |Sí |No |No |
 | Base de datos de MySQL |Sí |Sí |No |
-| Fuente de OData |Sí |Sí |No |
+| Fuente OData |Sí |Sí |No |
 | ODBC |Sí |Sí |No |
 | OLE DB |Sí |Sí |No |
 | Base de datos de Oracle |Sí |Sí |Sí |
@@ -64,7 +62,7 @@ Otros orígenes de datos pueden funcionar aunque no estén en la lista de admiti
 | Objetos de Salesforce |Sí |No |No |
 | Informes de Salesforce |Sí |No |No |
 | Servidor de SAP Business Warehouse |Sí |Sí |Sí |
-| Base de datos SAP HANA |Sí |Sí |Sí |
+| Base de datos de SAP HANA |Sí |Sí |Sí |
 | Carpeta de SharePoint (local) |Sí |Sí |No |
 | Lista de SharePoint (local) |Sí |Sí |No |
 | Lista de SharePoint Online |Sí |No |No |
@@ -76,7 +74,7 @@ Otros orígenes de datos pueden funcionar aunque no estén en la lista de admiti
 | XML |Sí |Sí |No |
 | appFigures (Beta) |Sí |No |No |
 | Base de datos de Azure Analysis Services |Sí |No |Sí |
-| Azure Cosmos DB (beta) |Sí |No |No |
+| Azure Cosmos DB (Beta) |Sí |No |No |
 | Azure HDInsight Spark (Beta) |Sí |No |No |
 | Common Data Service (Beta) |Sí |No |No |
 | comScore Digital Analytix (beta) |Sí |No |No |
@@ -121,7 +119,7 @@ Power BI Report Server no admite la autenticación basada en OAuth para la actua
 | Base de datos de SQL Server |No |No |Sí |Sí |
 | SQL Server Analysis Services |No |No |Sí |Sí |
 | Web |Sí |No |Sí |Sí |
-| Azure SQL Database |No |No |Sí |No |
+| Azure SQL Database |No |No |Sí |No |
 | Azure SQL Data Warehouse |No |No |Sí |No |
 | Active Directory |No |No |Sí |Sí |
 | Amazon Redshift |No |No |No |No |
@@ -138,9 +136,9 @@ Power BI Report Server no admite la autenticación basada en OAuth para la actua
 | Base de datos IBM DB2 |No |No |Sí |Sí |
 | Impala |No |No |No |No |
 | Microsoft Exchange |No |No |No |No |
-| Microsoft Exchange Online |No |No |No |No |
+| Microsoft Exchange Online |No |No |No |No |
 | Base de datos de MySQL |No |No |Sí |Sí |
-| Fuente de OData |Sí |Sí |Sí |Sí |
+| Fuente OData |Sí |Sí |Sí |Sí |
 | ODBC |Sí |No |Sí |Sí |
 | OLE DB |Sí |No |Sí |Sí |
 | Base de datos de Oracle |No |No |Sí |Sí |
@@ -150,7 +148,7 @@ Power BI Report Server no admite la autenticación basada en OAuth para la actua
 | Objetos de Salesforce |No |No |No |No |
 | Informes de Salesforce |No |No |No |No |
 | Servidor de SAP Business Warehouse |No |No |Sí |No |
-| Base de datos SAP HANA |No |No |Sí |Sí |
+| Base de datos de SAP HANA |No |No |Sí |Sí |
 | Carpeta de SharePoint (local) |Sí |No |No |Sí |
 | Lista de SharePoint (local) |Sí |No |No |Sí |
 | Lista de SharePoint Online |No |No |No |No |
@@ -159,7 +157,7 @@ Power BI Report Server no admite la autenticación basada en OAuth para la actua
 | Teradata |No |No |Sí |Sí** |
 | appFigures (Beta) |No |No |No |No |
 | Base de datos de Azure Analysis Services (Beta) |No |No |No |No |
-| Azure Cosmos DB (beta) |No |No |No |No |
+| Azure Cosmos DB (Beta) |No |No |No |No |
 | Azure HDInsight Spark (Beta) |No |No |No |No |
 | Common Data Service (Beta) |No |No |No |No |
 | comScore Digital Analytix (beta) |No |No |No |No |
@@ -200,16 +198,17 @@ Power BI Report Server no admite la autenticación basada en OAuth para DirectQu
 | --- | --- | --- | --- | --- | --- |
 | Base de datos de SQL Server |No |No |Sí |Sí |Sí |
 | SQL Server Analysis Services |No |No |Sí |Sí |Sí |
-| Azure SQL Database |No |No |Sí |No |No |
+| Azure SQL Database |No |No |Sí |No |No |
 | Azure SQL Data Warehouse |No |No |Sí |No |No |
 | Base de datos de Oracle |No |No |Sí |Sí |Sí |
 | Servidor de SAP Business Warehouse |No |No |Sí |No |No |
-| Base de datos SAP HANA |No |No |Sí |Sí |Sí** |
+| Base de datos de SAP HANA |No |No |Sí |Sí |Sí** |
 | Teradata |No |No |Sí |Sí |Sí |
 
 ** SAP HANA admite DirectQuery con la autenticación integrada de Windows solo cuando se usa como base de datos relacional en el archivo de Power BI Desktop publicado (.pbix).
 
 ## <a name="next-steps"></a>Pasos siguientes
-Ahora que se ha conectado al origen de datos, [cree un informe de Power BI](quickstart-create-powerbi-report.md) con los datos de ese origen de datos.
+
+[Orígenes de datos de informes de Power BI[(../connect-data/power-bi-data-sources.md) en el servicio Power BI. Ahora que se ha conectado al origen de datos, [cree un informe de Power BI](quickstart-create-powerbi-report.md) mediante los datos de ese origen de datos.
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
