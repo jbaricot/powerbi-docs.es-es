@@ -119,7 +119,7 @@
       items:
         - name: Informes de Power BI
           items:
-            - name: Habilitación de la actualización automática de páginas (versión preliminar)
+            - name: Habilitación de la actualización automática de páginas
               href: desktop-automatic-page-refresh.md
             - name: Examen de los elementos del informe con el Analizador de rendimiento
               href: desktop-performance-analyzer.md
