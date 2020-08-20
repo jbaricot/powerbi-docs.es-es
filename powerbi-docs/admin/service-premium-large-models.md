@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 0169eba3e27b4014f9dbf20f88a10575caf903fe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227256"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204325"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Modelos grandes en Power BI Premium (versión preliminar)
 
@@ -114,7 +114,6 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 Tenga en cuenta las siguientes restricciones cuando use modelos grandes:
 
-- **Cifrado BYOK (Bring Your Own Key)** : los conjuntos de datos habilitados para Files Premium no se cifran mediante [BYOK](service-encryption-byok.md).
 - **Compatibilidad multigeográfica**: los conjuntos de datos habilitados para Files Premium producirán errores en las capacidades en las que también tengan habilitadas [múltiples ubicaciones geográficas](service-admin-premium-multi-geo.md).
 
 - **Descarga en Power BI Desktop**: si un conjunto de datos se almacena en Files Premium, se producirá un error al [descargar como archivo .pbix](../create-reports/service-export-to-pbix.md).
@@ -132,15 +131,15 @@ En la lista siguiente se indican las regiones en las que están disponibles los 
 |---------|---------|
 |Este de Australia     | australiaeast        |
 |Sudeste de Australia     | australiasoutheast        |
-|Centro de EE. UU.     | centralus        |
+|Centro de EE. UU.     | centralus        |
 |Este de Asia     | eastasia        |
 |Este de EE. UU.     | estado        |
 |Este de EE. UU. 2     | eastus2        |
 |Japón Oriental     | japaneast        |
 |Japón Occidental     | japanwest        |
 |Centro de Corea del Sur     | koreacentral        |
-|Sur de Corea del Sur     | koreasouth        |
-|Centro-norte de EE. UU.     | northcentralus        |
+|Corea del Sur     | koreasouth        |
+|Centro-Norte de EE. UU     | northcentralus        |
 |Norte de Europa     | northeurope        |
 |Centro-sur de EE. UU.     | southcentralus        |
 |Sudeste de Asia     | southeastasia        |

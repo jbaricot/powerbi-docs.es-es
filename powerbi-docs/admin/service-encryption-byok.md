@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 02/20/2020
+ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 944d115b0592954d92460ca26ae5b59311abc42e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6513bdf7451db7068fe2540d32546df4d42ae8e
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227491"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204564"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Sus propias claves de cifrado para Power BI
 
@@ -32,7 +32,7 @@ Para usar BYOK, debe cargar los datos en el servicio Power BI desde un archivo 
 - Libros de Excel (a menos que los datos se importen primero en Power BI Desktop)
 - [Conjuntos de datos de inserción](/rest/api/power-bi/pushdatasets)
 - [Conjuntos de datos de streaming](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
-- [Modelos grandes](service-premium-large-models.md)
+
 
 BYOK solo se puede usar con conjuntos de datos. Los conjuntos de datos de inserción, los archivos de Excel y los archivos CSV que los usuarios pueden cargar en el servicio no se cifran con su clave personal propia. Para identificar los artefactos que se almacenan en las áreas de trabajo, use el siguiente comando de PowerShell:
 
@@ -45,7 +45,7 @@ BYOK solo se puede usar con conjuntos de datos. Los conjuntos de datos de inserc
 
 En esta sección se enseña cómo configurar Azure Key Vault, una herramienta para almacenar y acceder a los secretos, como las claves de cifrado, de forma segura. Puede usar un almacén de claves existente para almacenar las claves de cifrado o puede crear uno nuevo específicamente para su uso con Power BI.
 
-Las instrucciones de esta sección presuponen un conocimiento básico de Azure Key Vault. Para más información, consulte [¿Qué es Azure Key Vault?](/azure/key-vault/key-vault-whatis). Configure el almacén de claves de la manera siguiente:
+Las instrucciones de esta sección presuponen un conocimiento básico de Azure Key Vault. Para obtener más información, consulte [¿Qué es Azure Key Vault?](/azure/key-vault/key-vault-whatis) Configure el almacén de claves de la manera siguiente:
 
 1. Agregue el servicio Power BI como una entidad de servicio en el almacén de claves con permisos para encapsular y desencapsular.
 
