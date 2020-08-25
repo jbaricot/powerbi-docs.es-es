@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1213d02926db3b1d356e7fefffb44bcc41b8ab96
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 829de249b71076ccd1ed2a60348170e93b68e507
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227698"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204443"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configuración de cargas de trabajo en una capacidad Premium
 
@@ -59,8 +59,10 @@ La carga de trabajo de conjuntos de datos está habilitada de forma predetermina
 | **Número máximo de conjuntos de filas de resultados** | Número máximo de filas devueltas en una consulta DAX. El valor predeterminado es de -1 (sin límite), y el intervalo permitido está entre 100 000 y 2 147 483 647. |
 | **Límite de memoria de consulta (%)** | El porcentaje máximo de memoria disponible en la carga de trabajo que se puede usar para ejecutar una consulta MDX o DAX. El valor predeterminado es 0, lo que da como resultado la aplicación del límite de memoria de consulta automática específico de la SKU. |
 | **Tiempo de espera de la consulta (en segundos)** | Tiempo de espera máximo de una consulta. El valor predeterminado es de 3600 segundos (1 hora). Un valor de 0 especifica que las consultas no superarán el tiempo de espera. |
-| **Actualización automática de páginas (versión preliminar)** | Botón de alternancia de activación o desactivación para permitir que las áreas de trabajo Premium tengan informes con actualización automática de páginas. |
+| **Actualización automática de páginas** | Botón de alternancia de activación o desactivación para permitir que las áreas de trabajo Premium tengan informes con actualización automática de páginas basada en intervalos fijos. |
 | **Intervalo de actualización mínimo** | Si la actualización automática de páginas está activada, es el intervalo mínimo permitido como intervalo de actualización de páginas. El valor predeterminado es cinco minutos y el mínimo permitido es un segundo. |
+| **Cambiar medida de detección** | Botón de alternancia de activación o desactivación para permitir que las áreas de trabajo Premium tengan informes con actualización automática de páginas basada en la detección de cambios. |
+| **Intervalo de ejecución mínimo** | Si la opción Cambiar medida de detección está activada, es el intervalo de ejecución mínimo permitido para sondear cambios en los datos. El valor predeterminado es cinco segundos y el mínimo permitido es uno. |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>Número máximo de conjuntos de filas intermedias

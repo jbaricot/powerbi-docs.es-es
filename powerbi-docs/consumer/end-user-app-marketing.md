@@ -6,59 +6,58 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/09/2020
+ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5f2e97a5b1ba8fc62581244cf26cd069ce5c2586
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f8020e68db6b0baaabdde626d1b17674fe995ca2
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162261"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88205041"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Instalación y uso de la aplicación de ejemplo de marketing y ventas en el servicio Power BI
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-Ahora que tiene un [conocimiento básico sobre cómo obtener contenido de Power BI](end-user-app-view.md), obtendrá la aplicación de marketing y ventas de Microsoft AppSource (appsource.com). 
+Ahora que tiene un [conocimiento básico sobre cómo obtener contenido de Power BI](end-user-app-view.md), se usará Microsoft AppSource para obtener la aplicación de marketing y ventas. 
 
 
-## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Obtención de la aplicación en el marketplace de aplicaciones de Power BI
+## <a name="get-the-app-from-microsoft-appsource"></a>Obtención de la aplicación desde Microsoft AppSource
 
-1. [Inicie sesión en el servicio Power BI](./end-user-sign-in.md) si aún no lo ha hecho. 
+1. Abra [https://appsource.microsoft.com](https://appsource.microsoft.com).
 
-1. Una vez que esté en Power BI, seleccione **Aplicaciones > Obtener aplicaciones**. 
+   ![Apertura del sitio de AppSource  ](./media/end-user-app-marketing/power-bi-appsource.png)
 
-    ![Obtener aplicaciones  ](./media/end-user-app-marketing/power-bi-get-apps.png)
+1. En el cuadro de búsqueda, escriba **Marketing** y active la casilla **Restringir por producto > Aplicaciones de Power BI**. 
 
-1. Se abre el marketplace de aplicaciones de Power BI. Busque la aplicación de marketing y ventas. Si no lo ve, pruebe a escribir "Ventas" en el cuadro de búsqueda.
+    ![Obtener aplicaciones  ](./media/end-user-app-marketing/power-bi-search-appsource.png)
 
-    ![Marketplace de aplicaciones de Power BI  ](./media/end-user-app-marketing/power-bi-apps-marketplace.png)
 
-1. Haga clic en el icono de la aplicación. Se abrirá el anuncio de la aplicación en AppSource. Haga clic en **OBTENERLO AHORA**.
+1. Seleccione el icono de aplicación para **Microsoft sample - Sales & Marketing** (Ejemplo de Microsoft: ventas y marketing). Opcionalmente, lea la información general y las revisiones, y examine las imágenes.  Después, seleccione **Obtenerla ahora**.
 
-   ![Anuncio de aplicación en AppSource](./media/end-user-app-marketing/power-bi-apps-app-offering.png)
+   ![Anuncio de aplicación en AppSource](./media/end-user-app-marketing/power-bi-app-offering.png)
 
 1. Confirme que quiere instalar la aplicación.
 
-   ![¿Instalar esta aplicación?](./media/end-user-app-marketing/power-bi-app-install.png)
+   ![¿Instalar esta aplicación?](./media/end-user-app-marketing/power-bi-installs.png)
 
 5. El servicio Power BI muestra un mensaje de operación correcta cuando se instale la aplicación. Seleccione **Ir a la aplicación** para abrir la aplicación. En función de cómo el diseñador haya creado la aplicación, se mostrará el panel de la aplicación o el informe de la aplicación.
 
     ![Aplicación instalada correctamente ](./media/end-user-app-marketing/power-bi-app-ready.png)
 
-    También puede abrir la aplicación directamente desde la lista de contenido de la aplicación; para ello, seleccione **Aplicaciones** y elija **Sales & Marketing**.
+    También puede abrir la aplicación directamente desde la lista de contenido de la aplicación si selecciona **Aplicaciones** y elige el icono de aplicación **Sales & Marketing**.
 
-    ![Aplicaciones de Power BI](./media/end-user-app-marketing/power-bi-apps-sales-marketing.png)
+    ![Aplicaciones de Power BI](./media/end-user-app-marketing/power-bi-sales-marketing.png)
 
 
-6. Decida si quiere explorar o personalizar y compartir la nueva aplicación. Como hemos seleccionado una aplicación de ejemplo de Microsoft, vamos a empezar explorándola. 
+6. Elija si quiere conectar datos propios, explorar con datos de ejemplo, o bien personalizar y compartir la nueva aplicación. Como hemos seleccionado una aplicación de ejemplo de Microsoft, vamos a empezar explorándola. 
 
-    ![Explorar con datos de ejemplo](./media/end-user-app-marketing/power-bi-explore.png)
+    ![Explorar con datos de ejemplo](./media/end-user-app-marketing/power-bi-explore-app.png)
 
 7.  La nueva aplicación se abre con un panel. El *diseñador* de la aplicación podría haberla configurado para que, en su lugar, se abra en un informe.  
 
-    ![Explorar con datos de ejemplo](./media/end-user-app-marketing/power-bi-new-app.png)
+    ![Explorar con datos de ejemplo](./media/end-user-app-marketing/power-bi-app-new.png)
 
 
 
@@ -70,6 +69,6 @@ Dedique algún tiempo a explorar los datos de los paneles y los informes que com
 
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Volver a la información general de las aplicaciones](end-user-apps.md)
-* [Ver un informe de Power BI](end-user-report-open.md)
+* [Volver a la información general de las aplicaciones](end-user-apps.md)    
+* [Ver un informe de Power BI](end-user-report-open.md)    
 * [Otras formas de compartir contenido con usted](end-user-shared-with-me.md)

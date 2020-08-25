@@ -1,32 +1,32 @@
 ---
 title: Uso de la característica de análisis para explicar las fluctuaciones en los objetos visuales de informe
-description: Obtenga con facilidad información detallada sobre los aumentos o disminuciones en Power BI Desktop
+description: Obtenga con facilidad conclusiones sobre los aumentos o disminuciones en el servicio Power BI
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/23/2019
+ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 36f370adc68c6b6f8fc15261bfa107411043c65d
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
+ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162307"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88168493"
 ---
-# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals-preview"></a>Uso de la característica de análisis para explicar las fluctuaciones en los objetos visuales de informe (versión preliminar)
+# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>Uso de la característica de análisis para explicar las fluctuaciones en los objetos visuales de informe
 
-[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-A menudo, en los objetos visuales de informe, se observa un gran aumento y después un descenso brusco en los valores, y se pregunta cuál es la causa de esas fluctuaciones. Con **Analizar** del **servicio Power BI**, puede conocer las causas con unos pocos clics.
+A menudo, en los objetos visuales de informe, se observa un gran aumento y después un descenso brusco en los valores, y se pregunta cuál es la causa de esas fluctuaciones. En el **servicio Power BI**, con **Analizar** puede conocer la causa con unos pocos clics.
 
 Por ejemplo, considere el siguiente código visual que muestra las *unidades totales* por *mes* y *fabricante*. VanArsdel supera los resultados de la competencia, pero experimenta una profunda caída en junio de 2014. En tales casos, puede explorar los datos para ayudar a explicar el cambio que se ha producido. 
 
 ![Objeto visual con aumentos y disminuciones](media/end-user-analyze-visuals/power-bi-line-chart.png)
 
-Puede indicar al servicio Power BI que explique los aumentos, reducciones o distribuciones inusuales en los objetos visuales, y obtener un análisis rápido, automatizado y detallado sobre los datos. Solo tiene que hacer clic con el botón derecho en un punto de datos y seleccionar **Analizar > Explicación de la disminución**, o del aumento, si la barra anterior era inferior, o **Analizar > Buscar en qué se diferencia esta distribución**, y se le proporcionará una información detallada en una ventana fácil de usar.
+Puede indicar al servicio Power BI que explique los aumentos, reducciones o distribuciones inusuales en los objetos visuales, y obtener un análisis rápido, automatizado y detallado sobre los datos. Haga clic con el botón derecho en un punto de datos y seleccione **Analizar > Explicación de la disminución** (o del aumento, si la barra anterior era inferior), o bien **Analizar > Buscar en qué se diferencia esta distribución**, y las conclusiones se proporcionarán en una ventana fácil de usar.
 
 ![Conclusiones mostradas en el objeto visual](media/end-user-analyze-visuals/power-bi-decrease.png)
 
@@ -37,7 +37,7 @@ La característica de análisis es contextual y se basa en el punto de datos inm
 
 ### <a name="which-factors-and-categories-are-chosen"></a>Qué factores y categorías se eligen
 
-Después de examinar diferentes columnas, Power BI selecciona y muestra aquellas que presentan el mayor cambio en la contribución relativa. Para cada una de ellas, se indican en la descripción los valores que han tenido el cambio más significativo en la contribución. Además, también se indican los valores que han tenido los mayores aumentos y disminuciones reales.
+Después de examinar diferentes columnas, Power BI selecciona y muestra los factores que representen el mayor cambio en la contribución relativa. Para cada una de ellas, se indican en la descripción los valores que han tenido el cambio más significativo en la contribución. Además, también se indican los valores que han tenido los mayores aumentos y disminuciones reales.
 
 Para ver toda la información detallada generada por Power BI, use la barra de desplazamiento. El orden se clasifica con el colaborador más destacado mostrado en primer lugar. 
 
@@ -71,29 +71,37 @@ Para cada información detallada devuelta, se pueden mostrar cuatro objetos visu
 
 ### <a name="the-scatter-plot"></a>Gráfico de dispersión
 
+![Captura de pantalla pequeña en la que se muestra el icono de gráfico de dispersión seleccionado](media/end-user-analyze-visuals/power-bi-scatter-icon.png)
+
 El objeto visual del gráfico de dispersión muestra el valor de la medida en el primer período (en el eje X) con respecto al valor de la medida en el segundo período (en el eje Y) para cada valor de la columna (*Estado* en este caso). Los puntos de datos están en la región de color verde si aumenta el valor y en la región de color rojo si disminuye. 
 
 La línea de puntos muestra la mejor opción, y los puntos de datos situados encima de esta línea han aumentado más que la tendencia general y los que están situados debajo, menos.  
 
 ![Gráfico de dispersión con línea de puntos](media/end-user-analyze-visuals/power-bi-scatter.png)
 
-Tenga en cuenta que los elementos de datos cuyo valor estaba en blanco en cualquier período no aparecerán en el gráfico de dispersión.
+Los elementos de datos cuyo valor estaba en blanco en cualquier período no aparecerán en el gráfico de dispersión.
 
 ### <a name="the-100-stacked-column-chart"></a>Gráfico de columnas 100 % apiladas
 
-El objeto visual del gráfico de columnas 100 % apiladas muestra el valor de la contribución al total (100 %) para el punto de datos seleccionado y el anterior. Esto permite una comparación en paralelo de la contribución para cada punto de datos. En este ejemplo, la información sobre herramientas muestra la contribución para el valor seleccionado de Texas. Dado que la lista de estados es larga, la información sobre herramientas le ayuda a ver los detalles. Con la información sobre herramientas, vemos que Texas aportaba aproximadamente el mismo porcentaje al total de unidades (31 % y 32 %), pero el número real de unidades totales disminuyó de 89 a 71. Recuerde que el eje Y es un porcentaje, no un total, y cada banda de columna es un porcentaje, no un valor. 
+![Captura de pantalla pequeña en la que se muestra el icono de gráfico de columnas seleccionado](media/end-user-analyze-visuals/power-bi-column-icon.png)
+
+El objeto visual del gráfico de columnas 100 % apiladas muestra el valor de la contribución al total (100 %) para el punto de datos seleccionado y el anterior. Esto permite una comparación en paralelo de la contribución para cada punto de datos. En este ejemplo, la información sobre herramientas muestra la contribución para el valor seleccionado de Texas. Dado que la lista de estados es larga, la información sobre herramientas le ayuda a ver los detalles. Con la información sobre herramientas, vemos que Texas aportaba aproximadamente el mismo porcentaje al total de unidades (31 % y 32 %), pero el número real de unidades totales disminuyó de 89 a 71. Recuerde que el eje Y es un porcentaje, no un total, y que cada banda de columna es un porcentaje, no un valor. 
 
 ![Gráfico de columnas 100 % apiladas](media/end-user-analyze-visuals/power-bi-stacked.png)
 
 ### <a name="the-ribbon-chart"></a>Gráfico de la barra de herramientas
 
-El objeto visual del gráfico de la barra de herramientas muestra el valor de la medida antes y después. Resulta especialmente útil para mostrar los cambios de las contribuciones cuando ha cambiado el *orden* de los colaboradores (por ejemplo, si *LA* pasó de ser el segundo colaborador a ocupar la undécima posición).  Además, si *TX* se representa con una banda ancha en la parte superior, lo que significa que es el colaborador más importante antes y después, la disminución muestra que el valor de la contribución ha caído durante el período seleccionado y después.
+![Captura de pantalla pequeña en la que se muestra el icono de gráfico de la barra de herramientas seleccionado](media/end-user-analyze-visuals/power-bi-ribbon-icon.png)
+
+El objeto visual del gráfico de la barra de herramientas muestra el valor de la medida antes y después. Resulta especialmente útil para mostrar los cambios de las contribuciones cuando ha cambiado el *orden* de los colaboradores (por ejemplo, si *LA* ha pasado de ser el segundo colaborador a ocupar la undécima posición).  Además, si *TX* se representa con una banda ancha en la parte superior, lo que significa que es el colaborador más importante antes y después, la disminución muestra que el valor de la contribución ha caído durante el período seleccionado y después.
 
 ![gráfico de la barra de herramientas](media/end-user-analyze-visuals/power-bi-ribbon-tooltip.png)
 
 ### <a name="the-waterfall-chart"></a>Gráfico de cascada
 
-El cuarto objeto visual es un gráfico de cascada, que muestra los aumentos y las disminuciones reales entre los períodos. Este objeto visual muestra claramente un colaborador importante en la disminución de junio de 2014, en este caso, **estado**. Además, las peculiaridades de la influencia de **Estado** en las unidades totales es que la disminución de Louisiana, Texas y Colorado desempeña el rol más importante.      
+![Captura de pantalla pequeña en la que se muestra el icono de gráfico de cascada seleccionado](media/end-user-analyze-visuals/power-bi-waterfall-icon.png)
+
+El cuarto objeto visual es un gráfico de cascada, que muestra los aumentos y las disminuciones reales entre los períodos. Este objeto visual muestra claramente un colaborador importante en la disminución de junio de 2014, en este caso, **estado**. Y los detalles de la influencia de **Estado** en las unidades totales es que la disminución de Louisiana, Texas y Colorado ha desempeñado el rol más importante.      
 
 ![gráfico de cascada](media/end-user-analyze-visuals/power-bi-insight.png)
 
@@ -120,6 +128,6 @@ La siguiente lista es una recopilación de los escenarios que no se admiten actu
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Gráficos de cascada](../visuals/power-bi-visualization-waterfall-charts.md)    
-[Gráficos de dispersión](../visuals/power-bi-visualization-scatter.md)
-[Gráficos de columnas](../visuals/power-bi-report-visualizations.md)
+[Gráficos de dispersión](../visuals/power-bi-visualization-scatter.md)    
+[Gráficos de columnas](../visuals/power-bi-report-visualizations.md)    
 [Gráficos de la barra de herramientas](../visuals/desktop-ribbon-charts.md)

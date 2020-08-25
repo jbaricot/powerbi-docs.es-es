@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: fd30b9df6fce484bffab430888260145bb374ce9
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091581"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160381"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportación de un informe de Power BI a un archivo (versión preliminar)
 
@@ -103,8 +103,7 @@ Un trabajo que supere su número de solicitudes simultáneas no se termina. Por 
 * Para la versión preliminar pública, el número de páginas de informes de Power BI exportadas por hora está limitado a 50 por capacidad.
 * Los informes exportados no pueden tener un tamaño superior a 250 MB.
 * Al exportar a .png, no se admiten las etiquetas de confidencialidad.
-* Un informe con una etiqueta de confidencialidad no se puede exportar a un archivo .pdf o .pptx mediante una [entidad de servicio](embed-service-principal.md).
-* El número de páginas que se pueden incluir en un informe exportado es treinta. Si el informe incluye más páginas, la API devuelve un error y el trabajo de exportación se cancela.
+* El número de páginas que se pueden incluir en un informe exportado es 50. Si el informe incluye más páginas, la API devuelve un error y el trabajo de exportación se cancela.
 * Los [marcadores personales](../../consumer/end-user-bookmarks.md#personal-bookmarks) y los [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) no se admiten.
 * Los objetos visuales de Power BI que se enumeran a continuación no se admiten. Cuando se exporta un informe que contiene estos objetos visuales, las partes del informe que contienen dichos objetos visuales no se representarán y mostrarán un símbolo de error.
     * Objetos visuales de Power BI sin certificar

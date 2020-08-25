@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/21/2020
+ms.date: 08/12/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0fdee37f682774e1dac2b1ac6a4fc7a6e8dabe91
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8dd6e64943ea05f2219efa471cd3fcfa4152650b
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238101"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160590"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Permitir a los usuarios personalizar los objetos visuales en un informe
 
@@ -41,6 +41,59 @@ Esta característica no solo incorpora nuevas funcionalidades de exploración, s
 - Restablecer todos los cambios para un informe
 - Restablecer todos los cambios para un objeto visual
 - Borrar los cambios recientes
+
+## <a name="use-perspectives-for-a-more-focused-view"></a>Uso de perspectivas para obtener una vista más centrada
+
+Para Personalizar objetos visuales, puede usar **Perspectivas** para elegir un subconjunto de un modelo que proporcione una vista más centrada. Elegir un subconjunto puede ser útil cuando se trabaja con un modelo de datos de gran tamaño, y le permite centrarse en un subconjunto de campos fácil de controlar, para no sobrecargar a los lectores del informe con la colección completa de campos de ese modelo grande. 
+
+![Personalización de objetos visuales](media/power-bi-personalize-visuals/power-bi-personalize-perspective-01.png)
+
+Tenga en cuenta las consideraciones siguientes cuando trabaje con perspectivas:
+
+* Las perspectivas no están diseñadas para usarse como mecanismo de seguridad; son una herramienta para proporcionar una mejor experiencia para el usuario final. Toda la seguridad de una perspectiva se hereda del modelo subyacente.
+
+* Las perspectivas se admiten en modelos tabulares y multidimensionales. Pero para las perspectivas de modelos multidimensionales, solo puede establecer la perspectiva para que sea igual que el cubo base del informe.
+
+* Antes de eliminar una perspectiva de un modelo, asegúrese de comprobar que no se usa en la experiencia Personalizar objetos visuales. 
+
+Para usar las perspectivas, debe habilitar Personalizar objetos visuales para el informe. También debe crear al menos una perspectiva que incluya las dimensiones y las medidas con las que quiere que interactúen los usuarios finales para la experiencia Personalizar objetos visuales.
+
+Para crear la perspectiva, use [Tabular Editor](https://tabulareditor.com/), que puede descargar de la siguiente ubicación: Descarga de Tabular Editor
+
+Una vez que instale **Tabular Editor**, abra el informe en **Power BI Desktop** e inicie **Tabular Editor** desde la pestaña **Herramientas externas** de la cinta, como se muestra en la imagen siguiente.
+
+![Tabular Editor en la cinta de Herramientas externas](media/power-bi-personalize-visuals/power-bi-personalize-perspective-02.png)
+
+En Tabular Editor, haga clic con el botón derecho en la carpeta **Perspectivas** para crear una.
+
+![Creación de una carpeta Perspectivas en Tabular Editor](media/power-bi-personalize-visuals/power-bi-personalize-perspective-03.png)
+
+Puede hacer doble clic en el texto para cambiar el nombre de la perspectiva.
+
+![Cambio de nombre de la perspectiva](media/power-bi-personalize-visuals/power-bi-personalize-perspective-04.png)
+
+A continuación, agregue campos a la perspectiva; para ello, abra la carpeta **Tablas** en Tabular Editor y haga clic con el botón derecho en los campos que quiera mostrar en la perspectiva.
+
+![Adición de campos a una perspectiva](media/power-bi-personalize-visuals/power-bi-personalize-perspective-05.png)
+
+Repita el proceso para cada campo que quiera agregar a la perspectiva. No se pueden agregar campos duplicados a una perspectiva, por lo que tendrá la opción de agregar como deshabilitado cualquier campo que ya se haya agregado a una perspectiva.
+
+Después de agregar todos los campos que quiere, asegúrese de guardar la configuración, tanto en Tabular Editor como en Power BI Desktop.
+
+![Guardado de la configuración de perspectivas en Tabular Editor y Power BI Desktop](media/power-bi-personalize-visuals/power-bi-personalize-perspective-06.png)
+
+Una vez que haya guardado la nueva perspectiva en el modelo y el informe de Power BI Desktop, vaya al panel **Formato** de la página, donde verá una nueva sección **Personalizar objeto visual**.
+
+![Sección Personalizar objeto visual en el panel Formato](media/power-bi-personalize-visuals/power-bi-personalize-perspective-07.png)
+
+La selección de *Perspectiva del lector de informes* se establece inicialmente en *Campos predeterminados*. Una vez que haya seleccionado la flecha desplegable, verá las otras perspectivas que ha creado.
+
+![Selección de la flecha desplegable para ver las otras perspectivas](media/power-bi-personalize-visuals/power-bi-personalize-perspective-08.png)
+
+Después de establecer la perspectiva de la página del informe, la experiencia Personalizar objetos visuales de la página se filtra a la perspectiva seleccionada. La selección de **Aplicar a todas las páginas** le permite aplicar la configuración de la perspectiva a todas las páginas existentes en el informe.
+
+![Selección de Aplicar a todas las páginas para aplicar la perspectiva a todo el informe](media/power-bi-personalize-visuals/power-bi-personalize-perspective-09.png)
+
 
 ## <a name="turn-on-the-preview-feature"></a>Habilitar la característica en vista previa
 

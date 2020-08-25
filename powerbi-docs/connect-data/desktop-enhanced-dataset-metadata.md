@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1204b28ae5239bf4080472129b0862862446e5d
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 389de5d34b00afbe70a1489dfc61e760530590a9
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878465"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512894"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Uso de metadatos de conjunto de datos mejorado (versión preliminar)
 
@@ -40,11 +40,11 @@ Se le pedirá que reinicie Power BI Desktop.
 Una vez habilitada la característica de versión preliminar, Power BI Desktop intentará actualizar los archivos PBIX y PBIT que usan el formato de metadatos anterior. 
 
 > [!IMPORTANT]
-> La habilitación de la característica de **metadatos mejorados del conjunto de datos** se traduce en una actualización irreversible de los informes. Cualquier informe de Power BI cargado o creado con Power BI Desktop, una vez habilitados los **metadatos mejorados del conjunto de datos**, se convierten de forma irreversible al formato de metadatos mejorados del conjunto de datos.
+> La habilitación de la característica de **metadatos mejorados del conjunto de datos** se traduce en una actualización irreversible de los informes. Cualquier informe de Power BI cargado o creado con Power BI Desktop, una vez que se han habilitado los **metadatos mejorados del conjunto de datos**, se convierte de forma irreversible al formato de metadatos mejorados del conjunto de datos.
 
 ## <a name="report-backup-files"></a>Archivos de copia de seguridad de informe
 
-La actualización de un informe para usar la característica de **metadatos mejorados de conjuntos de datos** es irreversible. Sin embargo, durante la actualización, se crea un archivo de copia de seguridad de informe para guardar una versión del informe en su formato original (anterior a la actualización). El archivo de copia de seguridad se quitará después de 30°días. 
+La actualización de un informe para usar la característica de **metadatos mejorados de conjuntos de datos** es irreversible. Pero durante la actualización, se crea un archivo de copia de seguridad de informe para guardar una versión del informe en su formato original (anterior a la actualización). El archivo de copia de seguridad se quitará después de 30°días. 
 
 Para buscar el archivo de informe de copia de seguridad, haga lo siguiente:
 

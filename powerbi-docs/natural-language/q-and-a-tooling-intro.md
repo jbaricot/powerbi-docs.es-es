@@ -7,12 +7,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
-ms.openlocfilehash: 6178c9f157578110a09abf3fcbebccba54339f13
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 47ab35113bbf6564cbc824b48891cd9f58370c8a
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866083"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578171"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Introducción a las herramientas de Preguntas y respuestas para entrenar a Preguntas y respuestas de Power BI (versión preliminar)
 
@@ -42,6 +42,24 @@ Las herramientas de Preguntas y respuestas solo están disponibles en Power BI 
 
     ![Introducción a Preguntas y respuestas](media/q-and-a-tooling-intro/qna-tooling-dialog.png)
 
+### <a name="field-synonyms"></a>Sinónimos de campo
+
+Seleccione **Sinónimos de campo** para ver todas las tablas y columnas que pertenecen al modelo. Esta vista permite agregar nombres alternativos que coincidan con las columnas para ayudar a los usuarios. También puede elegir si se debe ocultar o no una columna o tabla de Preguntas y respuestas.
+
+![Inicio de Sinónimos de campo de Preguntas y respuestas](media/q-and-a-tooling-intro/qna-tooling-field-synonyms-home.png)
+
+Haga clic en una de las tablas para expandirla; verá un cuadro de diálogo similar al siguiente.
+
+![Sinónimos de campo de Preguntas y respuestas expandido](media/q-and-a-tooling-intro/qna-tooling-field-synonyms-expanded.png)
+
+En el cuadro de diálogo se mostrarán todas las columnas y tablas, así como sus correspondientes términos o sinónimos que los usuarios pueden usar al formular preguntas al conjunto de datos. Puede ver rápidamente todos los términos en un solo lugar y agregar o quitar términos para varias columnas. 
+
+- Agregar términos: si tiene un campo denominado "ventas", puede decidir agregar un término denominado "ingresos" para que un usuario pueda utilizar esta palabra en lugar de "ventas". Haga clic en el signo + para agregar rápidamente un término nuevo
+
+- Incluir en Preguntas y respuestas: esta opción permite omitir una columna o tabla de Preguntas y respuestas, lo que significa que no se mostrará ni tampoco se mostrará ningún resultado con esta columna. Una circunstancia en la que puede decidir no incluir una columna es cuando se trabaja con fechas. Si hay numerosos campos de fecha, o claves externas, puede decidir quitar todos los campos de fecha excepto uno, de modo que se seleccione la columna de fecha correcta cuando un usuario formule una pregunta relacionada con la fecha.
+
+- Términos sugeridos: Preguntas y respuestas también recomendará términos sugeridos recuperados del motor de sugerencias para ayudarle a agregar términos o sinónimos rápidamente. Si no se agregan las sugerencias, seguirán funcionando, pero proporcionarán al usuario una línea de puntos de color naranja que indica que Preguntas y respuestas considera que tiene una respuesta pero que lo duda. Si el sinónimo sugerido es correcto, haga clic en el icono + para que se pueda usar como sinónimo. Si la sugerencia es incorrecta, haga clic en la x, lo que quitará el término y garantizará que no se use como término o sinónimo, y no funcionará dentro de Preguntas y respuestas. Las sugerencias se basan en el Diccionario de Office y también proceden de los cambios de nombre que se encuentran dentro de un informe.
+
 ### <a name="review-questions"></a>Revisión de preguntas
 
 Seleccione **Revisión de las preguntas** para ver una lista de los conjuntos de valores que se usan en el servicio Power BI para el inquilino. En la página **Revisión de las preguntas** también se muestra el propietario del conjunto de datos, el área de trabajo y la última fecha de actualización. Desde aquí puede seleccionar un conjunto de datos y ver qué preguntas han formulado los usuarios. Los datos también muestran palabras que no se han reconocido. Todos los datos que se muestran aquí son de los últimos 28 días.
@@ -62,7 +80,7 @@ Todo lo que haya guardado desde la sección Enseñanza de Preguntas y respuestas
 
 ### <a name="suggest-questions"></a>Sugerir preguntas
 
-Sin realizar ninguna configuración, el objeto visual de Preguntas y respuestas sugerirá varias preguntas con las que empezar a trabajar. Estas preguntas se generan automáticamente en función del modelo de datos. En **Sugerir preguntas**, puede sobrescribir las preguntas generadas automáticamente con sus propias preguntas. 
+Sin realizar ninguna configuración, el objeto visual de Preguntas y respuestas sugerirá varias preguntas con las que empezar a trabajar. Estas preguntas se generan automáticamente en función del modelo de datos. En **Sugerir preguntas**, puede sobrescribir las preguntas generadas automáticamente con sus propias preguntas.
 
 Para empezar, escriba la pregunta que quiera agregar en el cuadro de texto. En la sección de vista previa, verá el aspecto que tendrá el resultado en el objeto visual de Preguntas y respuestas. 
 
@@ -74,30 +92,12 @@ Seleccione el botón **Agregar** para agregar esta pregunta a **Preguntas sugeri
  
 Asegúrese de seleccionar **Guardar** para mostrar la lista de preguntas sugeridas en el objeto visual de Preguntas y respuestas. 
 
+> [!NOTE]
+> Las preguntas sugeridas se mostrarán para todas las instancias del objeto visual de Preguntas y respuestas. No se puede crear un conjunto independiente de sugerencias para cada objeto visual de Preguntas y respuestas.
+> 
+> 
 
 ## <a name="other-qa-settings"></a>Otras opciones de configuración de Preguntas y respuestas
-
-### <a name="bulk-synonyms"></a>Sinónimos masivos
-
-La pestaña **Modelado** de Power BI Desktop tiene más opciones para mejorar la experiencia de Preguntas y respuestas. 
-
-1. En Power BI Desktop, seleccione la vista Modelado.
-
-2. Seleccione un campo o una tabla para mostrar el panel **Propiedades**.  Este panel se muestra en el lado derecho del lienzo y enumera varias acciones de Preguntas y respuestas. Una opción es **Sinónimos**. En el cuadro **Sinónimos**, puede definir rápidamente alternativas para la tabla o el campo que seleccione. También puede definir sinónimos en la sección **Enseñanza de Preguntas y respuestas** del cuadro de diálogo de herramientas, pero a menudo es más rápido definir sinónimos aquí para muchos campos de una tabla.
-
-    ![Sinónimos en el panel Modelado de Preguntas y respuestas](media/q-and-a-tooling-intro/qna-modelling-pane-synonyms.png)
-
-3. Para definir varios sinónimos para un solo campo, utilice comas para indicar el siguiente sinónimo.
-
-### <a name="hide-from-qa"></a>Ocultar en Preguntas y respuestas
-
-También puede ocultar campos y tablas, de modo que no aparezcan en los resultados de Preguntas y respuestas. 
-
-1. En Power BI Desktop, seleccione la vista Modelado.
-
-2. Seleccione un campo o una tabla para mostrar el panel **Propiedades** y establezca **Está oculto** en **Activado**.
-
-    Preguntas y respuestas respeta la configuración y garantiza que el campo no sea reconocido por Preguntas y respuestas. Por ejemplo, puede que desee ocultar los campos de identificador y las claves externas para evitar campos duplicados innecesarios con el mismo nombre. Incluso aunque oculte el campo, todavía puede usarlo en Power BI Desktop en objetos visuales fuera de Preguntas y respuestas.
 
 ### <a name="set-a-row-label"></a>Establecimiento de una etiqueta de fila
 

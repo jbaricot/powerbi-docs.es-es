@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 07/16/2019
-ms.openlocfilehash: 1602743230f1a369fe3da48fa37a313b9d9bbea4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 08/12/2020
+ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435890"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204952"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Instrucciones para objetos visuales de Power BI
 Antes de [publicar](office-store.md) el objeto visual de Power BI en Microsoft AppSource para que otros usuarios lo descubran y lo usen, asegúrese de seguir las instrucciones para crear una gran experiencia para los usuarios.
@@ -59,6 +59,9 @@ El menú contextual es el que se muestra cuando el usuario mantiene el mouse sob
 En todos los objetos visuales de Power BI se debe habilitar el menú contextual para ofrecer una experiencia unificada.
 Consulte [este artículo](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) para obtener información sobre cómo agregar un menú contextual.
 
+>[!div class="mx-imgBorder"]
+>![Captura de pantalla del menú contextual de un objeto visual de Power BI.](media/guidelines-powerbi-visuals/context-menu.png)
+
 ## <a name="commercial-logo"></a>Logotipo comercial
 En esta sección se describen las especificaciones para agregar logotipos comerciales en los objetos visuales de Power BI. Los logotipos comerciales no son obligatorios. Si se agregan, deben seguir estas instrucciones.
 
@@ -74,15 +77,15 @@ En esta sección se describen las especificaciones para agregar logotipos comerc
 Hay tres tipos de logotipos comerciales:
 * **Logotipo**: un logotipo se compone de dos elementos indivisibles, que son un icono y un nombre.
 
-    ![Logotipo de Microsoft](media/guidelines-powerbi-visuals/microsoft-logo.png)
+    ![Captura de pantalla del logotipo de Microsoft.](media/guidelines-powerbi-visuals/microsoft-logo.png)
 
 * **Símbolo**: un gráfico sin texto.
 
-    ![Símbolo de Microsoft](media/guidelines-powerbi-visuals/microsoft-symbol.png)
+    ![Captura de pantalla del símbolo de Microsoft.](media/guidelines-powerbi-visuals/microsoft-symbol.png)
 
 * **Logotipo sencillo**: un logotipo sin icono, compuesto solamente de texto.
 
-    ![Símbolo de Microsoft](media/guidelines-powerbi-visuals/microsoft-logotype.png)
+    ![Captura de pantalla del logotipo de Microsoft sin un icono.](media/guidelines-powerbi-visuals/microsoft-logotype.png)
 
 ### <a name="commercial-logo-color"></a>Color del logotipo comercial
 
@@ -90,15 +93,15 @@ Cuando se usa un logotipo comercial, el color del logotipo debe ser gris (color 
 
 * **Logotipo**
 
-    ![Símbolo de Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
+    ![Captura de pantalla del logotipo de Microsoft en color gris.](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
 
 * **Símbolo**: un gráfico sin texto.
 
-    ![Símbolo de Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
+    ![Captura de pantalla del símbolo de Microsoft en color gris.](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
 
 * **Logotipo sencillo**: un logotipo sin icono, compuesto solamente de texto.
 
-    ![Símbolo de Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
+    ![Captura de pantalla del logotipo de Microsoft sin un icono, en color gris.](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
 
 > [!TIP]
 > * Si el objeto visual de Power BI contiene un gráfico, considere la posibilidad de agregar al logotipo un fondo blanco con márgenes de 10 px.
@@ -110,13 +113,13 @@ Un objeto visual de Power BI requiere dos logotipos comerciales, uno para los i
 
 En la tabla siguiente se describen las consideraciones de tamaño para los objetos visuales de Power BI.
 
-|  |Objeto visual de Power BI pequeño  |Objeto visual de Power BI grande  |
+|Configuración  |Objeto visual de Power BI pequeño  |Objeto visual de Power BI grande  |
 |---------|---------|---------|
 |*Ancho del logotipo*    |Hasta 240 px         |Más de 240 px         |
 |*Alto del logotipo*     |Hasta 160 px         |Más de 160 px         |
 |*Tamaño del cuadro de límite*     |40 x 15 px         |101 x 30 px         |
-|*Ejemplo de logotipo comercial*     |![Símbolo de Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Logotipo de Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
-|*Ejemplo de cuadro de límite*    |![ejemplo de logotipo pequeño](media/guidelines-powerbi-visuals/small-logo-box.png)         |![ejemplo de logotipo grande](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|*Ejemplo de logotipo comercial*     |![Captura de pantalla de la versión pequeña del logotipo comercial de Microsoft.](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Captura de pantalla del logotipo comercial de Microsoft.](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|*Ejemplo de cuadro de límite*    |![Captura de pantalla de las dimensiones de un logotipo pequeño.](media/guidelines-powerbi-visuals/small-logo-box.png)         |![Captura de pantalla de las dimensiones de un logotipo grande.](media/guidelines-powerbi-visuals/big-logo-box.png)         |
 |    |         |         |
 
 ### <a name="commercial-logo-behavior"></a>Comportamiento del logotipo comercial
@@ -140,11 +143,11 @@ Los logotipos comerciales solo se admiten en el modo de edición. Al hacer clic 
 
 * Evite utilizar un logotipo comercial multicolor o negro. El logotipo comercial debe ser gris (color hexadecimal #C8C8C8).
 
-    ![Logotipo multicolor no autorizado](media/guidelines-powerbi-visuals/no-color-logo.png) ![Logotipo negro no autorizado](media/guidelines-powerbi-visuals/black-logo.png)
+    ![Captura de pantalla de un logotipo de Microsoft multicolor no autorizado.](media/guidelines-powerbi-visuals/no-color-logo.png) ![Captura de pantalla de un logotipo de Microsoft negro no autorizado](media/guidelines-powerbi-visuals/black-logo.png)
 
 * Un logotipo comercial con efectos como degradados o sombras fuertes.
 
-    ![Estilo de logotipo no autorizado](media/guidelines-powerbi-visuals/no-style-logo.png)
+    ![Captura de pantalla de un ejemplo de un estilo de logotipo de Microsoft no autorizado.](media/guidelines-powerbi-visuals/no-style-logo.png)
 
 ## <a name="best-practices"></a>Procedimientos recomendados
 
@@ -158,10 +161,13 @@ Use la página de aterrizaje para aclarar a los usuarios cómo pueden utilizar e
 
 Para mayor comodidad del usuario, agregue campos relacionados con el token o la clave de licencia en la parte superior del panel de formato.
 
-## <a name="faq"></a>Preguntas frecuentes
+## <a name="faq"></a>Preguntas más frecuentes
 
 Para obtener más información sobre los objetos visuales de Power BI, vea [Preguntas más frecuentes sobre objetos visuales de Power BI con compras adicionales](power-bi-custom-visuals-faq.md#visuals-with-additional-purchases).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Obtenga más información sobre cómo publicar el objeto visual de Power BI en [Microsoft AppSource](office-store.md) para que otros usuarios lo puedan descubrir y comprar.
+Obtenga más información sobre cómo publicar el objeto visual de Power BI en Microsoft AppSource para que otros usuarios lo puedan descubrir y comprar.
+
+>[!div class="nextstepaction"]
+>[Publicación de objetos visuales de Power BI](office-store.md)

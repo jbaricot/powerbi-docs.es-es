@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f580891be69e0c5478474496be6a6414867e662d
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091673"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204856"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -24,6 +24,23 @@ Para obtener información sobre novedades, vea:
 
 >[!NOTE]
 >El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="august-2020"></a>Agosto de 2020
+### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>Se ha mejorado la forma de navegar por el contenido (iOS y Android)
+Ahora puede desplazarse por el contenido de forma rápida y sencilla con un **nuevo árbol de navegación**, disponible en la lista desplegable de encabezados en informes, paneles y aplicaciones. Verá la jerarquía de la ubicación del contenido de un vistazo y podrá desplazarse fácilmente por ella, ir a contenido relacionado, o incluso volver a la página principal. Si el elemento que ve forma parte de una aplicación, en el árbol se muestra todo el contenido de la aplicación: secciones, vínculos y todos los informes y paneles. Si el elemento que ve es un informe, también encontrará una lista de todas las páginas del informe visibles. Nunca ha sido tan fácil pasar de una página a otra. ¡Compruébelo! 
+
+![Captura de pantalla del árbol de navegación de la aplicación móvil de Power BI.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-nav-tree1.png)
+
+### <a name="share-from-power-bi-using-your-favorite-apps-ios-and-android"></a>Uso compartido de Power BI mediante las aplicaciones favoritas (iOS y Android)
+Ahora puede compartir vínculos a contenido de Power BI con los contactos. Use la nueva acción Compartir del encabezado para enviar el vínculo mediante cualquier aplicación de colaboración que tenga en el dispositivo, como Microsoft Teams, una aplicación de correo, etc. El vínculo captura la vista actual, por lo que incluso puede compartir vistas de informe filtradas.
+
+![Captura de pantalla del icono Compartir de la aplicación móvil de Power BI.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-share.png)
+
+### <a name="pinch-and-zoom-is-now-available-in-all-report-views---on-both-phones-and-tablets-ios-and-android"></a>Reducir y ampliar ahora está disponible en todas las vistas del informe, tanto en teléfonos como tabletas (iOS y Android)   
+Se ha habilitado Reducir y ampliar en todas las vistas del informe, lo que facilita acercarse o alejarse en el contenido del informe, ya sea en un teléfono o una tableta.
+
+### <a name="auto-play-a-slideshow-on-startup-windows"></a>Reproducción automática de una presentación al iniciar (Windows)
+Puede elegir un informe para que se reproduzca automáticamente en una presentación cuando se inicia la aplicación de Power BI en Windows. Esto resulta útil para crear una experiencia similar a la de un quiosco multimedia en la que se ejecute un informe en pantallas públicas sin intervención manual. [Obtenga más información al respecto](mobile-windows-10-app-presentation-mode.md#auto-play-a-slideshow-on-startup).
 
 ## <a name="july-2020"></a>Julio de 2020
 ### <a name="the-power-bi-mobile-app-for-windows-now-supports-organizational-branding"></a>La aplicación móvil de Power BI para Windows ahora admite la personalización de marca de la organización
@@ -173,7 +190,7 @@ Lea más sobre la [nueva apariencia de Power BI Mobile](https://powerbi.microso
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Acceso seguro con el proxy de aplicación de Azure Active Directory (AD) (iOS y Android)
 
-Hemos colaborado con el equipo de Azure Active Directory para integrar aplicaciones móviles de Power BI con Azure Active Directory (AAD) Application Proxy. Con esta configuración, puede conectarse a Report Server hospedado dentro de los límites de la empresa desde la aplicación Power BI Mobile sin la necesidad de establecer una configuración local compleja. Obtenga más información sobre la [integración de Power BI Mobile y Azure Active Directory Application Proxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Aprenda a [configurar Azure Active Directory (AAD) Application Proxy y Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
+Nos hemos asociado con el equipo de Azure Active Directory para integrar aplicaciones móviles de Power BI con Application Proxy de Azure Active Directory (Azure AD). Con esta configuración, puede conectarse a Report Server hospedado dentro de los límites de la empresa desde la aplicación Power BI Mobile sin la necesidad de establecer una configuración local compleja. Obtenga más información sobre la [integración de Power BI Mobile y Azure Active Directory Application Proxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Aprenda a [configurar Azure Active Directory (AAD) Application Proxy y Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
 ## <a name="july-2019"></a>Julio de 2019
 
@@ -211,7 +228,7 @@ La pulsación única está ahora en versión de disponibilidad general y se conv
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>Protección de acceso condicional mejorada (iOS y Android)
 
-Integración con la [nueva funcionalidad de acceso condicional basado en la protección de aplicaciones](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) de AAD para aumentar la seguridad al limitar el acceso a Power BI antes de aplicar la directiva de aplicación.
+Integración con la [nueva funcionalidad de acceso condicional basado en la protección de aplicaciones](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) de Azure AD para aumentar la seguridad al limitar el acceso a Power BI antes de aplicar la directiva de aplicación.
 
 ### <a name="device-protection-ios"></a>Protección de dispositivos (iOS)
 
@@ -490,7 +507,7 @@ Ahora puede establecer la configuración del proxy en la aplicación móvil de P
 Lea el [resumen de características de aplicaciones móviles de julio de 2017](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview)
 
 #### <a name="ios-devices"></a>Dispositivos iOS
-**Nueva experiencia de Preguntas y respuestas en iOS (versión preliminar)** . En vez de recibir simplemente una respuesta a su pregunta, ahora puede usar el lenguaje natural para obtener información con ámbito. Incluso si no está seguro de lo que está buscando, Preguntas y respuestas expone proactivamente información pertinente para los datos. La nueva experiencia de Preguntas y respuestas en dispositivos móviles, desarrollada en colaboración con el equipo de Microsoft Research, presenta tecnologías eficaces de nuestro producto. Pruebe con nuestro tutorial, [Realización de preguntas acerca de sus datos en las aplicaciones móviles iOS](mobile-apps-ios-qna.md).
+**Nueva experiencia de Preguntas y respuestas en iOS (versión preliminar)** . En vez de recibir simplemente una respuesta a su pregunta, ahora puede usar el lenguaje natural para obtener información con ámbito. Incluso si no está seguro de lo que busca, Preguntas y respuestas expone de forma proactiva conclusiones pertinentes para los datos. La nueva experiencia de Preguntas y respuestas en dispositivos móviles, desarrollada en colaboración con el equipo de Microsoft Research, presenta tecnologías eficaces de nuestro producto. Pruebe con nuestro tutorial, [Realización de preguntas acerca de sus datos en las aplicaciones móviles iOS](mobile-apps-ios-qna.md).
 
 ### <a name="responsive-visuals"></a>Objetos visuales con capacidad de respuesta
 **Objetos visuales con capacidad de respuesta para informes y paneles en teléfonos** Puede establecer los objetos visuales en el panel o informe para que tengan *capacidad de respuesta* y para que cambien de forma dinámica para mostrar la máxima cantidad de datos, independientemente del tamaño de la pantalla. Lea el [blog sobre objetos visuales con capacidad de respuesta](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals).
@@ -530,7 +547,7 @@ Lea el [resumen de características de aplicaciones móviles de marzo de 2017](h
 Hemos mejorado la interacción táctil de segmentaciones con la segmentación de tiempo.
 
 #### <a name="ios-devices"></a>Dispositivos iOS
-**Formulación de preguntas sobre los datos mediante Preguntas y respuestas, y envío de comentarios** Pruebe a formular preguntas sobre los datos mediante Preguntas y respuestas y, luego, envíenos una cara sonriente o triste para que sepamos cómo hemos hecho nuestro trabajo.
+**Formulación de preguntas sobre los datos mediante Preguntas y respuestas, y envío de comentarios** Pruebe a formular preguntas sobre los datos mediante Preguntas y respuestas y, luego, envíenos una cara sonriente o triste para que sepamos qué tal lo hemos hecho.
 
 **Uso de 3D Touch para acciones comunes** Mantenga presionado el icono de la aplicación de Power BI en la pantalla principal de su iPhone 6s o posterior para acceder a las notificaciones, la búsqueda y los paneles usados recientemente.
 

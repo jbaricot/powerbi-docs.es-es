@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/01/2020
 ms.author: mohaali
-ms.openlocfilehash: 295fc7732729fc464676257ab63dcadfa967771b
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: de16ddbbaca69aea5283c7ab61c462493a6da1d0
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939658"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578114"
 ---
 # <a name="intro-to-power-bi-qa"></a>Introducción a Preguntas y respuestas de Power BI
 
@@ -43,22 +43,20 @@ A medida que escribe su pregunta, Preguntas y respuestas de Power BI muestra su
 
 ![Finalización de la frase de Preguntas y respuestas](media/qna-suggestion-phrase-completion.png)
 
-### <a name="redblue-underlines"></a>Subrayados en color rojo y azul
+### <a name="redblueorange-underlines"></a>Subrayados de color rojo, azul o naranja
 
 Preguntas y respuestas muestra palabras con subrayados que le ayudarán a ver las palabras que el sistema entendió y las que no reconoció. Un subrayado azul sólido indica que el sistema ha encontrado una coincidencia correcta de la palabra con un campo o valor del modelo de datos. En el ejemplo siguiente se muestra que Preguntas y respuestas ha reconocido la palabra *Ventas de la UE*.
 
 ![Subrayado azul de Preguntas y respuestas](media/qna-blue-underline.png)
 
-A menudo, cuando escribe una palabra en Preguntas y respuestas, se marca con un subrayado rojo. Un subrayado rojo puede indicar uno de los dos posibles problemas. El primer tipo de problema se clasifica como *confianza baja*. Si escribe una palabra no precisa o ambigua, el campo aparece subrayado en rojo. Un ejemplo podría ser la palabra "Ventas". Varios campos pueden contener la palabra "Ventas", por lo que el sistema utiliza un subrayado rojo para pedirle que elija el campo que desea. Otro ejemplo de confianza baja podría ser si escribe la palabra "Área", pero la columna que coincide es "Región". Preguntas y respuestas de Power BI reconoce palabras que significan lo mismo, gracias a la integración con Bing y Office. Preguntas y respuestas subraya la palabra en rojo para que sepa que no es una coincidencia directa.
+ Un subrayado de color naranja indica que la palabra (o palabras) se clasifica como de *confianza baja*. Si escribe una palabra imprecisa o ambigua, el campo aparece subrayado en color naranja. Un ejemplo podría ser la palabra "Ventas". Varios campos pueden contener la palabra "Ventas", por lo que el sistema usa un subrayado de color naranja para pedirle que elija el campo correcto. Otro ejemplo de confianza baja podría ser si escribe la palabra "Área", pero la columna que coincide es "Región". Preguntas y respuestas de Power BI reconoce palabras con el mismo significado, gracias a la integración con Bing y Office, y también interpreta los cambios de nombre de un informe como posibles sugerencias. Preguntas y respuestas subraya la palabra en color naranja para que sepa que no es una coincidencia directa.
 
-![Ventas subrayado en rojo en Preguntas y respuestas](media/qna-red-underline-sales.png)
-
-El segundo tipo de problema se da cuando Preguntas y respuestas no reconoce la palabra. Podría encontrar este problema con un término específico del dominio que no se menciona en ningún lugar de los datos o si los campos de datos se denominan incorrectamente. Un ejemplo podría ser el uso de la palabra "Costos", aunque no exista en ningún lugar de los datos. La palabra está en el diccionario, pero Preguntas y respuestas marca este término con un subrayado rojo.
+Un subrayado en color rojo significa que Preguntas y respuestas no ha reconocido la palabra. Podría encontrar este problema con un término específico del dominio que no se menciona en ningún lugar de los datos o si los campos de datos se denominan incorrectamente. Un ejemplo podría ser el uso de la palabra "Costos", aunque no exista en ningún lugar de los datos. La palabra está en el diccionario, pero Preguntas y respuestas marcará este término con un subrayado rojo para indicar que no lo ha encontrado en los datos.
 
 ![Ventas subrayado en rojo en Preguntas y respuestas](media/qna-red-underline-costs.png)
 
 > [!NOTE]
-> Puede personalizar los colores de subrayado azul y rojo en el panel **Formato visual** de Preguntas y respuestas. Además, en el artículo [Herramientas de Preguntas y respuestas](q-and-a-tooling-teach-q-and-a.md) se explica *Enseñanza de Preguntas y respuestas*, que se usa para definir los términos que Preguntas y respuestas no reconoció.
+> Puede personalizar los colores de subrayado azul, rojo y naranja en el panel **Formato visual** de Preguntas y respuestas. Además, en el artículo [Herramientas de Preguntas y respuestas](q-and-a-tooling-teach-q-and-a.md) se explica *Enseñanza de Preguntas y respuestas*, que se usa para definir los términos que Preguntas y respuestas no reconoció.
 
 ### <a name="visualization-results"></a>Resultados de la visualización
 

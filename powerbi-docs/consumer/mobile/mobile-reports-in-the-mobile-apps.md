@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 5ca205bf2e82269140926ac69ccdead43b0cddd8
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091650"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204965"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -53,6 +53,9 @@ Para obtener un informe desde un panel, pulse **Más opciones** (...) en la esqu
   
   No todos los iconos se pueden abrir como informes. Por ejemplo, los iconos que se crean cuando hace una pregunta en el cuadro de Preguntas y respuestas no abren informes al pulsarlos.
   
+## <a name="zoom-in-on-your-data"></a>Acercar los datos   
+Use el gesto de acercar los dedos para acercar los informes y examinarlos con mayor detalle. Separe los dedos para reducir el zoom. El gesto de acercar los dedos para hacer zoom se admite en teléfonos y tabletas iOS y Android.
+
 ## <a name="interact-with-reports"></a>Interacción con informes
 Una vez que haya abierto un informe en la aplicación, puede empezar a trabajar con él. Con el informe y los datos puede hacer muchas cosas. En el pie de página del informe, encontrará acciones que puede realizar en el informe. También puede segmentar los datos mediante pulsaciones y pulsaciones largas en los datos mostrados en el informe.
 

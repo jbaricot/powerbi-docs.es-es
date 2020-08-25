@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/08/2020
+ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: bfda795e02ef53188c5125bc2f0674e859ebd450
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: d7ad3722b609d76383a7a404ef94655ec9ef8711
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878805"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578079"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalación y uso de aplicaciones con los paneles e informes de Power BI
 
@@ -35,7 +35,7 @@ Con Power BI para dispositivos móviles, solo puede instalar una aplicación de
 
 ## <a name="apps-and-licenses"></a>Aplicaciones y licencias
 No todos los usuarios de Power BI pueden ver las aplicaciones e interactuar con ellas. 
-- Si tiene una licencia gratuita, puede abrir aplicaciones que se hayan compartido con usted y que estén almacenadas en un área de trabajo en la capacidad Premium.
+- Si tiene una licencia gratuita, puede abrir aplicaciones que estén almacenadas en una capacidad Premium y después se hayan compartido con usted.  
 - Si tiene una licencia Pro, puede abrir las aplicaciones que se han compartido con usted.
 
 ## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Obtención de la aplicación en el marketplace de aplicaciones de Power BI
@@ -47,7 +47,7 @@ Puede buscar e instalar aplicaciones en el marketplace de aplicaciones de Power�
 
 1. [Inicie sesión en el servicio Power BI](./end-user-sign-in.md) si aún no lo ha hecho. 
 
-1. Una vez que esté en Power BI, seleccione **Aplicaciones > Obtener aplicaciones**. 
+1. Una vez que el servicio Power BI esté abierto, seleccione **Aplicaciones > Obtener aplicaciones**. 
 
     ![Obtener aplicaciones  ](./media/end-user-app-view/power-bi-get-apps.png)
 
@@ -65,11 +65,14 @@ Puede buscar e instalar aplicaciones en el marketplace de aplicaciones de Power�
    El cuadro de búsqueda depende de la pestaña que haya abierto (solo se devolverán las aplicaciones del tipo seleccionado). Si la pestaña **Todas las aplicaciones** está abierta, se devuelven las aplicaciones de plantilla y de la organización. Esto puede dar lugar a confusiones cuando una aplicación de la organización y una aplicación de plantilla tienen el mismo nombre. Simplemente recuerde que los iconos de la aplicación de plantilla tienen un icono de bolsa de la compra en la esquina superior derecha.
 
 Cuando encuentre la aplicación que quiera, haga clic en **Obtenerla ahora** para instalarla.
+
+   ![Captura de pantalla en la que se muestra el botón Obtenerla ahora](./media/end-user-app-view/power-bi-get-it.png)
+
 * Si va a instalar una aplicación de la organización, se agregará inmediatamente a la lista de aplicaciones.
 * Si va a instalar una aplicación de plantilla, se le dirigirá al anuncio de la aplicación de plantilla en AppSource. Consulte [un ejemplo](end-user-app-marketing.md) de cómo descargar e instalar una aplicación de plantilla de muestra en el marketplace de aplicaciones de Power BI. La aplicación se instala, junto con un área de trabajo con el mismo nombre.
 
    > [!NOTE]
-   > Si usa una licencia de usuario gratuita, podrá descargar aplicaciones, pero no las verá a menos que actualice a una cuenta de Power BI Pro o que la aplicación esté almacenada en una capacidad compartida Premium. Para obtener más información, consulte [Licencias para consumidores](end-user-license.md).
+   > Si usa una licencia de usuario gratuita, podrá descargar aplicaciones, pero no las verá a menos que actualice a una cuenta de Power BI Pro o que la aplicación esté almacenada en una capacidad compartida Premium. Para obtener más información, vea [Licencias para usuarios profesionales](end-user-license.md).
 
 ## <a name="install-an-app-from-a-direct-link"></a>Instalar una aplicación desde un vínculo directo
 También puede instalar una aplicación de la organización desde el vínculo directo de un correo electrónico en el diseñador de aplicaciones.  
@@ -112,9 +115,9 @@ Se abre la aplicación. Cada aplicación tendrá un aspecto distinto: diseño, o
 1. El panel de navegación de la aplicación.  Debajo del nombre de la aplicación se encuentra la lista de páginas del informe. Seleccione el nombre de una página de informe para abrirlo. Actualmente está abierta la página *Tasa de devoluciones*. 
 1. Seleccione la flecha para expandir el panel **Filtros**.
 
-También puede explorar el área de trabajo asociada. [Más información sobre las áreas de trabajo](end-user-workspaces.md)
+También puede explorar el área de trabajo asociada. [Obtenga información sobre las áreas de trabajo](end-user-workspaces.md) Seleccione **Power BI** (número 2) para volver a **Inicio** y elija **Áreas de trabajo**. 
 
-![Captura de pantalla del área de trabajo Ventas y marketing en la que se muestra un informe y un conjunto de datos. ](./media/end-user-app-view/power-bi-new-workspace.png)
+![Captura de pantalla del área de trabajo Ventas y marketing en la que se muestra un informe y un conjunto de datos. ](./media/end-user-app-view/power-bi-new-workspaces.png)
 
 ## <a name="update-an-app"></a>Actualización de una aplicación 
 
@@ -136,8 +139,8 @@ En ocasiones, los diseñadores de aplicaciones pueden publicar nuevas versiones 
 
         ![Sobrescritura de la versión anterior de la aplicación](./media/end-user-app-view/power-bi-already-installed.png) 
 
-    > [!NOTE] 
-    > Al instalar una versión nueva, se sobrescriben los cambios que pueda haber realizado en los informes y paneles. Para conservar los informes y paneles actualizados, puede guardarlos con otro nombre o en otra ubicación antes de instalarlos. 
+     > [!NOTE] 
+     > Al instalar una versión nueva, se sobrescriben los cambios que pueda haber realizado en los informes y paneles. Para conservar los informes y paneles actualizados, puede guardarlos con otro nombre o en otra ubicación antes de instalarlos. 
 
     4. Una vez que haya instalado la versión actualizada, seleccione **Actualizar aplicación** para completar el proceso de actualización. 
 
