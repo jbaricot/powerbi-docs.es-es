@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 934916784df57b901fc2bbd45afa551b0dc3636e
-  ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+  ms.openlocfilehash: 33affa71190eb7441822dd57d9e50feb9f7fead1
+  ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 07/09/2020
-  ms.locfileid: "86162330"
+  ms.lasthandoff: 08/25/2020
+  ms.locfileid: "88803029"
 landingContent:
 - title: Guía de Power BI
   linkLists:
@@ -139,6 +139,26 @@ landingContent:
       url: report-performance-troubleshoot.md
     - text: Procedimientos recomendados para las canalizaciones de implementación
       url: ../create-reports/deployment-pipelines-best-practices.md
+- title: Migración a Power BI
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Información general sobre la migración
+      url: powerbi-migration-overview.md
+    - text: Preparar la migración
+      url: powerbi-migration-pre-migration-steps.md
+    - text: Reunir los requisitos
+      url: powerbi-migration-requirements.md
+    - text: Planeamiento de la implementación
+      url: powerbi-migration-planning.md
+    - text: Realización de una prueba de concepto
+      url: powerbi-migration-proof-of-concept.md
+    - text: Crear contenido
+      url: powerbi-migration-create-validate-content.md
+    - text: Implementación en Power BI
+      url: powerbi-migration-deploy-support-monitor.md
+    - text: Aprender de las migraciones de Power BI de los clientes
+      url: powerbi-migration-learn-from-customers.md
 - title: Centro de excelencia (COE)
   linkLists:
   - linkListType: concept

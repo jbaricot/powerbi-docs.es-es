@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f42ee7a0b3b1aaf562e3ab087ad9c07501707afc
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: f7130b1565c85d8e18188c89c22dda3eda193018
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878371"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702637"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Preguntas más frecuentes sobre Power BI para clientes en la nube de Alemania
 El **servicio Power BI** tiene una versión disponible para los clientes de la Unión Europea o pertenecientes al Acuerdo Europeo de Libre Comercio (UE/AELC) a la que a menudo se hace referencia como Microsoft Cloud Deutschland (MCD). La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la UE/AELC y es distinta de la versión comercial del **servicio Power BI** o de los servicios Power BI proporcionados a clientes gubernamentales.
@@ -53,6 +53,8 @@ Las siguientes preguntas y respuestas proporcionan información importante para 
    * Publicar en web
    * Mapas de ArcGIS de Esri
    * Power BI Embedded (la concesión de licencias ISV de uso medido se ofrecerá a través de [Microsoft Azure Alemania](https://azure.microsoft.com/overview/clouds/germany/) en el futuro)
+   * Registro de actividad
+
 7. **¿Dónde puedo encontrar información de configuración específica del servicio Power BI para la nube de Alemania para su uso e integración en mis aplicaciones?**
    
    Hemos actualizado nuestros [ejemplos para desarrolladores de SaaS Embedding](https://github.com/Microsoft/PowerBI-Developer-Samples) con información de configuración específica para la nube de Alemania y otras nubes de Power BI. Mire la carpeta **Configuraciones de nube** para obtener ejemplos de puntos de conexión de configuración específica de nube. En la tabla siguiente se enumeran varios puntos de conexión de configuración del servicio Power BI para la nube de Alemania (y para la nube pública como referencia cruzada).
