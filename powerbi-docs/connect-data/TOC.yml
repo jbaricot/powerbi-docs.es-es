@@ -28,8 +28,6 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Conexión a un ejemplo de GitHub
           href: service-tutorial-connect-to-github.md
-        - name: Uso de Analizar en Excel
-          href: ../collaborate-share/service-tutorial-analyze-in-excel.md
         - name: Uso de Cognitive Services
           href: service-tutorial-use-cognitive-services.md
         - name: Integración de Machine Learning
@@ -58,11 +56,11 @@
               href: service-gateway-power-bi-faq.md
     - name: Guías paso a paso
       items:
-        - name: Conexión a orígenes de datos
+        - name: Conectarse a orígenes de datos
           href: desktop-connect-to-data.md
         - name: Conectar a datos
           items:
-            - name: Conexión a orígenes de datos
+            - name: Conectarse a orígenes de datos
               href: desktop-data-sources.md
             - name: Creación de un informe en una lista de SharePoint
               href: desktop-sharepoint-online-list.md
@@ -202,7 +200,7 @@
               href: service-azure-sql-database-with-direct-connect.md
             - name: Datos activos de SQL Server Analysis Services en Power BI
               href: sql-server-analysis-services-tabular-data.md
-        - name: Actualizar datos
+        - name: Actualización de datos
           items:
             - name: Actualizar datos en Power BI
               href: refresh-data.md
@@ -238,7 +236,7 @@
               href: service-template-update-delete-extract.md
             - name: Ejemplos de aplicaciones plantilla
               href: service-template-apps-samples.md
-        - name: Solucionar problemas
+        - name: Solución de problemas
           items:
             - name: Solución de problemas con los escenarios de actualización
               href: refresh-troubleshooting-refresh-scenarios.md
