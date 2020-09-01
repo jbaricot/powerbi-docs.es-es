@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9aab2afd9e3b4b86844c045ceb0346d57baa3e18
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 477b6a1e29fc05da3004a2dcf8466ef969df4531
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940206"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638621"
 ---
 # <a name="establish-a-center-of-excellence"></a>Establecimiento de un centro de excelencia
 
@@ -45,10 +45,10 @@ En Microsoft, el COE se conoce como plataforma de BI. Tiene muchos grupos de pa
 
 Se necesitan funcionalidades compartidas para establecer y usar la plataforma de BI. Admiten todos los grupos de partes interesadas que financian la plataforma. Comprenden los siguientes equipos:
 
-- **Ingeniería de la plataforma principal:** Diseñamos la plataforma de BI con una mentalidad de ingeniería. En realidad, es un conjunto de marcos que admite la ingesta de datos, el procesamiento para enriquecer los datos y la entrega de esos datos en modelos de datos para consumo de los analistas. Los ingenieros son responsables del diseño técnico y la implementación de las funcionalidades de la plataforma principal de BI. Por ejemplo, diseñan e implementan las canalizaciones de datos.
+- **Ingeniería de la plataforma principal:** Diseñamos la plataforma de BI con una mentalidad de ingeniería. En realidad, es un conjunto de marcos que admite la ingesta de datos, el procesamiento para enriquecer los datos y la entrega de esos datos en modelos semánticos de BI para consumo de los analistas. Los ingenieros son responsables del diseño técnico y la implementación de las funcionalidades de la plataforma principal de BI. Por ejemplo, diseñan e implementan las canalizaciones de datos.
 - **Infraestructura y hospedaje:** Los ingenieros de TI se encargan del aprovisionamiento y la administración de todos los servicios de Azure.
 - **Soporte técnico y operaciones:** Este equipo mantiene la plataforma en ejecución. El soporte técnico se ocupa de las necesidades del usuario como los permisos de datos. Las operaciones mantienen la plataforma en ejecución, lo que garantiza que se cumplan los contratos de nivel de servicio (SLA) y se comuniquen los retrasos o errores.
-- **Administración de versiones:** Los administradores de programas (PM) técnicos publican los cambios. Los cambios pueden variar de las actualizaciones del marco de la plataforma a las solicitudes de cambio a los modelos de datos que se realicen. Son la última línea de defensa para garantizar que los cambios no interrumpan nada.
+- **Administración de versiones:** Los administradores de programas (PM) técnicos publican los cambios. Los cambios pueden variar de las actualizaciones del marco de la plataforma a las solicitudes de cambio a los modelos semánticos de BI que se realicen. Son la última línea de defensa para garantizar que los cambios no interrumpan nada.
 
 ### <a name="dedicated-deliveries"></a>Entregas dedicadas
 
@@ -60,13 +60,22 @@ En Microsoft, nuestra plataforma de BI funciona a través de equipos escalables
 
 - **Administradores de programas:** Los PM son un recurso dedicado. Actúan como contacto principal entre el equipo de BI y las partes interesadas. Su trabajo consiste en convertir los requisitos empresariales de las partes interesadas en una especificación técnica. Además, administran la clasificación por orden de prioridad de los resultados esperados de las partes interesadas.
 - **Responsables de base de datos:** Se trata de un recurso dedicado que se encarga de la incorporación de nuevos conjuntos de datos al almacenamiento de datos centralizado. La incorporación de un conjunto de datos puede implicar la configuración de dimensiones compatibles, la adición de lógica de negocios y atributos personalizados, así como el formato y los nombres estándar.
-- **Responsables de análisis:** Se trata de un recurso dedicado que se encarga del diseño y desarrollo de modelos de datos. Procuran aplicar una arquitectura coherente con la nomenclatura y el formato estándar. La optimización del rendimiento es una parte importante de su rol.
+- **Responsables de análisis:** Se trata de un recurso dedicado que se encarga del diseño y desarrollo de modelos semánticos de BI. Procuran aplicar una arquitectura coherente con la nomenclatura y el formato estándar. La optimización del rendimiento es una parte importante de su rol.
 - **Operaciones e infraestructura:** Se trata de un recurso compartido que se encarga de administrar trabajos y canalizaciones de datos. También se ocupa de administrar suscripciones de Azure, funcionalidades de Power BI, máquinas virtuales y puertas de enlace de datos.
-- **Soporte técnico:** Se trata de un recurso compartido que se encarga de redactar la documentación, organizar el entrenamiento, comunicar los cambios del modelo de datos y responder a las preguntas de los usuarios.
+- **Soporte técnico:** Se trata de un recurso compartido que se encarga de redactar la documentación, organizar el entrenamiento, comunicar los cambios del modelo semántico de BI y responder a las preguntas de los usuarios.
 
 ## <a name="governance-and-compliance"></a>Gobernanza y cumplimiento
 
 Para cada grupo de partes interesadas, los responsables de administración de proyectos se encargan de la gobernanza y supervisión entre programas. Su objetivo primordial es garantizar que las inversiones en TI generen valor empresarial y mitiguen el riesgo. Las reuniones del comité directivo se celebran periódicamente para revisar el progreso y aprobar iniciativas importantes.
+
+## <a name="grow-your-own-community"></a>Crecimiento de su propia comunidad
+
+Establezca una comunidad dentro de su organización y fomente su crecimiento mediante prácticas como las siguientes:
+
+- Celebre de eventos regulares en "horario de oficina" que reserven tiempo con el equipo de BI para que los empleados puedan plantear preguntas, hacer sugerencias, compartir ideas e incluso presentar quejas.
+- Cree un canal de equipos que ofrezca asistencia y anime a cualquier persona a preguntar y responder a las preguntas publicadas.
+- Organice y promocione grupos informales de usuarios y el estímulo a los empleados para que se presenten o asistan.
+- Organice eventos de aprendizaje más formales en productos específicos y en la propia plataforma de BI. Valore la posibilidad de impartir [Power BI Dashboard in a Day](https://powerbi.microsoft.com/diad/), que está disponible como kit de cursos gratuito y es una excelente manera de introducir a los empleados en Power BI por primera vez.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
@@ -75,3 +84,11 @@ Para más información sobre este artículo, consulte los recursos siguientes:
 - [Arquitectura de la solución de BI en el COE](center-of-excellence-business-intelligence-solution-architecture.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)
+
+En el [siguiente artículo de esta serie](center-of-excellence-business-intelligence-solution-architecture.md), conocerá la arquitectura de la solución de BI en el COE y las distintas tecnologías empleadas.
+
+### <a name="professional-services"></a>Servicios profesionales
+
+Hay partners de Power BI certificados a su disposición para ayudar a su organización a tener éxito en la configuración de un COE. Pueden ofrecerle un rentable aprendizaje o una auditoría de los datos. Para ponerse en contacto con un partner de Power BI, visite el [portal de partners de Power BI](https://powerbi.microsoft.com/partners/).
+
+También puede ponerse en contacto con partners de consultoría experimentados. Pueden ayudarle a [valorar](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL), [evaluar](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL) o [implementar](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) Power BI.

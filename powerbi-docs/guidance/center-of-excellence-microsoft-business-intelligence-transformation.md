@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1b4f86a0e3316cc774b0f1562112f0d6e5b19a4f
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162376"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638713"
 ---
 # <a name="microsofts-bi-transformation"></a>Transformación de la BI de Microsoft
 
@@ -53,9 +53,9 @@ En el borde del núcleo, nuestros analistas de los equipos de finanzas, ventas y
 
 **Starlight** es el nombre que damos a nuestra plataforma interna de unificación y análisis de datos, que admite finanzas, ventas, marketing e ingeniería. Su misión es ofrecer una plataforma de datos sólida, compartida y escalable. La plataforma fue creada completamente por finanzas y continúa en funcionamiento hoy en día con los productos más recientes de Microsoft.
 
-**KPI Lake** no es una instancia de Azure Data Lake. Más bien, se trata de un modelo tabular con tecnología de Starlight hospedado en IaaS de Azure que usa Microsoft SQL Server Analysis Services. El modelo tabular ofrece datos procedentes de más de 100 orígenes internos y define numerosas jerarquías e indicadores KPI. Su misión es habilitar equipos de análisis e informes de rendimiento empresarial en finanzas, marketing y ventas. Lo hace para obtener conclusiones oportunas, precisas y eficaces mediante modelos unificados de los correspondientes orígenes.
+**KPI Lake** no es una instancia de Azure Data Lake. Más bien, se trata de un modelo de BI semántico tabular con tecnología de Starlight hospedado en IaaS de Azure que usa Microsoft SQL Server Analysis Services. El modelo de BI semántico ofrece datos procedentes de más de 100 orígenes internos y define numerosas jerarquías e indicadores KPI. Su misión es habilitar equipos de análisis e informes de rendimiento empresarial en finanzas, marketing y ventas. Lo hace para obtener conclusiones oportunas, precisas y eficaces mediante modelos unificados de BI semántico de los correspondientes orígenes.
 
-Cuando se implementó por primera vez, fue un momento emocionante porque el modelo tabular se tradujo en ventajas inmediatas y medibles. La primera versión centralizada de las plataformas de BI de finanzas y marketing de C+E. Después, en los últimos seis años, se ha ampliado para consolidar soluciones de información empresarial adicionales. En la actualidad, sigue evolucionando, con lo que se impulsan las revisiones de negocio globales y comerciales, así como la capacidad SSBI y los informes estándar. Su adopción se ha multiplicado por cinco desde su lanzamiento, lo que supera con creces nuestras expectativas iniciales.
+Cuando se implementó por primera vez, fue un momento emocionante porque el modelo de BI semántico tabular se tradujo en ventajas inmediatas y medibles. La primera versión centralizada de las plataformas de BI de finanzas y marketing de C+E. Después, en los últimos seis años, se ha ampliado para consolidar soluciones de información empresarial adicionales. En la actualidad, sigue evolucionando, con lo que se impulsan las revisiones de negocio globales y comerciales, así como la capacidad SSBI y los informes estándar. Su adopción se ha multiplicado por cinco desde su lanzamiento, lo que supera con creces nuestras expectativas iniciales.
 
 Aquí se muestra un resumen de las principales ventajas:
 
@@ -71,8 +71,8 @@ Aquí se muestra un resumen de las principales ventajas:
 La plataforma Starlight administra el flujo de datos de la adquisición al procesamiento, y luego hasta la publicación:
 
 1. La integración de datos sólida y ágil se realiza de forma programada, y se consolidan los datos de más de 100 orígenes sin procesar dispares. Los sistemas de datos de origen incluyen bases de datos relacionales, Azure Data Lake Storage y bases de datos de Azure Synapse. Entre las áreas temáticas se incluyen finanzas, marketing, ventas e ingeniería.
-2. Una vez que se almacenan provisionalmente, los datos se ajustan y se enriquecen con lógica de negocios y datos maestros. Luego se cargan en tablas de almacenamiento de datos. El modelo tabular se actualiza entonces.
-3. Los analistas de toda la empresa usan Excel y Power BI para ofrecer conclusiones y análisis a partir del modelo tabular. Además, permite a los propietarios de empresas obtener definiciones de métricas para su propia empresa. Cuando sea necesario, el escalado se consigue con IaaS de Azure con equilibrio de carga.
+2. Una vez que se almacenan provisionalmente, los datos se ajustan y se enriquecen con lógica de negocios y datos maestros. Luego se cargan en tablas de almacenamiento de datos. Posteriormente, el modelo de BI semántico tabular se actualiza.
+3. Los analistas de toda la empresa usan Excel y Power BI para ofrecer conclusiones y análisis a partir del modelo de BI semántico tabular. Además, permite a los propietarios de empresas obtener definiciones de métricas para su propia empresa. Cuando sea necesario, el escalado se consigue con IaaS de Azure con equilibrio de carga.
 
 ## <a name="deliver-success"></a>Lograr el éxito
 
@@ -86,10 +86,16 @@ Le invitamos a leer los artículos de esta serie COE para saber más. Vamos a ay
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-En el [siguiente artículo de esta serie](center-of-excellence-establish.md), consulte cómo un COE nos ayudó en Microsoft a crear una plataforma de datos y análisis estandarizada para extraer conclusiones a partir de nuestros datos.
-
 Para más información sobre este artículo, consulte los recursos siguientes:
 
 - [Establecimiento de un centro de excelencia](center-of-excellence-establish.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 - ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)
+
+En el [siguiente artículo de esta serie](center-of-excellence-establish.md), consulte cómo un COE nos ayudó en Microsoft a crear una plataforma de datos y análisis estandarizada para extraer conclusiones a partir de nuestros datos.
+
+### <a name="professional-services"></a>Servicios profesionales
+
+Hay partners de Power BI certificados a su disposición para ayudar a su organización a tener éxito en la configuración de un COE. Pueden ofrecerle un rentable aprendizaje o una auditoría de los datos. Para ponerse en contacto con un partner de Power BI, visite el [portal de partners de Power BI](https://powerbi.microsoft.com/partners/).
+
+También puede ponerse en contacto con partners de consultoría experimentados. Pueden ayudarle a [valorar](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL), [evaluar](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL) o [implementar](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) Power BI.

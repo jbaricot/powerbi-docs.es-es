@@ -1,25 +1,26 @@
 ---
-title: Glosario para consumidores de Power BI
-description: En Power BI se utilizan muchos términos nuevos y se dan usos diferentes a términos ya conocidos. Puede usar nuestro glosario para familiarizarse con la terminología de Power BI.
+title: Glosario para usuarios empresariales de Power BI
+description: En Power BI se utilizan muchos términos nuevos y se dan usos diferentes a términos ya conocidos. Puede usar nuestro glosario para familiarizarse con la terminología del servicio Power BI.
 services: power-bi
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 07/08/2020
+ms.topic: reference
+ms.date: 08/24/2020
+ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: f5ed2252836ecda364ca53904c2cccbae9f9b7e6
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215601"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803052"
 ---
-# <a name="glossary-for-power-bi-service"></a>Glosario para el servicio Power BI    
+# <a name="glossary-for-business-users-of-the-power-bi-service"></a>Glosario para usuarios empresariales del servicio Power BI    
 El servicio Power BI puede utilizar terminología desconocida o que puede llevar a confusiones. El glosario es un lugar ideal para consultar terminología, que incluso le permite marcar contenido. Otro recurso útil para conocer la base sobre la que se sustenta el servicio Power BI es [Conceptos básicos](end-user-basic-concepts.md). En Conceptos básicos encontrará información general de alto nivel sobre las *piezas* que forman Power BI y cómo se interconectan.
 
-Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra algún término? Pídanos que lo incorporemos. Para ello, puede utilizar el botón de comentarios sobre la documentación que encontrará al final de este artículo.
+Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra algún término? Pídanos que lo incorporemos. Para ello, puede utilizar el botón de comentarios de la documentación, al final de este artículo.
 
 ## <a name="a"></a>A
 
