@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 070dfd4048c494f9a1865603be4e692231f771f5
-ms.sourcegitcommit: 9b193dc155a306738a23b6bf20bcc424b8c64afd
+ms.openlocfilehash: f282db76417fb99f07d39bb9f684515dd1d312c0
+ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "88247149"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88764983"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Actualización automática de páginas en Power BI
 
@@ -68,7 +68,7 @@ Al seleccionar **Detección de cambios** como el tipo de actualización, aparece
 
 ![Tarjeta Detección de cambios](media/desktop-automatic-page-refresh/automatic-page-refresh-03.png)
 
-Una vez que se haya abierto la ventana, verá la opción **Tipo de medida**, donde puede seleccionar una medida existente, o bien crear una desde cero. Si selecciona una existente, solo tiene que seleccionar la medida deseada en la lista de campos, o bien arrastrarla y colocarla en la sección **Elegir medida existente**. Al crear una medida, puede **Elegir un cálculo** para la medida entre count, count distinct, minimum, maximum y sum. Por ejemplo, puede usar count distinct para contar los Id. de cliente y solo actualizar cuando se agrega un cliente nuevo a la lista. Una vez que haya seleccionado una medida, tendrá que definir la frecuencia con la que Power BI **comprobará los cambios**. Es el intervalo de la frecuencia con la que Power BI calculará la medida y sondeará los cambios. Una vez que haga clic en aplicar, aparecerá una nueva medida con el icono de detección de cambios en la lista de campos.
+Una vez que se ha abierto la ventana, se ve la opción **Tipo de medida**, donde puede seleccionar una medida existente o crear una desde cero. Si selecciona una existente, solo tiene que seleccionar la medida deseada en la lista de campos, o bien arrastrarla y colocarla en la sección **Elegir medida existente**. Al crear una medida, puede **Elegir un cálculo** para la medida entre count, count distinct, minimum, maximum y sum. Por ejemplo, puede usar count distinct para contar los Id. de cliente y solo actualizar cuando se agrega un cliente nuevo a la lista. Una vez que haya seleccionado una medida, tendrá que definir la frecuencia con la que Power BI **comprobará los cambios**. Es el intervalo de la frecuencia con la que Power BI calculará la medida y sondeará los cambios. Una vez que haga clic en aplicar, aparecerá una nueva medida con el icono de detección de cambios en la lista de campos.
 
 ![Ventana Detección de cambios](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837506"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702683"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportación de informes de Power BI a PDF
 
@@ -68,6 +68,7 @@ Hay algunas consideraciones y limitaciones que se deben tener en cuenta cuando s
 * Los informes con tamaños de página personalizados inusuales pueden experimentar problemas en escenarios de exportación. Para obtener los mejores resultados, considere la posibilidad de cambiar a un tamaño de página estándar para el informe.
 * Al exportar a PDF, en los informes que usen temas con fuentes personalizadas se reemplazará la fuente personalizada por una fuente predeterminada.
 * Aunque el objetivo es proporcionar una experiencia coherente, no se puede garantizar que el PDF exportado desde el servicio Power BI siempre coincidirá con el PDF exportado desde un archivo de Power BI Desktop local.
+* Al exportar a PDF, no se puede garantizar una fidelidad hasta el más mínimo detalle para los informes de PBIX.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Imprimir un informe](end-user-print.md)

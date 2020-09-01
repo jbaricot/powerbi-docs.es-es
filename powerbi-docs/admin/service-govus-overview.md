@@ -10,12 +10,12 @@ ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 3d50b8678abd54d2a4543b5a2d187f32b491b063
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 75b05449de47f39fc95fd7cf42f9325b7a5d0ee9
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427125"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638782"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 
@@ -86,7 +86,7 @@ Para adaptarse a los requisitos de los clientes en la nube de la Administración
 |  |Auditoría a través del centro de administración de seguridad y cumplimiento de Office 365|Disponible|Disponible|Disponible|
 |  |Uso compartido con usuarios externos|Disponible|Disponible|Disponible|
 |  |Métricas de uso para informes y paneles|Disponible|Disponible|Disponible|
-|  |Azure B2B entre GCC y la nube comercial|Disponible|Disponible|Disponible|
+|  |Colaboración de Azure B2B entre GCC y la nube comercial<sup>1</sup>|Disponible|No disponible|No disponible|
 |Creación de informes|Creación y visualización de paneles e informes|Disponible|Disponible|Disponible|
 |  |Actualización de datos programada|Disponible|Disponible|Disponible|
 |  |Paneles de equipo actualizables|Disponible|Disponible|Disponible|
@@ -108,6 +108,8 @@ Para adaptarse a los requisitos de los clientes en la nube de la Administración
 |  |Automated Machine Learning|No disponible|No disponible|No disponible|
 |  |Azure Cognitive Services|No disponible|No disponible|No disponible|
 |  |Azure Machine Learning|No disponible|No disponible|No disponible|
+
+<sup>1</sup> Aunque la colaboración de B2B está disponible para GCC, se debe emitir al usuario externo una licencia en ese entorno. Las licencias de nubes comerciales no son válidas en GCC. Para obtener más información sobre las limitaciones conocidas de la colaboración de B2B con el Gobierno de EE. UU., [compare Azure Government y Azure global](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

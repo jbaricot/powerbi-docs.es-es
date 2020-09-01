@@ -10,12 +10,12 @@ ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: d7ad3722b609d76383a7a404ef94655ec9ef8711
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: e737d8747f7d6d9b69eda2035df06abdddd9569f
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578079"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803098"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalación y uso de aplicaciones con los paneles e informes de Power BI
 
@@ -27,7 +27,7 @@ Ahora que tiene [conocimientos básicos sobre las aplicaciones](end-user-apps.md
 
 ## <a name="ways-to-get-a-new-app"></a>Maneras de obtener una nueva aplicación
 Hay varias maneras de obtener una nueva aplicación:
-* Puede obtenerlo desde el marketplace de aplicaciones de Power BI en Power BI.
+* Puede obtenerla desde el marketplace de aplicaciones de Power BI del servicio Power BI.
 * Puede usar un vínculo directo a una aplicación que haya recibido del diseñador de la aplicación. 
 * Un diseñador de aplicaciones de la organización puede instalar la aplicación de forma automática en la cuenta de Power BI.
 
@@ -37,6 +37,8 @@ Con Power BI para dispositivos móviles, solo puede instalar una aplicación de
 No todos los usuarios de Power BI pueden ver las aplicaciones e interactuar con ellas. 
 - Si tiene una licencia gratuita, puede abrir aplicaciones que estén almacenadas en una capacidad Premium y después se hayan compartido con usted.  
 - Si tiene una licencia Pro, puede abrir las aplicaciones que se han compartido con usted.
+
+Por lo tanto, si no puede abrir aplicaciones, póngase en contacto con el administrador o el departamento de soporte técnico. Para obtener información sobre las licencias, vea [Licencias de Power BI](end-user-license.md).
 
 ## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Obtención de la aplicación en el marketplace de aplicaciones de Power BI
 
