@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/21/2020
 ms.author: maggies
-ms.openlocfilehash: b71fd2986fb79adf88493416ac8234f2656aefa9
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866780"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937594"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Limitaciones de Preguntas y respuestas de Power BI
 
@@ -75,7 +75,6 @@ Actualmente no se permite redefinir un término reconocido ni definir otros tipo
 
 ### <a name="statements-not-supported"></a>Instrucciones no admitidas
 
-- Actualmente no se admite el uso de medidas en las condiciones. En su lugar, convierta las medidas en columnas calculadas para que funcionen.
 - No se admiten varias condiciones. Como alternativa, cree una columna calculada DAX que evalúe un valor booleano de la instrucción de varias condiciones y use este campo en su lugar.
 - Si no se especifica una condición de filtro cuando Preguntas y respuestas pide un subconjunto de datos, no se puede guardar la definición, aunque la instrucción completa no tenga ningún subrayado en rojo.
 

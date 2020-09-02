@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 189710c613c7d48f76ee0bb23a430ac4d9908c74
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 4188a5570dfe15658e13d3358f3e192ac842cbfb
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792866"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937341"
 ---
 # <a name="power-bi-premium-faq"></a>Preguntas más frecuentes sobre Power BI Premium
 
@@ -83,11 +83,11 @@ Para más información, consulte [Introducción al servidor de informes de Power
 
 **Pasos siguientes**
 
-[¿Qué es Power BI Premium?](service-premium-what-is.md)
-[Notas de la versión de Power BI Premium](../service-premium-release-notes.md)
-[Notas del producto de Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
-[Notas del producto: Planning a Power BI Enterprise Deployment (Planeación de una implementación de Power BI Enterprise)](https://aka.ms/pbienterprisedeploy)
-[Activación de la prueba de Pro ampliada](../service-extended-pro-trial.md)
-[Preguntas más frecuentes de Power BI Embedded](../developer/embedded/embedded-faq.md)
+* [¿Qué es Power BI Premium?](service-premium-what-is.md)
+* [Notas de la versión de Power BI Premium](../service-premium-release-notes.md)
+* [Notas del producto de Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
+* [Notas del producto de la planeación de una implementación de Power BI Enterprise](https://aka.ms/pbienterprisedeploy)
+* [Extended Pro Trial activation](../service-extended-pro-trial.md) (Activación de la extensión del período de prueba de Power BI Pro)
+* [Preguntas frecuentes sobre Power BI Embedded](../developer/embedded/embedded-faq.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
