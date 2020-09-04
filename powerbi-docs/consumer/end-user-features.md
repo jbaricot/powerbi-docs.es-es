@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: how-to
-ms.date: 04/17/2020
+ms.topic: reference
+ms.date: 09/01/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: b6beb2115f664de12382933c8200b07b510bd083
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 75ee1ad31bc2f99964a8f79ea29efb499c2cc81e
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215881"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286783"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lista de características de Power BI para *consumidores* y otros usuarios con licencias gratuitas
 
@@ -49,7 +49,7 @@ Cada usuario del servicio Power BI tiene una licencia gratuita o una licencia P
 
 - **Licencia gratuita**: normalmente se asigna a los *consumidores* dentro de una organización (vea la primera imagen abajo). También la usa cualquiera que se suscriba al servicio Power BI como individuo y quiera probar el [servicio Power BI en modo independiente](../fundamentals/service-self-service-signup-for-power-bi.md) (vea la segunda imagen abajo). 
 
-    ![pantalla en la que se muestra un usuario con una licencia gratuita](media/end-user-features/power-bi-free-organization.png)
+    ![pantalla que muestra un usuario Premium](media/end-user-features/power-bi-free-organization.png)
 
     A los usuarios de la licencia gratuita, ser miembro de una organización que tiene capacidad Premium les proporciona superpoderes. Mientras que los compañeros de Pro usen áreas de trabajo de capacidad Premium para compartir contenido, los usuarios de la licencia gratuita podrán verlos y colaborar con ellos.  **De esta manera, el usuario de la licencia gratuita se convierte en un *consumidor* de Power BI, con la capacidad de recibir y compartir contenido para tomar decisiones empresariales.** 
  
@@ -129,7 +129,7 @@ La segunda columna representa un *consumidor*.  Un consumidor:
 | Ver los marcadores creados por otros y agregar marcadores propios  | ![X de color naranja](media/end-user-features/orange-x.png)|![Punto de color verde](media/end-user-license/power-bi-green-dot.png)  |
 | Ver y responder a los comentarios de otros usuarios: agregar nuevos comentarios  | ![X de color naranja](media/end-user-features/orange-x.png)|![Punto de color verde](media/end-user-license/power-bi-green-dot.png)  |
 |Cambiar las dimensiones de la pantalla   | ![myw de color verde](media/end-user-features/green-mwo.png) | ![Punto de color verde](media/end-user-license/power-bi-green-dot.png)  | 
-| Guardar una copia |![X de color naranja](media/end-user-features/orange-x.png) |![Punto de color verde](media/end-user-license/power-bi-green-dot.png)*  
+| Guardar una copia |![X de color naranja](media/end-user-features/orange-x.png) |![X de color naranja](media/end-user-features/orange-x.png)  
 |Copiar objeto visual como imagen* |
 | Objetos visuales de informe de resaltado cruzado y filtro cruzado   |![myw de color verde](media/end-user-features/green-mwo.png) |![Punto de color verde](media/end-user-license/power-bi-green-dot.png)  |
 |  Explorar   |![myw de color verde](media/end-user-features/green-mwo.png)  |![Punto de color verde](media/end-user-license/power-bi-green-dot.png)  |

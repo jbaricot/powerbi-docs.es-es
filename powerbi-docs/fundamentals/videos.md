@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
-ms.openlocfilehash: 409c8f685b0616177645c7145680d3f795fd0fac
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6bb0039c873dccec318fa9d16c7cf0c96e44b34e
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360954"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092231"
 ---
 # <a name="power-bi-videos"></a>Vídeos de Power BI
 ¡Tenemos un canal de YouTube de Power BI! Puede visitar [nuestro canal](https://www.youtube.com/user/mspowerbi/videos) y, si no está familiarizado con Power BI, un buen lugar para comenzar es la [lista de reproducción sobre análisis y visualización de datos con Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
@@ -31,7 +31,7 @@ Puede comenzar con algunos vídeos de esa lista de reproducción.
   
   <iframe width="560" height="315" src="https://www.youtube.com/embed/07uBWhaCo78" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-* Power BI para desarrolladores
+* Power BI para desarrolladores
   <iframe width="560" height="315" src="https://www.youtube.com/embed/47uXJW1GIUY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
 
 ## <a name="watch-some-of-our-new-uploads"></a>Vea algunas de nuestras nuevas cargas
@@ -42,7 +42,7 @@ Puede comenzar con algunos vídeos de esa lista de reproducción.
 ## <a name="more-videos"></a>Más vídeos
 Consulte la siguiente colección de orígenes y contenido de más vídeos.
 
-* [Guided Learning for Power BI](https://powerbi.microsoft.com/guided-learning/): un paseo de aprendizaje secuencial y detallado por Power BI
+* [[Microsoft Learn para Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [¿Qué es Power BI?](power-bi-overview.md)

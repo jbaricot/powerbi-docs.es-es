@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: c4453f1475ac2ab227294b0b3bd8ba5dba10de67
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c01169a514b1231f93df21a23dc8992e92353070
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204478"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937617"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Visualización de informes y paneles en modo de presentación en Surface Hub y dispositivos Windows 10
 Use el modo de presentación para mostrar los informes y paneles en pantalla completa en dispositivos Windows 10 y Surface Hub. El modo de presentación es útil para mostrar Power BI en reuniones o conferencias, para visualizarlo en un proyector dedicado en la oficina o incluso para aprovechar al máximo el espacio de una pantalla pequeña.
@@ -64,7 +64,7 @@ Cuando selecciona el botón **Reproducir** en la barra de herramientas de accion
 
  El controlador muestra el nombre de la vista que se muestra actualmente (página o marcador y página). En la imagen anterior, vemos que en el informe denominado **Sales** (Ventas), actualmente se muestra el marcador **Asia Pacific** (Asia Pacífico) en la página **Sales Performance** (Rendimiento de ventas).
 
-De forma predeterminada, una presentación solo recorre páginas, a una velocidad de una cada 30 segundos. El comportamiento predeterminado se establece en [Configuración de la presentación](#slideshow-settings).
+De forma predeterminada, una presentación solo recorre páginas, a una velocidad de una cada 30 segundos. Puede cambiar el comportamiento predeterminado en [Configuración de la presentación](#slideshow-settings).
 
 
 ### <a name="auto-play-a-slideshow-on-startup"></a>Reproducción automática de una presentación al iniciar

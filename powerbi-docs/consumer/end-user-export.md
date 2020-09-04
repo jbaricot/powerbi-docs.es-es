@@ -7,15 +7,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/20/2020
+ms.date: 08/28/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: eebe5bcf2a4e75d9ff6ed526fbd8f9d362ff26ee
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: a4b7b866d56852cb4e49cbe09150dcdb694b64c3
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537835"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89287012"
 ---
 # <a name="export-data-from-a-visual"></a>Exportación de datos de un objeto visual
 
@@ -23,7 +23,9 @@ ms.locfileid: "87537835"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Si quiere ver los datos que se usan para crear un objeto visual, [puede mostrar dichos datos en Power BI](end-user-show-data.md) o exportarlos a Excel. La opción para exportar datos requiere un determinado tipo o licencia y permisos de edición para el contenido. Si no puede hacer la operación, consulte con el administrador de Power BI. La exportación de datos requiere una licencia de Power BI Pro, ya sea una licencia Pro por usuario o una licencia Pro por usuario dentro de una organización que tenga una licencia de capacidad Premium. Este tipo de licencia suelen utilizarlo los *diseñadores* de informes, no los *consumidores*. Para obtener más información, consulte [Tipos de licencias de Power BI](end-user-license.md).
+Si quiere ver los datos que se usan para crear un objeto visual, [puede mostrar dichos datos en Power BI](end-user-show-data.md) o exportarlos a Excel. La opción para exportar datos requiere un determinado tipo o licencia y permisos de edición para el contenido. Si no puede exportar, consulte con el departamento de soporte técnico o su administrador de Power BI. 
+
+Para exportar datos se requiere una licencia Power BI Pro, o para que el panel o informe se comparta con usted mediante la capacidad Premium. Para obtener más información, consulte [Tipos de licencias de Power BI](end-user-license.md).
 
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Desde un objeto visual en un panel de Power BI
@@ -31,17 +33,17 @@ Si quiere ver los datos que se usan para crear un objeto visual, [puede mostrar 
 1. Comience en un panel de Power BI. Aquí vamos a usar el panel de la aplicación ***Ejemplo de marketing y ventas***. Puede [descargar esta aplicación desde AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
 ).
 
-    ![Panel de la aplicación](media/end-user-export/power-bi-dashboards.png)
+    ![Panel de aplicaciones](media/end-user-export/power-bi-dashboards.png)
 
 2. Mantenga el puntero sobre un objeto visual para mostrar **Más opciones** (...) y haga clic para mostrar el menú de acciones.
 
-    ![Menú que aparece al seleccionar los puntos suspensivos](media/end-user-export/power-bi-options-menu.png)
+    ![Menú que aparece al seleccionar los puntos suspensivos](media/end-user-export/power-bi-option-menu.png)
 
 3. Seleccione **Exportar a .csv**.
 
 4. Lo que sucede después depende del explorador que use. Puede que se le pida que guarde el archivo o que vea un vínculo al archivo exportado en la parte inferior del explorador. 
 
-    ![Explorador Chrome que muestra el vínculo al archivo exportado](media/end-user-export/power-bi-dashboard-exports.png)
+    ![Explorador Chrome que muestra el vínculo al archivo exportado](media/end-user-export/power-bi-dashboards-export.png)
 
 5. Abra el archivo en Excel. 
 
@@ -56,18 +58,18 @@ Puede exportar datos desde un objeto visual de un informe en formato .csv o .xls
 
 1. En un panel, seleccione un icono para abrir el informe subyacente.  En este ejemplo, vamos a seleccionar el mismo objeto visual que antes *Total Units YTD Var %* (% de desviación de unidades totales hasta la fecha). 
 
-    ![Icono del panel resaltado](media/end-user-export/power-bi-export-reports.png)
+    ![Icono del panel resaltado](media/end-user-export/power-bi-export-tile.png)
 
     Como este icono se creó en el informe *Ejemplo de ventas y marketing*, es el informe que se abre. Y lo hace en la página que contiene el objeto visual del icono seleccionado. 
 
 2. Seleccione el objeto visual en el informe. Observe el panel **Filtros** de la derecha. Este objeto visual tiene filtros aplicados. Para más información sobre los filtros, consulte [Uso de filtros en un informe](end-user-report-filter.md).
 
-    ![Panel de filtro seleccionado](media/end-user-export/power-bi-export-filter.png)
+    ![Panel de filtro seleccionado](media/end-user-export/power-bi-export-filter-pane.png)
 
 
 3. Seleccione **Más opciones (...)** en la esquina superior derecha de la visualización. Elija **Exportar datos**.
 
-    ![Exportación de los datos seleccionados desde la lista desplegable](media/end-user-export/power-bi-export-report.png)
+    ![Exportación de los datos seleccionados desde la lista desplegable](media/end-user-export/power-bi-export-reports.png)
 
 4. Verá opciones para exportar datos resumidos o datos subyacentes. Si usa la aplicación *Ejemplo de ventas y marketing*, se deshabilitará la opción **Datos subyacentes**. Sin embargo, puede encontrar informes donde estén habilitadas ambas opciones. A continuación se muestra una explicación de la diferencia.
 
@@ -80,7 +82,7 @@ Puede exportar datos desde un objeto visual de un informe en formato .csv o .xls
 
 5. Lo que sucede después depende del explorador que use. Puede que se le pida que guarde el archivo o que vea un vínculo al archivo exportado en la parte inferior del explorador. 
 
-    ![Archivo exportado que se muestra en el explorador Microsoft Edge](media/end-user-export/power-bi-export-edge-browser.png)
+    ![Archivo exportado que se muestra en el explorador Microsoft Edge](media/end-user-export/power-bi-export-edge-screen.png)
 
     > [!NOTE]
     > Si no tiene permisos para los datos, no podrá exportarlos ni abrirlos en Excel.  

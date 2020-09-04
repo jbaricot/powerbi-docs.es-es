@@ -7,12 +7,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
-ms.openlocfilehash: 47ab35113bbf6564cbc824b48891cd9f58370c8a
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: aaa31851f338832a8c4f4fffb38f12414c859610
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578171"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937479"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Introducción a las herramientas de Preguntas y respuestas para entrenar a Preguntas y respuestas de Power BI (versión preliminar)
 
@@ -80,6 +80,11 @@ Todo lo que haya guardado desde la sección Enseñanza de Preguntas y respuestas
 
 ### <a name="suggest-questions"></a>Sugerir preguntas
 
+> [!NOTE]
+> Las preguntas sugeridas se mostrarán para todas las instancias del objeto visual de Preguntas y respuestas. No se puede crear un conjunto independiente de sugerencias para cada objeto visual de Preguntas y respuestas.
+> 
+> 
+
 Sin realizar ninguna configuración, el objeto visual de Preguntas y respuestas sugerirá varias preguntas con las que empezar a trabajar. Estas preguntas se generan automáticamente en función del modelo de datos. En **Sugerir preguntas**, puede sobrescribir las preguntas generadas automáticamente con sus propias preguntas.
 
 Para empezar, escriba la pregunta que quiera agregar en el cuadro de texto. En la sección de vista previa, verá el aspecto que tendrá el resultado en el objeto visual de Preguntas y respuestas. 
@@ -91,11 +96,6 @@ Seleccione el botón **Agregar** para agregar esta pregunta a **Preguntas sugeri
 :::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-save-suggest-questions.png" alt-text="Guardar preguntas sugeridas":::
  
 Asegúrese de seleccionar **Guardar** para mostrar la lista de preguntas sugeridas en el objeto visual de Preguntas y respuestas. 
-
-> [!NOTE]
-> Las preguntas sugeridas se mostrarán para todas las instancias del objeto visual de Preguntas y respuestas. No se puede crear un conjunto independiente de sugerencias para cada objeto visual de Preguntas y respuestas.
-> 
-> 
 
 ## <a name="other-qa-settings"></a>Otras opciones de configuración de Preguntas y respuestas
 

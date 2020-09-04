@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 08/26/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f8bd09bd55694bbd7c6a991d502dde45dad5f2e4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f865815c76df179c87c1487e1243c37108375167
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162075"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937723"
 ---
 # <a name="what-are-bookmarks"></a>¿Qué son los marcadores?
 
@@ -29,18 +29,24 @@ Los marcadores tienen muchos usos. Imagine que descubre algo interesante y quier
 
 También puede crear una colección de marcadores, organizarlos en el orden que quiera y, posteriormente, usarlos en una presentación para resaltar una serie de informaciones que cuentan una historia.  
 
-![Vista del panel Marcadores al seleccionarlo en la cinta.](media/end-user-bookmarks/power-bi-select-bookmark.png)
+![Vista del panel Marcadores al seleccionarlo en la cinta.](media/end-user-bookmarks/power-bi-bookmark-icon.png)
 
 ## <a name="open-bookmarks"></a>Apertura de marcadores
-Para abrir el panel Marcadores, seleccione **Marcadores** > **Mostrar más marcadores** en la barra de menús. Para volver a la vista publicada original del informe, seleccione **Restablecer valores predeterminados**.
+Para abrir el panel Marcadores, seleccione **Marcadores** > **Mostrar más marcadores** en la barra de menús. 
+
+![captura de pantalla de un lienzo de informe con el panel Marcadores abierto.](media/end-user-bookmarks/power-bi-show-bookmarks.png)
+
+Para volver a la vista publicada original del informe, seleccione el icono de **Restablecer**.
+
+![captura de pantalla con el icono de Revertir seleccionado](media/end-user-bookmarks/power-bi-revert.png)
 
 ### <a name="report-bookmarks"></a>Informar de marcadores
-Si el *diseñador* del informe ha incluido marcadores de informe, los puede encontrar en el encabezado **Informar de marcadores**. Esta página del informe tiene dos marcadores: B1 y B2. 
+Si el *diseñador* del informe ha incluido marcadores de informe, los puede encontrar en el encabezado **Informar de marcadores**. Esta página del informe tiene cuatro marcadores: B1, B2, VanArsdel YTD y All YTD. **All YTD** está seleccionado.
 
 > [!NOTE]
 > Necesitará Power BI Pro o Premium para ver informes compartidos. 
 
-![Vista de Informar de marcadores.](media/end-user-bookmarks/power-bi-report.png)
+![Vista de Informar de marcadores.](media/end-user-bookmarks/power-bi-bookmark-list.png)
 
 Seleccione un marcador para ir a esa vista de informe. 
 
@@ -48,7 +54,7 @@ Seleccione un marcador para ir a esa vista de informe.
 
 ### <a name="personal-bookmarks"></a>Marcadores personales
 
-Cuando crea un marcador, los siguientes elementos se guardan con él:
+Si puede ver un informe, también puede agregar marcadores personales.  Cuando crea un marcador, los siguientes elementos se guardan con él:
 
 * La página actual
 * Filtros
@@ -59,15 +65,21 @@ Cuando crea un marcador, los siguientes elementos se guardan con él:
 * Visibilidad (de un objeto, mediante el panel **Selección**)
 * Los modos de enfoque o de **Destacados** de cualquier objeto visible
 
-Configure una página de informe de la forma en que desee que aparezca en el marcador. Una vez que la página del informe y los objetos visuales estén organizados a su gusto, seleccione **Agregar** en el panel **Marcadores** para agregar un marcador. En este ejemplo se han agregado algunos filtros para región y fecha. 
+Configure una página de informe de la forma en que desee que aparezca en el marcador. En este ejemplo:
 
-![Incorporación de marcadores personales.](media/end-user-bookmarks/power-bi-bookmark-personal.png)
+1. Hemos cambiado el filtro de fecha del panel **Filtros**.
+1. Hemos cambiado el filtro de regiones del panel **Filtros**.
+1.  Hemos seleccionado puntos de datos en el objeto visual del gráfico de anillos para aplicar un filtro cruzado y resaltar el lienzo del informe. 
+
+Una vez que la página del informe y los objetos visuales estén organizados a su gusto, seleccione **Agregar** en el panel **Marcadores** para agregar un marcador. 
+
+![Incorporación de marcadores personales.](media/end-user-bookmarks/power-bi-personal.png)
 
 **Power BI** crea un marcador personal y le asigna un nombre genérico o el que especifique el usuario. Puede *cambiar de nombre*, *eliminar* o *actualizar* el marcador si selecciona los puntos suspensivos junto al nombre del marcador y luego selecciona una acción en el menú que aparece.
 
 Una vez que tiene un marcador, puede mostrarlo con solo seleccionarlo en el panel **Marcadores**. 
 
-![Incorporación de marcadores personales.](media/end-user-bookmarks/power-bi-bookmark-west.png)
+![Se muestra marcador determinado seleccionándolo.](media/end-user-bookmarks/power-bi-selected.png)
 
 
 <!--
@@ -91,7 +103,7 @@ Cuando está en el modo **Vista**, hay algunas características a tener en cuent
 - La barra de título del marcador tiene flechas que le permiten moverse al marcador siguiente o al anterior.
 - Puede salir del modo **Vista** seleccionando **Salir** en el panel **Marcadores** o la **X** que se encuentra en la barra de título del marcador.
 
-![Presentación de marcadores](media/end-user-bookmarks/power-bi-slideshow.png)
+![Presentación de marcadores](media/end-user-bookmarks/power-bi-view-bookmarks.png)
 
 Cuando está en modo **Vista**, puede cerrar el panel **Marcadores** (haciendo clic en la X en ese panel) para proporcionar más espacio para la presentación. Siempre que esté en el modo **Vista**, todos los objetos visuales serán interactivos y estarán disponibles para realizar el resaltado cruzado, al igual que lo estarían en caso contrario si interactúa con ellos. 
 

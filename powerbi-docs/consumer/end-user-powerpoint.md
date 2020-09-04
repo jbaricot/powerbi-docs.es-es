@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cffd2b9913773e7f29d1afa960209ddeddd3583
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 1153b20e77958bbecce9284add3ae7eab21cd47d
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160427"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040334"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportación de informes a PowerPoint
 
@@ -49,6 +49,8 @@ Aparece una ventana emergente en la que tiene la opción de seleccionar los **Va
 ![Selección de qué se va a exportar](media/end-user-powerpoint/power-bi-current-values.png)
  
 Además, hay una casilla para seleccionar si se quieren exportar o no las pestañas ocultas de un informe. Seleccione esta casilla si solo quiere exportar las pestañas del informe que son visibles para usted en el explorador. Si prefiere incluir todas las pestañas ocultas como parte de la exportación, deje desactivada esta casilla. Si la casilla aparece atenuada, significa que no hay ninguna pestaña oculta en el informe. Un ejemplo de una pestaña oculta sería una pestaña de información sobre herramientas. La [información sobre herramientas personalizada](../create-reports/desktop-tooltips.md) la crean los *diseñadores* de informes y no se muestran como pestañas de informes en el servicio Power BI para los *consumidores*. 
+
+También puede optar por exportar solo la página que esté viendo de un informe activando la opción "Exportar solo la página actual".  De forma predeterminada, esta opción está desactivada y se exportarán todas las páginas del informe.
 
 Seleccione **Exportar** para continuar cuando haya realizado las selecciones. Verá un banner de notificación en la esquina superior derecha de la ventana del explorador del servicio Power BI que indica que el informe se está exportando a PowerPoint. 
 

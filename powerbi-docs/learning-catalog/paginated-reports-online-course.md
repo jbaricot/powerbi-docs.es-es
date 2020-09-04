@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 533dba01bb975d774741643771415aaafa8f155c
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427505"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092300"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Curso Informes paginados de Power BI en un día
 
@@ -83,28 +83,29 @@ El [curso de 24 vídeos](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icI
 
 Puede descargar y configurar un kit para ampliar conocimientos, que consta del contenido de la presentación y de ocho laboratorios prácticos:
 
-1. Use [este vínculo](https://aka.ms/priad-student) para descargar el kit para ampliar conocimientos (.zip) de forma local en el equipo.
-1. Abra las propiedades del archivo y active "desbloquear" (es posible que Windows marque el archivo como potencialmente no de confianza).
-1. Extraiga el contenido del archivo en una carpeta del sistema de archivos. Se recomienda crear una carpeta fácil de encontrar, por ejemplo, **Entrenamiento**. Los documentos del laboratorio harán referencia a esta ubicación como **&lt;CourseFolder&gt;** .
+1. Use [este vínculo](https://aka.ms/priad-student) para descargar el kit para ampliar conocimientos (.zip) de forma local en el equipo (Windows 7 o posterior).
+1. Abra las propiedades del archivo .zip y active "desbloquear" (es posible que Windows marque el archivo como posiblemente no de confianza).
+1. Cree una carpeta raíz para el curso. Le recomendamos que le asigne un nombre similar a "C:\Curso". Recuerde esta ubicación, ya que tendrá que acceder a los archivos del curso durante los laboratorios. Los documentos de los laboratorios harán referencia a esta ubicación como **&lt;carpetaDelCurso&gt;** .
+1. Extraiga el contenido del archivo **PowerBIPRIAD-Student.zip** en la carpeta raíz del curso.
+1. En la carpeta **&lt;carpetaDelCurso&gt;\PowerBIPRIAD**, abra el archivo **ReadMe.txt** y siga las instrucciones de configuración.
 
-Después de la extracción, tendrá la carpeta **PowerBIPRIAD**, en la que encontrará las carpetas siguientes:
-
-- **Lab01A** (y todas las demás carpetas del laboratorio). Las carpetas del laboratorio contienen el documento y los recursos del laboratorio, que pueden incluir recursos y archivos de solución.
-- **MySolution**: esta carpeta almacena los archivos de la solución. Las instrucciones del laboratorio le indicarán cuándo usarlo.
-- **Presentation**: esta carpeta contiene el archivo de presentación del curso, disponible como documento PDF.
-
-### <a name="get-started-with-the-kit"></a>Introducción al kit
-
-Se recomienda ver primero el curso en línea. Puede volver a consultar la teoría de la presentación si abre el archivo **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf**. La presentación incluye ocho diapositivas de laboratorio, que indican cuándo es el momento de poner en práctica la teoría. También incluye muchos vínculos de recursos para ayudarle a encontrar contenido relacionado.
-
-Cuando esté listo para iniciar el primer laboratorio, abra el archivo **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Este documento le guía por el inicio de sesión en el servicio Power BI, la carga de un conjunto de datos y, después, la instalación del [Generador de informes de Power BI](https://aka.ms/pbireportbuilder).
+> [!TIP]
+> El archivo **ReadMe.txt**, los documentos de los laboratorios y el archivo de presentación (PDF) están disponibles en inglés y también en los ocho idiomas siguientes:
+> - Alemán (de-de)
+> - Español (es-ES)
+> - Francés (fr-FR)
+> - Italiano (it-IT)
+> - Japonés (ja-JP)
+> - Coreano (ko-KR)
+> - Portugués, Brasil (pt-BR)
+> - Chino, caracteres simplificados (zh-CN)
 
 > [!NOTE]
 > Su responsabilidad es tener una cuenta propia de Power BI. Si todavía no tiene una, vea [Registro en Power BI como usuario individual](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > Tendrá que iniciar sesión en Power BI para publicar un archivo de Power BI Desktop en un área de trabajo. El resultado de la publicación es un conjunto de datos que se usa como origen de datos de informe. No necesita una licencia de Power BI Pro ni una suscripción de Power BI Premium para usar un conjunto de datos como origen de datos de informe.
 >
-> Algunas tareas del laboratorio implican la publicación de un informe paginado en un área de trabajo. Solo se puede abrir un informe paginado cuando se guarda en un área de trabajo de [capacidad dedicada](../admin/service-premium-what-is.md#dedicated-capacities), que tiene habilitada la carga de trabajo de informes paginados. Si no tiene acceso a un área de trabajo adecuada, se le proporcionará un vínculo para ver un vídeo en el que se muestra la publicación del informe en su lugar.
+> Algunas tareas del laboratorio implican la publicación de un informe paginado en un área de trabajo. Solo se puede abrir un informe paginado cuando se guarda en un área de trabajo de [capacidad dedicada](../admin/service-premium-what-is.md#dedicated-capacities), que tiene habilitada la carga de trabajo de informes paginados. Si no tiene acceso a un área de trabajo adecuada, en el laboratorio se le proporcionará un vínculo para ver un vídeo en el que se muestra la publicación del informe en su lugar.
 
 ## <a name="instructor-kit"></a>Kit de instructor
 

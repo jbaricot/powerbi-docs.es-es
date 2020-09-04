@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 72e7550666960948ff3a3155a328613c95fcf43f
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702683"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040210"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportación de informes de Power BI a PDF
 
@@ -35,6 +35,8 @@ En el servicio Power BI, seleccione un informe para mostrarlo en el lienzo. Tamb
     Aparece una ventana emergente en la que tiene la opción de seleccionar los **Valores actuales** o los **Valores predeterminados**. Los **valores actuales** exportan el informe en el estado actual, lo que incluye los cambios activos que haya realizado en los valores de filtro o segmentación. La mayoría de los usuarios seleccionan esta opción. Como alternativa, al seleccionar **Valores predeterminados** se exporta el informe en su estado original, como lo haya compartido el *diseñador*, y no se reflejan los cambios que haya realizado en ese estado original.
     
     Además, hay una casilla para seleccionar si se quieren exportar o no las pestañas ocultas de un informe. Seleccione esta casilla si solo quiere exportar las pestañas del informe que son visibles para usted en el explorador. Si prefiere incluir todas las pestañas ocultas como parte de la exportación, puede dejar desactivada esta casilla. Si la casilla aparece atenuada, significa que no hay ninguna pestaña oculta en el informe. Seleccione **Exportar** para continuar cuando haya realizado las selecciones.
+    
+    También puede optar por exportar solo la página que esté viendo de un informe activando la opción "Exportar solo la página actual".  De forma predeterminada, esta opción está desactivada y se exportarán todas las páginas del informe.
     
     En la esquina superior derecha se muestra una barra de progreso. La exportación puede tardar unos minutos. Puede continuar trabajando en Power BI mientras se exporta el informe.
 

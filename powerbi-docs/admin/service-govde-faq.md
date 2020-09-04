@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f7130b1565c85d8e18188c89c22dda3eda193018
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 9c5c430c09550ba9739c038aabb0dece5d88b1e1
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702637"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092346"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Preguntas más frecuentes sobre Power BI para clientes en la nube de Alemania
 El **servicio Power BI** tiene una versión disponible para los clientes de la Unión Europea o pertenecientes al Acuerdo Europeo de Libre Comercio (UE/AELC) a la que a menudo se hace referencia como Microsoft Cloud Deutschland (MCD). La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la UE/AELC y es distinta de la versión comercial del **servicio Power BI** o de los servicios Power BI proporcionados a clientes gubernamentales.
@@ -65,7 +65,7 @@ Las siguientes preguntas y respuestas proporcionan información importante para 
 | Inicio de sesión directo en el servicio Power BI |[https://app.powerbi.de/?noSignUpCheck=1](https://app.powerbi.de/?noSignUpCheck=1) |[https://app.powerbi.com/?noSignUpCheck=1](https://app.powerbi.com/?noSignUpCheck=1) |
 | API de servicio |[https://api.powerbi.de/](https://api.powerbi.de/) |[https://api.powerbi.com/](https://api.powerbi.com/) |
 | Portal de Office para la administración de licencias de usuario, estado de mantenimiento del servicio y solicitudes de soporte técnico por parte de administradores |[https://portal.office.de/](https://portal.office.de/) |[https://portal.office.com/](https://portal.office.com/) |
-| URI de autoridad de AAD |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
+| URI de Azure Active Directory Authority |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
 | URI de recurso del servicio Power BI |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) | |
 | Biblioteca de objetos visuales de Power BI |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | Registrar una aplicación para Power BI (para Embedded) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
@@ -75,6 +75,6 @@ Las siguientes preguntas y respuestas proporcionan información importante para 
 ## <a name="next-steps"></a>Pasos siguientes
 Se puede hacer todo tipo de cosas con Power BI. Para obtener más información, incluido un artículo en el que se muestra cómo registrarse en el servicio, consulte los recursos siguientes:
 
-* [Aprendizaje guiado de Power BI](../guided-learning/index.yml)
+* [Aprendizaje guiado de Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Introducción al servicio Power BI](../fundamentals/service-get-started.md)
 * [¿Qué es Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)

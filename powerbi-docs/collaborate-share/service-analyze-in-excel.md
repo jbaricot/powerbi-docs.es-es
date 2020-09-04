@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952771"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937502"
 ---
 # <a name="analyze-in-excel"></a>Analizar en Excel
 Con **Analizar en Excel**, puede traer conjuntos de datos de Power BI a Excel y luego verlos e interactuar con ellos a través de tablas dinámicas, gráficos, segmentaciones y otras características de Excel. Para usar **Analizar en Excel**, primero debe descargar la característica desde Power BI, instalarla y, luego, seleccionar uno o varios conjuntos de datos para usarlos en Excel. 
@@ -44,7 +44,7 @@ Una vez que inicie sesión y el servicio Power BI se ejecute en el explorador, 
 
 También puede navegar en el servicio Power BI a un conjunto de datos que quiera analizar y seleccionar el elemento **Más opciones** para un conjunto de datos, un informe u otro elemento de Power BI. En el menú que aparece, seleccione la opción **Analizar en Excel**, tal como se muestra en la imagen siguiente.
 
-![Analizar en Excel](media/service-analyze-in-excel/analyze-excel-01.png)
+![Analizar en Excel desde un conjunto de datos](media/service-analyze-in-excel/analyze-excel-01.png)
 
 En cualquier caso, Power BI detecta si tiene instalado Analizar en Excel y, si no es así, se le pedirá que lo descargue. 
 
@@ -56,7 +56,7 @@ Cuando selecciona Descargar, Power BI detecta la versión de Excel que tiene in
 
 Una vez finalizada la descarga, ejecute el instalador (.msi) para instalar Analizar en Excel. El nombre del proceso de instalación no es Analizar en Excel, sino que será **Proveedor OLE DB de Microsoft Analysis Services**, tal como se muestra en la imagen siguiente, o un nombre similar.
 
-![Instalación de actualizaciones](media/service-analyze-in-excel/analyze-excel-05.png)
+![Actualizaciones que instalan el proveedor OLE DB de Analysis Services](media/service-analyze-in-excel/analyze-excel-05.png)
 
 Una vez que se complete el proceso, estará listo para seleccionar un informe en el servicio Power BI (u otro elemento de datos de Power BI, como un conjunto de datos) y, luego, analizarlo en Excel.
 
@@ -81,6 +81,9 @@ En el servicio Power BI, navegue hasta el conjunto de datos o el informe que qu
 
     El nombre de archivo coincide con el conjunto de datos (o informe u otro origen de datos) del que se deriva. Por tanto, si el nombre del informe es *Informe trimestral*, el archivo descargado será **Informe trimestral.xlsx**.
 
+    >[!Note]
+    >Analizar en Excel ahora descarga un archivo de Excel en lugar de un archivo ODC. De esta forma, se protegen los datos exportados desde Power BI. El archivo de Excel descargado hereda la etiqueta de confidencialidad del conjunto de archivos elegido para Analizar en Excel.
+
 3. Abra el archivo de Excel.
 
     >[!NOTE]
@@ -90,7 +93,7 @@ En el servicio Power BI, navegue hasta el conjunto de datos o el informe que qu
     >
     >![Captura de pantalla del banner Habilitar contenido de Documento de confianza](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
 
-## <a name="use-excel-to-analyze-the-data"></a>Uso de Excel para analizar los datos
+## <a name="use-excel-to-analyze-the-data"></a>Usar Excel para analizar los datos
 
 Una vez que haya habilitado la edición y el contenido, Excel le presentará una **tabla dinámica** vacía y una lista de **campos** del conjunto de datos de Power BI listos para su análisis.
 

@@ -6,15 +6,15 @@ ms.reviewer: maggie.tsang
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 08/25/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc5cba8953a527e87768815759a14dd8f2cf7ee1
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 6e1850e281c58bd89597af2bbd9ade0a769071ae
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537858"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040256"
 ---
 # <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>Copia de un objeto visual como imagen en el portapapeles
 
@@ -35,15 +35,15 @@ Cuando se copia una imagen estática de un objeto visual, se obtiene una copia d
 
 2. En la esquina superior derecha del objeto visual, seleccione **Más acciones (…)** y elija **Copiar objeto visual como imagen**. 
 
-    ![Icono "Copiar objeto visual como imagen" resaltado](media/end-user-copy-paste/power-bi-copy-dashboard.png)
+    ![Opción Copiar objeto visual como imagen en el menú desplegable](media/end-user-copy-paste/power-bi-copy-dashboard.png)
 
 3. Cuando aparezca el cuadro de diálogo **El objeto visual ya se puede copiar**, seleccione **Copiar al portapapeles**.
 
     ![Cuadro de diálogo con la opción "Copiar al portapapeles"](media//end-user-copy-paste/power-bi-copied.png)
 
-4. Una vez copiado el objeto visual, péguelo en otra aplicación mediante **Ctrl+V** o haga clic con el botón derecho y seleccione Pegar. En la siguiente captura de pantalla, hemos pegado el objeto visual en Microsoft Word. 
+4. Una vez copiado el objeto visual, péguelo en otra aplicación mediante **Ctrl+V** o haga clic con el **botón derecho** > **Pegar**. En la siguiente captura de pantalla, hemos pegado el objeto visual en Microsoft Word. 
 
-    ![Objeto visual pegado en Word](media//end-user-copy-paste/power-bi-paste-word.png)
+    ![objeto visual pegado en Microsoft Word](media//end-user-copy-paste/power-bi-paste-word.png)
 
 ### <a name="copy-from-a-report-visual"></a>Copia desde el objeto visual de un informe 
 
@@ -58,7 +58,7 @@ Cuando se copia una imagen estática de un objeto visual, se obtiene una copia d
     ![Cuadro de diálogo con la opción "Copiar al portapapeles"](media//end-user-copy-paste/power-bi-copied.png)
 
 
-4. Una vez copiado el objeto visual, péguelo en otra aplicación mediante **Ctrl+V** o haga clic con el botón derecho y seleccione Pegar. En la siguiente captura de pantalla, hemos pegado el objeto visual en un correo electrónico.
+4. Una vez copiado el objeto visual, péguelo en otra aplicación mediante **Ctrl+V** o haga clic con el **botón derecho** > **Pegar**. En la siguiente captura de pantalla, hemos pegado el objeto visual en un correo electrónico.
 
     ![Objeto visual pegado en Outlook](media//end-user-copy-paste/power-bi-copy-email.png)
 
@@ -82,7 +82,7 @@ R: Actualmente se admiten objetos visuales nativos de Power BI y objetos visual
 - ESRI y otros objetos visuales de mapa 
 - Objetos visuales de Python 
 - Objetos visuales de R 
-- PowerApps    
+- Objetos visuales de PowerApps   
 
 R: El departamento de TI o el administrador de Power BI pueden desactivar la opción para copiar un objeto visual.
 
@@ -94,6 +94,8 @@ R: Existen limitaciones para los objetos visuales personalizados y los objetos v
 
 ## <a name="next-steps"></a>Pasos siguientes
 Obtenga más información sobre [Visualizaciones en informes de Power BI](end-user-visual-type.md)
+
+Si tiene permisos de edición en un informe, puede [copiar y pegar objetos visuales en el mismo informe](../visuals/power-bi-visualization-copy-paste.md). 
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

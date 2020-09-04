@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 612c54a201c947309394c442ba8b8ec1ed567879
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229938"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937640"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Conexión a Power BI Premium Capacity Metrics
 La supervisión de las capacidades es esencial para tomar decisiones fundamentadas sobre el uso óptimo de los recursos de capacidad Premium. La aplicación Power BI Premium Capacity Metrics proporciona la información más detallada sobre el rendimiento de las capacidades.
@@ -63,6 +63,7 @@ Después de instalar la aplicación y conectarse a los orígenes de datos, puede
 1. En el cuadro de diálogo que se abre, establezca la diferencia horaria con UTC, es decir, la diferencia en horas entre la hora universal coordinada y la hora de la ubicación. A continuación, haga clic en **Siguiente**.
   
    ![Cuadro de diálogo de establecimiento de UTC de la aplicación Power BI Premium Capacity Metrics](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-setutc-dialog.png)
+   **Nota: El formato de media hora debe ser decimal (por ejemplo: 5,5, 2,5, etc.).**
 
 1. En el siguiente cuadro de diálogo que aparece, no tiene que hacer nada. Tan solo seleccione **Iniciar sesión**.
 

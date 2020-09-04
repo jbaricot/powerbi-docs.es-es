@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: ee51ea2bbca794730d35d1f21bc999adda3dcc98
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478162"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937548"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Supervisión de las métricas de uso en la nueva experiencia de área de trabajo (versión preliminar)
 
@@ -184,6 +184,10 @@ Cuando crea una copia del informe de uso precompilado de solo lectura, Power BI
 1. El nuevo informe se guarda en la pestaña Informes del área de trabajo actual y se agrega también a la lista de contenido reciente.
 
     ![El nuevo informe en la pestaña Informes](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-new-report.png)
+    
+> [!NOTE]
+> Cuando se guarda una copia del informe de métricas de uso, se trata como un informe de Power BI normal. Podrán acceder todos los usuarios que tengan permisos de visualización en el área de trabajo, incluidos los usuarios con el rol Visor.
+
 
 ### <a name="create-a-new-usage-report-in-power-bi-desktop"></a>Creación de un informe de uso en Power BI Desktop
 
@@ -242,7 +246,14 @@ Al conectarse a los datos de uso en Excel, puede crear tablas dinámicas que uti
 
 ## <a name="usage-metrics-in-national-clouds"></a>Métricas de uso en nubes nacionales
 
-Power BI está disponible en nubes nacionales independientes. Estas nubes ofrecen los mismos niveles de seguridad, privacidad, cumplimiento y transparencia que la versión global de Power BI, junto con un modelo único para la normativa local sobre la entrega de servicios, la residencia de datos, el acceso y el control. Dado que se trata de un modelo único para las regulaciones locales, las métricas de uso no están disponibles en las nubes nacionales. Para obtener más información, consulte el tema relativo a las [nubes nacionales](https://powerbi.microsoft.com/clouds/).
+Power BI está disponible en nubes nacionales independientes. Estas nubes ofrecen los mismos niveles de seguridad, privacidad, cumplimiento y transparencia que la versión global de Power BI, junto con un modelo único para la normativa local sobre la entrega de servicios, la residencia de datos, el acceso y el control. Actualmente, las métricas de uso modernas están disponibles en las siguientes nubes nacionales: 
+
+- Nube de comunidad del gobierno de EE. UU.
+- Government Community Cloud High (EE. UU.)
+- Departamento de Defensa de Estados Unidos
+- China
+
+Para obtener más información, consulte el tema relativo a las [nubes nacionales](https://powerbi.microsoft.com/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 

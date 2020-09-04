@@ -8,15 +8,15 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 9dface817b9ec5421ba9ea93abb8037e3e70029d
-ms.sourcegitcommit: 4130e5e6947b809df628370cc80c00194243468d
+ms.openlocfilehash: 08294e1320e603131beb0ca332b0f85ee51ea8bb
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88857791"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937571"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI en Power BI Report Server
-Los informes de Power BI pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services. Algunos orígenes de datos se admiten en Power BI Desktop optimizados para Power BI Report Server, pero no están optimizados para informes de Power BI publicados en Power BI Report Server. Consulte la lista siguiente para ver los orígenes de datos que se admiten en ambos lugares.
+Los informes de Power BI pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services. Algunos orígenes de datos están disponibles en Power BI Desktop optimizados para Power BI Report Server, pero no se admiten cuando se publican en Power BI Report Server.
 
 Estos orígenes de datos son específicos de los informes de Power BI que se utilizan en Power BI Report Server. Para obtener información acerca de los orígenes de datos compatibles con informes paginados (.dll), consulte [Orígenes de datos admitidos por Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 

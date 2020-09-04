@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/18/2020
+ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7a1fabd1c61219d7f195253a4384accfd2521d24
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236008"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040233"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Resúmenes de actualización de Power BI
 
@@ -60,6 +60,8 @@ La vista Programación es muy útil para determinar si los eventos de actualizac
 ![Vista Programación](media/refresh-summaries/refresh-summaries-02.jpg)
 
 La columna *Tiempo de actualización reservado (minutos)* es un cálculo del promedio de hasta 60 registros por conjunto de datos asociado. El valor numérico de cada franja horaria de 30 minutos es la suma de los minutos calculados para todas las actualizaciones programadas que se inician en la franja horaria **y** cualquier actualización programada establecida para iniciarse en la franja horaria *anterior*, pero cuya duración media se desborda en la franja horaria seleccionada.
+
+La columna *Tiempo de actualización disponible (minutos)* es un cálculo de los minutos disponibles de actualización en cada franja horaria menos cualquier actualización ya esté programada para esa franja horaria. Por ejemplo, si la suscripción P2 proporciona 12 actualizaciones que se ejecutan simultáneamente, tiene 12 franjas horarias de 30 minutos, por lo que 12 actualizaciones x 30 minutos cada una = 360 minutos disponibles de actualización en esa franja horaria. Si tiene una actualización reservada en esa franja horaria que tarda 20 minutos, el *tiempo de actualización disponible en minutos* para esa franja horaria es de 340 minutos (360 minutos disponible en total, menos 20 minutos ya reservados = 340 minutos aún disponibles). 
 
 Puede seleccionar una franja horaria y luego seleccionar el botón **Detalles** asociado para ver los eventos de actualización programada que contribuyen al tiempo de actualización que se reserva, sus propietarios y cuánto tiempo tardan en completarse.
 

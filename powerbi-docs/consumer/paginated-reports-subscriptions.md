@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 12/03/2019
-ms.openlocfilehash: 0e4a62cf6216af49ef61651dc310c93de41664b7
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/01/2020
+ms.openlocfilehash: 43b63da5a8107a2e30d729142e2d36f2a4f30c08
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538134"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286760"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes paginados en el servicio Power BI 
 
@@ -27,7 +27,7 @@ En la configuración de las suscripciones, elija la frecuencia con la que quiere
 
 - Puede incluir una imagen de vista previa del informe en el cuerpo del correo electrónico.  Esto es opcional y puede diferir ligeramente de la primera página del documento de informe adjunto, en función del formato de datos adjuntos seleccionado. 
 
-- El tamaño máximo de los datos adjuntos del informe es de 25 MB. 
+- El tamaño máximo de los datos adjuntos del informe es de 24 MB. 
 
 - Puede suscribir a otros usuarios a los informes paginados que se conecten a los orígenes de datos admitidos actualmente, incluidos los conjuntos de datos de Azure Analysis Services o Power BI. Tenga en cuenta que los datos adjuntos del informe reflejan los datos según sus permisos, igual que hace actualmente SQL Server Reporting Services. 
 
