@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 58eb9af4975c0afeb12a71a880711ddd73e64d50
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803493"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89402011"
 ---
 # <a name="deploy-to-power-bi"></a>Implementación en Power BI
 
@@ -87,7 +87,7 @@ Las actividades clave durante una implementación en el área de trabajo de prod
 
 - **Administración de cambios**: de ser necesario, obtenga la aprobación correspondiente para realizar la implementación; asimismo, comunique dicha implementación a la población de usuarios mediante sus prácticas estándar de administración de cambios. Puede que haya una ventana de administración de cambios aprobada durante la cual se permitan las implementaciones de producción. Normalmente, se aplica al contenido administrado por TI y, con mucha menos frecuencia, al contenido de autoservicio.
 - **Plan de reversión**: en el caso de una migración, la expectativa es que se trate de la migración de una nueva solución por primera vez. Si ya existe contenido, conviene tener un plan para efectuar una reversión a la versión anterior, en caso necesario. Tener versiones anteriores de los archivos de Power BI Desktop (con el control de versiones de SharePoint o OneDrive) funciona bien a tal efecto.
-- **Cadenas de conexión y parámetros**: ajuste las cadenas de conexión del conjunto de datos si el origen de datos difiere entre el entorno de prueba y de producción. Se puede usar la [parametrización](/connect-data/service-parameters.md) eficazmente a tal efecto.
+- **Cadenas de conexión y parámetros**: ajuste las cadenas de conexión del conjunto de datos si el origen de datos difiere entre el entorno de prueba y de producción. Se puede usar la [parametrización](../connect-data/service-parameters.md) eficazmente a tal efecto.
 - **Actualización de datos**: [programe la actualización del conjunto de datos](../connect-data/refresh-scheduled-refresh.md) para los valores importados.
 - **Contenido del área de trabajo**: publique conjuntos de datos e informes en el área de trabajo de producción, y cree paneles. Las [canalizaciones de implementación](../create-reports/deployment-pipelines-overview.md) pueden simplificar el proceso de implementación en áreas de trabajo de desarrollo, prueba y producción si el contenido se ha publicado en áreas de trabajo de capacidad Premium.
 - **Aplicación**: si las aplicaciones forman parte de la estrategia de distribución de contenido, publique una [aplicación](../consumer/end-user-apps.md) mediante el contenido del área de trabajo de producción.

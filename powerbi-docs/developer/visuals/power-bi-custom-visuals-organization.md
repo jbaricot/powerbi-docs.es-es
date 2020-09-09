@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278822"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401965"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Objetos visuales de la organización en Power BI
 
@@ -32,7 +32,7 @@ Para obtener más información sobre cómo utilizar los objetos visuales de Powe
 
 ## <a name="administer-organizational-power-bi-visuals"></a>Administración de objetos visuales de Power BI de la organización
 
-Para obtener más información sobre cómo administrar, implementar y administrar objetos visuales de Power BI de la organización, consulte el siguiente artículo: [Obtenga información sobre implementación y administración de objetos visuales de Power BI de organización](https://go.microsoft.com/fwlink/?linkid=866790).
+Para obtener más información sobre cómo administrar, implementar y administrar objetos visuales de Power BI de la organización, consulte el siguiente artículo: [Obtenga información sobre implementación y administración de objetos visuales de Power BI de organización](../../admin/organizational-visuals.md).
 
 > [!WARNING]
 > Un objeto visual de Power BI instalado desde un archivo puede contener código con riesgos para la seguridad o la privacidad. Asegúrese de que confía en el autor y el origen de cualquier archivo de objeto visual de Power BI antes de implementarlo en el repositorio de la organización.

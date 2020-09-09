@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 29b821dc44f7eacb07f0df31100df2ff837c2189
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 60a22946ccde642987e748904d0dc7fe636ec700
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803391"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401988"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Recopilación de requisitos para migrar a Power BI
 
@@ -67,7 +67,7 @@ Compile información detallada relativa a los datos, como:
 - **Necesidades de estructura de datos y limpieza:** determine la estructura de datos de cada origen de datos necesario y en qué medida se necesitan actividades de [limpieza de datos](../transform-model/desktop-query-overview.md).
 - **Integración de datos:** evalúe cómo se va a controlar la integración de datos cuando haya varios orígenes de datos y cómo se pueden definir [relaciones](../transform-model/desktop-create-and-manage-relationships.md) entre cada tabla del modelo. Identifique elementos de datos específicos necesarios para simplificar el modelo y [reducir su tamaño](import-modeling-data-reduction.md).
 - **Latencia de datos aceptable:** determine las necesidades de latencia de datos de cada origen de datos. Estas van a influir en las decisiones sobre qué [modo de almacenamiento de datos](../transform-model/desktop-storage-mode.md) usar. También es importante conocer la frecuencia de actualización de datos de las tablas del modelo de importación.
-- **Volumen de datos y escalabilidad:** evalúe las expectativas de volumen de datos, que van a influir en las decisiones sobre la [compatibilidad con modelos grandes](/admin/service-premium-large-models.md) y el diseño de modelos DirectQuery o [modelos compuestos](../transform-model/desktop-composite-models.md). También es fundamental conocer las consideraciones relacionadas con las necesidades de datos históricos. En el caso de los conjuntos de datos de mayor tamaño, también es necesario determinar las reglas de [actualización incremental de datos](../admin/service-premium-incremental-refresh.md).
+- **Volumen de datos y escalabilidad:** evalúe las expectativas de volumen de datos, que van a influir en las decisiones sobre la [compatibilidad con modelos grandes](../admin/service-premium-large-models.md) y el diseño de modelos DirectQuery o [modelos compuestos](../transform-model/desktop-composite-models.md). También es fundamental conocer las consideraciones relacionadas con las necesidades de datos históricos. En el caso de los conjuntos de datos de mayor tamaño, también es necesario determinar las reglas de [actualización incremental de datos](../admin/service-premium-incremental-refresh.md).
 - **Medidas, KPI y reglas de negocio:** evalúe las necesidades de medidas, KPI y reglas de negocio. Van a afectar a las decisiones sobre dónde aplicar la lógica: en el conjunto de datos o en el proceso de integración de datos.
 - **Datos maestros y catálogo de datos:** considere si hay problemas en los datos maestros que requieran atención. Determine si la integración con un catálogo de datos empresariales es adecuada para mejorar la detectabilidad, el acceso a las definiciones o la generación de una terminología coherente aceptada por la organización.
 - **Seguridad y privacidad de los datos:** determine si hay alguna consideración de seguridad o de privacidad de datos específica para los conjuntos de datos, incluidos requisitos de [seguridad de nivel de fila](../admin/service-admin-rls.md).
