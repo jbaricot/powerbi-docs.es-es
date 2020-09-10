@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
+ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227433"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89443338"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Actualizaciones incrementales en Power BI
 
@@ -26,12 +26,11 @@ La actualización incremental permite usar conjuntos de datos muy grandes en Pow
 > * **Se reduce el consumo de recursos**: al haber menos datos que actualizar, se reduce el consumo total de memoria y de otros recursos.
 
 > [!NOTE]
-> Ahora, las actualizaciones incrementales están disponibles en Power BI Pro, Premium y en las suscripciones y conjuntos de datos compartidos. 
+> Ahora, las actualizaciones incrementales están disponibles para Power BI Pro, Premium y en las suscripciones y conjuntos de datos compartidos.
 
 ## <a name="configure-incremental-refresh"></a>Configuración de la actualización incremental
 
 Las directivas de actualización incremental se definen en Power BI Desktop y se aplican cuando se publican en el servicio Power BI.
-
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>Filtrar conjuntos de datos grandes en Power BI Desktop
 
@@ -99,18 +98,17 @@ En el texto del encabezado se explica lo siguiente:
 
 #### <a name="refresh-ranges"></a>Frecuencias de actualización
 
-En el ejemplo siguiente se define una directiva de actualización para almacenar los datos de cinco años naturales completos más los datos del año actual hasta la fecha de hoy y actualizar de forma incremental 10 días de datos. La primera operación de actualización carga los datos históricos. Las actualizaciones posteriores son incrementales y (si se han programado para ejecutarse a diario) realizan las operaciones siguientes:
+En el ejemplo siguiente se define una directiva de actualización para almacenar los datos de cinco años naturales completos más los datos del año actual hasta la fecha de hoy y actualizar de forma incremental 10 días completos de datos. La primera operación de actualización carga los datos históricos. Las actualizaciones posteriores son incrementales y (si se han programado para ejecutarse a diario) realizan las operaciones siguientes:
 
 - Se agrega un nuevo día de datos.
 
-- Se actualizan 10 días hasta la fecha actual.
+- Se actualizan 10 días completos hasta la fecha actual.
 
 - Se quitan los años naturales con una antigüedad de más de cinco años con respecto a la fecha actual. Por ejemplo, si la fecha actual es el día 1 de enero de 2019, se quitará el año 2013.
 
 La primera actualización en el servicio Power BI puede tardar más en importar los cinco años naturales enteros, pero las siguientes finalizarán en un tiempo mucho menor.
 
 ![Frecuencias de actualización](media/service-premium-incremental-refresh/refresh-ranges.png)
-
 
 #### <a name="current-date"></a>Fecha actual
 

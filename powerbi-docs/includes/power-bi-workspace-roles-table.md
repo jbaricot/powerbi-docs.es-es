@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 07/24/2020
+ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 6a2fa7aca043c553c9174db81ff575853e526e06
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87260226"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512801"
 ---
 |Funcionalidad   | Administrador  | Miembro  | Colaborador  | Visor |
 |---|---|---|---|---|
@@ -36,7 +36,7 @@ ms.locfileid: "87260226"
 | Ver un elemento e interactuar con él.<sup>5</sup> |  ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  |
 | Leer los datos almacenados en los flujos de trabajo del área de trabajo | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) |
 
-<sup>1</sup> Los usuarios con el rol Colaborador pueden actualizar los metadatos de la aplicación, pero no publicar una nueva aplicación o cambiar quién tiene permiso para la aplicación, si el [administrador del área de trabajo delega este permiso a los colaboradores](../collaborate-share/service-create-the-new-workspaces.md#security-settings).
+<sup>1</sup> Los colaboradores pueden [actualizar la aplicación asociada al área de trabajo](../collaborate-share/service-create-the-new-workspaces.md#allow-contributors-to-update-the-app), si el administrador del área de trabajo delega este permiso en ellos. Sin embargo, no pueden publicar una nueva aplicación ni cambiar quién tiene permiso para ello.
 
 <sup>2</sup> Los usuarios con los roles Colaborador y Visor también pueden compartir elementos en un área de trabajo si tienen permisos para volver a compartir.
 
