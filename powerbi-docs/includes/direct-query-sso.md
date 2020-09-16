@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.topic: include
 ms.date: 04/28/2020
 ms.author: davidi
-ms.openlocfilehash: d56988986cfd994bb21c9bc25d024903719472cf
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ed87101fe7f5fadd24594d53bbd0ffb6f029faa4
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82255823"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90012877"
 ---
 ## <a name="single-sign-on"></a>Inicio de sesión único
 
@@ -26,3 +26,5 @@ Cuando se habilita la opción SSO y los usuarios acceden a informes creados sobr
 
 La opción SSO surte efecto en todos los conjuntos de datos que usan este origen de datos. No afecta el método de autenticación utilizado para los escenarios de importación.
 
+> [!Note]
+> No se admite Azure Multi-Factor Authentication (MFA). Los usuarios que quieran usar SSO con DirectQuery se deben excluir de MFA.

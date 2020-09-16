@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f0f2d57b1a60307cef2d848854355715dd74a412
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: b1f9dd6540707993696bddb4494fc73aa782d363
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537996"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008914"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Informes paginados en el servicio Power BI
 
@@ -97,5 +97,5 @@ Al suscribirse a un informe paginado, Power BI le enviará un correo electróni
 
 ## <a name="next-steps"></a>Pasos siguientes
 - [Informes de Power BI](end-user-reports.md)
+- [Informes paginados en Power BI: Preguntas frecuentes](../paginated-reports/paginated-reports-faq.md)
 - ¿Tiene más preguntas? Consulte la [Comunidad de Power BI](https://community.powerbi.com/).
-
