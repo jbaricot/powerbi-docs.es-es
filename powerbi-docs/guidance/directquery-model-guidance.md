@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 264d3f4a0c611ca01de627b7656584ceb60e7b18
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 89d911680d46e159e446dbcf6bd06e2caf4b6b65
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214522"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642627"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Instrucciones del modelo de DirectQuery en Power BI Desktop
 
@@ -127,7 +127,7 @@ Hay muchas mejoras funcionales y de rendimiento que se pueden lograr mediante la
 
 ## <a name="educate-users"></a>Educación de los usuarios
 
-Es importante educar a los usuarios sobre cómo trabajar de forma eficaz con los informes basados en conjuntos de datos de DirectQuery. Los autores de informes deben instruirse en el contenido que se describe en [Optimización de los diseños de informes](#optimize-report-designs section).
+Es importante educar a los usuarios sobre cómo trabajar de forma eficaz con los informes basados en conjuntos de datos de DirectQuery. Los autores de informes deben instruirse en el contenido que se describe en la sección [Optimización de los diseños de informes](#optimize-report-designs).
 
 Se recomienda educar a los consumidores del informe sobre los informes que se basan en conjuntos de datos de DirectQuery. Puede resultarles útil comprender la arquitectura de datos general, incluidas las limitaciones pertinentes que se describen en este artículo. Hágales saber que las respuestas de actualización y el filtrado interactivo pueden ser lentos en ocasiones. Cuando los usuarios de los informes entienden por qué se produce la degradación en el rendimiento, es menos probable que pierdan confianza en los informes y los datos.
 

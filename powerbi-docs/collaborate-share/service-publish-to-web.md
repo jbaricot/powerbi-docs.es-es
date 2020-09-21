@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216552"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642643"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -180,7 +180,7 @@ Debe [buscar a una de estas personas](https://docs.microsoft.com/office365/admin
 - [Conjuntos de datos certificados y compartidos](../connect-data/service-datasets-share.md).
 - Informes compartidos con usted directamente o a través de un paquete de contenido organizativo.
 - Informes en un área de trabajo en la que no es miembro de edición.
-- Los objetos visuales "R" no se admiten actualmente en informes de **Publicar en la web**.
+- Los objetos visuales de R y Python no se admiten actualmente en informes de **Publicar en la Web**.
 - Exportación de datos desde los objetos visuales de un informe que se ha publicado en la web.
 - Objetos visuales de ArcGIS Maps for Power BI.
 - Informes que contienen medidas DAX de nivel de informe.

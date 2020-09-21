@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2921ea9ff0e5e1fa6bc12c0ecd5dd047b703a937
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237633"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642300"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Administrar el origen de datos: Analysis Services
 
@@ -36,7 +36,7 @@ Para obtener información sobre cómo agregar un origen de datos, vea [Adición 
 Rellene la información del origen de datos, que incluye el **Servidor** y la **Base de datos**. La puerta de enlace usará la información escrita en **Nombre de usuario** y **Contraseña** para conectarse a la instancia de Analysis Services.
 
 > [!NOTE]
-> La cuenta de Windows que especifique debe tener permisos de administrador del servidor para la instancia con la que se va a conectar. Si la contraseña de la cuenta se configura para caducar, los usuarios podrían obtener un error de conexión si no se actualiza la contraseña para el origen de datos. Para más información sobre cómo se almacenan las credenciales, consulte [Almacenamiento de credenciales cifradas en la nube](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
+> La cuenta de Windows que especifique debe ser miembro del rol de administrador del servidor en la instancia de Analysis Services a la que se está conectando. Si la contraseña de la cuenta se configura para caducar, los usuarios podrían obtener un error de conexión si no se actualiza la contraseña para el origen de datos. Para más información sobre cómo se almacenan las credenciales, consulte [Almacenamiento de credenciales cifradas en la nube](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Rellene la configuración del origen de datos](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 

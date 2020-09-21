@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/04/2020
+ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: 7e321bd524dcb4915273627aec6cf487126e5e1d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: df9c1af29482a40b7e1dd7edbca0020b43e4f00f
+ms.sourcegitcommit: a0d56eeed12253e782e0a3eff8610f72a3ad5cb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235666"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90570918"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creación de una aplicación de plantilla en Power BI
 
-Las nuevas *aplicaciones de plantilla* de Power BI permiten a los asociados de Power BI crear aplicaciones de Power BI con poca o ninguna codificación, e implementarlas en cualquier cliente de Power BI.  Este artículo contiene instrucciones paso a paso para crear una aplicación de plantilla de Power BI.
+Las *aplicaciones de plantilla* de Power BI permiten a los asociados crear aplicaciones de Power BI sin tener que escribir código (o muy poco) e implementarlas en cualquier cliente de Power BI.  Este artículo contiene instrucciones paso a paso para crear una aplicación de plantilla de Power BI.
 
-Si puede crear paneles e informes de Power BI, puede convertirse en un *desarrollador de aplicaciones de plantilla* que compila y empaqueta contenido analítico en una *aplicación*. Puede implementar la aplicación en otros inquilinos de Power BI mediante cualquier plataforma disponible, como AppSource o bien usarla en un servicio web propio. Como desarrollador, tiene la posibilidad de crear un paquete de análisis protegido para su distribución.
+Si puede crear paneles e informes de Power BI, puede convertirse en un *desarrollador de aplicaciones de plantilla*, así como compilar y empaquetar contenido analítico en una *aplicación*. Puede implementar la aplicación en otros inquilinos de Power BI mediante cualquier plataforma disponible, como AppSource o bien usarla en un servicio web propio. Como desarrollador, puede crear un paquete de análisis protegido para su distribución.
 
 Los administradores de inquilinos de Power BI controlan quién de la organización puede crear aplicaciones de plantilla y quién puede instalarlas. Los usuarios autorizados pueden instalar la aplicación de plantilla y después modificarla y distribuirla a los consumidores de Power BI en la organización.
 
@@ -36,15 +36,13 @@ Estos son los requisitos para crear una aplicación la plantilla:
 
 Para crear una aplicación de plantilla que se pueda distribuir a otros inquilinos de Power BI, tendrá que crearla en una de las nuevas áreas de trabajo.
 
-1. En el servicio Power BI, haga clic en **Áreas de trabajo** > **Crear área de trabajo**.
+1. En el servicio Power BI, haga clic en **Áreas de trabajo** > **Crear un área de trabajo**.
 
     ![Crear área de trabajo](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. En **Crear un área de trabajo**, seleccione **Actualizar a nueva**.
+2. En **Crear un área de trabajo**, proporcione un nombre, una descripción (opcional) y un logotipo de imagen (opcional) para el área de trabajo.
 
     ![Prueba de las nuevas áreas de trabajo](media/service-template-apps-create/power-bi-upgrade-new.png)
-
-3. Proporcione un nombre, una descripción (opcional) y un logotipo de imagen (opcional) para el área de trabajo.
 
 4. Expanda la sección **Avanzado** y seleccione **Desarrollar una aplicación de plantilla**.
 
@@ -54,9 +52,9 @@ Para crear una aplicación de plantilla que se pueda distribuir a otros inquilin
 >[!NOTE]
 >Necesita permisos del administrador de Power BI para promocionar las aplicaciones de plantilla.
 
-## <a name="create-the-content-in-your-template-app"></a>Creación del contenido en la plantilla de aplicación
+## <a name="add-content-to-the-template-app-workspace"></a>Adición de contenido al área de trabajo de la aplicación de plantilla
 
-Como sucede con un área de trabajo estándar de Power BI, el siguiente paso consiste en crear el contenido en el área de trabajo.  
+Como sucede con un área de trabajo estándar de Power BI, el siguiente paso consiste en agregar contenido al área de trabajo.  
 
 - [Cree el contenido de Power BI](index.yml) en el área de trabajo de la aplicación.
 
@@ -64,15 +62,15 @@ Si va a usar parámetros en Power Query, asegúrese de que tengan tipos bien def
 
 En [Sugerencias para la creación de aplicaciones de plantilla en Power BI](service-template-apps-tips.md) se proporcionan sugerencias que puede tener en cuenta al crear informes y paneles para la aplicación de plantilla.
 
-## <a name="create-the-test-template-app"></a>Creación de la aplicación de plantilla de prueba
+## <a name="define-the-properties-of-the-template-app"></a>Definición de las propiedades de la aplicación de plantilla
 
 Ahora que tiene contenido en el área de trabajo, está listo para empaquetarlo en una aplicación de plantilla. El primer paso consiste en crear una aplicación de plantilla de prueba, accesible únicamente desde dentro de la organización en su inquilino.
 
-1. En el área de trabajo de plantilla, haga clic en **Crear aplicación**.
+1. En el área de trabajo de la aplicación de plantilla, haga clic en **Crear aplicación**.
 
-    ![Crear aplicación](media/service-template-apps-create/power-bi-create-app.png)
+    ![Creación de una aplicación](media/service-template-apps-create/power-bi-create-app.png)
 
-    Aquí, tendrá que rellenar opciones de creación adicionales para la aplicación de plantilla, en cinco categorías:
+    Aquí, tendrá que rellenar opciones de creación adicionales para la aplicación de plantilla, en seis pestañas:
 
     **Personalización de marca**
 
@@ -85,7 +83,7 @@ Ahora que tiene contenido en el área de trabajo, está listo para empaquetarlo 
 
     **Navegación**
 
-    Active el **Nuevo generador de navegación**, donde puede definir el panel de navegación de la aplicación (para más información, consulte [Diseño de la experiencia de navegación](../collaborate-share/service-create-distribute-apps.md#design-the-navigation-experience) en este artículo).
+    Active el **Nuevo generador de navegación**, donde puede definir el panel de navegación de la aplicación. Para obtener más información, consulte [Diseño de la experiencia de navegación](../collaborate-share/service-create-distribute-apps.md#design-the-navigation-experience) en este artículo.
 
    ![Configuración de la página de aterrizaje de la aplicación](media/service-template-apps-create/power-bi-install-app-content.png)
     
@@ -93,25 +91,54 @@ Ahora que tiene contenido en el área de trabajo, está listo para empaquetarlo 
 
     **Control**
 
-    Establezca las limitaciones y restricciones que tendrán los usuarios de la aplicación con el contenido de esta. Puede usar este control para proteger la propiedad intelectual que la aplicación pueda contener.
+    Establezca las limitaciones y las restricciones que tendrán los usuarios de la aplicación con el contenido de esta. Puede usar este control para proteger la propiedad intelectual que la aplicación pueda contener.
 
-    ![Controlar](media/service-template-apps-create/power-bi-create-control.png)
+    ![Control](media/service-template-apps-create/power-bi-create-control.png)
 
     >[!NOTE]
     >Siempre está bloqueada la exportación a formato .pbix para los usuarios que instalen la aplicación.
 
     **Parámetros**
 
-    Use esta categoría para administrar el comportamiento de los parámetros al conectarse a orígenes de datos. Más información sobre la [creación de parámetros de consulta](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/).
+    Los parámetros se crean en el archivo .pbix original; obtenga más información sobre la [creación de parámetros de consulta](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/). Las funcionalidades de esta pestaña se usan para ayudar al instalador de la aplicación a configurarla después de su instalación, cuando se conecta a sus datos.
+
+    Además, en esta pestaña, debe proporcionar un vínculo a la documentación de la aplicación.
 
     ![Parámetros](media/service-template-apps-create/power-bi-create-parameters.png)
-    - **Valor**: valor predeterminado del parámetro.
-    - **Requerido**: úselo para requerir al instalador la entrada de un parámetro específico del usuario.
-    - **Bloqueado**: el bloqueo impide que el instalador actualice un parámetro.
 
-    **Acceso**: en la fase de pruebas, decida qué otros usuarios de la organización pueden instalar y probar la aplicación. No se preocupe, siempre puede volver y cambiar estas opciones más adelante. La configuración no afecta al acceso de la aplicación de plantilla distribuida.
+    Cada parámetro tiene un nombre y una descripción, que proceden de la consulta, así como un campo de valor. Hay tres formas de obtener un valor para el parámetro durante la instalación.
 
-2. Haga clic en **Crear aplicación**.
+    * Puede requerir que el instalador escriba un valor. En este caso, debe proporcionar un ejemplo para que el instalador lo reemplace. Para configurar un parámetro de esta manera, active la casilla **Requerido** y proporcione un ejemplo en el cuadro de texto que muestre al usuario qué tipo de valor se espera. Por ejemplo:
+
+       ![Captura de pantalla del valor del parámetro que necesita introducir el usuario.](media/service-template-apps-create/power-bi-create-parameters-require-user.png)
+
+    * Puede proporcionar un valor rellenado previamente que no puede cambiar el usuario que instala la aplicación. Un parámetro configurado de esta manera está oculto para la persona que instala la aplicación. Solo debe usar este método si tiene la certeza de que el valor rellenado previamente es válido para todos los usuarios; de lo contrario, use el primer método mencionado anteriormente que requiere la intervención del usuario.
+
+       Para configurar un parámetro de esta manera, escriba el valor en el cuadro de texto **Valor** y, después, haga clic en el icono de candado. Esto hace que no se pueda modificar el valor. Por ejemplo:
+
+       ![Captura de pantalla del valor absoluto del parámetro.](media/service-template-apps-create/power-bi-create-parameters-absolute.png)
+
+    * Puede proporcionar un valor predeterminado que el usuario puede cambiar durante la instalación. Para configurar un parámetro de esta manera, escriba el valor predeterminado deseado en el cuadro de texto **Valor** y deje el icono de candado desbloqueado. Por ejemplo:
+
+      ![Captura de pantalla del valor de predeterminado del parámetro modificable.](media/service-template-apps-create/power-bi-create-parameters-default.png)
+
+    **Autenticación**
+    
+    En esta pestaña, seleccione el método de autenticación que se usará. Las opciones disponibles dependen de los tipos de orígenes de datos que se usan.
+
+    ![Captura de pantalla de la selección del método de autenticación.](media/service-template-apps-create/power-bi-create-authentication.png)
+
+    El nivel de privacidad se configura automáticamente:
+   * Origen de datos único: se configura automáticamente como privado.
+   * Origen de datos anónimo múltiple: se configura automáticamente como público.
+
+    **Acceder**
+    
+    En la fase de prueba, decida qué otros usuarios de su organización pueden instalar y probar la aplicación. No se preocupe, siempre puede volver y cambiar estas opciones más adelante. La configuración no afecta al acceso de la aplicación de plantilla distribuida.
+
+    ![Captura de pantalla de la pestaña acceso.](media/service-template-apps-create/power-bi-create-access.png)
+
+2. Seleccione **Crear aplicación**.
 
     Verá un mensaje que indica que la aplicación de prueba está lista, con un vínculo para copiar y compartir con los evaluadores de la aplicación.
 
@@ -123,7 +150,7 @@ Ahora que tiene contenido en el área de trabajo, está listo para empaquetarlo 
 
 Antes de publicar esta aplicación de plantilla, querrá asegurarse de que esté lista. Power BI ha creado el panel de administración de versiones, donde puede realizar el seguimiento e inspeccionar la ruta de versiones completa de la aplicación. También puede desencadenar la transición de una etapa a otra. Las fases comunes son:
 
-- Generar la aplicación de prueba: solo para realizar pruebas en la organización.
+- Generar la aplicación de prueba: para realizar pruebas solo en la organización.
 - Promover el paquete de prueba a la fase de preproducción: para realizar pruebas fuera de la organización.
 - Promover el paquete de preproducción a producción: la versión de producción.
 - Eliminar todos los paquetes o comenzar de nuevo desde la fase anterior.
@@ -136,29 +163,27 @@ A continuación se analizan las fases:
 
     ![Icono de Release Management](media/service-template-apps-create/power-bi-release-management-icon.png)
 
-2. Haga clic en **Crear aplicación**.
+2. Seleccione **Obtener vínculo** si anteriormente ha creado la aplicación en el paso de **creación de la aplicación de plantilla de prueba**; como resultado, el punto de color amarillo junto a **Pruebas** ya está rellenado.
 
-    Si anteriormente ha creado la aplicación de prueba en **Creación de la aplicación de plantilla de prueba**, el punto de color amarillo junto a **Pruebas** ya está rellenado y no es necesario hacer clic en **Crear aplicación** aquí. Si hace clic, retrocederá al proceso de creación de la aplicación de plantilla.
-
-3. Haga clic en **Obtener vínculo**.
+    Si aún no ha creado la aplicación, seleccione **Crear aplicación**. Esto le devuelve al proceso de creación de la aplicación de plantilla.
 
     ![Crear la aplicación, obtener el vínculo](media/service-template-apps-create/power-bi-dev-template-create-app-get-link.png)
 
 4. Para probar la experiencia de instalación de la aplicación, copie el vínculo de la ventana de notificación y péguelo en otra ventana del explorador.
 
-    Desde aquí, seguirá los mismos pasos que seguirán los clientes. Vea [Instalación y distribución de aplicaciones de plantilla en la organización](service-template-apps-install-distribute.md) para obtener su versión.
+    Desde aquí, seguirá los mismos pasos que seguirán los clientes. Consulte el artículo [Instalación y distribución de aplicaciones de plantilla en la organización](service-template-apps-install-distribute.md).
 
 5. En el cuadro de diálogo, haga clic en **Instalar**.
 
     Cuando la instalación se realice correctamente, verá una notificación en la que se indica que la nueva aplicación está lista.
 
-6. Haga clic en **Ir a la aplicación**.
+6. Seleccione **Ir a la aplicación**.
 7. En **Empezar a trabajar con la nueva aplicación**, verá la aplicación como la ven los clientes.
 
     ![Empezar a trabajar con la aplicación](media/service-template-apps-create/power-bi-template-app-get-started.png)
 8. Haga clic en **Explorar la aplicación** para comprobar la aplicación de prueba con los datos de ejemplo.
 9. Para realizar cambios, vuelva a la aplicación en el área de trabajo original. Actualice la aplicación de prueba hasta que esté satisfecho.
-10. Cuando esté listo para promover la aplicación al entorno de preproducción para realizar más pruebas fuera del inquilino, vuelva al panel **Administración de versiones** y seleccione **Promover aplicación**. 
+10. Cuando esté listo para promover la aplicación al entorno de preproducción para realizar más pruebas fuera del inquilino, vuelva al panel **Administración de versiones** y seleccione **Promover aplicación**.
 
     ![Promoción de la aplicación a preproducción](media/service-template-apps-create/power-bi-template-app-promote.png)
     >[!NOTE]

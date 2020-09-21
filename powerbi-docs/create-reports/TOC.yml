@@ -347,6 +347,8 @@
               href: ../paginated-reports/paginated-reports-create-embedded-dataset.md
             - name: "Crear un informe con un conjunto de datos compartido de Power\_BI"
               href: ../paginated-reports/report-builder-shared-datasets.md
+            - name: Descarga de un archivo .rdl para un informe paginado
+              href: ../paginated-reports/paginated-reports-download-rdl.md
             - name: Creación de parámetros
               href: ../paginated-reports/paginated-reports-parameters.md
             - name: Establecimiento de vistas de informe

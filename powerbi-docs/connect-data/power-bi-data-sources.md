@@ -6,22 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2020
+ms.date: 09/11/2020
 ms.author: davidi
-ms.openlocfilehash: ae4d51d9a40044ae939f5cb2b0b15442697df5fd
-ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
+ms.openlocfilehash: 926569e783dad7a97b91e2e5c1752401d21d6612
+ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88764960"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90084062"
 ---
 # <a name="power-bi-data-sources"></a>Orígenes de datos de Power BI
 
 En la tabla siguiente se muestran los orígenes de datos que admite Power BI para los conjuntos de datos, incluida información sobre DirectQuery y la puerta de enlace de datos local. Para más información sobre los flujos de datos, consulte [Conectarse a orígenes de datos de flujos de datos de Power BI](../transform-model/service-dataflows-data-sources.md).
-
-> [!NOTE]
-> Hay muchos conectores de datos para Power BI Desktop que requieren Internet Explorer 10 (o posterior) para la autenticación. 
-
 
 | Origen de datos | Conexión desde el Escritorio | Conexión y actualización desde el servicio | DirectQuery/Conexiones dinámicas | Puerta de enlace (compatible) | Puerta de enlace (obligatoria) |
 |---|---|---|---|---|---|---|---|
@@ -129,7 +125,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Sybase | Sí | Sí | No | Sí | Sí |
 | TeamDesk | Sí | Sí | No | Sí | No |
 | Tenforce | Sí | Sí | No | No | No |
-| Teradatos | Sí | Sí | Sí | Sí | Sí |
+| Teradata | Sí | Sí | Sí | Sí | Sí |
 | Texto o CSV | Sí | Sí | No | Sí | No <sup>4</sup> |
 | Twilio | Sí | Sí | No | No | No |
 | tyGraph | Sí | Sí | No | No | No |
@@ -156,6 +152,11 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 <sup>7</sup> El servicio Power BI no es compatible con las fuentes de OData que requieren autenticación.
 
 <sup>8</sup> Paxata se admite en la versión de Power BI Desktop optimizada para Power BI Report Server. No se admite en los informes de Power BI publicados en Power BI Report Server. Para ver una lista de los orígenes de datos admitidos, consulte [Orígenes de datos de los informes de Power BI en Power BI Report Server](../report-server/data-sources.md).
+
+## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
+
+- Muchos conectores de datos para Power BI Desktop requieren Internet Explorer 10 (o una versión posterior) para la autenticación. 
+- Algunos orígenes de datos están disponibles en Power BI Desktop optimizados para Power BI Report Server, pero no se admiten cuando se publican en Power BI Report Server. Para ver una lista de los orígenes de datos admitidos, consulte [Orígenes de datos de los informes de Power BI en Power BI Report Server](../report-server/data-sources.md).
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Inicio de sesión único (SSO) para orígenes de DirectQuery
 

@@ -78,9 +78,11 @@
           href: service-admin-azure-ad-b2b.md
         - name: "Administración del formulario de inicio de sesión de Power\_BI Desktop"
           href: desktop-admin-sign-in-form.md
-        - name: Protección de datos
+        - name: Protección de los datos
           items:
-            - name: "Etiquetas de confidencialidad en Power\_BI"
+            - name: "Protección de datos en Power\_BI"
+              href: service-security-data-protection-overview.md
+            - name: Información general sobre etiquetas de confidencialidad
               href: service-security-sensitivity-label-overview.md
             - name: Habilitación de etiquetas de confidencialidad
               href: service-security-enable-data-sensitivity-labels.md
@@ -143,7 +145,7 @@
           href: service-admin-power-bi-security.md
         - name: Niveles de privacidad
           href: desktop-privacy-levels.md
-    - name: Solución de problemas
+    - name: Solucionar problemas
       items:
         - name: ¿No puede iniciar sesión?
           href: power-bi-cannot-sign-in.md

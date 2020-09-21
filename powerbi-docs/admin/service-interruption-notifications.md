@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/11/2020
+ms.date: 09/09/2020
 ms.author: kfollis
-ms.openlocfilehash: 43d78710e4b60ed57ac46f713ce7bc787e852f26
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 89619a20f2fcf8510825b0234b90be5b2ff92e11
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485493"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642284"
 ---
 # <a name="service-interruption-notifications"></a>Notificaciones de interrupción del servicio
 
@@ -40,7 +40,7 @@ El correo electrónico de notificación proporciona información sobre el motivo
 
 * Id. del conjunto de datos del responsable
 * Tipo de operación
-* Tiempo de CPU asociado al uso elevado de recursos
+* Tiempo de CPU asociado al uso elevado de recursos. Esta es la [definición de tiempo de CPU](https://wikipedia.org/wiki/CPU_time) en Wikipedia.
 
 Power BI también envía notificaciones por correo electrónico cuando se detecta una sobrecarga en una capacidad de Power BI Premium. El correo electrónico explica el motivo más probable de la sobrecarga, las operaciones que han generado la carga en los 10 minutos anteriores y la carga de cada operación generada. 
 

@@ -5,14 +5,14 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/21/2020
+ms.date: 09/09/2020
 ms.author: maggies
-ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 7b02e1b1fb49eb1c43b12d204250eabec8eafe91
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937594"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642338"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Limitaciones de Preguntas y respuestas de Power BI
 
@@ -31,12 +31,17 @@ Preguntas y respuestas de Power BI admite las siguientes configuraciones de or�
 
 En cada una de estas configuraciones, también se admite la seguridad en el nivel de fila.
 
+**Compatibilidad con DirectQuery para Preguntas y respuestas** (versión preliminar)
+
+Preguntas y respuestas ahora es compatible con orígenes de DirectQuery de SQL, incluidos SQL Server 2019, Azure SQL Database y Azure Synapse Analytics. Puede usar Preguntas y respuestas para formular preguntas en lenguaje natural en estos orígenes de datos. Hay un pequeño cambio en el comportamiento de Preguntas y respuestas cuando está en el modo DirectQuery: Después de escribir una pregunta, haga clic en el botón **Enviar**. Este cambio evita que se sobrecargue el origen de DirectQuery con consultas innecesarias a medida que escribe.
+
+No se admiten otros orígenes de DirectQuery para Preguntas y respuestas. No se bloquea Preguntas y respuestas si tiene otros orígenes de DirectQuery en el conjunto de datos, pero es posible que algunas preguntas no se respondan correctamente o que devuelvan errores.
+
 ### <a name="data-sources-not-supported"></a>Orígenes de datos no compatibles
 
 Preguntas y respuestas de Power BI no admite actualmente las siguientes configuraciones:
 
 - Seguridad en el nivel de objeto con cualquier tipo de origen de datos.
-- DirectQuery con cualquier origen. Una solución alternativa es usar Live Connect con Azure Analysis Services, que usa DirectQuery.
 - Modelos compuestos
 - Reporting Services 
 

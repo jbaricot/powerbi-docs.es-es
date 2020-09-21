@@ -10,12 +10,12 @@ ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e819902328f49ab06a65869066ab2b2dabce6610
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: f6527b326c2c779dda5a6d4b1c1276c84d3ec320
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490459"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642810"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -253,21 +253,9 @@ Cuando está habilitado, los grupos de Office 365 recién creados no se mostrar
 
 ### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>Permiso a usuarios invitados de Azure Active Directory para acceder a Power BI
 
-La habilitación de esta configuración permite a los usuarios invitados de Azure Active Directory Business-to-Business (Azure AD B2B) tener acceso a Power BI. Al deshabilitar esta configuración, los usuarios invitados reciben un error al intentar acceder a Power BI. Cuando se deshabilita esta configuración para toda la organización, también se impide a los usuarios que inviten a invitados a su organización y que asignen permisos a cada uno de los usuarios individuales. Use la opción de grupos de seguridad específicos para controlar qué usuarios invitados pueden acceder a Power BI.
+La habilitación de esta configuración permite a los usuarios invitados de Azure Active Directory Business-to-Business (Azure AD B2B) tener acceso a Power BI. Al deshabilitar esta configuración, los usuarios invitados reciben un error al intentar acceder a Power BI. Cuando se deshabilita esta configuración para toda la organización, también se impide a los usuarios que inviten a otras personas a su organización. Use la opción de grupos de seguridad específicos para controlar qué usuarios invitados pueden acceder a Power BI.
 
 ![Permiso a usuarios invitados de Azure Active Directory para acceder a Power BI](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
-
-### <a name="allow-giving-permissions-to-existing-azure-active-directory-guest-users"></a>Permiso para conceder permisos a usuarios invitados de Azure Active Directory existentes
-
-Cuando está habilitada, los usuarios de su organización pueden conceder permiso a cada uno de los usuarios invitados a través de los permisos o el uso compartido de experiencias en Power BI. Cuando se deshabilita para un usuario, no puede asignar permisos ni invitar a usuarios invitados a Power BI.
-
-![Permiso para conceder permisos a usuarios invitados de Azure Active Directory existentes](media/service-admin-portal/powerbi-admin-allow-grant-access-to-aad-b2b-guests.png)
-
-
-> [!IMPORTANT]
->  Esta configuración no impide que se asignen permisos a los usuarios invitados en todos los casos. La configuración solo impide el acceso a usuarios invitados individuales. Todavía se puede conceder acceso a los usuarios invitados a través de un grupo de usuarios, como en el caso de la seguridad, los grupos de Office 365 o las listas de distribución. 
-
-Cuando un usuario que no tiene permiso para conceder permisos a los usuarios invitados intenta hacerlo, verá un mensaje de error en la interfaz de usuario. Además, al cambiar los permisos de un elemento, los usuarios no autorizados para conceder permisos a los invitados deben quitar a los usuarios invitados de la lista de acceso antes de que puedan conceder o cambiar los permisos para el elemento. 
 
 ### <a name="invite-external-users-to-your-organization"></a>Invitación de usuarios externos a su organización 
 
@@ -279,8 +267,6 @@ La configuración de **Invitar a usuarios externos a la organización** ayuda a 
 > Esta configuración se llamaba anteriormente "Compartir contenido con usuarios externos". El nombre revisado refleja con más precisión el resultado de la configuración.
 
 Para invitar a usuarios externos a su organización, un usuario también necesita el rol de invitador de Azure Active Directory. Esta configuración solo controla la capacidad de invitar a través de Power BI. 
-
-Cuando la configuración **Permiso para conceder permisos a los usuarios invitados de Azure Active Directory existentes** está deshabilitada para un usuario, tampoco puede invitar a usuarios externos a la organización a través de Power BI.
 
 ### <a name="publish-to-web"></a>Publicar en Web
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: de5ab7b75967e752615bf7415c81ba7bb18c1a80
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: 492ff2c21d285cba37f1bbf631869c84eafe4dc3
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364063"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008569"
 ---
 # <a name="what-is-power-bi-premium"></a>¿Qué es Power BI Premium?
 
@@ -205,7 +205,7 @@ Aunque las restricciones de memoria y tiempo por consulta son mucho mayores en l
 
 ## <a name="incremental-refresh"></a>Actualización incremental
 
-La actualización incremental proporciona una parte integral de la presencia y el mantenimiento de grandes conjuntos de datos en Power BI Premium. La actualización incremental tiene muchas ventajas, por ejemplo, las actualizaciones son más rápidas porque solo hay que actualizar los datos que hayan cambiado. Las actualizaciones son más confiables, ya que no es necesario mantener conexiones de larga duración a orígenes de datos volátiles. Se reduce el consumo de recursos porque, al haber menos datos que actualizar, se reduce el consumo total de memoria y de otros recursos. Las directivas de actualización incremental se definen en **Power BI Desktop** y se aplican cuando se publican en un área de trabajo de una capacidad Premium. 
+La actualización incremental proporciona una parte integral de la presencia y el mantenimiento de grandes conjuntos de datos en Power BI Premium y Power BI Pro. La actualización incremental tiene muchas ventajas, por ejemplo, las actualizaciones son más rápidas porque solo hay que actualizar los datos que hayan cambiado. Las actualizaciones son más confiables, ya que no es necesario mantener conexiones de larga duración a orígenes de datos volátiles. Se reduce el consumo de recursos porque, al haber menos datos que actualizar, se reduce el consumo total de memoria y de otros recursos. Las directivas de actualización incremental se definen en **Power BI Desktop** y se aplican cuando se publican en un área de trabajo de una capacidad Premium. 
 
 ![Detalles de la actualización](media/service-premium-incremental-refresh/refresh-details.png)
 

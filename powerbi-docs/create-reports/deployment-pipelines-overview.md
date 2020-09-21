@@ -6,19 +6,19 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: 5522d84cab235270a2eb368be02cfa0fb4e5eaa9
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.date: 09/09/2020
+ms.openlocfilehash: 3994a5cdad4d80c87d4153ffe57af685d7a21d36
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557150"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008592"
 ---
 # <a name="introduction-to-deployment-pipelines-preview"></a>Introducción a las canalizaciones de implementación (versión preliminar)
 
 En el mundo actual, una parte fundamental de la toma de decisiones en casi todas las organizaciones es el análisis. El creciente uso de Power BI como herramienta de análisis exige que utilice más datos, tenga una apariencia atractiva y sea fácil de usar. No obstante, por encima de todo, Power BI debe estar siempre disponible y ser confiable. Para cumplir estos requisitos, los creadores de BI deben colaborar de forma eficaz.
 
-Las canalizaciones de implementación son una herramienta eficaz y reutilizable que permite a los creadores de BI de una empresa con capacidad Premium administrar el ciclo de vida del contenido de la organización. Así, pueden desarrollar y probar contenido de Power BI, como informes, paneles y conjuntos de datos antes de que los consuman los usuarios finales.
+La herramienta de canalizaciones de implementación permite a los creadores de BI administrar el ciclo de vida del contenido de la organización. Se trata de una herramienta eficaz y que pueden reutilizar los creadores de una empresa con capacidad Premium. Esta herramienta permite a los creadores desarrollar y probar contenidos en Power BI antes de que los usuarios los consuman. Los tipos de contenido incluyen informes, paneles y conjuntos de datos.
 
 La herramienta está diseñada como una canalización con tres fases:
 
@@ -28,7 +28,7 @@ La herramienta está diseñada como una canalización con tres fases:
 
 * **<a name="test"></a>Prueba**
 
-    Una vez cargado el contenido y que se han realizado todos los cambios en la fase de desarrollo, el contenido se puede trasladar a esta fase para llevar a cabo pruebas con él. A continuación, se muestran tres ejemplos de lo que se puede hacer en el entorno de prueba:
+    Después de realizar todos los cambios en el contenido, ya puede entrar en la fase de prueba. Cargue el contenido modificado para que se pueda trasladar a esta fase de prueba. A continuación, se muestran tres ejemplos de lo que se puede hacer en el entorno de prueba:
 
     * Compartir contenido con evaluadores y revisores
 
