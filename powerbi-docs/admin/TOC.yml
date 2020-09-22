@@ -133,7 +133,7 @@
         - name: 'PowerShell, API de REST y SDK de .NET'
           href: service-admin-reference.md
         - name: Cmdlets de Power BI para PowerShell
-          href: 'https://docs.microsoft.com/powershell/power-bi/'
+          href: /powershell/power-bi/
           maintainContext: true
         - name: Referencia de la dirección URL del servicio
           href: power-bi-whitelist-urls.md
@@ -145,7 +145,7 @@
           href: service-admin-power-bi-security.md
         - name: Niveles de privacidad
           href: desktop-privacy-levels.md
-    - name: Solucionar problemas
+    - name: Solución de problemas
       items:
         - name: ¿No puede iniciar sesión?
           href: power-bi-cannot-sign-in.md

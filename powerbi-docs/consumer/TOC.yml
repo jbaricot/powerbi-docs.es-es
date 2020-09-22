@@ -11,7 +11,7 @@
           href: end-user-basic-concepts.md
         - name: "Paseo por el servicio Power\_BI"
           href: end-user-reading-view.md
-    - name: Comenzar
+    - name: Introducción
       expanded: true
       items:
         - name: Obtener información básica sobre Power BI
@@ -30,7 +30,7 @@
           href: service-new-look.md
         - name: 'El nuevo aspecto: ¿Dónde están ahora las acciones?'
           href: service-new-look-where-actions.md
-    - name: Procedimiento
+    - name: Procedimientos
       items:
         - name: Paneles
           items:
@@ -137,7 +137,7 @@
             - name: Instalar y usar aplicaciones
               href: end-user-app-view.md
             - name: Conectarse a los servicios
-              href: end-user-connect-to-services.md
+              href: ../connect-data/service-connect-to-services.md
             - name: Obtención de una aplicación de ejemplo desde el marketplace de aplicaciones
               href: end-user-app-marketing.md
         - name: Realizar preguntas de los datos
@@ -153,6 +153,6 @@
         - name: Preguntas más frecuentes
           href: end-user-faq.md
         - name: Exploradores compatibles
-          href: end-user-browsers.md
+          href: ../fundamentals/power-bi-browsers.md
         - name: Tipos de Conclusiones rápidas
           href: end-user-insight-types.md
