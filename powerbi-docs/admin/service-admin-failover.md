@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782332"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857436"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>P+F sobre alta disponibilidad, conmutación por error y recuperación ante desastres en Power BI
 
@@ -55,7 +55,7 @@ Se publica una notificación en la página de soporte técnico de Power BI ([htt
 
 Una vez que se determina que es necesaria una conmutación por error, Power BI tarda aproximadamente 15 minutos en volver a estar operativo. El tiempo necesario para determinar que se requiere una conmutación por error varía en función del escenario que se interrumpa. 
 
-Tras la conmutación por error, Power BI usa la replicación geográfica de Azure Storage para realizar la conmutación por error. Este tipo de replicaciones suele tener un punto de retorno de 15 minutos, pero [Azure Storage no garantiza este período de tiempo](https://docs.microsoft.com/azure/storage/common/storage-redundancy) con un acuerdo de nivel de servicio y, por tanto, Power BI tampoco puede garantizarlo. 
+Tras la conmutación por error, Power BI usa la replicación geográfica de Azure Storage para realizar la conmutación por error. Este tipo de replicaciones suele tener un punto de retorno de 15 minutos, pero [Azure Storage no garantiza este período de tiempo](/azure/storage/common/storage-redundancy) con un acuerdo de nivel de servicio y, por tanto, Power BI tampoco puede garantizarlo. 
 
 ## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>¿Qué ocurre con las áreas de trabajo y los informes si mi capacidad Premium deja de estar disponible? 
 

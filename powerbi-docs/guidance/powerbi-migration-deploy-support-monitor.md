@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402011"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965014"
 ---
 # <a name="deploy-to-power-bi"></a>Implementación en Power BI
 
@@ -100,7 +100,7 @@ Las actividades clave durante una implementación en el área de trabajo de prod
 - **Uso compartido de paneles e informes**: actualice y compruebe la configuración de cada informe y panel. Entre los valores más importantes se incluyen los siguientes:
   - Descripción
   - Persona o grupo de contacto
-  - [Etiqueta de confidencialidad](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+  - [Etiqueta de confidencialidad](../admin/service-security-apply-data-sensitivity-labels.md)
   - [Contenido destacado](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)
 - **Suscripciones**: configure suscripciones de informe, si es necesario.
 
@@ -136,7 +136,7 @@ En algún momento, los informes migrados a Power BI han de deshabilitarse en la
 
 ## <a name="monitor-the-solution"></a>Supervisión de la solución
 
-Los eventos del [registro de actividad de Power Bi](../admin/service-admin-auditing.md) se pueden utilizar para comprender los patrones de uso de la nueva solución (o del [registro de ejecución](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view?view=sql-server-ver15) en el caso de contenido implementado en Power BI Report Server). El análisis del registro de actividad puede ayudar a determinar si el uso real difiere de las expectativas. También puede validar que la solución se admite adecuadamente.
+Los eventos del [registro de actividad de Power Bi](../admin/service-admin-auditing.md) se pueden utilizar para comprender los patrones de uso de la nueva solución (o del [registro de ejecución](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view) en el caso de contenido implementado en Power BI Report Server). El análisis del registro de actividad puede ayudar a determinar si el uso real difiere de las expectativas. También puede validar que la solución se admite adecuadamente.
 
 Estas son algunas preguntas que pueden responderse revisando el registro de actividad:
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: 4b112c3522a35f86f74481a79f3fff919a0e9e33
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87544838"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857758"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Administración de la configuración de administrador de objetos visuales de Power BI
 
@@ -64,7 +64,7 @@ Siga las instrucciones que se indican a continuación para permitir que los usua
 
 ![Objetos visuales desde un archivo o AppSource](media/organizational-visuals/tenant-settings.png)
 
-Los cambios de la interfaz de usuario en la configuración del inquilino solo se aplican al servicio Power BI. Para permitir que los usuarios de su organización carguen archivos .pbiviz y agreguen objetos visuales de AppSource a su panel de visualización en Power BI Desktop, use [Directiva de grupo de Azure AD](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy).
+Los cambios de la interfaz de usuario en la configuración del inquilino solo se aplican al servicio Power BI. Para permitir que los usuarios de su organización carguen archivos .pbiviz y agreguen objetos visuales de AppSource a su panel de visualización en Power BI Desktop, use [Directiva de grupo de Azure AD](/azure/active-directory-domain-services/manage-group-policy).
 
 |Clave  |Nombre del valor  |Valor  |
 |---------|---------|---------|
@@ -83,7 +83,7 @@ Cuando esta opción está habilitada, solo los [objetos visuales certificados de
 
 ![Objetos visuales certificados](media/organizational-visuals/certified-visuals.png)
 
-Los cambios de la interfaz de usuario en la configuración del inquilino solo se aplican al servicio Power BI. Para administrar la configuración del inquilino de objetos visuales certificados en Power BI Desktop, use [Directiva de grupo de Azure AD](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy).
+Los cambios de la interfaz de usuario en la configuración del inquilino solo se aplican al servicio Power BI. Para administrar la configuración del inquilino de objetos visuales certificados en Power BI Desktop, use [Directiva de grupo de Azure AD](/azure/active-directory-domain-services/manage-group-policy).
 
 |Clave  |Nombre del valor  |Valor  |
 |---------|---------|---------|

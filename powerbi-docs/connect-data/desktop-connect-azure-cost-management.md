@@ -10,18 +10,18 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 53606f52752bcc6f7c790b5e2cccaf26f0d10006
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3ae0a9605391ca1230fb0080490e1ef0eadf3d72
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224694"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858495"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Creación de objetos visuales e informes con el conector Azure Cost Management de Power BI Desktop
 
 El conector de Azure Cost Management para Power BI Desktop se puede usar para crear informes y visualizaciones eficaces y personalizados que ayuden a comprender mejor su gasto con Azure. En la actualidad, el conector de Azure Cost Management admite clientes con un [Contrato de cliente de Microsoft](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/) o un [Contrato Enterprise](https://azure.microsoft.com/pricing/enterprise-agreement/).  
 
-El conector de Azure Cost Management utiliza OAuth 2.0 para la autenticación con Azure e identifica a los usuarios que van a usar el conector. Los tokens generados en este proceso son válidos durante un período específico. Power BI conserva el token para el siguiente inicio de sesión. OAuth 2.0 es un estándar para este proceso que se ejecuta en segundo plano y garantiza que estos permisos se administran de forma segura. Para conectarse, debe usar una cuenta de [Administrador de organización](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) para contratos Enterprise o una [Cuenta de propietario de facturación](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) para los contratos de cliente de Microsoft. 
+El conector de Azure Cost Management utiliza OAuth 2.0 para la autenticación con Azure e identifica a los usuarios que van a usar el conector. Los tokens generados en este proceso son válidos durante un período específico. Power BI conserva el token para el siguiente inicio de sesión. OAuth 2.0 es un estándar para este proceso que se ejecuta en segundo plano y garantiza que estos permisos se administran de forma segura. Para conectarse, debe usar una cuenta de [Administrador de organización](/azure/billing/billing-understand-ea-roles) para contratos Enterprise o una [Cuenta de propietario de facturación](/azure/billing/billing-understand-mca-roles) para los contratos de cliente de Microsoft. 
 
 > [!NOTE]
 > Este conector reemplaza a los conectores de [Azure Consumption Insights (beta) y Azure Cost Management (beta)](desktop-connect-azure-consumption-insights.md) que antes estaban disponibles. Los informes creados con el conector anterior deben volver a crearse con este.
@@ -108,4 +108,4 @@ Se puede conectar a muchos orígenes de datos distintos mediante Power BI Deskto
 * [Orígenes de datos en Power BI Desktop](desktop-data-sources.md)
 * [Combinar datos y darles forma con Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Connect to Excel workbooks in Power BI Desktop (Conectarse a libros de Excel en Power BI Desktop)](desktop-connect-excel.md)   
-* [Especificar datos directamente en Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   
+* [Especificar datos directamente en Power BI Desktop](desktop-enter-data-directly-into-desktop.md)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e43edb3241140024241ab78af1236d9551a35f1a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ad3684bbf285ff85fa3dec6b0cdc807dc05eca05
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239778"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857919"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Configuración de opciones de flujo de datos del área de trabajo (versión preliminar)
 
@@ -128,13 +128,13 @@ Para información sobre los flujos de datos en general, consulte estos artículo
 
 Para más información sobre Azure Storage, puede leer estos artículos:
 
-* [Guía de seguridad de Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Guía de seguridad de Azure Storage](/azure/storage/common/storage-security-guide)
 * [Introducción a los ejemplos de GitHub desde Azure Data Services](https://aka.ms/cdmadstutorial)
 
 Para más información sobre Common Data Service, puede leer su artículo de introducción:
 
-* [Introducción a Common Data Service](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Carpetas de CDS](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Definición del archivo de modelo de CDS](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Introducción a Common Data Service](/powerapps/common-data-model/overview)
+* [Carpetas de CDS](/common-data-model/data-lake)
+* [Definición del archivo de modelo de CDS](/common-data-model/model-json)
 
 Y, siempre puede intentar [plantear preguntas a la comunidad de Power BI](https://community.powerbi.com/).

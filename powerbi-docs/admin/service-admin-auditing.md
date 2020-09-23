@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512065"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857712"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Seguimiento de actividades de usuario en Power BI
 
@@ -77,7 +77,7 @@ completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 > Los eventos pueden tardar hasta 24 horas en aparecer, aunque los datos completos suelen estar disponibles mucho antes.
 >
 >
-Para obtener más información sobre el uso de la API de REST de Power BI, incluidos ejemplos de cómo obtener eventos de actividad de auditoría, vea [Administración: obtención de eventos de auditoría](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents) en la documentación de referencia de la API de REST de Power BI.
+Para obtener más información sobre el uso de la API de REST de Power BI, incluidos ejemplos de cómo obtener eventos de actividad de auditoría, vea [Administración: obtención de eventos de auditoría](/rest/api/power-bi/admin/getactivityevents) en la documentación de referencia de la API de REST de Power BI.
 
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Cmdlet Get-PowerBIActivityEvent
 
@@ -122,7 +122,7 @@ Puede filtrar los datos de auditoría por intervalo de fechas, usuario, panel, i
 
 Debe cumplir estos requisitos para acceder a los registros de auditoría:
 
-- Debe ser un administrador global o tener asignado el rol Registros de auditoría o Registros de auditoría de solo lectura de Exchange Online para obtener acceso al registro de auditoría. De manera predeterminada, los grupos de roles de Administración de cumplimiento y Administración de organizaciones incluyen estos roles asignados en la página **Permisos** en el centro de administración de Exchange. Para obtener más información sobre los roles que pueden ver registros de auditoría, vea [Requisitos para realizar búsquedas en el registro de auditoría](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log).
+- Debe ser un administrador global o tener asignado el rol Registros de auditoría o Registros de auditoría de solo lectura de Exchange Online para obtener acceso al registro de auditoría. De manera predeterminada, los grupos de roles de Administración de cumplimiento y Administración de organizaciones incluyen estos roles asignados en la página **Permisos** en el centro de administración de Exchange. Para obtener más información sobre los roles que pueden ver registros de auditoría, vea [Requisitos para realizar búsquedas en el registro de auditoría](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log).
 
     Para proporcionar acceso al registro de auditoría a las cuentas que no son de administrador, agregue el usuario como miembro de uno de estos grupos de roles. Si quiere hacerlo de otra manera, puede crear un grupo de roles personalizados en el centro de administración de Exchange, asignar el rol Registros de auditoría o Registros de auditoría de solo visualización a este grupo y, luego, agregar la cuenta que no es de administrador al nuevo grupo de roles. Para obtener más información, vea [Manage role groups in Exchange Online](/Exchange/permissions-exo/role-groups) (Administración de grupos de roles en Exchange Online).
 

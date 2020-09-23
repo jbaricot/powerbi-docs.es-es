@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2fcb9b7a7571513eac8fb97b12e60f67a5ac9cb3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c7dceceaaf063ffe4b379595cfc010e4eda2ae53
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230894"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858159"
 ---
 # <a name="azure-and-power-bi"></a>Azure y Power BI
 
@@ -66,4 +66,4 @@ Inserte visualizaciones de datos, sorprendentes e interactivas, en aplicaciones,
 
 ## <a name="what-could-you-do-with-azure-and-power-bi"></a>¿Qué puede hacer con Azure y Power BI?
 
-Existen muchas situaciones en que **Azure** y **Power BI** se pueden combinar: las posibilidades y las oportunidades son tan únicas como su negocio. Para obtener más información acerca de los **servicios de Azure**, pruebe esta [página de información general](https://docs.microsoft.com/azure/machine-learning/team-data-science-process/plan-your-environment), que describe los **escenarios de análisis de datos con Azure**, y aprenda cómo transformar los orígenes de datos en inteligencia que impulse su negocio.
+Existen muchas situaciones en que **Azure** y **Power BI** se pueden combinar: las posibilidades y las oportunidades son tan únicas como su negocio. Para obtener más información acerca de los **servicios de Azure**, pruebe esta [página de información general](/azure/machine-learning/team-data-science-process/plan-your-environment), que describe los **escenarios de análisis de datos con Azure**, y aprenda cómo transformar los orígenes de datos en inteligencia que impulse su negocio.
