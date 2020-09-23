@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eb46c35c4040ead37b132cf2c34a22663ee72b6d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9030d7ebacad92780a7dcafe33ae5bdded842b01
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220296"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856159"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver informes de Power BI optimizados para el teléfono
 
@@ -115,7 +115,7 @@ Hay pocos tipos de exploración en profundidad:
 
 ## <a name="drill-through-from-a-value"></a>Obtención de detalles de un valor
 La obtención de detalles conecta valores de una página de informe con otras páginas de informe. Al obtener detalles de un punto de datos a otra página de informe, los valores del punto de datos se usan para filtrar la página cuyos detalles se han obtenido, o está en el contexto de los datos seleccionados.
-Los autores de informes pueden [definir la obtención de detalles](https://docs.microsoft.com/power-bi/desktop-drillthrough) al crear el informe.
+Los autores de informes pueden [definir la obtención de detalles](../../create-reports/desktop-drillthrough.md) al crear el informe.
 
 1. Pulse durante un tiempo (pulse y mantenga) en un punto de datos de un objeto visual.
 2. Aparece la información sobre herramientas y, si la obtención de detalles está definida, el pie de página de la información sobre herramientas muestra la flecha de obtención de detalles.

@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4cf94628b1d423d5b382e718d850fc403d516083
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1d7dfe799f81799555c9b2aed412c3f2995e19e6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234326"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856128"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Filtrar un informe por ubicación geográfica en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -27,7 +27,7 @@ Al examinar un informe de Power BI en su dispositivo móvil, ¿ve un pequeño ic
 > Solo puede filtrar por ubicación si los nombres geográficos del informe están en inglés; por ejemplo, "New York City" o "Germany". Las tabletas y los equipos Windows 10 no admiten el filtrado geográfico, pero los teléfonos Windows 10 sí.
 
 >[!NOTE]
->El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="filter-your-report-by-your-geographic-location"></a>Filtrar un informe por ubicación geográfica
 1. Abra un informe en la aplicación móvil Power BI de su dispositivo móvil.

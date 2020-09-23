@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9a6db74384a9fa47d13eb36b0e64cb926600a191
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84b3fafa3ae5e12a96b4e1117ee74baf94dba597
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219683"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861438"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introducción a los iconos del panel para los diseñadores de Power BI
 
@@ -42,7 +42,7 @@ Existen muchas maneras diferentes de agregar (anclar) un icono al panel. Puede a
 * [Otro panel](service-pin-tile-to-another-dashboard.md)
 * [Un libro de Excel en OneDrive para la Empresa](service-dashboard-pin-tile-from-excel.md)
 * [Quick Insights (Información rápida)](service-insights.md)
-* [Un informe paginado local en Power BI Report Server o SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+* [Un informe paginado local en Power BI Report Server o SQL Server Reporting Services](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Puede crear iconos independientes para imágenes, cuadros de texto, vídeos, datos de streaming y contenido web directamente en el panel mediante el control [Agregar icono](service-dashboard-add-widget.md).
 

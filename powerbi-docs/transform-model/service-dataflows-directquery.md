@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3e7bb33eae8be4a0eaa7eb4d92ca165c74b14ed5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 76c42c52ba877b3e6477a2baee11aef4a531161c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937387"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861576"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>Uso de DirectQuery con flujos de datos en Power BI (versión preliminar)
 
@@ -70,7 +70,7 @@ Los siguientes artículos resultan útiles para obtener más información y esce
 * [Integración de flujos de datos y Azure Data Lake (versión preliminar)](service-dataflows-azure-data-lake-integration.md)
 
 Para más información sobre Common Data Service, puede leer su artículo de introducción:
-* [Introducción a Common Data Service](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Introducción a Common Data Service](/powerapps/common-data-model/overview)
 * [Más información sobre el esquema y las entidades de Common Data Service en GitHub](https://github.com/Microsoft/CDM)
 
 Artículos relacionados de Power BI Desktop:

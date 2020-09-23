@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/08/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d40bda8ef6469e5dc826d36db3cc21cfe72f0da6
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: eeda30e5a075166af3718084c2c9f7737f876cbe
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092392"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861116"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Tutorial: Introducción a la creación en el servicio Power BI
 Este tutorial es una introducción a algunas de las características del *servicio Power BI*. En este servicio se conecta a los datos, se crea un informe y un panel y se formulan preguntas de los datos. Puede hacer mucho más en el servicio Power BI; este tutorial es solo para abrir boca. Para entender cómo encaja el servicio Power BI con otras ofertas de Power BI, es recomendable leer primero [¿Qué es Power BI?](power-bi-overview.md).
@@ -226,5 +226,5 @@ Ahora que ya hemos finalizado el tutorial, podemos eliminar el conjunto de datos
 
 Explore estas colecciones de contenido de Microsoft Learn para Power BI:
 
-- [Aprender a usar Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
-- [Conviértase en un analista de datos de Power BI](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm)
+- [Aprender a usar Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+- [Conviértase en un analista de datos de Power BI](/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm)

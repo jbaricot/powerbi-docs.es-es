@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/25/2020
 ms.author: painbar
-ms.openlocfilehash: f72117dfab77893dd48be7e939c07a1a8c2bea90
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f8f9ed1a9f2ba0e1f3c41eded45f32b8ef220f00
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219859"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855826"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Anclaje de un panel a la pantalla Inicio de Windows 10 desde la aplicación móvil de Power BI
 Puede anclar iconos y paneles de Power BI a la pantalla Inicio de Windows desde la aplicación móvil de Power BI para Windows 10. Al pulsar el icono en la pantalla Inicio, el panel se abre en la aplicación móvil de Power BI para Windows 10.
@@ -20,7 +20,7 @@ Puede anclar iconos y paneles de Power BI a la pantalla Inicio de Windows desde 
 ![Icono de Windows](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-screen.png)
 
 >[!NOTE]
->El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-tile"></a>Anclaje de un panel a la pantalla Inicio en forma de icono
 1. Abra un panel.

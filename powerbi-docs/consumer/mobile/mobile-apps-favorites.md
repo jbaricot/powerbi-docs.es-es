@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ee2ce1161f5afbdc39520a0102d3289f00792207
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 553beb5f30625ce416ea778ba6b5fde63526065c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240199"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856487"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Creación y visualización de elementos favoritos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -23,7 +23,7 @@ Se aplica a:
 | iPhone |iPad |Teléfonos Android |Tabletas Android |Dispositivos de Windows 10 |
 
 >[!NOTE]
->El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Lea información sobre cómo definir y ver sus paneles, informes y aplicaciones de Power BI favoritos, junto con los informes y KPI favoritos locales de Power BI Report Server y de Reporting Services, en las aplicaciones móviles.
 
@@ -76,4 +76,3 @@ En las aplicaciones móviles de Power BI puede ver los informes y KPI del servid
 ## <a name="next-steps"></a>Pasos siguientes
 * [Paneles favoritos en el servicio Power BI](../end-user-favorite.md) 
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

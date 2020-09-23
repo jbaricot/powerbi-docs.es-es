@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2987d17510d8bbe5681c78df7d86d839c45b5ef9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3fea12fcc9d87c796f3da7bb0df040211db90f70
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240036"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861553"
 ---
 # <a name="developer-resources-for-power-bi-dataflows"></a>Recursos para desarrolladores de flujos de datos de Power BI
 
@@ -28,7 +28,7 @@ Los siguientes recursos para desarrolladores están disponibles para trabajar co
 
 | Recurso de flujo de datos | Description |
 | --- | --- |
-| [Referencia sobre la API de REST para flujos de datos de Power BI](https://go.microsoft.com/fwlink/?linkid=2047629)    | Una guía de referencia completa sobre la API de REST para flujos de datos.|
+| [Referencia sobre la API de REST para flujos de datos de Power BI](/rest/api/power-bi/dataflows)    | Una guía de referencia completa sobre la API de REST para flujos de datos.|
 
 
 ## <a name="next-steps"></a>Pasos siguientes
@@ -41,9 +41,9 @@ En este artículo se proporciona información sobre los recursos para desarrolla
 * [Uso de flujos de datos con orígenes de datos locales](service-dataflows-on-premises-gateways.md)
 
 Para información sobre el desarrollo de CDS y los recursos del tutorial, consulte los siguientes artículos:
-* [Introducción a Common Data Service](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Carpetas de CDS](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Definición del archivo de modelo de CDS](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Introducción a Common Data Service](/powerapps/common-data-model/overview)
+* [Carpetas de CDS](/common-data-model/data-lake)
+* [Definición del archivo de modelo de CDS](/common-data-model/model-json)
 
 
 Para obtener más información sobre Power Query y la actualización programada, puede leer estos artículos:

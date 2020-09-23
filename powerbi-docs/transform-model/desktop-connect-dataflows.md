@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 193463978e3c4d80980a15e154dbeef05aa1a2a0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 66e94ed2af0b9dc9cf3600594fc6679bd7261b12
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238920"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861093"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>Conexión a datos creados por flujos de datos de Power Platform en Power BI Desktop
 En **Power BI Desktop**, puede conectarse a datos creados por **flujos de datos de Power Platform** al igual que con cualquier otro origen de datos en Power BI Desktop.
@@ -47,7 +47,7 @@ La mayoría de los flujos de datos residen en el inquilino del servicio Power BI
 
     ![Error al intentar usar el flujo de datos](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-Para resolver este problema, Ben debe tener permisos de lector para la carpeta de CDS y sus archivos. Puede aprender más sobre cómo acceder a la carpeta de CDS en [este artículo](https://go.microsoft.com/fwlink/?linkid=2029121).
+Para resolver este problema, Ben debe tener permisos de lector para la carpeta de CDS y sus archivos. Puede aprender más sobre cómo acceder a la carpeta de CDS en [este artículo](./service-dataflows-azure-data-lake-integration.md).
 
 
 
@@ -72,4 +72,4 @@ También hay artículos sobre **Power BI Desktop** que pueden resultarle útiles
 
 * [Orígenes de datos en Power BI Desktop](../connect-data/desktop-data-sources.md)
 * [Combinar datos y darles forma con Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
-* [Especificar datos directamente en Power BI Desktop](../connect-data/desktop-enter-data-directly-into-desktop.md)   
+* [Especificar datos directamente en Power BI Desktop](../connect-data/desktop-enter-data-directly-into-desktop.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: b877ec917953bb6ec456a0042035e498c591e1ed
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 86d3bf34a8b222e72d76a5471fe6bfca93390afc
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86213991"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861139"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Ubicación de la clave de producto del servidor de informes
 Aprenda a encontrar la clave de producto del servidor de informes de Power BI para instalar el servidor en un entorno de producción.
@@ -47,7 +47,6 @@ Si tiene un contrato de SA de SQL Server Enterprise, puede obtener la clave de p
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Instalar Power BI Desktop optimizado para el servidor de informes de Power BI](install-powerbi-desktop.md)  
 [Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Descargar SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Descargar SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

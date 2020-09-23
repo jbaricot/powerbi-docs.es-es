@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f80c683e3e9134bff8d3c24d4f64d43da405aa36
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d4b23039d8516375e98233254c92b2f7bbeb648d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83307460"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861622"
 ---
 # <a name="dataflows-best-practice"></a>Procedimientos recomendados de los flujos de datos
 
@@ -74,9 +74,9 @@ En este artículo se proporciona información sobre los procedimientos recomenda
 * [Uso de flujos de datos con orígenes de datos locales](service-dataflows-on-premises-gateways.md)
 
 Para información sobre el desarrollo de CDS y los recursos del tutorial, consulte los siguientes artículos:
-* [Introducción a Common Data Service](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Carpetas de CDS](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Definición del archivo de modelo de CDS](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Introducción a Common Data Service](/powerapps/common-data-model/overview)
+* [Carpetas de CDS](/common-data-model/data-lake)
+* [Definición del archivo de modelo de CDS](/common-data-model/model-json)
 
 
 Para obtener más información sobre Power Query y la actualización programada, puede leer estos artículos:

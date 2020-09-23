@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: a1a30dc09e61e29053a5a1d95cde3d5a339c5a3d
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.date: 09/15/2020
+ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220869"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855568"
 ---
-# <a name="deployment-pipelines-best-practices-preview"></a>Procedimientos recomendados para las canalizaciones de implementación (versión preliminar)
+# <a name="deployment-pipelines-best-practices"></a>Procedimientos recomendados para las canalizaciones de implementación
 
 En este artículo se proporcionan instrucciones para los creadores de BI que están administrando su contenido a lo largo del ciclo de vida. Se centra en aprovechar las canalizaciones de implementación como una herramienta de administración del ciclo de vida de contenido de BI.
 
@@ -79,7 +79,7 @@ Una base de datos de producción siempre debe ser estable y estar disponible. Es
 
 ### <a name="use-parameters-in-your-model"></a>Uso de parámetros en el modelo
 
-Como no se pueden editar los orígenes de datos de los conjuntos de datos en servicio Power BI, se recomienda usar los [parámetros](https://docs.microsoft.com/power-query/power-query-query-parameters) para almacenar los detalles de conexión, como los nombres de instancia y los nombres de base de datos, en lugar de usar una cadena de conexión estática. Esto le permite administrar las conexiones a través del portal web del servicio Power BI o [mediante las API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup), en una etapa posterior.
+Como no se pueden editar los orígenes de datos de los conjuntos de datos en servicio Power BI, se recomienda usar los [parámetros](/power-query/power-query-query-parameters) para almacenar los detalles de conexión, como los nombres de instancia y los nombres de base de datos, en lugar de usar una cadena de conexión estática. Esto le permite administrar las conexiones a través del portal web del servicio Power BI o [mediante las API](/rest/api/power-bi/datasets/updateparametersingroup), en una etapa posterior.
 
 En las canalizaciones de implementación, puede configurar reglas de parámetros para establecer valores específicos para las fases de desarrollo, prueba y producción.
 

@@ -8,17 +8,17 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 08294e1320e603131beb0ca332b0f85ee51ea8bb
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: cedabd613e177aa9a3645e80db38b74d799b8799
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937571"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861208"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI en Power BI Report Server
 Los informes de Power BI pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services. Algunos orígenes de datos están disponibles en Power BI Desktop optimizados para Power BI Report Server, pero no se admiten cuando se publican en Power BI Report Server.
 
-Estos orígenes de datos son específicos de los informes de Power BI que se utilizan en Power BI Report Server. Para obtener información acerca de los orígenes de datos compatibles con informes paginados (.dll), consulte [Orígenes de datos admitidos por Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+Estos orígenes de datos son específicos de los informes de Power BI que se utilizan en Power BI Report Server. Para obtener información acerca de los orígenes de datos compatibles con informes paginados (.dll), consulte [Orígenes de datos admitidos por Reporting Services](/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 > [!IMPORTANT]
 > Todos los orígenes de datos de un informe de Power BI Desktop deben admitir la configuración de la actualización programada.

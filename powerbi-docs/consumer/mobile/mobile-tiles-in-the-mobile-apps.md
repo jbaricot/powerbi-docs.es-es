@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 7a08b41f7307881a75573cadbeca984840300032
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 68bfe1a97d9db0b12f3942961c4e50e5c535fd84
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264869"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856194"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Exploración de iconos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -87,7 +87,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Iconos de la aplicación móvil para Windows 10
 
 >[!NOTE]
->El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 1. Abra un [panel en la aplicación móvil de Power BI](mobile-apps-view-dashboard.md) para Windows 10.
 2. Pulse los puntos suspensivos verticales en el icono. Desde aquí, puede: 

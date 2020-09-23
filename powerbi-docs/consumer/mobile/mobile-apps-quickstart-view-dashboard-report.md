@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: e3b0fba18250853eec7eef85b5cfc9161290bacb
-ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
+ms.openlocfilehash: 003543579e26262194668f94bdf78b8b002cb114
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84685331"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856171"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Inicio rápido: exploración de paneles e informes en la aplicación móvil de Power BI
 En este inicio rápido, realizará un recorrido rápido por la aplicación Power BI Mobile y explorará un informe y un panel de ejemplo. Se muestra la aplicación Power BI para iOS, pero puede seguir los pasos en otros dispositivos.
@@ -25,7 +25,7 @@ Se aplica a:
 | iPhone | iPad | Android | Windows 10 |
 
 >[!NOTE]
->El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Un panel es un portal para ver los procesos y el ciclo de vida de la empresa. Es información general, un lugar único para supervisar el estado actual de la empresa. Los informes son vistas interactivas de los datos, con objetos visuales que representan distintas conclusiones e información a partir de esos datos. 
 
@@ -112,4 +112,3 @@ En este inicio rápido, ha explorado un ejemplo de panel e informe en el disposi
 
 > [!div class="nextstepaction"]
 > [Inicio rápido: Moverse por el servicio Power BI](../end-user-experience.md)
-

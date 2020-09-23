@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: a0d65cb61d671f5779fa8281ad8be3153211a4a6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5f581a9b08afc8d9d8c3a36ed765c5d211d7876b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347272"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856424"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>¿Qué son las aplicaciones móviles de Power BI?
 Power BI ofrece un conjunto de aplicaciones móviles para dispositivos móviles iOS, Android y Windows 10. En las aplicaciones móviles, puede conectarse a datos locales y en la nube e interactuar con ellos. 
@@ -38,7 +38,7 @@ Puede crear informes en Power BI Desktop. Puede crear paneles y ver paneles e in
 | [![Dispositivos Windows](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../fundamentals/desktop-getting-started.md) |La aplicación móvil de Power BI para Windows 10 se ejecuta en todos los dispositivos con Windows 10, incluidos teléfonos con Windows 10. Además de muchas de las características de las otras aplicaciones móviles, la aplicación móvil de Power BI para Windows 10 ofrece funciones especiales. Por ejemplo, puede [anclar un panel de Power BI a la pantalla Inicio de Windows 10](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) desde la aplicación móvil de Power BI. Además, puede [ejecutar Power BI en modo de presentación en Surface Hub](mobile-windows-10-app-presentation-mode.md) y en la aplicación móvil de Power BI para Windows 10. <br/>Empiece a usar la [aplicación móvil de Power BI para dispositivos con Windows 10](mobile-windows-10-phone-app-get-started.md). |||
 
 >[!NOTE]
->El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Soporte técnico empresarial para las aplicaciones móviles de Power BI
 Las organizaciones pueden usar Microsoft Intune para administrar dispositivos y aplicaciones, incluidas las aplicaciones móviles de Power BI para iOS y Android.

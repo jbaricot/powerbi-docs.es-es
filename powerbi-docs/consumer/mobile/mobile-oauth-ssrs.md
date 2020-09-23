@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.openlocfilehash: 1e45e3292499d0eb827b6b03c63ab839a520da97
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9d54df0369b28eafc08a0e4f84599aac66c299e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220273"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856102"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Usar OAuth para conectarse a Power BI Report Server y a SSRS
 
@@ -72,7 +72,7 @@ Para obtener más información, consulte [Modificar un archivo de configuración
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Configuración de los servicios de federación de Active Directory (ADFS)
 
-Tendrá que configurar ADFS en un servidor de Windows 2016 en su entorno. Para ello, puede usar el Administrador del servidor y seleccionar Agregar roles y características en Administrar. Para obtener más información, consulte [Servicios de federación de Active Directory](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services).
+Tendrá que configurar ADFS en un servidor de Windows 2016 en su entorno. Para ello, puede usar el Administrador del servidor y seleccionar Agregar roles y características en Administrar. Para obtener más información, consulte [Servicios de federación de Active Directory](/windows-server/identity/active-directory-federation-services).
 
 ### <a name="create-an-application-group"></a>Crear un grupo de aplicaciones
 
@@ -136,7 +136,7 @@ Cuando haya finalizado, debería ver que las propiedades del grupo de aplicacion
 
 ## <a name="web-application-proxy-wap-configuration"></a>Configuración del proxy de aplicación web (WAP)
 
-Deberá habilitar el rol de Windows Web Application Proxy (rol) en un servidor de su entorno. Debe tratarse de un servidor de Windows 2016. Para obtener más información, consulte [Web Application Proxy in Windows Server 2016 (Proxy de aplicación web en Windows Server 2016)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) y [Publishing Applications using AD FS Preauthentication (Publicar aplicaciones usando la autenticación previa de AD FS)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
+Deberá habilitar el rol de Windows Web Application Proxy (rol) en un servidor de su entorno. Debe tratarse de un servidor de Windows 2016. Para obtener más información, consulte [Web Application Proxy in Windows Server 2016 (Proxy de aplicación web en Windows Server 2016)](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) y [Publishing Applications using AD FS Preauthentication (Publicar aplicaciones usando la autenticación previa de AD FS)](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
 
 ### <a name="constrained-delegation-configuration"></a>Configuración de la delegación restringida
 
@@ -228,7 +228,7 @@ Después de seleccionar **Iniciar sesión**, verá los elementos del servidor de
 
 ## <a name="multi-factor-authentication"></a>Autenticación multifactor
 
-Puede habilitar la autenticación multifactor para proporcionar seguridad adicional para su entorno. Para obtener más información, consulte [Configure AD FS 2016 and Azure MFA (Configurar AD FS 2016 y Azure MFA)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
+Puede habilitar la autenticación multifactor para proporcionar seguridad adicional para su entorno. Para obtener más información, consulte [Configure AD FS 2016 and Azure MFA (Configurar AD FS 2016 y Azure MFA)](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa).
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
@@ -245,8 +245,8 @@ Si el inicio de sesión funciona correctamente al usar Fiddler, puede que tenga 
 [Registrar un nombre principal de servicio (SPN) para un servidor de informes](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
 [Modificar un archivo de configuración de Reporting Services](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
 [Configurar la autenticación de Windows en el servidor de informes](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
-[Servicios de federación de Active Directory](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
-[Web Application Proxy in Windows Server 2016 (Proxy de aplicación web en Windows Server 2016)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
-[Publishing Applications using AD FS Preauthentication (Publicar aplicaciones usando la autenticación previa de AD FS)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[Configure AD FS 2016 and Azure MFA (Configurar AD FS 2016 y Azure MFA)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[Servicios de federación de Active Directory](/windows-server/identity/active-directory-federation-services)  
+[Web Application Proxy in Windows Server 2016 (Proxy de aplicación web en Windows Server 2016)](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server)  
+[Publishing Applications using AD FS Preauthentication (Publicar aplicaciones usando la autenticación previa de AD FS)](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
+[Configure AD FS 2016 and Azure MFA (Configurar AD FS 2016 y Azure MFA)](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

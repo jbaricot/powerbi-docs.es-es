@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
-ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.openlocfilehash: 51aa05d49f0691c7ebb916ff84e3a8cbb0416096
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89443338"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855034"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Actualizaciones incrementales en Power BI
 
@@ -112,7 +112,7 @@ La primera actualización en el servicio Power BI puede tardar más en importar 
 
 #### <a name="current-date"></a>Fecha actual
 
-La *fecha actual* se basa en la fecha del sistema en el momento de la actualización. Si la actualización programada está habilitada para el conjunto de datos en el servicio Power BI, se tendrá en cuenta la zona horaria especificada al determinar la fecha actual. Tanto las actualizaciones programadas como las que se invocan manualmente mediante el servicio Power BI respetan la zona horaria si está disponible. Por ejemplo, en una actualización que se produce a las 8 P.M. con Hora del Pacífico (EE. UU. y Canadá) especificada como zona horaria, la fecha actual se determinará según la hora del Pacífico, y no GMT (que, de otro modo, sería al día siguiente). Las operaciones de actualización que no se invocan a través del servicio Power BI, como el [comando de actualización de TMSL](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current), no tendrán en cuenta la zona horaria de la actualización programada.
+La *fecha actual* se basa en la fecha del sistema en el momento de la actualización. Si la actualización programada está habilitada para el conjunto de datos en el servicio Power BI, se tendrá en cuenta la zona horaria especificada al determinar la fecha actual. Tanto las actualizaciones programadas como las que se invocan manualmente mediante el servicio Power BI respetan la zona horaria si está disponible. Por ejemplo, en una actualización que se produce a las 8 P.M. con Hora del Pacífico (EE. UU. y Canadá) especificada como zona horaria, la fecha actual se determinará según la hora del Pacífico, y no GMT (que, de otro modo, sería al día siguiente). Las operaciones de actualización que no se invocan a través del servicio Power BI, como el [comando de actualización de TMSL](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current), no tendrán en cuenta la zona horaria de la actualización programada.
 
 ![Zona horaria](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -153,7 +153,7 @@ Ahora podemos actualizar el modelo. La primera actualización puede tardar más 
 
 ## <a name="query-timeouts"></a>Tiempos de espera de las consultas
 
-En este artículo de [solución problemas de actualización](../connect-data/refresh-troubleshooting-refresh-scenarios.md) se explica que las operaciones de actualización en el servicio Power BI están sujetas a tiempos de espera. Las consultas también pueden verse limitadas por el tiempo de espera predeterminado del origen de datos. La mayoría de los orígenes relacionales permiten invalidar los tiempos de espera en la expresión. Por ejemplo, en la siguiente expresión se usa la [función de acceso a datos de SQL Server](https://docs.microsoft.com/powerquery-m/sql-database) para establecerla en 2 horas. Cada período definido por los intervalos de directiva envía una consulta que respeta el valor de tiempo de espera del comando.
+En este artículo de [solución problemas de actualización](../connect-data/refresh-troubleshooting-refresh-scenarios.md) se explica que las operaciones de actualización en el servicio Power BI están sujetas a tiempos de espera. Las consultas también pueden verse limitadas por el tiempo de espera predeterminado del origen de datos. La mayoría de los orígenes relacionales permiten invalidar los tiempos de espera en la expresión. Por ejemplo, en la siguiente expresión se usa la [función de acceso a datos de SQL Server](/powerquery-m/sql-database) para establecerla en 2 horas. Cada período definido por los intervalos de directiva envía una consulta que respeta el valor de tiempo de espera del comando.
 
 ```powerquery-m
 let
@@ -176,7 +176,7 @@ Con la lectura y escritura del punto de conexión de XMLA habilitadas, SSMS se p
 
 #### <a name="override-incremental-refresh-behavior"></a>Reemplazo del comportamiento de actualización incremental
 
-Con SSMS, también tiene más control sobre cómo invocar las actualizaciones incrementales desde el [lenguaje de scripting de modelos tabulares (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) y el [modelo de objetos tabulares (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current). Por ejemplo, en SSMS, en Explorador de objetos, haga clic con el botón derecho en una tabla y, a continuación, seleccione la opción de menú **Tabla de procesos**. A continuación, haga clic en el botón **script** para generar un comando de actualización de TMSL.
+Con SSMS, también tiene más control sobre cómo invocar las actualizaciones incrementales desde el [lenguaje de scripting de modelos tabulares (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) y el [modelo de objetos tabulares (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current). Por ejemplo, en SSMS, en Explorador de objetos, haga clic con el botón derecho en una tabla y, a continuación, seleccione la opción de menú **Tabla de procesos**. A continuación, haga clic en el botón **script** para generar un comando de actualización de TMSL.
 
 ![Botón script del cuadro de diálogo Tabla de procesos](media/service-premium-incremental-refresh/ssms-process-table.png)
 
@@ -204,7 +204,7 @@ Los parámetros siguientes se pueden insertar en el comando de actualizar de TMS
 }
 ```
 
-Para obtener más información sobre cómo invalidar el comportamiento predeterminado de la actualización incremental con TMSL, vea [comando Refresh](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current).
+Para obtener más información sobre cómo invalidar el comportamiento predeterminado de la actualización incremental con TMSL, vea [comando Refresh](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current).
 
 ### <a name="custom-queries-for-detect-data-changes"></a>Personalización de consultas para detectar cambios de datos
 
@@ -247,4 +247,4 @@ Descargue e instale la versión más reciente de ALM Toolkit desde el [repositor
 ## <a name="see-also"></a>Vea también
 
 [Conectividad del conjunto de datos con el punto de conexión de XMLA](service-premium-connect-tools.md)   
-[Solución de problemas de escenarios de actualización](../connect-data/refresh-troubleshooting-refresh-scenarios.md)   
+[Solución de problemas de escenarios de actualización](../connect-data/refresh-troubleshooting-refresh-scenarios.md)

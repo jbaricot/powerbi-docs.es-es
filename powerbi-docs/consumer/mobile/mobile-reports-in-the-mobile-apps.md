@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: bdea7bbadc9e974e6b71122775408f50cfe33de3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204965"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855964"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -23,7 +23,7 @@ Se aplica a:
 | iPhone |iPad |Teléfonos Android |Tabletas Android |Dispositivos de Windows 10 |
 
 >[!NOTE]
->El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Un informe de Power BI es una vista interactiva de los datos, con objetos visuales que describen distintas conclusiones e información de dichos datos. Ver informes en las aplicaciones móviles de Power BI es el tercer paso de un proceso de tres pasos:
 
@@ -134,13 +134,13 @@ Por ejemplo:
 
 **Marcadores** solo aparece si se han establecido [marcadores](mobile-reports-in-the-mobile-apps.md#bookmarks) en el informe. Se muestran tanto los marcadores personales que puede definir en el servicio Power BI como los definidos por el creador del informe. Si uno de los marcadores se ha definido como el marcador predeterminado, el informe se abrirá en esa vista cuando se cargue.
 
-Es posible que **Anotar y compartir** esté desactivado si hay una [directiva de protección de Intune](https://docs.microsoft.com/intune/app-protection-policies) en la organización que prohíba el uso compartido desde la aplicación Power BI Mobile.
+Es posible que **Anotar y compartir** esté desactivado si hay una [directiva de protección de Intune](/intune/app-protection-policies) en la organización que prohíba el uso compartido desde la aplicación Power BI Mobile.
 
 La opción **Invitar** solo está habilitada si tiene permiso para compartir el informe con otros usuarios. Solo tendrá permiso si es el propietario del informe o si el propietario le ha proporcionado permiso para volver a compartirlo.
 
-**Filtrar por la ubicación actual** está habilitado si el autor del informe lo ha clasificado con datos geográficos. Para obtener más información, consulte el artículo sobre la [identificación de datos geográficos en un informe](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
+**Filtrar por la ubicación actual** está habilitado si el autor del informe lo ha clasificado con datos geográficos. Para obtener más información, consulte el artículo sobre la [identificación de datos geográficos en un informe](../../transform-model/desktop-mobile-geofiltering.md).
 
-**Examinar para filtrar el informe por código de barras** solo está habilitado si el conjunto de datos del informe se ha etiquetado como **Código de barras**. Para obtener más información, consulte el artículo sobre el [etiquetado de códigos de barra en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes).
+**Examinar para filtrar el informe por código de barras** solo está habilitado si el conjunto de datos del informe se ha etiquetado como **Código de barras**. Para obtener más información, consulte el artículo sobre el [etiquetado de códigos de barra en Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md).
 
 ### <a name="bookmarks"></a>Marcadores
 
@@ -154,7 +154,7 @@ Cuando se abre una vista de marcador de un informe, el nombre del marcador apare
 
 ![Vista de marcadores](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
-[Obtenga más información sobre los marcadores en el servicio Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
+[Obtenga más información sobre los marcadores en el servicio Power BI](../end-user-bookmarks.md).
 
 ## <a name="configure-your-experience-with-reports"></a>Configuración de la experiencia con los informes
 La aplicación móvil de Power BI tiene una serie de valores que le permiten controlar la experiencia con los informes. Actualmente, puede configurar lo siguiente:

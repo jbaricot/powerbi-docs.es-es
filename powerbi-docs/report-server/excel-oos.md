@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 03197d7d6b976615f13d9f482c1ba4d4c1ae2abd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90061cec87bae4b65d347617dacc2863052a07ce
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239438"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861162"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configuración de un servidor de informes para hospedar libros de Excel mediante Office Online Server (OOS)
 
-Además de ver informes de Power BI en el portal web, Power BI Report Server puede hospedar libros de Excel mediante [Office Online Server (OOS)](https://docs.microsoft.com/officeonlineserver/office-online-server-overview). El servidor de informes se convierte en una única ubicación para publicar y ver el contenido de autoservicio de Microsoft BI.
+Además de ver informes de Power BI en el portal web, Power BI Report Server puede hospedar libros de Excel mediante [Office Online Server (OOS)](/officeonlineserver/office-online-server-overview). El servidor de informes se convierte en una única ubicación para publicar y ver el contenido de autoservicio de Microsoft BI.
 
 ![Informes de Excel vistos desde el portal web del servidor de informes](media/excel-oos/excel-in-pbirs.png)
 
@@ -187,6 +187,6 @@ Después de escribir la dirección URL de detección y seleccionar **Aplicar**, 
 [Información general de administrador](admin-handbook-overview.md)  
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Descargar SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Descargar SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
