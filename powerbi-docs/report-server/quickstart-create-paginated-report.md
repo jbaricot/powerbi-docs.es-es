@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: d8e36a9eba34b2c27c9ce6f86edfafa568bccf90
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cf205603a4807b814e56904151e0ce8db66cfab1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236329"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853549"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Creación de un informe paginado para Power BI Report Server
 En este artículo va a crear un informe paginado para Power BI Report Server en unos pocos pasos sencillos.
@@ -60,7 +60,7 @@ En la primera página del Asistente para gráficos, **Elegir un conjunto de dato
    
     ![Asistente para gráficos: Elegir un conjunto de datos](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
-     ¿Necesita crear un conjunto de datos? Consulte [Creación de un conjunto de datos compartido o insertado](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs).
+     ¿Necesita crear un conjunto de datos? Consulte [Creación de un conjunto de datos compartido o insertado](/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs).
 2. Elija un tipo de gráfico, en este caso, un gráfico de barras.
    
     ![Asistente para gráficos: Tipo de gráfico](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
@@ -81,7 +81,7 @@ Ahora está en la vista Diseño del informe. Observe que los datos son marcadore
 
 Puede modificar el gráfico que acaba de crear, cambiar el diseño, los valores, la leyenda... en realidad todo.
 
-Y puede agregar todo tipo de otras visualizaciones: medidores, tablas, matrices, tablas, mapas y mucho más. Puede agregar encabezados y pies de página para varias páginas. Consulte los [tutoriales del Generador de informes](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials) para probarlas usted mismo.
+Y puede agregar todo tipo de otras visualizaciones: medidores, tablas, matrices, tablas, mapas y mucho más. Puede agregar encabezados y pies de página para varias páginas. Consulte los [tutoriales del Generador de informes](/sql/reporting-services/report-builder-tutorials) para probarlas usted mismo.
 
 ![Vista de diseño del Generador de informes](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
@@ -96,8 +96,7 @@ Cuando el informe esté listo, guárdelo en Power BI Report Server.
 ## <a name="next-steps"></a>Pasos siguientes
 Existen muchos recursos excelentes para el diseño de informes en el Generador de informes y el Diseñador de informes de SQL Server Data Tools. Los tutoriales del Generador de informes son un buen lugar para comenzar.
 
-* [Tutoriales del Generador de informes](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
+* [Tutoriales del Generador de informes](/sql/reporting-services/report-builder-tutorials)
 * [¿Qué es Power BI Report Server?](get-started.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

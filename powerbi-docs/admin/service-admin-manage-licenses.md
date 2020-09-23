@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 6eb123ec9a9549c54e311682fdccce451d8552a9
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161362"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857275"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Visualización y administración de licencias de usuario de Power BI
 
@@ -37,11 +37,11 @@ Las suscripciones de Power BI activas se muestran junto con cualquier otra susc
 
   ![Captura de pantalla de la suscripción de Power BI, en la que se muestra una suscripción gratuita.](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
-Este tipo de suscripción se crea automáticamente cuando los usuarios aprovechan el registro de autoservicio. Para obtener más información, consulte [Power BI en su organización](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
+Este tipo de suscripción se crea automáticamente cuando los usuarios aprovechan el registro de autoservicio. Para obtener más información, consulte [Power BI en su organización](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
 
 ## <a name="manage-user-licenses-in-microsoft-365"></a>Administración de licencias de usuario en Microsoft 365
 
-Para usar el Centro de administración de Microsoft 365 para administrar licencias de usuario, consulte las [suscripciones de empresa y la documentación de facturación](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide).
+Para usar el Centro de administración de Microsoft 365 para administrar licencias de usuario, consulte las [suscripciones de empresa y la documentación de facturación](/microsoft-365/commerce/?view=o365-worldwide).
 
 ## <a name="manage-user-licenses-in-azure-portal"></a>Administración de licencias de usuario en Azure Portal
 

@@ -10,12 +10,12 @@ ms.date: 05/13/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8f5fd85887a7866513c06c984c5207527400a67c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 99d1f9543625ab564db305b50b196b1e6fcdebef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228232"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857252"
 ---
 # <a name="get-a-power-bi-service-subscription-for-your-organization"></a>Obtención de una suscripción del servicio Power BI para la organización
 
@@ -55,7 +55,7 @@ Siga estos pasos para comprar licencias de Power BI Pro en el Centro de adminis
 
 8. Para comprobar la compra, vaya a **Facturación** > **Productos y servicios** y busque **Power BI Pro**.
 
-Para obtener más información sobre el modo en el que su organización puede controlar y adquirir el servicio Power BI, consulte [Power BI en su organización](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
+Para obtener más información sobre el modo en el que su organización puede controlar y adquirir el servicio Power BI, consulte [Power BI en su organización](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
 
 ## <a name="more-ways-to-get-power-bi-for-your-organization"></a>Otras formas de obtener Power BI para su organización
 
@@ -98,4 +98,4 @@ La cuenta que ha creado es ahora el administrador global de un nuevo inquilino d
 
 - [Visualización y administración de licencias de usuario](service-admin-manage-licenses.md)
 - [Activación o desactivación del registro y la compra de autoservicio](service-admin-disable-self-service.md)
-- [Suscripciones de empresa y documentación de facturación](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide)
+- [Suscripciones de empresa y documentación de facturación](/microsoft-365/commerce/?view=o365-worldwide)

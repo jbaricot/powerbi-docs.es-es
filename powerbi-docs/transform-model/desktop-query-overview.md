@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/11/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0d09fd8c931a92828d11b5813e57e0691c848dc0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: abd12abf852a220399847bee7903ea83cff1386b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214128"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853618"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Información general sobre consultas en Power BI Desktop
 Power BI Desktop le permite conectarse con el mundo de los datos, crear informes básicos y atractivos y compartir sus esfuerzos con otros usuarios, quienes a su vez podrán basarse en el trabajo que comparte con ellos y expandir sus propios esfuerzos de inteligencia empresarial.
@@ -81,7 +81,7 @@ La pestaña **Transformar** proporciona acceso a tareas comunes de transformaci�
 
 ![Captura de pantalla de Power BI Desktop en la que se muestra la pestaña Inicio.](media/desktop-query-overview/queryoverview_transformribbon.png)
 
-Para obtener más información sobre la transformación de datos, incluidos ejemplos, consulte [Tutorial: Combinar datos y darles forma en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data).
+Para obtener más información sobre la transformación de datos, incluidos ejemplos, consulte [Tutorial: Combinar datos y darles forma en Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md).
 
 La pestaña **Agregar columna** proporciona tareas adicionales relacionadas con agregar una columna, aplicar formato a los datos de una columna y agregar columnas personalizadas. La siguiente imagen muestra la pestaña **Agregar columna** .  
 
@@ -145,4 +145,4 @@ Se puede hacer todo tipo de cosas con Power BI Desktop. Para obtener más inform
 * [Orígenes de datos en Power BI Desktop](../connect-data/desktop-data-sources.md)
 * [Conectarse a los datos en Power BI Desktop](../connect-data/desktop-connect-to-data.md)
 * [Tutorial: Combinar datos y darles forma con Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
-* [Realización de tareas de consultas comunes en Power BI Desktop](desktop-common-query-tasks.md)   
+* [Realización de tareas de consultas comunes en Power BI Desktop](desktop-common-query-tasks.md)

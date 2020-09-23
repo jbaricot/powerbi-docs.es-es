@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 2add0d99ac9b8aab7ad60f51a89df5910b9ce8af
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286162"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965359"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>Tutorial: Análisis de datos de Facebook mediante Power BI Desktop
 
@@ -114,7 +114,7 @@ Después de aplicar las transformaciones de los datos, los **Pasos aplicados** d
    ![Pasos aplicados](media/desktop-tutorial-facebook-analytics/applied-steps.png)
    
    >[!TIP]
-   >Subyacentes a los **pasos aplicados** hay fórmulas escritas en el [lenguaje de fórmulas M de Power Query](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language). Para ver y editar las fórmulas, seleccione **Editor avanzado** en el grupo de **consultas** de la pestaña **Inicio** de la cinta de opciones. 
+   >Subyacentes a los **pasos aplicados** hay fórmulas escritas en el [lenguaje de fórmulas M de Power Query](/powerquery-m/quick-tour-of-the-power-query-m-formula-language). Para ver y editar las fórmulas, seleccione **Editor avanzado** en el grupo de **consultas** de la pestaña **Inicio** de la cinta de opciones. 
 
 ### <a name="import-the-transformed-data"></a>Importación de los datos transformados
 
@@ -251,7 +251,6 @@ Como puede ver, es fácil personalizar las visualizaciones del informe para most
 Power BI Desktop ofrece una experiencia perfectamente integrada que va desde la obtención de datos procedentes de una amplia gama de orígenes hasta su manipulación para adaptarlos a cualquier necesidad de análisis y su visualización de forma enriquecida e interactiva. Cuando el informe esté listo, puede [cargarlo en el servicio Power BI](../create-reports/desktop-upload-desktop-files.md) y crear paneles basados en él para compartirlos con otros usuarios de Power BI.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Lea otros tutoriales de Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
-* [Vea vídeos de Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Microsoft Learn para Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Visite el foro de Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Lea el blog de Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)

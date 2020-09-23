@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9271bc6d3ee102ed7d1b52dec2100a5cba88e568
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d5ee81b9aa594e6a101d85e4f90c14c7e653edf6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239822"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853306"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Integración con flujos de datos y Azure Data Lake (versión preliminar)
 
@@ -45,7 +45,7 @@ El archivo model.json o de metadatos de la imagen anterior proporcionaría punte
 
 ## <a name="power-bi-organizes-cdm-folders-in-the-data-lake"></a>Power BI organiza las carpetas de CDS en la instancia de Data Lake
 
-Con los flujos de datos de Power BI y su integración con ADLS Gen2, Power BI puede generar datos en una instancia de Data Lake. Como productor de datos, Power BI debe crear una carpeta de CDS para cada flujo de datos que contiene el archivo model.json y sus archivos de datos asociados. Power BI almacena sus datos de forma aislada de otros productores de datos en la instancia de Data Lake mediante *sistemas de archivos*. Puede leer más sobre el sistema de archivos de Azure Data Lake Storage Gen2 y el espacio de nombres jerárquico en [el artículo donde se describen](https://docs.microsoft.com/azure/storage/data-lake-storage/namespace).
+Con los flujos de datos de Power BI y su integración con ADLS Gen2, Power BI puede generar datos en una instancia de Data Lake. Como productor de datos, Power BI debe crear una carpeta de CDS para cada flujo de datos que contiene el archivo model.json y sus archivos de datos asociados. Power BI almacena sus datos de forma aislada de otros productores de datos en la instancia de Data Lake mediante *sistemas de archivos*. Puede leer más sobre el sistema de archivos de Azure Data Lake Storage Gen2 y el espacio de nombres jerárquico en [el artículo donde se describen](/azure/storage/data-lake-storage/namespace).
 
 Power BI usa subcarpetas para eliminar ambigüedades y para proporcionar una mejor organización de los datos cuando se presentan en el **servicio Power BI**. La nomenclatura y la estructura de carpetas representan las áreas de trabajo (carpetas) y los flujos de datos (carpetas de CDS). En el diagrama siguiente se muestra cómo se puede estructurar una instancia de Data Lake compartida por Power BI y otros productores de datos. Cada servicio, en este caso Dynamics 365, Dynamics for Finance and Operation y Power BI, crea y mantiene su propio sistema de archivos. Según la experiencia en cada servicio, se crean subcarpetas para organizar mejor las carpetas de CDS en el sistema de archivos. 
 
@@ -61,12 +61,12 @@ Para crear y administrar carpetas de CDS en el sistema de archivos de Power BI, 
 
 Compartir carpetas de CDS con consumidores de datos, como usuarios o servicios que necesitan leer los datos, se simplifica con los tokens de portador de OAuth de Active Directory y las ACL de POSIX. Al hacerlo, proporciona a los administradores la posibilidad de supervisar quién accedió a la carpeta de CDS. La única acción necesaria es conceder acceso a un objeto de Active Directory de su elección (como un grupo de usuario o un servicio) a la carpeta de CDS. Se recomienda que todo el acceso que se conceda a la carpeta de CDS, para cualquier identidad que no sea el productor de datos, sea de solo lectura. Al hacerlo, protege la integridad de los datos que genera el productor.
 
-Para agregar carpetas de CDS a Power BI, el usuario que agrega una de estas carpetas debe tener listas ACL de acceso de *lectura* en la propia carpeta de CDS y los archivos o carpetas que contenga. También debe tener listas ACL de acceso de *ejecución* en la propia carpeta de CDS y las carpetas que contenga. Para más información, se recomienda revisar los artículos [Listas de control de acceso en archivos y directorios](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) y [Procedimientos recomendados para usar Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices).
+Para agregar carpetas de CDS a Power BI, el usuario que agrega una de estas carpetas debe tener listas ACL de acceso de *lectura* en la propia carpeta de CDS y los archivos o carpetas que contenga. También debe tener listas ACL de acceso de *ejecución* en la propia carpeta de CDS y las carpetas que contenga. Para más información, se recomienda revisar los artículos [Listas de control de acceso en archivos y directorios](/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) y [Procedimientos recomendados para usar Azure Data Lake Storage Gen2](/azure/storage/blobs/data-lake-storage-best-practices).
 
 
 ### <a name="alternative-forms-of-authorization"></a>Formas alternativas de autorización
 
-Las personas o servicios fuera de Power BI también pueden aprovechar formas alternativas de autorización que permitan a los portadores de una clave acceso a *todos* los recursos de la cuenta, acceso completo a todos los recursos de la instancia de Data Lake y no puedan tener como ámbito los sistemas de archivos o carpetas de CDS. Esas alternativas pueden ser formas sencillas de conceder acceso, pero limitan la posibilidad de compartir recursos específicos en la instancia de Data Lake, y no proporcionan a los usuarios auditoría de quién ha accedido al almacenamiento. Se proporcionan detalles completos de los esquemas de autorización disponibles en el artículo [Control de acceso en Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control
+Las personas o servicios fuera de Power BI también pueden aprovechar formas alternativas de autorización que permitan a los portadores de una clave acceso a *todos* los recursos de la cuenta, acceso completo a todos los recursos de la instancia de Data Lake y no puedan tener como ámbito los sistemas de archivos o carpetas de CDS. Esas alternativas pueden ser formas sencillas de conceder acceso, pero limitan la posibilidad de compartir recursos específicos en la instancia de Data Lake, y no proporcionan a los usuarios auditoría de quién ha accedido al almacenamiento. Se proporcionan detalles completos de los esquemas de autorización disponibles en el artículo [Control de acceso en Azure Data Lake Storage Gen2](/azure/storage/blobs/data-lake-storage-access-control
 ).
 
 
@@ -88,12 +88,12 @@ Para información sobre los flujos de datos en general, consulte estos artículo
 * [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
 
 Para más información sobre Azure Storage, puede leer estos artículos:
-* [Guía de seguridad de Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Guía de seguridad de Azure Storage](/azure/storage/common/storage-security-guide)
 * [Introducción a los ejemplos de GitHub desde Azure Data Services](https://aka.ms/cdmadstutorial)
 
 Para más información sobre Common Data Service, puede leer su artículo de introducción:
-* [Introducción a Common Data Service](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Carpetas de CDS](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Definición del archivo de modelo de CDS](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Introducción a Common Data Service](/powerapps/common-data-model/overview)
+* [Carpetas de CDS](/common-data-model/data-lake)
+* [Definición del archivo de modelo de CDS](/common-data-model/model-json)
 
 Y, siempre puede intentar [plantear preguntas a la comunidad de Power BI](https://community.powerbi.com/).

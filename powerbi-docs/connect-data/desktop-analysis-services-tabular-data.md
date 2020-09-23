@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6f9661b6cda8782e83e64e30f55ae4b0d8bf6fa2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb55342974bcd64e7d5871b7b84977105b7467fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224872"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858701"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>Conexión a datos tabulares de Analysis Services en Power BI Desktop
 En Power BI Desktop hay dos maneras de conectarse a los datos y obtenerlos a partir del modelo tabular de SQL Server Analysis Services: Puede explorar mediante una conexión dinámica, o bien seleccionar los elementos e importarlos en Power BI Desktop.
@@ -81,7 +81,7 @@ Si elige la selección de elementos y la obtención de datos, los datos del mode
 **Respuesta:** Sí. En función de las características que use el modelo tabular, la experiencia en Power BI Desktop podría cambiar. Estos son algunos ejemplos:
 * Es posible que vea las medidas del modelo agrupadas en la parte superior de la lista del panel **Campos** en lugar de en tablas junto a las columnas. No se preocupe, todavía puede usarlas de la forma habitual; es más fácil encontrarlas de esta manera.
 
-* Si el modelo tabular tiene grupos de cálculo definidos, solo puede usarlos junto con las medidas del modelo y no con las medidas implícitas que cree al agregar campos numéricos a un objeto visual. Es posible que también se haya establecido la marca **DiscourageImplicitMeasures** de forma manual en el modelo, lo que tiene el mismo efecto. Para obtener más información, vea [Grupos de cálculo en Analysis Services](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits).
+* Si el modelo tabular tiene grupos de cálculo definidos, solo puede usarlos junto con las medidas del modelo y no con las medidas implícitas que cree al agregar campos numéricos a un objeto visual. Es posible que también se haya establecido la marca **DiscourageImplicitMeasures** de forma manual en el modelo, lo que tiene el mismo efecto. Para obtener más información, vea [Grupos de cálculo en Analysis Services](/analysis-services/tabular-models/calculation-groups#benefits).
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>Para cambiar el nombre del servidor después de la conexión inicial
 Después de crear un archivo de Power BI Desktop con una conexión dinámica de exploración, podría haber algunos casos en los que quiera cambiar la conexión a otro servidor. Por ejemplo, si ha creado el archivo de Power BI Desktop al conectarse a un servidor de desarrollo y antes de realizar la publicación en el servicio de Power BI, desea cambiar la conexión al servidor de producción.
@@ -97,4 +97,3 @@ Para cambiar el nombre del servidor:
 En la lista siguiente se describen todos los problemas conocidos al conectarse a SQL Server Analysis Services (SSAS) o Azure Analysis Services: 
 
 * **Error: No se ha podido cargar el esquema de modelo**: este error se suele producir si el usuario que intenta conectarse a Analysis Services no tiene acceso a la base de datos o al modelo.
-

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 079689fe9c068f433eb39d5363e253fecfc39968
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233218"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858931"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Tutorial: Insertar un objeto visual de Power Apps en un informe de Power BI
 
@@ -32,8 +32,8 @@ En este tutorial, obtendrá información sobre cómo:
 ## <a name="prerequisites"></a>Requisitos previos
 
 * El explorador [Google Chrome](https://www.google.com/chrome/browser/) o [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
-* Una [suscripción a Power BI](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi), con el [Ejemplo de análisis de oportunidades](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample) instalado
-* Conocimientos sobre cómo [crear aplicaciones en Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch) y cómo [editar informes de Power BI](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
+* Una [suscripción a Power BI](../fundamentals/service-self-service-signup-for-power-bi.md), con el [Ejemplo de análisis de oportunidades](../create-reports/sample-opportunity-analysis.md#get-the-content-pack-for-this-sample) instalado
+* Conocimientos sobre cómo [crear aplicaciones en Power Apps](/powerapps/maker/canvas-apps/data-platform-create-app-scratch) y cómo [editar informes de Power BI](../create-reports/service-the-report-editor-take-a-tour.md)
 
 
 
@@ -105,8 +105,8 @@ Tenga en cuenta que el recuento de oportunidades en la aplicación coincide con 
 Si ya no quiere usar el Ejemplo de análisis de oportunidades, puede eliminar el panel, el informe y el conjunto de datos.
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
-Para obtener información de solución de problemas, vea [Objeto visual de Power Apps para Power BI](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)
+Para obtener información de solución de problemas, vea [Objeto visual de Power Apps para Power BI](/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Objeto visual Preguntas y respuestas](power-bi-visualization-types-for-reports-and-q-and-a.md)    
-[Tutorial: Inserción de un objeto visual de Power Apps en un informe de Power BI](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)    
+[Tutorial: Inserción de un objeto visual de Power Apps en un informe de Power BI](/powerapps/maker/canvas-apps/powerapps-custom-visual)

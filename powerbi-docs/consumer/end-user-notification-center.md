@@ -7,15 +7,15 @@ featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6c500c7bf0548d115bc658cab868b8f415bbda90
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: dda0b61f1b74624f13003f57ffb29d99165f126c
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537973"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763918"
 ---
 # <a name="view-power-bi-notifications"></a>Visualización de notificaciones de Power BI
 
@@ -35,13 +35,13 @@ Vea cómo Amanda revisa, administra y responde a las notificaciones. Luego, siga
 ## <a name="view-your-notifications"></a>Visualización de las notificaciones
 1. Cuando inicie sesión en Power BI, las notificaciones nuevas que le hayan enviado mientras haya estado sin conexión se agregan a su fuente. Si tiene notificaciones nuevas, Power BI muestra una burbuja amarilla con el número de elementos nuevos.
    
-   ![Icono de nueva notificación](./media/end-user-notification-center/power-bi-new-notification.png)
+   ![Icono de nueva notificación](./media/end-user-notification-center/power-bi-new-notifications.png)
 2. En la barra de menús de Power BI, seleccione el icono de **Notificaciones**.
    
-   ![Barra de menús superior con icono de Notificaciones seleccionado](./media/end-user-notification-center/power-bi-notifications-icon.png)
+   ![Barra de menús superior con icono de Notificaciones seleccionado](./media/end-user-notification-center/power-bi-notification-icon.png)
 3. La notificación más reciente se muestra en la parte superior y los mensajes no leídos se presentan resaltados. Las notificaciones se conservan durante 90 días a menos que las elimine antes o alcancen el límite máximo de 100.
    
-   ![Centro de notificaciones](./media/end-user-notification-center/power-bi-notification-center.png)
+   ![Centro de notificaciones](./media/end-user-notification-center/power-bi-notifications-center.png)
 4. Para descartar una notificación, seleccione el icono de X.
 
 ## <a name="next-steps"></a>Pasos siguientes
