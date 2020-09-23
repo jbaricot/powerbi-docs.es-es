@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 08/24/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 012fad9cd566018a6fd0d96fb172fadd816e3420
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803052"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860863"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Glosario para usuarios empresariales del servicio Power BI    
 El servicio Power BI puede utilizar terminología desconocida o que puede llevar a confusiones. El glosario es un lugar ideal para consultar terminología, que incluso le permite marcar contenido. Otro recurso útil para conocer la base sobre la que se sustenta el servicio Power BI es [Conceptos básicos](end-user-basic-concepts.md). En Conceptos básicos encontrará información general de alto nivel sobre las *piezas* que forman Power BI y cómo se interconectan.
@@ -97,7 +97,7 @@ El contenido del servicio Power BI incluye normalmente paneles, informes y apli
 Índice de contenido de la aplicación.
 
 **paquete de contenido**    
- Colección de conjuntos de datos, paneles e informes previamente empaquetados. Ahora se reemplazan por **aplicaciones**. Conozca la [nueva experiencia de área de trabajo](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
+ Colección de conjuntos de datos, paneles e informes previamente empaquetados. Ahora se reemplazan por **aplicaciones**. Conozca la [nueva experiencia de área de trabajo](../collaborate-share/service-create-the-new-workspaces.md). 
 
 **content view (vista de contenido)**
 

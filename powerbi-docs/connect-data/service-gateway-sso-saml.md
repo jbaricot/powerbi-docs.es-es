@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 772a9c0d171c2391a137f2e8a97f262f59df5cfe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 38aee727245cd7a33aefe1ee64a8a5be8b062cd7
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231378"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859782"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de SAML (Lenguaje de marcado de aserción de seguridad) para el SSO de Power BI en orígenes de datos locales
 
@@ -26,7 +26,7 @@ Actualmente se admite SAP HANA con SAML. Para más información acerca de cómo 
 
 Se admiten orígenes de datos adicionales con [Kerberos](service-gateway-sso-kerberos.md) (incluido SAP HANA).
 
-Para SAP HANA, se recomienda habilitar el cifrado antes de establecer una conexión de inicio de sesión único con SAML. Para habilitar el cifrado, configure el servidor de HANA para que acepte las conexiones cifradas y configure la puerta de enlace para que use el cifrado para comunicarse con el servidor de HANA. Como el controlador ODBC de HANA no cifra las aserciones de SAML de forma predeterminada, la aserción de SAML firmada se envía desde la puerta de enlace al servidor de HANA *sin cifrar* y es vulnerable a la intercepción y reutilización por parte de terceros. Consulte [Habilitación del cifrado para SAP HANA](/power-bi/desktop-sap-hana-encryption) para instrucciones sobre cómo habilitar el cifrado para HANA con la biblioteca de OpenSSL.
+Para SAP HANA, se recomienda habilitar el cifrado antes de establecer una conexión de inicio de sesión único con SAML. Para habilitar el cifrado, configure el servidor de HANA para que acepte las conexiones cifradas y configure la puerta de enlace para que use el cifrado para comunicarse con el servidor de HANA. Como el controlador ODBC de HANA no cifra las aserciones de SAML de forma predeterminada, la aserción de SAML firmada se envía desde la puerta de enlace al servidor de HANA *sin cifrar* y es vulnerable a la intercepción y reutilización por parte de terceros. Consulte [Habilitación del cifrado para SAP HANA](./desktop-sap-hana-encryption.md) para instrucciones sobre cómo habilitar el cifrado para HANA con la biblioteca de OpenSSL.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>Configuración del origen de datos y la puerta de enlace
 

@@ -11,12 +11,12 @@ ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: 13bbf23c075fb1f58c2af71ae0a082d4e539d023
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 19933ccbf18003e293e823c2b1f201e953c7bde0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537697"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854791"
 ---
 # <a name="power-bi-planned-maintenance"></a>Mantenimiento planeado de Power BI
 
@@ -42,4 +42,4 @@ Si la organización se ve afectada, le proporcionaremos un aviso previo. Los adm
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [Habilitación de las notificaciones de interrupción del servicio](service-interruption-notifications.md)
-* [Seguimiento del próximo cambio en el Centro de mensajes](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide)
+* [Seguimiento del próximo cambio en el Centro de mensajes](/microsoft-365/admin/manage/message-center?view=o365-worldwide)

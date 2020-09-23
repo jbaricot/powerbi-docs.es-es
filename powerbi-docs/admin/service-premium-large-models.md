@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 4f0a34f990613ab57a95d1f299392d77c7c1f625
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204325"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854676"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Modelos grandes en Power BI Premium (versión preliminar)
 
@@ -94,7 +94,7 @@ Tenga en cuenta el impacto de la expulsión en los modelos grandes. A pesar de l
 
 ## <a name="checking-dataset-size"></a>Comprobación del tamaño del conjunto de datos
 
-Después de cargar los datos históricos, puede usar [SSMS](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) a través del [punto de conexión de XMLA](service-premium-connect-tools.md) para comprobar el tamaño estimado del conjunto de datos en la ventana de propiedades del modelo.
+Después de cargar los datos históricos, puede usar [SSMS](/sql/ssms/download-sql-server-management-studio-ssms) a través del [punto de conexión de XMLA](service-premium-connect-tools.md) para comprobar el tamaño estimado del conjunto de datos en la ventana de propiedades del modelo.
 
 ![Tamaño estimado del conjunto de datos](media/service-premium-large-models/estimated-dataset-size.png)
 
@@ -122,7 +122,7 @@ Tenga en cuenta las siguientes restricciones cuando use modelos grandes:
 
 ## <a name="availability-in-regions"></a>Disponibilidad en regiones
 
-Los modelos grandes de Power BI solo están disponibles en determinadas regiones de Azure que admiten [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
+Los modelos grandes de Power BI solo están disponibles en determinadas regiones de Azure que admiten [Azure Premium Files Storage](/azure/storage/files/storage-files-planning#storage-tiers).
 
 En la lista siguiente se indican las regiones en las que están disponibles los modelos grandes en Power BI. Las regiones que no están en la lista siguiente no se admiten para los modelos grandes:
 
@@ -155,7 +155,7 @@ En la lista siguiente se indican las regiones en las que están disponibles los 
 
 Los vínculos siguientes proporcionan información que puede ser útil para trabajar con modelos grandes:
 
-* [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
+* [Azure Premium Files Storage](/azure/storage/files/storage-files-planning#storage-tiers)
 * [Configuración de compatibilidad con Multi-Geo en Power BI Premium](service-admin-premium-multi-geo.md)
 * [Sus propias claves de cifrado para Power BI](service-encryption-byok.md)
 * [Cómo funcionan las capacidades](service-premium-what-is.md#how-capacities-function)

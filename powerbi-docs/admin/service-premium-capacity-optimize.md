@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 4d03419105244b7fddafea3b26b69e4f4f5f874c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ae52e9eb2d018e68f7b84bc412797c25825a8871
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83134048"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854860"
 ---
 # <a name="optimizing-premium-capacities"></a>Optimización de las capacidades Premium
 
@@ -186,7 +186,7 @@ En el nivel de modelo:
 
 - Los diseños de consulta de Power Query pueden minimizar o quitar transformaciones complejas, especialmente las que combinan distintos orígenes de datos (los almacenes de datos lo logran durante su fase de extracción, transformación y carga). Además, al asegurarse de que se establecen los niveles de privacidad del origen de datos adecuados, se puede evitar la necesidad de que Power BI cargue resultados completos para generar un resultado combinado en las consultas.
 - La estructura del modelo determina los datos que se van a cargar y tiene un impacto directo en el tamaño del modelo. Se puede diseñar para evitar la carga de datos innecesarios mediante la eliminación de columnas y filas (especialmente datos históricos), o la carga de datos resumidos (a costa de cargar datos detallados). Se puede lograr una reducción drástica del tamaño si se quitan las columnas de cardinalidad (especialmente las columnas de texto) que no se almacenan ni comprimen de manera muy eficaz.
-- El rendimiento de la consulta del modelo se puede mejorar mediante la configuración de relaciones de dirección única, a menos que haya una buena razón para permitir el filtrado bidireccional. Considere también la posibilidad de usar la función [CROSSFILTER](https://docs.microsoft.com/dax/crossfilter-function) en lugar del filtrado bidireccional.
+- El rendimiento de la consulta del modelo se puede mejorar mediante la configuración de relaciones de dirección única, a menos que haya una buena razón para permitir el filtrado bidireccional. Considere también la posibilidad de usar la función [CROSSFILTER](/dax/crossfilter-function) en lugar del filtrado bidireccional.
 - Las tablas de agregación pueden obtener respuestas de consulta rápidas mediante la carga de datos resumidos previamente, pero esto aumentará el tamaño del modelo y dará lugar a tiempos de actualización más largos. Por lo general, las tablas de agregación se deben reservar para modelos muy grandes o diseños de modelos compuestos.
 - Las tablas y columnas calculadas aumentan el tamaño del modelo y dan lugar a tiempos de actualización más largos. Por lo general, se puede lograr un tamaño de almacenamiento más pequeño y un tiempo de actualización más rápido cuando los datos se materializan o calculan en el origen de datos. Si esto no es posible, el uso de columnas personalizadas de Power Query puede ofrecer una compresión de almacenamiento mejorada.
 - Es posible que se puedan ajustar expresiones DAX para medidas y reglas de RLS, y reescribir la lógica para evitar fórmulas costosas

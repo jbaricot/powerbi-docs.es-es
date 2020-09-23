@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fa4c8102eeb41fb754604eb646c11f44891413c9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 037a4c28f7b70cdd6bc546014a0b9218e89a7e3d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236249"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860725"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Conexión a los servicios que usa con Power BI
 Con Power BI, puede conectarse a los distintos servicios que usa en su empresa, como Salesforce, Microsoft Dynamics y Google Analytics. Power BI empieza usando sus credenciales para conectarse al servicio. Crea una *área de trabajo* de Power BI con un panel y un conjunto de informes de Power BI que muestran los datos automáticamente y proporcionan información visual sobre la empresa.
 
 >[!IMPORTANT]
->Los paquetes de contenido de servicio se reemplazarán por [aplicaciones de plantilla](https://docs.microsoft.com/power-bi/service-template-apps-overview). Desde el 25 de septiembre de 2019, varios paquetes de contenido ya están en desuso. Cualquier paquete de contenido en desuso que haya instalado permanecerá en su cuenta, pero no se proporcionará documentación ni soporte técnico para dicho paquete; tampoco será posible instalarlo de nuevo.
+>Los paquetes de contenido de servicio se reemplazarán por [aplicaciones de plantilla](./service-template-apps-overview.md). Desde el 25 de septiembre de 2019, varios paquetes de contenido ya están en desuso. Cualquier paquete de contenido en desuso que haya instalado permanecerá en su cuenta, pero no se proporcionará documentación ni soporte técnico para dicho paquete; tampoco será posible instalarlo de nuevo.
 
 Inicie sesión en Power BI para ver todos los [servicios a los que puede conectarse](https://app.powerbi.com/getdata/services). 
 

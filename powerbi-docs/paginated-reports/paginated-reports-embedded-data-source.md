@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 03/02/2020
-ms.openlocfilehash: 001a66fc20455c207bd6ad2928041ae0861732eb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 37ab82de16e45f86f2d2aba5113ba4efe6fc383c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239615"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859690"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Creación de un origen de datos insertado para informes paginados en el servicio Power BI
 
@@ -59,7 +59,7 @@ Consulte [Datos del informe en el Generador de informes de Power BI](report-bui
   
 4.  Seleccione **Credenciales**.  
   
-     Especifique las credenciales que se usarán para este origen de datos. El propietario del origen de datos elige el tipo de credenciales que se admite. Para más información, vea [Especificar información de credenciales y conexión para los orígenes de datos de informes](https://docs.microsoft.com/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources).
+     Especifique las credenciales que se usarán para este origen de datos. El propietario del origen de datos elige el tipo de credenciales que se admite. Para más información, vea [Especificar información de credenciales y conexión para los orígenes de datos de informes](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources).
   
 5.  Seleccione **Aceptar**.  
   
@@ -93,4 +93,3 @@ Los informes paginados que se conectan a los conjuntos de datos de Power BI sig
 
 - [Creación de un conjunto de datos insertado para un informe paginado en el servicio Power BI](paginated-reports-create-embedded-dataset.md)
 - [¿Qué son los informes paginados en Power BI Premium?](paginated-reports-report-builder-power-bi.md)
-

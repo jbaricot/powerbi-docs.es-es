@@ -9,12 +9,12 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: a1d62ad9cd8475e217a0ae051919792970dbb34d
-ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
+ms.openlocfilehash: 4b2b29effb1d9b4b2d8e743990dd3dd0d27470f8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "84219594"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859851"
 ---
 # <a name="what-is-power-bi-report-server"></a>¿Qué es Power BI Report Server?
 
@@ -38,9 +38,9 @@ El punto de entrada de Power BI Report Server es un portal web seguro que puede 
 
 ![Portal web del servidor de informes de Power BI](media/get-started/web-portal.png)
 
-Dependiendo de sus permisos, puede administrar el contenido en el portal web. Puede programar el procesamiento de informes, acceder a informes a petición y suscribirse a los informes publicados. Puede aplicar también su propia [marca](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) personalizada al portal web. 
+Dependiendo de sus permisos, puede administrar el contenido en el portal web. Puede programar el procesamiento de informes, acceder a informes a petición y suscribirse a los informes publicados. Puede aplicar también su propia [marca](/sql/reporting-services/branding-the-web-portal) personalizada al portal web. 
 
-Obtenga más información sobre el [portal web de Power BI Report Server](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
+Obtenga más información sobre el [portal web de Power BI Report Server](/sql/reporting-services/web-portal-ssrs-native-mode).
 
 ## <a name="power-bi-reports"></a>Informes de Power BI
 Cree informes de Power BI (.pbix) con la versión de Power BI Desktop optimizada para el servidor de informes. Después, publíquelos y véalos en el portal web en su propio entorno.
@@ -56,17 +56,17 @@ Los informes paginados (.rdl) son informes con estilo de documento con visualiza
 
 ![Informes paginados en Power BI Report Server](media/get-started/paginated-reports.png)
 
-Puede crear informes paginados mediante el [Generador de informes](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) o el Diseñador de informes en [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
+Puede crear informes paginados mediante el [Generador de informes](/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) o el Diseñador de informes en [SQL Server Data Tools (SSDT)](/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
 
 ## <a name="reporting-services-mobile-reports"></a>Informes móviles de Reporting Services
 Los informes móviles se conectan a datos locales y tienen un diseño dinámico que se adapta a diferentes dispositivos y distintas maneras de contenerlos. Puede crearlos con el Publicador de informes móviles de Microsoft SQL Server.
 
-Obtenga más información sobre los [Informes móviles de Reporting Services](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher). 
+Obtenga más información sobre los [Informes móviles de Reporting Services](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher). 
 
 ## <a name="report-server-programming-features"></a>Características de programación del servidor de informes
 Saque provecho de las características de programación de Power BI Report Server para que pueda extender y personalizar los informes, con API para integrar o extender el procesamiento de datos e informes en aplicaciones personalizadas.
 
-Más [documentación para desarrolladores del servidor de informes](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation).
+Más [documentación para desarrolladores del servidor de informes](/sql/reporting-services/reporting-services-developer-documentation).
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Instalar un servidor de informes de Power BI](install-report-server.md)  

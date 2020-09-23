@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cfe184b1f2bd34796dea8982117e3ba90561fa31
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: fb5807dd0a5bfa5d3223a8c436da475c51d8d8a0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459701"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860633"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmisión en tiempo real en Power BI
 Con la transmisión en tiempo real de Power BI, puede transmitir los datos y actualizar los paneles en tiempo real. Cualquier objeto visual o panel creado en Power BI puede mostrar y actualizar datos en tiempo real y objetos visuales. Los dispositivos y orígenes de datos de transmisión pueden ser sensores de fábrica, orígenes de medios sociales, métricas de uso del servicio y muchos otros elementos a partir de los cuales se puedan recopilar o transmitir datos dependientes del tiempo.
@@ -85,7 +85,7 @@ Si el valor de *defaultMode* se establece en *pushStreaming*, el conjunto de dat
 > [!NOTE]
 > Cuando se usan conjuntos de datos con el valor de *defaultMode* establecido en *pushStreaming*, si una solicitud supera la restricción de tamaño de 15 KB para un conjunto de datos de **streaming**, pero es menor que la restricción de tamaño de 16 MB de un conjunto de datos de **inserción**, la solicitud se realizará correctamente y los datos se actualizarán en el conjunto de datos de inserción. Sin embargo, los iconos de streaming generarán un error temporal.
 
-Una vez creado el conjunto de datos, use las API REST para insertar datos con la API [**PostRows**](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows).
+Una vez creado el conjunto de datos, use las API REST para insertar datos con la API [**PostRows**](/rest/api/power-bi/pushdatasets/datasets_postrows).
 
 Todas las solicitudes a las API de REST se protegen con **Azure AD OAuth**.
 
@@ -154,7 +154,7 @@ Las secciones siguientes detallan cada una de las opciones.
 
 ![Captura de pantalla del cuadro de diálogo Nuevo conjunto de datos de transmisión en el que se muestran las entradas de API REST de Power BI para la conexión.](media/service-real-time-streaming/real-time-streaming_5.png)
 
-Si desea que Power BI almacene los datos que se envían a través de esta secuencia de datos, habilite *Análisis del historial de datos* y se podrán realizar informes y análisis en el flujo de datos recopilados. También puede [obtener más información acerca de la API](https://docs.microsoft.com/rest/api/power-bi/).
+Si desea que Power BI almacene los datos que se envían a través de esta secuencia de datos, habilite *Análisis del historial de datos* y se podrán realizar informes y análisis en el flujo de datos recopilados. También puede [obtener más información acerca de la API](/rest/api/power-bi/).
 
 Una vez creado correctamente el flujo de datos, se le ofrece un punto de conexión de URL de la API REST, al que la aplicación puede llamar mediante solicitudes *POST* para insertar los datos en el conjunto de **datos de transmisión** de Power BI que ha creado.
 
@@ -244,5 +244,5 @@ Obtenga más información sobre la actualización automática de páginas en el 
 ## <a name="next-steps"></a>Pasos siguientes
 Estos son algunos vínculos que le resultarán útiles para trabajar con streaming en tiempo real en Power BI:
 
-* [Información general de la API de REST de Power BI con datos en tiempo real](https://docs.microsoft.com/rest/api/power-bi/)
+* [Información general de la API de REST de Power BI con datos en tiempo real](/rest/api/power-bi/)
 * [Azure Stream Analytics](https://azure.microsoft.com/services/stream-analytics/)

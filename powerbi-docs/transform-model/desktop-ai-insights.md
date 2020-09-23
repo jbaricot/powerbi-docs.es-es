@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d3539da05aed1fda28ca6e93c96e1e2f7793c3d6
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 7439eff964340d3eba20b5d67d2aec992394505f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878514"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860104"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>Uso de Conclusiones de IA en Power BI Desktop
 
@@ -40,10 +40,10 @@ Con Text Analytics y Vision en Power BI, puede aplicar algoritmos distintos de 
 
 Estos son los servicios compatibles actualmente:
 
-* [Análisis de sentimiento](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)
-* [Extracción de frases clave](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)
-* [Detección de idioma](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)
-* [Etiquetado de imágenes](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images) 
+* [Análisis de sentimiento](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)
+* [Extracción de frases clave](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)
+* [Detección de idioma](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)
+* [Etiquetado de imágenes](/azure/cognitive-services/computer-vision/concept-tagging-images) 
 
 Las transformaciones se ejecutan en el servicio Power BI y no requieren una suscripción a Azure Cognitive Services. 
 
@@ -63,7 +63,7 @@ En esta sección se describen las funciones disponibles en Cognitive Services en
 
 La función de detección de idioma evalúa la entrada de texto y, para cada campo, devuelve el nombre del idioma y el identificador ISO. Esta función es útil para las columnas de datos que recopilan texto arbitrario, donde se desconoce el idioma. La función espera los datos en formato de texto como entrada.
 
-Text Analytics reconoce hasta 120 idiomas. Para obtener más información, consulte los [idiomas admitidos](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
+Text Analytics reconoce hasta 120 idiomas. Para obtener más información, consulte los [idiomas admitidos](/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
 
 #### <a name="extract-key-phrases"></a>Extracción de frases clave
 
@@ -79,7 +79,7 @@ Text Analytics usa un algoritmo de clasificación de aprendizaje automático par
 
 El análisis de sentimiento se realiza en todo el campo de entrada, en lugar de extraerse opiniones para una entidad concreta del texto. En la práctica, existe una tendencia a la precisión de la puntuación para mejorar cuando los documentos contienen una o dos frases en lugar de un gran bloque de texto. Durante una fase de evaluación de objetividad, el modelo determina si un campo de entrada como un todo es objetivo o contiene opiniones. Un campo de entrada que es principalmente objetivo no avanza a la fase de detección de sentimiento, lo que da lugar a una puntuación de 0,50 sin ningún procesamiento adicional. Para los campos de entrada que continúan en la canalización, la siguiente fase genera una puntuación superior o inferior a 0,50, dependiendo del grado de sentimiento detectado en el campo de entrada.
 
-Actualmente, Análisis de sentimiento admite inglés, alemán, español y francés. Otros idiomas están en versión preliminar. Para obtener más información, consulte los [idiomas admitidos](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
+Actualmente, Análisis de sentimiento admite inglés, alemán, español y francés. Otros idiomas están en versión preliminar. Para obtener más información, consulte los [idiomas admitidos](/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
 
 #### <a name="tag-images"></a>Etiquetado de imágenes
 
@@ -87,7 +87,7 @@ La función **Etiquetar imágenes** devuelve etiquetas basadas en más de 2000 o
 
 Después de cargar una imagen o especificar una dirección URL de la imagen, los algoritmos de Computer Vision generan etiquetas basadas en los objetos, seres vivos y acciones identificados en la imagen. El etiquetado no se limita al sujeto principal, como una persona en primer plano, sino que también incluye la configuración (interior o exterior), muebles, plantas, animales, accesorios, gadgets, etc.
 
-Esta función requiere una dirección URL de la imagen o un campo Base 64 como entrada. En este momento, el etiquetado de imágenes admite inglés, español, japonés, portugués y chino simplificado. Para obtener más información, consulte los [idiomas admitidos](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters).
+Esta función requiere una dirección URL de la imagen o un campo Base 64 como entrada. En este momento, el etiquetado de imágenes admite inglés, español, japonés, portugués y chino simplificado. Para obtener más información, consulte los [idiomas admitidos](/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters).
 
 ### <a name="invoking-text-analytics-or-vision-functions-in-power-query"></a>Invocación de funciones de Text Analytics o Vision en Power Query
 
@@ -162,8 +162,8 @@ Para más información sobre los flujos de datos, consulte [Preparación de dato
 
 Para más información sobre Azure Machine Learning, consulte los artículos siguientes:
 
-- Información general: [¿Qué es Azure Machine Learning?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
-- Guías de inicio rápido y tutoriales de Azure Machine Learning: [Documentación de Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/)
+- Información general: [¿Qué es Azure Machine Learning?](/azure/machine-learning/service/overview-what-is-azure-ml)
+- Guías de inicio rápido y tutoriales de Azure Machine Learning: [Documentación de Azure Machine Learning](/azure/machine-learning/)
 
 ### <a name="granting-access-to-an-azure-ml-model"></a>Concesión de acceso a un modelo de Azure ML
 
@@ -172,7 +172,7 @@ Para obtener acceso a un modelo de Azure ML desde Power BI, el usuario debe tene
 - En los modelos de Machine Learning Studio (clásico), acceso de **lectura** al servicio web Machine Learning Studio (clásico)
 - En los modelos de Machine Learning, acceso de **lectura** al área de trabajo de Machine Learning
 
-En los pasos de esta sección se describe cómo conceder un acceso de usuario de Power BI a un modelo hospedado en el servicio Azure ML de modo que pueda tener acceso a este modelo como función de Power Query. Para más detalles, consulte [Manage access using RBAC and the Azure portal](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal) (Administrar el acceso mediante RBAC y Azure Portal).
+En los pasos de esta sección se describe cómo conceder un acceso de usuario de Power BI a un modelo hospedado en el servicio Azure ML de modo que pueda tener acceso a este modelo como función de Power Query. Para más detalles, consulte [Manage access using RBAC and the Azure portal](/azure/role-based-access-control/role-assignments-portal) (Administrar el acceso mediante RBAC y Azure Portal).
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com/).
 2. Vaya a la página **Suscripciones**. Encontrará la página **Suscripciones** a través de la lista **Todos los servicios** del menú de navegación izquierdo de Azure Portal.
@@ -186,7 +186,7 @@ En los pasos de esta sección se describe cómo conceder un acceso de usuario de
 
 Los científicos de datos usan principalmente Python para desarrollar e incluso implementar sus modelos de aprendizaje automático para Machine Learning. A diferencia de Machine Learning Studio (clásico), que ayuda a automatizar la tarea de creación de un archivo de esquema para el modelo, en el caso de Machine Learning, el científico de datos debe generar de forma explícita el archivo de esquema mediante Python.
 
-Este archivo de esquema se debe incluir en el servicio web implementado para los modelos de Machine Learning. Para generar de forma automática el esquema para el servicio web, debe proporcionar un ejemplo de la entrada y salida en el script de entrada para el modelo implementado. Consulte la subsección sobre [Generación automática de esquemas de Swagger (opcional) en los modelos de implementación con la documentación del servicio Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema). El vínculo incluye el script de entrada de ejemplo con las instrucciones para la generación de esquemas.
+Este archivo de esquema se debe incluir en el servicio web implementado para los modelos de Machine Learning. Para generar de forma automática el esquema para el servicio web, debe proporcionar un ejemplo de la entrada y salida en el script de entrada para el modelo implementado. Consulte la subsección sobre [Generación automática de esquemas de Swagger (opcional) en los modelos de implementación con la documentación del servicio Azure Machine Learning](/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema). El vínculo incluye el script de entrada de ejemplo con las instrucciones para la generación de esquemas.
 
 En concreto, las funciones _@input\_schema_ y _@output\_schema_ del script de entrada hacen referencia a los formatos de ejemplo de entrada y salida de las variables _input\_sample_ y _output\_sample_, y usan estos ejemplos para generar una especificación OpenAPI (Swagger) para el servicio web durante la implementación.
 

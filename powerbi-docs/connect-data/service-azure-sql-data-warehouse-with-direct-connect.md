@@ -10,12 +10,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/03/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: ae7d19858feaf30c8263c0fc24c180781783d851
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f5c8a47ece5d4bc072c5518a12a553b7967059de
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230659"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859943"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse con DirectQuery
 
@@ -75,7 +75,7 @@ El nombre completo del servidor y el nombre de la base de datos pueden encontrar
 ![Azure Portal](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
-> Si su inquilino de Power BI está en la misma región que Azure SQL Data Warehouse, no habrá ningún cargo de salida. Para encontrar la ubicación de su inquilino de Power BI, use [estas instrucciones](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located).
+> Si su inquilino de Power BI está en la misma región que Azure SQL Data Warehouse, no habrá ningún cargo de salida. Para encontrar la ubicación de su inquilino de Power BI, use [estas instrucciones](../admin/service-admin-where-is-my-tenant-located.md).
 
 [!INCLUDE [direct-query-sso](../includes/direct-query-sso.md)]
 

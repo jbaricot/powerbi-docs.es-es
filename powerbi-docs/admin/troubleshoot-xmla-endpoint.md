@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: bd2b8c4af1fc36fabc863aa1c67ed5af40265de2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87363971"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854090"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Solución de problemas de conectividad de los puntos de conexión XMLA
 
@@ -138,11 +138,11 @@ Al desencadenar una actualización programada o una actualización a petición e
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Invalidaciones en el comando Refresh de TMSL
 
-Las invalidaciones en el [comando Refresh (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl) permiten a los usuarios elegir otra definición de consulta de partición o de origen de datos para la operación de actualización. Actualmente, en Power BI Premium **no se admiten las invalidaciones**. Se devuelve un error que indica que el enlace fuera de línea no se permite en Power BI Premium. Para obtener más información, vea "Compatibilidad con la lectura y escritura de XMLA" en la documentación del producto" .
+Las invalidaciones en el [comando Refresh (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) permiten a los usuarios elegir otra definición de consulta de partición o de origen de datos para la operación de actualización. Actualmente, en Power BI Premium **no se admiten las invalidaciones**. Se devuelve un error que indica que el enlace fuera de línea no se permite en Power BI Premium. Para obtener más información, vea "Compatibilidad con la lectura y escritura de XMLA" en la documentación del producto" .
 
 ## <a name="see-also"></a>Vea también
 
 [Conectividad del conjunto de datos con el punto de conexión de XMLA](service-premium-connect-tools.md)   
 [Automatización de tareas de área de trabajo y conjunto de datos de Premium con entidades de servicio](service-premium-service-principal.md)   
 [Solución de problemas de Analizar en Excel](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[Implementación de la solución de modelo tabular](https://docs.microsoft.com/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current).
+[Implementación de la solución de modelo tabular](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current).

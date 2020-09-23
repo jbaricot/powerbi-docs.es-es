@@ -8,29 +8,29 @@ ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6cb38d17a84ab41acda96f0564b12188c719254
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229674"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860748"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Conexión con el panel de respuesta ante emergencias regionales
-El panel de respuesta ante emergencias regionales es el componente de informes de la [solución de respuesta ante emergencias regionales de Microsoft Power Platform](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview). Los administradores de la organización regional pueden visualizar el panel en su inquilino de Power BI, lo que les permite ver rápidamente datos y métricas importantes que les ayudarán a tomar decisiones eficaces.
+El panel de respuesta ante emergencias regionales es el componente de informes de la [solución de respuesta ante emergencias regionales de Microsoft Power Platform](/powerapps/sample-apps/regional-emergency-response/overview). Los administradores de la organización regional pueden visualizar el panel en su inquilino de Power BI, lo que les permite ver rápidamente datos y métricas importantes que les ayudarán a tomar decisiones eficaces.
 
 ![Informe de la aplicación del panel de respuesta ante emergencias regionales](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-report.png)
 
 En este artículo se explica cómo instalar la aplicación de respuesta ante emergencias regionales mediante la aplicación de plantilla del panel de respuesta ante emergencias regionales y cómo conectarse a los orígenes de datos.
 
-Para conocer en detalle lo que se presenta en el panel, vea [Obtener información](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights).
+Para conocer en detalle lo que se presenta en el panel, vea [Obtener información](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights).
 
 Después de instalar la aplicación de plantilla y conectarse a los orígenes de datos, puede personalizar el informe según sus necesidades. Luego puede distribuirlo como una aplicación entre los compañeros de su organización.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Antes de instalar esta aplicación de plantilla, debe instalar y configurar la [solución de respuesta ante emergencias regionales](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy). Al instalar esta solución, se crean las referencias de orígenes de datos necesarias para rellenar la aplicación con datos.
+Antes de instalar esta aplicación de plantilla, debe instalar y configurar la [solución de respuesta ante emergencias regionales](/powerapps/sample-apps/regional-emergency-response/deploy). Al instalar esta solución, se crean las referencias de orígenes de datos necesarias para rellenar la aplicación con datos.
 
-Al instalar la solución de respuesta ante emergencias regionales, tome nota de la [dirección URL de la instancia del entorno Common Data Service](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard). La necesitará para conectar la aplicación de plantilla a los datos.
+Al instalar la solución de respuesta ante emergencias regionales, tome nota de la [dirección URL de la instancia del entorno Common Data Service](/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard). La necesitará para conectar la aplicación de plantilla a los datos.
 
 ## <a name="install-the-app"></a>Instalación de la aplicación
 
@@ -62,7 +62,7 @@ Al instalar la solución de respuesta ante emergencias regionales, tome nota de 
 
    ![Vínculo Conectar los datos de la aplicación del panel de respuesta ante emergencias regionales](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-connect-data.png)
 
-1. En el campo cuadro de diálogo que aparece, escriba la [dirección URL de la instancia del entorno Common Data Service](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Por ejemplo: https://[myenv].crm.dynamics.com. Cuando termine, haga clic en **Siguiente**.
+1. En el campo cuadro de diálogo que aparece, escriba la [dirección URL de la instancia del entorno Common Data Service](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Por ejemplo: https://[myenv].crm.dynamics.com. Cuando termine, haga clic en **Siguiente**.
 
    ![Cuadro de diálogo de la dirección URL de la aplicación del panel de respuesta ante emergencias regionales](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-url-dialog.png)
 
@@ -92,11 +92,11 @@ Cuando se haya completado la actualización de los datos, [configure una program
 
 ## <a name="customize-and-share"></a>Personalizar y compartir
 
-Vea [Personalización y uso compartido de la aplicación](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) para obtener detalles. Asegúrese de revisar las [declinaciones de responsabilidades del informe](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) antes de publicar o distribuir la aplicación.
+Vea [Personalización y uso compartido de la aplicación](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) para obtener detalles. Asegúrese de revisar las [declinaciones de responsabilidades del informe](/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) antes de publicar o distribuir la aplicación.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Descripción del panel de respuesta ante emergencias regionales](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
-* [Configuración e información sobre la plantilla de ejemplo de Comunicación de crisis en Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [Descripción del panel de respuesta ante emergencias regionales](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
+* [Configuración e información sobre la plantilla de ejemplo de Comunicación de crisis en Power Apps](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 * [¿Qué son las aplicaciones de plantilla de Power BI?](../connect-data/service-template-apps-overview.md)
 * [Instalación y distribución de aplicaciones de plantilla en la organización](../connect-data/service-template-apps-install-distribute.md)

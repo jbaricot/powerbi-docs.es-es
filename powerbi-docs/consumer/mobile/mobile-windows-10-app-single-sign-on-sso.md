@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: f62237e0aa0ac31d63fee4b980db2991206ddf4d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4202d2c7e4c87f8085a04af9922cf7cc6c55fbfd
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240318"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860196"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Inicio de sesión único en la aplicación Windows de Power BI Mobile
 
@@ -24,7 +24,7 @@ Como la aplicación de Power BI para Windows se integra en Azure Active Director
 El inicio de sesión único solo se habilita para dispositivos Windows administrados por Windows Azure Active Directory.
 
 >[!NOTE]
->El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="sign-in-with-sso"></a>Inicio de sesión con SSO
 
@@ -38,4 +38,3 @@ Si no quiere usar las credenciales de la sesión activa de Windows para iniciar 
 
 - [Introducción a la aplicación móvil de Power BI para Windows 10](mobile-windows-10-phone-app-get-started.md)
 - ¿Preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2ae57fb5a3d2ff38a29e0c1e3c24af23582af43a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1273030bc1fd8664e854eb2b59939cf271b017fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222243"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860035"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>Uso de formato condicional en tablas 
 
@@ -181,9 +181,9 @@ Hay algunas consideraciones que tener en cuenta al trabajar con el formato condi
 
 - El formato condicional solo se aplica a los valores de objetos visuales Tabla o Matriz, y no a los subtotales, los totales generales o la fila **Total**. 
 - Las tablas que no tengan una agrupación se muestran como una sola fila que no admite el formato condicional.
-- No se puede aplicar formato de degradado con valores máximos y mínimos automáticos, ni un formato basado en reglas con reglas de porcentaje, si los datos contienen valores *NaN*. NaN significa "no es un número", lo que suele deberse a un error de división entre cero. Se puede usar la [función DIVIDE() DAX](https://docs.microsoft.com/dax/divide-function-dax) para evitar estos errores.
+- No se puede aplicar formato de degradado con valores máximos y mínimos automáticos, ni un formato basado en reglas con reglas de porcentaje, si los datos contienen valores *NaN*. NaN significa "no es un número", lo que suele deberse a un error de división entre cero. Se puede usar la [función DIVIDE() DAX](/dax/divide-function-dax) para evitar estos errores.
 - El formato condicional requiere que se aplique una agregación o una medida al valor. Es por eso que se ve "Primero" o "Último"' en el ejemplo de **Color por valor**. Si va a crear un informe en un cubo multidimensional de Analysis Services, no podrá utilizar un atributo para el formato condicional a menos que el propietario del cubo haya generado una medida que proporcione el valor.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Para obtener más información sobre formatos de color, vea [Sugerencias y trucos para el formato de color en Power BI](../visuals/service-tips-and-tricks-for-color-formatting.md).  
+Para obtener más información sobre formatos de color, vea [Sugerencias y trucos para el formato de color en Power BI](../visuals/service-tips-and-tricks-for-color-formatting.md).

@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: c8db048f9ae74871840df96e63c60510ce800318
-ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.openlocfilehash: dca1b3bb107c8a2e02b48db9d22a4fe6c2875a4c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89443315"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860932"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 
@@ -100,7 +100,7 @@ Esta es una lista completa de las [regiones y los idiomas que admite Power BI](.
 
 Más información sobre seguridad, privacidad y cumplimiento de Power BI aquí:
 
-* Estas notas del producto sobre la [seguridad de Power BI](https://go.microsoft.com/fwlink/?LinkId=829185).
+* Estas notas del producto sobre la [seguridad de Power BI](../guidance/whitepaper-powerbi-security.md).
 
 * Este artículo sobre [soporte técnico de seguridad de Power BI](../admin/service-admin-power-bi-security.md).
 

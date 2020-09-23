@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: d3ffa51cfc991f7cd51c0c465d67d238998958cb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 374b9eb1becb5c343600521efc2d493f7d83e677
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219767"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854056"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Compartir un panel o un informe desde aplicaciones móviles de Power BI
 Se aplica a:
@@ -23,7 +23,7 @@ Se aplica a:
 | iPhone |iPad |Teléfonos Android |Tabletas Android |Dispositivos de Windows 10 |
 
 >[!NOTE]
->El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](https://go.microsoft.com/fwlink/?linkid=2121400)
+>El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Con una [licencia de Power BI Pro](../../fundamentals/service-features-license-type.md), puede invitar a otros usuarios a ver sus paneles e informes si comparte vínculos desde las aplicaciones móviles de Power BI. Puede compartir con cualquier usuario, ya sea dentro o fuera de su organización, que tenga o no una cuenta de correo corporativa. Sí necesitarán tener también una licencia de Power BI Pro o que el contenido esté en una [capacidad Premium](../../admin/service-premium-what-is.md).
 

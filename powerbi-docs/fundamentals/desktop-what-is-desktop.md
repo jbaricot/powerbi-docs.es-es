@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c8d4671d55e09ca6e60599bbc0ac9802258f63ba
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 09e51c46a11c41008f77d3a7597807b35b57d297
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252737"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860794"
 ---
 # <a name="what-is-power-bi-desktop"></a>¿Qué es Power BI Desktop?
 
@@ -66,7 +66,7 @@ Para conectarse a los datos:
 
 ## <a name="transform-and-clean-data-create-a-model"></a>Transformación y limpieza de datos y creación de un modelo
 
-En Power BI Desktop, puede limpiar y transformar los datos con el [Editor de Power Query](https://docs.microsoft.com/power-bi/desktop-query-overview) integrado. Con el Editor de Power Query, puede realizar modificaciones en los datos, como cambiar un tipo de datos, quitar columnas o combinar datos de varios orígenes. Es como esculpir: se empieza con un gran bloque de barro (o datos), luego se quitan trozos o se agregan otros según sea necesario, hasta que los datos adoptan la forma deseada. 
+En Power BI Desktop, puede limpiar y transformar los datos con el [Editor de Power Query](../transform-model/desktop-query-overview.md) integrado. Con el Editor de Power Query, puede realizar modificaciones en los datos, como cambiar un tipo de datos, quitar columnas o combinar datos de varios orígenes. Es como esculpir: se empieza con un gran bloque de barro (o datos), luego se quitan trozos o se agregan otros según sea necesario, hasta que los datos adoptan la forma deseada. 
 
 Para iniciar el Editor de Power Query:
 
@@ -134,4 +134,3 @@ Para empezar a trabajar con Power BI Desktop, lo primero que necesita es descar
 
 * [Obtener Power BI Desktop de Microsoft Store](https://aka.ms/pbidesktopstore)
 * [Descargar Power BI Desktop desde la Web](https://www.microsoft.com/download/details.aspx?id=58494)
-

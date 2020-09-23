@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 03b361c56bd545036a8d706ae01e2bfa2ec30222
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: bce23ecdc99f6428ecefc28580e3ae0ec05fac6a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921249"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859713"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginación en informes paginados de Power BI
 
@@ -34,7 +34,7 @@ ms.locfileid: "78921249"
   
  De forma predeterminada, el tamaño de página es de 8,5 x 11 pulgadas, pero puede cambiarlo desde el panel **Propiedades del informe** o el cuadro de diálogo **Configurar página** o bien cambiando las propiedades PageHeight y PageWidth en el panel **Propiedades**. El tamaño de página no aumenta ni se reduce para ajustarse al contenido del cuerpo del informe. Si desea que el informe aparezca en una única página, todo el contenido del cuerpo del informe debe ajustarse a la página física. Si no cabe y usa el formato de salto de página manual, el informe requerirá páginas adicionales. Si el cuerpo del informe crece más allá del borde derecho de la página física, se inserta un salto de página horizontal. Si el cuerpo del informe crece más allá del borde inferior de la página física, se inserta un salto de página vertical.  
   
- Si quiere invalidar el tamaño de página físico definido en el informe, puede especificar el tamaño de página físico mediante la opción Información del dispositivo para el representador específico que está usando para exportar el informe. Para obtener una lista completa, consulte [Device Information Settings for Rendering Extensions](https://docs.microsoft.com/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services?view=sql-server-2017) (Configuración de la información del dispositivo para las extensiones de representación) en la documentación de SQL Server Reporting Services.  
+ Si quiere invalidar el tamaño de página físico definido en el informe, puede especificar el tamaño de página físico mediante la opción Información del dispositivo para el representador específico que está usando para exportar el informe. Para obtener una lista completa, consulte [Device Information Settings for Rendering Extensions](/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services) (Configuración de la información del dispositivo para las extensiones de representación) en la documentación de SQL Server Reporting Services.  
   
 ### <a name="margins"></a>Márgenes
 
@@ -77,13 +77,13 @@ ms.locfileid: "78921249"
   
  Puede usar constantes y expresiones simples o complejas para establecer el valor de las propiedades Disabled y ResetPageNumber. Sin embargo, no puede utilizar la expresión con la propiedad BreakLocation. Para obtener más información sobre cómo escribir y usar expresiones, consulte [Expresiones en el Generador de informes de Power BI](report-builder-expressions.md).  
   
- En el informe, puede escribir expresiones que hagan referencia a los nombres o números de página actuales mediante la colección **Globales**. Para obtener más información, consulte [Built-in Globals and Users References](https://docs.microsoft.com/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder?view=sql-server-2017) (Referencias de variables globales y de usuarios integradas) en la documentación del Generador de informes y Reporting Services.
+ En el informe, puede escribir expresiones que hagan referencia a los nombres o números de página actuales mediante la colección **Globales**. Para obtener más información, consulte [Built-in Globals and Users References](/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder) (Referencias de variables globales y de usuarios integradas) en la documentación del Generador de informes y Reporting Services.
   
 ### <a name="naming-excel-worksheet-tabs"></a>Asignar nombres a las pestañas de libros de Excel
 
  Estas propiedades son útiles a la hora de exportar informes a libros de Excel. Use la propiedad InitialPage para especificar un nombre predeterminado para el nombre de la pestaña de la hoja de cálculo cuando exporte el informe, y use saltos de página y la propiedad PageName para proporcionar nombres diferentes para cada hoja de cálculo. Cada nueva página del informe, definida por un salto de página, se exporta a una hoja de cálculo diferente designada por el valor de la propiedad PageName. Si PageName está en blanco, pero el informe tiene un nombre de página inicial, todas las hojas de cálculo del libro de Excel usan el mismo nombre: el nombre de página inicial.  
   
- Para obtener más información sobre cómo funcionan estas propiedades cuando se exportan informes a Excel, consulte [Exporting to Microsoft Excel](https://docs.microsoft.com/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs) (Exportar a Microsoft Excel) en la documentación del Generador de informes y Reporting Services.  
+ Para obtener más información sobre cómo funcionan estas propiedades cuando se exportan informes a Excel, consulte [Exporting to Microsoft Excel](/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs) (Exportar a Microsoft Excel) en la documentación del Generador de informes y Reporting Services.  
   
 ## <a name="next-steps"></a>Pasos siguientes
 

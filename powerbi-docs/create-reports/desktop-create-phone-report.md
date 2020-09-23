@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9161813c291a3feb8c01e4201972337f8e96fcb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23873d53aa0d472247f2e8d850dc3b1e9b3bf065
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221764"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853802"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Optimización de informes de Power BI para las aplicaciones móviles
 Los usuarios móviles pueden ver cualquier página de informe de Power BI en orientación horizontal. Sin embargo, los autores de informes pueden crear una vista adicional que esté optimizada para dispositivos móviles y se muestre en orientación vertical. Esta opción de diseño, que está disponible tanto en Power BI Desktop como en el servicio Power BI, permite a los autores seleccionar y reorganizar solo los objetos visuales necesarios para los usuarios móviles de acuerdo con sus características.
@@ -120,5 +120,5 @@ Si solo optimiza algunas páginas, cuando los lectores vayan a una página no op
 ## <a name="next-steps"></a>Pasos siguientes
 * [Creación de una vista de teléfono de un panel en Power BI](service-create-dashboard-mobile-phone-view.md).
 * [Visualización de informes de Power BI optimizados para el teléfono](../consumer/mobile/mobile-apps-view-phone-report.md).
-* [Documentación de Power BI sobre la creación de informes y paneles](https://docs.microsoft.com/power-bi/create-reports/).
+* [Documentación de Power BI sobre la creación de informes y paneles](./index.yml).
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/).

@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: f5c8f763b1f02d055d39c62ef2e2902b6efca439
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235528"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860288"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugerencias para crear aplicaciones de plantilla en Power BI
 
@@ -124,15 +124,15 @@ Se recomienda tener datos de ejemplo de calidad antes de crear la aplicación. A
 Las aplicaciones de plantilla pueden publicarse en AppSource, siga estas pautas antes de enviar la aplicación a AppSource:
 
 * Asegúrese de crear una aplicación de plantilla con datos de ejemplo atractivos que puedan ayudar al instalador a comprender lo que puede hacer la aplicación (los informes y paneles vacíos no están aprobados).
-Las aplicaciones de plantilla solo admiten aplicaciones de datos de ejemplo, asegúrese de marcar la casilla de aplicaciones estáticas. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+Las aplicaciones de plantilla solo admiten aplicaciones de datos de ejemplo, asegúrese de marcar la casilla de aplicaciones estáticas. [Más información](./service-template-apps-create.md#define-the-properties-of-the-template-app)
 * Dé indicaciones para que el equipo de validación las siga, que incluyen las credenciales y los parámetros necesarios para conectarse a los datos.
-* La aplicación debe incluir un icono de la aplicación en Power BI y en la oferta CPP. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Página de inicio configurado. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Asegúrese de seguir la documentación que encontrará en el [Centro de partners -> Oferta de la aplicación Power BI](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+* La aplicación debe incluir un icono de la aplicación en Power BI y en la oferta CPP. [Más información](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* Página de inicio configurado. [Más información](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* Asegúrese de seguir la documentación que encontrará en el [Centro de partners -> Oferta de la aplicación Power BI](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 * En caso de que un panel forme parte de la aplicación, asegúrese de que no esté vacío.
 * Instale la aplicación mediante el vínculo de la aplicación antes de enviarla, asegúrese de que puede conectar el conjunto de datos y que la experiencia de la aplicación es la que planeó.
 * Antes de cargar pbix en el área de trabajo de plantilla, asegúrese de descargar cualquier conexión innecesaria.
-* Siga los [procedimientos recomendados de diseño para informes y objetos visuales](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) de Power BI para lograr el máximo impacto en sus usuarios y obtener la aprobación para su distribución.
+* Siga los [procedimientos recomendados de diseño para informes y objetos visuales](../visuals/power-bi-report-visualizations.md) de Power BI para lograr el máximo impacto en sus usuarios y obtener la aprobación para su distribución.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="create-a-download-link-for-the-app"></a>Creación de un vínculo de descarga para la aplicación

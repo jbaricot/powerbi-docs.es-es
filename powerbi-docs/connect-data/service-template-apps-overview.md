@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 6033ba7442e7993edbbc68aa36922a2efddd1f83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf51270a39f2f07518aaa6d83902519e08f7ab45
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235663"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860587"
 ---
 # <a name="what-are-power-bi-template-apps"></a>¿Qué son las aplicaciones de plantilla de Power BI?
 
@@ -49,7 +49,7 @@ El proceso general para desarrollar y enviar una aplicación de plantilla implic
 
 Para crear la aplicación de plantilla, necesita permisos para crear una. Vea la configuración de aplicaciones de plantilla en el portal de administración de Power BI para obtener más información. 
 
-Para publicar una aplicación de plantilla en el servicio Power BI y AppSource, debe cumplir los requisitos para [convertirse en publicador del Centro de partners](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Para publicar una aplicación de plantilla en el servicio Power BI y AppSource, debe cumplir los requisitos para [convertirse en publicador del Centro de partners](/azure/marketplace/become-publisher).
  
 ## <a name="high-level-steps"></a>Pasos generales
 
@@ -67,7 +67,7 @@ Estos son los pasos generales.
 
 6. Promueva la aplicación de prueba a preproducción con el fin de enviarla para la validación en AppSource y probarla fuera del inquilino. 
 
-7. Envíe el contenido al [Centro de partners](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) para su publicación. 
+7. Envíe el contenido al [Centro de partners](/azure/marketplace/partner-center-portal/create-power-bi-app-offer) para su publicación. 
 
 8. "Publique" la oferta en AppSource y mueva la aplicación a producción en Power BI.
 
@@ -77,9 +77,9 @@ Estos son los pasos generales.
 
 Para crear la aplicación de plantilla, necesita permisos para crear una. Vea la [configuración de aplicaciones de plantilla en el portal de administración](../admin/service-admin-portal.md#template-apps-settings) de Power BI para obtener más información.
 
-Para publicar una aplicación de plantilla en el servicio Power BI y AppSource, debe cumplir los requisitos para [convertirse en publicador del Centro de partners](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Para publicar una aplicación de plantilla en el servicio Power BI y AppSource, debe cumplir los requisitos para [convertirse en publicador del Centro de partners](/azure/marketplace/become-publisher).
  > [!NOTE] 
- > Los envíos de aplicaciones de plantilla se administran en el [Centro de partners](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Use la misma cuenta de registro de Microsoft Developer Center para iniciar sesión. Debe tener una sola cuenta de Microsoft para sus ofertas de AppSource. Las cuentas no deben ser específicas de servicios u ofertas individuales.
+ > Los envíos de aplicaciones de plantilla se administran en el [Centro de partners](/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Use la misma cuenta de registro de Microsoft Developer Center para iniciar sesión. Debe tener una sola cuenta de Microsoft para sus ofertas de AppSource. Las cuentas no deben ser específicas de servicios u ofertas individuales.
 
 ## <a name="tips"></a>Recomendaciones 
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: cea54821c7a2a31d8ee362559e29a3f79fa40b6c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 598b41362cb510f8e5bbc60c7ca263c57fa0403e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231530"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859805"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configuración del SSO basado en Kerberos desde el servicio Power BI a los orígenes de datos locales
 
@@ -59,7 +59,7 @@ En primer lugar, determine si ya se ha creado un nombre de entidad de seguridad 
 
 4. Si la pestaña **Delegación** aparece en el cuadro de diálogo **Propiedades**, ya se creó un SPN y es posible pasar directamente a [Elección del tipo de delegación restringida de Kerberos que usar](#decide-on-the-type-of-kerberos-constrained-delegation-to-use).
 
-5. Si no hay ninguna pestaña **Delegación** en el cuadro de diálogo **Propiedades**, puede crear manualmente un SPN en la cuenta para su habilitación. Use la [herramienta setspn](https://technet.microsoft.com/library/cc731241.aspx) que viene con Windows (necesita derechos de administrador de dominio para crear el SPN).
+5. Si no hay ninguna pestaña **Delegación** en el cuadro de diálogo **Propiedades**, puede crear manualmente un SPN en la cuenta para su habilitación. Use la [herramienta setspn](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc731241(v=ws.11)) que viene con Windows (necesita derechos de administrador de dominio para crear el SPN).
 
    Por ejemplo, imagine que la cuenta de servicio de puerta de enlace es **Contoso\GatewaySvc** y que el nombre de la máquina donde se ejecuta el servicio de puerta de enlace es **MyGatewayMachine**. Para establecer el SPN de la cuenta de servicio de puerta de enlace, debe ejecutar el comando siguiente:
 

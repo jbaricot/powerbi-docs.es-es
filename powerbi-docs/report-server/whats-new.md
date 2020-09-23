@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 9c92383dee3cb435c57238be545ccd9e59923b8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214364"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859989"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
 
@@ -206,7 +206,7 @@ Al crear informes, puede usar las informaciones sobre herramientas para especifi
 
 #### <a name="azure-active-directory-application-proxy-support"></a>Compatibilidad con Azure Active Directory Application Proxy
 
-Con Azure Active Directory Application Proxy, ya no necesita administrar su propio proxy de aplicación web para permitir el acceso seguro a través de las aplicaciones web o móviles. Para más información, consulte [Acceso remoto a aplicaciones locales mediante Azure Active Directory Application Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy).
+Con Azure Active Directory Application Proxy, ya no necesita administrar su propio proxy de aplicación web para permitir el acceso seguro a través de las aplicaciones web o móviles. Para más información, consulte [Acceso remoto a aplicaciones locales mediante Azure Active Directory Application Proxy](/azure/active-directory/manage-apps/application-proxy).
 
 #### <a name="custom-headers"></a>Encabezados personalizados
 
@@ -572,7 +572,7 @@ Cuando se explora en profundidad una categoría determinada de un objeto visual,
 
 #### <a name="export-to-accessible-pdf"></a>Exportar a PDF accesible
 
-Al exportar un informe paginado (RDL) a PDF, ya puede obtener un archivo PDF accesible o etiquetado. Ocupa más tamaño pero es más fácil de leer y navegar para los lectores en pantalla y otras tecnologías de accesibilidad. Para habilitar un PDF como accesible, defina el valor de información del dispositivo **PDF accesible** en **True**. Vea [Configuración de la información del dispositivo PDF](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings) y [Cambiar la configuración de la información del dispositivo](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings).
+Al exportar un informe paginado (RDL) a PDF, ya puede obtener un archivo PDF accesible o etiquetado. Ocupa más tamaño pero es más fácil de leer y navegar para los lectores en pantalla y otras tecnologías de accesibilidad. Para habilitar un PDF como accesible, defina el valor de información del dispositivo **PDF accesible** en **True**. Vea [Configuración de la información del dispositivo PDF](/sql/reporting-services/pdf-device-information-settings) y [Cambiar la configuración de la información del dispositivo](/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings).
 
 ### <a name="other-improvements"></a>Otras mejoras
 
@@ -639,7 +639,7 @@ Tenga en cuenta que hay una nueva API independiente para archivos de gran tamañ
 
 ### <a name="sql-server-analysis-services-ssas-and-the-power-bi-report-server-memory-footprint"></a>SQL Server Analysis Services (SSAS) y el consumo de memoria de Power BI Report Server
 
-Power BI Report Server ahora hospeda SQL Server Analysis Services (SSAS) internamente. Esto no es específico de la actualización programada. El hospedaje de SSAS puede aumentar considerablemente el consumo de memoria del servidor de informes. El archivo de configuración AS.ini está disponible en los nodos del servidor; si está familiarizado con SSAS, puede que desee actualizar la configuración, incluido el límite de cantidad máxima de memoria, el almacenamiento en caché de disco, etc. Consulte [Propiedades del servidor en Analysis Services](https://docs.microsoft.com/sql/analysis-services/server-properties/server-properties-in-analysis-services) para más información.
+Power BI Report Server ahora hospeda SQL Server Analysis Services (SSAS) internamente. Esto no es específico de la actualización programada. El hospedaje de SSAS puede aumentar considerablemente el consumo de memoria del servidor de informes. El archivo de configuración AS.ini está disponible en los nodos del servidor; si está familiarizado con SSAS, puede que desee actualizar la configuración, incluido el límite de cantidad máxima de memoria, el almacenamiento en caché de disco, etc. Consulte [Propiedades del servidor en Analysis Services](/sql/analysis-services/server-properties/server-properties-in-analysis-services) para más información.
 
 ### <a name="viewing-and-interacting-with-excel-workbooks"></a>Ver libros de Excel e interactuar con ellos
 

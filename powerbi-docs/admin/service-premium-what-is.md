@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 492ff2c21d285cba37f1bbf631869c84eafe4dc3
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 7f90840284c5b17a118b414db606902789657b7a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008569"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854699"
 ---
 # <a name="what-is-power-bi-premium"></a>¿Qué es Power BI Premium?
 
@@ -98,7 +98,7 @@ Los recursos y los límites de cada SKU Premium (y la SKU A de tamaño equivalen
 
 Las cargas de trabajo de capacidad son servicios disponibles para los usuarios. De forma predeterminada, las capacidades Premium y de Azure solo admiten una carga de trabajo de conjunto de datos asociada con la ejecución de consultas de Power BI. La carga de trabajo de conjunto de datos no se puede deshabilitar. Se pueden habilitar cargas de trabajo adicionales para [IA (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Flujos de datos](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) e [Informes paginados](../paginated-reports/paginated-reports-save-to-power-bi-service.md). Estas cargas de trabajo solo se admiten en las suscripciones Premium. 
 
-Cada carga de trabajo adicional permite configurar la memoria máxima (como un porcentaje de la memoria total disponible) que puede usar la carga de trabajo. Los valores predeterminados para la memoria máxima se determinan por SKU. Puede maximizar los recursos disponibles de la capacidad si habilita solo las cargas de trabajo adicionales cuando se usan. Y puede cambiar la configuración de memoria solo cuando disponga de una configuración predeterminada específica que no cumpla los requisitos de recursos de la capacidad. Los administradores de la capacidad pueden habilitar y configurar cargas de trabajo para una capacidad mediante la **configuración de la capacidad** en el [Portal de administración](service-admin-portal.md), o bien con las [API REST de las capacidades](https://docs.microsoft.com/rest/api/power-bi/capacities).  
+Cada carga de trabajo adicional permite configurar la memoria máxima (como un porcentaje de la memoria total disponible) que puede usar la carga de trabajo. Los valores predeterminados para la memoria máxima se determinan por SKU. Puede maximizar los recursos disponibles de la capacidad si habilita solo las cargas de trabajo adicionales cuando se usan. Y puede cambiar la configuración de memoria solo cuando disponga de una configuración predeterminada específica que no cumpla los requisitos de recursos de la capacidad. Los administradores de la capacidad pueden habilitar y configurar cargas de trabajo para una capacidad mediante la **configuración de la capacidad** en el [Portal de administración](service-admin-portal.md), o bien con las [API REST de las capacidades](/rest/api/power-bi/capacities).  
 
 ![Habilitación de las cargas de trabajo](media/service-admin-premium-workloads/admin-portal-workloads.png)
 
@@ -173,7 +173,7 @@ El uso óptimo de las capacidades es fundamental para garantizar que los usuario
 
 ### <a name="capacities-rest-apis"></a>API REST de las capacidades
 
-Las API REST de Power BI incluyen una colección de [API de capacidades](https://docs.microsoft.com/rest/api/power-bi/capacities). Con las API, los administradores pueden administrar mediante programación muchos aspectos de las capacidades Premium, incluidas la habilitación y deshabilitación de cargas de trabajo, la asignación de áreas de trabajo a una capacidad y mucho más.
+Las API REST de Power BI incluyen una colección de [API de capacidades](/rest/api/power-bi/capacities). Con las API, los administradores pueden administrar mediante programación muchos aspectos de las capacidades Premium, incluidas la habilitación y deshabilitación de cargas de trabajo, la asignación de áreas de trabajo a una capacidad y mucho más.
 
 ## <a name="large-datasets"></a>Conjuntos de datos de gran tamaño
 
@@ -252,5 +252,3 @@ Para obtener más información, consulte [Conectividad del conjunto de datos con
 > [Administración de las capacidades Premium](service-premium-capacity-manage.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-
-

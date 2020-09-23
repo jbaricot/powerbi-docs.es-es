@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: e4f2db2c5b0220215c9c71cc62349c2255cf046d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490362"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854630"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Automatización de tareas de área de trabajo y conjunto de datos de Premium con entidades de servicio
 
@@ -40,14 +40,14 @@ Para realizar operaciones de escritura, la **carga de trabajo de los conjuntos d
 
 Las entidades de servicio se crean como registro de aplicación en Azure Portal o mediante PowerShell. Al crear la entidad de servicio, asegúrese de copiar y guardar por separado el nombre de la aplicación, el identificador de la aplicación (cliente), el identificador de directorio (inquilino) y el secreto de cliente. Para conocer los pasos para crear una entidad de servicio, consulte:
 
-[Creación de una entidad de servicio: Azure Portal](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)   
-[Creación de una entidad de servicio: PowerShell](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
+[Creación de una entidad de servicio: Azure Portal](/azure/active-directory/develop/howto-create-service-principal-portal)   
+[Creación de una entidad de servicio: PowerShell](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
 
 ## <a name="create-an-azure-ad-security-group"></a>Creación de un grupo de seguridad de Azure AD
 
 De forma predeterminada, las entidades de servicio tienen acceso a cualquier configuración de inquilino para la que estén habilitadas. En función de la configuración de administración, el acceso puede incluir grupos de seguridad específicos o toda la organización.
 
-Para restringir el acceso de la entidad de servicio a una configuración de inquilino específica, puede permitir acceso a grupos de seguridad específicos. También puede crear un grupo de seguridad dedicado para entidades de servicio y excluirlo de la configuración de inquilino que desee. Para conocer los pasos para crear un grupo de seguridad y agregar una entidad de servicio, consulte [Creación de un grupo básico e incorporación de miembros con Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+Para restringir el acceso de la entidad de servicio a una configuración de inquilino específica, puede permitir acceso a grupos de seguridad específicos. También puede crear un grupo de seguridad dedicado para entidades de servicio y excluirlo de la configuración de inquilino que desee. Para conocer los pasos para crear un grupo de seguridad y agregar una entidad de servicio, consulte [Creación de un grupo básico e incorporación de miembros con Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 
 ## <a name="enable-service-principals"></a>Habilitación de entidades de servicio
 
@@ -59,7 +59,7 @@ En **Portal de administración** > **Configuración de inquilinos** de Power BI
 
 ## <a name="workspace-access"></a>Acceso al área de trabajo
 
-Para que la entidad de servicio tenga los permisos necesarios para realizar operaciones de área de trabajo y de conjunto de trabajo de Premium, debe agregar la entidad de servicio como administrador o miembro del área de trabajo. Aquí se describe el uso del acceso al área de trabajo en el servicio Power BI, pero también puede consultar el artículo sobre la [adición de API de REST de usuario de grupo](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser).
+Para que la entidad de servicio tenga los permisos necesarios para realizar operaciones de área de trabajo y de conjunto de trabajo de Premium, debe agregar la entidad de servicio como administrador o miembro del área de trabajo. Aquí se describe el uso del acceso al área de trabajo en el servicio Power BI, pero también puede consultar el artículo sobre la [adición de API de REST de usuario de grupo](/rest/api/power-bi/groups/addgroupuser).
 
 1. En el servicio Power BI, en un área de trabajo, seleccione **Más** > **Acceso al área de trabajo**.
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO y ADOMD
 
-Al conectarse con aplicaciones cliente y aplicaciones web, los paquetes instalables de la versión 15.1.42.26 (junio de 2020) y versiones posteriores de las [bibliotecas cliente de AMO y ADOMD](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) de NuGet admiten entidades de servicio en las cadenas de conexión con el uso de la siguiente sintaxis: `app:AppID` y la contraseña o `cert:thumbprint`.
+Al conectarse con aplicaciones cliente y aplicaciones web, los paquetes instalables de la versión 15.1.42.26 (junio de 2020) y versiones posteriores de las [bibliotecas cliente de AMO y ADOMD](/azure/analysis-services/analysis-services-data-providers) de NuGet admiten entidades de servicio en las cadenas de conexión con el uso de la siguiente sintaxis: `app:AppID` y la contraseña o `cert:thumbprint`.
 
 En el ejemplo siguiente, se usan un `appID` y una `password` para realizar una operación de actualización de la base de datos modelo:
 
@@ -115,6 +115,6 @@ db.Model.SaveChanges();
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Conectividad del conjunto de datos con el punto de conexión de XMLA](service-premium-connect-tools.md)  
-[Azure Automation](https://docs.microsoft.com/azure/automation)  
-[Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/)  
-[API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)
+[Azure Automation](/azure/automation)  
+[Azure Logic Apps](/azure/logic-apps/)  
+[API REST de Power BI](/rest/api/power-bi/)

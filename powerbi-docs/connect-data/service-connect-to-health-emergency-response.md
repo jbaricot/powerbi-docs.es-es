@@ -8,27 +8,27 @@ ms.topic: how-to
 ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e10f2144e987f8fdc7ea9dbfd18d4581889ae8bf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230127"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854239"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Conexión al Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias
 La aplicación de plantilla del Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias es el componente de informes de la [solución de Power Platform para la respuesta ante emergencias sanitarias](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). El panel muestra que los administradores de emergencia agregan datos a través de su sistema de mantenimiento para ayudarles a tomar decisiones oportunas y correctas.
 
 ![Informe de la aplicación Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-report.png)
 
-En este artículo se explica cómo instalar la aplicación y cómo conectarse a los orígenes de datos. Para obtener información sobre cómo usar el informe que verá con esta aplicación, consulte la [documentación del Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard).
+En este artículo se explica cómo instalar la aplicación y cómo conectarse a los orígenes de datos. Para obtener información sobre cómo usar el informe que verá con esta aplicación, consulte la [documentación del Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard).
 
 Después de instalar la aplicación de plantilla y conectarse a los orígenes de datos, puede personalizar el informe según sus necesidades. Luego puede distribuirlo como una aplicación entre los compañeros de su organización.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Antes de instalar esta aplicación de plantilla, primero debe instalar y configurar la [solución Respuesta ante emergencias hospitalarias de Power Platform](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure). Al instalar esta solución, se crean las referencias de orígenes de datos necesarias para rellenar la aplicación con datos.
+Antes de instalar esta aplicación de plantilla, primero debe instalar y configurar la [solución Respuesta ante emergencias hospitalarias de Power Platform](/powerapps/sample-apps/emergency-response/deploy-configure). Al instalar esta solución, se crean las referencias de orígenes de datos necesarias para rellenar la aplicación con datos.
 
-Al instalar la solución de Power Platform Respuesta ante emergencias hospitalarias, tome nota de la [dirección URL de la instancia del entorno Common Data Service](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). La necesitará para conectar la aplicación de plantilla a los datos.
+Al instalar la solución de Power Platform Respuesta ante emergencias hospitalarias, tome nota de la [dirección URL de la instancia del entorno Common Data Service](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). La necesitará para conectar la aplicación de plantilla a los datos.
 
 ## <a name="install-the-app"></a>Instalación de la aplicación
 
@@ -66,7 +66,7 @@ Al instalar la solución de Power Platform Respuesta ante emergencias hospitalar
 
 1. En el cuadro de diálogo, haga lo siguiente:
    1. En el campo Nombre de la organización, escriba el nombre de la organización como, por ejemplo, "Contoso Health Systems". Este campo es opcional. Este nombre aparece en la parte superior izquierda del panel.
-   1. En el campo CDS_base_solution, escriba la [dirección URL del de la instancia del entorno Common Data Service](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Por ejemplo: https://[myenv].crm.dynamics.com. Cuando termine, haga clic en **Siguiente**.
+   1. En el campo CDS_base_solution, escriba la [dirección URL del de la instancia del entorno Common Data Service](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Por ejemplo: https://[myenv].crm.dynamics.com. Cuando termine, haga clic en **Siguiente**.
 
    ![Cuadro de diálogo de la dirección URL de la aplicación Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-url-dialog.png)
 
@@ -99,8 +99,8 @@ Cuando se haya completado la actualización de los datos, [configure una program
 Vea [Personalización y uso compartido de la aplicación](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) para obtener detalles. Asegúrese de revisar las [declinaciones de responsabilidades del informe](../create-reports/sample-covid-19-us.md#disclaimers) antes de publicar o distribuir la aplicación.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Descripción del informe de Respuesta ante emergencias hospitalarias](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
-* [Configuración e información sobre la plantilla de ejemplo de Comunicación de crisis en Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [Descripción del informe de Respuesta ante emergencias hospitalarias](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
+* [Configuración e información sobre la plantilla de ejemplo de Comunicación de crisis en Power Apps](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 * [¿Qué son las aplicaciones de plantilla de Power BI?](../connect-data/service-template-apps-overview.md)
 * [Instalación y distribución de aplicaciones de plantilla en la organización](../connect-data/service-template-apps-install-distribute.md)

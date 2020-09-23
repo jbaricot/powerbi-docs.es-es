@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cf79a5ecf4d98595a033733824a41002a7cd38e0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332323"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860564"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Tutorial: conectarse a un repositorio de GitHub con Power BI
 En este tutorial, nos conectaremos a datos reales en el servicio de GitHub con Power BI. Power BI creará automáticamente paneles e informes. Puede conectarse al repositorio público de contenido de Power BI (también conocido como *repo*) y ver respuestas a preguntas como: ¿Cuántas personas contribuyen al contenido público de Power BI? ¿Quiénes contribuyen en mayor medida? ¿Qué día de la semana ha habido más contribuciones? Además de otras preguntas. 
@@ -39,7 +39,7 @@ Si no está registrado en Power BI, [regístrese para obtener una evaluación gr
 
 Para completar este tutorial, se necesita una cuenta de GitHub, si aún no tiene una. 
 
-- Regístrese para obtener una [cuenta de GitHub](https://docs.microsoft.com/contribute/get-started-setup-github).
+- Regístrese para obtener una [cuenta de GitHub](/contribute/get-started-setup-github).
 
 
 ## <a name="how-to-connect"></a>Cómo conectarse
@@ -139,5 +139,3 @@ En este tutorial, nos hemos conectado a un repositorio público de GitHub y hemo
  
 > [!div class="nextstepaction"]
 > [Conexión a los servicios que usa](service-connect-to-services.md)
-
-
