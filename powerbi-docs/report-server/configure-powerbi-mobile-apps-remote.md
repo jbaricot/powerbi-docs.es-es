@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: c8dd2a4313f3b78eac7bd0b9863d5403c31adc08
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 996e3835337ce8aa1002abce7682d707daec032e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236143"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859138"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Configuración del acceso de la aplicación remota de Power BI a Report Server de manera remota
 
@@ -69,9 +69,8 @@ Ya pueden ver e interactuar con los KPI y los informes de Power BI almacenados 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Habilitación del acceso remoto a Power BI Mobile con Azure Active Directory Application Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+- [Habilitación del acceso remoto a Power BI Mobile con Azure Active Directory Application Proxy](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 - [Información general de administrador](admin-handbook-overview.md)  
 - [Instalar un servidor de informes de Power BI](install-report-server.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

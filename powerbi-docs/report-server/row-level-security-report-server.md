@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/22/2019
-ms.openlocfilehash: ba0cf6b450720e0564b5d476f57d91a4f070391c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb06bc41aaaeea9790c34bb808548506963b8cb8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238074"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861852"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Seguridad de nivel de fila (RLS) en Power BI Report Server
 
@@ -31,7 +31,7 @@ De forma predeterminada, el filtrado de Seguridad de nivel de fila se lleva a ca
 
     ![Aplicación del filtro de seguridad](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-Marque la casilla al implementar la [seguridad dinámica de nivel de fila](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) en función del nombre de usuario o el id. de inicio de sesión. 
+Marque la casilla al implementar la [seguridad dinámica de nivel de fila](/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) en función del nombre de usuario o el id. de inicio de sesión. 
 
 Para obtener más información, vea las notas del producto [Filtrado cruzado bidireccional con DirectQuery en Power BI Desktop](../transform-model/desktop-bidirectional-filtering.md) y [Protección del modelo semántico tabular de BI](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 
@@ -122,4 +122,3 @@ Sí, si ya tiene definidos roles existentes y miembros asignados en Power BI Rep
 [Información general de administrador](admin-handbook-overview.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

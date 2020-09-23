@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: 1263de975319b7b0e2ef5123d985fa50a126d680
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459609"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859253"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registro de cambios de Power BI Report Server
 
@@ -32,7 +32,7 @@ Para obtener más información sobre las nuevas características, vea [Novedades
             - Se corrigió un error en el que no se completaba la actualización cuando se usaba la coincidencia aproximada para combinar consultas.
     - *Versión: 1.8.7450.37410 (compilación 15.0.1103.227), fecha de publicación: 27 de mayo de 2020*
          - Características
-            -  Se ha agregado compatibilidad para el tamaño de grupo de conexiones de catálogo personalizable (vea [Configuración de MaxCatalogConnectionPoolSizePerProcess](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service) para obtener más detalles).
+            -  Se ha agregado compatibilidad para el tamaño de grupo de conexiones de catálogo personalizable (vea [Configuración de MaxCatalogConnectionPoolSizePerProcess](/sql/reporting-services/report-server/rsreportserver-config-configuration-file#bkmk_service) para obtener más detalles).
             -  Se ha mejorado el comportamiento al ver un informe durante una operación de actualización.
         - Actualizaciones de seguridad
         - Correcciones de errores
@@ -65,7 +65,7 @@ Para obtener más información sobre las nuevas características, vea [Novedades
            -  Corrección para informes de Power BI que no se pueden cargar para determinados orígenes de datos
            -  Corrección para la ubicación de descarga del vínculo de Power BI Report Server Desktop desde el portal
            -  Corrección para DynamicImageDPI para la representación en Excel
-           -  Corrección para las conexiones de Oracle que usan una referencia cultural de subprocesos incorrecta en ciertos escenarios de varios usuarios (vea la [documentación de UseInstalledUICulture](https://docs.microsoft.com/power-bi/report-server/connect-data-sources) para obtener más detalles).
+           -  Corrección para las conexiones de Oracle que usan una referencia cultural de subprocesos incorrecta en ciertos escenarios de varios usuarios (vea la [documentación de UseInstalledUICulture](./connect-data-sources.md) para obtener más detalles).
            -  Corrección para el valor predeterminado de CustomHeaders que produce errores en la inserción de informes
            -  Corrección para los nombres de parámetros de SQL que se general incorrectamente en determinados casos
     - *Versión: 1.6.7327.3007 (compilación 15.0.1102.759), fecha de publicación: 23 de enero de 2020*
@@ -351,7 +351,7 @@ Para obtener más información sobre las nuevas características, vea [Novedades
 
     - *Compilación 14.0.600.305, fecha de publicación: 19 de septiembre de 2017*  
         - Correcciones de errores
-            - Actualización a la versión más reciente del [control Web de mapas de Bing](https://msdn.microsoft.com/library/mt712542.aspx)
+            - Actualización a la versión más reciente del [control Web de mapas de Bing](/bingmaps/v8-web-control/)
 
     - *Compilación 14.0.600.301, fecha de publicación: 11 de julio de 2017*
         - Correcciones de errores
@@ -373,6 +373,6 @@ Para obtener más información sobre las nuevas características, vea [Novedades
 [Información general de administrador](admin-handbook-overview.md)  
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Descargar SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Descargar SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

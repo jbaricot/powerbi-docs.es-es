@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: e1c95c330687131a29753359f5223e096bddab1d
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: c26d169a4c8ef876d1fe92e4967b07c982f510db
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952625"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856884"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>Cmdlets de PowerShell, API REST y biblioteca cliente de .NET para la administración de Power BI
 Con Power BI, los administradores pueden generar scripts de tareas comunes usando cmdlets de PowerShell. También expone API REST y proporciona una biblioteca cliente de .NET para desarrollar soluciones administrativas. En este tema se muestra una lista de cmdlets y las API y el punto de conexión de API REST correspondientes. Para más información, consulte:
 
-- [Descarga](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) y [documentación](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps) de PowerShell
-- [Documentación](https://docs.microsoft.com/rest/api/power-bi/admin) de la API de REST
+- [Descarga](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) y [documentación](/powershell/power-bi/overview?view=powerbi-ps) de PowerShell
+- [Documentación](/rest/api/power-bi/admin) de la API de REST
 - [Descarga](https://www.nuget.org/packages/Microsoft.PowerBI.Api/) de la biblioteca cliente de .NET
 
 > Se debe llamar a los cmdlets siguientes con `-Scope Organization` para operar en el inquilino de cara a la administración.

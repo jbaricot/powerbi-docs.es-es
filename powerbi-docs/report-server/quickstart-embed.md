@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4f6382b78a02750c76987de4fa911eb8c7d33b50
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 9e639c4a22cc4e01c04374289026a7006f33143b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87412012"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861875"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Inserción de un informe de Power BI Report Server con un elemento iFrame en SharePoint Server
 
@@ -24,7 +24,7 @@ En este artículo, obtendrá información sobre cómo insertar un informe de Pow
 ## <a name="prerequisites"></a>Requisitos previos
 * [Power BI Report Server](https://powerbi.microsoft.com/report-server/) instalado y configurado.
 * [Power BI Desktop optimizado para Power BI Report Server](install-powerbi-desktop.md) instalado.
-* Un [entorno de SharePoint 2013, 2016 o 2019](https://docs.microsoft.com/sharepoint/install/install) instalado y configurado.
+* Un [entorno de SharePoint 2013, 2016 o 2019](/sharepoint/install/install) instalado y configurado.
 * Internet Explorer 11 solo se admite si el modo de documento está establecido en el modo IE11 (Microsoft Edge) o cuando se usa SharePoint Online. Puede usar otros exploradores compatibles con SharePoint local y SharePoint Online.
 
 ## <a name="create-the-power-bi-report-url"></a>Creación de la dirección URL del informe de Power BI
@@ -101,4 +101,4 @@ Cuando tenga la dirección URL, puede crear un elemento iFrame en una página de
 - [Creación de un informe de Power BI para Power BI Report Server](quickstart-create-powerbi-report.md).  
 - [Creación de un informe paginado para Power BI Report Server](quickstart-create-paginated-report.md).  
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/). 
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/).

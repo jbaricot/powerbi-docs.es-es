@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
-ms.openlocfilehash: 3814c0532d94af3265bd608fc7837df982f9b6c4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7bc3b77a8badafe1c9660af347a74214176690ac
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236098"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859046"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Configuración de la actualización programada de informes de Power BI
 Para actualizar los datos del informe de Power BI en Power BI Report Server, debe crear un plan de actualización programado. Este plan se crea en el área *Administrar* de un informe de Power BI en el servidor de informes.
@@ -21,7 +21,7 @@ Para actualizar los datos del informe de Power BI en Power BI Report Server, d
 ![Actualización programada correcta de un informe de Power BI](media/configure-scheduled-refresh/scheduled-refresh-success.png)
 
 ## <a name="configure-data-source-credentials"></a>Configuración de las credenciales del origen de datos
-Necesita los permisos requeridos para crear un plan de actualización programado. Los permisos se definen en las definiciones de roles para el servidor de informes. Consulte [Definiciones de roles: roles predefinidos](https://docs.microsoft.com/sql/reporting-services/security/role-definitions-predefined-roles) en la documentación de SQL Server Reporting Services para obtener más información.
+Necesita los permisos requeridos para crear un plan de actualización programado. Los permisos se definen en las definiciones de roles para el servidor de informes. Consulte [Definiciones de roles: roles predefinidos](/sql/reporting-services/security/role-definitions-predefined-roles) en la documentación de SQL Server Reporting Services para obtener más información.
 
 Antes de crear un plan de actualización programada de datos, debe establecer las credenciales para **cada origen de datos** usado en el informe de Power BI.
 
@@ -86,9 +86,8 @@ Puede ver el estado de un plan de actualización programada en el portal web.
 Es necesario actualizar la página web para ver el estado actual. El estado no cambiará automáticamente.
 
 ## <a name="next-steps"></a>Pasos siguientes
-Para más información sobre la creación y modificación de programaciones, consulte [Creación, modificación y eliminación de programaciones](https://docs.microsoft.com/sql/reporting-services/subscriptions/create-modify-and-delete-schedules).
+Para más información sobre la creación y modificación de programaciones, consulte [Creación, modificación y eliminación de programaciones](/sql/reporting-services/subscriptions/create-modify-and-delete-schedules).
 
 Para obtener información acerca de cómo solucionar problemas de actualización programada, consulte [Solución de problemas de actualización programada en Power BI Report Server](scheduled-refresh-troubleshoot.md).
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

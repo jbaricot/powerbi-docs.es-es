@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/3/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05db20b2f83f10409339fad949874fc1076a6b98
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06b117a271671092a94aa8e7994269344b444178
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285978"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859621"
 ---
 # <a name="trusted-third-party-connectors"></a>Conectores de terceros de confianza
 
@@ -24,7 +24,7 @@ En Power BI, generalmente se recomienda mantener el nivel de "seguridad de la e
 
 El desarrollador de un conector determinado puede firmarlo con un certificado y proporcionarle la información que necesita para cargarlo de forma segura sin reducir el nivel de seguridad.
 
-Si desea obtener más información sobre la configuración de seguridad, puede leer sobre esta [aquí](https://docs.microsoft.com/power-bi/desktop-connector-extensibility).
+Si desea obtener más información sobre la configuración de seguridad, puede leer sobre esta [aquí](./desktop-connector-extensibility.md).
 
 ## <a name="using-the-registry-to-trust-third-party-connectors"></a>Uso del registro para confiar en conectores de terceros
 
@@ -46,4 +46,4 @@ Si ha seguido las instrucciones correctamente y el desarrollador le ha proporcio
 
 ## <a name="how-to-sign-connectors"></a>Firma de conectores
 
-Si tiene un conector que usted o un desarrollador deben firmar, puede consultar cómo hacerlo en la documentación de Power Query que se encuentra [aquí](https://docs.microsoft.com/power-query/handlingconnectorsigning).
+Si tiene un conector que usted o un desarrollador deben firmar, puede consultar cómo hacerlo en la documentación de Power Query que se encuentra [aquí](/power-query/handlingconnectorsigning).

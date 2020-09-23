@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 264eb0c9079e1f54d53aeb41a1ef73016c2bf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874303"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859283"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Compatibilidad del explorador con el servidor de informes de Power BI
 Conozca qué versiones de explorador se admiten para la administración y la visualización del servidor de informes de Power BI y los controles del visor de informes.
@@ -91,12 +91,12 @@ Your browser does not support scripts or has been configured to not allow script
  Si decide ver el informe prescindiendo de la compatibilidad con script, se representará en formato HTML y no incorporará funcionalidad del Visor de informes, como la barra de herramientas Informes y el mapa del documento.
 
 > [!NOTE]
-> La barra de herramientas Informes forma parte del componente Visor HTML. De forma predeterminada, aparece en la parte superior de cada informe que se representa en una ventana de explorador. El visor de informes proporciona características que incluyen la posibilidad de buscar información en el informe, desplazarse a una página específica y ajustar el tamaño de página para verla mejor. Para más información sobre la barra de herramientas de informes o el Visor HTML, consulte [HTML Viewer and the Report Toolbar](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar) (Visor HTML y barra de herramientas de informes).
+> La barra de herramientas Informes forma parte del componente Visor HTML. De forma predeterminada, aparece en la parte superior de cada informe que se representa en una ventana de explorador. El visor de informes proporciona características que incluyen la posibilidad de buscar información en el informe, desplazarse a una página específica y ajustar el tamaño de página para verla mejor. Para más información sobre la barra de herramientas de informes o el Visor HTML, consulte [HTML Viewer and the Report Toolbar](/sql/reporting-services/html-viewer-and-the-report-toolbar) (Visor HTML y barra de herramientas de informes).
 > 
 > 
 
 ## <a name="browser-support-for-report-viewer-web-server-controls-in-visual-studio"></a>Compatibilidad del explorador con los controles de servidor web del visor de informes en Visual Studio
-El control de servidor web del visor de informes se usa para insertar funcionalidad de informes en una aplicación web ASP.NET. Para más información sobre cómo obtener el control de visor de informes, consulte [Integrating Reporting Services Using Report Viewer Controls - Get Started](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started) (Integración de servicios de informes mediante los controles del visor de informes: inicio).
+El control de servidor web del visor de informes se usa para insertar funcionalidad de informes en una aplicación web ASP.NET. Para más información sobre cómo obtener el control de visor de informes, consulte [Integrating Reporting Services Using Report Viewer Controls - Get Started](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started) (Integración de servicios de informes mediante los controles del visor de informes: inicio).
 
 Use un explorador con compatibilidad habilitada para scripts. Si el explorador no puede ejecutar scripts, no podrá ver el informe.
 
@@ -114,7 +114,6 @@ Use un explorador con compatibilidad habilitada para scripts. Si el explorador n
 [Información general de administrador](admin-handbook-overview.md)  
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Descargar las últimas herramientas de datos SQL Server](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Descargar las últimas herramientas de datos SQL Server](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

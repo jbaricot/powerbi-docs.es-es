@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 07/28/2020
-ms.openlocfilehash: 44cfbeb85f30e2d84dc2c693ab4837606eb899eb
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 18629f38db7d8b88c47d4a1af3a5c3f6512433b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87412058"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859161"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparación de Power BI Report Server y el servicio Power BI
 
@@ -45,7 +45,7 @@ Power BI Report Server y el servicio Power BI tienen muchas similitudes y alguna
 | Aplicaciones móviles de Power BI | Sí | Sí | [Información general sobre aplicaciones móviles de Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | Mapas de ArcGIS | No | Sí | [Tutorial de mapas de ArcGIS de Esri en el servicio Power BI y Power BI Desktop](../visuals/power-bi-visualization-arcgis.md) |
 | Suscripciones de correo electrónico para los informes de Power BI | No | Sí | [Suscripción personal o de otros usuarios](../collaborate-share/service-report-subscribe.md) a un informe o panel en el servicio Power BI |
-| Suscripciones de correo electrónico para informes paginados | Sí | Sí | [Suscripción personal y de otros usuarios a informes paginados en el servicio Power BI](../consumer/paginated-reports-subscriptions.md)<br><br>[Entrega de correo electrónico en Reporting Services](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
+| Suscripciones de correo electrónico para informes paginados | Sí | Sí | [Suscripción personal y de otros usuarios a informes paginados en el servicio Power BI](../consumer/paginated-reports-subscriptions.md)<br><br>[Entrega de correo electrónico en Reporting Services](/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | Alertas de datos | No | Sí | [Alertas de datos](../create-reports/service-set-data-alerts.md) en el servicio Power BI
 | Seguridad de nivel de fila (RLS) | Sí | Sí | Disponible en DirectQuery (origen de datos) y en el modo de importación <br><br>Seguridad de nivel de fila (RLS) en el [servicio Power BI](../admin/service-admin-rls.md) <br><br>Seguridad de nivel de fila (RLS) en [Power BI Report Server](row-level-security-report-server.md) |
 | Relaciones de varios a varios | No | Sí | [Aplicación de relaciones de varios a varios](../transform-model/desktop-many-to-many-relationships.md) en Power BI Desktop |
@@ -62,9 +62,3 @@ Power BI Report Server y el servicio Power BI tienen muchas similitudes y alguna
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Instalar un servidor de informes de Power BI](install-report-server.md)
-
-
-
-
-
-

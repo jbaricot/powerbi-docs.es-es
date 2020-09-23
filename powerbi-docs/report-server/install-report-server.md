@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/16/2020
-ms.openlocfilehash: a6c668ad08b3b56eeb92919f37b021a77100ceee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 049f6f563c9ac6e7494b0680b69e0df8909304d4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239044"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861898"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar un servidor de informes de Power BI
 
@@ -93,9 +93,9 @@ No es necesario tener un servidor de motor de base de datos de SQL Server dispon
 
 ## <a name="configure-your-report-server"></a>Configuración del servidor de informes
 
-Después de seleccionar **Configurar el servidor de informes** en el programa de instalación, aparece el Administrador de configuración de Reporting Services. Para más información, consulte [Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) (Administrador de configuración de Reporting Services).
+Después de seleccionar **Configurar el servidor de informes** en el programa de instalación, aparece el Administrador de configuración de Reporting Services. Para más información, consulte [Reporting Services Configuration Manager](/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) (Administrador de configuración de Reporting Services).
 
-Para completar la configuración inicial de Reporting Services, tendrá que [crear una base de datos de servidor de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database). Se necesita un servidor de base de datos de SQL Server para completar este paso.
+Para completar la configuración inicial de Reporting Services, tendrá que [crear una base de datos de servidor de informes](/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database). Se necesita un servidor de base de datos de SQL Server para completar este paso.
 
 ### <a name="creating-a-database-on-a-different-server"></a>Crear una base de datos en un servidor diferente
 
@@ -109,7 +109,7 @@ Para solucionar el error, puede cambiar la cuenta de servicio a Servicio de red 
 
 ![Configurar la cuenta de servicio del servidor de informes](media/install-report-server/pbireportserver-configure-account.png)
 
-Para más información, vea [Configurar la cuenta del servicio del servidor de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager).
+Para más información, vea [Configurar la cuenta del servicio del servidor de informes](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager).
 
 ## <a name="windows-service"></a>Servicio de Windows
 
@@ -143,23 +143,23 @@ Abra el puerto TCP que haya configurado para la dirección URL del servicio web 
 
 ## <a name="additional-configuration"></a>Configuración adicional
 
-* Para configurar la integración con el servicio Power BI, de modo que pueda anclar elementos de informe a un panel de Power BI, consulte el artículo sobre la [integración con el servicio Power BI](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager).
-* Para configurar el correo electrónico para el procesamiento de suscripciones, consulte los artículos sobre la [configuración de correo electrónico](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) y la [entrega de correo electrónico en un servidor de informes](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services).
-* Para configurar el portal web para poder acceder a él en un equipo de informes a fin de ver y administrar informes, consulte [Configure a firewall for report server access](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) (Configurar un firewall para el acceso al servidor de informes) y [Configure a report server for remote administration](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration) (Configurar un servidor de informes para la administración remota).
-* Para obtener detalles sobre cómo establecer las propiedades del sistema del servidor de informes en SQL Server Management Studio, consulte [Propiedades del servidor (página Opciones avanzadas)](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services). A menos que especifique lo contrario, las opciones se aplican tanto a Power BI Report Server como a SQL Server Reporting Services.
+* Para configurar la integración con el servicio Power BI, de modo que pueda anclar elementos de informe a un panel de Power BI, consulte el artículo sobre la [integración con el servicio Power BI](/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager).
+* Para configurar el correo electrónico para el procesamiento de suscripciones, consulte los artículos sobre la [configuración de correo electrónico](/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) y la [entrega de correo electrónico en un servidor de informes](/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services).
+* Para configurar el portal web para poder acceder a él en un equipo de informes a fin de ver y administrar informes, consulte [Configure a firewall for report server access](/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) (Configurar un firewall para el acceso al servidor de informes) y [Configure a report server for remote administration](/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration) (Configurar un servidor de informes para la administración remota).
+* Para obtener detalles sobre cómo establecer las propiedades del sistema del servidor de informes en SQL Server Management Studio, consulte [Propiedades del servidor (página Opciones avanzadas)](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services). A menos que especifique lo contrario, las opciones se aplican tanto a Power BI Report Server como a SQL Server Reporting Services.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Información general de administrador](admin-handbook-overview.md)  
 [Ubicación de la clave de producto del servidor de informes](find-product-key.md)  
 [Instalar Power BI Desktop optimizado para el servidor de informes de Power BI](install-powerbi-desktop.md)  
-[Verify a Reporting Services Installation](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation) (Comprobar una instalación de Reporting Services)  
-[Configure the report server service account](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configurar la cuenta de servicio del servidor de informes)  
-[Configure report server URLs](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager) (Configurar direcciones URL del servidor de informes)  
-[Configure a report server database connection](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager) (Configurar una conexión de base de datos del servidor de informes)  
-[Inicializar un servidor de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
-[Configurar conexiones SSL en un servidor de informes](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
-[Configure windows service accounts and permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions) (Configurar permisos y cuentas del servicio de Windows)  
+[Verify a Reporting Services Installation](/sql/reporting-services/install-windows/verify-a-reporting-services-installation) (Comprobar una instalación de Reporting Services)  
+[Configure the report server service account](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configurar la cuenta de servicio del servidor de informes)  
+[Configure report server URLs](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager) (Configurar direcciones URL del servidor de informes)  
+[Configure a report server database connection](/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager) (Configurar una conexión de base de datos del servidor de informes)  
+[Inicializar un servidor de informes](/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
+[Configurar conexiones SSL en un servidor de informes](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
+[Configure windows service accounts and permissions](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions) (Configurar permisos y cuentas del servicio de Windows)  
 [Compatibilidad del explorador con el servidor de informes de Power BI](browser-support.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f241315eecdbb600a798630167913aa1be0079a3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5b2e9cc5cb07eebf3befebd1be1686fdbb0f653b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239061"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861829"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Crear y administrar relaciones en Power BI Desktop
 Al importar varias tablas, lo más probable es que vaya a realizar un análisis con los datos de todas ellas. Las relaciones entre esas tablas son necesarias para calcular los resultados de forma precisa y mostrar la información correcta en los informes. Power BI Desktop facilita la creación de esas relaciones. De hecho, en la mayoría de los casos no tendrá que hacer nada; la característica de detección automática lo hace por usted. Aunque es posible que, en ocasiones, tenga que crear relaciones o realizar cambios en una relación. En cualquier caso, es importante entender las relaciones en Power BI Desktop y cómo crearlas y editarlas.
@@ -45,7 +45,7 @@ Si detecta ese error, hay un par de formas de corregir el problema:
 * Usar **Quitar filas duplicadas** para crear una columna con valores únicos. El inconveniente de este enfoque es que podría perder información al quitar filas duplicadas; a menudo, una clave (fila) se duplica por un buen motivo.
 * Agregar una tabla intermedia hecha de la lista de valores de claves distintos en el modelo, que luego se vinculará a ambas columnas originales de la relación.
 
-Para más información, consulte [esta entrada de blog](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/).
+Para más información, consulte [esta entrada de blog](/archive/blogs/cansql/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message).
 
 
 ## <a name="edit-a-relationship"></a>Editar una relación
@@ -65,7 +65,7 @@ La opción **Cardinalidad** puede tener una de las siguientes opciones:
 
 **Uno a varios (1:*)** : en una relación uno a varios, la columna de una tabla solo tiene una instancia de un valor y la otra tabla relacionada puede tener más de una instancia de un valor.
 
-**Varios a varios (\*:\*)** : con los modelos compuestos, puede establecer relaciones de varios a varios entre tablas, lo que elimina los requisitos de los valores únicos de las tablas. También permite descartar las soluciones alternativas anteriores, como el hecho de presentar nuevas tablas solo para establecer relaciones. Para obtener más información, consulte [Relaciones con una cardinalidad de varios a varios](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships). 
+**Varios a varios (\*:\*)** : con los modelos compuestos, puede establecer relaciones de varios a varios entre tablas, lo que elimina los requisitos de los valores únicos de las tablas. También permite descartar las soluciones alternativas anteriores, como el hecho de presentar nuevas tablas solo para establecer relaciones. Para obtener más información, consulte [Relaciones con una cardinalidad de varios a varios](./desktop-many-to-many-relationships.md). 
 
 Para obtener más información sobre cuándo cambiar la cardinalidad, consulte [Descripción de las opciones adicionales](#understanding-additional-options).
 
@@ -358,4 +358,3 @@ Podemos cambiar la relación activa y obtener **SubmittedBy** en lugar de **Open
 A veces, el modelo tiene varias tablas y relaciones complejas entre ellas. La vista **Relación** de Power BI Desktop muestra todas las relaciones del modelo, su dirección y cardinalidad en un diagrama personalizable y fácil de entender. 
 
 Para obtener más información, consulte [Vista de relaciones en Power BI Desktop](desktop-relationship-view.md).
-

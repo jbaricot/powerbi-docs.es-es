@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3a24724e67a931860296983fe3a116137d3b5361
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921157"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859530"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Ejemplos de expresiones en el Generador de informes de Power BI
 A menudo se usan expresiones en los informes paginados de Power BI Report Builder para controlar el aspecto y el contenido de estos. Las expresiones se escriben en Microsoft Visual Basic y pueden usar funciones integradas, código personalizado, variables de informe y grupo, y variables definidas por el usuario. Las expresiones comienzan con un signo igual (=).   
@@ -38,7 +38,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
  Muchas expresiones en un informe contienen funciones. Puede usar esta funciones para dar formato a los datos, aplicar lógica y acceder a los metadatos del informe. Puede escribir expresiones que usen funciones de la biblioteca en tiempo de ejecución de Microsoft Visual Basic y de los espacios de nombres `xref:System.Convert` y `xref:System.Math`. Puede agregar referencias a funciones en el código personalizado. También puede usar las clases de Microsoft .NET Framework, incluida `xref:System.Text.RegularExpressions`.  
   
 ##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Funciones de Visual Basic  
- Puede usar funciones de Visual Basic para manipular los datos que se muestran en los cuadros de texto o que se utilizan para los parámetros, las propiedades u otras áreas del informe. En esta sección se proporcionan ejemplos que demuestran algunas de estas funciones. Para obtener más información, vea [Miembros de la biblioteca en tiempo de ejecución de Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) en MSDN.  
+ Puede usar funciones de Visual Basic para manipular los datos que se muestran en los cuadros de texto o que se utilizan para los parámetros, las propiedades u otras áreas del informe. En esta sección se proporcionan ejemplos que demuestran algunas de estas funciones. Para obtener más información, vea [Miembros de la biblioteca en tiempo de ejecución de Visual Basic](/dotnet/visual-basic/language-reference/runtime-library-members) en MSDN.  
   
  .NET Framework proporciona muchas opciones de formato personalizado, por ejemplo, formatos de fecha específicos. Para más información, consulte [Aplicar formato a tipos en .NET](/dotnet/standard/base-types/formatting-types).  
   
@@ -517,4 +517,3 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [¿Qué son los informes paginados en Power BI Premium?](paginated-reports-report-builder-power-bi.md)
-  

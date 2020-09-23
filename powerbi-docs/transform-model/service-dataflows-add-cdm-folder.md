@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 05dcae0a2277ee84e6c8bfbdb51532252c50c896
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23c15b49bfd6b069181b5d860637e00315376059
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238893"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861714"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Incorporación de una carpeta de CDS a Power BI como flujo de datos (versión preliminar)
 
@@ -26,7 +26,7 @@ Hay algunos requisitos para la creación de flujos de datos desde las carpetas d
 
 * Un administrador debe vincular la cuenta de almacenamiento de ADLS Gen2 dentro de Power BI para poder usarla. Consulte [Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos](service-dataflows-connect-azure-data-lake-storage-gen2.md) para obtener información sobre cómo vincular una cuenta de ADLS Gen2 a Power BI.
 * La creación de flujos de datos desde carpetas de CDS *solo* está disponible en la [nueva experiencia de área de trabajo](../collaborate-share/service-create-the-new-workspaces.md). 
-* Para agregar una carpeta de CDS a Power BI, es necesario que el usuario que agrega la carpeta tenga [autorización para la carpeta de CDS y sus archivos](https://go.microsoft.com/fwlink/?linkid=2029121).
+* Para agregar una carpeta de CDS a Power BI, es necesario que el usuario que agrega la carpeta tenga [autorización para la carpeta de CDS y sus archivos](./service-dataflows-azure-data-lake-integration.md).
 * Debe tener concedidos permisos de lectura y ejecución en todos los archivos y carpetas de la carpeta de CDS para agregarlos a Power BI.
 
 En las secciones siguientes se describe cómo crear un flujo de datos desde una carpeta de CDS.
@@ -86,7 +86,7 @@ Los clientes de **Power BI Desktop** no pueden acceder a los flujos de datos al
 
   ![Error al intentar usar el flujo de datos](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-Para resolver este problema, Ben debe tener permisos de lector para la carpeta de CDS y sus archivos. Puede aprender más sobre cómo acceder a la carpeta de CDS en [este artículo](https://go.microsoft.com/fwlink/?linkid=2029121).
+Para resolver este problema, Ben debe tener permisos de lector para la carpeta de CDS y sus archivos. Puede aprender más sobre cómo acceder a la carpeta de CDS en [este artículo](./service-dataflows-azure-data-lake-integration.md).
 
 
 ## <a name="next-steps"></a>Pasos siguientes
@@ -107,13 +107,13 @@ Para información sobre los flujos de datos en general, consulte estos artículo
 * [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
 
 Para más información sobre Azure Storage, puede leer estos artículos:
-* [Guía de seguridad de Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Guía de seguridad de Azure Storage](/azure/storage/common/storage-security-guide)
 * [Configuración de la actualización programada](../connect-data/refresh-scheduled-refresh.md)
 * [Introducción a los ejemplos de GitHub desde Azure Data Services](https://aka.ms/cdmadstutorial)
 
 Para más información sobre Common Data Service, puede leer su artículo de introducción:
-* [Introducción a Common Data Service](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Carpetas de CDS](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Definición del archivo de modelo de CDS](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Introducción a Common Data Service](/powerapps/common-data-model/overview)
+* [Carpetas de CDS](/common-data-model/data-lake)
+* [Definición del archivo de modelo de CDS](/common-data-model/model-json)
 
 Y, siempre puede intentar [plantear preguntas a la comunidad de Power BI](https://community.powerbi.com/).

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b60c56e7b8dfde9c46a784c5f57ca07ca9ca3fa0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216499"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859184"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Configuración de Kerberos para el uso de informes de Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -71,7 +71,7 @@ Hay que asegurarse de que aparezca RSWindowsNegotiate y de que sea el primero en
 
 Si tiene que cambiar el archivo de configuración, deberá detener e iniciar el servidor de informes para asegurarse de que los cambios surtan efecto.
 
-Para más información, consulte [Configure Windows Authentication on the Report Server](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server) (Configuración de la autenticación de Windows en el servidor de informes).
+Para más información, consulte [Configure Windows Authentication on the Report Server](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server) (Configuración de la autenticación de Windows en el servidor de informes).
 
 ## <a name="spns-for-the-report-server-service-account"></a>SPN para la cuenta de servicio del servidor de informes
 A continuación, hay que asegurarse de que el servidor de informes tenga disponibles unos SPN válidos. Esto se basa en la cuenta de servicio que está configurada para el servidor de informes.
@@ -218,4 +218,3 @@ Aunque esta configuración debería funcionar en la mayoría de los casos, con K
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

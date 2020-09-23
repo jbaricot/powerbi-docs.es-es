@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 899055ea26d1f36592c426ba402aa363b65bfa15
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 8c5daa2e63b874f1811c3819c60785bdbe93918c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878359"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856931"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Compra y asignación de licencias de usuario de Power BI Pro
 
@@ -29,7 +29,7 @@ Power BI Pro es una licencia de usuario individual que permite a los usuarios l
 En este artículo se explica cómo adquirir licencias de usuario de Power BI Pro en el centro de administración de Microsoft 365. Después de comprar las licencias, puede asignarlas a los usuarios en el centro de administración de Microsoft 365 o en Azure Portal.
 
 > [!NOTE]
-> A partir del 14 de enero de 2020, las funcionalidades de compra, suscripción y administración de licencias de autoservicio para los productos de Power Platform (Power BI, Power Apps y Power Automate) están disponibles para los clientes de la nube comercial. Para obtener más información, vea las [preguntas más frecuentes sobre las compras de autoservicio](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq). Para habilitar o deshabilitar las funcionalidades de compra de autoservicio, consulte cómo [habilitar o deshabilitar el registro y la compra de autoservicio](/power-bi/admin/service-admin-disable-self-service).
+> A partir del 14 de enero de 2020, las funcionalidades de compra, suscripción y administración de licencias de autoservicio para los productos de Power Platform (Power BI, Power Apps y Power Automate) están disponibles para los clientes de la nube comercial. Para obtener más información, vea las [preguntas más frecuentes sobre las compras de autoservicio](/microsoft-365/commerce/subscriptions/self-service-purchase-faq). Para habilitar o deshabilitar las funcionalidades de compra de autoservicio, consulte cómo [habilitar o deshabilitar el registro y la compra de autoservicio](./service-admin-disable-self-service.md).
 
 ### <a name="prerequisites"></a>Requisitos previos
 
@@ -40,7 +40,7 @@ Para asignar licencias en Azure Portal, debe ser propietario de la suscripción 
 ### <a name="purchase-licenses-in-microsoft-365"></a>Compra de licencias en Microsoft 365
 
 > [!NOTE]
-> Si normalmente compra licencias a través de un contrato de licencias por volumen, como un Contrato Enterprise, y quiere recibir una factura en lugar de comprar con una tarjeta de crédito o una cuenta bancaria, tendrá que enviar el pedido de otra manera. Trabaje con el revendedor de Microsoft o el Centro de servicios de licencias por volumen para agregar o quitar licencias. Para obtener más información, vea [Administración de licencias de suscripción](https://docs.microsoft.com/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide).
+> Si normalmente compra licencias a través de un contrato de licencias por volumen, como un Contrato Enterprise, y quiere recibir una factura en lugar de comprar con una tarjeta de crédito o una cuenta bancaria, tendrá que enviar el pedido de otra manera. Trabaje con el revendedor de Microsoft o el Centro de servicios de licencias por volumen para agregar o quitar licencias. Para obtener más información, vea [Administración de licencias de suscripción](/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide).
 
 Siga estos pasos para comprar licencias de Power BI Pro en el Centro de administración de Microsoft 365:
 

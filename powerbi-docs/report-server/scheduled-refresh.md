@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 89adff51d70be24e4f42c379a729fd1123ca10a5
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75837613"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861783"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Solución de problemas de la actualización programada en Power BI Report Server
 La actualización programada de los informes de Power BI permite que los datos de un informe estén al día.
@@ -57,9 +57,9 @@ Además de la lista anterior, hay escenarios específicos con orígenes de datos
 ### <a name="memory-limits"></a>Límites de memoria
 La carga de trabajo tradicional de un servidor de informes ha sido similar a la de una aplicación web. La posibilidad de cargar informes con datos importados o DirectQuery y de realizar la actualización programada se basan en una instancia de Analysis Services hospedada por el servidor de informes. Como resultado, esto podría dar lugar a presión de memoria inesperada en el servidor. Planee la implementación del servidor teniendo en cuenta que Analysis Services podría estar consumiendo memoria junto con el servidor de informes.
 
-Para obtener información sobre cómo supervisar una instancia de Analysis Services, consulte [Supervisión de una instancia de Analysis Services](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance).
+Para obtener información sobre cómo supervisar una instancia de Analysis Services, consulte [Supervisión de una instancia de Analysis Services](/sql/analysis-services/instances/monitor-an-analysis-services-instance).
 
-Para obtener información acerca de la configuración de memoria en Analysis Services, consulte [Propiedades de memoria](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
+Para obtener información acerca de la configuración de memoria en Analysis Services, consulte [Propiedades de memoria](/sql/analysis-services/server-properties/memory-properties).
 
 ### <a name="data-model-size-limit"></a>Límite del tamaño del modelo de datos
 El modelo de datos cargado en el motor de Analysis Services interno durante una actualización programada tiene un tamaño máximo de 2000 MB (2 GB). No se puede configurar este tamaño máximo. Si el modelo de datos crece más de 2 GB, recibirá el error de actualización, "la longitud del resultado supera el límite (2 GB) del tipo large del destino". En ese caso, se recomienda hospedar el modelo en una instancia de Analysis Services y utilizar una conexión dinámica con el modelo en el informe.

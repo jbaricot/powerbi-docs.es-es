@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 0f07c27cf9c69c07ae7b05c0cbf2573605647252
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 16fcc18492b371accaaf3c447d7a88978051f8c3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264829"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859667"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>¿Qué son los informes paginados en Power BI Premium?
 
@@ -87,7 +87,7 @@ Para más información, consulte el artículo [Suscripción personal y de otros 
 
 Estas son algunas otras características que no son compatibles con la versión inicial:
 
-- Anclar páginas de informes u objetos visuales a los paneles de Power BI. Aún puede anclar visualizaciones a un panel de Power BI desde un informe paginado local en un servidor de informes de Power BI o un servidor de informes de Reporting Services. Para más información, consulte [Anclar elementos de Reporting Services en paneles de Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards).
+- Anclar páginas de informes u objetos visuales a los paneles de Power BI. Aún puede anclar visualizaciones a un panel de Power BI desde un informe paginado local en un servidor de informes de Power BI o un servidor de informes de Reporting Services. Para más información, consulte [Anclar elementos de Reporting Services en paneles de Power BI](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards).
 - Mapas del documento.
 - Informes detallados.  Plantéese el uso de parámetros de dirección URL con informes paginados en escenarios de obtención de detalles.
 - Orígenes de datos compartidos y conjuntos de datos compartidos.

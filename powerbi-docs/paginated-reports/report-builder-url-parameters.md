@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: f81cf6625f02f71b1ccf8bcd2c442ded3329083d
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: fc54d60be34cd9d40cf1ea715aa84f2f1ef6f9de
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642389"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859414"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Parámetros de dirección URL en informes paginados en Power BI
 
@@ -170,7 +170,7 @@ XML:
 - rdl:Encoding=string
 - rdl:Schema=true/false
 
-**Abra hipervínculo en la misma ventana del explorador** Puede anexar "rdl:targetSameWindow=true" a la dirección URL del hipervínculo en el informe para que Power BI lo abra en la misma ventana del explorador. Para obtener información sobre cómo agregar hipervínculos a un informe, vea [Adición de un hipervínculo a una dirección URL](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs) en la documentación de SQL Server Reporting Services.
+**Abra hipervínculo en la misma ventana del explorador** Puede anexar "rdl:targetSameWindow=true" a la dirección URL del hipervínculo en el informe para que Power BI lo abra en la misma ventana del explorador. Para obtener información sobre cómo agregar hipervínculos a un informe, vea [Adición de un hipervínculo a una dirección URL](/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs) en la documentación de SQL Server Reporting Services.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

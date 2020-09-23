@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8cbc5d3018f16cecd5013dab2d4da01b0a69ef9f
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: b813b35daea8fae546780179c9a30998621a39b6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87363948"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861691"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Editor de fórmulas de Power BI Desktop
 
@@ -61,5 +61,5 @@ Puede usar los siguientes métodos abreviados de teclado para aumentar la produc
 En los artículos siguientes se proporcionn más información sobre las fórmulas y DAX en Power BI Desktop.
 
 * [Aspectos básicos de DAX en Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
-* [DAX en Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/) Curso de Microsoft Learn
+* [DAX en Power BI Desktop](/learn/paths/dax-power-bi/) Curso de Microsoft Learn
 * [DAX reference](/dax/) (Referencia de DAX)

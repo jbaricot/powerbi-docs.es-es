@@ -28,7 +28,9 @@
           href: mobile-apps-data-in-real-world-context.md
         - name: Consulta de datos sin conexión en las aplicaciones móviles
           href: mobile-apps-offline-data.md
-        - name: Aplicación Power BI for Mixed Reality (versión preliminar)
+        - name: "Power\_BI para HoloLens\_2"
+          href: mobile-hololens2-app.md
+        - name: "Power\_BI para HoloLens (1.ª generación)"
           href: mobile-mixed-reality-app.md
     - name: Procedimientos
       items:

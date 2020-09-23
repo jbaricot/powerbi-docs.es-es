@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: dd7d6a140dd9828a188f22144e31ea89e342c370
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ad1488869980c56bfe8dd4973fe60806781510a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74698702"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861806"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Solucionar problemas de actualización programada en Power BI Report Server
 En este artículo se describen los recursos disponibles para solucionar problemas con la actualización programada en Power BI Report Server.
@@ -35,9 +35,9 @@ La presión de memoria puede producirse cuando los informes requieren más memor
 
 Si se está produciendo presión de memoria de forma continuada, es posible que merezca la pena examinar una implementación escalada horizontalmente del servidor de informes con el fin de distribuir la carga de recursos. También puede definir que un servidor de informes especificado se utilice para la actualización de datos con la opción de configuración `IsDataModelRefreshService` en rsreportserver.config. Con esta configuración, se podrían definir uno o varios servidores para que sean el servidor front-end para controlar los informes solicitados y otro conjunto de servidores para su uso en la actualización programada.
 
-Para obtener información sobre cómo supervisar una instancia de Analysis Services, consulte [Supervisión de una instancia de Analysis Services](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance).
+Para obtener información sobre cómo supervisar una instancia de Analysis Services, consulte [Supervisión de una instancia de Analysis Services](/sql/analysis-services/instances/monitor-an-analysis-services-instance).
 
-Para obtener información acerca de la configuración de memoria en Analysis Services, consulte [Propiedades de memoria](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
+Para obtener información acerca de la configuración de memoria en Analysis Services, consulte [Propiedades de memoria](/sql/analysis-services/server-properties/memory-properties).
 
 ### <a name="kerberos-configuration"></a>Configuración de Kerberos
 La conexión a un origen de datos con credenciales de Windows puede requerir la configuración de la delegación restringida de Kerberos para realizar una conexión correcta. Para más información acerca de cómo configurar la delegación restringida de Kerberos, consulte [Configuración de Kerberos para usar informes de Power BI](configure-kerberos-powerbi-reports.md).
@@ -180,7 +180,7 @@ Las siguientes opciones se restablecen cada vez que se inicia el proceso de Anal
 ### <a name="profiling-the-local-analysis-services-process"></a>Generación de perfiles del proceso de Analysis Services local
 Se puede ejecutar SQL Server Profiler Trace en el proceso de Analysis Services local con fines de diagnóstico. Para conectarse a la instancia local de Analysis Services, haga lo siguiente.
 
-SQL Server Profiler Trace se incluye con la [descarga de SQL Server Management Studio (SSMS)](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms).
+SQL Server Profiler Trace se incluye con la [descarga de SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms).
 
 1. Inicie **SQL Server Profiler** como administrador.
 2. Seleccione el botón **Nuevo seguimiento**.
@@ -188,7 +188,6 @@ SQL Server Profiler Trace se incluye con la [descarga de SQL Server Management S
 4. En el cuadro de diálogo **Propiedades de seguimiento**, seleccione los eventos que desea capturar y seleccione **Ejecutar**.
 
 ## <a name="lock-pages-in-memory-windows-privilege"></a>Privilegio de Windows Bloquear páginas en memoria
-Si no puede representar un informe de Power BI, asignar el privilegio **Bloquear páginas en memoria** a la cuenta de servicios que ejecuta Power BI Report Server puede ser de ayuda. Para más información sobre cómo configurar **Bloquear páginas en memoria**, consulte [Privilegios de Windows asignados a la cuenta de servicio de Analysis Services](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv).
+Si no puede representar un informe de Power BI, asignar el privilegio **Bloquear páginas en memoria** a la cuenta de servicios que ejecuta Power BI Report Server puede ser de ayuda. Para más información sobre cómo configurar **Bloquear páginas en memoria**, consulte [Privilegios de Windows asignados a la cuenta de servicio de Analysis Services](/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv).
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-
