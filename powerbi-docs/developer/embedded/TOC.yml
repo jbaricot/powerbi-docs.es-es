@@ -28,6 +28,8 @@
           href: embedded-capacity.md
         - name: Planificación de capacidad
           href: embedded-capacity-planning.md
+        - name: Consideración para generar un token de inserción
+          href: generate-embed-token.md
         - name: Procedimientos recomendados de rendimiento
           href: embedded-performance-best-practices.md
         - name: Seguridad de nivel de fila
@@ -54,7 +56,7 @@
           href: export-paginated-report.md
         - name: Instalación automática de las aplicaciones
           href: embed-auto-install-app.md
-        - name: Creación de un inquilino de Azure Active Directory
+        - name: Crear un inquilino de Azure Active Directory
           href: create-an-azure-active-directory-tenant.md
         - name: Registro de una aplicación
           href: register-app.md
@@ -90,7 +92,7 @@
           items:
             - name: API REST de administración de recursos de Azure
               href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
-            - name: API de REST de Power BI
+            - name: API REST de Power BI
               href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: "Bibliotecas de Power\_BI"
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
