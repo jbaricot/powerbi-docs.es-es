@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 09/17/2020
 ms.author: painbar
-ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e152743c243e1af02650d919168dee0969e3a89e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235705"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763786"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalación y distribución de aplicaciones de plantilla en la organización
 
@@ -75,13 +75,9 @@ Para instalar, personalizar y distribuir una aplicación de plantilla, necesita 
 
    ![Vínculo de conexión de datos de la aplicación de GitHub](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
 
+    Se abrirá el cuadro de diálogo de parámetros, donde cambia el origen de datos de los datos de ejemplo a su propio origen de datos (vea [limitaciones conocidas](service-template-apps-overview.md#known-limitations)), a lo que sigue el cuadro de diálogo del método de autenticación. Es posible que tenga que volver a definir los valores en estos cuadros de diálogo. Consulte la documentación de la aplicación de plantilla específica que está instalando para obtener más información.
 
-    
-    Esto abre un cuadro de diálogo o una serie de cuadros de diálogo en los que se cambia el origen de datos de los datos de ejemplo a uno propio. Normalmente, esto significa volver a definir los parámetros de conjunto de datos y las credenciales del origen de datos. Vea [Limitaciones conocidas](service-template-apps-overview.md#known-limitations).
-    
-    En el ejemplo de abajo, la conexión a los datos implica dos cuadros de diálogo.
-
-   ![Cuadros de diálogo de conexión a los datos](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
+   ![Captura de pantalla de los cuadros de diálogo de conexión a datos.](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
     Una vez que haya terminado de rellenar los cuadros de diálogo de conexión, se iniciará el proceso de conexión. Un banner le informa de que se están actualizando los datos y que mientras tanto está viendo datos de ejemplo.
 
@@ -110,11 +106,11 @@ En ocasiones, los creadores de aplicaciones de plantilla lanzan nuevas versiones
 
 Si originalmente descargó la aplicación de AppSource, cuando haya disponible una nueva versión de la aplicación de plantilla, recibirá una notificación de dos maneras:
 * Aparece un banner de actualización en el servicio Power BI que le informa de que hay disponible una nueva versión de la aplicación.
-  ![Notificación de actualización de la aplicación de plantilla](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+  ![Banner de notificación de actualización de la aplicación de plantilla](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
 * Recibirá una notificación en el panel de notificaciones de Power BI.
 
 
-  ![Notificación de actualización de la aplicación de plantilla](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
+  ![Panel de notificación de actualización de la aplicación de plantilla](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >Si originalmente ha obtenido la aplicación a través de un vínculo directo, y no desde AppSource, la única forma de saber cuándo hay una versión nueva disponible es ponerse en contacto con el creador de la aplicación de plantilla.

@@ -1,6 +1,6 @@
 ---
 title: Colaboración en Microsoft Teams con Power BI
-description: Puede compartir y colaborar fácilmente en contenido de Power BI interactivo en los canales y chats de Microsoft Teams.
+description: Puesto que contar con personal distribuido es cada vez es más habitual, más organizaciones confían en Microsoft Teams para habilitar el trabajo remoto y mantener a los empleados sincronizados.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,23 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.date: 09/15/2020
+ms.openlocfilehash: d0510a3c8caf2e07034b9410d4338431670833e5
+ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478047"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91005500"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Colaboración en Microsoft Teams con Power BI
 
-Puesto que contar con personal distribuido y remoto cada vez es más habitual, más organizaciones confían en los equipos de Microsoft para mantener a los empleados sincronizados. Power BI ofrece varias opciones para compartir y colaborar en contenido de Power BI interactivo en los canales y chats de Microsoft Teams. 
+Puesto que contar con personal distribuido es cada vez es más habitual, más organizaciones confían en Microsoft Teams para habilitar el trabajo remoto y mantener a los empleados sincronizados. En este artículo se describen las opciones para compartir contenido de Power BI interactivo y colaborar en él en los canales y chats de Microsoft Teams. 
 
-- Con la pestaña **Power BI** para Microsoft Teams, puede [insertar informes interactivos en canales y chats de Microsoft Teams](service-embed-report-microsoft-teams.md). La pestaña **Power BI** ayuda a los compañeros de trabajo a encontrar los datos del equipo y analizar los datos en los canales del equipo. 
+- Con la pestaña **Power BI** para Microsoft Teams, puede [insertar informes interactivos en canales y chats de Microsoft Teams](service-embed-report-microsoft-teams.md). La pestaña Power BI ayuda a los compañeros de trabajo a encontrar los datos del equipo y analizar los datos en los canales del equipo. 
 - Cree una [vista previa del vínculo](service-teams-link-preview.md) cuando pegue un vínculo a los informes, a los paneles y a las aplicaciones en el cuadro de mensaje de Microsoft Teams. La vista previa del vínculo muestra información sobre el vínculo. 
-- Use [Compartir en Teams](service-share-report-teams.md) cuando vea informes y paneles en el servicio Power BI para iniciar conversaciones rápidamente en Teams.
+- Use [Compartir en Microsoft Teams](service-share-report-teams.md) cuando vea informes y paneles en el servicio Power BI para iniciar conversaciones rápidamente en Microsoft Teams.
+- Use la aplicación [Power BI de Microsoft Teams](service-microsoft-teams-app.md) para aportar toda la experiencia del servicio básico de Power BI a Microsoft Teams.
  
-:::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="Captura de pantalla de un informe de Power BI insertado en un canal de Teams.":::
+:::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="Captura de pantalla de un informe de Power BI insertado en un canal de Microsoft Teams.":::
 
 ## <a name="requirements"></a>Requisitos
 
@@ -56,10 +57,19 @@ Una forma de garantizar que todos los miembros del equipo tengan acceso a los in
 - No se admite el inicio de sesión único para el servicio de vista previa de vínculo.
 - Las vistas previas de vínculo no funcionan en los canales privados o de chat.
 
+## <a name="microsoft-power-platform-in-microsoft-teams"></a>Microsoft Power Platform en Microsoft Teams
+
+Las otras aplicaciones de Microsoft Power Platform también se integran con Microsoft Teams.
+
+- [Experiencia de administración de Power Platform](/power-platform/admin/about-teams-environment)
+- [Power Automate](/power-automate/teams/overview)
+- [Power Apps](/powerapps/teams/overview)
+- [Power Virtual Agents](/power-virtual-agents/)
+
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [Inserción de contenido de Power BI en Microsoft Teams](service-embed-report-microsoft-teams.md)
 - [Obtención de una vista previa del vínculo de Power BI en Microsoft Teams](service-teams-link-preview.md)
-- [Uso compartido directo en Teams desde el servicio Power BI](service-share-report-teams.md)
+- [Uso compartido directo en Microsoft Teams desde el servicio Power BI](service-share-report-teams.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/).

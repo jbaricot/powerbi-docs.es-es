@@ -10,12 +10,12 @@ ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f6527b326c2c779dda5a6d4b1c1276c84d3ec320
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: f52993c3876db5c8f0453fb2e6a25ce0b78af017
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642810"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857965"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -116,7 +116,7 @@ Los datos por usuario están habilitados de forma predeterminada en las métrica
 Al deshabilitar las métricas de uso para toda la organización, los administradores pueden utilizar una de estas opciones, o ambas:
 
 - **Elimine todo el contenido existente de las métricas de uso** para eliminar todos los iconos de informes y paneles existentes que se compilaron mediante los informes y conjuntos de datos de las métricas de uso. Esta opción permite eliminar todos los accesos a los datos de métricas de uso de todos los usuarios de la organización que ya los puedan estar usando.
-- **Eliminar todos los datos por usuario existentes del contenido de las métricas de uso actuales** Esta opción elimina todo el acceso a los datos por usuario para todos los usuarios de la organización que ya lo estén utilizando. 
+- **Eliminar todos los datos por usuario existentes del contenido de las métricas de uso actuales** para eliminar todo el acceso a los datos por usuario para todos los usuarios de la organización que ya lo estén utilizando.
 
 Tenga cuidado, ya que la eliminación del contenido de las métricas de uso y por usuario existentes es irreversible.
 
@@ -156,7 +156,7 @@ La configuración puede tener uno de estos tres estados:
 
     ![Opción de habilitar para todos](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Habilitado para un subconjunto de la organización**: En lugar de habilitar la característica para toda la organización, puede aplicar la configuración a **Grupos de seguridad específicos** a los que se les permitirá usar esta característica.
+* **Habilitado para un subconjunto de la organización**: Los grupos de seguridad específicos de su organización pueden usar esta característica.
 
     También puede habilitar la característica para toda la organización, **Excepto grupos de seguridad específicos**.
 
@@ -172,9 +172,11 @@ Las secciones siguientes proporcionan una visión general de los distintos tipos
 
 ### <a name="publish-get-help-information"></a>Publicar información "Obtener ayuda"
 
+![Publicación de información de "Obtener ayuda"](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
+
 Los administradores pueden especificar direcciones URL internas para invalidar el destino de los vínculos en el menú Ayuda de Power BI y para las actualizaciones de licencias. Si se establecen direcciones URL personalizadas, los usuarios de la organización recurren a los recursos internos de ayuda y soporte técnico en lugar de a los destinos predeterminados. Los siguientes destinos de recursos se pueden personalizar:
 
-* **Más información**. De forma predeterminada, este vínculo al menú Ayuda apunta a una [lista de todas nuestras rutas de aprendizaje y módulos de Power BI](https://docs.microsoft.com/learn/browse/?products=power-bi). Para dirigir este vínculo a recursos de aprendizaje interno, establezca una dirección URL personalizada para la **documentación de aprendizaje**.
+* **Más información**. De forma predeterminada, este vínculo al menú Ayuda apunta a una [lista de todas nuestras rutas de aprendizaje y módulos de Power BI](/learn/browse/?products=power-bi). Para dirigir este vínculo a recursos de aprendizaje interno, establezca una dirección URL personalizada para la **documentación de aprendizaje**.
 
 * **Comunidad**. Para llevar a los usuarios a un foro interno desde el menú Ayuda, establezca una dirección URL personalizada al **Foro de discusión** en lugar de a la [Comunidad de Power BI](https://community.powerbi.com/).
 
@@ -182,15 +184,15 @@ Los administradores pueden especificar direcciones URL internas para invalidar e
 
 * **Obtener ayuda**. Para llevar a los usuarios a un departamento de soporte técnico interno desde el menú Ayuda, establezca una dirección URL personalizada al **Departamento de soporte técnico** en lugar de al [Soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
 
-![Publicación de información de "Obtener ayuda"](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
-
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Recepción de notificaciones por correo electrónico sobre interrupciones o incidentes en el servicio
 
 Los grupos de seguridad habilitados para correo recibirán notificaciones por correo electrónico si este inquilino se ve afectado por una interrupción del servicio o un incidente. Más información sobre [Notificaciones de interrupción del servicio](service-interruption-notifications.md).
 
 ### <a name="allow-users-to-try-power-bi-pro"></a>Permitir que los usuarios prueben Power BI Pro
 
-La opción **Allow users to try Power BI Pro** (Permitir que los usuarios prueben Power BI Pro) está habilitada de forma predeterminada, y aumenta el control sobre el modo en que los usuarios adquieren licencias de Power BI Pro. En escenarios en los que se ha bloqueado la compra mediante autoservicio, esta opción permite a los usuarios iniciar una prueba de Power BI Pro. La experiencia del usuario final depende del modo en que combine la configuración de licencia. En la tabla siguiente se muestra el modo en que la experiencia de actualización de Power BI (gratis) a Power BI Pro se ve afectada por distintas combinaciones de opciones:
+![Interfaz de usuario de la opción para permitir que los usuarios prueben Power BI Pro](media/service-admin-portal/allow-pro-trial.png)
+
+El parámetro **Permitir que los usuarios prueben Power BI Pro** está habilitado de forma predeterminada. Este valor aumenta el control sobre cómo los usuarios adquieren licencias de Power BI Pro. En escenarios en los que se ha bloqueado la compra mediante autoservicio, esta opción permite a los usuarios iniciar una prueba de Power BI Pro. La experiencia del usuario final depende del modo en que combine la configuración de licencia. En la tabla siguiente se muestra el modo en que la experiencia de actualización de Power BI (gratis) a Power BI Pro se ve afectada por distintas combinaciones de opciones:
 
 | Opción de compra mediante autoservicio | Opción para permitir que los usuarios prueben Power BI Pro | Experiencia del usuario final |
 | ------ | ------ | ----- |
@@ -200,9 +202,7 @@ La opción **Allow users to try Power BI Pro** (Permitir que los usuarios pruebe
 | Disabled | habilitado | El usuario puede iniciar una evaluación gratuita de la versión Pro, pero debe ponerse en contacto con el administrador de TI para obtener una licencia de pago. |
 
 > [!NOTE]
-> Puede agregar una dirección URL interna para las solicitudes de licencias en la [opción de Ayuda y soporte técnico](#help-and-support-settings). Si establece la dirección URL, se invalida la experiencia de compra predeterminada. A los usuarios que pueden comprar una licencia en los escenarios descritos en la tabla anterior, se les redirige a la dirección URL interna.
-
-![Interfaz de usuario de la opción para permitir que los usuarios prueben Power BI Pro](media/service-admin-portal/allow-pro-trial.png)
+> Puede agregar una dirección URL interna para las solicitudes de licencias en la [opción de Ayuda y soporte técnico](#help-and-support-settings). Si establece la dirección URL, se invalida la experiencia de compra de autoservicio predeterminada. No redirige el registro para una prueba de licencia de Power BI Pro. A los usuarios que pueden comprar una licencia en los escenarios descritos en la tabla anterior, se les redirige a la dirección URL interna.
 
 Para más información, consulte [Activación o desactivación del registro y la compra de autoservicio](service-admin-disable-self-service.md).
 
@@ -216,7 +216,7 @@ En **Configuración de inquilinos**, el portal de administración tiene tres sec
 
 ### <a name="create-the-new-workspaces"></a>Creación de nuevas áreas de trabajo
 
-Las áreas de trabajo son lugares en los que los usuarios pueden colaborar en paneles, informes y otro contenido. Los administradores usan la configuración **Creación de áreas de trabajo (nueva experiencia de áreas de trabajo)** para indicar qué usuarios de la organización pueden crear áreas de trabajo. Los administradores pueden permitir que todos o ninguno de los empleados de una organización creen experiencias de áreas de trabajo. También pueden restringir la creación de estas áreas a miembros de grupos de seguridad específicos. Obtenga más información sobre las [áreas de trabajo](../collaborate-share/service-new-workspaces.md).
+Las áreas de trabajo son lugares en los que los usuarios colaboran en paneles, informes y otro contenido. Los administradores usan la configuración **Creación de áreas de trabajo (nueva experiencia de áreas de trabajo)** para indicar qué usuarios de la organización pueden crear áreas de trabajo. Los administradores pueden permitir que todos o ninguno de los empleados de una organización creen experiencias de áreas de trabajo. También pueden restringir la creación de estas áreas a miembros de grupos de seguridad específicos. Obtenga más información sobre las [áreas de trabajo](../collaborate-share/service-new-workspaces.md).
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Creación de las nuevas experiencias de áreas de trabajos":::
 
@@ -237,9 +237,9 @@ En el portal de administración, también controla qué usuarios tienen permisos
 
 Los administradores pueden controlar qué usuarios de la organización pueden usar conjuntos de datos en las áreas de trabajo. Cuando esta opción está habilitada, los usuarios todavía necesitan el permiso de compilación necesario para un conjunto de datos específico.
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="Uso de conjuntos de datos entre áreas de trabajo":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="Creación de las nuevas experiencias de áreas de trabajos":::
 
-Para más información, consulte [Introducción a los conjuntos de datos de áreas de trabajo (versión preliminar)](../connect-data/service-datasets-across-workspaces.md).
+Para más información, consulte [Introducción a los conjuntos de datos en áreas de trabajo](../connect-data/service-datasets-across-workspaces.md).
 
 ### <a name="block-classic-workspace-creation"></a>Bloqueo de la creación de áreas de trabajo clásicas
 
@@ -253,13 +253,13 @@ Cuando está habilitado, los grupos de Office 365 recién creados no se mostrar
 
 ### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>Permiso a usuarios invitados de Azure Active Directory para acceder a Power BI
 
-La habilitación de esta configuración permite a los usuarios invitados de Azure Active Directory Business-to-Business (Azure AD B2B) tener acceso a Power BI. Al deshabilitar esta configuración, los usuarios invitados reciben un error al intentar acceder a Power BI. Cuando se deshabilita esta configuración para toda la organización, también se impide a los usuarios que inviten a otras personas a su organización. Use la opción de grupos de seguridad específicos para controlar qué usuarios invitados pueden acceder a Power BI.
+La habilitación de esta configuración permite a los usuarios invitados de Azure Active Directory Business-to-Business (Azure AD B2B) tener acceso a Power BI. Si deshabilita esta configuración, los usuarios invitados reciben un error al intentar acceder a Power BI. Cuando se deshabilita esta configuración para toda la organización, también se impide a los usuarios que inviten a otras personas a su organización. Use la opción de grupos de seguridad específicos para controlar qué usuarios invitados pueden acceder a Power BI.
 
 ![Permiso a usuarios invitados de Azure Active Directory para acceder a Power BI](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
 
 ### <a name="invite-external-users-to-your-organization"></a>Invitación de usuarios externos a su organización 
 
-La configuración de **Invitar a usuarios externos a la organización** ayuda a las organizaciones a elegir si se puede invitar a los nuevos usuarios externos a la organización mediante experiencias de uso compartido y permisos de Power BI. Cuando está deshabilitado, si un usuario externo aún no es un usuario invitado de la organización, no se puede agregar a la organización a través de Power BI. 
+La configuración de **Invitar a usuarios externos a la organización** ayuda a las organizaciones a elegir si se puede invitar a los nuevos usuarios externos a la organización mediante experiencias de uso compartido y permisos de Power BI. Si el ajuste está deshabilitado, un usuario externo que aún no es un usuario invitado de la organización no se puede agregar a esta a través de Power BI.
 
 ![Invitación de usuarios externos a su organización](media/service-admin-portal/powerbi-admin-allow-invite-aad-b2b-guests.png)
 
@@ -298,7 +298,7 @@ Los usuarios ven diferentes opciones en la interfaz de usuario en función del v
 
 ### <a name="export-data"></a>Exportar datos
 
-Los usuarios de la organización pueden exportar datos desde un icono o una visualización. Esto controla Analizar en Excel, la exportación a .csv, las descargas de conjuntos de datos (.pbix) y las características Live Connect del servicio Power BI. Obtenga más información sobre la [exportación de datos desde un icono o un objeto visual](../visuals/power-bi-visualization-export-data.md).
+Los usuarios de la organización pueden exportar datos desde un icono o una visualización. Este ajuste controla Analizar en Excel, la exportación a .csv, las descargas de conjuntos de datos (.pbix) y las características Live Connect del servicio Power BI. Obtenga más información sobre la [exportación de datos desde un icono o un objeto visual](../visuals/power-bi-visualization-export-data.md).
 
 >[!NOTE]
 > Antes de la introducción de la opción Exportar a Excel, esta opción también controlaba la exportación de datos a archivos de Excel. Para obtener más información, vea la [nota en Exportación a Excel](#export-to-excel).
@@ -403,7 +403,7 @@ Los usuarios de la organización pueden usar características de búsqueda exter
 
 En **Configuración de inquilinos**, la configuración de inquilino **Allow connections to featured tables** (Permitir conexiones a tablas destacadas) permite que los administradores de Power BI controlen qué usuarios de la organización pueden usar tablas destacadas en la galería de tipos de datos de Excel. 
 
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Todas las conexiones a tablas destacadas":::
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Creación de las nuevas experiencias de áreas de trabajos":::
 
 Las conexiones a tablas destacadas también se deshabilitan si la configuración de inquilino **Exportar datos** está establecida en **Deshabilitada**.
 
@@ -482,25 +482,25 @@ Los usuarios de la organización pueden crear y usar flujos de datos. Para obten
 
 Tres valores de configuración controlan la capacidad de las aplicaciones de plantilla de publicar o instalar aplicaciones de plantilla.
 
-![Configuración de aplicaciones de plantilla del portal de administración de Power BI](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+![Configuración de aplicaciones de plantilla del portal de administración de Power BI](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
 
 ### <a name="publish-template-apps"></a>Publicar aplicaciones de plantilla
 
 Los usuarios de la organización pueden crear áreas de trabajo de aplicaciones de plantilla. Controle qué usuarios pueden publicar aplicaciones de plantilla o distribuirlas a clientes fuera de la organización mediante [AppSource](https://appsource.microsoft.com) u otros métodos de distribución.
 
-![Portal de administración de Power BI, opción Crear aplicaciones de plantilla](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+![Ajuste para publicar aplicaciones de plantillas habilitado para toda la organización](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
 ### <a name="install-template-apps-listed-on-appsource"></a>Instalar aplicaciones de plantilla que aparecen en AppSource
 
 Los usuarios de la organización pueden descargar e instalar aplicaciones de plantilla **solo** desde [AppSource](https://appsource.microsoft.com). Controle qué usuarios o grupos de seguridad específicos pueden instalar aplicaciones de plantilla desde AppSource.
 
-![Portal de administración de Power BI, opción Instalar aplicaciones de plantilla](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
+![Ajuste para instalar aplicaciones de plantilla](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
 
 ### <a name="install-template-apps-not-listed-on-appsource"></a>Instalar aplicaciones de plantilla que no aparecen en AppSource
 
 Controle qué usuarios de la organización pueden descargar e instalar aplicaciones de plantilla **que no aparecen en [AppSource](https://appsource.microsoft.com)** .
 
-![Portal de administración de Power BI, opción Instalar aplicaciones de plantilla](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
+![Ajuste para instalar aplicaciones de plantilla que no aparecen en AppSource](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
 ## <a name="capacity-settings"></a>Configuración de la capacidad
 

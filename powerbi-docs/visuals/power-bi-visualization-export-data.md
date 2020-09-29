@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1593cecf448b193ce2186be041da771bb8d6a09c
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 7ab0a093dfd41034aa79d2934ad23cf373fd0474
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008937"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861599"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportación de los datos usados para crear una visualización
 
@@ -228,7 +228,7 @@ Es importante tener en cuenta que si la configuración del portal de administrac
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 Estas limitaciones y consideraciones se aplican a Power BI Desktop y el servicio Power BI, incluidos Power BI Pro y Premium.
 
-- Para exportar los datos de un objeto visual, debe tener [permiso de compilación para el conjunto de datos subyacente](https://docs.microsoft.com/power-bi/service-datasets-build-permissions).
+- Para exportar los datos de un objeto visual, debe tener [permiso de compilación para el conjunto de datos subyacente](../connect-data/service-datasets-build-permissions.md).
 
 -  El número máximo de filas que **Power BI Desktop** y el **servicio Power BI** pueden exportar desde un **informe de modo de importación** a un archivo *.csv* es 30 000.
 

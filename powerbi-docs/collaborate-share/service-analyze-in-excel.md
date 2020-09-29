@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/26/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 845fb523e9045e7a1062d11eebbb5e34bcc29ce3
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937502"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020076"
 ---
 # <a name="analyze-in-excel"></a>Analizar en Excel
 Con **Analizar en Excel**, puede traer conjuntos de datos de Power BI a Excel y luego verlos e interactuar con ellos a través de tablas dinámicas, gráficos, segmentaciones y otras características de Excel. Para usar **Analizar en Excel**, primero debe descargar la característica desde Power BI, instalarla y, luego, seleccionar uno o varios conjuntos de datos para usarlos en Excel. 
@@ -92,6 +92,15 @@ En el servicio Power BI, navegue hasta el conjunto de datos o el informe que qu
     >![Captura de pantalla del banner Habilitar edición de la vista protegida](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
     >
     >![Captura de pantalla del banner Habilitar contenido de Documento de confianza](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
+
+Cuando se usa Excel para analizar Power BI mediante una tabla dinámica, Power BI amplía la herencia de etiquetas de confidencialidad hasta Excel. Una etiqueta de confidencialidad aplicada a un conjunto de datos de Power BI se aplica automáticamente al archivo de Excel cuando se crea una tabla dinámica en Excel. 
+
+Si la etiqueta del conjunto de datos cambia posteriormente a una más restrictiva, la etiqueta aplicada al archivo de Excel vinculado se actualiza automáticamente tras la actualización de los datos en Excel. Si el conjunto de datos cambia a uno menos restrictivo, no se produce ninguna herencia de etiquetas ni actualización.
+
+La etiqueta del conjunto de datos no sobrescribe automáticamente las etiquetas de confidencialidad de Excel que se establecieron manualmente. Si un archivo de Excel tiene una etiqueta de confidencialidad establecida manualmente, aparecerá una sugerencia de directiva con una recomendación para actualizar la etiqueta. 
+
+Para obtener más información, vea [cómo aplicar etiquetas de confidencialidad en Power BI](../admin/service-security-apply-data-sensitivity-labels.md).
+
 
 ## <a name="use-excel-to-analyze-the-data"></a>Usar Excel para analizar los datos
 
@@ -177,4 +186,4 @@ Puede que también esté interesado en los siguientes artículos:
 * [Uso de segmentaciones de datos en Power BI Desktop](../visuals/power-bi-visualization-slicers.md)
 * [Solución de problemas de Analizar en Excel](desktop-troubleshooting-analyze-in-excel.md)
 * [Acceso a tablas destacadas de Power BI en Excel (versión preliminar)](service-excel-featured-tables.md).
-
+* [Aplicación de etiquetas de confidencialidad en Power BI](../admin/service-security-apply-data-sensitivity-labels.md)

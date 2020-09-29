@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/14/2020
+ms.date: 09/17/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 612fa923f45b427cb9c4fea4ecc1b18ad8580004
-ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
+ms.openlocfilehash: 3b8eb9c5e4211097cd6f11d233165ccaf197ddbe
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90084039"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854377"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Vínculos privados para acceder a Power BI
 
@@ -158,7 +158,7 @@ El siguiente paso consiste en crear una red virtual y una subred para hospedar l
     |Tamaño | Deje el valor predeterminado **Estándar DS1 v2**. |
     |CUENTA DE ADMINISTRADOR ||
     |Nombre de usuario |Escriba un nombre de usuario de su elección. |
-    |Contraseña | Escriba una contraseña de su elección. La contraseña debe tener un mínimo de 12 caracteres y cumplir los [requisitos de complejidad definidos](https://docs.microsoft.com/azure/virtual-machines/windows/faq?toc=/azure/virtual-network/toc.json#what-are-the-password-requirements-when-creating-a-vm). |
+    |Contraseña | Escriba una contraseña de su elección. La contraseña debe tener un mínimo de 12 caracteres y cumplir los [requisitos de complejidad definidos](/azure/virtual-machines/windows/faq#what-are-the-password-requirements-when-creating-a-vm). |
     |Confirm Password | Vuelva a escribir la contraseña. |
     |REGLAS DE PUERTO DE ENTRADA ||
     |Puertos de entrada públicos | Deje el valor predeterminado **Ninguno**. |
@@ -284,6 +284,7 @@ Hay algunas consideraciones que se deben tener en cuenta al trabajar con víncul
 * El uso de imágenes o temas externos no está disponible cuando se usa un entorno de vínculos privados, y esto puede afectar a los objetos visuales personalizados.
 * Los servicios de exportación, como exportar en PDF, en Excel desde un informe, etc., no funcionan al usar un entorno de vínculos privados.
 * Los informes de SQL Server Reporting Services, conocidos normalmente como archivos RDL (archivos con formato *.rdl), no se representan en los entornos de vínculos privados.
+* Si el acceso a Internet está deshabilitado y si el conjunto de datos o el flujo de datos se está conectando a un conjunto de datos o flujo de datos de Power BI como un origen de datos, se producirá un error en la conexión.
 
 
 ## <a name="next-steps"></a>Pasos siguientes

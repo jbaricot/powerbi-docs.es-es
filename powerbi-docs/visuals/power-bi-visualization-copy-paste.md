@@ -6,15 +6,15 @@ ms.reviewer: maggie tsang
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/13/2020
+ms.date: 09/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5791f2428c13bca9a6e2df02e7739623bb51fc96
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 785f16b84dee1509ab04255587724e5ce39a043c
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233291"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763158"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>Copiar y pegado de la visualización de un informe
 
@@ -23,7 +23,7 @@ ms.locfileid: "85233291"
 En este artículo se tratan dos maneras diferentes de copiar y pegar un objeto visual. 
 * Copiar un objeto visual en un informe y pegarlo en otra página del informe (se necesitan permisos de edición del informe).
 
-* Copiar una imagen de un objeto visual de Power BI en el portapapeles y pegarla en otras aplicaciones.
+* copiar una imagen de un objeto visual de Power BI en el portapapeles y pegarla en otras aplicaciones (disponible en el servicio Power BI y en Power BI Mobile, no disponible en Power BI Desktop)
 
 ## <a name="copy-and-paste-within-the-same-report"></a>Copia y pegado en el mismo informe
 Los objetos visuales de los informes de Power BI se pueden copiar de una página del informe a la misma página o a otra del mismo informe. 
@@ -41,7 +41,7 @@ Las visualizaciones en *paneles* no se pueden copiar ni pegar en informes de Pow
 
 ## <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>Copia de un objeto visual como imagen en el portapapeles
 
-¿Alguna vez ha querido compartir una imagen de un informe o de un panel de Power BI? Ahora puede copiar el objeto visual y pegarlo en cualquier otra aplicación que admita el pegado. 
+¿Alguna vez ha querido compartir una imagen de un informe o de un panel de Power BI? Ahora puede copiar el objeto visual y del servicio Power BI o Power BI Mobile y pegarlo en cualquier otra aplicación que admita el pegado. 
 
 Cuando se copia una imagen estática de un objeto visual, se obtiene una copia del mismo junto con los metadatos. Esto incluye:
 * Vínculo al informe o al panel de Power BI
@@ -52,7 +52,7 @@ Cuando se copia una imagen estática de un objeto visual, se obtiene una copia d
 
 ### <a name="copy-from-a-dashboard-tile"></a>Copia desde un icono de panel
 
-1. Navegue al panel desde el que quiera copiar.
+1. Abra el servicio Power BI y navegue hasta el panel desde el que desea copiar.
 
 2. En la esquina superior derecha del objeto visual, seleccione **Más opciones (…)** y elija **Copiar objeto visual como imagen**. 
 
@@ -64,15 +64,15 @@ Cuando se copia una imagen estática de un objeto visual, se obtiene una copia d
 
 4. Cuando el objeto visual esté listo, péguelo en otra aplicación mediante **Ctrl+V** o haga clic con el botón derecho y seleccione Pegar. En la siguiente captura de pantalla, hemos pegado el objeto visual en Microsoft Word. 
 
-    ![Objeto visual pegado en Word](media/power-bi-visualization-copy-paste/power-bi-paste-word.png)
+    ![objeto visual pegado en Word](media/power-bi-visualization-copy-paste/power-bi-paste-word.png)
 
 ### <a name="copy-from-a-report-visual"></a>Copia desde el objeto visual de un informe 
 
-1. Navegue al informe desde el que quiera copiar.
+1. Abra el servicio Power BI y navegue hasta el informe desde el que desea copiar.
 
 2. En la esquina superior derecha del objeto visual, seleccione el icono **Copiar objeto visual como imagen**. 
 
-    ![Icono "Copiar objeto visual como imagen" resaltado](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
+    ![Captura de pantalla que muestra el icono Copiar objeto visual como imagen](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
 
 3. Cuando aparezca el cuadro de diálogo **El objeto visual ya se puede copiar**, seleccione **Copiar al portapapeles**.
 
@@ -95,7 +95,7 @@ Cuando se copia una imagen estática de un objeto visual, se obtiene una copia d
 Si es el propietario del contenido o un administrador del inquilino, puede controlar si un objeto visual se puede copiar como una imagen desde un informe o desde un panel.
 
 #### <a name="disable-copy-as-an-image-for-a-specific-visual"></a>Deshabilitación de la opción de copia como imagen para un objeto visual específico
-Si no quiere que los usuarios puedan copiar un objeto visual en concreto, puede quitar el icono de copia de ese objeto visual.
+Si no quiere que los usuarios puedan copiar un objeto visual en concreto, puede quitar el icono de copia de ese objeto visual en el servicio Power BI.    
 1. Seleccione el icono del rodillo de pintura para abrir el panel de formato. 
 
 1. Abra la tarjeta relativa al **formato del objeto visual**.
@@ -129,6 +129,8 @@ Si es el propietario del contenido o un administrador del inquilino, puede contr
    ![Copia no disponible](media/power-bi-visualization-copy-paste/power-bi-copy-grey.png)
 
 
+P: No veo la opción Copiar como imagen    
+R: Si está utilizando Power BI Desktop, esta característica aún no está disponible    
 P: ¿Por qué está deshabilitado el icono de copia en un objeto visual?    
 R: Actualmente se admiten objetos visuales nativos de Power BI y objetos visuales certificados. Hay compatibilidad limitada con ciertos objetos visuales, entre los que se incluyen: 
 - ESRI y otros objetos visuales de mapa 

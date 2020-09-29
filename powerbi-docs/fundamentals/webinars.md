@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.author: kfollis
-ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768410"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020030"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) es un proveedor que trabaja con Chauncy Freels y ayuda a mantener esta lista de seminarios web."
@@ -22,11 +22,23 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 
 ## <a name="upcoming-webinars"></a>Próximos seminarios web
 
+**Póngase en marcha rápidamente con Power BI**  
+por Miguel Martinez, Microsoft  
+[Regístrese para verlo el 5 de noviembre de 2020, de 10:00 a 11:00 (hora de verano del Pacífico)](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
 [Próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Seminarios web destacados
 
 Empiece por estos seminarios web a petición populares
+
+**Supervisión de los datos en tiempo real con Microsoft Power BI**  
+por Miguel Martinez y Peter Myers  
+[Ver ahora](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**Creación de soluciones de inteligencia empresarial escalables con Power BI y Snowflake**  
+por Chris Webb, Craig Collier y Chris Holliday  
+[Ver ahora](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html?lcid=en-us)
 
 **Mejora de la satisfacción del usuario con los procedimientos recomendados para administrar el contenido de BI**  
 de Nimrod Shalit  

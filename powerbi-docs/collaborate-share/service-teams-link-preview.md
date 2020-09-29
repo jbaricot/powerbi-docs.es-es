@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 07/22/2020
-ms.openlocfilehash: 06bd8271904b9c44de6c71e287f0560c54f6d031
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: fb79358bb9149498a39cca32db618cb6971121de
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254061"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964772"
 ---
 # <a name="get-a-power-bi-link-preview-in-microsoft-teams"></a>Obtención de una vista previa del vínculo de Power BI en Microsoft Teams
 
@@ -27,7 +27,7 @@ Cuando pegue un vínculo a los informes, a los paneles y a las aplicaciones en e
 
 El servicio de vista previa de vínculo requiere que los usuarios inicien sesión. Para cerrar la sesión, seleccione el icono de **Power BI** en la parte inferior del cuadro de mensaje. Después, seleccione **Cerrar sesión**.
 
-Vea [Colaboración en Microsoft Teams con Power BI](service-collaborate-microsoft-teams.md) para obtener información sobre el funcionamiento conjunto de Power BI y Teams, incluidos los requisitos que debe cumplir.
+Vea [Colaboración en Microsoft Teams con Power BI](service-collaborate-microsoft-teams.md) para obtener información sobre el funcionamiento conjunto de Power BI y Microsoft Teams, incluidos los requisitos que debe cumplir.
 
 ## <a name="get-a-link-preview"></a>Obtención de una vista previa de vínculo
 

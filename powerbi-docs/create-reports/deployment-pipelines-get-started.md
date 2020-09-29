@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.custom: contperfq1
+ms.date: 09/15/2020
+ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557265"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855794"
 ---
-# <a name="get-started-with-deployment-pipelines-preview"></a>Introducción a las canalizaciones de implementación (versión preliminar)
+# <a name="get-started-with-deployment-pipelines"></a>Introducción a las canalizaciones de implementación
 
 Este artículo le guía a través de la configuración básica necesaria para usar las canalizaciones de implementación.
 
@@ -35,13 +36,31 @@ Podrá acceder a la característica de canalizaciones de implementación si se c
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>Paso1 : Crear una canalización de implementación
 
-Para crear una canalización de implementación, haga lo siguiente:
-
-1. En el servicio Power BI, en el panel de navegación, seleccione **Canalizaciones de implementación** y haga clic en **Crear de canalización**.
-
-2. En el cuadro de diálogo *Crear una canalización de implementación*, escriba un nombre y una descripción para la canalización y haga clic en **Crear**.
+Puede crear una canalización desde la pestaña de canalizaciones de implementación o desde un área de trabajo.
 
 Una vez creada la canalización, puede compartirla con otros usuarios o eliminarla. Cuando comparte una canalización con otras personas, los usuarios con los que la comparte tendrán [acceso a ella](deployment-pipelines-process.md#user-with-pipeline-access). El acceso a la canalización permite a los usuarios verla, compartirla, editarla y eliminarla.
+
+### <a name="create-a-pipeline-from-the-deployment-pipelines-tab"></a>Creación de una canalización desde la pestaña de canalizaciones de implementación
+
+Para crear una canalización desde la pestaña de canalizaciones de implementación, haga lo siguiente:
+
+1. En el servicio Power BI, en el panel de navegación, seleccione **Canalizaciones de implementación** y luego seleccione **Crear canalización**.
+
+2. En el cuadro de diálogo *Crear una canalización de implementación*, escriba un nombre y una descripción para la canalización y seleccione **Crear**.
+
+### <a name="create-a-pipeline-from-a-workspace"></a>Creación de una canalización desde un área de trabajo
+
+Puede crear una canalización desde un área de trabajo existente, siempre que sea el administrador de una [nueva experiencia de área de trabajo](../collaborate-share/service-create-the-new-workspaces.md).
+
+1. En el área de trabajo, seleccione **Crear una canalización**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Captura de pantalla del botón Crear una canalización en un área de trabajo.](media/deployment-pipelines-get-started/workspace-deploy.png)
+
+2. En el cuadro de diálogo *Crear una canalización de implementación*, escriba un nombre y una descripción para la canalización y seleccione **Crear**.
+
+>[!NOTE]
+>Si el área de trabajo no está asignada a la capacidad Premium de su organización, recibirá una notificación para [asignarla a una capacidad](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity).  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>Paso 2: Asignar un área de trabajo a una canalización de implementación
 
@@ -51,9 +70,12 @@ Puede asignar un área de trabajo a una canalización de implementación. Las ca
 
 Siga estos pasos para asignar un área de trabajo en una canalización de implementación:
 
-1. En la canalización de implementación que acaba de crear, haga clic en **Asignar un área de trabajo**.
+1. En la canalización de implementación que acaba de crear, seleccione **Asignar un área de trabajo**.
 
 2. En el menú desplegable *Elegir el área de trabajo*, seleccione el área de trabajo que desea asignar a la canalización.
+
+    >[!NOTE]
+    >Si va a crear una canalización desde un área de trabajo, puede omitir esta fase porque el área de trabajo ya está seleccionada.
 
 3. Seleccione la fase a la que desea asignar el área de trabajo.
 
@@ -82,13 +104,13 @@ Una vez finalizada la implementación, actualice el conjunto de datos. Para más
 
 ### <a name="deploying-all-content"></a>Implementación de todo el contenido
 
-Seleccione la fase desde la que desea realizar la implementación y haga clic en el botón de implementación. El proceso de implementación crea un área de trabajo duplicada en la fase de destino. Esta área de trabajo incluye todo el contenido existente en la fase actual.
+Seleccione la fase desde la que desea realizar la implementación y seleccione el botón de implementación. El proceso de implementación crea un área de trabajo duplicada en la fase de destino. Esta área de trabajo incluye todo el contenido existente en la fase actual.
 
 [![Captura de pantalla que muestra el botón de implementación para las fases de desarrollo y pruebas en una canalización de implementación.](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>Implementación selectiva
 
-Para implementar solo elementos específicos, haga clic en el vínculo **Mostrar más** y seleccione los elementos que desea implementar. Al hacer clic en el botón de implementación, solo se implementan los elementos seleccionados en la siguiente fase.
+Para implementar solo elementos específicos, seleccione el vínculo **Mostrar más** y luego los elementos que desea implementar. Al hacer clic en el botón de implementación, solo se implementan los elementos seleccionados en la siguiente fase.
 
 Dado que los paneles, informes y conjuntos de datos están relacionados y tienen dependencias, puede usar el botón de selección de relacionados para comprobar todos los elementos de los que dependen esos elementos. Por ejemplo, si desea implementar un informe en la siguiente fase, al hacer clic en el botón de selección de relacionados, se marcará el conjunto de datos al que está conectado el informe, de modo que ambos se implementarán a la vez y el informe no se interrumpirá.
 
@@ -119,7 +141,7 @@ Las reglas de conjunto de datos se definen en orígenes de datos y parámetros, 
 
 ### <a name="create-a-dataset-rule"></a>Creación de una regla de conjunto de datos
 
-1. En la fase de canalización para la que desea crear una regla de conjunto de datos, haga clic en **Configuración de la implementación**.
+1. En la fase de canalización para la que desea crear una regla de conjunto de datos, seleccione **Configuración de la implementación**.
 
     ![Captura de pantalla del botón configuración de implementación, que se encuentra en la parte superior derecha de cada fase de canalización de implementación.](media/deployment-pipelines-get-started/deployment-settings.png)
 
@@ -127,7 +149,7 @@ Las reglas de conjunto de datos se definen en orígenes de datos y parámetros, 
 
     [![Captura de pantalla que muestra la selección de un conjunto de datos para crear una regla de conjunto de datos.](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
-3. Seleccione el tipo de regla que desea crear, expanda la lista y haga clic en **Agregar regla**.
+3. Seleccione el tipo de regla que desea crear, expanda la lista y luego seleccione **Agregar regla**.
 
      [![Captura de pantalla que muestra la selección de una regla de origen de datos, y clic en la opción agregar regla.](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
@@ -139,7 +161,7 @@ Hay dos tipos de reglas que puede crear:
 
     1. Seleccionar en una lista.
 
-    2. Hacer clic en **Otro** y agregar manualmente el nuevo origen de datos. Solo puede cambiar a un origen de datos del mismo tipo.
+    2. Seleccione **Otro** y agregue manualmente el nuevo origen de datos. Solo puede cambiar a un origen de datos del mismo tipo.
 
 * **Reglas de parámetros** Seleccione un parámetro de la lista de parámetros; se muestra el valor actual. Edite el valor y escriba el valor que desea aplicar después de cada implementación.
 
@@ -153,7 +175,7 @@ Hay dos tipos de reglas que puede crear:
 
 * Si el origen de datos o los parámetros definidos en una regla se cambian o se quitan del conjunto de datos de origen, la regla no será válida y se producirá un error en la implementación.
 
-* Las reglas de parámetros no se pueden definir para los parámetros que son de tipo *Cualquiera* o *Binario*. Para obtener más información, vea las [restricciones de los parámetros de actualización en conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters).
+* Las reglas de parámetros no se pueden definir para los parámetros que son de tipo *Cualquiera* o *Binario*. Para obtener más información, vea las [restricciones de los parámetros de actualización en conjuntos de datos](/rest/api/power-bi/datasets/updateparameters).
 
 * Las reglas de origen de datos solo se pueden definir para los siguientes orígenes de datos:
     * Azure Analysis Services
@@ -172,7 +194,7 @@ Hay dos tipos de reglas que puede crear:
 
 Una vez que tenga contenido en una fase de canalización, puede implementarlo en la fase siguiente. Normalmente, la implementación de contenido en otra fase se realiza después de haber realizado algunas acciones en la canalización. Por ejemplo, realizó cambios de desarrollo en el contenido de la fase de desarrollo o probó el contenido en la fase de prueba. Un flujo de trabajo típico para mover contenido de una fase a otra, es de la fase de desarrollo a la de prueba y luego de la fase de prueba a la de producción. Puede obtener más información sobre este proceso en la sección [Implementación del contenido en un área de trabajo existente](deployment-pipelines-process.md#deploy-content-to-an-existing-workspace).
 
-Para implementar contenido en la siguiente fase de la canalización de implementación, haga clic en el botón de implementación situado en la parte inferior de la fase.
+Para implementar contenido en la siguiente fase de la canalización de implementación, seleccione el botón de implementación situado en la parte inferior de la fase.
 
 Al revisar las tarjetas de las fases de prueba y producción, puede ver la hora de la última implementación. Indica la última vez que se implementó el contenido en la fase.
 

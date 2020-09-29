@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/12/2020
+ms.date: 09/19/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4c44e7d0ff21f49887a069e0a83686aafecc2f24
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 600b8d1447d50a1647097d94df9077299f00cccf
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537283"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860409"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Impresión desde el servicio Power BI
 
@@ -49,9 +49,9 @@ Experimente con la configuración del explorador hasta que obtenga el aspecto qu
 
 ## <a name="print-a-dashboard"></a>Imprimir un panel
 1. Abra el panel que quiere imprimir.
-2. En la esquina superior izquierda, seleccione Exportar y luego **Imprimir esta página**.
+2. En la esquina superior izquierda, seleccione **Archivo** y elija **Imprimir esta página**.
    
-    ![Opción de impresión de panel](./media/end-user-print/power-bi-dashboard-print.png)
+    ![Opción de impresión de panel](./media/end-user-print/power-bi-dashboard-print-options.png)
 
 3. Se abre la ventana de impresión del explorador. Elija la configuración. Por ejemplo, si el panel es más ancho que largo, puede que le interese cambiar el diseño a **Horizontal**. Seleccione **Imprimir**.
    
@@ -62,11 +62,13 @@ Experimente con la configuración del explorador hasta que obtenga el aspecto qu
 
 3. [Abra el icono en modo de enfoque](end-user-focus.md); para ello, mantenga el puntero hasta que aparezca **Más opciones** (...) y seleccione **Abrir en modo de enfoque** o el icono de enfoque ![Icono de enfoque](./media/end-user-print/power-bi-focus-icon.png).
    
-    ![Menú del botón de puntos suspensivos](./media/end-user-print/power-bi-menu-options.png)
+    ![Menú del botón de puntos suspensivos](./media/end-user-print/power-bi-focus-tile.png)
 
 4. Mantenga el mouse sobre el icono para que se muestren las opciones de menú.
    
-    ![Menú de opciones de pantalla completa](./media/end-user-print/menu-options-new.png)
+    ![Menú de opciones de pantalla completa](./media/end-user-print/power-bi-menu-option.png)
+
+    ![modo de pantalla completa](./media/end-user-print/power-bi-focus.png)
 
 4. Seleccione el icono de impresión. ![Icono de impresión](./media/end-user-print/print-icon.png).     
 
@@ -83,9 +85,9 @@ Experimente con la configuración del explorador hasta que obtenga el aspecto qu
 ## <a name="print-a-report-page"></a>Imprimir una página de un informe
 Los informes se pueden imprimir una página a la vez.
 
-1. Abra el informe y seleccione **Exportar** > **Imprimir** para imprimir la página actual del informe.
+1. Abra el informe y seleccione **Archivo** > **Imprimir esta página** para imprimir la página actual del informe.
    
-    ![Menú Archivo de Power BI](./media/end-user-print/power-bi-report-print.png)
+    ![Menú Archivo de Power BI](./media/end-user-print/power-bi-print-report.png)
 2. Se abre la ventana de impresión del explorador.
 
 3. Siga los pasos anteriores de impresión en **Impresión de un panel**.
@@ -95,9 +97,12 @@ Los informes se pueden imprimir una página a la vez.
 ## <a name="print-a-report-visual"></a>Imprimir un objeto visual de informe
 1. [Abra el objeto visual en modo de enfoque](end-user-focus.md) al mantener el puntero sobre el icono y seleccionar el icono de enfoque ![icono de enfoque](./media/end-user-print/power-bi-focus-icon.png) en la esquina superior derecha.
 
-2. En la esquina superior izquierda, seleccione **Exportar** > **Imprimir** para imprimir el objeto visual.
 
-    ![Menú Archivo de Power BI](./media/end-user-print/power-bi-report-print.png)
+    ![Apertura de objeto visual en modo de enfoque](./media/end-user-print/power-bi-visual-focus.png)
+
+2. En la esquina superior izquierda, seleccione **Archivo** > **Imprimir esta página** para imprimir el objeto visual.
+
+    ![Captura de pantalla del menú Archivo de Power BI](./media/end-user-print/power-bi-visual-print.png)
 
 
 3. Siga los pasos anteriores de impresión en **Impresión de un panel**.
@@ -116,6 +121,6 @@ Los informes se pueden imprimir una página a la vez.
 * R: Vuelva al panel o informe en la vista predeterminada, abra de nuevo el objeto visual en modo de enfoque y, después, en modo de pantalla completa. 
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Uso compartido de paneles e informes con compañeros y otros usuarios](../collaborate-share/service-share-dashboards.md)
+[Compartir paneles e informes con compañeros y otros usuarios](../collaborate-share/service-share-dashboards.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

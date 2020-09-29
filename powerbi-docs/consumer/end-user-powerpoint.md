@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/01/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1153b20e77958bbecce9284add3ae7eab21cd47d
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 841b8bb72b7b2a13c833fd313027b38b57511af3
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040334"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90764296"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportación de informes a PowerPoint
 
@@ -27,7 +27,7 @@ Con el servicio Power BI (app.powerbi.com), puede publicar el informe en Microso
 * Cada página del informe de Power BI se convierte en una diapositiva de PowerPoint.
 * Cada página del informe de Power BI se exporta como una única imagen de alta resolución en PowerPoint.
 * Puede conservar la configuración de los filtros y las segmentaciones que ha agregado al informe.
-* Se crea un vínculo en PowerPoint que dirige al informe de Power BI.
+* Se crea un vínculo en PowerPoint que dirige de nuevo al informe de Power BI.
 
 Exportar su **informe de Power BI** a **PowerPoint** es muy fácil. Siga los pasos descritos en la sección siguiente.
 
@@ -48,9 +48,9 @@ Aparece una ventana emergente en la que tiene la opción de seleccionar los **Va
 
 ![Selección de qué se va a exportar](media/end-user-powerpoint/power-bi-current-values.png)
  
-Además, hay una casilla para seleccionar si se quieren exportar o no las pestañas ocultas de un informe. Seleccione esta casilla si solo quiere exportar las pestañas del informe que son visibles para usted en el explorador. Si prefiere incluir todas las pestañas ocultas como parte de la exportación, deje desactivada esta casilla. Si la casilla aparece atenuada, significa que no hay ninguna pestaña oculta en el informe. Un ejemplo de una pestaña oculta sería una pestaña de información sobre herramientas. La [información sobre herramientas personalizada](../create-reports/desktop-tooltips.md) la crean los *diseñadores* de informes y no se muestran como pestañas de informes en el servicio Power BI para los *consumidores*. 
+Además, hay una casilla para seleccionar si se quieren exportar o no las pestañas ocultas de un informe. Seleccione esta casilla si solo quiere exportar las pestañas del informe que son visibles para usted en el explorador. Si prefiere incluir todas las pestañas ocultas como parte de la exportación, deje desactivada esta casilla. Si la casilla aparece atenuada, significa que no hay ninguna pestaña oculta en el informe. Un ejemplo de una pestaña oculta sería una pestaña de información sobre herramientas. La [información sobre herramientas personalizada](../create-reports/desktop-tooltips.md) la crean los *diseñadores* de informes y no se muestran como pestañas de informes en el servicio Power BI para los *usuarios empresariales*. 
 
-También puede optar por exportar solo la página que esté viendo de un informe activando la opción "Exportar solo la página actual".  De forma predeterminada, esta opción está desactivada y se exportarán todas las páginas del informe.
+También puede optar por exportar solo la página que esté viendo de un informe activando la opción **Exportar solo la página actual**.  De forma predeterminada, esta opción está desactivada y se exportarán todas las páginas del informe.
 
 Seleccione **Exportar** para continuar cuando haya realizado las selecciones. Verá un banner de notificación en la esquina superior derecha de la ventana del explorador del servicio Power BI que indica que el informe se está exportando a PowerPoint. 
 
@@ -76,7 +76,7 @@ Al abrir el archivo de PowerPoint que exportó Power BI, encontrará unos cuanto
 
 
 3. Cada página del informe es una diapositiva independiente, tal como se muestra en el panel de navegación. 
-4. El informe publicado se representa en el idioma configurado en Power BI, o de acuerdo con el valor de configuración regional del explorador. Para ver o configurar las preferencias de idioma, seleccione el icono de engranaje ![Icono de engranaje](media/end-user-powerpoint/power-bi-settings-icon.png) > **Configuración** > **General** > **Idioma**. Para obtener información sobre la configuración regional, consulte [Idiomas y países o regiones compatibles con Power BI](../fundamentals/supported-languages-countries-regions.md).
+4. El informe publicado se representa en el idioma configurado en Power BI, o de acuerdo con el valor de configuración regional del explorador. Para ver o configurar las preferencias de idioma en el explorador, seleccione el icono de engranaje ![Icono de engranaje](media/end-user-powerpoint/power-bi-settings-icon.png) > **Configuración** > **General** > **Idioma**. Para obtener información sobre la configuración regional, consulte [Idiomas y países o regiones compatibles con Power BI](../fundamentals/supported-languages-countries-regions.md).
 
 
 Cuando vea una diapositiva individual, observará que cada página del informe es una imagen independiente. El desplazamiento en PowerPoint no está disponible, ya que cada diapositiva es una imagen estática.
@@ -110,8 +110,8 @@ Hay algunas consideraciones y limitaciones a tener en cuenta al trabajar con la 
     - Los informes que tardan más de una hora en procesarse. 
     - Las páginas de informes que tardan más de 6 minutos en cargarse. 
 
-* Si el elemento de menú **Exportar a PowerPoint** no está disponible en el servicio Power BI, probablemente sea porque el administrador de inquilinos ha deshabilitado la característica. Póngase en contacto con el administrador de inquilinos para obtener más información.
-* El servicio Power BI utiliza su propia configuración de idioma como idioma para la exportación de PowerPoint. Para ver o configurar las preferencias de idioma, seleccione el icono de engranaje ![Icono de engranaje](media/end-user-powerpoint/power-bi-settings-icon.png) > **Configuración** > **General** > **Idioma**.
+* Si el elemento de menú **Exportar a PowerPoint** no está disponible en el servicio Power BI, probablemente sea porque el administrador de inquilinos ha deshabilitado la característica. Póngase en contacto con el administrador de inquilinos o el propietario para obtener más información.
+* El servicio Power BI utiliza su propia configuración de idioma como idioma para la exportación de PowerPoint. Para ver o configurar las preferencias de idioma en el explorador, seleccione el icono de engranaje ![Icono de engranaje](media/end-user-powerpoint/power-bi-settings-icon.png) > **Configuración** > **General** > **Idioma**.
 
 
 

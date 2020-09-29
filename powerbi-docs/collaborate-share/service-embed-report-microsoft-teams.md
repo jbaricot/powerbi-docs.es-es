@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.date: 09/21/2020
+ms.openlocfilehash: 0abaf886806ea783bb478f47d020daeea7829da5
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478024"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965131"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Inserción de contenido de Power BI en Microsoft Teams
 
@@ -30,9 +30,9 @@ Para usar la pestaña **Power BI** de Microsoft Teams, asegúrese de lo siguie
 - Para ver el informe en la pestaña **Power BI** de Microsoft Teams, los usuarios deben tener permiso para ver el informe.
 - Los usuarios deben ser usuarios de Microsoft Teams con acceso a canales y chats.
 
-Vea [Colaboración en Microsoft Teams con Power BI](service-embed-report-microsoft-teams.md) para obtener información sobre el funcionamiento conjunto de Power BI y Teams, incluidos otros requerimientos.
+Vea [Colaboración en Microsoft Teams con Power BI](service-embed-report-microsoft-teams.md) para obtener información sobre el funcionamiento conjunto de Power BI y Microsoft Teams, incluidos otros requerimientos.
 
-## <a name="embed-a-report-in-teams"></a>Inserción de un informe en Teams
+## <a name="embed-a-report-in-microsoft-teams"></a>Inserción de un informe en Microsoft Teams
 
 Siga estos pasos para insertar el informe en un canal o un chat de Microsoft Teams.
 
@@ -62,7 +62,7 @@ Puede insertar los siguientes tipos de informes en la pestaña **Power BI**:
 
 ## <a name="start-a-conversation"></a>Iniciar una conversación
 
-Cuando se agrega una pestaña de informe de Power BI a Microsoft Teams, este crea de forma automática una pestaña de conversación para el informe.
+Cuando se agrega una pestaña de informe de Power BI a Microsoft Teams, esta aplicación crea de forma automática una pestaña de conversación para el informe.
 
 - Seleccione el icono**Mostrar la ficha Conversación** en la esquina superior derecha.
 
@@ -74,6 +74,7 @@ Cuando se agrega una pestaña de informe de Power BI a Microsoft Teams, este c
 
 ## <a name="known-issues-and-limitations"></a>Limitaciones y problemas conocidos
 
+- En Microsoft Teams, cuando se exportan datos de un objeto visual en un informe de Power BI, estos se guardan automáticamente en la carpeta de descargas. Se trata de un archivo de Excel denominado "data (*n*).xlsx", donde *n* es el número de veces que ha exportado los datos en la misma carpeta.
 - En la pestaña **Power BI** de Microsoft Teams no se pueden insertar paneles de Power BI.
 - La pestaña **Power BI** de Microsoft Teams no admite [filtros de URL](service-url-filters.md).
 - En nubes nacionales, la nueva pestaña **Power BI** no está disponible. Puede que haya disponible una versión anterior que no es compatible con la nueva experiencia de área de trabajo o los informes de aplicaciones de Power BI.

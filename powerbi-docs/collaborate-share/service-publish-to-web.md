@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/08/2020
+ms.date: 09/18/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 7009b4b195c89659c032b578ada130e12389b496
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642643"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858862"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -183,6 +183,7 @@ Debe [buscar a una de estas personas](https://docs.microsoft.com/office365/admin
 - Los objetos visuales de R y Python no se admiten actualmente en informes de **Publicar en la Web**.
 - Exportación de datos desde los objetos visuales de un informe que se ha publicado en la web.
 - Objetos visuales de ArcGIS Maps for Power BI.
+- Preguntas y respuestas para los objetos visuales de Power BI.
 - Informes que contienen medidas DAX de nivel de informe.
 - Modelos de consulta de datos de inicio de sesión único.
 - Información confidencial o de propiedad.

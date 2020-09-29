@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/30/2020
+ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
+ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478093"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "90811860"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Establecimiento de tablas destacadas en Power BI Desktop (versión preliminar)
 
@@ -40,21 +40,15 @@ En la galería de tipos de datos de Excel, los usuarios pueden buscar datos de *
 
 1. En Power BI Desktop, vaya a la vista Modelo.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="Vista Modelo":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="Opción de tablas destacadas en versión preliminar":::
  
 2. Seleccione una tabla y establezca la opción **Es una tabla destacada** en **Sí**.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Establecer Es una tabla destacada en Sí":::
-
-4. En **Configurar esta tabla destacada**, proporcione los campos obligatorios:
-
-    - Una **descripción**. 
-        > [!TIP]
-        > Comience la descripción con "Tabla destacada" para ayudar a los creadores de informes de Power BI a identificarla.
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Opción de tablas destacadas en versión preliminar" para ayudar a los creadores de informes de Power BI a identificarla.
     - El valor del campo **Etiqueta de fila** se usa en Excel para que los usuarios puedan identificar fácilmente la fila. Aparece como el valor de celda de una celda vinculada, en el panel **Selector de datos** y en la tarjeta de **Información**. 
     - El valor del campo **Columna clave** proporciona el id. único de la fila. Este valor permite que Excel vincule una celda a una fila específica de la tabla.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="Configuración de la tabla destacada":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="Opción de tablas destacadas en versión preliminar":::
 
 1. Después de publicar o importar el conjunto de datos al servicio Power BI, la tabla destacada se muestra en la galería de tipos de datos de Excel. Usted y otros creadores de informes también pueden crear informes basados en este conjunto de datos.
 
@@ -66,19 +60,13 @@ En la galería de tipos de datos de Excel, los usuarios pueden buscar datos de *
 
 Estas son las limitaciones de la versión preliminar inicial.
 
-- En Excel no se muestran las tablas destacadas de los conjuntos de datos de Power BI que usan las funcionalidades siguientes: 
+- En Excel no se muestran las tablas destacadas de los conjuntos de datos de Power BI que usan las funcionalidades siguientes:
 
-    - Conjuntos de datos de seguridad de nivel de fila.
-    - Conjuntos de datos habilitados para Microsoft Information Protection.
     - Conjuntos de datos de DirectQuery.
     - Conjuntos de datos con una conexión dinámica.
 
-- Excel solo muestra los datos en las columnas y las columnas calculadas en la tabla destacada. Los siguientes elementos no se proporcionan en la versión preliminar inicial:
-
-    - Medidas definidas en la tabla destacada.
-    - Medidas definidas en las tablas relacionadas y medidas implícitas calculadas a partir de las relaciones.
-
-- Excel solo muestra las tablas destacadas que se almacenan en las áreas de trabajo nuevas de Power BI. Las tablas destacadas almacenadas en las áreas de trabajo clásicas o en Mi área de trabajo no se muestran como tipos de datos en Excel. Puede [actualizar las áreas de trabajo clásicas a las áreas de trabajo nuevas](service-upgrade-workspaces.md) en Power BI.
+- Excel solo muestra los datos en las columnas y las columnas calculadas en la tabla destacada. Las medidas definidas en las tablas relacionadas y las medidas implícitas calculadas a partir de las relaciones no se proporcionan en la versión preliminar inicial.
+- Excel solo muestra las tablas destacadas que se almacenan en las áreas de trabajo nuevas de Power BI. Las tablas destacadas almacenadas en las áreas de trabajo clásicas no se muestran como tipos de datos en Excel. Puede [actualizar las áreas de trabajo clásicas a las áreas de trabajo nuevas](service-upgrade-workspaces.md) en Power BI.
 - Vea [Consideraciones y limitaciones](service-excel-featured-tables.md#considerations-and-limitations) en el artículo "Acceso a tablas destacadas de Power BI en Excel" para obtener otras consideraciones de Excel.
 
 ## <a name="next-steps"></a>Pasos siguientes

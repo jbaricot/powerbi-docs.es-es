@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 06/25/2020
-ms.openlocfilehash: 69ad9fc76250e09c2cea5a8d5dc0d3b2c13f72bf
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.custom: contperfq1
+ms.date: 09/22/2020
+ms.openlocfilehash: a364d3dd2d2175e4509d05f4c34eec31a1a371b6
+ms.sourcegitcommit: 37ec0e9e356b6d773d7d56133fb8ed6c06b65fd3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220892"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91024044"
 ---
-# <a name="understand-the-deployment-process-preview"></a>Descripción del proceso de implementación (versión preliminar)
+# <a name="understand-the-deployment-process"></a>comprender el proceso de implementación
 
 El proceso de implementación permite clonar el contenido de una fase de la canalización a otra, normalmente del desarrollo a la prueba y de la prueba a la producción.
 
@@ -90,7 +91,7 @@ Las canalizaciones de implementación no admiten los siguientes elementos:
 
 * Informes basados en conjuntos de datos no admitidos
 
-* El área de trabajo no puede usar una aplicación de plantilla
+* [Áreas de trabajo de aplicación de plantilla](../connect-data/service-template-apps-create.md#create-the-template-workspace)
 
 * Informes paginados
 
@@ -137,14 +138,60 @@ Las siguientes propiedades de elemento no se copian durante la implementación:
 Las siguientes propiedades de conjunto de datos tampoco se copian durante la implementación:
 
 * Asignación de roles
-    
+
 * Programación de la actualización
-    
+
 * Credenciales del origen de datos
-    
+
 * Configuración del almacenamiento en caché de consultas (se puede heredar de la capacidad)
-    
+
 * Configuración de aprobación
+
+## <a name="incremental-refresh"></a>Actualización incremental
+
+Las canalizaciones de implementación admiten la [actualización incremental](../admin/service-premium-incremental-refresh.md), una característica que permite actualizaciones más rápidas y confiables de grandes conjuntos de datos con un menor consumo.
+
+Con las canalizaciones de implementación, puede realizar actualizaciones en un conjunto de datos con una actualización incremental mientras conserva tanto los datos como las particiones. Al implementar el conjunto de datos, se copia la directiva.
+
+### <a name="activating-incremental-refresh-in-a-pipeline"></a>Activación de la actualización incremental en una canalización
+
+Para habilitar la actualización incremental, [actívela en Power BI Desktop](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh) y, a continuación, publique el conjunto de datos. Después de publicar, la directiva de actualización incremental es similar en toda la canalización y solo se puede crear en Power BI Desktop.
+
+Una vez configurada la canalización con una actualización incremental, se recomienda usar el siguiente flujo:
+
+1. Realice cambios en el archivo PBIX en Power BI Desktop. Para evitar tiempos de espera largos, puede realizar cambios mediante una muestra de los datos.
+
+2. Cargue el archivo PBIX en la fase de *desarrollo*.
+
+3. Implemente el contenido en la fase de *pruebas*. Después de la implementación, los cambios realizados se aplicarán a todo el conjunto de datos que esté usando.
+
+4. Revise los cambios realizados en la fase de *pruebas* y, después de comprobarlos, impleméntelos en la fase de *producción*.
+
+### <a name="usage-examples"></a>Ejemplos de uso
+
+A continuación se muestran algunos ejemplos de cómo puede integrar la actualización incremental con canalizaciones de implementación.
+
+* [Cree una nueva canalización](deployment-pipelines-get-started.md#step-1---create-a-deployment-pipeline) y conéctese a un área de trabajo con un conjunto de datos que tenga habilitada la actualización incremental.
+
+* Habilite la actualización incremental en un conjunto de datos que ya esté en un área de trabajo de *desarrollo*.  
+
+* Cree una canalización desde un área de trabajo de producción que tenga un conjunto de datos que use la actualización incremental. Para ello, asigne el área de trabajo a una nueva fase de *producción* de la canalización y use la [implementación hacia atrás](deployment-pipelines-get-started.md#backwards-deployment) para implementar en la fase de *pruebas* y, a continuación, en la fase de *desarrollo*.
+
+* Publique un conjunto de datos que use la actualización incremental en un área de trabajo que forme parte de una canalización existente.
+
+### <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
+
+Para la actualización incremental, las canalizaciones de implementación solo admiten conjuntos de datos que usan [metadatos de un conjunto de datos mejorado](../connect-data/desktop-enhanced-dataset-metadata.md). A partir de la versión de septiembre de 2020 de Power BI Desktop, todos los conjuntos de datos creados o modificados con Power BI Desktop implementan automáticamente metadatos de un conjunto de datos mejorado.
+
+Al volver a publicar un conjunto de datos en una canalización activa con la actualización incremental habilitada, los siguientes cambios provocarán un error de implementación debido a la pérdida de datos potencial:
+
+* Volver a publicar un conjunto de datos que no usa la actualización incremental para reemplazar un conjunto de un conjunto que tiene habilitada la actualización incremental.
+
+* Cambiar el nombre de una tabla que tiene habilitada la actualización incremental.
+
+* Cambiar el nombre de las columnas no calculadas de una tabla con la actualización incremental habilitada.
+
+Se permiten otros cambios, como agregar una columna, quitar una columna y cambiar el nombre de una columna calculada. Sin embargo, si los cambios afectan a la pantalla, deberá actualizar antes de que el cambio sea visible.
 
 ## <a name="deploying-power-bi-apps"></a>Implementación de aplicaciones de Power BI
 
@@ -170,9 +217,9 @@ Los permisos de canalización y los permisos del área de trabajo se conceden y 
 Los usuarios con acceso de canalización tienen los permisos siguientes:
 
 * Ver la canalización
-    
+
 * Compartir la canalización con otros usuarios
-    
+
 * Editar y eliminar la canalización
 
 >[!NOTE]
@@ -202,9 +249,9 @@ Los colaboradores del área de trabajo que tienen *acceso de canalización* tamb
 Los miembros del área de trabajo que tienen *acceso de canalización* también pueden hacer lo siguiente:
 
 * Ver el contenido del área de trabajo
-    
+
 * Comparar fases
-    
+
 * Implementar informes y paneles
 
 * Quitar áreas de trabajo
@@ -222,7 +269,7 @@ Los administradores del área de trabajo que tienen *acceso de canalización*, p
 Los propietarios del conjunto de datos que son miembros o administradores del área de trabajo también pueden hacer lo siguiente:
 
 * Actualizar conjuntos de datos
-    
+
 * Configuración de reglas
 
 >[!NOTE]
@@ -243,8 +290,6 @@ En esta sección se enumeran la mayoría de las limitaciones de las canalizacion
 * Para una lista de elementos no admitidos, vea [Elementos no admitidos](#unsupported-items).
 
 ### <a name="dataset-limitations"></a>Limitaciones de un conjunto de datos
-
-* Los conjuntos de datos que se configuran con [actualización incremental](../admin/service-premium-incremental-refresh.md), no se pueden implementar.
 
 * No se pueden implementar los conjuntos de datos que usan la conectividad de datos en tiempo real.
 

@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: b911af4c7137aac9352c16985aac3a79a7eec87e
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.date: 09/15/2020
+ms.openlocfilehash: f7b37392581ad532093b0a543fe75cdb969d2c86
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557174"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855385"
 ---
-# <a name="deployment-pipelines-troubleshooting-preview"></a>Solución de problemas de las canalizaciones de implementación (versión preliminar)
+# <a name="deployment-pipelines-troubleshooting"></a>Solución de problemas de las canalizaciones de implementación
 
 Use este artículo para solucionar los problemas de las canalizaciones de implementación.
 
@@ -39,6 +39,13 @@ A no ser que se cumplan las siguientes condiciones, no podrá ver el botón de c
 * A un área de trabajo solo se le puede asignar una canalización.
 
 * Es un administrador de una nueva área de trabajo.
+
+### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>¿Por qué no veo la etiqueta de fase de canalización en mi área de trabajo?
+
+Las canalizaciones de implementación muestran una etiqueta de fase de canalización en áreas de trabajo que están asignadas a una canalización. Las etiquetas de las fases de *Desarrollo* y *Prueba* siempre están visibles. Sin embargo, solo verá la etiqueta de *Producción* si tiene [acceso a la canalización](deployment-pipelines-process.md#user-with-pipeline-access) o si es [administrador del área de trabajo](deployment-pipelines-process.md#workspace-admin).
+
+> [!div class="mx-imgBorder"]
+> ![Captura de pantalla de la etiqueta de producción en un área de trabajo de canalización de producción.](media/deployment-pipelines-troubleshooting/production-tag.png)
 
 ## <a name="licensing"></a>Licencias
 
@@ -112,7 +119,7 @@ Faltan valores en las reglas de conjunto de datos. Esto puede ocurrir si el conj
 
 ![Captura de pantalla del error de reglas no válidas que se muestra cuando se produce un error de implementación debido a vínculos rotos.](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
-Cuando se produce un error en una implementación anteriormente correcta debido a vínculos no válidos, se muestra una advertencia. Puede hacer clic en **Configure rules** (Configurar reglas) para ir al panel de configuración de la implementación, donde está marcado el conjunto de datos con error. Al hacer clic en el conjunto de datos, se marcan las reglas no válidas.
+Cuando se produce un error en una implementación anteriormente correcta debido a vínculos no válidos, se muestra una advertencia. Puede hacer clic en **Configurar reglas** para ir al panel de configuración de la implementación, donde está marcado el conjunto de datos con error. Al seleccionar el conjunto de datos, se marcan las reglas no válidas.
 
 Para realizar la implementación correctamente, corrija o quite las reglas no válidas y vuelva a realizar la implementación.
 
@@ -120,9 +127,9 @@ Para realizar la implementación correctamente, corrija o quite las reglas no v�
 
 No se puede cambiar la conexión del origen de datos en el servicio Power BI.
 
-Si quiere cambiar el origen de datos en las fases de prueba o producción, puede usar [reglas de conjunto de datos](deployment-pipelines-get-started.md#step-4---create-dataset-rules) o [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup). Las reglas de conjunto de datos solo tendrán validez después de la siguiente implementación.
+Si quiere cambiar el origen de datos en las fases de prueba o producción, puede usar [reglas de conjunto de datos](deployment-pipelines-get-started.md#step-4---create-dataset-rules) o [API](/rest/api/power-bi/datasets/updateparametersingroup). Las reglas de conjunto de datos solo tendrán validez después de la siguiente implementación.
 
-### <a name="i-fixed-a-bug-in-production-but-now-i-cant-click-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>He corregido un error en producción, pero ahora no puedo hacer clic en el botón de "implementación en una fase anterior". ¿Por qué está atenuado?
+### <a name="i-fixed-a-bug-in-production-but-now-i-cant-select-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>He corregido un error en producción, pero ahora no puedo seleccionar el botón de "implementación en una fase anterior". ¿Por qué está atenuado?
 
 Solo puede realizar implementaciones hacia atrás hasta una fase vacía. Si tiene contenido en la fase de prueba, no podrá realizar implementaciones hacia atrás desde producción.
 

@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea519b4f120bb643e88d29fba79a5ca464030797
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9124322dbf7656b05c4cd174207e074cd4f807fe
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537375"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763974"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Aplicación de un filtro cruzado entre objetos visuales en un informe de Power BI
 
@@ -52,7 +52,7 @@ A continuación se definirán estos términos a medida que se examinan las pági
     
 - Los filtros de nivel de objeto visual se conservan al realizar el filtrado y el resaltado cruzado de otros objetos visuales en la página del informe. Por tanto, si el objeto visual A tiene filtros de nivel de objeto visual aplicados por el diseñador de informes o usted mismo, y usa el objeto visual A para interactuar con el objeto visual B, los filtros de nivel de objeto visual de A se aplicarán a B.
 
-    ![Página del informe después de seleccionar el segmento Moderación del gráfico de anillos](media/end-user-interactions/power-bi-visual-filters.png)
+    ![Página del informe que muestra los filtros ya establecidos](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Uso de filtros de informe](../consumer/end-user-report-filter.md)

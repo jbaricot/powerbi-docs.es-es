@@ -6,15 +6,15 @@ ms.reviewer: christopher.finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1f9dd6540707993696bddb4494fc73aa782d363
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 95b4b423b1dffb51d00760a97d21f2bf52df39d8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008914"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860334"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Informes paginados en el servicio Power BI
 
@@ -36,7 +36,7 @@ Este informe paginado simple genera beneficios por año después de seleccionar 
 
 ![Informe de parámetro simple](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-Comparado con los informes paginados, los informes de Power BI son mucho más interactivos. Los informes de Power BI permiten las notificaciones ad hoc y admiten muchos más tipos de objetos visuales, incluidos los de Power BI.
+Comparado con los informes paginados, los informes de Power BI son mucho más interactivos. Los informes de Power BI permiten las notificaciones ad hoc y admiten muchos más tipos de objetos visuales, como los objetos visuales personalizados.
 
 ## <a name="identify-a-paginated-report"></a>Identificar un informe paginado
 
@@ -78,7 +78,7 @@ Algunos informes paginados tienen muchas páginas.  Use los controles de página
 ### <a name="export-the-paginated-report"></a>Exportar el informe paginado
 Dispone de una serie de opciones para exportar los informes paginados: PDF, Word, XML, PowerPoint, Excel, etc. Al exportarlos se conserva todo el formato posible. Los informes paginados exportados a Excel, Word, PowerPoint, MHTML y PDF, por ejemplo, conservan el formato de "píxel perfecto". 
 
-![un nuevo pedido de ventas](./media/end-user-paginated-report/power-bi-exporting.png)
+![Captura de pantalla que muestra un informe paginado exportado.](./media/end-user-paginated-report/power-bi-exporting.png)
 
 ![cuatro tipos de exportación diferentes](./media/end-user-paginated-report/power-bi-four.png)
 
