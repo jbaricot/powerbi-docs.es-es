@@ -259,8 +259,6 @@
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
             - name: "Interacción con mapas de ArcGIS en objetos visuales de Power\_BI"
               href: ../visuals/power-bi-visualizations-arcgis.md
-            - name: "Creación de objetos visuales de ArcGIS Maps for Power\_BI"
-              href: ../visuals/power-bi-visualization-arcgis.md
             - name: Gráficos de área básicos
               href: ../visuals/power-bi-visualization-basic-area-chart.md
             - name: Creación de objetos visuales de tarjeta (iconos de números grandes)

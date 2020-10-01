@@ -100,8 +100,6 @@
               href: end-user-copy-paste.md
             - name: Exploración en profundidad de una visualización
               href: end-user-drill.md
-            - name: Interactuación con mapas de ArcGIS
-              href: ../visuals/power-bi-visualizations-arcgis.md
         - name: Tareas comunes
           items:
             - name: Exportación de datos a Excel
