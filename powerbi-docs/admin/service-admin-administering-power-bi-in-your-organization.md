@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: overview
-ms.date: 05/29/2020
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 791b5efce0489e837cb75ed1ae6632dcc240fc1c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bd003bd8662a60a67b2bc13f228d165859b38e5c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857597"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374669"
 ---
 # <a name="what-is-power-bi-administration"></a>Qué es la administración de Power BI
 
@@ -25,7 +25,7 @@ La administración de Power BI es la administración de la configuración de to
 
 ## <a name="administrator-roles-related-to-power-bi"></a>Roles de administrador relacionados con Power BI
 
-Hay varios roles que trabajan de forma conjunta para administrar Power BI en la organización. La mayoría de los roles de administrador se asignan en el Centro de administración de Microsoft 365 o mediante PowerShell. Los roles de administrador de Capacidad de Power BI Premium y Capacidad de Power BI Embedded se asignan cuando se crea la capacidad. Para obtener más información sobre cada uno de los roles de administrador, vea [Acerca de los roles de administrador](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide). Para obtener información sobre cómo asignar roles de administrador, vea [Asignación de roles de administrador](/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide).
+Hay varios roles que trabajan de forma conjunta para administrar Power BI en la organización. La mayoría de los roles de administrador se asignan en el Centro de administración de Microsoft 365 o mediante PowerShell. Los roles de administrador de Capacidad de Power BI Premium y Capacidad de Power BI Embedded se asignan cuando se crea la capacidad. Para obtener más información sobre cada uno de los roles de administrador, vea [Acerca de los roles de administrador](/microsoft-365/admin/add-users/about-admin-roles). Para obtener información sobre cómo asignar roles de administrador, vea [Asignación de roles de administrador](/microsoft-365/admin/add-users/assign-admin-roles).
 
 | **Tipo de administrador** | **Ámbito administrativo** | **Tareas de Power BI** |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ Los administradores de Power BI trabajan principalmente en el portal de adminis
 | | Seguimiento y clasificación de datos |
 | | Directivas de prevención de pérdida de datos |
 | | Gobernanza de la información |
-| [Azure Active Directory (AAD) en Azure Portal](https://aad.portal.azure.com) | Configurar el acceso condicional a los recursos de Power BI |
+| [Azure Active Directory en Azure Portal](https://aad.portal.azure.com) | Configurar el acceso condicional a los recursos de Power BI |
 | | Aprovisionar capacidad de Power BI Embedded |
 | [Cmdlets de PowerShell](/powershell/power-bi/overview) | Administrar áreas de trabajo y otros aspectos de Power BI mediante scripts |
 | [SDK y API administrativas](service-admin-reference.md) | Cree herramientas de administración personalizadas. Por ejemplo, Power BI Desktop puede usar estas API para crear informes basados en datos relacionados con la administración. |
@@ -78,7 +78,7 @@ Los administradores de Power BI trabajan principalmente en el portal de adminis
 Ahora que conoce los aspectos básicos relacionados con la administración de Power BI, consulte estos artículos para obtener más información:
 
 - [Uso del portal de administración de Power BI](service-admin-portal.md)
-- [Guía para la configuración de la administración de inquilinos](../guidance/admin-tenant-settings.md)
+- [Guía para la configuración de inquilinos](../guidance/admin-tenant-settings.md)
 - [Uso de cmdlets de PowerShell](/powershell/power-bi/overview)
 - [Preguntas frecuentes sobre la administración de Power BI](service-admin-faq.md)
 - [Licencias del servicio Power BI para los usuarios de la organización](service-admin-licensing-organization.md)
