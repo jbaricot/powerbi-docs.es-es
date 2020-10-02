@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 19548729f4ae85334fea14584e78ad4ee05a5c24
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 432f8a7a39e6902c679c83d447039519f90d0dac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965338"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635709"
 ---
 # <a name="power-bi-security-whitepaper"></a>Notas del producto sobre la seguridad de Power BI
 
@@ -171,12 +171,11 @@ Una consulta de un conjunto de datos de importación consta de una colección de
 
 En la tabla siguiente se describen los datos de Power BI en función del tipo de consulta que se usa. Una **X** indica la presencia de datos de Power BI al usar el tipo de consulta asociado.
 
-
-|  |Importar  |DirectQuery  |Live Connect  |
-|---------|---------|---------|---------|
-|Esquema     |     X    |    X     |         |
-|Datos de fila     |    X     |         |         |
-|Almacenamiento en caché de datos de objetos visuales     |    X     |     X    |    X     |
+|                         | Importar   | DirectQuery | Live Connect  |
+|-------------------------|----------|-------------|---------------|
+|**Esquema**               | X        | X           |               |
+|**Datos de fila**             | X        |             |               |
+|**Almacenamiento en caché de datos de objetos visuales** | X        | X           | X             |
 
 La distinción entre DirectQuery y otras consultas determina cómo controla el servicio Power BI los datos en reposo, y si se cifra la propia consulta. En las secciones siguientes se describen los datos en reposo y en movimiento, y se explica el cifrado, la ubicación y el proceso para controlar los datos.
 
