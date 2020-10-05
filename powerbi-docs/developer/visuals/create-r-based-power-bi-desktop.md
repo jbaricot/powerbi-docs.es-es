@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: a3cb8d6ae8d8b872d00b3b4ce1aad13105f3b1e4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232817"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527778"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>Tutorial: Crear un objeto visual de Power BI con tecnología de R
 
@@ -78,7 +78,7 @@ Cuando se usa `pbiviz` para crear el objeto visual con tecnología de R basado e
 
 1. En Power BI Desktop, seleccione **Objeto visual de script de R**:
 
-   ![Objeto visual de R en el panel de visualización](./media/create-r-based-power-bi-desktop/r-script-icon.png)
+   ![Captura de pantalla en la que se muestra el control de objeto visual de script de R en Power BI Desktop.](./media/create-r-based-power-bi-desktop/r-script-icon.png)
 
 1. Pegue este código de R en el **Editor de scripts de R**:
 
@@ -94,7 +94,7 @@ Cuando se usa `pbiviz` para crear el objeto visual con tecnología de R basado e
 
 1. Seleccione el icono **Ejecutar script** para ver el resultado.
 
-    ![Objeto visual de R en el panel de visualización](./media/create-r-based-power-bi-desktop/run-r-script.png)
+    ![Captura de pantalla en la que se muestra el resultado de ejecutar el script, que es un trazado de línea.](./media/create-r-based-power-bi-desktop/run-r-script.png)
 
 1. Cuando el script de R esté listo, cópielo en el archivo `script.r` del proyecto de objeto visual creado en uno de los pasos anteriores.
 
@@ -176,7 +176,7 @@ Este procedimiento permite que el objeto visual usa el paquete `corrplot`.
 
 El resultado de usar el paquete `corrplot` es similar a este ejemplo:
 
-![Objeto visual de R en el panel de visualización](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
+![Captura de pantalla en la que se muestra el panel de visualización con cuatro óvalos creados por corrplot.](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
 
 ## <a name="adding-a-static-property-to-the-property-pane"></a>Incorporación de una propiedad estática al panel de propiedades
 

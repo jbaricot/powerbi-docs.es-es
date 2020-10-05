@@ -8,14 +8,15 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 42526dbae857c6488fe129cc7781672691782de1
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861967"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375244"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Conexión a Power BI Premium Capacity Metrics
+
 La supervisión de las capacidades es esencial para tomar decisiones fundamentadas sobre el uso óptimo de los recursos de capacidad Premium. La aplicación Power BI Premium Capacity Metrics proporciona la información más detallada sobre el rendimiento de las capacidades.
 
 ![Informe de la aplicación Power BI Premium Capacity Metrics](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
@@ -25,7 +26,7 @@ En este artículo se describe cómo instalar la aplicación y conectarse a los o
 Después de instalar la aplicación y conectarse a los orígenes de datos, puede personalizar el informe según sus necesidades. Luego puede distribuirlo entre los compañeros de su organización.
 
 > [!NOTE]
-> La instalación de aplicaciones de plantilla requiere [permisos](./service-template-apps-install-distribute.md#prerequisites). Si no tiene los permisos necesarios, póngase en contacto con el administrador de inquilinos.
+> La instalación de aplicaciones de plantilla requiere [permisos](./service-template-apps-install-distribute.md#prerequisites). Si no tiene permisos suficientes, póngase en contacto con el administrador de Power BI.
 
 ## <a name="install-the-app"></a>Instalación de la aplicación
 
@@ -83,7 +84,7 @@ Después de instalar la aplicación y conectarse a los orígenes de datos, puede
 
 Para iniciar la personalización de la aplicación, haga clic en el icono de lápiz en la esquina superior derecha.
 
- ![Pantalla de inicio de sesión de Microsoft](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
+ ![Icono Editar](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
 
 Vea [Personalización y uso compartido de la aplicación](./service-template-apps-install-distribute.md#customize-and-share-the-app) para obtener detalles.
 

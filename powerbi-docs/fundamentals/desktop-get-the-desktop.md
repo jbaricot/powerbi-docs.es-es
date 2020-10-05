@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e95b51d5d50900b8e09de8f5bf62bf31d5578ad1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec4bd8788d3c0421118a8e96287b36497683c4b2
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860219"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136152"
 ---
 # <a name="get-power-bi-desktop"></a>Obtener Power BI Desktop
 Power BI Desktop le permite crear consultas, modelos e informes avanzados para visualizar datos. Con Power BI Desktop, puede crear modelos de datos, crear informes y compartir el trabajo mediante su publicación en el servicio Power BI. La descarga de Power BI Desktop es gratuita.
@@ -105,9 +105,12 @@ En la lista siguiente, se proporcionan los requisitos mínimos para ejecutar Pow
 * .NET 4.5
 * Internet Explorer 10 o posterior
 * Memoria (RAM): Al menos 1 GB disponible; se recomienda 1,5 GB o más.
-* Pantalla: se recomienda al menos 1440 x 900 o 1600 x 900 (16:9). No se recomiendan resoluciones inferiores a 1024x768 o 1280x800, ya que ciertos controles (por ejemplo, para cerrar la pantalla de inicio) solo se muestran en resoluciones superiores a estas.
+* Pantalla: se necesita al menos 1440x900 o 1600x900 (16:9). No se admiten resoluciones inferiores a 1024x768 o 1280x800, ya que ciertos controles (por ejemplo, para cerrar la pantalla de inicio) solo se muestran en resoluciones superiores a estas.
 * Configuración de la pantalla de Windows: si establece la configuración de pantalla para cambiar el tamaño del texto, las aplicaciones u otros elementos en más de 100 %, es posible que no vea algunos cuadros de diálogo con los que debe interactuar para seguir usando Power BI Desktop. Si se produce este problema, compruebe la configuración de la pantalla en **Configuración** > **Sistema** > **Pantalla** en Windows y use el control deslizante para devolver la configuración de pantalla al 100 %.
-* CPU: se recomienda un procesador x86 de 32 o 64 bits de 1 gigahercio (GHz) o superior.
+* CPU: se recomienda un procesador de 64 bits (x64) a 1 gigahercio (GHz).
+
+> [!NOTE]
+> Se recomienda usar una versión de cliente de Windows, como Windows 10, en lugar de Windows Server. Por ejemplo, Power BI Desktop no admite el uso de la configuración de seguridad mejorada de Internet Explorer, ya que le impide iniciar sesión en el servicio Power BI.
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 

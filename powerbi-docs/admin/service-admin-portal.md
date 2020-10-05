@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/03/2020
+ms.date: 09/25/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f52993c3876db5c8f0453fb2e6a25ce0b78af017
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ae904f203c3f5b9437fd01b9306cc160e6feff1b
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857965"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375267"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -270,7 +270,7 @@ Para invitar a usuarios externos a su organización, un usuario también necesit
 
 ### <a name="publish-to-web"></a>Publicar en Web
 
-Como administrador de un inquilino de Power BI, el valor **Publicar en la web** ofrece opciones para las que los usuarios pueden crear códigos para insertar a fin de publicar informes en la web. Esta funcionalidad hace que el informe y los datos que contiene estén disponibles para cualquier persona en la web. Obtenga más información sobre cómo [publicar en la web](../collaborate-share/service-publish-to-web.md).
+Como administrador de Power BI, el valor **Publicar en la web** ofrece opciones que permiten a los usuarios crear códigos para insertar a fin de publicar informes en la web. Esta funcionalidad hace que el informe y los datos que contiene estén disponibles para cualquier persona en la web. Obtenga más información sobre cómo [publicar en la web](../collaborate-share/service-publish-to-web.md).
 
 > [!NOTE]
 > Solo los administradores de Power BI pueden permitir la creación de códigos para insertar de publicación en la web. Las organizaciones pueden tener códigos para insertar existentes. Vea la sección [Códigos para insertar](service-admin-portal.md#embed-codes) del portal de administración para revisar los informes publicados actualmente.
@@ -319,7 +319,7 @@ Los usuarios de la organización pueden exportar los datos de una visualización
 ![Opción Exportar a Excel](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
 
 >[!IMPORTANT]
-> Antes de la introducción de la opción Exportar a Excel, la exportación a un archivo de Excel se controlaba mediante la opción Exportar datos. Por tanto, en los inquilinos que existían antes de la introducción de la opción Exportar a Excel, la primera vez que los administradores de inquilinos examinan la opción Exportar a Excel, verán que tiene *Cambios sin aplicar*. Para que la nueva configuración surta efecto tendrán que aplicar estos cambios. De lo contrario, la exportación a un archivo de Excel se seguirá controlando mediante la opción Exportar datos.
+> Antes de la introducción de la opción Exportar a Excel, la exportación a un archivo de Excel se controlaba mediante la opción Exportar datos. Por tanto, en los inquilinos que existían antes de la introducción de la opción Exportar a Excel, la primera vez que los administradores de Power BI examinen la opción Exportar a Excel verán que tiene *Cambios sin aplicar*. Para que la nueva configuración surta efecto tendrán que aplicar estos cambios. De lo contrario, la exportación a un archivo de Excel se seguirá controlando mediante la opción Exportar datos.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Exportación de informes como presentaciones de PowerPoint o documentos PDF
 
@@ -401,11 +401,11 @@ Los usuarios de la organización pueden usar características de búsqueda exter
 
 ## <a name="featured-tables-settings"></a>Configuración de tablas destacadas
 
-En **Configuración de inquilinos**, la configuración de inquilino **Allow connections to featured tables** (Permitir conexiones a tablas destacadas) permite que los administradores de Power BI controlen qué usuarios de la organización pueden usar tablas destacadas en la galería de tipos de datos de Excel. 
+En **Configuración de inquilinos**, la opción **Permiso para conexiones a tablas destacadas** permite que los administradores de Power BI controlen qué usuarios de la organización pueden usar tablas destacadas en la galería de tipos de datos de Excel. 
 
 :::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Creación de las nuevas experiencias de áreas de trabajos":::
 
-Las conexiones a tablas destacadas también se deshabilitan si la configuración de inquilino **Exportar datos** está establecida en **Deshabilitada**.
+Las conexiones a tablas destacadas también se deshabilitan si la opción **Exportar datos** está establecida en **Deshabilitada**.
 
 Más información sobre las [tablas destacadas de Power BI en Excel](../collaborate-share/service-excel-featured-tables.md).
 
@@ -586,7 +586,7 @@ Después de habilitar la protección de la información de Power BI, se muestra
 
 ## <a name="manage-featured-content"></a>Administración de contenido destacado
 
-Como administrador de inquilinos, puede administrar todos los informes, paneles y aplicaciones que se han promocionado en la sección Destacados de Inicio de Power BI en la organización.
+Como administrador de Power BI, puede administrar todos los informes, paneles y aplicaciones que se han promocionado en la sección Destacados en la página Inicio de Power BI en la organización.
 
 - En el portal de administración, seleccione **Contenido destacado**.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 30ab225230784d19bd2aa4eb2f5ea775684b2afb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857758"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524797"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Administración de la configuración de administrador de objetos visuales de Power BI
 
@@ -148,11 +148,11 @@ Puede elegir objetos visuales de la página objetos visuales de la organización
 
 1. En la fila del objeto visual que quiere agregar, haga clic en **Configuración**.
 
-    ![Panel de la organización](media/organizational-visuals/organizational-pane.png)Panel de la organización
+    ![Captura de pantalla en la que se muestra el portal de administración con los objetos visuales de la organización seleccionados y un icono de configuración destacado.](media/organizational-visuals/organizational-pane.png)Panel de la organización
 
 2. Habilite la configuración del panel de visualización y haga clic en **Actualizar**.
 
-    ![Actualización del panel de la organización](media/organizational-visuals/update-organizational-pane.png)
+    ![Captura de pantalla en la que se muestra el cuadro de diálogo Configuración visual donde puede habilitar el objeto visual y que aparezca para toda la organización.](media/organizational-visuals/update-organizational-pane.png)
 
 ### <a name="delete-a-visual-uploaded-from-a-file"></a>Eliminación de un objeto visual cargado desde un archivo
 

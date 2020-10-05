@@ -6,22 +6,22 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/25/2020
 ms.author: mihart
-ms.openlocfilehash: 2d55c7dbf0b57d9414436c57e314a22837efeba2
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: d70bc80f7cea3fcff7a25446dd0f73a3c96ee461
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536478"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527629"
 ---
-# <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualización de un informe en el servicio Power BI para *consumidores*
+# <a name="view-a-report-in-the-power-bi-service-for-business-users"></a>Visualización de un informe en el servicio Power BI para *usuarios profesionales*
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Un informe consta de una o varias páginas de objetos visuales. Los *diseñadores* de Power BI crean los informes y [los comparten con los *consumidores* directamente](end-user-shared-with-me.md) o como parte de una [aplicación](end-user-apps.md). 
+Un informe consta de una o varias páginas de objetos visuales. Los *diseñadores* de Power BI crean los informes y [se comparten con los *usuarios profesionales* directamente](end-user-shared-with-me.md), o bien como parte de una [aplicación](end-user-apps.md). Para abrir un informe, necesitará una licencia de Power BI Pro o que este forme parte de un área de trabajo que esté almacenada en una capacidad Premium dedicada.
 
 Hay muchas maneras diferentes de abrir un informe; aquí le mostraremos dos de ellas: desde la Página principal y desde un panel. 
 
@@ -31,7 +31,7 @@ Hay muchas maneras diferentes de abrir un informe; aquí le mostraremos dos de e
 ## <a name="open-a-report-from-power-bi-home"></a>Abrir un informe desde Página principal de Power BI
 Vamos a abrir un informe que se ha compartido con usted directamente y, a continuación, vamos a abrir un informe que se ha compartido como parte de una aplicación.
 
-   ![Página principal](./media/end-user-report-open/power-bi-home-canvas.png)
+   ![Captura de pantalla en la que se muestra el lienzo de inicio del servicio Power BI con flechas que apuntan a informes.](./media/end-user-report-open/power-bi-home.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Apertura de un informe que se ha compartido con usted
 Los *diseñadores* de Power BI pueden compartir un informe individual directamente con usted mediante un vínculo en el correo electrónico o si lo agregan de forma automática al contenido de Power BI. Los informes que se comparten de este modo se muestran en el contenedor **Compartido conmigo** del panel de navegación y en la sección **Compartido conmigo** del lienzo Inicio.
@@ -40,7 +40,7 @@ Los *diseñadores* de Power BI pueden compartir un informe individual directame
 
 2. En el panel de navegación, seleccione **Página principal** para mostrar el lienzo Página principal.  
 
-   ![Lienzo Página principal](./media/end-user-report-open/power-bi-select-home-new.png)
+   ![Lienzo Página principal](./media/end-user-report-open/power-bi-open-home.png)
    
 3. Desplácese hacia abajo hasta que vea **Compartido conmigo**. Busque el icono de informe ![icono de informe](./media/end-user-report-open/power-bi-report-icon.png). En esta captura de pantalla hay panel y un informe. El nombre del informe es *Sales and marketing sample* (Ejemplo de ventas y marketing). 
    
@@ -52,19 +52,21 @@ Los *diseñadores* de Power BI pueden compartir un informe individual directame
 
 5. Observe las pestañas de la parte izquierda.  Cada pestaña representa una *página* del informe. Ahora está abierta la página *Growth Opportunity* (Oportunidades de crecimiento). Seleccione la pestaña *YTD Category* (Categoría del año actual) para abrir la página del informe. 
 
-   ![pestañas de las páginas de informes](./media/end-user-report-open/power-bi-ytd.png)
+   ![Captura de pantalla en la que se muestran las pestañas de las páginas de informes.](./media/end-user-report-open/power-bi-report-open.png)
 
-6. Observe el panel **Filtros** en el lado derecho. Aquí se muestran los filtros que se han aplicado a esta página de informe o a todo el informe.
+6. Expanda el panel **Filtros** en el lado derecho. Aquí se muestran los filtros que se han aplicado a esta página de informe o a todo el informe.
 
-7. Al mantener el puntero sobre el objeto visual de un informe se muestran varios iconos y **Más opciones** (...). Para ver los filtros aplicados a un objeto visual determinado, seleccione el icono de filtro. Aquí hemos seleccionado el icono de filtro para el gráfico de líneas *Total units by rolling period and region* (Unidades totales por período sucesivo y región).
+   ![Servicio Power BI con Filtros expandidos](./media/end-user-report-open/power-bi-filters.png)
 
-   ![pestañas de las páginas de informes](./media/end-user-report-open/power-bi-visual-filters.png)
+7. Al mantener el puntero sobre el objeto visual de un informe se muestran varios iconos y **Más opciones** (...). Para ver los filtros aplicados a un objeto visual determinado, seleccione el icono de filtro. Aquí se ha seleccionado el icono de filtro para el gráfico de líneas *Total de unidades por mes y fabricante*.
 
-6. Ahora se ve la página de informe completa. Para cambiar la presentación (zoom) de la página, seleccione la lista desplegable Vista en la esquina superior derecha y elija **Tamaño real**.
+   ![Captura de pantalla en la que se muestran filtros para el objeto visual seleccionado.](./media/end-user-report-open/power-bi-visual-filter.png)
 
-   ![cambiar zoom](./media/end-user-report-open/power-bi-fit-new.png)
+6. Ahora se ve la página de informe completa. Para cambiar la presentación (zoom) de la página, seleccione la lista desplegable Vista en la esquina superior derecha, elija **Tamaño real** y, después, cambie a **Ajustar al ancho**.
 
-   ![ajustar a la página](./media/end-user-report-open/power-bi-actual.png)
+   ![cambiar zoom](./media/end-user-report-open/power-bi-view-actual.png)
+
+   ![Cambio de la vista a Ajustar al ancho](./media/end-user-report-open/power-bi-width.png)
 
 Hay muchas maneras de interactuar con un informe para detectar información y tomar decisiones empresariales.  Use la tabla de contenido de la izquierda para leer otros artículos sobre informes de Power BI. 
 
@@ -82,21 +84,21 @@ Puede abrir la aplicación desde el contenedor de aplicaciones o desde Inicio.
 
 7. Desplácese hacia abajo hasta que vea **Mis aplicaciones**.
 
-   ![Página principal](./media/end-user-report-open/power-bi-app.png)
+   ![Captura de pantalla en la que se muestra la sección Mis aplicaciones de la página Inicio de Power BI.](./media/end-user-report-open/power-bi-apps.png)
 
 8. Seleccione la nueva aplicación *Ventas y marketing* para abrirla. Dependiendo de las opciones establecidas por el *diseñador* de la aplicación, esta abrirá un panel o un informe. Esta aplicación se abre en un panel.  
 
 
-## <a name="open-a-report-from-a-dashboard"></a>Apertura de un informe desde un panel
+## <a name="open-a-report-from-a-dashboard"></a>Abrir un informe desde un panel
 Los informes se pueden abrir desde un panel. La mayoría de los [iconos](end-user-tiles.md) de panel están *anclados* desde los informes. Al seleccionar un icono se abre el informe que se usó para crear el icono. 
 
-1. En el panel, seleccione un icono. En este ejemplo se ha seleccionado el icono del gráfico de columnas *Total unidades hasta la fecha...* .
+1. En el panel, seleccione un icono. En este ejemplo se ha seleccionado el icono del gráfico de columnas *Total unidades hasta la fecha...*.
 
-    ![Panel con icono seleccionado](./media/end-user-report-open/power-bi-dashboard.png)
+    ![Panel con icono seleccionado](./media/end-user-report-open/power-bi-dashboards.png)
 
 2.  Se abre el informe asociado. Tenga en cuenta que está en la página *Categoría hasta la fecha*. Se trata de la página del informe que contiene el gráfico de columnas que hemos seleccionado desde el panel.
 
-    ![Informe abierto en vista de lectura](./media/end-user-report-open/power-bi-report-tabs.png)
+    ![Informe abierto en vista de lectura](./media/end-user-report-open/power-bi-report-tab.png)
 
 > [!NOTE]
 > No todos los iconos conducen a un informe. Si selecciona un icono que ha sido [creado con Preguntas y respuestas](end-user-q-and-a.md), se abrirá la pantalla de Preguntas y respuestas. Si selecciona un icono que ha sido [creado mediante el widget **Agregar icono** del panel](../create-reports/service-dashboard-add-widget.md), pueden pasar varias cosas: puede que se reproduzca un vídeo, un sitio web o algo distinto.  
@@ -109,7 +111,7 @@ Conforme se vaya familiarizando con la navegación por el servicio Power BI, des
 - En un correo electrónico cuando alguien [comparte con usted](../collaborate-share/service-share-reports.md) o [establece una alerta](end-user-alerts.md).    
 - Desde el [Centro de notificaciones](end-user-notification-center.md)    
 - Desde un área de trabajo
-- Y más
+- y mucho más...
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Abrir y ver un panel](end-user-dashboard-open.md)    

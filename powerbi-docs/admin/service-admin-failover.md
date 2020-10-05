@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c83565582a47c75e4f55e516afe3be0d9fbe7847
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857436"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374232"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>P+F sobre alta disponibilidad, conmutación por error y recuperación ante desastres en Power BI
 
@@ -74,4 +74,8 @@ Si la solución de Power BI que se usa en la organización implica uno de los el
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>¿Las puertas de enlace funcionarán en el modo de conmutación por error?
 
-No. Los datos necesarios de orígenes de datos locales (todos los informes y paneles basados en Direct Query y Live Connect) no funcionarán durante una conmutación por error. Pero la configuración de puerta de enlace no cambia: cuando la instancia de Power BI vuelve a su estado original, las puertas de enlace recuperan su funcionamiento normal.
+No. Los datos necesarios de orígenes de datos locales (todos los informes y paneles basados en Direct Query y Live Connect) no funcionarán durante una conmutación por error. Pero la configuración de puerta de enlace no cambia. cuando la instancia de Power BI vuelve a su estado original, las puertas de enlace recuperan su funcionamiento normal.
+
+En caso de que se produzca un desastre de máxima gravedad en una región primaria que impida que vuelva a estar en línea durante un período de tiempo considerable, la región principal conmutada por error permitirá que las operaciones de lectura y escritura, y los clientes pueden volver a implementar y configurar puertas de enlace en la nueva región.
+
+Los clientes pueden optar por instalar una puerta de enlace nueva en otro equipo, o bien usar la puerta de enlace existente. La toma de control de la puerta de enlace existente debe ser más sencilla, ya que todos los orígenes de datos asociados a la puerta de enlace antigua se trasladarán a la nueva.

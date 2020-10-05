@@ -1,6 +1,6 @@
 ---
 title: Introducción a los conjuntos de datos en áreas de trabajo
-description: Obtenga información sobre cómo se puede compartir un conjunto de datos con usuarios en toda la organización. Después, podrán crear informes basados en el conjunto de datos en sus propias áreas de trabajo.
+description: Obtenga información sobre el uso compartido y la detección de conjuntos de datos para áreas de trabajo. Los usuarios de toda la organización pueden crear informes basados en el conjunto de datos en sus propias áreas de trabajo.
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5f79411d7eedc97e99aabc8b44dbf12a22696bba
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e943324106148bdbff1edba36650d494fdd9db8c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236876"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374278"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>Introducción a los conjuntos de datos en áreas de trabajo
 
@@ -22,7 +22,7 @@ La inteligencia empresarial es una actividad de colaboración. Es importante est
 
 ![Selección de un conjunto de datos compartido](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-En Power BI, los creadores de conjuntos de datos pueden controlar quién tiene acceso a los datos mediante el [permiso de compilación](service-datasets-build-permissions.md). Los creadores de conjuntos de datos también pueden *certificar* o *promover* conjuntos de datos para que otros usuarios los puedan detectar. De ese modo, los autores de informes saben qué conjuntos de datos son de alta calidad y oficiales, y pueden usar estos conjuntos de datos siempre que se creen en Power BI. Los administradores de inquilinos tienen una nueva configuración de inquilino para [controlar el uso de los conjuntos de datos entre áreas de trabajo](service-datasets-admin-across-workspaces.md).
+En Power BI, los creadores de conjuntos de datos pueden controlar quién tiene acceso a los datos mediante el [permiso de compilación](service-datasets-build-permissions.md). Los creadores de conjuntos de datos también pueden *certificar* o *promover* conjuntos de datos para que otros usuarios los puedan detectar. De ese modo, los autores de informes saben qué conjuntos de datos son de alta calidad y oficiales, y pueden usar estos conjuntos de datos siempre que se creen en Power BI. Los administradores tienen una nueva configuración de inquilino para [controlar el uso de los conjuntos de datos entre áreas de trabajo](service-datasets-admin-across-workspaces.md).
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Uso compartido de conjuntos de datos y la nueva experiencia de área de trabajo
 

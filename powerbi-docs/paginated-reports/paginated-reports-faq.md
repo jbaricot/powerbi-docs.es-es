@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 893becbcfc7d58b04bbff2819baed4bbc829fe9d
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216664"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526683"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: Preguntas frecuentes 
 
@@ -76,7 +76,7 @@ Memoria predeterminada de cada SKU Premium en los informes paginados:
 - **P2/A5**: 20 % predeterminado; 5 % mínimo
 - **P3/A6**: 20 % predeterminado; 2,5 % mínimo
 
-Los administradores de inquilinos de Power BI pueden modificar el porcentaje de memoria máximo predeterminado en el portal de administración. Vea la sección de la carga de trabajo **Informes paginados** de **Power BI Premium** en la pestaña **Configuración de la capacidad**.
+Los administradores de Power BI pueden modificar el porcentaje de memoria máximo predeterminado en el portal de administración. Vea la sección de la carga de trabajo **Informes paginados** de **Power BI Premium** en la pestaña **Configuración de la capacidad**.
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Pestaña Configuración de la capacidad de Informes paginados":::
 

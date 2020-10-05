@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8fc61a1aee263b40afb8ae95f365477b4104ca71
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: dfc682e867b65ba9da2b2eee87f52d7fd5d0961c
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763353"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528143"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Personalización de objetos visuales en un informe
 
@@ -117,7 +117,7 @@ Seleccione el icono de borrador para borrar todos los cambios recientes realizad
 
 Actualmente, la característica tiene algunas limitaciones que se deben tener en cuenta.
 
-- **Personalizar este objeto visual** se puede desactivar para un informe entero o para un determinado objeto visual. Si no tiene una opción para personalizar un objeto visual, consulte con el administrador de inquilinos o al propietario del informe. Para mostrar la información de contacto del propietario del informe, seleccione el nombre del informe en la barra de menús de Power BI.
+- **Personalizar este objeto visual** se puede desactivar para un informe entero o para un determinado objeto visual. Si no tiene una opción para personalizar un objeto visual, póngase en contacto con el administrador de Power BI o el propietario del informe. Para mostrar la información de contacto del propietario del informe, seleccione el nombre del informe en la barra de menús de Power BI.
 - Las exploraciones de los usuarios no se conservan automáticamente. Debe guardar la vista como un marcador personal para capturar los cambios.
 - Esta característica se admite en las aplicaciones móviles de Power BI para tabletas iOS y Android, así como en su versión para Windows; no se admite en las aplicaciones móviles de Power BI para teléfonos. Pero cualquier cambio en un objeto visual que guarde en un marcador personal mientras se encuentre en el servicio Power BI se respetará en todas las aplicaciones móviles de Power BI.
 

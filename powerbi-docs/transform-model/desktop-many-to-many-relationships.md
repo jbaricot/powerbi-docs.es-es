@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 5bcc2123c5e22cb5b0ff91122a30ce3d7beb51fe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 17006405a495798618bf7562e6b94864b795a224
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325584"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528054"
 ---
 # <a name="apply-many-many-relationships-in-power-bi-desktop"></a>Aplicación de relaciones de varios a varios en Power BI Desktop
 
@@ -93,7 +93,7 @@ La tabla de la solución alternativa se podía dejar visible. También se podía
 
 Un objeto visual que muestra **Estado** (desde la tabla **CityData**) junto con el valor de **Población** y **Ventas** totales sería como aparece a continuación:
 
-![Tablas State, Population y Sales, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
+![Captura de pantalla en la que se muestra una tabla con datos de Estado, Población y Ventas.](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
 
 > [!NOTE]
 > Dado que en esta solución alternativa se usa el estado de la tabla **CityData**, solo aparecen los estados de esa tabla, así que TX no está incluido. Además, a diferencia de las relaciones de *varios a uno*, si bien la fila total incluye todas las **ventas** (incluidas las de TX), los detalles no incluyen una fila en blanco que cubre esas filas no coincidentes. Del mismo modo, ninguna fila en blanco cubriría las **ventas** en las que hubiera un valor nulo en **State**.

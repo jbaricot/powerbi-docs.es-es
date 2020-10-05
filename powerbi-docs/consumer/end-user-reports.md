@@ -1,20 +1,20 @@
 ---
 title: Informes en el servicio Power BI
-description: Informes en el servicio Power BI para consumidores
+description: Informes en el servicio Power BI, para usuarios profesionales
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/28/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: bc0ef9854afdb95a00502ea6755dc36db6c8fbf4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 871f807d18017343b4b23eee4d59833c196cf2f0
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536225"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528077"
 ---
 # <a name="reports-in-power-bi"></a>Informes en Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "87536225"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Un informe de Power BI es una vista de varias perspectivas de un conjunto de datos, con objetos visuales que representan diferentes hallazgos y conclusiones de ese conjunto de datos.  Un informe puede tener un solo objeto visual o páginas llenas de objetos visuales. En función de su rol de trabajo, es posible que sea alguien que *diseña* informes. También puede ser alguien que *consume* o usa informes. Este artículo es para *consumidores*.
+Un informe de Power BI es una vista de varias perspectivas de un conjunto de datos, con objetos visuales que representan diferentes hallazgos y conclusiones de ese conjunto de datos.  Un informe puede tener un solo objeto visual o páginas llenas de objetos visuales. En función de su rol de trabajo, es posible que sea alguien que *diseña* informes. También puede ser un usuario profesional que *consume* o utiliza informes. Este artículo está destinado a *usuarios profesionales*.
 
 ![Captura de pantalla de la página de un informe.](./media/end-user-reports/power-bi-report.png)
 
@@ -32,7 +32,7 @@ C. En el panel *Filtros* se muestra un filtro aplicado a todas las páginas del 
 D. En el banner de Power BI se muestra el nombre del informe y la fecha de la última actualización. Seleccione la flecha para abrir un menú que muestre también el nombre del propietario del informe.    
 E. La barra de acciones contiene las acciones que puede realizar en este informe.  Por ejemplo, puede agregar un comentario, ver un marcador o exportar datos del informe.  Seleccione **Más opciones** (...) para mostrar una lista de funcionalidades adicionales del informe.    
 
-Si no está familiarizado con Power BI, puede obtener una buena base si lee [Conceptos básicos para consumidores de Power BI](end-user-basic-concepts.md). Los informes se pueden ver, compartir y anotar en dispositivos móviles. Para obtener más información, consulte [Exploración de informes en las aplicaciones móviles de Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
+Si no está familiarizado con Power BI, puede obtener una buena base si lee [Conceptos básicos para usuarios profesionales del servicio Power BI](end-user-basic-concepts.md). Los informes se pueden ver, compartir y anotar en dispositivos móviles. Para obtener más información, consulte [Exploración de informes en las aplicaciones móviles de Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Ventajas de los informes
 
@@ -68,14 +68,14 @@ Los [paneles](end-user-dashboards.md) suelen confundirse con informes, ya que ta
 <!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |
 | Pinning |Can pin existing visuals (tiles) only from current dashboard to your other dashboards |Can pin visuals (as tiles) to any of your dashboards. Can pin entire report pages to any of your dashboards. | -->
 
-## <a name="report-designers-and-report-consumers"></a>Diseñadores de informes y consumidores de informes
+## <a name="report-designers-and-report-users"></a>Diseñadores de informes y usuarios de informes
 
 En función de su rol, es posible que sea un *diseñador*, alguien que crea informes para su propio uso o para compartir con compañeros de trabajo. Querrá obtener información sobre cómo crear y compartir informes.
 
-O bien, es posible que sea un *consumidor*, alguien que recibe los informes de otras personas. Querrá obtener información sobre cómo comprender los informes e interactuar con ellos. Si es un *consumidor* de informes, estos vínculos son para usted:
+O bien, es posible que sea un *usuario profesional*, alguien que reciba los informes de otros usuarios. Querrá obtener información sobre cómo comprender los informes e interactuar con ellos. Si es un *usuario profesional* de informes, le interesan estos vínculos:
 
 * Comience con un [paseo por el servicio Power BI](end-user-basic-concepts.md) para saber dónde se encuentran los informes y las herramientas de informes.
-* Aprenda a [abrir un informe](end-user-report-open.md) y conozca todas las [interacciones disponibles para los consumidores](end-user-reading-view.md).
+* Aprenda a [abrir un informe](end-user-report-open.md) y obtenga información sobre todas las [interacciones disponibles para los usuarios profesionales](end-user-reading-view.md).
 * Familiarícese con los informes viendo uno de nuestros [ejemplos](../create-reports/sample-tutorial-connect-to-the-samples.md).  
 * Para ver qué conjunto de datos usa el informe y qué paneles muestran objetos visuales del informe (*marcas*), consulte [Visualización del contenido relacionado en el servicio Power BI](end-user-related.md).
 

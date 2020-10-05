@@ -6,187 +6,64 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/09/2019
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: b97e26d7e8bc814452491b6363d375e9d9da9982
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 214ef5072808decc4c153a28cf231e070c20508d
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228612"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524728"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Configurar aplicaciones móviles con Microsoft Intune
 
 Microsoft Intune permite a las organizaciones administrar dispositivos y aplicaciones. Las aplicaciones móviles de Power BI para iOS y Android se integran con Intune. Esta integración le permite administrar la aplicación en los dispositivos y controlar la seguridad. Mediante las directivas de configuración, puede controlar elementos como requerir un PIN de acceso, la forma en que la aplicación controla los datos e incluso cifrar los datos de la aplicación cuando la aplicación no está en uso.
 
+La aplicación móvil de Microsoft Power BI permite obtener acceso a la información empresarial importante. Puede ver e interactuar con los paneles e informes para todos los datos empresariales de los dispositivos administrados y las aplicaciones de la organización. Para obtener más información sobre las aplicaciones de Intune compatibles, vea [Aplicaciones protegidas de Microsoft Intune](/intune/apps/apps-supported-intune-apps).
+
 ## <a name="general-mobile-device-management-configuration"></a>Configuración general de administración de dispositivos móviles
 
 En este artículo se supone que Intune está configurado correctamente y que tiene dispositivos inscritos con Intune. Este artículo no está pensado como una guía de configuración completa de Microsoft Intune. Para obtener más información sobre Intune, vea [¿Qué es Intune?](/intune/introduction-intune/)
 
-Microsoft Intune puede coexistir con administración de dispositivos móviles (MDM) en Microsoft 365. Si usa MDM, el dispositivo se mostrará inscrito en MDM, pero disponible para administrarse en Intune.
+Microsoft Intune puede coexistir con administración de dispositivos móviles (MDM) en Microsoft 365. Si usa MDM, el dispositivo se mostrará como inscrito en MDM, pero está disponible para administrarlo en Intune.
+
+Antes de que los usuarios finales puedan usar la aplicación de Power BI en sus dispositivos, un administrador de Intune debe agregarla a Intune y también asignarla a los usuarios finales.
 
 > [!NOTE]
 > Después de configurar Intune, la actualización de datos en segundo plano se desactiva para la aplicación móvil de Power BI en su dispositivo iOS o Android. Power BI actualizará los datos desde el servicio Power BI en la web cuando se acceda a la aplicación.
 
-## <a name="step-1-get-the-url-for-the-application"></a>Paso 1: Obtener la dirección URL de la aplicación
+## <a name="step-1-add-the-power-bi-app-to-intune"></a>Paso 1: Adición de la aplicación de Power BI a Intune
 
-Antes de crear la aplicación en Intune, debemos obtener las direcciones URL de las aplicaciones. Para iOS, la obtendremos de iTunes. Para Android, se puede obtener desde la página de Power BI Mobile.
+Para agregar la aplicación de Power BI a Intune, siga los pasos que se indican en los temas siguientes:
+- [Incorporación de aplicaciones de la tienda iOS a Microsoft Intune](/intune/apps/store-apps-ios)
+- [Agregar aplicaciones de la Tienda Android a Microsoft Intune](/intune/apps/store-apps-android)
 
-Guarde la dirección URL, ya que la necesitará al crear la aplicación.
+## <a name="step-2-assign-the-app-to-your-end-users"></a>Paso 2: Asignación de la aplicación a los usuarios finales
 
-### <a name="get-ios-url"></a>Obtener la dirección URL para iOS
+Después de agregar la aplicación de Power BI a Microsoft Intune, puede asignarla a usuarios y dispositivos. Es importante tener en cuenta que puede asignar una aplicación a un dispositivo independientemente de si el dispositivo está administrado por Intune o no.
 
-La dirección URL de la aplicación para iOS debe obtenerse en iTunes.
+Para asignar la aplicación de Power BI a usuarios y dispositivos, siga los pasos proporcionados en [Asignación de aplicaciones a grupos con Microsoft Intune](/intune/apps/apps-deploy).
 
-1. Abra iTunes.
+## <a name="step-3-create-and-assign-app-protection-policies"></a>Paso 3: Creación y asignación de directivas de protección de aplicaciones
 
-1. Busque *Power BI*.
+Las directivas de protección de aplicaciones (APP) que garantizan los datos de la organización siguen siendo seguras o se encuentran en una aplicación administrada. Una directiva puede ser una regla que se aplica cuando el usuario intenta obtener acceso o mover datos "corporativos" o un conjunto de acciones que están prohibidas o que se supervisan cuando el usuario está dentro de la aplicación. Una aplicación administrada es aquella que tiene las directivas de protección de aplicaciones aplicadas y puede administrarse mediante Intune.
 
-1. **Microsoft Power BI** debería aparecer debajo de **Aplicaciones para iPhone aplicaciones** y **Aplicaciones para iPad**. Puede usar cualquiera de las opciones, ya que obtendrá la misma dirección URL.
+Las directivas de protección de aplicaciones de Administración de aplicaciones móviles (MAM) le permiten administrar y proteger los datos de su organización dentro de una aplicación. Con MAM sin inscripción (MAM-WE), una aplicación profesional o educativa que contiene información confidencial puede administrarse en casi cualquier dispositivo, incluidos los dispositivos personales en escenarios de Bring Your Own Device (BYOD). Para obtener más información, consulte [Introducción a las directivas de protección de aplicaciones](/intune/apps/app-protection-policy).
 
-1. Seleccione el menú desplegable **Obtener** y elija **Copiar vínculo**.
+Para crear y asignar una directiva de protección de aplicaciones para la aplicación de Power BI, siga los pasos proporcionados en [Procedimiento para crear y asignar directivas de protección de aplicaciones](/intune/apps/app-protection-policies).
 
-    ![Dirección URL de la aplicación de iTunes](media/service-admin-mobile-intune/itunes-url.png)
+## <a name="step-4-use-the-application-on-a-device"></a>Paso 4: Uso de la aplicación en un dispositivo
 
-El aspecto debería ser similar al siguiente: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8* .
+Las aplicaciones administradas son aplicaciones que el equipo de soporte técnico de su empresa puede configurar para ayudar a proteger los datos de la empresa a los que se puede obtener acceso en esa aplicación. Al acceder a los datos de la empresa en una aplicación administrada en el dispositivo, puede observar que la aplicación funciona de forma ligeramente diferente a lo esperado. Por ejemplo, es posible que no pueda copiar y pegar los datos protegidos de la compañía o no pueda guardar dichos datos en determinadas ubicaciones.
 
-### <a name="get-android-url"></a>Obtener dirección URL en Android
-
-Puede obtener la dirección URL de Google Play desde la [página de Power BI Mobile](https://powerbi.microsoft.com/mobile/). Seleccione **Descargar de Google Play** para acceder a la página de la aplicación. Puede copiar la dirección URL de la barra de direcciones del explorador. El aspecto debería ser similar al siguiente: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim* .
-
-## <a name="step-2-create-a-mobile-application-management-policy"></a>Paso 2: Crear una directiva de administración de aplicaciones móviles
-
-La directiva de administración de aplicaciones móviles le permite imponer elementos como un PIN de acceso. Puede crear uno en el portal de Intune.
-
-Puede crear primero la aplicación o la directiva primero. No importa el orden en que se agregan. Simplemente, ambas deben existir para el paso de implementación.
-
-1. En el portal de Intune, seleccione **Directiva** > **Directivas de configuración**.
-
-    ![Portal de Intune](media/service-admin-mobile-intune/intune-policy.png)
-
-1. Seleccione **Agregar**.
-
-1. Bajo **Software** , puede seleccionar Administración de aplicaciones móviles para Android o iOS. Para empezar a usarlo rápidamente, puede seleccionar **Crear una directiva con la configuración recomendada**, o bien crear una directiva personalizada.
-
-1. Edite la directiva para configurar las restricciones que quiera en la aplicación.
-
-## <a name="step-3-create-the-application"></a>Paso 3: Crear la aplicación
-
-La aplicación es una referencia, o un paquete, que se guarda en Intune para su implementación. Deberemos crear una aplicación y hacer referencia a la dirección URL de la aplicación que obtuvimos de Google Play o iTunes.
-
-Puede crear primero la aplicación o la directiva primero. No importa el orden en que se agregan. Simplemente, ambas deben existir para el paso de implementación.
-
-1. Vaya al portal de Intune y seleccione **Aplicaciones** en el menú izquierdo.
-
-1. Seleccione **Agregar aplicación**. Se iniciará la aplicación **Agregar Software** .
-
-### <a name="create-for-ios"></a>Crear para iOS
-
-1. Seleccione **Aplicación iOS administrada de la App Store** en la lista desplegable.
-
-1. Escriba la dirección URL de la aplicación que obtuvimos en el [Paso 1](#step-1-get-the-url-for-the-application) y seleccione **Siguiente**.
-
-    ![Instalación de software: iOS](media/service-admin-mobile-intune/intune-add-software-ios1.png)
-
-1. Proporcione valores de **Publicador**, **Nombre** y **Descripción**. También puede proporcionar un **icono**. El campo **Categoría** es para la aplicación Portal de empresa. Cuando termine, seleccione **Siguiente**.
-
-1. Puede decidir si quiere publicar la aplicación como **Cualquiera** (valor predeterminado), **iPad** o **iPhone**. De forma predeterminada se mostrará **Cualquiera** y funcionará para ambos tipos de dispositivo. La aplicación Power BI presenta la misma dirección URL para iPhone y iPad. Seleccione **Siguiente**.
-
-1. Seleccione **Cargar**.
-
-1. Si no ve la aplicación en la lista, actualice la página: vaya a **Introducción** y luego vuelva a **Aplicaciones**.
-
-    ![Pestaña Aplicaciones](media/service-admin-mobile-intune/intune-add-software-ios2.png)
-
-### <a name="create-for-android"></a>Crear para Android
-
-1. Seleccione **Vínculo externo** en la lista desplegable.
-
-1. Escriba la dirección URL de la aplicación que obtuvimos en el [Paso 1](#step-1-get-the-url-for-the-application) y seleccione **Siguiente**.
-
-    ![Instalación de software: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
-
-1. Proporcione valores de **Publicador**, **Nombre** y **Descripción**. También puede proporcionar un **icono**. El campo **Categoría** es para la aplicación Portal de empresa. Cuando termine, seleccione **Siguiente**.
-
-1. Seleccione **Cargar**.
-
-1. Si no ve la aplicación en la lista, actualice la página: vaya a **Introducción** y luego vuelva a **Aplicaciones**.
-
-    ![Pestaña Aplicaciones](media/service-admin-mobile-intune/intune-add-software-android2.png)
-
-## <a name="step-4-deploy-the-application"></a>Paso 4: Implementar la aplicación
-
-Después de agregar la aplicación, deberá implementarla para que esté disponible para los usuarios finales. Este es el paso en el que se enlazará la directiva creada con la aplicación.
-
-### <a name="deploy-for-ios"></a>Implementar para iOS
-
-1. En la pantalla de aplicaciones, seleccione la aplicación que creó. A continuación, seleccione el vínculo **Administrar implementación** .
-
-    ![Administrar la implementación](media/service-admin-mobile-intune/intune-deploy-ios1.png)
-
-1. En la pantalla **Seleccionar grupos** , puede elegir en qué grupos quiere implementar esta aplicación. Seleccione **Siguiente**.
-
-1. En la pantalla **Acción de implementación** , puede elegir cómo quiere implementar esta aplicación. Al seleccionar **Instalación disponible**o **Instalación requerida**, la aplicación estará disponible en el Portal de empresa para que los usuarios puedan instalarla a petición. Cuando termine de realizar su selección, seleccione **Siguiente**.
-
-    ![Acción de implementación](media/service-admin-mobile-intune/intune-deploy-ios2.png)
-
-1. En la pantalla **Administración de aplicaciones móviles**, puede seleccionar la directiva de administración de aplicaciones móviles que creamos en el [Paso 2](#step-2-create-a-mobile-application-management-policy). De manera predeterminada, se establecerá la directiva que creó, si es la única directiva de iOS disponible. Seleccione **Siguiente**.
-
-    ![Administración de aplicaciones móviles](media/service-admin-mobile-intune/intune-deploy-ios3.png)
-
-1. En la pantalla **Perfil de VPN** , puede seleccionar una directiva si dispone de una para su organización. El valor predeterminado es **Ninguna**. Seleccione **Siguiente**.
-
-1. En la pantalla **Configuración de la aplicación móvil** , puede seleccionar una **Directiva de configuración de la aplicación** si creó una. El valor predeterminado es **Ninguna**. Esto no es necesario. Seleccione **Finalizar**.
-
-Después de implementar la aplicación, debería mostrarse **Sí** para indicarlo en la página de aplicaciones.
-
-### <a name="deploy-for-android"></a>Implementar para Android
-
-1. En la pantalla de aplicaciones, seleccione la aplicación que creó. A continuación, seleccione el vínculo **Administrar implementación** .
-
-    ![Administrar la implementación](media/service-admin-mobile-intune/intune-deploy-android1.png)
-1. En la pantalla **Seleccionar grupos** , puede elegir en qué grupos quiere implementar esta aplicación. Seleccione **Siguiente**.
-
-1. En la pantalla **Acción de implementación** , puede elegir cómo quiere implementar esta aplicación. Al seleccionar **Instalación disponible**o **Instalación requerida**, la aplicación estará disponible en el Portal de empresa para que los usuarios puedan instalarla a petición. Cuando termine de realizar su selección, seleccione **Siguiente**.
-
-    ![Acción de implementación](media/service-admin-mobile-intune/intune-deploy-android2.png)
-
-1. En la pantalla **Administración de aplicaciones móviles**, puede seleccionar la directiva de administración de aplicaciones móviles que creamos en el [Paso 2](#step-2-create-a-mobile-application-management-policy). De manera predeterminada, se establecerá la directiva que creó, si es la única directiva de Android disponible. Seleccione **Finalizar**.
-
-    ![Administración de aplicaciones móviles](media/service-admin-mobile-intune/intune-deploy-android3.png)
-
-Después de implementar la aplicación, debería mostrarse **Sí** para indicarlo en la página de aplicaciones.
-
-## <a name="step-5-install-the-application-on-a-device"></a>Paso 5: Instalar la aplicación en un dispositivo
-
-La aplicación se instala con la aplicación *Portal de empresa*. Si no tiene la aplicación Portal de empresa instalada, puede obtenerla a través de la tienda de aplicaciones en las plataformas Android o iOS. Iniciará sesión en el Portal de empresa con las credenciales de inicio de sesión de su organización.
-
-1. Abra la aplicación Portal de empresa.
-
-1. Si la aplicación Power BI no aparece como una aplicación destacada, seleccione **Aplicaciones de empresa**.
-
-    ![Aplicaciones de empresa](media/service-admin-mobile-intune/intune-companyportal1.png)
-
-1. Seleccione la aplicación de Power BI que implementó.
-
-    ![Aplicación de Power BI](media/service-admin-mobile-intune/intune-companyportal2.png)
-
-1. Haga clic en **Instalar**.
-
-    ![Instalar aplicación](media/service-admin-mobile-intune/intune-companyportal3.png)
-
-1. Si usa iOS, se insertará la aplicación. Seleccione **Instalar** en el cuadro de diálogo de inserción.
-
-    ![Instalación de la aplicación](media/service-admin-mobile-intune/intune-companyportal5.png)
-
-1. Una vez instalada la aplicación, se mostrará como **Administrado por la empresa**. Si habilitó el acceso con un pin en la directiva, se mostrará lo siguiente.
-
-    ![Especificar el PIN](media/service-admin-mobile-intune/intune-powerbi-pin.png)
+Para entender cómo los usuarios finales pueden usar la aplicación de Power BI en su dispositivo, revise los pasos proporcionados en los artículos siguientes:
+- [Usar aplicaciones administradas en el dispositivo iOS](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
+- [Usar aplicaciones administradas en el dispositivo Android](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-android)
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Proteger datos mediante las directivas de administración de aplicaciones móviles con Microsoft Intune](/intune/app-protection-policies/)  
+[Creación y asignación de directivas de protección de aplicaciones](/intune/app-protection-policies) 
 
 [Aplicaciones de Power BI para dispositivos móviles](../consumer/mobile/mobile-apps-for-mobile-devices.md)  
 

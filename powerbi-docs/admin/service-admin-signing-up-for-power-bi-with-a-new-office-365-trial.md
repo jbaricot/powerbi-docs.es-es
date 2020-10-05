@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e8a5d3b4bf8200e6e990c1bced2920383398b6cf
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 29dad4db6843f0895ea9de791992b3f70ce57e66
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857091"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524751"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Registro en Power BI con una nueva prueba de Microsoft 365
 
@@ -35,7 +35,7 @@ Si selecciona **Office 365 E5**, la evaluación incluirá Power BI Pro. La eval
 
     Si necesita una nueva dirección de correo electrónico, Microsoft le guiará a través de los pasos. Primer paso, creación de una cuenta nueva. Seleccione **Configurar cuenta**.
 
-    ![Opción para registrarse y obtener una cuenta nueva](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-email.png)
+    ![Opción para registrarse y obtener una cuenta nueva.](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-email.png)
 
 2. Escriba los detalles de la nueva cuenta.
 
@@ -43,7 +43,7 @@ Si selecciona **Office 365 E5**, la evaluación incluirá Power BI Pro. La eval
 
 3. Cree su dirección de correo electrónico y contraseña. Cree un nombre de inicio de sesión similar a you@yourcompany.onmicrosoft.com. Este es la información de inicio de sesión que usará con la nueva cuenta profesional o educativa y con Power BI.
 
-    ![Opción para registrarse y obtener una cuenta nueva](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
+    ![Captura de pantalla en la que se muestran las opciones de Crear su identidad de negocio.](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 
 4. Eso es todo.  Ahora tiene una dirección de correo electrónico que puede usar para registrarse en Power BI. Consulte [Registro en Power BI como usuario individual](../fundamentals/service-self-service-signup-for-power-bi.md).
 

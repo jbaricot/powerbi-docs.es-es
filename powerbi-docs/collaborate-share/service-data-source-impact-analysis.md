@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/20/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 2c9834310179d8936cda8b769e3b7e3f80d328e6
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 71c214e265c84eb7436d384a98f793eefe2f6a23
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254178"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526242"
 ---
 # <a name="data-source-impact-analysis"></a>Análisis del impacto de los orígenes de datos
 
@@ -42,6 +42,17 @@ Se abre el panel lateral Análisis de impacto.
  
 * **Resumen de impacto**: muestra el número de áreas de trabajo, flujos de trabajo y conjuntos de datos que se pueden ver afectados. Este recuento incluye las áreas de trabajo a las que no tiene acceso.
 * **Desglose de uso**: muestra los nombres de los flujos de trabajo y conjuntos de datos afectados para cada área de trabajo. Para explorar aún más el impacto sobre un área de trabajo determinada, haga clic en el nombre del área de trabajo para abrirla. Una vez que esté en el área de trabajo afectada, use el [análisis del impacto de los orígenes de datos](service-dataset-impact-analysis.md) para ver los detalles de uso de los informes y paneles conectados.
+
+## <a name="notify-contacts"></a>Notificación a los contactos
+
+Si ha realizado un cambio en un origen de datos o piensa realizarlo, es posible que quiera ponerse en contacto con los usuarios adecuados para notificárselo. Al notificar a los contactos, se envía un correo electrónico a las [listas de contactos](service-create-the-new-workspaces.md#create-a-contact-list) de todas las áreas de trabajo afectadas (en el caso de las áreas de trabajo clásicas, el correo electrónico se envía a los administradores del área de trabajo). En el correo electrónico aparece su nombre, para que los contactos puedan encontrarlo y responder en un nuevo hilo de correo. 
+
+1. Haga clic en **Notificar a los contactos** en el panel lateral Análisis de impacto. Aparecerá el cuadro de diálogo Notificar a los contactos.
+
+   ![Captura de pantalla del cuadro de diálogo Notificar a los contactos del origen de datos.](media/service-data-source-impact-analysis/notify-contacts-dialog.png)
+
+1. En el cuadro de texto, proporcione algunos detalles sobre el cambio.
+1. Cuando el mensaje esté listo, haga clic en **Enviar**.
 
 ## <a name="privacy"></a>Privacidad
 

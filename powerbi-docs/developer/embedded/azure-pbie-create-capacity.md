@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 2f330b42e674f11f27d695fb65bc8d5de928eaae
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 6c5a4657328b755e53a3ddd016c2b095394fd83b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204821"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528376"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Creación de una capacidad de Power BI Embedded en Azure Portal
 
@@ -46,7 +46,7 @@ Antes de crear una capacidad de Power BI Embedded, asegúrese de que ha iniciad
 
 4. Rellene la información necesaria y, después, haga clic en **Revisar y crear**.
 
-    ![Captura de pantalla de los campos para rellenar con el fin de crear una capacidad en Azure Portal](media/azure-pbie-create-capacity/azure-create-capacity.png)
+    ![Captura de pantalla en la que se muestra la pestaña Aspectos básicos de la página de Power BI Embedded para crear una capacidad en Azure Portal.](media/azure-pbie-create-capacity/azure-create-capacity.png)
 
     * **Suscripción**: la suscripción en la que le gustaría crear la capacidad.
 
@@ -219,7 +219,7 @@ En la plantilla se define un recurso de Azure, [Microsoft.PowerBIDedicated/capac
 
 2. Rellene la información necesaria y, después, haga clic en **Revisar y crear**.
 
-    ![Captura de pantalla de los campos para rellenar con el fin de crear una capacidad en Azure Portal](media/azure-pbie-create-capacity/arm-template.png)
+    ![Captura de pantalla en la que se muestra la pestaña Aspectos básicos de la página Crear una capacidad de Power BI Embedded para crear una capacidad en Azure Portal.](media/azure-pbie-create-capacity/arm-template.png)
 
     * **Suscripción**: la suscripción en la que le gustaría crear la capacidad.
 

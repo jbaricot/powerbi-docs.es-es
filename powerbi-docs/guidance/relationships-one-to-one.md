@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278270"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136267"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Instrucciones para relaciones uno a uno
 
@@ -131,13 +131,13 @@ En nuestro ejemplo, los autores de informes pueden encontrar el campo **Category
 
 ![El panel Campos muestra el campo Category dentro de una carpeta para mostrar denominada Marketing.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Si todavía decide definir relaciones uno a uno intraisla en su modelo, cuando sea posible, asegúrese de que haya filas coincidentes en las tablas relacionadas. Dado que una relación uno a uno intraisla se evalúa como una [relación sólida](../transform-model/desktop-relationships-understand.md#strong-relationships), podrían surgir problemas de integridad de datos en los objetos visuales del informe como BLANCOS. (Puede ver un ejemplo de una agrupación EN BLANCO en el primer objeto visual de la tabla presentado en este artículo).
+Si todavía decide definir relaciones uno a uno intraisla en su modelo, cuando sea posible, asegúrese de que haya filas coincidentes en las tablas relacionadas. Como una relación uno a uno intraisla se evalúa como una [relación normal](../transform-model/desktop-relationships-understand.md#regular-relationships), podrían surgir problemas de integridad de datos en los objetos visuales del informe como espacios en blanco. (Puede ver un ejemplo de una agrupación EN BLANCO en el primer objeto visual de la tabla presentado en este artículo).
 
 ### <a name="inter-island-one-to-one-relationship"></a>Relación uno a uno entre islas
 
-Cuando existe una relación uno a uno _entre islas_ entre las tablas, no hay un diseño de modelo alternativo, a menos que consolide previamente los datos en los orígenes de datos. Power BI evaluará la relación del modelo uno a uno como una [relación débil](../transform-model/desktop-relationships-understand.md#weak-relationships). Por lo tanto, asegúrese de que haya filas coincidentes en las tablas relacionadas, ya que las filas no coincidentes se eliminarán de los resultados de la consulta.
+Cuando existe una relación uno a uno _entre islas_ entre las tablas, no hay un diseño de modelo alternativo, a menos que consolide previamente los datos en los orígenes de datos. Power BI evaluará la relación del modelo uno a uno como una [relación limitada](../transform-model/desktop-relationships-understand.md#limited-relationships). Por lo tanto, asegúrese de que haya filas coincidentes en las tablas relacionadas, ya que las filas no coincidentes se eliminarán de los resultados de la consulta.
 
-Veamos qué sucede cuando los campos de ambas tablas se agregan a una tabla visual, y existe una relación débil entre las tablas.
+Ahora se verá qué sucede cuando los campos de las dos tablas se agregan a un objeto visual de tabla y existe una relación limitada entre las tablas.
 
 ![Un objeto visual de tabla incluye cuatro columnas: SKU, Product, Color y Category. La tabla solo tiene dos filas.](media/relationships-one-to-one/product-to-product-category-table-visual-weak-relationship.png)
 

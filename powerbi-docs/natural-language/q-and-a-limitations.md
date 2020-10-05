@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/09/2020
 ms.author: maggies
-ms.openlocfilehash: 7b02e1b1fb49eb1c43b12d204250eabec8eafe91
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: c989dad575f10a6ed4f6b25ed80368315087c1c2
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642338"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528307"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Limitaciones de Preguntas y respuestas de Power BI
 
@@ -53,7 +53,7 @@ El nuevo cuadro de diálogo de herramientas permite a los usuarios personalizar 
 
 La revisión de las preguntas solo almacena las preguntas que se han hecho al modelo de datos durante un máximo de 28 días. Al usar la nueva funcionalidad de revisión de las preguntas, es posible que observe que algunas no se registran. No se registran por diseño, ya que el motor de lenguaje natural realiza una serie de pasos de limpieza de datos para asegurarse de que no se graben ni se muestren todas las pulsaciones de teclas de un usuario.
 
-Los administradores de inquilinos pueden usar las opciones de administración de inquilinos para administrar la capacidad de almacenar preguntas. Los permisos se basan en grupos de seguridad. 
+Los administradores de Power BI pueden usar la configuración de inquilinos para administrar la capacidad de almacenar preguntas. Los permisos se basan en grupos de seguridad. 
 
 Para evitar que se graben sus preguntas, los usuarios pueden seleccionar **Configuración** > **General** y desactivar **Allow Q&A to record my utterance** (Permitir que Preguntas y respuestas registre mi expresión). 
 

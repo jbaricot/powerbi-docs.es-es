@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 528fc40427a1cb242d9154028d1a7c6617c8a14e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 840e4dc92164de2ebfd1bdef6bee941124f6e906
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279695"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136221"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Guía de modelos compuestos de Power BI Desktop
 
@@ -54,8 +54,8 @@ En un modelo compuesto, puede configurar el modo de almacenamiento de cada tabla
 Hay varios escenarios posibles cuando Power BI consulta un modelo compuesto:
 
 - **Consultas solo de tablas de importación o duales**: todos los datos se recuperan de la caché de modelos. Este escenario proporcionará el rendimiento más rápido posible. Es común para las tablas de tipo dimensión consultadas mediante filtros u objetos visuales de segmentación de datos.
-- **Consultas de tablas duales o DirectQuery desde el mismo origen**: todos los datos se recuperan mediante el envío de una o varias consultas nativas al origen de DirectQuery. Este escenario proporcionará el rendimiento más rápido posible, especialmente cuando existan índices adecuados en las tablas de origen. Es común para las consultas que relacionan tablas duales de tipo dimensión y tablas DirectQuery de tipo de hechos. Estas consultas son _intrainsulares_, y así todas las relaciones de uno a uno o de uno a varios se evalúan como [relaciones fuertes](../transform-model/desktop-relationships-understand.md#strong-relationships).
-- **Todas las demás consultas**: estas consultas implican relaciones entre islas. O bien porque una tabla de importación se relaciona con una tabla DirectQuery o una tabla dual se relaciona con una tabla DirectQuery de un origen diferente, en cuyo caso se comporta como una tabla de importación. Todas las relaciones se evalúan como [relaciones débiles](../transform-model/desktop-relationships-understand.md#weak-relationships). También significa que las agrupaciones aplicadas a tablas que no son DirectQuery deben enviarse al origen de DirectQuery como una tabla virtual. En este caso, la consulta nativa puede ser ineficaz, en especial con conjuntos de agrupamiento grandes. Además, tiene la posibilidad de exponer datos confidenciales en la consulta nativa.
+- **Consultas de tablas duales o DirectQuery desde el mismo origen**: todos los datos se recuperan mediante el envío de una o varias consultas nativas al origen de DirectQuery. Este escenario proporcionará el rendimiento más rápido posible, especialmente cuando existan índices adecuados en las tablas de origen. Es común para las consultas que relacionan tablas duales de tipo dimensión y tablas DirectQuery de tipo de hechos. Estas consultas son _intraisla_ y, por tanto, todas las relaciones de uno a uno o de uno a varios se evalúan como [relaciones normales](../transform-model/desktop-relationships-understand.md#regular-relationships).
+- **Todas las demás consultas**: estas consultas implican relaciones entre islas. O bien porque una tabla de importación se relaciona con una tabla DirectQuery o una tabla dual se relaciona con una tabla DirectQuery de un origen diferente, en cuyo caso se comporta como una tabla de importación. Todas las relaciones se evalúan como [relaciones limitadas](../transform-model/desktop-relationships-understand.md#limited-relationships). También significa que las agrupaciones aplicadas a tablas que no son DirectQuery deben enviarse al origen de DirectQuery como una tabla virtual. En este caso, la consulta nativa puede ser ineficaz, en especial con conjuntos de agrupamiento grandes. Además, tiene la posibilidad de exponer datos confidenciales en la consulta nativa.
 
 En resumen, se recomienda que:
 
@@ -63,7 +63,7 @@ En resumen, se recomienda que:
 - Establezca el modo de almacenamiento en **DirectQuery** cuando una tabla sea una tabla de tipo de hechos que almacene grandes volúmenes de datos o necesite ofrecer resultados casi en tiempo real.
 - Establezca el modo de almacenamiento en **Dual** cuando una tabla sea una tabla de tipo dimensión, que se consultará junto con tablas **DirectQuery** de tipos de hechos basadas en el mismo origen.
 - Configure las frecuencias de actualización adecuadas para mantener sincronizada la caché de modelos de las tablas duales (y las tablas calculadas dependientes) con las bases de datos de origen.
-- Intente garantizar la integridad de los datos entre orígenes de datos (incluida la caché de modelos): las relaciones débiles eliminarán filas cuando los valores de columna relacionados no coincidan.
+- Intente garantizar la integridad de los datos entre orígenes de datos (incluida la caché de modelos): las relaciones limitadas eliminarán filas cuando los valores de columna relacionados no coincidan
 - Optimice los orígenes de datos de DirectQuery con los índices adecuados para conseguir combinaciones, filtrados y agrupaciones eficaces.
 - No cargue datos confidenciales en tablas de importación o duales si hay riesgo de que se intercepten consultas nativas. para más información, consulte [Uso de modelos compuestos en Power BI Desktop (implicaciones para la seguridad)](../transform-model/desktop-composite-models.md#security-implications).
 

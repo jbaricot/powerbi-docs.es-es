@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 385f7278f7fdd55ba76b1b559674040f6513924d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0caaf46956656c141992482ae39773d19e8fc550
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237274"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374159"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces"></a>Control del uso de conjuntos de datos entre áreas de trabajo
 
@@ -32,7 +32,7 @@ Si desactiva esta configuración, estos son los efectos en los creadores de info
 
 ## <a name="provide-a-link-for-the-certification-process"></a>Inclusión de un vínculo para el proceso de certificación
 
-Como administrador de inquilinos, puede proporcionar una dirección URL para el vínculo **Más información** en la página de configuración **Promoción**.  Este vínculo puede ir a la documentación sobre el proceso de certificación. Si no proporciona un destino para el vínculo **Más información**, de forma predeterminada apunta al artículo sobre [certificación del conjunto de datos](service-datasets-certify.md).
+Como administrador de Power BI, puede proporcionar una dirección URL para el vínculo **Más información** de la página de configuración **Aprobación**.  Este vínculo puede ir a la documentación sobre el proceso de certificación. Si no proporciona un destino para el vínculo **Más información**, de forma predeterminada apunta al artículo sobre [certificación del conjunto de datos](service-datasets-certify.md).
 
 ![Más información de la certificación del conjunto de datos](media/service-datasets-certify-promote/power-bi-dataset-learn-more-certification.png)
 

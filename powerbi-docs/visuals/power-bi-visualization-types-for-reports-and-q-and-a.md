@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2245861e37a67e023efde1e6fc7c68a551f2944
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 5e3b5687a9e955da53d816ab7297456b9721fab4
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83814023"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524912"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualización en Power BI
 ## <a name="power-bi-visualizations"></a>Visualizaciones de Power BI
@@ -133,7 +133,7 @@ Para más información, vea [Mapas de formas en Power BI](desktop-shape-map.md).
 
 
 ### <a name="matrix"></a>Matriz
-![matriz](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![Captura de pantalla del objeto visual de matriz](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
 >Una tabla admite dos dimensiones, pero una matriz hace que sea más fácil mostrar los datos de manera significativa en múltiples dimensiones, ya que admite un diseño escalonado. La matriz agrega automáticamente los datos y permite el rastreo desagrupando datos. 
@@ -232,7 +232,7 @@ Al escribir las consultas en lenguaje natural con Preguntas y respuestas de Powe
 
 "***ventas por estado en un gráfico de rectángulos***"
 
-Si el panel no tiene un campo de preguntas y respuestas, es posible que el administrador de inquilinos lo haya deshabilitado. 
+Si el panel no tiene un campo de preguntas y respuestas, es posible que el administrador de Power BI lo haya deshabilitado. 
 
 ![Cuadro de preguntas y respuestas que muestra el tipo de visualización especificado](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 

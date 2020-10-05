@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 25a0ddaaf72e185d795d819e8c2cb990d2823ed2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 99a8cf5081274f922d210a140d333814b80fd01f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229779"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527755"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Conexión a Project Web App con Power BI
 Microsoft Project Web App es una solución flexible en línea para la administración de cartera de proyectos (PPM) y el trabajo diario. Project Web App permite a las organizaciones dar el primer paso, priorizar las inversiones de la cartera de proyectos y ofrecer el valor empresarial previsto. La aplicación de plantilla Project Web App para Power BI permite desbloquear información de Project Web App para facilitar la administración de proyectos, carteras y recursos.
@@ -29,7 +29,7 @@ Conéctese a la [aplicación de plantilla de Project Web App](https://appsource.
 
 2. En el cuadro **Servicios** , seleccione **Obtener**.
    
-   ![AppSource](media/service-connect-to-project-online/AppSource.png)
+   ![Captura de pantalla en la que se muestra la ventana de AppSource con cinco aplicaciones disponibles.](media/service-connect-to-project-online/AppSource.png)
 3. En AppSource, seleccione la pestaña **Aplicaciones** y busque o seleccione **Microsoft Project Web App**.
    
 4. Recibirá un mensaje que dice: **¿Quiere instalar esta aplicación de Power BI?** ; seleccione **Instalar**. 

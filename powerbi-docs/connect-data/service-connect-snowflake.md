@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3ff8a504a9043c28d9064ad186005200165c232e
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 950868252bb1002a31cb0868308d2337e03d03e9
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485789"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375221"
 ---
 # <a name="connect-to-snowflake-in-power-bi-service"></a>Conexión a Snowflake en el servicio Power BI
 
@@ -38,7 +38,7 @@ Para habilitar el inicio de sesión único, un administrador global tiene que ac
 1. Seleccione **Configuración** en el menú de encabezado de la página y, luego, seleccione **Portal de administración**.
 1. Seleccione **Configuración de inquilinos** y desplácese hasta **Configuración de integración**.
 
-   ![Configuración del administrador de inquilinos para el SSO de Snowflake](media/service-connect-snowflake/snowflake-sso-tenant.png)
+   ![Configuración de inquilino para el SSO de Snowflake](media/service-connect-snowflake/snowflake-sso-tenant.png)
 
 4. Expanda **SSO de Snowflake**, cambie la configuración a **Habilitado** y seleccione **Aplicar**.
 

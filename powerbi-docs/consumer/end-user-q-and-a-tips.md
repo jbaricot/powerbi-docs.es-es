@@ -6,15 +6,15 @@ ms.reviewer: Mohammad.ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/23/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 8784de7e13932d8cd9c33d706a0c49d6f6cc024c
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9a8486a24ab7daa23e35f762c6830e400392963f
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537237"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375290"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Sugerencias para hacer preguntas con Preguntas y respuestas de Power BI
 
@@ -67,7 +67,7 @@ La siguiente lista usa el tiempo verbal presente, pero se reconocen todos los ti
 |  |  |
 |**Principales N**     |     (orden, clasificación): superior, inferior, primero, último, siguiente, más antiguo, más reciente, siguiente            |
 |        |         |
-|**Tipos de objeto visual**     |  todos los tipos de objeto visual nativos en Power BI.  Si es una opción en el panel Visualizaciones, puede incluirla en la pregunta.  La excepción a esta regla son los [objetos visuales de Power BI](../developer/visuals/power-bi-custom-visuals.md) que haya agregado manualmente al panel Visualización.  |
+|**Tipos de objeto visual**     |  todos los tipos de objeto visual nativos en Power BI.  Si es una opción en el panel Visualizaciones, puede incluirla en la pregunta.  La excepción a esta regla son los [objetos visuales personalizados de Power BI](../developer/visuals/power-bi-custom-visuals.md) que haya agregado manualmente al panel Visualización.  |
 |  |  Ejemplo: mostrar distritos por mes y el total de ventas como gráfico de barras               |
 |        |         |
 |**Qu (relación, calificado)**  | cuándo, dónde, qué, a quién, quién, cuántos, cuánto, cuántas veces, con qué frecuencia, importe, número, cantidad, cuánto tiempo, qué                |
