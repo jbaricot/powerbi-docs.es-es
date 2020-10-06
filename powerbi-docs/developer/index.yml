@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 57dbd3c64265ba532167db806d714054767bc506
-  ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
+  ms.openlocfilehash: a4ff9cfe0cb12dbbbd6df79a69f5637609957920
+  ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 06/16/2020
-  ms.locfileid: "84795056"
+  ms.lasthandoff: 10/06/2020
+  ms.locfileid: "91748503"
 highlightedContent:
   items:
   - title: Análisis integrado con Power BI
@@ -83,13 +83,13 @@ additionalContent:
   - items:
     - title: API de REST de Power BI
       summary: Las API de REST de Power BI proporcionan puntos de conexión de servicio para la inserción, la administración y los recursos de usuario.
-      url: https://docs.microsoft.com/rest/api/power-bi/
+      url: /rest/api/power-bi/
     - title: API de REST de Azure Resource Manager
       summary: API que proporciona un conjunto de servicios web compatibles con REST que le permiten crear, recuperar, actualizar y eliminar capacidades dedicadas de Power BI.
-      url: https://docs.microsoft.com/rest/api/power-bi-embedded/
+      url: /rest/api/power-bi-embedded/
     - title: Documentación de Power Platform
       summary: Obtenga información sobre cómo Power BI, Power Apps, Power Automate y Power Virtual Agents funcionan en conjunto para mejorarse entre sí.
-      url: https://docs.microsoft.com/power-platform/
+      url: /power-platform/
     - title: Centro para desarrolladores de Power BI
       summary: Cree con Power BI.
       url: https://powerbi.microsoft.com/developers/
