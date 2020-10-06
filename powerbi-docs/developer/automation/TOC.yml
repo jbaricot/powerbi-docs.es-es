@@ -2,10 +2,10 @@
   href: index.yml
   expanded: true
   items:
-    - name: Información general
+    - name: Introducción
       expanded: true
       items:
-        - name: ¿Qué puedo hacer con la API de Power BI?
+        - name: "¿Qué puedo hacer con la API de Power\_BI?"
           href: overview-of-power-bi-rest-api.md
     - name: Tutoriales
       expanded: true
@@ -39,16 +39,16 @@
     - name: Referencia
       items:
         - name: API de REST
-          href: 'https://docs.microsoft.com/rest/api/power-bi'
+          href: /rest/api/power-bi
         - name: Referencia de la API de REST de Power BI
           href: rest-api-reference.md
         - name: Lista de código completa
           href: walkthrough-push-data-complete-code.md
     - name: Recursos
       items:
-        - name: Centro para desarrolladores
+        - name: Centro de desarrollo
           href: 'https://powerbi.microsoft.com/en-us/developers/'
-        - name: 'Repositorio Git de Power BI C#'
+        - name: Repositorio Git de Power BI C#
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: Descarga de SDK de .NET
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'

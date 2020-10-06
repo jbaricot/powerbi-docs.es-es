@@ -12,14 +12,14 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 3f7bf1ebb51e7f9e5916e16280a2e10d7339df73
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: d66f11bdbb9de10f77b7841958d9ef08c358ef7e
+  ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80516270"
+  ms.lasthandoff: 10/06/2020
+  ms.locfileid: "91746043"
 landingContent:
-- title: Comenzar
+- title: Introducción
   linkLists:
   - linkListType: get-started
     links:
@@ -53,14 +53,14 @@ landingContent:
     links:
     - text: Capacidad y SKU
       url: embedded-capacity.md
-    - text: Planeamiento de capacidad
+    - text: Planificación de capacidad
       url: embedded-capacity-planning.md
   - linkListType: concept
     links:
     - text: Procedimientos recomendados de rendimiento
       url: embedded-performance-best-practices.md
     - text: Permisos de Power BI
-      url: power-bi-permissions.md
+      url: /azure/active-directory/develop/v2-permissions-and-consent
     - text: Preguntas y respuestas
       url: qanda.md
     - text: Solución de problemas de una aplicación insertada
@@ -70,9 +70,9 @@ landingContent:
   - linkListType: reference
     links:
     - text: API REST de Power BI
-      url: https://docs.microsoft.com/rest/api/power-bi/
+      url: /rest/api/power-bi/
     - text: Referencia de la API de REST de Power BI
-      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+      url: ../automation/rest-api-reference.md
     - text: Centro para desarrolladores
       url: https://powerbi.microsoft.com/developers/
     - text: Bibliotecas de Power BI
