@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5e3b5687a9e955da53d816ab7297456b9721fab4
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: e2ad8867117977cb7f53fbd295a2f560d65b0d76
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524912"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600520"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualización en Power BI
 ## <a name="power-bi-visualizations"></a>Visualizaciones de Power BI
@@ -113,7 +113,7 @@ Para obtener más información, consulte [Sugerencias y trucos para las visualiz
 ### <a name="maps-arcgis-maps"></a>Mapas: Mapas de ArcGIS
 ![mapa de ArcGIS](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-Para más información, vea [Mapas de ArcGIS en Power BI](power-bi-visualization-arcgis.md).
+Para más información, vea [Mapas de ArcGIS en Power BI](power-bi-visualizations-arcgis.md).
 
 ### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas coropléticos
 ![mapa coroplético](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)

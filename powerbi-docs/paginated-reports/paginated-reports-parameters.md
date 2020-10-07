@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: 3a755b2b4eeba407178d7afa0a0250b6897e6dac
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: aa4df6db3058ef3d6f8c399e1bf20f0edf17ebc8
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526361"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600499"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Creación de parámetros de informes paginados en el servicio Power BI
 
@@ -62,11 +62,6 @@ La siguiente ilustración muestra la vista de diseño del Generador de informes 
   
 9. Seleccione **Aceptar**. 
 
-## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-
-- Si usa un conjunto de datos de Power BI o un modelo de Analysis Services como origen de datos, no puede pasar más de 1000 valores de parámetro en una sola solicitud. DAX limita los parámetros a 1000 valores. 
-
- 
 ## <a name="next-steps"></a>Pasos siguientes
 
 Consulte [Ver los parámetros para los informes paginados](../consumer/paginated-reports-view-parameters.md) para ver el aspecto de los parámetros en el servicio Power BI.

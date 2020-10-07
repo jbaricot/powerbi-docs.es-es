@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 74dbd1207a39f44f761c5068af41db1f40acabe3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f6bcd67d41f2c04cedd7c66eb5989f2a6919b030
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222671"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598664"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>Creación de un informe en una lista de SharePoint
 
@@ -30,7 +30,7 @@ Vea este vídeo del tutorial de cinco minutos o desplácese hacia abajo para obt
 2. Abra Power BI Desktop y, en la pestaña Inicio de la cinta, seleccione **Obtener datos** > **Más**.
 3. Seleccione **Servicios en línea** y, después, **Lista de SharePoint Online**.  
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="get data" width="350"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="Screenshot shows the Get Data dialog box with Online Services selected." width="350"/>
 
 4. Seleccione **Conectar**.
 4. Busque la dirección (también conocida como dirección URL) del sitio de SharePoint Online que contenga la lista.  Desde una página de SharePoint Online, normalmente puede obtener la dirección del sitio en **Inicio**, en el panel de navegación (o el icono del sitio en la parte superior) y, después, copiar la dirección de la barra de direcciones del explorador web.
@@ -52,7 +52,7 @@ Vea este vídeo del tutorial de cinco minutos o desplácese hacia abajo para obt
 
 9. En el lado izquierdo del navegador, active la casilla situada junto a la lista de SharePoint a la que se quiere conectar.
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="get data" width="450"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="Screenshot shows the Navigator page with BudgetRequests selected." width="450"/>
 
 10. Seleccione **Cargar**.  Power BI carga los datos de la lista en un informe nuevo.
 

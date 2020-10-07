@@ -10,12 +10,12 @@ ms.date: 09/25/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ae904f203c3f5b9437fd01b9306cc160e6feff1b
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 62c463972d4811bac0c5400da96a88264273a873
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375267"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600278"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -393,7 +393,7 @@ Los usuarios de la organización pueden utilizar Excel para ver e interactuar co
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>Usar ArcGIS Maps for Power BI
 
-Los usuarios de la organización pueden usar la visualización de ArcGIS Maps for Power BI proporcionada por Esri. [Más información](../visuals/power-bi-visualization-arcgis.md)
+Los usuarios de la organización pueden usar la visualización de ArcGIS Maps for Power BI proporcionada por Esri. [Más información](../visuals/power-bi-visualizations-arcgis.md)
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Usar la búsqueda global para Power BI (versión preliminar)
 

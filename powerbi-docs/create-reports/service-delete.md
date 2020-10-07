@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: ff31548801f372fa1e20949e5c109cc9214f55e1
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: b2263a1eddfdbc51f0e345443f7bbb75b11da6e7
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264489"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632741"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminar prácticamente cualquier cosa en el servicio Power BI
 Este artículo le enseña a eliminar un panel, un informe, un libro, un conjunto de datos, una aplicación, una visualización y un área de trabajo en el servicio Power BI.
@@ -28,7 +28,7 @@ Los paneles se pueden quitar. Al quitar el panel, no se eliminan el conjunto de 
 
 ### <a name="to-delete-a-dashboard"></a>Para eliminar un panel
 1. En el área de trabajo, seleccione la pestaña **Paneles**.
-2. Busque el panel que quiere eliminar y seleccione el icono de Eliminar ![icono de Eliminar](media/service-delete/power-bi-delete-icon.png).
+2. Busque el panel que desea eliminar y seleccione el icono Eliminar :::image type="icon" source="media/service-delete/power-bi-delete-icon.png" border="false":::.
 
     ![Vídeo](media/service-delete/power-bi-delete-dash.gif)
 
@@ -37,7 +37,7 @@ No se preocupe, la eliminación de un informe no elimina el conjunto de datos en
 
 ### <a name="to-delete-a-report"></a>Para eliminar un informe
 1. En el área de trabajo, seleccione la pestaña **Informes**.
-2. Busque el informe que quiere eliminar y seleccione el icono de Eliminar   ![icono de Eliminar](media/service-delete/power-bi-delete-icon.png).   
+2. Busque el informe que desea eliminar y seleccione el icono Eliminar :::image type="icon" source="media/service-delete/power-bi-delete-icon.png" border="false":::.   
 
     ![Pestaña Informes de área de trabajo](media/service-delete/power-bi-delete-reportnew.png)
 3. Confirme la eliminación.
@@ -56,7 +56,7 @@ Si el libro está almacenado en OneDrive para la Empresa, al eliminarlo de Power
 
 ### <a name="to-delete-a-workbook"></a>Para eliminar un libro
 1. En el área de trabajo, seleccione la pestaña **Libros**.
-2. Busque el libro que quiere eliminar y seleccione el icono de Eliminar ![icono de Eliminar](media/service-delete/power-bi-delete-report2.png) .
+2. Busque el libro que desea eliminar y seleccione el icono Eliminar :::image type="icon" source="media/service-delete/power-bi-delete-report2.png" border="false":::.
 
     ![Pestaña Libros](media/service-delete/power-bi-delete-workbooknew.png)
 3. Confirme la eliminación.
@@ -111,7 +111,7 @@ Si ya no desea ser miembro de un área de trabajo, puede ***abandonarla*** y se 
 
 2. En la esquina superior derecha, seleccione **Más opciones** (...) y elija **Abandonar área de trabajo** > **Abandonar**.
 
-      ![Abandonar área de trabajo](media/service-delete/power-bi-leave-workspace.png)
+      :::image type="icon" source="media/service-delete/power-bi-leave-workspace.png" border="false":::
 
    > [!NOTE]
    > Las opciones que ve en la lista desplegable dependen de si es administrador o miembro de esa área de trabajo.
@@ -125,7 +125,7 @@ Las aplicaciones se pueden quitar fácilmente de la página con la lista de apli
 Al eliminarse una aplicación de la página con la lista de aplicaciones, no se elimina para los demás miembros.
 
 1. En el panel de navegación, seleccione **Aplicaciones** para abrir la página con la lista de aplicaciones.
-2. Mantenga el puntero sobre la aplicación que quiera eliminar y seleccione el icono Eliminar ![Icono Papelera](media/service-delete/power-bi-delete-report2.png)  .
+2. Mantenga el puntero sobre la aplicación que desea eliminar y seleccione el icono Eliminar :::image type="icon" source="media/service-delete/power-bi-delete-report2.png" border="false":::.
 
    ![Selección de aplicaciones](media/service-delete/power-bi-delete-app.png)
 

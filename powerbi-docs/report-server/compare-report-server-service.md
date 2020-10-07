@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 07/28/2020
-ms.openlocfilehash: 18629f38db7d8b88c47d4a1af3a5c3f6512433b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 02d5b30f4e3f769e3c20cc7faa8b051e8114e5c5
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859161"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599965"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparación de Power BI Report Server y el servicio Power BI
 
@@ -43,7 +43,7 @@ Power BI Report Server y el servicio Power BI tienen muchas similitudes y alguna
 | Analizar en Excel | No | Sí | [Analizar en Excel](../collaborate-share/service-analyze-in-excel.md) 
 | Informes paginados | Sí | Sí | Los [informes paginados están disponibles en el servicio Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md), en la versión preliminar en una capacidad Premium. |
 | Aplicaciones móviles de Power BI | Sí | Sí | [Información general sobre aplicaciones móviles de Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
-| Mapas de ArcGIS | No | Sí | [Tutorial de mapas de ArcGIS de Esri en el servicio Power BI y Power BI Desktop](../visuals/power-bi-visualization-arcgis.md) |
+| Mapas de ArcGIS | No | Sí | [Tutorial de mapas de ArcGIS de Esri en el servicio Power BI y Power BI Desktop](../visuals/power-bi-visualizations-arcgis.md) |
 | Suscripciones de correo electrónico para los informes de Power BI | No | Sí | [Suscripción personal o de otros usuarios](../collaborate-share/service-report-subscribe.md) a un informe o panel en el servicio Power BI |
 | Suscripciones de correo electrónico para informes paginados | Sí | Sí | [Suscripción personal y de otros usuarios a informes paginados en el servicio Power BI](../consumer/paginated-reports-subscriptions.md)<br><br>[Entrega de correo electrónico en Reporting Services](/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | Alertas de datos | No | Sí | [Alertas de datos](../create-reports/service-set-data-alerts.md) en el servicio Power BI
