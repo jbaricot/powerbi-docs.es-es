@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 6b0b2ae2ca98b7dd3b9940319fc68a7effba4782
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 56a181da60e2a20c08a8c03dd826276d350ec81f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349779"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635203"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Paseo por el editor de informes de Power BI
 
@@ -122,9 +122,14 @@ Con el panel de análisis del servicio Power BI, puede agregar líneas de refere
 ## <a name="5-the-fields-pane"></a>5. El panel Campos
 En el panel Campos se muestran las tablas, las carpetas y los campos de los datos que están disponibles para su uso con el fin de crear visualizaciones.
 
-|  |  |
-| --- | --- |
-| ![El panel Campos](media/service-the-report-editor-take-a-tour/power-bi-fields-list.png) |<ul><li>Arrastre un campo a la página para iniciar una nueva visualización.  También puede arrastrar un campo a una visualización existente para agregar el campo a esa visualización.<br><br></li> <li>Cuando se agrega una marca de verificación junto a un campo, Power BI agrega ese campo a la visualización activa (o nueva). Y también decide en qué cubo se va a colocar ese campo.  Por ejemplo, ¿el campo debe usarse como leyenda, eje o valor? Power BI realiza una mejor estimación y podrá moverlo desde ese cubo a otro si es necesario. <br><br></li><li>En cualquier caso, cada campo seleccionado se agrega al panel Visualizaciones en el editor de informes.</li></ul> |
+:::row:::
+    :::column:::
+        ![El panel Campos](media/service-the-report-editor-take-a-tour/power-bi-fields-list.png)
+    :::column-end:::
+    :::column:::
+        <ul><li>Arrastre un campo a la página para iniciar una nueva visualización.  También puede arrastrar un campo a una visualización existente para agregar el campo a esa visualización.<br><br></li> <li>Cuando se agrega una marca de verificación junto a un campo, Power BI agrega ese campo a la visualización activa (o nueva). Y también decide en qué cubo se va a colocar ese campo.  Por ejemplo, ¿el campo debe usarse como leyenda, eje o valor? Power BI realiza una mejor estimación y podrá moverlo desde ese cubo a otro si es necesario. <br><br></li><li>En cualquier caso, cada campo seleccionado se agrega al panel Visualizaciones en el editor de informes.</li></ul>
+    :::column-end:::
+:::row-end:::
 
 En Power BI Desktop, también tiene opciones para mostrar u ocultar campos, agregar cálculos, etc.
 

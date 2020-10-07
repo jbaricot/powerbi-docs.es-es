@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160381"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746134"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportación de un informe de Power BI a un archivo (versión preliminar)
 
@@ -22,7 +22,7 @@ La API `exportToFile` permite exportar un informe de Power BI mediante una llama
 * **.png**
     * Al exportar a un archivo .png, un informe de varias páginas se comprime en un archivo ZIP.
     * Cada archivo del archivo ZIP representa una página del informe
-    * Los nombres de página son los mismos que los valores devueltos de las API [Obtener páginas](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) u [Obtener páginas en grupo](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup)
+    * Los nombres de página son los mismos que los valores devueltos de las API [Obtener páginas](/rest/api/power-bi/reports/getpages) u [Obtener páginas en grupo](/rest/api/power-bi/reports/getpagesingroup)
 
 ## <a name="usage-examples"></a>Ejemplos de uso
 
@@ -38,17 +38,17 @@ Antes de usar la API, compruebe que las siguientes [configuraciones de inquilino
 * **Exportación de informes como presentaciones de PowerPoint o documentos PDF**: habilitada de forma predeterminada.
 * **Exportación de informes como archivos de imagen**: se requiere solo para *.png* y está deshabilitada de forma predeterminada.
 
-La API es asincrónica. Cuando se llama a la API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile), se desencadena un trabajo de exportación. Después de activar un trabajo de exportación, use el [sondeo](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) para realizar un seguimiento del trabajo, hasta que se complete.
+La API es asincrónica. Cuando se llama a la API [exportToFile](/rest/api/power-bi/reports/exporttofile), se desencadena un trabajo de exportación. Después de activar un trabajo de exportación, use el [sondeo](/rest/api/power-bi/reports/getexporttofilestatus) para realizar un seguimiento del trabajo, hasta que se complete.
 
 Durante el sondeo, la API devuelve un número que representa la cantidad de trabajo completado. El trabajo en cada trabajo de exportación se calcula en función del número de páginas que tiene el informe. Todas las páginas tienen el mismo peso. Si, por ejemplo, está exportando un informe con diez páginas, y el sondeo devuelve setenta, significa que la API ha procesado siete de las diez páginas en el trabajo de exportación.
 
-Cuando se completa la exportación, la llamada API de sondeo devuelve una [dirección URL de Power BI](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile) para obtener el archivo. La dirección URL estará disponible durante veinticuatro horas.
+Cuando se completa la exportación, la llamada API de sondeo devuelve una [dirección URL de Power BI](/rest/api/power-bi/reports/getfileofexporttofile) para obtener el archivo. La dirección URL estará disponible durante veinticuatro horas.
 
 ## <a name="supported-features"></a>Características admitidas
 
 ### <a name="selecting-which-pages-to-print"></a>Selección de páginas para imprimir
 
-Especifique las páginas que desea imprimir conforme al valor devuelto de [Obtener páginas](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) u [Obtener páginas en grupo](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup). También puede especificar el orden de las páginas que está exportando.
+Especifique las páginas que desea imprimir conforme al valor devuelto de [Obtener páginas](/rest/api/power-bi/reports/getpages) u [Obtener páginas en grupo](/rest/api/power-bi/reports/getpagesingroup). También puede especificar el orden de las páginas que está exportando.
 
 ### <a name="bookmarks"></a>Marcadores
 

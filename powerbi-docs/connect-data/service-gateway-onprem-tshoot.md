@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6dc42a5feb13b344a0e5d4d7c8880d1f5388a1ef
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375198"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634652"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Solución de problemas de puertas de enlace: Power BI
 
@@ -34,7 +34,9 @@ Cuando finalice la configuración, se vuelve a llamar al servicio Power BI para 
 
 En **Mostrar detalles**, se muestra el mensaje de error recibido desde el origen de datos. En el caso de SQL Server, verá un mensaje como el siguiente:
 
-    Login failed for user 'username'.
+```output
+Login failed for user 'username'.
+```
 
 Compruebe que tenga el nombre de usuario y la contraseña correctos. Además, compruebe que esas credenciales puedan conectarse correctamente con el origen de datos. Asegúrese de que la cuenta que se usa coincide con el método de autenticación.
 
@@ -44,7 +46,9 @@ Pudo conectarse al servidor, pero no a la base de datos proporcionada. Compruebe
 
 En **Mostrar detalles**, se muestra el mensaje de error recibido desde el origen de datos. En el caso de SQL Server, se ve algo parecido a lo siguiente:
 
-    Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```output
+Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```
 
 ### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Error: No se puede conectar. Detalles: "Error desconocido en la puerta de enlace de datos"
 
@@ -62,11 +66,15 @@ En **Mostrar detalles**, puede ver el código de error **DM_GWPipeline_Gateway_D
 
 Si el mensaje de error subyacente es similar al siguiente, significa que la cuenta que usa para el origen de datos no es un administrador del servidor para esa instancia de Analysis Services. Para más información, consulte [Concesión de derechos de administrador de servidor a una instancia de Analysis Services](/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance).
 
-    The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```output
+The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```
 
 Si el mensaje de error subyacente es similar al siguiente, podría significar que en la cuenta de servicio para Analysis Services es posible que falte el atributo de directorio [token-groups-global-and-universal](/windows/win32/adschema/a-tokengroupsglobalanduniversal) (TGGAU).
 
-    The username or password is incorrect.
+```output
+The username or password is incorrect.
+```
 
 Los dominios con acceso de compatibilidad de versiones anteriores a Windows 2000 tienen el atributo TGGAU habilitado. Los dominios creados más recientemente no permiten este atributo de forma predeterminada. Para más información, consulte [Algunas aplicaciones y API requieren acceso a información de autorización en los objetos de cuenta](https://support.microsoft.com/kb/331951).
 
@@ -75,13 +83,17 @@ Para confirmar si el atributo está habilitado, siga estos pasos.
 1. Conéctese con el equipo de Analysis Services en SQL Server Management Studio. En las propiedades avanzadas de conexión, incluya EffectiveUserName para el usuario en cuestión y compruebe si esta adición reproduce el error.
 2. Puede usar la herramienta dsacls de Active Directory para comprobar si se muestra el atributo. Esta herramienta se encuentra en un controlador de dominio. Debe saber cuál es el nombre de dominio distintivo de la cuenta y pasar dicho nombre a la herramienta.
 
-        dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```console
+   dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```
 
     En los resultados querrá ver algo parecido a lo siguiente:
 
-            Allow BUILTIN\Windows Authorization Access Group
-                                          SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
-                                          READ PROPERTY
+   ```console
+   Allow BUILTIN\Windows Authorization Access Group
+                                   SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
+                                   READ PROPERTY
+   ```
 
 Para corregir este problema, debe habilitar TGGAU en la cuenta usada para el servicio de Windows de Analysis Services.
 
@@ -139,7 +151,9 @@ Para confirmar el nombre de usuario efectivo, siga estos pasos.
 1. Busque el nombre de usuario efectivo en los [registros de puerta de enlace](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app).
 2. Después de obtener el valor que se pasa, compruebe que es correcto. Si es su usuario, puede utilizar el siguiente comando desde un símbolo del sistema para ver el UPN. Su aspecto es parecido a una dirección de correo electrónico.
 
-        whoami /upn
+   ```console
+   whoami /upn
+   ```
 
 También puede ver qué obtiene Power BI de Azure Active Directory.
 
@@ -147,7 +161,10 @@ También puede ver qué obtiene Power BI de Azure Active Directory.
 2. Seleccione **Iniciar sesión** en la esquina superior derecha.
 3. Ejecute la siguiente consulta. Verá una respuesta JSON bastante grande.
 
-        https://graph.windows.net/me?api-version=1.5
+   ```http
+   https://graph.windows.net/me?api-version=1.5
+   ```
+
 4. Busque **userPrincipalName**.
 
 Si el UPN de Azure Active Directory no coincide con el UPN local de Active Directory, puede usar la característica [Asignar nombres de usuario](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources) para cambiarlo por un valor válido. O bien, puede ponerse en contacto con el administrador de Power BI o el administrador de Active Directory local para que cambie el UPN.

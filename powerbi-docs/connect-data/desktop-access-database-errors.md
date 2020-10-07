@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f27bfb97d175c962d6eaf281ac061fdc60765781
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6d3279a8fa8421dbe466d7d165e1cb3d96ab926f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225098"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634766"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Solución de problemas al importar archivos .xls de Excel y Access en Power BI Desktop
 
@@ -74,10 +74,12 @@ Para instalar ambas versiones de bits del motor de base de datos de Access, siga
 1. Instale ambas versiones de bits del motor de base de datos de Access desde la [página de descarga](https://www.microsoft.com/download/details.aspx?id=13255). 
 
 1. Ejecute cada versión del motor de base de datos de Access con el modificador */passive*. Por ejemplo:
-   
-       c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
-   
-       c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
+
+   ```console
+   c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
+
+   c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
+   ```
 
 ## <a name="situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription"></a>Situación 3: Problemas para usar archivos de Access o .XLS con una suscripción de Microsoft 365
 

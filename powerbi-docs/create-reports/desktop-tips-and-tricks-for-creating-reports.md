@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 336dbad3ac77fb333b52cd3f4c4c0b104573314a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953016"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633547"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugerencias y trucos para crear informes en Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado. 
@@ -44,7 +44,9 @@ Tomemos como ejemplo una sencilla tabla de temperaturas con la hora a la que se 
 ## <a name="reference-lines-in-your-report"></a>Líneas de referencia del informe
 Puede usar una columna calculada en Power BI Desktop para definir una línea de referencia. Identifique la tabla y la columna en las que desea crear una línea de referencia. Seleccione "Nueva columna" en la cinta de opciones y, en la barra de fórmulas, escriba la fórmula siguiente:
 
-    Target Value = 100
+```console
+Target Value = 100
+```
 
 Esta columna calculada devolverá el valor 100 independientemente de dónde se use. La nueva columna aparecerá en la lista de campos. Agregue la columna calculada del valor de destino a un gráfico de líneas para mostrar cómo se relacionan las series a dicha línea de referencia específica. 
 
@@ -66,7 +68,9 @@ Otra forma de asegurarse de que los campos estén correctamente codificados geog
 ## <a name="better-geocoding-with-more-specific-locations"></a>Mejora de la codificación geográfica con ubicaciones más específicas
 A veces, incluso el establecimiento de las categorías de datos de mapas no es suficiente. Con el Editor de consultas de Power BI Desktop, cree una ubicación más específica como, por ejemplo, una dirección postal. Use la característica Agregar columnas para crear una columna personalizada. A continuación, cree la ubicación deseada como se muestra a continuación: 
 
-    = [Field1] & " " & [Field2]
+```console
+= [Field1] & " " & [Field2]
+```
 
 A continuación, use este campo resultante en las visualizaciones de mapa. Esto resulta muy útil para crear direcciones postales a partir de los campos de dirección de envío que son comunes en los conjuntos de datos. Hay que tener en cuenta que la concatenación solo funciona con campos de texto. Si es necesario, convierta el número de la calle a un tipo de datos de texto antes de usarlo para crear una dirección.
 
@@ -77,11 +81,13 @@ Histogramas más sencillos: determine qué consulta tiene el campo a partir del 
 
 Definición de cubos para crear histogramas: determine qué consulta tiene el campo a partir del cual desea generar un histograma. Use la opción "Referencia" para que la consulta cree una nueva consulta y asígnele el nombre "FieldName". Defina los cubos con una regla. Use la opción Agregar columnas personalizadas de la cinta de opciones Agregar columna y cree una regla personalizada. Esta podría ser una regla de creación de cubos sencilla:
 
-    if([FieldName] \< 2) then "\<2 min" else
-    if([FieldName] \< 5) then "\<5 min" else
-    if([FieldName] \< 10) then "\<10 min" else
-    if([FieldName] \< 30) then "\<30 min" else
-    "longer")
+```console
+if([FieldName] \< 2) then "\<2 min" else
+if([FieldName] \< 5) then "\<5 min" else
+if([FieldName] \< 10) then "\<10 min" else
+if([FieldName] \< 30) then "\<30 min" else
+"longer")
+```
 
 Asegúrese de que el tipo de datos es un número para la columna agregada resultante. Ahora puede usar el grupo mediante la técnica descrita en la sección Histogramas más sencillos obtener el histograma. Esta opción controla más puntos de datos, pero todavía no ayuda con los gráficos.
 

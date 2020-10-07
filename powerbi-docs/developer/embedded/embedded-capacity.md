@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 762cc2d3d170f5418616da46806f8a445490ee8d
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813632"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635226"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capacidad y SKU de los análisis incrustados de Power BI
 
@@ -68,10 +68,9 @@ En la tabla que aparece a continuación se proporciona un resumen de las caracte
 
 En esta tabla, una aplicación personalizada hace referencia a una aplicación web creada mediante el análisis insertado. Al hacer la inserción en una aplicación web personalizada como desarrollador (mediante los SDK de JavaScript o .NET o las API REST), tiene la capacidad de controlar y personalizar la experiencia de usuario. Esta capacidad no está disponible cuando se usan otras opciones de inserción, como el servicio Power BI y Power BI Mobile.
 
-
-|         |         |         |
-|---------|---------|---------|
-|**Escenario**</br><p></p>|**Azure**</br>(SKU A)|**Office**</br>(SKU de P y EM)|
+| Escenario | Azure   | Office          |
+|----------|---------|-----------------|
+|          | (SKU A) | (SKU de P y EM) |
 |[Insertar para los clientes](embed-sample-for-customers.md)</br>(datos en posesión de la aplicación)     |✔        |✔        |
 |[Insertar para la organización](embed-sample-for-your-organization.md)</br>(datos en posesión del usuario)     |✖        |✔         |
 |Aplicaciones de Microsoft 365</br>(antes conocidas como aplicaciones de Office 365)<ul><li>[Insertar en Teams](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[Insertar en SharePoint](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |

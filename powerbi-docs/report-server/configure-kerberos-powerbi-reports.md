@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: b60c56e7b8dfde9c46a784c5f57ca07ca9ca3fa0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4890cf864334951982a8b6d7acc8fc8338016d6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859184"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634973"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Configuración de Kerberos para el uso de informes de Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -29,13 +29,17 @@ En concreto, deberá configurar una delegación restringida. Es posible que teng
 ## <a name="error-running-report"></a>Error al ejecutar informe
 Si el servidor de informes no está configurado correctamente, puede recibir el siguiente error.
 
-    Something went wrong.
+```output
+Something went wrong.
 
-    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+```
 
 En los detalles técnicos, verá este mensaje de error.
 
-    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```output
+We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```
 
 ![Captura de pantalla de los informes de Power BI en la que se muestra el mensaje de error relacionado con los problemas de conexión con el servidor de Analysis Services.](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
  
@@ -91,7 +95,9 @@ Si el servidor de informes está configurado para usar una cuenta de usuario de 
 
 Se recomienda crear dos SPN. Uno con el nombre de NetBIOS y el otro con el nombre de dominio completo (FQDN). El SPN debe tener el formato siguiente.
 
-    <Service>/<Host>:<port>
+```console
+<Service>/<Host>:<port>
+```
 
 El servidor de informes de Power BI usará un servicio de HTTP. Para los SPN de HTTP no mostrará ningún puerto. El servicio que le interesa aquí es HTTP. El host del SPN será el nombre que utiliza en una dirección URL. Suele ser el nombre del equipo. Si está detrás de un equilibrador de carga, puede ser un nombre virtual.
 
@@ -119,13 +125,17 @@ Se puede utilizar la herramienta SetSPN para agregar el SPN. Se sigue el mismo e
 
 Al colocar el SPN en una cuenta de equipo, tanto para el SPN de FQDN como para el de NetBIOS, tendría un aspecto similar al siguiente si utilizara una dirección URL virtual de contosoreports.
 
-      Setspn -a HTTP/contosoreports.contoso.com ContosoRS
-      Setspn -a HTTP/contosoreports ContosoRS
+```console
+Setspn -a HTTP/contosoreports.contoso.com ContosoRS
+Setspn -a HTTP/contosoreports ContosoRS
+```
 
 Al colocar el SPN en una cuenta de usuario de dominio, tanto para el SPN de FQDN como para el de NetBIOS, tendría un aspecto similar al siguiente si utilizara el nombre de equipo para el host del SPN.
 
-      Setspn -a HTTP/ContosoRS.contoso.com RSService
-      Setspn -a HTTP/ContosoRS RSService
+```console
+Setspn -a HTTP/ContosoRS.contoso.com RSService
+Setspn -a HTTP/ContosoRS RSService
+```
 
 ## <a name="spns-for-the-analysis-services-service"></a>SPN para el servicio Analysis Services
 Los SPN para Analysis Services son similares a lo que se ha hecho con el servidor de informes de Power BI. El formato del SPN es un poco distinto si tiene una instancia con nombre.
@@ -146,13 +156,17 @@ Se puede utilizar la herramienta SetSPN para agregar el SPN. En este ejemplo, el
 
 Al colocar el SPN en una cuenta de equipo, tanto para el SPN de FQDN como para el de NetBIOS, tendría un aspecto similar al siguiente.
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```
 
 Al colocar el SPN en una cuenta de usuario de dominio, tanto para el SPN de FQDN como para el de NetBIOS, tendría un aspecto similar al siguiente.
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
-    Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
+Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```
 
 ## <a name="spns-for-the-sql-browser-service"></a>SPN para el servicio SQL Browser
 Si tiene una instancia con nombre de Analysis Services, debe asegurarse de que tiene un SPN para el servicio de explorador. Se trata de algo exclusivo para Analysis Services.
@@ -164,8 +178,10 @@ No es necesario especificar nada en el nombre de la instancia o el puerto.
 
 Un ejemplo de un SPN de Analysis Services tendría un aspecto similar al siguiente.
 
-    MSOLAPDisco.3/ContosoAS.contoso.com
-    MSOLAPDisco.3/ContosoAS
+```console
+MSOLAPDisco.3/ContosoAS.contoso.com
+MSOLAPDisco.3/ContosoAS
+```
 
 La colocación del SPN también es similar a lo que se mencionó con el servidor de informes de Power BI. La diferencia es que SQL Browser siempre se ejecuta en la cuenta de sistema local. Esto significa que los SPN siempre se colocarán en la cuenta de equipo. 
 
@@ -174,8 +190,10 @@ Se puede utilizar la herramienta SetSPN para agregar el SPN. En este ejemplo, el
 
 Al colocar el SPN en la cuenta de equipo, tanto para el SPN de FQDN como para el de NetBIOS, tendría un aspecto similar al siguiente.
 
-    Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```
 
 Para más información, consulte [Se requiere un SPN para el servicio SQL Server Browser](https://support.microsoft.com/kb/950599).
 

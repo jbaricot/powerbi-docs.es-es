@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
-ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
+ms.openlocfilehash: 52593cbcbdc0a67709735a06eca493fefb18e1a0
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86301008"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633708"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserción de informes en un sitio web o portal seguro
 
@@ -60,10 +60,10 @@ Para ver el informe insertado, los usuarios necesitan tener una licencia de Powe
 
 Puede personalizar la experiencia del usuario mediante la configuración de entrada de la URL de inserción. En el iFrame especificado, puede actualizar la configuración de **src** de la URL.
 
-| Propiedad  | Descripción  |  |  |  |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | Puede usar el parámetro de cadena de consulta **pageName** para establecer la página en la que se abrirá el informe. Este valor aparece al final de la dirección URL de un informe al visualizarlo en el servicio Power BI, como se muestra a continuación. |  |  |  |
-| Filtros de direcciones URL  | Puede usar [filtros de direcciones URL](service-url-filters.md) en la dirección URL de inserción que ha recibido de la interfaz de usuario de Power BI para filtrar el contenido de la inserción. De este modo, puede compilar integraciones de código reducido con una experiencia básica de HTML y JavaScript.  |  |  |  |
+| Propiedad  | Descripción  |
+|-----------|--------------|
+| pageName  | Puede usar el parámetro de cadena de consulta **pageName** para establecer la página en la que se abrirá el informe. Este valor aparece al final de la dirección URL de un informe al visualizarlo en el servicio Power BI, como se muestra a continuación. |
+| Filtros de direcciones URL  | Puede usar [filtros de direcciones URL](service-url-filters.md) en la dirección URL de inserción que ha recibido de la interfaz de usuario de Power BI para filtrar el contenido de la inserción. De este modo, puede compilar integraciones de código reducido con una experiencia básica de HTML y JavaScript.  |
 
 ## <a name="set-which-page-opens-for-an-embedded-report"></a>Configuración de la página en que se abrirá un informe insertado 
 

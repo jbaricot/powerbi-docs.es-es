@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e8f1c143f65b1974364a8a1c9c55e132a4131c4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c4cf0c4fbdde52181dbc5307a9d97d17344c7c26
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857045"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632857"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configuración de cargas de trabajo en una capacidad Premium
 
@@ -24,13 +24,12 @@ En este artículo se describe cómo habilitar y configurar las cargas de trabajo
 
 Las cargas de trabajo de consulta están optimizadas y limitadas en función de los recursos determinados por la SKU de la capacidad Premium. Las capacidades Premium también admiten cargas de trabajo adicionales que pueden usar recursos de su capacidad. Los valores de memoria predeterminados para estas cargas de trabajo se basan en los nodos de capacidad disponibles para su SKU. Estos valores de memoria máxima no son acumulativos. La memoria, hasta el valor máximo especificado, se asigna dinámicamente para AI y flujos de datos, pero estáticamente para informes paginados.
 
-|                   | EM1/A1                  | EM2/A2                  | EM3/A3                  | P1/A4                  | P2/A5                  | P3/A6                   |
-|-------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|
-| INTELIGENCIA ARTIFICIAL                | No compatible               | 40 % predeterminado; 40 % mínimo  | 20 % predeterminado; 20 % mínimo  | 20 % predeterminado; 8 % mínimo  | 20 % predeterminado; 4 % mínimo  | 20 % predeterminado; 2 % mínimo   |
-| Conjuntos de datos          | 100 % predeterminado; 67 % mínimo | 100 % predeterminado; 40 % mínimo | 100 % predeterminado; 20 % mínimo | 100 % predeterminado; 8 % mínimo | 100 % predeterminado; 4 % mínimo | 100 % predeterminado; 2 % mínimo  |
-| Flujos de datos         | 40 % predeterminado; 40 % mínimo  | 24 % predeterminado; 24 % mínimo  | 20 % predeterminado; 12 % mínimo  | 20 % predeterminado; 5 % mínimo  | 20 % predeterminado; 3 % mínimo  | 20 % predeterminado; 2 % mínimo   |
-| Informes paginados | No compatible               | No compatible               | No compatible               | 20 % predeterminado; 10 % mínimo | 20 % predeterminado; 5 % mínimo  | 20 % predeterminado; 2,5 % mínimo |
-|                   |                           |                           |                           |                          |                          |                           |
+|                       | EM1/A1                  | EM2/A2                  | EM3/A3                  | P1/A4                  | P2/A5                  | P3/A6                   |
+|-----------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|
+| **INTELIGENCIA ARTIFICIAL**                | No compatible               | 40 % predeterminado; 40 % mínimo  | 20 % predeterminado; 20 % mínimo  | 20 % predeterminado; 8 % mínimo  | 20 % predeterminado; 4 % mínimo  | 20 % predeterminado; 2 % mínimo   |
+| **Conjuntos de datos**          | 100 % predeterminado; 67 % mínimo | 100 % predeterminado; 40 % mínimo | 100 % predeterminado; 20 % mínimo | 100 % predeterminado; 8 % mínimo | 100 % predeterminado; 4 % mínimo | 100 % predeterminado; 2 % mínimo  |
+| **Flujos de datos**         | 40 % predeterminado; 40 % mínimo  | 24 % predeterminado; 24 % mínimo  | 20 % predeterminado; 12 % mínimo  | 20 % predeterminado; 5 % mínimo  | 20 % predeterminado; 3 % mínimo  | 20 % predeterminado; 2 % mínimo   |
+| **Informes paginados** | No compatible               | No compatible               | No compatible               | 20 % predeterminado; 10 % mínimo | 20 % predeterminado; 5 % mínimo  | 20 % predeterminado; 2,5 % mínimo |
 
 ## <a name="workload-settings"></a>Configuración de la carga de trabajo
 
@@ -81,10 +80,9 @@ Si tiene un conjunto de datos que es mayor que el tamaño especificado para esta
 
 Para proteger el rendimiento del sistema, se aplica un límite máximo de tiempo adicional específico de la SKU para el tamaño máximo de conjunto de datos sin conexión, con independencia del valor configurado. Este límite máximo no se aplica a los conjuntos de datos de Power BI que están optimizados para tamaños de datos grandes. Para obtener más información, vea [Modelos grandes en Power BI Premium](service-premium-large-models.md).
 
-|                                           | EM1/A1 | EM2/A2 | EM3/A3 | P1/A4 | P2/A5 | P3/A6 |   
-|-------------------------------------------|----------|----------|----------|---------|---------|---------|
-| Límite máximo para el tamaño máximo del conjunto de datos sin conexión | 3 GB     | 5 GB     | 6 GB     | 10 GB   | 10 GB   | 10 GB   |
-|                                           |          |          |          |         |         |         |
+|                                               | EM1/A1 | EM2/A2 | EM3/A3 | P1/A4 | P2/A5 | P3/A6 |
+|-----------------------------------------------|----------|----------|----------|---------|---------|---------|
+| **Límite máximo para el tamaño máximo del conjunto de datos sin conexión** | 3 GB     | 5 GB     | 6 GB     | 10 GB   | 10 GB   | 10 GB   |
 
 #### <a name="max-result-row-set-count"></a>Número máximo de conjuntos de filas de resultados
 
@@ -104,10 +102,9 @@ Tenga en cuenta que las operaciones de actualización de datos también pueden e
 
 La opción de configuración predeterminada es 0, lo que da como resultado la aplicación del siguiente límite de memoria de consulta automática específico de la SKU.
 
-|                              | EM1/A1 | EM2/A2 | EM3/A3 | P1/A4 | P2/A5 | P3/A6 |   
-|------------------------------|----------|----------|----------|---------|---------|---------|
-| Límite de memoria de consulta automática | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
-|                              |          |          |          |         |         |         |
+|                                  | EM1/A1 | EM2/A2 | EM3/A3 | P1/A4 | P2/A5 | P3/A6 |
+|----------------------------------|----------|----------|----------|---------|---------|---------|
+| **Límite de memoria de consulta automática** | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
 
 Para proteger el rendimiento del sistema, se aplica un límite máximo de 10 GB para todas las consultas ejecutadas por informes de Power BI, con independencia del límite de memoria de consulta configurado por el usuario. Este límite máximo no se aplica a las consultas emitidas por herramientas que usan el protocolo Analysis Services (también conocido como XMLA). Los usuarios deben considerar la posibilidad de simplificar la consulta o sus cálculos si la consulta tiene un uso intensivo de memoria.
 

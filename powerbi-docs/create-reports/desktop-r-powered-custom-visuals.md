@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7abbfce4254359c95efe1ef91511672b0aa98be6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e4e65c26c9d1b5598ecf6b523649dc70722b7d79
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229377"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634996"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Uso de objetos visuales de Power BI con tecnología de R en Power BI
 
@@ -125,20 +125,25 @@ El equipo de Power BI está trabajando activamente para mitigar estos problemas 
 
 3. Instale los paquetes de R manualmente mediante cualquier consola de R. Los pasos de este enfoque son los siguientes:
 
-   a.  Descargue el script de instalación de objeto visual con tecnología R y guarde el archivo en una unidad local.
+   a. Descargue el script de instalación de objeto visual con tecnología R y guarde el archivo en una unidad local.
 
-   b.  Desde la consola de R, ejecute lo siguiente:
+   b. Desde la consola de R, ejecute lo siguiente:
 
-       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```console
+      source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```
 
    Las típicas ubicaciones de instalación predeterminadas son las siguientes:
 
+   ```console
        c:\Program Files\R\R-3.3.x\bin\x64\Rterm.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\x64\Rgui.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\R.exe (for CRAN-R)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\R.exe (for MRO)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\x64\Rgui.exe (for MRO)
        c:\Program Files\RStudio\bin\rstudio.exe (for RStudio)
+   ```
+
 4. Si los pasos anteriores no funcionan, pruebe lo siguiente:
 
    a. Use **R Studio** y siga el paso que se describe en el punto 3.b. anterior (ejecute la línea de script desde la consola de R).
