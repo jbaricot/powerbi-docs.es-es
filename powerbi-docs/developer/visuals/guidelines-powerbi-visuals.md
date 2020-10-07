@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 08/12/2020
-ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 6e9da6e16d32f0093bc0e4be35415f1a23f7fa41
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204952"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748573"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Instrucciones para objetos visuales de Power BI
 Antes de [publicar](office-store.md) el objeto visual de Power BI en Microsoft AppSource para que otros usuarios lo descubran y lo usen, asegúrese de seguir las instrucciones para crear una gran experiencia para los usuarios.
@@ -28,7 +28,7 @@ Al igual que un objeto visual de Power BI gratuito, un objeto visual de Power 
 
 Un objeto visual de Power BI de IAP es un objeto visual *gratuito* que ofrece *características gratuitas*. También tiene algunas características avanzadas para las que se pueden aplicar cargos adicionales. En la descripción del objeto visual de Power BI, los desarrolladores deben indicar a los usuarios qué características requieren compras adicionales para que funcionen. Actualmente, Microsoft no proporciona API nativas que admitan comprar aplicaciones y complementos.
 
-Los desarrolladores pueden usar cualquier sistema de pago de terceros para estas compras. Para obtener más información, consulte [nuestra directiva de almacenamiento](https://docs.microsoft.com/legal/marketplace/certification-policies#11002-displaying-ads).
+Los desarrolladores pueden usar cualquier sistema de pago de terceros para estas compras. Para obtener más información, consulte [nuestra directiva de almacenamiento](/legal/marketplace/certification-policies#11002-displaying-ads).
 
 
 >[!IMPORTANT]  

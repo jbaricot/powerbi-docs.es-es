@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 646a09545a06dfa65bd73a666fa2419d82e4da33
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236910"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748664"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Instalación automática de aplicaciones de Power BI al insertar contenido para la organización
 
@@ -29,7 +29,7 @@ Para permitir la instalación automática de aplicaciones para los usuarios, deb
 
 ![Crear contenido en el registro de la aplicación](media/embed-auto-install-app/register-app-create-content.png)
 
-A continuación, debe proporcionar el identificador de aplicación en la dirección URL de inserción. Para proporcionar el identificador de aplicación, el creador de la aplicación primero debe instalar la aplicación y, a continuación, usar una de las llamadas a la [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/) admitidas: [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) o [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). A continuación, el creador de la aplicación debe tomar la dirección URL de inserción de la respuesta de la API REST. El identificador de aplicación aparece en la dirección URL si el contenido procede de una aplicación.  Una vez que tiene la dirección URL de inserción, se puede usar para la inserción de forma normal.
+A continuación, debe proporcionar el identificador de aplicación en la dirección URL de inserción. Para proporcionar el identificador de aplicación, el creador de la aplicación primero debe instalar la aplicación y, a continuación, usar una de las llamadas a la [API REST de Power BI](/rest/api/power-bi/) admitidas: [Get Reports](/rest/api/power-bi/reports/getreports) o [Get Dashboards](/rest/api/power-bi/dashboards/getdashboards). A continuación, el creador de la aplicación debe tomar la dirección URL de inserción de la respuesta de la API REST. El identificador de aplicación aparece en la dirección URL si el contenido procede de una aplicación.  Una vez que tiene la dirección URL de inserción, se puede usar para la inserción de forma normal.
 
 ## <a name="secure-embed"></a>Protección de la inserción
 

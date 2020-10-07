@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
-ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
+ms.openlocfilehash: 891f4d57e1c2754f4c98916b2824ef2283d8298a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86437224"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747974"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicación de objetos visuales de Power BI en el Centro de partners
 
@@ -35,7 +35,7 @@ Cuando esté listo para enviar el objeto visual de Power BI, compruebe que cump
 | --- | --- | --- |
 | Paquete Pbiviz |Sí |Empaquete el objeto visual de Power BI en un paquete Pbiviz que contenga todos los metadatos necesarios.<br>Nombre de objeto visual<br>Nombre para mostrar<br>GUID<br>Versión<br>Descripción<br>Nombre y correo electrónico del autor |
 | Archivo de informe .pbix de ejemplo |Sí |Para presentar el objeto visual, debe ayudar a los usuarios a familiarizarse con él. Resalte el valor que el objeto visual aporta al usuario y ofrezca ejemplos de uso y opciones de formato. También puede agregar una página de *"sugerencias"* al final que contenga trucos y sugerencias y acciones que conviene evitar.<br>El archivo de informe .pbix de ejemplo debe funcionar sin conexión, sin ninguna conexión externa. |
-| Icono |Sí |Debe incluir el logotipo del objeto visual personalizado que aparecerá en el escaparate. Su formato puede ser .png, .jpg, .jpeg o .gif. Debe ser exactamente de 300 px (ancho) x 300 px (alto).<BR>**Importante** Revise cuidadosamente la [guía de imágenes de la tienda AppSource](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) antes de enviar el icono. |
+| Icono |Sí |Debe incluir el logotipo del objeto visual personalizado que aparecerá en el escaparate. Su formato puede ser .png, .jpg, .jpeg o .gif. Debe ser exactamente de 300 px (ancho) x 300 px (alto).<BR>**Importante** Revise cuidadosamente la [guía de imágenes de la tienda AppSource](/office/dev/store/craft-effective-appsource-store-images) antes de enviar el icono. |
 | Capturas de pantalla |Sí |Proporcione al menos una captura de pantalla. Su formato puede ser .png, .jpg, .jpeg o .gif. Las dimensiones deben ser exactamente 1366 px (ancho) por 768 px (alto). El tamaño del archivo no puede superar los 1024 KB.<br>Si el uso va a ser mayor, agregue burbujas de texto para articular la propuesta de valor de las características clave que se muestran en cada captura. |
 | Vínculo de descarga de soporte técnico |Sí |Proporcione una dirección URL de soporte técnico para sus clientes. Este vínculo se especifica como parte de su lista del Centro de partners y es visible para los usuarios cuando acceden a la lista de objetos visuales en AppSource. El formato de la dirección URL debe incluir https:// o http://. |
 | Vínculo de documento de privacidad |Sí |Proporcione un vínculo a la directiva de privacidad del objeto visual. Este vínculo se especifica como parte de su lista del Centro de partners y es visible para los usuarios cuando acceden a la lista de objetos visuales en AppSource. El formato del vínculo debe incluir https:// o http://. |
@@ -71,14 +71,14 @@ El equipo de Power BI tiene que comprobar en los archivos si hay envíos de nue
 
 ### <a name="submitting-to-partner-center"></a>Envío al Centro de partners
 
-Para enviar el objeto visual de Power BI al Centro de partners, debe estar registrado en dicho centro. Si todavía no está registrado, [abra una cuenta de desarrollador en el Centro de partners](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
+Para enviar el objeto visual de Power BI al Centro de partners, debe estar registrado en dicho centro. Si todavía no está registrado, [abra una cuenta de desarrollador en el Centro de partners](/office/dev/store/open-a-developer-account).
 
 >[!NOTE]
 >Los **publicadores individuales** pueden usar uno de estos métodos para enviar un objeto visual de Power BI:
 >* Si tiene una cuenta de Panel de vendedores antigua, puede seguir usando las credenciales de esta cuenta para iniciar sesión en el Centro de partners.
->* Si no tiene una cuenta de Panel de vendedores antigua y no se ha registrado en el Centro de partners, deberá [abrir una cuenta de desarrollador en el Centro de partners](https://docs.microsoft.com/office/dev/store/open-a-developer-account) mediante el correo electrónico profesional.
+>* Si no tiene una cuenta de Panel de vendedores antigua y no se ha registrado en el Centro de partners, deberá [abrir una cuenta de desarrollador en el Centro de partners](/office/dev/store/open-a-developer-account) mediante el correo electrónico profesional.
 
-Siga los pasos que aparecen a continuación para enviar el objeto visual de Power BI al Centro de partners. Para más información sobre el proceso de envío, consulte [Enviar la solución de Office a AppSource con el Centro de partners](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource).
+Siga los pasos que aparecen a continuación para enviar el objeto visual de Power BI al Centro de partners. Para más información sobre el proceso de envío, consulte [Enviar la solución de Office a AppSource con el Centro de partners](/office/dev/store/use-partner-center-to-submit-to-appsource).
 
 1. Inicie sesión en el **Centro de partners**.
 
@@ -107,7 +107,7 @@ Siga los pasos que aparecen a continuación para enviar el objeto visual de Powe
 
 ## <a name="tracking-submission-status-and-usage"></a>Seguimiento del uso y estado del envío
 
-Puede revisar las [directivas de validación](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
+Puede revisar las [directivas de validación](/legal/marketplace/certification-policies#1180-power-bi-visuals).
 
 * Después del envío, el estado del envío se puede ver en el [panel de la aplicación](https://sellerdashboard.microsoft.com/Application/Summary/).
 

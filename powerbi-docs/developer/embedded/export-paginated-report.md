@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 2b4715a388250e00cced8a0164a7dcf687887d8a
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: bb06f5b0a170189c3c98b734a09259645a650c55
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86556897"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748181"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Exportación de un informe paginado a un archivo (versión preliminar)
 
@@ -38,9 +38,9 @@ Puede usar la característica de exportación de varias maneras. Estos son algun
 
 ## <a name="using-the-api"></a>Uso de la API
 
-La API es asincrónica. Cuando se llama a la API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile), se desencadena un trabajo de exportación. Después de activar un trabajo de exportación, use el [sondeo](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) para realizar un seguimiento del trabajo, hasta que se complete.
+La API es asincrónica. Cuando se llama a la API [exportToFile](/rest/api/power-bi/reports/exporttofile), se desencadena un trabajo de exportación. Después de activar un trabajo de exportación, use el [sondeo](/rest/api/power-bi/reports/getexporttofilestatus) para realizar un seguimiento del trabajo, hasta que se complete.
 
-Cuando se completa la exportación, la llamada API de sondeo devuelve una [dirección URL de Power BI](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile) para obtener el archivo. La dirección URL estará disponible durante veinticuatro horas.
+Cuando se completa la exportación, la llamada API de sondeo devuelve una [dirección URL de Power BI](/rest/api/power-bi/reports/getfileofexporttofile) para obtener el archivo. La dirección URL estará disponible durante veinticuatro horas.
 
 ## <a name="supported-features"></a>Características admitidas
 

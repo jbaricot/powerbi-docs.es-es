@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
-ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
+ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85299581"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746686"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Procedimientos recomendados de rendimiento de Power BI Embedded
 
@@ -53,7 +53,7 @@ Si inserta informes con los mismos filtros, marcadores y segmentaciones, para me
 Al insertar varios informes en el mismo IFrame, no genere un IFrame nuevo para cada informe. En su lugar, use `powerbi.embed(element, config)` con una configuración distinta para insertar el informe nuevo.
 
 > [!NOTE]
-> El cambio entre informes cuando se insertan para sus clientes (también conocido como escenario de "la aplicación posee los datos") requiere el uso de un token de inserción con permisos para todos los informes y conjuntos de datos. Para más información, consulte [Generación de API de token](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken).
+> El cambio entre informes cuando se insertan para sus clientes (también conocido como escenario de "la aplicación posee los datos") requiere el uso de un token de inserción con permisos para todos los informes y conjuntos de datos. Para más información, consulte [Generación de API de token](/rest/api/power-bi/embedtoken/generatetoken).
 
 ## <a name="query-caching"></a>Almacenamiento en caché de consultas
 

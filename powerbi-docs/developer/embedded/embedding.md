@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c90093fefb98c6b385328e8dd207760e3207cbf
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487845"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746226"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Análisis integrado con Power BI
 
@@ -43,7 +43,7 @@ Hay dos escenarios principales para insertar el contenido de Power BI:
  
 - Inserción de contenido para los usuarios y clientes sin necesidad de licencias de Power BI. 
 
-La [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/) permite ambos escenarios.
+La [API REST de Power BI](/rest/api/power-bi/) permite ambos escenarios.
 
 En el caso de clientes y usuarios que no tengan licencia de Power BI, puede insertar paneles e informes en la aplicación personalizada con las mismas API, tanto para la organización como para los clientes. Los clientes verán los datos que la aplicación administre. Además, los usuarios de Power BI de la organización tienen opciones adicionales para ver *sus datos* directamente en Power BI o en el contexto de la aplicación insertada. Puede aprovechar al máximo las API de REST y de JavaScript para lo que necesite insertar.
 
@@ -53,7 +53,7 @@ Para entender cómo funciona la inserción, consulte el [Ejemplo de inserción d
 
 La **inserción para la organización** permite ampliar el servicio Power BI. Este tipo de inserción requiere que los usuarios de la aplicación inicien sesión en el servicio Power BI para ver el contenido. Cuando los usuarios de la organización inician sesión, solo tienen acceso a los paneles e informes de los que sean propietarios o que alguien haya compartido contenido con ellos en el servicio Power BI.
 
-Entre los ejemplos de inserción de contenido se incluyen aplicaciones internas, como [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams Integration (se necesitan derechos de administrador)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) y [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).
+Entre los ejemplos de inserción de contenido se incluyen aplicaciones internas, como [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams Integration (se necesitan derechos de administrador)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) y [Microsoft Dynamics](/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).
 
 Si quiere obtener más información sobre la inserción para la organización, consulte [Tutorial: insertar contenido de Power BI en una aplicación para la organización](embed-sample-for-your-organization.md).
 

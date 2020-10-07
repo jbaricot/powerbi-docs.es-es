@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 9c0927eb46177726c4277b2fa697003d7f0fdc56
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: c5a902a8de8449290d52974063b25f51ff92dd9d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402034"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747583"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Inserción de contenido de Power BI en una aplicación para nubes nacionales
 
 Aprenda a insertar contenido analítico en las aplicaciones de proceso de negocio para la nube nacional. Puede usar .NET SDK de Power BI con la API de JavaScript de Power BI para insertar un informe, panel o icono en las aplicaciones web.
 
-Power BI también admite [nubes nacionales](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud).
+Power BI también admite [nubes nacionales](/azure/active-directory/develop/authentication-national-cloud).
 
 Las distintas nubes nacionales son:
 
@@ -43,7 +43,7 @@ Para empezar a trabajar con este tutorial, necesita una **cuenta de Power BI**. 
 > [!NOTE]
 > En lugar de eso, ¿desea insertar un panel para la organización? Consulte [Integrar un panel en una aplicación para la organización](embed-sample-for-your-organization.md).
 
-Para integrar un panel en una aplicación web, use la API de **Power BI** y un **token de acceso** de autorización de Azure Active Directory (AD) para obtener un panel. A continuación, cargue el panel mediante un token de inserción. La API de **Power BI** proporciona acceso mediante programación a recursos concretos de **Power BI**. Para más información, consulte la [API REST de Power](https://docs.microsoft.com/rest/api/power-bi/), el [SDK de .NET de Power BI] y la [API de JavaScript de Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Para integrar un panel en una aplicación web, use la API de **Power BI** y un **token de acceso** de autorización de Azure Active Directory (AD) para obtener un panel. A continuación, cargue el panel mediante un token de inserción. La API de **Power BI** proporciona acceso mediante programación a recursos concretos de **Power BI**. Para más información, consulte la [API REST de Power](/rest/api/power-bi/), el [SDK de .NET de Power BI] y la [API de JavaScript de Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Descarga del ejemplo
 
@@ -238,10 +238,10 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Creación del token de inserción
 
-Con la API de JavaScript, puede generar un token de inserción. El token de inserción es específico del elemento que va a insertar. Siempre que inserte un fragmento de contenido de Power BI, tendrá que crear un token de inserción para él. Para más información, incluido el **accessLevel** que se debe usar, vea [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (Insertar token).
+Con la API de JavaScript, puede generar un token de inserción. El token de inserción es específico del elemento que va a insertar. Siempre que inserte un fragmento de contenido de Power BI, tendrá que crear un token de inserción para él. Para más información, incluido el **accessLevel** que se debe usar, vea [Embed Token](/rest/api/power-bi/embedtoken) (Insertar token).
 
 > [!IMPORTANT]
-> Dado que la inserción de tokens está pensada solo para que los desarrolladores efectúen pruebas, el número de tokens que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirirse capacidad](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para escenarios de inserción para producción. No hay ningún límite en la generación de tokens de inserción cuando se compra una capacidad.
+> Dado que la inserción de tokens está pensada solo para que los desarrolladores efectúen pruebas, el número de tokens que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirirse capacidad](./embedded-faq.md#technical) para escenarios de inserción para producción. No hay ningún límite en la generación de tokens de inserción cuando se compra una capacidad.
 
 Un ejemplo está disponible en **Controllers\HomeController.cs** en el [ejemplo de inserción de contenido para la organización](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData).
 
@@ -440,7 +440,7 @@ Hay una aplicación de ejemplo disponible en el [ejemplo Inserción de contenido
 
 * Para más información sobre la API de JavaScript, consulte [API de JavaScript para Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
-* Para más información sobre Power BI para la nube de Alemania, consulte [Preguntas más frecuentes sobre Power BI para clientes en la nube de Alemania](https://docs.microsoft.com/power-bi/service-govde-faq).
+* Para más información sobre Power BI para la nube de Alemania, consulte [Preguntas más frecuentes sobre Power BI para clientes en la nube de Alemania](../../admin/service-govde-faq.md).
 
 * [Migración de contenido de la colección de áreas de trabajo de Power BI a Power BI](migrate-from-powerbi-embedded.md)
 

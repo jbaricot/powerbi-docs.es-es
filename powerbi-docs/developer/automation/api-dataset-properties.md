@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e0092003cbf019bcf720eeb7aa32e8a9e800f143
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561510"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747307"
 ---
 # <a name="dataset-properties"></a>Propiedades del conjunto de datos
 
 La v1 actual de la API de conjuntos de datos solo permite crear un conjunto de datos con un nombre y una colección de tablas. Cada tabla puede tener un nombre y una colección de columnas. Cada columna tiene un nombre y un tipo de datos. Estamos ampliando considerablemente estas propiedades, principalmente con compatibilidad con las medidas y las relaciones entre tablas. La lista completa de propiedades compatibles con esta versión es la siguiente:
 
 > [!IMPORTANT]
-> Puede tener acceso a ellas en la página de [grupos de operaciones de conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets).
+> Puede tener acceso a ellas en la página de [grupos de operaciones de conjuntos de datos](/rest/api/power-bi/datasets).
 
 ## <a name="dataset"></a>Conjunto de datos
 

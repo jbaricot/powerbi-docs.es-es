@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 792afe42cf302ae552b7f8f1c14d5f232ade320f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488209"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746709"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Inserción de datos en un conjunto de datos de Power BI
 
@@ -33,14 +33,14 @@ La siguiente sección es una discusión general de las operaciones de la API de 
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Operaciones de la API de Power BI para insertar datos
 
-Con la API de REST de Power BI, puede insertar orígenes de datos en Power BI. Cuando una aplicación agrega filas a un conjunto de datos, los iconos del panel se actualizan automáticamente con los datos nuevos. Para insertar datos, use las operaciones [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) y [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Para buscar un conjunto de datos, use la operación [Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). Puede pasar un identificador de grupo para trabajar con un grupo para cualquiera de estas operaciones. Para obtener una lista de identificadores de grupo, use la operación [Obtener grupos](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups).
+Con la API de REST de Power BI, puede insertar orígenes de datos en Power BI. Cuando una aplicación agrega filas a un conjunto de datos, los iconos del panel se actualizan automáticamente con los datos nuevos. Para insertar datos, use las operaciones [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset) y [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows). Para buscar un conjunto de datos, use la operación [Obtener conjuntos de datos](/rest/api/power-bi/datasets/getdatasets). Puede pasar un identificador de grupo para trabajar con un grupo para cualquiera de estas operaciones. Para obtener una lista de identificadores de grupo, use la operación [Obtener grupos](/rest/api/power-bi/groups/getgroups).
 
 Estas son las operaciones para insertar datos en un conjunto de datos:
 
-* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
-* [Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
-* [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
-* [Obtener grupos](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
+* [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [Obtener conjuntos de datos](/rest/api/power-bi/datasets/getdatasets)
+* [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [Obtener grupos](/rest/api/power-bi/groups/getgroups)
 
 Para crear un conjunto de datos en Power BI se pasa una cadena de notación de objetos JavaScript (JSON) al servicio Power BI. Para obtener más información acerca de JSON, consulte [Introducción a JSON](https://json.org/).
 
@@ -48,54 +48,58 @@ La cadena JSON para un conjunto de datos tiene el formato siguiente:
 
 **Objeto JSON de conjunto de datos de Power BI**
 
-    {"name": "dataset_name", "tables":
-        [{"name": "", "columns":
-            [{ "name": "column_name1", "dataType": "data_type"},
-             { "name": "column_name2", "dataType": "data_type"},
-             { ... }
-            ]
-          }
+```json
+{"name": "dataset_name", "tables":
+    [{"name": "", "columns":
+        [{ "name": "column_name1", "dataType": "data_type"},
+         { "name": "column_name2", "dataType": "data_type"},
+         { ... }
         ]
-    }
+      }
+    ]
+}
+```
 
 Para nuestro ejemplo de conjunto de datos de marketing de ventas, pasaría una cadena JSON como se muestra a continuación. En este ejemplo, **SalesMarketing** es el nombre del conjunto de datos y **Product** es el nombre de la tabla. Después de definir la tabla, se define el esquema de la tabla. Para el conjunto de datos **SalesMarketing**, el esquema de tabla tiene las siguientes columnas: ProductID, Manufacturer, Category, Segment, Product e IsCompete.
 
 **Ejemplo de JSON de objeto de conjunto de datos**
 
-    {
-        "name": "SalesMarketing",
-        "tables": [
+```json
+{
+    "name": "SalesMarketing",
+    "tables": [
+        {
+            "name": "Product",
+            "columns": [
+            {
+                "name": "ProductID",
+                "dataType": "int"
+            },
+            {
+                "name": "Manufacturer",
+                "dataType": "string"
+            },
+            {
+                "name": "Category",
+                "dataType": "string"
+            },
+            {
+                "name": "Segment",
+                "dataType": "string"
+            },
             {
                 "name": "Product",
-                "columns": [
-                {
-                    "name": "ProductID",
-                    "dataType": "int"
-                },
-                {
-                    "name": "Manufacturer",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Category",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Segment",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Product",
-                    "dataType": "string"
-                },
-                {
-                    "name": "IsCompete",
-                    "dataType": "bool"
-                }
-                ]
+                "dataType": "string"
+            },
+            {
+                "name": "IsCompete",
+                "dataType": "bool"
             }
-        ]
-    }
+            ]
+        }
+    ]
+}
+```
 
 Para un esquema de tabla de Power BI, puede usar los siguientes tipos de datos.
 
