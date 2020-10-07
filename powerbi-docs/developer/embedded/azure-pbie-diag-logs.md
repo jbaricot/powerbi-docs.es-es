@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc64338ed40fcdc6433fdcf231004b4946335c72
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79495812"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748802"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Registro de diagnóstico para el servicio de Power BI Embedded en Azure
 
-Con los [registros de diagnóstico de los recursos de Azure](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs), puede registrar muchos eventos de su capacidad, colocarlos en una herramienta de análisis y obtener información sobre el comportamiento del recurso.
+Con los [registros de diagnóstico de los recursos de Azure](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs), puede registrar muchos eventos de su capacidad, colocarlos en una herramienta de análisis y obtener información sobre el comportamiento del recurso.
 
 Con los diagnósticos puede responder a ciertos escenarios, como:
 
@@ -36,12 +36,12 @@ Con los diagnósticos puede responder a ciertos escenarios, como:
 
     * **Nombre**: escriba un nombre para la configuración de diagnóstico que se va a crear.
 
-    * **Archivar en una cuenta de almacenamiento**: para usar esta opción, debe conectarse a una cuenta de almacenamiento existente. Consulte [Creación de una cuenta de almacenamiento](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account) y siga las instrucciones para crear una. Luego vuelva a esta página del portal para seleccionar la cuenta de almacenamiento. Es posible que las cuentas de almacenamiento recién creadas tarden unos minutos en aparecer en el menú desplegable. El almacenamiento de archivos de registro está en formato JSON.
-    * **Stream to an event hub** (Transmitir a un centro de eventos): para usar esta opción, debe conectarse a un centro de eventos y a un espacio de nombres de Event Hubs. Para más información, consulte [Creación de un espacio de nombres de Event Hubs y un centro de eventos con Azure Portal](https://docs.microsoft.com/azure/event-hubs/event-hubs-create).
-    * **Send to Log Analytics** (Enviar a Log Analytics): para usar esta opción, use un área de trabajo existente o cree un área de trabajo de Log Analytics nueva con los pasos para [crear un área de trabajo](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) que aparecen en el portal. Esto aprovecha [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview), que proporciona funcionalidades integradas de notificaciones, paneles y análisis. Puede usar Log Analytics para conectar más datos de otros orígenes y obtener una vista completa unificada de los datos de todos los recursos de la aplicación. También se puede conectar a [Power BI con un solo clic](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi).
-    Para más información sobre cómo ver los registros en Log Analytics, consulte [Visualización de los registros de Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity).
+    * **Archivar en una cuenta de almacenamiento**: para usar esta opción, debe conectarse a una cuenta de almacenamiento existente. Consulte [Creación de una cuenta de almacenamiento](/azure/storage/common/storage-create-storage-account) y siga las instrucciones para crear una. Luego vuelva a esta página del portal para seleccionar la cuenta de almacenamiento. Es posible que las cuentas de almacenamiento recién creadas tarden unos minutos en aparecer en el menú desplegable. El almacenamiento de archivos de registro está en formato JSON.
+    * **Stream to an event hub** (Transmitir a un centro de eventos): para usar esta opción, debe conectarse a un centro de eventos y a un espacio de nombres de Event Hubs. Para más información, consulte [Creación de un espacio de nombres de Event Hubs y un centro de eventos con Azure Portal](/azure/event-hubs/event-hubs-create).
+    * **Send to Log Analytics** (Enviar a Log Analytics): para usar esta opción, use un área de trabajo existente o cree un área de trabajo de Log Analytics nueva con los pasos para [crear un área de trabajo](/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) que aparecen en el portal. Esto aprovecha [Azure Log Analytics](/azure/log-analytics/log-analytics-overview), que proporciona funcionalidades integradas de notificaciones, paneles y análisis. Puede usar Log Analytics para conectar más datos de otros orígenes y obtener una vista completa unificada de los datos de todos los recursos de la aplicación. También se puede conectar a [Power BI con un solo clic](/azure/log-analytics/log-analytics-powerbi).
+    Para más información sobre cómo ver los registros en Log Analytics, consulte [Visualización de los registros de Log Analytics](/azure/log-analytics/log-analytics-activity).
     * **Engine** (Motor): seleccione esta opción para registrar el conjunto de [eventos de motor](#whats-logged) que aparece a continuación.
-    * **AllMetrics** (Todas las métricas): seleccione esta opción para almacenar datos detallados en [Métricas](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics). Si va a archivar en una cuenta de almacenamiento, puede seleccionar el período de retención para los registros de diagnóstico. Los registros se eliminan automáticamente una vez que expira el período de retención.
+    * **AllMetrics** (Todas las métricas): seleccione esta opción para almacenar datos detallados en [Métricas](/azure/analysis-services/analysis-services-monitor#server-metrics). Si va a archivar en una cuenta de almacenamiento, puede seleccionar el período de retención para los registros de diagnóstico. Los registros se eliminan automáticamente una vez que expira el período de retención.
 
 3. Seleccione **Guardar**.
 
@@ -87,11 +87,11 @@ Puede combinar estos parámetros para habilitar varias opciones de salida.
 
 ### <a name="rest-api"></a>API de REST
 
-Obtenga información sobre cómo [cambiar la configuración de diagnóstico mediante la API de REST de Azure Monitor](https://docs.microsoft.com/rest/api/monitor/). 
+Obtenga información sobre cómo [cambiar la configuración de diagnóstico mediante la API de REST de Azure Monitor](/rest/api/monitor/). 
 
 ### <a name="resource-manager-template"></a>Plantilla de Resource Manager
 
-Obtenga información sobre cómo [habilitar la configuración de diagnóstico en el momento de la creación del recurso mediante una plantilla de Resource Manager](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template).
+Obtenga información sobre cómo [habilitar la configuración de diagnóstico en el momento de la creación del recurso mediante una plantilla de Resource Manager](/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template).
 
 ## <a name="whats-logged"></a>¿Qué se registra?
 
@@ -174,11 +174,11 @@ En **Tipo**, seleccione **AzureDiagnostics** y luego,**Aplicar**. AzureDiagnosti
 
 Seleccione **EventClass\_s** o uno de los nombres de evento y Log Analytics seguirán construyendo una consulta. No olvide guardar las consultas para volver a usarlas más adelante.
 
-Asegúrese de consultar [Log Analytics](https://docs.microsoft.com/azure/log-analytics/), que ofrece un sitio web con funcionalidades de consulta, paneles y alertas mejoradas de los datos recopilados.
+Asegúrese de consultar [Log Analytics](/azure/log-analytics/), que ofrece un sitio web con funcionalidades de consulta, paneles y alertas mejoradas de los datos recopilados.
 
 ### <a name="queries"></a>Consultas
 
-Existen cientos de consultas que puede usar. Estos son algunos ejemplos que pueden ayudarlo a comenzar. Para más información sobre cómo usar el nuevo lenguaje de consulta de búsqueda de registros, consulte [Descripción de las búsquedas de registros en Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search).
+Existen cientos de consultas que puede usar. Estos son algunos ejemplos que pueden ayudarlo a comenzar. Para más información sobre cómo usar el nuevo lenguaje de consulta de búsqueda de registros, consulte [Descripción de las búsquedas de registros en Log Analytics](/azure/log-analytics/log-analytics-log-search).
 
 * Devolución de consulta que tarda menos de cinco minutos (300 000 milisegundos) en completarse.
 
@@ -206,7 +206,7 @@ Existen cientos de consultas que puede usar. Estos son algunos ejemplos que pued
 Puede obtener más información sobre el registro de diagnóstico de recursos de Azure.
 
 > [!div class="nextstepaction"]
-> [Registros de diagnóstico de recursos de Azure](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
+> [Registros de diagnóstico de recursos de Azure](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
 
 > [!div class="nextstepaction"]
-> [Set-AzureRmDiagnosticSetting](https://docs.microsoft.com/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)
+> [Set-AzureRmDiagnosticSetting](/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)

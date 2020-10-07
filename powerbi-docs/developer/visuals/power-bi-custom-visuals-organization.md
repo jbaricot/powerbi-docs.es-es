@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: b1ae402f8e8712920cc93248828603d1087c8c4a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401965"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749239"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Objetos visuales de la organización en Power BI
 
@@ -49,7 +49,7 @@ Administrador:
 
 Usuario final:
 
-* Los objetos visuales de Power BI de la organización son objetos visuales privados importados del repositorio de la organización. Como cualquier otro objeto visual privado, no pueden [exportarse a PowerPoint](https://docs.microsoft.com/power-bi/consumer/end-user-powerpoint) ni mostrarse en los correos electrónicos recibidos cuando un usuario se [suscribe a las páginas del informe](https://docs.microsoft.com/power-bi/consumer/end-user-subscribe). Solo los [objetos visuales de Power BI certificados](power-bi-custom-visuals-certified.md) importados directamente del Marketplace admiten estas características.
+* Los objetos visuales de Power BI de la organización son objetos visuales privados importados del repositorio de la organización. Como cualquier otro objeto visual privado, no pueden [exportarse a PowerPoint](../../consumer/end-user-powerpoint.md) ni mostrarse en los correos electrónicos recibidos cuando un usuario se [suscribe a las páginas del informe](../../consumer/end-user-subscribe.md). Solo los [objetos visuales de Power BI certificados](power-bi-custom-visuals-certified.md) importados directamente del Marketplace admiten estas características.
 
 * Los objetos visuales de Visio, PowerApps, Map y GlobeMap del Marketplace de AppSource no se representarán si se implementan a través del repositorio de la organización.
 

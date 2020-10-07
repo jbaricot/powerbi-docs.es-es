@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: e2e2f924f190b7c5904cfe29d1d3cae341974f38
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: ea7eaf8f7fc36ee1b9dc987ee571dc29dc5b222f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402057"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748917"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Seguridad de nivel de fila con Power BI Embedded
 
@@ -78,7 +78,7 @@ Al aplicar el filtro como se ha hecho aquí, se filtran todos los registros de l
 
 Ahora que tiene configurados los roles de Power BI Desktop, es necesario hacer algunas cosas en la aplicación para aprovechar sus ventajas.
 
-La aplicación autentica y autoriza a los usuarios y los tokens de inserción se usan para conceder a ese usuario acceso a un informe específico de Power BI Embedded. Power BI Embedded no tiene ninguna información específica sobre quién es el usuario. Para que RLS funcione, es necesario pasar un poco más de contexto como parte del token de inserción en forma de identidades. Puede pasar las identidades mediante la API [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+La aplicación autentica y autoriza a los usuarios y los tokens de inserción se usan para conceder a ese usuario acceso a un informe específico de Power BI Embedded. Power BI Embedded no tiene ninguna información específica sobre quién es el usuario. Para que RLS funcione, es necesario pasar un poco más de contexto como parte del token de inserción en forma de identidades. Puede pasar las identidades mediante la API [Embed Token](/rest/api/power-bi/embedtoken).
 
 La API acepta una lista de identidades con la indicación de los conjuntos de datos pertinentes. Para que RLS funcione, debe pasar los siguientes elementos como parte de la identidad.
 
@@ -134,7 +134,7 @@ La seguridad de nivel de fila se puede usar con conexiones dinámicas de Analysi
 La identidad efectiva que se proporciona para la propiedad username debe ser la de un usuario de Windows con permisos en el servidor de Analysis Services.
 
 >[!NOTE]
-> Al usar una entidad de servicio con un origen de datos de [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), la propia entidad de servicio debe tener permisos de una instancia de Azure Analysis Services. El uso de un grupo de seguridad que contiene la entidad de servicio para este propósito no funciona.
+> Al usar una entidad de servicio con un origen de datos de [Azure Analysis Services](/azure/analysis-services/analysis-services-overview), la propia entidad de servicio debe tener permisos de una instancia de Azure Analysis Services. El uso de un grupo de seguridad que contiene la entidad de servicio para este propósito no funciona.
 
 ### <a name="on-premises-data-gateway-configuration"></a>Configuración de una puerta de enlace de datos local
 
@@ -195,7 +195,7 @@ Si llama a la API REST, puede agregar datos personalizados dentro de cada identi
 
 Estos son los pasos para comenzar a configurar la característica CustomData() con la aplicación Power BI Embedded.
 
-1. Cree su base de datos de Azure Analysis Services. A continuación, inicie sesión en el servidor de Azure Analysis Services mediante [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
+1. Cree su base de datos de Azure Analysis Services. A continuación, inicie sesión en el servidor de Azure Analysis Services mediante [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
 
     ![Creación de una base de datos de Azure Analysis Services](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
@@ -245,7 +245,7 @@ A la hora de decidir sobre el filtrado de los datos en un informe, puede usar **
 
 * [Configuración de roles en un informe de Power BI](../../create-reports/desktop-rls.md).
 * Configuración de roles en el nivel de origen de datos (solo conexión dinámica de Analysis Services).
-* Mediante programación con un [token de inserción](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) con `EffectiveIdentity`. Cuando se usa un token de inserción, el filtro real pasa por el token de inserción en una sesión específica.
+* Mediante programación con un [token de inserción](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) con `EffectiveIdentity`. Cuando se usa un token de inserción, el filtro real pasa por el token de inserción en una sesión específica.
 
 Los [filtros de JavaScript](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) se usan para permitir que el usuario consuma una vista de los datos con ámbito, reducida o filtrada. Sin embargo, el usuario todavía tiene acceso al esquema, las tablas, las columnas y las medidas del modelo y potencialmente puede acceder a cualquier dato que ahí exista. El acceso restringido a los datos solo se puede aplicar con RLS y no mediante las API de filtrado del lado cliente.
 
@@ -261,7 +261,7 @@ Se puede usar para administrar la vista de cada usuario en Azure SQL, o bien pa
 
 Estos problemas de identidad efectiva se aplican a las reglas RLS directamente en Azure SQL Server. Power BI Embedded usa el token de acceso proporcionado al consultar datos desde Azure SQL Server. El UPN del usuario (para el que se proporcionó el token de acceso) es accesible como resultado de la función SQL USER_NAME ().
 
-La identidad basada en token solo funciona para los modelos DirectQuery en capacidad dedicada —conectada a una instancia de Azure SQL Database— configurada para permitir la autenticación de AAD ([obtenga más información sobre la autenticación de AAD para Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)). El origen de datos del conjunto de datos se debe configurar para usar las credenciales de OAuth2 de los usuarios finales, a fin de usar una identidad basada en token.
+La identidad basada en token solo funciona para los modelos DirectQuery en capacidad dedicada —conectada a una instancia de Azure SQL Database— configurada para permitir la autenticación de AAD ([obtenga más información sobre la autenticación de AAD para Azure SQL Database](/azure/sql-database/sql-database-manage-logins)). El origen de datos del conjunto de datos se debe configurar para usar las credenciales de OAuth2 de los usuarios finales, a fin de usar una identidad basada en token.
 
    ![Configuración de Azure SQL Server](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
@@ -322,11 +322,11 @@ El valor proporcionado en el blob de identidad debe ser un token de acceso váli
 
 Los clientes que configuran la seguridad de nivel de fila (RLS) con un origen de datos de conexión dinámica local de SQL Server Analysis Services (SSAS) pueden disfrutar de la nueva funcionalidad de [entidad de servicio](embed-service-principal.md) para administrar usuarios y su acceso a los datos de SSAS cuando se integra con **Power BI Embedded**.
 
-Mediante las [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/), puede especificar la identidad efectiva para las conexiones dinámicas locales de SSAS para un token de inserción con un [objeto de entidad de servicio](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
+Mediante las [API REST de Power BI](/rest/api/power-bi/), puede especificar la identidad efectiva para las conexiones dinámicas locales de SSAS para un token de inserción con un [objeto de entidad de servicio](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
 
 Hasta ahora, para poder especificar la identidad efectiva para conexiones dinámicas locales de SSAS, el usuario maestro que generaba el token de inserción tenía que ser un administrador de puerta de enlace. Ahora, en lugar de requerir que el usuario sea un administrador de puerta de enlace, el administrador de puerta de enlace puede asignar permiso dedicado al usuario para ese origen de datos, lo que le permite reemplazar la identidad efectiva al generar el token de inserción. Esta nueva funcionalidad permite realizar la inserción con la entidad de servicio para una conexión activa de SSAS.
 
-Para habilitar este escenario, el administrador de puerta de enlace usa la [API REST Add Datasource User](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser) para asignar a la entidad de servicio el permiso *ReadOverrideEffectiveIdentity* para Power BI Embedded.
+Para habilitar este escenario, el administrador de puerta de enlace usa la [API REST Add Datasource User](/rest/api/power-bi/gateways/adddatasourceuser) para asignar a la entidad de servicio el permiso *ReadOverrideEffectiveIdentity* para Power BI Embedded.
 
 No se puede establecer este permiso mediante el portal de administración. Este permiso solo se establece con la API. En el portal de administración, verá una indicación para los usuarios y los SPN con esos permisos.
 

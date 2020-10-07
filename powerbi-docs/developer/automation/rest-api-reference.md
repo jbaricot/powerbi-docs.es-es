@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 05/25/2018
-ms.openlocfilehash: e7f7a94eb94054510046e5e873281cf68eb3bf3d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9624195458c965a652b889089ce7ef8521281c95
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079379"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748940"
 ---
 # <a name="power-bi-rest-api-reference"></a>Referencia de la API de REST de Power BI
 
@@ -30,6 +30,6 @@ La API de REST de Power BI tiene las siguientes operaciones:
 * Operaciones de fila: agregar filas y eliminar filas.
 * Operaciones de grupo: obtener grupos.
 
-Para obtener más información sobre la API de REST de Power BI, vea [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/) (API de REST de Power BI).
+Para obtener más información sobre la API de REST de Power BI, vea [Power BI REST APIs](/rest/api/power-bi/) (API de REST de Power BI).
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

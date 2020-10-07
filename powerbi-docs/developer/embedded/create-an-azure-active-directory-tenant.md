@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 03ba0a3090a4224cdc97a2f5bdcf80dc4b59dc64
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354947"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748779"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Crear un inquilino de Azure Active Directory para su uso con Power BI
 
@@ -27,7 +27,7 @@ Es posible que su organización ya tenga un inquilino de Azure AD que puede usar
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Crear un inquilino de Azure Active Directory
 
-Para integrar Power BI en su aplicación personalizada, debe definir primero una aplicación en Azure AD, lo que requiere un directorio de Azure AD. Este directorio es su *inquilino*. Si su organización aún no tiene un inquilino porque no usa Power BI ni Microsoft 365, [deberá configurar un entorno de desarrollo](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). También deberá crear uno si no desea que la aplicación se combine con el inquilino de su organización para mantener los elementos aislados. O bien, puede crear un inquilino solo con fines de prueba.
+Para integrar Power BI en su aplicación personalizada, debe definir primero una aplicación en Azure AD, lo que requiere un directorio de Azure AD. Este directorio es su *inquilino*. Si su organización aún no tiene un inquilino porque no usa Power BI ni Microsoft 365, [deberá configurar un entorno de desarrollo](/azure/active-directory/develop/active-directory-howto-tenant). También deberá crear uno si no desea que la aplicación se combine con el inquilino de su organización para mantener los elementos aislados. O bien, puede crear un inquilino solo con fines de prueba.
 
 Para crear un nuevo inquilino de Azure AD:
 
@@ -93,8 +93,8 @@ Ahora que tiene un directorio, vamos a crear al menos dos usuarios. Uno es un ad
 
 Ahora que tiene un inquilino de Azure AD, puede usarlo para probar los elementos de Power BI. También puede insertar informes y paneles de Power BI en la aplicación. Para más información, consulte [Procedimiento para insertar paneles, informes e iconos de Power BI](embed-sample-for-customers.md).
 
-[¿Qué es Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) 
+[¿Qué es Azure Active Directory?](/azure/active-directory/active-directory-whatis) 
  
-[Inicio rápido: Configuración de un entorno de desarrollo](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
+[Inicio rápido: Configuración de un entorno de desarrollo](/azure/active-directory/develop/active-directory-howto-tenant)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

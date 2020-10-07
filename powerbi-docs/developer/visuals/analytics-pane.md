@@ -9,23 +9,23 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: e9d1479b596f563edc37f0c7a72b29c3343fed1e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f8b2a54ac7882c02f1ece63ce1362c97ad027af
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239916"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749032"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Panel Analytics en objetos visuales de Power BI
 
-El panel **Analytics** se introdujo para [objetos visuales nativos](https://docs.microsoft.com/power-bi/desktop-analytics-pane) en noviembre de 2018.
+El panel **Analytics** se introdujo para [objetos visuales nativos](../../transform-model/desktop-analytics-pane.md) en noviembre de 2018.
 En este artículo se explica cómo los objetos visuales de Power BI con la API v2.5.0 pueden presentar y administrar sus propiedades en el panel **Analytics**.
 
 ![Panel Analytics](media/analytics-pane/visualization-pane-analytics-tab.png)
 
 ## <a name="manage-the-analytics-pane"></a>Administración del panel Analytics
 
-Del mismo modo que administra las propiedades del [panel **Formato**](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options), administre el panel **Analytics** al definir un objeto en el archivo *capabilities.json* del objeto visual.
+Del mismo modo que administra las propiedades del [panel **Formato**](./custom-visual-develop-tutorial-format-options.md), administre el panel **Analytics** al definir un objeto en el archivo *capabilities.json* del objeto visual.
 
 En el panel **Analytics**, las diferencias son las siguientes:
 

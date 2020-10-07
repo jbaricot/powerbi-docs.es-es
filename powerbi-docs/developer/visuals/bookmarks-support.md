@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: aeea5ea3a9d1d2bd375c44b6c6b7eac57eb65aff
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878585"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749009"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Adición de compatibilidad de los marcadores para los objetos visuales de Power BI
 
 Con los marcadores de los informes de Power BI, puede capturar una vista configurada de una página de informes, el estado de selección y el estado de filtrado del objeto visual. Con todo, los objetos visuales de Power BI requieren una acción más para admitir los marcadores y poder reaccionar correctamente a los cambios.
 
-Para obtener más información sobre los marcadores, consulte [Uso de marcadores para compartir información detallada y crear historias en Power BI](https://docs.microsoft.com/power-bi/desktop-bookmarks).
+Para obtener más información sobre los marcadores, consulte [Uso de marcadores para compartir información detallada y crear historias en Power BI](../../create-reports/desktop-bookmarks.md).
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>Compatibilidad de los marcadores de un informe en un objeto visual
 

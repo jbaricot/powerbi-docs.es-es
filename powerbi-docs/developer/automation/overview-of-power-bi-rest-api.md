@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43480006b775aa7b8444f099b783f0d7f45a98c8
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488441"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748986"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>¿Qué pueden hacer los desarrolladores con la API de Power BI?
 
@@ -26,7 +26,7 @@ A continuación se indican algunas de las cosas que puede hacer con las API de P
 | **Para más información** | **Consulte esta información** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | Sobre cómo insertar informes, paneles e iconos para usuarios de Power BI y otros que no lo usen. | [Procedimiento para insertar paneles, informes e iconos de Power BI](../embedded/embed-sample-for-customers.md) |
-| Realice tareas de administración en objetos de Power BI. | [Referencia de la API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
+| Realice tareas de administración en objetos de Power BI. | [Referencia de la API de REST de Power BI](/rest/api/power-bi/) |
 | Ampliar un flujo de trabajo de empresa existente para insertar datos clave en un panel de Power BI. | [Insertar datos en un panel](walkthrough-push-data.md) |
 | Autenticación en Power BI. | [Autenticación en Power BI](../embedded/get-azuread-access-token.md) |
 
@@ -35,10 +35,10 @@ A continuación se indican algunas de las cosas que puede hacer con las API de P
 
 ## <a name="api-developer-tools"></a>Herramientas de desarrollo de interfaces de programación de aplicaciones (API)
 
-| Herramientas | Description |  |  |
-|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-| [Área de juegos](https://microsoft.github.io/PowerBI-JavaScript/demo) | Descubra un ejemplo completo del uso de las API de JavaScript para Power BI. Esta herramienta es también una forma rápida de reproducir diferentes tipos de ejemplos de Power BI Embedded. |  |  |
-| [Wiki de JavaScript para Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Para obtener más información sobre las API de JavaScript para Power BI. |  |  |
+| Herramientas | Description |
+|---------|-------------|
+| [Área de juegos](https://microsoft.github.io/PowerBI-JavaScript/demo) | Descubra un ejemplo completo del uso de las API de JavaScript para Power BI. Esta herramienta es también una forma rápida de reproducir diferentes tipos de ejemplos de Power BI Embedded. |
+| [Wiki de JavaScript para Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Para obtener más información sobre las API de JavaScript para Power BI. |
 | [Postman](https://www.getpostman.com/) | Ejecute solicitudes, pruebe, depure, supervise, realice pruebas automatizadas y mucho más. |
 
 ## <a name="push-data-into-power-bi"></a>Insertar datos en Power BI
@@ -58,6 +58,6 @@ Puede usar la API de Power BI para [insertar datos en un conjunto de datos](wal
 * [Inserción de datos en un conjunto de datos](walkthrough-push-data.md)
 * [Desarrollo de un objeto visual de Power BI](../visuals/custom-visual-develop-tutorial.md)
 * [Referencia de la API REST de Power BI](rest-api-reference.md)
-* [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)
+* [API REST de Power BI](/rest/api/power-bi/)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
