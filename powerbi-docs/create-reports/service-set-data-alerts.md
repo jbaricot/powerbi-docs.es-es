@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dab2e4b7bdc3da8278db6765e7233d98d7dba473
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 55d196a9b041f52632300f6e10c00d753ca02a14
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218732"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635088"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Alertas de datos en el servicio Power BI
 
@@ -46,7 +46,7 @@ Este ejemplo utiliza un icono de tarjeta del panel de ejemplo de análisis de mi
 
 1. Para empezar, seleccione **+ Agregar regla de alertas**, asegúrese de que el control deslizante **Activo** esté establecido en **Activado**, y asigne un título a la alerta. Los títulos le ayudan a reconocer fácilmente las alertas.
 
-   ![Ventana Administrar alertas](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![Captura de pantalla en la que se muestra la ventana Administrar alertas con las opciones siguientes activadas: Agregar regla de alerta, Alerta para total de tiendas y Título de la alerta.](media/service-set-data-alerts/powerbi-alert-title.png)
 
 1. Desplácese hacia abajo y escriba los detalles de la alerta.  En este ejemplo, se creará una alerta que enviará una notificación una vez al día si el número total de tiendas supera las 100.
 
@@ -93,7 +93,7 @@ Hay muchas maneras de administrar las alertas:
 
     Power BI muestra todas las alertas que ha configurado para ese icono.
 
-    ![Ventana Administrar alertas](media/service-set-data-alerts/powerbi-see-alerts.png)
+    ![Captura de pantalla en la que se muestra la ventana Administrar alertas.](media/service-set-data-alerts/powerbi-see-alerts.png)
 
 1. Para modificar una alerta, seleccione la flecha situada a la izquierda del nombre de la alerta.
 

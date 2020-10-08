@@ -1,21 +1,21 @@
 ---
 title: Paseo por el panel de filtros de informe
-description: Procedimiento para agregar un filtro a un informe en el servicio Power BI para consumidores
+description: Procedimiento para agregar un filtro a un informe en el servicio Power BI para usuarios profesionales
 author: mihart
 ms.reviewer: mihart
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a6b9dc88c63e430d5f5f24136d34f294d9648b4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: fb283858d9e6fe016e382f4c662de6b66bce0258
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536501"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600814"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ver el panel Filtros del informe
 
@@ -25,17 +25,21 @@ ms.locfileid: "87536501"
 
 En este artículo se analiza el panel **Filtros** del informe en el servicio Power BI. Use los filtros para descubrir nuevas conclusiones en los datos.
 
-Hay muchas formas diferentes de filtrar los datos en Power BI. Para obtener más información sobre los filtros, vea [Filtros y resaltado en informes de Power BI](../create-reports/power-bi-reports-filters-and-highlighting.md).
+Hay muchas formas diferentes de filtrar los datos en Power BI. En este artículo se explica cómo usar el panel **Filtros**.  También puede filtrar datos seleccionando puntos de datos de un objeto visual de informe para filtrar los otros objetos visuales de la página. Este proceso se conoce como **filtrado cruzado** y **resaltado cruzado**. Para obtener más información sobre el filtrado cruzado y el resaltado cruzado, vea [Filtros y resaltado en informes de Power BI](../create-reports/power-bi-reports-filters-and-highlighting.md).
 
-![Captura de pantalla de un informe en el explorador con una flecha que apunta a la opción Filtros.](media/end-user-report-filter/power-bi-report.png)
+![Captura de pantalla de un informe en el explorador con una flecha que apunta a la opción Filtros.](media/end-user-report-filter/power-bi-reports.png)
 
 ## <a name="working-with-the-report-filters-pane"></a>Trabajar con el panel Filtros de informes
 
 Cuando algún compañero comparta un informe con usted, asegúrese de buscar el panel **Filtros**. A veces se contrae en el borde derecho del informe. Selecciónelo para expandirlo.
 
-![Captura de pantalla del informe con el panel Filtros expandido.](media/end-user-report-filter/power-bi-expand-filter-pane.png)
+![Captura de pantalla del informe con el panel Filtros expandido.](media/end-user-report-filter/power-bi-expand-filters-pane.png)
 
-El panel **Filtros** contiene filtros que el *diseñador* de informes ha agregado al informe. Los *consumidores*, como usted, pueden interactuar con los filtros existentes y guardar los cambios, pero no pueden agregar nuevos filtros al informe. Por ejemplo, en la captura de pantalla anterior el diseñador agregó tres filtros de nivel de página: **Segmento es Todos**, **Año es 2014** y **Región es Central**. Puede cambiar estos filtros e interactuar con ellos, pero no puede agregar un cuarto filtro de nivel de página.
+El panel **Filtros** contiene filtros que el *diseñador* de informes ha agregado al informe. Los *usuarios profesionales* como usted pueden interactuar con los filtros existentes y guardar los cambios, pero no pueden agregar nuevos filtros a un informe. Por ejemplo, en la captura de pantalla anterior el diseñador agregó tres filtros de nivel de página: **Segmento es Todos**, **Año es 2014** y **Región es Central**. Puede cambiar estos filtros e interactuar con ellos, pero no puede agregar un cuarto filtro de nivel de página.
+
+Algunos de los filtros están sombreados, mientras que otros no. Si un filtro está sombreado, significa que este se ha aplicado y que algunos datos se excluyen. Por ejemplo, la tarjeta del filtro **Región** está sombreada, y cuando expanda la tarjeta, verá que solo **Central** está seleccionado en el menú desplegable. Como Región está en el título **Filtros de esta página**, no se muestra ninguno de los objetos visuales de esta página para las regiones **Oeste** y **Este**.
+
+![Captura de pantalla del filtro Región expandido en el que se muestra Central con una marca de verificación.](media/end-user-report-filter/power-bi-filter-region.png)
 
 En el servicio Power BI, los informes conservan los cambios que haga en el panel **Filtros**. El servicio lleva esos cambios mediante la versión móvil del informe. 
 
@@ -54,19 +58,19 @@ Si quiere guardar algún cambio, también puede crear un marcador personal. Para
 
 El panel **Filtros** muestra y administra varios tipos de filtros de informe: informe, página del informe y objeto visual.
 
-En este ejemplo, se ha seleccionado un objeto visual que tiene tres filtros. La página del informe también tiene filtros, que aparecen debajo del encabezado **Filtros de esta página**. Además, todo el informe tiene un filtro de **Fecha**.
+En este ejemplo, se ha seleccionado un objeto visual que tiene tres filtros: **Fabricante**, **Mes** y **Total de unidades**. La página del informe también tiene filtros, que aparecen debajo del encabezado **Filtros de esta página**. Además, todo el informe tiene un filtro para **Fecha**, que se muestra en **Filtros de todas las páginas**.
 
-![Captura de pantalla de un informe con una visualización y sus filtros relacionados destacados.](media/end-user-report-filter/power-bi-filters-pane.png)
+![Captura de pantalla de un informe con una visualización y sus filtros relacionados destacados.](media/end-user-report-filter/power-bi-filter-pane.png)
 
 Algunos de los filtros tienen **(Todos)** junto a ellos. **(Todos)** implica que se incluyen todos los valores en el filtro. En la captura de pantalla anterior, **Segmento(Todos)** indica que esta página del informe incluye datos sobre todos los segmentos de productos. 
 
-Cualquier persona que vea este informe puede interactuar con estos filtros.
+Cualquier persona que tenga los permisos necesarios para ver este informe podrá interactuar con estos filtros.
 
 ### <a name="view-only-those-filters-applied-to-a-visual"></a>Ver solo esos filtros aplicados a un objeto visual
 
-Para obtener un análisis más detallado de los filtros aplicados a un objeto visual específico, mueva el puntero sobre el objeto visual para mostrar el icono de filtro ![Captura de pantalla del icono de filtro.](media/end-user-report-filter/power-bi-filter-icon.png). Seleccione ese icono de filtro para ver una ventana emergente con todos los filtros, las segmentaciones, etc., que afectan a ese objeto visual. Los filtros de la ventana emergente incluyen los mismos filtros que se muestran en el panel **Filtros**, además de filtrado adicional que afecta al objeto visual seleccionado.
+Para obtener un análisis más detallado de los filtros que afectan a un objeto visual específico, mueva el puntero sobre el objeto visual para mostrar el icono de filtro ![Captura de pantalla del icono de filtro.](media/end-user-report-filter/power-bi-filter-icon.png). Seleccione ese icono de filtro para ver una ventana emergente con todos los filtros, las segmentaciones, etc., que afectan a ese objeto visual. Los filtros de la ventana emergente incluyen los mismos filtros que se muestran en el panel **Filtros**, además de cualquier filtrado adicional que afecta al objeto visual seleccionado.
 
-![Captura de pantalla de una lista de filtros con flechas que apuntan a dónde se encuentran esos filtros en el panel Filtros.](media/end-user-report-filter/power-bi-hover-filters.png)
+![Captura de pantalla de una lista de filtros con flechas que apuntan a dónde se encuentran esos filtros en el panel Filtros.](media/end-user-report-filter/power-bi-filters-hover.png)
 
 Estos son los tipos de filtros que se pueden mostrar en esta vista:
 
@@ -82,7 +86,7 @@ Estos son los tipos de filtros que se pueden mostrar en esta vista:
 - Filtros que se pasan mediante una dirección URL
 
 En este ejemplo:
-1. **Incluido** nos indica que se ha aplicado un filtro cruzado al objeto. Esto significa que los estados de Utah, Colorado y Texas se han seleccionado en uno de los otros objetos visuales de esta página de informe. En este caso, es el mapa. La selección de esos tres estados ha eliminado datos de todos los demás estados en el gráfico de barras seleccionado.  
+1. **Incluido** nos indica que se ha aplicado un filtro cruzado al objeto. Esto significa que los estados de Alabama y Texas se han seleccionado en uno de los otros objetos visuales de esta página de informe. En este caso, es el objeto visual de mapa. La selección de esos dos estados ha eliminado datos de todos los demás estados en el gráfico de barras seleccionado.  
 
 1. **Fecha** es un filtro que se aplica a todas las páginas de este informe.
 
@@ -95,19 +99,19 @@ En este ejemplo:
 
 A veces, un filtro puede tener una lista larga de valores. Use el cuadro de búsqueda para buscar y seleccionar el valor que quiera.
 
-![Captura de pantalla del procedimiento para buscar en un filtro.](media/end-user-report-filter/power-bi-search.png)
+![Captura de pantalla del procedimiento para buscar en un filtro.](media/end-user-report-filter/power-bi-search-filter.png)
 
 ### <a name="display-filter-details"></a>Mostrar detalles del filtro
 
-Para comprender un filtro, eche un vistazo a los valores y recuentos disponibles.  Para ver los detalles del filtro, mueva el puntero sobre él y seleccione la flecha situada junto al nombre del filtro.
+Para comprender un filtro, expándalo y eche un vistazo a los valores y recuentos disponibles.  Para expandirlo, seleccione la flecha situada junto a su nombre.
   
-![Captura de pantalla de un filtro que muestra la región Oeste seleccionada.](media/end-user-report-filter/power-bi-filter-expand.png)
+![Captura de pantalla de un filtro que muestra la región Oeste seleccionada.](media/end-user-report-filter/power-bi-filters-expand.png)
 
 ### <a name="change-filter-selections"></a>Cambiar las selecciones de filtros
 
-Una forma de buscar conclusiones sobre los datos es interactuar con los filtros. Puede cambiar las selecciones de filtros mediante la flecha desplegable situada junto al nombre del campo.  En función del filtro y el tipo de datos que esté filtrando Power BI, sus opciones variarán desde selecciones simples de una lista hasta identificar intervalos de fechas o números. En el filtro avanzado que se muestra a continuación, hemos cambiado el filtro **Total de unidades hasta la fecha** del gráfico de rectángulos para estar entre 2000 y 3000. Fíjese en que este cambio elimina Pirum del gráfico de rectángulos.
+Una forma de buscar conclusiones sobre los datos es interactuar con los filtros. Puede cambiar las selecciones de filtros mediante la flecha desplegable situada junto al nombre del campo.  En función del filtro y el tipo de datos que esté filtrando Power BI, sus opciones variarán desde selecciones simples de una lista hasta identificar intervalos de fechas o números. En el filtro avanzado que se muestra a continuación, hemos cambiado el filtro **Total de unidades hasta la fecha** del gráfico de rectángulos para estar entre 2000 y 3000. Fíjese en que este cambio elimina Pirum del gráfico de rectángulos.
   
-![Captura de pantalla de un informe y sus filtros que muestra el gráfico de rectángulos seleccionado.](media/end-user-report-filter/power-bi-treemap-filters.png)
+![Captura de pantalla de un informe y sus filtros que muestra el gráfico de rectángulos seleccionado.](media/end-user-report-filter/power-bi-treemap-filter.png)
 
 > [!TIP]
 > Para seleccionar más de un valor de filtro a la vez, mantenga presionada la tecla CTRL. La mayoría de los filtros admiten la selección múltiple.
@@ -118,11 +122,11 @@ Si quiere eliminar todos los cambios que ha realizado en los filtros, seleccione
 
 ![Captura de pantalla de la opción Restablecer valores predeterminados.](media/end-user-report-filter/power-bi-reset-icon.png)
 
-### <a name="clear-a-filter"></a>Borrado de un filtro
+### <a name="clear-a-filter"></a>Borrar un filtro
 
 Para restablecer un filtro a (Todos), seleccione el icono de borrador situado junto al nombre del filtro para desactivarlo.
 
-![Captura de pantalla del icono de borrador.](media/end-user-report-filter/power-bi-eraser.png)
+![Captura de pantalla del icono de borrador.](media/end-user-report-filter/power-bi-erase.png)
   
 <!--  too much detail for consumers
 

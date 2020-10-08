@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e0aa8c5845c7f87f15e9b152bcaa20094e83ade
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 148fe66039cb273d4ee20521762d5720252c7492
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237800"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635732"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascada en Power BI
 
@@ -96,7 +96,7 @@ Profundice un poco más para ver lo que está contribuyendo más a los cambios d
 
 1.  Seleccione **Tienda** > **Territorio** para agregar **Territorio** al cubo **Desglose**.
 
-    ![Se muestra Store en el cubo Desglose](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![Captura de pantalla en la que se muestra cómo agregar Territorio a la zona Desglose.](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
     Power BI usa el valor de **Desglose** para agregar datos adicionales a la visualización. Agrega los principales cinco factores que contribuyen a los aumentos o disminuciones para cada mes fiscal. Esto significa que febrero, por ejemplo, ahora tiene seis puntos de datos en lugar de uno.  
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 78aac3b12abc0e055094078c59f39911a026e797
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e794ecc67f7873efb1ee5750f55aefb3d93b40b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238506"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600306"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Creación de información sobre herramientas basada en páginas de informes en Power BI Desktop
 Puede crear **información en pantalla para informes** enriquecida visualmente que aparezca cuando mantenga el puntero encima de objetos visuales, en función de las páginas de informe que cree en **Power BI Desktop**. Mediante la creación de una página de informe que sirva como información en pantalla, la información personalizada puede incluir objetos visuales, imágenes y cualquier otra colección de elementos que cree en la página del informe. 
@@ -46,7 +46,7 @@ También puede asignar un nombre a la página del informe para que su finalidad 
 
 En esta página puede crear los objetos visuales que quiere que aparezcan en la información en pantalla. En la siguiente imagen hay dos tarjetas y un gráfico de barras agrupadas en la página de la información en pantalla, junto con un color de fondo para la propia página, así como fondos para cada uno de los objetos visuales, para darle el aspecto que queremos.
 
-![Información en pantalla para informes de Power BI Desktop](media/desktop-tooltips/desktop-tooltips_06.png)
+![Captura de pantalla en la que se muestra información sobre un informe personalizado.](media/desktop-tooltips/desktop-tooltips_06.png)
 
 Se deben seguir más pasos antes de dejar lista la página de informe de información en pantalla para usarla. Debe configurar la página de información en pantalla de varias maneras, como se describe en la sección que hay a continuación. 
 
