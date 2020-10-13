@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
-ms.date: 09/05/2017
-ms.openlocfilehash: cb2a5ede49acb218450174bbf77388be5c504617
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 09/22/2020
+ms.openlocfilehash: 9267d6318bd951fdff41cb51786a4a519fa75917
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861737"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136060"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Actualización de Power BI Report Server
 
 Aprenda a actualizar un servidor de informes de Power BI.
 
- **Descarga** ![descarga](media/upgrade/download.png "descarga")
+ **Descargar** ![icono de descarga](media/upgrade/download.png "icono de descarga")
 
 Para descargar el servidor de informes de Power BI y Power BI Desktop optimizado para el servidor de informes de Power BI, vaya a [Publicar informes en almacenamiento local con el servidor de informes de Power BI](https://powerbi.microsoft.com/report-server/).
 
@@ -30,21 +30,21 @@ Antes de actualizar un servidor de informes, se recomienda que realice los pasos
 
 ### <a name="backing-up-the-encryption-keys"></a>Copia de seguridad de las claves de cifrado
 
-Debe realizar una copia de seguridad de las claves de cifrado cuando configura la instalación de un servidor de informes por primera vez. También debe realizar una copia de seguridad de las claves cada vez que cambie la identidad de las cuentas de servicio o cambie el nombre del equipo. Para obtener más información, vea [Hacer copia de seguridad y restaurar claves de cifrado de Reporting Services](/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys).
+Realice una copia de seguridad de las claves de cifrado cuando configure la instalación de un servidor de informes por primera vez. Realice también una copia de seguridad de las claves cada vez que cambie la identidad de las cuentas de servicio o cambie el nombre del equipo. Para obtener más información, vea [Hacer copia de seguridad y restaurar claves de cifrado de Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys).
 
 ### <a name="backing-up-the-report-server-databases"></a>Copia de seguridad de las bases de datos del servidor de informes
 
-Dado que un servidor de informes es un servidor sin estado, todos los datos de aplicación se almacenan en las bases de datos **reportserver** y **reportservertempdb** que se ejecutan en una instancia del Motor de base de datos de SQL Server. Puede hacer una copia de seguridad de las bases de datos **reportserver** y **reportservertempdb** con alguno de los métodos admitidos para copias de seguridad de bases de datos de SQL Server. Éstas son algunas de las recomendaciones específicas de las bases de datos del servidor de informes:
+Dado que un servidor de informes es un servidor sin estado, todos los datos de aplicación se almacenan en las bases de datos **reportserver** y **reportservertempdb** que se ejecutan en una instancia del Motor de base de datos de SQL Server. Puede hacer una copia de seguridad de las bases de datos **reportserver** y **reportservertempdb** con alguno de los métodos admitidos para copias de seguridad de bases de datos de SQL Server. Estas recomendaciones son específicas de las bases de datos del servidor de informes:
 
 * Use el modelo de recuperación completa para realizar la copia de seguridad de la base de datos **reportserver**.
 * Use el modelo de recuperación simple para realizar la copia de seguridad de la base de datos **reportservertempdb**.
-* Puede utilizar distintas programaciones de copia de seguridad para cada base de datos. La copia de seguridad de **reportservertempdb** solo se realiza para evitar tener que volver a crearla en caso de un error de hardware. Si se produce un error de hardware, no es necesario recuperar los datos de **reportservertempdb**, pero sí se requiere la estructura de la tabla. Si se pierde **reportservertempdb**, la única forma de recuperarla es volver a crear la base de datos del servidor de informes. Si se vuelve a crear **reportservertempdb**, es importante que su nombre sea el mismo que el de la base de datos primaria del servidor de informes.
+* Puede utilizar distintas programaciones de copia de seguridad para cada base de datos. La copia de seguridad de **reportservertempdb** solo se realiza para evitar tener que volver a crearla en caso de un error de hardware. En caso de producirse un error de hardware, no es necesario recuperar los datos de **reportservertempdb**, pero sí se requiere la estructura de la tabla. Si se pierde **reportservertempdb**, la única forma de recuperarla es volver a crear la base de datos del servidor de informes. Si se vuelve a crear **reportservertempdb**, es importante que su nombre sea el mismo que el de la base de datos primaria del servidor de informes.
 
 Para obtener más información sobre copia de seguridad y recuperación de bases de datos relacionales de SQL Server, vea [Realizar copias de seguridad y restaurar bases de datos de SQL Server](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases).
 
 ### <a name="backing-up-the-configuration-files"></a>Copia de seguridad de los archivos de configuración
 
-El servidor de informes de Power BI usa archivos de configuración para almacenar la configuración de la aplicación. Se debe realizar una copia de seguridad de estos archivos la primera vez que se configura el servidor y después de implementar extensiones personalizadas. Debe realizar una copia de seguridad de los siguientes archivos:
+El servidor de informes de Power BI usa archivos de configuración para almacenar la configuración de la aplicación. Realice una copia de seguridad de estos archivos la primera vez que se configure el servidor y después de implementar extensiones personalizadas. Debe realizar una copia de seguridad de los siguientes archivos:
 
 * config.json
 * RSHostingService.exe.config
@@ -56,7 +56,7 @@ El servidor de informes de Power BI usa archivos de configuración para almacena
 
 ## <a name="upgrade-the-report-server"></a>Actualización del servidor de informes
 
-Es sencillo actualizar el servidor de informes de Power BI. Solo se necesitan unos cuantos pasos para instalar los archivos.
+Es sencillo actualizar Power BI Report Server. Solo se necesitan unos cuantos pasos para instalar los archivos.
 
 1. Busque la ubicación de PowerBIReportServer.exe e inicie el instalador.
 
@@ -72,9 +72,17 @@ Es sencillo actualizar el servidor de informes de Power BI. Solo se necesitan un
 
     ![Actualizar configuración](media/upgrade/reportserver-upgrade-configure.png)
 
+## <a name="enable-microsoft-update-security-fixes-for-power-bi-report-server"></a>Habilitación de correcciones de seguridad de Microsoft Update para Power BI Report Server
+
+Power BI Report Server recibe correcciones de seguridad a través de Microsoft Update. Para poder obtenerlas, participe en Microsoft Update manualmente.
+
+1.  Abra Windows Update en la **configuración de actualización y seguridad** del equipo donde desea participar.
+2.  Seleccione **Opciones avanzadas**.
+3.  Selecciona la casilla **Ofrecer actualizaciones para otros productos de Microsoft cuando actualice Windows**.
+
 ## <a name="upgrade-power-bi-desktop"></a>Actualización de Power BI Desktop
 
-Después de actualizar el servidor de informes, deseará asegurarse de que los autores de informes de Power BI actualicen a la versión de Power BI Desktop optimizado para el servidor de informes de Power BI que coincida con el servidor.
+Después de actualizar el servidor de informes, deseará asegurarse de que los autores de informes de Power BI actualicen a la versión de Power BI Desktop optimizado para la instancia de Power BI Report Server que coincida con el servidor.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

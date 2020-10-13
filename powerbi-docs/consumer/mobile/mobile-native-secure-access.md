@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/07/2020
 ms.author: painbar
-ms.openlocfilehash: 634252979129353ac628c574acb23bb184782ffa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a32ac9b1631a23502d9752ed9f96355fa36b90da
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220020"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668606"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>Protección de la aplicación Power BI con Face ID, Touch ID, código de acceso o datos biométricos 
 
@@ -48,7 +48,7 @@ Una vez que esta opción está activada, cada vez que inicie la aplicación o la
 
 En la imagen siguiente se muestra la pantalla de autenticación de huella digital.
 
-![Face ID de Power BI para iOS](./media/mobile-native-secure-access/mobile-android-native-secured-fingerprint-id.png)
+![Captura de pantalla que muestra un mensaje de que se requiere identificación adicional en un teléfono Android.](./media/mobile-native-secure-access/mobile-android-native-secured-fingerprint-id.png)
 
 >[!NOTE]
 >Para poder usar la configuración de Autenticación biométrica necesaria de la aplicación móvil, en primer lugar se debe configurar la biometría en el dispositivo Android. Si el dispositivo no es compatible con la biometría, no podrá proteger el acceso a los datos de Power BI con esta configuración de la aplicación móvil.

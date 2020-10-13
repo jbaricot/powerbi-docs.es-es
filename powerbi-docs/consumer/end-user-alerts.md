@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3e34a736148a5d962c1f2d56782d38f31c15b9b6
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: 22d9baaf50ce32c4a9d3644cff455b474bdd1549
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049572"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525346"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Tutorial: Establecer alertas en paneles de Power BI
 
@@ -86,7 +86,7 @@ Si no está registrado en Power BI, [regístrese para obtener una evaluación gr
    
 1. En el panel **Administrar alertas**, haga clic en **+ Agregar regla de alertas**.  Asegúrese de que el control deslizante esté **activado** y asigne un título a la alerta. Los títulos le ayudan a reconocer fácilmente las alertas.
    
-   ![Ventana Administrar alertas](media/end-user-alerts/power-bi-alert-manage.png)
+   ![Ventana Agregar regla de alertas](media/end-user-alerts/power-bi-alert-manage.png)
 4. Desplácese hacia abajo y escriba los detalles de la alerta.  En este ejemplo, vamos a crear una alerta que nos enviará una notificación una vez al día si nuestra cuota de mercado es 40 o superior. Las alertas aparecen en nuestro [Centro de notificaciones](end-user-notification-center.md). Y haremos que Power BI nos envíe también un correo electrónico.
    
    ![Ventana Administrar alertas, establecimiento de umbral](media/end-user-alerts/power-bi-manage-alert-detail.png)
@@ -142,7 +142,7 @@ Hay varias maneras de administrar las alertas: desde el icono del panel, desde e
 
 ## <a name="tips-and-troubleshooting"></a>Sugerencias y solución de problemas 
 
-* Si no puede establecer una alerta para un medidor, un indicador KPI o una tarjeta, póngase en contacto con el administrador de inquilinos o con el departamento de soporte técnico de TI para solicitar ayuda. A veces, las alertas se desactivan o no están disponibles para el panel o para tipos específicos de iconos del panel.
+* Si no puede establecer una alerta para un medidor, un indicador KPI o una tarjeta, póngase en contacto con el administrador de Power BI o con el departamento de soporte técnico de TI para solicitar ayuda. A veces, las alertas se desactivan o no están disponibles para el panel o para tipos específicos de iconos del panel.
 * Las alertas solo funcionan en los datos que se actualizan. No funcionan con datos estáticos. La mayoría de los ejemplos proporcionados por Microsoft son estáticos. 
 * Para recibir y ver contenido compartido, se necesita una licencia Power BI Pro o Premium. Para obtener más información, vea [¿Qué licencia tengo?](end-user-license.md)
 * Las alertas se pueden establecer en los objetos visuales creados a partir de conjuntos de streaming que se anclan desde un informe a un panel. No se pueden establecer alertas en iconos de streaming creados directamente en el panel mediante **Agregar icono** > **Datos de transmisión personalizados**.

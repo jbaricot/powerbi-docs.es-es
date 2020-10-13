@@ -7,19 +7,19 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 12/03/2019
-ms.openlocfilehash: 97d116e233395368ddf86b86811f1a3ee72a43c4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/28/2020
+ms.openlocfilehash: 37ec4b9f38287b893469de2bcf152a6aba9886ad
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538088"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528238"
 ---
 # <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Visualización de los parámetros de los informes paginados en el servicio Power BI
 
-En este artículo, obtendrá información sobre cómo interactuar con los parámetros de los informes paginados en el servicio Power BI.  El parámetro de un informe ofrece una forma de filtrar los datos de los informes. Los parámetros ofrecen una lista de valores disponibles, y puede elegir uno o varios valores. A veces, los parámetros tienen un valor predeterminado y, en ocasiones, tendrá que elegir un valor para poder ver el informe.  
+En este artículo, obtendrá información sobre cómo interactuar con los parámetros de los informes paginados en el servicio Power BI.  El parámetro de un informe ofrece una forma de filtrar los datos de los informes. Los parámetros ofrecen una lista de valores disponibles. Puede elegir uno o muchos valores, o bien escribir en un cuadro de texto Parámetros para buscar valores. A veces, los parámetros tienen un valor predeterminado y, en ocasiones, tendrá que elegir un valor para ver el informe.  
 
-Al ver un informe que tiene parámetros, la barra de herramientas del visor de informes muestra cada parámetro para especificar valores de forma interactiva. La siguiente ilustración muestra el área de parámetros de un informe con parámetros para **Grupo de compra**, **Ubicación**, **Fecha inicial** y **Fecha final**.  
+Al ver un informe que tiene parámetros, en la barra de herramientas del visor de informes se muestran todos los parámetros para que los usuarios puedan especificar valores de forma interactiva. La siguiente ilustración muestra el área de parámetros de un informe con parámetros para **Grupo de compra**, **Ubicación**, **Fecha inicial** y **Fecha final**.  
 
 ## <a name="parameters-pane-in-the-power-bi-service"></a>Panel de parámetros en el servicio Power BI
 

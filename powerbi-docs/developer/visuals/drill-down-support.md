@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: b02d8d61a4580e70a72aa4da66c4409f04b7f6bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 054d7a4f96c83b97fbd5e96e7a3cf66d58a74823
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240093"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635939"
 ---
 # <a name="add-drill-down-support"></a>Adición de compatibilidad con exploración en profundidad
 
@@ -26,7 +26,9 @@ Los objetos visuales de Power BI pueden usar la exploración en profundidad de 
 
 Para admitir la exploración en profundidad en un objeto visual, agregue un campo nuevo a `capabilities.json` con el nombre "exploración en profundidad", que tiene una propiedad:
 
-    *roles - the name of the dataRole you want to enable drill-down on.
+```json
+*roles - the name of the dataRole you want to enable drill-down on.
+```
 
 > [!NOTE]
 > El rol de datos de la exploración en profundidad debe ser de tipo `Grouping`.
@@ -222,11 +224,11 @@ Preparar los datos de ejemplo para probar el objeto visual:
 
 Y crear una jerarquía en Power BI Desktop:
 
-![Crear una jerarquía](media/drill-down-support/create-new-hierarchy.png)
+![Captura de pantalla en la que se muestra la nueva jerarquía seleccionada en un menú contextual.](media/drill-down-support/create-new-hierarchy.png)
 
 Incluir todas las columnas de categoría (H1, H2 y H3) en la jerarquía nueva:
 
-![Crear una jerarquía](media/drill-down-support/new-hierarchy.png)
+![La captura de pantalla muestra las columnas de categoría que se pueden agregar a la nueva jerarquía.](media/drill-down-support/new-hierarchy.png)
 
 Después de esos pasos, debería obtener el siguiente objeto visual:
 
@@ -305,11 +307,11 @@ Cambiar el cuerpo de la devolución de llamada de función `forEach` a:
 
 Aplicar datos al objeto visual:
 
-![El objeto visual con datos](media/drill-down-support/dev-visual-drilldown-data.png)
+![Captura de pantalla que muestra la jerarquía con la opción H2 destacada.](media/drill-down-support/dev-visual-drilldown-data.png)
 
 En el paso final debería obtener el objeto visual con selecciones y el menú contextual:
 
-![El objeto visual con compatibilidad con la exploración en profundidad](media/drill-down-support/dev-visual-drilldown-demo.gif)
+![Animación que muestra la selección de Explorar desagrupando datos y Rastrear agrupando datos en el menú contextual del objeto visual.](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>Agregar compatibilidad de exploración en profundidad para la asignación de la vista de datos de matriz
 
@@ -389,7 +391,7 @@ Aplicar la siguiente asignación de vista de datos al objeto visual:
 
 Aplicar datos al objeto visual:
 
-![El objeto visual con datos](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
+![Captura de pantalla muestra MatrixHierarchy con la jerarquía de columnas y filas y sus miembros seleccionados.](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 Importar las interfaces necesarias para procesar las asignaciones de vista de datos de matriz:
 
@@ -614,7 +616,7 @@ public update(options: VisualUpdateOptions) {
 
 En el paso final debería obtener el objeto visual con el menú contextual:
 
-![El objeto visual con compatibilidad con la exploración en profundidad](media\drill-down-support\dev-visual-drilldown-demo.gif)
+![Animación que muestra un menú contextual del objeto visual con opciones para explorar en profundidad o rastrear agrupando datos.](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>Pasos siguientes
 

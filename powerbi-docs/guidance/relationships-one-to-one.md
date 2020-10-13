@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: cbcf7fc1890ae1455f1f6ec7c8604e275f60b2d5
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136267"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668422"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Instrucciones para relaciones uno a uno
 
@@ -82,7 +82,7 @@ Tenga en cuenta que la tabla **Product Category** no incluye una fila para el pr
 
 En el panel **Campos**, los autores de informes encontrarán campos relacionados con el producto en dos tablas: **Product** y **Product Category**.
 
-![El panel Campos muestra ambas tablas expandidas y las columnas se enumeran como campos.](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
+![El panel Campos muestra las tablas expandidas y las columnas se muestran como campos con la categoría Producto y Categoría del producto.](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
 
 Veamos qué sucede cuando los campos de ambas tablas se agregan a un objeto visual de tabla. En este ejemplo, la columna **SKU** se obtiene de la tabla **Product**.
 
@@ -112,7 +112,7 @@ Los siguientes pasos presentan una metodología para consolidar y modelar los da
 
     En nuestro ejemplo, los autores de informes ahora encuentran una sola tabla llamada **Product** en el panel **Campos**. Contiene todos los campos relacionados con el producto.
 
-    ![El panel Campos muestra ambas tablas expandidas y las columnas se enumeran como campos.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
+    ![El panel Campos muestra ambas tablas expandidas y las columnas se enumeran como campos con la opción Producto destacada.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
 3. **Reemplazar los valores que faltan**: si la segunda consulta tiene filas no coincidentes, aparecerán valores NULL en las columnas introducidas desde ella. Cuando sea apropiado, considere reemplazar los valores NULL por un valor de token. El reemplazo de los valores que faltan es especialmente importante cuando los autores de informes filtran o agrupan por los valores de la columna, ya que los valores EN BLANCO podrían aparecer en los objetos visuales del informe.
 
     En el siguiente objeto visual, observe que en la categoría del producto SKU CL-02 ahora pone _[Sin definir]_ . En la consulta, las categorías nulas se reemplazaron por este valor de texto de token.
@@ -123,7 +123,7 @@ Los siguientes pasos presentan una metodología para consolidar y modelar los da
 
     En nuestro ejemplo, los autores de informes ahora pueden usar una jerarquía que tiene dos niveles: **Category** y **Product**.
 
-    ![El panel Campos muestra ambas tablas expandidas y las columnas se enumeran como campos.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
+    ![El panel Campos muestra ambas tablas expandidas y las columnas se enumeran como campos con la opción Productos destacada.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
 
 Si le gusta cómo las tablas independientes ayudan a organizar sus campos, todavía le recomendamos consolidar en una sola tabla. Todavía puede organizar sus campos, pero utilizando _carpetas para mostrar_.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216683"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668537"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Instrucciones para relaciones de varios a varios
 
@@ -48,7 +48,7 @@ Para facilitar la descripción del funcionamiento de la propagación del filtro 
 > [!NOTE]
 > No es posible mostrar filas de tabla en el diagrama de modelo de Power BI Desktop. En este artículo se hace para complementar la explicación con ejemplos claros.
 
-![Diagrama en el que se muestra que ahora el modelo muestra las filas de la tabla. En el párrafo siguiente se describen los detalles de las filas.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![Diagrama en el que se muestra que ahora el modelo muestra las filas de la tabla. Los detalles de las filas de las cuatro tablas se describen en el siguiente párrafo.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 Los detalles de las filas de las cuatro tablas se describen en la siguiente lista con viñetas:
 
@@ -137,7 +137,7 @@ La cardinalidad de relación se establece en varios a varios para admitir el alm
 
 A continuación se examinarán las filas de la tabla. En la tabla **Fulfillment**, observe que varios pedidos se pueden cumplir mediante varios envíos. (La ausencia de una línea de pedido significa que el pedido todavía no se ha cumplido).
 
-![Diagrama en el que se muestra que ahora el modelo muestra las filas de la tabla. En el párrafo siguiente se describen los detalles de las filas.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![Diagrama en el que se muestra que ahora el modelo muestra las filas de la tabla. Los detalles de las filas de las dos tablas se describen en el siguiente párrafo.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 Los detalles de las filas de las dos tablas se describen en la siguiente lista con viñetas:
 
@@ -228,7 +228,7 @@ IF(
 
 El siguiente objeto visual de matriz usa ahora la medida **Target Quantity** (Cantidad de destino). Muestra que todas las cantidades de destino mensuales están en blanco.
 
-![Diagrama en el que se muestra un objeto visual de matriz donde la cantidad de destino del año 2020 es 270.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![Diagrama en el que se muestra un objeto visual de matriz donde la cantidad de destino del año 2020 es 270 con valores mensuales en blanco.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>Relación con un nivel de detalle más alto (distinto de fechas)
 

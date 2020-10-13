@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/21/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 8f0d4c970de1724f47a016cbe063f1cc3df20178
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b2eff10484a7e05a9e51dfc09d44598de034ee88
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239933"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635249"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Enseñanza de Preguntas y respuestas para comprender las preguntas y los términos de Preguntas y respuestas de Power BI
 
@@ -61,7 +61,7 @@ Preguntas y respuestas detecta automáticamente cuándo una palabra desconocida 
 
 Rellene el cuadro con el término a partir de los datos.
 
-![Pedir confirmación del sinónimo de Enseñanza de Preguntas y respuestas](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
+![La captura de pantalla muestra parte del cuadro de preguntas y respuestas con la palabra Ingresos y el mensaje Ingresos hace referencia a "junto al cuadro de texto".](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 Si proporciona un valor que no sea un campo del modelo de datos, puede obtener resultados no deseados.
 
@@ -73,7 +73,7 @@ En ocasiones, es posible que desee definir términos que actúan como una condic
 
 Rellene el cuadro con la condición.
 
-![Pedir confirmación del sinónimo de Enseñanza de Preguntas y respuestas](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
+![La captura de pantalla muestra parte del cuadro de preguntas y respuestas con las palabras Publicadores increíbles y el mensaje Publicadores que tienen junto a un cuadro de texto y las palabras son increíbles.](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 Algunas de las condiciones de ejemplo que se pueden definir son:
 

@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 49ed6bd0ae8021936c327aede83d0e6a8539179a
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b9b299207a95091244d1f9ff7ab5f7a0d5460fc8
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216141"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634123"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Inicio rápido: Moverse por el servicio Power BI
 
@@ -47,12 +47,12 @@ Para empezar, abra el servicio Power BI (app.powerbi.com) y vaya a **Inicio**.
 
 1. Una vez que se haya instalado, seleccione **Aplicaciones** desde el panel de navegación. 
 
-   ![Abrir el servicio Power BI por primera vez](./media/end-user-experience/power-bi-home-steps.png)
+   ![La captura de pantalla muestra la pantalla principal de Power BI con un mensaje de bienvenida.](./media/end-user-experience/power-bi-home-steps.png)
 
 
 2. En la pantalla **Aplicaciones**, seleccione la aplicación **Ejemplo de ventas y marketing**.
 
-    ![Abrir el servicio Power BI por primera vez](./media/end-user-experience/power-bi-sample-app.png)
+    ![La captura de pantalla muestra la pantalla de aplicaciones de Power BI con una aplicación llamada Ejemplo de ventas y marketing.](./media/end-user-experience/power-bi-sample-app.png)
 
 2. Seleccione **Explorar la aplicación**.
 

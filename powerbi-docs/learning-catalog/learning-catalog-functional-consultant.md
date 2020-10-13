@@ -1,17 +1,17 @@
 ---
 title: Catálogo de aprendizaje para asesores de aplicaciones funcionales
-description: Búsqueda de todas las opciones de entrenamiento para Power Apps
+description: Busque todas las opciones de aprendizaje de Power Apps para expertos en implementación de un dominio empresarial, de la más básica a la más avanzada.
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 3ebfa0e13293f65d5399aafb7071d4eaad63cc6f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: d31cdab393535609e8e12de97b2b784f55a3d9a2
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527806"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749216"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>Catálogo de aprendizaje para asesores de aplicaciones funcionales
 

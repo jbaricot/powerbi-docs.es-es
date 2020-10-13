@@ -10,12 +10,12 @@ ms.date: 05/20/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: ebc402bf317eb99294137260fcd0cd1e9178d9eb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e1da5cc99cbc12b9cbcc41544569f8f0ede9590
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237319"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634030"
 ---
 # <a name="collaborate-in-workspaces"></a>Colaboración en áreas de trabajo
 
@@ -25,7 +25,7 @@ ms.locfileid: "85237319"
 
  Puede ver las áreas de trabajo desde el **Inicio** de Power BI, o bien si selecciona **Área de trabajo** o **Mi área de trabajo** en el panel de navegación izquierdo.
 
- ![Panel de navegación en el que se muestran dos tipos de áreas de trabajo](media/end-user-workspaces/power-bi-home.png)
+ ![La captura de pantalla muestra el panel de navegación en el que se muestran dos tipos de áreas de trabajo.](media/end-user-workspaces/power-bi-home.png)
 
 ## <a name="types-of-workspaces"></a>Tipos de áreas de trabajo
 En **Mi área de trabajo** se almacena todo el contenido que se crea y del que se es propietario. Puede considerarla como su espacio aislado o área de trabajo para su propio contenido. Para muchos *consumidores* de Power BI, la sección **Mi área de trabajo** estará vacía porque su trabajo no conlleva la creación de contenido. Los *consumidores*, por definición, consumen datos creados por otros usuarios y usan esos datos para tomar decisiones empresariales. En el caso de que también se dedique a crear contenido, le recomendamos que lea [los artículos de Power BI para diseñadores](../create-reports/index.yml).
@@ -34,7 +34,7 @@ Las **áreas de trabajo** incluyen todo el contenido de una aplicación específ
 
 El área de trabajo de Cifras de ventas siguiente contiene tres informes y un panel. 
 
-![Panel de navegación en el que se muestran dos tipos de áreas de trabajo](media/end-user-workspaces/power-bi-app-workspace.png)
+![La captura de pantalla muestra cómo aparece un área de trabajo en el elemento de menú Áreas de trabajo y contiene informes y un panel.](media/end-user-workspaces/power-bi-app-workspace.png)
 
 ## <a name="roles-in-the-workspaces"></a>Roles en las áreas de trabajo
 

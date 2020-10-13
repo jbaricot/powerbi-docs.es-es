@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: a929374e3d974606d27defed4a7faa99e5450c87
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 4066911e90090fe770ca0d33f7e0d9a18d9dde71
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427859"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746318"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports"></a>Implementación de la seguridad de nivel de fila en los informes paginados insertados
 
@@ -28,7 +28,7 @@ Esta característica proporciona una manera segura de mostrar un subconjunto de 
 
 Al aplicar la seguridad de nivel de fila a un informe paginado de Power BI, debe asignar un [parámetro](../../paginated-reports/report-builder-parameters.md) al atributo **UserID**. Este parámetro limitará los datos extraídos del conjunto de datos antes de que el informe sea insertado.
 
-Después de asignar el parámetro a **UserID**, utilice la API [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) para obtener el token de inserción.
+Después de asignar el parámetro a **UserID**, utilice la API [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) para obtener el token de inserción.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>Uso de UserID como filtro en el nivel de informe o consulta
 
@@ -42,7 +42,7 @@ Puede usar **UserId** como *filtro* o en una *consulta* al origen de datos de [P
 
 2. En el menú desplegable **Expresión**, seleccione el parámetro que desea usar para filtrar los datos.
 
-     ![Expresión del Generador de informes de Power BI](media/paginated-reports-row-level-security/expression.png)
+     ![Captura de pantalla que muestra el valor Color seleccionado en el menú Expresión.](media/paginated-reports-row-level-security/expression.png)
 
 3. Haga clic en el botón de la función **Valor**. 
 
@@ -50,7 +50,7 @@ Puede usar **UserId** como *filtro* o en una *consulta* al origen de datos de [P
 
 4. En la ventana **Expresión**, en la lista **Categoría**, seleccione **Campos integrados**.
 
-    ![Expresión del Generador de informes de Power BI](media/paginated-reports-row-level-security/built-in-fields.png)
+    ![Captura de pantalla que muestra la ventana Expresión con campos integrados seleccionados como categoría y ExecutionTime seleccionados como elemento.](media/paginated-reports-row-level-security/built-in-fields.png)
 
 5. En la lista **Elemento**, seleccione **UserID** y haga clic en **Aceptar**.
 
@@ -78,7 +78,7 @@ Puede usar **UserId** como *filtro* o en una *consulta* al origen de datos de [P
 
 ## <a name="passing-the-configured-parameter-using-the-embed-token"></a>Paso del parámetro configurado mediante el token de inserción
 
-Al insertar un informe paginado para sus clientes, se usa la API [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) para obtener el token de inserción. Este token también se puede usar para filtrar algunos de los datos que se extraen del informe paginado.
+Al insertar un informe paginado para sus clientes, se usa la API [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) para obtener el token de inserción. Este token también se puede usar para filtrar algunos de los datos que se extraen del informe paginado.
 
 Para exponer solo algunos de los datos, asigne el campo `username` con la información que desea mostrar. Por ejemplo, en un informe paginado que tenga un parámetro de color, si escribe *verde* en el campo `username`, el token de inserción restringirá los datos insertados para mostrar solo los datos que tienen el valor *verde* en la columna color.
 

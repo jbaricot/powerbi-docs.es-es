@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a888d9010a418aa51534b94350cc3f6d82385772
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 74f6d14ed96e7e33929aafe315965c04b2f78863
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860978"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633984"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Servicio Power BI para consumidores
 
@@ -24,17 +24,17 @@ Vivimos en una cultura de datos, en la que las decisiones empresariales se basan
  
 Ellos le envían todo tipo de informes, hojas de cálculo, correos electrónicos con gráficos e incluso documentos impresos. A medida que se van acumulando estos datos, resulta más difícil encontrar rápidamente lo que necesita y le preocupa no estar usando la información más actualizada.  
  
-![Panel de Power BI](media/end-user-consumer/power-bi-consumer-pipes.png)
+![El diagrama muestra un consumidor que recibe datos en formatos etiquetados como Informes, Gráficos, Correo electrónico y Hojas de cálculo.](media/end-user-consumer/power-bi-consumer-pipes.png)
 
 ## <a name="the-power-bi-service-for-consumers"></a>Servicio Power BI para *consumidores*
 
 Power BI le facilita el trabajo y, al mismo tiempo, marca la diferencia. Todos los datos se convierten en gráficos y grafos que representan visualmente los datos al instante. En lugar de usar largas listas o tablas de números y palabras, la información que transmiten los datos es ***atractiva***: objetos visuales elegantes y llamativos que cuentan algo sobre los datos. 
 
-![Panel de Power BI](media/end-user-consumer/power-bi-consumer-examples.png)
+![La captura de pantalla muestra un informe de Power BI con diferentes tipos de gráficos.](media/end-user-consumer/power-bi-consumer-examples.png)
  
 Solo tiene que abrir el servicio Power BI en un explorador o un dispositivo móvil. Trabajará desde los mismos paneles e informes que sus compañeros, que se actualizan automáticamente, por lo que siempre estará trabajando con el contenido más actualizado.   
 
-![Panel de Power BI](media/end-user-consumer/power-bi-funnel.png)
+![El diagrama muestra los datos en varios formatos que se combinan en Power BI y aparecen en una pantalla del equipo y en un dispositivo portátil.](media/end-user-consumer/power-bi-funnel.png)
 
 Dado que el contenido no es estático, puede profundizar en él en busca de tendencias, información y otros tipos de inteligencia empresarial. Segmente y desglose el contenido e incluso haga búsquedas en él formulando preguntas con sus propias palabras. O bien, deje que los datos le revelen información interesante, le envíen alertas cuando cambien los datos y le envíen informes por correo según la programación que haya configurado. Todos los datos, en cualquier momento, en la nube o de forma local, desde cualquier dispositivo. Eso es solo el principio de lo que Power BI puede hacer. 
 
@@ -56,7 +56,7 @@ No dañará los datos.  Power BI es un excelente lugar para explorar y experime
  
 Eso no significa que los cambios no se puedan guardar: sí se puede. Pero estos cambios solo afectan a su vista del contenido. Y revertir a la vista predeterminada original es tan fácil como hacer clic en un botón.  
 
-![Panel de Power BI](media/end-user-consumer/power-bi-reset.png)
+![La captura de pantalla muestra el botón Restablecer valores predeterminados.](media/end-user-consumer/power-bi-reset.png)
 
 
 ## <a name="next-steps"></a>Pasos siguientes

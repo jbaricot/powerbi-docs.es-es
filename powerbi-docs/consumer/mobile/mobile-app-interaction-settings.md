@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: f7e88a09f2b48bcfe53256f0da976378a5d87e2c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 67f34bfe04599ffa7d9f9f2c2c3d13545b4306ac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221378"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635272"
 ---
 # <a name="configure-report-interaction-settings"></a>Configuración de las opciones de interacción de los informes
 
@@ -21,13 +21,12 @@ ms.locfileid: "85221378"
 
 La aplicación móvil de Power BI tiene una serie de opciones de "interacción" configurables que permiten controlar cómo se interactúa con los datos y cómo se comportan algunos de los elementos de la aplicación móvil de Power BI. En la tabla siguiente se muestra la configuración de interacción que está disponible actualmente y los dispositivos que la tienen.
 
-|| Teléfono Android | iPhone | Tableta Android  | iPad |
-|-|:-:|:-:|:-:|:-:|
+| Parámetro | Teléfono Android | iPhone | Tableta Android  | iPad |
+|---------|:-:|:-:|:-:|:-:|
 | [Diferencias entre la interacción de pulsación única y doble en objetos visuales de los informes](#single-tap) |✔|✔|||
 | [Selección múltiple frente a selección única de puntos de datos en objetos visuales de un informe](#multi-select) |✔|✔|✔|✔|
 | [Pie de página de informe acoplado frente a dinámico](#docked-report-footer) |✔|✔|||
 | [Actualización de un informe iniciada con un botón frente a deslizar para actualizar](#report-refresh) |✔||||
-|
 
 Para ir a la configuración de la interacción, pulse en la imagen del perfil para abrir el [panel lateral](./mobile-apps-home-page.md#header), elija **Configuración** y busque la sección **Interacción**.
 

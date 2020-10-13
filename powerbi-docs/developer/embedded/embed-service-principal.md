@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 05/12/2020
-ms.openlocfilehash: e7b1e33322e0c1174b05a4e7b3617b5d3f7a18e8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9faa50cd7e2c4a1a51dfb4a72dda950cf3a396a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231233"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746801"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Inserción de contenido de Power BI con entidades de servicio y un secreto de aplicación
 
@@ -24,21 +24,21 @@ En este artículo se describe la autenticación de la entidad de servicio median
 
 >[!NOTE]
 >Se recomienda proteger los servicios de back-end mediante certificados, en lugar de claves secretas.
->* [Obtenga más información sobre cómo obtener tokens de acceso de Azure AD mediante claves secretas o certificados](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion).
+>* [Obtenga más información sobre cómo obtener tokens de acceso de Azure AD mediante claves secretas o certificados](/azure/architecture/multitenant-identity/client-assertion).
 >* [Inserción de contenido de Power BI con entidades de servicio y un certificado](embed-service-principal-certificate.md).
 
 ## <a name="method"></a>Método
 
 Para usar la entidad de servicio y un identificador de aplicación con análisis insertados, siga estos pasos:
 
-1. Cree una [aplicación de Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management).
+1. Cree una [aplicación de Azure AD](/azure/active-directory/manage-apps/what-is-application-management).
 
     1. Cree el secreto de la aplicación de Azure AD.
     
     2. Obtenga el *identificador de aplicación* y el *secreto de aplicación* de la aplicación.
 
     >[!NOTE]
-    >Estos pasos se describen en el **paso 1**. Para obtener más información sobre la creación de una aplicación de Azure AD, consulte el artículo [Creación de una aplicación de Azure AD](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal).
+    >Estos pasos se describen en el **paso 1**. Para obtener más información sobre la creación de una aplicación de Azure AD, consulte el artículo [Creación de una aplicación de Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal).
 
 2. Cree de un grupo de seguridad de Azure AD.
 
@@ -55,7 +55,7 @@ Para usar la entidad de servicio y un identificador de aplicación con análisis
 
 Cree una aplicación de Azure AD con uno de estos métodos:
 * Cree la aplicación en [Microsoft Azure Portal](https://portal.azure.com/#allservices).
-* Cree la aplicación mediante [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
+* Cree la aplicación mediante [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Creación de una aplicación de Azure AD en Microsoft Azure Portal
 
@@ -63,7 +63,7 @@ Cree una aplicación de Azure AD con uno de estos métodos:
 
 7. Haga clic en la pestaña **Certificados y secretos**.
 
-     ![identificador de aplicación](media/embed-service-principal/certificates-and-secrets.png)
+     ![En la captura de pantalla se muestra el panel Certificados y secretos para una aplicación en Azure Portal.](media/embed-service-principal/certificates-and-secrets.png)
 
 
 8. Haga clic en **Nuevo secreto de cliente**.
@@ -81,7 +81,7 @@ Cree una aplicación de Azure AD con uno de estos métodos:
 
 ### <a name="creating-an-azure-ad-app-using-powershell"></a>Creación de una aplicación de Azure AD con PowerShell
 
-En esta sección se incluye un script de ejemplo para crear una nueva aplicación de Azure AD con [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+En esta sección se incluye un script de ejemplo para crear una nueva aplicación de Azure AD con [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 
 ```powershell
 # The app ID - $app.appid
@@ -111,7 +111,7 @@ Hay dos maneras de crear un grupo de seguridad de Azure AD:
 
 ### <a name="create-a-security-group-manually"></a>Creación de un grupo de seguridad manualmente
 
-Para crear un grupo de seguridad de Azure manualmente, siga las instrucciones del artículo [Creación de un grupo básico e incorporación de miembros con Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
+Para crear un grupo de seguridad de Azure manualmente, siga las instrucciones del artículo [Creación de un grupo básico e incorporación de miembros con Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
 
 ### <a name="create-a-security-group-using-powershell"></a>Creación de un grupo de seguridad mediante PowerShell
 
@@ -121,7 +121,7 @@ A continuación se muestra un script de ejemplo para crear un nuevo grupo de seg
 >Si desea habilitar el acceso de la entidad de servicio para toda la organización, omita este paso.
 
 ```powershell
-# Required to sign in as a tenant admin
+# Required to sign in as admin
 Connect-AzureAD
 
 # Create an Azure AD security group
@@ -149,7 +149,7 @@ Agregue el grupo de seguridad que ha creado en Azure AD a la sección de grupos
 Para habilitar los artefactos de acceso a la aplicación de Azure AD como informes, paneles y conjuntos de datos en el servicio Power BI, agregue la instancia de la entidad de servicio como miembro o administrador al área de trabajo.
 
 >[!NOTE]
->En esta sección se proporcionan instrucciones para la interfaz de usuario. También puede agregar una entidad de servicio a un área de trabajo mediante la [API Grupos: agregar usuario de grupo](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser).
+>En esta sección se proporcionan instrucciones para la interfaz de usuario. También puede agregar una entidad de servicio a un área de trabajo mediante la [API Grupos: agregar usuario de grupo](/rest/api/power-bi/groups/addgroupuser).
 
 1. Desplácese hasta el área de trabajo para el que desea habilitar el acceso y, en el menú **Más**, seleccione **Acceso al área de trabajo**.
 
@@ -179,7 +179,7 @@ Una vez insertado el contenido, está listo para [pasar a producción](embed-sam
 >[Power BI Embedded para los clientes](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Objetos de aplicación y de entidad de servicio de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Objetos de aplicación y de entidad de servicio de Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[Seguridad de nivel de fila mediante puerta de enlace de datos local con entidad de servicio](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

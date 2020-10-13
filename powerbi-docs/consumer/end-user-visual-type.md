@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 86453ff7a192a9c79f1c9eda97529b661c7512d3
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 05aab15b3807429c20b0ff72a7bfce21b3e25b12
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537720"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526890"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de objetos visuales en Power BI
 
@@ -142,7 +142,7 @@ Los mapas coropléticos usan sombreado, tintes o patrones para mostrar las difer
 Los mapas de formas comparan las regiones de un mapa mediante colores. Un mapa de formas no puede mostrar las ubicaciones geográficas precisas de los puntos de datos en un mapa. En su lugar, su propósito principal es mostrar comparaciones relativas de las regiones de un mapa mediante colores diferentes.
 
 ### <a name="matrix"></a>Matriz
-![matriz](media/end-user-visual-type/matrix.png)
+![La captura de pantalla muestra una matriz de datos de años y trimestres para Ingresos e Ingresos hasta la fecha.](media/end-user-visual-type/matrix.png)
 
 El objeto visual de matriz es un tipo de objeto visual de tabla (vea "Tabla" más abajo) que es compatible con un diseño escalonado. A menudo, los diseñadores de informes incluyen matrices en informes y paneles para permitir a los usuarios seleccionar uno o varios elementos (filas, columnas, celdas) de la matriz para realizar el resaltado cruzado de otros objetos visuales de una página del informe.  
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 68bfe1a97d9db0b12f3942961c4e50e5c535fd84
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856194"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668560"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Exploración de iconos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -57,7 +57,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
     ![Captura de pantalla de un cuadro de diálogo, en la que se muestra cómo permitir que Power BI abra vínculos con el explorador interno.](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     Después de abrir el vínculo en la aplicación Power BI, puede copiarlo y abrirlo en una ventana del explorador.
-7. [Abra el informe](mobile-reports-in-the-mobile-apps.md) ![Icono Abrir informe](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) en el que se basa el icono.
+7. [Abra el informe](mobile-reports-in-the-mobile-apps.md) ![Icono Abrir informe en iOS.](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) en el que se basa el mosaico.
 8. Para salir del modo enfocado de icono, pulse el nombre del icono y, después, pulse el nombre del panel o **Mi área de trabajo**.
    
     ![Captura de pantalla de un panel, en la que se muestran punteros a Mi área de trabajo y Ejemplo de análisis de oportunidades.](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
@@ -72,7 +72,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
    * Pulse el gráfico para mover la barra en un gráfico de líneas, barras, columnas o burbujas y poder ver los valores de un punto concreto en la visualización.  
    * Pulse el icono Lápiz ![Icono Lápiz](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) para [anotar un icono](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) y, después, el icono Compartir instantánea ![Icono Compartir instantánea](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) para [compartirlo con otros usuarios](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
-   * Pulsar el icono Abrir informe ![Icono Abrir informe](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) para [ver el informe](mobile-reports-in-the-mobile-apps.md) en la aplicación móvil.
+   * Pulse el icono Abrir Informe ![icono Abrir informe en Android.](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) para [ver el informe](mobile-reports-in-the-mobile-apps.md) en la aplicación móvil.
 3. A veces, el creador del panel ha agregado un vínculo a un icono. Por tanto, cuando pulse en los puntos suspensivos en vertical ( **...** ) verá **Abrir vínculo** ![Icono Vínculo](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![Captura de pantalla de un panel, en la que se muestran los puntos suspensivos en vertical que apuntan a Abrir vínculo.](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)

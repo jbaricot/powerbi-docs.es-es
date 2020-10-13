@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: a94f4bda1f7ebc4a612da65623f539e820c8c333
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 249e3cd56359a54c358341f463d049435f407515
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240446"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635801"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Procedimientos recomendados para optimizar Preguntas y respuestas en Power BI
 El uso del lenguaje natural y frases comunes para formular preguntas sobre los datos resulta muy eficaz. Esto es todavía más eficaz cuando los datos responden a esas preguntas, que es lo que Preguntas y respuestas de Power BI hace.
@@ -116,11 +116,11 @@ Si tiene varias columnas que actúan como una sola unidad distinta dentro de una
 
 **Necesita ajustes**
 
-![Uso de varias tablas para Preguntas y respuestas](media/q-and-a-best-practices/desktop-qna-09.png)
+![Captura de pantalla que muestra una tabla de proveedores que incluye información de contacto.](media/q-and-a-best-practices/desktop-qna-09.png)
 
 **Preparado para Preguntas y respuestas**
 
-![Uso de varias tablas para Preguntas y respuestas](media/q-and-a-best-practices/desktop-qna-10.png)
+![En la captura de pantalla se muestran dos tablas, una para los proveedores y otra para contactos.](media/q-and-a-best-practices/desktop-qna-10.png)
 
 ### <a name="pivot-to-eliminate-property-bags"></a>Dinamizar para eliminar bolsas de propiedades
 
@@ -134,7 +134,7 @@ Por ejemplo, considere una tabla *DatosDemográficosCliente* con las columnas Id
 
 **Preparado para Preguntas y respuestas**
 
-![Uso de varias tablas para Preguntas y respuestas](media/q-and-a-best-practices/desktop-qna-12.png)
+![Captura de pantalla que muestra cuatro columnas con propiedades Age, MartialStatus, City y Gender como columnas con valores para diferentes clientes.](media/q-and-a-best-practices/desktop-qna-12.png)
 
 ### <a name="union-to-eliminate-partitioning"></a>Unir para eliminar particiones
 
@@ -148,7 +148,7 @@ De igual forma, considere una columna de valor dinamizado típica: una tabla *Re
 
 **Preparado para Preguntas y respuestas**
 
-![Uso de varias tablas para Preguntas y respuestas](media/q-and-a-best-practices/desktop-qna-14.png)
+![En la captura de pantalla se muestran dos tablas, una con información de libro y autor de las visitas y otra con las ciudades asociadas con las visitas.](media/q-and-a-best-practices/desktop-qna-14.png)
 
 ### <a name="split-formatted-columns"></a>División de columnas con formato
 
@@ -160,7 +160,7 @@ Si el origen desde el que se importan los datos contiene columnas con formato, l
 
 **Preparado para Preguntas y respuestas**
 
-![Uso de varias tablas para Preguntas y respuestas](media/q-and-a-best-practices/desktop-qna-16.png)
+![En la captura de pantalla se muestra una tabla con clientes, una línea de dirección completa y tres líneas que desglosan la dirección con la calle, ciudad y país.](media/q-and-a-best-practices/desktop-qna-16.png)
 
 De forma similar, si tiene columnas de nombre completo para una persona, agregue las columnas **Nombre** y **Apellidos** por si algún usuario desea formular preguntas mediante nombres parciales. 
 
@@ -175,7 +175,7 @@ De modo similar, si el origen desde el que se importan los datos contiene column
 
 **Preparado para Preguntas y respuestas**
 
-![Uso de varias tablas para Preguntas y respuestas](media/q-and-a-best-practices/desktop-qna-18.png)
+![En la captura de pantalla se muestran dos tablas, una con el nombre y el género, y otra con el creador.](media/q-and-a-best-practices/desktop-qna-18.png)
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>Desnormalizar para eliminar las relaciones inactivas
 

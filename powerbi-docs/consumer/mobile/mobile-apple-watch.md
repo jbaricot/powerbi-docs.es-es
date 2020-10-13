@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 93679c3abcebfee31e1fc5dc20b463a6ef3df549
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d67ab7a28a0975ccac436f57e98c527fae392baf
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239192"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633272"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Explorar los datos en la aplicación móvil de Power BI de su Apple Watch
 Con la aplicación Power BI en Apple Watch, puede ver KPI y ventanas de tarjeta desde los paneles de Power BI en el reloj. Los KPI y las ventanas de tarjeta son apropiados para proporcionar una medida de latido en la pantalla pequeña. Puede actualizar un panel desde un iPhone o desde el mismo Watch.
@@ -24,16 +24,16 @@ La aplicación Power BI para Apple Watch se incluye con la aplicación Power B
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Uso de la aplicación Power BI en Apple Watch
 La aplicación Power BI para Apple Watch se puede obtener desde la pantalla de inicio del reloj o haciendo clic en el widget de Power BI (si está configurado) directamente en la pantalla del reloj.
 
-![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
+![La fotografía muestra un Apple Watch con la aplicación de Power BI.](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
 
 La aplicación Power BI para Apple Watch consta de dos partes.
 
 * La **pantalla de índice** permite ver una descripción general de todos los KPI y las ventanas de tarjeta desde el panel sincronizado.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
+  ![La fotografía muestra un Apple Watch con la pantalla de índice.](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
 * El **icono enfocado**: haga clic en un icono de la pantalla de índice para obtener una vista detallada de un icono concreto.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
+  ![La fotografía muestra un Apple Watch que muestra un icono.](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 
 ## <a name="refresh-a-dashboard-from-your-apple-watch"></a>Actualizar un panel desde el Apple Watch
 Puede actualizar un panel sincronizado directamente desde el reloj.
@@ -75,7 +75,7 @@ Dado el poco espacio que hay en la pantalla de Apple Watch, la aplicación Power
 
 * En un iPhone, vaya a la aplicación de control de Apple Watch, seleccione Power BI, desplácese hasta el campo del nombre de widget y escriba un nombre nuevo.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
+  ![La fotografía muestra un iPhone con la aplicación Mi reloj despertador abierta y el icono de Power BI visible.](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
 
 > [!NOTE]
 > Si no cambia el nombre, el widget de Power BI lo acortará hasta el número de caracteres que se ajusten al poco espacio que hay en la pantalla del reloj. 

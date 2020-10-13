@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: f447856ac387bdabdbd29e1d1ebf47caef22677a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286825"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633961"
 ---
 # <a name="view-a-dashboard"></a>Visualización de un panel
 
@@ -31,14 +31,11 @@ Se necesita una licencia de Power BI Pro o Premium tanto para compartir un pan
 
 ## <a name="open-a-dashboard"></a>Abrir un panel
 
+Los paneles se pueden abrir desde varias ubicaciones del servicio Power BI.
 
+![icono de panel](media/end-user-dashboard-open/power-bi-dashboard-icon.png)
 
-|              |         |
-|------------|--------------------------------|
-|![icono de panel](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Los paneles se pueden abrir desde varias ubicaciones del servicio Power BI. <br> Solo tiene que buscar este icono del panel. Una vez que haya identificado un <br>panel, ábralo seleccionándolo y el panel rellenará el lienzo de Power BI. |
-|                    |          |
-
-
+Solo tiene que buscar este icono del panel. Una vez que haya identificado un panel, ábralo seleccionándolo y el panel rellenará el lienzo de Power BI.
 
 Puede encontrar paneles en todos los contenedores del panel de navegación. 
 

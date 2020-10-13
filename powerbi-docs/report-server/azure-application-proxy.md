@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 60287bfde79c918250037ccc03781e7cb47d6320
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861300"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634237"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Configuración de Power BI Report Server con Azure Application Proxy
 
@@ -201,7 +201,7 @@ Para finalizar la configuración de la aplicación, vaya a la sección **Usuario
     - Cree una nueva dirección URL de redireccionamiento y configúrela con **Tipo** = **Web** y **URI de redirección** = `https://pbirsazureapp-umacontoso2410.msappproxy.net/`.
     - En la sección **Configuración avanzada**, establezca la **URL de cierre de sesión** en `https://pbirsazureapp-umacontoso2410.msappproxy.net/?Appproxy=logout`.
 
-    ![Configuración de autenticación](media/azure-application-proxy/azure-report-server-authentication-1.png)
+    ![La captura de pantalla muestra el panel Autenticación de PBIRS con URI de redireccionamiento y configuración avanzada.](media/azure-application-proxy/azure-report-server-authentication-1.png)
 
 1. Continúe configurando la sección **Autenticación** del registro de aplicaciones para la aplicación Power BI Report Server como se indica a continuación para **Concesión implícita**, **Tipo de cliente predeterminado** y **Tipos de cuenta admitidos**:
 
@@ -209,7 +209,7 @@ Para finalizar la configuración de la aplicación, vaya a la sección **Usuario
     - Establezca **Tipo de cliente predeterminado** en **No**.
     - Establezca **Tipos de cuenta admitidos** en **Solo cuentas de este directorio organizativo (solo de UmaContoso: inquilino único)** .
 
-    ![Configuración de autenticación](media/azure-application-proxy/azure-report-server-authentication-2.png)
+    ![La captura de pantalla muestra el panel Autenticación de PBIRS con la configuración tal como se ha descrito.](media/azure-application-proxy/azure-report-server-authentication-2.png)
 
 1. Una vez que el inicio de sesión único está configurado y la dirección URL `https://pbirsazureapp-umacontoso2410.msappproxy.net` funciona, debemos asegurarnos de que la cuenta con la que iniciamos sesión se sincronice con la cuenta a la que se proporcionaron permisos en Power BI Report Server.
 

@@ -12,34 +12,36 @@ ms.subservice: powerbi-consumer
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2020
+ms.date: 09/30/2020
 ms.author: mihart
-ms.openlocfilehash: 0d0d6e935f8405aa063ed90cf5a2f403faeba893
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: fbff6f202d6bdd3a4bffc031f23399869f08bc5c
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049745"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780533"
 ---
-# <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Inicio rápido: más información sobre las capacidades de Power BI para *consumidores*
+# <a name="quickstart-learn-about-the-power-bi-capabilities-for-business-users"></a>Inicio rápido: más información sobre las funcionalidades de Power BI para *usuarios empresariales*
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-En esta guía de inicio rápido obtendrá información sobre cómo interactuar con Power BI para detectar información empresarial basada en datos. La información del artículo no pretende ser exhaustiva, sino un resumen rápido de muchas de las acciones disponibles para los **consumidores** de Power BI.
+En esta guía de inicio rápido obtendrá información sobre cómo interactuar con Power BI para detectar información empresarial basada en datos. La información del artículo no pretende ser exhaustiva, sino un resumen rápido de muchas de las acciones disponibles para los **usuarios empresariales** de Power BI.
 
 Si no está registrado en Power BI, [regístrese para obtener una evaluación gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
 
 ## <a name="what-is-power-bi"></a>¿Qué es Power BI? 
 Power BI es una colección de servicios de software, aplicaciones y conectores que funcionan conjuntamente para convertir orígenes de datos sin relación entre sí en información coherente, interactiva y atractiva visualmente. Tanto si se trata de una sencilla hoja de cálculo de Excel como de una colección de diferentes orígenes de datos, Power BI le permite conectar fácilmente los orígenes de datos, visualizar (o descubrir) lo más importante y compartirlo con quien quiera. 
 
-![Icono de Obtener aplicaciones](./media/end-user-reading-view/power-bi-conceptual.png)
+![Captura de pantalla que muestra Power BI obteniendo contenido de varios orígenes y generando un informe.](./media/end-user-reading-view/power-bi-concept.png)
+
+Solo tiene que abrir el servicio Power BI en un explorador o un dispositivo móvil. Tanto sus compañeros como usted trabajarán desde los mismos paneles, aplicaciones e informes, que se actualizan automáticamente, por lo que siempre estará trabajando con el contenido más actualizado.   
 
 ## <a name="reading-view"></a>Vista de lectura
-La vista de lectura está disponible en el servicio Power BI para *consumidores* de informes. Cuando algún compañero comparta un informe, un panel o una aplicación con usted, podrá explorar el informe e interactuar con él en la vista de lectura. 
+Existen dos modos de interactuar con los informes en el servicio Power BI: la vista de lectura y la vista de edición.  Si es *usuario empresarial*, es más probable que use la vista de lectura para consumir informes creados por otros usuarios. La vista de edición la usan los *diseñadores* de informes, que crean los informes y los comparten con usted. La vista de lectura es la manera de explorar e interactuar con los informes creados por otros compañeros. 
 
-Solo tiene que abrir el servicio Power BI en un explorador o un dispositivo móvil. Tanto sus compañeros como usted trabajarán desde los mismos paneles, aplicaciones e informes, que se actualizan automáticamente, por lo que siempre estará trabajando con el contenido más actualizado.   
 
-Dado que el contenido no es estático, puede profundizar en él, buscar tendencias, información útil y emplear otras técnicas de inteligencia empresarial. Segmente y desglose el contenido e incluso haga búsquedas en él formulando preguntas con sus propias palabras. O bien, deje que los datos le revelen información interesante, le envíen alertas cuando cambien los datos y le envíen informes por correo según la programación que haya configurado. Todos los datos, en cualquier momento, en la nube o de forma local, desde cualquier dispositivo. 
+
+Incluso en la vista de lectura, el contenido no es estático. Puede profundizar en él, buscar tendencias, información útil y emplear otras técnicas de inteligencia empresarial. Segmente y desglose el contenido e incluso haga búsquedas en él formulando preguntas con sus propias palabras. O bien, deje que los datos le revelen información interesante, le envíen alertas cuando cambien los datos y le envíen informes por correo según la programación que haya configurado. Todos los datos, en cualquier momento, en la nube o de forma local, desde cualquier dispositivo. 
 
 Siga leyendo para obtener más información sobre ellas y muchos más aspectos.
 
@@ -52,19 +54,19 @@ Cuando usamos el término "contenido" en Power BI, hacemos referencia a informe
 
 ###  <a name="apps"></a>Aplicaciones
 
-Una *aplicación* es un tipo de contenido de Power BI que combina paneles e informes relacionados en un mismo lugar. Una aplicación puede tener uno o más paneles e informes, todos ellos agrupados. Las aplicaciones las crean *diseñadores* de Power BI que distribuyen y comparten las aplicaciones con otros *consumidores*. 
+Una *aplicación* es un tipo de contenido de Power BI que combina paneles e informes relacionados en un mismo lugar. Una aplicación puede tener uno o más paneles e informes, todos ellos agrupados. Las aplicaciones las crean *diseñadores* de Power BI que distribuyen y comparten las aplicaciones con otros *usuarios empresariales*. 
 
 Una manera de ver las aplicaciones es seleccionar **Aplicaciones** en el panel de navegación y elegir una aplicación para abrirla.
 
-![Icono de Obtener aplicaciones](./media/end-user-reading-view/power-bi-apps.png)
+![Captura de pantalla de la pantalla de aplicaciones que muestra ocho aplicaciones diferentes.](./media/end-user-reading-view/power-bi-app.png)
 
 Para obtener más información sobre cómo ver aplicaciones, consulte [Aplicaciones de Power BI](end-user-apps.md).
 
 ### <a name="reports"></a>Informes
 
-Un informe de Power BI es una vista de varias perspectivas de un conjunto de datos, con objetos visuales que representan diferentes hallazgos y conclusiones de ese conjunto de datos. Un informe puede tener un solo objeto visual o páginas llenas de objetos visuales. Los informes los crean *diseñadores* de Power BI que distribuyen y comparten los informes con otros *consumidores*.
+Un informe de Power BI es una vista de varias perspectivas de un conjunto de datos, con objetos visuales que representan diferentes hallazgos y conclusiones de ese conjunto de datos. Un informe puede tener un solo objeto visual o páginas llenas de objetos visuales. Los informes los crean *diseñadores* de Power BI que distribuyen y comparten los informes con otros *usuarios empresariales*.
 
-![Icono de Obtener aplicaciones](./media/end-user-reading-view/power-bi-report-phone.png)
+![Imagen que muestra el mismo informe en un teléfono móvil y en un explorador del equipo.](./media/end-user-reading-view/power-bi-report-phone.png)
 
 Para obtener información sobre cómo ver informes, consulte [Informes de Power BI](end-user-reports.md).
 
@@ -74,7 +76,7 @@ Un panel de Power BI tiene una sola página, a menudo denominada lienzo, que us
 
 Las visualizaciones que se ven en el panel se denominan iconos y los *diseñadores* del informe se encargan de anclarlas al panel. En la mayoría de los casos, al seleccionar un icono, accede a la página del informe donde se ha creado la visualización. 
 
-![Icono de Obtener aplicaciones](./media/end-user-reading-view/power-bi-dashboard-phone.png)
+![Imagen en la que se muestra el mismo panel en un teléfono móvil y en una pantalla del explorador del equipo.](./media/end-user-reading-view/power-bi-dashboard-phone.png)
 
 Para obtener información sobre cómo ver los paneles, consulte [Paneles de Power BI](end-user-dashboards.md).
  
@@ -93,7 +95,7 @@ Dos de las formas en las que el servicio Power BI trabaja es con las suscripcio
 #### <a name="subscribe-to-a-dashboard-or-report"></a>Suscribirse a un panel (o un informe)
 No es necesario abrir Power BI para supervisar un panel.  En su lugar, puede suscribirse a él y Power BI le enviará una instantánea de dicho panel en un período establecido. 
 
-![Selección del icono de suscripción](./media/end-user-reading-view/power-bi-subscribe-email.png).
+![Selección del icono de suscripción](./media/end-user-reading-view/power-bi-subscribe-and-email.png)
 
  Obtenga más información sobre las [suscripciones de Power BI](end-user-subscribe.md).
 
@@ -110,7 +112,7 @@ Obtenga más información sobre las [alertas de Power BI](end-user-alerts.md).
 ### <a name="use-qa-to-ask-questions-using-natural-language"></a>Use Preguntas y respuestas para realizar preguntas con lenguaje natural
 A veces, la manera más rápida de obtener una respuesta de sus datos es formular una pregunta con un lenguaje natural. El cuadro de pregunta de Preguntas y respuestas disponible en la parte superior del panel. Por ejemplo, "Mostrarme el recuento de las grandes oportunidades por fase de ventas como un embudo". 
 
-![Preguntas y respuestas](./media/end-user-reading-view/power-bi-q-and-a.png)
+![Preguntas y respuestas](./media/end-user-reading-view/power-bi-q-and-a-funnel.png)
 
 Obtenga más información sobre [Preguntas y respuestas de Power BI](end-user-q-and-a.md).
 
@@ -120,22 +122,26 @@ Los objetos visuales están compuestos por puntos de datos y, al mantener el mou
 ![mantener el puntero para ver los detalles](media/end-user-reading-view/power-bi-hover.gif)
 
 ### <a name="favorite-a-dashboard"></a>Agregar un panel a Favoritos
-Al marcar contenido como *favorito*, puede acceder a él desde el panel de navegación. El panel de navegación es visible desde casi todas las áreas de Power BI. Los favoritos suelen ser los paneles, las páginas de informe y las aplicaciones que consulta con más frecuencia.
+Al marcar contenido como *favorito*, puede acceder a él desde el panel de navegación y desde [Inicio](end-user-home.md). El panel de navegación es visible desde casi todas las áreas del servicio Power BI. Los favoritos suelen ser los paneles, las páginas de informe y las aplicaciones que consulta con más frecuencia.
 
-En la esquina superior derecha del servicio Power BI, seleccione **Favoritos** o, si no aparece, seleccione **Más opciones** (...) y seleccione **Favoritos** en la lista desplegable. 
+Para guardar el contenido como favorito, en la esquina superior derecha del servicio Power BI, seleccione el icono de estrella. 
    
-![Icono de favorito](./media/end-user-reading-view/power-bi-favorites.png)
+![Captura de pantalla que muestra la esquina superior derecha de un panel con el icono de estrella subrayado en rojo.](./media/end-user-reading-view/power-bi-favorite-icon.png)
 
-Eche un vistazo a las demás acciones disponibles en la lista desplegable.  En este artículo no se tratan todas ellas, pero se explican en otros artículos.  Obtenga más información con la tabla de contenido de Power BI o el campo **Buscar**. 
+Para ver los favoritos, seleccione **Favoritos** en el panel de navegación.
+
+![Captura de pantalla de Inicio con favoritos seleccionada y subrayado en rojo.](./media/end-user-reading-view/power-bi-list-favorite.png)
+
+Eche un vistazo a las demás acciones disponibles en la barra de menús.  En este artículo no se tratan todas ellas, pero se explican en otros artículos.  Obtenga más información con la tabla de contenido de Power BI o el campo **Buscar**. 
 
 Obtenga más información sobre los [favoritos y el contenido destacado](end-user-favorite.md).
 
 ### <a name="adjust-the-display-dimensions"></a>Ajustar las dimensiones de pantalla
 Los informes se ven en muchos dispositivos diferentes, con diferentes tamaños de pantalla y relaciones de aspecto.  La representación predeterminada quizá no sea la que quiere ver en el dispositivo.  
 
-Para ajustarla, en la barra de menús superior derecha, seleccione **Vista** y elija una de las opciones de presentación. 
+Para ajustarla, en la barra de menús superior derecha, seleccione el icono de **Vista** y elija una de las opciones de presentación. 
 
-![Menú Vista de informe](media/end-user-reading-view/power-bi-view-menu.png)
+![Menú Vista de informe](media/end-user-reading-view/power-bi-view-icon.png)
 
 ### <a name="see-how-all-the-visuals-on-a-page-are-interconnected"></a>Visualización de la interconexión de los objetos visuales de una página
 Realice un resaltado cruzado y un filtrado cruzado de las visualizaciones relacionadas en la página de un informe. Las visualizaciones en una única página del informe están todas "conectadas" entre sí.  Esto significa que si selecciona uno o varios valores en una visualización, otras visualizaciones que usan el mismo valor cambiarán en función de esa selección.
@@ -159,13 +165,15 @@ Easily navigate between the visualizations on the report page.
 ### <a name="zoom-in-on-individual-visuals"></a>Acercar la imagen en objetos visuales individuales
 Mantenga el puntero sobre un objeto visual y seleccione el icono **Modo de enfoque** ![seleccionar modo de enfoque en el menú ](media/end-user-reading-view/pbi_popouticon.jpg). Cuando se ve una visualización en el modo de enfoque, se expande para ocupar todo el lienzo de informes como se puede ver aquí abajo.
 
-![modo de enfoque](media/end-user-reading-view/power-bi-full-screen-before.png)
+![Captura de pantalla con flecha que apunta al icono del modo Focalizado.](media/end-user-reading-view/power-bi-fullscreen.png)
 
-![modo de pantalla completa](media/end-user-reading-view/power-bi-full-screen-after.png)
+![Captura de pantalla que muestra el objeto visual en el modo Focalizado, que rellena todo el lienzo.](media/end-user-reading-view/power-bi-fullscreen-after.png)
 
-<!-- To display that same visualization without the distraction of menubars, filter pane, and other chrome -- select the **Full Screen** icon from the top menubar  ![full screen icon](media/end-user-reading-view/power-bi-focus-icon.png)  .
+Para mostrar esa misma visualización sin la distracción de las barras de menús, del panel de filtros y otros adornos, seleccione **Pantalla completa** de la barra de menús de la parte superior.   
 
-![full screen mode](media/end-user-reading-view/power-bi-full-screen-after.png) -->
+![Captura de pantalla que muestra el menú desplegable de Vista.](media/end-user-reading-view/power-bi-focus.png)
+
+![Captura de pantalla que muestra el mismo objeto visual en modo de pantalla completa.](media/end-user-reading-view/power-bi-full.png)
 
 Obtenga más información sobre el [modo de enfoque y el modo de pantalla completa](end-user-focus.md).
 
@@ -179,11 +187,11 @@ Mantenga el puntero sobre un objeto visual para activarlo y seleccione **Más op
 Obtenga más información sobre la [ordenación de objetos visuales](end-user-search-sort.md).
 
 ### <a name="show-the-data-used-to-create-a-visualization"></a>Mostrar los datos utilizados para crear una visualización
-Una visualización de Power BI se construye con datos provenientes de los conjuntos de datos subyacentes. Si quiere ver lo que sucede en segundo plano, Power BI le permite *mostrar* los datos que se usan para crear el objeto visual. Cuando se selecciona **Mostrar datos**, Power BI muestra los datos que están situados debajo (o cerca) de la visualización.
+Una visualización de Power BI se construye con datos provenientes de los conjuntos de datos subyacentes. Si quiere ver lo que sucede en segundo plano, Power BI le permite *mostrar* los datos que se usan para crear el objeto visual. Cuando se selecciona **Mostrar como tabla**, Power BI muestra los datos que están situados debajo de la visualización o junto a esta.
 
 Con un objeto visual activo, seleccione **Más opciones** (...) y elija **Mostrar datos**.
    
-   ![Selección de Mostrar datos](./media/end-user-show-data/power-bi-explore-show-data.png)
+   ![Captura de pantalla que muestra un gráfico de áreas en la parte superior y una tabla con los datos debajo.](./media/end-user-show-data/power-bi-show-data-table.png)
 
 
 ### <a name="export-data-to-excel"></a>Exportación de datos a Excel
@@ -195,7 +203,7 @@ Además de mostrar los datos que se usan para crear un objeto visual, también p
 
 ![data exported to PowerPoint](./media/end-user-reading-view/power-bi-export-powerpoint.png) -->
 
-Aquí finaliza esta introducción rápida a algunas de las acciones que pueden realizar los *consumidores* con el servicio Power BI.  
+Aquí finaliza esta introducción rápida a algunas de las acciones que pueden realizar los *usuarios empresariales* con el servicio Power BI.  
 
 ## <a name="clean-up-resources"></a>Limpieza de recursos
 - Si se conecta a una aplicación, en el panel de navegación, seleccione **Aplicaciones** para abrir la lista de contenido de las aplicaciones. Mantenga el puntero sobre la aplicación que desea eliminar y seleccione el icono de Papelera.
@@ -203,5 +211,5 @@ Aquí finaliza esta introducción rápida a algunas de las acciones que pueden r
 - Si ha importado un informe de ejemplo de Power BI, o se ha conectado a uno, abra **Mi área de trabajo** en el panel de navegación. Busque el panel, informe y conjunto de datos mediante las pestañas de la parte superior, y seleccione el icono de Papelera de cada uno.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Power BI para consumidores](end-user-consumer.md)
+[Power BI para usuarios empresariales](end-user-consumer.md)
 

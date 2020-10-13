@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 86572383e2e88f5a1efcf5126828e3365933cbc2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380865"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635962"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Información sobre las asignaciones de vistas de datos en objetos visuales de Power BI
 
@@ -337,14 +337,13 @@ Esta es la asignación de vista de datos:
 
 La vista de datos categóricos podrían visualizarse de esta forma:
 
-| Categórica |  |  | | | |
-|-----|-----|------|------|------|------|
-| | Año | 2013 | 2014 | 2015 | 2016 |
-| País | | |
-| EE. UU. | | x | x | 650 | 350 |
-| Canadá | | x | 630 | 490 | x |
-| México | | 645 | x | x | x |
-| Reino Unido | | x | x | 831 | x |
+| País | 2013 | 2014 | 2015 | 2016 |
+|---------|------|------|------|------|
+| EE. UU. | x | x | 650 | 350 |
+| Canadá | x | 630 | 490 | x |
+| México | 645 | x | x | x |
+| Reino Unido | x | x | 831 | x |
+
 
 Power BI lo genera como la vista de datos categóricos. Es el conjunto de categorías.
 
@@ -545,7 +544,7 @@ Puede visualizar la vista de datos de tabla como se muestra a continuación:
 
 Ejemplo de datos:
 
-| País| Año | Ventas |
+| País| Year | Sales |
 |-----|-----|------|
 | EE. UU. | 2016 | 100 |
 | EE. UU. | 2015 | 50 |
@@ -746,7 +745,7 @@ Power BI crea una estructura de datos jerárquica. La raíz de la jerarquía de
 
 Conjunto de datos:
 
-| Elementos principales | Elementos secundarios | Elementos descendientes del secundario | Columnas | Valores |
+| Parents | Children | Elementos descendientes del secundario | Columnas | Valores |
 |-----|-----|------|-------|-------|
 | Principal1 | Secundario1 | Subelemento secundario1 | Col1 | 5 |
 | Principal1 | Secundario1 | Subelemento secundario1 | Col2 | 6 |

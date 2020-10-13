@@ -1,20 +1,20 @@
 ---
-title: Visualización de los datos usados para crear el objeto visual
-description: En este documento se explica cómo los consumidores de Power BI pueden "ver" los datos usados para crear un objeto visual.
+title: Visualización de los datos usados para crear el objeto visual de informe
+description: En este documento se explica cómo los usuarios empresariales de Power BI pueden "ver" los datos usados para crear un objeto visual de informe.
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/28/2020
+ms.date: 10/6/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a48f6aa12a1fd3f3a3dcea39524ed3d51251b062
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 737fe43a7a94ef5738676792e1e903564d29e4bb
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536248"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780266"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Visualización de los datos con los informes de Power BI
 
@@ -37,7 +37,11 @@ En un panel, si quiere ver los datos subyacentes, use [Exportar a Excel](end-use
 
 4. Para cambiar la orientación, seleccione el diseño vertical ![icono de diseño](media/end-user-show-data/power-bi-vertical-icon-new.png) en la esquina superior derecha de la visualización.
    
-   ![Presentación horizontal de objeto visual y datos](./media/end-user-show-data/power-bi-horizontal.png)
+   ![Presentación horizontal de objeto visual y datos](./media/end-user-show-data/power-bi-show-horizontal.png)
+
+Para volver al informe, seleccione **Volver al informe** en la esquina superior izquierda. 
+
+   ![Captura de pantalla que muestra el vínculo para volver al informe.](./media/end-user-show-data/power-bi-back.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Objetos visuales en informes de Power BI](../visuals/power-bi-report-visualizations.md)    

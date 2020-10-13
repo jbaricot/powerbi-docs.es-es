@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58d595ff5e7d3947117aa9663e761a6f98f10c7f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a8a38790b606fa5f700f2b9389ebad5338919d28
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861323"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635295"
 ---
 # <a name="create-key-influencers-visualizations"></a>Creación de visualizaciones de influenciadores clave
 
@@ -231,13 +231,13 @@ Por último, en el caso de las medidas, estamos examinando el promedio del año 
 -   El gráfico de dispersión del panel derecho traza el precio medio de la casa para cada valor distinto de la tabla.
 -   El valor de la burbuja muestra cuánto aumenta el promedio del precio de la casa (en este caso, 1350 USD) cuando el promedio del año aumenta la desviación estándar (en este caso 30 años).
 
-![Influenciadores de medidas de destino numérico](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
+![La captura de pantalla muestra los "influencers" clave de los precios de casas con los "influencers" a la izquierda y el gráfico de dispersión a la derecha.](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
 
 ## <a name="interpret-the-results-top-segments"></a>Interpretar los resultados: Segmentos principales
 
 Los segmentos principales para destinos numéricos muestran a grupos donde la casa los precios de Media son mayores que en el conjunto de datos general. Por ejemplo, a continuación vemos que **Segmento 1** se compone de casas en las que **GarageCars** (número de plazas de garaje) es mayor que 2 y **RoofStyle** (estilo de tejado) es Hip (a dos aguas). Las casas con estas características tienen un precio promedio de 355 000 USD en comparación con el promedio general de los datos, que es de 180 000 USD.
 
-![Influenciadores de medidas de destino numérico](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
+![La captura de pantalla muestra los segmentos principales de los precios de casas.](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Análisis de una métrica que es una medida o una columna resumida
 
@@ -245,19 +245,19 @@ En el caso de una medida o columna resumida, el análisis toma como valor predet
 
 En el caso de las columnas no resumidas, el análisis siempre se ejecuta en el nivel de tabla. En el ejemplo de precio de la casa anterior, se ha analizado la métrica **House Price** (Precio de la casa) para ver qué influye en el aumento o disminución del precio de una casa. El análisis se ejecuta de forma automática en el nivel de tabla. La tabla tiene un identificador único para cada casa, por lo que el análisis se ejecuta en nivel de la casa.
 
-![Tabla de medidas](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
+![La captura de pantalla muestra el análisis de nivel de tabla del ejemplo de precio de casa.](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
 
 En el caso de las medidas y las columnas resumidas, no se sabe de forma inmediata en qué nivel se deben analizar. Si **House Price** se ha resumido como un **Promedio**, se debería tener en cuenta a qué nivel nos gustaría que se calculara este precio promedio de la casa. ¿El precio promedio de la casa está en un nivel de vecindario? ¿O bien posiblemente en un nivel regional?
 
 Las medidas y las columnas resumidas se analizan de forma automática en el nivel de los campos **Explicar por** que se usan. Imagine que hay tres campos **Explicar por** que le interesan: **Calidad de la cocina**, **Tipo de edificación** y **Aire acondicionado**. **Precio medio de la casa** se calcularía para cada combinación única de esos tres campos. A menudo resulta útil cambiar a una vista de tabla para comprobar la apariencia de los datos que se evalúan.
 
-![Tabla de medidas](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
+![La captura de pantalla muestra las tres columnas y el precio medio de la casa.](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
 
 Este análisis está muy resumido y, por tanto, será difícil para el modelo de regresión encontrar en los datos patrones de los que pueda aprender. Para obtener mejores resultados, el análisis se debe ejecutar en un nivel más detallado. Si se quisiera analizar el precio de la casa en el nivel de la casa, sería necesario agregar de forma explícita el campo **ID** al análisis. Pero el objetivo no es que el Id. de la casa se considere un influenciador. No resulta útil saber que a medida que aumenta el Id. de la casa aumenta su precio. Aquí es donde el campo **Expandir por** resulta útil. Puede usar **Expandir por** para agregar los campos que quiera usar para establecer el nivel del análisis sin buscar nuevos influenciadores.
 
 Observe la apariencia de la visualización después de agregar **ID** a **Expandir por**. Una vez que haya definido el nivel en el que quiere evaluar la medida, la interpretación de los influenciadores es exactamente la misma que para las [columnas numéricas no resumidas](#analyze-a-metric-that-is-numeric).
 
-![Tabla de medidas](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
+![La captura de pantalla muestra la visualización del precio de la casa que depende de las tres columnas descritas en esta sección.](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
 Si quiere obtener más información sobre cómo puede analizar medidas con las visualización de influenciadores clave, vea el tutorial siguiente.
 

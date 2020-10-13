@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9d74733e6baad4f84d52e8bc8749fe0295eedb2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7aebef72952c75ed6ec406c6f3f9e888f047086
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239843"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632834"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Creación y visualización de objetos visuales de esquema jerárquico en Power BI
 
@@ -53,7 +53,7 @@ Una vez que arrastra la medida al campo, el objeto visual se actualiza y muestra
 
 El paso siguiente consiste en incorporar una o varias dimensiones que quisiera explorar en profundidad. Agregue estos campos al cubo **Explain by**. Observe que aparece un signo más junto al nodo raíz. Al seleccionar el signo +, puede elegir qué campo quiere explorar en profundidad (puede explorar los campos en el orden que quiera).
 
-![Menú del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-menu.png)
+![La captura de pantalla muestra el icono de signo más seleccionado que muestra las opciones de la lista Explicar por.](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 Si selecciona **Forecast bias** (Sesgo de la previsión), el árbol se expandirá y desglosará la medida según los valores de la columna. Es posible repetir este proceso si elige otro nodo que desglosar.
 
@@ -61,7 +61,7 @@ Si selecciona **Forecast bias** (Sesgo de la previsión), el árbol se expandir�
 
 Al seleccionar un nodo del último nivel, se realiza un filtrado cruzado de los datos. Al seleccionar un nodo de un nivel anterior, se cambia la ruta de acceso.
 
-![Menú del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
+![La animación muestra cómo seleccionar un nodo de un nivel anterior y cómo cambia la presentación para mostrar sus nodos secundarios.](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
 
 Al interactuar con otros objetos visuales, se realiza un filtrado cruzado del esquema jerárquico. Como resultado, el orden de los nodos dentro de los niveles podría cambiar.
 En el ejemplo siguiente, aplicamos un filtro cruzado del árbol por Ubisoft. La ruta de acceso se actualiza y las ventas de Xbox pasan del primer al segundo lugar, superadas por las ventas de PlayStation. 
@@ -70,7 +70,7 @@ Si luego aplicamos un filtro cruzado del árbol por Nintendo, las ventas de Xbox
 
 A pesar de que la ruta de acceso desaparece, los niveles existentes (en este caso, el género del juego) siguen anclados en el árbol. Si selecciona el nodo Nintendo, el árbol se expande de manera automática a Género del juego.
 
-![Menú del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
+![La animación muestra cómo seleccionar filtros cruzados que afectan a los nodos que se muestran.](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
 
 
 ## <a name="ai-splits"></a>Divisiones de IA
@@ -132,11 +132,11 @@ Si selecciona otro nodo del árbol, las divisiones de IA se recalculan de cero. 
 
 Los niveles de IA también se recalculan cuando se aplica un filtro cruzado del esquema jerárquico según otro objeto visual. En el ejemplo siguiente, podemos ver que el porcentaje de pedidos pendientes es mayor para la planta n.° 0477.
 
-![Filtrado cruzado del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
+![La captura de pantalla muestra el análisis de la causa principal con todos los meses seleccionados.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
 Pero si seleccionamos **Abril** en el gráfico de barras, el valor más alto cambia a **Product Type is Advanced Surgical** (El tipo de producto es Cirugía avanzada). En este caso, no solo se trata de que se reordenaron los nodos, sino que se eligió una columna totalmente distinta. 
 
-![Filtrado cruzado del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
+![La captura de pantalla muestra el análisis de la causa principal con tan solo el mes de abril seleccionado.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 
 Si queremos que los niveles de IA se comporten como niveles que no son de IA, seleccione la bombilla para volver al comportamiento predeterminado. 
 

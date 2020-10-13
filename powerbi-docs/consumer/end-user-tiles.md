@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7d1ecb8f15cc6d10bc2e04d43796874efb161a83
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 6d35d19a1d47adc6a918f01a71c2009d71692fbd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537927"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633915"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
 
@@ -41,15 +41,15 @@ Además de los iconos anclados de los informes, los *diseñadores* puede agregar
 
     - Icono creado con Preguntas y respuestas
    
-        ![Icono de botón de puntos suspensivos](./media/end-user-tiles/power-bi-options-1.png)
+        ![La captura de pantalla muestra el menú con seis opciones.](./media/end-user-tiles/power-bi-options-1.png)
 
     - Icono creado a partir de un libro
    
-        ![Icono de botón de puntos suspensivos](./media/end-user-tiles/power-bi-options-2.png)
+        ![La captura de pantalla muestra el menú con tres opciones.](./media/end-user-tiles/power-bi-options-2.png)
 
     - Icono creado a partir de un informe
    
-        ![Icono de botón de puntos suspensivos](./media/end-user-tiles/power-bi-options-3.png)
+        ![La captura de pantalla muestra el menú con cinco opciones.](./media/end-user-tiles/power-bi-options-3.png)
    
     Desde aquí, puede:
    

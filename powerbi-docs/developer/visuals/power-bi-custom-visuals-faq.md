@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
-ms.date: 12/17/2018
-ms.openlocfilehash: 8003d7ed6d6b455860ed5ed3bc4ada06c0a35c5f
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/30/2020
+ms.openlocfilehash: 10790ef963a11fd78c41a28b54e7d177bd96a157
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537812"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747928"
 ---
 # <a name="power-bi-visuals-faq"></a>Preguntas más frecuentes de objetos visuales de Power BI
 
@@ -32,9 +32,9 @@ Cuando el administrador carga una nueva versión del objeto visual de Power BI 
 
 Los usuarios pueden encontrar los objetos de Power BI en la tienda integrada de la organización en Power BI Desktop o en el servicio Power BI, en la pestaña *MI ORGANIZACIÓN*. 
 
-### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Si un administrador carga un objeto visual de Power BI desde el Marketplace público a la tienda de la organización, ¿se actualiza automáticamente cuando el proveedor actualiza el objeto visual en el Marketplace público?
+### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-using-add-visual--from-appsource-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Si un administrador carga un objeto visual de Power BI desde el Marketplace público a la tienda de la organización usando *Agregar objeto visual > Desde AppSource*, ¿se actualiza automáticamente cuando el proveedor actualiza el objeto visual en el Marketplace público?
 
-No, no hay ninguna actualización automática desde el Marketplace público. Es responsabilidad del administrador actualizar la versión de los objetos visuales de Power BI la organización.
+Sí, el objeto visual se actualiza automáticamente desde el Marketplace público. Si el objeto visual está certificado, se conserva la certificación, incluidas características adicionales como Exportar a PDF o PowerPoint.
 
 ### <a name="is-there-a-way-to-disable-the-organization-store"></a>¿Hay una manera de deshabilitar la tienda de la organización?
 
@@ -135,7 +135,7 @@ Los objetos visuales de IAP ofrecen características avanzadas que se pueden com
 
 ### <a name="what-is-changing-in-the-submission-process"></a>¿Qué cambia en el proceso de envío?
 
-El proceso de envío de los objetos visuales de Power BI de IAP al Marketplace es el mismo que para los objetos visuales de Power BI gratuitos. Puede enviar un objeto visual de Power BI para certificarlo mediante el [Centro de partners](https://docs.microsoft.com/partner-center/).
+El proceso de envío de los objetos visuales de Power BI de IAP al Marketplace es el mismo que para los objetos visuales de Power BI gratuitos. Puede enviar un objeto visual de Power BI para certificarlo mediante el [Centro de partners](/partner-center/).
 
 
 Cuando registre el objeto visual de Power BI, vaya a la pestaña *Configuración del producto* y active la casilla *Mi producto necesita la compra de un servicio*.

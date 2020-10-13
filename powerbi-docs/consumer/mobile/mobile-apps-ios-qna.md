@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 323ea88f3a8843dd663985abac5552be1de71584
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264910"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634421"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual de Preguntas y respuestas en las aplicaciones iOS: Power BI
 
@@ -52,7 +52,7 @@ Una vez que haya completado los requisitos previos, está listo para probar el a
 4. Pulse **by** (por) en las palabras clave y después **item** (elemento) en la lista de sugerencias > **Enviar** ![Icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Ventas por artículo](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. Pulse **as** (como) en las palabras clave, pulse el icono de gráfico de columnas ![Icono Gráfico](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) y después **Enviar** ![Icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+5. Pulse **as** (como) en las palabras clave, pulse el icono de gráfico de columnas :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png" border="false"::: y después **Enviar** ![Icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 6. Mantenga pulsado el gráfico resultante y, después, pulse **Expandir**.
 
     ![Captura de pantalla de un gráfico de columnas, en la que se muestra un puntero a Expandir.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -68,7 +68,7 @@ Una vez que haya completado los requisitos previos, está listo para probar el a
 10. Elija **by** (por) en las palabras clave, pulse **time** (tiempo) en la lista de sugerencias de la parte superior > **Enviar** ![Icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
      ![Captura de pantalla de un gráfico, en la que se muestra la venta superior por importe medio por unidad por tiempo.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. Escriba **as** (como), elija el icono de gráfico de líneas ![Icono Gráfico](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) en la lista de sugerencias > **Enviar** ![Icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+11. Escriba **as** (como),elija el icono de gráfico de líneas :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png" border="false"::: en la lista de sugerencias > **Enviar** ![Icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Captura de pantalla de un gráfico de columnas y líneas, en la que se muestra un puntero desde la columna a un gráfico de líneas](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 

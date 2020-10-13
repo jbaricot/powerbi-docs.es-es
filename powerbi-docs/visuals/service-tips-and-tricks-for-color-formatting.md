@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354625"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633846"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Sugerencias y trucos para el formato de color en Power BI
 
@@ -130,15 +130,15 @@ Al activar el control deslizante **Divergente** , pueden establecerse los colore
 ## <a name="add-color-to-table-rows"></a>Agregar color a las filas de una tabla
 Las tablas y matrices ofrecen muchas opciones de formato de color. 
 
-![tabla predeterminada](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
+![La captura de pantalla muestra una tabla con filas blancas y grises alternas.](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
 
 Una de las formas más rápidas de aplicar color a una tabla o matriz es abrir la pestaña Formato y seleccionar **Estilo**.  En la imagen siguiente, hemos seleccionado **Filas llamativas del encabezado en negrita**.
 
-![tabla predeterminada](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
+![La captura de pantalla muestra la opción de estilo de filas llamativas del encabezado en negrita que hace que la fila de encabezado sea negra y las otras filas verdes claro y oscuro.](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
 
 Experimente con otras opciones de formato de color. En esta imagen, se ha cambiado el color de fondo de **Encabezados de columna** y se han cambiado los **valores** (filas) de **Color de fondo** y **Alternar color de fondo**.
 
-![tabla predeterminada](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
+![La captura de pantalla muestra selectores de valores para Color de fondo y Alternar color de fondo.](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>Cómo deshacer acciones en Power BI
 Al igual que muchos otros servicios y software de Microsoft, Power BI permite deshacer el último comando fácilmente. Por ejemplo, pongamos que cambia el color de un punto de datos o de una serie de puntos de datos y no le gusta el color cuando aparece en la visualización. No recuerda exactamente qué color tenía antes, pero sabe que desea recuperar ese color.
@@ -149,7 +149,7 @@ Para descartar todos los cambios realizados en una tarjeta de formato, seleccion
 
 ![Formato de tarjeta que muestra Volver al valor predeterminado en la parte inferior](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
 
-## <a name="feedback"></a>Comentarios
+## <a name="give-us-your-feedback"></a>Envíenos sus comentarios.
 ¿Tiene una sugerencia que le gustaría compartir? Envíenosla para que estudiemos si puede agregarse a esta lista.
 
 ## <a name="next-steps"></a>Pasos siguientes

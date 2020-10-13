@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11ccbdd3a5586aa10c051e6bfed820ed7f0ae48b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 45f5ff81e8ab11c2082af7f570f02bd3671719c6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237535"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634720"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tablas en informes y paneles de Power BI
 
@@ -157,7 +157,7 @@ Para copiar el valor de una sola celda:
 
 1. Seleccione **Copiar** > **Copiar valor**.
 
-    ![opciones de copia](media/power-bi-visualization-tables/power-bi-copy-value.png)
+    ![La captura de pantalla muestra Copiar seleccionados con la opción Copiar valor seleccionada.](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
     Con el valor de la celda sin formato en el portapapeles, puede pegarlo en otra aplicación.
 
@@ -169,7 +169,7 @@ Para copiar más de una celda:
 
 1. Seleccione **Copiar** > **Copiar selección**.
 
-    ![opciones de copia](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+    ![La captura de pantalla muestra Copiar seleccionados con la opción Copiar selección seleccionada.](media/power-bi-visualization-tables/power-bi-copy-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>Ajustar el ancho de columna de una tabla
 

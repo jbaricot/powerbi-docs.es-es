@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/10/2020
 ms.author: painbar
-ms.openlocfilehash: db889c945a7ea6f674bcc95e8ccf2c2075d56094
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 5add474500754405acb959577a0a7eb2e50a148b
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091718"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668652"
 ---
 # <a name="view-dashboards-in-the-power-bi-mobile-apps"></a>Ver paneles en la aplicación móvil de Power BI
 Se aplica a:
@@ -44,12 +44,12 @@ Este es un panel de Power BI en el servicio Power BI:
    
     ![Pulsar panel](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
-   * Las estrellas amarillas ![Estrellas de favoritos](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) muestran cuáles son los paneles favoritos. 
-   * La notación debajo de cada nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../create-reports/service-data-classification.md).
+   * Las estrellas amarillas ![Estrella de favorito](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) muestran cuáles son los paneles favoritos. 
+   * La notación debajo de un nombre de panel (en este ejemplo, "MBI") :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png" border="false"::: muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../create-reports/service-data-classification.md).
    
    De forma predeterminada, los paneles de Power BI en iPhone tienen un aspecto un poco distinto. Todos los iconos aparecen del mismo tamaño y están ordenados uno tras otro de arriba hacia abajo.
    
-    ![Vista vertical del panel](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
+    ![La captura de pantalla muestra un iPhone con varios mosaicos de Power BI que tienen el mismo tamaño.](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
    > Si es el propietario del panel, en el servicio Power BI puede [crear una vista del panel específicamente para teléfonos](../../create-reports/service-create-dashboard-mobile-phone-view.md) en modo vertical. 
@@ -62,12 +62,12 @@ Este es un panel de Power BI en el servicio Power BI:
 3. Deslice un dedo hacia arriba y hacia abajo para ver todos los iconos del panel. Puede:
    
    * [Pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrirlo en el modo enfocado e interactuar con él.
-   * Pulse en la estrella ![Estrella de favorito](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) para [convertirlo en favorito](mobile-apps-favorites.md).
+   * Pulse en la estrella ![Estrella de no favorito](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) para [convertirlo en favorito](mobile-apps-favorites.md).
    * Pulse **Invitar** ![icono Invitar](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) para [invitar a un compañero](mobile-share-dashboard-from-the-mobile-apps.md) a ver el panel.
    * [Sincronizar el panel con Apple Watch](mobile-apple-watch.md).
 4. Para volver a la lista de paneles, pulse la flecha situada junto al título del panel y, después, pulse **Mi área de trabajo**.
    
-   ![Ruta de navegación](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
+   ![Captura de pantalla que muestra un panel de Power BI que tiene mosaicos de tamaños diferentes organizados según están diseñados.](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
 ### <a name="view-dashboards-in-landscape-mode-in-your-iphone"></a>Ver paneles en modo horizontal en iPhone
 Simplemente gire el teléfono lateralmente para ver los paneles en modo horizontal. El diseño del panel cambia de una serie de mosaicos a una vista de todo el panel: se ven todos los iconos del panel dispuestos como en el servicio Power BI.
@@ -82,13 +82,13 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
    ¿Necesita [descargar la App para iPad](https://go.microsoft.com/fwlink/?LinkId=522062) del App Store de Apple primero?
 2. Pulse **Paneles** en la parte superior de la aplicación.  
    
-   ![Página principal de paneles](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
+   ![Captura de pantalla que muestra una pantalla de iPad con Mi área de trabajo con paneles seleccionados.](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * Las estrellas amarillas ![Estrella de favorito](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) muestran cuáles son los paneles favoritos. 
-   * La notación debajo de cada nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../create-reports/service-data-classification.md).
+   * La notación debajo de un nombre de panel (en este ejemplo, "MBI") :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png" border="false"::: muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../create-reports/service-data-classification.md).
 3. Puede compartir un panel desde el área de trabajo. Pulse el botón de puntos suspensivos ( **...** ) en la esquina inferior derecha del icono de panel y, después, **Invitar a otros**.
    
-   ![Icono de invitación](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
+   ![Captura de pantalla que muestra el control de puntos suspensivos seleccionado, que muestra Invitar a otros.](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. También puede pulsar un panel para abrirlo y ver los iconos en ese panel. En el panel puede interactuar con él:
    
    * [Pulsar un icono para interactuar](mobile-tiles-in-the-mobile-apps.md) con él.
@@ -97,7 +97,7 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
    * [Anotar y compartir una instantánea](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) de un icono.
 5. Para volver a Mi área de trabajo, pulse el nombre del panel en la esquina superior izquierda y, después, pulse **Mi área de trabajo**.
    
-   ![Ruta de navegación](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
+   ![Captura de pantalla que muestra el menú de ruta de navegación en un iPad con Mi área de trabajo destacada.](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
 
 ## <a name="view-dashboards-on-your-android-phone"></a>Visualización de paneles en el teléfono Android
 1. Abra la aplicación de Power BI en su teléfono Android e inicie sesión.
@@ -105,15 +105,15 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
    ¿Necesita [descargar la aplicación Android](https://go.microsoft.com/fwlink/?LinkID=544867) primero?
 2. Pulse un panel para abrirlo.   
    
-   ![Página principal de paneles](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
+   ![Captura de pantalla que muestra una pantalla de teléfono Android con Mi área de trabajo con paneles seleccionados.](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
     Las estrellas amarillas ![Estrella de favorito](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) muestran cuáles son los paneles favoritos. 
 
-    Una notación debajo de un nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../create-reports/service-data-classification.md).
+    Una notación debajo de un nombre de panel (en este ejemplo, "MBI") :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png" border="false"::: muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../create-reports/service-data-classification.md).
 
     Los paneles de Power BI tienen un aspecto un poco distinto en el teléfono Android. Todos los iconos aparecen de la misma anchura y están ordenados uno tras otro de arriba hacia abajo.
 
-    ![Vista vertical del panel](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
+    ![La captura de pantalla muestra un teléfono Android con varios mosaicos que tienen el mismo tamaño.](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
     Si es el propietario del panel, en el servicio Power BI puede [crear una vista del panel específicamente para teléfonos](../../create-reports/service-create-dashboard-mobile-phone-view.md) en modo vertical. 
 
@@ -129,10 +129,10 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
    ¿Necesita [descargar la aplicación Android](https://go.microsoft.com/fwlink/?LinkID=544867) primero?
 2. Pulse un panel para abrirlo.   
    
-   ![Página principal de paneles](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
+   ![Captura de pantalla que muestra una pantalla de tableta Android con mi área de trabajo con paneles seleccionados.](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * Las estrellas amarillas ![Estrella de favorito](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) muestran cuáles son los paneles favoritos. 
-   * La notación debajo de cada nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../create-reports/service-data-classification.md).
+   * Una notación debajo de un nombre de panel (en este ejemplo, "MBI") :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png" border="false"::: muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../create-reports/service-data-classification.md).
 3. En el panel, puede pulsar el botón vertical **Más opciones** (...) al lado del nombre para invitar a un colega, para actualizar o para obtener información sobre el panel:
    
    ![Menú de puntos suspensivos](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -141,7 +141,7 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
    Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del panel, y el de desplazamiento lateral para navegar por él. Y puede [pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrirlo en modo enfocado e interactuar con los datos.
 5. Para volver a la página principal de paneles, pulsa el nombre del panel para abrir el rastro de la ruta de exploración y, después, pulse **Mi área de trabajo**:
    
-    ![Ruta de navegación](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
+    ![Captura de pantalla que muestra el menú de ruta de navegación en una tableta Android con Mi área de trabajo destacada.](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del panel, y el de desplazamiento lateral para navegar por él. Y puede [pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrirlo en modo enfocado e interactuar con los datos.
 

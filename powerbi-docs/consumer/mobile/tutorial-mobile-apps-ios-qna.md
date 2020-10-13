@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: painbar
-ms.openlocfilehash: f946c3b10f9d4922c227dd92a748af91266c040e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b84cf4969df05d4e9570b12a80436bca3e280be
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75221818"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668330"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Tutorial: Formular preguntas sobre los datos con el analista virtual de Preguntas y respuestas en las aplicaciones de Power BI de iOS
 
@@ -92,13 +92,13 @@ Cuando complete el tutorial, puede eliminar el panel, el informe y el conjunto d
 
 3. Haga clic en la pestaña de paneles y, después, en la línea del ejemplo de análisis de oportunidades, haga clic en la papelera.
 
-    ![Seleccione el icono de eliminación](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
+    ![Captura de pantalla que muestra el área de trabajo de Power BI con un panel seleccionado y el icono de eliminación destacada.](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
 
     Ahora, seleccione la pestaña Informes y repita la operación.
 
 4. Luego, seleccione la pestaña Conjuntos de datos, haga clic en el botón **Más opciones** (...) y elija **Eliminar**.
 
-    ![Seleccione el icono de eliminación](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
+    ![Captura de pantalla que muestra el área de trabajo de Power BI con un conjunto de datos seleccionado y Eliminar seleccionado en el menú Más opciones.](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 

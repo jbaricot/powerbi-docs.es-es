@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c362a8012635becb68200a9d513157c05310edaf
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9c25089c5141f16cc3f993039dc69bece9231f1
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215158"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668629"
 ---
 # <a name="bi-directional-relationship-guidance"></a>Instrucciones para relaciones bidireccionales
 
@@ -77,7 +77,7 @@ Cuando los usuarios de informes se segmentan por Australia, es posible que desee
 
 La segmentación de **Product** ahora enumera un solo artículo: T-shirt. Este artículo representa el único producto vendido a clientes australianos.
 
-![Diagrama en el que se muestra la página del informe que contiene tres objetos visuales. En el párrafo siguiente se describen los detalles.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
+![Diagrama en el que se muestra la página del informe que contiene tres objetos visuales con la opción Producto destacada. En el párrafo siguiente se describen los detalles.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
 
 Primero le recomendamos que considere cuidadosamente si este diseño funciona para los usuarios de su informe. Algunos usuarios de informes encuentran la experiencia confusa. No entienden por qué los artículos de segmentación aparecen o desaparecen dinámicamente cuando interactúan con otras segmentaciones.
 

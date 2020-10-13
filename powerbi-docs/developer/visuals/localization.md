@@ -1,6 +1,6 @@
 ---
-title: Información sobre las asignaciones de vistas de datos en objetos visuales de Power BI
-description: En este artículo se describe cómo transforma Power BI los datos antes de pasarlos en objetos visuales.
+title: Adición de la configuración regional en Power BI para los objetos visuales de Power BI
+description: Descubra cómo los objetos visuales pueden recuperar la configuración regional de Power BI para localizar su contenido en el idioma pertinente.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7492b70b9a82fe6c5579c4251000e9af7509e8fb
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349296"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746071"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Adición de la configuración regional en Power BI para los objetos visuales de Power BI
 

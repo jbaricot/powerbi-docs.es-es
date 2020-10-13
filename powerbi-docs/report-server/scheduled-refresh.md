@@ -1,6 +1,6 @@
 ---
 title: Solución de problemas de la actualización programada en Power BI Report Server
-description: Los informes de Power BI pueden conectarse a orígenes de datos diferentes. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos.
+description: La actualización programada de los informes de Power BI permite que los datos de un informe con un modelo insertado estén al día.
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 89adff51d70be24e4f42c379a729fd1123ca10a5
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 710df5f4159f49884d9eee1044b2c077c7edcb88
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861783"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749101"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Solución de problemas de la actualización programada en Power BI Report Server
 La actualización programada de los informes de Power BI permite que los datos de un informe estén al día.
@@ -24,19 +24,19 @@ La actualización programada es específica de los informes de Power BI con un m
 
 La actualización programada se configura en la sección de administración de un informe. Para más información acerca de cómo configurar la actualización programada, consulte [Configuración de la actualización programada de un informe de Power BI](configure-scheduled-refresh.md).
 
-## <a name="how-this-works"></a>Cómo funciona esto
+## <a name="how-this-works"></a>Cómo funciona
 Cuando se usa la actualización programada para los informes de Power BI, están implicados varios componentes.
 
 * El Agente SQL Server como temporizador para generar eventos programados.
-* Los trabajos programados se agregan a una cola de eventos y notificaciones en la base de datos del servidor de informes. En una implementación escalada, la cola se comparte con todos los servidores de informes de la implementación.
-* Todo el procesamiento de informes que se produce como resultado de un evento de programación se realiza como un proceso en segundo plano.
+* Los trabajos programados se agregan a una cola de eventos y notificaciones en la base de datos del servidor de informes. En una implementación escalada, la cola se comparte en todos los servidores de informes de la implementación.
+* Todo el procesamiento de informes que se produce como consecuencia de un evento de programación se realiza como un proceso en segundo plano.
 * El modelo de datos se carga en una instancia de Analysis Services.
 * Para algunos orígenes de datos, el motor de mashup de Power Query se utiliza para conectarse a orígenes de datos y transformar los datos. Otros orígenes de datos pueden estar conectados a directamente desde un servicio de Analysis Services que se utiliza para hospedar los modelos de datos para Power BI Report Server.
 * Los nuevos datos se cargan en el modelo de datos de Analysis Services.
 * En una configuración de escalado horizontal, el modelo de datos se puede replicar entre los nodos.
 * Analysis Services procesa los datos y ejecuta cualquier cálculo necesario.
 
-Power BI Report Server mantiene una cola de eventos para todas las operaciones programadas. Sondea la cola a intervalos regulares para detectar nuevos eventos. De forma predeterminada, la cola se examina a intervalos de 10 segundos. Puede cambiar el intervalo modificando las opciones de configuración **PollingInterval**, **IsNotificationService** y **IsEventService** en el Archivo RSReportServer.config. **IsDataModelRefreshService** también se puede usar para establecer si un servidor de informes procesa eventos programados.
+Power BI Report Server mantiene una cola de eventos para todas las operaciones programadas. La sondea a intervalos regulares para detectar nuevos eventos. De forma predeterminada, la cola se recorre a intervalos de 10 segundos. Es posible cambiar el intervalo si se modifican los valores de configuración **PollingInterval**, **IsNotificationService**e **IsEventService** del archivo RSReportServer.config. **IsDataModelRefreshService** también se puede usar para establecer si un servidor de informes procesa eventos programados.
 
 ### <a name="analysis-services"></a>Analysis Services
 Representar un informe de Power BI, así como realizar una actualización programada, requiere cargar el modelo de datos del informe de Power BI en Analysis Services. Un proceso de Analysis Services se ejecutará con Power BI Report Server.

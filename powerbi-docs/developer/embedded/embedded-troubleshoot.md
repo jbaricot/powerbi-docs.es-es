@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 245a23f0477b542ecd402a5028cffebe2d1142ad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485700"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749078"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Solución de problemas de una aplicación insertada
 
@@ -75,27 +75,27 @@ Es posible que se necesite una captura de Fiddler para poder investigar más. El
 
 Es posible que se necesite una captura de Fiddler para poder investigar más. El error 403 puede deberse a varios motivos.
 
-* El usuario ha superado la cantidad de tokens de inserción que se pueden generar en una capacidad compartida. Adquiera capacidades de Azure para generar tokens de inserción y asignar el área de trabajo a esa capacidad. Vea [Creación de una capacidad de Power BI Embedded en Azure Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
+* El usuario ha superado la cantidad de tokens de inserción que se pueden generar en una capacidad compartida. Adquiera capacidades de Azure para generar tokens de inserción y asignar el área de trabajo a esa capacidad. Vea [Creación de una capacidad de Power BI Embedded en Azure Portal](/azure/power-bi-embedded/create-capacity).
 * El token de autenticación de Azure AD ha expirado.
 * El usuario autenticado no es miembro del grupo (área de trabajo).
 * El usuario autenticado no es administrador del grupo (área de trabajo).
-* El usuario autenticado no tiene permisos. Los permisos se pueden actualizar con la [API refreshUserPermissions](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions)
+* El usuario autenticado no tiene permisos. Los permisos se pueden actualizar con la [API refreshUserPermissions](/rest/api/power-bi/users/refreshuserpermissions)
 * Es posible que el encabezado de la autorización no aparezca correctamente. Asegúrese de que no hay errores tipográficos.
 
 Es posible que el back-end de la aplicación tenga que actualizar el token de autenticación antes de llamar a GenerateToken.
 
-    ```
-    GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
-    Host: wabi-us-north-central-redirect.analysis.windows.net
-    ...
-    Authorization: Bearer eyJ0eXAiOi...
-    ...
+```console
+GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
+Host: wabi-us-north-central-redirect.analysis.windows.net
+...
+Authorization: Bearer eyJ0eXAiOi...
+...
 
-    HTTP/1.1 403 Forbidden
-    ...
+HTTP/1.1 403 Forbidden
+...
 
-    {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-    ```
+{"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
+```
 
 ## <a name="authentication"></a>Autenticación
 
@@ -113,13 +113,13 @@ Para resolver este problema, debe quitar "oauth2/authorize/" del final de la dir
 
 Si usa Power BI Embedded y recurre a la autenticación directa de Azure AD, y recibe mensajes de registro como ***error:unauthorized_client,error_description:AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos***, se debe a que la autenticación directa dejó de usarse de forma predeterminada el 14 de junio de 2018.
 
-Hay una manera de volver a activar esta opción por medio de una [directiva de Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), que se puede limitar al ámbito de la organización o a una [entidad de servicio](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+Hay una manera de volver a activar esta opción por medio de una [directiva de Azure AD](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), que se puede limitar al ámbito de la organización o a una [entidad de servicio](/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 Se recomienda que habilite esta directiva solo por aplicación.
 
 Para crear esta directiva, debe ser un **administrador global** en el directorio donde va a crear y asignar la directiva. Este es un script de ejemplo para crear la directiva y asignarla a la entidad de servicio en esta aplicación:
 
-1. Instale el [módulo de versión preliminar de Azure AD PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Instale el [módulo de versión preliminar de Azure AD PowerShell](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
 2. Ejecute los comandos de PowerShell siguientes línea a línea (asegúrese que la variable $sp no tenga más de una aplicación como resultado).
 
@@ -153,7 +153,7 @@ GenerateToken puede generar un error, con la identidad efectiva proporcionada, p
 
 Para comprobar cuál es, pruebe lo siguiente.
 
-* Ejecute [get dataset](https://docs.microsoft.com/rest/api/power-bi/datasets). ¿Tiene la propiedad IsEffectiveIdentityRequired el valor true?
+* Ejecute [get dataset](/rest/api/power-bi/datasets). ¿Tiene la propiedad IsEffectiveIdentityRequired el valor true?
 * El nombre de usuario es obligatorio en todas las instancias de EffectiveIdentity.
 * Si el valor de IsEffectiveIdentityRolesRequired es true, se requiere el rol.
 * DatasetId es obligatorio en todas las instancias de EffectiveIdentity.
@@ -270,37 +270,43 @@ Si está trabajando con la experiencia de **inserción para los clientes**, guar
 
 Al seleccionar **Conceder permisos** (el paso Conceder permisos), obtendrá este error:
 
-    AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```output
+AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```
 
 Para solucionarlo, cierre la ventana emergente, espere unos segundos e inténtelo de nuevo. Es posible que tenga que repetir esta acción varias veces. Un intervalo de tiempo provoca el problema de completar el proceso de registro de la aplicación cuando esta esté disponible para las API externas.
 
 Aparece este mensaje de error cuando se ejecuta la aplicación de ejemplo:
 
-    Password is empty. Please fill password of Power BI username in web.config.
+```output
+Password is empty. Please fill password of Power BI username in web.config.
+```
 
 Este error se produce porque el único valor que no se está insertado en la aplicación de ejemplo es la contraseña de usuario. Abra el archivo Web.config de la solución y rellene el campo pbiPassword con la contraseña del usuario.
 
 Si recibe el error AADSTS50079: El usuario debe usar autenticación multifactor.
 
-    Need to use an AAD account that doesn't have MFA enabled.
+Debe usar una cuenta de AAD que no tenga MFA habilitado.
 
-#### <a name="using-the-embed-for-your-organization-sample-application"></a>Usar la aplicación de ejemplo de inserción para la organización
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>Usar la aplicación de ejemplo de inserción para clientes
 
 Si está trabajando con la experiencia de **inserción para la organización**, guarde el archivo *PowerBI-Developer-Samples.zip* y descomprímalo. Después, abra la carpeta *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* y ejecute el archivo *pbi-saas-embed-report.sln*.
 
 Al ejecutar la aplicación de ejemplo de **inserción para la organización**, obtendrá este error:
 
-    AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```output
+AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```
 
 Este error se debe a que la dirección URL de redireccionamiento especificada para la aplicación del servidor web es diferente de la dirección URL de la aplicación de ejemplo. Si quiere registrar la aplicación de ejemplo, use `https://localhost:13526/` como dirección URL de redireccionamiento.
 
-Si quiere editar la aplicación registrada, deberá aprender a [actualizarla en Azure AD](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app), para que la aplicación pueda proporcionar acceso a las API web.
+Si quiere editar la aplicación registrada, deberá aprender a [actualizarla en Azure AD](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app), para que la aplicación pueda proporcionar acceso a las API web.
 
-Si quiere editar los datos o el perfil de usuario de Power BI, deberá aprender a editar los [datos de Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts).
+Si quiere editar los datos o el perfil de usuario de Power BI, deberá aprender a editar los [datos de Power BI](../../fundamentals/service-basic-concepts.md).
 
-Si recibe el error AADSTS50079: El usuario debe usar autenticación multifactor.
+Si recibe el error: AADSTS50079: El usuario debe usar autenticación multifactor.
 
-    Need to use an AAD account that doesn't have MFA enabled.
+Debe usar una cuenta de AAD que no tenga MFA habilitado.
 
 Para más información, consulte [Preguntas más frecuentes acerca de Power BI Embedded](embedded-faq.md).
 

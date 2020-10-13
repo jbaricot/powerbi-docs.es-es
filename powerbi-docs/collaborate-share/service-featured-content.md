@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3154becb2f496c0bbb0f84d1c1e7316868251c36
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226031"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374945"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Contenido destacado en la página Inicio de Power BI de los compañeros
 
@@ -24,7 +24,7 @@ Puede destacar paneles, informes y aplicaciones de forma que aparezcan en la sec
 
 ## <a name="who-can-feature-content"></a>Quién puede destacar contenido
 
-Es decisión del administrador de inquilinos de Power BI habilitar la posibilidad de destacar contenido en el inquilino. El administrador también elige quién puede destacar contenido. Vea el artículo del [portal de administración](../admin/service-admin-portal.md#featured-content) para obtener información.
+Es decisión del administrador de Power BI habilitar la posibilidad de destacar contenido en el inquilino. El administrador también elige quién puede destacar contenido. Vea el artículo del [portal de administración](../admin/service-admin-portal.md#featured-content) para obtener información.
 
 Si forma parte del grupo de elegidos en la organización con esa responsabilidad, debe tener una licencia de Power BI Pro. Para destacar paneles e informes, necesita el rol de administrador, miembro o colaborador en el área de trabajo. Para destacar la propia aplicación, debe tener el rol de administrador o de miembro en el área de trabajo. Vea [Roles en las áreas de trabajo nuevas](service-new-workspaces.md#roles-in-the-new-workspaces) para obtener más información.
 
@@ -38,13 +38,13 @@ El procedimiento para destacar un panel o un informe es similar.
 
 1. En la lista **Paneles** o **Informes** de un área de trabajo, seleccione el icono **Configuración**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Icono Configuración del informe":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Contenido destacado de Power BI en Inicio":::
 
 2. En el panel **Configuración**, compruebe o cambie el nombre. Agregue una **Descripción** y cargue una **Instantánea**, si quiere. Son útiles porque ayudan a los usuarios a encontrar el contenido.
 
 3. Seleccione **Destacados**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Configuración de contenido destacado":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Contenido destacado de Power BI en Inicio":::
 
 4. Seleccione **Guardar**.
 

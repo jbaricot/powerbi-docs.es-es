@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b4a5733e0c4b8617dc93edb1e7fe35a0a76a3338
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238150"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632903"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersión, de burbujas y de trazado de punto de Power BI
 
@@ -143,7 +143,7 @@ Ahora vamos a agregar una tercera dimensión.
 
         a. Cambie el campo **% de desviación de ventas totales** a **% de margen bruto del último año**
 
-        ![Captura de pantalla del gráfico de burbujas con la línea de mediana agregada.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+        ![Captura de pantalla de los detalles con el porcentaje de margen bruto del último año seleccionado.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
 
         b. En el panel Analytics, agregue **Sombreado de simetría**. A partir del sombreado se observa que Calcetería (la burbuja verde en el área sombreada de color rosa) es la única categoría que favorece el margen bruto en lugar de sus ventas por metro cuadrado de tienda. 
 
@@ -151,7 +151,7 @@ Ahora vamos a agregar una tercera dimensión.
 
     - Continúe con la exploración del panel Analytics para descubrir información interesante sobre los datos. 
 
-        ![Captura de pantalla del gráfico de burbujas con sombreado de simetría agregado.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
+        ![Captura de pantalla del panel Analytics.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>Creación de un gráfico de trazado de punto
 

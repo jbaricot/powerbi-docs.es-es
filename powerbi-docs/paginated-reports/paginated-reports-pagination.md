@@ -1,6 +1,6 @@
 ---
 title: Paginación en informes paginados de Power BI
-description: En este artículo, obtendrá información sobre los orígenes de datos admitidos para los informes paginados en el servicio Power BI y cómo conectarse a orígenes de datos de Azure SQL Database.
+description: Obtenga información sobre los informes paginados en el servicio Power BI y las reglas que se usan para controlar la paginación para diseñar un informe optimizado para el representador que tiene previsto usar.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: bce23ecdc99f6428ecefc28580e3ae0ec05fac6a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 87dc2541dd8fd91f22c1e89ce146be10eca14db9
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859713"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780110"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginación en informes paginados de Power BI
 

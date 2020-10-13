@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e213107f84f81aef78a52cdb282b70379c7465
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8ee29bcfb85c627ed6e9bb4c33c48b941ded7dd7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237508"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526841"
 ---
 # <a name="create-card-visualizations"></a>Creación de visualizaciones de tarjeta
 
@@ -102,7 +102,8 @@ El panel de formato está disponible cuando se interactúa con la tarjeta en un 
 5. Siga explorando las opciones de formato hasta que la tarjeta esté exactamente cómo le gustaría. 
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-Si no ve un cuadro de pregunta, póngase en contacto con el administrador del sistema o del inquilino.    
+
+Si no ve un cuadro de pregunta, póngase en contacto con el administrador de Power BI.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Gráficos combinados en Power BI](power-bi-visualization-combo-chart.md)

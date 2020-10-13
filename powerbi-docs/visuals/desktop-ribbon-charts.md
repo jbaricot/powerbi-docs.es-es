@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7f36ada69f1ee98c7392d05eb169947c600774e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0e5687f9bb3f27af7bdfee28cd9753fbda4fa44f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221643"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635778"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>Creación de gráficos de cinta en Power BI
 
@@ -24,7 +24,7 @@ ms.locfileid: "85221643"
 
 Puede usar gráficos de cinta para visualizar y detectar rápidamente qué categoría de datos tiene la clasificación más alta (el valor mayor). Los gráficos de cinta de opciones son eficaces para mostrar un cambio de clasificación, con el intervalo más alto (valor) siempre en la parte superior de cada período de tiempo. 
 
-![gráfico de la barra de herramientas](media/desktop-ribbon-charts/ribbon-charts-01.png)
+![La captura de pantalla muestra un gráfico de la barra de herramientas con datos para Audio, Teléfonos móviles y otras categorías mostradas por año y trimestre.](media/desktop-ribbon-charts/ribbon-charts-01.png)
 
 > [!NOTE]
 > Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium. Consulte [cómo compartir informes](../collaborate-share/service-share-reports.md).
@@ -57,12 +57,12 @@ En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas]
 
 3. En el gráfico de la barra de herramientas se muestra la clasificación para cada mes. Observe cómo cambia la clasificación en el tiempo. Por ejemplo, la categoría Home (Inicio) se desplaza de la segunda a la quinta posición, de febrero a marzo.
 
-    ![gráfico de la barra de herramientas](media/desktop-ribbon-charts/power-bi-ribbon.png)
+    ![La captura de pantalla muestra el gráfico de la barra de herramientas que creó con algunos datos convocados.](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
 ## <a name="format-a-ribbon-chart"></a>Formato de un gráfico de cinta de opciones
 Cuando se crea un gráfico de cinta de opciones, hay opciones de formato disponibles en la sección **Formato** del panel **Visualizaciones**. Las opciones de formato para los gráficos de cinta de opciones son similares a las de un gráfico de columnas apiladas, con opciones de formato adicionales que son específicas de las cintas de opciones.
 
-![Plantilla de cinta en el panel Visualización](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
+![La captura de pantalla muestra el icono de formato seleccionado y el área Barras de herramientas expandida.](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
 
 Estas opciones de formato para los gráficos de la barra de herramientas permiten realizar ajustes.
 
@@ -77,7 +77,7 @@ Como el gráfico de la barra de herramientas no tiene etiquetas en el eje Y, pue
 
 Establezca las opciones de formato para las etiquetas de datos. En este ejemplo, se ha establecido el color del texto en blanco y las unidades de visualización en miles.
 
-![Plantilla de cinta en el panel Visualización](media/desktop-ribbon-charts/power-bi-data-labels.png)
+![La captura de pantalla muestra el gráfico de la barra de herramientas con formato final.](media/desktop-ribbon-charts/power-bi-data-labels.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 

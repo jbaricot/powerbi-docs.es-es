@@ -1,17 +1,17 @@
 ---
 title: Catálogo de aprendizaje para desarrolladores
-description: Búsqueda de todas las opciones de entrenamiento para Power BI
+description: Busque todas las opciones de aprendizaje para Power BI para desarrolladores, de la más básica a la más avanzada.
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 8825cf687d3d6dd754e520f5e452b2483e3f179b
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 442ae8cb6c433cbc7501a6f354158c39a48e2d68
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411874"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746548"
 ---
 # <a name="developer-learning-catalog"></a>Catálogo de aprendizaje para desarrolladores
 
@@ -31,7 +31,7 @@ El catálogo siguiente se organiza a partir de los conocimientos básicos en dom
 | [Learn about Power BI Embedded in 20 minutes](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html) (Conozca Power BI Embedded en 20 minutos)  | En este seminario web se muestra una introducción a Power BI Embedded. Al final de este seminario web, los usuarios deberían poder entender qué es Power BI Embedded, los pasos siguientes para comenzar a usar el producto y dónde obtener ayuda y recursos. | Seminario web       |                |
 | [Desarrollo con inserción de Power BI, por Ted Pattison: actualización de abril de 2018](https://www.youtube.com/watch?v=swnGlrRy588)  | En este seminario web orientado a desarrolladores, Ted Pattison analizará las últimas mejoras realizadas en la plataforma de inserción de Power BI y cómo las pueden aprovechar los ISV y los desarrolladores empresariales. | Vídeo de YouTube | 59 min 49 s  |
 | [Inserción de Power BI versión 2: la historia completa](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527)    | El seminario web se presentó el 10 de agosto de 2017 por el MVP de Power BI Ted Pattison, de Critical Path Training. En el seminario web se explica el desarrollo con las nuevas características de inserción de Power BI disponibles a través de Power BI Premium.  | Seminario web       | 1 h 7 min 23 s |
-| [Tutorial: Inserción del contenido de Power BI en una aplicación para los clientes](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers#step-1-setup-your-embedded-analytics-development-environment) | Con Power BI Embedded en Azure o la inserción de Power BI en Office, puede insertar informes, paneles o iconos en una aplicación mediante datos propios de la aplicación.  | Documentación |                |
+| [Tutorial: Inserción del contenido de Power BI en una aplicación para los clientes](../developer/embedded/embed-sample-for-customers.md#set-up-your-embedded-analytics-development-environment) | Con Power BI Embedded en Azure o la inserción de Power BI en Office, puede insertar informes, paneles o iconos en una aplicación mediante datos propios de la aplicación.  | Documentación |                |
 | [Learn about Power BI Embedded in 20 minutes](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html) (Conozca Power BI Embedded en 20 minutos)  | En este seminario web se muestra una introducción a Power BI Embedded. Al final de este seminario web, los usuarios deberían poder entender qué es Power BI Embedded, los pasos siguientes para comenzar a usar el producto y dónde obtener ayuda y recursos. | Seminario web       |                |
 ## <a name="dax"></a>DAX<a name="dax"></a>
 | Contenido | Descripción | Formato  | Longitud      |

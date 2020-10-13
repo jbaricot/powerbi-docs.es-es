@@ -9,18 +9,18 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4b2b29effb1d9b4b2d8e743990dd3dd0d27470f8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 3f44353fc562793037d80a2aa7f0a1d42d207bc6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859851"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634053"
 ---
 # <a name="what-is-power-bi-report-server"></a>¿Qué es Power BI Report Server?
 
 Power BI Report Server es un servidor de informes local con un portal web en el que muestra y administra informes y KPI. Junto con él, se incluyen herramientas para crear informes de Power BI, informes paginados, informes móviles y KPI. Los usuarios pueden acceder a los informes de maneras diferentes: verlos en un explorador web o en un dispositivo móvil, o como un correo electrónico en su bandeja de entrada.
 
-![Portal web del servidor de informes de Power BI](media/get-started/power-bi-report-server-overview.png)
+![La captura de pantalla muestra el portal web de Power BI Report Server.](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>Comparación de Power BI Report Server 
 Power BI Report Server es similar a SQL Server Reporting Services y al servicio en línea Power BI, pero con algunas diferencias. Al igual que el servicio Power BI, Power BI Report Server hospeda informes de Power BI (.pbix), archivos de Excel e informes paginados (.rdl). Al igual que Reporting Services, Power BI Report Server se encuentra en el entorno local. Las características de Power BI Report Server son un superconjunto de Reporting Services: todo lo que puede hacer en Reporting Services, puede hacerlo con Power BI Report Server, además de tener compatibilidad con los informes de Power BI. Vea [Comparación de Power BI Report Server y el servicio Power BI](compare-report-server-service.md) para obtener información detallada.
@@ -36,7 +36,7 @@ Si publica informes de Power BI en Power BI Report Server, también necesitar�
 ## <a name="web-portal"></a>Portal web
 El punto de entrada de Power BI Report Server es un portal web seguro que puede ver en cualquier explorador moderno. Aquí, accede a todos los informes y KPI. El contenido del portal web se organiza en una jerarquía de carpetas tradicional. En las carpetas, el contenido se agrupa por tipo: informes de Power BI, informes móviles, informes paginados, KPI y libros de Excel. Los conjuntos de datos y orígenes de datos compartidos se encuentran en sus propias carpetas, que usará como bloques de creación de informes. Etiquete favoritos para verlos en una sola carpeta y cree los KPI directamente en el portal web. 
 
-![Portal web del servidor de informes de Power BI](media/get-started/web-portal.png)
+![La fotografía muestra un equipo portátil que muestra el portal web de Power BI Report Server.](media/get-started/web-portal.png)
 
 Dependiendo de sus permisos, puede administrar el contenido en el portal web. Puede programar el procesamiento de informes, acceder a informes a petición y suscribirse a los informes publicados. Puede aplicar también su propia [marca](/sql/reporting-services/branding-the-web-portal) personalizada al portal web. 
 
