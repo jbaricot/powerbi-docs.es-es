@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b898b205ef9d85f8c0a4951f147339f8d315db1e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2074094f910efa36d449d8f54ada097d253bb2dd
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855412"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598902"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Agregar una columna personalizada en Power BI Desktop
 
@@ -22,7 +22,7 @@ En Power BI Desktop puede agregar fácilmente una nueva columna personalizada d
 
 Cuando se crea una columna personalizada en el Editor de consultas, Power BI Desktop la agrega como un **paso aplicado** en la **Configuración de la consulta** de la consulta. Esto se puede cambiar, migrar o modificar en cualquier momento.
 
-![Agregar una columna personalizada](media/desktop-add-custom-column/add-custom-column_01.png)
+![En la captura de pantalla se muestra el cuadro de diálogo Agregar columna personalizada.](media/desktop-add-custom-column/add-custom-column_01.png)
 
 ## <a name="use-query-editor-to-add-a-custom-column"></a>Uso del Editor de consultas para agregar una columna personalizada
 
@@ -51,7 +51,7 @@ La ventana **Agregar columna personalizada** tiene las siguientes característic
 
 - [Las consultas de fórmula de PowerQuery M](/powerquery-m/power-query-m-function-reference), en el cuadro **Fórmula de columna personalizada**. Cree estas consultas compilando la fórmula en la que se define la nueva columna personalizada. 
 
-   ![Agregar una columna personalizada](media/desktop-add-custom-column/add-custom-column_03.png)
+   ![En la captura de pantalla se muestra el cuadro de diálogo Agregar columna personalizada, que incluye las columnas disponibles para elegir.](media/desktop-add-custom-column/add-custom-column_03.png)
 
 ## <a name="create-formulas-for-your-custom-column"></a>Crear fórmulas para la columna personalizada
 

@@ -1,6 +1,6 @@
 ---
 title: Inserción de informes paginados de Power BI en la aplicación para la organización
-description: Obtenga información sobre cómo integrar o insertar un informe paginado de Power BI en una aplicación con las API de Power BI.
+description: En este tutorial, obtendrá información sobre cómo integrar o insertar un informe paginado de Power BI en una aplicación con las API de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878742"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747629"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Tutorial: Inserción de informes paginados de Power BI en una aplicación para la organización
 
 En **Power BI**, puede insertar informes paginados en una aplicación para la organización mediante el escenario *El usuario posee los datos*.
 
 Los informes paginados son informes diseñados para una impresión de alta calidad. Por lo general, estos informes contienen una gran cantidad de datos, que se representan de forma que se ajusten a las páginas impresas.
-Para entender cómo Power BI admite los informes paginados, consulte [¿Qué son los informes paginados en Power BI Premium?](https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)
+Para entender cómo Power BI admite los informes paginados, consulte [¿Qué son los informes paginados en Power BI Premium?](../../paginated-reports/paginated-reports-report-builder-power-bi.md)
 
 **User owns data** permite a la aplicación ampliar el servicio Power BI para usar análisis integrados. En este tutorial se muestra cómo integrar un informe paginado en una aplicación.
 

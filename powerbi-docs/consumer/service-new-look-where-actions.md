@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c184fa19c2d94690f8609871babf5b60b2855b99
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 13792dbefbb459f4a3bb428b5965c6c56eff4b8c
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538065"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600118"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>El nuevo aspecto: ¿Dónde están ahora las acciones?
 
@@ -38,17 +38,17 @@ El servicio Power BI (app.powerbi.com) tiene un nuevo aspecto que facilita la v
 | Ajustar al ancho | Ver > Ajustar al ancho | Barra de menús Ver (lado derecho) > Ajustar al ancho |
 | Tamaño real | Ver > Tamaño real | Barra de menús Ver (lado derecho) > Tamaño real |
 | Colores de alto contraste | Ver > Colores de alto contraste | Barra de menús Ver (lado derecho) > Colores de alto contraste |
-| Panel Marcadores | Ver > Panel Marcadores |  Barra de menús Marcadores > Mostrar más marcadores |
-| Actualizar | Actualizar | Barra de menús Más opciones (...) > Actualizar |
+| Panel Marcadores | Ver > Panel Marcadores |  Barra de menús Marcadores (lado derecho) > Mostrar más marcadores |
+| Actualizar | Actualizar | Barra de menús (lado derecho) > Actualizar |
 | Anclar una página dinámica | Anclar una página dinámica | Barra de menús Más opciones (...) > Anclar una página dinámica |
 | Restablecer valores predeterminados | Restablecer valores predeterminados | Restablecer valores predeterminados |
 | Comentarios | Comentarios | Comentarios |
 | Ver relacionados | Ver relacionados | Barra de menús Más opciones (...) > Ver relacionados |
 | Favorito | Favorito | Favorito |
 | Suscribirse | Suscribirse |Suscribirse |
-| Compartir | Compartir | Compartir |
-| Generar código QR | Barra de menús Más opciones (...) > Generar código QR | Barra de menús Más opciones (...) > Generar código QR |
-| Analizar en Excel | Barra de menús Más opciones (...) > Analizar en Excel | Barra de menús Más opciones (...) > Analizar en Excel |
+| Compartir | Compartir | Compartir > Informe |
+| Generar código QR | Barra de menús Más opciones (...) > Generar código QR | Compartir > Generar código QR |
+| Analizar en Excel | Barra de menús Más opciones (...) > Analizar en Excel | Exportar > Analizar en Excel |
 | Modo de pantalla completa | Modo de pantalla completa | Barra superior Ver (lado derecho) > Pantalla completa |
 
 ## <a name="dashboard-actions-in-the-new-look"></a>Acciones de panel en el nuevo aspecto

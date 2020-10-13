@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a8d2284a24bb04b175a00a69339ba9e6ac260c10
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7d036af591ae9c5fc44370085480c9266e328745
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858634"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632604"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Conexión a los datos de Azure Consumption Insights en Power BI Desktop
 
@@ -110,9 +110,7 @@ O bien, en el **Editor de consultas**:
 1. Haga clic con el botón derecho en el panel **Consultas** de la izquierda. 
 2. Seleccione **Nueva consulta > Consulta en blanco** en el menú que aparece.
 
-En la **barra de fórmulas**, escriba lo siguiente:
-
-    = MicrosoftAzureConsumptionInsights.Contents
+En la **barra de fórmulas**, escriba lo siguiente: *= MicrosoftAzureConsumptionInsights.Contents*.
 
 En la imagen siguiente se muestra una colección de ejemplos que aparece.
 
@@ -141,12 +139,14 @@ El primer paso consiste en usar el conector de **Azure Consumption Insights** qu
 ### <a name="step-2-create-a-query-in-advanced-editor"></a>Paso 2: Creación de una consulta en el Editor avanzado
 En el **Editor de consultas**, seleccione **Editor avanzado** en la sección **Consulta** de la cinta **Inicio**. En la ventana **Editor avanzado** que aparece, escriba esta consulta:
 
-    let    
-        enrollmentNumber = "100",
-        optionalParameters = [ numberOfMonth = 6, dataType="DetailCharges" ],
-        data = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
-    in     
-        data
+```console
+let    
+    enrollmentNumber = "100",
+    optionalParameters = [ numberOfMonth = 6, dataType="DetailCharges" ],
+    data = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
+in     
+    data
+```
 
 ![Captura de pantalla de un cuadro de diálogo para crear una consulta en el Editor avanzado.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 

@@ -1,5 +1,5 @@
 ---
-title: Sugerencias de rendimiento
+title: Sugerencias para mejorar el rendimiento
 description: Cómo crear un objeto visual de Power BI de alto rendimiento
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: 7ebc02b2c459517957425e78438e12e89dc2e1bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196569"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746088"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>Cómo crear un objeto visual de Power BI de alto rendimiento
 En este artículo se tratan las técnicas que permiten a los desarrolladores obtener un alto rendimiento al representar objetos visuales. 
@@ -104,7 +104,7 @@ Para obtener más información, consulte en [youmightnotneedjquery.com](http://y
 ### <a name="use-canvas-or-webgl"></a>Uso de Canvas o WebGL 
 Para el uso repetido de animaciones, considere la posibilidad de usar **Canvas** o **WebGL**, en lugar de SVG. A diferencia de lo que sucede con SVG, con estas opciones, el rendimiento viene determinado por el tamaño, no por el contenido. 
 
-Puede obtener más información sobre las diferencias en [SVG frente a Canvas: cómo elegir](https://msdn.microsoft.com/library/gg193983(v=vs.85).aspx). 
+Puede obtener más información sobre las diferencias en [SVG frente a Canvas: cómo elegir](/previous-versions/windows/internet-explorer/ie-developer/samples/gg193983(v=vs.85)). 
 
 ### <a name="use-requestanimationframe-instead-of-settimeout"></a>Uso de requestAnimationFrame en lugar de setTimeout 
 Si usa [requestAnimationFrame](https://www.w3.org/TR/animation-timing/) para actualizar las animaciones en pantalla, se llamará a las funciones de animación **antes** de que el explorador llame a otro método Repaint.
@@ -113,4 +113,4 @@ Para obtener más información, vea este [ejemplo](https://testdrive-archive.azu
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Obtenga más información sobre las técnicas de optimización en la [Guía de optimización para Power BI](/power-bi/guidance/power-bi-optimization).
+Obtenga más información sobre las técnicas de optimización en la [Guía de optimización para Power BI](../../guidance/power-bi-optimization.md).

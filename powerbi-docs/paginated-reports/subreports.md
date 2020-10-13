@@ -1,6 +1,6 @@
 ---
 title: Subinformes en informes paginados de Power BI
-description: En este artículo, obtendrá información sobre los orígenes de datos admitidos para los informes paginados en el servicio Power BI y cómo conectarse a orígenes de datos de Azure SQL Database.
+description: En este artículo, obtendrá información sobre los orígenes de datos admitidos para informes paginados en el servicio Power BI.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: fbe60bab0d1c8d95cec1a3fda1d4b23fe919ea31
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861392"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746594"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Subinformes en informes paginados de Power BI
 
@@ -33,7 +33,7 @@ Power BI Report Builder puede trabajar con informes paginados en el equipo (cono
 
 Después de iniciar sesión, verá una opción **Servicio Power BI** en Power BI Report Builder para las opciones **Abrir** y **Guardar como** del menú **Archivo**. Al seleccionar la opción **Servicio Power BI** para guardar un informe, se crea una conexión dinámica entre Power BI Report Builder y el servicio Power BI. 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Abrir desde el servicio Power BI":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Iniciar sesión en Power BI":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>Guardar un informe local en el servicio Power BI
 
@@ -48,7 +48,7 @@ Para poder agregar un subinforme a un informe principal, primero tiene que crear
 
 3. En el cuadro de diálogo **Guardar como**, seleccione un área de trabajo de Power BI Premium donde almacenar los informes paginados.  Las áreas de trabajo Premium tienen un icono de rombo ![icono de rombo Premium](media/subreports/report-builder-premium-diamond.png) junto a su nombre.
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Guardar como en el servicio Power BI":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Iniciar sesión en Power BI":::
 
 4. Seleccione **Guardar**.
 
@@ -58,7 +58,7 @@ Ya ha guardado los dos informes en la misma área de trabajo Premium, así que y
 
 1. En la cinta **Insertar**, seleccione el botón **Subinforme**, o bien haga clic con el botón derecho en el lienzo del informe y seleccione **Insertar** > **Subinforme**.
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Insertar un subinforme en un informe":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Iniciar sesión en Power BI":::
 
     Se abre el cuadro de diálogo **Propiedades del subinforme**.  
 

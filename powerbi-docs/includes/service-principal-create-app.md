@@ -7,12 +7,12 @@ ms.author: kesharab
 ms.topic: include
 ms.date: 05/20/2020
 ms.custom: include file
-ms.openlocfilehash: 0fe3e1743cb8853d6626b59b748d70bfcc292dbd
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 80886eab6de6c125d0361b326f5d31d2b3bb35e5
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315840"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524540"
 ---
 1. Inicie sesión en [Microsoft Azure](https://ms.portal.azure.com/#allservices).
 
@@ -33,4 +33,4 @@ ms.locfileid: "84315840"
 
 6. Después del registro, el *identificador de la aplicación* está disponible en la pestaña **Información general**. Copie y guarde el *identificador de aplicación* para su uso posterior.
 
-    ![identificador de aplicación](media/embedded-service-principal/application-id.png)
+    ![Captura de pantalla en la que se muestra dónde obtener un identificador de aplicación en la pestaña Información general.](media/embedded-service-principal/application-id.png)

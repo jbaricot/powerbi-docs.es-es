@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 35c20a11c4b446bd3a2636deaeb4c5ee9c2d797b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a5cfbfe52ec8b4e0d9eec07844a3eaa7f9447ded
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861024"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600413"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Tutorial: Invocación de un modelo de Machine Learning Studio (clásico) en Power BI (versión preliminar)
 
@@ -45,7 +45,7 @@ En los siguientes pasos se da por sentado que usted es coadministrador de la sus
 
 Inicie sesión en [Azure Portal](https://portal.azure.com) y vaya a la página **Suscripciones**, la cual encontrará con la lista **Todos los servicios** del menú del panel de navegación.
 
-![Azure Portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
+![En la captura de pantalla se muestra Azure Portal con la opción Suscripciones seleccionada.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
 Seleccione la suscripción a Azure que usó para publicar el modelo y seleccione **Access Control (IAM)** . A continuación, seleccione **Agregar asignación de roles** y, a continuación, el rol de **lector** y el usuario de Power BI. Cuando haya terminado, haga clic en **Guardar**. En la siguiente imagen se muestran estas selecciones.
 
@@ -95,7 +95,7 @@ En la siguiente pantalla, se le pedirá que se conecte a un origen de datos. Peg
 
 El Editor de Power Query muestra una versión preliminar de los datos del archivo CSV. Seleccione **Transformar tabla** en la cinta de opciones de comando y, a continuación, seleccione **Usar la primera fila como encabezado**.  Al hacer esto se agrega el paso de la consulta _Encabezados promovidos_ en el panel **Pasos aplicados** situado a la derecha. También puede cambiar el nombre de la consulta por uno más descriptivo, como _Precios de automóviles_, con el panel de la derecha.
 
-![Azure Portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
+![Captura de pantalla del Editor de Power Query, en el que se muestra una versión preliminar de los datos.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
 Nuestro conjunto de datos de origen tiene valores desconocidos establecidos en "?".  Para limpiarlo, podemos reemplazar "?" por "0" para evitar errores posteriormente por motivos de simplicidad.  Para ello, seleccione las columnas *normalized-losses*, *bore*, *stroke*, *compression-ratio*, *horsepower*, *peak-rpm* y *price* haciendo clic en su nombre en los encabezados de columna y, a continuación, haga clic en "Transformar columnas" y seleccione "Reemplazar valores".  Reemplace "?" por "0".
 

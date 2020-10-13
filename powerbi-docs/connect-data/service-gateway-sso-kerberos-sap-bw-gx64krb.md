@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/10/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: d6f43b3ef48946b9206343107767d2a4cb8cdc28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9dc24d853ee363c75eca811d068288bc375b1f88
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237668"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374255"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>Uso de Kerberos para el inicio de sesión único (SSO) en SAP BW con gx64krb5
 
 En este artículo se describe cómo configurar el origen de datos de SAP BW para habilitar el inicio de sesión único del servicio Power BI con gx64krb5.
 
+> [!IMPORTANT]
+> SAP ya no admite gx64krb5 y, como resultado, Microsoft también ha dejado de ofrecer soporte técnico. Las conexiones nuevas y existentes seguirán funcionando correctamente hasta el final de 2020, pero dejarán de funcionar a partir de enero de 2021. Use en su lugar CommonCryptoLib. 
+
 > [!NOTE]
-> Puede completar los pasos de este artículo junto con los de [Configuración del SSO de Kerberos](service-gateway-sso-kerberos.md) para permitir la actualización basada en SSO de los informes basados en el servidor de aplicaciones de SAP BW en el servicio Power BI. Pero Microsoft recomienda el uso de CommonCryptoLib, no de gx64krb5, como biblioteca de SNC. SAP ya no es compatible con gx64krb5 y los pasos necesarios para configurarlo para la puerta de enlace son mucho más complejos en comparación con CommonCryptoLib. Para más información sobre la configuración del inicio de sesión único mediante CommonCryptoLib, consulte [Configuración de SAP BW para el inicio de sesión único con CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md). Debe usar CommonCryptoLib _o_ gx64krb5 como su biblioteca de SNC. No complete los pasos de configuración para ambas bibliotecas.
+> Puede completar los pasos de este artículo junto con los de [Configuración del SSO de Kerberos](service-gateway-sso-kerberos.md) para permitir la actualización basada en SSO de los informes basados en el servidor de aplicaciones de SAP BW en el servicio Power BI. Pero Microsoft recomienda el uso de CommonCryptoLib, no de gx64krb5, como biblioteca de SNC. SAP ya no es compatible con gx64krb5 y los pasos necesarios para configurarlo para la puerta de enlace son mucho más complejos en comparación con CommonCryptoLib. Para más información sobre la configuración del inicio de sesión único mediante CommonCryptoLib, consulte [Configuración de SAP BW para el inicio de sesión único con CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md). Use CommonCryptoLib *o* gx64krb5 como biblioteca de SNC, pero no ambos. No complete los pasos de configuración para ambas bibliotecas.
 
 Esta guía es completa; si ya ha realizado algunos de los pasos descritos, puede omitirlos. Por ejemplo, es posible que ya haya configurado el servidor de SAP BW para el SSO con gx64krb5.
 

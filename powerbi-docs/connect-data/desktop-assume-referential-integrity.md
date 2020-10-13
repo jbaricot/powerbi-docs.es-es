@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c0a7ef3ef7ce62ca1939791c3dcf198428f1353c
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 698abf814b9b93635ba425b2c9d1d30a292714ab
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034368"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599906"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Aplicación de la opción Asumir integridad referencial en Power BI Desktop
 Al conectarse con un origen de datos mediante **DirectQuery**, puede seleccionar **Asumir integridad referencial** para habilitar la ejecución de consultas más eficientes en el origen de datos. Esta característica tiene unos cuantos requisitos de datos subyacentes y solo está disponible cuando se utiliza **DirectQuery**.
@@ -39,7 +39,7 @@ En el ejemplo siguiente se muestra cómo se comporta **Asumir integridad referen
    ![Captura de pantalla de la tabla de pedidos y la tabla de productos.](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
 2. En la siguiente imagen, tenga en cuenta que no existe ninguna integridad referencial entre **Orders[DepotID]** y **Depots[DepotID]** , porque **DepotID** es *Null* para algunos *Orders*. Por tanto, **Asumir integridad referencial** no se *debe* establecer.
    
-   ![Captura de pantalla de la tabla de pedidos y la tabla de productos.](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
+   ![Captura de pantalla de la tabla de pedidos y la tabla de almacenes.](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. Por último, no existe ninguna integridad referencial entre **Orders[CustomerID]** y **Customers[CustID]** en las siguientes tablas; **CustomerID** contiene algunos valores (en este caso, *CustX*) que no existen en la tabla *Customers*. Por tanto, **Asumir integridad referencial** no se *debe* establecer.
    
    ![Captura de pantalla de la tabla de pedidos y la tabla de clientes.](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)

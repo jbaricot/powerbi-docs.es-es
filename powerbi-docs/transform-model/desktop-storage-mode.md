@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b3e661e8581f07ea9e19f295c30f29e5331754e7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e1b93b244a040fba1213fbb3b15bca3114e7075a
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83331380"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528169"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>Administración del modo de almacenamiento en Power BI Desktop
 
@@ -78,7 +78,7 @@ Imagine que todas las tablas de este modelo están establecidas inicialmente en 
 
 ![Ventana de advertencia del modo de almacenamiento](media/desktop-storage-mode/storage-mode-05.png)
 
-Puede establecer las tablas de dimensiones (**Customer**, **Geography** y **Date**) en **Dual** para reducir el número de relaciones débiles en el conjunto de datos y mejorar el rendimiento. Las relaciones débiles implican normalmente al menos una tabla de DirectQuery, donde no se puede insertar lógica de combinación en los sistemas de origen. Como las tablas duales pueden actuar como tablas de DirectQuery o Importación, se evita esta situación.
+Puede establecer las tablas de dimensiones (**Customer**, **Geography** y **Date**) en **Dual** para reducir el número de relaciones limitadas en el conjunto de datos y mejorar el rendimiento. Las relaciones limitadas implican normalmente al menos una tabla de DirectQuery, donde no se puede insertar lógica de combinación en los sistemas de origen. Como las tablas duales pueden actuar como tablas de DirectQuery o Importación, se evita esta situación.
 
 La lógica de propagación está diseñada para ayudar con los modelos que contienen muchas tablas. Imagine que tiene un modelo con 50 tablas y solo se deben almacenar en caché algunas tablas de hechos (transaccionales). La lógica de Power BI Desktop calcula el conjunto mínimo de tablas de dimensiones que se deben establecer en **Dual** para que no tenga que hacerlo el usuario.
 
@@ -118,15 +118,15 @@ Las consultas que hacen referencia a las tablas Dual devuelven datos de la cach�
 
 Siguiendo con el ejemplo anterior, la consulta siguiente solo hace referencia a una columna de la tabla **Date** (Fecha) que está en el modo **Dual**. Por tanto, la consulta debe alcanzar la caché:
 
-![Script para el diagnóstico del modo de almacenamiento](media/desktop-storage-mode/storage-mode-06.png)
+![En la captura de pantalla se muestra el texto de la consulta que hace referencia a la tabla Date.](media/desktop-storage-mode/storage-mode-06.png)
 
 La consulta siguiente solo hace referencia a una columna de la tabla **Sales** (Ventas), que está en el modo **DirectQuery**. Por tanto, *no* debe alcanzar la caché:
 
-![Script para el diagnóstico del modo de almacenamiento](media/desktop-storage-mode/storage-mode-07.png)
+![En la captura de pantalla se muestra el texto de la consulta que hace referencia a la tabla Sales.](media/desktop-storage-mode/storage-mode-07.png)
 
 La consulta siguiente resulta interesante porque combina ambas columnas. Esta consulta no alcanza la caché. Inicialmente podría esperar que recuperase los valores de **CalendarYear** desde la caché y los valores de **SalesAmount** desde el origen y, luego, combinase los resultados, pero este enfoque sería menos eficaz que enviar la operación SUM/GROUP BY al sistema de origen. Si la operación se transfiere al origen, el número de filas devueltas probablemente será mucho menor: 
 
-![Script para el diagnóstico del modo de almacenamiento](media/desktop-storage-mode/storage-mode-08.png)
+![En la captura de pantalla se muestra el texto de la consulta que hace referencia a las tablas Date y Sales.](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > Este comportamiento es distinto del de las [relaciones de varios a varios](desktop-many-to-many-relationships.md) de Power BI Desktop, donde se combinan tablas en caché y no en caché.

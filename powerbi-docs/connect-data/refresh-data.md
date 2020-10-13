@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/16/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ddb5e4d1476025965e6227e9ae443441f2060fcd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c5be2a9fa87b55d0a1b98e284ec4b6b7e1dd9c0c
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219744"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633386"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 
@@ -284,7 +284,8 @@ En la mayoría de los casos, los conjuntos de datos de Power BI que utilizan or
  
 Para determinar si se puede actualizar el origen de datos dinámico, abra el cuadro de diálogo **Configuración del origen de datos** en **Editor de Power Query** y luego seleccione **Orígenes de datos en el archivo actual**. En la ventana que aparece, busque el siguiente mensaje de advertencia, como se muestra en la siguiente imagen:
  
-    Some data sources may not be listed because of hand-authored queries.
+> [!NOTE]
+> Puede que algunos orígenes de datos no consten debido a consultas creadas manualmente.
 
 ![Indicador de origen de datos dinámico](media/refresh-data/dynamic-data-source.png)
 

@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: e8c6ed4476a1bd5236d838610da624f5dde4fb4c
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965359"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600466"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>Tutorial: Análisis de datos de Facebook mediante Power BI Desktop
 
@@ -128,7 +128,7 @@ Cuando esté satisfecho con los datos, seleccione **Cerrar y aplicar** > **Cerra
    
    Una vez que se han cargado los datos, aparecen en la vista **Informe** como una consulta nueva en el panel **Campos**.
    
-   ![Nueva consulta](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   ![Captura de pantalla en la que se muestran los campos disponibles para una consulta denominada Query1.](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
    
 ## <a name="use-the-data-in-report-visualizations"></a>Uso de los datos en visualizaciones de informe 
 
@@ -138,7 +138,7 @@ Ahora que importó datos desde la página de Facebook, puede obtener rápida y f
 
 1. En la vista **Informe** de Power BI Desktop, seleccione **message** en el panel **Campos**, o bien arrástrelo al lienzo del informe. Aparece una tabla que muestra todos los mensajes de publicaciones en el lienzo. 
    
-   ![Nueva consulta](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   ![Captura de pantalla en la que se muestra la vista de informe con una lista de mensajes.](media/desktop-tutorial-facebook-analytics/table-viz.png)
    
 2. Con esa tabla seleccionada, seleccione también **Número de comentarios** en el panel **Campos** o arrástrelo a la tabla. 
    

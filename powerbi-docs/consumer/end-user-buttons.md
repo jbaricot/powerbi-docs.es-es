@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 51871e9653a1f3d0d48f25de33d4a72603695cf4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1b0b677e67fa15906492fbaa41fcfd456d77bf01
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161799"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633895"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Botones en el servicio Power BI
 En los informes que recibe de compañeros, es posible que haya observado botones y se haya preguntado cómo usarlos. Algunos tienen palabras, algunos tienen flechas, otros tienen gráficos y algunos tienen incluso menús desplegables. En este artículo se enseña cómo reconocer un botón y cómo averiguar qué hacer con él.
@@ -31,11 +31,11 @@ Un botón Atrás puede tener un icono de flecha que, al seleccionarlo, Power BI
 1. Seleccione **Word** en el gráfico de barras.
 1. Seleccione **Obtener detalles** y elija **Análisis de la cesta de la compra**.
 
-    ![Captura de pantalla del botón Atrás](media/end-user-buttons/power-bi-drillthrough.png)
+    ![Captura de pantalla del botón de obtención de detalles.](media/end-user-buttons/power-bi-drillthrough.png)
 
     Al elegir **Análisis de la cesta de la compra**, Power BI abre la página del informe *Análisis de la cesta de la compra* y utiliza las selecciones realizadas en la página de origen para filtrar lo que se muestra en la página de destino.
 
-    ![Captura de pantalla del botón Atrás](media/end-user-buttons/power-bi-go-back.png)
+    ![Captura de pantalla del botón Atrás.](media/end-user-buttons/power-bi-go-back.png)
 
     Ahora se encuentra en la página del informe**Análisis de la cesta de la compra**, que se filtra por Word. Para volver a la página anterior del informe, seleccione la flecha Atrás. 
 
@@ -60,15 +60,15 @@ Los botones de obtención de detalles pueden tener más de un requisito previo. 
 
 Este es un botón de obtención de detalles que nos llevará a la página de *detalles de la tienda*. Al mantener el mouse sobre el botón se revela una información sobre herramientas que nos permite saber que necesitamos seleccionar tanto una tienda como un producto. Hasta que se seleccione uno de cada uno de ellos, el botón permanece inactivo.
 
-![captura de pantalla del botón de obtención de detalles con información sobre herramientas al pasar el puntero por encima](media/end-user-buttons/power-bi-drill-two-selections.png)
+![Captura de pantalla del botón de obtención de detalles con información sobre herramientas al pasar el puntero por encima.](media/end-user-buttons/power-bi-drill-two-selections.png)
 
 Ahora que hemos seleccionado un producto (**Word**) y una tienda (**Leo**), el botón cambia de color para indicar que ahora está activo.
 
-![captura de pantalla del botón de obtención de detalles con información sobre herramientas al pasar el puntero por encima](media/end-user-buttons/power-bi-select-both.png)
+![Captura de pantalla del botón de obtención de detalles de la tienda.](media/end-user-buttons/power-bi-select-both.png)
 
 Al seleccionar el botón de obtención de detalles, se abre la página del informe *Tienda*. La página *Tienda* se filtra por las selecciones de **Word** y **Leo**.
 
-![captura de pantalla del botón de obtención de detalles con información sobre herramientas al pasar el puntero por encima](media/end-user-buttons/power-bi-store.png)
+![Captura de pantalla de la página de informes de la tienda.](media/end-user-buttons/power-bi-store.png)
 
 Los botones de obtención de detalles también pueden tener menús desplegables que le ofrecen una selección de destinos. Cuando haya realizado las selecciones en la página del informe de origen, seleccione la página del informe de destino para la obtención de detalles. En el ejemplo siguiente, vamos a cambiar la selección para obtener detalles de la página del informe de *detalles del mercado*. 
 
@@ -78,13 +78,13 @@ Los botones de obtención de detalles también pueden tener menús desplegables 
 
 Los botones de navegación de páginas le llevan a otra página del mismo informe. A menudo, los diseñadores de informes crean botones de navegación para contar una historia o guiar al usuario a través de las conclusiones de informes. En el ejemplo siguiente, el diseñador de informes agregó un botón en cada página del informe que le lleva a la primera página, la página de resumen de nivel superior, en el informe. Este botón de navegación de páginas resulta útil porque hay muchas páginas en este informe.
 
-![captura de pantalla del botón de navegación de páginas denominado Tarjeta de resultados del equipo](media/end-user-buttons/power-bi-nav-button.png)
+![Captura de pantalla del botón de navegación de páginas denominado Tarjeta de resultados del equipo.](media/end-user-buttons/power-bi-nav-button.png)
 
 
 ## <a name="qa-buttons"></a>Botones de Preguntas y respuestas 
 Al seleccionar un botón de Preguntas y respuestas, se abre la ventana Explorador de preguntas y respuestas de Power BI. La ventana Preguntas y respuestas se muestra en la parte superior de la página del informe y se puede cerrar seleccionando la X. [Más información sobre Preguntas y respuestas](end-user-q-and-a.md)
 
-![captura de pantalla del botón de navegación de páginas denominado Tarjeta de resultados del equipo](media/end-user-buttons/power-bi-qna.png)
+![Captura de pantalla de la ventana del explorador de preguntas y respuestas de Power BI con el texto Pregunte algo sobre sus datos.](media/end-user-buttons/power-bi-qna.png)
 
 ## <a name="web-url"></a>URL de web
 Los botones Dirección URL web abren una nueva ventana del explorador. Los diseñadores de informes pueden agregar este tipo de botón como origen de referencia, para vincular al sitio web corporativo o incluso como vínculo a otro informe o panel. En el ejemplo siguiente, el botón Dirección URL web le permite descargar el archivo de origen del informe. 

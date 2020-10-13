@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: bf7fad8195f28303ae0ab73fb957db87861755e6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf81ec873b822fbb1604378aa508b3ffeb408511
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237368"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635847"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Incorporación de un filtro a un informe en Power BI
 
@@ -77,7 +77,7 @@ Además, este procedimiento usa el ejemplo de Análisis de venta al por menor, p
    
     El objeto visual cambia para reflejar el nuevo filtro. Si guarda el informe con el filtro, los lectores de informes verán el objeto visual filtrado para empezar a trabajar con él y podrán interactuar con el filtro en la vista de lectura y activar o desactivar valores.
      
-    ![El objeto visual filtrado](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    ![Captura de pantalla en la que se muestra un gráfico de barras que refleja los valores filtrados.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
     
     Al aplicar el filtro en un campo usado en el objeto visual donde se agrega el campo (por ejemplo, una suma, una media o un recuento), se filtra el valor *agregado* en cada punto de datos. Por lo tanto, al pedir que se filtre el objeto visual anterior donde las **ventas de este año > 500 000**, solo se mostrará el punto de datos **13: Charleston Fashion Direct** en el resultado. Los filtros de las [medidas del modelo](../transform-model/desktop-measures.md) siempre se aplican en el valor agregado del punto de datos.
 
@@ -95,7 +95,7 @@ Ahora vamos a agregar un campo nuevo a la visualización como un filtro de nivel
 
     Además, la misma visualización ahora se filtra para mostrar solo las ventas de los administradores de este año en los almacenes especificados.
      
-    ![El objeto visual filtrado](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
+    ![Captura de pantalla en la que se muestra un gráfico de barras que refleja los valores filtrados en función del nuevo campo.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     Si guarda el informe con este filtro, los lectores de informes pueden interactuar con el filtro **District Manager** en la vista de lectura y activar o desactivar valores.
     

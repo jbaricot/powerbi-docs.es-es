@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
-ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
+ms.openlocfilehash: f5b930ade7e0ae4e58977ba33dc725c6f1e34695
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88168493"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635893"
 ---
 # <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>Uso de la característica de análisis para explicar las fluctuaciones en los objetos visuales de informe
 
@@ -50,7 +50,7 @@ A continuación, Power BI ejecuta sus algoritmos de aprendizaje automático sob
 
 Si selecciona los pequeños iconos situados en la parte inferior del objeto visual de cascada, puede elegir si la información detallada se muestra como un gráfico de dispersión, un gráfico de columnas apiladas o un gráfico de la barra de herramientas.
 
-![trío de objetos visuales de conclusiones](media/end-user-analyze-visuals/power-bi-options.png)
+![En la captura de pantalla se muestran los iconos en la parte inferior del objeto visual.](media/end-user-analyze-visuals/power-bi-options.png)
 
 Los iconos de *pulgar hacia arriba* y *pulgar hacia abajo* de la parte superior de la página sirven para proporcionar comentarios sobre el objeto visual y la característica.  
 
@@ -59,7 +59,7 @@ Los iconos de *pulgar hacia arriba* y *pulgar hacia abajo* de la parte superior 
 
 Puede usar la información detallada si el informe está en la vista de lectura o de edición, lo cual lo hace muy versátil a la hora de analizar datos o de crear objetos visuales que puede agregar fácilmente a los informes. Si el informe se abre en la vista de edición, verá un icono de signo más junto a los iconos de los pulgares. Seleccione el icono de signo más para agregar la información detallada al informe como un nuevo objeto visual. 
 
-![trío de objetos visuales de conclusiones](media/end-user-analyze-visuals/power-bi-add-visual.png)
+![En la captura de pantalla se muestra el icono de signo más que se usa para agregar la información.](media/end-user-analyze-visuals/power-bi-add-visual.png)
 
 ## <a name="details-of-the-results-returned"></a>Detalles de los resultados devueltos
 

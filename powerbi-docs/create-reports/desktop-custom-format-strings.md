@@ -9,18 +9,18 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4036bb6a2fdc8db7c251a39f5527c54ae1c578b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859920"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600560"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Uso de cadenas de formato personalizado en Power BI Desktop
 
 Con las cadenas de formato personalizado de **Power BI Desktop**, puede personalizar el modo en que los campos aparecen en los objetos visuales y asegurarse de que los informes tienen exactamente la apariencia que busca.
 
-![Uso de cadenas de formato personalizado](media/desktop-custom-format-strings/custom-format-strings-01.png)
+![La captura de pantalla en la que se muestra Power BI Desktop con un formato personalizado seleccionado. ](media/desktop-custom-format-strings/custom-format-strings-01.png)
 
 
 ## <a name="how-to-use-custom-format-strings"></a>Cómo usar cadenas de formato personalizado
@@ -31,7 +31,7 @@ Para crear cadenas de formato personalizado, seleccione el campo en la vista **M
 
 Cuando haya seleccionado **Personalizado** en la lista desplegable **Formato**, puede seleccionar una de las cadenas de formato que se usan más comúnmente de la lista. 
 
-![Uso de cadenas de formato personalizado](media/desktop-custom-format-strings/custom-format-strings-03.png)
+![Captura de pantalla en la que se muestran los detalles del formato personalizado.](media/desktop-custom-format-strings/custom-format-strings-03.png)
 
 
 ## <a name="supported-custom-format-syntax"></a>Sintaxis de formato personalizado admitida

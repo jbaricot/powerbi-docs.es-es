@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 18fae9e7bca385ee10fed90649430a8062054b2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1892af9d943df1f4abf39aa55ae99c5e6ee1b34
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219583"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633432"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creación de un panel de Power BI desde un informe
 Ha leído [Introduction to dashboards in Power BI](service-dashboards.md) (Introducción a los paneles de Power BI) y ahora quiere crear los suyos propios. Existen diferentes formas de crear un panel. Por ejemplo, puede crear un panel a partir de un informe, desde cero, a partir de un conjunto de datos o mediante la duplicación de un panel existente.  
@@ -27,7 +27,7 @@ Una vez completado este artículo, comprenderá bien:
 - Cómo anclar iconos 
 - Cómo desplazarse entre un panel y un informe 
  
-![Panel](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![En la captura de pantalla se muestra un panel de Power BI con varias visualizaciones.](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 > [!NOTE] 
 > Los paneles son una característica del servicio Power BI y no de Power BI Desktop. Aunque no puede crear paneles en las aplicaciones móviles de Power BI, puede [verlas y compartirlas](../consumer/mobile/mobile-apps-view-dashboard.md) desde allí.
@@ -59,7 +59,7 @@ En este tutorial desglosado, vamos a importar uno de los conjuntos de datos de e
     ![Ventana OneDrive para la Empresa](media/service-dashboard-create/power-bi-import.png)
 8. Cuando aparezca el mensaje de operación correcta, seleccione la **x** para descartarlo.
 
-   ![Mensaje de proceso correcto](media/service-dashboard-create/power-bi-view-datasetnew.png)
+   ![En la captura de pantalla se muestra un mensaje de operación correcta con la X resaltada.](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
 > ¿Sabía esto? Puede hacer más pequeño el panel de navegación: basta con seleccionar el icono con tres líneas de la parte superior ![icono para mostrar u ocultar el panel de navegación](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png). Esto le brinda más espacio para el propio informe.
@@ -77,17 +77,17 @@ En este tutorial desglosado, vamos a importar uno de los conjuntos de datos de e
     ![Mantener el puntero sobre el icono](media/service-dashboard-create/power-bi-hover.png)
 4. Puesto que estamos creando un nuevo panel, seleccione la opción de **Nuevo panel** y asígnele un nombre.
 
-    ![Cuadro de diálogo Anclar al panel](media/service-dashboard-create/power-bi-pin-tile.png)
+    ![En la captura de pantalla se muestra la ventana Anclar al panel.](media/service-dashboard-create/power-bi-pin-tile.png)
 5. Al seleccionar **Anclar**, Power BI crea el nuevo panel en el área de trabajo actual. Cuando aparezca el mensaje **Anclado al panel**, seleccione **Ir al panel**. Si se le pide que guarde el informe, elija **Guardar**.
 
-    ![Mensaje de proceso correcto](media/service-dashboard-create/power-bi-pin-success.png)
+    ![En la captura de pantalla se muestra un mensaje de operación correcta con la opción Ir al panel resaltada.](media/service-dashboard-create/power-bi-pin-success.png)
 
     Power BI abre el nuevo panel. Tiene un icono: la visualización que acaba de anclar.
 
    ![Panel con un icono](media/service-dashboard-create/power-bi-pinned.png)
 7. Seleccione el icono para volver al informe. Ancle algunos iconos más en el nuevo panel. Cuando se muestra la ventana **Anclar en el panel**, seleccione **Panel existente**.  
 
-   ![Cuadro de diálogo Anclar al panel](media/service-dashboard-create/power-bi-existing-dashboard.png)
+   ![En la captura de pantalla se muestra la ventana Anclar en el panel con la opción Panel existente resaltada.](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>Anclado de una página de informe completa al panel
 En lugar de anclado un objeto visual a la vez, puede [anclar una página de informe completo como un *icono dinámico*](service-dashboard-pin-live-tile-from-report.md). Hagámoslo.
@@ -102,11 +102,11 @@ En lugar de anclado un objeto visual a la vez, puede [anclar una página de info
 
 3. Cuando aparezca la ventana **Anclar en el panel**, seleccione **Panel existente**.
 
-   ![Cuadro de diálogo Anclar al panel](media/service-dashboard-create/power-bi-pin-live2.png)
+   ![En la captura de pantalla se muestra la ventana Anclar en el panel con la opción Panel existente seleccionada y el botón Anclar elemento activo.](media/service-dashboard-create/power-bi-pin-live2.png)
 
 4. Cuando aparezca el mensaje de operación correcta, seleccione **Ir al panel**. Allí verá los iconos que ha anclado en el informe. En el ejemplo siguiente, hemos anclado dos iconos de la página uno del informe y un icono dinámico, que es la segunda página del informe.
 
-   ![Panel](media/service-dashboard-create/power-bi-dashboard.png)
+   ![En la captura de pantalla se muestra un panel de Power BI con las visualizaciones de este artículo.](media/service-dashboard-create/power-bi-dashboard.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 Enhorabuena por crear su primer panel. Ahora que tiene un panel, puede hacer mucho más con él. Siga uno de los siguientes artículos sugeridos o empiece a explorar por su cuenta: 

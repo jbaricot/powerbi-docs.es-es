@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: e3b6ada10138e6964240c5eb5c53399507170b79
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2f663c8e47e9a66ec3f4ee3eb70646239be6126a
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860679"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375014"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creación de una aplicación de plantilla en Power BI
 
@@ -21,7 +21,7 @@ Las *aplicaciones de plantilla* de Power BI permiten a los asociados crear apli
 
 Si puede crear paneles e informes de Power BI, puede convertirse en un *desarrollador de aplicaciones de plantilla*, así como compilar y empaquetar contenido analítico en una *aplicación*. Puede implementar la aplicación en otros inquilinos de Power BI mediante cualquier plataforma disponible, como AppSource o bien usarla en un servicio web propio. Como desarrollador, puede crear un paquete de análisis protegido para su distribución.
 
-Los administradores de inquilinos de Power BI controlan quién de la organización puede crear aplicaciones de plantilla y quién puede instalarlas. Los usuarios autorizados pueden instalar la aplicación de plantilla y después modificarla y distribuirla a los consumidores de Power BI en la organización.
+Los administradores de Power BI controlan quién de la organización puede crear aplicaciones de plantilla y quién puede instalarlas. Los usuarios autorizados pueden instalar la aplicación de plantilla y después modificarla y distribuirla a los consumidores de Power BI en la organización.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -163,7 +163,7 @@ A continuación se analizan las fases:
 
     ![Icono de Release Management](media/service-template-apps-create/power-bi-release-management-icon.png)
 
-2. Seleccione **Obtener vínculo** si anteriormente ha creado la aplicación en el paso de **creación de la aplicación de plantilla de prueba**; como resultado, el punto de color amarillo junto a **Pruebas** ya está rellenado.
+2. Seleccione **Obtener vínculo** si creó la aplicación en la anterior sección **Definición de las propiedades de la aplicación de plantilla** (como resultado, el punto de color amarillo junto a **Pruebas** ya está rellenado).
 
     Si aún no ha creado la aplicación, seleccione **Crear aplicación**. Esto le devuelve al proceso de creación de la aplicación de plantilla.
 

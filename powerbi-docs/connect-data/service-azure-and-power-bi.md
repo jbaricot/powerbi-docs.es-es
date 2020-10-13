@@ -1,6 +1,6 @@
 ---
 title: Azure y Power BI
-description: Azure y Power BI
+description: Aprenda a convertir sus operaciones de procesamiento de datos en análisis e informes que proporcionen información detallada en tiempo real sobre su negocio con Azure y Power BI.
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: c7dceceaaf063ffe4b379595cfc010e4eda2ae53
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: dd119abd50450d6090d952d0727f672dc7072abf
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858159"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749446"
 ---
 # <a name="azure-and-power-bi"></a>Azure y Power BI
 

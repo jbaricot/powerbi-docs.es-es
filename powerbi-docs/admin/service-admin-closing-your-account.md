@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/09/2019
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: d5028e4aaa1bbb864f14c3f3cdb58d136275e5fc
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 076a1a65e275d58b54e340e30083d1c2a19ebbbf
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161247"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374450"
 ---
 # <a name="close-your-power-bi-account"></a>Cerrar la cuenta de Power BI
 
-Si ya no desea usar Power BI, puede cerrar su cuenta de esta solución.  Después de cerrar su cuenta, no puede iniciar sesión en Power BI. Además, tal como se indica en la directiva de retención de datos en las Condiciones del servicio de Power BI, Power BI elimina todos los datos de cliente que haya cargado o creado. No se conservan.
+Si ya no desea usar Power BI, puede cerrar su cuenta de esta solución.  Después de cerrar su cuenta, no puede iniciar sesión en Power BI. Además, tal como se indica en la directiva de retención de datos en el [Acuerdo de servicio de Power BI](https://azure.microsoft.com/support/legal/subscription-agreement/), Power BI elimina todos los datos de cliente que haya cargado o creado.
 
 ## <a name="individual-power-bi-users"></a>Usuarios individuales de Power BI
 
@@ -44,9 +44,9 @@ Si se registró en Power BI como usuario individual, puede cerrar la cuenta en l
 
     ![Captura de pantalla del cuadro de diálogo de confirmación Se ha cerrado la cuenta.](media/service-admin-closing-your-account/close-account-settings-5.png)
 
-## <a name="managed-tenant-users"></a>Usuarios inquilinos administrados
+## <a name="managed-users"></a>Usuarios administrados
 
-Si su organización lo registró en Power BI, póngase en contacto con el administrador de inquilinos. Pídale que anule la asignación de la licencia de la cuenta.
+Si su organización lo registró en Power BI, póngase en contacto con el administrador. Pídale que anule la asignación de la licencia de la cuenta.
 
 ![Captura de pantalla de Cuenta cerrada administrada.](media/service-admin-closing-your-account/close-account-managed.png)
 

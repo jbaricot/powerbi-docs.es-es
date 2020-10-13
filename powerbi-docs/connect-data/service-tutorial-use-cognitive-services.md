@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6511afb499b12d379957ac37ebfe19890c111282
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 934ffa649885b270dd7f321f45168723f53bc379
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861047"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600364"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Tutorial: Uso de Cognitive Services en Power BI
 
@@ -46,39 +46,39 @@ Siga los pasos de esta sección para completar la parte relativa al análisis de
 
 Para empezar, vaya al área de trabajo de Power BI con capacidad Premium y cree un nuevo flujo de datos mediante el botón **Crear** en la esquina superior derecha de la pantalla.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_01.png)
+![En la captura de pantalla se muestra el área de trabajo de Power BI con las opciones Crear y Panel seleccionadas.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_01.png)
 
 En el cuadro de diálogo Flujo de datos se le muestran las opciones para crear un nuevo flujo de datos. Seleccione **Agregar entidades nuevas.** A continuación, elija **Texto o CSV** en el menú de orígenes de datos.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_02.png)
+![En la captura de pantalla se muestra la opción Elegir un origen de datos, que incluye texto o CSV.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_02.png)
 
 Pegue esta dirección URL en el campo de dirección URL: [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv) y haga clic en **Siguiente.**
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
+![En la captura de pantalla se muestra la opción Conectarse a un origen de datos, donde se especifica la dirección URL.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
 Ahora los datos están listos para usarse para el análisis de texto y podemos usar Puntuación de opiniones y Extracción de frases clave en la columna de comentarios del cliente.
 
 En el Editor de Power Query, seleccione **Conclusiones de AI**
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_04.png)
+![En la captura de pantalla se muestra Editar consultas con la opción Todas las conclusiones seleccionada.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_04.png)
 
 Expanda la carpeta **Cognitive Services** y seleccione la función que desea usar. En este ejemplo se puntúan las opiniones de la columna de comentarios, pero puede seguir los mismos pasos para probar Detección de idioma y Extracción de frases clave.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_05.png)
+![En la captura de pantalla se muestra el cuadro de diálogo Invocar función con una función seleccionada.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_05.png)
 
 Una vez que se seleccione una función, se mostrarán los campos obligatorios y opcionales. Para puntuar las opiniones de las revisiones de ejemplo, seleccione la columna de revisiones como entrada de texto. La información de referencia cultural es una entrada opcional y requiere un formato ISO. Por ejemplo, escriba "en" si desea que el texto se trate como inglés. Al dejarse en blanco el campo, Power BI detectará en primer lugar el lenguaje del valor de entrada antes de puntuar las opiniones.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_06.png)
+![En la captura de pantalla se muestra el cuadro de diálogo Invocar función con el menú desplegable de texto.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_06.png)
 
 Ahora seleccione **Invocar** para ejecutar la función. Una nueva columna con la puntuación de opiniones para cada fila se agrega a la tabla. Puede volver a **Conclusiones de AI** para extraer frases clave del texto de la crítica de la misma forma.
 
 Una vez que haya terminado con las transformaciones, cambie el nombre de la consulta por "Comentarios del cliente" y seleccione **Listo.**
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_07.png)
+![En la captura de pantalla se muestra Editar consultas con la opción Nombre resaltada.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_07.png)
 
 A continuación, **guarde** el flujo de datos y llámelo Fabrikam. Seleccione el botón **Actualizar ahora** que aparece una vez guardado el flujo de datos.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_08.png)
+![En la captura de pantalla se muestra el botón Guardar.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_08.png)
 
 Una vez guardado y actualizado el flujo de datos, puede usarlo en un informe de Power BI.
 
@@ -88,15 +88,15 @@ Abra Power BI Desktop. En la cinta Inicio, seleccione **Obtener datos.**
 
 Vaya a los **flujos de datos de Power BI (Beta**) en la sección de Power BI y seleccione **Conectar.**
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
+![En la captura de pantalla se muestra el panel Obtener datos con flujos de datos de Power BI seleccionados.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 
 Como esta es una característica en vista previa (GB), el conector le pedirá que acepte las condiciones de la versión preliminar. Tras aceptarlas, inicie sesión con la cuenta de su organización.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_10.png)
+![En la captura de pantalla se muestra un mensaje de inicio de sesión para la cuenta de la organización.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_10.png)
 
 Seleccione el flujo de datos que acaba de crear. Vaya a la tabla de comentarios del cliente y haga clic en **Cargar.**
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_11.png)
+![En la captura de pantalla se muestra el navegador con la tabla de comentarios del cliente seleccionada.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_11.png)
 
 Ahora que se han cargado los datos puede empezar a crear un informe.
 
@@ -104,15 +104,15 @@ Ahora que se han cargado los datos puede empezar a crear un informe.
 
 Vaya a un área de trabajo de Power BI con capacidad Premium. Cree un nuevo flujo de datos con el botón **Crear** en la esquina superior derecha de la pantalla.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_12.png)
+![En la captura de pantalla se muestra el área de trabajo de Power BI con las opciones Crear y Flujo de datos seleccionadas.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_12.png)
 
 Seleccione **Agregar entidades nuevas**.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_13.png)
+![En la captura de pantalla se muestra una opción para agregar nuevas entidades para empezar a crear un flujo de trabajo.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_13.png)
 
 Una vez que se le pida que elija un origen de datos, seleccione **Consulta en blanco.**
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_14.png)
+![En la captura de pantalla se muestra la opción Elegir un origen de datos, que incluye una consulta en blanco.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_14.png)
 
 Copie la consulta a continuación en el editor de consultas y haga clic en Siguiente. Puede reemplazar las rutas de acceso de dirección URL a continuación por otras imágenes o agregar más filas. La función *Web.Contents* importa la dirección URL de la imagen como binario. Si tiene un origen de datos con imágenes almacenadas como binario, también podrá darle uso directamente.
 
@@ -126,43 +126,43 @@ in
   Source
 ```
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_15.png)
+![En la captura de pantalla se muestra Conectarse a un origen de datos, que muestra la consulta y el botón Siguiente.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_15.png)
 
 Cuando se pidan las credenciales, seleccione *anónimo*.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_16.png)
+![En la captura de pantalla se muestra Editar consultas, donde se pueden especificar las credenciales.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_16.png)
 
 Verá la imagen siguiente.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_17.png)
+![En la captura de pantalla se muestra el cuadro de diálogo Escribir credenciales, donde se puede especificar el tipo de autenticación.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_17.png)
 
 Se le pedirán las credenciales para cada página web individual.
 
 Seleccione **Conclusiones de AI** en el editor de consultas.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_18.png)
+![En la captura de pantalla se muestra Editar consultas con la opción Todas las conclusiones seleccionada y una advertencia.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_18.png)
 
 A continuación, inicie sesión con la **cuenta de la organización**.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
+![En la captura de pantalla se muestra el cuadro de diálogo Escribir credenciales, donde se puede especificar la cuenta de la organización.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
 Seleccione la función Tag Images (Etiquetar imágenes) y escriba _[Binario]_ en el campo de columna y _en_ en el campo de información de referencia cultural. 
 
 > [!NOTE]
 > Actualmente no puede seleccionar una columna mediante un menú desplegable, lo que se resolverá lo antes posible durante la versión preliminar privada.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_20.png)
+![En la captura de pantalla se muestra el cuadro de diálogo Invocar función con la función TagImages seleccionada.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_20.png)
 
 El el editor de funciones, quite las comillas situadas alrededor del nombre de columna. 
 
 > [!NOTE]
 > Quitar las comillas es una solución alternativa temporal. Esto se resolverá lo antes posible durante la versión preliminar.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_21.png)
+![En la captura de pantalla se muestra el editor de funciones con el texto Image sin comillas resaltado.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_21.png)
 
 La función devuelve un registro con las etiquetas en dos formatos: separado por comas y como registro JSON. Seleccione el botón de expansión para agregar uno o ambos como columnas a la tabla.
 
-![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_22.png)
+![En la captura de pantalla se muestra el botón de expansión, con dos flechas que apuntan en sentidos opuestos.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_22.png)
 
 Seleccione **Listo** y guarde el flujo de datos. Una vez que haya actualizado el primer flujo de datos, puede conectarse a él desde Power BI Desktop mediante los conectores de flujos de datos (consulte los pasos en la página 5 de este documento).
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4ee0db7cae34f9592824e4f315255ff4fcff077b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3ffa26c0999857df1b249d2866eb5f327e600a82
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83339798"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600340"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Uso de agregaciones en Power BI Desktop
 
@@ -53,7 +53,7 @@ En la lista desplegable **Resumen** del cuadro de diálogo **Administrar agregac
 - Sumar
 - Contar filas de tabla
 
-![Cuadro de diálogo Administrar agregaciones](media/desktop-aggregations/aggregations_07.jpg)
+![En la captura de pantalla se muestra el cuadro de diálogo Administrar agregaciones.](media/desktop-aggregations/aggregations_07.jpg)
 
 En este ejemplo de agregación basada en relaciones, las entradas de GroupBy son opcionales. Excepto DISTINCTCOUNT, no afectan al comportamiento de la agregación y su función principal es mejorar la legibilidad. Sin las entradas GroupBy, se seguirían obteniendo agregaciones en función de las relaciones. Esto es diferente del [ejemplo de macrodatos](#aggregation-based-on-groupby-columns) que aparece más adelante en este artículo, donde se requieren entradas GroupBy.
 
@@ -144,11 +144,11 @@ Al configurar las tablas de dimensiones relacionadas en Dual, pueden actuar como
 
 Para obtener más información sobre el modo de almacenamiento Dual, consulte [Administración del modo de almacenamiento en Power BI Desktop](desktop-storage-mode.md).
 
-### <a name="strong-vs-weak-relationships"></a>Relaciones seguras frente a débiles
+### <a name="regular-vs-limited-relationships"></a>Relaciones normales frente a limitadas
 
-Los aciertos de agregaciones basadas en relaciones requieren relaciones fuertes.
+Los aciertos de agregaciones basadas en relaciones requieren relaciones normales.
 
-Las relaciones fuertes incluyen las siguientes combinaciones de modo de almacenamiento, en las que ambas tablas proceden de un único origen:
+Las relaciones normales incluyen las siguientes combinaciones de modo de almacenamiento, en las que ambas tablas proceden de un único origen:
 
 | Tabla en los lados de *varios* | Tabla en el lado de *uno* |
 | ------------- |----------------------| 
@@ -156,7 +156,7 @@ Las relaciones fuertes incluyen las siguientes combinaciones de modo de almacena
 | Importación        | Importación o dual       | 
 | DirectQuery   | DirectQuery o dual  | 
 
-El único caso en el que una relación de *origen cruzado* se considera fuerte es cuando ambas tablas se establecen en Importar. Las relaciones varios a varios siempre se consideran débiles.
+El único caso en el que una relación de *origen cruzado* se considera normal es cuando ambas tablas se establecen en Importar. Las relaciones varios a varios siempre se consideran limitadas.
 
 Para los aciertos de agregaciones de *origen cruzado* que no dependen de las relaciones, consulte [Agregaciones basadas en columnas GroupBy](#aggregation-based-on-groupby-columns). 
 
@@ -244,11 +244,11 @@ Esta consulta alcanza la agregación porque **CalendarMonth** está cubierto por
 
 La siguiente consulta no alcanza la agregación porque la tabla de agregación no abarca **CalendarDay**.
 
-![Ejemplo de consulta que no alcanza la agregación](media/desktop-aggregations/aggregations-code_10.jpg)
+![En la captura de pantalla se muestra el texto de una consulta que incluye CalendarDay.](media/desktop-aggregations/aggregations-code_10.jpg)
 
 La siguiente consulta de inteligencia de tiempo no alcanzará la agregación porque la función DATESYTD genera una tabla de valores de tipo **CalendarDay** y la tabla de agregación no abarca **CalendarDay**.
 
-![Ejemplo de consulta que no alcanza la agregación](media/desktop-aggregations/aggregations-code_11.jpg)
+![En la captura de pantalla se muestra el texto de una consulta que incluye la función DATESYTD.](media/desktop-aggregations/aggregations-code_11.jpg)
 
 ## <a name="aggregation-precedence"></a>Prioridad de agregación
 
@@ -271,7 +271,7 @@ El cuadro de diálogo **Administrar agregaciones** de **Driver Activity Agg2** e
 
 La tabla especificada en la columna **Tabla de detalles** es **Driver Activity**, en lugar de **Driver Activity Agg** porque no se permiten las agregaciones encadenadas.
 
-![Cuadro de diálogo Administrar agregaciones](media/desktop-aggregations/aggregations_14.jpg)
+![En la captura de pantalla se muestra el cuadro de diálogo Administrar agregaciones con la opción Precedencia destacada.](media/desktop-aggregations/aggregations_14.jpg)
 
 En esta tabla se muestran las agregaciones para la tabla **Driver Activity Agg2**.
 

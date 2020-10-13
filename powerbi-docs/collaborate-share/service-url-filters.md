@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
-ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
+ms.openlocfilehash: 5d5647216caee4eae648d0be0ebf3f453cd17d71
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86437285"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633010"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtro de un informe con parámetros de cadena de consulta en la URL
 
@@ -64,7 +64,7 @@ Y que tenemos almacenes en Carolina del Norte, tal como vemos en nuestra visuali
 ?filter=Store/Territory eq 'NC'
 ```
 
-![Captura de pantalla de la dirección URL con filtro.](media/service-url-filters/power-bi-filter-urls7.png)
+![Captura de pantalla de la dirección URL con el filtro para Carolina del Norte.](media/service-url-filters/power-bi-filter-urls7.png)
 
 Ahora, el informe se filtra por Carolina del Norte; todas las visualizaciones del informe muestran datos solo para Carolina del Norte.
 
@@ -155,10 +155,10 @@ Los caracteres especiales y los espacios en los nombres de tabla y de columna ne
 |**[Columna]**     |  [es 0x005B] es 0x005D       |  _x005B_Column_x005D_       |
 |**Columna+Más**     | + es 0x2B        |  Column_x002B_Plus       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![Captura de pantalla del objeto visual de tabla que representa caracteres especiales.](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![Captura de pantalla del objeto visual de tabla que representa caracteres especiales para Unicode.](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Captura de pantalla del objeto visual de tabla que representa caracteres especiales.](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Captura de pantalla del objeto visual de tabla que representa caracteres especiales para la codificación para Power BI.](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>Caracteres especiales en valores
 
@@ -172,11 +172,11 @@ Por ejemplo:
 
 - `?filter=Table/Name eq 'Lee''s Summit'` se convierte en:
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee's Summit"::: (Cumbre de Lee)
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Nombre es O'Brien"::: (Cumbre de Lee)
 
 - El operador `in` admite también esta secuencia de escape: `?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` se convierte en:
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit u O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Nombre es O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>Usar DAX para filtrar por varios valores
 

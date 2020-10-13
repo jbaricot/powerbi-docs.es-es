@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856841"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374899"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Sus propias claves de cifrado para Power BI
 
@@ -67,7 +67,7 @@ Las instrucciones de esta sección presuponen un conocimiento básico de Azure K
 
 1. En **Permisos de clave**, seleccione **Desencapsular clave** y **Encapsular clave**.
 
-    ![Componentes del archivo PBIX](media/service-encryption-byok/service-principal.png)
+    ![Archivo PBIX Selección de la entidad de servicio y operaciones criptográficas](media/service-encryption-byok/service-principal.png)
 
 1. Seleccione **Aceptar** y **Guardar**.
 
@@ -80,7 +80,7 @@ Las instrucciones de esta sección presuponen un conocimiento básico de Azure K
 
 1. En **Tipo de clave**, seleccione RSA y en **Tamaño de la clave RSA**, seleccione 4096.
 
-    ![Componentes del archivo PBIX](media/service-encryption-byok/create-rsa-key.png)
+    ![Creación de una clave con el tipo y el tamaño de clave resaltados](media/service-encryption-byok/create-rsa-key.png)
 
 1. Seleccione **Crear**.
 
@@ -90,7 +90,7 @@ Las instrucciones de esta sección presuponen un conocimiento básico de Azure K
 
 1. Compruebe que están seleccionados **Encapsular clave** y **Desencapsular clave**. Copie el **Identificador de clave** que se va a usar al habilitar BYOK en Power BI.
 
-    ![Componentes del archivo PBIX](media/service-encryption-byok/key-properties.png)
+    ![Propiedades con el identificador de clave y las operaciones permitidas resaltadas](media/service-encryption-byok/key-properties.png)
 
 ### <a name="soft-delete-option"></a>Opción de eliminación temporal
 
@@ -114,7 +114,7 @@ Antes de habilitar BYOK, tenga en cuenta las consideraciones siguientes:
 
 ### <a name="enable-byok"></a>Habilitación de BYOK
 
-Para habilitar BYOK, debe ser un administrador del inquilino del servicio Power BI y haber iniciado sesión con el cmdlet `Connect-PowerBIServiceAccount`. A continuación, utilice [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) para habilitar BYOK, tal como se muestra en el ejemplo siguiente:
+Para habilitar BYOK, debe ser un administrador de Power BI y haber iniciado sesión con el cmdlet `Connect-PowerBIServiceAccount`. A continuación, utilice [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) para habilitar BYOK, tal como se muestra en el ejemplo siguiente:
 
 ```powershell
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

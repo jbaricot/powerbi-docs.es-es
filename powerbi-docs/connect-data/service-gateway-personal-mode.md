@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2c65adfaee96eee61e1494f730b752d12020ab4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96c7a12e556fde805178bceabfe86f9eff8b9d5c
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236155"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632581"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Uso de puertas de enlace personales en Power BI
 
@@ -31,13 +31,13 @@ En la tabla siguiente se describen las diferencias entre una puerta de enlace de
 
 |   |Puerta de enlace de datos local | Puerta de enlace de datos local (modo personal) |
 | ---- | ---- | ---- |
-|Servicios en la nube compatibles |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, flujos de datos |Power BI |
-|Se ejecuta |Según la configuración de los usuarios que tienen acceso a la puerta de enlace |Como usted para la autenticación de Windows y según haya configurado para otros tipos de autenticación |
-|Solo se puede instalar como administrador del equipo |Sí |No |
-|Administración centralizada de orígenes de datos y puertas de enlace |Sí |No |
-|Importación de datos y programación de actualización |Sí |Sí |
-|Compatibilidad con DirectQuery |Sí |No |
-|Compatibilidad con LiveConnect para Analysis Services |Sí |No |
+|**Servicios en la nube compatibles** |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, flujos de datos |Power BI |
+|**Ejecuciones** |Según la configuración de los usuarios que tienen acceso a la puerta de enlace |Como usted para la autenticación de Windows y según haya configurado para otros tipos de autenticación |
+|**Solo se puede instalar como administrador del equipo** |Sí |No |
+|**Administración centralizada de orígenes de datos y puertas de enlace** |Sí |No |
+|**Importación de datos y programación de actualización** |Sí |Sí |
+|**Compatibilidad con DirectQuery** |Sí |No |
+|**Compatibilidad con LiveConnect para Analysis Services** |Sí |No |
 
 ## <a name="install-the-on-premises-data-gateway-personal-mode"></a>Instalación de la puerta de enlace de datos local (modo personal)
 

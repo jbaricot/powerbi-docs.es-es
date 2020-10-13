@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0e21c4397708b289d7eccfbdbaa839cbf16c1f0b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 716439417a0e9cc57188c544f984f4936a424a47
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224053"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632466"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>Obtención de datos de páginas web con ejemplos
 
@@ -36,7 +36,9 @@ En **Desde la web**, escriba la dirección URL de la página web de la que le gu
 
 Si desea continuar, puede usar la [dirección URL de Microsoft Store](https://www.microsoft.com/store/top-paid/games/xbox?category=classics) que se usa en este artículo:
 
-    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```http
+https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```
 
 ![Cuadro de diálogo Web](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
@@ -48,14 +50,14 @@ La opción **Agregar tabla mediante ejemplos** presenta una ventana interactiva 
 
 En este ejemplo, se podrá extraer el *nombre* y el *precio* de cada uno de los juegos de la página. Se puede hacer especificando un par de ejemplos de la página para cada columna. A medida que escribe los ejemplos, *Power Query* extrae los datos que se ajustan al patrón de entradas de ejemplo mediante algoritmos de extracción de datos inteligentes.
 
-![datos con ejemplos](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+![Captura de pantalla en la que se muestran datos de Internet.](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
 > [!NOTE]
 > Las sugerencias de valor solo incluyen valores menores o iguales a 128 caracteres de longitud.
 
 Cuando los datos extraídos de la página web sean los adecuados para usted, seleccione **Aceptar** para ir al editor de Power Query. Puede aplicar más transformaciones o dar forma a los datos, por ejemplo combinarlos con otros datos de nuestros orígenes.
 
-![datos con ejemplos](media/desktop-connect-to-web-by-example/web-by-example_07.png)
+![Captura de pantalla en la que se muestran datos extraídos de Internet en el Editor de Power Query.](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 
 Desde ahí, puede crear objetos visuales o usar los datos de la página web para crear los informes de Power BI Desktop.
 

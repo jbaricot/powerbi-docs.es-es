@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4269ccb5f86a364d2bf4abf89e3184096a368ff3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c1dc3da67cf6160360833e8702fdc492fa97b803
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234703"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633501"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Uso de Preguntas y respuestas de Power BI para explorar los datos y crear objetos visuales
 
@@ -33,7 +33,7 @@ En el servicio Power BI (app.powerbi.com), un panel contiene iconos anclados des
 
 El cuadro de pregunta de Preguntas y respuestas se encuentra en la esquina superior izquierda del panel y es donde se escribe la pregunta con lenguaje natural. ¿No ve el cuadro de Preguntas y respuestas? Consulte la sección [Consideraciones y solución de problemas](../consumer/end-user-q-and-a.md#considerations-and-troubleshooting) en el artículo **Preguntas y respuestas para consumidores**.  Preguntas y respuestas reconoce las palabras que escribe y determina dónde (en qué conjunto de datos) encontrar la respuesta. Preguntas y respuestas también le ayuda a formar la pregunta con autocompletar, redefinición y otras ayudas textuales y visuales.
 
-![Cuadro de pregunta de Preguntas y respuestas](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
+![En la captura de pantalla se muestra un panel de Power BI con una opción para hacer una pregunta sobre los datos.](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
 
 La respuesta a su pregunta se muestra como una visualización interactiva y se actualiza cuando modifica la pregunta.
 
@@ -87,7 +87,7 @@ Para usar Preguntas y respuestas en los informes, debe tener permisos de edició
 
 2. Se muestra un cuadro de pregunta de Preguntas y respuestas en el lienzo del informe. En el ejemplo siguiente, el cuadro de pregunta se muestra en la parte superior de otra visualización. Esto es correcto, pero podría ser mejor agregar una página en blanco al informe antes de formular una pregunta.
 
-    ![Cuadro de pregunta de Preguntas y respuestas](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
+    ![En la captura de pantalla se muestra un lienzo con el cuadro de pregunta de Preguntas y respuestas en una visualización.](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 
 3. Coloque el cursor en el cuadro de pregunta. A medida que escribe, Preguntas y respuestas muestra sugerencias para ayudarle a construir la pregunta.
 

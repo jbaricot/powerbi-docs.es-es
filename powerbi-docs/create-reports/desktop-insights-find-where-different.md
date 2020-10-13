@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 975a7304e61042e408d732aa1c85bfed184f75f5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3db27630da230ee1805386b039916181e993d412
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239155"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632535"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>Aplicación de información en Power BI Desktop para detectar dónde varían las distribuciones (versión preliminar)
 
@@ -110,18 +110,20 @@ Después de examinar las distintas columnas y los valores de cada una de estas c
 
 No necesariamente todas las columnas del modelo se examinarán en el tiempo disponible, por lo que no se garantiza que se muestren las columnas y los valores más impactantes. Aun así, se emplean diferentes heurísticas para asegurarse de que se examinen primero las columnas más probables. Por ejemplo, supongamos que después de examinar todas las columnas, se determina que las columnas o los valores siguientes tienen el mayor impacto en la distribución, mostrados de mayor a menor impacto:
 
-    Subcategory = Touring Bikes
-    Channel = Direct
-    Subcategory = Mountain Bikes
-    Subcategory = Road Bikes
-    Subcategory = Kids Bikes
-    Channel = Store
+```console
+Subcategory = Touring Bikes
+Channel = Direct
+Subcategory = Mountain Bikes
+Subcategory = Road Bikes
+Subcategory = Kids Bikes
+Channel = Store
+```
 
 Estos aparecerían en la columna en el orden siguiente:
 
-    Subcategory: Touring Bikes, Mountain Bikes, Road Bikes (only three listed, with the text including “...amongst others” to indicate that more than three have a significant impact) 
+* Subcategoría: Bicicletas de paseo, bicicletas de montaña, bicicletas de carretera (solo se enumeran tres, con el texto "entre otras" para indicar que más de tres tienen un impacto significativo) 
 
-    Channel = Direct (only Direct listed, if it’s level of impact was much greater than Store)
+* Canal: Directo (solo se enumera Directo, si su nivel de impacto es mucho mayor que el de Almacén)
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 La siguiente lista es una recopilación de los escenarios que actualmente no son compatibles para la característica de **información detallada**:

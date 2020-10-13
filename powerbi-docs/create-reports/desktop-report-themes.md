@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: ed8d93ef905cca6e934ac2100093475136595c9a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364109"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634743"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Uso de los temas para los informes en Power BI Desktop
 
@@ -53,11 +53,11 @@ Para seleccionar los temas para informes integrados que hay disponibles:
 
 1. Seleccione el botón de flecha desplegable **Cambiar tema** de **Temas** en la cinta **Vista**.
 
-   ![Seleccionar un tema de informe](media/desktop-report-themes/report-themes-02.png)
+   ![En la captura de pantalla se muestra la cinta de opciones Ver seleccionada, que proporciona varios temas.](media/desktop-report-themes/report-themes-02.png)
 
 2. Seleccione entre los temas incluidos en el menú desplegable que aparece.
 
-   ![Seleccionar un tema de informe](media/desktop-report-themes/report-themes-03.png)
+   ![En la captura de pantalla se muestran los temas de Power BI expandidos para que puedan seleccionarse.](media/desktop-report-themes/report-themes-03.png)
 
    El tema para informes está ahora aplicado al informe.
 
@@ -600,7 +600,9 @@ Los valores booleanos son true o false. Las cadenas deben ir entre comillas dobl
 
 Los colores usan el formato siguiente, donde el código hexadecimal personalizado que sustituye a "FFFFFF" se encuentra en el ejemplo siguiente:
 
-    { "solid": { "color": "#FFFFFF" } }
+```json
+{ "solid": { "color": "#FFFFFF" } }
+```
 
 Una enumeración, que se usa normalmente para las opciones de formato de lista desplegable, significa que se puede establecer en cualquiera de las opciones que se muestran en el panel, por ejemplo, "RightCenter" para la posición de la leyenda o "Valor de datos, porcentaje de total" para la etiqueta de datos del gráfico circular. Las opciones de enumeración se muestran debajo de la lista de propiedades.
 

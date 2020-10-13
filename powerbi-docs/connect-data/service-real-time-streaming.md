@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fb5807dd0a5bfa5d3223a8c436da475c51d8d8a0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec0c4cf9e719615489cbba5929f329e6f4f58826
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860633"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634536"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmisión en tiempo real en Power BI
 Con la transmisión en tiempo real de Power BI, puede transmitir los datos y actualizar los paneles en tiempo real. Cualquier objeto visual o panel creado en Power BI puede mostrar y actualizar datos en tiempo real y objetos visuales. Los dispositivos y orígenes de datos de transmisión pueden ser sensores de fábrica, orígenes de medios sociales, métricas de uso del servicio y muchos otros elementos a partir de los cuales se puedan recopilar o transmitir datos dependientes del tiempo.
@@ -52,7 +52,7 @@ La única manera de visualizar un conjunto de datos de streaming es agregar un i
 En la práctica, los conjuntos de datos de streaming y los objetos visuales de streaming que los acompañan son útiles cuando es necesario minimizar la latencia entre el momento en que se insertan los datos y el momento en que se visualizan. Además, es aconsejable insertar los datos con un formato que se pueda visualizar tal cual, sin agregar nada. Algunos ejemplos de datos que está listos tal cual son las temperaturas y las medias previamente calculadas.
 
 ### <a name="pubnub-streaming-dataset"></a>Conjunto de datos de streaming PubNub
-Con un conjunto de datos de streaming **PubNub**, el cliente web de Power BI usa el SDK de PubNub para leer un flujo de datos de PubNub existente. El servicio Power BI no almacena ningún dato. Como esta llamada se realiza directamente desde el cliente web, tendría que incluir el tráfico a PubNub como permitido si solo permitió en esta lista el tráfico de salida desde la red. Consulte las instrucciones del artículo de soporte técnico sobre la [inclusión en la lista de permitidos del tráfico de salida de PubNub](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-).
+Con un conjunto de datos de streaming **PubNub**, el cliente web de Power BI usa el SDK de PubNub para leer un flujo de datos de PubNub existente. El servicio Power BI no almacena ningún dato. Como esta llamada se realiza directamente desde el cliente web, tendría que incluir el tráfico a PubNub como permitido si solo permitió el tráfico de salida desde la red. Consulte las instrucciones del artículo de soporte técnico sobre la [aprobación del tráfico de salida de PubNub](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-).
 
 Como sucede con el **conjunto de datos de streaming**, con el **conjunto de datos de streaming de PubNub** no hay ninguna base de datos subyacente en Power BI y, por tanto, no se pueden crear objetos visuales de informe con los datos del flujo, y no se pueden aprovechar las ventajas de la funcionalidad de informes como objetos visuales de Power BI, filtros, etc. El **conjunto de datos de streaming de PubNub** solo se puede visualizar si se agrega un icono al panel y se configura un flujo de datos de PubNub como origen.
 
@@ -183,12 +183,9 @@ En este ejemplo, utilizamos una secuencia disponible públicamente de **PubNub**
 2. Si no tiene un origen de datos de transmisión, seleccione el vínculo **Administrar datos** (justo encima del botón **Siguiente**) y, a continuación, seleccione **+ Agregar datos de transmisión** desde el vínculo situado en el lado superior derecho de la ventana. Seleccione **PubNub** y, a continuación, seleccione **Siguiente**.
 3. Cree un nombre para el conjunto de datos, y después, pegue los valores siguientes en la ventana que aparece y seleccione **Siguiente**:
    
-   *Clave de suscripción:*
-   
-       sub-c-5f1b7c8e-fbee-11e3-aa40-02ee2ddab7fe
-   *Canal:*
-   
-       pubnub-sensor-network
+   **Clave de suscripción:** *sub-c-5f1b7c8e-fbee-11e3-aa40-02ee2ddab7fe*
+
+   **Canal:** *pubnub-sensor-network*
    
    ![Captura de pantalla del cuadro de diálogo Nuevo conjunto de datos de transmisión, en la que se muestra cómo crear un Nombre de conjunto de datos y entradas en los campos Subclave y Nombre de canal.](media/service-real-time-streaming/real-time-streaming_8.png)
 4. En la siguiente ventana, simplemente seleccione los valores predeterminados (que se rellenan automáticamente) y, después, seleccione **Crear**.

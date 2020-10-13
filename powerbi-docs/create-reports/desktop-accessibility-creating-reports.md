@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 40de850663f49a26c1d8ae290d88821bbab8c822
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 13223b2ba9d5b50654c952da6b2517717103a724
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229462"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600213"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Diseño de informes accesibles de Power BI
 Puede diseñar y crear informes atractivos que también permitan la accesibilidad. Cada vez que cree un informe, con independencia de quién sea su público, debe poder usarlo el mayor número posible de personas, sin necesidad de adaptarlo con un tipo de diseño especial.
@@ -72,11 +72,11 @@ En general, todos los objetos de Power BI con navegación mediante el teclado t
 
 Power BI incluye compatibilidad con contraste alto en los informes. Si usa un modo de contraste alto en Windows, Power BI Desktop detecta automáticamente qué tema de contraste alto se está usando en Windows y aplica esa configuración a los informes. Esos colores de contraste alto permanecen en el informe cuando se publica en el servicio Power BI o en otra parte.
 
-![Configuración de Windows de contraste alto](media/desktop-accessibility/accessibility-05b.png)
+![Captura de pantalla en la que se muestra un informe en la configuración de Windows de contraste alto.](media/desktop-accessibility/accessibility-05b.png)
 
 El servicio Power BI también intenta detectar la configuración de contraste alto seleccionada para Windows, pero el grado de eficacia y de precisión de esa detección dependerá del explorador usado en el servicio Power BI. Si quiere establecer el tema manualmente en el servicio Power BI, puede seleccionar **Vista > Colores de alto contraste** en la esquina superior derecha y, después, el tema que quiere aplicar al informe.
 
-![Enfoque para la navegación de accesibilidad](media/desktop-accessibility/accessibility-creating-reports-02.png)
+![Captura de pantalla en la que se muestra cómo seleccionar un tema de colores de alto contraste.](media/desktop-accessibility/accessibility-creating-reports-02.png)
 
 ### <a name="focus-mode"></a>Modo de enfoque
 Si el consumidor de un informe examina un objeto visual de un panel, puede expandirlo para llenar más la pantalla; para ello, debe ir al menú contextual del objeto visual y seleccionar **Abrir en modo enfoque**.

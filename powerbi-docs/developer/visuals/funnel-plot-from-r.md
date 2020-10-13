@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878700"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747721"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Tutorial: Creación de un trazado de embudo a partir de un script de R para un elemento visual de R
 En este artículo se describe paso a paso cómo crear un trazado de embudo a partir de un script de R en un objeto visual de R.
@@ -66,11 +66,11 @@ Después, edite el script para reflejar [este script](https://github.com/microso
 
 1. Edite *capabilities.json* y reemplace la cadena `Values` por `dataset`. Esto reemplaza el nombre de "Role" en la plantilla para que sea similar al código de R.
 
-   ![Antes y después](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
+   ![En la captura de pantalla se muestra una comparación de diferencias del cambio en el archivo json.](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
 
 1. *(opcional)* Edite *dependencies.json* y agregue una sección para cada paquete de R necesario para el script de R. Esto indica a Power BI que importe de forma automática estos paquetes cuando se carga por primera vez el objeto visual.
 
-   ![Antes y después](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
+   ![En la captura de pantalla se muestra una comparación de diferencias en la que se ha agregado contenido a los elementos cranPackages.](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
 
 1. Vuelva a empaquetar el objeto visual con el comando `pbiviz package` e intente importarlo en Power BI.
 
@@ -119,7 +119,7 @@ El objeto visual todavía no es descriptivo porque el usuario tiene que conocer 
 
 1. Agregue funciones para que el usuario controle los colores y tamaños de los objetos visuales, incluidos los parámetros internos de la interfaz de usuario.
 
-   ![CV02to03](./media/funnel-plot/diagram-two.PNG)
+   ![En la captura de pantalla se muestran dos versiones del panel de herramientas con las opciones agregadas a la versión de la derecha.](./media/funnel-plot/diagram-two.PNG)
 
 1. Edite *capabilities.json* y actualice la sección `objects`. Aquí se definen los nombres, las informaciones sobre herramientas y los tipos de cada parámetro, y también se decide la partición de los parámetros en grupos (en este caso, tres).
 
@@ -274,7 +274,7 @@ Como el objeto visual resultante está basado en PNG, no responde al desplazamie
 
 * Todos los objetos visuales de R aplican el operador `unique` a su tabla de entrada. Para evitar que se quiten filas idénticas, considere la posibilidad de agregar un campo de entrada adicional con un identificador único y omitirlo en el código de R.   
 
-* Si tiene una cuenta de Power BI, use el servicio Power BI para desarrollar un objeto visual [sobre la marcha](/power-bi/developer/visuals/custom-visual-develop-tutorial/) en lugar de volver a empaquetarlos con el comando `pbiviz package`.
+* Si tiene una cuenta de Power BI, use el servicio Power BI para desarrollar un objeto visual [sobre la marcha](./custom-visual-develop-tutorial.md) en lugar de volver a empaquetarlos con el comando `pbiviz package`.
 
 ### <a name="html-widgets-gallery"></a>Galería de widgets HTML
 Explore los objetos visuales en la [galería de widgets HTML](http://gallery.htmlwidgets.org/) para usarlos en el siguiente objeto visual. Para facilitar el proceso, se ha creado un [repositorio de proyectos de objetos visuales](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) con más de 20 objetos visuales HTML interactivos entre los que elegir.
@@ -291,15 +291,15 @@ Explore los objetos visuales en la [galería de widgets HTML](http://gallery.htm
 1. Cambie los metadatos de *pbiviz.json*, en especial, el campo `guid`.
 1. Vuelva a empaquetar y continúe con la personalización del objeto visual como de la forma prevista. 
 
-![CV02to03](./media/funnel-plot/diagram-four.PNG)
+![En la captura de pantalla se muestran seis widgets descritos anteriormente en este artículo.](./media/funnel-plot/diagram-four.PNG)
 
-![CV02to03](./media/funnel-plot/diagram-five.PNG)
+![En la captura de pantalla se muestran seis widgets más descritos anteriormente en este artículo.](./media/funnel-plot/diagram-five.PNG)
 
 > [!NOTE]
 > No todos los widgets de este proyecto son compatibles con el servicio.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Para obtener más información, vea tutoriales adicionales sobre [objetos visuales de Power BI](./custom-visual-develop-tutorial.md) y [objetos visuales de R](/power-bi/visuals/service-r-visuals).
+Para obtener más información, vea tutoriales adicionales sobre [objetos visuales de Power BI](./custom-visual-develop-tutorial.md) y [objetos visuales de R](../../visuals/service-r-visuals.md).
 
 Obtenga información sobre cómo [desarrollar y enviar objetos visuales](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/) a la [Tienda Office (galería)](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI), o para obtener más ejemplos, vea la [presentación de scripts de R](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals).

@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 09/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 432c526479465da5d22e17172582c7f1d2cceb0c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e2b6c8d916cc3c180ab9adb9b6ea6af8eaefea4
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225278"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633064"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Actualización de las áreas de trabajo clásicas a las áreas de trabajo nuevas en Power BI
 
@@ -27,7 +27,7 @@ En este artículo se explica cómo actualizar o *migrar* un área de trabajo cl�
 
 Sin embargo, es posible que haya ciertos cambios en el área de trabajo que debe conocer y para los cuales deba planear acciones. Por ejemplo, los paquetes de contenido no se admiten en la experiencia de área de trabajo nueva. Consulte la sección [Consideraciones y limitaciones de la actualización](#upgrade-considerations-and-limitations), que aparece más adelante en este artículo.
 
-## <a name="things-to-do-after-upgrading"></a>Tareas que se deben hacer después de la actualización
+## <a name="things-to-plan-before-upgrading"></a>Aspectos que se deben planear antes de actualizar
 
 Es necesario hacer varias tareas *después* de actualizar. Es mejor planearlas *antes* de actualizar:
 - Revise la lista de acceso y entienda los [permisos después de la actualización](#permissions-after-upgrade).
@@ -48,11 +48,11 @@ Cualquier administrador del área de trabajo puede actualizarla. En el caso de l
 
 1. Revise la información del cuadro de diálogo. Verá advertencias si ha publicado o instalado paquetes de contenido en el área de trabajo. Cuando esté listo, active la opción **Lo tengo todo listo para actualizar esta área de trabajo** y seleccione **Actualizar**.
 
-    ![Lea para realizar la actualización](media/service-upgrade-workspaces/power-bi-ready-upgrade.png)
+    ![Preparado para la actualización](media/service-upgrade-workspaces/power-bi-ready-upgrade.png)
 
 2. Durante la actualización, verá el mensaje **Actualizando**. Por lo general, actualizar el área de trabajo tarda menos de un minuto.
 
-1. Cuando finaliza la actualización, verá el cuadro de diálogo **Operación completada correctamente**. Se recomienda leer [Organización del trabajo en las nuevas áreas de trabajo en Power BI](service-new-workspaces.md) para que sepa cómo las áreas de trabajo nuevas difieren de las clásicas.
+1. Cuando finaliza la actualización, verá el cuadro de diálogo **Operación completada correctamente**. Verá la nueva experiencia de área de trabajo, con el mismo nombre y contenido. Se recomienda leer [Organización del trabajo en las nuevas áreas de trabajo en Power BI](service-new-workspaces.md) para que sepa cómo las áreas de trabajo nuevas difieren de las clásicas.
 
 ### <a name="impact-on-other-workspace-users"></a>Impacto en otros usuarios del área de trabajo
 
@@ -62,6 +62,7 @@ A los usuarios que usan activamente el área de trabajo se les pide actualizar e
 
 ## <a name="upgrade-considerations-and-limitations"></a>Consideraciones y limitaciones de la actualización
 
+- Después de la actualización, el contenido del área de trabajo clásica aparece en la nueva área de trabajo. También aparece en **Compartido conmigo**.
 - Las direcciones URL y los identificadores del área de trabajo, el contenido que incluye y la aplicación publicada desde el área de trabajo no cambian. El contenido de los paquetes de contenido instalados en el área de trabajo se administra por separado. Consulte la sección [Paquetes de contenido durante la actualización](#content-packs-during-upgrade) de este artículo para más detalles.
 - Los paquetes de contenido no se admiten en la experiencia de área de trabajo nueva. Lea las secciones sobre los [paquetes de contenido publicados](#published-content-packs) o los [paquetes de contenido instalados](#installed-content-packs) para información sobre cómo se administran durante la actualización. Se recomienda eliminar los paquetes de contenido instalados o publicados en el área de trabajo antes de hacer la actualización.
 - La actualización del área de trabajo en Power BI no afecta el grupo de Microsoft 365 para el área de trabajo clásica. Ningún equipo, sitio de SharePoint, buzón u otro recurso administrado por Microsoft 365 cambia. Permanecen intactos después de actualizar el área de trabajo de Power BI. El grupo de Microsoft 365 sigue existiendo tal como antes.
@@ -111,7 +112,7 @@ La experiencia de área de trabajo nueva tiene características que las áreas d
 
 1. Seleccione **Configuración** en la barra de menús que se encuentra en la parte superior de la lista de contenido del área de trabajo para acceder a la configuración del área de trabajo.
 
-    ![Configuración del área de trabajo](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
+    ![Captura de pantalla en la que se muestra la selección de la configuración en la barra de menús.](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
 2. En **Avanzado**, el área de trabajo **Lista de contactos** está configurada para ser el grupo de Microsoft 365 desde donde se actualizó el área de trabajo. Puede agregar más usuarios o grupos a la lista de contactos o cambiarla a los administradores del área de trabajo.
 
@@ -119,11 +120,11 @@ La experiencia de área de trabajo nueva tiene características que las áreas d
 
 ### <a name="the-workspace-onedrive"></a>El área de trabajo OneDrive 
 
-Después de la actualización, el área de trabajo **OneDrive** se conecta a la biblioteca de documentos de SharePoint del grupo de Microsoft 365. Esta biblioteca de documentos muestra la opción **OneDrive** en la experiencia **Obtener datos > Archivos**. Tenga en cuenta que es posible que no todos los usuarios del área de trabajo tengan permiso para esa biblioteca de documentos si no están en el grupo de Microsoft 365.
+Después de la actualización, el área de trabajo **OneDrive** se conecta a la biblioteca de documentos de SharePoint del grupo de Microsoft 365. Esta biblioteca de documentos muestra la opción **OneDrive** en la experiencia **Obtener datos > Archivos**. Es posible que no todos los usuarios del área de trabajo tengan permiso para esa biblioteca de documentos si no están en el grupo de Microsoft 365.
 
 ## <a name="content-packs-during-upgrade"></a>Paquetes de contenido durante la actualización
 
-La experiencia de área de trabajo nueva no admite los paquetes de contenido. En su lugar, puede usar aplicaciones y conjuntos de datos compartidos para distribuir contenido en el área de trabajo. Se recomienda quitar del área de trabajo los paquetes de contenido publicados o instalados antes de la actualización. Sin embargo, si hay paquetes de contenido publicados o instalados al realizar la actualización, el proceso de actualización intenta conservar el contenido, como se describe a continuación.  No hay ninguna manera de restaurar el paquete de contenido ni la asociación del contenido con el paquete de contenido después de la actualización.
+La experiencia de área de trabajo nueva no admite los paquetes de contenido. En su lugar, puede usar aplicaciones y conjuntos de datos compartidos para distribuir contenido en el área de trabajo. Se recomienda quitar del área de trabajo los paquetes de contenido publicados o instalados antes de la actualización. Aun así, si hay paquetes de contenido publicados o instalados al realizar la actualización, el proceso de actualización intenta conservar el contenido, como se describe más adelante en este artículo.  No hay ninguna manera de restaurar el paquete de contenido ni la asociación del contenido con el paquete de contenido después de la actualización.
 
 ### <a name="published-content-packs"></a>Paquetes de contenido publicados
 
@@ -148,7 +149,7 @@ Para volver atrás, debe ser Propietario del grupo de Microsoft 365 con el que 
 
 1. En la lista de contenido del área de trabajo, seleccione **Más opciones** ( **…** ) > **Configuración del área de trabajo**.
 
-    ![Configuración del área de trabajo](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
+    ![Captura de pantalla en la que se muestra la selección de Más opciones (…) > Configuración del área de trabajo.](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
 
 1. Expanda **Avanzado** y seleccione **Switch back to classic** (Volver al área de trabajo clásica). Si esta opción no está disponible, consulte [Consideraciones para volver al área de trabajo clásica](#considerations-for-switching-back-to-classic) de este artículo.
 
@@ -202,10 +203,10 @@ La funcionalidad de actualización del área de trabajo no proporciona herramien
    
 ## <a name="known-issues"></a>Problemas conocidos
 
-Se pueden producir varios problemas conocidos:
-- Después de la actualización, es posible que los usuarios vean un cuadro de diálogo de advertencia "No se pudo cargar el modelo". Este mensaje se muestra de forma errónea y se puede omitir. 
-- Después de la actualización, algunos nombres de área de trabajo son diferentes de los anteriores a la actualización. Cuando esto ocurre, el nombre del área de trabajo se revierte a un nombre anterior o se queda en blanco. Para resolver esta incidencia, cambie el nombre del área de trabajo por el que quiera.
-- Después de actualizar un área de trabajo que tenía un paquete de contenido instalado, es posible que vea paneles adicionales en el área de trabajo que no estaban visibles antes de la actualización. Esto sucede en algunos casos en los que un paquete de contenido no se ha actualizado recientemente. Puede quitar estos paneles de forma segura.
+Se pueden producir varios problemas conocidos tras la actualización:
+- Es posible que vea un cuadro de diálogo de advertencia en el que se indica que no se pudo cargar el modelo. Este mensaje se muestra de forma errónea y se puede omitir. 
+- Algunos nombres de área de trabajo son diferentes de los anteriores a la actualización. En ese caso, el nombre del área de trabajo se revierte a un nombre anterior o se queda en blanco. Para resolver esta incidencia, cambie el nombre del área de trabajo por el que quiera.
+- En un área de trabajo que tenía instalado un paquete de contenido, es posible que vea paneles adicionales que no estaban visibles antes de la actualización. En este caso, es posible que no se haya actualizado recientemente un paquete de contenido. Puede quitar estos paneles de forma segura.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

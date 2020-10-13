@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 469e2de86d18b9adeb4a7c8aeabeaae1db2a28de
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040233"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600444"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Resúmenes de actualización de Power BI
 
@@ -53,11 +53,11 @@ Con la información del archivo exportado, puede revisar la capacidad, la duraci
 
 Puede seleccionar la vista **Programación** haciendo clic en **Programación** en resúmenes de actualización. La vista Programación muestra la información de programación de la semana, dividida en franjas horarias de 30 minutos. 
 
-![Vista Programación](media/refresh-summaries/refresh-summaries-02a.jpg)
+![En la captura de pantalla se muestra un primer plano de la pestaña de programación de la página Actualizar programación.](media/refresh-summaries/refresh-summaries-02a.jpg)
 
 La vista Programación es muy útil para determinar si los eventos de actualización programados están correctamente espaciados, lo que permite que todas las actualizaciones se completen sin superponerse, o si se han programado eventos de actualización que están tardando demasiado y creando contención de recursos. Si encuentra este tipo de contención de recursos, debe ajustar las programaciones de actualización para evitar conflictos o superposiciones, de modo que las actualizaciones programadas se puedan completar correctamente. 
 
-![Vista Programación](media/refresh-summaries/refresh-summaries-02.jpg)
+![En la captura de pantalla se muestra la pestaña de programación de la página Actualizar programación.](media/refresh-summaries/refresh-summaries-02.jpg)
 
 La columna *Tiempo de actualización reservado (minutos)* es un cálculo del promedio de hasta 60 registros por conjunto de datos asociado. El valor numérico de cada franja horaria de 30 minutos es la suma de los minutos calculados para todas las actualizaciones programadas que se inician en la franja horaria **y** cualquier actualización programada establecida para iniciarse en la franja horaria *anterior*, pero cuya duración media se desborda en la franja horaria seleccionada.
 
@@ -67,7 +67,7 @@ Puede seleccionar una franja horaria y luego seleccionar el botón **Detalles** 
 
 Veamos un ejemplo de cómo funciona esto. El siguiente cuadro de diálogo se muestra al seleccionar la franja horaria de las 20:30 horas del domingo y hacer clic en **Detalles**.
 
-![Vista Programación](media/refresh-summaries/refresh-summaries-04.jpg)
+![En la captura de pantalla se muestran los detalles de las actualizaciones para una hora seleccionada.](media/refresh-summaries/refresh-summaries-04.jpg)
 
 Existen tres eventos de actualización programada en esta franja horaria. 
 

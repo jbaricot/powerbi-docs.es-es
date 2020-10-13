@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f56acb7859b04f77ca403725740cb7ce472ccb7d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c056a48c78ae2e46ccd6419ad1b9d1e1a6693847
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223070"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598795"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conexión a conjuntos de datos del servicio Power BI desde Power BI Desktop
 
@@ -32,7 +32,7 @@ Una de las dificultades que presenta la popularidad de Power BI es la proliferac
 
 Supongamos que Ana es analista de negocios de su equipo. Ana tiene experiencia en la creación de buenos modelos de datos, a menudo denominados como conjuntos de datos. Ana puede crear un conjunto de datos y un informe y, a continuación, compartir dicho informe en el servicio Power BI.
 
-![Publicación en el servicio Power BI](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
+![Captura de pantalla en la que se muestra el botón Publicar del servicio Power BI.](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
 A todos les encanta el informe y el conjunto de datos de Ana. Aquí es donde se iniciará el problema. Todos los miembros del equipo de Ana intentarían crear *su propia versión* de ese conjunto de datos y, luego, compartir esos informes con el equipo. De repente, habría una gran cantidad de informes de diferentes conjuntos de datos en el área de trabajo del equipo del servicio Power BI. ¿Cuál era el más reciente? ¿Eran iguales, o casi iguales, los conjuntos de datos? ¿Cuáles eran las diferencias? Con la característica Conexión dinámica al servicio Power BI, todo esto puede cambiar para mejor. En la siguiente sección, veremos cómo otros usuarios pueden usar el conjunto de datos publicado de Ana para sus propios informes en sus propias áreas de trabajo y de cómo permitir que todos puedan emplear el mismo conjunto de datos publicado, coherente e investigado para generar informes únicos.
 

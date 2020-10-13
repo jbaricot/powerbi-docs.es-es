@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: d32e1223a335fc6bf2fdf52598f1e1bdf3d7a685
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c5bed13799824a0222b2961595108536f66133ee
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860541"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634950"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Actualización, eliminación y extracción de una aplicación de plantilla
 
@@ -23,11 +23,11 @@ Ahora que la aplicación está en producción, puede empezar de nuevo en la fase
 Si ha realizado los cambios en Power BI Desktop, empiece en el paso (1). Si no ha realizado los cambios en Power BI Desktop, empiece en el paso (4).
 
 1. Cargue el conjunto de datos actualizado y sobrescriba el conjunto de datos existente. **Asegúrese de usar exactamente el mismo nombre del conjunto de datos**. Si usa otro nombre, se creará un nuevo conjunto de datos para los usuarios que actualicen la aplicación.
-![sobrescritura del conjunto de datos](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
+![En la captura de pantalla se muestra la Actualización de una aplicación de plantilla en Power BI con la opción Conjunto de datos seleccionada.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
 1. Importe el archivo pbix desde el equipo.
-![sobrescritura del conjunto de datos](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
+![En la captura de pantalla se muestra la página Obtener datos con la opción Obtener destacada debajo de Archivos.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
 1. Confirme la sobrescritura.
-![sobrescritura del conjunto de datos](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
+![En la captura de pantalla se muestra un mensaje de confirmación que indica que ya existe un conjunto de datos con el mismo nombre y ofrece la opción de reemplazarlo.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
 
 1. En el panel **Release Management**, haga clic en **Crear aplicación**.
 1. Vuelva a realizar el proceso de creación de la aplicación.
@@ -64,7 +64,8 @@ Revertir a la versión anterior de una aplicación de la plantilla es más fáci
 
 1. En el panel de administración de versiones, presione más **(...)**  y, a continuación, **Extraer**.
 
-    ![extraer la versión de la aplicación de plantilla](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png) ![extract template app version](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
+    ![En la captura de pantalla se muestra el panel Administración de versiones con la opción Extraer seleccionada en un menú.](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png)
+    ![En la captura de pantalla se muestra el mensaje de confirmación para extraer esta aplicación.](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
 2. En el cuadro de diálogo, escriba el nombre del área de trabajo extraída. Se agregará una nueva área de trabajo.
 
 Se restablece el nuevo control de versiones del área de trabajo y puede continuar desarrollando y distribuyendo la aplicación de plantilla desde el área de trabajo recién extraída.
@@ -74,8 +75,8 @@ El área de trabajo de plantilla es el origen de una aplicación de plantilla di
 La eliminación de una versión de la aplicación también elimina la dirección URL de la aplicación que ya no funcionará.
 
 1. En el panel de administración de versiones, seleccione los puntos suspensivos **(...)** y, a continuación, **Eliminar**.
- ![Eliminar la versión de la aplicación de plantilla](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
- ![Delete template app version](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
+ ![En la captura de pantalla se muestra el panel Administración de versiones con la opción Eliminar seleccionada en un menú.](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
+ ![En la captura de pantalla se muestra el mensaje de confirmación para eliminar esta aplicación.](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
 
 >[!NOTE]
 >Asegúrese de no eliminar la versión de la aplicación que están utilizando los clientes o **AppSource** o ya no funcionará.

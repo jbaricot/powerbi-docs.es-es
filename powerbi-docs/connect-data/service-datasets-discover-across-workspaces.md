@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0104d88ab926d649b7b2629e0e3427188c771948
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9bffc860baa424caef05bad3ac423932868c410
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236768"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374347"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces"></a>Creación de informes basados en conjuntos de datos de diferentes áreas de trabajo
 
@@ -50,7 +50,7 @@ De este modo, los miembros del área de trabajo pueden saber en qué paneles e i
 
 ## <a name="find-an-endorsed-dataset"></a>Búsqueda un conjunto de datos aprobado
 
-Hay dos tipos diferentes de conjuntos de datos aprobados. Los propietarios del conjunto de datos pueden *promocionar* un conjunto de datos que le recomienden. Además, el administrador de inquilinos de Power BI puede designar expertos en la organización que pueden *certificar* conjuntos de datos para todos los usuarios. En los conjuntos de datos promocionados y certificados se muestran *distintivos* que puede ver tanto al buscar un conjunto de datos como en la lista de conjuntos de datos de un área de trabajo. El nombre de la persona que certificó un conjunto de datos se muestra en una información sobre herramientas durante la experiencia de detección de conjuntos de datos. Mantenga el mouse sobre la etiqueta **Certificado** y véalo.
+Hay dos tipos diferentes de conjuntos de datos aprobados. Los propietarios del conjunto de datos pueden *promocionar* un conjunto de datos que le recomienden. Además, el administrador de Power BI puede designar expertos en la organización que pueden *certificar* conjuntos de datos para todos los usuarios. En los conjuntos de datos promocionados y certificados se muestran *distintivos* que puede ver tanto al buscar un conjunto de datos como en la lista de conjuntos de datos de un área de trabajo. El nombre de la persona que certificó un conjunto de datos se muestra en una información sobre herramientas durante la experiencia de detección de conjuntos de datos. Mantenga el mouse sobre la etiqueta **Certificado** y véalo.
 
 - En el servicio Power BI: **Obtener datos** > **Conjuntos de datos publicados**.
 - En Power BI Desktop: **Obtener datos** > **Conjuntos de datos de Power BI**.

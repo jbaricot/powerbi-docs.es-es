@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/16/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 00089c6ba2b2af5a6334fac07fd3991f5201cb44
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 04be21e368c74029e1e720a02b92d00448282138
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854216"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374413"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Etiquetas de confidencialidad en Power BI
 
@@ -38,7 +38,7 @@ Un [informe de métricas de protección](service-security-data-protection-metric
 
 Las etiquetas de confidencialidad **no** afectan al acceso al contenido dentro de Power BI: se administra únicamente mediante los permisos de Power BI. Mientras las etiquetas son visibles, no se aplican las opciones de cifrado asociadas (configuradas en el [Centro de seguridad de Microsoft 365](https://security.microsoft.com/) o el [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/)). Se aplican solo a los datos que salen de Power BI a través de la exportación a archivos de Excel, PowerPoint o PDF, o mediante alguna de las otras rutas de exportación admitidas.
 
-Las etiquetas de confidencialidad y el cifrado de archivos **no** se aplican en rutas de exportación no admitidas. El administrador de inquilinos de Power BI puede bloquear la exportación desde rutas de exportación no admitidas:
+Las etiquetas de confidencialidad y el cifrado de archivos **no** se aplican en rutas de exportación no admitidas. El administrador de Power BI puede bloquear la exportación desde rutas de exportación no admitidas:
 
 >[!NOTE]
 > A los usuarios a los que se concede acceso a un informe se les concede acceso a todo el conjunto de datos subyacente, a menos que la [seguridad de nivel de fila (RLS)](./service-admin-rls.md) limite su acceso. Los autores de informes pueden clasificar y etiquetar informes con etiquetas de confidencialidad. Si la etiqueta de confidencialidad tiene una configuración de protección, Power BI aplicará esta configuración de protección al exportar los datos de informe a archivos de Excel, PowerPoint o PDF. Solo los usuarios autorizados pueden abrir archivos protegidos.
@@ -83,7 +83,7 @@ Un usuario que exporta un archivo de Power BI tiene permisos para acceder al ar
 
 La protección y las etiquetas de confidencialidad no se aplican cuando los datos se exportan a archivos .csv o .pbix, o a cualquier otra ruta de exportación.
 
-La aplicación de una etiqueta de confidencialidad y protección a un archivo exportado no le agrega marcas de contenido. Pero si la etiqueta está configurada para aplicar marcas de contenido, el cliente de etiquetado unificado de Azure Information Protection aplica las marcas automáticamente cuando el archivo se abre en las aplicaciones de escritorio de Office. Las marcas de contenido no se aplican de forma automática cuando se usa el etiquetado integrado para aplicaciones web, para dispositivos móviles o de escritorio. Vea [Cuando las aplicaciones de Office aplican marcas de contenido y cifrado](/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption) para obtener más detalles.
+La aplicación de una etiqueta de confidencialidad y protección a un archivo exportado no le agrega marcas de contenido. Pero si la etiqueta está configurada para aplicar marcas de contenido, el cliente de etiquetado unificado de Azure Information Protection aplica las marcas automáticamente cuando el archivo se abre en las aplicaciones de escritorio de Office. Las marcas de contenido no se aplican de forma automática cuando se usa el etiquetado integrado para aplicaciones web, para dispositivos móviles o de escritorio. Vea [Cuando las aplicaciones de Office aplican marcas de contenido y cifrado](/microsoft-365/compliance/sensitivity-labels-office-apps#when-office-apps-apply-content-marking-and-encryption) para obtener más detalles.
 
 Se produce un error en la exportación si no se puede aplicar una etiqueta al exportar los datos a un archivo. Para comprobar si se ha producido un error en la exportación porque no se ha podido aplicar la etiqueta, haga clic en el nombre del panel o informe en el centro de la barra de título y compruebe si en el cuadro desplegable de información que se abre se indica "No se puede cargar la etiqueta de confidencialidad". Esto puede suceder como resultado de un problema temporal del sistema o si el administrador de seguridad no ha publicado ni ha eliminado la etiqueta aplicada.
 
@@ -139,8 +139,8 @@ En la lista siguiente se proporcionan algunas limitaciones de las etiquetas de c
 * Las etiquetas de confidencialidad solo se pueden aplicar en paneles, informes, conjuntos de datos y flujos de datos. En la actualidad no hay etiquetas de confidencialidad disponibles para [informes paginados](../paginated-reports/report-builder-power-bi.md) y libros.
 * Las etiquetas de confidencialidad de los recursos de Power BI son visibles en la lista de áreas de trabajo y en las vistas de linaje, favoritos, recientes y aplicaciones; no son visibles actualmente en la vista "compartido conmigo". Tenga en cuenta, sin embargo, que una etiqueta aplicada a un recurso de Power BI, incluso si no está visible, siempre se conservará en los datos exportados a archivos de Excel, PowerPoint y PDF.
 * No se admiten las etiquetas de confidencialidad para las aplicaciones de plantilla. Las etiquetas de confidencialidad establecidas por el creador de la aplicación de plantilla se quitan cuando se extrae la aplicación y se instala. Asimismo, al actualizar la aplicación, las etiquetas de confidencialidad agregadas a los artefactos de una aplicación de plantilla instalada por el consumidor de la aplicación se pierden (se restablecen vacías).
-* Power BI no admite etiquetas de confidencialidad de los tipos de protección [No reenviar](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions), [definido por el usuario](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions) e [HYOK](/azure/information-protection/configure-adrms-restrictions). Los tipos de protección No reenviar y definido por el usuario hacen referencia a las etiquetas definidas en el [Centro de seguridad de Microsoft 365](https://security.microsoft.com/) o el [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/).
-* No se recomienda permitir que los usuarios apliquen etiquetas primarias en Power BI (se considera que una etiqueta es una etiqueta primaria solo si tiene subetiquetas). Si se aplica una etiqueta principal al contenido, se producirá un error al exportar los datos de ese contenido a un archivo (Excel, PowerPoint y PDF). Vea [Subetiquetas (etiquetas de agrupación)](/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels).
+* Power BI no admite etiquetas de confidencialidad de los tipos de protección [No reenviar](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions), [definido por el usuario](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions) e [HYOK](/azure/information-protection/configure-adrms-restrictions). Los tipos de protección No reenviar y definido por el usuario hacen referencia a las etiquetas definidas en el [Centro de seguridad de Microsoft 365](https://security.microsoft.com/) o el [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/).
+* No se recomienda permitir que los usuarios apliquen etiquetas primarias en Power BI (se considera que una etiqueta es una etiqueta primaria solo si tiene subetiquetas). Si se aplica una etiqueta principal al contenido, se producirá un error al exportar los datos de ese contenido a un archivo (Excel, PowerPoint y PDF). Vea [Subetiquetas (etiquetas de agrupación)](/microsoft-365/compliance/sensitivity-labels#sublabels-grouping-labels).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
