@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 02/13/2020
+ms.date: 09/29/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 55b08d608e30b8a1f4b06319f1de835a12f7ca77
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 87bb15829936c452999872f95f49f35c2b60af77
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234835"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525666"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Incorporación de hipervínculos (direcciones URL) a una tabla o matriz
 En este tema se enseña cómo agregar hipervínculos (direcciones URL) a una tabla. Usará Power BI Desktop para agregar hipervínculos (direcciones URL) a un conjunto de datos. Esos hipervínculos se pueden agregar luego a las tablas y matrices de informes de Power BI Desktop o del servicio Power BI. De esta manera, puede mostrar la dirección URL o un icono de vínculo, o dar formato a otra columna como texto de vínculo.
@@ -136,18 +136,17 @@ Las direcciones URL tienen que comenzar con uno de los siguientes elementos:
 - http
 - HTTPS
 - -mailto
-- file
 - ftp
-- news
+- noticias
 - telnet
 
 P: ¿Puedo usar una dirección URL personalizada como un hipervínculo en una tabla o matriz?    
-A: No. Puede utilizar un icono de vínculo. Si necesita texto personalizado para los hipervínculos y la lista de direcciones URL es breve, considere la posibilidad de utilizar un cuadro de texto en su lugar.
+A. No. Puede utilizar un icono de vínculo. Si necesita texto personalizado para los hipervínculos y la lista de direcciones URL es breve, considere la posibilidad de utilizar un cuadro de texto en su lugar.
 
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Visualizaciones en informes de Power BI](../visuals/power-bi-report-visualizations.md)
 
-[Conceptos básicos para diseñadores en el servicio Power BI](../fundamentals/service-basic-concepts.md)
+[Conceptos básicos para los diseñadores en el servicio Power BI](../fundamentals/service-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

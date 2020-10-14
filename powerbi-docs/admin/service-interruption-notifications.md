@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: aa69be7cabae3abeeaf1888272389a791909cae7
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 20fb1f117432d5c36bfe0c536bc0803871134c95
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374876"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981536"
 ---
 # <a name="service-interruption-notifications"></a>Notificaciones de interrupción del servicio
 
@@ -70,7 +70,7 @@ Un administrador de Power BI habilita las notificaciones en el portal de admini
 
 ## <a name="service-health-in-microsoft-365"></a>Estado del servicio en Microsoft 365
 
-En este artículo se describe cómo recibir notificaciones de servicio mediante Power BI. También puede supervisar el estado del servicio Power BI mediante Microsoft 365. Participe para recibir notificaciones por correo electrónico sobre el estado del servicio desde Microsoft 365. Obtenga más información en [Cómo comprobar el estado del servicio de Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health).
+En este artículo se describe cómo recibir notificaciones de servicio mediante Power BI. También puede supervisar el estado del servicio Power BI mediante Microsoft 365. Participe para recibir notificaciones por correo electrónico sobre el estado del servicio desde Microsoft 365. Obtenga más información en [Cómo comprobar el estado del servicio de Microsoft 365](/microsoft-365/enterprise/view-service-health).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

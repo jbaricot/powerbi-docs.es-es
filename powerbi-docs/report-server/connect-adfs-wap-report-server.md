@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 01/14/2020
-ms.openlocfilehash: e9e2c44bdcbeabc28a95bd62bf6ba6763ae61442
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/12/2020
+ms.openlocfilehash: 17e153528e45a52de7addf3563c58c2586600660
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859069"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92026030"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>Uso de Proxy de aplicación web y Servicios de federación de Active Directory: Power BI Report Server
 
@@ -157,7 +157,7 @@ Para configurar la delegación limitada, siga estos pasos.
 8. Ejecute el siguiente comando de PowerShell para comprobar la configuración de WAP.
 
     ```
-    Get-WebApplicationProxyApplication "PBIRSBrowser" | FL
+    Get-WebApplicationProxyApplication -Name "PBIRSWAP" | FL
     ```
 
     ![Comando de PowerShell](media/connect-adfs-wap-report-server/report-server-powershell-get-webapplication.png)
