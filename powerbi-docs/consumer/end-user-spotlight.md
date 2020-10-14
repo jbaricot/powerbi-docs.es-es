@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/04/2020
+ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d684ab319a61c932f851e76322af758a4188c5e0
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 51f98bd5bc22609aba01a775678c5dccf6cf0d0c
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536018"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830198"
 ---
 # <a name="add-spotlights-to-power-bi-reports"></a>Cómo destacar informes en Power BI
 
@@ -32,7 +32,7 @@ La opción Destacados permite atraer la atención a un determinado objeto visual
 
 3. Elija la opción **Destacados**. El objeto visual seleccionado se resalta, lo que hace que todos los demás objetos visuales de la página se atenúen hasta quedar casi transparentes. 
 
-    ![Modo Destacados](media/end-user-spotlight/power-bi-spotlighted.png)
+    ![Modo Destacados](media/end-user-spotlight/power-bi-spotlighted-treemap.png)
 
 
 

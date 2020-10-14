@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0bf9f1a6eb918e55ab3811b9c6fde2628bdd91ad
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512801"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983756"
 ---
 |Funcionalidad   | Administrador  | Miembro  | Colaborador  | Visor |
 |---|---|---|---|---|
@@ -42,6 +42,6 @@ ms.locfileid: "89512801"
 
 <sup>3</sup> Para copiar un informe y crear un informe en otra área de trabajo en función de un conjunto de datos de esta área de trabajo, debe tener el [permiso de compilación para el conjunto de datos](../connect-data/service-datasets-build-permissions.md). Para los conjuntos de datos de esta área de trabajo, los usuarios con los roles de Administrador, Miembro y Colaborador tienen automáticamente permiso de compilación en su rol de área de trabajo.
 
-<sup>4</sup> Tenga en cuenta que también necesita permisos en la puerta de enlace. Estos permisos se administran en otro lugar, independientemente de los roles y los permisos del área de trabajo. Vea [Administración de una puerta de enlace local](https://docs.microsoft.com/data-integration/gateway/service-gateway-manage) para más información.
+<sup>4</sup> Tenga en cuenta que también necesita permisos en la puerta de enlace. Estos permisos se administran en otro lugar, independientemente de los roles y los permisos del área de trabajo. Vea [Administración de una puerta de enlace local](/data-integration/gateway/service-gateway-manage) para más información.
 
 <sup>5</sup> Incluso aunque no tenga una licencia de Power BI Pro, puede ver los elementos e interactuar con ellos en el servicio Power BI si los elementos están en un área de trabajo de una capacidad Premium.

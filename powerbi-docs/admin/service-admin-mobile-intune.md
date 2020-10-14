@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 214ef5072808decc4c153a28cf231e070c20508d
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a7a3e0382b80d46ddb41b3f5677763a1a08bf26d
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524728"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981559"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Configurar aplicaciones móviles con Microsoft Intune
 
@@ -58,8 +58,8 @@ Para crear y asignar una directiva de protección de aplicaciones para la aplica
 Las aplicaciones administradas son aplicaciones que el equipo de soporte técnico de su empresa puede configurar para ayudar a proteger los datos de la empresa a los que se puede obtener acceso en esa aplicación. Al acceder a los datos de la empresa en una aplicación administrada en el dispositivo, puede observar que la aplicación funciona de forma ligeramente diferente a lo esperado. Por ejemplo, es posible que no pueda copiar y pegar los datos protegidos de la compañía o no pueda guardar dichos datos en determinadas ubicaciones.
 
 Para entender cómo los usuarios finales pueden usar la aplicación de Power BI en su dispositivo, revise los pasos proporcionados en los artículos siguientes:
-- [Usar aplicaciones administradas en el dispositivo iOS](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
-- [Usar aplicaciones administradas en el dispositivo Android](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-android)
+- [Usar aplicaciones administradas en el dispositivo iOS](/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
+- [Usar aplicaciones administradas en el dispositivo Android](/intune-user-help/use-managed-apps-on-your-device-android)
 
 ## <a name="next-steps"></a>Pasos siguientes
 
@@ -67,4 +67,4 @@ Para entender cómo los usuarios finales pueden usar la aplicación de Power BI
 
 [Aplicaciones de Power BI para dispositivos móviles](../consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)  
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
