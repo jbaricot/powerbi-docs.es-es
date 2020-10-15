@@ -12,14 +12,14 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 92eb2ebc5eaff00c5c83cd32b0fa90b631906237
+  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80516247"
+  ms.lasthandoff: 10/14/2020
+  ms.locfileid: "92049324"
 landingContent:
-- title: Comenzar
+- title: Primeros pasos
   linkLists:
   - linkListType: get-started
     links:
@@ -33,8 +33,8 @@ landingContent:
   linkLists:
   - linkListType: tutorial
     links:
-    - text: 'Tutorial: Desarrollo de un objeto visual de Power BI'
-      url: custom-visual-develop-tutorial.md
+    - text: 'Tutorial: Desarrollo de un objeto visual de Power BI'
+      url: develop-circle-card.md
     - text: 'Tutorial: Adición de opciones de formato a un objeto visual de Power BI'
       url: custom-visual-develop-tutorial-format-options.md
   - linkListType: concept
@@ -55,5 +55,5 @@ landingContent:
     links:
     - text: Ejemplos de objetos visuales de Power BI
       url: https://microsoft.github.io/PowerBI-visuals/samples/
-    - text: Repositorio de Git
+    - text: Repositorio Git
       url: https://github.com/Microsoft/PowerBI-visuals
