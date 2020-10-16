@@ -10,8 +10,8 @@
     - name: Tutoriales
       expanded: true
       items:
-        - name: Desarrollo de un objeto visual de Power BI
-          href: custom-visual-develop-tutorial.md
+        - name: 'Tutorial: Desarrollo de objetos visuales de tarjetas de círculo'
+          href: develop-circle-card.md
         - name: Creación de objetos visuales basados en React
           href: create-react-visual.md
         - name: Creación de un gráfico de barras
@@ -54,6 +54,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: "Publicación de objetos visuales de Power\_BI en AppSource"
           href: office-store.md
+        - name: "Configuración del entorno para el desarrollo de un objeto visual de Power\_BI"
+          href: environment-setup.md
         - name: Creación de objetos visuales con tecnología de R
           href: create-r-based-power-bi-desktop.md
         - name: "Prueba del objeto visual de Power\_BI"
