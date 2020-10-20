@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: Información general
+    - name: Introducción
       expanded: true
       items:
         - name: Qué es la inserción con Power BI
