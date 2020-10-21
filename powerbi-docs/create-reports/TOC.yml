@@ -217,7 +217,7 @@
               href: service-aggregates.md
             - name: Creación de un código QR para un informe
               href: service-create-qr-code-for-report.md
-            - name: Posibilidad de que los consumidores personalicen objetos visuales (versión preliminar)
+            - name: Permitir que los usuarios puedan personalizar objetos visuales
               href: power-bi-personalize-visuals.md
             - name: Exportación de un informe a Power BI Desktop (versión preliminar)
               href: service-export-to-pbix.md
