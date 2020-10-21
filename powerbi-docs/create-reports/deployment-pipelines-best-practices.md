@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 01cb4c5de2863250f083320e7005c0d589a2da0b
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855568"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116486"
 ---
 # <a name="deployment-pipelines-best-practices"></a>Procedimientos recomendados para las canalizaciones de implementación
 
@@ -103,7 +103,7 @@ Considere la posibilidad de Power BI Desktop como su entorno de desarrollo loca
 
 ### <a name="version-control-for-pbix-files"></a>Control de versiones de los archivos .pbix
 
-Si desea administrar el historial de versiones de los informes y conjuntos de datos, use la [sincronización de Power BI con OneDrive](../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md). Esto mantendrá los archivos actualizados con la versión más reciente. También le permitirá recuperar versiones anteriores si es necesario.
+Si desea administrar el historial de versiones de los informes y conjuntos de datos, use la [sincronización de Power BI con OneDrive](../collaborate-share/service-connect-to-files-in-app-workspace-onedrive-for-business.md). Esto mantendrá los archivos actualizados con la versión más reciente. También le permitirá recuperar versiones anteriores si es necesario.
 
 >[!NOTE]
 >Use la sincronización automática con OneDrive (o cualquier otro repositorio) solo con los archivos .pbix en la fase de desarrollo de canalizaciones de implementación. No sincronice los archivos .pbix en las fases de prueba y producción de las canalizaciones de implementación. Esto causará problemas con la implementación de contenido en toda la canalización.

@@ -3,19 +3,19 @@ title: Solución de problemas de conectividad de los puntos de conexión XMLA en
 description: En este artículo se describe cómo solucionar problemas de conectividad a través del punto de conexión XMLA en Power BI Premium.
 author: minewiskan
 ms.author: owend
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 07/28/2020
+ms.date: 10/14/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: bd2b8c4af1fc36fabc863aa1c67ed5af40265de2
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c8f0683e0789ec29577322424a4187a42ff5679f
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854090"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116578"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Solución de problemas de conectividad de los puntos de conexión XMLA
 
@@ -79,7 +79,7 @@ Si Power BI no puede enlazar el conjunto de datos nuevo a las credenciales del 
 
 Para evitar que haya errores en el procesamiento, establezca las **Opciones de implementación** > **Opciones de procesamiento** en **No procesar**, tal como se muestra en la imagen siguiente. A continuación, Visual Studio solo implementa metadatos. Después, puede configurar las credenciales del origen de datos y hacer clic en **Actualizar ahora** para el conjunto de datos en la interfaz de usuario de Power BI. Para información sobre cómo solucionar los problemas de procesamiento, consulte la sección [Actualización de un conjunto de datos](#refreshing-a-dataset) más adelante en este artículo.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Opción No procesar":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Error de implementación de modelo":::
 
 ### <a name="new-project-from-an-existing-dataset"></a>Proyecto nuevo a partir de un conjunto de datos existente
 
@@ -128,13 +128,13 @@ Power BI devuelve el error siguiente si realiza una actualización a través de
 
 La configuración de suplantación que se puede definir para los orígenes de datos del proveedor no es pertinente para Power BI. Power BI usa un mecanismo distinto en función de la configuración del conjunto de datos para administrar las credenciales del origen de datos. Por este motivo, asegúrese de seleccionar **Cuenta de servicio** si está creando un origen de datos del proveedor.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Suplantación de una cuenta de servicio":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Error de implementación de modelo":::
 
 ### <a name="fine-grained-processing"></a>Procesamiento detallado
 
 Al desencadenar una actualización programada o una actualización a petición en Power BI, Power BI habitualmente actualiza todo el conjunto de datos. En muchos casos, resulta más eficaz hacer actualizaciones de manera más selectiva. Puede realizar tareas de procesamiento detallado en SQL Server Management Studio (SSMS) tal como se muestra a continuación, o bien mediante el uso de scripts o herramientas de terceros.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Proceso de tablas en SSMS":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Error de implementación de modelo":::
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Invalidaciones en el comando Refresh de TMSL
 

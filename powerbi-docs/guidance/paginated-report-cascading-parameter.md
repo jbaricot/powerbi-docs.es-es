@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f239622d8b6012913298212790f7f9aa8c3115a5
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214097"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197665"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Uso de parámetros en cascada en informes paginados
 
@@ -128,7 +128,7 @@ A continuación se muestra cómo puede desarrollar los parámetros en cascada:
 >
 > Por lo general, los procedimientos almacenados son un enfoque de diseño mejor. Se debe a que sus planes de consulta se almacenan en caché para una ejecución más rápida y permiten desarrollar lógica más sofisticada cuando sea necesario. Sin embargo, no se admiten actualmente para orígenes de datos relacionales de puerta de enlace, lo que significa SQL Server, Oracle y Teradata.
 >
-> Por último, siempre debe asegurarse de que existan índices adecuados para admitir la recuperación eficaz de datos. De lo contrario, los parámetros de informe pueden tardar en rellenarse y la base de datos podría sobrecargarse. Para más información sobre la indización de SQL Server, consulte [Guía de diseño y de arquitectura de índices de SQL Server](/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2017).
+> Por último, siempre debe asegurarse de que existan índices adecuados para admitir la recuperación eficaz de datos. De lo contrario, los parámetros de informe pueden tardar en rellenarse y la base de datos podría sobrecargarse. Para más información sobre la indización de SQL Server, consulte [Guía de diseño y de arquitectura de índices de SQL Server](/sql/relational-databases/sql-server-index-design-guide).
 
 ### <a name="filter-by-a-grouping-column"></a>Filtrado por una columna de agrupación
 
@@ -220,7 +220,7 @@ A continuación se muestra cómo puede desarrollar los parámetros en cascada:
 > [!TIP]
 > Puede mejorar este diseño para proporcionar más control a los usuarios del informe. Permite definir su propio valor de coincidencia de patrones. Por ejemplo, el valor de búsqueda "red%" filtrará a los revendedores cuyos nombres _empiecen_ con los caracteres en "rojo".
 >
-> Para más información, consulte [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver15#using-the--wildcard-character).
+> Para más información, consulte [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql#using-the--wildcard-character).
 
 A continuación se indica cómo puede permitir que los usuarios del informe definan su propio patrón.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379177"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197642"
 ---
 # <a name="tooltip-utils"></a>Utilidades de la información sobre herramientas
 Este artículo le ayudará a instalar, importar y usar las utilidades de la información sobre herramientas. La resultará útil para cualquier personalización de la información sobre herramientas en objetos visuales de Power BI.
@@ -29,7 +29,7 @@ Para usar el paquete, debe tener lo siguiente:
 Para instalar el paquete, debe ejecutar el comando siguiente en el directorio con el objeto visual actual:
 
 ```bash
-npm install powerbi-visuals-utils-colorutils --save
+npm install powerbi-visuals-utils-tooltiputils --save
 ```
 Este comando instala el paquete y agrega un paquete como una dependencia a su ```package.json```.
 
