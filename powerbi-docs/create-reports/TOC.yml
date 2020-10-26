@@ -121,6 +121,8 @@
       items:
         - name: Informes de Power BI
           items:
+            - name: Creación de un informe en el servicio
+              href: service-report-create-new.md
             - name: Habilitación de la actualización automática de páginas
               href: desktop-automatic-page-refresh.md
             - name: Examen de los elementos del informe con el Analizador de rendimiento
@@ -205,8 +207,12 @@
               href: desktop-grouping-visuals.md
             - name: Creación de plantillas de informes
               href: desktop-templates.md
-            - name: Creación de un informe a partir de un conjunto de datos
-              href: service-report-create-new.md
+            - name: Cambio de la configuración del informe
+              href: power-bi-report-settings.md
+            - name: Informes de características en las páginas principales de otros usuarios
+              href: ../collaborate-share/service-featured-content.md
+            - name: Posibilidad de que los consumidores personalicen objetos visuales (versión preliminar)
+              href: power-bi-personalize-visuals.md
             - name: Almacenamiento del informe
               href: service-report-save.md
             - name: Interacción con un informe en la vista de edición
