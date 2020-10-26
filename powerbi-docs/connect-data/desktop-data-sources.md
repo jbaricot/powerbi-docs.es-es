@@ -6,30 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/22/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56825599a6b566a93f18e6fea16d995dc8bdda8f
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 8565f6ef18192110688d01127129dcc19919cb0f
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020053"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256664"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Orígenes de datos en Power BI Desktop
 
 Power BI Desktop permite conectarse a datos de muchos orígenes diferentes. Para obtener una lista completa de los orígenes de datos disponibles, vea [Orígenes de datos de Power BI](power-bi-data-sources.md).
 
-Use la cinta de opciones **Inicio** para conectarse a los datos. Para mostrar el menú de los tipos de datos **Más comunes**, seleccione la etiqueta del botón **Obtener datos** o la flecha abajo.
+Use la cinta de opciones **Inicio** para conectarse a los datos. Para mostrar el menú de los tipos de datos **Más comunes** , seleccione la etiqueta del botón **Obtener datos** o la flecha abajo.
 
 ![Menú de los tipos de datos Más comunes, Obtener datos en Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
-Para ir al cuadro de diálogo **Obtener datos**, muestre el menú de los tipos de datos **Más comunes** y seleccione **Más**. Puede abrir el cuadro de diálogo **Obtener datos** (y omitir el menú **Más comunes**) si selecciona directamente el icono **Obtener datos**.
+Para ir al cuadro de diálogo **Obtener datos** , muestre el menú de los tipos de datos **Más comunes** y seleccione **Más** . Puede abrir el cuadro de diálogo **Obtener datos** (y omitir el menú **Más comunes** ) si selecciona directamente el icono **Obtener datos** .
 
 ![Botón Obtener datos, Power BI Desktop](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> El equipo de Power BI está ampliando continuamente los orígenes de datos disponibles en Power BI Desktop y en el servicio Power BI. Por lo tanto, a menudo verá las versiones anteriores de orígenes de datos en proceso de desarrollo marcados como **Beta** o **Versión preliminar**. Cualquier origen de datos marcada como **Beta** o **Versión preliminar** tiene una compatibilidad y funcionalidades limitadas y no se debe usar en entornos de producción. Además, es posible que los orígenes de datos marcados como **Beta** o **Versión preliminar** para Power BI Desktop no estén disponibles para su uso en el servicio Power BI u otros servicios de Microsoft hasta que el origen de datos esté disponible con carácter general (GA).
+> El equipo de Power BI está ampliando continuamente los orígenes de datos disponibles en Power BI Desktop y en el servicio Power BI. Por lo tanto, a menudo verá las versiones anteriores de orígenes de datos en proceso de desarrollo marcados como **Beta** o **Versión preliminar** . Cualquier origen de datos marcada como **Beta** o **Versión preliminar** tiene una compatibilidad y funcionalidades limitadas y no se debe usar en entornos de producción. Además, es posible que los orígenes de datos marcados como **Beta** o **Versión preliminar** para Power BI Desktop no estén disponibles para su uso en el servicio Power BI u otros servicios de Microsoft hasta que el origen de datos esté disponible con carácter general (GA).
 
 > [!NOTE]
 > Hay muchos conectores de datos para Power BI Desktop que requieren Internet Explorer 10 (o posterior) para la autenticación. 
@@ -61,7 +61,7 @@ La categoría **Archivo** proporciona las siguientes conexiones de datos:
 * PDF
 * Carpeta de SharePoint
 
-La siguiente imagen muestra la ventana **Obtener datos** para **Archivo**.
+La siguiente imagen muestra la ventana **Obtener datos** para **Archivo** .
 
 ![Orígenes de datos de archivo, cuadro de diálogo Obtener datos, Power BI Desktop](media/desktop-data-sources/data-sources-03.png)
 
@@ -104,9 +104,9 @@ La categoría **Base de datos** proporciona las siguientes conexiones de datos:
 * MariaDB (Beta)
 
 > [!NOTE]
-> Para habilitar algunos conectores de bases de datos, debe seleccionar primero **Archivo > Opciones y configuración > Opciones** y, después, **Características en vista previa**. Si no ve algunos de los conectores mencionados anteriormente y quiere usarlos, compruebe la configuración de **Características en vista previa**. Tenga también en cuenta que cualquier origen de datos marcada como *Beta* o *Versión preliminar* tiene una compatibilidad y funcionalidades limitadas, y no debe usarse en entornos de producción.
+> Para habilitar algunos conectores de bases de datos, debe seleccionar primero **Archivo > Opciones y configuración > Opciones** y, después, **Características en vista previa** . Si no ve algunos de los conectores mencionados anteriormente y quiere usarlos, compruebe la configuración de **Características en vista previa** . Tenga también en cuenta que cualquier origen de datos marcada como *Beta* o *Versión preliminar* tiene una compatibilidad y funcionalidades limitadas, y no debe usarse en entornos de producción.
 
-La siguiente imagen muestra la ventana **Obtener datos** para **Base de datos**.
+La siguiente imagen muestra la ventana **Obtener datos** para **Base de datos** .
 
 ![Orígenes de datos de base de datos, cuadro de diálogo Obtener datos, Power BI Desktop](media/desktop-data-sources/data-sources-04.png)
 
@@ -119,7 +119,7 @@ La categoría **Power Platform** proporciona las conexiones de datos siguientes:
 * Common Data Service
 * Flujos de entrada de Power Platform (Beta)
 
-En la imagen siguiente se muestra la ventana **Obtener datos** para **Power Platform**.
+En la imagen siguiente se muestra la ventana **Obtener datos** para **Power Platform** .
 
 ![Orígenes de datos de Power Platform, cuadro de diálogo Obtener datos, Power BI Desktop](media/desktop-data-sources/data-sources-05.png)
 
@@ -145,7 +145,7 @@ La categoría **Azure** proporciona las siguientes conexiones de datos:
 * Azure Databricks
 
 
-La siguiente imagen muestra la ventana **Obtener datos** para **Azure**.
+La siguiente imagen muestra la ventana **Obtener datos** para **Azure** .
 
 ![Orígenes de datos de Azure, cuadro de diálogo Obtener datos, Power BI Desktop](media/desktop-data-sources/data-sources-06.png)
 
@@ -185,19 +185,21 @@ La categoría **Online Services** proporciona las siguientes conexiones de datos
 * Origen de datos de Emigo
 * Entersoft Business Suite (Beta)
 * FactSet Analytics
-* Palantir Foundry
-* Industrial App Store
+* API inteligente PPM de hexágono
 * Intune Data Warehouse (Beta)
 * Microsoft Graph Security (Beta)
-* Projectplace para Power BI (Beta)
 * Product Insights (Beta)
 * Quick Base
 * TeamDesk (Beta)
 * Webtrends Analytics (Beta)
 * Witivio (Beta)
-* Creador de Zoho (Beta)
 * Workplace Analytics (Beta)
-* API inteligente PPM de hexágono
+* Creador de Zoho (Beta)
+* Palantir Foundry
+* Industrial App Store
+* Projectplace para Power BI
+* eWay-CRM (Beta)
+* Spigit (Beta)
 
 
 La imagen siguiente muestra la ventana **Obtener datos** para **Online Services**
@@ -238,22 +240,30 @@ La categoría **Otros** proporciona las siguientes conexiones de datos:
 * Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (beta)
 * Vena (Beta)
-* Zucchetti HR Infinity (Beta)
 * Vessel Insight (Beta)
+* Zucchetti HR Infinity (Beta)
 * Consulta en blanco
 
 
 
-La siguiente imagen muestra la ventana **Obtener datos** para **Otros**.
+La siguiente imagen muestra la ventana **Obtener datos** para **Otros** .
 
-![Otros orígenes de datos, cuadro de diálogo Obtener datos, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
+![Otros orígenes de datos en Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > En este momento, no es posible conectarse a orígenes de datos personalizados que se protegen mediante Azure Active Directory.
 
+### <a name="template-apps"></a>Aplicaciones plantilla
+
+Puede buscar aplicaciones de plantilla para su organización seleccionando el vínculo **Aplicaciones de plantilla** cerca de la parte inferior de la ventana **Obtener datos** . 
+
+![Cuadro de diálogo Obtener datos para Otros orígenes de datos en Power BI Desktop](media/desktop-data-sources/data-sources-12.png)
+
+Las aplicaciones de plantilla disponibles pueden variar en función de su organización.
+
 ## <a name="connecting-to-a-data-source"></a>Conectarse a un origen de datos
 
-Para conectarse a un origen de datos, seleccione el origen de datos en la ventana **Obtener datos** y seleccione **Conectar**. En la siguiente imagen, la opción **Web** está seleccionada en la categoría de conexión de datos **Otros** .
+Para conectarse a un origen de datos, seleccione el origen de datos en la ventana **Obtener datos** y seleccione **Conectar** . En la siguiente imagen, la opción **Web** está seleccionada en la categoría de conexión de datos **Otros** .
 
 ![Conectar a la Web, cuadro de diálogo Obtener datos, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
@@ -261,11 +271,11 @@ Se muestra una ventana de conexión, específica al tipo de conexión de datos. 
 
 ![Dirección URL de entrada, cuadro de diálogo Desde la Web, Power BI Desktop](media/desktop-data-sources/datasources-fromwebbox.png)
 
-Escriba la dirección URL o la información de conexión de recurso y, luego, seleccione **Aceptar**. Power BI Desktop realiza la conexión al origen de datos y presenta los orígenes de datos disponibles en el **Navegador**.
+Escriba la dirección URL o la información de conexión de recurso y, luego, seleccione **Aceptar** . Power BI Desktop realiza la conexión al origen de datos y presenta los orígenes de datos disponibles en el **Navegador** .
 
 ![Cuadro de diálogo Navegador, Power BI Desktop](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
-Para cargar los datos, seleccione el botón **Cargar** en la parte inferior del panel **Navegador**. Para transformar o editar la consulta en el Editor de Power Query antes de cargar los datos, seleccione el botón **Transformar datos**.
+Para cargar los datos, seleccione el botón **Cargar** en la parte inferior del panel **Navegador** . Para transformar o editar la consulta en el Editor de Power Query antes de cargar los datos, seleccione el botón **Transformar datos** .
 
 Eso es todo lo que se necesita para conectarse a orígenes de datos en Power BI Desktop. Intente conectarse a datos de nuestra lista de orígenes de datos en crecimiento y vuelva a consultarla con frecuencia, debido a que siempre agregamos elementos a esta lista.
 
@@ -273,25 +283,43 @@ Eso es todo lo que se necesita para conectarse a orígenes de datos en Power BI 
 
 Los archivos PBIDS son archivos de Power BI Desktop con una estructura específica y tienen la extensión .PBIDS para identificarlos como archivo de origen de datos de Power BI.
 
-Un archivo .PBIDS se puede crear para optimizar la experiencia **Obtener datos** de los creadores de informes de la organización. Para facilitar que el autor de un informe nuevo use los archivos PBIDS, lo recomendable es que un administrador cree estos archivos para las conexiones de uso frecuente.
+Un archivo .PBIDS se puede crear para optimizar la experiencia **Obtener datos** de los creadores de informes nuevos o principiantes de la organización. Si crea el archivo .PBIDS a partir de informes existentes, es más fácil que los autores de informes principiantes creen nuevos informes a partir de los mismos datos.
 
-Cuando un autor abre un archivo .PBIDS, Power BI Desktop se abre y pide al usuario las credenciales para autenticarse y conectarse al origen de datos especificado en el archivo. El cuadro de diálogo **Navegación** se abre y el usuario debe seleccionar las tablas del origen de datos que quiera cargar en el modelo. Puede que también deba seleccionar las bases de datos si no hay ninguna especificada en el archivo .PBIDS.
+Cuando un autor abre un archivo .PBIDS, Power BI Desktop se abre y pide al usuario las credenciales para autenticarse y conectarse al origen de datos especificado en el archivo. El cuadro de diálogo **Navegación** se abre y el usuario debe seleccionar las tablas del origen de datos que quiera cargar en el modelo. Puede que también deba seleccionar las bases de datos y el modo de conexión si no se especifican en el archivo .PBIDS.
 
 A partir de ese momento, el usuario puede empezar a crear visualizaciones o seleccionar **Orígenes recientes** para cargar un conjunto de tablas nuevo en el modelo.
 
 Actualmente, los archivos .PBIDS solo admiten un único origen de datos en un archivo. Si se especifica más de un origen de datos, se producirá un error.
 
-Para crear el archivo PBIDS, un administrador debe especificar las entradas necesarias para una única conexión. También pueden especificar el modo de conexión como DirectQuery o Importar. Si el **modo** no existe o es nulo en el archivo, se pedirá al usuario que abre el archivo en Power BI Desktop que seleccione **DirectQuery** o **Importar**.
+
+### <a name="how-to-create-a-pbids-connection-file"></a>Creación de un archivo de conexión .PBIDS
+
+Si tiene un archivo de Power BI Desktop existente (.PBIX) que ya está conectado a los datos que le interesan, puede simplemente exportar estos archivos de conexión desde Power BI Desktop. Este es el método recomendado, ya que el archivo .PBIDS se puede generar automáticamente desde Desktop. Además, todavía puede editar o crear manualmente el archivo en un editor de texto. 
+
+Para crear el archivo .PBIDS, seleccione **Archivo > Opciones y configuración > Configuración del origen de datos** :
+
+![Opción del menú Configuración de origen de datos](media/desktop-data-sources/data-sources-09.png)
+
+En el cuadro de diálogo que aparece, seleccione el origen de datos que quiere exportar como .PBIDS y, a continuación, seleccione **Export PBIDS** (Exportar .PBIDS).
+
+![Cuadro de diálogo Configuración del origen de datos](media/desktop-data-sources/data-sources-10.png)
+
+Al seleccionar el botón **Export PBIDS** (Exportar .PBIDS), Power BI Desktop genera el archivo .PBIDS, cuyo nombre puede cambiar y que puede guardar en el directorio y compartir con otros usuarios. También puede abrir el archivo en un editor de texto y seguir modificando el archivo, incluida la especificación del modo de conexión en el propio archivo, tal como se muestra en la siguiente imagen. 
+
+![Uso de un editor de texto para modificar el archivo .PBIDS](media/desktop-data-sources/data-sources-11.png)
+
+Si prefiere crear manualmente los archivos .PBIDS en un editor de texto, debe especificar las entradas necesarias para una única conexión y guardar el archivo con la extensión .PBIDS. Opcionalmente, puede especificar el modo de conexión como DirectQuery o Importar. Si el **modo** no existe o es nulo en el archivo, se pedirá al usuario que abre el archivo en Power BI Desktop que seleccione **DirectQuery** o **Importar** .
+
 
 ### <a name="pbids-file-examples"></a>Ejemplos de archivos PBIDS
 
-En esta sección se proporcionan algunos ejemplos de orígenes de datos de uso frecuente. El tipo de archivo .PBIDS solo admite las conexiones de datos que también se admiten en Power BI Desktop, salvo dos excepciones: Live Connect y las Consultas en blanco.
+En esta sección se proporcionan algunos ejemplos de orígenes de datos de uso frecuente. El tipo de archivo .PBIDS solo admite las conexiones de datos que también se admiten en Power BI Desktop, salvo las siguientes excepciones: Direcciones URL de wiki, Live Connect y Consulta en blanco.
 
 El archivo .PBIDS *no* incluye información de autenticación ni de tablas y esquemas.  
 
 En los fragmentos de código siguientes se muestran varios ejemplos comunes de archivos PBIDS, pero no son completos. En el caso de otros orígenes de datos, puede consultar el [Formato de referencia de origen de datos (DSR)](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) para obtener información sobre protocolos y direcciones.
 
-Le presentamos estos ejemplos por su carácter práctico, pero no están diseñados para ser exhaustivos ni incluyen todos los conectores admitidos en formato DSR. Un administrador o una organización pueden crear sus propios orígenes de datos tomando estos ejemplos como guía y utilizarlos para crear y respaldar sus propios archivos de origen de datos.
+Si está editando o creando manualmente los archivos de conexión, le presentamos estos ejemplos por su carácter práctico, pero no están diseñados para ser exhaustivos ni incluyen todos los conectores admitidos en formato DSR.
 
 #### <a name="azure-as"></a>Azure AS
 

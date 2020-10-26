@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a5ed3d2a4798332de2394e1ad5be6fdbdb6eeae
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803386"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525809"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Preparación para migrar a Power BI
 
@@ -73,7 +73,7 @@ Observe que la [fase 2](powerbi-migration-planning.md) se refiere al plan de im
 
 Algunos puntos críticos que se deben abordar al principio de una implementación de Power BI incluyen lo siguiente:
 
-- Decisiones de [configuración de administración de inquilinos de Power BI](admin-tenant-settings.md), que se deben documentar.
+- Decisiones de [configuración de inquilinos de Power BI](admin-tenant-settings.md), que se deben documentar.
 - Decisiones de [administración de áreas de trabajo](../collaborate-share/service-new-workspaces.md), que se deben documentar.
 - Consideraciones y preferencias relacionadas con los datos y los [métodos de distribución de contenido](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md), como aplicaciones, áreas de trabajo, uso compartido, suscripciones e inserción de contenido.
 - Preferencias relacionadas con los [modos de conjuntos de datos](../connect-data/service-dataset-modes-understand.md), como el uso del modo de importación, el modo DirectQuery o la combinación de los dos modos en un [modelo compuesto](composite-model-guidance.md).
@@ -96,7 +96,7 @@ La [arquitectura de la solución de BI](center-of-excellence-business-intelligen
 - Configuración de inquilinos de Power BI e integración con Azure Active Directory.
 - Definición de [administradores de Power BI](../admin/service-admin-role.md).
 - Adquisición y asignación de [licencias de usuario](../admin/service-admin-licensing-organization.md) iniciales.
-- Configuración y revisión de la [configuración de administración de inquilinos de Power BI](admin-tenant-settings.md).
+- Configuración y revisión de la [configuración de inquilinos de Power BI](admin-tenant-settings.md).
 - Configuración de [roles de áreas de trabajo](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) y asignación de acceso a grupos de seguridad y usuarios de Azure Active Directory.
 - Configuración de un clúster de [puerta de enlace de datos](../connect-data/service-gateway-deployment-guidance.md) inicial, con un plan para actualizar con regularidad.
 - Adquisición de una [licencia de capacidad Premium](../admin/service-admin-premium-purchase.md) inicial (si procede).
@@ -123,7 +123,7 @@ La primera tarea es comprender qué se considera éxito de la migración en una 
 La preparación de un inventario de los informes existentes en la plataforma de BI heredada es un paso crítico para entender lo que ya existe. El resultado de este paso es un aporte para evaluar el nivel de esfuerzo de migración. Estas son algunas de las actividades relacionadas con la preparación de un inventario:
 
 1. **Inventario de informes:** compile una lista de informes y paneles que sean candidatos para la migración.
-2. **Inventario de orígenes de datos:** compile una lista de todos los orígenes de datos a los que acceden los informes existentes. Debe incluir tanto orígenes de datos empresariales como orígenes de datos de departamento y personales. Este proceso puede destapar orígenes de datos desconocidos para el departamento de TI, lo que a menudo se conoce como _TI en la sombra_.
+2. **Inventario de orígenes de datos:** compile una lista de todos los orígenes de datos a los que acceden los informes existentes. Debe incluir tanto orígenes de datos empresariales como orígenes de datos de departamento y personales. Este proceso puede destapar orígenes de datos desconocidos para el departamento de TI, lo que a menudo se conoce como _TI en la sombra_ .
 3. **Registro de auditoría:** obtenga datos del registro de auditoría de la plataforma de BI heredada para comprender los patrones de uso y ayudar a priorizar. La información importante que se debe obtener del registro de auditoría incluye:
     - Número medio de veces que se ha ejecutado cada informe por semana, mes o trimestre.
     - Número medio de consumidores por informe por semana, mes o trimestre.

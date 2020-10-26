@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: d5d075e3627ded01f7e47c1b073b60ff379bb506
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 94926ccf0fa214ca4c65808a7476842c22308359
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537651"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92048864"
 ---
 # <a name="power-bi-visuals-system-integration"></a>Integración de sistemas de objetos visuales de Power BI
 
@@ -42,7 +42,7 @@ Las acciones y posteriores actualizaciones de los objetos visuales de Power BI 
 
 * Un usuario abre el panel de propiedades del objeto visual.
 
-    Cuando un usuario abre el panel de propiedades del objeto visual, Power BI captura los objetos y las propiedades admitidos del archivo *capabilities.json*. Para recibir valores reales de las propiedades, Power BI llama al método `enumerateObjectInstances` del objeto visual. El objeto visual devuelve los valores reales de las propiedades.
+    Cuando un usuario abre el panel de propiedades del objeto visual, Power BI captura los objetos y las propiedades admitidos del archivo *capabilities.json* . Para recibir valores reales de las propiedades, Power BI llama al método `enumerateObjectInstances` del objeto visual. El objeto visual devuelve los valores reales de las propiedades.
 
     Para más información, consulte [Funcionalidades y propiedades de objetos visuales de Power BI](capabilities.md).
 
@@ -130,5 +130,5 @@ Las acciones y posteriores actualizaciones de los objetos visuales de Power BI 
 
 ¿Está interesado en crear visualizaciones y agregarlas a Microsoft AppSource? Consulte estos artículos:
 
-* [Desarrollo de un objeto visual de Power BI](./custom-visual-develop-tutorial.md)
+* [Desarrollo de un objeto visual Circle Card de Power BI](./develop-circle-card.md)
 * [Publicación de objetos visuales de Power BI en el Centro de partners](office-store.md)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/17/2019
-ms.openlocfilehash: b6b56e57bdc7815b7db1afc3cde79831523c1129
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 076ad6549cb68660313dcd8da5ccf8eb1f8f26c7
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634260"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049163"
 ---
 # <a name="samples-of-power-bi-visuals"></a>Ejemplos de objetos visuales de Power BI
 
@@ -73,4 +73,4 @@ En estos ejemplos se muestra cómo aprovechar la eficacia analítica y visual de
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Para probar la creación de objetos visuales de Power BI, consulte el [Tutorial: Desarrollar un objeto visual de Power BI](custom-visual-develop-tutorial.md).
+Para probar la creación de objetos visuales en Power BI, vea [Desarrollo de un objeto visual Circle Card de Power BI](develop-circle-card.md).

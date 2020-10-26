@@ -9,16 +9,16 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 7a93260aab9d8195478949ea8044378ea5cfae83
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 9a38533e76fec134d667ae4026258a2a3c07f410
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746410"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983123"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Insertar contenido de Power BI en una aplicación para la organización
 
-En **Power BI**, puede insertar informes (Power BI o paginados), paneles o iconos en una aplicación mediante User owns data. **User owns data** permite a la aplicación ampliar el servicio Power BI para usar análisis integrados. En este tutorial se muestra cómo integrar un informe (Power BI o paginado) en una aplicación. Puede usar .NET SDK de Power BI, junto con la API JavaScript de Power BI para insertar Power BI en una aplicación para la organización.
+En **Power BI** , puede insertar informes (Power BI o paginados), paneles o iconos en una aplicación mediante User owns data. **User owns data** permite a la aplicación ampliar el servicio Power BI para usar análisis integrados. En este tutorial se muestra cómo integrar un informe (Power BI o paginado) en una aplicación. Puede usar .NET SDK de Power BI, junto con la API JavaScript de Power BI para insertar Power BI en una aplicación para la organización.
 
 ![Informe insertado de Power BI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
@@ -36,7 +36,7 @@ Para empezar, es necesario que tenga:
 * Debe tener configurado un [inquilino de Azure Active Directory](create-an-azure-active-directory-tenant.md) propio.
 * Para insertar informes paginados, necesita al menos una capacidad P1. Vea [¿Qué tamaño de capacidad Premium se necesita para los informes paginados?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
-Si no está registrado en **Power BI Pro**, [regístrese para obtener una evaluación gratuita](https://powerbi.microsoft.com/pricing/) antes de empezar.
+Si no está registrado en **Power BI Pro** , [regístrese para obtener una evaluación gratuita](https://powerbi.microsoft.com/pricing/) antes de empezar.
 
 Si no tiene ninguna suscripción a Azure, cree una [cuenta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de empezar.
 
@@ -52,9 +52,9 @@ Si prefiere configurar el entorno manualmente, siga los pasos que se indican má
 
 [Registre la aplicación](register-app.md) con Azure Active Directory para permitir que acceda a las [API REST de Power BI](/rest/api/power-bi/). El hecho de registrar su aplicación permite establecer una identidad para esta y especificar los permisos para los recursos de REST de Power BI.
 
-Tiene que continuar con el registro de una **aplicación web del lado servidor**. Una aplicación web del lado servidor se registra para crear un secreto de aplicación.
+Tiene que continuar con el registro de una **aplicación web del lado servidor** . Una aplicación web del lado servidor se registra para crear un secreto de aplicación.
 
-Después de crear la aplicación en Azure, ábrala en Azure, vaya a *Autenticación* y en *URI de redirección*, agregue **/Redirect** a *URI de redirección*.
+Después de crear la aplicación en Azure, ábrala en Azure, vaya a *Autenticación* y en *URI de redirección* , agregue **/Redirect** a *URI de redirección* .
 
 ## <a name="set-up-your-power-bi-environment"></a>Configuración del entorno de Power BI
 
@@ -113,15 +113,15 @@ Siga estos pasos para empezar a insertar contenido mediante la aplicación de ej
 
 ### <a name="application-id"></a>Id. de aplicación
 
-Rellene la información de **applicationId** con el **identificador de aplicación** de **Azure**. La aplicación usa **applicationId** para identificarse ante los usuarios a los que solicita permisos.
+Rellene la información de **applicationId** con el **identificador de aplicación** de **Azure** . La aplicación usa **applicationId** para identificarse ante los usuarios a los que solicita permisos.
 
-Para obtener **applicationId**, siga estos pasos:
+Para obtener **applicationId** , siga estos pasos:
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. En el panel de navegación izquierdo, seleccione **Todos los servicios** y seleccione **Registros de aplicaciones**.
+2. En el panel de navegación izquierdo, seleccione **Todos los servicios** y seleccione **Registros de aplicaciones** .
 
-3. Seleccione la aplicación que necesite el valor **applicationId**.
+3. Seleccione la aplicación que necesite el valor **applicationId** .
 
     ![Elegir aplicación](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
@@ -172,15 +172,15 @@ Rellene la información **AADAuthorityUrl** con la dirección URL que le permite
 
 Para insertar con el inquilino organizativo, use la dirección URL: *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Para insertar con un invitado, use la dirección URL - `https://login.microsoftonline.com/report-owner-tenant-id` -, donde se agrega el id. de inquilino del propietario del informe en sustitución de *report-owner-tenant-id*.
+Para insertar con un invitado, use la dirección URL - `https://login.microsoftonline.com/report-owner-tenant-id` -, donde se agrega el id. de inquilino del propietario del informe en sustitución de *report-owner-tenant-id* .
 
 ### <a name="run-the-application"></a>Ejecutar la aplicación
 
-1. Seleccione **Ejecutar** en **Visual Studio**.
+1. Seleccione **Ejecutar** en **Visual Studio** .
 
     ![Ejecutar la aplicación](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-2. Luego seleccione **Insertar informe**. En función del contenido con el que desee realizar las pruebas, es decir, informes, paneles o iconos, seleccione la opción correspondiente en la aplicación.
+2. Luego seleccione **Insertar informe** . En función del contenido con el que desee realizar las pruebas, es decir, informes, paneles o iconos, seleccione la opción correspondiente en la aplicación.
 
     ![Selección de contenido](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
@@ -375,13 +375,13 @@ function updateEmbedReport() {
 }
 ```
 
-## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Uso de una capacidad dedicada de Power BI Premium
+## <a name="using-a-power-bi-premium-capacity"></a>Uso de una capacidad de Power BI Premium
 
-Ahora que ya ha terminado de desarrollar la aplicación, es el momento de proporcionar una capacidad dedicada al área de trabajo.
+Ahora que ya ha terminado de desarrollar la aplicación, es el momento de proporcionar una capacidad al área de trabajo.
 
-### <a name="create-a-dedicated-capacity"></a>Crear una capacidad dedicada
+### <a name="create-a-capacity"></a>Creación de una capacidad
 
-Al crear una capacidad dedicada, puede aprovechar las ventajas de disponer de un recurso dedicado para el contenido del área de trabajo. En el caso de los informes paginados, debe asignar al área de trabajo al menos una capacidad P1. Puede crear una capacidad dedicada mediante [Power BI Premium](../../admin/service-premium-what-is.md).
+Al crear una capacidad, puede aprovechar las ventajas de disponer de un recurso para el contenido del área de trabajo. En el caso de los informes paginados, debe asignar al área de trabajo al menos una capacidad P1. Puede crear una capacidad mediante [Power BI Premium](../../admin/service-premium-what-is.md).
 
 En la tabla siguiente se enumeran las SKU de Power BI Premium disponibles en [Microsoft 365](../../admin/service-admin-premium-purchase.md):
 
@@ -400,19 +400,19 @@ En la tabla siguiente se enumeran las SKU de Power BI Premium disponibles en [M
 > - Cuando intente la inserción con aplicaciones de Microsoft Office, puede usar las SKU EM para acceder a contenido con una licencia gratuita de Power BI. Pero no puede acceder al contenido con una licencia gratuita de Power BI cuando se usa Powerbi.com o Power BI Mobile.
 > - Cuando intente realizar la inserción con aplicaciones de Microsoft Office mediante Powerbi.com o Power BI Mobile, puede acceder al contenido con una licencia gratuita de Power BI.
 
-### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Asignación de un área de trabajo a una capacidad dedicada
+### <a name="assign-a-workspace-to-a-capacity"></a>Asignación de un área de trabajo a una capacidad
 
-Después de crear una capacidad dedicada, puede asignar el área de trabajo a esa capacidad dedicada. Para completar este proceso, siga estos pasos:
+Después de crear una capacidad, puede asignarla a su área de trabajo. Para completar este proceso, siga estos pasos:
 
-1. En el servicio Power BI, expanda las áreas de trabajo y haga clic en el botón de puntos suspensivos del área de trabajo en la que quiera insertar el contenido. A continuación, seleccione **Editar áreas de trabajo**.
+1. En el servicio Power BI, expanda las áreas de trabajo y haga clic en el botón de puntos suspensivos del área de trabajo en la que quiera insertar el contenido. A continuación, seleccione **Editar áreas de trabajo** .
 
     ![Edición de un área de trabajo](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. Expanda **Avanzadas** y habilite **Capacidad dedicada**. Seleccione la capacidad dedicada que ha creado. Luego seleccione **Guardar**.
+2. Expanda **Avanzado** y habilite **Capacidad** . Seleccione la capacidad que ha creado. Luego seleccione **Guardar** .
 
-    ![Asignación de una capacidad dedicada](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
+    ![Asignación de una capacidad](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. Después de seleccionar **Guardar**, debería ver un rombo junto al nombre del área de trabajo.
+3. Después de seleccionar **Guardar** , debería ver un rombo junto al nombre del área de trabajo.
 
     ![área de trabajo vinculada a una capacidad](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 

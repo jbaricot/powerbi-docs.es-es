@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2ae4223a6e156be3907bcad980df9446dbb64127
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c94990f3126191cf568c2cc20fb5db0c954a6424
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234641"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049462"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizaciones en informes de Power BI
 
@@ -23,13 +23,13 @@ ms.locfileid: "85234641"
 
 Las visualizaciones (también conocidas como objetos visuales) muestran conclusiones que se han descubierto en los datos. Un informe de Power BI puede tener una sola página con un objeto visual o podría tener páginas enteras de objetos visuales. En el servicio Power BI, los objetos visuales se pueden [anclar desde los informes a los paneles](../create-reports/service-dashboard-pin-tile-from-report.md).
 
-Es importante distinguir entre *diseñadores* de informes y *consumidores* de informes.  Si es la persona que crea o modifica el informe, es un diseñador.  Los diseñadores tienen permisos de edición en el informe y el conjunto de datos subyacente. En Power BI Desktop, esto significa que puede abrir el conjunto de datos en la vista de datos y crear objetos visuales en la vista de informe. En el servicio Power BI, esto significa que puede abrir el conjunto de datos o el informe en el editor de informes en la [vista de edición](../consumer/end-user-reading-view.md). Si un informe o un panel se ha [compartido con usted](../consumer/end-user-shared-with-me.md), será un *consumidor* del informe. No solo podrá ver el informe y sus objetos visuales, sino también interactuar con ellos, pero no podrá realizar tantos cambios como un *diseñador*.
+Es importante distinguir entre *diseñadores* de informes y *consumidores* de informes.  Si es la persona que crea o modifica el informe, es un diseñador.  Los diseñadores tienen permisos de edición en el informe y el conjunto de datos subyacente. En Power BI Desktop, esto significa que puede abrir el conjunto de datos en la vista de datos y crear objetos visuales en la vista de informe. En el servicio Power BI, esto significa que puede abrir el conjunto de datos o el informe en el editor de informes en la [vista de edición](../consumer/end-user-reading-view.md). Si un informe o un panel se ha [compartido con usted](../consumer/end-user-shared-with-me.md), será un *consumidor* del informe. No solo podrá ver el informe y sus objetos visuales, sino también interactuar con ellos, pero no podrá realizar tantos cambios como un *diseñador* .
 
 Existen muchos tipos diferentes de objetos visuales disponibles directamente desde el panel Visualizaciones de Power BI.
 
 ![panel con iconos para cada tipo de visualización](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Hay más objetos visuales de Power BI disponibles en el [sitio de la comunidad de Microsoft AppSource](https://appsource.microsoft.com). En AppSource, puede examinar y [descargar](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [objetos visuales de Power BI](../developer/visuals/custom-visual-develop-tutorial.md) proporcionados por Microsoft y la comunidad.
+Hay más objetos visuales de Power BI disponibles en el [sitio de la comunidad de Microsoft AppSource](https://appsource.microsoft.com). En AppSource, puede examinar y [descargar](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) objetos visuales de Power BI proporcionados por Microsoft y la comunidad.
 
 Si no está familiarizado con Power BI o necesita ponerse al día, use los vínculos siguientes para aprender los conceptos básicos de las visualizaciones de Power BI.  También puede usar la tabla de contenido (en el lado izquierdo de este artículo) para buscar información todavía más útil.
 
@@ -39,7 +39,7 @@ Si no está familiarizado con Power BI o necesita ponerse al día, use los vínc
 
 ## <a name="upload-a-visualization-from-a-file-or-from-appsource"></a>Carga de una visualización desde un archivo o desde AppSource
 
-Agregue una visualización creada por usted mismo o que haya encontrado en el [sitio de la comunidad de Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). ¿Se siente creativo? Investigue el código fuente y use nuestras [herramientas de desarrollo](../developer/visuals/custom-visual-develop-tutorial.md) para crear un tipo de visualización y [compartirlo con la comunidad](../developer/visuals/office-store.md). Para más información sobre cómo desarrollar un objeto visual de Power BI, visite [Desarrollo de un objeto visual de Power BI](../developer/visuals/custom-visual-develop-tutorial.md).
+Agregue una visualización creada por usted mismo o que haya encontrado en el [sitio de la comunidad de Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). ¿Se siente creativo? Investigue el código fuente y use nuestras [herramientas de desarrollo](../developer/visuals/environment-setup.md) para crear un tipo de visualización y [compartirlo con la comunidad](../developer/visuals/office-store.md). Para más información sobre cómo desarrollar un objeto visual de Power BI, visite [Desarrollo de un objeto visual de Power BI](../developer/visuals/develop-circle-card.md).
 
 ## <a name="personalize-your-visualization-pane"></a>Personalización del panel de visualización
 
@@ -65,7 +65,7 @@ Si deja de usar un objeto visual de manera periódica, puede hacer clic con el b
 
 La restauración del panel de visualización solo se aplica a los objetos visuales predeterminados. Los objetos visuales que se agregaron al panel de visualización no se ven afectados y seguirán estando disponibles en el panel de visualización. Si quiere quitar los objetos visuales de AppSource o de archivo del panel de visualización, tendrá que hacerlo manualmente.
 
-Para restaurar el panel de visualización de forma predeterminada, haga clic en Más opciones y seleccione **Restaurar objetos visuales predeterminados**.
+Para restaurar el panel de visualización de forma predeterminada, haga clic en Más opciones y seleccione **Restaurar objetos visuales predeterminados** .
 
 ![Restauración del panel de visualización a los valores predeterminados](media/power-bi-report-visualizations/restore-default.png)
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f282db76417fb99f07d39bb9f684515dd1d312c0
-ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
+ms.openlocfilehash: 3ffc865a4be18b8fa11dda2d94bc2c8892fc3000
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88764983"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116532"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Actualización automática de páginas en Power BI
 
@@ -39,7 +39,7 @@ Este tipo de actualización permite actualizar los objetos visuales de una pági
 
 La actualización automática de páginas solo está disponible para [orígenes de DirectQuery](../connect-data/desktop-directquery-about.md), por lo que solo estará disponible cuando esté conectado a un origen de datos de DirectQuery. Esta restricción se aplica a los dos tipos de actualización automática de páginas.
 
-Para usar la actualización automática de páginas en Power BI Desktop, seleccione la página del informe para la que quiera habilitarla. En el panel **Visualizaciones**, seleccione el botón **Formato** (un rodillo de pintura) y busque la sección **Actualización de página** cerca de la parte inferior del panel.
+Para usar la actualización automática de páginas en Power BI Desktop, seleccione la página del informe para la que quiera habilitarla. En el panel **Visualizaciones** , seleccione el botón **Formato** (un rodillo de pintura) y busque la sección **Actualización de página** cerca de la parte inferior del panel.
 
 ![Ubicación de Actualización de página](media/desktop-automatic-page-refresh/automatic-page-refresh-01.png)
 
@@ -64,11 +64,11 @@ Al hacer clic en Mostrar detalles, Power BI proporcionará más información so
 
 ### <a name="change-detection-setup"></a>Configuración de detección de cambios
 
-Al seleccionar **Detección de cambios** como el tipo de actualización, aparecerá un vínculo a **Agregar detección de cambios**. También puede acceder a la ventana **Detección de cambios** desde la pestaña Modelado de la cinta. Después, haga clic en el icono **Detección de cambios** de la sección **Actualización de página**. Por último, puede hacer clic con el botón derecho o seleccionar la flecha desplegable situada junto a cualquier valor del área Valores y seleccionar **Detección de cambios** en el menú.
+Al seleccionar **Detección de cambios** como el tipo de actualización, aparecerá un vínculo a **Agregar detección de cambios** . También puede acceder a la ventana **Detección de cambios** desde la pestaña Modelado de la cinta. Después, haga clic en el icono **Detección de cambios** de la sección **Actualización de página** . Por último, puede hacer clic con el botón derecho o seleccionar la flecha desplegable situada junto a cualquier valor del área Valores y seleccionar **Detección de cambios** en el menú.
 
 ![Tarjeta Detección de cambios](media/desktop-automatic-page-refresh/automatic-page-refresh-03.png)
 
-Una vez que se ha abierto la ventana, se ve la opción **Tipo de medida**, donde puede seleccionar una medida existente o crear una desde cero. Si selecciona una existente, solo tiene que seleccionar la medida deseada en la lista de campos, o bien arrastrarla y colocarla en la sección **Elegir medida existente**. Al crear una medida, puede **Elegir un cálculo** para la medida entre count, count distinct, minimum, maximum y sum. Por ejemplo, puede usar count distinct para contar los Id. de cliente y solo actualizar cuando se agrega un cliente nuevo a la lista. Una vez que haya seleccionado una medida, tendrá que definir la frecuencia con la que Power BI **comprobará los cambios**. Es el intervalo de la frecuencia con la que Power BI calculará la medida y sondeará los cambios. Una vez que haga clic en aplicar, aparecerá una nueva medida con el icono de detección de cambios en la lista de campos.
+Una vez que se ha abierto la ventana, se ve la opción **Tipo de medida** , donde puede seleccionar una medida existente o crear una desde cero. Si selecciona una existente, solo tiene que seleccionar la medida deseada en la lista de campos, o bien arrastrarla y colocarla en la sección **Elegir medida existente** . Al crear una medida, puede **Elegir un cálculo** para la medida entre count, count distinct, minimum, maximum y sum. Por ejemplo, puede usar count distinct para contar los Id. de cliente y solo actualizar cuando se agrega un cliente nuevo a la lista. Una vez que haya seleccionado una medida, tendrá que definir la frecuencia con la que Power BI **comprobará los cambios** . Es el intervalo de la frecuencia con la que Power BI calculará la medida y sondeará los cambios. Una vez que haga clic en aplicar, aparecerá una nueva medida con el icono de detección de cambios en la lista de campos.
 
 ![Ventana Detección de cambios](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
@@ -125,9 +125,9 @@ En el caso del tipo de actualización Detección de cambios, se aplican estas co
 
 En el mismo escenario descrito antes:
 
-- **Una consulta de medida de detección de cambios para cinco objetos visuales solo genera una consulta para cualquier número de usuarios**.
+- **Una consulta de medida de detección de cambios para cinco objetos visuales solo genera una consulta para cualquier número de usuarios** .
 
-- **En el mismo escenario anterior con 5 objetos visuales x 10 usuarios, cuando la medida de detección de cambios desencadena una actualización, se generan aproximadamente 50 consultas**.
+- **En el mismo escenario anterior con 5 objetos visuales x 10 usuarios, cuando la medida de detección de cambios desencadena una actualización, se generan aproximadamente 50 consultas** .
 
 En resumen, cuando se usa la detección de cambios, solo se envía una consulta al origen de datos hasta que se detecta un cambio. Cuando esto sucede, la misma lógica que se usa para el tipo de actualización de intervalo fijo se aplica a la actualización de todos los objetos visuales para todos los usuarios mediante la generación del mismo número de consultas. Este enfoque debe ser más eficaz a largo plazo.
 
@@ -166,21 +166,21 @@ Para aclarar cómo funcionan estas restricciones, comencemos con algunos concept
 
 *Las capacidades* son un concepto importante de Power BI. Representan un conjunto de recursos (almacenamiento, procesador y memoria) que se usan para hospedar y facilitar contenido de Power BI. Las capacidades son compartidas o dedicadas. Una *capacidad compartida* se comparte con otros clientes de Microsoft. Una *capacidad dedicada* está totalmente comprometida con un solo cliente. Para ver una introducción a las capacidades dedicadas, consulte [Administración de las capacidades Premium](../admin/service-premium-capacity-manage.md).
 
-En la capacidad compartida, las cargas de trabajo se ejecutan en recursos informáticos compartidos con otros clientes. Como la capacidad debe compartir recursos, se imponen ciertas limitaciones para garantizar un *juego limpio*, como establecer un tamaño de modelo máximo (1 GB) y una frecuencia de actualización diaria máxima (ocho veces al día).
+En la capacidad compartida, las cargas de trabajo se ejecutan en recursos informáticos compartidos con otros clientes. Como la capacidad debe compartir recursos, se imponen ciertas limitaciones para garantizar un *juego limpio* , como establecer un tamaño de modelo máximo (1 GB) y una frecuencia de actualización diaria máxima (ocho veces al día).
 
-Las *áreas de trabajo* de Power BI residen dentro de las capacidades. Representan contenedores de seguridad, colaboración e implementación. Cada usuario de Power BI tiene un área de trabajo personal que se conoce como **Mi área de trabajo**. Pueden crearse áreas de trabajo adicionales para posibilitar la colaboración y la implementación. Se conocen como *áreas de trabajo*. Las áreas de trabajo, incluidas las personales, se crean de forma predeterminada en la capacidad compartida.
+Las *áreas de trabajo* de Power BI residen dentro de las capacidades. Representan contenedores de seguridad, colaboración e implementación. Cada usuario de Power BI tiene un área de trabajo personal que se conoce como **Mi área de trabajo** . Pueden crearse áreas de trabajo adicionales para posibilitar la colaboración y la implementación. Se conocen como *áreas de trabajo* . Las áreas de trabajo, incluidas las personales, se crean de forma predeterminada en la capacidad compartida.
 
 Estos son algunos detalles de estos dos escenarios de área de trabajo:
 
-**Áreas de trabajo compartidas**. En las áreas de trabajo normales (aquellas que no forman parte de una capacidad Premium), la actualización automática de páginas tiene un intervalo mínimo de 30 minutos (que es el mínimo permitido). El tipo de actualización Detección de cambios no está disponible en capacidades compartidas.
+**Áreas de trabajo compartidas** . En las áreas de trabajo normales (aquellas que no forman parte de una capacidad Premium), la actualización automática de páginas tiene un intervalo mínimo de 30 minutos (que es el mínimo permitido). El tipo de actualización Detección de cambios no está disponible en capacidades compartidas.
 
-**Áreas de trabajo Premium**. La disponibilidad de la actualización automática de páginas en áreas de trabajo Premium (para los tipos de intervalo fijo y detección de cambios) depende de la configuración de la carga de trabajo que el administrador de Premium haya configurado para la capacidad Premium de Power BI. Hay dos variables que pueden afectar a la posibilidad de configurar la actualización automática de páginas:
+**Áreas de trabajo Premium** . La disponibilidad de la actualización automática de páginas en áreas de trabajo Premium (para los tipos de intervalo fijo y detección de cambios) depende de la configuración de la carga de trabajo que el administrador de Premium haya configurado para la capacidad Premium de Power BI. Hay dos variables que pueden afectar a la posibilidad de configurar la actualización automática de páginas:
 
- - **Activación/desactivación de la característica**. Si el administrador de la capacidad ha deshabilitado la característica, no se podrá configurar ningún tipo de actualización de página en el informe publicado. El intervalo fijo y la detección de cambios se pueden activar y desactivar de forma independiente.
+ - **Activación/desactivación de la característica** . Si el administrador de la capacidad ha deshabilitado la característica, no se podrá configurar ningún tipo de actualización de página en el informe publicado. El intervalo fijo y la detección de cambios se pueden activar y desactivar de forma independiente.
 
- - **Intervalo de actualización mínimo**. Al habilitar la actualización automática de páginas para un intervalo fijo, el administrador de capacidad debe configurar un intervalo de actualización mínimo (el valor predeterminado es de cinco minutos). Si su intervalo es inferior al mínimo, el servicio Power BI lo invalida para respetar el intervalo mínimo establecido por el administrador de la capacidad.
+ - **Intervalo de actualización mínimo** . Al habilitar la actualización automática de páginas para un intervalo fijo, el administrador de capacidad debe configurar un intervalo de actualización mínimo (el valor predeterminado es de cinco minutos). Si su intervalo es inferior al mínimo, el servicio Power BI lo invalida para respetar el intervalo mínimo establecido por el administrador de la capacidad.
 
- - **Intervalo de ejecución mínimo**. Al habilitar la detección de cambios, el administrador de capacidad debe configurar un intervalo de actualización mínimo (el valor predeterminado es de cinco segundos). Si su intervalo es inferior al mínimo, el servicio Power BI lo invalida para respetar el intervalo mínimo establecido por el administrador de la capacidad.
+ - **Intervalo de ejecución mínimo** . Al habilitar la detección de cambios, el administrador de capacidad debe configurar un intervalo de actualización mínimo (el valor predeterminado es de cinco segundos). Si su intervalo es inferior al mínimo, el servicio Power BI lo invalida para respetar el intervalo mínimo establecido por el administrador de la capacidad.
 
 ![Configuración de Actualización de páginas automática en el portal de administración de la capacidad](media/desktop-automatic-page-refresh/automatic-page-refresh-09.png)
 
@@ -188,15 +188,18 @@ En la tabla siguiente se describe con más detalle dónde está disponible esta 
 
 | Modo de almacenamiento | Capacidad dedicada | Capacidad compartida |
 | --- | --- | --- |
-| DirectQuery | **Admite IF**: Sí <br>**Admite DC**: Sí <br>**Mínimo**: 1 segundo <br>**Invalidación del administrador**: Sí | **Admite IF**: Sí <br>**Admite DC**: No <br>**Mínimo**: 30 minutos <br>**Invalidación del administrador**: No |
-| Importar | **Admite IF**: No <br>**Admite DC**: No <br>**Mínimo**: N/D <br>**Invalidación del administrador**: N/D | **Admite IF**: No <br>**Admite DC**: No <br>**Mínimo**: N/D <br>**Invalidación del administrador**: N/D |
-| Modo mixto (DirectQuery y otros orígenes de datos) | **Admite IF**: Sí <br>**Admite DC**: Sí <br>**Mínimo**: 1 segundo <br>**Invalidación del administrador**: Sí | **Admite IF**: Sí <br>**Admite DC**: No <br>**Mínimo**: 30 minutos <br>**Invalidación del administrador**: No |
-| Live Connect AS | **Admite IF**: No <br>**Admite DC**: No <br>**Mínimo**: N/D <br>**Invalidación del administrador**: N/D | **Admite IF**: No <br>**Admite DC**: No <br>**Mínimo**: N/D <br>**Invalidación del administrador**: N/D |
-| Live Connect PBI | **Admite IF**: No <br>**Admite DC**: No <br>**Mínimo**: N/D <br>**Invalidación del administrador**: N/D | **Admite IF**: No <br>**Admite DC**: No <br>**Mínimo**: N/D <br>**Invalidación del administrador**: N/D |
+| DirectQuery | **Admite IF** : Sí <br>**Admite DC** : Sí <br>**Mínimo** : 1 segundo <br>**Invalidación del administrador** : Sí | **Admite IF** : Sí <br>**Admite DC** : No <br>**Mínimo** : 30 minutos <br>**Invalidación del administrador** : No |
+| Importar | **Admite IF** : No <br>**Admite DC** : No <br>**Mínimo** : N/D <br>**Invalidación del administrador** : N/D | **Admite IF** : No <br>**Admite DC** : No <br>**Mínimo** : N/D <br>**Invalidación del administrador** : N/D |
+| Modo mixto (DirectQuery y otros orígenes de datos) | **Admite IF** : Sí <br>**Admite DC** : Sí <br>**Mínimo** : 1 segundo <br>**Invalidación del administrador** : Sí | **Admite IF** : Sí <br>**Admite DC** : No <br>**Mínimo** : 30 minutos <br>**Invalidación del administrador** : No |
+| Live Connect AS | **Admite IF** : No <br>**Admite DC** : No <br>**Mínimo** : N/D <br>**Invalidación del administrador** : N/D | **Admite IF** : No <br>**Admite DC** : No <br>**Mínimo** : N/D <br>**Invalidación del administrador** : N/D |
+| Live Connect PBI | **Admite IF** : No <br>**Admite DC** : No <br>**Mínimo** : N/D <br>**Invalidación del administrador** : N/D | **Admite IF** : No <br>**Admite DC** : No <br>**Mínimo** : N/D <br>**Invalidación del administrador** : N/D |
 
 *Leyenda de la tabla:*
 1. *IF: Intervalo fijo*
 2. *DC: Detección de cambios*
+
+> [!WARNING]
+> Cuando se habilita en el conjunto de datos, la medida de detección de cambios abrirá una conexión con el origen de datos de DirectQuery para calcular la medida y sondear los cambios. Esta conexión es diferente de las conexiones de actualización de prioridad baja que ya realiza Power BI.
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
@@ -219,8 +222,8 @@ Para evitar una carga innecesaria en los orígenes de datos, Power BI cuenta co
 
 Hay dos áreas en las que todavía podrían producirse cuellos de botella de rendimiento:
 
-1. **La capacidad**. La consulta llega en primer lugar a la capacidad Premium, que evaluará la consulta DAX generada a partir de las visualizaciones de informes en las consultas de origen.
-2. **Origen de datos de DirectQuery**. las consultas convertidas en el paso anterior se ejecutan en el origen, El origen serían las instancias de SQL Server, los orígenes de SAP Hana, etc.
+1. **La capacidad** . La consulta llega en primer lugar a la capacidad Premium, que evaluará la consulta DAX generada a partir de las visualizaciones de informes en las consultas de origen.
+2. **Origen de datos de DirectQuery** . las consultas convertidas en el paso anterior se ejecutan en el origen, El origen serían las instancias de SQL Server, los orígenes de SAP Hana, etc.
 
 El uso de la [aplicación Premium Capacity Metrics](../admin/service-admin-premium-monitor-capacity.md), disponible para los administradores, permite visualizar cuánta capacidad usan las consultas con una prioridad baja.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: c8cf0f4e896b8a44764d1c363c597182f55d30b3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1e5a4cf8c80d8123d39fd2ab76898abc0c439ad9
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276522"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049393"
 ---
 # <a name="use-the-supportskeyboardfocus-feature"></a>Uso de la característica supportsKeyboardFocus
 
@@ -52,4 +52,4 @@ Esta funcionalidad permite al objeto visual recibir el foco con la navegación m
 
 Para más información sobre las características de accesibilidad, consulte [Diseño de informes accesibles de Power BI](../../create-reports/desktop-accessibility-creating-reports.md).
 
-Para probar el desarrollo de Power BI, consulte [Desarrollar un objeto visual de Power BI](custom-visual-develop-tutorial.md).
+Para probar el desarrollo de Power BI, consulte [Desarrollo de un objeto visual Circle Card de Power BI](develop-circle-card.md).

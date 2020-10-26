@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a36c377a7faf82e6aeb544859b72ac973305a3b3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 0f4b84067389e93de0e5c5c2b5008b08cd78151f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860173"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525211"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
-Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI**. Para obtener información sobre novedades, vea:
+Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI** . Para obtener información sobre novedades, vea:
 
 - Notas de la versión [Resumen de novedades de Business Intelligence](/business-applications-release-notes/October18/intelligence-platform/planned-features) de octubre de 2018 del grupo Microsoft Business Applications: actualizaciones más recientes de nuestras aplicaciones empresariales.
 - [Novedades de Power BI Desktop](desktop-latest-update.md)  
@@ -80,7 +80,7 @@ Asimismo, para obtener información sobre las novedades y características, cons
 * Envío de notificaciones de actualización a otros usuarios.
 * [Herramienta de prueba](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) de las capacidades de Power BI Premium.
 * Versión preliminar pública de las [notificaciones de disponibilidad del servicio](https://powerbi.microsoft.com/blog/power-bi-introduces-service-availability-notifications/).
-* Versión preliminar pública del [nuevo aspecto](https://powerbi.microsoft.com/blog/introducing-the-new-look-for-power-bi-service/) de los informes de Power BI.
+* Versión preliminar pública del [nuevo aspecto](https://powerbi.microsoft.com/blog/introducing-the-new-look-of-workspaces-in-the-power-bi-service/) de los informes de Power BI.
 * Nueva región de Power BI en Sudáfrica.
 
 ### <a name="june-2019"></a>Junio de 2019
@@ -312,7 +312,7 @@ Para obtener todos los detalles, [visite el blog del equipo de Power BI](https:/
 
 ***Seguridad de nivel de fila (RLS)***
 
-* Compatibilidad con grupos de Azure Active Directory (AAD): los usuarios ahora pueden asignar grupos de AAD (grupos de seguridad y listas de distribución) a un rol. Esto facilita asignar roles a un grupo grande de usuarios a la vez.
+* Compatibilidad con grupos de Azure Active Directory (Azure AD): Los usuarios ahora pueden asignar un rol a los grupos de Azure AD (grupos de seguridad). Esto facilita asignar roles a un grupo grande de usuarios a la vez.
 * [Pruebe los roles de RLS con informes respaldados por los datos con RLS en vigor](../admin/service-admin-rls.md#validate-the-roles-within-power-bi-desktop): hemos agregado una característica a la versión preliminar de RLS que le permite probar el conjunto de datos como un rol específico. Esto asegurará que el rol funciona como esperaba antes de que los usuarios usen el panel.
 * Defina y aplique RLS a modelos en la nube basados en consultas directas: ahora puede crear y aplicar reglas RLS para orígenes de datos de consulta directa.
 
@@ -646,7 +646,7 @@ Eche un vistazo al [blog](https://powerbi.microsoft.com/blog/power-bi-service-we
 * Con la actualización de servicio de esta semana, al crear informes, ahora puede elegir entre varios tamaños de página, así como definir un tamaño de página propio. Esta opción controla el tamaño y la relación de aspecto de cada página del informe.
 * Hemos agregado soporte de formato visual adicional para imágenes y gráficos de burbujas. Puede bloquear el aspecto al cambiar el tamaño de las imágenes para evitar la distorsión de la imagen y las burbujas de los gráficos de dispersión pueden configurarse para rellenarse o no.
 * Hoy, Power BI enviará invitaciones para compartir a una dirección de correo electrónico alternativa. Cuando un panel se comparta con usted, se enviará el vínculo de la invitación para compartir a su dirección de correo electrónico original y a su dirección de correo electrónico alternativa (si la tiene configurada).
-* Power BI está disponible para todos los clientes, incluidos los de la arquitectura DonMT (Dedicated on Multitenant) Microsoft 365. Power BI se usará como un servicio compartido en el modo multiinquilino. En la mayoría de los casos, puede registrarse en Power BI mediante un sencillo [proceso de suscripción de autoservicio](https://powerbi.microsoft.com/): solo tiene que escribir su dirección de correo electrónico del trabajo, su nombre y contraseña para empezar. Si usted es el administrador de inquilinos, puede asignar licencias a los usuarios mediante las instrucciones que se incluyen [aquí](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
+* Power BI está disponible para todos los clientes, incluidos los de la arquitectura DonMT (Dedicated on Multitenant) Microsoft 365. Power BI se usará como un servicio compartido en el modo multiinquilino. En la mayoría de los casos, puede registrarse en Power BI mediante un sencillo [proceso de suscripción de autoservicio](https://powerbi.microsoft.com/): solo tiene que escribir su dirección de correo electrónico del trabajo, su nombre y contraseña para empezar. Si usted es el administrador de licencias, puede asignar licencias a los usuarios mediante las instrucciones que se incluyen [aquí](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
 * La opción Registros de auditoría de Azure le permite ver registros operativos de plano de control en su suscripción de Azure. El paquete de contenido Registros de auditoría de Azure de Power BI puede ayudarle a analizar y visualizar fácilmente la gran cantidad de información que incluyen estos registros. El paquete de contenido le permite conectarse a los datos y comenzar a descubrir información con el panel y los informes integrados. Lea el [blog](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/) y la [documentación en línea](../connect-data/service-connect-to-services.md) para obtener más información.
 
 [Más información en nuestro blog](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/).
@@ -747,7 +747,7 @@ Eche un vistazo al [blog](https://powerbi.microsoft.com/blog/power-bi-service-we
 
 **13 de mayo de 2015**
 
-* Puede conectarse directamente a los datos almacenados en su instancia de **Azure SQL Database**. Generamos las consultas de forma dinámica y las enviamos al origen, lo que le permitirá crear informes interactivos directamente a través de la base de datos. Puede leer la [entrada de blog](https://powerbi.microsoft.com/blog/using-power-bi-to-visualize-and-explore-azure-sql-databases/) y la [documentación](../connect-data/service-azure-sql-database-with-direct-connect.md) para obtener más información.
+* Puede conectarse directamente a los datos almacenados en su instancia de **Azure SQL Database** . Generamos las consultas de forma dinámica y las enviamos al origen, lo que le permitirá crear informes interactivos directamente a través de la base de datos. Puede leer la [entrada de blog](https://powerbi.microsoft.com/blog/using-power-bi-to-visualize-and-explore-azure-sql-databases/) y la [documentación](../connect-data/service-azure-sql-database-with-direct-connect.md) para obtener más información.
 
 **7 de mayo de 2015**
 
@@ -755,7 +755,7 @@ Eche un vistazo al [blog](https://powerbi.microsoft.com/blog/power-bi-service-we
 
 **28 de abril de 2015**
 
-* Power BI ahora está disponible en **44 idiomas**. Lea nuestra [entrada de blog](https://powerbi.microsoft.com/blog/power-bi-preview-now-available-in-your-language/) para ver la lista completa.
+* Power BI ahora está disponible en **44 idiomas** . Lea nuestra [entrada de blog](https://powerbi.microsoft.com/blog/power-bi-preview-now-available-in-your-language/) para ver la lista completa.
 
 **23 de abril de 2015**
 
@@ -764,14 +764,14 @@ Eche un vistazo al [blog](https://powerbi.microsoft.com/blog/power-bi-service-we
 **15 de abril de 2015**
 
 * Ahora puede visualizar y explorar sus datos de **Google Analytics** con nuestro nuevo paquete de contenido. Con el paquete de contenido de Google Analytics obtendrá un panel, un informe y un conjunto de datos que le permitirán obtener información sobre el uso de su sitio en los últimos seis meses. Puede leer [nuestra entrada de blog](https://powerbi.microsoft.com/blog/visualize-and-explore-your-google-analytics-data-with-power-bi/).
-* Ahora puede **anclar todas las tarjetas**, excepto las que contienen KPI e imágenes de Preguntas y respuestas e informes.
-* Ahora puede **usar tarjetas en Preguntas y respuestas**. Para ello, incluya la frase 'como tarjeta' al final de la consulta.
+* Ahora puede **anclar todas las tarjetas** , excepto las que contienen KPI e imágenes de Preguntas y respuestas e informes.
+* Ahora puede **usar tarjetas en Preguntas y respuestas** . Para ello, incluya la frase 'como tarjeta' al final de la consulta.
 
 **31 de marzo de 2015**
 
 * Los paneles de **GitHub** tienen nuevos objetos visuales que se centran en la creación de comunidades, y en los cálculos y el diseño mejorado.
 * Se han renovado los objetos visuales y el diseño de los paneles de **SendGrid** para que resulte más fácil encontrar la información.
-* Ahora puede usar **gráficos de rectángulos en Preguntas y respuestas**. Para ello, incluya la frase "como gráfico de rectángulos" al final de la consulta.
+* Ahora puede usar **gráficos de rectángulos en Preguntas y respuestas** . Para ello, incluya la frase "como gráfico de rectángulos" al final de la consulta.
 * Ahora puede **anclar gráficos de rectángulos** de Preguntas y respuestas e informes. 
 * Y muchas correcciones más.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 9158dfccecd42d13a133a49097b2f85cb3713f00
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 23f58c047eeb47fce24ad38ae54d8f4d7a1c57e7
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746755"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983054"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Planeamiento de la capacidad de análisis insertado de Power BI
 
@@ -27,11 +27,11 @@ Algunos de los aspectos que se deben tener en cuenta a la hora de planear la cap
 * Frecuencias de actualización de datos
 * Patrones de uso adicionales que son difíciles de predecir.
 
-Este artículo está diseñado para facilitar el planeamiento de la capacidad para análisis insertados de Power BI con la introducción de la [herramienta de evaluación de la carga de capacidad dedicada de Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/). Esta herramienta se crea para automatizar las pruebas de carga para las capacidades de análisis insertado de Power BI (*A*, *EM* o *SKU*).
+Este artículo está diseñado para facilitar el planeamiento de la capacidad para el análisis insertado de Power BI con la introducción de la [herramienta de evaluación de la carga de capacidad de Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/). Esta herramienta se ha creado para automatizar la prueba de carga de las capacidades de análisis insertado de Power BI (SKU *A* , *EM* o *P* ).
 
 ## <a name="planning-tool"></a>Herramienta de planeamiento
 
- La [herramienta de evaluación de la carga de capacidad dedicada de Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/) puede ayudarle a comprender la cantidad de carga de usuarios que puede administrar la capacidad. Emplea PowerShell para crear pruebas de carga automatizadas para las capacidades, y le permite elegir qué informes probar y cuántos usuarios simultáneos simular.
+ La [herramienta de evaluación de la carga de capacidad de Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/) puede ayudarle a comprender la cantidad de carga de usuarios que puede administrar la capacidad. Emplea PowerShell para crear pruebas de carga automatizadas para las capacidades, y le permite elegir qué informes probar y cuántos usuarios simultáneos simular.
 
 La herramienta genera carga en una capacidad mediante la representación continua de cada informe con nuevos valores de filtro (para evitar un rendimiento falsamente bueno debido al almacenamiento en caché de informes), hasta que expire el token necesario para autenticar la herramienta en el servicio.
 
@@ -52,7 +52,7 @@ Estos son algunos ejemplos de cómo puede usar la herramienta de planeamiento.
 Para ver los efectos de la prueba de carga en la aplicación de métricas después de que se ejecute la prueba, siga las instrucciones que se indican a continuación. Puede esperar un retraso de hasta 15 minutos desde el momento en que la prueba comienza a generar la carga, hasta el momento en que la carga es visible en las métricas.
 
 1. Expanda la pestaña **Conjuntos de datos** de la página de inicio de la [aplicación de métricas](../../admin/service-admin-premium-monitor-capacity.md).
-2. Inicie una actualización a petición haciendo clic en **Actualizar ahora**. Los administradores deben hacerlo.
+2. Inicie una actualización a petición haciendo clic en **Actualizar ahora** . Los administradores deben hacerlo.
 
     ![Métricas de capacidad de Power BI Premium](media/embedded-capacity-planning/embedded-capacity-planning.png)
 

@@ -1,20 +1,20 @@
 ---
-title: Personalización de objetos visuales en un informe (versión preliminar)
+title: Personalización de objetos visuales en un informe
 description: Cree su propia vista de un informe, sin modificarlo.
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 10/13/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc682e867b65ba9da2b2eee87f52d7fd5d0961c
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 718363da3bd1f66de199db8d854d8d23d6de3eb5
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528143"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256778"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Personalización de objetos visuales en un informe
 
@@ -22,7 +22,7 @@ ms.locfileid: "91528143"
 
 Es difícil crear un solo objeto visual que satisfaga los requisitos de todos. Sin embargo, cuando un colega comparte un informe con usted, puede que desee realizar cambios en los objetos visuales, y no tener que pedirle que realice los cambios. 
 
-Es posible que quiera cambiar lo que hay en el eje, modificar el tipo de objeto visual o agregar algo a la información sobre herramientas. Con la característica **Personalizar este objeto visual**, realice los cambios y, cuando tenga el objeto visual de la forma que desee, guárdelo como un [marcador](end-user-bookmarks.md) para tenerlo bien a mano. Ni siquiera necesita permiso de edición para el informe.
+Es posible que quiera cambiar lo que hay en el eje, modificar el tipo de objeto visual o agregar algo a la información sobre herramientas. Con la característica **Personalizar este objeto visual** , realice los cambios y, cuando tenga el objeto visual de la forma que desee, guárdelo como un [marcador](end-user-bookmarks.md) para tenerlo bien a mano. Ni siquiera necesita permiso de edición para el informe.
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize.png" alt-text="Personalizar un objeto visual":::
  
@@ -45,7 +45,7 @@ Esta característica no solo incorpora nuevas funcionalidades de exploración, s
 - Borrar los cambios recientes
 
 > [!IMPORTANT]
-> La capacidad de personalizar un objeto visual es una característica en versión preliminar que debe habilitar el *diseñador* del informe. Si no ve el icono **Personalizar este objeto visual** ![Personalize this visual icon](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png), el diseñador de informes no ha habilitado esta característica para el informe actual. 
+> La capacidad de personalizar un objeto visual debe habilitarla el *diseñador* del informe. Si no ve el icono **Personalizar este objeto visual** ![Personalize this visual icon](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png), el diseñador de informes no ha habilitado esta característica para el informe actual. Compruebe con el propietario del informe o con el administrador de Power BI que tiene habilitada la característica. Para mostrar la información de contacto del propietario del informe, seleccione el nombre del informe en la barra de menús de Power BI.
 
 ## <a name="personalize-visuals-in-the-power-bi-service"></a>Personalizar objetos visuales en el servicio Power BI
 
@@ -55,11 +55,9 @@ Al personalizar un objeto visual, puede explorar los datos de muchas maneras sin
 
 2. En la barra de menús del objeto visual, seleccione el icono de **Personalizar este objeto visual** ![icono de Personalizar este objeto visual](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png). 
 
-3. Para borrar cualquiera de los campos **Personalizar**, seleccione **Más opciones (...)** y elija **Quitar campo**.
-
 ### <a name="change-the-visualization-type"></a>Cambiar el tipo de visualización
 
-¿Cree que los datos se mostrarían mejor como un gráfico de columnas apiladas? Cambie el **tipo de visualización**.
+¿Cree que los datos se mostrarían mejor como un gráfico de columnas apiladas? Cambie el **tipo de visualización** .
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="Personalizar un objeto visual":::
  
@@ -73,13 +71,23 @@ Al agregar una leyenda, puede codificar por colores un objeto visual según una 
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="Personalizar un objeto visual":::
 
+### <a name="change-the-placement-of-fields"></a>Cambio de la ubicación de los campos
+
+Al arrastrar y colocar, puede cambiar la posición de los campos dentro de la misma propiedad del objeto visual o incluso en distintas propiedades de objetos visuales. Por ejemplo, puede mover rápidamente un campo en la leyenda al eje de un objeto visual.
+
+:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="Personalizar un objeto visual":::
+
+También puede cambiar rápidamente el orden de las columnas de una tabla o matriz.
+
+:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="Personalizar un objeto visual":::
+
 ### <a name="compare-two-or-more-different-measures"></a>Comparar dos o más medidas diferentes
-Compare y contraste los valores de distintas medidas mediante el icono + para agregar varias medidas para un objeto visual. Para quitar una medida, seleccione **Más opciones (...)** y elija **Quitar campo**.
+Compare y contraste los valores de distintas medidas mediante el icono + para agregar varias medidas para un objeto visual. Para quitar una medida, seleccione **Más opciones (...)** y elija **Quitar campo** .
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="Personalizar un objeto visual":::
 
 ### <a name="change-aggregations"></a>Cambiar agregaciones
-Puede cambiar el modo en que se calcula una medida modificando la agregación en el panel **Personalizar**. Seleccione **Más opciones (...)** y elija la agregación que se va a usar.
+Puede cambiar el modo en que se calcula una medida modificando la agregación en el panel **Personalizar** . Seleccione **Más opciones (...)** y elija la agregación que se va a usar.
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="Personalizar un objeto visual":::
 
@@ -97,7 +105,7 @@ Si tiene permisos para leer y volver a compartir, cuando comparta el informe pod
  
 ### <a name="reset-all-your-changes-to-a-report"></a>Restablecer todos los cambios en un informe
 
-En la esquina superior derecha del lienzo del informe, seleccione **Restablecer valores predeterminados**. Esta acción quitará todos los cambios de dicho informe y lo restablecerá a la última vista que guardó el autor del informe.
+En la esquina superior derecha del lienzo del informe, seleccione **Restablecer valores predeterminados** . Esta acción quitará todos los cambios de dicho informe y lo restablecerá a la última vista que guardó el autor del informe.
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="Personalizar un objeto visual":::
  
@@ -109,11 +117,11 @@ En la barra de menús del objeto visual, seleccione **Restablecer este objeto vi
  
 ### <a name="clear-recent-changes"></a>Borrar cambios recientes
 
-Seleccione el icono de borrador para borrar todos los cambios recientes realizados desde que abrió el panel **Personalizar**.  
+Seleccione el icono de borrador para borrar todos los cambios recientes realizados desde que abrió el panel **Personalizar** .  
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Personalizar un objeto visual":::
 
-## <a name="limitations-and-known-issues"></a>Limitaciones y problemas conocidos
+## <a name="limitations"></a>Limitaciones
 
 Actualmente, la característica tiene algunas limitaciones que se deben tener en cuenta.
 
@@ -121,12 +129,6 @@ Actualmente, la característica tiene algunas limitaciones que se deben tener en
 - Las exploraciones de los usuarios no se conservan automáticamente. Debe guardar la vista como un marcador personal para capturar los cambios.
 - Esta característica se admite en las aplicaciones móviles de Power BI para tabletas iOS y Android, así como en su versión para Windows; no se admite en las aplicaciones móviles de Power BI para teléfonos. Pero cualquier cambio en un objeto visual que guarde en un marcador personal mientras se encuentre en el servicio Power BI se respetará en todas las aplicaciones móviles de Power BI.
 
-También hay algunos problemas conocidos que estamos tratando:
-
-- no se pueden agregar jerarquías; debe incorporar cada uno de los elementos secundarios.
-- Con los marcadores personales, podría obtener resultados ligeramente diferentes en función de la secuencia que seleccione. Las discrepancias son posibles porque no capturamos el estado completo del informe, sino solo las modificaciones realizadas. La solución consiste en seleccionar **Restablecer valores predeterminados** y luego seleccionar el marcador que quiere ver. 
-
 ## <a name="next-steps"></a>Pasos siguientes
 [Copiar un objeto visual del informe como una imagen estática](../visuals/power-bi-visualization-copy-paste.md)    
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
-

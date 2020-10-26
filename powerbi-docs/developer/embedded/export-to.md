@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 07/13/2020
-ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/01/2020
+ms.openlocfilehash: f997547bb61bf203f7806dbe68d45beb29c6538b
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746134"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116463"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportación de un informe de Power BI a un archivo (versión preliminar)
 
@@ -28,15 +28,15 @@ La API `exportToFile` permite exportar un informe de Power BI mediante una llama
 
 Puede usar la característica de exportación de varias maneras. Estos son algunos ejemplos:
 
-* **Botón Enviar para imprimir**: en la aplicación, cree un botón que, al hacer clic en él, desencadene un trabajo de exportación. El trabajo puede exportar el informe visto como archivo .pdf o .pptx, y cuando la operación se complete, el usuario puede recibir el archivo como una descarga. Mediante marcadores, puede exportar el informe en un estado específico, incluidos filtros configurados, segmentaciones y configuraciones adicionales. Como la API es asincrónica, el archivo puede tardar un tiempo en estar disponible.
+* **Botón Enviar para imprimir** : en la aplicación, cree un botón que, al hacer clic en él, desencadene un trabajo de exportación. El trabajo puede exportar el informe visto como archivo .pdf o .pptx, y cuando la operación se complete, el usuario puede recibir el archivo como una descarga. Mediante marcadores, puede exportar el informe en un estado específico, incluidos filtros configurados, segmentaciones y configuraciones adicionales. Como la API es asincrónica, el archivo puede tardar un tiempo en estar disponible.
 
-* **Datos adjuntos de correo electrónico**: envíe un correo electrónico automatizado a intervalos establecidos, con un informe .pdf adjunto. Este escenario puede ser útil si desea automatizar el envío de un informe semanal a los ejecutivos.
+* **Datos adjuntos de correo electrónico** : envíe un correo electrónico automatizado a intervalos establecidos, con un informe .pdf adjunto. Este escenario puede ser útil si desea automatizar el envío de un informe semanal a los ejecutivos.
 
 ## <a name="using-the-api"></a>Uso de la API
 
 Antes de usar la API, compruebe que las siguientes [configuraciones de inquilinos del administrador](../../admin/service-admin-portal.md#tenant-settings) estén habilitadas:
-* **Exportación de informes como presentaciones de PowerPoint o documentos PDF**: habilitada de forma predeterminada.
-* **Exportación de informes como archivos de imagen**: se requiere solo para *.png* y está deshabilitada de forma predeterminada.
+* **Exportación de informes como presentaciones de PowerPoint o documentos PDF** : habilitada de forma predeterminada.
+* **Exportación de informes como archivos de imagen** : se requiere solo para *.png* y está deshabilitada de forma predeterminada.
 
 La API es asincrónica. Cuando se llama a la API [exportToFile](/rest/api/power-bi/reports/exporttofile), se desencadena un trabajo de exportación. Después de activar un trabajo de exportación, use el [sondeo](/rest/api/power-bi/reports/getexporttofilestatus) para realizar un seguimiento del trabajo, hasta que se complete.
 
@@ -52,11 +52,18 @@ Especifique las páginas que desea imprimir conforme al valor devuelto de [Obten
 
 ### <a name="bookmarks"></a>Marcadores
 
- Puede usar la API `exportToFile` para exportar mediante programación un informe en un estado específico, después de aplicarle filtros. Esto se hace usando las funcionalidades de [Marcadores](../../consumer/end-user-bookmarks.md). Para exportar un informe mediante marcadores, use la [API de JavaScript de marcadores](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bookmarks).
+Los [marcadores](../../consumer/end-user-bookmarks.md) pueden usarse para guardar un informe en una configuración específica, incluidos los filtros aplicados y el estado de los objetos visuales del informe. Puede usar la API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) para exportar mediante programación el marcador de un informe de dos maneras:
 
- Por ejemplo, puede usar el método `capturedBookmark.state` del marcador para capturar los cambios que un usuario específico realizó en un informe y luego exportarlo en su estado actual.
+* **Exportar un marcador existente**
 
-Los [marcadores personales](../../consumer/end-user-bookmarks.md#personal-bookmarks) y los [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) no se admiten.
+    Para exportar un [marcador de informe](../../consumer/end-user-bookmarks.md#report-bookmarks) existente, use la propiedad `name`, un identificador único (con distinción entre mayúsculas y minúsculas) que puede obtener mediante la [API de JavaScript de los marcadores](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bookmarks).
+
+* **Exportar el estado del informe**
+
+    Para exportar el estado actual del informe, use la propiedad `state`. Por ejemplo, puede usar el método `bookmarksManager.capture` del marcador para capturar los cambios que un usuario específico realizó en un informe y luego exportarlo en su estado actual mediante `capturedBookmark.state`.
+
+>[!NOTE]
+>Los [marcadores personales](../../consumer/end-user-bookmarks.md#personal-bookmarks) y los [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) no se admiten.
 
 ### <a name="authentication"></a>Autenticación
 

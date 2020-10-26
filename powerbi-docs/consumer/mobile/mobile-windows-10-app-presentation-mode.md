@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 2a0c326902063759d10f49f3c5d745c22f477ec2
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: a47af4b96e80508a6ea21de2d8d3e0b40f907d8d
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634812"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92025942"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Visualización de informes y paneles en modo de presentación en Surface Hub y dispositivos Windows 10
 Use el modo de presentación para mostrar los informes y paneles en pantalla completa en dispositivos Windows 10 y Surface Hub. El modo de presentación es útil para mostrar Power BI en reuniones o conferencias, para visualizarlo en un proyector dedicado en la oficina o incluso para aprovechar al máximo el espacio de una pantalla pequeña.
@@ -46,7 +46,7 @@ En la barra de herramientas puede pulsar para realizar las acciones siguientes:
 |![Icono de restablecimiento](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-reset-icon.png)|**Restablecer la vista predeterminada** y borrar los filtros, las segmentaciones de datos o cualquier otro cambio que haya realizado en la vista de datos durante la presentación.|
 |![Icono de uso compartido](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png)|**Compartir** una imagen de la vista de presentación con sus compañeros. La imagen incluirá las anotaciones que haya realizado con el lápiz de Surface durante la presentación.|
 |![Icono Actualizar](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png)|**Actualizar** el informe.|
-|![Icono Reproducir](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png)|**Reproducir la presentación de diapositivas**, lo que oculta la barra de acciones e inicia la presentación de diapositivas. Un selector le permitirá elegir rotar automáticamente por las páginas, los marcadores o tanto las páginas como los marcadores. De forma predeterminada, la presentación de diapositivas rota automáticamente entre las páginas una vez cada 30 segundos. Puede cambiar esta configuración en [**Configuración > Opciones**](#slideshow-settings). Consulte [información más detallada](#slideshows) sobre las presentaciones|
+|![Icono Reproducir](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png)|**Reproducir la presentación de diapositivas** , lo que oculta la barra de acciones e inicia la presentación de diapositivas. Un selector le permitirá elegir rotar automáticamente por las páginas, los marcadores o tanto las páginas como los marcadores. De forma predeterminada, la presentación de diapositivas rota automáticamente entre las páginas una vez cada 30 segundos. Puede cambiar esta configuración en [**Configuración > Opciones**](#slideshow-settings). Consulte [información más detallada](#slideshows) sobre las presentaciones|
 |![Salir del modo de pantalla completa](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png)|**Salir** del modo de presentación.|
 |![Icono de búsqueda](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png)|**Buscar** otros artefactos en Power BI.|
 
@@ -56,7 +56,7 @@ Puede desacoplar la barra de herramientas y arrastrarla para colocarla en cualqu
 
 ## <a name="slideshows"></a>Presentaciones
 
-Puede reproducir una presentación para recorrer automáticamente la presentación. Puede establecer que la presentación recorra las páginas, los marcadores o ambos elementos.
+Puede reproducir una presentación para recorrer automáticamente la presentación. Puede establecer que la presentación recorra las páginas, los marcadores o ambos elementos. Durante la presentación de diapositivas, las páginas del informe con [actualización automática de páginas](../../create-reports/desktop-automatic-page-refresh.md) seguirán actualizándose automáticamente como están configuradas, lo que garantiza que siempre se muestren los datos más recientes.
 
 Cuando selecciona el botón **Reproducir** en la barra de herramientas de acciones, la presentación se inicia. Aparece un controlador que le permite pausar la presentación de diapositivas o cambiar lo que se está reproduciendo: páginas, marcadores, o bien páginas y marcadores.
 
@@ -73,7 +73,7 @@ Puede configurar la aplicación móvil de Power BI para que empiece a reproduci
 
 ### <a name="slideshow-settings"></a>Configuración de la presentación
 
-De forma predeterminada, una presentación solo recorre páginas, a una velocidad de una cada 30 segundos. Puede cambiar este comportamiento predeterminado en **Configuración > Opciones**, como se muestra a continuación. También puede activar la reproducción automática y elegir un informe para reproducirlo.
+De forma predeterminada, una presentación solo recorre páginas, a una velocidad de una cada 30 segundos. Puede cambiar este comportamiento predeterminado en **Configuración > Opciones** , como se muestra a continuación. También puede activar la reproducción automática y elegir un informe para reproducirlo.
 
 1. Seleccione el icono de configuración.
 
@@ -81,7 +81,7 @@ De forma predeterminada, una presentación solo recorre páginas, a una velocida
 
 1. Si quiere, cambie la configuración predeterminada del ciclo de la presentación (páginas, marcadores o ambos) y la frecuencia de transición de las diapositivas.
 
-1. Si quiere que el informe se empiece a reproducir automáticamente al iniciar la aplicación, active el control de alternancia y elija **Seleccionar Informe**. Podrá buscar informes a los que tenga acceso.
+1. Si quiere que el informe se empiece a reproducir automáticamente al iniciar la aplicación, active el control de alternancia y elija **Seleccionar Informe** . Podrá buscar informes a los que tenga acceso.
 
 ![Captura de pantalla de la configuración de la presentación](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-settings.png)
 

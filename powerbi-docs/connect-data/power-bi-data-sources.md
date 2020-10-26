@@ -6,140 +6,138 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/11/2020
+ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: 926569e783dad7a97b91e2e5c1752401d21d6612
-ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
+ms.openlocfilehash: 918b9a98d66a1c739421433d35f593dc74d19773
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90084062"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981490"
 ---
 # <a name="power-bi-data-sources"></a>Orígenes de datos de Power BI
 
 En la tabla siguiente se muestran los orígenes de datos que admite Power BI para los conjuntos de datos, incluida información sobre DirectQuery y la puerta de enlace de datos local. Para más información sobre los flujos de datos, consulte [Conectarse a orígenes de datos de flujos de datos de Power BI](../transform-model/service-dataflows-data-sources.md).
 
-| Origen de datos | Conexión desde el Escritorio | Conexión y actualización desde el servicio | DirectQuery/Conexiones dinámicas | Puerta de enlace (compatible) | Puerta de enlace (obligatoria) |
+| Origen de datos | Conexión desde el Escritorio | Conexión y actualización desde el servicio | DirectQuery/Conexiones dinámicas | Puerta de enlace (compatible) | Puerta de enlace (obligatoria) | Flujos de datos de Power BI |
 |---|---|---|---|---|---|---|---|
-| Base de datos Access | Sí | Sí | No | Sí <sup>1</sup> | Sí |
-| Active Directory | Sí | Sí | No | Sí | Sí |
-| Adobe Analytics | Sí | Sí | No | No | No |
-| Amazon Redshift | Sí | Sí | Sí | Sí | No |
-| appFigures | Sí | Sí | No | No | No |
-| Cubos de AtScale | Sí | Sí | Sí | Sí | No |
-| Azure Analysis Services | Sí | Sí | Sí | No | No |
-| Azure Blob Storage | Sí | Sí | No | Sí | No |
-| Azure Cosmos DB | Sí | Sí | No | No | No |
-| Azure Cost Management | Sí | Sí | No | No | No |
-| Azure Data Explorer (kusto) | Sí | Sí | Sí | Sí | No |
-| Azure Data Lake Storage Gen1 | Sí | Sí | No | No | No |
-| Azure Data Lake Storage Gen2 | Sí | Sí | No | Sí | No |
-| Azure DevOps | Sí | Sí | No | No | No |
-| Azure DevOps Server | Sí | Sí | No | Sí | Sí |
-| Azure HDInsight (HDFS) | Sí | Sí | No | No | No |
-| Azure HDInsight Spark | Sí | Sí | Sí | No | No |
-| Azure SQL Database | Sí | Sí | Sí | Sí <sup>2</sup> | No |
-| Azure SQL Data Warehouse | Sí | Sí | Sí | Sí <sup>2</sup> | No |
-| Azure Table Storage | Sí | Sí | No | Sí | No |
-| Conector de BI | Sí | Sí | Sí | Sí | Sí |
-| BI360: informes presupuestarios y financieros | Sí | Sí | No | No | No |
-| Common Data Service | Sí | Sí | No | No | No |
-| Data.World - Obtener un conjunto de datos | Sí | Sí | No | No | No |
-| Denodo | Sí | Sí | Sí | Sí | Sí |
-| Dremio | Sí | Sí | Sí | Sí | Sí |
-| Dynamics 365 (en línea) | Sí | Sí | No | No | No |
-| Dynamics 365 Business Central | Sí | Sí | No | No | No |
-| Dynamics 365 Business Central (local) | Sí | Sí | No | No | No |
-| Dynamics 365 Customer Insights | Sí | Sí | No | No | No |
-| Dynamics NAV | Sí | Sí | No | No | No |
-| Origen de datos de Emigo | Sí | Sí | No | No | No |
-| Entersoft Business Suite | Sí | Sí | No | No | No |
-| Essbase | Sí | Sí | Sí | Sí | Sí |
-| Exasol | Sí | Sí | Sí | Sí | Sí |
-| Excel | Sí <sup>3</sup> | Sí <sup>3</sup> | No | Sí <sup>3</sup> | No <sup>4</sup> |
-| Facebook | Sí | Sí | No | No | No |
-| Archivo | Sí | Sí | No | Sí | Sí |
-| Carpeta | Sí | Sí | No | Sí | Sí |
-| GitHub | Sí | Sí | No | No | No |
-| Google Analytics | Sí | Sí | No | No | No |
-| Google BigQuery | Sí | Sí | Sí | No | No |
-| Archivo Hadoop (HDFS) | Sí | No | No | No | No |
-| HDInsight Interactive Query | Sí | Sí | Sí | No | No |
-| IBM DB2 | Sí | Sí | Sí | Sí | No |
-| Base de datos Informix de IBM | Sí | Sí | No | Sí | No |
-| IBM Netezza | Sí | Sí | Sí | Sí | Sí |
-| Impala | Sí | Sí | Sí | Sí | Sí |
-| Indexima | Sí | Sí | Sí | Sí | Sí |
-| Industrial App Store | Sí | Sí | No | No | No |
-| Information Grid | Sí | Sí | No | No | No |
-| Intersystems IRIS | Sí | Sí | Sí | Sí | Sí |
-| Almacenamiento de datos de Intune | Sí | Sí | No | No | No |
-| Jethro ODBC | Sí | Sí | Sí | Sí | Sí |
-| JSON | Sí | Sí | No | Sí** | No <sup>4</sup> |
-| Kyligence Enterprise | Sí | Sí | Sí | Sí | Sí |
-| MailChimp | Sí | Sí | No | No | No |
-| Marketo | Sí | Sí | No | No | No |
-| MarkLogic ODBC | Sí | Sí | Sí | Sí | Sí |
-| Microsoft Azure Consumption Insights | Sí | Sí | No | No | No |
-| Microsoft Exchange | Sí | Sí | No | Sí | No |
-| Microsoft Exchange Online | Sí | Sí | No | No | No |
-| Microsoft Graph Security | Sí | Sí | No | Sí | No |
-| Mixpanel | Sí | Sí | No | No | No |
-| MySQL | Sí | Sí | No | Sí | Sí |
-| OData | Sí | Sí <sup>7</sup> | No | Sí | No |
-| ODBC | Sí | Sí | No | Sí | Sí |
-| OleDb | Sí | Sí | No | Sí | Sí |
-| Oracle | Sí | Sí | Sí | Sí | Sí |
-| Paxata <sup>8</sup> | Sí | Sí | No | Sí | No |
-| PDF | Sí | Sí | No | Sí | No <sup>4</sup> |
-| Planview Enterprise One - CTM | Sí | Sí | No | No | No |
-| Planview Enterprise One - PRM | Sí | Sí | No | No | No |
-| Planview Projectplace | Sí | Sí | No | No | No |
-| PostgreSQL | Sí | Sí | Sí | Sí | No |
-| Flujos de datos de Power BI | Sí | Sí | No | No | No |
-| Conjuntos de datos de Power BI | Sí | Sí | Sí | No | No |
-| Flujos de datos de Power Platform | Sí | Sí | No | No | No |
-| Script de Python | Sí | Sí <sup>5</sup> | No | Sí <sup>5</sup> | Sí |
-| QubolePresto | Sí | Sí | Sí | Sí | Sí |
-| Quick Base | Sí | Sí | No | Sí | Sí |
-| QuickBooks Online | Sí | Sí | No | No | No |
-| Script de R | Sí | Sí <sup>5</sup> | No | Sí <sup>5</sup> | No |
-| Roamler | Sí | Sí | No | Sí | No |
-| Objetos de Salesforce | Sí | Sí | No | No | No |
-| Informes de Salesforce | Sí | Sí | No | No | No |
-| Servidor de mensajería de SAP Business Warehouse | Sí | Sí | Sí | Sí | Sí |
-| Servidor de SAP Business Warehouse | Sí | Sí | Sí | Sí | Sí |
-| SAP HANA | Sí | Sí | Sí | Sí | Sí |
-| Carpeta de SharePoint | Sí | Sí | No | Sí | No <sup>4</sup> |
-| Lista de SharePoint | Sí | Sí | No | Sí | No <sup>4</sup> |
-| Lista de SharePoint Online | Sí | Sí | No | Sí <sup>2</sup> | No |
-| Smartsheet | Sí | Sí | No | No | No |
-| Snowflake | Sí | Sí | Sí | Sí | No |
-| Spark | Sí | Sí | Sí | Sí | No |
-| SparkPost | Sí | Sí | No | No | No |
-| SQL Server | Sí | Sí | Sí | Sí | Sí |
-| SQL Server Analysis Services | Sí | Sí | Sí | Sí | Sí |
-| Stripe | Sí | Sí | No | No | No |
-| SurveyMonkey | Sí | Sí | No | Sí | No |
-| SweetIQ | Sí | Sí | No | No | No |
-| Sybase | Sí | Sí | No | Sí | Sí |
-| TeamDesk | Sí | Sí | No | Sí | No |
-| Tenforce | Sí | Sí | No | No | No |
-| Teradata | Sí | Sí | Sí | Sí | Sí |
-| Texto o CSV | Sí | Sí | No | Sí | No <sup>4</sup> |
-| Twilio | Sí | Sí | No | No | No |
-| tyGraph | Sí | Sí | No | No | No |
-| Vertica | Sí | Sí | Sí | Sí | Sí |
-| Web | Sí | Sí | No | Sí | Sí <sup>6</sup> |
-| Webtrends | Sí | Sí | No | No | No |
-| Dimensiones de Workforce | Sí | Sí | No | Sí | No |
-| XML | Sí | Sí | No | Sí | No <sup>4</sup> |
-| Zendesk | Sí | Sí | No | No | No |
+| Base de datos Access | Sí | Sí | No | Sí <sup>1</sup> | Sí | Sí |
+| Active Directory | Sí | Sí | No | Sí | Sí | Sí |
+| Adobe Analytics | Sí | Sí | No | No | No | No |
+| Amazon Redshift | Sí | Sí | Sí | Sí | No | Sí |
+| appFigures | Sí | Sí | No | No | No | No |
+| Cubos de AtScale | Sí | Sí | Sí | Sí | No | No |
+| Azure Analysis Services | Sí | Sí | Sí | No | No | No |
+| Azure Blob Storage | Sí | Sí | No | Sí | No | Sí |
+| Azure Cosmos DB | Sí | Sí | No | No | No | No |
+| Azure Cost Management | Sí | Sí | No | No | No | No |
+| Azure Data Explorer (kusto) | Sí | Sí | Sí | Sí | No | Sí |
+| Azure Data Lake Storage Gen1 | Sí | Sí | No | No | No | No |
+| Azure Data Lake Storage Gen2 | Sí | Sí | No | Sí | No | Sí |
+| Azure DevOps | Sí | Sí | No | No | No | No |
+| Azure DevOps Server | Sí | Sí | No | Sí | Sí | No |
+| Azure HDInsight (HDFS) | Sí | Sí | No | No | No | No |
+| Azure HDInsight Spark | Sí | Sí | Sí | No | No | Sí |
+| Azure SQL Database | Sí | Sí | Sí | Sí | No | Sí |
+| Azure SQL Data Warehouse | Sí | Sí | Sí | Sí | No | Sí |
+| Azure Table Storage | Sí | Sí | No | Sí | No | Sí |
+| Conector de BI | Sí | Sí | Sí | Sí | Sí | No |
+| BI360: informes presupuestarios y financieros | Sí | Sí | No | No | No | No |
+| Common Data Service | Sí | Sí | No | No | No | Sí |
+| Data.World - Obtener un conjunto de datos | Sí | Sí | No | No | No | No |
+| Denodo | Sí | Sí | Sí | Sí | Sí | No |
+| Dremio | Sí | Sí | Sí | Sí | Sí | No |
+| Dynamics 365 (en línea) | Sí | Sí | No | No | No | No |
+| Dynamics 365 Business Central | Sí | Sí | No | No | No | No |
+| Dynamics 365 Business Central (local) | Sí | Sí | No | No | No | No |
+| Dynamics 365 Customer Insights | Sí | Sí | No | No | No | No |
+| Dynamics NAV | Sí | Sí | No | No | No | No |
+| Origen de datos de Emigo | Sí | Sí | No | No | No | No |
+| Entersoft Business Suite | Sí | Sí | No | No | No | No |
+| Essbase | Sí | Sí | Sí | Sí | Sí | No |
+| Exasol | Sí | Sí | Sí | Sí | Sí | No |
+| Excel | Sí <sup>3</sup> | Sí <sup>3</sup> | No | Sí <sup>3</sup> | No <sup>4</sup> | Sí |
+| Facebook | Sí | Sí | No | No | No | No |
+| Archivo | Sí | Sí | No | Sí | Sí | Sí |
+| Carpeta | Sí | Sí | No | Sí | Sí | Sí |
+| GitHub | Sí | Sí | No | No | No | No |
+| Google Analytics | Sí | Sí | No | No | No | No |
+| Google BigQuery | Sí | Sí | Sí | No | No | Sí |
+| Archivo Hadoop (HDFS) | Sí | No | No | No | No | No |
+| HDInsight Interactive Query | Sí | Sí | Sí | No | No | No |
+| IBM DB2 | Sí | Sí | Sí | Sí | No | Sí |
+| Base de datos Informix de IBM | Sí | Sí | No | Sí | No | No |
+| IBM Netezza | Sí | Sí | Sí | Sí | Sí | No |
+| Impala | Sí | Sí | Sí | Sí | Sí | Sí |
+| Indexima | Sí | Sí | Sí | Sí | Sí | No |
+| Industrial App Store | Sí | Sí | No | No | No | No |
+| Information Grid | Sí | Sí | No | No | No | No |
+| Intersystems IRIS | Sí | Sí | Sí | Sí | Sí | No |
+| Almacenamiento de datos de Intune | Sí | Sí | No | No | No | No |
+| Jethro ODBC | Sí | Sí | Sí | Sí | Sí | No |
+| JSON | Sí | Sí | No | Sí** | No <sup>4</sup> | Sí |
+| Kyligence Enterprise | Sí | Sí | Sí | Sí | Sí | No |
+| MailChimp | Sí | Sí | No | No | No | No |
+| Marketo | Sí | Sí | No | No | No | No |
+| MarkLogic ODBC | Sí | Sí | Sí | Sí | Sí | No |
+| Microsoft Azure Consumption Insights | Sí | Sí | No | No | No | No |
+| Microsoft Exchange | Sí | Sí | No | Sí | No | No |
+| Microsoft Exchange Online | Sí | Sí | No | No | No | Sí |
+| Microsoft Graph Security | Sí | Sí | No | Sí | No | No |
+| Mixpanel | Sí | Sí | No | No | No | No |
+| MySQL | Sí | Sí | No | Sí | Sí | Sí |
+| OData | Sí | Sí <sup>7</sup> | No | Sí | No | Sí |
+| ODBC | Sí | Sí | No | Sí | Sí | Sí |
+| OleDb | Sí | Sí | No | Sí | Sí | No |
+| Oracle | Sí | Sí | Sí | Sí | Sí | Sí |
+| Paxata <sup>8</sup> | Sí | Sí | No | Sí | No | No |
+| PDF | Sí | Sí | No | Sí | No <sup>4</sup> | Sí |
+| Planview Enterprise One - CTM | Sí | Sí | No | No | No | No |
+| Planview Enterprise One - PRM | Sí | Sí | No | No | No | No |
+| Planview Projectplace | Sí | Sí | No | No | No | No |
+| PostgreSQL | Sí | Sí | Sí | Sí | No | Sí |
+| Flujos de datos de Power BI | Sí | Sí | No | No | No | Sí |
+| Conjuntos de datos de Power BI | Sí | Sí | Sí | No | No | No |
+| Flujos de datos de Power Platform | Sí | Sí | No | No | No | Sí |
+| Script de Python | Sí | Sí <sup>5</sup> | No | Sí <sup>5</sup> | Sí | No |
+| QubolePresto | Sí | Sí | Sí | Sí | Sí | No |
+| Quick Base | Sí | Sí | No | Sí | Sí | No |
+| QuickBooks Online | Sí | Sí | No | No | No | No |
+| Script de R | Sí | Sí <sup>5</sup> | No | Sí <sup>5</sup> | No | No |
+| Roamler | Sí | Sí | No | Sí | No | No |
+| Objetos de Salesforce | Sí | Sí | No | No | No | Sí |
+| Informes de Salesforce | Sí | Sí | No | No | No | Sí |
+| Servidor de mensajería de SAP Business Warehouse | Sí | Sí | Sí | Sí | Sí | Sí |
+| Servidor de SAP Business Warehouse | Sí | Sí | Sí | Sí | Sí | Sí |
+| SAP HANA | Sí | Sí | Sí | Sí | Sí | Sí |
+| Carpeta de SharePoint | Sí | Sí | No | Sí | No <sup>4</sup> | Sí |
+| Lista de SharePoint | Sí | Sí | No | Sí | No <sup>4</sup> | Sí |
+| Lista de SharePoint Online | Sí | Sí | No | Sí | No | Sí |
+| Smartsheet | Sí | Sí | No | No | No | Sí |
+| Snowflake | Sí | Sí | Sí | Sí | No | Sí |
+| Spark | Sí | Sí | Sí | Sí | No | Sí |
+| SparkPost | Sí | Sí | No | No | No | No |
+| SQL Server | Sí | Sí | Sí | Sí | Sí | Sí |
+| SQL Server Analysis Services | Sí | Sí | Sí | Sí | Sí | No |
+| Stripe | Sí | Sí | No | No | No | No |
+| SurveyMonkey | Sí | Sí | No | Sí | No | No |
+| SweetIQ | Sí | Sí | No | No | No | No |
+| Sybase | Sí | Sí | No | Sí | Sí | Sí |
+| TeamDesk | Sí | Sí | No | Sí | No | No |
+| Tenforce | Sí | Sí | No | No | No | No |
+| Teradata | Sí | Sí | Sí | Sí | Sí | Sí |
+| Texto o CSV | Sí | Sí | No | Sí | No <sup>4</sup> | Sí |
+| Twilio | Sí | Sí | No | No | No | No |
+| tyGraph | Sí | Sí | No | No | No | No |
+| Vertica | Sí | Sí | Sí | Sí | Sí | Sí |
+| Web | Sí | Sí | No | Sí | Sí <sup>6</sup> | Sí |
+| Webtrends | Sí | Sí | No | No | No | No |
+| Dimensiones de Workforce | Sí | Sí | No | Sí | No | No |
+| XML | Sí | Sí | No | Sí | No <sup>4</sup> | Sí |
+| Zendesk | Sí | Sí | No | No | No | No |
 | | | | | | | | |
 
 <sup>1</sup> Compatible con el [proveedor OLEDB ACE](https://www.microsoft.com/download/details.aspx?id=54920), instalado en el mismo equipo que la puerta de enlace.
-
-<sup>2</sup> Se admite con la misma función M que la versión local, lo que da lugar a opciones de autenticación restringida (la puerta de enlace no admite OAuth).
 
 <sup>3</sup> Los archivos de Excel 1997-2003 (.xls) requieren el [proveedor OLEDB ACE](https://www.microsoft.com/download/details.aspx?id=54920).
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: 99df7a301a1025d50c82c5cc7f5966325a6a6a6f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: dca16fd29dc89fc2e67ce1e8f5c6abfc0adcb9a6
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747537"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049301"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>Cómo crear objetos visuales de Power BI preparados para dispositivos móviles
 El consumo móvil desempeña un papel importante en Power BI. Una de sus ventajas es que permite permanecer conectado a los datos en cualquier momento y lugar.
@@ -28,13 +28,13 @@ Los siguientes requisitos son esenciales para el desarrollo de objetos visuales 
 
 - Representación
 
-  Los objetos visuales de Power BI deben representarse en todos los dispositivos móviles compatibles, incluidos los exploradores y aplicaciones admitidos, sin errores en los informes o los paneles ni cuando se ejecutan en modo de **enfoque**. 
+  Los objetos visuales de Power BI deben representarse en todos los dispositivos móviles compatibles, incluidos los exploradores y aplicaciones admitidos, sin errores en los informes o los paneles ni cuando se ejecutan en modo de **enfoque** . 
 
 - Interactive
 
   La funcionalidad interactiva debe proporcionarse de la misma manera que para los dispositivos de escritorio. Es necesario admitir todos los eventos que se controlan en exploradores de escritorio o disponer de controladores de eventos comparables para dispositivos móviles.
   
-  Por ejemplo, la navegación básica y la selección de puntos de datos deben tener las mismas funcionalidades que en los exploradores de escritorio. Si un objeto visual admite la selección múltiple mediante **CTRL**, el desarrollador debe considerar la posibilidad de agregar un controlador de eventos similar para dispositivos móviles.
+  Por ejemplo, la navegación básica y la selección de puntos de datos deben tener las mismas funcionalidades que en los exploradores de escritorio. Si un objeto visual admite la selección múltiple mediante **CTRL** , el desarrollador debe considerar la posibilidad de agregar un controlador de eventos similar para dispositivos móviles.
 
   En la tabla siguiente se proporciona una lista de los eventos correspondientes en los dispositivos móviles.
 
@@ -51,7 +51,7 @@ Los siguientes requisitos son esenciales para el desarrollo de objetos visuales 
   | `wheel` | `NaN` |
 
   > [!NOTE]
-  > No todos los dispositivos móviles o de pantalla táctil admiten eventos de mouse (o con el prefijo *mouse*). En tales casos, controle los eventos de *mouse* y *táctiles* al mismo tiempo.
+  > No todos los dispositivos móviles o de pantalla táctil admiten eventos de mouse (o con el prefijo *mouse* ). En tales casos, controle los eventos de *mouse* y *táctiles* al mismo tiempo.
 
 ## <a name="optional"></a>Opcional
 Lo que se incluye a continuación se considera opcional y se usa para crear una mejor experiencia del usuario final.
@@ -63,7 +63,7 @@ Lo que se incluye a continuación se considera opcional y se usa para crear una 
   La misma configuración se puede aplicar también a los objetos visuales de los exploradores de escritorio y, si es necesario, invalidarse para adaptar el objeto visual a pantallas más pequeñas.
 
   > [!NOTE]
-  > Para optimizar un objeto visual en el modo de **enfoque**, deben tenerse en cuenta las orientaciones de tamaño de pantalla vertical y horizontal. Consulte [Mostrar el contenido en modo de enfoque](../../consumer/end-user-focus.md).
+  > Para optimizar un objeto visual en el modo de **enfoque** , deben tenerse en cuenta las orientaciones de tamaño de pantalla vertical y horizontal. Consulte [Mostrar el contenido en modo de enfoque](../../consumer/end-user-focus.md).
 
 - Interactive
 
@@ -79,4 +79,4 @@ El objeto visual de Power BI debe representarse en todos los dispositivos que a
 Al realizar pruebas en los modelos más recientes de dispositivos Windows, iOS y Android, el desarrollador debe tener en cuenta la mayoría de estas cuestiones relacionadas con la calidad.
 
 ## <a name="next-steps"></a>Pasos siguientes
-Para empezar, consulte [Tutorial: Desarrollar un objeto visual de Power BI](./custom-visual-develop-tutorial.md).
+Para empezar, vea [Desarrollo de un objeto visual Circle Card de Power BI](./develop-circle-card.md).

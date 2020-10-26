@@ -1,114 +1,97 @@
 ---
-title: Integración de Power BI con Power Automate
+title: Integración de las alertas de datos con Power Automate
 description: Obtenga información sobre cómo crear flujos de Power Automate desencadenados por alertas de datos de Power BI.
 author: maggiesMSFT
 ms.reviewer: ''
-featuredvideoid: YhmNstC39Mw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 09/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 85d3ab05359094fbc0bd05b0fdb70fb73e4acec8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: da5940a6ff4e8b05d7548f21b6b048d3adbe05b0
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226171"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526640"
 ---
-# <a name="power-automate-and-power-bi"></a>Power Automate y Power BI
+# <a name="integrate-power-bi-data-alerts-with-power-automate"></a>Integre alertas de datos de Power BI con Power Automate
 
-[Power Automate](https://docs.microsoft.com/power-automate/getting-started) es una oferta de SaaS para automatizar flujos de trabajo en una gran cantidad de aplicaciones y en los servicios de SaaS de los que se sirven los usuarios profesionales. Power Automate le permite automatizar tareas mediante la integración de sus aplicaciones y servicios favoritos (incluido Power BI) para poder recibir notificaciones, sincronizar archivos, recopilar datos y mucho más. Las tareas repetitivas se vuelven sencillas gracias a la automatización de los flujos de trabajo.
+[Power Automate](/power-automate/getting-started) es una oferta SaaS para automatizar los flujos de trabajo en un número cada vez mayor de aplicaciones y servicios de SaaS. Para automatizar las tareas, integre sus aplicaciones y servicios favoritos (incluido Power BI) para recibir notificaciones, sincronizar archivos, recopilar datos y mucho más. En este artículo, se va a automatizar la generación de un correo electrónico a partir de una alerta de datos de Power BI.
 
-[Empiece ya a usar Power Automate](https://docs.microsoft.com/power-automate/getting-started).
+[Empiece ya a usar Power Automate](/power-automate/getting-started).
 
-Observe cómo Sirui crea un flujo de Power Automate que envía un correo electrónico detallado a sus compañeros cuando se desencadena una alerta de Power BI. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
+## <a name="prerequisites"></a>Requisitos previos
+En este tutorial, se muestra cómo crear dos flujos distintos: uno a partir de una plantilla y otro desde cero. Para continuar, [cree una alerta de datos en Power BI](../create-reports/service-set-data-alerts.md) y [regístrese en Power Automate](https://flow.microsoft.com/#home-signup). Es gratuito
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
-
-## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Crear un flujo que se desencadene con una alerta de datos de Power BI
-
-### <a name="prerequisites"></a>Requisitos previos
-En este tutorial se le mostrará cómo crear dos flujos distintos: uno a partir de una plantilla y otro desde cero. Para seguir, [cree una alerta de datos en Power BI](../create-reports/service-set-data-alerts.md), cree una cuenta de Slack gratuita y [regístrese en Power Automate](https://flow.microsoft.com/#home-signup) (es gratis).
-
-## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Crear un flujo que utilice Power BI a partir de una plantilla
+## <a name="create-a-flow-from-a-template"></a>Creación de un flujo desde una plantilla
 En esta tarea, utilizaremos una plantilla para crear un flujo sencillo que se desencadene mediante una alerta de datos de Power BI (notificación).
 
 1. Inicie sesión en Power Automate (flow.microsoft.com).
-2. Seleccione **Mis flujos**.
+2. Seleccione **Plantillas** , busque **Power BI** > **Enviar un correo electrónico al público cuando se desencadene una alerta de datos de Power BI** .
    
-   ![Barra de menús de Power Automate](media/service-flow-integration/power-bi-my-flows.png)
-3. Seleccione **Crear desde plantilla**.
-   
-    ![Barra de menús Mis flujos](media/service-flow-integration/power-bi-template.png)
-4. Utilice el cuadro de búsqueda para encontrar plantillas de Power BI y active **Enviar un correo electrónico al público cuando se desencadene una alerta de datos de Power BI > Continuar**.
-   
-    ![Resultados de búsqueda](media/service-flow-integration/power-bi-flow-alert.png)
-
+    :::image type="content" source="media/service-flow-integration/power-automate-templates.png" alt-text="Captura de pantalla de Power Automate Enviar un correo electrónico a cualquier público cuando se desencadene una alerta de datos de Power B I.":::
 
 ### <a name="build-the-flow"></a>Generación del flujo
-Esta plantilla tiene un desencadenador (alerta de datos de Power BI sobre las nuevas medallas olímpicas de Irlanda) y una acción (enviar un correo electrónico). Cuando seleccione un campo, Power Automate mostrará el contenido dinámico que puede incluir.  En este ejemplo, hemos incluido el valor y la URL del icono en el cuerpo del mensaje.
+Esta plantilla tiene un desencadenador, una alerta de datos de Power BI y una acción para enviar un correo electrónico. Cuando seleccione un campo, Power Automate mostrará el contenido dinámico que puede incluir.  En este ejemplo, hemos incluido el valor y la URL del icono en el cuerpo del mensaje.
 
-![Plantilla de flujo](media/service-flow-integration/power-bi-template1.png)
+1. Seleccione **Continuar** .
 
-1. En la lista desplegable del desencadenador, seleccione una alerta de datos de Power BI. Seleccione **Nueva medalla para Irlanda**. Para obtener información sobre cómo crear una alerta, consulte [Alertas de datos de Power BI](../create-reports/service-set-data-alerts.md).
+    :::image type="content" source="media/service-flow-integration/power-automate-power-bi-mail.png" alt-text="Captura de pantalla de Power Automate Enviar un correo electrónico a cualquier público cuando se desencadene una alerta de datos de Power B I.":::
+
+1. En el cuadro **Id. de alerta** , seleccione una alerta de datos de Power BI. Para obtener información sobre cómo crear una alerta, consulte [Alertas de datos de Power BI](../create-reports/service-set-data-alerts.md).
    
-   ![Menú desplegable de alertas](media/service-flow-integration/power-bi-trigger-flow.png)
-2. Escriba una o varias direcciones de correo electrónico válida y, a continuación, seleccione **Editar** (se muestra a continuación) o **Agregar contenido dinámico**. 
-   
-   ![Pantalla para enviar correo electrónico](media/service-flow-integration/power-bi-flow-email.png)
+    :::image type="content" source="media/service-flow-integration/power-automate-select-alert-id.png" alt-text="Captura de pantalla de Power Automate Enviar un correo electrónico a cualquier público cuando se desencadene una alerta de datos de Power B I.":::
+2. Escriba una o más direcciones de correo electrónico.
 
-3. Power Automate crea un título y un mensaje que se pueden conservar o modificar. Todos los valores que se establecen al crear la alerta en Power BI están disponibles para su uso: solo tiene que colocar el cursor y seleccionar el área resaltada en gris. 
+3. Power Automate genera automáticamente un **asunto** y un **cuerpo** , que puede conservar o modificar. El texto del cuerpo utiliza HTML para aplicar formato.
 
-   ![Pantalla para enviar correo electrónico](media/service-flow-integration/power-bi-flow-email-default.png)
+    :::image type="content" source="media/service-flow-integration/power-automate-autogenerated-email.png" alt-text="Captura de pantalla de Power Automate Enviar un correo electrónico a cualquier público cuando se desencadene una alerta de datos de Power B I.":::
 
-1.  Por ejemplo, si crea un título de alerta en Power BI de **Hemos ganado otra medalla**, puede seleccionar **Título de la alerta** para agregar texto al campo Asunto del correo electrónico.
-
-    ![Creación del texto del correo electrónico](media/service-flow-integration/power-bi-flow-message.png)
-
-    Y puede aceptar el cuerpo del correo electrónico predeterminado o crear el suyo propio. El ejemplo anterior contiene algunas modificaciones al mensaje.
-
-1. Cuando haya terminado, seleccione **Crear flujo** o **Guardar flujo**.  A continuación, se creará un flujo y se evaluará.  Recibirá un aviso en caso de que Power Automate detecte errores.
+1. Cuando haya terminado con el mensaje, seleccione **Siguiente paso** o **Guardar** .  A continuación, se creará un flujo y se evaluará.  Recibirá un aviso en caso de que Power Automate detecte errores.
 2. Si se detectan, seleccione **Editar flujo** para corregirlos. En caso contrario, seleccione **Listo** para ejecutar el nuevo flujo.
    
-   ![Mensaje de proceso correcto](media/service-flow-integration/power-bi-flow-running.png)
-5. Cuando se desencadena la alerta de datos, se envía un correo electrónico a las direcciones que se han indicado.  
+   ![Captura de pantalla del mensaje de operación correcta de Power Automate.](media/service-flow-integration/power-bi-flow-running.png)
+5. Cuando se desencadena la alerta de datos, Power Automate envía un correo electrónico a las direcciones indicadas.  
    
-   ![Correo electrónico de alerta](media/service-flow-integration/power-bi-flow-email2.png)
+   ![Captura de pantalla del correo electrónico de alerta de Power Automate.](media/service-flow-integration/power-bi-flow-email2.png)
 
-## <a name="create-a-power-automate-that-uses-power-bi---from-scratch-blank"></a>Crear desde cero un flujo de Power Automate que use Power BI (en blanco)
+## <a name="create-a-flow-from-scratch"></a>Creación de un flujo desde cero
 En esta tarea, crearemos desde cero un flujo sencillo que se desencadene mediante una alerta de datos de Power BI (notificación).
 
-1. Inicie sesión en Power Automate.
-2. Seleccione **Mis flujos** > **Crear desde cero**.
-   
-   ![Barra de menús superior de Power Automate](media/service-flow-integration/power-bi-my-flows.png)
-3. Utilice el cuadro de búsqueda para encontrar un desencadenador de Power BI y seleccione **Power BI - When a data driven alert is triggered** (Power BI: cuando se desencadene una alerta por datos).
+1. Inicie sesión en Power Automate (flow.microsoft.com).
+2. Seleccione **Crear** > **Automated flow** (Flujo automatizado).
 
-### <a name="build-your-flow"></a>Compilación de un flujo
-1. Seleccione el nombre de la alerta en la lista desplegable.  Para obtener información sobre cómo crear una alerta, consulte [Alertas de datos de Power BI](../create-reports/service-set-data-alerts.md).
+    :::image type="content" source="media/service-flow-integration/power-automate-create-automated-flow.png" alt-text="Captura de pantalla de Power Automate Enviar un correo electrónico a cualquier público cuando se desencadene una alerta de datos de Power B I.":::   
+3. En **Crear un flujo automatizado** , asigne un nombre al flujo.
+1. En **Elija el desencadenador del flujo** , busque **Power BI** .
+1. Seleccione **Power BI: Cuando se desencadena una alerta basada en datos** > **Crear** .
+
+    :::image type="content" source="media/service-flow-integration/power-automate-build-automated-flow.png" alt-text="Captura de pantalla de Power Automate Enviar un correo electrónico a cualquier público cuando se desencadene una alerta de datos de Power B I.":::
+
+### <a name="build-your-flow"></a>Crear un flujo
+1. En el cuadro **Id. de alerta** , seleccione el nombre de la alerta. Para obtener información sobre cómo crear una alerta, consulte [Alertas de datos de Power BI](../create-reports/service-set-data-alerts.md).
+
+    :::image type="content" source="media/service-flow-integration/power-automate-select-alert-id-scratch.png" alt-text="Captura de pantalla de Power Automate Enviar un correo electrónico a cualquier público cuando se desencadene una alerta de datos de Power B I.":::   
+
+2. Seleccione **Nuevo paso** .
    
-    ![Selección del nombre de la alerta](media/service-flow-integration/power-bi-totalstores2.png)
-2. Seleccione **Nuevo paso** > **Agregar una acción**.
-   
-   ![Adición de un nuevo paso](media/service-flow-integration/power-bi-new-step.png)
-3. Busque **Outlook** y seleccione **Crear evento**.
-   
-   ![Creación del flujo](media/service-flow-integration/power-bi-create-event.png)
+3. En **Elegir una acción** , busque **Outlook** > **Crear evento** .
+
+    :::image type="content" source="media/service-flow-integration/power-automate-choose-action-create-event.png" alt-text="Captura de pantalla de Power Automate Enviar un correo electrónico a cualquier público cuando se desencadene una alerta de datos de Power B I.":::   
 4. Rellene los campos del evento. Cuando seleccione un campo, Power Automate mostrará el contenido dinámico que puede incluir.
    
-   ![Continuación de la creación del flujo](media/service-flow-integration/power-bi-flow-event.png)
-5. Seleccione **Crear flujo** cuando haya terminado.  Power Automate guarda y evalúa el flujo. Si no hay ningún error, seleccione **Listo** para ejecutar el flujo.  El nuevo flujo se agregará a la página **Mis flujos**.
+   ![Captura de pantalla de continuación para compilar el flujo.](media/service-flow-integration/power-bi-flow-event.png)
+5. Seleccione **Crear flujo** cuando haya terminado.  Power Automate guarda y evalúa el flujo. Si no hay ningún error, seleccione **Listo** para ejecutar el flujo.  El nuevo flujo se agregará a la página **Mis flujos** .
    
-   ![Finalización del flujo](media/service-flow-integration/power-bi-flow-running.png)
+   ![Captura de pantalla de finalización del flujo.](media/service-flow-integration/power-bi-flow-running.png)
 6. Cuando una alerta de datos de Power BI desencadene el flujo, recibirá una notificación de evento de Outlook similar a esta.
    
-    ![Power Automate desencadena una notificación de Outlook](media/service-flow-integration/power-bi-flow-notice.png)
+    ![Captura de pantalla de Power Automate que desencadena una notificación de Outlook.](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Introducción a Power Automate](https://docs.microsoft.com/power-automate/getting-started/)
+* [Introducción a Power Automate](/power-automate/getting-started/)
 * [Establecer alertas de datos en el servicio Power BI](../create-reports/service-set-data-alerts.md)
 * [Establecer alertas de datos en su iPhone](../consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Establecer alertas de datos en la aplicación móvil de Power BI para Windows 10](../consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

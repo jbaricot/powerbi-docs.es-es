@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: 6ad986308fb82f8191829d29654bb96b55d0fbd0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 091bdeb4eeb4c979ccf0e79476eb081895fae2e1
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272704"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049416"
 ---
 # <a name="use-the-supportsmultivisualselection-feature"></a>Uso de la característica supportsMultiVisualSelection
 
@@ -21,7 +21,7 @@ La característica `supportsMultiVisualSelection` le permite usar la selección 
 
 ## <a name="example"></a>Ejemplo
 
-En un informe con más de un objeto visual, seleccione dos valores para que esos valores se apliquen a otros objetos visuales. Por ejemplo, en [Ejemplo de análisis de minoristas](../../create-reports/sample-retail-analysis.md), seleccione **Fashions Direct** en un objeto visual. Seleccione Ctrl y seleccione **Ene** en otro objeto visual. En el informe, las selecciones se aplican a los otros objetos visuales que admiten el uso de esta característica. Ahora, otros objetos visuales tienen el ámbito en **Fashions Direct**y**Ene**.
+En un informe con más de un objeto visual, seleccione dos valores para que esos valores se apliquen a otros objetos visuales. Por ejemplo, en [Ejemplo de análisis de minoristas](../../create-reports/sample-retail-analysis.md), seleccione **Fashions Direct** en un objeto visual. Seleccione Ctrl y seleccione **Ene** en otro objeto visual. En el informe, las selecciones se aplican a los otros objetos visuales que admiten el uso de esta característica. Ahora, otros objetos visuales tienen el ámbito en **Fashions Direct **y** Ene** .
 
 ## <a name="requirements"></a>Requisitos
 
@@ -45,4 +45,4 @@ Para usar la característica `supportsMultiVisualSelection`, agregue el código 
 
 Para información sobre los conceptos de Power BI, vea [Objetos visuales en Power BI](power-bi-visuals-concept.md).
 
-Para probar el desarrollo de Power BI, vea [Desarrollar un objeto visual de Power BI](custom-visual-develop-tutorial.md).
+Para probar el desarrollo de Power BI, consulte [Desarrollo de un objeto visual Circle Card de Power BI](develop-circle-card.md).

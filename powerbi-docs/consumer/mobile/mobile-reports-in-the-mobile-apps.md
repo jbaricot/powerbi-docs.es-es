@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: bdea7bbadc9e974e6b71122775408f50cfe33de3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47f1db75eb3923c1c4195a319323c3a37d17484e
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855964"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92026099"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -47,7 +47,7 @@ En las aplicaciones móviles de Power BI Mobile hay dos iconos para los informe
 > [!NOTE]
 > Al sujetar el teléfono en horizontal, siempre obtendrá el diseño horizontal, aunque la página del informe esté en diseño para dispositivos móviles.
 
-Para obtener un informe desde un panel, pulse **Más opciones** (...) en la esquina superior derecha de un icono y, después, pulse **Abrir informe**:
+Para obtener un informe desde un panel, pulse **Más opciones** (...) en la esquina superior derecha de un icono y, después, pulse **Abrir informe** :
   
   ![Abrir informe](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -100,7 +100,7 @@ Los autores de informes pueden definir jerarquías en los datos y las relaciones
 ![Acciones de obtención de detalles](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
 
-Al pulsar una parte específica de un objeto visual y la opción de *obtención de detalles*, Power BI le mostrará otra página del informe y la filtrará según el valor que haya pulsado. El autor de un informe puede definir una o más opciones de exploración de varias páginas, de modo que cada opción dirija a una página diferente. En ese caso, podrá elegir en qué opción quiere obtener detalles. El botón Atrás le dirigirá de vuelta a la página anterior.
+Al pulsar una parte específica de un objeto visual y la opción de *obtención de detalles* , Power BI le mostrará otra página del informe y la filtrará según el valor que haya pulsado. El autor de un informe puede definir una o más opciones de exploración de varias páginas, de modo que cada opción dirija a una página diferente. En ese caso, podrá elegir en qué opción quiere obtener detalles. El botón Atrás le dirigirá de vuelta a la página anterior.
 
 
 Para obtener más información, consulte el artículo sobre cómo [agregar la obtención de detalles en Power BI Desktop](../../create-reports/desktop-drillthrough.md).
@@ -140,13 +140,13 @@ La opción **Invitar** solo está habilitada si tiene permiso para compartir el 
 
 **Filtrar por la ubicación actual** está habilitado si el autor del informe lo ha clasificado con datos geográficos. Para obtener más información, consulte el artículo sobre la [identificación de datos geográficos en un informe](../../transform-model/desktop-mobile-geofiltering.md).
 
-**Examinar para filtrar el informe por código de barras** solo está habilitado si el conjunto de datos del informe se ha etiquetado como **Código de barras**. Para obtener más información, consulte el artículo sobre el [etiquetado de códigos de barra en Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md).
+**Examinar para filtrar el informe por código de barras** solo está habilitado si el conjunto de datos del informe se ha etiquetado como **Código de barras** . Para obtener más información, consulte el artículo sobre el [etiquetado de códigos de barra en Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md).
 
 ### <a name="bookmarks"></a>Marcadores
 
 La aplicación móvil de Power BI admite los marcadores de informe que haya definido el creador del informe y los marcadores personales que puede definir en el servicio Power BI. Puede encontrar el menú de marcadores en **Más opciones** (...), en la [barra de herramientas de acciones del informe](mobile-reports-in-the-mobile-apps.md#all-report-actions).
 
-Los marcadores predeterminados se indican mediante un icono especial. En el caso de los marcadores personales, puede establecer, desactivar o cambiar la configuración predeterminada pulsando **Más opciones (...)** junto al marcador que quiera cambiar y seleccionando **Establecer como valor predeterminado** o **Borrar valor predeterminado**.
+Los marcadores predeterminados se indican mediante un icono especial. En el caso de los marcadores personales, puede establecer, desactivar o cambiar la configuración predeterminada pulsando **Más opciones (...)** junto al marcador que quiera cambiar y seleccionando **Establecer como valor predeterminado** o **Borrar valor predeterminado** .
 
 ![Menú de marcadores](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 
@@ -156,11 +156,30 @@ Cuando se abre una vista de marcador de un informe, el nombre del marcador apare
 
 [Obtenga más información sobre los marcadores en el servicio Power BI](../end-user-bookmarks.md).
 
+## <a name="refresh-your-data"></a>Actualización de los datos
+
+Si no está seguro de estar viendo los datos más actualizados, puede extraer nuevos datos para su informe desde el servicio Power BI:
+
+* En dispositivos iOS y tabletas Android, desplace el dedo ligeramente de arriba a abajo en la página del informe.
+* En los teléfonos Android, puede usar la acción de mover hacia abajo o un botón de actualización, según cómo lo haya establecido en la [configuración de la interacción](mobile-app-interaction-settings.md).
+* En los dispositivos Windows, use el botón de actualizar situado en la parte superior derecha de la pantalla.
+
+    Las páginas de informe que tienen [actualización automática de página](../../create-reports/desktop-automatic-page-refresh.md) se actualizarán automáticamente en función de su configuración (solo aplicación de Windows).
+
+>[!NOTE]
+>Los métodos de actualización anteriores no actualizan el conjunto de datos subyacente. En su lugar, actualizan el informe que está viendo en la aplicación móvil con los datos nuevos que puedan existir en Power BI.
+
+### <a name="how-do-i-know-when-my-report-was-last-refreshed"></a>¿Cómo se sabe cuándo se actualizó el informe por última vez?
+
+Para averiguar cuándo se actualizó el informe por última vez, pulse el encabezado del informe. Se mostrará el árbol de navegación del informe, incluida la fecha y hora de la última actualización. 
+
+![Captura de pantalla de la información de actualización del informe en la aplicación móvil.](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-refresh-info.png)
+ 
 ## <a name="configure-your-experience-with-reports"></a>Configuración de la experiencia con los informes
 La aplicación móvil de Power BI tiene una serie de valores que le permiten controlar la experiencia con los informes. Actualmente, puede configurar lo siguiente:
-* **Interacción con los objetos visuales**: puede optar por usar la interacción de pulsación única o de pulsar dos veces.
-* **Método de actualización de datos**: puede elegir entre un botón de actualización o una acción de deslizar para actualizar los datos del informe.
-* **Visibilidad del pie de página del informe**: puede elegir entre un pie de página acoplado siempre visible, o bien un pie de página dinámico que se oculte y se vuelva a mostrar en función de las acciones (desplazamiento, por ejemplo).
+* **Interacción con los objetos visuales** : puede optar por usar la interacción de pulsación única o de pulsar dos veces.
+* **Método de actualización de datos** : puede elegir entre un botón de actualización o una acción de deslizar para actualizar los datos del informe.
+* **Visibilidad del pie de página del informe** : puede elegir entre un pie de página acoplado siempre visible, o bien un pie de página dinámico que se oculte y se vuelva a mostrar en función de las acciones (desplazamiento, por ejemplo).
 
 Vea la [configuración de las interacciones de la aplicación](./mobile-app-interaction-settings.md) para obtener información sobre cómo cambiar esta configuración.
 

@@ -1,5 +1,5 @@
 ---
-title: Generación automática de conclusiones de datos con Power BI
+title: Generación de conclusiones sobre los datos del conjunto de datos de manera automática
 description: Vea cómo obtener información detallada acerca de los conjuntos de datos y los iconos del panel.
 author: maggiesMSFT
 ms.reviewer: ''
@@ -8,40 +8,40 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 08/06/2019
+ms.date: 09/28/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5523c08b81a129bab70f1c087e8895dedf83621f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 79148389a697feb2a3d2e2cba0b919eb59632ff7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221101"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524475"
 ---
-# <a name="generate-data-insights-automatically-with-power-bi"></a>Generación automática de conclusiones de datos con Power BI
-¿Tiene un conjunto de datos nuevo y no está muy seguro de por dónde empezar?  ¿Necesita crear un panel rápidamente?  ¿Quiere buscar información que puede que le falte?
+# <a name="generate-data-insights-on-your-dataset-automatically-with-power-bi"></a>Generación de conclusiones sobre los datos del conjunto de datos de manera automática con Power BI
+¿Tiene un conjunto de datos nuevo y no está seguro de por dónde empezar?  ¿Necesita crear un panel rápidamente?  ¿Quiere buscar información que puede que le falte?
 
-Extraiga información rápida para generar visualizaciones interactivas interesantes basadas en los datos. Se puede extraer información detallada de un conjunto de datos completo (información rápida) o del icono de un panel específico (información con ámbito). Puede incluso extraer información detallada a partir de información detallada.
+Extraiga conclusiones rápidas para generar visualizaciones interactivas interesantes basadas en los datos. En este artículo se explica cómo extraer conclusiones rápidas de todo un conjunto de datos. También puede extraer [conclusiones rápidas de un icono específico del panel](../consumer/end-user-insights.md) (conclusiones con ámbito). Puede incluso extraer información detallada a partir de información detallada.
 
 > [!NOTE]
 > Información detallada no funciona con DirectQuery, solo con los datos cargados en Power BI.
 > 
 
-La característica de información detallada se basa en un creciente [conjunto de algoritmos de análisis avanzados](../consumer/end-user-insight-types.md) desarrollado en combinación con Microsoft Research, que vamos a seguir usando para que más personas encuentren información en sus datos de formas nuevas e intuitivas.
+La característica de conclusiones rápidas se ha creado sobre un creciente [conjunto de algoritmos analíticos avanzados](../consumer/end-user-insight-types.md) desarrollados con Microsoft Research. Estos algoritmos continúan usándose para ayudar a que más personas extraigan conclusiones de sus datos de formas nuevas e intuitivas. También puede interesarle aprender a [optimizar los datos para obtener conclusiones rápidas](service-insights-optimize.md).
 
 ## <a name="run-quick-insights-on-a-dataset"></a>Extracción de información rápida de un conjunto de datos
-Vea a Amanda extraer información rápida de un conjunto de datos, abrir la información en modo de enfoque, anclar una de estas piezas de información como un icono en su panel y, por último, obtener información detallada de un icono del panel.
+Vea cómo Amanda extrae conclusiones rápidas de un conjunto de datos y abre una de ellas en modo de enfoque. Amanda ancla una de las conclusiones como un icono en el panel y, luego, obtiene conclusiones de un icono del panel.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/et_MLSL2sA8" frameborder="0" allowfullscreen></iframe>
 
 
 Ahora es su turno. Explore la característica de información detallada mediante el [Ejemplo de análisis de calidad de proveedores](sample-supplier-quality.md).
 
-1. En la pestaña **Conjuntos de datos**, seleccione el botón **Más opciones** (...) y elija **Obtener información rápida**.
+1. En la pestaña **Conjuntos de datos** , seleccione el botón **Más opciones** (...) y elija **Obtener información rápida** .
    
     ![Pestaña Conjuntos de datos](media/service-insights/power-bi-ellipses.png)
    
-    ![Menú del botón de puntos suspensivos](media/service-insights/power-bi-tab.png)
+    ![Menú de puntos suspensivos](media/service-insights/power-bi-tab.png)
 2. Power BI usa [distintos algoritmos](../consumer/end-user-insight-types.md) para buscar tendencias en el conjunto de datos.
    
     ![Cuadro de diálogo Buscando información](media/service-insights/pbi_autoinsightssearching.png)
@@ -61,7 +61,7 @@ Ahora es su turno. Explore la característica de información detallada mediante
 
 1. Mantenga el puntero sobre una tarjeta y seleccione el icono de anclaje para agregar la visualización a un panel.
 
-2. Mantenga el puntero sobre una tarjeta, seleccione **Más opciones** (...) y elija **Ver información**. 
+2. Mantenga el puntero sobre una tarjeta, seleccione **Más opciones** (...) y elija **Ver información** . 
 
     Se abre la pantalla de información en modo de enfoque.
    
@@ -71,25 +71,15 @@ Ahora es su turno. Explore la característica de información detallada mediante
    * Filtrar las visualizaciones. Si el panel **Filtros** todavía no está abierto, seleccione la flecha situada en el lado derecho de la ventana para expandirlo.
 
        ![Menú Filtros de Información expandido](media/service-insights/power-bi-insights-filter-new.png)
-   * Para anclar la tarjeta de información a un panel, seleccione **Anclar objeto visual**.
-   * Ejecute información en la propia tarjeta, lo que a menudo se conoce como *información con ámbito*. En la esquina superior derecha, seleccione el icono de bombilla ![icono Obtener información](media/service-insights/power-bi-bulb-icon.png) u **Obtener información**.
+   * Anclar la tarjeta de conclusiones a un panel mediante la selección **Anclar visualización** .
+   * Ejecute información en la propia tarjeta, lo que a menudo se conoce como *información con ámbito* . En la esquina superior derecha, seleccione el icono de bombilla ![icono Obtener información](media/service-insights/power-bi-bulb-icon.png) u **Obtener información** .
      
        ![Icono Obtener información](media/service-insights/pbi-autoinsights-tile.png)
      
-     A la izquierda, se muestra la información y, a la derecha, nuevas tarjetas basadas solo en los datos de esa única información.
+     La conclusión se muestra a la izquierda. Las nuevas tarjetas, basadas únicamente en los datos de esa única conclusión, se muestran a la derecha.
      
        ![Información sobre información](media/service-insights/power-bi-insights-on-insights-new.png)
-4. Para volver al lienzo original de información, en la esquina superior izquierda, seleccione **Salir del modo de enfoque**.
-
-## <a name="run-insights-on-a-dashboard-tile"></a>Información en un icono del panel
-En lugar de buscar información en un conjunto de datos entero, limite la búsqueda para obtener información con ámbito de los datos usados para crear un único icono de panel. 
-
-1. Abra un panel.
-2. Mantenga el puntero encima de un icono. Seleccione **Más opciones** (...) y elija **Ver información**. El icono se abre en [modo de enfoque](../consumer/end-user-focus.md) con las tarjetas de información a la derecha.    
-   
-    ![Modo de enfoque](media/service-insights/pbi-insights-tile.png)    
-3. ¿Alguna información capta su interés? Seleccione esa tarjeta de información para profundizar aún más. A la izquierda, se muestra la información seleccionada y, a la derecha, nuevas tarjetas de información, basadas solo en los datos de esa única información.    
-4. Siga profundizando en los datos y, cuando encuentre una información interesante, ancle esta al panel mediante la selección de **Anclar objeto visual** en la esquina superior derecha.
+4. Para volver al lienzo original de información, en la esquina superior izquierda, seleccione **Salir del modo de enfoque** .
 
 ## <a name="next-steps"></a>Pasos siguientes
 - Si es propietario de un conjunto de datos, [optimícelo para Conclusiones rápidas](service-insights-optimize.md).

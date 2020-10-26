@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 41c7ba43d16b6d77ecf6324d3cd175dbbabc51a1
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747629"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983418"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Tutorial: Inserción de informes paginados de Power BI en una aplicación para la organización
 
-En **Power BI**, puede insertar informes paginados en una aplicación para la organización mediante el escenario *El usuario posee los datos*.
+En **Power BI** , puede insertar informes paginados en una aplicación para la organización mediante el escenario *El usuario posee los datos* .
 
 Los informes paginados son informes diseñados para una impresión de alta calidad. Por lo general, estos informes contienen una gran cantidad de datos, que se representan de forma que se ajusten a las páginas impresas.
 Para entender cómo Power BI admite los informes paginados, consulte [¿Qué son los informes paginados en Power BI Premium?](../../paginated-reports/paginated-reports-report-builder-power-bi.md)
@@ -43,7 +43,7 @@ Para empezar, es necesario que tenga:
 
 * Al menos una capacidad P1. Consulte [¿Qué tamaño de capacidad Premium se necesita para los informes paginados?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
-Si no está registrado en **Power BI Pro**, [regístrese para obtener una evaluación gratuita](https://powerbi.microsoft.com/pricing/) antes de empezar.
+Si no está registrado en **Power BI Pro** , [regístrese para obtener una evaluación gratuita](https://powerbi.microsoft.com/pricing/) antes de empezar.
 
 ## <a name="set-up-your-power-bi-environment"></a>Configuración del entorno de Power BI
 
@@ -58,11 +58,11 @@ Siga las instrucciones que aparecen en [Registro de una aplicación de Azure AD
 >* Obtenga el secreto de la aplicación.
 >* Aplique los permisos **Report.ReadAll** (ámbito) a la aplicación.
 
-### <a name="create-a-dedicated-capacity"></a>Crear una capacidad dedicada
+### <a name="create-a-capacity"></a>Creación de una capacidad
 
-Al crear una capacidad dedicada, puede aprovechar las ventajas de disponer de un recurso dedicado para el contenido del área de trabajo de la aplicación. En el caso de los informes paginados, debe hacer una copia de seguridad del área de trabajo de la aplicación con al menos una capacidad P1. Puede crear una capacidad dedicada mediante [Power BI Premium](../../admin/service-premium-what-is.md).
+Al crear una capacidad dedicada, puede aprovechar las ventajas de disponer de un recurso para el contenido en el área de trabajo de la aplicación. En el caso de los informes paginados, debe hacer una copia de seguridad del área de trabajo de la aplicación con al menos una capacidad P1. Puede crear una capacidad mediante [Power BI Premium](../../admin/service-premium-what-is.md).
 
-En la tabla siguiente se enumeran las SKU de Power BI Premium que se pueden usar para crear una capacidad dedicada para los informes paginados en [Microsoft Office 365](../../admin/service-admin-premium-purchase.md):
+En la tabla siguiente se enumeran las SKU de Power BI Premium que se pueden usar para crear una capacidad para los informes paginados en [Microsoft Office 365](../../admin/service-admin-premium-purchase.md):
 
 | Nodo de capacidad | Núcleos virtuales totales<br/>(back-end y front-end) | Núcleos virtuales de back-end | Núcleos virtuales de front-end | Límites de conexiones dinámicas/DirectQuery |
 | --- | --- | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ En la tabla siguiente se enumeran las SKU de Power BI Premium que se pueden usa
 
 ### <a name="enable-paginated-reports-workload"></a>Habilitación de la carga de trabajo de los informes paginados
 
-Debe habilitar la carga de trabajo de los informe paginado en la capacidad dedicada.
+Debe habilitar la carga de trabajo de informes paginado en la capacidad.
 
 1. Inicie sesión en [Power BI > Portal de administración > Configuración de capacidad](https://app.powerbi.com/admin-portal/capacities).
 
@@ -83,7 +83,7 @@ Debe habilitar la carga de trabajo de los informe paginado en la capacidad dedic
 
     ![Selección de la capacidad](media/embed-paginated-reports-organization/select-capacity.png)
 
-3. Expanda **Cargas de trabajo**.
+3. Expanda **Cargas de trabajo** .
 
     ![Expansión de las cargas de trabajo](media/embed-paginated-reports-organization/expand-workloads.png)
 
@@ -91,19 +91,19 @@ Debe habilitar la carga de trabajo de los informe paginado en la capacidad dedic
 
     ![Carga de trabajo de los informes paginados](media/embed-paginated-reports-organization/paginated-reports-workload.png)
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Asignación de un área de trabajo de aplicación a la capacidad dedicada
+### <a name="assign-an-app-workspace-to-a-capacity"></a>Asignación de un área de trabajo de la aplicación a una capacidad
 
-Después de crear una capacidad dedicada, puede asignar el área de trabajo de la aplicación a esa capacidad dedicada. Para completar este proceso, siga estos pasos:
+Después de crear una capacidad, puede asignarle el área de trabajo de la aplicación. Para completar este proceso, siga estos pasos:
 
-1. En el servicio Power BI, expanda las áreas de trabajo y seleccione **Más**  en el área de trabajo en la que quiera insertar el contenido. A continuación, seleccione **Configuración del área de trabajo**.
+1. En el servicio Power BI, expanda las áreas de trabajo y seleccione **Más**  en el área de trabajo en la que quiera insertar el contenido. A continuación, seleccione **Configuración del área de trabajo** .
 
     ![Edición de un área de trabajo](media/embed-paginated-reports-organization/workspace-settings.png)
 
-2. Seleccione **Premium** y habilite la **Capacidad dedicada**. Seleccione la capacidad dedicada que ha creado. Luego seleccione **Guardar**.
+2. Seleccione **Premium** y habilite **Capacidad** . Seleccione la capacidad que ha creado. Luego seleccione **Guardar** .
 
-    ![Asignación de una capacidad dedicada](media/embed-paginated-reports-organization/dedicated-capacity.png)
+    ![Asignación de una capacidad](media/embed-paginated-reports-organization/capacity.png)
 
-3. Después de hacer clic en **Guardar**, debería ver un rombo junto al nombre del área de trabajo de la aplicación.
+3. Después de hacer clic en **Guardar** , debería ver un rombo junto al nombre del área de trabajo de la aplicación.
 
     ![Área de trabajo de la aplicación asociada a una capacidad](media/embed-paginated-reports-organization/diamond.png)
 
@@ -119,7 +119,7 @@ Siga estos pasos para empezar a insertar contenido mediante la aplicación de ej
 
 1. Descargue [Visual Studio](https://www.visualstudio.com/) (versión 2013 o posterior). Asegúrese de descargar el [paquete NuGet](https://www.nuget.org/profiles/powerbi) más reciente.
 
-2. Descargue [PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) y abra .NET Framework > Inserción para la organización > integrate-web-app > **PBIWebApp**.
+2. Descargue [PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) y abra .NET Framework > Inserción para la organización > integrate-web-app > **PBIWebApp** .
 
     ![PowerBI-Developer-Samples](media/embed-paginated-reports-organization/powerbi-developer-sample.png)
 
@@ -133,15 +133,15 @@ Siga estos pasos para empezar a insertar contenido mediante la aplicación de ej
 
 ### <a name="application-id"></a>Id. de aplicación
 
-Rellene la información de **applicationId** con el **identificador de aplicación** de **Azure**. La aplicación usa **applicationId** para identificarse ante los usuarios a los que solicita permisos.
+Rellene la información de **applicationId** con el **identificador de aplicación** de **Azure** . La aplicación usa **applicationId** para identificarse ante los usuarios a los que solicita permisos.
 
-Para obtener **applicationId**, siga estos pasos:
+Para obtener **applicationId** , siga estos pasos:
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. En el panel de navegación izquierdo, elija **Todos los servicios** y seleccione **Registros de aplicaciones**.
+2. En el panel de navegación izquierdo, elija **Todos los servicios** y seleccione **Registros de aplicaciones** .
 
-3. Seleccione la aplicación que necesite el valor **applicationId**.
+3. Seleccione la aplicación que necesite el valor **applicationId** .
 
     ![Elegir aplicación](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
@@ -185,15 +185,15 @@ Rellene la información **AADAuthorityUrl** con la dirección URL que le permite
 
 Para insertar con el inquilino organizativo, use la dirección URL: *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Para insertar con un invitado, use la dirección URL: *`https://login.microsoftonline.com/report-owner-tenant-id`* , donde se agrega el identificador de inquilino del propietario del informe en sustitución de *report-owner-tenant-id*.
+Para insertar con un invitado, use la dirección URL: *`https://login.microsoftonline.com/report-owner-tenant-id`* , donde se agrega el identificador de inquilino del propietario del informe en sustitución de *report-owner-tenant-id* .
 
 ### <a name="run-the-application"></a>Ejecutar la aplicación
 
-1. Seleccione **Ejecutar** en **Visual Studio**.
+1. Seleccione **Ejecutar** en **Visual Studio** .
 
     ![Ejecutar la aplicación](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-2. Luego seleccione **Insertar informe**. En función del contenido con el que desee realizar las pruebas, es decir, informes, paneles o iconos, seleccione la opción correspondiente en la aplicación.
+2. Luego seleccione **Insertar informe** . En función del contenido con el que desee realizar las pruebas, es decir, informes, paneles o iconos, seleccione la opción correspondiente en la aplicación.
 
     ![Selección de contenido](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 

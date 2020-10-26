@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 893becbcfc7d58b04bbff2819baed4bbc829fe9d
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.date: 10/19/2020
+ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526683"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92257036"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: Preguntas frecuentes 
 
@@ -72,11 +72,11 @@ Recibe un mensaje de error y no se puede ver el informe hasta que la carga de tr
 
 Memoria predeterminada de cada SKU Premium en los informes paginados:
 
-- **P1/A4**: 20 % predeterminado; 10 % mínimo
-- **P2/A5**: 20 % predeterminado; 5 % mínimo
-- **P3/A6**: 20 % predeterminado; 2,5 % mínimo
+- **P1/A4** : 20 % predeterminado; 10 % mínimo
+- **P2/A5** : 20 % predeterminado; 5 % mínimo
+- **P3/A6** : 20 % predeterminado; 2,5 % mínimo
 
-Los administradores de Power BI pueden modificar el porcentaje de memoria máximo predeterminado en el portal de administración. Vea la sección de la carga de trabajo **Informes paginados** de **Power BI Premium** en la pestaña **Configuración de la capacidad**.
+Los administradores de Power BI pueden modificar el porcentaje de memoria máximo predeterminado en el portal de administración. Vea la sección de la carga de trabajo **Informes paginados** de **Power BI Premium** en la pestaña **Configuración de la capacidad** .
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Pestaña Configuración de la capacidad de Informes paginados":::
 
@@ -178,6 +178,12 @@ Sí, ahora puede buscar los informes paginados desde la sección de inicio.  Tam
 Debe tener en cuenta lo siguiente al trabajar con campos DateTime en informes paginados.
 
 - Actualmente, hay algunas limitaciones de globalización relacionadas con los parámetros DateTime. Todos los parámetros DateTime del servicio Power BI se capturan en el formato de EE. UU. (MM/DD/AAAA), independientemente de cómo se diseñe el parámetro DateTime en Power BI Report Builder.
+
+Al ver los informes paginados en el servicio Power BI, es posible que se agote el tiempo de espera de las sesiones, con lo que el usuario vería la siguiente notificación:
+
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Pestaña Configuración de la capacidad de Informes paginados":::
+
+- Se agotará el tiempo de espera de la sesión después de 60 minutos de inactividad o antes si el dispositivo está bloqueado o inactivo, o si el informe no se muestra en la pestaña activa del explorador.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

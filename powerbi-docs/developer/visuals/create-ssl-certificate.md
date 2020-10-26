@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: 8eeca13acb1568a671618dca75d20cb7667b538b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f6f458d2fe82668074d7cfb046cb5a72afa35c38
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747560"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92048795"
 ---
 # <a name="create-an-ssl-certificate"></a>Creación de un certificado SSL
 
 En este artículo se describe cómo generar e instalar certificados de Capa de sockets seguros (SSL) para objetos visuales de Power BI.
 
-Para los procedimientos de Windows, macOS X y Linux, debe tener instalado el paquete **pbiviz** de herramientas de objetos visuales de Power BI. Para más información, consulte [Configuración del entorno de desarrollo](./custom-visual-develop-tutorial.md#setting-up-the-developer-environment). 
+Para los procedimientos de Windows, macOS X y Linux, debe tener instalado el paquete **pbiviz** de herramientas de objetos visuales de Power BI. Para obtener más información, vea [Configuración del entorno para el desarrollo de un objeto visual de Power BI](./environment-setup.md). 
 
 ## <a name="create-a-certificate-on-windows"></a>Creación de un certificado en Windows
 
@@ -31,7 +31,7 @@ pbiviz --install-cert
 
 En Windows 7, la herramienta `pbiviz` requiere que la utilidad OpenSSL esté disponible desde la línea de comandos. Para instalar OpenSSL, vaya a [OpenSSL](https://www.openssl.org) o [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries).
 
-Para obtener más información e instrucciones para instalar un certificado, consulte la sección [Creación e instalación de un certificado](./custom-visual-develop-tutorial.md#windows).
+Para obtener más información e instrucciones para instalar un certificado, consulte la sección [Creación e instalación de un certificado](./environment-setup.md#create-and-install-a-certificate).
 
 ## <a name="create-a-certificate-on-macos-x"></a>Creación de un certificado en macOS X
 
@@ -39,14 +39,14 @@ La utilidad OpenSSL suele estar disponible en el sistema operativo macOS X.
 
 También puede instalar la utilidad OpenSSL si ejecuta alguno de los siguientes comandos:
 
-- En el administrador de paquetes *Brew*:
+- En el administrador de paquetes *Brew* :
   
   ```cmd
   brew install openssl
   brew link openssl --force
   ```
 
-- Mediante *MacPorts*:
+- Mediante *MacPorts* :
   
   ```cmd
   sudo port install openssl
@@ -58,7 +58,7 @@ Después de instalar la utilidad OpenSSL, ejecute el siguiente comando para gene
 pbiviz --install-cert
 ```
 
-Para obtener más información e instrucciones, consulte la sección sobre la [creación e instalación de un certificado para OS X](./custom-visual-develop-tutorial.md#osx).
+Para obtener más información e instrucciones, consulte la pestaña de OSX en [Creación e instalación de un certificado](./environment-setup.md#create-and-install-a-certificate).
 
 ## <a name="create-a-certificate-on-linux"></a>Creación de un certificado en Linux
 
@@ -99,7 +99,7 @@ openssl x509 -outform pem -in /tmp/local-root-ca.pem -out /tmp/local-root-ca.crt
 
 ### <a name="generate-a-certificate-for-localhost"></a>Generación de un certificado para localhost 
 
-Para generar un certificado para `localhost` mediante entidad de certificado generada y para *OpenSSL.cnf*, ejecute los siguientes comandos:
+Para generar un certificado para `localhost` mediante entidad de certificado generada y para *OpenSSL.cnf* , ejecute los siguientes comandos:
 
 ```sh
 PBIVIZ=`which pbiviz`
@@ -170,11 +170,11 @@ Normalmente, puede encontrar los certificados de servidor web correspondientes a
 
 ### <a name="pem-format"></a>Formato PEM
 
-Si usa el formato de certificados de correo mejorados de privacidad (PEM), guarde el archivo de certificado como *PowerBIVisualTest_public.crt* y guarde la clave privada como *PowerBIVisualTest_public.crt*.
+Si usa el formato de certificados de correo mejorados de privacidad (PEM), guarde el archivo de certificado como *PowerBIVisualTest_public.crt* y guarde la clave privada como *PowerBIVisualTest_public.crt* .
 
 ### <a name="pfx-format"></a>Formato PFX
 
-Si usa el formato de certificado de intercambio de información personal (PFX), guarde el archivo de certificado como *PowerBIVisualTest_public.pfx*.
+Si usa el formato de certificado de intercambio de información personal (PFX), guarde el archivo de certificado como *PowerBIVisualTest_public.pfx* .
 
 Si el archivo de certificado PFX requiere una frase de contraseña:
 
@@ -199,6 +199,6 @@ Si el archivo de certificado PFX requiere una frase de contraseña:
     ```
 
 ## <a name="next-steps"></a>Pasos siguientes
-- [Desarrollo de un objeto visual de Power BI](custom-visual-develop-tutorial.md)
+- [Desarrollo de un objeto visual Circle Card de Power BI](develop-circle-card.md)
 - [Ejemplos de objetos visuales de Power BI](samples.md)
 - [Publicación de objetos visuales de Power BI en AppSource](office-store.md)

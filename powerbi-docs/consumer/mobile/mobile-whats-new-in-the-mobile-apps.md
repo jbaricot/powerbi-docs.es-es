@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d2e229dda05c1761fdaa5c7336c0eca5db538e46
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860242"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92026057"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -25,9 +25,23 @@ Para obtener información sobre novedades, vea:
 >[!NOTE]
 >El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
+## <a name="october-2020"></a>Octubre de 2020
+### <a name="automatic-page-refresh-is-now-supported-windows"></a>Ya se admite la actualización automática de página (Windows)
+
+Ahora, las páginas de informe configuradas con la [actualización automática de página](../../create-reports/desktop-automatic-page-refresh.md) también se actualizarán automáticamente en la aplicación Power BI para dispositivos Windows. Y no solo en la vista de informes normal. Con la actualización automática de página, las [presentaciones y diapositivas](mobile-windows-10-app-presentation-mode.md#slideshows) se actualizarán en tiempo real, lo que asegurará que siempre verá los últimos datos empresariales y conclusiones.
+
+### <a name="support-for-notch-displays-ios"></a>Compatibilidad con pantallas con muesca (iOS)
+Hemos agregado compatibilidad para el uso de pantallas con muesca en iPhone y iPad, lo que le proporcionará más espacio en pantalla para sus informes y paneles. 
+
+## <a name="september-2020"></a>Septiembre de 2020
+### <a name="power-bi-app-preview-for-hololens-2-is-out-in-the-stores"></a>La aplicación Power BI (versión preliminar) para HoloLens 2 ya está en las tiendas.
+
+La aplicación Power BI para HoloLens 2 ofrece una experiencia completamente envolvente. Con el sistema de gestos manuales de HoloLens 2, puede sacar sus informes y paneles favoritos del conjunto de herramientas, cambiar su tamaño y colocarlos donde los necesite, e incluso navegar por las páginas del informe. Los informes y los paneles se actualizan mientras se usa la aplicación, por lo que si cambian los datos, los cambios se verán inmediatamente. Obtenga más información en nuestra [documentación](mobile-hololens2-app.md) y [blog](https://powerbi.microsoft.com/blog/power-bi-app-for-mixed-reality-now-available-for-hololens-2/).
+
+
 ## <a name="august-2020"></a>Agosto de 2020
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>Se ha mejorado la forma de navegar por el contenido (iOS y Android)
-Ahora puede desplazarse por el contenido de forma rápida y sencilla con un **nuevo árbol de navegación**, disponible en la lista desplegable de encabezados en informes, paneles y aplicaciones. Verá la jerarquía de la ubicación del contenido de un vistazo y podrá desplazarse fácilmente por ella, ir a contenido relacionado, o incluso volver a la página principal. Si el elemento que ve forma parte de una aplicación, en el árbol se muestra todo el contenido de la aplicación: secciones, vínculos y todos los informes y paneles. Si el elemento que ve es un informe, también encontrará una lista de todas las páginas del informe visibles. Nunca ha sido tan fácil pasar de una página a otra. ¡Compruébelo! 
+Ahora puede desplazarse por el contenido de forma rápida y sencilla con un **nuevo árbol de navegación** , disponible en la lista desplegable de encabezados en informes, paneles y aplicaciones. Verá la jerarquía de la ubicación del contenido de un vistazo y podrá desplazarse fácilmente por ella, ir a contenido relacionado, o incluso volver a la página principal. Si el elemento que ve forma parte de una aplicación, en el árbol se muestra todo el contenido de la aplicación: secciones, vínculos y todos los informes y paneles. Si el elemento que ve es un informe, también encontrará una lista de todas las páginas del informe visibles. Nunca ha sido tan fácil pasar de una página a otra. ¡Compruébelo! 
 
 ![Captura de pantalla del árbol de navegación de la aplicación móvil de Power BI.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-nav-tree1.png)
 
@@ -119,8 +133,8 @@ Las anotaciones que cree durante las presentaciones se convierten en parte integ
 ### <a name="docked-report-footer-and-a-refresh-button---new-experiences-for-interacting-with-reports-android"></a>Pie de página de informe acoplado y un botón Actualizar: nuevas experiencias para interactuar con informes (Android)
 
 Nuestros usuarios de Android nos han hecho saber que su experiencia al usar los informes no es óptima, ya que les resulta difícil usar el pie de página del informe y que deslizar para actualizar es demasiado sensible en algunos dispositivos. Por tanto, en esta versión, estos comportamientos se han cambiado:
-* **Pie de página de informe acoplado**: ahora, al abrir un informe en el teléfono, encontrará el pie de página del informe acoplado en la parte inferior de la página del informe, donde siempre estará visible y disponible, con independencia de las acciones que realice en la página. Esto facilita el uso de todas las opciones que proporciona.
-* **Botón Actualizar en el encabezado del informe**: también encontrará un botón Actualizar en el encabezado del informe, lo que facilitará la actualización del informe exactamente cuando quiera.
+* **Pie de página de informe acoplado** : ahora, al abrir un informe en el teléfono, encontrará el pie de página del informe acoplado en la parte inferior de la página del informe, donde siempre estará visible y disponible, con independencia de las acciones que realice en la página. Esto facilita el uso de todas las opciones que proporciona.
+* **Botón Actualizar en el encabezado del informe** : también encontrará un botón Actualizar en el encabezado del informe, lo que facilitará la actualización del informe exactamente cuando quiera.
 
 Los usuarios que prefieran el comportamiento anterior pueden restaurarlo con la nueva [configuración de la interacción](./mobile-app-interaction-settings.md) de la aplicación móvil.
 
@@ -451,7 +465,7 @@ Cuando mantiene pulsado un objeto visual de informe visual para acceder a inform
 
 #### <a name="report-favorites"></a>Marca de informes como favoritos
 
-Etiquete los informes como favoritos para que aparezcan en la página**Favoritos**. Obtenga más información sobre los [favoritos en las aplicaciones móviles Power BI](mobile-apps-favorites.md).
+Etiquete los informes como favoritos para que aparezcan en la página **Favoritos** . Obtenga más información sobre los [favoritos en las aplicaciones móviles Power BI](mobile-apps-favorites.md).
 
 #### <a name="view-shared-reports"></a>Vista de informes compartidos
 
@@ -477,7 +491,7 @@ Hemos hecho una serie de cambios que permiten administrar con más precisión lo
 
 #### <a name="auto-installed-apps"></a>Instalación automática de aplicaciones
 
-No es necesario instalar algunas de las aplicaciones en Power BI. Los creadores de aplicaciones de Power BI de su organización pueden crear *aplicaciones* que contienen una colección de paneles e informes. A continuación, pueden publicar la aplicación y establecer que se instale automáticamente en el servicio Power BI y en las aplicaciones móviles de Power BI. Cuando una aplicación está configurada para instalarse automáticamente, aparece directamente en el menú **Aplicaciones**:
+No es necesario instalar algunas de las aplicaciones en Power BI. Los creadores de aplicaciones de Power BI de su organización pueden crear *aplicaciones* que contienen una colección de paneles e informes. A continuación, pueden publicar la aplicación y establecer que se instale automáticamente en el servicio Power BI y en las aplicaciones móviles de Power BI. Cuando una aplicación está configurada para instalarse automáticamente, aparece directamente en el menú **Aplicaciones** :
 
 ![Aplicaciones en las aplicaciones móviles de Power BI](./media/mobile-whats-new-in-the-mobile-apps/power-bi-apps-mobile-apps.png)
 
@@ -756,10 +770,10 @@ El centro de notificaciones en su aplicación móvil Power BI muestra los nuevos
 
 ### <a name="may-2016"></a>Mayo de 2016
 #### <a name="ios-devices-and-android-phones"></a>Dispositivos iOS y teléfonos Android
-* Ahora también hay **Códigos QR** disponibles **para informes**. Escanee el código con su aplicación Power BI para ir directamente a un informe relacionado, sin necesidad de navegación ni búsquedas.
+* Ahora también hay **Códigos QR** disponibles **para informes** . Escanee el código con su aplicación Power BI para ir directamente a un informe relacionado, sin necesidad de navegación ni búsquedas.
 * **Administración de datos mejorada** para SQL Server 2016 Reporting Services: menores tiempos de carga y consumo de datos en su dispositivo.
-* **Informes móviles temáticos de SQL Server 2016**: consulte los temas para informes móviles en su dispositivo.
-* **Filtrado geográfico**: filtre informes por su ubicación actual.
+* **Informes móviles temáticos de SQL Server 2016** : consulte los temas para informes móviles en su dispositivo.
+* **Filtrado geográfico** : filtre informes por su ubicación actual.
 
 ### <a name="april-2016"></a>Abril de 2016
 Consulte el [blog de abril de Power BI Mobile Apps](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/) para más información.
@@ -775,7 +789,7 @@ Consulte el [blog de abril de Power BI Mobile Apps](https://powerbi.microsoft.co
 #### <a name="power-bi-app-for-windows-10-devices"></a>Aplicación de Power BI para dispositivos con Windows 10
 * **Modo de presentación** Visualice paneles e informes de Power BI en modo de presentación desde la aplicación Power BI.
 * **Informes móviles de SQL Server 2016 [Reporting Services](mobile-app-windows-10-ssrs-kpis-mobile-reports.md)** ahora en dispositivos Windows 10.
-* Cuando mantenga el mouse sobre un icono de panel verá **información sobre herramientas de datos**.
+* Cuando mantenga el mouse sobre un icono de panel verá **información sobre herramientas de datos** .
 
 ### <a name="march-2016"></a>Marzo de 2016
 Lea el [blog de Power BI Mobile Apps de marzo de 2016](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-march-2016/).

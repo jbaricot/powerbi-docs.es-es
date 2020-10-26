@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 09/25/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8dd6e64943ea05f2219efa471cd3fcfa4152650b
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 4eae96dbdddae82a7f74f27c835874a19b04a69f
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160590"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256852"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Permitir a los usuarios personalizar los objetos visuales en un informe
 
@@ -24,9 +24,9 @@ Al compartir un informe con un público amplio, es posible que algunos de los us
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-visual.png" alt-text="Personalizar un objeto visual":::
  
-## <a name="what-report-consumers-can-change"></a>Qué pueden cambiar los consumidores del informe
+## <a name="what-report-users-can-change"></a>Qué pueden cambiar los usuarios del informe
 
-Esta característica permite a los consumidores obtener información adicional a través de la exploración ad hoc de objetos visuales en un informe de Power BI. Para aprender a usar esta característica como consumidor, consulte [Personalización de objetos visuales en un informe](../consumer/end-user-personalize-visuals.md). La característica es ideal para los creadores de informes que quieran habilitar escenarios de exploración básicos para los lectores de informes. Estas son las modificaciones que pueden realizar los lectores de informes:
+Esta característica permite a los usuarios empresariales obtener información adicional a través de la exploración ad hoc de objetos visuales en un informe de Power BI. Para aprender a usar esta característica como usuario, consulte [Personalización de objetos visuales en un informe](../consumer/end-user-personalize-visuals.md). La característica es ideal para los creadores de informes que quieran habilitar escenarios de exploración básicos para los lectores de informes. Estas son las modificaciones que pueden realizar los lectores de informes:
 
 - Cambiar el tipo de visualización
 - Intercambiar una medida o una dimensión
@@ -34,7 +34,7 @@ Esta característica permite a los consumidores obtener información adicional a
 - Comparar dos o más medidas
 - Cambiar agregaciones, etc.
 
-Esta característica no solo incorpora nuevas funcionalidades de exploración, sino que también permite que los consumidores capturen y compartan sus cambios:
+Esta característica no solo incorpora nuevas funcionalidades de exploración, sino que también permite que los usuarios capturen y compartan sus cambios:
 
 - Capturar los cambios
 - Compartir los cambios
@@ -60,7 +60,7 @@ Para usar las perspectivas, debe habilitar Personalizar objetos visuales para el
 
 Para crear la perspectiva, use [Tabular Editor](https://tabulareditor.com/), que puede descargar de la siguiente ubicación: Descarga de Tabular Editor
 
-Una vez que instale **Tabular Editor**, abra el informe en **Power BI Desktop** e inicie **Tabular Editor** desde la pestaña **Herramientas externas** de la cinta, como se muestra en la imagen siguiente.
+Una vez que instale **Tabular Editor** , abra el informe en **Power BI Desktop** e inicie **Tabular Editor** desde la pestaña **Herramientas externas** de la cinta, como se muestra en la imagen siguiente.
 
 ![Tabular Editor en la cinta de Herramientas externas](media/power-bi-personalize-visuals/power-bi-personalize-perspective-02.png)
 
@@ -82,11 +82,11 @@ Después de agregar todos los campos que quiere, asegúrese de guardar la config
 
 ![Guardado de la configuración de perspectivas en Tabular Editor y Power BI Desktop](media/power-bi-personalize-visuals/power-bi-personalize-perspective-06.png)
 
-Una vez que haya guardado la nueva perspectiva en el modelo y el informe de Power BI Desktop, vaya al panel **Formato** de la página, donde verá una nueva sección **Personalizar objeto visual**.
+Una vez que haya guardado la nueva perspectiva en el modelo y el informe de Power BI Desktop, vaya al panel **Formato** de la página, donde verá una nueva sección **Personalizar objeto visual** .
 
 ![Sección Personalizar objeto visual en el panel Formato](media/power-bi-personalize-visuals/power-bi-personalize-perspective-07.png)
 
-La selección de *Perspectiva del lector de informes* se establece inicialmente en *Campos predeterminados*. Una vez que haya seleccionado la flecha desplegable, verá las otras perspectivas que ha creado.
+La selección de *Perspectiva del lector de informes* se establece inicialmente en *Campos predeterminados* . Una vez que haya seleccionado la flecha desplegable, verá las otras perspectivas que ha creado.
 
 ![Selección de la flecha desplegable para ver las otras perspectivas](media/power-bi-personalize-visuals/power-bi-personalize-perspective-08.png)
 
@@ -94,63 +94,56 @@ Después de establecer la perspectiva de la página del informe, la experiencia 
 
 ![Selección de Aplicar a todas las páginas para aplicar la perspectiva a todo el informe](media/power-bi-personalize-visuals/power-bi-personalize-perspective-09.png)
 
-
-## <a name="turn-on-the-preview-feature"></a>Habilitar la característica en vista previa
-
-Puesto que esta característica está en vista previa, primero debe activar el cambio de características. Vaya a **Archivo** > **Opciones y configuración** > **Opciones**. En **Configuración global** > **Características en vista previa**, asegúrese de que **Personalizar objetos visuales** está seleccionado.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-preview-personalize-visual.png" alt-text="Activar la personalización de objetos visuales":::
-
-Es posible que tenga que reiniciar Power BI Desktop para verlo en la configuración del archivo actual.
-
 ## <a name="enable-personalization-in-a-report"></a>Habilitar la personalización en un informe
-
-Después de activar la modificación de vista previa, deberá habilitarla específicamente para los informes para los que quiere que los consumidores puedan personalizar objetos visuales.
 
 Puede habilitar la característica en Power BI Desktop o en el servicio Power BI.
 
 ### <a name="in-power-bi-desktop"></a>En Power BI Desktop
 
-Para habilitar la característica en Power BI Desktop, vaya a **Archivo** > **Opciones y configuración** > **Opciones** > **Archivo actual** > **Configuración del informe**. Asegúrese de que **Personalizar objetos visuales (vista previa)** está activada.
+Para habilitar la característica en Power BI Desktop, vaya a **Archivo** > **Opciones y configuración** > **Opciones** > **Archivo actual** > **Configuración del informe** . Asegúrese de que **Personalizar objetos visuales** está activo.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-settings-personalize-visual.png" alt-text="Habilitar la personalización en un informe":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="Personalizar un objeto visual":::
 
 ### <a name="in-the-power-bi-service"></a>En el servicio Power BI
 
 Para habilitar la característica en el servicio Power BI en su lugar, vaya a **Configuración** en el informe.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Configuración del informe en el servicio Power BI":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Personalizar un objeto visual":::
 
-Active **Personalizar objetos visuales (vista previa)**  > **Guardar**.
+Active **Personalizar objetos visuales** > **Guardar** .
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-personalize-visual.png" alt-text="Activar la personalización de objetos visuales en el servicio":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="Personalizar un objeto visual":::
 
-## <a name="select-visuals-that-can-be-personalized"></a>Seleccionar objetos visuales que se puedan personalizar
+## <a name="turn-the-feature-on-or-off-at-a-page-or-visual-level"></a>Activación o desactivación de la característica a nivel de página o de objeto visual
 
-Cuando se habilita esta opción para un informe determinado, todos los objetos visuales del informe se pueden personalizar de forma predeterminada. Si no quiere que se personalicen todos los objetos visuales, puede activar o desactivar la configuración según el objeto visual.
+Cuando se habilita Personalizar objetos visuales para un informe determinado, todos los objetos visuales del informe se pueden personalizar de forma predeterminada. Si no quiere que se personalicen todos los objetos visuales, puede activar o desactivar la configuración según el objeto visual o la página.
 
-Seleccione el objeto visual, seleccione **Formato** en el panel **Visualizaciones** y expanda **Encabezado de objeto visual**.
+### <a name="per-page"></a>Por página
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Seleccionar el encabezado el objeto visual":::
+Seleccione la pestaña de página > seleccione **Formato** en el panel **Visualizaciones** .
+
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="Personalizar un objeto visual":::
  
-Deslice **Personalizar objeto visual** >  **Activar** o **Desactivar**.
+Deslice **Personalizar objeto visual** >  **Activar** o **Desactivar** .
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Activar o desactivar personalización del objeto visual":::
+### <a name="per-visual"></a>Por objeto visual
+
+Seleccione el objeto visual, seleccione **Formato** en el panel **Visualizaciones** y expanda **Encabezado de objeto visual** .
+
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Personalizar un objeto visual":::
+ 
+Deslice **Personalizar objeto visual** >  **Activar** o **Desactivar** .
+
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Personalizar un objeto visual":::
 
 
-## <a name="limitations-and-known-issues"></a>Limitaciones y problemas conocidos
+## <a name="limitations"></a>Limitaciones
 
 Actualmente, la característica tiene algunas limitaciones que se deben tener en cuenta.
 
-- Esta característica no es compatible con escenarios de inserción, incluido publicar en la web.
+- Esta característica no se admite para Publicar en Web.
 - Las exploraciones de los usuarios no se conservan automáticamente. Debe guardar la vista como un marcador personal para capturar los cambios.
 - Esta característica se admite en las aplicaciones móviles de Power BI para tabletas iOS y Android, así como en su versión para Windows; no se admite en las aplicaciones móviles de Power BI para teléfonos. Pero cualquier cambio en un objeto visual que guarde en un marcador personal mientras se encuentre en el servicio Power BI se respetará en todas las aplicaciones móviles de Power BI.
-
-También hay algunos problemas conocidos que estamos tratando:
-
-- no se admite la adición de jerarquías; debe agregar los elementos secundarios individuales.
-- No se puede cambiar una jerarquía de fecha a una fecha, o viceversa. 
-- Con los marcadores personales, podría obtener resultados ligeramente diferentes en función de la secuencia que seleccione. Las discrepancias son posibles porque no capturamos el estado completo del informe, sino solo las modificaciones realizadas. La solución consiste en seleccionar **Restablecer valores predeterminados** y luego seleccionar el marcador que quiere ver. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 

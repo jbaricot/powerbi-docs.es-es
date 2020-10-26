@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 2978401c7ec949c8c8df7c813395b3d84db18b72
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f3a3551db1d7d995db0194ff7fa9b7141415c9eb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232663"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525556"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Depuración de objetos visuales de Power BI
 
@@ -74,20 +74,20 @@ También puede establecer que el explorador se interrumpa en las excepciones det
 ### <a name="edge"></a>Microsoft Edge
 
 1. Abra las herramientas de desarrollo (F12).
-2. Vaya a la pestaña **Depurador**.
+2. Vaya a la pestaña **Depurador** .
 3. Haga clic en el icono de **interrupción en excepciones** (hexágono con un símbolo de pausa).
-4. Seleccione **Interrumpir en todas las excepciones**.
+4. Seleccione **Interrumpir en todas las excepciones** .
 
-![Campos de roles de datos](media/visuals-how-to-debug/how-to-debug-edge.png)
+![Captura de pantalla que muestra la pestaña Depurador con la opción Interrumpir en todas las excepciones seleccionada.](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
 1. Abra las herramientas de desarrollo (F12).
-2. Vaya a la pestaña **Origen**.
+2. Vaya a la pestaña **Origen** .
 3. Haga clic en el icono de **interrupción en excepciones** (signo de parada con un símbolo de pausa).
-4. Active la casilla para **pausar en las excepciones detectadas**.
+4. Active la casilla para **pausar en las excepciones detectadas** .
 
-![Campos de roles de datos](media/visuals-how-to-debug/how-to-debug-chrome.png)
+![Captura de pantalla que muestra la pestaña Orígenes con la opción Pause On Caught Exceptions (Pausar en excepciones detectadas) seleccionada.](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Solución de problemas con los objetos visuales de Power BI](power-bi-custom-visuals-troubleshoot.md)

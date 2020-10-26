@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 06/01/2020
-ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/15/2020
+ms.openlocfilehash: 3d25fe925b98dbdd74d61fd70320bd4275db35e3
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749193"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197780"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Inserción de contenido de Power BI con entidades de servicio y un certificado
 
@@ -35,17 +35,48 @@ Puede obtener más información sobre los certificados en Azure AD en la págin
 
 Para usar la entidad de servicio y un certificado con análisis insertados, siga estos pasos:
 
-1. Cree un certificado.
+1. Cree una aplicación de Azure AD.
 
-2. Cree una aplicación de Azure AD.
+2. Cree de un grupo de seguridad de Azure AD.
 
-3. Establezca la autenticación de certificado.
+3. Habilite la configuración de administración del servicio Power BI.
 
-4. Obtenga el certificado de Azure Key Vault.
+4. Agregue la entidad de servicio a su área de trabajo.
 
-5. Realice la autenticación mediante la entidad de servicio y el certificado.
+5. Cree un certificado.
 
-## <a name="step-1---create-a-certificate"></a>Paso 1: Creación de un certificado
+6. Establezca la autenticación de certificado.
+
+7. Obtenga el certificado de Azure Key Vault.
+
+8. Realice la autenticación mediante la entidad de servicio y el certificado.
+
+## <a name="step-1---create-an-azure-ad-application"></a>Paso 1: Creación de una aplicación de Azure AD
+
+[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
+
+### <a name="creating-an-azure-ad-app-using-powershell"></a>Creación de una aplicación de Azure AD con PowerShell
+
+En esta sección se incluye un script de ejemplo para crear una nueva aplicación de Azure AD con [PowerShell](/powershell/azure/create-azure-service-principal-azureps).
+
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
+
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
+
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
+
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
+```
+
+[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
+
+## <a name="step-5---create-a-certificate"></a>Paso 5: Creación de un certificado
 
 Puede adquirir un certificado de una *entidad de certificación* de confianza, o bien generarlo personalmente.
 
@@ -53,65 +84,61 @@ En esta sección se describe la creación de un certificado mediante [Azure Key 
 
 1. Inicie sesión en [Microsoft Azure](https://ms.portal.azure.com/#allservices).
 
-2. Busque **Almacenes de claves** y haga clic en el vínculo **Almacenes de claves**.
+2. Busque **Almacenes de claves** y haga clic en el vínculo **Almacenes de claves** .
 
-    ![Almacén de claves](media/embed-service-principal-certificate/key-vault.png)
+    ![Captura de pantalla que muestra un vínculo al almacén de claves en Azure Portal.](media/embed-service-principal-certificate/key-vault.png)
 
 3. Haga clic en el almacén de claves al que quiera agregar un certificado.
 
-    ![Selección de almacén de claves](media/embed-service-principal-certificate/select-key-vault.png)
+    ![Captura de pantalla que muestra una lista de almacenes de claves desenfocados en Azure Portal.](media/embed-service-principal-certificate/select-key-vault.png)
 
-4. Haga clic en **Certificados**.
+4. Haga clic en **Certificados** .
 
-    ![En la captura de pantalla se muestra la página Almacenes de claves con la opción Certificados resaltada.](media/embed-service-principal-certificate/certificates.png)
+    ![Captura de pantalla que muestra la página Almacenes de claves con la opción Certificados resaltada.](media/embed-service-principal-certificate/certificates.png)
 
-5. Haga clic en **Generar o importar**.
+5. Haga clic en **Generar o importar** .
 
-    ![En la captura de pantalla se muestra el panel de certificados con la opción Generar o importar resaltada.](media/embed-service-principal-certificate/generate.png)
+    ![Captura de pantalla que muestra el panel Certificados con la opción Generar o importar resaltada.](media/embed-service-principal-certificate/generate.png)
 
 6. Configure los campos **Creación de certificado** de esta forma:
 
-    * **Método de creación de certificados**: General
+    * **Método de creación de certificados** : General
 
-    * **Nombre del certificado**: escriba un nombre para el certificado
+    * **Nombre del certificado** : escriba un nombre para el certificado
 
     * **Tipo de entidad de certificación (CA)** : certificado autofirmado
 
-    * **Asunto**: un nombre distintivo [X.500](https://wikipedia.org/wiki/X.500)
+    * **Asunto** : un nombre distintivo [X.500](https://wikipedia.org/wiki/X.500)
 
-    * **Nombres DNS**: 0 nombres DNS
+    * **Nombres DNS** : 0 nombres DNS
 
     * **Período de validez (en meses)** : escriba la duración de validez del certificado
 
-    * **Tipo de contenido**: PKCS #12
+    * **Tipo de contenido** : PKCS #12
 
-    * **Tipo de acción de duración**: Renovar automáticamente cuando se llegue a un porcentaje determinado de duración
+    * **Tipo de acción de duración** : Renovar automáticamente cuando se llegue a un porcentaje determinado de duración
 
-    * **Porcentaje de duración**: 80
+    * **Porcentaje de duración** : 80
 
-    * **Configuración de directiva avanzada**: no configurado
+    * **Configuración de directiva avanzada** : no configurado
 
-7. Haga clic en **Crear**. El certificado recién creado está deshabilitado de forma predeterminada. Puede tardar hasta cinco minutos en habilitarse.
+7. Haga clic en **Crear** . El certificado recién creado está deshabilitado de forma predeterminada. Puede tardar hasta cinco minutos en habilitarse.
 
 8. Seleccione el certificado que ha creado.
 
-9. Haga clic en **Descargar en formato CER**. El archivo descargado contiene la clave pública.
+9. Haga clic en **Descargar en formato CER** . El archivo descargado contiene la clave pública.
 
-    ![Descarga como CER](media/embed-service-principal-certificate/download-cer.png)
+    ![Captura de pantalla que muestra el botón Descargar en formato cer.](media/embed-service-principal-certificate/download-cer.png)
 
-## <a name="step-2---create-an-azure-ad-application"></a>Paso 2: Creación de una aplicación de Azure AD
+## <a name="step-6---set-up-certificate-authentication"></a>Paso 6: Configuración de la autenticación de certificado
 
-[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
+1. En la aplicación Azure AD, haga clic en la pestaña **Certificados y secretos** .
 
-## <a name="step-3---set-up-certificate-authentication"></a>Paso 3: Configuración de la autenticación de certificado
+     ![Captura de pantalla que muestra el panel Certificados y secretos para una aplicación en Azure Portal.](media/embed-service-principal/certificates-and-secrets.png)
 
-1. En la aplicación Azure AD, haga clic en la pestaña **Certificados y secretos**.
+2. Haga clic en **Cargar certificado** y cargue el archivo *.cer* que ha creado y descargado en el [primer paso](#step-5---create-a-certificate) de este tutorial. El archivo *.cer* contiene la clave pública.
 
-     ![En la captura de pantalla se muestra el panel Certificados y secretos para una aplicación en Azure Portal.](media/embed-service-principal/certificates-and-secrets.png)
-
-2. Haga clic en **Cargar certificado** y cargue el archivo *.cer* que ha creado y descargado en el [primer paso](#step-1---create-a-certificate) de este tutorial. El archivo *.cer* contiene la clave pública.
-
-## <a name="step-4---get-the-certificate-from-azure-key-vault"></a>Paso 4: Obtención del certificado de Azure Key Vault
+## <a name="step-7---get-the-certificate-from-azure-key-vault"></a>Paso 7: Obtención del certificado de Azure Key Vault
 
 Use Managed Service Identity (MSI) para obtener el certificado de Azure Key Vault. Este proceso implica obtener el certificado *.pfx* que contiene las claves pública y privada.
 
@@ -138,7 +165,7 @@ private X509Certificate2 ReadCertificateFromVault(string certName)
 }
 ```
 
-## <a name="step-5---authenticate-using-service-principal-and-a-certificate"></a>Paso 5: Autenticación mediante una entidad de servicio y un certificado
+## <a name="step-8---authenticate-using-service-principal-and-a-certificate"></a>Paso 8: Autenticación mediante una entidad de servicio y un certificado
 
 Puede autenticar la aplicación con la entidad de servicio y un certificado almacenado en Azure Key Vault mediante la conexión a Azure Key Vault.
 
@@ -179,13 +206,13 @@ Al crear la solución insertada, puede resultar útil configurar Visual Studio 
 
 1. Abra el proyecto en Visual Studio.
 
-2. Haga clic en **Herramientas** > **Opciones**.
+2. Haga clic en **Herramientas** > **Opciones** .
 
-     ![Opciones de Visual Studio](media/embed-service-principal-certificate/visual-studio-options.png)
+     ![Captura de pantalla que muestra el botón Opciones en el menú Herramientas de Visual Studio.](media/embed-service-principal-certificate/visual-studio-options.png)
 
-3. Busque **Selección de cuentas** y haga clic en **Selección de cuentas**.
+3. Busque **Selección de cuentas** y haga clic en **Selección de cuentas** .
 
-    ![Selección de cuentas](media/embed-service-principal-certificate/account-selection.png)
+    ![Captura de pantalla que muestra la opción de selección de cuenta en la ventana Opciones de Visual Studio.](media/embed-service-principal-certificate/account-selection.png)
 
 4. Agregue la cuenta que tenga acceso a la instancia de Azure Key Vault.
 

@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/06/2020
+ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e74bb6b2d3414e37924319016a0fab421dd096e
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: bbcac4eb3adf8fe47ff6576e15d8d1334a8c13f0
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536110"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830401"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Segmentaciones en el servicio Power BI
 
@@ -29,7 +29,7 @@ Una segmentación es un tipo de objeto visual que filtra los demás objetos visu
 Al crear informes, los *diseñadores* agregan segmentaciones de datos para ayudar a contar una historia y proporcionarle herramientas para explorar los datos.
 
 ### <a name="numeric-range-slicer"></a>Segmentación de rango numérico
- La segmentación de rango numérico anterior le ayuda a explorar las ventas totales por geografía, unidades en existencias y fecha de pedido. Use los controladores para seleccionar un rango. 
+ La segmentación de intervalos numéricos le ayuda a explorar los datos cuantitativos, como las ventas totales por geografía, unidades en existencias y fecha de pedido. Use los controladores para seleccionar un rango. 
 
 ![Los identificadores de una segmentación de rango](media/end-user-slicer/power-bi-handles.png)
 

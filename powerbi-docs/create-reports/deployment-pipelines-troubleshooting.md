@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: f7b37392581ad532093b0a543fe75cdb969d2c86
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 0a90c03c516b64e5a0a81c6a2bbdf0049d48b76f
+ms.sourcegitcommit: be0971576a3f1af7a064371c9cf27dd462dfca82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855385"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "92080263"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Solución de problemas de las canalizaciones de implementación
 
@@ -152,11 +152,11 @@ El modelo de permisos de canalizaciones de implementación se describe en la sec
 
 El contenido se puede implementar en una fase vacía o en una fase con contenido. El contenido debe residir en una [capacidad Premium](../admin/service-premium-what-is.md).
 
-* **Implementación en una fase vacía**: cualquier [usuario Pro](../admin/service-admin-purchasing-power-bi-pro.md) que sea miembro o administrador en el área de trabajo de origen.
+* **Implementación en una fase vacía** : cualquier [usuario Pro](../admin/service-admin-purchasing-power-bi-pro.md) que sea miembro o administrador en el área de trabajo de origen.
 
-* **Implementación en una fase con contenido**: cualquier [usuario Pro](../admin/service-admin-purchasing-power-bi-pro.md) que sea miembro o administrador de ambas áreas de trabajo en las fases de implementación de origen y destino.
+* **Implementación en una fase con contenido** : cualquier [usuario Pro](../admin/service-admin-purchasing-power-bi-pro.md) que sea miembro o administrador de ambas áreas de trabajo en las fases de implementación de origen y destino.
 
-* **Invalidación de un conjunto de datos**: la implementación invalida cada conjunto de datos que se incluye en la fase de destino, aunque no se haya cambiado. El usuario debe ser propietario de todos los conjuntos de datos de la fase de destino especificados en la implementación.
+* **Invalidación de un conjunto de datos** : la implementación invalida cada conjunto de datos que se incluye en la fase de destino, aunque no se haya cambiado. El usuario debe ser propietario de todos los conjuntos de datos de la fase de destino especificados en la implementación.
 
 ### <a name="which-permissions-do-i-need-to-configure-dataset-rules"></a>¿Qué permisos son necesarios para configurar reglas de conjunto de datos?
 
