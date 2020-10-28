@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 01d1e48537b2d373be3897259f8ac6e97886f268
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525809"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680978"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Preparación para migrar a Power BI
 
@@ -79,7 +79,7 @@ Algunos puntos críticos que se deben abordar al principio de una implementació
 - Preferencias relacionadas con los [modos de conjuntos de datos](../connect-data/service-dataset-modes-understand.md), como el uso del modo de importación, el modo DirectQuery o la combinación de los dos modos en un [modelo compuesto](composite-model-guidance.md).
 - [Protección de datos y acceso](../admin/service-admin-power-bi-security.md).
 - Trabajo con [conjuntos de datos compartidos](../connect-data/service-datasets-share.md) para la reutilización.
-- Aplicación de [certificación de datos](../connect-data/service-datasets-certify.md) para fomentar el uso de datos acreditados y de confianza.
+- Aplicación de [certificación de datos](../collaborate-share/service-endorsement-overview.md) para fomentar el uso de datos acreditados y de confianza.
 - Uso de diferentes [tipos de informes](../create-reports/index.yml), incluidos informes de Power BI, informes de Excel o informes paginados para diferentes casos de uso o unidades de negocio.
 - Enfoques de administración de cambios para administrar artefactos de BI centralizados y artefactos de BI administrados por la empresa.
 - Planes de aprendizaje para consumidores, modeladores de datos, autores de informes y administradores.

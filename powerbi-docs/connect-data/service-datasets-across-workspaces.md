@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e943324106148bdbff1edba36650d494fdd9db8c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 23d520815c47c9ff9f1ec045ec67921141e8eb7a
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374278"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681164"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>Introducción a los conjuntos de datos en áreas de trabajo
 
@@ -47,7 +47,7 @@ Con el tipo de permiso de compilación, si es creador de un conjunto de datos, p
 
 ## <a name="promotion-and-certification"></a>Promoción y certificación
 
-Si crea conjuntos de datos, al crear uno del que otros usuarios se puedan beneficiar, puede facilitar su detección si [promociona el conjunto de datos](service-datasets-promote.md). También puede solicitar que los expertos de la organización [certifiquen el conjunto de datos](service-datasets-certify.md).
+Si crea conjuntos de datos, al crear uno del que otros usuarios se puedan beneficiar, puede facilitar su detección si [promociona el conjunto de datos](../collaborate-share/service-endorse-content.md#promote-content). También puede solicitar que los expertos de la organización [certifiquen el conjunto de datos](../collaborate-share/service-endorse-content.md#request-content-certification).
 
 ## <a name="licensing"></a>Licencias
 
@@ -69,7 +69,8 @@ Las características y experiencias específicas basadas en funciones de conjunt
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Promoción de los conjuntos de datos](service-datasets-promote.md)
-- [Certificación de los conjuntos de datos](service-datasets-certify.md)
+- [Promoción de los conjuntos de datos](../collaborate-share/service-endorse-content.md#promote-content)
+- [Certificación de los conjuntos de datos](../collaborate-share/service-endorse-content.md#certify-content)
+- [Solicitud de la certificación del conjunto de datos](../collaborate-share/service-endorse-content.md#request-content-certification)
 - [Control del uso de conjuntos de datos entre áreas de trabajo](service-datasets-admin-across-workspaces.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

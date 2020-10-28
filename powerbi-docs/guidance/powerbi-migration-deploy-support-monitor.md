@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965014"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681031"
 ---
 # <a name="deploy-to-power-bi"></a>Implementación en Power BI
 
-En este artículo se describe la **fase 5**, que se refiere a la implementación, admisión y supervisión de contenido al realizar la migración a Power BI.
+En este artículo se describe la **fase 5** , que se refiere a la implementación, admisión y supervisión de contenido al realizar la migración a Power BI.
 
 :::image type="content" source="media/powerbi-migration-deploy-support-monitor/migrate-to-powerbi-stage-5.png" alt-text="Imagen que muestra las fases de una migración a Power BI. En este artículo se resalta la fase 5.":::
 
@@ -41,11 +41,11 @@ Si el contenido se ha publicado en un área de trabajo de capacidad Premium, las
 
 Las actividades clave durante una implementación en el área de trabajo de prueba suelen incluir lo siguiente:
 
-- **Cadenas de conexión y parámetros**: ajuste las cadenas de conexión del conjunto de datos si el origen de datos difiere entre el entorno de desarrollo y de prueba. Se puede utilizar la [parametrización](../connect-data/service-parameters.md) para administrar de forma eficaz las cadenas de conexión.
-- **Contenido del área de trabajo**: publique conjuntos de datos e informes en el área de trabajo de prueba, y cree paneles.
-- **Aplicación**: publique una [aplicación](../consumer/end-user-apps.md) mediante el contenido del área de trabajo de prueba, si forma parte del proceso de UAT. Normalmente, los permisos de aplicación se restringen a un número pequeño de personas implicadas en el proceso de UAT.
-- **Actualización de datos**: [programe la actualización de los conjuntos de datos](../connect-data/refresh-scheduled-refresh.md) de importación durante el período en el que el proceso de UAT se lleva a cabo de forma activa.
-- **Seguridad**: actualice o compruebe los [roles del área de trabajo](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces). El acceso a las áreas de trabajo de prueba incluye un número reducido de personas que participan en las pruebas de aceptación de usuario.
+- **Cadenas de conexión y parámetros** : ajuste las cadenas de conexión del conjunto de datos si el origen de datos difiere entre el entorno de desarrollo y de prueba. Se puede utilizar la [parametrización](../connect-data/service-parameters.md) para administrar de forma eficaz las cadenas de conexión.
+- **Contenido del área de trabajo** : publique conjuntos de datos e informes en el área de trabajo de prueba, y cree paneles.
+- **Aplicación** : publique una [aplicación](../consumer/end-user-apps.md) mediante el contenido del área de trabajo de prueba, si forma parte del proceso de UAT. Normalmente, los permisos de aplicación se restringen a un número pequeño de personas implicadas en el proceso de UAT.
+- **Actualización de datos** : [programe la actualización de los conjuntos de datos](../connect-data/refresh-scheduled-refresh.md) de importación durante el período en el que el proceso de UAT se lleva a cabo de forma activa.
+- **Seguridad** : actualice o compruebe los [roles del área de trabajo](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces). El acceso a las áreas de trabajo de prueba incluye un número reducido de personas que participan en las pruebas de aceptación de usuario.
 
 > [!NOTE]
 > Para más información sobre las opciones de implementación en desarrollo, prueba y producción, consulte la sección 9 del documento [Notas del producto de la planeación de una implementación de Power BI Enterprise](https://aka.ms/PBIEnterpriseDeploymentWP).
@@ -73,36 +73,36 @@ Expanda los permisos en el área de trabajo de producción, o la aplicación, gr
 
 Durante el proceso de implementación, puede que tenga que trabajar con los administradores de Power BI a fin de abordar otros requisitos necesarios para admitir toda la solución, por ejemplo:
 
-- **Mantenimiento de la puerta de enlace**: puede que se necesite el registro de [nuevos orígenes de datos](../connect-data/service-gateway-data-sources.md) en la puerta de enlace de datos.
-- **Conectores y controladores de puerta de enlace**: es posible que un nuevo origen de datos de propiedad requiera la instalación de un nuevo controlador o un conector personalizado en cada servidor del clúster de puerta de enlace.
-- **Creación de una capacidad Premium**: tal vez pueda usar una [capacidad Premium](../admin/service-premium-capacity-manage.md) existente. También puede haber situaciones en las que esté justificado usar una nueva capacidad Premium. Podría ser el caso cuando quiera separar deliberadamente una carga de trabajo de departamento.
-- **Configuración de un flujo de datos de Power BI**: las actividades de preparación de datos se pueden configurar de una vez en un [flujo de datos de Power BI](../transform-model/service-dataflows-overview.md) mediante Power Query Online. Eso evita tener que replicar el trabajo de preparación de datos en muchos archivos distintos de Power BI Desktop.
-- **Registro de un nuevo objeto visual de la organización**: el registro de [objetos visuales de la organización](../developer/visuals/power-bi-custom-visuals-organization.md) se puede realizar en el portal de administración en el caso de objetos visuales personalizados que no se originaron en AppSource.
-- **Establecimiento de contenido destacado**: existe una opción de inquilino que controla quién puede [presentar contenido](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/) en la página principal del servicio Power BI.
-- **Establecimiento de etiquetas de confidencialidad**: todas las [etiquetas de confidencialidad](../admin/service-security-data-protection-overview.md) se integran con Microsoft Information Protection.
+- **Mantenimiento de la puerta de enlace** : puede que se necesite el registro de [nuevos orígenes de datos](../connect-data/service-gateway-data-sources.md) en la puerta de enlace de datos.
+- **Conectores y controladores de puerta de enlace** : es posible que un nuevo origen de datos de propiedad requiera la instalación de un nuevo controlador o un conector personalizado en cada servidor del clúster de puerta de enlace.
+- **Creación de una capacidad Premium** : tal vez pueda usar una [capacidad Premium](../admin/service-premium-capacity-manage.md) existente. También puede haber situaciones en las que esté justificado usar una nueva capacidad Premium. Podría ser el caso cuando quiera separar deliberadamente una carga de trabajo de departamento.
+- **Configuración de un flujo de datos de Power BI** : las actividades de preparación de datos se pueden configurar de una vez en un [flujo de datos de Power BI](../transform-model/service-dataflows-overview.md) mediante Power Query Online. Eso evita tener que replicar el trabajo de preparación de datos en muchos archivos distintos de Power BI Desktop.
+- **Registro de un nuevo objeto visual de la organización** : el registro de [objetos visuales de la organización](../developer/visuals/power-bi-custom-visuals-organization.md) se puede realizar en el portal de administración en el caso de objetos visuales personalizados que no se originaron en AppSource.
+- **Establecimiento de contenido destacado** : existe una opción de inquilino que controla quién puede [presentar contenido](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/) en la página principal del servicio Power BI.
+- **Establecimiento de etiquetas de confidencialidad** : todas las [etiquetas de confidencialidad](../admin/service-security-data-protection-overview.md) se integran con Microsoft Information Protection.
 
 ### <a name="deploy-to-production-workspace"></a>Implementación en el área de trabajo de producción
 
 Las actividades clave durante una implementación en el área de trabajo de producción suelen incluir lo siguiente:
 
-- **Administración de cambios**: de ser necesario, obtenga la aprobación correspondiente para realizar la implementación; asimismo, comunique dicha implementación a la población de usuarios mediante sus prácticas estándar de administración de cambios. Puede que haya una ventana de administración de cambios aprobada durante la cual se permitan las implementaciones de producción. Normalmente, se aplica al contenido administrado por TI y, con mucha menos frecuencia, al contenido de autoservicio.
-- **Plan de reversión**: en el caso de una migración, la expectativa es que se trate de la migración de una nueva solución por primera vez. Si ya existe contenido, conviene tener un plan para efectuar una reversión a la versión anterior, en caso necesario. Tener versiones anteriores de los archivos de Power BI Desktop (con el control de versiones de SharePoint o OneDrive) funciona bien a tal efecto.
-- **Cadenas de conexión y parámetros**: ajuste las cadenas de conexión del conjunto de datos si el origen de datos difiere entre el entorno de prueba y de producción. Se puede usar la [parametrización](../connect-data/service-parameters.md) eficazmente a tal efecto.
-- **Actualización de datos**: [programe la actualización del conjunto de datos](../connect-data/refresh-scheduled-refresh.md) para los valores importados.
-- **Contenido del área de trabajo**: publique conjuntos de datos e informes en el área de trabajo de producción, y cree paneles. Las [canalizaciones de implementación](../create-reports/deployment-pipelines-overview.md) pueden simplificar el proceso de implementación en áreas de trabajo de desarrollo, prueba y producción si el contenido se ha publicado en áreas de trabajo de capacidad Premium.
-- **Aplicación**: si las aplicaciones forman parte de la estrategia de distribución de contenido, publique una [aplicación](../consumer/end-user-apps.md) mediante el contenido del área de trabajo de producción.
-- **Seguridad**: actualice y compruebe los [roles de área de trabajo](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) en función de su estrategia de distribución de contenido y colaboración.
-- **Configuración del conjunto de datos**: actualice y compruebe la configuración de cada conjunto de datos, incluido lo siguiente:
-  - [Aprobación](../connect-data/service-datasets-certify.md) (por ejemplo, de certificados o promocionados)
+- **Administración de cambios** : de ser necesario, obtenga la aprobación correspondiente para realizar la implementación; asimismo, comunique dicha implementación a la población de usuarios mediante sus prácticas estándar de administración de cambios. Puede que haya una ventana de administración de cambios aprobada durante la cual se permitan las implementaciones de producción. Normalmente, se aplica al contenido administrado por TI y, con mucha menos frecuencia, al contenido de autoservicio.
+- **Plan de reversión** : en el caso de una migración, la expectativa es que se trate de la migración de una nueva solución por primera vez. Si ya existe contenido, conviene tener un plan para efectuar una reversión a la versión anterior, en caso necesario. Tener versiones anteriores de los archivos de Power BI Desktop (con el control de versiones de SharePoint o OneDrive) funciona bien a tal efecto.
+- **Cadenas de conexión y parámetros** : ajuste las cadenas de conexión del conjunto de datos si el origen de datos difiere entre el entorno de prueba y de producción. Se puede usar la [parametrización](../connect-data/service-parameters.md) eficazmente a tal efecto.
+- **Actualización de datos** : [programe la actualización del conjunto de datos](../connect-data/refresh-scheduled-refresh.md) para los valores importados.
+- **Contenido del área de trabajo** : publique conjuntos de datos e informes en el área de trabajo de producción, y cree paneles. Las [canalizaciones de implementación](../create-reports/deployment-pipelines-overview.md) pueden simplificar el proceso de implementación en áreas de trabajo de desarrollo, prueba y producción si el contenido se ha publicado en áreas de trabajo de capacidad Premium.
+- **Aplicación** : si las aplicaciones forman parte de la estrategia de distribución de contenido, publique una [aplicación](../consumer/end-user-apps.md) mediante el contenido del área de trabajo de producción.
+- **Seguridad** : actualice y compruebe los [roles de área de trabajo](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) en función de su estrategia de distribución de contenido y colaboración.
+- **Configuración del conjunto de datos** : actualice y compruebe la configuración de cada conjunto de datos, incluido lo siguiente:
+  - [Aprobación](../collaborate-share/service-endorse-content.md) (por ejemplo, de certificados o promocionados)
   - Credenciales del origen de datos o la conexión de puerta de enlace
   - Actualización programada
   - [Preguntas y respuestas destacadas](../create-reports/service-q-and-a-create-featured-questions.md)
-- **Uso compartido de paneles e informes**: actualice y compruebe la configuración de cada informe y panel. Entre los valores más importantes se incluyen los siguientes:
+- **Uso compartido de paneles e informes** : actualice y compruebe la configuración de cada informe y panel. Entre los valores más importantes se incluyen los siguientes:
   - Descripción
   - Persona o grupo de contacto
   - [Etiqueta de confidencialidad](../admin/service-security-apply-data-sensitivity-labels.md)
   - [Contenido destacado](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)
-- **Suscripciones**: configure suscripciones de informe, si es necesario.
+- **Suscripciones** : configure suscripciones de informe, si es necesario.
 
 > [!IMPORTANT]
 > Llegados a este punto, ha alcanzado un gran hito. Celebre su logro al completar la migración.

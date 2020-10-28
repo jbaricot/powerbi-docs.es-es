@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
-ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
+ms.openlocfilehash: 20a81ed4675f6392f28a20f7b741d0c0ad1076eb
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "90811860"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680778"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Establecimiento de tablas destacadas en Power BI Desktop (versión preliminar)
 
@@ -25,12 +25,12 @@ En la galería de tipos de datos de Excel, los usuarios pueden buscar datos de *
 1. El resto de la organización puede conectarse a esas tablas destacadas, denominadas *tipos de datos* en Excel, para obtener datos pertinentes y actualizables. En el artículo [Acceso a tablas destacadas de Power BI en Excel (versión preliminar)](service-excel-featured-tables.md) se describe el consumo de estas tablas destacadas en Excel.
 
 > [!NOTE]
-> Puede [promover o certificar conjuntos de datos en Power BI](../connect-data/service-datasets-promote.md). A esto se le denomina *aprobación*. Excel da prioridad a las tablas de los conjuntos de datos aprobados en la Galería de tipos de datos. Excel muestra en primer lugar las tablas destacadas en conjuntos de datos certificados y, después, las tablas de los conjuntos de datos promovidos. Después, Excel muestra las tablas destacadas en conjuntos de datos no aprobados. 
+> Puede [promover o certificar conjuntos de datos en Power BI](../collaborate-share/service-endorse-content.md). A esto se le denomina *aprobación* . Excel da prioridad a las tablas de los conjuntos de datos aprobados en la Galería de tipos de datos. Excel muestra en primer lugar las tablas destacadas en conjuntos de datos certificados y, después, las tablas de los conjuntos de datos promovidos. Después, Excel muestra las tablas destacadas en conjuntos de datos no aprobados. 
 
 ## <a name="turn-on-the-featured-table-preview"></a>Activación de la versión preliminar de una tabla destacada
 
-1. En Power BI Desktop, seleccione **Archivo** > **Opciones y configuración** > **Opciones** > **Características en versión preliminar**.
-2. Active la casilla **Tablas destacadas**.
+1. En Power BI Desktop, seleccione **Archivo** > **Opciones y configuración** > **Opciones** > **Características en versión preliminar** .
+2. Active la casilla **Tablas destacadas** .
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="Opción de tablas destacadas en versión preliminar":::
 
@@ -42,10 +42,10 @@ En la galería de tipos de datos de Excel, los usuarios pueden buscar datos de *
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="Opción de tablas destacadas en versión preliminar":::
  
-2. Seleccione una tabla y establezca la opción **Es una tabla destacada** en **Sí**.
+2. Seleccione una tabla y establezca la opción **Es una tabla destacada** en **Sí** .
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Opción de tablas destacadas en versión preliminar" para ayudar a los creadores de informes de Power BI a identificarla.
-    - El valor del campo **Etiqueta de fila** se usa en Excel para que los usuarios puedan identificar fácilmente la fila. Aparece como el valor de celda de una celda vinculada, en el panel **Selector de datos** y en la tarjeta de **Información**. 
+    - El valor del campo **Etiqueta de fila** se usa en Excel para que los usuarios puedan identificar fácilmente la fila. Aparece como el valor de celda de una celda vinculada, en el panel **Selector de datos** y en la tarjeta de **Información** . 
     - El valor del campo **Columna clave** proporciona el id. único de la fila. Este valor permite que Excel vincule una celda a una fila específica de la tabla.
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="Opción de tablas destacadas en versión preliminar":::
