@@ -42,7 +42,7 @@
           href: power-bi-data-sources.md
         - name: Requisitos previos de los orígenes de datos de Power BI
           href: desktop-data-source-prerequisites.md
-        - name: Uso de metadatos de conjuntos de datos mejorados en Power BI Desktop (versión preliminar)
+        - name: "Uso de metadatos de conjuntos de datos mejorados en Power\_BI Desktop"
           href: desktop-enhanced-dataset-metadata.md
         - name: "Trabajo con modelos multidimensionales en Power\_BI"
           href: desktop-default-member-multidimensional-models.md
@@ -184,12 +184,6 @@
               href: service-datasets-copy-reports.md
             - name: Control del uso de los conjuntos de datos
               href: service-datasets-admin-across-workspaces.md
-        - name: Aprobación de conjuntos de datos
-          items:
-            - name: Promoción de los conjuntos de datos
-              href: service-datasets-promote.md
-            - name: Certificación de los conjuntos de datos
-              href: service-datasets-certify.md
         - name: Obtener datos de las bases de datos
           items:
             - name: Azure y Power BI

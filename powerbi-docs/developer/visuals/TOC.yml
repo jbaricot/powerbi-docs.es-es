@@ -134,8 +134,6 @@
               href: utils-test.md
             - name: Utilidades de la información sobre herramientas
               href: utils-tooltip.md
-            - name: Utilidades de vista de datos
-              href: utils-dataview.md
     - name: Recursos
       items:
         - name: Centro de desarrollo
