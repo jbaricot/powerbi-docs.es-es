@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: df6b3bd29089f37b11064216568523f442169794
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: cc4387c3c1c0f83347823bbc6b95beb437b235e9
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528399"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916898"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribuir contenido de Power BI a usuarios externos invitados mediante Azure Active Directory B2B
 
@@ -25,7 +25,7 @@ ms.locfileid: "91528399"
 **Revisores técnicos:** Adam Wilson, Sheng Liu, Qian Liang, Sergei Gundorov, Jacob Grimm, Adam Saxton, Maya Shenhav, Nimrod Shalit, Elisabeth Olson
 
 > [!NOTE]
-> Puede guardar o imprimir estas notas del producto si selecciona **Imprimir** desde el explorador y, a continuación, selecciona **Guardar como PDF**.
+> Puede guardar o imprimir estas notas del producto si selecciona **Imprimir** desde el explorador y, a continuación, selecciona **Guardar como PDF** .
 
 ## <a name="introduction"></a>Introducción
 
@@ -288,7 +288,7 @@ La integración de Power BI con Azure AD B2B ofrece a contoso una forma sencilla
     Ahora que el equipo de BI de Contoso ha creado el portal de BI y los usuarios invitados invitados, pueden distribuir su portal a sus usuarios finales mediante la concesión de acceso a los usuarios invitados a la aplicación y su publicación. Power BI completa automáticamente los nombres de los usuarios invitados que se han agregado previamente al inquilino de contoso. Las invitaciones ad hoc a otros usuarios invitados también se pueden agregar en este momento.
 
     > [!NOTE]
-    > Si usa grupos de seguridad para administrar el acceso a la aplicación para usuarios externos, use el enfoque de invitados planeados y comparta el vínculo de la aplicación directamente con cada usuario externo que deba tener acceso a él. De lo contrario, es posible que el usuario externo no pueda instalar o ver contenido desde la aplicación.
+    > Si usa grupos de seguridad para administrar el acceso a la aplicación para usuarios externos, use el enfoque de invitados planeados y comparta el vínculo de la aplicación directamente con cada usuario externo que deba tener acceso a él. De lo contrario, es posible que el usuario externo no pueda instalar o ver el contenido desde el app._
 
     Los usuarios invitados reciben un correo electrónico con un vínculo a la aplicación.
 
@@ -344,7 +344,7 @@ Con este enfoque, contoso adquiere Power BI Premium capacidad y asigna el conten
 
 Los usuarios externos también están sujetos a las experiencias de consumo que se ofrecen a los usuarios "gratuitos" en Power BI al consumir contenido dentro de Power BI Premium.
 
-Contoso también puede aprovechar las ventajas de otras funcionalidades Premium de Power BI para sus aplicaciones, como una mayor frecuencia de actualización, capacidad dedicada y tamaños de modelos grandes.
+Contoso también puede aprovechar las ventajas de otras funcionalidades Premium de Power BI para sus aplicaciones, como mayores tasas de actualización, capacidad y tamaños de modelos grandes.
 
 ![Funcionalidades adicionales](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_24.png)
 
@@ -457,7 +457,7 @@ Como puede ver, la RLS dinámica funciona con usuarios internos o invitados.
 Power BI ofrece la capacidad de que contoso aproveche los orígenes de datos locales, como [SQL Server Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/) o [SQL Server](https://powerbi.microsoft.com/documentation/powerbi-gateway-kerberos-for-sso-pbi-to-on-premises-data/) directamente gracias a la [puerta de enlace de datos local](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/). Incluso es posible iniciar sesión en esos orígenes de datos con las mismas credenciales que se usan con Power BI.
 
 > [!NOTE]
-> Al instalar una puerta de enlace para conectarse a su inquilino de Power BI, debe usar un usuario creado dentro de su inquilino. Los usuarios externos no pueden instalar una puerta de enlace y conectarla a su inquilino.
+> Al instalar una puerta de enlace para conectarse a su inquilino de Power BI, debe usar un usuario creado dentro de su inquilino. Los usuarios externos no pueden instalar una puerta de enlace y conectarla a su tenant._
 
 En el caso de los usuarios externos, esto podría ser más complicado, ya que los usuarios externos normalmente no son conocidos para la instancia de AD local. Power BI ofrece una solución alternativa para esto, ya que permite a los administradores de Contoso asignar los nombres de usuario externos a los nombres de usuario internos, tal y como se describe en [administrar el origen de datos-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/). Por ejemplo, [lucy@supplier1.com](mailto:lucy@supplier1.com) se puede asignar a [Lucy \_ supplier1 \_ com # EXT@contoso.com ](mailto:lucy_supplier1_com).
 
@@ -490,8 +490,8 @@ Los usuarios invitados obtienen la experiencia predeterminada de solo lectura y 
 
 Para ayudar a estos usuarios a iniciar sesión en Power BI, proporcione la dirección URL del inquilino. Para buscar la dirección URL del inquilino, siga estos pasos.
 
-1. En el servicio Power BI, en el menú superior, seleccione ayuda ( **?** ) a continuación  **Power BI**.
-2. Busque el valor junto a la  **dirección URL del inquilino**. Esta es la dirección URL del inquilino que puede compartir con los usuarios invitados.
+1. En el servicio Power BI, en el menú superior, seleccione ayuda ( **?** ) a continuación  **Power BI** .
+2. Busque el valor junto a la  **dirección URL del inquilino** . Esta es la dirección URL del inquilino que puede compartir con los usuarios invitados.
 
     ![URL de inquilino](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 

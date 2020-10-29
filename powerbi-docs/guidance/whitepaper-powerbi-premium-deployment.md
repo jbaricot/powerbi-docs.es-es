@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: e24b9949eeaaf488f88677fc1171fae5ece5d383
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 8d28146f5f4ee47697ada1d4663ae9899b660a9b
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600385"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916645"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Implementación y administración de capacidades de Power BI Premium
 
@@ -22,10 +22,10 @@ Hemos retirado los Power BI Premium notas del producto en favor de proporcionar 
 
 | Artículos | Descripción |
 |-----|----|
-| [Conceptos básicos para los diseñadores en el servicio Power BI](../fundamentals/service-basic-concepts.md)</br>[Conjuntos de datos en el servicio Power BI](../connect-data/service-datasets-understand.md)</br>[Modos de conjuntos de datos en el servicio Power BI](../connect-data/service-dataset-modes-understand.md) | Información general sobre las capacidades de servicio Power BI, áreas de trabajo, paneles, informes, libros, conjuntos de datos y flujos de datos. |
+| [Conceptos básicos para diseñadores en el servicio Power BI](../fundamentals/service-basic-concepts.md)</br>[Conjuntos de datos en el servicio Power BI](../connect-data/service-datasets-understand.md)</br>[Modos de conjuntos de datos en el servicio Power BI](../connect-data/service-dataset-modes-understand.md) | Información general sobre las capacidades de servicio Power BI, áreas de trabajo, paneles, informes, libros, conjuntos de datos y flujos de datos. |
 | [¿Qué es Power BI Premium?](../admin/service-premium-what-is.md) | Información general de Power BI Premium, que abarca los aspectos básicos de las capacidades dedicadas, las cargas de trabajo compatibles, el uso compartido de contenido ilimitado y otras características.  |
 | [Administración de las capacidades Premium](../admin/service-premium-capacity-manage.md)</br>[Configuración y administración de capacidades en Power BI Premium](../admin/service-admin-premium-manage.md)
-</br>[Configuración de cargas de trabajo en una capacidad Premium](../admin/service-admin-premium-workloads.md) | Información detallada sobre la configuración y administración de cargas de trabajo y capacidades dedicadas. |
+</br>[Configuración de cargas de trabajo en una capacidad Premium](../admin/service-admin-premium-workloads.md) | Información detallada sobre la configuración y administración de capacidades y cargas de trabajo. |
 | [Optimización de las capacidades Premium](../admin/service-premium-capacity-optimize.md) | Prácticas recomendadas para la optimización del rendimiento, la optimización de modelos, el planeamiento de la capacidad y los métodos de prueba. |
 | [Escenarios de las capacidades Premium](../admin/service-premium-capacity-scenarios.md) | Problemas comunes en escenarios del mundo real, centrándose en identificar y resolver esos problemas. |
 | [Supervisión de capacidades en el portal de administración](../admin/service-admin-premium-monitor-portal.md) | Supervisión con Power BI Premium aplicación de métricas de capacidad e interpretación de las métricas que se ven en la aplicación. |
