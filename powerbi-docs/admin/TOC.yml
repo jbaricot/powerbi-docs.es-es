@@ -94,7 +94,7 @@
               href: service-security-data-protection-metrics-report.md
         - name: Seguridad de nivel de fila
           href: service-admin-rls.md
-        - name: Certificación para la configuración de conjuntos de datos y flujos de datos
+        - name: Habilitación de la certificación de contenido
           href: service-admin-setup-certification.md
         - name: Configurar aplicaciones móviles con Intune
           href: service-admin-mobile-intune.md
