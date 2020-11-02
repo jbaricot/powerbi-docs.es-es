@@ -79,6 +79,8 @@
               href: access-dataset-odata.md
             - name: Cambio de cadenas de conexión de origen de datos con PowerShell
               href: connect-data-source-apis.md
+            - name: Cambio de cadenas de conexión de origen de datos con PowerShell; anterior a octubre de 2020
+              href: connect-data-source-apis-pre-oct-2020.md
             - name: Configuración de actualización programada
               href: configure-scheduled-refresh.md
             - name: Agregar comentarios a un informe
