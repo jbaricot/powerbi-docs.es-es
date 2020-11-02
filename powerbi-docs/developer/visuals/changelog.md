@@ -8,26 +8,30 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c43542bc6c2bb0699403062f68024f9718bbbb60
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748480"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501958"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Registro de cambios de la API de objetos visuales de Power BI
 Esta página contiene un resumen rápido de las versiones de API. Las versiones que se enumeran aquí se consideran estables y no cambiarán.
+
+
+## <a name="api-v340"></a>API v3.4.0
+  * `fetchMoreData`: nuevo parámetro de `aggregateSegments` (valor predeterminado: "true"), para admitir fetchMoreData sin agregación
 
 ## <a name="api-v320"></a>API v3.2.0
   * Admite **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)**
 
 ## <a name="api-v260"></a>API v2.6.0
   * Agrega **isInFocus** a la opción de actualización y el método **switchFocusModeState** al host del objeto visual.
-  * Admite la personalización de **subtotales**.
+  * Admite la personalización de **subtotales** .
 
 ## <a name="api-v250"></a>API v2.5.0
   * Admite el **[panel Análisis](./analytics-pane.md)** .
-  * Admite los métodos `SelectionIdBuilder` **withMatrixNode** y **withTable**.
+  * Admite los métodos `SelectionIdBuilder` **withMatrixNode** y **withTable** .
   * Ya no admite la interfaz `DataRepetitionSelector`, se ha reemplazado por la interfaz `data.CustomVisualOpaqueIdentity`.
 
 ## <a name="api-v230"></a>API v2.3.0
@@ -104,7 +108,7 @@ Esta página contiene un resumen rápido de las versiones de API. Las versiones 
 
 ## <a name="api-v120"></a>API v1.2.0
 * Agrega **colorPalette** para administrar los colores utilizados en el objeto visual.
-* Admite **selección múltiple**: selectionManager puede aceptar una matriz de `SelectionId`.
+* Admite **selección múltiple** : selectionManager puede aceptar una matriz de `SelectionId`.
 * Admite **[objetos visuales de R](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** mediante scripts de R.
 
 ## <a name="api-v110"></a>API v1.1.0

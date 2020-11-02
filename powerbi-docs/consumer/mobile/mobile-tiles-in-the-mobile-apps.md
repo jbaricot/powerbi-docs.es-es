@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 1afde236dd4fc9698efe4391cb2d9e095ade37a4
+ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668560"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92683383"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Exploración de iconos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -35,7 +35,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
     ![Captura de pantalla de un gráfico de líneas, en el que se muestran los valores seleccionados para Ventas de este año y Ventas del año anterior.](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *Por ejemplo, en este gráfico de líneas, los valores seleccionados hacen referencia a **ventas de este año** y **ventas del último año** en **agosto**.*  
+   *Por ejemplo, en este gráfico de líneas, los valores seleccionados hacen referencia a **ventas de este año** y **ventas del último año** en **agosto** .*  
    
    En un gráfico circular, pulse una porción de este para mostrar los valores de la porción en la parte superior del gráfico.  
    
@@ -58,7 +58,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
     Después de abrir el vínculo en la aplicación Power BI, puede copiarlo y abrirlo en una ventana del explorador.
 7. [Abra el informe](mobile-reports-in-the-mobile-apps.md) ![Icono Abrir informe en iOS.](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) en el que se basa el mosaico.
-8. Para salir del modo enfocado de icono, pulse el nombre del icono y, después, pulse el nombre del panel o **Mi área de trabajo**.
+8. Para salir del modo enfocado de icono, pulse el nombre del icono y, después, pulse el nombre del panel o **Mi área de trabajo** .
    
     ![Captura de pantalla de un panel, en la que se muestran punteros a Mi área de trabajo y Ejemplo de análisis de oportunidades.](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
 
@@ -111,10 +111,10 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
    *En este gráfico de barras, los valores de la barra **Decor** se muestran en la parte superior del gráfico.*
    
-   Pulse el icono **Pantalla completa** ![Icono Pantalla completa](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrirlo en el modo de pantalla completa, sin las barras de navegación y de menú.
+   Pulse el icono **Cambiar al modo de presentación** ![imagen del icono Cambiar al modo de presentación.](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrir el icono en el modo de presentación, sin las barras de navegación y de menús.
    
    > [!NOTE]
-   > También puede [ver paneles e informes en el modo de pantalla completa](mobile-windows-10-app-presentation-mode.md) en la aplicación para dispositivos móviles de Power BI para Windows 10.
+   > También puede [ver paneles e informes en el modo de presentación](mobile-windows-10-app-presentation-mode.md) en la aplicación móvil de Power BI para Windows 10.
    > 
    > 
    

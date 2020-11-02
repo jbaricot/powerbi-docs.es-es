@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: edf49ba9fa85ab2c46040fdac74691bea8b5b960
-ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
+ms.openlocfilehash: 68698d51b074102a8d8e556101fcfaf6a39c2c62
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91928318"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349423"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Conexión a una base de datos de Google BigQuery en Power BI Desktop
 En Power BI Desktop, puede conectarse a una base de datos de Google **BigQuery** y usar los datos subyacentes como con cualquier otro origen de datos en Power BI Desktop.
@@ -49,7 +49,7 @@ Hay algunos límites y consideraciones que se deben tener en cuenta con el conec
   Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here"])
   ```
 
-  A partir de la versión de septiembre de 2020, se ha habilitado la compatibilidad con la [API de almacenamiento de Google BigQuery](https://cloud.google.com/bigquery/docs/reference/storage). Puede que algunos clientes encuentren problemas con esta característica si usan permisos exhaustivos. En este escenario, es posible que vea el siguiente mensaje de error:
+  A partir de la versión de septiembre de 2020, se ha habilitado la compatibilidad con la [API de almacenamiento de Google BigQuery](https://cloud.google.com/bigquery/docs/reference/storage). Esta característica está habilitada de forma predeterminada y se controla mediante el argumento booleano opcional denominado "UseStorageApi". Puede que algunos clientes encuentren problemas con esta característica si usan permisos exhaustivos. En este escenario, es posible que vea el siguiente mensaje de error:
 
   `ERROR [HY000] [Microsoft][BigQuery] (131) Unable to authenticate with Google BigQuery Storage API. Check your account permissions`
 
@@ -60,7 +60,15 @@ Hay algunos límites y consideraciones que se deben tener en cuenta con el conec
   - `bigquery.readsessions.update`: actualiza una sesión de lectura a través de la API de almacenamiento de BigQuery.
 
   Estos permisos se proporcionan normalmente en el rol BigQuery.User. Para más información, consulte [Roles y permisos predefinidos de Google BigQuery](https://cloud.google.com/bigquery/docs/access-control).
-
+  
+  Si los pasos anteriores no resuelven el problema o si quiere deshabilitar la compatibilidad con la API de almacenamiento, cambie la consulta a lo siguiente:
+  ```
+  Source = GoogleBigQuery.Database([UseStorageApi=false])
+  ```
+  También puede cambiar la consulta a lo siguiente, si ya usa un proyecto de facturación:
+  ```
+  Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here", UseStorageApi=false])
+  ```
 
 ## <a name="next-steps"></a>Pasos siguientes
 Hay todo tipo de datos a los que puede conectarse con Power BI Desktop. Para obtener más información sobre orígenes de datos, consulte los siguientes recursos:

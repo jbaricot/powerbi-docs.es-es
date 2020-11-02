@@ -7,24 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 10/21/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8d13cc7a24486fada7f8d428ba52abeaa49d2518
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: fc93ae0f54bfe4f72ec18687829e9eb78dfaedd7
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160949"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349377"
 ---
 # <a name="use-customer-managed-keys-in-power-bi"></a>Uso de claves administradas por el cliente en Power BI
 
 Power BI cifra los datos en reposo y en proceso. De forma predeterminada, Power BI usa claves administradas por Microsoft para cifrar los datos. Las organizaciones pueden optar por usar sus propias claves para el cifrado del contenido del usuario en reposo en Power BI, desde imágenes de informe hasta conjuntos de datos importados en capacidades Premium. 
 
 ## <a name="why-use-customer-managed-keys"></a>Por qué usar claves administradas por el cliente
-Con las claves administradas por el cliente (CMK) de Power BI, las organizaciones pueden cumplir los requisitos de cumplimiento para el cifrado de datos en reposo con su proveedor de servicios en la nube (en este caso, Microsoft). CMK permite a las organizaciones cifrar el contenido del usuario de Power BI con una clave que ellas proporcionan y administran. La revocación de una clave administrada por el cliente hace que el contenido del usuario dentro de Power BI sea ilegible para el resto durante una hora, incluido Microsoft. En comparación con la oferta BYOK, CMK también abarca el contenido de los usuarios fuera de las capacidades Premium de Power BI, aplica directivas de almacenamiento en caché más estrictas y, de forma predeterminada, habilita BYOK en todas las capacidades. 
- 
+
+Con las claves administradas por el cliente (CMK) de Power BI, las organizaciones pueden cumplir los requisitos de cumplimiento para el cifrado de datos en reposo con su proveedor de servicios en la nube (en este caso, Microsoft). CMK solo se ofrece a los clientes nuevos de Power BI Premium y permite a las organizaciones cifrar el contenido del usuario de Power BI mediante una clave que proporcionan y administran. La revocación de una clave administrada por el cliente hace que el contenido del usuario dentro de Power BI sea ilegible para el resto durante una hora, incluido Microsoft. En comparación con la oferta BYOK, CMK también abarca el contenido del usuario que genera el servicio, además de los datos del cliente que se importan en los informes y conjuntos de datos hospedados en capacidades Premium, aplica directivas de almacenamiento en caché más estrictas y solo puede aplicar una única clave para cifrar todos los datos.
+
+
 ## <a name="how-to-use-customer-managed-keys"></a>Procedimiento para usar claves administradas por el cliente
-Para participar en las claves administradas por el cliente de Power BI, la organización debe cumplir los requisitos de tamaño. El administrador global de la organización debe enviar una solicitud de soporte técnico a Microsoft, o bien ponerse en contacto con el administrador de cuentas de Microsoft de la organización para obtener más información sobre el proceso.  
+Para participar en las claves administradas por el cliente de Power BI, su organización debe ponerse en contacto con el administrador de la cuenta de Microsoft de la misma para validar que esta cumple ciertos requisitos de tamaño necesarios a fin de habilitar CMK.  
 
 
 ## <a name="next-steps"></a>Pasos siguientes

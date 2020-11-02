@@ -8,19 +8,19 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d23062a5b8fe4a1a68be372865746a1a7d497c26
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860288"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349676"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugerencias para crear aplicaciones de plantilla en Power BI
 
 Cuando se [crea la aplicación de plantilla](service-template-apps-create.md) en Power BI, parte del proceso es la logística para crear el área de trabajo, las pruebas y la producción. Pero la otra parte importante es, obviamente, la creación del informe y el panel. El proceso de creación se puede desglosar en cuatro componentes principales. Trabajar en estos componentes le ayudará a crear la mejor aplicación de plantilla posible:
 
-* Mediante **consultas**, [conecta](desktop-connect-to-data.md) y [transforma](../transform-model/desktop-query-overview.md) los datos, y define [parámetros](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/). 
-* En el **modelo de datos**, crea [relaciones](../transform-model/desktop-create-and-manage-relationships.md), [medidas](../transform-model/desktop-measures.md) y mejoras de preguntas y respuestas.  
+* Mediante **consultas** , [conecta](desktop-connect-to-data.md) y [transforma](../transform-model/desktop-query-overview.md) los datos, y define [parámetros](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/). 
+* En el **modelo de datos** , crea [relaciones](../transform-model/desktop-create-and-manage-relationships.md), [medidas](../transform-model/desktop-measures.md) y mejoras de preguntas y respuestas.  
 * Las **[páginas de informes](../create-reports/desktop-report-view.md)** incluyen objetos visuales y filtros para proporcionar información sobre los datos.  
 * Los **[paneles](../consumer/end-user-dashboards.md)** y los [iconos](../create-reports/service-dashboard-create.md) ofrecen una visión general de la información incluida.
 * Los datos de ejemplo hacen que la aplicación se pueda descubrir inmediatamente después de la instalación.
@@ -30,7 +30,7 @@ Puede estar familiarizado con cada una de las partes de las características de 
 <a name="queries"></a>
 
 ## <a name="queries"></a>Consultas
-Para las aplicaciones de plantilla, se usan consultas desarrolladas en Power BI Desktop para conectarse al origen de datos e importar datos. Estas consultas tienen que devolver un esquema coherente y son compatibles con la actualización de datos programada (no se admite DirectQuery).
+Para las aplicaciones de plantilla, se usan consultas desarrolladas en Power BI Desktop para conectarse al origen de datos e importar datos. Estas consultas tienen que devolver un esquema coherente y son compatibles con la actualización de datos programada.
 
 ### <a name="connect-to-your-api"></a>Conexión con la API
 Para empezar, debe conectarse a la API desde Power BI Desktop para comenzar a generar las consultas.

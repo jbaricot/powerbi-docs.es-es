@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 62c463972d4811bac0c5400da96a88264273a873
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 464fdce94b41c3dc413088da6395520fea32c601
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600278"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462653"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -29,7 +29,7 @@ Debe ser administrador global o administrador del servicio Power BI para tener 
 
 1. Inicie sesión en [Power BI](https://app.powerbi.com) con las credenciales de la cuenta de administrador.
 
-1. En el encabezado de página, seleccione **Configuración** > **Portal de administración**.
+1. En el encabezado de página, seleccione **Configuración** > **Portal de administración** .
 
     ![Configuración del portal de administración](media/service-admin-portal/powerbi-admin-settings.png)
 
@@ -89,7 +89,7 @@ Con esta información, puede extraer información real sobre el modo en que los 
 
 ## <a name="control-usage-metrics"></a>Control de métricas de uso
 
-Los informes de métricas de uso son una característica que el administrador de Power BI puede activar o desactivar. Los administradores tienen control granular sobre qué usuarios tienen acceso a las métricas de uso. De forma predeterminada, todos los usuarios de la organización tienen esta opción en modo **Activado**.
+Los informes de métricas de uso son una característica que el administrador de Power BI puede activar o desactivar. Los administradores tienen control granular sobre qué usuarios tienen acceso a las métricas de uso. De forma predeterminada, todos los usuarios de la organización tienen esta opción en modo **Activado** .
 
 Los administradores también pueden determinar si los creadores de contenido pueden ver los datos de cada usuario en las métricas de uso. 
 
@@ -97,17 +97,17 @@ Consulte [Supervisar las métricas de uso de paneles e informes de Power BI](..
 
 ### <a name="usage-metrics-for-content-creators"></a>Métricas de uso para creadores de contenido
 
-1. En el portal de administración, seleccione **Configuración de inquilinos** > **Configuración de auditoría y uso** > **Métricas de uso para creadores de contenido**.
+1. En el portal de administración, seleccione **Configuración de inquilinos** > **Configuración de auditoría y uso** > **Métricas de uso para creadores de contenido** .
 
     ![Métricas de uso de la configuración de inquilino del portal de administración](media/service-admin-portal/power-bi-admin-usage-metrics.png)
 
-1. Habilite (o deshabilite) las métricas de uso > **Aplicar**.
+1. Habilite (o deshabilite) las métricas de uso > **Aplicar** .
 
     ![Métricas de uso habilitadas](../collaborate-share/media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
 ### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Datos por usuario en métricas de uso de creadores de contenido
 
-Los datos por usuario están habilitados de forma predeterminada en las métricas de uso, mientras que el informe de métricas incluye información sobre la cuenta. Si no quiere incluir la información de la cuenta de algunos usuarios, o de ninguno de ellos, deshabilite la característica para los grupos de seguridad especificados o para toda la organización. En tal caso, la información de la cuenta aparece en el informe como *Sin nombre*.
+Los datos por usuario están habilitados de forma predeterminada en las métricas de uso, mientras que el informe de métricas incluye información sobre la cuenta. Si no quiere incluir la información de la cuenta de algunos usuarios, o de ninguno de ellos, deshabilite la característica para los grupos de seguridad especificados o para toda la organización. En tal caso, la información de la cuenta aparece en el informe como *Sin nombre* .
 
 ![Datos de uso de cada usuario](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
 
@@ -139,26 +139,24 @@ La **configuración de inquilinos** permite controlar de manera pormenorizada la
 > [!NOTE]
 > La configuración de inquilinos que controla la disponibilidad de características en la interfaz de usuario de Power BI puede ayudar a establecer directivas de gobernanza, pero no es una medida de seguridad. Por ejemplo, el valor **Exportar datos** no restringe los permisos de un usuario de Power BI en un conjunto de datos. Los usuarios de Power BI con acceso de lectura a un conjunto de datos tienen permiso para consultarlo y es posible que puedan conservar los resultados sin usar la característica **Exportar datos** de la interfaz de usuario de Power BI.
 
-En la imagen siguiente se muestran varias opciones de la pestaña **Configuración de inquilinos**.
-
-![Configuración de inquilinos](media/service-admin-portal/powerbi-admin-tenant-settings-2.png)
+En las secciones siguientes se preparan los parámetros de la pestaña **Configuración de inquilinos** .
 
 > [!NOTE]
 > Un cambio de configuración puede tardar hasta 15 minutos en aplicarse para todos los usuarios de la organización.
 
-La configuración puede tener uno de estos tres estados:
+Muchos de los parámetros de configuración pueden tener uno de estos tres estados:
 
-* **Deshabilitado para toda la organización**: ninguna persona de la organización puede usar esta característica.
+* **Deshabilitado para toda la organización** : ninguna persona de la organización puede usar esta característica.
 
     ![Opción de deshabilitar para todos](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Habilitado para toda la organización**: todas las personas de la organización pueden usar esta característica.
+* **Habilitado para toda la organización** : todas las personas de la organización pueden usar esta característica.
 
     ![Opción de habilitar para todos](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Habilitado para un subconjunto de la organización**: Los grupos de seguridad específicos de su organización pueden usar esta característica.
+* **Habilitado para un subconjunto de la organización** : Los grupos de seguridad específicos de su organización pueden usar esta característica.
 
-    También puede habilitar la característica para toda la organización, **Excepto grupos de seguridad específicos**.
+    También puede habilitar la característica para toda la organización, **Excepto grupos de seguridad específicos** .
 
     ![Opción de habilitar para un subconjunto](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
@@ -168,6 +166,12 @@ La configuración puede tener uno de estos tres estados:
 
 Las secciones siguientes proporcionan una visión general de los distintos tipos de configuración de inquilino.
 
+## <a name="tenant-wide-new-look-settings"></a>Configuración del nuevo aspecto para todo el inquilino
+
+Cuando la opción **Nuevo aspecto** está deshabilitada, los usuarios de esta organización pueden activar y desactivar el nuevo aspecto de Power BI. Al habilitar la opción **Nuevo aspecto** , *todos* los usuarios de esta organización ven los controles modernos del nuevo aspecto de Power BI en todo momento. Ya no pueden alternar el nuevo aspecto. La opción Nuevo aspecto está habilitada de forma predeterminada.
+
+:::image type="content" source="media/service-admin-portal/admin-portal-new-look-disable.png" alt-text="Captura de pantalla de la opción Deshabilitar nuevo aspecto en el portal de administración.":::
+
 ## <a name="help-and-support-settings"></a>Configuración de ayuda y soporte técnico
 
 ### <a name="publish-get-help-information"></a>Publicar información "Obtener ayuda"
@@ -176,13 +180,13 @@ Las secciones siguientes proporcionan una visión general de los distintos tipos
 
 Los administradores pueden especificar direcciones URL internas para invalidar el destino de los vínculos en el menú Ayuda de Power BI y para las actualizaciones de licencias. Si se establecen direcciones URL personalizadas, los usuarios de la organización recurren a los recursos internos de ayuda y soporte técnico en lugar de a los destinos predeterminados. Los siguientes destinos de recursos se pueden personalizar:
 
-* **Más información**. De forma predeterminada, este vínculo al menú Ayuda apunta a una [lista de todas nuestras rutas de aprendizaje y módulos de Power BI](/learn/browse/?products=power-bi). Para dirigir este vínculo a recursos de aprendizaje interno, establezca una dirección URL personalizada para la **documentación de aprendizaje**.
+* **Más información** . De forma predeterminada, este vínculo al menú Ayuda apunta a una [lista de todas nuestras rutas de aprendizaje y módulos de Power BI](/learn/browse/?products=power-bi). Para dirigir este vínculo a recursos de aprendizaje interno, establezca una dirección URL personalizada para la **documentación de aprendizaje** .
 
-* **Comunidad**. Para llevar a los usuarios a un foro interno desde el menú Ayuda, establezca una dirección URL personalizada al **Foro de discusión** en lugar de a la [Comunidad de Power BI](https://community.powerbi.com/).
+* **Comunidad** . Para llevar a los usuarios a un foro interno desde el menú Ayuda, establezca una dirección URL personalizada al **Foro de discusión** en lugar de a la [Comunidad de Power BI](https://community.powerbi.com/).
 
-* **Actualizaciones de licencias**. A los usuarios con una licencia de Power BI (gratuita) se les puede presentar la oportunidad de actualizar su cuenta a Power BI Pro durante el uso del servicio. Si especifica una dirección URL interna para **Solicitudes de licencia**, redirigirá a los usuarios a un flujo interno de solicitud y compra e impedirá la compra mediante autoservicio. Si quiere impedir que los usuarios compren licencias, pero está de acuerdo con dejar que los usuarios inicien una evaluación gratuita de Power BI Pro, consulte [Permitir que los usuarios prueben Power BI Pro](#allow-users-to-try-power-bi-pro) para separar las experiencias de compra y prueba.
+* **Actualizaciones de licencias** . A los usuarios con una licencia de Power BI (gratuita) se les puede presentar la oportunidad de actualizar su cuenta a Power BI Pro durante el uso del servicio. Si especifica una dirección URL interna para **Solicitudes de licencia** , redirigirá a los usuarios a un flujo interno de solicitud y compra e impedirá la compra mediante autoservicio. Si quiere impedir que los usuarios compren licencias, pero está de acuerdo con dejar que los usuarios inicien una evaluación gratuita de Power BI Pro, consulte [Permitir que los usuarios prueben Power BI Pro](#allow-users-to-try-power-bi-pro) para separar las experiencias de compra y prueba.
 
-* **Obtener ayuda**. Para llevar a los usuarios a un departamento de soporte técnico interno desde el menú Ayuda, establezca una dirección URL personalizada al **Departamento de soporte técnico** en lugar de al [Soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
+* **Obtener ayuda** . Para llevar a los usuarios a un departamento de soporte técnico interno desde el menú Ayuda, establezca una dirección URL personalizada al **Departamento de soporte técnico** en lugar de al [Soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Recepción de notificaciones por correo electrónico sobre interrupciones o incidentes en el servicio
 
@@ -208,7 +212,7 @@ Para más información, consulte [Activación o desactivación del registro y la
 
 ## <a name="workspace-settings"></a>Configuración del área de trabajo
 
-En **Configuración de inquilinos**, el portal de administración tiene tres secciones para controlar las áreas de trabajo:
+En **Configuración de inquilinos** , el portal de administración tiene tres secciones para controlar las áreas de trabajo:
 
 - [Creación de las nuevas experiencias de áreas de trabajos](#create-the-new-workspaces).
 - [Uso de conjuntos de datos entre áreas de trabajo](#use-datasets-across-workspaces).
@@ -218,7 +222,7 @@ En **Configuración de inquilinos**, el portal de administración tiene tres sec
 
 Las áreas de trabajo son lugares en los que los usuarios colaboran en paneles, informes y otro contenido. Los administradores usan la configuración **Creación de áreas de trabajo (nueva experiencia de áreas de trabajo)** para indicar qué usuarios de la organización pueden crear áreas de trabajo. Los administradores pueden permitir que todos o ninguno de los empleados de una organización creen experiencias de áreas de trabajo. También pueden restringir la creación de estas áreas a miembros de grupos de seguridad específicos. Obtenga más información sobre las [áreas de trabajo](../collaborate-share/service-new-workspaces.md).
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Creación de las nuevas experiencias de áreas de trabajos":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Captura de pantalla de la opción Deshabilitar nuevo aspecto en el portal de administración.":::
 
 Para las áreas de trabajo clásicas basadas en grupos de Microsoft 365, la administración sigue ocurriendo en el portal de administración y en Azure Active Directory.
 
@@ -237,7 +241,7 @@ En el portal de administración, también controla qué usuarios tienen permisos
 
 Los administradores pueden controlar qué usuarios de la organización pueden usar conjuntos de datos en las áreas de trabajo. Cuando esta opción está habilitada, los usuarios todavía necesitan el permiso de compilación necesario para un conjunto de datos específico.
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="Creación de las nuevas experiencias de áreas de trabajos":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="Captura de pantalla de la opción Deshabilitar nuevo aspecto en el portal de administración.":::
 
 Para más información, consulte [Introducción a los conjuntos de datos en áreas de trabajo](../connect-data/service-datasets-across-workspaces.md).
 
@@ -275,7 +279,7 @@ Como administrador de Power BI, el valor **Publicar en la web** ofrece opciones
 > [!NOTE]
 > Solo los administradores de Power BI pueden permitir la creación de códigos para insertar de publicación en la web. Las organizaciones pueden tener códigos para insertar existentes. Vea la sección [Códigos para insertar](service-admin-portal.md#embed-codes) del portal de administración para revisar los informes publicados actualmente.
 
-En la imagen siguiente se muestra el menú **Más opciones (…)** de un informe cuando está habilitada la opción **Publicar en la web**.
+En la imagen siguiente se muestra el menú **Más opciones (…)** de un informe cuando está habilitada la opción **Publicar en la web** .
 
 ![Publicar en la web en el menú Más opciones](media/service-admin-portal/power-bi-more-options-publish-web.png)
 
@@ -283,17 +287,17 @@ El valor **Publicar en la web** del portal de administración proporciona opcion
 
 ![Opción de publicación en la web](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-Los administradores pueden establecer **Publicar en la web** en **Habilitado** y **Elegir cómo funcionan los códigos para insertar** en **Solo permitir códigos existentes**. En ese caso, los usuarios pueden crear códigos para insertar, pero tienen que ponerse en contacto con el administrador de Power BI para que les permita hacerlo.
+Los administradores pueden establecer **Publicar en la web** en **Habilitado** y **Elegir cómo funcionan los códigos para insertar** en **Solo permitir códigos existentes** . En ese caso, los usuarios pueden crear códigos para insertar, pero tienen que ponerse en contacto con el administrador de Power BI para que les permita hacerlo.
 
 ![Mensaje de Publicar en la web](../collaborate-share/media/service-publish-to-web/publish_to_web_admin_prompt.png)
 
-Los usuarios ven diferentes opciones en la interfaz de usuario en función del valor de la opción **Publicar en la web**.
+Los usuarios ven diferentes opciones en la interfaz de usuario en función del valor de la opción **Publicar en la web** .
 
 |Característica |Habilitada para toda la organización |Deshabilitada para toda la organización |Grupos de seguridad específicos   |
 |---------|---------|---------|---------|
 |**Publicar en la web** en el menú **Más opciones (…)**|Habilitada para todos|No visible para todos|Solo visible para usuarios o grupos autorizados.|
 |**Administrar códigos para insertar** en **Configuración**|Habilitada para todos|Habilitada para todos|Habilitada para todos<br><br>Opción * **Eliminar** solo para usuarios o grupos autorizados.<br>* **Obtener código** habilitada para todos.|
-|**Códigos de inserción** en el portal de administración|El estado refleja uno de los siguientes:<br>* Activo<br>* No admitido<br>* Bloqueado|El estado muestra **Deshabilitado**.|El estado refleja uno de los siguientes:<br>* Activo<br>* No admitido<br>* Bloqueado<br><br>Si el usuario no está autorizado según la configuración del inquilino, el estado muestra **Infracción**.|
+|**Códigos de inserción** en el portal de administración|El estado refleja uno de los siguientes:<br>* Activo<br>* No admitido<br>* Bloqueado|El estado muestra **Deshabilitado** .|El estado refleja uno de los siguientes:<br>* Activo<br>* No admitido<br>* Bloqueado<br><br>Si el usuario no está autorizado según la configuración del inquilino, el estado muestra **Infracción** .|
 |Informes publicados existentes|Todos habilitados|Todos deshabilitados|Los informes continúan generándose para todos.|
 
 ### <a name="export-data"></a>Exportar datos
@@ -319,13 +323,13 @@ Los usuarios de la organización pueden exportar los datos de una visualización
 ![Opción Exportar a Excel](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
 
 >[!IMPORTANT]
-> Antes de la introducción de la opción Exportar a Excel, la exportación a un archivo de Excel se controlaba mediante la opción Exportar datos. Por tanto, en los inquilinos que existían antes de la introducción de la opción Exportar a Excel, la primera vez que los administradores de Power BI examinen la opción Exportar a Excel verán que tiene *Cambios sin aplicar*. Para que la nueva configuración surta efecto tendrán que aplicar estos cambios. De lo contrario, la exportación a un archivo de Excel se seguirá controlando mediante la opción Exportar datos.
+> Antes de la introducción de la opción Exportar a Excel, la exportación a un archivo de Excel se controlaba mediante la opción Exportar datos. Por tanto, en los inquilinos que existían antes de la introducción de la opción Exportar a Excel, la primera vez que los administradores de Power BI examinen la opción Exportar a Excel verán que tiene *Cambios sin aplicar* . Para que la nueva configuración surta efecto tendrán que aplicar estos cambios. De lo contrario, la exportación a un archivo de Excel se seguirá controlando mediante la opción Exportar datos.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Exportación de informes como presentaciones de PowerPoint o documentos PDF
 
 Los usuarios de la organización pueden exportar informes de Power BI como archivos de PowerPoint o documentos PDF. [Más información](../consumer/end-user-powerpoint.md)
 
-En la imagen siguiente se muestra el menú **Archivo** para un informe cuando está habilitada la opción **Exportar informes como presentaciones de PowerPoint o documentos PDF**.
+En la imagen siguiente se muestra el menú **Archivo** para un informe cuando está habilitada la opción **Exportar informes como presentaciones de PowerPoint o documentos PDF** .
 
 ![Exportar informes como presentaciones de PowerPoint](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -337,7 +341,7 @@ En la imagen siguiente se muestra la opción para imprimir un panel.
 
 ![Imprimir panel](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
-En la imagen siguiente se muestra el menú **Archivo** de un informe cuando está habilitada la opción **Imprimir paneles e informes**.
+En la imagen siguiente se muestra el menú **Archivo** de un informe cuando está habilitada la opción **Imprimir paneles e informes** .
 
 ![Imprimir informe](media/service-admin-portal/powerbi-admin-print-report.png)
 
@@ -358,7 +362,7 @@ Los usuarios de la organización pueden crear suscripciones de correo electróni
 
 ### <a name="featured-content"></a>Contenido destacado
 
-Permita que algunos o todos los autores de informes de la organización presenten su contenido en la sección Destacados de Inicio de Power BI. Los nuevos usuarios verán el contenido destacado en la parte superior de su página de inicio de Power BI. El contenido destacado se desplaza hacia abajo en la página Inicio a medida que los usuarios agregan **Favoritos**, **Frecuentes** y **Recientes**. 
+Permita que algunos o todos los autores de informes de la organización presenten su contenido en la sección Destacados de Inicio de Power BI. Los nuevos usuarios verán el contenido destacado en la parte superior de su página de inicio de Power BI. El contenido destacado se desplaza hacia abajo en la página Inicio a medida que los usuarios agregan **Favoritos** , **Frecuentes** y **Recientes** . 
 
 Se recomienda empezar con un pequeño conjunto de promotores. Permitir que toda la organización destaque contenido en la página principal puede dificultar la tarea de realizar el seguimiento de todo el contenido promocionado. 
 
@@ -389,7 +393,7 @@ Los creadores de informes pueden compartir aplicaciones directamente con los usu
 Los usuarios de la organización pueden utilizar Excel para ver e interactuar con conjuntos de datos locales de Power BI. [Más información](../collaborate-share/service-analyze-in-excel.md)
 
 > [!NOTE]
-> Si deshabilita la opción **Exportar datos** también impide que los usuarios usen la característica **Analizar en Excel**.
+> Si deshabilita la opción **Exportar datos** también impide que los usuarios usen la característica **Analizar en Excel** .
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>Usar ArcGIS Maps for Power BI
 
@@ -401,11 +405,11 @@ Los usuarios de la organización pueden usar características de búsqueda exter
 
 ## <a name="featured-tables-settings"></a>Configuración de tablas destacadas
 
-En **Configuración de inquilinos**, la opción **Permiso para conexiones a tablas destacadas** permite que los administradores de Power BI controlen qué usuarios de la organización pueden usar tablas destacadas en la galería de tipos de datos de Excel. 
+En **Configuración de inquilinos** , la opción **Permiso para conexiones a tablas destacadas** permite que los administradores de Power BI controlen qué usuarios de la organización pueden usar tablas destacadas en la galería de tipos de datos de Excel. 
 
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Creación de las nuevas experiencias de áreas de trabajos":::
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Captura de pantalla de la opción Deshabilitar nuevo aspecto en el portal de administración.":::
 
-Las conexiones a tablas destacadas también se deshabilitan si la opción **Exportar datos** está establecida en **Deshabilitada**.
+Las conexiones a tablas destacadas también se deshabilitan si la opción **Exportar datos** está establecida en **Deshabilitada** .
 
 Más información sobre las [tablas destacadas de Power BI en Excel](../collaborate-share/service-excel-featured-tables.md).
 
@@ -445,7 +449,7 @@ Los usuarios de la organización pueden consultar las métricas de uso de los pa
 
 Las métricas de uso de creadores de contenido revelan los nombres para mostrar y las direcciones de correo electrónico de los usuarios que acceden al contenido. [Más información](../collaborate-share/service-usage-metrics.md)
 
-Los datos por usuario están habilitados de forma predeterminada en las métricas de uso, mientras que el informe de métricas incluye información sobre la cuenta del creador de contenido. Si no desea recopilar esta información para todos los usuarios, puede deshabilitar la característica para los grupos de seguridad en cuestión o para toda la organización. En tal caso, la información de la cuenta de los usuarios excluidos aparecerá en el informe como *Sin nombre*.
+Los datos por usuario están habilitados de forma predeterminada en las métricas de uso, mientras que el informe de métricas incluye información sobre la cuenta del creador de contenido. Si no desea recopilar esta información para todos los usuarios, puede deshabilitar la característica para los grupos de seguridad en cuestión o para toda la organización. En tal caso, la información de la cuenta de los usuarios excluidos aparecerá en el informe como *Sin nombre* .
 
 ## <a name="dashboard-settings"></a>Configuración del panel
 
@@ -506,13 +510,13 @@ Controle qué usuarios de la organización pueden descargar e instalar aplicacio
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
-La pestaña **Power BI Premium** le permite administrar las funcionalidades de Power BI Premium (SKU EM o P) que se han adquirido para su organización. Todos los usuarios de su organización pueden ver la pestaña **Power BI Premium**, pero solo ven lo que contiene si están asignados como *administrador de funcionalidades* o como un usuario con permisos de asignación. Si un usuario no tiene ningún permiso, aparecerá el mensaje siguiente.
+La pestaña **Power BI Premium** le permite administrar las funcionalidades de Power BI Premium (SKU EM o P) que se han adquirido para su organización. Todos los usuarios de su organización pueden ver la pestaña **Power BI Premium** , pero solo ven lo que contiene si están asignados como *administrador de funcionalidades* o como un usuario con permisos de asignación. Si un usuario no tiene ningún permiso, aparecerá el mensaje siguiente.
 
 ![No hay acceso a la configuración de Premium](media/service-admin-portal/premium-settings-no-access.png)
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-La pestaña **Power BI Embedded** le permite ver sus funcionalidades de Power BI Embedded (SKU A) que ha adquirido para su cliente. Dado que solo puede adquirir SKU A de Azure, puede [administrar las funcionalidades insertadas en Azure](../developer/embedded/azure-pbie-create-capacity.md) desde **Azure Portal**.
+La pestaña **Power BI Embedded** le permite ver sus funcionalidades de Power BI Embedded (SKU A) que ha adquirido para su cliente. Dado que solo puede adquirir SKU A de Azure, puede [administrar las funcionalidades insertadas en Azure](../developer/embedded/azure-pbie-create-capacity.md) desde **Azure Portal** .
 
 Para más información sobre cómo administrar la configuración de Power BI Embedded (SKU A), consulte [¿Qué es Power BI Embedded?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md).
 
@@ -538,7 +542,7 @@ De forma predeterminada, los administradores del área de trabajo no pueden cone
 
 ## <a name="workspaces"></a>Áreas de trabajo
 
-Como administrador, puede ver las áreas de trabajo que existen en el inquilino en la pestaña **Áreas de trabajo**. En esta pestaña, puede realizar las siguientes acciones:
+Como administrador, puede ver las áreas de trabajo que existen en el inquilino en la pestaña **Áreas de trabajo** . En esta pestaña, puede realizar las siguientes acciones:
 
 - Actualizar la lista de áreas de trabajo y sus detalles.
 - Exportar los datos de las áreas de trabajo a un archivo .csv. 
@@ -550,9 +554,9 @@ Como administrador, puede ver las áreas de trabajo que existen en el inquilino 
 
 Los administradores también pueden controlar la capacidad de los usuarios para crear áreas de trabajo de la nueva experiencia de área de trabajo, así como áreas de trabajo clásicas. Consulte [Configuración del área de trabajo](#workspace-settings) en este artículo para más información. 
 
-Las columnas de la tabla de la pestaña **Áreas de trabajo** se corresponden con las propiedades que devuelve la [API REST de administración de Power BI](/rest/api/power-bi/admin) para las áreas de trabajo. Las áreas de trabajo personales son de tipo **PersonalGroup**, las clásicas son de tipo **Group** y las áreas de trabajo de la nueva experiencia de áreas de trabajo son de tipo **Workspace**. Para más información, consulte [Organización del trabajo en las nuevas áreas de trabajo](../collaborate-share/service-new-workspaces.md).
+Las columnas de la tabla de la pestaña **Áreas de trabajo** se corresponden con las propiedades que devuelve la [API REST de administración de Power BI](/rest/api/power-bi/admin) para las áreas de trabajo. Las áreas de trabajo personales son de tipo **PersonalGroup** , las clásicas son de tipo **Group** y las áreas de trabajo de la nueva experiencia de áreas de trabajo son de tipo **Workspace** . Para más información, consulte [Organización del trabajo en las nuevas áreas de trabajo](../collaborate-share/service-new-workspaces.md).
 
-En la pestaña **Áreas de trabajo**, verá el *estado* para cada área de trabajo. En la tabla siguiente se proporcionan más detalles sobre el significado de estos estados.
+En la pestaña **Áreas de trabajo** , verá el *estado* para cada área de trabajo. En la tabla siguiente se proporcionan más detalles sobre el significado de estos estados.
 
 |Estado  |Descripción  |
 |---------|---------|
@@ -571,11 +575,11 @@ Como administrador, puede personalizar la apariencia de Power BI para toda la o
 
 ![Opciones de personalización de marca](media/service-admin-portal/power-bi-custom-branding.png)
 
-* **Carga del logotipo**: para obtener los mejores resultados, cargue un logotipo guardado en formato .png de 10 KB o menos y de al menos 200 x 30 píxeles.
+* **Carga del logotipo** : para obtener los mejores resultados, cargue un logotipo guardado en formato .png de 10 KB o menos y de al menos 200 x 30 píxeles.
 
-* **Carga de la imagen de portada**: para obtener los mejores resultados, cargue una imagen de portada guardada en formato .jpg o .png de 1 MB o menos y de al menos 1920 x 160 píxeles.
+* **Carga de la imagen de portada** : para obtener los mejores resultados, cargue una imagen de portada guardada en formato .jpg o .png de 1 MB o menos y de al menos 1920 x 160 píxeles.
 
-* **Selección del color de tema**: puede seleccionar su tema según un número hexadecimal, RGB, valor o desde la paleta que se proporciona.
+* **Selección del color de tema** : puede seleccionar su tema según un número hexadecimal, RGB, valor o desde la paleta que se proporciona.
 
 
 Para más información, consulte [Personalización de marca de la organización](https://aka.ms/orgBranding).
@@ -588,7 +592,7 @@ Después de habilitar la protección de la información de Power BI, se muestra
 
 Como administrador de Power BI, puede administrar todos los informes, paneles y aplicaciones que se han promocionado en la sección Destacados en la página Inicio de Power BI en la organización.
 
-- En el portal de administración, seleccione **Contenido destacado**.
+- En el portal de administración, seleccione **Contenido destacado** .
 
 Aquí puede ver una visión general de quién destaca el contenido, cuándo se ha destacado y todos sus metadatos pertinentes. Si algo parece sospechoso o quiere limpiar la sección Destacados, puede eliminar el contenido promocionado según sea necesario.
 

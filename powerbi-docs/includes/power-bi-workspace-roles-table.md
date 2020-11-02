@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 09/04/2020
+ms.date: 10/21/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 0bf9f1a6eb918e55ab3811b9c6fde2628bdd91ad
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 87c35df25a17090f1788abbeb979afab3ad9d6a9
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983756"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462239"
 ---
 |Funcionalidad   | Administrador  | Miembro  | Colaborador  | Visor |
 |---|---|---|---|---|
@@ -31,6 +31,7 @@ ms.locfileid: "91983756"
 | Publicar informes en el área de trabajo, eliminar contenido.  |  ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | Crear un informe en otra área de trabajo en función de un conjunto de datos de esta área de trabajo.<sup>2</sup> |  ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | Copiar un informe.<sup>3</sup> | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
+| Administrar los permisos de conjunto de datos.<sup>3</sup> | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | Programar las actualizaciones de datos a través de la puerta de enlace local.<sup>4</sup> | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | Modificar la configuración de la conexión de la puerta de enlace.<sup>4</sup> | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | Ver un elemento e interactuar con él.<sup>5</sup> |  ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  |

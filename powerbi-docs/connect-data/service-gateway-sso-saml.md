@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/10/2019
+ms.date: 10/22/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 38aee727245cd7a33aefe1ee64a8a5be8b062cd7
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 1879dbd53f08b3dff7dac2f4050be078ed44ead8
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859782"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92502083"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de SAML (Lenguaje de marcado de aserción de seguridad) para el SSO de Power BI en orígenes de datos locales
 
@@ -26,71 +26,132 @@ Actualmente se admite SAP HANA con SAML. Para más información acerca de cómo 
 
 Se admiten orígenes de datos adicionales con [Kerberos](service-gateway-sso-kerberos.md) (incluido SAP HANA).
 
-Para SAP HANA, se recomienda habilitar el cifrado antes de establecer una conexión de inicio de sesión único con SAML. Para habilitar el cifrado, configure el servidor de HANA para que acepte las conexiones cifradas y configure la puerta de enlace para que use el cifrado para comunicarse con el servidor de HANA. Como el controlador ODBC de HANA no cifra las aserciones de SAML de forma predeterminada, la aserción de SAML firmada se envía desde la puerta de enlace al servidor de HANA *sin cifrar* y es vulnerable a la intercepción y reutilización por parte de terceros. Consulte [Habilitación del cifrado para SAP HANA](./desktop-sap-hana-encryption.md) para instrucciones sobre cómo habilitar el cifrado para HANA con la biblioteca de OpenSSL.
+Para SAP HANA, se recomienda habilitar el cifrado antes de establecer una conexión de inicio de sesión único con SAML. Para habilitar el cifrado, configure el servidor de HANA para que acepte las conexiones cifradas y configure la puerta de enlace para que use el cifrado para comunicarse con el servidor de HANA. Como el controlador ODBC de HANA no cifra las aserciones de SAML de forma predeterminada, la aserción de SAML firmada se envía desde la puerta de enlace al servidor de HANA *sin cifrar* y es vulnerable a la intercepción y reutilización por parte de terceros.
+
+> [!IMPORTANT]
+> SAP ya no admite OpenSSL y, como consecuencia, Microsoft también ha dejado de ofrecer soporte técnico. Las conexiones nuevas y existentes seguirán funcionando correctamente hasta el final de 2020, pero dejarán de funcionar a partir del 1 de enero de 2021. Use en su lugar CommonCryptoLib.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>Configuración del origen de datos y la puerta de enlace
 
-Para usar SAML, debe establecer una relación de confianza entre los servidores de HANA para los que quiere habilitar el inicio de sesión único y la puerta de enlace, que actúa como proveedor de identidades de SAML (IdP) en este escenario. Hay varias maneras de establecer esta relación, como importar el certificado x509 del IdP de la puerta de enlace en el almacén de confianza de los servidores de HANA, o bien, hacer que una entidad de certificación (CA) raíz de confianza para los servidores HANA firme el certificado X509 de la puerta de enlace. Aunque el primer método se explica en esta guía, puede usar otro si le resulta más cómodo.
+Para usar SAML, debe establecer una relación de confianza entre los servidores de HANA para los que quiere habilitar el inicio de sesión único y la puerta de enlace, que actúa como proveedor de identidades de SAML (IdP) en este escenario. Hay varias maneras de establecer esta relación. SAP recomienda el uso de la biblioteca criptográfica de SAP (también conocida como CommonCryptoLib o sapcrypto) para realizar los pasos de configuración en los que se establece la relación de confianza. Para más información, consulte la documentación oficial de SAP.
 
-A pesar de que en esta guía se usa OpenSSL como proveedor de servicios criptográficos del servidor de HANA, SAP recomienda el uso de la biblioteca de cifrado de SAP (también conocida como CommonCryptoLib o sapcrypto), en lugar de OpenSSL, para realizar los pasos de configuración donde se establece la relación de confianza. Para más información, consulte la documentación oficial de SAP.
+En los pasos siguientes se explica cómo establecer una relación de confianza entre un servidor HANA y el IdP de la puerta de enlace mediante la firma del certificado X509 del IdP de la puerta de enlace con una entidad de certificación raíz de confianza para el servidor de HANA. 
 
-En los pasos siguientes se explica cómo establecer una relación de confianza entre un servidor HANA y el IdP de la puerta de enlace mediante la firma del certificado X509 del IdP de la puerta de enlace con una entidad de certificación raíz de confianza para el servidor de HANA. Creará esta entidad de certificación raíz:
+### <a name="create-the-certificates"></a>Creación de los certificados
 
-1. Cree el certificado X509 de la CA raíz y la clave privada. Por ejemplo, para crear el certificado X509 de la CA raíz y la clave privada en formato .pem, escriba este comando:
+Siga estos pasos para crear los certificados:
 
-   ```
-   openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
-   ```
-
-    Asegúrese de que la clave privada de la entidad de certificación raíz esté protegida correctamente. Si la obtiene un tercero, la podría usar para acceder sin autorización al servidor de HANA. 
-
- 1. Agregue el certificado (por ejemplo, CA_Cert.pem) al almacén de confianza del servidor de HANA para que este confíe en los certificados firmados por la entidad de certificación raíz que ha creado. 
-
-    Encontrará la ubicación del almacén de confianza del servidor de HANA al examinar la opción de configuración **ssltruststore**. Si ha seguido las instrucciones de la documentación de SAP que tratan de cómo configurar OpenSSL, es posible que el servidor de HANA ya confíe en una entidad de certificación raíz que pueda reutilizar. Para más información, consulte [Procedimientos para configurar Open SSL para SAP HANA Studio en un servidor de SAP HANA](https://archive.sap.com/documents/docs/DOC-39571). Si tiene varios servidores de HANA para los que quiera habilitar el inicio de sesión único con SAML, asegúrese de que todos ellos confíen en esta entidad de certificación raíz.
-
-1. Cree el certificado X509 del IdP de la puerta de enlace. 
-
-   Por ejemplo, para crear una solicitud de firma de certificado (IdP_Req.pem) y una clave privada (IdP_Key.pem) que sean válidos durante un año, ejecute el siguiente comando:
+1. En el dispositivo que está ejecutando SAP HANA, cree una carpeta vacía para almacenar los certificados y, después, vaya a esa carpeta.
+2. Ejecute el comando siguiente para crear los certificados raíz:
 
    ```
-   openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+   openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca'''
    ```
 
- 1. Firme la solicitud de firma de certificado mediante la entidad de certificación raíz en la que confían los servidores de HANA. 
+    Debe recordar la frase de contraseña para usar este certificado con el fin de firmar otros certificados.
+    Debería ver que se están creando *CA_Cert.pem* y *CA_Key.pem* .
 
-    Por ejemplo, para firmar IdP_Req.pem mediante CA_Cert.pem y CA_Key.pem (el certificado y la clave de la CA raíz), ejecute el siguiente comando:
+   
+3. Ejecute el comando siguiente para crear los certificados de IdP:
+ 
+    ```
+    openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+    ```
+    Debería ver que se están creando *IdP_Key.pem* y *IdP_Req.pem* .
+
+4. Firme los certificados de IdP con los certificados raíz:
 
     ```
     openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
     ```
+    Debería ver que se están creando *CA_Cert.srl* e *IdP_Cert.pem* .
+    Solo nos preocupa el archivo *IdP_Cert.pem* .    
 
-     El certificado de IdP resultante es válido durante un año (consulte la opción de días). 
+### <a name="create-saml-identity-provider-certificate-mapping"></a>Creación de la asignación del certificado de proveedor de identidades SAML
 
-Importe el certificado de IdP en HANA Studio para crear un nuevo proveedor de identidades de SAML:
+Cree la asignación del certificado de proveedor de identidades SAML con los pasos siguientes.
 
-1. En SAP HANA Studio, haga clic con el botón derecho en el nombre del servidor de SAP HANA y vaya a **Security** &gt; **Open Security Console** &gt; **SAML Identity Provider** &gt; **OpenSSL Cryptographic Library** (Seguridad > Abrir consola de seguridad > Proveedor de identidades de SAML > Biblioteca de cifrado OpenSSL).
+1. En **SAP HANA Studio** , haga clic con el botón derecho en el nombre del servidor de SAP HANA y luego vaya a **Security > Open Security Console > SAML Identity Provider** (Seguridad > Abrir consola de seguridad > Proveedor de identidades de SAML).
+2. Si la biblioteca criptográfica de SAP no está seleccionada, selecciónela. *No* use la biblioteca criptográfica OpenSSL (la selección a la izquierda, en la siguiente imagen), está en desuso por parte de SAP.
 
-    ![Proveedores de identidades](media/service-gateway-sso-saml/identity-providers.png)
+    ![Selección de la biblioteca criptográfica de SAP](media/service-gateway-sso-saml/service-gateway-sso-saml-01.png)
 
-1. Seleccione **Importar**, vaya a IdP_Cert.pem e impórtelo.
+3. Importe el certificado firmado *IdP_Cert.pem* haciendo clic en el botón de importación azul, que se muestra en la imagen siguiente.
 
-1. En SAP HANA Studio, seleccione la carpeta **Seguridad**.
+    ![Selección del botón de importación azul](media/service-gateway-sso-saml/service-gateway-sso-saml-02.png)
 
-    ![Carpeta Seguridad](media/service-gateway-sso-saml/security-folder.png)
+No olvide asignar un nombre al *Nombre del proveedor de identidades* .
 
-1. Expanda **Usuarios** y seleccione el usuario al cual quiere asignar su usuario de Power BI.
+### <a name="import-and-create-the-signed-certificates-in-hana"></a>Importación y creación de los certificados firmados en HANA
 
-1. Seleccione **SAML** y **Configure** (Configurar).
+Después, importará y creará los certificados firmados en HANA. Siga estos pasos:
 
-    ![Configuración de SAML](media/service-gateway-sso-saml/configure-saml.png)
+1. En **HANA Studio** , ejecute la consulta siguiente:
 
-1. Seleccione el proveedor de identidades que creó en el paso 2. En **External Identity** (Identidad externa), escriba el UPN del usuario de Power BI (normalmente, la dirección de correo electrónico con la que el usuario inicia sesión en Power BI) y seleccione **Add** (Agregar). Si ha configurado la puerta de enlace para que use la opción de configuración *ADUserNameReplacementProperty*, deberá escribir el valor que reemplazará el UPN original del usuario de Power BI. 
+    ```
+    CREATE CERTIFICATE FROM '<idp_cert_pem_certificate_content>'
+    ```
+    
+    Este es un ejemplo:
 
-   Por ejemplo, si ha establecido *ADUserNameReplacementProperty* en **SAMAccountName**, tendrá que escribir el valor **SAMAccountName** del usuario.
+    ```
+    CREATE CERTIFICATE FROM
+    '-----BEGIN CERTIFICATE-----
+    MIIDyDCCArCgA...veryLongString...0WkC5deeawTyMje6
+    -----END CERTIFICATE-----
+    '
+    ```
 
-    ![Selección del proveedor de identidades](media/service-gateway-sso-saml/select-identity-provider.png)
+2. Si no hay ningún propósito de SAML de PSEwith, cree uno ejecutando la consulta siguiente en **HANA Studio** :
+    
+    ```
+    CREATE PSE SAMLCOLLECTION;<br>set pse SAMLCOLLECTION purpose SAML;<br>
+    ```
 
-Ahora que ha configurado el certificado y la identidad de la puerta de enlace, convierta el certificado a formato .pfx y configure la puerta de enlace para usarlo:
+3. Agregue el certificado firmado recientemente creado a PSE con el comando siguiente:
+
+    ```
+    alter pse SAMLCOLLECTION add CERTIFICATE <certificate_id>;
+    ```
+
+    Por ejemplo:
+    ```
+    alter pse SAMLCOLLECTION add CERTIFICATE 1978320;
+    ```
+
+    Puede comprobar la lista de certificados creados con la consulta siguiente:
+    ```
+    select * from PUBLIC"."CERTIFICATES"
+    ```
+
+    El certificado se ha instalado correctamente. Puede ejecutar la consulta siguiente para confirmarlo:
+    ```
+    select * from "PUBLIC"."PSE_CERTIFICATES"
+    ```
+
+### <a name="map-the-user"></a>Asignación del usuario
+
+Siga estos pasos para asignar el usuario:
+
+1. En **SAP HANA Studio** , seleccione la carpeta **Security** (Seguridad):
+
+    ![Selección de la carpeta Security (Seguridad)](media/service-gateway-sso-saml/service-gateway-sso-saml-03.png)
+
+2. Expanda **Users** (Usuarios) y seleccione el usuario al cual quiere asignar su usuario de Power BI.
+
+3. Active la casilla **SAML** y, después, seleccione la opción **Configurar** , resaltada en la imagen siguiente.
+
+    ![Seleccione SAML y, luego, el vínculo Configurar.](media/service-gateway-sso-saml/service-gateway-sso-saml-04.png)
+
+4. Seleccione el proveedor de identidades que ha creado en la sección [Creación de la asignación del certificado de proveedor de identidades SAML](#create-saml-identity-provider-certificate-mapping), anteriormente en este artículo. En Identidad externa, escriba el UPN del usuario de Power BI (normalmente, la dirección de correo electrónico con la que el usuario inicia sesión en Power BI) y luego seleccione **Agregar** .  En la imagen siguiente se muestran las opciones y selecciones.
+
+    ![Ventana de configuración de identidades de SAML](media/service-gateway-sso-saml/service-gateway-sso-saml-05.png)
+
+    Si ha configurado la puerta de enlace para que use la opción de configuración *ADUserNameReplacementProperty* , deberá escribir el valor que reemplazará el UPN original del usuario de Power BI. Por ejemplo, si ha establecido *ADUserNameReplacementProperty* en *SAMAccountName* , escriba el valor *SAMAccountName* del usuario.
+
+### <a name="configure-the-gateway"></a>Configuración de la puerta de enlace
+
+Ahora que ha configurado el certificado y la identidad de la puerta de enlace, convierta el certificado a formato pfx y configure la puerta de enlace para usarlo con los pasos siguientes.
 
 1. Para convertir el certificado al formato pfx, ejecute el comando siguiente. Este comando asigna el nombre samlcert.pfx al archivo .pfx resultante y establece *root* como contraseña:
 
@@ -98,39 +159,39 @@ Ahora que ha configurado el certificado y la identidad de la puerta de enlace, c
     openssl pkcs12 -export -out samltest.pfx -in IdP_Cert.pem -inkey IdP_Key.pem -passin pass:root -passout pass:root
     ```
 
-1. Copie el archivo pfx en el equipo de puerta de enlace:
+2. Copie el archivo pfx en el equipo de puerta de enlace:
 
-    1. Haga doble clic en samltest.pfx y, después, seleccione **Equipo local** &gt; **Siguiente**.
+    1. Haga doble clic en *samltest.pfx* y, después, seleccione **Equipo local** > **Siguiente** .
 
-    1. Escriba la contraseña y, a continuación, seleccione **Siguiente**.
+    2. Escriba la contraseña y, a continuación, seleccione **Siguiente** .
 
-    1. Seleccione **Colocar todos los certificados en el siguiente almacén** y, después, **Examinar** &gt; **Personal** &gt; **Aceptar**.
+    3. Seleccione **Colocar todos los certificados en el siguiente almacén** y, después, **Examinar** > **Personal** > **Aceptar** .
 
-    1. Seleccione **Next** (Siguiente) y **Finish** (Finalizar).
+    4. Seleccione **Next** (Siguiente) y **Finish** (Finalizar).
 
-       ![Importación de un certificado](media/service-gateway-sso-saml/import-certificate.png)
+       ![Importación de certificado](media/service-gateway-sso-saml/service-gateway-sso-saml-06.png)
 
-1. Conceda a la cuenta de servicio de la puerta de enlace acceso a la clave privada del certificado:
+3. Conceda a la cuenta de servicio de la puerta de enlace acceso a la clave privada del certificado con los pasos siguientes:
 
     1. En el equipo de puerta de enlace, ejecute Microsoft Management Console (MMC).
 
         ![Ejecución de MMC](media/service-gateway-sso-saml/run-mmc.png)
 
-    1. En **File** (Archivo), seleccione **Add/Remove Snap-in** (Agregar o quitar complemento).
+    2. En **File** (Archivo), seleccione **Add/Remove Snap-in** (Agregar o quitar complemento).
 
         ![Adición de un complemento](media/service-gateway-sso-saml/add-snap-in.png)
 
-    1. Seleccione **Certificados** &gt; **Agregar** y, después, **Cuenta de equipo** &gt; **Siguiente**.
+    3. Seleccione **Certificates** > **Add** (Certificados > Agregar) y **Computer account** > **Next** (Cuenta de equipo > Siguiente).
 
-    1. Seleccione **Equipo local** &gt; **Finalizar** &gt; **Aceptar**.
+    4. Seleccione **Equipo local** > **Finalizar** > **Aceptar** .
 
-    1. Expanda **Certificados** &gt; **Personal** &gt; **Certificados** y busque el certificado.
+    5. Expanda **Certificados** > **Personal** > **Certificados** y busque el certificado.
 
-    1. Haga clic con el botón derecho en el certificado y vaya a **Todas las tareas** &gt; **Administrar claves privadas**.
+    6. Haga clic con el botón derecho en el certificado y vaya a **Todas las tareas** &gt; **Administrar claves privadas** .
 
         ![Administración de claves privadas](media/service-gateway-sso-saml/manage-private-keys.png)
 
-    1. Agregue la cuenta de servicio de la puerta de enlace a la lista. De forma predeterminada, la cuenta es **NT SERVICE\PBIEgwService**. Puede averiguar qué cuenta ejecuta el servicio de puerta de enlace si ejecuta **services.msc** y busca el **Servicio de puerta de enlace de datos local**.
+    1. Agregue la cuenta de servicio de la puerta de enlace a la lista. De forma predeterminada, la cuenta es **NT SERVICE\PBIEgwService** . Puede averiguar qué cuenta ejecuta el servicio de puerta de enlace si ejecuta **services.msc** y busca el **Servicio de puerta de enlace de datos local** .
 
         ![Servicio de puerta de enlace](media/service-gateway-sso-saml/gateway-service.png)
 
@@ -142,17 +203,17 @@ Por último, siga estos pasos para agregar la huella digital del certificado a l
     Get-ChildItem -path cert:\LocalMachine\My
     ```
 
-1. Copie la huella digital del certificado que ha creado.
+2. Copie la huella digital del certificado que ha creado.
 
-1. Vaya al directorio de la puerta de enlace que de manera predeterminada es C:\Archivos de programa\Puerta de enlace de datos local.
+3. Vaya al directorio de la puerta de enlace, que de manera predeterminada es *C:\Archivos de programa\Puerta de enlace de datos local* .
 
-1. Abra PowerBI.DataMovement.Pipeline.GatewayCore.dll.config y busque la sección *SapHanaSAMLCertThumbprint*. Pegue la huella digital que ha copiado.
+4. Abra *PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* y busque la sección *SapHanaSAMLCertThumbprint* . Pegue la huella digital que ha copiado.
 
-1. Reinicie el servicio de puerta de enlace.
+5. Reinicie el servicio de puerta de enlace.
 
 ## <a name="running-a-power-bi-report"></a>Ejecución de un informe de Power BI
 
-Ahora puede usar la página **Administrar puertas de enlace** de Power BI para configurar el origen de datos de SAP HANA y habilitar el inicio de sesión único en **Configuración avanzada**. Hacer esto le permitirá publicar los enlaces de los conjuntos de datos y los informes al origen de datos.
+Ahora puede usar la página **Administrar puertas de enlace** de Power BI para configurar el origen de datos de SAP HANA y habilitar el inicio de sesión único en **Configuración avanzada** . Hacer esto le permitirá publicar los enlaces de los conjuntos de datos y los informes al origen de datos.
 
    ![Configuración avanzada](media/service-gateway-sso-saml/advanced-settings.png)
 
@@ -172,7 +233,7 @@ Los seguimientos de autenticación del lado servidor proporcionan información d
 
 1. En HANA Studio, abra la consola de administración y seleccione la pestaña **Diagnosis Files** (Archivos de diagnóstico).
 
-1. Abra el último seguimiento de indexserver y busque *SAMLAuthenticator.cpp*.
+1. Abra el último seguimiento de indexserver y busque *SAMLAuthenticator.cpp* .
 
     Debería encontrar un mensaje de error en el que se indica la causa raíz, por ejemplo:
 

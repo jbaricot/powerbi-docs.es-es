@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 330f844e9c97a3a59ff854ac14612c328b7cb9b6
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857712"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680996"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Seguimiento de actividades de usuario en Power BI
 
@@ -48,7 +48,7 @@ Debe cumplir estos requisitos para acceder al registro de actividad de Power BI
 
 ### <a name="activityevents-rest-api"></a>API REST ActivityEvents
 
-Puede usar una aplicación administrativa basada en las API REST de Power BI para exportar eventos de actividad a un almacén de blobs o a una base de datos SQL. Después, puede crear un informe de uso personalizado sobre los datos exportados. En la llamada a la API REST **ActivityEvents**, debe especificar una fecha de inicio y una fecha de finalización y, opcionalmente, un filtro para seleccionar actividades por tipo de actividad o identificador de usuario. Como el registro de actividad puede contener una gran cantidad de datos, actualmente la API **ActivityEvents** solo admite la descarga de hasta un día de datos por solicitud. Es decir, la fecha de inicio y la fecha de finalización deben especificar el mismo día, como en el ejemplo siguiente. Asegúrese de especificar los valores de fecha y hora en formato UTC.
+Puede usar una aplicación administrativa basada en las API REST de Power BI para exportar eventos de actividad a un almacén de blobs o a una base de datos SQL. Después, puede crear un informe de uso personalizado sobre los datos exportados. En la llamada a la API REST **ActivityEvents** , debe especificar una fecha de inicio y una fecha de finalización y, opcionalmente, un filtro para seleccionar actividades por tipo de actividad o identificador de usuario. Como el registro de actividad puede contener una gran cantidad de datos, actualmente la API **ActivityEvents** solo admite la descarga de hasta un día de datos por solicitud. Es decir, la fecha de inicio y la fecha de finalización deben especificar el mismo día, como en el ejemplo siguiente. Asegúrese de especificar los valores de fecha y hora en formato UTC.
 
 ```
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
@@ -81,7 +81,7 @@ Para obtener más información sobre el uso de la API de REST de Power BI, incl
 
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Cmdlet Get-PowerBIActivityEvent
 
-Descargue eventos de actividad con los cmdlets de administración de Power BI para PowerShell. El cmdlet **Get-PowerBIActivityEvent** controla de forma automática el token de continuación. El cmdlet **Get-PowerBIActivityEvent** toma un parámetro StartDateTime y EndDateTime con las mismas restricciones que la API REST **ActivityEvents**. Es decir, la fecha de inicio y la fecha de finalización deben hacer referencia al mismo valor de fecha porque solo se pueden recuperar los datos de actividad de un día a la vez.
+Descargue eventos de actividad con los cmdlets de administración de Power BI para PowerShell. El cmdlet **Get-PowerBIActivityEvent** controla de forma automática el token de continuación. El cmdlet **Get-PowerBIActivityEvent** toma un parámetro StartDateTime y EndDateTime con las mismas restricciones que la API REST **ActivityEvents** . Es decir, la fecha de inicio y la fecha de finalización deben hacer referencia al mismo valor de fecha porque solo se pueden recuperar los datos de actividad de un día a la vez.
 
 En el script siguiente se muestra cómo descargar todas las actividades de Power BI. El comando convierte los resultados de JSON en objetos de .NET para un acceso sencillo a las propiedades de cada actividad. En estos ejemplos se muestran las marcas de tiempo más pequeñas y más grandes posibles de un día para asegurarse de que no se pierde ningún evento.
 
@@ -97,7 +97,7 @@ $activities[0]
 
 ### <a name="filter-activity-data"></a>Filtrado de datos de actividad
 
-Puede filtrar los eventos de actividad por tipo de actividad e identificador de usuario. En el script siguiente se muestra cómo descargar solo los datos de evento para la actividad **ViewDashboard**. Para obtener más información sobre los parámetros admitidos, use el comando `Get-Help Get-PowerBIActivityEvent`.
+Puede filtrar los eventos de actividad por tipo de actividad e identificador de usuario. En el script siguiente se muestra cómo descargar solo los datos de evento para la actividad **ViewDashboard** . Para obtener más información sobre los parámetros admitidos, use el comando `Get-Help Get-PowerBIActivityEvent`.
 
 ```powershell
 Login-PowerBI
@@ -136,13 +136,13 @@ Para acceder a los registros, asegúrese primero de habilitar el registro en Pow
 
 Los registros de auditoría de Power BI están disponibles directamente en el [Centro de seguridad y cumplimiento de Office 365](https://sip.protection.office.com/#/unifiedauditlog). También hay un vínculo desde el portal de administración de Power BI:
 
-1. En Power BI, seleccione el **icono de engranaje** en la esquina superior derecha y, luego, seleccione **Portal de administración**.
+1. En Power BI, seleccione el **icono de engranaje** en la esquina superior derecha y, luego, seleccione **Portal de administración** .
 
    ![Captura de pantalla del menú desplegable de engranaje con la opción de portal de administración resaltada.](media/service-admin-auditing/powerbi-admin.png)
 
-1. Seleccione **Registros de auditoría**.
+1. Seleccione **Registros de auditoría** .
 
-1. Seleccione **Ir al Centro de administración de Microsoft 365**.
+1. Seleccione **Ir al Centro de administración de Microsoft 365** .
 
    ![Captura de pantalla del portal de administración con la opción Registros de auditoría y las opciones Ir al centro de administración de Microsoft 365 resaltadas.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
@@ -150,9 +150,9 @@ Los registros de auditoría de Power BI están disponibles directamente en el [C
 
 Restrinja los resultados solo a las actividades de Power BI; para ello siga estos pasos. Para obtener una lista de actividades, consulte la lista de [actividades auditadas por Power BI](#operations-available-in-the-audit-and-activity-logs) más adelante en este artículo.
 
-1. En la página **Búsqueda de registros de auditoría**, seleccione la lista desplegable **Actividades** en **Buscar**.
+1. En la página **Búsqueda de registros de auditoría** , seleccione la lista desplegable **Actividades** en **Buscar** .
 
-2. Seleccione **Actividades de Power BI**.
+2. Seleccione **Actividades de Power BI** .
 
    ![Captura de pantalla de la búsqueda de registros de auditoría con las actividades de Power BI resaltadas.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
@@ -162,21 +162,21 @@ Las búsquedas solo devolverán actividades de Power BI.
 
 ### <a name="search-the-audit-logs-by-date"></a>Buscar en los registros de auditoría por fecha
 
-Puede buscar registros por intervalo de fechas mediante el campo **Fecha de inicio** y **Fecha de finalización**. La selección predeterminada son los últimos siete días. La pantalla muestra la fecha y hora en formato de hora universal coordinada (UTC). El intervalo de fechas máximo que se puede especificar es de 90 días. 
+Puede buscar registros por intervalo de fechas mediante el campo **Fecha de inicio** y **Fecha de finalización** . La selección predeterminada son los últimos siete días. La pantalla muestra la fecha y hora en formato de hora universal coordinada (UTC). El intervalo de fechas máximo que se puede especificar es de 90 días. 
 
-Recibirá un error si el intervalo de fechas seleccionado es superior a 90 días. Si usa el intervalo de fechas máximo de 90 días, debe seleccionar la hora actual en la **fecha de inicio**. De lo contrario, aparece un error que indica que la fecha de inicio es anterior a la fecha de finalización. Si ha activado la auditoría durante los 90 últimos días, el intervalo de fechas no puede empezar antes de la fecha de activación de la auditoría.
+Recibirá un error si el intervalo de fechas seleccionado es superior a 90 días. Si usa el intervalo de fechas máximo de 90 días, debe seleccionar la hora actual en la **fecha de inicio** . De lo contrario, aparece un error que indica que la fecha de inicio es anterior a la fecha de finalización. Si ha activado la auditoría durante los 90 últimos días, el intervalo de fechas no puede empezar antes de la fecha de activación de la auditoría.
 
 ![Captura de pantalla de la búsqueda de registros de auditoría con las opciones Fecha de inicio y Fecha de finalización resaltadas.](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ### <a name="search-the-audit-logs-by-users"></a>Buscar en los registros de auditoría por usuario
 
-Puede buscar entradas del registro de auditoría para actividades realizadas por usuarios específicos. Escriba uno o varios nombres de usuario en el campo **Usuarios**. El nombre de usuario es similar a una dirección de correo electrónico. Es la cuenta con la que los usuarios inician sesión en Power BI. Si deja este cuadro en blanco, se devolverán las entradas de todos los usuarios (y las cuentas de servicio) de la organización.
+Puede buscar entradas del registro de auditoría para actividades realizadas por usuarios específicos. Escriba uno o varios nombres de usuario en el campo **Usuarios** . El nombre de usuario es similar a una dirección de correo electrónico. Es la cuenta con la que los usuarios inician sesión en Power BI. Si deja este cuadro en blanco, se devolverán las entradas de todos los usuarios (y las cuentas de servicio) de la organización.
 
 ![Captura de pantalla de la búsqueda de registros de auditoría con los usuarios resaltados.](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ### <a name="view-search-results"></a>Ver los resultados de la búsqueda
 
-Después de seleccionar **Buscar**, se cargan los resultados de la búsqueda. Después de unos momentos, aparecen en **Resultados**. Una vez finalizada la búsqueda, la pantalla muestra el número de resultados encontrados. **Búsqueda de registros de auditoría** muestra un máximo de 1000 eventos. Si son más de 1000 los eventos que cumplen los criterios de búsqueda, la aplicación mostrará los 1000 eventos más recientes.
+Después de seleccionar **Buscar** , se cargan los resultados de la búsqueda. Después de unos momentos, aparecen en **Resultados** . Una vez finalizada la búsqueda, la pantalla muestra el número de resultados encontrados. **Búsqueda de registros de auditoría** muestra un máximo de 1000 eventos. Si son más de 1000 los eventos que cumplen los criterios de búsqueda, la aplicación mostrará los 1000 eventos más recientes.
 
 #### <a name="view-the-main-results"></a>Ver los resultados principales
 
@@ -187,7 +187,7 @@ El área **Resultados** tiene la siguiente información sobre cada evento devuel
 | Fecha |Fecha y hora (en formato UTC) en las que se produjo el evento. |
 | IP address (Dirección IP) |La dirección IP del dispositivo que se usa para la actividad registrada. La aplicación muestra la dirección IP en el formato de dirección IPv4 o IPv6. |
 | Usuario |Usuario (o cuenta de servicio) que realizó la acción que desencadenó el evento. |
-| Actividad |Actividad realizada por el usuario. Este valor corresponde a las actividades que se seleccionaron en la lista desplegable **Actividades**. En el caso de un evento del registro de auditoría de administración de Exchange, el valor de esta columna es un cmdlet de Exchange. |
+| Actividad |Actividad realizada por el usuario. Este valor corresponde a las actividades que se seleccionaron en la lista desplegable **Actividades** . En el caso de un evento del registro de auditoría de administración de Exchange, el valor de esta columna es un cmdlet de Exchange. |
 | Artículo |El objeto creado o modificado debido a la actividad correspondiente. Por ejemplo, el archivo visto o modificado, o la cuenta de usuario actualizada. No todas las actividades tienen un valor en esta columna. |
 | Detail (Detalle) |Detalles adicionales sobre una actividad. También en este caso, no todas las actividades tienen un valor. |
 
@@ -195,7 +195,7 @@ El área **Resultados** tiene la siguiente información sobre cada evento devuel
 
 Para ver más detalles de un evento, seleccione el registro de eventos en la lista de resultados de la búsqueda. Aparece una página **Detalles** con las propiedades detalladas del registro de eventos. En la página **Detalles** se muestran las propiedades en función del servicio de Microsoft 365 donde ocurre el evento.
 
-Para mostrar estos detalles, seleccione **Más información**. Todas las entradas de Power BI tienen un valor de 20 para la propiedad RecordType. Para obtener información sobre otras propiedades, vea [Propiedades detalladas del registro de auditoría de Office 365](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
+Para mostrar estos detalles, seleccione **Más información** . Todas las entradas de Power BI tienen un valor de 20 para la propiedad RecordType. Para obtener información sobre otras propiedades, vea [Propiedades detalladas del registro de auditoría de Office 365](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
 
    ![Captura de pantalla del cuadro de diálogo de detalles de la auditoría con la opción Más información resaltada.](media/service-admin-auditing/audit-details.png)
 
@@ -203,7 +203,7 @@ Para mostrar estos detalles, seleccione **Más información**. Todas las entrada
 
 Para exportar el registro de auditoría de Power BI a un archivo .csv, siga estos pasos.
 
-1. Seleccione **Exportar resultados**.
+1. Seleccione **Exportar resultados** .
 
 1. Seleccione **Save loaded results** (Guardar resultados cargados) o **Download all results** (Descargar todos los resultados).
 
@@ -310,6 +310,7 @@ Las operaciones siguientes están disponibles en los registros de auditoría y d
 | No se pudieron eliminar permisos de flujo de datos             | FailedToRemoveDataflowPermissions           | No se usa actualmente                       |
 | Token SAS de flujo de datos de Power BI generado             | GenerateDataflowSasToken                    |                                          |
 | Token de inserción Power BI generado                    | GenerateEmbedToken                          |                                          |
+| Captura de pantalla generada                       | GenerateScreenshot |                     |
 | Archivo a Power BI importado                         | Importación                                      |                                          |
 | Aplicación de Power BI instalada                            | InstallApp                                  |                                          |
 | Área de trabajo a una capacidad migrada                  | MigrateWorkspaceIntoCapacity                |                                          |

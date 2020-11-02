@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/15/2020
+ms.date: 10/22/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1fd5f4748ffd7a59095bfe34090d9494ff0a9134
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8768801f2d704644c888a14caf9b930dcd27f8fa
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526775"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501981"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
@@ -112,11 +112,16 @@ Los administradores de Power BI pueden usar los registros de auditoría de Powe
 - Al igual que otros productos de BI, el momento en el que se establece la suscripción es cuando esta comienza el procesamiento.  Una vez completado el procesamiento del informe, la suscripción se pone en cola y se envía a los destinatarios de correo electrónico.  Nos esforzamos por procesar y ofrecer todas las suscripciones lo antes posible. Aunque, a veces, en períodos de demanda máxima, se puede ver un retraso más largo debido al número de suscripciones que Power BI puede enviar a la vez. La mayoría de los clientes no debe ver un retraso de más de 15 minutos en el procesamiento y envío de informes. El proceso puede tardar hasta 30 minutos en determinadas horas e inquilinos con un uso significativo.  Nunca esperamos que ningún retraso en la entrega sea superior a 60 minutos desde el momento en que se programa la suscripción.  Si experimenta un retraso así, asegúrese primero de que la dirección `no-reply-powerbi@microsoft.com` está en la lista de remitentes seguros y de que el proveedor de correo electrónico no la tiene bloqueada.  Si el correo electrónico no está bloqueado, póngase en contacto con el soporte técnico de Power BI para obtener ayuda.
 - En la actualidad, al suscribir a otros usuarios, no se admiten las suscripciones de correo electrónico relativas a informes o paneles que usen conjuntos de datos con conexión dinámica, excepto para los informes paginados. Puede suscribir a otros usuarios a un informe paginado mediante el contexto de seguridad. Obtenga más información sobre la [suscripción a informes paginados](../consumer/paginated-reports-subscriptions.md).
 - Power BI detiene de forma automática la actualización en los conjuntos de datos asociados con los paneles e informes que no se han visitado en más de dos meses. Pero si agrega una suscripción a un panel o informe, no se detiene incluso si no recibe visitas.
-- Si no recibe los mensajes de correo electrónico de suscripción, asegúrese de que el nombre principal de usuario (UPN) puede recibirlos.
+- Si no recibe los mensajes de correo electrónico de suscripción:
+
+    - Asegúrese de que el Nombre principal de usuario (UPN) puede recibir mensajes de correo electrónico.
+    - Aunque tenga una licencia de Power BI Pro, es posible que no tenga una licencia de Microsoft Exchange. Si ese no es el caso, es posible que la cuenta de Azure Active Directory no tenga especificado un correo electrónico o una dirección de correo electrónico alternativa. En este caso, aunque la suscripción parezca salir, nunca recibirá una copia.  Si el administrador de Power BI asigna una dirección de correo electrónico, Power BI sincronizará la actualización la próxima vez que inicie sesión y usará esa dirección de correo electrónico para la suscripción.
+
 - Si el panel o el informe están en la capacidad Premium, puede usar el alias de correo electrónico del grupo para las suscripciones en lugar de suscribir las direcciones de correo electrónico de sus compañeros de trabajo de una en una. Los alias se basan en el directorio actual de Active Directory.
 - Si el contenido no se encuentra en una capacidad Premium, solo los usuarios de Power BI Pro pueden recibir suscripciones por correo electrónico. 
 - Las suscripciones no admiten marcadores actualmente.
 - La opción de proporcionar acceso al informe o panel siempre aparece como habilitada al editar una suscripción existente.  Si desactiva esta opción y guarda la suscripción, se guardará ese estado. Pero al volver a editar el informe, se activará de forma predeterminada.
+- Si tiene una dirección de correo electrónico alternativa pero no una principal, Power BI la usará para entregar la suscripción.
 
 ### <a name="dashboards"></a>Paneles
 

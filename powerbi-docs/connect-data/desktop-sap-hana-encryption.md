@@ -7,19 +7,22 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/26/2019
+ms.date: 10/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 83e1725b7ce7d38a00d0564702977c3a8eef7c1d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9aaa89db53e22fcefe55a53ec7a5414a8835255b
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222882"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501912"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>Habilitación del cifrado para SAP HANA
 
-Al establecer una conexión con un servidor de SAP HANA desde Power BI Desktop y el servicio Power BI, se recomienda cifrarla. Puede habilitar el cifrado de HANA mediante la biblioteca CommonCryptoLib (anteriormente conocida como sapcrypto) de OpenSSL y SAP. SAP recomienda el uso de CommonCryptoLib, pero las características de cifrado básicas están disponibles con cualquiera de las bibliotecas.
+Al establecer una conexión con un servidor de SAP HANA desde Power BI Desktop y el servicio Power BI, se recomienda cifrarla. Puede habilitar el cifrado de HANA mediante la biblioteca CommonCryptoLib (anteriormente conocida como sapcrypto) de SAP. SAP recomienda el uso de CommonCryptoLib.
+
+> [!IMPORTANT]
+> SAP ya no admite OpenSSL y, como consecuencia, Microsoft también ha dejado de ofrecer soporte técnico. Las conexiones nuevas y existentes seguirán funcionando correctamente hasta el final de 2020, pero dejarán de funcionar a partir del 1 de enero de 2021. Use en su lugar CommonCryptoLib.
 
 En este artículo se ofrece información general sobre cómo habilitar el cifrado con OpenSSL y se hace referencia a ciertas áreas de la documentación de SAP. Actualizamos el contenido y los vínculos periódicamente, pero, para obtener instrucciones completas y soporte técnico, consulte siempre la documentación oficial de SAP. Si quiere configurar el cifrado con CommonCryptoLib en lugar de OpenSSL, consulte la entrada de blog sobre la [configuración de TLS/SSL en SAP HANA 2.0](https://blogs.sap.com/2018/11/13/how-to-configure-tlsssl-in-sap-hana-2.0/). Para conocer los pasos sobre cómo migrar de OpenSSL a CommonCryptoLib, consulte la [nota 2093286 de SAP ](https://launchpad.support.sap.com/#/notes/2093286) (se requiere s-user).
 
@@ -40,7 +43,7 @@ Cree una solicitud de firma de certificado X509 para el servidor de HANA.
 
 1. Con SSH, conéctese a la máquina Linux en la que se ejecute el servidor de HANA como \<sid\>adm.
 
-1. Vaya al directorio particular _/__usr/sap/\<sid\>/home_.
+1. Vaya al directorio particular _/_ _usr/sap/\<sid\>/home_ .
 
 1. Cree un directorio oculto con el nombre _.__ssl_, si todavía no existe ninguno.
 
@@ -98,7 +101,7 @@ Obtenga el certificado firmado por una entidad de certificación (CA) que sea de
 
 Pruebe la conexión en Power BI Desktop o en el servicio Power BI.
 
-1. En Power BI Desktop o en la página **Administrar puertas de enlace** del servicio Power BI, asegúrese de que **Validar certificado de servidor** esté habilitado al intentar establecer una conexión con el servidor de SAP HANA. En **Proveedor de cifrado SSL**, seleccione mscrypto si ha seguido los pasos de instalación de OpenSSL, o bien commoncrypto si ha configurado dicha biblioteca como proveedor de cifrado. Deje en blanco los campos Almacén de claves SSL y Almacén de confianza SSL.
+1. En Power BI Desktop o en la página **Administrar puertas de enlace** del servicio Power BI, asegúrese de que **Validar certificado de servidor** esté habilitado al intentar establecer una conexión con el servidor de SAP HANA. En **Proveedor de cifrado SSL** , seleccione mscrypto si ha seguido los pasos de instalación de OpenSSL, o bien commoncrypto si ha configurado dicha biblioteca como proveedor de cifrado. Deje en blanco los campos Almacén de claves SSL y Almacén de confianza SSL.
 
     - Power BI Desktop
 

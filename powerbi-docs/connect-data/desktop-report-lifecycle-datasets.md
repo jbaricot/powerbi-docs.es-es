@@ -9,16 +9,16 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c056a48c78ae2e46ccd6419ad1b9d1e1a6693847
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 5701e94991f64d1f05a867da189c814dd1484370
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598795"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680442"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conexión a conjuntos de datos del servicio Power BI desde Power BI Desktop
 
-Puede establecer una conexión dinámica a un conjunto de datos compartido en el *servicio Power BI* y crear muchos informes diferentes del mismo conjunto de datos. Puede crear el modelo de datos perfecto en Power BI Desktop y publicarlo en el servicio Power BI. A continuación, usted y otros usuarios pueden crear varios informes diferentes en archivos *.pbix* independientes a partir de ese modelo de datos común y guardarlos en distintas áreas de trabajo. Esta característica se denomina *Conexión dinámica al servicio Power BI*.
+Puede establecer una conexión dinámica a un conjunto de datos compartido en el *servicio Power BI* y crear muchos informes diferentes del mismo conjunto de datos. Puede crear el modelo de datos perfecto en Power BI Desktop y publicarlo en el servicio Power BI. A continuación, usted y otros usuarios pueden crear varios informes diferentes en archivos *.pbix* independientes a partir de ese modelo de datos común y guardarlos en distintas áreas de trabajo. Esta característica se denomina *Conexión dinámica al servicio Power BI* .
 
 ![Obtención de datos desde el servicio Power BI](media/desktop-report-lifecycle-datasets/report-lifecycle_01.png)
 
@@ -38,11 +38,11 @@ A todos les encanta el informe y el conjunto de datos de Ana. Aquí es donde se 
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Conexión a un conjunto de datos del servicio Power BI mediante una conexión dinámica
 
-Ana crea un informe y crea el conjunto de datos en el que se basa. Lo publica en el servicio Power BI. El informe se muestra en el área de trabajo del equipo en el servicio Power BI. Si Ana lo guarda en una *nueva experiencia de área de trabajo*, puede establecer la opción *Permiso de compilación* para que esté disponible para que todos los usuarios, dentro y fuera de su área de trabajo, lo puedan ver y usar.
+Ana crea un informe y crea el conjunto de datos en el que se basa. Lo publica en el servicio Power BI. El informe se muestra en el área de trabajo del equipo en el servicio Power BI. Si Ana lo guarda en una *nueva experiencia de área de trabajo* , puede establecer la opción *Permiso de compilación* para que esté disponible para que todos los usuarios, dentro y fuera de su área de trabajo, lo puedan ver y usar.
 
 Para más información sobre las áreas de trabajo de la nueva experiencia, consulte las [áreas de trabajo](../collaborate-share/service-new-workspaces.md).
 
-Los demás miembros dentro y fuera del área de trabajo de Ana ahora pueden establecer una conexión dinámica con el modelo de datos compartido de Ana mediante la característica de conexión dinámica al servicio Power BI. Pueden crear sus propios informes únicos, a partir de *su conjunto de datos original*, en *sus propias experiencias de áreas de trabajo*.
+Los demás miembros dentro y fuera del área de trabajo de Ana ahora pueden establecer una conexión dinámica con el modelo de datos compartido de Ana mediante la característica de conexión dinámica al servicio Power BI. Pueden crear sus propios informes únicos, a partir de *su conjunto de datos original* , en *sus propias experiencias de áreas de trabajo* .
 
 En la imagen siguiente, verá cómo Ana crea un informe de Power BI Desktop y lo publica (lo que incluye su modelo de datos) al servicio Power BI. Después, otros usuarios pueden conectarse al modelo de datos de Ana mediante la conexión dinámica al servicio Power BI y crear sus propios informes únicos en sus propias áreas de trabajo, basados en el conjunto de datos de Ana.
 
@@ -79,7 +79,7 @@ Cuando termina, Power BI Desktop indica que se ha realizado correctamente y pro
 
 ![Publicación correcta](media/desktop-report-lifecycle-datasets/report-lifecycle_07.png)
 
-Ahora que el informe con su conjunto de datos está en el servicio Power BI, también puede *promocionarlo*. La promoción significa que atestigua su calidad y confiabilidad. Incluso puede solicitar que sea *certificado* por una autoridad central del inquilino de Power BI. Con cualquiera de estas promociones, el conjunto de datos siempre aparece en el tema de la lista cuando los usuarios buscan conjuntos de datos. Para más información, consulte [Promoción del conjunto de datos](service-datasets-promote.md).
+Ahora que el informe con su conjunto de datos está en el servicio Power BI, también puede *promocionarlo* . La promoción significa que atestigua su calidad y confiabilidad. Incluso puede solicitar que sea *certificado* por una autoridad central del inquilino de Power BI. Con cualquiera de estas promociones, el conjunto de datos siempre aparece en el tema de la lista cuando los usuarios buscan conjuntos de datos. Para obtener más información, vea [Aprobación del contenido](../collaborate-share/service-endorse-content.md).
 
 El último paso es establecer el permiso de compilación para el conjunto de datos en el que se basa el informe. El permiso de creación determina quién puede ver y usar el conjunto de datos. Se puede establecer en el área de trabajo propiamente dicha o cuando se comparte una aplicación desde el área de trabajo. Para más información, consulte [Permiso de compilación para conjuntos de datos compartidos](service-datasets-build-permissions.md).
 
@@ -87,7 +87,7 @@ A continuación, vamos a ver cómo otros compañeros de equipo que tienen acceso
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>Establecimiento de una conexión dinámica al servicio Power BI al conjunto de datos publicado
 
-Para establecer una conexión al informe publicado y crear uno propio basado en el conjunto de datos publicado, seleccione **Obtener datos** en la cinta de opciones **Inicio** de Power BI Desktop, seleccione **Power Platform** en el panel izquierdo y, a continuación, seleccione **Conjuntos de datos de Power BI**.
+Para establecer una conexión al informe publicado y crear uno propio basado en el conjunto de datos publicado, seleccione **Obtener datos** en la cinta de opciones **Inicio** de Power BI Desktop, seleccione **Power Platform** en el panel izquierdo y, a continuación, seleccione **Conjuntos de datos de Power BI** .
 
 Si no ha iniciado sesión, Power BI le pedirá que lo haga. Una vez iniciada la sesión, Power BI muestra las áreas de trabajo de las que es miembro. Puede seleccionar qué área de trabajo contiene el conjunto de datos en el que quiere establecer una conexión dinámica al servicio Power BI.
 
@@ -95,7 +95,7 @@ Los conjuntos de datos de la lista son todos los conjuntos de datos compartidos 
 
 ![Lista de conjuntos de datos disponibles](media/desktop-report-lifecycle-datasets/desktop-select-shared-dataset.png)
 
-Al seleccionar **Crear**, establece una conexión dinámica al conjunto de datos seleccionado. Power BI Desktop carga los campos y sus valores que se ven en Power BI Desktop en tiempo real.
+Al seleccionar **Crear** , establece una conexión dinámica al conjunto de datos seleccionado. Power BI Desktop carga los campos y sus valores que se ven en Power BI Desktop en tiempo real.
 
 ![Campos del conjunto de datos en el panel Campos](media/desktop-report-lifecycle-datasets/report-lifecycle_10.png)
 
@@ -107,12 +107,12 @@ Cuando usa la conexión dinámica al servicio Power BI, hay algunas limitacione
 
 * Solo los usuarios con permiso de creación para un conjunto de datos pueden conectarse a un conjunto de datos publicado mediante la conexión dinámica al servicio Power BI.
 * Los usuarios de la versión gratuita solo verán los conjuntos de datos de **Mi área de trabajo** y de las áreas de trabajo basadas en Premium.
-* Como esta conexión es una conexión dinámica, se deshabilitan el panel de navegación de la izquierda y el modelado. Solo puede conectarse a un conjunto de datos en cada informe. Este comportamiento es similar al comportamiento al conectarse a *SQL Server Analysis Services*.
+* Como esta conexión es una conexión dinámica, se deshabilitan el panel de navegación de la izquierda y el modelado. Solo puede conectarse a un conjunto de datos en cada informe. Este comportamiento es similar al comportamiento al conectarse a *SQL Server Analysis Services* .
 * Como esta conexión es una conexión dinámica, se aplica la seguridad de nivel de fila (RLS) y otros comportamientos de conexión de este tipo. Esto es igual que cuando se conecta a SQL Server Analysis Services.
-* Si el propietario modifica el archivo original compartido *.pbix*, se sobrescriben el conjunto de datos y el informe que se comparten en el servicio Power BI. Los informes basados en ese conjunto de datos no se sobrescriben, pero los cambios realizados en el conjunto de datos se reflejan en el informe.
+* Si el propietario modifica el archivo original compartido *.pbix* , se sobrescriben el conjunto de datos y el informe que se comparten en el servicio Power BI. Los informes basados en ese conjunto de datos no se sobrescriben, pero los cambios realizados en el conjunto de datos se reflejan en el informe.
 * Los miembros de un área de trabajo no pueden reemplazar el informe compartido originalmente. Si intenta hacerlo, recibirá una advertencia que le pide que cambie el nombre del archivo y lo publique.
 * Si elimina el conjunto de datos compartido en el servicio Power BI, otros informes basados en él no funcionarán correctamente ni mostrarán sus objetos visuales.
 * En lo que respecta a los paquetes de contenido, primero debe crear una copia de un paquete de contenido antes de usarlo como punto de partida para compartir un informe *.pbix* y un conjunto de datos en el servicio Power BI.
-* En el caso de los paquetes de contenido de *Mi organización*, una vez copiados, no se podrá reemplazar el informe creado en el servicio ni ningún informe creado como parte de la copia de un paquete de contenido con una conexión dinámica. Si intenta hacerlo, recibirá una advertencia que le pide que cambie el nombre del archivo y lo publique. En esta situación, solo se pueden reemplazar los informes publicados en conexiones dinámicas.
+* En el caso de los paquetes de contenido de *Mi organización* , una vez copiados, no se podrá reemplazar el informe creado en el servicio ni ningún informe creado como parte de la copia de un paquete de contenido con una conexión dinámica. Si intenta hacerlo, recibirá una advertencia que le pide que cambie el nombre del archivo y lo publique. En esta situación, solo se pueden reemplazar los informes publicados en conexiones dinámicas.
 * La eliminación de un conjunto de datos compartido en el servicio Power BI significa que ya nadie puede acceder a ese conjunto de datos desde Power BI Desktop.
 * Los informes que comparten un conjunto de archivos en el servicio Power BI no admiten implementaciones automatizadas mediante la API REST de Power BI.

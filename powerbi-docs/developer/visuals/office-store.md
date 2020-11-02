@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 55661d8faa39d26d19d15696252cf46b74c84a50
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 1809b1f539c82de4bf98689dbb259594a603b90c
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049439"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349699"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicación de objetos visuales de Power BI en el Centro de partners
 
@@ -62,6 +62,9 @@ Adjunte tanto el **archivo pbiviz** como el **archivo pbix del informe de ejempl
 ## <a name="submitting-to-appsource"></a>Envío a AppSource
 
 Para enviar el objeto visual de Power BI a AppSource, debe obtener un paquete de la aplicación desde el equipo de Power BI y, luego, enviarlo al Centro de partners.
+
+>[!IMPORTANT]
+>Si va a volver a enviar un objeto visual, no puede cambiar su GUID.
 
 ### <a name="getting-the-app-package"></a>Obtención del paquete de la aplicación
 

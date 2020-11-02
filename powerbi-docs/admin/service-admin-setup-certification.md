@@ -1,31 +1,34 @@
 ---
-title: Configuración de la certificación de conjuntos de datos y flujos de datos (versión preliminar)
-description: Obtenga información sobre cómo configurar el proceso de certificación de conjuntos de datos y flujos de datos en la organización.
+title: Habilitación de la certificación de contenido
+description: Obtenga información sobre cómo habilitar la certificación para conjuntos de datos, flujos de información, informes y aplicaciones.
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 05/15/2020
+ms.date: 10/26/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 11079e2ab1578cfe5db352e7e3286d491bdfca2c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 4961f5f2b6364e06488baf32478b1f6e9338675e
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374922"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680831"
 ---
-# <a name="set-up-dataset-and-dataflow-certification-preview"></a>Configuración de la certificación de conjuntos de datos y flujos de datos (versión preliminar)
+# <a name="enable-content-certification"></a>Habilitación de la certificación de contenido
 
-La organización puede certificar los conjuntos de datos y flujos de datos que son un origen fidedigno de información importante.
+La organización puede certificar contenido seleccionado para identificarlo como un origen autoritativo de información crítica. Actualmente, se pueden certificar estos tipos de contenido:
+* Conjuntos de datos
+* Flujos de datos (versión preliminar)
+* Informes (versión preliminar)
+* Aplicaciones (versión preliminar)
 
-Como administrador de Power BI, es el responsable de configurar el proceso de certificación para la organización. Esto significa lo siguiente:
+Como administrador de Power BI, es el responsable de habilitar y configurar el proceso de certificación para su organización. Esto significa lo siguiente:
 * Habilitar la certificación en el inquilino.
-* Definir una lista de grupos y usuarios que están autorizados a certificar conjuntos de datos y flujos de datos.
-* Para los conjuntos de datos, proporcionar la dirección URL de la directiva de certificación de conjuntos de datos de la organización, si existe.
+* Definir una lista de grupos de seguridad cuyos miembros estarán autorizados para certificar el contenido.
+* Proporcionar una dirección URL que apunte a la documentación del proceso de certificación de contenido de la organización, si dicha documentación existe.
 
-La certificación de conjuntos de datos y flujos de datos forma parte de la *aprobación* de conjuntos de datos y flujos de datos. Vea [aprobación de conjuntos de datos](../connect-data/service-datasets-promote.md) y [aprobación de flujos de datos](../transform-model/service-dataflows-promote-certify.md) para obtener más información.
-
+La certificación forma parte de la característica de *aprobación* de Power BI. Vea [Aprobación: promoción y certificación del contenido de Power BI](../collaborate-share/service-endorsement-overview.md) para obtener más información.
 
 ## <a name="set-up-certification"></a>Configuración de la certificación
 
@@ -34,14 +37,14 @@ La certificación de conjuntos de datos y flujos de datos forma parte de la *apr
 
    ![Certificación para la configuración de conjuntos de datos y flujos de datos](media/service-admin-setup-certification/service-admin-certification-setup-dialog.png)
 
-1. Establezca el control de alternancia en **Habilitado**.
-1. Para la certificación de conjuntos de datos, si la organización tiene una directiva de certificación publicada, puede proporcionar aquí su dirección URL. Se convertirá en el vínculo **Más información** de la sección de certificación del cuadro de diálogo de [configuración de aprobación de flujos datos](../connect-data/service-datasets-promote.md#request-dataset-certification). 
-1. Especifique los usuarios y grupos que están autorizados para certificar conjuntos de datos y flujos de datos. Estos emisores de certificados autorizados podrán usar el botón Certificación de la sección de certificación del cuadro de diálogo de aprobación del [conjunto de datos](../connect-data/service-datasets-promote.md#request-dataset-certification) o del [flujo de datos](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow).
-1. Haga clic en **Aplicar**.
+1. Establezca el control de alternancia en **Habilitado** .
+1. Si la organización tiene una directiva de certificación publicada, proporcione aquí su dirección URL. Se convertirá en el vínculo **Más información** de la sección de certificación del [cuadro de diálogo de Configuración de aprobación](../collaborate-share/service-endorse-content.md#request-content-certification). Si no proporciona un vínculo, se aconsejará a los usuarios que quieran solicitar la certificación de su contenido que se pongan en contacto con su administrador de Power BI.
+1. Especifique uno o más grupos de seguridad cuyos miembros estarán autorizados para certificar el contenido. Estos emisores de certificados autorizados podrán usar el botón Certificación que hay en la sección de certificación del [cuadro de diálogo de configuración de la aprobación](../collaborate-share/service-endorse-content.md#certify-content).
+    
+    Si un grupo de seguridad contiene subgrupos de seguridad a los que no quiere conceder derechos de certificación, puede activar la casilla **Excepto grupos de seguridad específicos** y escribir los nombres de esos grupos en un cuadro de texto que aparecerá.
+1. Haga clic en **Aplicar** .
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Promoción de los conjuntos de datos](../connect-data/service-datasets-promote.md)
-* [Certificación de los conjuntos de datos](../connect-data/service-datasets-certify.md)
-* [Promoción de flujos de datos](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
-* [Certificación de flujos de datos](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
+* [Promover o certificar contenido](../collaborate-share/service-endorse-content.md)
+* [Más información sobre la aprobación en Power BI](../collaborate-share/service-endorsement-overview.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
