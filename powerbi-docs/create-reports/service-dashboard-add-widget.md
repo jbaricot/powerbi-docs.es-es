@@ -7,15 +7,15 @@ featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/25/2019
+ms.date: 10/28/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f98fb7a9d5a01c70eb8cef2a8d5befdbe919d796
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 72306a6269df91a75b750628e3534bf5891fe6b0
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219482"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916921"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Adición de imágenes, vídeos y mucho más al panel
 
@@ -50,9 +50,9 @@ Puede agregar una imagen, un cuadro de texto, un vídeo, datos de transmisión o
 ## <a name="add-an-image"></a>Agregar una imagen
 Si quiere agregar el logotipo de su empresa u otra imagen al panel, guarde el archivo de imagen en línea y establezca un vínculo a él. Asegúrese de que no se necesitan credenciales de seguridad para acceder al archivo de imagen. Por ejemplo, ya que OneDrive y SharePoint requieren autenticación, las imágenes almacenadas allí no se pueden agregar a un panel de esta manera.  
 
-1. En la ventana **Agregar icono**, seleccione **Imagen** > **Siguiente**.
+1. En la ventana **Agregar icono** , seleccione **Imagen** > **Siguiente**.
 
-2. En la ventana **Agregar icono de imagen**, agregue la información de la imagen:   
+2. En la ventana **Agregar icono de imagen** , agregue la información de la imagen:   
    
    a. Para mostrar un título sobre la imagen, seleccione **Mostrar el título y el subtítulo** y escriba un **título** y, si quiere, un **subtítulo**.
 
@@ -74,7 +74,7 @@ Si quiere agregar el logotipo de su empresa u otra imagen al panel, guarde el ar
 
 Para agregar un encabezado de panel, escriba el encabezado en el cuadro de texto y aumente el tamaño de la fuente.
 
-1. En la ventana **Agregar icono**, seleccione **Cuadro de texto** > **Siguiente**.
+1. En la ventana **Agregar icono** , seleccione **Cuadro de texto** > **Siguiente**.
 
 2. Dé formato al cuadro de texto:
    
@@ -95,14 +95,14 @@ Para agregar un encabezado de panel, escriba el encabezado en el cuadro de texto
 ## <a name="add-a-video"></a>Agregar un vídeo
 Al agregar un icono de vídeo de YouTube o Vimeo al panel, el vídeo se reproduce en el panel.
 
-1. En la ventana **Agregar icono**, seleccione **Vídeo** > **Siguiente**.
-2. Agregue la información del vídeo en la ventana **Agregar icono de vídeo**:   
+1. En la ventana **Agregar icono** , seleccione **Vídeo** > **Siguiente**.
+2. Agregue la información del vídeo en la ventana **Agregar icono de vídeo** :   
    
    a. Para mostrar un título y un subtítulo sobre el icono de vídeo, seleccione **Mostrar el título y el subtítulo** y escriba un **título** y, si quiere, un **subtítulo**. En este ejemplo, agregaremos un **subtítulo** y lo convertiremos en un hipervínculo a la lista de reproducción completa de YouTube.
 
    b. Escriba la **URL del vídeo**.
 
-   c. Agregue un hipervínculo al **título** y al **subtítulo**, de modo que sus compañeros puedan ver la lista de reproducción completa en YouTube después de ver el vídeo insertado. Para ello, en **Funcionalidad**, seleccione **Establecer vínculo personalizado** y escriba la **URL** de la lista de reproducción.
+   c. Agregue un hipervínculo al **título** y al **subtítulo** , de modo que sus compañeros puedan ver la lista de reproducción completa en YouTube después de ver el vídeo insertado. Para ello, en **Funcionalidad** , seleccione **Establecer vínculo personalizado** y escriba la **URL** de la lista de reproducción.
 
    d. Seleccione **Aplicar**.  
 
@@ -120,10 +120,10 @@ Puede usar PubNub para agregar datos de streaming, como fuentes de Twitter o dat
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOuINwgkEkQ" frameborder="0" allowfullscreen></iframe>
 
-1. En la ventana **Agregar icono**, seleccione **Datos de transmisión personalizados** > **Siguiente**.
+1. En la ventana **Agregar icono** , seleccione **Datos de transmisión personalizados** > **Siguiente**.
 2. Seleccione **Agregar conjunto de datos de streaming**.
 3. Cree un **Nuevo conjunto de datos de transmisión** con la API de Power BI o PubNub.
-4. Rellene los campos correspondientes a **Nombre del conjunto de datos**, **Clave de suscripción** y **Nombre del canal**. Si se trata de una conexión segura, también tiene una clave de autorización. Puede usar los valores de ejemplo de PubNub para probarlo.
+4. Rellene los campos correspondientes a **Nombre del conjunto de datos** , **Clave de suscripción** y **Nombre del canal**. Si se trata de una conexión segura, también tiene una clave de autorización. Puede usar los valores de ejemplo de PubNub para probarlo.
 5. Seleccione **Siguiente**.
     Verá los campos que están disponibles en el conjunto de datos, con sus tipos de datos y formato JSON.
 6. Seleccione **Conectar**.
@@ -131,20 +131,20 @@ Puede usar PubNub para agregar datos de streaming, como fuentes de Twitter o dat
 7. Vuelva al panel y seleccione de nuevo **Agregar icono** > **Datos de transmisión personalizados** > **Siguiente**.
 8. Seleccione el conjunto de datos de sensor que ha creado > **Siguiente**.
 9. Seleccione el tipo de objeto visual que quiera. A menudo, un gráfico de líneas funciona bien con estos datos.
-10. Seleccione el **eje**, la **leyenda** y los **valores**.
+10. Seleccione el **eje** , la **leyenda** y los **valores**.
 11. Decida el período de tiempo que quiera mostrar, ya sea en segundos, minutos u horas.
 12. Seleccione **Siguiente**.
 13. Si quiere, asígnele un **título** y un **subtítulo**.
 14. Ánclelo al panel.
 
 
-1. En la ventana **Agregar icono**, seleccione **Datos de transmisión personalizados** > **Siguiente**.
+1. En la ventana **Agregar icono** , seleccione **Datos de transmisión personalizados** > **Siguiente**.
 
 2. Seleccione **Agregar conjunto de datos de streaming**.
 
 3. Cree un **Nuevo conjunto de datos de transmisión** con la API de Power BI o PubNub.
 
-4. Rellene los campos correspondientes a **Nombre del conjunto de datos**, **Clave de suscripción** y **Nombre del canal**. Si se trata de una conexión segura, también tiene una clave de autorización. Puede usar los valores de ejemplo de PubNub para probarlo.
+4. Rellene los campos correspondientes a **Nombre del conjunto de datos** , **Clave de suscripción** y **Nombre del canal**. Si se trata de una conexión segura, también tiene una clave de autorización. Puede usar los valores de ejemplo de PubNub para probarlo.
 
 5. Seleccione **Siguiente**.
 
@@ -160,7 +160,7 @@ Puede usar PubNub para agregar datos de streaming, como fuentes de Twitter o dat
 
 9. Seleccione el tipo de objeto visual que quiera. A menudo, un gráfico de líneas funciona bien con estos datos.
 
-10. Seleccione el **eje**, la **leyenda** y los **valores**.
+10. Seleccione el **eje** , la **leyenda** y los **valores**.
 
 11. Decida el período de tiempo que quiera mostrar, ya sea en segundos, minutos u horas.
 
@@ -173,9 +173,9 @@ Puede usar PubNub para agregar datos de streaming, como fuentes de Twitter o dat
 ## <a name="add-web-content"></a>Agregar contenido web
 Puede pegar o escribir cualquier contenido HTML, como un icono, en el informe o el panel. Escriba el código para insertar manualmente o cópielo y péguelo desde sitios como Twitter, YouTube, embed.ly, etc.
 
-1. En la ventana **Agregar icono**, seleccione **Contenido web** > **Siguiente**.
+1. En la ventana **Agregar icono** , seleccione **Contenido web** > **Siguiente**.
 
-2. Agregue información a la ventana **Agregar icono de contenido web**:
+2. Agregue información a la ventana **Agregar icono de contenido web** :
    
    a. Para mostrar un título sobre el icono, seleccione **Mostrar el título y el subtítulo** y escriba un **título** y, si quiere, un **subtítulo**.
 
@@ -239,6 +239,7 @@ Para realizar cambios en un icono existente:
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 * Para que le resulte más fácil mover el icono en el panel, agregue un título y, si quiere, un subtítulo.
 * Si quiere insertar contenido de un sitio web, pero este no proporciona código para insertar que se pueda copiar y pegar, vaya a embed.ly para generar el código para insertar más fácilmente.
+* Asegúrese de que no se necesitan credenciales de seguridad para acceder al archivo de imagen. Por ejemplo, ya que OneDrive y SharePoint requieren autenticación, las imágenes almacenadas allí no se pueden agregar a un panel de esta manera.  
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Introducción a los iconos del panel para los diseñadores de Power BI](service-dashboard-tiles.md)

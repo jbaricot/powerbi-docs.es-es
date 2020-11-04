@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: bb06f5b0a170189c3c98b734a09259645a650c55
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d0d9472ef767a67b3b75be4c9eb5d6922d9cdf81
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748181"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045149"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Exportación de un informe paginado a un archivo (versión preliminar)
 
@@ -32,9 +32,9 @@ La API `exportToFile` permite exportar un informe paginado de Power BI mediante
 
 Puede usar la característica de exportación de varias maneras. Estos son algunos ejemplos:
 
-* **Botón Enviar para imprimir**: en la aplicación, cree un botón que, al hacer clic en él, desencadene un trabajo de exportación. El trabajo puede exportar el informe visto como archivo .pdf o .pptx, y cuando la operación se complete, el usuario puede recibir el archivo como una descarga. Con los parámetros de informe y la configuración de formato, puede exportar el informe en un estado específico, incluidos los datos filtrados, los tamaños de página personalizados y otros valores de formato específicos. Como la API es asincrónica, el archivo puede tardar un tiempo en estar disponible.
+* **Botón Enviar para imprimir** : en la aplicación, cree un botón que, al hacer clic en él, desencadene un trabajo de exportación. El trabajo puede exportar el informe visto como archivo .pdf o .pptx, y cuando la operación se complete, el usuario puede recibir el archivo como una descarga. Con los parámetros de informe y la configuración de formato, puede exportar el informe en un estado específico, incluidos los datos filtrados, los tamaños de página personalizados y otros valores de formato específicos. Como la API es asincrónica, el archivo puede tardar un tiempo en estar disponible.
 
-* **Datos adjuntos de correo electrónico**: envíe un correo electrónico automatizado a intervalos establecidos, con un informe .pdf adjunto. Este escenario puede ser útil si desea automatizar el envío de un informe semanal a los ejecutivos.
+* **Datos adjuntos de correo electrónico** : envíe un correo electrónico automatizado a intervalos establecidos, con un informe .pdf adjunto. Este escenario puede ser útil si desea automatizar el envío de un informe semanal a los ejecutivos.
 
 ## <a name="using-the-api"></a>Uso de la API
 
@@ -117,7 +117,7 @@ Este es un ejemplo para proporcionar un nombre de usuario efectivo para RLS.
       "format": "PDF",
       "paginatedReportConfiguration":{
             "identities": [
-                  {"username": "john@contoso.com"}            
+                  {"username": "john@contoso.com"}
             ]
       }
 }
@@ -153,13 +153,13 @@ private async Task<string> PostExportRequest(
             {"PageHeight", "14in"},
             {"PageWidth", "8.5in" },
             {"StartPage", "1"},
-            {"EndPage", "4"}
+            {"EndPage", "4"},
         },
         ParameterValues = new List<ParameterValue>()
         {
             { new ParameterValue() {Name = "State", Value = "WA"} },
-            { new ParameterValue() {Name = "City", Value = "Redmond"} }
-        }
+            { new ParameterValue() {Name = "City", Value = "Redmond"} },
+        },
     };
 
     var exportRequest = new ExportReportRequest

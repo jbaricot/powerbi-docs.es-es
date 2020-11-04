@@ -8,44 +8,46 @@ ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3f075372436723cd8952decd68ecc764bd6e92a0
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922997"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297740"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Planeamiento de un informe en el Generador de informes de Power BI
 
-Power BI Report Builder le permite crear muchos tipos de informes paginados. Por ejemplo, puede crear informes que muestren los datos de ventas detallados o resumidos, tendencias de ventas y marketing, informes operativos o paneles. También puede crear informes que aprovechen las ventajas del texto con formato enriquecido, como pedidos de ventas, catálogos de productos o circulares. Todos estos informes se crean con combinaciones diferentes de los mismos bloques de creación básicos en el Generador de informes. Para crear un informe útil y de fácil comprensión, resulta de ayuda planearlo primero. Estas son algunas cosas que es posible que desee considerar antes de empezar:  
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Power BI Report Builder le permite crear muchos tipos de informes paginados. Por ejemplo, puede crear informes que muestren los datos de ventas detallados o resumidos, las tendencias de marketing y de ventas, los informes de operaciones o los paneles. También puede crear informes que aprovechen el texto de formato enriquecido, por ejemplo, para pedidos de ventas, catálogos de productos o circulares. Todos estos informes se crean utilizando combinaciones diferentes de los mismos bloques de creación básicos en el Generador de informes. Para crear un informe útil, de fácil comprensión, sirve de ayuda planearlo primero. A continuación se detallan algunos de los aspectos que quizá desee considerar antes de empezar:  
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>¿En qué formato desea que aparezca el informe?
   
-Puede representar informes en línea en un explorador, como en el portal de Power BI o exportarlos a otros formatos como Excel, Word o PDF. La forma final que adopta el informe es una consideración importante porque no están disponibles todas las características en todos los formatos de exportación. 
+Puede representar informes en línea en un explorador, como en el portal de Power BI o exportarlos a otros formatos como Excel, Word o PDF. La forma final que adopta el informe es una consideración importante porque no todas las características están disponibles en todos los formatos de exportación. 
   
 ## <a name="in-what-structure-do-you-want-to-present-the-data"></a>¿En qué estructura desea presentar los datos?
   
-Puede elegir entre tabular, matriz (similar a un informe de tabla dinámica o de tabla cruzada), gráfico, estructuras de forma libre o cualquier combinación de estos elementos para presentar los datos. Para más información, consulte [Tablas, matrices y listas en el Generador de informes de Power BI](report-builder-tables-matrices-lists.md).  
+Tiene varias opciones entre las que elegir para presentar los datos, como formato tabular, matriz (similar a un informe de tabla de referencias cruzadas o de tabla dinámica), gráfico, las estructuras de forma libre, o cualquier combinación de estos. Para más información, consulte [Tablas, matrices y listas en el Generador de informes de Power BI](report-builder-tables-matrices-lists.md).  
   
 ## <a name="how-do-you-want-your-report-to-look"></a>¿Qué aspecto desea que tenga el informe?
   
-El Generador de informes proporciona una gran cantidad de elementos de informes que se pueden agregar a un informe para que resulte más fácil de leer, resaltar información clave, ayudar a su público a visitar el informe y otros. Saber qué aspecto desea para el informe puede determinar si necesita elementos de informes como cuadros de texto, imágenes, rectángulos y líneas. Es posible que desee también mostrar u ocultar elementos, agregar un mapa del documento, incluir informes detallados o subinformes, o crear vínculos con otros informes.   
+El Generador de informes proporciona muchos elementos de informe que puede agregar al informe para que sea más fácil de leer, resaltar la información clave, ayudar a sus usuarios a navegar por el informe, etc. Si tiene clara la apariencia que desea para el diseño del informe, puede determinar si necesita elementos de informe como cuadros de texto, rectángulos, imágenes y líneas. Es posible que desee también mostrar u ocultar elementos, agregar un mapa del documento, incluir informes detallados o subinformes, o crear vínculos con otros informes.   
   
 ## <a name="should-the-data-be-filtered"></a>¿Se deben filtrar los datos?
   
-Es posible que desee restringir el ámbito del informe a ubicaciones o usuarios específicos o a un período de tiempo determinado. Para filtrar los datos del informe, utilice los parámetros para recuperar y mostrar solo los datos que desea. Para más información, consulte [Parámetros del informe en el Generador de informes de Power BI](paginated-reports-parameters.md).  
+Quizá prefiera restringir el ámbito del informe a ubicaciones o usuarios concretos, o a un período de tiempo determinado. Para filtrar los datos del informe, utilice los parámetros para recuperar y mostrar solo los datos que desea. Para más información, consulte [Parámetros del informe en el Generador de informes de Power BI](paginated-reports-parameters.md).  
   
 ## <a name="do-you-need-to-create-calculations"></a>¿Necesita crear cálculos? 
   
-A veces, el origen de datos y los conjuntos de datos no contienen los campos exactos que necesita para el informe. En esa situación, es posible que tenga que crear sus propios campos calculados. Por ejemplo, puede que quiera multiplicar el precio por unidad por la cantidad para obtener un importe de venta de un artículo de línea. Las expresiones también se usan para proporcionar un formato condicional y otras características avanzadas. Para más información, consulte [Expresiones en el Generador de informes de Power BI](report-builder-expressions.md).  
+A veces, el origen de datos y los conjuntos de datos no contienen los campos exactos que necesita para su informe. En esa situación, puede que tenga que crear sus propios campos calculados. Por ejemplo, quizá desee multiplicar la cantidad por el precio por las unidades de tiempo para obtener un importe de ventas de un artículo de línea. Las expresiones se utilizan también para proporcionar formato condicional y otras características avanzadas. Para más información, consulte [Expresiones en el Generador de informes de Power BI](report-builder-expressions.md).  
   
 ## <a name="do-you-want-to-hide-report-items-initially"></a>¿Desea ocultar inicialmente los elementos del informe?
   
-Tenga en cuenta si desea ocultar los elementos del informe, incluyendo las regiones de datos, los grupos y las columnas, cuando el informe se ejecuta por primera vez. Por ejemplo, puede presentar inicialmente una tabla de resumen y, a continuación, explorar en profundidad los datos detallados. 
+Considere si desea ocultar los elementos del informe, incluidos los grupos, las regiones de datos y las columnas, cuando se ejecuta el informe por primera vez. Por ejemplo, puede presentar inicialmente una tabla de resumen y, a continuación, explorar en profundidad los datos detallados. 
   
 ## <a name="how-are-you-going-to-deliver-your-report"></a>¿Cómo va a distribuir el informe?  
   
-Puede guardar el informe en el equipo local y continuar trabajando en él o ejecutarlo localmente para obtener su propia información. Sin embargo, para compartir el informe con otros usuarios, debe guardarlo en Power BI. Guardarlo en Power BI permite que otros lo ejecuten siempre que quieran. Como alternativa, puede configurar una suscripción y la entrega de correo electrónico del informe a otras personas. Si lo prefiere, puede hacer que el informe se entregue en un formato de exportación específico. 
+Puede guardar el informe en el equipo local y continuar trabajando en él, o ejecutarlo localmente para obtener su propia información. Sin embargo, para compartir el informe con otros usuarios, debe guardarlo en Power BI. Guardarlo en Power BI permite que otros lo ejecuten siempre que quieran. Como alternativa, puede configurar una suscripción y la entrega de correo electrónico del informe a otras personas. Puede hacer que el informe se entregue en un formato de exportación concreto si lo prefiere. 
   
 ## <a name="next-steps"></a>Pasos siguientes
 

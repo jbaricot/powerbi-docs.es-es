@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: troubleshooting
 ms.date: 04/29/2020
-ms.openlocfilehash: 6a0e90036b759c409a9f5b3e994571c2a0eb510c
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 06d9b0fc60d9b44f98108cf46bc35c5de15316d6
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747514"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297996"
 ---
 # <a name="troubleshoot-subreports-in-power-bi-paginated-reports"></a>Solución de problemas de subinformes en informes paginados de Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 A veces, al usar subinformes en informes paginados, puede que obtenga un resultado inesperado o que la característica no funcione como se esperaba. En este artículo se proporcionan soluciones para problemas comunes al usar subinformes. Un *subinforme* es un elemento de informe que muestra otro informe dentro del cuerpo del informe paginado principal. Vea [Subinformes en informes paginados de Power BI](subreports.md) para saber más.
 

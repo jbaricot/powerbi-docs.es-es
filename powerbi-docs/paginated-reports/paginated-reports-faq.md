@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/19/2020
-ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 7cba43ff6339ce890ca2f4f1744282648eaf877b
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92257036"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297904"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: Preguntas frecuentes 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 En este artículo se responden las preguntas más frecuentes sobre los informes paginados. Estos informes son el resultado de píxel perfecto con formato de alta calidad optimizado para impresión o generación en PDF. Se denominan "paginados" porque presentan un formato apto para abarcar varias páginas. Los informes paginados se basan en la tecnología de informe RDL de SQL Server Reporting Services. 
 
@@ -76,7 +78,7 @@ Memoria predeterminada de cada SKU Premium en los informes paginados:
 - **P2/A5** : 20 % predeterminado; 5 % mínimo
 - **P3/A6** : 20 % predeterminado; 2,5 % mínimo
 
-Los administradores de Power BI pueden modificar el porcentaje de memoria máximo predeterminado en el portal de administración. Vea la sección de la carga de trabajo **Informes paginados** de **Power BI Premium** en la pestaña **Configuración de la capacidad** .
+Los administradores de Power BI pueden modificar el porcentaje de memoria máximo predeterminado en el portal de administración. Vea la sección de la carga de trabajo **Informes paginados** de **Power BI Premium** en la pestaña **Configuración de la capacidad**.
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Pestaña Configuración de la capacidad de Informes paginados":::
 
@@ -181,7 +183,7 @@ Debe tener en cuenta lo siguiente al trabajar con campos DateTime en informes pa
 
 Al ver los informes paginados en el servicio Power BI, es posible que se agote el tiempo de espera de las sesiones, con lo que el usuario vería la siguiente notificación:
 
-:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Pestaña Configuración de la capacidad de Informes paginados":::
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Notificación de expiración de la sesión de informes paginados":::
 
 - Se agotará el tiempo de espera de la sesión después de 60 minutos de inactividad o antes si el dispositivo está bloqueado o inactivo, o si el informe no se muestra en la pestaña activa del explorador.
 

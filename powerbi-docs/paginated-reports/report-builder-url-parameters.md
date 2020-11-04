@@ -9,14 +9,16 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: 7b12f6f6db864fb7b6af4df0d1019dc2eeed2617
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0816ba6f3ff606a73c835ac71af66655fd49acfd
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747491"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298052"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Parámetros de dirección URL en informes paginados en Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Puede enviar comandos a informes paginados en Power BI agregando un parámetro a una dirección URL. Por ejemplo, es posible que haya visto el informe con un conjunto específico de valores de parámetro de informe. Para encapsular esta información en la dirección URL, use los parámetros de acceso URL predefinidos. Puede personalizar aún más el modo en que Power BI procesa el informe mediante la inserción de parámetros para representar formatos o para la apariencia de la barra de herramientas de informe. Después, pegue esta dirección URL directamente en un correo o una página web para que otros usuarios puedan ver el informe de la misma manera en el explorador. 
 
@@ -91,7 +93,7 @@ Valores disponibles:
     - "interactive" (valor predeterminado): carga el informe en modo interactivo.
     - "pageView": carga el informe en el modo de vista de página.
 
-**Panel de parámetros**: especifica si el panel de parámetros está cerrado o abierto cuando se carga el informe, o si está oculto por completo.
+**Panel de parámetros** : especifica si el panel de parámetros está cerrado o abierto cuando se carga el informe, o si está oculto por completo.
 
 -   rdl:parameterPanel
 
@@ -99,7 +101,7 @@ Valores disponibles:
     - "oculto": carga el informe con el panel de parámetros cerrado y el botón de parámetros deshabilitado;
     - "expandido" (valor predeterminado): carga el informe con el panel de parámetros abierto y el botón de parámetros habilitado;
 
-**Información del dispositivo**: puede especificar parámetros de salida adicionales para los siguientes formatos de exportación. 
+**Información del dispositivo** : puede especificar parámetros de salida adicionales para los siguientes formatos de exportación. 
 
 PDF / ACCESSIBLEPDF:
 

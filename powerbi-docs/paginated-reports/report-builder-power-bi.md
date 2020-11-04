@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 6a0a72015a66abc9425dc467703a5044ea0c8116
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216742"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297848"
 ---
 # <a name="power-bi-report-builder"></a>Generador de informes de Power BI
 
- Power BI Report Builder es una herramienta para crear informes paginados que se pueden publicar en el servicio Power BI.  Al diseñar un informe paginado, se crea una definición de informe que especifica qué datos recuperar y de dónde y cómo mostrarlos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Puede obtener una vista previa del informe en el Generador de informes. Después, puede publicar el informe en el servicio Power BI.
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Power BI Report Builder es una herramienta para crear informes paginados que se pueden publicar en el servicio Power BI.  Al diseñar un informe paginado, se crea una definición de informe que especifica qué datos recuperar y de dónde y cómo mostrarlos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Puede obtener una vista previa del informe en el Generador de informes. Después, puede publicar el informe en el servicio Power BI.
  
 ¿Está listo para empezar a crear? [Instale Power BI Report Builder](https://aka.ms/pbireportbuilder) desde el Centro de descarga de Microsoft.
 
@@ -48,7 +50,7 @@ El informe paginado siguiente muestra una matriz con grupos de filas y columnas,
   
 -   **Agregue características interactivas** como mapas del documento, botones de mostrar u ocultar y vínculos de obtención de detalles a subinformes e informes de obtención de detalles. Use parámetros y filtros para filtrar datos en vistas personalizadas.  
   
--   **Inserte imágenes y otros recursos o haga referencia a ellos**, incluido contenido externo.  
+-   **Inserte imágenes y otros recursos o haga referencia a ellos** , incluido contenido externo.  
   
 ##  <a name="manage-your-report"></a><a name="ManageRpt"></a> Administración del informe  
   

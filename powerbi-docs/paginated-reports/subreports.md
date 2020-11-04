@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d2cd4e9f5d6cb8872e266fabacb9f8a5a3e318cb
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746594"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298014"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Subinformes en informes paginados de Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Un *subinforme* es un elemento de informe paginado que muestra otro informe paginado dentro del cuerpo de un informe paginado principal. Como concepto, un subinforme de un informe es como un marco en una página web. Sirve para insertar un informe dentro de otro informe. Puede usarse cualquier informe como subinforme. El informe que se muestra como subinforme se almacena en la misma área de trabajo Premium que el informe primario. Es posible diseñar el informe primario para que pase sus parámetros al subinforme. Este tipo de informe puede repetirse dentro de las regiones de datos mediante un parámetro que filtre los datos de cada instancia del subinforme.  
   
@@ -33,22 +35,22 @@ Power BI Report Builder puede trabajar con informes paginados en el equipo (cono
 
 Después de iniciar sesión, verá una opción **Servicio Power BI** en Power BI Report Builder para las opciones **Abrir** y **Guardar como** del menú **Archivo**. Al seleccionar la opción **Servicio Power BI** para guardar un informe, se crea una conexión dinámica entre Power BI Report Builder y el servicio Power BI. 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Iniciar sesión en Power BI":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Abrir desde el servicio Power BI":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>Guardar un informe local en el servicio Power BI
 
 Para poder agregar un subinforme a un informe principal, primero tiene que crear los dos informes y guardarlos en la misma área de trabajo de Power BI Premium. 
 
-1. Para abrir un informe local existente, en el menú **Archivo**, seleccione **Abrir** > **Este equipo** y seleccione un archivo .rdl.  
+1. Para abrir un informe local existente, en el menú **Archivo** , seleccione **Abrir** > **Este equipo** y seleccione un archivo .rdl.  
 
-2. En el menú **Archivo**, seleccione **Guardar como** > **Servicio Power BI**.  Para más detalles, vea [Publicación de un informe paginado en el servicio Power BI](paginated-reports-save-to-power-bi-service.md).
+2. En el menú **Archivo** , seleccione **Guardar como** > **Servicio Power BI**.  Para más detalles, vea [Publicación de un informe paginado en el servicio Power BI](paginated-reports-save-to-power-bi-service.md).
 
     > [!NOTE]
     > También puede cargar un informe empezando desde el servicio Power BI. Encontrará más información en el mismo artículo, [Publicación de un informe paginado en el servicio Power BI](paginated-reports-save-to-power-bi-service.md).
 
-3. En el cuadro de diálogo **Guardar como**, seleccione un área de trabajo de Power BI Premium donde almacenar los informes paginados.  Las áreas de trabajo Premium tienen un icono de rombo ![icono de rombo Premium](media/subreports/report-builder-premium-diamond.png) junto a su nombre.
+3. En el cuadro de diálogo **Guardar como** , seleccione un área de trabajo de Power BI Premium donde almacenar los informes paginados.  Las áreas de trabajo Premium tienen un icono de rombo ![icono de rombo Premium](media/subreports/report-builder-premium-diamond.png) junto a su nombre.
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Iniciar sesión en Power BI":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Guardar como en el servicio Power BI":::
 
 4. Seleccione **Guardar**.
 
@@ -56,13 +58,13 @@ Para poder agregar un subinforme a un informe principal, primero tiene que crear
 
 Ya ha guardado los dos informes en la misma área de trabajo Premium, así que ya puede agregar un informe dentro de otro como un subinforme. Hay dos maneras de agregar un subinforme. 
 
-1. En la cinta **Insertar**, seleccione el botón **Subinforme**, o bien haga clic con el botón derecho en el lienzo del informe y seleccione **Insertar** > **Subinforme**.
+1. En la cinta **Insertar** , seleccione el botón **Subinforme** , o bien haga clic con el botón derecho en el lienzo del informe y seleccione **Insertar** > **Subinforme**.
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Iniciar sesión en Power BI":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Insertar un subinforme en un informe":::
 
     Se abre el cuadro de diálogo **Propiedades del subinforme**.  
 
-2. Seleccione el botón **Examinar**, vaya al informe que quiere usar como subinforme y especifique el nombre del subinforme en el cuadro de texto **Nombre**.
+2. Seleccione el botón **Examinar** , vaya al informe que quiere usar como subinforme y especifique el nombre del subinforme en el cuadro de texto **Nombre**.
 
 3. Configure las otras propiedades según sea necesario, incluidos los [parámetros](#use-parameters-in-subreports).
 
@@ -70,7 +72,7 @@ Ya ha guardado los dos informes en la misma área de trabajo Premium, así que y
  Para pasar parámetros del informe primario al subinforme, defina un parámetro de informe en el informe que utiliza como subinforme. Cuando se coloca el subinforme en el informe primario, se puede seleccionar el parámetro de informe y el valor que se van a pasar desde el informe primario al parámetro de informe del subinforme.  
   
 > [!NOTE]  
-> El parámetro que se selecciona en el subinforme es un parámetro de *informe*, no un parámetro de *consulta*.  
+> El parámetro que se selecciona en el subinforme es un parámetro de *informe* , no un parámetro de *consulta*.  
   
  Se puede colocar un subinforme en el cuerpo principal del informe o en una región de datos. Si se coloca un subinforme en una región de datos, el subinforme se repite con cada instancia del grupo o de la fila de la región de datos. Puede pasar un valor del grupo o de la fila al subinforme. En la propiedad de valor del subinforme, use una expresión de campo para el campo que contiene el valor que quiere pasar al parámetro del subinforme.  
   
@@ -80,7 +82,7 @@ Ya ha guardado los dos informes en la misma área de trabajo Premium, así que y
 
 Puede obtener una vista previa de los informes en Report Builder.
 
-- En la cinta **Inicio**, seleccione **Ejecutar**. 
+- En la cinta **Inicio** , seleccione **Ejecutar**. 
 
 Como Report Builder es una herramienta de diseño, la vista previa del informe puede tener un aspecto diferente de la representación del informe en el servicio Power BI.
 
