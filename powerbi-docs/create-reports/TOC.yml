@@ -85,6 +85,8 @@
           items:
             - name: "Generador de informes en Power\_BI"
               href: ../paginated-reports/report-builder-power-bi.md
+            - name: "Informes paginados de Power\_BI de ejemplo"
+              href: ../paginated-reports/paginated-reports-samples.md
             - name: Desplazamiento por la vista Diseño del informe
               href: ../paginated-reports/paginated-reports-report-design-view.md
             - name: Planeación de un informe
