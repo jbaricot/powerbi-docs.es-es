@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.openlocfilehash: edda0fa0232430541af1fc1766fd5d8bc23c5e1c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 28058161672de9db0cac5093e652e1d551f6a80a
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221032"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297322"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Publicación de un informe paginado en el servicio Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 En este artículo, se ofrece información sobre cómo publicar un informe paginado en el servicio Power BI cargándolo desde el equipo local. Puede cargar informes paginados en Mi área de trabajo o en cualquier otra área de trabajo, siempre que tenga capacidad Premium. Busque el icono de diamante ![Icono de diamante de capacidad Premium de Power BI](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) junto al nombre del área de trabajo. 
 
@@ -25,11 +27,11 @@ Si el origen de datos del informe es local, debe crear una puerta de enlace desp
 
 Si el área de trabajo no tiene el icono de diamante ![Icono de diamante de capacidad Premium de Power BI](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) junto al nombre, deberá agregar el área de trabajo a una capacidad Premium. 
 
-1. Seleccione **Áreas de trabajo**, seleccione el botón de puntos suspensivos ( **...** ) junto al nombre del área de trabajo y después seleccione **Editar área de trabajo**.
+1. Seleccione **Áreas de trabajo** , seleccione el botón de puntos suspensivos ( **...** ) junto al nombre del área de trabajo y después seleccione **Editar área de trabajo**.
 
     ![Selección de Editar área de trabajo](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 
-1. En el cuadro de diálogo **Editar área de trabajo**, expanda **Avanzado** y después establezca la opción **Capacidad dedicada** en **Activado**.
+1. En el cuadro de diálogo **Editar área de trabajo** , expanda **Avanzado** y después establezca la opción **Capacidad dedicada** en **Activado**.
 
     ![Selección de Capacidad dedicada](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace-dialog.png)
 
@@ -49,7 +51,7 @@ Si el área de trabajo no tiene el icono de diamante ![Icono de diamante de capa
 
     ![Selección de un área de trabajo Premium](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-workspace.png)
 
-4. Abra el servicio Power BI en un explorador y vaya al área de trabajo Premium donde ha publicado el informe paginado. En la pestaña **Informes**, se ve el informe.
+4. Abra el servicio Power BI en un explorador y vaya al área de trabajo Premium donde ha publicado el informe paginado. En la pestaña **Informes** , se ve el informe.
 
     ![Informe paginado en la lista Informes](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
 
@@ -69,7 +71,7 @@ También puede empezar desde el servicio Power BI y cargar un informe paginado.
 
 1. Seleccione **Obtener datos**.
 
-    ![Obtener datos en Power BI](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-get-data.png)
+    ![Obtención de datos de Power BI](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-get-data.png)
 
 1. En el cuadro **Archivos** , seleccione **Obtener**.
 
@@ -87,7 +89,7 @@ También puede empezar desde el servicio Power BI y cargar un informe paginado.
 
     ![Editar credenciales](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
-   En la pestaña **Informes**, se ve el informe.
+   En la pestaña **Informes** , se ve el informe.
 
     ![Informe paginado en la lista Informes](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
 
@@ -97,7 +99,7 @@ También puede empezar desde el servicio Power BI y cargar un informe paginado.
 
 6. Si el origen de datos del informe es local, lea cómo [crear una puerta de enlace](#create-a-gateway) en este artículo a fin de acceder al origen de datos.
 
-## <a name="create-a-gateway"></a>Creación de una puerta de enlace
+## <a name="create-a-gateway"></a>Crear una puerta de enlace
 
 Al igual que cualquier otro informe de Power BI, si el origen de datos del informe es local, debe crear una puerta de enlace o conectarse a ella para acceder a los datos.
 

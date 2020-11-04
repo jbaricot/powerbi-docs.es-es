@@ -9,14 +9,16 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: c26f9c8f219517e3039b62cdbc89af24ba1af288
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f103f29c61d1a4e4a5340d97598d80a86c708701
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239551"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298046"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Pasar un parámetro de informe en una URL para un informe paginado en Power BI 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Puede pasar parámetros de informe a un informe incluyéndolos en una URL de informe paginado. Todos los parámetros de consulta pueden tener parámetros de informe correspondientes. Por lo tanto, para pasar un parámetro de consulta a un informe, se pasa el parámetro de informe correspondiente. Debe agregar un prefijo al nombre del parámetro con `rp:` para que Power BI lo reconozca en la dirección URL. 
 
@@ -28,9 +30,9 @@ Los parámetros de informe distinguen entre mayúsculas y minúsculas y usan est
 
 - Un punto y coma en cualquier parte de la cadena se reemplaza con los caracteres `%3A`.
 
-Los exploradores deben ejecutar automáticamente la codificación de URL adecuada. No tiene que codificar ninguno de los caracteres manualmente. 
+Los exploradores deberían realizar de forma automática la codificación de dirección URL apropiada. No tiene que codificar ninguno de los caracteres manualmente. 
 
-Para establecer un parámetro de informe dentro de una URL, use esta sintaxis: 
+Para establecer un parámetro de informe dentro de una dirección URL, use la siguiente sintaxis: 
 
 ```
 rp:parameter=value
@@ -48,7 +50,7 @@ Para especificar los mismos dos parámetros definidos en un informe en una aplic
 https://app.powerbi.com/groups/me/apps/xxxxxxx-c4c4-4217-afd9-3920a0d1e2b0/rdlreports/b1d5e659-639e-41d0-b733-05d2bca9853c?rp:Salesperson=Tiggee&rp:State=Utah 
 ```
 
-Para pasar un valor null para un parámetro, use esta sintaxis: 
+Para pasar un valor NULL para un parámetro, use la siguiente sintaxis: 
 
 ```
 parameter:isnull=true
@@ -83,5 +85,5 @@ https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Parámetros de URL en informes paginados en Power BI](report-builder-url-parameters.md)
+- [Parámetros de dirección URL en informes paginados en Power BI](report-builder-url-parameters.md)
 - [¿Qué son los informes paginados en Power BI Premium?](paginated-reports-report-builder-power-bi.md)

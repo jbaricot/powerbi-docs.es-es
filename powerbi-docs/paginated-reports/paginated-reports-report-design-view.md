@@ -8,45 +8,47 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: a77631cbf2438c00a8c05b196837b73b8dc6bb61
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f19e80a421c6e27fa3b85814d00bfb05dc2789b2
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207146"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297724"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Descripción de la vista de diseño de informe en los informes paginados
 
-La vista de diseño de informe del Generador de informes de Power BI es el espacio de diseño para crear informes paginados que puede publicar en el servicio Power BI. La superficie de diseño está en el centro del generador de informes, con la cinta de opciones y los paneles a su alrededor. La superficie de diseño es donde se agregan y organizan los elementos de informe. En este artículo se explican los paneles que se usan para agregar, seleccionar y organizar los recursos de informe y cambiar las propiedades de los elementos del informe.  
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+La vista de diseño de informe del Generador de informes de Power BI es el espacio de diseño para crear informes paginados que puede publicar en el servicio Power BI. La superficie de diseño está en el centro del generador de informes, con la cinta de opciones y los paneles a su alrededor. La superficie de diseño es donde agrega y organiza sus elementos de informe. En este artículo se describen los paneles que se usan para agregar, seleccionar y organizar los recursos de informe y para cambiar las propiedades de los elementos de informe.  
 
 ![Vista de diseño de informe del generador de informes](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
 1. [Panel Datos de informe](#1-report-data-pane) 
 2. [Superficie de diseño del informe](#2-report-design-surface)  
 3. [Panel Parámetros](#3-parameters-pane) 
-4. [Panel Propiedades](#4-properties-pane) 
+4. [Propiedades, panel](#4-properties-pane) 
 5. [Panel de agrupación](#5-grouping-pane) 
 6. [Barra de estado del informe actual](#6-current-report-status-bar)  
   
 ## <a name="1-report-data-pane"></a>1 Panel Datos de informe  
- En el panel Datos de informe, defina los datos y los recursos que necesita para un informe antes de crear el diseño del informe. Por ejemplo, puede agregar orígenes de datos, conjuntos de datos, campos calculados, parámetros de informe e imágenes al panel Datos de informe.  
+ En el panel Datos de informe, puede definir los recursos y los datos de informe que necesita para un informe antes de diseñarlo. Por ejemplo, puede agregar orígenes de datos, conjuntos de datos, campos calculados, parámetros de informe e imágenes al panel Datos de informe.  
   
- Una vez agregados los elementos al panel Datos de informe, arrastre los campos a los elementos de informe hasta la superficie de diseño para controlar dónde aparecen los datos en el informe.  
+ Cuando agregue elementos al panel Datos de informe, arrástrelos hasta la superficie de diseño para controlar dónde aparecerán en el informe.  
   
 > [!TIP]  
->  Si arrastra un campo desde el panel Datos de informe directamente a la superficie de diseño del informe en lugar de colocarlo en una región de datos como una tabla o un gráfico, al ejecutar el informe, verá solo el primer valor de los datos de ese campo.  
+>  Si arrastra directamente un campo del panel Datos de informe a la superficie de diseño del informe en lugar de colocarlo en una región de datos, como una tabla o un gráfico, al ejecutar el informe, verá solo el primer valor de los datos en ese campo.  
   
- También puede arrastrar campos integrados desde el panel Datos de informe a la superficie de diseño del informe. Cuando se representan, estos campos proporcionan información acerca del informe, como el nombre del informe, el número total de páginas del informe y el número de página actual.  
+ También podrá arrastrar campos integrados desde el panel Datos de informe hasta la superficie de diseño del informe. Cuando se representan, estos campos proporcionan información acerca del informe, como el nombre del informe, el número total de páginas y el número de la página actual.  
   
- Algunos elementos se agregan automáticamente al panel Datos de informe al agregar algún elemento a la superficie de diseño del informe. Por ejemplo, si inserta una imagen en el informe, se agregará a la carpeta Imágenes en el panel Datos de informe.  
+ Algunas cosas se agregan automáticamente al panel Datos de informe al agregar algo a la superficie de diseño del informe. Por ejemplo, si inserta una imagen en el informe, se agregará a la carpeta Imágenes en el panel Datos de informe.  
   
 > [!NOTE]  
->  Puede usar el botón **Nuevo** para agregar un nuevo elemento al panel Datos de informe. Puede agregar varios conjuntos de datos desde el mismo origen de datos o desde otros orígenes de datos al informe. Para agregar un nuevo conjunto de datos desde el mismo origen de datos, haga clic con el botón derecho en un origen de datos > **Agregar conjunto de datos**.  
+>  Puede usar el botón **Nuevo** para agregar un nuevo elemento al panel Datos de informe. Puede agregar al informe varios conjuntos de datos del mismo origen de datos o de otros orígenes de datos. Para agregar un nuevo conjunto de datos desde el mismo origen de datos, haga clic con el botón derecho en un origen de datos > **Agregar conjunto de datos**.  
   
 ## <a name="2-report-design-surface"></a>2 Superficie de diseño del informe  
- La superficie de diseño del informe del generador de informes es el área de trabajo principal para diseñar los informes. Para colocar elementos de informe como regiones de datos, subinformes, cuadros de texto, imágenes, rectángulos y líneas en el informe, agréguelos desde la galería de elementos de informe o desde la cinta de opciones a la superficie de diseño. Allí, puede agregar grupos, expresiones, parámetros, filtros, acciones, visibilidad y formato a los elementos de informe.  
+ La superficie de diseño de informe del Generador de informes es el área de trabajo principal para diseñar informes. Para colocar en su informe los elementos de informe, como regiones de datos, subinformes, cuadros de texto, imágenes, rectángulos y líneas, agréguelos desde la cinta de opciones o la galería de elementos de informe a la superficie de diseño. Ahí puede agregar grupos, expresiones, parámetros, filtros, acciones, visibilidad y formato a sus elementos de informe.  
   
- También puede modificar lo siguiente:  
+ También puede cambiar lo siguiente:  
   
 -   Las propiedades del cuerpo del informe, como el color de borde y relleno, haciendo clic con el botón derecho en el área en blanco de la superficie de diseño, fuera de cualquier elemento de informe, y seleccionando **Propiedades de cuerpo de informe**.  
   
@@ -57,46 +59,46 @@ La vista de diseño de informe del Generador de informes de Power BI es el espa
 -   Las propiedades de los elementos de informe, haciendo clic con el botón derecho en ellos y seleccionando **Propiedades**.  
   
 ### <a name="design-surface-size-and-print-area"></a>Área de impresión y tamaño de la superficie de diseño  
-El tamaño de la superficie de diseño podría ser diferente del área de impresión del tamaño de página que especifique para imprimir el informe. Cambiar el tamaño de la superficie de diseño no cambiará el área de impresión del informe. Con independencia del tamaño establecido para el área de impresión del informe, no cambia el tamaño total del área de diseño. Para más información, vea los comportamientos de representación. 
+El tamaño de la superficie de diseño puede ser diferente del área de impresión del tamaño de página que especifique para imprimir el informe. El cambio del tamaño de la superficie de diseño no cambiará el área de impresión de su informe. Con independencia del tamaño que establezca para el área de impresión de su informe, el tamaño del área de diseño completa no cambia. Para más información, vea los comportamientos de representación. 
   
-- Para mostrar la regla, en la pestaña **Vista**, seleccione la casilla **Regla**.  
+-  Para mostrar la regla, en la pestaña **Ver** active la casilla **Regla** .  
   
 ## <a name="3-parameters-pane"></a>3 Panel Parámetros  
- Con los parámetros de informe, puede controlar datos de informe, conectar informes relacionados y variar la presentación del informe. El panel de parámetros proporciona un diseño flexible para los parámetros del informe.  
+ Con los parámetros de informe, puede controlar datos de informe, conectar informes relacionados y cambiar la presentación de los informes. El panel de parámetros proporciona un diseño flexible para los parámetros de informe.  
   
  Más información sobre los parámetros de informe   
   
 ## <a name="4-properties-pane"></a>4 Panel Propiedades
- Todos los elementos de un informe, como las regiones de datos, las imágenes, los cuadros de texto y el cuerpo del informe, tienen propiedades asociadas con ellos. Por ejemplo, la propiedad BorderColor de un cuadro de texto muestra el valor de color del borde del cuadro de texto, y la propiedad PageSize del informe muestra el tamaño de página del informe.  
+ Todos los elementos de un informe, como las regiones de datos, las imágenes, los cuadros de texto y el cuerpo mismo del informe, tienen propiedades asociadas. Por ejemplo, la propiedad BorderColor de un cuadro de texto muestra el valor de color del borde del cuadro de texto y la propiedad PageSize del informe muestra el tamaño de página del informe.  
   
- Estas propiedades se muestran en el panel Propiedades. Las propiedades del panel cambian en función del elemento de informe que seleccione.  
+ Estas propiedades se muestran en el panel de propiedades. Las propiedades del panel cambian en función del elemento de informe que seleccione.  
   
 - Para ver el panel Propiedades, haga clic en la pestaña **Vista** del grupo **Mostrar u ocultar** > **Propiedades**.  
   
 ### <a name="changing-property-values"></a>Cambiar valores de propiedad  
- En el generador de informes, puede cambiar las propiedades de los elementos de informe de varias maneras:  
+ En el Generador de informes, puede cambiar las propiedades de los elementos de informe de varias maneras:  
   
 -   Seleccionando los botones y las listas en la cinta de opciones.  
   
--   Cambiando la configuración de los cuadros de diálogo.  
+-   Cambiando los valores de configuración de los cuadros de diálogo.  
   
--   Cambiando los valores de propiedad en el panel Propiedades.  
+-   Cambiando los valores de propiedad del panel de propiedades.  
   
- Las propiedades más utilizadas están disponibles en los cuadros de diálogo y en la cinta de opciones.  
+ Las propiedades que se utilizan con más frecuencia están disponibles en los cuadros de diálogo y en la cinta de opciones.  
   
  Dependiendo de la propiedad, puede establecer un valor de propiedad desde una lista desplegable, escribir el valor o seleccionar `<Expression>` para crear una expresión.  
   
-### <a name="changing-the-properties-pane-view"></a>Cambiar la vista del panel Propiedades  
- De forma predeterminada, las propiedades mostradas en el panel Propiedades se organizan en amplias categorías, como acción, borde, relleno, fuente y general. Cada categoría tiene un conjunto de propiedades asociadas con ella. Por ejemplo, las siguientes propiedades aparecen en la categoría Font: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight, y TextDecoration. Si lo prefiere, puede ordenar alfabéticamente todas las propiedades enumeradas en el panel. Esto elimina las categorías y enumera todas las propiedades en orden alfabético, independientemente de la categoría.  
+### <a name="changing-the-properties-pane-view"></a>Cambiar la vista del panel de propiedades  
+ De manera predeterminada, las propiedades que se muestran en el panel de propiedades se organizan en amplias categorías como Acción, Borde, Relleno, Fuente y General. Cada una de esas categorías cuenta con un conjunto de propiedades asociadas. Por ejemplo, las siguientes propiedades se enumeran en la categoría Fuente: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight y TextDecoration. Si lo prefiere, puede ordenar alfabéticamente todas las propiedades enumeradas en el panel. De esta manera se quitan las categorías y se enumeran todas las propiedades en orden alfabético independientemente de la categoría.  
   
- El panel de propiedades tiene tres botones en la parte superior del panel: **Categoría**, **Alfabetizar** y **Página de propiedades**. Seleccione los botones Categoría y Alfabetizar para cambiar entre las vistas del panel Propiedades. Seleccione el botón **Páginas de propiedades** para abrir el cuadro de diálogo de propiedades de un elemento de informe seleccionado.  
+ El panel Propiedades tiene tres botones en la parte superior del panel: **Categoría** , **Alfabetizar** y **Página de propiedades**. Seleccione los botones Categoría y Alfabetizar para cambiar entre las vistas del panel Propiedades. Seleccione el botón **Páginas de propiedades** para abrir el cuadro de diálogo de propiedades de un elemento de informe seleccionado.  
   
   
 ## <a name="5-grouping-pane"></a>5 Panel de agrupación
 
- Los grupos se usan para organizar los datos del informe en una jerarquía visual y para calcular los totales. Puede ver los grupos de filas y columnas dentro de una región de datos en la superficie de diseño y en el panel de agrupación. El panel Agrupación tiene dos paneles: Grupos de filas y Grupos de columnas. Al seleccionar una región de datos, el panel Agrupación muestra todos los grupos dentro de dicha región de datos como una lista jerárquica: los grupos secundarios aparecen con sangría aplicada debajo de sus grupos principales.  
+ Los grupos se utilizan para organizar los datos del informe en una jerarquía visual y calcular los totales. Puede ver los grupos de filas y columnas dentro de una región de datos en la superficie de diseño y también en el Panel de agrupación. El Panel de agrupación tiene dos paneles: Grupos de filas y Grupos de columnas. Al seleccionar una región de datos, el Panel de agrupación muestra todos los grupos dentro de una región de datos como una lista jerárquica: los grupos secundarios aparecen con sangría aplicada bajo los grupos primarios.  
   
- Puede crear grupos arrastrando campos desde el panel Datos de informe y colocándolos en la superficie de diseño o en el panel de agrupación. En el panel de agrupación, puede agregar grupos principales, adyacentes y secundarios, cambiar las propiedades de grupo y eliminar grupos.  
+ Para crear grupos, arrastre los campos desde el panel Datos de informe y suéltelos en la superficie de diseño o en el Panel de agrupación. En el Panel de agrupación, puede agregar grupos primarios, adyacentes o secundarios, cambiar propiedades de grupo y eliminar grupos.  
   
  Se muestra el panel de agrupación de forma predeterminada, pero puede cerrarlo desactivando la casilla del panel de agrupación en la pestaña Vista. El panel de agrupación no está disponible para las regiones de datos de gráfico o medidor.  
   

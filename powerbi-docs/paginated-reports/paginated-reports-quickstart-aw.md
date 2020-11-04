@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 778ce3c810cb0d59559940f489dfeda34f366fda
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: baccdcae82fb56b2f7f7a9d6cb4839e941e99bf0
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853986"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297520"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Creación de un informe paginado y su carga en el servicio Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 En este tutorial, se conecta a una instancia de ejemplo de Azure SQL Database. Después, se usa un asistente del Generador de informes de Power BI para crear un informe paginado con una tabla que se ajusta a varias páginas. Luego se carga el informe paginado en un área de trabajo con una capacidad Premium en el servicio Power BI.
 
@@ -30,13 +32,13 @@ Estos son los pasos que se deben completar en este tutorial:
 > * Aplique formato a la moneda.
 > * Cargue el informe en el servicio Power BI.
 
-Si no tiene ninguna suscripción a Azure, cree una [cuenta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de empezar.
+Si no tiene una suscripción a Azure, cree una [cuenta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de empezar.
  
 ## <a name="prerequisites"></a>Requisitos previos  
 
 Estos son los requisitos previos para crear el informe paginado:
 
-- Instale el [Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://aka.ms/pbireportbuilder). 
+- Instale el [Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://aka.ms/pbireportbuilder). 
 
 - Siga la guía de inicio rápido [Creación de una instancia de ejemplo de Azure SQL Database en Azure Portal](/azure/sql-database/sql-database-get-started-portal). Copie y guarde el valor en el cuadro **Nombre del servidor** en la pestaña **Introducción**. Recuerde el nombre de usuario y la contraseña que creó en Azure.
 
@@ -55,19 +57,19 @@ Estos son los requisitos previos para cargar el informe paginado en el servicio 
   
 1.  En el panel izquierdo, compruebe que **Nuevo informe** está seleccionado y, en el panel derecho, seleccione **Asistente para tabla o matriz**.  
   
-4.  En la página **Elegir un conjunto de datos**, seleccione **Crear un conjunto de datos** > **Siguiente**.  
+4.  En la página **Elegir un conjunto de datos** , seleccione **Crear un conjunto de datos** > **Siguiente**.  
 
     ![Crear un conjunto de datos](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
   
-5.  En la página **Elegir una conexión a un origen de datos**, seleccione **Nuevo**. 
+5.  En la página **Elegir una conexión a un origen de datos** , seleccione **Nuevo**. 
 
     ![Nuevo origen de datos](media/paginated-reports-quickstart-aw/power-bi-paginated-new-data-source-connection.png)
   
-     Se abre el cuadro de diálogo **Propiedades del origen de datos**.  
+     Se abre el cuadro de diálogo **Propiedades del origen de datos** .  
   
-6.  Puede asignar a un origen de datos el nombre que desee, con el uso de caracteres o guiones bajos. Para este tutorial, en el cuadro **Nombre**, escriba **MyAzureDataSource**.  
+6.  Puede asignar a un origen de datos el nombre que desee, con el uso de caracteres o guiones bajos. Para este tutorial, en el cuadro **Nombre** , escriba **MyAzureDataSource**.  
   
-7.  En cuadro **Seleccionar tipo de conexión**, seleccione **Microsoft Azure SQL Database**.  
+7.  En cuadro **Seleccionar tipo de conexión** , seleccione **Microsoft Azure SQL Database**.  
   
 8.  Seleccione **Compilar** junto al cuadro **Cadena de conexión**. 
 
@@ -77,38 +79,38 @@ Estos son los requisitos previos para cargar el informe paginado en el servicio 
 
 1. Seleccione la instancia de Azure SQL Database creada en la guía de inicio rápido "Creación de una instancia de ejemplo de Azure SQL Database en Azure Portal" en la sección **Requisitos previos** de este artículo.
 
-1. En la pestaña **Introducción**, copie el valor en el cuadro **Nombre del servidor**.
+1. En la pestaña **Introducción** , copie el valor en el cuadro **Nombre del servidor**.
 
-2. **En el Generador de informes**: en el cuadro de diálogo **Propiedades de conexión**, en **Nombre del servidor**, pegue el nombre del servidor que copió. 
+2. **En el generador de informes** : en el cuadro de diálogo **Propiedades de conexión** , en **Nombre del servidor** , pegue el nombre del servidor que copió. 
 
-1. En **Iniciar sesión en el servidor**, asegúrese de que esté seleccionada la opción **Usar la autenticación de SQL Server** y luego escriba el nombre de usuario y la contraseña que creó en Azure para la base de datos de ejemplo.
+1. En **Iniciar sesión en el servidor** , asegúrese de que esté seleccionada la opción **Usar la autenticación de SQL Server** y luego escriba el nombre de usuario y la contraseña que creó en Azure para la base de datos de ejemplo.
 
-1. En **Conexión a una base de datos**, seleccione la flecha desplegable y seleccione el nombre de la base de datos que creó en Azure.
+1. En **Conexión a una base de datos** , seleccione la flecha desplegable y seleccione el nombre de la base de datos que creó en Azure.
  
     ![Propiedades de conexión del origen de datos](media/paginated-reports-quickstart-aw/power-bi-paginated-connection-properties.png)
 
-1. Seleccione **Probar conexión**. En los **Resultados de la prueba**, verá el mensaje **Conexión de prueba correcta**.
+1. Seleccione **Test Connection** (Probar conexión). En los **Resultados de la prueba** , verá el mensaje **Conexión de prueba correcta**.
 
 1. Seleccione **Aceptar** > **Aceptar**. 
 
-   Ahora en el cuadro **Cadena de conexión**, el generador de informes muestra la cadena de conexión que acaba de crear. 
+   Ahora en el cuadro **Cadena de conexión** , el generador de informes muestra la cadena de conexión que acaba de crear. 
 
     ![Cadena de conexión del origen de datos](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-connection-string.png)
 
 1. Seleccione **Aceptar**.
   
-9. En la página **Elegir una conexión a un origen de datos**, verá "(en este informe)" debajo de la conexión al origen de datos que acaba de crear. Seleccione ese origen de datos > **Siguiente**.  
+9. En la página **Elegir una conexión a un origen de datos** , verá "(en este informe)" debajo de la conexión al origen de datos que acaba de crear. Seleccione ese origen de datos > **Siguiente**.  
 
     ![Mi origen de datos de Azure](media/paginated-reports-quickstart-aw/power-bi-paginated-my-azure-data-source.png)
 
 10. Escriba el mismo nombre de usuario y la contraseña en el cuadro. 
   
-10. En la página **Diseñar una consulta**, expanda SalesLT, expanda las tablas y seleccione estas tablas:
+10. En la página **Diseñar una consulta** , expanda SalesLT, expanda las tablas y seleccione estas tablas:
 
     - Dirección
-    - Cliente
+    - Customer
     - Producto
-    - ProductoCategoría
+    - ProductCategory
     - SalesOrderDetail
     - SalesOrderHeader
 
@@ -120,29 +122,29 @@ Estos son los requisitos previos para cargar el informe paginado en el servicio 
  
      ![Resultados de la consulta](media/paginated-reports-quickstart-aw/power-bi-paginated-query-results.png)
 
-18. Seleccione **Siguiente**. 
+18. Seleccione **Next** (Siguiente). 
 
-19. En la página **Elegir un conjunto de datos**, seleccione el conjunto de datos que acaba de crear > **Siguiente**.
+19. En la página **Elegir un conjunto de datos** , seleccione el conjunto de datos que acaba de crear > **Siguiente**.
 
     ![Elegir un conjunto de datos](media/paginated-reports-quickstart-aw/power-bi-paginated-choose-dataset.png)
 
-1. En la página **Organizar campos**, arrastre estos campos desde el cuadro **Campos disponibles** hasta el cuadro **Grupos de filas**:
+1. En la página **Organizar campos** , arrastre estos campos desde el cuadro **Campos disponibles** hasta el cuadro **Grupos de filas** :
 
     - CompanyName
     - SalesOrderNumber
     - Product_Name
 
-1. Arrastre estos campos desde el cuadro **Campos disponibles** hasta el cuadro **Valores**:
+1. Arrastre estos campos desde el cuadro **Campos disponibles** hasta el cuadro **Valores** :
 
     - OrderQty
-    - Precio unidad
-    - TotalLínea
+    - UnitPrice
+    - LineTotal
 
     El generador de informes automáticamente suma los campos del cuadro **Valores**.
 
     ![Organizar campos](media/paginated-reports-quickstart-aw/power-bi-paginated-drag-fields.png)
 
-24. En la página **Elegir el diseño**, mantenga toda la configuración predeterminada, pero desactive **Expandir o contraer grupos**. En general, la característica Expandir o contraer grupos es magnífica, pero en esta ocasión desea que la tabla abarque varias páginas.
+24. En la página **Elegir el diseño** , mantenga toda la configuración predeterminada, pero desactive **Expandir o contraer grupos**. En general, la característica Expandir o contraer grupos es magnífica, pero en esta ocasión desea que la tabla abarque varias páginas.
 
 1. Seleccione **Siguiente** > **Finalizar**. La tabla se muestra en la superficie de diseño.
  
@@ -166,7 +168,7 @@ Vamos a hacer una pausa durante un momento para examinar los resultados del asis
 
     - CompanyName
     - Pedido de venta
-    - Nombre del producto
+    - Nombre de producto
 
     Esta matriz no tiene ningún grupo de columnas.
 
@@ -186,7 +188,7 @@ Para ver los valores reales, deberá ejecutar el informe.
 
 Ahora tiene un informe con una matriz que abarca treinta y tres páginas. Vamos a agregar algunas otras características y a mejorar su aspecto. Puede ejecutar el informe después de cada paso, si desea ver cómo está quedando.
 
-- En la pestaña **Ejecutar** de la cinta de opciones, seleccione **Diseño**, de modo que pueda seguir modificándolo.  
+- En la pestaña **Ejecutar** de la cinta de opciones, seleccione **Diseño** , de modo que pueda seguir modificándolo.  
 
 ### <a name="set-page-width"></a>Configuración del ancho de página
 
@@ -202,11 +204,11 @@ Normalmente, un informe paginado tiene un formato de impresión, y una página n
 
     ![Establecer los márgenes de página](media/paginated-reports-quickstart-aw/power-bi-paginated-set-margins.png)
   
-### <a name="add-a-report-title"></a>Agregar un título al informe  
+### <a name="add-a-report-title"></a>Agregar un título de informe  
 
 1. Seleccione el texto **Haga clic para agregar un título** en la parte superior de la página y después escriba **Ventas por empresa**.  
 
-2. Seleccione el texto del título y, en el panel Propiedades, en **Fuente**, cambie el **Color** a **Azul**.
+2. Seleccione el texto del título y, en el panel Propiedades, en **Fuente** , cambie el **Color** a **Azul**.
   
 ### <a name="add-a-page-number"></a>Agregar un número de página
 
@@ -218,7 +220,7 @@ Puede observar que el informe tiene una marca de fecha y hora en el pie de pági
 
 3. Arrastre el lado derecho del cuadro [& Número de página] hasta que tenga un formato cuadrado.
 
-4. En la pestaña **Insertar**, seleccione **Cuadro de texto**.
+4. En la pestaña **Insertar** , seleccione **Cuadro de texto**.
 
 5. Haga clic a la derecha de [&Número de página], escriba "de" y luego ajuste el tamaño del cuadro de texto para que sea cuadrado.
 
@@ -248,7 +250,7 @@ Si se dio cuenta cuando ejecutó el informe, los importes en dólares aún no te
 
     ![Seleccionar celdas con valores de moneda](media/paginated-reports-quickstart-aw/power-bi-paginated-select-money-cells.png)
 
-2. En la pestaña **Inicio**, seleccione el símbolo de moneda del símbolo del dólar ( **$** ), luego seleccione la flecha situada junto a **Estilos de marcador de posición** > **Valores de ejemplo**.
+2. En la pestaña **Inicio** , seleccione el símbolo de moneda del símbolo del dólar ( **$** ), luego seleccione la flecha situada junto a **Estilos de marcador de posición** > **Valores de ejemplo**.
  
     ![Mostrar los valores de ejemplo](media/paginated-reports-quickstart-aw/power-bi-paginated-format-currency.png)
 
@@ -268,7 +270,7 @@ Una mejora más del formato antes de publicar el informe en el servicio Power BI
 
    ![Seleccionar grupo estático](media/paginated-reports-quickstart-aw/power-bi-paginated-static-group.png)
 
-3. En el panel **Propiedades**, verá las propiedades de **Miembro de Tablix**. Establezca **KeepWithGroup** en **After** y **RepeatOnNewPage** en **True**.
+3. En el panel **Propiedades** , verá las propiedades de **Miembro de Tablix**. Establezca **KeepWithGroup** en **After** y **RepeatOnNewPage** en **True**.
 
     ![Establecer RepeatOnNewPage](media/paginated-reports-quickstart-aw/power-bi-paginated-repeat-on-new-page.png)
 
@@ -276,7 +278,7 @@ Una mejora más del formato antes de publicar el informe en el servicio Power BI
 
 5. Seleccione **Ejecutar** en la pestaña **Inicio**.
 
-6. Seleccione **Diseño de impresión**, si aún no está seleccionado. Ahora el informe tiene veintinueve páginas. Navegue por algunas páginas. Observará que el formato de moneda está aplicado, que las columnas tienen encabezados en cada página y que el informe tiene un pie de página con números de página y marcas de fecha y hora en cada página.
+6. Seleccione **Diseño de impresión** , si aún no está seleccionado. Ahora el informe tiene veintinueve páginas. Navegue por algunas páginas. Observará que el formato de moneda está aplicado, que las columnas tienen encabezados en cada página y que el informe tiene un pie de página con números de página y marcas de fecha y hora en cada página.
  
     ![Página acabada](media/paginated-reports-quickstart-aw/power-bi-paginated-finished-page.png)
 
@@ -296,7 +298,7 @@ Ahora que ha creado este informe paginado, es el momento de cargarlo en el servi
 
     Si no puede activar esta opción, debe pedir al administrador de Power BI que le conceda permisos para agregar el área de trabajo a la capacidad Premium dedicada.
 
-4. Elija una **capacidad dedicada disponible para esta área de trabajo**, si es necesario > **Guardar**.
+4. Elija una **capacidad dedicada disponible para esta área de trabajo** , si es necesario > **Guardar**.
     
     ![Icono de diamante Premium](media/paginated-reports-quickstart-aw/power-bi-paginated-diamond-icon.png)
 
@@ -304,9 +306,9 @@ Ahora que ha creado este informe paginado, es el momento de cargarlo en el servi
 
 1. En el área de trabajo nueva, seleccione **Obtener datos**.
 
-2. En el cuadro **Archivos**, seleccione **Obtener**.
+2. En el cuadro **Archivos** , seleccione **Obtener**.
 
-3. Seleccione **Archivo local**, vaya a donde guardó el archivo > **Abrir**.
+3. Seleccione **Archivo local** , vaya a donde guardó el archivo > **Abrir**.
 
    Power BI importa el archivo, y puede verlo en **Informes** en la página de la lista de aplicaciones.
 
