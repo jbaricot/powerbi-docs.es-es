@@ -56,7 +56,7 @@
               href: service-gateway-power-bi-faq.md
     - name: Guías paso a paso
       items:
-        - name: Conectarse a orígenes de datos
+        - name: Conexión a orígenes de datos
           href: desktop-connect-to-data.md
         - name: Conectar a datos
           items:
@@ -284,7 +284,7 @@
               href: service-gateway-personal-mode.md
             - name: Administración de orígenes de datos de puerta de enlace
               items:
-                - name: Administración de orígenes de datos
+                - name: Agregar o quitar un origen de datos de puerta de enlace
                   href: service-gateway-data-sources.md
                 - name: 'Administrar el origen de datos de su empresa: Analysis Services'
                   href: service-gateway-enterprise-manage-ssas.md

@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ddaafaf175e2cb083e8e8eb494c156f0e9de8e0f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: b74c381bfddc638c1371d571492eedfc7cf82a65
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633188"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916415"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Aplicación Métricas de Power BI Premium
 
@@ -35,7 +35,7 @@ En las secciones siguientes se describe de forma detallada la página de aterriz
 
 ## <a name="premium-capacity-health-center"></a>Centro de mantenimiento de la capacidad Premium
 
-Al abrir la **aplicación Métricas de Power BI Premium**, aparece **Capacity health center** (Centro de mantenimiento de la capacidad), que proporciona información general sobre el mantenimiento de la capacidad de Power BI Premium.
+Al abrir la **aplicación Métricas de Power BI Premium** , aparece **Capacity health center** (Centro de mantenimiento de la capacidad), que proporciona información general sobre el mantenimiento de la capacidad de Power BI Premium.
 
 ![Centro de mantenimiento de la capacidad de la aplicación Métricas de la versión Premium](media/service-premium-metrics-app/premium-metrics-app-01.png)
 
@@ -47,7 +47,7 @@ Para ver detalles específicos de cada KPI, seleccione el botón **Explore** (Ex
 
 ## <a name="the-active-memory-metric"></a>La métrica de memoria activa
 
-La métrica de **memoria activa** forma parte de la categoría de *planeamiento de capacidad*, que es un buen indicador de estado para evaluar el consumo de recursos para el uso de la capacidad, de modo que pueda ajustarla según sea necesario para planear su escala. 
+La métrica de **memoria activa** forma parte de la categoría de *planeamiento de capacidad* , que es un buen indicador de estado para evaluar el consumo de recursos para el uso de la capacidad, de modo que pueda ajustarla según sea necesario para planear su escala. 
 
 ![KPI de memoria activa](media/service-premium-metrics-app/premium-metrics-app-02.png)
 
@@ -107,9 +107,9 @@ Un uso elevado de la memoria activa de forma sistemática puede dar lugar a que 
 
 Puede realizar los pasos siguientes para solucionar los problemas asociados con el escenario uno:
 
-1. **Escalar verticalmente la capacidad**: el escalado vertical de la capacidad a la siguiente SKU hará que esté disponible el doble de memoria que en la SKU actual, con lo que se evita cualquier presión de memoria que experimente actualmente la capacidad.
+1. **Escalar verticalmente la capacidad** : el escalado vertical de la capacidad a la siguiente SKU hará que esté disponible el doble de memoria que en la SKU actual, con lo que se evita cualquier presión de memoria que experimente actualmente la capacidad.
 
-2. **Mover los conjuntos de datos a otra capacidad**: si tiene otra capacidad con más memoria disponible, puede trasladar a esta las áreas de trabajo que contengan los conjuntos de datos más grandes.
+2. **Mover los conjuntos de datos a otra capacidad** : si tiene otra capacidad con más memoria disponible, puede trasladar a esta las áreas de trabajo que contengan los conjuntos de datos más grandes.
 
 
 ### <a name="scenario-two---future-load-will-exceed-limits"></a>Escenario dos: la carga futura superará los límites
@@ -136,9 +136,9 @@ Para diagnosticar el escenario dos, determine si la línea de tendencia muestra 
 
 Puede realizar los pasos siguientes para solucionar los problemas asociados con el escenario dos:
 
-1. **Escalar verticalmente la capacidad**: el escalado vertical de la capacidad a la siguiente SKU hará que esté disponible el doble de memoria que en la SKU actual, con lo que se evita cualquier presión de memoria que experimente actualmente la capacidad.
+1. **Escalar verticalmente la capacidad** : el escalado vertical de la capacidad a la siguiente SKU hará que esté disponible el doble de memoria que en la SKU actual, con lo que se evita cualquier presión de memoria que experimente actualmente la capacidad.
 
-2. **Mover los conjuntos de datos a otra capacidad**: si tiene otra capacidad con más memoria disponible, puede trasladar a esta las áreas de trabajo que contengan los conjuntos de datos más grandes.
+2. **Mover los conjuntos de datos a otra capacidad** : si tiene otra capacidad con más memoria disponible, puede trasladar a esta las áreas de trabajo que contengan los conjuntos de datos más grandes.
 
 
 ## <a name="the-query-waits-metric"></a>Métrica de esperas de consulta
@@ -176,7 +176,7 @@ En primer lugar, puede determinar si las consultas de larga duración se produce
 
 ![Tabla de tiempos de espera elevados](media/service-premium-metrics-app/premium-metrics-app-11.png)
 
-Observe el **gráfico B**, que muestra el recuento de consultas que están esperando más de 100 ms. Seleccione una de las columnas que muestra un número elevado de esperas.
+Observe el **gráfico B** , que muestra el recuento de consultas que están esperando más de 100 ms. Seleccione una de las columnas que muestra un número elevado de esperas.
 
 ![Distribución de tiempos de espera elevados](media/service-premium-metrics-app/premium-metrics-app-12.png)
 
@@ -192,11 +192,11 @@ Además, el **gráfico D** también se filtra para mostrar las consultas de larg
 
 Estos son los pasos que puede seguir para solucionar los problemas del escenario uno:
 
-1. **Ejecutar PerfAnalyzer para optimizar los informes y los conjuntos de datos**: el analizador de rendimiento de los informes mostrará el efecto de cada interacción en una página, incluido el tiempo que tarda cada objeto visual en actualizarse y dónde se invierte el tiempo.
+1. **Ejecutar PerfAnalyzer para optimizar los informes y los conjuntos de datos** : el analizador de rendimiento de los informes mostrará el efecto de cada interacción en una página, incluido el tiempo que tarda cada objeto visual en actualizarse y dónde se invierte el tiempo.
 
-2. **Escalar verticalmente la capacidad**: el escalado vertical de la capacidad a la siguiente SKU hará que esté disponible dos veces la cantidad de CPU, con lo que se alivia la presión sobre la CPU que puede provocar que las consultas tarden más en ejecutarse.
+2. **Escalar verticalmente la capacidad** : el escalado vertical de la capacidad a la siguiente SKU hará que esté disponible dos veces la cantidad de CPU, con lo que se alivia la presión sobre la CPU que puede provocar que las consultas tarden más en ejecutarse.
 
-3. **Mover los conjuntos de datos a otra capacidad**: si tiene otra capacidad con más CPU disponible, puede trasladar a esta las áreas de trabajo que incluyan los conjuntos de datos que contengan las consultas que están a la espera.
+3. **Mover los conjuntos de datos a otra capacidad** : si tiene otra capacidad con más CPU disponible, puede trasladar a esta las áreas de trabajo que incluyan los conjuntos de datos que contengan las consultas que están a la espera.
 
 ### <a name="scenario-two---too-many-queries"></a>Escenario dos: demasiadas consultas
 
@@ -209,7 +209,7 @@ Cuando el número de consultas que se van a ejecutar supera los límites de la c
 
 #### <a name="diagnosing-scenario-two"></a>Diagnóstico del escenario dos
 
-En la **tabla A**, seleccione un conjunto de datos que tenga un porcentaje elevado de tiempo de espera.
+En la **tabla A** , seleccione un conjunto de datos que tenga un porcentaje elevado de tiempo de espera.
 
 ![tabla de tiempos de espera elevados](media/service-premium-metrics-app/premium-metrics-app-16.png)
 
@@ -229,9 +229,9 @@ Si la longitud de la cola ha superado el umbral de 20, es probable que se retras
 
 Puede realizar los pasos siguientes para solucionar los problemas asociados con el escenario dos:
 
-1. **Escalar verticalmente la capacidad**: el escalado vertical de la capacidad a la siguiente SKU hará que esté disponible el doble de memoria que en la SKU actual, con lo que se evita cualquier presión de memoria que experimente actualmente la capacidad.
+1. **Escalar verticalmente la capacidad** : el escalado vertical de la capacidad a la siguiente SKU hará que esté disponible el doble de memoria que en la SKU actual, con lo que se evita cualquier presión de memoria que experimente actualmente la capacidad.
 
-2. **Mover los conjuntos de datos a otra capacidad**: si tiene otra capacidad con más memoria disponible, puede trasladar a esta las áreas de trabajo que contengan los conjuntos de datos más grandes.
+2. **Mover los conjuntos de datos a otra capacidad** : si tiene otra capacidad con más memoria disponible, puede trasladar a esta las áreas de trabajo que contengan los conjuntos de datos más grandes.
 
 
 ## <a name="the-refresh-waits-metric"></a>Métrica de tiempos de espera de actualización
@@ -242,7 +242,7 @@ La métrica de **tiempos de espera de actualización** proporciona información 
 
 Este medidor muestra que en los últimos siete días desde la última actualización del informe de actualización, el 3,18 % de las actualizaciones han esperado más de 10 minutos. 
 
-Para conocer los detalles del KPI de **tiempos de espera de actualización**, haga clic en el botón **Explore** (Explorar), que presenta una página con métricas y una guía de solución de problemas en la columna derecha de la página del informe. La guía proporciona explicaciones detalladas sobre las métricas de la página y le ayuda a comprender el estado de la capacidad y lo que puede hacer para mitigar cualquier problema.
+Para conocer los detalles del KPI de **tiempos de espera de actualización** , haga clic en el botón **Explore** (Explorar), que presenta una página con métricas y una guía de solución de problemas en la columna derecha de la página del informe. La guía proporciona explicaciones detalladas sobre las métricas de la página y le ayuda a comprender el estado de la capacidad y lo que puede hacer para mitigar cualquier problema.
 
 ![Exploración de las métricas de tiempos de espera de actualización](media/service-premium-metrics-app/premium-metrics-app-21.png)
 
@@ -271,7 +271,7 @@ Para diagnosticar el escenario uno, determine primero si la limitación se debe 
 
     ![Tabla A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
-    a. Cuando se selecciona un conjunto de datos de la **tabla A**, el **gráfico B** se filtra para mostrar cuándo se produjo la espera.
+    a. Cuando se selecciona un conjunto de datos de la **tabla A** , el **gráfico B** se filtra para mostrar cuándo se produjo la espera.
 
     ![Gráfico B](media/service-premium-metrics-app/premium-metrics-app-23.png)
 
@@ -281,7 +281,7 @@ Para diagnosticar el escenario uno, determine primero si la limitación se debe 
 
     ![Gráfico C](media/service-premium-metrics-app/premium-metrics-app-24.png)
 
-3. Por último, compruebe el **gráfico D**, que muestra los tipos de actualizaciones que se han producido, programadas frente a petición. Cualquier actualización a petición que se produzca al mismo tiempo podría ser la causa de la limitación.
+3. Por último, compruebe el **gráfico D** , que muestra los tipos de actualizaciones que se han producido, programadas frente a petición. Cualquier actualización a petición que se produzca al mismo tiempo podría ser la causa de la limitación.
 
     ![Gráfico D](media/service-premium-metrics-app/premium-metrics-app-25.png)
 
@@ -290,11 +290,11 @@ Para diagnosticar el escenario uno, determine primero si la limitación se debe 
 
 Puede realizar los pasos siguientes para solucionar los problemas asociados con el escenario uno:
 
-1. **Escalar verticalmente la capacidad**: el escalado vertical de la capacidad a la siguiente SKU hará que esté disponible el doble de la cantidad de memoria que tiene la SKU actual, con lo que se alivia la presión sobre la CPU y memoria que experimente actualmente la capacidad.
+1. **Escalar verticalmente la capacidad** : el escalado vertical de la capacidad a la siguiente SKU hará que esté disponible el doble de la cantidad de memoria que tiene la SKU actual, con lo que se alivia la presión sobre la CPU y memoria que experimente actualmente la capacidad.
 
-2. **Mover los conjuntos de datos a otra capacidad**: si los tiempos de espera se deben a la presión sobre la memoria y tiene otra capacidad con más memoria disponible, puede trasladar a esta las áreas de trabajo que contengan los conjuntos de datos que están esperando.
+2. **Mover los conjuntos de datos a otra capacidad** : si los tiempos de espera se deben a la presión sobre la memoria y tiene otra capacidad con más memoria disponible, puede trasladar a esta las áreas de trabajo que contengan los conjuntos de datos que están esperando.
 
-3. **Distribuir las actualizaciones programadas**: distribuir las actualizaciones le ayudará a evitar que demasiadas actualizaciones se intenten ejecutar a la vez.
+3. **Distribuir las actualizaciones programadas** : distribuir las actualizaciones le ayudará a evitar que demasiadas actualizaciones se intenten ejecutar a la vez.
 
 
 
@@ -302,7 +302,7 @@ Puede realizar los pasos siguientes para solucionar los problemas asociados con 
 
 En el escenario dos, no hay suficiente CPU disponible para llevar a cabo la actualización. 
 
-En el caso de las capacidades dedicadas, Power BI limita el número de actualizaciones que pueden producirse al mismo tiempo. Este número es igual al número de núcleos de back-end x 1,5. Por ejemplo, una capacidad dedicada P1, que tenga cuatro núcleos de back-end, puede ejecutar 6 actualizaciones a la vez. Una vez alcanzado el número máximo de actualizaciones simultáneas, otras actualizaciones esperarán hasta que finalice una actualización que se esté ejecutando.
+Para las capacidades, Power BI limita el número de actualizaciones que se pueden producir al mismo tiempo. Este número es igual al número de núcleos de back-end x 1,5. Por ejemplo, una capacidad P1, con 4 núcleos de back-end, puede ejecutar 6 actualizaciones a la vez. Una vez alcanzado el número máximo de actualizaciones simultáneas, otras actualizaciones esperarán hasta que finalice una actualización que se esté ejecutando.
 
 ![Escenario dos para la actualización](media/service-premium-metrics-app/premium-metrics-app-26.png)
 
@@ -314,7 +314,7 @@ Para diagnosticar el escenario dos, determine primero si la limitación se debe 
 
     ![Tabla A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
-    a. Cuando se selecciona un conjunto de datos de la **tabla A**, el **gráfico B** se filtra para mostrar cuándo se produjo la espera.
+    a. Cuando se selecciona un conjunto de datos de la **tabla A** , el **gráfico B** se filtra para mostrar cuándo se produjo la espera.
 
     ![Gráfico B](media/service-premium-metrics-app/premium-metrics-app-23.png)
 
@@ -324,18 +324,18 @@ Para diagnosticar el escenario dos, determine primero si la limitación se debe 
 
     ![Gráfico C](media/service-premium-metrics-app/premium-metrics-app-24.png)
 
-3. Por último, compruebe el **gráfico D**, que muestra los tipos de actualizaciones que se han producido, programadas frente a petición. Cualquier actualización a petición que se produzca al mismo tiempo podría ser la causa de la limitación.
+3. Por último, compruebe el **gráfico D** , que muestra los tipos de actualizaciones que se han producido, programadas frente a petición. Cualquier actualización a petición que se produzca al mismo tiempo podría ser la causa de la limitación.
 
     ![Gráfico D](media/service-premium-metrics-app/premium-metrics-app-25.png)
 
 
 #### <a name="remedies-for-scenario-two"></a>Soluciones para el escenario dos
 
-1. **Escalar verticalmente la capacidad**: el escalado vertical de la capacidad a la siguiente SKU hará que esté disponible el doble de memoria que tiene la SKU actual y dos veces el número de actualizaciones simultáneas que las de la SKU actual, con lo que se alivia la presión sobre la CPU y memoria que experimente actualmente la capacidad.
+1. **Escalar verticalmente la capacidad** : el escalado vertical de la capacidad a la siguiente SKU hará que esté disponible el doble de memoria que tiene la SKU actual y dos veces el número de actualizaciones simultáneas que las de la SKU actual, con lo que se alivia la presión sobre la CPU y memoria que experimente actualmente la capacidad.
 
-2. **Mover los conjuntos de datos a otra capacidad**: si los tiempos de espera se deben a que se está alcanzando la simultaneidad máxima y tiene otra capacidad con más simultaneidad disponible, puede trasladar a esta las áreas de trabajo que contengan los conjuntos de datos que están esperando.
+2. **Mover los conjuntos de datos a otra capacidad** : si los tiempos de espera se deben a que se está alcanzando la simultaneidad máxima y tiene otra capacidad con más simultaneidad disponible, puede trasladar a esta las áreas de trabajo que contengan los conjuntos de datos que están esperando.
 
-3. **Distribuir las actualizaciones programadas**: distribuir las actualizaciones le ayudará a evitar que demasiadas actualizaciones se intenten ejecutar a la vez.
+3. **Distribuir las actualizaciones programadas** : distribuir las actualizaciones le ayudará a evitar que demasiadas actualizaciones se intenten ejecutar a la vez.
 
 
 

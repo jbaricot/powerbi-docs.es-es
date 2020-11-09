@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9f25c9ffc294a1733a3dba5818dc00bd23124837
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: ad4715bbecc94934d0f2ac53551b27d82cb4282c
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878826"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916967"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Tutorial: Compilación de un modelo de Machine Learning en Power BI
 
@@ -44,9 +44,9 @@ Puede descargar el conjunto de datos del sitio web de UC Irvine. Para los fines 
 
 ### <a name="create-the-entities"></a>Creación de las entidades
 
-Para crear las entidades en su flujo de datos, inicie sesión en el servicio Power BI y vaya a un área de trabajo de su capacidad dedicada que tenga habilitada la inteligencia artificial.
+Para crear las entidades en el flujo de datos, inicie sesión en el servicio Power BI y vaya a un área de trabajo de la capacidad que tenga habilitada la IA.
 
-Si aún no tiene un área de trabajo, puede crear una; para ello, vaya a **Áreas de trabajo** en el menú de navegación del servicio Power BI y seleccione **Create workspace** (Crear área de trabajo) en la parte inferior del panel que aparece. Se abre un panel a la derecha para especificar los datos del área de trabajo. Escriba un nombre de área de trabajo y seleccione **Avanzado**. Confirme que el área de trabajo usa capacidad dedicada mediante el botón de radio, y que está asignada a una instancia de capacidad dedicada que tiene activada la versión preliminar de IA. Luego seleccione **Guardar**.
+Si aún no tiene un área de trabajo, puede crear una; para ello, vaya a **Áreas de trabajo** en el menú de navegación del servicio Power BI y seleccione **Create workspace** (Crear área de trabajo) en la parte inferior del panel que aparece. Se abre un panel a la derecha para especificar los datos del área de trabajo. Escriba un nombre de área de trabajo y seleccione **Avanzado**. Confirme que el área de trabajo usa Capacidad dedicada mediante el botón de radio y que está asignada a una instancia de la capacidad con la versión preliminar de la IA activada. Luego seleccione **Guardar**.
 
 ![Creación de un área de trabajo](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
 
@@ -139,13 +139,13 @@ El informe también incluye una página de detalles de aprendizaje que describe 
 
 ## <a name="apply-the-model-to-a-dataflow-entity"></a>Aplicación del modelo a una entidad de flujo de datos
 
-Seleccione el botón **Aplicar modelo** en la parte superior del informe para invocar este modelo. En el cuadro de diálogo **Aplicar**, puede especificar la entidad de destino que tiene los datos de origen a los que se debe aplicar el modelo.
+Seleccione el botón **Aplicar modelo** en la parte superior del informe para invocar este modelo. En el cuadro de diálogo **Aplicar** , puede especificar la entidad de destino que tiene los datos de origen a los que se debe aplicar el modelo.
 
 ![Aplicar el modelo](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-19.png)
 
 Cuando se le solicite, debe seleccionar **Actualizar** para actualizar el flujo de datos a fin de obtener una vista previa de los resultados del modelo.
 
-Al aplicar el modelo, se crearán dos entidades con el sufijo **<enriched <nombre_del_modelo>** y **enriched <nombre_del_modelo> explanations**. En nuestro caso, al aplicar el modelo a la entidad **Online Visitors** se creará **Online Visitorss enriched Purchase Intent Prediction**, que incluye la salida pronosticada del modelo, y **Online Visitors enriched Purchase Intent Prediction explanations**, que contiene factores principales específicos del registro para la predicción. 
+Al aplicar el modelo, se crearán dos entidades con el sufijo **<enriched <nombre_del_modelo>** y **enriched <nombre_del_modelo> explanations**. En nuestro caso, al aplicar el modelo a la entidad **Online Visitors** se creará **Online Visitorss enriched Purchase Intent Prediction** , que incluye la salida pronosticada del modelo, y **Online Visitors enriched Purchase Intent Prediction explanations** , que contiene factores principales específicos del registro para la predicción. 
 
 Al aplicar un modelo Predicción binaria, se agregan cuatro columnas con el resultado del pronóstico, la puntuación de probabilidad, los factores principales específicos del registro para la predicción y el índice de explicaciones, cada uno con el nombre de columna especificado como prefijo.  
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/04/2020
+ms.date: 10/29/2020
 ms.author: maggies
-ms.openlocfilehash: cedabd613e177aa9a3645e80db38b74d799b8799
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 52d38fd0705a6f9335f0ddd965acb0d9f56d38ee
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861208"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045083"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI en Power BI Report Server
 Los informes de Power BI pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services. Algunos orígenes de datos están disponibles en Power BI Desktop optimizados para Power BI Report Server, pero no se admiten cuando se publican en Power BI Report Server.
@@ -189,6 +189,8 @@ Power BI Report Server no admite la autenticación basada en OAuth para la actua
 | Zendesk (Beta) |No |No |No |No |
 
 ** No se admite el uso de la autenticación LDAP con Teradata (habilitada en Power BI Desktop mediante el comando "setx PBI_EnableTeradataLdap true"del símbolo del sistema) para la actualización del modelo.
+
+Power BI Report Server tiene una limitación al usar datos web: solo se pueden actualizar los archivos de datos de la Web. Los datos basados en Página o Por ejemplo no se actualizan. Esta limitación se debe a que las expresiones de M creadas con Web.BrowserContents y Web.Page no se pueden actualizar. Power BI Report Server solo puede actualizar orígenes de datos Web.Contents.
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>Lista de métodos de autenticación admitidos para DirectQuery
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: b2638c3fdb483f45b6f4b3f9363f42ee36e57f0b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: ed8f44e7dd1a7e713a9b2bd75dc33f259cb52f2a
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747767"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916346"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Administración de varios inquilinos con análisis integrado de Power BI
 
@@ -21,8 +21,8 @@ Al diseñar una aplicación SaaS de varios inquilinos, debe elegir cuidadosament
 
 Con Power BI Embedded, hay fundamentalmente dos enfoques principales para mantener la separación entre los inquilinos.
 
-   1. **Aislamiento basado en el área de trabajo**: creación de un área de trabajo de Power BI independiente por inquilino.
-   2. **Aislamiento basado en la seguridad a nivel de fila**: donde los datos subyacentes se utilizan para controlar y administrar el acceso a los datos por usuario o grupo.
+   1. **Aislamiento basado en el área de trabajo** : creación de un área de trabajo de Power BI independiente por inquilino.
+   2. **Aislamiento basado en la seguridad a nivel de fila** : donde los datos subyacentes se utilizan para controlar y administrar el acceso a los datos por usuario o grupo.
 
 En este artículo se describen los diferentes enfoques y se analizan en función de varios criterios de evaluación.
 
@@ -30,29 +30,29 @@ En este artículo se describen los diferentes enfoques y se analizan en función
 
 **[AAD](/azure/active-directory/fundamentals/active-directory-whatis)** : Azure Active Directory.
 
-**Aplicación de AAD**: una identidad de aplicación en AAD. Se necesita una aplicación de AAD para la autenticación.
+**Aplicación de AAD** : una identidad de aplicación en AAD. Se necesita una aplicación de AAD para la autenticación.
 
 **Aplicación SaaS (software como servicio)** : sistema implementado por una empresa o fabricante de software independiente que normalmente es un servicio en línea. También tiene sistemas de software relacionados para servir a múltiples inquilinos clientes (organizaciones). En este artículo, **la aplicación SaaS usa Power BI Embedded para ofrecer análisis a sus diferentes inquilinos**. Power BI Embedded puede también funcionar para todos los tipos de aplicaciones cuando tienen una conexión en línea.
 
-**Inquilino**: un solo cliente (organización) que usa la aplicación SaaS y los recursos o datos que el cliente lleva a la aplicación SaaS.
+**Inquilino** : un solo cliente (organización) que usa la aplicación SaaS y los recursos o datos que el cliente lleva a la aplicación SaaS.
 
 **[Power BI](../../fundamentals/power-bi-overview.md)** : servicio Power BI en la nube que sirve como plataforma para Power BI Embedded.
 
-**Inquilino de Power BI**: conjunto de recursos de Power BI asociado a un único inquilino de AAD.
+**Inquilino de Power BI** : conjunto de recursos de Power BI asociado a un único inquilino de AAD.
 
 **[Área de trabajo de Power BI](../../collaborate-share/service-create-workspaces.md)** : contenedor para el contenido de Power BI.
 
-**Artefactos de Power BI**: hay varios artefactos de Power BI en áreas de trabajo de Power BI, como paneles, informes, conjuntos de datos y flujos de datos.
+**Artefactos de Power BI** : hay varios artefactos de Power BI en áreas de trabajo de Power BI, como paneles, informes, conjuntos de datos y flujos de datos.
 
 **[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)** : conjunto de API públicas que permiten a los desarrolladores compilar aplicaciones que administran contenido de Power BI e insertan elementos de Power BI.
 
 **[Seguridad de nivel de fila](embedded-row-level-security.md)** : ofrece la capacidad de controlar el acceso de los usuarios a los datos para las filas individuales de una tabla. Puede implementar la seguridad de nivel de fila en el nivel de origen de datos o en el modelo semántico de Power BI.
 
-**Usuario maestro**: identidad que representa la aplicación SaaS en Power BI y que la aplicación SaaS usa al llamar a las API de Power BI. Debe ser un usuario de AAD con una licencia de Power BI Pro.
+**Usuario maestro** : identidad que representa la aplicación SaaS en Power BI y que la aplicación SaaS usa al llamar a las API de Power BI. Debe ser un usuario de AAD con una licencia de Power BI Pro.
 
 **Usuario de aplicación de AAD (entidad de servicio)** : identidad que representa la aplicación SaaS en Power BI y que la aplicación SaaS usa al llamar a las API de Power BI. Debe ser una aplicación web de AAD. Puede reemplazar el uso de un usuario *maestro* para autenticarse en Power BI.
 
-**Capacidad**: conjunto de recursos dedicados a ejecutar el servicio Power BI. [Capacidades de Power BI Premium](../../admin/service-premium-what-is.md): opción destinada a empresas que usan Power BI internamente, mientras que las [capacidades de Power BI Embedded](azure-pbie-create-capacity.md) están previstas para que los desarrolladores de aplicaciones desarrollen aplicaciones SaaS para terceros.
+**Capacidad** : conjunto de recursos dedicados a ejecutar el servicio Power BI. [Capacidades de Power BI Premium](../../admin/service-premium-what-is.md): opción destinada a empresas que usan Power BI internamente, mientras que las [capacidades de Power BI Embedded](azure-pbie-create-capacity.md) están previstas para que los desarrolladores de aplicaciones desarrollen aplicaciones SaaS para terceros.
 
 **[Licencia de Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md)** : licencia basada en usuarios, que concede derechos para publicar contenido en áreas de trabajo, consumir aplicaciones sin la capacidad Premium, compartir paneles y suscribirse a paneles e informes.
 
@@ -104,7 +104,7 @@ Power BI Embedded admite la implementación de varios puntos geográficos (carac
 
 ### <a name="cost"></a>Costo
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) tiene un modelo de compra basado en recursos, como **Power BI Premium**. Puede comprar una o más capacidades con capacidad de proceso y memoria fijas. Esta capacidad es el elemento de mayor costo cuando se trabaja con **Power BI Embedded**. No hay ningún límite en el número de usuarios con la capacidad. El único límite es el rendimiento de la capacidad. Se requiere una [licencia de Power BI Pro](../../admin/service-admin-licensing-organization.md) para cada usuario *maestro*, o usuarios específicos que necesitan acceder al portal de Power BI.
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) tiene un modelo de compra basado en recursos, como **Power BI Premium**. Puede comprar una o más capacidades con capacidad de proceso y memoria fijas. Esta capacidad es el elemento de mayor costo cuando se trabaja con **Power BI Embedded**. No hay ningún límite en el número de usuarios con la capacidad. El único límite es el rendimiento de la capacidad. Se requiere una [licencia de Power BI Pro](../../admin/service-admin-licensing-organization.md) para cada usuario *maestro* , o usuarios específicos que necesitan acceder al portal de Power BI.
 
 Se recomienda la prueba y la medición de la carga esperada de su capacidad mediante la simulación del uso y el entorno de producción y la ejecución de pruebas de carga sobre la capacidad. Puede medir la carga y el rendimiento con las diversas métricas disponibles en la capacidad de Azure o la [aplicación de las métricas de capacidad Premium](../../admin/service-admin-premium-monitor-capacity.md).
 
@@ -246,7 +246,7 @@ A medida que los usuarios finales editan o crean informes, pueden usar el conjun
 
 * Cada capacidad solo puede usar su memoria y núcleos virtuales asignados, según la [SKU adquirida](../../admin/service-premium-what-is.md).
 * Para obtener más detalles sobre el tamaño del conjunto de datos recomendado para cada SKU, consulte [Compatibilidad de Power BI Premium para grandes conjuntos de datos](../../admin/service-premium-what-is.md#large-datasets).
-* El tamaño máximo del conjunto de datos en una capacidad dedicada es de 10 GB.
+* El tamaño máximo del conjunto de datos en una capacidad es de 10 GB.
 * El número de actualizaciones programadas para un conjunto de datos del *modo de importación* en un día es de 48.
 * El tiempo entre actualizaciones programadas para un conjunto de datos del *modo de importación* es de 30 minutos.
 * Para el número de actualizaciones que pueden ejecutarse simultáneamente en una capacidad, consulte [Optimización y administración de recursos](../../admin/service-premium-what-is.md#capacity-nodes).

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/24/2020
 ms.author: maggies
-ms.openlocfilehash: 73772b96929ffd91dc5a38634ab9a1a2e57286b1
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: b41ca7c8a85a544afea84e7f19a06f91dc85f376
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251353"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045019"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Creación de un informe de Power BI para Power BI Report Server
 Puede almacenar y administrar informes de Power BI en el portal web de Power BI Report Server, así como también puede almacenarlos en la nube del servicio Power BI (https://powerbi.com) ). Cree y edite informes en Power BI Desktop y publíquelos en el portal web. Luego, los lectores de informes de su organización pueden verlos en un explorador o en una aplicación móvil de Power BI de un dispositivo móvil.
@@ -44,9 +44,9 @@ Si ya ha creado informes de Power BI en Power BI Desktop, estará casi listo par
 
 2. Al final del proceso de instalación, seleccione **Iniciar Power BI Desktop ahora**.
    
-    Se inicia automáticamente y está listo para funcionar. Sabrá que tiene la versión correcta porque en la barra de título aparece **Power BI Desktop (mayo de 2020)** .
+    Se inicia automáticamente y está listo para funcionar. Sabrá que tiene la versión correcta porque aparecerá **Power BI Desktop (octubre 2020)** en la barra de título.
 
-    ![Power BI Desktop, mayo de 2020](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
+    ![Power BI Desktop (octubre 2020)](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
 
 3. Si no conoce Power BI Desktop, considere la posibilidad de ver los vídeos de la pantalla de inicio de sesión.
    
@@ -57,7 +57,7 @@ Puede conectarse a una gran variedad de orígenes de datos. Más información ac
 
 1. En la pantalla de inicio de sesión, seleccione **Obtener datos**.
    
-    En la pestaña **Inicio**, seleccione **Obtener datos**.
+    En la pestaña **Inicio** , seleccione **Obtener datos**.
 2. Seleccione el origen de datos: en este ejemplo, **Analysis Services**.
    
     ![Seleccionar origen de datos](media/quickstart-create-powerbi-report/power-bi-report-server-get-data-ssas.png)
@@ -75,7 +75,7 @@ Por ejemplo, puede crear un gráfico de embudo de clientes y los valores de grup
 
 ![Diseñar un informe](media/quickstart-create-powerbi-report/report-server-create-funnel.png)
 
-1. En **Visualizaciones**, seleccione **Gráfico de embudo**.
+1. En **Visualizaciones** , seleccione **Gráfico de embudo**.
 2. Arrastre el campo de recuento a **Valores**. Si no es un campo numérico, Power BI Desktop lo convierte automáticamente en un *recuento* del valor.
 3. Arrastre el campo al grupo de **Grupo**.
 
@@ -84,7 +84,7 @@ Más información acerca del [diseño de un informe de Power BI](../create-repor
 ## <a name="step-4-save-your-report-to-the-report-server"></a>Paso 4: Guardado del informe en el servidor de informes
 Cuando el informe esté listo, guárdelo en la instancia de Power BI Report Server que eligió en el paso 2.
 
-1. En el menú **Archivo**, seleccione **Guardar como** > **servidor de informes de Power BI**.
+1. En el menú **Archivo** , seleccione **Guardar como** > **servidor de informes de Power BI**.
    
     ![Guardar en el servidor de informes](media/quickstart-create-powerbi-report/report-server-save-as-powerbi-report-server.png)
 2. Ahora puede verlo en el portal web.

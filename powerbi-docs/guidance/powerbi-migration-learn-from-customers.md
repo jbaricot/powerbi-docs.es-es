@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a725d2763d7d044220785c2f9727ee30f14bfd5d
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: d436f01e074c27dc8a0d37f9e62d0ac422c4ab81
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803490"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916691"
 ---
 # <a name="learn-from-customer-power-bi-migrations"></a>Más información sobre las migraciones de los clientes a Power BI
 
@@ -145,9 +145,9 @@ En un primer momento, la empresa tenía muchas puertas de enlace personales. El 
 
 Dado que la adopción de Power BI aumentó en la organización, la empresa descubrió que un enfoque de compatibilidad con varios niveles funcionaba bien:
 
-- **Nivel 1; entre el equipo**: los usuarios aprenden los unos de los otros a diario.
-- **Nivel 2; comunidad de Power BI**: las personas formulan preguntas de la comunidad de equipos internos para que aprendan unos de otros y comuniquen información importante.
-- **Nivel 3; equipo central de BI y COE**: las personas envían solicitudes de correo electrónico para obtener ayuda. Las sesiones en _horario de oficina_ se llevan a cabo dos veces al día para debatir problemas de forma colectiva y compartir ideas.
+- **Nivel 1; entre el equipo** : los usuarios aprenden los unos de los otros a diario.
+- **Nivel 2; comunidad de Power BI** : las personas formulan preguntas de la comunidad de equipos internos para que aprendan unos de otros y comuniquen información importante.
+- **Nivel 3; equipo central de BI y COE** : las personas envían solicitudes de correo electrónico para obtener ayuda. Las sesiones en _horario de oficina_ se llevan a cabo dos veces al día para debatir problemas de forma colectiva y compartir ideas.
 
 > [!IMPORTANT]
 > Aunque los dos primeros niveles son menos formales, son tan importantes como el tercer nivel de soporte técnico. Los usuarios experimentados suelen confiar principalmente en las personas que conocen, mientras que los usuarios más recientes (o los que son el único analista de datos para una unidad de negocio o un servicio compartido) suelen confiar más en el soporte técnico formal.
@@ -158,7 +158,7 @@ En el último año, la empresa mejoró sus ofertas de entrenamiento internas y h
 
 Ahora hay seis cursos de Power BI internos en su catálogo. El curso [Dashboard in a Day](https://powerbi.microsoft.com/diad/) (Panel en un día) sigue siendo un curso popular para principiantes. Para ayudar a los usuarios a profundizar en sus conocimientos, ofrecen una serie de tres cursos de Power BI y dos cursos de DAX.
 
-Una de sus decisiones de gobernanza de datos más importante se relaciona con la administración de las capacidades Premium. La empresa decidió orientar su capacidad dedicada con áreas de análisis clave en unidades de negocio y servicios compartidos. Por lo tanto, si existen ineficiencias, el impacto solo se percibe dentro de esa área y los administradores de capacidad descentralizada cuentan con los conocimientos para administrarla tal como consideren oportuno.
+Una de sus decisiones de gobernanza de datos más importante se relaciona con la administración de las capacidades Premium. La empresa ha decidido alinear su capacidad con áreas de análisis clave en unidades de negocio y servicios compartidos. Por lo tanto, si existen ineficiencias, el impacto solo se percibe dentro de esa área y los administradores de capacidad descentralizada cuentan con los conocimientos para administrarla tal como consideren oportuno.
 
 > [!IMPORTANT]
 > Preste atención a cómo se usan las capacidades Premium y cómo se asignan las áreas de trabajo.

@@ -8,17 +8,26 @@ featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/19/2020
-ms.openlocfilehash: 16fcc18492b371accaaf3c447d7a88978051f8c3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/16/2020
+ms.openlocfilehash: 2c136f4d81a9cb1c1904c3a06b58271391c76c23
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859667"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297767"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>¿Qué son los informes paginados en Power BI Premium?
 
-Los *informes paginados* están diseñados para imprimirse o compartirse. Se denominan *paginados* porque presentan un formato apto para encajar en una página. Muestran todos los datos en una tabla, incluso si esta abarca varias páginas. A veces se denominan *perfectos hasta el último detalle*, porque se puede controlar exactamente el diseño de página del informe. Power BI Report Builder es la herramienta independiente para crear informes paginados. Los informes paginados se basan en la tecnología de informe RDL, el formato de informe largo estándar de SQL Server Reporting Services. 
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Los *informes paginados* están diseñados para imprimirse o compartirse. Se denominan *paginados* porque presentan un formato apto para encajar en una página. Muestran todos los datos en una tabla, incluso si esta abarca varias páginas. A veces se denominan *perfectos hasta el último detalle* , porque se puede controlar exactamente el diseño de página del informe. Power BI Report Builder es la herramienta independiente para crear informes paginados para el servicio Power BI. 
+
+Estos son algunos vínculos rápidos si está a punto para empezar:
+
+- [Instalación del Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://aka.ms/pbireportbuilder)
+- [Tutorial: Crear un informe paginado](paginated-reports-quickstart-aw.md)
+- [Informes paginados de Power BI de ejemplo](paginated-reports-samples.md)
+- ¿Busca información sobre Report Builder para Power BI Report Server o SQL Server Reporting Services? Vea [Instalación de Report Builder: Power BI Report Server](../report-server/install-report-builder.md) en su lugar.
 
 Los informes paginados suelen tener muchas páginas. Por ejemplo, este informe tiene 563 páginas. Cada una de ellas está diseñada con precisión, con una página por factura y encabezados y pies de página que se repiten.
 
@@ -98,5 +107,6 @@ Estas son algunas otras características que no son compatibles con la versión 
 - [Instalación del Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://aka.ms/pbireportbuilder)
 - [Tutorial: Crear un informe paginado](paginated-reports-quickstart-aw.md)
 - [Curso en línea: Informes paginados de Power BI en un día](../learning-catalog/paginated-reports-online-course.md)
+- [Informes paginados de Power BI de ejemplo](paginated-reports-samples.md)
 - [Escritura directa de datos en un informe paginado](paginated-reports-enter-data.md)
 - [Tutorial: Inserción de informes paginados de Power BI en una aplicación para los clientes](../developer/embedded/embed-paginated-reports-customers.md)

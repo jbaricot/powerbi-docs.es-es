@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 86ac6bebf6373f14ac343721a8594ee9f45b0e89
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 85622b457d1c2eda0af51e0c7190d2691c259a82
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746203"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916507"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Preguntas más frecuentes acerca de Power BI Embedded
 
@@ -117,7 +117,7 @@ Sí, hay cmdlets de Powershell y de las API REST de Azure Resource Manager que p
 * [API REST](/rest/api/power-bi-embedded/) 
 * [Cmdlets de PowerShell](/powershell/module/azurerm.powerbiembedded/)
 
-### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>¿Qué es el rol de capacidad dedicada de PBI Embedded en una solución de PBI Embedded?
+### <a name="what-is-the-pbi-embedded-capacity-role-in-a-pbi-embedded-solution"></a>¿Cuál es el rol de la capacidad de PBI Embedded en una solución de PBI Embedded?
 
 Para [promover la solución a producción](embed-sample-for-customers.md#move-to-production), es necesario asignar el contenido de Power BI (área de trabajo) que usa la aplicación a una capacidad de Power BI Embedded (SKU tipo A).
 
@@ -270,7 +270,7 @@ No hay ningún precio especial de Azure para entidades sin ánimo de lucro y cen
 
 ### <a name="what-is-power-bi-workspace-collection"></a>¿Qué es la colección de áreas de trabajo de Power BI?
 
-**Colección de áreas de trabajo de Power BI** (**Power BI Embedded**, versión 1) es una solución basada en el recurso de Azure **Colección de áreas de trabajo de Power BI**. Esta solución le permite crear aplicaciones de **Power BI Embedded** para sus clientes con contenido de Power BI en la solución **Colección de áreas de trabajo de Power BI**, API dedicadas y claves de colecciones de áreas de trabajo para autenticar la aplicación en Power BI.
+**Colección de áreas de trabajo de Power BI** ( **Power BI Embedded** , versión 1) es una solución basada en el recurso de Azure **Colección de áreas de trabajo de Power BI**. Esta solución le permite crear aplicaciones de **Power BI Embedded** para sus clientes con contenido de Power BI en la solución **Colección de áreas de trabajo de Power BI** , API dedicadas y claves de colecciones de áreas de trabajo para autenticar la aplicación en Power BI.
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>¿Puedo migrar de la colección de áreas de trabajo de Power BI a Power BI Embedded?
 
@@ -278,7 +278,7 @@ No hay ningún precio especial de Azure para entidades sin ánimo de lucro y cen
 
 2. Comience con la prueba de concepto de la aplicación de **Power BI Embedded** que usa el contenido de Power BI.
 
-3. Cuando esté listo para producción, adquiera una capacidad dedicada de **Power BI Embedded** y asigne el contenido de Power BI (área de trabajo) a dicha capacidad.
+3. Cuando esté a punto para la producción, compre una capacidad de **Power BI Embedded** y asigne el contenido de Power BI (el área de trabajo) a esa capacidad.
 
     > [!Note]
     > Puede seguir usando la **colección de áreas de trabajo de Power BI** al compilar en paralelo con una solución de **Power BI Embedded**. Cuando esté listo, puede mover el cliente a la nueva solución de **Power BI Embedded** y retirar la solución **Colección de áreas de trabajo de Power BI**.
@@ -321,9 +321,9 @@ La [herramienta de configuración de inserción](https://aka.ms/embedsetup) perm
 
 ### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>He descargado la aplicación de ejemplo, ¿qué solución debo elegir?
 
-Si está trabajando con la experiencia de **inserción para los clientes**, guarde el archivo *PowerBI-Developer-Samples.zip* y descomprímalo. Después, abra la carpeta *PowerBI-Developer-Samples-master\App Owns Data* y ejecute el archivo *PowerBIEmbedded_AppOwnsData.sln*.
+Si está trabajando con la experiencia de **inserción para los clientes** , guarde el archivo *PowerBI-Developer-Samples.zip* y descomprímalo. Después, abra la carpeta *PowerBI-Developer-Samples-master\App Owns Data* y ejecute el archivo *PowerBIEmbedded_AppOwnsData.sln*.
 
-Si está trabajando con la experiencia de **inserción para la organización**, guarde el archivo *PowerBI-Developer-Samples.zip* y descomprímalo. Después, abra la carpeta *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* y ejecute el archivo *pbi-saas-embed-report.sln*.
+Si está trabajando con la experiencia de **inserción para la organización** , guarde el archivo *PowerBI-Developer-Samples.zip* y descomprímalo. Después, abra la carpeta *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* y ejecute el archivo *pbi-saas-embed-report.sln*.
 
 ### <a name="how-can-i-edit-my-registered-application"></a>¿Cómo puedo editar mi aplicación registrada?
 

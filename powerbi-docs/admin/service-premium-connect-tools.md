@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 5e30a59e637b39099cdd0ad2eb99223cff20fbe6
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: f13c6990ae1cc0842cd490f88dfdb8fb382d7900
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116555"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916070"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Conectividad del conjunto de datos con el punto de conexión XMLA (versión preliminar)
 
@@ -37,7 +37,7 @@ De forma predeterminada, la conectividad *de solo lectura* que usa el punto de c
 
 Estas son algunas de las herramientas más comunes que se usan con Azure Analysis Services y SQL Server Analysis Services, y que ahora son compatibles con los conjuntos de datos de Power BI Premium:
 
-**Visual Studio con proyectos de Analysis Services** : también conocido como SQL Server Data Tools, o simplemente **SSDT**, es una herramienta de creación de modelos de nivel empresarial para los modelos tabulares de Analysis Services. Las extensiones de proyectos de Analysis Services se admiten en todas las ediciones de Visual Studio 2017 y posteriores, incluida la edición gratuita Community. La versión de la extensión 2.9.6 o superior es necesaria para implementar modelos tabulares en un área de trabajo Premium. Al implementar en un área de trabajo Premium, el modelo debe tener el nivel de compatibilidad de 1500 o superior. Se requiere lectura y escritura de XMLA en la carga de trabajo de los conjuntos de valores. Para obtener más información, consulte [Herramientas para Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current).
+**Visual Studio con proyectos de Analysis Services** : también conocido como SQL Server Data Tools, o simplemente **SSDT** , es una herramienta de creación de modelos de nivel empresarial para los modelos tabulares de Analysis Services. Las extensiones de proyectos de Analysis Services se admiten en todas las ediciones de Visual Studio 2017 y posteriores, incluida la edición gratuita Community. La versión de la extensión 2.9.6 o superior es necesaria para implementar modelos tabulares en un área de trabajo Premium. Al implementar en un área de trabajo Premium, el modelo debe tener el nivel de compatibilidad de 1500 o superior. Se requiere lectura y escritura de XMLA en la carga de trabajo de los conjuntos de valores. Para obtener más información, consulte [Herramientas para Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current).
 
 **SQL Server Management Studio (SSMS)**  : admite consultas DAX, MDX, y XMLA. Realice operaciones de actualización específicas y scripting de metadatos de conjuntos de datos mediante el [lenguaje de scripting de modelos tabulares (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference). Se requiere solo lectura para las operaciones de consulta. Se requiere lectura y escritura para los metadatos de scripting. Requiere SSMS versión 18.4 o posterior. Descárguelo  [aquí](/sql/ssms/download-sql-server-management-studio-ssms).
 
@@ -49,11 +49,11 @@ Estas son algunas de las herramientas más comunes que se usan con Azure Analysi
 
 **Power BI Report Builder** : una herramienta para crear informes paginados. Cree una definición de informe que especifica qué datos recuperar, de dónde obtenerlos y cómo mostrarlos. Puede obtener una vista previa del informe en Report Builder y luego publicarlo en el servicio Power BI. Se requiere solo lectura de XMLA. Para más información, vea  [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md).
 
-**Editor tabular**: herramienta de código abierto para crear, mantener y administrar modelos tabulares con un editor intuitivo y ligero. Una vista jerárquica muestra todos los objetos del modelo tabular. Los objetos se organizan por carpetas para mostrar con compatibilidad para la edición de propiedades de selección múltiple y el resaltado de sintaxis de DAX. Se requiere solo lectura de XMLA para las operaciones de consulta. Se requiere lectura y escritura para las operaciones de metadatos. Para obtener más información, vea [tabulareditor.github.io](https://tabulareditor.github.io/).
+**Editor tabular** : herramienta de código abierto para crear, mantener y administrar modelos tabulares con un editor intuitivo y ligero. Una vista jerárquica muestra todos los objetos del modelo tabular. Los objetos se organizan por carpetas para mostrar con compatibilidad para la edición de propiedades de selección múltiple y el resaltado de sintaxis de DAX. Se requiere solo lectura de XMLA para las operaciones de consulta. Se requiere lectura y escritura para las operaciones de metadatos. Para obtener más información, vea [tabulareditor.github.io](https://tabulareditor.github.io/).
 
 **DAX Studio** : una herramienta de código abierto para la creación, el diagnóstico, el ajuste del rendimiento y el análisis de DAX. Entre las características se incluyen la exploración de objetos, el seguimiento integrado, los desgloses de la ejecución de consultas con estadísticas detalladas y resaltado y aplicación de formato de sintaxis de DAX. Se requiere solo lectura de XMLA para las operaciones de consulta. Para más información, vea  [daxstudio.org](https://daxstudio.org/).
 
-**ALM Toolkit**: una herramienta de comparación de esquemas de código abierto para conjuntos de datos de Power BI, que se suele usar para escenarios de administración del ciclo de vida de las aplicaciones (ALM). Realice la implementación en todos los entornos y retenga los datos históricos de actualización incremental. Compare y combine archivos de metadatos, ramas y repositorios. Reutilice definiciones comunes entre conjuntos de datos. Se requiere solo lectura para las operaciones de consulta. Se requiere lectura y escritura para las operaciones de metadatos. Para obtener más información, vea  [alm-toolkit.com](http://alm-toolkit.com/).
+**ALM Toolkit** : una herramienta de comparación de esquemas de código abierto para conjuntos de datos de Power BI, que se suele usar para escenarios de administración del ciclo de vida de las aplicaciones (ALM). Realice la implementación en todos los entornos y retenga los datos históricos de actualización incremental. Compare y combine archivos de metadatos, ramas y repositorios. Reutilice definiciones comunes entre conjuntos de datos. Se requiere solo lectura para las operaciones de consulta. Se requiere lectura y escritura para las operaciones de metadatos. Para obtener más información, vea  [alm-toolkit.com](http://alm-toolkit.com/).
 
 **Microsoft Excel** : las tablas dinámicas de Excel son una de las herramientas más comunes que se usan para resumir, analizar, explorar y presentar datos de resumen de conjuntos de datos de Power BI. Se requiere solo lectura para las operaciones de consulta. Se requiere la versión Hacer clic y ejecutar de Office 16.0.11326.10000 o una versión posterior.
 
@@ -86,13 +86,13 @@ De forma predeterminada, una funcionalidad Premium tiene el parámetro de la pro
 ### <a name="to-enable-read-write-for-a-capacity"></a>Para habilitar la lectura y escritura de una capacidad
 
 1. En el portal de administración, haga clic en **Configuración de la capacidad** > **Power BI Premium** > nombre de la capacidad.
-2. Expanda **Cargas de trabajo**. En el parámetro **Punto de conexión de XMLA**, seleccione **Lectura y escritura**.
+2. Expanda **Cargas de trabajo**. En el parámetro **Punto de conexión de XMLA** , seleccione **Lectura y escritura**.
 
     ![Habilitación del punto de conexión de XMLA](media/service-premium-connect-tools/xmla-endpoint-enable.png)
 
 ## <a name="connecting-to-a-premium-workspace"></a>Conexión a un área de trabajo Premium
 
-Las áreas de trabajo asignadas a una capacidad dedicada tienen una cadena de conexión con formato de dirección URL como esta, `powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`.
+Las áreas de trabajo asignadas a una capacidad tienen una cadena de conexión con un formato de dirección URL similar a `powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`.
 
 Las aplicaciones que se conectan al área de trabajo usan la dirección URL, ya que se trata de un nombre de servidor de Analysis Services. Por ejemplo, `powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`.
 
@@ -102,7 +102,7 @@ Los usuarios de B2B deben especificar el UPN de la organización en el nombre de
 
 ### <a name="to-get-the-workspace-connection-url"></a>Para obtener la dirección URL de la conexión del área de trabajo
 
-En el área de trabajo **Configuración** > **Premium** > **Conexión del área de trabajo**, haga clic en **Copiar**.
+En el área de trabajo **Configuración** > **Premium** > **Conexión del área de trabajo** , haga clic en **Copiar**.
 
 ![Cadena de conexión del área de trabajo](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
 
@@ -111,7 +111,7 @@ En el área de trabajo **Configuración** > **Premium** > **Conexión del área 
 
 ### <a name="initial-catalog"></a>Catálogo inicial
 
-Con algunas herramientas, como SQL Server Profiler, es posible que tenga que especificar un *Catálogo inicial*. Especifique un conjunto de datos (base de datos) en el área de trabajo. En el cuadro de diálogo **Conectarse al servidor**, haga clic en **Opciones** > **Propiedades de conexión** > **Conectar a base de datos** y escriba el nombre del conjunto de datos.
+Con algunas herramientas, como SQL Server Profiler, es posible que tenga que especificar un *Catálogo inicial*. Especifique un conjunto de datos (base de datos) en el área de trabajo. En el cuadro de diálogo **Conectarse al servidor** , haga clic en **Opciones** > **Propiedades de conexión** > **Conectar a base de datos** y escriba el nombre del conjunto de datos.
 
 ### <a name="duplicate-workspace-names"></a>Nombres del área de trabajo duplicada
 
@@ -178,13 +178,13 @@ La implementación de un proyecto de modelo tabular en Visual Studio en un áre
 > [!IMPORTANT]
 > Durante la versión preliminar pública, las pertenencias a roles no se pueden especificar con herramientas mediante el punto de conexión de XMLA. Si no se puede implementar el proyecto de modelos, asegúrese de que no haya usuarios especificados en ningún rol. Una vez implementado correctamente el modelo, especifique los usuarios de los roles del conjunto de datos en el servicio Power BI. Para obtener más información, vea [Roles de modelo](#model-roles) anteriormente en este artículo.
 
-Para implementar un proyecto de modelo tabular creado en Visual Studio, primero debe establecer la dirección URL de la conexión del área de trabajo en la propiedad del **servidor de implementación** del proyecto. En Visual Studio, en **Explorador de soluciones**, haga clic con el botón derecho en el proyecto > **Propiedades**. En la propiedad **Servidor**, pegue la dirección URL de la conexión del área de trabajo.
+Para implementar un proyecto de modelo tabular creado en Visual Studio, primero debe establecer la dirección URL de la conexión del área de trabajo en la propiedad del **servidor de implementación** del proyecto. En Visual Studio, en **Explorador de soluciones** , haga clic con el botón derecho en el proyecto > **Propiedades**. En la propiedad **Servidor** , pegue la dirección URL de la conexión del área de trabajo.
 
 ![Propiedad de la implementación](media/service-premium-connect-tools/xmla-endpoint-ssdt-deploy-property.png)
 
 Cuando se ha especificado la propiedad del servidor de implementación, se puede implementar el proyecto.
 
-**Cuando se implementa la primera vez**, se crea un conjunto de datos en el área de trabajo utilizando los metadatos de model.bim. Como parte de la operación de implementación, una vez creado el conjunto de datos en el área de trabajo desde los metadatos del modelo, el procesamiento para cargar datos en el conjunto de datos a partir de orígenes de datos producirá un error.
+**Cuando se implementa la primera vez** , se crea un conjunto de datos en el área de trabajo utilizando los metadatos de model.bim. Como parte de la operación de implementación, una vez creado el conjunto de datos en el área de trabajo desde los metadatos del modelo, el procesamiento para cargar datos en el conjunto de datos a partir de orígenes de datos producirá un error.
 
 Se produce un error de procesamiento porque a diferencia de la implementación en una instancia de Azure o SQL Server Analysis Server, donde se solicitan las credenciales del origen de datos como parte de la operación de implementación, al implementar en un área de trabajo Premium las credenciales del origen de datos no se pueden especificar como parte de la operación de implementación. En su lugar, una vez que la implementación de metadatos se ha realizado correctamente y se ha creado el conjunto de datos, las credenciales del origen de datos se especifican en el servicio Power BI en la configuración del conjunto de datos. En el área de trabajo, haga clic en **Conjuntos de datos** > **Configuración** > **Credenciales del origen de datos** > **Editar credenciales**.
 
@@ -192,7 +192,7 @@ Se produce un error de procesamiento porque a diferencia de la implementación e
 
 Cuando se especifican las credenciales del origen de datos, puede actualizar el conjunto de datos en el servicio Power BI, configurar la actualización de la programación o procesar (actualizar) desde SQL Server Management Studio para cargar datos en el conjunto de datos.
 
-Se observa la propiedad **Opción de procesamiento** especificada en el proyecto de Visual Studio. Sin embargo, si un origen de datos aún no tiene credenciales especificadas en el servicio Power BI, aunque la implementación de los metadatos se realice correctamente, se producirá un error de procesamiento. Puede establecer la propiedad en **No procesar**, lo que impide que se intente procesar como parte de la implementación, pero es posible que desee volver a establecer la propiedad al valor **predeterminado** porque una vez especificadas las credenciales del origen de datos en la configuración del origen de datos para el nuevo conjunto de datos, el procesamiento como parte de las operaciones de implementación posteriores se realizará correctamente.
+Se observa la propiedad **Opción de procesamiento** especificada en el proyecto de Visual Studio. Sin embargo, si un origen de datos aún no tiene credenciales especificadas en el servicio Power BI, aunque la implementación de los metadatos se realice correctamente, se producirá un error de procesamiento. Puede establecer la propiedad en **No procesar** , lo que impide que se intente procesar como parte de la implementación, pero es posible que desee volver a establecer la propiedad al valor **predeterminado** porque una vez especificadas las credenciales del origen de datos en la configuración del origen de datos para el nuevo conjunto de datos, el procesamiento como parte de las operaciones de implementación posteriores se realizará correctamente.
 
 ## <a name="connect-with-ssms"></a>Conectarse con SSMS
 
@@ -202,7 +202,7 @@ El uso de SSMS para conectarse a un área de trabajo es igual que conectarse a u
 
 1. En SQL Server Management Studio, haga clic en **Conectar** > **Conectar con el servidor**.
 
-2. En **Tipo de servidor**, seleccione **Analysis Services**. En **Nombre del servidor**, escriba la dirección URL del área de trabajo. En **Autenticación**, seleccione **Active Directory - Universal con MFA** y, después, en **Nombre de usuario**, escriba el identificador de usuario de la organización.
+2. En **Tipo de servidor** , seleccione **Analysis Services**. En **Nombre del servidor** , escriba la dirección URL del área de trabajo. En **Autenticación** , seleccione **Active Directory - Universal con MFA** y, después, en **Nombre de usuario** , escriba el identificador de usuario de la organización.
 
     ![Conexión al servidor en SSMS](media/service-premium-connect-tools/xmla-endpoint-connect-server.png)
 
@@ -243,14 +243,14 @@ La primera consiste en seleccionar los **conjuntos de datos de Power BI** y, des
 
 ![Conexión dinámica con el conjunto de datos](media/service-premium-connect-tools/dataset-live-connect.png)
 
-La segunda manera consiste en que los usuarios se conectan mediante **Obtener datos** > **Analysis Services**, especifican un nombre de área de trabajo de Power BI Premium como URL, seleccionan **Conectar en directo** y, después, seleccionan un conjunto de datos en Navigator. En este caso, Power BI Desktop usa el punto de conexión XMLA para conectarse dinámicamente al conjunto de datos como si fuera un modelo de datos de Analysis Services. 
+La segunda manera consiste en que los usuarios se conectan mediante **Obtener datos** > **Analysis Services** , especifican un nombre de área de trabajo de Power BI Premium como URL, seleccionan **Conectar en directo** y, después, seleccionan un conjunto de datos en Navigator. En este caso, Power BI Desktop usa el punto de conexión XMLA para conectarse dinámicamente al conjunto de datos como si fuera un modelo de datos de Analysis Services. 
 
 ![Conexión dinámica al conjunto de datos de Analysis Services](media/service-premium-connect-tools/as-live-connect.png)
 
 Las organizaciones que tienen informes existentes conectados dinámicamente a los modelos de datos de Analysis Services que pretenden migrar a los conjuntos de datos de Power BI Premium solo tienen que cambiar la URL del nombre del servidor en **Transformar datos** > **Configuración del origen de datos**.
 
 > [!NOTE]
-> Durante la versión preliminar pública de lectura y escritura XMLA, al usar Power BI Desktop para conectarse a un conjunto de datos de Power BI Premium mediante **Obtener datos** > **Analysis Services** y seleccionando la opción **Conectar en directo**, aún no se admite la publicación de un informe en el servicio Power BI.
+> Durante la versión preliminar pública de lectura y escritura XMLA, al usar Power BI Desktop para conectarse a un conjunto de datos de Power BI Premium mediante **Obtener datos** > **Analysis Services** y seleccionando la opción **Conectar en directo** , aún no se admite la publicación de un informe en el servicio Power BI.
 
 ## <a name="audit-logs"></a>Registros de auditoría
 

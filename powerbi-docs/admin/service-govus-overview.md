@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/23/2020
+ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 45d89fe7a224d56e710765e533a7c075c24b8a66
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: fe4f9c54b45035cc22f2e582a75ba98d648c549d
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981513"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132376"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 
@@ -38,7 +38,7 @@ Si es un cliente nuevo, debe validar la idoneidad de la organización antes de r
 Una vez que haya implementado Microsoft 365, puede agregar una suscripción a Power BI Pro. Siga las instrucciones paso a paso que se enumeran en el artículo [Inscripción de una organización de la Administración Pública de Estados Unidos](service-govus-signup.md) para comprar el servicio Power BI Pro para la Administración Pública. Compre licencias suficientes para todos los usuarios que necesiten usar Power BI y asígnelas a cuentas de usuario individuales.
 
 > [!IMPORTANT]
-> Power BI para la Administración Pública no está disponible como licencia *gratuita* . Para acceder a Government Community Cloud, se debe asignar una licencia de *Pro* a cada usuario. Si una cuenta de usuario tiene asignada una licencia gratuita, el usuario solo tiene autorización para acceder a la nube comercial y surgirán problemas de autenticación y acceso. Si ha comprado Power BI Premium, no tiene que asignar licencias Pro para permitir el acceso de los usuarios.  Los usuarios de la organización pueden acceder a los informes compartidos con ellos, siempre y cuando dichos informes se publique en una capacidad Premium. Para revisar las diferencias entre los tipos de licencia, consulte [Características del servicio Power BI por tipo de licencia](../fundamentals/service-features-license-type.md).
+> Power BI para la Administración Pública no está disponible como licencia *gratuita*. Para acceder a Government Community Cloud, se debe asignar una licencia de *Pro* a cada usuario. Si una cuenta de usuario tiene asignada una licencia gratuita, el usuario solo tiene autorización para acceder a la nube comercial y surgirán problemas de autenticación y acceso. Si ha comprado Power BI Premium, no tiene que asignar licencias Pro para permitir el acceso de los usuarios.  Los usuarios de la organización pueden acceder a los informes compartidos con ellos, siempre y cuando dichos informes se publique en una capacidad Premium. Para revisar las diferencias entre los tipos de licencia, consulte [Características del servicio Power BI por tipo de licencia](../fundamentals/service-features-license-type.md).
 >
 
 ## <a name="government-cloud-instances"></a>Instancias en la nube de la Administración Pública
@@ -126,11 +126,11 @@ En la siguiente tabla se enumeran las características que no están disponibles
 |[Modelos grandes](service-premium-large-models.md) | T4 2020 |T4 2020| ![no disponible](../media/no.png) |
 |[Flujos de datos: optimización del motor de proceso de SQL](../transform-model/service-dataflows-enhanced-compute-engine.md) | T4 2020 |T4 2020| ![no disponible](../media/no.png) |
 |[Flujos de datos: consulta directa](../transform-model/service-dataflows-directquery.md) | T4 2020 |T4 2020|![no disponible](../media/no.png)|
-|[Notificaciones de interrupción del servicio](service-premium-large-models.md)|T4 2020 |T4 2020|T4 2020|
 |[Protección de datos (etiquetas MIP)](service-security-sensitivity-label-overview.md)|T4 2020|T4 2020 |T4 2020|
 |[Aplicaciones plantilla](../connect-data/service-template-apps-overview.md)<sup>3</sup>|T4 2020 |T4 2020| T4 2020|
 |[Objetos visuales personalizados](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|T4 2020 |T4 2020| T4 2020|
 |[Conector de datos de calidad de las llamadas](/microsoftteams/cqd-power-bi-connector)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|
+|[Traiga su propio almacenamiento (Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|
 |[Generación de códigos QR](../create-reports/service-create-qr-code-for-tile.md)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|
 
 <sup>1</sup> Aunque la colaboración de B2B está disponible para GCC, se debe emitir al usuario externo una licencia en ese entorno. Las licencias de nubes comerciales no son válidas en GCC. Para obtener más información sobre las limitaciones conocidas de la colaboración de B2B con el Gobierno de EE. UU., [compare Azure Government y Azure global](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)

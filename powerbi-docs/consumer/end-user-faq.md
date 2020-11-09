@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: dca1b3bb107c8a2e02b48db9d22a4fe6c2875a4c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c604bec5213b14f91e514c9a1552acb99ac5d0aa
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860932"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916806"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 
@@ -30,14 +30,14 @@ Power BI es un servicio de análisis empresarial basado en la nube que permite 
 
 ## <a name="what-is-a-power-bi-business-user"></a>¿Qué es un *usuario empresarial* de Power BI?
 
-La manera en que interactúa con Power BI dependerá de su función. Como usuario final o *usuario empresarial*, recibe el contenido (paneles, informes y aplicaciones) de sus compañeros de trabajo. Puede trabajar en la versión en línea o móvil de Power BI, que se denomina servicio Power BI, revisando este contenido e interactuando con él para tomar decisiones empresariales.  Obtenga más información acerca de [Power BI para usuarios empresariales](index.yml).
+La manera en que interactúa con Power BI dependerá de su función. Como usuario final o *usuario empresarial* , recibe el contenido (paneles, informes y aplicaciones) de sus compañeros de trabajo. Puede trabajar en la versión en línea o móvil de Power BI, que se denomina servicio Power BI, revisando este contenido e interactuando con él para tomar decisiones empresariales.  Obtenga más información acerca de [Power BI para usuarios empresariales](index.yml).
 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>¿Cuál es la diferencia entre Power BI Pro y Power BI Premium?
 
 Power BI Pro es una licencia de usuario individual que permite el acceso a todo el contenido y toda la funcionalidad del servicio Power BI. Puede incluso compartir el contenido y colaborar con otros usuarios con la licencia Pro. Solo los usuarios de la versión Pro pueden publicar contenido en otras áreas de trabajo, compartir paneles y suscribirse a paneles e informes. 
 
-Power BI Premium proporciona capacidad dedicada para proporcionar un rendimiento más estable. También admite volúmenes de datos mayores en Power BI. Para usuarios individuales, Premium permite una amplia distribución de contenido por parte de los usuarios con licencia Pro y no requiere licencias Pro por usuario para los destinatarios que ven el contenido. Esto significa que los *usuarios empresariales* pueden colaborar con compañeros y ver e interactuar con paneles, informes y aplicaciones que han compartido con ellos. 
+Power BI Premium proporciona una capacidad para ofrecer un rendimiento más estable. También admite volúmenes de datos mayores en Power BI. Para usuarios individuales, Premium permite una amplia distribución de contenido por parte de los usuarios con licencia Pro y no requiere licencias Pro por usuario para los destinatarios que ven el contenido. Esto significa que los *usuarios empresariales* pueden colaborar con compañeros y ver e interactuar con paneles, informes y aplicaciones que han compartido con ellos. 
 
 Para obtener más información, consulte [Tipos de licencias de Power BI](end-user-license.md).
 
@@ -49,7 +49,7 @@ Para preguntas relacionadas con Power BI Premium, consulte [Power BI Premium FAQ
 
 Power BI Desktop es una aplicación gratuita que se puede instalar directamente en un equipo. Power BI Desktop funciona junto con el servicio Power BI.  Los científicos de datos, diseñadores de informes, administradores y desarrolladores trabajan con Power BI Desktop para generar informes y ponerlos a disposición de otros *usuarios empresariales* del servicio Power BI, como usted. Obtenga más información sobre [qué es Power BI Desktop](../fundamentals/desktop-what-is-desktop.md).
 
-## <a name="as-a-business-user-what-do-i-need-to-use-the-power-bi-service"></a>Como *usuario empresarial*, ¿qué se necesita para usar el servicio Power BI?
+## <a name="as-a-business-user-what-do-i-need-to-use-the-power-bi-service"></a>Como *usuario empresarial* , ¿qué se necesita para usar el servicio Power BI?
 
 Si su compañía ha adquirido licencias de Power BI o una cuenta de la capacidad Premium, todo lo que necesita es un explorador web y credenciales. Para iniciar sesión, debe usar su dirección de correo electrónico del trabajo y una contraseña (establecida por su administrador de Power BI).  
 

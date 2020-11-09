@@ -6,71 +6,110 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 09/01/2020
+ms.date: 10/26/2020
 ms.author: maggies
-ms.openlocfilehash: 69aa11216624416f005dcb2e47d1b818204ae7ec
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 165d38c718377ff7e47442cdf0fe67173b610bd8
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286737"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044989"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Cambio de cadenas de conexión de origen de datos en informes de Power BI con PowerShell: Power BI Report Server
 
 
-Puede cambiar las cadenas de conexión de origen de datos de los informes de Power B hospedados en Power BI Report Server usando PowerShell para interactuar con las API necesarias. 
+A partir de la versión de octubre de 2020 de Power BI Report Server, se habilita la capacidad de actualizar las conexiones para informes de Power BI para DirectQuery y actualización.
 
-> [!NOTE]
-> Actualmente, esta funcionalidad solo funciona para DirectQuery. La compatibilidad con la importación y la actualización de datos estará disponible próximamente.
+> [!IMPORTANT]
+> Esto también es un cambio importante sobre cómo se podía configurar en versiones anteriores. Si usa una versión de Power BI Report Server anterior a la de octubre de 2020, vea [Cambio de cadenas de conexión de origen de datos en informes de Power BI con PowerShell: Power BI Report Server anterior a octubre de 2020](connect-data-source-apis-pre-oct-2020.md).
 
-1. Instale los commandlets de PowerShell de Power BI Report Server. Busque los commandlets y las instrucciones de instalación en [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools). 
+## <a name="prerequisites"></a>Requisitos previos:
+- Descargue la versión de octubre de 2020 de [Power BI Report Server y Power BI Desktop optimizado para Power BI Report Server](https://powerbi.microsoft.com/report-server/).
+- Un informe guardado con la versión de octubre de 2020 de Power BI Desktop optimizado para Report Server, con **Metadatos de conjuntos de datos mejorados** habilitado.
+- Un informe en el que se usen conexiones parametrizadas. Después de la publicación solo se pueden actualizar los informes con conexiones parametrizadas y las bases de datos.
+- En este ejemplo se usan las herramientas de PowerShell de Reporting Services. Puede lograr lo mismo mediante las nuevas API REST.
 
-    Instale el módulo `ReportingServicesTools` directamente desde la [Galería de PowerShell](https://www.powershellgallery.com/packages/ReportingServicesTools/) usando el siguiente comando.
+## <a name="create-a-report-with-parameterized-connections"></a>Creación de un informe con conexiones parametrizadas
+    
+1. Cree una conexión de SQL Server a un servidor. En el ejemplo siguiente, se va a conectar al host local a una base de datos denominada ReportServer y a extraer datos de ExecutionLog.
 
-    ```powershell
-    Install-Module ReportingServicesTools
+    :::image type="content" source="media/connect-data-source-apis/sql-server-connect-database.png" alt-text="Conexión a una base de datos de SQL Server":::
+
+    Este es el aspecto de la consulta de M hasta el momento:
+
+    ```
+    let
+        Source = Sql.Database("localhost", "ReportServer"),
+        dbo_ExecutionLog3 = Source{[Schema="dbo",Item="ExecutionLog3"]}[Data]
+    in
+        dbo_ExecutionLog3
     ```
 
-2. Capture la información del origen de datos existente para el archivo de Power BI a través de commandlets de PowerShell:
+2. Seleccione **Administrar parámetros** en la cinta del Editor de Power Query.
+
+    :::image type="content" source="media/connect-data-source-apis/power-query-manage-parameters.png" alt-text="Selección de Administrar parámetros":::
+
+1.  Cree parámetros para el nombre del servidor y la base de datos.
+
+    :::image type="content" source="media/connect-data-source-apis/report-server-manage-parameters.png" alt-text="Administración de parámetros, y establecimiento del nombre del servidor y la base de datos.":::
+
+
+3. Edite la consulta para la primera conexión y asigne el nombre del servidor y la base de datos.
+
+    :::image type="content" source="media/connect-data-source-apis/report-server-map-database-server.png" alt-text="Asignación del nombre del servidor y la base de datos":::
+
+    Ahora la consulta tiene este aspecto:
+
+    ```
+    let
+        Source = Sql.Database(ServerName, Databasename),
+        dbo_ExecutionLog3 = Source{[Schema="dbo",Item="ExecutionLog3"]}[Data]
+    in
+        dbo_ExecutionLog3
+    ```
+    
+    4. Publique el informe en el servidor. En este ejemplo, el nombre del informe es executionlogparameter. La imagen siguiente es un ejemplo de una página de administración de orígenes de datos.
+
+    :::image type="content" source="media/connect-data-source-apis/report-server-manage-data-source-credentials.png" alt-text="Página de administración de orígenes de datos.":::
+
+## <a name="update-parameters-using-the-powershell-tools"></a>Actualización de parámetros con las herramientas de PowerShell
+
+1. Abra PowerShell e instale las herramientas de Reporting Services más recientes mediante las instrucciones que se indican en [https://github.com/microsoft/ReportingServicesTools](https://github.com/microsoft/ReportingServicesTools).
+    
+2.  A fin de obtener el parámetro para el informe, use la nueva API REST DataModelParameters con la siguiente llamada de PowerShell:
 
     ```powershell
-    Get-RsRestItemDataSource -RsItem '/MyPbixReport'
+    Get-RsRestItemDataModelParameters '/executionlogparameter'
+
+        Name         Value
+        ----         -----
+        ServerName   localhost
+        Databasename ReportServer
     ```
 
-    Para ver información del primer origen de datos contenido en el informe de Power BI: 
+3. El resultado de esta llamada se guarda en una variable:
 
     ```powershell
-    $dataSources[0]
+    $parameters = Get-RsRestItemDataModelParameters '/executionlogparameter'
     ```
 
-3. Actualice la información de conexión y las credenciales según sea necesario. Si al actualizar la cadena de conexión y el origen de datos se usan las credenciales almacenadas, debe proporcionar la contraseña de la cuenta. 
-
-    Para actualizar una cadena de conexión de origen de datos:
+4. Esta variable se actualiza con los valores que se deben cambiar.
+5. El resultado de esta llamada se guarda en una variable:
 
     ```powershell
-    $dataSources[0].ConnectionString = 'data source=myCatalogServer;initial catalog=ReportServer;persist security info=False' 
+    $parameters[0].Value = 'myproductionserver'
+    $parameters[1].Value = 'myproductiondatabase'
     ```
 
-    Para cambiar el tipo de credencial del origen de datos:
+6. Con los valores actualizados, se puede usar el commandlet `Set-RsRestItemDataModelParameters` para actualizar los valores del servidor:
 
     ```powershell
-    $dataSources[0].DataModelDataSource.AuthType = 'Integrated'
+    Set-RsRestItemDataModelParameters -RsItem '/executionlogparameter' -DataModelParameters $parameters
     ```
 
-    Para cambiar el nombre de usuario y la contraseña del origen de datos:
+7. Una vez que se han actualizado los parámetros, el servidor actualiza los orígenes de datos que estaban enlazados a los parámetros. De nuevo en el cuadro de diálogo **Editar origen de datos** , debería poder establecer las credenciales para el servidor y la base de datos actualizados.
 
-    ```powershell
-    $dataSources[0].DataModelDataSource.Username = 'domain\user'
-    ```
-    ```powershell
-    $dataSources[0].DataModelDataSource.Secret = 'password'
-    ```
-
-4. Vuelva a guardar las credenciales actualizadas en el servidor.
-
-    ```powershell
-    Set-RsRestItemDataSource -RsItem '/MyPbixReport' -RsItemType 'PowerBIReport' -DataSources $dataSources
-    ```
+    :::image type="content" source="media/connect-data-source-apis/report-server-manage-executionlogparameter-dialog.png" alt-text="Establezca las credenciales para el servidor y la base de datos actualizados.":::
 
 ## <a name="next-steps"></a>Pasos siguientes
 

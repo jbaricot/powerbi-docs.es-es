@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/29/2020
+ms.openlocfilehash: 3173108abe6082c199cbf6ff1229ca57fde31064
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859253"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044774"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registro de cambios de Power BI Report Server
 
@@ -21,6 +21,26 @@ Este registro de cambios es para el servidor de informes de Power BI y enumera l
 
 Para obtener más información sobre las nuevas características, vea [Novedades de Power BI Report Server](whats-new.md). 
 
+## <a name="october-2020"></a>Octubre de 2020
+- **Servidor de informes de Power BI**
+    - *Versión: 1.9.7604.41261 (compilación 15.0.1104.239), fecha de publicación: 27 de octubre de 2020*
+         - Características
+            - Se ha habilitado la compatibilidad con los metadatos de los conjuntos de datos mejorados en Power BI Report Server.
+            - Se ha habilitado la capacidad de actualizar conexiones para informes de Power BI para DirectQuery y actualización; vea [Cambio de cadenas de conexión de origen de datos](./connect-data-source-apis.md) para obtener más información.
+        - Actualizaciones de seguridad
+        - Correcciones de errores
+            - Se ha corregido una incidencia que impide que los usuarios cambien las programaciones de actualizaciones de informes de Power BI.
+            - Se han corregido los mensajes de error confusos que los usuarios reciben al administrar informes cuando las credenciales han expirado.
+            - Se ha corregido una incidencia con la exportación de informes con puntos en el nombre.
+            - Se han corregido incidencias del lector de pantalla en una región de datos Tablix.
+            - Se ha corregido una incidencia que causaba que los archivos de registro estuvieran en blanco en algunas circunstancias.
+            - Se ha corregido una incidencia con el cuadro de diálogo "Conectarse a Power BI", que no se cierra.
+            - Se ha actualizado el representador MHTML para usar el DOCTYPE HTML más reciente.
+
+- **Power BI Desktop (optimizado para Power BI Report Server)**
+   - *Versión: 2.86.961.0 (octubre de 2020), fecha de publicación: 27 de octubre de 2020* (nueva compilación y versión)
+        - Contiene los cambios necesarios para la conexión con Power BI Report Server (octubre de 2020).        
+   
 ## <a name="may-2020"></a>Mayo de 2020
 - **Servidor de informes de Power BI**
     - *Versión: 1.8.7485.35104 (compilación 15.0.1103.234), fecha de publicación: 30 de junio de 2020*
@@ -103,7 +123,7 @@ Para obtener más información sobre las nuevas características, vea [Novedades
     - *Versión: 1.6.7221.30698 (compilación 15.0.1102.620), fecha de publicación: 9 de octubre de 2019*
         - Correcciones de errores
             - Corrección del objeto visual personalizado Filtro de texto.
-            - Corrección del rendimiento de las segmentaciones desplegables.
+            - Se ha corregido el rendimiento de las segmentaciones desplegables.
             - Corrección de la eliminación de información de identificación personal de telemetría.
           - Corrección para las direcciones URL que no distinguen mayúsculas de minúsculas.
           
@@ -225,7 +245,7 @@ Para obtener más información sobre las nuevas características, vea [Novedades
 - **Servidor de informes de Power BI**
     - *Versión 1.3.6816.37243 (compilación 15.0.2.557), fecha de publicación: 30 de agosto de 2018*
         - Correcciones de errores
-            - Se ha corregido un problema en el que el servidor se actualizaba desde versiones anteriores de PBI Report Server, pero no se actualizaba una redirección de enlace. Esto es lo que veían los clientes:      
+            - Se ha corregido una incidencia que causaba que el servidor se actualizara a partir de versiones anteriores de PBI Report Server, pero no de un redireccionamiento de enlace, y los clientes veían este mensaje:      
             *`
             Failed to load expression host assembly. Details: Could not load file or assembly 'Microsoft.ReportingServices.ProcessingObjectModel, Version=2018.7.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (rsErrorLoadingExprHostAssembly)
              `*
@@ -279,7 +299,7 @@ Para obtener más información sobre las nuevas características, vea [Novedades
             - Para informes paginados (RDL), corrección de la visibilidad de los parámetros en un informe vinculado que se revierte después de editar sus propiedades
             - Corrección del portal web con autenticación de formularios personalizada que omite la cookie de expiración deslizante
             - Corrección para las exportaciones a Word que crean un alto de filas desigual si el contenido de la fila está vacío
-            - Para informes paginados (RDL), corrección de la cadena de conexión basada en expresiones que se elimina cuando se cambia la credencial para el origen de datos
+            - Para los informes paginados (RDL), se ha incluido una corrección de la cadena de conexión basada en expresiones que se elimina cuando se cambia la credencial para el origen de datos.
             - Corrección de la capacidad de usar KPI con valores de texto
             - Para informes paginados (RDL), corrección de la capacidad de asignar un nuevo conjunto de datos a un informe paginado existente (RDL)
             - Otras correcciones de estabilidad y facilidad de uso
@@ -311,8 +331,8 @@ Para obtener más información sobre las nuevas características, vea [Novedades
 
     - *Versión 1.1.6514.9163 (compilación 14.0.600.434), fecha de publicación: 1 de noviembre de 2017*
         - Correcciones de errores
-            - Se han solucionado los problemas de confiabilidad de carga de los informes PBIX de más de 500 MB
-            - Se ha corregido el problema de carga de datos de los informes PBIX de más de 1 GB
+            - Se han corregido problemas de confiabilidad de carga de los informes .pbix de más de 500 MB.
+            - Se ha corregido un problema de carga de datos de los informes .pbix de más de 1 GB.
 
     - *Versión 1.1.6513.3500 (compilación 14.0.600.433), fecha de publicación: 31 de octubre de 2017*
         - Características
@@ -360,7 +380,7 @@ Para obtener más información sobre las nuevas características, vea [Novedades
             - No se puede cambiar el nombre de un informe de Power BI en el servidor de informes de Power BI
             - No se pueden cargar objetos visuales de Power BI en la aplicación móvil de Power BI (es necesario volver a instalarla para borrar la caché local)
 
-    - *Compilación 14.0.600.271, fecha de publicación: 12 de junio de 2017*
+    - *Compilación 14.0.600.271, fecha de publicación: 12 de junio de 2017*
         - Versión inicial del servidor de informes de Power BI
 
 - **Power BI Desktop (optimizado para Power BI Report Server)**

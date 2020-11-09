@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: 20fb1f117432d5c36bfe0c536bc0803871134c95
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 8b9c10c8b3faa87cfc19c3c1d8f87a36de0307dd
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981536"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916139"
 ---
 # <a name="service-interruption-notifications"></a>Notificaciones de interrupción del servicio
 
@@ -21,7 +21,7 @@ Es importante tener información sobre la disponibilidad de las aplicaciones emp
 
 ![Correo electrónico de notificación de actualización](media/service-interruption-notifications/refresh-notification-email.png)
 
-En este momento, se envían mensajes de correo electrónico para los siguientes _escenarios de confiabilidad_:
+En este momento, se envían mensajes de correo electrónico para los siguientes _escenarios de confiabilidad_ :
 
 - Confiabilidad de apertura del informe
 - Confiabilidad de actualización del modelo
@@ -30,7 +30,7 @@ En este momento, se envían mensajes de correo electrónico para los siguientes 
 Las notificaciones se envían cuando se produce un _retraso prolongado_ en las operaciones (por ejemplo, al abrir un informe, actualizar conjuntos de datos o ejecutar consultas). Una vez que se ha resuelto un incidente, recibirá un correo electrónico de seguimiento.
 
 > [!NOTE]
-> En la actualidad, esta característica solo está disponible para capacidades dedicadas en Power BI Premium. No está disponible para la capacidad compartida o insertada.
+> En la actualidad, esta característica solo está disponible para las capacidades en Power BI Premium. No está disponible para la capacidad compartida o insertada.
 
 ## <a name="capacity-and-reliability-notifications"></a>Notificaciones de capacidad y fiabilidad
 
@@ -59,7 +59,7 @@ Un administrador de Power BI habilita las notificaciones en el portal de admini
 
 1. Identifique o cree un grupo de seguridad habilitado para correo electrónico que deba recibir notificaciones.
 
-1. En el portal de administración, seleccione **Configuración de inquilinos**. En **Configuración de ayuda y soporte técnico**, expanda **Recepción de notificaciones por correo electrónico sobre interrupciones o incidentes en el servicio**.
+1. En el portal de administración, seleccione **Configuración de inquilinos**. En **Configuración de ayuda y soporte técnico** , expanda **Recepción de notificaciones por correo electrónico sobre interrupciones o incidentes en el servicio**.
 
 1. Habilite las notificaciones, escriba un grupo de seguridad y seleccione **Aplicar**.
 

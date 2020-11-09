@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 10/21/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 87c35df25a17090f1788abbeb979afab3ad9d6a9
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 3828a11f4b4447f6484e121fec84fb44d702c86a
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462239"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93136216"
 ---
 |Funcionalidad   | Administrador  | Miembro  | Colaborador  | Visor |
 |---|---|---|---|---|
@@ -21,7 +21,7 @@ ms.locfileid: "92462239"
 | Agregar o quitar usuarios, incluidos otros administradores.  |  ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | Permitir que los colaboradores actualicen la aplicación para esta área de trabajo  |  ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | Agregar miembros u otros usuarios con permisos inferiores.  |  ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
-| Publicar y cambiar permisos para una aplicación. |  ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
+| Publicar, anular la publicación y cambiar los permisos de una aplicación |  ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | Actualizar una aplicación. |  ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  |  Si se permite <sup>1</sup>  |   |
 | Compartir un elemento o una aplicación.<sup>2</sup> |  ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | Permitir que otros usuarios vuelvan a compartir elementos.<sup>2</sup> |  ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificación Sí](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |

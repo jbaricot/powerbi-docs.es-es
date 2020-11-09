@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: 918b9a98d66a1c739421433d35f593dc74d19773
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: ae6047950256a783172ef871c2bd58dc15ff033a
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981490"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297588"
 ---
 # <a name="power-bi-data-sources"></a>Orígenes de datos de Power BI
 
@@ -64,6 +64,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Google Analytics | Sí | Sí | No | No | No | No |
 | Google BigQuery | Sí | Sí | Sí | No | No | Sí |
 | Archivo Hadoop (HDFS) | Sí | No | No | No | No | No |
+| Hive LLAP | Sí | Sí | Sí | Sí | No | No |
 | HDInsight Interactive Query | Sí | Sí | Sí | No | No | No |
 | IBM DB2 | Sí | Sí | Sí | Sí | No | Sí |
 | Base de datos Informix de IBM | Sí | Sí | No | Sí | No | No |

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f189ea2944f86a3caabfbc51ae5b2887bc7c89bb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3a541c46f78c5e5cd25b47a94394a011fd61954f
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278616"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916553"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Guía de optimización para Power BI
 
@@ -83,7 +83,7 @@ Puede optimizar el entorno de Power BI mediante la configuración de las opcione
 
 ### <a name="capacity-settings"></a>Configuración de la capacidad
 
-Al usar capacidades dedicadas, disponibles con Power BI Premium (SKU P) o Power BI Embedded (SKU A y A4-A6), puede administrar la configuración de capacidad. Para más información, vea [Administración de las capacidades Premium](../admin/service-premium-capacity-manage.md). Para obtener instrucciones sobre cómo optimizar la capacidad, vea [Optimización de las capacidades Premium](../admin/service-premium-capacity-optimize.md).
+Al usar capacidades, disponibles con Power BI Premium (SKU P) o Power BI Embedded (SKU A y A4-A6), puede administrar la configuración de la capacidad. Para más información, vea [Administración de las capacidades Premium](../admin/service-premium-capacity-manage.md). Para obtener instrucciones sobre cómo optimizar la capacidad, vea [Optimización de las capacidades Premium](../admin/service-premium-capacity-optimize.md).
 
 ### <a name="gateway-sizing"></a>Ajuste de tamaño de la puerta de enlace
 

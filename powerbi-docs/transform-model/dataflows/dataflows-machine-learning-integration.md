@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: aca67da12bd1a80337a269c779691401161a4e83
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: a2622d2d3da5e4149e93a2b4b6f04dc87b55d9e1
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638545"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92917036"
 ---
 # <a name="ai-with-dataflows"></a>IA con flujos de datos
 
@@ -112,7 +112,7 @@ Los flujos de datos ofrecen autoservicio de preparación de los datos para macro
 
 AutoML en Power BI permite a los analistas de datos usar flujos de datos para compilar modelos de aprendizaje automático con una experiencia simplificada, solo con usar los conocimientos de Power BI. Power BI realiza de forma automática la mayor parte de la ciencia de datos que está en la base de la creación de los modelos de ML. Tiene límites de protección para asegurarse de que el modelo generado sea de buena calidad y proporcione una visibilidad sobre el proceso que se usa para crear el modelo de ML.
 
-AutoML admite la creación de modelos de **predicción binaria**, **clasificación** y **regresión** para flujos de datos. Estos son tipos de técnicas de aprendizaje automático supervisados, lo que significa que aprenden de los resultados conocidos de las observaciones anteriores para predecir los resultados de otras observaciones. El conjunto de datos de entrada para entrenar un modelo de AutoML es un conjunto de registros que se **etiquetan** con los resultados conocidos.
+AutoML admite la creación de modelos de **predicción binaria** , **clasificación** y **regresión** para flujos de datos. Estos son tipos de técnicas de aprendizaje automático supervisados, lo que significa que aprenden de los resultados conocidos de las observaciones anteriores para predecir los resultados de otras observaciones. El conjunto de datos de entrada para entrenar un modelo de AutoML es un conjunto de registros que se **etiquetan** con los resultados conocidos.
 
 AutoML en Power BI integra el [aprendizaje automático automatizado](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml) de [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml) para crear los modelos de aprendizaje automático. Sin embargo, no necesita una suscripción a Azure para usar AutoML en Power BI. El proceso de entrenamiento y hospedaje de los modelos de aprendizaje automático se administra por completo en el servicio Power BI.
 
@@ -182,7 +182,7 @@ A continuación, se aplica a los datos el muestreo y la normalización, tal como
 
 AutoML aplica varias transformaciones a cada campo de entrada seleccionado en función de su tipo de datos y sus propiedades estadísticas. Luego, usa estas transformaciones para extraer características que se emplean para entrenar el modelo de aprendizaje automático.
 
-El proceso de entrenamiento de los modelos de AutoML consta de hasta 50 iteraciones con distintos algoritmos de modelado y configuraciones de hiperparámetros hasta encontrar el modelo con el mejor rendimiento. El entrenamiento puede finalizar pronto con iteraciones menores si AutoML ve que no se observa ninguna mejora del rendimiento. El rendimiento de cada uno de estos modelos se evalúa mediante la validación con el conjunto de datos de prueba de exclusión. Durante este paso del entrenamiento, AutoML crea varias canalizaciones para el entrenamiento y la validación de estas iteraciones. El proceso de evaluación del rendimiento de los modelos puede llevar tiempo, entre varios minutos y un par de horas, hasta el tiempo de entrenamiento configurado en el asistente, según el tamaño del conjunto de datos y los recursos de capacidad dedicados disponibles.
+El proceso de entrenamiento de los modelos de AutoML consta de hasta 50 iteraciones con distintos algoritmos de modelado y configuraciones de hiperparámetros hasta encontrar el modelo con el mejor rendimiento. El entrenamiento puede finalizar pronto con iteraciones menores si AutoML ve que no se observa ninguna mejora del rendimiento. El rendimiento de cada uno de estos modelos se evalúa mediante la validación con el conjunto de datos de prueba de exclusión. Durante este paso del entrenamiento, AutoML crea varias canalizaciones para el entrenamiento y la validación de estas iteraciones. El proceso de evaluación del rendimiento de los modelos puede llevar tiempo, entre varios minutos y un par de horas, hasta el tiempo de entrenamiento configurado en el asistente, según el tamaño del conjunto de datos y los recursos de la capacidad disponibles.
 
 En algunos casos, el modelo final generado puede usar el aprendizaje de conjunto, donde se emplean varios modelos para ofrecer un mejor rendimiento predictivo.
 
@@ -220,11 +220,11 @@ Si está satisfecho con el rendimiento del modelo de aprendizaje automático cre
 
 Para aplicar el modelo de aprendizaje automático, debe especificar el nombre de la entidad a la que debe aplicarse y un prefijo para las columnas que se agregarán a esta entidad en la salida del modelo. El prefijo predeterminado de los nombres de columna es el nombre del modelo. La función _Aplicar_ puede incluir parámetros adicionales específicos del tipo de modelo.
 
-Al aplicar el modelo de ML, se crean dos nuevas entidades de flujo de datos que contienen las predicciones y las explicaciones individualizadas para cada fila que puntúa en la entidad de salida. Por ejemplo, si aplica el modelo _PurchaseIntent_ a la entidad _OnlineShoppers_, la salida generará las entidades **OnlineShoppers enriched PurchaseIntent** y **OnlineShoppers enriched PurchaseIntent explanations**. Para cada fila de la entidad enriquecida, **Explanations** se divide en varias filas de la entidad de explicaciones enriquecidas basada en la característica de entrada. **ExplanationIndex** ayuda a asignar las filas de la entidad de explicaciones enriquecidas a la fila en una entidad enriquecida.
+Al aplicar el modelo de ML, se crean dos nuevas entidades de flujo de datos que contienen las predicciones y las explicaciones individualizadas para cada fila que puntúa en la entidad de salida. Por ejemplo, si aplica el modelo _PurchaseIntent_ a la entidad _OnlineShoppers_ , la salida generará las entidades **OnlineShoppers enriched PurchaseIntent** y **OnlineShoppers enriched PurchaseIntent explanations**. Para cada fila de la entidad enriquecida, **Explanations** se divide en varias filas de la entidad de explicaciones enriquecidas basada en la característica de entrada. **ExplanationIndex** ayuda a asignar las filas de la entidad de explicaciones enriquecidas a la fila en una entidad enriquecida.
 
 ![Editor de consultas](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
-También puede aplicar un modelo de AutoML de Power BI a entidades de cualquier flujo de datos de la misma área de trabajo mediante Conclusiones de IA del explorador de funciones de PQO. De esta manera, puede usar los modelos creados por otros en la misma área de trabajo sin tener que ser propietario del flujo de datos que tiene el modelo. Power Query detecta todos los modelos de aprendizaje automático de Power BI del área de trabajo y los expone como funciones dinámicas de Power Query. Después, esas funciones se pueden invocar accediendo a ellas desde la cinta de opciones del Editor de Power Query o invocando directamente la función M.Actualmente, esta funcionalidad solo es compatible con los flujos de datos de Power BI y con Power Query Online en el servicio Power BI. Observe que esto es muy diferente a aplicar modelos de aprendizaje automático dentro de un flujo de datos mediante el asistente para AutoML. No hay ninguna entidad de explicaciones creada con este método y, a menos que sea el propietario del flujo de datos, no puede acceder a los informes de entrenamiento del modelo ni volver a entrenar el modelo. Si el modelo de origen se edita (se agregan o se quitan campos de entrada) o, si se elimina el modelo o el flujo de datos de origen, este flujo de datos dependiente se interrumpirá.
+También puede aplicar un modelo de AutoML de Power BI a entidades de cualquier flujo de datos de la misma área de trabajo mediante Conclusiones de IA del explorador de funciones de PQO. De esta manera, puede usar los modelos creados por otros en la misma área de trabajo sin tener que ser propietario del flujo de datos que tiene el modelo. Power Query detecta todos los modelos de aprendizaje automático de Power BI del área de trabajo y los expone como funciones dinámicas de Power Query.  Después, esas funciones se pueden invocar accediendo a ellas desde la cinta de opciones del Editor de Power Query o invocando directamente la función M. Actualmente, esta funcionalidad solo es compatible con los flujos de datos de Power BI y con Power Query Online en el servicio Power BI. Observe que esto es muy diferente a aplicar modelos de aprendizaje automático dentro de un flujo de datos mediante el asistente para AutoML. No hay ninguna entidad de explicaciones creada con este método y, a menos que sea el propietario del flujo de datos, no puede acceder a los informes de entrenamiento del modelo ni volver a entrenar el modelo. Si el modelo de origen se edita (se agregan o se quitan campos de entrada) o, si se elimina el modelo o el flujo de datos de origen, este flujo de datos dependiente se interrumpirá.
 
 ![Aplicación de un modelo mediante el explorador de funciones de PQO](media/service-machine-learning-automated/automated-machine-learning-power-bi-20.png)
 
@@ -234,7 +234,7 @@ Para usar las conclusiones y las predicciones del modelo de aprendizaje automát
 
 ### <a name="binary-prediction-models"></a>Modelos de predicción binaria
 
-Los modelos de predicción binaria, conocidos más formalmente como **modelos de clasificación binaria**, se usan para clasificar un conjunto de datos en dos grupos. Se usan para predecir eventos que puedan tener un resultado binario. Por ejemplo, si una oportunidad de ventas se va a convertir, si una cuenta se va a renovar, si una factura se va a pagar a tiempo, si una transacción es fraudulenta, etc.
+Los modelos de predicción binaria, conocidos más formalmente como **modelos de clasificación binaria** , se usan para clasificar un conjunto de datos en dos grupos. Se usan para predecir eventos que puedan tener un resultado binario. Por ejemplo, si una oportunidad de ventas se va a convertir, si una cuenta se va a renovar, si una factura se va a pagar a tiempo, si una transacción es fraudulenta, etc.
 
 La salida de un modelo de predicción binaria es una puntuación de probabilidad, que identifica la probabilidad de que se alcance el resultado objetivo.
 
@@ -272,7 +272,7 @@ Para aplicar un modelo de predicción binaria, debe especificar la entidad con l
 
 ![Entradas de predicción](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
 
-Cuando se aplica un modelo de predicción binaria, se agregan cuatro columnas de salida a la entidad de salida enriquecida: **Outcome**, **PredictionScore**, **PredictionExplanation** y **ExplanationIndex**. El prefijo se especifica en los nombres de columna de la entidad al aplicar el modelo.
+Cuando se aplica un modelo de predicción binaria, se agregan cuatro columnas de salida a la entidad de salida enriquecida: **Outcome** , **PredictionScore** , **PredictionExplanation** y **ExplanationIndex**. El prefijo se especifica en los nombres de columna de la entidad al aplicar el modelo.
 
 **PredictionScore** es una probabilidad porcentual, que identifica la probabilidad de que se alcance el resultado objetivo.
 
@@ -314,7 +314,7 @@ El informe del modelo de clasificación también incluye una página de detalles
 
 Para aplicar un modelo de aprendizaje automático de clasificación, debe especificar la entidad con los datos de entrada y el prefijo del nombre de la columna de salida.
 
-Cuando se aplica un modelo de clasificación, se agregan cinco columnas de salida a la entidad de salida enriquecida: **ClassificationScore**, **ClassificationResult**, **ClassificationExplanation**, **ClassProbabilities** y **ExplanationIndex**. El prefijo se especifica en los nombres de columna de la entidad al aplicar el modelo.
+Cuando se aplica un modelo de clasificación, se agregan cinco columnas de salida a la entidad de salida enriquecida: **ClassificationScore** , **ClassificationResult** , **ClassificationExplanation** , **ClassProbabilities** y **ExplanationIndex**. El prefijo se especifica en los nombres de columna de la entidad al aplicar el modelo.
 
 La columna **ClassProbabilities** contiene la lista de puntuaciones de probabilidad del registro de cada clase posible.
 
@@ -358,7 +358,7 @@ Para aplicar un modelo de aprendizaje automático de regresión, debe especifica
 
 ![Aplicar una regresión](media/service-machine-learning-automated/automated-machine-learning-power-bi-19.png)
 
-Cuando se aplica un modelo de regresión, se agregan tres columnas de salida a la entidad de salida enriquecida: **RegressionResult**, **RegressionExplanation** y **ExplanationIndex**. El prefijo se especifica en los nombres de columna de la entidad al aplicar el modelo.
+Cuando se aplica un modelo de regresión, se agregan tres columnas de salida a la entidad de salida enriquecida: **RegressionResult** , **RegressionExplanation** y **ExplanationIndex**. El prefijo se especifica en los nombres de columna de la entidad al aplicar el modelo.
 
 La columna **RegressionResult** contiene el valor de predicción del registro en función de los campos de entrada. La columna **RegressionExplanation** contiene una explicación con la influencia específica que tuvieron las características de entrada en **RegressionResult**.
 
@@ -417,7 +417,7 @@ Los científicos de datos usan principalmente Python para desarrollar e incluso 
 
 Este archivo de esquema se debe incluir en el servicio web implementado para los modelos de Machine Learning. Para generar de forma automática el esquema para el servicio web, debe proporcionar un ejemplo de la entrada y salida en el script de entrada para el modelo implementado. Consulte la subsección sobre [Generación automática de esquemas de Swagger (opcional) en los modelos de implementación con la documentación del servicio Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema). El vínculo incluye el script de entrada de ejemplo con las instrucciones para la generación de esquemas. 
 
-En concreto, las funciones *input_sample\@* y *output_sample\@* del script de entrada hacen referencia a los formatos de ejemplo de entrada y salida de las variables *input_sample* y *output_sample*, y usan estos ejemplos para generar una especificación OpenAPI (Swagger) para el servicio web durante la implementación.
+En concreto, las funciones *input_sample\@* y *output_sample\@* del script de entrada hacen referencia a los formatos de ejemplo de entrada y salida de las variables *input_sample* y *output_sample* , y usan estos ejemplos para generar una especificación OpenAPI (Swagger) para el servicio web durante la implementación.
 
 Estas instrucciones para la generación de esquemas mediante la actualización del script de entrada también se deben aplicar a los modelos creados mediante experimentos automatizados de aprendizaje automático con el SDK de Azure Machine Learning.
 

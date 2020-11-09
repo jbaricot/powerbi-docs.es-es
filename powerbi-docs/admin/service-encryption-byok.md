@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 449721a13a126344f3ef8334e63f64579a98ec20
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374899"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916162"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Sus propias claves de cifrado para Power BI
 
@@ -58,14 +58,14 @@ Las instrucciones de esta sección presuponen un conocimiento básico de Azure K
 
 ### <a name="add-the-service-principal"></a>Adición de la entidad de servicio
 
-1. En Azure Portal, en el almacén de claves, en **Directivas de acceso**, seleccione **Agregar nueva**.
+1. En Azure Portal, en el almacén de claves, en **Directivas de acceso** , seleccione **Agregar nueva**.
 
-1. En **Seleccionar entidad**, busque y seleccione Microsoft.Azure.AnalysisServices.
+1. En **Seleccionar entidad** , busque y seleccione Microsoft.Azure.AnalysisServices.
 
     > [!NOTE]
     > Si no encuentra “Microsoft.Azure.AnalysisServices”, es probable que la suscripción de Azure asociada a su Azure Key Vault nunca haya tenido asociado un recurso de Power BI. En su lugar, intente buscar la cadena siguiente: 00000009-0000-0000-c000-000000000000.
 
-1. En **Permisos de clave**, seleccione **Desencapsular clave** y **Encapsular clave**.
+1. En **Permisos de clave** , seleccione **Desencapsular clave** y **Encapsular clave**.
 
     ![Archivo PBIX Selección de la entidad de servicio y operaciones criptográficas](media/service-encryption-byok/service-principal.png)
 
@@ -76,15 +76,15 @@ Las instrucciones de esta sección presuponen un conocimiento básico de Azure K
 
 ### <a name="create-an-rsa-key"></a>Creación de una clave RSA
 
-1. En el almacén de claves, en **Claves**, seleccione **Generar/Importar**.
+1. En el almacén de claves, en **Claves** , seleccione **Generar/Importar**.
 
-1. En **Tipo de clave**, seleccione RSA y en **Tamaño de la clave RSA**, seleccione 4096.
+1. En **Tipo de clave** , seleccione RSA y en **Tamaño de la clave RSA** , seleccione 4096.
 
     ![Creación de una clave con el tipo y el tamaño de clave resaltados](media/service-encryption-byok/create-rsa-key.png)
 
 1. Seleccione **Crear**.
 
-1. En **Claves**, seleccione la clave que creó.
+1. En **Claves** , seleccione la clave que creó.
 
 1. Seleccione el identificador GUID de la **Versión actual** de la clave.
 
@@ -108,9 +108,9 @@ Antes de habilitar BYOK, tenga en cuenta las consideraciones siguientes:
 
 - Actualmente no se puede deshabilitar BYOK después de habilitarlo. En función de cómo se especifiquen los parámetros de `Add-PowerBIEncryptionKey`, puede controlar cómo usar BYOK para una o varias de las capacidades. Sin embargo, no se puede deshacer la introducción de claves en el inquilino. Para más información, consulte [Habilitación de BYOK](#enable-byok).
 
-- No se puede mover _directamente_ un área de trabajo que usa BYOK desde una capacidad dedicada de Power BI Premium a una capacidad compartida. Debe mover primero el área de trabajo a una capacidad dedicada que no tenga habilitado BYOK.
+- No se puede mover _directamente_ un área de trabajo en la que se usa BYOK desde una capacidad de Power BI Premium a una capacidad compartida. Primero debe mover el área de trabajo a una capacidad que no tenga habilitado BYOK.
 
-- Si mueve un área de trabajo que usa BYOK de una capacidad dedicada de Power BI Premium a una compartida, los informes y los conjuntos de datos se vuelven inaccesibles, ya que se cifran con la clave. Para evitarlo, primero debe mover el área de trabajo a una capacidad dedicada que no tenga habilitado BYOK.
+- Si mueve un área de trabajo en la que se usa BYOK de una capacidad de Power BI Premium a una compartida, los informes y los conjuntos de datos se vuelven inaccesibles, ya que se cifran con la clave. Para evitarlo, primero debe mover el área de trabajo a una capacidad que no tenga habilitado BYOK.
 
 ### <a name="enable-byok"></a>Habilitación de BYOK
 
@@ -183,7 +183,7 @@ Power BI proporciona cmdlets adicionales para ayudar a administrar BYOK en el i
 
     Tenga en cuenta que el cifrado se habilita en el nivel de capacidad, pero el estado de cifrado se obtiene en el nivel de conjunto de datos del área de trabajo especificada.
 
-- Utilice [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) para cambiar (o _rotar_) la versión de la clave que se usa para el cifrado. El cmdlet simplemente actualiza el valor de `-KeyVaultKeyUri` de la clave especificada en la opción `-Name`:
+- Utilice [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) para cambiar (o _rotar_ ) la versión de la clave que se usa para el cifrado. El cmdlet simplemente actualiza el valor de `-KeyVaultKeyUri` de la clave especificada en la opción `-Name`:
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

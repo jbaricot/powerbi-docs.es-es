@@ -7,22 +7,24 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 08/07/2019
+ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cf79a5ecf4d98595a033733824a41002a7cd38e0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 805b7805d932468e973805d9496a5b25d4391fdd
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860564"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132629"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Tutorial: conectarse a un repositorio de GitHub con Power BI
-En este tutorial, nos conectaremos a datos reales en el servicio de GitHub con Power BI. Power BI creará automáticamente paneles e informes. Puede conectarse al repositorio público de contenido de Power BI (también conocido como *repo*) y ver respuestas a preguntas como: ¿Cuántas personas contribuyen al contenido público de Power BI? ¿Quiénes contribuyen en mayor medida? ¿Qué día de la semana ha habido más contribuciones? Además de otras preguntas. 
+En este tutorial, se conectará a datos reales: el repositorio público de contenido de Power BI (también conocido como *repo* ) en el servicio GitHub. Power BI crea de forma automática un panel y un informe con los datos. Verá respuestas a preguntas como las siguientes: ¿Cuántas personas contribuyen al repositorio público de Power BI? ¿Quiénes contribuyen en mayor medida? ¿Qué día de la semana ha habido más contribuciones? Además de otras preguntas. 
+
+También se puede conectar a repositorios de GitHub propios privados o públicos. En el artículo [Conexión a GitHub con Power BI](service-connect-to-github.md) se explica cómo usar una *aplicación de plantilla* de Power BI para conectarse a los repositorios.
 
 ![Informe de GitHub en Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
-En este tutorial, realizaremos los siguientes pasos:
+En este tutorial, va a completar los siguientes pasos:
 
 > [!div class="checklist"]
 > * Registrar una cuenta de GitHub, si aún no hay una 
@@ -48,23 +50,23 @@ Para completar este tutorial, se necesita una cuenta de GitHub, si aún no tiene
    
    ![Obtener aplicaciones en Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. Seleccione **Aplicaciones**, escriba **GitHub** en el cuadro de búsqueda > **Obtenerla ahora**.
+3. Seleccione **Aplicaciones** , escriba **GitHub** en el cuadro de búsqueda > **Obtenerla ahora**.
    
    ![Obtener GitHub en Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
 4. En **¿Instalar esta aplicación de Power BI?** , seleccione **Instalar**.
-5. En **La nueva aplicación está lista**, seleccione **Ir a la aplicación**.
-6. En **Empezar a trabajar con la nueva aplicación**, seleccione **Conectar**.
+5. En **La nueva aplicación está lista** , seleccione **Ir a la aplicación**.
+6. En **Empezar a trabajar con la nueva aplicación** , seleccione **Conectar**.
 
     ![Empezar a trabajar con la nueva aplicación](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
-7. Escriba el nombre del repositorio y el propietario del repositorio. La dirección URL de este repositorio es https://github.com/MicrosoftDocs/powerbi-docs, por lo que **Propietario del repositorio** es **MicrosoftDocs** y **Repositorio**, **powerbi-docs**. 
+7. Escriba el nombre del repositorio y el propietario del repositorio. La dirección URL de este repositorio es https://github.com/MicrosoftDocs/powerbi-docs, por lo que **Propietario del repositorio** es **MicrosoftDocs** y **Repositorio** , **powerbi-docs**. 
    
     ![Nombre del repositorio de GitHub en Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
 
 5. Escriba las credenciales de GitHub que ha creado. Puede que Power BI omita este paso si ya ha iniciado sesión en GitHub en el explorador. 
 
-6. En **Método de autenticación**, deje seleccionada la opción **OAuth2**\>**Iniciar sesión**.
+6. En **Método de autenticación** , deje seleccionada la opción **OAuth2**\> **Iniciar sesión**.
 
 7. Siga las pantallas de autenticación de GitHub. Conceda permisos de Power BI a los datos de GitHub.
    
@@ -99,7 +101,7 @@ Para completar este tutorial, se necesita una cuenta de GitHub, si aún no tiene
  
     ![Cuántos usuarios hay](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
-13. Entre **cuántos** y **usuarios hay**, escriba **solicitudes de incorporación de cambios por**. 
+13. Entre **cuántos** y **usuarios hay** , escriba **solicitudes de incorporación de cambios por**. 
 
      Power BI creará un gráfico de barras, donde se mostrará el número de solicitudes de incorporación de cambios por persona.
 
@@ -129,7 +131,7 @@ Para completar este tutorial, se necesita una cuenta de GitHub, si aún no tiene
 Ahora que ya hemos finalizado el tutorial, podemos eliminar la aplicación de GitHub. 
 
 1. En el panel de navegación, seleccione **Aplicaciones**.
-2. Mantenga el puntero sobre el icono de GitHub y seleccione la papelera (**Eliminar**).
+2. Mantenga el puntero sobre el icono de GitHub y seleccione la papelera ( **Eliminar** ).
 
     ![Eliminar la aplicación de GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)
 
@@ -138,4 +140,4 @@ Ahora que ya hemos finalizado el tutorial, podemos eliminar la aplicación de Gi
 En este tutorial, nos hemos conectado a un repositorio público de GitHub y hemos obtenido datos, a los que Power BI ha dado formato de panel y de informe. Explorando ese panel y ese informe, hemos hallado respuesta a algunas preguntas sobre los datos. Ahora podemos pasar a obtener más información sobre cómo conectarnos a otros servicios, como Salesforce, Microsoft Dynamics y Google Analytics. 
  
 > [!div class="nextstepaction"]
-> [Conexión a los servicios que usa](service-connect-to-services.md)
+> [Conexión a GitHub con una aplicación de plantilla de Power BI](service-connect-to-github.md)

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 07/24/2020
-ms.openlocfilehash: d361430387d9c24b8b4ef0b673c50cf4cec5a24b
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 10/16/2020
+ms.openlocfilehash: 62add0b1268b06bb227bdc1b8ec2e4ae59358c57
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252618"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044748"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar Power BI Desktop optimizado para el servidor de informes de Power BI
 
@@ -45,9 +45,9 @@ La mejor manera de asegurarse de que tiene la versión más actualizada de Power
     Se inicia automáticamente y está listo para funcionar.
 
 ## <a name="verify-youre-using-the-correct-version"></a>Comprobación relativa al uso de una versión correcta
-Comprobar que esté usando la versión correcta de Power BI Desktop es muy sencillo: solo tiene que echar un vistazo a la pantalla de inicio o a la barra de título de Power BI Desktop. Sabrá que tiene la versión correcta porque en la barra de título aparece **Power BI Desktop (mayo de 2020)** . Además, los colores del logotipo de Power BI aparecen invertidos, es decir, amarillo sobre negro en lugar de negro sobre amarillo.
+Comprobar que esté usando la versión correcta de Power BI Desktop es muy sencillo: solo tiene que echar un vistazo a la pantalla de inicio o a la barra de título de Power BI Desktop. Sabrá que tiene la versión correcta porque aparecerá **Power BI Desktop (octubre 2020)** en la barra de título. Además, los colores del logotipo de Power BI aparecen invertidos, es decir, amarillo sobre negro en lugar de negro sobre amarillo.
 
-![Power BI Desktop, mayo de 2020](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
+![Power BI Desktop (octubre 2020)](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
 
 La versión de Power BI Desktop para el servicio Power BI no indica el mes ni el año en la barra de título.
 

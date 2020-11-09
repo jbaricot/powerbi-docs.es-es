@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: 0a90c03c516b64e5a0a81c6a2bbdf0049d48b76f
-ms.sourcegitcommit: be0971576a3f1af7a064371c9cf27dd462dfca82
+ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "92080263"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916829"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Solución de problemas de las canalizaciones de implementación
 
@@ -55,7 +55,7 @@ Para usar canalizaciones de implementación, debe ser un [usuario Pro](../admin/
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>¿Qué tipo de capacidad puedo asignar a un área de trabajo en una canalización?
 
-Todas las áreas de trabajo de una canalización de implementación deben residir en una capacidad dedicada para que la canalización sea funcional. Sin embargo, puede usar diferentes capacidades para diferentes áreas de trabajo de una canalización. También puede usar diferentes tipos de capacidad para diferentes áreas de trabajo de la misma canalización.
+Todas las áreas de trabajo de una canalización de implementación deben residir en una capacidad para que la canalización sea funcional. Sin embargo, puede usar diferentes capacidades para diferentes áreas de trabajo de una canalización. También puede usar diferentes tipos de capacidad para diferentes áreas de trabajo de la misma canalización.
 
 Con fines de desarrollo y prueba, puede usar una capacidad A o EM junto con una cuenta de Power BI Pro para cada usuario.
 

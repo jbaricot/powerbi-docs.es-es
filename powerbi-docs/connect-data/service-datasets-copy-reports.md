@@ -6,22 +6,24 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/30/2020
+ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4b9573d0a24efdbb4c0b5a4130f973a0dfac0f10
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633217"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132330"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>Copia de informes desde otras áreas de trabajo
 
 Si encuentra un informe que le gusta en un área de trabajo o una aplicación, puede realizar una copia y guardarlo en otra área de trabajo. Luego puede modificar la copia del informe mediante la incorporación o eliminación de objetos visuales y otros elementos. No tiene que preocuparse de crear el modelo de datos. Ya se ha creado de forma automática. Y resulta mucho más fácil modificar un informe existente que empezar desde cero. Pero si se crea una aplicación desde la nueva área de trabajo, a veces no se puede publicar la copia del informe en la aplicación. Vea [Consideraciones y limitaciones en el artículo "Uso de conjuntos de datos entre áreas de trabajo"](service-datasets-across-workspaces.md#considerations-and-limitations) para obtener detalles.
 
-> [!NOTE]
-> Para realizar una copia se necesita una licencia Pro, aunque el informe original se encuentre en un área de trabajo de una capacidad Premium.
+## <a name="prerequisites"></a>Requisitos previos
+
+- Para copiar un informe, necesita una licencia de Pro, aunque el informe original se encuentre en un área de trabajo de una capacidad Premium.
+- Para copiar un informe, o bien crearlo en un área de trabajo basada en un conjunto de datos de otra área de trabajo, necesita el permiso de compilación para el conjunto de datos. Para los conjuntos de datos del área de trabajo original, los usuarios con los roles de Administrador, Miembro y Colaborador tienen automáticamente permiso de compilación en su rol del área de trabajo. Vea [Roles en las áreas de trabajo nuevas](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) para obtener más información.
 
 ## <a name="save-a-copy-of-a-report-in-a-workspace"></a>Guardado de una copie de un informe en un área de trabajo
 
@@ -29,13 +31,13 @@ Si encuentra un informe que le gusta en un área de trabajo o una aplicación, p
 
     ![Vista de lista de informes](media/service-datasets-copy-reports/power-bi-report-list-view.png)
 
-1. En **Acciones**, seleccione **Guardar una copia**.
+1. En **Acciones** , seleccione **Guardar una copia**.
 
     ![Guardado de una copia de un informe](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
     Solo verá el icono **Guardar una copia** si el informe está en una nueva experiencia de área de trabajo y tiene [permiso de compilación](service-datasets-build-permissions.md). Incluso si tiene acceso al área de trabajo, necesita tener permiso de compilación para el conjunto de datos.
 
-3. En **Guardar una copia de este informe**, asigne un nombre del informe y seleccione el área de trabajo de destino.
+3. En **Guardar una copia de este informe** , asigne un nombre del informe y seleccione el área de trabajo de destino.
 
     ![Cuadro de diálogo Guardar una copia](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 

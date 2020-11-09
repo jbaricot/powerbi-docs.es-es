@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4a38ca35e6955bc92f52492e657a9e00bad05ea3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c78be4dbd32d243dfaa392a1ac5ebd4d46c23d94
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857620"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916185"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir contenido de Power BI a usuarios externos invitados con Azure AD B2B
 
@@ -56,7 +56,7 @@ Siga estos pasos para enviar una invitación en Azure Portal.
 
 1. En [Azure Portal](https://portal.azure.com), seleccione **Azure Active Directory**.
 
-1. En **Administrar**, seleccione **Usuarios** > **Todos los usuarios** > **Nuevo usuario invitado**.
+1. En **Administrar** , seleccione **Usuarios** > **Todos los usuarios** > **Nuevo usuario invitado**.
 
     ![Captura de pantalla de Azure Portal con la opción Nuevo usuario invitado destacada.](media/service-admin-azure-ad-b2b/azure-ad-portal-new-guest-user.png)
 
@@ -92,7 +92,7 @@ El usuario invitado debe tener la licencia adecuada en vigor para ver el conteni
 
 ### <a name="use-power-bi-premium"></a>Usar Power BI Premium
 
-La asignación del área de trabajo a una [capacidad Power BI Premium](service-premium-what-is.md) permite al usuario invitado usar la aplicación sin necesidad de una licencia de Power BI Pro. Power BI Premium también permite que las aplicaciones saquen partido a otras funcionalidades como una mayor frecuencia de actualización, capacidad dedicada y tamaños de modelo grandes.
+La asignación del área de trabajo a una [capacidad Power BI Premium](service-premium-what-is.md) permite al usuario invitado usar la aplicación sin necesidad de una licencia de Power BI Pro. Power BI Premium también permite que las aplicaciones aprovechen las ventajas de otras funcionalidades como una mayor frecuencia de actualización y tamaños de modelo grandes.
 
 ![Diagrama de la experiencia del usuario invitado con Power BI Premium.](media/service-admin-azure-ad-b2b/license-approach-1.png)
 

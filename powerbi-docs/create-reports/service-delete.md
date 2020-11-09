@@ -1,143 +1,128 @@
 ---
 title: Eliminación de un panel, informe, libro, conjunto de datos o área de trabajo
-description: Aprenda a eliminar prácticamente cualquier cosa de Power BI
+description: Aprenda a eliminar prácticamente cualquier elemento del servicio Power BI.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 09/11/2018
+ms.date: 10/29/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b2263a1eddfdbc51f0e345443f7bbb75b11da6e7
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 1e1cc55f21f43b7029a68670d9a7af9215f5b62c
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632741"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132530"
 ---
-# <a name="delete-almost-anything-in-power-bi-service"></a>Eliminar prácticamente cualquier cosa en el servicio Power BI
-Este artículo le enseña a eliminar un panel, un informe, un libro, un conjunto de datos, una aplicación, una visualización y un área de trabajo en el servicio Power BI.
+# <a name="delete-almost-anything-in-the-power-bi-service"></a>Eliminación de prácticamente cualquier elemento del servicio Power BI
+En este artículo se muestra cómo eliminar un panel, un informe, un libro, un conjunto de datos, una aplicación, una visualización o un área de trabajo del servicio Power BI. En el servicio Power BI puede eliminar prácticamente cualquier elemento, con algunas excepciones. 
 
-## <a name="delete-a-dashboard"></a>Eliminar un panel
-Los paneles se pueden quitar. Al quitar el panel, no se eliminan el conjunto de datos subyacente ni los informes asociados con ese panel.
+## <a name="delete-a-dashboard-report-dataset-or-workbook"></a>Eliminación de un panel, informe, conjunto de datos o libro
 
-* Si es el propietario del panel, puede quitarlo. Si compartió el panel con sus compañeros y quita el panel del área de trabajo de Power BI, este no se quitará de las áreas de trabajo de Power BI de los compañeros.
-* Si un panel se ha compartido con usted y ya no desea verlo, puede quitarlo.  Quitar el panel de su área de trabajo no lo quita del área de trabajo de Power BI de nadie más.
-* Si un panel forma parte de un [paquete de contenido organizativo](../collaborate-share/service-organizational-content-pack-disconnect.md), la única forma de quitarlo es quitar el conjunto de datos asociado.
+1. En el área de trabajo, seleccione la pestaña **Todos**.
+1. Seleccione **Más opciones (...)** junto al recurso que quiera eliminar y seleccione **Eliminar**.
 
-### <a name="to-delete-a-dashboard"></a>Para eliminar un panel
-1. En el área de trabajo, seleccione la pestaña **Paneles**.
-2. Busque el panel que desea eliminar y seleccione el icono Eliminar :::image type="icon" source="media/service-delete/power-bi-delete-icon.png" border="false":::.
+    ![Captura de pantalla de la selección de Más opciones y, después, Eliminar.](media/service-delete/power-bi-delete-dashboard.png)
 
-    ![Vídeo](media/service-delete/power-bi-delete-dash.gif)
+1. Seleccione **Eliminar** para confirmar la eliminación.
 
-## <a name="delete-a-report"></a>Eliminación de un informe
-No se preocupe, la eliminación de un informe no elimina el conjunto de datos en el que se basa el informe.  Y las visualizaciones del informe que haya anclado tampoco corren peligro, seguirán en el panel hasta que las elimine individualmente.
+## <a name="remove-an-app-from-your-app-list-page"></a>Quitar una aplicación de la página con la lista de aplicaciones
 
-### <a name="to-delete-a-report"></a>Para eliminar un informe
-1. En el área de trabajo, seleccione la pestaña **Informes**.
-2. Busque el informe que desea eliminar y seleccione el icono Eliminar :::image type="icon" source="media/service-delete/power-bi-delete-icon.png" border="false":::.   
-
-    ![Pestaña Informes de área de trabajo](media/service-delete/power-bi-delete-reportnew.png)
-3. Confirme la eliminación.
-
-   ![Cuadro de diálogo Eliminar](media/service-delete/power-bi-delete-report.png)
-
-   > [!NOTE]
-   > Si el informe es parte de un [paquete de contenido](../collaborate-share/service-organizational-content-pack-introduction.md), no podrá eliminarse mediante este método.  Consulte [Quitar la conexión a un paquete de contenido organizativo](../collaborate-share/service-organizational-content-pack-disconnect.md).
-   >
-   >
-
-## <a name="delete-a-workbook"></a>Eliminar un libro
-Los libros se pueden quitar. Sin embargo, al quitar un libro, se quitan también todos los informes y los iconos de panel que contengan datos del libro.
-
-Si el libro está almacenado en OneDrive para la Empresa, al eliminarlo de Power BI no se elimina de OneDrive.
-
-### <a name="to-delete-a-workbook"></a>Para eliminar un libro
-1. En el área de trabajo, seleccione la pestaña **Libros**.
-2. Busque el libro que desea eliminar y seleccione el icono Eliminar :::image type="icon" source="media/service-delete/power-bi-delete-report2.png" border="false":::.
-
-    ![Pestaña Libros](media/service-delete/power-bi-delete-workbooknew.png)
-3. Confirme la eliminación.
-
-   ![Cuadro de diálogo Quitar libro](media/service-delete/power-bi-delete-confirm.png)
-
-## <a name="delete-a-dataset"></a>Eliminación de un conjunto de datos
-Los conjuntos de datos se pueden eliminar. Sin embargo, si elimina un conjunto de datos, también se eliminarán todos los informes y los iconos de panel que contengan datos de ese conjunto de datos.
-
-Si un conjunto de datos forma parte de uno o varios [paquetes de contenido organizativos](../collaborate-share/service-organizational-content-pack-disconnect.md), la única forma de eliminarlo es quitarlo de los paquetes de contenido donde se utiliza, esperar a que se procese e intentar eliminarlo de nuevo.
-
-### <a name="to-delete-a-dataset"></a>Para eliminar un conjunto de datos
-1. En el área de trabajo, seleccione la pestaña **Conjuntos de datos**.
-2. Busque el conjunto de datos que desea eliminar y seleccione **Más opciones** (...).  
-
-    ![Pestaña Conjuntos de datos](media/service-delete/power-bi-delete-datasetnew.png)
-3. En la lista desplegable, seleccione **Eliminar**.
-
-   ![Menú del botón de puntos suspensivos](media/service-delete/power-bi-delete-datasetnew2.png)
-4. Confirme la eliminación.
-
-   ![Cuadro de diálogo Eliminar panel](media/service-delete/power-bi-delete-dataset-confirm.png)
-
-## <a name="delete-a-workspace"></a>Eliminación de un área de trabajo
-> [!WARNING]
-> Al crear un área de trabajo, creará un grupo de Microsoft 365. Y al eliminar un área de trabajo, eliminará este grupo de Microsoft 365. Esto significa que el grupo se eliminará también de otros productos de Microsoft 365, como SharePoint y Microsoft Teams.
->
->
-
-Como autor del área de trabajo, puede eliminarla. Cuando la elimina, también se elimina la aplicación asociada para todos los miembros del grupo y se quita de su AppSource si había publicado la aplicación en toda la organización. Eliminar un área de trabajo no es igual que abandonar un área de trabajo.
-
-### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>Para eliminar un área de trabajo, si es un administrador
-1. En el panel de navegación, seleccione **Áreas de trabajo**.
-
-2. Seleccione el botón **Más opciones** (...) a la derecha del área de trabajo que desea eliminar y elija **Editar área de trabajo**.
-
-    ![áreas de trabajo](media/service-delete/power-bi-delete-workspace.png)
-
-3. En la ventana **Edit workspace** (Editar área de trabajo), seleccione **Eliminar área de trabajo** > **Eliminar**.
-
-    ![Eliminar área de trabajo](media/service-delete/power-bi-delete-workspace2.png)
-
-### <a name="to-remove-a-workspace-from-your-list"></a>Para quitar un área de trabajo de la lista
-Si ya no desea ser miembro de un área de trabajo, puede ***abandonarla*** y se quitará de su lista. Al abandonar un área de trabajo, se deja como estaba para todos los demás miembros del área de trabajo.  
-
-> [!IMPORTANT]
-> Si es el único administrador del área de trabajo, Power BI no permitirá que la abandone.
->
->
-
-1. Empiece en el área de trabajo que desee quitar.
-
-2. En la esquina superior derecha, seleccione **Más opciones** (...) y elija **Abandonar área de trabajo** > **Abandonar**.
-
-      :::image type="icon" source="media/service-delete/power-bi-leave-workspace.png" border="false":::
-
-   > [!NOTE]
-   > Las opciones que ve en la lista desplegable dependen de si es administrador o miembro de esa área de trabajo.
-   >
-   >
-
-## <a name="delete-or-remove-an-app"></a>Eliminar o quitar una aplicación
-Las aplicaciones se pueden quitar fácilmente de la página con la lista de aplicaciones. Sin embargo, solo el administrador de una aplicación puede eliminarla de forma permanente.
-
-### <a name="remove-an-app-from-your-app-list-page"></a>Quitar una aplicación de la página con la lista de aplicaciones
-Al eliminarse una aplicación de la página con la lista de aplicaciones, no se elimina para los demás miembros.
+Puede quitar fácilmente aplicaciones de la página de lista de aplicaciones. Al quitar una aplicación, no se elimina para otros miembros. Solo un administrador, un miembro o un área de trabajo pueden eliminar permanentemente la aplicación de ese área de trabajo.
 
 1. En el panel de navegación, seleccione **Aplicaciones** para abrir la página con la lista de aplicaciones.
 2. Mantenga el puntero sobre la aplicación que desea eliminar y seleccione el icono Eliminar :::image type="icon" source="media/service-delete/power-bi-delete-report2.png" border="false":::.
 
-   ![Selección de aplicaciones](media/service-delete/power-bi-delete-app.png)
+   ![Captura de pantalla de la selección de aplicaciones.](media/service-delete/power-bi-delete-app.png)
 
-   Si quita una aplicación accidentalmente, tiene varias opciones para recuperarla.  Puede pedir al creador de la aplicación que la vuelva a enviar, encontrar el mensaje original con el vínculo a la aplicación, consultar su [centro de notificaciones](../consumer/end-user-notification-center.md) para ver si sigue apareciendo la notificación para esa aplicación o mirar en [AppSource](../consumer/end-user-apps.md) para su organización.
+   Si quita una aplicación accidentalmente, tiene varias opciones para recuperarla.  Puede pedir al creador de la aplicación que la vuelva a enviar, encontrar el mensaje original con el vínculo a la aplicación, consultar el [Centro de notificaciones](../consumer/end-user-notification-center.md) para ver si todavía aparece la notificación relativa a esa aplicación, o bien comprobarlo en la instancia de [AppSource de la organización](../consumer/end-user-apps.md).
 
-## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-En este artículo se trata cómo eliminar los principales bloques de creación del servicio Power BI. Pero hay más cosas que puede eliminar en Power BI.  
+## <a name="remove-or-delete-a-workspace"></a>Eliminación de un área de trabajo
 
-* [Quitar el panel destacado](../consumer/end-user-featured.md)
-* [Quitar un panel de Favoritos](../consumer/end-user-favorite.md)
-* [Eliminar una página del informe](service-delete.md)
-* [Quitar un icono de panel](service-dashboard-edit-tile.md)
-* [Eliminar una visualización de informe](service-delete.md)
+Power BI tiene dos tipos diferentes de áreas de trabajo: las originales o *clásicas* , y las nuevas. Los procesos para quitarlas o eliminarlas son diferentes. Obtenga más información sobre las [áreas de trabajo nuevas y clásicas](../collaborate-share/service-new-workspaces.md).
+
+### <a name="remove-members-from-a-new-workspace"></a>Eliminación de miembros de un área de trabajo nueva
+
+Solo los administradores del área de trabajo pueden quitar usuarios de un área de trabajo nueva. Si es un administrador, puede quitarse a sí mismo o a cualquier otro usuario. Pero si es el único administrador de un área de trabajo, Power BI no le permitirá que se elimine a sí mismo.
+
+1. En la vista de lista del área de trabajo, seleccione **Acceso** en la esquina superior derecha.
+
+    :::image type="content" source="media/service-delete/power-bi-select-access.png" alt-text="Captura de pantalla de la selección de Acceso.":::
+
+1. En el panel **Acceso** , seleccione **Más opciones (...)** junto al nombre del usuario que quiera quitar y **Quitar**.
+
+    :::image type="content" source="media/service-delete/power-bi-access-remove.png" alt-text="Captura de pantalla del panel Acceso, selección de Quitar.":::
+
+### <a name="delete-a-new-workspace"></a>Eliminación de un área de trabajo nueva
+
+Al crear una de las *áreas de trabajo nuevas* , no se crea un grupo de Microsoft 365 asociado. Si es un administrador del área de trabajo, puede eliminar un área de trabajo nueva sin ningún efecto en los grupos de Microsoft 365. Obtenga más información sobre las [áreas de trabajo nuevas y clásicas](../collaborate-share/service-new-workspaces.md).
+
+Como administrador de un área de trabajo, puede eliminarla o quitar a otros usuarios que contenga. Al eliminarla, también se elimina la aplicación asociada para todos los miembros del grupo y se quita de AppSource. 
+
+1. En el panel de navegación, seleccione **Áreas de trabajo**.
+
+2. Seleccione **Más opciones** (...) a la derecha del área de trabajo que se va a eliminar y elija **Configuración del área de trabajo**.
+
+    ![Captura de pantalla de Más opciones y la selección de Configuración del área de trabajo.](media/service-delete/power-bi-delete-workspace.png)
+
+3. En el panel **Configuración del área de trabajo** , seleccione **Eliminar área de trabajo** > **Eliminar**.
+
+### <a name="remove-a-classic-workspace-from-your-list"></a>Eliminación de un área de trabajo clásica de la lista
+
+Si ya no quiere ser miembro de un área de trabajo clásica, puede * *_abandonarla_* _ y se quitará de la lista. Al abandonar un área de trabajo, se deja como estaba para todos los demás miembros del área de trabajo.  
+
+> [!NOTE]
+> Si es el único administrador del área de trabajo, Power BI no permitirá que la abandone.
+>
+
+1. Empiece en el área de trabajo que desee quitar.
+
+2. En la esquina superior derecha, seleccione _ *Más opciones* * (...) y elija **Abandonar área de trabajo** > **Abandonar**.
+
+      :::image type="content" source="media/service-delete/power-bi-leave-workspace.png" alt-text="Captura de pantalla de Más opciones, Abandonar área de trabajo.":::
+
+   > [!NOTE]
+   > Las opciones que ve en la lista desplegable dependen de si es administrador o miembro de esa área de trabajo.
+   >
+
+### <a name="delete-a-classic-workspace"></a>Eliminación de un área de trabajo clásica
+
+> [!WARNING]
+> Al crear un área de trabajo *clásica* , se crea un grupo de Microsoft 365. Al eliminar un área de trabajo clásica, se elimina ese grupo de Microsoft 365. El grupo también se elimina de otros productos de Microsoft 365, como SharePoint y Microsoft Teams.
+> 
+
+Eliminar un área de trabajo no es igual que abandonar un área de trabajo. Debe ser un administrador del área de trabajo para eliminarla. Al eliminarla, también se elimina la aplicación asociada para todos los miembros del grupo y se quita de AppSource. Pero si es el único administrador de un área de trabajo, Power BI no le permitirá abandonarla.
+
+1. Desde el panel de navegación, seleccione **Áreas de trabajo**.
+
+2. Junto al área de trabajo que se va a eliminar, seleccione **Más opciones (...)**  > **Configuración del área de trabajo**.
+
+    ![Captura de pantalla de Configuración del área de trabajo.](media/service-delete/power-bi-workspace-settings-classic.png)
+
+3. En el panel **Configuración** , seleccione **Eliminar área de trabajo** y, después, **Eliminar** para confirmar la eliminación.
+
+    ![Captura de pantalla de la eliminación de un área de trabajo.](media/service-delete/power-bi-delete-classic-workspace.png)
+
+
+## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
+
+- Al quitar un *panel* , no se eliminan el conjunto de datos subyacente ni los informes asociados a ese panel.
+- Si es el *propietario de un panel o informe* , puede quitarlo. Si lo ha compartido con compañeros, al quitarlo del área de trabajo de Power BI, también se quita de sus áreas de trabajo de Power BI.
+- Si *han compartido un panel o informe con usted* , no podrá quitarlo.
+- La eliminación de un informe no elimina el conjunto de datos en el que se basa.  Se conservan todas las visualizaciones que ha anclado a un panel desde el informe. Permanecerán en el panel hasta que las elimine de forma individual.
+- Puede eliminar un *conjunto de datos*. Sin embargo, si elimina un conjunto de datos, también se eliminarán todos los informes y los iconos de panel que contengan datos de ese conjunto de datos.
+- Puede eliminar *libros*. Sin embargo, al quitar un libro, se quitan también todos los informes y los iconos de panel que contengan datos del libro. Si el libro está almacenado en OneDrive para la Empresa, al eliminarlo de Power BI, no se elimina de OneDrive.
+- Si un *panel o informe* forma parte de un [paquete de contenido de la organización](../collaborate-share/service-organizational-content-pack-disconnect.md), no se puede eliminar con este método.  Consulte [Quitar la conexión a un paquete de contenido organizativo](../collaborate-share/service-organizational-content-pack-disconnect.md).
+- Si un *conjunto de datos* forma parte de uno o varios paquetes de contenido de la organización, la única forma de eliminarlo es quitarlo de los paquetes de contenido donde se usa, esperar a que se procese e intentar eliminarlo de nuevo.
+
+## <a name="next-steps"></a>Pasos siguientes
+
+En este artículo se ha descrito cómo eliminar los principales bloques de creación del servicio Power BI. Estos son otros elementos que también puede eliminar.  
+
+- [Quitar el panel destacado](../consumer/end-user-featured.md)
+- [Quitar un panel de Favoritos](../consumer/end-user-favorite.md)
+- [Quitar un icono de panel](service-dashboard-edit-tile.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

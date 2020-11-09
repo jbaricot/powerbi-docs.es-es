@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/27/2020
-ms.openlocfilehash: 288e511c38df0326d07fad87f5d239cd5b0cfec0
-ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
+ms.openlocfilehash: 07b3004553f62dbdd138d93bf1aba2c08287b9c6
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84126282"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044810"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Escala de tiempo del soporte técnico para el servidor de informes de Power BI
 
@@ -30,15 +30,10 @@ Esta directiva de soporte técnico nos permite ofrecer innovación a nuestros cl
 
 | **Versión** | **Fecha de disponibilidad** | **Fecha de finalización del soporte técnico** |
 | --- | --- | --- |
-| Junio de 2017 |12 de junio de 2017 |Ya no dispone de soporte técnico |
-| Octubre de 2017 |31 de octubre de 2017 | Ya no dispone de soporte técnico |
-| Marzo de 2018 | 19 de marzo de 2018 | Ya no dispone de soporte técnico |
-| Agosto de 2018 | 15 de agosto de 2018 | Ya no dispone de soporte técnico |
-| Enero de 2019 | 23 de enero de 2019 | Ya no dispone de soporte técnico |
-| Mayo de 2019 | 22 de mayo de 2019 | Ya no dispone de soporte técnico |
-| Septiembre de 2019 | Septiembre de 2019 | Septiembre de 2020 
+| Septiembre de 2019 | Septiembre de 2019 | Ya no se admiten las versiones de septiembre de 2019 ni ninguna de las anteriores.
 | Enero de 2020 | Enero de 2020 | Enero de 2021
 | Mayo de 2020 | Mayo de 2020 | Mayo de 2021
+| Octubre de 2020 | Octubre de 2020 | Octubre de 2021
 
 Para descargar el servidor de informes de Power BI y Power BI Desktop optimizado para el servidor de informes de Power BI, vaya a [Publicar informes en almacenamiento local con el servidor de informes de Power BI](https://powerbi.microsoft.com/report-server/).
 

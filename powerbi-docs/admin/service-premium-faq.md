@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: d97c1a4be226d81ca20ef2f31a1f535174cb6c5b
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 82237286fa4d6ac3713ca6674a541b7d59c20a49
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599112"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92915909"
 ---
 # <a name="power-bi-premium-faq"></a>Preguntas más frecuentes sobre Power BI Premium
 
@@ -32,7 +32,7 @@ Power BI Premium es una oferta según la capacidad que incluye:
 * Una superficie de API, un conjunto coherente de funcionalidades y acceso a las características más recientes para el análisis insertado.
 
 **¿Qué hace Power BI Premium? ¿Cómo funciona?**  
-Power BI Premium consta de capacidad en el servicio Power BI exclusivamente asignada a cada organización. La capacidad es compatible con hardware dedicado totalmente administrado por Microsoft. Las organizaciones pueden elegir aplicar su capacidad dedicada de forma general, o asignarla a áreas de trabajo asignadas en función del número de usuarios, las necesidades de carga de trabajo u otros factores, y escalar horizontal o verticalmente a medida que cambien los requisitos.
+Power BI Premium consta de capacidad en el servicio Power BI exclusivamente asignada a cada organización. La capacidad es compatible con hardware dedicado totalmente administrado por Microsoft. Las organizaciones pueden elegir aplicar su capacidad de forma general, o bien asignarla a áreas de trabajo asignadas en función del número de usuarios, las necesidades de carga de trabajo u otros factores, y escalar horizontal o verticalmente a medida que cambien los requisitos.
 
 **¿En qué se diferencia Power BI Pro de Power BI Premium?**  
 Power BI Premium es una licencia basada en la capacidad, mientras que Power BI Pro es una licencia de usuario. Power BI Pro está destinado a aquellos usuarios que publican informes, comparten paneles, colaboran con compañeros en áreas de trabajo y se ocupan de otras actividades relacionadas, por ejemplo:
