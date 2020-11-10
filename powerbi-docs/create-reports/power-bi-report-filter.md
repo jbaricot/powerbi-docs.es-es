@@ -65,7 +65,7 @@ Obtenga más información sobre [interactuar con los filtros en el modo de lectu
 
 Después de habilitar el nuevo panel Filtros, lo verá a la derecha de la página del informe, con el formato predeterminado basado en la configuración de informes actual. En el panel Filtros, se configuran los filtros que se van a incluir y se actualizan los filtros existentes. Al publicar el informe, el panel Filtros tendrá el mismo aspecto para los consumidores del informe. 
 
-1. Los consumidores de informes podrán ver el panel Filtros de forma predeterminada. Si desea que lo vean, seleccione el icono de ojo situado junto a **Filtros** .
+1. Los consumidores de informes podrán ver el panel Filtros de forma predeterminada. Si desea que lo vean, seleccione el icono de ojo situado junto a **Filtros**.
 
     ![Icono de ojo de filtro de Power BI](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
 
@@ -79,7 +79,7 @@ Power BI Desktop tiene una nueva cinta en versión preliminar. En la pestaña *
 
 ![Visualización u ocultación del panel Filtros durante la edición](media/power-bi-report-filter/power-bi-filter-hide.png)
 
-Esta opción solo oculta el panel Filtros de Power BI Desktop. Si quiere ocultar el panel Filtros para los usuarios finales, seleccione el icono de **ojo** situado junto a **Filtros** .
+Esta opción solo oculta el panel Filtros de Power BI Desktop. Si quiere ocultar el panel Filtros para los usuarios finales, seleccione el icono de **ojo** situado junto a **Filtros**.
 
 ![Icono de ojo](media/power-bi-report-filter/power-bi-filter-eye.png) 
 
@@ -116,14 +116,14 @@ También puede aplicar formato a estos elementos en las tarjetas de filtro, seg�
 
 ### <a name="format-the-filters-pane-and-cards"></a>Aplicar formato al panel Filtros y las tarjetas
 
-1. En el informe, haga clic en el informe propiamente dicho o en el fondo ( *papel tapiz* ) y, en el panel **Visualizaciones** , seleccione **Formato** . 
+1. En el informe, haga clic en el informe propiamente dicho o en el fondo ( *papel tapiz* ) y, en el panel **Visualizaciones** , seleccione **Formato**. 
     Verá las opciones de formato de la página del informe, el papel tapiz y también el panel Filtros y las tarjetas de filtro.
 
 1. Expanda el **panel Filtros** para establecer el color del fondo, el icono y el borde izquierdo, a fin de complementar la página del informe.
 
     ![Panel Filtros expandido](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
-1. Expanda **Tarjetas de filtro** para establecer el color y el borde **Disponible** y **Aplicado** . Si crea las tarjetas disponibles y aplicadas con diferentes colores, es obvio qué filtros se aplican. 
+1. Expanda **Tarjetas de filtro** para establecer el color y el borde **Disponible** y **Aplicado**. Si crea las tarjetas disponibles y aplicadas con diferentes colores, es obvio qué filtros se aplican. 
   
     ![Expandir la tarjeta de filtro](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
@@ -228,7 +228,7 @@ También puede dar formato al cuadro de búsqueda, de la misma forma que a los d
 
 ![Aplicación de formato al cuadro de búsqueda](media/power-bi-report-filter/power-bi-filter-format-search.png)
 
-Aunque esta característica de búsqueda del panel Filtros está activada de forma predeterminada, también puede optar por activarla o desactivarla seleccionando **Habilitar búsqueda para el panel de filtros** en la configuración de **Informe** del cuadro de diálogo **Opciones** .
+Aunque esta característica de búsqueda del panel Filtros está activada de forma predeterminada, también puede optar por activarla o desactivarla seleccionando **Habilitar búsqueda para el panel de filtros** en la configuración de **Informe** del cuadro de diálogo **Opciones**.
 
 ![Activación o desactivación de la búsqueda](media/power-bi-report-filter/power-bi-enable-search-filter.png)
 
@@ -242,7 +242,7 @@ En la sección de **Experiencia de filtrado** de la configuración de **Informe*
 
 De forma predeterminada, los lectores del informe pueden guardar filtros para el informe. Puede optar por no permitirles guardar los filtros.
 
-- También, en la configuración de **Informe** del cuadro de diálogo **Opciones** , en **Filtros persistentes** , seleccione **No permitir que el usuario final guarde filtros en este informe** .
+- También, en la configuración de **Informe** del cuadro de diálogo **Opciones** , en **Filtros persistentes** , seleccione **No permitir que el usuario final guarde filtros en este informe**.
 
     :::image type="content" source="media/power-bi-report-filter/power-bi-persistent-filters.png" alt-text="Captura de pantalla de la opción &quot;No permitir que el usuario final guarde filtros en este informe&quot;.":::
 
@@ -250,17 +250,17 @@ De forma predeterminada, los lectores del informe pueden guardar filtros para el
 
 Puede agregar un solo botón **Aplicar** al panel filtro, lo que permite que usted y los usuarios finales apliquen todas las modificaciones de filtro a la vez. Este botón puede ser útil si quiere aplazar la aplicación de los cambios de filtro. Solo tiene que esperar una vez, una vez que esté listo para aplicar todos los cambios de filtro en el informe o los objetos visuales.
 
-:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="Captura de pantalla de la opción &quot;No permitir que el usuario final guarde filtros en este informe&quot;.":::
+:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="Botón Aplicar filtro":::
 
 ### <a name="turn-on-apply"></a>Activación de la aplicación
 
 Puede establecer esta característica en el nivel de informe. Sin embargo, la característica está desactivada de forma predeterminada.
 
-1. Vaya a **Archivo** > **Opciones y configuración** > **Opciones** > **Reducción de consulta** .
+1. Vaya a **Archivo** > **Opciones y configuración** > **Opciones** > **Reducción de consulta**.
 
-1. Seleccione **Agregar un único botón Aplicar al panel de filtros para aplicar los cambios a la vez** .
+1. Seleccione **Agregar un único botón Aplicar al panel de filtros para aplicar los cambios a la vez**.
 
-    :::image type="content" source="media/power-bi-report-filter/turn-on-apply-filter-button.png" alt-text="Captura de pantalla de la opción &quot;No permitir que el usuario final guarde filtros en este informe&quot;.":::
+    :::image type="content" source="media/power-bi-report-filter/turn-on-apply-filter-button.png" alt-text="Activación del botón Aplicar filtro":::
 
 ### <a name="format-the-apply-button"></a>Formato del botón Aplicar
 
@@ -270,7 +270,7 @@ Actualmente, puede controlar parte del formato del texto **Aplicar** para el bot
 - **Tamaño del texto de encabezado** controla el tamaño del texto.
 - **Familia de fuentes** controla la fuente.
 
-    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="Captura de pantalla de la opción &quot;No permitir que el usuario final guarde filtros en este informe&quot;.":::
+    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="Formato del texto del botón Aplicar filtro":::
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
