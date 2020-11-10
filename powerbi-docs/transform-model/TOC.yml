@@ -8,7 +8,7 @@
         - name: Información general sobre el Editor de consultas
           href: desktop-query-overview.md
         - name: Preparación de datos de autoservicio con flujos de datos
-          href: service-dataflows-overview.md
+          href: ./dataflows/dataflows-introduction-self-service.md
     - name: Tutoriales
       expanded: true
       items:
@@ -98,39 +98,39 @@
         - name: Preparación de datos de autoservicio
           items:
             - name: Creación y uso de flujos de datos
-              href: service-dataflows-create-use.md
+              href: ./dataflows/dataflows-create.md
             - name: "Uso de DirectQuery con flujos de datos en Power\_BI (versión preliminar)"
-              href: service-dataflows-directquery.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Uso del motor de proceso mejorado con flujos de datos
-              href: service-dataflows-enhanced-compute-engine.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Entidades calculadas con Power BI Premium
-              href: service-dataflows-computed-entities-premium.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Conexión a orígenes de datos con flujos de datos
-              href: service-dataflows-data-sources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Uso de flujos de datos con orígenes de datos locales
-              href: service-dataflows-on-premises-gateways.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Vinculación de entidades entre flujos de datos
-              href: service-dataflows-linked-entities.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Uso de la actualización incremental con flujos de datos
-              href: service-dataflows-incremental-refresh.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Recursos de desarrollador para flujos de datos
-              href: service-dataflows-developer-resources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Conexión a flujos de datos en Power BI Desktop
               href: desktop-connect-dataflows.md
             - name: Integración de flujos de datos y Azure Data Lake (versión preliminar)
-              href: service-dataflows-azure-data-lake-integration.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos
-              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: Configuración de opciones de flujo de datos del área de trabajo (versión preliminar)
-              href: service-dataflows-configure-workspace-storage-settings.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Incorporación de una carpeta de CDS a Power BI como flujo de datos (versión preliminar)
-              href: service-dataflows-add-cdm-folder.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Integración de Machine Learning en Power BI
-              href: service-machine-learning-integration.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Uso de Cognitive Services en Power BI
-              href: service-cognitive-services.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Machine Learning automatizado en Power BI
-              href: service-machine-learning-automated.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
     - name: Referencia
       items:
         - name: Métodos abreviados del editor de fórmulas
