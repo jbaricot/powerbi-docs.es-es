@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.author: rien
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c46410caff373eb8474a4b687e834b822f2da8ac
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858931"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397539"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Tutorial: Insertar un objeto visual de Power Apps en un informe de Power BI
 
 En este tutorial, se usa el objeto visual de Power Apps para crear una aplicación que se inserta en un informe de Power BI de ejemplo. Esta aplicación interactúa con otros objetos visuales de ese informe.
 
-Si no tiene una suscripción a Power Apps, [cree una cuenta gratuita](https://web.powerapps.com/signup?redirect=marketing&email=) antes de comenzar.
+Si no tiene una suscripción a Power Apps, [cree una cuenta gratuita](https://make.powerapps.com/signup?redirect=marketing&email=) antes de comenzar.
 
 En este tutorial, obtendrá información sobre cómo:
 > [!div class="checklist"]
@@ -51,7 +51,7 @@ Al agregar el objeto visual de Power Apps al informe, se inicia Power Apps Studi
 
     ![Panel Visualizaciones con el icono de Power Apps seleccionado](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
-3. En el panel **Campos**, seleccione **Nombre**, **Código de producto** y **Fase de ventas**. 
+3. En el panel **Campos** , seleccione **Nombre** , **Código de producto** y **Fase de ventas**. 
 
     ![seleccionar campos](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
@@ -74,7 +74,7 @@ Al agregar el objeto visual de Power Apps al informe, se inicia Power Apps Studi
     ![cambiar las dimensiones de la galería](media/power-bi-visualization-powerapp/power-bi-powerapps-gallery.png)
 
 
-8. En **Galería**, inserte un control de etiqueta de texto.
+8. En **Galería** , inserte un control de etiqueta de texto.
 
    ![control de etiqueta](media/power-bi-visualization-powerapp/power-bi-label.png)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 10/29/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 899dc5092ac86e08d552758e74dfabd8b373f5c0
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 93d982c684014430009a80112da841820e7b0fc9
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044706"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396408"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configuración de compatibilidad con Multi-Geo en Power BI Premium
 
@@ -98,7 +98,7 @@ Los conjuntos de datos con formato de almacenamiento grande no se deben mover de
 - Una consulta en caché almacenada en una región remota permanece en esa región en reposo. Sin embargo, otros datos en tránsito pueden ir y venir entre distintas geografías.
 - Al mover datos de una región a otra en un entorno de Multi-Geo, los datos de origen pueden permanecer en la región desde donde se movieron los datos durante hasta 30 días. Durante ese período, los usuarios finales no tienen acceso a ellos. Se quitan de esta región y se destruyen durante el período de 30 días.
 - El tráfico de texto de consulta y de resultado de consulta para los modelos de datos importados no atraviesa la región principal. Los metadatos del informe sí provienen todavía de la región remota y ciertos estados de enrutamiento DNS pueden llevar el tráfico fuera de la región. 
-- En la actualidad la característica [flujos de datos](../transform-model/service-dataflows-overview.md) no se admite en Multi-GEO.
+- En la actualidad la característica [flujos de datos](../transform-model/dataflows/dataflows-introduction-self-service.md) no se admite en Multi-GEO.
 - Si se mueven conjuntos de valores con formato de almacenamiento grande desde la región en la que se han creado, se producirá un error en los informes al cargar el conjunto de datos. Vuelva a colocar el conjunto de datos de almacenamiento grande en su región original para que esté disponible. 
 
 ## <a name="next-steps"></a>Pasos siguientes
@@ -107,4 +107,3 @@ Los conjuntos de datos con formato de almacenamiento grande no se deben mover de
 - [Multi-Geo para capacidades de Power BI Embedded](../developer/embedded/embedded-multi-geo.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

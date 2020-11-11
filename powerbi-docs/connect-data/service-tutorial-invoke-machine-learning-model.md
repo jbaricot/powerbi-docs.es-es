@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7e2019d3b554bc4e033c7aee36c41216ba910a9f
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 4124799f15bbccd7c82428d1290ae2ae6420311f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916852"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397125"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Tutorial: Invocación de un modelo de Machine Learning Studio (clásico) en Power BI (versión preliminar)
 
@@ -180,4 +180,4 @@ En este tutorial, ha creado un sencillo experimento mediante Azure Machine Lear
 - Crear un flujo de datos
 - Aplicar las conclusiones del modelo de Azure ML al flujo de datos
 
-Para obtener más información sobre la integración de Azure Machine Learning en Power BI, consulte [Integración de Azure Machine Learning en Power BI (versión preliminar)](../transform-model/service-machine-learning-integration.md).
+Para obtener más información sobre la integración de Azure Machine Learning en Power BI, consulte [Integración de Azure Machine Learning en Power BI (versión preliminar)](../transform-model/dataflows/dataflows-machine-learning-integration.md).

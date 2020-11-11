@@ -10,16 +10,16 @@ ms.date: 10/22/2020
 ms.author: davidi
 ms.custom: references_regions
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4a919c499746711719d679fc5cb9a689731093cc
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: f2efd4410af62425f599b1addd0f792f495120e0
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502342"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397263"
 ---
 # <a name="configure-power-bi-premium-dataflow-workloads"></a>Configuración de cargas de trabajo de flujo de datos de Power BI Premium
 
-Puede crear cargas de trabajo de flujo de datos en su suscripción de Power BI Premium. Power BI usa el concepto de *cargas de trabajo* para describir el contenido de Premium. Las cargas de trabajo incluyen conjuntos de datos, informes paginados, flujos de datos e IA. La carga de trabajo de *flujos de datos* permite usar la preparación de datos de autoservicio de flujos de datos para ingerir, transformar, integrar y enriquecer los datos. Los flujos de datos de Power BI Premium se administran en el **Portal de administración** .
+Puede crear cargas de trabajo de flujo de datos en su suscripción de Power BI Premium. Power BI usa el concepto de *cargas de trabajo* para describir el contenido de Premium. Las cargas de trabajo incluyen conjuntos de datos, informes paginados, flujos de datos e IA. La carga de trabajo de *flujos de datos* permite usar la preparación de datos de autoservicio de flujos de datos para ingerir, transformar, integrar y enriquecer los datos. Los flujos de datos de Power BI Premium se administran en el **Portal de administración**.
 
 ![Portal de administración para flujos de datos en Power BI Premium](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-01.png)
 
@@ -45,11 +45,11 @@ Una vez que se han habilitado los flujos de datos, puede usar el **Portal de adm
 
     ![Cambio del tamaño de una capacidad](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-03.png)
 
-3. En Configuración de la capacidad, puede configurar los valores del flujo de datos expandiendo **Cargas de trabajo** .
+3. En Configuración de la capacidad, puede configurar los valores del flujo de datos expandiendo **Cargas de trabajo**.
 
     ![Expansión de la sección Cargas de trabajo](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-04.png)
 
-4. En la sección **Cargas de trabajo** , desplácese hasta el área **Flujos de datos** . En la imagen siguiente se muestra la configuración que puede usar para controlar o refinar el comportamiento de la carga de trabajo de flujo de datos para su capacidad.
+4. En la sección **Cargas de trabajo** , desplácese hasta el área **Flujos de datos**. En la imagen siguiente se muestra la configuración que puede usar para controlar o refinar el comportamiento de la carga de trabajo de flujo de datos para su capacidad.
 
     ![Configuración de la carga de trabajo de flujo de datos](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-05.png)
 
@@ -69,7 +69,7 @@ En las secciones siguientes, profundizaremos en cada una de las configuraciones 
 
 ### <a name="understanding-dataflow-workload-options"></a>Descripción de las opciones de carga de trabajo de flujo de datos
 
-Una manera sencilla de pensar en las opciones de carga de trabajo de flujo de datos es con el uso de una analogía. El *Tamaño de la capacidad* , o el tipo de instancia de Power BI Premium que tiene, puede considerarse como su *restaurante* . En su restaurante, tiene la *memoria de la carga de trabajo* , que es la *cocina* . El *motor de proceso* es el *horno* . Y, por último, el *contenedor* es el tipo de calidad del *chef* . Para evaluar las opciones de carga de trabajo de flujo de datos, imagine preparar una comida para una cena de muchos comensales o de mucha importancia. Tiene invitados ilustres que van viniendo y la cena debe estar lista para servirse en el momento en que llegan.
+Una manera sencilla de pensar en las opciones de carga de trabajo de flujo de datos es con el uso de una analogía. El *Tamaño de la capacidad* , o el tipo de instancia de Power BI Premium que tiene, puede considerarse como su *restaurante*. En su restaurante, tiene la *memoria de la carga de trabajo* , que es la *cocina*. El *motor de proceso* es el *horno*. Y, por último, el *contenedor* es el tipo de calidad del *chef*. Para evaluar las opciones de carga de trabajo de flujo de datos, imagine preparar una comida para una cena de muchos comensales o de mucha importancia. Tiene invitados ilustres que van viniendo y la cena debe estar lista para servirse en el momento en que llegan.
 
 Usaremos esta analogía del restaurante a medida que explicamos y proporcionamos orientación sobre cada una de las opciones de configuración. Comenzaremos en el nivel superior: la capacidad Premium, ya que es la primera opción que tiene al usar Power BI Premium.
 
@@ -106,7 +106,7 @@ En esta sección se proporcionan instrucciones para escenarios comunes al usar c
 
 Los tiempos de actualización lentos suelen ser una incidencia del paralelismo. Debe revisar las opciones siguientes, en orden:
 
-1. Un concepto clave para los tiempos de actualización lentos es la naturaleza de la preparación de datos. En la analogía del restaurante que se ha explicado anteriormente en este artículo, imagine que ya tiene comida preparada, a la espera de usarse. En este escenario, la comida se puede cocinar mucho más rápido, debido a un tiempo de preparación mínimo. Del mismo modo, y siempre que sea posible, debe optimizar los tiempos de actualización lentos aprovechando el origen de datos, que realmente es el que realiza la preparación y la lógica de consulta inicial. En concreto, al utilizar una base de datos relacional, por ejemplo, SQL como el origen, vea si la consulta inicial se puede ejecutar en el origen y use esa consulta de origen del flujo de datos de extracción inicial para el origen de datos. Si no puede utilizar una consulta nativa en el sistema de origen, realice operaciones que el [motor de flujos de datos pueda doblar en el origen de datos](https://docs.microsoft.com/power-query/power-query-folding).
+1. Un concepto clave para los tiempos de actualización lentos es la naturaleza de la preparación de datos. En la analogía del restaurante que se ha explicado anteriormente en este artículo, imagine que ya tiene comida preparada, a la espera de usarse. En este escenario, la comida se puede cocinar mucho más rápido, debido a un tiempo de preparación mínimo. Del mismo modo, y siempre que sea posible, debe optimizar los tiempos de actualización lentos aprovechando el origen de datos, que realmente es el que realiza la preparación y la lógica de consulta inicial. En concreto, al utilizar una base de datos relacional, por ejemplo, SQL como el origen, vea si la consulta inicial se puede ejecutar en el origen y use esa consulta de origen del flujo de datos de extracción inicial para el origen de datos. Si no puede utilizar una consulta nativa en el sistema de origen, realice operaciones que el [motor de flujos de datos pueda doblar en el origen de datos](/power-query/power-query-folding).
 
 2. Evalúe la distribución de los tiempos de actualización en la misma capacidad. Las operaciones de actualización requieren un proceso considerable. Usando la analogía del restaurante, la distribución de los tiempos de actualización sería como limitar el número de invitados del restaurante. Del mismo modo que los restaurantes programarán los invitados y planearán la capacidad, también querrá tener en cuenta las operaciones de actualización en los momentos en los que el uso no esté en su capacidad máxima. Puede contribuir considerablemente en aliviar la presión sobre la capacidad.
 
@@ -136,7 +136,7 @@ Lleve a cabo los pasos siguientes para habilitar que las cargas de trabajo desen
 
 1. Para la *ingesta* , céntrese en obtener los datos en el almacenamiento lo más rápido posible, usando filtros solo si reducen el tamaño total del conjunto de datos. Un procedimiento recomendado es mantener la lógica de transformación independiente de este paso y permitir que el motor se centre en la recopilación inicial de los ingredientes. A continuación, separe la transformación y la lógica empresarial en un flujo de datos independiente en la misma área de trabajo, utilizando entidades vinculadas o calculadas. Esto permite que el motor active y acelere los cálculos. En nuestra analogía, es como la preparación de los alimentos en la cocina: normalmente es un paso independiente y distinto de la recolección de las materias primas y un requisito previo para poner los alimentos en el horno. Del mismo modo, la lógica debe prepararse por separado para poder aprovechar el motor de proceso.
 
-2. Asegúrese de realizar las operaciones que doblan, como combinaciones, conversiones y [otras](https://docs.microsoft.com/power-query/power-query-folding#transformations-that-can-achieve-folding).
+2. Asegúrese de realizar las operaciones que doblan, como combinaciones, conversiones y [otras](/power-query/power-query-folding#transformations-that-can-achieve-folding).
 
 3. Crear flujos de datos [dentro de las instrucciones y limitaciones publicadas](dataflows-features-limitations.md#dataflows-in-premium).
 

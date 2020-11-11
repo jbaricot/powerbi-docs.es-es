@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 934ffa649885b270dd7f321f45168723f53bc379
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 406a2aebbf5d043ce74ca189c18b384f6c70e716
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600364"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397194"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Tutorial: Uso de Cognitive Services en Power BI
 
@@ -86,7 +86,7 @@ Una vez guardado y actualizado el flujo de datos, puede usarlo en un informe de 
 
 Abra Power BI Desktop. En la cinta Inicio, seleccione **Obtener datos.**
 
-Vaya a los **flujos de datos de Power BI (Beta**) en la sección de Power BI y seleccione **Conectar.**
+Vaya a los **flujos de datos de Power BI (Beta** ) en la sección de Power BI y seleccione **Conectar.**
 
 ![En la captura de pantalla se muestra el panel Obtener datos con flujos de datos de Power BI seleccionados.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 
@@ -175,11 +175,11 @@ Cuando ya no sea necesario, elimine la consulta haciendo clic con el botón dere
 En este tutorial, aplicó las funciones de puntuación de opiniones y etiquetado de imágenes en un flujo de datos de Power BI. Para obtener más información sobre Cognitive Services en Power BI, lea los siguientes artículos.
 
 * [Cognitive Services en Azure](/azure/cognitive-services/)
-* Introducción [a la preparación de datos de autoservicio en flujos de datos](../transform-model/service-dataflows-overview.md)
+* Introducción [a la preparación de datos de autoservicio en flujos de datos](../transform-model/dataflows/dataflows-introduction-self-service.md)
 * Más información sobre [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/)
 
 Puede que también esté interesado en los siguientes artículos.
 
 * [Tutorial: Invocación de un modelo de Machine Learning Studio (clásico) en Power BI (versión preliminar)](service-tutorial-invoke-machine-learning-model.md)
-* [Integración de Azure Machine Learning en Power BI (versión preliminar)](../transform-model/service-machine-learning-integration.md)
-* [Cognitive Services en Power BI (versión preliminar)](../transform-model/service-cognitive-services.md)
+* [Integración de Azure Machine Learning en Power BI (versión preliminar)](../transform-model/dataflows/dataflows-machine-learning-integration.md)
+* [Cognitive Services en Power BI (versión preliminar)](../transform-model/dataflows/dataflows-machine-learning-integration.md)

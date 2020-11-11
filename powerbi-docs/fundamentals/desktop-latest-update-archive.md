@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: bab09647b324e9be8b1de6f27865511b4f2b1a02
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 01d7a433650eb8c74ace37b548ba8d7bf2c570ea
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256348"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396182"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Previous monthly updates to Power BI Desktop (Actualizaciones mensuales a Power BI Desktop anteriores)
 
-Este artículo describe las actualizaciones anteriores de **Power BI Desktop** . Para obtener la versión del mes más actual, vea [**Últimas actualizaciones de** Power BI Desktop](desktop-latest-update.md).
+Este artículo describe las actualizaciones anteriores de **Power BI Desktop**. Para obtener la versión del mes más actual, vea [**Últimas actualizaciones de** Power BI Desktop](desktop-latest-update.md).
 
 Obtenga la versión más reciente de Power BI Desktop desde el [Centro de descarga](https://www.microsoft.com/download/details.aspx?id=58494). Si trabaja con Windows 10, también puede obtener Power BI Desktop desde Microsoft Store en Windows 10. Con independencia de la forma en que instale Power BI Desktop, las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente. Para obtener más información sobre cómo descargar e instalar Power BI Desktop, vea [Obtener Power BI Desktop](desktop-get-the-desktop.md). 
 
@@ -36,7 +36,7 @@ Los vínculos situados junto a cada actualización significan lo siguiente:
 
 También puede ver el vídeo sobre las **últimas actualizaciones** desde el principio, dentro de este mismo artículo, haciendo clic en el icono de **reproducción** de la imagen de vídeo bajo la lista de actualizaciones.
 
-Las secciones siguientes describen las actualizaciones de los meses anteriores de **Power BI Desktop** .
+Las secciones siguientes describen las actualizaciones de los meses anteriores de **Power BI Desktop**.
 
 
 ## <a name="september-2020-update-2852840"></a>Actualización de septiembre de 2020 (2.85.284.0)
@@ -418,7 +418,7 @@ Las siguientes actualizaciones son las novedades de Power BI Desktop de este mes
 
 
 ### <a name="data-preparation"></a>Preparación de datos
-* DirectQuery en flujos de datos [[vídeo]](https://youtu.be/JtuHIslowxk?t=1883) [[artículo]](../transform-model/service-dataflows-directquery.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) 
+* DirectQuery en flujos de datos [[vídeo]](https://youtu.be/JtuHIslowxk?t=1883) [[artículo]](../transform-model/dataflows/dataflows-configure-consume.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) 
 * Web con ejemplos ahora sugiere automáticamente tablas de forma predeterminada [[vídeo]](https://youtu.be/JtuHIslowxk?t=1916) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Web_by_example) 
 * Mejoras en Diagnóstico de consulta: Particiones de nivel de privacidad [[vídeo]](https://youtu.be/JtuHIslowxk?t=1931) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Query_Diag) 
 
@@ -548,8 +548,8 @@ También puede descargar versiones anteriores de Power BI Desktop si su organiza
 
 Seleccione los siguientes vínculos para descargar esta versión anterior: 
 
-* [Versión de abril de 2020 de Power BI Desktop: 32 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04.exe)
-* [Versión de abril de 2020 de Power BI Desktop: 64 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04_x64.exe)
+* [Versión de abril de 2020 de Power BI Desktop: 32 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup.exe)
+* [Versión de abril de 2020 de Power BI Desktop: 64 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe)
 
 
 
@@ -848,7 +848,7 @@ En el siguiente vídeo se describe cada una de estas actualizaciones. También p
 
 Nuestras actualizaciones de octubre fueron tan divertidas como una carrera de sacos y más emocionantes que una visita a una casa encantada a medianoche. 
 
-Ya puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop), que ahora se entrega como un solo archivo .exe que contiene todos los idiomas admitidos. Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop** . Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
+Ya puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop), que ahora se entrega como un solo archivo .exe que contiene todos los idiomas admitidos. Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop**. Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
 
 > [!IMPORTANT]
 > A partir de la versión de septiembre de 2019, Power BI Desktop solo se publica como un único archivo .exe que contiene todos los idiomas admitidos. La versión .msi ya no se publica.
@@ -926,7 +926,7 @@ En el siguiente vídeo se describe y se muestra cada una de estas actualizacione
 
 Las actualizaciones de septiembre fueron como una emocionante vuelta al cole: nuevas cosas que aprender, actualizaciones de amigos que hemos echado de menos durante el verano y oportunidades de aplicar lo que sabemos en mejores informes futuros. 
 
-Ya puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop), que ahora se entrega como un solo archivo .exe que contiene todos los idiomas admitidos. Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop** . Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
+Ya puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop), que ahora se entrega como un solo archivo .exe que contiene todos los idiomas admitidos. Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop**. Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
 
 > [!IMPORTANT]
 > A partir de la versión de septiembre de 2019, Power BI Desktop solo se publica como un único archivo .exe que contiene todos los idiomas admitidos. La versión .msi ya no se publica.
@@ -991,7 +991,7 @@ En el siguiente vídeo se describe y se muestra cada una de estas actualizacione
 
 Nuestras actualizaciones de agosto fueron excelentes y brillaron en los informes que se pueden crear en Power BI Desktop. 
 
-Ya puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop), que ahora se entrega como un solo archivo .exe que contiene todos los idiomas admitidos. Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop** . Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
+Ya puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop), que ahora se entrega como un solo archivo .exe que contiene todos los idiomas admitidos. Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop**. Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
 
 Los vínculos situados junto a cada actualización significan lo siguiente:
 
@@ -1054,7 +1054,7 @@ También puede descargar versiones anteriores de Power BI Desktop si su organiza
 
 Nuestras actualizaciones de julio despegaron con coloridas ráfagas de características y funcionalidades nuevas para Power BI Desktop. 
 
-Ahora puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop** . Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
+Ahora puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop**. Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
 
 Los vínculos situados junto a cada actualización significan lo siguiente:
 
@@ -1119,7 +1119,7 @@ También puede descargar versiones anteriores de Power BI Desktop si su organiza
 
 Nuestras actualizaciones de junio traen un nuevo esquema de colores para Power BI Desktop y muchas otras mejoras. 
 
-Ahora puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop** . Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
+Ahora puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop**. Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
 
 Los vínculos situados junto a cada actualización significan lo siguiente:
 
@@ -1190,7 +1190,7 @@ En el siguiente vídeo se describe y se muestra cada una de estas actualizacione
 
 Las actualizaciones de mayo traen nuevas y atractivas características y nuevos y coloridos objetos visuales. 
 
-Ahora puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop** . Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
+Ahora puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop**. Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
 
 Los vínculos situados junto a cada actualización significan lo siguiente:
 
@@ -1255,7 +1255,7 @@ En el siguiente vídeo se describe y se muestra cada una de estas actualizacione
 
 Las actualizaciones de abril llegan con novedades para hacer más sencillo el trabajo. 
 
-Ahora puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop** . Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
+Ahora puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop**. Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
 
 Los vínculos situados junto a cada actualización significan lo siguiente:
 
@@ -1327,7 +1327,7 @@ En el siguiente canal de vídeo se describe y se muestra cada una de estas actua
 
 Nuestras actualizaciones de marzo incluyen novedades atractivas y útiles y esperamos que estas mejoras le hagan sentir tan afortunado como si hubiera encontrado un trébol de cuatro hojas. 
 
-Ahora puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop** . Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
+Ahora puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop**. Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
 
 Los vínculos situados junto a cada actualización significan lo siguiente:
 
@@ -1395,7 +1395,7 @@ En el siguiente canal de vídeo se describe y se muestra cada una de estas actua
 Nuestras actualizaciones de febrero hicieron que los clientes se desmayaran y les apasionaran todos los conectores de datos nuevos, las características y las mejoras de análisis. Como en una caja de bombones, nunca se sabe lo que se va a encontrar... pero con esta actualización de febrero, todo resultó absolutamente delicioso. 
 
 
-Puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop** . Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
+Puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop**. Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
 
 
 Los vínculos situados junto a cada actualización significan lo siguiente:
@@ -1463,7 +1463,7 @@ No hubo ninguna versión de Power BI Desktop en enero de 2019, estábamos ocupad
 
 Nuestras actualizaciones de diciembre le hicieron vibrar de emoción, o por lo menos le permitieron crear atractivos objetos visuales basados en datos. 
 
-Ahora puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop** . Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
+Ahora puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop**. Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
 
 Los vínculos situados junto a cada actualización significan lo siguiente:
 
@@ -2163,7 +2163,7 @@ En el siguiente vídeo se describe y se muestra cada una de estas actualizacione
 
 ## <a name="november-2017-update-2524921202"></a>Actualización de noviembre de 2017 (2.52.4921.202)
 
-Noviembre nos dejó una gran cosecha de actualizaciones valiosas para **Power BI Desktop** . 
+Noviembre nos dejó una gran cosecha de actualizaciones valiosas para **Power BI Desktop**. 
 
 Los vínculos situados junto a cada actualización significan lo siguiente:
 
@@ -2222,7 +2222,7 @@ En el siguiente vídeo se describe y se muestra cada una de estas actualizacione
 
 ## <a name="october-2017-update-2514885543"></a>Actualización de octubre de 2017 (2.51.4885.543)
 
-Octubre trajo consigo un grupo increíblemente atractivo de útiles actualizaciones para **Power BI Desktop** . 
+Octubre trajo consigo un grupo increíblemente atractivo de útiles actualizaciones para **Power BI Desktop**. 
 
 Los vínculos situados junto a cada actualización significan lo siguiente:
 

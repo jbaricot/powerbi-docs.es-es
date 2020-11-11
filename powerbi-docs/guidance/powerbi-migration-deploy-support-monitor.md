@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 3e0bb00042b869061b7cb7cebf624e324db7e916
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681031"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396136"
 ---
 # <a name="deploy-to-power-bi"></a>Implementación en Power BI
 
@@ -76,7 +76,7 @@ Durante el proceso de implementación, puede que tenga que trabajar con los admi
 - **Mantenimiento de la puerta de enlace** : puede que se necesite el registro de [nuevos orígenes de datos](../connect-data/service-gateway-data-sources.md) en la puerta de enlace de datos.
 - **Conectores y controladores de puerta de enlace** : es posible que un nuevo origen de datos de propiedad requiera la instalación de un nuevo controlador o un conector personalizado en cada servidor del clúster de puerta de enlace.
 - **Creación de una capacidad Premium** : tal vez pueda usar una [capacidad Premium](../admin/service-premium-capacity-manage.md) existente. También puede haber situaciones en las que esté justificado usar una nueva capacidad Premium. Podría ser el caso cuando quiera separar deliberadamente una carga de trabajo de departamento.
-- **Configuración de un flujo de datos de Power BI** : las actividades de preparación de datos se pueden configurar de una vez en un [flujo de datos de Power BI](../transform-model/service-dataflows-overview.md) mediante Power Query Online. Eso evita tener que replicar el trabajo de preparación de datos en muchos archivos distintos de Power BI Desktop.
+- **Configuración de un flujo de datos de Power BI** : las actividades de preparación de datos se pueden configurar de una vez en un [flujo de datos de Power BI](../transform-model/dataflows/dataflows-introduction-self-service.md) mediante Power Query Online. Eso evita tener que replicar el trabajo de preparación de datos en muchos archivos distintos de Power BI Desktop.
 - **Registro de un nuevo objeto visual de la organización** : el registro de [objetos visuales de la organización](../developer/visuals/power-bi-custom-visuals-organization.md) se puede realizar en el portal de administración en el caso de objetos visuales personalizados que no se originaron en AppSource.
 - **Establecimiento de contenido destacado** : existe una opción de inquilino que controla quién puede [presentar contenido](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/) en la página principal del servicio Power BI.
 - **Establecimiento de etiquetas de confidencialidad** : todas las [etiquetas de confidencialidad](../admin/service-security-data-protection-overview.md) se integran con Microsoft Information Protection.

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a2622d2d3da5e4149e93a2b4b6f04dc87b55d9e1
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 5834230a59f6473624e955827dad36cdd75c04e5
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92917036"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397516"
 ---
 # <a name="ai-with-dataflows"></a>IA con flujos de datos
 
@@ -28,7 +28,7 @@ En este artículo se describen las formas en las que se puede usar la inteligenc
 
 Con Cognitive Services en Power BI, puede aplicar diversos algoritmos de [Azure Cognitive Services](https://azure.microsoft.com/services/cognitive-services/) para enriquecer sus datos en la preparación de datos de autoservicio para flujos de datos.
 
-Los servicios que hoy se admiten son [Análisis de sentimiento](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [Extracción de frases clave](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [Detección de idioma](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) y [Etiquetado de imágenes](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images). Las transformaciones se ejecutan en el servicio Power BI y no requieren una suscripción a Azure Cognitive Services. Esta característica requiere Power BI Premium.
+Los servicios que hoy se admiten son [Análisis de sentimiento](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [Extracción de frases clave](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [Detección de idioma](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) y [Etiquetado de imágenes](/azure/cognitive-services/computer-vision/concept-tagging-images). Las transformaciones se ejecutan en el servicio Power BI y no requieren una suscripción a Azure Cognitive Services. Esta característica requiere Power BI Premium.
 
 ### <a name="enabling-ai-features"></a>**Habilitación de características de IA**
 
@@ -72,7 +72,7 @@ En esta sección se describen las funciones disponibles en Cognitive Services en
 
 La función de detección de idioma evalúa la entrada de texto y, para cada campo, devuelve el nombre del idioma y el identificador ISO. Esta función es útil para las columnas de datos que recopilan texto arbitrario, donde se desconoce el idioma. La función espera los datos en formato de texto como entrada.
 
-Text Analytics reconoce hasta 120 idiomas. Para obtener más información, consulte los [idiomas admitidos](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
+Text Analytics reconoce hasta 120 idiomas. Para obtener más información, consulte los [idiomas admitidos](/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
 
 #### <a name="extract-key-phrases"></a>**Extraer frases clave**
 
@@ -88,7 +88,7 @@ Text Analytics usa un algoritmo de clasificación de aprendizaje automático par
 
 El análisis de sentimiento se realiza en todo el campo de entrada, en lugar de extraerse opiniones para una entidad concreta del texto. En la práctica, existe una tendencia a la precisión de la puntuación para mejorar cuando los documentos contienen una o dos frases en lugar de un gran bloque de texto. Durante una fase de evaluación de objetividad, el modelo determina si un campo de entrada como un todo es objetivo o contiene opiniones. Un campo de entrada que es principalmente objetivo no avanza a la fase de detección de sentimiento, lo que da lugar a una puntuación de 0,50 sin ningún procesamiento adicional. Para los campos de entrada que continúan en la canalización, la siguiente fase genera una puntuación superior o inferior a 0,50, dependiendo del grado de sentimiento detectado en el campo de entrada.
 
-Actualmente, Análisis de sentimiento admite inglés, alemán, español y francés. Otros idiomas están en versión preliminar. Para más información, consulte [Lenguajes admitidos](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
+Actualmente, Análisis de sentimiento admite inglés, alemán, español y francés. Otros idiomas están en versión preliminar. Para más información, consulte [Lenguajes admitidos](/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
 
 #### <a name="tag-images"></a>**Tag Images** (Etiquetar imágenes)
 
@@ -96,7 +96,7 @@ La función **Tag Images** (Etiquetar imágenes) devuelve etiquetas basadas en m
 
 Después de cargar una imagen o especificar una dirección URL de la imagen, los algoritmos de Computer Vision generan etiquetas basadas en los objetos, seres vivos y acciones identificados en la imagen. El etiquetado no se limita al sujeto principal, como una persona en primer plano, sino que también incluye la configuración (interior o exterior), muebles, plantas, animales, accesorios, gadgets, etc.
 
-Esta función requiere una dirección URL de la imagen o un campo Base 64 como entrada. En este momento, el etiquetado de imágenes admite inglés, español, japonés, portugués y chino simplificado. Para más información, consulte [Lenguajes admitidos](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters).
+Esta función requiere una dirección URL de la imagen o un campo Base 64 como entrada. En este momento, el etiquetado de imágenes admite inglés, español, japonés, portugués y chino simplificado. Para más información, consulte [Lenguajes admitidos](/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters).
 
 ## <a name="automated-machine-learning-in-power-bi"></a>Machine Learning automatizado en Power BI
 
@@ -114,7 +114,7 @@ AutoML en Power BI permite a los analistas de datos usar flujos de datos para c
 
 AutoML admite la creación de modelos de **predicción binaria** , **clasificación** y **regresión** para flujos de datos. Estos son tipos de técnicas de aprendizaje automático supervisados, lo que significa que aprenden de los resultados conocidos de las observaciones anteriores para predecir los resultados de otras observaciones. El conjunto de datos de entrada para entrenar un modelo de AutoML es un conjunto de registros que se **etiquetan** con los resultados conocidos.
 
-AutoML en Power BI integra el [aprendizaje automático automatizado](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml) de [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml) para crear los modelos de aprendizaje automático. Sin embargo, no necesita una suscripción a Azure para usar AutoML en Power BI. El proceso de entrenamiento y hospedaje de los modelos de aprendizaje automático se administra por completo en el servicio Power BI.
+AutoML en Power BI integra el [aprendizaje automático automatizado](/azure/machine-learning/service/concept-automated-ml) de [Azure Machine Learning](/azure/machine-learning/service/overview-what-is-azure-ml) para crear los modelos de aprendizaje automático. Sin embargo, no necesita una suscripción a Azure para usar AutoML en Power BI. El proceso de entrenamiento y hospedaje de los modelos de aprendizaje automático se administra por completo en el servicio Power BI.
 
 Después de entrenar un modelo de aprendizaje automático, AutoML genera automáticamente un informe de Power BI que explica el rendimiento probable del modelo. AutoML acentúa la explicabilidad y resalta los influenciadores clave en sus entradas que influyen en las predicciones que devuelve el modelo. El informe también incluye métricas clave para el modelo.
 
@@ -374,8 +374,8 @@ Para obtener más información sobre los flujos de datos, consulte [Introducció
 
 Para obtener más información sobre Azure Machine Learning, consulte:
 
-- Información general:  [¿Qué es Azure Machine Learning?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
-- Guías de inicio rápido y tutoriales de Azure Machine Learning:  [Documentación de Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/)
+- Información general:  [¿Qué es Azure Machine Learning?](/azure/machine-learning/service/overview-what-is-azure-ml)
+- Guías de inicio rápido y tutoriales de Azure Machine Learning:  [Documentación de Azure Machine Learning](/azure/machine-learning/)
 
 > [!NOTE]
 > Se requiere una suscripción de Power BI Premium para usar la integración de Azure Machine Learning.
@@ -387,7 +387,7 @@ Para obtener acceso a un modelo de Azure ML desde Power BI, el usuario debe tene
 - En los modelos de Machine Learning Studio (clásico), acceso de **lectura** al servicio web Machine Learning Studio (clásico)
 - En los modelos de Machine Learning, acceso de **lectura** al área de trabajo de Machine Learning
 
-En los pasos de este artículo se describe cómo conceder un acceso de usuario de Power BI a un modelo hospedado en el servicio Azure ML de modo que pueda tener acceso a este modelo como función de Power Query.  Para más detalles, consulte [Manage access using RBAC and the Azure portal](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal) (Administrar el acceso mediante RBAC y Azure Portal).
+En los pasos de este artículo se describe cómo conceder un acceso de usuario de Power BI a un modelo hospedado en el servicio Azure ML de modo que pueda tener acceso a este modelo como función de Power Query.  Para más detalles, consulte [Manage access using RBAC and the Azure portal](/azure/role-based-access-control/role-assignments-portal) (Administrar el acceso mediante RBAC y Azure Portal).
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
@@ -415,7 +415,7 @@ En los pasos de este artículo se describe cómo conceder un acceso de usuario d
 
 Los científicos de datos usan principalmente Python para desarrollar e incluso implementar sus modelos de aprendizaje automático para Machine Learning.  A diferencia de Machine Learning Studio (clásico), que ayuda a automatizar la tarea de creación de un archivo de esquema para el modelo, en el caso de Machine Learning, el científico de datos debe generar de forma explícita el archivo de esquema mediante Python.
 
-Este archivo de esquema se debe incluir en el servicio web implementado para los modelos de Machine Learning. Para generar de forma automática el esquema para el servicio web, debe proporcionar un ejemplo de la entrada y salida en el script de entrada para el modelo implementado. Consulte la subsección sobre [Generación automática de esquemas de Swagger (opcional) en los modelos de implementación con la documentación del servicio Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema). El vínculo incluye el script de entrada de ejemplo con las instrucciones para la generación de esquemas. 
+Este archivo de esquema se debe incluir en el servicio web implementado para los modelos de Machine Learning. Para generar de forma automática el esquema para el servicio web, debe proporcionar un ejemplo de la entrada y salida en el script de entrada para el modelo implementado. Consulte la subsección sobre [Generación automática de esquemas de Swagger (opcional) en los modelos de implementación con la documentación del servicio Azure Machine Learning](/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema). El vínculo incluye el script de entrada de ejemplo con las instrucciones para la generación de esquemas. 
 
 En concreto, las funciones *input_sample\@* y *output_sample\@* del script de entrada hacen referencia a los formatos de ejemplo de entrada y salida de las variables *input_sample* y *output_sample* , y usan estos ejemplos para generar una especificación OpenAPI (Swagger) para el servicio web durante la implementación.
 
@@ -465,4 +465,4 @@ En los artículos siguientes encontrará más información sobre los flujos de d
 * [Configurar y consumir un flujo de datos](dataflows-configure-consume.md)
 * [Configuración del almacenamiento de flujo de datos para usar Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [Características prémium de flujos de datos](dataflows-premium-features.md)
-* [Limitaciones y consideraciones de flujos de datos](dataflows-features-limitations.md) 
+* [Limitaciones y consideraciones de flujos de datos](dataflows-features-limitations.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f96fa15981de8d86007c6e1fa768f95a77921280
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 21d619c42648f90746af9961475bb531dc24d5ab
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680959"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396665"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Recopilación de requisitos para migrar a Power BI
 
@@ -51,12 +51,12 @@ Compile información detallada y fácil de referenciar sobre los informes, como:
 - **Requisitos de seguridad:** aclare los requisitos de seguridad (como los visores permitidos, los editores permitidos y cualquier necesidad de seguridad de nivel de fila), incluidas las excepciones a la seguridad normal de la organización. Documente cualquier nivel de confidencialidad de datos, privacidad de datos o necesidades regulatorias o de cumplimiento.
 - **Cálculos, KPI y reglas de negocio:** identifique y documente todos los cálculos, KPI y reglas de negocio que estén definidos actualmente en el informe existente para que se puedan alinear con los requisitos de datos.
 - **Requisitos de uso, diseño y cosméticos:** identifique las necesidades específicas de uso, diseño y cosméticas relacionadas con las visualizaciones de datos, los requisitos de agrupación y ordenación y la visibilidad condicional. Incluya cualquier consideración específica relacionada con la entrega a dispositivos móviles.
-- **Necesidades de impresión y exportación:** determine si hay algún requisito específico para imprimir, exportar o disponer de un diseño perfecto. Estas necesidades influyen en qué tipo de informe va a ser más adecuado (como un informe de Power BI, Excel o paginado). Tenga en cuenta que los consumidores de los informes suelen dar mucha importancia al modo en que siempre han hecho las cosas, así que no tenga miedo de cuestionar su forma de pensar. Asegúrese de hablar de _mejoras_ en lugar de _cambios_ .
+- **Necesidades de impresión y exportación:** determine si hay algún requisito específico para imprimir, exportar o disponer de un diseño perfecto. Estas necesidades influyen en qué tipo de informe va a ser más adecuado (como un informe de Power BI, Excel o paginado). Tenga en cuenta que los consumidores de los informes suelen dar mucha importancia al modo en que siempre han hecho las cosas, así que no tenga miedo de cuestionar su forma de pensar. Asegúrese de hablar de _mejoras_ en lugar de _cambios_.
 - **Riesgos o preocupaciones:** determine si hay otros requisitos técnicos o funcionales para los informes, así como cualquier riesgo o preocupación con respecto a la información que se presenta en ellos.
 - **Incidencias abiertas y elementos de trabajo pendiente:** identifique el mantenimiento futuro, los problemas conocidos o las solicitudes aplazadas para agregarlos al trabajo pendiente en este momento.
 
 > [!TIP]
-> Considere la posibilidad de clasificar los requisitos como requisitos que _debe tener_ o que sería _agradable tener_ . A menudo los consumidores solicitan todo lo que pueden necesitar por adelantado porque creen que puede ser su única oportunidad de realizar solicitudes. Además, al abordar prioridades en varias iteraciones, ponga el trabajo pendiente a disposición de las partes interesadas. Eso ayuda a la comunicación, la toma de decisiones y el seguimiento de los compromisos pendientes.
+> Considere la posibilidad de clasificar los requisitos como requisitos que _debe tener_ o que sería _agradable tener_. A menudo los consumidores solicitan todo lo que pueden necesitar por adelantado porque creen que puede ser su única oportunidad de realizar solicitudes. Además, al abordar prioridades en varias iteraciones, ponga el trabajo pendiente a disposición de las partes interesadas. Eso ayuda a la comunicación, la toma de decisiones y el seguimiento de los compromisos pendientes.
 
 ### <a name="gather-data-requirements"></a>Recopilación de requisitos de datos
 
@@ -74,7 +74,7 @@ Compile información detallada relativa a los datos, como:
 - **Incidencias abiertas y elementos de trabajo pendiente:** agregue cualquier problema conocido, defectos sabidos de calidad de los datos, mantenimiento futuro o solicitudes aplazadas al trabajo pendiente en este momento.
 
 > [!IMPORTANT]
-> La reutilización de datos se puede lograr con [conjuntos de datos compartidos](../connect-data/service-datasets-share.md), que opcionalmente se pueden [certificar](../collaborate-share/service-endorse-content.md) para indicar confiabilidad y mejorar la capacidad de detección. La reutilización de la preparación de datos se puede lograr con [flujos de datos](../transform-model/service-dataflows-overview.md) para reducir la lógica repetitiva en varios conjuntos de datos. Los flujos de datos también pueden reducir de forma considerable la carga sobre los sistemas de origen, ya que los datos se recuperan con menos frecuencia: varios conjuntos de datos pueden importar datos del flujo de datos.
+> La reutilización de datos se puede lograr con [conjuntos de datos compartidos](../connect-data/service-datasets-share.md), que opcionalmente se pueden [certificar](../collaborate-share/service-endorse-content.md) para indicar confiabilidad y mejorar la capacidad de detección. La reutilización de la preparación de datos se puede lograr con [flujos de datos](../transform-model/dataflows/dataflows-introduction-self-service.md) para reducir la lógica repetitiva en varios conjuntos de datos. Los flujos de datos también pueden reducir de forma considerable la carga sobre los sistemas de origen, ya que los datos se recuperan con menos frecuencia: varios conjuntos de datos pueden importar datos del flujo de datos.
 
 ## <a name="identify-improvement-opportunities"></a>Identificación de oportunidades de mejora
 

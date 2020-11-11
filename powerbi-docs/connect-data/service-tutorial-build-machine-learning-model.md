@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ad4715bbecc94934d0f2ac53551b27d82cb4282c
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 49f1b46e89fd05d05928de631b0ea42832801a05
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916967"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397240"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Tutorial: Compilación de un modelo de Machine Learning en Power BI
 
@@ -189,4 +189,4 @@ En este tutorial, ha creado y aplicado un modelo de predicción binaria en Power
 * Aplicación del modelo a una entidad de flujo de datos
 * Uso de la salida puntuada del modelo en un informe de Power BI
 
-Para más información sobre la automatización de Machine Learning en Power BI, consulte [Aprendizaje automático automatizado en Power BI](../transform-model/service-machine-learning-automated.md).
+Para más información sobre la automatización de Machine Learning en Power BI, consulte [Aprendizaje automático automatizado en Power BI](../transform-model/dataflows/dataflows-machine-learning-integration.md).

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cb68cdd0f7ca82c937b1a045055909582c0938d6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 47b1647732c1977e6e8a3992b617e2a35c803c50
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638592"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396409"
 ---
 # <a name="configure-and-consume-a-dataflow"></a>Configurar y consumir un flujo de datos
 
@@ -40,12 +40,12 @@ Las opciones de **Configuración** ofrecen diversas alternativas para el flujo d
 
 * **Actualización programada:** aquí puede definir a qué horas del día se actualiza el flujo de datos seleccionado. Un flujo de datos se puede actualizar con la misma frecuencia que un conjunto de datos.
 
-* **Enhanced Compute Engine settings** (Configuración mejorada del motor de proceso): aquí puede definir si el flujo de datos se almacena en el motor de proceso. El motor de proceso permite que los flujos de datos posteriores, que hacen referencia a este flujo de datos, realicen fusiones, combinaciones y otras transformaciones mucho más rápido. También permite el uso de DirectQuery en el flujo de datos. Al seleccionar **Activar**, se garantiza que el flujo de datos se admita siempre en el modo DirectQuery, de modo que todas las referencias se benefician del motor. Al seleccionar **Optimizado**, el motor solo se usa si hay una referencia a este flujo de datos. Al seleccionar **Desactivar**, se deshabilita el motor de proceso y la función DirectQuery para este flujo de datos.
+* **Enhanced Compute Engine settings** (Configuración mejorada del motor de proceso): aquí puede definir si el flujo de datos se almacena en el motor de proceso. El motor de proceso permite que los flujos de datos posteriores, que hacen referencia a este flujo de datos, realicen fusiones, combinaciones y otras transformaciones mucho más rápido. También permite el uso de DirectQuery en el flujo de datos. Al seleccionar **Activar** , se garantiza que el flujo de datos se admita siempre en el modo DirectQuery, de modo que todas las referencias se benefician del motor. Al seleccionar **Optimizado** , el motor solo se usa si hay una referencia a este flujo de datos. Al seleccionar **Desactivar** , se deshabilita el motor de proceso y la función DirectQuery para este flujo de datos.
 
 * **Aprobaciones:** puede definir si el flujo de datos está certificado o promovido. 
 
 ## <a name="refreshing-a-dataflow"></a>Actualización de un flujo de datos
-Los flujos de datos actúan como bloques de creación que se colocan unos sobre otros. Supongamos que tiene un flujo de datos denominado *Datos sin procesar* y una entidad vinculada denominada *Datos transformados* que contiene una entidad vinculada a *Datos sin procesar*. Cuando se desencadena la actualización programada para el flujo llamado *Datos sin procesar*, se desencadenan todos los flujos de datos que hacen referencia a este una vez finalizada. Esta funcionalidad crea un efecto en cadena de actualizaciones, lo que le evita tener que programar flujos de datos manualmente. Hay algunos matices que deben tenerse en cuenta cuando se trabaja con actualizaciones de entidades vinculadas:
+Los flujos de datos actúan como bloques de creación que se colocan unos sobre otros. Supongamos que tiene un flujo de datos denominado *Datos sin procesar* y una entidad vinculada denominada *Datos transformados* que contiene una entidad vinculada a *Datos sin procesar*. Cuando se desencadena la actualización programada para el flujo llamado *Datos sin procesar* , se desencadenan todos los flujos de datos que hacen referencia a este una vez finalizada. Esta funcionalidad crea un efecto en cadena de actualizaciones, lo que le evita tener que programar flujos de datos manualmente. Hay algunos matices que deben tenerse en cuenta cuando se trabaja con actualizaciones de entidades vinculadas:
 
 * Una actualización desencadenará una entidad vinculada solo si existe en la misma área de trabajo.
 
@@ -59,7 +59,7 @@ Los flujos de datos actúan como bloques de creación que se colocan unos sobre 
 
 ![Actualización incremental del flujo de datos](media/dataflows-configure-consume/dataflow-created-entity.png)
 
-Al establecer la actualización incremental, se agregan parámetros al flujo de datos para especificar el intervalo de fechas. Para obtener información detallada sobre cómo configurar la actualización incremental, consulte el artículo sobre la [actualización incremental en Power Query](https://docs.microsoft.com/power-query/dataflows/incremental-refresh).
+Al establecer la actualización incremental, se agregan parámetros al flujo de datos para especificar el intervalo de fechas. Para obtener información detallada sobre cómo configurar la actualización incremental, consulte el artículo sobre la [actualización incremental en Power Query](/power-query/dataflows/incremental-refresh).
 
 Hay algunas circunstancias en las que no se debe establecer la actualización incremental:
 

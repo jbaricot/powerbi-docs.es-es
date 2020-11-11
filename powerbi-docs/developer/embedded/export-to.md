@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 10/01/2020
-ms.openlocfilehash: f997547bb61bf203f7806dbe68d45beb29c6538b
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: b1d0a94e3dd0ae68231720bc69d2537568efd19f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116463"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396803"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportación de un informe de Power BI a un archivo (versión preliminar)
 
@@ -52,7 +52,7 @@ Especifique las páginas que desea imprimir conforme al valor devuelto de [Obten
 
 ### <a name="bookmarks"></a>Marcadores
 
-Los [marcadores](../../consumer/end-user-bookmarks.md) pueden usarse para guardar un informe en una configuración específica, incluidos los filtros aplicados y el estado de los objetos visuales del informe. Puede usar la API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) para exportar mediante programación el marcador de un informe de dos maneras:
+Los [marcadores](../../consumer/end-user-bookmarks.md) pueden usarse para guardar un informe en una configuración específica, incluidos los filtros aplicados y el estado de los objetos visuales del informe. Puede usar la API [exportToFile](/rest/api/power-bi/reports/exporttofile) para exportar mediante programación el marcador de un informe de dos maneras:
 
 * **Exportar un marcador existente**
 

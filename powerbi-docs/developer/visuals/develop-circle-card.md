@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 09/02/2020
-ms.openlocfilehash: 48a9196dbcf5106ed01e55be8285450ecfc7ca77
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 6c4b39fff9513143c946cc2e92294ae4cbe81427
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92051260"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397470"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>Tutorial: Desarrollo de un objeto visual Circle Card de Power BI
 
@@ -31,15 +31,15 @@ En este tutorial, obtendrá información sobre cómo:
 
 Antes de empezar a desarrollar el objeto visual de Power BI, compruebe que tiene todo lo que se indica en esta sección.
 
-* Necesita una cuenta **Power BI Pro** . Si no la tiene, [regístrese para obtener una versión de prueba gratuita](https://powerbi.microsoft.com/pricing/).
+* Necesita una cuenta **Power BI Pro**. Si no la tiene, [regístrese para obtener una versión de prueba gratuita](https://powerbi.microsoft.com/pricing/).
 
 * [Visual Studio Code (VS Code)](https://www.visualstudio.com/). VS Code es un entorno de desarrollo integrado (IDE) ideal para desarrollar aplicaciones JavaScript y TypeScript.
 
-* [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell), versión 4 o posterior (para Windows). O [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) (para OSX).
+* [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell), versión 4 o posterior (para Windows). O [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) (para OSX).
 
 * Un entorno listo para el desarrollo de un objeto visual de Power BI. [Configure el entorno para el desarrollo de un objeto visual de Power BI](environment-setup.md).
 
-* En este tutorial se usa el informe **US Sales Analysis** . Puede [descargar](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/images/US_Sales_Analysis.pbix) este informe y cargarlo en servicio Power BI, o bien usar su propio informe. Si necesita más información sobre el servicio Power BI y la carga de archivos, consulte el tutorial [Introducción a la creación en el servicio Power BI](../../fundamentals/service-get-started.md).
+* En este tutorial se usa el informe **US Sales Analysis**. Puede [descargar](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/images/US_Sales_Analysis.pbix) este informe y cargarlo en servicio Power BI, o bien usar su propio informe. Si necesita más información sobre el servicio Power BI y la carga de archivos, consulte el tutorial [Introducción a la creación en el servicio Power BI](../../fundamentals/service-get-started.md).
 
 ## <a name="create-a-development-project"></a>Creación de un proyecto de desarrollo
 
@@ -65,20 +65,20 @@ En esta sección, creará un proyecto para el objeto visual Circle Card.
     pbiviz start
     ```
     >[!IMPORTANT]
-    >No cierre la ventana de PowerShell hasta el final del tutorial. Para evitar que se ejecute el visual, escriba Ctrl+C y, si se le pide que finalice el trabajo por lotes, escriba Y y presione *Entrar* .
+    >No cierre la ventana de PowerShell hasta el final del tutorial. Para evitar que se ejecute el visual, escriba Ctrl+C y, si se le pide que finalice el trabajo por lotes, escriba Y y presione *Entrar*.
 
 ## <a name="view-the-circle-card-in-power-bi-service"></a>Visualización del objeto visual Circle Card en el servicio Power BI
 
-Para probar el objeto visual Circle Card en el servicio Power BI, usaremos el informe **US Sales Analysis** . Puede [descargar](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/images/US_Sales_Analysis.pbix) este informe y cargarlo en servicio Power BI.
+Para probar el objeto visual Circle Card en el servicio Power BI, usaremos el informe **US Sales Analysis**. Puede [descargar](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/images/US_Sales_Analysis.pbix) este informe y cargarlo en servicio Power BI.
 
 También puede usar su propio informe para probar los objetos visuales Circle Card.
 
 >[!NOTE]
 >Antes de continuar, compruebe que ha [habilitado la configuración del desarrollador de objetos visuales](environment-setup.md#set-up-power-bi-service-for-developing-a-visual).
 
-1. Inicie sesión en [PowerBI.com](https://powerbi.microsoft.com/) y abra el informe **US Sales Analysis** .
+1. Inicie sesión en [PowerBI.com](https://powerbi.microsoft.com/) y abra el informe **US Sales Analysis**.
 
-2. Seleccione **Más opciones** > **Editar** .
+2. Seleccione **Más opciones** > **Editar**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de la opción Editar el servicio Power BI.](media/develop-circle-card/edit-report.png)
@@ -88,7 +88,7 @@ También puede usar su propio informe para probar los objetos visuales Circle Ca
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla del botón Nueva página en el servicio Power BI.](media/develop-circle-card/new-page.png)
 
-4. Seleccione el **Objeto visual de desarrollador** en el panel **Visualizaciones** .
+4. Seleccione el **Objeto visual de desarrollador** en el panel **Visualizaciones**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla del Objeto visual de desarrollador en el panel Visualizaciones.](media/develop-circle-card/developer-visual.png)
@@ -103,11 +103,11 @@ También puede usar su propio informe para probar los objetos visuales Circle Ca
     Este es un objeto visual simple que muestra el número de veces que se ha llamado al método update. En esta fase, el objeto visual todavía no recupera los datos.
 
     >[!NOTE]
-    >Si el objeto visual muestra un mensaje de error de conexión, abra una nueva pestaña en el explorador, vaya a [https://localhost:8080/assets/status](https://localhost:8080/assets/status) y autorice al explorador para que use esta dirección.
+    >Si el objeto visual muestra un mensaje de error de conexión, abra una nueva pestaña en el explorador, vaya a `https://localhost:8080/assets/status` y autorice al explorador para que use esta dirección.
     >
     >![Captura de pantalla del nuevo objeto visual que muestra un error de conexión.](media/develop-circle-card/connection-error.png)
 
-6. Mientras está seleccionado el nuevo objeto visual, vaya al panel **Campos** , expanda **Sales** y seleccione **Quantity** .
+6. Mientras está seleccionado el nuevo objeto visual, vaya al panel **Campos** , expanda **Sales** y seleccione **Quantity**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla del campo Quantity del servicio Power BI en la tabla Sales del informe US Sales Analysis.](media/develop-circle-card/fields-sales-quantity.png)
@@ -130,15 +130,15 @@ Configure el archivo **visual.ts** eliminando y agregando algunas líneas de có
 
 1. Abra el proyecto en VS Code ( **Archivo** > **Abrir carpeta** ).
 
-2. En el **panel Explorador** , expanda la carpeta **src** y, después, seleccione el archivo **visual.ts** .
+2. En el **panel Explorador** , expanda la carpeta **src** y, después, seleccione el archivo **visual.ts**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla del acceso al archivo visual.ts en VS Code.](media/develop-circle-card/visual-file.png)
 
     > [!IMPORTANT]
-    > Tenga en cuenta los comentarios de la parte superior del archivo **visual.ts** . El permiso para utilizar los paquetes de objetos visuales de Power BI se concede sin cargo en virtud de los términos de la licencia de Massachusetts Institute of Technology (MIT). Como parte del contrato, debe dejar los comentarios en la parte superior del archivo.
+    > Tenga en cuenta los comentarios de la parte superior del archivo **visual.ts**. El permiso para utilizar los paquetes de objetos visuales de Power BI se concede sin cargo en virtud de los términos de la licencia de Massachusetts Institute of Technology (MIT). Como parte del contrato, debe dejar los comentarios en la parte superior del archivo.
 
-3. Quite las siguientes líneas de código del archivo *visual.ts* .
+3. Quite las siguientes líneas de código del archivo *visual.ts*.
 
     * Con *VisualSettings* se importa lo siguiente:
         ```typescript
@@ -147,11 +147,11 @@ Configure el archivo **visual.ts** eliminando y agregando algunas líneas de có
 
     * Las cuatro declaraciones privadas de variables a nivel de clase.
 
-    * Todas las líneas de código dentro del *constructor* .
+    * Todas las líneas de código dentro del *constructor*.
 
-    * Todas las líneas de código dentro del método *update* .
+    * Todas las líneas de código dentro del método *update*.
 
-    * Todas las líneas de código restantes debajo del método *update* , incluidos los métodos *parseSettings* y *enumerateObjectInstances* .
+    * Todas las líneas de código restantes debajo del método *update* , incluidos los métodos *parseSettings* y *enumerateObjectInstances*.
 
 4. Agregue las siguientes líneas de código al final de la sección de importación:
 
@@ -186,7 +186,7 @@ Configure el archivo **visual.ts** eliminando y agregando algunas líneas de có
     }
     ```
 
-6. Guarde el archivo **visual.ts** .
+6. Guarde el archivo **visual.ts**.
 
 ### <a name="add-a-circle-and-text-elements"></a>Adición de un círculo y elementos de texto
 
@@ -194,7 +194,7 @@ Agregue el componente Scalable Vector Graphics (SVG) de D3. Esto permite crear t
 
 1. Abra **visual.ts** en VS Code.
 
-2. Agregue el código siguiente al *constructor* .
+2. Agregue el código siguiente al *constructor*.
 
     ```typescript
     this.svg = d3.select(options.element)
@@ -213,7 +213,7 @@ Agregue el componente Scalable Vector Graphics (SVG) de D3. Esto permite crear t
     >[!TIP]
     >Para mejorar la legibilidad, se recomienda dar formato al documento cada vez que copie fragmentos de código en el proyecto. Haga clic con el botón derecho en cualquier parte de VS Code y seleccione *Dar formato al documento* (Alt+Mayús+F).
 
-3. Guarde el archivo **visual.ts** .
+3. Guarde el archivo **visual.ts**.
 
 ### <a name="set-the-width-and-height"></a>Establecimiento del ancho y la altura
 
@@ -221,7 +221,7 @@ Establezca el ancho y la altura del objeto visual e inicialice los atributos y e
 
 1. Abra **visual.ts** en VS Code.
 
-2. Agregue el código siguiente al método *update* .
+2. Agregue el código siguiente al método *update*.
 
     ```typescript
     let width: number = options.viewport.width;
@@ -255,7 +255,7 @@ Establezca el ancho y la altura del objeto visual e inicialice los atributos y e
         .style("font-size", fontSizeLabel + "px");
     ```
 
-3. Guarde el archivo **visual.ts** .
+3. Guarde el archivo **visual.ts**.
 
 ### <a name="optional-review-the-code-in-the-visuals-file"></a>(Opcional) Revisión del código en el archivo de objetos visuales
 
@@ -365,20 +365,20 @@ Elimine las líneas de código innecesarias del archivo de capacidades.
 
 1. Abra el proyecto en VS Code ( **Archivo** > **Abrir carpeta** ).
 
-2. Seleccione el archivo **capabilities.json** .
+2. Seleccione el archivo **capabilities.json**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla del acceso al archivo capabilities.json en VS Code.](media/develop-circle-card/capabilities-file.png)
 
 3. Quite todos los elementos de los objetos (líneas 14-60).
 
-4. Guarde el archivo **capabilities.json** .
+4. Guarde el archivo **capabilities.json**.
 
 ### <a name="restart-the-circle-card-visual"></a>Reinicio del objeto visual Circle Card
 
 Detenga la ejecución del objeto visual y reinícielo.
 
-1. En la ventana de PowerShell que ejecuta el objeto visual, escriba Ctrl+C y, si se le pide que finalice el trabajo por lotes, escriba Y y presione *Entrar* .
+1. En la ventana de PowerShell que ejecuta el objeto visual, escriba Ctrl+C y, si se le pide que finalice el trabajo por lotes, escriba Y y presione *Entrar*.
 
 2. En PowerShell, inicie el objeto visual.
 
@@ -390,7 +390,7 @@ Detenga la ejecución del objeto visual y reinícielo.
 
 Compruebe que el objeto visual muestra los elementos que se acaban de agregar.
 
-1. En el servicio Power BI, abra el informe *Power BI US Sales Analysis* . Si está utilizando un informe diferente para desarrollar el objeto visual Circle Card, vaya a ese informe.
+1. En el servicio Power BI, abra el informe *Power BI US Sales Analysis*. Si está utilizando un informe diferente para desarrollar el objeto visual Circle Card, vaya a ese informe.
 
 2. Asegúrese de que el objeto visual se forma como un círculo.
 
@@ -412,7 +412,7 @@ Use este ajuste para que el objeto visual se recargue automáticamente cada vez 
 
 2. Seleccione el objeto visual Circle Card.
 
-3. En la barra de herramientas flotante, seleccione **Activar recarga automática** .
+3. En la barra de herramientas flotante, seleccione **Activar recarga automática**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla del clic en la opción Activar recarga automática, en la barra de herramientas flotante del objeto visual Circle Card.](media/develop-circle-card/toggle-auto-reload.png)
@@ -427,13 +427,13 @@ Modifique el archivo **capabilities.json** para definir el rol de datos y las as
 
 * **Definición del rol de datos**
 
-    Defina la matriz *dataRoles* con un solo rol de datos del tipo *measure* . Este rol de datos se denomina *measure* y se muestra como *Measure* . Permite pasar un campo de medida o un campo que se suma.
+    Defina la matriz *dataRoles* con un solo rol de datos del tipo *measure*. Este rol de datos se denomina *measure* y se muestra como *Measure*. Permite pasar un campo de medida o un campo que se suma.
 
     1. Abra el archivo **capabilities.json** en VS Code.
 
     2. Quite todo el contenido dentro de la matriz **dataRoles** (líneas 3-12).
 
-    3. Inserte el código siguiente en la matriz **dataRoles** .
+    3. Inserte el código siguiente en la matriz **dataRoles**.
 
         ```json
         {
@@ -443,17 +443,17 @@ Modifique el archivo **capabilities.json** para definir el rol de datos y las as
         }
         ```
 
-    4. Guarde el archivo **capabilities.json** .
+    4. Guarde el archivo **capabilities.json**.
 
 * **Definición de la asignación de vista de datos**
 
-    Defina un archivado llamado *measure* en la matriz *dataViewMappings* . Este campo se puede pasar al rol de datos.
+    Defina un archivado llamado *measure* en la matriz *dataViewMappings*. Este campo se puede pasar al rol de datos.
 
     1. Abra el archivo **capabilities.json** en VS Code.
 
     2. Quite todo el contenido de la matriz **dataViewMappings** (líneas 10-30).
 
-    3. Inserte el código siguiente en la matriz **dataViewMappings** .
+    3. Inserte el código siguiente en la matriz **dataViewMappings**.
 
         ```json
         {
@@ -466,15 +466,15 @@ Modifique el archivo **capabilities.json** para definir el rol de datos y las as
         }
         ```
 
-    4. Guarde el archivo **capabilities.json** .
+    4. Guarde el archivo **capabilities.json**.
 
 ### <a name="optional-review-the-capabilities-file-code-changes"></a>(Opcional) Revisión de los cambios en el código del archivo de capacidades
 
-Compruebe que el objeto visual Circle Card muestra el campo *measure* y revise los cambios realizados mediante la opción *Mostrar vista de datos* . 
+Compruebe que el objeto visual Circle Card muestra el campo *measure* y revise los cambios realizados mediante la opción *Mostrar vista de datos*. 
 
-1. En el servicio Power BI, abra el informe *Power BI US Sales Analysis* . Si está utilizando un informe diferente para desarrollar el objeto visual Circle Card, vaya a ese informe.
+1. En el servicio Power BI, abra el informe *Power BI US Sales Analysis*. Si está utilizando un informe diferente para desarrollar el objeto visual Circle Card, vaya a ese informe.
 
-2. Observe que ahora se puede configurar el objeto visual Circle Card con un campo denominado *Measure* . Puede arrastrar y colocar los elementos del panel **Campos** en el campo *Measure* .
+2. Observe que ahora se puede configurar el objeto visual Circle Card con un campo denominado *Measure*. Puede arrastrar y colocar los elementos del panel **Campos** en el campo *Measure*.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla del campo Measure de Circle Card, en el panel de visualización del servicio Power BI.](media/develop-circle-card/measure.png)
@@ -482,7 +482,7 @@ Compruebe que el objeto visual Circle Card muestra el campo *measure* y revise l
     > [!Note]
     > El proyecto de objeto visual todavía no incluye la lógica de enlace de datos.
 
-3. En la barra de herramientas flotante, seleccione **Mostrar vista de datos** . 
+3. En la barra de herramientas flotante, seleccione **Mostrar vista de datos**. 
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla del botón Mostrar vista de datos, situado en la barra de herramientas flotante de Circle Card.](media/develop-circle-card/show-dataview.png)
@@ -492,12 +492,12 @@ Compruebe que el objeto visual Circle Card muestra el campo *measure* y revise l
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de la figura de valor tal como se muestra en la opción Mostrar vista de datos de Circle Card.](media/develop-circle-card/value.png)
 
-5. Expanda **Metadatos** , luego la matriz de **columnas** y revise los valores **format** y **displayName** .
+5. Expanda **Metadatos** , luego la matriz de **columnas** y revise los valores **format** y **displayName**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de los valores format y displayName, tal y como se muestra en la opción Mostrar vista de datos de Circle Card.](media/develop-circle-card/colunms.png)
 
-6. Para volver al objeto visual, en la barra de herramientas flotante sobre el objeto visual, seleccione **Mostrar vista de datos** .
+6. Para volver al objeto visual, en la barra de herramientas flotante sobre el objeto visual, seleccione **Mostrar vista de datos**.
 
 ### <a name="configure-the-visual-to-consume-data"></a>Configuración del objeto visual para consumir datos
 
@@ -513,7 +513,7 @@ Realice cambios en el archivo **visual.ts** para que el objeto visual Circle Car
 
 3. En el método *update* , haga lo siguiente:
 
-    * Agregue la siguiente instrucción como primera instrucción. Esta instrucción asigna *dataView* a una variable para facilitar el acceso y declara la variable para hacer referencia a dicho objeto *dataView* .
+    * Agregue la siguiente instrucción como primera instrucción. Esta instrucción asigna *dataView* a una variable para facilitar el acceso y declara la variable para hacer referencia a dicho objeto *dataView*.
 
         ```typescript
         let dataView: DataView = options.dataViews[0];
@@ -531,7 +531,7 @@ Realice cambios en el archivo **visual.ts** para que el objeto visual Circle Car
         .text(dataView.metadata.columns[0].displayName)
         ```
 
-4. Guarde el archivo **visual.ts** .
+4. Guarde el archivo **visual.ts**.
 
 5. Revise el objeto visual en el servicio Power BI. El objeto visual muestra ahora el valor y el nombre para mostrar.
 

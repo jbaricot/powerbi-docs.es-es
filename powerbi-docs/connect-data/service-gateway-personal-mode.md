@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 11/09/2020
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 96c7a12e556fde805178bceabfe86f9eff8b9d5c
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ae41c393d6c2a7db869627eedea3dafe3b618a78
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632581"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483659"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Uso de puertas de enlace personales en Power BI
 
@@ -99,6 +99,7 @@ Combinación rápida en una puerta de enlace personal ayuda a omitir niveles de 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
+* [Agregar o quitar un origen de datos de puerta de enlace](service-gateway-data-sources.md)
 * [Configuración de los valores del proxy para la puerta de enlace de datos local](/data-integration/gateway/service-gateway-proxy)  
 
 ¿Tiene más preguntas? Consulte la [Comunidad de Power BI](https://community.powerbi.com/).

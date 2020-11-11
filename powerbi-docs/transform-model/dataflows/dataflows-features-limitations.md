@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b8811d9b869d4aa3592c9ed3531d067701b544a8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638995"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396596"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>Limitaciones y consideraciones de flujos de datos
 
@@ -24,12 +24,12 @@ Existen algunas limitaciones en los flujos de entrada en cuanto a la creación, 
 
 Al crear flujos de datos, los usuarios deben tener en cuenta lo siguiente:
 
-* La creación de flujos de datos se realiza en el entorno de Power Query Online (PQO); consulte las limitaciones que se describen en [Límites de Power Query](https://docs.microsoft.com/power-query/power-query-online-limits).
+* La creación de flujos de datos se realiza en el entorno de Power Query Online (PQO); consulte las limitaciones que se describen en [Límites de Power Query](/power-query/power-query-online-limits).
 Dado que la creación de flujos de datos se realiza en el entorno de Power Query Online (PQO), las actualizaciones realizadas en las configuraciones de la carga de trabajo de flujos de datos solo afectan a las actualizaciones, y no a la experiencia de creación.
 
 * Los flujos de datos solo pueden ser modificarlos sus propietarios.
 
-* Los flujos de datos no están disponibles en *Mi área de trabajo* .
+* Los flujos de datos no están disponibles en *Mi área de trabajo*.
 
 * Los flujos de datos que usan orígenes de datos de puerta de enlace no admiten varias credenciales para el mismo origen de datos.
 
@@ -37,7 +37,7 @@ Dado que la creación de flujos de datos se realiza en el entorno de Power Query
 
 ## <a name="api-considerations"></a>Consideraciones sobre las API
 
-Se puede encontrar más información sobre las API REST de flujos de datos en la [referencia de la API REST](https://docs.microsoft.com/rest/api/power-bi/dataflows). Estas son algunos aspectos que se deben tener en cuenta:
+Se puede encontrar más información sobre las API REST de flujos de datos en la [referencia de la API REST](/rest/api/power-bi/dataflows). Estas son algunos aspectos que se deben tener en cuenta:
 
 * Al exportar e importar un flujo de datos, ese flujo de datos recibe un nuevo identificador.
 
@@ -111,4 +111,3 @@ En los artículos siguientes encontrará más información sobre los flujos de d
 * [Configuración del almacenamiento de flujo de datos para usar Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [Características prémium de flujos de datos](dataflows-premium-features.md)
 * [IA con flujos de datos](dataflows-machine-learning-integration.md)
-

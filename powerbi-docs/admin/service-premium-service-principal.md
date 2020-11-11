@@ -7,14 +7,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5e07cafc5c507d090d56a0d973e2c02aa873c3e2
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 406b526f9e2dd146ee99629ed913c60b95989cb0
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116509"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483728"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Automatización de tareas de área de trabajo y conjunto de datos de Premium con entidades de servicio
 
@@ -22,7 +22,7 @@ Las entidades de servicio son un *registro de aplicación* de Azure Active Direc
 
 Power BI Premium usa la misma funcionalidad de entidad de servicio que Power BI Embedded. Para más información, consulte [Inserción de contenido de Power BI con entidad de servicio y secreto de aplicación](../developer/embedded/embed-service-principal.md).
 
-En **Power BI Premium**, las entidades de servicio también se pueden usar con el [punto de conexión XMLA](service-premium-connect-tools.md) para automatizar tareas de administración de conjuntos de datos tales como aprovisionamiento de áreas de trabajo, implementación de modelos y actualización de conjuntos de datos, mediante:
+En **Power BI Premium** , las entidades de servicio también se pueden usar con el [punto de conexión XMLA](service-premium-connect-tools.md) para automatizar tareas de administración de conjuntos de datos tales como aprovisionamiento de áreas de trabajo, implementación de modelos y actualización de conjuntos de datos, mediante:
 
 - PowerShell
 - Azure Automation
@@ -32,9 +32,6 @@ En **Power BI Premium**, las entidades de servicio también se pueden usar con 
 Solo las [nuevas áreas de trabajo](../collaborate-share/service-new-workspaces.md) admiten conexiones de punto de conexión XMLA mediante entidades de servicio. No se admiten las áreas de trabajo clásicas. Una entidad de servicio tiene los permisos necesarios para realizar tareas en las áreas de trabajo a las que se asignan. Los permisos se asignan mediante el acceso al área de trabajo, de forma muy similar a las cuentas UPN normales.
 
 Para realizar operaciones de escritura, la **carga de trabajo de los conjuntos de datos** de la capacidad debe tener el [punto de conexión XMLA habilitado para lectura y escritura](service-premium-connect-tools.md#enable-xmla-read-write). Los conjuntos de datos publicados desde Power BI Desktop deben tener habilitada la característica [Enhanced metadata format](../connect-data/desktop-enhanced-dataset-metadata.md) (Formato de metadatos mejorado).
-
-> [!NOTE]
-> La característica de punto de conexión XMLA de Power BI Premium está en **versión preliminar**. Las características en versión preliminar no se deben utilizar en un entorno de producción. Ciertas funciones, compatibilidades y documentaciones están limitadas.  Para obtener más información, consulte los [términos de Microsoft Online Services (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1).
 
 ## <a name="create-a-service-principal"></a>Creación de una entidad de servicio
 

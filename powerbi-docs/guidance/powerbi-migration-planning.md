@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 590e28c727cab88b008d7a05e7df22244e8dabf0
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fd57d893a0c381c345364306e04d4897597b36f1
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803369"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396987"
 ---
-# <a name="plandeploymenttomigratetopowerbi"></a>Planeamiento de la implementación para migrar a Power BI
+# <a name="plan-deployment-to-migrate-to-power-bi"></a>Planeamiento de la implementación para migrar a Power BI
 
-En este artículo se explica la **fase 2**, que se refiere a la planeación de la migración de una única solución de Power BI.
+En este artículo se explica la **fase 2** , que se refiere a la planeación de la migración de una única solución de Power BI.
 
 :::image type="content" source="media/powerbi-migration-planning/migrate-to-powerbi-stage-2.png" alt-text="Imagen que muestra las fases de una migración de Power BI. En este artículo se resalta la fase 2.":::
 
@@ -75,7 +75,7 @@ Hay varias decisiones clave que se deben tomar en relación con la posibilidad d
 - Si los consumidores quieren personalizar un informe, ¿pueden [guardar una copia](../connect-data/service-datasets-copy-reports.md) y personalizarla de acuerdo a sus necesidades?
 
 > [!CAUTION]
-> Aunque la capacidad _Guardar una copia_ es una característica cómoda, se debe usar con precaución si el informe incluye determinados gráficos o mensajes de encabezado y pie de página. Dado que los logotipos, los iconos y los mensajes textuales suelen estar relacionados con los requisitos de personalización de marca o el cumplimiento normativo, es importante controlar cuidadosamente cómo se entregan y distribuyen. Si se usa _Guardar una copia_, pero el nuevo autor no modifica los gráficos ni los mensajes de encabezado y pie de página originales, puede producirse confusión en torno a quién ha elaborado el informe en realidad. También se puede reducir el sentido de la personalización de marca.
+> Aunque la capacidad _Guardar una copia_ es una característica cómoda, se debe usar con precaución si el informe incluye determinados gráficos o mensajes de encabezado y pie de página. Dado que los logotipos, los iconos y los mensajes textuales suelen estar relacionados con los requisitos de personalización de marca o el cumplimiento normativo, es importante controlar cuidadosamente cómo se entregan y distribuyen. Si se usa _Guardar una copia_ , pero el nuevo autor no modifica los gráficos ni los mensajes de encabezado y pie de página originales, puede producirse confusión en torno a quién ha elaborado el informe en realidad. También se puede reducir el sentido de la personalización de marca.
 
 ## <a name="evaluate-needs-for-premium-capacity"></a>Evaluación de las necesidades de capacidad Premium
 
@@ -96,7 +96,7 @@ Los datos que se necesitan en un informe pueden influir en varias decisiones. La
 - ¿Es necesario ampliar un conjunto de datos compartido existente con datos o medidas nuevos a fin de satisfacer necesidades adicionales?
 - ¿Qué [modo de almacenamiento de datos](../transform-model/desktop-storage-mode.md) es el más adecuado? Las opciones incluyen el modo de importación, DirectQuery, compuesto o de conexión dinámica.
 - ¿Deben usarse [agregaciones](../transform-model/desktop-aggregations.md) para mejorar el rendimiento de las consultas?
-- ¿Va a resultar útil crear un [flujo de datos](../transform-model/service-dataflows-overview.md) y puede servir como origen de varios conjuntos de datos?
+- ¿Va a resultar útil crear un [flujo de datos](../transform-model/dataflows/dataflows-introduction-self-service.md) y puede servir como origen de varios conjuntos de datos?
 - ¿Se debe registrar un nuevo [origen de datos de puerta de enlace](../connect-data/service-gateway-data-sources.md)?
 
 ## <a name="decide-where-original-content-will-be-stored"></a>Decisión de dónde almacenar el contenido original

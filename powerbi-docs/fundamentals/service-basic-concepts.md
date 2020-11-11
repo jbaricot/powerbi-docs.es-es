@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ca6ce7bde592c1153b0a553a906391c3a2c7d5be
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 2e4618988f743ba25795a2a3c3a0a55be1d80c6f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216648"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397171"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceptos básicos para los diseñadores en el servicio Power BI
 
@@ -45,7 +45,7 @@ Más adelante se explicarán estas características de forma detallada, pero pri
 
 
 ## <a name="power-bi-concepts"></a>Conceptos de Power BI
-Los cinco pilares principales de Power BI son los *paneles*, los *informes*, los *libros*, los *conjuntos de datos* y los *flujos de datos*. Todos se organizan en *áreas de trabajo* y se crean en las *capacidades*.  Es importante comprender qué son las áreas de trabajo y las capacidades antes de profundizar en los cuatro bloques de creación, así que vamos a empezar por ahí.
+Los cinco pilares principales de Power BI son los *paneles* , los *informes* , los *libros* , los *conjuntos de datos* y los *flujos de datos*. Todos se organizan en *áreas de trabajo* y se crean en las *capacidades*.  Es importante comprender qué son las áreas de trabajo y las capacidades antes de profundizar en los cuatro bloques de creación, así que vamos a empezar por ahí.
 
 ## <a name="capacities"></a>Capacidades
 Las capacidades son un concepto básico de Power BI que representa un conjunto de recursos (almacenamiento, procesador y memoria) que se usan para hospedar y facilitar el contenido de Power BI. Las capacidades son _compartidas_ o _dedicadas_. Una capacidad compartida es la que se comparte con otros clientes de Microsoft, mientras que una dedicada está confirmada plenamente para un solo cliente. Las capacidades dedicadas requieren una [suscripción](../admin/service-premium-what-is.md) y se describen detalladamente en el artículo [Administración de las capacidades Premium](../admin/service-premium-capacity-manage.md).
@@ -61,7 +61,7 @@ Existen dos tipos de áreas de trabajo: *Mi área de trabajo* y las *áreas de t
 
 -  Las *áreas de trabajo* se usan para colaborar y compartir el contenido con los compañeros. Puede agregar compañeros a las áreas de trabajo y colaborar en paneles, informes, libros y conjuntos de datos. Excepto en un caso concreto, todos los miembros del área de trabajo necesitan licencias de Power BI Pro. Más información sobre las [nuevas áreas de trabajo](../collaborate-share/service-create-the-new-workspaces.md). 
 
-    Las áreas de trabajo también son los lugares donde puede crear, publicar y administrar *aplicaciones* para su organización. Entienda las áreas de trabajo como áreas de almacenamiento provisional y contenedores del contenido que compondrá una aplicación de Power BI. ¿Qué es una *aplicación*? Es una colección de paneles e informes creada para presentar las métricas clave a los consumidores de Power BI de su organización. Las aplicaciones son interactivas, pero los consumidores no pueden editarlas. Los consumidores de la aplicación (los compañeros que tienen acceso a las aplicaciones) no las necesitan.  
+    Las áreas de trabajo también son los lugares donde puede crear, publicar y administrar *aplicaciones* para su organización. Entienda las áreas de trabajo como áreas de almacenamiento provisional y contenedores del contenido que compondrá una aplicación de Power BI. ¿Qué es una *aplicación* ? Es una colección de paneles e informes creada para presentar las métricas clave a los consumidores de Power BI de su organización. Las aplicaciones son interactivas, pero los consumidores no pueden editarlas. Los consumidores de la aplicación (los compañeros que tienen acceso a las aplicaciones) no las necesitan.  
 
 Para más información sobre el uso compartido en general, empiece por [Ways to share dashboards your work](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md) (Formas de compartir paneles en los que trabaja).
 
@@ -70,7 +70,7 @@ Ahora pasemos a los cinco pilares principales de Power BI.
 ## <a name="dataflows"></a>Flujos de datos
 Un *flujo de datos* ayuda a las organizaciones a unificar los datos de orígenes dispares. Son opcionales y se suelen usar en proyectos complejos o grandes. Representan los datos preparados y agregados a una fase intermedia para su uso en conjuntos de datos. Sin embargo, no se pueden usar directamente como origen para la creación de informes. Aprovechan la amplia colección de conectores de datos de Microsoft, lo que permite la ingesta de datos de orígenes de datos locales y basados en la nube.
 
-Los flujos de datos solo se crean y se administran en áreas de trabajo (pero no en *Mi área de trabajo*) y se almacenan como entidades en Common Data Model (CDM) en Azure Data Lake Storage Gen2. Normalmente, están programados para actualizarse de forma periódica para almacenar datos actualizados. Son ideales para preparar los datos para su uso (y para una posible reutilización) en conjuntos de datos. Para obtener más información, vea el artículo [Autoservicio de preparación de los datos en Power BI](../transform-model/service-dataflows-overview.md).
+Los flujos de datos solo se crean y se administran en áreas de trabajo (pero no en *Mi área de trabajo* ) y se almacenan como entidades en Common Data Model (CDM) en Azure Data Lake Storage Gen2. Normalmente, están programados para actualizarse de forma periódica para almacenar datos actualizados. Son ideales para preparar los datos para su uso (y para una posible reutilización) en conjuntos de datos. Para obtener más información, vea el artículo [Autoservicio de preparación de los datos en Power BI](../transform-model/dataflows/dataflows-introduction-self-service.md).
 
 No se pueden tener paneles ni informes sin datos. En realidad, sí que es posible, pero los paneles y los informes no serán útiles hasta que tengan datos. Es por eso que comenzaremos con los **conjuntos de datos**.
 
@@ -93,7 +93,7 @@ En el ejemplo siguiente, he seleccionado el área de trabajo "Sales and marketin
 
 Para [importar o conectarse a un conjunto de datos](../connect-data/service-get-data.md), seleccione **Obtener datos** en la parte inferior del panel de navegación. Siga las instrucciones para importar o conectarse al origen específico y agregue el conjunto de datos al área de trabajo activa. Los nuevos conjuntos de datos se marcan con un asterisco amarillo. El trabajo que realice en Power BI no cambiará el conjunto de datos subyacente.
 
-Los conjuntos de datos que agrega un miembro del área de trabajo están disponibles para otros miembros del área de trabajo con un rol de *administrador*, *miembro* o *colaborador*.
+Los conjuntos de datos que agrega un miembro del área de trabajo están disponibles para otros miembros del área de trabajo con un rol de *administrador* , *miembro* o *colaborador*.
 
 Los conjuntos de datos se pueden actualizar, cambiar de nombre, explorar y eliminar. Use un conjunto de datos para crear un informe desde cero o mediante la ejecución de [información rápida](../create-reports/service-insights.md).  Para ver qué informes y paneles ya están usando un conjunto de datos, seleccione **Ver relacionados**. Para explorar un conjunto de datos, selecciónelo. Lo que realmente hace es abrir el conjunto de datos en el editor de informes, donde puede empezar realmente a profundizar en los datos mediante la creación de visualizaciones.
 
@@ -109,7 +109,7 @@ Ahora, pasemos al siguiente tema: los informes.
 ## <a name="reports"></a>Informes
 Un informe de Power BI se compone de una o más páginas de visualizaciones, como gráficos de líneas, mapas y gráficos de rectángulos. A las visualizaciones también se les denomina **_objetos visuales_**. Todas las visualizaciones de un informe proceden de un único conjunto de datos. Se pueden crear informes desde cero en Power BI, se pueden importar con paneles que otros compañeros compartan con usted o se pueden crear en Power BI mediante la conexión a conjuntos de datos de Excel, Power BI Desktop, bases de datos y aplicaciones SaaS.  Por ejemplo, cuando se conecta a un libro de Excel que contiene hojas de Power View, Power BI crea un informe basado en dichas hojas. Y cuando se conecta a una aplicación de SaaS, Power BI importa un informe previamente creado.
 
-Hay dos maneras de ver los informes e interactuar con ellos: *Vista de lectura* y *vista de edición*. Al abrir un informe, se abre en la vista de lectura. Si tiene permisos de edición, verá **Editar informe** en la esquina superior izquierda y podrá ver el informe en la vista de edición.  Si un informe se encuentra en un área de trabajo, todos los usuarios con un rol de *administrador*, *miembro* o *colaborador* pueden editarlo. Estos usuarios tienen acceso a todas las funcionalidades de exploración, diseño, creación y uso compartido de ese informe en la vista de edición. Las personas con las que comparta el informe pueden explorarlo e interactuar con él mediante la vista de lectura.
+Hay dos maneras de ver los informes e interactuar con ellos: *Vista de lectura* y *vista de edición*. Al abrir un informe, se abre en la vista de lectura. Si tiene permisos de edición, verá **Editar informe** en la esquina superior izquierda y podrá ver el informe en la vista de edición.  Si un informe se encuentra en un área de trabajo, todos los usuarios con un rol de *administrador* , *miembro* o *colaborador* pueden editarlo. Estos usuarios tienen acceso a todas las funcionalidades de exploración, diseño, creación y uso compartido de ese informe en la vista de edición. Las personas con las que comparta el informe pueden explorarlo e interactuar con él mediante la vista de lectura.
 
 Cuando se abre un área de trabajo, los informes asociados aparecen en la pestaña **Informes**. Cada informe de la lista representa una o más páginas de visualizaciones basadas en solo uno de los conjuntos de datos subyacentes. Para abrir un informe, selecciónelo.
 
@@ -164,7 +164,7 @@ Hay muchas maneras diferentes mediante las que usted o un compañero de trabajo 
 
 
 ## <a name="workbooks"></a>Libros
-Los libros son un tipo especial de conjunto de datos. Si ha leído la sección anterior **Conjuntos de datos**, sabrá casi todo lo que necesita saber acerca de los libros. Pero quizás se pregunte por qué a veces, Power BI clasifica un libro de Excel como un **conjunto de datos** y otras veces como un **libro**.
+Los libros son un tipo especial de conjunto de datos. Si ha leído la sección anterior **Conjuntos de datos** , sabrá casi todo lo que necesita saber acerca de los libros. Pero quizás se pregunte por qué a veces, Power BI clasifica un libro de Excel como un **conjunto de datos** y otras veces como un **libro**.
 
 Cuando usa **Obtener datos** con archivos de Excel, tiene la opción de *Importar* o *Conectarse* al archivo. Si elige Conectar, aparecerá el libro en Power BI tal como lo haría en Excel Online. Sin embargo, a diferencia de Excel Online, podrá disfrutar de algunas funciones fantásticas que le ayudarán a anclar elementos de las hojas de cálculo directamente en los paneles.
 
@@ -235,7 +235,7 @@ Con el iniciador de aplicaciones, todas las aplicaciones de Microsoft 365 está
 ![Captura de pantalla del servicio Power BI en la que se muestra el Iniciador de aplicaciones de Office.](media/service-basic-concepts/power-bi-waffle.png)
 
 ### <a name="7-power-bi-home"></a>7. **Inicio de Power BI**
-Si hace clic en **Power BI**, vuelve al inicio de Power BI.
+Si hace clic en **Power BI** , vuelve al inicio de Power BI.
 
    ![Captura de pantalla del servicio Power BI en la que se muestra el icono para volver a la página Inicio de Power BI.](media/service-basic-concepts/version-new.png)
 

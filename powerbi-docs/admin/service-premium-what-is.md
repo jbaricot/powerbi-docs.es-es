@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 6ff1f445172c553116148ffb212129b96f34b1da
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: cb8ac0ad558f15219829e9f32111cacf9f27eb25
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916024"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483751"
 ---
 # <a name="what-is-power-bi-premium"></a>¿Qué es Power BI Premium?
 
@@ -96,7 +96,7 @@ Los recursos y los límites de cada SKU Premium (y la SKU A de tamaño equivalen
 
 ### <a name="capacity-workloads"></a>Cargas de trabajo de capacidad
 
-Las cargas de trabajo de capacidad son servicios disponibles para los usuarios. De forma predeterminada, las capacidades Premium y de Azure solo admiten una carga de trabajo de conjunto de datos asociada con la ejecución de consultas de Power BI. La carga de trabajo de conjunto de datos no se puede deshabilitar. Se pueden habilitar cargas de trabajo adicionales para [IA (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Flujos de datos](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) e [Informes paginados](../paginated-reports/paginated-reports-save-to-power-bi-service.md). Estas cargas de trabajo solo se admiten en las suscripciones Premium. 
+Las cargas de trabajo de capacidad son servicios disponibles para los usuarios. De forma predeterminada, las capacidades Premium y de Azure solo admiten una carga de trabajo de conjunto de datos asociada con la ejecución de consultas de Power BI. La carga de trabajo de conjunto de datos no se puede deshabilitar. Se pueden habilitar cargas de trabajo adicionales para [IA (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Flujos de datos](../transform-model/dataflows/dataflows-introduction-self-service.md) e [Informes paginados](../paginated-reports/paginated-reports-save-to-power-bi-service.md). Estas cargas de trabajo solo se admiten en las suscripciones Premium. 
 
 Cada carga de trabajo adicional permite configurar la memoria máxima (como un porcentaje de la memoria total disponible) que puede usar la carga de trabajo. Los valores predeterminados para la memoria máxima se determinan por SKU. Puede maximizar los recursos disponibles de la capacidad si habilita solo las cargas de trabajo adicionales cuando se usan. Y puede cambiar la configuración de memoria solo cuando disponga de una configuración predeterminada específica que no cumpla los requisitos de recursos de la capacidad. Los administradores de la capacidad pueden habilitar y configurar cargas de trabajo para una capacidad mediante la **configuración de la capacidad** en el [Portal de administración](service-admin-portal.md), o bien con las [API REST de las capacidades](/rest/api/power-bi/capacities).  
 
@@ -235,7 +235,7 @@ Premium permite una amplia distribución de contenido por parte de los usuarios 
 
 Para más información, vea [Licencias de Power BI](service-admin-licensing-organization.md).
 
-## <a name="analysis-services-in-power-bi-premium-preview"></a>Analysis Services en Power BI Premium (versión preliminar)
+## <a name="analysis-services-in-power-bi-premium"></a>Analysis Services en Power BI Premium
 
 De forma interna, el **motor Vertipaq de Analysis Services** probado por Microsoft impulsa los conjuntos de datos y áreas de trabajo de Power BI Premium. Analysis Services proporciona la capacidad de programación y compatibilidad con herramientas y aplicaciones cliente a través de las bibliotecas de cliente y las API que admiten el protocolo XMLA de estándar abierto. De manera predeterminada, las cargas de trabajo del conjunto de datos de la capacidad Premium de Power BI admiten conexiones *de solo lectura* desde herramientas y aplicaciones cliente de Microsoft y de terceros a través de un **punto de conexión de XMLA**. Los administradores de capacidad también pueden optar por deshabilitar o permitir las operaciones de *lectura/escritura* a través del punto de conexión.
 

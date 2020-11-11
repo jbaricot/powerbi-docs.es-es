@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: ae6047950256a783172ef871c2bd58dc15ff033a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 3cce51ad577c700a0f9595a2b92694e5e1b61cc5
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297588"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397401"
 ---
 # <a name="power-bi-data-sources"></a>Orígenes de datos de Power BI
 
-En la tabla siguiente se muestran los orígenes de datos que admite Power BI para los conjuntos de datos, incluida información sobre DirectQuery y la puerta de enlace de datos local. Para más información sobre los flujos de datos, consulte [Conectarse a orígenes de datos de flujos de datos de Power BI](../transform-model/service-dataflows-data-sources.md).
+En la tabla siguiente se muestran los orígenes de datos que admite Power BI para los conjuntos de datos, incluida información sobre DirectQuery y la puerta de enlace de datos local. Para más información sobre los flujos de datos, consulte [Conectarse a orígenes de datos de flujos de datos de Power BI](../transform-model/dataflows/dataflows-configure-consume.md).
 
 | Origen de datos | Conexión desde el Escritorio | Conexión y actualización desde el servicio | DirectQuery/Conexiones dinámicas | Puerta de enlace (compatible) | Puerta de enlace (obligatoria) | Flujos de datos de Power BI |
 |---|---|---|---|---|---|---|---|
@@ -172,9 +172,6 @@ La opción SSO surte efecto en todos los conjuntos de datos que usan este origen
 - Spark
 - SQL Server
 - Teradatos
-
-> [!Note]
-> No se admite Azure Multi-Factor Authentication (MFA). Los usuarios que quieran usar SSO con DirectQuery se deben excluir de MFA.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

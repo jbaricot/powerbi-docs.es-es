@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/07/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4118e5c009a8d7372d5cb58d1e1b9d033a70494e
-ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
+ms.openlocfilehash: 0b4a1275a3b50fbadd37d953b77316d6021c800c
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87988733"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397102"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Comparación de Power BI Desktop y el servicio Power BI
 
@@ -41,7 +41,7 @@ Los editores de informes en Power BI Desktop y en el servicio Power BI son simil
 
 1. Los paneles de navegación superiores, que son distintos en Power BI Desktop y en el servicio Power BI    
 2. El lienzo del informe     
-3. Los paneles **Campos**, **Visualizaciones** y **Filtros**
+3. Los paneles **Campos** , **Visualizaciones** y **Filtros**
 
 En este vídeo se muestra el editor de informes en Power BI Desktop. 
 
@@ -51,11 +51,11 @@ En este vídeo se muestra el editor de informes en Power BI Desktop.
 
 ### <a name="collaborating"></a>Colaboración
 
-Después de crear los informes, puede guardarlos en un *área de trabajo* en el **servicio Power BI**, donde puede colaborar con sus compañeros. Los *paneles* se crean a partir de estos informes y, después, esos paneles e informes se comparten con los consumidores de informes dentro y fuera de la organización. Los consumidores de los informes los visualizan en el servicio Power BI en una *vista de lectura*, no en la vista de edición. No tienen acceso a todas las características disponibles para los creadores de informes.  También puede compartir los conjuntos de datos y permitir que otros usuarios creen sus propios informes a partir de ellos. Obtenga más información sobre la [colaboración en el servicio Power BI](../collaborate-share/service-new-workspaces.md).
+Después de crear los informes, puede guardarlos en un *área de trabajo* en el **servicio Power BI** , donde puede colaborar con sus compañeros. Los *paneles* se crean a partir de estos informes y, después, esos paneles e informes se comparten con los consumidores de informes dentro y fuera de la organización. Los consumidores de los informes los visualizan en el servicio Power BI en una *vista de lectura* , no en la vista de edición. No tienen acceso a todas las características disponibles para los creadores de informes.  También puede compartir los conjuntos de datos y permitir que otros usuarios creen sus propios informes a partir de ellos. Obtenga más información sobre la [colaboración en el servicio Power BI](../collaborate-share/service-new-workspaces.md).
 
 ### <a name="self-service-data-prep-with-dataflows"></a>Preparación de datos de autoservicio con flujos de datos
 
-Los flujos de datos ayudan a las organizaciones a unificar datos desde fuentes diversas y a prepararlos para el modelado. Los analistas pueden crear flujos de datos con facilidad, con el uso de herramientas familiares de autoservicio. Los analistas usan los flujos de datos para ingerir, transformar, integrar y enriquecer macrodatos mediante la definición de conexiones de orígenes de datos, lógica de ETL, programaciones de actualizaciones y mucho más. Más información sobre la [preparación de datos de autoservicio con flujos de datos](../transform-model/service-dataflows-overview.md).
+Los flujos de datos ayudan a las organizaciones a unificar datos desde fuentes diversas y a prepararlos para el modelado. Los analistas pueden crear flujos de datos con facilidad, con el uso de herramientas familiares de autoservicio. Los analistas usan los flujos de datos para ingerir, transformar, integrar y enriquecer macrodatos mediante la definición de conexiones de orígenes de datos, lógica de ETL, programaciones de actualizaciones y mucho más. Más información sobre la [preparación de datos de autoservicio con flujos de datos](../transform-model/dataflows/dataflows-introduction-self-service.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

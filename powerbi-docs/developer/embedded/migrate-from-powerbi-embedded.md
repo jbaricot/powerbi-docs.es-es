@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: f3f76bd7c422d07cb2b390c2aebd92a2d7fe4ef3
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 7d4a548ab24e8493cef340026642021a2f923ee1
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749055"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397424"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Migración de contenido de la colección de áreas de trabajo de Power BI a Power BI Embedded
 
@@ -32,9 +32,9 @@ La colección de áreas de trabajo de Power BI actual seguirá estando disponibl
 Antes de empezar a migrar a la nueva versión de Power BI Embedded, puede hacer un tutorial para configurar el nuevo entorno de Power BI Embedded con la [herramienta de configuración de inserción](https://aka.ms/embedsetup).
 
 Elija la solución que más le convenga:
-* **Inserción para los clientes**: si está interesado en una solución en la que la [aplicación posee los datos](https://aka.ms/embedsetup/AppOwnsData). La [inserción para los clientes](embedding.md#embedding-for-your-customers) permite insertar paneles e informes para los usuarios que no tienen una cuenta de Power BI. 
+* **Inserción para los clientes** : si está interesado en una solución en la que la *aplicación posee los datos*. La [inserción para los clientes](embedding.md#embedding-for-your-customers) permite insertar paneles e informes para los usuarios que no tienen una cuenta de Power BI. 
 
-* **Inserción para la organización**: si está interesado en una solución en la que el [usuario posee los datos](https://aka.ms/embedsetup/UserOwnsData). La [inserción para la organización](embedding.md#embedding-for-your-organization) permite ampliar el servicio Power BI.
+* **Inserción para la organización** : si está interesado en una solución en la que el *usuario posee los datos*. La [inserción para la organización](embedding.md#embedding-for-your-organization) permite ampliar el servicio Power BI.
 
 ## <a name="prepare-for-the-migration"></a>Prepararse para la migración
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ffd11a57267ef69aab7b999a29949c33163e52e8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e052816cb3d633ba5c01d0331e00572a9b51a579
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91639049"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397309"
 ---
 # <a name="premium-features-of-dataflows"></a>Características prémium de flujos de datos
 
@@ -34,14 +34,14 @@ En las secciones siguientes se describe detalladamente cada una de estas caracte
 
 El motor de proceso mejorado de Power BI permite a los suscriptores de Power BI Premium usar su capacidad para optimizar el uso de flujos de datos. El uso del motor de proceso mejorado proporciona las siguientes ventajas:
 
-* Reducción drástica del tiempo de actualización necesario para los pasos ETL de ejecución prolongada en entidades calculadas, como la realización de *combinaciones*, *distinciones*, *filtrados* y *agrupaciones*
+* Reducción drástica del tiempo de actualización necesario para los pasos ETL de ejecución prolongada en entidades calculadas, como la realización de *combinaciones* , *distinciones* , *filtrados* y *agrupaciones*
 * Realización de consultas DirectQuery sobre entidades
 
 A continuación se describe cómo se habilita el motor de proceso mejorado, junto con respuestas a preguntas frecuentes.
 
 ### <a name="using-the-enhanced-compute-engine"></a>Uso del motor de proceso mejorado
 
-El motor de proceso mejorado está habilitado en la página **Configuración de capacidad** en el servicio Power BI, en la sección correspondiente a los **flujos de datos**. De forma predeterminada, el motor de proceso mejorado está **Apagado**. Para habilitar el motor de proceso mejorado, cambie la alternancia a **Encendido**, como se muestra en la siguiente imagen, y guarde la configuración. 
+El motor de proceso mejorado está habilitado en la página **Configuración de capacidad** en el servicio Power BI, en la sección correspondiente a los **flujos de datos**. De forma predeterminada, el motor de proceso mejorado está **Apagado**. Para habilitar el motor de proceso mejorado, cambie la alternancia a **Encendido** , como se muestra en la siguiente imagen, y guarde la configuración. 
 
 ![Encendido del motor de proceso mejorado](media/dataflows-premium-features/compute-engine-settings.png)
 
@@ -52,8 +52,8 @@ Una vez que active el motor de proceso mejorado, vuelva a los **flujos de datos*
 
 Para hacer el mejor uso del motor de proceso, divida la etapa ETL en dos flujos de datos independientes de la siguiente manera:
 
-* **Flujo de datos 1**: este flujo de datos solo debe ingerir todo lo necesario de un origen de datos y colocarlo en el flujo de datos 2.
-* **Flujo de datos 2**: realice todas las operaciones ETL en este segundo flujo de datos, pero asegúrese de que hace referencia al flujo de datos 1, que debe estar en la misma capacidad. Asegúrese también de realizar primero las operaciones que se puedan plegar (filtrar, agrupar por, distinguir, combinar), antes que cualquier otra, para garantizar que se use el motor de proceso.
+* **Flujo de datos 1** : este flujo de datos solo debe ingerir todo lo necesario de un origen de datos y colocarlo en el flujo de datos 2.
+* **Flujo de datos 2** : realice todas las operaciones ETL en este segundo flujo de datos, pero asegúrese de que hace referencia al flujo de datos 1, que debe estar en la misma capacidad. Asegúrese también de realizar primero las operaciones que se puedan plegar (filtrar, agrupar por, distinguir, combinar), antes que cualquier otra, para garantizar que se use el motor de proceso.
 
 ### <a name="common-questions-and-answers"></a>Preguntas y respuestas frecuentes
 
@@ -88,9 +88,9 @@ Puede usar DirectQuery para conectarse directamente a flujos de datos y así con
 
 El uso de DirectQuery con flujos de datos permite las siguientes mejoras en los procesos de Power BI y flujos de entrada:
 
-* **Evitar programaciones de actualización independientes**: DirectQuery se conecta directamente a un flujo de entrada, lo que elimina la necesidad de crear un conjunto de datos importado. Como tal, el uso de DirectQuery con los flujos de datos significa que ya no necesita programaciones de actualización independientes del flujo de datos y el conjunto de datos para asegurarse de que los datos se sincronizan.
+* **Evitar programaciones de actualización independientes** : DirectQuery se conecta directamente a un flujo de entrada, lo que elimina la necesidad de crear un conjunto de datos importado. Como tal, el uso de DirectQuery con los flujos de datos significa que ya no necesita programaciones de actualización independientes del flujo de datos y el conjunto de datos para asegurarse de que los datos se sincronizan.
 
-* **Filtrar datos**: DirectQuery resulta útil para trabajar en una vista filtrada de los datos dentro de un flujo de datos. Si desea filtrar los datos y, por tanto, trabajar con un subconjunto más pequeño de los datos del flujo de datos, puede usar DirectQuery (y el motor de proceso) para filtrar los datos de flujo de datos y trabajar con el subconjunto filtrado que necesite.
+* **Filtrar datos** : DirectQuery resulta útil para trabajar en una vista filtrada de los datos dentro de un flujo de datos. Si desea filtrar los datos y, por tanto, trabajar con un subconjunto más pequeño de los datos del flujo de datos, puede usar DirectQuery (y el motor de proceso) para filtrar los datos de flujo de datos y trabajar con el subconjunto filtrado que necesite.
 
 
 ### <a name="using-directquery-for-dataflows"></a>Uso de DirectQuery en flujos de datos
@@ -146,7 +146,7 @@ Los flujos de datos se pueden configurar de modo que se actualicen incrementalme
 
 ![Actualización incremental](media/dataflows-premium-features/incremental-refresh.png)
 
-Al establecer la actualización incremental, se agregan parámetros al flujo de datos para especificar el intervalo de fechas. Para obtener información detallada sobre cómo configurar la actualización incremental, consulte el artículo sobre la [actualización incremental](https://docs.microsoft.com/power-query/dataflows/incremental-refresh).
+Al establecer la actualización incremental, se agregan parámetros al flujo de datos para especificar el intervalo de fechas. Para obtener información detallada sobre cómo configurar la actualización incremental, consulte el artículo sobre la [actualización incremental](/power-query/dataflows/incremental-refresh).
 
 ### <a name="considerations-for-when-not-to-set-incremental-refresh"></a>Consideraciones sobre cuándo no se debe establecer la actualización incremental
 

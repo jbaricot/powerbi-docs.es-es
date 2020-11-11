@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2020
 ms.author: v-pemyer
-ms.openlocfilehash: ad85ad56db907ca19af7dc14681eb34f8c2b9abc
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 350d4889643556d4e1c6389580415ccba46b55d4
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85398343"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396648"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Creación de tablas de fechas en Power BI Desktop
 
@@ -22,7 +22,7 @@ Este artículo está dirigido a modeladores de datos como usted que trabajan con
 Para trabajar con las [funciones de inteligencia de tiempo](/dax/time-intelligence-functions-dax) de las expresiones de análisis de datos (DAX), hay un requisito previo para el modelo: Debe tener al menos una _tabla de fechas_ en el modelo. Una tabla de fechas es una tabla que cumple los siguientes requisitos:
 
 > [!div class="checklist"]
-> - Debe contener una columna de tipo de datos **fecha**, o **fecha y hora**, conocida como la _columna de fecha_.
+> - Debe contener una columna de tipo de datos **fecha** , o **fecha y hora** , conocida como la _columna de fecha_.
 > - La columna de fecha debe contener valores únicos.
 > - La columna de fecha no debe contener ESPACIOS EN BLANCO.
 > - En la columna de fecha no debe faltar ninguna fecha.
@@ -60,7 +60,7 @@ Puede generar una tabla de fechas mediante Power Query. A continuación, se pres
 - [Generar una tabla de dimensiones de fecha en Power Query](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/), de Chris Webb
 
 > [!TIP]
-> Si no dispone de un almacenamiento de datos u otra definición coherente para los aspectos temporales de su organización, considere la posibilidad de usar Power Query para publicar un [flujo de datos](../transform-model/service-dataflows-overview.md). A continuación, haga que todos los modeladores de datos se conecten al flujo de datos para agregar tablas de fechas a sus modelos. El flujo de datos se convierte en la única fuente de confianza para los aspectos temporales de su organización.
+> Si no dispone de un almacenamiento de datos u otra definición coherente para los aspectos temporales de su organización, considere la posibilidad de usar Power Query para publicar un [flujo de datos](../transform-model/dataflows/dataflows-introduction-self-service.md). A continuación, haga que todos los modeladores de datos se conecten al flujo de datos para agregar tablas de fechas a sus modelos. El flujo de datos se convierte en la única fuente de confianza para los aspectos temporales de su organización.
 
 Si necesita generar una tabla de fechas, considere la posibilidad de hacerlo con DAX. Es posible que le resulte más fácil. Además, puede resultar más conveniente, ya que DAX integra alguna inteligencia para simplificar la creación y administración de tablas de fechas.
 
@@ -82,7 +82,7 @@ Para obtener más información sobre este artículo, consulte los recursos sigui
 - [Fecha y hora automáticas en Power BI Desktop](../transform-model/desktop-auto-date-time.md)
 - [Guía sobre la fecha y hora automáticas en Power BI Desktop](auto-date-time.md)
 - [Configuración y uso de tablas de fechas en Power BI Desktop](../transform-model/desktop-date-tables.md)
-- [Autoservicio de preparación de los datos en Power BI](../transform-model/service-dataflows-overview.md)
+- [Autoservicio de preparación de los datos en Power BI](../transform-model/dataflows/dataflows-introduction-self-service.md)
 - [Función CALENDAR (DAX)](/dax/calendar-function-dax)
 - [Función CALENDARAUTO (DAX)](/dax/calendarauto-function-dax)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

@@ -9,16 +9,16 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 48e8788ca81365e1f46dbe6d3c4804c10f3f308a
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8de033c673d9d08833fdc5a935b92490db369104
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525510"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396757"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>Uso de Conclusiones de IA en Power BI Desktop
 
-En Power BI, puede usar Conclusiones de IA para obtener acceso a una colección de modelos de Machine Learning entrenados previamente que mejoran los esfuerzos de preparación de datos. A Conclusiones de IA se accede en el **Editor de Power Query** y es posible acceder a sus características y funciones asociadas a través de las pestañas **Inicio** y **Agregar columna** del **Editor de Power Query** . 
+En Power BI, puede usar Conclusiones de IA para obtener acceso a una colección de modelos de Machine Learning entrenados previamente que mejoran los esfuerzos de preparación de datos. A Conclusiones de IA se accede en el **Editor de Power Query** y es posible acceder a sus características y funciones asociadas a través de las pestañas **Inicio** y **Agregar columna** del **Editor de Power Query**. 
 
 ![Ubicación de Conclusiones de IA en la cinta de opciones](media/desktop-ai-insights/ai-insights-00.png)
 
@@ -26,7 +26,7 @@ En este artículo se describen las funciones de Text Analytics y Vision, ambas d
 
 ## <a name="how-to-enable-ai-insights"></a>Habilitación de Conclusiones de IA
 
-Conclusiones de IA ha pasado a estar disponible con carácter general en la versión de junio de 2020 de Power BI Desktop. En el caso de las versiones anteriores de Power BI Desktop, habilite Conclusiones de IA en Power BI seleccionando **Archivos > Opciones y configuración > Opciones** y luego **Características en versión preliminar** en la columna izquierda. En el panel de la derecha hay una selección del **explorador de funciones de Conclusiones de IA** . Active la casilla junto al **explorador de funciones de Conclusiones de IA** para habilitar la característica en vista previa (GB). Para que el cambio de la característica en vista previa (GB) se aplique, debe reiniciar Power BI Desktop.
+Conclusiones de IA ha pasado a estar disponible con carácter general en la versión de junio de 2020 de Power BI Desktop. En el caso de las versiones anteriores de Power BI Desktop, habilite Conclusiones de IA en Power BI seleccionando **Archivos > Opciones y configuración > Opciones** y luego **Características en versión preliminar** en la columna izquierda. En el panel de la derecha hay una selección del **explorador de funciones de Conclusiones de IA**. Active la casilla junto al **explorador de funciones de Conclusiones de IA** para habilitar la característica en vista previa (GB). Para que el cambio de la característica en vista previa (GB) se aplique, debe reiniciar Power BI Desktop.
 
 > [!NOTE]
 > Conclusiones de IA está disponible con carácter general para todas las versiones de Power BI Desktop a partir de la versión de junio de 2020 y, para esas versiones, no es necesario habilitarla como una característica en versión preliminar.
@@ -67,7 +67,7 @@ Text Analytics reconoce hasta 120 idiomas. Para obtener más información, consu
 
 #### <a name="extract-key-phrases"></a>Extracción de frases clave
 
-La función **Extracción de frases clave** evalúa el texto no estructurado y, para cada campo de texto, devuelve una lista de frases clave. La función requiere un campo de texto como entrada y acepta una entrada opcional para **información de referencia cultural** .
+La función **Extracción de frases clave** evalúa el texto no estructurado y, para cada campo de texto, devuelve una lista de frases clave. La función requiere un campo de texto como entrada y acepta una entrada opcional para **información de referencia cultural**.
 
 La extracción de frases clave funciona mejor si proporciona fragmentos de texto más grandes con los que trabajar. Con el análisis de sentimiento ocurre lo contrario, ya que su rendimiento es mejor en bloques de texto más pequeños. Para obtener los mejores resultados de ambas operaciones, considere la posibilidad de reestructurar las entradas en consecuencia.
 
@@ -91,9 +91,9 @@ Esta función requiere una dirección URL de la imagen o un campo Base 64 como 
 
 ### <a name="invoking-text-analytics-or-vision-functions-in-power-query"></a>Invocación de funciones de Text Analytics o Vision en Power Query
 
-Para enriquecer sus datos con funciones de Text Analytics o Vision, abra el **Editor de Power Query** . En este ejemplo se describe la puntuación de la opinión de un texto. Los mismos pasos se pueden usar para extraer frases clave, detectar el idioma y etiquetar las imágenes.
+Para enriquecer sus datos con funciones de Text Analytics o Vision, abra el **Editor de Power Query**. En este ejemplo se describe la puntuación de la opinión de un texto. Los mismos pasos se pueden usar para extraer frases clave, detectar el idioma y etiquetar las imágenes.
 
-Seleccione el botón **Text Analytics** en la cinta de opciones **Inicio** o **Agregar columna** . Se le pedirá que inicie sesión.
+Seleccione el botón **Text Analytics** en la cinta de opciones **Inicio** o **Agregar columna**. Se le pedirá que inicie sesión.
 
 ![Análisis de texto](media/desktop-ai-insights/ai-insights-02.png)
 
@@ -105,7 +105,7 @@ Power BI selecciona una capacidad Premium en la que se ejecutará la función y
 
 ![Selección de la capacidad Premium que se va a usar](media/desktop-ai-insights/ai-insights-04.png)
 
-**Cultureinfo** es una entrada opcional para especificar el idioma del texto. Este campo es un código ISO. Puede usar una columna como entrada para Cultureinfo, o bien un campo estático. En este ejemplo, se especifica el idioma como inglés (en) para toda la columna. Si deja este campo en blanco, Power BI detectará automáticamente el idioma antes de aplicar la función. A continuación, seleccione **Aplicar** .
+**Cultureinfo** es una entrada opcional para especificar el idioma del texto. Este campo es un código ISO. Puede usar una columna como entrada para Cultureinfo, o bien un campo estático. En este ejemplo, se especifica el idioma como inglés (en) para toda la columna. Si deja este campo en blanco, Power BI detectará automáticamente el idioma antes de aplicar la función. A continuación, seleccione **Aplicar**.
 
 La primera vez que use Conclusiones de IA en un origen de datos nuevo, se le pedirá que establezca el nivel de privacidad de los datos.
 
@@ -158,7 +158,7 @@ Para usar esta funcionalidad, un científico de datos puede conceder acceso al m
 
 Esta funcionalidad es compatible con Power BI Desktop, los flujos de datos de Power BI y Power Query Online en el servicio Power BI.
 
-Para más información sobre los flujos de datos, consulte [Preparación de datos de autoservicio en Power BI](service-dataflows-overview.md).
+Para más información sobre los flujos de datos, consulte [Preparación de datos de autoservicio en Power BI](./dataflows/dataflows-introduction-self-service.md).
 
 Para más información sobre Azure Machine Learning, consulte los artículos siguientes:
 
@@ -175,11 +175,11 @@ Para obtener acceso a un modelo de Azure ML desde Power BI, el usuario debe tene
 En los pasos de esta sección se describe cómo conceder un acceso de usuario de Power BI a un modelo hospedado en el servicio Azure ML de modo que pueda tener acceso a este modelo como función de Power Query. Para más detalles, consulte [Manage access using RBAC and the Azure portal](/azure/role-based-access-control/role-assignments-portal) (Administrar el acceso mediante RBAC y Azure Portal).
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com/).
-2. Vaya a la página **Suscripciones** . Encontrará la página **Suscripciones** a través de la lista **Todos los servicios** del menú de navegación izquierdo de Azure Portal.
+2. Vaya a la página **Suscripciones**. Encontrará la página **Suscripciones** a través de la lista **Todos los servicios** del menú de navegación izquierdo de Azure Portal.
 3. Seleccionar su suscripción
-4. Seleccione **Control de acceso (IAM)** y, a continuación, el botón **Agregar** .
+4. Seleccione **Control de acceso (IAM)** y, a continuación, el botón **Agregar**.
 5. Seleccione **Lector** como rol. Seleccione el usuario de Power BI a quien desea conceder acceso al modelo de Azure ML.
-6. Seleccione **Guardar** .
+6. Seleccione **Guardar**.
 7. Repita los pasos del tres al seis para conceder acceso de **lectura** al usuario para el servicio web Machine Learning Studio (clásico) específico, *o bien* al área de trabajo de Machine Learning que hospeda el modelo.
 
 ### <a name="schema-discovery-for-machine-learning-models"></a>Detección de esquema para modelos de Machine Learning
@@ -225,7 +225,7 @@ En este artículo se proporcionó información de la integración de Machine Lea
 
 - [Tutorial: Invocación de un modelo de Machine Learning Studio (clásico) en Power BI](../connect-data/service-tutorial-invoke-machine-learning-model.md)
 - [Tutorial: Uso de Cognitive Services en Power BI](../connect-data/service-tutorial-use-cognitive-services.md)
-- [Cognitive Services en Power BI](service-cognitive-services.md)
-- [Integración de Azure Machine Learning en Power BI](service-machine-learning-integration.md)
+- [Cognitive Services en Power BI](./dataflows/dataflows-machine-learning-integration.md)
+- [Integración de Azure Machine Learning en Power BI](./dataflows/dataflows-machine-learning-integration.md)
 - [Supervisión de capacidades Premium con la aplicación](../admin/service-admin-premium-monitor-capacity.md)
 - [Métricas de IA en la aplicación Métricas de capacidad Premium](https://powerbi.microsoft.com/blog/ai-metrics-now-available-in-power-bi-premium-capacity-metrics-app/)
