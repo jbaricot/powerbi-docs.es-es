@@ -1,32 +1,32 @@
 ---
 title: Mostrar los datos que se utilizaron para crear la visualización de Power BI
 description: En este documento se explica cómo mostrar los datos que se usaron para crear un objeto visual en Power BI y cómo exportar esos datos a un archivo .csv.
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 12/4/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b74c0948ba8d22f1917f9750f86e899c8a99a904
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c3e996da62b71c008f4f7a5929cc8b91d38cc26e
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239381"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412795"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Visualización de los datos subyacentes de una visualización
 
 [!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>Mostrar datos
-Una visualización de Power BI se construye con datos provenientes de los conjuntos de datos. Si quiere ver lo que sucede en segundo plano, Power BI le permite *mostrar* los datos que se usan para crear el objeto visual. Cuando se selecciona **Mostrar datos**, Power BI muestra los datos que están situados debajo (o cerca) de la visualización.
+Una visualización de Power BI se construye con datos provenientes de los conjuntos de datos. Si quiere ver lo que sucede en segundo plano, Power BI le permite *mostrar* los datos que se usan para crear el objeto visual. Cuando se selecciona **Mostrar datos** , Power BI muestra los datos que están situados debajo (o cerca) de la visualización.
 
 También puede exportar los datos que se usan para crear la visualización como un archivo .xlsx o .csv y verlos en Excel. Para obtener más información, consulte [Exportar datos de visualizaciones de Power BI](power-bi-visualization-export-data.md).
 
 > [!NOTE]
-> Las opciones *Mostrar datos* y *Exportar datos* están disponibles en el servicio Power BI y Power BI Desktop. Pero Power BI Desktop proporciona un nivel adicional de detalle. Mediante [*Mostrar registros*, se muestran las filas reales del conjunto de datos](../create-reports/desktop-see-data-see-records.md).
+> Las opciones *Mostrar datos* y *Exportar datos* están disponibles en el servicio Power BI y Power BI Desktop. Pero Power BI Desktop proporciona un nivel adicional de detalle. Mediante [*Mostrar registros* , se muestran las filas reales del conjunto de datos](../create-reports/desktop-see-data-see-records.md).
 > 
 > 
 
@@ -54,7 +54,7 @@ También puede exportar los datos que se usan para crear la visualización como 
 ## <a name="using-show-records"></a>Uso de Mostrar registros
 También puede centrarse en un registro de datos de una visualización y profundizar en los datos que contiene. 
 
-1. Para usar **Ver registros**, seleccione una visualización para activarla. 
+1. Para usar **Ver registros** , seleccione una visualización para activarla. 
 
 2. En la cinta de opciones Escritorio, seleccione la pestaña de **Herramientas de objetos visuales**  > **Datos y detalles**  > **Ver registros**. 
 

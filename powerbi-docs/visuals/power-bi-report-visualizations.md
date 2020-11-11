@@ -1,21 +1,21 @@
 ---
 title: Introducción a las visualizaciones de informes en el servicio Power BI y en Power BI Desktop
 description: Introducción a las visualizaciones de informes (objetos visuales) en Microsoft Power BI.
-author: mihart
-ms.author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.author: rien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c94990f3126191cf568c2cc20fb5db0c954a6424
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: be7249411f4e90d99dde38a1da3b6a6656674ea0
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049462"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411346"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizaciones en informes de Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "92049462"
 
 Las visualizaciones (también conocidas como objetos visuales) muestran conclusiones que se han descubierto en los datos. Un informe de Power BI puede tener una sola página con un objeto visual o podría tener páginas enteras de objetos visuales. En el servicio Power BI, los objetos visuales se pueden [anclar desde los informes a los paneles](../create-reports/service-dashboard-pin-tile-from-report.md).
 
-Es importante distinguir entre *diseñadores* de informes y *consumidores* de informes.  Si es la persona que crea o modifica el informe, es un diseñador.  Los diseñadores tienen permisos de edición en el informe y el conjunto de datos subyacente. En Power BI Desktop, esto significa que puede abrir el conjunto de datos en la vista de datos y crear objetos visuales en la vista de informe. En el servicio Power BI, esto significa que puede abrir el conjunto de datos o el informe en el editor de informes en la [vista de edición](../consumer/end-user-reading-view.md). Si un informe o un panel se ha [compartido con usted](../consumer/end-user-shared-with-me.md), será un *consumidor* del informe. No solo podrá ver el informe y sus objetos visuales, sino también interactuar con ellos, pero no podrá realizar tantos cambios como un *diseñador* .
+Es importante distinguir entre *diseñadores* de informes y *consumidores* de informes.  Si es la persona que crea o modifica el informe, es un diseñador.  Los diseñadores tienen permisos de edición en el informe y el conjunto de datos subyacente. En Power BI Desktop, esto significa que puede abrir el conjunto de datos en la vista de datos y crear objetos visuales en la vista de informe. En el servicio Power BI, esto significa que puede abrir el conjunto de datos o el informe en el editor de informes en la [vista de edición](../consumer/end-user-reading-view.md). Si un informe o un panel se ha [compartido con usted](../consumer/end-user-shared-with-me.md), será un *consumidor* del informe. No solo podrá ver el informe y sus objetos visuales, sino también interactuar con ellos, pero no podrá realizar tantos cambios como un *diseñador*.
 
 Existen muchos tipos diferentes de objetos visuales disponibles directamente desde el panel Visualizaciones de Power BI.
 
@@ -65,7 +65,7 @@ Si deja de usar un objeto visual de manera periódica, puede hacer clic con el b
 
 La restauración del panel de visualización solo se aplica a los objetos visuales predeterminados. Los objetos visuales que se agregaron al panel de visualización no se ven afectados y seguirán estando disponibles en el panel de visualización. Si quiere quitar los objetos visuales de AppSource o de archivo del panel de visualización, tendrá que hacerlo manualmente.
 
-Para restaurar el panel de visualización de forma predeterminada, haga clic en Más opciones y seleccione **Restaurar objetos visuales predeterminados** .
+Para restaurar el panel de visualización de forma predeterminada, haga clic en Más opciones y seleccione **Restaurar objetos visuales predeterminados**.
 
 ![Restauración del panel de visualización a los valores predeterminados](media/power-bi-report-visualizations/restore-default.png)
 

@@ -1,21 +1,21 @@
 ---
 title: 'Parte 1: Incorporación de visualizaciones a un informe de Power BI'
 description: 'Parte 1: Incorporación de visualizaciones a un informe de Power BI'
-author: mihart
-ms.reviewer: rien
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 439807717a91a22520969a85a3991b76f8115833
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3a2002c9f17428c84704d68f621cf18443252557
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232375"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411898"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-1"></a>Adición de objetos visuales a un informe de Power BI (parte 1)
 
@@ -68,7 +68,7 @@ En este tutorial se usa el [archivo Sales & marketing PBIX](https://download.mic
 
    ![Captura de pantalla del panel Visualizaciones con el icono Gráfico de columnas apiladas resaltado.](media/power-bi-report-add-visualizations-i/power-bi-convert.png)
 
-1. Para cambiar la forma en que se ordena el objeto visual, seleccione **Más opciones** (...).  Use las opciones de ordenación para cambiar la dirección de la ordenación (ascendente o descendente) y cambiar la columna que se usa para ordenar (**Ordenar por**).
+1. Para cambiar la forma en que se ordena el objeto visual, seleccione **Más opciones** (...).  Use las opciones de ordenación para cambiar la dirección de la ordenación (ascendente o descendente) y cambiar la columna que se usa para ordenar ( **Ordenar por** ).
 
    ![Captura de pantalla de la lista desplegable Más opciones.](media/power-bi-report-add-visualizations-i/power-bi-sort.png)
   

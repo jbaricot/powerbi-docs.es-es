@@ -1,20 +1,20 @@
 ---
 title: Copia y pegado de una visualización en Power BI
 description: Copia y pegado de una visualización en Power BI
-author: mihart
+author: msftrien
 ms.reviewer: maggie tsang
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/18/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 785f16b84dee1509ab04255587724e5ce39a043c
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: fd5fc361431268c37639a336923a4067176f1761
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763158"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411070"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>Copiar y pegado de la visualización de un informe
 
@@ -58,7 +58,7 @@ Cuando se copia una imagen estática de un objeto visual, se obtiene una copia d
 
     ![Icono "Copiar objeto visual como imagen" resaltado](media/power-bi-visualization-copy-paste/power-bi-copy-dashboard.png)
 
-3. Cuando aparezca el cuadro de diálogo **El objeto visual ya se puede copiar**, seleccione **Copiar al portapapeles**.
+3. Cuando aparezca el cuadro de diálogo **El objeto visual ya se puede copiar** , seleccione **Copiar al portapapeles**.
 
     ![Cuadro de diálogo con la opción "Copiar al portapapeles"](media/power-bi-visualization-copy-paste/power-bi-copied.png)
 
@@ -74,7 +74,7 @@ Cuando se copia una imagen estática de un objeto visual, se obtiene una copia d
 
     ![Captura de pantalla que muestra el icono Copiar objeto visual como imagen](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
 
-3. Cuando aparezca el cuadro de diálogo **El objeto visual ya se puede copiar**, seleccione **Copiar al portapapeles**.
+3. Cuando aparezca el cuadro de diálogo **El objeto visual ya se puede copiar** , seleccione **Copiar al portapapeles**.
 
     ![Cuadro de diálogo con la opción "Copiar al portapapeles"](media/power-bi-visualization-copy-paste/power-bi-copied.png)
 
@@ -99,11 +99,11 @@ Si no quiere que los usuarios puedan copiar un objeto visual en concreto, puede 
 1. Seleccione el icono del rodillo de pintura para abrir el panel de formato. 
 
 1. Abra la tarjeta relativa al **formato del objeto visual**.
-1. Desplácese hacia abajo hasta **Encabezado de objeto visual**, expanda la tarjeta y desactive **Icono de copia**.
+1. Desplácese hacia abajo hasta **Encabezado de objeto visual** , expanda la tarjeta y desactive **Icono de copia**.
 
     ![Rodillo de pintura e icono de copia seleccionados](media/power-bi-visualization-copy-paste/power-bi-visual-header.png)
 
-1. Si no encuentra la configuración **Encabezado de objeto visual**, active la opción de encabezado de objeto visual moderno en **Configuración del informe**. 
+1. Si no encuentra la configuración **Encabezado de objeto visual** , active la opción de encabezado de objeto visual moderno en **Configuración del informe**. 
 
     ![Habilitación del encabezado de objeto visual moderno seleccionada](media/power-bi-visualization-copy-paste/power-bi-use-modern.png)
 
@@ -115,7 +115,7 @@ Si es el propietario del contenido o un administrador del inquilino, puede contr
   
 1. Vaya al portal de administración.
 
-1. En **Configuración de inquilinos**, seleccione **Configuración de exportación y uso compartido**. 
+1. En **Configuración de inquilinos** , seleccione **Configuración de exportación y uso compartido**. 
 
     ![Habilitación de la opción para copiar y pegar objetos visuales](media/power-bi-visualization-copy-paste/power-bi-enable.png)
 

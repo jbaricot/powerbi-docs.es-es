@@ -1,20 +1,20 @@
 ---
 title: Traslado, cambio de tamaño y pantalla completa de una visualización
 description: Traslado y cambio de tamaño de una visualización en un informe del servicio Power BI y en Power BI Desktop
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 12/31/2018
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 976ba8661651cfa42cc52b07aae5fd665516f182
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dd7920afb8438e577f0d800ed56c2a577f18807e
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239659"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412818"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>Traslado y cambio de tamaño de una visualización en un informe
 

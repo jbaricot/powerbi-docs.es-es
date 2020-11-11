@@ -1,21 +1,21 @@
 ---
 title: Interactuación con un mapa de ArcGIS compartido con usted
 description: Uso del objeto visual ArcGIS Map for Power BI en la vista de lectura como consumidor de informes
-author: mihart
+author: msftrien
 ms.reviewer: willt, lukasz
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 751d36489590b92c1e03804f100a711b44e028ff
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 7b81ecbc23418fec4bd264e5cb20126f871c7e52
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600292"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413128"
 ---
 # <a name="create-arcgis-maps-in-power-bi"></a>Creación de mapas de ArcGIS en Power BI
 
@@ -66,14 +66,14 @@ Para agregar un mapa a un informe, siga estos pasos:
 
     ![Inicio de sesión de ArcGIS](media/power-bi-visualizations-arcgis/arcgis-tutorial-03.png)
 
-3. En el panel **Campos**, arrastre un campo de datos al campo **Location** (Ubicación) o arrastre las coordenadas en los cubos **Latitude** (Latitud) o **Longitude** (Longitud). En este ejemplo, vamos a usar **Store > City** (Tienda > Ciudad).
+3. En el panel **Campos** , arrastre un campo de datos al campo **Location** (Ubicación) o arrastre las coordenadas en los cubos **Latitude** (Latitud) o **Longitude** (Longitud). En este ejemplo, vamos a usar **Store > City** (Tienda > Ciudad).
 
     > [!NOTE]
     > ArcGIS Maps for Power BI detecta de forma automática si los campos que ha seleccionado se ven mejor como una forma o un punto en un mapa. Puede ajustar el valor predeterminado en la configuración (consulte el apartado sobre cómo [dar formato a la visualización de ArcGIS Maps for Power BI](#format-the-arcgis-maps-for-power-bi-visualization)).
 
     ![Campo Ciudad de ArcGIS](media/power-bi-visualizations-arcgis/arcgis-tutorial-04.png)
 
-4. En el panel **Campos**, arrastre una medida al depósito **Tamaño** para ajustar cómo se muestran los datos. En este ejemplo, vamos a usar **Sales > Last Year Sales** (Ventas > Ventas del último año).
+4. En el panel **Campos** , arrastre una medida al depósito **Tamaño** para ajustar cómo se muestran los datos. En este ejemplo, vamos a usar **Sales > Last Year Sales** (Ventas > Ventas del último año).
 
     ![Campo de tamaño de ArcGIS](media/power-bi-visualizations-arcgis/arcgis-tutorial-05.png)
 
@@ -81,7 +81,7 @@ Ha creado su primer mapa de ArcGIS Maps for Power BI. Ahora, vamos a refinar y 
 
 ## <a name="format-the-arcgis-maps-for-power-bi-visualization"></a>Dar formato a la visualización de ArcGIS Maps for Power BI
 
-Para acceder a las características de formato de **ArcGIS Maps para Power BI**:
+Para acceder a las características de formato de **ArcGIS Maps para Power BI** :
 
 1. En el panel Visualizaciones, haga clic en la pestaña **Formato** para ver las opciones de formateo.
 
@@ -114,7 +114,7 @@ Las herramientas de mapa se expanden para mostrar las características disponibl
 
 #### <a name="change-the-base-map"></a>Cambiar el mapa base
 
-Un mapa base proporciona un fondo o contexto visual para los datos en un mapa. Por ejemplo, un mapa base que muestra las calles puede proporcionar contexto para los datos de la dirección. Con la cuenta **estándar**, se proporcionan cuatro mapas base: Dark Gray Canvas, Light Gray Canvas, OpenStreetMap y Streets.
+Un mapa base proporciona un fondo o contexto visual para los datos en un mapa. Por ejemplo, un mapa base que muestra las calles puede proporcionar contexto para los datos de la dirección. Con la cuenta **estándar** , se proporcionan cuatro mapas base: Dark Gray Canvas, Light Gray Canvas, OpenStreetMap y Streets.
 
 Para cambiar el mapa base, siga estos pasos:
 
@@ -174,7 +174,7 @@ Aparecerá el panel Simbología, con la categoría Tema del mapa expandida.
 
 ##### <a name="change-the-map-theme"></a>Cambio del tema del mapa
 
-En este ejemplo, como hemos agregado valores a los campos **Ubicación** y **Tamaño**, el mapa usa el tema **Tamaño** de forma predeterminada.
+En este ejemplo, como hemos agregado valores a los campos **Ubicación** y **Tamaño** , el mapa usa el tema **Tamaño** de forma predeterminada.
 
 Para cambiar el tema del mapa, siga estos pasos:
 
@@ -192,7 +192,7 @@ Si el mapa contiene varias capas, puede resultar útil representarlas con cierto
 
 Para establecer el valor de transparencia de la capa, siga estos pasos:
 
-1. En el panel **Simbología**, expanda la categoría **Transparencia**.
+1. En el panel **Simbología** , expanda la categoría **Transparencia**.
 
 2. Escriba un porcentaje en el cuadro de texto o mueva el control deslizante a la izquierda (menos transparente) o a la derecha (más transparente).
 
@@ -202,7 +202,7 @@ Los estilos de los símbolos permiten ajustar cómo se presentan los datos en el
 
 Para cambiar el estilo de los símbolos, siga estos pasos:
 
-1. En el panel **Simbología**, expanda la categoría **Estilo de los símbolos**.
+1. En el panel **Simbología** , expanda la categoría **Estilo de los símbolos**.
 
 2. Cambie la configuración de los símbolos como desee. Elija una forma, color, transparencia, color del esquema y grosor de los símbolos. Expanda la categoría Tamaño de los símbolos para cambiar esas opciones; aparecen diferentes opciones dependiendo de la naturaleza de los datos y el tema del mapa seleccionado.
 
@@ -232,14 +232,14 @@ Para mostrar las herramientas de selección, siga estos pasos:
 
 1. En las herramientas de mapa, haga clic en el botón **Herramientas de selección** ![herramientas de selección](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-07.png) para expandir el conjunto de herramientas.
 
-    Hay cuatro herramientas de selección disponibles; es posible que aparezcan diferentes herramientas en el menú **Herramientas de selección**, dependiendo del tipo de capa actualmente activa. Como el mapa de este ejemplo solo contiene una capa de datos, solo aparecerán las herramientas **Selección única** y **Selección de casilla**.
+    Hay cuatro herramientas de selección disponibles; es posible que aparezcan diferentes herramientas en el menú **Herramientas de selección** , dependiendo del tipo de capa actualmente activa. Como el mapa de este ejemplo solo contiene una capa de datos, solo aparecerán las herramientas **Selección única** y **Selección de casilla**.
     
     | **Herramienta** | **Descripción** |
     | --- | --- |
-    | ![selección única](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-08.png) | **Selección única**: esta es una herramienta de selección única que se puede usar para hacer clic en ubicaciones individuales; es la herramienta de selección predeterminada. Presione Ctrl y haga clic para seleccionar varias ubicaciones. Al hacer clic en ubicaciones de datos del mapa, estos se seleccionan y se desencadenan interacciones con otras visualizaciones. Asimismo, al hacer clic en una chincheta o una ubicación de una capa de referencia, se muestra su información sobre herramientas. |
-    | ![selección de casilla](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-09.png)  | **Selección de casilla**: arrastre un selector de rectángulo para seleccionar varias ubicaciones o seleccione ubicaciones individuales haciendo clic en ellas. Al igual que sucede con la herramienta Selección, al hacer clic en una chincheta o una ubicación de una capa de referencia, se muestra su información sobre herramientas. Cuando la herramienta Selección de casilla está activa, no puede desplazar el mapa lateralmente. |
-    | ![icono de selección de capa de referencia](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-10.png)  | **Selección de capa de referencia**: si ha agregado una [capa de referencia](https://doc.arcgis.com/en/maps-for-powerbi/design/add-a-reference-layer.htm) al mapa, use esta herramienta para seleccionar ubicaciones haciendo clic en áreas de la capa de referencia. Las ubicaciones que se encuentran dentro de un área delimitada de una referencia aparecen resaltadas; las ubicaciones de otras áreas del mapa no están disponibles. Esta herramienta solo aparece si el mapa contiene una o varias capas de referencia y una capa de referencia se encuentra activa en la actualidad. |
-    | ![selección de tiempo de conducción](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-11.png)  | **Selección de tiempo de conducción**: si ha agregado un [área de tiempo de conducción](https://doc.arcgis.com/en/maps-for-powerbi/design/find-nearby-locations.htm) al mapa, use la herramienta de selección del área de tiempo de conducción para seleccionar ubicaciones de datos dentro del área definida. |
+    | ![selección única](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-08.png) | **Selección única** : esta es una herramienta de selección única que se puede usar para hacer clic en ubicaciones individuales; es la herramienta de selección predeterminada. Presione Ctrl y haga clic para seleccionar varias ubicaciones. Al hacer clic en ubicaciones de datos del mapa, estos se seleccionan y se desencadenan interacciones con otras visualizaciones. Asimismo, al hacer clic en una chincheta o una ubicación de una capa de referencia, se muestra su información sobre herramientas. |
+    | ![selección de casilla](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-09.png)  | **Selección de casilla** : arrastre un selector de rectángulo para seleccionar varias ubicaciones o seleccione ubicaciones individuales haciendo clic en ellas. Al igual que sucede con la herramienta Selección, al hacer clic en una chincheta o una ubicación de una capa de referencia, se muestra su información sobre herramientas. Cuando la herramienta Selección de casilla está activa, no puede desplazar el mapa lateralmente. |
+    | ![icono de selección de capa de referencia](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-10.png)  | **Selección de capa de referencia** : si ha agregado una [capa de referencia](https://doc.arcgis.com/en/maps-for-powerbi/design/add-a-reference-layer.htm) al mapa, use esta herramienta para seleccionar ubicaciones haciendo clic en áreas de la capa de referencia. Las ubicaciones que se encuentran dentro de un área delimitada de una referencia aparecen resaltadas; las ubicaciones de otras áreas del mapa no están disponibles. Esta herramienta solo aparece si el mapa contiene una o varias capas de referencia y una capa de referencia se encuentra activa en la actualidad. |
+    | ![selección de tiempo de conducción](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-11.png)  | **Selección de tiempo de conducción** : si ha agregado un [área de tiempo de conducción](https://doc.arcgis.com/en/maps-for-powerbi/design/find-nearby-locations.htm) al mapa, use la herramienta de selección del área de tiempo de conducción para seleccionar ubicaciones de datos dentro del área definida. |
     
 2. Seleccione una o varias ubicaciones en el mapa. Puede seleccionar un máximo de 250 puntos de datos a la vez.
 
@@ -280,7 +280,7 @@ Para agregar una capa demográfica, siga estos pasos:
 1. En las herramientas de mapa, haga clic en el botón **Herramientas de análisis** ![icono de herramientas de análisis](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-12.png) para expandir el conjunto de herramientas.
 2. Haga clic en el botón **Capa de referencia** ![selección de capa de referencia](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-13.png).
 
-    Aparece el panel **Capa de referencia**, que muestra la pestaña **Demografía** y su selección de capas.
+    Aparece el panel **Capa de referencia** , que muestra la pestaña **Demografía** y su selección de capas.
 
 3. Desplácese por la galería y haga clic en **Agregar** en la miniatura de la capa que desea agregar al mapa.
 
@@ -327,7 +327,7 @@ Para buscar ubicaciones a una distancia de conducción específica del punto de 
     Aparece el panel **Tiempo de conducción**.
 
 3. Haga clic en la herramienta de selección única y, en el mapa, seleccione la ubicación **Aeropuerto internacional de Pittsburgh** que ancló anteriormente.
-4. En el menú desplegable **Área de búsqueda**, elija **Radio** y especifique una distancia de **100** millas.
+4. En el menú desplegable **Área de búsqueda** , elija **Radio** y especifique una distancia de **100** millas.
 5. Haga clic en **OK**.
 
     El mapa muestra un círculo situado alrededor de la ubicación Aeropuerto anclada. El panel Tiempo de conducción se expande para mostrar las opciones de aplicación de estilos para el área de distancia de conducción.
@@ -354,7 +354,7 @@ Para obtener acceso a la ayuda en línea de ArcGIS Maps for Power BI desde la vi
 
 1. En las herramientas de mapa, haga clic en el botón **Configuración** ![icono de configuración](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-15.png).
 
-2. En el panel **Configuración**, haga clic en el botón **Ayuda**.
+2. En el panel **Configuración** , haga clic en el botón **Ayuda**.
 3. Haga clic en **Aceptar** en la ventana de confirmación que aparece.
 
     La ayuda en línea de ArcGIS Maps for Power BI se abre en una ventana del explorador.

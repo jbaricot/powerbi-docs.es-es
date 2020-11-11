@@ -1,7 +1,7 @@
 ---
 title: Grandes conjuntos de datos, límites de punto de datos y estrategias de datos
 description: Límites de datos para objetos visuales y estrategias de reducción de datos
-author: mihart
+author: msftrien
 ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 89bfba0dc679ddb7a9142c83e863cddaf1400063
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857735"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412059"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Aplicación de estrategias y límites de punto de datos por tipo de objeto visual
 
@@ -31,12 +31,12 @@ Cada objeto visual controla los parámetros en esas estrategias para influir en 
 Para cada estrategia, hay valores predeterminados según la forma y el tipo de datos visualizados. Sin embargo, estos valores se pueden invalidar, en el panel de formato de Power BI, para proporcionar la experiencia de usuario adecuada. 
 
 * **Datos basados en ventanas** (segmentación): permita que los usuarios se desplacen por los datos de un objeto visual mediante la carga progresiva de fragmentos del conjunto de datos general.
-* **TopN**: solo se muestran los primeros N elementos.
-* **Muestra sencilla**: se muestran los elementos primero y último y los N elementos distribuidos entre ellos.
-* **BottomN**: se muestran solo los últimos N elementos.  Resulta útil para supervisar los datos actualizados con frecuencia.
-* **Muestreo de alta densidad**: algoritmo de muestreo mejorado que respeta mejor los valores atípicos o la forma de una curva.
-    * **Muestreo de líneas discretizado**: muestra de puntos de datos según valores atípicos en contenedores a lo largo de un eje.
-    * **Muestreo de datos superpuestos**: muestra de puntos de datos según valores superpuestos para preservar los valores atípicos.
+* **TopN** : solo se muestran los primeros N elementos.
+* **Muestra sencilla** : se muestran los elementos primero y último y los N elementos distribuidos entre ellos.
+* **BottomN** : se muestran solo los últimos N elementos.  Resulta útil para supervisar los datos actualizados con frecuencia.
+* **Muestreo de alta densidad** : algoritmo de muestreo mejorado que respeta mejor los valores atípicos o la forma de una curva.
+    * **Muestreo de líneas discretizado** : muestra de puntos de datos según valores atípicos en contenedores a lo largo de un eje.
+    * **Muestreo de datos superpuestos** : muestra de puntos de datos según valores superpuestos para preservar los valores atípicos.
 
 ## <a name="statistics"></a>Estadísticas
 Determinados modelos pueden proporcionar estadísticas sobre el número de valores en determinadas columnas. Cuando existe dicha información, se aprovecha para proporcionar un mejor equilibrio entre varias jerarquías si un objeto visual no reemplaza de forma explícita el recuento de valores para una estrategia.
@@ -52,7 +52,7 @@ Los límites dinámicos se aplican automáticamente cuando el servidor es capaz 
 
 * En Power BI Desktop con SSAS local, versión 2016 o superior, [aprovechar las funcionalidades de SuperDax del servidor](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3)
 
-* En el servicio Desktop y Power BI cuando se usa un modelo importado, Direct Query, conectar en directo con el servicio o con PaaS de AS. 
+* En el servicio Desktop y Power BI cuando se usa un modelo importado, Direct Query, conectar en directo con el servicio o con PaaS de AS. 
 
 * En el servicio Power BI, al conectar mediante una puerta de enlace local para SSAS local, no se pueden usar límites dinámicos. La puerta de enlace local no es totalmente compatible con la estrategia de límites dinámicos que devuelve una estructura diferente de conjuntos de resultados de la SSAS local.  
 

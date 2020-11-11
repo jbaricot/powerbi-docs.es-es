@@ -1,8 +1,8 @@
 ---
 title: Gráficos de cascada en Power BI
 description: Gráficos de cascada en Power BI
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 148fe66039cb273d4ee20521762d5720252c7492
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ce3c52774326bd9fc66fecde7496fefb1cf6888c
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635732"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412128"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascada en Power BI
 
@@ -62,7 +62,7 @@ Vamos a crear un gráfico de cascada que muestre la varianza de las ventas (vent
 
 ### <a name="build-the-waterfall-chart"></a>Crear el gráfico de cascada
 
-1. En el panel **Campos**, seleccione **Ventas** > **Varianza total de ventas**.
+1. En el panel **Campos** , seleccione **Ventas** > **Varianza total de ventas**.
 
    ![Captura de pantalla de Ventas > Varianza total de ventas seleccionada y el objeto visual resultante.](media/power-bi-visualization-waterfall-charts/power-bi-bar.png)
 
@@ -104,7 +104,7 @@ Profundice un poco más para ver lo que está contribuyendo más a los cambios d
 
     Supongamos que solo le interesan los dos factores principales.
 
-1. En el panel **Formato**, seleccione **Desglose** y establezca **Número máximo de desgloses** en **2**.
+1. En el panel **Formato** , seleccione **Desglose** y establezca **Número máximo de desgloses** en **2**.
 
     ![Formato > Desglose](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-two.png)
 

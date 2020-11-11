@@ -1,8 +1,8 @@
 ---
 title: Gráficos de embudo
 description: Gráficos de embudo en Power BI
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0680df9a75d42f637632916bfd648943ba7517b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2719127825dc94f1f1bd83fe4d36dc47dfc355f7
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235833"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412910"
 ---
 # <a name="create-and-use-funnel-charts"></a>Creación y uso de gráficos de embudo
 
@@ -82,7 +82,7 @@ Ahora cree su propio gráfico de embudo que muestre la cantidad de oportunidades
 
 1. Seleccione el icono de embudo ![Icono de gráfico de embudo](media/power-bi-visualization-funnel-charts/power-bi-funnel-icon.png) para convertir el gráfico de columnas en un gráfico de embudo.
 
-2. En el panel **Campos**, seleccione **Hecho** \> **Recuento de oportunidades**.
+2. En el panel **Campos** , seleccione **Hecho** \> **Recuento de oportunidades**.
    
     ![Creación del gráfico de embudo](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. Al mantener el mouse sobre una barra se muestra una gran cantidad de información.

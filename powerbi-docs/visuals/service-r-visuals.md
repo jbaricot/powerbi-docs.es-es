@@ -1,20 +1,20 @@
 ---
 title: Creación de análisis y visualizaciones avanzados mediante scripts de R
 description: Uso de scripts de R en Power BI Desktop para crear visualizaciones y análisis avanzados
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91ca05a144166abbc903d42ba30a5c70b839987d
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 3b43d644a0bb7ecd2800b99d3ffb5d7c7d26bf96
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782800"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412105"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Creación y uso de objetos visuales de R en Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "85782800"
 Actualmente, los objetos visuales R solo se pueden crear en **Power BI Desktop** y, después, se publican en el servicio Power BI. Para obtener más información sobre cómo crear objetos visuales de R, vea [Crear objetos visuales de Power BI con R ](../create-reports/desktop-r-visuals.md).
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Visualización de objetos visuales de R en el servicio Power BI
-El servicio Power BI permite ver e interactuar con objetos visuales creados con scripts R. Los objetos visuales creados con scripts R, normalmente denominados *objetos visuales R*, pueden presentar forma de datos y análisis avanzados como la previsión, con análisis enriquecidos y la potencia de visualización de R.
+El servicio Power BI permite ver e interactuar con objetos visuales creados con scripts R. Los objetos visuales creados con scripts R, normalmente denominados *objetos visuales R* , pueden presentar forma de datos y análisis avanzados como la previsión, con análisis enriquecidos y la potencia de visualización de R.
 
 > [!NOTE]
 > El [lenguaje de programación R](https://www.r-project.org/) se encuentra entre los lenguajes de programación más usados normalmente por analistas de negocios, científicos de datos y estadistas. El lenguaje R tiene una comunidad de código abierto que ofrece más de 7.000 paquetes de complementos, así como grupos de usuarios de R ampliamente usados. La versión de R implementada en el servicio Power BI es *Microsoft R 3.4.4.*
@@ -38,7 +38,7 @@ Los objetos visuales R se crean en un [informe de Power BI Desktop](../fundament
 
 ![Informe de Desktop con dos objetos visuales](media/service-r-visuals/power-bi-r-visual-desktop.png)
 
-Una vez creado el informe en **Power BI Desktop**, puede publicar el informe que contiene uno o más objetos visuales R en el servicio Power BI. 
+Una vez creado el informe en **Power BI Desktop** , puede publicar el informe que contiene uno o más objetos visuales R en el servicio Power BI. 
 
  En el servicio, no se admiten todos los paquetes de R. Vea los paquetes compatibles al final de este artículo para obtener la lista de paquetes que se admiten actualmente en el servicio Power BI.
 

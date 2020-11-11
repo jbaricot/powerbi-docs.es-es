@@ -1,20 +1,20 @@
 ---
 title: Gráficos de anillos en Power BI
 description: Gráficos de anillos en Power BI
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f76fe26f8b7d4f9e9c0cbe1ffe22c71d815a9307
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 24788b16718e1223bdd2040d42a67e4f175b8371
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239727"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413071"
 ---
 # <a name="create-and-use-doughnut-charts-in-power-bi"></a>Creación y uso de gráficos de anillos en Power BI
 
@@ -44,7 +44,7 @@ En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas]
 
 1. Empiece en una página de informe en blanco y, en el panel Campos, seleccione **Ventas** \> **Ventas del año anterior**.  
    
-3. En el panel Visualizaciones, seleccione el icono del gráfico de anillos ![icono del gráfico de anillos](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) para convertir el gráfico de barras en un gráfico de anillos. Si **Ventas del último año** no está en el área **Valores**, arrástrelo aquí.
+3. En el panel Visualizaciones, seleccione el icono del gráfico de anillos ![icono del gráfico de anillos](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) para convertir el gráfico de barras en un gráfico de anillos. Si **Ventas del último año** no está en el área **Valores** , arrástrelo aquí.
      
    ![Panel de visualización con anillos seleccionados](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 

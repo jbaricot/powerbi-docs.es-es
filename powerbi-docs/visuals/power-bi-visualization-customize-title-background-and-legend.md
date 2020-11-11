@@ -1,21 +1,21 @@
 ---
 title: Introducción al formato de las visualizaciones de Power BI
 description: Personalización del título, el fondo y la leyenda de una visualización
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 03/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ef9aec1bf01120c8c7e765fe3c59c23da40ceab
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0d19d7366dce571e2d89ba5cbc6ffbe936ec50e2
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235851"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411001"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalización de los títulos, los fondos y las leyendas de las visualizaciones
 
@@ -47,7 +47,7 @@ Para continuar, inicie sesión en Power BI Desktop y abra el informe [Ejemplo d
 
 1. Seleccione el gráfico de columnas agrupadas **Recuento de tiendas abiertas por mes abierto y cadena** gráfico de columnas agrupadas.
 
-1. En el panel **Visualizaciones**, seleccione el icono de rodillo para mostrar las opciones de formato.
+1. En el panel **Visualizaciones** , seleccione el icono de rodillo para mostrar las opciones de formato.
 
 1. Seleccione **Título** para expandir esa sección.
 
@@ -61,7 +61,7 @@ Para continuar, inicie sesión en Power BI Desktop y abra el informe [Ejemplo d
 
 1. Cambie el **color de fuente** a blanco y el **color de fondo** a azul.    
 
-    a. Seleccione la lista desplegable y elija un color en **Colores del tema**, **Colores recientes**o **Color personalizado**.
+    a. Seleccione la lista desplegable y elija un color en **Colores del tema** , **Colores recientes** o **Color personalizado**.
     
     ![Captura de pantalla de las opciones de color de fuente y color de fondo.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
@@ -108,7 +108,7 @@ Si necesita revertir todos los cambios, seleccione **Volver al valor predetermin
 
 1. Seleccione el icono del rodillo de pintura para abrir el panel Formato en la pestaña **Visualización**.
 
-1. Expanda las opciones de **Leyenda**:
+1. Expanda las opciones de **Leyenda** :
 
     ![Captura de pantalla de la tarjeta Leyenda.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-legends.png)
 

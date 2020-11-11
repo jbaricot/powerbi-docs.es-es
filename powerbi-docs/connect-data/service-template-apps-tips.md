@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: d23062a5b8fe4a1a68be372865746a1a7d497c26
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 4530a6579a3109a2696c77a79a3a5a1c6b8092dd
+ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349676"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94348068"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugerencias para crear aplicaciones de plantilla en Power BI
 
@@ -141,7 +141,7 @@ Después de publicar la aplicación de plantilla en AppSource, valore la posibil
 * Página de descargas de AppSource: se puede ver de forma pública y obtener el vínculo desde la página de AppSource.
 * Power BI: lo puede ver un usuario de Power BI.
 
-Para redirigir a un usuario al vínculo de descarga de la aplicación en Power BI, vea el ejemplo de código siguiente: [Repositorio de GitHub](https://github.com/microsoft/Template-apps-examples/tree/master/src)
+Para redirigir a un usuario al vínculo de descarga de la aplicación en Power BI, vea el ejemplo de código siguiente: [Repositorio de GitHub](https://github.com/microsoft/Template-apps-examples)
 
 [![Vínculo de descarga de la aplicación](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 

@@ -1,8 +1,8 @@
 ---
 title: Mapas coropléticos en Power BI
 description: Documentación sobre cómo crear mapas coropléticos en Power BI
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 45069a4a575659d44e41f1010d9941f21caa1ad1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ce0adb6d5115ece1b228690c496d022f8dfc9e56
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861645"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413002"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Creación y uso de mapas coropléticos en Power BI
 
@@ -28,7 +28,7 @@ Los mapas coropléticos usan sombreado, tintes o patrones para mostrar las difer
 ![Mapa de EE. UU.](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
 
 ## <a name="what-is-sent-to-bing"></a>Qué se envía a Bing
-Power BI se integra con Bing para proporcionar coordenadas de mapas predeterminadas (un proceso denominado geocodificación). Cuando se crea una visualización de mapa en el servicio Power BI o en Power BI Desktop, se envían a Bing los datos en los cubos **Ubicación**, **Latitud** y **Longitud** (que se usan para crear la visualización).
+Power BI se integra con Bing para proporcionar coordenadas de mapas predeterminadas (un proceso denominado geocodificación). Cuando se crea una visualización de mapa en el servicio Power BI o en Power BI Desktop, se envían a Bing los datos en los cubos **Ubicación** , **Latitud** y **Longitud** (que se usan para crear la visualización).
 
 Puede que usted o su administrador tengan que actualizar el firewall para permitir el acceso a las direcciones URL que utiliza Bing para geocodificación.  Estas direcciones URL son:
 - https://dev.virtualearth.net/REST/V1/Locations    
@@ -85,7 +85,7 @@ En este tutorial se usa el [archivo .PBIX del ejemplo de ventas y marketing](htt
 
     ![Botón de formato condicional de Colores de datos](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional.png)
 
-6. Utilice la pantalla **Color predeterminado: Colores de datos** para determinar los tonos de su mapa coroplético. Las opciones disponibles incluyen en qué campo se basarán los tonos y cómo se aplicarán. En este ejemplo se usa el campo **SalesFact** > **Sentiment**; se establece el valor inferior de opinión como naranja, mientras que el superior es azul. Los valores que se encuentren entre el valor superior y el mínimo se representarán con tonalidades de naranja y azul. En la ilustración de la parte inferior de la pantalla se muestra la gama de colores que se usará. 
+6. Utilice la pantalla **Color predeterminado: Colores de datos** para determinar los tonos de su mapa coroplético. Las opciones disponibles incluyen en qué campo se basarán los tonos y cómo se aplicarán. En este ejemplo se usa el campo **SalesFact** > **Sentiment** ; se establece el valor inferior de opinión como naranja, mientras que el superior es azul. Los valores que se encuentren entre el valor superior y el mínimo se representarán con tonalidades de naranja y azul. En la ilustración de la parte inferior de la pantalla se muestra la gama de colores que se usará. 
 
     ![Panel de color predeterminado con una opinión seleccionada](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-field.png)
 
@@ -113,7 +113,7 @@ Al resaltar una ubicación en un mapa coroplético, se realiza un filtrado cruza
 
    ![Mapa coroplético agregado a la página Opinión](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. En el mapa coroplético, seleccione un estado.  Esto realiza un resaltado y un filtro cruzados de las demás visualizaciones de la página. Al seleccionar **Texas**, por ejemplo, se aplica un filtro cruzado a las tarjetas y un resaltado cruzado al gráfico de barras. A partir de este, sabemos que la opinión es 75 y que Texas está en el distrito central n.º 23.   
+5. En el mapa coroplético, seleccione un estado.  Esto realiza un resaltado y un filtro cruzados de las demás visualizaciones de la página. Al seleccionar **Texas** , por ejemplo, se aplica un filtro cruzado a las tarjetas y un resaltado cruzado al gráfico de barras. A partir de este, sabemos que la opinión es 75 y que Texas está en el distrito central n.º 23.   
    ![Texas seleccionado](media/power-bi-visualization-filled-maps-choropleths/power-bi-filter.png)
 2. Seleccione un punto de datos en el gráfico de líneas VanArsdel - Opinión por mes. Al hacerlo, se filtra el mapa coroplético para mostrar los datos de opinión de VanArsdel y no de la competencia.  
    ![Nuevo sombreado](media/power-bi-visualization-filled-maps-choropleths/power-bi-vanarsdel.png)

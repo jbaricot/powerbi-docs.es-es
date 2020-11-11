@@ -1,7 +1,7 @@
 ---
 title: Visualización de tablas en los informes y los paneles de Power BI
 description: Tutorial para trabajar con visualizaciones de tablas en informes y paneles de Power BI, incluida la forma de cambiar el tamaño de los anchos de columna.
-author: mihart
+author: msftrien
 ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8730860a63d8d78dad7cfaafa11fb411ec8422fe
-ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
+ms.openlocfilehash: 127e8b7033e60c70a4d541cfc4725e7340a514e6
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862956"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412887"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tablas en informes y paneles de Power BI
 
@@ -24,7 +24,7 @@ ms.locfileid: "91862956"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Una tabla es una cuadrícula que contiene datos relacionados en una serie lógica de filas y columnas. También puede contener encabezados y una fila de totales. Las tablas funcionan bien con comparaciones cuantitativas en las que está mirando muchos valores para una única categoría. Por ejemplo, en esta tabla se muestran cinco medidas distintas para **Categoría** .
+Una tabla es una cuadrícula que contiene datos relacionados en una serie lógica de filas y columnas. También puede contener encabezados y una fila de totales. Las tablas funcionan bien con comparaciones cuantitativas en las que está mirando muchos valores para una única categoría. Por ejemplo, en esta tabla se muestran cinco medidas distintas para **Categoría**.
 
 ![Captura de pantalla de una tabla en la que se muestran cinco medidas distintas para Categoría.](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 
@@ -44,9 +44,9 @@ Las tablas son una excelente opción:
 
 En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-1. En la sección superior izquierda de la barra de menús, seleccione **Archivo** > **Abrir** .
+1. En la sección superior izquierda de la barra de menús, seleccione **Archivo** > **Abrir**.
    
-2. Busque la copia del **archivo PBIX del Ejemplo de análisis de minoristas** .
+2. Busque la copia del **archivo PBIX del Ejemplo de análisis de minoristas**.
 
 1. Abra el **archivo PBIX del Ejemplo de análisis de minoristas** en la vista de informe ![Captura de pantalla del icono de vista de informe](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
@@ -60,7 +60,7 @@ En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas]
 Vamos a crear la tabla que aparece al principio del artículo para mostrar los valores de ventas por categoría de producto.
 
 
-1. En el panel **Campos** , seleccione **Artículo** > **Categoría** .
+1. En el panel **Campos** , seleccione **Artículo** > **Categoría**.
 
     Power BI crea automáticamente una tabla que enumera todas las categorías.
 
@@ -68,7 +68,7 @@ Vamos a crear la tabla que aparece al principio del artículo para mostrar los v
 
 1. Seleccione **Ventas > Precio unitario medio** y **Ventas > Ventas del año anterior**
 
-1. A continuación, seleccione **Ventas > Ventas de este año** y, a continuación, las tres opciones: **Valor** , **Objetivo** y **Estado** .
+1. A continuación, seleccione **Ventas > Ventas de este año** y, a continuación, las tres opciones: **Valor** , **Objetivo** y **Estado**.
 
 1. En el panel **Visualizaciones** , busque el área **Valores** y seleccione los valores hasta que el orden de las columnas del gráfico coincida con la primera imagen de esta página. Arrastre los valores en el área si es necesario. El área **Valores** será similar a esta:
 
@@ -103,26 +103,26 @@ Existen muchas formas de aplicar formato a una tabla. Aquí solo se analizan alg
 
 ### <a name="conditional-formatting"></a>Formato condicional
 
-El *formato condicional* es un tipo de formato. Power BI puede aplicar formato condicional a cualquier campo que haya agregado al área **Valores** del panel **Visualizaciones** .
+El *formato condicional* es un tipo de formato. Power BI puede aplicar formato condicional a cualquier campo que haya agregado al área **Valores** del panel **Visualizaciones**.
 
 ![El panel Visualizaciones](media/power-bi-visualization-tables/power-bi-table-values.png)
 
 Con el formato condicional para tablas, puede especificar iconos, direcciones URL, colores de fondo de las celdas y colores de fuente según los valores de la celda, e incluso usar colores de degradado.
 
-1. En el panel **Formato** , abra la tarjeta **Formato condicional** .
+1. En el panel **Formato** , abra la tarjeta **Formato condicional**.
 
     ![Tarjeta de formato condicional](media/power-bi-visualization-tables/power-bi-conditional.png)
 
-1. Seleccione un campo al que quiera dar formato y mueva el control deslizante **Color de fondo** a Activado. Power BI aplica un degradado en función de los valores de la columna. Para cambiar los colores predeterminados, seleccione **Controles avanzados** .
+1. Seleccione un campo al que quiera dar formato y mueva el control deslizante **Color de fondo** a Activado. Power BI aplica un degradado en función de los valores de la columna. Para cambiar los colores predeterminados, seleccione **Controles avanzados**.
 
     Si selecciona la opción **Divergente** , también puede configurar un valor **Centro** opcional.
 
     ![Pantalla Escalas de color de fondo](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
-    Vamos a aplicar un formato personalizado a los valores de Precio unitario medio. Seleccione **Divergente** , agregue algunos colores y seleccione **Aceptar** .
+    Vamos a aplicar un formato personalizado a los valores de Precio unitario medio. Seleccione **Divergente** , agregue algunos colores y seleccione **Aceptar**.
 
     ![Tabla en la que se muestran colores divergentes](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-background.png)
-1. Agregue un nuevo campo a la tabla que contenga valores positivos y negativos. Seleccione **Ventas > Varianza total de ventas** .
+1. Agregue un nuevo campo a la tabla que contenga valores positivos y negativos. Seleccione **Ventas > Varianza total de ventas**.
 
     ![Se muestra un campo nuevo en el extremo derecho](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 
@@ -130,17 +130,17 @@ Con el formato condicional para tablas, puede especificar iconos, direcciones UR
 
     ![Tarjeta de formato condicional con Barras de datos establecido en Activado](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. Para personalizar las barras de datos, seleccione **Controles avanzados** . En el cuadro de diálogo que aparece, establezca los colores para **Barra positiva** y **Barra negativa** , seleccione la opción **Mostrar solo la barra** y realice cualquier otro cambio que desee.
+1. Para personalizar las barras de datos, seleccione **Controles avanzados**. En el cuadro de diálogo que aparece, establezca los colores para **Barra positiva** y **Barra negativa** , seleccione la opción **Mostrar solo la barra** y realice cualquier otro cambio que desee.
 
     ![Marca de verificación para Mostrar solo la barra](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
-1. Seleccione **Aceptar** .
+1. Seleccione **Aceptar**.
 
     Las barras de datos reemplazarán los valores numéricos en la tabla, lo cual facilitará el análisis.
 
     ![La misma tabla pero con barras en la última columna](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 
-1. Agregue indicaciones visuales a la tabla con *iconos condicionales* .  En la tarjeta **Formato condicional** , seleccione **Ventas de este año** en la lista desplegable. Mueva el control deslizante **Iconos** a **Activado** .  Para personalizar los iconos, seleccione **Controles avanzados** .
+1. Agregue indicaciones visuales a la tabla con *iconos condicionales*.  En la tarjeta **Formato condicional** , seleccione **Ventas de este año** en la lista desplegable. Mueva el control deslizante **Iconos** a **Activado**.  Para personalizar los iconos, seleccione **Controles avanzados**.
 
     ![Tabla con los iconos agregados](media/power-bi-visualization-tables/power-bi-table-icons.png)
 
@@ -155,7 +155,7 @@ Para copiar el valor de una sola celda:
 
 1. Haga clic con el botón derecho dentro de la celda.
 
-1. Seleccione **Copiar** > **Copiar valor** .
+1. Seleccione **Copiar** > **Copiar valor**.
 
     ![La captura de pantalla muestra Copiar seleccionados con la opción Copiar valor seleccionada.](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
@@ -167,7 +167,7 @@ Para copiar más de una celda:
 
 1. Haga clic con el botón derecho en una de las celdas seleccionadas.
 
-1. Seleccione **Copiar** > **Copiar selección** .
+1. Seleccione **Copiar** > **Copiar selección**.
 
     ![La captura de pantalla muestra Copiar seleccionados con la opción Copiar selección seleccionada.](media/power-bi-visualization-tables/power-bi-copy-selection.png)
 
@@ -180,7 +180,7 @@ A veces, Power BI trunca un encabezado de columna en un informe o un panel. Para
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 
-* Al aplicar el formato de las columnas, solo puede elegir una opción de alineación por cada columna: **Automática** , **Izquierda** , **Centro** y **Derecha** . Normalmente, una columna contiene todo el texto o todos los números, y no una combinación de ellos. En casos donde una columna contiene números y texto, **Automática** alineará el texto a la izquierda y los números a la derecha. Este comportamiento es compatible con idiomas en los que se lee de izquierda a derecha.
+* Al aplicar el formato de las columnas, solo puede elegir una opción de alineación por cada columna: **Automática** , **Izquierda** , **Centro** y **Derecha**. Normalmente, una columna contiene todo el texto o todos los números, y no una combinación de ellos. En casos donde una columna contiene números y texto, **Automática** alineará el texto a la izquierda y los números a la derecha. Este comportamiento es compatible con idiomas en los que se lee de izquierda a derecha.
 
 * Si los datos de texto de las celdas o los encabezados de la tabla contienen caracteres de nueva línea, dichos caracteres se ignorarán a menos que active la opción "Ajuste de línea" en la tarjeta del panel de formato asociada del elemento. 
 

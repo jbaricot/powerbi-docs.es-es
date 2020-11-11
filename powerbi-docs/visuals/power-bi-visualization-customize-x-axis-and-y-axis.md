@@ -1,21 +1,21 @@
 ---
 title: Personalización de las propiedades de los ejes X e Y
 description: Personalización de las propiedades de los ejes X e Y
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0da34397c1b707eeece6fdf127c2c4e96f5ab6a5
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: b327ca5f4c19638f4afe72abce763601e68fc943
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635686"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413163"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalización de las propiedades de los ejes X e Y
 
@@ -49,13 +49,13 @@ Antes de personalizar la visualización, tendrá que crearla.
 
     ![signo más gris sobre fondo amarillo](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-new-page-icon.png)
 
-1. En el panel **Visualizaciones**, seleccione el icono del gráfico de columnas apiladas. Se agrega una plantilla vacía al lienzo de informes.
+1. En el panel **Visualizaciones** , seleccione el icono del gráfico de columnas apiladas. Se agrega una plantilla vacía al lienzo de informes.
 
     ![Captura de pantalla del panel Visualizaciones y un gráfico de columnas apiladas vacío](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-column-chart.png)
 
-1. Para establecer los valores del eje X, en el panel **Campos**, seleccione **Time** (Tiempo) > **FiscalMonth** (MesFiscal).
+1. Para establecer los valores del eje X, en el panel **Campos** , seleccione **Time** (Tiempo) > **FiscalMonth** (MesFiscal).
 
-1. Para establecer los valores del eje Y, en el panel **Campos**, seleccione **Sales** (Ventas) > **Last Year Sales** (Ventas del año anterior) y **Sales**  (Ventas)  > **This Year Sales** (Ventas de este año) > **Valor**.
+1. Para establecer los valores del eje Y, en el panel **Campos** , seleccione **Sales** (Ventas) > **Last Year Sales** (Ventas del año anterior) y **Sales**  (Ventas)  > **This Year Sales** (Ventas de este año) > **Valor**.
 
     ![Captura de pantalla del gráfico de columnas apiladas rellenado.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-build-visual.png)
 
@@ -67,7 +67,7 @@ Hay muchas características del eje X que se pueden personalizar. Puede agregar 
 ### <a name="customize-the-x-axis-labels"></a>Personalización de las etiquetas del eje X
 Las etiquetas del eje X se muestran debajo de las columnas del gráfico. En este momento, son de color gris claro, pequeñas y difíciles de leer. Vamos a modificarlas.
 
-1. En el panel **Visualizaciones**, seleccione **Formato** (el icono del rodillo ![Captura de pantalla del icono del rodillo](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller-icon.png)). para mostrar las opciones de personalización.
+1. En el panel **Visualizaciones** , seleccione **Formato** (el icono del rodillo ![Captura de pantalla del icono del rodillo](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller-icon.png)). para mostrar las opciones de personalización.
 
 2. Expanda las opciones del eje X.
 
@@ -77,17 +77,17 @@ Las etiquetas del eje X se muestran debajo de las columnas del gráfico. En este
 
     ![Captura de pantalla del control deslizante Activar del eje X.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
 
-    Hay algunos motivos por los que es posible que desee establecer el eje X en **desactivado**, por ejemplo, cuando la visualización se entiende fácilmente sin necesidad de etiquetas o si tiene una página de informe muy llena y necesita liberar espacio para mostrar más datos.
+    Hay algunos motivos por los que es posible que desee establecer el eje X en **desactivado** , por ejemplo, cuando la visualización se entiende fácilmente sin necesidad de etiquetas o si tiene una página de informe muy llena y necesita liberar espacio para mostrar más datos.
 
 4. Aplicar formato mediante color del texto, tamaño y fuente:
 
-    - **Color**: seleccione el color negro.
+    - **Color** : seleccione el color negro.
 
-    - **Tamaño del texto**: especifique *14*.
+    - **Tamaño del texto** : especifique *14*.
 
-    - **Familia de fuentes**: seleccione **Arial Black**.
+    - **Familia de fuentes** : seleccione **Arial Black**.
 
-    - **Espaciado interno**: escriba *40 %*
+    - **Espaciado interno** : escriba *40 %*
 
         ![Captura de pantalla con las etiquetas en un ángulo](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-x.png)
     
@@ -101,7 +101,7 @@ Las etiquetas del eje X se muestran debajo de las columnas del gráfico. En este
    ![Gráfico y panel de formato con etiquetas horizontales](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-stretch.png)
 
 ### <a name="customize-the-x-axis-title"></a>Personalización del título del eje X
-Si el título del eje X está **Activo**, se muestra debajo de las etiquetas. 
+Si el título del eje X está **Activo** , se muestra debajo de las etiquetas. 
 
 1. Para empezar, coloque el control deslizante del título del eje X en **Activar**.  
 
@@ -113,11 +113,11 @@ Si el título del eje X está **Activo**, se muestra debajo de las etiquetas.
 
 1. Aplique formato mediante el color del texto, tamaño y fuente al título.
 
-    - **Color del título**: seleccione el color naranja.
+    - **Color del título** : seleccione el color naranja.
 
-    - **Título del eje**: escriba *Mes fiscal* (con espacio)
+    - **Título del eje** : escriba *Mes fiscal* (con espacio)
 
-    - **Tamaño del texto del título**: escriba *18*
+    - **Tamaño del texto del título** : escriba *18*
 
     Una vez finalizadas las personalizaciones, el aspecto del gráfico de columnas será similar a este:
 
@@ -145,23 +145,23 @@ Las etiquetas del eje Y se muestran a la izquierda de forma predeterminada. En e
 
 1. Aplicar formato mediante color del texto, tamaño y fuente:
 
-    - **Color**: seleccione el color negro.
+    - **Color** : seleccione el color negro.
 
-    - **Tamaño del texto**: escriba *10*
+    - **Tamaño del texto** : escriba *10*
 
-    - **Mostrar unidades**: seleccione **Millones**
+    - **Mostrar unidades** : seleccione **Millones**
 
     ![Gráfico después del formato del eje Y](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-y.png)
 
 ### <a name="customize-the-y-axis-title"></a>Personalización del título del eje Y
-Si el título del eje Y está **Activo**, se muestra al lado de las etiquetas. Para esta visualización, tener un título de eje Y no mejora el objeto visual, por lo que puede dejar **Título** en **Desactivar**. Más adelante agregaremos títulos de eje Y a un objeto visual de dos ejes. 
+Si el título del eje Y está **Activo** , se muestra al lado de las etiquetas. Para esta visualización, tener un título de eje Y no mejora el objeto visual, por lo que puede dejar **Título** en **Desactivar**. Más adelante agregaremos títulos de eje Y a un objeto visual de dos ejes. 
 
 ### <a name="customize-the-gridlines"></a>Personalización de las líneas de cuadrícula
 Vamos a hacer que las líneas de cuadrícula se resalten cambiando el color y aumentando el trazo:
 
-- **Color**: seleccione el color naranja.
+- **Color** : seleccione el color naranja.
 
-- **Trazo**: especifique *2*.
+- **Trazo** : especifique *2*.
 
 Después de todas estas personalizaciones, el gráfico de columnas debe tener un aspecto similar al siguiente:
 
@@ -192,7 +192,7 @@ Algunas visualizaciones pueden beneficiarse de tener dos ejes Y. Los gráficos c
 ### <a name="format-the-second-y-axis"></a>Formato del segundo eje Y
 Como comenzamos con una visualización con un eje Y con formato, Power BI creó el segundo eje Y con la misma configuración. Ahora vamos a cambiar esa configuración. 
 
-1. En el panel **Visualizaciones**, seleccione el icono de rodillo para mostrar las opciones de formato.
+1. En el panel **Visualizaciones** , seleccione el icono de rodillo para mostrar las opciones de formato.
 
 1. Expanda las opciones del eje Y.
 

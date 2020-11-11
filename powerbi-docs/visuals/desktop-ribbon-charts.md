@@ -1,20 +1,20 @@
 ---
 title: Uso de gráficos de cinta de opciones en Power BI
 description: Creación y uso de gráficos de cinta en Power BI Desktop
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0e5687f9bb3f27af7bdfee28cd9753fbda4fa44f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e89712dea5d9f932669141d8fe4129727166a342
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635778"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413140"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>Creación de gráficos de cinta en Power BI
 
@@ -49,7 +49,7 @@ En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas]
 
     Los gráficos de la barra de herramientas conectan una categoría de datos en el universo de tiempo visualizado mediante cintas, lo que permite ver cómo se clasifica una categoría determinada a lo largo del intervalo del eje x del gráfico (normalmente la escala de tiempo).
 
-2. Seleccione campos para **Eje**, **Leyenda** y **Valor**.  En este ejemplo, se ha seleccionado lo siguiente: **Store** > **OpenDate** (Tienda>Fecha abierta), **Item** > **Category** (Artículo>Categoría) y **Sales** > **This year sales** > **Value** (Ventas>Ventas de este año>Valor).  
+2. Seleccione campos para **Eje** , **Leyenda** y **Valor**.  En este ejemplo, se ha seleccionado lo siguiente: **Store** > **OpenDate** (Tienda>Fecha abierta), **Item** > **Category** (Artículo>Categoría) y **Sales** > **This year sales** > **Value** (Ventas>Ventas de este año>Valor).  
 
     ![Campos seleccionados](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
 
@@ -67,7 +67,7 @@ Cuando se crea un gráfico de cinta de opciones, hay opciones de formato disponi
 Estas opciones de formato para los gráficos de la barra de herramientas permiten realizar ajustes.
 
 * **Espaciado** le permite ajustar la cantidad de espacio que aparece entre las cintas de opciones. El número es el porcentaje del alto máximo de la columna.
-* **Coincidir con el color de la serie** permite hacer coincidir el color de las cintas de opciones con el color de la serie. Cuando se establece en **desactivado**, las cintas aparecen en color gris.
+* **Coincidir con el color de la serie** permite hacer coincidir el color de las cintas de opciones con el color de la serie. Cuando se establece en **desactivado** , las cintas aparecen en color gris.
 * **Transparencia** especifica la transparencia de las cintas de opciones, con el valor predeterminado de 30.
 * **Borde** le permite colocar un borde oscuro en la parte superior e inferior de las cintas de opciones. De forma predeterminada, los bordes están desactivados.
 
