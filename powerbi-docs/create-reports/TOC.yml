@@ -277,6 +277,8 @@
               href: ../visuals/power-bi-visualization-decomposition-tree.md
             - name: Narración inteligente
               href: ../visuals/power-bi-visualization-smart-narrative.md
+            - name: Detección de anomalías
+              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: Gráficos de anillos
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: Mapas coropléticos
