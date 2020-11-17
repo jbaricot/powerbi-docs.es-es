@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/31/2020
-ms.openlocfilehash: 6f4f083f7ec36fff13624b6b0d28ffd810e0d62b
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: ae3f6b5f3026adf127b53dd07118fe05e4c06a00
+ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90964826"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94348091"
 ---
 # <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>Uso compartido directo en Teams desde el servicio Power BI
 
@@ -43,7 +43,7 @@ Siga estos pasos para compartir vínculos a informes, paneles y objetos visuales
     
       ![Captura de pantalla del botón Compartir en Teams en el menú contextual de un objeto visual.](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
 
-1. En el cuadro de diálogo **Compartir en Microsoft Teams**, seleccione el canal o las personas a las que desea enviar el vínculo. Si lo desea, puede escribir un mensaje. Es posible que se le pida que inicie sesión primero en Microsoft Teams.
+1. En el cuadro de diálogo **Compartir en Microsoft Teams**, seleccione el equipo o el canal a los que quiera enviar el vínculo. Si lo desea, puede escribir un mensaje. Es posible que se le pida que inicie sesión primero en Microsoft Teams.
 
     ![Captura de pantalla del cuadro de diálogo Compartir en Microsoft Teams con información y mensaje.](media/service-share-report-teams/service-teams-share-to-teams-dialog.png)
 
@@ -66,7 +66,7 @@ Siga estos pasos para compartir vínculos a informes, paneles y objetos visuales
 - Es posible que los botones de **Compartir en Teams** no funcionen si el explorador usa una configuración de privacidad estricta. Use la opción **¿Ha encontrado algún problema? Intente abrir en una nueva ventana** si el cuadro de diálogo no se abre correctamente.
 - **Compartir en Teams** no incluye una vista previa de vínculo.
 - Las vistas previas de vínculos y **Compartir en Teams** no conceden permisos a los usuarios para ver el elemento. Los permisos deben administrarse por separado.
-- El botón**Compartir en Teams** no está disponible en los menús contextuales de los objetos visuales cuando el autor de un informe establece **Más opciones** en **Desactivado** para el objeto visual.
+- El botón **Compartir en Teams** no está disponible en los menús contextuales de los objetos visuales cuando el autor de un informe establece **Más opciones** en **Desactivado** para el objeto visual.
 - Vea la sección [Limitaciones y problemas conocidos](service-collaborate-microsoft-teams.md#known-issues-and-limitations) del artículo "Colaboración en Microsoft Teams" para obtener información sobre otros problemas.
 
 ## <a name="next-steps"></a>Pasos siguientes

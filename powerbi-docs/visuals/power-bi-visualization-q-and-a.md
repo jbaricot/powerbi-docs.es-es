@@ -1,19 +1,19 @@
 ---
 title: Uso del objeto visual Preguntas y respuestas de Power BI
 description: Configuración del objeto visual Preguntas y respuestas de Power BI
-author: rien
+author: msftrien
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 22ce23b408f87c8c792f75a543fd0c29a9d13281
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96773bc256ba8563147c7dc7c19e2558125b48fc
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232292"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412358"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Introducción a las visualizaciones de preguntas y respuestas de Power BI
 
@@ -133,7 +133,7 @@ Seleccione el ![icono de engranaje](media/power-bi-visualization-q-and-a/power-b
 
 Este ya no es un objeto visual Preguntas y respuestas, sino un gráfico de columnas estándar. Se puede anclar a un panel. En el informe, este objeto visual se comporta de la misma forma que los restantes objetos visuales estándar. Observe que en el panel Visualizaciones está seleccionado el icono de gráfico de columnas en lugar del icono del objeto visual Preguntas y respuestas.
 
-Si usa el ***servicio Power BI***, ahora puede anclar el objeto visual a un panel, para lo que debe seleccionar el icono Anclar. 
+Si usa el **_servicio Power BI_* _, ahora puede anclar el objeto visual a un panel, para lo que debe seleccionar el icono Anclar. 
 
 
 ![El servicio Power BI con el icono Anclar resaltado](media/power-bi-visualization-q-and-a/power-bi-pin.png)
@@ -155,5 +155,5 @@ El objeto visual Preguntas y respuestas se integra con Office y Bing para intent
 
 Hay varias formas de integrar el lenguaje natural. Para más información, consulte los siguientes artículos:
 
-* [Introducción a Preguntas y respuestas](../natural-language/q-and-a-tooling-intro.md)
+_ [Herramientas de Preguntas y respuestas](../natural-language/q-and-a-tooling-intro.md)
 * [Procedimientos recomendados de Preguntas y respuestas](../natural-language/q-and-a-best-practices.md)

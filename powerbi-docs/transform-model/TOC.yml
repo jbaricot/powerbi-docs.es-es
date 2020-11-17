@@ -133,5 +133,7 @@
               href: ./dataflows/dataflows-machine-learning-integration.md
     - name: Referencia
       items:
+        - name: "Usar la lista de campos en Power\_BI Desktop (versión preliminar)"
+          href: desktop-field-list.md
         - name: Métodos abreviados del editor de fórmulas
           href: desktop-formula-editor.md

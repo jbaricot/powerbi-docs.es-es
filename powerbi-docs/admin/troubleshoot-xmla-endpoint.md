@@ -1,5 +1,5 @@
 ---
-title: Solución de problemas de conectividad de los puntos de conexión XMLA en Power BI Premium (versión preliminar)
+title: Solución de problemas de conectividad de los puntos de conexión XMLA en Power BI
 description: En este artículo se describe cómo solucionar problemas de conectividad a través del punto de conexión XMLA en Power BI Premium.
 author: minewiskan
 ms.author: owend
@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: c8f0683e0789ec29577322424a4187a42ff5679f
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116578"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483682"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Solución de problemas de conectividad de los puntos de conexión XMLA
 
@@ -79,7 +79,7 @@ Si Power BI no puede enlazar el conjunto de datos nuevo a las credenciales del 
 
 Para evitar que haya errores en el procesamiento, establezca las **Opciones de implementación** > **Opciones de procesamiento** en **No procesar**, tal como se muestra en la imagen siguiente. A continuación, Visual Studio solo implementa metadatos. Después, puede configurar las credenciales del origen de datos y hacer clic en **Actualizar ahora** para el conjunto de datos en la interfaz de usuario de Power BI. Para información sobre cómo solucionar los problemas de procesamiento, consulte la sección [Actualización de un conjunto de datos](#refreshing-a-dataset) más adelante en este artículo.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Error de implementación de modelo":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Opción No procesar":::
 
 ### <a name="new-project-from-an-existing-dataset"></a>Proyecto nuevo a partir de un conjunto de datos existente
 
@@ -128,13 +128,13 @@ Power BI devuelve el error siguiente si realiza una actualización a través de
 
 La configuración de suplantación que se puede definir para los orígenes de datos del proveedor no es pertinente para Power BI. Power BI usa un mecanismo distinto en función de la configuración del conjunto de datos para administrar las credenciales del origen de datos. Por este motivo, asegúrese de seleccionar **Cuenta de servicio** si está creando un origen de datos del proveedor.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Error de implementación de modelo":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Suplantación de una cuenta de servicio":::
 
 ### <a name="fine-grained-processing"></a>Procesamiento detallado
 
 Al desencadenar una actualización programada o una actualización a petición en Power BI, Power BI habitualmente actualiza todo el conjunto de datos. En muchos casos, resulta más eficaz hacer actualizaciones de manera más selectiva. Puede realizar tareas de procesamiento detallado en SQL Server Management Studio (SSMS) tal como se muestra a continuación, o bien mediante el uso de scripts o herramientas de terceros.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Error de implementación de modelo":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Proceso de tablas en SSMS":::
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Invalidaciones en el comando Refresh de TMSL
 
@@ -142,7 +142,7 @@ Las invalidaciones en el [comando Refresh (TMSL)](/analysis-services/tmsl/refres
 
 ## <a name="see-also"></a>Vea también
 
-[Conectividad del conjunto de datos con el punto de conexión de XMLA](service-premium-connect-tools.md)   
-[Automatización de tareas de área de trabajo y conjunto de datos de Premium con entidades de servicio](service-premium-service-principal.md)   
-[Solución de problemas de Analizar en Excel](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[Implementación de la solución de modelo tabular](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current).
+[Conectividad del conjunto de datos con el punto de conexión de XMLA](service-premium-connect-tools.md)  
+[Automatización de tareas de área de trabajo y conjunto de datos de Premium con entidades de servicio](service-premium-service-principal.md)  
+[Solución de problemas de Analizar en Excel](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)  
+[Implementación de la solución de modelo tabular](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current&preserve-view=true).

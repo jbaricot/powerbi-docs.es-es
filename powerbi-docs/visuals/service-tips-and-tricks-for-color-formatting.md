@@ -1,26 +1,26 @@
 ---
-title: Sugerencias y trucos para el formato de color en los informes
-description: Sugerencias y trucos para el formato de color en los informes de Power BI
-author: mihart
-ms.reviewer: ''
+title: Sugerencias y trucos para el formato en los informes
+description: Sugerencias y trucos para el formato en los informes de Power BI
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/18/2020
-ms.author: mihart
+ms.date: 10/29/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633846"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483974"
 ---
-# <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Sugerencias y trucos para el formato de color en Power BI
+# <a name="tips-and-tricks-for-formatting-in-reports"></a>Sugerencias y trucos para el formato en los informes
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
-Power BI permite personalizar los paneles y los informes de muchas formas. En este artículo se detallan una serie de sugerencias para que las visualizaciones de Power BI resulten más atractivas, interesantes y personalizadas según sus necesidades.
+Power BI permite personalizar los informes de muchas formas. En este artículo se detallan una serie de sugerencias para que las visualizaciones de Power BI resulten más atractivas, interesantes y personalizadas según sus necesidades.
 
 A continuación se proporcionan varias sugerencias. ¿Tiene alguna otra? Magnífico. Envíenosla para que estudiemos si puede agregarse a esta lista.
 
@@ -36,7 +36,7 @@ A continuación se proporcionan varias sugerencias. ¿Tiene alguna otra? Magníf
 
 Para realizar cambios, debe tener permisos de edición para el informe. En Power BI Desktop, abra el informe en la vista **Informe**. En el servicio Power BI, eso significa abrir el informe y seleccionar **Editar** en la barra de menús, como se muestra en la siguiente imagen.
 
-![dónde encontrar el menú Editar](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-report.png)
+![dónde encontrar el menú Editar](media/service-tips-and-tricks-for-color-formatting/power-bi-editing-view.png)
 
 Cuando aparezcan los paneles **Filtros** y **Visualizaciones** en el lado derecho del lienzo del informe, podrá comenzar el proceso de personalización. Si no aparecen los paneles, seleccione la flecha, en la esquina superior derecha, para abrirlos.
 

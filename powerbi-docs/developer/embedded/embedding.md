@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 32fb26faa42f0ce6128a4a4cc0e491f78f270d36
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 4dba33e2ae800198d4840139d43893a7dca77e4f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982203"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396826"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Análisis integrado con Power BI
 
@@ -31,8 +31,8 @@ Puede ver la [herramienta de configuración de inserción](https://aka.ms/embeds
 
 Elija la solución que más le convenga:
 
-* La [inserción para la organización](embedding.md#embedding-for-your-organization) permite ampliar el servicio Power BI. Para ello, implemente la solución de [inserción para la organización](https://aka.ms/embedsetup/UserOwnsData).
-* La [inserción de contenido para los clientes](embedding.md#embedding-for-your-customers) permite insertar paneles e informes a los usuarios que no tienen una cuenta de Power BI. Para ello, implemente la solución de [inserción para los clientes](https://aka.ms/embedsetup/AppOwnsData).
+* La [inserción para la organización](embedding.md#embedding-for-your-organization) permite ampliar el servicio Power BI. Para ello, en la [herramienta de configuración de la inserción](https://app.powerbi.com/embedsetup), implemente la solución de *inserción para la organización*.
+* La [inserción de contenido para los clientes](embedding.md#embedding-for-your-customers) permite insertar paneles e informes a los usuarios que no tienen una cuenta de Power BI. Para ello, en la [herramienta de configuración de la inserción](https://app.powerbi.com/embedsetup), implemente la solución de *inserción para los clientes*.
 
 ![Ejemplo de PBIE](media/embedding/what-can-you-do-02.png)
 
@@ -59,11 +59,11 @@ Si quiere obtener más información sobre la inserción para la organización, c
 
 Al usar la inserción para los usuarios de Power BI, las funcionalidades de autoservicio (como son editar, guardar y otras) están disponibles a través de la [API de JavaScript](https://github.com/Microsoft/PowerBI-JavaScript).
 
-Puede seguir los pasos de la [herramienta de configuración de inserción](https://aka.ms/embedsetup/UserOwnsData) para empezar y descargar una aplicación de ejemplo que le guiará por los pasos necesarios para integrar un informe para la organización.
+Puede seguir los pasos de la [herramienta de configuración de inserción](https://app.powerbi.com/embedsetup) para empezar y descargar una aplicación de ejemplo que le guiará por los pasos necesarios para integrar un informe para la organización.
 
 ## <a name="embedding-for-your-customers"></a>Inserción de contenido para los clientes
 
-La **inserción de contenido para los clientes** permite insertar paneles e informes para los usuarios que no tienen una cuenta de Power BI. Este tipo de inserción de contenido también se conoce como *Power BI Embedded* .
+La **inserción de contenido para los clientes** permite insertar paneles e informes para los usuarios que no tienen una cuenta de Power BI. Este tipo de inserción de contenido también se conoce como *Power BI Embedded*.
 
 [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) es un servicio de **Microsoft Azure** que permite que los desarrolladores y proveedores de software independientes (ISV) inserten objetos visuales, informes y paneles con gran rapidez en una aplicación. Esta inserción se realiza a través de un modelo de medición por horas basado en la capacidad.
 
@@ -77,7 +77,7 @@ Con Power BI Embedded, los clientes no necesitan saber nada sobre Power BI. Se p
 
 La cuenta de Power BI Pro actuará como la cuenta maestra de la aplicación (considérela como una cuenta de proxy). Esta cuenta permite generar tokens de inserción que proporcionan acceso a los paneles e informes del servicio Power BI.
 
-La [entidad de servicio](embed-service-principal.md) puede insertar contenido de Power BI en una aplicación mediante un token **de solo aplicación** . También permite generar tokens de inserción que proporcionan acceso a los paneles e informes del servicio Power BI.
+La [entidad de servicio](embed-service-principal.md) puede insertar contenido de Power BI en una aplicación mediante un token **de solo aplicación**. También permite generar tokens de inserción que proporcionan acceso a los paneles e informes del servicio Power BI.
 
 Con Power BI Embedded, los desarrolladores pueden centrarse en la compilación de las funciones básicas de su aplicación, en lugar de en el desarrollo de los objetos visuales y los análisis. Pueden satisfacer rápidamente las necesidades de los clientes en materia de informes y paneles, así como integrarlos fácilmente con las API y SDK, ambas con su documentación correspondiente. Al habilitar en sus aplicaciones la exploración de datos de navegación fácil, los ISV permiten a los clientes tomar decisiones rápidas y fundamentadas de conformidad con los datos, en contexto en cualquier dispositivo.
 

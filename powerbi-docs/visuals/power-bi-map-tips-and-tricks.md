@@ -1,21 +1,21 @@
 ---
 title: Sugerencias y trucos para mapas (incluida la integración de Mapas de Bing)
 description: 'Sugerencias y trucos para visualizaciones de mapas, objetos visuales, ubicaciones, longitud y latitud en Power BI, y cómo funcionan con los mapas de Bing. '
-author: mihart
-ms.reviewer: rien
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0c28d95c5275f5778b1ae646b8e5fb65489eb072
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec2e097dd829760c331ff8f045af00176b0c302b
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860127"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411875"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Sugerencias y trucos para las visualizaciones de mapas de Power BI
 
@@ -41,7 +41,7 @@ El servicio Power BI y Power BI Desktop envían a Bing los datos de replicaci�
   
     ![se envía a los mapas de Bing](./media/power-bi-map-tips-and-tricks/power-bi-sent-to-bing-new.png)
   
-    En este segundo ejemplo, el campo **Territorio** se usa para la geocodificación, por lo que los valores de la columna Territorio se envían a Bing. Los datos de los cubos **Leyenda**y **Saturación de color** no se envían a Bing.
+    En este segundo ejemplo, el campo **Territorio** se usa para la geocodificación, por lo que los valores de la columna Territorio se envían a Bing. Los datos de los cubos **Leyenda** y **Saturación de color** no se envían a Bing.
   
     ![Mapas coropléticos y Bing](./media/power-bi-map-tips-and-tricks/power-bi-filled-map.png)
 
@@ -53,13 +53,13 @@ Si tiene acceso al conjunto de datos que se usa para crear la visualización de 
 En Power BI Desktop, puede asegurarse de que los campos estén correctamente geocodificados estableciendo la *Categoría de datos* en los campos de datos. En la vista de datos, seleccione la columna que desee. En la cinta de opciones, seleccione la pestaña **Modelado** y, después, en **Categoría de datos**, seleccione **Dirección**, **Ciudad**, **Continente**, **País o región**, **País**, **Código postal**, **Estado** o **Provincia**. Estas categorías de datos ayudan a Bing a codificar correctamente los datos. Para más información, consulte [Categorización de datos en Power BI Desktop](../transform-model/desktop-data-categorization.md). Si se conecta mediante Live Connect a SQL Server Analysis Services, debe establecer la categorización de datos fuera de Power BI mediante [SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt).
 
 **2. Use más de una columna de ubicación.**     
- A veces, incluso establecer las categorías de datos para la representación en mapas no basta para que Bing adivine correctamente su intención. Algunas designaciones son ambiguas porque la ubicación existe en varios países o regiones. Por ejemplo, hay un ***Southampton*** en Inglaterra, Pensilvania y Nueva York.
+ A veces, incluso establecer las categorías de datos para la representación en mapas no basta para que Bing adivine correctamente su intención. Algunas designaciones son ambiguas porque la ubicación existe en varios países o regiones. Por ejemplo, hay un **_Southampton_* _ en Inglaterra, Pensilvania y Nueva York.
 
 Power BI usa el [servicio de plantillas de dirección URL no estructurado](/bingmaps/rest-services/locations/find-a-location-by-address) de Bing para obtener las coordenadas de latitud y longitud en función de un conjunto de valores de dirección para cualquier país. Si los datos no contienen suficientes datos de ubicación, agregue estas columnas y clasifíquelas adecuadamente.
 
  Por ejemplo, si solo tiene una columna de ciudad, Bing tardará bastante tiempo en realizar la codificación geográfica. Agregue columnas geográficas adicionales para hacer que la ubicación no sea ambigua.  A veces, solo se necesita agregar una columna de ubicación más al conjunto de datos: en este caso estado o provincia. Y no olvide clasificarla correctamente; consulte el punto nº1 anterior.
 
-Asegúrese de que cada campo solo tiene una categoría de ubicación única. Por ejemplo, el campo de ubicación de ciudad debe ser **Southampton**, no **Southampton, Nueva York**.  Y los campos de ubicación de dirección deben ser **1 Microsoft Way** y no **1 Microsoft Way, Redmond, WA**.
+Asegúrese de que cada campo solo tiene una categoría de ubicación única. Por ejemplo, el campo de ubicación de ciudad debe ser _*Southampton**, no **Southampton, Nueva York**.  Y los campos de ubicación de dirección deben ser **1 Microsoft Way** y no **1 Microsoft Way, Redmond, WA**.
 
 **3. Use latitudes y longitudes específicas**
 

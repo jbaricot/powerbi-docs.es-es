@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4b9573d0a24efdbb4c0b5a4130f973a0dfac0f10
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: 4fcfe4038b8fa14b0c1640680aaf7657e92bb9bb
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132330"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397378"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>Copia de informes desde otras áreas de trabajo
 
@@ -31,13 +31,13 @@ Si encuentra un informe que le gusta en un área de trabajo o una aplicación, p
 
     ![Vista de lista de informes](media/service-datasets-copy-reports/power-bi-report-list-view.png)
 
-1. En **Acciones** , seleccione **Guardar una copia**.
+1. En **Acciones**, seleccione **Guardar una copia**.
 
     ![Guardado de una copia de un informe](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
     Solo verá el icono **Guardar una copia** si el informe está en una nueva experiencia de área de trabajo y tiene [permiso de compilación](service-datasets-build-permissions.md). Incluso si tiene acceso al área de trabajo, necesita tener permiso de compilación para el conjunto de datos.
 
-3. En **Guardar una copia de este informe** , asigne un nombre del informe y seleccione el área de trabajo de destino.
+3. En **Guardar una copia de este informe**, asigne un nombre del informe y seleccione el área de trabajo de destino.
 
     ![Cuadro de diálogo Guardar una copia](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 

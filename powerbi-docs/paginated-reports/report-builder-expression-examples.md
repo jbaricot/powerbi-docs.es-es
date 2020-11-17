@@ -1,19 +1,19 @@
 ---
 title: Ejemplos de expresiones en el Generador de informes de Power BI
 description: A menudo se usan expresiones en los informes paginados de Power BI Report Builder para controlar el aspecto y el contenido de estos.
-ms.date: 10/21/2019
+ms.date: 11/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 042221e3836aae72568df7eadaacfeeeac90d215
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 762949dcce178628d387cd8f88c60080f74c5bae
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297784"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397355"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Ejemplos de expresiones en el Generador de informes de Power BI
 
@@ -67,7 +67,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =Today()  
     ```  
   
--   Use la función **DateInterval** para extraer una parte específica de una fecha. Estos son algunos parámetros válidos de **DateInterval** :
+-   Use la función **DateInterval** para extraer una parte específica de una fecha. Estos son algunos parámetros válidos de **DateInterval**:
 
     -   DateInterval.Second
     -   DateInterval.Minute
@@ -180,7 +180,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
   
      Si el cuadro de texto solo contiene una fecha o un número, necesitará usar la propiedad Format del cuadro de texto para aplicar formato, en lugar de usar la función **Format** dentro del cuadro de texto.  
   
--   Las funciones **Right** , **Len** e **InStr** son útiles para devolver una subcadena (por ejemplo, para reducir *DOMINIO*\\*nombre_de_usuario* a solo el nombre de usuario). La siguiente expresión devuelve la parte de la cadena situada a la derecha de un carácter de barra diagonal inversa (\\) de un parámetro denominado *User* :  
+-   Las funciones **Right**, **Len** e **InStr** son útiles para devolver una subcadena (por ejemplo, para reducir *DOMINIO*\\*nombre_de_usuario* a solo el nombre de usuario). La siguiente expresión devuelve la parte de la cadena situada a la derecha de un carácter de barra diagonal inversa (\\) de un parámetro denominado *User*:  
   
     ```  
     =Right(Parameters!User.Value, Len(Parameters!User.Value) - InStr(Parameters!User.Value, "\"))  
@@ -205,7 +205,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
   
     ```  
   
--   Las funciones **Regex** de la clase `xref:System.Text.RegularExpressions` de .NET Framework son útiles para cambiar el formato de cadenas existentes, por ejemplo, para dar formato a un número de teléfono. La expresión siguiente usa la función **Replace** para cambiar el formato de un número de teléfono de diez dígitos de un campo de " *nnn*-*nnn*-*nnnn* " a "( *nnn* ) *nnn*-*nnnn* ":  
+-   Las funciones **Regex** de la clase `xref:System.Text.RegularExpressions` de .NET Framework son útiles para cambiar el formato de cadenas existentes, por ejemplo, para dar formato a un número de teléfono. La expresión siguiente usa la función **Replace** para cambiar el formato de un número de teléfono de diez dígitos de un campo de "*nnn*-*nnn*-*nnnn*" a "(*nnn*) *nnn*-*nnnn*":  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  
@@ -247,7 +247,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
   
 ###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> Funciones de decisión  
   
--   La función **Iif** devuelve un valor u otro en función de si la expresión es TRUE o no. En la expresión siguiente, se usa la función **Iif** para devolver el valor booleano **True** si el valor de `LineTotal` es mayor que 100. En caso contrario, devuelve **False** :  
+-   La función **Iif** devuelve un valor u otro en función de si la expresión es TRUE o no. En la expresión siguiente, se usa la función **Iif** para devolver el valor booleano **True** si el valor de `LineTotal` es mayor que 100. En caso contrario, devuelve **False**:  
   
     ```  
     =IIF(Fields!LineTotal.Value > 100, True, False)  
@@ -275,13 +275,13 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =IIF(DateDiff("d",Fields!ImportantDate.Value, Now())>7,"Red","Blue")  
     ```  
   
--   Prueba el valor del campo `PhoneNumber` y devuelve "No Value" si es **null** ( **Nothing** en Visual Basic); en caso contrario, devuelve un valor de número de teléfono. Esta expresión puede utilizarse para controlar el valor de un cuadro de texto en un elemento de informe.  
+-   Prueba el valor del campo `PhoneNumber` y devuelve "No Value" si es **null** (**Nothing** en Visual Basic); en caso contrario, devuelve un valor de número de teléfono. Esta expresión puede utilizarse para controlar el valor de un cuadro de texto en un elemento de informe.  
   
     ```  
     =IIF(Fields!PhoneNumber.Value Is Nothing,"No Value",Fields!PhoneNumber.Value)  
     ```  
   
--   Prueba el valor del campo `Department` y devuelve un nombre de subinforme o **null** ( **Nothing** en Visual Basic). Esta expresión puede utilizarse con subinformes detallados condicionales.  
+-   Prueba el valor del campo `Department` y devuelve un nombre de subinforme o **null** (**Nothing** en Visual Basic). Esta expresión puede utilizarse con subinformes detallados condicionales.  
   
     ```  
     =IIF(Fields!Department.Value = "Development", "EmployeeReport", Nothing)  
@@ -454,6 +454,9 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
+> [!NOTE]
+>  Los informes paginados de Power BI no admiten el uso de JavaScript en una expresión **Ir a dirección URL**.  
+  
 ##  <a name="report-data"></a><a name="ReportData"></a> Datos del informe  
  Pueden utilizarse expresiones para manipular los datos que se usan en el informe. Se puede hacer referencia a parámetros y a otra información del informe. Incluso se puede modificar la consulta que se usa para recuperar datos para el informe.  
   
@@ -466,13 +469,13 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =User!UserID  
     ```  
   
--   Para hacer referencia a un parámetro en un parámetro de consulta, una expresión de filtro, un cuadro de texto u otras áreas del informe, use la colección global **Parameters** . En este ejemplo se da por supuesto que el parámetro se denomina *Department* :  
+-   Para hacer referencia a un parámetro en un parámetro de consulta, una expresión de filtro, un cuadro de texto u otras áreas del informe, use la colección global **Parameters** . En este ejemplo se da por supuesto que el parámetro se denomina *Department*:  
   
     ```  
     =Parameters!Department.Value  
     ```  
   
--   Pueden crearse parámetros en un informe y establecerse como ocultos. Cuando se ejecuta el informe en el servidor de informes, el parámetro no aparece en la barra de herramientas y el lector del informe no puede cambiar el valor predeterminado. Puede usar un parámetro oculto establecido en un valor predeterminado como constante personalizada. Puede usar este valor en cualquier expresión, incluida una expresión de campo. La expresión siguiente identifica el campo especificado por el valor de parámetro predeterminado para el parámetro denominado *ParameterField* :  
+-   Pueden crearse parámetros en un informe y establecerse como ocultos. Cuando se ejecuta el informe en el servidor de informes, el parámetro no aparece en la barra de herramientas y el lector del informe no puede cambiar el valor predeterminado. Puede usar un parámetro oculto establecido en un valor predeterminado como constante personalizada. Puede usar este valor en cualquier expresión, incluida una expresión de campo. La expresión siguiente identifica el campo especificado por el valor de parámetro predeterminado para el parámetro denominado *ParameterField*:  
   
     ```  
     =Fields(Parameters!ParameterField.Value).Value  
@@ -495,7 +498,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     =IIF(Field!B.Value=0, 0, Field!A.Value / IIF(Field!B.Value =0, 1, Field!B.Value))  
     ```  
   
--   Use una función de código personalizado para devolver el valor de la expresión. En el ejemplo siguiente, se devuelve la diferencia porcentual entre un valor actual y un valor anterior. Esto puede usarse para calcular la diferencia entre dos valores consecutivos cualesquiera y controla el caso límite de la primera comparación (cuando no hay ningún valor anterior) y los casos en los que el valor anterior o el valor actual es **null** ( **Nothing** en Visual Basic).  
+-   Use una función de código personalizado para devolver el valor de la expresión. En el ejemplo siguiente, se devuelve la diferencia porcentual entre un valor actual y un valor anterior. Esto puede usarse para calcular la diferencia entre dos valores consecutivos cualesquiera y controla el caso límite de la primera comparación (cuando no hay ningún valor anterior) y los casos en los que el valor anterior o el valor actual es **null** (**Nothing** en Visual Basic).  
   
     ```  
     Public Function GetDeltaPercentage(ByVal PreviousValue, ByVal CurrentValue) As Object  

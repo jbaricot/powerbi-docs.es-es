@@ -8,23 +8,23 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 09/02/2020
-ms.openlocfilehash: ca9c18cbd51737a5e4b05f3504c6ac2760006281
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 447f73601362c9ee205fe64119d0c251e7b4eb9a
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92051113"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412289"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>Configuración del entorno para el desarrollo de un objeto visual de Power BI
 
 En este artículo, aprenderá a configurar el entorno para desarrollar un objeto visual de Power BI.
 
-Antes de empezar a desarrollar, deberá instalar **node.js** y el paquete **pbiviz** . También necesitará crear e instalar un certificado. Una vez configurado el entorno local, deberá configurar el servicio Power BI para desarrollar un objeto visual de Power BI.
+Antes de empezar a desarrollar, deberá instalar **node.js** y el paquete **pbiviz**. También necesitará crear e instalar un certificado. Una vez configurado el entorno local, deberá configurar el servicio Power BI para desarrollar un objeto visual de Power BI.
 
 En este artículo, aprenderá a:
 > [!div class="checklist"]
-> * Instalar *nodes.js* .
-> * Instalar *pbiviz* .
+> * Instalar *nodes.js*.
+> * Instalar *pbiviz*.
 > * Crear e instalar un certificado.
 > * Configurar el servicio Power BI para desarrollar un objeto visual.
 > * Instalar bibliotecas adicionales (necesario para desarrollar un objeto visual).
@@ -43,7 +43,7 @@ En este artículo, aprenderá a:
 
 ## <a name="install-pbiviz"></a>Instalación de pbiviz
 
-La herramienta *pbiviz* , que se escribe con JavaScript, compila el código de origen del objeto visual del paquete *pbiviz* .
+La herramienta *pbiviz*, que se escribe con JavaScript, compila el código de origen del objeto visual del paquete *pbiviz*.
 
 El paquete *pbiviz* es un proyecto de objeto visual de Power BI comprimido, con todos los scripts y recursos necesarios.
 
@@ -59,10 +59,10 @@ Para que un cliente (su equipo) y un servidor (el servicio Power BI) interactú
 
 # <a name="windows"></a>[Windows](#tab/windows)
 
-Este proceso describe la ejecución de un comando de PowerShell que inicia el **Asistente para la importación de certificados** . Siga los pasos que se indican a continuación para configurar el certificado en el asistente.
+Este proceso describe la ejecución de un comando de PowerShell que inicia el **Asistente para la importación de certificados**. Siga los pasos que se indican a continuación para configurar el certificado en el asistente.
 
 >[!IMPORTANT]
->No cierre la ventana de PowerSell durante este procedimiento.
+>No cierre la ventana de PowerShell durante este procedimiento.
 
 1. Abra Windows  PowerShell y escriba el comando siguiente.
 
@@ -71,43 +71,43 @@ Este proceso describe la ejecución de un comando de PowerShell que inicia el **
     ```
 
     Este comando hace dos cosas:
-    * Devuelve una *frase de contraseña* . En este caso, la *frase de contraseña* es 9765328806094.
+    * Devuelve una *frase de contraseña*. En este caso, la *frase de contraseña* es 9765328806094.
     * También inicia el Asistente para importar certificados.
     
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla del comando de pbivz ejecutado en Windows PowerShell](media/environment-setup/powershell-pbiviz.png)
 
-2. En el Asistente para importar certificados, compruebe que la ubicación del almacén se establece en el *usuario actual* y seleccione **Siguiente** .
+2. En el Asistente para importar certificados, compruebe que la ubicación del almacén se establece en el *usuario actual* y seleccione **Siguiente**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de la primera ventana del Asistente para importación de certificados, con la opción Ubicación del almacén establecida en el usuario actual.](media/environment-setup/certificate-wizard-store-location.png)
 
-3. En la ventana **Archivo para importar** , seleccione **Siguiente** .
+3. En la ventana **Archivo para importar**, seleccione **Siguiente**.
 
-4. En la ventana **Protección de clave privada** , en el cuadro de texto *Contraseña* , pegue la frase de contraseña que recibió al ejecutar el comando de PowerShell (paso 1) y seleccione **Siguiente** . En este ejemplo, la frase de contraseña es 9765328806094.
+4. En la ventana **Protección de clave privada**, en el cuadro de texto *Contraseña*, pegue la frase de contraseña que recibió al ejecutar el comando de PowerShell (paso 1) y seleccione **Siguiente**. En este ejemplo, la frase de contraseña es 9765328806094.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de la ventana Protección de clave privada del Asistente para importación de certificados, con el cuadro Contraseña resaltado.](media/environment-setup/certificate-wizard-password.png)
 
-5. En la ventana **Almacén de certificados** , seleccione la opción **Colocar todos los certificados en el siguiente almacén** y seleccione **Examinar** .
+5. En la ventana **Almacén de certificados**, seleccione la opción **Colocar todos los certificados en el siguiente almacén** y seleccione **Examinar**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de la ventana Almacén de certificados del Asistente para importación de certificados, con la opción Colocar todos los certificados en el siguiente almacén activa.](media/environment-setup/certificate-wizard-certificate-store.png)
 
-6. En la ventana **Seleccionar almacén de certificados** , seleccione **Entidades de certificación raíz de confianza** y luego seleccione **Aceptar** .
+6. En la ventana **Seleccionar almacén de certificados**, seleccione **Entidades de certificación raíz de confianza** y luego seleccione **Aceptar**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de la ventana Seleccionar almacén de certificados, con la carpeta Entidades de certificación raíz de confianza activa.](media/environment-setup/trusted-root.png)
 
-7. Seleccione *Siguiente* en la ventana **Almacén de certificados** .
+7. Seleccione *Siguiente* en la ventana **Almacén de certificados**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de la ventana Almacén de certificados del Asistente para importación de certificados, con la carpeta Entidades de certificación raíz de confianza activa y el botón Siguiente resaltado.](media/environment-setup/certificate-wizard-store-next.png)
 
-8. En la ventana **Finalización del Asistente para importación de certificados** , compruebe la configuración y seleccione **Finalizar** .
+8. En la ventana **Finalización del Asistente para importación de certificados**, compruebe la configuración y seleccione **Finalizar**.
 
     >[!NOTE]
-    >Si recibe una advertencia de seguridad, seleccione **Sí** .
+    >Si recibe una advertencia de seguridad, seleccione **Sí**.
 
 
 # <a name="osx"></a>[OSX](#tab/sdk2osx)
@@ -120,7 +120,7 @@ Este proceso describe la ejecución de un comando de PowerShell que inicia el **
 
     ![Instalar un certificado SSL 2 en OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
 
-3. Escriba el nombre de usuario y la contraseña y seleccione **Actualizar configuración** .
+3. Escriba el nombre de usuario y la contraseña y seleccione **Actualizar configuración**.
 
     ![Instalar un certificado SSL 3 en OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
 
@@ -144,12 +144,12 @@ Para desarrollar un objeto visual de Power BI, deberá habilitar la depuración
 
 1. Inicie sesión en [PowerBI.com](https://powerbi.microsoft.com/).
 
-2. Vaya a **Configuración** > **Configuración** > **Configuración** .
+2. Vaya a **Configuración** > **Configuración** > **Configuración**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de la opción Configuración, Configuración, Configuración y Menú en el servicio Power BI.](media/environment-setup/powerbi-settings.png)
 
-3. En la pestaña **General** , seleccione **Desarrollador** . En **Configuración del desarrollador** , active la casilla **Habilitar la depuración de objetos visuales personalizados con el objeto visual de desarrollador** y seleccione **Aplicar** .
+3. En la pestaña **General**, seleccione **Desarrollador**. En **Configuración del desarrollador**, active la casilla **Habilitar la depuración de objetos visuales personalizados con el objeto visual de desarrollador** y seleccione **Aplicar**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de la opción Habilitar la depuración de objetos visuales personalizados con el objeto visual de desarrollador, en la pestaña Configuración de Power BI, pestaña General.](media/environment-setup/developer-settings.png)
@@ -211,22 +211,22 @@ npm i powerbi-visuals-api --save-dev
     >```powershell
     >code .
     >```
-2. En VS Code, abra el menú **Archivo** y seleccione **Abrir carpeta** .
+2. En VS Code, abra el menú **Archivo** y seleccione **Abrir carpeta**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de la opción Abrir carpeta de VS Studio, en el menú Archivo.](media/environment-setup/open-folder.png)
 
-3. En la ventana **Abrir carpeta** , seleccione la carpeta que contiene el proyecto de objetos visuales de Power BI y, a continuación, seleccione **Seleccionar carpeta** .
+3. En la ventana **Abrir carpeta**, seleccione la carpeta que contiene el proyecto de objetos visuales de Power BI y, a continuación, seleccione **Seleccionar carpeta**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de la selección de la carpeta del proyecto de objetos visuales de Power BI en la ventana Abrir carpeta de VS Studio.](media/environment-setup/project-folder.png)
 
-4. En el panel **Explorador** , expanda la carpeta **node_modules** para comprobar que la biblioteca **D3** se ha instalado.
+4. En el panel **Explorador**, expanda la carpeta **node_modules** para comprobar que la biblioteca **D3** se ha instalado.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de la carpeta 3D en un proyecto de objetos visuales de Power BI, tal y como aparece en VS Code.](media/environment-setup/verify-d3.png)
 
-5. En el panel **Explorador** , expanda **node_modules > @types  > d3** y compruebe que el archivo **index.t.ds** se ha instalado.
+5. En el panel **Explorador**, expanda **node_modules > @types  > d3** y compruebe que el archivo **index.t.ds** se ha instalado.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla del archivo index.t.ds en un BI proyecto de objetos visuales de Power BI, tal y como aparece en VS Code.](media/environment-setup/verify-index.png)

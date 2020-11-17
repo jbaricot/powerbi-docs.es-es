@@ -2,19 +2,20 @@
 title: Tutorial sobre narraciones inteligentes
 description: 'Tutorial: Creación de visualizaciones de resumen de narración inteligente en Power BI'
 author: aphilip94
-ms.reviewer: aphilip94
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/14/2020
+ms.date: 11/06/2020
 ms.author: anphil
+ms.custom: video
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4417d66b4afc3c3848667364bdca47150afdf04a
-ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
+ms.openlocfilehash: 92ebd3015296dc0b6a61f3b7dd2a8b0d163a4383
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862924"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397217"
 ---
 # <a name="create-smart-narrative-summaries-preview"></a>Creación de resúmenes de narración inteligente (versión preliminar)
 
@@ -29,15 +30,18 @@ La visualización de narración inteligente le ayuda a resumir rápidamente obje
 Use resúmenes de narración inteligente en los informes para abordar los aportes clave, señalar tendencias y editar el idioma y el formato para un público específico. En PowerPoint, en lugar de pegar una captura de pantalla de los aportes clave del informe, puede agregar narraciones que se actualicen con cada actualización. El público puede usar los resúmenes para comprender los datos, llegar a los puntos clave más rápido y explicar los datos a otros usuarios.
 
 >[!NOTE]
-> Dado que la característica de narración inteligente está en versión preliminar, debe activarla si quiere usarla. En Power BI, vaya a **Archivo** > **Opciones y configuración** > **Opciones** > **Características de versión preliminar** . Luego, **Smart narrative visual** (Objeto visual de narración inteligente).
+> Dado que la característica de narración inteligente está en versión preliminar, debe activarla si quiere usarla. En Power BI, vaya a **Archivo** > **Opciones y configuración** > **Opciones** > **Características de versión preliminar**. Luego, **Smart narrative visual** (Objeto visual de narración inteligente).
 >
 >![Captura de pantalla que muestra Opciones de Power BI. Está seleccionada la opción Smart Narrative Visual (Objeto visual de narración inteligente).](media/power-bi-visualization-smart-narratives/2.png)
 
-Para seguir este tutorial, descargue el [archivo de ejemplo](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) de un escenario de ventas en línea.
+
 
 ## <a name="get-started"></a>Introducción 
+Vea la demostración de Justyna sobre el uso de las narraciones inteligentes y, luego, pruebe a hacerlo por su cuenta con el tutorial que aparece debajo del vídeo.  Para seguir este tutorial, descargue el [archivo de ejemplo](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) de un escenario de ventas en línea.
 
-En el panel **Visualizaciones** , seleccione el icono **Smart narrative** (Narración inteligente).
+> [!VIDEO https://youtu.be/01UrT-z37sw]
+
+En el panel **Visualizaciones**, seleccione el icono **Smart narrative** (Narración inteligente).
 
 ![Captura de pantalla que muestra el panel Visualizaciones. El icono Smart narrative (Narración inteligente) está seleccionado.](media/power-bi-visualization-smart-narratives/3.png)
 
@@ -45,7 +49,7 @@ Verá una narración que se basa en todos los objetos visuales de la página. Po
  
 ![Captura de pantalla que muestra cómo crear un resumen de la narración inteligente.](media/power-bi-visualization-smart-narratives/4.gif)
  
-Para generar una narración inteligente de una visualización, haga clic en ella con el botón derecho y, luego, seleccione **Resumir** . Por ejemplo, en el archivo de ejemplo, pruebe a un gráfico de dispersión que muestra varias transacciones. Power BI analiza los datos y muestra qué ciudad o región tiene los mayores ingresos por transacción y el mayor número de transacciones. La narración inteligente también muestra el intervalo esperado de valores para estas métricas. Verá que la mayoría de las ciudades producen menos de 45 USD por transacción y menos de 10 transacciones.
+Para generar una narración inteligente de una visualización, haga clic en ella con el botón derecho y, luego, seleccione **Resumir**. Por ejemplo, en el archivo de ejemplo, pruebe a un gráfico de dispersión que muestra varias transacciones. Power BI analiza los datos y muestra qué ciudad o región tiene los mayores ingresos por transacción y el mayor número de transacciones. La narración inteligente también muestra el intervalo esperado de valores para estas métricas. Verá que la mayoría de las ciudades producen menos de 45 USD por transacción y menos de 10 transacciones.
  
   
 ![Captura de pantalla que muestra una narración inteligente que resume un gráfico de dispersión.](media/power-bi-visualization-smart-narratives/5.gif)
@@ -56,7 +60,7 @@ El resumen de narración inteligente es muy personalizable. Puede editar el text
  
 ![Captura de pantalla que muestra los comandos de formato de texto en una barra de herramientas.](media/power-bi-visualization-smart-narratives/6.png)
   
-Para personalizar el resumen o agregar su propia información, use *valores dinámicos* . Puede asignar texto a campos y medidas existentes, o bien usar lenguaje natural para definir una nueva medida para asignar al texto. Por ejemplo, para agregar información sobre el número de elementos devueltos en el archivo de ejemplo, agregue un valor. 
+Para personalizar el resumen o agregar su propia información, use *valores dinámicos*. Puede asignar texto a campos y medidas existentes, o bien usar lenguaje natural para definir una nueva medida para asignar al texto. Por ejemplo, para agregar información sobre el número de elementos devueltos en el archivo de ejemplo, agregue un valor. 
 
 A medida que escribe el nombre de un valor, puede elegir de una lista de sugerencias, como hace en un objeto visual de Preguntas y respuestas. Por lo tanto, además de formular preguntas sobre los datos de un objeto visual de Preguntas y respuestas, ahora puede crear sus propios cálculos sin usar expresiones de análisis de datos (DAX). 
   
@@ -66,11 +70,11 @@ También puede dar formato a los valores dinámicos. Por ejemplo, en el archivo 
    
 ![Captura de pantalla que muestra cómo dar formato a un valor dinámico.](media/power-bi-visualization-smart-narratives/8.gif)
    
-Para dar formato a un valor dinámico, seleccione el valor en el resumen para ver las opciones de edición en la pestaña **Revisar** . O bien, en el cuadro de texto, al lado del valor que quiere editar, seleccione el botón Editar. 
+Para dar formato a un valor dinámico, seleccione el valor en el resumen para ver las opciones de edición en la pestaña **Revisar**. O bien, en el cuadro de texto, al lado del valor que quiere editar, seleccione el botón Editar. 
    
 ![Captura de pantalla que muestra el cuadro de texto con la pestaña Valor seleccionada. Junto al nombre del valor, se resalta el botón Editar.](media/power-bi-visualization-smart-narratives/9.png)
    
-También puede usar la pestaña **Revisar** para revisar, eliminar o reutilizar valores definidos previamente. Seleccione el signo más (+) para insertar el valor en el resumen. También puede mostrar los valores generados automáticamente activando la opción en la parte inferior de la pestaña **Revisar** .
+También puede usar la pestaña **Revisar** para revisar, eliminar o reutilizar valores definidos previamente. Seleccione el signo más (+) para insertar el valor en el resumen. También puede mostrar los valores generados automáticamente activando la opción en la parte inferior de la pestaña **Revisar**.
 
 A veces aparece un símbolo de resumen oculto en la narración inteligente. Este símbolo indica que los datos y los filtros actuales no producen ningún resultado para el valor. Un resumen está vacío cuando no hay conclusiones disponibles. Por ejemplo, en el gráfico de líneas del archivo de ejemplo, un resumen de los valores altos y bajos podría estar vacío cuando la línea del gráfico es plana. Sin embargo, el resumen podría aparecer en otras condiciones. Los símbolos de resumen oculto solo están visibles cuando se intenta editar un resumen.
 
@@ -95,9 +99,10 @@ La característica de narración inteligente no admite la funcionalidad siguient
 - No se admite el uso de valores dinámicos ni de formato condicional (por ejemplo, título enlazado a datos).
 - Azure Analysis Services, AS local.
 - KPI, tarjetas, tarjetas de varias filas, mapas, tablas, matrices, objetos visuales de R o Python, objetos visuales personalizados. 
-- Resúmenes de objetos visuales cuyas columnas se agrupen por otras columnas y objetos visuales que se compilen en un campo de grupo de datos. 
+- Resúmenes de objetos visuales cuyas columnas se agrupen por otras columnas y objetos visuales que se compilen en un campo de grupo de datos. 
 - Filtrado cruzado de objetos visuales.
 - No se admite el cambio de nombre de valores dinámicos ni la edición de valores dinámicos generados automáticamente.
 - Resúmenes de objetos visuales que contengan cálculos dinámicos, como aritmética y porcentaje de total general de QnA. 
+- [Grupos de cálculo](/analysis-services/tabular-models/calculation-groups)
    
 

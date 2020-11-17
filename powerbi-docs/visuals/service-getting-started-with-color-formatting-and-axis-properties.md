@@ -1,20 +1,20 @@
 ---
 title: Introducción al formato de las visualizaciones de los informes
 description: Introducción al uso de las opciones de formato con las visualizaciones de los informes
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/17/2020
-ms.author: mihart
+ms.date: 11/09/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 3e61521ec7ac518aaa374cec328639a849b21bd5
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354602"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483856"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Introducción al panel de formato
 
@@ -41,6 +41,7 @@ Puede personalizar muchos elementos de cada visualización: Las opciones disponi
 * Eje Y
 * Colores de datos
 * Etiquetas de datos
+* Etiquetas totales
 * Formas
 * Área de trazado
 * Título
@@ -66,6 +67,7 @@ La mejor manera de aprender a usar las opciones de formato es probarlas. Siempre
 2. Aplicar un estilo    
 3. Cambiar las propiedades del eje    
 4. Agregar etiquetas de datos    
+1. Agregar etiquetas totales
 
 
 
@@ -94,7 +96,7 @@ Estas son algunas sugerencias útiles para trabajar con colores. Los números de
 
 2. ¿No le gusta ninguno de los cambios de color? Seleccione **Volver al valor predeterminado** en la parte inferior de la sección **Color de datos** y los colores vuelven a la configuración predeterminada. 
 
-3. ¿Desea un color que no aparece en la paleta? Simplemente seleccione **Color personalizado**y elija uno en el espectro.  
+3. ¿Desea un color que no aparece en la paleta? Simplemente seleccione **Color personalizado** y elija uno en el espectro.  
 
    ![Sección de color de datos con la paleta de colores abierta](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-color-extras.png)
 
@@ -141,7 +143,7 @@ Puede quitar totalmente las etiquetas de eje, alternando el botón de radio junt
 
 ## <a name="adding-data-labels"></a>Adición de etiquetas de datos    
 
-Un último ejemplo de formato antes de empezar a explorar por su cuenta.  Vamos a agregar etiquetas de datos a un gráfico de áreas. 
+Vamos a agregar etiquetas de datos a un gráfico de áreas. 
 
 Este es la imagen de *antes*. 
 
@@ -155,6 +157,27 @@ Y esta es la imagen de *después*.
 Hemos seleccionado la visualización para activarla y abrir la pestaña Formato.  Hemos seleccionado **Etiquetas de datos** y las hemos activado. Luego, hemos aumentado la fuente a 12, hemos cambiado la familia de fuentes a Arial Black, hemos activado **Mostrar fondo** y hemos seleccionado un color de fondo blanco con una transparencia del 5 %.
 
 Estas son solo algunas de las tareas de formato posibles. Abra un informe en el modo de edición y diviértase explorando el panel de formato para crear visualizaciones atractivas e informativas.
+
+## <a name="adding-total-labels"></a>Adición de etiquetas totales    
+
+Un último ejemplo de formato antes de empezar a explorar por su cuenta.  Vamos a agregar etiquetas totales a un gráfico de columnas apiladas. Hay etiquetas totales disponibles para gráficos apilados, combinados y de áreas.
+
+Al activar las etiquetas totales, Power BI muestra el agregado (o total) de los datos. Veamos un ejemplo. 
+
+Aquí tenemos un gráfico de columnas apiladas con etiquetas de datos que muestran el valor de cada parte de cada pila completa.  Ésta es la vista predeterminada. 
+
+![Gráfico de columnas con etiquetas de datos](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-column-charts.png)
+
+
+Al abrir el objeto visual en la vista de edición, puede cambiar la presentación de las etiquetas de datos y de las etiquetas totales. Seleccione el objeto visual para activarlo y abra el panel Formato. Desplácese hacia abajo hasta **Etiquetas de datos** y **Total labels** (Etiquetas totales). La opción **Etiquetas de datos** está activada y **Total labels** (Etiquetas totales), desactivada. 
+
+![Gráfico de columnas sin formato](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-total-label.png)
+
+Active **Etiquetas de datos** y desactive y **Total labels** (Etiquetas totales). Power BI muestra ahora el agregado para cada columna.    
+![Gráfico de columnas con formato](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-totals.png)
+
+Estas son solo algunas de las tareas de formato posibles. Abra un informe en el modo de edición y diviértase explorando el panel de formato para crear visualizaciones atractivas e informativas.
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 Para obtener más información, consulte el artículo siguiente: 

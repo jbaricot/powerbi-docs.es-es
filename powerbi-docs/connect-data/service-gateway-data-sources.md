@@ -1,23 +1,23 @@
 ---
-title: Administración de orígenes de datos
-description: Obtenga información sobre cómo administrar orígenes de datos en Power BI.
+title: Agregar o quitar un origen de datos de puerta de enlace
+description: Obtenga información sobre cómo agregar orígenes de datos a una puerta de enlace local en Power BI.
 author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/22/2020
+ms.date: 11/03/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 92c3a65b11435403b61a06324f534e6d82e4b7cb
-ms.sourcegitcommit: efe11c819be75887c4242afa64d32bb0698da569
+ms.openlocfilehash: 58fb6fbe48ef1552052f93fd56b35512b7bf84d7
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "87123497"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412585"
 ---
-# <a name="manage-data-sources"></a>Administración de orígenes de datos
+# <a name="add-or-remove-a-gateway-data-source"></a>Agregar o quitar un origen de datos de puerta de enlace
 
 [!INCLUDE [gateway-rewrite](../includes/gateway-rewrite.md)]
 
@@ -25,45 +25,49 @@ Power BI admite muchos [orígenes de datos locales](power-bi-data-sources.md), 
 
 La mayoría de las operaciones de administración de los orígenes de datos también se pueden realizar mediante API. Para más información, vea [API REST (puertas de enlace)](/rest/api/power-bi/gateways).
 
+Si todavía no tiene instalada una puerta de enlace, consulte [Instalar una puerta de enlace de datos local](/data-integration/gateway/service-gateway-install) para comenzar.
+
 ## <a name="add-a-data-source"></a>Agregar un origen de datos
 
-1. En la esquina superior derecha del servicio Power BI, seleccione el icono del engranaje ![Icono de engranaje de configuración](media/service-gateway-data-sources/icon-gear.png) > **Administrar puertas de enlace**.
+1. En el encabezado de la página del servicio Power BI, seleccione **Configuración** ![Icono de engranaje de configuración](media/service-gateway-data-sources/icon-gear.png) > **Administrar puertas de enlace**.
 
     ![Administración de puertas de enlace](media/service-gateway-data-sources/manage-gateways.png)
 
-2. Seleccione una puerta de enlace y, después, **Agregar origen de datos**. O bien, vaya a **Puertas de enlace** > **Agregar origen de datos**.
+2. Seleccione una puerta de enlace y, después, **Agregar origen de datos**. Puede seleccionar el texto del encabezado **AGREGAR ORIGEN DE DATOS** o mantener el cursor junto a la entrada de la puerta de enlace para que se muestre el menú Más opciones.
 
     ![Agregar origen de datos](media/service-gateway-data-sources/add-data-source.png)
 
-3. Seleccione el **tipo de origen de datos**.
+3. Asigne un nombre al origen de datos y seleccione el **Tipo de origen de datos**. En este ejemplo, elegiremos SQL Server.
 
-    ![Seleccionar SQL Server](media/service-gateway-data-sources/select-sql-server.png)
+    ![Selección de SQL Server](media/service-gateway-data-sources/select-sql-server.png)
 
-4. Escriba la información del origen de datos. En este ejemplo, es **Servidor**, **Base de datos** y otra información. 
+4. Especifique información sobre el origen de datos. En el caso de SQL Server, proporcione el **Servidor** y la **Base de datos**.
 
     ![Configuración del origen de datos](media/service-gateway-data-sources/data-source-settings.png)
 
-5. Para SQL Server, elija un **Método de autenticación** de **Windows** o **Básico** (Autenticación de SQL). Si elige **Básico**, escriba las credenciales del origen de datos.
+5. Seleccione un **Método de autenticación** para usarlo al conectarse al origen de datos. Para SQL Server, elija **Windows** o **Básico** (autenticación de SQL). Escriba las credenciales del origen de datos.
+
+   :::image type="content" source="media/service-gateway-data-sources/basic-auth.png" alt-text="Configuración de autenticación básica.":::
 
     > [!NOTE]
     > Si el método de autenticación seleccionado es OAuth, puede producirse un error en cualquier consulta que se ejecute durante más tiempo que la directiva de expiración de tokens de OAuth.
 
-6. En **Configuración avanzada**, puede configurar el [inicio de sesión único (SSO)](service-gateway-sso-overview.md) del origen de datos. 
+6. En **Configuración avanzada**, puede configurar el [Inicio de sesión único (SSO)](service-gateway-sso-overview.md) del origen de datos. 
 
     ![Configuración avanzada](media/service-gateway-data-sources/advanced-settings-02.png)
 
-Se puede configurar **Usar un SSO mediante Kerberos en las consultas de DirectQuery** o **Uso de SSO mediante Kerberos en consultas de importación y DirectQuery** para los informes basados en DirectQuery, y **Uso de SSO mediante Kerberos en consultas de importación y DirectQuery** para los informes basados en actualizaciones.
+    Se puede configurar **Usar un SSO mediante Kerberos en las consultas de DirectQuery** o **Uso de SSO mediante Kerberos en consultas de importación y DirectQuery** para los informes basados en DirectQuery, y **Uso de SSO mediante Kerberos en consultas de importación y DirectQuery** para los informes basados en actualizaciones.
 
-Si activa **Usar un SSO mediante Kerberos en las consultas de DirectQuery** y usa este origen de datos en un informe basado en DirectQuery, se usará el usuario que esté asignado al usuario de (Azure) Active Directory que inicie sesión en el servicio Power BI. En el caso de un informe basado en actualización, se usarán las credenciales que especificó en los campos **Nombre de usuario** y **Contraseña**.
+    Si activa **Usar un SSO mediante Kerberos en las consultas de DirectQuery** y emplea este origen de datos en un informe basado en DirectQuery, se usarán las credenciales del usuario que inicie sesión en el servicio Power BI. En el caso de un informe basado en actualizaciones, se usarán las credenciales que haya especificado en los campos **Nombre de usuario** y **Contraseña**.
 
-Si activa **Uso de SSO mediante Kerberos en consultas de importación y DirectQuery**, no es necesario proporcionar ninguna credencial. Si este origen de datos se usa en un informe basado en DirectQuery, se usará el usuario que esté asignado al usuario de (Azure) Active Directory que inicie sesión en el servicio Power BI.  En el caso de un informe basado en actualización, se usará el contexto de seguridad del propietario del conjunto de datos.
+    Si activa **Uso de SSO mediante Kerberos en consultas de importación y DirectQuery**, no es necesario proporcionar ninguna credencial. Si este origen de datos se usa en un informe basado en DirectQuery, se usará el usuario que esté asignado al usuario de (Azure) Active Directory que inicie sesión en el servicio Power BI.  En el caso de un informe basado en actualización, se usará el contexto de seguridad del propietario del conjunto de datos.
 
-> [!NOTE]
->SSO para las consultas de importación solo está disponible para la lista de orígenes de datos de SSO que usan la [delegación restringida de Kerberos](service-gateway-sso-kerberos.md).
+    > [!NOTE]
+    >SSO para las consultas de importación solo está disponible para la lista de orígenes de datos de SSO que usan la [delegación restringida de Kerberos](service-gateway-sso-kerberos.md).
 
 7. En **Configuración avanzada**, si quiere puede configurar el [nivel de privacidad](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) del origen de datos (no se aplica a [DirectQuery](desktop-directquery-about.md)).
 
-    ![Configuración avanzada](media/service-gateway-data-sources/advanced-settings.png)
+    :::image type="content" source="media/service-gateway-data-sources/privacy-level.png" alt-text="Selecciones del nivel de privacidad.":::
 
 8. Seleccione **Agregar**. Si el proceso se completa correctamente, verá el mensaje *Conexión correcta*.
 
@@ -75,16 +79,16 @@ Ahora puede usar este origen de datos para incluir los datos de SQL Server en lo
 
 Puede quitar un origen de datos si ya no lo usa. Si quita un origen de datos, se interrumpirá cualquier panel e informe que se base en dicho origen.
 
-Para quitar un origen de datos, vaya al origen de datos y luego seleccione **Quitar**.
+Para quitar un origen de datos, vaya al origen de datos y seleccione **Quitar** en el menú Más opciones. El menú Más opciones aparece cuando se mantiene el cursor junto al nombre del origen de datos.
 
 ![Quitar un origen de datos](media/service-gateway-data-sources/remove-data-source.png)
 
 ## <a name="use-the-data-source-for-scheduled-refresh-or-directquery"></a>Uso del origen de datos para actualización programada o DirectQuery
 
-Después de haber creado el origen de datos, estará disponible para usarse con conexiones DirectQuery, o bien a través de una actualización programada.
+Después de haber creado el origen de datos, estará disponible para usarse con conexiones DirectQuery, o bien a través de una actualización programada. Puede obtener más información sobre cómo configurar la actualización programada en [Configuración de actualización programada](refresh-scheduled-refresh.md).
 
 > [!NOTE]
->El nombre del servidor y de la base de datos deben coincidir entre Power BI Desktop y el origen de datos dentro de la puerta de enlace de datos local.
+>El nombre del servidor y el de la base de datos deben coincidir entre Power BI Desktop y el origen de datos agregado a la puerta de enlace de datos local.
 
 El vínculo entre el conjunto de datos y el origen de datos de la puerta de enlace se basa en el nombre del servidor y el de la base de datos. Estos nombres deben coincidir. Por ejemplo, si proporciona una dirección IP para el nombre del servidor, en Power BI Desktop, tendrá que usar la dirección IP del origen de datos de la configuración de la puerta de enlace. Si usa *SERVIDOR\INSTANCIA* en Power BI Desktop, tendrá que usar lo mismo en el origen de datos configurado para la puerta de enlace.
 
@@ -97,11 +101,11 @@ Si aparece en la pestaña **Usuarios** del origen de datos configurado en la pue
 
 ### <a name="limitations"></a>Limitaciones
 
-OAuth es un esquema de autenticación compatible solo para conectores personalizados con la puerta de enlace de datos local. No puede agregar otros orígenes de datos que requieran OAuth. Si el conjunto de datos tiene un origen de datos que requiere OAuth que no es un conector personalizado, no podrá usar la puerta de enlace para la actualización programada.
+OAuth es un esquema de autenticación compatible solo para conectores personalizados con la puerta de enlace de datos local. No puede agregar otros orígenes de datos que requieran OAuth. Si el conjunto de datos tiene un origen de datos que requiere OAuth y que no es un conector personalizado, no podrá usar la puerta de enlace para la actualización programada.
 
 ## <a name="manage-users"></a>Administrar usuarios
 
-Después de agregar un origen de datos a una puerta de enlace, conceda acceso a los usuarios y grupos de seguridad habilitados para correo electrónico al origen de datos específico (no a toda la puerta de enlace). La lista de usuarios del origen de datos controla solo a quién se le permite publicar informes que incluyen datos del origen de datos. Los propietarios de informes pueden crear paneles, paquetes de contenido y aplicaciones y compartir esos elementos con otros usuarios.
+Después de agregar un origen de datos a una puerta de enlace, conceda acceso a los usuarios y grupos de seguridad habilitados para correo electrónico al origen de datos específico (no a toda la puerta de enlace). La lista de acceso al origen de datos controla solo a quién se le permite publicar informes que incluyen datos del origen de datos. Los propietarios de informes pueden crear paneles, paquetes de contenido y aplicaciones y compartir esos elementos con otros usuarios.
 
 También puede conceder acceso administrativo a los usuarios y grupos de seguridad a la puerta de enlace.
 
@@ -110,15 +114,11 @@ También puede conceder acceso administrativo a los usuarios y grupos de segurid
 
 ### <a name="add-users-to-a-data-source"></a>Adición de usuarios a un origen de datos
 
-1. En la esquina superior derecha del servicio Power BI, seleccione el icono del engranaje ![Icono de engranaje de configuración](media/service-gateway-data-sources/icon-gear.png) > **Administrar puertas de enlace**.
+1. En el encabezado de la página del servicio Power BI, seleccione **Configuración** ![Icono de engranaje de configuración](media/service-gateway-data-sources/icon-gear.png) > **Administrar puertas de enlace**.
 
 2. Seleccione el origen de datos en el que desea agregar usuarios.
 
-3. Seleccione **Usuarios** y especifique un usuario de su organización a quien desea conceder acceso al origen de datos seleccionado. Por ejemplo, en la pantalla siguiente, se agrega a Maggie y a Adam.
-
-    ![Pestaña Usuarios](media/service-gateway-data-sources/users-tab.png)
-
-4. Seleccione **Agregar**, y el nombre del miembro agregado se muestra en el cuadro.
+3. Seleccione **Usuarios**, y escriba los usuarios y los grupos de seguridad habilitados para el correo de la organización que tendrán acceso al origen de datos seleccionado. Seleccione **Agregar** para que se incorpore el nombre del miembro agregado a la lista de personas que pueden publicar informes que usan este origen de datos.
 
     ![Agregar usuario](media/service-gateway-data-sources/add-user.png)
 

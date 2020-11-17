@@ -1,7 +1,7 @@
 ---
 title: Exportación de datos desde una visualización de Power BI
 description: Exporte datos de una visualización en un informe y de una visualización en un panel y véalos en Excel.
-author: mihart
+author: msftrien
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ab0a093dfd41034aa79d2934ad23cf373fd0474
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bbeabcd3cbdc04378ea90908703744489371b11f
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861599"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412979"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportación de los datos usados para crear una visualización
 
@@ -81,8 +81,8 @@ Para poder continuar, abra el [informe de ejemplo de análisis de adquisiciones]
 
 Ahora ya puede probar ambas opciones de exportación de datos.
 
-### <a name="export-summarized-data"></a>Exportación de datos ***resumidos***
-Seleccione la opción **Datos resumidos** si quiere exportar datos de lo que ve en ese objeto visual.  Este tipo de exportación muestra solo los datos (columnas y medidas) que se usan para crear el objeto visual.  Si el objeto visual tiene un agregado, se exportarán los datos agregados. Por ejemplo, si tiene un gráfico de barras con cuatro barras, obtendrá cuatro filas de datos de Excel. Los datos resumidos están disponibles en el servicio Power BI como archivos *.xlsx* y *.csv*, y como archivos .csv en Power BI Desktop.
+### <a name="export-_summarized__-data"></a>Exportación de datos **_resumidos_* _
+Seleccione la opción _ *Datos resumidos** si quiere exportar datos de lo que ve en ese objeto visual.  Este tipo de exportación muestra solo los datos (columnas y medidas) que se usan para crear el objeto visual.  Si el objeto visual tiene un agregado, se exportarán los datos agregados. Por ejemplo, si tiene un gráfico de barras con cuatro barras, obtendrá cuatro filas de datos de Excel. Los datos resumidos están disponibles en el servicio Power BI como archivos *.xlsx* y *.csv*, y como archivos .csv en Power BI Desktop.
 
 1. Seleccione los puntos suspensivos de la esquina superior derecha de la visualización. Seleccione **Exportar datos**.
 
@@ -101,7 +101,7 @@ Seleccione la opción **Datos resumidos** si quiere exportar datos de lo que ve 
     > En Power BI Desktop, solo tendrá la opción de exportar los datos resumidos como un archivo .csv. 
     
     
-1. Desde **Exportar datos**, seleccione **Datos resumidos**, elija *.xlsx* o *.csv*y luego seleccione **Exportar**. Power BI exporta los datos.
+1. Desde **Exportar datos**, seleccione **Datos resumidos**, elija *.xlsx* o *.csv* y luego seleccione **Exportar**. Power BI exporta los datos.
 
     ![Captura de pantalla de la pantalla Exportar datos con las opciones Datos resumidos, xlsx y Exportar resaltadas.](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
@@ -117,9 +117,9 @@ Seleccione la opción **Datos resumidos** si quiere exportar datos de lo que ve 
 
     - Como se han aplicado filtros a la visualización, los datos exportados se exportarán como filtrados. Observe que la primera fila muestra **Filtros aplicados: Ciudad no es Atlanta, GA**. 
 
-### <a name="export-underlying-data"></a>Exportación de los datos ***subyacentes***
+### <a name="export-_underlying__-data"></a>Exportación de los datos **_subyacentes_* _
 
-Seleccione esta opción si quiere ver los datos del objeto visual ***y*** más datos del conjunto de datos. Consulte el gráfico siguiente para obtener más información. Si la visualización tiene un agregado, al seleccionar **Datos subyacentes** se quita el agregado. En este ejemplo, la exportación de Excel muestra una fila para cada fila de ciudad del conjunto de datos y el porcentaje de descuento para esa única entrada. Power BI reduce los datos, no los agrega.  
+Seleccione esta opción si quiere ver los datos del objeto visual _*_y_*_ más datos del conjunto de datos. Consulte el gráfico siguiente para obtener más información. Si la visualización tiene un agregado, al seleccionar _ *Datos subyacentes** se quitará el agregado. En este ejemplo, la exportación de Excel muestra una fila para cada fila de ciudad del conjunto de datos y el porcentaje de descuento para esa única entrada. Power BI reduce los datos, no los agrega.  
 
 Cuando selecciona **Exportar**, Power BI exporta los datos a un archivo *.xlsx* y el explorador le pide que guarde el archivo. Una vez que lo haya guardado, abra el archivo en Excel.
 

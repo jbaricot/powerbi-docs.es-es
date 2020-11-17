@@ -8,20 +8,41 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/15/2020
-ms.openlocfilehash: 65e00fa5311ea12c9fe0011c6aa7c3e779f33dc5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 515813aeb98010f838cfff75febbb1ef206bc2cf
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131135"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397493"
 ---
 # <a name="submission-testing-of-a-power-bi-visual"></a>Prueba de envío de un objeto visual de Power BI
 
-Antes de publicar el objeto visual en [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), debe superar estos casos de prueba. Pruebe el objeto visual antes de enviarlo. Si el visual no supera los casos de prueba necesarios, se rechazará.
+Antes de publicar el objeto visual en [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), debe superar las pruebas indicadas en este artículo. Pruebe el objeto visual antes de enviarlo. Si no supera los casos de prueba necesarios, se rechazará.
 
 Para obtener más información sobre el proceso de publicación, consulte [Publicación de objetos visuales de Power BI en el Centro de partners](./office-store.md).
 
+## <a name="testing-a-new-version-of-a-published-visual"></a>Prueba de una nueva versión de un objeto visual publicado
+
+Si va a probar o depurar una nueva versión de un objeto visual ya publicado, puede invalidar la versión de AppSource por una del archivo local. Para ello, habilite el modo de desarrollador en Power BI Desktop.
+
+Para habilitar el modo de desarrollador, siga estos pasos:
+
+1. Abra Power BI Desktop.
+
+2.  Seleccione **Archivo** > **Opciones y configuración**.
+
+3.  Seleccione **Opciones**.
+
+4. En la ventana Opciones, en la lista ARCHIVO ACTUAL, seleccione **Configuración del informe**.
+
+5. En el modo de desarrollador, seleccione la opción **Turn on developer mode for this session** (Activar modo de desarrollador para esta sesión).
+
+>[!NOTE]
+>En Power BI Desktop, el modo de desarrollador solo es válido para una sesión. Si abre una nueva instancia de Power BI Desktop para las pruebas, deberá volver a habilitar el modo de desarrollador.
+
 ## <a name="general-test-cases"></a>Casos de prueba generales
+
+Compruebe que el objeto visual supere los casos de prueba generales.
 
 | Caso de prueba | Resultados esperados
 | --------- | ----------------
