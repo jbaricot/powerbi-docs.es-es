@@ -99,6 +99,8 @@
           items:
             - name: Creación y uso de flujos de datos
               href: ./dataflows/dataflows-create.md
+            - name: Procedimientos recomendados para flujos de datos
+              href: ./dataflows/dataflows-best-practices.md
             - name: "Uso de DirectQuery con flujos de datos en Power\_BI (versión preliminar)"
               href: ./dataflows/dataflows-configure-consume.md
             - name: Uso del motor de proceso mejorado con flujos de datos
