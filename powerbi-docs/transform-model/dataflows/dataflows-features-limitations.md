@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 2d58fe71b7ceb27afe5d52a55ed57ae162622b06
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396596"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668175"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>Limitaciones y consideraciones de flujos de datos
 
@@ -43,7 +43,7 @@ Se puede encontrar más información sobre las API REST de flujos de datos en la
 
 * La importación de flujos de datos que contienen entidades vinculadas no corregirá las referencias existentes en el flujo de datos (estas consultas deben corregirse manualmente antes de importar el flujo de datos).
 
-* Los flujos de datos se pueden sobrescribir con el parámetro *CreateOrOverwrite* , si se han creado inicialmente mediante la API de importación.
+* Los flujos de datos se pueden sobrescribir con el parámetro *CreateOrOverwrite*, si se han creado inicialmente mediante la API de importación.
 
 ## <a name="dataflows-in-shared"></a>Flujos de datos en uso compartido
 
@@ -75,7 +75,7 @@ Los flujos de datos que existen en la versión Premium presentan las siguientes 
 
 * Una entidad vinculada no se puede combinar con una entidad estándar que obtenga sus datos de un origen de datos local.
 
-* Cuando se usa una consulta (consulta *A* , por ejemplo) en el cálculo de otra (consulta *B* ) en los flujos de datos, la consulta *B* se convierte en una entidad calculada. Las entidades calculadas no pueden hacer referencia a orígenes locales.
+* Cuando se usa una consulta (consulta *A*, por ejemplo) en el cálculo de otra (consulta *B*) en los flujos de datos, la consulta *B* se convierte en una entidad calculada. Las entidades calculadas no pueden hacer referencia a orígenes locales.
 
 
 **Motor de proceso:**
@@ -111,3 +111,4 @@ En los artículos siguientes encontrará más información sobre los flujos de d
 * [Configuración del almacenamiento de flujo de datos para usar Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [Características prémium de flujos de datos](dataflows-premium-features.md)
 * [IA con flujos de datos](dataflows-machine-learning-integration.md)
+* [Procedimientos recomendados para flujos de datos](dataflows-best-practices.md)

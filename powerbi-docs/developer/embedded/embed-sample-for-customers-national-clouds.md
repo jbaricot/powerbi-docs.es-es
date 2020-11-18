@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18, devx-track-js
 ms.date: 02/05/2019
-ms.openlocfilehash: c831118a14c1dc453acb81b866013dcb085d9f6d
-ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
+ms.openlocfilehash: 0ef66f847485e066d6596c65b277f2d74699614d
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94348206"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94559790"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Inserción de contenido de Power BI en una aplicación para nubes nacionales
 
@@ -78,7 +78,7 @@ Este artículo muestra el código usado en [App Owns Data sample](https://github
 3. Agregue los parámetros DoDCON en el archivo web.config como se indica a continuación.
 
 ```xml
-<add key="authorityUrl" value="https://login.microsoftonlineS.us/common/" />
+<add key="authorityUrl" value="https://login.microsoftonline.us/common/" />
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
 <add key="apiUrl" value="https://api.high.powerbigov.us/" />
 <add key="embedUrlBase" value="https://app.high.powerbigov.us" />
@@ -147,7 +147,7 @@ Si ha descargado el [ejemplo de inserción de contenido para el cliente](https:/
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Paso 2: Obtener un token de acceso de Azure AD
 
-En la aplicación, debe obtener un **token de acceso** , desde Azure AD, para poder realizar llamadas a la API de REST de Power BI. Para más información, consulte [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (Autenticación de usuarios y obtención de un token de acceso de Azure AD para su aplicación de Power BI). Como hay distintas afiliaciones de nube nacional, hay distintas direcciones URL para obtener un token de acceso para la aplicación.
+En la aplicación, debe obtener un **token de acceso**, desde Azure AD, para poder realizar llamadas a la API de REST de Power BI. Para más información, consulte [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (Autenticación de usuarios y obtención de un token de acceso de Azure AD para su aplicación de Power BI). Como hay distintas afiliaciones de nube nacional, hay distintas direcciones URL para obtener un token de acceso para la aplicación.
 
 * Government Community Cloud (GCC): ```https://login.microsoftonline.com```
 
