@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 11/13/2020
 ms.author: davidi
 ms.custom: references_regions
 LocalizationGroup: Data from files
-ms.openlocfilehash: f2efd4410af62425f599b1addd0f792f495120e0
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: e5d2e1f65ef326ac12f15ff14c8d07c22c2950fe
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397263"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94667991"
 ---
 # <a name="configure-power-bi-premium-dataflow-workloads"></a>Configuración de cargas de trabajo de flujo de datos de Power BI Premium
 
@@ -27,7 +27,7 @@ En las secciones siguientes se describe cómo habilitar flujos de datos en su or
 
 ## <a name="enabling-dataflows-in-power-bi-premium"></a>Habilitación de flujos de datos en Power BI Premium
 
-El primer requisito para usar flujos de datos en su suscripción de Power BI Premium es habilitar la creación y el uso de flujos de datos para su organización. En el **Portal de administración** , seleccione **Configuración de inquilinos** y cambie el control deslizante que hay en **Configuración de flujo de datos** a **Habilitado** , tal como se muestra en la siguiente imagen.
+El primer requisito para usar flujos de datos en su suscripción de Power BI Premium es habilitar la creación y el uso de flujos de datos para su organización. En el **Portal de administración**, seleccione **Configuración de inquilinos** y cambie el control deslizante que hay en **Configuración de flujo de datos** a **Habilitado**, tal como se muestra en la siguiente imagen.
 
 ![Portal de administración para flujos de datos en Power BI Premium](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-01.png)
 
@@ -37,11 +37,11 @@ Después de habilitar la carga de trabajo de flujos de datos, se configura con l
 
 Una vez que se han habilitado los flujos de datos, puede usar el **Portal de administración** para cambiar o refinar el modo en que se crean los flujos de datos y cómo se usan los recursos en su suscripción de Power BI Premium. En los pasos siguientes se muestra cómo ajustar la configuración del flujo de datos.
 
-1. En el **Portal de administración** , seleccione **Configuración de inquilinos** para obtener una lista de todas las capacidades que se han creado. Seleccione una capacidad para administrar su configuración.
+1. En el **Portal de administración**, seleccione **Configuración de inquilinos** para obtener una lista de todas las capacidades que se han creado. Seleccione una capacidad para administrar su configuración.
 
     ![Selección de una capacidad para administrar la configuración](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-02.png)
 
-2. La capacidad de Power BI Premium refleja los recursos disponibles para los flujos de datos. Puede cambiar el tamaño de la capacidad seleccionando el botón **Cambiar el tamaño** , tal como se muestra en la imagen siguiente.
+2. La capacidad de Power BI Premium refleja los recursos disponibles para los flujos de datos. Puede cambiar el tamaño de la capacidad seleccionando el botón **Cambiar el tamaño**, tal como se muestra en la imagen siguiente.
 
     ![Cambio del tamaño de una capacidad](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-03.png)
 
@@ -49,7 +49,7 @@ Una vez que se han habilitado los flujos de datos, puede usar el **Portal de adm
 
     ![Expansión de la sección Cargas de trabajo](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-04.png)
 
-4. En la sección **Cargas de trabajo** , desplácese hasta el área **Flujos de datos**. En la imagen siguiente se muestra la configuración que puede usar para controlar o refinar el comportamiento de la carga de trabajo de flujo de datos para su capacidad.
+4. En la sección **Cargas de trabajo**, desplácese hasta el área **Flujos de datos**. En la imagen siguiente se muestra la configuración que puede usar para controlar o refinar el comportamiento de la carga de trabajo de flujo de datos para su capacidad.
 
     ![Configuración de la carga de trabajo de flujo de datos](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-05.png)
 
@@ -69,7 +69,7 @@ En las secciones siguientes, profundizaremos en cada una de las configuraciones 
 
 ### <a name="understanding-dataflow-workload-options"></a>Descripción de las opciones de carga de trabajo de flujo de datos
 
-Una manera sencilla de pensar en las opciones de carga de trabajo de flujo de datos es con el uso de una analogía. El *Tamaño de la capacidad* , o el tipo de instancia de Power BI Premium que tiene, puede considerarse como su *restaurante*. En su restaurante, tiene la *memoria de la carga de trabajo* , que es la *cocina*. El *motor de proceso* es el *horno*. Y, por último, el *contenedor* es el tipo de calidad del *chef*. Para evaluar las opciones de carga de trabajo de flujo de datos, imagine preparar una comida para una cena de muchos comensales o de mucha importancia. Tiene invitados ilustres que van viniendo y la cena debe estar lista para servirse en el momento en que llegan.
+Una manera sencilla de pensar en las opciones de carga de trabajo de flujo de datos es con el uso de una analogía. El *Tamaño de la capacidad*, o el tipo de instancia de Power BI Premium que tiene, puede considerarse como su *restaurante*. En su restaurante, tiene la *memoria de la carga de trabajo*, que es la *cocina*. El *motor de proceso* es el *horno*. Y, por último, el *contenedor* es el tipo de calidad del *chef*. Para evaluar las opciones de carga de trabajo de flujo de datos, imagine preparar una comida para una cena de muchos comensales o de mucha importancia. Tiene invitados ilustres que van viniendo y la cena debe estar lista para servirse en el momento en que llegan.
 
 Usaremos esta analogía del restaurante a medida que explicamos y proporcionamos orientación sobre cada una de las opciones de configuración. Comenzaremos en el nivel superior: la capacidad Premium, ya que es la primera opción que tiene al usar Power BI Premium.
 
@@ -85,7 +85,7 @@ La opción de configuración **Valor máximo de memoria (%)** es el porcentaje d
 
 #### <a name="container-size---refresh-or-out-of-memory-issues"></a>Tamaño del contenedor: incidencias de actualización o de memoria insuficiente
 
-A continuación, vamos a analizar la opción de configuración **Tamaño del contenedor (MB)** . Internamente, los flujos de datos usan un proceso llamado *contenedores de mashup* para evaluar los procesos ETL. El motor divide la lógica de consulta en estos contenedores y pueden procesarse en paralelo. El número de contenedores proporciona el procesamiento simultáneo y aumenta el rendimiento de forma eficaz. Estos contenedores los restringe, en primer lugar, la **Capacidad** , en segundo lugar, la opción de configuración **Valor máximo de memoria (%)** y, después, la cantidad de memoria que se asigna específicamente en la configuración del contenedor, que de forma predeterminada es de 700 MB. Por lo tanto, es posible aumentar la cantidad de memoria de hardware y el tamaño del contenedor, pero si lo hace, se reducirán las operaciones en paralelo al tiempo que se dedica más memoria para un proceso ETL específico en los contenedores. El número de contenedores se limita a tres veces el número de núcleos de back-end, lo que es importante porque no se puede hacer que el contenedor sea muy pequeño ni tener muchos contenedores en paralelo más allá de ese punto. El tamaño mínimo que puede tener un contenedor es de 200 MB. El tamaño del contenedor también está en el ámbito de un nivel de consulta, lo que significa que cada consulta se ejecuta en su propio contenedor, excepto cuando las consultas hacen referencia a otras, en cuyo caso se actualizan como parte del mismo contenedor.
+A continuación, vamos a analizar la opción de configuración **Tamaño del contenedor (MB)** . Internamente, los flujos de datos usan un proceso llamado *contenedores de mashup* para evaluar los procesos ETL. El motor divide la lógica de consulta en estos contenedores y pueden procesarse en paralelo. El número de contenedores proporciona el procesamiento simultáneo y aumenta el rendimiento de forma eficaz. Estos contenedores los restringe, en primer lugar, la **Capacidad**, en segundo lugar, la opción de configuración **Valor máximo de memoria (%)** y, después, la cantidad de memoria que se asigna específicamente en la configuración del contenedor, que de forma predeterminada es de 700 MB. Por lo tanto, es posible aumentar la cantidad de memoria de hardware y el tamaño del contenedor, pero si lo hace, se reducirán las operaciones en paralelo al tiempo que se dedica más memoria para un proceso ETL específico en los contenedores. El número de contenedores se limita a tres veces el número de núcleos de back-end, lo que es importante porque no se puede hacer que el contenedor sea muy pequeño ni tener muchos contenedores en paralelo más allá de ese punto. El tamaño mínimo que puede tener un contenedor es de 200 MB. El tamaño del contenedor también está en el ámbito de un nivel de consulta, lo que significa que cada consulta se ejecuta en su propio contenedor, excepto cuando las consultas hacen referencia a otras, en cuyo caso se actualizan como parte del mismo contenedor.
 
 Volviendo a nuestra analogía, contar con menos cocineros en la cocina, pero más centrados, le permite preparar una comida mucho más rápido, en función de los tipos de pedidos que haya y de la complejidad de la comida. El inconveniente es que tiene menos chefs, pero centrados más tiempo en la preparación. Del mismo modo, incrementar la medida de tamaño del contenedor a 1200-1500 MB puede significar que un número más pequeño de trabajos ETL más complejos (actividades como agregaciones, combinaciones, tablas dinámicas, manipulaciones de filas o columnas) puede presenciar un aumento del rendimiento a medida que se proporciona más memoria para cada contenedor, pero al hacerlo, se reduce el número de contenedores. Tal como implica la analogía, demasiados pedidos pueden ralentizar el resultado de la cocina, que es la forma en que puede plantear el tamaño del contenedor: úselo cuando necesite que se completen operaciones de entidad complejas y esté dispuesto a usar el paralelismo para el rendimiento, ya que el aumento de este recurso divide la memoria asignada a menos contenedores.
 
@@ -120,7 +120,7 @@ Los tiempos de actualización lentos suelen ser una incidencia del paralelismo. 
 
 ### <a name="out-of-memory-exceptions"></a>Excepciones de memoria insuficiente
 
-Cuando experimente **excepciones de memoria insuficiente** , deberá aumentar el rendimiento de los contenedores y la memoria. Realice las acciones siguientes:
+Cuando experimente **excepciones de memoria insuficiente**, deberá aumentar el rendimiento de los contenedores y la memoria. Realice las acciones siguientes:
 
 1. Aumentar la memoria del contenedor. Esto es parecido a tener un chef con una estrella en lugar de muchos chefs, tal como se describe en la sección anterior.
 
@@ -134,7 +134,7 @@ Lleve a cabo los pasos siguientes para habilitar que las cargas de trabajo desen
 
 **Para entidades calculadas y vinculadas en la misma área de trabajo:**
 
-1. Para la *ingesta* , céntrese en obtener los datos en el almacenamiento lo más rápido posible, usando filtros solo si reducen el tamaño total del conjunto de datos. Un procedimiento recomendado es mantener la lógica de transformación independiente de este paso y permitir que el motor se centre en la recopilación inicial de los ingredientes. A continuación, separe la transformación y la lógica empresarial en un flujo de datos independiente en la misma área de trabajo, utilizando entidades vinculadas o calculadas. Esto permite que el motor active y acelere los cálculos. En nuestra analogía, es como la preparación de los alimentos en la cocina: normalmente es un paso independiente y distinto de la recolección de las materias primas y un requisito previo para poner los alimentos en el horno. Del mismo modo, la lógica debe prepararse por separado para poder aprovechar el motor de proceso.
+1. Para la *ingesta*, céntrese en obtener los datos en el almacenamiento lo más rápido posible, usando filtros solo si reducen el tamaño total del conjunto de datos. Un procedimiento recomendado es mantener la lógica de transformación independiente de este paso y permitir que el motor se centre en la recopilación inicial de los ingredientes. A continuación, separe la transformación y la lógica empresarial en un flujo de datos independiente en la misma área de trabajo, utilizando entidades vinculadas o calculadas. Esto permite que el motor active y acelere los cálculos. En nuestra analogía, es como la preparación de los alimentos en la cocina: normalmente es un paso independiente y distinto de la recolección de las materias primas y un requisito previo para poner los alimentos en el horno. Del mismo modo, la lógica debe prepararse por separado para poder aprovechar el motor de proceso.
 
 2. Asegúrese de realizar las operaciones que doblan, como combinaciones, conversiones y [otras](/power-query/power-query-folding#transformations-that-can-achieve-folding).
 

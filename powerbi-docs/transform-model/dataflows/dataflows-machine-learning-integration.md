@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5834230a59f6473624e955827dad36cdd75c04e5
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 703e87847f2f6dfb24040cc6532052b17d39086c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397516"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668543"
 ---
 # <a name="ai-with-dataflows"></a>IA con flujos de datos
 
@@ -112,7 +112,7 @@ Los flujos de datos ofrecen autoservicio de preparación de los datos para macro
 
 AutoML en Power BI permite a los analistas de datos usar flujos de datos para compilar modelos de aprendizaje automático con una experiencia simplificada, solo con usar los conocimientos de Power BI. Power BI realiza de forma automática la mayor parte de la ciencia de datos que está en la base de la creación de los modelos de ML. Tiene límites de protección para asegurarse de que el modelo generado sea de buena calidad y proporcione una visibilidad sobre el proceso que se usa para crear el modelo de ML.
 
-AutoML admite la creación de modelos de **predicción binaria** , **clasificación** y **regresión** para flujos de datos. Estos son tipos de técnicas de aprendizaje automático supervisados, lo que significa que aprenden de los resultados conocidos de las observaciones anteriores para predecir los resultados de otras observaciones. El conjunto de datos de entrada para entrenar un modelo de AutoML es un conjunto de registros que se **etiquetan** con los resultados conocidos.
+AutoML admite la creación de modelos de **predicción binaria**, **clasificación** y **regresión** para flujos de datos. Estos son tipos de técnicas de aprendizaje automático supervisados, lo que significa que aprenden de los resultados conocidos de las observaciones anteriores para predecir los resultados de otras observaciones. El conjunto de datos de entrada para entrenar un modelo de AutoML es un conjunto de registros que se **etiquetan** con los resultados conocidos.
 
 AutoML en Power BI integra el [aprendizaje automático automatizado](/azure/machine-learning/service/concept-automated-ml) de [Azure Machine Learning](/azure/machine-learning/service/overview-what-is-azure-ml) para crear los modelos de aprendizaje automático. Sin embargo, no necesita una suscripción a Azure para usar AutoML en Power BI. El proceso de entrenamiento y hospedaje de los modelos de aprendizaje automático se administra por completo en el servicio Power BI.
 
@@ -220,7 +220,7 @@ Si está satisfecho con el rendimiento del modelo de aprendizaje automático cre
 
 Para aplicar el modelo de aprendizaje automático, debe especificar el nombre de la entidad a la que debe aplicarse y un prefijo para las columnas que se agregarán a esta entidad en la salida del modelo. El prefijo predeterminado de los nombres de columna es el nombre del modelo. La función _Aplicar_ puede incluir parámetros adicionales específicos del tipo de modelo.
 
-Al aplicar el modelo de ML, se crean dos nuevas entidades de flujo de datos que contienen las predicciones y las explicaciones individualizadas para cada fila que puntúa en la entidad de salida. Por ejemplo, si aplica el modelo _PurchaseIntent_ a la entidad _OnlineShoppers_ , la salida generará las entidades **OnlineShoppers enriched PurchaseIntent** y **OnlineShoppers enriched PurchaseIntent explanations**. Para cada fila de la entidad enriquecida, **Explanations** se divide en varias filas de la entidad de explicaciones enriquecidas basada en la característica de entrada. **ExplanationIndex** ayuda a asignar las filas de la entidad de explicaciones enriquecidas a la fila en una entidad enriquecida.
+Al aplicar el modelo de ML, se crean dos nuevas entidades de flujo de datos que contienen las predicciones y las explicaciones individualizadas para cada fila que puntúa en la entidad de salida. Por ejemplo, si aplica el modelo _PurchaseIntent_ a la entidad _OnlineShoppers_, la salida generará las entidades **OnlineShoppers enriched PurchaseIntent** y **OnlineShoppers enriched PurchaseIntent explanations**. Para cada fila de la entidad enriquecida, **Explanations** se divide en varias filas de la entidad de explicaciones enriquecidas basada en la característica de entrada. **ExplanationIndex** ayuda a asignar las filas de la entidad de explicaciones enriquecidas a la fila en una entidad enriquecida.
 
 ![Editor de consultas](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
@@ -234,7 +234,7 @@ Para usar las conclusiones y las predicciones del modelo de aprendizaje automát
 
 ### <a name="binary-prediction-models"></a>Modelos de predicción binaria
 
-Los modelos de predicción binaria, conocidos más formalmente como **modelos de clasificación binaria** , se usan para clasificar un conjunto de datos en dos grupos. Se usan para predecir eventos que puedan tener un resultado binario. Por ejemplo, si una oportunidad de ventas se va a convertir, si una cuenta se va a renovar, si una factura se va a pagar a tiempo, si una transacción es fraudulenta, etc.
+Los modelos de predicción binaria, conocidos más formalmente como **modelos de clasificación binaria**, se usan para clasificar un conjunto de datos en dos grupos. Se usan para predecir eventos que puedan tener un resultado binario. Por ejemplo, si una oportunidad de ventas se va a convertir, si una cuenta se va a renovar, si una factura se va a pagar a tiempo, si una transacción es fraudulenta, etc.
 
 La salida de un modelo de predicción binaria es una puntuación de probabilidad, que identifica la probabilidad de que se alcance el resultado objetivo.
 
@@ -272,7 +272,7 @@ Para aplicar un modelo de predicción binaria, debe especificar la entidad con l
 
 ![Entradas de predicción](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
 
-Cuando se aplica un modelo de predicción binaria, se agregan cuatro columnas de salida a la entidad de salida enriquecida: **Outcome** , **PredictionScore** , **PredictionExplanation** y **ExplanationIndex**. El prefijo se especifica en los nombres de columna de la entidad al aplicar el modelo.
+Cuando se aplica un modelo de predicción binaria, se agregan cuatro columnas de salida a la entidad de salida enriquecida: **Outcome**, **PredictionScore**, **PredictionExplanation** y **ExplanationIndex**. El prefijo se especifica en los nombres de columna de la entidad al aplicar el modelo.
 
 **PredictionScore** es una probabilidad porcentual, que identifica la probabilidad de que se alcance el resultado objetivo.
 
@@ -314,7 +314,7 @@ El informe del modelo de clasificación también incluye una página de detalles
 
 Para aplicar un modelo de aprendizaje automático de clasificación, debe especificar la entidad con los datos de entrada y el prefijo del nombre de la columna de salida.
 
-Cuando se aplica un modelo de clasificación, se agregan cinco columnas de salida a la entidad de salida enriquecida: **ClassificationScore** , **ClassificationResult** , **ClassificationExplanation** , **ClassProbabilities** y **ExplanationIndex**. El prefijo se especifica en los nombres de columna de la entidad al aplicar el modelo.
+Cuando se aplica un modelo de clasificación, se agregan cinco columnas de salida a la entidad de salida enriquecida: **ClassificationScore**, **ClassificationResult**, **ClassificationExplanation**, **ClassProbabilities** y **ExplanationIndex**. El prefijo se especifica en los nombres de columna de la entidad al aplicar el modelo.
 
 La columna **ClassProbabilities** contiene la lista de puntuaciones de probabilidad del registro de cada clase posible.
 
@@ -358,7 +358,7 @@ Para aplicar un modelo de aprendizaje automático de regresión, debe especifica
 
 ![Aplicar una regresión](media/service-machine-learning-automated/automated-machine-learning-power-bi-19.png)
 
-Cuando se aplica un modelo de regresión, se agregan tres columnas de salida a la entidad de salida enriquecida: **RegressionResult** , **RegressionExplanation** y **ExplanationIndex**. El prefijo se especifica en los nombres de columna de la entidad al aplicar el modelo.
+Cuando se aplica un modelo de regresión, se agregan tres columnas de salida a la entidad de salida enriquecida: **RegressionResult**, **RegressionExplanation** y **ExplanationIndex**. El prefijo se especifica en los nombres de columna de la entidad al aplicar el modelo.
 
 La columna **RegressionResult** contiene el valor de predicción del registro en función de los campos de entrada. La columna **RegressionExplanation** contiene una explicación con la influencia específica que tuvieron las características de entrada en **RegressionResult**.
 
@@ -417,7 +417,7 @@ Los científicos de datos usan principalmente Python para desarrollar e incluso 
 
 Este archivo de esquema se debe incluir en el servicio web implementado para los modelos de Machine Learning. Para generar de forma automática el esquema para el servicio web, debe proporcionar un ejemplo de la entrada y salida en el script de entrada para el modelo implementado. Consulte la subsección sobre [Generación automática de esquemas de Swagger (opcional) en los modelos de implementación con la documentación del servicio Azure Machine Learning](/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema). El vínculo incluye el script de entrada de ejemplo con las instrucciones para la generación de esquemas. 
 
-En concreto, las funciones *input_sample\@* y *output_sample\@* del script de entrada hacen referencia a los formatos de ejemplo de entrada y salida de las variables *input_sample* y *output_sample* , y usan estos ejemplos para generar una especificación OpenAPI (Swagger) para el servicio web durante la implementación.
+En concreto, las funciones *input_sample\@* y *output_sample\@* del script de entrada hacen referencia a los formatos de ejemplo de entrada y salida de las variables *input_sample* y *output_sample*, y usan estos ejemplos para generar una especificación OpenAPI (Swagger) para el servicio web durante la implementación.
 
 Estas instrucciones para la generación de esquemas mediante la actualización del script de entrada también se deben aplicar a los modelos creados mediante experimentos automatizados de aprendizaje automático con el SDK de Azure Machine Learning.
 
@@ -466,3 +466,4 @@ En los artículos siguientes encontrará más información sobre los flujos de d
 * [Configuración del almacenamiento de flujo de datos para usar Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [Características prémium de flujos de datos](dataflows-premium-features.md)
 * [Limitaciones y consideraciones de flujos de datos](dataflows-features-limitations.md)
+* [Procedimientos recomendados para flujos de datos](dataflows-best-practices.md)

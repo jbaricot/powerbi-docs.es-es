@@ -7,14 +7,14 @@ featuredvideoid: DN1t5p9aui0
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
-ms.date: 03/18/2020
+ms.date: 11/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 94ffbb508fea27e8b80f137539b6120e4c094030
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 44ca1f021001161a978875377a1315dc14e5245d
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916737"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512985"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Curso Informes paginados de Power BI en un día
 
@@ -87,10 +87,10 @@ Puede descargar y configurar un kit para ampliar conocimientos, que consta del c
 1. Abra las propiedades del archivo .zip y active "desbloquear" (es posible que Windows marque el archivo como posiblemente no de confianza).
 1. Cree una carpeta raíz para el curso. Le recomendamos que le asigne un nombre similar a "C:\Curso". Recuerde esta ubicación, ya que tendrá que acceder a los archivos del curso durante los laboratorios. Los documentos de los laboratorios harán referencia a esta ubicación como **&lt;carpetaDelCurso&gt;** .
 1. Extraiga el contenido del archivo **PowerBIPRIAD-Student.zip** en la carpeta raíz del curso.
-1. En la carpeta **&lt;carpetaDelCurso&gt;\PowerBIPRIAD** , abra el archivo **ReadMe.txt** y siga las instrucciones de configuración.
+1. En la carpeta **&lt;carpetaDelCurso&gt;\PowerBIPRIAD**, abra el archivo **ReadMe.txt** y siga las instrucciones de configuración.
 
 > [!TIP]
-> El archivo **ReadMe.txt** , los documentos de los laboratorios y el archivo de presentación (PDF) están disponibles en inglés y también en los ocho idiomas siguientes:
+> El archivo **ReadMe.txt**, los documentos de los laboratorios y el archivo de presentación (PDF) están disponibles en inglés y también en los ocho idiomas siguientes:
 > - Alemán (de-de)
 > - Español (es-ES)
 > - Francés (fr-FR)
@@ -105,7 +105,7 @@ Puede descargar y configurar un kit para ampliar conocimientos, que consta del c
 >
 > Tendrá que iniciar sesión en Power BI para publicar un archivo de Power BI Desktop en un área de trabajo. El resultado de la publicación es un conjunto de datos que se usa como origen de datos de informe. No necesita una licencia de Power BI Pro ni una suscripción de Power BI Premium para usar un conjunto de datos como origen de datos de informe.
 >
-> Algunas tareas del laboratorio implican la publicación de un informe paginado en un área de trabajo. Solo se podrá abrir un informe paginado cuando se haya guardado en un área de trabajo de una [capacidad](../admin/service-premium-what-is.md#dedicated-capacities) con la carga de trabajo de informes paginados habilitada. Si no tiene acceso a un área de trabajo adecuada, en el laboratorio se le proporcionará un vínculo para ver un vídeo en el que se muestra la publicación del informe en su lugar.
+> Algunas tareas del laboratorio implican la publicación de un informe paginado en un área de trabajo. Solo se podrá abrir un informe paginado cuando se haya guardado en un área de trabajo de una [capacidad](../admin/service-premium-what-is.md#reserved-capacities) con la carga de trabajo de informes paginados habilitada. Si no tiene acceso a un área de trabajo adecuada, en el laboratorio se le proporcionará un vínculo para ver un vídeo en el que se muestra la publicación del informe en su lugar.
 
 ## <a name="instructor-kit"></a>Kit de instructor
 
