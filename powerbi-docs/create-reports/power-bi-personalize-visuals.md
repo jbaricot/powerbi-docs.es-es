@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 11/13/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4eae96dbdddae82a7f74f27c835874a19b04a69f
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 624da63259dcb09d0ebbb35079ef0d8e1340b04c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256852"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668520"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Permitir a los usuarios personalizar los objetos visuales en un informe
 
@@ -60,7 +60,7 @@ Para usar las perspectivas, debe habilitar Personalizar objetos visuales para el
 
 Para crear la perspectiva, use [Tabular Editor](https://tabulareditor.com/), que puede descargar de la siguiente ubicación: Descarga de Tabular Editor
 
-Una vez que instale **Tabular Editor** , abra el informe en **Power BI Desktop** e inicie **Tabular Editor** desde la pestaña **Herramientas externas** de la cinta, como se muestra en la imagen siguiente.
+Una vez que instale **Tabular Editor**, abra el informe en **Power BI Desktop** e inicie **Tabular Editor** desde la pestaña **Herramientas externas** de la cinta, como se muestra en la imagen siguiente.
 
 ![Tabular Editor en la cinta de Herramientas externas](media/power-bi-personalize-visuals/power-bi-personalize-perspective-02.png)
 
@@ -82,11 +82,11 @@ Después de agregar todos los campos que quiere, asegúrese de guardar la config
 
 ![Guardado de la configuración de perspectivas en Tabular Editor y Power BI Desktop](media/power-bi-personalize-visuals/power-bi-personalize-perspective-06.png)
 
-Una vez que haya guardado la nueva perspectiva en el modelo y el informe de Power BI Desktop, vaya al panel **Formato** de la página, donde verá una nueva sección **Personalizar objeto visual** .
+Una vez que haya guardado la nueva perspectiva en el modelo y el informe de Power BI Desktop, vaya al panel **Formato** de la página, donde verá una nueva sección **Personalizar objeto visual**.
 
 ![Sección Personalizar objeto visual en el panel Formato](media/power-bi-personalize-visuals/power-bi-personalize-perspective-07.png)
 
-La selección de *Perspectiva del lector de informes* se establece inicialmente en *Campos predeterminados* . Una vez que haya seleccionado la flecha desplegable, verá las otras perspectivas que ha creado.
+La selección de *Perspectiva del lector de informes* se establece inicialmente en *Campos predeterminados*. Una vez que haya seleccionado la flecha desplegable, verá las otras perspectivas que ha creado.
 
 ![Selección de la flecha desplegable para ver las otras perspectivas](media/power-bi-personalize-visuals/power-bi-personalize-perspective-08.png)
 
@@ -96,23 +96,23 @@ Después de establecer la perspectiva de la página del informe, la experiencia 
 
 ## <a name="enable-personalization-in-a-report"></a>Habilitar la personalización en un informe
 
-Puede habilitar la característica en Power BI Desktop o en el servicio Power BI.
+Puede habilitar la característica en Power BI Desktop o en el servicio Power BI. También puede habilitarla en los informes insertados.
 
 ### <a name="in-power-bi-desktop"></a>En Power BI Desktop
 
-Para habilitar la característica en Power BI Desktop, vaya a **Archivo** > **Opciones y configuración** > **Opciones** > **Archivo actual** > **Configuración del informe** . Asegúrese de que **Personalizar objetos visuales** está activo.
+Para habilitar la característica en Power BI Desktop, vaya a **Archivo** > **Opciones y configuración** > **Opciones** > **Archivo actual** > **Configuración del informe**. Asegúrese de que **Personalizar objetos visuales** está activo.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="Personalizar un objeto visual":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="Habilitar la personalización en un informe":::
 
 ### <a name="in-the-power-bi-service"></a>En el servicio Power BI
 
 Para habilitar la característica en el servicio Power BI en su lugar, vaya a **Configuración** en el informe.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Personalizar un objeto visual":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Configuración del informe en el servicio Power BI":::
 
-Active **Personalizar objetos visuales** > **Guardar** .
+Active **Personalizar objetos visuales** > **Guardar**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="Personalizar un objeto visual":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="Activar la personalización de objetos visuales en el servicio":::
 
 ## <a name="turn-the-feature-on-or-off-at-a-page-or-visual-level"></a>Activación o desactivación de la característica a nivel de página o de objeto visual
 
@@ -120,21 +120,21 @@ Cuando se habilita Personalizar objetos visuales para un informe determinado, to
 
 ### <a name="per-page"></a>Por página
 
-Seleccione la pestaña de página > seleccione **Formato** en el panel **Visualizaciones** .
+Seleccione la pestaña de página > seleccione **Formato** en el panel **Visualizaciones**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="Personalizar un objeto visual":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="Selección de Personalizar objeto visual para una página.":::
  
-Deslice **Personalizar objeto visual** >  **Activar** o **Desactivar** .
+Deslice **Personalizar objeto visual** >  **Activar** o **Desactivar**.
 
 ### <a name="per-visual"></a>Por objeto visual
 
-Seleccione el objeto visual, seleccione **Formato** en el panel **Visualizaciones** y expanda **Encabezado de objeto visual** .
+Seleccione el objeto visual, seleccione **Formato** en el panel **Visualizaciones** y expanda **Encabezado de objeto visual**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Personalizar un objeto visual":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Seleccionar el encabezado el objeto visual":::
  
-Deslice **Personalizar objeto visual** >  **Activar** o **Desactivar** .
+Deslice **Personalizar objeto visual** >  **Activar** o **Desactivar**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Personalizar un objeto visual":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Activar o desactivar personalización del objeto visual":::
 
 
 ## <a name="limitations"></a>Limitaciones
