@@ -99,8 +99,16 @@
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Error: Datos no encontrados en el libro de Excel'
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
-        - name: "Power\_Automate y Power\_BI"
-          href: service-flow-integration.md
+        - name: "Power\_BI y Power Automate"
+          items:
+            - name: Integración de las alertas de datos con Power Automate
+              href: service-flow-integration.md
+            - name: Exportación de informes paginados con Power Automate
+              href: service-automate-paginated-integration.md
+            - name: Almacenamiento de informes paginados en OneDrive o SharePoint Online
+              href: service-automate-paginated-onedrive-sharepoint.md
+            - name: Exportación de informes paginados desde Excel Online o la lista de SharePoint
+              href: service-automate-paginated-excel-sharepoint-list.md
         - name: Usar aplicaciones de terceros
           href: service-power-bi-get-started-third-party-apps.md
         - name: Paquetes de contenido organizativos
