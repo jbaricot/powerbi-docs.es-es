@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: a8268af76472c91474f2f67bc256fcc0ddcc9768
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409522"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669233"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Usar un filtro y una segmentación de tiempo relativo en Power BI
 
@@ -90,10 +90,7 @@ Cuando se aplica un filtro al nivel de página o de informe, todos los objetos v
 Actualmente se aplican estas limitaciones y consideraciones al filtro y la segmentación de fecha relativa.
 
 - **Consideraciones de zona horaria**: Los modelos de datos de Power BI no incluyen información de zona horaria. Los modelos pueden almacenar horas, pero no hay ninguna indicación de la zona horaria en la que se encuentran. La segmentación y el filtro se basan siempre en la hora UTC. Si configura un filtro en un informe y lo envía a un compañero de trabajo que está en otra zona horaria, los dos verán los mismos datos. A menos que su compañero o usted estén en la zona horaria UTC, los dos deben tener en cuenta el desfase horario que experimentarán. Use el Editor de consultas para convertir los datos capturados en una zona horaria local a UTC.
-- Este nuevo tipo de filtro se admite en Power BI Desktop, en el servicio Power BI, Power BI Embedded y en las aplicaciones móviles de Power BI. Pero hay algunas limitaciones de compatibilidad conocidas:
-
-    - No se admite a través de la API de inserción.
-    - No se admite para publicar en la web.
+- Este nuevo tipo de filtro se admite en Power BI Desktop, en el servicio Power BI, Power BI Embedded y en las aplicaciones móviles de Power BI. Sin embargo, no se admite para publicar en la Web.
 
 - **Almacenamiento en caché de consultas**: Usamos la memoria caché del cliente. Supongamos que especifica "último minuto", luego "últimos 5 minutos" y después vuelve a "último minuto". En ese momento, verá los mismos resultados que cuando se ejecutó por primera vez, a menos que actualice la página o la página se actualice automáticamente.
 

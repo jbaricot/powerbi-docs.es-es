@@ -7,13 +7,13 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/15/2020
-ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 11/11/2020
+ms.openlocfilehash: ca588c50052ed4950b2f283ee8294098dd36a8ef
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855794"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669141"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>Introducción a las canalizaciones de implementación
 
@@ -23,11 +23,13 @@ Este artículo le guía a través de la configuración básica necesaria para us
 
 Podrá acceder a la característica de canalizaciones de implementación si se cumplen las condiciones siguientes:
 
-* Es un [usuario de Power BI Pro](../admin/service-admin-purchasing-power-bi-pro.md)
+* Tiene una de las siguientes licencias Premium:
 
-* Pertenece a una organización que tiene capacidad Premium
+    * Es un usuario de Power BI [Pro](../admin/service-admin-purchasing-power-bi-pro.md) y pertenece a una organización que tiene capacidad Premium.
 
-* Es un administrador de una [nueva experiencia de áreas de trabajo](../collaborate-share/service-create-the-new-workspaces.md)
+    * [Premium por usuario (PPU)](../admin/service-premium-per-user-faq.md).
+
+* Es un administrador de una [nueva experiencia de áreas de trabajo](../collaborate-share/service-create-the-new-workspaces.md).
 
 >[!NOTE]
 > También podrá ver el botón de canalizaciones de implementación, si anteriormente creó una canalización o si se compartió una canalización con usted.
@@ -60,7 +62,7 @@ Puede crear una canalización desde un área de trabajo existente, siempre que s
 2. En el cuadro de diálogo *Crear una canalización de implementación*, escriba un nombre y una descripción para la canalización y seleccione **Crear**.
 
 >[!NOTE]
->Si el área de trabajo no está asignada a la capacidad Premium de su organización, recibirá una notificación para [asignarla a una capacidad](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity).  
+>Si el área de trabajo no está asignada a la capacidad Premium de su organización o a su capacidad PPU, recibirá una notificación para [asignarla a una capacidad](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity).  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>Paso 2: Asignar un área de trabajo a una canalización de implementación
 
@@ -124,7 +126,7 @@ Dado que los paneles, informes y conjuntos de datos están relacionados y tienen
 
 Puede optar por implementar en una fase anterior, por ejemplo, en un escenario en el que asigna un área de trabajo existente a una fase de producción y luego la implementa hacia atrás, primero en la fase de prueba y después en la de desarrollo.
 
-La implementación en una fase anterior solo funciona si dicha fase no tiene contenido. Cuando se implementa en una fase anterior, no se pueden seleccionar elementos específicos. Se implementará todo el contenido de la fase.
+La implementación en una fase anterior solo funciona si dicha fase está vacía. Cuando se implementa en una fase anterior, no se pueden seleccionar elementos específicos. Se implementará todo el contenido de la fase.
 
 [![Captura de pantalla que muestra el botón de implementación en la fase anterior, disponible en los menús de fase de prueba o de producción.](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
@@ -134,7 +136,7 @@ Cuando se trabaja en una canalización de implementación, las distintas fases p
 
 Cuando se implementa contenido entre fases de canalización, la configuración de las reglas de conjunto de datos permite cambios en el contenido, manteniendo al mismo tiempo algunas configuraciones intactas.
 
-Las reglas de conjunto de datos se definen en orígenes de datos y parámetros, en cada conjunto de datos. Determinan los valores de los orígenes de datos o de los parámetros de un conjunto de datos concreto. Por ejemplo, si desea que un conjunto de datos de una fase de producción señale a una base de datos de producción, puede definir una regla para ello. La regla se define en la fase de producción, en el conjunto de datos adecuado. Una vez definida la regla, el contenido implementado desde la prueba hasta la producción, heredará el valor tal y como se define en las reglas del conjunto de datos, y siempre se aplicará mientras la regla no cambie y sea válida.
+Las reglas de conjunto de datos se definen en orígenes de datos y parámetros, en cada conjunto de datos. Determinan los valores de los orígenes de datos o de los parámetros de un conjunto de datos concreto. Por ejemplo, si desea que un conjunto de datos de una fase de producción señale a una base de datos de producción, puede definir una regla para ello. La regla se define en la fase de producción, en el conjunto de datos adecuado. Una vez definida la regla, el contenido implementado desde la fase de pruebas hasta producción heredará el valor tal y como se define en las reglas del conjunto de datos, y siempre se aplicará mientras la regla no cambie y sea válida.
 
 >[!NOTE]
 > Las reglas de conjunto de datos solo funcionan cuando el origen de datos de origen y de destino son del mismo tipo.

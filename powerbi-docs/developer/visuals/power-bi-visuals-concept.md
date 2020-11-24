@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 94926ccf0fa214ca4c65808a7476842c22308359
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 8971c07b39de5b01b945218659fb8ead711c3f3c
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92048864"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94511950"
 ---
 # <a name="power-bi-visuals-system-integration"></a>Integración de sistemas de objetos visuales de Power BI
 
@@ -42,7 +42,7 @@ Las acciones y posteriores actualizaciones de los objetos visuales de Power BI 
 
 * Un usuario abre el panel de propiedades del objeto visual.
 
-    Cuando un usuario abre el panel de propiedades del objeto visual, Power BI captura los objetos y las propiedades admitidos del archivo *capabilities.json* . Para recibir valores reales de las propiedades, Power BI llama al método `enumerateObjectInstances` del objeto visual. El objeto visual devuelve los valores reales de las propiedades.
+    Cuando un usuario abre el panel de propiedades del objeto visual, Power BI captura los objetos y las propiedades admitidos del archivo *capabilities.json*. Para recibir valores reales de las propiedades, Power BI llama al método `enumerateObjectInstances` del objeto visual. El objeto visual devuelve los valores reales de las propiedades.
 
     Para más información, consulte [Funcionalidades y propiedades de objetos visuales de Power BI](capabilities.md).
 

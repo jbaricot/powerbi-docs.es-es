@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 432f05ed7efe8438d21a285b732ead08d93b8732
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 773f812ebaeabf02e9a21f09ac5a143d431fbeb0
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349400"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718923"
 ---
 # <a name="what-are-power-bi-template-apps"></a>¿Qué son las aplicaciones de plantilla de Power BI?
 
@@ -111,7 +111,7 @@ Vea [Sugerencias para crear aplicaciones de plantilla en Power BI](service-temp
 |Contenido de archivos | Solo se admiten archivos PBIX. <br>No se admiten: archivos .rdl (informes paginados), libros de Excel.   |
 | Orígenes de datos | Se permiten los orígenes de datos admitidos para la actualización de datos programada en la nube. <br>No compatible: <li>Conexiones dinámicas (no Azure AS).</li> <li>Orígenes de datos locales (no se admiten las puertas de enlace personales y empresariales)</li> <li>Tiempo real (no se admite para los conjuntos de datos de inserción)</li> <li>Modelos compuestos</li></ul> |
 | Conjunto de datos: entre áreas de trabajo | No se admiten los conjuntos de datos entre áreas de trabajo  |
-| Parámetros de consulta | No se admiten: los parámetros de tipo "Todo" o "Binario" bloquean la operación de actualización del conjunto de datos. |
+| Parámetros de consulta | No se admiten: los parámetros de tipo "Todo", "Fecha" o "Binario" bloquean la operación de actualización del conjunto de datos. |
 | Objetos visuales de Power BI | Solo se admiten los objetos visuales de Power BI disponibles públicamente. No se admiten los [objetos visuales de Power BI de la organización](../developer/visuals/power-bi-custom-visuals-organization.md). |
 | Nubes soberanas | Las aplicaciones de plantilla no están disponibles en nubes independientes |
 

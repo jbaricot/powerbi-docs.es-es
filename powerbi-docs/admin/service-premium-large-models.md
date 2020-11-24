@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 03/03/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3095cfbfd4ed1a965e0a54f1cee0907cb468170d
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 57b1de80112e68849d21e7c34570d9754eaf0058
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598820"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512824"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Modelos grandes en Power BI Premium (versión preliminar)
 
@@ -160,3 +160,14 @@ Los vínculos siguientes proporcionan información que puede ser útil para trab
 * [Sus propias claves de cifrado para Power BI](service-encryption-byok.md)
 * [Cómo funcionan las capacidades](service-premium-what-is.md#how-capacities-function)
 * [Actualización incremental](service-premium-incremental-refresh.md)
+
+
+Power BI ha introducido Power BI Premium Gen2 como una oferta en versión preliminar, lo que mejora la experiencia con Power BI Premium mediante mejoras en los siguientes aspectos:
+* Rendimiento
+* Concesión de licencias por usuario
+* Mayor escala
+* Métricas mejoradas
+* Escalado automático
+* Menor sobrecarga de administración
+
+Para más información sobre Power BI Premium Gen2, vea [Power BI Premium Generation 2 (versión preliminar)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

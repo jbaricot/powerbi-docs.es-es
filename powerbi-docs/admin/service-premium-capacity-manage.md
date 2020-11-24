@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/10/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: def44a5cc7847d64daab466346f85f0b369d3634
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: cfde7ab3fb40885b298afeb8751525e417b487ea
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599421"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512870"
 ---
 # <a name="managing-premium-capacities"></a>Administración de las capacidades Premium
 
@@ -24,6 +24,9 @@ La administración de Power BI Premium implica la creación, administración y 
 ## <a name="creating-and-managing-capacities"></a>Creación y administración de capacidades
 
 En la página **Configuración de la capacidad** del portal de administración de Power BI se muestra la cantidad de núcleos virtuales comprados y las capacidades Premium disponibles. La página permite que los administradores globales y los administradores del servicio Power BI puedan crear capacidades Premium a partir de los núcleos virtuales disponibles, o bien modificar capacidades Premium existentes.
+
+> [!NOTE]
+> Power BI Premium publicó recientemente una nueva versión Premium, denominada **Premium Gen2**, que se encuentra actualmente en versión preliminar. Premium Gen2 simplifica la administración de las funcionalidades Premium y reduce la sobrecarga de administración. Para más información, vea [Power BI Premium Generation 2 (versión preliminar)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 Al crear una capacidad Premium, los administradores deben definir:
 
@@ -148,7 +151,7 @@ Por lo general, los informes lentos pueden ser indicio de una capacidad sobrecal
 
 Puede encontrar una explicación más detallada sobre cómo usar las métricas en el artículo [Optimización de las capacidades Premium](service-premium-capacity-optimize.md).
 
-## <a name="acknowledgements"></a>Agradecimientos
+## <a name="acknowledgments"></a>Agradecimientos
 
 Este artículo es obra de Peter Myers, MVP de plataforma de datos y experto independiente de BI con [Bitwise Solutions](https://www.bitwisesolutions.com.au/).
 
@@ -161,3 +164,12 @@ Este artículo es obra de Peter Myers, MVP de plataforma de datos y experto inde
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 
+Power BI ha introducido Power BI Premium Gen2 como una oferta en versión preliminar, lo que mejora la experiencia con Power BI Premium mediante mejoras en los siguientes aspectos:
+* Rendimiento
+* Concesión de licencias por usuario
+* Mayor escala
+* Métricas mejoradas
+* Escalado automático
+* Menor sobrecarga de administración
+
+Para más información sobre Power BI Premium Gen2, vea [Power BI Premium Generation 2 (versión preliminar)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

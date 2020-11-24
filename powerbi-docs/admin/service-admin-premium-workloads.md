@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3454a10269937d6e03151a64bba6695cc37fcd66
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 36bbf9fcc8bcd74c46f15ebcf9bd04e86cc4a2c9
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396343"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512341"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configuración de cargas de trabajo en una capacidad Premium
 
 En este artículo se describe cómo habilitar y configurar las cargas de trabajo para capacidades Premium de Power BI. De forma predeterminada, las capacidades solo admiten la carga de trabajo asociada con la ejecución de consultas de Power BI. También puede habilitar y configurar cargas de trabajo adicionales para **[AI (Cognitive Services)](../transform-model/dataflows/dataflows-machine-learning-integration.md)** , **[Flujos de datos](../transform-model/dataflows/dataflows-introduction-self-service.md)** e **[Informes paginados](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** .
+
+> [!NOTE]
+> Power BI Premium publicó recientemente una nueva versión Premium, denominada **Premium Gen2**, que se encuentra actualmente en versión preliminar. Premium Gen2 simplifica la administración de las funcionalidades Premium y reduce la sobrecarga de administración. Para más información, vea [Power BI Premium Generation 2 (versión preliminar)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="default-memory-settings"></a>Configuración de memoria predeterminada
 
@@ -31,7 +34,13 @@ Las cargas de trabajo de consulta están optimizadas y limitadas en función de 
 | **Flujos de datos**         | 40 % predeterminado; 40 % mínimo  | 24 % predeterminado; 24 % mínimo  | 20 % predeterminado; 12 % mínimo  | 20 % predeterminado; 5 % mínimo  | 20 % predeterminado; 3 % mínimo  | 20 % predeterminado; 2 % mínimo   |
 | **Informes paginados** | No compatible               | No compatible               | No compatible               | 20 % predeterminado; 10 % mínimo | 20 % predeterminado; 5 % mínimo  | 20 % predeterminado; 2,5 % mínimo |
 
+> [!NOTE]
+> **Premium Gen2**, que actualmente se encuentra en versión preliminar, no requiere que se cambie la configuración de la memoria. El sistema subyacente administra automáticamente la memoria de Premium Gen2. 
+
+
 ## <a name="workload-settings"></a>Configuración de la carga de trabajo
+
+En las secciones siguientes se detalla la configuración de la carga de trabajo descrita en la tabla anterior. 
 
 ### <a name="ai-preview"></a>IA (Versión preliminar)
 
@@ -185,9 +194,9 @@ Maximice los recursos disponibles de su capacidad habilitando las cargas de trab
 
 ### <a name="to-configure-workloads-in-the-power-bi-admin-portal"></a>Para configurar las cargas de trabajo en el portal de administración de Power BI
 
-1. En **Configuración de la capacidad** > **CAPACIDADES PREMIUM** , seleccione una capacidad.
+1. En **Configuración de la capacidad** > **CAPACIDADES PREMIUM**, seleccione una capacidad.
 
-1. En **MÁS OPCIONES** , expanda **Cargas de trabajo**.
+1. En **MÁS OPCIONES**, expanda **Cargas de trabajo**.
 
 1. Habilite una o varias cargas de trabajo, y establezca un valor para **Memoria máxima** y otras configuraciones.
 
@@ -214,3 +223,13 @@ La aplicación [Métricas de capacidad de Power BI Premium](service-admin-premiu
 [Actualización automática de la página en Power BI Desktop (versión preliminar)](../create-reports/desktop-automatic-page-refresh.md)
 
 ¿Tiene más preguntas? [Pregunte a la comunidad de Power BI](https://community.powerbi.com/)
+
+Power BI ha introducido Power BI Premium Gen2 como una oferta en versión preliminar, lo que mejora la experiencia con Power BI Premium mediante mejoras en los siguientes aspectos:
+* Rendimiento
+* Concesión de licencias por usuario
+* Mayor escala
+* Métricas mejoradas
+* Escalado automático
+* Menor sobrecarga de administración
+
+Para más información sobre Power BI Premium Gen2, vea [Power BI Premium Generation 2 (versión preliminar)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

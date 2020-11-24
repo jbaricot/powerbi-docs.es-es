@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/29/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 6f64db7be452cf5873a862f378f558bc4f177c56
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483974"
+ms.locfileid: "94513122"
 ---
 # <a name="tips-and-tricks-for-formatting-in-reports"></a>Sugerencias y trucos para el formato en los informes
 
@@ -40,12 +40,12 @@ Para realizar cambios, debe tener permisos de edición para el informe. En Power
 
 Cuando aparezcan los paneles **Filtros** y **Visualizaciones** en el lado derecho del lienzo del informe, podrá comenzar el proceso de personalización. Si no aparecen los paneles, seleccione la flecha, en la esquina superior derecha, para abrirlos.
 
-![lienzo del informe en la vista de edición](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![lienzo del informe en la vista de edición](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-filter.png)
 
 ## <a name="apply-a-theme"></a>Aplicación de un tema
 Con los temas para informes puede aplicar cambios de diseño a todo el informe; por ejemplo, usar colores corporativos, cambiar conjuntos de iconos o aplicar nuevos formatos visuales predeterminados. Al aplicar un tema para informe, todos los objetos visuales del informe usan los colores y el formato del tema seleccionado. Para obtener más información, consulte [Uso de temas de informes](../create-reports/desktop-report-themes.md)
 
-![Icono Cambiar tema en la barra de menús](media/service-tips-and-tricks-for-color-formatting/power-bi-theme.png)
+![Icono Cambiar tema en la barra de menús](media/service-tips-and-tricks-for-color-formatting/power-bi-themes.png)
 
 Aquí hemos aplicado el tema **Innovación** al informe de ventas y marketing.
 
@@ -56,13 +56,13 @@ En ocasiones deseará resaltar un punto de datos determinado. Tal vez sea una ci
 
 La visualización siguiente clasifica unidades vendidas por segmento de producto. 
 
-![Cambio de los colores de datos a gris](media/service-tips-and-tricks-for-color-formatting/power-bi-data.png)
+![Cambio de los colores de datos a gris](media/service-tips-and-tricks-for-color-formatting/power-bi-format.png)
 
 Ahora suponga que desea destacar el segmento **Convenience** para mostrar su buen rendimiento utilizando para ello color. Estos son los pasos que debe realizar:
 
 Expanda la tarjeta **Colores de datos** y active el control deslizante para **Mostrar todo**. De este modo, se muestran los colores de cada elemento de datos en la visualización. Ahora puede modificar cualquiera de los puntos de datos.
 
-![Panel de formato con la opción Mostrar todo activada](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![Panel de formato con la opción Mostrar todo activada](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
 Establezca **Convenience** en naranja. 
 
@@ -84,9 +84,9 @@ Las visualizaciones suelen establecer dinámicamente el color en función del va
 Las secciones siguientes muestran distintos mecanismos para basar el color en un valor numérico.
 
 ### <a name="base-the-color-of-data-points-on-a-value"></a>Basar el color de los puntos de datos en un valor
-Para cambiar el color en función de un valor, seleccione una visualización para activarla. Para abrir el panel Formato, seleccione el icono de rodillo de pintura y, luego, expanda la tarjeta **Colores de datos**. Mantenga el puntero sobre la tarjeta, seleccione los tres puntos verticales que aparecen y seleccione **Formato condicional**.  
+Para cambiar el color en función de un valor, seleccione una visualización para activarla. Para abrir el panel Formato, seleccione el icono de rodillo de pintura y, luego, elija la tarjeta **Colores de datos**. Debajo de **Color predeterminado**, seleccione el icono fx.  
 
-![selección de la opción de formato condicional mediante un clic en los tres puntos verticales](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting.gif)
+![selección de la opción de formato condicional mediante un clic en los tres puntos verticales](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional.png)
 
 En el panel **Color predeterminado**, use las listas desplegables para identificar los campos que se usarán para el formato condicional. En este ejemplo, hemos seleccionado el campo **Datos de ventas** > **Total de unidades** y hemos seleccionado azul claro para el **valor más bajo** y azul oscuro para el **valor más alto**. 
 

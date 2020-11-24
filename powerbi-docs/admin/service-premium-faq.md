@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 82237286fa4d6ac3713ca6674a541b7d59c20a49
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 41db895494c32918fedba7c27664354e45ae2f1c
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92915909"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94511973"
 ---
 # <a name="power-bi-premium-faq"></a>Preguntas más frecuentes sobre Power BI Premium
 
@@ -30,6 +30,11 @@ Power BI Premium es una oferta según la capacidad que incluye:
 * Mayor escalabilidad y rendimiento que la capacidad compartida en el servicio Power BI.
 * La posibilidad de mantener recursos de inteligencia empresarial de forma local con el servidor de informes de Power BI.
 * Una superficie de API, un conjunto coherente de funcionalidades y acceso a las características más recientes para el análisis insertado.
+
+**¿Qué es Power BI Premium Generation 2?**
+
+Power BI Premium publicó recientemente una nueva versión de Power BI Premium, **Premium Gen2**, que se encuentra actualmente en versión preliminar. Premium Gen2 simplifica la administración de las funcionalidades Premium y reduce la sobrecarga de administración. Para más información sobre Premium Gen2, vea [Power BI Premium Generation 2 (versión preliminar)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+
 
 **¿Qué hace Power BI Premium? ¿Cómo funciona?**  
 Power BI Premium consta de capacidad en el servicio Power BI exclusivamente asignada a cada organización. La capacidad es compatible con hardware dedicado totalmente administrado por Microsoft. Las organizaciones pueden elegir aplicar su capacidad de forma general, o bien asignarla a áreas de trabajo asignadas en función del número de usuarios, las necesidades de carga de trabajo u otros factores, y escalar horizontal o verticalmente a medida que cambien los requisitos.
@@ -59,7 +64,7 @@ En los siguientes ejemplos se describe la manera en que los clientes pueden sati
 Power BI Premium se adquiere en función del número de núcleos virtuales. Puede ver los precios en la [página de precios de Power BI](https://powerbi.microsoft.com/pricing/). Para más información sobre los nodos y núcleos v, consulte las [notas del producto de Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper). Use también esta [calculadora](https://powerbi.microsoft.com/calculator/) para obtener una estimación de cuánta capacidad Premium podría necesitar.
 
 **¿Qué se entiende por "capacidad"?**  
-Una capacidad es una agrupación de uno o más nodos aprovisionada por un administrador mediante el portal de administración de capacidad de Power BI Premium. Para más información, consulte las [notas del producto de Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper).
+Una capacidad es una cantidad de potencia de proceso que se reserva para el uso que hace su organización de Power BI. La aprovisiona un administrador de servicios en el portal de administración de Power BI Premium, en la página **Administración de capacidad**.
 
 **¿Cómo se factura Power BI Premium?**  
 Power BI Premium se factura mensualmente con un compromiso anual.

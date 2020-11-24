@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/27/2020
-ms.openlocfilehash: d6f436477a8226dec870d039c8fe10491456a325
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/12/2020
+ms.openlocfilehash: 263992e760afe01eb44f41b80c2297cbd4b34163
+ms.sourcegitcommit: 7ee9398b30ab4ba40459cbb97e129e7dc853c93c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298201"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "94575316"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Orígenes de datos admitidos para informes paginados de Power BI
 
@@ -27,7 +27,7 @@ Los informes paginados admiten de forma nativa la siguiente lista de orígenes d
 
 | Origen de datos | Autenticación | Notas |
 | --- | --- | --- |
-| Azure SQL Database <br>Azure SQL Data Warehouse | Básico, inicio de sesión único (SSO), OAuth2 | Puede usar Enterprise Gateway con Azure SQL DB, pero no se puede usar SSO u oAuth2 para autenticarse en esos escenarios.   |
+| Azure SQL Database <br>Azure SQL Data Warehouse | Básico, inicio de sesión único (SSO), OAuth2 | Puede usar Enterprise Gateway con Azure SQL Database. pero no se puede usar SSO u oAuth2 para autenticarse en esos escenarios.   |
 | Instancia administrada de Azure SQL | Básico | A través de un punto de conexión público o privado (el privado debe enrutarse a través de Enterprise Gateway)  |
 | Azure Analysis Services | SSO, OAuth2 | El firewall de AAS debe estar deshabilitado o configurado para permitir todos los intervalos IP en la región BlackForest. Esto solo se aplica en la región BlackForest.  El inicio de sesión único no es compatible con el inquilino externo. |
 | Conjunto de datos de Power BI | SSO | Conjuntos de datos de Power BI Premium y no Premium. Requiere permiso de lectura |
@@ -40,14 +40,14 @@ Para los orígenes de datos de Azure SQL Database, debe proporcionar más inform
 
 ## <a name="other-data-sources"></a>Otros orígenes de datos
 
-Además de los orígenes de datos anteriores admitidos de forma nativa, se puede acceder a los siguientes a través de una [puerta de enlace de datos de Power BI](../connect-data/service-gateway-onprem.md):
+Además de los orígenes de datos anteriores admitidos de forma nativa, se puede acceder a los siguientes mediante una instancia de [Power BI Enterprise Gateway](../connect-data/service-gateway-onprem.md):
 
 - SQL Server
 - SQL Server Analysis Services
 - Oracle
 - Teradata
 
-En el caso de los informes paginados, en la actualidad no se puede acceder a Azure SQL Database y Azure Analysis Services a través de una puerta de enlace de datos de Power BI.
+En el caso de los informes paginados, actualmente no se puede acceder a Azure Analysis Services mediante Power BI Enterprise Gateway.
 
 ## <a name="azure-sql-database-authentication"></a>Autenticación de Azure SQL Database
 
@@ -59,7 +59,7 @@ Si no proporciona ninguna credencial, se produce un error al ejecutar el informe
 
 ![Configuración para Azure SQL Database](media/paginated-reports-data-sources/power-bi-paginated-settings-azure-sql.png)
 
-Seleccione el vínculo **Editar credenciales** de un origen de datos determinado para abrir el cuadro de diálogo **Configurar** :
+Seleccione el vínculo **Editar credenciales** de un origen de datos determinado para abrir el cuadro de diálogo **Configurar**:
 
 ![Configuración de Azure SQL Database](media/paginated-reports-data-sources/power-bi-paginated-configure-azure-sql.png)
 

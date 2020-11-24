@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/09/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 21aa643c82887ec9beaca659d9e2e97a0f1cdcc9
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: ec9ef81a4a8f4da0ffdf651d08b307e13212635a
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599313"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512847"
 ---
 # <a name="optimizing-premium-capacities"></a>Optimización de las capacidades Premium
 
@@ -27,6 +27,11 @@ Cuando se necesita más capacidad Premium, hay dos opciones que se describen en 
 - Adición de una capacidad Premium nueva
 
 Por último, el artículo concluye con los enfoques de prueba y ajuste del tamaño de la capacidad Premium.
+
+> [!NOTE]
+> Power BI Premium publicó recientemente una nueva versión Premium, denominada **Premium Gen2**, que se encuentra actualmente en versión preliminar. Premium Gen2 simplifica la administración de las funcionalidades Premium y reduce la sobrecarga de administración. Para más información, vea [Power BI Premium Generation 2 (versión preliminar)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+
+Las recomendaciones y los procedimientos recomendados de este artículo garantizan la optimización del uso de la CPU de cada conjunto de datos y de otros artefactos de Power BI.
 
 ## <a name="best-practices"></a>Procedimientos recomendados
 
@@ -226,7 +231,7 @@ Una consideración adicional para los conjuntos de datos hospedados externamente
 
 Por otra parte, puede ser de interés destacar que en las bases de datos de Azure Analysis Services y las bases de datos tabulares de SQL Server Analysis Services es necesario que los modelos se carguen completamente en memoria y que permanezcan allí de forma continua para admitir las consultas. Como sucede en el servicio Power BI, debe haber memoria suficiente para la actualización si el modelo debe permanecer en línea durante la actualización. A diferencia de lo que ocurre en el servicio Power BI, no hay ningún concepto de que la memoria de los modelos aumente o disminuya de forma automática en función del uso. Por tanto, Power BI Premium ofrece un enfoque más eficaz para maximizar las consultas de modelos con un menor uso de memoria.
 
-## <a name="capacity-planning"></a>Planeamiento de capacidad
+## <a name="capacity-planning"></a>Planificación de capacidad
 
 El tamaño de una capacidad Premium determina la memoria disponible y los recursos del procesador y los límites impuestos en la capacidad. También se debe tener en cuenta el número de capacidades Premium, ya que la creación de varias capacidades Premium puede facilitar el aislamiento de las cargas de trabajo entre sí. Recuerde que el almacenamiento es de 100 TB por nodo de capacidad, lo que probablemente sea más que suficiente para cualquier carga de trabajo.
 
@@ -258,7 +263,7 @@ Si ya tiene una capacidad y los informes para los que quiere realizar pruebas de
 
 Para generar una prueba más compleja, considere la posibilidad de desarrollar una aplicación de prueba de carga que simule una carga de trabajo realista. Para más información, vea el seminario web [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/) (Pruebas de carga de aplicaciones de Power BI con la prueba de carga de Visual Studio).
 
-## <a name="acknowledgements"></a>Agradecimientos
+## <a name="acknowledgments"></a>Agradecimientos
 
 Este artículo es obra de Peter Myers, MVP de plataforma de datos y experto independiente de BI con [Bitwise Solutions](https://www.bitwisesolutions.com.au/).
 
@@ -268,3 +273,13 @@ Este artículo es obra de Peter Myers, MVP de plataforma de datos y experto inde
 > [Escenarios de las capacidades Premium](service-premium-capacity-scenarios.md)   
   
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+
+Power BI ha introducido Power BI Premium Gen2 como una oferta en versión preliminar, lo que mejora la experiencia con Power BI Premium mediante mejoras en los siguientes aspectos:
+* Rendimiento
+* Concesión de licencias por usuario
+* Mayor escala
+* Métricas mejoradas
+* Escalado automático
+* Menor sobrecarga de administración
+
+Para más información sobre Power BI Premium Gen2, vea [Power BI Premium Generation 2 (versión preliminar)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/07/2020
+ms.date: 11/17/2020
 ms.author: davidi
-ms.openlocfilehash: 3cce51ad577c700a0f9595a2b92694e5e1b61cc5
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 11f9db0282cd0b302c5293ca59dd44c87dcdb955
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397401"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719061"
 ---
 # <a name="power-bi-data-sources"></a>Orígenes de datos de Power BI
 
@@ -62,7 +62,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Carpeta | Sí | Sí | No | Sí | Sí | Sí |
 | GitHub | Sí | Sí | No | No | No | No |
 | Google Analytics | Sí | Sí | No | No | No | No |
-| Google BigQuery | Sí | Sí | Sí | No | No | Sí |
+| Google BigQuery | Sí | Sí | Sí | Sí | No | Sí |
 | Archivo Hadoop (HDFS) | Sí | No | No | No | No | No |
 | Hive LLAP | Sí | Sí | Sí | Sí | No | No |
 | HDInsight Interactive Query | Sí | Sí | Sí | No | No | No |
@@ -148,7 +148,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 
 <sup>6</sup> Necesario para las bases de datos .html, .xls y de Access.
 
-<sup>7</sup> El servicio Power BI no es compatible con las fuentes de OData que requieren autenticación.
+<sup>7</sup> El servicio Power BI no admite OAuth2 genérico.
 
 <sup>8</sup> Paxata se admite en la versión de Power BI Desktop optimizada para Power BI Report Server. No se admite en los informes de Power BI publicados en Power BI Report Server. Para ver una lista de los orígenes de datos admitidos, consulte [Orígenes de datos de los informes de Power BI en Power BI Report Server](../report-server/data-sources.md).
 

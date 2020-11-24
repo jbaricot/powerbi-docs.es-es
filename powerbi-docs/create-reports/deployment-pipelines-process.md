@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/22/2020
-ms.openlocfilehash: a364d3dd2d2175e4509d05f4c34eec31a1a371b6
-ms.sourcegitcommit: 37ec0e9e356b6d773d7d56133fb8ed6c06b65fd3
+ms.date: 10/21/2020
+ms.openlocfilehash: 6c1e4212cb991ff7eb3d0f8a5e336010499bcd1c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "91024044"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668612"
 ---
 # <a name="understand-the-deployment-process"></a>comprender el proceso de implementación
 
@@ -38,6 +38,8 @@ Durante la primera implementación, las canalizaciones de implementación compru
 Si tiene permisos de capacidad, el contenido del área de trabajo se copia en la fase en la que se realiza la implementación y se crea una nueva área de trabajo para esa fase en la capacidad Premium.
 
 Si no tiene permisos de capacidad, el área de trabajo se crea, pero el contenido no se copia. Puede pedir a un administrador de capacidad que agregue el área de trabajo a una capacidad o solicitar permisos de asignación para la capacidad. Más adelante, cuando el área de trabajo esté asignada a una capacidad, puede implementar contenido en esta área de trabajo.
+
+Si usa [Premium por usuario (PPU)](../admin/service-premium-per-user-faq.md), el área de trabajo se crea automáticamente en la capacidad asociada a su licencia PPU. En tales casos, no se requieren permisos de capacidad. Sin embargo, a las áreas de trabajo creadas por un usuario con una licencia PPU solo podrán acceder otros usuarios que tengan esta misma licencia. Además, el contenido creado en tales áreas de trabajo solo podrán usarlo los usuarios que tengan licencias PPU.
 
 ### <a name="workspace-and-content-ownership"></a>Propiedad del área de trabajo y del contenido
 
@@ -67,7 +69,7 @@ Con pequeños cambios, como agregar una tabla o medidas, Power BI mantiene los 
 
 Siempre que el contenido implementado se encuentre en una [capacidad Premium](../admin/service-premium-what-is.md), un usuario que cumpla las condiciones siguientes podrá implementarlo en una fase con un área de trabajo existente:
 
-* Un [usuario de Pro](../admin/service-admin-purchasing-power-bi-pro.md) que sea miembro de ambas áreas de trabajo en las fases de implementación de origen y destino.
+* Un usuario con una licencia [Pro](../admin/service-admin-purchasing-power-bi-pro.md) o [PPU](../admin/service-premium-per-user-faq.md) que sea miembro de ambas áreas de trabajo en las fases de implementación de origen y destino.
 
 * Un propietario de todos los conjuntos de datos del área de trabajo de destino que se van a implementar.
 
@@ -87,7 +89,7 @@ Al implementar contenido de una fase de canalización en otra, el contenido copi
 
 Las canalizaciones de implementación no admiten los siguientes elementos:
 
-* Conjuntos de datos que no se originan a partir de un archivo .pbix
+* Conjuntos de datos que no se originan a partir de un archivo PBIX
 
 * Informes basados en conjuntos de datos no admitidos
 

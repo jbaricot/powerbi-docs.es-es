@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 11/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05df39b58334b33046fde0f95b9f1ca596c1eec1
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 0f6f4cdb221773218c945e7f800d569c73a9a130
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120549"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718992"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Acerca del uso de DirectQuery en Power BI
 
@@ -165,6 +165,7 @@ Los modelos DirectQuery admiten casi todas las funcionalidades de informes. Por 
 * **No se admite Conclusiones rápidas:** Conclusiones rápidas de Power BI busca rápidamente en distintos subconjuntos del conjunto de datos al tiempo que aplica un conjunto de algoritmos sofisticados para detectar información de posible interés. Dada la necesidad de consultas de muy alto rendimiento, esta funcionalidad no está disponible en conjuntos de datos que usan DirectQuery.
 * **No se admite Preguntas y respuestas:** Preguntas y respuestas de Power BI le permite explorar los datos a través de las funcionalidades de lenguaje natural e intuitivo y reciba respuestas en forma de gráficos. Pero actualmente no se admite en los conjuntos de datos que usan DirectQuery.
 * **El uso de Explorar en Excel probablemente genere un rendimiento más deficiente:** es posible explorar datos si usa la funcionalidad Explorar en Excel en un conjunto de datos. Este enfoque permite crear tablas dinámicas y gráficos dinámicos en Excel. Si bien esta funcionalidad se admite en conjuntos de datos que usan DirectQuery, generalmente el rendimiento es más lento que al crear objetos visuales en Power BI y, por lo tanto, si el uso de Excel es importante en sus escenarios, debe tener en cuenta este hecho en su decisión de usar DirectQuery.
+* **Longitud máxima de las columnas de texto**: la longitud máxima de los datos de una columna de texto para los conjuntos de datos que usan DirectQuery es de 32 764 caracteres. Los informes del texto que tenga más caracteres producirán un error.
 
 ### <a name="security"></a>Seguridad
 

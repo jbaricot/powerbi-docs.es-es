@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 10/01/2020
-ms.openlocfilehash: b1d0a94e3dd0ae68231720bc69d2537568efd19f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 8ff1fe1657e22b1e0812bddf6a0842b3c32b8822
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396803"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668589"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportación de un informe de Power BI a un archivo (versión preliminar)
 
@@ -28,15 +28,15 @@ La API `exportToFile` permite exportar un informe de Power BI mediante una llama
 
 Puede usar la característica de exportación de varias maneras. Estos son algunos ejemplos:
 
-* **Botón Enviar para imprimir** : en la aplicación, cree un botón que, al hacer clic en él, desencadene un trabajo de exportación. El trabajo puede exportar el informe visto como archivo .pdf o .pptx, y cuando la operación se complete, el usuario puede recibir el archivo como una descarga. Mediante marcadores, puede exportar el informe en un estado específico, incluidos filtros configurados, segmentaciones y configuraciones adicionales. Como la API es asincrónica, el archivo puede tardar un tiempo en estar disponible.
+* **Botón Enviar para imprimir**: en la aplicación, cree un botón que, al hacer clic en él, desencadene un trabajo de exportación. El trabajo puede exportar el informe visto como archivo .pdf o .pptx, y cuando la operación se complete, el usuario puede recibir el archivo como una descarga. Mediante marcadores, puede exportar el informe en un estado específico, incluidos filtros configurados, segmentaciones y configuraciones adicionales. Como la API es asincrónica, el archivo puede tardar un tiempo en estar disponible.
 
-* **Datos adjuntos de correo electrónico** : envíe un correo electrónico automatizado a intervalos establecidos, con un informe .pdf adjunto. Este escenario puede ser útil si desea automatizar el envío de un informe semanal a los ejecutivos.
+* **Datos adjuntos de correo electrónico**: envíe un correo electrónico automatizado a intervalos establecidos, con un informe .pdf adjunto. Este escenario puede ser útil si desea automatizar el envío de un informe semanal a los ejecutivos.
 
 ## <a name="using-the-api"></a>Uso de la API
 
 Antes de usar la API, compruebe que las siguientes [configuraciones de inquilinos del administrador](../../admin/service-admin-portal.md#tenant-settings) estén habilitadas:
-* **Exportación de informes como presentaciones de PowerPoint o documentos PDF** : habilitada de forma predeterminada.
-* **Exportación de informes como archivos de imagen** : se requiere solo para *.png* y está deshabilitada de forma predeterminada.
+* **Exportación de informes como presentaciones de PowerPoint o documentos PDF**: habilitada de forma predeterminada.
+* **Exportación de informes como archivos de imagen**: se requiere solo para *.png* y está deshabilitada de forma predeterminada.
 
 La API es asincrónica. Cuando se llama a la API [exportToFile](/rest/api/power-bi/reports/exporttofile), se desencadena un trabajo de exportación. Después de activar un trabajo de exportación, use el [sondeo](/rest/api/power-bi/reports/getexporttofilestatus) para realizar un seguimiento del trabajo, hasta que se complete.
 
@@ -93,6 +93,9 @@ Al usar la API `exportToFile`, puede pasar su localización deseada. La configur
 `exportToFile` admite solicitudes simultáneas de trabajos de exportación. En la tabla siguiente se muestra la cantidad de trabajos que puede ejecutar al mismo tiempo, dependiendo de la SKU en la que reside el informe. Las solicitudes concurrentes se refieren a páginas de informes. Por ejemplo, veinte páginas en una solicitud de exportación en una SKU A6 se procesarán simultáneamente. Esto llevará aproximadamente el mismo tiempo que enviar veinte solicitudes de exportación con una página cada una.
 
 Un trabajo que supere su número de solicitudes simultáneas no se termina. Por ejemplo, si exporta tres páginas en una SKU A1, se ejecutará el primer trabajo y los dos últimos esperarán a los dos próximos ciclos de ejecución.
+
+>[!NOTE]
+>La exportación de un informe de Power BI a un archivo mediante la API `exporToFile` no es compatible con la licencia [Premium por usuario (PPU)](../../admin/service-premium-per-user-faq.md). 
 
 |SKU de Azure  |SKU de Office  |Número máximo de páginas de informe simultáneas  |
 |-----------|------------|-----------|

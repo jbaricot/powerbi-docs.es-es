@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 10/29/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 93d982c684014430009a80112da841820e7b0fc9
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: b0132996be1ed70f228ce96d413c4925dc1a3e48
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396408"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512778"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configuración de compatibilidad con Multi-Geo en Power BI Premium
 
@@ -34,6 +34,9 @@ Multi-Geo es una característica de Power BI Premium que ayuda a que los cliente
 Multi-Geo no está disponible para Power BI Alemania, Power BI China operado por 21Vianet o Power BI para la Administración Pública de Estados Unidos.
 
 Multi-Geo ahora está también disponible en Power BI Embedded. Más información en [Compatibilidad de Multi-Geo con Power BI Embedded](../developer/embedded/embedded-multi-geo.md).
+
+> [!NOTE]
+> Power BI Premium publicó recientemente una nueva versión Premium, denominada **Premium Gen2**, que se encuentra actualmente en versión preliminar. Premium Gen2 simplifica la administración de las funcionalidades Premium y reduce la sobrecarga de administración. Para más información, vea [Power BI Premium Generation 2 (versión preliminar)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="enable-and-configure"></a>Habilitación y configuración
 
@@ -107,3 +110,13 @@ Los conjuntos de datos con formato de almacenamiento grande no se deben mover de
 - [Multi-Geo para capacidades de Power BI Embedded](../developer/embedded/embedded-multi-geo.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+
+Power BI ha introducido Power BI Premium Gen2 como una oferta en versión preliminar, lo que mejora la experiencia con Power BI Premium mediante mejoras en los siguientes aspectos:
+* Rendimiento
+* Concesión de licencias por usuario
+* Mayor escala
+* Métricas mejoradas
+* Escalado automático
+* Menor sobrecarga de administración
+
+Para más información sobre Power BI Premium Gen2, vea [Power BI Premium Generation 2 (versión preliminar)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

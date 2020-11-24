@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: e4d1c625d86234c97305c705b2feeead8efacb61
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f84270d76265da2877ae5d2e16289373235271b6
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397286"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668704"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Insertar contenido de Power BI en una aplicación para la organización
 
@@ -39,6 +39,9 @@ Para empezar, es necesario que tenga:
 Si no está registrado en **Power BI Pro**, [regístrese para obtener una evaluación gratuita](https://powerbi.microsoft.com/pricing/) antes de empezar.
 
 Si no tiene ninguna suscripción a Azure, cree una [cuenta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de empezar.
+
+>[!NOTE]
+>Se admite la licencia [Premium por usuario (PPU)](../../admin/service-premium-per-user-faq.md). Sin embargo, si usa PPU, solo los usuarios de su organización que tengan la licencia PPU podrán acceder a la solución.
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Configuración del entorno de desarrollo de análisis integrados
 

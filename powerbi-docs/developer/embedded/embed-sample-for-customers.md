@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 21f497a7c88134232a86afb9d16142719a6b711e
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: dab16218406a4b97c9e2aa01974380ba09dde003
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483797"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719015"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Insertar contenido de Power BI en una aplicación para los clientes
 
@@ -35,6 +35,9 @@ Para empezar, es necesario que tenga:
 * Debe tener configurado un [inquilino de Azure Active Directory](create-an-azure-active-directory-tenant.md) propio.
 
 Si no está registrado en **Power BI Pro**, [regístrese para obtener una evaluación gratuita](https://powerbi.microsoft.com/pricing/) antes de empezar.
+
+>[!NOTE]
+>No se admite la licencia [Premium por usuario (PPU)](../../admin/service-premium-per-user-faq.md). Se puede usar PPU para experimentar con la solución de *inserción para los clientes*, pero no podrá [pasar a producción](embed-sample-for-customers.md#move-to-production).
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Configuración del entorno de desarrollo de análisis integrados
 
@@ -340,9 +343,9 @@ var targetWorkspaces = new List<GenerateTokenRequestV2TargetWorkspace>()
 
 var request = new GenerateTokenRequestV2()
 {
-    Datasets = datasetsRequestDetails ?? null,
-    Reports = reportsRequestDetails,
-    TargetWorkspaces = targetWSRequestdetials ?? null,
+    Datasets = datasets,
+    Reports = reports,
+    TargetWorkspaces = targetWorkspaces,
 };
 
 var token = client.GetClient().EmbedToken.GenerateToken(request);

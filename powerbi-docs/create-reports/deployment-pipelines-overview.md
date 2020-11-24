@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/15/2020
-ms.openlocfilehash: 58d1adef9a9b2a8a4f818f94da2cb34e6529db83
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/21/2020
+ms.openlocfilehash: b0b8d61224a91cd069caf48a2d321979ac2d291d
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855504"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94513307"
 ---
 # <a name="introduction-to-deployment-pipelines"></a>Introducción a las canalizaciones de implementación
 
 En el mundo actual, una parte fundamental de la toma de decisiones en casi todas las organizaciones es el análisis. El creciente uso de Power BI como herramienta de análisis exige que utilice más datos, tenga una apariencia atractiva y sea fácil de usar. No obstante, por encima de todo, Power BI debe estar siempre disponible y ser confiable. Para cumplir estos requisitos, los creadores de BI deben colaborar de forma eficaz.
 
-La herramienta de canalizaciones de implementación permite a los creadores de BI administrar el ciclo de vida del contenido de la organización. Se trata de una herramienta eficaz y que pueden reutilizar los creadores de una empresa con capacidad Premium. Esta herramienta permite a los creadores desarrollar y probar contenidos en Power BI antes de que los usuarios los consuman. Los tipos de contenido incluyen informes, paneles y conjuntos de datos.
+La herramienta de canalizaciones de implementación permite a los creadores de BI administrar el ciclo de vida del contenido de la organización. Se trata de una herramienta eficaz y que pueden reutilizar los creadores de una empresa con capacidad Premium. Las canalizaciones de implementación permiten a los creadores desarrollar y probar contenido en Power BI antes de que los usuarios lo consuman. Los tipos de contenido incluyen informes, paneles y conjuntos de datos.
 
 La herramienta está diseñada como una canalización con tres fases:
 
@@ -29,7 +29,7 @@ La herramienta está diseñada como una canalización con tres fases:
 
 * **<a name="test"></a>Prueba**
 
-    Después de realizar todos los cambios en el contenido, ya puede entrar en la fase de prueba. Cargue el contenido modificado para que se pueda trasladar a esta fase de prueba. A continuación, se muestran tres ejemplos de lo que se puede hacer en el entorno de prueba:
+    Una vez realizados todos los cambios necesarios en el contenido, ya puede pasar a la fase de prueba. Cargue el contenido modificado para que se pueda trasladar a esta fase de prueba. A continuación, se muestran tres ejemplos de lo que se puede hacer en el entorno de prueba:
 
     * Compartir contenido con evaluadores y revisores
 

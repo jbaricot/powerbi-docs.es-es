@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 2c06464999192e71c2d398f41b7b96e8fa4a169b
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 58d1112dfccda798a32b2a3cb95d72c37b7a16ec
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983491"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668405"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Tutorial: Inserción de informes paginados de Power BI en una aplicación para los clientes.
 
-Con **Power BI Embedded en Azure** o la **inserción de Power BI en Office** , puede insertar informes paginados en una aplicación mediante el uso de "la aplicación posee los datos". Una **aplicación que posee los datos** consiste en tener una aplicación que use Power BI como plataforma de análisis integrados. Como **ISV** o **desarrollador** , puede crear contenido de Power BI que muestre informes paginados en una aplicación que esté completamente integrada e interactiva, sin necesidad de que los usuarios dispongan de una licencia de Power BI. En este tutorial se muestra cómo integrar un informe paginado en una aplicación mediante el SDK para .NET de Power BI con la API para JavaScript de Power BI.
+Con **Power BI Embedded en Azure** o la **inserción de Power BI en Office**, puede insertar informes paginados en una aplicación mediante el uso de "la aplicación posee los datos". Una **aplicación que posee los datos** consiste en tener una aplicación que use Power BI como plataforma de análisis integrados. Como **ISV** o **desarrollador**, puede crear contenido de Power BI que muestre informes paginados en una aplicación que esté completamente integrada e interactiva, sin necesidad de que los usuarios dispongan de una licencia de Power BI. En este tutorial se muestra cómo integrar un informe paginado en una aplicación mediante el SDK para .NET de Power BI con la API para JavaScript de Power BI.
 
 ![Informe insertado de Power BI](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
 
@@ -39,7 +39,8 @@ Para empezar, es necesario que tenga:
 Si no tiene ninguna suscripción a Azure, cree una [cuenta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de empezar.
 
 > [!IMPORTANT]
-> * Debe usar una **entidad de servicio** . No se admite el usuario maestro.
+> * Debe usar una **entidad de servicio**. No se admite el usuario maestro.
+>* No se admite la licencia [Premium por usuario (PPU)](../../admin/service-premium-per-user-faq.md). Puede usar PPU para experimentar con la solución, pero no podrá [pasar a producción](embed-sample-for-customers.md#move-to-production).
 > * No se admiten los orígenes de datos que requieren el inicio de sesión único (SSO). Para obtener una lista de los conjuntos de datos admitidos y sus métodos de autenticación, vea [Orígenes de datos admitidos para informes paginados de Power BI](../../paginated-reports/paginated-reports-data-sources.md). 
 > * El conjunto de datos de Power BI no se admite como [origen de datos](../../connect-data/service-get-data.md).
 
@@ -49,13 +50,13 @@ Para insertar un informe paginado, es necesario asignar una capacidad a un área
 
 ### <a name="create-an-app-workspace"></a>Crear área de trabajo de la aplicación
 
-Puesto que usa una [entidad de servicio](embed-service-principal.md) para iniciar sesión en la aplicación, tendrá que usar las [nuevas áreas de trabajo](../../collaborate-share/service-create-the-new-workspaces.md). Como *entidad de servicio* , también debe ser un administrador o un miembro de las áreas de trabajo de aplicación que participan en la aplicación.
+Puesto que usa una [entidad de servicio](embed-service-principal.md) para iniciar sesión en la aplicación, tendrá que usar las [nuevas áreas de trabajo](../../collaborate-share/service-create-the-new-workspaces.md). Como *entidad de servicio*, también debe ser un administrador o un miembro de las áreas de trabajo de aplicación que participan en la aplicación.
 
 ### <a name="create-a-capacity"></a>Creación de una capacidad
 
 Antes de importar o cargar un informe paginado para su inserción, el área de trabajo que contiene el informe debe estar asignada al menos a una capacidad A4 o P1. Puede elegir entre dos tipos de capacidad:
-* **Power BI Premium** : para insertar un informe paginado, se requiere una capacidad de SKU de tipo *P* . Al insertar contenido de Power BI, se hace referencia a esta solución como *Inserción de Power BI* . Para más información acerca de esta suscripción, consulte [¿Qué es Power BI Premium?](../../admin/service-premium-what-is.md)
-* **Azure Power BI Embedded** : puede adquirir una capacidad en [Microsoft Azure Portal](https://portal.azure.com). Esta suscripción utiliza las SKU de tipo *A* . Para insertar informes paginados, necesita al menos una suscripción *A4* . Para obtener más información sobre cómo crear la capacidad de Power BI Embedded, consulte [Creación de una capacidad de Power BI Embedded en Azure Portal](azure-pbie-create-capacity.md).
+* **Power BI Premium**: para insertar un informe paginado, se requiere una capacidad de SKU de tipo *P*. Al insertar contenido de Power BI, se hace referencia a esta solución como *Inserción de Power BI*. Para más información acerca de esta suscripción, consulte [¿Qué es Power BI Premium?](../../admin/service-premium-what-is.md)
+* **Azure Power BI Embedded**: puede adquirir una capacidad en [Microsoft Azure Portal](https://portal.azure.com). Esta suscripción utiliza las SKU de tipo *A*. Para insertar informes paginados, necesita al menos una suscripción *A4*. Para obtener más información sobre cómo crear la capacidad de Power BI Embedded, consulte [Creación de una capacidad de Power BI Embedded en Azure Portal](azure-pbie-create-capacity.md).
 
 En la tabla siguiente se describen los recursos y los límites de cada SKU. Para determinar cuál es la capacidad que mejor se adapta a sus necesidades, consulte la tabla [Qué SKU debo comprar para mi escenario](./embedded-faq.md#which-solution-should-i-choose).
 
@@ -90,7 +91,7 @@ Siga estos pasos para empezar a insertar contenido mediante la aplicación de ej
 
     ![Ejemplo de aplicación que posee los datos](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-3. Abra el archivo **Web.config** de la aplicación de ejemplo. Hay campos que debe rellenar para ejecutar la aplicación. Elija **ServicePrincipal** para el campo **AuthenticationType** .
+3. Abra el archivo **Web.config** de la aplicación de ejemplo. Hay campos que debe rellenar para ejecutar la aplicación. Elija **ServicePrincipal** para el campo **AuthenticationType**.
 
     Rellene los campos siguientes:
     * [applicationId](#application-id)
@@ -100,24 +101,24 @@ Siga estos pasos para empezar a insertar contenido mediante la aplicación de ej
     * [tenant](#tenant)
 
     > [!Note]
-    > En este ejemplo, el valor predeterminado de **AuthenticationType** es MasterUser. Asegúrese de cambiarlo a **ServicePrincipal** . 
+    > En este ejemplo, el valor predeterminado de **AuthenticationType** es MasterUser. Asegúrese de cambiarlo a **ServicePrincipal**. 
 
 
     ![Archivo de configuración web](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
 ### <a name="application-id"></a>Id. de aplicación
 
-Rellene la información de **applicationId** con el **identificador de aplicación** de **Azure** . La aplicación usa **applicationId** para identificarse ante los usuarios a los que solicita permisos.
+Rellene la información de **applicationId** con el **identificador de aplicación** de **Azure**. La aplicación usa **applicationId** para identificarse ante los usuarios a los que solicita permisos.
 
-Para obtener **applicationId** , siga estos pasos:
+Para obtener **applicationId**, siga estos pasos:
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. En el panel de navegación izquierdo, seleccione **Todos los servicios** y busque **Registros de aplicaciones** .
+2. En el panel de navegación izquierdo, seleccione **Todos los servicios** y busque **Registros de aplicaciones**.
 
     ![Búsqueda de registros de aplicaciones](media/embed-paginated-reports-for-customers/app-registration.png)
 
-3. Seleccione la aplicación que necesite el valor **applicationId** .
+3. Seleccione la aplicación que necesite el valor **applicationId**.
 
     ![Captura de pantalla muestra los nombres para mostrar de las aplicaciones con una seleccionada que necesita el identificador de la aplicación.](media/embed-paginated-reports-for-customers/display-name.png)
 
@@ -159,21 +160,21 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 ### <a name="application-secret"></a>Secreto de aplicación
 
-Rellene la información de **ApplicationSecret** a partir de la sección **Claves** de la sección **Registros de aplicaciones** de **Azure** .
+Rellene la información de **ApplicationSecret** a partir de la sección **Claves** de la sección **Registros de aplicaciones** de **Azure**.
 
-Para obtener **ApplicationSecret** , siga estos pasos:
+Para obtener **ApplicationSecret**, siga estos pasos:
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. En el panel de navegación izquierdo, seleccione **Todos los servicios** y busque **Registros de aplicaciones** .
+2. En el panel de navegación izquierdo, seleccione **Todos los servicios** y busque **Registros de aplicaciones**.
 
     ![Búsqueda de registros de aplicaciones](media/embed-paginated-reports-for-customers/app-registration.png)
 
-3. Seleccione la aplicación que necesite usar **ApplicationSecret** .
+3. Seleccione la aplicación que necesite usar **ApplicationSecret**.
 
     ![Captura de pantalla muestra los nombres para mostrar de las aplicaciones con una seleccionada que necesita el secreto de la aplicación.](media/embed-paginated-reports-for-customers/display-name-2.png)
 
-4. Seleccione **Certificates and secrets** (Certificados y secretos) en **Administrar** .
+4. Seleccione **Certificates and secrets** (Certificados y secretos) en **Administrar**.
 
 5. Seleccione **New client secrets** (Nuevos secretos de cliente).
 
@@ -187,11 +188,11 @@ Rellene la información del elemento **tenant** con el identificador del inquili
 
 ### <a name="run-the-application"></a>Ejecutar la aplicación
 
-1. Seleccione **Ejecutar** en **Visual Studio** .
+1. Seleccione **Ejecutar** en **Visual Studio**.
 
     ![Ejecutar la aplicación](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
 
-2. Luego seleccione **Insertar informe** .
+2. Luego seleccione **Insertar informe**.
 
     ![Seleccionar un contenido](media/embed-sample-for-customers/embed-sample-for-customers-034.png)
 
@@ -201,11 +202,11 @@ Rellene la información del elemento **tenant** con el identificador del inquili
 
 ## <a name="embed-power-bi-paginated-reports-within-your-application"></a>Inserción de informes paginados de Power BI en la aplicación
 
-Aunque los pasos para insertar los informes paginados de Power BI se realizan con las [API REST de Power BI](/rest/api/power-bi/), los códigos de ejemplo descritos en este artículo se realizan con el **SDK para .NET** .
+Aunque los pasos para insertar los informes paginados de Power BI se realizan con las [API REST de Power BI](/rest/api/power-bi/), los códigos de ejemplo descritos en este artículo se realizan con el **SDK para .NET**.
 
 La inserción de informes paginados de Power BI para los clientes dentro de la aplicación requiere que tenga una [entidad de servicio](embed-service-principal.md) de **Azure AD** y obtener un [token de acceso de Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) para la aplicación de Power BI antes de realizar llamadas a las [API REST de Power BI](/rest/api/power-bi/).
 
-Para crear el cliente de Power BI con el **token de acceso** , deberá crear un objeto de cliente de Power BI, que permite interactuar con las [API REST de Power BI](/rest/api/power-bi/). Para crear un objeto de cliente de Power BI, ajuste el valor de **AccessToken** con un objeto ***Microsoft.Rest.TokenCredentials*** .
+Para crear el cliente de Power BI con el **token de acceso**, deberá crear un objeto de cliente de Power BI, que permite interactuar con las [API REST de Power BI](/rest/api/power-bi/). Para crear un objeto de cliente de Power BI, ajuste el valor de **AccessToken** con un objeto **_Microsoft.Rest.TokenCredentials_* _.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -227,7 +228,7 @@ Puede usar el objeto de cliente de Power BI para recuperar una referencia al ele
 
 A continuación tiene un código de ejemplo sobre cómo recuperar el primer informe de un área de trabajo determinada.
 
-*En el archivo Services\EmbedService.cs de la [aplicación de ejemplo](https://github.com/Microsoft/PowerBI-Developer-Samples) se incluye un ejemplo de cómo obtener un elemento de contenido, ya sea un informe, un panel o un icono, que se quiere insertar.*
+_En el archivo Services\EmbedService.cs de la [aplicación de ejemplo](https://github.com/Microsoft/PowerBI-Developer-Samples) se incluye un ejemplo de cómo obtener un elemento de contenido que se quiere insertar, ya sea un informe, un panel o un icono.*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -244,7 +245,7 @@ Report report = reports.Value.FirstOrDefault();
 
 Genere un token de inserción, que se puede usar desde la API de JavaScript. Para crear un token insertado para insertar informes paginados de Power BI, use [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API.
 
-Un ejemplo de creación de un token de inserción está disponible en el archivo *Services\EmbedService.cs* de la [aplicación de ejemplo](https://github.com/Microsoft/PowerBI-Developer-Samples).
+Un ejemplo de creación de un token de inserción está disponible en el archivo *Services\EmbedService.cs* de la [aplicación de ejemplo](https://github.com/Microsoft/PowerBI-Developer-Samples).
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;

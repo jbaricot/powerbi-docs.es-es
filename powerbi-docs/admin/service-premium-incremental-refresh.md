@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 06/22/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 0e55aa6fbfc1fadb529c6c321d7d97d3f48d569d
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 6ca4257f73837b68d76734ea503e8f83e0d5ba49
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599060"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512962"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Actualizaciones incrementales en Power BI
 
@@ -27,6 +27,10 @@ La actualización incremental permite usar conjuntos de datos muy grandes en Pow
 
 > [!NOTE]
 > Ahora, las actualizaciones incrementales están disponibles para Power BI Pro, Premium y en las suscripciones y conjuntos de datos compartidos.
+
+> [!NOTE]
+> Power BI Premium publicó recientemente una nueva versión Premium, denominada **Premium Gen2**, que se encuentra actualmente en versión preliminar. Premium Gen2 simplifica la administración de las funcionalidades Premium y reduce la sobrecarga de administración. Premium Gen2 mejora significativamente la actualización programada, al habilitar el escalado automático para evitar conflictos de actualización. Para más información, vea [Power BI Premium Generation 2 (versión preliminar)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+
 
 ## <a name="configure-incremental-refresh"></a>Configuración de la actualización incremental
 
@@ -248,3 +252,14 @@ Descargue e instale la versión más reciente de ALM Toolkit desde el [repositor
 
 [Conectividad del conjunto de datos con el punto de conexión de XMLA](service-premium-connect-tools.md)   
 [Solución de problemas de escenarios de actualización](../connect-data/refresh-troubleshooting-refresh-scenarios.md)
+
+
+Power BI ha introducido Power BI Premium Gen2 como una oferta en versión preliminar, lo que mejora la experiencia con Power BI Premium mediante mejoras en los siguientes aspectos:
+* Rendimiento
+* Concesión de licencias por usuario
+* Mayor escala
+* Métricas mejoradas
+* Escalado automático
+* Menor sobrecarga de administración
+
+Para más información sobre Power BI Premium Gen2, vea [Power BI Premium Generation 2 (versión preliminar)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

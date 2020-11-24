@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: eb7a2dfeb78e60c78b1b3f17306aec91a8a55330
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 38df6680f2f4d0031ec26a1935e01c849c285909
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397033"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719084"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -146,15 +146,15 @@ En las secciones siguientes se preparan los parámetros de la pestaña **Configu
 
 Muchos de los parámetros de configuración pueden tener uno de estos tres estados:
 
-* **Deshabilitado para toda la organización** : ninguna persona de la organización puede usar esta característica.
+* **Deshabilitado para toda la organización**: ninguna persona de la organización puede usar esta característica.
 
     ![Opción de deshabilitar para todos](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Habilitado para toda la organización** : todas las personas de la organización pueden usar esta característica.
+* **Habilitado para toda la organización**: todas las personas de la organización pueden usar esta característica.
 
     ![Opción de habilitar para todos](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Habilitado para un subconjunto de la organización** : Los grupos de seguridad específicos de su organización pueden usar esta característica.
+* **Habilitado para un subconjunto de la organización**: Los grupos de seguridad específicos de su organización pueden usar esta característica.
 
     También puede habilitar la característica para toda la organización, **Excepto grupos de seguridad específicos**.
 
@@ -168,7 +168,7 @@ Las secciones siguientes proporcionan una visión general de los distintos tipos
 
 ## <a name="tenant-wide-new-look-settings"></a>Configuración del nuevo aspecto para todo el inquilino
 
-Cuando la opción **Nuevo aspecto** está deshabilitada, los usuarios de esta organización pueden activar y desactivar el nuevo aspecto de Power BI. Al habilitar la opción **Nuevo aspecto** , *todos* los usuarios de esta organización ven los controles modernos del nuevo aspecto de Power BI en todo momento. Ya no pueden alternar el nuevo aspecto. La opción Nuevo aspecto está habilitada de forma predeterminada.
+Cuando la opción **Nuevo aspecto** está deshabilitada, los usuarios de esta organización pueden activar y desactivar el nuevo aspecto de Power BI. Al habilitar la opción **Nuevo aspecto**, *todos* los usuarios de esta organización ven los controles modernos del nuevo aspecto de Power BI en todo momento. Ya no pueden alternar el nuevo aspecto. La opción Nuevo aspecto está habilitada de forma predeterminada.
 
 :::image type="content" source="media/service-admin-portal/admin-portal-new-look-disable.png" alt-text="Captura de pantalla de la opción Deshabilitar nuevo aspecto en el portal de administración.":::
 
@@ -184,7 +184,7 @@ Los administradores pueden especificar direcciones URL internas para invalidar e
 
 * **Comunidad**. Para llevar a los usuarios a un foro interno desde el menú Ayuda, establezca una dirección URL personalizada al **Foro de discusión** en lugar de a la [Comunidad de Power BI](https://community.powerbi.com/).
 
-* **Actualizaciones de licencias**. A los usuarios con una licencia de Power BI (gratuita) se les puede presentar la oportunidad de actualizar su cuenta a Power BI Pro durante el uso del servicio. Si especifica una dirección URL interna para **Solicitudes de licencia** , redirigirá a los usuarios a un flujo interno de solicitud y compra e impedirá la compra mediante autoservicio. Si quiere impedir que los usuarios compren licencias, pero está de acuerdo con dejar que los usuarios inicien una evaluación gratuita de Power BI Pro, consulte [Permitir que los usuarios prueben Power BI Pro](#allow-users-to-try-power-bi-pro) para separar las experiencias de compra y prueba.
+* **Actualizaciones de licencias**. A los usuarios con una licencia de Power BI (gratuita) se les puede presentar la oportunidad de actualizar su cuenta a Power BI Pro durante el uso del servicio. Si especifica una dirección URL interna para **Solicitudes de licencia**, redirigirá a los usuarios a un flujo interno de solicitud y compra e impedirá la compra mediante autoservicio. Si quiere impedir que los usuarios compren licencias, pero está de acuerdo con dejar que los usuarios inicien una evaluación gratuita de Power BI Pro, consulte [Permitir que los usuarios prueben Power BI Pro](#allow-users-to-try-power-bi-pro) para separar las experiencias de compra y prueba.
 
 * **Obtener ayuda**. Para llevar a los usuarios a un departamento de soporte técnico interno desde el menú Ayuda, establezca una dirección URL personalizada al **Departamento de soporte técnico** en lugar de al [Soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
 
@@ -212,7 +212,7 @@ Para más información, consulte [Activación o desactivación del registro y la
 
 ## <a name="workspace-settings"></a>Configuración del área de trabajo
 
-En **Configuración de inquilinos** , el portal de administración tiene tres secciones para controlar las áreas de trabajo:
+En **Configuración de inquilinos**, el portal de administración tiene tres secciones para controlar las áreas de trabajo:
 
 - [Creación de las nuevas experiencias de áreas de trabajos](#create-the-new-workspaces).
 - [Uso de conjuntos de datos entre áreas de trabajo](#use-datasets-across-workspaces).
@@ -362,7 +362,7 @@ Los usuarios de la organización pueden crear suscripciones de correo electróni
 
 ### <a name="featured-content"></a>Contenido destacado
 
-Permita que algunos o todos los autores de informes de la organización presenten su contenido en la sección Destacados de Inicio de Power BI. Los nuevos usuarios verán el contenido destacado en la parte superior de su página de inicio de Power BI. El contenido destacado se desplaza hacia abajo en la página Inicio a medida que los usuarios agregan **Favoritos** , **Frecuentes** y **Recientes**. 
+Permita que algunos o todos los autores de informes de la organización presenten su contenido en la sección Destacados de Inicio de Power BI. Los nuevos usuarios verán el contenido destacado en la parte superior de su página de inicio de Power BI. El contenido destacado se desplaza hacia abajo en la página Inicio a medida que los usuarios agregan **Favoritos**, **Frecuentes** y **Recientes**. 
 
 Se recomienda empezar con un pequeño conjunto de promotores. Permitir que toda la organización destaque contenido en la página principal puede dificultar la tarea de realizar el seguimiento de todo el contenido promocionado. 
 
@@ -405,7 +405,7 @@ Los usuarios de la organización pueden usar características de búsqueda exter
 
 ## <a name="featured-tables-settings"></a>Configuración de tablas destacadas
 
-En **Configuración de inquilinos** , la opción **Permiso para conexiones a tablas destacadas** permite que los administradores de Power BI controlen qué usuarios de la organización pueden usar tablas destacadas en la galería de tipos de datos de Excel. 
+En **Configuración de inquilinos**, la opción **Permiso para conexiones a tablas destacadas** permite que los administradores de Power BI controlen qué usuarios de la organización pueden usar tablas destacadas en la galería de tipos de datos de Excel. 
 
 :::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Todas las conexiones a tablas destacadas":::
 
@@ -460,6 +460,13 @@ Los usuarios de la organización pueden etiquetar paneles con clasificaciones qu
 > [!NOTE]
 > Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
 
+### <a name="web-content-on-dashboard-tiles"></a>Contenido web en los iconos del panel
+
+Los usuarios de la organización pueden agregar y ver iconos de contenido web en los paneles de Power BI. [Más información](../create-reports/service-dashboard-add-widget.md)
+
+> [!NOTE]
+> Esto puede exponer a su organización a riesgos de seguridad con el contenido web malintencionado.
+
 ## <a name="developer-settings"></a>Configuración de desarrollador
 
 ### <a name="embed-content-in-apps"></a>Insertar contenido en aplicaciones
@@ -510,7 +517,7 @@ Controle qué usuarios de la organización pueden descargar e instalar aplicacio
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
-La pestaña **Power BI Premium** le permite administrar las funcionalidades de Power BI Premium (SKU EM o P) que se han adquirido para su organización. Todos los usuarios de su organización pueden ver la pestaña **Power BI Premium** , pero solo ven lo que contiene si están asignados como *administrador de funcionalidades* o como un usuario con permisos de asignación. Si un usuario no tiene ningún permiso, aparecerá el mensaje siguiente.
+La pestaña **Power BI Premium** le permite administrar las funcionalidades de Power BI Premium (SKU EM o P) que se han adquirido para su organización. Todos los usuarios de su organización pueden ver la pestaña **Power BI Premium**, pero solo ven lo que contiene si están asignados como *administrador de funcionalidades* o como un usuario con permisos de asignación. Si un usuario no tiene ningún permiso, aparecerá el mensaje siguiente.
 
 ![No hay acceso a la configuración de Premium](media/service-admin-portal/premium-settings-no-access.png)
 
@@ -554,9 +561,9 @@ Como administrador, puede ver las áreas de trabajo que existen en el inquilino 
 
 Los administradores también pueden controlar la capacidad de los usuarios para crear áreas de trabajo de la nueva experiencia de área de trabajo, así como áreas de trabajo clásicas. Consulte [Configuración del área de trabajo](#workspace-settings) en este artículo para más información. 
 
-Las columnas de la tabla de la pestaña **Áreas de trabajo** se corresponden con las propiedades que devuelve la [API REST de administración de Power BI](/rest/api/power-bi/admin) para las áreas de trabajo. Las áreas de trabajo personales son de tipo **PersonalGroup** , las clásicas son de tipo **Group** y las áreas de trabajo de la nueva experiencia de áreas de trabajo son de tipo **Workspace**. Para más información, consulte [Organización del trabajo en las nuevas áreas de trabajo](../collaborate-share/service-new-workspaces.md).
+Las columnas de la tabla de la pestaña **Áreas de trabajo** se corresponden con las propiedades que devuelve la [API REST de administración de Power BI](/rest/api/power-bi/admin) para las áreas de trabajo. Las áreas de trabajo personales son de tipo **PersonalGroup**, las clásicas son de tipo **Group** y las áreas de trabajo de la nueva experiencia de áreas de trabajo son de tipo **Workspace**. Para más información, consulte [Organización del trabajo en las nuevas áreas de trabajo](../collaborate-share/service-new-workspaces.md).
 
-En la pestaña **Áreas de trabajo** , verá el *estado* para cada área de trabajo. En la tabla siguiente se proporcionan más detalles sobre el significado de estos estados.
+En la pestaña **Áreas de trabajo**, verá el *estado* para cada área de trabajo. En la tabla siguiente se proporcionan más detalles sobre el significado de estos estados.
 
 |Estado  |Descripción  |
 |---------|---------|
@@ -575,11 +582,11 @@ Como administrador, puede personalizar la apariencia de Power BI para toda la o
 
 ![Opciones de personalización de marca](media/service-admin-portal/power-bi-custom-branding.png)
 
-* **Carga del logotipo** : para obtener los mejores resultados, cargue un logotipo guardado en formato .png de 10 KB o menos y de al menos 200 x 30 píxeles.
+* **Carga del logotipo**: para obtener los mejores resultados, cargue un logotipo guardado en formato .png de 10 KB o menos y de al menos 200 x 30 píxeles.
 
-* **Carga de la imagen de portada** : para obtener los mejores resultados, cargue una imagen de portada guardada en formato .jpg o .png de 1 MB o menos y de al menos 1920 x 160 píxeles.
+* **Carga de la imagen de portada**: para obtener los mejores resultados, cargue una imagen de portada guardada en formato .jpg o .png de 1 MB o menos y de al menos 1920 x 160 píxeles.
 
-* **Selección del color de tema** : puede seleccionar su tema según un número hexadecimal, RGB, valor o desde la paleta que se proporciona.
+* **Selección del color de tema**: puede seleccionar su tema según un número hexadecimal, RGB, valor o desde la paleta que se proporciona.
 
 
 Para más información, consulte [Personalización de marca de la organización](https://aka.ms/orgBranding).

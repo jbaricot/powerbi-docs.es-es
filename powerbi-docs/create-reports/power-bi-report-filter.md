@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/23/2020
+ms.date: 11/11/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 358d0575c2de3297614bfed0656d953945b2ed13
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 653ab67828c055d2846a698bf12f14eec304a2bf
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502165"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560136"
 ---
 # <a name="design-filters-in-power-bi-reports"></a>Diseño de filtros en informes de Power BI
 
@@ -75,7 +75,7 @@ Cuando se agrega un objeto visual a un lienzo de informe, Power BI agrega de for
 
 ## <a name="hide-the-filters-pane-while-editing"></a>Ocultación del panel Filtros durante la edición
 
-Power BI Desktop tiene una nueva cinta en versión preliminar. En la pestaña **Vista** , el botón de alternancia **Filtros** permite mostrar u ocultar el panel Filtros. Esta característica es útil cuando no se usa el panel Filtros y se necesita espacio adicional en la pantalla. Esta adición alinea el panel Filtros con los demás paneles que se pueden abrir y cerrar, como Marcadores y Selección. 
+Power BI Desktop tiene una nueva cinta en versión preliminar. En la pestaña **Vista**, el botón de alternancia **Filtros** permite mostrar u ocultar el panel Filtros. Esta característica es útil cuando no se usa el panel Filtros y se necesita espacio adicional en la pantalla. Esta adición alinea el panel Filtros con los demás paneles que se pueden abrir y cerrar, como Marcadores y Selección. 
 
 ![Visualización u ocultación del panel Filtros durante la edición](media/power-bi-report-filter/power-bi-filter-hide.png)
 
@@ -116,7 +116,7 @@ También puede aplicar formato a estos elementos en las tarjetas de filtro, seg�
 
 ### <a name="format-the-filters-pane-and-cards"></a>Aplicar formato al panel Filtros y las tarjetas
 
-1. En el informe, haga clic en el informe propiamente dicho o en el fondo ( *papel tapiz* ) y, en el panel **Visualizaciones** , seleccione **Formato**. 
+1. En el informe, haga clic en el informe propiamente dicho o en el fondo (*papel tapiz*) y, en el panel **Visualizaciones**, seleccione **Formato**. 
     Verá las opciones de formato de la página del informe, el papel tapiz y también el panel Filtros y las tarjetas de filtro.
 
 1. Expanda el **panel Filtros** para establecer el color del fondo, el icono y el borde izquierdo, a fin de complementar la página del informe.
@@ -234,7 +234,7 @@ Aunque esta característica de búsqueda del panel Filtros está activada de for
 
 ## <a name="restrict-changes-to-filter-type"></a>Restringir los cambios al tipo de filtro
 
-En la sección de **Experiencia de filtrado** de la configuración de **Informe** , tiene la opción de controlar si los usuarios pueden cambiar el tipo de filtro.
+En la sección de **Experiencia de filtrado** de la configuración de **Informe**, tiene la opción de controlar si los usuarios pueden cambiar el tipo de filtro.
 
 ![Restringir el cambio del tipo de filtro](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
 
@@ -242,17 +242,17 @@ En la sección de **Experiencia de filtrado** de la configuración de **Informe*
 
 De forma predeterminada, los lectores del informe pueden guardar filtros para el informe. Puede optar por no permitirles guardar los filtros.
 
-- También, en la configuración de **Informe** del cuadro de diálogo **Opciones** , en **Filtros persistentes** , seleccione **No permitir que el usuario final guarde filtros en este informe**.
+- También, en la configuración de **Informe** del cuadro de diálogo **Opciones**, en **Filtros persistentes**, seleccione **No permitir que el usuario final guarde filtros en este informe**.
 
     :::image type="content" source="media/power-bi-report-filter/power-bi-persistent-filters.png" alt-text="Captura de pantalla de la opción &quot;No permitir que el usuario final guarde filtros en este informe&quot;.":::
 
-## <a name="apply-filters-apply-button-preview"></a>Botón Aplicar filtros (versión preliminar)
+## <a name="apply-filters-button"></a>Botón Aplicar filtros
 
 Puede agregar un solo botón **Aplicar** al panel filtro, lo que permite que usted y los usuarios finales apliquen todas las modificaciones de filtro a la vez. Este botón puede ser útil si quiere aplazar la aplicación de los cambios de filtro. Solo tiene que esperar una vez, una vez que esté listo para aplicar todos los cambios de filtro en el informe o los objetos visuales.
 
 :::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="Botón Aplicar filtro":::
 
-### <a name="turn-on-apply"></a>Activación de la aplicación
+### <a name="turn-on-the-apply-button"></a>Activación del botón Aplicar
 
 Puede establecer esta característica en el nivel de informe. Sin embargo, la característica está desactivada de forma predeterminada.
 
@@ -260,12 +260,13 @@ Puede establecer esta característica en el nivel de informe. Sin embargo, la ca
 
 1. Seleccione **Agregar un único botón Aplicar al panel de filtros para aplicar los cambios a la vez**.
 
-    :::image type="content" source="media/power-bi-report-filter/turn-on-apply-filter-button.png" alt-text="Activación del botón Aplicar filtro":::
+    :::image type="content" source="media/power-bi-report-filter/apply-all-filters.png" alt-text="Activación del botón Aplicar filtro":::
 
 ### <a name="format-the-apply-button"></a>Formato del botón Aplicar
 
-Actualmente, puede controlar parte del formato del texto **Aplicar** para el botón. En la sección **Panel de filtros** del panel **Formato** , establezca estas opciones:
+Actualmente, puede controlar parte del formato del texto **Aplicar** para el botón. En la sección **Panel de filtros** del panel **Formato**, establezca estas opciones:
 
+- **Color de las casillas y el botón Aplicar** controla el color de relleno. 
 - **Fuente y color de los iconos** controla el color del texto.
 - **Tamaño del texto de encabezado** controla el tamaño del texto.
 - **Familia de fuentes** controla la fuente.

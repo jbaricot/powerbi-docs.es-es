@@ -10,18 +10,18 @@ ms.date: 09/16/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: ddd63a4f18c9994e0a89f4028bcdec96eda21600
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 8bfdcd9ba87dd6a4fa12a3750b517a09844d3d6e
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916714"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668497"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lista de características de Power BI para *consumidores* y otros usuarios con licencias gratuitas
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
-Como *usuario empresarial* , usa el servicio Power BI para explorar informes y paneles con el fin de tomar decisiones empresariales. Los *diseñadores* que tienen licencias de Power BI *Pro* crean esos informes y paneles. Los usuarios de Pro tienen la capacidad de compartir contenido con sus compañeros y de controlar lo que estos pueden y no pueden hacer con ese contenido. En ocasiones, los diseñadores comparten contenido mediante el envío de vínculos y, a veces, el contenido se instala de forma automática y aparece en Power BI, en **Aplicaciones** o **Compartido conmigo**.
+Como *usuario empresarial*, usa el servicio Power BI para explorar informes y paneles con el fin de tomar decisiones empresariales. Los *diseñadores* que tienen licencias de Power BI *Pro* crean esos informes y paneles. Los usuarios de Pro tienen la capacidad de compartir contenido con sus compañeros y de controlar lo que estos pueden y no pueden hacer con ese contenido. En ocasiones, los diseñadores comparten contenido mediante el envío de vínculos y, a veces, el contenido se instala de forma automática y aparece en Power BI, en **Aplicaciones** o **Compartido conmigo**.
 
 Los diseñadores pueden compartir contenido de muchas maneras diferentes. Pero este artículo está destinado a los *usuarios empresariales* de Power BI y, por tanto, solo se describe cómo los *usuarios empresariales* reciben el contenido e interactúan con él. Para obtener más información sobre otras formas de compartir contenido, vea [Formas de compartir el trabajo en Power BI](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md).
 
@@ -47,11 +47,11 @@ Cuando una organización tiene una suscripción a una capacidad Premium, los adm
 ### <a name="licenses"></a>Licencias 
 Cada usuario del servicio Power BI tiene una licencia gratuita o una licencia Pro. Los *usuarios empresariales* tienen licencias gratuitas.
 
-- **Licencia gratuita** : normalmente se asigna a los *usuarios empresariales* dentro de una organización (vea la primera imagen abajo). También la usa cualquiera que se suscriba al servicio Power BI como individuo y quiera probar el [servicio Power BI en modo independiente](../fundamentals/service-self-service-signup-for-power-bi.md) (vea la segunda imagen abajo). 
+- **Licencia gratuita**: normalmente se asigna a los *usuarios empresariales* dentro de una organización (vea la primera imagen abajo). También la usa cualquiera que se suscriba al servicio Power BI como individuo y quiera probar el [servicio Power BI en modo independiente](../fundamentals/service-self-service-signup-for-power-bi.md) (vea la segunda imagen abajo). 
 
     ![pantalla que muestra un usuario Premium](media/end-user-features/power-bi-free-organization.png)
 
-    A los usuarios de la licencia gratuita, ser miembro de una organización que tiene capacidad Premium les proporciona superpoderes. Mientras que los compañeros de Pro usen áreas de trabajo de capacidad Premium para compartir contenido, los usuarios de la licencia gratuita podrán verlos y colaborar con ellos.  **De esta manera, el usuario gratuito obtiene la capacidad de consumir contenido creado por otros usuarios. Junto con sus compañeros, incluidos los usuarios del nivel Pro, el usuario empresarial recibe los mismos paneles, informes y aplicaciones, los comparte y colabora en ellos con el fin de tomar decisiones empresariales.** 
+    A los usuarios de la licencia gratuita, ser miembro de una organización que tiene capacidad Premium les proporciona superpoderes. Mientras que los compañeros de Pro usen áreas de trabajo de capacidad Premium para compartir contenido, los usuarios de la licencia gratuita podrán verlos y colaborar con ellos.  De esta manera, el usuario del nivel Gratis obtiene la capacidad de consumir contenido creado por otros usuarios. Junto con sus compañeros, incluidos los usuarios del nivel Pro, el usuario del plan Gratis recibe los mismos paneles, informes y aplicaciones, los comparte y colabora en ellos con el fin de tomar decisiones empresariales. 
  
     ![pantalla en la que se muestra un usuario con una licencia gratuita](media/end-user-features/power-bi-free-user.png)
 

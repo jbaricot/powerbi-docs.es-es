@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/15/2020
-ms.openlocfilehash: 01cb4c5de2863250f083320e7005c0d589a2da0b
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.date: 10/21/2020
+ms.openlocfilehash: 9d78a4cd8beb84402a4b3b586df6998810d1c8f7
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116486"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94513008"
 ---
 # <a name="deployment-pipelines-best-practices"></a>Procedimientos recomendados para las canalizaciones de implementación
 
@@ -93,26 +93,26 @@ En esta sección se proporcionan instrucciones para trabajar con la fase de desa
 
 ### <a name="use-power-bi-desktop-to-edit-your-reports-and-datasets"></a>Uso de Power BI Desktop para editar los informes y conjuntos de datos
 
-Considere la posibilidad de Power BI Desktop como su entorno de desarrollo local. Power BI Desktop permite probar, explorar y revisar las actualizaciones de los informes y conjuntos de datos. Una vez realizado el trabajo, puede cargar la nueva versión en la fase de desarrollo. Debido a las siguientes razones, se recomienda editar los archivos .pbix en el escritorio (y no en servicio Power BI):
+Considere la posibilidad de Power BI Desktop como su entorno de desarrollo local. Power BI Desktop permite probar, explorar y revisar las actualizaciones de los informes y conjuntos de datos. Una vez realizado el trabajo, puede cargar la nueva versión en la fase de desarrollo. Debido a las siguientes razones, se recomienda editar los archivos PBIX en el escritorio, y no en el servicio Power BI:
 
-* Es más fácil colaborar con otros creadores en el mismo archivo .pbix, si todos los cambios se realizan en la misma herramienta.
+* Es más fácil colaborar con otros creadores en el mismo archivo PBIX, si todos los cambios se realizan en la misma herramienta.
 
- * Al realizar cambios en línea, descargar el archivo .pbix y, a continuación, volver a cargarlo, se crea la duplicación de los informes y los conjuntos de datos.
+ * Al realizar cambios en línea, descargar el archivo PBIX y, a continuación, volver a cargarlo, se crea la duplicación de los informes y los conjuntos de datos.
 
-* Puede usar el control de versiones para mantener actualizados los archivos .pbix.
+* Puede usar el control de versiones para mantener actualizados los archivos PBIX.
 
-### <a name="version-control-for-pbix-files"></a>Control de versiones de los archivos .pbix
+### <a name="version-control-for-pbix-files"></a>Control de versiones de los archivos PBIX
 
 Si desea administrar el historial de versiones de los informes y conjuntos de datos, use la [sincronización de Power BI con OneDrive](../collaborate-share/service-connect-to-files-in-app-workspace-onedrive-for-business.md). Esto mantendrá los archivos actualizados con la versión más reciente. También le permitirá recuperar versiones anteriores si es necesario.
 
 >[!NOTE]
->Use la sincronización automática con OneDrive (o cualquier otro repositorio) solo con los archivos .pbix en la fase de desarrollo de canalizaciones de implementación. No sincronice los archivos .pbix en las fases de prueba y producción de las canalizaciones de implementación. Esto causará problemas con la implementación de contenido en toda la canalización.
+>Use la sincronización automática con OneDrive o cualquier otro repositorio solo con los archivos PBIX en la fase de desarrollo de canalizaciones de implementación. No sincronice los archivos PBIX en las fases de prueba y producción de las canalizaciones de implementación. Esto causará problemas con la implementación de contenido en toda la canalización.
 
 ### <a name="separate-modeling-development-from-report-and-dashboard-development"></a>Separación del desarrollo de modelos del desarrollo de informes y paneles
 
 En el caso de las implementaciones a escala empresarial, se recomienda separar el desarrollo de conjuntos de datos y el desarrollo de informes y paneles. Para promover los cambios a un solo informe o un conjunto de datos, use la opción de implementación selectiva de canalizaciones de implementación.  
 
-Este enfoque debe comenzar desde Power BI Desktop, mediante la creación de un archivo .pbix independiente para los conjuntos de datos e informes. Por ejemplo, puede crear un archivo .pbix del conjunto de datos y cargarlo en la fase de desarrollo. Más adelante, los autores de informes pueden crear un nuevo archivo .pbix solo para el informe y [conectarlo al conjunto de datos publicado](../connect-data/service-datasets-discover-across-workspaces.md) mediante una conexión dinámica. Esta técnica permite que distintos creadores trabajen por separado en el modelado y las visualizaciones, y los implementen en producción de forma independiente.
+Este enfoque debe comenzar desde Power BI Desktop, mediante la creación de un archivo PBIX independiente para los conjuntos de datos e informes. Por ejemplo, puede crear un archivo PBIX del conjunto de datos y cargarlo en la fase de desarrollo. Más adelante, los autores de informes pueden crear un archivo PBIX solo para el informe y [conectarlo al conjunto de datos publicado](../connect-data/service-datasets-discover-across-workspaces.md) mediante una conexión dinámica. Esta técnica permite que distintos creadores trabajen por separado en el modelado y las visualizaciones, y los implementen en producción de forma independiente.
 
 Con los [conjuntos de datos compartidos](../connect-data/service-datasets-share.md), también puede usar este método en áreas de trabajo.
 
@@ -195,7 +195,7 @@ La implementación en una canalización actualiza el contenido del área de trab
 
 ### <a name="quick-fixes-to-content"></a>Correcciones rápidas del contenido
 
-En caso de que haya errores en la producción que requieran una solución rápida, no se sienta tentado a cargar una nueva versión de .pbix directamente a la etapa de producción, o a hacer un cambio en línea en el servicio de Power BI. No es posible volver a fases anteriores de desarrollo y pruebas cuando ya hay contenido en esas fases. Además, la implementación de una corrección sin probarla primero es una práctica incorrecta. Por lo tanto, la manera correcta de tratar este problema es implementar la corrección en la fase de desarrollo e insertarla en el resto de las fases de canalización de implementación. Esto permite comprobar que la corrección funciona, antes de implementarla en producción. La implementación a través de la canalización y solo tarda unos minutos.
+En caso de que haya errores en producción que requieran una solución rápida, no se sienta tentado a cargar una nueva versión de PBIX directamente en la etapa de producción, o a hacer un cambio en línea en el servicio Power BI. No es posible volver a fases anteriores de desarrollo y pruebas cuando ya hay contenido en esas fases. Además, la implementación de una corrección sin probarla primero es una práctica incorrecta. Por lo tanto, la manera correcta de tratar este problema es implementar la corrección en la fase de desarrollo e insertarla en el resto de las fases de canalización de implementación. Esto permite comprobar que la corrección funciona, antes de implementarla en producción. La implementación en toda la canalización solo tarda unos minutos.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

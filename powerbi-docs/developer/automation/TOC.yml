@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: Introducción
+    - name: Información general
       expanded: true
       items:
         - name: "¿Qué puedo hacer con la API de Power\_BI?"
@@ -20,6 +20,8 @@
           href: walkthrough-push-data-get-datasets.md
         - name: Agregar filas a una tabla
           href: walkthrough-push-data-add-rows.md
+        - name: Automatización de la configuración de aplicaciones de plantilla
+          href: ../template-apps/template-apps-auto-install-tutorial.md
     - name: Conceptos
       items:
         - name: Directiva de retención automática para datos en tiempo real
@@ -32,10 +34,14 @@
               href: api-dataset-properties.md
             - name: Control de versiones de modelos de datos
               href: api-data-model-versioning.md
+        - name: Configuración automatizada de aplicaciones de plantilla
+          href: ../template-apps/template-apps-auto-install.md
     - name: Procedimientos
       items:
         - name: Configuración de credenciales
           href: configure-credentials.md
+        - name: Automatización de la configuración de aplicaciones de plantilla
+          href: ../template-apps/template-apps-auto-install.md
     - name: Referencia
       items:
         - name: API de REST

@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/15/2020
-ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.date: 11/11/2020
+ms.openlocfilehash: 141364664b6608b252fc2be8620226ae8d9ce39b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916829"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668635"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Solución de problemas de las canalizaciones de implementación
 
@@ -20,7 +20,7 @@ Use este artículo para solucionar los problemas de las canalizaciones de implem
 
 ## <a name="general"></a>General
 
-### <a name="whats-deployment-pipelines-in-power-bi"></a>Qué son las canalizaciones de implementación de Power BI
+### <a name="whats-deployment-pipelines-in-power-bi"></a>¿Qué son las canalizaciones de implementación de Power BI?
 
 Para comprender qué son las canalizaciones de implementación de Power BI, consulte la [información general sobre las canalizaciones de implementación](deployment-pipelines-overview.md).
 
@@ -32,13 +32,13 @@ Para comenzar a usarlas, siga las [instrucciones de inicio](deployment-pipelines
 
 A no ser que se cumplan las siguientes condiciones, no podrá ver el botón de canalizaciones de implementación.
 
-* Es un usuario de Power BI [Pro](../admin/service-admin-purchasing-power-bi-pro.md)
+* Tiene una de las siguientes licencias Premium:
 
-* Pertenece a una organización que tiene capacidad Premium.
+    * Es un usuario de Power BI [Pro](../admin/service-admin-purchasing-power-bi-pro.md) y pertenece a una organización que tiene capacidad Premium.
 
-* A un área de trabajo solo se le puede asignar una canalización.
+    * [Premium por usuario (PPU)](../admin/service-premium-per-user-faq.md).
 
-* Es un administrador de una nueva área de trabajo.
+* Es un administrador de una [nueva experiencia de áreas de trabajo](../collaborate-share/service-create-the-new-workspaces.md).
 
 ### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>¿Por qué no veo la etiqueta de fase de canalización en mi área de trabajo?
 
@@ -51,15 +51,24 @@ Las canalizaciones de implementación muestran una etiqueta de fase de canalizac
 
 ### <a name="what-licenses-are-needed-to-work-with-deployment-pipelines"></a>¿Qué licencias se necesitan para trabajar con canalizaciones de implementación?
 
-Para usar canalizaciones de implementación, debe ser un [usuario Pro](../admin/service-admin-purchasing-power-bi-pro.md) con [capacidad Premium](../admin/service-premium-what-is.md). Para más información, consulte [Acceso a las canalizaciones de implementación](deployment-pipelines-get-started.md#accessing-deployment-pipelines).
+Para usar canalizaciones de implementación, debe tener una de las licencias siguientes:
+
+* Una licencia de [usuario Pro](../admin/service-admin-purchasing-power-bi-pro.md), con un área de trabajo que resida en una [capacidad Premium](../admin/service-premium-what-is.md).
+
+* [Premium por usuario (PPU)](../admin/service-premium-per-user-faq.md).
+
+Para más información, consulte [Acceso a las canalizaciones de implementación](deployment-pipelines-get-started.md#accessing-deployment-pipelines).
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>¿Qué tipo de capacidad puedo asignar a un área de trabajo en una canalización?
 
 Todas las áreas de trabajo de una canalización de implementación deben residir en una capacidad para que la canalización sea funcional. Sin embargo, puede usar diferentes capacidades para diferentes áreas de trabajo de una canalización. También puede usar diferentes tipos de capacidad para diferentes áreas de trabajo de la misma canalización.
 
-Con fines de desarrollo y prueba, puede usar una capacidad A o EM junto con una cuenta de Power BI Pro para cada usuario.
+Con fines de desarrollo y prueba, puede usar una capacidad A o EM junto con una cuenta de Power BI Pro para cada usuario. También puede usar un PPU para cada usuario en las fases de desarrollo y pruebas.
 
-Para las áreas de trabajo de producción, necesitará una capacidad P. Si es un ISV que distribuye contenido a través de aplicaciones insertadas, también puede usar capacidades A o EM para producción.
+Para las áreas de trabajo de producción, necesitará una capacidad P. Si es un ISV que distribuye contenido a través de aplicaciones insertadas, también puede usar capacidades A o EM para producción. Las licencias PPU también se pueden usar para áreas de trabajo de producción.
+
+>[!NOTE]
+>Al crear un área de trabajo con una licencia PPU, solo otros usuarios con PPU podrán acceder a ella y utilizar su contenido.
 
 ## <a name="technical"></a>Preguntas técnicas
 
@@ -87,7 +96,7 @@ Es posible que la primera implementación no saliera bien por varias razones. En
 
 |Error  |Acción  |
 |---------|---------|
-|No tiene [permisos de capacidad Premium](deployment-pipelines-process.md#creating-a-premium-capacity-workspace).     |Para obtener permisos de capacidad Premium, pida a un administrador de capacidades que agregue el área de trabajo a una capacidad o solicite permisos de asignación de la capacidad. Una vez que el área de trabajo esté en una capacidad, vuelva a implementarla.        |
+|No tiene [permisos de capacidad Premium](deployment-pipelines-process.md#creating-a-premium-capacity-workspace).     |Si trabaja en una organización que dispone de una capacidad Premium, pida a un administrador de capacidades que agregue el área de trabajo a una capacidad o solicite permisos de asignación de la capacidad. Una vez que el área de trabajo esté en una capacidad, vuelva a implementarla.</br></br>Si no trabaja en una organización con capacidad Premium, considere la posibilidad de adquirir [Premium por usuario (PPU)](../admin/service-premium-per-user-faq.md).        |
 |No tiene permisos de área de trabajo.     |Para implementarla, debe ser miembro del área de trabajo. Pida al administrador del área de trabajo que le conceda los permisos adecuados.         |
 |El administrador de Power BI ha deshabilitado la creación de áreas de trabajo.     |Póngase en contacto con el administrador de Power BI para que le ayude.         |
 |El área de trabajo no es una [nueva experiencia de área de trabajo](../collaborate-share/service-create-the-new-workspaces.md).     |Cree el contenido en la nueva experiencia de área de trabajo. Si tiene contenido en un área de trabajo clásica, puede [actualizarlo](../collaborate-share/service-upgrade-workspaces.md) a una nueva experiencia de área de trabajo.         |
@@ -152,11 +161,11 @@ El modelo de permisos de canalizaciones de implementación se describe en la sec
 
 El contenido se puede implementar en una fase vacía o en una fase con contenido. El contenido debe residir en una [capacidad Premium](../admin/service-premium-what-is.md).
 
-* **Implementación en una fase vacía** : cualquier [usuario Pro](../admin/service-admin-purchasing-power-bi-pro.md) que sea miembro o administrador en el área de trabajo de origen.
+* **Implementación en una fase vacía**: cualquier usuario [Pro](../admin/service-admin-purchasing-power-bi-pro.md) o [PPU](../admin/service-premium-per-user-faq.md) que sea miembro o administrador del área de trabajo de origen.
 
-* **Implementación en una fase con contenido** : cualquier [usuario Pro](../admin/service-admin-purchasing-power-bi-pro.md) que sea miembro o administrador de ambas áreas de trabajo en las fases de implementación de origen y destino.
+* **Implementación en una fase con contenido**: cualquier usuario [Pro](../admin/service-admin-purchasing-power-bi-pro.md) o [PPU](../admin/service-premium-per-user-faq.md) que sea miembro o administrador de ambas áreas de trabajo en las fases de implementación de origen y destino.
 
-* **Invalidación de un conjunto de datos** : la implementación invalida cada conjunto de datos que se incluye en la fase de destino, aunque no se haya cambiado. El usuario debe ser propietario de todos los conjuntos de datos de la fase de destino especificados en la implementación.
+* **Invalidación de un conjunto de datos**: la implementación invalida cada conjunto de datos que se incluye en la fase de destino, aunque no se haya cambiado. El usuario debe ser propietario de todos los conjuntos de datos de la fase de destino especificados en la implementación.
 
 ### <a name="which-permissions-do-i-need-to-configure-dataset-rules"></a>¿Qué permisos son necesarios para configurar reglas de conjunto de datos?
 

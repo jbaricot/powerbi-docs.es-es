@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
 ms.author: painbar
-ms.openlocfilehash: 22f70e393987552276cc19b90c8b360b1a1a1d80
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 8e9205ca12efebbfa5c0338e2f501e59aed779e8
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049228"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718624"
 ---
 # <a name="power-bi-for-hololens-2-preview"></a>Power BI para HoloLens 2 (versión preliminar)
 La aplicación Power BI para HoloLens 2 combina los informes y paneles de Power BI con su entorno físico para crear una experiencia 3D, envolvente y manos libres en la que puede desplazarse por el mundo físico y obtener los datos pertinentes cuando y donde los necesite.
@@ -24,11 +24,13 @@ La aplicación Power BI para HoloLens 2 combina los informes y paneles de Power
 
 La aplicación Power BI para HoloLens 2 está disponible en [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=526478).
 
+La aplicación funciona con el inicio de sesión único, lo que significa que la aplicación usa la identidad del usuario que ha iniciado sesión actualmente en el dispositivo HoloLens 2 para autenticarse en el servicio Power BI.
+
 [Obtenga más información](/hololens/holographic-store-apps) sobre la instalación de aplicaciones en el dispositivo HoloLens 2.
 
 ## <a name="open-the-power-bi-app-on-your-hololens-2"></a>Apertura de la aplicación Power BI en su HoloLens 2
 
-Abra el menú **Inicio** y seleccione la aplicación Power BI. La aplicación se abre con todos los informes y paneles favoritos cargados en el conjunto de herramientas virtual, donde puede seleccionarlos para verlos.
+Abra el menú **Inicio** y seleccione la aplicación Power BI. La aplicación se abrirá con todos los informes y paneles favoritos cargados en el conjunto de herramientas virtual, donde puede seleccionarlos para verlos.
 
 ## <a name="using-the-power-bi-app-for-hololens-2"></a>Uso de la aplicación Power BI para HoloLens 2
 

@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 11/17/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 8768801f2d704644c888a14caf9b930dcd27f8fa
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 183885336f6f76304ba051599efa48d81111264a
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501981"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718969"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
@@ -54,22 +54,22 @@ La suscripción a informes paginados varía un poco. Para obtener más informaci
 
 1. Use el control deslizante amarillo para activar y desactivar la suscripción. Establecer el control deslizante en **Desactivado** no elimina la suscripción. Para eliminarla, seleccione el icono de papelera.
 
-2. El correo electrónico ya está en la bandeja **Suscribirse** . También puede agregar otras direcciones de correo electrónico en el mismo dominio a la suscripción. Si el informe o el panel está hospedado en una [capacidad Premium](../admin/service-premium-what-is.md), puede suscribir otras direcciones de correo electrónico y alias de grupo individuales, con independencia de que estén en el dominio. Si el informe o el panel no está hospedado en una capacidad Premium, puede suscribir a otros usuarios, pero también deben tener licencias de Power BI Pro. Para obtener más detalles, vea [Consideraciones y solución de problemas](#considerations-and-troubleshooting).
+2. El correo electrónico ya está en la bandeja **Suscribirse**. También puede agregar otras direcciones de correo electrónico en el mismo dominio a la suscripción. Si el informe o el panel está hospedado en una [capacidad Premium](../admin/service-premium-what-is.md), puede suscribir otras direcciones de correo electrónico y alias de grupo individuales, con independencia de que estén en el dominio. Si el informe o el panel no está hospedado en una capacidad Premium, puede suscribir a otros usuarios, pero también deben tener licencias de Power BI Pro. Para obtener más detalles, vea [Consideraciones y solución de problemas](#considerations-and-troubleshooting).
 
-3. Rellene el **Asunto** del correo electrónico y los detalles del **Mensaje** .
+3. Rellene el **Asunto** del correo electrónico y los detalles del **Mensaje**.
 
-4. Seleccione una **Frecuencia** para la suscripción:  **Diaria** , **Horaria** , **Semanal** , **Mensual** o **Tras la actualización de los datos (una vez al día)** . Para recibir el correo electrónico de la suscripción solo en días específicos, seleccione **Horaria** o **Semanal** , y elija los días en que quiera recibirla. Por ejemplo, si quiere recibir el correo de suscripción solo los días laborables, seleccione **Semanal** y desactive las casillas de **Sáb.** y **Dom.** . Si selecciona **Mensual** , escriba los días del mes en los que quiere recibir el correo de suscripción.
+4. Seleccione una **Frecuencia** para la suscripción:  **Diaria**, **Horaria**, **Semanal**, **Mensual** o **Tras la actualización de los datos (una vez al día)** . Para recibir el correo electrónico de la suscripción solo en días específicos, seleccione **Horaria** o **Semanal**, y elija los días en que quiera recibirla. Por ejemplo, si quiere recibir el correo de suscripción solo los días laborables, seleccione **Semanal** y desactive las casillas de **Sáb.** y **Dom.** . Si selecciona **Mensual**, escriba los días del mes en los que quiere recibir el correo de suscripción.
 
-5. Si elige **Diaria** , **Horaria** , **Mensual** o **Semanal** , también puede elegir una **Hora programada** para la suscripción. Puede hacer que se ejecute a la hora, o bien pasados 15, 30 o 45 minutos. Seleccione por la mañana (a. m.) o por la tarde/noche (p. m.). También puede especificar la zona horaria. Si elige **Horaria** , seleccione la **Hora programada** a la que quiera que se inicie la suscripción, y se ejecutará cada hora a partir de entonces.
+5. Si elige **Diaria**, **Horaria**, **Mensual** o **Semanal**, también puede elegir una **Hora programada** para la suscripción. Puede hacer que se ejecute a la hora, o bien pasados 15, 30 o 45 minutos. Seleccione por la mañana (a. m.) o por la tarde/noche (p. m.). También puede especificar la zona horaria. Si elige **Horaria**, seleccione la **Hora programada** a la que quiera que se inicie la suscripción, y se ejecutará cada hora a partir de entonces.
 
 6. De forma predeterminada, la fecha de inicio para la suscripción es la fecha en la que la ha creado. Tiene la opción de seleccionar una fecha de finalización. Si no establece una fecha de finalización, automáticamente será un año después de la fecha de inicio. Puede cambiarla a cualquier fecha en el futuro (hasta el año 9999) en cualquier momento antes de que finalice la suscripción. Cuando una suscripción alcanza una fecha de finalización, se detiene hasta que vuelva a habilitarla. Recibirá notificaciones antes de la fecha de finalización programada para preguntarle si quiere ampliarla.
 
-    En la captura de pantalla siguiente, tenga en cuenta que, cuando se suscribe a un informe, realmente se está suscribiendo a una de sus _páginas_ . Para suscribirse a más de una página de un informe, seleccione **Agregar otra suscripción** y luego otra página.
+    En la captura de pantalla siguiente, tenga en cuenta que, cuando se suscribe a un informe, realmente se está suscribiendo a una de sus _páginas_. Para suscribirse a más de una página de un informe, seleccione **Agregar otra suscripción** y luego otra página.
      
     ![Panel de suscripción](media/service-report-subscribe/power-bi-subscribe-pane.png)  
 
 1. (Opcional) Seleccione si quiere incluir un vínculo de vuelta al contenido en Power BI y si quiere proporcionar a los usuarios acceso al contenido al que les suscribe.  Si decide incluir un vínculo, para obtener la mejor experiencia, asegúrese de que todos los usuarios tengan acceso al informe.
-2. Seleccione **Guardar y cerrar** . Los que se hayan suscrito reciben un correo electrónico y una instantánea de la página de panel o informe para la frecuencia y la hora que se hayan seleccionado. En total, puede crear hasta 24 suscripciones por informe o panel, y pueden proporcionar destinatarios, horas y frecuencias únicos para cada suscripción. Todas las suscripciones establecidas en **Tras la actualización de los datos** para el informe o panel solo enviarán un correo electrónico después de la primera actualización programada.
+2. Seleccione **Guardar y cerrar**. Los que se hayan suscrito reciben un correo electrónico y una instantánea de la página de panel o informe para la frecuencia y la hora que se hayan seleccionado. En total, puede crear hasta 24 suscripciones por informe o panel, y pueden proporcionar destinatarios, horas y frecuencias únicos para cada suscripción. Todas las suscripciones establecidas en **Tras la actualización de los datos** para el informe o panel solo enviarán un correo electrónico después de la primera actualización programada.
 
     > [!NOTE]
     > Si modifica la suscripción después de guardarla y cerrarla, se habilita la selección para ofrecer acceso a los usuarios al contenido al que se va a suscribir, con independencia de las selecciones anteriores.
@@ -81,7 +81,7 @@ La suscripción a informes paginados varía un poco. Para obtener más informaci
 
 ## <a name="manage-your-subscriptions"></a>Administrar sus suscripciones
 
-Solo la persona que haya creado la suscripción podrá administrarla. Hay dos rutas de acceso a la pantalla en la que se administran las suscripciones. La primera es seleccionar **Administrar todas las suscripciones** en el cuadro de diálogo **Subscribirse a correos electrónicos** (vea el paso 4 anterior). La segunda es seleccionar el icono de engranaje ![icono de engranaje](media/service-report-subscribe/power-bi-settings-icon.png) de Power BI en la barra de menús superior y elegir **Configuración** .
+Solo la persona que haya creado la suscripción podrá administrarla. Hay dos rutas de acceso a la pantalla en la que se administran las suscripciones. La primera es seleccionar **Administrar todas las suscripciones** en el cuadro de diálogo **Subscribirse a correos electrónicos** (vea el paso 4 anterior). La segunda es seleccionar el icono de engranaje ![icono de engranaje](media/service-report-subscribe/power-bi-settings-icon.png) de Power BI en la barra de menús superior y elegir **Configuración**.
 
 ![Selección de Configuración](media/service-report-subscribe/power-bi-subscribe-settings.png)
 
@@ -122,6 +122,7 @@ Los administradores de Power BI pueden usar los registros de auditoría de Powe
 - Las suscripciones no admiten marcadores actualmente.
 - La opción de proporcionar acceso al informe o panel siempre aparece como habilitada al editar una suscripción existente.  Si desactiva esta opción y guarda la suscripción, se guardará ese estado. Pero al volver a editar el informe, se activará de forma predeterminada.
 - Si tiene una dirección de correo electrónico alternativa pero no una principal, Power BI la usará para entregar la suscripción.
+- Si suscribe usuarios externos a un informe o panel, estos recibirán una notificación de uso compartido inmediatamente después de seleccionar **Guardar y cerrar** en el panel de suscripción. Esta notificación se envía solo a usuarios externos, no a usuarios internos, ya que estos necesitan un vínculo de invitación para ver el informe o el panel. 
 
 ### <a name="dashboards"></a>Paneles
 

@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: Introducción
+    - name: Información general
       expanded: true
       items:
         - name: Qué es la inserción con Power BI
@@ -44,10 +44,10 @@
           href: embedded-faq.md
     - name: Procedimientos
       items:
-        - name: Inserción mediante una entidad de servicio con certificado
-          href: embed-service-principal-certificate.md
-        - name: Inserción mediante una entidad de servicio con secreto de la aplicación
+        - name: Inserción mediante una entidad de servicio
           href: embed-service-principal.md
+        - name: Inserción mediante una entidad de servicio y un certificado
+          href: embed-service-principal-certificate.md
         - name: Insertar contenido desde una aplicación
           href: embed-from-apps.md
         - name: Exportar informe a archivo
@@ -92,7 +92,7 @@
           items:
             - name: API REST de administración de recursos de Azure
               href: /rest/api/power-bi-embedded/
-            - name: API REST de Power BI
+            - name: API de REST de Power BI
               href: /rest/api/power-bi/
         - name: "Bibliotecas de Power\_BI"
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'

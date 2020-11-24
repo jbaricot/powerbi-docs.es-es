@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/20/2020
+ms.date: 11/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 5100a2a693bbabacd5659c6e805031339d188555
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483682"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668129"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Solución de problemas de conectividad de los puntos de conexión XMLA
 
@@ -139,6 +139,36 @@ Al desencadenar una actualización programada o una actualización a petición e
 ### <a name="overrides-in-refresh-tmsl-command"></a>Invalidaciones en el comando Refresh de TMSL
 
 Las invalidaciones en el [comando Refresh (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) permiten a los usuarios elegir otra definición de consulta de partición o de origen de datos para la operación de actualización. Actualmente, en Power BI Premium **no se admiten las invalidaciones**. Se devuelve un error que indica que el enlace fuera de línea no se permite en Power BI Premium. Para obtener más información, vea "Compatibilidad con la lectura y escritura de XMLA" en la documentación del producto" .
+
+## <a name="errors-in-ssms---premium-gen-2"></a>Errores en SSMS: Premium Gen2
+
+### <a name="query-execution"></a>Ejecución de consultas
+
+Cuando se conecta a un área de trabajo en una capacidad [Premium Gen2](service-premium-what-is.md#power-bi-premium-generation-2-preview), SQL Server Management Studio puede mostrar el siguiente error:
+
+```
+Executing the query ...
+Error -1052311437:
+```
+
+Esto se debe a que las bibliotecas cliente instaladas con SSMS v18.7.1 no admiten el seguimiento de la sesión. Esto se resolverá en una próxima versión de SSMS.
+
+### <a name="refresh-operations"></a>Operaciones de actualización
+
+Cuando se usa SSMS v18.7.1 o una versión anterior para realizar una operación de actualización de larga duración (> 1 min) de un conjunto de datos en una capacidad Premium Gen2, SSMS puede mostrar un error similar al siguiente aunque la operación de actualización se realice correctamente:
+
+```
+Executing the query ...
+Error -1052311437:
+The remote server returned an error: (400) Bad Request.
+
+Technical Details:
+RootActivityId: 3716c0f7-3d01-4595-8061-e6b2bd9f3428
+Date (UTC): 11/13/2020 7:57:16 PM
+Run complete
+```
+
+Esto se debe a un problema conocido en las bibliotecas cliente en el que se realiza un seguimiento incorrecto del estado de la solicitud de actualización. Esto se resolverá en una próxima versión de SSMS.
 
 ## <a name="see-also"></a>Vea también
 

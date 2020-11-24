@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 11/17/2020
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3f3dd39953ad382ab934bf87021123b949733fd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb61f752891205a0e8997592d522efb2022a562b
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237052"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719038"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Administrar el origen de datos: importación o actualización programada
 
@@ -62,12 +62,11 @@ Si aparece en la pestaña **Usuarios** del origen de datos configurado dentro de
 
 ![Representación de los usuarios](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
 
+> [!IMPORTANT]
+> Después de volver a publicar, el propietario del conjunto de datos debe volver a asociar el conjunto de datos a una puerta de enlace y al origen de datos correspondiente. La asociación anterior no se mantiene al volver a publicar. 
+
 > [!WARNING]
 > Si el conjunto de datos contiene varios orígenes de datos, deberá agregar cada uno de los orígenes de datos dentro de la puerta de enlace. Si no se agregan uno o varios orígenes de datos a la puerta de enlace, no la verá como disponible para la actualización programada.
-
-## <a name="limitations"></a>Limitaciones
-
-OAuth no es un esquema de autenticación compatible con la puerta de enlace de datos local. No puede agregar orígenes de datos que requieran OAuth. Si el conjunto de datos tiene un origen de datos que requiere OAuth, no puede usar la puerta de enlace para la actualización programada.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
