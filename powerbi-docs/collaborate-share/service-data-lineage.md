@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: d08ddeddc0a0feee82b02549db819a901f944c2d
-ms.sourcegitcommit: 1b79577006a2f6583a0a249f1920ae1e2b6b0ace
+ms.openlocfilehash: 76dd059d59daed5916e9d28692ef018dd7465749
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94529037"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946987"
 ---
 # <a name="data-lineage"></a>Linaje de datos
 En los proyectos de inteligencia empresarial (BI) modernos, comprender el flujo de datos desde el origen de datos hasta su destino puede ser un desafío. El desafío es incluso mayor si se han creado proyectos analíticos avanzados que abarcan varios orígenes de datos, artefactos y dependencias. Preguntas como "¿Qué ocurre si cambio estos datos?" o bien, "¿Por qué no se ha actualizado este informe?" pueden ser difíciles de responder. Es posible que para entenderlas se necesite un equipo de expertos o una investigación en profundidad. Para ayudarle a responder a estas preguntas se ha diseñado una vista de linaje.
@@ -24,6 +24,10 @@ En los proyectos de inteligencia empresarial (BI) modernos, comprender el flujo 
 Power BI tiene varios tipos de artefactos, como paneles, informes, conjuntos de datos y flujos de datos. Muchos conjuntos y flujos de datos se conectan a orígenes de datos externos, como SQL Server, y a conjuntos de datos externos en otras áreas de trabajo. Cuando un conjunto de datos es externo a un área de trabajo de su propiedad, puede estar en un área de trabajo que pertenezca a un miembro del departamento de TI o a otro analista. Los orígenes de datos y los conjuntos de datos externos hacen que sea más difícil saber de dónde proceden los datos, en última instancia. Para los proyectos complejos y los más sencillos, se presenta la vista de linaje.
 
 En la vista de linaje, puede ver las relaciones de linaje entre todos los artefactos de un área de trabajo y todas sus dependencias externas. Muestra las conexiones entre todos los artefactos del área de trabajo, incluidas las conexiones a los flujos de datos de entrada, tanto ascendentes como descendentes.    
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rUj06dqB98g" frameborder="0" allowfullscreen></iframe>
+
+
 
 > [!VIDEO https://youtu.be/rUj06dqB98g]
 

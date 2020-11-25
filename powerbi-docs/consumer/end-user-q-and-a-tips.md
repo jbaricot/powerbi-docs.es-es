@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/23/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9a8486a24ab7daa23e35f762c6830e400392963f
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: a4ef051f4e4a24901599036c80a52bf200348df1
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375290"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893692"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Sugerencias para hacer preguntas con Preguntas y respuestas de Power BI
 
@@ -30,7 +30,7 @@ La siguiente lista usa el tiempo verbal presente, pero se reconocen todos los ti
 >  
 
 
-|Categoría  |Palabras clave  |Columna3  |
+|Categoría  |Palabras clave  |
 |---------|---------|---------|
 |**Agregados**     | total, suma, cantidad, número, recuento, promedio, máximo, mínimo, menor, más grande, más pequeño, más alto, mayor, máximo, máx., mayor, menor, más pequeño, mínimo, mín          |
 |     |         |         

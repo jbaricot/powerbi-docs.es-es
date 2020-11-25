@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 054d7a4f96c83b97fbd5e96e7a3cf66d58a74823
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 602c13964e5364f9d21ec4e761fd42ea8d3e85f7
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635939"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514134"
 ---
 # <a name="add-drill-down-support"></a>Adición de compatibilidad con exploración en profundidad
 
@@ -248,6 +248,11 @@ Para crear un menú contextual, guarde el objeto `host` en las propiedades del o
 import "core-js/stable";
 import "./../style/visual.less";
 // imports
+
+import powerbiVisualsApi from "powerbi-visuals-api";
+import ISelectionManager = powerbiVisualsApi.extensibility.ISelectionManager;
+import ISelectionId = powerbiVisualsApi.visuals.ISelectionId;
+import ISelectionIdBuilder = powerbiVisualsApi.visuals.ISelectionIdBuilder;
 
 export class Visual implements IVisual {
     // visual properties
