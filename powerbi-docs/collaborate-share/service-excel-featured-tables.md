@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/04/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 099e3aa11662232c5362895e93f0433620ce2ba9
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 42d7cae62084cf2cfbf6f10e49489d35e4557c85
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768897"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947056"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>Acceso a tablas destacadas de Power BI en Excel (versión preliminar)
 
@@ -132,7 +132,7 @@ Si un conjunto de datos de Power BI tiene una seguridad de nivel de fila o una 
 
 ## <a name="administrative-control"></a>Control administrativo
 
-Los administradores de Power BI pueden controlar qué usuarios de la organización pueden usar las tablas destacadas en la galería de tipos de datos de Excel. Para más información, consulte [Configuración de tablas destacadas](../admin/service-admin-portal.md#featured-tables-settings) en el artículo del portal de administración. 
+Los administradores de Power BI pueden controlar qué usuarios de la organización pueden usar las tablas destacadas en la galería de tipos de datos de Excel. Vea [Permiso para conexiones a tablas destacadas](../admin/service-admin-portal.md#allow-connections-to-featured-tables) en el portal de administración para obtener más información. 
  
 ### <a name="auditing"></a>Auditoría
 
