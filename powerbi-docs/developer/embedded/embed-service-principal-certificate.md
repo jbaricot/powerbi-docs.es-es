@@ -3,29 +3,22 @@ title: Inserción de contenido de Power BI con entidades de servicio y un certi
 description: Obtenga información sobre cómo autenticarse en análisis insertados mediante una entidad de servicio de aplicación Azure Active Directory y un certificado.
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: nishalit
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 10/15/2020
-ms.openlocfilehash: 3d25fe925b98dbdd74d61fd70320bd4275db35e3
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.date: 11/23/2020
+ms.openlocfilehash: 990e3787927cb483b37d7bc456a46201876fcbed
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197780"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514433"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Inserción de contenido de Power BI con entidades de servicio y un certificado
 
-[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
-
->[!NOTE]
->Se recomienda proteger los servicios de back-end mediante certificados, en lugar de claves secretas. [Obtenga más información sobre cómo obtener tokens de acceso de Azure AD mediante claves secretas o certificados](/azure/architecture/multitenant-identity/client-assertion).
-
-## <a name="certificate-based-authentication"></a>Autenticación basada en certificados
-
-La autenticación basada en certificados le permite autenticarse mediante Azure Active Directory (Azure AD) con un certificado de cliente en un dispositivo Windows, Android o iOS, o bien mantenido en una instancia de [Azure Key Vault](/azure/key-vault/basic-concepts).
+La autenticación basada en certificados le permite autenticarse mediante Azure Active Directory (Azure AD) con un certificado de cliente en un dispositivo Windows, Android o iOS, o bien mantenido en una instancia de [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts).
 
 Este método de autenticación permite administrar certificados desde una ubicación central, mediante la entidad de certificación, para la rotación o la revocación.
 
@@ -33,50 +26,24 @@ Puede obtener más información sobre los certificados en Azure AD en la págin
 
 ## <a name="method"></a>Método
 
-Para usar la entidad de servicio y un certificado con análisis insertados, siga estos pasos:
+1. [Inserción del contenido con la entidad de servicio](embed-service-principal.md).
 
-1. Cree una aplicación de Azure AD.
+2. [Creación de un certificado](embed-service-principal-certificate.md#step-2---create-a-certificate).
 
-2. Cree de un grupo de seguridad de Azure AD.
+3. [Configuración de la autenticación de certificado](embed-service-principal-certificate.md#step-3---set-up-certificate-authentication).
 
-3. Habilite la configuración de administración del servicio Power BI.
+4. [Obtención del certificado de Azure Key Vault](embed-service-principal-certificate.md#step-4---get-the-certificate-from-azure-key-vault).
 
-4. Agregue la entidad de servicio a su área de trabajo.
+5. [Autenticación mediante la entidad de servicio y el certificado](embed-service-principal-certificate.md#step-5---authenticate-using-service-principal-and-a-certificate).
 
-5. Cree un certificado.
+## <a name="step-1---embed-your-content-with-service-principal"></a>Paso 1: Inserción del contenido con la entidad de servicio
 
-6. Establezca la autenticación de certificado.
+Para insertar el contenido con la entidad de servicio, siga las instrucciones de [Inserción de contenido de Power BI con entidades de servicio y un secreto de aplicación](embed-service-principal.md).
 
-7. Obtenga el certificado de Azure Key Vault.
+>[!NOTE]
+>Si ya tiene contenido insertado mediante una entidad de servicio, omita este paso y continúe con el [paso 2](embed-service-principal-certificate.md#step-2---create-a-certificate).
 
-8. Realice la autenticación mediante la entidad de servicio y el certificado.
-
-## <a name="step-1---create-an-azure-ad-application"></a>Paso 1: Creación de una aplicación de Azure AD
-
-[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
-
-### <a name="creating-an-azure-ad-app-using-powershell"></a>Creación de una aplicación de Azure AD con PowerShell
-
-En esta sección se incluye un script de ejemplo para crear una nueva aplicación de Azure AD con [PowerShell](/powershell/azure/create-azure-service-principal-azureps).
-
-```powershell
-# The app ID - $app.appid
-# The service principal object ID - $sp.objectId
-# The app key - $key.value
-
-# Sign in as a user that's allowed to create an app
-Connect-AzureAD
-
-# Create a new Azure AD web application
-$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
-
-# Creates a service principal
-$sp = New-AzureADServicePrincipal -AppId $app.AppId
-```
-
-[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
-
-## <a name="step-5---create-a-certificate"></a>Paso 5: Creación de un certificado
+## <a name="step-2---create-a-certificate"></a>Paso 2: Creación de un certificado
 
 Puede adquirir un certificado de una *entidad de certificación* de confianza, o bien generarlo personalmente.
 
@@ -84,7 +51,7 @@ En esta sección se describe la creación de un certificado mediante [Azure Key 
 
 1. Inicie sesión en [Microsoft Azure](https://ms.portal.azure.com/#allservices).
 
-2. Busque **Almacenes de claves** y haga clic en el vínculo **Almacenes de claves** .
+2. Busque **Almacenes de claves** y haga clic en el vínculo **Almacenes de claves**.
 
     ![Captura de pantalla que muestra un vínculo al almacén de claves en Azure Portal.](media/embed-service-principal-certificate/key-vault.png)
 
@@ -92,53 +59,53 @@ En esta sección se describe la creación de un certificado mediante [Azure Key 
 
     ![Captura de pantalla que muestra una lista de almacenes de claves desenfocados en Azure Portal.](media/embed-service-principal-certificate/select-key-vault.png)
 
-4. Haga clic en **Certificados** .
+4. Haga clic en **Certificados**.
 
     ![Captura de pantalla que muestra la página Almacenes de claves con la opción Certificados resaltada.](media/embed-service-principal-certificate/certificates.png)
 
-5. Haga clic en **Generar o importar** .
+5. Haga clic en **Generar o importar**.
 
     ![Captura de pantalla que muestra el panel Certificados con la opción Generar o importar resaltada.](media/embed-service-principal-certificate/generate.png)
 
 6. Configure los campos **Creación de certificado** de esta forma:
 
-    * **Método de creación de certificados** : General
+    * **Método de creación de certificados**: General
 
-    * **Nombre del certificado** : escriba un nombre para el certificado
+    * **Nombre del certificado**: escriba un nombre para el certificado
 
     * **Tipo de entidad de certificación (CA)** : certificado autofirmado
 
-    * **Asunto** : un nombre distintivo [X.500](https://wikipedia.org/wiki/X.500)
+    * **Asunto**: un nombre distintivo [X.500](https://wikipedia.org/wiki/X.500)
 
-    * **Nombres DNS** : 0 nombres DNS
+    * **Nombres DNS**: 0 nombres DNS
 
     * **Período de validez (en meses)** : escriba la duración de validez del certificado
 
-    * **Tipo de contenido** : PKCS #12
+    * **Tipo de contenido**: PKCS #12
 
-    * **Tipo de acción de duración** : Renovar automáticamente cuando se llegue a un porcentaje determinado de duración
+    * **Tipo de acción de duración**: Renovar automáticamente cuando se llegue a un porcentaje determinado de duración
 
-    * **Porcentaje de duración** : 80
+    * **Porcentaje de duración**: 80
 
-    * **Configuración de directiva avanzada** : no configurado
+    * **Configuración de directiva avanzada**: no configurado
 
-7. Haga clic en **Crear** . El certificado recién creado está deshabilitado de forma predeterminada. Puede tardar hasta cinco minutos en habilitarse.
+7. Haga clic en **Crear**. El certificado recién creado está deshabilitado de forma predeterminada. Puede tardar hasta cinco minutos en habilitarse.
 
 8. Seleccione el certificado que ha creado.
 
-9. Haga clic en **Descargar en formato CER** . El archivo descargado contiene la clave pública.
+9. Haga clic en **Descargar en formato CER**. El archivo descargado contiene la clave pública.
 
     ![Captura de pantalla que muestra el botón Descargar en formato cer.](media/embed-service-principal-certificate/download-cer.png)
 
-## <a name="step-6---set-up-certificate-authentication"></a>Paso 6: Configuración de la autenticación de certificado
+## <a name="step-3---set-up-certificate-authentication"></a>Paso 3: Configuración de la autenticación de certificado
 
-1. En la aplicación Azure AD, haga clic en la pestaña **Certificados y secretos** .
+1. En la aplicación Azure AD, haga clic en la pestaña **Certificados y secretos**.
 
      ![Captura de pantalla que muestra el panel Certificados y secretos para una aplicación en Azure Portal.](media/embed-service-principal/certificates-and-secrets.png)
 
-2. Haga clic en **Cargar certificado** y cargue el archivo *.cer* que ha creado y descargado en el [primer paso](#step-5---create-a-certificate) de este tutorial. El archivo *.cer* contiene la clave pública.
+2. Haga clic en **Cargar certificado** y cargue el archivo *.cer* que ha creado y descargado en el [paso 2](#step-2---create-a-certificate) de este tutorial. El archivo *.cer* contiene la clave pública.
 
-## <a name="step-7---get-the-certificate-from-azure-key-vault"></a>Paso 7: Obtención del certificado de Azure Key Vault
+## <a name="step-4---get-the-certificate-from-azure-key-vault"></a>Paso 4: Obtención del certificado de Azure Key Vault
 
 Use Managed Service Identity (MSI) para obtener el certificado de Azure Key Vault. Este proceso implica obtener el certificado *.pfx* que contiene las claves pública y privada.
 
@@ -165,7 +132,7 @@ private X509Certificate2 ReadCertificateFromVault(string certName)
 }
 ```
 
-## <a name="step-8---authenticate-using-service-principal-and-a-certificate"></a>Paso 8: Autenticación mediante una entidad de servicio y un certificado
+## <a name="step-5---authenticate-using-service-principal-and-a-certificate"></a>Paso 5: Autenticación mediante una entidad de servicio y un certificado
 
 Puede autenticar la aplicación con la entidad de servicio y un certificado almacenado en Azure Key Vault mediante la conexión a Azure Key Vault.
 
@@ -206,24 +173,22 @@ Al crear la solución insertada, puede resultar útil configurar Visual Studio 
 
 1. Abra el proyecto en Visual Studio.
 
-2. Haga clic en **Herramientas** > **Opciones** .
+2. Haga clic en **Herramientas** > **Opciones**.
 
      ![Captura de pantalla que muestra el botón Opciones en el menú Herramientas de Visual Studio.](media/embed-service-principal-certificate/visual-studio-options.png)
 
-3. Busque **Selección de cuentas** y haga clic en **Selección de cuentas** .
+3. Busque **Selección de cuentas** y haga clic en **Selección de cuentas**.
 
     ![Captura de pantalla que muestra la opción de selección de cuenta en la ventana Opciones de Visual Studio.](media/embed-service-principal-certificate/account-selection.png)
 
 4. Agregue la cuenta que tenga acceso a la instancia de Azure Key Vault.
-
-[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 >[!div class="nextstepaction"]
 >[Registro de una aplicación](register-app.md)
 
->[!div class="nextstepaction"]
+> [!div class="nextstepaction"]
 >[Power BI Embedded para los clientes](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
@@ -231,6 +196,3 @@ Al crear la solución insertada, puede resultar útil configurar Visual Studio 
 
 >[!div class="nextstepaction"]
 >[Seguridad de nivel de fila mediante puerta de enlace de datos local con entidad de servicio](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
->[!div class="nextstepaction"]
->[Inserción de contenido de Power BI con entidades de servicio y un secreto de aplicación](embed-service-principal.md)

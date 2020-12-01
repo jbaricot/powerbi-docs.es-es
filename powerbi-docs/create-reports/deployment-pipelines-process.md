@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
 ms.date: 10/21/2020
-ms.openlocfilehash: 6c1e4212cb991ff7eb3d0f8a5e336010499bcd1c
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 5799b0367c903eea55357969a2d4383a5f4c0c7b
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668612"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514341"
 ---
 # <a name="understand-the-deployment-process"></a>comprender el proceso de implementación
 
@@ -286,6 +286,8 @@ En esta sección se enumeran la mayoría de las limitaciones de las canalizacion
 * Los elementos de Power BI, tales como los informes y paneles que tienen [etiquetas de confidencialidad](../admin/service-security-sensitivity-label-overview.md) de Power BI, no se pueden implementar.
 
 * El número máximo de elementos de Power BI que se pueden implementar en una sola implementación es 300.
+
+* No se admite la descarga de un archivo PBIX después de la implementación.
 
 * Para una lista de las limitaciones del área de trabajo, vea [Limitaciones de asignación del área de trabajo](deployment-pipelines-get-started.md#workspace-assignment-limitations).
 

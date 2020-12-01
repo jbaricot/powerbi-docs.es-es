@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/29/2020
-ms.openlocfilehash: 3173108abe6082c199cbf6ff1229ca57fde31064
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.date: 11/18/2020
+ms.openlocfilehash: 2989436c2a501447cab2d95e0ac1d3fad1fd99b6
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044774"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947033"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registro de cambios de Power BI Report Server
 
@@ -23,6 +23,12 @@ Para obtener más información sobre las nuevas características, vea [Novedades
 
 ## <a name="october-2020"></a>Octubre de 2020
 - **Servidor de informes de Power BI**
+    - *Versión: 1.9.7627.11028 (compilación 15.0.1104.264), fecha de publicación: 18 de noviembre de 2020*
+        - Corrección de errores
+            - Se ha corregido un problema que impide que los usuarios cambien los campos de la configuración del sitio a través del portal.
+            - Se ha corregido un problema con la actualización de informes de Power BI al usar el origen de datos "EnterData".
+            - Se ha corregido un problema con la actualización de algunos modelos mediante metadatos de conjunto de datos mejorados.
+            - Se ha corregido un problema en el que algunos informes de Power BI no se podían publicar en el servidor de informes.
     - *Versión: 1.9.7604.41261 (compilación 15.0.1104.239), fecha de publicación: 27 de octubre de 2020*
          - Características
             - Se ha habilitado la compatibilidad con los metadatos de los conjuntos de datos mejorados en Power BI Report Server.

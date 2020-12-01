@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d218a0cfb66e57e6f52301f8c10bef5cfb137b4b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 340a4739065716e67f9fd1a7d7b78f875805f12b
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361874"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946918"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Exploradores compatibles con Power BI
 
-Power BI está diseñado para funcionar con cualquiera de estos exploradores admitidos, pero el rendimiento varía en función del explorador elegido. Si usa Internet Explorer en particular, es posible que experimente un peor rendimiento. Se recomienda encarecidamente cambiar de Internet Explorer a un explorador moderno, incluido Microsoft Edge, para obtener un mejor rendimiento. Esperamos que el rendimiento de Microsoft Edge siga mejorando con Edge Chromium. Si el rendimiento sigue sin ser aceptable, pruebe otros exploradores modernos compatibles para ver si proporcionan mejores resultados para la solución de Power BI.
+Power BI está diseñado para funcionar con cualquiera de estos exploradores admitidos, pero el rendimiento varía en función del explorador elegido. Si usa Internet Explorer en particular, es posible que experimente un peor rendimiento. Se recomienda encarecidamente cambiar de Internet Explorer a un explorador moderno, incluido Microsoft Edge. Si el rendimiento sigue sin ser aceptable, pruebe otros exploradores modernos compatibles para ver si proporcionan mejores resultados para la solución de Power BI.
 
 Power BI admite estos exploradores en todas las plataformas en las que están disponibles:
 

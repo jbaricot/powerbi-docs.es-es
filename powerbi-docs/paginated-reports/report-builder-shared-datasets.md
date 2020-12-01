@@ -1,18 +1,18 @@
 ---
 title: 'Creación de un informe paginado con un conjunto de datos compartido de Power BI: Power BI Report Builder'
 description: Cree un informe paginado de Power BI Report Builder basado en un conjunto de datos compartido de Power BI.
-ms.date: 07/08/2020
+ms.date: 11/18/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 44f1c1280e176d99ab909402a77804074e7d8cbd
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 9b8e7ac37b42e74835cde120ad1465df586a8fe3
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298078"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893715"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Creación de un informe paginado basado en un conjunto de datos compartido de Power BI
 
@@ -32,7 +32,7 @@ Esta es una lista de lo que necesita y no necesita para usar un conjunto de dato
 - Para acceder a un conjunto de datos de Power BI, debe tener el permiso de compilación para el conjunto de datos. Más información sobre el [permiso de compilación](../connect-data/service-datasets-build-permissions.md).
 - No necesita una licencia de Power BI Pro para crear un informe paginado en el Generador de informes. 
 - Para publicar el informe paginado, necesita una licencia de Power BI Pro. También necesita al menos un rol de colaborador para un área de trabajo en una capacidad Premium. 
-- Opcional: Si quiere seguir este artículo, descargue el archivo de Power BI Desktop [Ejemplo de análisis de minoristas.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), ábralo en Power BI Desktop y agregue una tabla con muchas columnas. En el panel **Formato** , desactive **Totales**. Después, publíquelo en un área de trabajo del servicio Power BI.
+- Opcional: Si quiere seguir este artículo, descargue el archivo de Power BI Desktop [Ejemplo de análisis de minoristas.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), ábralo en Power BI Desktop y agregue una tabla con muchas columnas. En el panel **Formato**, desactive **Totales**. Después, publíquelo en un área de trabajo del servicio Power BI.
 
     ![Totales desactivado](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)
 
@@ -80,11 +80,11 @@ Estos son los pasos para obtener la consulta.
 
         ![Icono de medida](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 
-1. En la cinta **Vista** , seleccione **Analizador de rendimiento**.
+1. En la cinta **Vista**, seleccione **Analizador de rendimiento**.
 
     ![Apertura de Analizador de rendimiento](media/report-builder-shared-datasets/power-bi-performance-analyzer.png)
 
-1. En el panel **Analizador de rendimiento** , seleccione **Iniciar grabación** y después **Actualizar objetos visuales**.
+1. En el panel **Analizador de rendimiento**, seleccione **Iniciar grabación** y después **Actualizar objetos visuales**.
 
     ![Actualizar objetos visuales](media/report-builder-shared-datasets/power-bi-performance-analyzer-refresh-visuals.png)
 
@@ -134,7 +134,7 @@ Estos son los pasos para obtener la consulta.
 
 Una forma rápida de crear una tabla consiste en usar el Asistente para tablas.
 
-1. En la cinta **Insertar** , seleccione **Tabla** > **Asistente para tablas**.
+1. En la cinta **Insertar**, seleccione **Tabla** > **Asistente para tablas**.
 
     ![Inicio del Asistente para tablas](media/report-builder-shared-datasets/power-bi-report-builder-table-wizard.png)
 
@@ -176,7 +176,7 @@ Tiene varias opciones de formato para hacer que la tabla quepa en una página.
 1. En el panel Propiedades puede restringir los márgenes de página. Si no ve el panel Propiedades, active la casilla **Propiedades** en la cinta **Vista**.
 
 1. Seleccione el informe, no la tabla ni el título.
-1. En el panel **Propiedades del informe** , en **Página** , expanda **Márgenes** y cambie cada uno a **0,75 pulgadas**.
+1. En el panel **Propiedades del informe**, en **Página**, expanda **Márgenes** y cambie cada uno a **0,75 pulgadas**.
 
     ![Establecer los márgenes de página](media/report-builder-shared-datasets/power-bi-report-builder-page-margins.png)
 
@@ -190,7 +190,7 @@ Tiene varias opciones de formato para hacer que la tabla quepa en una página.
 
     ![Selección de varias celdas](media/report-builder-shared-datasets/power-bi-report-builder-select-cells.png)
 
-1. En la cinta **Inicio** , en la sección **Número** , cambie el formato **Predeterminado** a un formato numérico como **Moneda**.
+1. En la cinta **Inicio**, en la sección **Número**, cambie el formato **Predeterminado** a un formato numérico como **Moneda**.
 
     ![Definición del formato de número](media/report-builder-shared-datasets/power-bi-report-builder-number-format.png)
 
@@ -198,7 +198,7 @@ Tiene varias opciones de formato para hacer que la tabla quepa en una página.
 
     ![Visualización de valores de ejemplo](media/report-builder-shared-datasets/power-bi-report-builder-sample-values.png)
 
-1. Si procede, en la sección **Número** , reduzca los decimales para ahorrar más espacio.
+1. Si procede, en la sección **Número**, reduzca los decimales para ahorrar más espacio.
 
 ### <a name="getting-rid-of-blank-pages"></a>Deshacerse de las páginas en blanco
 
@@ -211,7 +211,7 @@ Por ejemplo, imagine que el informe tiene un formato de 8,5 x 11 pulgadas y que
 1. Seleccione el borde derecho de la superficie de diseño del informe y arrástrelo para que sea menor que el número deseado en la regla. 
 
     > [!TIP]
-    > Puede establecerlo con más precisión en las propiedades de **Cuerpo**. En **Tamaño** , establezca la propiedad **Ancho**.
+    > Puede establecerlo con más precisión en las propiedades de **Cuerpo**. En **Tamaño**, establezca la propiedad **Ancho**.
 
     ![Definición del tamaño del cuerpo](media/report-builder-shared-datasets/power-bi-report-builder-body-size.png)
 
@@ -222,6 +222,7 @@ Por ejemplo, imagine que el informe tiene un formato de 8,5 x 11 pulgadas y que
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones 
 
 - Para los conjuntos de datos que usan una conexión dinámica con Analysis Services, puede conectarse directamente mediante la conexión subyacente de Analysis Services en lugar de un conjunto de datos compartido.
+- Si quiere utilizar un conjunto de datos de Power BI en el que se usa DirectQuery en Power BI Report Builder, el conjunto de datos tiene que incluir una medida, incluso si no tiene previsto exponerla en el informe. Sin la medida, el conjunto de datos no devolverá resultados de datos correctos.
 - Los conjuntos de datos con la promoción Promocionado o Certificado aparecen en la lista de conjuntos de datos disponibles, pero no se marcan como tales. 
 - En el escenario de "aplicación propietaria de los datos" no se pueden insertar informes paginados basados en conjuntos de datos compartidos de Power BI.
 

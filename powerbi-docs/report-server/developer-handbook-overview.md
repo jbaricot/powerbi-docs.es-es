@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: 1f7a04ca8920ef56e0e7de4efad47afa894e76d7
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d485c7ab7583d2604cd9da9e4c122c6cceeeb4fe
+ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861185"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95012010"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Introducción al manual del desarrollador: servidor de informes de Power BI
 
@@ -42,7 +42,13 @@ Dispone de varias opciones de API para interactuar con el servidor de informes d
 También puede usar las [utilidades de PowerShell de código abierto](https://github.com/Microsoft/ReportingServicesTools) para administrar el servidor de informes.
 
 > [!NOTE]
-> Actualmente, las utilidades de PowerShell no son compatibles con los archivos de Power BI Desktop (.pbix).
+> Las utilidades de PowerShell admiten archivos de Power BI Desktop (.pbix) a través de los comandos -RsRest*.
+
+Ejecute el comando siguiente para averiguar qué comandos del módulo ReportingServicesTools de PowerShell admiten archivos de Power BI Desktop (.pbix).
+
+```powershell
+Get-Command -Module ReportingServicesTools -Noun RsRest*
+```
 
 ## <a name="custom-extensions"></a>Extensiones personalizadas
 
@@ -60,9 +66,9 @@ Para más información, consulte [Biblioteca de extensiones](/sql/reporting-serv
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Introducción al control de visor de informes](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
-[Building Applications Using the Web Service and the .NET Framework](/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework) (Creación de aplicaciones mediante el servicio web y .NET Framework)  
+[Creación de aplicaciones con el servicio web y .NET Framework](/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
 [Acceso de URL](/sql/reporting-services/url-access-ssrs)  
 [Biblioteca de extensiones](/sql/reporting-services/extensions/reporting-services-extension-library)  
-[Proveedor de WMI](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
+[Proveedor WMI](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
