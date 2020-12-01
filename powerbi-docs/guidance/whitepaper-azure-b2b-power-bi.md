@@ -2,19 +2,19 @@
 title: Distribuir contenido de Power BI a usuarios externos invitados mediante Azure Active Directory B2B
 description: Notas del producto que describen cómo usar Azure Active Directory B2B para distribuir Power BI a usuarios invitados externos
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/07/2019
-ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: cc4387c3c1c0f83347823bbc6b95beb437b235e9
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 9bf2d1ab3b782d0fbb201e203aa9bb2f2df4079d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916898"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417103"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribuir contenido de Power BI a usuarios externos invitados mediante Azure Active Directory B2B
 
@@ -25,7 +25,7 @@ ms.locfileid: "92916898"
 **Revisores técnicos:** Adam Wilson, Sheng Liu, Qian Liang, Sergei Gundorov, Jacob Grimm, Adam Saxton, Maya Shenhav, Nimrod Shalit, Elisabeth Olson
 
 > [!NOTE]
-> Puede guardar o imprimir estas notas del producto si selecciona **Imprimir** desde el explorador y, a continuación, selecciona **Guardar como PDF** .
+> Puede guardar o imprimir estas notas del producto si selecciona **Imprimir** desde el explorador y, a continuación, selecciona **Guardar como PDF**.
 
 ## <a name="introduction"></a>Introducción
 
@@ -490,8 +490,8 @@ Los usuarios invitados obtienen la experiencia predeterminada de solo lectura y 
 
 Para ayudar a estos usuarios a iniciar sesión en Power BI, proporcione la dirección URL del inquilino. Para buscar la dirección URL del inquilino, siga estos pasos.
 
-1. En el servicio Power BI, en el menú superior, seleccione ayuda ( **?** ) a continuación  **Power BI** .
-2. Busque el valor junto a la  **dirección URL del inquilino** . Esta es la dirección URL del inquilino que puede compartir con los usuarios invitados.
+1. En el servicio Power BI, en el menú superior, seleccione ayuda ( **?** ) a continuación  **Power BI**.
+2. Busque el valor junto a la  **dirección URL del inquilino**. Esta es la dirección URL del inquilino que puede compartir con los usuarios invitados.
 
     ![URL de inquilino](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 
