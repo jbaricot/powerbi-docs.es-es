@@ -2,18 +2,18 @@
 title: Transformación de la BI de Microsoft
 description: Obtenga información sobre cómo Microsoft impulsa correctamente una referencia cultural de datos para la toma de decisiones empresariales. Describe su estrategia y visión de BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/19/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 1b4f86a0e3316cc774b0f1562112f0d6e5b19a4f
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: fa3f8c553fd55e77e92b4a933df332bdd8c4dc6d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638713"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394460"
 ---
 # <a name="microsofts-bi-transformation"></a>Transformación de la BI de Microsoft
 

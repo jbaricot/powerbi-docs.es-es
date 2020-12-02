@@ -2,19 +2,19 @@
 title: Novedades en el servicio Power BI
 description: Novedades en el servicio Power BI
 author: NikhilGaekwad-MSFT
+ms.author: nikhilga
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/14/2020
-ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 3052119ed4abd4e752ab14a5eb9a2087148f4997
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 71ed2610ea77900fe51542b2257f4795f201694f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397079"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394966"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
 Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI**. Para obtener información sobre novedades, vea:

@@ -2,17 +2,17 @@
 title: Editar el esquema lingüístico de preguntas y respuestas y agregar expresiones en Power BI Desktop
 description: Se describe cómo usar Power BI Desktop para editar el esquema lingüístico empleado en el modelo de preguntas y respuestas de Power BI.
 author: mohaali
+ms.author: mohaali
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 10/18/2019
-ms.author: mohaali
-ms.openlocfilehash: 9499dd99d89619d096d86ac676c54ebb214c3a55
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: ce01fc6c4dc34c614ac024240855301b3fb66968
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841857"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393678"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Editar el esquema lingüístico de preguntas y respuestas y agregar expresiones en Power BI Desktop 
 El uso del lenguaje natural y frases comunes para formular preguntas sobre los datos resulta muy eficaz. Más eficaz aún cuando sus datos responden. Cuando se formula una pregunta a las preguntas y respuestas de Power BI, se realiza el máximo esfuerzo por responderla correctamente, Pero, para mejorar aún más las interacciones de Preguntas y respuestas, puede mejorar las respuestas. Una forma consiste en editar el esquema lingüístico. 

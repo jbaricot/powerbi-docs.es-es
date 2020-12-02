@@ -2,20 +2,20 @@
 title: Cuadros de texto y formas en informes de Power BI
 description: Agregue y cree cuadros de texto y formas en un informe mediante el servicio Microsoft Power BI.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/29/2019
-ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6388c82095b162be5c1164efa8b07812e6515e50
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90c7489ad047be47a2a1f9ac9e814a9da5724f32
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233558"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393563"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Adición de cuadros de texto y formas en informes de Power BI
 Con el servicio Power BI y Power BI Desktop puede agregar cuadros de texto y formas a los informes. En ambos casos, debe tener permisos de edición para el informe. Si un informe se ha compartido con usted en el servicio Power BI, no tendrá permisos de edición. 
