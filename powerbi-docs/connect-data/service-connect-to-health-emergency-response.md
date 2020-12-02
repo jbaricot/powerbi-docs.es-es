@@ -2,18 +2,18 @@
 title: Conexión al Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias
 description: Procedimientos a fin de obtener e instalar el Panel de ayuda para la toma de decisiones de la COVID-19 para la aplicación de plantilla de emergencias sanitarias y cómo conectarse a los datos
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/13/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 823c8429c95a0b4d858540b2cf1183ca1c7caac7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854239"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403154"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Conexión al Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias
 La aplicación de plantilla del Panel de ayuda para la toma de decisiones en respuesta ante emergencias hospitalarias es el componente de informes de la [solución de Power Platform para la respuesta ante emergencias sanitarias](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). El panel muestra que los administradores de emergencia agregan datos a través de su sistema de mantenimiento para ayudarles a tomar decisiones oportunas y correctas.

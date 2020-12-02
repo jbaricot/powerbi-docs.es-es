@@ -2,18 +2,18 @@
 title: Conexión con el Informe de presencia de comunicación de crisis
 description: Procedimientos para obtener e instalar la aplicación de plantilla del Informe de presencia de comunicación de crisis de la COVID-19 y para conectarse a los datos
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 97501fe6e5a3e12e1b6773ce1b3fd67b503bf0f1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7cce4f9e78fce27fedf795a4a0016593580f061a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860311"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403177"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Conexión con el Informe de presencia de comunicación de crisis
 

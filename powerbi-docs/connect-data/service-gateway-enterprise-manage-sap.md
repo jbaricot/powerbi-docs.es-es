@@ -2,19 +2,19 @@
 title: 'Administrar el origen de datos: SAP HANA'
 description: Cómo administrar la puerta de enlace de datos local y los orígenes de datos que pertenecen a esa puerta de enlace. Este artículo es específico de SAP HANA.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 07/16/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9dc436fea9c53e631fb038d3603983fe104fb999
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e06f990c7b14cd27b182ebfd6bec2bba9741c99d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237083"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402717"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Administrar el origen de datos: SAP HANA
 
