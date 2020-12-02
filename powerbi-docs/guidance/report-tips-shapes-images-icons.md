@@ -2,19 +2,19 @@
 title: Sugerencias para mejorar el análisis con formas, imágenes e iconos en informes de Power BI
 description: Cuatro sugerencias para mejorar el análisis con formas, imágenes e iconos en objetos visuales de informes de Power BI, en Power BI Desktop o el servicio Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 featuredvideoid: -gLwXonWNsI
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/25/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 863f5f55eb4fb5d2427585bd2d792097ac1c6630
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c9587fdbf7154bf61f174d1d193b93ca7f991ae0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278937"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386026"
 ---
 # <a name="tips-to-improve-analysis-with-shapes-images-and-icons-in-power-bi-reports"></a>Sugerencias para mejorar el análisis con formas, imágenes e iconos en informes de Power BI
 

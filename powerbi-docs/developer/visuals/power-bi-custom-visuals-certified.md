@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: 8dd6a33ab19e692d9dc04138d53b04e8e49da2bf
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: bbca1802b1136c4e9e16e70ab87ab7554612c037
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049186"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386718"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Obtención de un objeto visual de Power BI certificado
 
@@ -56,10 +56,10 @@ Para saber cuál es el aspecto de un repositorio de objetos visuales de Power BI
 Use la versión más reciente de la API para escribir el objeto visual de Power BI.
 
 El repositorio debe incluir los siguientes archivos:
-* **.gitignore** : agregue `node_modules`, `.tmp` y `dist` a este archivo. El código no puede incluir las carpetas *node_modules* , *.tmp* o *dist* .
-* **capabilities.json** : si va a enviar una versión más reciente del objeto visual de Power BI con cambios en las propiedades de este archivo, compruebe que no interrumpe los informes de los usuarios existentes.
+* **.gitignore**: agregue `node_modules`, `.tmp` y `dist` a este archivo. El código no puede incluir las carpetas *node_modules*, *.tmp* o *dist*.
+* **capabilities.json**: si va a enviar una versión más reciente del objeto visual de Power BI con cambios en las propiedades de este archivo, compruebe que no interrumpe los informes de los usuarios existentes.
 * **pbiviz.json** 
-* **package.json** . El objeto visual debe tener instalados el siguiente paquete:
+* **package.json**. El objeto visual debe tener instalados el siguiente paquete:
    * ["tslint"](https://www.npmjs.com/package/tslint): versión 5.18.0 o superior
    * ["typescript"](https://www.npmjs.com/package/typescript): versión 3.0.0 o superior
    * ["tslint-microsoftcontrib"](https://www.npmjs.com/package/tslint-microsoft-contrib): versión 6.2.0 o superior
@@ -111,9 +111,9 @@ Puede solicitar que el equipo de Power BI certifique su objeto visual de Power�
 Para solicitar la certificación de Power BI:
 
 1. Inicie sesión en el Centro de datos.
-2. En la página **Información general** , elija su objeto visual de Power BI y vaya a la página de configuración del **producto** .
+2. En la página **Información general**, elija su objeto visual de Power BI y vaya a la página de configuración del **producto**.
 3. Active la casilla **Request Power BI certification** (Solicitar la certificación de Power BI).
-4. En la página **Revisar y publicar** , en el cuadro de texto **Notas para la certificación** , proporcione un vínculo al código fuente y las credenciales necesarias para acceder a él.
+4. En la página **Revisar y publicar**, en el cuadro de texto **Notas para la certificación**, proporcione un vínculo al código fuente y las credenciales necesarias para acceder a él.
 
 ### <a name="private-repository-submission-process"></a>Proceso de envío de un repositorio privado
 
@@ -147,7 +147,7 @@ Una vez certificado un objeto visual de Power BI, obtiene un distintivo designad
 
     ![Objeto visual de Power BI certificado de la interfaz de Power BI](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
-* Puede mostrar solo los objetos visuales de Power BI certificados seleccionando la opción de filtro *Certificado por Power BI* .
+* Puede mostrar solo los objetos visuales de Power BI certificados seleccionando la opción de filtro *Certificado por Power BI*.
 
 ## <a name="publication-timeline"></a>Plazos de publicación
 

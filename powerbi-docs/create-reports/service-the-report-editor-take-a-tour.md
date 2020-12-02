@@ -2,20 +2,20 @@
 title: Visita al editor de informes
 description: En Power BI Desktop y el servicio Power BI, el editor de informes es donde se diseñan los informes que ven los usuarios finales. Es similar en los dos entornos.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 08/14/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 56a181da60e2a20c08a8c03dd826276d350ec81f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 26a98609481ce45a6e432c8006d80f9becdd9f3b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635203"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387790"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Paseo por el editor de informes de Power BI
 

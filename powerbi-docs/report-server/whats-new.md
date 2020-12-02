@@ -9,11 +9,11 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/30/2020
 ms.openlocfilehash: 14b629eed17eca2d1e016913dcfffb5858d4ddc3
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132422"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120762"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
 
@@ -473,7 +473,7 @@ Se ha agregado compatibilidad con objetos visuales de confianza para Power BI Re
 
 #### <a name="improved-security-features"></a>Características de seguridad mejoradas
 
-**RestrictedResourceMimeTypeForUpload** , que los administradores pueden usar para especificar una lista separada por comas de tipos MIME prohibidos, por ejemplo, texto/html.
+**RestrictedResourceMimeTypeForUpload**, que los administradores pueden usar para especificar una lista separada por comas de tipos MIME prohibidos, por ejemplo, texto/html.
 
 ## <a name="january-2019"></a>Enero de 2019
 
@@ -515,7 +515,7 @@ De la larga lista completa de nuevas características, estas destacan por ser es
 
 #### <a name="report-theming"></a>Temas de informe
 
-Los temas de informe se han agregado a la versión de agosto de 2018 de Power BI Report Server y permiten colorear rápidamente todo el informe para que coincida con un tema o una marca corporativa. Al importar un tema, todos los gráficos se actualizan automáticamente para usar los colores del tema; puede acceder a los colores del tema desde la paleta de colores. Puede cargar un archivo de tema con la opción **Importar tema** , debajo del botón **Cambiar tema**.
+Los temas de informe se han agregado a la versión de agosto de 2018 de Power BI Report Server y permiten colorear rápidamente todo el informe para que coincida con un tema o una marca corporativa. Al importar un tema, todos los gráficos se actualizan automáticamente para usar los colores del tema; puede acceder a los colores del tema desde la paleta de colores. Puede cargar un archivo de tema con la opción **Importar tema**, debajo del botón **Cambiar tema**.
 
 Un archivo de tema es un archivo JSON que incluye todos los colores que quiere usar en el informe junto con cualquier formato predeterminado que quiere aplicar a los objetos visuales.
 Este es un tema JSON de ejemplo sencillo que solo actualiza los colores predeterminados del informe:
@@ -786,7 +786,7 @@ Power BI Report Server ahora admite los nuevos objetos visuales tabla y matriz d
 - Disponibilidad de la versión preliminar del servidor de informes de Power.
 - Posibilidad de publicar informes de Power BI en el entorno local.
   - Compatibilidad con objetos visuales de Power BI
-  - Compatibilidad con * *conexiones dinámicas de Analysis Services* : más orígenes de datos por venir.
+  - Compatibilidad con **conexiones dinámicas de Analysis Services*: más orígenes de datos por venir.
   - Actualización de la aplicación Power BI Mobile para mostrar los informes de Power BI hospedados en el servidor de informes de Power BI.
 - Colaboración mejorada en los informes con comentarios.
 

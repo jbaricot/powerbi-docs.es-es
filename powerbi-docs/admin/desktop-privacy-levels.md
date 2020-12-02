@@ -2,19 +2,19 @@
 title: Descripción de los niveles de privacidad de Power BI Desktop
 description: Niveles de privacidad de Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-admin
 ms.topic: reference
 ms.date: 09/09/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 19189529637fe5511ebd6f736c17b8a10a1d2ef9
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 7dc5554844bafac1f8877ef7e2e8627d8078e981
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86033793"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386821"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Niveles de privacidad de Power BI Desktop
 En **Power BI Desktop**, los niveles de privacidad especifican un nivel de aislamiento que define el grado de aislamiento de un origen de datos respecto a los demás. Aunque un nivel de aislamiento restrictivo impide que la información se intercambie entre los orígenes de datos, puede reducir la funcionalidad e influir en el rendimiento.

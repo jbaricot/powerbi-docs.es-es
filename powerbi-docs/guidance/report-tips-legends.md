@@ -2,19 +2,19 @@
 title: Aplicación de formato e implementación de leyendas en informes de Power BI
 description: Seis sugerencias para dar formato e implementar leyendas en objetos visuales de informes de Power BI, en Power BI Desktop o el servicio Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 featuredvideoid: r9XnHmuWkZQ
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/15/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 85cecc300ac3586c3702e8a7fa5e5c4a4dc6a65c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a63c85787f9304954fff76785796dd9cc3e7aa93
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278960"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386003"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Sugerencias para dar formato e implementar leyendas en informes de Power BI
 

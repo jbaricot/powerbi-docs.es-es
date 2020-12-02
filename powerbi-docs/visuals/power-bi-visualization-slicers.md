@@ -2,19 +2,19 @@
 title: Segmentaciones de datos en Power BI
 description: Una segmentación de Power BI es una forma alternativa de filtro que limita la parte del conjunto de datos que se muestra en las demás visualizaciones de un informe que diseñe.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 07/07/2020
-ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ecc28c703b083355646e1caa5a457cf60cc341
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: d3e0c75a50fb103414a874c4455de775bc20e1a9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412772"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387583"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentaciones de datos en Power BI
 
@@ -57,7 +57,7 @@ Esta segmentación filtra los datos por administrador de distrito. Si quiere seg
 
 1. En el panel izquierdo, seleccione el icono **Informe** ![captura de pantalla del icono Informe.](media/power-bi-visualization-kpi/power-bi-report-view.png) para abrir el archivo en la vista de informe.
 
-1. En la página **Información general** , sin nada seleccionado en el lienzo del informe, seleccione el icono **Segmentación** ![captura de pantalla del icono Segmentación.](media/power-bi-visualization-slicers/slicer-icon.png) en el panel **Visualizaciones** para crear una nueva segmentación. 
+1. En la página **Información general**, sin nada seleccionado en el lienzo del informe, seleccione el icono **Segmentación** ![captura de pantalla del icono Segmentación.](media/power-bi-visualization-slicers/slicer-icon.png) en el panel **Visualizaciones** para crear una nueva segmentación. 
 
 1. Con la nueva segmentación seleccionada, seleccione **Distrito** > **Administrador de distrito** en el panel **Campos** para rellenar la segmentación. 
 
@@ -81,7 +81,7 @@ Esta segmentación filtra los datos por administrador de distrito. Si quiere seg
 ## <a name="control-which-page-visuals-are-affected-by-slicers"></a>Control de qué objetos visuales de página se ven afectados por las segmentaciones
 De forma predeterminada, las segmentaciones de las páginas del informe afectan a todas las visualizaciones de la página. Cuando elija los valores en los controles deslizantes de lista y fecha que acaba de crear, observe los efectos en las demás visualizaciones. Los datos filtrados están una intersección de los valores seleccionados en las dos segmentaciones. 
 
-Use interacciones de objetos visuales para impedir que algunas visualizaciones de página se vean afectadas. En la página **Información general** , el gráfico **Varianza total de ventas por mes fiscal y administrador de distrito** muestra datos comparativos generales de los administradores de distrito por mes, que quiere que sean visibles en todo momento. Use interacciones de objetos visuales para que las selecciones de segmentación sigan filtrando este gráfico. 
+Use interacciones de objetos visuales para impedir que algunas visualizaciones de página se vean afectadas. En la página **Información general**, el gráfico **Varianza total de ventas por mes fiscal y administrador de distrito** muestra datos comparativos generales de los administradores de distrito por mes, que quiere que sean visibles en todo momento. Use interacciones de objetos visuales para que las selecciones de segmentación sigan filtrando este gráfico. 
 
 1. Vaya a la página **Información general** del informe y, después, seleccione la segmentación **Administrador de distrito** que ha creado antes.
 
@@ -100,7 +100,7 @@ Para más información sobre cómo editar las interacciones, vea [Cambio de la i
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Sincronización y uso de las segmentaciones en otras páginas
 Puede sincronizar una segmentación y usarla en una o todas las páginas de un informe. 
 
-En el informe actual, la página **Ventas mensuales de distrito** tiene también una segmentación **Administrador de distrito** , pero ¿qué ocurriría si también quisiera que esa segmentación estuviera en la página **Nuevas tiendas** ? La página **Nuevas tiendas** tiene una segmentación, pero solo proporciona información sobre el **nombre de la tienda**. Con el panel **Sincronizar segmentaciones** se puede sincronizar la segmentación **Administrador de distrito** con estas páginas, para que las selecciones de segmentación de cualquier página afecten a las visualizaciones de las tres páginas.
+En el informe actual, la página **Ventas mensuales de distrito** tiene también una segmentación **Administrador de distrito**, pero ¿qué ocurriría si también quisiera que esa segmentación estuviera en la página **Nuevas tiendas**? La página **Nuevas tiendas** tiene una segmentación, pero solo proporciona información sobre el **nombre de la tienda**. Con el panel **Sincronizar segmentaciones** se puede sincronizar la segmentación **Administrador de distrito** con estas páginas, para que las selecciones de segmentación de cualquier página afecten a las visualizaciones de las tres páginas.
 
 1. En el menú **Vista** de Power BI Desktop, seleccione **Sincronizar segmentaciones**.
 
@@ -112,21 +112,21 @@ En el informe actual, la página **Ventas mensuales de distrito** tiene también
 
 1. En la página **Ventas mensuales de distrito** del informe, seleccione la segmentación **Administrador de distrito**. 
 
-    Como ya ha creado una segmentación **Administrador de distrito** ( **DM** ) en la página **Información general** , el panel **Sincronizar segmentaciones** tiene este aspecto:
+    Como ya ha creado una segmentación **Administrador de distrito** (**DM**) en la página **Información general**, el panel **Sincronizar segmentaciones** tiene este aspecto:
     
     ![Captura de pantalla de Sincronización de la segmentación Ventas mensuales de distrito.](media/power-bi-visualization-slicers/9-sync-slicers.png)
     
-1. En la columna **Sincronizar** del panel **Sincronizar segmentaciones** , seleccione las páginas **Información general** , **Ventas mensuales de distrito** y **Nuevas tiendas**. 
+1. En la columna **Sincronizar** del panel **Sincronizar segmentaciones**, seleccione las páginas **Información general**, **Ventas mensuales de distrito** y **Nuevas tiendas**. 
 
     Esta selección hace que la segmentación **Ventas mensuales de distrito** se sincronice en estas tres páginas. 
     
-1. En la columna **Visible** del panel **Sincronizar segmentaciones** , seleccione la página **Nuevas tiendas**. 
+1. En la columna **Visible** del panel **Sincronizar segmentaciones**, seleccione la página **Nuevas tiendas**. 
 
     Esta selección hace que la segmentación **Ventas mensuales de distrito** sea visible en estas tres páginas. Ahora el panel **Sincronizar segmentaciones** aparece de esta forma:
 
     ![Captura de pantalla de Selección de páginas en Sincronizar segmentaciones.](media/power-bi-visualization-slicers/power-bi-sync-slicer-finished.png)
 
-1. Observe los efectos de sincronizar la segmentación y hacerla visible en las otras páginas. En la página **Ventas mensuales de distrito** , observe que el control deslizante **Administrador de distrito** muestra ahora las mismas selecciones que en la página **Información general**. En la página **Nuevas tiendas** , ahora la segmentación **Administrador de distrito** es visible y sus selecciones afectan a las que son visibles en la segmentación **Nombre de la tienda**. 
+1. Observe los efectos de sincronizar la segmentación y hacerla visible en las otras páginas. En la página **Ventas mensuales de distrito**, observe que el control deslizante **Administrador de distrito** muestra ahora las mismas selecciones que en la página **Información general**. En la página **Nuevas tiendas**, ahora la segmentación **Administrador de distrito** es visible y sus selecciones afectan a las que son visibles en la segmentación **Nombre de la tienda**. 
     
     >[!TIP]
     >Aunque la segmentación aparece inicialmente en las páginas sincronizadas con el mismo tamaño y posición que en la página original, puede mover, cambiar el tamaño y dar formato de forma independiente a segmentaciones sincronizadas en las distintas páginas. 
@@ -135,25 +135,25 @@ En el informe actual, la página **Ventas mensuales de distrito** tiene también
     >Si sincroniza una segmentación con una página pero no la hace visible en esa página, las selecciones de segmentación realizadas en las demás páginas seguirán filtrando los datos en la página.
  
 ## <a name="filtering-slicers"></a>Filtrado de segmentaciones
-Puede aplicar filtros de nivel de objeto visual a las segmentaciones para reducir la lista de valores que se muestran en la segmentación. Por ejemplo, puede filtrar los valores en blanco de una segmentación de lista o filtrar determinadas fechas de una segmentación de intervalo. Al hacerlo, solo afecta a los *valores que se muestran en la segmentación* , no al *filtro que la segmentación aplica a otros objetos visuales* cuando se realiza una selección. Por ejemplo, supongamos que aplica un filtro a una segmentación de intervalo para mostrar solo determinadas fechas. La selección en la segmentación solo mostrará la primera y la última fecha de ese intervalo, pero aun así verá otras fechas en otros objetos visuales. Una vez que cambie el intervalo seleccionado en la segmentación, verá que los demás objetos visuales se actualizan. Si borra la segmentación, se mostrarán de nuevo todas las fechas.
+Puede aplicar filtros de nivel de objeto visual a las segmentaciones para reducir la lista de valores que se muestran en la segmentación. Por ejemplo, puede filtrar los valores en blanco de una segmentación de lista o filtrar determinadas fechas de una segmentación de intervalo. Al hacerlo, solo afecta a los *valores que se muestran en la segmentación*, no al *filtro que la segmentación aplica a otros objetos visuales* cuando se realiza una selección. Por ejemplo, supongamos que aplica un filtro a una segmentación de intervalo para mostrar solo determinadas fechas. La selección en la segmentación solo mostrará la primera y la última fecha de ese intervalo, pero aun así verá otras fechas en otros objetos visuales. Una vez que cambie el intervalo seleccionado en la segmentación, verá que los demás objetos visuales se actualizan. Si borra la segmentación, se mostrarán de nuevo todas las fechas.
 
 Consulte [Tipos de filtros](../create-reports/power-bi-report-filter-types.md) para obtener más información sobre los filtros de nivel de objeto visual.
 
 ## <a name="format-slicers"></a>Segmentaciones de formato
-Existen diferentes opciones de formato según el tipo de segmentación. Con la orientación **Horizontal** , el diseño **dinámico** y la posibilidad de colorear **elementos** , puede generar botones o iconos en lugar de elementos de lista estándar, y hacer que los elementos de segmentación cambien de tamaño para ajustarse a diferentes diseños y tamaños de pantalla.  
+Existen diferentes opciones de formato según el tipo de segmentación. Con la orientación **Horizontal**, el diseño **dinámico** y la posibilidad de colorear **elementos**, puede generar botones o iconos en lugar de elementos de lista estándar, y hacer que los elementos de segmentación cambien de tamaño para ajustarse a diferentes diseños y tamaños de pantalla.  
 
-1. Con la segmentación **Administrador de distrito** seleccionada, en el panel **Visualizaciones** , seleccione el icono **Formato** ![Captura de pantalla del icono Formato.](media/power-bi-visualization-slicers/power-bi-paintroller.png) para mostrar los controles de formato. 
+1. Con la segmentación **Administrador de distrito** seleccionada, en el panel **Visualizaciones**, seleccione el icono **Formato** ![Captura de pantalla del icono Formato.](media/power-bi-visualization-slicers/power-bi-paintroller.png) para mostrar los controles de formato. 
     
     ![Captura de pantalla de la selección de formato.](media/power-bi-visualization-slicers/3-format.png)
     
 1. Seleccione las flechas desplegables situadas junto a cada categoría para mostrar y editar las opciones. 
 
 ### <a name="general-options"></a>Opciones generales
-1. En **Formato** , seleccione **General** , seleccione un color rojo en **Color del esquema** y, después, cambie **Grosor del esquema** a *2*. 
+1. En **Formato**, seleccione **General**, seleccione un color rojo en **Color del esquema** y, después, cambie **Grosor del esquema** a *2*. 
 
     Este valor cambia el color y el grosor de los esquemas y subrayados de los encabezados y elementos.
 
-1. En **Orientación** , **Vertical** es la opción seleccionada de forma predeterminada. Seleccione **Horizontal** para generar una segmentación con botones o iconos organizados horizontalmente, y flechas de desplazamiento para acceder a los elementos que no caben en la segmentación.
+1. En **Orientación**, **Vertical** es la opción seleccionada de forma predeterminada. Seleccione **Horizontal** para generar una segmentación con botones o iconos organizados horizontalmente, y flechas de desplazamiento para acceder a los elementos que no caben en la segmentación.
     
     ![Captura de pantalla de las selecciones generales.](media/power-bi-visualization-slicers/4-horizontal.png)
     
@@ -166,7 +166,7 @@ Existen diferentes opciones de formato según el tipo de segmentación. Con la o
     >[!NOTE]
     >Los cambios de diseño dinámico pueden invalidar un determinado formato de título y elementos que haya establecido. 
     
-1. En **Posición X** , **Posición Y** , **Ancho** y **Alto** , establezca la posición y el tamaño de la segmentación con una precisión numérica, o bien mueva y cambie el tamaño de la segmentación directamente en el lienzo. 
+1. En **Posición X**, **Posición Y**, **Ancho** y **Alto**, establezca la posición y el tamaño de la segmentación con una precisión numérica, o bien mueva y cambie el tamaño de la segmentación directamente en el lienzo. 
 
     Experimente con diferentes tamaños de elementos y organizaciones, y observe cómo el diseño dinámico cambia en consecuencia. Estas opciones solo están disponibles cuando se seleccionan orientaciones horizontales. 
 
@@ -175,7 +175,7 @@ Existen diferentes opciones de formato según el tipo de segmentación. Con la o
 Para más información sobre las orientaciones horizontales y los diseños dinámicos, vea [Creación de una segmentación con capacidad de respuesta que se puede cambiar de tamaño en Power BI](../create-reports/power-bi-slicer-filter-responsive.md).
 
 ### <a name="selection-controls-options-list-slicers-only"></a>Opciones de controles de selección (solo segmentaciones de lista)
-1. En **Controles de selección** , **active** **Mostrar la opción "Seleccionar todo"** para agregar un elemento **Seleccionar todo** a la segmentación. 
+1. En **Controles de selección**, **active** **Mostrar la opción "Seleccionar todo"** para agregar un elemento **Seleccionar todo** a la segmentación. 
 
     **Mostrar opción "Seleccionar todo"** está **desactivada** de forma predeterminada. Cuando se habilita esta opción, al activarla, se seleccionan todos los elementos o se anula su selección. Si selecciona todos los elementos, al seleccionar un elemento se anula la selección, lo que permite un tipo de filtro *no es*.
     
@@ -183,50 +183,50 @@ Para más información sobre las orientaciones horizontales y los diseños diná
     
 1. **Desactive** la opción **Selección única** para poder seleccionar varios elementos sin necesidad de mantener presionada la tecla **Ctrl**. 
 
-    La opción **Selección única** está **activada** de forma predeterminada. Al seleccionar un elemento se selecciona y, si se mantiene presionada la tecla **Ctrl** , se seleccionan varios elementos. Si vuelve seleccionar un elemento, se anula su selección.
+    La opción **Selección única** está **activada** de forma predeterminada. Al seleccionar un elemento se selecciona y, si se mantiene presionada la tecla **Ctrl**, se seleccionan varios elementos. Si vuelve seleccionar un elemento, se anula su selección.
 
 ### <a name="title-options"></a>Opciones de título
 La opción **Título** está **activada** de forma predeterminada. Esta selección muestra el nombre del campo de datos en la parte superior de la segmentación. También puede editar el título, que es especialmente útil para las segmentaciones de la jerarquía. Vea [Cambiar el título](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md#change-the-title) en el artículo "Adición de varios campos a una segmentación de jerarquía" para obtener más información.
 
 - En este artículo, aplique formato al texto como se indica a continuación: 
-   - **Color de fuente** : rojo
-   - **Tamaño del texto** : **14 pt**
-   - **Alineación** : **Centro**
-   - **Familia de fuentes** : **Arial Black**
+   - **Color de fuente**: rojo
+   - **Tamaño del texto**: **14 pt**
+   - **Alineación**: **Centro**
+   - **Familia de fuentes**: **Arial Black**
 
 
 ### <a name="items-options"></a>Opciones de elementos
 
 Las opciones de elementos solo están disponibles para las segmentaciones de lista.
 
-1. En este artículo, aplique los formatos siguientes a las opciones de **Elementos** :
-    - **Color de fuente** : negro
-    - **Fondo** : rojo claro
-    - **Tamaño del texto** : **10 pt**
-    - **Familia de fuentes** : **Arial**
+1. En este artículo, aplique los formatos siguientes a las opciones de **Elementos**:
+    - **Color de fuente**: negro
+    - **Fondo**: rojo claro
+    - **Tamaño del texto**: **10 pt**
+    - **Familia de fuentes**: **Arial**
  
-1. Para **Contorno** , elija **Marco** a fin de dibujar un borde alrededor de cada elemento con el tamaño y el color que establezca en **Opciones generales**. 
+1. Para **Contorno**, elija **Marco** a fin de dibujar un borde alrededor de cada elemento con el tamaño y el color que establezca en **Opciones generales**. 
     
     ![Captura de pantalla de las opciones de contorno de marco.](media/power-bi-visualization-slicers/8-formatted.png)
     
     >[!TIP]
     >- Con las opciones **General** > **Orientación** > **Horizontal** seleccionadas, los elementos no seleccionados muestran los colores de fondo y texto elegidos. Los elementos seleccionados usan el valor predeterminado del sistema, normalmente un fondo negro con texto en blanco.
-    >- Al seleccionar **General** > **Orientación > Vertical** , los elementos siempre muestran los colores seleccionados y las casillas siempre son de color negro cuando se seleccionan. 
+    >- Al seleccionar **General** > **Orientación > Vertical**, los elementos siempre muestran los colores seleccionados y las casillas siempre son de color negro cuando se seleccionan. 
 
 ### <a name="datenumeric-inputs-and-slider-options"></a>Entradas de fecha/numérica y opciones de control deslizante
 
 Las entradas numéricas y de fecha y las opciones de control deslizante solo están disponibles para segmentaciones de controles deslizantes de intervalo.
 
-- Para las segmentaciones de lista, las opciones de entradas numéricas y de fecha son las mismas que las de **Elementos** , salvo que no hay opciones de contorno ni subrayado.
+- Para las segmentaciones de lista, las opciones de entradas numéricas y de fecha son las mismas que las de **Elementos**, salvo que no hay opciones de contorno ni subrayado.
 - Las opciones de **control deslizante** permiten establecer el color del control deslizante de intervalo o **desactivar** el control deslizante para dejar solamente las entradas numéricas.
 
 ### <a name="other-formatting-options"></a>Otras opciones de formato
 Las demás opciones de formato están **desactivadas** de forma predeterminada. **Active** estas opciones para controlarlas: 
 
-- **Fondo** : agrega un color de fondo a la segmentación y establece su transparencia.
-- **Bloquear relación de aspecto** : Conserve el alto y el ancho relativos de la segmentación si se cambia el tamaño.
-- **Borde** : agrega un borde alrededor de la segmentación y establece su color. Este borde de la segmentación es independiente y no se ve afectado por la configuración **General**.
-- **Sombra** : agregue una sombra paralela al control deslizante.
+- **Fondo**: agrega un color de fondo a la segmentación y establece su transparencia.
+- **Bloquear relación de aspecto**: Conserve el alto y el ancho relativos de la segmentación si se cambia el tamaño.
+- **Borde**: agrega un borde alrededor de la segmentación y establece su color. Este borde de la segmentación es independiente y no se ve afectado por la configuración **General**.
+- **Sombra**: agregue una sombra paralela al control deslizante.
 
 ## <a name="next-steps"></a>Pasos siguientes
 Para más información sobre las segmentaciones, consulte los siguientes artículos:

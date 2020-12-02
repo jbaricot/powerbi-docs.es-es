@@ -1,20 +1,20 @@
 ---
 title: Esquema jerárquico
 description: 'Tutorial: Creación de una visualización de esquema jerárquico en Power BI'
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a8bc86217dac8f0c2b70e300f08b1667ee63568
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: fd4f984be74c0408eae5c476fa30994de55961a0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413094"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386375"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Creación y visualización de objetos visuales de esquema jerárquico en Power BI
 
@@ -43,8 +43,8 @@ Seleccione el icono del esquema jerárquico en el panel Visualizaciones.
 
 La visualización requiere dos tipos de entrada:
 
- - **Analyze** : la métrica que quisiera analizar. Debe ser una medida o un agregado.  
- - **Explain By** : una o más dimensiones que quisiera explorar en profundidad.
+ - **Analyze**: la métrica que quisiera analizar. Debe ser una medida o un agregado.  
+ - **Explain By**: una o más dimensiones que quisiera explorar en profundidad.
 
 Una vez que arrastra la medida al campo, el objeto visual se actualiza y muestra la medida agregada. En el ejemplo siguiente, se visualiza el porcentaje promedio de los productos pendientes (5,07 %).
 
@@ -78,14 +78,14 @@ Puede usar "Divisiones de IA" para saber en qué parte de los datos debe fijarse
 
 El análisis puede funcionar de dos maneras según sus preferencias. El comportamiento predeterminado es el siguiente:
 
- - **Valor alto** : considera todos los campos disponibles y determina cuál se debe explorar en profundidad para obtener el valor más alto de la medida que se está analizando.  
- - **Valor bajo** : considera todos los campos disponibles y determina cuál se debe explorar en profundidad para obtener el valor más bajo de la medida que se está analizando.  
+ - **Valor alto**: considera todos los campos disponibles y determina cuál se debe explorar en profundidad para obtener el valor más alto de la medida que se está analizando.  
+ - **Valor bajo**: considera todos los campos disponibles y determina cuál se debe explorar en profundidad para obtener el valor más bajo de la medida que se está analizando.  
 
 Si selecciona **Valor alto** en el ejemplo de los pedidos pendientes, ocurre lo siguiente:
 
 ![División de IA del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
 
-Aparece una bombilla junto a **Tipo de producto** , lo que indica que se trataba de una "división de IA". El árbol también proporciona una línea de puntos que recomienda el nodo **Supervisión del paciente** , que genera el valor más alto de pedidos pendientes (9,2 %). 
+Aparece una bombilla junto a **Tipo de producto**, lo que indica que se trataba de una "división de IA". El árbol también proporciona una línea de puntos que recomienda el nodo **Supervisión del paciente**, que genera el valor más alto de pedidos pendientes (9,2 %). 
 
 Mantenga el mouse sobre la bombilla para ver información sobre herramientas. En este ejemplo, la información sobre herramientas es "qué % de pedidos pendientes es mayor cuando el Tipo de producto es Supervisión del paciente".
 
@@ -95,9 +95,9 @@ El modo relativo busca valores altos que se destaquen (en comparación con el re
 
 ![División absoluta del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
 
-En la captura de pantalla anterior, examinamos una venta de videojuegos en Norteamérica. Primero dividimos el árbol por **Nombre del publicador** y, luego, desglosamos hasta llegar a Nintendo. Si selecciona **Valor alto** , se expande **La plataforma es Nintendo**. Dado que Nintendo (el publicador) solo desarrolla para consolas de Nintendo, no hay más que un valor presente y, por lo tanto, no sorprende que sea el valor más alto.
+En la captura de pantalla anterior, examinamos una venta de videojuegos en Norteamérica. Primero dividimos el árbol por **Nombre del publicador** y, luego, desglosamos hasta llegar a Nintendo. Si selecciona **Valor alto**, se expande **La plataforma es Nintendo**. Dado que Nintendo (el publicador) solo desarrolla para consolas de Nintendo, no hay más que un valor presente y, por lo tanto, no sorprende que sea el valor más alto.
 
-No obstante, una división más interesante sería ver qué valor alto se destaca con respecto a otros valores de la misma columna. Si cambiamos el tipo de análisis de **Absoluto** a **Relativo** , obtenemos el resultado siguiente para Nintendo: ![División relativa del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-ai-relative.png)
+No obstante, una división más interesante sería ver qué valor alto se destaca con respecto a otros valores de la misma columna. Si cambiamos el tipo de análisis de **Absoluto** a **Relativo**, obtenemos el resultado siguiente para Nintendo: ![División relativa del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-ai-relative.png)
 
 Esta vez, el valor recomendado es **Plataforma dentro del género del juego**.  La plataforma no genera un valor absoluto mayor que Nintendo (USD 19 950 000 frente a USD 46 950 000). Sin embargo, es un valor que destaca.
 

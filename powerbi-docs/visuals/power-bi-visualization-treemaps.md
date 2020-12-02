@@ -1,20 +1,20 @@
 ---
 title: Gráficos de rectángulos en Power BI
 description: Gráficos de rectángulos en Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3cc14a9b873d86b3e9d62655d41d152cb3348252
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 11dbfceaf38cef74b4ea2190f805353a7723b0d8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411461"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387422"
 ---
 # <a name="treemaps-in-power-bi"></a>Gráficos de rectángulos en Power BI
 
@@ -26,7 +26,7 @@ Los gráficos de rectángulos muestran los datos jerárquicos como un conjunto d
 
 ![Captura de pantalla de un recuento de productos por categoría y el gráfico de rectángulos de fabricante.](media/power-bi-visualization-treemaps/pbi-nancy-viz-treemap.png)
 
-Por ejemplo, si está analizando sus ventas, es posible que tenga ramas de alto nivel para las categorías de ropa: **Urbana** , **Rural** , **Joven** y **Mezcla**. Power BI dividiría los rectángulos de su categoría en hojas, para los fabricantes de ropa dentro de esa categoría. Estas hojas cambiarán de tamaño y se sombrearán en función del número vendido.
+Por ejemplo, si está analizando sus ventas, es posible que tenga ramas de alto nivel para las categorías de ropa: **Urbana**, **Rural**, **Joven** y **Mezcla**. Power BI dividiría los rectángulos de su categoría en hojas, para los fabricantes de ropa dentro de esa categoría. Estas hojas cambiarán de tamaño y se sombrearán en función del número vendido.
 
 En la rama **Urban** anterior, se vendieron mucha ropa de **VanArsdel**. Se vendió menos de **Natura** y **Fama**. Solo se vendieron unos pocos **Leo**. Por lo tanto, la rama **Urban** del gráfico de rectángulos tiene:
 
@@ -74,14 +74,14 @@ En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas]
 
 
 
-Después de obtener el conjunto de datos **Ejemplo de análisis de minoristas** , puede empezar a trabajar.
+Después de obtener el conjunto de datos **Ejemplo de análisis de minoristas**, puede empezar a trabajar.
 
 ## <a name="create-a-basic-treemap"></a>Crear un gráfico de rectángulos básico
 
 Va a crear un informe y agregar un gráfico de rectángulos básico.
 
 
-1. En el panel **Campos** , seleccione la medida **Ventas** > **Ventas del último año**.
+1. En el panel **Campos**, seleccione la medida **Ventas** > **Ventas del último año**.
 
    ![Captura de pantalla de Ventas > Ventas del último año seleccionados y el objeto visual resultante.](media/power-bi-visualization-treemaps/treemapfirstvalue-new.png)
 
@@ -104,7 +104,7 @@ Va a crear un informe y agregar un gráfico de rectángulos básico.
 
 1. Mantenga el mouse encima de un área de **Cadena** para que aparezca la información sobre herramientas de la parte de la **Categoría**.
 
-    Por ejemplo, al pasar el cursor sobre **Fashions Direct** en el rectángulo **090-Home** , se muestra la información en pantalla para la parte Fashions Direct de la categoría Home.
+    Por ejemplo, al pasar el cursor sobre **Fashions Direct** en el rectángulo **090-Home**, se muestra la información en pantalla para la parte Fashions Direct de la categoría Home.
 
    ![Captura de pantalla de la información sobre herramientas de Inicio que aparece.](media/power-bi-visualization-treemaps/treemaphoverdetail-new.png)
 
@@ -113,11 +113,11 @@ Va a crear un informe y agregar un gráfico de rectángulos básico.
 
 Al resaltar una **Categoría** o un **Detalle** en un gráfico de rectángulos, se realiza un resaltado y un filtrado cruzados del resto de visualizaciones de la página de informe. Para poder continuar, agregue algunos objetos visuales a esta página del informe o copie el gráfico de rectángulos en una de las otras páginas de este informe. En la imagen siguiente, el gráfico de rectángulos se ha copiado en la página **Información general**. 
 
-1. En el gráfico de rectángulos, seleccione una **categoría** o una **cadena** dentro de una **categoría**. Esto realiza un resaltado cruzado de las demás visualizaciones de la página. Si se selecciona **050-Shoes** , por ejemplo, se muestra que las ventas de zapatos del último año fueron de **16 352 432 USD** de las cuales **Fashions Direct** representaron **2 174 185 USD** de dichas ventas.
+1. En el gráfico de rectángulos, seleccione una **categoría** o una **cadena** dentro de una **categoría**. Esto realiza un resaltado cruzado de las demás visualizaciones de la página. Si se selecciona **050-Shoes**, por ejemplo, se muestra que las ventas de zapatos del último año fueron de **16 352 432 USD** de las cuales **Fashions Direct** representaron **2 174 185 USD** de dichas ventas.
 
    ![Captura de pantalla del informe Información general las ventas de la tienda que muestra el resaltado cruzado.](media/power-bi-visualization-treemaps/treemaphiliting.png)
 
-1. En el gráfico circular **Last Year Sales by Chain** , seleccione el sector **Fashions Direct**.
+1. En el gráfico circular **Last Year Sales by Chain**, seleccione el sector **Fashions Direct**.
    ![GIF de demostración de la característica de filtrado cruzado.](media/power-bi-visualization-treemaps/treemapnoowl.gif)
 
 1. Para administrar cómo se realiza un resaltado y un filtrado cruzados de los gráficos, consulte [Cambiar cómo interactúan los objetos visuales en un informe de Power BI](../create-reports/service-reports-visual-interactions.md).

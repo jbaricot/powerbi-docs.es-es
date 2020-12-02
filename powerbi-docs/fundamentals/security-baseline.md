@@ -1,18 +1,19 @@
 ---
 title: Línea de base de seguridad de Azure para Power BI
 description: La línea de base de seguridad de Power BI proporciona instrucciones de procedimientos y recursos para implementar las recomendaciones de seguridad especificadas en Azure Security Benchmark.
-author: msmbaldwin
-ms.service: security
+author: mbaldwin
+ms.author: margoc
+ms.service: powerbi
+ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
-ms.author: mbaldwin
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: b0eb2906463efa95615fa76f3f7dda2a91ef126a
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 9e7aefba7a2e47fbf5249feaab3ac56057ac867c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95550574"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386272"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Línea de base de seguridad de Azure para Power BI
 
@@ -42,7 +43,7 @@ Para ver cómo Power BI coincide por completo con Azure Security Benchmark, vea
 
 **Instrucciones**: Power BI se integra con Azure Active Directory (Azure AD), que es el servicio de administración de identidades y acceso predeterminado de Azure. Debe usar Azure AD como estándar para controlar la administración de identidades y el acceso de la organización.
 
-La protección de Azure AD debe tener máxima prioridad en la práctica de seguridad en la nube de su organización. Azure AD proporciona una puntuación de seguridad de la identidad para ayudarle a evaluar el estado de seguridad de la identidad en relación con los procedimientos recomendados de Microsoft. Use la puntuación para medir el grado de coincidencia de la configuración con los procedimientos recomendados y para hacer mejoras en la posición de seguridad.
+La protección de Azure AD debe tener máxima prioridad en la práctica de seguridad en la nube de su organización. Azure AD proporciona una puntuación de seguridad de la identidad para ayudarle a evaluar la posición de seguridad de las identidades en relación con los procedimientos recomendados de Microsoft. Use la puntuación para medir el grado de coincidencia de la configuración con los procedimientos recomendados y para hacer mejoras en la posición de seguridad.
 
 Nota: Azure AD admite identidades externas que permiten a los usuarios que no tienen un cuenta de Microsoft iniciar sesión en sus aplicaciones y recursos con su identidad externa.
 
@@ -52,7 +53,7 @@ Nota: Azure AD admite identidades externas que permiten a los usuarios que no t
 
 - [Uso de proveedores de identidades externos para una aplicación](https://docs.microsoft.com/azure/active-directory/b2b/identity-providers)
 
-- [¿Qué es la puntuación de seguridad de la identidad en Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)
+- [¿Qué es la puntuación de seguridad de la identidad en Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)
 
 **Supervisión de Azure Security Center**: No aplicable
 
@@ -70,9 +71,9 @@ Automatización de tareas de área de trabajo y conjunto de datos de Premium con
 
 ### <a name="im-3-use-azure-ad-single-sign-on-sso-for-application-access"></a>IM-3: Uso del inicio de sesión único de Azure AD para acceder a las aplicaciones
 
-**Instrucciones**: Power BI usa Azure Active Directory para proporcionar administración de identidad y acceso a los recursos de Azure, las aplicaciones en la nube y las aplicaciones locales. Esto incluye identidades empresariales, como empleados, así como identidades externas, como asociados y proveedores. Esto permite que el inicio de sesión único (SSO) administre y proteja el acceso a los datos y recursos de la organización locales y en la nube. Conecte todos los usuarios, las aplicaciones y los dispositivos a Azure AD para obtener un acceso seguro y sin problemas, además de mayor visibilidad y control.
+**Instrucciones**: Power BI usa Azure Active Directory para proporcionar administración de identidad y acceso a los recursos de Azure, las aplicaciones en la nube y las aplicaciones locales. Esto incluye identidades empresariales, como empleados, así como identidades externas, como asociados y proveedores. Esto permite que el inicio de sesión único (SSO) administre y proteja el acceso a los datos y recursos de la organización locales y en la nube. Conecte todos los usuarios, las aplicaciones y los dispositivos a Azure AD para obtener un acceso seguro y sin problemas, y para lograr mayor visibilidad y control.
 
-- [Descripción del SSO de aplicación con Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on)
+- [Descripción del inicio de sesión único de aplicaciones con Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on)
 
 **Supervisión de Azure Security Center**: No aplicable
 
@@ -81,7 +82,7 @@ Automatización de tareas de área de trabajo y conjunto de datos de Premium con
 ### <a name="im-4-use-strong-authentication-controls-for-all-azure-active-directory-based-access"></a>IM-4: Uso de controles con autenticación multifactor sólida para todo el acceso basado en Azure Active Directory
 
 **Instrucciones**: Power BI se integra con Azure AD que admite controles de autenticación segura mediante la autenticación multifactor (MFA) y métodos sin contraseñas seguros.
-- Autenticación multifactor: habilite MFA de Azure AD y siga las recomendaciones de administración de identidades y acceso de Azure Security Center para obtener algunos procedimientos recomendados para la configuración de MFA. MFA se puede aplicar en todos los usuarios, en usuarios concretos o por usuario en función de las condiciones de inicio de sesión y los factores de riesgo.
+- Autenticación multifactor: habilite MFA de Azure AD y siga las recomendaciones de administración de identidades y acceso de Azure Security Center para obtener algunos procedimientos recomendados para la configuración de MFA. La autenticación multifactor se puede exigir a todos los usuarios, a usuarios concretos o a nivel de cada usuario en función de los factores de riesgo y las condiciones de inicio de sesión.
 - Autenticación sin contraseña: existen tres opciones de autenticación sin contraseña disponibles: Windows Hello para empresas, la aplicación Microsoft Authenticator y métodos de autenticación locales como las tarjetas inteligentes.
 
 Para los administradores y usuarios con privilegios, asegúrese de que se usa el nivel más alto de autenticación segura, seguido de la implementación de la directiva de autenticación segura adecuada para otros usuarios.
@@ -110,7 +111,7 @@ Nota: MFA solo se puede aplicar a las cuentas de usuario habilitadas en Azure A
 
 **Instrucciones**: Power BI admite el acceso condicional de Azure AD para un control de acceso más pormenorizado en función de condiciones definidas por el usuario; por ejemplo, los inicios de sesión de usuario desde determinados intervalos IP tendrán que usar MFA para el inicio de sesión. También se puede usar la directiva de administración de sesión de autenticación granular para distintos casos de uso.
 
-- [Información general sobre el acceso condicional de Azure](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
+- [Introducción al acceso condicional de Azure](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
 
 - [Directivas de acceso condicional habituales](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common)
 
@@ -503,7 +504,7 @@ Registro de actividad de Power BI:
 
 ### <a name="ir-3-detection-and-analysis--create-incidents-based-on-high-quality-alerts"></a>IR-3: Detección y análisis: creación de incidentes en función de alertas de alta calidad
 
-**Instrucciones**: Asegúrese de que tiene un proceso para crear alertas de alta calidad y medir la calidad de las alertas. Esto le permite aprender de incidentes anteriores y clasificar las alertas para los analistas, de modo que no pierdan tiempo con falsos positivos.
+**Guía**: Asegúrese de que cuenta con un proceso para crear alertas de alta calidad y medir la calidad de las alertas. Esto le permite aprender de incidentes anteriores y clasificar las alertas para los analistas, de modo que no pierdan tiempo con falsos positivos.
 
 Supervise las alertas relacionadas con Power BI en Microsoft Cloud App Security. Las alertas de alta calidad se pueden crear en función de la experiencia de incidentes anteriores, orígenes de la comunidad validados y herramientas diseñadas para generar y limpiar las alertas mediante la fusión y la correlación de diversos orígenes de la señal.
 
@@ -642,7 +643,7 @@ Esta estrategia debe incluir instrucciones, directivas y estándares documentado
 
 -   Estrategia de control de acceso necesaria según la clasificación de datos de la organización
 
--   Uso de funciones de protección de datos nativa de Azure y de terceros
+-   Uso de las funcionalidades de protección de datos nativa de Azure y de terceros
 
 -   Requisitos de cifrado de datos para casos de uso en tránsito y en reposo
 

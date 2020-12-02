@@ -1,18 +1,18 @@
 ---
 title: Automatización de la configuración de la instalación de aplicaciones de plantilla para los clientes
 description: Obtenga información sobre la automatización de la configuración de la instalación de aplicaciones de plantilla.
-author: PaulInbar
+author: paulinbar
 ms.author: painbar
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: f44c687f3cae883ae78c3907e4be224d8cd0ced4
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: ca5db6ed7a07d5a6fb10133285378e8318527464
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95550590"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386101"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>Configuración automatizada de la instalación de una aplicación de plantilla
 
