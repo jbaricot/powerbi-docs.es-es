@@ -1,20 +1,20 @@
 ---
 title: Conexión a Salesforce con Power BI
 description: Salesforce para Power BI
-author: SarinaJoan
+author: paulinbar
+ms.author: painbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/30/2019
-ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9fcf67a52bde69e62816af09a8fed69c8383927d
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f43d60a22d436cc0be5aa57bc9b383d535dbfc0d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216189"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392896"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Conexión a Salesforce con Power BI
 Power BI le permite conectarse fácilmente a su cuenta de Salesforce.com. Con esta conexión, puede recuperar los datos de Salesforce y disponer de un panel e informes proporcionados automáticamente.

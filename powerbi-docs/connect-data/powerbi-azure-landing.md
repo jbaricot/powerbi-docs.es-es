@@ -1,20 +1,20 @@
 ---
 title: Power BI para usuarios de Azure
 description: ¿Trabaja con datos, administra infraestructuras o crea aplicaciones en Microsoft Azure?
+author: willthom
+ms.author: willthom
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: landing-page
 ms.date: 12/12/2019
-ms.author: willthom
-author: MI77
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: f8c92f54a1dbe0e35b3cb377adfd58e6ac494577
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 73d6b90736045dc436d49889e6b22df29d15cfa0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396872"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392850"
 ---
 # <a name="power-bi-for-microsoft-azure-users"></a>Power BI para usuarios de Microsoft Azure 
 

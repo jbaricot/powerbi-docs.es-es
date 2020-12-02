@@ -1,19 +1,19 @@
 ---
 title: Migración de informes de SQL Server Reporting Services a Power BI
 description: Instrucciones para ayudarle a migrar los informes de SQL Server Reporting Services (SSRS) a Power BI.
-author: peter-myers
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/03/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 06bff0a199db9955f11487a05ba78268bb8a942d
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: f1b9b710c9f9e4ade80866026f728ddbe3ae6971
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561602"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393195"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>Migración de informes de SQL Server Reporting Services a Power BI
 
@@ -106,7 +106,7 @@ Si los informes de RDL dependen de las características [que todavía no se admi
 
 Si los informes RDL necesitan recuperar datos de _orígenes de datos locales_, no pueden usar el inicio de sesión único (SSO). Actualmente, toda la recuperación de datos de estos orígenes se realizará mediante el contexto de seguridad de la _cuenta de usuario del origen de datos de puerta de enlace_. SQL Server Analysis Services (SSAS) no puede aplicar seguridad de nivel de fila (RLS) por usuario.
 
-Por lo general, los informes paginados de Power BI están optimizados para la **impresión**o **generación de PDF**. Los informes de Power BI están optimizados para la **exploración e interactividad**. Para obtener más información, consulte [Cuándo usar informes paginados en Power BI](report-paginated-or-power-bi.md).
+Por lo general, los informes paginados de Power BI están optimizados para la **impresión** o **generación de PDF**. Los informes de Power BI están optimizados para la **exploración e interactividad**. Para obtener más información, consulte [Cuándo usar informes paginados en Power BI](report-paginated-or-power-bi.md).
 
 ### <a name="prepare"></a>Preparar
 
