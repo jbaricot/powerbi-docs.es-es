@@ -2,20 +2,20 @@
 title: Conozca qué paquetes de Python se admiten
 description: Paquetes de Python compatibles e incompatibles con Power BI
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 06/26/2020
-ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1dc77d2ebf0803430ceeace7e14bfa62a6d2a60
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 07b16bb90b548f071472f9f7d22095ccdff78f56
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85785242"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401728"
 ---
 # <a name="create-visuals-by-using-python-packages-in-the-power-bi-service"></a>Creación de objetos visuales mediante paquetes de Python en el servicio Power BI
 Puede usar el eficaz [lenguaje de programación Python](https://www.python.org/) para crear objetos visuales en el servicio Power BI. En el servicio Power BI se admiten muchos paquetes de Python y con el tiempo se van admitiendo más.

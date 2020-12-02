@@ -2,20 +2,20 @@
 title: Instalación y uso de aplicaciones con los paneles e informes de Power BI
 description: Buscar, instalar y usar aplicaciones en el servicio Power BI.
 author: mihart
+ms.author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: e0089d2492ad7a68aa2043cce4ca8677a0d276bb
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 7ee51cee6c79b55f746a4275fea5bb00a134e9c7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982293"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401337"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalación y uso de aplicaciones con los paneles e informes de Power BI
 
@@ -49,7 +49,7 @@ Puede buscar e instalar aplicaciones en el marketplace de aplicaciones de Power�
 
 1. [Inicie sesión en el servicio Power BI](./end-user-sign-in.md) si aún no lo ha hecho. 
 
-1. Una vez que el servicio Power BI esté abierto, seleccione **Aplicaciones > Obtener aplicaciones** . 
+1. Una vez que el servicio Power BI esté abierto, seleccione **Aplicaciones > Obtener aplicaciones**. 
 
     ![Obtener aplicaciones  ](./media/end-user-app-view/power-bi-get-apps.png)
 
@@ -58,9 +58,9 @@ Puede buscar e instalar aplicaciones en el marketplace de aplicaciones de Power�
    ![Marketplace de aplicaciones de Power BI](./media/end-user-app-view/power-bi-app-marketplace.png)
 
    Hay tres pestañas que puede utilizar:
-   * **Todas las aplicaciones** : examine las aplicaciones de plantilla y todas las aplicaciones de la organización disponibles. Las aplicaciones de plantilla se distinguen por el icono de la bolsa de la compra en la esquina superior derecha de los iconos.
-   * **Aplicaciones de la organización** : examine las aplicaciones de la organización que se han compartido con usted. 
-   * **Aplicaciones de plantilla** : examine las aplicaciones de plantilla que se hospedan en AppSource.
+   * **Todas las aplicaciones**: examine las aplicaciones de plantilla y todas las aplicaciones de la organización disponibles. Las aplicaciones de plantilla se distinguen por el icono de la bolsa de la compra en la esquina superior derecha de los iconos.
+   * **Aplicaciones de la organización**: examine las aplicaciones de la organización que se han compartido con usted. 
+   * **Aplicaciones de plantilla**: examine las aplicaciones de plantilla que se hospedan en AppSource.
 
    Como alternativa, puede usar el cuadro de búsqueda para obtener una selección filtrada de aplicaciones. Al escribir parte del nombre de una aplicación o de una categoría, como finanzas, análisis, marketing, etc., resultará más fácil encontrar el elemento que está buscando. 
 
@@ -116,10 +116,10 @@ Se abre la aplicación. Cada aplicación tendrá un aspecto distinto: diseño, o
 1. Seleccione **Power BI** para volver a [Inicio](end-user-home.md).
 1. La barra de acciones. 
 1. El lienzo de la página del informe.
-1. El panel de navegación de la aplicación.  Debajo del nombre de la aplicación se encuentra la lista de contenido. Esta aplicación tiene un informe con seis páginas. Seleccione el nombre de una página de informe para abrirlo. Actualmente está abierta la página *Tasa de devoluciones* . 
-1. Seleccione la flecha para expandir el panel **Filtros** .
+1. El panel de navegación de la aplicación.  Debajo del nombre de la aplicación se encuentra la lista de contenido. Esta aplicación tiene un informe con seis páginas. Seleccione el nombre de una página de informe para abrirlo. Actualmente está abierta la página *Tasa de devoluciones*. 
+1. Seleccione la flecha para expandir el panel **Filtros**.
 
-También puede explorar el área de trabajo asociada si se le ha concedido acceso.  Al instalar o descargar una aplicación de plantilla, el servicio Power BI crea un área de trabajo automáticamente. Al instalar una aplicación de la organización, es posible que no incluya acceso al área de trabajo. [Más información sobre las áreas de trabajo](end-user-workspaces.md). Seleccione **Power BI** (número 2) para volver a **Inicio** y elija **Áreas de trabajo** . 
+También puede explorar el área de trabajo asociada si se le ha concedido acceso.  Al instalar o descargar una aplicación de plantilla, el servicio Power BI crea un área de trabajo automáticamente. Al instalar una aplicación de la organización, es posible que no incluya acceso al área de trabajo. [Más información sobre las áreas de trabajo](end-user-workspaces.md). Seleccione **Power BI** (número 2) para volver a **Inicio** y elija **Áreas de trabajo**. 
 
 ![Captura de pantalla del área de trabajo Ventas y marketing en la que se muestra un informe y un conjunto de datos. ](./media/end-user-app-view/power-bi-new-workspace.png)
 
@@ -135,7 +135,7 @@ En ocasiones, los diseñadores de aplicaciones pueden publicar nuevas versiones 
 
         <!--![App update notification](./media/end-user-app-view/power-bi-new-app-version-notification.png) -->
 
-    2. Cuando se le pida que instale la aplicación actualizada, seleccione **Instalar** . 
+    2. Cuando se le pida que instale la aplicación actualizada, seleccione **Instalar**. 
 
         ![Instalación de la actualización](./media/end-user-app-view/power-bi-installs.png) 
 

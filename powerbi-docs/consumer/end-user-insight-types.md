@@ -2,19 +2,19 @@
 title: Tipos de información compatibles con Power BI
 description: Información rápida y Ver información con Power BI.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/12/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53074b44457abcf4cae6ffc3cffab2be6e8b95bb
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 2487c8215d4c1f2c3bc905457d6b5d08c5955c0c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045304"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400141"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de información compatibles con Power BI
 
@@ -32,11 +32,11 @@ Power BI busca rápidamente en otros subconjuntos del conjunto de datos. Durante
 ## <a name="some-terminology"></a>Terminología
 Power BI usa algoritmos estadísticos para revelar las conclusiones. Los algoritmos se enumeran y describen en la sección siguiente de este artículo. Antes de llegar a los algoritmos, aquí se enumeran las definiciones de algunos términos que pueden no resultar familiares. 
 
-* **Medida** : una medida es un campo cuantitativo (numérico) que se puede usar para realizar cálculos. Los cálculos comunes son los de suma, promedio y mínimo. Por ejemplo, si la empresa fabrica y vende monopatines, las medidas podrían ser el número de monopatines vendidos y el beneficio medio al año.  
-* **Dimensión** : las dimensiones son datos de categorías (texto). Una dimensión describe personas, objetos, elementos, productos, lugares y períodos de tiempo. En un conjunto de datos, las dimensiones son una manera de agrupar las *medidas* en categorías útiles. Para la empresa de monopatines, algunas dimensiones pueden incluir el análisis de las ventas (una medida) por modelo, color, país o campaña de marketing.   
-* **Correlación** : una correlación indica cómo se relaciona el comportamiento de las cosas.  Si sus patrones de aumento y reducción son similares, se correlacionan de manera positiva. Del mismo nodo, si sus patrones son opuestos, se correlacionan de forma negativa. Por ejemplo, si las ventas del monopatín rojo aumentan cada vez que se lanza una campaña de marketing en televisión, las ventas del monopatín rojo y la campaña de televisión están correlacionadas de forma positiva.
-* **Serie temporal** : una serie temporal es una forma de mostrar el tiempo como puntos de datos sucesivos. Estos puntos de datos pueden ser incrementos como segundos, horas, meses o años.  
-* **Variable continua** : una variable continua puede ser cualquier valor entre sus límites mínimo y máximo; de lo contrario, es una variable discreta. Algunos ejemplos son la temperatura, la ponderación, la edad y el tiempo. Las variables continuas pueden incluir fracciones o partes del valor. El número total de monopatines azules vendidos es una variable discreta, ya que no se puede vender medio monopatín.  
+* **Medida**: una medida es un campo cuantitativo (numérico) que se puede usar para realizar cálculos. Los cálculos comunes son los de suma, promedio y mínimo. Por ejemplo, si la empresa fabrica y vende monopatines, las medidas podrían ser el número de monopatines vendidos y el beneficio medio al año.  
+* **Dimensión**: las dimensiones son datos de categorías (texto). Una dimensión describe personas, objetos, elementos, productos, lugares y períodos de tiempo. En un conjunto de datos, las dimensiones son una manera de agrupar las *medidas* en categorías útiles. Para la empresa de monopatines, algunas dimensiones pueden incluir el análisis de las ventas (una medida) por modelo, color, país o campaña de marketing.   
+* **Correlación**: una correlación indica cómo se relaciona el comportamiento de las cosas.  Si sus patrones de aumento y reducción son similares, se correlacionan de manera positiva. Del mismo nodo, si sus patrones son opuestos, se correlacionan de forma negativa. Por ejemplo, si las ventas del monopatín rojo aumentan cada vez que se lanza una campaña de marketing en televisión, las ventas del monopatín rojo y la campaña de televisión están correlacionadas de forma positiva.
+* **Serie temporal**: una serie temporal es una forma de mostrar el tiempo como puntos de datos sucesivos. Estos puntos de datos pueden ser incrementos como segundos, horas, meses o años.  
+* **Variable continua**: una variable continua puede ser cualquier valor entre sus límites mínimo y máximo; de lo contrario, es una variable discreta. Algunos ejemplos son la temperatura, la ponderación, la edad y el tiempo. Las variables continuas pueden incluir fracciones o partes del valor. El número total de monopatines azules vendidos es una variable discreta, ya que no se puede vender medio monopatín.  
 
 ## <a name="what-types-of-insights-can-you-find"></a>¿Qué tipos de conclusiones se pueden encontrar?
 Estos son los algoritmos que usa Power BI. 
