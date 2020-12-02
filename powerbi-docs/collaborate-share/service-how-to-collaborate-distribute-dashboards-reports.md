@@ -5,17 +5,17 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 93ccb8c02e71165dfd23bcd82b21ae2758e03d43
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 424f3cc7412813cb9ea9f401d6edd22257e8d14a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396205"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411802"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Formas de colaborar y compartir en Power BI
 
@@ -101,7 +101,7 @@ También puede [compartir una instantánea de un icono](../consumer/mobile/mobil
 
 ## <a name="distribute-insights-in-an-app"></a>Distribución de información en una aplicación
 
-Supongamos que desea distribuir el panel a un público amplio en la organización. Junto con sus compañeros ha creado un *área de trabajo* y luego ha creado y refinado en ella paneles, informes y conjuntos de datos. Ahora seleccione los paneles e informes y publíquelos como una *aplicación* , para un grupo o para toda la organización.
+Supongamos que desea distribuir el panel a un público amplio en la organización. Junto con sus compañeros ha creado un *área de trabajo* y luego ha creado y refinado en ella paneles, informes y conjuntos de datos. Ahora seleccione los paneles e informes y publíquelos como una *aplicación*, para un grupo o para toda la organización.
 
 ![Icono de publicar aplicación](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-publish-app.png)
 
@@ -125,7 +125,7 @@ Las opciones **Insertar en SharePoint Online** e **Insertar** del servicio Power
 
 ### <a name="publish-to-public-web-sites"></a>Publicación en sitios web públicos
 
-Con la opción **Publicar en Web** , puede publicar informes de Power BI en todo Internet mediante la inserción de visualizaciones en entradas de blog, sitios web, redes sociales y otras comunicaciones en línea. Todos los usuarios de Internet pueden ver los informes y no se puede controlar quién puede ver lo que ha publicado. No necesitan una licencia de Power BI. La publicación en la Web está disponible solo para los informes que puede editar. No se pueden publicar informes en la Web si están compartidos con usted o si se encuentran en una aplicación. Obtenga información sobre cómo [publicar en la Web](service-publish-to-web.md)
+Con la opción **Publicar en Web**, puede publicar informes de Power BI en todo Internet mediante la inserción de visualizaciones en entradas de blog, sitios web, redes sociales y otras comunicaciones en línea. Todos los usuarios de Internet pueden ver los informes y no se puede controlar quién puede ver lo que ha publicado. No necesitan una licencia de Power BI. La publicación en la Web está disponible solo para los informes que puede editar. No se pueden publicar informes en la Web si están compartidos con usted o si se encuentran en una aplicación. Obtenga información sobre cómo [publicar en la Web](service-publish-to-web.md)
 
 >[!Warning]
 >Use [Publicar en la Web](service-publish-to-web.md) solo para compartir el contenido públicamente, no para uso compartido interno.

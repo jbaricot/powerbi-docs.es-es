@@ -2,20 +2,20 @@
 title: Conexión a los datos de Azure Cost Management en Power BI Desktop
 description: Conéctese fácilmente a Azure y consiga información sobre el costo y el uso de Azure con Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eae8afc9db44b703ade1a9a4fcc28c24c3d72641
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599867"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411480"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Creación de objetos visuales e informes con el conector Azure Cost Management de Power BI Desktop
 

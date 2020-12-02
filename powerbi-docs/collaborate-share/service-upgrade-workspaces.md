@@ -2,19 +2,19 @@
 title: Actualización de las áreas de trabajo clásicas a las áreas de trabajo nuevas
 description: Obtenga información sobre cómo actualizar un área de trabajo clásica a la experiencia de área de trabajo nueva. Puede actualizar cualquier área de trabajo, pero es posible que tenga que tener en cuenta y planear algunos cambios.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8e2b6c8d916cc3c180ab9adb9b6ea6af8eaefea4
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: d8e53e997aeef24d531cb733adc0b276a8395e57
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633064"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411618"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Actualización de las áreas de trabajo clásicas a las áreas de trabajo nuevas en Power BI
 

@@ -2,19 +2,19 @@
 title: Contenido destacado en la página Inicio de Power BI de los compañeros
 description: Procedimiento para destacar paneles e informes de Power BI en la página Inicio de Power BI de los compañeros de la organización.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: nikhilga
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eef0ba24347bd46cc86325cac494937e3f95086a
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: c45eb2afdf028f9e3a4b213333a0028924858a09
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462470"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411825"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Contenido destacado en la página Inicio de Power BI de los compañeros
 
@@ -38,25 +38,25 @@ Puede destacar un panel o un informe desde un área de trabajo. Cuando lo haga, 
 
 El procedimiento para destacar un panel o un informe es similar.
 
-1. En la lista **Paneles** o **Informes** de un área de trabajo, seleccione el icono **Configuración** .
+1. En la lista **Paneles** o **Informes** de un área de trabajo, seleccione el icono **Configuración**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Contenido destacado de Power BI en Inicio":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Icono Configuración del informe":::
 
-2. En el panel **Configuración** , compruebe o cambie el nombre. Agregue una **Descripción** y cargue una **Instantánea** , si quiere. Son útiles porque ayudan a los usuarios a encontrar el contenido.
+2. En el panel **Configuración**, compruebe o cambie el nombre. Agregue una **Descripción** y cargue una **Instantánea**, si quiere. Son útiles porque ayudan a los usuarios a encontrar el contenido.
 
-3. Seleccione **Destacados** .
+3. Seleccione **Destacados**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Contenido destacado de Power BI en Inicio":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Configuración de contenido destacado":::
 
-4. Seleccione **Guardar** .
+4. Seleccione **Guardar**.
 
-    Ahora todos los usuarios que tienen acceso a este panel o informe lo verán en la sección **Destacados** en **Inicio** .
+    Ahora todos los usuarios que tienen acceso a este panel o informe lo verán en la sección **Destacados** en **Inicio**.
 
 ## <a name="feature-an-app"></a>Destacado de una aplicación
 
-- Para destacar una aplicación, abra el área de trabajo de la aplicación, seleccione el menú **Opciones** ( **...** ) > **Destacar esta aplicación en la página principal** .
+- Para destacar una aplicación, abra el área de trabajo de la aplicación, seleccione el menú **Opciones** ( **...** ) > **Destacar esta aplicación en la página principal**.
 
-Ahora, todos los usuarios que tengan acceso a esta aplicación también la verán en la sección **Destacados** en **Inicio** .
+Ahora, todos los usuarios que tengan acceso a esta aplicación también la verán en la sección **Destacados** en **Inicio**.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

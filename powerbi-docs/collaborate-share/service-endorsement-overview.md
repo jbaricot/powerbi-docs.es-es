@@ -2,18 +2,18 @@
 title: 'Aprobación: promoción y certificación del contenido de Power BI'
 description: Obtenga información acerca de cómo hacer que el contenido de calidad sea más fácil de encontrar a través de la promoción o certificación
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: af222d1ebedf8e9afa2529d3d433da5d003a8059
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 65a83bf0e91d4f3004445ffcd8cd6f78d5a77fc3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92682039"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411848"
 ---
 # <a name="endorsement---promoting-and-certifying-power-bi-content"></a>Aprobación: promoción y certificación del contenido de Power BI
 
@@ -21,17 +21,17 @@ ms.locfileid: "92682039"
 
 A menudo, las organizaciones tienen una gran cantidad de contenido de Power BI disponible para que los usuarios de Power BI lo compartan y vuelvan a utilizarlo, por lo que la identificación de contenido fiable y autoritativo puede resultar difícil. La aprobación es una manera de facilitar a los usuarios la búsqueda del contenido de alta calidad que necesitan. El contenido aprobado se etiqueta de forma clara, tanto en Power BI como en otros lugares en los que los usuarios buscan contenido de Power BI (por ejemplo, Excel). También se le da prioridad en algunas búsquedas y se puede ordenar en algunas listas.
 
-Hay dos tipos de aprobación: **promoción** y **certificación** .
+Hay dos tipos de aprobación: **promoción** y **certificación**.
 
-* **Promoción** : permite a los usuarios resaltar el contenido que piensan que es valioso, que puede merecer la pena y que esté listo para otros usuarios. Se fomenta la diseminación colaborativa de contenido en la organización.
+* **Promoción**: permite a los usuarios resaltar el contenido que piensan que es valioso, que puede merecer la pena y que esté listo para otros usuarios. Se fomenta la diseminación colaborativa de contenido en la organización.
 
     Cualquier propietario de contenido, o cualquier miembro con permisos de escritura en el área de trabajo donde se encuentra el contenido, puede promoverlo simplemente cuando crea que tiene la calidad suficiente como para compartirlo.
 
-* **Certificación** : significa que el contenido cumple los estándares de calidad de la organización y se puede considerar como contenido fiable y autoritativo que está listo para su uso en toda la organización.
+* **Certificación**: significa que el contenido cumple los estándares de calidad de la organización y se puede considerar como contenido fiable y autoritativo que está listo para su uso en toda la organización.
 
     Solo un grupo de revisores seleccionados, que define el administrador de Power BI, está autorizado para certificar el contenido. Los propietarios de contenido que quieran ver su contenido certificado y que no estén autorizados para hacerlo deben seguir las directrices de su organización acerca de la obtención de la certificación del contenido.
 
-    **La certificación solo está disponible si un administrador de Power BI la ha habilitado y configurado para su organización** .
+    **La certificación solo está disponible si un administrador de Power BI la ha habilitado y configurado para su organización**.
 
 La imagen siguiente muestra cómo se identifica claramente el contenido aprobado (promocionado y certificado) al buscar un conjunto de datos sobre el que se va a crear un informe.
 

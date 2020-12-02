@@ -2,19 +2,19 @@
 title: 'Tutorial: Combinar datos y darles forma en Power BI Desktop'
 description: En este tutorial, aprenderá a dar forma a los datos y a combinarlos en Power BI Desktop.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 10/18/2019
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b2cb9c9f9e7e168f0d095824aa42dd78eba5ba39
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d45306776cb8f26af17208c3c57b44ffc65e20ac
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347548"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411135"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Tutorial: Combinar datos y darles forma en Power BI Desktop
 
@@ -159,7 +159,7 @@ Antes de poder trabajar con esta consulta, debemos realizar algunos cambios para
 
 1. Seleccione la marca de verificación verde situada a la izquierda del cuadro de fórmula o presione **Entrar**. 
 
-   Ahora, las filas se ordenan con arreglo a las dos columnas: **Nueva clasificación** y **Clasificación**. Además, puede seleccionar un **paso aplicado** en cualquier parte de la lista y seguir dando forma a los datos en ese momento en la secuencia. El editor de consultas insertará de forma automática un nuevo paso inmediatamente después del **paso aplicado**seleccionado actualmente. 
+   Ahora, las filas se ordenan con arreglo a las dos columnas: **Nueva clasificación** y **Clasificación**. Además, puede seleccionar un **paso aplicado** en cualquier parte de la lista y seguir dando forma a los datos en ese momento en la secuencia. El editor de consultas insertará de forma automática un nuevo paso inmediatamente después del **paso aplicado** seleccionado actualmente. 
 
 1. En **Paso aplicado**, seleccione el paso anterior a la columna personalizada, que es el paso **Columnas quitadas**. Aquí reemplazaremos el valor de la clasificación **El tiempo** de Arizona. Haga clic con el botón derecho en la celda que contiene la clasificación **El tiempo** de Arizona y seleccione **Reemplazar valores**. Observe cuál es el **paso aplicado** que está seleccionado actualmente.
 

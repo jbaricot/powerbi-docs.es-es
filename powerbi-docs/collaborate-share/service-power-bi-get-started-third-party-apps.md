@@ -1,21 +1,21 @@
 ---
 title: Introducción a las aplicaciones de terceros en Power BI
 description: Introducción a las aplicaciones de terceros en Power BI
-ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
+ms.service: powerbi
+ms.subservice: pbi-collaborate-share
+ms.topic: how-to
 ms.reviewer: ''
 ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 9e83d8689564471365666f9b4adfe2c3b9d1c05e
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 4b2ce1624bcbbc352ab4f4eaaeb97927c09c2d78
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526752"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411664"
 ---
 # <a name="get-started-with-third-party-apps"></a>Introducción a las aplicaciones de terceros
 
@@ -50,12 +50,12 @@ Estos son los tipos de acceso que una aplicación puede solicitar.
 
 Puede revocar los permisos de una aplicación de terceros en el sitio web Mis aplicaciones de Office 365.
 
-En el sitio web **Mis aplicaciones de Office 365** , aquí se muestra cómo revocar los permisos de terceros:
+En el sitio web **Mis aplicaciones de Office 365**, aquí se muestra cómo revocar los permisos de terceros:
 
 1. Vaya al sitio web [Mis aplicaciones de Office 365](https://portal.office.com/myapps).
 
-2. En la página **Mis aplicaciones** , busque la aplicación de terceros.
+2. En la página **Mis aplicaciones**, busque la aplicación de terceros.
 
-3. Mantenga el mouse sobre el icono de la aplicación, haga clic en el botón **(...)** y luego en **Quitar** .
+3. Mantenga el mouse sobre el icono de la aplicación, haga clic en el botón **(...)** y luego en **Quitar**.
 
    ![Captura de pantalla que muestra la opción Quitar para revocar permisos de terceros.](media/service-power-bi-get-started-third-party-apps/remove.png)

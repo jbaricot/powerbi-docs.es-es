@@ -2,20 +2,20 @@
 title: Conectarse a los datos en Power BI Desktop
 description: Conectarse a los datos en Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/21/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3319c2d3d739c1f67e5b8477de385e9dfa71e25a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a9fdb4e2ebd71d652c66220ad4a70473ef6dd764
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224102"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411296"
 ---
 # <a name="connect-to-data-sources-in-power-bi-desktop"></a>Conexión a orígenes de datos en Power BI Desktop
 

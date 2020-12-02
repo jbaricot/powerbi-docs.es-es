@@ -2,20 +2,20 @@
 title: Organización del trabajo en las nuevas áreas de trabajo en Power BI
 description: Obtenga información sobre las nuevas áreas de trabajo, que son colecciones de paneles e informes creadas para proporcionar métricas clave a su organización.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 10/21/2020
-ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1ea5e7633fb81b2792459c3a428c9c43827a5137
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 43af5a2ea924ababdba7b328b814045b75be5316
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462240"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411756"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organización del trabajo en las nuevas áreas de trabajo en Power BI
 
@@ -31,13 +31,13 @@ Las áreas de trabajo nuevas y actualizadas pueden coexistir en paralelo con las
 
 Con las nuevas áreas de trabajo, se han rediseñado algunas características. Estas son las diferencias principales.
 
-- **Al crear las nuevas áreas de trabajo no se crean grupos de Microsoft 365** , como sí ocurría con las áreas de trabajo clásicas. Toda la administración de la nueva área de trabajo se realiza en Power BI, no en Office 365. Puede seguir administrando el acceso del usuario al contenido a través de los grupos de Microsoft 365, si así lo desea. Solo tiene que agregar un grupo de Microsoft 365 en la lista de acceso al área de trabajo.
+- **Al crear las nuevas áreas de trabajo no se crean grupos de Microsoft 365**, como sí ocurría con las áreas de trabajo clásicas. Toda la administración de la nueva área de trabajo se realiza en Power BI, no en Office 365. Puede seguir administrando el acceso del usuario al contenido a través de los grupos de Microsoft 365, si así lo desea. Solo tiene que agregar un grupo de Microsoft 365 en la lista de acceso al área de trabajo.
 - **Uso de roles de área de trabajo más pormenorizados** para flexibilizar la administración de permisos en las nuevas áreas de trabajo.  En las áreas de trabajo clásicas solo puede agregar usuarios individuales a las listas de miembros y administradores. 
-- **Asignación de roles de área de trabajo a grupos de usuarios** : en las nuevas áreas de trabajo, puede agregar estos roles a varios grupos de seguridad de Active Directory, listas de distribución o grupos de Microsoft 365 para facilitar la administración de usuarios. 
-- **Lista de contactos** : en las nuevas áreas de trabajo, puede especificar quién recibe notificaciones sobre la actividad del área de trabajo.
-- **Creación de aplicaciones de plantilla** : solo puede crear *aplicaciones de plantilla* en las nuevas áreas de trabajo. Las aplicaciones de plantilla son aplicaciones que se pueden distribuir a los clientes de fuera de la organización. Después, esos clientes pueden conectarse a sus propios datos con la aplicación de plantilla. Más información sobre las [aplicaciones de plantilla](../connect-data/service-template-apps-overview.md).
-- **Uso compartido de conjuntos de datos** : para compartir un conjunto de datos fuera de un área de trabajo específica, debe guardar el informe que contiene el conjunto de datos en una de las nuevas áreas de trabajo. No se pueden compartir conjuntos de datos de áreas de trabajo clásicas. Más información sobre los [conjuntos de datos compartidos](../connect-data/service-datasets-across-workspaces.md).
-- **Paquetes de contenido organizativo** : cree y consuma paquetes de contenido organizativos en áreas de trabajo clásicas. Esto no puede hacerlo en las nuevas áreas de trabajo. Las aplicaciones y las aplicaciones de plantilla reemplazan a los paquetes de contenido organizativos en las nuevas áreas de trabajo.
+- **Asignación de roles de área de trabajo a grupos de usuarios**: en las nuevas áreas de trabajo, puede agregar estos roles a varios grupos de seguridad de Active Directory, listas de distribución o grupos de Microsoft 365 para facilitar la administración de usuarios. 
+- **Lista de contactos**: en las nuevas áreas de trabajo, puede especificar quién recibe notificaciones sobre la actividad del área de trabajo.
+- **Creación de aplicaciones de plantilla**: solo puede crear *aplicaciones de plantilla* en las nuevas áreas de trabajo. Las aplicaciones de plantilla son aplicaciones que se pueden distribuir a los clientes de fuera de la organización. Después, esos clientes pueden conectarse a sus propios datos con la aplicación de plantilla. Más información sobre las [aplicaciones de plantilla](../connect-data/service-template-apps-overview.md).
+- **Uso compartido de conjuntos de datos**: para compartir un conjunto de datos fuera de un área de trabajo específica, debe guardar el informe que contiene el conjunto de datos en una de las nuevas áreas de trabajo. No se pueden compartir conjuntos de datos de áreas de trabajo clásicas. Más información sobre los [conjuntos de datos compartidos](../connect-data/service-datasets-across-workspaces.md).
+- **Paquetes de contenido organizativo**: cree y consuma paquetes de contenido organizativos en áreas de trabajo clásicas. Esto no puede hacerlo en las nuevas áreas de trabajo. Las aplicaciones y las aplicaciones de plantilla reemplazan a los paquetes de contenido organizativos en las nuevas áreas de trabajo.
 
 En este artículo se explican estas características con más detalle.
 
@@ -48,11 +48,11 @@ En este artículo se explican estas características con más detalle.
 
 En las nuevas áreas de trabajo, algunas características funcionan de manera diferente. Estas diferencias son intencionales, en función de los comentarios que hemos recibido de los clientes, y permiten un enfoque más flexible hacia la colaboración en las áreas de trabajo.
 
-- **Cumplimiento de licencias** : al publicar informes en una nueva experiencia de área de trabajo se aplican las reglas de licencia existentes. Los usuarios que colaboran en las nuevas áreas de trabajo o que comparten contenido con otras personas en el servicio Power BI necesitan una licencia de Power BI Pro. Los usuarios sin una licencia Pro ven el error "Solo los usuarios con licencias de Power BI Pro pueden publicar en esta área de trabajo".
+- **Cumplimiento de licencias**: al publicar informes en una nueva experiencia de área de trabajo se aplican las reglas de licencia existentes. Los usuarios que colaboran en las nuevas áreas de trabajo o que comparten contenido con otras personas en el servicio Power BI necesitan una licencia de Power BI Pro. Los usuarios sin una licencia Pro ven el error "Solo los usuarios con licencias de Power BI Pro pueden publicar en esta área de trabajo".
 - **Opción "Members can reshare" (Los miembros pueden volver a compartir)** : el rol de colaborador de las nuevas áreas de trabajo reemplaza a la opción "Members can reshare" (Los miembros pueden volver a compartir) de las áreas de trabajo clásicas.
-- **Áreas de trabajo de solo lectura** : el rol de espectador de las nuevas áreas de trabajo reemplaza a la concesión de acceso de solo lectura a los usuarios a un área de trabajo clásica. El rol de espectador permite acceso de solo lectura similar al contenido de las nuevas áreas de trabajo.
+- **Áreas de trabajo de solo lectura**: el rol de espectador de las nuevas áreas de trabajo reemplaza a la concesión de acceso de solo lectura a los usuarios a un área de trabajo clásica. El rol de espectador permite acceso de solo lectura similar al contenido de las nuevas áreas de trabajo.
 - Los **usuarios sin una licencia Pro** pueden acceder a la nueva área de trabajo cuando esta se encuentra en una capacidad Power BI Premium, pero solo si tienen el rol de espectador.
-- **Permitir que los usuarios exporten datos** : incluso los usuarios con un rol de espectador en la nueva área de trabajo pueden exportar datos si tienen permiso de compilación sobre los conjuntos de datos de esa área de trabajo. Obtenga más información sobre [Permiso de compilación para conjuntos de datos](../connect-data/service-datasets-build-permissions.md).
+- **Permitir que los usuarios exporten datos**: incluso los usuarios con un rol de espectador en la nueva área de trabajo pueden exportar datos si tienen permiso de compilación sobre los conjuntos de datos de esa área de trabajo. Obtenga más información sobre [Permiso de compilación para conjuntos de datos](../connect-data/service-datasets-build-permissions.md).
 - No hay botón **Abandonar área de trabajo** en las nuevas áreas de trabajo.
 
 ### <a name="workspace-contact-list"></a>Lista de contactos del área de trabajo

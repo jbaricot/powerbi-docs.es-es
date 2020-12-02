@@ -1,20 +1,20 @@
 ---
 title: Parte II, Incorporación de visualizaciones a un informe de Power BI
 description: Parte II, Incorporación de visualizaciones a un informe de Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 79c613b33ccadacc7ce24d9eb744e66014218b52
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 6ddee012d01c64e0f35ac491d2b20ba362f2da90
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411714"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412469"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Adición de objetos visuales a un informe de Power BI (parte 2)
 
@@ -47,7 +47,7 @@ Cree una visualización seleccionando un campo en el panel **Campos** . El tipo 
 
 ### <a name="add-an-area-chart-that-looks-at-this-years-sales-compared-to-last-year"></a>Agregue un gráfico de áreas que examine las ventas de este año, en comparación con las del año pasado
 
-1. De la tabla **Sales** , seleccione **This Year Sales** >  y **Last Year Sales** en **Valor**. Power BI crea un gráfico de columnas.  Este gráfico es interesante y desea explorarlo en más profundidad. ¿Cómo son las ventas mensuales?  
+1. De la tabla **Sales**, seleccione **This Year Sales** >  y **Last Year Sales** en **Valor**. Power BI crea un gráfico de columnas.  Este gráfico es interesante y desea explorarlo en más profundidad. ¿Cómo son las ventas mensuales?  
    
    ![Captura de pantalla que muestra un gráfico de columnas](media/power-bi-report-add-visualizations-ii/power-bi-start.png)
 
@@ -65,7 +65,7 @@ Cree una visualización seleccionando un campo en el panel **Campos** . El tipo 
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>Incorporación de una visualización de mapa que examina las ventas por ubicación
 
-1. En la tabla **Tienda** , seleccione **Territorio**. Arrastre **Total Stores** al área Tamaño. Power BI reconoce que Territorio es una ubicación y crea una visualización de mapa.  
+1. En la tabla **Tienda**, seleccione **Territorio**. Arrastre **Total Stores** al área Tamaño. Power BI reconoce que Territorio es una ubicación y crea una visualización de mapa.  
    ![Gráfico de áreas](media/power-bi-report-add-visualizations-ii/power-bi-map1.png)
 
 2. Agregue una leyenda.  Para ver los datos por nombre de tienda, arrastre **Store** (Tienda)  > **Chain** (Cadena) al área Leyenda.  

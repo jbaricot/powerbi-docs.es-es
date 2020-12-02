@@ -2,21 +2,21 @@
 title: Mantenimiento planeado de Power BI
 description: Información para administradores sobre el modo en que el mantenimiento planeado de Power BI afecta a su organización y a los siguientes pasos que pueden tener que realizar.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2020
-ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: 68cd001995603fec3a64e4b2c79ee2216bfe9ac0
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: d62b06e23f7e97141f6d10451e9d75f8fb9e417e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132307"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412331"
 ---
 # <a name="power-bi-planned-maintenance"></a>Mantenimiento planeado de Power BI
 

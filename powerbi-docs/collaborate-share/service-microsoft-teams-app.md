@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 09/15/2020
-ms.openlocfilehash: 4b3e628c2a8cd3c90d44ae2a6c8f3f9967b22d9a
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: b85be8e4b231e714b4b9aba8cdf88b404c8bda74
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965702"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411779"
 ---
 # <a name="add-the-power-bi-app-to-microsoft-teams"></a>Adición de la aplicación Power BI a Microsoft Teams
 
@@ -42,7 +42,7 @@ En general, para que Power BI funcione en Microsoft Teams, asegúrese de lo si
 
 Seleccione **Más aplicaciones agregadas (...)** en la barra de navegación izquierda y, a continuación, seleccione **Power BI**. Si no lo ve, escriba **Power BI** en el cuadro **Buscar una aplicación**.
 
-:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-app.png" alt-text="Captura de pantalla de la aplicación Power BI en Microsoft Teams.":::
+:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-app.png" alt-text="Captura de pantalla de la instalación de la aplicación Power BI en Microsoft Teams.":::
 
 Eso es todo. La aplicación Power BI se instala en Microsoft Teams.
 
@@ -52,11 +52,11 @@ La interacción con el contenido en Microsoft Teams es igual que en el servicio
 
 Incluso puede compartir un informe con sus compañeros de trabajo en Microsoft Teams desde la aplicación Power BI en Microsoft Teams.
 
-:::image type="content" source="media/service-microsoft-teams-app/power-bi-app-share-teams.png" alt-text="Captura de pantalla de la aplicación Power BI en Microsoft Teams.":::
+:::image type="content" source="media/service-microsoft-teams-app/power-bi-app-share-teams.png" alt-text="Captura de pantalla del uso compartido en Microsoft Teams desde la aplicación Microsoft Teams.":::
 
 La aplicación Power BI en Microsoft Teams también incluye un centro de aprendizaje. Seleccione **Aprender** para ver el **Centro de aprendizaje**.
 
-:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-learn-tab.png" alt-text="Captura de pantalla de la aplicación Power BI en Microsoft Teams.":::
+:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-learn-tab.png" alt-text="Captura de pantalla del centro de aprendizaje en la aplicación Power BI en Microsoft Teams.":::
 
 ### <a name="differences-in-interactions"></a>Diferencias en las interacciones
 
@@ -64,11 +64,11 @@ Algunas interacciones son diferentes en la aplicación Teams que en el explorado
 
 - Cuando examine un panel o un informe, no verá el panel de navegación de Power BI. Seleccione el botón **Cerrar** para volver a Inicio o al área de trabajo.
 
-    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-close-report.png" alt-text="Captura de pantalla de la aplicación Power BI en Microsoft Teams.":::
+    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-close-report.png" alt-text="Captura de pantalla del botón Cerrar en la aplicación Power BI en Microsoft Teams.":::
 
 - Puede optar por abrir el informe en el servicio Power BI en lugar de verlo en Microsoft Teams. Seleccione **Open this on the web** (Abrir esto en la Web).
 
-    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-open-web.png" alt-text="Captura de pantalla de la aplicación Power BI en Microsoft Teams.":::
+    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-open-web.png" alt-text="Captura de pantalla del botón Abrir esto en la Web en la aplicación Power BI en Microsoft Teams.":::
 
 ## <a name="known-issues-and-limitations"></a>Limitaciones y problemas conocidos
 

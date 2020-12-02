@@ -2,19 +2,19 @@
 title: Análisis del impacto de los orígenes de datos
 description: Comprenda dónde se usan sus orígenes de datos.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 07/20/2020
-ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 71c214e265c84eb7436d384a98f793eefe2f6a23
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8c8a2a701415d9e937c5b592c915e51a4921840b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526242"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411894"
 ---
 # <a name="data-source-impact-analysis"></a>Análisis del impacto de los orígenes de datos
 
