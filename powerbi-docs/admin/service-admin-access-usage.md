@@ -2,19 +2,19 @@
 title: Encontrar usuarios de Power BI que hayan iniciado sesión
 description: Si es un administrador y quiere ver quién ha iniciado sesión en Power BI, puede usar los informes de acceso y uso de Azure Active Directory
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/25/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: e278918fdcf19a8de5cd5af1995bbc050dd765ec
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 84d4b0ab295f003c34937084bd93dd6f27992c31
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374754"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409295"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Encontrar usuarios de Power BI que hayan iniciado sesión
 

@@ -2,19 +2,19 @@
 title: Distribución de contenido a usuarios externos invitados con Azure AD B2B
 description: Power BI permite compartir contenido con usuarios invitados externos a través de Azure Active Directory Negocio a negocio (Azure AD B2B).
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 07/02/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c78be4dbd32d243dfaa392a1ac5ebd4d46c23d94
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 4831921ad7dff0264d606acfecf2434ddcaee882
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916185"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409272"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir contenido de Power BI a usuarios externos invitados con Azure AD B2B
 
@@ -56,7 +56,7 @@ Siga estos pasos para enviar una invitación en Azure Portal.
 
 1. En [Azure Portal](https://portal.azure.com), seleccione **Azure Active Directory**.
 
-1. En **Administrar** , seleccione **Usuarios** > **Todos los usuarios** > **Nuevo usuario invitado**.
+1. En **Administrar**, seleccione **Usuarios** > **Todos los usuarios** > **Nuevo usuario invitado**.
 
     ![Captura de pantalla de Azure Portal con la opción Nuevo usuario invitado destacada.](media/service-admin-azure-ad-b2b/azure-ad-portal-new-guest-user.png)
 

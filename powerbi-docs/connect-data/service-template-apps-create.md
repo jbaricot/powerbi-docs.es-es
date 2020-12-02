@@ -2,18 +2,18 @@
 title: Creación de aplicaciones de plantilla en Power BI
 description: Cómo crear aplicaciones de plantilla en Power BI que puede distribuir a cualquier cliente de Power BI.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/15/2020
-ms.author: painbar
-ms.openlocfilehash: 2f663c8e47e9a66ec3f4ee3eb70646239be6126a
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: fc62d291b890d840b89997cd5d5253572f91bf3e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375014"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410238"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creación de una aplicación de plantilla en Power BI
 

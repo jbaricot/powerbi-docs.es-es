@@ -2,25 +2,25 @@
 title: Sugerencias para crear aplicaciones de plantilla en Power BI
 description: Sugerencias sobre la creación de consultas, modelos de datos, informes y paneles para crear aplicaciones de plantilla de calidad
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
-ms.openlocfilehash: 4530a6579a3109a2696c77a79a3a5a1c6b8092dd
-ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
+ms.openlocfilehash: bb48b92df81a49ee687376ee9f53428c10171b80
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94348068"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410123"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugerencias para crear aplicaciones de plantilla en Power BI
 
 Cuando se [crea la aplicación de plantilla](service-template-apps-create.md) en Power BI, parte del proceso es la logística para crear el área de trabajo, las pruebas y la producción. Pero la otra parte importante es, obviamente, la creación del informe y el panel. El proceso de creación se puede desglosar en cuatro componentes principales. Trabajar en estos componentes le ayudará a crear la mejor aplicación de plantilla posible:
 
-* Mediante **consultas** , [conecta](desktop-connect-to-data.md) y [transforma](../transform-model/desktop-query-overview.md) los datos, y define [parámetros](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/). 
-* En el **modelo de datos** , crea [relaciones](../transform-model/desktop-create-and-manage-relationships.md), [medidas](../transform-model/desktop-measures.md) y mejoras de preguntas y respuestas.  
+* Mediante **consultas**, [conecta](desktop-connect-to-data.md) y [transforma](../transform-model/desktop-query-overview.md) los datos, y define [parámetros](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/). 
+* En el **modelo de datos**, crea [relaciones](../transform-model/desktop-create-and-manage-relationships.md), [medidas](../transform-model/desktop-measures.md) y mejoras de preguntas y respuestas.  
 * Las **[páginas de informes](../create-reports/desktop-report-view.md)** incluyen objetos visuales y filtros para proporcionar información sobre los datos.  
 * Los **[paneles](../consumer/end-user-dashboards.md)** y los [iconos](../create-reports/service-dashboard-create.md) ofrecen una visión general de la información incluida.
 * Los datos de ejemplo hacen que la aplicación se pueda descubrir inmediatamente después de la instalación.

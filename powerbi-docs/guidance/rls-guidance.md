@@ -1,19 +1,19 @@
 ---
 title: Instrucciones de seguridad de nivel de fila (RLS) en Power BI Desktop
 description: Instrucciones para aplicar seguridad de nivel de fila (RLS) en los modelos de datos con Power BI Desktop.
-author: peter-myers
+author: paulinbar
+ms.author: painbar
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 644e4499a335f18febadf33c371bd15e01499701
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 3c8290391d549f4510b4f6ea6ee0fd596500045e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349630"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410100"
 ---
 # <a name="row-level-security-rls-guidance-in-power-bi-desktop"></a>Instrucciones de seguridad de nivel de fila (RLS) en Power BI Desktop
 
@@ -39,7 +39,7 @@ FALSE()
 ```
 
 > [!NOTE]
-> Una regla no devolverá ninguna fila de la tabla cuando su expresión se evalúe como **false** .
+> Una regla no devolverá ninguna fila de la tabla cuando su expresión se evalúe como **false**.
 
 Aún así, un segundo rol, denominado **Managers** (Directivos), permite el acceso a todas las filas de la taba **Payroll** (Nómina) mediante la siguiente expresión de regla:
 
@@ -72,9 +72,9 @@ Los miembros pueden ser cuentas de usuario o grupos de seguridad. Siempre que se
 
 ## <a name="validate-roles"></a>Validación de roles
 
-Pruebe cada rol para asegurarse de que filtra el modelo correctamente. Se realiza fácilmente mediante el uso del comando **Ver como** en la pestaña de la cinta **Modelado** .
+Pruebe cada rol para asegurarse de que filtra el modelo correctamente. Se realiza fácilmente mediante el uso del comando **Ver como** en la pestaña de la cinta **Modelado**.
 
-Cuando el modelo tenga reglas dinámicas que usen la función DAX [USERNAME](/dax/username-function-dax), asegúrese de comprobar los valores esperados _e inesperados_ . Al incrustar contenido de Power BI —específicamente con el escenario [la aplicación posee los datos](../developer/embedded/embedding.md#embedding-for-your-customers)—, la lógica de la aplicación puede pasar cualquier valor como un nombre de usuario de identidad efectivo. Siempre que sea posible, asegúrese de que los valores accidentales o malintencionados den como resultado filtros que no devuelven ninguna fila.
+Cuando el modelo tenga reglas dinámicas que usen la función DAX [USERNAME](/dax/username-function-dax), asegúrese de comprobar los valores esperados _e inesperados_. Al incrustar contenido de Power BI —específicamente con el escenario [la aplicación posee los datos](../developer/embedded/embedding.md#embedding-for-your-customers)—, la lógica de la aplicación puede pasar cualquier valor como un nombre de usuario de identidad efectivo. Siempre que sea posible, asegúrese de que los valores accidentales o malintencionados den como resultado filtros que no devuelven ninguna fila.
 
 Considere un ejemplo que use Power BI insertado, donde la aplicación pasa el rol de trabajo del usuario como el nombre de usuario efectivo: Es "Manager"(Directivo) o "Worker" (Trabajador). Los administradores pueden ver todas las filas, pero los trabajadores solo pueden ver las filas en las que el valor de la columna **Tipo** es "Interno".
 
@@ -88,7 +88,7 @@ IF(
 )
 ```
 
-El problema con esta expresión de regla es que todos los valores, excepto "Worker" (Trabajador), devuelven _todas las filas de la tabla_ . Por lo tanto, un valor accidental, como "Wrker", devuelve involuntariamente todas las filas de la tabla. Así pues, es más seguro escribir una expresión que pruebe cada valor esperado. En la expresión de regla mejorada siguiente, un valor inesperado hará que la tabla no devuelva ninguna fila.
+El problema con esta expresión de regla es que todos los valores, excepto "Worker" (Trabajador), devuelven _todas las filas de la tabla_. Por lo tanto, un valor accidental, como "Wrker", devuelve involuntariamente todas las filas de la tabla. Así pues, es más seguro escribir una expresión que pruebe cada valor esperado. En la expresión de regla mejorada siguiente, un valor inesperado hará que la tabla no devuelva ninguna fila.
 
 ```dax
 IF(
@@ -104,7 +104,7 @@ IF(
 
 ## <a name="design-partial-rls"></a>RLS de diseño parcial
 
-A veces, los cálculos necesitan valores que no están restringidos por filtros de RLS. Por ejemplo, es posible que en un informe se tenga que mostrar la relación entre los ingresos obtenidos para la región de ventas del usuario del informe y _todos los ingresos obtenidos_ .
+A veces, los cálculos necesitan valores que no están restringidos por filtros de RLS. Por ejemplo, es posible que en un informe se tenga que mostrar la relación entre los ingresos obtenidos para la región de ventas del usuario del informe y _todos los ingresos obtenidos_.
 
 Aunque no es posible que una expresión DAX invalide RLS —de hecho, no puede determinar ni siquiera que se aplique RLS—, puede usar una tabla de modelo de resumen. La tabla del modelo de resumen se consulta para recuperar los ingresos de "todas las regiones" y no está restringida por ningún filtro de RLS.
 
@@ -169,7 +169,7 @@ Hay varias ventajas asociadas con la evitación de RLS:
 
 - **Mejor rendimiento de las consultas:** puede dar lugar a un rendimiento mejorado gracias a la reducción de filtros.
 - **Modelos más pequeños:** aunque da como resultado más modelos, su tamaño es menor. Los modelos más pequeños pueden mejorar la capacidad de respuesta de la consulta y la actualización de datos, especialmente si la capacidad de hospedaje experimenta presión sobre los recursos. Además, es más fácil mantener los tamaños de modelo por debajo de los límites de tamaño impuestos por su capacidad. Por último, es más fácil equilibrar las cargas de trabajo entre diferentes capacidades, ya que puede crear áreas de trabajo en distintas capacidades —o mover áreas de trabajo a estas—.
-- **Características adicionales** : se pueden usar características de Power BI que no funcionan con RLS, como [Publicar en Web](../collaborate-share/service-publish-to-web.md).
+- **Características adicionales**: se pueden usar características de Power BI que no funcionan con RLS, como [Publicar en Web](../collaborate-share/service-publish-to-web.md).
 
 Sin embargo, hay desventajas asociadas a evitar RLS:
 

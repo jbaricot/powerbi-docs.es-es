@@ -2,20 +2,20 @@
 title: 'Tutorial: Invocación de un modelo de Machine Learning Studio (clásico) en Power BI (versión preliminar)'
 description: En este tutorial se invoca un modelo de Machine Learning Studio (clásico) en Power BI.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 03/12/2019
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4124799f15bbccd7c82428d1290ae2ae6420311f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: c59e0fff95f611fbe84586af64db7a532285d72b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397125"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410215"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Tutorial: Invocación de un modelo de Machine Learning Studio (clásico) en Power BI (versión preliminar)
 
@@ -43,7 +43,7 @@ Para acceder a un modelo de Azure ML desde Power BI, debe tener acceso de **le
 
 En los siguientes pasos se da por sentado que usted es coadministrador de la suscripción a Azure y el grupo de recursos donde se publicó el modelo.
 
-Inicie sesión en [Azure Portal](https://portal.azure.com) y vaya a la página **Suscripciones** , la cual encontrará con la lista **Todos los servicios** del menú del panel de navegación.
+Inicie sesión en [Azure Portal](https://portal.azure.com) y vaya a la página **Suscripciones**, la cual encontrará con la lista **Todos los servicios** del menú del panel de navegación.
 
 ![En la captura de pantalla se muestra Azure Portal con la opción Suscripciones seleccionada.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
@@ -87,24 +87,24 @@ Seleccione **Archivo de texto o CSV** como origen de datos.
 
 ![Elegir origen de datos](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_07.png)
 
-En la siguiente pantalla, se le pedirá que se conecte a un origen de datos. Pegue el vínculo en los datos que usó para crear su modelo de Azure ML. Si usó los datos de los _precios de automoción_ , puede pegar el siguiente vínculo en el cuadro **URL o ruta del archivo** y, a continuación, hacer clic en **Siguiente**.
+En la siguiente pantalla, se le pedirá que se conecte a un origen de datos. Pegue el vínculo en los datos que usó para crear su modelo de Azure ML. Si usó los datos de los _precios de automoción_, puede pegar el siguiente vínculo en el cuadro **URL o ruta del archivo** y, a continuación, hacer clic en **Siguiente**.
 
 `https://raw.githubusercontent.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/master/Module7/Automobile%20price%20data%20_Raw_.csv`
 
 ![Conexión a un origen de datos](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
-El Editor de Power Query muestra una versión preliminar de los datos del archivo CSV. Seleccione **Transformar tabla** en la cinta de opciones de comando y, a continuación, seleccione **Usar la primera fila como encabezado**.  Al hacer esto se agrega el paso de la consulta _Encabezados promovidos_ en el panel **Pasos aplicados** situado a la derecha. También puede cambiar el nombre de la consulta por uno más descriptivo, como _Precios de automóviles_ , con el panel de la derecha.
+El Editor de Power Query muestra una versión preliminar de los datos del archivo CSV. Seleccione **Transformar tabla** en la cinta de opciones de comando y, a continuación, seleccione **Usar la primera fila como encabezado**.  Al hacer esto se agrega el paso de la consulta _Encabezados promovidos_ en el panel **Pasos aplicados** situado a la derecha. También puede cambiar el nombre de la consulta por uno más descriptivo, como _Precios de automóviles_, con el panel de la derecha.
 
 ![Captura de pantalla del Editor de Power Query, en el que se muestra una versión preliminar de los datos.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
-Nuestro conjunto de datos de origen tiene valores desconocidos establecidos en "?".  Para limpiarlo, podemos reemplazar "?" por "0" para evitar errores posteriormente por motivos de simplicidad.  Para ello, seleccione las columnas *normalized-losses* , *bore* , *stroke* , *compression-ratio* , *horsepower* , *peak-rpm* y *price* haciendo clic en su nombre en los encabezados de columna y, a continuación, haga clic en "Transformar columnas" y seleccione "Reemplazar valores".  Reemplace "?" por "0".
+Nuestro conjunto de datos de origen tiene valores desconocidos establecidos en "?".  Para limpiarlo, podemos reemplazar "?" por "0" para evitar errores posteriormente por motivos de simplicidad.  Para ello, seleccione las columnas *normalized-losses*, *bore*, *stroke*, *compression-ratio*, *horsepower*, *peak-rpm* y *price* haciendo clic en su nombre en los encabezados de columna y, a continuación, haga clic en "Transformar columnas" y seleccione "Reemplazar valores".  Reemplace "?" por "0".
 
 ![Reemplazar los valores](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_10.png)
 
 Todas las columnas de la tabla de un origen de texto o CSV se tratan como columnas de texto.  A continuación, debemos cambiar las columnas numéricas por sus tipos de datos correctos.  Puede hacerlo en Power Query haciendo clic en el símbolo de tipo de datos en el encabezado de columna.  Cambie las columnas por los tipos siguientes:
 
-- **Número entero** : symboling, normalized-losses, curb-weight, engine-size, horsepower, peak-rpm, city-mpg, highway-mpg y price
-- **Número decimal** : wheel-base, length, width, height, bore, stroke y compression-ratio
+- **Número entero**: symboling, normalized-losses, curb-weight, engine-size, horsepower, peak-rpm, city-mpg, highway-mpg y price
+- **Número decimal**: wheel-base, length, width, height, bore, stroke y compression-ratio
 
 ![Cambiar columnas](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_11.png)
 
@@ -126,7 +126,7 @@ También puede actualizar su flujo de datos con los comandos **Acciones**. En el
 
 ## <a name="apply-insights-from-your-azure-ml-model"></a>Aplicar las conclusiones de su modelo de Azure ML
 
-Para obtener acceso al modelo de Azure ML para la _predicción de los precios de automóviles_ , puede editar la entidad _Precios de automóviles_ para la que deseamos agregar el precio previsto.
+Para obtener acceso al modelo de Azure ML para la _predicción de los precios de automóviles_, puede editar la entidad _Precios de automóviles_ para la que deseamos agregar el precio previsto.
 
 ![Editar entidad](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_15.png)
 
@@ -136,11 +136,11 @@ Al seleccionar el icono **Editar** se abre el Editor de Power Query para las ent
 
 Seleccione el botón **Conclusiones de AI** de la cinta de opciones y, a continuación, seleccione la carpeta _Modelos de Azure Machine Learning_ en el menú del panel de navegación.
 
-Los modelos de Azure ML a los que se le ha concedido acceso se enumeran como funciones de Power Query con un prefijo *AzureML.*  Al hacer clic en la función correspondiente al modelo _AutomobilePricePrediction_ , los parámetros para el servicio web del modelo se enumeran como parámetros de función.
+Los modelos de Azure ML a los que se le ha concedido acceso se enumeran como funciones de Power Query con un prefijo *AzureML.*  Al hacer clic en la función correspondiente al modelo _AutomobilePricePrediction_, los parámetros para el servicio web del modelo se enumeran como parámetros de función.
 
 Para invocar un modelo de Azure ML, puede especificar cualquiera de las columnas de la entidad seleccionadas como entrada del menú desplegable. También puede especificar un valor constante que se va a usar como entrada cambiando el icono de la columna a la izquierda del cuadro de diálogo de entrada. Cuando hay un nombre de columna que coincide con uno de los nombres de parámetro de función, la columna se sugiere automáticamente como entrada.  Si el nombre de columna no coincide, puede seleccionarlo en el menú desplegable.
 
-En el caso del modelo de _predicción de los precios de automóviles_ , los parámetros de entrada son:
+En el caso del modelo de _predicción de los precios de automóviles_, los parámetros de entrada son:
 
 - make
 - body-style

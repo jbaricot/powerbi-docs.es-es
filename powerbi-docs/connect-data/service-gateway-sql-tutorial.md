@@ -2,19 +2,19 @@
 title: 'Tutorial: Conexión a datos locales en SQL Server'
 description: Obtenga información sobre cómo usar SQL Server como un origen de datos de la puerta de enlace, incluida la forma de actualizar los datos.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba518991145b727e141e1441f30ea73819bddb31
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83283517"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410284"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Actualización de los datos desde una base de datos local de SQL Server
 

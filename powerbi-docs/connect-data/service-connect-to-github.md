@@ -2,18 +2,18 @@
 title: Conexión a GitHub con Power BI
 description: GitHub para Power BI
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/19/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2e482c6efd60352721e1788a7929128af1b8cf89
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e92afdbad41f212ac93245583430ae44fe0abaf9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633639"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410652"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Conexión a GitHub con Power BI
 En este artículo, se explica cómo obtener datos de una cuenta de GitHub con una aplicación de plantilla de Power BI. La aplicación de plantilla genera un área de trabajo con un panel, un conjunto de informes y un conjunto de datos para que pueda explorar los datos de GitHub. La aplicación de GitHub para Power BI le muestra conclusiones sobre su repositorio de GitHub, con datos sobre contribuciones, problemas, solicitudes de incorporación de cambios y usuarios activos.

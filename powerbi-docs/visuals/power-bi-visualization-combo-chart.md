@@ -1,21 +1,21 @@
 ---
 title: Gráficos combinados en Power BI
 description: Este tutorial acerca de los gráficos combinados explica cuándo utilizarlos y cómo se crean en el servicio Power BI y Power BI Desktop.
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89fdd0852db9560a6e2b0d43e03b9f89c61dd33e
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: f5731f8660fc27e6aef44878f5410819ce0c0eae
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411576"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409939"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Creación y uso de gráficos combinados en Power BI
 
@@ -73,10 +73,10 @@ Vea cómo Will crea un gráfico combinado con el Ejemplo de marketing y ventas.
     ![Ejemplo de tutorial combinado](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Seleccione **Más opciones** (...) en la esquina superior derecha de la visualización y, después, seleccione **Ordenar por > FiscalMonth** (MesFiscal). Para cambiar el criterio de ordenación, vuelva a hacer clic en los puntos suspensivos y elija **Orden ascendente** u **Orden descendente**. En este ejemplo, se usará **Orden ascendente**.
 
-6. Convierta el gráfico de columnas en un gráfico combinado. Hay dos gráficos combinados disponibles: **Gráfico de columnas apiladas y de líneas** y **Gráfico de columnas agrupadas y de líneas**. Con el gráfico de columnas seleccionado, en el panel **Visualizaciones** , seleccione el **Gráfico de columnas agrupadas y de líneas**.
+6. Convierta el gráfico de columnas en un gráfico combinado. Hay dos gráficos combinados disponibles: **Gráfico de columnas apiladas y de líneas** y **Gráfico de columnas agrupadas y de líneas**. Con el gráfico de columnas seleccionado, en el panel **Visualizaciones**, seleccione el **Gráfico de columnas agrupadas y de líneas**.
 
     ![Ejemplo de conversión de gráfico combinado](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
-7. En el panel **Campos** , arrastre **Ventas** \> **Ventas del año anterior** al cubo **Valores de líneas**.
+7. En el panel **Campos**, arrastre **Ventas** \> **Ventas del año anterior** al cubo **Valores de líneas**.
 
    ![Área Valores de línea en la que se muestran las ventas del año anterior](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 
@@ -91,7 +91,7 @@ En esta tarea, compararemos el margen bruto y las ventas.
 En enero el porcentaje de margen bruto fue de un 35 %, en abril alcanzó un máximo de un 45 %, en julio descendió y luego volvió a alcanzar otro máximo en agosto. ¿Se verá un patrón similar en las ventas del año anterior y este año?
 
    ![Ventas de ejemplo de gráfico combinado](media/power-bi-visualization-combo-chart/combo1-new.png)
-2. Agregue **Ventas de este año > Valor** y **Ventas del último año** al gráfico de líneas. La escala de **porcentaje de margen bruto del último año** es mucho menor que la escala de **Ventas** , lo que dificulta la comparación.      
+2. Agregue **Ventas de este año > Valor** y **Ventas del último año** al gráfico de líneas. La escala de **porcentaje de margen bruto del último año** es mucho menor que la escala de **Ventas**, lo que dificulta la comparación.      
 
    ![Ejemplo de línea plana de gráfico combinado](media/power-bi-visualization-combo-chart/flatline-new.png)
 3. Para que el objeto visual sea fácil de leer e interpretar, convierta el gráfico de líneas en un gráfico de columnas apiladas y de líneas.
@@ -105,13 +105,13 @@ En enero el porcentaje de margen bruto fue de un 35 %, en abril alcanzó un má
 ## <a name="add-titles-to-the-axes"></a>Agregar títulos a los ejes
 1. Seleccione el icono de rodillo de pintura ![Icono de rodillo de pintar](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) para abrir el panel Formato.
 1. Seleccione la flecha hacia abajo para expandir las opciones del **eje Y** .
-1. Para **Eje Y (columna)** , establezca **Posición** en **Izquierda** , **Título** en **Activado** , **Estilo** en **Mostrar solo el título** y **Mostrar unidades** en **Millones**.
+1. Para **Eje Y (columna)** , establezca **Posición** en **Izquierda**, **Título** en **Activado**, **Estilo** en **Mostrar solo el título** y **Mostrar unidades** en **Millones**.
 
    ![Ejemplo de apertura de y de gráfico combinado](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
 4. En **Eje Y (columna)** , desplácese hacia abajo hasta que vea **Mostrar secundario**. Dado que hay tantas opciones para los ejes Y, puede que tenga que usar ambas barras de desplazamiento. La sección Mostrar secundario muestra opciones para dar formato a la parte de gráfico de líneas del gráfico combinado.
 
    ![Ejemplo de gráfico combinado secundario](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
-5. Para **Eje Y (línea)** , deje **Posición** como **Derecha** , establezca **Título** como **Activado** y **Estilo** como **Mostrar solo el título**.
+5. Para **Eje Y (línea)** , deje **Posición** como **Derecha**, establezca **Título** como **Activado** y **Estilo** como **Mostrar solo el título**.
 
    El gráfico combinado ahora muestra los dos ejes, ambos con títulos.
 
