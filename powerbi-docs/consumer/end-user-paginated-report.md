@@ -1,20 +1,20 @@
 ---
 title: Informes paginados en el servicio Power BI
 description: Documentación en la que se describen los informes paginados y cómo visualizarlos en el servicio Power BI
-author: mihart
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: christopher.finlan
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/11/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 15482b575d7fc923059964ea47a173fda6c7f600
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 2be1c325d876c944c31d62a67771308d80dca69d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983271"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390527"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Informes paginados en el servicio Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "91983271"
 
 Ha aprendido sobre los [informes de Power BI](end-user-reports.md), que son los tipos de informes que es más probable que encuentre. Los informes de Power BI están optimizados para la exploración e interactividad. Un informe de ventas donde diferentes vendedores desean segmentar los datos en el mismo informe por región, sector y cliente específicos y ver cómo cambian las cifras se representaría mejor como un informe de Power BI.
 
-Pero hay otro tipo de informes llamados *informes paginados* . Para recibir y visualizar informes paginados, se requiere una licencia de Power BI Pro o que el informe se guarde en una capacidad Premium.  [Más información sobre las licencias](end-user-license.md).  
+Pero hay otro tipo de informes llamados *informes paginados*. Para recibir y visualizar informes paginados, se requiere una licencia de Power BI Pro o que el informe se guarde en una capacidad Premium.  [Más información sobre las licencias](end-user-license.md).  
 
 ## <a name="identify-a-paginated-report"></a>Identificar un informe paginado
 
@@ -39,7 +39,7 @@ Los informes paginados son los más convenientes para escenarios que requieren u
 
 ## <a name="how-do-paginated-reports-work"></a>¿Cómo funcionan los informes paginados?
 
-Cuando los diseñadores de *informes* crean un informe paginado, lo que en realidad crean es una *definición de informe* . No contiene los datos. Especifica de dónde se obtienen los datos, qué datos se obtienen y cómo mostrar los datos. Al ejecutar el informe, el procesador de informes toma la definición de informe, recupera los datos y los combina con el diseño del informe para generar el informe. A veces, el informe muestra datos predeterminados. Otras veces es necesario especificar parámetros antes de que el informe pueda mostrar los datos. 
+Cuando los diseñadores de *informes* crean un informe paginado, lo que en realidad crean es una *definición de informe*. No contiene los datos. Especifica de dónde se obtienen los datos, qué datos se obtienen y cómo mostrar los datos. Al ejecutar el informe, el procesador de informes toma la definición de informe, recupera los datos y los combina con el diseño del informe para generar el informe. A veces, el informe muestra datos predeterminados. Otras veces es necesario especificar parámetros antes de que el informe pueda mostrar los datos. 
 
 Seleccione un informe paginado para abrirlo en el servicio Power BI. Si tiene parámetros, debe seleccionarlos para poder ver el informe.
 
@@ -47,7 +47,7 @@ Seleccione un informe paginado para abrirlo en el servicio Power BI. Si tiene p
 
 Y este suele ser el alcance de la interacción: establecer los parámetros. Si es un analista de facturación, puede usar los informes paginados para crear o imprimir facturas. Si es un jefe de ventas, puede usarlos para ver los pedidos por tienda o vendedor. 
 
-Este informe paginado simple genera beneficios por año después de seleccionar el parámetro **Año** . 
+Este informe paginado simple genera beneficios por año después de seleccionar el parámetro **Año**. 
 
 ![Informe de parámetro simple](./media/end-user-paginated-report/power-bi-one-parameter.png)
 
@@ -74,7 +74,7 @@ En este informe de pedidos de ventas hay tres parámetros: Tipo de negocio, Dist
 
 ![informe con tres parámetros](./media/end-user-paginated-report/power-bi-parameter-bar.png)
 
-Para cambiar la información que se muestra, introduzca valores nuevos para los tres parámetros y seleccione **Ver informe** . Aquí hemos seleccionado **Specialty bike shop** , **Alpine Ski House** y el número de pedido **SO46085** . Al seleccionar **Ver informe** , se actualiza el lienzo del informe con este nuevo pedido de ventas.
+Para cambiar la información que se muestra, introduzca valores nuevos para los tres parámetros y seleccione **Ver informe**. Aquí hemos seleccionado **Specialty bike shop**, **Alpine Ski House** y el número de pedido **SO46085**. Al seleccionar **Ver informe**, se actualiza el lienzo del informe con este nuevo pedido de ventas.
 
 ![cambiar los parámetros](./media/end-user-paginated-report/power-bi-orders.png)
 
@@ -100,7 +100,7 @@ Al suscribirse a un informe paginado, Power BI le enviará un correo electróni
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 
-- Un informe paginado puede aparecer en blanco hasta que seleccione parámetros y seleccione **Ver informe** .
+- Un informe paginado puede aparecer en blanco hasta que seleccione parámetros y seleccione **Ver informe**.
 
 - Si no tiene ningún informe paginado, podría ser porque nadie ha compartido con usted este tipo de informe. También podría ser porque el administrador del sistema no le ha habilitado los informes paginados. 
 
