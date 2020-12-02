@@ -2,19 +2,19 @@
 title: Uso del Analizador de rendimiento para examinar el rendimiento de los elementos de los informes en Power BI Desktop
 description: Descubra qué hacen los objetos visuales y los elementos de informe en términos de uso de recursos y capacidad de respuesta
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/23/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 58cf8d2339663e4c02fda732fd4abd9c4c498576
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6168a1fb8d64444b703c6acac21c3bac67c4219a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239108"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396507"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Uso del Analizador de rendimiento para examinar el rendimiento de los elementos de los informes
 

@@ -2,19 +2,19 @@
 title: Uso de etiquetas de jerarquía alineadas en Power BI Desktop
 description: Uso de etiquetas de jerarquía alineadas en Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c840565e39e344011588f8d47925e435eb019b37
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e9938c1c65e8e5a69f59365b89a10a449c3cf39
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233723"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396806"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Uso de etiquetas de jerarquía alineadas en Power BI Desktop
 **Power BI Desktop** admite el uso de las **etiquetas de jerarquía alineadas**, que es la primera de las dos características diseñadas para explorar mejor la jerarquía. La segunda característica, que actualmente está en desarrollo, es la capacidad de usar etiquetas de jerarquía anidadas (esté atento, porque las actualizaciones se realizan con frecuencia).   

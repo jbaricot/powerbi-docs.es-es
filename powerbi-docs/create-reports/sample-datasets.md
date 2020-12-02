@@ -2,20 +2,20 @@
 title: Obtención de ejemplos para Power BI
 description: Paquetes de contenido, aplicaciones, archivos .pbix y conjuntos de datos de Excel de ejemplo para Power BI
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 03/27/2020
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a268247d13fdfe71e17e5c0a6fafeeb635b96984
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 2e14a81c6ae04048f85fae417b354a110436fc50
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953062"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396209"
 ---
 # <a name="get-samples-for-power-bi"></a>Obtención de ejemplos para Power BI
 Supongamos que nunca antes ha utilizado Power BI y quiere probarlo, pero no tiene datos con los que trabajar.  O quizás quiera ver informes que muestran algunas de las funcionalidades de Power BI. Tenemos lo que necesita.
@@ -223,7 +223,7 @@ Todos los paquetes de ejemplo de contenido también están disponibles como libr
 4. En la esquina inferior izquierda del panel de navegación, seleccione **Obtener datos**.
 
     ![Icono Obtener datos](media/sample-datasets/power-bi-get-data.png)
-5. En la página**Obtener datos** que aparece, seleccione **Archivos > Obtener**.
+5. En la página **Obtener datos** que aparece, seleccione **Archivos > Obtener**.
 
     ![Archivos > Obtener](media/sample-datasets/power-bi-files.png)
 6. Seleccione a la ubicación en la que descargó y guardó el ejemplo.

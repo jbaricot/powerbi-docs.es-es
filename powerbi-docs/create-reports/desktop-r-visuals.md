@@ -2,19 +2,19 @@
 title: Crear objetos visuales de Power BI con R
 description: Con Power BI Desktop, puede usar el motor R para visualizar los datos.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 11/04/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 96d33351ba1f0d96cac71548854c94810cfdc692
-ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
+ms.openlocfilehash: 0e86e99dd02f202a9bbce36ecb7b6eb9085a34f6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91928295"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396346"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Crear objetos visuales de Power BI con R
 Con Power BI Desktop, puede usar *R* para visualizar los datos. [R](https://mran.revolutionanalytics.com/documents/what-is-r) es un entorno y lenguaje para cálculos estadísticos y gráficos.
@@ -25,11 +25,11 @@ De forma predeterminada, Power BI Desktop no incluye, implementa ni instala el
 ## <a name="enable-r-visuals-in-power-bi-desktop"></a>Habilitación de objetos visuales de R en Power BI Desktop
 Después de instalar R, Power BI Desktop lo habilita de forma automática. Para comprobar que Power BI Desktop ha habilitado R en la ubicación correcta, siga estos pasos: 
 
-1. Desde el menú de Power BI Desktop, seleccione **Archivo** > **Opciones y configuración** > **Opciones** . 
+1. Desde el menú de Power BI Desktop, seleccione **Archivo** > **Opciones y configuración** > **Opciones**. 
 
-2. En el lado izquierdo de la página **Opciones** , en **Global** , seleccione **Script de R** . 
+2. En el lado izquierdo de la página **Opciones**, en **Global**, seleccione **Script de R**. 
 
-3. En **Opciones de script de R** , compruebe que la instalación local de R esté especificada en **Directorios detectados de inicio R** y que refleje correctamente la instalación local de R que quiera usar en Power BI Desktop. En la imagen siguiente, la ruta de acceso de la instalación local de R es **C:\Archivos de programa\R Open\R-3.5.3\\** .
+3. En **Opciones de script de R**, compruebe que la instalación local de R esté especificada en **Directorios detectados de inicio R** y que refleje correctamente la instalación local de R que quiera usar en Power BI Desktop. En la imagen siguiente, la ruta de acceso de la instalación local de R es **C:\Archivos de programa\R Open\R-3.5.3\\** .
    
    ![Página Opciones de script de R](media/desktop-r-visuals/r-visuals-2.png)
 
@@ -40,7 +40,7 @@ Después de comprobar la instalación de R, ya está listo para empezar a crear 
    
    ![Icono de objeto visual de R en el panel Visualizaciones](media/desktop-r-visuals/r-visuals-3.png)
 
-2. En la ventana **Habilitar objetos visuales de script** que aparece, seleccione **Habilitar** .
+2. En la ventana **Habilitar objetos visuales de script** que aparece, seleccione **Habilitar**.
 
    ![Habilitar objetos visuales de script](media/desktop-r-visuals/r-visuals-10.png)
 
@@ -52,12 +52,12 @@ Después de comprobar la instalación de R, ya está listo para empezar a crear 
    
    ![Editor de script de R](media/desktop-r-visuals/r-visuals-4.png)
 
-3. En la sección **Valores** del panel **Visualización** , agregue los campos desde el panel **Campos** que quiera consumir en el script de R, como lo haría con cualquier otro objeto visual de Power BI Desktop. También puede seleccionar los campos directamente en el panel **Campos** .
+3. En la sección **Valores** del panel **Visualización**, agregue los campos desde el panel **Campos** que quiera consumir en el script de R, como lo haría con cualquier otro objeto visual de Power BI Desktop. También puede seleccionar los campos directamente en el panel **Campos**.
     
-    Solo los campos que haya agregado a la sección **Valores** estarán disponibles para el script de R. Puede agregar nuevos campos o quitar campos innecesarios desde la sección **Valores** mientras trabaja en el script de R en el **editor de scripts de R** . Power BI Desktop detecta automáticamente los campos que agrega o quita.
+    Solo los campos que haya agregado a la sección **Valores** estarán disponibles para el script de R. Puede agregar nuevos campos o quitar campos innecesarios desde la sección **Valores** mientras trabaja en el script de R en el **editor de scripts de R**. Power BI Desktop detecta automáticamente los campos que agrega o quita.
    
    > [!NOTE]
-   > El tipo de agregación predeterminado para objetos visuales de R es *No resumir* .
+   > El tipo de agregación predeterminado para objetos visuales de R es *No resumir*.
    > 
    > 
    
@@ -68,8 +68,8 @@ Después de comprobar la instalación de R, ya está listo para empezar a crear 
    
    En el ejemplo que se muestra en la imagen siguiente, se seleccionan tres campos: hp, gear y drat. Como resultado de esas selecciones, el editor de scripts de R genera código de enlace, que se resume de la forma siguiente:
    
-   * Cree una trama de datos denominada **dataset** , que consta de los distintos campos seleccionados por el usuario.
-   * La agregación predeterminada es: *No resumir* .
+   * Cree una trama de datos denominada **dataset**, que consta de los distintos campos seleccionados por el usuario.
+   * La agregación predeterminada es: *No resumir*.
    * De forma similar a los objetos visuales de tabla, los campos se agrupan y las filas duplicadas aparecen solo una vez.
    
    ![Código del editor de scripts de R](media/desktop-r-visuals/r-visuals-5.png)
@@ -81,20 +81,20 @@ Después de comprobar la instalación de R, ya está listo para empezar a crear 
    
    La trama de datos generada se denomina **dataset** y debe acceder a las columnas seleccionadas a través de sus respectivos nombres. Por ejemplo, para acceder al campo gear, agregue *dataset$gear* al script de R. Para los campos con espacios o caracteres especiales, use comillas simples.
 
-5. Con la trama de datos generada automáticamente por los campos seleccionados, ya podrá escribir un script de R que Power BI Desktop trazará en el dispositivo predeterminado de R. Una vez completado el script, seleccione **Ejecutar script** en el lado derecho de la barra de título del **editor de scripts de R** .
+5. Con la trama de datos generada automáticamente por los campos seleccionados, ya podrá escribir un script de R que Power BI Desktop trazará en el dispositivo predeterminado de R. Una vez completado el script, seleccione **Ejecutar script** en el lado derecho de la barra de título del **editor de scripts de R**.
    
-    Al seleccionar **Ejecutar script** , Power BI Desktop identifica el trazado y lo presenta en el lienzo. Dado que el proceso se ejecuta en la instalación local de R, asegúrese de que estén instalados los paquetes de R necesarios.
+    Al seleccionar **Ejecutar script**, Power BI Desktop identifica el trazado y lo presenta en el lienzo. Dado que el proceso se ejecuta en la instalación local de R, asegúrese de que estén instalados los paquetes de R necesarios.
    
    Power BI Desktop vuelve a trazar los objetos visuales cuando se produce alguno de los siguientes eventos:
    
-   * Seleccione **Ejecutar script** en la barra de título del **editor de scripts de R** .
+   * Seleccione **Ejecutar script** en la barra de título del **editor de scripts de R**.
    * Los cambios de datos se producen debido a la actualización, filtrado o resaltado de datos.
 
      La imagen siguiente muestra un ejemplo del código de trazado de correlación, que traza las correlaciones entre atributos de distintos tipos de automóviles.
 
      ![Ejemplo de código de trazado de correlación](media/desktop-r-visuals/r-visuals-6.png)
 
-6. Para obtener una vista mayor de las visualizaciones, minimice el **editor de scripts de R** . Al igual que con otros objetos visuales de Power BI Desktop, puede aplicar un filtro cruzado al trazado de correlación. Para ello, seleccione una sección específica (como, por ejemplo, los automóviles deportivos) en el objeto visual de anillo (el objeto visual redondo de la derecha).
+6. Para obtener una vista mayor de las visualizaciones, minimice el **editor de scripts de R**. Al igual que con otros objetos visuales de Power BI Desktop, puede aplicar un filtro cruzado al trazado de correlación. Para ello, seleccione una sección específica (como, por ejemplo, los automóviles deportivos) en el objeto visual de anillo (el objeto visual redondo de la derecha).
 
     ![Vista de visualización mayor](media/desktop-r-visuals/r-visuals-7.png)
 
@@ -147,7 +147,7 @@ Los objetos visuales en Power BI Desktop tienen las limitaciones siguientes:
 
 * Cambio de nombre de la columna: los objetos visuales de R no admiten el cambio de nombre de las columnas de entrada. Se hará referencia a las columnas por su nombre original durante la ejecución del script.
 
-* Instalaciones RRO: En esta versión, la versión de 32 bits de Power BI Desktop no identifica automáticamente las instalaciones RRO, por lo que debe proporcionar manualmente la ruta de acceso al directorio de instalación de R en **Opciones y configuración** > **Opciones** > **Scripting de R** .
+* Instalaciones RRO: En esta versión, la versión de 32 bits de Power BI Desktop no identifica automáticamente las instalaciones RRO, por lo que debe proporcionar manualmente la ruta de acceso al directorio de instalación de R en **Opciones y configuración** > **Opciones** > **Scripting de R**.
 
 ## <a name="next-steps"></a>Pasos siguientes
 Para obtener más información acerca de R en Power BI, vea los siguientes artículos:

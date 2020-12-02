@@ -2,20 +2,20 @@
 title: Uso de conclusiones para explicar aumentos y disminuciones en objetos visuales (versión preliminar)
 description: Obtenga con facilidad información detallada sobre los aumentos o disminuciones en Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 02/21/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02a0ba50405605495ed819ab8264050882be9a47
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1e8b483af507aa175e6d804bf0af70bdd0da5372
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239118"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396691"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>Aplicación de conclusiones en Power BI Desktop para explicar las fluctuaciones en objetos visuales (versión preliminar)
 

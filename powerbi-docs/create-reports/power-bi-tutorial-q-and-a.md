@@ -2,18 +2,18 @@
 title: Uso de Preguntas y respuestas de Power BI para explorar y crear objetos visuales
 description: Cómo usar Preguntas y respuestas de Power BI para crear nuevas visualizaciones en paneles e informes.
 author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/13/2019
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c1dc3da67cf6160360833e8702fdc492fa97b803
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 01ab8e63785680ea4fcd30cee170297f1cf1d674
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633501"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396139"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Uso de Preguntas y respuestas de Power BI para explorar los datos y crear objetos visuales
 

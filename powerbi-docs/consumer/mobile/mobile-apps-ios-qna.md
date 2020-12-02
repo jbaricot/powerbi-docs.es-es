@@ -2,18 +2,18 @@
 title: 'Analista virtual de Preguntas y respuestas en las aplicaciones iOS: Power BI'
 description: Formule preguntas sobre los datos de ejemplo con sus propias palabras con el analista virtual de Preguntas y respuestas de la aplicación móvil de Power BI del dispositivo iOS.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 323ea88f3a8843dd663985abac5552be1de71584
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 2422e747fc47f9e9b51f723f5e7beeeceaf91baa
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634421"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397335"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual de Preguntas y respuestas en las aplicaciones iOS: Power BI
 

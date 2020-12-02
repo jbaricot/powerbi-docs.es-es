@@ -2,18 +2,18 @@
 title: 'Inicio rápido: exploración de paneles e informes en las aplicaciones móviles'
 description: En este inicio rápido, va a explorar un ejemplo de panel e informe en las aplicaciones móviles de Power BI.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
-ms.author: painbar
-ms.openlocfilehash: 52728d6cb2daa1bb2753454e8b19a7e06800d080
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 35a942826c76ed1c202bcc5a3450c65374402c46
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668514"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397565"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Inicio rápido: exploración de paneles e informes en la aplicación móvil de Power BI
 En este inicio rápido, realizará un recorrido rápido por la aplicación Power BI Mobile y explorará un informe y un panel de ejemplo. Se muestra la aplicación Power BI para iOS, pero puede seguir los pasos en otros dispositivos.

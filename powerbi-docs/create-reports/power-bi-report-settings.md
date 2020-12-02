@@ -2,19 +2,19 @@
 title: Cambio de la configuración de los informes de Power BI
 description: Cambio de la configuración de los informes del servicio Power BI
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: dd87501a6865b9ea450e3154ee2ac56e0710a067
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: dbb173c65ecfc5d1ca464387ed43ae615cdcbca1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92463090"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396185"
 ---
 # <a name="change-settings-for-power-bi-reports"></a>Cambio de la configuración de los informes de Power BI
 
@@ -40,20 +40,20 @@ Puede que le resulte útil leer estos artículos en primer lugar:
 
 ## <a name="open-the-settings-pane-in-power-bi-desktop"></a>Apertura del panel Configuración en Power BI Desktop
 
-1. Seleccione **Archivo** > **Opciones y configuración** > **Opciones** .
-1. En **Archivo actual** , seleccione **Configuración de informes** .
+1. Seleccione **Archivo** > **Opciones y configuración** > **Opciones**.
+1. En **Archivo actual**, seleccione **Configuración de informes**.
 
-    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Captura de pantalla del panel Configuración del informe en el servicio Power BI.":::
+    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Captura de pantalla del panel Configuración del informe en Power BI Desktop":::
 
     En el resto de este artículo se indican algunos de los valores de configuración específicos del informe.
 
 ## <a name="open-the-settings-pane-in-the-power-bi-service"></a>Apertura del panel Configuración en el servicio Power BI
 
-1. En la vista de lectura del informe, seleccione **Archivo** > **Configuración** .
+1. En la vista de lectura del informe, seleccione **Archivo** > **Configuración**.
 
-    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="Captura de pantalla del panel Configuración del informe en el servicio Power BI.":::
+    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="Captura de pantalla del menú Archivo en Configuración.":::
 
-1. En el panel **Configuración** , verá una serie de alternadores que se pueden establecer, solo para este informe. En el resto de este artículo se indican algunas de estas.
+1. En el panel **Configuración**, verá una serie de alternadores que se pueden establecer, solo para este informe. En el resto de este artículo se indican algunas de estas.
 
 ## <a name="set-featured-content"></a>Establecimiento de contenido destacado
 
@@ -61,9 +61,9 @@ Puede destacar paneles, informes y aplicaciones de forma que aparezcan en la sec
 
 ## <a name="set-the-pages-pane"></a>Establecimiento del panel Páginas
 
-Actualmente, solo se puede cambiar la configuración del panel Páginas en el servicio Power BI. Al activar el **panel Páginas** , en la vista de lectura los lectores de informes ven las pestañas de la página del informe en la parte inferior de este, en lugar de en el lateral. En la vista de edición, las pestañas de la página del informe ya están en la parte inferior del informe.
+Actualmente, solo se puede cambiar la configuración del panel Páginas en el servicio Power BI. Al activar el **panel Páginas**, en la vista de lectura los lectores de informes ven las pestañas de la página del informe en la parte inferior de este, en lugar de en el lateral. En la vista de edición, las pestañas de la página del informe ya están en la parte inferior del informe.
 
-:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="Captura de pantalla del panel Configuración del informe en el servicio Power BI.":::
+:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="Captura de pantalla del establecimiento del panel Páginas.":::
 
 ## <a name="control-filters"></a>Filtros de control
 
@@ -78,7 +78,7 @@ El panel **Configuración** del informe tiene tres opciones para controlar las i
 
 ## <a name="export-data"></a>Exportar datos
 
-De forma predeterminada, [los lectores de informes pueden exportar datos resumidos o subyacentes](../consumer/end-user-export.md) de los objetos visuales del informe. Con la opción **Exportar datos** , puede permitirles exportar solo los datos resumidos o no exportar ningún tipo de datos del informe.
+De forma predeterminada, [los lectores de informes pueden exportar datos resumidos o subyacentes](../consumer/end-user-export.md) de los objetos visuales del informe. Con la opción **Exportar datos**, puede permitirles exportar solo los datos resumidos o no exportar ningún tipo de datos del informe.
 
 ## <a name="personalize-visuals"></a>Personalización de objetos visuales
 
