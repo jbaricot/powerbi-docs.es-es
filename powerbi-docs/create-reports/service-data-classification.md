@@ -2,19 +2,19 @@
 title: Clasificación de datos del panel
 description: Obtenga información acerca de la clasificación de datos de panel, incluido cómo un administrador debe configurarla y cómo los propietarios de un panel pueden cambiar la clasificación.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/10/2017
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d8c7a8532122487bdf3bcd718eb4089cb7c67008
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: e576cb5c0092d61d8c4b30fd180f66cef2922b0e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86262794"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388802"
 ---
 # <a name="dashboard-data-classification"></a>Clasificación de datos del panel
 Cada panel es diferente y, según el origen de datos al que se conecte, probablemente encontrará que usted y los compañeros con los que lo comparte deberán tomar diferentes precauciones en función de la confidencialidad de los datos. Algunos paneles nunca deberían compartirse con personas de fuera de su empresa o imprimirse, mientras que otros pueden compartirse libremente. Si usa la clasificación de los datos del panel, podrá informar a los usuarios que ven los paneles sobre el nivel de seguridad que debe utilizarse. Puede etiquetar sus paneles con clasificaciones definidas por el departamento informático de su empresa para que todos los usuarios que vean el contenido tengan el mismo nivel de conocimiento acerca de la confidencialidad de los datos.

@@ -2,19 +2,19 @@
 title: Iconos de paneles del servicio Power BI para usuarios profesionales
 description: Todo acerca de los iconos de paneles de Power BI para usuarios profesionales. Se incluyen los iconos que se crean desde SQL Server Reporting Services (SSRS).
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/06/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab8cfefab74d3120451b56c3ea30518e538ad543
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: 67291ca77b161fab289ee0520287d832cce838f8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830501"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389538"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
 
@@ -22,12 +22,12 @@ ms.locfileid: "91830501"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Un icono es una instantánea de los datos, anclada a un panel mediante un *diseñador* . Los *diseñadores* pueden crear iconos desde un informe, un conjunto de datos, un panel, el cuadro de pregunta de Preguntas y respuestas, Excel, SQL Server Reporting Services (SSRS), etc.  Esta captura de pantalla muestra muchos iconos diferentes anclados a un panel.
+Un icono es una instantánea de los datos, anclada a un panel mediante un *diseñador*. Los *diseñadores* pueden crear iconos desde un informe, un conjunto de datos, un panel, el cuadro de pregunta de Preguntas y respuestas, Excel, SQL Server Reporting Services (SSRS), etc.  Esta captura de pantalla muestra muchos iconos diferentes anclados a un panel.
 
 ![Panel de Power BI](./media/end-user-tiles/power-bi-dash.png)
 
 
-Además de los iconos anclados de los informes, los *diseñadores* puede agregar iconos independientes directamente en el panel mediante **Agregar icono** . Los iconos independientes incluyen: cuadros de texto, imágenes, vídeos, datos de transmisión y contenido web.
+Además de los iconos anclados de los informes, los *diseñadores* puede agregar iconos independientes directamente en el panel mediante **Agregar icono**. Los iconos independientes incluyen: cuadros de texto, imágenes, vídeos, datos de transmisión y contenido web.
 
 ¿Necesita ayuda para comprender los bloques de creación que conforman Power BI?  Vea [Power BI: Conceptos básicos](end-user-basic-concepts.md).
 
@@ -65,7 +65,7 @@ Además de los iconos anclados de los informes, los *diseñadores* puede agregar
 Al seleccionar un icono, lo que sucede después depende de cómo se creó el icono y de si tiene un [vínculo personalizado](../create-reports/service-dashboard-edit-tile.md). Si tiene un vínculo personalizado, al seleccionar el icono se le lleva a ese vínculo. En caso contrario, al seleccionar el icono se le dirigirá al informe, al libro de Excel Online, al informe de SSRS local o a la pregunta de Preguntas y respuestas que se usó para crear el icono.
 
 > [!NOTE]
-> La excepción a esto son los iconos de vídeo agregados a los paneles por los *diseñadores* . Al seleccionar un icono de vídeo (que se creó de este modo), el vídeo se reproduce directamente en el panel.   
+> La excepción a esto son los iconos de vídeo agregados a los paneles por los *diseñadores*. Al seleccionar un icono de vídeo (que se creó de este modo), el vídeo se reproduce directamente en el panel.   
 > 
 > 
 
@@ -74,7 +74,7 @@ Al seleccionar un icono, lo que sucede después depende de cómo se creó el ico
   - El informe que se usó para crear la visualización no se guardó o se ha eliminado.
   - El icono se creó a partir de un libro de Excel Online, y no tiene al menos permisos de lectura para ese libro.
   - El icono se creó a partir de SSRS y no tiene permiso para el informe de SSRS, o no tiene acceso a la red en la que se encuentra el servidor de SSRS.
-* En el caso de los iconos creados directamente en el panel con **Agregar icono** , si se estableció un hipervínculo personalizado, al seleccionar el título, el subtítulo o el icono se abrirá esa dirección URL.  De lo contrario, y de manera predeterminada, seleccionar uno de estos iconos creados directamente en el panel para una imagen, un código web o un cuadro de texto no generará ninguna acción.
+* En el caso de los iconos creados directamente en el panel con **Agregar icono**, si se estableció un hipervínculo personalizado, al seleccionar el título, el subtítulo o el icono se abrirá esa dirección URL.  De lo contrario, y de manera predeterminada, seleccionar uno de estos iconos creados directamente en el panel para una imagen, un código web o un cuadro de texto no generará ninguna acción.
 * Si la visualización original usada para crear el icono cambia, no se produce ningún cambio en el icono.  Por ejemplo, si el *diseñador* ha anclado un gráfico de líneas desde un informe y posteriormente ha cambiado el gráfico de líneas a un gráfico de barras, el icono del panel seguirá mostrando un gráfico de líneas. Los datos se actualizan, pero no el tipo de visualización.
 
 ## <a name="next-steps"></a>Pasos siguientes

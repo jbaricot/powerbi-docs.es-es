@@ -2,19 +2,19 @@
 title: Crear las preguntas destacadas para Preguntas y respuestas de Power BI
 description: Documentación sobre cómo crear preguntas destacadas para Preguntas y respuestas de Power BI.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/26/2020
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 65ed1806491f281bcc4d8adc365e5d286b6204ec
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3587c019f6b460774efca3db2229f315adcbded3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218847"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388181"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Crear las preguntas destacadas para Preguntas y respuestas de Power BI
 Si tiene un conjunto de datos, puede agregarle sus propias preguntas destacadas. Preguntas y respuestas de Power BI mostrará esas preguntas a los compañeros que consumen informes basados en ese conjunto de datos.  Las preguntas destacadas proporcionan a los compañeros ideas acerca de los tipos de preguntas que pueden hacer sobre el conjunto de datos. Usted elige las preguntas destacadas que agrega: puede agregar preguntas comunes, preguntas que muestren resultados interesantes o preguntas difíciles de expresar.
@@ -35,7 +35,7 @@ Este artículo usa el [ejemplo de análisis de minoristas](sample-datasets.md). 
 4. Seleccione **Agregar una pregunta**.
    
    ![Menú Configuración](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
-5. Escriba la pregunta en el cuadro de texto y seleccione **Aplicar**.   También puede seleccionar **Agregar una pregunta**para agregar otra pregunta.  
+5. Escriba la pregunta en el cuadro de texto y seleccione **Aplicar**.   También puede seleccionar **Agregar una pregunta** para agregar otra pregunta.  
    ![Panel Preguntas destacadas de Preguntas y respuestas](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
 6. Vuelva al panel de Power BI para recuperar el Ejemplo de análisis de venta directa y coloque el cursor en el cuadro de pregunta de Preguntas y respuestas.   
    ![Cuadro de pregunta de Preguntas y respuestas con una pregunta destacada](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)

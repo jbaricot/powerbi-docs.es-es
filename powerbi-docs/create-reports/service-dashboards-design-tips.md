@@ -2,19 +2,19 @@
 title: Sugerencias para diseñar un panel de Power BI fantástico
 description: Sugerencias para diseñar un panel de Power BI fantástico
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/14/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 30c0600e835ad7088d6d867e9d1f4de24550c8cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d1e2a3b304d7d92ee6443e288d77599cb734ff1a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237184"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388710"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Sugerencias para diseñar un panel de Power BI fantástico
 Ahora que ya creó un panel y agregó algunos iconos, piense en cómo conseguir un panel atractivo, a la par que funcional. En general, significa destacar la información más importante y mantenerlo limpio y despejado.

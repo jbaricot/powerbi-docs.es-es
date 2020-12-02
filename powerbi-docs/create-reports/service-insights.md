@@ -2,21 +2,21 @@
 title: Generación de conclusiones sobre los datos del conjunto de datos de manera automática
 description: Vea cómo obtener información detallada acerca de los conjuntos de datos y los iconos del panel.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 79148389a697feb2a3d2e2cba0b919eb59632ff7
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8db804ec3afe4b752ab6f5f8546782cac7135055
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524475"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388480"
 ---
 # <a name="generate-data-insights-on-your-dataset-automatically-with-power-bi"></a>Generación de conclusiones sobre los datos del conjunto de datos de manera automática con Power BI
 ¿Tiene un conjunto de datos nuevo y no está seguro de por dónde empezar?  ¿Necesita crear un panel rápidamente?  ¿Quiere buscar información que puede que le falte?
@@ -37,7 +37,7 @@ Vea cómo Amanda extrae conclusiones rápidas de un conjunto de datos y abre una
 
 Ahora es su turno. Explore la característica de información detallada mediante el [Ejemplo de análisis de calidad de proveedores](sample-supplier-quality.md).
 
-1. En la pestaña **Conjuntos de datos** , seleccione el botón **Más opciones** (...) y elija **Obtener información rápida** .
+1. En la pestaña **Conjuntos de datos**, seleccione el botón **Más opciones** (...) y elija **Obtener información rápida**.
    
     ![Pestaña Conjuntos de datos](media/service-insights/power-bi-ellipses.png)
    
@@ -61,7 +61,7 @@ Ahora es su turno. Explore la característica de información detallada mediante
 
 1. Mantenga el puntero sobre una tarjeta y seleccione el icono de anclaje para agregar la visualización a un panel.
 
-2. Mantenga el puntero sobre una tarjeta, seleccione **Más opciones** (...) y elija **Ver información** . 
+2. Mantenga el puntero sobre una tarjeta, seleccione **Más opciones** (...) y elija **Ver información**. 
 
     Se abre la pantalla de información en modo de enfoque.
    
@@ -71,15 +71,15 @@ Ahora es su turno. Explore la característica de información detallada mediante
    * Filtrar las visualizaciones. Si el panel **Filtros** todavía no está abierto, seleccione la flecha situada en el lado derecho de la ventana para expandirlo.
 
        ![Menú Filtros de Información expandido](media/service-insights/power-bi-insights-filter-new.png)
-   * Anclar la tarjeta de conclusiones a un panel mediante la selección **Anclar visualización** .
-   * Ejecute información en la propia tarjeta, lo que a menudo se conoce como *información con ámbito* . En la esquina superior derecha, seleccione el icono de bombilla ![icono Obtener información](media/service-insights/power-bi-bulb-icon.png) u **Obtener información** .
+   * Anclar la tarjeta de conclusiones a un panel mediante la selección **Anclar visualización**.
+   * Ejecute información en la propia tarjeta, lo que a menudo se conoce como *información con ámbito*. En la esquina superior derecha, seleccione el icono de bombilla ![icono Obtener información](media/service-insights/power-bi-bulb-icon.png) u **Obtener información**.
      
        ![Icono Obtener información](media/service-insights/pbi-autoinsights-tile.png)
      
      La conclusión se muestra a la izquierda. Las nuevas tarjetas, basadas únicamente en los datos de esa única conclusión, se muestran a la derecha.
      
        ![Información sobre información](media/service-insights/power-bi-insights-on-insights-new.png)
-4. Para volver al lienzo original de información, en la esquina superior izquierda, seleccione **Salir del modo de enfoque** .
+4. Para volver al lienzo original de información, en la esquina superior izquierda, seleccione **Salir del modo de enfoque**.
 
 ## <a name="next-steps"></a>Pasos siguientes
 - Si es propietario de un conjunto de datos, [optimícelo para Conclusiones rápidas](service-insights-optimize.md).

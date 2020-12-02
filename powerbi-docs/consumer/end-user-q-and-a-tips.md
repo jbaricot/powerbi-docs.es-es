@@ -2,19 +2,19 @@
 title: Sugerencias y trucos para hacer preguntas con Preguntas y respuestas
 description: Sugerencias y trucos para hacer preguntas con Preguntas y respuestas en Power BI
 author: mihart
+ms.author: mihart
 ms.reviewer: Mohammad.ali
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/23/2020
-ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a4ef051f4e4a24901599036c80a52bf200348df1
-ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
+ms.openlocfilehash: 7757c883daee390b8cdcc93e0d6b9f8376d53f62
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94893692"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389837"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Sugerencias para hacer preguntas con Preguntas y respuestas de Power BI
 

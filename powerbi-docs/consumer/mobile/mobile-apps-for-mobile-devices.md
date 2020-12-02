@@ -2,19 +2,19 @@
 title: ¿Qué son las aplicaciones móviles de Power BI?
 description: Las aplicaciones móviles de Power BI le mantienen conectado a sus datos locales o en la nube. Vea informes y paneles de Power BI en su dispositivo móvil.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: overview
 ms.date: 03/11/2020
-ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: 5f581a9b08afc8d9d8c3a36ed765c5d211d7876b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d9dc34178980b07a0bb4aae25bf95e89d664d6ad
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856424"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389147"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>¿Qué son las aplicaciones móviles de Power BI?
 Power BI ofrece un conjunto de aplicaciones móviles para dispositivos móviles iOS, Android y Windows 10. En las aplicaciones móviles, puede conectarse a datos locales y en la nube e interactuar con ellos. 

@@ -2,19 +2,19 @@
 title: Optimizar los datos para información rápida de Power BI
 description: Optimice los datos para información rápida de Power BI. Si Power BI no encuentra información en sus datos, puede realizar algunas acciones.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/02/2017
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 277e160767f21fb221896015553e8d7dcfcf9567
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 41250b3d6de7708912b82376a2a5f07d2e686105
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238252"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388457"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Optimizar los datos para Power BI Quick Insights
 ¿Quiere mejorar los resultados de información rápida?  Si es propietario de un conjunto de datos, pruebe esto:
