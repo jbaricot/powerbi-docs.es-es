@@ -2,20 +2,20 @@
 title: 'Tutorial: Compilación de un modelo de Machine Learning en Power BI'
 description: En este tutorial, creará un modelo de Machine Learning en Power BI.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 08/03/2020
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 49f1b46e89fd05d05928de631b0ea42832801a05
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 31b56f4888393c12f94eb4e6d8f819d992a04029
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397240"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392350"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Tutorial: Compilación de un modelo de Machine Learning en Power BI
 
@@ -139,13 +139,13 @@ El informe también incluye una página de detalles de aprendizaje que describe 
 
 ## <a name="apply-the-model-to-a-dataflow-entity"></a>Aplicación del modelo a una entidad de flujo de datos
 
-Seleccione el botón **Aplicar modelo** en la parte superior del informe para invocar este modelo. En el cuadro de diálogo **Aplicar** , puede especificar la entidad de destino que tiene los datos de origen a los que se debe aplicar el modelo.
+Seleccione el botón **Aplicar modelo** en la parte superior del informe para invocar este modelo. En el cuadro de diálogo **Aplicar**, puede especificar la entidad de destino que tiene los datos de origen a los que se debe aplicar el modelo.
 
 ![Aplicar el modelo](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-19.png)
 
 Cuando se le solicite, debe seleccionar **Actualizar** para actualizar el flujo de datos a fin de obtener una vista previa de los resultados del modelo.
 
-Al aplicar el modelo, se crearán dos entidades con el sufijo **<enriched <nombre_del_modelo>** y **enriched <nombre_del_modelo> explanations**. En nuestro caso, al aplicar el modelo a la entidad **Online Visitors** se creará **Online Visitorss enriched Purchase Intent Prediction** , que incluye la salida pronosticada del modelo, y **Online Visitors enriched Purchase Intent Prediction explanations** , que contiene factores principales específicos del registro para la predicción. 
+Al aplicar el modelo, se crearán dos entidades con el sufijo **<enriched <nombre_del_modelo>** y **enriched <nombre_del_modelo> explanations**. En nuestro caso, al aplicar el modelo a la entidad **Online Visitors** se creará **Online Visitorss enriched Purchase Intent Prediction**, que incluye la salida pronosticada del modelo, y **Online Visitors enriched Purchase Intent Prediction explanations**, que contiene factores principales específicos del registro para la predicción. 
 
 Al aplicar un modelo Predicción binaria, se agregan cuatro columnas con el resultado del pronóstico, la puntuación de probabilidad, los factores principales específicos del registro para la predicción y el índice de explicaciones, cada uno con el nombre de columna especificado como prefijo.  
 

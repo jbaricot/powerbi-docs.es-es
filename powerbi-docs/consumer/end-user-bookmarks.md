@@ -2,19 +2,19 @@
 title: Información general sobre los marcadores en los informes del servicio Power BI
 description: Tema de información general de la documentación para marcadores en el servicio Power BI.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/26/2020
-ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f865815c76df179c87c1487e1243c37108375167
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: ec56f15386aeddafa74d952ce772aa3dcce4f901
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937723"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391493"
 ---
 # <a name="what-are-bookmarks"></a>¿Qué son los marcadores?
 

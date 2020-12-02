@@ -2,19 +2,19 @@
 title: Visualización de un panel de Power BI
 description: Los paneles son una característica clave del servicio Power BI. Obtenga información sobre cómo abrir y ver un panel.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/27/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f447856ac387bdabdbd29e1d1ebf47caef22677a
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 7e431b6a94b7cd881adba27597aa9cbfa6a54425
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633961"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391217"
 ---
 # <a name="view-a-dashboard"></a>Visualización de un panel
 

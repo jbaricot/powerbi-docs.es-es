@@ -2,19 +2,19 @@
 title: Explorar en profundidad y resumir en un objeto visual
 description: En este artículo se muestra cómo explorar en profundidad en un objeto visual en el servicio Microsoft Power BI.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/10/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2b7d0d281c706673cb23ec4bd0e7ed9f6722f329
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 3456fe1b1c719d5ce085adc3eba32b32de86e883
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982888"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391355"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Modo de exploración en un objeto visual de Power BI
 
@@ -71,7 +71,7 @@ Selección del icono de obtención de detalles ![Icono de obtención de detalles
 ### <a name="expand-all-fields-at-once"></a>Expandir todos los campos a la vez
 ![El icono Expandir](./media/end-user-drill/power-bi-drill-icon6.png)
 
-**Expandir** agrega un nivel de jerarquía adicional a la vista actual. Por tanto, si está viendo el nivel **Territorio** , puede expandir todas las hojas actuales del árbol al mismo tiempo.  La primera exploración agrega los datos de ciudad a **KY** y **TN** . La siguiente exploración agrega los datos de código postal de **KY** y **TN** , y mantiene también los datos de ciudad. Cada paso de la ruta muestra la misma información y agrega un nivel de información nueva.
+**Expandir** agrega un nivel de jerarquía adicional a la vista actual. Por tanto, si está viendo el nivel **Territorio**, puede expandir todas las hojas actuales del árbol al mismo tiempo.  La primera exploración agrega los datos de ciudad a **KY** y **TN**. La siguiente exploración agrega los datos de código postal de **KY** y **TN**, y mantiene también los datos de ciudad. Cada paso de la ruta muestra la misma información y agrega un nivel de información nueva.
 
 ![Diagrama que muestra la ruta de expansión](./media/end-user-drill/power-bi-expand-path.png)
 
@@ -87,7 +87,7 @@ Selección del icono de obtención de detalles ![Icono de obtención de detalles
 
     Si no activa la opción de explorar en profundidad, la selección de un elemento visual (como una barra, burbuja u hoja) no explorará en profundidad, sino que aplicará un filtro cruzado a los otros gráficos de la página del informe.
 
-1. Seleccione el nodo hoja para **TN** . Ahora en el gráfico de rectángulos se muestran todos los territorios de Tennessee que tienen una tienda.
+1. Seleccione el nodo hoja para **TN**. Ahora en el gráfico de rectángulos se muestran todos los territorios de Tennessee que tienen una tienda.
 
     ![Captura de pantalla del gráfico de rectángulos que muestra datos solo de TN.](media/end-user-drill/power-bi-drill-down-first.png)
 
@@ -99,7 +99,7 @@ Selección del icono de obtención de detalles ![Icono de obtención de detalles
 
     1. Expanda en su lugar.
 
-    Sigamos rastreando desagrupando datos de un solo campo a la vez.  Seleccione **Knoxville, TN** . El gráfico de rectángulos muestra ahora el código postal de la tienda en Knoxville.
+    Sigamos rastreando desagrupando datos de un solo campo a la vez.  Seleccione **Knoxville, TN**. El gráfico de rectángulos muestra ahora el código postal de la tienda en Knoxville.
 
     ![Captura de pantalla del gráfico de rectángulos que muestra datos solo del código postal 37919.](media/end-user-drill/power-bi-drill-twice.png)
 
@@ -143,7 +143,7 @@ Power BI abre el gráfico de rectángulos para rellenar el lienzo. Los datos qu
 
 ![Captura de pantalla del gráfico de rectángulos con la tabla de datos mostrada debajo.](./media/end-user-drill/power-bi-show-table.png)
 
-Con solo el objeto visual en el lienzo, continúe profundizando. Vea que los datos de la tabla cambian para reflejar los que se usan para crear el gráfico de rectángulos. En la tabla siguiente se muestran los resultados de explorar en profundidad todos los campos a la vez desde territorio hasta nombre de la tienda. La primera tabla representa el nivel superior de la jerarquía, el gráfico de rectángulos que muestra dos hojas, una para **KY** y otra para **TN** . Las tres tablas siguientes representan los datos del gráfico de rectángulos a medida que explora en profundidad todos los niveles a la vez, desde territorio hasta ciudad, código postal y nombre de tienda.
+Con solo el objeto visual en el lienzo, continúe profundizando. Vea que los datos de la tabla cambian para reflejar los que se usan para crear el gráfico de rectángulos. En la tabla siguiente se muestran los resultados de explorar en profundidad todos los campos a la vez desde territorio hasta nombre de la tienda. La primera tabla representa el nivel superior de la jerarquía, el gráfico de rectángulos que muestra dos hojas, una para **KY** y otra para **TN**. Las tres tablas siguientes representan los datos del gráfico de rectángulos a medida que explora en profundidad todos los niveles a la vez, desde territorio hasta ciudad, código postal y nombre de tienda.
 
 
 ![Captura de pantalla en la que se muestran datos de los cuatro niveles de exploración en profundidad.](./media/end-user-drill/power-bi-show-data.png)

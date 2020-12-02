@@ -1,35 +1,35 @@
 ---
 title: 'Creación de informes basados en conjuntos de datos de diferentes áreas de trabajo: Power BI'
 description: Obtenga información sobre cómo se puede compartir un conjunto de datos con usuarios en toda la organización. Después, podrán crear informes basados en el conjunto de datos en sus propias áreas de trabajo.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 59fc2d4be1336d9476c86e4204eeb23564ebe64e
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 3f1f689aa272ac98f4a3dd4aef7c2b2728fce41e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681130"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392505"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces"></a>Creación de informes basados en conjuntos de datos de diferentes áreas de trabajo
 
 Obtenga información sobre cómo puede crear informes en áreas de trabajo propias basados en conjuntos de datos de otras. Para generar un informe sobre un conjunto de datos existente, puede empezar desde Power BI Desktop o desde el servicio Power BI, en Mi área de trabajo o en una [nueva experiencia de área de trabajo](../collaborate-share/service-create-the-new-workspaces.md).
 
-- En el servicio Power BI: **Obtener datos** > **Conjuntos de datos publicados** .
-- En Power BI Desktop: **Obtener datos** > **Conjuntos de datos de Power BI** .
+- En el servicio Power BI: **Obtener datos** > **Conjuntos de datos publicados**.
+- En Power BI Desktop: **Obtener datos** > **Conjuntos de datos de Power BI**.
 
     ![Conexión a un conjunto de datos existente](media/service-datasets-across-workspaces/power-bi-connect-dataset-pk.png)
    
-En ambos casos, la experiencia de detección del conjunto de datos se inicia en este cuadro de diálogo **Selección de un conjunto de datos para crear un informe** . Verá todos los conjuntos de datos a los que tiene acceso, con independencia de dónde se encuentren:
+En ambos casos, la experiencia de detección del conjunto de datos se inicia en este cuadro de diálogo **Selección de un conjunto de datos para crear un informe**. Verá todos los conjuntos de datos a los que tiene acceso, con independencia de dónde se encuentren:
 
 ![Selección de un conjunto de datos](media/service-datasets-across-workspaces/power-bi-select-dataset.png)
 
-Observe que el primero tiene la etiqueta **Promocionado** . Se describirá más adelante en este artículo, en la sección [Búsqueda de un conjunto de datos promocionado](#find-an-endorsed-dataset).
+Observe que el primero tiene la etiqueta **Promocionado**. Se describirá más adelante en este artículo, en la sección [Búsqueda de un conjunto de datos promocionado](#find-an-endorsed-dataset).
 
 Los conjuntos de datos que se ven en esta lista cumplen al menos una de las condiciones siguientes:
 
@@ -40,7 +40,7 @@ Los conjuntos de datos que se ven en esta lista cumplen al menos una de las cond
 > [!NOTE]
 > Si es un usuario gratuito, solo verá los conjuntos de datos de Mi área de trabajo, o bien los conjuntos de datos para los que tiene permiso de compilación que se encuentran en áreas de trabajo de la capacidad Premium.
 
-Al hacer clic en **Crear** , se crea una conexión dinámica al conjunto de datos y la experiencia de creación de informes se abre con el conjunto completo de datos disponible. No ha realizado una copia del conjunto de datos. El conjunto de datos aún reside en su ubicación original. Puede usar todas las tablas y medidas del conjunto de datos para crear informes propios. Las restricciones de seguridad de nivel de fila (RLS) en el conjunto de datos están en vigor, por lo que solo verá los datos para los que tenga permiso, según su rol de RLS.
+Al hacer clic en **Crear**, se crea una conexión dinámica al conjunto de datos y la experiencia de creación de informes se abre con el conjunto completo de datos disponible. No ha realizado una copia del conjunto de datos. El conjunto de datos aún reside en su ubicación original. Puede usar todas las tablas y medidas del conjunto de datos para crear informes propios. Las restricciones de seguridad de nivel de fila (RLS) en el conjunto de datos están en vigor, por lo que solo verá los datos para los que tenga permiso, según su rol de RLS.
 
 Puede guardar el informe en el área de trabajo actual en el servicio Power BI, o bien publicarlo en un área de trabajo de Power BI Desktop. Power BI crea de forma automática una entrada en la lista de conjuntos de datos si el informe se basa en un conjunto de datos fuera del área de trabajo. El icono para este conjunto de datos es diferente del de los conjuntos de datos del área de trabajo: ![Icono de conjunto de datos compartido](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
 
@@ -52,10 +52,10 @@ De este modo, los miembros del área de trabajo pueden saber en qué paneles e i
 
 Hay dos tipos diferentes de conjuntos de datos aprobados. Los propietarios del conjunto de datos pueden *promocionar* un conjunto de datos que le recomienden. Además, el administrador de Power BI puede designar expertos en la organización que pueden *certificar* conjuntos de datos para todos los usuarios. En los conjuntos de datos promocionados y certificados se muestran *distintivos* que puede ver tanto al buscar un conjunto de datos como en la lista de conjuntos de datos de un área de trabajo. El nombre de la persona que certificó un conjunto de datos se muestra en una información sobre herramientas durante la experiencia de detección de conjuntos de datos. Mantenga el mouse sobre la etiqueta **Certificado** y véalo.
 
-- En el servicio Power BI: **Obtener datos** > **Conjuntos de datos publicados** .
-- En Power BI Desktop: **Obtener datos** > **Conjuntos de datos de Power BI** .
+- En el servicio Power BI: **Obtener datos** > **Conjuntos de datos publicados**.
+- En Power BI Desktop: **Obtener datos** > **Conjuntos de datos de Power BI**.
 
-    En el cuadro de diálogo **Seleccionar un conjunto de datos** , los conjuntos de datos aprobados aparecen al principio de la lista de forma predeterminada. 
+    En el cuadro de diálogo **Seleccionar un conjunto de datos**, los conjuntos de datos aprobados aparecen al principio de la lista de forma predeterminada. 
 
     ![Conjunto de datos promocionado](media/service-datasets-discover-across-workspaces/power-bi-dataset-promoted.png)
 
