@@ -2,19 +2,19 @@
 title: 'Desconexión de un paquete de contenido organizativo: Power BI'
 description: Consulte cómo quitar la conexión de un paquete de contenido organizativo mediante la eliminación de su conjunto de datos en Power BI.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/02/2018
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 031feb65d3a99dd18a7d47b44af1f346859d32d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5cd1ebd1502241cf07e7de8cff5f0eb769a1b59f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225796"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406420"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Eliminación de la conexión a un paquete de contenido organizativo de Power BI
 

@@ -2,20 +2,20 @@
 title: Conexión a los datos de Azure Consumption Insights en Power BI Desktop
 description: Conéctese fácilmente a Azure y obtenga información detallada sobre el consumo y el uso con Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/14/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d036af591ae9c5fc44370085480c9266e328745
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: d400684358e5992d9c29e2c5838ca777e3695cf5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632604"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406098"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Conexión a los datos de Azure Consumption Insights en Power BI Desktop
 
@@ -175,7 +175,7 @@ Muchos paneles tienen tablas adicionales que se usan para buscar o filtrar, como
 En este punto, la mayor parte de los objetos visuales originales, tablas y exploraciones en profundidad deben funcionar según lo previsto. Pero es posible que sea necesario realizar algunos ajustes menores para dar formato a la apariencia y el funcionamiento de forma precisa. Tómese tiempo para revisar todos los paneles y objetos visuales para asegurarse de que tengan el aspecto deseado.
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Uso de la API de Azure Consumption and Insights (ACI) para obtener datos de consumo
-Azure también proporciona la [**API de Azure Consumption and Insights (ACI)** ](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). Puede crear sus propias soluciones personalizadas para recopilar, crear informes y visualizar la información de consumo de Azure mediante la API de ACI.
+Azure también proporciona la [**API de Azure Consumption and Insights (ACI)**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). Puede crear sus propias soluciones personalizadas para recopilar, crear informes y visualizar la información de consumo de Azure mediante la API de ACI.
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Asignación de nombres y detalles de uso entre el portal, el conector y la API
 Las columnas y los nombres de los detalles en Azure Portal son similares en la API y en el conector, aunque no siempre idénticos. Para ayudar a aclararlo, en la tabla siguiente se proporciona una asignación. También se indica si la columna está obsoleta. Para obtener más información y definiciones de términos, vea el [diccionario de datos de facturación de Azure](/azure/billing/billing-enterprise-api-usage-detail).
