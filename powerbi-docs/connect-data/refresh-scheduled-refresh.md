@@ -2,19 +2,19 @@
 title: Configuración de actualización programada
 description: Esta sección abarca los pasos para seleccionar una puerta de enlace y configurar la actualización programada.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/06/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: c3846ba2e9a9fe083b6a3833237ffbc26b04842a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9298171a98837a6e8dd16cc89865770e7d88c8c2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235809"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403913"
 ---
 # <a name="configure-scheduled-refresh"></a>Configuración de actualización programada
 

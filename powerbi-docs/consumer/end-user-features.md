@@ -2,20 +2,20 @@
 title: Disponibilidad de características para usuarios con licencias gratuitas
 description: Explicación y gráfico en el que se muestran las características disponibles para los consumidores y los usuarios de la licencia gratuita.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: reference
-ms.date: 09/16/2020
-ms.author: mihart
+ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 8bfdcd9ba87dd6a4fa12a3750b517a09844d3d6e
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 8e3a32402b3eff202a8e35a2e34fa52271650a64
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668497"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390734"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lista de características de Power BI para *consumidores* y otros usuarios con licencias gratuitas
 
@@ -67,7 +67,7 @@ La segunda columna representa un *usuario empresarial*.  Un usuario empresarial:
 
 - tiene una licencia de usuario gratuita
 - forma parte de una organización que tiene una suscripción de capacidad Premium
-- obtiene contenido (aplicaciones, paneles e informes) de los usuarios de Pro que lo comparten mediante áreas de trabajo de la aplicación en la capacidad dedicada Premium.
+- obtiene contenido (aplicaciones, paneles e informes) de los usuarios de Pro que lo comparten mediante áreas de trabajo de la aplicación en la capacidad Premium.
 - se le asigna el rol **Visor** para esas áreas de trabajo de la aplicación. 
 
 ### <a name="legend"></a>Leyenda
