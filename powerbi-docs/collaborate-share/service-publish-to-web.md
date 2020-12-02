@@ -5,23 +5,23 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/02/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7980057ae35637f06aeec3d241b074fcc41564b7
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 004546a941426f602bfb5cacaf938bd55cec452d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297641"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406788"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
-Con la opción **Publicar en la web de Power BI** , puede insertar fácilmente contenido interactivo de Power BI en entradas de blog, sitios web, mensajes de correo electrónico o redes sociales. También puede editar, actualizar o dejar de compartir fácilmente los objetos visuales publicados.
+Con la opción **Publicar en la web de Power BI**, puede insertar fácilmente contenido interactivo de Power BI en entradas de blog, sitios web, mensajes de correo electrónico o redes sociales. También puede editar, actualizar o dejar de compartir fácilmente los objetos visuales publicados.
 
 > [!WARNING]
-> Al usar la característica **Publicar en la web** , cualquier usuario podrá ver en Internet el informe o el objeto visual que publique. Para la visualización no se requiere autenticación. Se incluye la visualización de los datos de nivel de detalle que agreguen los informes. Antes de publicar un informe, asegúrese de que está de acuerdo en compartir los datos y las visualizaciones públicamente. No publique información confidencial o de su propiedad. En caso de duda, compruebe las directivas de la organización antes de publicarlo.
+> Al usar la característica **Publicar en la web**, cualquier usuario podrá ver en Internet el informe o el objeto visual que publique. Para la visualización no se requiere autenticación. Se incluye la visualización de los datos de nivel de detalle que agreguen los informes. Antes de publicar un informe, asegúrese de que está de acuerdo en compartir los datos y las visualizaciones públicamente. No publique información confidencial o de su propiedad. En caso de duda, compruebe las directivas de la organización antes de publicarlo.
 
 >[!Note]
 >Puede insertar el contenido de forma segura en un portal interno o sitio web. Use las opciones [Insertar](service-embed-secure.md) o [Insertar en SharePoint Online](service-embed-report-spo.md). Estas opciones garantizan que se aplican todos los permisos y la seguridad de los datos cuando los usuarios ven sus datos internos.
@@ -54,7 +54,7 @@ Los pasos siguientes describen cómo usar la característica **Publicar en Web**
 
    ![Operación completada correctamente: vínculo y código HTML](media/service-publish-to-web/publish_to_web4.png)
 
-6. Si se ha creado previamente un código para insertar para un informe y se ha seleccionado **Publicar en la web** , no verá los cuadros de diálogo en los pasos 2 a 4. En su lugar, el cuadro de diálogo **Código para insertar** se muestra como sigue:
+6. Si se ha creado previamente un código para insertar para un informe y se ha seleccionado **Publicar en la web**, no verá los cuadros de diálogo en los pasos 2 a 4. En su lugar, el cuadro de diálogo **Código para insertar** se muestra como sigue:
 
    ![Cuadro de diálogo Código para insertar](media/service-publish-to-web/publish_to_web5.png)
 
@@ -71,7 +71,7 @@ En la tabla siguiente se proporcionan instrucciones sobre el modo de vista y có
 
 | Modo de vista | Aspecto que tiene al insertarse |
 | --- | --- |
-| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Ajustar a la página** respeta el alto y ancho de la página del informe. Si establece la página en proporciones *dinámicas* , como 16:9 o 4:3, el contenido se escalará para que quepa en el iFrame. Cuando se inserta en un iFrame, el uso de **Ajustar a la página** puede dar como resultado un *formato letterbox* : se muestra un fondo gris en las áreas del iFrame después de que el contenido se escale para ajustarlo. Para minimizar el formato de pantalla ancha, establezca el alto y ancho del iFrame adecuadamente. |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Ajustar a la página** respeta el alto y ancho de la página del informe. Si establece la página en proporciones *dinámicas*, como 16:9 o 4:3, el contenido se escalará para que quepa en el iFrame. Cuando se inserta en un iFrame, el uso de **Ajustar a la página** puede dar como resultado un *formato letterbox*: se muestra un fondo gris en las áreas del iFrame después de que el contenido se escale para ajustarlo. Para minimizar el formato de pantalla ancha, establezca el alto y ancho del iFrame adecuadamente. |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Tamaño real** garantiza que el informe conserve su tamaño tal como está establecido en la página del informe. Esto puede causar que se muestren barras de desplazamiento en el iFrame. Establezca el alto y ancho de iFrame para evitar las barras de desplazamiento. |
 | ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Ajustar al ancho** garantiza que el contenido rellene el área horizontal del iFrame. Se sigue mostrando un borde, pero el contenido se escala para usar todo el espacio horizontal disponible. |
 
@@ -96,7 +96,7 @@ Para lograr un ajuste más exacto, se puede intentar la adición de 56 píxeles 
 
 ## <a name="manage-embed-codes"></a>Administrar códigos para insertar
 
-Después de crear un código para insertar de **Publicar en la web** , se pueden administrar los códigos desde el menú **Configuración** en Power BI. La administración de códigos para insertar incluye la capacidad de quitar el objeto visual o informe de destino de un código (lo que deja inutilizable el código para insertar), o la obtención del código para insertar.
+Después de crear un código para insertar de **Publicar en la web**, se pueden administrar los códigos desde el menú **Configuración** en Power BI. La administración de códigos para insertar incluye la capacidad de quitar el objeto visual o informe de destino de un código (lo que deja inutilizable el código para insertar), o la obtención del código para insertar.
 
 1. Para administrar sus códigos para insertar de **Publicar en Web** , abra el engranaje de **Configuración** y seleccione **Administrar códigos para insertar**.
 
@@ -110,13 +110,13 @@ Después de crear un código para insertar de **Publicar en la web** , se pueden
 
    ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
-4. Si se selecciona **Eliminar** , se le solicita una confirmación.
+4. Si se selecciona **Eliminar**, se le solicita una confirmación.
 
    ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Actualizaciones de informes y datos
 
-Después de crear y compartir el código para insertar de **Publicar en la Web** , el informe se actualiza con los cambios que realice. El vínculo del código para insertar está activo inmediatamente. Cualquiera que abra el vínculo puede verlo. Los datos se almacenan en memoria caché durante una hora a partir del momento en que se recuperan. No se recomienda el uso de Publicar en Web para los datos que deben actualizarse con frecuencia. Para obtener más información, consulte la sección [**Cómo funciona**](#howitworks) más adelante en este artículo. 
+Después de crear y compartir el código para insertar de **Publicar en la Web**, el informe se actualiza con los cambios que realice. El vínculo del código para insertar está activo inmediatamente. Cualquiera que abra el vínculo puede verlo. Los datos se almacenan en memoria caché durante una hora a partir del momento en que se recuperan. No se recomienda el uso de Publicar en Web para los datos que deben actualizarse con frecuencia. Para obtener más información, consulte la sección [**Cómo funciona**](#howitworks) más adelante en este artículo. 
 
 ### <a name="data-refresh"></a>Actualización de datos
 
@@ -132,14 +132,14 @@ Para ayudar a evitar la experiencia de uso intensivo, limite el número de consu
 
 ## <a name="power-bi-visuals"></a>Objetos visuales de Power BI
 
-Los objetos visuales de Power BI se admiten en **Publicar en la web**. Si usa **Publicar en la web** , los usuarios con los que comparta el objeto visual publicado no tendrán que habilitar los objetos visuales de Power BI para ver el informe.
+Los objetos visuales de Power BI se admiten en **Publicar en la web**. Si usa **Publicar en la web**, los usuarios con los que comparta el objeto visual publicado no tendrán que habilitar los objetos visuales de Power BI para ver el informe.
 
 ## <a name="understanding-the-embed-code-status-column"></a>Descripción de la columna de estado de código para insertar
 
 >[!Note]
 >Revise los códigos para insertar que ha publicado a menudo. Quite los que ya no tengan que estar disponibles públicamente.
 
-La página **Administrar códigos para insertar** incluye una columna de estado. De forma predeterminada, el estado de los códigos para insertar es **Activo** , pero también podría ser uno de los que se enumeran debajo.
+La página **Administrar códigos para insertar** incluye una columna de estado. De forma predeterminada, el estado de los códigos para insertar es **Activo**, pero también podría ser uno de los que se enumeran debajo.
 
 | Estado | Descripción |
 | --- | --- |
@@ -163,7 +163,7 @@ Debe ser usuario de Microsoft Power BI para poder usar la características **Pub
 <a name="howitworks"></a>
 ## <a name="how-it-works-technical-details"></a>Cómo funciona (detalles técnicos)
 
-Cuando se crea un código para insertar mediante **Publicar en la web** , el informe se hace visible para los usuarios de Internet. Está disponible públicamente, por lo que se puede esperar que los espectadores compartan fácilmente el informe a través de redes sociales en el futuro. Para ver el informe, los usuarios abren la dirección URL pública directa, o bien lo visualizan en una página web o un blog. Al hacerlo, Power BI almacena en caché la definición del informe y los resultados de las consultas necesarias para verlo. Este almacenamiento en caché garantiza que miles de usuarios simultáneos pueden ver el informe sin afectar al rendimiento.
+Cuando se crea un código para insertar mediante **Publicar en la web**, el informe se hace visible para los usuarios de Internet. Está disponible públicamente, por lo que se puede esperar que los espectadores compartan fácilmente el informe a través de redes sociales en el futuro. Para ver el informe, los usuarios abren la dirección URL pública directa, o bien lo visualizan en una página web o un blog. Al hacerlo, Power BI almacena en caché la definición del informe y los resultados de las consultas necesarias para verlo. Este almacenamiento en caché garantiza que miles de usuarios simultáneos pueden ver el informe sin afectar al rendimiento.
 
 Los datos se almacenan en memoria caché durante una hora a partir del momento en que se recuperan. Si actualiza la definición del informe (por ejemplo, si cambia el modo de vista) o los datos del informe, los cambios pueden tardar un tiempo en reflejarse en la versión del informe que ven los usuarios. Cuando se produce una actualización de datos para un modelo de datos de importación, el servicio borra los datos almacenados en caché y recupera los nuevos. En la mayoría de los casos, los datos se actualizan casi de forma simultánea a la importación. Pero en informes con muchas consultas distintas, pueden tardar algún tiempo en actualizarse. Como cada elemento y valor de datos se almacena en caché de forma independiente, cuando se produce una actualización de los datos, un usuario puede ver una combinación de valores actuales y anteriores. Por tanto, se recomienda organizar el trabajo con antelación y crear el código para insertar de **Publicar en la web** solo cuando esté satisfecho con la configuración. Si los datos se van a actualizar, minimice el número de actualizaciones y realice las actualizaciones en horas de inactividad. No se recomienda el uso de Publicar en Web para los datos que deben actualizarse con frecuencia.
 
@@ -182,7 +182,7 @@ Debe [buscar a una de estas personas](/office365/admin/admin-overview/admin-over
 
 ## <a name="limitations"></a>Limitaciones
 
-**Publicar en la web** es compatible con la mayoría de los orígenes de datos e informes del servicio Power BI. Aun así, los siguientes tipos de informes no se admiten actualmente o no están disponibles con **Publicar en la web** :
+**Publicar en la web** es compatible con la mayoría de los orígenes de datos e informes del servicio Power BI. Aun así, los siguientes tipos de informes no se admiten actualmente o no están disponibles con **Publicar en la web**:
 
 - Informes que usan la seguridad de nivel de fila.
 - Informes que usan cualquier origen de datos de conexión dinámica, incluido Analysis Services Tabular hospedado en local, Analysis Service Multidimensional y Azure Analysis Services.

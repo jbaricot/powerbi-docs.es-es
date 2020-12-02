@@ -2,18 +2,18 @@
 title: Notificaciones de interrupción del servicio
 description: Obtenga información sobre cómo recibir notificaciones por correo electrónico cuando se produzca una interrupción del servicio Power BI.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2020
-ms.author: kfollis
-ms.openlocfilehash: 8b9c10c8b3faa87cfc19c3c1d8f87a36de0307dd
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: e5d8f43a8edb6dc05b58cb62836e98cf209c8b5c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916139"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407823"
 ---
 # <a name="service-interruption-notifications"></a>Notificaciones de interrupción del servicio
 
@@ -21,7 +21,7 @@ Es importante tener información sobre la disponibilidad de las aplicaciones emp
 
 ![Correo electrónico de notificación de actualización](media/service-interruption-notifications/refresh-notification-email.png)
 
-En este momento, se envían mensajes de correo electrónico para los siguientes _escenarios de confiabilidad_ :
+En este momento, se envían mensajes de correo electrónico para los siguientes _escenarios de confiabilidad_:
 
 - Confiabilidad de apertura del informe
 - Confiabilidad de actualización del modelo
@@ -59,7 +59,7 @@ Un administrador de Power BI habilita las notificaciones en el portal de admini
 
 1. Identifique o cree un grupo de seguridad habilitado para correo electrónico que deba recibir notificaciones.
 
-1. En el portal de administración, seleccione **Configuración de inquilinos**. En **Configuración de ayuda y soporte técnico** , expanda **Recepción de notificaciones por correo electrónico sobre interrupciones o incidentes en el servicio**.
+1. En el portal de administración, seleccione **Configuración de inquilinos**. En **Configuración de ayuda y soporte técnico**, expanda **Recepción de notificaciones por correo electrónico sobre interrupciones o incidentes en el servicio**.
 
 1. Habilite las notificaciones, escriba un grupo de seguridad y seleccione **Aplicar**.
 

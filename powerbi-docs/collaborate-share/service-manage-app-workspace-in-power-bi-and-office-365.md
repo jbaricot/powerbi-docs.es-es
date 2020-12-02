@@ -2,19 +2,19 @@
 title: Administración del área de trabajo en Power BI y Microsoft 365
 description: Las áreas de trabajo de Power BI son una experiencia de colaboración basada en los grupos de Microsoft 365. Administre las áreas de trabajo en Power BI y también en Microsoft 365.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/02/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c05cb79d0996ad1819f0145193760ab16a031ffb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: bd1a5b0aaf694f41fdbfe4764e77c1138a57b082
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526729"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407041"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>Administración del área de trabajo en Power BI y Microsoft 365
 
@@ -40,7 +40,7 @@ Necesita una [licencia de Power BI Pro](../fundamentals/service-features-licen
 
 ## <a name="edit-your-workspace-in-power-bi"></a>Edición del área de trabajo en Power BI
 
-1. En el servicio Power BI, seleccione la flecha situada junto a **Áreas de trabajo** , seleccione **Más opciones** (…) junto al nombre del área de trabajo y elija **Editar esta área de trabajo** .
+1. En el servicio Power BI, seleccione la flecha situada junto a **Áreas de trabajo**, seleccione **Más opciones** (…) junto al nombre del área de trabajo y elija **Editar esta área de trabajo**.
 
    ![Captura de pantalla que muestra Power B I Inicio con el elemento Áreas de trabajo seleccionado y la opción Editar esta área de trabajo seleccionada en el menú Más opciones.](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
 
@@ -51,7 +51,7 @@ Necesita una [licencia de Power BI Pro](../fundamentals/service-features-licen
 
    ![Editar el cuadro de diálogo del área de trabajo](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
 
-1. Seleccione **Guardar** o **Cancelar** .
+1. Seleccione **Guardar** o **Cancelar**.
 
 ## <a name="edit-power-bi-workspace-properties-in-microsoft-365"></a>Edición de propiedades del área de trabajo de Power BI en Microsoft 365
 
@@ -59,28 +59,28 @@ También puede editar aspectos de un área de trabajo directamente en Outlook pa
 
 ### <a name="edit-the-members-of-the-workspace-group"></a>Edición de los miembros del grupo del área de trabajo
 
-1. En el servicio Power BI, seleccione la flecha situada junto a **Áreas de trabajo** , seleccione **Más opciones** (...) junto al nombre del área de trabajo y elija **Miembros** .
+1. En el servicio Power BI, seleccione la flecha situada junto a **Áreas de trabajo**, seleccione **Más opciones** (...) junto al nombre del área de trabajo y elija **Miembros**.
 
    ![Captura de pantalla que muestra Power B I Inicio con los elementos Áreas de trabajo y Miembros seleccionados en el menú Más opciones.](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
    Se abre la vista grupo de Outlook para Microsoft 365 del área de trabajo. Es posible que tenga que iniciar sesión en la cuenta de trabajo.
 
-1. Seleccione el rol situado junto al nombre de un compañero de equipo para convertirlo en **Miembro** o **Propietario** . Seleccione la **X** para quitar a la persona del grupo.
+1. Seleccione el rol situado junto al nombre de un compañero de equipo para convertirlo en **Miembro** o **Propietario**. Seleccione la **X** para quitar a la persona del grupo.
 
    ![Edición de un grupo de Microsoft 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>Adición de una imagen y establecimiento de otras propiedades del área de trabajo
 
-Cuando se distribuye la aplicación desde el área de trabajo, la imagen que agrega aquí es la imagen de la aplicación. Consulte [Adición de una imagen al área de trabajo de Microsoft 365](service-create-workspaces.md#add-an-image-to-your-microsoft-365-workspace-optional) del artículo **Creación de nuevas áreas de trabajo** .
+Cuando se distribuye la aplicación desde el área de trabajo, la imagen que agrega aquí es la imagen de la aplicación. Consulte [Adición de una imagen al área de trabajo de Microsoft 365](service-create-workspaces.md#add-an-image-to-your-microsoft-365-workspace-optional) del artículo **Creación de nuevas áreas de trabajo**.
 
-1. En la vista de Outlook para Microsoft 365 del área de trabajo, vaya a la pestaña **Acerca de** y seleccione **Editar** .
+1. En la vista de Outlook para Microsoft 365 del área de trabajo, vaya a la pestaña **Acerca de** y seleccione **Editar**.
 
     ![Icono de Editar grupo](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 1. Puede editar el nombre, la descripción y el idioma de las notificaciones relacionadas con el grupo. Aquí también puede agregar una imagen y establecer otras propiedades.
 
    ![Cuadro de diálogo de Editar grupo](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
 
-1. Seleccione **Guardar** o **Descartar** .
+1. Seleccione **Guardar** o **Descartar**.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

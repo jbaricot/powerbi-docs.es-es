@@ -2,19 +2,19 @@
 title: Colaboración en un área de trabajo clásica
 description: Obtenga información sobre cómo colaborar en archivos de Power BI Desktop en su área de trabajo y con servicios de Microsoft 365, como el uso compartido de archivos en OneDrive para la Empresa, las conversaciones en Exchange, el calendario y las tareas.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 07/25/2019
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fdfe212825cc522aa7965f46d112ece4a1db35c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9017d5c938ec0382e2fb27b00e7fe08945e10a5b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226790"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407639"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>Colaboración en un área de trabajo clásica
 Las áreas de trabajo de Power BI son lugares excelentes para colaborar con sus compañeros de trabajo en paneles, informes y conjuntos de datos para crear *aplicaciones*. En este artículo, se proporciona información sobre las áreas de trabajo *clásicas* originales.  

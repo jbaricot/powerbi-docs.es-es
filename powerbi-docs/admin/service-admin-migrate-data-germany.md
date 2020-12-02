@@ -2,19 +2,19 @@
 title: Migración de la suscripción de Power BI a las nuevas regiones alemanas locales
 description: Proporciona información sobre cómo los clientes existentes de Microsoft Cloud Germany (Microsoft Cloud Deutschland) pueden migrar sus usuarios Power BI a las nuevas regiones alemanas locales.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/02/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 978483407176b9902989b8feb0f41f577d4ed14f
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 7ce58c58934503e51531d204c02c976e244e57e5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668238"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408489"
 ---
 # <a name="migrate-your-subscription-to-the-new-local-german-regions"></a>Migración de la suscripción a las nuevas regiones alemanas locales
 

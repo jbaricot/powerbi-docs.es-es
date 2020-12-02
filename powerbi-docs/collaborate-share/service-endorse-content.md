@@ -2,28 +2,28 @@
 title: Aprobación del contenido
 description: Obtenga información sobre cómo promover y certificar contenido de Power BI.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 95e4f2e560ebbb7d97d011944e35344239d048f2
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 7232cad4fc1216ac6e1aa7c8a01136239a2f09d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92682027"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407064"
 ---
 # <a name="endorse-your-content"></a>Aprobación del contenido
 
-Power BI proporciona dos maneras de aprobar el contenido valioso y de alta calidad para aumentar su visibilidad: la **promoción** y la **certificación** .
+Power BI proporciona dos maneras de aprobar el contenido valioso y de alta calidad para aumentar su visibilidad: la **promoción** y la **certificación**.
 
-* **Promoción** : es una manera de resaltar el contenido que cree valioso y que merece la pena que otros usuarios lo utilicen. Se fomenta la diseminación y el uso colaborativo de contenido en una organización.
+* **Promoción**: es una manera de resaltar el contenido que cree valioso y que merece la pena que otros usuarios lo utilicen. Se fomenta la diseminación y el uso colaborativo de contenido en una organización.
 
     Cualquier propietario de contenido, así como los miembros con permisos de escritura en el área de trabajo donde se encuentra el contenido, pueden promoverlo cuando crean que tiene la calidad suficiente como para compartirlo.
 
-* **Certificación** : significa que el contenido cumple los estándares de calidad de la organización y se puede considerar como contenido fiable y autoritativo que está listo para su uso en toda la organización.
+* **Certificación**: significa que el contenido cumple los estándares de calidad de la organización y se puede considerar como contenido fiable y autoritativo que está listo para su uso en toda la organización.
 
     Solo los revisores autorizados pueden certificar contenido. Los propietarios de contenido que quieran ver su contenido certificado y que no estén autorizados para hacerlo deben seguir las directrices de su organización acerca de la obtención de la certificación del contenido.
 
@@ -46,11 +46,11 @@ Para promover contenido, debe tener permisos de escritura en el área de trabajo
 
 1. Vaya a la [configuración](#how-to-get-to-content-settings) del contenido que quiera promover.
 
-1. Expanda la sección de aprobación y seleccione **Promocionados** . Si va a promover un conjunto de datos, proporcione una breve descripción del mismo.
+1. Expanda la sección de aprobación y seleccione **Promocionados**. Si va a promover un conjunto de datos, proporcione una breve descripción del mismo.
 
     ![Selección de Promocionados y Aplicar](media/service-endorse-content/power-bi-promote-content.png)
 
-1. Seleccione **Aplicar** .
+1. Seleccione **Aplicar**.
 
 ## <a name="certify-content"></a>Certificación de contenido
 
@@ -65,11 +65,11 @@ La certificación de contenido es una gran responsabilidad y solo los usuarios a
 
 1. Si decide certificar el contenido, vaya al área de trabajo donde se encuentra y, después, abra la [configuración](#how-to-get-to-content-settings) del contenido que quiere certificar.
 
-1. Expanda la sección de aprobación y seleccione **Certificado** . 
+1. Expanda la sección de aprobación y seleccione **Certificado**. 
 
     ![Captura de pantalla del botón certificar contenido.](media/service-endorse-content/power-bi-certify-content.png)
 
-1. Seleccione **Aplicar** .
+1. Seleccione **Aplicar**.
 
 ## <a name="request-content-certification"></a>Solicitud de certificación de contenido
 
@@ -91,13 +91,13 @@ Si quiere certificar el contenido pero no está autorizado para hacerlo, siga lo
 
 Al cuadro de diálogo de aprobación se accede a través de la configuración del contenido que quiere aprobar. Siga las instrucciones que se indican a continuación para ir a la configuración de cada tipo de contenido.
 
-* **Conjuntos de datos** : en la vista de lista, mantenga el mouse sobre el conjunto de datos que quiere aprobar, haga clic en **Más opciones (...)** y, después, elija **Configuración** en el menú que aparece.
+* **Conjuntos de datos**: en la vista de lista, mantenga el mouse sobre el conjunto de datos que quiere aprobar, haga clic en **Más opciones (...)** y, después, elija **Configuración** en el menú que aparece.
 * **Flujos de datos** (versión preliminar): en la vista de lista, mantenga el mouse sobre el flujo de datos que quiere aprobar, haga clic en **Más opciones (...)** y, después, elija **Configuración** en el menú que aparece.
 
 
-* **Informes** (versión preliminar): en la vista de lista, mantenga el mouse sobre el informe que quiere aprobar, haga clic en **Más opciones (...)** y, después, elija **Configuración** en el menú que aparece. Como alternativa, si el informe está abierto, elija **Archivo > Configuración** .
+* **Informes** (versión preliminar): en la vista de lista, mantenga el mouse sobre el informe que quiere aprobar, haga clic en **Más opciones (...)** y, después, elija **Configuración** en el menú que aparece. Como alternativa, si el informe está abierto, elija **Archivo > Configuración**.
 
-* **Aplicaciones** (versión preliminar): vaya al área de trabajo de la aplicación, haga clic en **Más opciones (...)** en la barra de menús y elija **Aprobar esta aplicación** .
+* **Aplicaciones** (versión preliminar): vaya al área de trabajo de la aplicación, haga clic en **Más opciones (...)** en la barra de menús y elija **Aprobar esta aplicación**.
 
     ![Captura de pantalla del vínculo a la configuración de la aplicación.](media/service-endorse-content/power-bi-app-settings.png)
 
