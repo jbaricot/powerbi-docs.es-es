@@ -2,19 +2,19 @@
 title: Actualizar datos en Power BI
 description: En este artículo se describen las características de actualización de datos de Power BI y sus dependencias en un nivel conceptual.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/16/2020
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: c5be2a9fa87b55d0a1b98e284ec4b6b7e1dd9c0c
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 212aa0648a2677536912c15a17ba6916bb871313
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633386"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404511"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 

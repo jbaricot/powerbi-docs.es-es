@@ -2,20 +2,20 @@
 title: Usar una IDE de R externa con Power BI
 description: Puede iniciar y usar un IDE externo con Power BI.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 58e23ecca37b9019ed007c60fe7aaa7e6b4d4515
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 21b46a0c7637509fa54c3d7ed2b5551cde05f784
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216406"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404879"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Usar una IDE de R externa con Power BI
 Con **Power BI Desktop**, puede usar un IDE de R externo (entorno de desarrollo integrado) para crear y perfeccionar los scripts de R y después usar esos scripts en Power BI.

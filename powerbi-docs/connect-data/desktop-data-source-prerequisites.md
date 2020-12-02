@@ -2,19 +2,19 @@
 title: Requisitos previos de los orígenes de datos de Power BI
 description: Requisitos previos de los orígenes de datos de Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/29/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 373249061f39c40ec3a78ba9541575721bd60022
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 55e219ff5da73774adaec768b48a0aedd90c1748
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859644"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405385"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Requisitos previos de los orígenes de datos de Power BI
 Para cada proveedor de datos, Power BI admite una versión de proveedor específica en los objetos. Para obtener más información sobre los orígenes de datos disponibles para Power BI, vea [Orígenes de datos](desktop-data-sources.md). La tabla siguiente describe estos requisitos.

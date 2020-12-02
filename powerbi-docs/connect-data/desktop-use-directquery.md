@@ -2,19 +2,19 @@
 title: Usar DirectQuery en Power BI Desktop
 description: Usar DirectQuery (también denominado conexión dinámica) en Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b31ddb3e3881f9002affcae9106b9e14bf85a964
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 4619219705a80b53883a9b0578791a60a853125e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092323"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404235"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usar DirectQuery en Power BI Desktop
 Con *Power BI Desktop*, cuando se conecta al origen de datos, siempre es posible importar una copia de los datos en Power BI Desktop. Para algunos orígenes de datos, existe un enfoque alternativo: conectarse directamente al origen de datos mediante DirectQuery.
@@ -33,7 +33,7 @@ Estas son las diferencias entre usar **Importación** y **DirectQuery**:
 
 - **DirectQuery**: no se importan ni copian datos en Power BI Desktop. En el caso de los orígenes relacionales, las tablas y columnas seleccionadas aparecen en la lista **Campos**. En el caso de los orígenes multidimensionales como SAP Business Warehouse, las dimensiones y medidas del cubo seleccionado aparecen en la lista **Campos**. Mientras crea o interactúa con una visualización, Power BI Desktop consulta el origen de datos subyacente, lo que significa que siempre está viendo los datos actuales.
 
-Existen muchas transformaciones de datos y modelado de datos disponibles al usar DirectQuery, aunque con algunas limitaciones. Al crear o interactuar con una visualización, debe consultar el origen subyacente. El tiempo necesario para actualizar el objeto visual depende del rendimiento del origen de datos subyacente. Si los datos necesarios para atender la solicitud se solicitaron recientemente, Power BI Desktop usa datos recientes para reducir el tiempo necesario para mostrar la visualización. Si selecciona**Actualizar** desde la cinta **Inicio**, se asegurará de que todas las visualizaciones se actualicen con los datos actuales.
+Existen muchas transformaciones de datos y modelado de datos disponibles al usar DirectQuery, aunque con algunas limitaciones. Al crear o interactuar con una visualización, debe consultar el origen subyacente. El tiempo necesario para actualizar el objeto visual depende del rendimiento del origen de datos subyacente. Si los datos necesarios para atender la solicitud se solicitaron recientemente, Power BI Desktop usa datos recientes para reducir el tiempo necesario para mostrar la visualización. Si selecciona **Actualizar** desde la cinta **Inicio**, se asegurará de que todas las visualizaciones se actualicen con los datos actuales.
 
 En el artículo [Power BI y DirectQuery](desktop-directquery-about.md) se describe DirectQuery detalladamente. Para obtener más información sobre las ventajas, limitaciones y consideraciones importantes al utilizar DirectQuery, consulte las siguientes secciones.
 

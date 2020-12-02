@@ -2,19 +2,19 @@
 title: Uso del conector de SAP Business Warehouse (BW) en Power BI Desktop
 description: Uso del conector de SAP BW en Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b3250124fa813f3da96e63455d483cf05f01cb6
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 1808638ad0ccaa2adc57d56bf1677dea0ca24440
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598836"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404672"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>Uso del conector de SAP Business Warehouse en Power BI Desktop
 
@@ -33,7 +33,7 @@ Le recomendamos usar Implementation 2.0 SAP Connector siempre que sea posible. 
 1. Instale la biblioteca *SAP NetWeaver* en el equipo local. Puede obtener la biblioteca SAP Netweaver del administrador de SAP o directamente desde el [Centro de descarga de software de SAP](https://support.sap.com/swdc). Como el Centro de descarga de software de SAP cambia su estructura con frecuencia, no hay disponibles instrucciones más específicas para navegar por ese sitio. Por lo general, la biblioteca SAP NetWeaver se incluye en la instalación de las herramientas de cliente de SAP.
 
    Puede buscar la *nota de SAP #1025361* para obtener la ubicación de descarga de la versión más reciente. Asegúrese de que la arquitectura de la biblioteca SAP NetWeaver (de 32 o 64 bits) coincida con su instalación de Power BI Desktop. Instale todos los archivos incluidos en *SAP NetWeaver RFC SDK* según la nota de SAP.
-2. En Power BI Desktop, seleccione **Obtener datos** . Entre las opciones de **Base de datos** se incluyen *Servidor de aplicaciones de SAP Business Warehouse* y *Servidor de mensajería de SAP Business Warehouse* .
+2. En Power BI Desktop, seleccione **Obtener datos**. Entre las opciones de **Base de datos** se incluyen *Servidor de aplicaciones de SAP Business Warehouse* y *Servidor de mensajería de SAP Business Warehouse*.
 
    ![Opciones Obtener datos para SAP](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
@@ -48,7 +48,7 @@ El conector viene en versiones de 32 y 64 bits. Elija la versión que coincida 
 * Conector de SAP para Microsoft .NET 3.0.22.0 para Windows de 32 bits (x86) en un archivo ZIP (6896 KB), 1 de junio de 2019
 * Conector de SAP para Microsoft .NET 3.0.22.0 para Windows de 64 bits (x64) en un archivo ZIP (7180 KB), 1 de junio de 2019
 
-Al instalar, en **Pasos de instalación opcionales** , asegúrese de seleccionar *Instalar ensamblados en GAC* .
+Al instalar, en **Pasos de instalación opcionales**, asegúrese de seleccionar *Instalar ensamblados en GAC*.
 
 ![Pasos de instalación opcionales de SAP](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
@@ -57,15 +57,15 @@ Al instalar, en **Pasos de instalación opcionales** , asegúrese de seleccionar
 
 ## <a name="version-1-sap-bw-connector-features"></a>Características de la versión 1 del conector de SAP BW
 
-La versión 1 del conector de SAP BW de Power BI Desktop permite importar datos de los cubos del *servidor de SAP Business Warehouse* , o bien usar DirectQuery.
+La versión 1 del conector de SAP BW de Power BI Desktop permite importar datos de los cubos del *servidor de SAP Business Warehouse*, o bien usar DirectQuery.
 
 Para más información sobre el conector de SAP BW y cómo usarlo con DirectQuery, consulte [DirectQuery y SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
-Al conectarse, debe especificar un **servidor** , un **número de sistema** y el **id. de cliente** para establecer la conexión.
+Al conectarse, debe especificar un **servidor**, un **número de sistema** y el **id. de cliente** para establecer la conexión.
 
 ![Configuración de la conexión del servidor de SAP](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
-También puede especificar otras dos **opciones avanzadas** : **código de idioma** y una **instrucción MDX** personalizada para ejecutarla en el servidor especificado.
+También puede especificar otras dos **opciones avanzadas**: **código de idioma** y una **instrucción MDX** personalizada para ejecutarla en el servidor especificado.
 
 ![Información de conexión adicional](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
@@ -77,16 +77,16 @@ Al seleccionar uno o varios elementos del servidor, el cuadro de diálogo Navega
 
 El cuadro de diálogo **Navegador** también proporciona opciones de presentación:
 
-* **Mostrar solo los elementos seleccionados** . De manera predeterminada, el cuadro de diálogo **Navegador** muestra todos los elementos.  esta opción es útil para comprobar el conjunto final de los elementos seleccionados. Un enfoque alternativo para ver los elementos seleccionados es seleccionar los nombres de columna en el área de vista previa.
-* **Habilitar vistas previas de datos** . Este es el valor predeterminado. Muestra vistas previas de los datos. Si deshabilita las vistas previas de los datos se disminuirá la cantidad de llamadas de servidor, puesto que ya no solicita datos para las vistas previas.
-* **Nombres técnicos** . SAP BW admite la noción de *nombres técnicos* para objetos dentro de un cubo. Los nombres técnicos permiten al propietario de un cubo mostrar *nombres descriptivos* para los objetos de un cubo, en lugar de mostrar solo los *nombres físicos* para tales objetos.
+* **Mostrar solo los elementos seleccionados**. De manera predeterminada, el cuadro de diálogo **Navegador** muestra todos los elementos.  esta opción es útil para comprobar el conjunto final de los elementos seleccionados. Un enfoque alternativo para ver los elementos seleccionados es seleccionar los nombres de columna en el área de vista previa.
+* **Habilitar vistas previas de datos**. Este es el valor predeterminado. Muestra vistas previas de los datos. Si deshabilita las vistas previas de los datos se disminuirá la cantidad de llamadas de servidor, puesto que ya no solicita datos para las vistas previas.
+* **Nombres técnicos**. SAP BW admite la noción de *nombres técnicos* para objetos dentro de un cubo. Los nombres técnicos permiten al propietario de un cubo mostrar *nombres descriptivos* para los objetos de un cubo, en lugar de mostrar solo los *nombres físicos* para tales objetos.
 
 ![Ventana Navegador](media/desktop-sap-bw-connector/sap_bw_6.png)
 
 Después de seleccionar todos los objetos necesarios, puede decidir qué hacer a continuación si selecciona una de las opciones siguientes:
 
-* Seleccione **Cargar** para cargar todo el conjunto de filas de la tabla de salida en el modelo de datos de Power BI Desktop. Se abre la vista **Informe** . Puede empezar a visualizar los datos o hacer otras modificaciones mediante las vistas **Datos** o **Relaciones** .
-* Seleccione **Editar** para abrir el **Editor de consultas** . Especifique los pasos adicionales de transformación y filtrado de datos antes de que todo el conjunto de filas se lleve al modelo de datos de Power BI Desktop.
+* Seleccione **Cargar** para cargar todo el conjunto de filas de la tabla de salida en el modelo de datos de Power BI Desktop. Se abre la vista **Informe**. Puede empezar a visualizar los datos o hacer otras modificaciones mediante las vistas **Datos** o **Relaciones**.
+* Seleccione **Editar** para abrir el **Editor de consultas**. Especifique los pasos adicionales de transformación y filtrado de datos antes de que todo el conjunto de filas se lleve al modelo de datos de Power BI Desktop.
 
 Además de importar datos desde los cubos de SAP BW, también puede importar datos desde una gran variedad de orígenes en Power BI Desktop y, luego, combinarlos en un único informe. Esta capacidad ofrece una amplia gama de escenarios interesantes para los informes y análisis de datos de SAP BW.
 
@@ -94,13 +94,13 @@ Además de importar datos desde los cubos de SAP BW, también puede importar da
 
 Cree una conexión para usar Implementation 2.0 del conector de SAP BW. Siga estos pasos para crear una conexión.
 
-1. Seleccione **Obtener datos** . Seleccione **Servidor de aplicaciones de SAP Business Warehouse** o **Servidor de mensajería de SAP Business Warehouse** y, luego, conéctese.
+1. Seleccione **Obtener datos**. Seleccione **Servidor de aplicaciones de SAP Business Warehouse** o **Servidor de mensajería de SAP Business Warehouse** y, luego, conéctese.
 
-2. En el cuadro de diálogo de la conexión nueva, seleccione la implementación. La selección de **2.0** en **Implementación** , tal como se muestra en la imagen siguiente, habilita las opciones **Modo de ejecución** , **Tamaño del lote** y **Habilitar estructuras características** .
+2. En el cuadro de diálogo de la conexión nueva, seleccione la implementación. La selección de **2.0** en **Implementación**, tal como se muestra en la imagen siguiente, habilita las opciones **Modo de ejecución**, **Tamaño del lote** y **Habilitar estructuras características**.
 
     ![Cuadro de diálogo de conexión de SAP](media/desktop-sap-bw-connector/sap_bw_7.png)
 
-3. Seleccione **Aceptar** . Después de este punto, la experiencia es la misma que se describe en [Características de la versión 1 del conector de SAP BW](#version-1-sap-bw-connector-features) para la versión 1 del conector de SAP BW.
+3. Seleccione **Aceptar**. Después de este punto, la experiencia es la misma que se describe en [Características de la versión 1 del conector de SAP BW](#version-1-sap-bw-connector-features) para la versión 1 del conector de SAP BW.
 
 ### <a name="new-options-for-implementation-20"></a>Nuevas opciones de Implementation 2.0
 
@@ -141,9 +141,9 @@ Solo es posible modificar los informes existentes para usar Implementation 2.0 
 
 1. Abra un informe existente, seleccione **Editar consultas** en la cinta de opciones y, después, seleccione la consulta de SAP Business Warehouse que se va a actualizar.
 
-1. Haga clic con el botón derecho en la consulta y seleccione **Editor avanzado** .
+1. Haga clic con el botón derecho en la consulta y seleccione **Editor avanzado**.
 
-1. En el **Editor avanzado** , cambie la llamada `SapBusinessWarehouse.Cubes` como se muestra a continuación:
+1. En el **Editor avanzado**, cambie la llamada `SapBusinessWarehouse.Cubes` como se muestra a continuación:
 
     Determine si la consulta ya contiene un registro de opciones, como en el ejemplo siguiente:
 
@@ -169,7 +169,7 @@ En esta sección se muestran situaciones de diagnóstico de problemas (y solucio
 
 1. Los datos numéricos de SAP BW devuelven puntos en lugar de comas. Por ejemplo, 1,000,000 se devuelve como 1.000.000.
 
-   SAP BW devuelve datos decimales con una `,` (coma) o un `.` (punto) como separador decimal. Para especificar cuál de esas opciones de SAP BW se debe usar para el separador decimal, el controlador que Power BI Desktop usa hace una llamada a `BAPI_USER_GET_DETAIL`. Esta llamada devuelve una estructura denominada `DEFAULTS`, que tiene un campo que se llama `DCPFM` y que almacena la *notación de formato decimal* . El campo toma uno de los valores siguientes:
+   SAP BW devuelve datos decimales con una `,` (coma) o un `.` (punto) como separador decimal. Para especificar cuál de esas opciones de SAP BW se debe usar para el separador decimal, el controlador que Power BI Desktop usa hace una llamada a `BAPI_USER_GET_DETAIL`. Esta llamada devuelve una estructura denominada `DEFAULTS`, que tiene un campo que se llama `DCPFM` y que almacena la *notación de formato decimal*. El campo toma uno de los valores siguientes:
 
    * " " (espacio) = el separador decimal es una coma: N.NNN,NN
    * "X" = el separador decimal es un punto: N,NNN.NN
@@ -205,7 +205,7 @@ En esta sección se muestran situaciones de diagnóstico de problemas (y solucio
    
    ![Habilitación de versión para acceso externo](media/desktop-sap-bw-connector/sap_bw_8.png)
    
-3. En la ventana **Navegador** no se muestra una vista previa de los datos, proporcionándose en su lugar un mensaje de error *Referencia de objeto no definida a una instancia de un objeto* .
+3. En la ventana **Navegador** no se muestra una vista previa de los datos, proporcionándose en su lugar un mensaje de error *Referencia de objeto no definida a una instancia de un objeto*.
    
    Los usuarios de SAP necesitan acceso a módulos de la función BAPI para obtener metadatos y recuperar datos de InfoProviders de SAP BW. Entre estos módulos se incluyen:
 
@@ -219,7 +219,7 @@ En esta sección se muestran situaciones de diagnóstico de problemas (y solucio
    * BAPI_MDPROVIDER_GET_VARIABLES
    * BAPI_IOBJ_GETDETAIL
 
-   Para solucionar este problema, compruebe que el usuario tiene acceso a los diversos módulos MDPROVIDER y a `BAPI_IOBJ_GETDETAIL`. Para solucionar otros problemas o problemas similares, puede habilitar el seguimiento. **Seleccione Archivo** > **Opciones y configuración** > **Opciones** . En **Opciones** , seleccione **Diagnósticos** y, luego **Habilitar seguimiento** . Intente recuperar datos de SAP BW mientras el seguimiento está activo y examine el archivo de seguimiento para obtener más detalles.
+   Para solucionar este problema, compruebe que el usuario tiene acceso a los diversos módulos MDPROVIDER y a `BAPI_IOBJ_GETDETAIL`. Para solucionar otros problemas o problemas similares, puede habilitar el seguimiento. **Seleccione Archivo** > **Opciones y configuración** > **Opciones**. En **Opciones**, seleccione **Diagnósticos** y, luego **Habilitar seguimiento**. Intente recuperar datos de SAP BW mientras el seguimiento está activo y examine el archivo de seguimiento para obtener más detalles.
 
 ## <a name="sap-bw-connection-support"></a>Compatibilidad con conexiones de SAP BW
 
