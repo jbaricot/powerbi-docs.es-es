@@ -2,30 +2,30 @@
 title: Tipos de objetos visuales en Power BI para usuarios profesionales
 description: Tipos de objetos visuales en el servicio Power BI
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/07/2020
-ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6d2ded8060ebe663989fd4f91fc22e4163f60c93
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: e944cabc72e60825f286fd86e96257a780b121b6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830644"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399221"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de objetos visuales en Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-Los objetos visuales (también conocidos como *gráficos* y *visualizaciones* ) son representaciones gráficas de los datos. Algunos ejemplos comunes son los gráficos de columnas, mapas, gráficos de dispersión y medidores radiales. Encontrará objetos visuales en informes, paneles y preguntas y respuestas.
+Los objetos visuales (también conocidos como *gráficos* y *visualizaciones*) son representaciones gráficas de los datos. Algunos ejemplos comunes son los gráficos de columnas, mapas, gráficos de dispersión y medidores radiales. Encontrará objetos visuales en informes, paneles y preguntas y respuestas.
 
 Los objetos visuales descritos en esta página son los que se empaquetan con Power BI. Estos son los tipos visuales que encontrará con mayor frecuencia. En esta página se ofrece una descripción general rápida de estos objetos visuales preempaquetados. Para obtener información detallada sobre cualquiera de estos objetos visuales, vea la [documentación del *diseñador* de informes de Power BI sobre los tipos de objetos visuales](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-Los objetos visuales que no se incluyen automáticamente con Power BI se conocen como *objetos visuales personalizados* . Los objetos visuales personalizados se pueden importar en Power BI desde sitios web externos, como Microsoft AppSource, o desde orígenes internos, como el almacén de la organización. Para importar objetos visuales personalizados, se requieren permisos de edición para el informe. Para información sobre estos objetos visuales de complementos, consulte [Objetos visuales personalizados en Power BI](../developer/visuals/power-bi-custom-visuals.md).
+Los objetos visuales que no se incluyen automáticamente con Power BI se conocen como *objetos visuales personalizados*. Los objetos visuales personalizados se pueden importar en Power BI desde sitios web externos, como Microsoft AppSource, o desde orígenes internos, como el almacén de la organización. Para importar objetos visuales personalizados, se requieren permisos de edición para el informe. Para información sobre estos objetos visuales de complementos, consulte [Objetos visuales personalizados en Power BI](../developer/visuals/power-bi-custom-visuals.md).
 
 
 
@@ -110,7 +110,7 @@ Los medidores radiales son una excelente opción para:
 
 En un gráfico de influenciadores clave se muestran los mayores colaboradores a un resultado o valor seleccionado.
 
-El gráfico de influenciadores clave es una gran elección para ayudarle a comprender los factores que afectan a una métrica clave. Por ejemplo, *qué influye a los clientes para realizar un segundo pedido *o* por qué las ventas fueron tan altas el junio pasado* . 
+El gráfico de influenciadores clave es una gran elección para ayudarle a comprender los factores que afectan a una métrica clave. Por ejemplo, *qué influye a los clientes para realizar un segundo pedido *o* por qué las ventas fueron tan altas el junio pasado*. 
 
 ### <a name="kpis"></a>KPI
 ![kpi](media/end-user-visual-type/power-bi-kpi.png)
@@ -266,7 +266,7 @@ Los gráficos de cascada son una excelente opción:
 Al escribir las consultas en lenguaje natural con Preguntas y respuestas de Power BI, puede especificar el tipo de objeto visual en la consulta.  Por ejemplo:
 
 
-" ***ventas por estado en un gráfico de rectángulos*** "
+"***ventas por estado en un gráfico de rectángulos***"
 
 ![Sesión de preguntas y respuestas](media/end-user-visual-type/qa-treemap.png)
 

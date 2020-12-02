@@ -2,20 +2,20 @@
 title: Catálogo de aprendizaje para preventas de asociados
 description: Busque todas las opciones de aprendizaje de Power Apps para expertos en ventas anteriores, de la más básica a la más avanzada.
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: bdc42b263e274983e5bcf85dde4d733c94d5d82d
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8364e0a795aff5821d67b314b569bb0292c80ea3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747698"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398278"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Catálogo de aprendizaje para preventas de asociados
 
-¿Es responsable de mostrar características clave a los clientes? 
+¿Es responsable de mostrar características clave a los clientes? 
 
 El catálogo siguiente se organiza a partir de los conocimientos básicos en dominios específicos y van de más básicos a más avanzados. Si el contenido está en varios formatos, le informaremos de ello, para que pueda elegir el formato de entrenamiento que mejor se adapte a sus necesidades.
 

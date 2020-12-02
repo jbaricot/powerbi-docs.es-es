@@ -2,20 +2,20 @@
 title: Búsqueda de contenido mediante la característica de búsqueda global
 description: Documentación para buscar contenido en el servicio Power BI y desplazarse por él
 author: mihart
+ms.author: mihart
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1fbfa8a85ada8512aff54526407799a00fbfa891
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: b2fac346b9c75df8b3a6b8faa1f158745ff307a7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780320"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399129"
 ---
 # <a name="navigation-for-power-bi-business-users-global-search"></a>Navegación para usuarios empresariales de Power BI: búsqueda global
 

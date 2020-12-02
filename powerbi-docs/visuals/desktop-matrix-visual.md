@@ -1,20 +1,20 @@
 ---
 title: Crear un objeto visual de matriz en Power BI
 description: Conozca cómo el objeto visual de matriz permite diseños de paso y resaltado pormenorizado en Power BI.
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bf3210982380a0a3aa498dea8038366733182d7e
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 33e0ee83815c739d8201fad995d84c7ee397bc6c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412312"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398140"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creación de visualizaciones de matriz en Power BI
 
@@ -69,17 +69,17 @@ Con el objeto visual de matriz, puede realizar todo tipo de actividades interesa
 
 ### <a name="drill-down-on-row-headers"></a>Exploración en profundidad en encabezados de fila
 
-En el panel Visualizaciones, al agregar varios campos a la sección **Filas** del área **Campos** , se habilita la exploración en profundidad en las filas del objeto visual de matriz. Esto es parecido a la creación de una jerarquía que después permite explorar en profundidad (y, posteriormente, retroceder) por esa jerarquía y analizar los datos de cada nivel.
+En el panel Visualizaciones, al agregar varios campos a la sección **Filas** del área **Campos**, se habilita la exploración en profundidad en las filas del objeto visual de matriz. Esto es parecido a la creación de una jerarquía que después permite explorar en profundidad (y, posteriormente, retroceder) por esa jerarquía y analizar los datos de cada nivel.
 
-En la siguiente imagen, la sección **Filas** contiene *Fase de ventas* y *Tamaño de oportunidad* , lo cual permite crear una agrupación (o jerarquía) de las filas que se pueden explorar.
+En la siguiente imagen, la sección **Filas** contiene *Fase de ventas* y *Tamaño de oportunidad*, lo cual permite crear una agrupación (o jerarquía) de las filas que se pueden explorar.
 
 ![Tarjeta de filtros que muestra las filas que se eligen](media/desktop-matrix-visual/power-bi-rows-matrix.png)
 
-Cuando se ha creado la agrupación en el objeto visual en la sección **Filas** , el mismo objeto visual muestra los iconos *Explorar* y *Expandir* en la esquina superior izquierda del objeto visual.
+Cuando se ha creado la agrupación en el objeto visual en la sección **Filas**, el mismo objeto visual muestra los iconos *Explorar* y *Expandir* en la esquina superior izquierda del objeto visual.
 
 ![matriz con los controles de exploración en profundidad contorneados](media/desktop-matrix-visual/power-bi-matrix-drilldown.png)
 
-De forma parecida al comportamiento de exploración y expansión de otros objetos visuales, al hacer clic en esos botones se puede explorar en profundidad (o retroceder) por la jerarquía. En este caso, se puede explorar en profundidad desde *Ventas* a *Tamaño de oportunidad* , como se muestra en la imagen siguiente, en la que se ha hecho clic en el icono de nivel uno de exploración en profundidad (el tridente).
+De forma parecida al comportamiento de exploración y expansión de otros objetos visuales, al hacer clic en esos botones se puede explorar en profundidad (o retroceder) por la jerarquía. En este caso, se puede explorar en profundidad desde *Ventas* a *Tamaño de oportunidad*, como se muestra en la imagen siguiente, en la que se ha hecho clic en el icono de nivel uno de exploración en profundidad (el tridente).
 
 ![matriz con tridente contorneado](media/desktop-matrix-visual/power-bi-matrix-drill3.png)
 
@@ -93,7 +93,7 @@ Si selecciona **Explorar en profundidad** se expande la matriz de *ese* nivel de
 
 ![matriz explorada en profundidad un nivel](media/desktop-matrix-visual/power-bi-drill-down-matrix.png)
 
-Seleccione el icono de **Rastrear agrupando datos** para volver a la vista de nivel superior anterior. Si, a continuación, selecciona **Propuesta** > **Mostrar el siguiente nivel** , obtendrá un listado alfabético de todos los elementos del siguiente nivel (en este caso, el campo *Tamaño de oportunidad* ), sin la categorización de jerarquía de nivel superior.
+Seleccione el icono de **Rastrear agrupando datos** para volver a la vista de nivel superior anterior. Si, a continuación, selecciona **Propuesta** > **Mostrar el siguiente nivel**, obtendrá un listado alfabético de todos los elementos del siguiente nivel (en este caso, el campo *Tamaño de oportunidad*), sin la categorización de jerarquía de nivel superior.
 
 ![matriz con Mostrar el siguiente nivel](media/desktop-matrix-visual/power-bi-next-level-matrix.png)
 
@@ -106,19 +106,19 @@ También puede usar el elemento de menú **Expandir** para controlar aún más l
 ![Matriz después de haber aplicado Expandir en Propuesta](media/desktop-matrix-visual/power-bi-matrix-expand.png)
 
 ### <a name="drill-down-on-column-headers"></a>Exploración en profundidad en encabezados de columna
-Al igual que la funcionalidad de explorar en profundidad en las filas, también se puede hacer en las columnas. En la siguiente imagen, hay dos campos en el conjunto de campos **Columnas** , lo cual permite crear una jerarquía similar a la que hemos usado para las filas anteriormente en este artículo. En el conjunto de campos **Columnas** , tenemos *Región* y *Segmento*. En cuanto el segundo campo se agregó a **Columnas** , un nuevo menú desplegable apareció en el objeto visual; actualmente muestra **Filas**.
+Al igual que la funcionalidad de explorar en profundidad en las filas, también se puede hacer en las columnas. En la siguiente imagen, hay dos campos en el conjunto de campos **Columnas**, lo cual permite crear una jerarquía similar a la que hemos usado para las filas anteriormente en este artículo. En el conjunto de campos **Columnas**, tenemos *Región* y *Segmento*. En cuanto el segundo campo se agregó a **Columnas**, un nuevo menú desplegable apareció en el objeto visual; actualmente muestra **Filas**.
 
 ![Matriz después del segundo valor de columna agregado](media/desktop-matrix-visual/power-bi-matrix-row.png)
 
-Para explorar en profundidad en las columnas, seleccione **Columnas** desde el menú *Obtener detalles* , que puede encontrarse en la esquina superior izquierda de la matriz. Seleccione la región *Este* y elija **Explorar en profundidad**.
+Para explorar en profundidad en las columnas, seleccione **Columnas** desde el menú *Obtener detalles*, que puede encontrarse en la esquina superior izquierda de la matriz. Seleccione la región *Este* y elija **Explorar en profundidad**.
 
 ![menú para explorar en profundidad en las columnas](media/desktop-matrix-visual/power-bi-matrix-column.png)
 
-Cuando se selecciona **Explorar en profundidad** , aparece el siguiente nivel de la jerarquía de la columna para *Región > Este* que, en este caso, es *Recuento de oportunidades*. La otra región está oculta.
+Cuando se selecciona **Explorar en profundidad**, aparece el siguiente nivel de la jerarquía de la columna para *Región > Este* que, en este caso, es *Recuento de oportunidades*. La otra región está oculta.
 
 ![matriz con columna explorada en profundidad en un nivel](media/desktop-matrix-visual/power-bi-matrix-column-drill.png)
 
-El resto de los elementos de menú funcionan de la misma manera que lo hacen los de las filas (vea la sección anterior, **Exploración en profundidad en encabezados de fila** ). También puede seleccionar las opciones **Mostrar el siguiente nivel** y **Expandir al siguiente nivel** con columnas al igual que podía hacer con las filas.
+El resto de los elementos de menú funcionan de la misma manera que lo hacen los de las filas (vea la sección anterior, **Exploración en profundidad en encabezados de fila**). También puede seleccionar las opciones **Mostrar el siguiente nivel** y **Expandir al siguiente nivel** con columnas al igual que podía hacer con las filas.
 
 > [!NOTE]
 > Los iconos Explorar en profundidad y Explorar agrupando datos situados en la esquina superior izquierda del objeto visual de matriz solo son aplicables a las filas. Para explorar en profundidad por las columnas, debe usar el menú contextual.
@@ -135,7 +135,7 @@ En la siguiente imagen, puede ver un objeto visual de matriz con el diseño esca
 
 ![forma actual en que esa matriz formatea los datos](media/desktop-matrix-visual/matrix-visual_13.png)
 
-Puede ajustar fácilmente la configuración del diseño escalonado. Con el objeto visual de matriz seleccionado, en la sección **Formato** (el icono de rodillo de pintura) del panel **Visualizaciones** , expanda la sección de encabezados de fila. Tiene dos opciones: la opción de diseño escalonado (que se puede activar o desactivar) y la opción de sangría de diseño escalonado (que permite especificar el tamaño de la sangría, en píxeles).
+Puede ajustar fácilmente la configuración del diseño escalonado. Con el objeto visual de matriz seleccionado, en la sección **Formato** (el icono de rodillo de pintura) del panel **Visualizaciones**, expanda la sección de encabezados de fila. Tiene dos opciones: la opción de diseño escalonado (que se puede activar o desactivar) y la opción de sangría de diseño escalonado (que permite especificar el tamaño de la sangría, en píxeles).
 
 ![Tarjeta de encabezados de fila que muestra el control Diseño escalonado](media/desktop-matrix-visual/power-bi-stepped-matrix.png)
 
@@ -216,7 +216,7 @@ Para más información, consulte [Formato de tabla condicional](../create-report
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Colores de fuente y sombreado con objetos visuales de matriz
 Con el objeto visual de matriz, puede aplicar formato condicional (colores, sombreado y barras de datos) al fondo de las celdas de la matriz y también al texto y a los valores propiamente dichos.
 
-Para aplicar formato condicional, seleccione el objeto visual de matriz y abra el panel **Formato**. Expanda la tarjeta **Formato condicional** , y para **Color de fondo** , **Color de fuente** o **Barras de datos** , mueva el control deslizante a **Activar**. Al activar una de estas opciones se muestra un vínculo para *Controles avanzados* , que permite personalizar los colores y los valores del formato de color.
+Para aplicar formato condicional, seleccione el objeto visual de matriz y abra el panel **Formato**. Expanda la tarjeta **Formato condicional**, y para **Color de fondo**, **Color de fuente** o **Barras de datos**, mueva el control deslizante a **Activar**. Al activar una de estas opciones se muestra un vínculo para *Controles avanzados*, que permite personalizar los colores y los valores del formato de color.
   
   ![Panel Formato que muestra el control Barras de datos](media/desktop-matrix-visual/power-bi-matrix-data-bars.png)
 
