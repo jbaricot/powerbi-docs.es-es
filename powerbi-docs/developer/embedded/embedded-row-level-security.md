@@ -9,11 +9,11 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
 ms.openlocfilehash: 09489c3dbb33e1c5fb289cc1cc132eae0083a95f
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981744"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120801"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Seguridad de nivel de fila con Power BI Embedded
 
@@ -27,11 +27,11 @@ Si va a realizar la inserción para usuarios de Power BI (el usuario posee los d
 
 Para aprovechar las ventajas de RLS, es importante que comprenda tres conceptos principales: usuarios, roles y reglas. Ahora se analizarán estos conceptos más detenidamente:
 
-**Usuarios** : los usuarios finales que ven el artefacto (panel, icono, informe o conjunto de datos). En Power BI Embedded, los usuarios se identifican por la propiedad de nombre de usuario de un token de inserción.
+**Usuarios**: los usuarios finales que ven el artefacto (panel, icono, informe o conjunto de datos). En Power BI Embedded, los usuarios se identifican por la propiedad de nombre de usuario de un token de inserción.
 
-**Roles** : los usuarios pertenecen a roles. Un rol es un contenedor de reglas y se puede designar algo como *Representante de ventas* o *Rep. de ventas* . Los roles se crean en Power BI Desktop. Para más información, consulte [Seguridad de nivel de fila (RLS) con Power BI Desktop](../../create-reports/desktop-rls.md).
+**Roles**: los usuarios pertenecen a roles. Un rol es un contenedor de reglas y se puede designar algo como *Representante de ventas* o *Rep. de ventas*. Los roles se crean en Power BI Desktop. Para más información, consulte [Seguridad de nivel de fila (RLS) con Power BI Desktop](../../create-reports/desktop-rls.md).
 
-**Reglas** : los roles tienen reglas y esas reglas son los filtros reales que se van a aplicar a los datos. Las reglas podrían ser algo tan sencillo como "País = EE. UU." o algo mucho más dinámico.
+**Reglas**: los roles tienen reglas y esas reglas son los filtros reales que se van a aplicar a los datos. Las reglas podrían ser algo tan sencillo como "País = EE. UU." o algo mucho más dinámico.
 En el resto de este artículo, se incluye un ejemplo de la creación de RLS y su uso dentro de una aplicación insertada. En nuestro ejemplo se usa el archivo PBIX de [ejemplo de análisis de minoristas](https://go.microsoft.com/fwlink/?LinkID=780547).
 
 ![Ejemplo de informe](media/embedded-row-level-security/powerbi-embedded-report-example.png)
@@ -46,33 +46,33 @@ RLS se crea en Power BI Desktop. Cuando se abren el conjunto de datos y el infor
 
 Estos son algunos aspectos que debe observar con este esquema:
 
-* Todas las medidas, como **Total Sales** , se almacenan en la tabla de hechos **Sales** .
-* Hay cuatro tablas de dimensiones relacionadas adicionales: **Item** , **Time** , **Store** y **District** .
-* Las flechas de las líneas de relación indican de qué forma los filtros pueden fluir de una tabla a otra. Por ejemplo, si se coloca un filtro en **Time[Date]** , en el esquema actual solo se filtrarían los valores de la tabla **Sales** . Ninguna otra tabla se ve afectada por este filtro ya que todas las flechas de las líneas de relación apuntan a la tabla de ventas y no fuera.
+* Todas las medidas, como **Total Sales**, se almacenan en la tabla de hechos **Sales**.
+* Hay cuatro tablas de dimensiones relacionadas adicionales: **Item**, **Time**, **Store** y **District**.
+* Las flechas de las líneas de relación indican de qué forma los filtros pueden fluir de una tabla a otra. Por ejemplo, si se coloca un filtro en **Time[Date]** , en el esquema actual solo se filtrarían los valores de la tabla **Sales**. Ninguna otra tabla se ve afectada por este filtro ya que todas las flechas de las líneas de relación apuntan a la tabla de ventas y no fuera.
 * La tabla **District** indica quién es el jefe de cada distrito:
   
     ![Filas dentro de la tabla District](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
-Según este esquema, si se aplica un filtro a la columna **District Manager** de la tabla **District** , y si ese filtro coincide con el usuario que ve el informe, ese filtro también filtra las tablas **Store** y **Sales** para mostrar los datos de ese jefe de distrito.
+Según este esquema, si se aplica un filtro a la columna **District Manager** de la tabla **District**, y si ese filtro coincide con el usuario que ve el informe, ese filtro también filtra las tablas **Store** y **Sales** para mostrar los datos de ese jefe de distrito.
 
 Le mostramos cómo:
 
-1. En la ficha **Modelado** , seleccione **Administrar roles** .
+1. En la ficha **Modelado**, seleccione **Administrar roles**.
 
     ![Pestaña Modelado de Power BI Desktop](media/embedded-row-level-security/powerbi-embedded-manage-roles.png)
-2. Cree un nuevo rol llamado **Manager** .
+2. Cree un nuevo rol llamado **Manager**.
 
     ![Creación de un nuevo rol](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. En la tabla **District** , escriba esta expresión DAX: **[District Manager] = USERNAME()** .
+3. En la tabla **District**, escriba esta expresión DAX: **[District Manager] = USERNAME()** .
 
     ![Instrucción DAX para regla de RLS](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. Para asegurarse de que las reglas funcionen, en la pestaña **Modelado** , seleccione **Ver como roles** y, luego, el rol **Administrador** que acaba de crear, junto con **Otros usuarios** . Escriba **Andrew Ma** para el usuario.
+4. Para asegurarse de que las reglas funcionen, en la pestaña **Modelado**, seleccione **Ver como roles** y, luego, el rol **Administrador** que acaba de crear, junto con **Otros usuarios**. Escriba **Andrew Ma** para el usuario.
 
     ![Cuadro de diálogo Ver como roles](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 
-    Los informes muestran los datos como si hubiera iniciado sesión como **Andrew Ma** .
+    Los informes muestran los datos como si hubiera iniciado sesión como **Andrew Ma**.
 
-Al aplicar el filtro como se ha hecho aquí, se filtran todos los registros de las tablas **District** , **Store** y **Sales** . Pero, debido a la dirección del filtro en las relaciones entre las tablas **Sales** y **Time** , no se filtrarán las tablas **Sales** e **Item** e **Item** y **Time** . Para aprender más sobre filtrado cruzado bidireccional, descargue el documento técnico sobre el [filtrado cruzado bidireccional en SQL Server Analysis Services 2016 y Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
+Al aplicar el filtro como se ha hecho aquí, se filtran todos los registros de las tablas **District**, **Store** y **Sales**. Pero, debido a la dirección del filtro en las relaciones entre las tablas **Sales** y **Time**, no se filtrarán las tablas **Sales** e **Item** e **Item** y **Time**. Para aprender más sobre filtrado cruzado bidireccional, descargue el documento técnico sobre el [filtrado cruzado bidireccional en SQL Server Analysis Services 2016 y Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Aplicación de usuarios y roles a un token de inserción
 
@@ -82,15 +82,15 @@ La aplicación autentica y autoriza a los usuarios y los tokens de inserción se
 
 La API acepta una lista de identidades con la indicación de los conjuntos de datos pertinentes. Para que RLS funcione, debe pasar los siguientes elementos como parte de la identidad.
 
-* **nombre de usuario (obligatorio)** : una cadena que se puede usar para ayudar a identificar el usuario al aplicar reglas de RLS. Se puede mostrar un único usuario. El nombre de usuario se puede crear con caracteres *ASCII* .
+* **nombre de usuario (obligatorio)** : una cadena que se puede usar para ayudar a identificar el usuario al aplicar reglas de RLS. Se puede mostrar un único usuario. El nombre de usuario se puede crear con caracteres *ASCII*.
 * **roles (obligatorio)** : una cadena que contiene los roles que se seleccionarán al aplicar reglas de seguridad de nivel de fila. Si se pasa más de un rol, se deben pasar como una matriz de cadenas.
 * **conjunto de datos (obligatorio)** : el conjunto de datos que es aplicable al artefacto que se va a insertar.
 
-Puede crear el token de inserción mediante el método **GenerateTokenInGroup** de **PowerBIClient.Reports** .
+Puede crear el token de inserción mediante el método **GenerateTokenInGroup** de **PowerBIClient.Reports**.
 
-Por ejemplo, puede cambiar el ejemplo *[PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > Inserción para los clientes > **PowerBIEmbedded_AppOwnsData*** .
+Por ejemplo, puede cambiar el ejemplo [PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > Embed for your customers (Insertar para los clientes) > **PowerBIEmbedded_AppOwnsData**.
 
-**Antes del cambio**
+*Antes del cambio**
 
 ```csharp
 // Generate Embed Token with effective identities.
@@ -108,7 +108,7 @@ var generateTokenRequestParameters = new GenerateTokenRequest("View", null, iden
 var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "reportId", generateTokenRequestParameters);
 ```
 
-Si llama a la API REST, la API actualizada acepta ahora una matriz JSON adicional, llamada **identities** , que contiene un nombre de usuario, una lista de roles de cadena y una lista de conjuntos de datos de cadena. 
+Si llama a la API REST, la API actualizada acepta ahora una matriz JSON adicional, llamada **identities**, que contiene un nombre de usuario, una lista de roles de cadena y una lista de conjuntos de datos de cadena. 
 
 Por ejemplo, use el código siguiente:
 
@@ -146,7 +146,7 @@ Los roles se pueden proporcionar con la identidad en un token de inserción. Si 
 
 ### <a name="using-the-customdata-feature"></a>Uso de la característica CustomData
 
-La característica CustomData solo funciona con modelos que residen en **Azure Analysis Services** y únicamente en modo de **conexión en directo** . A diferencia de los usuarios y los roles, la característica Datos personalizados no se puede establecer en un archivo .pbix. Al generar un token con la característica Customdata, es necesario tener un nombre de usuario.
+La característica CustomData solo funciona con modelos que residen en **Azure Analysis Services** y únicamente en modo de **conexión en directo**. A diferencia de los usuarios y los roles, la característica Datos personalizados no se puede establecer en un archivo .pbix. Al generar un token con la característica Customdata, es necesario tener un nombre de usuario.
 
 >[!NOTE]
 >El nombre de usuario CustomData solo puede tener una longitud de 256 caracteres.
@@ -205,11 +205,11 @@ Estos son los pasos para comenzar a configurar la característica CustomData() c
 
     ![Creación de un rol](media/embedded-row-level-security/azure-analysis-services-database-create-role.png)
 
-3. Establezca su configuración **General** .  Aquí se proporciona el **nombre del rol** y se establecen los permisos de base de datos como de **solo lectura** .
+3. Establezca su configuración **General**.  Aquí se proporciona el **nombre del rol** y se establecen los permisos de base de datos como de **solo lectura**.
 
     ![Creación de un rol: establecimiento de la configuración General](media/embedded-row-level-security/azure-analysis-services-database-create-role-general-settings.png)
 
-4. Establezca la configuración de **pertenencia** . Aquí agregará los usuarios afectados por este rol.
+4. Establezca la configuración de **pertenencia**. Aquí agregará los usuarios afectados por este rol.
 
     ![Creación de un rol: establecimiento de la configuración de pertenencia](media/embedded-row-level-security/azure-analysis-services-database-create-role-membership.png)
 
@@ -239,7 +239,7 @@ Estos son los pasos para comenzar a configurar la característica CustomData() c
 
 ## <a name="using-rls-vs-javascript-filters"></a>Uso de RLS frente a filtros de JavaScript
 
-A la hora de decidir sobre el filtrado de los datos en un informe, puede usar **seguridad de nivel de fila (RLS)** o **filtros de JavaScript** .
+A la hora de decidir sobre el filtrado de los datos en un informe, puede usar **seguridad de nivel de fila (RLS)** o **filtros de JavaScript**.
 
 [Seguridad de nivel de fila](../../admin/service-admin-rls.md) es una característica que filtra los datos en el nivel de modelo de datos. El origen de datos back-end controla la configuración de RLS. Según el modelo de datos, la generación de tokens de inserción establece el nombre de usuario y los roles de la sesión. No se puede reemplazar, eliminar o controlar mediante el código del lado cliente y por eso se considera segura. Se recomienda usar RLS para filtrar los datos de forma segura. Puede filtrar datos con RLS mediante una de las opciones siguientes.
 
@@ -251,9 +251,9 @@ Los [filtros de JavaScript](https://github.com/Microsoft/PowerBI-JavaScript/wiki
 
 ## <a name="token-based-identity-with-azure-sql-database"></a>Identidad basada en token con Azure SQL Database
 
-La **identidad basada en token** le permite especificar la identidad efectiva para un token de inserción mediante un token de acceso de **Azure Active Directory (AAD)** para una instancia de **Azure SQL Database** .
+La **identidad basada en token** le permite especificar la identidad efectiva para un token de inserción mediante un token de acceso de **Azure Active Directory (AAD)** para una instancia de **Azure SQL Database**.
 
-Los clientes que mantienen sus datos en **Azure SQL Database** ahora pueden disfrutar de una nueva funcionalidad para administrar los usuarios y su acceso a los datos en SQL Azure cuando se integran con **Power BI Embedded** .
+Los clientes que mantienen sus datos en **Azure SQL Database** ahora pueden disfrutar de una nueva funcionalidad para administrar los usuarios y su acceso a los datos en SQL Azure cuando se integran con **Power BI Embedded**.
 
 Al generar el token de inserción, puede especificar la identidad efectiva de un usuario en Azure SQL. Puede especificar la identidad efectiva de un usuario pasando el token de acceso de AAD al servidor. El token de acceso se usa para extraer solo los datos pertinentes para ese usuario de Azure SQL, para esa sesión específica.
 
@@ -320,7 +320,7 @@ El valor proporcionado en el blob de identidad debe ser un token de acceso váli
 
 ## <a name="on-premises-data-gateway-with-service-principal"></a>Puerta de enlace de datos local con entidad de servicio
 
-Los clientes que configuran la seguridad de nivel de fila (RLS) con un origen de datos de conexión dinámica local de SQL Server Analysis Services (SSAS) pueden disfrutar de la nueva funcionalidad de [entidad de servicio](embed-service-principal.md) para administrar usuarios y su acceso a los datos de SSAS cuando se integra con **Power BI Embedded** .
+Los clientes que configuran la seguridad de nivel de fila (RLS) con un origen de datos de conexión dinámica local de SQL Server Analysis Services (SSAS) pueden disfrutar de la nueva funcionalidad de [entidad de servicio](embed-service-principal.md) para administrar usuarios y su acceso a los datos de SSAS cuando se integra con **Power BI Embedded**.
 
 Mediante las [API REST de Power BI](/rest/api/power-bi/), puede especificar la identidad efectiva para las conexiones dinámicas locales de SSAS para un token de inserción con un [objeto de entidad de servicio](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
 
