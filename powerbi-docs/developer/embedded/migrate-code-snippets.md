@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 5c916d38ba71e143b4b85f39c8f7e427bfb0c626
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9ed021ce95fd1e978916c188c93ca77fa88ccdb6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240061"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416517"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para migrar contenido de la colección de áreas de trabajo de Power BI
 

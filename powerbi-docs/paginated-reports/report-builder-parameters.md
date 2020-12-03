@@ -1,20 +1,20 @@
 ---
 title: Parámetros de informe en el Generador de informes de Power BI
 description: En este tema se describen los usos comunes de los parámetros de informe del Generador de informes de Power BI, las propiedades que puede establecer y mucho más.
+author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-author: maggiesMSFT
-ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 6c0a891257ae4e768c3952398eb8303906bf2ce4
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 77388e138451242ae54f4d1f0630599bbd9de829
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297804"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416287"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Parámetros de informe en el Generador de informes de Power BI
 
@@ -52,7 +52,7 @@ Al ver un informe que tiene parámetros, en la barra de herramientas del visor d
   
 4. **Identificador Mostrar u ocultar área de parámetros** : en la barra de herramientas del Visor de informes, haga clic en esta flecha para mostrar u ocultar el panel de parámetros.  
   
-5. **@CategoryQuota parámetro** el parámetro @CategoryQuota es de tipo de datos **Float** , por lo que tendrá un valor numérico.  @CategoryQuota se establece para permitir varios valores.  
+5. **@CategoryQuota parámetro** el parámetro @CategoryQuota es de tipo de datos **Float**, por lo que tendrá un valor numérico.  @CategoryQuota se establece para permitir varios valores.  
   
 6. **Ver informe**  Después de especificar los valores del parámetro, haga clic en **Ver informe** para ejecutar el informe. Si todos los parámetros poseen valores predeterminados, el informe se ejecuta automáticamente en la primera vista.  
   
@@ -114,9 +114,9 @@ Cree un parámetro manualmente desde el panel Datos de informe. Puede configurar
 |Visible|Seleccione esta opción para mostrar el parámetro de informe en la parte superior del informe cuando se ejecute. Esta opción permite a los usuarios seleccionar los valores de los parámetros en tiempo de ejecución.|  
 |Hidden|Seleccione esta opción si desea ocultar el parámetro de informe en el informe publicado. Los valores del parámetro de informe pueden continuar estableciéndose en una dirección URL de informe, en una definición de suscripción o en el servidor de informes.|  
 |Interno|Seleccione esta opción para ocultar el parámetro de informe. En el informe publicado, el parámetro de informe solamente podrá verse en la definición de informe.|  
-|Valores disponibles|Si ha especificado los valores disponibles de un parámetro, los valores válidos aparecerán siempre como una lista desplegable. Por ejemplo, si proporciona los valores disponibles para un parámetro **DateTime** , aparecerá una lista desplegable para las fechas en el panel de parámetros, en lugar de un control de calendario.<br /><br /> Para asegurarse de que exista una lista de valores coherente entre un informe y los subinformes, puede establecer una opción en el origen de datos para utilizar una transacción única para todas las consultas de los conjuntos de datos que estén asociadas a un origen de datos.<br /><br /> **Nota de seguridad** En cualquier informe que incluya un parámetro del tipo de datos **Texto** , asegúrese de utilizar una lista de valores disponibles (también conocida como lista de valores válidos) y asegúrese de que los usuarios que ejecuten el informe tengan solo los permisos necesarios para ver los datos en el informe.|  
+|Valores disponibles|Si ha especificado los valores disponibles de un parámetro, los valores válidos aparecerán siempre como una lista desplegable. Por ejemplo, si proporciona los valores disponibles para un parámetro **DateTime** , aparecerá una lista desplegable para las fechas en el panel de parámetros, en lugar de un control de calendario.<br /><br /> Para asegurarse de que exista una lista de valores coherente entre un informe y los subinformes, puede establecer una opción en el origen de datos para utilizar una transacción única para todas las consultas de los conjuntos de datos que estén asociadas a un origen de datos.<br /><br /> **Nota de seguridad** En cualquier informe que incluya un parámetro del tipo de datos **Texto**, asegúrese de utilizar una lista de valores disponibles (también conocida como lista de valores válidos) y asegúrese de que los usuarios que ejecuten el informe tengan solo los permisos necesarios para ver los datos en el informe.|  
 |Valores predeterminados|Establezca los valores predeterminados a partir de una consulta o de una lista estática.<br /><br /> Los informes se ejecutan de forma automática en la primera vista cuando cada parámetro de informe tiene un valor predeterminado.|  
-|Avanzado|Establecer el atributo de definición de informe **UsedInQuery** , un valor que indica si este parámetro afecta directa o indirectamente a los datos de un informe.<br /><br /> **Determinar automáticamente cuándo actualizar**<br /> Elija esta opción si desea que el procesador de informes determine una configuración para este valor. El valor es **True** si el procesador de informes detecta una consulta de conjunto de datos con una referencia directa o indirecta a este parámetro o si el informe tiene subinformes.<br /><br /> **Actualizar siempre**<br /> Elija esta opción cuando el parámetro de informes se utilice directa o indirectamente en una consulta de conjunto de datos o una expresión de parámetro. Esta opción establece **UsedInQuery** en True.<br /><br /> **No actualizar nunca**<br /> Elija esta opción cuando el parámetro de informes no se utilice directa o indirectamente en una consulta de conjunto de datos o una expresión de parámetro. Esta opción establece **UsedInQuery** en False.<br /><br /> **Precaución** Use **No actualizar nunca** con precaución. En el servidor de informes, **UsedInQuery** se utiliza para ayudar a controlar las opciones de memoria caché para los datos de los informes y para los informes representados, y opciones de parámetros para instantáneas de informe. Si establece **No actualizar nunca** de manera incorrecta podría provocar que los datos de informes o los informes incorrectos se almacenen en memoria caché o provocar que una instantánea de informe tenga datos incoherentes. |  
+|Avanzado|Establecer el atributo de definición de informe **UsedInQuery**, un valor que indica si este parámetro afecta directa o indirectamente a los datos de un informe.<br /><br /> **Determinar automáticamente cuándo actualizar**<br /> Elija esta opción si desea que el procesador de informes determine una configuración para este valor. El valor es **True** si el procesador de informes detecta una consulta de conjunto de datos con una referencia directa o indirecta a este parámetro o si el informe tiene subinformes.<br /><br /> **Actualizar siempre**<br /> Elija esta opción cuando el parámetro de informes se utilice directa o indirectamente en una consulta de conjunto de datos o una expresión de parámetro. Esta opción establece **UsedInQuery** en True.<br /><br /> **No actualizar nunca**<br /> Elija esta opción cuando el parámetro de informes no se utilice directa o indirectamente en una consulta de conjunto de datos o una expresión de parámetro. Esta opción establece **UsedInQuery** en False.<br /><br /> **Precaución** Use **No actualizar nunca** con precaución. En el servidor de informes, **UsedInQuery** se utiliza para ayudar a controlar las opciones de memoria caché para los datos de los informes y para los informes representados, y opciones de parámetros para instantáneas de informe. Si establece **No actualizar nunca** de manera incorrecta podría provocar que los datos de informes o los informes incorrectos se almacenen en memoria caché o provocar que una instantánea de informe tenga datos incoherentes. |  
   
 ##  <a name="dataset-query"></a><a name="bkmk_Dataset_Parameters"></a> Consulta de conjunto de datos  
  Para filtrar los datos en la consulta de conjunto de datos, puede incluir una cláusula de restricción que limite los datos recuperados; para ello, deberá especificar los valores que se van a incluir o excluir del conjunto de resultados.  
@@ -145,7 +145,7 @@ Cree un parámetro manualmente desde el panel Datos de informe. Puede configurar
 ##  <a name="parameters-for-a-subscription"></a><a name="bkmk_Parameters_Subscription"></a> Parámetros de una suscripción  
  Puede definir una suscripción para un informe a petición o para una instantánea y especificar los valores de parámetro que se usarán durante el procesamiento de la suscripción.  
   
--   **Informes a petición**  Para un informe a petición, puede especificar un valor de parámetro diferente que el valor publicado para cada parámetro indicado en el informe. Por ejemplo, supongamos que tiene un informe de llamadas de servicio que utiliza un parámetro *Período de tiempo* para devolver las solicitudes de atención al cliente para el día, la semana o el mes actual. Si el valor de parámetro predeterminado para el informe se establece en **hoy** , la suscripción puede usar un valor de parámetro diferente (como **semana** o **mes** ) para producir un informe que contenga cifras semanales o mensuales.  
+-   **Informes a petición**  Para un informe a petición, puede especificar un valor de parámetro diferente que el valor publicado para cada parámetro indicado en el informe. Por ejemplo, supongamos que tiene un informe de llamadas de servicio que utiliza un parámetro *Período de tiempo* para devolver las solicitudes de atención al cliente para el día, la semana o el mes actual. Si el valor de parámetro predeterminado para el informe se establece en **hoy**, la suscripción puede usar un valor de parámetro diferente (como **semana** o **mes**) para producir un informe que contenga cifras semanales o mensuales.  
   
 ## <a name="next-steps"></a>Pasos siguientes
 

@@ -2,19 +2,19 @@
 title: Crear y administrar relaciones en Power BI Desktop
 description: Crear y administrar relaciones en Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 05/28/2020
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 5b2e9cc5cb07eebf3befebd1be1686fdbb0f653b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: f843d2642228c7fbf1394174fe4334a58f169e2f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861829"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415896"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Crear y administrar relaciones en Power BI Desktop
 Al importar varias tablas, lo más probable es que vaya a realizar un análisis con los datos de todas ellas. Las relaciones entre esas tablas son necesarias para calcular los resultados de forma precisa y mostrar la información correcta en los informes. Power BI Desktop facilita la creación de esas relaciones. De hecho, en la mayoría de los casos no tendrá que hacer nada; la característica de detección automática lo hace por usted. Aunque es posible que, en ocasiones, tenga que crear relaciones o realizar cambios en una relación. En cualquier caso, es importante entender las relaciones en Power BI Desktop y cómo crearlas y editarlas.
@@ -72,7 +72,7 @@ Para obtener más información sobre cuándo cambiar la cardinalidad, consulte [
 ### <a name="cross-filter-direction"></a>Dirección de filtro cruzado
 La opción **Dirección de filtro cruzado** puede tener una de las siguientes opciones:
 
-**Ambos**: indica que, a efectos de filtrado, ambas tablas se tratan como si fueran una sola tabla. La opción**Ambos** funciona bien con una única tabla que tenga varias tablas de búsqueda a su alrededor. Un ejemplo es una tabla de datos reales de ventas con una tabla de búsqueda del departamento. Esta configuración suele denominarse configuración de esquema de estrella (una tabla central con varias tablas de búsqueda). Aunque, si tiene dos o más tablas que también tengan tablas de búsqueda (con algo en común), no querrá usar la opción **Ambos**. Para continuar con el ejemplo anterior, en este caso, también dispone de una tabla de ventas de presupuesto que registra el presupuesto de destino para cada departamento. Además, la tabla de departamento está conectada a la tabla de presupuesto y de ventas. Evite la opción **Ambos** para este tipo de configuración.
+**Ambos**: indica que, a efectos de filtrado, ambas tablas se tratan como si fueran una sola tabla. La opción **Ambos** funciona bien con una única tabla que tenga varias tablas de búsqueda a su alrededor. Un ejemplo es una tabla de datos reales de ventas con una tabla de búsqueda del departamento. Esta configuración suele denominarse configuración de esquema de estrella (una tabla central con varias tablas de búsqueda). Aunque, si tiene dos o más tablas que también tengan tablas de búsqueda (con algo en común), no querrá usar la opción **Ambos**. Para continuar con el ejemplo anterior, en este caso, también dispone de una tabla de ventas de presupuesto que registra el presupuesto de destino para cada departamento. Además, la tabla de departamento está conectada a la tabla de presupuesto y de ventas. Evite la opción **Ambos** para este tipo de configuración.
 
 **Único**: dirección predeterminada más común, que significa que las opciones de filtrado en tablas conectadas trabajan sobre la tabla donde se agregan los valores. Si importa un modelo de datos de Power Pivot o anterior en Excel 2013, todas las relaciones tendrán una dirección única. 
 

@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
 ms.date: 07/14/2020
-ms.openlocfilehash: 1809b1f539c82de4bf98689dbb259594a603b90c
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: a4b816e040e25b4a7e67c4bd488554d019277778
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349699"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417184"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicación de objetos visuales de Power BI en el Centro de partners
 
@@ -47,14 +47,14 @@ Cuando esté listo para enviar el objeto visual de Power BI, compruebe que cump
 
 Para enviar un objeto visual de Power BI, necesita un archivo XML del paquete de la aplicación desde el equipo de Power BI. Para obtener el XML del paquete de la aplicación, envíe un correo electrónico al equipo de envío de los objetos visuales de Power BI ([pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com)).
 
-Antes de crear el paquete **pbiviz** , debe rellenar estos campos del archivo **pbiviz.json** :
+Antes de crear el paquete **pbiviz**, debe rellenar estos campos del archivo **pbiviz.json**:
 * description
 * supportUrl
 * autor
 * name
 * correo electrónico
 
-Adjunte tanto el **archivo pbiviz** como el **archivo pbix del informe de ejemplo** . El equipo de Power BI responderá con instrucciones y un archivo XML del paquete de la aplicación que se debe cargar. Dicho paquete se requiere para enviar cualquier objeto visual a través del Centro para desarrolladores de Office.
+Adjunte tanto el **archivo pbiviz** como el **archivo pbix del informe de ejemplo**. El equipo de Power BI responderá con instrucciones y un archivo XML del paquete de la aplicación que se debe cargar. Dicho paquete se requiere para enviar cualquier objeto visual a través del Centro para desarrolladores de Office.
 
 > [!NOTE]
 > Para mejorar la calidad y garantizar que los informes existentes no se interrumpan, las actualizaciones de los objetos visuales existentes tardará un dos semanas más en llegar al entorno de producción tras su aprobación en la tienda.
@@ -83,17 +83,17 @@ Para enviar el objeto visual de Power BI al Centro de partners, debe estar regi
 
 Siga los pasos que aparecen a continuación para enviar el objeto visual de Power BI al Centro de partners. Para más información sobre el proceso de envío, consulte [Enviar la solución de Office a AppSource con el Centro de partners](/office/dev/store/use-partner-center-to-submit-to-appsource).
 
-1. Inicie sesión en el **Centro de partners** .
+1. Inicie sesión en el **Centro de partners**.
 
-2. En el panel de la izquierda, seleccione **TIENDA OFFICE** .
+2. En el panel de la izquierda, seleccione **TIENDA OFFICE**.
 
-3. Seleccione **Información general** .
+3. Seleccione **Información general**.
 
-4. Seleccione **Crear** y, en el menú desplegable, seleccione **Objeto visual de Power BI** .
+4. Seleccione **Crear** y, en el menú desplegable, seleccione **Objeto visual de Power BI**.
 
     ![Captura de pantalla de creación de un nuevo objeto visual de Power BI en la pestaña de la tienda Office del Centro de partners.](media/office-store/power-bi-visual.png)
 
-5. En la ventana **Crear un objeto visual de Power BI** , escriba un nombre para el objeto visual de Power BI y seleccione **Crear** .
+5. En la ventana **Crear un objeto visual de Power BI**, escriba un nombre para el objeto visual de Power BI y seleccione **Crear**.
 
 6. Seleccione **Paquetes** y cargue el paquete de la aplicación de XML del objeto visual de Power BI.
 
@@ -101,11 +101,11 @@ Siga los pasos que aparecen a continuación para enviar el objeto visual de Powe
 
 8. Si el producto requiere una compra adicional, seleccione **Configuración del producto** y active la casilla **Associated service purchase** (Adquisición del servicio asociado).
 
-9. (Opcional) Si quiere [certificar](power-bi-custom-visuals-certified.md) su objeto visual, seleccione **Configuración del producto** y active la casilla **Certificación de Power BI** .
+9. (Opcional) Si quiere [certificar](power-bi-custom-visuals-certified.md) su objeto visual, seleccione **Configuración del producto** y active la casilla **Certificación de Power BI**.
     >[!TIP]
     >El proceso de certificación de Power BI puede tardar un tiempo. Si va a crear un objeto visual de Power BI, se recomienda publicarlo a través del Centro de partners antes de solicitar la certificación de Power BI. Esto garantiza que la publicación del objeto visual no se retrase.
 
-10. Seleccione **Configuración del producto** y haga clic en **Revisar y publicar** .
+10. Seleccione **Configuración del producto** y haga clic en **Revisar y publicar**.
 
 
 ## <a name="tracking-submission-status-and-usage"></a>Seguimiento del uso y estado del envío

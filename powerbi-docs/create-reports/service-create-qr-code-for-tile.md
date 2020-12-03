@@ -1,20 +1,20 @@
 ---
 title: Crear un código QR para un icono para su uso en las aplicaciones móviles de Power BI
 description: Los códigos QR en los iconos de Power BI pueden conectar cualquier elemento del mundo real directamente con información de BI relacionada en la aplicación móvil de Power BI, sin que se necesite una búsqueda.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/07/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 95e966a7056926c70802a4502be497c2d2b268e5
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 85d33d5e1088a4bd47b6bfbcade6a6a1a4e14bbb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746778"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417460"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Crear un código QR para un icono en Power BI para su uso en aplicaciones móviles
 Los códigos QR de Power BI pueden conectar  cualquier cosa del mundo real directamente con información de BI relacionada &#151; no es necesario realizar ninguna exploración o búsqueda.

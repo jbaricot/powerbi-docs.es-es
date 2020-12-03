@@ -2,19 +2,19 @@
 title: Uso de tablas calculadas en Power BI Desktop
 description: Tablas calculadas en Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8c22b040a1767d616ce1f4d0e4e7fa26e55bfe19
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: de919d5dc72ec4c9f1939d844a1cd287728f1ac8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214302"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415919"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>Creación de tablas calculadas en Power BI Desktop
 La mayoría de las veces, las tablas se crean al importar datos en el modelo desde un origen de datos externo. Pero las *tablas calculadas* permiten agregar nuevas tablas basadas en los datos que ya se han cargado en el modelo. En lugar de consultar y cargar valores en las columnas de la nueva tabla desde un origen de datos, se crea una fórmula de [expresiones de análisis de datos (DAX)](/dax/index) que define los valores de la tabla.

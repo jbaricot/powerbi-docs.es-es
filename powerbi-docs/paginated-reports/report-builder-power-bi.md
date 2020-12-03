@@ -1,20 +1,20 @@
 ---
 title: Generador de informes de Power BI
 description: Power BI Report Builder es una herramienta para crear informes paginados.
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: 6a0a72015a66abc9425dc467703a5044ea0c8116
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 32d42ee139ceb03326b99d88e6033475ed2a4cc7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297848"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416264"
 ---
 # <a name="power-bi-report-builder"></a>Generador de informes de Power BI
 
@@ -50,7 +50,7 @@ El informe paginado siguiente muestra una matriz con grupos de filas y columnas,
   
 -   **Agregue características interactivas** como mapas del documento, botones de mostrar u ocultar y vínculos de obtención de detalles a subinformes e informes de obtención de detalles. Use parámetros y filtros para filtrar datos en vistas personalizadas.  
   
--   **Inserte imágenes y otros recursos o haga referencia a ellos** , incluido contenido externo.  
+-   **Inserte imágenes y otros recursos o haga referencia a ellos**, incluido contenido externo.  
   
 ##  <a name="manage-your-report"></a><a name="ManageRpt"></a> Administración del informe  
   

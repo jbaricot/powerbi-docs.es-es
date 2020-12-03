@@ -2,19 +2,19 @@
 title: Conexión a Conclusiones de IA en Power BI Desktop
 description: Conéctese fácilmente a datos de Conclusiones de IA y úselos en Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 06/10/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8de033c673d9d08833fdc5a935b92490db369104
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: a3654bc77ebdbd41ef608378157bf0d24bb94c88
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396757"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416126"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>Uso de Conclusiones de IA en Power BI Desktop
 
@@ -188,7 +188,7 @@ Los científicos de datos usan principalmente Python para desarrollar e incluso 
 
 Este archivo de esquema se debe incluir en el servicio web implementado para los modelos de Machine Learning. Para generar de forma automática el esquema para el servicio web, debe proporcionar un ejemplo de la entrada y salida en el script de entrada para el modelo implementado. Consulte la subsección sobre [Generación automática de esquemas de Swagger (opcional) en los modelos de implementación con la documentación del servicio Azure Machine Learning](/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema). El vínculo incluye el script de entrada de ejemplo con las instrucciones para la generación de esquemas.
 
-En concreto, las funciones _@input\_schema_ y _@output\_schema_ del script de entrada hacen referencia a los formatos de ejemplo de entrada y salida de las variables _input\_sample_ y _output\_sample_ , y usan estos ejemplos para generar una especificación OpenAPI (Swagger) para el servicio web durante la implementación.
+En concreto, las funciones _@input\_schema_ y _@output\_schema_ del script de entrada hacen referencia a los formatos de ejemplo de entrada y salida de las variables _input\_sample_ y _output\_sample_, y usan estos ejemplos para generar una especificación OpenAPI (Swagger) para el servicio web durante la implementación.
 
 Estas instrucciones para la generación de esquemas mediante la actualización del script de entrada también se deben aplicar a los modelos creados mediante experimentos automatizados de aprendizaje automático con el SDK de Azure Machine Learning.
 

@@ -2,19 +2,19 @@
 title: Creación de un flujo de datos
 description: Información general de las diferentes opciones para crear un flujo de datos
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5a75965bb236a1515274343e58668809f91cef7b
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: c98044303e46af46d36b98f0a1bdc8c7df29d94f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669210"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416172"
 ---
 # <a name="creating-a-dataflow"></a>Creación de un flujo de datos
 Un **flujo de datos** es una colección de entidades (las entidades son similares a las tablas) que se crean y administran en las áreas de trabajo del servicio Power BI. Una **entidad/tabla** es un conjunto de campos que se usan para almacenar datos, muy similar a una tabla en una base de datos. Puede agregar y editar entidades/tablas en el flujo de datos, así como administrar las programaciones de actualización de datos, directamente desde el área de trabajo en la que se creó el flujo de datos.

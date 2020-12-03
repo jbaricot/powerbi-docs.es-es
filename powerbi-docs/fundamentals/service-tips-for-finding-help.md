@@ -1,20 +1,20 @@
 ---
 title: 10 sugerencias para obtener ayuda con sus preguntas sobre Power BI
 description: Aquí se muestran 10 maneras de obtener ayuda si tiene alguna pregunta acerca del funcionamiento de Power BI
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f5cb17187770c8c0b37c48a495c6844c462e83ec
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0ef9371b54fed4188b80bbb761cf61f3805a8eab
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525630"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416586"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 sugerencias para obtener ayuda con sus preguntas sobre Power BI
 ¿Alguna vez se ha sentido frustrado cuando utiliza Power BI o tiene problemas porque no recibe respuestas a sus preguntas sobre Power BI justo cuando lo necesita? 

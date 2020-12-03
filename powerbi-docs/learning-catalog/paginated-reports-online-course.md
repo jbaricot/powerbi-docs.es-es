@@ -2,19 +2,19 @@
 title: Curso Informes paginados de Power BI en un día
 description: Este curso basado en vídeo pretende ayudarle como autor de informes con los conocimientos técnicos necesarios para crear, publicar y distribuir informes paginados de Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: tutorial
 ms.date: 11/11/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 44ca1f021001161a978875377a1315dc14e5245d
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: e05078bf51cd33fb565dc783386258fe9ea305d1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512985"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416379"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Curso Informes paginados de Power BI en un día
 
