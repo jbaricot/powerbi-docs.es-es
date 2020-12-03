@@ -2,18 +2,18 @@
 title: Instrucciones para relaciones de varios a varios
 description: Instrucciones para desarrollar relaciones de modelos de varios a varios.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 95383581a258374f2757581e82fa0f2044dcae84
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668537"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418633"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Instrucciones para relaciones de varios a varios
 
@@ -89,7 +89,7 @@ Un examen rápido de las filas de tabla y el objeto visual **Account Balance** m
 
 Pero parece que algo no es correcto en el objeto visual **Customer Balance**. Cada cliente del objeto visual **Customer Balance** tiene el mismo saldo que el saldo total. Este resultado solo podría ser correcto si todos los clientes fueran titulares conjuntos de todas las cuentas. Pero en este ejemplo no es el caso. El problema está relacionado con la propagación del filtro. No fluye de forma completa hasta la tabla **Transaction**.
 
-Siga las direcciones del filtro de relaciones desde la tabla **Customer** a la tabla**Transaction**. Debe ser evidente que la relación entre la tabla **Account** y **AccountCustomer** se propaga en la dirección equivocada. La dirección del filtro para esta relación se debe establecer en **Ambos**.
+Siga las direcciones del filtro de relaciones desde la tabla **Customer** a la tabla **Transaction**. Debe ser evidente que la relación entre la tabla **Account** y **AccountCustomer** se propaga en la dirección equivocada. La dirección del filtro para esta relación se debe establecer en **Ambos**.
 
 ![Diagrama en el que se muestra que el modelo se ha actualizado. Ahora se filtra en ambas direcciones.](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
 

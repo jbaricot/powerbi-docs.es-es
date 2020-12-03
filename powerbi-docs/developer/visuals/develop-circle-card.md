@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
+ms.topic: tutorial
 ms.date: 09/02/2020
-ms.openlocfilehash: 6c4b39fff9513143c946cc2e92294ae4cbe81427
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: ff73c07fb08e80938fae34c19205885722c33672
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397470"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418725"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>Tutorial: Desarrollo de un objeto visual Circle Card de Power BI
 
@@ -107,7 +107,7 @@ También puede usar su propio informe para probar los objetos visuales Circle Ca
     >
     >![Captura de pantalla del nuevo objeto visual que muestra un error de conexión.](media/develop-circle-card/connection-error.png)
 
-6. Mientras está seleccionado el nuevo objeto visual, vaya al panel **Campos** , expanda **Sales** y seleccione **Quantity**.
+6. Mientras está seleccionado el nuevo objeto visual, vaya al panel **Campos**, expanda **Sales** y seleccione **Quantity**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla del campo Quantity del servicio Power BI en la tabla Sales del informe US Sales Analysis.](media/develop-circle-card/fields-sales-quantity.png)
@@ -128,9 +128,9 @@ En esta sección aprenderá a convertir el objeto visual en un círculo y a most
 
 Configure el archivo **visual.ts** eliminando y agregando algunas líneas de código.
 
-1. Abra el proyecto en VS Code ( **Archivo** > **Abrir carpeta** ).
+1. Abra el proyecto en VS Code (**Archivo** > **Abrir carpeta**).
 
-2. En el **panel Explorador** , expanda la carpeta **src** y, después, seleccione el archivo **visual.ts**.
+2. En el **panel Explorador**, expanda la carpeta **src** y, después, seleccione el archivo **visual.ts**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla del acceso al archivo visual.ts en VS Code.](media/develop-circle-card/visual-file.png)
@@ -151,11 +151,11 @@ Configure el archivo **visual.ts** eliminando y agregando algunas líneas de có
 
     * Todas las líneas de código dentro del método *update*.
 
-    * Todas las líneas de código restantes debajo del método *update* , incluidos los métodos *parseSettings* y *enumerateObjectInstances*.
+    * Todas las líneas de código restantes debajo del método *update*, incluidos los métodos *parseSettings* y *enumerateObjectInstances*.
 
 4. Agregue las siguientes líneas de código al final de la sección de importación:
 
-    * *IVisualHost* : una colección de propiedades y servicios usada para interactuar con el host del objeto visual (Power BI).
+    * *IVisualHost*: una colección de propiedades y servicios usada para interactuar con el host del objeto visual (Power BI).
 
          ```typescript
         import IVisualHost = powerbi.extensibility.IVisualHost;
@@ -171,7 +171,7 @@ Configure el archivo **visual.ts** eliminando y agregando algunas líneas de có
         >[!NOTE]
         >Si no lo hizo durante la instalación, [instale la biblioteca D3 de JavaScript](environment-setup.md#d3-javascript-library).
 
-5. Debajo de la declaración de clase *Visual* , inserte las siguientes propiedades de nivel de clase. Solo tiene que agregar las líneas de código que empiecen por `private`.
+5. Debajo de la declaración de clase *Visual*, inserte las siguientes propiedades de nivel de clase. Solo tiene que agregar las líneas de código que empiecen por `private`.
 
     ```typescript
     export class Visual implements IVisual {
@@ -363,7 +363,7 @@ export class Visual implements IVisual {
 
 Elimine las líneas de código innecesarias del archivo de capacidades.
 
-1. Abra el proyecto en VS Code ( **Archivo** > **Abrir carpeta** ).
+1. Abra el proyecto en VS Code (**Archivo** > **Abrir carpeta**).
 
 2. Seleccione el archivo **capabilities.json**.
 
@@ -398,7 +398,7 @@ Compruebe que el objeto visual muestra los elementos que se acaban de agregar.
     >![Captura de pantalla del objeto visual Circle Card en forma de círculo.](media/develop-circle-card/circle.png)
 
     >[!NOTE]
-    >Si el elemento visual no muestra nada, en el panel **Campos** , arrastre el campo **Quantity** al elemento visual del desarrollador.
+    >Si el elemento visual no muestra nada, en el panel **Campos**, arrastre el campo **Quantity** al elemento visual del desarrollador.
 
 3. Cambie el tamaño del objeto visual.
 
@@ -492,7 +492,7 @@ Compruebe que el objeto visual Circle Card muestra el campo *measure* y revise l
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de la figura de valor tal como se muestra en la opción Mostrar vista de datos de Circle Card.](media/develop-circle-card/value.png)
 
-5. Expanda **Metadatos** , luego la matriz de **columnas** y revise los valores **format** y **displayName**.
+5. Expanda **Metadatos**, luego la matriz de **columnas** y revise los valores **format** y **displayName**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de pantalla de los valores format y displayName, tal y como se muestra en la opción Mostrar vista de datos de Circle Card.](media/develop-circle-card/colunms.png)
@@ -511,7 +511,7 @@ Realice cambios en el archivo **visual.ts** para que el objeto visual Circle Car
     import DataView = powerbi.DataView;
     ```
 
-3. En el método *update* , haga lo siguiente:
+3. En el método *update*, haga lo siguiente:
 
     * Agregue la siguiente instrucción como primera instrucción. Esta instrucción asigna *dataView* a una variable para facilitar el acceso y declara la variable para hacer referencia a dicho objeto *dataView*.
 

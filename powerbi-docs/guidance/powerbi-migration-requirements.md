@@ -2,22 +2,22 @@
 title: Recopilación de requisitos para migrar a Power BI
 description: Guía sobre la recopilación y priorización de requisitos al migrar a Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 21d619c42648f90746af9961475bb531dc24d5ab
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 2aee1be1d5e221f8feaeae05f8284f0388b4b8af
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396665"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418564"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Recopilación de requisitos para migrar a Power BI
 
-En este artículo se explica la **fase 1** , que se refiere a la recopilación y priorización de requisitos al migrar a Power BI.
+En este artículo se explica la **fase 1**, que se refiere a la recopilación y priorización de requisitos al migrar a Power BI.
 
 :::image type="content" source="media/powerbi-migration-requirements/migrate-to-powerbi-stage-1.png" alt-text="Imagen en la que se muestran las fases de una migración de Power BI. En este artículo se resalta la fase 1.":::
 
@@ -46,7 +46,7 @@ Compile información detallada y fácil de referenciar sobre los informes, como:
 - **Empleo del informe por parte de los consumidores:** le recomendamos que se reúna con los consumidores del informe existente para comprender exactamente lo que hacen con él. Puede observar que ciertos elementos del informe se pueden eliminar o mejorar en la nueva versión de Power BI. Este proceso conlleva una inversión de tiempo adicional, pero es valioso para informes críticos o que se usan con frecuencia.
 - **Propietario y experto en la materia:** identifique al propietario del informe y a los expertos en la materia asociados al informe o al dominio de datos. Pueden convertirse en los propietarios del nuevo informe de Power BI en el futuro. Incluya cualquier requisito específico de administración de cambios (los requisitos suelen diferir entre las soluciones administradas por TI y las administradas por el negocio), así como las aprobaciones, que se van a necesitar cuando se realicen cambios en adelante.
 - **Método de entrega de contenido:** aclare las expectativas de los consumidores del informe en cuanto a la entrega de contenido. Puede ser una ejecución interactiva a petición, insertada dentro de una aplicación personalizada, o una entrega según una programación mediante una suscripción de correo electrónico. También puede haber requisitos para desencadenar notificaciones de alerta.
-- **Necesidades de interactividad:** determine qué requisitos de interactividad _debe tener_ y cuáles sería _agradable tener_ , como filtros, exploración en profundidad u obtención de detalles.
+- **Necesidades de interactividad:** determine qué requisitos de interactividad _debe tener_ y cuáles sería _agradable tener_, como filtros, exploración en profundidad u obtención de detalles.
 - **Orígenes de datos:** asegúrese de que se detectan todos los orígenes de datos necesarios para el informe y de que se entienden las necesidades de latencia de datos (actualización de datos). Identifique los requisitos de datos históricos, tendencias e instantáneas de datos de cada informe, de modo que se puedan alinear con los requisitos de datos. La documentación del origen de datos también puede ser útil más adelante cuando se realice la validación de datos de un nuevo informe con sus datos de origen.
 - **Requisitos de seguridad:** aclare los requisitos de seguridad (como los visores permitidos, los editores permitidos y cualquier necesidad de seguridad de nivel de fila), incluidas las excepciones a la seguridad normal de la organización. Documente cualquier nivel de confidencialidad de datos, privacidad de datos o necesidades regulatorias o de cumplimiento.
 - **Cálculos, KPI y reglas de negocio:** identifique y documente todos los cálculos, KPI y reglas de negocio que estén definidos actualmente en el informe existente para que se puedan alinear con los requisitos de datos.

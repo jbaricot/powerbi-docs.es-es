@@ -2,18 +2,18 @@
 title: Preparación para migrar a Power BI
 description: Guía sobre los pasos previos a la migración a Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 01d1e48537b2d373be3897259f8ac6e97886f268
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 33bee844aced23973bd033cf0d9ae9d8caa4d267
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680978"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418587"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Preparación para migrar a Power BI
 
@@ -123,7 +123,7 @@ La primera tarea es comprender qué se considera éxito de la migración en una 
 La preparación de un inventario de los informes existentes en la plataforma de BI heredada es un paso crítico para entender lo que ya existe. El resultado de este paso es un aporte para evaluar el nivel de esfuerzo de migración. Estas son algunas de las actividades relacionadas con la preparación de un inventario:
 
 1. **Inventario de informes:** compile una lista de informes y paneles que sean candidatos para la migración.
-2. **Inventario de orígenes de datos:** compile una lista de todos los orígenes de datos a los que acceden los informes existentes. Debe incluir tanto orígenes de datos empresariales como orígenes de datos de departamento y personales. Este proceso puede destapar orígenes de datos desconocidos para el departamento de TI, lo que a menudo se conoce como _TI en la sombra_ .
+2. **Inventario de orígenes de datos:** compile una lista de todos los orígenes de datos a los que acceden los informes existentes. Debe incluir tanto orígenes de datos empresariales como orígenes de datos de departamento y personales. Este proceso puede destapar orígenes de datos desconocidos para el departamento de TI, lo que a menudo se conoce como _TI en la sombra_.
 3. **Registro de auditoría:** obtenga datos del registro de auditoría de la plataforma de BI heredada para comprender los patrones de uso y ayudar a priorizar. La información importante que se debe obtener del registro de auditoría incluye:
     - Número medio de veces que se ha ejecutado cada informe por semana, mes o trimestre.
     - Número medio de consumidores por informe por semana, mes o trimestre.

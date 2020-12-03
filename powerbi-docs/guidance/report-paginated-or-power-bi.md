@@ -2,18 +2,18 @@
 title: Cuándo usar informes paginados en Power BI
 description: Guía de uso de los informes paginados de Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/04/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 169a94beab8cb5b4c44105aba4c1cdf02e902c06
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 2a13e5d697d4e0bda32068a3b6eb908959ce0643
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916875"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419001"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Cuándo usar informes paginados en Power BI
 
@@ -44,27 +44,27 @@ Podría valorar la posibilidad de volver a desarrollar informes de SSRS, en luga
 
 Hay muchos escenarios atractivos en los que puede preferir el desarrollo de un informe paginado de Power BI. Muchas son características o capacidades que no se admiten en los informes de Power BI.
 
-- **Listos para imprimir** : Los informes paginados están optimizados para la impresión o generación de PDF. Cuando sea necesario, las regiones de datos se pueden expandir y desbordar en varias páginas de una manera controlada. Los diseños de los informes pueden definir los márgenes, los encabezados y los pies de página.
-- **Formatos de representación** : Power BI puede representar informes paginados en formatos diferentes. Los formatos incluyen Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, CSV, XML y MHTML. (El servicio Power BI usa el formato MHTML para representar los informes). Los usuarios del informe pueden decidir exportarlo en el formato que prefieran.
-- **Diseño de precisión** : Puede realizar diseños de gran formato y con una pixelación perfecta, con el tamaño y la ubicación exactos, configurados en fracciones de pulgadas o centímetros.
-- **Diseño dinámico** : Puede generar diseños con gran capacidad de respuesta estableciendo muchas propiedades de informe para usar expresiones VB.NET. Las expresiones tienen acceso a muchas de las principales bibliotecas de .NET Framework.
-- **Diseño específico para representación** : Puede usar expresiones para modificar el diseño del informe en función del formato de representación aplicado. Por ejemplo, puede diseñar el informe para deshabilitar la visibilidad de alternancia (para lograr la exploración en profundidad y la obtención de detalles) al representarlo con un formato no interactivo, como PDF.
-- **Consultas nativas** : No es necesario que desarrolle primero un conjunto de datos de Power BI. Es posible crear consultas nativas del autor (o usar procedimientos almacenados) para cualquier [origen de datos admitido](../paginated-reports/paginated-reports-data-sources.md). Las consultas pueden incluir parametrización.
-- **Diseñadores gráficos de consultas** : Power BI Report Builder incluye diseñadores gráficos de consultas para ayudarle a escribir y probar sus consultas de conjuntos de datos.
-- **Conjuntos de datos estáticos** : Puede definir un conjunto de datos y escribir los datos directamente en la definición del informe. Esta funcionalidad es especialmente útil para respaldar una demostración o para ofrecer una prueba de concepto (POC).
-- **Integración de datos** : Puede combinar datos de distintos orígenes de datos o con conjuntos de datos estáticos. Para ello, se crean campos personalizados mediante expresiones VB.NET.
-- **Parametrización** : Puede diseñar experiencias de parametrización muy personalizadas, incluidos parámetros basados en datos y en cascada. También es posible definir los valores predeterminados de los parámetros. Estas experiencias pueden diseñarse para ayudar a los usuarios de los informes a establecer rápidamente los filtros adecuados. Además, no es necesario que los parámetros filtren los datos del informe; se pueden usar para admitir escenarios de tipo "y si", filtrado o estilo dinámico.
-- **Datos de imagen** : El informe puede representar imágenes cuando se almacenan en formato binario en un origen de datos.
-- **Código personalizado** : Puede desarrollar bloques de código de las funciones de VB.NET en el informe y usarlos en cualquier expresión de informe.
-- **Subinformes** : Puede incrustar otros informes paginados de Power BI (desde la misma área de trabajo) en el informe.
-- **Cuadrículas de datos flexibles** : Tiene un control exhaustivo de los diseños de cuadrícula mediante el uso de la región de datos Tablix. También admite diseños complejos, incluidos los grupos anidados y adyacentes. Además, se puede configurar para repetir los encabezados cuando se imprimen en varias páginas. También puede insertar un subinforme u otras visualizaciones, incluidas barras de datos, minigráficos e indicadores.
-- **Tipos de datos espaciales** : La región de datos de mapa puede visualizar [tipos de datos espaciales de SQL Server](/sql/relational-databases/spatial/spatial-data-sql-server). Por lo tanto, los tipos de datos GEOGRAPHY y GEOMETRY se pueden usar para visualizar puntos, líneas o polígonos. También es posible visualizar polígonos definidos en archivos de forma ESRI.
-- **Medidores modernos** : Los medidores radiales y lineales se pueden usar para mostrar valores de KPI y estado. Incluso se pueden incrustar en regiones de datos de cuadrícula, que se repiten dentro de grupos.
-- **Representación en HTML** : Puede mostrar texto con formato enriquecido cuando se almacena como HTML.
-- **Combinar correspondencia** : Puede usar los marcadores de posición de cuadro de texto para insertar valores de datos en el texto. De este modo, puede generar un informe de combinación de correspondencia.
-- **Características de interactividad** : Entre las características interactivas se incluyen la alternancia de la visibilidad (para lograr exploración en profundidad y obtención de detalles), vínculos, organización interactiva e información sobre herramientas. También puede agregar vínculos que permitan obtener detalles sobre los informes de Power BI u otros informes paginados de Power BI. Los vínculos pueden incluso saltar a otra ubicación dentro del mismo informe.
-- **Suscripciones** : Power BI puede proporcionar informes paginados según una programación como correos electrónicos con datos adjuntos de informe en cualquier formato admitido.
-- **Diseños por usuario** : Puede crear diseños de informe con gran capacidad de respuesta basados en el usuario autenticado que abre el informe. Puede diseñar el informe para filtrar los datos de manera diferente, ocultar las regiones de datos o visualizaciones, aplicar formatos diferentes o establecer valores predeterminados de parámetros específicos del usuario.
+- **Listos para imprimir**: Los informes paginados están optimizados para la impresión o generación de PDF. Cuando sea necesario, las regiones de datos se pueden expandir y desbordar en varias páginas de una manera controlada. Los diseños de los informes pueden definir los márgenes, los encabezados y los pies de página.
+- **Formatos de representación**: Power BI puede representar informes paginados en formatos diferentes. Los formatos incluyen Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, CSV, XML y MHTML. (El servicio Power BI usa el formato MHTML para representar los informes). Los usuarios del informe pueden decidir exportarlo en el formato que prefieran.
+- **Diseño de precisión**: Puede realizar diseños de gran formato y con una pixelación perfecta, con el tamaño y la ubicación exactos, configurados en fracciones de pulgadas o centímetros.
+- **Diseño dinámico**: Puede generar diseños con gran capacidad de respuesta estableciendo muchas propiedades de informe para usar expresiones VB.NET. Las expresiones tienen acceso a muchas de las principales bibliotecas de .NET Framework.
+- **Diseño específico para representación**: Puede usar expresiones para modificar el diseño del informe en función del formato de representación aplicado. Por ejemplo, puede diseñar el informe para deshabilitar la visibilidad de alternancia (para lograr la exploración en profundidad y la obtención de detalles) al representarlo con un formato no interactivo, como PDF.
+- **Consultas nativas**: No es necesario que desarrolle primero un conjunto de datos de Power BI. Es posible crear consultas nativas del autor (o usar procedimientos almacenados) para cualquier [origen de datos admitido](../paginated-reports/paginated-reports-data-sources.md). Las consultas pueden incluir parametrización.
+- **Diseñadores gráficos de consultas**: Power BI Report Builder incluye diseñadores gráficos de consultas para ayudarle a escribir y probar sus consultas de conjuntos de datos.
+- **Conjuntos de datos estáticos**: Puede definir un conjunto de datos y escribir los datos directamente en la definición del informe. Esta funcionalidad es especialmente útil para respaldar una demostración o para ofrecer una prueba de concepto (POC).
+- **Integración de datos**: Puede combinar datos de distintos orígenes de datos o con conjuntos de datos estáticos. Para ello, se crean campos personalizados mediante expresiones VB.NET.
+- **Parametrización**: Puede diseñar experiencias de parametrización muy personalizadas, incluidos parámetros basados en datos y en cascada. También es posible definir los valores predeterminados de los parámetros. Estas experiencias pueden diseñarse para ayudar a los usuarios de los informes a establecer rápidamente los filtros adecuados. Además, no es necesario que los parámetros filtren los datos del informe; se pueden usar para admitir escenarios de tipo "y si", filtrado o estilo dinámico.
+- **Datos de imagen**: El informe puede representar imágenes cuando se almacenan en formato binario en un origen de datos.
+- **Código personalizado**: Puede desarrollar bloques de código de las funciones de VB.NET en el informe y usarlos en cualquier expresión de informe.
+- **Subinformes**: Puede incrustar otros informes paginados de Power BI (desde la misma área de trabajo) en el informe.
+- **Cuadrículas de datos flexibles**: Tiene un control exhaustivo de los diseños de cuadrícula mediante el uso de la región de datos Tablix. También admite diseños complejos, incluidos los grupos anidados y adyacentes. Además, se puede configurar para repetir los encabezados cuando se imprimen en varias páginas. También puede insertar un subinforme u otras visualizaciones, incluidas barras de datos, minigráficos e indicadores.
+- **Tipos de datos espaciales**: La región de datos de mapa puede visualizar [tipos de datos espaciales de SQL Server](/sql/relational-databases/spatial/spatial-data-sql-server). Por lo tanto, los tipos de datos GEOGRAPHY y GEOMETRY se pueden usar para visualizar puntos, líneas o polígonos. También es posible visualizar polígonos definidos en archivos de forma ESRI.
+- **Medidores modernos**: Los medidores radiales y lineales se pueden usar para mostrar valores de KPI y estado. Incluso se pueden incrustar en regiones de datos de cuadrícula, que se repiten dentro de grupos.
+- **Representación en HTML**: Puede mostrar texto con formato enriquecido cuando se almacena como HTML.
+- **Combinar correspondencia**: Puede usar los marcadores de posición de cuadro de texto para insertar valores de datos en el texto. De este modo, puede generar un informe de combinación de correspondencia.
+- **Características de interactividad**: Entre las características interactivas se incluyen la alternancia de la visibilidad (para lograr exploración en profundidad y obtención de detalles), vínculos, organización interactiva e información sobre herramientas. También puede agregar vínculos que permitan obtener detalles sobre los informes de Power BI u otros informes paginados de Power BI. Los vínculos pueden incluso saltar a otra ubicación dentro del mismo informe.
+- **Suscripciones**: Power BI puede proporcionar informes paginados según una programación como correos electrónicos con datos adjuntos de informe en cualquier formato admitido.
+- **Diseños por usuario**: Puede crear diseños de informe con gran capacidad de respuesta basados en el usuario autenticado que abre el informe. Puede diseñar el informe para filtrar los datos de manera diferente, ocultar las regiones de datos o visualizaciones, aplicar formatos diferentes o establecer valores predeterminados de parámetros específicos del usuario.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

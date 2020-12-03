@@ -2,18 +2,18 @@
 title: Eliminación de páginas en blanco al imprimir informes paginados
 description: Instrucciones para el diseño de informes paginados a fin de evitar las páginas en blanco durante su impresión.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0fa886973105bdb4bc8a35f145168c1775ca12cb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920831"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418472"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>Eliminación de páginas en blanco al imprimir informes paginados
 

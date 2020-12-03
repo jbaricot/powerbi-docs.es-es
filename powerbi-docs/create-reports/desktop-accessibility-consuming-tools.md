@@ -2,19 +2,19 @@
 title: Consumo de informes en Power BI con herramientas de accesibilidad
 description: Herramientas que hacen que el consumo de informes en Power BI sea accesible
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/28/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ca04a5404f0868f85a9c7ed840109efe6d213760
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 13d7ae31e5fdd8acfd463c104d48d01b4b0d7533
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952648"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417713"
 ---
 # <a name="consume-power-bi-reports-by-using-accessibility-features"></a>Uso de informes de Power BI mediante características de accesibilidad
 Power BI tiene muchas características integradas para ayudar a las personas con discapacidades a usar los informes de Power BI e interactuar con ellos más fácilmente. Estas herramientas ayudan a los usuarios a obtener la misma información de un informe que obtienen las personas que no usan la tecnología de asistencia.

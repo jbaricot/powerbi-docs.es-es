@@ -2,18 +2,18 @@
 title: Exploración de iconos en las aplicaciones móviles de Power BI
 description: Los iconos son instantáneas dinámicas de sus datos que se anclan a un panel. Obtenga más información sobre cómo interactuar con iconos de las aplicaciones móviles de Power BI.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 1afde236dd4fc9698efe4391cb2d9e095ade37a4
-ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
+ms.openlocfilehash: 74823845c73f02468d012c4518cdf111e84824c9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92683383"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417943"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Exploración de iconos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -35,7 +35,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
     ![Captura de pantalla de un gráfico de líneas, en el que se muestran los valores seleccionados para Ventas de este año y Ventas del año anterior.](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *Por ejemplo, en este gráfico de líneas, los valores seleccionados hacen referencia a **ventas de este año** y **ventas del último año** en **agosto** .*  
+   *Por ejemplo, en este gráfico de líneas, los valores seleccionados hacen referencia a **ventas de este año** y **ventas del último año** en **agosto**.*  
    
    En un gráfico circular, pulse una porción de este para mostrar los valores de la porción en la parte superior del gráfico.  
    
@@ -58,7 +58,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
     Después de abrir el vínculo en la aplicación Power BI, puede copiarlo y abrirlo en una ventana del explorador.
 7. [Abra el informe](mobile-reports-in-the-mobile-apps.md) ![Icono Abrir informe en iOS.](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) en el que se basa el mosaico.
-8. Para salir del modo enfocado de icono, pulse el nombre del icono y, después, pulse el nombre del panel o **Mi área de trabajo** .
+8. Para salir del modo enfocado de icono, pulse el nombre del icono y, después, pulse el nombre del panel o **Mi área de trabajo**.
    
     ![Captura de pantalla de un panel, en la que se muestran punteros a Mi área de trabajo y Ejemplo de análisis de oportunidades.](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
 

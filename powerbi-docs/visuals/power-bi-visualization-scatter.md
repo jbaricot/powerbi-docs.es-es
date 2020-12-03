@@ -1,21 +1,21 @@
 ---
 title: Gráficos de dispersión, de burbujas y de trazado de punto de Power BI
 description: Gráficos de dispersión, de trazado de punto y de burbujas de Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/21/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b3b2dc8892b2b9b875621c6925c6f3c652da44c6
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 4fe8d7c4333c6c540a70c33fdd3e5f4747d347da
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412703"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418863"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersión, de burbujas y de trazado de punto de Power BI
 
@@ -87,7 +87,7 @@ En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas]
 
 ## <a name="create-a-scatter-chart"></a>Crear un gráfico de dispersión
 
-1. Empiece en una página de informe en blanco y, en el panel **Campos** , seleccione estos campos:
+1. Empiece en una página de informe en blanco y, en el panel **Campos**, seleccione estos campos:
 
     * **Ventas** > **Ventas por metro cuadrado**
 
@@ -97,7 +97,7 @@ En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas]
 
     ![Captura de pantalla del gráfico de columnas agrupadas, el panel Visualizaciones y el panel Campos con los campos que ha seleccionado indicados.](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 
-1. En el panel **Visualización** , seleccione ![Captura de pantalla del icono del gráfico de dispersión.](media/power-bi-visualization-scatter/power-bi-scatter-chart-icon.png) Para convertir el gráfico de columnas agrupadas en un gráfico de dispersión.
+1. En el panel **Visualización**, seleccione ![Captura de pantalla del icono del gráfico de dispersión.](media/power-bi-visualization-scatter/power-bi-scatter-chart-icon.png) Para convertir el gráfico de columnas agrupadas en un gráfico de dispersión.
 
    ![Captura de pantalla del gráfico de columnas agrupadas que se convierte en un gráfico de dispersión.](media/power-bi-visualization-scatter/power-bi-scatter-new.png)
 
@@ -111,7 +111,7 @@ Ahora vamos a agregar una tercera dimensión.
 
 ## <a name="create-a-bubble-chart"></a>Crear un gráfico de burbujas
 
-1. En el panel **Campos** , arrastre **Ventas** > **Ventas de este año** > **Valor** al área **Tamaño**. Los puntos de datos se expanden a volúmenes proporcionales al valor de ventas.
+1. En el panel **Campos**, arrastre **Ventas** > **Ventas de este año** > **Valor** al área **Tamaño**. Los puntos de datos se expanden a volúmenes proporcionales al valor de ventas.
 
    ![Captura de pantalla del gráfico de dispersión que se convierte en un gráfico de burbujas al agregar el valor de ventas al área Tamaño.](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
@@ -119,7 +119,7 @@ Ahora vamos a agregar una tercera dimensión.
 
     ![visualización de información sobre herramientas](media/power-bi-visualization-scatter/pbi-scatter-chart-hover.png)
 
-1. Para establecer el número de puntos de datos que se van a mostrar en el gráfico de burbujas, en la sección **Formato** del panel **Visualizaciones** , expanda la **General** y ajuste el **Volumen de datos**.
+1. Para establecer el número de puntos de datos que se van a mostrar en el gráfico de burbujas, en la sección **Formato** del panel **Visualizaciones**, expanda la **General** y ajuste el **Volumen de datos**.
 
     ![Captura de pantalla del panel Visualizaciones con el icono Formato, el menú desplegable General y la opción de volumen de datos indicados.](media/power-bi-visualization-scatter/pbi-scatter-data-volume.png)
 
@@ -128,7 +128,7 @@ Ahora vamos a agregar una tercera dimensión.
     > [!NOTE]
     > Más puntos de datos pueden significar un tiempo de carga más largo. Si decide publicar informes con límites en el extremo superior de la escala, asegúrese de probar los informes también en la web y en el dispositivo móvil. Desea confirmar que el rendimiento del gráfico se adapta a las expectativas de los usuarios.
 
-1. Continúe con la aplicación de formato a los colores de la visualización, las etiquetas, los títulos, el fondo, etc. Para [mejorar la accesibilidad](../create-reports/desktop-accessibility-overview.md), considere la posibilidad de agregar formas de marcador a cada línea. Para seleccionar la forma del marcador, expanda **Formas** , seleccione **Forma de marcador** y seleccione una forma.
+1. Continúe con la aplicación de formato a los colores de la visualización, las etiquetas, los títulos, el fondo, etc. Para [mejorar la accesibilidad](../create-reports/desktop-accessibility-overview.md), considere la posibilidad de agregar formas de marcador a cada línea. Para seleccionar la forma del marcador, expanda **Formas**, seleccione **Forma de marcador** y seleccione una forma.
 
     ![Captura de pantalla de la lista desplegable Formas con las opciones de Forma de marcador indicadas.](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
@@ -157,7 +157,7 @@ Ahora vamos a agregar una tercera dimensión.
 
 Para crear un gráfico de trazado de punto, sustituya el campo numérico del **eje X** por un campo categórico.
 
-Desde el panel **Eje X** , quite **Ventas por metro cuadrado** y reemplácelo por **Distrito** > **Administrador del distrito**.
+Desde el panel **Eje X**, quite **Ventas por metro cuadrado** y reemplácelo por **Distrito** > **Administrador del distrito**.
 
 ![Captura de pantalla de un nuevo trazado de puntos.](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 

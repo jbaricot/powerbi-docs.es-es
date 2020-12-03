@@ -1,19 +1,19 @@
 ---
 title: Registro de cambios de Power BI Report Server
 description: Este registro de cambios es para el servidor de informes de Power BI y enumera los elementos nuevos junto con las correcciones de errores de cada versión publicada.
-ms.author: jaimeta
 author: jtarquino
+ms.author: jaimeta
 ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/18/2020
-ms.openlocfilehash: 2989436c2a501447cab2d95e0ac1d3fad1fd99b6
-ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
+ms.openlocfilehash: 2331785b14cd8cbcf9aec1232293cb601b1e2dc6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94947033"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418127"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registro de cambios de Power BI Report Server
 

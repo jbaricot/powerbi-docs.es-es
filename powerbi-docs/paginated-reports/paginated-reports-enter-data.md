@@ -2,18 +2,18 @@
 title: Escritura directa de datos en un informe paginado en el Generador de informes
 description: En este artículo, verá cómo puede escribir datos directamente en un informe paginado en el Generador de informes.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 07/10/2020
-ms.author: maggies
-ms.openlocfilehash: 05da5fa050fc92ebae320af9e07fe6505b5790f4
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 5719a5d6e8f559f1dba9f87bc9937ed925195072
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297976"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418219"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Escritura directa de datos en un informe paginado en el Generador de informes: Power BI
 
@@ -31,23 +31,23 @@ En este artículo, obtendrá información sobre una característica de la nueva 
 
 Una vez que haya descargado e instalado el Generador de informes, siga el mismo flujo de trabajo que usa para agregar un origen de datos y un conjunto de datos insertados al informe. En el siguiente procedimiento, en **Orígenes de datos** verá una nueva opción: **Especificar datos**.  Solo tiene que configurar este origen de datos una vez en un informe. Después, puede crear varias tablas de datos especificados como conjuntos de datos independientes, todo ello con ese único origen de datos.
 
-1. En el panel **Datos de informe** , haga clic en **Nuevo** > **Conjunto de datos**.
+1. En el panel **Datos de informe**, haga clic en **Nuevo** > **Conjunto de datos**.
 
     ![Captura de pantalla de Nuevo conjunto de datos en el Generador de informes.](media/paginated-reports-enter-data/paginated-new-dataset.png)
 
-1. En el cuadro de diálogo **Propiedades del conjunto de datos** , seleccione **Usar un conjunto de datos insertado en el informe**.
+1. En el cuadro de diálogo **Propiedades del conjunto de datos**, seleccione **Usar un conjunto de datos insertado en el informe**.
 
-1. Junto a **Origen de datos** , haga clic en **Nueva**.
+1. Junto a **Origen de datos**, haga clic en **Nueva**.
 
     ![Captura de pantalla de Nuevo origen de datos insertado.](media/paginated-reports-enter-data/paginated-new-data-source.png)
 
-1. En el cuadro de diálogo **Propiedades del origen de datos** , seleccione **Usar una conexión incrustada en el informe**.
-2. En el cuadro **Seleccionar el tipo de conexión** , seleccione **ENTER DATA** > **Aceptar**.
+1. En el cuadro de diálogo **Propiedades del origen de datos**, seleccione **Usar una conexión incrustada en el informe**.
+2. En el cuadro **Seleccionar el tipo de conexión**, seleccione **ENTER DATA** > **Aceptar**.
 
     ![Captura de pantalla del origen ENTER DATA.](media/paginated-reports-enter-data/paginated-data-source-properties-enter-data.png)
 
-1. En el cuadro de diálogo **Propiedades del conjunto de datos** , haga clic en **Diseñador de consultas**.
-2. En el panel **Diseñador de consultas** , haga clic con el botón derecho y pegue los datos en la tabla.
+1. En el cuadro de diálogo **Propiedades del conjunto de datos**, haga clic en **Diseñador de consultas**.
+2. En el panel **Diseñador de consultas**, haga clic con el botón derecho y pegue los datos en la tabla.
 
     ![Captura de pantalla de Especificar datos en el Diseñador de consultas.](media/paginated-reports-enter-data/paginated-enter-data.png)
 
@@ -67,7 +67,7 @@ Una vez que haya descargado e instalado el Generador de informes, siga el mismo 
 
     ![Captura de pantalla de la estructura de datos XML.](media/paginated-reports-enter-data/paginated-xml-data.png)
 
-12. En el cuadro de diálogo **Propiedades del conjunto de datos** , haga clic en **Aceptar**.
+12. En el cuadro de diálogo **Propiedades del conjunto de datos**, haga clic en **Aceptar**.
 
 13. Verá el origen de datos y el conjunto de datos en el panel **Datos de informe**.
 
@@ -79,7 +79,7 @@ Puede usar el conjunto de datos como base para las visualizaciones de datos en e
 
 Ahora que tiene un origen de datos y un conjunto de datos, está listo para crear el informe. En el procedimiento siguiente se crea un informe simple basado en los datos de la sección anterior.
 
-1. En el menú **Insertar** , seleccione **Tabla** > **Asistente para tablas**.
+1. En el menú **Insertar**, seleccione **Tabla** > **Asistente para tablas**.
 
     :::image type="content" source="media/paginated-reports-enter-data/paginated-table-wizard.png" alt-text="Captura de pantalla de la selección de la opción Asistente para tablas.":::
 
@@ -96,12 +96,12 @@ Ahora que tiene un origen de datos y un conjunto de datos, está listo para crea
 
     - ImporteVentas
 
-    De forma predeterminada, Generador de informes suma los campos del cuadro **Valores** , pero puede elegir otra agregación.
+    De forma predeterminada, Generador de informes suma los campos del cuadro **Valores**, pero puede elegir otra agregación.
 
     :::image type="content" source="media/paginated-reports-enter-data/paginated-select-aggregation.png" alt-text="Captura de pantalla de las diferentes agregaciones para elegir.":::
  
 1. Seleccione **Siguiente**.
-4.  En la página **Elegir el diseño** , mantenga toda la configuración predeterminada, pero desactive **Expandir o contraer grupos**. En general, la expansión y contracción de grupos es magnífica, pero esta vez quiere ver todos los datos.
+4.  En la página **Elegir el diseño**, mantenga toda la configuración predeterminada, pero desactive **Expandir o contraer grupos**. En general, la expansión y contracción de grupos es magnífica, pero esta vez quiere ver todos los datos.
 
 5.  Seleccione **Siguiente** > **Finalizar**. La tabla se muestra en la superficie de diseño.
 

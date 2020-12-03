@@ -1,21 +1,21 @@
 ---
 title: Objetos visuales de indicador clave de rendimiento (KPI)
 description: Creación de objetos visuales de indicador clave de rendimiento (KPI) en Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/30/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f272a760c016fa0d5fcfc9849eaa2a01fc77b9f9
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 448115ea6cde6c85a7bd3386890f483d71882ad5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412875"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418939"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Creación de visualizaciones de indicador clave de rendimiento (KPI)
 
@@ -59,7 +59,7 @@ En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas]
 
 En este ejemplo, creará un KPI que mide el progreso que ha realizado para lograr un objetivo de ventas.
 
-1. En el panel **Campos** , seleccione **Ventas > Total de unidades este año**.  Este valor será el indicador.
+1. En el panel **Campos**, seleccione **Ventas > Total de unidades este año**.  Este valor será el indicador.
 
 1. Agregue **Tiempo > MesFiscal**.  Este valor representará la tendencia.
 
@@ -84,13 +84,13 @@ En este ejemplo, creará un KPI que mide el progreso que ha realizado para logra
 
 1. Para dar formato al KPI, seleccione el icono de rodillo de pintar para abrir el panel Formato.
 
-    * **Indicador** : controla las unidades de visualización y los decimales del indicador.
+    * **Indicador**: controla las unidades de visualización y los decimales del indicador.
 
-    * **Eje de tendencia** : cuando se establece en **Activado** , el objeto visual muestra el eje de tendencia como el fondo del objeto visual de KPI.  
+    * **Eje de tendencia**: cuando se establece en **Activado**, el objeto visual muestra el eje de tendencia como el fondo del objeto visual de KPI.  
 
-    * **Objetivos** : cuando se establece en **Activado** , el objeto visual muestra el objetivo y la distancia desde el objetivo como un porcentaje.
+    * **Objetivos**: cuando se establece en **Activado**, el objeto visual muestra el objetivo y la distancia desde el objetivo como un porcentaje.
 
-    * **Codificación del color > Dirección** : las personas consideran algunos KPI mejores para valores *más altos* y otros mejores para valores *más bajos*. Por ejemplo, ganancias frente a tiempo de espera. Normalmente, un mayor valor de ganancias es mejor que un mayor valor de tiempo de espera. Seleccione **Alto está bien** y, opcionalmente, cambie la configuración del color.
+    * **Codificación del color > Dirección**: las personas consideran algunos KPI mejores para valores *más altos* y otros mejores para valores *más bajos*. Por ejemplo, ganancias frente a tiempo de espera. Normalmente, un mayor valor de ganancias es mejor que un mayor valor de tiempo de espera. Seleccione **Alto está bien** y, opcionalmente, cambie la configuración del color.
 
 Los KPI están también disponibles en el servicio Power BI y en los dispositivos móviles. Ofrece la opción de estar siempre conectado al latido de su empresa.
 

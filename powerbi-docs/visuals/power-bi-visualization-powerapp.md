@@ -2,20 +2,20 @@
 title: Insertar una nueva instancia de Power Apps en un informe de Power BI
 description: Inserte una aplicación que use el mismo origen de datos y se pueda filtrar como otros elementos de informe.
 author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: tapan maniar
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c46410caff373eb8474a4b687e834b822f2da8ac
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 1c4086d6ab71bd96ba7ac6c6985161d28a4dcb8b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397539"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418886"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Tutorial: Insertar un objeto visual de Power Apps en un informe de Power BI
 
@@ -51,7 +51,7 @@ Al agregar el objeto visual de Power Apps al informe, se inicia Power Apps Studi
 
     ![Panel Visualizaciones con el icono de Power Apps seleccionado](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
-3. En el panel **Campos** , seleccione **Nombre** , **Código de producto** y **Fase de ventas**. 
+3. En el panel **Campos**, seleccione **Nombre**, **Código de producto** y **Fase de ventas**. 
 
     ![seleccionar campos](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
@@ -74,7 +74,7 @@ Al agregar el objeto visual de Power Apps al informe, se inicia Power Apps Studi
     ![cambiar las dimensiones de la galería](media/power-bi-visualization-powerapp/power-bi-powerapps-gallery.png)
 
 
-8. En **Galería** , inserte un control de etiqueta de texto.
+8. En **Galería**, inserte un control de etiqueta de texto.
 
    ![control de etiqueta](media/power-bi-visualization-powerapp/power-bi-label.png)
 

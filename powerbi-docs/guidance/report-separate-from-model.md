@@ -2,18 +2,18 @@
 title: Informes independientes de los modelos en Power BI Desktop
 description: Instrucciones para separar los informes de los modelos en Power BI Desktop.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 04/11/2020
-ms.author: v-pemyer
-ms.openlocfilehash: f2b9ee2093889fc9a60d621ad09b3b52d2e90474
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a45299015883615b4773fe5db1c9864e01a47c4b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525947"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418376"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Informes independientes de los modelos en Power BI Desktop
 
@@ -37,7 +37,7 @@ Tiene sentido separar el desarrollo del modelo y el informe en archivos de Power
 - Los modeladores de datos y los autores del informe son personas diferentes.
 - Se entiende que un modelo será el origen de varios informes, ahora o en el futuro.
 
-:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="Un único archivo contiene un modelo y un informe, desarrollados por la misma persona." border="true":::
+:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="Hay tres archivos PBIX. El primero contiene solo un modelo. Los otros dos solo contienen informes y se conectan de forma dinámica con el modelo hospedado en el servicio Power BI. Los informes los desarrollan personas diferentes." border="true":::
 
 Los modeladores de datos pueden seguir usando la experiencia de creación de informes de Power BI Desktop para probar y validar sus diseños de modelo. Pero solo después de publicar su archivo en el servicio Power BI podrán quitar el informe del área de trabajo. Además, deben acordarse de quitar el informe cada vez que vuelvan a publicar y sobrescribir el conjunto de datos.
 

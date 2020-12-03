@@ -2,20 +2,20 @@
 title: Incorporación de hipervínculos (direcciones URL) a una tabla o matriz
 description: En este tema se enseña cómo agregar hipervínculos (direcciones URL) a una tabla. Usará Power BI Desktop para agregar hipervínculos (direcciones URL) a un conjunto de datos. Luego, en Power BI Desktop o en el servicio Power BI, puede agregar esos hipervínculos a las tablas y matrices de informes.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/15/2020
-ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 824dc74d2461f9bbf6350694a48b00a327f3f13d
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: c60c5824f20edd6d596d23fed56f8cdfaa19a01a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116601"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418058"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Incorporación de hipervínculos (direcciones URL) a una tabla o matriz
 En este tema se enseña cómo agregar hipervínculos (direcciones URL) a una tabla. Usará Power BI Desktop para agregar hipervínculos (direcciones URL) a un conjunto de datos. Esos hipervínculos se pueden agregar luego a las tablas y matrices de informes de Power BI Desktop o del servicio Power BI. De esta manera, puede mostrar la dirección URL o un icono de vínculo, o dar formato a otra columna como texto de vínculo.
@@ -137,11 +137,11 @@ Las direcciones URL tienen que comenzar con uno de los siguientes elementos:
 - HTTPS
 - mailto
 - ftp
-- noticias
+- news
 - telnet
 
 P: ¿Puedo usar una dirección URL personalizada como un hipervínculo en una tabla o matriz?    
-A. No. Puede utilizar un icono de vínculo. Si necesita texto personalizado para los hipervínculos y la lista de direcciones URL es breve, considere la posibilidad de utilizar un cuadro de texto en su lugar.
+R: No. Puede utilizar un icono de vínculo. Si necesita texto personalizado para los hipervínculos y la lista de direcciones URL es breve, considere la posibilidad de utilizar un cuadro de texto en su lugar.
 
 
 ## <a name="next-steps"></a>Pasos siguientes

@@ -2,18 +2,18 @@
 title: Creación de tablas de fechas en Power BI Desktop
 description: Técnicas e instrucciones para crear tablas de fechas en Power BI Desktop.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 350d4889643556d4e1c6389580415ccba46b55d4
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 9040fb54e51dfeecad853e5ba980f423ab48e908
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396648"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417851"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Creación de tablas de fechas en Power BI Desktop
 
@@ -22,7 +22,7 @@ Este artículo está dirigido a modeladores de datos como usted que trabajan con
 Para trabajar con las [funciones de inteligencia de tiempo](/dax/time-intelligence-functions-dax) de las expresiones de análisis de datos (DAX), hay un requisito previo para el modelo: Debe tener al menos una _tabla de fechas_ en el modelo. Una tabla de fechas es una tabla que cumple los siguientes requisitos:
 
 > [!div class="checklist"]
-> - Debe contener una columna de tipo de datos **fecha** , o **fecha y hora** , conocida como la _columna de fecha_.
+> - Debe contener una columna de tipo de datos **fecha**, o **fecha y hora**, conocida como la _columna de fecha_.
 > - La columna de fecha debe contener valores únicos.
 > - La columna de fecha no debe contener ESPACIOS EN BLANCO.
 > - En la columna de fecha no debe faltar ninguna fecha.
