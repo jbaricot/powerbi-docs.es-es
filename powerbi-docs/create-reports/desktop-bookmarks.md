@@ -2,19 +2,19 @@
 title: Uso de marcadores en Power BI Desktop para compartir información detallada y crear historias
 description: Los marcadores de Power BI Desktop le permiten guardar vistas y configuraciones en los informes y crear presentaciones a modo de historias
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 110abfd3ac8d258a6f4e800d218c08af9dc3c983
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b1d9be5515680a199a2ae74c59aa1baeb30ef1f1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239314"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414493"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Creación de marcadores en Power BI Desktop para compartir información detallada y crear historias
 Con los *marcadores* de Power BI Desktop, se captura la vista configurada actualmente de una página del informe, incluidos los filtros y el estado de los objetos visuales. Después, puede volver a ese estado si selecciona el marcador guardado. 
@@ -129,7 +129,7 @@ Para crear un grupo de marcadores:
 
    ![Crear un grupo de marcadores](media/desktop-bookmarks/bookmarks_15.png)
 
-Power BI Desktop asigna el nombre *Grupo 1* al grupo de forma automática. Puede seleccionar los puntos suspensivos situados junto a este nombre, seleccionar **Cambiar el nombre**y cambiar el nombre por el que quiera.
+Power BI Desktop asigna el nombre *Grupo 1* al grupo de forma automática. Puede seleccionar los puntos suspensivos situados junto a este nombre, seleccionar **Cambiar el nombre** y cambiar el nombre por el que quiera.
 
 ![Cambiar el nombre de un grupo de marcadores](media/desktop-bookmarks/bookmarks_16.png)
 

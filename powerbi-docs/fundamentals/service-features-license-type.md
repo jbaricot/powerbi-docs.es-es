@@ -2,20 +2,20 @@
 title: Características del servicio Power BI por tipo de licencia
 description: En el servicio Power BI, los usuarios tienen funcionalidades definidas en función del tipo de licencia por usuario que tienen (gratuito o Pro) y si el contenido con el que interactúan se encuentra en un área de trabajo asignada a una capacidad Power BI Premium.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/11/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 48e382db2866187f4394cf8a60789604f3d900b7
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 4c1b5256a411594521dcfe030af3490cd2e4780c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512801"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414171"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Características del servicio Power BI por tipo de licencia
 

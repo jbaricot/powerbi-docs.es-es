@@ -2,20 +2,20 @@
 title: Uso de parámetros what-if para visualizar variables
 description: Creación de una variable what-if propia para imaginar y visualizar variables en informes de Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/21/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 649e9198e5fe88d19f001a2e601e24535132d90e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2286edc16995e8fecc3b6ff65a53e2c4007ac470
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239243"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415436"
 ---
 # <a name="create-and-use-what-if-parameters-to-visualize-variables-in-power-bi-desktop"></a>Creación y uso de parámetros what-if para visualizar variables en Power BI Desktop
 
@@ -27,7 +27,7 @@ Cree un parámetro *what-if* en la pestaña **Modelado** de Power BI Desktop. A
 
 ## <a name="creating-a-what-if-parameter"></a>Creación de un parámetro what-if
 
-Para crear un parámetro what-if, seleccione **Nuevo parámetro** en la pestaña **Modelado** de Power BI Desktop. En la imagen siguiente, se ha creado un parámetro llamado *Discount percentage* y se ha establecido su tipo de datos en **Número decimal**. El valor **mínimo** es cero. El valor **máximo**es 0,50 (50 por ciento). También se **Incremento** en 0,05, o cinco por ciento. Esto indica cuánto se ajustará el parámetro cuando se interactúe con él en un informe.
+Para crear un parámetro what-if, seleccione **Nuevo parámetro** en la pestaña **Modelado** de Power BI Desktop. En la imagen siguiente, se ha creado un parámetro llamado *Discount percentage* y se ha establecido su tipo de datos en **Número decimal**. El valor **mínimo** es cero. El valor **máximo** es 0,50 (50 por ciento). También se **Incremento** en 0,05, o cinco por ciento. Esto indica cuánto se ajustará el parámetro cuando se interactúe con él en un informe.
 
 ![Valores de parámetro what-if](media/desktop-what-if/what-if_02.png)
 

@@ -2,19 +2,19 @@
 title: Descarga del libro de Excel de ejemplos financieros para Power BI
 description: Descarga del libro de ejemplos financieros para Power BI
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: sample
 ms.date: 10/13/2020
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 46f6179edc63b0a865043674b22ffe88e813a3b4
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: fdad1975c35591267c9fa22b1d5c84dc9892be74
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92255977"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414953"
 ---
 # <a name="download-the-financial-sample-excel-workbook-for-power-bi"></a>Descarga del libro de Excel de ejemplos financieros para Power BI
 ¿Necesita algunos datos para probar con el servicio Power BI? Tenemos un libro de Excel sencillo con datos financieros de ejemplo. Este libro incluye una tabla de datos de ventas y datos de beneficios por segmento de mercado y país. 
@@ -29,7 +29,7 @@ También puede descargarlo desde Power BI Desktop. Seleccione **Probar un conjun
 
 :::image type="content" source="media/desktop-excel-stunning-report/power-bi-desktop-canvas-sample-dataset.png" alt-text="Captura de pantalla de Probar un conjunto de datos de muestra en el lienzo."::: 
 
-Si ha llegado a este tutorial desde el cuadro de diálogo del conjunto de datos de ejemplo, continúe y elija **Cargar datos** .
+Si ha llegado a este tutorial desde el cuadro de diálogo del conjunto de datos de ejemplo, continúe y elija **Cargar datos**.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

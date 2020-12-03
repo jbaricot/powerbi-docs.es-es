@@ -1,20 +1,20 @@
 ---
 title: 'Parámetros de dirección URL en informes paginados: Generador de informes de Power BI'
 description: Obtenga información sobre cómo enviar comandos a informes paginados en Power BI agregando un parámetro a una dirección URL, que puede incluir en un correo electrónico o una página web.
+author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-author: maggiesMSFT
-ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: 0816ba6f3ff606a73c835ac71af66655fd49acfd
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 4284ba559bff0ba0a3bde7dd34c6f26034ecf12e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298052"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415574"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Parámetros de dirección URL en informes paginados en Power BI
 
@@ -93,7 +93,7 @@ Valores disponibles:
     - "interactive" (valor predeterminado): carga el informe en modo interactivo.
     - "pageView": carga el informe en el modo de vista de página.
 
-**Panel de parámetros** : especifica si el panel de parámetros está cerrado o abierto cuando se carga el informe, o si está oculto por completo.
+**Panel de parámetros**: especifica si el panel de parámetros está cerrado o abierto cuando se carga el informe, o si está oculto por completo.
 
 -   rdl:parameterPanel
 
@@ -101,7 +101,7 @@ Valores disponibles:
     - "oculto": carga el informe con el panel de parámetros cerrado y el botón de parámetros deshabilitado;
     - "expandido" (valor predeterminado): carga el informe con el panel de parámetros abierto y el botón de parámetros habilitado;
 
-**Información del dispositivo** : puede especificar parámetros de salida adicionales para los siguientes formatos de exportación. 
+**Información del dispositivo**: puede especificar parámetros de salida adicionales para los siguientes formatos de exportación. 
 
 PDF / ACCESSIBLEPDF:
 

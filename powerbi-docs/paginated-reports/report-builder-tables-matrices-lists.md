@@ -1,19 +1,19 @@
 ---
 title: Tablas, matrices y listas en el Generador de informes de Power BI
 description: En Power BI Report Builder, las tablas, las matrices y las listas son las regiones de datos que muestran los datos del informe paginado en celdas organizadas en filas y columnas.
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: 3d22696168d8ae550238fab243110db357b39c22
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 4b678bf3a11ab243aea8c2cc00fbf58c4ca8ffae
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297681"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415620"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Tablas, matrices y listas en el Generador de informes de Power BI
 
@@ -36,7 +36,7 @@ En el Generador de informes, las tablas, matrices y listas son las *regiones de 
 
 ![Plantilla de tabla del Generador de informes en la superficie de diseño, seleccionada](media/report-builder-tables-matrices-lists/report-builder-new-table.png)
   
- Puede agrupar los datos por un solo campo, por varios campos o escribiendo su propia expresión. Puede crear grupos anidados o independientes, grupos adyacentes y presentar valores para datos agrupados, o agregar totales a los grupos. Por ejemplo, si la tabla tiene un grupo de filas llamado **Categoría** , puede agregar un subtotal para cada grupo, así como un total general para el informe. Para mejorar la apariencia de tabla y resaltar los datos a los que desee dar énfasis, puede combinar celdas y aplicar formato a los datos y encabezados de tabla.  
+ Puede agrupar los datos por un solo campo, por varios campos o escribiendo su propia expresión. Puede crear grupos anidados o independientes, grupos adyacentes y presentar valores para datos agrupados, o agregar totales a los grupos. Por ejemplo, si la tabla tiene un grupo de filas llamado **Categoría**, puede agregar un subtotal para cada grupo, así como un total general para el informe. Para mejorar la apariencia de tabla y resaltar los datos a los que desee dar énfasis, puede combinar celdas y aplicar formato a los datos y encabezados de tabla.  
   
  Puede ocultar inicialmente los datos detallados o agrupados, e incluir controles de alternancia de obtención de detalles para permitir a los usuarios elegir interactivamente cuántos datos se van a mostrar.  
   

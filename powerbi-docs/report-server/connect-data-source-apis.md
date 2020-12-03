@@ -2,18 +2,18 @@
 title: Cambio de cadenas de conexión de origen de datos con PowerShell
 description: 'Cambio de cadenas de conexión de origen de datos mediante API en PowerShell: Power BI Report Server.'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: maggies
-ms.openlocfilehash: 165d38c718377ff7e47442cdf0fe67173b610bd8
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 4e1947abe0fa0f17e1db92619f0aa7fba5df5575
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044989"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415482"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Cambio de cadenas de conexión de origen de datos en informes de Power BI con PowerShell: Power BI Report Server
 
@@ -107,7 +107,7 @@ A partir de la versión de octubre de 2020 de Power BI Report Server, se habili
     Set-RsRestItemDataModelParameters -RsItem '/executionlogparameter' -DataModelParameters $parameters
     ```
 
-7. Una vez que se han actualizado los parámetros, el servidor actualiza los orígenes de datos que estaban enlazados a los parámetros. De nuevo en el cuadro de diálogo **Editar origen de datos** , debería poder establecer las credenciales para el servidor y la base de datos actualizados.
+7. Una vez que se han actualizado los parámetros, el servidor actualiza los orígenes de datos que estaban enlazados a los parámetros. De nuevo en el cuadro de diálogo **Editar origen de datos**, debería poder establecer las credenciales para el servidor y la base de datos actualizados.
 
     :::image type="content" source="media/connect-data-source-apis/report-server-manage-executionlogparameter-dialog.png" alt-text="Establezca las credenciales para el servidor y la base de datos actualizados.":::
 

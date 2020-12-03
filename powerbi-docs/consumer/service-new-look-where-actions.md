@@ -1,26 +1,26 @@
 ---
 title: 'El nuevo aspecto: ¿Dónde están ahora las acciones?'
 description: El servicio Power BI (app.powerbi.com) tiene un nuevo aspecto, y muchas acciones se han reubicado. En este artículo se incluye una tabla que establece una correspondencia entre las ubicaciones antiguas y las nuevas.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: maggies
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/22/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 572943a437ebf0380b254e8b659699d676e9001f
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 1c16405ff211620580f739facda8556e81774935
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462174"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415137"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>El nuevo aspecto: ¿Dónde están ahora las acciones?
 
 El servicio Power BI (app.powerbi.com) tiene un nuevo aspecto que facilita la visualización de los informes y la interacción con ellos. Como resultado, muchas acciones de menú se han reubicado. Las tablas de este artículo relacionan la ubicación antigua con la nueva. Para saber de qué hablamos, vea [el "nuevo aspecto" del servicio Power BI](service-new-look.md).
 
-¿Busca información sobre el nuevo aspecto de **Power BI Desktop** ? Consulte [Uso de la cinta actualizada en Power BI Desktop](../create-reports/desktop-ribbon.md).
+¿Busca información sobre el nuevo aspecto de **Power BI Desktop**? Consulte [Uso de la cinta actualizada en Power BI Desktop](../create-reports/desktop-ribbon.md).
 
 ## <a name="report-actions-in-the-new-look"></a>Acciones de informe en el nuevo aspecto
 

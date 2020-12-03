@@ -2,19 +2,19 @@
 title: Medidas en Power BI Desktop
 description: Creación y uso de medidas en Power BI Desktop tales como medidas rápidas y sintaxis DAX
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/29/2020
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 752e43fa3471419a76338f9db81f08a6180b6aba
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 78c883c28323d34ef4583b6b3bd04736f9654cbc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238219"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414033"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>Creación de medidas para el análisis de datos en Power BI Desktop
 

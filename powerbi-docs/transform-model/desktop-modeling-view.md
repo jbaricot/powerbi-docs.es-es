@@ -2,19 +2,19 @@
 title: Uso del modelado de vistas en Power BI Desktop
 description: Uso de Vista de modelo para ver conjuntos de datos complejos en un formato visual en Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 27d601da2a3ef922c75aee6f52011ac22ca26336
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a47bcba58a39f76a6e9e64778d2d06a75dc14132
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83280343"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413964"
 ---
 # <a name="work-with-modeling-view-in-power-bi-desktop"></a>Trabajo con Vista de modelo en Power BI Desktop
 

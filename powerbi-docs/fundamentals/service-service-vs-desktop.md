@@ -1,21 +1,21 @@
 ---
 title: Comparación de Power BI Desktop y el servicio Power BI
 description: Power BI Desktop es una herramienta de creación de informes y análisis de datos completa. El servicio Power BI es un servicio en línea basado en la nube que sirve para editar un informe superficialmente y fomentar la colaboración en los equipos y las empresas.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 08/07/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0b4a1275a3b50fbadd37d953b77316d6021c800c
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 41d3ebc8980dabcce4c104bca318770ecf482d3d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397102"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414102"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Comparación de Power BI Desktop y el servicio Power BI
 
@@ -41,7 +41,7 @@ Los editores de informes en Power BI Desktop y en el servicio Power BI son simil
 
 1. Los paneles de navegación superiores, que son distintos en Power BI Desktop y en el servicio Power BI    
 2. El lienzo del informe     
-3. Los paneles **Campos** , **Visualizaciones** y **Filtros**
+3. Los paneles **Campos**, **Visualizaciones** y **Filtros**
 
 En este vídeo se muestra el editor de informes en Power BI Desktop. 
 
@@ -51,7 +51,7 @@ En este vídeo se muestra el editor de informes en Power BI Desktop.
 
 ### <a name="collaborating"></a>Colaboración
 
-Después de crear los informes, puede guardarlos en un *área de trabajo* en el **servicio Power BI** , donde puede colaborar con sus compañeros. Los *paneles* se crean a partir de estos informes y, después, esos paneles e informes se comparten con los consumidores de informes dentro y fuera de la organización. Los consumidores de los informes los visualizan en el servicio Power BI en una *vista de lectura* , no en la vista de edición. No tienen acceso a todas las características disponibles para los creadores de informes.  También puede compartir los conjuntos de datos y permitir que otros usuarios creen sus propios informes a partir de ellos. Obtenga más información sobre la [colaboración en el servicio Power BI](../collaborate-share/service-new-workspaces.md).
+Después de crear los informes, puede guardarlos en un *área de trabajo* en el **servicio Power BI**, donde puede colaborar con sus compañeros. Los *paneles* se crean a partir de estos informes y, después, esos paneles e informes se comparten con los consumidores de informes dentro y fuera de la organización. Los consumidores de los informes los visualizan en el servicio Power BI en una *vista de lectura*, no en la vista de edición. No tienen acceso a todas las características disponibles para los creadores de informes.  También puede compartir los conjuntos de datos y permitir que otros usuarios creen sus propios informes a partir de ellos. Obtenga más información sobre la [colaboración en el servicio Power BI](../collaborate-share/service-new-workspaces.md).
 
 ### <a name="self-service-data-prep-with-dataflows"></a>Preparación de datos de autoservicio con flujos de datos
 

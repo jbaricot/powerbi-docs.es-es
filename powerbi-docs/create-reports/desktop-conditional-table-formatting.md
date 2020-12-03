@@ -2,19 +2,19 @@
 title: Formato de tabla condicional en Power BI Desktop
 description: Aplicar formato personalizado a las tablas
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1273030bc1fd8664e854eb2b59939cf271b017fa
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 421ccbe08435e03fe43cf6f0e7f2b71c99ec6901
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860035"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414401"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>Uso de formato condicional en tablas 
 
@@ -159,7 +159,7 @@ Si tiene una columna o una medida que contiene direcciones URL de sitios web, pu
 
 ![Tabla con columna de dirección URL web](media/desktop-conditional-table-formatting/table-formatting-1-diverging.png)
 
-Para mostrar el nombre de cada estado como vínculo dinámico al sitio web, seleccione **Formato condicional** en el campo**Estado** y elija **Dirección URL web**. En el cuadro de diálogo **Dirección URL web**, en **Según el campo**, seleccione **Sitio web** y luego elija **Aceptar**. 
+Para mostrar el nombre de cada estado como vínculo dinámico al sitio web, seleccione **Formato condicional** en el campo **Estado** y elija **Dirección URL web**. En el cuadro de diálogo **Dirección URL web**, en **Según el campo**, seleccione **Sitio web** y luego elija **Aceptar**. 
 
 Al aplicar el formato **URL web** al campo **Estado**, el nombre de cada estado es un vínculo activo al sitio web. En la siguiente tabla de ejemplo se ha aplicado el formato **URL web** a la columna **Estado** y el formato condicional **Barras de datos** y **Background formatting** (Formato de fondo) a la columna **Affordability** (Asequibilidad). 
 

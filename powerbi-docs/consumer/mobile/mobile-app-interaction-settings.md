@@ -2,18 +2,18 @@
 title: Configuración de las opciones de interacción de los informes
 description: Obtenga más información sobre cómo invalidar la configuración de interacción predeterminada de los informes.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.author: painbar
-ms.openlocfilehash: 67f34bfe04599ffa7d9f9f2c2c3d13545b4306ac
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: fdafc1cd5804bf62a715dc4161ce853c2690ce3a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635272"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414654"
 ---
 # <a name="configure-report-interaction-settings"></a>Configuración de las opciones de interacción de los informes
 

@@ -2,16 +2,16 @@
 title: Catálogo de aprendizaje para consumidores
 description: Busque todas las opciones de entrenamiento de Power BI para los consumidores que usan informes y paneles, de la más básico a la más avanzada.
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: 4a4190dd8a1f17c1a49eca09e6c673a102ae0924
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8a40d11c9bf2a8ee09e879912d2bd2de0da327ee
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749423"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414815"
 ---
 # <a name="consumers-learning-catalog"></a>Catálogo de aprendizaje para consumidores
 

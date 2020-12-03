@@ -2,19 +2,19 @@
 title: Creación de un objeto visual con Preguntas y respuestas de Power BI
 description: Aprenda a crear un objeto visual en el servicio Power BI con Preguntas y respuestas mediante el ejemplo de análisis de venta directa
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/13/2019
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6bd68f5db12367e6c98b6fe61461b89047d8eb56
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7eae93eb2b4594a180836f43a758c6bef7b3e90e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237248"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415045"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Creación de un objeto visual con Preguntas y respuestas de Power BI
 
@@ -58,7 +58,7 @@ Para poder continuar, debe utilizar un informe que pueda editar, por lo que vamo
 
     ![Panel del ejemplo de análisis de minoristas](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
 
-1. Seleccione **Editar informe**para abrir el informe en la Vista de edición.  Si no es el propietario de un informe, no tiene la opción de abrirlo en la vista de edición.
+1. Seleccione **Editar informe** para abrir el informe en la Vista de edición.  Si no es el propietario de un informe, no tiene la opción de abrirlo en la vista de edición.
    
     ![Botón Editar informe](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
 4. Seleccione el gráfico de área y revise la configuración en el panel **Campos** .  Para crear este gráfico, el creador del informe ha seleccionado estos tres valores (**Ventas del año anterior** y **Ventas de este año > Valor** de la tabla **Ventas**, y **MesFiscal** de la tabla **Tiempo**) y los ha organizado en las áreas **Eje** y **Valores**.
