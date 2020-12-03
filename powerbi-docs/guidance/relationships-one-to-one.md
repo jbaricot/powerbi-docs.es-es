@@ -2,18 +2,18 @@
 title: Instrucciones para relaciones uno a uno
 description: Instrucciones para desarrollar relaciones de modelos uno a uno.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: cbcf7fc1890ae1455f1f6ec7c8604e275f60b2d5
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 19fe2aa003c3d39169bc449dab83c09702f49b1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668422"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419162"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Instrucciones para relaciones uno a uno
 

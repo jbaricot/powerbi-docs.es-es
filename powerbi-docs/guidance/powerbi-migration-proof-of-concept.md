@@ -2,20 +2,20 @@
 title: Realización de una prueba de concepto para migrar a Power BI
 description: Guía sobre la realización de una prueba de concepto al migrar a Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: a7b7a848aafc3a581c1a19cf34366d61ba891f86
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 77174da7fd47470974a292ba98f6b50c268b04fd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803364"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419139"
 ---
-# <a name="conductproofofconcepttomigratetopowerbi"></a>Realización de una prueba de concepto para migrar a Power BI
+# <a name="conduct-proof-of-concept-to-migrate-to-power-bi"></a>Realización de una prueba de concepto para migrar a Power BI
 
 En este artículo se explica la **fase 3**, que está relacionada con la elaboración de una prueba de concepto (POC) para mitigar el riesgo y abordar los factores desconocidos cuanto antes al migrar a Power BI.
 

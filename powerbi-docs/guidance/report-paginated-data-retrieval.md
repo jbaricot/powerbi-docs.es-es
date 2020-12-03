@@ -2,18 +2,18 @@
 title: Guía de recuperación de datos de informes paginados
 description: Instrucciones para crear orígenes de datos y conjuntos de datos para informes paginados de Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/16/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 511dc42a3090f838654cda84f596d34f02bb3439
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5869402a1f5147dbd4cea18b426452e115a97911
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275096"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419047"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Guía de recuperación de datos de informes paginados
 

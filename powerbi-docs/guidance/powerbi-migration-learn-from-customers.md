@@ -2,18 +2,18 @@
 title: Más información sobre las migraciones de los clientes a Power BI
 description: Obtenga información de los clientes al realizar la migración a Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: d436f01e074c27dc8a0d37f9e62d0ac422c4ab81
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: fd5490eae689a4119566474da2ef4d19017a8134
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916691"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419185"
 ---
 # <a name="learn-from-customer-power-bi-migrations"></a>Más información sobre las migraciones de los clientes a Power BI
 
@@ -145,9 +145,9 @@ En un primer momento, la empresa tenía muchas puertas de enlace personales. El 
 
 Dado que la adopción de Power BI aumentó en la organización, la empresa descubrió que un enfoque de compatibilidad con varios niveles funcionaba bien:
 
-- **Nivel 1; entre el equipo** : los usuarios aprenden los unos de los otros a diario.
-- **Nivel 2; comunidad de Power BI** : las personas formulan preguntas de la comunidad de equipos internos para que aprendan unos de otros y comuniquen información importante.
-- **Nivel 3; equipo central de BI y COE** : las personas envían solicitudes de correo electrónico para obtener ayuda. Las sesiones en _horario de oficina_ se llevan a cabo dos veces al día para debatir problemas de forma colectiva y compartir ideas.
+- **Nivel 1; entre el equipo**: los usuarios aprenden los unos de los otros a diario.
+- **Nivel 2; comunidad de Power BI**: las personas formulan preguntas de la comunidad de equipos internos para que aprendan unos de otros y comuniquen información importante.
+- **Nivel 3; equipo central de BI y COE**: las personas envían solicitudes de correo electrónico para obtener ayuda. Las sesiones en _horario de oficina_ se llevan a cabo dos veces al día para debatir problemas de forma colectiva y compartir ideas.
 
 > [!IMPORTANT]
 > Aunque los dos primeros niveles son menos formales, son tan importantes como el tercer nivel de soporte técnico. Los usuarios experimentados suelen confiar principalmente en las personas que conocen, mientras que los usuarios más recientes (o los que son el único analista de datos para una unidad de negocio o un servicio compartido) suelen confiar más en el soporte técnico formal.
