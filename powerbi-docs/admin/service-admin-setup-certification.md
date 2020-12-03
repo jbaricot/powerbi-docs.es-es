@@ -2,18 +2,18 @@
 title: Habilitación de la certificación de contenido
 description: Obtenga información sobre cómo habilitar la certificación para conjuntos de datos, flujos de información, informes y aplicaciones.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4961f5f2b6364e06488baf32478b1f6e9338675e
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 17fc02131f13fe7fe7d8fb17af4380f6a013b9e7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680831"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413527"
 ---
 # <a name="enable-content-certification"></a>Habilitación de la certificación de contenido
 
@@ -37,12 +37,12 @@ La certificación forma parte de la característica de *aprobación* de Power B
 
    ![Certificación para la configuración de conjuntos de datos y flujos de datos](media/service-admin-setup-certification/service-admin-certification-setup-dialog.png)
 
-1. Establezca el control de alternancia en **Habilitado** .
+1. Establezca el control de alternancia en **Habilitado**.
 1. Si la organización tiene una directiva de certificación publicada, proporcione aquí su dirección URL. Se convertirá en el vínculo **Más información** de la sección de certificación del [cuadro de diálogo de Configuración de aprobación](../collaborate-share/service-endorse-content.md#request-content-certification). Si no proporciona un vínculo, se aconsejará a los usuarios que quieran solicitar la certificación de su contenido que se pongan en contacto con su administrador de Power BI.
 1. Especifique uno o más grupos de seguridad cuyos miembros estarán autorizados para certificar el contenido. Estos emisores de certificados autorizados podrán usar el botón Certificación que hay en la sección de certificación del [cuadro de diálogo de configuración de la aprobación](../collaborate-share/service-endorse-content.md#certify-content).
     
     Si un grupo de seguridad contiene subgrupos de seguridad a los que no quiere conceder derechos de certificación, puede activar la casilla **Excepto grupos de seguridad específicos** y escribir los nombres de esos grupos en un cuadro de texto que aparecerá.
-1. Haga clic en **Aplicar** .
+1. Haga clic en **Aplicar**.
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Promover o certificar contenido](../collaborate-share/service-endorse-content.md)

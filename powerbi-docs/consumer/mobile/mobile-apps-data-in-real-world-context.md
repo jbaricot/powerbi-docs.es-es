@@ -2,18 +2,18 @@
 title: Obtenga datos del mundo real con las aplicaciones móviles de Power BI
 description: Las aplicaciones móviles de Power BI pueden conectar el mundo real directamente con información relacionada de BI, sin necesidad de búsquedas.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 512d9f5662a87b3819b7151eb0fc3a4d6a540dd6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b6564cafe087000fd0ce4409fac2cbfc78d0e8fa
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278523"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413159"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Obtención de datos procedentes del mundo real con las aplicaciones móviles de Power BI
 Las aplicaciones móviles de Power BI pueden conectar el mundo real directamente con información relacionada de BI, de varias formas. 

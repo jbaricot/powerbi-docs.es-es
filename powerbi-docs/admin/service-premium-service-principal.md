@@ -1,20 +1,20 @@
 ---
 title: Automatización de tareas de área de trabajo y conjunto de datos de Power BI Premium con entidades de servicio | Microsoft Docs
 description: Aprenda a usar las entidades de seguridad de servicio para automatizar las tareas de administración de área de trabajo y conjunto de datos de Power BI Premium.
-author: minewiskan
-ms.author: owend
+author: Minewiskan
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 10/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 406b526f9e2dd146ee99629ed913c60b95989cb0
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 7ffd2d2673a4efb827110c04e5e466e143c36022
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483728"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413435"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Automatización de tareas de área de trabajo y conjunto de datos de Premium con entidades de servicio
 
@@ -22,7 +22,7 @@ Las entidades de servicio son un *registro de aplicación* de Azure Active Direc
 
 Power BI Premium usa la misma funcionalidad de entidad de servicio que Power BI Embedded. Para más información, consulte [Inserción de contenido de Power BI con entidad de servicio y secreto de aplicación](../developer/embedded/embed-service-principal.md).
 
-En **Power BI Premium** , las entidades de servicio también se pueden usar con el [punto de conexión XMLA](service-premium-connect-tools.md) para automatizar tareas de administración de conjuntos de datos tales como aprovisionamiento de áreas de trabajo, implementación de modelos y actualización de conjuntos de datos, mediante:
+En **Power BI Premium**, las entidades de servicio también se pueden usar con el [punto de conexión XMLA](service-premium-connect-tools.md) para automatizar tareas de administración de conjuntos de datos tales como aprovisionamiento de áreas de trabajo, implementación de modelos y actualización de conjuntos de datos, mediante:
 
 - PowerShell
 - Azure Automation

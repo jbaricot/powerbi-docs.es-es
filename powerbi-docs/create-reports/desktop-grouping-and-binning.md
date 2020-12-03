@@ -2,20 +2,20 @@
 title: Usar la agrupación y la discretización en Power BI Desktop
 description: Obtenga información sobre cómo agrupar y discretizar elementos en Power BI Desktop.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 12/18/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0beca84bc95c2947fef500fb9e3a9e5c377a0a46
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f1b3d226fb7b27ebb31879d2f4a5c3489660b94
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234010"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412929"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Usar la agrupación y la discretización en Power BI Desktop
 Cuando Power BI Desktop crea objetos visuales, agrega los datos en fragmentos (o grupos) en función de los valores que se encuentran en los datos subyacentes. A menudo esto es suficiente, pero puede haber ocasiones en las que quiera refinar la manera en que se presentan los fragmentos. Por ejemplo, tal vez le interese colocar tres categorías de productos en una categoría mayor (un *grupo*). También podría querer ver las cifras de ventas en tamaños de discretización de 1 000 000 dólares, en lugar de fragmentos de tamaños de 923 983 dólares.

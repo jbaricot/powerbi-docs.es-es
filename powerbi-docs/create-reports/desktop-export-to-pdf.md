@@ -2,19 +2,19 @@
 title: Exportar los informes a formato PDF desde Power BI Desktop
 description: Exporte fácilmente a PDF desde Power BI Desktop e imprima con facilidad esos informes en PDF
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 02/28/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7fc8b9bff06188a02914083705f7f9aed7862ab1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 815b8557b640de70690dcb90570f7764ff8c47a0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234144"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412998"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Exportar informes a PDF desde Power BI Desktop
 En **Power BI Desktop** o en el servicio Power BI, puede exportar informes a un archivo PDF y, por tanto, compartirlos o imprimirlos fácilmente desde ese PDF.

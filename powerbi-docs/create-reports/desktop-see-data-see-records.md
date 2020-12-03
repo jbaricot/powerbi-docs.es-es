@@ -2,19 +2,19 @@
 title: Tabla de objeto visual y registros en objetos visuales de Power BI Desktop
 description: Uso de las características de tabla de objeto visual y tabla de punto de datos de Power BI Desktop para profundizar en los detalles
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/21/2020
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 05dcd5f0d7ca1681ee1e82762ea1557c79c5bc24
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264738"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412814"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Uso de tabla de objeto visual y tabla de punto de datos en Power BI Desktop
 En **Power BI Desktop**, puede profundizar en los detalles de una visualización y ver representaciones textuales de los datos subyacentes o de los registros de datos individuales del objeto visual seleccionado. Estas características se conocen a veces como *click-through*, o *drill-through* u *obtención de detalles*.

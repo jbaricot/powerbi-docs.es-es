@@ -2,19 +2,19 @@
 title: Uso de controles de Microsoft Cloud App Security en Power BI
 description: Obtenga información sobre cómo usar Microsoft Cloud App Security con Power BI
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 06/15/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ab3b250734e2c2c2b4d97d952357669761da9095
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: f7bd3a59395e9f5f1ea167b7e7988aeb9882a72f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854172"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413343"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Uso de controles de Microsoft Cloud App Security en Power BI
 

@@ -2,18 +2,18 @@
 title: Creación de un vínculo a una ubicación específica en las aplicaciones móviles de Power BI
 description: Obtenga información sobre cómo crear un vínculo profundo a un panel, icono o informe específicos en la aplicación móvil de Power BI con un identificador uniforme de recursos (URI).
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 11/16/2020
-ms.author: painbar
-ms.openlocfilehash: 08ddac0cf407444b4a4c135494c5951bab515cdd
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 1c2260fdc3df201a655e6641c351319e366eac6b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669063"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413136"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Creación de un vínculo a una ubicación específica en las aplicaciones móviles de Power BI
 Puede usar vínculos para acceder directamente a contenido de Power BI específico, como un informe específico, una página del informe, un panel, un icono, etc.

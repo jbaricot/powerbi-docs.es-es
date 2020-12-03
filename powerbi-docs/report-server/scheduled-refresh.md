@@ -2,18 +2,18 @@
 title: Solución de problemas de la actualización programada en Power BI Report Server
 description: La actualización programada de los informes de Power BI permite que los datos de un informe con un modelo insertado estén al día.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
-ms.author: maggies
-ms.openlocfilehash: 710df5f4159f49884d9eee1044b2c077c7edcb88
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 4dd8914abe1f098b66d23daa299200b90b9bda6a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749101"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412584"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Solución de problemas de la actualización programada en Power BI Report Server
 La actualización programada de los informes de Power BI permite que los datos de un informe estén al día.
@@ -36,7 +36,7 @@ Cuando se usa la actualización programada para los informes de Power BI, están
 * En una configuración de escalado horizontal, el modelo de datos se puede replicar entre los nodos.
 * Analysis Services procesa los datos y ejecuta cualquier cálculo necesario.
 
-Power BI Report Server mantiene una cola de eventos para todas las operaciones programadas. La sondea a intervalos regulares para detectar nuevos eventos. De forma predeterminada, la cola se recorre a intervalos de 10 segundos. Es posible cambiar el intervalo si se modifican los valores de configuración **PollingInterval**, **IsNotificationService**e **IsEventService** del archivo RSReportServer.config. **IsDataModelRefreshService** también se puede usar para establecer si un servidor de informes procesa eventos programados.
+Power BI Report Server mantiene una cola de eventos para todas las operaciones programadas. La sondea a intervalos regulares para detectar nuevos eventos. De forma predeterminada, la cola se recorre a intervalos de 10 segundos. Es posible cambiar el intervalo si se modifican los valores de configuración **PollingInterval**, **IsNotificationService** e **IsEventService** del archivo RSReportServer.config. **IsDataModelRefreshService** también se puede usar para establecer si un servidor de informes procesa eventos programados.
 
 ### <a name="analysis-services"></a>Analysis Services
 Representar un informe de Power BI, así como realizar una actualización programada, requiere cargar el modelo de datos del informe de Power BI en Analysis Services. Un proceso de Analysis Services se ejecutará con Power BI Report Server.

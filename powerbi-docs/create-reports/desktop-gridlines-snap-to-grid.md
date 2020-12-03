@@ -2,20 +2,20 @@
 title: Usar líneas de cuadrícula y ajustar a la cuadrícula en los informes de Power BI Desktop
 description: Usar líneas de cuadrícula, ajustar a la cuadrícula, orden Z, alineación y distribución en los informes de Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8323cc04726fa1e29b3c6858bda3f848af34ebc5
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 745b89efc76c179c0393e4dccd29d5bee6910676
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263324"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412952"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Usar líneas de cuadrícula y ajustar a la cuadrícula en los informes de Power BI Desktop
 El lienzo de informe de **Power BI Desktop** proporciona líneas de cuadrícula que permiten alinear perfectamente objetos visuales en una página de informe y usar la función de ajustar a la cuadrícula para objetos visuales; de este modo sus informes podrán tener un buen aspecto, estar alineados y disponer de un espaciado uniforme.

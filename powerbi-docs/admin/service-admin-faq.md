@@ -2,19 +2,19 @@
 title: 'Administración de Power BI: preguntas más frecuentes (P+F)'
 description: Obtenga las respuestas a las preguntas más frecuentes sobre la suscripción de Power BI, la administración de inquilinos y otras tareas administrativas.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3aa42394bb12078fb2abcf6574d04b8109a9c40c
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 5a30ff855616eef04db4827b4a25cb0facb9db1b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981605"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413711"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administración de Power BI: preguntas más frecuentes (P+F)
 
