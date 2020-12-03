@@ -74,6 +74,8 @@
               href: mobile-apps-scan-barcode-iphone.md
             - name: Configuración de las opciones de interacción
               href: mobile-app-interaction-settings.md
+            - name: Modo oscuro
+              href: mobile-apps-dark-mode.md
             - name: Configuración mediante la administración de dispositivos móviles
               href: mobile-app-configuration.md
         - name: iOS
@@ -86,8 +88,6 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: Integración de la búsqueda de dispositivos iOS
               href: mobile-apps-iOS-search-integration.md
-            - name: Modo oscuro
-              href: mobile-apps-dark-mode.md
             - name: Aplicación Power BI en Apple Watch
               href: mobile-apple-watch.md
         - name: Dispositivos Android

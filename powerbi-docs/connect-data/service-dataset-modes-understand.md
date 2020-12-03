@@ -1,20 +1,20 @@
 ---
 title: Modos de conjuntos de datos en el servicio Power BI
 description: 'Información sobre los modos de conjuntos de datos del servicio Power BI: Importación, DirectQuery y Composición.'
-author: peter-myers
+author: davidiseminger
+ms.author: davidi
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 4ec73f3dd09d1c83b07d1419256cd627a71ae2d4
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.date: 12/01/2020
+ms.openlocfilehash: 5b4c32296c7121fa3d161461af7e86caba617ee1
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332852"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96501958"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Modos de conjuntos de datos en el servicio Power BI
 
@@ -103,13 +103,11 @@ Es probable que los modeladores de datos que desarrollan modelos de Composición
 
 Por ejemplo, considere un modelo con una tabla de tipo de dimensiones **Producto** en modo Dual y una tabla de tipo de hechos **Ventas** en el modo de DirectQuery. La tabla **Producto** se puede consultar de manera eficaz y rápida desde memoria para representar una segmentación de informe. La tabla **Ventas** también se podría consultar en el modo de DirectQuery con la tabla **Producto**. Esta última consulta podría permitir generar una consulta SQL nativa eficaz que combine las tablas **Producto** y **Ventas** y que filtre según los valores de segmentación.
 
-En general, para los modelos de Composición, las ventajas y desventajas asociadas con el modo de Importación y DirectQuery, en función de cómo está configurada cada tabla.
-
 Para más información, consulte [Usar modelos compuestos en Power BI Desktop](../transform-model/desktop-composite-models.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Conjuntos de datos en el servicio Power BI](service-dataset-modes-understand.md)
+- [Conjuntos de datos en el servicio Power BI](service-dataset-modes-understand.md)
 - [Modo de almacenamiento en Power BI Desktop](../transform-model/desktop-storage-mode.md)
 - [Uso de DirectQuery en Power BI](desktop-directquery-about.md)
 - [Usar modelos compuestos en Power BI Desktop](../transform-model/desktop-composite-models.md)
