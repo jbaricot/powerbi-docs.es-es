@@ -2,19 +2,19 @@
 title: ¿Qué es un panel y cómo se abre?
 description: Los paneles son una característica clave del servicio Power BI.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 08/30/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2e2c4656c5436691df96b86f145e255153ff9f96
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 518310c6b4b0d45f02049c91a493b6394a4a50d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286710"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400555"
 ---
 # <a name="dashboards-for-business-users-of-the-power-bi-service"></a>Paneles para usuarios empresariales del servicio Power BI
 
@@ -22,11 +22,11 @@ ms.locfileid: "89286710"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Un ***panel*** de Power BI tiene una sola página, a menudo denominada lienzo, que usa visualizaciones para contar una historia. Dado que se limita a una sola página, un panel bien diseñado contiene únicamente los elementos más importantes de esa historia.
+Un ***panel** _ de Power BI tiene una sola página, a menudo denominada lienzo, en la que se usan visualizaciones para contar una historia. Dado que se limita a una sola página, un panel bien diseñado contiene únicamente los elementos más importantes de esa historia.
 
 ![captura de pantalla de un panel](media/end-user-dashboards/power-bi-dashboard.png)
 
-Las visualizaciones que se ven en el panel se denominan *iconos* y los *diseñadores* de informes se encargan de *anclarlas* al panel. En la mayoría de los casos, al seleccionar un icono, accede a la página del informe donde se ha creado la visualización. Si no está familiarizado con Power BI, puede obtener una buena base leyendo [Conceptos básicos de Power BI](end-user-basic-concepts.md).
+Las visualizaciones que se ven en el panel se denominan _iconos* y los *diseñadores* de informes las *anclan* al panel. En la mayoría de los casos, al seleccionar un icono, accede a la página del informe donde se ha creado la visualización. Si no está familiarizado con Power BI, puede obtener una buena base leyendo [Conceptos básicos de Power BI](end-user-basic-concepts.md).
 
 > [!NOTE]
 > Los paneles se pueden [ver y compartir en dispositivos móviles](mobile/mobile-apps-view-dashboard.md).
@@ -42,8 +42,8 @@ Los paneles son una magnífica manera de supervisar su empresa, buscar respuesta
 
 Un panel no es simplemente una imagen bonita; es interactivo y los iconos se actualizan a medida que cambian los datos subyacentes.
 
-## <a name="dashboards-versus-reports-for-power-bi-business-users"></a>Diferencia entre paneles e informes para ***usuarios empresariales*** de Power BI
-Los informes suelen confundirse con paneles, ya que son igualmente lienzos con visualizaciones. Sin embargo, hay algunas diferencias importantes desde el punto de vista de los *usuarios empresariales* de Power BI.
+## <a name="dashboards-versus-reports-for-power-bi-business-users_"></a>Diferencia entre paneles e informes para ***usuarios profesionales** _ de Power BI
+Los informes suelen confundirse con paneles, ya que son igualmente lienzos con visualizaciones. Pero hay algunas diferencias importantes desde el punto de vista de los _usuarios profesionales* de Power BI.
 
 | **Funcionalidad** | **Paneles** | **Informes** |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ Los informes suelen confundirse con paneles, ya que son igualmente lienzos con v
 
 
 ## <a name="dashboard-designers-and-dashboard-business-users"></a>Diseñadores de paneles y usuarios empresariales de paneles
-Como ***usuario empresarial*** de Power BI, recibirá paneles de los *diseñadores*. Continúe aprendiendo sobre los paneles con estos temas:
+Como **_usuario profesional_* _ de Power BI, recibirá paneles de los _diseñadores*. Continúe aprendiendo sobre los paneles con estos temas:
 
 * [Visualización de un panel](end-user-dashboard-open.md)
 * Obtenga información acerca de los [iconos de panel](end-user-tiles.md) y lo que ocurre al seleccionar uno.

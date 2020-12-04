@@ -2,18 +2,18 @@
 title: Novedades en las aplicaciones móviles para Power BI
 description: Novedades en las aplicaciones móviles para Power BI
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.author: painbar
-ms.openlocfilehash: 83a280b94a6db937133e0d7ab1e6d7ad64af06f4
-ms.sourcegitcommit: 29cafa1602efb56cfa8dbd0010dd04ad3fcdd02c
+ms.date: 12/01/2020
+ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "93355943"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502096"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -25,9 +25,19 @@ Para obtener información sobre novedades, vea:
 >[!NOTE]
 >El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
+## <a name="december-2020"></a>Diciembre de 2020
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Modo oscuro agregado a Power BI Mobile (Android)
+
+Pruebe el nuevo modo oscuro en la aplicación Power BI Mobile dispositivos Android. En el modo oscuro, verá texto claro en un fondo oscuro, lo que reduce el brillo de la pantalla y facilita la visualización del contenido. Puede cambiar entre los temas en la configuración de aspecto de la aplicación. [Más información](mobile-apps-dark-mode.md)
+
+![Captura de pantalla del modo oscuro en la aplicación Power BI Mobile para Android.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)
+
+### <a name="maximize-the-view-with-full-screen-mode-ipads"></a>Maximización de la vista con el modo de pantalla completa (iPad)
+Se ha agregado un nuevo botón a la aplicación móvil para iPad que permite quitar encabezados y pies de página de la aplicación, lo que proporciona el espacio máximo para ver el contenido. Simplemente pulse en el botón de alternancia de pantalla completa ![Captura de pantalla del icono del modo de pantalla completa.](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) en la esquina superior derecha de la pantalla para cambiar de modo.
+
 ## <a name="november-2020"></a>Noviembre de 2020
 ### <a name="maximize-the-view-with-full-screen-mode-android-tablets"></a>Maximización de la vista con el modo de pantalla completa (tabletas Android)
-Hemos agregado un nuevo botón a la aplicación móvil para tabletas Android que permite quitar encabezados y pies de página de la aplicación, lo que proporciona el espacio máximo para ver el contenido. Basta con pulsar el botón de alternancia de la pantalla completa situado en la esquina superior derecha para cambiar entre modos.
+Hemos agregado un nuevo botón a la aplicación móvil para tabletas Android que permite quitar encabezados y pies de página de la aplicación, lo que proporciona el espacio máximo para ver el contenido. Simplemente pulse en el botón de alternancia de pantalla completa ![Captura de pantalla del icono del modo de pantalla completa.](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) en la esquina superior derecha de la pantalla para cambiar de modo.
 
 ## <a name="october-2020"></a>Octubre de 2020
 ### <a name="automatic-page-refresh-is-now-supported-windows"></a>Ya se admite la actualización automática de página (Windows)

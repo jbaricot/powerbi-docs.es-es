@@ -2,20 +2,20 @@
 title: 'Modo de enfoque y modo de pantalla completa: cómo acercar para ver más detalles'
 description: Documentación para mostrar un icono panel, un icono de panel, un informe o un objeto visual del informe de Power BI en el modo de enfoque o en el modo de pantalla completa
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7ab2500a393751c3013c1f3427173b57b3b5cf07
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 6385d263c47bde156a7dae941fefb101b9b30d18
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642685"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400463"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Mostrar el contenido con más detalle: modo de enfoque y modo de pantalla completa
 
@@ -56,11 +56,11 @@ Algunos usos del modo de pantalla completa son:
 
 ## <a name="when-to-use-focus-mode"></a>Cuándo usar el modo de enfoque
 
-El modo de ***enfoque*** permite expandir (hacer emerger) un objeto visual o icono para verlos con mayor detalle.  Quizá tenga un panel o informe que está un poco amontonado y desea acercar un único objeto visual.  Se trata de un uso perfecto del modo de enfoque.  
+El modo de ***enfoque** _ permite expandir (hacer emerger) un objeto visual o icono para verlos con mayor detalle.  Quizá tenga un panel o informe que está un poco amontonado y desea acercar un único objeto visual.  Se trata de un uso perfecto del modo de enfoque.  
 
 ![Modo de enfoque del icono del panel antes y después](media/end-user-focus/power-bi-compare-dash.png)
 
-En el modo de enfoque, un *usuario empresarial* de Power BI puede interactuar con todos los filtros que se aplicaron cuando se creó este objeto visual.  En el servicio Power BI, puede usar el modo de enfoque en un icono de un panel o un objeto visual de un informe.
+En el modo de enfoque, un _usuario profesional* de Power BI puede interactuar con todos los filtros que se hayan aplicado al crear este objeto visual.  En el servicio Power BI, puede usar el modo de enfoque en un icono de un panel o un objeto visual de un informe.
 
 ## <a name="working-in-full-screen-mode"></a>Trabajar en modo de pantalla completa
 

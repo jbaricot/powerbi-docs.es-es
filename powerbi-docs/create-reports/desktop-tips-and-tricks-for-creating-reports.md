@@ -2,19 +2,19 @@
 title: Sugerencias y trucos para crear informes en Power BI
 description: Conozca los procedimientos recomendados para la creación de informes en el servicio Power BI y Power BI Desktop.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/07/2020
-ms.author: davidi
-ms.openlocfilehash: 336dbad3ac77fb333b52cd3f4c4c0b104573314a
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 2684d5e29015e5fccd6eb75f0a4acf5f45542991
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633547"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412699"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugerencias y trucos para crear informes en Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado. 
@@ -142,7 +142,7 @@ Si quiere realizar el seguimiento de todos los incidentes y elementos de trabajo
 
 Para crear una relación en este caso, tenemos que crear un conjunto de datos lógico de todos los CustomerNames de los dos conjuntos de datos. En la pestaña consulta, puede usar la siguiente secuencia para crear el conjunto de datos lógico:
 
-1. Duplique ambas consultas, asignando a la primera el nombre **Temp** y el nombre **CustomerNames**a la segunda.
+1. Duplique ambas consultas, asignando a la primera el nombre **Temp** y el nombre **CustomerNames** a la segunda.
 2. En cada consulta, quite todas las columnas *excepto* la columna CustomerName
 3. En cada consulta, use  **Quitar duplicados**.
 4. En la consulta **CustomerNames** , seleccione la opción **Anexar** de la cinta de opciones, seleccione la consulta **Temp**.
@@ -205,8 +205,8 @@ Evite utilizar distintos tipos de visualizaciones simplemente para aportar varie
 * Asegúrese de codificar correctamente los datos cuantitativos. No use más de tres o cuatro dígitos al mostrar números. Muestre las medidas con uno o dos números a la izquierda de la coma decimal y reduzca los millares o millones, es decir, escriba "3,4 millones" en lugar de "3.400.000".    
 * Trate de evitar mezclar niveles de precisión y tiempo. Asegúrese de que los intervalos de tiempo se comprenden perfectamente.  No coloque un gráfico del mes pasado junto a gráficos filtrados de un mes concreto del año.    
 * No mezcle medidas grandes y pequeñas en la misma escala, por ejemplo, en un gráfico de barras o líneas.  Por ejemplo, una medida puede estar en millones y otra en millares.  Con una escala tan grande, sería difícil comprender las diferencias de la medida en millares.  Si tiene que mezclarlas, elija una visualización, como un gráfico combinado, que permita usar un segundo eje.    
-* No abarrote los gráficos con etiquetas de datos innecesarias. Normalmente, los valores de los gráficos de barras, ***si son lo suficientemente grandes***, se entienden bien sin necesidad de mostrar el número real.   
-* Preste atención a la manera de [ordenar los gráficos](../consumer/end-user-change-sort.md). Si desea llamar la atención sobre el número más alto o más bajo, ordene por medida. Si desea que los usuarios puedan encontrar rápidamente una categoría determinada entre muchas otras categorías, ordene por eje.  
+* No abarrote los gráficos con etiquetas de datos innecesarias. Normalmente, los valores de los gráficos de barras, ***si son lo suficientemente grandes** _, se entienden bien sin necesidad de mostrar el número real.   
+_ Preste atención a cómo se [ordenan los gráficos](../consumer/end-user-change-sort.md). Si desea llamar la atención sobre el número más alto o más bajo, ordene por medida. Si desea que los usuarios puedan encontrar rápidamente una categoría determinada entre muchas otras categorías, ordene por eje.  
 * Los gráficos circulares funcionan mejor si no superan las ocho categorías. Los valores no se pueden comparar en paralelo, y es más difícil hacerlo en un gráfico circular que en los gráficos de barras y columnas. Los gráficos circulares resultan útiles para ver las relaciones de una parte con respecto a un todo, no para comparar los elementos. Por último, los gráficos de medidor son ideales para mostrar el estado actual en el contexto de un objetivo.    
 
 Para más instrucciones específicas sobre la visualización, consulte [Tipos de visualización en Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  

@@ -2,20 +2,20 @@
 title: Inicio y cierre de sesión
 description: Obtenga información sobre cómo iniciar sesión en el servicio Power BI en la web y cómo cerrarla.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 Ms.custom: css_fy20Q4
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/06/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bea5b36c98ab8a62b444bfc731b5d54df6550f0f
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 18fe7dc1c2d1b064d28e32782dc58fcbcf92341d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780511"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389630"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Inicio de sesión en el servicio Power BI
 
@@ -68,7 +68,7 @@ En la página Inicio, verá todo el contenido que puede usar. Inicialmente, es p
 Si no quiere que Power BI abra la página Inicio, puede [establecer un panel o informe **Destacado**](end-user-featured.md) para que se abra en su lugar. 
 
 ## <a name="safely-interact-with-content"></a>Interacción segura con el contenido
-Como ***usuario empresarial***, otros usuarios compartirán contenido con usted y podrá interactuar con ese contenido para explorar los datos y tomar decisiones empresariales.  Cuando filtre, segmente, se subscriba, exporte y cambie de tamaño, no se preocupe: el trabajo no afecta al conjunto de datos subyacente ni al contenido compartido original (informes y paneles). Power BI es un espacio seguro para explorar y experimentar. Eso no significa que los cambios no se puedan guardar: sí se puede. Pero estos cambios solo afectan a **su** vista del contenido. Y revertir a la vista predeterminada original es tan fácil como hacer clic en un botón.
+Como **_usuario profesional_ *_, otros usuarios compartirán contenido con usted y podrá interactuar con ese contenido para explorar los datos y tomar decisiones empresariales.  Cuando filtre, segmente, se subscriba, exporte y cambie de tamaño, no se preocupe: el trabajo no afecta al conjunto de datos subyacente ni al contenido compartido original (informes y paneles). Power BI es un espacio seguro para explorar y experimentar. Eso no significa que los cambios no se puedan guardar: sí se puede. Pero estos cambios solo afectan a _* su** vista del contenido. Y revertir a la vista predeterminada original es tan fácil como hacer clic en un botón.
 
 ![Botón Restablecer valores predeterminados](media/end-user-sign-in/power-bi-reset.png)
 

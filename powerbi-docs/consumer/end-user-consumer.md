@@ -2,19 +2,19 @@
 title: ¿Qué es un "usuario profesional" de Power BI?
 description: Información general de Power BI para usuarios profesionales (también conocidos como usuarios finales o usuarios empresariales).
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: overview
 ms.date: 10/11/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7616d84ca93c336e606b3a96e7a362a1b57e6a96
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 133ffefd32008a138c736094dadcfe154211e98c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982085"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391240"
 ---
 # <a name="the-power-bi-service-for-business-users"></a>Servicio Power BI para usuarios profesionales
 
@@ -28,7 +28,7 @@ Ellos le envían todo tipo de informes, hojas de cálculo, correos electrónicos
 
 ## <a name="the-power-bi-service-for-business-users"></a>Servicio Power BI para *usuarios profesionales*
 
-Power BI le facilita el trabajo y, al mismo tiempo, marca la diferencia. Todos los datos se convierten en gráficos y grafos que representan visualmente los datos al instante. En lugar de usar largas listas o tablas de números y palabras, la información que transmiten los datos es ***atractiva*** : objetos visuales elegantes y llamativos que cuentan algo sobre los datos. 
+Power BI le facilita el trabajo y, al mismo tiempo, marca la diferencia. Todos los datos se convierten en gráficos y grafos que representan visualmente los datos al instante. En lugar de usar largas listas o tablas de números y palabras, la información que transmiten los datos es ***atractiva** _: objetos visuales elegantes y llamativos que cuentan algo sobre las conclusiones de los datos. 
 
 ![La captura de pantalla muestra un informe de Power BI con diferentes tipos de gráficos.](media/end-user-consumer/power-bi-consumer-examples.png)
  
@@ -38,15 +38,15 @@ Solo tiene que abrir el servicio Power BI en un explorador o un dispositivo móv
 
 Dado que el contenido no es estático, puede profundizar en él en busca de tendencias, información y otros tipos de inteligencia empresarial. Segmente y desglose el contenido e incluso haga búsquedas en él formulando preguntas con sus propias palabras. O bien, deje que los datos le revelen información interesante, le envíen alertas cuando cambien los datos y le envíen informes por correo según la programación que haya configurado. Todos los datos, en cualquier momento, en la nube o de forma local, desde cualquier dispositivo. Eso es solo el principio de lo que Power BI puede hacer. 
 
-## <a name="am-i-a-power-bi-business-user"></a>¿Soy un *usuario empresarial* de Power BI?
+## <a name="am-i-a-power-bi-_business-user"></a>¿Soy un _usuario profesional* de Power BI?
 
-La manera en que interactúa con Power BI dependerá de su función. Como consumidor o *usuario profesional* , es la persona que recibe contenido (paneles, informes y aplicaciones) de sus compañeros. Puede trabajar en la versión en línea o móvil de Power BI, que se denomina servicio Power BI, revisando este contenido e interactuando con él para tomar decisiones empresariales. 
+La manera en que interactúa con Power BI dependerá de su función. Como consumidor o *usuario profesional*, es la persona que recibe contenido (paneles, informes y aplicaciones) de sus compañeros. Puede trabajar en la versión en línea o móvil de Power BI, que se denomina servicio Power BI, revisando este contenido e interactuando con él para tomar decisiones empresariales. 
    
 Como usuario profesional, no tendrá acceso a todas las funcionalidades de Power BI. Y no pasa nada, porque su trabajo no consiste en crear paneles e informes, sino que usará el servicio Power BI para el análisis, la supervisión, la exploración y la toma de decisiones. 
 
-Sin duda, oirá el término "Power BI Desktop" o simplemente "Desktop": se trata de una herramienta independiente que usan los *diseñadores* que crean y comparten informes y paneles con usted.  Es importante saber que existen otras herramientas de Power BI, pero si es un *usuario profesional* , solo trabajará con el servicio Power BI. 
+Sin duda, oirá el término "Power BI Desktop" o simplemente "Desktop": se trata de una herramienta independiente que usan los *diseñadores* que crean y comparten informes y paneles con usted.  Es importante saber que existen otras herramientas de Power BI, pero si es un *usuario profesional*, solo trabajará con el servicio Power BI. 
 
-Además, dado que trabajará con contenido *compartido* , necesitará cumplir uno de estos requisitos:
+Además, dado que trabajará con contenido *compartido*, necesitará cumplir uno de estos requisitos:
 - una licencia de Power BI Pro.
 - que la organización tenga una suscripción a Power BI Premium y que el contenido se comparta con usted desde la capacidad Premium. 
 

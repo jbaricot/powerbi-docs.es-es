@@ -2,20 +2,20 @@
 title: Trabajo con agregados (suma, promedio, etc.) en el servicio Power BI
 description: Aprenda a cambiar la agregación de un gráfico (suma, promedio, máximo, etc.) en el servicio Power BI.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 06/16/2020
-ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 4addd87085eb4321253bcf34842ca135f536f981
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4ed1d6c68549e621f42b23d05a061e7fe1c9e230
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238110"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395426"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Trabajo con agregados (suma, promedio, etc.) en el servicio Power BI
 
@@ -39,7 +39,7 @@ En el ejemplo siguiente:
 
    ![Captura de pantalla de un conjunto de datos de ejemplo.](media/service-aggregates/power-bi-aggregate-chart.png)
 
-Al crear una visualización en Power BI, el servicio agregará campos numéricos (el valor predeterminado es *sum*) según algún campo de categorías.  Por ejemplo, "Unidades vendidas ***por producto***", "Unidades vendidas ***por mes***" y "Precio de fabricación ***por segmento***". Power BI hace referencia a algunos campos numéricos como **medidas**. Es fácil identificar las medidas en el editor de informes de Power BI porque en la lista **Campos** se muestran con el símbolo ∑ junto a ellas. Para obtener más información, consulte [Paseo por el editor de informes](service-the-report-editor-take-a-tour.md).
+Al crear una visualización en Power BI, el servicio agregará campos numéricos (el valor predeterminado es *sum*) según algún campo de categorías.  Por ejemplo, "Unidades vendidas ***por producto** _", "Unidades vendidas _*_por mes_*_" y "Precio de fabricación _*_por segmento_*_". Power BI hace referencia a algunos campos numéricos como _*medidas**. Es fácil identificar las medidas en el editor de informes de Power BI porque en la lista **Campos** se muestran con el símbolo ∑ junto a ellas. Para obtener más información, consulte [Paseo por el editor de informes](service-the-report-editor-take-a-tour.md).
 
 ![Captura de pantalla de Power BI con la lista de campos resaltada.](media/service-aggregates/power-bi-aggregate-fields.png)
 

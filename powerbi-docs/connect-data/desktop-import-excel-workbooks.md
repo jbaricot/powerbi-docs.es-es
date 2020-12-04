@@ -2,19 +2,19 @@
 title: Importación de libros de Excel en Power BI Desktop
 description: Puede importar fácilmente a Power BI Desktop libros de Excel que contienen consultas de Power Query, modelos de Power Pivot y hojas de cálculo de Power View.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6fce5e88fa41c2eb7ed03b805494165344701da7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 874e95c6ac917ca723e67ae0741d5244a09f288d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223538"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411020"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Importación de libros de Excel en Power BI Desktop
 Si usa Power BI Desktop, puede importar fácilmente a él libros de Excel que contienen consultas de Power Query, modelos de Power Pivot y hojas de cálculo de Power View. Power BI Desktop crea automáticamente informes y visualizaciones basados en libros de Excel. Una vez importados los libros, puede seguir mejorándolos y perfeccionándolos con Power BI Desktop, usando las características ya existentes o las nuevas que se publican con cada actualización mensual de Power BI Desktop.
@@ -54,7 +54,7 @@ Si usa Power BI Desktop, puede importar fácilmente a él libros de Excel que c
 Una vez importado el libro, puede seguir trabajando en el informe. Puede crear otras visualizaciones, agregar datos o crear más páginas de informe con cualquiera de las características y capacidades incluidas en Power BI Desktop.
 
 ## <a name="which-workbook-elements-are-imported"></a>¿Qué elementos del libro se importan?
-Power BI Desktop puede importar los siguientes elementos, a los que se conoce normalmente como *objetos*en Excel.
+Power BI Desktop puede importar los siguientes elementos, a los que se conoce normalmente como *objetos* en Excel.
 
 | Objeto en un libro de Excel | Resultado final en el archivo de Power BI Desktop |
 | --- | --- |
@@ -71,6 +71,6 @@ Existen algunas limitaciones a la hora de importar un libro en Power BI Desktop
 * **Jerarquías:** este tipo de objeto de modelo de datos no es compatible actualmente con Power BI Desktop. Por lo tanto, las jerarquías se omiten como parte de la importación de un libro de Excel a Power BI Desktop.
 * **Columnas de datos binarios:** este tipo de columna de modelo de datos no es compatible actualmente con Power BI Desktop. Las columnas de datos binarios se quitan de la tabla resultante en Power BI Desktop.
 * **Elementos de Power View no compatibles:** existen algunas características de Power View que no están disponibles en Power BI Desktop, como los temas o determinados tipos de visualizaciones (gráfico de dispersión con eje de reproducción, comportamientos de obtención de detalles, etc.). Estas visualizaciones no compatibles provocan mensajes de *Visualización no compatible* en sus correspondientes ubicaciones en el informe de Power BI Desktop, que puede eliminar o volver a configurar según sea necesario.
-* **Rangos con nombre que usan** ***Desde tabla*** **en Power Query o** ***Excel.CurrentWorkbook*** **en M:** la importación de estos datos de rangos con nombre a Power BI Desktop no es compatible actualmente, pero es una actualización prevista. Actualmente, estos rangos con nombre se cargan en Power BI Desktop como una conexión al libro de Excel externo.
+* **Rangos con nombre que usan** **_Desde tabla_ *_ _* en Power Query, o bien mediante** **_Excel.CurrentWorkbook_ *_ _* en M:** la importación de estos datos de rangos con nombre a Power BI Desktop no es compatible actualmente, pero es una actualización prevista. Actualmente, estos rangos con nombre se cargan en Power BI Desktop como una conexión al libro de Excel externo.
 * **Power Pivot para SSRS:** las conexiones externas de Power Pivot para SQL Server Reporting Services (SSRS) no son compatibles actualmente, ya que el origen de datos no está disponible actualmente en Power BI Desktop.
 

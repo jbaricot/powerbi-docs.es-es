@@ -2,25 +2,25 @@
 title: Configuración de presentación de página en un informe de Power BI
 description: Configuración de la presentación de página y configuración de la vista de página de un informe
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/29/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c08d4959b8e3958651282ac0fd52e6ed80a6b345
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9452a4a6340480bcb6c8b646c16125fe73f68235
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237265"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393494"
 ---
 # <a name="apply-page-display-settings-in-a-power-bi-report"></a>Aplicación de la configuración de presentación de página en un informe de Power BI
 Sabemos que es crítico lograr un diseño de informe perfecto hasta el último detalle. En ocasiones, esto puede resultar complicado, porque puede que usted y sus compañeros de trabajo vean esos informes en pantallas con relaciones de aspecto y tamaños diferentes. 
 
-La vista de pantalla predeterminada es **Ajustar a la página** y el tamaño de pantalla predeterminado es **16:9**. Si desea fijar otra relación de aspecto o ajustar su informe de forma diferente, hay dos herramientas que le ayudarán: la configuración de ***Vista de página*** y la configuración de ***Tamaño de página***.
+La vista de pantalla predeterminada es **Ajustar a la página** y el tamaño de pantalla predeterminado es **16:9**. Si quiere fijar otra relación de aspecto o ajustar el informe de forma diferente, hay dos herramientas que le ayudarán: la configuración de **_Vista de página_* _ y las opciones de _*_Tamaño de página_*_.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
@@ -30,7 +30,7 @@ La vista de pantalla predeterminada es **Ajustar a la página** y el tamaño de 
 La configuración de la Vista de página está disponible en el servicio Power BI y en Power BI Desktop, pero la interfaz es ligeramente diferente. Las secciones siguientes explican dónde se pueden buscar las configuraciones de Vista en cada herramienta de Power BI.
 
 ### <a name="in-power-bi-desktop"></a>En Power BI Desktop
-En la vista de informe, seleccione la pestaña **Vista** para abrir la configuración de la vista de página, así como la configuración del diseño de teléfono.
+En la vista de informe, seleccione la pestaña -*Vista** para abrir la configuración de la vista de página, así como la configuración del diseño de teléfono.
 
   ![Configuración de la vista de página de escritorio](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
 

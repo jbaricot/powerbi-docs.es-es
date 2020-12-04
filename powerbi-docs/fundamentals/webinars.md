@@ -2,18 +2,18 @@
 title: Seminarios web de Power BI
 description: Seminarios web de Power BI
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 09/22/2020
-ms.author: kfollis
-ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.date: 12/01/2020
+ms.openlocfilehash: 1c0c572072fd085feab1533eb346d745b56f66b0
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020030"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502027"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) es un proveedor que trabaja con Chauncy Freels y ayuda a mantener esta lista de seminarios web."
@@ -22,19 +22,30 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 
 ## <a name="upcoming-webinars"></a>Próximos seminarios web
 
-**Póngase en marcha rápidamente con Power BI**  
-por Miguel Martinez, Microsoft  
-[Regístrese para verlo el 5 de noviembre de 2020, de 10:00 a 11:00 (hora de verano del Pacífico)](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
-
 [Próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Seminarios web destacados
 
-Empiece por estos seminarios web a petición populares
+Empiece por estos conocidos seminarios web a petición:
+
+**Póngase en marcha rápidamente con Power BI**  
+por Miguel Martinez, Microsoft  
+[Regístrese para verlo el 5 de noviembre de 2020, de 10:00 a 11:00 (hora de verano del Pacífico)](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
+**Drive a Remote Data Culture with Power BI and Microsoft Teams** (Impulso de una cultura de datos remotos con Power BI y Microsoft Teams)  
+de Lukasz Pawlowski  
+[Ver ahora](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html?LCID=EN-US)
+
+**Better Together: Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Juntos mejor: 5 ventajas que obtendrán los usuarios de Excel si usan Power BI)  
+de Miguel Martinez y Carlos Otero  
+[Ver ahora](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html?LCID=EN-US)
 
 **Supervisión de los datos en tiempo real con Microsoft Power BI**  
 por Miguel Martinez y Peter Myers  
 [Ver ahora](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**Accelerate Power BI on Azure Data Lake Storage with Dremio** (Aceleración de Power BI en Azure Data Lake Storage con Dremio)  
+de Chris Webb y Tomer Shiran [Ver ahora]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html?lcid=en-us)
 
 **Creación de soluciones de inteligencia empresarial escalables con Power BI y Snowflake**  
 por Chris Webb, Craig Collier y Chris Holliday  
