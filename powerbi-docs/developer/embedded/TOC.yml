@@ -96,8 +96,6 @@
               href: /rest/api/power-bi/
         - name: "Bibliotecas de Power\_BI"
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-        - name: Inserción de diseños personalizados en una aplicación
-          href: embedded-custom-layout.md
         - name: Azure CLI
           href: /cli/azure/ext/powerbidedicated/powerbi
     - name: Recursos
