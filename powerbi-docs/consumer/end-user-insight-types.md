@@ -9,12 +9,12 @@ ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/12/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2487c8215d4c1f2c3bc905457d6b5d08c5955c0c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a5a3029a3afe3d48981338934090ad6b9719d6bb
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400141"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613446"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de información compatibles con Power BI
 
@@ -24,7 +24,7 @@ Puede pedir a Power BI que examine los datos y encuentre patrones y tendencias 
 
 Para obtener más información sobre cómo usar las conclusiones, vea [Conclusiones de Power BI](end-user-insights.md).
 
-![Conjunto de conclusiones](media/end-user-insight-types/power-bi-insight.png)
+![Conjunto de conclusiones](media/end-user-insight-types/power-bi-insight-line.png)
 
 ## <a name="how-does-insights-work"></a>¿Cómo funciona la búsqueda de información?
 Power BI busca rápidamente en otros subconjuntos del conjunto de datos. Durante la búsqueda, Power BI aplica un conjunto de algoritmos sofisticados para detectar información potencialmente interesante. Los *usuarios empresariales* de Power BI pueden ejecutar conclusiones en los iconos de los paneles.

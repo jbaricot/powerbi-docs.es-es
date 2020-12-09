@@ -10,18 +10,18 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/25/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 5487697196b5ab6c7132db44ba707a0c7cc708d4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video-B2vd4MQrz4M#t
+ms.openlocfilehash: c3672433675bd2c44de8e9005a3c46d592d51452
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389929"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781805"
 ---
 # <a name="see-related-content-in-the-power-bi-service"></a>Consulta de contenido relacionado en el servicio Power BI
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 El panel **Contenido relacionado** muestra cómo está interconectado el contenido del servicio Power BI: paneles, informes y conjuntos de datos. El panel **Contenido relacionado** también es un panel de inicio para la realización de acciones. Desde aquí puede hacer cosas como abrir un panel, abrir un informe, generar información, analizar los datos en Excel y mucho más.  
 

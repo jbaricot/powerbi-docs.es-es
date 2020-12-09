@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/25/2020
+ms.date: 12/03/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 44bdb454bbe22082a20182002e817fead561d8da
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e211aded069675c02e59004631ea2264be1e0dcc
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391424"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578296"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Cambio del modo de ordenar un gráfico en un informe de Power BI
 
@@ -80,7 +80,7 @@ Es posible que, a veces, quiera ordenar el objeto visual mediante un campo difer
 
 Solo la persona que diseñó el informe puede hacer estos cambios. Para encontrar la información de contacto del *diseñador*, seleccione el nombre del informe en la barra de encabezado.
 
-![Elemento desplegable que muestra la información de contacto](media/end-user-change-sort/power-bi-header.png)
+![Elemento desplegable que muestra la información de contacto](media/end-user-change-sort/power-bi-heading.png)
 
 Si es *diseñador* y tiene permisos de edición para el contenido, lea [Ordenar por columnas en Power BI Desktop](../create-reports/desktop-sort-by-column.md) para saber cómo actualizar el conjunto de datos y habilitar este tipo de ordenación.
 

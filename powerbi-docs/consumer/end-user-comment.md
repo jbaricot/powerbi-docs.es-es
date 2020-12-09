@@ -8,20 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 12/03/2020
 LocalizationGroup: Consumer
-ms.openlocfilehash: ee053fe000ad85b768ce3d451984f987e3c79e6f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f1265a8eb3fb4a7a1ec18a74c6b3a7d28b3b09ba
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400762"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578254"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Adición de comentarios en un panel o informe
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Agregue un comentario personal o empiece una conversación sobre un panel o informe con sus compañeros. La característica **Comentarios** es solo una de las formas que tiene un *usuario profesional* de colaborar con otros. 
 

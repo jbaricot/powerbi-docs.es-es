@@ -8,20 +8,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/01/2020
+ms.date: 12/06/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: b2fac346b9c75df8b3a6b8faa1f158745ff307a7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2d92e49c09b5b542376cd00c410420b30b835644
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399129"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781851"
 ---
 # <a name="navigation-for-power-bi-business-users-global-search"></a>Navegación para usuarios empresariales de Power BI: búsqueda global
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 
 Cuando comience a trabajar en el servicio Power BI, solo tendrá unos cuantos elementos de contenido (paneles, informes, aplicaciones). Sin embargo, a medida que los compañeros comiencen a compartir contenido con usted y empiece a descargar aplicaciones, puede acabar con largas listas de contenido. En este momento encontrará las funciones de búsqueda y ordenación muy útiles.

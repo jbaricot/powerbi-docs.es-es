@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 12/03/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: c650b7ea282d928af512ce7948902bc4fd72613f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3a1fa1e137cc66fad48102d60869ee8ecd0cba61
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389975"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613863"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Participación en las características en vista versión preliminar del servicio Power BI
 
@@ -24,11 +24,7 @@ ms.locfileid: "96389975"
 ## <a name="what-are-preview-features"></a>¿Qué son las *características de vista previa*?
 A medida que se realizan mejoras en el servicio Power BI, se publican algunas funcionalidades nuevas como *características en versión preliminar*. Las características de vista previa se pueden activar y desactivar, lo que le ofrece la oportunidad de probarlas.
 
-Algunas características en versión preliminar se pueden activar y desactivar desde el panel de Power BI, Inicio o el propio informe. La característica **Nuevo aspecto** en versión preliminar se puede activar y desactivar en la barra de menús de Power BI que se muestra sobre Inicio, los informes y los paneles. 
-
-   ![Botón de alternancia Nuevo aspecto](./media/end-user-preview-features/power-bi-toggle.png)
-
-Por su parte, hay otras características en versión preliminar disponibles en el menú *Configuración*. En este artículo se muestra cómo acceder a las características en versión preliminar a través del menú Configuración.
+Algunas características en versión preliminar se pueden activar y desactivar desde el panel de Power BI, Inicio o el propio informe. Por su parte, hay otras características en versión preliminar disponibles en el menú *Configuración*. En este artículo se muestra cómo acceder a las características en versión preliminar a través del menú Configuración.
 
 ## <a name="find-previews-and-turn-them-on-and-off"></a>Busque versiones preliminares y actívelas (o desactívelas)
 1. Abra el menú Configuración al seleccionar el icono de engranaje de la esquina superior derecha de la pantalla de Power BI y seleccione **Configuración**.

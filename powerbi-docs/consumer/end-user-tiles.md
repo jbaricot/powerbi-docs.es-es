@@ -7,24 +7,23 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/06/2020
+ms.date: 12/06/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 67291ca77b161fab289ee0520287d832cce838f8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 36b1ad58b1ee93f0876de8bf7f7ed7331671abfd
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389538"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781911"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Un icono es una instantánea de los datos, anclada a un panel mediante un *diseñador*. Los *diseñadores* pueden crear iconos desde un informe, un conjunto de datos, un panel, el cuadro de pregunta de Preguntas y respuestas, Excel, SQL Server Reporting Services (SSRS), etc.  Esta captura de pantalla muestra muchos iconos diferentes anclados a un panel.
 
-![Panel de Power BI](./media/end-user-tiles/power-bi-dash.png)
+![Panel de Power BI](./media/end-user-tiles/power-bi-dashboard.png)
 
 
 Además de los iconos anclados de los informes, los *diseñadores* puede agregar iconos independientes directamente en el panel mediante **Agregar icono**. Los iconos independientes incluyen: cuadros de texto, imágenes, vídeos, datos de transmisión y contenido web.

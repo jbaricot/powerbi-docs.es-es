@@ -8,20 +8,19 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/28/2020
+ms.date: 12/03/2020
 LocalizationGroup: Consumers
-ms.openlocfilehash: 13d8eda142896b406269f940823e702b2ca7cb3e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d8b9f11abe639d2892bc199a9f65400e5488dedc
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391033"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578135"
 ---
 # <a name="export-data-from-a-visual"></a>Exportación de datos de un objeto visual
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Para ver los datos que se usan con el fin de crear un objeto visual, [puede mostrar dichos datos en Power BI](end-user-show-data.md) o exportarlos a Excel. La opción para exportar datos requiere un determinado tipo o licencia y permisos de edición para el contenido. Si no puede exportar, consulte con el departamento de soporte técnico de TI o el administrador de Power BI. 
 
@@ -33,7 +32,7 @@ Para exportar datos se requiere una licencia Power BI Pro, o para que el panel
 1. Comience en un panel de Power BI. Aquí vamos a usar el panel de la aplicación ***Ejemplo de marketing y ventas** _. Puede [descargar esta aplicación desde AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
 ).
 
-    ![Panel de aplicaciones](media/end-user-export/power-bi-dashboards.png)
+    ![Panel de aplicaciones](media/end-user-export/power-bi-dashboard.png)
 
 2. Mantenga el puntero sobre un objeto visual para mostrar _ *Más opciones** (...) y haga clic para mostrar el menú de acciones.
 

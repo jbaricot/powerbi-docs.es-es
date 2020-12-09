@@ -9,18 +9,17 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 152d3ee87afe93fdfbe19060a42f013ec83f2d2a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0cf2389b9dafc19519010142079fbb15f6f21711
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389745"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781667"
 ---
 # <a name="reports-in-power-bi"></a>Informes en Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yyn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Un informe de Power BI es una vista de varias perspectivas de un conjunto de datos, con objetos visuales que representan diferentes hallazgos y conclusiones de ese conjunto de datos.  Un informe puede tener un solo objeto visual o páginas llenas de objetos visuales. En función de su rol de trabajo, es posible que sea alguien que *diseña* informes. También puede ser un *usuario profesional* que *consume* o utiliza informes. Este artículo está destinado a *usuarios profesionales*.
 

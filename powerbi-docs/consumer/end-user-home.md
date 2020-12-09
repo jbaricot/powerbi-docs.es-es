@@ -7,14 +7,14 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 11/13/2020
+ms.date: 12/03/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2be9c2c266c489dbb93f5e3f93c3c120cae5c3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9df90a41143ddb6d0657aa0d61dc83f25ecbae1a
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390619"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578085"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Búsqueda de paneles, informes y aplicaciones
 
@@ -42,13 +42,13 @@ En los temas siguientes se revisa cada una de estas opciones para buscar y ver c
 ## <a name="home-canvas"></a>Lienzo Página principal
 En el lienzo Inicio, puede ver todo el contenido que tiene permiso para usar. El lienzo Inicio también se actualiza con contenido recomendado y recursos de aprendizaje. Al principio, es posible que no haya mucho contenido en el lienzo Inicio, pero eso cambia a medida que se empieza a usar Power BI con los compañeros.
 
-![Captura de pantalla en la que se muestra la pantalla de bienvenida para un usuario nuevo del servicio Power BI.](media/end-user-home/power-bi-home-new-user.png)
+![Captura de pantalla en la que se muestra la pantalla de bienvenida para un usuario nuevo del servicio Power BI.](media/end-user-home/power-bi-home-new-users.png)
 
 
  
 A medida que trabaje en el servicio Power BI, recibirá paneles, informes y aplicaciones de compañeros que, finalmente, llenarán la página Inicio de Power BI. Con el tiempo, puede parecerse a la siguiente.
 
-![Captura de pantalla de la pantalla de bienvenida del servicio Power BI.](media/end-user-home/power-bi-experienced-user.png)
+![Captura de pantalla de la pantalla de bienvenida del servicio Power BI.](media/end-user-home/power-bi-experienced-users.png)
 
  
 En los siguientes temas se examina con más detenimiento el lienzo Inicio para un usuario con experiencia, de arriba a abajo.

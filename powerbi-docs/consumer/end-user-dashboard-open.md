@@ -7,20 +7,20 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/27/2020
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e431b6a94b7cd881adba27597aa9cbfa6a54425
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video
+ms.openlocfilehash: 9a78ac3aa63ee65ea0e60a384a41ac4a6544c610
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391217"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578208"
 ---
 # <a name="view-a-dashboard"></a>Visualización de un panel
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Los *usuarios empresariales* de Power BI dedican mucho tiempo a ver paneles. Los paneles están diseñados para resaltar información específica de los informes y los conjuntos de datos subyacentes. Y los usuarios empresariales de Power BI usan esa información con fines de seguimiento, supervisión, respuesta a preguntas, pruebas y mucho más, con el fin de tomar decisiones empresariales motivadas por datos.
 

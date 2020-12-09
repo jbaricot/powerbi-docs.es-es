@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 0bb2e0c249df668378d62f62184dc044d174ce81
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 0ddcf3c54a5bb3cf9259f6c0d18d0001b838df60
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95550686"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577863"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>Tutorial: Automatización de la configuración de la instalación de aplicaciones de plantilla con una función de Azure
 
@@ -57,7 +57,7 @@ Antes de empezar, debe tener lo siguiente:
 
 * Una [entidad de servicio (token de solo aplicación)](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal) registrada en el inquilino anterior.
 
-* Una [aplicación de plantilla parametrizada](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview) lista para la instalación. La aplicación de plantilla se debe crear en el mismo inquilino en el que registre la aplicación en Azure Active Directory (Azure AD). Para obtener más información, vea [Sugerencias de aplicación de plantilla](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) o [Creación de una aplicación de plantilla en Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create).
+* Una [aplicación de plantilla parametrizada](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview) lista para la instalación. La aplicación de plantilla se debe crear en el mismo inquilino en el que registre la aplicación en Azure Active Directory (Azure AD). Para obtener más información, vea [Sugerencias de aplicación de plantilla](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) o [Creación de una aplicación de plantilla en Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create).
 
 * Una **licencia de Power BI Pro.** . Si no está registrado para Power BI Pro, [regístrese para una evaluación gratuita](https://powerbi.microsoft.com/pricing/) antes de comenzar.
 

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: ca5db6ed7a07d5a6fb10133285378e8318527464
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 671fcbabf10666c03f39bc4582e00fa0adbdbd5e
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386101"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578369"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>Configuración automatizada de la instalación de una aplicación de plantilla
 
@@ -55,7 +55,7 @@ Para proporcionar una experiencia de instalación preconfigurada para la aplicac
 
 * Una **entidad de servicio (token de solo aplicación)** registrada en el inquilino anterior. Vea [Inserción de contenido de Power BI con entidades de servicio y un secreto de aplicación](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal) para obtener más información. Asegúrese de registrar la aplicación como una **aplicación web del lado servidor**. Una aplicación web del lado servidor se registra para crear un secreto de aplicación. A partir de este proceso, tendrá que guardar el *Id. de aplicación* (Id. de cliente) y el *Secreto de aplicación* (Secreto de cliente) para los pasos posteriores.
 
-* Una **aplicación de plantilla parametrizada** lista para la instalación. La aplicación de plantilla se debe crear en el mismo inquilino en el que registre la aplicación en Azure Active Directory (Azure AD). Para obtener más información, vea [Sugerencias de aplicación de plantilla](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) o [Creación de una aplicación de plantilla en Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create). En la aplicación de plantilla debe anotar esta información para los pasos siguientes:
+* Una **aplicación de plantilla parametrizada** lista para la instalación. La aplicación de plantilla se debe crear en el mismo inquilino en el que registre la aplicación en Azure Active Directory (Azure AD). Para obtener más información, vea [Sugerencias de aplicación de plantilla](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) o [Creación de una aplicación de plantilla en Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create). En la aplicación de plantilla debe anotar esta información para los pasos siguientes:
      * *Id. de la aplicación*, *clave del paquete* e *identificador del propietario*, tal y como aparecen en la dirección URL de instalación al final del proceso [Definición de las propiedades de la aplicación de plantilla](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) cuando se ha creado la aplicación. También puede obtener el mismo vínculo si hace clic en **Obtener vínculo** en [Administración de versiones](../../connect-data/service-template-apps-create.md#manage-the-template-app-release) de la aplicación de plantilla.
 
     * Los *nombres de parámetro* como se definen en el conjunto de datos de la aplicación de plantilla. Los nombres de parámetro son cadenas que distinguen mayúsculas de minúsculas y también se pueden recuperar en la pestaña **Configuración de parámetros** cuando se [definen las propiedades de la aplicación de plantilla](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app), o bien desde la configuración del conjunto de datos de Power BI.
