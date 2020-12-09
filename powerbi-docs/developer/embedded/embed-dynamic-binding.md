@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: ba63b8be32600428075b9304a5a29fef62a9d6c8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5b386800c37f80e7b33dc55bb691eed6606c04a1
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236853"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906804"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Conexión de un informe a un conjunto de datos mediante el enlace dinámico 
 
@@ -33,7 +33,7 @@ El enlace dinámico se admite en los dos escenarios de inserción: *Inserción d
 |Escenario  |Propiedad de los datos  |Token  |Requisitos  |
 |---------|---------|---------|---------|
 |*Inserción de contenido para la organización*    |El usuario posee los datos         |Token de acceso para usuarios de Power BI         |Se usa el usuario que es el token de Azure AD, debe tener los permisos adecuados para todos los artefactos.         |
-|*Inserción de contenido para los clientes*     |La aplicación posee los datos         |Token de acceso para usuarios que no usen Power BI         |Se deben incluir permisos tanto para el informe como para el conjunto de datos enlazado dinámicamente. Use la [API para generar un token de inserción para varios elementos](embed-sample-for-customers.md#multiEmbedToken) con el fin de admitir varios artefactos.         |
+|*Inserción de contenido para los clientes*     |La aplicación posee los datos         |Token de acceso para usuarios que no usen Power BI         |Se deben incluir permisos tanto para el informe como para el conjunto de datos enlazado dinámicamente. Use la [API para generar un token de inserción para varios elementos](/rest/api/power-bi/embedtoken/generatetoken) con el fin de admitir varios artefactos.         |
 
 ## <a name="adjusting-the-config-object"></a>Ajuste del objeto de configuración
 Agregue `datasetBinding` al objeto de configuración. Use el ejemplo siguiente como referencia.

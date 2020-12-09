@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: 0743a7ac0d12cba8bbde54464a275a78f7c88eff
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: cb7c874fc68da361971c34879f2ea44006402bf4
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396711"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906943"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Obtención de un token de acceso de Azure AD para la aplicación de Power BI
 
@@ -97,7 +97,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 ### <a name="get-an-access-token-from-authorization-code"></a>Obtener un token de acceso del código de autorización
 
-Una vez que **Azure AD** le devuelve a la aplicación web con un **código de autorización** , puede utilizarlo para obtener un token de acceso. A continuación se muestra un ejemplo de C# que se puede usar en la página de redireccionamiento y en el evento `Page_Load` de la página default.aspx.
+Una vez que **Azure AD** le devuelve a la aplicación web con un **código de autorización**, puede utilizarlo para obtener un token de acceso. A continuación se muestra un ejemplo de C# que se puede usar en la página de redireccionamiento y en el evento `Page_Load` de la página default.aspx.
 
 Puede recuperar el espacio de nombres **Microsoft.IdentityModel.Clients.ActiveDirectory** del paquete NuGet [Biblioteca de autenticación de Active Directory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).
 
@@ -206,6 +206,6 @@ Mensaje de error: "AuthenticationContext no contiene una definición para Acquir
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Ahora que tiene el token de acceso, puede llamar a la API de REST de Power BI para insertar contenido. Para obtener información, consulte [Cómo insertar el contenido de Power BI](embed-sample-for-customers.md#embed-content-within-your-application).
+Ahora que tiene el token de acceso, puede llamar a la API de REST de Power BI para insertar contenido.
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

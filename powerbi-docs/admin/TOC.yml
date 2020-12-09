@@ -118,7 +118,7 @@
               href: service-premium-metrics-app.md
             - name: Supervisión de capacidades en el portal de administración
               href: service-admin-premium-monitor-portal.md
-            - name: Configuración de modelos grandes (versión preliminar)
+            - name: Configuración de conjuntos de datos grandes
               href: service-premium-large-models.md
             - name: Configuración de la replicación geográfica
               href: service-admin-premium-multi-geo.md
