@@ -48,6 +48,8 @@
           href: embed-service-principal.md
         - name: Inserción mediante una entidad de servicio y un certificado
           href: embed-service-principal-certificate.md
+        - name: Traslado de una aplicación insertada a producción
+          href: move-to-production.md
         - name: Insertar contenido desde una aplicación
           href: embed-from-apps.md
         - name: Exportar informe a archivo
