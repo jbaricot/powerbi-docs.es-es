@@ -30,10 +30,10 @@
           href: service-tutorial-connect-to-github.md
         - name: Uso de Cognitive Services
           href: service-tutorial-use-cognitive-services.md
-        - name: Integración de Machine Learning
-          href: service-tutorial-invoke-machine-learning-model.md
         - name: Compilación de un modelo de Machine Learning
           href: service-tutorial-build-machine-learning-model.md
+        - name: Consumo de un modelo de Machine Learning en un informe
+          href: service-aml-integrate.md
         - name: Actualización de los datos de SQL Server
           href: service-gateway-sql-tutorial.md
     - name: Conceptos
@@ -56,7 +56,7 @@
               href: service-gateway-power-bi-faq.md
     - name: Guías paso a paso
       items:
-        - name: Conexión a orígenes de datos
+        - name: Conectarse a orígenes de datos
           href: desktop-connect-to-data.md
         - name: Conectar a datos
           items:
@@ -246,7 +246,7 @@
               href: service-admin-troubleshoot-excel-workbook-data.md
             - name: Actualización de las credenciales del paquete de contenido de Xero después de un error de actualización
               href: service-refresh-xero-credentials.md
-        - name: Conectarse a los servicios
+        - name: Conexión a los servicios
           items:
             - name: Conexión a servicios con aplicaciones
               href: service-connect-to-services.md
