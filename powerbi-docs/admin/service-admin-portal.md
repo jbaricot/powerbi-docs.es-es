@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/22/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: c83efa55cc1c35bb7e6fa8e62de3bca228553fe3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9cbb6bb03d9add4324c3fc57a6426435850a001c
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409410"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578185"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -307,7 +307,7 @@ Los usuarios ven diferentes opciones en la interfaz de usuario en función del v
 |---------|---------|---------|---------|
 |**Publicar en la web** en el menú **Más opciones (…)**|Habilitada para todos|No visible para todos|Solo visible para usuarios o grupos autorizados.|
 |**Administrar códigos para insertar** en **Configuración**|Habilitada para todos|Habilitada para todos|Habilitada para todos<br><br>Opción * **Eliminar** solo para usuarios o grupos autorizados.<br>* **Obtener código** habilitada para todos.|
-|**Códigos de inserción** en el portal de administración|El estado refleja uno de los siguientes:<br>* Activo<br>* No admitido<br>* Bloqueado|El estado muestra **Deshabilitado**.|El estado refleja uno de los siguientes:<br>* Activo<br>* No admitido<br>* Bloqueado<br><br>Si el usuario no está autorizado según la configuración del inquilino, el estado muestra **Infracción**.|
+|**Códigos de inserción** en el portal de administración|El estado puede ser uno de los siguientes valores:<br>* Activo<br>* No admitido<br>* Bloqueado|El estado muestra **Deshabilitado**.|El estado puede ser uno de los siguientes valores:<br>* Activo<br>* No admitido<br>* Bloqueado<br><br>Si el usuario no está autorizado según la configuración del inquilino, el estado muestra **Infracción**.|
 |Informes publicados existentes|Todos habilitados|Todos deshabilitados|Los informes continúan generándose para todos.|
 
 ### <a name="copy-and-paste-visuals"></a>Copia y pegado de objetos visuales
@@ -336,7 +336,7 @@ Los usuarios de la organización pueden descargar archivos .pbix e informes pagi
 
 ### <a name="allow-live-connections"></a>Permitir conexiones dinámicas
 
-Los usuarios de la organización pueden usar Live Connect del servicio Power BI. Esto incluye Analizar en Excel.
+Los usuarios de la organización pueden usar Live Connect del servicio Power BI. Cuando las conexiones dinámicas se permiten, los usuarios también pueden usar la opción Analizar en Excel.
 
 ![Captura de pantalla de la opción Permitir conexiones dinámicas.](media/service-admin-portal/powerbi-admin-portal-allow-live-connections-setting.png)
 
@@ -457,7 +457,7 @@ Los usuarios de la organización pueden interactuar con objetos visuales creados
 
 Los usuarios de la organización pueden utilizar la auditoría para supervisar las acciones realizadas en Power BI por otros usuarios de la organización. [Más información](service-admin-auditing.md)
 
-Se debe habilitar esta configuración para que las entradas de registro de auditoría se puedan registrar. Puede haber una demora de hasta 48 horas entre la habilitación de la auditoría y el momento en el que se empiecen a mostrar los datos de auditoría. Si no ve los datos de inmediato, consulte los registros de auditoría más tarde. Puede haber una demora similar entre la obtención de permisos para ver los registros de auditoría y la posibilidad de acceder a estos.
+Se debe habilitar esta configuración para que las entradas de registro de auditoría se puedan registrar. Puede haber una demora de hasta 48 horas entre que se habilita una auditoría y empiezan a aparecer datos de esa auditoría. Si no ve los datos de inmediato, consulte los registros de auditoría más tarde. Puede haber una demora similar entre la obtención de permisos para ver los registros de auditoría y la posibilidad de acceder a estos.
 
 > [!NOTE]
 > Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
@@ -577,10 +577,11 @@ Como administrador, puede ver las áreas de trabajo que existen en el inquilino 
 - Ver los detalles de un área de trabajo, como su identificador, sus usuarios y sus roles, así como sus paneles, informes y conjuntos de datos.
 - Editar la lista de personas que tienen acceso. Esto significa que puede eliminar el área de trabajo. Puede agregarse a un área de trabajo como administrador y, después, abrir el área de trabajo y eliminarla.
 - Editar los campos de nombre y descripción.
+- Actualizar las áreas de trabajo clásicas a la nueva experiencia de área de trabajo.
 
 ![Lista de áreas de trabajo](media/service-admin-portal/workspaces-list.png)
 
-Los administradores también pueden controlar la capacidad de los usuarios para crear áreas de trabajo de la nueva experiencia de área de trabajo, así como áreas de trabajo clásicas. Consulte [Configuración del área de trabajo](#workspace-settings) en este artículo para más información. 
+Los administradores también pueden controlar la capacidad de los usuarios para crear áreas de trabajo de la nueva experiencia de área de trabajo, así como áreas de trabajo clásicas. Consulte [Configuración del área de trabajo](#workspace-settings) en este artículo para más información.
 
 Las columnas de la tabla de la pestaña **Áreas de trabajo** se corresponden con las propiedades que devuelve la [API REST de administración de Power BI](/rest/api/power-bi/admin) para las áreas de trabajo. Las áreas de trabajo personales son de tipo **PersonalGroup**, las clásicas son de tipo **Group** y las áreas de trabajo de la nueva experiencia de áreas de trabajo son de tipo **Workspace**. Para más información, consulte [Organización del trabajo en las nuevas áreas de trabajo](../collaborate-share/service-new-workspaces.md).
 
@@ -596,6 +597,18 @@ En la pestaña **Áreas de trabajo**, verá el *estado* para cada área de traba
 Los administradores también pueden administrar y recuperar áreas de trabajo mediante el portal de administración o cmdlets de PowerShell. 
 
 ![Lista de áreas de trabajo](media/service-admin-portal/workspaces-list.png)
+
+Los administradores pueden actualizar las áreas de trabajo clásicas a la nueva experiencia de área de trabajo. Así, pueden seleccionar una o más áreas de trabajo con el tipo **Grupo** para actualizarlas. Las actualizaciones se ponen en cola y se ejecutan de forma asincrónica. Las actualizaciones **Pendientes** pueden tardar desde varios minutos a varios días en completarse, ya que la frecuencia general de actualizaciones iniciadas por el administrador está limitada para que el servicio se siga ejecutando sin problemas. La columna **Estado de actualización del área de trabajo** sirve para que los administradores lleven un seguimiento del progreso de las actualizaciones iniciadas por el administrador. Los administradores pueden cancelar las actualizaciones iniciadas por el administrador que tengan un estado **Pendiente**. Para actualizar un área de trabajo inmediatamente, póngase en contacto con el administrador del área de trabajo en cuestión y pídale que inicien la actualización a través del panel Configuración del área de trabajo. [Obtenga más información sobre la actualización del área de trabajo antes de iniciar una actualización del área de trabajo iniciada por el administrador de Power BI](../collaborate-share/service-upgrade-workspaces.md).
+
+En la siguiente tabla se proporcionan más detalles sobre el estado de la actualización.
+
+|Estado  |Descripción  |
+|---------|---------|
+| **(En blanco)** | No hay ningún administrador de Power BI actualizando el área de trabajo. |
+| **Pendiente** | El área de trabajo está en cola para actualizarse. La actualización se puede cancelar. |
+| **En curso** | El área de trabajo se está actualizando activamente. La actualización no se puede cancelar. |
+| **Completado** | Un administrador de Power BI actualizó el área de trabajo en los últimos 30 días. Un administrador del área de trabajo puede volver a la opción clásica si lo desea durante los 30 días siguientes a la actualización del área de trabajo. |
+
 
 ## <a name="custom-branding"></a>Personalización de marca
 

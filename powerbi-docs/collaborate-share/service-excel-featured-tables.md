@@ -1,22 +1,22 @@
 ---
-title: Acceso a tablas destacadas de Power BI en Excel (versión preliminar)
-description: En Excel, puede buscar datos de tablas destacadas en conjuntos de datos de Power BI en la galería de tipos de datos.
+title: Acceso a tablas destacadas de Power BI en Excel
+description: En Excel se pueden buscar datos de tablas destacadas en conjuntos de datos de Power BI en la galería de tipos de datos de organización.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/04/2020
+ms.date: 12/07/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 95ccc80a37ad9703c60c82ce928d35b5e301947b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b5f84f67231393dfed78bd9f90142fbd1b4f6c91
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407317"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907054"
 ---
-# <a name="access-power-bi-featured-tables-in-excel-preview"></a>Acceso a tablas destacadas de Power BI en Excel (versión preliminar)
+# <a name="access-power-bi-featured-tables-in-excel-organization-data-types"></a>Acceso a tablas destacadas de Power BI en tipos de datos de organización de Excel
 
 Las *tablas destacadas* son una manera de vincular los datos de Excel con los datos de Power BI. Facilitan la incorporación de datos empresariales a las hojas de Excel. En la Galería de tipos de datos de Excel, puede buscar datos de tablas destacadas en conjuntos de datos de Power BI. En este artículo se explica cómo.
 
@@ -41,11 +41,11 @@ Para buscar datos en una tabla destacada de Power BI, seleccione una celda o un
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-types-more.png" alt-text="Captura de pantalla del icono Más en la Galería de tipos de datos de Excel.":::
 
-Si ve la tabla que está buscando, selecciónela. En caso contrario, seleccione **Más de su organización**. Excel busca una coincidencia en todas las tablas destacadas a las que tenga acceso.
+Si ve la tabla que está buscando, selecciónela. En caso contrario, seleccione **Más de su organización**. Excel muestra todas las tablas destacadas a las que el usuario tiene acceso en el panel.
 
 :::image type="content" source="media/service-excel-featured-tables/excel-more-your-organization.png" alt-text="Captura de pantalla de la selección De su organización (versión preliminar).":::
  
-Excel muestra todas las tablas posibles. En el panel **Selector de datos**, escriba en el cuadro **Filtro** para restringir las opciones. Seleccione la tabla coincidente.
+Excel muestra todas las tablas destacadas a las que el usuario tiene acceso. En el panel **Selector de datos**, escriba en el cuadro **Filtro** para restringir las opciones. Seleccione la tabla que quiera usar.
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-selector-store.png" alt-text="Captura de pantalla de datos de la organización de Excel, tabla de tipo de datos Proveedores.":::
  
@@ -120,15 +120,13 @@ También puede actualizar celdas individuales. Haga clic con el botón derecho e
 
 ## <a name="licensing"></a>Licencias
 
-La galería de tipos de datos de Excel y las experiencias conectadas a las tablas destacadas de Power BI solo están disponibles para los clientes de Excel E5 y G5. 
+La galería de tipos de datos de Excel y las experiencias conectadas a las tablas destacadas de Power BI están disponibles para los suscriptores de Excel con un plan de servicio Power BI Pro. 
 
 ## <a name="security"></a>Seguridad
 
 Solo verá las tablas destacadas de los conjuntos de datos a los que tiene permiso en Power BI. Al actualizar los datos, debe tener permiso de acceso al conjunto de datos en Power BI para recuperar las filas. Necesita [permiso de compilación o de escritura en el conjunto de datos](../connect-data/service-datasets-build-permissions.md) de Power BI.
  
 Excel almacena en caché los datos devueltos para toda la fila. Cualquier persona con la que comparta el archivo de Excel puede ver los datos de todos los campos en todas las celdas vinculadas.
-
-Si un conjunto de datos de Power BI tiene una seguridad de nivel de fila o una etiqueta de confidencialidad de Microsoft Information Protection aplicada, las tablas destacadas de ese conjunto de datos no se incluyen en la galería de tipos de datos de Excel. Esta es una limitación de la versión preliminar inicial.
 
 ## <a name="administrative-control"></a>Control administrativo
 
@@ -145,28 +143,25 @@ Para una lista completa de los eventos de registro de auditoría, consulte [Segu
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
-A continuación se indican las limitaciones de la versión preliminar inicial:
+Estas son las limitaciones actuales:
 
-- La integración está disponible en las compilaciones de Excel Insider.
-- La galería de tipos de datos de Excel incluye tablas destacadas para los usuarios con la licencia adecuada en el servicio Power BI y Power BI Desktop. Es posible que la compatibilidad con el servicio Power BI no esté disponible en el momento del lanzamiento de la versión preliminar, pero se agregará.
+- La integración está disponible en Excel en el canal actual.
 - En Excel no se muestran las tablas destacadas de los conjuntos de datos de Power BI que usan las funcionalidades siguientes: 
 
-    - Conjuntos de datos de seguridad de nivel de fila.
-    - Conjuntos de datos habilitados para Microsoft Information Protection.
     - Conjuntos de datos de DirectQuery.
     - Conjuntos de datos con una conexión dinámica.
 
-- Excel solo muestra los datos en las columnas y las columnas calculadas en la tabla destacada. Los siguientes elementos no se proporcionan en la versión preliminar inicial:
+- Excel solo muestra datos en columnas, columnas calculadas y mediciones definidas en la tabla destacada. No se proporciona lo siguiente:
+   
+    - Medidas definidas en las tablas relacionadas
+    - Medidas implícitas calculadas a partir de relaciones
 
-    - Medidas definidas en la tabla destacada.
-    - Medidas definidas en las tablas relacionadas y medidas implícitas calculadas a partir de las relaciones.
-
-- Excel solo muestra las tablas destacadas (*tipos de datos*) que se almacenan en las áreas de trabajo nuevas de Power BI. Las tablas destacadas almacenadas en las áreas de trabajo clásicas o en Mi área de trabajo no se muestran como tipos de datos en Excel. Puede [actualizar las áreas de trabajo clásicas a las áreas de trabajo nuevas](service-upgrade-workspaces.md) en Power BI.
+- Excel solo muestra las tablas destacadas (*tipos de datos*) que se almacenan en las áreas de trabajo nuevas de Power BI. Las tablas destacadas almacenadas en las áreas de trabajo clásicas no se muestran como tipos de datos en Excel. Puede [actualizar las áreas de trabajo clásicas a las áreas de trabajo nuevas](service-upgrade-workspaces.md) en Power BI.
 
 La experiencia de los tipos de datos en Excel es similar a la de una función de búsqueda. Toma un valor de celda proporcionado por la hoja de Excel y busca filas coincidentes en las tablas destacadas de Power BI. La experiencia de búsqueda tiene estos comportamientos:
 
-- Al usar el botón **Datos de la organización** para realizar búsquedas, Excel solo busca tablas destacadas en los conjuntos de datos de Power BI.
-- La coincidencia de filas se basa en las columnas de texto de la tabla destacada. Usa la misma indexación que la funcionalidad de preguntas y respuestas de Power BI, que está optimizada para una búsqueda en inglés. La búsqueda en otros idiomas podría no generar coincidencias precisas. Las columnas numéricas no toman en cuenta para la coincidencia.
+- La coincidencia de filas se basa en las columnas de texto de la tabla destacada. Usa la misma indexación que la funcionalidad de preguntas y respuestas de Power BI, que está optimizada para una búsqueda en inglés. La búsqueda en otros idiomas podría no generar coincidencias precisas. 
+- La mayoría de las columnas numéricas no se tienen en cuenta para hallar coincidencias. Si la etiqueta de fila o la columna clave son numéricas, se incluyen para la búsqueda de coincidencias.
 - La coincidencia se basa en las coincidencias exacta y de prefijo para los términos de búsqueda individuales. El valor de una celda se divide en función de los espacios u otros caracteres de espacio en blanco, como los caracteres de tabulación. Luego, cada palabra se considera un término de búsqueda. Los valores de campo de texto de una fila se comparan con cada término de búsqueda para buscar coincidencias exactas y de prefijo. Se devuelve una coincidencia de prefijo si el campo de texto de la fila comienza con el término de búsqueda. Por ejemplo, si una celda contiene "Reino Unido", "Reino" y "Unido" son términos de búsqueda distintos. 
 
     - Se devuelven las filas con columnas de texto cuyos valores coinciden exactamente con "Reino" o "Unido". 
@@ -174,10 +169,11 @@ La experiencia de los tipos de datos en Excel es similar a la de una función de
     - Y hay que considerar que no se devuelven las filas que incluyen "Reino" o "Unido", pero que no empiezan con esos términos.
 
 - Power BI devuelve como máximo 100 sugerencias de fila para cada celda.
-- No se admite establecer ni actualizar la tabla destacada en el punto de conexión de XMLA.
+- Algunos símbolos no se pueden usar.
+- En los puntos de conexión XMLA no se puede establecer ni actualizar la tabla destacada.
 - Los archivos de Excel con un modelo de datos se pueden usar para publicar tablas destacadas. Cargue los datos en Power BI Desktop y, a continuación, publique la tabla destacada.
 - Cambiar el nombre de la tabla, la etiqueta de la fila o la columna clave de la tabla destacada puede afectar a los usuarios de Excel con celdas vinculadas a las filas de la tabla. 
-- Excel muestra cuando se recuperaron los datos del conjunto de datos de Power BI. Esto no es necesariamente la hora en que los datos se han actualizado en Power BI ni la hora del punto de datos más reciente en un conjunto de datos. Por ejemplo, suponga que un conjunto de datos de Power BI se actualizó hace una semana, pero los datos de origen subyacentes tenían ya una semana cuando se produjo la actualización. Los datos reales tendrían dos semanas, pero Excel mostraría los datos recuperados con la fecha y hora en que los datos se han extraído en Excel.
+- Excel muestra cuando se recuperaron los datos del conjunto de datos de Power BI. Esto no es necesariamente la hora en que los datos se han actualizado en Power BI ni la hora del punto de datos más reciente en un conjunto de datos. Por ejemplo, suponga que un conjunto de datos de Power BI se actualizó hace una semana, pero los datos de origen subyacentes tenían ya una semana cuando se produjo la actualización. Los datos reales tendrían dos semanas, pero Excel mostraría los datos recuperados con la fecha y hora en que los datos se han extraído en Excel. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 

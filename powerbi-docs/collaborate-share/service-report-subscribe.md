@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/01/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 384ce5efc28355ea238d5782dd1553901097e0f2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9d9d628ea2d478eb6a09ae8ca53b98837349a224
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411687"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613836"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
@@ -28,14 +28,14 @@ Tanto usted como sus compañeros de trabajo pueden suscribirse a las páginas de
 - Incluir datos adjuntos del informe completo, si se va a suscribir a un informe paginado.
 - Enviar un correo electrónico a los usuarios fuera del inquilino, si el contenido de Power BI se hospeda en una capacidad Premium.  Los administradores pueden controlar el acceso a quién puede enviar suscripciones de correo electrónico a usuarios externos mediante la configuración de control de uso compartido externo existente en el centro de administración de Power BI.
 
-![Instantánea del panel por correo electrónico](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
+![Instantánea del panel por correo electrónico](media/service-report-subscribe/power-bi-dashboard-email-new.jpg)
 
 ## <a name="requirements"></a>Requisitos
 
 La **creación** de una suscripción puede hacerse por:
 
-- Usuarios con una licencia de Power BI Pro 
-- Los usuarios que ven contenido en un área de trabajo o aplicación Premium también pueden suscribirse al contenido que se encuentra allí, incluso sin una licencia Power BI Pro. 
+- Usuarios con una licencia de Power BI Pro
+- Los usuarios que ven contenido en un área de trabajo o aplicación Premium también pueden suscribirse al contenido que se encuentra allí, incluso sin una licencia Power BI Pro.
 
 No necesita permisos de edición para el contenido (panel o informe) para crear una suscripción personal, pero debe tener permisos de edición para crear una para otro usuario.
 
@@ -44,12 +44,12 @@ No necesita permisos de edición para el contenido (panel o informe) para crear 
 El proceso de suscripción a un panel, un informe o un informe paginado es similar. El mismo botón permite suscribirse a los paneles e informes del servicio Power BI.
 
 La suscripción a informes paginados varía un poco. Para obtener más información, consulte [Suscripción personal y de otros usuarios a un informe paginado en el servicio Power BI](../consumer/paginated-reports-subscriptions.md).
- 
+
 ![Selección del icono de suscripción](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. Abra el panel o el informe.
 2. En la barra de menús superior, seleccione **Suscribirse** o el icono de sobre :::image type="icon" source="media/service-report-subscribe/power-bi-icon-envelope.png" border="false":::.
-   
+
     ![Icono de suscripción](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
 1. Use el control deslizante amarillo para activar y desactivar la suscripción. Establecer el control deslizante en **Desactivado** no elimina la suscripción. Para eliminarla, seleccione el icono de papelera.
@@ -65,8 +65,8 @@ La suscripción a informes paginados varía un poco. Para obtener más informaci
 6. De forma predeterminada, la fecha de inicio para la suscripción es la fecha en la que la ha creado. Tiene la opción de seleccionar una fecha de finalización. Si no establece una fecha de finalización, automáticamente será un año después de la fecha de inicio. Puede cambiarla a cualquier fecha en el futuro (hasta el año 9999) en cualquier momento antes de que finalice la suscripción. Cuando una suscripción alcanza una fecha de finalización, se detiene hasta que vuelva a habilitarla. Recibirá notificaciones antes de la fecha de finalización programada para preguntarle si quiere ampliarla.
 
     En la captura de pantalla siguiente, tenga en cuenta que, cuando se suscribe a un informe, realmente se está suscribiendo a una de sus _páginas_. Para suscribirse a más de una página de un informe, seleccione **Agregar otra suscripción** y luego otra página.
-     
-    ![Panel de suscripción](media/service-report-subscribe/power-bi-subscribe-pane.png)  
+
+    ![Panel de suscripción](media/service-report-subscribe/power-bi-subscribe-pane.png)
 
 1. (Opcional) Seleccione si quiere incluir un vínculo de vuelta al contenido en Power BI y si quiere proporcionar a los usuarios acceso al contenido al que les suscribe.  Si decide incluir un vínculo, para obtener la mejor experiencia, asegúrese de que todos los usuarios tengan acceso al informe.
 2. Seleccione **Guardar y cerrar**. Los que se hayan suscrito reciben un correo electrónico y una instantánea de la página de panel o informe para la frecuencia y la hora que se hayan seleccionado. En total, puede crear hasta 24 suscripciones por informe o panel, y pueden proporcionar destinatarios, horas y frecuencias únicos para cada suscripción. Todas las suscripciones establecidas en **Tras la actualización de los datos** para el informe o panel solo enviarán un correo electrónico después de la primera actualización programada.
@@ -102,7 +102,7 @@ Los administradores de Power BI pueden usar los registros de auditoría de Powe
 - Contenido suscrito a
 - Recipients
 - Frecuencia
-- Modificado por/
+- Modificado por
 - Fecha de modificación
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
@@ -118,7 +118,7 @@ Los administradores de Power BI pueden usar los registros de auditoría de Powe
     - Aunque tenga una licencia de Power BI Pro, es posible que no tenga una licencia de Microsoft Exchange. Si ese no es el caso, es posible que la cuenta de Azure Active Directory no tenga especificado un correo electrónico o una dirección de correo electrónico alternativa. En este caso, aunque la suscripción parezca salir, nunca recibirá una copia.  Si el administrador de Power BI asigna una dirección de correo electrónico, Power BI sincronizará la actualización la próxima vez que inicie sesión y usará esa dirección de correo electrónico para la suscripción.
 
 - Si el panel o el informe están en la capacidad Premium, puede usar el alias de correo electrónico del grupo para las suscripciones en lugar de suscribir las direcciones de correo electrónico de sus compañeros de trabajo de una en una. Los alias se basan en el directorio actual de Active Directory.
-- Si el contenido no se encuentra en una capacidad Premium, solo los usuarios de Power BI Pro pueden recibir suscripciones por correo electrónico. 
+- Si el contenido no se encuentra en una capacidad Premium, solo los usuarios de Power BI Pro pueden recibir suscripciones por correo electrónico.
 - Las suscripciones no admiten marcadores actualmente.
 - La opción de proporcionar acceso al informe o panel siempre aparece como habilitada al editar una suscripción existente.  Si desactiva esta opción y guarda la suscripción, se guardará ese estado. Pero al volver a editar el informe, se activará de forma predeterminada.
 - Si tiene una dirección de correo electrónico alternativa pero no una principal, Power BI la usará para entregar la suscripción.
@@ -141,9 +141,18 @@ Los administradores de Power BI pueden usar los registros de auditoría de Powe
 - En la actualidad, las suscripciones de correo electrónico no admiten los objetos visuales personalizados con la tecnología de R.
 - Las suscripciones de correo electrónico se envían con los estados de segmentación y filtros predeterminados del informe. En el correo electrónico no se muestran los cambios en los valores predeterminados que realice tras suscribirse. Los informes paginados admiten esta función y le permiten establecer valores de parámetro específicos por suscripción.
 - Supongamos que tiene un informe con una conexión dinámica a Analysis Services y tiene la suscripción establecida para ejecutarse después de la actualización de datos. Se ejecutará la primera vez que el servicio Power BI detecte un cambio en el modelo local al sondear la instancia de Analysis Services.  Power BI revisa cada hora si hay un cambio en el modelo de datos de Analysis Services para determinar cuándo se debe enviar la suscripción.
+- La característica de datos adjuntos de informe completo está disponible en aquellos informes que cumplan estas tres condiciones:
+
+    - El informe está en un área de trabajo actualizada con [Power BI Premium o Premium por usuario](../admin/service-premium-what-is.md). 
+    - El archivo de datos adjuntos tiene un tamaño inferior a 25 MB.
+    - El informe tiene menos de 20 páginas. 
+    
+    Si el informe no cumple estas tres condiciones, no será posible crear suscripciones con informes completos como datos adjuntos. Cualquier suscripción existente con informes completos como datos adjuntos se deshabilitará, y el usuario recibirá un correo electrónico donde se explica el error:
+    
+    :::image type="content" source="media/service-report-subscribe/full-report-attachment-error-email.png" alt-text="Correo electrónico de error de datos adjuntos de informe completo":::
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Suscripción personal y de otros usuarios a un informe paginado en el servicio Power BI](../consumer/paginated-reports-subscriptions.md)
-- ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)    
-- [Leer la entrada del blog](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
+- [Informes paginados en el servicio Power BI: Suscripción personal y de otros usuarios](../consumer/paginated-reports-subscriptions.md)
+- ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- Lea la [entrada del blog de Power BI sobre las suscripciones de correo electrónico para paneles](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/).

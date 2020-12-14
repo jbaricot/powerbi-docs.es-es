@@ -9,12 +9,12 @@ ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 11/11/2020
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 834df274d4cc75af1087ab4fa7d24c2fd7dd4fec
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ced861f0d229153866c1d52616494f8b444220ae
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416011"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536493"
 ---
 # <a name="using-the-field-list-in-power-bi-desktop-preview"></a>Uso de la lista de campos en Power BI Desktop (versión preliminar)
 
@@ -55,6 +55,8 @@ En la tabla siguiente se muestran las actualizaciones de la lista de campos.
 |![menú contextual original para la tabla](media/desktop-field-list/field-list-03a.png)     |![nuevo menú contextual para la tabla](media/desktop-field-list/field-list-03b.png)    |
 |**Información sobre herramientas**       ||
 |![información sobre herramientas original](media/desktop-field-list/field-list-04a.png)     |![nueva información sobre herramientas](media/desktop-field-list/field-list-04b.png)    |
+
+## <a name="field-list-icons"></a>Iconos de la lista de campos
 
 También hay nuevos iconos en la lista de campos. En la tabla siguiente se muestran los iconos originales y su nuevo equivalente, y se proporciona una breve descripción de cada uno. 
 

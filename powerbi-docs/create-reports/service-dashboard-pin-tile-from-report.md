@@ -8,14 +8,14 @@ featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/23/2019
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5aa34834df49d54be885d94a1a1c06e13891ead1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ad3a38fa8aef4f5404196213ebd3c7b26d3fc3b8
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417345"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578415"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Anclaje de un icono a un panel de Power BI desde un informe
 
@@ -58,10 +58,12 @@ Otra opción es anclar una página de informe completa a un panel, que es una ma
 
 Para más información, consulte [Anclar una página de informe completa](service-dashboard-pin-live-tile-from-report.md).
 
-> [!NOTE]
-> Algunas opciones de formato no se aplican a los objetos visuales cuando están anclados a un panel. La configuración de borde, sombra y fondo se omitirá en el icono anclado. En el caso de los objetos visuales de tarjeta, el texto utilizado para el valor siempre se muestra en los paneles mediante la familia de fuentes "DIN". 
-> 
->
+## <a name="limitations"></a>Limitaciones
+Algunos temas u opciones de formato de informes no se aplican a los objetos visuales cuando se anclan a un panel.
+- La configuración de borde, sombra y fondo se omite en el icono anclado.
+- En el caso de los objetos visuales de tarjeta, el texto usado como valor se muestra en los paneles mediante la familia de fuentes "DIN", en texto de color negro. Para cambiar el color del texto de todos los iconos en un panel, hay que [crear un tema de panel personalizado](service-dashboard-themes.md).
+- El formato condicional no se aplica.
+- El tamaño de los objetos visuales se ajustará para encajar en el tamaño del icono. Esto puede dar lugar a diferencias de diseño, como si el tamaño del objeto visual se hubiera cambiado en el informe.
 
 ## <a name="next-steps"></a>Pasos siguientes
 - [Dashboards for Power BI service consumers](../consumer/end-user-dashboards.md) (Paneles para los consumidores del servicio Power BI)

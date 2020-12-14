@@ -7,20 +7,19 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/26/2020
+ms.date: 12/03/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: ec56f15386aeddafa74d952ce772aa3dcce4f901
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa199547f6cad0b7d4dbfc6b75e9d9e25b2b153
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391493"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578346"
 ---
 # <a name="what-are-bookmarks"></a>¿Qué son los marcadores?
 
 [!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Los marcadores capturan la vista configurada actual de una página de informe, incluidos los filtros, las segmentaciones y el estado de los objetos visuales. Al seleccionar un marcador, Power BI lleva de vuelta a esa vista. Hay dos tipos de marcadores: los que crea el usuario y los creados por *diseñadores* de informes. Cualquier usuario de Power BI puede crear marcadores personales, pero para poder usar los marcadores creados por otros usuarios, se necesita una licencia de Power BI Pro o Premium. [¿Qué licencia tengo?](end-user-license.md)
 
@@ -30,6 +29,16 @@ Los marcadores tienen muchos usos. Imagine que descubre algo interesante y quier
 También puede crear una colección de marcadores, organizarlos en el orden que quiera y, posteriormente, usarlos en una presentación para resaltar una serie de informaciones que cuentan una historia.  
 
 ![Vista del panel Marcadores al seleccionarlo en la cinta.](media/end-user-bookmarks/power-bi-bookmark-icon.png)
+
+Comparta el informe marcado con los compañeros que también tengan acceso de lectura al informe. La vista marcada del informe no invalida el informe original del diseñador.  Compartirlo con los compañeros que todavía no tienen acceso de lectura requiere permisos para volver a compartirlo. Si no puede compartir la vista del informe, póngase en contacto con el propietario del informe para pedirle permiso para volver a compartirlo.  
+
+
+### <a name="share-changes"></a>Compartir cambios 
+Si tiene permisos para leer y volver a compartir, cuando comparta el informe podrá elegir incluir los cambios.
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-share-changes.png" alt-text="Compartir cambios":::
+ 
+
 
 ## <a name="open-bookmarks"></a>Apertura de marcadores
 Para abrir el panel Marcadores, seleccione **Marcadores** > **Mostrar más marcadores** en la barra de menús. 
@@ -164,17 +173,22 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 -->
 
 
+### <a name="reset-all-your-changes-to-a-report"></a>Restablecer todos los cambios en un informe
+
+En la esquina superior derecha del lienzo del informe, seleccione **Restablecer valores predeterminados**. Esta acción quitará todos los cambios de dicho informe y lo restablecerá a la última vista que guardó el autor del informe.
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-reset-all.png" alt-text="Restablecer todos los cambios":::
 
 
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 En esta versión de los **marcadores** hay algunas limitaciones y consideraciones que debe tener en cuenta.
 
-* La mayoría de los objetos visuales de Power BI deben funcionar bien con los marcadores. Si experimenta problemas con los marcadores y un objeto visual de Power BI, póngase en contacto con el creador de ese objeto visual y pídale que haga los marcadores compatibles con su objeto visual.
+* La mayoría de los objetos visuales personalizados de Power BI deberían funcionar bien con los marcadores. Si experimenta problemas con marcadores y un objeto visual personalizado de Power BI, póngase en contacto con el creador de ese objeto visual personalizado y pídale que haga los marcadores compatibles.    
 * Si agrega un objeto visual en una página de informe después de crear un marcador, se mostrará el objeto visual en su estado predeterminado. Esto también significa que si se introduce una segmentación de datos en una página en la que previamente creó marcadores, la segmentación de datos se comportará según su estado predeterminado.
 * Por lo general, los marcadores no se ven afectados si el *diseñador* del informe lo actualiza o lo vuelve a publicar. Pero si realiza cambios importantes en el informe, como quitar campos usados por un marcador, se recibe un mensaje de error la siguiente vez que se intenta abrir ese marcador. 
+* Esta característica se admite en las aplicaciones móviles de Power BI para tabletas iOS y Android, así como en su versión para Windows; no se admite en las aplicaciones móviles de Power BI para teléfonos. Pero cualquier cambio en un objeto visual que guarde en un marcador personal mientras se encuentre en el servicio Power BI se respetará en todas las aplicaciones móviles de Power BI.
 
-<!--
-## Next steps
-spotlight?
--->
+
+## <a name="next-steps"></a>Pasos siguientes
+[Personalización de objetos visuales en un informe](end-user-personalize-visuals.md)

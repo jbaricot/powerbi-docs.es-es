@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 17c0a4d0809aa87f50225e0c59ca3962776bd2b1
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 41b8cfe8515efbf3cc42794afcb2562f7d0c171a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514517"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907104"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Inserción de contenido de Power BI con entidades de servicio y un secreto de aplicación
 
@@ -170,7 +170,7 @@ Agregue el grupo de seguridad que ha creado en Azure AD a la sección de grupos
 >Para restringir el acceso de la entidad de servicio a una configuración de inquilino específica, permita el acceso únicamente a grupos de seguridad específicos. También puede crear un grupo de seguridad dedicado para entidades de servicio y excluirlo de la configuración de inquilino que desee.
 
 >[!div class="mx-imgBorder"]
->:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="Captura de pantalla que muestra la configuración del desarrollador en las opciones de administración en el portal de Power BI.":::
+>:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="Captura de pantalla que muestra la configuración del desarrollador en las opciones de administración del servicio Power BI":::
 
 ## <a name="step-4---add-the-service-principal-to-your-workspace"></a>Paso 4: Adición de la entidad de servicio al área de trabajo
 
@@ -195,12 +195,9 @@ Para permitir que la aplicación de Azure AD acceda a artefactos como informes,
 
 ## <a name="step-5---embed-your-content"></a>Paso 5: Inserción del contenido
 
-Puede insertar el contenido en una aplicación de ejemplo o en una aplicación propia.
+Puede [insertar el contenido en una aplicación de ejemplo](embed-sample-for-customers.md) o en una propia.
 
-* [Inserción de contenido mediante la aplicación de ejemplo](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-* [Inserción de contenido en una aplicación propia](embed-sample-for-customers.md#embed-content-within-your-application)
-
-Una vez insertado el contenido, está listo para [pasar a producción](embed-sample-for-customers.md#move-to-production).
+Una vez insertado el contenido, está listo para [pasar a producción](move-to-production.md).
 
 >[!NOTE]
 >Para proteger la solución mediante un certificado, siga los pasos descritos en [Inserción de contenido de Power BI con entidades de servicio y un certificado](embed-service-principal-certificate.md).

@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/21/2020
+ms.date: 12/04/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6fc8dba8e4cdcb8d8ff38c00f3e477902fe8234e
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: c48abec54e62625a7e32bb33f773995cdb8a3c47
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349469"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613909"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>Uso de Kerberos para el inicio de sesión único (SSO) en SAP BW con gx64krb5
 
 En este artículo se describe cómo configurar el origen de datos de SAP BW para habilitar el inicio de sesión único del servicio Power BI con gx64krb5.
 
 > [!IMPORTANT]
-> SAP ya no admite gx64krb5 y, como resultado, Microsoft también ha dejado de ofrecer soporte técnico. Las conexiones nuevas y existentes seguirán funcionando correctamente hasta el final de 2020, pero dejarán de funcionar a partir del 1 de enero de 2021. Use en su lugar CommonCryptoLib. 
+> SAP ya no admite gx64krb5 en las puertas de enlace de datos locales en Power BI y, como tal, Microsoft también ha dejado de ofrecer soporte técnico para poder usar gx64krb5 en este escenario. Las conexiones existentes seguirán funcionando, pero a partir de febrero de 2021 no se podrán crear conexiones en este escenario. Use en su lugar CommonCryptoLib. 
 
 > [!NOTE]
 > Puede completar los pasos de este artículo junto con los de [Configuración del SSO de Kerberos](service-gateway-sso-kerberos.md) para permitir la actualización basada en SSO de los informes basados en el servidor de aplicaciones de SAP BW en el servicio Power BI. Pero Microsoft recomienda el uso de CommonCryptoLib, no de gx64krb5, como biblioteca de SNC. SAP ya no es compatible con gx64krb5 y los pasos necesarios para configurarlo para la puerta de enlace son mucho más complejos en comparación con CommonCryptoLib. Para más información sobre la configuración del inicio de sesión único mediante CommonCryptoLib, consulte [Configuración de SAP BW para el inicio de sesión único con CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md). Use CommonCryptoLib *o* gx64krb5 como biblioteca de SNC, pero no ambos. No complete los pasos de configuración para ambas bibliotecas.
@@ -43,7 +43,7 @@ Tanto el cliente como el servidor deben usar la biblioteca gx64krb5 para que se 
 
     Consulte la [documentación de SAP](https://launchpad.support.sap.com/#/notes/2115486) (es necesario ser usuario-s de SAP) para más información sobre la configuración de gx64krb5.dll para su uso con un servidor de SAP BW.
 
-1. En las máquinas del cliente y del servidor, establezca las variables de entorno **SNC_LIB** y **SNC_LIB_64** : 
+1. En las máquinas del cliente y del servidor, establezca las variables de entorno **SNC_LIB** y **SNC_LIB_64**: 
     - Si usa gsskrb5.dll, establezca la variable **SNC_LIB** en su ruta de acceso absoluta. 
     - Si utiliza gx64krb5.dll, establezca la variable **SNC_LIB_64** en su ruta de acceso absoluta.
 
@@ -62,23 +62,23 @@ Complete esta sección si todavía no ha configurado el servidor de SAP BW para
 
     1. Haga doble clic en el grupo Administrador local y haga clic en **Agregar** para agregar el usuario del servicio al grupo. 
 
-    1. Seleccione **Check Names** (Comprobar nombres) para asegurarse de que ha escrito el nombre correctamente y seleccione **Aceptar** .
+    1. Seleccione **Check Names** (Comprobar nombres) para asegurarse de que ha escrito el nombre correctamente y seleccione **Aceptar**.
 
 1. Establezca el usuario de servicio del servidor de SAP BW como el usuario que inicia el servicio del servidor de SAP BW en la máquina del servidor de SAP BW:
 
-    1. Abra **Ejecutar** y escriba **Services.msc** . 
+    1. Abra **Ejecutar** y escriba **Services.msc**. 
 
-    1. Busque el servicio correspondiente a la instancia del servidor de aplicaciones SAP BW, haga clic en él con el botón derecho y seleccione **Propiedades** .
+    1. Busque el servicio correspondiente a la instancia del servidor de aplicaciones SAP BW, haga clic en él con el botón derecho y seleccione **Propiedades**.
 
         ![Captura de pantalla de Servicios, con Propiedades resaltado](media/service-gateway-sso-kerberos/server-properties.png)
 
     1. Cambie a la pestaña **Inicio de sesión** y sustituya el usuario por el usuario del servicio de SAP BW. 
 
-    1. Escriba la contraseña del usuario y seleccione **Aceptar** .
+    1. Escriba la contraseña del usuario y seleccione **Aceptar**.
 
 1. En el inicio de sesión de SAP, inicie sesión el servidor y establezca los siguientes parámetros de perfil mediante la transacción RZ10:
 
-    1. Establezca el parámetro de perfil **snc/identity/as** en *p:&lt;usuario de servicio de SAP BW que ha creado&gt;* . Por ejemplo, *p:BWServiceUser\@MYDOMAIN.COM* . Tenga en cuenta que *p:* precede al UPN del usuario de servicio, en lugar de *p:CN=* , que precede al UPN al usarse CommonCryptoLib como biblioteca de SNC.
+    1. Establezca el parámetro de perfil **snc/identity/as** en *p:&lt;usuario de servicio de SAP BW que ha creado&gt;* . Por ejemplo, *p:BWServiceUser\@MYDOMAIN.COM*. Tenga en cuenta que *p:* precede al UPN del usuario de servicio, en lugar de *p:CN=* , que precede al UPN al usarse CommonCryptoLib como biblioteca de SNC.
 
     1. Establezca el parámetro de perfil **snc/gssapi\_lib** en *&lt;ruta de acceso a gx64krb5.dll en el servidor de BW&gt;* . Coloque la biblioteca en una ubicación a la cual pueda acceder el servidor de aplicaciones de SAP BW.
 
@@ -111,9 +111,9 @@ Si todavía no lo ha hecho, asigne un usuario de Active Directory a un usuario 
 
     ![Pantalla de mantenimiento de usuario de SAP BW](media/service-gateway-sso-kerberos/user-maintenance.png)
 
-1. Seleccione la pestaña **SNC** . En el cuadro de entrada del nombre de SNC, escriba *p:&lt;su usuario de Active Directory&gt;@&lt;su dominio&gt;* . Para el nombre de SNC, la *p:* obligatoria debe preceder al UPN del usuario de Active Directory. Tenga en cuenta que el UPN distingue mayúsculas de minúsculas.
+1. Seleccione la pestaña **SNC**. En el cuadro de entrada del nombre de SNC, escriba *p:&lt;su usuario de Active Directory&gt;@&lt;su dominio&gt;* . Para el nombre de SNC, la *p:* obligatoria debe preceder al UPN del usuario de Active Directory. Tenga en cuenta que el UPN distingue mayúsculas de minúsculas.
 
-   El usuario de Active Directory que especifique debe pertenecer a la persona u organización para la cual quiere habilitar el acceso SSO al servidor de aplicaciones de SAP BW. Por ejemplo, si quiere habilitar el acceso de inicio de sesión único para el usuario testuser\@TESTDOMAIN.COM, escriba *p:testuser\@TESTDOMAIN.COM* .
+   El usuario de Active Directory que especifique debe pertenecer a la persona u organización para la cual quiere habilitar el acceso SSO al servidor de aplicaciones de SAP BW. Por ejemplo, si quiere habilitar el acceso de inicio de sesión único para el usuario testuser\@TESTDOMAIN.COM, escriba *p:testuser\@TESTDOMAIN.COM*.
 
     ![Pantalla Maintain users (Mantener usuarios) de SAP BW](media/service-gateway-sso-kerberos/maintain-users.png)
 
@@ -137,7 +137,7 @@ Compruebe que puede iniciar sesión en el servidor mediante el inicio de sesión
 
 1. Haga clic con el botón derecho en la nueva conexión, seleccione **Properties** (Propiedades) y la pestaña **Network** (Red). 
 
-1. En el cuadro de texto **SNC Name** (Nombre de SNC), escriba *p:&lt;UPN del usuario de servicio de SAP BW&gt;* . Por ejemplo, *p:BWServiceUser\@MYDOMAIN.COM* . Seleccione **Aceptar** .
+1. En el cuadro de texto **SNC Name** (Nombre de SNC), escriba *p:&lt;UPN del usuario de servicio de SAP BW&gt;* . Por ejemplo, *p:BWServiceUser\@MYDOMAIN.COM*. Seleccione **Aceptar**.
 
     ![Pantalla System Entry Properties (Propiedades de la entrada del sistema)](media/service-gateway-sso-kerberos/system-entry-properties.png)
 
@@ -155,13 +155,13 @@ Agregue las entradas del registro necesarias al registro de la máquina en la qu
 
 ## <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service-or-edit-an-existing-one"></a>Incorporación de un nuevo origen de datos de servidor de aplicaciones de SAP BW en el servicio Power BI o edición de uno existente
 
-1. En la ventana de configuración del origen de datos, especifique el **nombre de host** , el **número del sistema** y el **ID de cliente** del servidor de aplicaciones de SAP BW como si fuera a iniciar sesión el servidor de SAP BW desde Power BI Desktop.
+1. En la ventana de configuración del origen de datos, especifique el **nombre de host**, el **número del sistema** y el **ID de cliente** del servidor de aplicaciones de SAP BW como si fuera a iniciar sesión el servidor de SAP BW desde Power BI Desktop.
 
-1. En el campo **Nombre de asociado de SNC** , escriba el *p:&lt;SPN que asignó al usuario de servicio de SAP BW&gt;* . Por ejemplo, si el SPN es SAP/BWServiceUser\@MYDOMAIN.COM, escriba *p:SAP/BWServiceUser\@MYDOMAIN.COM* en el campo **Nombre de asociado de SNC** .
+1. En el campo **Nombre de asociado de SNC**, escriba el *p:&lt;SPN que asignó al usuario de servicio de SAP BW&gt;* . Por ejemplo, si el SPN es SAP/BWServiceUser\@MYDOMAIN.COM, escriba *p:SAP/BWServiceUser\@MYDOMAIN.COM* en el campo **Nombre de asociado de SNC**.
 
-1. Para la biblioteca de SNC, seleccione **SNC\_LIB** o **SNC\_LIB\_64** . En el equipo de la puerta de enlace, asegúrese de que **SNC\_LIB\_64** apunte a gx64krb5.dll. También puede seleccionar la opción **Personalizado** y proporcionar la ruta de acceso absoluta a gx64krb5.dll (en la máquina de la puerta de enlace).
+1. Para la biblioteca de SNC, seleccione **SNC\_LIB** o **SNC\_LIB\_64**. En el equipo de la puerta de enlace, asegúrese de que **SNC\_LIB\_64** apunte a gx64krb5.dll. También puede seleccionar la opción **Personalizado** y proporcionar la ruta de acceso absoluta a gx64krb5.dll (en la máquina de la puerta de enlace).
 
-1. Seleccione la casilla **Usar un SSO mediante Kerberos para las consultas de DirectQuery** y **Aplicar** . Si la conexión de prueba no es correcta, compruebe que los pasos de instalación y configuración anteriores se hayan completado correctamente.
+1. Seleccione la casilla **Usar un SSO mediante Kerberos para las consultas de DirectQuery** y **Aplicar**. Si la conexión de prueba no es correcta, compruebe que los pasos de instalación y configuración anteriores se hayan completado correctamente.
 
 1. [Ejecución de un informe de Power BI](service-gateway-sso-kerberos.md#run-a-power-bi-report)
 
@@ -185,13 +185,13 @@ Si detecta alguno de estos problemas, realice los pasos siguientes para solucion
 
 ### <a name="troubleshoot-gateway-connectivity-issues"></a>Solución de problemas de conectividad de la puerta de enlace
 
-1. Compruebe los registros de la puerta de enlace. Abra la aplicación de configuración de la puerta de enlace, seleccione **Diagnósticos** y después **Exportar registros** . Los errores más recientes están en la parte inferior de los archivos de registro que examine.
+1. Compruebe los registros de la puerta de enlace. Abra la aplicación de configuración de la puerta de enlace, seleccione **Diagnósticos** y después **Exportar registros**. Los errores más recientes están en la parte inferior de los archivos de registro que examine.
 
     ![Aplicación de la puerta de enlace de datos local, con Diagnósticos resaltado](media/service-gateway-sso-kerberos/gateway-diagnostics.png)
 
 1. Active el seguimiento de SAP BW y revise los archivos de registro generados. Hay varios tipos de seguimiento de SAP BW disponibles (por ejemplo, el seguimiento de CPIC):
 
-   a. Para habilitar el seguimiento de CPIC, establezca dos variables de entorno: **CPIC\_TRACE** y **CPIC\_TRACE\_DIR** .
+   a. Para habilitar el seguimiento de CPIC, establezca dos variables de entorno: **CPIC\_TRACE** y **CPIC\_TRACE\_DIR**.
 
       La primera variable establece el nivel de seguimiento y la segunda, el directorio del archivo de seguimiento. El directorio debe ser una ubicación en la que puedan escribir los miembros del grupo de usuarios autenticados. 
  

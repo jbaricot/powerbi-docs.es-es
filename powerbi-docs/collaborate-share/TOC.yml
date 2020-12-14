@@ -103,12 +103,16 @@
           items:
             - name: Integración de las alertas de datos con Power Automate
               href: service-flow-integration.md
+            - name: Exportación y envío por correo electrónico de informes con Power Automate
+              href: service-automate-power-bi-report-export.md
             - name: Exportación de informes paginados con Power Automate
               href: service-automate-paginated-integration.md
             - name: Almacenamiento de informes paginados en OneDrive o SharePoint Online
               href: service-automate-paginated-onedrive-sharepoint.md
             - name: Exportación de informes paginados desde Excel Online o la lista de SharePoint
               href: service-automate-paginated-excel-sharepoint-list.md
+            - name: Almacenamiento de un informe paginado en una carpeta local
+              href: service-automate-paginated-local-file.md
         - name: Usar aplicaciones de terceros
           href: service-power-bi-get-started-third-party-apps.md
         - name: Paquetes de contenido organizativos

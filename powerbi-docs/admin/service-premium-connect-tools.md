@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/05/2020
+ms.date: 12/01/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 4e71580857827a370676c4d05274c4c57b1d56c5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b238daa82bc2ae039c137c259ca8f63044281e6f
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413504"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613725"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>Conectividad del conjunto de datos con el punto de conexión de XMLA
 
@@ -23,7 +23,7 @@ Las áreas de trabajo y los conjuntos de datos de Power BI Premium con el nivel
 
 ## <a name="whats-an-xmla-endpoint"></a>¿Qué es un punto de conexión de XMLA?
 
-En Power BI Premium se usa el protocolo [XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current&preserve-view=true) (XMLA) para las comunicaciones entre las aplicaciones cliente y el motor que administra las áreas de trabajo y los conjuntos de datos de Power BI. Estas comunicaciones se realizan a través de lo que normalmente se denominan puntos de conexión XMLA. XMLA es el mismo protocolo de comunicación que usa el motor de Microsoft Analysis Services, que internamente, ejecuta el modelado semántico, la gobernanza, el ciclo de vida y la administración de datos de Power BI.
+En Power BI Premium se usa el protocolo [XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current&preserve-view=true) (XMLA) para las comunicaciones entre las aplicaciones cliente y el motor que administra las áreas de trabajo y los conjuntos de datos de Power BI. Estas comunicaciones se realizan a través de lo que normalmente se denominan puntos de conexión XMLA. XMLA es el mismo protocolo de comunicación que usa el motor de Microsoft Analysis Services, que internamente, ejecuta el modelado semántico, la gobernanza, el ciclo de vida y la administración de datos de Power BI. Los datos enviados a través del protocolo XMLA están totalmente cifrados.
 
 De forma predeterminada, la conectividad *de solo lectura* que usa el punto de conexión está habilitada para la **carga de trabajo de los conjuntos de datos** de una capacidad. Al ser de solo lectura, las herramientas y aplicaciones de visualización de datos pueden consultar los datos del modelo de conjunto de datos, así como los metadatos, los eventos y el esquema. Las operaciones de *lectura y escritura* que usan el punto de conexión se pueden habilitar proporcionando administración de conjunto de datos, gobernanza, modelado semántico avanzado, depuración y supervisión adicionales. Con la lectura y escritura habilitada, los conjuntos de datos de Power BI Premium tienen más paridad con los procesos y las herramientas de modelado tabular de nivel empresarial de Azure Analysis Services y SQL Server Analysis Services.
 
@@ -32,7 +32,7 @@ De forma predeterminada, la conectividad *de solo lectura* que usa el punto de c
 
 ## <a name="data-modeling-and-management-tools"></a>Herramientas de administración y modelado de datos
 
-Estas son algunas de las herramientas más comunes que se usan con Azure Analysis Services y SQL Server Analysis Services, y que ahora son compatibles con los conjuntos de datos de Power BI Premium:
+Estas son algunas de las herramientas más comunes que se usan con Azure Analysis Services y SQL Server Analysis Services, y que ahora son compatibles con los conjuntos de datos de Power BI Premium:
 
 **Visual Studio con proyectos de Analysis Services** : también conocido como SQL Server Data Tools, o simplemente **SSDT**, es una herramienta de creación de modelos de nivel empresarial para los modelos tabulares de Analysis Services. Las extensiones de proyectos de Analysis Services se admiten en todas las ediciones de Visual Studio 2017 y posteriores, incluida la edición gratuita Community. La versión de la extensión 2.9.6 o superior es necesaria para implementar modelos tabulares en un área de trabajo Premium. Al implementar en un área de trabajo Premium, el modelo debe tener el nivel de compatibilidad de 1500 o superior. Se requiere lectura y escritura de XMLA en la carga de trabajo de los conjuntos de valores. Para obtener más información, consulte [Herramientas para Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true).
 
@@ -58,7 +58,7 @@ Estas son algunas de las herramientas más comunes que se usan con Azure Analysi
 
 ### <a name="client-libraries"></a>Bibliotecas de cliente
 
-Las aplicaciones cliente no se comunican directamente con el punto de conexión de XMLA. En su lugar, usan *bibliotecas de cliente* como una capa de abstracción. Estas son las mismas bibliotecas de cliente que utilizan las aplicaciones para conectarse a Azure Analysis Services y SQL Server Analysis Services. Las aplicaciones de Microsoft como Excel, SQL Server Management Studio (SSMS) y extensión de proyectos de Analysis Services para Visual Studio instalan las tres bibliotecas de cliente y las actualizan junto con las actualizaciones de aplicaciones y extensiones normales. Los desarrolladores también pueden usar las bibliotecas de cliente para compilar aplicaciones personalizadas. En algunos casos, en especial con las aplicaciones de terceros, si no se instalan con la aplicación, es posible que tenga que instalar versiones más recientes de las bibliotecas de cliente. Las bibliotecas de cliente se actualizan mensualmente. Para más información, vea  [Bibliotecas de cliente para la conexión a Analysis Services](/azure/analysis-services/analysis-services-data-providers).
+Las aplicaciones cliente no se comunican directamente con el punto de conexión de XMLA. En su lugar, usan *bibliotecas de cliente* como una capa de abstracción. Estas son las mismas bibliotecas de cliente que las aplicaciones usan para conectarse a Azure Analysis Services y SQL Server Analysis Services. Las aplicaciones de Microsoft como Excel, SQL Server Management Studio (SSMS) y extensión de proyectos de Analysis Services para Visual Studio instalan las tres bibliotecas de cliente y las actualizan junto con las actualizaciones de aplicaciones y extensiones normales. Los desarrolladores también pueden usar las bibliotecas de cliente para compilar aplicaciones personalizadas. En algunos casos, en especial con las aplicaciones de terceros, si no se instalan con la aplicación, es posible que tenga que instalar versiones más recientes de las bibliotecas de cliente. Las bibliotecas de cliente se actualizan mensualmente. Para más información, vea  [Bibliotecas de cliente para la conexión a Analysis Services](/azure/analysis-services/analysis-services-data-providers).
 
 ## <a name="optimize-datasets-for-write-operations-by-enabling-large-models"></a>Optimización de conjuntos de datos para operaciones de escritura mediante la habilitación de modelos grandes
 
@@ -70,7 +70,7 @@ De forma predeterminada, una funcionalidad Premium tiene el parámetro de la pro
 
 ### <a name="to-enable-read-write-for-a-capacity"></a>Para habilitar la lectura y escritura de una capacidad
 
-1. En el portal de administración, haga clic en **Configuración de la capacidad** > **Power BI Premium** > nombre de la capacidad.
+1. En el portal de administración, seleccione **Configuración de la capacidad** > **Power BI Premium** > nombre de la capacidad.
 2. Expanda **Cargas de trabajo**. En el parámetro **Punto de conexión de XMLA**, seleccione **Lectura y escritura**.
 
     ![Habilitación del punto de conexión de XMLA](media/service-premium-connect-tools/xmla-endpoint-enable.png)
@@ -80,7 +80,7 @@ De forma predeterminada, una funcionalidad Premium tiene el parámetro de la pro
 Las áreas de trabajo asignadas a una capacidad tienen una cadena de conexión con un formato de dirección URL similar a  
 `powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`.
 
-Las aplicaciones que se conectan al área de trabajo usan la dirección URL, ya que se trata de un nombre de servidor de Analysis Services. Por ejemplo,  
+Las aplicaciones que se conectan al área de trabajo usan la dirección URL, como si se tratase de un nombre de servidor de Analysis Services. Por ejemplo,  
 `powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`.
 
 Los usuarios con UPN en el mismo inquilino (no B2B) pueden reemplazar el nombre del inquilino por `myorg`. Por ejemplo,   
@@ -91,7 +91,7 @@ Los usuarios de B2B deben especificar el UPN de la organización en el nombre de
 
 ### <a name="to-get-the-workspace-connection-url"></a>Para obtener la dirección URL de la conexión del área de trabajo
 
-En el área de trabajo **Configuración** > **Premium** > **Conexión del área de trabajo**, haga clic en **Copiar**.
+En el área de trabajo **Configuración** > **Premium** > **Conexión del área de trabajo**, seleccione **Copiar**.
 
 ![Cadena de conexión del área de trabajo](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
 
@@ -99,7 +99,7 @@ En el área de trabajo **Configuración** > **Premium** > **Conexión del área 
 
 ### <a name="initial-catalog"></a>Catálogo inicial
 
-Con algunas herramientas, como SQL Server Profiler, es posible que tenga que especificar un *Catálogo inicial*. Especifique un conjunto de datos (base de datos) en el área de trabajo. En el cuadro de diálogo **Conectarse al servidor**, haga clic en **Opciones** > **Propiedades de conexión** > **Conectar a base de datos** y escriba el nombre del conjunto de datos.
+Con algunas herramientas, como SQL Server Profiler, es posible que tenga que especificar un *Catálogo inicial*. Especifique un conjunto de datos (base de datos) en el área de trabajo. En el cuadro de diálogo **Conectarse al servidor**, seleccione **Opciones** > **Propiedades de conexión** > **Conectar a base de datos** y escriba el nombre del conjunto de datos.
 
 ### <a name="duplicate-workspace-names"></a>Nombres del área de trabajo duplicada
 
@@ -120,7 +120,7 @@ Al conectarse a un área de trabajo, los cambios de los conjuntos de datos nuevo
 
 ### <a name="unsupported-datasets"></a>Conjuntos de datos no admitidos
 
-Los conjuntos de datos siguientes no son accesibles mediante el punto de conexión de XMLA. Estos conjuntos de datos no aparecerán en el área de trabajo en SSMS o en otras herramientas:
+Los siguientes conjuntos de datos no son accesibles a través del punto de conexión XMLA. Estos conjuntos de datos no aparecerán en el área de trabajo en SSMS o en otras herramientas:
 
 - Los conjuntos de datos basados en una conexión dinámica a un modelo de Azure Analysis Services o SQL Server Analysis Services. 
 - Los conjuntos de datos basados en una conexión dinámica a un conjunto de datos de Power BI en otra área de trabajo. Para obtener más información, consulte [Introducción a los conjuntos de datos en áreas de trabajo](../connect-data/service-datasets-across-workspaces.md).
@@ -129,9 +129,15 @@ Los conjuntos de datos siguientes no son accesibles mediante el punto de conexi�
 
 ## <a name="security"></a>Seguridad
 
-Además de que la propiedad del punto de conexión de XMLA esté habilitada para lectura y escritura por el administrador de capacidad, el parámetro de nivel de inquilino **Exportar datos** del portal de administración de Power BI, también necesario para analizar en Excel, debe estar habilitado.
+Además de que el administrador de capacidad habilite la lectura y escritura de la propiedad del punto de conexión XMLA, la opción de nivel de inquilino **Allow XMLA endpoints and Analyze in Excel with on-premises datasets** (Permitir puntos de conexión XMLA y Analizar en Excel con conjuntos de datos locales) debe estar habilitada en el portal de administración. Si es necesario generar archivos AIXL que se conecten al punto de conexión XMLA, también se debe habilitar la opción de nivel de inquilino **Permitir conexiones dinámicas**. Ambas opciones están habilitadas de forma predeterminada.
 
-![Habilitación de la exportación de datos](media/service-premium-connect-tools/xmla-endpoint-export-data.png)
+**Allow XMLA endpoints and Analyze in Excel with on-premises datasets** (Permitir puntos de conexión XMLA y Analizar en Excel con conjuntos de datos locales) es una opción de integración.
+
+:::image type="content" source="media/service-premium-connect-tools/allow-xmla-endpoints.png" alt-text="Opción de integración que permite los puntos de conexión XMLA":::
+
+**Permitir conexiones dinámicas** es una opción de exportación y uso compartido.
+
+:::image type="content" source="media/service-premium-connect-tools/allow-live-connections.png" alt-text="Opción de exportación y uso compartido que permite las conexiones dinámicas":::
 
 El acceso a través del punto de conexión de XMLA respetará la pertenencia a grupos de seguridad establecida en el nivel de área de trabajo o aplicación.
 
@@ -184,7 +190,7 @@ Cuando se ha especificado la propiedad del servidor de implementación, se puede
 
 **Cuando se implementa la primera vez**, se crea un conjunto de datos en el área de trabajo utilizando los metadatos de model.bim. Como parte de la operación de implementación, una vez creado el conjunto de datos en el área de trabajo desde los metadatos del modelo, el procesamiento para cargar datos en el conjunto de datos a partir de orígenes de datos producirá un error.
 
-Se produce un error de procesamiento porque a diferencia de la implementación en una instancia de Azure o SQL Server Analysis Server, donde se solicitan las credenciales del origen de datos como parte de la operación de implementación, al implementar en un área de trabajo Premium las credenciales del origen de datos no se pueden especificar como parte de la operación de implementación. En su lugar, una vez que la implementación de metadatos se ha realizado correctamente y se ha creado el conjunto de datos, las credenciales del origen de datos se especifican en el servicio Power BI en la configuración del conjunto de datos. En el área de trabajo, haga clic en **Conjuntos de datos** > **Configuración** > **Credenciales del origen de datos** > **Editar credenciales**.
+Se produce un error de procesamiento porque a diferencia de la implementación en una instancia de Azure o SQL Server Analysis Server, donde se solicitan las credenciales del origen de datos como parte de la operación de implementación, al implementar en un área de trabajo Premium las credenciales del origen de datos no se pueden especificar como parte de la operación de implementación. En su lugar, una vez que la implementación de metadatos se ha realizado correctamente y se ha creado el conjunto de datos, las credenciales del origen de datos se especifican en el servicio Power BI en la configuración del conjunto de datos. En el área de trabajo, seleccione **Conjuntos de datos** > **Configuración** > **Credenciales del origen de datos** > **Editar credenciales**.
 
 ![Credenciales del origen de datos](media/service-premium-connect-tools/xmla-endpoint-datasource-credentials.png)
 
@@ -198,7 +204,7 @@ El uso de SSMS para conectarse a un área de trabajo es igual que conectarse a u
 
 ### <a name="connect-to-a-workspace-by-using-ssms"></a>Conexión a un área de trabajo con SSMS
 
-1. En SQL Server Management Studio, haga clic en **Conectar** > **Conectar con el servidor**.
+1. En SQL Server Management Studio, seleccione **Conectar** > **Conectar con el servidor**.
 
 2. En **Tipo de servidor**, seleccione **Analysis Services**. En **Nombre del servidor**, escriba la dirección URL del área de trabajo. En **Autenticación**, seleccione **Active Directory - Universal con MFA** y, después, en **Nombre de usuario**, escriba el identificador de usuario de la organización.
 

@@ -8,14 +8,14 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 12/01/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 26a98609481ce45a6e432c8006d80f9becdd9f3b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 560c03865519d1c5d2435dc333954f284ee726e6
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96387790"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536516"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Paseo por el editor de informes de Power BI
 
@@ -33,14 +33,14 @@ En el servicio Power BI, el editor de informes solo está disponible en la vista
 
 El editor de informes de Power BI se divide en varias secciones principales:  
 
-1. Panel de navegación superior
+1. Cinta
 1. Lienzo del informe
 1. Panel Filtros
 1. Panel Visualizaciones
 1. Panel Campos
 
-## <a name="1-the-top-nav-pane"></a>1. Panel de navegación superior
-Las acciones disponibles desde el panel de navegación superior son numerosas y se agregan otras nuevas de forma constante. Para obtener información sobre una acción concreta, use la tabla de contenido de la documentación de Power BI o el cuadro de búsqueda.
+## <a name="1-the-ribbon"></a>1. Cinta
+Las acciones disponibles desde la cinta son numerosas y se agregan otras nuevas de forma constante. Para obtener información sobre una acción concreta, use la tabla de contenido de la documentación de Power BI o el cuadro de búsqueda.
 
 
 ## <a name="2-the-report-canvas"></a>2. El lienzo del informe
@@ -135,23 +135,7 @@ En Power BI Desktop, también tiene opciones para mostrar u ocultar campos, agre
 
 ## <a name="the-field-icons"></a>Iconos de campo
 
-Power BI usa varios iconos diferentes para indicar los tipos de campos de un informe. Cuando pueda reconocerlos, comprenderá mejor cómo actúan en diferentes objetos visuales. Estos son algunos de los más comunes.
-
-
-|Icono  |Significado  |
-|---------|---------|
-| ![Carpeta](media/service-the-report-editor-take-a-tour/power-bi-field-list-folder.png) | Carpeta en la lista de campos |
-|![Campo numérico](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric.png) | Campo numérico: los campos numéricos son agregados que se pueden sumar o promediar, por ejemplo. Los agregados se importan con los datos y se definen en el modelo de datos en el que se basa el informe. Para más información, consulte [Agregados en los informes de Power BI](service-aggregates.md). |
-|![Columna calculada no numérica](media/service-the-report-editor-take-a-tour/power-bi-field-list-calculated-column.png) | Columna calculada con un tipo de datos no numérico: columna no numérica que se crea con una fórmula de Expresiones de análisis de datos (DAX) que define los valores de la columna. Más información sobre las [columnas calculadas](../transform-model/desktop-calculated-columns.md). |
-|![Columna calculada numérica](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric-calculated-column.png)     |   Columna calculada numérica: columna que se crea con una fórmula de Expresiones de análisis de datos (DAX) que define los valores de la columna. Más información sobre las [columnas calculadas](../transform-model/desktop-calculated-columns.md). |
-|![Medida](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure.png) |  Medida: una medida tiene su propia fórmula codificada de forma rígida. No se puede cambiar el cálculo, por ejemplo, si es una suma, solo podrá ser una suma. Los valores no se almacenan en una columna. Se calculan sobre la marcha, únicamente en función de su ubicación en un objeto visual. Para más información, lea [Descripción de las medidas](../transform-model/desktop-measures.md). |
-|![Grupo de medida](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure-group.png)     | Grupo de medida  |
-|![Icono de KPI](media/service-the-report-editor-take-a-tour/power-bi-field-list-kpi.png) |      KPI: una indicación visual que comunica el progreso realizado para lograr un objetivo cuantificable. Más información sobre objetos visuales de [ Indicador clave de rendimiento (KPI)](../visuals/power-bi-visualization-kpi.md) |
-|![Icono de jerarquía](media/service-the-report-editor-take-a-tour/power-bi-field-list-hierarchy.png)     |  Jerarquía de campos: seleccione la flecha para ver los campos que componen la jerarquía.  Para más información, vea este vídeo de Power BI en YouTube sobre [cómo crear y trabajar con jerarquías](https://www.youtube.com/watch?v=q8WDUAiTGeU). |
-|![Datos geográficos](media/service-the-report-editor-take-a-tour/power-bi-field-list-geo-data.png)     | Datos geográficos: estos campos de ubicación se pueden usar para crear visualizaciones de mapa. |
-| ![Campo de identidad](media/service-the-report-editor-take-a-tour/power-bi-field-list-identity.png)     | Campo de identidad: los campos con este icono son *campos únicos*, configurados para mostrar todos los valores, incluso si tienen duplicados. Por ejemplo, es posible que los datos tengan dos registros para dos personas distintas llamadas "Robin Smith", y cada uno se tratará de forma única. No se sumarán.   |
-|![Parámetro](media/service-the-report-editor-take-a-tour/power-bi-field-list-parameter.png)   | Parámetro: establezca parámetros para que elementos de los informes y los modelos de datos (como un filtro de consulta, una referencia de origen de datos, una definición de medida, etc.) dependan de uno o más valores de parámetro. Para más información, vea esta entrada de blog de Power BI sobre los [parámetros de consulta](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/). |
-| ![Calendario](media/service-the-report-editor-take-a-tour/power-bi-field-list-calendar.png) | Campo de fecha de calendario con una tabla de fechas integrada |
+Power BI usa varios iconos diferentes para indicar los tipos de campos de un informe. Cuando pueda reconocerlos, comprenderá mejor cómo actúan en diferentes objetos visuales. Para obtener una lista completa, consulte [la sección de iconos de lista de campos en Usar la lista de campos en Power BI Desktop](../transform-model/desktop-field-list.md#field-list-changes).
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Crear un informe](service-report-create-new.md)

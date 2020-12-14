@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/02/2020
+ms.date: 12/03/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 004546a941426f602bfb5cacaf938bd55cec452d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406788"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613886"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -198,6 +198,7 @@ Debe [buscar a una de estas personas](/office365/admin/admin-overview/admin-over
 - Modelos de consulta de datos de inicio de sesión único.
 - Información confidencial o de propiedad.
 - La funcionalidad de autenticación automática que se incluye con la opción **Insertar** no funciona con la API de JavaScript para Power BI. Con la API de JavaScript para Power BI, use el enfoque de [usuario propietario de datos](../developer/embedded/embed-sample-for-your-organization.md) en la inserción.
+- Los administradores pueden bloquear el acceso público a Internet, como se describe en [Vínculos privados para acceder a Power BI](../admin/service-security-private-links.md). En tal caso, la opción **Publicar en la web** estará atenuada para el inquilino en el portal de administración de Power BI. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 

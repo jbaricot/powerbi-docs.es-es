@@ -1,27 +1,27 @@
 ---
-title: Visualización del contenido visitado recientemente en el servicio Power BI
+title: Display recently visited content in the Power BI service
 description: documentación para elementos recientes en Power BI
 author: mihart
-ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.subservice: pbi-explore
+ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/24/2020
+ms.date: 11/24/2020
+ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e11b1823c45e681d6a555bd5a4a9a751704419b2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ca3ae0974c0ece1f20a104dbeef1be0d89d1b523
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399244"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536401"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Contenido **reciente** en el servicio Power BI
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-El contenido **reciente** son los últimos elementos que ha visitado en el servicio Power BI. Esto incluye paneles, informes, aplicaciones y libros. Al seleccionar **Recientes** en la barra de navegación, Power BI muestra este contenido en orden descendente por fecha.  Para cambiar el criterio de ordenación, seleccione uno de los encabezados y elija ascendente o descendente.
+El contenido **reciente** son los últimos elementos que ha visitado en el servicio Power BI. Esto incluye paneles, informes, aplicaciones, áreas de trabajo y libros. Al seleccionar **Recientes** en la barra de navegación, Power BI muestra este contenido en orden descendente por fecha.  Para cambiar el criterio de ordenación, seleccione uno de los encabezados y elija ascendente o descendente.
 
 
 ![Ventana de contenido reciente](./media/end-user-recent/power-bi-recents.png)

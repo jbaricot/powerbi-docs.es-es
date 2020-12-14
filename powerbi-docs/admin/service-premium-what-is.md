@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/20/2020
+ms.date: 12/04/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 6fcbdeef8c7c02656e5637f6103fda76faeb26c9
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1ab5fb15f910b420781564da8f26cf5cd7ccd7df
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412285"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781828"
 ---
 # <a name="what-is-power-bi-premium"></a>¿Qué es Power BI Premium?
 
@@ -74,9 +74,9 @@ En la imagen siguiente se muestra cómo habilitar Premium Gen2.
 
 Las siguientes limitaciones conocidas se aplican actualmente a Premium Gen2:
 
-1.  No se puede realizar el seguimiento de la utilización de la capacidad Premium Gen2 en la aplicación de métricas.
+1.    No se puede realizar el seguimiento de la utilización de la capacidad Premium Gen2 en la aplicación de métricas.
 
-2.  La configuración de la capacidad Premium Gen2 para cargas de trabajo específicas todavía no es visible en la página de configuración de la capacidad Premium Gen2 en el portal de administración. Para cambiar la configuración, haga una transición de la capacidad a la versión original de Premium, cambie la configuración y, a continuación, vuelva a establecer la capacidad para usar Premium Gen2. La configuración de asignación de memoria no es aplicable a las capacidades Premium Gen2.
+2.    La configuración de la capacidad Premium Gen2 para cargas de trabajo específicas todavía no es visible en la página de configuración de la capacidad Premium Gen2 en el portal de administración. Para cambiar la configuración, haga una transición de la capacidad a la versión original de Premium, cambie la configuración y, a continuación, vuelva a establecer la capacidad para usar Premium Gen2. La configuración de asignación de memoria no es aplicable a las capacidades Premium Gen2.
 
 3.  Si usa XMLA en Premium Gen2, asegúrese de que usa las últimas versiones de las [herramientas de administración y modelado de datos](service-premium-connect-tools.md#data-modeling-and-management-tools). 
 
@@ -181,7 +181,7 @@ Las operaciones de capacidad se clasifican como *interactivas* o *en segundo pla
 
 Es importante comprender que las operaciones interactivas siempre tienen prioridad sobre las operaciones en segundo plano para garantizar la mejor experiencia del usuario posible. Si no hay recursos suficientes, las operaciones en segundo plano se agregan a una cola en espera hasta que se liberen los recursos. El servicio Power BI puede interrumpir a mitad del proceso las operaciones en segundo plano, como las actualizaciones del conjunto de datos, agregarlas a una cola y reintentarlas después.
 
-Los modelos de importación se deben cargar en memoria en su totalidad para que se puedan consultar o actualizar. El servicio Power BI usa algoritmos sofisticados para administrar el uso de memoria de manera equitativa, pero en raras ocasiones, la capacidad se puede sobrecargar si no hay suficientes recursos para satisfacer las demandas en tiempo real de los clientes. Aunque es posible que una capacidad almacene muchos modelos de importación en almacenamiento persistente (hasta 100 TB por capacidad Premium), no todos los modelos residen necesariamente en la memoria al mismo tiempo; de lo contrario, el tamaño del conjunto de datos en memoria puede superar fácilmente el límite de memoria de la capacidad. Además de la memoria necesaria para cargar los conjuntos de datos, se necesita memoria adicional para la ejecución de las consultas y las operaciones de actualización.
+Los modelos de importación se deben cargar en memoria en su totalidad para que se puedan consultar o actualizar. El servicio Power BI usa algoritmos sofisticados para administrar el uso de memoria de manera equitativa, pero en raras ocasiones la capacidad se puede sobrecargar si no hay suficientes recursos para satisfacer las demandas en tiempo real de los clientes. Aunque es posible que una capacidad almacene muchos modelos de importación en almacenamiento persistente (hasta 100 TB por capacidad Premium), no todos los modelos residen necesariamente en la memoria al mismo tiempo; de lo contrario, el tamaño del conjunto de datos en memoria puede superar fácilmente el límite de memoria de la capacidad. Además de la memoria necesaria para cargar los conjuntos de datos, se necesita memoria adicional para la ejecución de las consultas y las operaciones de actualización.
 
 Por tanto, los modelos de importación se cargan en la memoria y se quitan de ella en función del uso. Un modelo de importación se carga cuando se consulta (operación interactiva), o bien cuando se va a actualizar (operación en segundo plano).
 
@@ -272,11 +272,13 @@ En la tabla siguiente se muestran las SKU recomendadas para cargar el archivo. p
    |---------|---------|
    |P1    | < 3 GB        |
    |P2    | < 6 GB        |
-   |P3, P4, P5    | hasta 10 GB   |
+   |P3, P4, P5    | hasta 10 GB  |
 
 La SKU A4 de Power BI Embedded es igual a SKU P1, A5 = P2 y A6 = P3.
 
-Si habilita [modelos grandes](service-premium-large-models.md) en un conjunto de datos, las limitaciones de tamaño del archivo .pbix se siguen aplicando a la carga o publicación de archivos. Sin embargo, con la actualización incremental y los modelos grandes combinados, los conjuntos de datos pueden alcanzar un tamaño mucho mayor que estos límites. Con los modelos de gran tamaño, el tamaño del conjunto de datos solo está limitado por el tamaño de la capacidad Power BI Premium.
+### <a name="large-dataset-storage-format"></a>Formato de almacenamiento de conjunto de datos de gran tamaño
+
+Si habilita la opción [Formato de almacenamiento de conjunto de datos de gran tamaño](service-premium-large-models.md) en un conjunto de datos, las limitaciones de tamaño del archivo .pbix seguirán estando vigentes al cargar o publicar archivos. El límite del tamaño de carga no se ve afectado por el formato de almacenamiento de conjuntos de datos grandes, pero si los conjuntos de datos grandes se publican en el servicio con las opciones de actualización incremental y formato de almacenamiento de conjuntos de datos grandes habilitadas, el tamaño de dichos conjuntos puede crecer muy por encima de esos límites. Con el formato de almacenamiento de conjuntos de datos grandes, el tamaño del conjunto de datos solo estará limitado por el tamaño de la capacidad Power BI Premium.
 
 Los archivos .pbix representan datos en un *estado muy comprimido*. Los datos probablemente se expandirán al cargarse en memoria y, a partir de ahí, podrían expandirse varias veces más durante la actualización de datos.
 

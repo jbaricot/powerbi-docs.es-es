@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 10/28/2019
+ms.date: 12/04/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cfd5f80ac18c05b520fc417c6336dda360b8737
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b2439af22e32f1e0a8cbd3ce326252d6b28fab1
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417598"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613932"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Métodos abreviados de teclado en Power BI Desktop
 
@@ -92,7 +92,7 @@ En nuestro continuo esfuerzo por mejorar la accesibilidad, la lista anterior de 
 | :------------------- | :------------------- |
 | Subir o bajar una línea | **Alt + tecla Flecha arriba** / **tecla Flecha abajo** |
 | Copiar línea arriba o abajo | **Mayús + Alt + tecla Flecha arriba** / **tecla Flecha abajo** |
-| Insertar línea debajo | **Ctrl + Entrar** |
+| Insertar línea debajo | **Mayús + Entrar** |
 | Insertar línea encima | **Ctrl + Mayús + Entrar** |
 | Saltar al corchete correspondiente | **Ctrl + Mayús +**  \ |
 | Aplicar sangría a la línea o extender la línea en el margen | **Ctrl + ]**  /  **[** |
@@ -100,8 +100,12 @@ En nuestro continuo esfuerzo por mejorar la accesibilidad, la lista anterior de 
 | Seleccionar la línea actual | **Ctrl + I** |
 | Seleccionar todas las apariciones de la selección actual | **Ctrl + Mayús + L** |
 | Seleccionar todas las apariciones de la palabra actual | **Ctrl + F2** |
+| Comentar una línea | **Ctrl+/** o **Ctrl+K+C** |
+| Quitar la marca de comentario de una línea | **Ctrl+/** o **Ctrl+K+U** |
+| Aumentar el tamaño de fuente | **Ctrl++** o **desplazarse hacia arriba** |
+| Reducir el tamaño de fuente | **Ctrl++** o **desplazarse hacia abajo** |
 
-## <a name="enter-data"></a>Escribir datos
+## <a name="enter-data"></a>Especificar datos
 | Para realizar esta acción           | Presione                |
 | :------------------- | :------------------- |
 | Salir de la cuadrícula editable | **Ctrl + Tab** |

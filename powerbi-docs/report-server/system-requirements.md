@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/29/2020
-ms.openlocfilehash: 30e8f1cb1ef8f12d9573d77a70771eef915a2704
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.date: 12/07/2020
+ms.openlocfilehash: 10fb104d1c03ae5d08836b8e865178c347d848ce
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044789"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781782"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de hardware y software para instalar el servidor de informes de Power BI
 
@@ -23,9 +23,9 @@ En este artículo se especifican los requisitos mínimos de hardware y software 
 
 | Componente | Requisito |
 | --- | --- |
-| .NET Framework |4.8<br><br>.NET Framework se puede instalar manualmente desde [Microsoft .NET Framework 4.8 (instalador web) para Windows](https://support.microsoft.com/en-us/help/4503548/).<br/><br/> Para obtener más información, recomendaciones e instrucciones sobre .NET Framework 4.8, vea [Guía de implementación de .NET Framework para desarrolladores](/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>Windows 8.1 y Windows Server 2012 R2 requieren [KB2919355](https://support.microsoft.com/kb/2919355) antes de instalar .NET Framework 4.8. |
+| .NET Framework |4.8<br><br>Si el servidor no tiene acceso a Internet, .NET Framework se puede instalar manualmente desde [Microsoft .NET Framework 4.8 (instalador sin conexión) para Windows](https://support.microsoft.com/en-us/help/4503548/).<br/><br/> Para obtener más información, recomendaciones e instrucciones sobre .NET Framework 4.8, vea [Guía de implementación de .NET Framework para desarrolladores](/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>Windows 8.1 y Windows Server 2012 R2 requieren [KB2919355](https://support.microsoft.com/kb/2919355) antes de instalar .NET Framework 4.8. |
 | Disco duro |El servidor de informes de Power BI requiere un mínimo de 1 GB de espacio disponible en disco duro.<br><br>Se requerirá espacio adicional en el servidor de bases de datos en el que se hospeda la base de datos del servidor de informes. |
-| Memoria |**Mínimo** : 1 GB<br/><br/> **Recomendado:** 4 GB como mínimo |
+| Memoria |**Mínimo**: 1 GB<br/><br/> **Recomendado:** 4 GB como mínimo |
 | Velocidad del procesador |**Mínimo:** Procesador x64: 1,4 GHz<br/><br/> **Se recomienda que use:** 2.0 GHz o superior |
 | Tipo de procesador |Procesador x64: AMD Opteron, AMD Athlon 64, Intel Xeon compatible con Intel EM64T, Intel Pentium IV compatible con EM64T |
 | Sistema operativo |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br> |
