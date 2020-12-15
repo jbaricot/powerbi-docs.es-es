@@ -7,8 +7,6 @@
       items:
         - name: Información general sobre el Editor de consultas
           href: desktop-query-overview.md
-        - name: Preparación de datos de autoservicio con flujos de datos
-          href: ./dataflows/dataflows-introduction-self-service.md
     - name: Tutoriales
       expanded: true
       items:
