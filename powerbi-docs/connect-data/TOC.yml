@@ -9,6 +9,8 @@
           href: service-get-data.md
         - name: ¿Qué es una puerta de enlace de datos local?
           href: service-gateway-onprem.md
+        - name: "Detección de conjuntos de datos en el servicio Power\_BI"
+          href: service-datasets-hub.md
     - name: Guías de inicio rápido
       expanded: true
       items:
