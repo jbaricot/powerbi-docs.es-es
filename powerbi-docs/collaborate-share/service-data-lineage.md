@@ -9,12 +9,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 06/15/2020
 LocalizationGroup: ''
-ms.openlocfilehash: d2cd60a62d321910e280ebd8b38411b393d96bca
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8b119f5134fdaf4e251f9a8da560a2a3f7f3a4eb
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407409"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492113"
 ---
 # <a name="data-lineage"></a>Linaje de datos
 En los proyectos de inteligencia empresarial (BI) modernos, comprender el flujo de datos desde el origen de datos hasta su destino puede ser un desafío. El desafío es incluso mayor si se han creado proyectos analíticos avanzados que abarcan varios orígenes de datos, artefactos y dependencias. Preguntas como "¿Qué ocurre si cambio estos datos?" o bien, "¿Por qué no se ha actualizado este informe?" pueden ser difíciles de responder. Es posible que para entenderlas se necesite un equipo de expertos o una investigación en profundidad. Para ayudarle a responder a estas preguntas se ha diseñado una vista de linaje.
@@ -26,10 +26,6 @@ Power BI tiene varios tipos de artefactos, como paneles, informes, conjuntos de 
 En la vista de linaje, puede ver las relaciones de linaje entre todos los artefactos de un área de trabajo y todas sus dependencias externas. Muestra las conexiones entre todos los artefactos del área de trabajo, incluidas las conexiones a los flujos de datos de entrada, tanto ascendentes como descendentes.    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rUj06dqB98g" frameborder="0" allowfullscreen></iframe>
-
-
-
-> [!VIDEO https://youtu.be/rUj06dqB98g]
 
 ## <a name="explore-lineage-view"></a>Exploración de la vista de linaje
 
