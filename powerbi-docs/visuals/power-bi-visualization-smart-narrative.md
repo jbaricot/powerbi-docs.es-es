@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/06/2020
-ms.custom: video
+ms.custom: video-01UrT-z37sw
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ebb9d4c3682f1ce5cac5e587cb326d4e4ba506b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2e3d7c276c90edde6ce6270a9deea07d185ecdcc
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418771"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96999045"
 ---
 # <a name="create-smart-narrative-summaries-preview"></a>Creación de resúmenes de narración inteligente (versión preliminar)
 
@@ -39,7 +39,7 @@ Use resúmenes de narración inteligente en los informes para abordar los aporte
 ## <a name="get-started"></a>Introducción 
 Vea la demostración de Justyna sobre el uso de las narraciones inteligentes y, luego, pruebe a hacerlo por su cuenta con el tutorial que aparece debajo del vídeo.  Para seguir este tutorial, descargue el [archivo de ejemplo](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) de un escenario de ventas en línea.
 
-> [!VIDEO https://youtu.be/01UrT-z37sw]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/01UrT-z37sw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 En el panel **Visualizaciones**, seleccione el icono **Smart narrative** (Narración inteligente).
 

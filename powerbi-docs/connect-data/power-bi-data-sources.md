@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/17/2020
-ms.openlocfilehash: 18b7e55d409dc6562fab7cf1f36b83e7edac994b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: 67a0577c906e23fc51182120f1445814bdcd8028
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96392873"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491837"
 ---
 # <a name="power-bi-data-sources"></a>Orígenes de datos de Power BI
 
@@ -34,7 +34,8 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Azure Data Explorer (kusto) | Sí | Sí | Sí | Sí | No | Sí |
 | Azure Data Lake Storage Gen1 | Sí | Sí | No | No | No | No |
 | Azure Data Lake Storage Gen2 | Sí | Sí | No | Sí | No | Sí |
-| Azure DevOps | Sí | Sí | No | No | No | No |
+| Azure Databricks | Sí | Sí | Sí | Sí | No | No |
+| Azure DevOps | Sí | Sí | No | No | No | No |
 | Azure DevOps Server | Sí | Sí | No | Sí | Sí | No |
 | Azure HDInsight (HDFS) | Sí | Sí | No | No | No | No |
 | Azure HDInsight Spark | Sí | Sí | Sí | No | No | Sí |
@@ -43,7 +44,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Azure Table Storage | Sí | Sí | No | Sí | No | Sí |
 | Conector de BI | Sí | Sí | Sí | Sí | Sí | No |
 | BI360: informes presupuestarios y financieros | Sí | Sí | No | No | No | No |
-| Common Data Service | Sí | Sí | No | No | No | Sí |
+| Microsoft Dataverse | Sí | Sí | No | No | No | Sí |
 | Data.World - Obtener un conjunto de datos | Sí | Sí | No | No | No | No |
 | Denodo | Sí | Sí | Sí | Sí | Sí | No |
 | Dremio | Sí | Sí | Sí | Sí | Sí | No |
