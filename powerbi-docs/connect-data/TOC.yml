@@ -17,6 +17,7 @@
         - name: Conectarse a los datos en Power BI Desktop
           href: desktop-quickstart-connect-to-data.md
     - name: Tutoriales
+      expanded: true
       items:
         - name: Uso compartido y combinación de varios orígenes de datos
           href: desktop-shape-and-combine-data.md
@@ -39,6 +40,7 @@
         - name: Actualización de los datos de SQL Server
           href: service-gateway-sql-tutorial.md
     - name: Conceptos
+      expanded: true
       items:
         - name: Orígenes de datos de Power BI
           href: power-bi-data-sources.md
@@ -50,6 +52,8 @@
           href: desktop-default-member-multidimensional-models.md
         - name: "Acerca del uso de DirectQuery en Power\_BI"
           href: desktop-directquery-about.md
+        - name: "Uso de DirectQuery para conjuntos de datos de Power\_BI y Azure Analysis Services (versión preliminar)"
+          href: desktop-directquery-datasets-azure-analysis-services.md
         - name: Puertas de enlace
           items:
             - name: Instrucciones para implementar una puerta de enlace de datos
@@ -57,6 +61,7 @@
             - name: Preguntas más frecuentes sobre la puerta de enlace de datos local
               href: service-gateway-power-bi-faq.md
     - name: Guías paso a paso
+      expanded: true
       items:
         - name: Conectarse a orígenes de datos
           href: desktop-connect-to-data.md

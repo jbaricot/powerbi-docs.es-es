@@ -57,7 +57,7 @@
               href: service-microsoft-teams-app.md
             - name: Inserción de informes en pestañas de Teams
               href: service-embed-report-microsoft-teams.md
-            - name: Uso compartido directamente en Teams
+            - name: Chats en Teams directamente
               href: service-share-report-teams.md
             - name: Vista previa de un vínculo en Teams
               href: service-teams-link-preview.md
