@@ -120,6 +120,7 @@
             - name: Procedimientos recomendados
               href: deployment-pipelines-best-practices.md
     - name: Guías paso a paso
+      expanded: true
       items:
         - name: Informes de Power BI
           items:

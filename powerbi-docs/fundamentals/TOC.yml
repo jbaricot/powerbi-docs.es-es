@@ -14,12 +14,14 @@
         - name: Comparación de Power BI Desktop y el servicio
           href: service-service-vs-desktop.md
     - name: Tutoriales
+      expanded: true
       items:
         - name: Introducción a Power BI Desktop
           href: desktop-getting-started.md
         - name: Introducción al servicio Power BI
           href: service-get-started.md
     - name: Conceptos
+      expanded: true
       items:
         - name: Novedades de la última versión de Power BI Desktop
           href: desktop-latest-update.md
@@ -44,6 +46,7 @@
             - name: Línea de base de seguridad
               href: security-baseline.md
     - name: Guías paso a paso
+      expanded: true
       items:
         - name: Obtener Power BI Desktop
           href: desktop-get-the-desktop.md
