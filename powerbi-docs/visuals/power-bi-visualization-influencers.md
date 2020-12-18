@@ -6,15 +6,16 @@ ms.author: mihart
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: pbi-visuals
+ms.custom: video-fDb5zZ3xmxU
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 598865676a4cb5ea5378937cebe75f76cc460ce3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f76203e00bb691abe9a4d212c930595d180798d8
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419093"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96999137"
 ---
 # <a name="create-key-influencers-visualizations"></a>Creación de visualizaciones de influenciadores clave
 
@@ -145,7 +146,7 @@ El gráfico de dispersión del panel derecho traza el porcentaje promedio de las
 
 En algunos casos, es posible que vea que los factores continuos se han convertido automáticamente en factores categóricos. Esto se debe a que nos dimos cuenta de que la relación entre las variables no es lineal y, por tanto, no podemos describir la relación como simplemente ascendente o descendente, como hemos hecho en el ejemplo anterior.
 
-Hemos realizado pruebas de correlación para determinar hasta qué punto el influenciador es lineal con respecto al objetivo. Si el destino es continuo, se ejecuta la correlación de Pearson y, si es categórico, se ejecutan pruebas de correlación biserial-puntual. Asimismo, si se detecta que la relación no es suficientemente lineal, realizamos una discretización supervisada y generamos un máximo de cinco intervalos. Para averiguar qué intervalos tienen más sentido, usamos un método de discretización supervisado, que examina la relación entre el factor explicativo y el objetivo que se analiza.
+Hemos realizado pruebas de correlación para determinar hasta qué punto el "influencer" es lineal con respecto al objetivo. Si el destino es continuo, se ejecuta la correlación de Pearson y, si es categórico, se ejecutan pruebas de correlación biserial-puntual. Asimismo, si se detecta que la relación no es suficientemente lineal, realizamos una discretización supervisada y generamos un máximo de cinco intervalos. Para averiguar qué intervalos tienen más sentido, usamos un método de discretización supervisado, que examina la relación entre el factor explicativo y el objetivo que se analiza.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Interpretación de medidas o agregados como influenciadores clave 
  

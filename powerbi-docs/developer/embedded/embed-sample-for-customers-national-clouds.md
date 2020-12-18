@@ -1,5 +1,5 @@
 ---
-title: Inserción de contenido en la aplicación para nubes de administración pública y nacionales
+title: Inserción de contenido en la aplicación de análisis insertados de Power BI para nubes nacionales y gubernamentales
 description: Aprenda a integrar, o insertar, un informe, un panel o un icono, en una aplicación web mediante las API de Power BI para realizar análisis integrados para los clientes. Aprenda a integrar Power BI en una aplicación mediante software de análisis integrado, herramientas de análisis integrado o herramientas de inteligencia empresarial integrada para nubes de administración pública o nacionales.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18, devx-track-js
 ms.date: 02/05/2019
-ms.openlocfilehash: 9b5382510fe69b998855071dbcfe654629e73820
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9aa49e9f9df048b5c71b644c40a414159341c321
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417207"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098154"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Inserción de contenido de Power BI en una aplicación para nubes nacionales
 

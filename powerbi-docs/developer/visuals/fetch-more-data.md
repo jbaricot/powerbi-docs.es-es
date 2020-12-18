@@ -7,17 +7,19 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
-ms.date: 06/18/2019
-ms.openlocfilehash: b8be5b68603f818e26e7f731e4f163bc626b5053
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.date: 12/13/2020
+ms.openlocfilehash: 3dc94a24e5e6a84992745775b1639b7a186ed19d
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483705"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492090"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Captura de más datos desde Power BI
 
-En este artículo se describe cómo cargar más datos para omitir el límite máximo de un punto de datos de 30 KB mediante el método `fetchMoreData`. Este enfoque proporciona datos en fragmentos. Para mejorar el rendimiento, puede configurar el tamaño del fragmento para que se adapte a su caso de uso.
+La API `fetchMoreData` permite a los objetos visuales de Power BI omitir el límite máximo de una vista de datos de 30 000 filas. Con la nueva versión 3.4 de la API, la funcionalidad de la API `fetchMoreData` se amplía para admitir un nuevo enfoque de carga de fragmentos de datos. Además del enfoque existente que agrega todos los fragmentos solicitados, la API admitirá la carga solo de los fragmentos de datos incrementales.
+
+El nuevo enfoque permite más flexibilidad en la forma de cargar los fragmentos de datos adicionales en el objeto visual. Para mejorar el rendimiento, puede configurar el tamaño del fragmento para que se adapte a su caso de uso.
 
 ## <a name="limitations-of-fetchmoredata"></a>Limitaciones de fetchMoreData
 

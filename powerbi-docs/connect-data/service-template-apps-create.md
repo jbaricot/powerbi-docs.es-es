@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 09/15/2020
-ms.openlocfilehash: fc62d291b890d840b89997cd5d5253572f91bf3e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: cfd9302c9c64760298eb78be10affad8be510a65
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410238"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491768"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creación de una aplicación de plantilla en Power BI
 
 Las *aplicaciones de plantilla* de Power BI permiten a los asociados crear aplicaciones de Power BI sin tener que escribir código (o muy poco) e implementarlas en cualquier cliente de Power BI.  Este artículo contiene instrucciones paso a paso para crear una aplicación de plantilla de Power BI.
 
-Si puede crear paneles e informes de Power BI, puede convertirse en un *desarrollador de aplicaciones de plantilla*, así como compilar y empaquetar contenido analítico en una *aplicación*. Puede implementar la aplicación en otros inquilinos de Power BI mediante cualquier plataforma disponible, como AppSource o bien usarla en un servicio web propio. Como desarrollador, puede crear un paquete de análisis protegido para su distribución.
+Si puede crear paneles e informes de Power BI, puede convertirse en un *desarrollador de aplicaciones de plantilla*, así como compilar y empaquetar contenido analítico en una *aplicación*. Después, puede implementar la aplicación en otros inquilinos de Power BI por medio de cualquier plataforma disponible, como AppSource o un servicio web propio. Si va a distribuir su aplicación de plantilla por medio de su propio servicio web, también puede [automatizar parte del proceso de instalación](../developer/template-apps/template-apps-auto-install.md) con el fin de facilitar la tarea a los clientes.
 
 Los administradores de Power BI controlan quién de la organización puede crear aplicaciones de plantilla y quién puede instalarlas. Los usuarios autorizados pueden instalar la aplicación de plantilla y después modificarla y distribuirla a los consumidores de Power BI en la organización.
 
@@ -178,12 +178,10 @@ A continuación se analizan las fases:
     Cuando la instalación se realice correctamente, verá una notificación en la que se indica que la nueva aplicación está lista.
 
 6. Seleccione **Ir a la aplicación**.
-7. En **Empezar a trabajar con la nueva aplicación**, verá la aplicación como la ven los clientes.
 
-    ![Empezar a trabajar con la aplicación](media/service-template-apps-create/power-bi-template-app-get-started.png)
-8. Haga clic en **Explorar la aplicación** para comprobar la aplicación de prueba con los datos de ejemplo.
-9. Para realizar cambios, vuelva a la aplicación en el área de trabajo original. Actualice la aplicación de prueba hasta que esté satisfecho.
-10. Cuando esté listo para promover la aplicación al entorno de preproducción para realizar más pruebas fuera del inquilino, vuelva al panel **Administración de versiones** y seleccione **Promover aplicación**.
+    Compruebe que la aplicación de prueba tiene los datos de ejemplo. Para realizar cambios, vuelva a la aplicación en el área de trabajo original. Actualice la aplicación de prueba hasta que esté satisfecho.
+
+1. Cuando esté listo para promover la aplicación al entorno de preproducción para realizar más pruebas fuera del inquilino, vuelva al panel **Administración de versiones** y seleccione **Promover aplicación**.
 
     ![Promoción de la aplicación a preproducción](media/service-template-apps-create/power-bi-template-app-promote.png)
     >[!NOTE]
@@ -200,6 +198,10 @@ A continuación se analizan las fases:
     ![Aplicación en producción](media/service-template-apps-create/power-bi-template-app-production.png)
 
 Para hacer que la aplicación esté disponible a miles de usuarios de Power BI en todo el mundo, le animamos a enviarla a AppSource. Vea [Oferta de aplicación de Power BI](/azure/marketplace/partner-center-portal/create-power-bi-app-offer) para obtener más información.
+
+## <a name="automate-parameter-configuration-during-installation"></a>Configuración de parámetros automatizada durante la instalación
+
+Si es un ISV y está distribuyendo su aplicación de plantilla por medio de su servicio web, puede crear una automatización que configure los parámetros de la aplicación de plantilla de forma automática cuando los clientes instalen la aplicación en su cuenta de Power BI. Esto facilita la tarea a los clientes y aumenta la probabilidad de que una instalación se realice correctamente, ya que no es necesario proporcionar detalles que puede que no conozcan. Consulte [Configuración automatizada de la instalación de una aplicación de plantilla](../developer/template-apps/template-apps-auto-install.md) para obtener más información.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

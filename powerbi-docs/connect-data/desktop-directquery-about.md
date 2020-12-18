@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 12/03/2020
+ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 01ba6c2e01b3e17a3ef9c878890877e0a0b976ea
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 84d60fce95172b419663ed7889d69e22ae1947cd
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613748"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491998"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Acerca del uso de DirectQuery en Power BI
 
@@ -81,7 +81,7 @@ Cuando se conecta a SQL Server Analysis Services, tiene la opción de importar 
 La situación descrita en el párrafo anterior también se aplica a las conexiones con los siguientes orígenes, salvo que no hay ninguna opción para importar los datos:
 
 * Conjuntos de datos de Power BI, por ejemplo, cuando se conecta a un conjunto de datos de Power BI creado anteriormente y que se publicó en el servicio, para crear un nuevo informe sobre él.
-* Common Data Services.
+* Microsoft Dataverse.
 
 El comportamiento de los informes en SQL Server Analysis Services, después de la publicación en el servicio Power BI, es similar a los informes de DirectQuery de las siguientes maneras:
 
@@ -334,6 +334,9 @@ Esta opción solo se habilita cuando hay al menos un origen de DirectQuery en el
 Aumentar el valor de **Número máximo de conexiones por origen de datos** garantiza que se puedan enviar más consultas, hasta el número máximo especificado, al origen de datos subyacente. Este enfoque resulta útil cuando muchos objetos visuales están en una sola página o muchos usuarios tienen acceso a un informe al mismo tiempo. Una vez alcanzado el número máximo de conexiones, las consultas siguientes se ponen en cola hasta que haya disponible una conexión. Aumentar este límite tiene como resultado más carga en el origen subyacente, por lo que no se garantiza que la opción mejore el rendimiento general.
 
 Una vez que se publica un informe, el número máximo de consultas simultáneas enviadas al origen de datos subyacente también depende de límites fijos. Los límites dependen del entorno de destino en el que se publica el informe. Los distintos entornos, tales como Power BI, Power BI Premium o Power BI Report Server, pueden imponer distintos límites.
+
+> [!NOTE]
+> La configuración del número máximo de conexiones de DirectQuery se aplica a todos los orígenes de DirectQuery si los [metadatos mejorados](desktop-enhanced-dataset-metadata.md) están habilitados, que es lo predeterminado para todos los modelos creados en Power BI Desktop desde octubre de 2020. 
 
 ### <a name="diagnosing-performance-issues"></a>Diagnóstico de problemas de rendimiento
 

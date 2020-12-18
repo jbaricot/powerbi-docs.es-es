@@ -8,20 +8,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 08/31/2020
+ms.date: 12/15/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c5690492d3a54ae244e0104d0134414f1b6d9c96
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bf55abf06bf1429776e3d0fd0432e459f91de0a7
+ms.sourcegitcommit: fef29a5c5bf1e0dae663c42c9ce5ae50e29ae9be
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407340"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97558525"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Supervisión de las métricas de uso en la nueva experiencia de área de trabajo (versión preliminar)
 
-Conocer cómo se usa el contenido le ayuda a demostrar su impacto y a priorizar sus esfuerzos. Las métricas de uso pueden mostrarle que un segmento considerable de la organización utiliza a diario uno de sus informes y también que un panel que creó no lo está viendo nadie. Este tipo de comentario es muy valioso a la hora de dirigir los esfuerzos de trabajo que realiza.
+Conocer cómo se usa el contenido le ayuda a demostrar su impacto y a priorizar sus esfuerzos. Es posible que las métricas de uso muestren que gran parte de la organización utiliza uno de sus informes a diario. También puede que indiquen que nadie en absoluto está consultado un panel que creó. Este tipo de comentario es muy valioso a la hora de dirigir los esfuerzos de trabajo que realiza.
 
-Si crea informes en áreas de trabajo modernas, tiene acceso a informes de métricas de uso mejorados que le permiten descubrir cómo se usan esos informes en toda la organización y quién los usa. También puede identificar problemas de rendimiento de alto nivel. Los informes de uso mejorados de la experiencia de área de trabajo moderna reemplazan a los informes de métricas de uso existentes documentados en [Supervisar las métricas de uso de paneles e informes de Power BI](service-usage-metrics.md).
+Si crea informes en áreas de trabajo modernas, tendrá acceso a informes mejorados de las métricas de uso. Esto le permitirá averiguar quién está recurriendo a dichos informes en toda la organización y qué uso se les da. También puede identificar problemas de rendimiento de alto nivel. Los informes de uso mejorados de la experiencia de área de trabajo moderna reemplazan a los informes de métricas de uso existentes documentados en [Supervisar las métricas de uso de paneles e informes de Power BI](service-usage-metrics.md).
 
 ![Nuevo informe de métricas de uso](media/service-modern-usage-metrics/power-bi-modern-usage-metrics.png)
 
@@ -57,14 +57,14 @@ Solo los usuarios con permisos de administrador, miembro o colaborador pueden ve
 
 ## <a name="about-the-improved-usage-metrics-report"></a>Acerca del informe de métricas de uso mejorado
 
-Cuando se muestra el informe de métricas de uso mejorado siguiendo el procedimiento anterior, Power BI genera un informe precompilado con métricas de uso para ese contenido durante los últimos 30 días. Este informe es muy similar a los informes de Power BI con los que ya está familiarizado. Podrá segmentarlo en función de cómo han obtenido acceso sus usuarios finales: si ha sido a través de la Web o de una aplicación móvil, etc. A medida que los informes evolucionan, evolucionará igualmente el informe de métricas de uso, que se actualiza a diario con nuevos datos.
+Cuando se muestra este informe mejorado de las métricas de uso, Power BI genera un informe creado previamente. Incluye las métricas de uso del contenido de los últimos 30 días. Este informe es muy similar a los informes de Power BI con los que ya está familiarizado. Podrá segmentarlo en función de cómo hayan obtenido acceso los usuarios finales: por medio de la Web, una aplicación móvil, etc. A medida que los informes evolucionan, también lo hace el informe de métricas de uso. Este se actualiza a diario con nuevos datos.
 
 > [!NOTE]
 > Los informes de métricas de uso no aparecen en las listas de contenido Recientes, Áreas de trabajo, Favoritos ni en otras. Tampoco se pueden agregar a una aplicación. Si ancla un icono desde un informe de métricas de uso a un panel, dicho panel no se podrá agregar a una aplicación.
 
 ### <a name="usage-metrics-report-dataset"></a>Conjunto de datos del informe de métricas de uso
 
-El informe de métricas de uso mejorado se basa en un conjunto de datos de informe de métricas de uso, que Power BI crea automáticamente la primera vez que se inicia el informe de métricas de uso mejorado. Luego, Power BI actualiza este conjunto de datos diariamente. Aunque no puede cambiar la programación de actualización, puede actualizar las credenciales que usa Power BI para actualizar los datos de métricas de uso. Esto puede ser necesario para reanudar la actualización programada si las credenciales expiraron o si quitó el usuario que inició primero el informe de métricas de uso desde el área de trabajo en la que reside el conjunto de datos.
+La primera vez que inicie el informe mejorado de métricas de uso, Power BI creará automáticamente un conjunto de datos de dicho informe. El informe de métricas de uso mejorado se basa en ese conjunto de datos. Luego, Power BI actualiza este conjunto de datos diariamente. Aunque no puede cambiar la programación de actualización, puede actualizar las credenciales que usa Power BI para actualizar los datos de métricas de uso. Puede que deba reanudar la actualización programada si las credenciales expiraron o si quitó el usuario que inició por primera vez el informe de métricas de uso desde el área de trabajo en la que se encuentra el conjunto de datos.
 
 > [!NOTE]
 > Aunque siga en versión preliminar, el conjunto de datos de métricas de uso puede tener cambios menores que afecten a los informes personalizados.  
@@ -81,24 +81,47 @@ El informe de métricas de uso mejorado incluye las siguientes páginas:
 
 | **Page** | **Métrica** | **Descripción** |
 | --- | --- | --- |
-| Uso de informes | Vistas de informes | Cada vez que alguien abre un informe, se registra una vista del informe. Tenga en cuenta que la definición de una vista difiere de los informes de métricas de uso anteriores. Cambiar las páginas del informe ya no se considera una vista adicional. Las actividades como el uso compartido y el anclaje ya no se tienen en cuenta en las métricas de uso.|
+| Uso de informes | Vistas y aperturas de los informes | Cada vez que alguien abre un informe y genera una visita única en él, se registra una visualización del informe. Esto permite responder a la pregunta de con qué frecuencia se accede al informe. Esta definición de la vista de un informe difiere de los informes de métricas de uso anteriores. El hecho de cambiar las páginas de un informe ya no se considera una vista adicional de este. En su lugar, el cambio de las páginas de un informe cuenta para la métrica siguiente, las vistas de las páginas del informe. Las actividades como el uso compartido y el anclaje ya no se tienen en cuenta en las métricas de uso. |
+| Uso de informes | Vistas de las páginas del informe | Cada vez que alguien consulta una página del informe, se registra una vista de esa página. Representa el número total de vistas en todas las páginas. Esto permite responder a la pregunta de con qué frecuencia se accede a las páginas del informe. Por lo tanto, el cambio de las páginas de un informe cuenta para las vistas de las páginas del informe. Consulte [Consideraciones y limitaciones](#considerations-and-limitations) para conocer detalles importantes. |
 | Uso de informes | Espectadores únicos | Un espectador es alguien que abrió el informe al menos una vez durante el período de tiempo (en función de la cuenta de usuario de AAD). |
 | Uso de informes | Visualización de la tendencia | La tendencia de la vista refleja los cambios en el recuento de vistas con el tiempo. En ella se compara la primera mitad del período seleccionado con la segunda mitad. |
 | Uso de informes | Segmentación de fecha | Puede cambiar el período en la página de uso del informe para calcular, por ejemplo, las tendencias de semana en semana o cada dos semanas. En la esquina inferior izquierda de la página de uso del informe, puede determinar la fecha más antigua y más reciente en que los datos de uso están disponibles para el informe seleccionado. |
 | Uso de informes | Clasificación | Según el recuento de vistas, la clasificación muestra la popularidad de un informe en comparación con todos los demás informes de la organización. Una clasificación de 1 significa que el informe es el que más vistas tiene de todos los de la organización.   |
-| Uso de informes | Vistas de informe por día | Número total de vistas por día. |
+| Uso de informes | Vistas de informe por día | Número total de vistas del informe por día. Se cuentan en el nivel del informe, sin tener en cuenta las vistas de las páginas del informe. |
 | Uso de informes | Espectadores únicos por día | Número total de usuarios diferentes que han visto el informe (según la cuenta de usuario de AAD). |
-| Uso de informes | Método de distribución | Cómo obtuvieron los usuarios acceso al informe, por ejemplo, por ser miembros de un área de trabajo, por tener el informe compartido con ellos o por instalar una aplicación. |
+| Uso de informes | Método de distribución | Cómo los usuarios obtuvieron acceso al informe, por ejemplo, por ser miembros de un área de trabajo, por tener el informe compartido con ellos o por instalar una aplicación. |
 | Uso de informes | Segmentación de la plataforma | Si se ha tenido acceso al informe a través del servicio Power BI (powerbi.com), Power BI Embedded o un dispositivo móvil. |
 | Uso de informes | Usuarios con vistas de informe | Muestra la lista de usuarios que abrieron el informe ordenada por el recuento de vistas. |
-| Uso de informes | Páginas | Si el informe tiene más de una página, se segmenta el informe por las páginas que se han visto. Si ve una opción de lista de "En blanco", significa que recientemente se ha agregado una página del informe (en un plazo de 24 horas, aparece el nombre real de la nueva página en la lista de segmentación) o se han eliminado páginas del informe. "En blanco" captura estos tipos de situaciones. |
-| Rendimiento de informe | Tiempo habitual de apertura | El tiempo habitual de apertura del informe se corresponde con el percentil 50 del tiempo que se tarda en abrir el informe. En otras palabras, es el tiempo por debajo del cual se han completado el 50 % de las acciones de apertura del informe. La página de rendimiento del informe también desglosa el tiempo habitual de apertura de un informe por método de consumo y tipo de explorador. En la actualidad, se mide el rendimiento de la carga inicial del informe y de la primera página que se ve. La medida comienza cuando se solicita el informe y finaliza cuando el último objeto visual finaliza la representación. Las interacciones de informe, como la segmentación, el filtrado o el cambio de páginas, no se incluyen en las métricas de rendimiento.  |
+| Uso de informes | Páginas | Si el informe tiene más de una página, se segmenta el informe por las páginas que se han visto. "En blanco" significa que se ha agregado una página del informe en un plazo de 24 horas tras aparecer la nueva página en la lista de segmentación, o bien que se han eliminado páginas del informe. "En blanco" captura estos tipos de situaciones. |
+| Rendimiento de informe | Tiempo habitual de apertura | El tiempo habitual de apertura del informe se corresponde con el percentil 50 del tiempo que se tarda en abrir el informe. En otras palabras, es el tiempo por debajo del cual se han completado el 50 % de las acciones de apertura del informe. La página de rendimiento del informe también desglosa el tiempo habitual de apertura de un informe por método de consumo y tipo de explorador. En la actualidad, se mide el rendimiento de la carga inicial del informe y de la primera página que se ve. La medida comienza cuando se solicita el informe y finaliza cuando el último objeto visual finaliza la representación. Las interacciones con el informe, como la segmentación, el filtrado o el cambio de páginas, no se incluyen en las métricas de rendimiento.  |
 | Rendimiento de informe | Tendencia de tiempo de apertura | La tendencia del tiempo de apertura refleja los cambios en el rendimiento de apertura del informe con el tiempo. En ella se comparan los tiempos de apertura del informe de la primera mitad del período seleccionado con los tiempos de apertura de la segunda mitad. |
 | Rendimiento de informe | Segmentación de fecha | Puede cambiar el período en la página de rendimiento del informe para calcular, por ejemplo, las tendencias de semana en semana o cada dos semanas. En la esquina inferior izquierda de la página de rendimiento del informe, puede determinar la fecha más antigua y más reciente en que los datos de uso están disponibles para el informe seleccionado. |
 | Rendimiento de informe | Rendimiento diario | El rendimiento del 10 %, 50 % y 90 % de las acciones de apertura del informe calculado para cada día. |
-| Rendimiento de informe | Rendimiento de 7 días | El rendimiento del 10 %, 50 % y 90 % de las acciones de apertura del informe calculado en los últimos 7 días para cada fecha. |
+| Rendimiento de informe | Rendimiento de siete días | Rendimiento del 10 %, 50 % y 90 % de las acciones de apertura del informe, calculado en los siete últimos días de cada fecha. |
 | Rendimiento de informe | Método de consumo | Cómo abrieron los usuarios el informe, por ejemplo, si lo hicieron a través del servicio Power BI (powerbi.com), Power BI Embedded o un dispositivo móvil. |
 | Rendimiento de informe | Exploradores | Explorador que usan los usuarios para abrir el informe, como Firefox, Microsoft Edge y Chrome. |
+
+### <a name="worked-example-of-view-and-viewer-metrics"></a>Ejemplo de trabajo de las métricas de vistas y visores
+
+Supongamos que tenemos cuatro informes a los que acceden tres usuarios de la manera siguiente:
+
+| **Nombre del informe** | **Patrón de uso** |
+| --- | --- |
+| Informe de KPI | <ul><li>El usuario A abre el informe en la página 1. |
+| Informe de RR. HH. | <ul><li>El usuario A abre el informe en la página 1 y, a continuación, la 2, la 3 y la 4. A continuación, vuelve a consultar la página 1. |
+| Informe financiero | <ul><li>El usuario A abre el informe en la página 1 y, a continuación, consulta la 2.</li><li>El usuario B abre el informe en la página 1.</li><li>El usuario C abre el informe en la página 1 y, a continuación, consulta la 3.</li></ul> |
+| Informe de ventas | <ul><li>El usuario A abre el informe en la página 1 y, a continuación, consulta la 2.</li><li>El usuario C abre el informe en la página 2 (por ejemplo, por medio de un marcador).</li><li>Más tarde el mismo día, el usuario C abre el informe en la página 1. </li></ul> |
+
+Suponiendo que toda la telemetría de los clientes llega a Power BI, las métricas resultantes serían las siguientes:
+
+| **Nombre del informe** | **Vistas de informes** | **Vistas de las páginas del informe** | **Lectores** |
+| --- | --- | --- | --- |
+| Informe de KPI | 1 | 1 | 1 |
+| Informe de RR. HH. | 1 | 5 | 1 | 
+| Informe financiero | 3 | 5 | 3 |
+| Informe de ventas | 3 | 3 | 2 |
+
+
 
 ## <a name="update-usage-metrics-report-credentials"></a>Actualización de las credenciales de los informes de métricas de uso
 
@@ -142,11 +165,11 @@ Los informes de métricas de uso son una característica que el administrador de
 
 ## <a name="exclude-user-information-from-usage-metrics-reports"></a>Exclusión de información de usuario de los informes de métricas de uso
 
-Los datos por usuario están habilitados de forma predeterminada en las métricas de uso, mientras que el informe de métricas incluye información sobre la cuenta del consumidor de contenido. Si los administradores no desean exponer esta información a algunos o todos los usuarios, pueden deshabilitar los datos por usuario en las métricas de uso para creadores de contenido en la configuración del inquilino del portal de administración de Power BI para grupos de seguridad especificados o toda la organización, con el fin de excluir información de usuario del informe de uso.
+De forma predeterminada, los datos por usuario están habilitados para las métricas de uso. La información de la cuenta de un consumidor de contenido se incluye en el informe de métricas. Si los administradores no quieren exponer esta información a algunos o todos los usuarios, pueden excluir la información del usuario del informe de uso. En la configuración del inquilino del portal de administración de Power BI, pueden deshabilitar los datos por usuario en las métricas de uso, para los grupos de seguridad especificados o para toda la organización.
 
 1. En la pestaña **Configuración de inquilinos** en el portal de administración, en **Configuración de auditoría y uso**, expanda **Datos por usuario en las métricas de uso para creadores de contenido** y seleccione **Deshabilitado**.
 
-2. Decida si **Eliminar todos los datos por usuario existentes del contenido de las métricas de uso actuales** y seleccione **Aplicar**.
+2. Decida si quiere **eliminar todos los datos por usuario existentes del contenido de las métricas de uso actuales**. Seleccione **Aplicar**.
 
     ![Deshabilitación de las métricas por usuario](media/service-modern-usage-metrics/power-bi-admin-disable-per-user-metrics.png)
 
@@ -163,7 +186,7 @@ Para profundizar en los datos del informe, o para crear los suyos propios con el
 
 - **[Hacer una copia del informe](#create-a-copy-of-the-usage-report) en el servicio Power BI.**   Use **Guardar una copia** para crear una instancia independiente del informe de métricas de uso, que puede personalizar para satisfacer sus necesidades específicas.
 - **[Conectarse al conjunto de datos](#create-a-new-usage-report-in-power-bi-desktop) con un nuevo informe.**   Para cada área de trabajo, el conjunto de datos tiene el nombre "Informe de métricas de uso", como se explicó anteriormente en la sección [Conjunto de datos del informe de métricas de uso](#usage-metrics-report-dataset). Puede usar Power BI Desktop para crear informes de métricas de uso personalizados según el conjunto de datos subyacente.
-- **[Usar Analizar en Excel](#analyze-usage-data-in-excel).**   También puede aprovechar las funciones dinámicas, los gráficos y las características de segmentación de datos de Microsoft Excel 2010 SP1 o posterior para analizar los datos de uso de Power BI. Más información sobre la característica [Analizar en Excel](service-analyze-in-excel.md).
+- **[Usar Analizar en Excel](#analyze-usage-data-in-excel).**   También puede analizar los datos de uso de Power BI en tablas dinámicas, gráficos y características de segmentación disponibles en Microsoft Excel. Más información sobre la característica [Analizar en Excel](service-analyze-in-excel.md).
 
 ### <a name="create-a-copy-of-the-usage-report"></a>Creación de una copia del informe de uso
 
@@ -225,7 +248,7 @@ Al conectarse a los datos de uso en Excel, puede crear tablas dinámicas que uti
 
     ![Analizar en Excel](media/service-modern-usage-metrics/power-bi-export-excel.png)
 
-1. Si aparece el cuadro de diálogo **Para empezar, necesita algunas actualizaciones de Excel**, seleccione **Descargar** e instale las actualizaciones más recientes para la conectividad de Power BI o seleccione **Ya instalé estas actualizaciones**.
+1. Si aparece un cuadro de diálogo en el que se indica que, **para empezar, necesita algunas actualizaciones de Excel**, seleccione **Descargar** e instale las actualizaciones más recientes relativas a la conectividad de Power BI. De lo contrario, seleccione la opción pertinente para indicar que **ya ha instalado estas actualizaciones**.
 
     ![Actualizaciones de Excel](media/service-modern-usage-metrics/power-bi-excel-updates.png)
 
@@ -257,90 +280,76 @@ Para obtener más información, consulte el tema relativo a las [nubes nacionale
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
-Es importante comprender que se pueden producir diferencias al comparar el informe de métricas de uso mejorado con su predecesor. En particular, las métricas de uso del informe ahora se basan en los datos de actividad recopilados del servicio Power BI. Las versiones anteriores del informe de métricas de uso se basaban en la telemetría del cliente, que no siempre coincide con las métricas de uso recopiladas del servicio. Además, el informe de métricas de uso mejorado usa una definición diferente de lo que es una "vista". Una vista es un evento de apertura de informe, como se registra en el servicio cada vez que alguien abre un informe. Cambiar las páginas del informe ya no se considera una vista adicional.
+Es importante comprender que se pueden producir diferencias al comparar el informe de métricas de uso mejorado con su predecesor. En concreto, las métricas de las vistas del informe ahora se basan en los datos de actividad recopilados del servicio Power BI. Las versiones anteriores del informe de métricas de uso solo se basaban en la telemetría del cliente, que no siempre coincide con las métricas de uso recopiladas del servicio. Además, el informe de métricas de uso mejorado utiliza una definición diferente de lo que es una "vista de informe". Una vista de informe corresponde a su apertura, tal y como se registra en el servicio cada vez que alguien abre un informe. El hecho de cambiar las páginas de un informe ya no se considera una vista adicional de este. Ahora se incluye una métrica de vista de páginas del informe, que en concreto cuenta cada vista de página.
 
 > [!NOTE]
-> Dado que el informe de métricas de uso mejorado se basa en los datos de actividad recopilados del servicio Power BI, las métricas de uso ahora coinciden con los recuentos agregados de actividades de los registros de auditoría y registros de actividad. El número de actividades por exceso o por detecto debido a conexiones de red incoherentes, bloqueadores de anuncios u otros problemas del lado cliente ya no se sesgan los recuentos de espectadores y vistas.
+> Dado que el informe de métricas de uso mejorado se basa en los datos de actividad recopilados del servicio Power BI, las métricas de vistas del informe ahora coinciden con los recuentos agregados de actividades de los registros de auditoría y registros de actividad. El número de actividades por exceso o por defecto debido a conexiones de red inestables, bloqueadores de anuncios u otros problemas del lado cliente ya no sesgan los recuentos de visores ni de vistas de informes. Sin embargo, las vistas de páginas de informes siguen dependiendo de la telemetría del cliente y pueden verse afectadas.
 
 Además de las diferencias anteriores entre los informes de métricas de uso antiguos y mejorados, tenga en cuenta las siguientes limitaciones de la versión preliminar:
 
-- Las métricas de uso del panel todavía se basan en la versión anterior de los informes de métricas de uso.
+- Las métricas de uso del panel todavía se basan en la versión anterior de los informes de métricas de uso y todavía no están disponibles en las métricas de uso modernas.
 - Los informes de métricas de uso mejorados solo están disponibles para informes de áreas de trabajo modernas. Los informes de áreas de trabajo heredadas solo admiten la versión anterior de los informes de métricas de uso.
-- Las métricas de rendimiento de los informes se basan en la telemetría del cliente. Algunos tipos de vistas no se incluyen en las medidas de rendimiento. Por ejemplo, cuando un usuario selecciona un vínculo a un informe en un mensaje de correo electrónico, la vista se contabiliza en el uso del informe, pero no hay ningún evento en las métricas de rendimiento.
+- Los datos de rendimiento y las métricas de vistas de páginas de informes se basan en el cliente o dispositivo que envía los datos a Power BI. En función de la latencia de red, los bloqueadores de anuncios, los firewalls y las reglas de red establecidas por la organización, es posible que estos datos nunca lleguen a Power BI. Por lo tanto, es posible que los datos de vistas de páginas de informes y rendimiento no incluyan todas las vistas o todos los usuarios.
+- Algunos tipos de vistas no se incluyen en las medidas de rendimiento. Por ejemplo, cuando un usuario selecciona un vínculo a un informe en un mensaje de correo electrónico, la vista de informe se contabiliza en el uso del informe, pero no hay ningún evento en las métricas de rendimiento.
 - Las métricas de rendimiento del informe no están disponibles para informes paginados. En la pestaña Páginas de la página uso del informe, así como en los gráficos de la página de rendimiento del informe, no se muestran datos de estos tipos de informes.
 - El enmascaramiento de usuario no funciona como se esperaba al usar grupos anidados. Si su organización ha deshabilitado los datos por usuario en métricas de uso para creadores de contenido en la configuración del inquilino del portal de administración, solo se enmascaran los miembros del nivel superior. Los miembros de los subgrupos siguen estando visibles.
 - La inicialización del conjunto de datos de informe de métricas de uso puede tardar unos minutos, lo que hace que se muestre un informe de métricas de uso en blanco porque la interfaz de usuario de Power BI no espera a que termine la actualización. Compruebe el historial de actualización en la configuración del conjunto de datos de informe de métricas de uso para comprobar que la operación de actualización se realizó correctamente.
 - La inicialización del conjunto de datos de informe de métricas de uso podría dar error debido a que se encontró que el tiempo de espera se había agotado durante la actualización. Consulte la sección de solución de problemas a continuación para resolver este problema.
 - El uso compartido está deshabilitado para el informe de métricas de uso. Para proporcionar a los usuarios acceso de lectura al informe, primero debe concederles acceso al área de trabajo.
-- En algunos escenarios, es posible que observe que faltan los datos de rendimiento. Esto puede ocurrir si un usuario abre un informe e interactúa con él antes de que se haya completado la carga o si se ha producido un error durante la carga del informe.
-- Los datos de rendimiento se basan en el cliente o dispositivo que envía los datos a Power BI. En función de la latencia de red, los bloqueadores de anuncios, los firewalls y las reglas de red establecidas por la organización, es posible que los datos de rendimiento nunca lleguen a Power BI. Por tanto, los datos de rendimiento solo pueden presentar una muestra y no pueden incluir o mostrar todos los usuarios. 
+- En algunas situaciones, es posible que observe que faltan los datos de rendimiento. Esto puede ocurrir si un usuario abre un informe e interactúa con él antes de que se haya completado la carga o si se ha producido un error en esta. 
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
 Además de las consideraciones y limitaciones anteriores, las siguientes preguntas y respuestas sobre las métricas de uso pueden ser útiles para los usuarios y los administradores:
 
-**P:** No puedo ejecutar métricas de uso en un informe.
+**P:** ¿Por qué veo menos vistas de páginas del informe que vistas del propio informe? ¿No deben ser al menos iguales? 
+**R:** Las vistas del informe se basan en la telemetría del servidor que se genera cuando se abre el informe por primera vez. Una vez que se abre un informe, sus definiciones de página ya están cargadas en el dispositivo de los usuarios. Las vistas de las páginas del informe se basan en la información de uso del dispositivo del usuario que llega a Power BI. A veces, esto puede bloquearse, tal y como se describe en [Consideraciones y limitaciones](#considerations-and-limitations).
 
+**P:** No puedo ejecutar métricas de uso en un informe.
 **R:** Solo puede ver métricas de uso de los informes de los que sea propietario o para los que tenga permisos de edición.
 
 **P:** ¿Por qué no puedo ver el botón de conmutación activado del nuevo informe de uso en la esquina superior derecha del informe de métricas de uso existente?
-
 **R:** El informe de métricas de uso mejorado solo está disponible para los informes de áreas de trabajo modernas.
 
 **P:** ¿Qué período de tiempo incluye el informe?
-
 **R:** El informe de uso se basa en los datos de actividad de los últimos 30 días, excluidas las actividades del día actual. Puede reducir el período de tiempo mediante la segmentación de datos de fecha de la página de uso del informe, por ejemplo, para analizar solo los datos de la semana pasada.
 
 **P:** ¿Cuándo se ven los datos de actividad más recientes?
-
 **R:** El informe de uso incluye los datos de actividad hasta el último día completado en función de la zona horaria UTC. Los datos que se muestran en el informe también dependen de la hora de actualización del conjunto de datos. Power BI actualiza el conjunto de datos una vez al día.
 
 **P:** Los datos no parecen actualizados.
-
 **R:** Tenga en cuenta que los nuevos datos de actividad pueden tardar hasta 24 horas en aparecer en el informe de uso.
 
 **P:** ¿Cuál es el origen de datos de los datos de uso?
-
 **R:** El conjunto de datos de informe de métricas de uso importa datos de un almacén interno de métricas de uso de Power BI mediante un conector de datos de métricas de uso personalizado. Puede actualizar las credenciales del conector de datos de métricas de uso en la página de configuración del conjunto de datos de informe de métricas de uso.
 
 **P:** ¿Cómo puedo conectarme a los datos? ¿O cambiar el informe predeterminado?
-
 **R:** Puede crear una copia del informe de uso previamente generado de solo lectura. La copia del informe se conecta al mismo conjunto de datos de informe de métricas de uso y permite editar los detalles del informe.
 
 **P:** ¿Qué es un "espectador" y qué es una "vista"?
-
 **R:** Un espectador es alguien que abrió el informe al menos una vez durante el período. Una vista es un evento de apertura de un informe. Cada vez que alguien abre un informe, se registra una vista del informe.
-
 Tenga en cuenta que la definición de una vista difiere de los informes de métricas de uso anteriores. Cambiar las páginas del informe ya no se considera una vista adicional.
 
 **P:** ¿Cómo se calcula la "tendencia de la vista"?
-
 **R:** La tendencia de la vista refleja los cambios en el recuento de vistas con el tiempo. En ella se compara la primera mitad del período seleccionado con la segunda mitad. Puede cambiar el período mediante la segmentación de datos de fecha en la página de uso del informe para calcular, por ejemplo, las tendencias de semana en semana o cada dos semanas.
 
 **P:** ¿Qué significa "distribución" y "plataforma"?
-
 **R:** La distribución muestra cómo los espectadores obtuvieron acceso a un informe: compartido directamente, mediante el acceso al área de trabajo o por medio de una aplicación.
-
 La plataforma indica la tecnología que usa un espectador para abrir un informe: a través de PowerBI.com, Mobile o Embedded.
 
 **P:** ¿Cómo funciona la clasificación del informe?
-
 **R:** Según el recuento de vistas, la clasificación muestra la popularidad de un informe en comparación con todos los demás informes de la organización. Una clasificación de 1 significa que el informe es el que más vistas tiene de todos los de la organización.
 
 **P:** ¿Quiénes son los "usuarios sin nombre"?
-
 **R:** Su organización puede decidir excluir la información de usuario del informe de uso. Si se excluye, el informe de uso hace referencia a los usuarios como Sin nombre.
 
 **P:** ¿Cuál es el "tiempo habitual de apertura del informe"?
-
 **R:** El tiempo habitual de apertura del informe se corresponde con el percentil 50 del tiempo que se tarda en abrir el informe. En otras palabras, es el tiempo por debajo del cual se han completado el 50 % de las acciones de apertura del informe. La página de rendimiento del informe también desglosa el tiempo habitual de apertura de un informe por método de consumo y tipo de explorador.
 
 **P:** ¿Cómo se calcula la "tendencia de hora de apertura?
-
 **R:** La tendencia del tiempo de apertura refleja los cambios en el rendimiento de apertura del informe con el tiempo. En ella se comparan los tiempos de apertura del informe de la primera mitad del período seleccionado con los tiempos de apertura de la segunda mitad. Puede cambiar el período mediante la segmentación de datos de fecha en la página rendimiento del informe para calcular, por ejemplo, las tendencias de semana en semana o cada dos semanas.
 
 **P:**  Hay cuatro informes en la versión anterior del informe de métricas de uso, pero la versión mejorada solo muestra tres.
-
 **R:**  El informe de métricas de uso mejorado solo incluye los informes que se han abierto en los últimos 30 días, mientras que la versión anterior cubre los últimos 90 días. Si un informe no se incluye en el informe de métricas de uso mejorado, es probable que no se haya usado en más de 30 días.
 
 ## <a name="troubleshoot-delete-the-dataset"></a>Solución de problemas: Eliminación del conjunto de datos

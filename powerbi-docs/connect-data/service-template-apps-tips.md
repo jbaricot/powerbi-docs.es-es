@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.openlocfilehash: bb48b92df81a49ee687376ee9f53428c10171b80
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b20bb007c55f7d7d618b70690475d34d9f53fc06
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410123"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491722"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugerencias para crear aplicaciones de plantilla en Power BI
 
@@ -144,6 +144,10 @@ Después de publicar la aplicación de plantilla en AppSource, valore la posibil
 Para redirigir a un usuario al vínculo de descarga de la aplicación en Power BI, vea el ejemplo de código siguiente: [Repositorio de GitHub](https://github.com/microsoft/Template-apps-examples)
 
 [![Vínculo de descarga de la aplicación](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+## <a name="automate-parameter-configuration-during-installation"></a>Configuración de parámetros automatizada durante la instalación
+
+Si es un ISV y está distribuyendo su aplicación de plantilla por medio de su servicio web, puede crear una automatización que configure los parámetros de la aplicación de plantilla de forma automática cuando los clientes instalen la aplicación en su cuenta de Power BI. Esto facilita la tarea a los clientes y aumenta la probabilidad de que una instalación se realice correctamente, ya que no es necesario proporcionar detalles que puede que no conozcan. Consulte [Configuración automatizada de la instalación de una aplicación de plantilla](../developer/template-apps/template-apps-auto-install.md) para obtener más información.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

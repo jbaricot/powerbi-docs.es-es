@@ -1,5 +1,5 @@
 ---
-title: Integración de las alertas de datos con Power Automate
+title: Integre alertas de datos de Power BI con Power Automate
 description: Obtenga información sobre cómo crear flujos de Power Automate desencadenados por alertas de datos de Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/09/2020
+ms.date: 12/08/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 65c7c00a705ed95c26c32a4fc5bcb9e0c18c13bf
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8f73bd959691ea8359a8584966e0b83f439d8652
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407179"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097648"
 ---
-# <a name="integrate-data-alerts-with-power-automate"></a>Integración de las alertas de datos con Power Automate
+# <a name="integrate-power-bi-data-alerts-with-power-automate"></a>Integre alertas de datos de Power BI con Power Automate
 
 Use [Power Automate](/power-automate/getting-started) para integrar Power BI con las aplicaciones y servicios favoritos. Con Power Automate, puede crear flujos de trabajo automatizados para recibir notificaciones, sincronizar archivos, recopilar datos y mucho más. En este artículo, se va a automatizar la generación de un correo electrónico a partir de una alerta de datos de Power BI.
 
@@ -90,6 +90,5 @@ En esta tarea, crearemos desde cero un flujo sencillo que se desencadene mediant
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Introducción a Power Automate](/power-automate/getting-started/)
-* [Establecer alertas de datos en el servicio Power BI](../create-reports/service-set-data-alerts.md)
-* [Establecer alertas de datos en su iPhone](../consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Exportación y envío por correo electrónico de un informe de Power BI con Power Automate](service-automate-power-bi-report-export.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

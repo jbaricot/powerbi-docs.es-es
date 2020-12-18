@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-dataflows
 ms.topic: how-to
-ms.date: 11/13/2020
+ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 106a70b567be7fc095dbc29917036b92b0f577e5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 646f3d37bb0200cf423ccdffb42dc4ce866ade9f
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412561"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098269"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>Configuración del almacenamiento de flujo de datos para usar Azure Data Lake Gen 2 
 
@@ -25,6 +25,8 @@ Hay dos maneras de configurar qué almacén de ADLS Gen 2 se va a usar: puede u
 ## <a name="pre-requisites"></a>Requisitos previos
 
 Para traer su propia cuenta de ADLS Gen 2, debe tener permisos de propietario en la cuenta de almacenamiento, en el grupo de recursos o en la capa de suscripción. Si es administrador, sigue teniendo que asignarse a sí mismo permiso de propietario. 
+
+La cuenta de almacenamiento se debe crear con el [espacio de nombres jerárquico](https://docs.microsoft.com/azure/storage/blobs/create-data-lake-storage-account) habilitado. 
 
 Además, la cuenta de ADLS Gen 2 debe implementarse en la misma región que el inquilino de Power BI. Se producirá un error si las ubicaciones de los recursos no están en la misma región.
 

@@ -1,6 +1,6 @@
 ---
-title: Supervisar las métricas de uso de paneles e informes
-description: Cómo ver, guardar y utilizar las métricas de uso para los informes y paneles de Power BI.
+title: Supervisión de métricas de uso en áreas de trabajo clásicas
+description: Procedimiento para ver, guardar y utilizar las métricas de uso de los informes y paneles de Power BI en áreas de trabajo clásicas.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,18 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 12/15/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e9247e16704ccbbee466a5f85f3a2814bdfc521f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b7184f00af46ce5f49df2510ea5e676c89a37a7a
+ms.sourcegitcommit: fef29a5c5bf1e0dae663c42c9ce5ae50e29ae9be
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411641"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97558502"
 ---
-# <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Supervisar las métricas de uso de paneles e informes de Power BI
+# <a name="monitor-usage-metrics-in-classic-workspaces"></a>Supervisión de métricas de uso en áreas de trabajo clásicas
 
-Si desea crear paneles e informes, las métricas de uso le ayudan a conocer su impacto. Al ejecutar métricas de uso de panel o de uso de informe, verá cómo se usan estos paneles e informes en toda la organización; qué es lo que se está utilizando en la organización, quién lo usa y con qué finalidad.  
+Las métricas de uso le ayudan a conocer el impacto de paneles e informes. Al ejecutar métricas de uso de panel o de uso de informe, verá cómo se usan estos paneles e informes en toda la organización; qué es lo que se está utilizando en la organización, quién lo usa y con qué finalidad. En este artículo se describen los informes de las métricas de uso para las [áreas de trabajo clásicas](service-create-workspaces.md). Si los informes se encuentran en las nuevas áreas de trabajo, consulte el artículo [Supervisión de las métricas de uso en la nueva experiencia de área de trabajo](service-usage-metrics.md).  
 
 Estos informes de métricas de uso son de solo lectura. Sin embargo, puede copiarlos. Al hacerlo, se crea un informe de Power BI estándar que se puede editar. También puede crear sus propios informes en Power BI Desktop, según el conjunto de datos subyacente, que contiene las métricas de uso para todos los paneles o informes en un área de trabajo. Para empezar, el informe copiado muestra métricas solo del panel o el informe seleccionados. Puede quitar el filtro predeterminado y tener acceso al conjunto de datos subyacente, con todas las métricas de uso del área de trabajo seleccionada. Incluso puede ver los nombres de usuarios específicos si el administrador´lo ha permitido.
 
@@ -55,7 +55,7 @@ Solo se pueden ejecutar informes de métricas de uso en el servicio Power BI. S
 
     Las métricas de uso son un eficaz aliado mientras se trabaja para implementar y mantener los informes y paneles de Power BI. ¿Se pregunta qué páginas del informe son las más útiles y cuáles se deben eliminar gradualmente? Puede segmentar por **página del informe** para averiguarlo. ¿Se pregunta si debe crear un diseño móvil para el panel? Puede segmentar por **Plataformas** para descubrir cuántos usuarios tienen acceso a su contenido a través de las aplicaciones móviles en comparación con los que acceden a través del explorador web.
 
-5. Si lo desea, mantenga el puntero sobre una visualización y seleccione el icono de anclaje para agregar la visualización a un panel. También, en la barra de menús superior, seleccione **Página Anclar elemento activo** para agregar la página completa a un panel. Desde el panel puede supervisar las métricas de uso más fácilmente o compartirlas con otras personas.
+5. Si lo desea, mantenga el puntero sobre una visualización y seleccione el icono de anclaje para agregar la visualización a un panel. También, en la barra de menús superior, seleccione **Página Anclar elemento activo** para agregar la página completa a un panel. Puede supervisar las métricas de uso más fácilmente o compartirlas con otras personas desde el panel.
 
     > [!NOTE]
     > Si ancla un icono desde un informe de métricas de uso a un panel, dicho panel no se podrá agregar a una aplicación.
@@ -70,7 +70,7 @@ Solo se pueden ejecutar informes de métricas de uso en el servicio Power BI. S
 
 ## <a name="about-the-usage-metrics-report"></a>Información acerca del informe de métricas de uso
 
-Cuando se selecciona **Métricas de uso** o el icono ![icono de métricas de uso](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) situado junto a un panel o informe, Power BI genera un informe compilado previamente con métricas de uso de dicho contenido para los últimos 90 días.  Este informe es muy similar a los informes de Power BI con los que ya está familiarizado. Podrá segmentarlo en función de cómo han obtenido acceso sus usuarios finales: si ha sido a través de la Web o de una aplicación móvil, etc. A medida que los paneles e informes evolucionen, evolucionará igualmente el informe de métricas de uso, que se actualiza a diario con nuevos datos.  
+Cuando se selecciona **Métricas de uso** o el icono ![icono de métricas de uso](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) situado junto a un panel o informe, Power BI genera un informe compilado previamente con métricas de uso de dicho contenido para los últimos 90 días.  Este informe es muy similar a los informes de Power BI con los que ya está familiarizado. Podrá segmentarlo en función de cómo hayan obtenido acceso los usuarios finales: por medio de la Web, una aplicación móvil, etc. A medida que los paneles e informes evolucionen, evolucionará igualmente el informe de métricas de uso, que se actualiza a diario con nuevos datos.  
 
 Los informes de métricas de uso no aparecen en **Recientes**, **Áreas de trabajo**, **Favoritos** ni otras listas de contenido. Tampoco se pueden agregar a una aplicación. Si ancla un icono desde un informe de métricas de uso a un panel, dicho panel no se podrá agregar a una aplicación.
 
@@ -87,7 +87,7 @@ Para profundizar en los datos del informe, o para crear los suyos propios con el
 | --- | --- | --- | --- |
 | Segmentación por método de distribución |sí |sí |Modo de acceso de los usuarios al contenido. Hay tres métodos posibles: los usuarios pueden acceder al panel o al informe por ser miembros de un [área de trabajo](../consumer/end-user-experience.md), por tener contenido [compartido con ellos](service-share-dashboards.md) o por instalar una aplicación o paquete de contenido.  Observe que las vistas realizadas mediante una aplicación cuentan como "paquete de contenido". |
 | Segmentación por plataforma |sí |sí |¿Se tuvo acceso al panel o informe a través del servicio Power BI (powerbi.com) o mediante un dispositivo móvil? Los dispositivos móviles incluyen todas las aplicaciones iOS, Android y Windows. |
-| Segmentación por páginas de informe |no |sí |Si el informe tiene más de una página, se segmenta el informe por las páginas que se han visto. Si ve una opción de lista de "En blanco", significa que recientemente se ha agregado una página del informe (en un plazo de 24 horas, aparece el nombre real de la nueva página en la lista de segmentación) o se han eliminado páginas del informe. "En blanco" captura estos tipos de situaciones. |
+| Segmentación por páginas de informe |no |sí |Si el informe tiene más de una página, se segmenta el informe por las páginas que se han visto. "En blanco" significa que hace poco se ha agregado una página del informe (en un plazo de 24 horas, aparece el nombre real de la nueva página en la lista de segmentación) o se han eliminado páginas del informe. "En blanco" captura estos tipos de situaciones. |
 | Vistas por día |sí |sí |Número total de vistas por día: una vista se define como la carga de una página del informe o un panel por parte del usuario. |
 | Vistas únicas por día |sí |sí |Número de usuarios *diferentes* que han visto el panel o informe (basado en la cuenta de usuario de AAD). |
 | Vistas por usuario |sí |sí |Número de vistas en los últimos 90 días, desglosado por usuarios individuales. |
@@ -95,7 +95,7 @@ Para profundizar en los datos del informe, o para crear los suyos propios con el
 | Número total de vistas |sí |sí |Número de vistas en los últimos 90 días. |
 | Número total de visualizadores |sí |sí |Número de visualizadores únicos en los últimos 90 días. |
 | Número total de compartidos |sí |no |Número de veces que el panel o informe se compartió en los últimos 90 días. |
-| Total en la organización |sí |sí |Recuento de todos los paneles o informes en toda la organización que han tenido al menos una vista en los últimos 90 días.  Se usa para calcular la clasificación. |
+| Total en la organización |sí |sí |Recuento de todos los paneles o informes en toda la organización que han tenido al menos una vista en los últimos 90 días.  Se usa para calcular la clasificación. |
 | Clasificación: Número total de vistas |sí |sí |Para el número total de vistas de todos los paneles e informes de la organización en los últimos 90 días, posición en la que se clasifica este panel o informe. |
 | Clasificación: Número total de compartidos |sí |no |Para el número total de compartidos de todos los paneles e informes de la organización en los últimos 90 días, posición en la que se clasifica este panel o informe. |
 
@@ -103,7 +103,7 @@ Para profundizar en los datos del informe, o para crear los suyos propios con el
 
 Use **Guardar como** para convertir el informe de métricas de uso a uno de Power BI normal que puede personalizar para satisfacer sus necesidades específicas. También puede usar Power BI Desktop para crear informes de métricas de uso personalizados según el conjunto de datos subyacente. Consulte la sección sobre cómo [establecer una conexión con un conjunto de datos publicado](../connect-data/desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset) para obtener más información.
 
-Más aún, el conjunto de datos subyacente incluye los detalles de uso para todos los paneles o informes en el área de trabajo. Esto le brinda más posibilidades. Por ejemplo, podría crear un informe que comparara todos los paneles del área de trabajo en función del uso. También podría crear un panel de métricas de uso para la aplicación Power BI agregando el uso de todo el contenido distribuido dentro de esa aplicación.  Vea cómo quitar el filtro y [ver todas las métricas de uso del área de trabajo](#see-all-workspace-usage-metrics) más adelante en este artículo.
+Más aún, el conjunto de datos subyacente incluye los detalles de uso para todos los paneles o informes en el área de trabajo. Esto le brinda más posibilidades. Por ejemplo, podría crear un informe que comparara los paneles del área de trabajo en función del uso. También podría crear un panel de métricas de uso para la aplicación Power BI agregando el uso de todo el contenido distribuido dentro de esa aplicación.  Vea cómo quitar el filtro y [ver todas las métricas de uso del área de trabajo](#see-all-workspace-usage-metrics) más adelante en este artículo.
 
 ### <a name="create-a-copy-of-the-usage-report"></a>Creación de una copia del informe de uso
 
@@ -141,7 +141,7 @@ Los informes de métricas de uso son una característica que el administrador gl
 
 Los datos por usuario están habilitados de forma predeterminada en las métricas de uso, mientras que el informe de métricas incluye información sobre la cuenta del consumidor de contenido. Si los administradores prefieren no incluir esta información de algunos de los usuarios o de ninguno, deshabilite la característica para los grupos de seguridad en cuestión o para toda la organización. En tal caso, la información de la cuenta aparece en el informe como *Sin nombre*.
 
-Al deshabilitar las métricas de uso para toda la organización, los administradores pueden utilizar la opción **Elimine todo el contenido existente de las métricas de uso** para eliminar todos los iconos de informes y paneles existentes que se compilaron mediante los informes de métricas de uso. Esta opción permite eliminar todos los accesos a los datos de métricas de uso de todos los usuarios de la organización que ya los puedan estar usando. La eliminación del contenido de las métricas de uso existentes es irreversible.
+Al deshabilitar las métricas de uso para toda la organización, los administradores pueden utilizar la opción **Elimine todo el contenido existente de las métricas de uso** para eliminar todos los iconos de informes y paneles existentes que se compilaron mediante los informes de métricas de uso. Esta opción permite revocar el acceso a los datos de las métricas de uso a los usuarios de la organización que puede que ya los estén utilizando. La eliminación del contenido de las métricas de uso existentes es irreversible.
 
 Consulte [Control de métricas de uso](../admin/service-admin-portal.md#control-usage-metrics) en el artículo del portal de administrador para obtener más información sobre estas opciones. 
 
@@ -153,12 +153,16 @@ Power BI está disponible en nubes nacionales independientes. Estas nubes ofrece
 
 ### <a name="discrepancies-between-audit-logs-and-usage-metrics"></a>Discrepancias entre los registros de auditoría y las métricas de uso
 
-Es importante comprender qué diferencias pueden producirse al comparar métricas de uso y registros de auditoría y por qué. Los *registros de auditoría* se recopilan utilizando datos del servicio Power BI, mientras que las *métricas de uso* se recopilan en el cliente. Los recuentos de agregados de las actividades en los registros de auditoría podrían no coincidir siempre con las métricas de uso por los siguientes motivos:
+Es importante comprender qué diferencias pueden producirse al comparar métricas de uso y registros de auditoría y por qué. Los *registros de auditoría* se recopilan utilizando datos del servicio Power BI, mientras que las *métricas de uso* se recopilan en el cliente. Los recuentos de agregados de las actividades en los registros de auditoría podrían no coincidir siempre con las métricas de uso por las siguientes diferencias:
 
 * En ocasiones, las métricas de uso pueden no contar actividades debido a conexiones de red desiguales, bloqueadores de anuncios y otros problemas que pueden interrumpir el envío de los eventos desde el cliente.
 * Ciertos tipos de vistas no se incluyen en las métricas de uso, como se ha descrito anteriormente en este artículo.
 * En ocasiones, las métricas de uso pueden no contar actividades en situaciones en las que el cliente se actualiza sin necesidad de devolver una solicitud al servicio Power BI.
 * El uso compartido está deshabilitado para el informe de métricas de uso. Para proporcionar a los usuarios acceso de lectura al informe, primero debe concederles acceso al área de trabajo.
+
+### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>Discrepancias entre las API REST y las métricas de uso
+
+Las [API REST de informes](https://docs.microsoft.com/rest/api/power-bi/reports) y las [API REST de administración](https://docs.microsoft.com/rest/api/power-bi/admin) de Power BI también usan los datos del servicio Power BI. Por las razones descritas en la sección anterior, los recuentos de informes (el número de informes) de las API pueden diferir de los recuentos de informes de las métricas de uso. Los problemas de los clientes no afectan a los recuentos de informes derivados de las API, de modo que deben considerarse precisos.
 
 ### <a name="other-considerations"></a>Otras consideraciones
 
@@ -183,7 +187,7 @@ Además de las posibles diferencias entre métricas de uso y registros de audito
 
 **R2:**    Las métricas de uso son una característica de Power BI Pro.
 
-**P:**    Los datos no parecen actualizados. Por ejemplo, los métodos de distribución no aparecen, faltan de páginas del informe, etc.
+**P:**    Los datos no parecen actualizados. Por ejemplo, los métodos de distribución no aparecen, faltan páginas del informe, etc.
 
 **R:**    Los datos pueden tardar hasta 24 horas en actualizarse.
 

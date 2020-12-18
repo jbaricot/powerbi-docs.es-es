@@ -1,5 +1,5 @@
 ---
-title: Planeamiento de la capacidad de análisis insertado
+title: Planeamiento de capacidad de análisis insertados de Power BI
 description: Planeamiento de la capacidad de análisis insertado de Power BI.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 23f58c047eeb47fce24ad38ae54d8f4d7a1c57e7
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: b172b48517ccc8c55821fa8e8217d5e2df398b2d
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983054"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098361"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Planeamiento de la capacidad de análisis insertado de Power BI
 
@@ -27,7 +27,7 @@ Algunos de los aspectos que se deben tener en cuenta a la hora de planear la cap
 * Frecuencias de actualización de datos
 * Patrones de uso adicionales que son difíciles de predecir.
 
-Este artículo está diseñado para facilitar el planeamiento de la capacidad para el análisis insertado de Power BI con la introducción de la [herramienta de evaluación de la carga de capacidad de Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/). Esta herramienta se ha creado para automatizar la prueba de carga de las capacidades de análisis insertado de Power BI (SKU *A* , *EM* o *P* ).
+Este artículo está diseñado para facilitar el planeamiento de la capacidad para el análisis insertado de Power BI con la introducción de la [herramienta de evaluación de la carga de capacidad de Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/). Esta herramienta se ha creado para automatizar la prueba de carga de las capacidades de análisis insertado de Power BI (SKU *A*, *EM* o *P*).
 
 ## <a name="planning-tool"></a>Herramienta de planeamiento
 
@@ -52,7 +52,7 @@ Estos son algunos ejemplos de cómo puede usar la herramienta de planeamiento.
 Para ver los efectos de la prueba de carga en la aplicación de métricas después de que se ejecute la prueba, siga las instrucciones que se indican a continuación. Puede esperar un retraso de hasta 15 minutos desde el momento en que la prueba comienza a generar la carga, hasta el momento en que la carga es visible en las métricas.
 
 1. Expanda la pestaña **Conjuntos de datos** de la página de inicio de la [aplicación de métricas](../../admin/service-admin-premium-monitor-capacity.md).
-2. Inicie una actualización a petición haciendo clic en **Actualizar ahora** . Los administradores deben hacerlo.
+2. Inicie una actualización a petición haciendo clic en **Actualizar ahora**. Los administradores deben hacerlo.
 
     ![Métricas de capacidad de Power BI Premium](media/embedded-capacity-planning/embedded-capacity-planning.png)
 

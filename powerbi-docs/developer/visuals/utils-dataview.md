@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 80c53b183f37dc09ee83ff20bd97f944bdcbc9b4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fc0ebf3d315b10bc14190a5ae01e8d389e2be0cc
+ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379338"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97513744"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
 
@@ -25,6 +25,22 @@ ms.locfileid: "79379338"
 Para instalar el paquete, debe ejecutar el comando siguiente en el directorio con el objeto visual personalizado actual:
 
 npm install powerbi-visuals-utils-dataviewutils --save Este comando instala el paquete y agrega un paquete como dependencia al archivo package.json
+
+## <a name="dataviewwildcard"></a>DataViewWildcard
+
+`DataViewWildcard` proporciona la función `createDataViewWildcardSelector` para admitir el [formato condicional](conditional-format.md#define-how-conditional-formatting-behaves) de una propiedad.
+
+`createDataViewWildcardSelector` devuelve un selector necesario para definir cómo se aplicará la entrada de formato condicional en el panel de formato, según `dataviewWildcardMatchingOption (InstancesAndTotals (default), InstancesOnly, TotalsOnly)`.
+
+Ejemplo:
+
+ ```typescript
+import { dataViewWildcard } from "powerbi-visuals-utils-dataviewutils";
+
+let selector = dataViewWildcard.createDataViewWildcardSelector(dataViewWildcard.DataViewWildcardMatchingOption.InstancesAndTotals);
+// returns {data: [{dataViewWildcard:{matchingOption: 0}}]};
+
+```
 
 ## <a name="datarolehelper"></a>DataRoleHelper
 

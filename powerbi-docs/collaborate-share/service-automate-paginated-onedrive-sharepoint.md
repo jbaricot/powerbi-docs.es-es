@@ -9,16 +9,17 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 4a0a504db15d78bec112aaafd2a972f066e88193
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6aaad48fb3e97aa6c1b4fc51834ee593a49a8192
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407685"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097740"
 ---
 # <a name="save-a-paginated-report-to-onedrive-for-business-or-sharepoint-online"></a>Guardado de un informe paginado en OneDrive para la Empresa o SharePoint Online
 
 Con [Power Automate](/power-automate/getting-started), puede automatizar la exportación y la distribución de informes paginados de Power BI a diversos formatos y escenarios admitidos. En este artículo, se usa Power Automate para automatizar el guardado de un informe paginado de Power BI en OneDrive para la empresa o en una carpeta de SharePoint Online.
+
 
 :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/paginated-onedrive-flow.png" alt-text="Captura de pantalla del flujo de Power Automate para guardar un informe paginado en OneDrive o SharePoint Online":::
 
@@ -28,7 +29,7 @@ Con [Power Automate](/power-automate/getting-started), puede automatizar la expo
 
 Para continuar, asegúrese de que tiene lo siguiente:
 
-- Al menos un área de trabajo en el inquilino de Power BI respaldada por una capacidad reservada. Esta capacidad puede ser cualquiera de las SKU A4/P1 – A6/P3. Obtenga más información sobre las [capacidades reservadas en Power BI Premium](../admin/service-premium-what-is.md).
+- Al menos un área de trabajo en el inquilino de Power BI respaldada por una capacidad reservada. Esta capacidad puede ser cualquiera de las SKU A4/P1 – A6/P3. Obtenga más información sobre las [capacidades reservadas para informes paginados en Power BI Premium](../admin/service-premium-what-is.md#paginated-reports).
 - Acceso a los conectores estándar de Power Automate, incluidos en todas las suscripciones de Office 365.
 
 ## <a name="save-a-paginated-report-to-onedrive-for-business-or-a-sharepoint-online-folder"></a>Guardado de un informe paginado en OneDrive para la Empresa o en una carpeta de SharePoint Online 
@@ -57,7 +58,7 @@ Con cualquiera de estas plantillas, las exportaciones periódicas de un informe 
 
     :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/onedrive-template-3-advanced-recurrence.png" alt-text="Se muestran las opciones avanzadas de periodicidad.":::
 
-1. En el cuadro **Área de trabajo**, seleccione un área de trabajo de una capacidad reservada. En el cuadro **Informe**, seleccione el informe paginado en el área de trabajo seleccionada que quiera exportar. En el cuadro **Formato de exportación**, seleccione el formato de exportación que quiera. Opcionalmente, puede especificar parámetros para el informe paginado. Busque descripciones detalladas de los parámetros en la [referencia de conectores para la API REST de Power BI](/connectors/powerbi/#export-to-file-for-paginated-reports).  
+1. En el cuadro **Área de trabajo**, seleccione un área de trabajo de una capacidad reservada. En el cuadro **Informe**, seleccione el informe paginado en el área de trabajo seleccionada que quiera exportar. En el cuadro **Formato de exportación**, seleccione el formato de exportación que quiera. Opcionalmente, puede especificar parámetros para el informe paginado. Encontrará descripciones detalladas de los parámetros en la [referencia de los conectores para la API REST de Power BI](/connectors/powerbi/#export-to-file-for-paginated-reports).  
 
     :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/onedrive-template-4-export-format.png" alt-text="Selección del informe paginado, el área de trabajo y el formato de exportación.":::
 
@@ -69,7 +70,7 @@ Con cualquiera de estas plantillas, las exportaciones periódicas de un informe 
 
 1. Cuando haya terminado, seleccione  **Paso siguiente** o **Guardar**. Power Automate crea y evalúa el flujo, y le notifica si encuentra errores. 
 
-1. Si hay errores, seleccione **Editar flujo** para corregirlos. En caso contrario, seleccione la flecha **Atrás** para ver los detalles del flujo y ejecutar el nuevo flujo. 
+1. Si hay errores, seleccione **Editar flujo** para corregirlos. En caso contrario, seleccione la flecha **Atrás** para ver los detalles del flujo y ejecutar el nuevo. 
 
     Al ejecutar el flujo, Power Automate exporta un informe paginado en el formato especificado a OneDrive para la Empresa o SharePoint Online.  
 

@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 06/18/2020
+ms.date: 12/14/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 424f3cc7412813cb9ea9f401d6edd22257e8d14a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b26f8fe04c7aaf6847de50398c54db6a3870844
+ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411802"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97513790"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Formas de colaborar y compartir en Power BI
 
@@ -27,22 +27,22 @@ Ha creado paneles e informes, y es posible que colabore en ellos con sus compañ
 
 **Colaborar**
 
-- Colaborar con sus compañeros en *áreas de trabajo* para crear informes y paneles significativos.
-- Colaborar en *Microsoft Teams*.
+- [Colaborar con compañeros en *áreas de trabajo*](#collaborate-in-a-workspace) para crear informes y paneles significativos.
+- [Colaborar en *Microsoft Teams*](#collaborate-in-microsoft-teams).
 
 **Distribuir o compartir paneles e informes**
 
-- *Compartir paneles o informes* desde Mi área de trabajo u otra área de trabajo.
-- Anotar y compartir desde aplicaciones móviles de *Power BI*.
-- Agrupar paneles e informes de áreas de trabajo en *aplicaciones* y distribuirlas entre un grupo más grande o en toda la organización.
-- Insertar de informes en *portales seguros* o *sitios web públicos*.
-- Imprimir informes.
-- Crear una *aplicación de plantilla* que se puede distribuir a usuarios externos de Power BI mediante Microsoft AppSource.
+- [*Compartir paneles o informes*](#share-dashboards-and-reports) desde Mi área de trabajo u otra área de trabajo.
+- Anotar y [compartir desde *aplicaciones móviles* de Power BI](#annotate-and-share-from-the-power-bi-mobile-apps).
+- Agrupar paneles e informes de áreas de trabajo en *aplicaciones* y [distribuir las aplicaciones](#distribute-insights-in-an-app) entre un grupo más grande o en toda la organización.
+- [Insertar informes](#embed-reports-in-secure-portals-or-public-web-sites) en *portales seguros* o *sitios web públicos*.
+- [Imprimir informes](#print-or-save-as-pdf-or-other-static-file).
+- [Crear una *aplicación de plantilla*](#create-and-deploy-template-apps) que se puede distribuir a usuarios externos de Power BI mediante Microsoft AppSource.
  
 **Compartir datos**
 
-- Crear *conjuntos de datos compartidos* que sus compañeros de trabajo pueden usar como base para sus propios informes, en sus propias áreas de trabajo.
-- Crear *flujos de datos* como una manera de compartir un origen de datos común.
+- [Crear *conjuntos de datos compartidos*](#share-a-dataset) que sus compañeros de trabajo pueden usar como base para sus propios informes, en sus propias áreas de trabajo.
+- [Crear *flujos de datos*](#create-dataflows) como una manera de compartir un origen de datos común.
 
 Con independencia de la opción que se elija, para compartir el contenido se necesita una [licencia de Power BI Pro](../fundamentals/service-features-license-type.md) o que el contenido esté en una [capacidad Premium](../admin/service-premium-what-is.md). Los requisitos de licencia para los compañeros que ven su contenido varían en función de la opción que elija. En las secciones siguientes puede encontrar más detalles. 
 
@@ -67,7 +67,7 @@ Obtenga información sobre cómo [crear las nuevas áreas de trabajo](service-cr
 
 ## <a name="collaborate-in-microsoft-teams"></a>Colaboración en Microsoft Teams
 
-Aumente la colaboración controlada por datos de la organización mediante la inserción de los informes e informes paginados de Power BI en Microsoft Teams. El servicio Power BI tiene un botón **Compartir en Teams** para los informes. Puede agregar pestañas de Power BI independientes para cada informe individual y asignar a cada pestaña el nombre del informe o cualquier otro. 
+Aumente la colaboración controlada por datos de la organización mediante la inserción de los informes e informes paginados de Power BI en Microsoft Teams. El servicio Power BI tiene un botón **Chatear en Teams** para los informes. Puede agregar pestañas de Power BI independientes para cada informe individual y asignar a cada pestaña el nombre del informe o cualquier otro. 
 
 Cuando se agrega una pestaña de informe de Power BI a Microsoft Teams, este crea de forma automática una pestaña de conversación para el informe. Todos los usuarios de ese canal de Microsoft Teams pueden ver y analizar el informe en la conversación. 
 
@@ -77,7 +77,7 @@ Obtenga más información sobre la [colaboración en Microsoft Teams con Power 
 
 ## <a name="share-dashboards-and-reports"></a>Compartir los paneles e informes
 
-Supongamos que ha finalizado un informe en Power BI Desktop y desea que otras personas tengan acceso a él. Una manera de hacerlo posible es *compartirlo* en el servicio Power BI. Lo publica en su propia área de trabajo o en otra área de trabajo. Quizá lo complemente con un panel y, con eso, lo tiene todo listo.
+Supongamos que tiene disponible un informe en Power BI Desktop y quiere que otras personas tengan acceso a él. Una manera de hacerlo posible es *compartirlo* en el servicio Power BI. Lo publica en su propia área de trabajo o en otra área de trabajo. Quizá lo complemente con un panel y, con eso, lo tiene todo listo.
 
 ![Uso compartido de un informe](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
@@ -118,14 +118,14 @@ También puede publicar aplicaciones para personas que no pertenecen a su organi
 ### <a name="embed-in-secure-portals"></a>Inserción en portales seguros
 
 Puede insertar informes de Power BI en portales o sitios web en los que los usuarios esperan encontrarlos.  
-Las opciones **Insertar en SharePoint Online** e **Insertar** del servicio Power BI permiten insertar informes para los usuarios internos de forma segura. En cualquier opción que elija, Power BI aplica todos los permisos y la seguridad de los datos antes de que los usuarios puedan ver el contenido. La persona que consulta el informe necesita la licencia pertinente.  
+Las opciones **Insertar en SharePoint Online** e **Insertar** del servicio Power BI permiten insertar informes para los usuarios internos de forma segura. Con independencia de la opción que elija, Power BI aplica todos los permisos y la seguridad de los datos antes de que los usuarios vean el contenido. La persona que consulta el informe necesita la licencia pertinente.  
 
 - **Insertar en SharePoint Online** funciona con el elemento web de Power BI para SharePoint Online. Proporciona una experiencia de inicio de sesión único con control sobre cómo se inserta el informe. Obtenga más información sobre la [inserción en SharePoint Online](service-embed-report-spo.md).
 - **Insertar** funciona en cualquier portal o sitio web que sea compatible con la inserción de contenido mediante una dirección URL o un iFrame. Obtenga más información sobre la opción [Insertar](service-embed-secure.md).
 
 ### <a name="publish-to-public-web-sites"></a>Publicación en sitios web públicos
 
-Con la opción **Publicar en Web**, puede publicar informes de Power BI en todo Internet mediante la inserción de visualizaciones en entradas de blog, sitios web, redes sociales y otras comunicaciones en línea. Todos los usuarios de Internet pueden ver los informes y no se puede controlar quién puede ver lo que ha publicado. No necesitan una licencia de Power BI. La publicación en la Web está disponible solo para los informes que puede editar. No se pueden publicar informes en la Web si están compartidos con usted o si se encuentran en una aplicación. Obtenga información sobre cómo [publicar en la Web](service-publish-to-web.md)
+La opción **Publicar en Web** le permite publicar informes de Power BI en todo Internet mediante la inserción de visualizaciones en entradas de blog, sitios web, redes sociales y otras comunicaciones en línea. Todos los usuarios de Internet pueden ver los informes, y no se puede controlar quién puede ver lo que ha publicado. No necesitan una licencia de Power BI. La publicación en la Web está disponible solo para los informes que puede editar. No se pueden publicar informes en la Web si están compartidos con usted o si se encuentran en una aplicación. Obtenga información sobre cómo [publicar en la Web](service-publish-to-web.md)
 
 >[!Warning]
 >Use [Publicar en la Web](service-publish-to-web.md) solo para compartir el contenido públicamente, no para uso compartido interno.

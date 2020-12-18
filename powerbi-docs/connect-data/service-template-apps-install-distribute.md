@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.openlocfilehash: b60728978a3429249d7376fdfe1477bf67ef293a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e6499d9e4547f1bd2b8cf4ac29fbc375af871f8a
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96402004"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998677"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalación y distribución de aplicaciones de plantilla en la organización
 
@@ -64,10 +64,6 @@ Para instalar, personalizar y distribuir una aplicación de plantilla, necesita 
 ## <a name="connect-to-data"></a>Conectar a datos
 
 1. Haga clic en **Ir a la aplicación**.
-
-1. En la ventana **Empezar a trabajar con la nueva aplicación**, seleccione **Explorar**.
-
-   ![Pantalla de presentación de la aplicación de plantilla](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
 
    La aplicación se abre y muestra los datos de ejemplo.
 
@@ -138,6 +134,20 @@ Si originalmente descargó la aplicación de AppSource, cuando haya disponible u
 
 >[!IMPORTANT]
 >Recuerde [actualizar la aplicación](#customize-and-share-the-app) después de sobrescribir para aplicar los cambios en los informes y el panel de los usuarios de la aplicación de la organización.
+
+## <a name="delete-a-template-app"></a>Eliminación de una aplicación de plantilla
+
+Una aplicación de plantilla instalada consiste en la aplicación y su área de trabajo asociada. Si quiere quitar la aplicación de plantilla, tiene dos opciones:
+* **Quitar completamente la aplicación y su área de trabajo asociada**: para quitar completamente la aplicación de plantilla y su área de trabajo asociada, vaya al icono de la aplicación en la página de aplicaciones, seleccione el icono de la papelera y, luego, haga clic en **Eliminar** en el cuadro de diálogo que aparece.
+* **Cancelar la publicación de la aplicación**: esta opción permite quitar la aplicación, pero mantener su área de trabajo asociada. Resulta útil si, por ejemplo, hay personalizaciones que quiera conservar.
+
+    Para cancelar la publicación de la aplicación:
+    1. Abra la aplicación.
+    1. Haga clic en el icono de edición con forma de lápiz para abrir el área de trabajo de la aplicación de plantilla.
+    1. En el área de trabajo de la aplicación de plantilla, seleccione **Más opciones (...)** y, después, **Cancelar publicación de la aplicación**.
+
+        ![Captura de pantalla de la opción para cancelar la publicación de la aplicación.](media/service-template-apps-install-distribute/power-bi-template-app-unpublish.png)
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 

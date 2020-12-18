@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 60214c16cbd287a30631e7ad9fbab274cb8f4cb0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 22fa980230b01132c8cb4faa6e7e959409f19f1b
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414309"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353137"
 ---
 # <a name="ai-with-dataflows"></a>IA con flujos de datos
 
@@ -454,9 +454,9 @@ Una vez que guarde su flujo de datos, el modelo se invocará automáticamente al
 
 En este artículo se proporciona información general de Automated Machine Learning para flujos de datos en el servicio Power BI. Los siguientes artículos también pueden resultarle útiles.
 
-- [Tutorial: Creación de un modelo de Machine Learning en Power BI (versión preliminar) ](../../connect-data/service-tutorial-build-machine-learning-model.md)
+- [Tutorial: Creación de un modelo de Machine Learning en Power BI](../../connect-data/service-tutorial-build-machine-learning-model.md)
 - [Tutorial: Uso de Cognitive Services en Power BI](../../connect-data/service-tutorial-use-cognitive-services.md)
-- [Tutorial: Invocación de un modelo de Machine Learning Studio (clásico) en Power BI (versión preliminar)](../../connect-data/service-tutorial-invoke-machine-learning-model.md)
+- [Tutorial: Consumo de modelos de Azure Machine Learning en Power BI](../../connect-data/service-aml-integrate.md)
 
 En los artículos siguientes encontrará más información sobre los flujos de datos y Power BI:
 

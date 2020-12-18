@@ -10,12 +10,12 @@ ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 02/20/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f647bcafe035515a1d5d1438ed580cabea579134
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 22548c092e1407d1744a019c15cb0d29a94913eb
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401498"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353367"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Tutorial: Uso de Cognitive Services en Power BI
 
@@ -180,6 +180,6 @@ En este tutorial, aplicó las funciones de puntuación de opiniones y etiquetado
 
 Puede que también esté interesado en los siguientes artículos.
 
-* [Tutorial: Invocación de un modelo de Machine Learning Studio (clásico) en Power BI (versión preliminar)](service-tutorial-invoke-machine-learning-model.md)
+* [Tutorial: Consumo de modelos de Azure Machine Learning en Power BI](service-aml-integrate.md)
 * [Integración de Azure Machine Learning en Power BI (versión preliminar)](../transform-model/dataflows/dataflows-machine-learning-integration.md)
 * [Cognitive Services en Power BI (versión preliminar)](../transform-model/dataflows/dataflows-machine-learning-integration.md)

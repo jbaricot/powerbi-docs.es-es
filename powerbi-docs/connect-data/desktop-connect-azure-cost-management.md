@@ -8,14 +8,14 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 09/30/2020
+ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6d99e91657d0c5f0bbd1e9c665f00d16c34ba24f
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411480"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353252"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Creación de objetos visuales e informes con el conector Azure Cost Management de Power BI Desktop
 
@@ -56,7 +56,7 @@ Para conectarse con una cuenta de **Contrato de cliente de Microsoft**, puede ob
 
     ![En la captura de pantalla se muestran las propiedades de Azure Cost Management con un ámbito de identificador del perfil de facturación.](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
-7.  Cuando se le solicite, inicie sesión con su cuenta de usuario y contraseña de Azure. 
+7.  Cuando se le solicite, inicie sesión con su cuenta de usuario y contraseña de Azure. Debe usar un propietario de la cuenta de facturación para acceder correctamente. 
 
 
 ## <a name="connect-to-an-enterprise-agreement-account"></a>Conectar a una cuenta de Contrato Enterprise
@@ -71,13 +71,11 @@ Si necesita conectarse a una cuenta de Contrato Enterprise (EA), puede obtener e
 
     ![En la captura de pantalla se muestran las propiedades de Azure Cost Management con un ámbito de número de inscripción.](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
-6.  Cuando se le solicite, inicie sesión con su cuenta de usuario y contraseña de Azure. 
+6.  Cuando se le solicite, inicie sesión con su cuenta de usuario y contraseña de Azure. Debe usar una cuenta de administrador Enterprise para los Contratos Enterprise.
 
 ## <a name="data-available-through-the-connector"></a>Datos disponibles a través del conector
 
 Una vez que se haya autenticado correctamente, aparecerá una ventana **Navegador** con las siguientes tablas de datos disponibles:
-
-
 
 | **Table** | **Descripción** |
 | --- | --- |

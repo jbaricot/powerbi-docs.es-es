@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: fc421f7635a3d6e3b2336d5bce081d7914c0fad5
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410629"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998873"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Conexión al informe de seguimiento de la COVID-19 en EE. UU.
 En este artículo se explica cómo instalar la aplicación de plantilla para el informe de seguimiento de la COVID-19 y cómo conectarse a los orígenes de datos.
@@ -28,7 +28,7 @@ Después de instalar la aplicación de plantilla y conectarse a los orígenes de
 
 1. Haga clic en el vínculo siguiente para obtener la aplicación: [Aplicación de plantilla del Informe de seguimiento de la COVID-19 en EE. UU.](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. Una vez que esté en la página AppSource de la aplicación, haga clic en [**OBTENER AHORA**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms).
+1. Una vez que esté en la página de AppSource de la aplicación, haga clic en [**OBTENER AHORA**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms).
 
     [![Informe de seguimiento de la COVID-19 en EE. UU. en AppSource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
@@ -38,11 +38,11 @@ Después de instalar la aplicación de plantilla y conectarse a los orígenes de
 
 ## <a name="connect-to-data-sources"></a>Conexión a orígenes de datos
 
-1. Haga clic en el icono de la página Aplicaciones para abrir la aplicación.
+1. Haga clic en el icono de la página Aplicaciones para abrir la aplicación. La aplicación se abre y muestra los datos de ejemplo.
 
-1. En la pantalla de presentación que aparece, elija **Conectar**.
+1. Seleccione el vínculo **Conectar los datos** en el banner de la parte superior de la página.
 
-   ![Pantalla de presentación de la aplicación de plantilla](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
+   ![Vínculo de conexión de datos de la aplicación de GitHub](media/service-connect-to-covid-19-tracking/power-bi-covid-19-connect-data.png)
 
 1. Aparecerá el cuadro de diálogo Parámetros. No hay parámetros obligatorios. Haga clic en **Next**.
 

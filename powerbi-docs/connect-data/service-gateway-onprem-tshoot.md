@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 09/25/2020
+ms.date: 12/10/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: de8d24af0dbaa0ed4b27efca140cf29acda9df76
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634652"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353426"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Solución de problemas de puertas de enlace: Power BI
 
@@ -238,6 +238,37 @@ Recibe el mensaje de error "-10709 Error de conexión" si la delegación no est�
 * Asegúrese de tener el servidor SAP HANA en la pestaña de delegación en Active Directory para la cuenta de servicio de puerta de enlace.
 
    ![Pestaña Delegación](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
+## <a name="export-logs-for-a-support-ticket"></a>Exportación de registros para una incidencia de soporte técnico
+
+Los registros de la puerta de enlace son necesarios para solucionar problemas y crear una incidencia de soporte técnico. Siga estos pasos para extraer dichos registros:
+
+1. Identifique el clúster de la puerta de enlace.
+
+    Si es propietario de un conjunto de datos, compruebe primero el nombre del clúster de la puerta de enlace asociado al conjunto de datos. En la imagen siguiente, *IgniteGateway* es el clúster de la puerta de enlace.
+
+    ![Clúster puerta de enlace](media/service-gateway-onprem-tshoot/gateway-cluster.png)
+
+2. Compruebe las propiedades de la puerta de enlace.
+
+    El administrador de la puerta de enlace debe comprobar el número de miembros de esta que hay en el clúster y si el equilibrio de carga está habilitado.
+
+    Si el equilibrio de carga está habilitado, se debe repetir el paso 3 para todos los miembros de la puerta de enlace. Si no está habilitado, la exportación de registros de la puerta de enlace principal es suficiente.
+
+3. Recupere y exporte los registros de la puerta de enlace.
+
+    A continuación, el administrador de la puerta de enlace, que también lo es del sistema de esta, debe seguir estos pasos:
+
+    a. Inicie sesión en la máquina de la puerta de enlace. Después, inicie la [aplicación de la puerta de enlace de datos local](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-app) para iniciar sesión en la puerta de enlace.
+    
+    b. Habilite el [registro adicional](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#slow-performing-queries).
+    
+    c. Si quiere, puede [habilitar las características de supervisión del rendimiento](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#enable-performance-logging) e incluir los registros de rendimiento para proporcionar más detalles y solucionar problemas.
+    
+    d. Ejecute el escenario del que está intentando capturar los registros de la puerta de enlace.
+    
+    e. [Exporte los registros de la puerta de enlace](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app).
+
 
 ## <a name="refresh-history"></a>Actualizar historial
 

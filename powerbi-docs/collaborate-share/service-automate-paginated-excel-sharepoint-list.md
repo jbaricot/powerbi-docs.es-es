@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/08/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 74d61d40c4447f2649f5cce5fbcdcba68cd31afe
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7a48a9a594364de4261aa66de48c1a4262392364
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408007"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097855"
 ---
 # <a name="export-a-paginated-report-for-each-row-in-an-excel-online-table-or-sharepoint-list"></a>Exportación de un informe paginado para cada fila de una tabla de Excel Online o de una lista de SharePoint
 
@@ -30,7 +30,7 @@ Cada fila de la tabla de Excel Online o de la lista de SharePoint Online puede
 
 Para continuar, asegúrese de que tiene lo siguiente:
 
-- Al menos un área de trabajo en el inquilino de Power BI respaldada por una capacidad reservada. Esta capacidad puede ser cualquiera de las SKU A4/P1 – A6/P3. Obtenga más información sobre las [capacidades reservadas en Power BI Premium](../admin/service-premium-what-is.md).
+- Al menos un área de trabajo en el inquilino de Power BI respaldada por una capacidad reservada. Esta capacidad puede ser cualquiera de las SKU A4/P1 – A6/P3. Obtenga más información sobre las [capacidades reservadas para informes paginados en Power BI Premium](../admin/service-premium-what-is.md#paginated-reports).
 - Acceso a los conectores estándar de Power Automate, incluidos en todas las suscripciones de Office 365.
 - Si usa una tabla de Excel Online, debe tener el formato de una tabla en Excel. Vea [Creación de una tabla](https://support.microsoft.com/office/create-a-table-in-excel-bf0ce08b-d012-42ec-8ecf-a2259c9faf3f) para obtener información sobre cómo hacerlo.
 
@@ -73,9 +73,9 @@ Para continuar, asegúrese de que tiene lo siguiente:
 
 1. En **Aplicar a cada uno**, el cuadro **Seleccione una salida del paso anterior** se establece en **valor** de forma predeterminada. Este valor itera por las acciones contenidas en **Aplicar a cada uno** para cada fila de la tabla de Excel Online o de la lista de SharePoint Online.  
 
-1. En el cuadro **Área de trabajo**, seleccione un área de trabajo de una capacidad dedicada. En el cuadro **Informe**, seleccione el informe paginado en el área de trabajo seleccionada que quiera exportar. Si establece **Escriba un valor personalizado** en la lista desplegable, puede establecer **Área de trabajo** e **Informe** en una columna de la tabla de Excel Online o de la lista de SharePoint Online. Estas columnas deben contener identificadores de área de trabajo y de informe, respectivamente.  
+1. En el cuadro **Área de trabajo**, seleccione un área de trabajo de una capacidad reservada. En el cuadro **Informe**, seleccione el informe paginado en el área de trabajo seleccionada que quiera exportar. Si establece **Escriba un valor personalizado** en la lista desplegable, puede establecer **Área de trabajo** e **Informe** en una columna de la tabla de Excel Online o de la lista de SharePoint Online. Estas columnas deben contener identificadores de área de trabajo y de informe, respectivamente.  
 
-1. Seleccione un **Formato de exportación** en la lista desplegable o establézcalo en una columna de la tabla de Excel Online que contenga formatos de exportación deseados. Por ejemplo, PDF, DOCX o PPTX. Opcionalmente, puede especificar parámetros para el informe paginado. Busque descripciones detalladas de los parámetros en la [referencia de conectores para la API REST de Power BI](/connectors/powerbi/#export-to-file-for-paginated-reports).
+1. Seleccione un **Formato de exportación** en la lista desplegable o establézcalo en una columna de la tabla de Excel Online que contenga formatos de exportación deseados. Por ejemplo, PDF, DOCX o PPTX. Opcionalmente, puede especificar parámetros para el informe paginado. Encontrará descripciones detalladas de los parámetros en la [referencia de los conectores para la API REST de Power BI](/connectors/powerbi/#export-to-file-for-paginated-reports).
 
     :::image type="content" source="media/service-automate-paginated-excel-sharepoint-list/excel-template-export-format-9.png" alt-text="Rellene Exportar a archivo para los informes paginados.":::
 
@@ -105,7 +105,7 @@ Para continuar, asegúrese de que tiene lo siguiente:
 
 1. Cuando haya terminado, seleccione  **Paso siguiente** o **Guardar**. Power Automate crea y evalúa el flujo, y le notifica si encuentra errores. 
 
-1. Si hay errores, seleccione **Editar flujo** para corregirlos. En caso contrario, seleccione la flecha **Atrás** para ver los detalles del flujo y ejecutar el nuevo flujo. 
+1. Si hay errores, seleccione **Editar flujo** para corregirlos. En caso contrario, seleccione la flecha **Atrás** para ver los detalles del flujo y ejecutar el nuevo. 
 
 
 ## <a name="next-steps"></a>Pasos siguientes

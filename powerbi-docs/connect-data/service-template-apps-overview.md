@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 5c897909d9fe31e4b22743a77058caba4767a579
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: a11ac8edb9abab29f58c3e4eda15ae204d105b26
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410146"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491745"
 ---
 # <a name="what-are-power-bi-template-apps"></a>¿Qué son las aplicaciones de plantilla de Power BI?
 
@@ -98,6 +98,7 @@ Para publicar una aplicación de plantilla en el servicio Power BI y AppSource,
 - Use AppSource como almacén en línea para hospedar la aplicación. De este modo, todos los usuarios de Power BI podrán encontrar la aplicación. 
 - Considere la posibilidad de ofrecer más de una aplicación de plantilla para escenarios únicos independientes. 
 - Habilite la personalización de datos, por ejemplo admita la configuración personalizada de parámetros y conexiones mediante el instalador.
+- Si es un ISV y distribuye su aplicación por medio de su servicio web, tenga en cuenta la posibilidad de configurar los parámetros de forma automatizada durante la instalación para facilitar la tarea a los clientes y aumentar la probabilidad de realizar la instalación correctamente. Consulte [Configuración automatizada de la instalación de una aplicación de plantilla](../developer/template-apps/template-apps-auto-install.md) para obtener más información.
 
 Vea [Sugerencias para crear aplicaciones de plantilla en Power BI](service-template-apps-tips.md) para obtener más sugerencias.
 

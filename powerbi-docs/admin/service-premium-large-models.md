@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/04/2020
+ms.date: 12/10/2020
 ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 1f9a34b68f465eda5b8921e48576c9bef5d17f36
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 7256e17f561aa79d63b7fefd268df560903de6b2
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781715"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353114"
 ---
 # <a name="large-datasets-in-power-bi-premium"></a>Conjuntos de datos grandes en Power BI Premium
 
-Los conjuntos de datos de Power BI pueden almacenar datos en una memoria caché en memoria muy comprimida para optimizar el rendimiento de las consultas, a fin de permitir una rápida interactividad del usuario. Gracias a las capacidades Premium, se pueden habilitar conjuntos de datos grandes que superen el límite predeterminado de 10 GB por medio de la opción **Formato de almacenamiento de conjunto de datos de gran tamaño**. Si esta opción se habilita, el tamaño de los conjuntos de datos estará limitado por el tamaño de la *capacidad* Premium.
+Los conjuntos de datos de Power BI pueden almacenar datos en una memoria caché en memoria muy comprimida para optimizar el rendimiento de las consultas, a fin de permitir una rápida interactividad del usuario. Gracias a las capacidades Premium, se pueden habilitar conjuntos de datos grandes que superen el límite predeterminado de 10 GB por medio de la opción **Formato de almacenamiento de conjunto de datos de gran tamaño**. Si esta opción está habilitada, el tamaño de los conjuntos de datos estará limitado por el tamaño de la *capacidad* prémium o por el tamaño máximo establecido por el administrador.
 
 Los conjuntos de datos grandes se pueden habilitar para todas las SKU P de la versión Premium y las SKU A de la versión Embedded. El límite de tamaño de los conjuntos de datos grandes en Premium es comparable al de Azure Analysis Services en cuanto a la limitación del tamaño del modelo de datos.
 
@@ -136,6 +136,8 @@ Tenga en cuenta las siguientes restricciones cuando use conjuntos de datos grand
 - **Descarga en Power BI Desktop**: si un conjunto de datos se almacena en Files Premium, se producirá un error al [descargar como archivo .pbix](../create-reports/service-export-to-pbix.md).
 - **Regiones admitidas**: los conjuntos de datos grandes se pueden usar en todas las regiones de Azure que admitan el almacenamiento de archivos Premium. Para más información, vea [Productos disponibles por región](https://azure.microsoft.com/global-infrastructure/services/?products=storage) y consulte la tabla de la siguiente sección.
 
+- **Configuración del tamaño máximo del conjunto de datos**: los administradores pueden configurar el tamaño máximo del conjunto de datos. Se puede configurar el valor máximo desde 0,1 GB hasta la capacidad máxima de la SKU.
+
 ## <a name="region-availability"></a>Disponibilidad en regiones
 
 Los conjuntos de datos grandes de Power BI solo están disponibles en determinadas regiones de Azure que admiten [Azure Premium Files Storage](/azure/storage/files/storage-files-planning#storage-tiers).
@@ -146,6 +148,9 @@ En la siguiente lista se indican las regiones en las que hay disponibles conjunt
 |---------|---------|
 |Este de Australia     | australiaeast        |
 |Sudeste de Australia     | australiasoutheast        |
+|Este de Canadá     | canadaeast        |
+|Centro de Canadá     | canadacentral        |
+|India central     | centralindia        |
 |Centro de EE. UU.     | centralus        |
 |Este de Asia     | eastasia        |
 |Este de EE. UU.     | estado        |
@@ -161,6 +166,7 @@ En la siguiente lista se indican las regiones en las que hay disponibles conjunt
 |Sur de Reino Unido     | uksouth        |
 |Oeste de Reino Unido     | ukwest        |
 |Oeste de Europa     | westeurope        |
+|Oeste de la India     | westindia        |
 |Oeste de EE. UU.     | westus        |
 |Oeste de EE. UU. 2     | westus2        |
 

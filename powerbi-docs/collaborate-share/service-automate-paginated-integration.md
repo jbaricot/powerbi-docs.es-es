@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 2689597e35801d6829b29790309ea53ad410ff47
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5c69abe925751e8b065f262e151bfee65c487238
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412032"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492067"
 ---
 # <a name="export-power-bi-paginated-reports-with-power-automate"></a>Exportación de informes paginados de Power BI con Power Automate
 
@@ -40,7 +40,7 @@ Seleccione una plantilla de la lista para empezar a trabajar con un tutorial pas
 
 - [Guardar un informe paginado de Power BI en OneDrive para la Empresa o en una carpeta de SharePoint Online](service-automate-paginated-onedrive-sharepoint.md).  
 - [Exportar un informe paginado de Power BI para elementos de una lista de SharePoint Online o para cada fila de una tabla de Excel Online](service-automate-paginated-excel-sharepoint-list.md).
-- Guardar un informe paginado de Power BI en una carpeta del sistema local.
+- [Guardar un informe paginado de Power BI en una carpeta del sistema local](service-automate-paginated-local-file.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

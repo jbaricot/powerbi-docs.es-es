@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/06/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cce4f9e78fce27fedf795a4a0016593580f061a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e9fd1179dc15776cef701476d38b18823f3a8deb
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96403177"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998808"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Conexión con el Informe de presencia de comunicación de crisis
 
@@ -57,9 +57,6 @@ Al instalar el ejemplo de Comunicación de crisis, tome nota de la [ruta de acce
 
 1. Seleccione el icono de la página Aplicaciones para abrir la aplicación.
 
-1. En la pantalla de presentación, seleccione **Explorar**.
-
-   ![Pantalla de presentación de la aplicación de plantilla](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-splash-screen.png)
 
    La aplicación se abre y muestra los datos de ejemplo.
 
@@ -69,7 +66,7 @@ Al instalar el ejemplo de Comunicación de crisis, tome nota de la [ruta de acce
 
 1. En el cuadro de diálogo, haga lo siguiente:
    1. En el campo SharePoint_Folder, escriba su [ruta de acceso de la lista de SharePoint "Estado de CI_Employee"](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi).
-   1. En el campo List_ID, escriba el id. de la lista que ha obtenido de la configuración de la lista. Cuando termine, haga clic en **Siguiente**.
+   1. En el campo List_ID, escriba el id. de la lista que ha obtenido de la configuración de esta. Cuando termine, haga clic en **Siguiente**.
 
    ![Cuadro de diálogo de la dirección URL de la aplicación Informe de presencia de comunicación de crisis](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-url-dialog.png)
 

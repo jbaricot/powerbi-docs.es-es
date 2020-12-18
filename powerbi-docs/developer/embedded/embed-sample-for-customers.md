@@ -1,5 +1,5 @@
 ---
-title: Inserción de contenido en una aplicación para los clientes
+title: Inserción de contenido en su aplicación de análisis insertados de Power BI para sus clientes
 description: Información sobre cómo insertar un informe, un panel o un icono en una aplicación de ejemplo de análisis insertado de Power BI
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/02/2020
-ms.openlocfilehash: 7bc825992f5c7382e1c0a24783f732957913c588
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: e79a73880b50a0edb5e507726cb0c995ba13cd77
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907195"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098430"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Tutorial: Inserción de contenido de Power BI por medio de una aplicación de ejemplo de *inserción para los clientes*
 

@@ -1,5 +1,5 @@
 ---
-title: Solución de problemas de una aplicación insertada
+title: Solución de problemas de la aplicación de análisis insertados en Power BI
 description: En este artículo se examinan algunos problemas comunes que pueden encontrarse al insertar contenido desde Power BI.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749078"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098085"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Solución de problemas de una aplicación insertada
 
@@ -101,7 +101,7 @@ HTTP/1.1 403 Forbidden
 
 ### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>Error de autenticación AADSTS90002: No se ha encontrado el inquilino "authorize"
 
- Si recibe mensajes de registro como ***error: invalid_request, error_description: AADSTS90002: No se ha encontrado el inquilino "authorize"***, se debe a que ADAL 4.x no admite "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" como una dirección URL de autoridad.
+ Si recibe mensajes de registro como ***error: invalid_request, error_description: AADSTS90002: No se ha encontrado el inquilino "authorize"** _, se debe a que ADAL 4.x no admite "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" como dirección URL de autoridad.
  
 Para resolver este problema, debe quitar "oauth2/authorize/" del final de la dirección URL de la autoridad, vea [Power BI Developer Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) (Ejemplos para desarrolladores de Power BI) como referencia.
 
@@ -109,15 +109,15 @@ Para resolver este problema, debe quitar "oauth2/authorize/" del final de la dir
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Error de autenticación AADSTS70002 o AADSTS50053
 
-**_(AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos)_**
+_*_ (AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una contraseña incorrectos)_**
 
-Si usa Power BI Embedded y recurre a la autenticación directa de Azure AD, y recibe mensajes de registro como ***error:unauthorized_client,error_description:AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos***, se debe a que la autenticación directa dejó de usarse de forma predeterminada el 14 de junio de 2018.
+Si usa Power BI Embedded y recurre a la autenticación directa de Azure AD, y recibe mensajes de registro como **_error:unauthorized_client, error_description:AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una contraseña incorrectos_* _, se debe a que la autenticación directa dejó de usarse de forma predeterminada el 14 de junio de 2018.
 
 Hay una manera de volver a activar esta opción por medio de una [directiva de Azure AD](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), que se puede limitar al ámbito de la organización o a una [entidad de servicio](/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 Se recomienda que habilite esta directiva solo por aplicación.
 
-Para crear esta directiva, debe ser un **administrador global** en el directorio donde va a crear y asignar la directiva. Este es un script de ejemplo para crear la directiva y asignarla a la entidad de servicio en esta aplicación:
+Para crear esta directiva, debe ser _ *administrador global** en el directorio donde va a crear y asignar la directiva. Este es un script de ejemplo para crear la directiva y asignarla a la entidad de servicio en esta aplicación:
 
 1. Instale el [módulo de versión preliminar de Azure AD PowerShell](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
