@@ -30,8 +30,6 @@
           href: mobile-apps-offline-data.md
         - name: "Power\_BI para HoloLens\_2"
           href: mobile-hololens2-app.md
-        - name: "Power\_BI para HoloLens (1.ª generación)"
-          href: mobile-mixed-reality-app.md
     - name: Procedimientos
       items:
         - name: Todas las aplicaciones móviles
