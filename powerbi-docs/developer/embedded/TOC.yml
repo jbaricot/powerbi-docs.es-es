@@ -28,7 +28,7 @@
           href: embedded-capacity.md
         - name: Planificación de capacidad
           href: embedded-capacity-planning.md
-        - name: Consideración para generar un token de inserción
+        - name: Consideraciones para generar un token de inserción
           href: generate-embed-token.md
         - name: Procedimientos recomendados de rendimiento
           href: embedded-performance-best-practices.md
@@ -50,8 +50,6 @@
           href: embed-service-principal-certificate.md
         - name: Traslado de una aplicación insertada a producción
           href: move-to-production.md
-        - name: Insertar contenido desde una aplicación
-          href: embed-from-apps.md
         - name: Exportar informe a archivo
           href: export-to.md
         - name: Exportación de un informe paginado a un archivo
@@ -94,7 +92,7 @@
           items:
             - name: API REST de administración de recursos de Azure
               href: /rest/api/power-bi-embedded/
-            - name: API de REST de Power BI
+            - name: API REST de Power BI
               href: /rest/api/power-bi/
         - name: "Bibliotecas de Power\_BI"
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'

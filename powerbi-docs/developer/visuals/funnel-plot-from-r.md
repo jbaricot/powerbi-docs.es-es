@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 5df13baf295745f86c89ce75d2890ca2c13894ee
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 7ef9b75f01dedaf55be77312f07217593d886ef0
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049347"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675290"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Tutorial: Creación de un trazado de embudo a partir de un script de R para un elemento visual de R
 En este artículo se describe paso a paso cómo crear un trazado de embudo a partir de un script de R en un objeto visual de R.
@@ -60,7 +60,7 @@ Después, edite el script para reflejar [este script](https://github.com/microso
    pbiviz package
    ```
 
-   Este comando crea la carpeta *funnel-visual* con el objeto visual de plantilla inicial (`-t` para **plantilla** ). PBIVIZ se puede encontrar en la carpeta *dist* y el código de R en el archivo *script.r* . Intente importarlo en Power BI y vea lo que sucede.
+   Este comando crea la carpeta *funnel-visual* con el objeto visual de plantilla inicial (`-t` para **plantilla**). PBIVIZ se puede encontrar en la carpeta *dist* y el código de R en el archivo *script.r*. Intente importarlo en Power BI y vea lo que sucede.
 
 1. Edite el archivo *script.r* y reemplace el contenido por el script anterior.
 
@@ -150,7 +150,7 @@ El objeto visual todavía no es descriptivo porque el usuario tiene que conocer 
    > #RVIZ_IN_PBI_GUIDE:END:Removed to enable user parameters
    > ```
 
-   ![script antes y después](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
+   ![script antes y después](https://raw.githubusercontent.com/microsoft/PowerBI-visuals/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
 
    Puede decidir no exponer los parámetros en la interfaz de usuario, como se ha hecho.  
 
@@ -181,7 +181,7 @@ Como el objeto visual resultante está basado en PNG, no responde al desplazamie
 
 1. Abra *script.r* y anote la estructura. Puede abrirlo y ejecutarlo en RStudio, ya que no usa la entrada externa. 
 
-   Esto crea y guarda *out.html* . Este archivo es independiente (sin dependencias externas) y define los gráficos dentro del widget HTML. 
+   Esto crea y guarda *out.html*. Este archivo es independiente (sin dependencias externas) y define los gráficos dentro del widget HTML. 
 
    > [!IMPORTANT]
    > Para los usuarios de `htmlWidgets`, se proporcionan utilidades de R en la [carpeta r_files](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files) a fin de facilitar la conversión de objetos `plotly` o `widget` en HTML independiente. 
@@ -198,7 +198,7 @@ Como el objeto visual resultante está basado en PNG, no responde al desplazamie
 
    El nuevo script usa el paquete `plotly` para convertir el objeto **ggplot** en un objeto **plotly** y, después, el paquete `htmlWidgets` para guardarlo en un archivo HTML. 
 
-   La mayoría de las funciones de utilidad se mueven a [_r_files/utils.r_](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files/utils.r) y se agrega la función `generateNiceTooltips` para la apariencia del objeto **plotly** .
+   La mayoría de las funciones de utilidad se mueven a [_r_files/utils.r_](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files/utils.r) y se agrega la función `generateNiceTooltips` para la apariencia del objeto **plotly**.
 
    ![1](./samples/funnel-plot/chapter-4/RHTML-v01/script-before-after-1.PNG)
    
@@ -245,7 +245,7 @@ Como el objeto visual resultante está basado en PNG, no responde al desplazamie
 
 ## <a name="tips-and-tricks"></a>Trucos y sugerencias
 
-* Se recomienda que los desarrolladores editen *pbiviz.json* para almacenar los metadatos correctos, como **versión** , **correo electrónico** , **nombre** , **tipo de licencia** , etc.
+* Se recomienda que los desarrolladores editen *pbiviz.json* para almacenar los metadatos correctos, como **versión**, **correo electrónico**, **nombre**, **tipo de licencia**, etc.
 
    > [!IMPORTANT]
    > El campo **guid** es el identificador único de un objeto visual. Si crea un proyecto para cada objeto visual, el GUID también será diferente. Solo será el mismo cuando se usa un proyecto anterior y se copia en un objeto visual nuevo, algo que no se debe hacer.
@@ -280,15 +280,15 @@ Como el objeto visual resultante está basado en PNG, no responde al desplazamie
 Explore los objetos visuales en la [galería de widgets HTML](http://gallery.htmlwidgets.org/) para usarlos en el siguiente objeto visual. Para facilitar el proceso, se ha creado un [repositorio de proyectos de objetos visuales](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) con más de 20 objetos visuales HTML interactivos entre los que elegir.
 
 > [!TIP]
-> Para cambiar entre los widgets HTML, use **Formato** > **Configuración** > **Tipo** . Pruébelo con [este archivo PBIX](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML/assets/sample.pbix). 
+> Para cambiar entre los widgets HTML, use **Formato** > **Configuración** > **Tipo**. Pruébelo con [este archivo PBIX](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML/assets/sample.pbix). 
 
 #### <a name="to-use-a-sample-for-your-visual"></a>Para usar una muestra para el objeto visual
 
 1. Descargue la carpeta completa.
 1. Edite *script.r* y *dependencies.json* para mantener un solo widget.
 1. Edite *capabilities.json* y *settings.ts* para quitar el selector de `Type`.
-1. Cambie `const updateHTMLHead: boolean = true;` por `false` en *visual.ts* . *(para mejorar el rendimiento)*
-1. Cambie los metadatos de *pbiviz.json* , en especial, el campo `guid`.
+1. Cambie `const updateHTMLHead: boolean = true;` por `false` en *visual.ts*. *(para mejorar el rendimiento)*
+1. Cambie los metadatos de *pbiviz.json*, en especial, el campo `guid`.
 1. Vuelva a empaquetar y continúe con la personalización del objeto visual como de la forma prevista. 
 
 ![En la captura de pantalla se muestran seis widgets descritos anteriormente en este artículo.](./media/funnel-plot/diagram-four.PNG)
