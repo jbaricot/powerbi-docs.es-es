@@ -26,7 +26,7 @@
       items:
         - name: "Estructura de proyectos de objetos visuales de Power\_BI"
           href: visual-project-structure.md
-        - name: " Integración de sistemas de objetos visuales de Power\_BI"
+        - name: "Integración de sistemas de objetos visuales de Power\_BI"
           href: power-bi-visuals-concept.md
         - name: Objetos visuales para organizaciones en Power BI
           href: power-bi-custom-visuals-organization.md

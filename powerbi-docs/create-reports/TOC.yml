@@ -124,7 +124,9 @@
       items:
         - name: Informes de Power BI
           items:
-            - name: Creación de un informe en el servicio
+            - name: Creación de informes rápidos en el servicio
+              href: service-quick-create-report.md
+            - name: Creación de un informe de Excel en el servicio
               href: service-report-create-new.md
             - name: Habilitación de la actualización automática de páginas
               href: desktop-automatic-page-refresh.md
