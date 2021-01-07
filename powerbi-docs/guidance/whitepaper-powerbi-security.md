@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 879f931797786ee1bb9f12a56323c50642716afb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 806869b10b52ff7c161484f3e8d38fbc61b85f60
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398600"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961279"
 ---
 # <a name="power-bi-security-whitepaper"></a>Notas del producto sobre la seguridad de Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "96398600"
 
 **Power BI** es una oferta de servicio de software en línea (_SaaS_ o software como servicio) de Microsoft que le permite crear con facilidad y rapidez paneles, informes, conjuntos de información y visualizaciones de Business Intelligence de autoservicio. Con Power BI, se puede conectar a muchos orígenes de datos diferentes, combinar y dar forma a los datos de esas conexiones y, después, crear informes y paneles que se pueden compartir con otros usuarios.
 
-El servicio Power BI se rige por los [términos de Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) y la [Declaración de privacidad de Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para conocer la ubicación de procesamiento de datos, vea los términos de ubicación de procesamiento de datos de los Términos de Microsoft Online Services. Para obtener información de cumplimiento, el [Centro de confianza de Microsoft](https://www.microsoft.com/trustcenter) es el principal recurso para Power BI. El equipo de Power BI se esfuerza para brindar a sus clientes las innovaciones y la productividad más recientes. Power BI está actualmente en el nivel D del marco de cumplimiento de Microsoft 365. Obtenga más información sobre el cumplimiento en el [centro de confianza de Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview).
+El servicio Power BI se rige por los [términos de Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) y la [Declaración de privacidad de Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para conocer la ubicación de procesamiento de datos, vea los términos de ubicación de procesamiento de datos de los Términos de Microsoft Online Services. Para obtener información de cumplimiento, el [Centro de confianza de Microsoft](https://www.microsoft.com/trust-center/product-overview) es el principal recurso para Power BI. El equipo de Power BI se esfuerza para brindar a sus clientes las innovaciones y la productividad más recientes. Power BI está actualmente en el nivel D del marco de cumplimiento de Microsoft 365. Obtenga más información sobre el cumplimiento en el [centro de confianza de Microsoft](https://docs.microsoft.com/compliance/regulatory/offering-home).
 
 En este artículo se describe la seguridad de Power BI a través de una explicación de su arquitectura; después se explica cómo se autenticarán los usuarios en Power BI y cómo se establecen las conexiones de datos y, luego, cómo se almacenan y mueven los datos a través del servicio en Power BI. La última sección está dedicada a preguntas relacionadas con la seguridad, con las respuestas correspondientes.
 
@@ -119,13 +119,13 @@ Los vínculos siguientes proporcionan información adicional sobre los centros d
 - [Regiones de Azure](https://azure.microsoft.com/regions/): información sobre la presencia global y las ubicaciones de Azure.
 - [Servicios de Azure, por región](https://azure.microsoft.com/regions/#services): una lista completa de los servicios de Azure (tanto de infraestructura como de plataforma) disponibles de Microsoft en cada región.
 
-Actualmente, el servicio Power BI está disponible en regiones específicas, con servicio de centros de recursos como se describe en el [centro de confianza de Microsoft](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). El siguiente vínculo muestra un mapa de centros de datos de Power BI; puede mantener el puntero sobre una región para ver los centros de datos que se encuentran allí:
+Actualmente, el servicio Power BI está disponible en regiones específicas, con servicio de centros de recursos como se describe en el [centro de confianza de Microsoft](https://www.microsoft.com/trust-center/product-overview). El siguiente vínculo muestra un mapa de centros de datos de Power BI; puede mantener el puntero sobre una región para ver los centros de datos que se encuentran allí:
 
 * [Centros de datos de Power BI](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)
 
 Microsoft también proporciona centros de datos para nubes soberanas. Para obtener más información sobre la disponibilidad del servicio Power BI para nubes nacionales, vea [Nubes nacionales de Power BI](https://powerbi.microsoft.com/clouds/).
 
-Para obtener más información sobre dónde se almacenan los datos y cómo se usan, vea [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where). Los compromisos sobre la ubicación de los datos de cliente en reposo se especifican en los **Términos de procesamiento de datos** de los [Términos de Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31).
+Para obtener más información sobre dónde se almacenan los datos y cómo se usan, vea [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview). Los compromisos sobre la ubicación de los datos de cliente en reposo se especifican en los **Términos de procesamiento de datos** de los [Términos de Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31).
 
 ## <a name="user-authentication"></a>Autenticación de usuario
 
@@ -356,7 +356,7 @@ En la tabla siguiente se muestra la compatibilidad de autenticación basada en c
 | **Compatibilidad con CBA** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
 | **Power BI** (inicio de sesión en el servicio) | admitido | admitido | No compatible |
-| **SSRS ADFS** (conectarse al servidor SSRS) | No compatible | Compatible. | No compatible |
+| **SSRS ADFS** (conectarse al servidor SSRS) | No compatible | Compatible | No compatible |
 
 Las aplicaciones Power BI Mobile se comunican activamente con el servicio Power BI. Se usan datos de telemetría para recopilar estadísticas de uso y datos similares de las aplicaciones móviles, que se transmiten a los servicios que se usan para supervisar el uso y la actividad; no se envían datos personales con los datos de telemetría.
 
