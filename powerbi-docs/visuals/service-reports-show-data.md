@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/4/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 960a3dec2276acba994190e73de671f2b071bc50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa15bae7ab94619a9f652aa20da9222e3d4af41
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409732"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721648"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Visualización de los datos subyacentes de una visualización
 
@@ -52,7 +52,7 @@ También puede exportar los datos que se usan para crear la visualización como 
 6. Para ocultar los datos, anule la selección de **Explorar** > **Mostrar datos**.
 
 ## <a name="using-show-records"></a>Uso de Mostrar registros
-También puede centrarse en un registro de datos de una visualización y profundizar en los datos que contiene. 
+También puede centrarse en un registro de datos de una visualización y profundizar en los detalles que contiene. 
 
 1. Para usar **Ver registros**, seleccione una visualización para activarla. 
 

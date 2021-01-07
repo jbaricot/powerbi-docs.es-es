@@ -10,12 +10,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 12/14/2020
-ms.openlocfilehash: af1fac127d1a20f13bc99fc2d05510491a01be5a
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: fde06eaa3b2dd44b91e8a47981ac4e9fecba5af3
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492044"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721418"
 ---
 # <a name="chat-in-microsoft-teams-directly-from-the-power-bi-service"></a>Chat en Microsoft Teams directamente en el servicio Power BI
 
@@ -35,11 +35,11 @@ Siga estos pasos para compartir vínculos a informes, paneles y objetos visuales
 
    * **Chatear en Teams** en la barra de acciones de un panel o informe:
 
-       ![Captura de pantalla del botón Compartir en Teams en la barra de acciones.](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
+       ![Captura de pantalla del botón Chatear en Teams en la barra de acciones.](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
     
    * **Chatear en Teams** en el menú contextual de un objeto visual:
     
-      ![Captura de pantalla del botón Compartir en Teams en el menú contextual de un objeto visual.](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
+      ![Captura de pantalla del botón Chatear en Teams en el menú contextual de un objeto visual.](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
 
 1. En el cuadro de diálogo **Compartir en Microsoft Teams**, seleccione el equipo o el canal a los que quiera enviar el vínculo. Si lo desea, puede escribir un mensaje. Es posible que se le pida que inicie sesión primero en Microsoft Teams.
 

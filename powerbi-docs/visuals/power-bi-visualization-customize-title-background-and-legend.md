@@ -1,28 +1,28 @@
 ---
 title: Introducción al formato de las visualizaciones de Power BI
-description: Personalización del título, el fondo y la leyenda de una visualización
+description: Personalización de los títulos, los fondos, las etiquetas y las leyendas de las visualizaciones
 author: mihart
 ms.author: mihart
 ms.reviewer: mihart
-featuredvideoid: IkJda4O7oGs
+featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 03/06/2020
+ms.date: 12/18/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c974161e4cc7d52bf412ea14800bf720a297cd25
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2a8c125a37e0d70ea735d9f1962f64deb69061c8
+ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409824"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97745148"
 ---
-# <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalización de los títulos, los fondos y las leyendas de las visualizaciones
+# <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>Personalización de los títulos, los fondos, las etiquetas y las leyendas de las visualizaciones
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 
-En este tutorial obtendrá información sobre diferentes formas de personalizar las visualizaciones. Hay numerosas opciones para personalizar las visualizaciones. La mejor manera para obtener información de todas ellas es explorando el panel **Formato** (seleccione el icono de rodillo de pintura). Para ayudarle a comenzar, en este artículo se muestra cómo personalizar un título de visualización, una leyenda o un fondo, y agregar un tema.
+En este tutorial obtendrá información sobre diferentes formas de personalizar las visualizaciones. Hay numerosas opciones para personalizar las visualizaciones. La mejor manera para obtener información de todas ellas es explorando el panel **Formato** (seleccione el icono de rodillo de pintura). Para ayudarlo a comenzar, en este artículo se muestra cómo personalizar un título de visualización, una leyenda, un fondo o una etiqueta, y agregar un tema.
 
 No se pueden personalizar todas las visualizaciones. Consulte la [lista completa](#visualization-types-that-you-can-customize) de visualizaciones para obtener más información.
 
@@ -126,6 +126,29 @@ Guarde los cambios realizados y pase a la sección siguiente.
 
 Si necesita revertir todos los cambios, seleccione **Volver al valor predeterminado** en la parte inferior del panel de personalización **Leyenda**.
 
+## <a name="customize-total-labels-for-stacked-visuals"></a>Personalización de las etiquetas totales para objetos visuales apilados
+Los objetos visuales apilados pueden mostrar las etiquetas de datos y las etiquetas totales. En un gráfico de columnas apiladas, las etiquetas de datos identifican el valor de cada parte de una columna. Las etiquetas totales muestran el valor total de toda la columna agregada. 
+
+Vea como Rien agrega las etiquetas locales a un gráfico apilado y, luego, siga los pasos siguientes para intentarlo usted mismo.
+
+> [!VIDEO https://www.youtube.com/embed/OgjX-pFGgfM]
+
+1. Abra la página del informe **Información general** y seleccione el gráfico de barras **Promedio de tamaño de área de ventas por cadena y tipo de tienda**.
+
+1. En la pestaña **Visualización**, seleccione el ![icono del gráfico de barras apiladas](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-bar.png) para convertir este gráfico de barras en un gráfico de barras apiladas. Observe que el objeto visual conserva sus etiquetas de datos. 
+
+    ![Captura de pantalla del gráfico de barras apiladas nuevo.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-chart.png)
+
+1. Seleccione el icono del rodillo de pintura para abrir el panel Formato en la pestaña **Visualización**.
+
+1. Mueva el control deslizante **Etiquetas totales** a **Activado**. 
+
+    ![Captura de pantalla que muestra el control deslizante de etiquetas totales establecido en Activado.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-totals.png)
+
+1. También puede dar formato a las etiquetas totales. En este ejemplo, el color se cambió a blanco, se aumentó el tamaño de la fuente y se optó por mostrar los valores como **Miles**.
+
+    ![Captura de pantalla del gráfico de barras apiladas nuevo con las etiquetas totales.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
+
 ## <a name="customize-colors-using-a-theme"></a>Personalizar los colores con un tema
 
 Con los temas para informes puede aplicar cambios de diseño a todo el informe; por ejemplo, usar colores corporativos, cambiar conjuntos de iconos o aplicar nuevos formatos visuales predeterminados. Al aplicar un tema para informe, todos los objetos visuales del informe usan los colores y el formato del tema seleccionado.
@@ -139,32 +162,32 @@ Para aplicar un tema a un informe, seleccione **Cambiar tema** en la barra de me
 
 A continuación, encontrará una lista de las visualizaciones y opciones de personalización que están disponibles para cada tipo:
 
-| Visualización | Título | Fondo | Leyenda |
-|:--- |:--- |:--- |:--- |
-| Área | sí | sí |sí |
-| Barra | sí | sí |sí |
-| Tarjeta | sí | sí |n/d |
-| Tarjeta de varias filas | sí | sí | n/d |
-| Columna | sí | sí | sí |
-| Combinado | sí | sí | sí |
-| Anillo | sí | sí | sí |
-| Mapa coroplético | sí | sí | sí |
-| Embudo | sí | sí | n/d |
-| Medidor | sí | sí | n/d |
-| Influenciador clave | sí | sí | n/d |
-| KPI | sí | sí | n/d |
-| Línea | sí | sí | sí |
-| Mapa | sí | sí | sí |
-| Matriz | sí | sí | n/d |
-| Gráfico circular | sí | sí | sí |
-| Preguntas y respuestas | sí | sí | n/d |
-| Dispersión | sí | sí | sí |
-| Forma | sí | sí | sí |
-| Segmentación | sí | sí | n/d |
-| Tabla | sí | sí | n/d |
-| Cuadro de texto | no | sí | n/d |
-| Gráfico de rectángulos | sí | sí | sí |
-| Cascada | sí | sí | sí |
+| Visualización | Título | Fondo | Leyenda | Etiquetas totales
+|:--- |:--- |:--- |:--- |:--- |
+| Área | sí | sí |sí | sí  |
+| Barra | sí | sí |sí | sí |
+| Tarjeta | sí | sí |N/D | N/D |
+| Tarjeta de varias filas | sí | sí | N/D | n/d |
+| Columna | sí | sí | sí |  sí |
+| Combinado | sí | sí | sí | sí |
+| Anillo | sí | sí | sí | n/d |
+| Mapa coroplético | sí | sí | sí |n/d |
+| Embudo | sí | sí | n/d |N/D |
+| Medidor | sí | sí | N/D |N/D |
+| Influenciador clave | sí | sí | N/D |N/D |
+| KPI | sí | sí | N/D |N/D |
+| Línea | sí | sí | sí |n/d |
+| Mapa | sí | sí | sí |n/d |
+| Matriz | sí | sí | N/D |sí |
+| Gráfico circular | sí | sí | sí |n/d |
+| Preguntas y respuestas | sí | sí | N/D |N/D |
+| Dispersión | sí | sí | sí |n/d |
+| Forma | sí | sí | sí |n/d |
+| Segmentación | sí | sí | N/D |N/D |
+| Tabla | sí | sí | N/D |sí |
+| Cuadro de texto | no | sí | N/D |N/D |
+| Gráfico de rectángulos | sí | sí | sí |n/d |
+| Cascada | sí | sí | sí |n/a |
 
 ## <a name="next-steps"></a>Pasos siguientes
 

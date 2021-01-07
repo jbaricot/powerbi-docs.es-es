@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 12/16/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: f2eacca4571b8d00c8fc7e5ca5c6ef7935afaf29
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e239b95fe18ba9ddfad399c5b53b10a3f1f4a4c2
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419507"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97674899"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Novedades de Power BI Desktop
 
-## <a name="november-2020-update-2872610"></a>Actualización de noviembre de 2020 (2.87.261.0)
+## <a name="december-2020-update-2883210"></a>Actualización de diciembre de 2020 (2.88.321.0)
 
-Nuestras actualizaciones de noviembre de Power BI Desktop incluyen una recopilación completa de la familia de características nuevas y mejoradas, que no hacen más que aportar ventajas. 
+Las actualizaciones de diciembre de Power BI Desktop lo sorprenderán. 
 
 Las actualizaciones mensuales de blogs y videos de Power BI Desktop ahora incluyen las últimas actualizaciones para Power BI Mobile y el servicio Power BI. En este artículo se describen las actualizaciones de Power BI Desktop. Para obtener información acerca de las actualizaciones para dispositivos móviles y servicio Power BI, consulte los correspondientes artículos de novedades:
 
@@ -46,30 +46,29 @@ También puede ver el [vídeo de actualización mensual de Power BI](#power-bi-
 
 Las siguientes actualizaciones son las novedades de Power BI Desktop de este mes:
 
-
 ### <a name="reporting"></a>Informes
-* Nueva lista de campos (versión preliminar) [[vídeo]](https://youtu.be/DT_tOas5YIo?t=15) [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467053) 
-* Nueva vista de modelo (versión preliminar) [[vídeo]](https://youtu.be/DT_tOas5YIo?t=61) [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467054) [[artículo]](../create-reports/power-bi-personalize-visuals.md)
-* Aplicación de todos los filtros ya está disponible con carácter general [[vídeo]](https://youtu.be/DT_tOas5YIo?t=98) [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467055) [[artículo]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Control deslizante de zoom visual [[vídeo]](https://youtu.be/DT_tOas5YIo?t=160) [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467056) [[artículo]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Selección de rectángulo de punto de datos ampliado para el objeto visual de mapa (versión preliminar) [[vídeo]](https://youtu.be/DT_tOas5YIo?t=185) [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467057) [[artículo]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Comprobación de revocación de certificados para las conexiones web [[vídeo]](https://youtu.be/DT_tOas5YIo?t=292) [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467058) [[artículo]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Actualizaciones de informes paginados [[vídeo]](https://youtu.be/DT_tOas5YIo?t=292) [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467059) [[artículo]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* DirectQuery para conjuntos de Power BI y Azure Analysis Services (versión preliminar) [[vídeo]](https://youtu.be/68YvRs49VZM?t=33)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831296)   [[artículo]](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
+* Múltiplos pequeños (versión preliminar) [[vídeo]](https://youtu.be/68YvRs49VZM?t=378)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831297)
+* Etiquetas de confidencialidad de protección de datos en Power BI Desktop (versión preliminar) [[vídeo]](https://youtu.be/68YvRs49VZM?t=656)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831298) 
+* Mayor límite de punto de datos de selección de rectángulo [[vídeo]](https://youtu.be/68YvRs49VZM?t=734)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831299) 
+* Panel de selección disponible ahora en la vista de diseño para dispositivos móviles [[vídeo]](https://youtu.be/68YvRs49VZM?t=757)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831300) 
+* Actualización automática de páginas para orígenes de Analysis Services [[vídeo]](https://youtu.be/68YvRs49VZM?t=789)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831301) 
 
-### <a name="analytics"></a>Análisis
-* Detección de anomalías (versión preliminar) [[vídeo]](https://youtu.be/DT_tOas5YIo?t=199) [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467061) 
-* Las preguntas y respuestas ahora admiten valores de datos de coincidencia parcial [[vídeo]](https://youtu.be/DT_tOas5YIo?t=438) [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467062) [[artículo]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+
+### <a name="data-preparation"></a>Preparación de datos
+* Cambios en Power Query y flujos de datos [[vídeo]](https://youtu.be/68YvRs49VZM?t=851)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831302)
 
 ### <a name="data-connectivity"></a>Conectividad de datos
-* Conector Hive LLAP ya disponible con carácter general [[vídeo]](https://youtu.be/DT_tOas5YIo?t=461) [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467064)
-* Nuevos conectores de datos: Actian, Anaplan y Starburst Presto [[vídeo]](https://youtu.be/DT_tOas5YIo?t=487) [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467065)
+* Conector de Microsoft Dataverse [[vídeo]](https://youtu.be/68YvRs49VZM?t=886)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831566)
+* Actualización de Azure Time Series Insights [[vídeo]](https://youtu.be/68YvRs49VZM?t=919)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831305)
+* Actualización de SurveyMonkey [[vídeo]](https://youtu.be/68YvRs49VZM?t=926)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831568)
+* Actualización de Cognite [[vídeo]](https://youtu.be/68YvRs49VZM?t=933)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831307)
 
 
 ### <a name="visuals"></a>Objetos visuales
-* Nuevos objetos visuales de varios proveedores [[vídeo]](https://youtu.be/DT_tOas5YIo?t=688)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467072)
+* Nuevos objetos visuales de varios proveedores [[vídeo]](https://youtu.be/68YvRs49VZM?t=1330)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831588)
 
-
-Para más información sobra cada una de estas nuevas características, vea la [entrada de blog de resumen de características de Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/).
+Para más información sobra cada una de estas nuevas características, vea la [entrada de blog de resumen de características de Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/).
 
 
 > [!NOTE]
@@ -79,7 +78,7 @@ Para más información sobra cada una de estas nuevas características, vea la [
 ### <a name="power-bi-desktop-monthly-update-video"></a>Vídeo de actualización mensual de Power BI Desktop
 En el siguiente vídeo se describe cada una de estas actualizaciones. También puede ver este vídeo en la entrada de blog:
 
-> [!VIDEO https://www.youtube.com/embed/DT_tOas5YIo]
+> [!VIDEO https://www.youtube.com/embed/68YvRs49VZM]
 
 ## <a name="more-videos"></a>Más vídeos
 

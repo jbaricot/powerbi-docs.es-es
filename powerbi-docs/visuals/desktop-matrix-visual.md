@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33e0ee83815c739d8201fad995d84c7ee397bc6c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 401d8905c4fe2ca0f27a8f0c58bd756c87a10456
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398140"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721510"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creación de visualizaciones de matriz en Power BI
 
@@ -71,7 +71,7 @@ Con el objeto visual de matriz, puede realizar todo tipo de actividades interesa
 
 En el panel Visualizaciones, al agregar varios campos a la sección **Filas** del área **Campos**, se habilita la exploración en profundidad en las filas del objeto visual de matriz. Esto es parecido a la creación de una jerarquía que después permite explorar en profundidad (y, posteriormente, retroceder) por esa jerarquía y analizar los datos de cada nivel.
 
-En la siguiente imagen, la sección **Filas** contiene *Fase de ventas* y *Tamaño de oportunidad*, lo cual permite crear una agrupación (o jerarquía) de las filas que se pueden explorar.
+En la imagen siguiente, la sección **Filas** contiene *Fase de ventas* y *Tamaño de oportunidad*, lo cual permite crear una agrupación (o jerarquía) de las filas que se pueden explorar para ver los detalles.
 
 ![Tarjeta de filtros que muestra las filas que se eligen](media/desktop-matrix-visual/power-bi-rows-matrix.png)
 
@@ -79,7 +79,7 @@ Cuando se ha creado la agrupación en el objeto visual en la sección **Filas**,
 
 ![matriz con los controles de exploración en profundidad contorneados](media/desktop-matrix-visual/power-bi-matrix-drilldown.png)
 
-De forma parecida al comportamiento de exploración y expansión de otros objetos visuales, al hacer clic en esos botones se puede explorar en profundidad (o retroceder) por la jerarquía. En este caso, se puede explorar en profundidad desde *Ventas* a *Tamaño de oportunidad*, como se muestra en la imagen siguiente, en la que se ha hecho clic en el icono de nivel uno de exploración en profundidad (el tridente).
+De forma parecida al comportamiento de exploración y expansión de otros objetos visuales, al hacer clic en esos botones se puede explorar en profundidad (o retroceder) por la jerarquía. En este caso, se puede explorar en profundidad desde *Ventas* a *Tamaño de oportunidad*, como se muestra en la imagen siguiente, en la que se ha seleccionado el **icono de nivel uno de exploración en profundidad** (el tridente).
 
 ![matriz con tridente contorneado](media/desktop-matrix-visual/power-bi-matrix-drill3.png)
 
@@ -121,7 +121,7 @@ Cuando se selecciona **Explorar en profundidad**, aparece el siguiente nivel de 
 El resto de los elementos de menú funcionan de la misma manera que lo hacen los de las filas (vea la sección anterior, **Exploración en profundidad en encabezados de fila**). También puede seleccionar las opciones **Mostrar el siguiente nivel** y **Expandir al siguiente nivel** con columnas al igual que podía hacer con las filas.
 
 > [!NOTE]
-> Los iconos Explorar en profundidad y Explorar agrupando datos situados en la esquina superior izquierda del objeto visual de matriz solo son aplicables a las filas. Para explorar en profundidad por las columnas, debe usar el menú contextual.
+> Los iconos de Explorar en profundidad y Rastrear agrupando datos situados en la esquina superior izquierda del objeto visual de matriz solo son aplicables a las filas. Para explorar en profundidad por las columnas, debe usar el menú contextual.
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>Diseño escalonado con objetos visuales de matriz
 

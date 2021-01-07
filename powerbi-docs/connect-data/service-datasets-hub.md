@@ -1,5 +1,5 @@
 ---
-title: Detección de conjuntos de datos mediante el centro de conectividad de conjuntos de datos
+title: Detección de conjuntos de datos mediante el centro de conectividad de conjuntos de datos (versión preliminar)
 description: Obtenga información sobre cómo puede buscar, explorar y usar los conjuntos de datos de su organización y sus informes relacionados.
 author: paulinbar
 ms.author: painbar
@@ -8,14 +8,14 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 12/14/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c6b7170df78b6d544f7eb97ec62516577f9267b6
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 4e09eb9e0b44fbddf8787f474fe1a93b0b4c2d71
+ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513813"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97707982"
 ---
-# <a name="datasets-discovery-using-the-datasets-hub"></a>Detección de conjuntos de datos mediante el centro de conectividad de conjuntos de datos
+# <a name="datasets-discovery-using-the-datasets-hub-preview"></a>Detección de conjuntos de datos mediante el centro de conectividad de conjuntos de datos (versión preliminar)
 
 El centro de conectividad de conjuntos de datos facilita la búsqueda, exploración y uso de los conjuntos de datos de la organización. Proporciona información sobre los conjuntos de datos, así como puntos de entrada para crear informes sobre esos conjuntos de datos o para usar esos conjuntos de datos con Analizar en Excel.
 

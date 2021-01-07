@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 01/13/2020
+ms.date: 12/16/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e177eb9e124a26e62d392b7dd97562c11c8f9d5a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 432db58636866afe0dfda9e77e989f8469b66e34
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411043"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600424"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conexión a conjuntos de datos del servicio Power BI desde Power BI Desktop
 
@@ -107,7 +107,7 @@ Cuando usa la conexión dinámica al servicio Power BI, hay algunas limitacione
 
 * Solo los usuarios con permiso de creación para un conjunto de datos pueden conectarse a un conjunto de datos publicado mediante la conexión dinámica al servicio Power BI.
 * Los usuarios de la versión gratuita solo verán los conjuntos de datos de **Mi área de trabajo** y de las áreas de trabajo basadas en Premium.
-* Como esta conexión es una conexión dinámica, se deshabilitan el panel de navegación de la izquierda y el modelado. Solo puede conectarse a un conjunto de datos en cada informe. Este comportamiento es similar al comportamiento al conectarse a *SQL Server Analysis Services*.
+* Como esta conexión es una conexión dinámica, se deshabilitan el panel de navegación de la izquierda y el modelado. Solo puede conectarse a un conjunto de datos en cada informe. Este comportamiento es similar al comportamiento al conectarse a *SQL Server Analysis Services*. Sin embargo, en el artículo siguiente se describe cómo una característica nueva de Power BI ahora lo hace posible. Consulte [Uso de DirectQuery para conjuntos de elementos de Power BI y Azure Analysis Services (versión preliminar)](../connect-data/desktop-directquery-datasets-azure-analysis-services.md).
 * Como esta conexión es una conexión dinámica, se aplica la seguridad de nivel de fila (RLS) y otros comportamientos de conexión de este tipo. Esto es igual que cuando se conecta a SQL Server Analysis Services.
 * Si el propietario modifica el archivo original compartido *.pbix*, se sobrescriben el conjunto de datos y el informe que se comparten en el servicio Power BI. Los informes basados en ese conjunto de datos no se sobrescriben, pero los cambios realizados en el conjunto de datos se reflejan en el informe.
 * Los miembros de un área de trabajo no pueden reemplazar el informe compartido originalmente. Si intenta hacerlo, recibirá una advertencia que le pide que cambie el nombre del archivo y lo publique.
@@ -116,3 +116,18 @@ Cuando usa la conexión dinámica al servicio Power BI, hay algunas limitacione
 * En el caso de los paquetes de contenido de *Mi organización*, una vez copiados, no se podrá reemplazar el informe creado en el servicio ni ningún informe creado como parte de la copia de un paquete de contenido con una conexión dinámica. Si intenta hacerlo, recibirá una advertencia que le pide que cambie el nombre del archivo y lo publique. En esta situación, solo se pueden reemplazar los informes publicados en conexiones dinámicas.
 * La eliminación de un conjunto de datos compartido en el servicio Power BI significa que ya nadie puede acceder a ese conjunto de datos desde Power BI Desktop.
 * Los informes que comparten un conjunto de archivos en el servicio Power BI no admiten implementaciones automatizadas mediante la API REST de Power BI.
+
+## <a name="next-steps"></a>Pasos siguientes
+Para más información sobre DirectQuery y otras características de conexión de datos de Power BI, consulte los recursos siguientes:
+
+- [Uso de DirectQuery en Power BI](desktop-directquery-about.md)
+- [Orígenes de datos compatibles con DirectQuery](power-bi-data-sources.md)
+- [Uso de DirectQuery para conjuntos de datos de Power BI y Azure Analysis Services (versión preliminar)](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
+
+Estos son algunos vínculos adicionales con más información sobre Power BI:
+
+* [¿Qué es Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
+* [Información general sobre consultas con Power BI Desktop](../transform-model/desktop-query-overview.md)
+* [Tipos de datos en Power BI Desktop](desktop-data-types.md)
+* [Combinar datos y darles forma con Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Tareas de consultas comunes en Power BI Desktop](../transform-model/desktop-common-query-tasks.md)

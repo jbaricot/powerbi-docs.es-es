@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 12/16/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0f971013d5f57174a26d92281cafe673f1487329
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: 21371e931aa123aa6a339bfbcb939bde943b3f9f
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96577564"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675520"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de SAML (Lenguaje de marcado de aserción de seguridad) para el SSO de Power BI en orígenes de datos locales
 
@@ -29,7 +29,7 @@ Se admiten orígenes de datos adicionales con [Kerberos](service-gateway-sso-ker
 Para SAP HANA, se recomienda habilitar el cifrado antes de establecer una conexión de inicio de sesión único con SAML. Para habilitar el cifrado, configure el servidor de HANA para que acepte las conexiones cifradas y configure la puerta de enlace para que use el cifrado para comunicarse con el servidor de HANA. Como el controlador ODBC de HANA no cifra las aserciones de SAML de forma predeterminada, la aserción de SAML firmada se envía desde la puerta de enlace al servidor de HANA *sin cifrar* y es vulnerable a la intercepción y reutilización por parte de terceros.
 
 > [!IMPORTANT]
-> SAP ya no admite OpenSSL y, como consecuencia, Microsoft también ha dejado de ofrecer soporte técnico. Las conexiones nuevas y existentes seguirán funcionando correctamente hasta el final de 2020, pero dejarán de funcionar a partir del 1 de enero de 2021. Use en su lugar CommonCryptoLib.
+> Como [SAP ya no admite OpenSSL](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.05/en-US/de15ffb1bb5710148386ffdfd857482a.html), Microsoft también ha dejado de ofrecer soporte técnico. Las conexiones existentes seguirán funcionando, pero a partir de febrero de 2021 no se podrán crear conexiones. En el futuro, use CommonCryptoLib en su lugar.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>Configuración del origen de datos y la puerta de enlace
 

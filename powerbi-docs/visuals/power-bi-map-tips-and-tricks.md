@@ -11,12 +11,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3e0d944f8058ddc5dfb64c8f960bd354571bb23c
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 24ad57ca976fa7a7a859b1c0d07523895236787e
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999068"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721625"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Sugerencias y trucos para las visualizaciones de mapas de Power BI
 
@@ -90,7 +90,7 @@ Al explorar en profundidad las jerarquías geográficas, es importante saber có
 
 * El botón de obtención de detalles de la derecha, denominado Modo detallado ![Icono de Modo detallado](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) , permite seleccionar una ubicación del mapa y explorarla en profundidad nivel a nivel. Por ejemplo, si activa la exploración en profundidad y hace clic en Estados Unidos, bajará al siguiente nivel de la jerarquía: estados de Estados Unidos. Para la codificación geográfica, Power BI envía los datos de país y estado a Bing Maps solo para Estados Unidos.  
 * A la izquierda hay 2 otras opciones de exploración en profundidad. La primera opción, ![primer icono de obtención de detalles](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png) , explora en profundidad hasta el siguiente nivel de la jerarquía en todas las ubicaciones a la vez. Por ejemplo, si está consultando países y usa esta opción para pasar al siguiente nivel, estados, Power BI muestra los datos de estado para todos los países. Para la codificación geográfica, Power BI envía los datos de estado de Bing Maps (ningún dato de país) para todas las ubicaciones. Esta opción es útil si cada nivel de la jerarquía no está relacionado con el nivel superior. 
-* La segunda opción, ![exploración en profundidad con mapas](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) es similar a la exploración en profundidad, excepto que no es necesario hacer clic en el mapa.  Se expande hasta el siguiente nivel de la jerarquía y recuerda el contexto del nivel actual. Por ejemplo, si está consultando países y selecciona este icono, bajará en la jerarquía al siguiente nivel, estados. Para la codificación geográfica, Power BI envía datos de cada estado y su país correspondiente para ayudar a Bing Maps a codificar geográficamente con más precisión. En la mayoría de los mapas, usará esta opción o la opción Explorar en profundidad, en el extremo derecho, para enviar a Bing toda la información posible para obtener información precisa sobre la ubicación. 
+* La segunda opción, ![explorar en profundidad con mapas,](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) es similar a la exploración en profundidad, excepto que no es necesario hacer clic en el mapa.  Se expande hasta el siguiente nivel de la jerarquía y recuerda el contexto del nivel actual. Por ejemplo, si está consultando países y selecciona este icono, bajará en la jerarquía al siguiente nivel, estados. Para la codificación geográfica, Power BI envía datos de cada estado y su país correspondiente para ayudar a Bing Maps a codificar geográficamente con más precisión. En la mayoría de los mapas, usará esta opción o la opción Explorar en profundidad, en el extremo derecho, para enviar a Bing toda la información posible para obtener información precisa sobre la ubicación. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Exploración en profundidad en una visualización de Power BI](../consumer/end-user-drill.md)

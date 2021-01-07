@@ -1,5 +1,5 @@
 ---
-title: Descarga de un informe desde el servicio Power BI a Power BI Desktop (versión preliminar)
+title: Descarga de un informe desde el servicio Power BI a Power BI Desktop (versión preliminar)
 description: Descargar un informe desde el servicio Power BI a un archivo de Power BI Desktop
 author: maggiesMSFT
 ms.author: maggies
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/14/2020
+ms.date: 11/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: c83b7d1e52a0d443c52348bec91f935e288830d4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1a196d149a6519f9bcad6bd70ef02d62ef16f69b
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388687"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600677"
 ---
-# <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Descarga de un informe desde el servicio Power BI a Power BI Desktop (versión preliminar)
+# <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Descarga de un informe desde el servicio Power BI a Power BI Desktop (versión preliminar)
       
 En Power BI Desktop, puede publicar un informe (un archivo *.pbix*) desde el equipo local en el servicio Power BI. Los informes de Power BI también pueden ir en la dirección contraria: puede descargar un informe desde el servicio Power BI a Power BI Desktop. En cualquier caso, la extensión de un informe de Power BI es .pbix.
 
@@ -54,7 +54,7 @@ Hay algunas consideraciones y limitaciones importantes asociadas con la descarga
 * El informe se debe haber creado con Power BI Desktop y *publicado* en el servicio Power BI, o bien el archivo .pbix se debe haber *cargado* en el servicio Power BI.
 * Los informes deben haberse publicado o actualizado a fecha de 23 de noviembre de 2016 o posteriormente. Los informes publicados anteriormente no se pueden descargar.
 * Esta característica no funcionará con los informes y paquetes de contenido creados originalmente en el servicio Power BI.
-* Use siempre la versión más reciente de Power BI Desktop para abrir los archivos descargados. Es posible que los archivos .pbix descargados no se abran en versiones no actuales de Power BI Desktop.
+* Use siempre la versión más reciente de Power BI Desktop para abrir los archivos descargados. Es posible que los archivos .pbix descargados no se abran en versiones no actuales de Power BI Desktop. Por ejemplo, no se pueden abrir archivos .pbix cifrados con una versión de Desktop que no admita la protección de la información.
 * Si el administrador ha desactivado la capacidad de descargar datos, esta característica no será visible en el servicio Power BI.
 * Los conjuntos de datos con actualización incremental no se pueden descargar en un archivo .pbix.
 * Los conjuntos de datos habilitados para [modelos grandes](../admin/service-premium-large-models.md) no se pueden descargar en un archivo .pbix.

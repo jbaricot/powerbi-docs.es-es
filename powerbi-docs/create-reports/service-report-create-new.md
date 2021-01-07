@@ -9,19 +9,19 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 806198b783785a06562411b53f7bd6f644b16918
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a971e0d0b35b0a3988a1c10ea2b7b801830229d6
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388204"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721556"
 ---
 # <a name="create-a-report-from-an-excel-file-in-the-power-bi-service"></a>Creación de un informe a partir de un archivo de Excel en el servicio Power BI
 Ha leído [Informes en Power BI](../consumer/end-user-reports.md) y ahora desea crear los suyos propios. Hay diferentes formas de crear un informe. En este artículo, comenzaremos por crear un informe básico en el servicio Power BI a partir de un archivo de Excel. Una vez que conozca los aspectos básicos de la creación de informes, consulte la sección [Pasos siguientes](#next-steps) al final de la página para ver temas de informes más avanzados.  
 
 ## <a name="prerequisites"></a>Requisitos previos
 - [Suscribirse al servicio Power BI](../fundamentals/service-self-service-signup-for-power-bi.md). 
-- [Descargar el archivo de Excel del Ejemplo de análisis de minoristas](https://go.microsoft.com/fwlink/?LinkId=529778) y guardarlo en OneDrive para la Empresa o localmente.
+- [Descargar el archivo de Excel del Ejemplo de análisis de minoristas](https://go.microsoft.com/fwlink/?LinkId=529778) y guardarlo en el equipo o en OneDrive para la Empresa.
 
 ## <a name="import-the-excel-file"></a>Importación del archivo de Excel
 Este método de creación de informes comienza con un archivo y un lienzo de informe en blanco. Puede continuar con el archivo del Ejemplo de análisis de minoristas.

@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/18/2020
-ms.openlocfilehash: 2331785b14cd8cbcf9aec1232293cb601b1e2dc6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/16/2020
+ms.openlocfilehash: c292e1ccaa03904ee0bfa4825a539430fed71867
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418127"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621887"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registro de cambios de Power BI Report Server
 
@@ -40,7 +40,11 @@ Para obtener más información sobre las nuevas características, vea [Novedades
             - Se ha corregido una incidencia con la exportación de informes con puntos en el nombre.
             - Se han corregido incidencias del lector de pantalla en una región de datos Tablix.
             - Se ha corregido una incidencia que causaba que los archivos de registro estuvieran en blanco en algunas circunstancias.
+            - Se ha corregido una incidencia con la sobrescritura de un archivo Excel durante la carga.
+            - Se ha corregido una incidencia con el método API REST Model.UpdateCacheSnapshot.
+            - Se ha corregido una incidencia con las conexiones de orígenes de datos de SAP BW a través de XMLA.
             - Se ha corregido una incidencia con el cuadro de diálogo "Conectarse a Power BI", que no se cierra.
+            - Se ha corregido una incidencia con el valor predeterminado de característica avanzada de CustomHeaders.
             - Se ha actualizado el representador MHTML para usar el DOCTYPE HTML más reciente.
 
 - **Power BI Desktop (optimizado para Power BI Report Server)**

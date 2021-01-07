@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/10/2020
+ms.date: 12/21/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 450c14d05f9a7855d51d7aa2f073e48a0b016013
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 140ca42dc34e98133beac5fff671cf1ef244501c
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400969"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721441"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Botones en el servicio Power BI
 En los informes que recibe de compañeros, es posible que haya observado botones y se haya preguntado cómo usarlos. Algunos tienen palabras, algunos tienen flechas, otros tienen gráficos y algunos tienen incluso menús desplegables. En este artículo se enseña cómo reconocer un botón y cómo averiguar qué hacer con él.
@@ -53,7 +53,7 @@ Al elegir el botón de marcador, Power BI le lleva a la ubicación y la configu
 ## <a name="drillthrough-buttons"></a>Botones de obtención de detalles
 Hay dos maneras de obtener detalles en el servicio Power BI. La obtención de detalles le lleva a otra página de informe y los datos de esa página de destino se presentan según los filtros y las selecciones que haya realizado en la página de origen.
 
-Una manera de obtener detalles en un informe consiste en hacer clic con el botón derecho en un punto de datos de un objeto visual, seleccionar **Obtener detalles** y elegir el destino. Este método se ha descrito anteriormente en la sección titulada **Botón Atrás**. Pero a veces los diseñadores de informes usan un *botón* de obtención de detalles en su lugar, para que la acción sea más obvia y para llamar la atención a conclusiones importantes.  
+Una manera de usar la obtención de detalles en un informe consiste en hacer clic con el botón derecho en un punto de datos de un objeto visual, seleccionar **Obtener detalles** y elegir el destino. Este método se ha descrito anteriormente en la sección titulada **Botón Atrás**. Pero a veces los diseñadores de informes usan un *botón* de obtención de detalles en su lugar, para que la acción sea más obvia y para llamar la atención a conclusiones importantes.  
 
 Los botones de obtención de detalles pueden tener más de un requisito previo. A menos que cumpla todos los requisitos previos, el botón no funcionará. Veamos un ejemplo.
 

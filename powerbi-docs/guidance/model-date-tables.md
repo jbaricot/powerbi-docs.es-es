@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.openlocfilehash: 9040fb54e51dfeecad853e5ba980f423ab48e908
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a2616b5f77a03056de03b213369d55e9b590b1b6
+ms.sourcegitcommit: 7599622381f35a161bfc54726675ed3c9cf13816
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417851"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97827581"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Creación de tablas de fechas en Power BI Desktop
 
@@ -54,10 +54,7 @@ Si va a desarrollar un modelo de DirectQuery y el origen de datos no incluye una
 
 ## <a name="generate-with-power-query"></a>Generación con Power Query
 
-Puede generar una tabla de fechas mediante Power Query. A continuación, se presentan dos entradas de blog que muestran cómo:
-
-- [Crear una dimensión de fecha con un script de Power Query](https://www.mattmasson.com/2014/02/creating-a-date-dimension-with-a-power-query-script/), de Matt Masson
-- [Generar una tabla de dimensiones de fecha en Power Query](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/), de Chris Webb
+Puede generar una tabla de fechas mediante Power Query. Para más información, consulte la entrada [Generar una tabla de dimensiones de fecha en Power Query](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/) en el log de Chris Webb.
 
 > [!TIP]
 > Si no dispone de un almacenamiento de datos u otra definición coherente para los aspectos temporales de su organización, considere la posibilidad de usar Power Query para publicar un [flujo de datos](../transform-model/dataflows/dataflows-introduction-self-service.md). A continuación, haga que todos los modeladores de datos se conecten al flujo de datos para agregar tablas de fechas a sus modelos. El flujo de datos se convierte en la única fuente de confianza para los aspectos temporales de su organización.

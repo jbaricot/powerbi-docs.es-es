@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/01/2020
-ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.date: 12/17/2020
+ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96502096"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675588"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -26,8 +26,17 @@ Para obtener información sobre novedades, vea:
 >El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="december-2020"></a>Diciembre de 2020
-### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Modo oscuro agregado a Power BI Mobile (Android)
+### <a name="weve-added-anomaly-detection-to-the-mobile-apps"></a>La detección de anomalías se agregó a las aplicaciones móviles
+Si el creador del informe ha configurado la detección de anomalías para un objeto visual de informe, puede ver si hay picos o caídas inesperados en los datos provocados por valores atípicos de datos (es decir, anomalías). [Obtenga más información al respecto](mobile-reports-in-the-mobile-apps.md#investigate-anomalies-in-time-series-data).
 
+![Captura de pantalla de la detección de anomalías.](media/mobile-whats-new-in-the-mobile-apps/mobile-anomaly-detection.png)
+
+### <a name="easily-find-your-orgs-endorsed-content"></a>Búsqueda sencilla del contenido aprobado de la organización
+El contenido [promovido o certificado](../../collaborate-share/service-endorsement-overview.md) en el servicio Power BI ahora aparece etiquetado en la aplicación con un distintivo. Los creadores de informes promueven su contenido para mostrar que está listo para su uso (promovido) o certifican su contenido para mostrar que lo aprobó su organización (certificado).
+
+![Captura de pantalla del informe certificado en la información de informe en dispositivos móviles.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-certified-badge.png)
+
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Modo oscuro agregado a Power BI Mobile (Android)
 Pruebe el nuevo modo oscuro en la aplicación Power BI Mobile dispositivos Android. En el modo oscuro, verá texto claro en un fondo oscuro, lo que reduce el brillo de la pantalla y facilita la visualización del contenido. Puede cambiar entre los temas en la configuración de aspecto de la aplicación. [Más información](mobile-apps-dark-mode.md)
 
 ![Captura de pantalla del modo oscuro en la aplicación Power BI Mobile para Android.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)
@@ -433,7 +442,7 @@ El administrador de TI puede usar una herramienta MDM para configurar el acceso 
 
 #### <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicación Power BI for Mixed Reality (versión preliminar)
 
-La aplicación Power BI para Mixed Reality ya está en Microsoft Store. Esta aplicación permite consultar paneles e informes mientras el usuario está inmerso en la realidad virtual, o colocarlos y consultarlos en ubicaciones específicas en el contexto de su entorno. Vea el vídeo nuevo [Introducing Power BI on Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) (Introducción a Power BI en Hololens) para obtener contexto o lea el artículo sobre el nuevo [Power BI para Mixed Reality](mobile-mixed-reality-app.md).
+La aplicación Power BI para Mixed Reality ya está en Microsoft Store. Esta aplicación permite consultar paneles e informes mientras el usuario está inmerso en la realidad virtual, o colocarlos y consultarlos en ubicaciones específicas en el contexto de su entorno. Vea el vídeo nuevo [Introducing Power BI on Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) (Introducción a Power BI en Hololens) para obtener contexto o lea el artículo sobre la nueva [aplicación Power BI for Mixed Reality](mobile-mixed-reality-app.md).
 
 
 ### <a name="april-2018"></a>Abril de 2018

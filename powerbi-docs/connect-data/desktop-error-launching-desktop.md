@@ -7,20 +7,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
-ms.date: 01/14/2020
+ms.date: 11/14/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8d33973f1a11050d104399c98866fdae0ffb1f8a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 62b3c9bb10cb47df0d21eb05e381c5c4784b3106
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96404902"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600240"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Solución de problemas de apertura de Power BI Desktop
 
-En Power BI Desktop, es posible que los usuarios que tengan instaladas y ejecuten versiones anteriores de *puertas de enlace de datos locales de Power BI* no puedan abrir Power BI Desktop, debido a las restricciones de directiva administrativa que las puertas de enlace locales de Power BI aplican a las canalizaciones con nombre en el equipo local.
+En este artículo se describe y se proporciona una solución para una serie de circunstancias en las que Power BI no se puede abrir. 
+
+## <a name="resolve-issues-with-opening-encrypted-pbix-files"></a>Resolución de problemas con la apertura de archivos PBIX cifrados
+
+No se pueden abrir archivos PBIX cifrados con una versión de Power BI Desktop que no admita la protección de la información.
+
+Si necesita seguir usando Power BI Desktop, la solución recomendada es actualizarla a una versión que admita la protección de la información. Puede descargar la [versión más reciente de Power BI Desktop](https://www.microsoft.com/download/confirmation.aspx?id=58494) (este es un vínculo de descarga directa al ejecutable de instalación). La versión más reciente de Power BI Desktop admite la protección de la información y puede descifrar y abrir cualquier archivo PBIX cifrado.
+
+###
 
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Solución de problemas relacionados con la puerta de enlace de datos local y Power BI Desktop
+
+En Power BI Desktop, es posible que los usuarios que tengan instaladas y ejecuten versiones anteriores de *puertas de enlace de datos locales de Power BI* no puedan abrir Power BI Desktop, debido a las restricciones de directiva administrativa que las puertas de enlace locales de Power BI aplican a las canalizaciones con nombre en el equipo local.
 
 Tiene tres opciones para solucionar el problema asociado a la puerta de enlace de datos local y habilitar la apertura de Power BI Desktop:
 

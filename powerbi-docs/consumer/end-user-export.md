@@ -4,18 +4,18 @@ description: Exporte datos de un objeto visual de informe y un objeto visual de 
 author: mihart
 ms.author: mihart
 ms.reviewer: cmfinlan
-featuredvideoid: jtlLGRKBvXY
+featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 12/21/2020
 LocalizationGroup: Consumers
-ms.openlocfilehash: d8b9f11abe639d2892bc199a9f65400e5488dedc
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: cd07004149afd2525c5830e04e5c2490eeebcb3c
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578135"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721395"
 ---
 # <a name="export-data-from-a-visual"></a>Exportación de datos de un objeto visual
 
@@ -40,7 +40,7 @@ Para exportar datos se requiere una licencia Power BI Pro, o para que el panel
 
 3. Seleccione **Exportar a .csv**.
 
-4. Lo que sucede después depende del explorador que use. Puede que se le pida que guarde el archivo o que vea un vínculo al archivo exportado en la parte inferior del explorador. 
+4. Lo que sucede después depende del explorador que use. Puede que se le pida que guarde el archivo o que vea un vínculo al archivo exportado en la parte inferior del explorador. De manera predeterminada, la exportación se guarda en la carpeta local de descargas. 
 
     ![Explorador Chrome que muestra el vínculo al archivo exportado](media/end-user-export/power-bi-dashboards-export.png)
 
@@ -79,7 +79,7 @@ Puede exportar datos desde un objeto visual de un informe en formato .csv o .xls
 
     ![Menú en el que se elige subyacente o resumido](media/end-user-export/power-bi-export-underlying.png)
 
-5. Lo que sucede después depende del explorador que use. Puede que se le pida que guarde el archivo o que vea un vínculo al archivo exportado en la parte inferior del explorador. 
+5. Lo que sucede después depende del explorador que use. Puede que se le pida que guarde el archivo o que vea un vínculo al archivo exportado en la parte inferior del explorador. Si usa la aplicación de Power BI en Microsoft Teams, el archivo exportado se guarda en la carpeta local de descargas. 
 
     ![Archivo exportado que se muestra en el explorador Microsoft Edge](media/end-user-export/power-bi-export-edge-screen.png)
 

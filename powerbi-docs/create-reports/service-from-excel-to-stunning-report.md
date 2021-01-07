@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 07/30/2020
+ms.date: 12/14/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 99f562ee315a74c9de6765308272e5e33153c4f0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a3ee3ac5cd23942878395f942a32dbe573cb0798
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388871"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721602"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Tutorial: De libro de Excel a un informe sorprendente en el servicio Power BI a Microsoft Teams
-La jefa quiere ver al final del día un informe sobre las cifras de ventas y beneficios más recientes. Pero los datos más recientes se encuentran en varios sistemas de terceros y en archivos del portátil. En el pasado, tardaba horas en crear objetos visuales y dar formato a un informe, y empieza a ponerse nervioso.
+La jefa quiere ver al final del día un informe sobre las cifras de ventas y beneficios más recientes. Pero los datos más recientes los tiene en archivos en su equipo portátil. En el pasado, tardaba horas en crear un informe, así es que empieza a ponerse nervioso.
 
 No se preocupe. Con Power BI puede crear un informe sorprendente y compartirlo en Microsoft Teams en cuestión de segundos.
 
@@ -32,6 +32,11 @@ En este ejemplo, se carga un archivo de Excel, se crea un informe y se comparte 
 > * Anclar los objetos visuales del informe a un panel.
 > * Compartir un vínculo al panel.
 > * Compartir el panel en Microsoft Teams
+
+## <a name="prerequisites"></a>Requisitos previos
+- [Suscribirse al servicio Power BI](../fundamentals/service-self-service-signup-for-power-bi.md). 
+- Descargue el [libro de ejemplos financieros](https://go.microsoft.com/fwlink/?LinkID=521962) y guárdelo en el equipo o en OneDrive para la Empresa.
+
 
 ## <a name="prepare-data-in-excel"></a>Preparación de datos en Excel
 Tomemos como ejemplo un simple archivo de Excel. 
@@ -49,10 +54,7 @@ Tomemos como ejemplo un simple archivo de Excel.
    ![Captura de pantalla de los datos con formato de tabla.](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-to-the-power-bi-service"></a>Carga del archivo de Excel al servicio Power BI
-El servicio Power BI se conecta a muchos orígenes de datos, incluidos los archivos de Excel que se encuentran en el equipo. 
-
- > [!NOTE] 
- > Para seguir con el resto de este tutorial, descargue el [libro de ejemplos financieros](https://go.microsoft.com/fwlink/?LinkID=521962).
+El servicio Power BI se conecta a muchos orígenes de datos, incluidos los archivos de Excel que se encuentran en el equipo.
 
 1. Para comenzar, inicie sesión en el servicio Power BI. Si no ha iniciado sesión, [puede hacerlo de forma gratuita](https://powerbi.com).
 1. En **Mi área de trabajo**, seleccione **Nuevo** > **Cargar un archivo**.
@@ -190,9 +192,9 @@ Es el momento de compartir el panel con la jefa. Puede compartir su panel y el i
 
 También puede compartir informes y paneles directamente con compañeros de trabajo en Microsoft Teams.
 
-1. Para compartir en Teams, seleccione **Compartir en Teams** en la parte superior del panel.
+1. Para compartir en Teams, seleccione **Chatear en Teams** en la parte superior del panel.
 
-   ![Captura de pantalla de la opción Compartir en Teams.](media/service-from-excel-to-stunning-report/power-bi-share-teams.png)
+   ![Captura de pantalla de la opción Chatear en Teams.](media/service-from-excel-to-stunning-report/power-bi-share-teams.png)
 
 2. Power BI muestra el cuadro de diálogo **Compartir en Teams**. Escriba el nombre de una persona, un grupo o un canal, y seleccione **Compartir**. 
    

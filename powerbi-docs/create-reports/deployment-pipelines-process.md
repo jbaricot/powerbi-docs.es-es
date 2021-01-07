@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: pbi-deployment
-ms.custom: contperfq1
-ms.date: 10/21/2020
-ms.openlocfilehash: c9ae23a88bd557681ca89e541f082a69d449ed8c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: contperf-fy21q1
+ms.date: 12/28/2020
+ms.openlocfilehash: 4bb709e41698bc0dc32341f517593717f64f9b6d
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415022"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805220"
 ---
 # <a name="understand-the-deployment-process"></a>comprender el proceso de implementación
 
@@ -149,13 +149,21 @@ Las siguientes propiedades de conjunto de datos tampoco se copian durante la imp
 
 * Configuración de aprobación
 
-## <a name="incremental-refresh"></a>Actualización incremental
+## <a name="supported-dataset-features"></a>Características de conjuntos de datos compatibles
+
+Las canalizaciones de implementación admiten muchas características de conjuntos de datos de Power BI. En esta sección se muestran dos características de conjuntos de datos de Power BI que pueden mejorar la experiencia de las canalizaciones de implementación:
+
+* [Actualización incremental](#incremental-refresh)
+
+* [Modelos compuestos](#composite-models)
+
+### <a name="incremental-refresh"></a>Actualización incremental
 
 Las canalizaciones de implementación admiten la [actualización incremental](../admin/service-premium-incremental-refresh.md), una característica que permite actualizaciones más rápidas y confiables de grandes conjuntos de datos con un menor consumo.
 
 Con las canalizaciones de implementación, puede realizar actualizaciones en un conjunto de datos con una actualización incremental mientras conserva tanto los datos como las particiones. Al implementar el conjunto de datos, se copia la directiva.
 
-### <a name="activating-incremental-refresh-in-a-pipeline"></a>Activación de la actualización incremental en una canalización
+#### <a name="activating-incremental-refresh-in-a-pipeline"></a>Activación de la actualización incremental en una canalización
 
 Para habilitar la actualización incremental, [actívela en Power BI Desktop](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh) y, a continuación, publique el conjunto de datos. Después de publicar, la directiva de actualización incremental es similar en toda la canalización y solo se puede crear en Power BI Desktop.
 
@@ -169,7 +177,7 @@ Una vez configurada la canalización con una actualización incremental, se reco
 
 4. Revise los cambios realizados en la fase de *pruebas* y, después de comprobarlos, impleméntelos en la fase de *producción*.
 
-### <a name="usage-examples"></a>Ejemplos de uso
+#### <a name="usage-examples"></a>Ejemplos de uso
 
 A continuación se muestran algunos ejemplos de cómo puede integrar la actualización incremental con canalizaciones de implementación.
 
@@ -181,7 +189,7 @@ A continuación se muestran algunos ejemplos de cómo puede integrar la actualiz
 
 * Publique un conjunto de datos que use la actualización incremental en un área de trabajo que forme parte de una canalización existente.
 
-### <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
+#### <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 
 Para la actualización incremental, las canalizaciones de implementación solo admiten conjuntos de datos que usan [metadatos de un conjunto de datos mejorado](../connect-data/desktop-enhanced-dataset-metadata.md). A partir de la versión de septiembre de 2020 de Power BI Desktop, todos los conjuntos de datos creados o modificados con Power BI Desktop implementan automáticamente metadatos de un conjunto de datos mejorado.
 
@@ -194,6 +202,24 @@ Al volver a publicar un conjunto de datos en una canalización activa con la act
 * Cambiar el nombre de las columnas no calculadas de una tabla con la actualización incremental habilitada.
 
 Se permiten otros cambios, como agregar una columna, quitar una columna y cambiar el nombre de una columna calculada. Sin embargo, si los cambios afectan a la pantalla, deberá actualizar antes de que el cambio sea visible.
+
+### <a name="composite-models"></a>Modelos compuestos
+
+El uso de [modelos compuestos](../transform-model/desktop-composite-models.md) puede configurar un informe con varias conexiones de datos.
+
+Puede usar la funcionalidad de modelos compuestos para conectar un conjunto de datos de Power BI a un conjunto de datos externo como Azure Analysis Services. Para más información, consulte [Uso de DirectQuery para conjuntos de datos de Power BI y Azure Analysis Services](../connect-data/desktop-directquery-datasets-azure-analysis-services.md).
+
+En una canalización de implementación, puede usar modelos compuestos para conectar un conjunto de datos a otro conjunto de datos de Power BI externo a la canalización.  
+
+#### <a name="limitations"></a>Limitaciones
+
+No se admiten las conexiones de modelos compuestos siguientes:
+
+* Conexión de conjuntos de datos que residen en la misma área de trabajo.
+
+* Conexión de conjuntos de datos que residen en distintas canalizaciones.
+
+* Conexión de conjuntos de datos que residen en la misma canalización. 
 
 ## <a name="deploying-power-bi-apps"></a>Implementación de aplicaciones de Power BI
 
