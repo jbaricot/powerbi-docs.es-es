@@ -1,18 +1,18 @@
 ---
-title: Exportación de API de informes de análisis insertados de Power BI
-description: Aprenda a exportar un informe insertado de Power BI para mejorar su experiencia de BI insertada de análisis insertados de Power BI.
+title: API para exportar informes de análisis insertados de Power BI para una mejor información insertada de BI
+description: Aprenda a exportar un informe insertado de Power BI para mejorar su experiencia de BI insertada de análisis insertados de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 12/28/2020
-ms.openlocfilehash: da0f5f155552a8a53b53789f3bfb6ebe839367c5
-ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
+ms.openlocfilehash: acd9d98b55697e8ca3729cad65a1ead8f01f6e62
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "97805151"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887026"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportación de un informe de Power BI a un archivo (versión preliminar)
 

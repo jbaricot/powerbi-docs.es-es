@@ -1,6 +1,6 @@
 ---
-title: Inserción de contenido de Power BI en una aplicación de análisis insertados con una entidad de servicio y un secreto de aplicación
-description: Obtenga información sobre cómo autenticarse en análisis insertados mediante una entidad de servicio de aplicación de Azure Active Directory y un secreto de aplicación.
+title: Inserción de contenido de Power BI en una aplicación de análisis insertados con una entidad de servicio y un secreto de aplicación que permita una mejor información insertada de BI
+description: Obtenga información sobre cómo autenticarse en análisis insertados mediante una entidad de servicio de aplicación de Azure Active Directory y un secreto de aplicación. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 8cf7b46687491f446d4e17fc96b020dbc08de5fc
-ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
+ms.openlocfilehash: 35bdaa8af06187767975126daa1f2445908fed9f
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97708074"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886796"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Inserción de contenido de Power BI con entidades de servicio y un secreto de aplicación
 
