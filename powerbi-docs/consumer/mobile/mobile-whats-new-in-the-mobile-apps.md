@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
-ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
+ms.openlocfilehash: 6eebe7b75db06b97d116ca0c17e67e9ee7b0562e
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97675588"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969659"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -570,7 +570,7 @@ Lea el [resumen de características de aplicaciones móviles de abril de 2017](h
 #### <a name="all-devices"></a>Todos los dispositivos
 **Color de fondo de informes de teléfono** Al definir un color de fondo para un informe en Power BI Desktop, el informe de teléfono tendrá el mismo color de fondo. Más información sobre cómo [optimizar páginas de informes para teléfonos](../../create-reports/desktop-create-phone-report.md).
 
-**Desarrollo de objetos visuales de Power BI preparados para dispositivos móviles** Lea esta [Guía del desarrollador](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) para obtener sugerencias sobre cómo crear objetos visuales Power BI que se vean bien y funcionen correctamente en dispositivos móviles.
+**Desarrollo de objetos visuales de Power BI preparados para dispositivos móviles** Lea esta [Guía del desarrollador](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) para obtener sugerencias sobre cómo crear objetos visuales Power BI que se vean bien y funcionen correctamente en dispositivos móviles.
 
 #### <a name="ios-devices"></a>Dispositivos iOS
 **Hablar con los datos: formulación de preguntas con la voz** Ya puede [formular preguntas sobre los datos mediante Preguntas y respuestas](mobile-apps-ios-qna.md) hablando en lugar de escribiendo. 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/10/2020
-ms.openlocfilehash: 66d721670f90efb17f6167aba3c074bdf6ea0ae1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 39357ec461ae96ef566719739aa76a61c7e7c539
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394874"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969797"
 ---
 # <a name="tenant-settings-guidance"></a>Guía para la configuración de inquilinos
 
@@ -39,7 +39,7 @@ En ese caso, se recomienda que habilite la opción **Publicar información de "O
 Estas direcciones URL estarán disponibles como vínculos en el menú de ayuda de Power BI.
 
 > [!NOTE]
-> Al suministrar la dirección URL de **solicitudes de licencia** se impide que usuarios individuales compren una licencia de Power BI Pro. En cambio, se les dirigirá al sitio interno con información sobre cómo adquirir una licencia. La opción **Allow users to try Power BI Pro** (Permitir que los usuarios prueben Power Bi Pro) está habilitada de forma predeterminada y separa las experiencias de compra y evaluación de prueba. Para más información sobre cómo funcionan juntas estas opciones, consulte [Permitir que los usuarios prueben Power BI Pro](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro).
+> Al suministrar la dirección URL de **solicitudes de licencia** se impide que usuarios individuales compren una licencia de Power BI Pro. En cambio, se les dirigirá al sitio interno con información sobre cómo adquirir una licencia. La opción **Allow users to try Power BI Pro** (Permitir que los usuarios prueben Power Bi Pro) está habilitada de forma predeterminada y separa las experiencias de compra y evaluación de prueba. Para más información sobre cómo funcionan juntas estas opciones, consulte [Permitir que los usuarios prueben Power BI Pro](../admin/service-admin-portal.md#allow-users-to-try-power-bi-paid-features).
 >
 >
 

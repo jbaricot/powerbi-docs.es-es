@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
 ms.date: 08/02/2020
-ms.openlocfilehash: 3ba075c33f689d76fb0c94aec09ed9fd309c718d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 73be957feae7fb869cca0af7bce0eeeb8daab03f
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96395150"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155735"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Creación de una capacidad de Power BI Embedded en Azure Portal
 
@@ -47,7 +47,8 @@ Antes de crear una capacidad de Power BI Embedded, asegúrese de que ha iniciad
 
 4. Rellene la información necesaria y, después, haga clic en **Revisar y crear**.
 
-    ![Captura de pantalla en la que se muestra la pestaña Aspectos básicos de la página de Power BI Embedded para crear una capacidad en Azure Portal.](media/azure-pbie-create-capacity/azure-create-capacity.png)
+    >[!div class="mx-imgBorder"]
+    >![Captura de pantalla en la que se muestra la pestaña Aspectos básicos de la página de Power BI Embedded para crear una capacidad en Azure Portal.](media/azure-pbie-create-capacity/azure-create-capacity-old.png)
 
     * **Suscripción**: la suscripción en la que le gustaría crear la capacidad.
 
@@ -115,7 +116,7 @@ Los comandos de capacidad de Power BI Embedded requieren la versión 2.3.1 o u
 
 ### <a name="create-a-capacity-with-azure-cli"></a>Creación de una capacidad con la CLI de Azure
 
-Use el comando [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) para crear una capacidad.
+Use el comando [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-create) para crear una capacidad.
 
 ```azurecli
 az powerbi embedded-capacity create --location westeurope
@@ -127,7 +128,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Eliminación de una capacidad con la CLI de Azure
 
-Para eliminar una capacidad mediante la CLI de Azure, use el comando [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete).
+Para eliminar una capacidad mediante la CLI de Azure, use el comando [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete).
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -136,7 +137,7 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Administración de la capacidad con la CLI de Azure
 
-Se pueden ver todos los comandos de la CLI de Azure de Power BI Embedded en [az powerbi](/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest).
+Se pueden ver todos los comandos de la CLI de Azure de Power BI Embedded en [az powerbi](/cli/azure/ext/powerbidedicated/powerbi).
 
 # <a name="arm-template"></a>[Plantilla ARM](#tab/ARM-template)
 

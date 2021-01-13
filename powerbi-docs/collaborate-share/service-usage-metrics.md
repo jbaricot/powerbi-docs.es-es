@@ -10,16 +10,16 @@ ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 12/15/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7184f00af46ce5f49df2510ea5e676c89a37a7a
-ms.sourcegitcommit: fef29a5c5bf1e0dae663c42c9ce5ae50e29ae9be
+ms.openlocfilehash: dc3ce931664a3c125504865c6cccfe3fdfa404c4
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97558502"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053429"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>Supervisión de métricas de uso en áreas de trabajo clásicas
 
-Las métricas de uso le ayudan a conocer el impacto de paneles e informes. Al ejecutar métricas de uso de panel o de uso de informe, verá cómo se usan estos paneles e informes en toda la organización; qué es lo que se está utilizando en la organización, quién lo usa y con qué finalidad. En este artículo se describen los informes de las métricas de uso para las [áreas de trabajo clásicas](service-create-workspaces.md). Si los informes se encuentran en las nuevas áreas de trabajo, consulte el artículo [Supervisión de las métricas de uso en la nueva experiencia de área de trabajo](service-usage-metrics.md).  
+Las métricas de uso le ayudan a conocer el impacto de paneles e informes. Al ejecutar métricas de uso de panel o de uso de informe, verá cómo se usan estos paneles e informes en toda la organización; qué es lo que se está utilizando en la organización, quién lo usa y con qué finalidad. En este artículo se describen los informes de las métricas de uso para las [áreas de trabajo clásicas](service-create-workspaces.md). Si los informes se encuentran en las nuevas áreas de trabajo, consulte el artículo [Supervisión de las métricas de uso en la nueva experiencia de área de trabajo](service-modern-usage-metrics.md).  
 
 Estos informes de métricas de uso son de solo lectura. Sin embargo, puede copiarlos. Al hacerlo, se crea un informe de Power BI estándar que se puede editar. También puede crear sus propios informes en Power BI Desktop, según el conjunto de datos subyacente, que contiene las métricas de uso para todos los paneles o informes en un área de trabajo. Para empezar, el informe copiado muestra métricas solo del panel o el informe seleccionados. Puede quitar el filtro predeterminado y tener acceso al conjunto de datos subyacente, con todas las métricas de uso del área de trabajo seleccionada. Incluso puede ver los nombres de usuarios específicos si el administrador´lo ha permitido.
 

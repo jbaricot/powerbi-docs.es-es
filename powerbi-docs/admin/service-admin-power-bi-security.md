@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: ee7954cff7863ff58370bbe1e58f26c64644c8e8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9019ed9e64bca94a87e2ab9b6febdb7a25055b75
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857068"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961164"
 ---
 # <a name="power-bi-security"></a>Seguridad de Power BI
 
@@ -53,7 +53,7 @@ La seguridad de la plataforma de Power BI también incluye una seguridad de ento
 
 ## <a name="data-and-service-security"></a>Seguridad de datos y servicios
 
-Para más información, visite el [Centro de confianza de Microsoft](https://www.microsoft.com/trustcenter).
+Para más información, visite el [Centro de confianza de Microsoft](https://www.microsoft.com/trust-center/product-overview).
 
 Como se describió anteriormente en este artículo, los servidores de Active Directory locales usan el inicio de sesión de un usuario en Power BI para realizar la asignación a UPN para las credenciales. Sin embargo, es **importante** tener en cuenta que los usuarios son responsables de los datos que comparten: si un usuario se conecta a orígenes de datos con sus credenciales y luego comparte un informe (panel o conjunto de datos) en función de esos datos, los usuarios con los que se comparte el panel no se autentican en el origen de datos original y se les concederá acceso al informe.
 
