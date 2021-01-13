@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: 1331543973680879e4fcc2dbafc7323e72a27694
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 5f337197655d41b830b237c04faa2642991c34ee
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888176"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969820"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Obtención de un objeto visual de Power BI certificado
 
@@ -92,7 +92,7 @@ Siga los requisitos de código que se enumeran a continuación para asegurarse d
 * Use solo componentes públicos de OSS que se puedan revisar, como bibliotecas JavaScript o TypeScript públicas.
 * El código debe admitir la [API de representación de eventos](event-service.md).
 * Asegúrese de que DOM se manipule de forma segura. Use el saneamiento de los datos de usuario o de entrada de usuario antes de agregarlos a DOM.
-* Use el [informe de ejemplo](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) como conjunto de datos de prueba.
+* Use el [informe de ejemplo](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/gh-pages/assets) como conjunto de datos de prueba.
 
 **No permitido**
 * Acceder a recursos o servicios externos. Por ejemplo, ninguna solicitud HTTP/S ni WebSocket puede salir de Power BI a ningún servicio.

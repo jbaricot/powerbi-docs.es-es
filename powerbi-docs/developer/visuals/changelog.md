@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 4ed42f8c9c3acf740b68bf6c28aaa201efb0d5ba
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 3917ef64cfecd20e09be9b253ac05953cfe3d37a
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927124"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969682"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Registro de cambios de la API de objetos visuales de Power BI
 Esta página contiene un resumen rápido de las versiones de API. Las versiones que se enumeran aquí se consideran estables y no cambiarán.
@@ -96,7 +96,7 @@ Esta página contiene un resumen rápido de las versiones de API. Las versiones 
 
 ## <a name="api-v162"></a>API v1.6.2
 * Admite el **[modo de edición](./advanced-edit-mode.md)** para que los objetos visuales entren en modo de edición.
-* Admite **[objetos visuales interactivos (html) de Power BI con tecnología de R](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** , basados en HTML.
+* Admite **[objetos visuales interactivos (html) de Power BI con tecnología de R](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** , basados en HTML.
 
 ## <a name="api-v150"></a>API v1.5.0
 * Admite **[Permitir interacciones](./visuals-interactions.md)** para la interactividad de los objetos visuales.
@@ -110,7 +110,7 @@ Esta página contiene un resumen rápido de las versiones de API. Las versiones 
 ## <a name="api-v120"></a>API v1.2.0
 * Agrega **colorPalette** para administrar los colores utilizados en el objeto visual.
 * Admite **selección múltiple**: selectionManager puede aceptar una matriz de `SelectionId`.
-* Admite **[objetos visuales de R](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** mediante scripts de R.
+* Admite **[objetos visuales de R](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** mediante scripts de R.
 
 ## <a name="api-v110"></a>API v1.1.0
 * Admite objetos visuales de depuración en iFrame.

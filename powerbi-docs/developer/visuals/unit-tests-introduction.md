@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: ee7ed48043a902a9b5ebd3c548ebec7505e76ab1
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 784f41e8efa5c6d02a95ef451488883a4422b854
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887923"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969498"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Tutorial: Adición de pruebas unitarias en proyectos de objetos visuales de Power BI
 
@@ -23,7 +23,7 @@ En este artículo se describen los conceptos básicos de la escritura de pruebas
 * Usar el paquete powerbi-visuals-utils-testutils.
 * Usar objetos ficticios y emulaciones para ayudar a simplificar las pruebas unitarias de objetos visuales de Power BI.
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Prerrequisitos
 
 * Un proyecto de objetos visuales de Power BI instalado.
 * Un entorno de Node.js configurado.
@@ -457,7 +457,7 @@ Al colocar datos en cubos de campos de datos, Power BI genera un objeto `datav
 
 En las pruebas unitarias, no tiene funciones principales de Power BI para reproducir los datos, pero debe asignar los datos estáticos al objeto `dataview` categórico. La clase `TestDataViewBuilder` puede ayudarle a asignarlos.
 
-Para obtener más información sobre la asignación de vistas de datos, vea [DataViewMappings](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md).
+Para obtener más información sobre la asignación de vistas de datos, vea [DataViewMappings](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md).
 
 En el método `getDataView`, llame al método `createCategoricalDataViewBuilder` con los datos.
 

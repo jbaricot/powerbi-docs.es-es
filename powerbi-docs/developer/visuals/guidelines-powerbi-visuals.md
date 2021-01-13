@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 08/12/2020
-ms.openlocfilehash: 67875f9b571e0a0376046a3cb080551d23e579e4
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: adb238b918d01bcdefe247a5452a0432b97d2e0c
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97889303"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969521"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Instrucciones para objetos visuales de Power BI
 Antes de [publicar](office-store.md) el objeto visual de Power BI en Microsoft AppSource para que otros usuarios lo descubran y lo usen, asegúrese de seguir las instrucciones para crear una gran experiencia para los usuarios.
@@ -57,7 +57,7 @@ Una vez que el objeto visual de Power BI se valide y apruebe, en la lista de Mi
 ## <a name="context-menu"></a>Menú contextual
 El menú contextual es el que se muestra cuando el usuario mantiene el mouse sobre un objeto visual.
 En todos los objetos visuales de Power BI se debe habilitar el menú contextual para ofrecer una experiencia unificada.
-Consulte [este artículo](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) para obtener información sobre cómo agregar un menú contextual.
+Consulte [este artículo](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/gh-pages/tutorials/building-bar-chart) para obtener información sobre cómo agregar un menú contextual.
 
 >[!div class="mx-imgBorder"]
 >![Captura de pantalla del menú contextual de un objeto visual de Power BI.](media/guidelines-powerbi-visuals/context-menu.png)

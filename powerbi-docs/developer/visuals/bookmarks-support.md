@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6a4f0e8ad8890e85db54e8d77a2ec19bb0d02ea8
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: a1bd0f694bbc2bc40fc35aef3c6017e7f4a8196a
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97889119"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969705"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Adición de compatibilidad de los marcadores para los objetos visuales de Power BI
 
@@ -47,7 +47,7 @@ El objeto visual debe restaurar los valores de filtro para mostrar el estado cor
 
 ### <a name="visuals-with-selection"></a>Objetos visuales con selecciones
 
-Si el objeto visual interactúa con otros objetos visuales mediante [Selection](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md), puede agregar marcadores de una de estas dos maneras:
+Si el objeto visual interactúa con otros objetos visuales mediante [Selection](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Tutorial/Selection.md), puede agregar marcadores de una de estas dos maneras:
 
 * Si el objeto visual aún no ha usado [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts), puede utilizar el método `FilterManager.restoreSelectionIds`.
 
