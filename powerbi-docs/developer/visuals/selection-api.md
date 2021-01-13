@@ -1,6 +1,6 @@
 ---
-title: Selecciones de puntos de datos de objetos visuales de Power BI
-description: En el artículo se describe cómo agregar selecciones a objetos visuales de Power BI
+title: Selecciones de puntos de datos de objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo agregar selecciones a objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 57f443ec11d918966c25b9d59a1656bb02983fbb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: db215195444827f9464e10f9cbb190e292099584
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238041"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888337"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Incorporación de interactividad en un objeto visual mediante las selecciones de objetos visuales de Power BI
 

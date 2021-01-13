@@ -1,6 +1,6 @@
 ---
-title: Prueba de envío de un objeto visual de Power BI
-description: En este artículo se describen los casos de prueba que el objeto visual debe superar antes de publicarse en AppSource. También hay casos de prueba opcionales.
+title: Prueba de envío de un objeto visual de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describen los casos de prueba que el objeto visual debe superar antes de publicarse en AppSource. También hay casos de prueba opcionales. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/15/2020
-ms.openlocfilehash: 515813aeb98010f838cfff75febbb1ef206bc2cf
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: b5054d821dc797f1606fea8ec5d0bb43569a57e5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397493"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888475"
 ---
 # <a name="submission-testing-of-a-power-bi-visual"></a>Prueba de envío de un objeto visual de Power BI
 

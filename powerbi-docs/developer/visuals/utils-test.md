@@ -1,6 +1,6 @@
 ---
-title: Introducción al uso de utilidades de prueba en objetos visuales de Power BI
-description: En este artículo se describe cómo usar las utilidades de prueba para simplificar el uso de elementos ficticios y métodos específicos en pruebas unitarias de objetos visuales de Power BI.
+title: Introducción al uso de utilidades de prueba en objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo usar utilidades de prueba para simplificar el uso de elementos ficticios y métodos específicos en pruebas unitarias de objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 02/14/2020
-ms.openlocfilehash: c50ad894b2e1f5eb838abdd4442f473f8bcbbb10
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4b2a846f4905c4cb28fe92043cf3c71750b40f11
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196615"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888061"
 ---
 # <a name="power-bi-visuals-test-utils"></a>Utilidades de prueba en objetos visuales de Power BI
 

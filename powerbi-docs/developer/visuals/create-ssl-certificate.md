@@ -1,6 +1,6 @@
 ---
-title: Creación de certificados SSL para objetos visuales de Power BI
-description: Obtenga información sobre cómo generar certificados SSL mediante herramientas de objetos visuales de Power BI en Windows, Mac o Linux, o manualmente.
+title: Creación de certificados SSL de objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Obtenga información sobre cómo generar certificados SSL mediante herramientas de objetos visuales de Power BI en Windows, Mac o Linux, o manualmente. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: f6f458d2fe82668074d7cfb046cb5a72afa35c38
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 7897d25f3ac49c0f1b728f2aaf05b8612de67055
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92048795"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885531"
 ---
 # <a name="create-an-ssl-certificate"></a>Creación de un certificado SSL
 
@@ -39,14 +39,14 @@ La utilidad OpenSSL suele estar disponible en el sistema operativo macOS X.
 
 También puede instalar la utilidad OpenSSL si ejecuta alguno de los siguientes comandos:
 
-- En el administrador de paquetes *Brew* :
+- En el administrador de paquetes *Brew*:
   
   ```cmd
   brew install openssl
   brew link openssl --force
   ```
 
-- Mediante *MacPorts* :
+- Mediante *MacPorts*:
   
   ```cmd
   sudo port install openssl
@@ -99,7 +99,7 @@ openssl x509 -outform pem -in /tmp/local-root-ca.pem -out /tmp/local-root-ca.crt
 
 ### <a name="generate-a-certificate-for-localhost"></a>Generación de un certificado para localhost 
 
-Para generar un certificado para `localhost` mediante entidad de certificado generada y para *OpenSSL.cnf* , ejecute los siguientes comandos:
+Para generar un certificado para `localhost` mediante entidad de certificado generada y para *OpenSSL.cnf*, ejecute los siguientes comandos:
 
 ```sh
 PBIVIZ=`which pbiviz`
@@ -170,11 +170,11 @@ Normalmente, puede encontrar los certificados de servidor web correspondientes a
 
 ### <a name="pem-format"></a>Formato PEM
 
-Si usa el formato de certificados de correo mejorados de privacidad (PEM), guarde el archivo de certificado como *PowerBIVisualTest_public.crt* y guarde la clave privada como *PowerBIVisualTest_public.crt* .
+Si usa el formato de certificados de correo mejorados de privacidad (PEM), guarde el archivo de certificado como *PowerBIVisualTest_public.crt* y guarde la clave privada como *PowerBIVisualTest_public.crt*.
 
 ### <a name="pfx-format"></a>Formato PFX
 
-Si usa el formato de certificado de intercambio de información personal (PFX), guarde el archivo de certificado como *PowerBIVisualTest_public.pfx* .
+Si usa el formato de certificado de intercambio de información personal (PFX), guarde el archivo de certificado como *PowerBIVisualTest_public.pfx*.
 
 Si el archivo de certificado PFX requiere una frase de contraseña:
 

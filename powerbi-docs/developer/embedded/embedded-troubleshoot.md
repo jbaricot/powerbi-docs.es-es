@@ -1,6 +1,6 @@
 ---
-title: Solución de problemas de la aplicación de análisis insertados en Power BI
-description: En este artículo se examinan algunos problemas comunes que pueden encontrarse al insertar contenido desde Power BI.
+title: Solución de problemas de la aplicación de análisis integrados de Power BI para obtener mejor información de BI insertada
+description: En este artículo se examinan algunos problemas comunes que pueden encontrarse al insertar contenido desde Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: db2ae20436eddc4cb06287b6266488b65588dcb5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098085"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887210"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Solución de problemas de una aplicación insertada
 
@@ -119,7 +119,7 @@ Se recomienda que habilite esta directiva solo por aplicación.
 
 Para crear esta directiva, debe ser _ *administrador global** en el directorio donde va a crear y asignar la directiva. Este es un script de ejemplo para crear la directiva y asignarla a la entidad de servicio en esta aplicación:
 
-1. Instale el [módulo de versión preliminar de Azure AD PowerShell](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Instale el [módulo de versión preliminar de Azure AD PowerShell](/powershell/azure/active-directory/install-adv2).
 
 2. Ejecute los comandos de PowerShell siguientes línea a línea (asegúrese que la variable $sp no tenga más de una aplicación como resultado).
 

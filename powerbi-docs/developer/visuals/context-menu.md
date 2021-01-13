@@ -1,6 +1,6 @@
 ---
-title: Incorporar un menú contextual a un objeto visual de Power BI
-description: Obtenga información sobre cómo agregar un menú contextual a un objeto visual de Power BI.
+title: Adición de menús contextuales a objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Obtenga información sobre cómo agregar un menú contextual a un objeto visual de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 9e63a1196ddc7557fcf8b2fceb424415a63d4df9
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 1c19ba94588628e002cdb9e65f59bd4182020e1c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748089"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888705"
 ---
 # <a name="add-context-menu-to-power-bi-visual"></a>Incorporar un menú contextual a un objeto visual de Power BI
 

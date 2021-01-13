@@ -1,6 +1,6 @@
 ---
-title: Preguntas y respuestas en Power BI Embedded
-description: Power BI Embedded le ofrece una forma de incorporar preguntas y respuestas en una aplicación, y de permitir a los usuarios formular preguntas con lenguaje natural.
+title: Preguntas y respuestas en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Los análisis integrados de Power BI ofrecen una forma de incorporar preguntas y respuestas en una aplicación y de permitir a los usuarios formular preguntas con lenguaje natural. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 11/20/2017
-ms.openlocfilehash: 0106cc9ddb0e82a7b40e362342fce5196ef655c5
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 43e886e6472c6d95b900ccdb5c2e73b8dca3d4a0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749285"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886612"
 ---
-# <a name="qa-in-power-bi-embedded"></a>Preguntas y respuestas en Power BI Embedded
+# <a name="qa-in-power-bi-embedded-analytics"></a>Preguntas y respuestas en análisis integrados de Power BI
 
-Power BI Embedded le ofrece una forma de incorporar preguntas y respuestas en una aplicación, y de permitir a los usuarios formular preguntas con lenguaje natural y recibir respuestas inmediatas en forma de objetos visuales como gráficos o grafos.
+Los análisis integrados de Power BI ofrecen una forma de incorporar preguntas y respuestas en una aplicación, así como de permitir a los usuarios formular preguntas con lenguaje natural y recibir respuestas inmediatas en forma de objetos visuales, como gráficos o grafos.
 
 ![Preguntas interactivas de Preguntas y respuestas en un marco insertado](media/qanda/embedded-qanda.gif)
 

@@ -1,6 +1,6 @@
 ---
-title: Preguntas más frecuentes sobre los análisis de Power BI Embedded
-description: Examinar una lista de las preguntas más frecuentes, y sus respuestas, acerca de Power BI Embedded.
+title: Preguntas más frecuentes sobre los análisis integrados de Power BI que ayudan a procurar una mejor información de BI insertada
+description: Exploración de una lista de preguntas más frecuentes, y sus respuestas, sobre los análisis integrados de Power BI, que mejoran la información de BI insertada de los clientes.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 5d402a32571f70f3a5a3b5686e3fc40ef07126c9
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 4d8096793c4663cbed71c3149bde11305ebee71e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098338"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886704"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Preguntas más frecuentes acerca de Power BI Embedded
 

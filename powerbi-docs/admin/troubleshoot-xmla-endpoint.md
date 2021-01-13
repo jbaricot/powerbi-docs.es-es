@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 11/16/2020
+ms.date: 01/04/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: ca9dd1b18fb037013e6d1d5c6e6c3510065068b4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 191cf3ce71ca30f257276df78ad43cdb2e49a1e1
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413297"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886095"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Solución de problemas de conectividad de los puntos de conexión XMLA
 
@@ -151,7 +151,7 @@ Executing the query ...
 Error -1052311437:
 ```
 
-Esto se debe a que las bibliotecas cliente instaladas con SSMS v18.7.1 no admiten el seguimiento de la sesión. Esto se resolverá en una próxima versión de SSMS.
+Esto se debe a que las bibliotecas cliente instaladas con SSMS v18.7.1 no admiten el seguimiento de la sesión. Esto se resuelve en SSMS 18.8 y versiones posteriores. [Descargar la última versión de SSMS](/sql/ssms/download-sql-server-management-studio-ssms).
 
 ### <a name="refresh-operations"></a>Operaciones de actualización
 
@@ -168,7 +168,51 @@ Date (UTC): 11/13/2020 7:57:16 PM
 Run complete
 ```
 
-Esto se debe a un problema conocido en las bibliotecas cliente en el que se realiza un seguimiento incorrecto del estado de la solicitud de actualización. Esto se resolverá en una próxima versión de SSMS.
+Esto se debe a un problema conocido en las bibliotecas cliente en el que se realiza un seguimiento incorrecto del estado de la solicitud de actualización. Esto se resuelve en SSMS 18.8 y versiones posteriores. [Descargar la última versión de SSMS](/sql/ssms/download-sql-server-management-studio-ssms).
+
+## <a name="editing-role-memberships-in-ssms"></a>Edición de las pertenencias a roles en SSMS
+
+Si se usa la versión 18.8 de SQL Server Management Studio (SSMS) para editar una pertenencia a roles en un conjunto de datos, SSMS puede mostrar el siguiente error:
+
+```
+Failed to save modifications to the server. 
+Error returned: ‘Metadata change of current operation cannot be resolved, please check the command or try again later.’ 
+```
+
+Esto se debe a un problema conocido de la API REST de App Services. Esto se resolverá en una próxima versión. Mientras tanto, para soslayar este error, en **Propiedades del rol**, haga clic en **Script** y, después, escriba y ejecute el siguiente comando de TMSL:
+
+```json
+{ 
+  "createOrReplace": { 
+    "object": { 
+      "database": "AdventureWorks", 
+      "role": "Role" 
+    }, 
+    "role": { 
+      "name": "Role", 
+      "modelPermission": "read", 
+      "members": [ 
+        { 
+          "memberName": "xxxx", 
+          "identityProvider": "AzureAD" 
+        }, 
+        { 
+          "memberName": “xxxx” 
+          "identityProvider": "AzureAD" 
+        } 
+      ] 
+    } 
+  } 
+} 
+```
+
+## <a name="publish-error---live-connected-dataset"></a>Error de publicación: Conjunto de datos conectado activo
+
+Al volver a publicar un conjunto de datos conectado activo mediante el conector de Analysis Services, puede aparecer el siguiente error:
+
+:::image type="content" source="media/troubleshoot-xmla-endpoint/couldnt-publish-to-power-bi.png" alt-text="Error &quot;No se pudo publicar en Power BI&quot;":::
+
+Como se indica en el mensaje de error, elimine o cambie el nombre del conjunto de datos existente para resolver este problema. Asegúrese también de volver a publicar cualquier aplicación que dependa del informe. Si así lo cree conveniente, avise también a los usuarios de niveles inferiores para que actualicen los marcadores con la nueva dirección de informe, así podrán acceder al informe más reciente sin problemas.  
 
 ## <a name="see-also"></a>Vea también
 

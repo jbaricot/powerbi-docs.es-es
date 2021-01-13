@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 71ed2610ea77900fe51542b2257f4795f201694f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: aac8eac050a3c864833d16a12016a1cc0ae398b7
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394966"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888360"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
 Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI**. Para obtener información sobre novedades, vea:
@@ -55,13 +55,13 @@ Asimismo, para obtener información sobre las novedades y características, cons
 * Nueva API de registro de actividad que permite a los administradores del servicio Power BI realizar un seguimiento de las actividades de administración y de los usuarios en su inquilino.
 
 ### <a name="november-2019"></a>Noviembre de 2019
-* Versión preliminar pública de [modelos grandes en Power BI Premium](service-premium-large-models.md).
+* Versión preliminar pública de [modelos grandes en Power BI Premium](../admin/service-premium-large-models.md).
 * Versión preliminar pública del uso de controles de Microsoft Cloud App Security en Power BI.
 
 ### <a name="october-2019"></a>Octubre de 2019
 * Nueva acción de Power Automate para actualizar los conjuntos de datos de Power BI.
 * [Lista de contactos](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) para los informes y los paneles en el servicio Power BI.
-* Disponibilidad general del [aprendizaje automático automatizado](../transform-model/service-machine-learning-automated)
+* Disponibilidad general de [aprendizaje automático automatizado](../transform-model/service-machine-learning-automated.md)
 * Versión preliminar pública de la vista de linaje de datos de Power BI.
 
 ### <a name="september-2019"></a>Septiembre de 2019

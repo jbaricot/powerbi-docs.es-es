@@ -1,6 +1,6 @@
 ---
-title: Representación de eventos en objetos visuales de Power BI
-description: Los objetos visuales de Power BI pueden notificar a Power BI que están listos para la exportación a PowerPoint o PDF.
+title: Representación de eventos en objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Los objetos visuales de Power BI pueden notificar a Power BI que están listos para la exportación a PowerPoint o PDF. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: c54aaa92f3463ce1102866c8d3b69532c8b25cf7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 77ed686b78a96717193e594e9f846d4204d8b5e8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380258"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885094"
 ---
 # <a name="render-events-in-power-bi-visuals"></a>Representación de eventos en objetos visuales de Power BI
 

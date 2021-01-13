@@ -1,6 +1,6 @@
 ---
-title: Sugerencias para mejorar el rendimiento
-description: Cómo crear un objeto visual de Power BI de alto rendimiento
+title: Consejos de rendimiento en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Procedimiento para crear un objeto visual de Power BI de alto rendimiento. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c8bcf5e13ba769b976ab123adb3ba37f46b0359e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746088"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885945"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>Cómo crear un objeto visual de Power BI de alto rendimiento
 En este artículo se tratan las técnicas que permiten a los desarrolladores obtener un alto rendimiento al representar objetos visuales. 

@@ -1,6 +1,6 @@
 ---
-title: Agregar filas a una tabla
-description: Tutorial para insertar datos - Agregar filas a una tabla de Power BI
+title: Adición de filas a una tabla en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Tutorial para insertar datos - Agregar filas a una tabla de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: b43e9c93499f60039a924051c30b0ed631c85e8e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: b34bc292d832938f34766ef94c5d9addd7b9e271
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748388"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887555"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Paso 5: Agregar filas a una tabla de Power BI
 

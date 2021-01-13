@@ -1,6 +1,6 @@
 ---
-title: Obtener un conjunto de datos para agregar filas
-description: Tutorial para insertar datos - Obtener un conjunto de datos para agregar filas a una tabla de Power BI
+title: Obtención de un conjunto de datos para agregar filas en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Tutorial para insertar datos - Obtener un conjunto de datos para agregar filas a una tabla de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: a150666eafd8dc11b573150455775d2ecf6f7f1b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: e1be761f68dfcd58de8623618acd859694b95bde
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748319"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887463"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Paso 4: Obtener un conjunto de datos para agregar filas a una tabla de Power BI
 
@@ -29,7 +29,7 @@ Aquí se indica cómo obtener un conjunto de datos.
 
 > **NOTA**: Antes de comenzar, asegúrese de que ha seguido los pasos anteriores del tutorial [Insertar datos en un conjunto de datos](walkthrough-push-data.md).
 
-1. En el proyecto de aplicación de consola que creó en el Paso 2: Tutorial para insertar datos, [Obtener un token de acceso de autenticación](walkthrough-push-data-get-token.md), instale el paquete NuGet de Newtonsoft.Json. Aquí se muestra cómo instalar el paquete:
+1. En el proyecto de aplicación de consola que creó en Paso 2: Tutorial para insertar datos, [Obtener un token de acceso de autenticación](walkthrough-push-data-get-token.md), instale el paquete NuGet de Newtonsoft.Json. Aquí se muestra cómo instalar el paquete:
 
      a. En Visual Studio 2015, elija **Herramientas** > **Administrador de paquetes NuGet** > **Consola del Administrador de paquetes**.
 

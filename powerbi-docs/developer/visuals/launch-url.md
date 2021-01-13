@@ -1,6 +1,6 @@
 ---
-title: Creación de una URL de inicio
-description: En este artículo se describe cómo se puede abrir la URL en una pestaña nueva mediante objetos visuales de Power BI.
+title: Creación de una dirección URL de inicio en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo se puede abrir la URL en una pestaña nueva mediante objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 7e398354ab069bb02554c94312909c0ed835d027
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6fe9908c324705b8cb00519b4743ae8c052c7ad8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379794"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888314"
 ---
 # <a name="create-a-launch-url"></a>Creación de una URL de inicio
 
@@ -22,7 +22,7 @@ Al crear una URL de inicio, puede abrir una nueva pestaña (o ventana) del explo
 > [!IMPORTANT]
 > `host.launchUrl()` se presentó en Visuals API 1.9.0.
 
-## <a name="sample"></a>Ejemplo
+## <a name="sample"></a>Muestra
 
 Importe la interfaz `IVisualHost` y guarde el vínculo en el objeto `host` del constructor del objeto visual.
 

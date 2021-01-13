@@ -1,6 +1,6 @@
 ---
-title: Preguntas más frecuentes sobre objetos visuales de Power BI
-description: Exploración de una lista de las preguntas más frecuentes, y sus respuestas, acerca de los objetos visuales de Power BI
+title: Preguntas más frecuentes sobre objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Exploración de una lista de las preguntas más frecuentes, y sus respuestas, acerca de los objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/30/2020
-ms.openlocfilehash: f38aaf9ea5bcb62cabae6ce2b7aca99f97c75960
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b2bfac5cbd3ce9b850e42ebf25c63b6e22fbeb68
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386444"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97884933"
 ---
 # <a name="power-bi-visuals-faq"></a>Preguntas más frecuentes de objetos visuales de Power BI
 

@@ -1,6 +1,6 @@
 ---
-title: Publicación de objetos visuales de Power BI en el Centro de partners
-description: Aprenda a publicar objetos visuales personalizados en el Centro de partners para que otros usuarios puedan descubrirlos y usarlos.
+title: Publicación de objetos visuales de Power BI en el Centro de partners en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Información sobre cómo publicar objetos visuales personalizados en el Centro de partners para que otros usuarios puedan descubrirlos y usarlos. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 07/14/2020
-ms.openlocfilehash: a4b816e040e25b4a7e67c4bd488554d019277778
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9d37daebe7828190280a3d88d56210c3a1266da2
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417184"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886842"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicación de objetos visuales de Power BI en el Centro de partners
 

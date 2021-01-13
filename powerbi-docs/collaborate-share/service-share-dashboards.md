@@ -8,21 +8,21 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 06/26/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7a85021ee1931b2d5f7c247d7caa4c2813f86a8c
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: 1069a000daf3f46055f45118f4442e4b19037234
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621611"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926733"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Uso compartido de informes y paneles de Power BI con compañeros y otros usuarios
 *Compartir* es la forma más sencilla de proporcionar a los usuarios acceso a los paneles e informes en el servicio Power BI. Puede compartir con usuarios de su organización o con usuarios que no pertenezcan a ella.
 
 Cuando comparte un panel o un informe, los usuarios con quienes los comparte pueden verlos e interactuar con ellos, pero no modificarlos. Ven los mismos datos que usted ve en el panel y los informes, y tienen acceso a la totalidad del conjunto de datos subyacente, a menos que se le aplique la seguridad de nivel de fila (RLS).  Los compañeros con los que los comparte también pueden compartirlos a su vez con sus propios compañeros, si tienen permiso para hacerlo. Los usuarios que no pertenecen a la organización pueden ver el panel o el informe, e interactuar con ellos, pero no compartirlos. 
 
-![Icono de uso compartido en una lista de paneles](media/service-share-dashboards/power-bi-share-new-look.png)
+![Icono de uso compartido de un informe](media/service-share-dashboards/power-bi-share-new-look.png)
 
 Puede compartir paneles e informes de muchas ubicaciones en el servicio Power BI: Favoritos, Recientes, Mi área de trabajo. También puede compartir elementos desde otras áreas de trabajo si tiene el [rol de administrador, miembro o colaborador](service-new-workspaces.md#roles-in-the-new-workspaces) en el área de trabajo. También puede compartir paneles e informes en Compartidos conmigo, si el propietario lo permite. 
 

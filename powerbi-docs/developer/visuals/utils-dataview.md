@@ -1,6 +1,6 @@
 ---
-title: Introducción al uso de las utilidades de vista de datos en los objetos visuales de Power BI
-description: En este artículo se describe cómo usar las utilidades de SVG para simplificar el análisis del objeto DataView para objetos visuales de Power BI
+title: Introducción al uso de utilidades de vista de datos en objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo usar las utilidades de SVG para simplificar el análisis del objeto DataView de objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: fc0ebf3d315b10bc14190a5ae01e8d389e2be0cc
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 3c54333c35809ab272c065973d4d948e1ac37a8b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513744"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887831"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
 

@@ -1,6 +1,6 @@
 ---
-title: Registro de una aplicación para insertar contenido de Power BI en una aplicación de análisis insertados
-description: Aprenda a registrar una aplicación en Azure Active Directory para su uso con la inserción de contenido de Power BI.
+title: Registro de una aplicación para insertar contenido de Power BI en una aplicación de análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Aprenda a registrar una aplicación en Azure Active Directory para su uso con la inserción de contenido de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: 98956beb3e5a106b885ecbca187521f85917f25e
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: c30b8f7ebe403e38fa59fa248aacc4b3086bf9ed
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098223"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885876"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registro de una aplicación de Azure AD para usarla con Power BI
 

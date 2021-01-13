@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 17fc02131f13fe7fe7d8fb17af4380f6a013b9e7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 520a3673d34019c6045988cd5d501e187849a5c6
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413527"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927055"
 ---
 # <a name="enable-content-certification"></a>Habilitación de la certificación de contenido
 
@@ -39,7 +39,7 @@ La certificación forma parte de la característica de *aprobación* de Power B
 
 1. Establezca el control de alternancia en **Habilitado**.
 1. Si la organización tiene una directiva de certificación publicada, proporcione aquí su dirección URL. Se convertirá en el vínculo **Más información** de la sección de certificación del [cuadro de diálogo de Configuración de aprobación](../collaborate-share/service-endorse-content.md#request-content-certification). Si no proporciona un vínculo, se aconsejará a los usuarios que quieran solicitar la certificación de su contenido que se pongan en contacto con su administrador de Power BI.
-1. Especifique uno o más grupos de seguridad cuyos miembros estarán autorizados para certificar el contenido. Estos emisores de certificados autorizados podrán usar el botón Certificación que hay en la sección de certificación del [cuadro de diálogo de configuración de la aprobación](../collaborate-share/service-endorse-content.md#certify-content).
+1. Especifique uno o más grupos de seguridad cuyos miembros estarán autorizados para certificar el contenido. Estos emisores de certificados autorizados podrán usar el botón Certificación que hay en la sección de certificación del [cuadro de diálogo de configuración de la aprobación](../collaborate-share/service-endorse-content.md#certify-content). Este campo solo acepta grupos de seguridad. No se pueden especificar usuarios con nombre.
     
     Si un grupo de seguridad contiene subgrupos de seguridad a los que no quiere conceder derechos de certificación, puede activar la casilla **Excepto grupos de seguridad específicos** y escribir los nombres de esos grupos en un cuadro de texto que aparecerá.
 1. Haga clic en **Aplicar**.

@@ -1,6 +1,6 @@
 ---
-title: Información sobre herramientas en objetos visuales de Power BI
-description: En este artículo se describe cómo puede mostrar información sobre herramientas en objetos visuales de Power BI.
+title: Información sobre herramientas en objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo puede mostrar información sobre herramientas en objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/09/2020
-ms.openlocfilehash: 60933d1a44cbf83f719c808b658b06009217ff53
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e3f5486faec033b48ba59b7076d5835035458584
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239958"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889234"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Información sobre herramientas en objetos visuales de Power BI
 

@@ -1,6 +1,6 @@
 ---
-title: Crear un conjunto de datos
-description: Tutorial - Inserción de datos en un conjunto de datos - Creación de un conjunto de datos en Power BI
+title: Creación de un conjunto de datos en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Tutorial - Inserción de datos en un conjunto de datos - Creación de un conjunto de datos en Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: d782ee1d7a3fd137624054ee9e2bca0247ddb5ea
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: e2f1bbd1503ca4adeac626d02fc7bf3e41baa9b5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748894"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887509"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Paso 3: Creación de un conjunto de datos en Power BI
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).

@@ -1,6 +1,6 @@
 ---
-title: API de objeto visual
-description: En este artículo se describe cómo usar la API de objeto visual para objetos visuales de Power BI.
+title: API de objetos visuales en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo usar la API de objetos visuales con objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/19/2020
-ms.openlocfilehash: 6ec30fdd4812427ae855ff9a167d946d2a415c28
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7b81ecfa1b97b202b6c1ff306cf858f2ea00acde
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302975"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888544"
 ---
 # <a name="visual-api"></a>API de objeto visual
 Todos los objetos visuales empiezan con una clase que implementa la interfaz `IVisual`. Puede asignar cualquier nombre a la clase siempre que haya exactamente una clase que implemente la interfaz `IVisual`.

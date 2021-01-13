@@ -1,6 +1,6 @@
 ---
-title: Objetos y propiedades de objetos visuales de Power BI
-description: En este artículo se describen las propiedades personalizables de los objetos visuales de Power BI.
+title: Objetos y propiedades de objetos visuales en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describen las propiedades personalizables de los objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 4596465fcd9f59768b18282ec3ad39d2531b7768
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96120198"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885968"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Objetos y propiedades de objetos visuales de Power BI
 
@@ -202,7 +202,7 @@ Las propiedades de `enumerateObjectInstances` reflejan las propiedades que ha de
 
 El selector de `enumerateObjectInstances` determina dónde se enlaza cada objeto en el elemento dataView. Hay cuatro opciones disponibles.
 
-#### <a name="static"></a>estática
+#### <a name="static"></a>static
 
 Este objeto se enlaza a los metadatos `dataviews[index].metadata.objects`, como se muestra aquí.
 
@@ -210,7 +210,7 @@ Este objeto se enlaza a los metadatos `dataviews[index].metadata.objects`, como 
 selector: null
 ```
 
-#### <a name="columns"></a>columns
+#### <a name="columns"></a>columnas
 
 Este objeto se enlaza a columnas con los metadatos `QueryName` correspondientes.
 

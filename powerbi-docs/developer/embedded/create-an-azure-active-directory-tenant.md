@@ -1,6 +1,6 @@
 ---
-title: Crear un inquilino de Azure Active Directory para su uso con Power BI
-description: Aprenda a crear un nuevo inquilino de Azure Active Directory (Azure AD) para una aplicación personalizada que llama a las API REST de Power BI.
+title: Creación de un inquilino de Azure Active Directory para su uso con BI insertada de análisis integrados de Power BI
+description: Información sobre cómo crear un inquilino de Azure Active Directory (Azure AD) para una aplicación personalizada de análisis integrados que llama a API REST de Power BI y permite una BI insertada para los clientes.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: 03ba0a3090a4224cdc97a2f5bdcf80dc4b59dc64
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 24e1d8678234b7b355d99985f8e8a567954d6211
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748779"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889027"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Crear un inquilino de Azure Active Directory para su uso con Power BI
 

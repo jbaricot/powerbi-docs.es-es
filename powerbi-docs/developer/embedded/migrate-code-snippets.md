@@ -1,6 +1,6 @@
 ---
-title: Fragmentos de código para migrar contenido de Power BI Embedded
-description: Estos son algunos fragmentos de código de operaciones básicas necesarias para la migración de contenido.
+title: Fragmentos de código para migrar contenido de una colección de áreas de trabajo a la solución de Power BI Embedded de análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Estos son algunos fragmentos de código de operaciones básicas necesarias para migrar contenido. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 9ed021ce95fd1e978916c188c93ca77fa88ccdb6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f6b6023ac77d007b07662e200d6f165d56d67628
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416517"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888728"
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para migrar contenido de la colección de áreas de trabajo de Power BI
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para migrar contenido de la colección de áreas de trabajo de Power BI
 
-Estos son algunos fragmentos de código de operaciones básicas necesarias para la migración de contenido. Para ver los flujos relativos a determinados tipos de informes, consulte [Migración de contenido de la colección de áreas de trabajo de Power BI Embedded a Power BI](migrate-from-powerbi-embedded.md#content-migration).
+Estos son algunos fragmentos de código de operaciones básicas necesarias para migrar contenido. Para ver los flujos relativos a determinados tipos de informes, consulte [Migración de contenido de la colección de áreas de trabajo de Power BI Embedded a Power BI](migrate-from-powerbi-embedded.md#content-migration).
 
 Puede usar una **herramienta de migración** con el fin de ayudar a copiar el contenido de Power BI Embedded (Paas) al servicio Power BI (SaaS). Sobre todo, si tiene mucho contenido. Para más información, consulte [Herramienta de migración de Power BI Embedded](migrate-tool.md).
 
-El código siguiente son ejemplos con C# y el [SDK de .NET para Power BI](https://www.nuget.org/profiles/powerbi).
+El código siguiente son ejemplos donde se utilizan C# y el [SDK de .NET de Power BI](https://www.nuget.org/profiles/powerbi).
 
 Asegúrese de utiliza los espacios de nombres siguientes para ejecutar los fragmentos de código de abajo.
 
@@ -127,7 +127,7 @@ Esto sirve para actualizar el archivo PBIX después de migrar a SaaS.
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>Establecer las credenciales de DirectQuery en el área de trabajo de SaaS
 
-En este fragmento de código, estamos utilizando las credenciales sin cifrar para mayor simplicidad; también se permite el envío de credenciales cifradas.
+En este fragmento de código, utilizaremos las credenciales sin cifrar para mayor simplicidad, con lo que también se podrán enviar credenciales cifradas.
 
 ```csharp
     public class ConnectionString
@@ -164,9 +164,9 @@ En este fragmento de código, estamos utilizando las credenciales sin cifrar par
 
 ## <a name="push-dataset-and-report"></a>Inserción de conjuntos de datos e informes
 
-Debe volver a generar el informe para el conjunto de datos creado.
+Debe volver a generar el informe para que se cree el conjunto de datos.
 
-En este fragmento de código, se supone que el conjunto de datos de inserción ya está en un área de trabajo del entorno de SaaS. Para más información acerca de la API de inserción, consulte [Inserción de datos en un conjunto de datos de Power BI](../automation/walkthrough-push-data.md).
+En este fragmento de código, se supone que el conjunto de datos de inserción ya está en un área de trabajo del entorno de SaaS. Para obtener información sobre la API de inserción, consulte [Inserción de datos en un conjunto de datos de Power BI](../automation/walkthrough-push-data.md).
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");

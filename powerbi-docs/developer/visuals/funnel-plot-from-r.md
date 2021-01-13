@@ -1,6 +1,6 @@
 ---
-title: Creación de un trazado de embudo a partir de un script de R para un elemento visual de R
-description: En este artículo se describe cómo crear un trazado de embudo a partir de un script de R para un objeto visual de Power BI.
+title: Creación de un trazado de embudo a partir de un script de R para un objeto visual de R en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo crear un trazado de embudo a partir de un script de R para un objeto visual de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 7ef9b75f01dedaf55be77312f07217593d886ef0
-ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
+ms.openlocfilehash: f3d22a4143287588ad9290d000402a10a4cef227
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97675290"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889280"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Tutorial: Creación de un trazado de embudo a partir de un script de R para un elemento visual de R
 En este artículo se describe paso a paso cómo crear un trazado de embudo a partir de un script de R en un objeto visual de R.

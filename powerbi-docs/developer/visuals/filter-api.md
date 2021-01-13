@@ -1,6 +1,6 @@
 ---
-title: Visual Filters API en objetos visuales de Power BI
-description: En este artículo se explica cómo los objetos visuales de Power BI pueden filtrar otros objetos visuales.
+title: API de filtros visuales en objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se explica cómo los objetos visuales de Power BI pueden filtrar otros objetos visuales. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 24e8ac32fb89db2fdc0d1f4ad3fbaffdadaf57bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c03c64c2835ff8bf0b0f1ad3bd555da94aaf3126
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237424"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888751"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Visual Filters API en objetos visuales de Power BI
 

@@ -1,18 +1,18 @@
 ---
-title: Conexión de un informe a un conjunto de datos mediante el enlace dinámico en los análisis insertados de Power BI
-description: Obtenga información sobre cómo insertar un informe mediante el enlace dinámico.
+title: Conexión de un informe a un conjunto de datos mediante enlace dinámico para obtener información de BI insertada en análisis integrados de Power BI
+description: Información sobre cómo insertar un informe mediante enlace dinámico en análisis integrados de Power BI, creando así una mejor información de BI insertada para sus clientes.
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: d8a460f68838faab11cdab6d39f0e757a9789899
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: aacae4dbfae30d72468419a717340c806c6c4bca
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098384"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888912"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Conexión de un informe a un conjunto de datos mediante el enlace dinámico 
 

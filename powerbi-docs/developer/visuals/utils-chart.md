@@ -1,6 +1,6 @@
 ---
-title: Introducción al uso de utilidades de gráfico en los objetos visuales de Power BI
-description: En este artículo se describe cómo usar utilidades de gráfico para dibujar ejes y leyendas en objetos visuales de Power BI
+title: Introducción al uso de utilidades de gráficos en objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo usar utilidades de gráficos para dibujar ejes y leyendas en objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 531da1ede8b83af9fb8093a3178c945f374b835c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9094d639225eb82cbcf427346d1ad78943ddc90f
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379401"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887877"
 ---
 # <a name="chart-utils"></a>Utilidades de gráficos
 

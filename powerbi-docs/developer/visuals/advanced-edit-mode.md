@@ -1,6 +1,6 @@
 ---
-title: Modo de edición avanzada en objetos visuales de Power BI
-description: En este artículo se describe cómo establecer controles de interfaz de usuario avanzados en objetos visuales de Power BI.
+title: Modo de edición avanzada en objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo establecer controles de interfaz de usuario avanzados en objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 97242883fe90c8f5e115818a24e4bb1c49f69b77
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 02f02f23d3dfd7ec514e17d1bab17be715e9cd7d
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380576"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889142"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Modo de edición avanzada en objetos visuales de Power BI
 
@@ -21,7 +21,7 @@ Si necesita controles de interfaz de usuario avanzados en el objeto visual de Po
 
 De forma predeterminada, el objeto visual no admite el modo de edición avanzada. Si se requiere otro comportamiento, puede indicarlo de forma explícita en el archivo *capabilities.json* del objeto visual, al establecer la propiedad `advancedEditModeSupport`.
 
-Los valores posibles son los siguientes:
+Los valores posibles son:
 
 - `0`: NotSupported
 

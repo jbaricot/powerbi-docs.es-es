@@ -1,6 +1,6 @@
 ---
-title: Instrucciones para objetos visuales de Power BI
-description: Obtenga más información sobre cómo publicar objetos visuales personalizados en Microsoft AppSource para que otros usuarios puedan descubrirlos y comprarlos para usarlos.
+title: Directrices relativas a objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Obtenga más información sobre cómo publicar objetos visuales personalizados en Microsoft AppSource para que otros usuarios puedan descubrirlos y comprarlos para usarlos. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 08/12/2020
-ms.openlocfilehash: 427fba66b34fefb0b7ca9d70a29b08ebe7d743cb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 67875f9b571e0a0376046a3cb080551d23e579e4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416149"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889303"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Instrucciones para objetos visuales de Power BI
 Antes de [publicar](office-store.md) el objeto visual de Power BI en Microsoft AppSource para que otros usuarios lo descubran y lo usen, asegúrese de seguir las instrucciones para crear una gran experiencia para los usuarios.

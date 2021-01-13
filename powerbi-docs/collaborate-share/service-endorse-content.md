@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7232cad4fc1216ac6e1aa7c8a01136239a2f09d2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5485f59e11f3c971c719b2604b9e1280a072c5b1
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407064"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926736"
 ---
 # <a name="endorse-your-content"></a>Aprobación del contenido
 
@@ -25,7 +25,7 @@ Power BI proporciona dos maneras de aprobar el contenido valioso y de alta cali
 
 * **Certificación**: significa que el contenido cumple los estándares de calidad de la organización y se puede considerar como contenido fiable y autoritativo que está listo para su uso en toda la organización.
 
-    Solo los revisores autorizados pueden certificar contenido. Los propietarios de contenido que quieran ver su contenido certificado y que no estén autorizados para hacerlo deben seguir las directrices de su organización acerca de la obtención de la certificación del contenido.
+    Solo pueden certificar contenido los [revisores autorizados (que define el administrador de Power BI)](../admin/service-admin-setup-certification.md). Los propietarios de contenido que quieran ver su contenido certificado y que no estén autorizados para hacerlo deben seguir las directrices de su organización acerca de la obtención de la certificación del contenido.
 
 Actualmente es posible aprobar lo siguiente:
 * Conjuntos de datos

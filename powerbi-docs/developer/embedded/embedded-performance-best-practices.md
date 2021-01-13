@@ -1,6 +1,6 @@
 ---
-title: Procedimientos recomendados de rendimiento de Power BI Embedded
-description: En este artículo se proporcionan instrucciones sobre los procedimientos recomendados de análisis integrado.
+title: Procedimientos recomendados del rendimiento de análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se proporcionan instrucciones sobre los procedimientos recomendados de análisis integrados de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f8bf41ae9a4b6f2e16aae2c05df8fa4448a0457c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746686"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888797"
 ---
-# <a name="power-bi-embedded-performance-best-practices"></a>Procedimientos recomendados de rendimiento de Power BI Embedded
+# <a name="power-bi-embedded-analytics-performance-best-practices"></a>Procedimientos recomendados de rendimiento de análisis integrados de Power BI
 
 En este artículo se proporcionan recomendaciones para un procesamiento más rápido de los informes, paneles e iconos de la aplicación.
 
@@ -65,7 +65,7 @@ Las organizaciones con capacidad de Power BI Premium o capacidad de Power BI E
 
 Use `powerbi.preload()` para mejorar el rendimiento del usuario final. El método `powerbi.preload()` descarga JavaScript, archivos CSS y otros artefactos que se usan posteriormente para insertar un informe.
 
-Llame a `powerbi.preload()` si no va a insertar el informe de inmediato. Por ejemplo, si el contenido insertado de Power BI no aparece en la página principal, use `powerbi.preload()` para descargar y almacenar en caché los artefactos que se usan para insertar el contenido.
+Llame a `powerbi.preload()` si no va a insertar el informe de inmediato. Por ejemplo, si el contenido de Power BI insertado no aparece en la página principal, use `powerbi.preload()` para descargar y almacenar en caché los artefactos que se usan para insertar el contenido.
 
 ## <a name="bootstrapping-the-iframe"></a>Arranque del IFrame
 
@@ -107,5 +107,5 @@ El Analizador de rendimiento le permitirá ver y registrar los registros que mid
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [Guía de optimización para Power BI](../../guidance/power-bi-optimization.md)
-* [Cómo solucionar problemas de Power BI Embedded](embedded-troubleshoot.md)
-* [Preguntas frecuentes sobre Power BI Embedded](embedded-faq.md)
+* [Cómo solucionar problemas de análisis integrados de Power BI](embedded-troubleshoot.md)
+* [Preguntas más frecuentes sobre análisis integrados de Power BI](embedded-faq.md)

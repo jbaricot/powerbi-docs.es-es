@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 800e81b8fe5e9c2f108b71a4d8fb6bf9732a29ac
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613886"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926842"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -50,18 +50,19 @@ Los pasos siguientes describen cómo usar la característica **Publicar en Web**
 
    ![Revise la advertencia.](media/service-publish-to-web/publish_to_web3_ga.png)
 
-5. Aparece un cuadro de diálogo con un vínculo. Seleccione el vínculo para enviarlo por correo electrónico o copie el código HTML. Puede insertarlo en el código como un iFrame o pegarlo directamente en una página web o blog.
+5. En el cuadro de diálogo **¡Correcto!** verá una vista previa del aspecto del informe. Seleccione los valores de **Tamaño** y **Página predeterminada**. 
+
+    También puede agregar una imagen de **marcador de posición** para que la página web se cargue más rápidamente. Con una imagen de marcador de posición, los usuarios que consulten el informe en la Web verán un botón **Ver contenido interactivo** que pueden seleccionar para ver el informe en sí. 
+
+    Realice esos cambios primero. Después, copie el vínculo para enviarlo por correo electrónico o copie el código HTML para pegarlo en un sitio web. Puede insertarlo en el código como un iFrame o pegarlo directamente en una página web o blog.
 
    ![Operación completada correctamente: vínculo y código HTML](media/service-publish-to-web/publish_to_web4.png)
 
-6. Si se ha creado previamente un código para insertar para un informe y se ha seleccionado **Publicar en la web**, no verá los cuadros de diálogo en los pasos 2 a 4. En su lugar, el cuadro de diálogo **Código para insertar** se muestra como sigue:
+6. Si se ha creado previamente un código para insertar para un informe y se ha seleccionado **Publicar en la web**, no verá los cuadros de diálogo en los pasos 2 a 4. En su lugar, verá el cuadro de diálogo **Código para insertar**.
 
    ![Cuadro de diálogo Código para insertar](media/service-publish-to-web/publish_to_web5.png)
 
    Solo se puede crear un código para insertar por informe.
-
-Si realiza cambios en el cuadro de diálogo, asegúrese de copiar la dirección URL o el iFrame actualizado para usar la configuración actualizada en la página.
-
 
 ### <a name="tips-for-view-modes"></a>Sugerencias para modos de vista
 
@@ -128,7 +129,7 @@ Se puede producir una experiencia de uso intensivo cuando un informe recibe dema
 
 Se recomienda establecer una imagen de marcador de posición para el informe. Si se produce un uso intensivo, los usuarios verán la imagen del marcador de posición. 
 
-Para ayudar a evitar la experiencia de uso intensivo, limite el número de consultas distintas que puede generar el informe y la frecuencia de actualización de datos.
+Para ayudar a evitar la experiencia de uso intensivo, limite el número de consultas distintas que puede generar el informe y la frecuencia de actualización de datos. Consulte la [Guía de optimización de Power BI](../guidance/power-bi-optimization.md) para ver sugerencias sobre cómo mejorar sus informes.
 
 ## <a name="power-bi-visuals"></a>Objetos visuales de Power BI
 

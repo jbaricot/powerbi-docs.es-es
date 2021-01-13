@@ -1,6 +1,6 @@
 ---
-title: Inserción de informes paginados en su aplicación de análisis insertada de Power BI para su organización
-description: En este tutorial, obtendrá información sobre cómo integrar o insertar un informe paginado de Power BI en una aplicación con las API de Power BI.
+title: Inserción de informes paginados en la aplicación de análisis integrados de Power BI para procurar una mejor información de BI insertada para su organización
+description: En este tutorial, obtendrá información sobre cómo integrar o insertar un informe paginado de Power BI en una aplicación con las API de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: cb739ab6fee67f08184f8c160c13c58be15d649c
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: d4ef44cb0e03c5de7807f0e95cefa532353f4685
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098453"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885186"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Tutorial: Inserción de informes paginados de Power BI en una aplicación para la organización
 

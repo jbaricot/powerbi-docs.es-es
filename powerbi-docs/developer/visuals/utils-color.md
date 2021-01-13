@@ -1,6 +1,6 @@
 ---
-title: Introducción al uso de utilidades de color en los objetos visuales de Power BI
-description: En este artículo se describe cómo usar las utilidades de color para simplificar la aplicación de temas y paletas en los puntos de datos de los objetos visuales de Power BI.
+title: Introducción al uso de utilidades de color en objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo usar las utilidades de color para simplificar la aplicación de temas y paletas en los puntos de datos de los objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc75188d806d653766860b2fada9028477a75f71
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379361"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887854"
 ---
 # <a name="color-utils"></a>Útiles de color
 Este artículo le ayudará a instalar, importar y usar las utilidades de color. En este artículo se describe cómo usar las utilidades de color para simplificar la aplicación de temas y paletas en los puntos de datos de los objetos visuales de Power BI.

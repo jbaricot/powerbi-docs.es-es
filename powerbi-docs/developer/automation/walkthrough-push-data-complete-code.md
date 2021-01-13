@@ -1,6 +1,6 @@
 ---
-title: Lista de código completa
-description: Tutorial para insertar datos - Lista de código completo
+title: Lista de código completo en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Tutorial para insertar datos - Lista de código completo. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f2e421297eb942e6e9a622c91e9d5a074cb042ba
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d478c742112c15c80657ec424f5a4d6739a3c6d7
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746502"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887486"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Lista de código completa de la inserción de datos en un conjunto de datos
 

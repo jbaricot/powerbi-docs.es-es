@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 19fe2aa003c3d39169bc449dab83c09702f49b1d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b9cff6a4a59db3a30fc4bbe2373a723700d00fee
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419162"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885025"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Instrucciones para relaciones uno a uno
 
@@ -99,11 +99,11 @@ Cuando sea posible, le recomendamos que evite crear relaciones de modelo uno a u
 - Limitar la capacidad de crear jerarquías, ya que sus niveles se deben basar en columnas de la _misma tabla_
 - Generar resultados inesperados cuando no hay una coincidencia completa de filas entre las tablas
 
-Las recomendaciones específicas difieren dependiendo de si la relación uno a uno es _intraisla_ o _entre islas_. Para más información sobre la evaluación de relaciones, consulte [Creación de relaciones de modelos en Power BI Desktop (Evaluación de relaciones)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
+Las recomendaciones específicas difieren dependiendo de si la relación uno a uno es _intragrupo de origen_ o _entre grupos de origen_. Para más información sobre la evaluación de relaciones, consulte [Creación de relaciones de modelos en Power BI Desktop (Evaluación de relaciones)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
-### <a name="intra-island-one-to-one-relationship"></a>Relación uno a uno intraisla
+### <a name="intra-source-group-one-to-one-relationship"></a>Relación uno a uno intragrupo de origen
 
-Cuando existe una relación uno a uno _intraisla_ entre las tablas, recomendamos consolidar los datos en una sola tabla de modelo. Se realiza combinando las consultas de Power Query.
+Cuando existe una relación uno a uno _intragrupo de origen_ entre las tablas, recomendamos consolidar los datos en una sola tabla de modelo. Se realiza combinando las consultas de Power Query.
 
 Los siguientes pasos presentan una metodología para consolidar y modelar los datos relacionados uno a uno:
 
@@ -131,11 +131,11 @@ En nuestro ejemplo, los autores de informes pueden encontrar el campo **Category
 
 ![El panel Campos muestra el campo Category dentro de una carpeta para mostrar denominada Marketing.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Si todavía decide definir relaciones uno a uno intraisla en su modelo, cuando sea posible, asegúrese de que haya filas coincidentes en las tablas relacionadas. Como una relación uno a uno intraisla se evalúa como una [relación normal](../transform-model/desktop-relationships-understand.md#regular-relationships), podrían surgir problemas de integridad de datos en los objetos visuales del informe como espacios en blanco. (Puede ver un ejemplo de una agrupación EN BLANCO en el primer objeto visual de la tabla presentado en este artículo).
+Si de todas formas decide definir relaciones uno a uno intragrupo de origen en su modelo, cuando sea posible, asegúrese de que haya filas coincidentes en las tablas relacionadas. Como una relación uno a uno intragrupo de origen se evalúa como una [relación normal](../transform-model/desktop-relationships-understand.md#regular-relationships), podrían surgir problemas de integridad de datos en los objetos visuales del informe como espacios en blanco. (Puede ver un ejemplo de una agrupación EN BLANCO en el primer objeto visual de la tabla presentado en este artículo).
 
-### <a name="inter-island-one-to-one-relationship"></a>Relación uno a uno entre islas
+### <a name="cross-source-group-one-to-one-relationship"></a>Relación uno a uno entre grupos de origen
 
-Cuando existe una relación uno a uno _entre islas_ entre las tablas, no hay un diseño de modelo alternativo, a menos que consolide previamente los datos en los orígenes de datos. Power BI evaluará la relación del modelo uno a uno como una [relación limitada](../transform-model/desktop-relationships-understand.md#limited-relationships). Por lo tanto, asegúrese de que haya filas coincidentes en las tablas relacionadas, ya que las filas no coincidentes se eliminarán de los resultados de la consulta.
+Cuando existe una relación uno a uno _entre grupos de origen_ entre las tablas, no hay un diseño de modelo alternativo, a menos que consolide previamente los datos en los orígenes de datos. Power BI evaluará la relación del modelo uno a uno como una [relación limitada](../transform-model/desktop-relationships-understand.md#limited-relationships). Por lo tanto, asegúrese de que haya filas coincidentes en las tablas relacionadas, ya que las filas no coincidentes se eliminarán de los resultados de la consulta.
 
 Ahora se verá qué sucede cuando los campos de las dos tablas se agregan a un objeto visual de tabla y existe una relación limitada entre las tablas.
 

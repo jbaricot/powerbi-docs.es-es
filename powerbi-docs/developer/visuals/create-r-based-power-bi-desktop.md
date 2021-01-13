@@ -1,6 +1,6 @@
 ---
-title: 'Tutorial: Crear un objeto visual de Power BI con tecnología de R'
-description: En este tutorial se describe cómo crear un objeto visual basado en R para Power BI con el editor de scripts de R en Power BI Desktop.
+title: Creación de un objeto visual de Power BI con tecnología de R en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este tutorial se describe cómo crear un objeto visual basado en R para Power BI con el editor de scripts de R en Power BI Desktop. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 2046dc389b859ce71c4d26cc31cc686f812e461e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: dde18b9945d808cc6b2630bdad4d83768b0e2e8b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749331"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889050"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>Tutorial: Crear un objeto visual de Power BI con tecnología de R
 
@@ -33,7 +33,7 @@ En este tutorial, obtendrá información sobre cómo:
 * Una cuenta de **Power BI Pro**. [Iniciar sesión para una evaluación gratuita](https://powerbi.microsoft.com/pricing/) antes de empezar.
 * El motor de R. Puede descargarlo de forma gratuita desde varias ubicaciones, incluida la [página de descarga de Revolution Open](https://mran.revolutionanalytics.com/download/) y el [repositorio de CRAN](https://cran.r-project.org/bin/windows/base/). Para más información, consulte [Crear objetos visuales de Power BI con R](../../create-reports/desktop-r-visuals.md).
 * [Power BI Desktop](../../fundamentals/desktop-get-the-desktop.md).
-* La versión 4 de [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) o una posterior para los usuarios de Windows O [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para los usuarios de OSX.
+* La versión 4 de [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) o una posterior para los usuarios de Windows O [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para los usuarios de OSX.
 
 ## <a name="getting-started"></a>Introducción
 

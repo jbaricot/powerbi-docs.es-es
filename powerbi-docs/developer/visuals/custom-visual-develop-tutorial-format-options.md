@@ -1,6 +1,6 @@
 ---
-title: Adición de opciones de formato a un objeto visual personalizado de Power BI
-description: Tutorial sobre cómo desarrollar opciones de formato para los objetos visuales personalizados de Power BI
+title: Adición de opciones de formato a un objeto visual personalizado de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Tutorial sobre cómo desarrollar opciones de formato para los objetos visuales personalizados de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: ec3ba601eb6cd5db4fbc19298d76ce0cd7346f53
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ec5dbe338cc27379d69781a83f58091d94011f08
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418748"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886589"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Tutorial: Adición de opciones de formato a un objeto visual de Power BI
 
 En este tutorial aprenderá a agregar propiedades comunes al objeto visual.
 
-En este tutorial, obtendrá información sobre cómo:
+En este tutorial, aprenderá a:
 > [!div class="checklist"]
 > * Agregar propiedades de los objetos visuales.
 > * Empaquetar el objeto visual.
@@ -235,7 +235,7 @@ Introduzca los valores de propiedad para el proyecto del objeto visual personali
 
 7. Guarde el archivo **pbiviz.json**.
 
-8. En el objeto **assets**, tenga en cuenta que el documento define una ruta de acceso a un icono. El icono es la imagen que aparece en el panel **_Visualizaciones_** . Debe ser un archivo **PNG**, *20 píxeles por 20 píxeles*.
+8. En el objeto **assets**, tenga en cuenta que el documento define una ruta de acceso a un icono. El icono es la imagen que aparece en el panel **_Visualizaciones_**. Debe ser un archivo **PNG**, *20 píxeles por 20 píxeles*.
 
 9. En el Explorador de Windows, copie el archivo icon.png y péguelo para reemplazar el archivo predeterminado ubicado en la carpeta assets.
 
@@ -263,7 +263,7 @@ Ahora puede abrir el informe de Power BI Desktop e importar el objeto visual per
 
 1. Abra **Power BI Desktop**, cree un nuevo informe con cualquier *conjunto de datos de ejemplo*
 
-2. En el panel **_Visualizaciones_** , seleccione los **puntos suspensivos** y, después, seleccione **Importar** desde archivo.
+2. En el panel **_Visualizaciones_**, seleccione los **puntos suspensivos** y, después, seleccione **Importar** desde archivo.
 
     ![Adición de viz personalizado a la aplicación de escritorio](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
@@ -275,7 +275,7 @@ Ahora puede abrir el informe de Power BI Desktop e importar el objeto visual per
 
 6. Cuando se importó correctamente el objeto visual, seleccione **Aceptar**.
 
-7. Compruebe que el objeto visual se ha agregado al panel **_Visualizaciones_** .
+7. Compruebe que el objeto visual se ha agregado al panel **_Visualizaciones_**.
 
     ![Visualización del panel viz en PBI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Objetos visuales en Power BI
-description: En este artículo se describen los objetos visuales personalizados de Power BI
+title: Objetos visuales en Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describen los objetos visuales de Power BI personalizados. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: overview
 ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91c9115f7d9ca0eb15606fcd77f99070e949842e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3d2e8f46605238a87eb23c32765f0a4ffaa02400
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416770"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888084"
 ---
 # <a name="visuals-in-power-bi"></a>Objetos visuales en Power BI
 

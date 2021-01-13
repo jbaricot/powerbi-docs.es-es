@@ -1,6 +1,6 @@
 ---
-title: Estructura de proyecto de objeto visual de Power BI
-description: En este artículo se describe la estructura de archivos y carpetas de un proyecto de objetos visuales de Power BI.
+title: Estructura de proyectos de objetos visuales en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe la estructura de archivos y carpetas de un proyecto de objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 01/12/2020
-ms.openlocfilehash: df7a2909e3ccd745fdaa990ba5281a723ef6360d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 4c946021138e49c0aed9668d9b3ea6079f458ccd
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416724"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888038"
 ---
 # <a name="power-bi-visual-project-structure"></a>Estructura de proyecto de objeto visual de Power BI
 

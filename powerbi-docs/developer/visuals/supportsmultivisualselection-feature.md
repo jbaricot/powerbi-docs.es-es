@@ -1,6 +1,6 @@
 ---
-title: Característica supportsMultiVisualSelection
-description: En este artículo se describe cómo usar la característica supportsMultiVisualSelection en objetos visuales de Power BI y sus requisitos.
+title: La característica supportsMultiVisualSelection en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo usar la característica supportsMultiVisualSelection en objetos visuales de Power BI y sus requisitos. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: 091bdeb4eeb4c979ccf0e79476eb081895fae2e1
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 9e6b17a4576f2354a5cbecc0c3a965a5611784ee
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049416"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887946"
 ---
 # <a name="use-the-supportsmultivisualselection-feature"></a>Uso de la característica supportsMultiVisualSelection
 
@@ -21,7 +21,7 @@ La característica `supportsMultiVisualSelection` le permite usar la selección 
 
 ## <a name="example"></a>Ejemplo
 
-En un informe con más de un objeto visual, seleccione dos valores para que esos valores se apliquen a otros objetos visuales. Por ejemplo, en [Ejemplo de análisis de minoristas](../../create-reports/sample-retail-analysis.md), seleccione **Fashions Direct** en un objeto visual. Seleccione Ctrl y seleccione **Ene** en otro objeto visual. En el informe, las selecciones se aplican a los otros objetos visuales que admiten el uso de esta característica. Ahora, otros objetos visuales tienen el ámbito en **Fashions Direct **y** Ene** .
+En un informe con más de un objeto visual, seleccione dos valores para que esos valores se apliquen a otros objetos visuales. Por ejemplo, en [Ejemplo de análisis de minoristas](../../create-reports/sample-retail-analysis.md), seleccione **Fashions Direct** en un objeto visual. Seleccione Ctrl y seleccione **Ene** en otro objeto visual. En el informe, las selecciones se aplican a los otros objetos visuales que admiten el uso de esta característica. Ahora, otros objetos visuales tienen el ámbito en **Fashions Direct **y** Ene**.
 
 ## <a name="requirements"></a>Requisitos
 

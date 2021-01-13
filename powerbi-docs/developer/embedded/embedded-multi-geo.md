@@ -1,6 +1,6 @@
 ---
-title: Compatibilidad con Multi-Geo en los análisis insertados de Power BI
-description: Conozca cómo puede implementar contenido en centros de datos situados en regiones distintas de la región principal de Power BI Embedded.
+title: Compatibilidad con Multi-Geo en los análisis integrados de Power BI para procurar una mejor información de BI insertada
+description: Información sobre cómo implementar contenido en centros de datos situados en regiones distintas de la región principal de su solución de análisis integrados de Power BI. Uso de la compatibilidad con Multi-Geo para permitir una mejor información de BI insertada para sus clientes.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 1868bab823408377ab600146b21592d902b59ff6
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 4b9aacb460966f633161238cae82ba6731196ed4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098108"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888291"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Compatibilidad de Multi-Geo con Power BI Embedded
 

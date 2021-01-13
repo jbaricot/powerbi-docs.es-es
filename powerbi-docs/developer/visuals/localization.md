@@ -1,6 +1,6 @@
 ---
-title: Adición de la configuración regional en Power BI para los objetos visuales de Power BI
-description: Descubra cómo los objetos visuales pueden recuperar la configuración regional de Power BI para localizar su contenido en el idioma pertinente.
+title: Adición de la configuración regional en Power BI para objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Descubra cómo los objetos visuales pueden recuperar la configuración regional de Power BI para localizar su contenido en el idioma pertinente. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 7492b70b9a82fe6c5579c4251000e9af7509e8fb
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 4df09979eeae476578b247e729a31f5f5c9c9baa
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746071"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888222"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Adición de la configuración regional en Power BI para los objetos visuales de Power BI
 

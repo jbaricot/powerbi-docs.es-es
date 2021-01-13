@@ -1,6 +1,6 @@
 ---
-title: Paso de una aplicación de análisis insertada de Power BI a producción
-description: Información sobre cuáles son los pasos necesarios para pasar su aplicación de Power BI a la fase de producción
+title: Paso de una aplicación de análisis integrados de Power BI a producción para obtener una mejor información de BI insertada
+description: Información sobre cuáles son los pasos necesarios para pasar su aplicación de Power BI a la fase de producción Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 188974531f7b78e04c2cf0f8072dcef7efe3b888
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 71eff0f09c0e34ffd8789f1b56347d754b6589bc
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098200"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886681"
 ---
 # <a name="move-your-embedded-app-to-production"></a>Paso de una aplicación insertada a producción
 

@@ -1,6 +1,6 @@
 ---
-title: Formato condicional
-description: Obtenga información sobre cómo aplicar formato condicional al proyecto de objeto visual de Visual Power BI
+title: Formato condicional en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Información sobre cómo aplicar formato condicional al proyecto de objeto visual de Visual Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 10/27/2020
-ms.openlocfilehash: 5243d1eda3fef2c7b82350fb0ca2669eb43c7623
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 13f9dae542b8e0a340a880ab50b2f57c660e0ed9
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513856"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888774"
 ---
 # <a name="add-conditional-formatting"></a>Adición de formato condicional
 

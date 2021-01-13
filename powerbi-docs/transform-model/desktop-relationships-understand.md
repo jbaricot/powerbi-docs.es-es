@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.openlocfilehash: 32e6cccf738d85ed58922c199c3a6093a54019db
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aeae77efeadfa3b39f9c39cadc36b2a046286b2
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413803"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888623"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Relaciones de modelos en Power BI Desktop
 
@@ -146,21 +146,21 @@ En primer lugar, se necesita un poco de teoría de modelado para llegar a compre
 
 Un modelo de importación o DirectQuery consigue todos sus datos de la caché de Vertipaq o de la base de datos de origen. En ambos casos, Power BI puede determinar que existe un lado "uno" de una relación.
 
-Sin embargo, un modelo compuesto puede constar de tablas que usan diferentes modos de almacenamiento (importación, DirectQuery o dual) o varios orígenes de DirectQuery. Cada origen, incluida la caché de Vertipaq de datos de importación, se considera una _isla de datos_. Así, las relaciones de modelo se pueden clasificar como _intraisla_ o _entre islas_. Una relación intraisla es aquella que relaciona dos tablas de una misma isla de datos, mientras que una relación entre islas relaciona tablas de diferentes islas de datos. Tenga en cuenta que las relaciones en los modelos de importación o DirectQuery siempre son intraisla.
+Sin embargo, un modelo compuesto puede constar de tablas que usan diferentes modos de almacenamiento (importación, DirectQuery o dual) o varios orígenes de DirectQuery. Cada origen, incluida la caché de Vertipaq de datos de importación, se considera un _grupo de origen_. Luego, las relaciones de modelo se pueden clasificar como _intragrupo de origen_ o como _entre grupos de origen_. Una relación intragrupo de origen es aquella que relaciona dos tablas dentro de un mismo grupo de origen, mientras que una relación entre grupos de origen relaciona las tablas procedentes de grupos de origen distintos. Cabe mencionar que las relaciones en los modelos de importación o DirectQuery siempre son intragrupo.
 
 Veamos un ejemplo de un modelo compuesto.
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example.png" alt-text="Ejemplo de un modelo compuesto formado por dos islas.":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example.png" alt-text="Ejemplo de un modelo compuesto formado por dos grupos de origen":::
 
-En este ejemplo, el modelo compuesto consta de dos islas: una isla de datos de Vertipaq y una isla de datos de origen de DirectQuery. La isla de datos de Vertipaq contiene tres tablas y la isla de datos de origen de DirectQuery contiene dos. Existe una relación entre islas que relaciona una tabla de la isla de datos de Vertipaq con una tabla de la isla de datos de origen de DirectQuery.
+En este ejemplo, el modelo compuesto consta de dos grupos de origen: uno de Vertipaq y otro de DirectQuery. El grupo de origen de Vertipaq contiene tres tablas y el de DirectQuery, dos. Existe una relación entre grupos de origen que relaciona una tabla del grupo de origen de Vertipaq con una tabla del grupo de origen de DirectQuery.
 
 ### <a name="regular-relationships"></a>Relaciones normales
 
-Una relación del modelo es _normal_ cuando el motor de consultas puede determinar el lado "uno" de la relación. Tiene la confirmación de que la columna del lado "uno" contiene valores únicos. Todas las relaciones de uno a varios intrainsulares son relaciones normales.
+Una relación del modelo es _normal_ cuando el motor de consultas puede determinar el lado "uno" de la relación. Tiene la confirmación de que la columna del lado "uno" contiene valores únicos. Todas las relaciones de uno a varios intragrupo de origen son relaciones normales.
 
-En el ejemplo siguiente, hay dos relaciones normales, ambas marcadas como **R**. Hay una relación de uno a varios incluida dentro de la isla de Vertipaq y otra relación de uno a varios incluida dentro del origen de DirectQuery.
+En el ejemplo siguiente, hay dos relaciones normales, ambas marcadas como **R**. Hay una relación de uno a varios incluida dentro del grupo de origen de Vertipaq y otra relación de uno a varios en el de DirectQuery.
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example-regular.png" alt-text="Ejemplo de un modelo compuesto formado por dos islas con relaciones normales marcadas.":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example-regular.png" alt-text="Ejemplo de un modelo compuesto formado por dos grupos de origen con relaciones normales marcadas":::
 
 En el caso de los modelos de importación, donde todos los datos se almacenan en la caché de Vertipaq, se crea una estructura de datos para cada relación normal en el momento de la actualización de datos. Las estructuras de datos están formadas por asignaciones indexadas de todos los valores de columna a columna y su finalidad es acelerar la combinación de las tablas en el momento de la consulta.
 
@@ -171,7 +171,7 @@ Cuando se produce la consulta, las relaciones normales permiten que tenga lugar 
 
 En el caso de las relaciones de uno a varios, la expansión de tablas tiene lugar desde el lado "varios" al lado "uno" mediante la semántica LEFT OUTER JOIN. Cuando no existe un valor coincidente del lado "varios" en el lado "uno", se agrega una fila virtual en blanco en la tabla del lado "uno".
 
-La expansión de tablas también se produce en las relaciones de uno a uno intraisla, pero mediante la semántica de combinación externa completa. Así se garantiza que las filas virtuales en blanco se agregan en cualquiera de los lados, cuando es necesario.
+La expansión de tablas también se produce en las relaciones de uno a uno intragrupo de origen, pero mediante la semántica de combinación externa completa. Así se garantiza que las filas virtuales en blanco se agregan en cualquiera de los lados, cuando es necesario.
 
 Las filas virtuales en blanco son, de hecho, _miembros desconocidos_. Los miembros desconocidos representan infracciones de la integridad referencial en las que el valor del lado "varios" no tiene un valor correspondiente en el lado "uno". Idóneamente, estos espacios en blanco no deben existir y se pueden eliminar mediante la limpieza o la reparación de los datos de origen.
 
@@ -186,11 +186,11 @@ En este ejemplo, el modelo consta de tres tablas: **Category**, **Product** y **
 Una relación de modelo es _limitada_ cuando no hay ningún lado "uno" garantizado. Esto puede deberse a dos motivos:
 
 - La relación usa un tipo de cardinalidad de varios a varios (aunque una o ambas columnas contengan valores únicos).
-- La relación es entre islas (lo que solo puede suceder en los modelos compuestos).
+- La relación es entre grupos de origen (lo que solo puede suceder en los modelos compuestos).
 
-En el ejemplo siguiente, hay dos relaciones limitadas, ambas marcadas como **L**. la relación de varios a varios incluida dentro de la isla de Vertipaq y la relación de uno a varios entre islas.
+En el ejemplo siguiente, hay dos relaciones limitadas, ambas marcadas como **L**. Las dos relaciones incluyen la relación de varios a varios contenida dentro del grupo de origen de Vertipaq y la relación de uno a varios entre grupos de origen.
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example-limited.png" alt-text="Ejemplo de un modelo compuesto formado por dos islas con relaciones limitadas marcadas.":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example-limited.png" alt-text="Ejemplo de un modelo compuesto formado por dos grupos de origen con relaciones normales limitadas":::
 
 En el caso de los modelos de importación, nunca se crean estructuras de datos para las relaciones limitadas. Esto significa que las combinaciones de tablas deben resolverse en el momento de la consulta.
 
@@ -202,7 +202,7 @@ Existen restricciones adicionales relacionadas con las relaciones limitadas:
 - La aplicación de RLS tiene restricciones de topología.
 
 > [!NOTE]
-> En la vista de modelo de Power BI Desktop, no siempre es posible determinar si una relación de modelo es normal o limitada. Una relación de varios a varios siempre será limitada, así como una relación de uno a varios si es entre islas. Para determinar de forma correcta si se trata de una relación entre islas, deberá inspeccionar los modos de almacenamiento de tabla y los orígenes de datos.
+> En la vista de modelo de Power BI Desktop, no siempre es posible determinar si una relación de modelo es normal o limitada. Una relación de varios a varios siempre será limitada, así como una relación de uno a varios si es entre grupos de origen. Para determinar de forma correcta si se trata de una relación entre grupos de origen, deberá inspeccionar los modos de almacenamiento de tabla y los orígenes de datos.
 
 ### <a name="precedence-rules"></a>Reglas de precedencia
 
@@ -216,10 +216,10 @@ Las relaciones bidireccionales pueden introducir varias rutas, y por tanto ambig
 
 En la lista siguiente se ordena el rendimiento de la propagación de filtros, desde el rendimiento más rápido al más lento:
 
-1. Relaciones de uno a varios intraisla
+1. Relaciones intragrupo de origen de uno a varios
 2. Relaciones de cardinalidad de varios a varios
 3. Relaciones de modelo de varios a varios logradas con una tabla intermediaria y que implican al menos una relación bidireccional
-4. Relaciones entre islas
+4. Relaciones entre grupos de origen
 
 ## <a name="next-steps"></a>Pasos siguientes
 

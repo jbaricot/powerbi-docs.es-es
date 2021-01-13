@@ -1,6 +1,6 @@
 ---
-title: Introducción a las pruebas unitarias en proyectos de objetos visuales de Power BI
-description: En este artículo se describe cómo escribir pruebas unitarias en proyectos visuales de Power BI
+title: Introducción a las pruebas unitarias en proyectos de objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo escribir pruebas unitarias en proyectos de objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ee7ed48043a902a9b5ebd3c548ebec7505e76ab1
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379582"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887923"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Tutorial: Adición de pruebas unitarias en proyectos de objetos visuales de Power BI
 
@@ -565,7 +565,7 @@ En`package.json`, en la sección `devDependencies`
 "powerbi-visuals-utils-testutils": "2.2.0"
 ```
 
-Llamar a
+Call
 
 ```cmd
 npm install

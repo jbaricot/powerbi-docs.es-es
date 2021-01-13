@@ -1,6 +1,6 @@
 ---
-title: Introducción al uso de tipos de utilidad en los objetos visuales de Power BI
-description: En este artículo se describe cómo usar las utilidades de SVG para ampliar los tipos básicos de los objetos visuales de Power BI
+title: Introducción al uso de utilidades de tipos en objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo usar las utilidades de SVG para ampliar los tipos básicos de los objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 5a3cfb7ea9c9f398193b45652aa43c6b83c8f70b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4f81f55f8d5cfc54020b3b4e02e8be55fb65b0d1
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378004"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888130"
 ---
 # <a name="type-utils"></a>Tipos de utilidad
 
@@ -26,7 +26,7 @@ Para instalar el paquete, debe ejecutar el comando siguiente en el directorio co
 
 npm install powerbi-visuals-utils-typeutils --save Este comando instala el paquete y agrega un paquete como dependencia al archivo package.json
 
-## <a name="double"></a>Doble
+## <a name="double"></a>Double
 
 `Double` proporciona funciones para manipular la precisión de los números.
 

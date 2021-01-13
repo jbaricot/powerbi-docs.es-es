@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 04/27/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: a7f8c6d52acff8cbaaa00004448a3fae300afb9b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: cf056581c7c1f472e1e7ce20baf3d7afd8815bda
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411917"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886034"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserción de informes en un sitio web o portal seguro
 
@@ -26,11 +26,11 @@ La opción **Insertar** también admite la configuración de direcciones URL y [
 
 1. Abra un informe en el servicio Power BI.
 
-2. En el menú **Más opciones (…)** , seleccione **Insertar** >  **Sitio web o portal**.
+2. En el menú **Compartir**, seleccione **Insertar informe**  >  **Sitio web o portal**.
 
     ![Opción Sitio web o portal](media/service-embed-secure/power-bi-more-options-website.png)
 
-2. Seleccione la opción **Insertar** para abrir un cuadro de diálogo que proporciona un vínculo y un iFrame que puede usar para insertar el informe de forma segura.
+2. En el cuadro de diálogo **Código de inserción segura**, seleccione el **vínculo que puede usar para insertar este contenido** o el **HTML que puede pegar en su blog o sitio web** en un iFrame.
 
     ![Cuadro de diálogo con la opción Insertar](media/service-embed-secure/secure-embed-code-dialog.png)
 

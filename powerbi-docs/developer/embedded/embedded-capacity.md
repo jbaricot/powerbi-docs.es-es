@@ -1,6 +1,6 @@
 ---
-title: Capacidad y SKU de los análisis incrustados de Power BI
-description: Comprenda que son las capacidades y SKU de los análisis incrustados de Power BI.
+title: Capacidad y SKU en análisis integrados de Power BI para procurar una mejor información de BI insertada
+description: Comprenda que son las capacidades y SKU de los análisis incrustados de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 4102ed7307c9b7be40fb682befc4056094cbe6ad
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 7ff6ada14128a6231b84adf83d90b3871e1c7537
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916944"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888820"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capacidad y SKU de los análisis incrustados de Power BI
 
-Al pasar a producción, el análisis integrado de Power BI necesita una capacidad (SKU *A* , *EM* o *P* ) para la publicación de contenido de Power BI insertado.
+Al pasar a producción, el análisis integrado de Power BI necesita una capacidad (SKU *A*, *EM* o *P*) para la publicación de contenido de Power BI insertado.
 
 Una capacidad es un conjunto dedicado de recursos reservados para uso exclusivo. Le permite publicar paneles, informes y conjuntos de datos para los usuarios sin tener que adquirir licencias por usuario. También ofrece un rendimiento confiable y continuo de su contenido.
 
@@ -27,8 +27,8 @@ Una capacidad es un conjunto dedicado de recursos reservados para uso exclusivo.
 ## <a name="what-is-embedded-analytics"></a>¿Qué son los análisis incrustados?
 
 Los análisis incrustados de Power BI incluyen dos soluciones:
-* *Power BI Embedded* : oferta de Azure
-* Incrustación de Power BI como parte de *Power BI Premium* : oferta de Office
+* *Power BI Embedded*: oferta de Azure
+* Incrustación de Power BI como parte de *Power BI Premium*: oferta de Office
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 

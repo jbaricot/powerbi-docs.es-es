@@ -1,6 +1,6 @@
 ---
-title: Inserción de datos en un conjunto de datos
-description: Inserción de datos en un conjunto de datos de Power BI
+title: Inserción de datos en un conjunto de datos en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Inserción de datos en un conjunto de datos de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: 792afe42cf302ae552b7f8f1c14d5f232ade320f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 3c5805f4d498e8e2d8a788c5703a09a8109e024b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746709"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887440"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Inserción de datos en un conjunto de datos de Power BI
 
@@ -60,7 +60,7 @@ La cadena JSON para un conjunto de datos tiene el formato siguiente:
 }
 ```
 
-Para nuestro ejemplo de conjunto de datos de marketing de ventas, pasaría una cadena JSON como se muestra a continuación. En este ejemplo, **SalesMarketing** es el nombre del conjunto de datos y **Product** es el nombre de la tabla. Después de definir la tabla, se define el esquema de la tabla. Para el conjunto de datos **SalesMarketing**, el esquema de tabla tiene las siguientes columnas: ProductID, Manufacturer, Category, Segment, Product e IsCompete.
+Para nuestro ejemplo de conjunto de datos de marketing de ventas, pasaría una cadena JSON como se muestra a continuación. En este ejemplo, **SalesMarketing** es el nombre del conjunto de datos y **Product** es el nombre de la tabla. Después de definir la tabla, se define el esquema de la tabla. Para el conjunto de datos **SalesMarketing**, el esquema de la tabla tiene las siguientes columnas: ProductID, Manufacturer, Category, Segment, Product e IsCompete.
 
 **Ejemplo de JSON de objeto de conjunto de datos**
 
@@ -108,9 +108,9 @@ Para un esquema de tabla de Power BI, puede usar los siguientes tipos de datos.
 | **Tipo de datos** | **Restricciones** |
 | --- | --- |
 | Int64 |Int64.MaxValue e Int64.MinValue no están permitidos. |
-| Doble |Double.MaxValue y Double.MinValue no están permitidos. NaN no se admite. +Infinity y -Infinity no se admiten en algunas funciones (por ejemplo, Min, Max). |
+| Double |Double.MaxValue y Double.MinValue no están permitidos. NaN no se admite. +Infinity y -Infinity no se admiten en algunas funciones (por ejemplo, Min, Max). |
 | Booleano |Ninguno |
-| Fecha y hora |Durante la carga de datos se cuantifican valores con fracciones de día a múltiplos enteros de 1/300 segundos (3,33 ms). |
+| Datetime |Durante la carga de datos se cuantifican valores con fracciones de día a múltiplos enteros de 1/300 segundos (3,33 ms). |
 | Cadena |Actualmente permite hasta 128 K caracteres. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Más información sobre la inserción de datos en Power BI

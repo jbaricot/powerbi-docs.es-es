@@ -1,6 +1,6 @@
 ---
-title: Autenticación de usuarios y obtención de un token de acceso de Azure AD para la aplicación
-description: Obtenga información sobre cómo registrar una aplicación en Azure Active Directory para su uso con la inserción de contenido de Power BI.
+title: Autenticación de usuarios y obtención del token de acceso de Azure AD de la aplicación de análisis integrados de Power BI para mejorar la experiencia de BI insertada de los clientes
+description: Obtenga información sobre cómo registrar una aplicación en Azure Active Directory para su uso con la inserción de contenido de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: cb7c874fc68da361971c34879f2ea44006402bf4
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 8001dd0e15ef713fa67256a45f645b0d7a0890c0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96906943"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888452"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Obtención de un token de acceso de Azure AD para la aplicación de Power BI
 
@@ -57,7 +57,7 @@ Después de crear una cadena de consulta, vuelva a **Azure AD** para obtener un 
 
 En redirect.aspx.cs, se llama a [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) para generar el token.
 
-#### <a name="get-authorization-code"></a>Obtener código de autorización
+#### <a name="get-authorization-code"></a>Obtención del código de autorización
 
 ```csharp
 protected void signInButton_Click(object sender, EventArgs e)

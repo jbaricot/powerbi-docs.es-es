@@ -1,6 +1,6 @@
 ---
-title: Adición de compatibilidad con exploración en profundidad
-description: En este artículo se describe cómo agregar compatibilidad con la exploración en profundidad a objetos visuales de Power BI.
+title: Adición de compatibilidad con exploración en profundidad en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo agregar compatibilidad con la exploración en profundidad a objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 602c13964e5364f9d21ec4e761fd42ea8d3e85f7
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 40c8d7f362ca461b4295507c0ddff8db4bcc3509
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514134"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885477"
 ---
 # <a name="add-drill-down-support"></a>Adición de compatibilidad con exploración en profundidad
 
@@ -211,8 +211,8 @@ Preparar los datos de ejemplo para probar el objeto visual:
 |-----|-----|------|-------|
 |   A   |    A1  |    A11 |    1   |
 |   A    |    A1    |    A12    |    2    |
-|   A    |    A2    |    A21    |    T3    |
-|   A    |    A2    |    A22    |    T4    |
+|   A    |    A2    |    A21    |    3    |
+|   A    |    A2    |    A22    |    4    |
 |   A    |    A3    |    A31    |    5    |
 |   A    |    A3    |    A32    |    6    |
 |   N    |    B1    |    B11    |    7    |
@@ -326,8 +326,8 @@ Preparar los datos de ejemplo para probar el objeto visual con asignaciones de l
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |
-|   R1   |   R11   |   R113   |   C1   |   C11   |   C113   |   T3   |
-|   R1   |   R12   |   R121   |   C1   |   C12   |   C121   |   T4   |
+|   R1   |   R11   |   R113   |   C1   |   C11   |   C113   |   3   |
+|   R1   |   R12   |   R121   |   C1   |   C12   |   C121   |   4   |
 |   R1   |   R12   |   R122   |   C1   |   C12   |   C122   |   5   |
 |   R1   |   R12   |   R123   |   C1   |   C12   |   C123   |   6   |
 |   R1   |   R13   |   R131   |   C1   |   C13   |   C131   |   7   |

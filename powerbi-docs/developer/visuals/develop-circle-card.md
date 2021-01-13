@@ -1,6 +1,6 @@
 ---
-title: Aprenda a desarrollar su propio objeto visual de Power BI usando el objeto visual Circle Card como ejemplo.
-description: En este tutorial se explica cómo desarrollar un objeto visual de Power BI.
+title: Información sobre cómo desarrollar su propio objeto visual de Power BI usando el objeto visual Circle Card como ejemplo en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este tutorial se explica cómo desarrollar un objeto visual de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 09/02/2020
-ms.openlocfilehash: ff73c07fb08e80938fae34c19205885722c33672
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0bfc36a37dbcc4c595ea467eb3b365c30d4ed781
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418725"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885646"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>Tutorial: Desarrollo de un objeto visual Circle Card de Power BI
 

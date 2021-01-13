@@ -1,6 +1,6 @@
 ---
-title: Depuración de objetos visuales de Power BI
-description: En este artículo se describe cómo depurar objetos visuales de Power BI.
+title: Depuración de objetos visuales de Power BI en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: En este artículo se describe cómo depurar objetos visuales de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: f3a3551db1d7d995db0194ff7fa9b7141415c9eb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0005fe6cfd14f0377cdd7ff648aaa3c5cc96a751
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525556"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888383"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Depuración de objetos visuales de Power BI
 
@@ -74,18 +74,18 @@ También puede establecer que el explorador se interrumpa en las excepciones det
 ### <a name="edge"></a>Microsoft Edge
 
 1. Abra las herramientas de desarrollo (F12).
-2. Vaya a la pestaña **Depurador** .
+2. Vaya a la pestaña **Depurador**.
 3. Haga clic en el icono de **interrupción en excepciones** (hexágono con un símbolo de pausa).
-4. Seleccione **Interrumpir en todas las excepciones** .
+4. Seleccione **Interrumpir en todas las excepciones**.
 
 ![Captura de pantalla que muestra la pestaña Depurador con la opción Interrumpir en todas las excepciones seleccionada.](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
 1. Abra las herramientas de desarrollo (F12).
-2. Vaya a la pestaña **Origen** .
+2. Vaya a la pestaña **Origen**.
 3. Haga clic en el icono de **interrupción en excepciones** (signo de parada con un símbolo de pausa).
-4. Active la casilla para **pausar en las excepciones detectadas** .
+4. Active la casilla para **pausar en las excepciones detectadas**.
 
 ![Captura de pantalla que muestra la pestaña Orígenes con la opción Pause On Caught Exceptions (Pausar en excepciones detectadas) seleccionada.](media/visuals-how-to-debug/how-to-debug-chrome.png)
 

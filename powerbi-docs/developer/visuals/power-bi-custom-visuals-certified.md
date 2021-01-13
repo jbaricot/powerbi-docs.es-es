@@ -1,6 +1,6 @@
 ---
-title: Objetos visuales de Power BI certificados
-description: Requisitos y proceso para enviar un objeto visual personalizado para que se certifique y una lista de objetos visuales de Power BI certificados.
+title: Objetos visuales de Power BI certificados en análisis integrados de Power BI para obtener una mejor información de BI insertada
+description: Requisitos y proceso para enviar un objeto visual personalizado para que se certifique y una lista de objetos visuales de Power BI certificados. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: bbca1802b1136c4e9e16e70ab87ab7554612c037
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1331543973680879e4fcc2dbafc7323e72a27694
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386718"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888176"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Obtención de un objeto visual de Power BI certificado
 
