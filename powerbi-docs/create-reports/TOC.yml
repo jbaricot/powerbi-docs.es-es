@@ -266,6 +266,8 @@
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: Personalización de las propiedades de los ejes X e Y
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
+            - name: Detección de anomalías
+              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: "Interacción con mapas de ArcGIS en objetos visuales de Power\_BI"
               href: ../visuals/power-bi-visualizations-arcgis.md
             - name: Gráficos de área básicos
@@ -276,10 +278,6 @@
               href: ../visuals/power-bi-visualization-combo-chart.md
             - name: Objetos visuales de esquemas jerárquicos
               href: ../visuals/power-bi-visualization-decomposition-tree.md
-            - name: Narración inteligente
-              href: ../visuals/power-bi-visualization-smart-narrative.md
-            - name: Detección de anomalías
-              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: Gráficos de anillos
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: Mapas coropléticos
@@ -310,6 +308,8 @@
               href: ../visuals/desktop-high-density-scatter-charts.md
             - name: Objetos visuales de mapa de formas (versión preliminar)
               href: ../visuals/desktop-shape-map.md
+            - name: Narración inteligente
+              href: ../visuals/power-bi-visualization-smart-narrative.md
             - name: Tablas en informes y paneles
               href: ../visuals/power-bi-visualization-tables.md
             - name: Gráficos de rectángulos
