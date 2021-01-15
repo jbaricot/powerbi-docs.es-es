@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 09/19/2019
+ms.date: 01/08/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 092ce10b527c6160cb27de5e3de0ed5852219f6a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2d5eb4047b467544110a5802fa1d41b7ed65bb6a
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417299"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053360"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introducción a los paneles para los diseñadores de Power BI
 
@@ -53,9 +53,9 @@ Los [informes](../consumer/end-user-reports.md) y los paneles parecen similares,
 | Orígenes de datos |Uno o varios informes y uno o varios conjuntos de datos por cada panel |Un único conjunto de datos por informe |
 | Disponible en Power BI Desktop |No | Sí. Pueden generar y ver informes en Power BI Desktop |
 | Suscribirse |Sí. Es posible suscribirse a un panel |Sí. Es posible suscribirse a una página del informe |
-| Filtrado |No. No es posible filtrar ni segmentar |Sí. Numerosas formas de filtrar, resaltar y segmentar |
+| Filtrado |No. No es posible filtrar ni segmentar un panel. *Puede* filtrar un [icono de panel en el modo de enfoque](../consumer/end-user-focus.md#working-in-focus-mode), pero no puede guardar el filtro. |Sí. Numerosas formas de filtrar, resaltar y segmentar |
 | Destacado |Sí. Se puede definir un panel como *destacado* |No |
-| Favorito | Sí. Se pueden definir varios paneles como *favoritos* | Sí. Se pueden definir varios informes como *favoritos*
+| Favorito | Sí. Se pueden definir varios paneles como *favoritos* | Sí. Se pueden definir varios informes como *favoritos* |
 | Establecimiento de alertas |Sí. Disponible para iconos de panel en determinadas circunstancias |No |
 | Consultas en lenguaje natural |Sí | Sí, siempre que tenga permisos de edición para el informe y el conjunto de datos subyacente |
 | Se pueden ver campos y tablas del conjunto de datos subyacentes |No. Se pueden exportar datos, pero no se pueden ver tablas ni campos en el propio panel |Sí |

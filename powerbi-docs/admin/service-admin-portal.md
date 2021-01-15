@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 01/05/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 2e89dc43f467aec8edcefaa4ecdbd2fc6cbf6dea
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: 554cce8c0313ad6624a2991aa09f60c98ff454be
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699536"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969612"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -193,7 +193,7 @@ Los administradores pueden especificar direcciones URL internas para invalidar e
 
 * **Comunidad**. Para llevar a los usuarios a un foro interno desde el menú Ayuda, establezca una dirección URL personalizada al **Foro de discusión** en lugar de a la [Comunidad de Power BI](https://community.powerbi.com/).
 
-* **Actualizaciones de licencias**. A los usuarios con una licencia de Power BI (gratuita) se les puede presentar la oportunidad de actualizar su cuenta a Power BI Pro durante el uso del servicio. Si especifica una dirección URL interna para **Solicitudes de licencia**, redirigirá a los usuarios a un flujo interno de solicitud y compra e impedirá la compra mediante autoservicio. Si quiere impedir que los usuarios compren licencias, pero está de acuerdo con dejar que los usuarios inicien una evaluación gratuita de Power BI Pro, consulte [Permitir que los usuarios prueben Power BI Pro](#allow-users-to-try-power-bi-pro) para separar las experiencias de compra y prueba.
+* **Actualizaciones de licencias**. A los usuarios con una licencia de Power BI (gratuita) se les puede presentar la oportunidad de actualizar su cuenta a Power BI Pro durante el uso del servicio. Si especifica una dirección URL interna para **Solicitudes de licencia**, redirigirá a los usuarios a un flujo interno de solicitud y compra e impedirá la compra mediante autoservicio. Si quiere impedir que los usuarios compren licencias, pero está de acuerdo con dejar que los usuarios inicien una evaluación gratuita de Power BI Pro, consulte [Permitir que los usuarios prueben Power BI Pro](#allow-users-to-try-power-bi-paid-features) para separar las experiencias de compra y prueba.
 
 * **Obtener ayuda**. Para llevar a los usuarios a un departamento de soporte técnico interno desde el menú Ayuda, establezca una dirección URL personalizada al **Departamento de soporte técnico** en lugar de al [Soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
 
@@ -201,11 +201,11 @@ Los administradores pueden especificar direcciones URL internas para invalidar e
 
 Los grupos de seguridad habilitados para correo recibirán notificaciones por correo electrónico si este inquilino se ve afectado por una interrupción del servicio o un incidente. Más información sobre [Notificaciones de interrupción del servicio](service-interruption-notifications.md).
 
-### <a name="allow-users-to-try-power-bi-pro"></a>Permitir que los usuarios prueben Power BI Pro
+### <a name="allow-users-to-try-power-bi-paid-features"></a>Permitir a los usuarios probar las características de pago de Power BI
 
 ![Interfaz de usuario de la opción para permitir que los usuarios prueben Power BI Pro](media/service-admin-portal/allow-pro-trial.png)
 
-El parámetro **Permitir que los usuarios prueben Power BI Pro** está habilitado de forma predeterminada. Este valor aumenta el control sobre cómo los usuarios adquieren licencias de Power BI Pro. En escenarios en los que se ha bloqueado la compra mediante autoservicio, esta opción permite a los usuarios iniciar una prueba de Power BI Pro. La experiencia del usuario final depende del modo en que combine la configuración de licencia. En la tabla siguiente se muestra el modo en que la experiencia de actualización de Power BI (gratis) a Power BI Pro se ve afectada por distintas combinaciones de opciones:
+El valor para **Permitir a los usuarios probar las características de pago de Power BI** está habilitado de forma predeterminada. Este valor aumenta el control sobre cómo los usuarios adquieren licencias de Power BI Pro. En escenarios en los que se ha bloqueado la compra mediante autoservicio, esta opción permite a los usuarios iniciar una prueba de Power BI Pro. La experiencia del usuario final depende del modo en que combine la configuración de licencia. En la tabla siguiente se muestra el modo en que la experiencia de actualización de Power BI (gratis) a Power BI Pro se ve afectada por distintas combinaciones de opciones:
 
 | Opción de compra mediante autoservicio | Opción para permitir que los usuarios prueben Power BI Pro | Experiencia del usuario final |
 | ------ | ------ | ----- |
@@ -218,6 +218,30 @@ El parámetro **Permitir que los usuarios prueben Power BI Pro** está habilita
 > Puede agregar una dirección URL interna para las solicitudes de licencias en la [opción de Ayuda y soporte técnico](#help-and-support-settings). Si establece la dirección URL, se invalida la experiencia de compra de autoservicio predeterminada. No redirige el registro para una prueba de licencia de Power BI Pro. A los usuarios que pueden comprar una licencia en los escenarios descritos en la tabla anterior, se les redirige a la dirección URL interna.
 
 Para más información, consulte [Activación o desactivación del registro y la compra de autoservicio](service-admin-disable-self-service.md).
+
+### <a name="show-a-custom-message-before-publishing-reports"></a>Representación de un mensaje personalizado antes de publicar informes  
+
+Los administradores pueden proporcionar un mensaje personalizado que se muestre antes de que un usuario publique un informe desde Power BI Desktop. Después de habilitar el valor, tendrá que proporcionar un **mensaje personalizado**. El mensaje personalizado puede ser texto sin formato o seguir la sintaxis de Markdown, como se indica en el siguiente mensaje de ejemplo:
+
+```markdown
+#### Important Disclaimer 
+
+Before publishing the report to a workspace, be sure to validate that the appropriate users or groups have access to the destination workspace. If some users or groups should *not* have access to the content and underlying artifacts, remove or modify their access to the workspace, or publish the report to a different workspace. [Learn more](https://docs.microsoft.com/power-bi/collaborate-share/service-create-the-new-workspaces#give-access-to-your-workspace). 
+```
+
+El área de texto **Mensaje personalizado** admite el desplazamiento, por lo que puede proporcionar un mensaje de hasta 5000 caracteres.
+
+:::image type="content" source="media/service-admin-portal/admin-show-custom-message.png" alt-text="Captura de pantalla del cuadro de mensaje personalizado.":::
+
+Cuando los usuarios publiquen informes en áreas de trabajo de Power BI, verán el mensaje que ha escrito.
+
+:::image type="content" source="media/service-admin-portal/admin-user-show-custom-message.png" alt-text="Cuadro de diálogo que los usuarios ven al publicar informes en un área de trabajo.":::
+
+Como sucede con otros valores de inquilino, puede elegir a quién se aplica el **Mensaje personalizado**:
+
+- **Toda la organización**.
+- **Grupos de seguridad específicos**.
+- O bien, **Excepto grupos de seguridad específicos**.
 
 ## <a name="workspace-settings"></a>Configuración del área de trabajo
 
@@ -388,7 +412,7 @@ Los usuarios de la organización pueden usar la API de exportación del informe 
 Permite a los usuarios de esta organización certificar conjuntos de datos, flujos de datos, informes y aplicaciones. Vea [Habilitación de la certificación de contenido](service-admin-setup-certification.md) para obtener detalles.
 
 ### <a name="email-subscriptions"></a>Suscripciones de correo electrónico
-Los usuarios de la organización pueden crear suscripciones de correo electrónico. Obtenga más información sobre las [suscripciones](../collaborate-share/service-publish-to-web.md).
+Los usuarios de la organización pueden crear suscripciones de correo electrónico. Obtenga más información sobre las [suscripciones](../collaborate-share/service-report-subscribe.md).
 
 ![Habilitar suscripciones de correo electrónico](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
 

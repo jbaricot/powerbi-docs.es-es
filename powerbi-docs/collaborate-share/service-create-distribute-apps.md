@@ -8,12 +8,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f15508f030a1fa2ee0112134faf71e94e752984c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 981b4aa0f9e8bb12e4231476d27b8f58152ff3fd
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407708"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110921"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicación de una aplicación en Power BI
 
@@ -70,7 +70,7 @@ Cuando los paneles e informes en el área de trabajo estén listos, elija cuále
     
     >[!IMPORTANT]
     >Si la aplicación se basa en conjuntos de datos de otras áreas de trabajo, es responsabilidad suya asegurarse de que todos los usuarios de la aplicación tienen acceso a los conjuntos de datos subyacentes.
-    >
+    >Si la aplicación o el informe están en la misma área de trabajo que el conjunto de datos, asegúrese de agregar también a la aplicación el informe asociado al conjunto de datos.
 
 6. Puede instalar la aplicación de forma automática para los destinatarios, si el administrador de Power BI ha habilitado esta opción automáticamente en el Portal de administración de Power BI. Obtenga más información sobre [la instalación automática de una aplicación](#automatically-install-apps-for-end-users) en este artículo.
 

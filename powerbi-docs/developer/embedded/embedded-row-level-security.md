@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 408b5a03b415e6b1dabdb762eefee81e1a4fe483
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: cdb3543bc65e21f53cc21dea0f4da62910a7bd55
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887373"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110852"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Seguridad de nivel de fila con Power BI Embedded
 
@@ -320,15 +320,18 @@ El valor proporcionado en el blob de identidad debe ser un token de acceso váli
 
 ## <a name="on-premises-data-gateway-with-service-principal"></a>Puerta de enlace de datos local con entidad de servicio
 
-Los clientes que configuran la seguridad de nivel de fila (RLS) con un origen de datos de conexión dinámica local de SQL Server Analysis Services (SSAS) pueden disfrutar de la nueva funcionalidad de [entidad de servicio](embed-service-principal.md) para administrar usuarios y su acceso a los datos de SSAS cuando se integra con **Power BI Embedded**.
+Los clientes que usan un origen de datos de conexión dinámica local de SQL Server Analysis Services (SSAS) pueden disfrutar de la funcionalidad de [entidad de servicio](embed-service-principal.md) para administrar usuarios y su acceso a los datos de SSAS cuando se integra con **Power BI Embedded**.
 
 Mediante las [API REST de Power BI](/rest/api/power-bi/), puede especificar la identidad efectiva para las conexiones dinámicas locales de SSAS para un token de inserción con un [objeto de entidad de servicio](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
 
-Hasta ahora, para poder especificar la identidad efectiva para conexiones dinámicas locales de SSAS, el usuario maestro que generaba el token de inserción tenía que ser un administrador de puerta de enlace. Ahora, en lugar de requerir que el usuario sea un administrador de puerta de enlace, el administrador de puerta de enlace puede asignar permiso dedicado al usuario para ese origen de datos, lo que le permite reemplazar la identidad efectiva al generar el token de inserción. Esta nueva funcionalidad permite realizar la inserción con la entidad de servicio para una conexión activa de SSAS.
+Hasta ahora, para poder especificar la identidad efectiva para conexiones dinámicas locales de SSAS, el *usuario maestro* que generaba el token de inserción tenía que ser un administrador de puerta de enlace. Ahora, en lugar de requerir que el usuario sea un administrador de puerta de enlace, el administrador de puerta de enlace puede asignar permiso dedicado al usuario para ese origen de datos, lo que le permite reemplazar la identidad efectiva al generar el token de inserción. Esta nueva funcionalidad permite realizar la inserción con la entidad de servicio para una conexión activa de SSAS.
 
-Para habilitar este escenario, el administrador de puerta de enlace usa la [API REST Add Datasource User](/rest/api/power-bi/gateways/adddatasourceuser) para asignar a la entidad de servicio el permiso *ReadOverrideEffectiveIdentity* para Power BI Embedded.
+Para habilitar este escenario, el administrador de puerta de enlace usa la [API REST Add Datasource User](/rest/api/power-bi/gateways/adddatasourceuser) para asignar a la entidad de servicio el permiso *ReadOverrideEffectiveIdentity* para el origen de datos de SSAS.
 
 No se puede establecer este permiso mediante el portal de administración. Este permiso solo se establece con la API. En el portal de administración, verá una indicación para los usuarios y los SPN con esos permisos.
+
+>[!NOTE]
+>Si está conectado a una base de datos de SSAS sin configuración de RLS, debe proporcionar una identidad efectiva (la del administrador del servidor de SSAS) en la llamada de generación del token de inserción.
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 

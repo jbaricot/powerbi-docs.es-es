@@ -1,5 +1,5 @@
 ---
-title: Descripción de los roles de administrador del servicio Power BI
+title: Descripción de los roles de administrador de Power BI
 description: En este artículo se describe el administrador del servicio Power BI y los roles específicos que proporcionan privilegios de administrador.
 author: kfollis
 ms.author: kfollis
@@ -7,33 +7,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/02/2020
+ms.date: 01/8/2021
 LocalizationGroup: Administration
-ms.openlocfilehash: 8ba05d9a7dd39df91cd7313038129f69e9b8d70b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1f06986333824ad6a7ad6a1ca38abb164b55ced8
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408053"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053383"
 ---
-# <a name="understanding-power-bi-service-administrator-roles"></a>Descripción de los roles de administrador del servicio Power BI
+# <a name="understanding-power-bi-administrator-roles"></a>Descripción de los roles de administrador de Power BI
 
-Para administrar un inquilino de Power BI, debe tener uno de los roles siguientes: administrador de Power BI, administrador de Power Platform o administrador global de Microsoft 365. Los administradores de administración de usuarios de Microsoft 365 asignan a los usuarios los roles Administrador de Power BI o Administrador de Power Platform en el Centro de administración de Microsoft 365, o bien mediante un script de PowerShell. Para más información, consulte [Asignar roles a cuentas de usuario con PowerShell](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell).
+Para administrar Power BI para la organización, debe tener uno de los roles siguientes: administrador de Power BI, administrador de Power Platform o administrador global de Microsoft 365. Los administradores de administración de usuarios de Microsoft 365 asignan a los usuarios los roles Administrador de Power BI o Administrador de Power Platform en el Centro de administración de Microsoft 365, o bien mediante un script de PowerShell. Para más información, consulte [Asignar roles a cuentas de usuario con PowerShell](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell).
 
-Los usuarios de los roles Administrador de Power BI o Administrador de Power Platform tienen control total sobre un inquilino de Power BI y sus características administrativas, excepto para las licencias. Una vez que se asigna un usuario, este podrá acceder al [Portal de administración de Power BI](service-admin-portal.md). Allí, tendrá acceso a las métricas de uso de todos los inquilinos y podrá controlar el uso de características de Power BI por parte de estos. Estos roles de administrador son idóneos para los usuarios que necesitan acceder al portal de administración de Power BI, pero sin concederles también acceso administrativo completo a Microsoft 365.
+Los usuarios de los roles Administrador de Power BI o Administrador de Power Platform tienen control total sobre la configuración y las características administrativas de Power BI en toda la organización, excepto para las licencias. Una vez que se asigna un usuario al rol de usuario, podrá acceder al [portal de administración de Power BI](service-admin-portal.md). Allí, tendrá acceso a las métricas de uso de toda la organización y podrá controlar el uso de las características de Power BI. Estos roles de administrador son idóneos para los usuarios que necesitan acceder al portal de administración de Power BI, pero sin concederles acceso administrativo completo a Microsoft 365.
 
 > [!NOTE]
 > En la documentación de Power BI, "Administrador de Power BI" hace referencia a los usuarios en los roles de administrador de Power BI o Power Platform. En la documentación se deja claro cuando se requiere el rol de administrador global de Microsoft 365 para una tarea.
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 
-Los roles de administrador del servicio Power BI y de Power Platform no proporcionan las funciones siguientes:
+Los roles de administrador de Power BI y Power Platform no proporcionan las funciones siguientes:
 
 * Capacidad de modificar usuarios y licencias en el Centro de administración de Microsoft 365.
 
 * Acceso a los registros de auditoría. Para obtener más información, vea [Seguimiento de actividades de usuario en Power BI](service-admin-auditing.md).
 
-Estas funcionalidades requieren el rol de administrador global de Microsoft 365.
+Para estas funciones se necesitan asignaciones de rol de administrador de Microsoft 365.
 
 ## <a name="assign-users-to-an-admin-role-in-the-microsoft-365-admin-center"></a>Asignación de usuarios a un rol de administrador en el Centro de administración de Microsoft 365
 
@@ -59,12 +59,12 @@ Para asignar un rol de administrador a los usuarios en el Centro de administraci
 
 También puede asignar roles a los usuarios mediante PowerShell. Los usuarios se administran en Azure Active Directory (Azure AD). Si aún no tiene el módulo de PowerShell de Azure AD, [descargue e instale la última versión](https://www.powershellgallery.com/packages/AzureAD/).
 
-1. En primer lugar, conéctese a Azure AD:
+1. Conéctese a Azure AD:
    ```
    PS C:\Windows\system32> Connect-AzureAD
    ```
 
-1. Luego, obtenga el elemento **ObjectId** para el rol **Administrador del servicio Power BI**. Puede ejecutar [Get AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) para obtener el **ObjectId**
+1. Obtenga el valor **ObjectId** para el rol **Administrador de Power BI**. Puede ejecutar [Get AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) para obtener el **ObjectId**
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole
@@ -103,6 +103,7 @@ También puede asignar roles a los usuarios mediante PowerShell. Los usuarios se
     ```powershell
     Add-AzureADDirectoryRoleMember -ObjectId 00f79122-c45d-436d-8d4a-2c0c6ca246bf -RefObjectId 6a2bfca2-98ba-413a-be61-6e4bbb8b8a4c
     ```
+Para obtener más información sobre el uso de PowerShell para asignar roles de administrador, vea [Roles de directorio de AzureAD](/powershell/module/azuread/#directory-roles).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

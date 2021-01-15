@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 01/08/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4a8234176dd44fd265ff2d4a6af8e1b5568a642c
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: 1253c2b2548a7e6333840b8d33fdf255d5634be5
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699294"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053406"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
@@ -128,6 +128,7 @@ Los administradores de Power BI pueden usar los registros de auditoría de Powe
 - La opción de proporcionar acceso al informe o panel siempre aparece como habilitada al editar una suscripción existente.  Si desactiva esta opción y guarda la suscripción, se guardará ese estado. Pero al volver a editar el informe, se activará de forma predeterminada.
 - Si tiene una dirección de correo electrónico alternativa pero no una principal, Power BI la usará para entregar la suscripción.
 - Si suscribe usuarios externos a un informe o panel, estos recibirán una notificación de uso compartido inmediatamente después de seleccionar **Guardar y cerrar** en el panel de suscripción. Esta notificación se envía solo a usuarios externos, no a usuarios internos, ya que estos necesitan un vínculo de invitación para ver el informe o el panel. 
+- Existe un límite en cuanto al número de suscriptores de un informe o panel. Después de superar los 200 suscriptores, es posible que encuentre problemas con la entrega.
 
 ### <a name="dashboards"></a>Paneles
 

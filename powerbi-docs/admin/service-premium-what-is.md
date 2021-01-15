@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 12/09/2020
+ms.date: 01/06/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 2265559b9b978681b2f7b210a15f7200fbba7971
-ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
+ms.openlocfilehash: c1e5cad6ab1da796d2f10a64e867d5848e86aea4
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97721464"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155627"
 ---
 # <a name="what-is-power-bi-premium"></a>¿Qué es Power BI Premium?
 
@@ -37,7 +37,7 @@ En este artículo se presentan las características principales de Power BI Pr
 
 ## <a name="power-bi-premium-generation-2-preview"></a>Power BI Premium Generation 2 (versión preliminar)
 
-Power BI Premium publicó recientemente una nueva versión de Power BI Premium, **Power BI Premium Generation 2**, a la que se hace referencia como **Premium Gen2** por comodidad. Premium Gen2 se encuentra actualmente en versión preliminar y está disponible para que lo usen los suscriptores Premium durante el período de versión preliminar. Puede seleccionar la versión original de Premium o cambiar a Premium Gen2. Basta con que use una versión u otra para su capacidad Premium. 
+Power BI Premium publicó recientemente una nueva versión de Power BI Premium, **Power BI Premium Generation 2**, a la que se hace referencia como **Premium Gen2** por comodidad. Premium Gen2 se encuentra actualmente en versión preliminar y está disponible para que lo usen los suscriptores Premium durante el período de versión preliminar. Puede seleccionar la versión original de Premium o cambiar a Premium Gen2. Basta con que use una versión u otra para su capacidad Premium.
 
 Premium Gen2 proporciona las siguientes características o experiencias mejoradas:
 
@@ -95,10 +95,6 @@ Power BI Premium es una suscripción de Microsoft 365 de nivel de inquilino di
 - SKU **P** (P1-P5) para la inserción y las funciones empresariales, que requieren un compromiso mensual o anual, se facturan mensualmente e incluyen una licencia para instalar Power BI Report Server en el entorno local.
 
 - SKU **EM** (EM1-EM3) para la inserción de la _organización_, que requieren un compromiso anual que se factura mensualmente. Las SKU EM1 y EM2 solo están disponibles a través de planes de licencias por volumen. No se pueden comprar directamente.
-
-### <a name="updates-for-premium-gen2-preview"></a>Actualizaciones de Premium Gen2 (versión preliminar)
-En la actualidad Premium Gen2 está disponible como una característica en versión preliminar totalmente compatible solo con las SKU **P** y **EM**. La capacidad de las SKU **A** todavía no ofrece todas las ventajas adicionales introducidas en la actualización de la versión preliminar de Premium Gen2.
-
 
 ### <a name="purchasing"></a>Compra
 
@@ -161,7 +157,6 @@ Los recursos y los límites de cada SKU Premium (y la SKU A de tamaño equivalen
 #### <a name="updates-for-premium-gen2-preview"></a>Actualizaciones de Premium Gen2 (versión preliminar)
 
 Con **Premium Gen2**, la cantidad de memoria disponible en cada tamaño de nodo se establece en el límite de la superficie de memoria de un solo artefacto y no en el consumo acumulativo de memoria. Por ejemplo, en Premium Gen2, solo un único tamaño de conjunto de datos se limita a 25 GB, en comparación con la versión Premium original, donde la superficie de memoria total de los conjuntos de datos administrados al mismo tiempo estaba limitada a 25 GB.
-
 
 ### <a name="capacity-workloads"></a>Cargas de trabajo de capacidad
 
@@ -247,9 +242,7 @@ Desde el panel de la aplicación puede hacer clic en una celda de la métrica pa
 Para más información sobre la supervisión de capacidades, vea [Supervisión de capacidades en el portal de administración](service-admin-premium-monitor-portal.md) y [Supervisión de capacidades Premium con la aplicación](service-admin-premium-monitor-capacity.md).
 
 #### <a name="updates-for-premium-gen2-preview"></a>Actualizaciones de Premium Gen2 (versión preliminar)
-Las capacidades **Premium Gen2** no usan la aplicación Métricas, sino la aplicación Utilización de la capacidad, que estará disponible durante la versión preliminar. Los clientes que quieran revisar su uso pueden solicitar al soporte técnico una copia del informe de uso de los últimos 7 días. El informe se proporcionará en 72 horas. La aplicación Utilización de la capacidad se iniciará desde la página de administración de capacidades del **portal de administración** para cada capacidad y ofrecerá análisis de datos de 30 días, entre otros.
-
-
+Las capacidades **Premium Gen2** no usan la aplicación Métricas, sino la aplicación Utilización de la capacidad, que estará disponible durante la versión preliminar. Los clientes que quieran revisar su uso pueden solicitar al soporte técnico una copia del informe de uso de los últimos 7 días. El informe se proporcionará en un plazo de 72 horas después de la solicitud. La aplicación Utilización de la capacidad se iniciará desde la página de administración de capacidades del **portal de administración** para cada capacidad y ofrecerá análisis de datos de 30 días, entre otros.
 
 ### <a name="optimizing-capacities"></a>Optimización de las capacidades
 
@@ -303,10 +296,10 @@ Para más información, vea [Actualizaciones incrementales en Power BI Premium](
 
 Los informes paginados, compatibles con las SKU P1-P3 y A4-A6, se basan en la tecnología de lenguaje RDL (Report Definition Language) de SQL Server Reporting Services. Aunque se basen en la tecnología RDL, no es lo mismo que Power BI Report Server, que es una plataforma de informes descargable que se puede instalar en el entorno local, y que también se incluye con Power BI Premium. Los informes paginados se formatean para ajustarse a una página que se puede imprimir o compartir. Los datos se muestran en una tabla, incluso si esta abarca varias páginas. Mediante el uso de la aplicación de escritorio de Windows gratuita [**Generador de informes de Microsoft Power BI**](https://aka.ms/pbireportbuilder), los usuarios pueden crear informes paginados y publicarlos en el servicio.
 
-En Power BI Premium, los informes paginados son una carga de trabajo que se debe habilitar para una capacidad mediante el portal de administración. Los administradores de capacidad pueden habilitar y después especificar la cantidad de memoria como un porcentaje del total de recursos de memoria de la capacidad. A diferencia de otros tipos de carga de trabajo, Premium ejecuta los informes paginados en un espacio contenido dentro de la capacidad. Se usa la memoria máxima especificada para este espacio, con independencia de si la carga de trabajo está o no activa. El valor predeterminado es 20 %. 
+En Power BI Premium, los informes paginados son una carga de trabajo que se debe habilitar para una capacidad mediante el portal de administración. Los administradores de capacidad pueden habilitar y después especificar la cantidad de memoria como un porcentaje del total de recursos de memoria de la capacidad. A diferencia de otros tipos de carga de trabajo, Premium ejecuta los informes paginados en un espacio contenido dentro de la capacidad. Se usa la memoria máxima especificada para este espacio, con independencia de si la carga de trabajo está o no activa. El valor predeterminado es 20 %.
 
 > [!NOTE]
-> En **Premium Gen2 (versión preliminar)** , no se realiza ninguna administración de la memoria para los informes paginados. Con Premium Gen2, los informes paginados se admiten en las SKU EM1-EM3.
+> En **Premium Gen2 (versión preliminar)** , no hay administración de memoria para los informes paginados. Con Premium Gen2, los informes paginados se admiten en las SKU EM1-EM3 y A1-A3.
 
 ### <a name="paginated-reports-and-premium-gen2"></a>Informes paginados y Premium Gen2
 
@@ -340,7 +333,7 @@ Para más información, vea [Licencias de Power BI](service-admin-licensing-orga
 
 ## <a name="analysis-services-in-power-bi-premium"></a>Analysis Services en Power BI Premium
 
-De forma interna, el **motor Vertipaq de Analysis Services** probado por Microsoft impulsa los conjuntos de datos y áreas de trabajo de Power BI Premium. Analysis Services proporciona la capacidad de programación y compatibilidad con herramientas y aplicaciones cliente a través de las bibliotecas de cliente y las API que admiten el protocolo XMLA de estándar abierto. De manera predeterminada, las cargas de trabajo del conjunto de datos de la capacidad Premium de Power BI admiten conexiones *de solo lectura* desde herramientas y aplicaciones cliente de Microsoft y de terceros a través de un **punto de conexión de XMLA**. Los administradores de capacidad también pueden optar por deshabilitar o permitir las operaciones de *lectura/escritura* a través del punto de conexión.
+De forma interna, el **motor Vertical de Analysis Services** probado por Microsoft impulsa los conjuntos de datos y áreas de trabajo de Power BI Premium. Analysis Services proporciona la capacidad de programación y compatibilidad con herramientas y aplicaciones cliente a través de las bibliotecas de cliente y las API que admiten el protocolo XMLA de estándar abierto. De manera predeterminada, las cargas de trabajo del conjunto de datos de la capacidad Premium de Power BI admiten conexiones *de solo lectura* desde herramientas y aplicaciones cliente de Microsoft y de terceros a través de un **punto de conexión de XMLA**. Los administradores de capacidad también pueden optar por deshabilitar o permitir las operaciones de *lectura/escritura* a través del punto de conexión.
 
 Con el acceso de solo lectura, herramientas de Microsoft como SQL Server Management Studio (SSMS) y SQL Server Profiler, y aplicaciones de terceros como DAX Studio y aplicaciones de visualización de datos, se pueden conectar a conjuntos de datos Premium y consultarlos mediante XMLA, MDX, DAX, DMV y eventos de seguimiento. Con el acceso de lectura y escritura, herramientas de modelado de datos empresariales como Visual Studio con la extensión de proyectos de Analysis Services o Tabular Editor de código abierto pueden implementar modelos tabulares como un conjunto de datos en un área de trabajo Premium. Y con herramientas como SSMS, los administradores pueden usar el lenguaje de scripting de modelos tabulares (TMSL) para generar scripts de cambios de metadatos y escenarios de actualización de datos avanzados. 
 

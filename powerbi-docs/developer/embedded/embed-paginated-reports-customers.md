@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: a06553a3e0c090d4e4b0e007b61148115f8f5eb5
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: b9623b91555efe01817e4ffca3c6f80bd73c5243
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885232"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110898"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Tutorial: Inserción de informes paginados de Power BI en una aplicación para los clientes.
 
@@ -58,10 +58,16 @@ Antes de importar o cargar un informe paginado para su inserción, el área de t
 * **Power BI Premium**: para insertar un informe paginado, se requiere una capacidad de SKU de tipo *P*. Al insertar contenido de Power BI, se hace referencia a esta solución como *Inserción de Power BI*. Para más información acerca de esta suscripción, consulte [¿Qué es Power BI Premium?](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded**: puede adquirir una capacidad en [Microsoft Azure Portal](https://portal.azure.com). Esta suscripción utiliza las SKU de tipo *A*. Para insertar informes paginados, necesita al menos una suscripción *A4*. Para obtener más información sobre cómo crear la capacidad de Power BI Embedded, consulte [Creación de una capacidad de Power BI Embedded en Azure Portal](azure-pbie-create-capacity.md).
 
+    >[!NOTE]
+    >Power BI Embedded ha publicado recientemente una nueva versión, denominada **Embedded Gen2**. Embedded Gen2 simplificará la administración de las funciones insertadas y mejorará la experiencia de Power BI Embedded. Para obtener más información, vea [Power BI Embedded Generation 2](power-bi-embedded-generation-2.md).
+
 En la tabla siguiente se describen los recursos y los límites de cada SKU. Para determinar cuál es la capacidad que mejor se adapta a sus necesidades, consulte la tabla [Qué SKU debo comprar para mi escenario](./embedded-faq.md#which-solution-should-i-choose).
 
 | Nodos de capacidad | Total de núcleos virtuales | Núcleos virtuales de back-end | RAM (GB) | Núcleos virtuales de front-end | 
 | --- | --- | --- | --- | --- |
+| A1 con [Embedded Gen2](power-bi-embedded-generation-2.md) | 1 | 0,5 | 2.5 | 0,5 |
+| A2 con [Embedded Gen2](power-bi-embedded-generation-2.md) | 2 | 1 | 5 | 1 |
+| A3 con [Embedded Gen2](power-bi-embedded-generation-2.md) | 4 | 2 | 10 | 2 |
 | P1/A4 | 8 | 4 | 25 | 4 |
 | P2/A5 | 16 | 8 | 50 | 8 |
 | P3/A6 | 32 | 16 | 100 | 16 |

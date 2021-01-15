@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: ff41f702edc605ee346aa10a759e633377597504
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9ed9b42a42e497eaa332b3b1eb93be6247ddc542
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408973"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961233"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>P+F sobre alta disponibilidad, conmutación por error y recuperación ante desastres en Power BI
 
@@ -26,7 +26,7 @@ Power BI es software como servicio (SaaS) totalmente administrado.  Microsoft lo
 
 ## <a name="what-is-a-power-bi-failover"></a>¿Qué es la conmutación por error de Power BI?
 
-Power BI mantiene varias instancias de cada componente en centros de datos Azure (también conocidos como regiones) para garantizar la continuidad empresarial. Si se produce una interrupción o un problema que hace que Power BI sea inaccesible o no funcione en una región, Power BI realiza la conmutación por error de todos sus componentes en esa región en una instancia de copia de seguridad. La conmutación por error restaura la disponibilidad y operatividad en la instancia del servicio Power BI en una región nueva (normalmente en la misma ubicación geográfica, como se indica en el [Centro de confianza de Microsoft](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)).
+Power BI mantiene varias instancias de cada componente en centros de datos Azure (también conocidos como regiones) para garantizar la continuidad empresarial. Si se produce una interrupción o un problema que hace que Power BI sea inaccesible o no funcione en una región, Power BI realiza la conmutación por error de todos sus componentes en esa región en una instancia de copia de seguridad. La conmutación por error restaura la disponibilidad y operatividad en la instancia del servicio Power BI en una región nueva (normalmente en la misma ubicación geográfica, como se indica en el [Centro de confianza de Microsoft](https://www.microsoft.com/trust-center/product-overview)).
 
 Una instancia del servicio Power BI conmutada por error solo admite _operaciones de lectura_, lo que significa que las operaciones siguientes no se admiten durante la conmutación por error: actualizaciones, operaciones de publicación de informes, modificaciones de paneles o informes, y otras operaciones que requieran cambios en los metadatos de Power BI (por ejemplo, la inserción de un comentario en un informe).  Las operaciones de lectura, como la visualización de paneles e informes (que no se basan en DirectQuery o Live Connect a orígenes de datos locales) seguirán funcionando con normalidad.
 
@@ -36,7 +36,7 @@ Todos los componentes del servicio Power BI sincronizan con regularidad sus inst
 
 ## <a name="where-are-the-failover-clusters-located"></a>¿Dónde están ubicados los clústeres de conmutación por error?
 
-Las instancias de copia de seguridad residen dentro de la misma ubicación geográfica (geoárea) que seleccionó cuando la organización se registró en Power BI, excepto donde se indique en el [Centro de confianza de Microsoft](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). Una geoárea puede contener varias regiones, y Microsoft puede replicar datos en cualquiera de las regiones dentro de una geoárea determinada para lograr la resistencia de los datos. Microsoft no replicará ni moverá los datos del cliente fuera de la geoárea. Para obtener una asignación de las geoáreas que ofrece Power BI y las regiones que contienen, vea el [Centro de confianza de Microsoft](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
+Las instancias de copia de seguridad residen dentro de la misma ubicación geográfica (geoárea) que seleccionó cuando la organización se registró en Power BI, excepto donde se indique en el [Centro de confianza de Microsoft](https://www.microsoft.com/trust-center/product-overview). Una geoárea puede contener varias regiones, y Microsoft puede replicar datos en cualquiera de las regiones dentro de una geoárea determinada para lograr la resistencia de los datos. Microsoft no replicará ni moverá los datos del cliente fuera de la geoárea. Para obtener una asignación de las geoáreas que ofrece Power BI y las regiones que contienen, vea el [Centro de confianza de Microsoft](https://www.microsoft.com/trust-center/product-overview).
 
 ## <a name="how-does-microsoft-decide-to-fail-over"></a>¿Cómo decide Microsoft la conmutación por error?
 

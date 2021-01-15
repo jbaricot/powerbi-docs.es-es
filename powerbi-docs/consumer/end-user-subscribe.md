@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/17/2020
+ms.date: 01/08/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4b5c076837ea5f70a84c1782349fd27ced4d866c
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: d7dfcdadd4becddb46127106b390d566faa2f9b9
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699345"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053452"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Suscripción a un informe o panel en el servicio Power BI 
 
@@ -96,7 +96,7 @@ Una suscripción finalizará si expira la licencia de Pro, el propietario elimin
 * Si los vínculos del correo electrónico (al contenido) dejan de funcionar, es posible que el contenido se haya eliminado. En el correo electrónico, debajo de la captura de pantalla, puede ver si se ha suscrito personalmente o si alguien lo ha hecho por usted. Si lo ha hecho otra persona, pídale que cancele los mensajes de correo electrónico o que vuelva a suscribirle.
 * Para las suscripciones de paneles en concreto, todavía no se admiten ciertos tipos de iconos. Entre estos se incluyen: transmisión en secuencias de mosaicos, iconos de vídeo, iconos de contenido web personalizado. 
 * Las suscripciones a una página del informe están asociadas con el nombre de la página del informe. Si se suscribe a una página del informe y cambia de nombre, tendrá que volver a crear la suscripción.
-* Si no puede usar la característica de suscripción, póngase en contacto con el administrador del sistema o con el soporte técnico de TI. Es posible que su organización haya deshabilitado esta característica.  
+* Si no puede usar la característica de suscripción, póngase en contacto con el administrador del sistema o con el soporte técnico de TI. Es posible que la organización haya deshabilitado esta característica o se haya alcanzado un límite máximo de suscriptores.  
 * Las suscripciones de correo electrónico no admiten la mayoría de los [objetos visuales personalizados](../developer/visuals/power-bi-custom-visuals.md).  La excepción son los objetos visuales de Power BI que se han [certificado](../developer/visuals/power-bi-custom-visuals-certified.md).    
 * Las suscripciones de correo electrónico se envían con los estados de segmentación y filtros predeterminados del informe. En el correo electrónico no se muestran los cambios en los valores predeterminados que realice tras suscribirse. Los informes paginados admiten esta función y le permiten establecer valores de parámetros específicos por suscripción.  
 * En la actualidad, las suscripciones de correo electrónico no admiten objetos visuales de Power BI con la tecnología de R.  

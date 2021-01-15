@@ -10,12 +10,12 @@ ms.date: 12/01/2020
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: ec3cd60916630fe355b9ea4f54d5a025788800bf
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 332101009946c64cb5e97bd40b9949f6daa67b7b
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96906828"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155696"
 ---
 # <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>Habilitación de la autenticación de entidad de servicio para las API de administración de solo lectura (versión preliminar)
 
@@ -42,7 +42,7 @@ Para habilitar la autenticación de entidad de servicio para API de solo lectura
         * Seleccione **Permisos**. Asegúrese de que en esta aplicación no se ha establecido ningún permiso que necesite el consentimiento del administrador de Power BI. Vea [Administración del consentimiento a las aplicaciones y evaluación de las solicitudes de consentimiento](https://docs.microsoft.com/azure/active-directory/manage-apps/manage-consent-requests) para obtener más información. 
 4. Habilite la configuración de administración del servicio Power BI. Para hacerlo:
     1. Inicie sesión en el portal de administración de Power BI. Debe ser un administrador de Power BI para ver la página de configuración de inquilinos.
-    1. En **Configuración del desarrollador**, verá **Concesión de permiso a las entidades de servicio para utilizar las API de administración de Power BI de solo lectura (versión preliminar)** . Establezca el botón de alternancia en Habilitado y, después, seleccione el botón de radio **Grupos de seguridad específicos** y agregue el grupo de seguridad que ha creado en el paso 2 en el campo de texto que aparece debajo, como se muestra en la ilustración siguiente.
+    1. En **Configuración de la API de administración**, verá **Concesión de permiso a las entidades de servicio para utilizar las API de administración de Power BI de solo lectura (versión preliminar)** . Establezca el botón de alternancia en Habilitado y, después, seleccione el botón de radio **Grupos de seguridad específicos** y agregue el grupo de seguridad que ha creado en el paso 2 en el campo de texto que aparece debajo, como se muestra en la ilustración siguiente.
 
         ![Captura de pantalla de la configuración de inquilino de permisos para entidades de servicio.](media/read-only-apis-service-principal-auth/allow-service-principals-tenant-setting.png)
 
@@ -53,7 +53,7 @@ Para habilitar la autenticación de entidad de servicio para API de solo lectura
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 * No se puede iniciar sesión en el portal de Power BI con la entidad de servicio.
-* Se necesitan derechos de administrador de Power BI para habilitar la entidad de servicio en la configuración de desarrollador en el portal de administración de Power BI.
+* Se necesitan derechos de administrador de Power BI para habilitar la entidad de servicio en la configuración de API de administración en el portal de administración de Power BI.
 * La entidad de servicio admite actualmente las API siguientes:
     * [GetGroupsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/groups_getgroupsasadmin) con $expand para paneles, conjuntos de datos, informes y flujos de entrada 
     * [GetDashboardsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/dashboards_getdashboardsasadmin) con iconos $expand

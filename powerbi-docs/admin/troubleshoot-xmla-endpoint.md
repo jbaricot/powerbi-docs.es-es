@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/04/2021
+ms.date: 01/11/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 191cf3ce71ca30f257276df78ad43cdb2e49a1e1
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 16a07065507abfe825c39677f234d626070827b4
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886095"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110737"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Solución de problemas de conectividad de los puntos de conexión XMLA
 
@@ -213,6 +213,10 @@ Al volver a publicar un conjunto de datos conectado activo mediante el conector 
 :::image type="content" source="media/troubleshoot-xmla-endpoint/couldnt-publish-to-power-bi.png" alt-text="Error &quot;No se pudo publicar en Power BI&quot;":::
 
 Como se indica en el mensaje de error, elimine o cambie el nombre del conjunto de datos existente para resolver este problema. Asegúrese también de volver a publicar cualquier aplicación que dependa del informe. Si así lo cree conveniente, avise también a los usuarios de niveles inferiores para que actualicen los marcadores con la nueva dirección de informe, así podrán acceder al informe más reciente sin problemas.  
+
+## <a name="workspaceserver-alias"></a>Alias del servidor o el área de trabajo
+
+A diferencia de Azure Analysis Services, los [alias](/azure/analysis-services/analysis-services-server-alias) de nombre de servidor **no se admiten** para las áreas de trabajo de Power BI Premium. 
 
 ## <a name="see-also"></a>Vea también
 

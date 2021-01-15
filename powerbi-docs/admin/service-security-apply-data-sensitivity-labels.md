@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 12/09/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 14b3329ea2b8636c1e5cf2412ca9843bc777bed1
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: 09188b3b03fd5bfb720b98045ee9d895d337d677
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600470"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969176"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Aplicación de etiquetas de confidencialidad en Power BI
 
@@ -65,9 +65,6 @@ En la pestaña de configuración de conjuntos de datos, abra la sección de etiq
 
 ## <a name="apply-sensitivity-labels-in-power-bi-desktop-preview"></a>Aplicación de etiquetas de confidencialidad en Power BI Desktop (versión preliminar)
 
->[!NOTE]
->Durante las primeras 48 horas después de empezar a usar la característica en vista previa (GB) de Information Protection de Power BI Desktop, **puede experimentar problemas con los archivos .pbix que tienen etiquetas de confidencialidad aplicadas (por ejemplo, publicar el archivo .pbix en el servicio, descargar el archivo. pbix desde el servicio)** . Estos problemas son esperables y se resolverán automáticamente dentro de un plazo de 48 horas.
-
 Para usar las etiquetas de confidencialidad en Power BI Desktop:
 * Debe tener una [licencia de Power BI Pro](./service-admin-purchasing-power-bi-pro.md).
 * Las etiquetas de confidencialidad deben estar habilitadas para su organización. Si no está seguro al respecto, póngase en contacto con su administrador de Power BI.
@@ -77,10 +74,13 @@ Para usar las etiquetas de confidencialidad en Power BI Desktop:
 
     ![Captura de pantalla de la página de características en vista previa (GB) de Desktop.](media/service-security-apply-data-sensitivity-labels/desktop-preview-features-page.png)
 
+    >[!Important]
+    >Después de activar la característica en vista previa (GB) de protección de la información, debe reiniciar Desktop para poder empezar a usar etiquetas de confidencialidad.
+    >
+    >Si Desktop se bloquea al reiniciarlo, puede deberse a que el equipo no tiene la versión necesaria de la biblioteca en tiempo de ejecución redistribuible de Visual C++. Si experimenta un bloqueo de este tipo, visite la [página de descarga de Microsoft Visual C++ 2015 Redistributable Update 3](https://www.microsoft.com/download/details.aspx?id=53587) para obtener instrucciones sobre cómo descargar e instalar la actualización. Después de instalar la actualización, intente volver a iniciar Desktop.
+
     Si no ve la opción de versión preliminar de protección de la información, es posible que la característica en vista previa (GB) de protección de la información esté bloqueada para su organización. En este caso, póngase en contacto con el administrador de Power BI.
 
-    >[!NOTE]
-    >Después de activar la característica en vista previa (GB) de protección de la información, debe reiniciar Desktop para poder empezar a usar etiquetas de confidencialidad.
 * Debe haber iniciado sesión.
 
 Para aplicar una etiqueta de confidencialidad en el archivo en el que está trabajando, haga clic en el botón de confidencialidad en la pestaña Inicio y elija la etiqueta que quiera en el menú que aparece.

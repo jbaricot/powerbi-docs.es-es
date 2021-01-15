@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: f6ca898bafff0b3375df65b63f913eb81d8dc006
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: de954c5950f550c3ed2f3c340714851f5233d3e8
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888958"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969774"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Tutorial: Inserción de contenido de Power BI por medio de una aplicación de ejemplo de *inserción para los clientes*
 
@@ -147,7 +147,7 @@ En la siguiente tabla se describen algunas diferencias clave entre los métodos 
 
 |Consideración  |Entidad de servicio  |Usuario maestro  |
 |---------|---------|---------|
-|Mechanism     |El [objeto de entidad de servicio](/azure/active-directory/develop/app-objects-and-service-principals.md#service-principal-object) de la aplicación Azure AD permite a Azure AD autenticar en Power BI a la aplicación de solución insertada.        |La aplicación de Azure AD usa las credenciales (nombre de usuario y contraseña) de un usuario de Power BI para autenticarse en Power BI.         |
+|Mechanism     |El [objeto de entidad de servicio](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) de la aplicación Azure AD permite a Azure AD autenticar en Power BI a la aplicación de solución insertada.        |La aplicación de Azure AD usa las credenciales (nombre de usuario y contraseña) de un usuario de Power BI para autenticarse en Power BI.         |
 |Seguridad     |La *entidad de servicio* es el método de autorización recomendado de Azure AD. Si usa una entidad de servicio*, puede realizar la autenticación con un *secreto de aplicación* o con un *certificado*.</br></br>En este tutorial solo se explica el uso de una *entidad de servicio* con un *secreto de aplicación*. Para realizar la inserción con una *entidad de servicio* y un *certificado*, consulte el artículo sobre el uso de una [entidad de servicio con un certificado](embed-service-principal-certificate.md).         |Este método de autenticación no se considera tan seguro como usar una *entidad de servicio*, ya que hay que tener cuidado con las credenciales de *usuario maestro* (nombre de usuario y contraseña). Por ejemplo, esos datos no deben quedar expuestos en la aplicación de inserción, aparte de que conviene cambiar la contraseña con frecuencia.         |
 |Permisos delegados de Azure AD |No es necesario. |El *usuario maestro* o un administrador deben dar su consentimiento para que la aplicación acceda a los [permisos](/azure/active-directory/develop/v2-permissions-and-consent) de la API REST de Power BI (también denominados ámbitos). Por ejemplo, *Report.ReadWrite.All*. |
 |Acceso al servicio Power BI |No se puede acceder al servicio Power BI con una *entidad de servicio*.|Se puede acceder al servicio Power BI con las credenciales de *usuario maestro*.|
@@ -185,7 +185,7 @@ Para crear un área de trabajo, haga lo siguiente:
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>Paso 4: Crear y publicar un informe de Power BI
 
-El siguiente paso consiste en crear un informe y cargarlo en el área de trabajo. Puede [crear su propio informe](/powerbi-docs/fundamentals/desktop-getting-started#build-reports) usando Power BI Desktop y, después, [publicarlo](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) en el área de trabajo. Otra opción sería cargar un informe de ejemplo en el área de trabajo.
+El siguiente paso consiste en crear un informe y cargarlo en el área de trabajo. Puede [crear su propio informe](/power-bi/fundamentals/desktop-getting-started#build-reports) usando Power BI Desktop y, después, [publicarlo](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) en el área de trabajo. Otra opción sería cargar un informe de ejemplo en el área de trabajo.
 
 >[!Tip]
 >Si ya tiene un área de trabajo con un informe, puede omitir este paso.
@@ -536,7 +536,7 @@ Siga estos pasos para modificar aplicación de ejemplo de *inserción para los c
 
     a. En el terminal del IDE, ejecute `npm start`.
 
-    b. Abra una pestaña nueva en el explorador y vaya a [http://localhost:5300](http://localhost:5300).
+    b. Abra una pestaña nueva en el explorador y vaya a `http://localhost:5300`.
 
 # <a name="python"></a>[Python](#tab/python)
 
@@ -571,7 +571,7 @@ Siga estos pasos para modificar aplicación de ejemplo de *inserción para los c
 
     a. En **PowerShell** o **Command Prompt** (Símbolo del sistema), vaya a la capeta **Python** > **Embed for your customers** > **AppOwnesData** y ejecute `flask run`.
 
-    b. Abra una pestaña nueva en el explorador y vaya a [http://localhost:5300](http://localhost:5300).
+    b. Abra una pestaña nueva en el explorador y vaya a `http://localhost:5300`.
 
 ---
 
@@ -579,7 +579,7 @@ Siga estos pasos para modificar aplicación de ejemplo de *inserción para los c
 
 Tras configurar y ejecutar la aplicación de ejemplo de *inserción para los clientes*, puede empezar a desarrollar su propia aplicación.
 
-Cuando esté listo, revise los requisitos necesarios para [pasar a producción](move-to-production.md). También necesitará una [capacidad](embedded-capacity.md) y, en este sentido, conviene revisar el artículo [Planificación de la capacidad](embedded-capacity-planning.md) para averiguar cuál es el SKU que mejor encaja con sus necesidades.
+Cuando esté listo, revise los requisitos necesarios para [pasar a producción](move-to-production.md). También necesitará una [capacidad](embedded-capacity.md) y debería revisar el artículo [Planificación de la capacidad](embedded-capacity-planning.md) para determinar cuál es la SKU que mejor se adapta a las necesidades.
 
 
 ## <a name="next-steps"></a>Pasos siguientes

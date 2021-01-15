@@ -1,59 +1,55 @@
 ---
-title: Uso del objeto visual Preguntas y respuestas de Power BI
-description: Configuración del objeto visual Preguntas y respuestas de Power BI
-author: rien
-ms.author: rien
-ms.reviewer: mihart
+title: Creación de un objeto visual Preguntas y respuestas en Power BI
+description: Procedimiento para crear y dar formato a un objeto visual Preguntas y respuestas en Power BI Desktop o el servicio Power BI.
+author: maggiesMSFT
+ms.author: maggies
+ms.reviewer: rien
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 11/19/2019
-ms.openlocfilehash: 43da67114808538d64aa2ceb7f59af590ee23857
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/05/2021
+ms.openlocfilehash: 1cf80593458c12a1bee07ed40202e3613fdcb5e9
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418955"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961371"
 ---
-# <a name="introduction-to-power-bi-qa-visualizations"></a>Introducción a las visualizaciones de preguntas y respuestas de Power BI
+# <a name="create-a-qa-visual-in-power-bi"></a>Creación de un objeto visual Preguntas y respuestas en Power BI
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+El objeto visual Preguntas y respuestas permite a los usuarios realizar preguntas con lenguaje natural y obtener las respuestas en forma de objeto visual. Los *consumidores* pueden usarlo para obtener rápidamente respuestas a sus datos. Los *diseñadores* también pueden usarlo para crear objetos visuales rápidamente. Si es un diseñador de informes, este artículo es para usted. Puede hacer doble clic en cualquier parte de un informe y usar lenguaje natural para comenzar. En este artículo, creará, dará formato y personalizará un objeto visual Preguntas y respuestas. Admite temas y otras opciones de formato predeterminadas que están disponibles en Power BI. Después de crearlo, se comporta como cualquier otro objeto visual, admite el filtrado cruzado, el resaltado cruzado y los marcadores. 
 
-## <a name="what-are-qa-visualizations"></a>¿Qué son las visualizaciones de preguntas y respuestas?
-
-El objeto visual Preguntas y respuestas permite a los usuarios realizar preguntas con lenguaje natural y obtener las respuestas en forma de objeto visual. 
+¿Busca más información sobre Preguntas y respuestas en Power BI? Consulte [Introducción a Preguntas y respuestas](../natural-language/q-and-a-intro.md). 
 
 ![Tutorial del objeto visual Preguntas y respuestas](../natural-language/media/qna-visual-walkthrough.gif)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
-
-El objeto visual Preguntas y respuestas se puede usar no solo como una herramienta que permita a los *consumidores* obtener respuestas rápidamente para sus datos, sino que también pueden usarlo los *diseñadores* para crear objetos visuales en un informe simplemente haciendo doble clic en cualquier parte del mismo y usando lenguaje natural desde el principio. Al comportarse como cualquier otro, el objeto visual Preguntas y respuestas admite los filtros cruzados y los elementos destacados cruzados, así como los marcadores. El objeto visual Preguntas y respuestas también admite temas y otras opciones de formato predeterminadas que están disponibles en Power BI.
 
 El objeto visual Preguntas y respuestas consta de cuatro componentes principales:
 
 - El cuadro de preguntas. Ahí es donde los usuarios escriben sus preguntas y donde se muestran sugerencias que les ayudan a completar su pregunta.
 - Una lista rellenada previamente de preguntas sugeridas.
 - Icono para convertir el objeto visual Preguntas y respuestas en un objeto visual estándar. 
-- Icono para abrir las herramientas de Preguntas y respuestas que permiten a los diseñadores configurar el motor de lenguaje natural subyacente.
+- Icono para abrir las herramientas de Preguntas y respuestas, que permiten a los diseñadores configurar el motor de lenguaje natural subyacente.
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Prerrequisitos
 
-1. En este tutorial se usa el [archivo .PBIX del ejemplo de ventas y marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix). 
+1. Descargue el [archivo PBIX de ejemplo Sales & Marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) para seguir las indicaciones.
 
-1. En la sección superior izquierda de la barra de menús de Power BI Desktop, seleccione **Archivo** > **Abrir**.
+1. En la sección superior izquierda de Power BI Desktop, seleccione **Archivo** > **Abrir**.
    
-2. Busque su copia del **archivo .PBIX de ejemplo de ventas y marketing**.
+2. Busque la copia del **archivo PBIX de ejemplo Sales & Marketing**.
 
 1. Abra el archivo en la vista de informe. ![Captura de pantalla del icono de vista de informe.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Seleccionar ![Captura de pantalla de la pestaña amarilla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para agregar una nueva página.
+1. Selección del signo más ![Captura de pantalla de la pestaña amarilla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para agregar una nueva página.
 
-Si aparece algún error al crear un objeto visual Preguntas y respuestas, asegúrese de consultar la sección de [limitaciones](../natural-language/q-and-a-limitations.md) para ver si se admite la configuración del origen de datos.    
+Si ve un error al crear un objeto visual Preguntas y respuestas, asegúrese de consultar el artículo [Limitaciones de Preguntas y respuestas](../natural-language/q-and-a-limitations.md) para ver si se admite la configuración del origen de datos.    
 
 > [!NOTE]
-> Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium. Consulte [cómo compartir informes](../collaborate-share/service-share-reports.md).
+> Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales, o bien que guarde el informe en un área de trabajo de una capacidad Premium. Consulte [cómo compartir informes](../collaborate-share/service-share-dashboards.md).
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>Creación de un objeto visual Preguntas y respuestas mediante una pregunta sugerida
 En este ejercicio, vamos a seleccionar una de las preguntas sugeridas para crear un objeto visual Preguntas y respuestas. 
@@ -77,7 +73,7 @@ En este ejercicio, vamos a seleccionar una de las preguntas sugeridas para crear
 ## <a name="create-a-qa-visual-using-a-natural-language-query"></a>Creación de un objeto visual Preguntas y respuestas mediante el uso de una consulta en lenguaje natural
 En el ejemplo anterior, seleccionamos una de las preguntas sugeridas para crear un objeto visual Preguntas y respuestas.  En este, vamos a escribir nuestra propia pregunta. A medida que escribimos la pregunta, Power BI nos ayuda con Autocompletar, sugerencias y comentarios.
 
-Si no está seguro del tipo de preguntas que se deben formular o la terminología que se utiliza, expanda **Mostrar todas las sugerencias** o examine el panel Campos, que se puede encontrar en el lado derecho del lienzo. Esto le ayudará a familiarizarse con los términos y el contenido del conjunto de datos Sales & Marketing.
+Si no está seguro del tipo de preguntas que se deben formular o la terminología que usar, expanda **Mostrar todas las sugerencias** o examine el panel Campos en el lado derecho del lienzo. El panel Campos le ayudará a familiarizarse con los términos y el contenido del conjunto de datos Sales & Marketing.
 
 ![Lienzo con la opción Mostrar todas las sugerencias y el panel Campos destacados](media/power-bi-visualization-q-and-a/power-bi-terminology.png)
 
@@ -115,7 +111,7 @@ Al seleccionar un tema, este se aplica a toda la página del informe. Hay muchos
 
     
     
-2. En este ejemplo hemos seleccionado **Más temas** > **Color blind safe** (Para daltónicos).
+2. En este ejemplo se ha seleccionado **Más temas** > **Color blind safe** (Para daltónicos).
 
     ![Objeto visual Preguntas y respuestas con el tema Color blind (Para daltónicos) aplicado](media/power-bi-visualization-q-and-a/power-bi-color-blind.png)
 
@@ -125,7 +121,7 @@ Dé formato al objeto visual Preguntas y respuestas, al campo de preguntas y a l
 ![El objeto visual Preguntas y respuestas muestra los resultados de la asignación de formato](media/power-bi-visualization-q-and-a/power-bi-q-and-a-format.png)
 
 ## <a name="convert-your-qa-visual-into-a-standard-visual"></a>Conversión de un objeto visual Preguntas y respuestas en un objeto visual estándar
-Hemos dado algo de formato al objeto visual del gráfico de columnas del tema Color blind safe (Para daltónicos): hemos agregado un título y un borde, y ya estamos preparados para convertirlo en un objeto visual estándar del informe y a anclarlo a un panel.
+Se ha aplicado formato al objeto visual del gráfico de columnas para daltónicos: Se han agregado un título y un borde. y ya estamos preparados para convertirlo en un objeto visual estándar del informe y a anclarlo a un panel.
 
 Seleccione el ![icono de engranaje](media/power-bi-visualization-q-and-a/power-bi-convert-icon.png) para **convertir este objeto Preguntas y respuestas en un objeto visual estándar**.
 
@@ -144,7 +140,7 @@ Al seleccionar el icono de engranaje, se abre el panel de herramientas del objet
 
 ![Objeto visual Preguntas y respuestas con el icono de herramientas seleccionado](media/power-bi-visualization-q-and-a/power-bi-q-and-a-tooling.png)
 
-Use el panel de herramientas para enseñar a los términos de Preguntas y respuestas que no se reconocen, a administrar esos términos y a administrar las preguntas sugeridas para este conjunto de herramientas e informe. En el panel de herramientas también puede examinar las preguntas que se han formulado mediante este objeto visual Preguntas y respuestas, y ver las preguntas que han marcado los usuarios. Para más información, consulte el artículo en el que se realiza una [introducción a las herramientas de Preguntas y respuestas](../natural-language/q-and-a-tooling-intro.md).
+Use el panel de herramientas para enseñar a los términos de Preguntas y respuestas que no se reconocen, a administrar esos términos y a administrar las preguntas sugeridas para este conjunto de herramientas e informe. En el panel de herramientas, también puede examinar las preguntas que han formulado los usuarios en este objeto visual Preguntas y respuestas, y ver las que han marcado. Para obtener más información, vea [Introducción a las herramientas de Preguntas y respuestas para entrenar a Preguntas y respuestas de Power BI](../natural-language/q-and-a-tooling-intro.md).
 
 ![El panel de herramientas de Preguntas y respuestas](media/power-bi-visualization-q-and-a/power-bi-q-and-a-tooling-pane.png)
 
