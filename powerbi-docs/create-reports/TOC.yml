@@ -13,6 +13,8 @@
       items:
         - name: 'Power BI Desktop: de Excel a un informe'
           href: desktop-excel-stunning-report.md
+        - name: 'Power BI Desktop: Modelo dimensional para informar'
+          href: desktop-dimensional-model-report.md
         - name: "Servicio Power\_BI: de Excel a un informe"
           href: service-from-excel-to-stunning-report.md
         - name: 'Curso en línea: Informes paginados'
