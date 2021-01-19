@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 806869b10b52ff7c161484f3e8d38fbc61b85f60
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
+ms.openlocfilehash: 5cee5dd701f7ac40b3f363e1bdcee039037fcde9
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961279"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565120"
 ---
 # <a name="power-bi-security-whitepaper"></a>Notas del producto sobre la seguridad de Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "97961279"
 
 **Power BI** es una oferta de servicio de software en línea (_SaaS_ o software como servicio) de Microsoft que le permite crear con facilidad y rapidez paneles, informes, conjuntos de información y visualizaciones de Business Intelligence de autoservicio. Con Power BI, se puede conectar a muchos orígenes de datos diferentes, combinar y dar forma a los datos de esas conexiones y, después, crear informes y paneles que se pueden compartir con otros usuarios.
 
-El servicio Power BI se rige por los [términos de Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) y la [Declaración de privacidad de Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para conocer la ubicación de procesamiento de datos, vea los términos de ubicación de procesamiento de datos de los Términos de Microsoft Online Services. Para obtener información de cumplimiento, el [Centro de confianza de Microsoft](https://www.microsoft.com/trust-center/product-overview) es el principal recurso para Power BI. El equipo de Power BI se esfuerza para brindar a sus clientes las innovaciones y la productividad más recientes. Power BI está actualmente en el nivel D del marco de cumplimiento de Microsoft 365. Obtenga más información sobre el cumplimiento en el [centro de confianza de Microsoft](https://docs.microsoft.com/compliance/regulatory/offering-home).
+El servicio Power BI se rige por los [términos de Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) y la [Declaración de privacidad de Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para conocer la ubicación de procesamiento de datos, vea los términos de ubicación de procesamiento de datos de los Términos de Microsoft Online Services. Para obtener información de cumplimiento, el [Centro de confianza de Microsoft](https://www.microsoft.com/trust-center/product-overview) es el principal recurso para Power BI. El equipo de Power BI se esfuerza para brindar a sus clientes las innovaciones y la productividad más recientes. Power BI está actualmente en el nivel D del marco de cumplimiento de Microsoft 365. Obtenga más información sobre el cumplimiento en el [centro de confianza de Microsoft](/compliance/regulatory/offering-home).
 
 En este artículo se describe la seguridad de Power BI a través de una explicación de su arquitectura; después se explica cómo se autenticarán los usuarios en Power BI y cómo se establecen las conexiones de datos y, luego, cómo se almacenan y mueven los datos a través del servicio en Power BI. La última sección está dedicada a preguntas relacionadas con la seguridad, con las respuestas correspondientes.
 
@@ -91,7 +91,7 @@ Los metadatos sobre la suscripción de Power BI de un usuario, como paneles, inf
 
 ## <a name="tenant-creation"></a>Creación de inquilinos
 
-Un inquilino es una instancia dedicada del servicio Azure AD que una organización recibe y posee cuando se suscribe a un servicio en la nube de Microsoft, como Azure, Microsoft Intune, Power BI o Microsoft 365. Cada inquilino de Azure AD es distinto e independiente de los demás inquilinos de Azure AD.
+Un inquilino es una instancia dedicada del servicio Azure AD que una organización recibe y posee cuando se suscribe a un servicio en la nube de Microsoft, como Azure, Microsoft Intune, Power BI o Microsoft 365. Cada inquilino de Azure AD es distinto e independiente de otros inquilinos de Azure AD.
 
 Un inquilino aloja los usuarios de una empresa y la información sobre ellos: sus contraseñas, datos de perfil de usuario, permisos, etc. También contiene grupos, aplicaciones y otra información relativa a una organización y su seguridad. Para obtener más información, consulte [¿Qué es un inquilino de Azure ad](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings).
 
@@ -222,7 +222,7 @@ Para los orígenes de datos basados en la nube, el rol de movimiento de datos ci
         - Si se establece el conjunto de datos para la actualización, las credenciales se almacenan cifradas en la instancia de Azure SQL Database de Movimiento de datos. La clave de cifrado se almacena en el equipo que ejecuta la puerta de enlace en la infraestructura del cliente.
         - Si el conjunto de datos no se establece para la actualización, no se almacena ninguna credencial para los orígenes de datos
 
-1. data
+1. Datos
 
     a. Instancia local de Analysis Services y DirectQuery: no se almacena nada en el servicio Power BI.
 
@@ -308,7 +308,7 @@ Los dispositivos no volátiles son dispositivos que tienen memoria que persiste 
     c. Datos insertados: ninguno (no aplicable).
 
     d. ETL: ninguno (no se almacenada nada en el nodo de proceso diferente a lo que se ha explicado en la sección **Datos en reposo** anterior)
-4. data
+4. Datos
 
     Algunos artefactos de datos se pueden almacenar en el disco de los nodos de proceso durante un período de tiempo limitado.
 
