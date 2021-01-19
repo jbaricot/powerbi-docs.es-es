@@ -9,8 +9,6 @@
           href: embedding.md
         - name: Qué es Power BI Embedded de Azure
           href: azure-pbie-what-is-power-bi-embedded.md
-        - name: 'Qué es Power BI Embedded de Azure, 2ª generación'
-          href: power-bi-embedded-generation-2.md
     - name: Tutoriales
       expanded: true
       items:
@@ -40,6 +38,8 @@
           href: paginated-reports-row-level-security.md
         - name: Administración de varios inquilinos
           href: embed-multi-tenancy.md
+        - name: Conexión de un informe mediante enlaces dinámicos
+          href: embed-dynamic-binding.md
         - name: Registro de diagnóstico de Azure para el servicio de Power BI Embedded
           href: azure-pbie-diag-logs.md
         - name: Preguntas frecuentes sobre la inserción
@@ -64,8 +64,6 @@
           href: register-app.md
         - name: Obtención de un token de acceso de Azure AD
           href: get-azuread-access-token.md
-        - name: Conexión de un informe mediante enlaces dinámicos
-          href: embed-dynamic-binding.md
         - name: Inserción de preguntas y respuestas
           href: qanda.md
         - name: Solución de problemas de una aplicación insertada
