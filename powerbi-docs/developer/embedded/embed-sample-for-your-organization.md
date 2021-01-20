@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 78ba14c8a715c927f35c32244734e66a5fb80473
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: da356800a49e6d8876a147862dd08541ed2999bc
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888981"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565672"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Insertar contenido de Power BI en una aplicación para la organización
 
@@ -57,7 +57,7 @@ Si prefiere configurar el entorno manualmente, siga los pasos que se indican má
 
 >[!NOTE]
 >En su propia aplicación, tendrá que ir a *Autenticación* y, en el campo *URI de redirección*, insertar la dirección pertinente.
-Para obtener más información sobre el redireccionamiento, consulte [Restricciones y limitaciones del identificador URI de redirección (dirección URL de respuesta)](https://docs.microsoft.com/azure/active-directory/develop/reply-url).
+Para obtener más información sobre el redireccionamiento, consulte [Restricciones y limitaciones del identificador URI de redirección (dirección URL de respuesta)](/azure/active-directory/develop/reply-url).
 
 ## <a name="set-up-your-power-bi-environment"></a>Configuración del entorno de Power BI
 
@@ -428,7 +428,7 @@ Los administradores globales o los administradores de servicios de Power BI pued
 En este tutorial, ha obtenido información sobre cómo insertar contenido de Power BI en una aplicación mediante la cuenta de la organización de Power BI. Ahora puede intentar insertar contenido de Power BI en una aplicación mediante aplicaciones. También puede intentar insertar contenido de Power BI para los clientes (todavía no se admite para insertar informes paginados):
 
 > [!div class="nextstepaction"]
-> [Insertar desde aplicaciones](embed-from-apps.md)
+> [Insertar desde aplicaciones](./index.yml)
 
 > [!div class="nextstepaction"]
 >[Insertar para los clientes](embed-sample-for-customers.md)

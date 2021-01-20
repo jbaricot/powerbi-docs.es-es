@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 11/16/2020
-ms.openlocfilehash: 1c2260fdc3df201a655e6641c351319e366eac6b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8c5b3c394d54df390d690d58b56e9084f9829733
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413136"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565655"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Creación de un vínculo a una ubicación específica en las aplicaciones móviles de Power BI
 Puede usar vínculos para acceder directamente a contenido de Power BI específico, como un informe específico, una página del informe, un panel, un icono, etc.
@@ -193,7 +193,7 @@ Los vínculos de este formato pueden apuntar directamente a paneles, iconos e in
 
 En las aplicaciones móviles de Power BI, los vínculos dentro de Power BI funcionan tal cual lo hacen en el servicio Power BI.
 
-Si quiere agregar un vínculo al informe que apunte a otro elemento de Power BI, solo tiene que copiar la dirección URL de ese elemento desde la barra de direcciones del explorador. Obtenga más información sobre cómo [Agregar un hipervínculo a un cuadro de texto de un informe](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box).
+Si quiere agregar un vínculo al informe que apunte a otro elemento de Power BI, solo tiene que copiar la dirección URL de ese elemento desde la barra de direcciones del explorador. Obtenga más información sobre cómo [Agregar un hipervínculo a un cuadro de texto de un informe](../../create-reports/service-add-hyperlink-to-text-box.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 Sus comentarios nos ayudan a decidir qué implementaremos en el futuro; no olvide votar por otras características que le gustaría ver en aplicaciones móviles de Power BI. 
@@ -201,4 +201,4 @@ Sus comentarios nos ayudan a decidir qué implementaremos en el futuro; no olvid
 * [Aplicaciones de Power BI para dispositivos móviles](mobile-apps-for-mobile-devices.md)
 * Siga @MSPowerBI en Twitter
 * Únase a la conversación en la [comunidad de Power BI](http://community.powerbi.com/)
-* [¿Qué es Power BI?](../../power-bi-overview.md)
+* [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)

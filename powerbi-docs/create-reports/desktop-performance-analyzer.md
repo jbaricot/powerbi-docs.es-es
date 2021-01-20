@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/23/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6168a1fb8d64444b703c6acac21c3bac67c4219a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a622da545d4fa9fca8b9478f6d5293d2b34296e9
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396507"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191714"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Uso del Analizador de rendimiento para examinar el rendimiento de los elementos de los informes
 
@@ -58,7 +58,7 @@ La información de cada registro de objetos visuales incluye el tiempo empleado 
 * **Presentación visual**: tiempo necesario para que el objeto visual dibuje en la pantalla, incluido el tiempo necesario para recuperar imágenes web o geocodificación. 
 * **Otros**: tiempo que el objeto visual necesita para preparar las consultas, esperar a que se completen otros objetos visuales o realizar otro procesamiento en segundo plano.
 
-Los valores **Duración (ms)** indican la diferencia entre una marca de tiempo de *inicio* y de *finalización* para cada operación. La mayoría de las operaciones del lienzo y los objetos visuales se ejecutan de forma secuencial en un único subproceso de interfaz de usuario, que se comparte entre varias operaciones. Las duraciones notificadas incluyen el tiempo invertido en cola mientras se completan otras operaciones. En el [ejemplo Analizador de rendimiento](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer) de GitHub y su [documentación](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx) asociada se proporcionan detalles sobre cómo los objetos visuales consultan los datos y cómo se representan.
+Los valores **Duración (ms)** indican la diferencia entre una marca de tiempo de *inicio* y de *finalización* para cada operación. La mayoría de las operaciones del lienzo y los objetos visuales se ejecutan de forma secuencial en un único subproceso de interfaz de usuario, que se comparte entre varias operaciones. Las duraciones notificadas incluyen el tiempo invertido en cola mientras se completan otras operaciones. En el [ejemplo Analizador de rendimiento](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Performance%20Analyzer) de GitHub y su [documentación](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx) asociada se proporcionan detalles sobre cómo los objetos visuales consultan los datos y cómo se representan.
 
 
 ![elementos de información de registro](media/desktop-performance-analyzer/performance-analyzer-06.png)
@@ -94,5 +94,5 @@ Para más información acerca de **Power BI Desktop** y cómo empezar a trabajar
 
 Para obtener más información sobre el ejemplo Analizador de rendimiento, consulte los recursos siguientes.
 
-* [Ejemplo Analizador de rendimiento](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
-* [Documentación del ejemplo Analizador de rendimiento](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)
+* [Ejemplo Analizador de rendimiento](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Performance%20Analyzer)
+* [Documentación del ejemplo Analizador de rendimiento](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

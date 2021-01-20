@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 1bf62e99d666c05af8efc05ecbc496d69c586ae6
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: a44bd7837e7605fd23e49a91e3e9eba106d5a933
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927111"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565778"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>Tutorial: Automatización de la configuración de la instalación de aplicaciones de plantilla con una función de Azure
 
@@ -38,7 +38,7 @@ En este tutorial usará un ejemplo de Azure Functions de instalación automátic
 
 Para obtener más información sobre el flujo de automatización general y las API que la aplicación usa, vea [Automatización de la configuración de la instalación de una aplicación de plantilla](template-apps-auto-install.md).
 
-En la aplicación se usa una función de Azure. Para obtener más información sobre Azure Functions, consulte [Documentación de Azure Functions](https://docs.microsoft.com/azure/azure-functions/).
+En la aplicación se usa una función de Azure. Para obtener más información sobre Azure Functions, consulte [Documentación de Azure Functions](/azure/azure-functions/).
 
 ## <a name="basic-flow"></a>Flujo básico
 
@@ -48,7 +48,7 @@ Este es el flujo básico de lo que la aplicación hace cuando el cliente la inic
 
 1. El ISV adquiere un token *de solo aplicación* basado en una [entidad de servicio (token de solo aplicación)](../embedded/embed-service-principal.md), que está registrada en el inquilino del ISV.
 
-1. Mediante las [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/), el ISV crea un *vale de instalación* que contiene la configuración de parámetros específicos del usuario, tal y como la haya preparado el ISV.
+1. Mediante las [API REST de Power BI](/rest/api/power-bi/), el ISV crea un *vale de instalación* que contiene la configuración de parámetros específicos del usuario, tal y como la haya preparado el ISV.
 
 1. El ISV redirige al usuario a Power BI mediante un método de redireccionamiento ```POST``` que contiene el vale de instalación.
 
@@ -59,18 +59,18 @@ Este es el flujo básico de lo que la aplicación hace cuando el cliente la inic
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-* Tener su propio inquilino de Azure Active Directory (Azure AD) configurado. Vea [Creación de un inquilino de Azure AD](https://docs.microsoft.com/power-bi/developer/embedded/create-an-azure-active-directory-tenant) para obtener instrucciones sobre cómo configurar uno.
-* Tener una [entidad de servicio (token de solo aplicación)](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal) registrada en el inquilino anterior.
-* Tener una [aplicación de plantilla parametrizada](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview) lista para la instalación. La aplicación de plantilla se debe crear en el mismo inquilino en el que registre la aplicación en Azure AD. Para obtener más información, vea [Sugerencias de aplicación de plantilla](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) o [Creación de una aplicación de plantilla en Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create).
+* Tener su propio inquilino de Azure Active Directory (Azure AD) configurado. Vea [Creación de un inquilino de Azure AD](../embedded/create-an-azure-active-directory-tenant.md) para obtener instrucciones sobre cómo configurar uno.
+* Tener una [entidad de servicio (token de solo aplicación)](../embedded/embed-service-principal.md) registrada en el inquilino anterior.
+* Tener una [aplicación de plantilla parametrizada](../../connect-data/service-template-apps-overview.md) lista para la instalación. La aplicación de plantilla se debe crear en el mismo inquilino en el que registre la aplicación en Azure AD. Para obtener más información, vea [Sugerencias de aplicación de plantilla](../../connect-data/service-template-apps-tips.md) o [Creación de una aplicación de plantilla en Power BI](../../connect-data/service-template-apps-create.md).
 * Una licencia de Power BI Pro. . Si no está registrado para Power BI Pro, [regístrese para una evaluación gratuita](https://powerbi.microsoft.com/pricing/) antes de comenzar.
 
 ## <a name="set-up-your-template-apps-automation-development-environment"></a>Configuración del entorno de desarrollo de automatización de aplicaciones de plantillas
 
-Antes de continuar con la configuración de la aplicación, siga las instrucciones de [Inicio rápido: Creación de una aplicación de Azure Functions con Azure App Configuration](https://docs.microsoft.com/azure/azure-app-configuration/quickstart-azure-functions-csharp) para desarrollar una función de Azure junto con una instancia de Azure App Configuration. Cree la instancia de App Configuration como se describe en el artículo.
+Antes de continuar con la configuración de la aplicación, siga las instrucciones de [Inicio rápido: Creación de una aplicación de Azure Functions con Azure App Configuration](/azure/azure-app-configuration/quickstart-azure-functions-csharp) para desarrollar una función de Azure junto con una instancia de Azure App Configuration. Cree la instancia de App Configuration como se describe en el artículo.
 
 ### <a name="register-an-application-in-azure-ad"></a>Registrar una aplicación en Azure AD
 
-Cree una entidad de servicio como se describe en [Inserción de contenido de Power BI con entidades de servicio y un secreto de aplicación](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal).
+Cree una entidad de servicio como se describe en [Inserción de contenido de Power BI con entidades de servicio y un secreto de aplicación](../embedded/embed-service-principal.md).
 
 Asegúrese de registrar la aplicación como una **aplicación web del lado servidor**. Una aplicación web del lado servidor se registra para crear un secreto de aplicación.
 
@@ -89,12 +89,12 @@ Una vez que haya creado la aplicación de plantilla y esté lista para la instal
 * Los *nombres de parámetro* como se definen en el conjunto de datos de la aplicación de plantilla. Los nombres de parámetros son cadenas en las que se distingue entre mayúsculas y minúsculas. También se pueden recuperar en la pestaña **Configuración de parámetros** cuando se [definen las propiedades de la aplicación de plantilla](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app), o bien desde la configuración del conjunto de datos de Power BI.
 
 >[!NOTE]
->Puede probar la aplicación de instalación preconfigurada en la aplicación de plantilla si está lista para la instalación, incluso si todavía no está disponible de forma pública en AppSource. Para que los usuarios ajenos al inquilino puedan utilizar la aplicación de instalación automatizada para instalar la aplicación de plantilla, esta debe estar disponible de forma pública en el [marketplace de aplicaciones de Power BI](https://app.powerbi.com/getdata/services). Antes de distribuir la aplicación de plantilla con la aplicación de instalación automatizada que va a crear, asegúrese de publicarla en el [Centro de partners](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+>Puede probar la aplicación de instalación preconfigurada en la aplicación de plantilla si está lista para la instalación, incluso si todavía no está disponible de forma pública en AppSource. Para que los usuarios ajenos al inquilino puedan utilizar la aplicación de instalación automatizada para instalar la aplicación de plantilla, esta debe estar disponible de forma pública en el [marketplace de aplicaciones de Power BI](https://app.powerbi.com/getdata/services). Antes de distribuir la aplicación de plantilla con la aplicación de instalación automatizada que va a crear, asegúrese de publicarla en el [Centro de partners](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 
 
 ## <a name="install-and-configure-your-template-app"></a>Instalación y configuración de la aplicación de plantilla
 
-En esta sección, usará un ejemplo de Azure Functions de instalación automática que hemos creado para preconfigurar e instalar la aplicación de plantilla. Este ejemplo se ha mantenido deliberadamente sencillo con fines de demostración. Permite usar una instancia de [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview) y de [Azure App Configuration](https://docs.microsoft.com/azure/azure-app-configuration/overview) para implementar y usar con facilidad la API de instalación automatizada para las aplicaciones de plantilla.
+En esta sección, usará un ejemplo de Azure Functions de instalación automática que hemos creado para preconfigurar e instalar la aplicación de plantilla. Este ejemplo se ha mantenido deliberadamente sencillo con fines de demostración. Permite usar una instancia de [Azure Functions](/azure/azure-functions/functions-overview) y de [Azure App Configuration](/azure/azure-app-configuration/overview) para implementar y usar con facilidad la API de instalación automatizada para las aplicaciones de plantilla.
 
 ### <a name="download-visual-studio-version-2017-or-later"></a>Descargue [Visual Studio](https://www.visualstudio.com/) (versión 2017 o posterior).
 
@@ -200,7 +200,7 @@ Para obtener el secreto de la aplicación, siga estos pasos:
 
 ## <a name="test-your-function-locally"></a>Prueba local de la función
 
-Siga los pasos que se describen en [Ejecución local de la función](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio#run-the-function-locally) para ejecutar la función.
+Siga los pasos que se describen en [Ejecución local de la función](/azure/azure-functions/functions-create-your-first-function-visual-studio#run-the-function-locally) para ejecutar la función.
 
 Configure el portal para que emita una solicitud ```POST``` a la dirección URL de la función. Un ejemplo es ```POST http://localhost:7071/api/install```. El cuerpo de la solicitud debe ser un objeto JSON que describa los pares clave-valor. Las claves son *nombres de parámetro* según se definen en Power BI Desktop. Los valores son los valores deseados que se van a establecer por cada parámetro de la aplicación de plantilla.
 
@@ -218,4 +218,4 @@ El flujo deseado debe ser el siguiente:
 
 ### <a name="publish-your-project-to-azure"></a>Publicación del proyecto en Azure
 
-Para publicar el proyecto en Azure, siga las instrucciones de la [documentación de Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure). Tras ello, puede integrar API de instalación automatizada de aplicaciones de plantilla en el producto y comenzar a probarlas en entornos de producción.
+Para publicar el proyecto en Azure, siga las instrucciones de la [documentación de Azure Functions](/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure). Tras ello, puede integrar API de instalación automatizada de aplicaciones de plantilla en el producto y comenzar a probarlas en entornos de producción.

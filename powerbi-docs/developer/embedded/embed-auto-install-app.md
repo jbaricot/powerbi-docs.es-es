@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: f6418f8a9b927b05b3809032b28a740553ec625c
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 66ba3b7d573c86b32a91bc0a98cd5ec0775fec75
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888935"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565840"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Instalación automática de aplicaciones de Power BI al insertar contenido para la organización
 
-Para insertar contenido desde una aplicación, el usuario que realiza la inserción debe tener [acceso a la aplicación](../../collaborate-share/service-create-distribute-apps.md). Si el usuario tiene instalada la aplicación, la inserción funciona sin problemas. Para más información, consulte [Inserción de informes o paneles desde una aplicación](embed-from-apps.md). En PowerBI.com, se puede definir que todas las aplicaciones se puedan [instalar automáticamente](https://powerbi.microsoft.com/blog/automatically-install-apps/). Sin embargo, esta acción se realiza en el nivel de inquilino y se aplica a todas las aplicaciones.
+Para insertar contenido desde una aplicación, el usuario que realiza la inserción debe tener [acceso a la aplicación](../../collaborate-share/service-create-distribute-apps.md). Si el usuario tiene instalada la aplicación, la inserción funciona sin problemas. Para más información, consulte [Inserción de informes o paneles desde una aplicación](./index.yml). En PowerBI.com, se puede definir que todas las aplicaciones se puedan [instalar automáticamente](https://powerbi.microsoft.com/blog/automatically-install-apps/). Sin embargo, esta acción se realiza en el nivel de inquilino y se aplica a todas las aplicaciones.
 
 ## <a name="auto-install-app-on-embedding"></a>Instalación automática de aplicaciones al insertar contenido
 

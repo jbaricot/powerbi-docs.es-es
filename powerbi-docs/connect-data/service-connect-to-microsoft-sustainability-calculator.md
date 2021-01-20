@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/22/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 730a997a6d1d304fe868dd5bdd5bfbed6e359d91
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: bff53ac0e230a91dd980b461340ae4109f551999
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927161"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565567"
 ---
 # <a name="microsoft-sustainability-calculator-support-page"></a>Página de soporte técnico de Microsoft Sustainability Calculator
 
@@ -165,7 +165,7 @@ Puede informar sus emisiones como parte del ámbito 3 de las emisiones de carbon
 
 **¿Qué puedo hacer para disminuir aún más las emisiones?**
 
-La rentabilidad de los recursos y los costos en Azure reducirá el impacto medioambiental del uso de Azure. Por ejemplo, las máquinas virtuales sin usar son innecesarias tanto en la nube como en el entorno local. Ajustar el tamaño de las máquinas virtuales para mejorar los factores de utilización de proceso (CUF) reduce el uso energético por salida útil, al igual que en los servidores físicos. [Azure Cost Management](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-best-practices) ofrece las herramientas para planear, analizar y reducir los gastos para maximizar su inversión en la nube.
+La rentabilidad de los recursos y los costos en Azure reducirá el impacto medioambiental del uso de Azure. Por ejemplo, las máquinas virtuales sin usar son innecesarias tanto en la nube como en el entorno local. Ajustar el tamaño de las máquinas virtuales para mejorar los factores de utilización de proceso (CUF) reduce el uso energético por salida útil, al igual que en los servidores físicos. [Azure Cost Management](/azure/cost-management-billing/costs/cost-mgt-best-practices) ofrece las herramientas para planear, analizar y reducir los gastos para maximizar su inversión en la nube.
 
 #### <a name="methodology"></a>Metodología
 

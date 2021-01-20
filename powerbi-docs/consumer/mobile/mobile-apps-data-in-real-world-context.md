@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.openlocfilehash: b6564cafe087000fd0ce4409fac2cbfc78d0e8fa
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5710f70dafbb01aca68cfc03107a1f1ededaf015
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413159"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565894"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Obtención de datos procedentes del mundo real con las aplicaciones móviles de Power BI
 Las aplicaciones móviles de Power BI pueden conectar el mundo real directamente con información relacionada de BI, de varias formas. 
@@ -27,7 +27,7 @@ Más información sobre:
 
 * [Crear un código QR para un icono en Power BI](../../create-reports/service-create-qr-code-for-tile.md)
 * [Detección de un código QR de Power BI desde un dispositivo móvil](mobile-apps-qr-code.md)
-* [Scan a report QR code in holographic view](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view) (Escanear un código QR de informe en la vista holográfica)
+* [Scan a report QR code in holographic view](./mobile-hololens2-app.md#open-reports-with-qr-codes) (Escanear un código QR de informe en la vista holográfica)
 
 ## <a name="qr-codes-for-reports"></a>Códigos QR para informes
 Cree un código QR para un informe.  Cuando sus compañeros escaneen el código con su iPhone (los teléfonos Android pronto estarán disponibles), verán el informe que ha asociado con ese código QR. 

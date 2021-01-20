@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eb572c17705f06b989f15323322c0da11b1d85ac
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: 4e9d5783dd0c7d956f438358a5c20ad334a67aca
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600700"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565968"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Actualización automática de páginas en Power BI
 
@@ -283,7 +283,7 @@ Si observa que la capacidad se está sobrecargando con consultas de prioridad ba
 
 **Al conectarse a Analysis Services, no puedo ver la alternancia de APR**
 
-* Asegúrese de que el modelo de Analysis Services esté en [modo DirectQuery](https://docs.microsoft.com/analysis-services/tabular-models/directquery-mode-ssas-tabular).
+* Asegúrese de que el modelo de Analysis Services esté en [modo DirectQuery](/analysis-services/tabular-models/directquery-mode-ssas-tabular).
 
 
 ## <a name="next-steps"></a>Pasos siguientes
@@ -297,4 +297,4 @@ Para más información, consulte estos artículos:
 * [Orígenes de datos en Power BI Desktop](../connect-data/desktop-data-sources.md)
 * [Combinar datos y darles forma en Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
 * [Connect to Excel workbooks in Power BI Desktop (Conectarse a libros de Excel en Power BI Desktop)](../connect-data/desktop-connect-excel.md)   
-* [Especificar datos directamente en Power BI Desktop](../connect-data/desktop-enter-data-directly-into-desktop.md)   
+* [Especificar datos directamente en Power BI Desktop](../connect-data/desktop-enter-data-directly-into-desktop.md)

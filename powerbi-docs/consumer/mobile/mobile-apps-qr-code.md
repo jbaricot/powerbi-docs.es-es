@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.openlocfilehash: ab6d8f208300350a613cc63dab948f42376b905e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 96859efbaf86c8c6e9abf459500c38d49ee4f112
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414562"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565502"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Detección de un código QR de Power BI desde un dispositivo móvil
 Se aplica a:
@@ -31,7 +31,7 @@ Puede escanear el código QR para obtener acceso de forma inmediata al icono o i
 Si su compañero no ha compartido el panel o informe con usted, puede solicitar acceso directamente desde la aplicación móvil. 
 
 > [!NOTE]
-> También puede [escanear un código QR de informe con la aplicación Power BI for Mixed Reality](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
+> También puede [escanear un código QR de informe con la aplicación Power BI for Mixed Reality](./mobile-hololens2-app.md#open-reports-with-qr-codes).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Detección de un código QR de Power BI en el iPhone con el escáner de Power BI
 
@@ -77,5 +77,5 @@ Si su compañero no ha compartido el panel o informe con usted, puede solicitar 
 * [Get Power BI data from the real world with the mobile apps](mobile-apps-data-in-real-world-context.md) (Obtener datos de Power BI del mundo real con las aplicaciones móviles)
 * [Crear un código QR para un icono en el servicio Power BI](../../create-reports/service-create-qr-code-for-tile.md)
 * [Crear un código QR para un informe en el servicio Power BI](../../create-reports/service-create-qr-code-for-report.md)
-* También puede [escanear un código QR con la aplicación Power BI for Mixed Reality](mobile-mixed-reality-app.md)
+* También puede [escanear un código QR con la aplicación Power BI for Mixed Reality](./mobile-hololens2-app.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

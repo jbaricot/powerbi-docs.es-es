@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 33de464a1bb1389fadfbc7a85ded9365321e0a62
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 0852fcb2c932680f6c20aeee94a89c68f473e46d
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926304"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565730"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>Configuración automatizada de la instalación de una aplicación de plantilla
 
@@ -42,7 +42,7 @@ El flujo básico de automatización de la configuración de la instalación de u
 
 1. El ISV adquiere un token *de solo aplicación* basado en una [entidad de servicio (token de solo aplicación)](../embedded/embed-service-principal.md), que está registrada en el inquilino del ISV.
 
-1. Mediante las [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/), el ISV crea un *vale de instalación* que contiene la configuración de parámetros específicos del usuario, tal y como la haya preparado el ISV.
+1. Mediante las [API REST de Power BI](/rest/api/power-bi/), el ISV crea un *vale de instalación* que contiene la configuración de parámetros específicos del usuario, tal y como la haya preparado el ISV.
 
 1. El ISV redirige al usuario a Power BI mediante un método de redireccionamiento ```POST``` que contiene el vale de instalación.
 
@@ -56,23 +56,23 @@ El flujo básico de automatización de la configuración de la instalación de u
 Para proporcionar una experiencia de instalación preconfigurada para la aplicación de plantilla, se necesitan los requisitos previos siguientes:
 
 * Una licencia de Power BI Pro. . Si no está registrado para Power BI Pro, [regístrese para una evaluación gratuita](https://powerbi.microsoft.com/pricing/) antes de comenzar.
-* Tener su propio inquilino de Azure Active Directory (Azure AD) configurado. Vea [Creación de un inquilino de Azure AD](https://docs.microsoft.com/power-bi/developer/embedded/create-an-azure-active-directory-tenant) para obtener instrucciones sobre cómo configurar uno.
-* Tener una **entidad de servicio (token de solo aplicación)** registrada en el inquilino anterior. Para obtener más información, vea [Inserción de contenido de Power BI con entidades de servicio y un secreto de aplicación](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal). Asegúrese de registrar la aplicación como una **aplicación web del lado servidor**. Una aplicación web del lado servidor se registra para crear un secreto de aplicación. A partir de este proceso, tendrá que guardar el *Id. de aplicación* (ClientID) y el *Secreto de aplicación* (ClientSecret) para los pasos posteriores.
-* Tener una **aplicación de plantilla parametrizada** lista para la instalación. La aplicación de plantilla se debe crear en el mismo inquilino en el que registre la aplicación en Azure AD. Para obtener más información, vea [Sugerencias de aplicación de plantilla](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) o [Creación de una aplicación de plantilla en Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create). En la aplicación de plantilla debe anotar esta información para los pasos siguientes:
+* Tener su propio inquilino de Azure Active Directory (Azure AD) configurado. Vea [Creación de un inquilino de Azure AD](../embedded/create-an-azure-active-directory-tenant.md) para obtener instrucciones sobre cómo configurar uno.
+* Tener una **entidad de servicio (token de solo aplicación)** registrada en el inquilino anterior. Para obtener más información, vea [Inserción de contenido de Power BI con entidades de servicio y un secreto de aplicación](../embedded/embed-service-principal.md). Asegúrese de registrar la aplicación como una **aplicación web del lado servidor**. Una aplicación web del lado servidor se registra para crear un secreto de aplicación. A partir de este proceso, tendrá que guardar el *Id. de aplicación* (ClientID) y el *Secreto de aplicación* (ClientSecret) para los pasos posteriores.
+* Tener una **aplicación de plantilla parametrizada** lista para la instalación. La aplicación de plantilla se debe crear en el mismo inquilino en el que registre la aplicación en Azure AD. Para obtener más información, vea [Sugerencias de aplicación de plantilla](../../connect-data/service-template-apps-tips.md) o [Creación de una aplicación de plantilla en Power BI](../../connect-data/service-template-apps-create.md). En la aplicación de plantilla debe anotar esta información para los pasos siguientes:
      * *Id. de la aplicación*, *clave del paquete* e *identificador del propietario*, tal y como aparecen en la dirección URL de instalación al final del proceso de [Definición de las propiedades de la aplicación de plantilla](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) cuando se ha creado la aplicación. También puede obtener el mismo vínculo si selecciona **Obtener vínculo** en el panel [Administración de versiones](../../connect-data/service-template-apps-create.md#manage-the-template-app-release) de la aplicación de plantilla.
     * Los *nombres de parámetro* como se definen en el conjunto de datos de la aplicación de plantilla. Los nombres de parámetro son cadenas que distinguen mayúsculas de minúsculas y también se pueden recuperar en la pestaña **Configuración de parámetros** cuando se [definen las propiedades de la aplicación de plantilla](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app), o bien desde la configuración del conjunto de datos de Power BI.
 
     >[!NOTE]
-    >Puede probar la aplicación de instalación preconfigurada en la aplicación de plantilla si está lista para la instalación, incluso si todavía no está disponible de forma pública en AppSource. Para que los usuarios ajenos al inquilino puedan utilizar la aplicación de instalación automatizada para instalar la aplicación de plantilla, esta debe estar disponible de forma pública en el [marketplace de aplicaciones de Power BI](https://app.powerbi.com/getdata/services). Antes de distribuir la aplicación de plantilla con la aplicación de instalación automatizada que va a crear, asegúrese de publicarla en el [Centro de partners](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+    >Puede probar la aplicación de instalación preconfigurada en la aplicación de plantilla si está lista para la instalación, incluso si todavía no está disponible de forma pública en AppSource. Para que los usuarios ajenos al inquilino puedan utilizar la aplicación de instalación automatizada para instalar la aplicación de plantilla, esta debe estar disponible de forma pública en el [marketplace de aplicaciones de Power BI](https://app.powerbi.com/getdata/services). Antes de distribuir la aplicación de plantilla con la aplicación de instalación automatizada que va a crear, asegúrese de publicarla en el [Centro de partners](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 
 ## <a name="main-steps-and-apis"></a>Pasos principales y API
 
-Los pasos principales para automatizar la configuración de una instalación de aplicación de plantilla y las API que necesitará se describen en las secciones siguientes. Aunque la mayoría de los pasos se realizan con las [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/), los ejemplos de código que se describen aquí se realizan con el SDK de .NET.
+Los pasos principales para automatizar la configuración de una instalación de aplicación de plantilla y las API que necesitará se describen en las secciones siguientes. Aunque la mayoría de los pasos se realizan con las [API REST de Power BI](/rest/api/power-bi/), los ejemplos de código que se describen aquí se realizan con el SDK de .NET.
 
 ## <a name="step-1-create-a-power-bi-client-object"></a>Paso 1: Creación de un objeto de cliente de Power BI
 
-Para usar las API REST de Power BI es necesario obtener de Azure AD un *token de acceso* de la [entidad de servicio](../embedded/embed-service-principal.md). Tendrá que obtener un [token de acceso de Azure AD](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) para la aplicación de Power BI antes de llamar a las [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/).
-Para crear el cliente de Power BI con el token de acceso, tiene que crear el objeto de cliente de Power BI, que permite interactuar con las [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/). Para crear un objeto de cliente de Power BI, ajuste el valor de **AccessToken** con un objeto **Microsoft.Rest.TokenCredentials**.
+Para usar las API REST de Power BI es necesario obtener de Azure AD un *token de acceso* de la [entidad de servicio](../embedded/embed-service-principal.md). Tendrá que obtener un [token de acceso de Azure AD](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) para la aplicación de Power BI antes de llamar a las [API REST de Power BI](/rest/api/power-bi/).
+Para crear el cliente de Power BI con el token de acceso, tiene que crear el objeto de cliente de Power BI, que permite interactuar con las [API REST de Power BI](/rest/api/power-bi/). Para crear un objeto de cliente de Power BI, ajuste el valor de **AccessToken** con un objeto **Microsoft.Rest.TokenCredentials**.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -91,7 +91,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ## <a name="step-2-create-an-install-ticket"></a>Paso 2: Creación de un vale de instalación
 
 Cree un vale de instalación, que se usa cuando se redirige a los usuarios a Power BI. La API que se usa para esta operación es **CreateInstallTicket**.
-* [CreateInstallTicket para aplicaciones de plantilla](https://docs.microsoft.com/rest/api/power-bi/templateapps/createinstallticket)
+* [CreateInstallTicket para aplicaciones de plantilla](/rest/api/power-bi/templateapps/createinstallticket)
 
 Un ejemplo de cómo crear un vale de instalación para la instalación y configuración de la aplicación de plantilla está disponible en el archivo [InstallTemplateApp/InstallAppFunction.cs](https://github.com/microsoft/Template-apps-examples/blob/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample/InstallTemplateApp/InstallAppFunction.cs) de la [aplicación de ejemplo](https://github.com/microsoft/Template-apps-examples/tree/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample).
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4f984be74c0408eae5c476fa30994de55961a0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 47a8ef221caadfabebc5da00793b7fff0b8687f8
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386375"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191875"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Creación y visualización de objetos visuales de esquema jerárquico en Power BI
 
@@ -32,7 +32,7 @@ En este tutorial se usan dos ejemplos:
 - Un escenario de ventas que divide las ventas de videojuegos en numerosos factores, como el género y el publicador del juego.
 
 Puede encontrar el archivo .pbix que se usa en el escenario de cadena de suministro aquí: [Supply Chain Sample.pbix](
-https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Reports/Supply%20Chain%20Sample.pbix).
+https://github.com/microsoft/powerbi-desktop-samples/blob/main/Sample%20Reports/Supply%20Chain%20Sample.pbix).
 
 > [!NOTE]
 > Para compartir el informe con un compañero en Power BI es necesario que los dos tengan licencias de Power BI Pro individuales o que el informe esté guardado en la capacidad Premium.    
