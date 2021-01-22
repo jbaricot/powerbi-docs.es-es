@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: Documentación sobre los análisis insertados de Power BI para obtener mejores conclusiones insertadas de BI
+title: Documentación de análisis insertados de Power BI
 summary: 'Aprenda a usar las dos soluciones de análisis insertados de Power BI: Power BI Embedded y la inserción con Power BI Premium.'
 metadata:
   title: Documentación de análisis insertados de Power BI
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 0f5afe65128f8e9b79522380b2271895f2afacaf
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+  ms.openlocfilehash: a4de20cdd11170b7782c4891b11bde48081fdd55
+  ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97888682"
+  ms.lasthandoff: 01/22/2021
+  ms.locfileid: "98687520"
 landingContent:
 - title: Introducción
   linkLists:

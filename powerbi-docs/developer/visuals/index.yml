@@ -1,6 +1,6 @@
 ### YamlMime:Landing
-title: Documentación sobre los objetos visuales en los análisis insertados de Power BI para obtener mejores conclusiones insertadas de BI
-summary: Desarrolle objetos visuales personales de Power BI para uso propio, de la organización o de toda la comunidad de Power BI. Nuestra documentación proporciona la información que necesita. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
+title: Documentación sobre objetos visuales de Power BI
+summary: Desarrolle objetos visuales personales de Power BI para uso propio, de la organización o de toda la comunidad de Power BI. Nuestra documentación proporciona la información que necesita.
 metadata:
   title: Documentación sobre objetos visuales de Power BI
   description: Desarrolle objetos visuales personales de Power BI para uso propio, de la organización o de toda la comunidad de Power BI. Nuestra documentación proporciona la información que necesita.
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 79d5b385bab83d07423184518a00106f660b8d68
-  ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+  ms.openlocfilehash: b2b7a23174b4790232139ae6137d518d8578d8d1
+  ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 01/07/2021
-  ms.locfileid: "97969406"
+  ms.lasthandoff: 01/22/2021
+  ms.locfileid: "98687451"
 landingContent:
 - title: Primeros pasos
   linkLists:
