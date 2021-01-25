@@ -8,17 +8,17 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
-ms.date: 02/16/2020
-ms.openlocfilehash: bd700ae7c6c175f4e9cf7841ce308a275ba9babb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/14/2021
+ms.openlocfilehash: a7da63efcc991da57eba9c6b9bb6b9527ad66e1f
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393054"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227385"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Supervisión del rendimiento de los informes en Power BI
 
-Supervise el rendimiento de los informes en Power BI Desktop mediante la [aplicación Métricas de Power BI Premium](../admin/service-premium-metrics-app.md), aprenda dónde están los cuellos de botella y obtenga información sobre cómo puede mejorar el rendimiento de los informes.
+Supervise el rendimiento de los informes de Power BI Desktop con el [Analizador de rendimiento](../create-reports/desktop-performance-analyzer.md) y el rendimiento del contenido implementado en la capacidad Power BI Premium de la organización con ayuda de la [Aplicación Métricas de Power BI Premium](../admin/service-premium-metrics-app.md). Obtenga información sobre dónde están los cuellos de botella y aprenda a mejorar el rendimiento de los informes.
 
 La supervisión del rendimiento es importante en las siguientes situaciones:
 

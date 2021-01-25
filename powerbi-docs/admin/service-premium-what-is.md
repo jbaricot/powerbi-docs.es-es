@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 01/06/2021
+ms.date: 01/18/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: c1e5cad6ab1da796d2f10a64e867d5848e86aea4
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
+ms.openlocfilehash: c89cf7b00d5167ffb68a491a9cfdcea21378dfd5
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155627"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565152"
 ---
 # <a name="what-is-power-bi-premium"></a>¿Qué es Power BI Premium?
 
@@ -87,6 +87,15 @@ Las siguientes limitaciones conocidas se aplican actualmente a Premium Gen2:
     |SQL Server Management Studio (SSMS)|18,8|8 de diciembre de 2020|
     |SQL Server Data Tools (SSDT)|2.9.15|Disponibilidad general, 30 de noviembre de 2020|
     | AS PowerShell| Mayor que 21.1.18229|26 de noviembre de 2020|
+
+5.  No se admite la reasignación de un área de trabajo que contiene flujos de datos desde una capacidad Premium Gen2 a otra capacidad Premium de otra región. Tampoco se admite el traslado de un modelo de formato de almacenamiento de gran tamaño desde una capacidad Premium a otra. Si ya ha migrado a una capacidad de otra región, realice uno de los pasos siguientes para restaurar la funcionalidad:
+ 
+    1.  Cree una nueva área de trabajo y copie los flujos de datos
+    2.  Vuelva a migrar el área de trabajo a la capacidad de la región anterior
+    3.  Cambie de nuevo a Premium Gen1
+
+Esta limitación se puede quitar con disponibilidad general (GA) de Premium Gen2.
+
 
 ## <a name="subscriptions-and-licensing"></a>Suscripciones y licencias
 
@@ -184,7 +193,7 @@ La eliminación de un modelo de la memoria se denomina *expulsión*. Es una oper
 
 Es importante resaltar que la expulsión del conjunto de datos es un comportamiento normal en la capacidad. La capacidad se esfuerza por equilibrar el uso de memoria mediante la administración del ciclo de vida en memoria de los modelos de forma transparente para los usuarios. Una tasa de expulsión alta no significa necesariamente que la capacidad no tenga los recursos suficientes. Pero puede ser un problema si el rendimiento de las consultas o actualizaciones se degrada debido a la sobrecarga de cargar y expulsar modelos repetidamente en un breve intervalo de tiempo.
 
-En las actualizaciones de modelos de importación siempre se usa mucha memoria, ya que los modelos se deben cargar en la memoria. También se necesita memoria intermedia adicional para el procesamiento. Una actualización completa puede usar aproximadamente el doble de la cantidad de memoria que necesita el modelo porque Power BI mantiene una instantánea existente del modelo en memoria hasta que se completa la operación de procesamiento. Esto permite consultar el modelo incluso cuando se está procesando. Las consultas se pueden enviar a la instantánea existente del modelo hasta que la actualización se haya completado y los nuevos datos del modelo estén disponibles.
+En las actualizaciones de modelos de importación siempre se usa mucha memoria, ya que los modelos se deben cargar en la memoria. También se necesita memoria intermedia adicional para el procesamiento. Una actualización completa puede usar aproximadamente el doble de la cantidad de memoria que necesita el modelo porque Power BI mantiene una instantánea existente del modelo en memoria hasta que se completa la operación de procesamiento. Esto permite consultar el modelo aunque se esté procesando. Las consultas se pueden enviar a la instantánea existente del modelo hasta que la actualización se haya completado y los nuevos datos del modelo estén disponibles.
 
 La actualización incremental realiza la actualización de la partición en lugar de todo el modelo, normalmente será más rápida y necesitará menos memoria, y puede reducir considerablemente el uso de recursos de la capacidad. Las actualizaciones también pueden hacer un uso intensivo de la CPU para los modelos, especialmente aquellos con transformaciones de Power Query, o bien tablas o columnas calculadas que son complejas o se basan en un gran volumen de datos.
 
@@ -299,7 +308,7 @@ Los informes paginados, compatibles con las SKU P1-P3 y A4-A6, se basan en la te
 En Power BI Premium, los informes paginados son una carga de trabajo que se debe habilitar para una capacidad mediante el portal de administración. Los administradores de capacidad pueden habilitar y después especificar la cantidad de memoria como un porcentaje del total de recursos de memoria de la capacidad. A diferencia de otros tipos de carga de trabajo, Premium ejecuta los informes paginados en un espacio contenido dentro de la capacidad. Se usa la memoria máxima especificada para este espacio, con independencia de si la carga de trabajo está o no activa. El valor predeterminado es 20 %.
 
 > [!NOTE]
-> En **Premium Gen2 (versión preliminar)** , no hay administración de memoria para los informes paginados. Con Premium Gen2, los informes paginados se admiten en las SKU EM1-EM3 y A1-A3.
+> En **Premium Gen2 (versión preliminar)** , no hay administración de memoria para los informes paginados. Con Premium Gen2, los informes paginados se admiten en los SKU EM1-EM3.
 
 ### <a name="paginated-reports-and-premium-gen2"></a>Informes paginados y Premium Gen2
 
@@ -333,7 +342,7 @@ Para más información, vea [Licencias de Power BI](service-admin-licensing-orga
 
 ## <a name="analysis-services-in-power-bi-premium"></a>Analysis Services en Power BI Premium
 
-De forma interna, el **motor Vertical de Analysis Services** probado por Microsoft impulsa los conjuntos de datos y áreas de trabajo de Power BI Premium. Analysis Services proporciona la capacidad de programación y compatibilidad con herramientas y aplicaciones cliente a través de las bibliotecas de cliente y las API que admiten el protocolo XMLA de estándar abierto. De manera predeterminada, las cargas de trabajo del conjunto de datos de la capacidad Premium de Power BI admiten conexiones *de solo lectura* desde herramientas y aplicaciones cliente de Microsoft y de terceros a través de un **punto de conexión de XMLA**. Los administradores de capacidad también pueden optar por deshabilitar o permitir las operaciones de *lectura/escritura* a través del punto de conexión.
+De forma interna, el **motor Vertipaq de Analysis Services** probado por Microsoft impulsa los conjuntos de datos y áreas de trabajo de Power BI Premium. Analysis Services proporciona la capacidad de programación y compatibilidad con herramientas y aplicaciones cliente a través de las bibliotecas de cliente y las API que admiten el protocolo XMLA de estándar abierto. De manera predeterminada, las cargas de trabajo del conjunto de datos de la capacidad Premium de Power BI admiten conexiones *de solo lectura* desde herramientas y aplicaciones cliente de Microsoft y de terceros a través de un **punto de conexión de XMLA**. Los administradores de capacidad también pueden optar por deshabilitar o permitir las operaciones de *lectura/escritura* a través del punto de conexión.
 
 Con el acceso de solo lectura, herramientas de Microsoft como SQL Server Management Studio (SSMS) y SQL Server Profiler, y aplicaciones de terceros como DAX Studio y aplicaciones de visualización de datos, se pueden conectar a conjuntos de datos Premium y consultarlos mediante XMLA, MDX, DAX, DMV y eventos de seguimiento. Con el acceso de lectura y escritura, herramientas de modelado de datos empresariales como Visual Studio con la extensión de proyectos de Analysis Services o Tabular Editor de código abierto pueden implementar modelos tabulares como un conjunto de datos en un área de trabajo Premium. Y con herramientas como SSMS, los administradores pueden usar el lenguaje de scripting de modelos tabulares (TMSL) para generar scripts de cambios de metadatos y escenarios de actualización de datos avanzados. 
 

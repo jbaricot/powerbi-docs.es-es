@@ -8,14 +8,14 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3d32851c5ff0722f59caa5536b67fb1c3267907b
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: df0591e7ae934ffa945e0e780b2764c7170358f1
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97622071"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227040"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportación de informes a PowerPoint
 
@@ -105,7 +105,8 @@ Hay algunas consideraciones y limitaciones a tener en cuenta al trabajar con la 
 
 * Algunos informes no se pueden exportar. Estas incluyen:
     - Si se comparte un panel con alguien de fuera de su organización y, por lo tanto, con un usuario que no está en su inquilino de Power BI, ese usuario no podrá exportar a PowerPoint los informes asociados del panel compartido. Por ejemplo, si es aaron@contoso.com, puede compartir con david@cohowinery.com. Pero david@cohowinery.com no puede exportar los informes asociados a PowerPoint.
-    - Informes con más de 50 páginas. Solo se exportarán las 50 primeras páginas.
+    - Informes con más de 50 páginas.
+    - Informes con más de 500 MB al exportar. 
     - Los informes exportados a versiones anteriores de PowerPoint.
     - Los informes que tardan más de una hora en procesarse. 
     - Las páginas de informes que tardan más de 6 minutos en cargarse. 

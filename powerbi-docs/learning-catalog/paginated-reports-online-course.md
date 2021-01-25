@@ -8,13 +8,13 @@ featuredvideoid: DN1t5p9aui0
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: tutorial
-ms.date: 11/11/2020
-ms.openlocfilehash: e05078bf51cd33fb565dc783386258fe9ea305d1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/31/2020
+ms.openlocfilehash: 504b5bcb63fa8c8897ae0b44922d3dc144a02730
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416379"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227362"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Curso Informes paginados de Power BI en un día
 
@@ -43,7 +43,7 @@ Vea el vídeo de introducción para iniciar el curso.
 
 ## <a name="course-outline"></a>Esquema del curso
 
-El [curso de 24 vídeos](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT) se organiza en ocho módulos. Se recomienda ver los vídeos en la secuencia grabada, empezando por el vídeo 1 y finalizando con el vídeo 24.
+El [curso de 25 vídeos](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT) está organizado en ocho módulos. Se recomienda ver los vídeos en la secuencia grabada, empezando por el vídeo 01 y finalizando por el vídeo 25.
 
 - **Introducción**
   - Vídeo 1: [Bienvenida e introducción al curso](https://www.youtube.com/watch?v=DN1t5p9aui0&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
@@ -78,6 +78,7 @@ El [curso de 24 vídeos](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icI
   - Vídeo 22: [Contenido adicional: Revisión](https://www.youtube.com/watch?v=w5zlJ8BodxI&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - Vídeo 23: [Contenido adicional: Evolución de los informes paginados](https://www.youtube.com/watch?v=pevpai65MvY&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - Vídeo 24: [Contenido adicional: Reducción de la barrera inicial](https://www.youtube.com/watch?v=vu32LfckCt8&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
+  - Vídeo 25: [Contenido adicional: Actualización de diciembre de 2020](https://www.youtube.com/watch?v=-7M4muS_3BI&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
 
 ## <a name="self-study-kit"></a>Kit para ampliar conocimientos
 

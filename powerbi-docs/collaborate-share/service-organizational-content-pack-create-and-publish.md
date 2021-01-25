@@ -7,25 +7,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/06/2019
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0a72582a54903c97dd9594f6a4a1c5980aea8e16
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b0b57967ed86c25f51c08a94e4c252c250e85304
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411733"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227201"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Tutorial: Creación y publicación de un paquete de contenido organizativo de Power BI
+
+> [!NOTE]
+> Los paquetes de contenido organizativos se están poniendo en desuso. Ahora es un buen momento para actualizar los paquetes de contenido a aplicaciones, si todavía no ha empezado. Vea la sección de hoja de ruta sobre la actualización de áreas de trabajo de esta entrada de blog [Announcing Power BI admins can upgrade classic workspaces](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (Anuncio de que los administradores de Power BI pueden actualizar las áreas de trabajo clásicas) para obtener la escala de tiempo.
+> 
 
 En este tutorial, se crea un paquete de contenido organizativo, se concede acceso a un grupo específico y se publica en la biblioteca de paquetes de contenido de la organización en Power BI.
 
 Es distinto crear paquetes de contenido que compartir paneles o colaborar en ellos en un grupo. Lea [Formas de compartir el trabajo en Power BI](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir cuál es la mejor opción para su situación.
 
 Crear un paquete de contenido de organización requiere una [cuenta de Power BI Pro](https://powerbi.microsoft.com/pricing) para usted y sus compañeros de trabajo.
-
-> [!NOTE]
-> No se pueden crear ni instalar paquetes de contenido de la organización en las nuevas experiencias de áreas de trabajo. Si todavía no ha empezado, ahora es un buen momento para actualizar los paquetes de contenido a aplicaciones. Obtenga [más información sobre la nueva experiencia de áreas de trabajo](service-create-the-new-workspaces.md).
 
 ## <a name="create-and-publish-a-content-pack"></a>Creación y publicación de un paquete de contenido
 

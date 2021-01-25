@@ -7,24 +7,24 @@ ms.reviewer: lukaszp, kayu
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/02/2018
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: eccc60c4f26502ea2249c378efbdb910bd7c8a30
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2fd2bca7e031d4a758031f80db0825f5af9e897c
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406742"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227247"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Paquetes de contenido organizativo: Copia, actualización y acceso
 
+> [!NOTE]
+> Los paquetes de contenido organizativos se están poniendo en desuso. Ahora es un buen momento para actualizar los paquetes de contenido a aplicaciones, si todavía no ha empezado. Vea la sección de hoja de ruta sobre la actualización de áreas de trabajo de esta entrada de blog [Announcing Power BI admins can upgrade classic workspaces](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (Anuncio de que los administradores de Power BI pueden actualizar las áreas de trabajo clásicas) para obtener la escala de tiempo.
+> 
+
 Cuando se publica un paquete de contenido organizativo, todos los destinatarios ven el mismo panel, así como los mismos informes, libros de Excel, conjuntos de datos y datos (a menos que sea un origen de datos de SQL Server Analysis Services, también denominado SSAS).  [Solo el creador del paquete de contenido lo puede volver a editar y publicar](service-organizational-content-pack-manage-update-delete.md).  Sin embargo, todos los destinatarios pueden guardar una copia del paquete de contenido, que puede coexistir con el original.
 
-Es distinto crear paquetes de contenido que compartir paneles o colaborar en ellos en un grupo. Lea [¿Cómo debo compartir paneles, informes e iconos?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir cuál es la mejor opción en su caso.
-
-> [!NOTE]
-> No se pueden crear ni instalar paquetes de contenido de la organización en las nuevas experiencias de áreas de trabajo. Ahora es un buen momento para actualizar los paquetes de contenido a aplicaciones, si todavía no ha empezado. Obtenga [más información sobre la nueva experiencia de áreas de trabajo](service-create-the-new-workspaces.md).
->
+Es distinto crear paquetes de contenido que compartir paneles o colaborar en ellos en un grupo. Lea [Formas de colaborar en paneles e informes y de compartirlos](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir cuál es la mejor opción 
 
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>Crear una copia de un paquete de contenido organizativo
 Puede crear su propia copia del paquete de contenido, que no será visible para el resto de usuarios.

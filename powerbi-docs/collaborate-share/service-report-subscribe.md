@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 01/08/2021
+ms.date: 01/13/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1253c2b2548a7e6333840b8d33fdf255d5634be5
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
+ms.openlocfilehash: a72d6632eb8837fd6a0716842dc20a342edcce4b
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053406"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227132"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
@@ -128,7 +128,7 @@ Los administradores de Power BI pueden usar los registros de auditoría de Powe
 - La opción de proporcionar acceso al informe o panel siempre aparece como habilitada al editar una suscripción existente.  Si desactiva esta opción y guarda la suscripción, se guardará ese estado. Pero al volver a editar el informe, se activará de forma predeterminada.
 - Si tiene una dirección de correo electrónico alternativa pero no una principal, Power BI la usará para entregar la suscripción.
 - Si suscribe usuarios externos a un informe o panel, estos recibirán una notificación de uso compartido inmediatamente después de seleccionar **Guardar y cerrar** en el panel de suscripción. Esta notificación se envía solo a usuarios externos, no a usuarios internos, ya que estos necesitan un vínculo de invitación para ver el informe o el panel. 
-- Existe un límite en cuanto al número de suscriptores de un informe o panel. Después de superar los 200 suscriptores, es posible que encuentre problemas con la entrega.
+- Existe un límite en cuanto al número de suscriptores de un informe o panel. Después de superar los 200 suscriptores, es posible que encuentre problemas con la entrega. Para reducir el número de suscriptores, use alias de correo electrónico en su lugar. Cada alias de correo electrónico se cuenta como un suscriptor.
 
 ### <a name="dashboards"></a>Paneles
 
@@ -140,7 +140,7 @@ Los administradores de Power BI pueden usar los registros de auditoría de Powe
 
 ### <a name="reports"></a>Informes
 
-- En cuanto a las suscripciones de correo de informe, si el conjunto de datos usa RLS, podrá crear una suscripción para usted. No puede suscribir a otros usuarios a un informe que tenga aplicada la seguridad de nivel de fila (RLS), excepto para los informes paginados. Puede suscribir a otros usuarios a un informe paginado mediante el contexto de seguridad. Obtenga más información sobre la [suscripción a informes paginados](../consumer/paginated-reports-subscriptions.md).
+- En las suscripciones de correo electrónico a informes paginados y de Power BI, si el conjunto de datos usa seguridad de nivel de fila (RLS), puede crear suscripciones para sí mismo. También puede suscribir a otros usuarios a un informe con RLS. Esas suscripciones se generan mediante el contexto de seguridad.
 - Las suscripciones a una página del informe están asociadas con el nombre de la página del informe. Si se suscribe a una página del informe y después cambia el nombre, tendrá que volver a crear la suscripción.
 - Su organización puede configurar ciertos parámetros en Azure Active Directory que limitan la capacidad de usar las suscripciones de correo electrónico en Power BI. Estas limitaciones incluyen, entre otras, la autenticación multifactor o restricciones de intervalo de IP al acceder a los recursos.
 - Las suscripciones de correo electrónico no admiten la mayoría de los [objetos visuales personalizados](../developer/visuals/power-bi-custom-visuals.md). La única excepción son esos objetos visuales personalizados que se han [certificado](../developer/visuals/power-bi-custom-visuals-certified.md).

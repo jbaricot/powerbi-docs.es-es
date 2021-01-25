@@ -8,14 +8,14 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/11/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2c88cca174f5deeededcaef3f242d6ea00a83379
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 932149fc117568cffd94e6d551878f706a58ec65
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613702"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191967"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportación de informes de Power BI a PDF
 
@@ -58,6 +58,7 @@ Hay algunas consideraciones y limitaciones que se deben tener en cuenta cuando s
 * Se admiten los objetos visuales de Power BI que se han certificado. Para obtener más información sobre los objetos visuales de Power BI certificados, incluido cómo obtener un objeto visual de Power BI certificado, vea [Obtención de un objeto visual de Power BI certificado](../developer/visuals/power-bi-custom-visuals-certified.md). No se admiten los objetos visuales de Power BI que no se hayan certificado. En el archivo PDF, se muestran con un mensaje de error.
 * Este objeto visual de ESRI no se admite.
 * Actualmente no se pueden exportar informes de más de 50 páginas.
+* No se pueden exportar informes de más de 500 MB. 
 * El proceso de exportación del informe a PDF puede tardar unos minutos en completarse, por lo que debe tener paciencia. Entre los factores que pueden afectar al tiempo requerido está la estructura del informe y la carga actual del servicio Power BI.
 * Si el elemento de menú **Exportar a PDF** no está disponible en el servicio Power BI, probablemente se deba a que el administrador de Power BI haya deshabilitado la característica. Póngase en contacto con el administrador para obtener información detallada.
 * Las imágenes de fondo se recortan con el área de límite del gráfico. Se recomienda quitar las imágenes de fondo antes de realizar la exportación a PDF.

@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 12/18/2019
+ms.date: 01/13/2021
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f1b3d226fb7b27ebb31879d2f4a5c3489660b94
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a44b6cbbc0517bee50d14447e790f6491483a894
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412929"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565858"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Usar la agrupación y la discretización en Power BI Desktop
 Cuando Power BI Desktop crea objetos visuales, agrega los datos en fragmentos (o grupos) en función de los valores que se encuentran en los datos subyacentes. A menudo esto es suficiente, pero puede haber ocasiones en las que quiera refinar la manera en que se presentan los fragmentos. Por ejemplo, tal vez le interese colocar tres categorías de productos en una categoría mayor (un *grupo*). También podría querer ver las cifras de ventas en tamaños de discretización de 1 000 000 dólares, en lugar de fragmentos de tamaños de 923 983 dólares.
@@ -47,7 +47,7 @@ Puede agregar un valor no agrupado a un grupo existente: simplemente seleccione 
 > Puede crear grupos para cualquier campo del área **Campos** sin necesidad de seleccionar varios elementos de un objeto visual existente. Basta con que haga clic con el botón derecho en el campo y que seleccione **Nuevo grupo** en el menú que aparece.
 
 ## <a name="using-binning"></a>Usar la discretización
-Puede establecer el tamaño de discretización de campos numéricos y de tiempo en **Power BI Desktop.** Puede usar la discretización para ajustar el tamaño de los datos que Power BI Desktop muestra.
+Puede establecer el tamaño de discretización de campos numéricos y de tiempo en **Power BI Desktop.** Puede crear discretizaciones para columnas calculadas, pero no para medidas. Use la discretización para ajustar el tamaño de los datos que muestra Power BI Desktop.
 
 Para aplicar un tamaño de discretización, haga clic con el botón derecho en un **Campo** y elija **Nuevo grupo**.
 
@@ -57,7 +57,7 @@ En el cuadro de diálogo **Grupos**, establezca el **Tamaño de la discretizaci�
 
 ![Tamaño de la discretización, cuadro de diálogo Grupos, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_6.png)
 
-Cuando seleccione **Aceptar**, observará que aparece un campo nuevo en el panel **Campos** con **(ubicaciones)** anexado. Después, puede arrastrar ese campo al lienzo para usar el tamaño de discretización en un objeto visual.
+Cuando seleccione **Aceptar**, observará que aparece un campo nuevo en el panel **Campos** con **(ubicaciones)** anexado. Después, puede arrastrar ese campo hasta el lienzo para usar el tamaño de la discretización en un objeto visual.
 
 ![Arrastrar campo de ubicaciones a un lienzo, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_7.png)
 

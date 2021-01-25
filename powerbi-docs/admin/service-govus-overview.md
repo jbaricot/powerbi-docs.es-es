@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/05/2021
+ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: 9b52e0698f6b9c1ae779bf21738acee30db7447d
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: e7100be7890673cecc77a8a1147a25a942fc4666
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927092"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597617"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 
@@ -124,26 +124,22 @@ Incluiremos el trimestre de disponibilidad estimada si hay una versión prevista
 
 |Característica |GCC |GCC High |DoD|
 |------|------|------|------|
-|[Colaboración de Azure B2B entre la nube comercial y de gobierno](service-admin-azure-ad-b2b.md)<sup>1</sup>|![disponible](../media/yes.png)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|
-|[Inserción en SharePoint Online mediante el elemento web de Power BI](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![disponible](../media/yes.png)|![Disponible](../media/yes.png)|![no disponible](../media/no.png)|
-|[Conectividad de Power Automate para alertas orientadas a datos](../connect-data/power-bi-data-sources.md)|![disponible](../media/yes.png)|![disponible](../media/yes.png)|![no disponible](../media/no.png)|
-|[Pestaña de Power BI en Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![disponible](../media/yes.png)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|
-|[Modelos grandes](service-premium-large-models.md) | ![no disponible](../media/no.png) |![no disponible](../media/no.png)| ![no disponible](../media/no.png) |
+|[Colaboración de Azure B2B entre la nube comercial y de gobierno](service-admin-azure-ad-b2b.md)<sup>1</sup>|![disponible](../media/yes.png)|![disponible](../media/yes.png)|![disponible](../media/yes.png)
+|[Aplicaciones de plantilla](../connect-data/service-template-apps-overview.md)<sup>2</sup>|![disponible](../media/yes.png) |![disponible](../media/yes.png)| ![disponible](../media/yes.png)|
+|[Inserción en SharePoint Online mediante el elemento web de Power BI](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![disponible](../media/yes.png)|![disponible](../media/yes.png)|![no disponible](../media/no.png)|
+|[Protección de datos (etiquetas MIP)](service-security-sensitivity-label-overview.md)|![disponible](../media/yes.png)|![disponible](../media/yes.png) |1T de 2021|
+|[Flujos de datos: consulta directa](../transform-model/dataflows/dataflows-configure-consume.md) | ![disponible](../media/yes.png) |![disponible](../media/yes.png)|No planeado |
+|[Pestaña de Power BI en Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>3</sup>|![disponible](../media/yes.png)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|
+|[Modelos grandes](service-premium-large-models.md) | 1T de 2021 |1T de 2021| No planeado |
 |[Flujos de datos: optimización del motor de proceso de SQL](../transform-model/dataflows/dataflows-premium-features.md) | ![no disponible](../media/no.png) |![no disponible](../media/no.png)| ![no disponible](../media/no.png) |
-|[Flujos de datos: consulta directa](../transform-model/dataflows/dataflows-configure-consume.md) | ![no disponible](../media/no.png) |![no disponible](../media/no.png)|![no disponible](../media/no.png)|
-|[Protección de datos (etiquetas MIP)](service-security-sensitivity-label-overview.md)|![no disponible](../media/no.png)|![no disponible](../media/no.png) |![no disponible](../media/no.png)|
-|[Aplicaciones plantilla](../connect-data/service-template-apps-overview.md)<sup>3</sup>|![no disponible](../media/no.png) |![no disponible](../media/no.png)| ![no disponible](../media/no.png)|
-|[Objetos visuales personalizados](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|![no disponible](../media/no.png) |![no disponible](../media/no.png)| ![no disponible](../media/no.png)|
-|[Azure Stream Analytics](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| ![no disponible](../media/no.png)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|
 |[Conector de datos de calidad de las llamadas](/microsoftteams/cqd-power-bi-connector)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|
 |[Traiga su propio almacenamiento (Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|
-|[Generación de códigos QR](../create-reports/service-create-qr-code-for-tile.md)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|
 
 <sup>1</sup> Aunque la colaboración de B2B está disponible para GCC, se debe emitir al usuario externo una licencia en ese entorno. Las licencias de nubes comerciales no son válidas en GCC. Para obtener más información sobre las limitaciones conocidas de la colaboración de B2B con el Gobierno de EE. UU., [compare Azure Government y Azure global](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2).
 
-<sup>2</sup> La experiencia de Power BI en Teams para GCC es limitada, solo funciona para áreas de trabajo clásicas y no incluye la funcionalidad mejorada que se describe en [Inserción de contenido de Power BI en Microsoft Teams](../collaborate-share/service-embed-report-microsoft-teams.md).
+<sup>2</sup> Las aplicaciones de Marketplace no están disponibles para las instancias en la nube de la Administración Pública de Estados Unidos, por lo que las aplicaciones de plantilla se limitan a aplicaciones privadas y organizativas.
 
-<sup>3</sup> La funcionalidad de las aplicaciones de plantilla y los objetos visuales personalizados en el lanzamiento se limitarán a las nubes de gobierno. En la versión se publicará más información sobre las limitaciones específicas.
+<sup>3</sup> La experiencia de Power BI en Teams para GCC es limitada, solo funciona en áreas de trabajo clásicas y no incluye la funcionalidad mejorada que se describe en [Inserción de contenido de Power BI en Microsoft Teams](../collaborate-share/service-embed-report-microsoft-teams.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

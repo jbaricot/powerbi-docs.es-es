@@ -7,18 +7,19 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/02/2018
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: fb47df4f81225d8e55fbc637331f85f36337aade
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 59966919b64a9e8cb615b0b9dfc05fb9a2ff245c
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406443"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227178"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Administración, actualización y eliminación de paquetes de contenido organizativos
+
 > [!NOTE]
-> No se pueden crear paquetes de contenido de la organización ni instalarlos en las nuevas experiencias de áreas de trabajo. Ahora es un buen momento para actualizar los paquetes de contenido a aplicaciones, si todavía no ha empezado. Obtenga [más información sobre la nueva experiencia de áreas de trabajo](service-create-the-new-workspaces.md).
+> Los paquetes de contenido organizativos se están poniendo en desuso. Ahora es un buen momento para actualizar los paquetes de contenido a aplicaciones, si todavía no ha empezado. Vea la sección de hoja de ruta sobre la actualización de áreas de trabajo de esta entrada de blog [Announcing Power BI admins can upgrade classic workspaces](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (Anuncio de que los administradores de Power BI pueden actualizar las áreas de trabajo clásicas) para obtener la escala de tiempo.
 > 
 
 Puede empaquetar y compartir sus paneles, informes, libros de Excel y conjuntos de datos con sus compañeros como [paquetes de contenido de la organización](service-organizational-content-pack-introduction.md). Sus compañeros pueden usarlos tal cual o crear sus propias copias.

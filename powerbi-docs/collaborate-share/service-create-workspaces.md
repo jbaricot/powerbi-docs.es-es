@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 10/29/2020
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 024696aa69fc1c6e95b103a679b11de4fe468169
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0ff0d072bd36c7e49a7ce6d450b7a35410caa94f
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411963"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227316"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Creación de áreas de trabajo clásicas en Power BI
 
@@ -68,7 +68,7 @@ Después de crear un área de trabajo, es el momento de agregarle contenido. Est
 
 Las aplicaciones se proporcionan para todos los servicios de terceros compatibles con Power BI, lo que facilita la obtención de datos de los servicios que usa, como Microsoft Dynamics CRM, Salesforce o Google Analytics. Puede publicar aplicaciones de la organización para ofrecer a los usuarios los datos internos que necesitan.
 
-En las áreas de trabajo actuales, también puede conectarse mediante paquetes de contenido de la organización y paquetes de contenido de terceros, como Microsoft Dynamics CRM, Salesforce o Google Analytics. Considere la posibilidad de migrar los paquetes de contenido de la organización a las aplicaciones.
+En las áreas de trabajo clásicas, también puede conectarse mediante paquetes de contenido organizativos y paquetes de contenido de terceros, como Microsoft Dynamics CRM, Salesforce o Google Analytics. Los paquetes de contenido organizativos se están poniendo en desuso. Ahora es un buen momento para actualizar los paquetes de contenido a aplicaciones, si todavía no ha empezado. Vea la sección de hoja de ruta sobre la actualización de áreas de trabajo de esta entrada de blog [Announcing Power BI admins can upgrade classic workspaces](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (Anuncio de que los administradores de Power BI pueden actualizar las áreas de trabajo clásicas) para obtener la escala de tiempo.
 
 ## <a name="distribute-an-app"></a>Distribución de una aplicación
 
@@ -84,12 +84,11 @@ Los usuarios ven el contenido de la aplicación actualizado de forma automática
 ## <a name="power-bi-classic-apps-faq"></a>Preguntas más frecuentes sobre las aplicaciones clásicas de Power BI
 
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>¿En qué se diferencian las aplicaciones de los paquetes de contenido organizativo?
-Las aplicaciones son la evolución de los paquetes de contenido organizativos. Si ya tiene paquetes de contenido organizativos, estos seguirán funcionando en paralelo con las aplicaciones. Las aplicaciones y los paquetes de contenido tienen algunas diferencias importantes. 
+Las aplicaciones son la evolución de los paquetes de contenido organizativos, que se están poniendo en desuso. Ahora es un buen momento para actualizar los paquetes de contenido a aplicaciones, si todavía no ha empezado. Vea la sección de hoja de ruta sobre la actualización de áreas de trabajo de esta entrada de blog [Announcing Power BI admins can upgrade classic workspaces](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (Anuncio de que los administradores de Power BI pueden actualizar las áreas de trabajo clásicas) para obtener la escala de tiempo. 
 
 * Después de que los usuarios empresariales instalan un paquete de contenido, este pierde su identidad agrupada: es solo una lista de paneles e informes que se combinan con otros paneles e informes. Por otro lado, las aplicaciones mantienen su agrupación e identidad incluso después de la instalación. Este agrupamiento facilita que los usuarios empresariales continúen yendo a ellas a lo largo del tiempo.
 * Puede crear varios paquetes de contenido de cualquier área de trabajo, pero una aplicación tiene una relación de 1:1 con su área de trabajo. 
-* Con el tiempo, tenemos previsto dejar de utilizar paquetes de contenido organizativos, por lo que recomendamos crear aplicaciones de ahora en adelante.  
-* Con la experiencia de las nuevas áreas de trabajo, se están dando los primeros pasos para dejar en desuso los paquetes de contenido de la organización. No los puede usar ni crear en las nuevas áreas de trabajo.
+* No puede consumir ni crear paquetes de contenido en las nuevas áreas de trabajo.
 
 Consulte [Diferencias entre las áreas de trabajo nuevas y clásicas](service-new-workspaces.md#new-and-classic-workspace-differences) para comparar las dos. 
 

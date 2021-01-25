@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 10/21/2020
+ms.date: 01/12/2021
 ms.custom: contperf-fy20q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5aabc825ecd22ed49d05428148133be17156645d
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: 5aa4fb617bc4a6d362bcf17a5e6b4d6d7f355086
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621496"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227270"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organización del trabajo en las nuevas áreas de trabajo en Power BI
 
@@ -37,7 +37,7 @@ Con las nuevas áreas de trabajo, se han rediseñado algunas características. E
 - **Lista de contactos**: en las nuevas áreas de trabajo, puede especificar quién recibe notificaciones sobre la actividad del área de trabajo.
 - **Creación de aplicaciones de plantilla**: solo puede crear *aplicaciones de plantilla* en las nuevas áreas de trabajo. Las aplicaciones de plantilla son aplicaciones que se pueden distribuir a los clientes de fuera de la organización. Después, esos clientes pueden conectarse a sus propios datos con la aplicación de plantilla. Más información sobre las [aplicaciones de plantilla](../connect-data/service-template-apps-overview.md).
 - **Uso compartido de conjuntos de datos**: para compartir un conjunto de datos fuera de un área de trabajo específica, debe guardar el informe que contiene el conjunto de datos en una de las nuevas áreas de trabajo. No se pueden compartir conjuntos de datos de áreas de trabajo clásicas. Más información sobre los [conjuntos de datos compartidos](../connect-data/service-datasets-across-workspaces.md).
-- **Paquetes de contenido organizativo**: cree y consuma paquetes de contenido organizativos en áreas de trabajo clásicas. Esto no puede hacerlo en las nuevas áreas de trabajo. Las aplicaciones y las aplicaciones de plantilla reemplazan a los paquetes de contenido organizativos en las nuevas áreas de trabajo.
+- **Paquetes de contenido organizativo**: cree y consuma paquetes de contenido organizativos en áreas de trabajo clásicas. Esto no puede hacerlo en las nuevas áreas de trabajo. Las aplicaciones y las aplicaciones de plantilla reemplazan a los paquetes de contenido organizativos en las nuevas áreas de trabajo. Los paquetes de contenido organizativos se están poniendo en desuso. Ahora es un buen momento para actualizar los paquetes de contenido a aplicaciones. Vea la sección de hoja de ruta sobre la actualización de áreas de trabajo de esta entrada de blog [Announcing Power BI admins can upgrade classic workspaces](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (Anuncio de que los administradores de Power BI pueden actualizar las áreas de trabajo clásicas) para obtener la escala de tiempo.
 
 En este artículo se explican estas características con más detalle.
 

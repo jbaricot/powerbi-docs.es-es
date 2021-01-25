@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
-ms.date: 12/16/2020
+ms.date: 01/19/2021
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: c29728641560502e19486f47e3ec06e370399640
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: cbf41315f6b33483b7fdd0797bf4dfbcebb605c3
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600539"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597689"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Usar modelos compuestos en Power BI Desktop
 
@@ -22,7 +22,7 @@ Anteriormente en Power BI Desktop, cuando se usaba DirectQuery en un informe, n
 
 La funcionalidad de modelos compuestos de Power BI Desktop consta de tres características relacionadas:
 
-* **Modelos compuestos**: esta característica permite que un informe tenga varias conexiones de datos, incluidas conexiones de DirectQuery o importación, en cualquier combinación. En este artículo se describen los modelos compuestos en detalle.
+* **Modelos compuestos**: permite que un informe tenga dos o más conexiones de datos de diferentes grupos de origen, como una o varias conexiones de DirectQuery y una conexión de importación, dos o más conexiones de DirectQuery o cualquier combinación de ellas. En este artículo se describen los modelos compuestos en detalle.
 
 * **Relaciones de varios a varios**: con los modelos compuestos, puede establecer *relaciones de varios a varios* entre las tablas. Este enfoque elimina los requisitos de valores únicos en tablas. También permite descartar las soluciones alternativas anteriores, como el hecho de presentar nuevas tablas solo para establecer relaciones. Para más información, consulte [Relaciones de varios a varios en Power BI Desktop](desktop-many-to-many-relationships.md).
 
@@ -141,6 +141,8 @@ Por lo tanto, la información que se almacena en la hoja de cálculo ahora se in
 * Se debe considerar la configuración de cifrado para cada origen. Lo habitual es querer evitar tener que recuperar la información desde un origen mediante una conexión cifrada y, después, incluirla de forma accidental en una consulta que se envía a otro origen mediante una conexión no cifrada.
 
 Con el fin de permitir la confirmación de que se consideraron todas las implicaciones de seguridad, Power BI Desktop muestra un mensaje de advertencia cuando se realiza una acción para crear un modelo compuesto.  
+
+Además, si un autor agrega *Table1* de *Model A* a un modelo compuesto (lo vamos a denominar *Model C* para referencia), un usuario que vea un informe basado en *Model C* podría consultar **cualquier tabla** de *Model A* que no esté protegida mediante RLS.
 
 Por motivos similares, se debe tener cuidado al abrir un archivo de Power BI Desktop enviado desde un origen que no es de confianza. Si el archivo contiene modelos compuestos, la información que alguien recupere de un origen con las credenciales del usuario que abre el archivo se enviará a otro origen de datos como parte de la consulta. El autor del archivo de Power BI Desktop malintencionado podría ver esta información. Por lo tanto, al abrir inicialmente un archivo de Power BI Desktop que contiene varios orígenes, Power BI Desktop muestra una advertencia. La advertencia es similar a la que aparece al abrir un archivo que incluye consultas SQL nativas.  
 

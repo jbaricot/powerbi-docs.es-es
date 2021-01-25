@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 12/15/2020
+ms.date: 01/15/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6ce7afedb43aa7abaffb3ad5afdb00b4749addb5
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 573180ef4087af7654480da8ca581e1881729243
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885403"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565282"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Supervisión de las métricas de uso en la nueva experiencia de área de trabajo (versión preliminar)
 
@@ -297,6 +297,7 @@ Además de las diferencias anteriores entre los informes de métricas de uso ant
 - La inicialización del conjunto de datos de informe de métricas de uso podría dar error debido a que se encontró que el tiempo de espera se había agotado durante la actualización. Consulte la sección de solución de problemas a continuación para resolver este problema.
 - El uso compartido está deshabilitado para el informe de métricas de uso. Para proporcionar a los usuarios acceso de lectura al informe, primero debe concederles acceso al área de trabajo.
 - En algunas situaciones, es posible que observe que faltan los datos de rendimiento. Esto puede ocurrir si un usuario abre un informe e interactúa con él antes de que se haya completado la carga o si se ha producido un error en esta. 
+- Si la organización usa [vínculos privados](../admin/service-security-private-links.md), los informes de métricas de uso moderno contienen datos parciales (solo vistas de informe). Una limitación actual a la hora de transferir información del cliente por medio de vínculos privados evita la captura de vistas de página de informe y datos de rendimiento mediante vínculos privados. 
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 

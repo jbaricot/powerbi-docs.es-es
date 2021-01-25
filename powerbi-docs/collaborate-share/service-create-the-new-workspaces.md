@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 09/04/2020
+ms.date: 01/12/2021
 ms.custom: contperf-fy21q1, contperf-fy20q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2c15c6afbf1a84ab5e8103a8d73792705418d2e6
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: b849921b0ec9c5bbad46394343d266179ba547b8
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621726"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227293"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Creación de las nuevas áreas de trabajo en Power BI
 
@@ -24,7 +24,8 @@ En este artículo se explica cómo crear una de las *nuevas áreas de trabajo* e
 ¿Está listo para migrar el área de trabajo clásica? Para más información, consulte [Actualización de las áreas de trabajo clásicas a las nuevas áreas de trabajo de Power BI](service-upgrade-workspaces.md).
 
 > [!NOTE]
-> A fin de aplicar la seguridad de nivel de fila (RLS) para los usuarios de Power BI Pro que exploran el contenido de un área de trabajo, asigne a los usuarios el rol Visor. Consulte [Roles en las nuevas áreas de trabajo](service-new-workspaces.md#roles-in-the-new-workspaces) para obtener una explicación de los distintos roles.
+> ¿Busca contenido sobre la creación de paquetes de contenido? Se están poniendo en desuso. Ahora es un buen momento para actualizar los paquetes de contenido a aplicaciones. Vea la sección de hoja de ruta sobre la actualización de áreas de trabajo de esta entrada de blog [Announcing Power BI admins can upgrade classic workspaces](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (Anuncio de que los administradores de Power BI pueden actualizar las áreas de trabajo clásicas) para obtener la escala de tiempo.
+> 
 
 ## <a name="create-one-of-the-new-workspaces"></a>Creación de una de las nuevas áreas de trabajo
 
@@ -59,6 +60,9 @@ En este artículo se explica cómo crear una de las *nuevas áreas de trabajo* e
 ## <a name="give-access-to-your-workspace"></a>Concesión de acceso al área de trabajo
 
 Cualquier persona que tenga un rol de administrador en un área de trabajo puede conceder a otros usuarios acceso al área de trabajo, agregándolos a distintos roles. Los creadores de áreas de trabajo son administradores de forma automática. Consulte [Roles en las nuevas áreas de trabajo](service-new-workspaces.md#roles-in-the-new-workspaces) para obtener una explicación de los distintos roles.
+
+> [!NOTE]
+> A fin de aplicar la seguridad de nivel de fila (RLS) para los usuarios de Power BI Pro que exploran el contenido de un área de trabajo, asigne a los usuarios el rol Visor. Consulte [Roles en las nuevas áreas de trabajo](service-new-workspaces.md#roles-in-the-new-workspaces) para obtener una explicación de los distintos roles.
 
 1. Dado que es administrador, en la página de lista de contenido del área de trabajo, verá **Acceso**.
 

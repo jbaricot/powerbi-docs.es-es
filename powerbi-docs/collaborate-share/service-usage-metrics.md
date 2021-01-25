@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 12/15/2020
+ms.date: 01/15/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dc3ce931664a3c125504865c6cccfe3fdfa404c4
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
+ms.openlocfilehash: acb1a1550c0ab216e4934e99f871df9321561314
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053429"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565427"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>Supervisión de métricas de uso en áreas de trabajo clásicas
 
@@ -162,7 +162,11 @@ Es importante comprender qué diferencias pueden producirse al comparar métrica
 
 ### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>Discrepancias entre las API REST y las métricas de uso
 
-Las [API REST de informes](https://docs.microsoft.com/rest/api/power-bi/reports) y las [API REST de administración](https://docs.microsoft.com/rest/api/power-bi/admin) de Power BI también usan los datos del servicio Power BI. Por las razones descritas en la sección anterior, los recuentos de informes (el número de informes) de las API pueden diferir de los recuentos de informes de las métricas de uso. Los problemas de los clientes no afectan a los recuentos de informes derivados de las API, de modo que deben considerarse precisos.
+Las [API REST de informes](/rest/api/power-bi/reports) y las [API REST de administración](/rest/api/power-bi/admin) de Power BI también usan los datos del servicio Power BI. Por las razones descritas en la sección anterior, los recuentos de informes (el número de informes) de las API pueden diferir de los recuentos de informes de las métricas de uso. Los problemas de los clientes no afectan a los recuentos de informes derivados de las API, de modo que deben considerarse precisos.
+
+### <a name="classic-usage-metrics-are-not-supported-with-private-links"></a>Las métricas de uso clásico no se admiten con vínculos privados 
+
+Si la organización usa [vínculos privados](../admin/service-security-private-links.md), los informes de métricas de uso clásico no contienen ningún dato. Actualmente hay una limitación a la hora de transferir información del cliente por medio de vínculos privados. 
 
 ### <a name="other-considerations"></a>Otras consideraciones
 

@@ -5,24 +5,25 @@ author: mihart
 ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: removed
+ms.custom: video-OgjX-pFGgfM, video-RE4IY3L
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 1/13/2021
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2a8c125a37e0d70ea735d9f1962f64deb69061c8
-ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
+ms.openlocfilehash: b285d699d71001d8015615fdeb3652ba35274896
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97745148"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191847"
 ---
 # <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>Personalización de los títulos, los fondos, las etiquetas y las leyendas de las visualizaciones
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 
-En este tutorial obtendrá información sobre diferentes formas de personalizar las visualizaciones. Hay numerosas opciones para personalizar las visualizaciones. La mejor manera para obtener información de todas ellas es explorando el panel **Formato** (seleccione el icono de rodillo de pintura). Para ayudarlo a comenzar, en este artículo se muestra cómo personalizar un título de visualización, una leyenda, un fondo o una etiqueta, y agregar un tema.
+En este tutorial obtendrá información sobre diferentes formas de personalizar las visualizaciones. Hay numerosas opciones para personalizar las visualizaciones. La mejor manera para obtener información de todas ellas es explorando el panel **Formato** (seleccione el icono de rodillo de pintura). Para ayudarle a comenzar, en este artículo se muestra cómo personalizar un título, una leyenda, un fondo, una etiqueta o una capa de una visualización y cómo agregar un tema.
 
 No se pueden personalizar todas las visualizaciones. Consulte la [lista completa](#visualization-types-that-you-can-customize) de visualizaciones para obtener más información.
 
@@ -149,6 +150,36 @@ Vea como Rien agrega las etiquetas locales a un gráfico apilado y, luego, siga 
 
     ![Captura de pantalla del gráfico de barras apiladas nuevo con las etiquetas totales.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
 
+
+## <a name="customize-layer-order"></a>Personalización del orden de las capas
+Cambie el orden de las capas de los objetos visuales y las formas de los informes. El orden de las capas determina qué objetos aparecen delante cuando se seleccionan. Siempre que se selecciona un objeto en el lienzo del informe, se activa y se desplaza a la capa superior. En el caso de los objetos visuales, esto facilita la interacción con el objeto visual seleccionado. Pero en el caso de las formas y los fondos, se recomienda protegerlos en el nivel inferior, de modo que no se puedan seleccionar accidentalmente y cubran u oculten los objetos visuales del informe. 
+
+Los controles de las capas están disponibles en el servicio Power BI, Power BI Desktop, Mobile y Report Server. En este artículo se muestra cómo cambiar el comportamiento del orden de las capas en el servicio Power BI.
+
+Vea cómo Rien cambia el orden de las capas y luego siga los pasos para intentarlo por sí mismo.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IY3L]
+
+1. Agregue una nueva página de informe al seleccionar el signo más amarillo. 
+
+1. Agregue una forma al lienzo. Aquí se ha agregado un rectángulo azul. 
+
+    ![Captura de pantalla de la nueva página de informe con un rectángulo azul.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-shape.png)
+
+1. Copie y pegue un objeto visual de otra página del informe. 
+
+    ![Captura de pantalla de la nueva página de informe con un rectángulo azul y un gráfico circular.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-layer.png)
+
+    Ahora que hay 2 capas, intente seleccionar el gráfico circular y luego el fondo. Al seleccionar el gráfico circular, Power BI activa ese objeto y muestra su menú de encabezado. Al seleccionar el rectángulo, Power BI activa ese objeto y lo coloca en la parte delantera, donde oculta el gráfico circular. Puede cambiar este comportamiento predeterminado.
+
+1. Seleccione el rectángulo y abra el panel Formato. Expanda **General** y busque el botón de alternancia **Mantener orden de las capas**. Guarde los cambios del informe y cambie a la vista de lectura.
+
+    ![Captura de pantalla de la nueva página de informe y Mantener orden de las capas establecido en Activado.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-maintain-layer.png)
+
+1. En la vista de lectura, al seleccionar el rectángulo azul, se mantiene en la capa de detrás.
+
+
 ## <a name="customize-colors-using-a-theme"></a>Personalizar los colores con un tema
 
 Con los temas para informes puede aplicar cambios de diseño a todo el informe; por ejemplo, usar colores corporativos, cambiar conjuntos de iconos o aplicar nuevos formatos visuales predeterminados. Al aplicar un tema para informe, todos los objetos visuales del informe usan los colores y el formato del tema seleccionado.
@@ -170,16 +201,16 @@ A continuación, encontrará una lista de las visualizaciones y opciones de pers
 | Tarjeta de varias filas | sí | sí | N/D | n/d |
 | Columna | sí | sí | sí |  sí |
 | Combinado | sí | sí | sí | sí |
-| Anillo | sí | sí | sí | n/d |
+| Anillo | sí | sí | sí | N/D |
 | Mapa coroplético | sí | sí | sí |n/d |
-| Embudo | sí | sí | n/d |N/D |
+| Embudo | sí | sí | N/D |N/D |
 | Medidor | sí | sí | N/D |N/D |
 | Influenciador clave | sí | sí | N/D |N/D |
 | KPI | sí | sí | N/D |N/D |
 | Línea | sí | sí | sí |n/d |
 | Mapa | sí | sí | sí |n/d |
 | Matriz | sí | sí | N/D |sí |
-| Gráfico circular | sí | sí | sí |n/d |
+| Gráfico circular | sí | sí | sí |N/D |
 | Preguntas y respuestas | sí | sí | N/D |N/D |
 | Dispersión | sí | sí | sí |n/d |
 | Forma | sí | sí | sí |n/d |
