@@ -26,8 +26,6 @@
           href: end-user-license.md
         - name: Información sobre cómo realizar preguntas con lenguaje natural
           href: end-user-q-and-a.md
-        - name: Navegar por la "nueva apariencia"
-          href: service-new-look.md
         - name: 'El nuevo aspecto: ¿Dónde están ahora las acciones?'
           href: service-new-look-where-actions.md
     - name: Procedimientos
@@ -134,7 +132,7 @@
               href: end-user-apps.md
             - name: Instalar y usar aplicaciones
               href: end-user-app-view.md
-            - name: Conectarse a los servicios
+            - name: Conexión a los servicios
               href: ../connect-data/service-connect-to-services.md
             - name: Obtención de una aplicación de ejemplo desde el marketplace de aplicaciones
               href: end-user-app-marketing.md
