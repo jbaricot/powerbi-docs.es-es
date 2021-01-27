@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 01/05/2020
+ms.date: 01/25/2021
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 554cce8c0313ad6624a2991aa09f60c98ff454be
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: 8305d4662da9f4f7b8a5cce2b3badf5e70e88bc5
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969612"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861316"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -174,12 +174,6 @@ Muchos de los parámetros de configuración pueden tener uno de estos tres estad
     ![Opción de habilitar con excepciones](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 Las secciones siguientes proporcionan una visión general de los distintos tipos de configuración de inquilino.
-
-## <a name="tenant-wide-new-look-settings"></a>Configuración del nuevo aspecto para todo el inquilino
-
-Cuando la opción **Nuevo aspecto** está deshabilitada, los usuarios de esta organización pueden activar y desactivar el nuevo aspecto de Power BI. Al habilitar la opción **Nuevo aspecto**, *todos* los usuarios de esta organización ven los controles modernos del nuevo aspecto de Power BI en todo momento. Ya no pueden alternar el nuevo aspecto. La opción Nuevo aspecto está habilitada de forma predeterminada.
-
-:::image type="content" source="media/service-admin-portal/admin-portal-new-look-disable.png" alt-text="Captura de pantalla de la opción Deshabilitar nuevo aspecto en el portal de administración.":::
 
 ## <a name="help-and-support-settings"></a>Configuración de ayuda y soporte técnico
 

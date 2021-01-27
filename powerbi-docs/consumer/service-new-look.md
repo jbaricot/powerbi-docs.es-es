@@ -7,14 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 12/09/2020
+ms.date: 01/25/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 5e357b275cd6648721b021f68a9b8496e266e003
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ROBOTS: NOINDEX
+ms.openlocfilehash: 5de13f991e5439cf25bf8c00dc260fccc4918318
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999103"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780783"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Nuevo aspecto del servicio Power BI
 
@@ -70,5 +71,4 @@ Los paneles también tienen una barra de acciones simplificada. Es igual que los
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [Uso de la cinta actualizada en Power BI Desktop](../create-reports/desktop-ribbon.md)
-- [Activación del "nuevo aspecto" de las áreas de trabajo](../collaborate-share/service-workspaces-new-look.md)
 - [Power BI para consumidores](end-user-consumer.md)

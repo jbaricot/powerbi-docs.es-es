@@ -11,12 +11,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/14/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 8da3446814d2c356acb24100eaa03df23be8f567
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d61ed128827572198e24bb8f31e190f328e273ff
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416793"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687593"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceptos básicos para los diseñadores en el servicio Power BI
 
@@ -218,7 +218,7 @@ Preguntas y respuestas busca una respuesta en los conjuntos de datos conectados 
 Tan pronto como empieza a escribir la pregunta, Preguntas y respuestas lo dirige a la página de Preguntas y respuestas. A medida que escribe, Preguntas y respuestas le ayuda a formular la pregunta correcta y a encontrar la mejor respuesta a través de sus funciones para reformular, autorellenar, hacer sugerencias y mucho más. Cuando tenga una visualización (respuesta) satisfactoria, la puede anclar al panel. Para más información, consulte [Preguntas y respuestas en Power BI](../consumer/end-user-q-and-a.md).
 
 ### <a name="4-icons-in-the-black-header-bar"></a>4. **Iconos en la barra de encabezado negra**
-Los iconos en la esquina superior derecha dan acceso al equipo de Power BI a las opciones de configuración, notificaciones, descargas, ayuda, activación o desactivación del **Nuevo aspecto** y aportación de comentarios.  
+Los iconos en la esquina superior derecha son los recursos para las configuraciones, notificaciones, descargas, obtener ayuda y proporcionar comentarios al equipo de Power BI.  
 
 ![Captura de pantalla del servicio Power BI en la que se muestran los botones de icono.](media/service-basic-concepts/power-bi-icons.png)
 

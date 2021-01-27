@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: e7100be7890673cecc77a8a1147a25a942fc4666
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
+ms.openlocfilehash: 06a2dff78cc2367afb153111e080e29a16fc82ab
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597617"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98686991"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 
@@ -129,9 +129,9 @@ Incluiremos el trimestre de disponibilidad estimada si hay una versión prevista
 |[Inserción en SharePoint Online mediante el elemento web de Power BI](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![disponible](../media/yes.png)|![disponible](../media/yes.png)|![no disponible](../media/no.png)|
 |[Protección de datos (etiquetas MIP)](service-security-sensitivity-label-overview.md)|![disponible](../media/yes.png)|![disponible](../media/yes.png) |1T de 2021|
 |[Flujos de datos: consulta directa](../transform-model/dataflows/dataflows-configure-consume.md) | ![disponible](../media/yes.png) |![disponible](../media/yes.png)|No planeado |
+|[Flujos de datos: optimización del motor de proceso de SQL](../transform-model/dataflows/dataflows-premium-features.md) | ![disponible](../media/yes.png) |![disponible](../media/yes.png)|No planeado |
 |[Pestaña de Power BI en Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>3</sup>|![disponible](../media/yes.png)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|
 |[Modelos grandes](service-premium-large-models.md) | 1T de 2021 |1T de 2021| No planeado |
-|[Flujos de datos: optimización del motor de proceso de SQL](../transform-model/dataflows/dataflows-premium-features.md) | ![no disponible](../media/no.png) |![no disponible](../media/no.png)| ![no disponible](../media/no.png) |
 |[Conector de datos de calidad de las llamadas](/microsoftteams/cqd-power-bi-connector)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|
 |[Traiga su propio almacenamiento (Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|![no disponible](../media/no.png)|
 
