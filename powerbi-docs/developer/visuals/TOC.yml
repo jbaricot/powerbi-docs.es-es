@@ -12,7 +12,7 @@
       items:
         - name: 'Tutorial: Desarrollo de objetos visuales de tarjetas de círculo'
           href: develop-circle-card.md
-        - name: Creación de objetos visuales basados en React
+        - name: "Tutorial: Creación de un objeto visual de Power\_BI mediante React"
           href: create-react-visual.md
         - name: Creación de un gráfico de barras
           href: create-bar-chart.md

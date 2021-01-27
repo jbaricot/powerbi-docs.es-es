@@ -1,5 +1,5 @@
 ### YamlMime:Hub
-title: Documentación para desarrolladores sobre cómo obtener mejores conclusiones insertadas de BI en los análisis insertados de Power BI
+title: Documentación para desarrolladores de Power BI
 summary: Como desarrollador de Power BI, puede insertar contenido de Power BI, desarrollar un objeto visual de Power BI y automatizar procesos de Power BI.
 brand: power-bi
 metadata:
@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 701f9e5e02d8b8cb8d019deebd9ae226560e07df
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+  ms.openlocfilehash: 51bd353206d605cd0627e10e226d0950adf8de0f
+  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97885692"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "98781461"
 highlightedContent:
   items:
   - title: Análisis integrado con Power BI
@@ -30,6 +30,9 @@ highlightedContent:
   - title: Objetos visuales en Power BI
     itemType: overview
     url: visuals/power-bi-custom-visuals.md
+  - title: API de cliente de análisis insertados de Power BI
+    itemType: whats-new
+    url: /javascript/api/overview/powerbi/
   - title: Configuración automatizada de aplicaciones de plantilla
     itemType: concept
     url: template-apps/template-apps-auto-install.md
@@ -105,6 +108,6 @@ additionalContent:
     - title: Área de juegos
       summary: Pruebe las características y explore las API.
       url: https://aka.ms/pbieplayground
-    - title: Wiki de JavaScript
-      summary: Explore la base de conocimiento de JavaScript.
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
+    - title: API de cliente de análisis insertados de Power BI
+      summary: Explore las API de cliente de análisis insertados de Power BI.
+      url: /javascript/api/overview/powerbi/

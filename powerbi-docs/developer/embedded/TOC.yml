@@ -110,11 +110,11 @@
           href: 'https://aka.ms/embedsetup'
         - name: Ejemplo de área de juegos de JavaScript
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Wiki de Power BI JavaScript
-          href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+        - name: "API de cliente de análisis insertados de Power\_BI"
+          href: /javascript/api/overview/powerbi/
         - name: Scripts y ejemplos para desarrolladores
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
         - name: Comunidad de Power BI
           href: 'https://go.microsoft.com/fwlink/?linkid=848280'
         - name: Stack Overflow
-          href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+          href: 'https://go.microsoft.com/fwlink/?linkid=2153505'
