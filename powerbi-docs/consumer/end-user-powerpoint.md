@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: df0591e7ae934ffa945e0e780b2764c7170358f1
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
+ms.openlocfilehash: 6001cbd1b503084012b358c4dabf7db27405b9c4
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98227040"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718632"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportación de informes a PowerPoint
 
@@ -37,8 +37,6 @@ También puede copiar un solo objeto visual cada vez desde el servicio Power BI
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Exportación del informe de Power BI a PowerPoint
 En el **servicio Power BI**, seleccione un informe para mostrarlo en el lienzo. También puede seleccionar un informe de **Inicio**, **Aplicaciones** o de cualquier otro contenedor del panel de navegación.
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Cuando el informe que quiere exportar a PowerPoint aparezca en el lienzo, seleccione **Archivo** > **Exportar a PowerPoint** en la barra de menús.
 
@@ -89,9 +87,7 @@ Lo que haga con la presentación de PowerPoint a partir de este punto, o con cua
 Hay algunas consideraciones y limitaciones a tener en cuenta al trabajar con la característica **Exportar a PowerPoint**.
  
 
-* Si no ve la opción **Exportar**, asegúrese de que ha activado "Nuevo aspecto" y de que está viendo un informe (no un panel).
-
-    ![Captura de pantalla del botón de activación/desactivación Nuevo aspecto.](media/end-user-powerpoint/power-bi-new-look.png)
+* Si no ve la opción **Exportar**, asegúrese de que está viendo un informe (no un panel).
 
 * Actualmente no se respetan los [filtros de las direcciones URL](../collaborate-share/service-url-filters.md) al elegir **Valores actuales** para la exportación.
 
@@ -105,7 +101,7 @@ Hay algunas consideraciones y limitaciones a tener en cuenta al trabajar con la 
 
 * Algunos informes no se pueden exportar. Estas incluyen:
     - Si se comparte un panel con alguien de fuera de su organización y, por lo tanto, con un usuario que no está en su inquilino de Power BI, ese usuario no podrá exportar a PowerPoint los informes asociados del panel compartido. Por ejemplo, si es aaron@contoso.com, puede compartir con david@cohowinery.com. Pero david@cohowinery.com no puede exportar los informes asociados a PowerPoint.
-    - Informes con más de 50 páginas.
+    - Informes con más de 50 páginas. Los informes paginados no tienen esta limitación. Vea [Imprimir un informe paginado](end-user-paginated-report.md#interact-with-a-paginated-report) para obtener más información.
     - Informes con más de 500 MB al exportar. 
     - Los informes exportados a versiones anteriores de PowerPoint.
     - Los informes que tardan más de una hora en procesarse. 

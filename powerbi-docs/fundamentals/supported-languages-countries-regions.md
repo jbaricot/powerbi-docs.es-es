@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 04/23/2020
+ms.date: 01/25/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 9bd968676e2e9413c0d366cc22980e0a6355e4f9
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 723debee411f6c2198e750fe6cb319f90e469174
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96395035"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861199"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas y países o regiones admitidos para Power BI
 
@@ -71,6 +71,9 @@ El servicio Power BI (en el explorador) está disponible en los siguientes 44 id
 * Ucraniano - українська
 * Vietnamita - Tiếng Việt
 
+## <a name="languages-for-power-bi-desktop"></a>Idiomas para Power BI Desktop
+Power BI Desktop está disponible en los mismos idiomas que el servicio Power BI, excepto en hebreo y árabe. Desktop no admite idiomas que se escriben de derecha a izquierda.
+
 ### <a name="whats-translated"></a>Qué se traduce
 Power BI traduce los menús, botones, mensajes y otros elementos de la experiencia a su idioma. Por ejemplo, Power BI traduce el contenido del informe, como la información sobre herramientas, los filtros y los títulos generados automáticamente. Pero los datos no se traducen automáticamente. Dentro de los informes, el diseño de los objetos visuales no cambia si usa un idioma de derecha a izquierda como el hebreo.
 
@@ -81,43 +84,42 @@ En este momento, algunas características solo están disponibles en inglés:
 
 Permanezca atento mientras seguimos trabajando para incorporar más características en otros idiomas. 
 
+
 ### <a name="choose-your-language-in-the-power-bi-service"></a>Elegir el idioma en el servicio Power BI
 1. En el servicio Power BI, seleccione el icono **Configuración** ![Captura de pantalla del servicio Power BI con el icono Configuración.](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Configuración**.
-2. En la ficha **General** > **Idioma**.
-3. Seleccione su idioma > **Aplicar**.
+2. En la pestaña **General**, seleccione **Idioma**.
+3. Use el idioma preestablecido para el explorador o seleccione un idioma independiente para el servicio Power BI.  
 
 ### <a name="choose-your-language-in-the-browser"></a>Elegir el idioma en el explorador
-Power BI detecta el idioma según las preferencias de idioma del equipo. La forma de acceder a estas preferencias y cambiarlas puede variar según el sistema operativo y el explorador. Aquí se muestra cómo acceder a estas preferencias en Internet Explorer y Google Chrome.
+Power BI detecta el idioma según las preferencias de idioma del equipo. La forma de acceder a estas preferencias y cambiarlas puede variar según el sistema operativo y el explorador. Aquí se muestra cómo acceder a estas preferencias en Microsoft Edge y Google Chrome.
 
-#### <a name="internet-explorer-version-11"></a>Internet Explorer (versión 11)
-1. Haga clic en el botón **Herramientas** en la esquina superior derecha de la ventana del explorador:
-   
-   ![Captura de pantalla de Internet Explorer en la que se muestra el botón Herramientas.](media/supported-languages-countries-regions/languages1.png)
-2. Haga clic en **Opciones de Internet**.
-3. En el cuadro de diálogo Opciones de Internet, en la pestaña General, en Apariencia, haga clic en el botón **Idiomas** .
+#### <a name="microsoft-edge"></a>Microsoft Edge
+1. Seleccione los puntos suspensivos (...) **Configuración y más** en la esquina superior derecha de la ventana del explorador y elija **Configuración**.    
+    ![Captura de pantalla de Edge donde se muestra el icono Configuración y más](media/supported-languages-countries-regions/power-bi-setting-icon.png).
 
-#### <a name="google-chrome-version-42"></a>Google Chrome (versión 42)
-1. Haga clic en el botón de menú en la esquina superior derecha de la ventana del explorador:
+1. Seleccione el icono **Configuración** en la esquina superior izquierda de la ventana del explorador y elija **Idiomas**.
    
-   ![Captura de pantalla de Google Chrome en la que se muestra el botón Menú.](media/supported-languages-countries-regions/languages2.png)
-2. Haga clic en **Configuración**.
-3. Haga clic en **Mostrar configuración avanzada**.
-4. En Idiomas, haga clic en el botón **Configuración de idioma y entrada** .
-5. Haga clic en **Agregar**, seleccione un idioma y haga clic en **Aceptar**.
+   ![Captura de pantalla de Edge donde se muestra el botón Configuración.](media/supported-languages-countries-regions/power-bi-languages.png)
+
+1. Seleccione su idioma preferido.
+
+#### <a name="google-chrome-version-87"></a>Google Chrome (versión 87)
+1. Seleccione el botón de menú en la esquina superior derecha de la ventana del explorador y elija **Configuración**.
    
-   ![Captura de pantalla de Google Chrome en la que se muestra la lista de idiomas.](media/supported-languages-countries-regions/pbi_langs_enus.png)
-   
-   El nuevo idioma está al final de la lista. 
-6. Arrastre el nuevo idioma a la parte superior de la lista y haga clic en **Mostrar Google Chrome en este idioma**.
-   
-   ![Captura de pantalla de Google Chrome en la que se muestra el idioma para mostrar.](media/supported-languages-countries-regions/pbi_langs_eses.png)
+   ![Captura de pantalla de Google Chrome en la que se muestra el botón Menú.](media/supported-languages-countries-regions/power-bi-chrome.png)
+ 
+3. Expanda **Configuración avanzada** y elija **Idiomas**.
+
+    ![Captura de pantalla de Google Chrome en la que se muestra la configuración de idiomas.](media/supported-languages-countries-regions/power-bi-chrome-settings.png)
+
+4. Para agregar un nuevo idioma, seleccione **Agregar idiomas**.
    
    Debe cerrar y volver a abrir el explorador para ver el cambio.
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>Elegir el idioma o la configuración regional de Power BI Desktop
-Tiene dos maneras de obtener Power BI Desktop: puede descargarlo como un instalador independiente o instalarlo desde la Tienda Windows.
+Tiene dos maneras de obtener Power BI Desktop: puede descargarlo como un instalador independiente o instalarlo desde la Tienda Windows. 
 
-* Cuando se instala Power BI Desktop desde la Tienda Windows, se instalan todos los idiomas y, de forma predeterminada, se mostrará el idioma que se corresponde con el idioma predeterminado de Windows.
+* Cuando se instala Power BI Desktop desde la Tienda Windows, se instalan todos los idiomas (actualmente, un total de 42) y, de forma predeterminada, se mostrará el idioma que se corresponde con el idioma predeterminado de Windows.
 * Al descargar Power BI Desktop como un instalador independiente, se puede elegir el idioma predeterminado cuando se ejecuta el instalador. Puede cambiarlo más adelante.
 * También puede [elegir la configuración regional que se utilizará al importar datos](#choose-the-locale-for-importing-data-into-power-bi-desktop) para un informe específico.
 
@@ -126,21 +128,11 @@ Tiene dos maneras de obtener Power BI Desktop: puede descargarlo como un instala
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Elección de un idioma para Power BI Desktop 
 1. Instale Power BI Desktop [desde la Tienda Windows](https://aka.ms/pbidesktopstore) o como un [instalador independiente](https://aka.ms/pbiSingleInstaller).
-2. Para cambiar el idioma, en el menú de Windows, seleccione **Configuración**.
+2. Para cambiar el idioma, abra Desktop y, en la esquina superior izquierda, seleccione **Archivo** > **Opciones y configuración** > **Opciones**.    
 
-3. En **Configuración de Windows**, seleccione **Hora e idioma**.
-   
-     ![Captura de pantalla de Power BI Desktop en la que se muestra el cuadro de diálogo Configuración de Windows.](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
-4. Seleccione **Idioma** y elija un idioma. Seleccione **Agregar un idioma para mostrar de Windows en Microsoft Store** si es necesario.
-   
-     ![Captura de pantalla de Power BI Desktop en la que se muestra el cuadro de diálogo de configuración de idioma de Windows.](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
-   
-     La próxima vez que inicie Power BI Desktop usará el idioma que se establezca como predeterminado. 
+   ![Captura de pantalla de Power BI Desktop en la que se muestra el botón Opciones.](media/supported-languages-countries-regions/power-bi-desktop-options.png)    
 
-Para reemplazar el idioma predeterminado y usar Power BI Desktop en un idioma distinto del idioma de Windows, siga este procedimiento.
-1. En Power BI Desktop, vaya a **Archivo** > **Opciones y configuración** > **Opciones**.
-2. En **Configuración global**, seleccione **Configuración regional**.
-3. En el cuadro **Idioma de la aplicación**, seleccione otra configuración regional. 
+1. Seleccione **Configuración regional** y establezca o cambie las preferencias de idioma.
 
 La compatibilidad de idioma en Power BI Desktop está limitada a los idiomas que se muestran en el menú desplegable Idioma de la aplicación.
 
@@ -154,7 +146,7 @@ Power BI Desktop obtiene el número y el formato de fecha predeterminados de la 
    
      ![Captura de pantalla de Power BI Desktop en la que se muestra el cuadro de diálogo Configuración de Windows.](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
 
-3. Seleccione **Región** > **Opciones adicionales de fecha, hora y configuración regional**.
+3. Seleccione **Región** > **Opciones adicionales de fecha, hora y configuración regional**. Si no ve esta opción, seleccione **Cambiar formatos de datos** y, después, **Configuración relacionada**.
 
     :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-region-settings.png" alt-text="Opciones adicionales de fecha, hora y configuración regional":::
 

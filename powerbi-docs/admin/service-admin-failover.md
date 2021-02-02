@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: 9ed9b42a42e497eaa332b3b1eb93be6247ddc542
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
+ms.openlocfilehash: 09e215dbb32dcb93b2ae8ca51953eb636e1aad81
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961233"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718494"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>P+F sobre alta disponibilidad, conmutación por error y recuperación ante desastres en Power BI
 
@@ -23,6 +23,10 @@ En este artículo se describe cómo el servicio Power BI ofrece alta disponibili
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>¿Qué significa "alta disponibilidad" para Power BI?
 
 Power BI es software como servicio (SaaS) totalmente administrado.  Microsoft lo diseña y hace funcionar para que sea resistente a los errores de infraestructura de modo que los usuarios siempre puedan acceder a sus informes.  El servicio está respaldado por un [SLA del 99,9 %](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37).
+
+Power BI usa **Azure Availability Zones** para proteger los datos, las aplicaciones y los informes de Power BI frente a errores del centro de datos, y se aplica y usa automáticamente para Power BI. Availability Zones consta de ubicaciones aisladas de errores en una región de Azure, lo que proporciona tres o más ubicaciones distintas y únicas dentro de una región de Azure que cuentan con alimentación, refrigeración y redes redundantes. Availability Zones permite que los clientes de Power BI ejecuten aplicaciones críticas con mayor disponibilidad y tolerancia a errores de los centros de datos. Availability Zones ofrece a los clientes la capacidad de soportar los errores del centro de datos gracias a la redundancia y el aislamiento lógico de los servicios. 
+
+Para más información sobre **Availability Zones**, vea el artículo siguiente, que incluye detalles sobre las [Regiones y Availability Zones en Azure](https://docs.microsoft.com/azure/availability-zones/az-overview).
 
 ## <a name="what-is-a-power-bi-failover"></a>¿Qué es la conmutación por error de Power BI?
 

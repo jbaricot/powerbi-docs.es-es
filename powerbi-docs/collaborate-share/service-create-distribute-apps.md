@@ -8,12 +8,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 981b4aa0f9e8bb12e4231476d27b8f58152ff3fd
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
+ms.openlocfilehash: 77f206ef59a4aa082e04053d28567480f4d01bb0
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110921"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687281"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicación de una aplicación en Power BI
 
@@ -207,7 +207,7 @@ Aspectos que hay que tener en cuenta sobre la publicación de aplicaciones:
 * La página Permisos no cambia el permiso para los conjuntos de datos de otras áreas de trabajo. Verá una advertencia en la que se le recuerda que conceda acceso a esos conjuntos de datos de forma independiente. Un procedimiento recomendado es ponerse en contacto con el propietario del conjunto de datos antes de empezar a compilar la aplicación para asegurarse de que es correcto conceder a todos los usuarios de la aplicación acceso a esos conjuntos de datos. 
 * Puede tener como máximo 100 usuarios o grupos en la lista de acceso de la aplicación. Sin embargo, puede conceder acceso a la aplicación a más de 100 usuarios. Para ello, use uno o varios grupos de usuarios que contengan todos los usuarios que se quieran.
 * Para la nueva experiencia de área de trabajo, si el usuario agregado a la lista de acceso de la aplicación ya tiene acceso a dicha aplicación a través del área de trabajo, no se mostrará en la lista de acceso de esta.  
-* Cuando se usa el nuevo aspecto del servicio Power BI, la dirección URL del sitio de soporte se muestra en la tarjeta de información del elemento. Obtenga más información sobre el ["nuevo aspecto" en Power BI](../consumer/service-new-look.md).
+* La dirección URL del sitio de soporte técnico se muestra en la tarjeta de información del elemento.
 * Las aplicaciones tienen una opción para permitir a los usuarios compartir la aplicación y sus conjuntos de datos subyacentes mediante el permiso de uso compartido. En el caso de las aplicaciones nuevas, esta opción está desactivada de forma predeterminada. Se recomienda desactivar esta opción para las aplicaciones existentes y actualizar el permiso en los conjuntos de datos subyacentes. La opción se ha habilitado para las aplicaciones existentes porque inicialmente se diseñaron para reemplazar los paquetes de contenido, que tenían este comportamiento.
 * Las aplicaciones pueden tener un máximo de 200 paneles. 
 

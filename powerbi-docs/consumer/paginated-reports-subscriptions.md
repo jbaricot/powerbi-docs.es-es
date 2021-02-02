@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 01/04/2021
-ms.openlocfilehash: 67efe0e7abd23792f46561f78b0b048b431561a4
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/22/2021
+ms.openlocfilehash: 88293bbfc39f75472422e6785099421efcd45802
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888015"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718540"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes paginados en el servicio Power BI 
 
@@ -22,6 +22,8 @@ Ahora puede configurar suscripciones de correo electrónico para usted y otros u
 En la configuración de las suscripciones, elija la frecuencia con la que quiere recibir los correos electrónicos: diaria, semanal, mensual o cada hora. También puede elegir las horas a las que quiere que se ejecute la suscripción. No hay ningún límite en cuanto al número de suscripciones que se pueden configurar para cada informe. 
 
 ## <a name="considerations-for-paginated-report-subscriptions"></a>Consideraciones sobre las suscripciones a informes paginados 
+
+- No necesita permisos de edición en el informe paginado para crear una suscripción personal, pero sí debe tenerlos para crear una para otro usuario. Si tiene al menos un rol Colaborador en el área de trabajo donde se encuentra el informe paginado, puede crear suscripciones para otros usuarios. Obtenga más información sobre los [roles en las áreas de trabajo](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces).
 
 - A diferencia de las suscripciones a paneles o informes de Power BI, la suscripción contiene datos adjuntos de la salida completa del informe.  Se admiten los siguientes tipos de datos adjuntos: PDF, presentación de PowerPoint (PPTX), libro de Excel (XLSX), documento de Word (DOCX), archivo CSV y XML.
 

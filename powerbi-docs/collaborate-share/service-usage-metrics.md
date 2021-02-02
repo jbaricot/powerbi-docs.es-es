@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 01/15/2021
+ms.date: 01/26/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: acb1a1550c0ab216e4934e99f871df9321561314
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: 2710143ddd0474e38e7c0c1e6f82ba9c3d1fbba3
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565427"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861247"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>Supervisión de métricas de uso en áreas de trabajo clásicas
 
@@ -157,12 +157,12 @@ Es importante comprender qué diferencias pueden producirse al comparar métrica
 
 * En ocasiones, las métricas de uso pueden no contar actividades debido a conexiones de red desiguales, bloqueadores de anuncios y otros problemas que pueden interrumpir el envío de los eventos desde el cliente.
 * Ciertos tipos de vistas no se incluyen en las métricas de uso, como se ha descrito anteriormente en este artículo.
-* En ocasiones, las métricas de uso pueden no contar actividades en situaciones en las que el cliente se actualiza sin necesidad de devolver una solicitud al servicio Power BI.
+* En ocasiones, las métricas de uso pueden no contar actividades en situaciones en las que el cliente se actualiza sin necesidad de devolver una solicitud al servicio Power BI. Por ejemplo, al cambiar las páginas del informe no se emite una solicitud de carga de un informe en el servidor, ya que la definición de la página ya está en el explorador.
 * El uso compartido está deshabilitado para el informe de métricas de uso. Para proporcionar a los usuarios acceso de lectura al informe, primero debe concederles acceso al área de trabajo.
 
 ### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>Discrepancias entre las API REST y las métricas de uso
 
-Las [API REST de informes](/rest/api/power-bi/reports) y las [API REST de administración](/rest/api/power-bi/admin) de Power BI también usan los datos del servicio Power BI. Por las razones descritas en la sección anterior, los recuentos de informes (el número de informes) de las API pueden diferir de los recuentos de informes de las métricas de uso. Los problemas de los clientes no afectan a los recuentos de informes derivados de las API, de modo que deben considerarse precisos.
+Las [API REST de informes](/rest/api/power-bi/reports) y las [API REST de administración](/rest/api/power-bi/admin) de Power BI también usan los datos del servicio Power BI. Por las razones descritas en la sección anterior, los recuentos de informes (el número de informes) de las API pueden diferir de los recuentos de informes de las métricas de uso. Los problemas de los clientes no afectan a los recuentos de informes derivados de las API, de modo que deben considerarse precisos. Tenga en cuenta también que las API de administración proporcionan el "estado actual" de la implementación de Power BI y solo consideran lo que existe en el momento de la solicitud. El informe de métricas de uso clásico tiene 90 días de datos, y el "recuento total" representa informes únicos que se ven a lo largo de 90 días. Si los informes se eliminan después de que se vean, las API de administración no los cuentan, pero se contarán en los datos históricos que alimentan el informe de uso.
 
 ### <a name="classic-usage-metrics-are-not-supported-with-private-links"></a>Las métricas de uso clásico no se admiten con vínculos privados 
 

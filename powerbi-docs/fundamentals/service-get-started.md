@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: tutorial
-ms.date: 07/08/2020
+ms.date: 01/13/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 4e74bec243faad281c457caaa15a6edacf2b10cb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 04777ba93b6a4639b55406b3952a80de963cb540
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417138"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861224"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Tutorial: Introducción a la creación en el servicio Power BI
 Este tutorial es una introducción a algunas de las características del *servicio Power BI*. En este servicio se conecta a los datos, se crea un informe y un panel y se formulan preguntas de los datos. Puede hacer mucho más en el servicio Power BI; este tutorial es solo para abrir boca. Para entender cómo encaja el servicio Power BI con otras ofertas de Power BI, es recomendable leer primero [¿Qué es Power BI?](power-bi-overview.md).
@@ -40,7 +40,7 @@ Para crear contenido en Power BI, hace falta una licencia de Power BI Pro. Si 
 
 ## <a name="step-1-get-data"></a>Paso 1: Obtener datos
 
-A menudo, cuando quiere crear un informe de Power BI, empieza en Power BI Desktop. Power BI Desktop ofrece más posibilidades. Puede transformar y modelar los datos, así como darles forma, antes de empezar a diseñar el informe. Aunque, esta vez, vamos a empezar desde cero creando un informe en el servicio Power BI.
+A menudo, cuando quiere crear un informe de Power BI, empieza en Power BI Desktop. Power BI Desktop ofrece más posibilidades. Puede transformar y modelar los datos, así como darles forma, antes de empezar a diseñar los informes. Aunque, esta vez, vamos a empezar desde cero creando un informe en el servicio Power BI.
 
 En este tutorial, obtenemos datos de un archivo sencillo de Microsoft Excel. ¿Desea seguir adelante? [Descarga del archivo de ejemplo financiero](https://go.microsoft.com/fwlink/?LinkID=521962).
 
@@ -223,6 +223,8 @@ Ahora que ya hemos finalizado el tutorial, podemos eliminar el conjunto de datos
 4. Seleccione **Eliminar**.
 
 ## <a name="next-steps"></a>Pasos siguientes
+
+[Creación rápida de un informe pegando los datos en el servicio Power BI](https://powerbi.microsoft.com/en-us/blog/quickly-create-reports-power-bi-service/)
 
 Explore estas colecciones de contenido de Microsoft Learn para Power BI:
 

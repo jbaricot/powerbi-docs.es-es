@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 12/07/2020
-ms.openlocfilehash: 4368230812d90031d1f7cf83d426fc1508382412
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.date: 01/21/2021
+ms.openlocfilehash: abb91ef54167f4a7d50f2dc36e23b2fc5833a65d
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781943"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687474"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Orígenes de datos admitidos para informes paginados de Power BI
 
@@ -31,7 +31,7 @@ Los informes paginados admiten de forma nativa la siguiente lista de orígenes d
 | Instancia administrada de Azure SQL | Básico | A través de un punto de conexión público o privado (el privado debe enrutarse a través de Enterprise Gateway)  |
 | Azure Analysis Services | SSO, OAuth2 | El firewall de AAS debe estar deshabilitado o configurado para permitir todos los intervalos IP en la región BlackForest. Esto solo se aplica en la región BlackForest.  El inicio de sesión único no es compatible con el inquilino externo. |
 | Conjunto de datos de Power BI | SSO | Conjuntos de datos de Power BI Premium y no Premium. Se requiere permiso de lectura. Solo se admiten el modo de importación y los conjuntos de datos de Power BI de DirectQuery. |
-| Conjunto de datos de Power BI Premium (XMLA) | SSO | Los conjuntos de datos de Power BI no se admiten como origen de datos para los informes paginados insertados en escenarios en los que la aplicación posee los datos.  Para garantizar la conectividad adecuada en Power BI Report Builder, asegúrese de que la opción "No usar credenciales" está seleccionada al establecer el origen de datos.   |
+| Conjunto de datos de Power BI Premium (XMLA) | SSO | Los conjuntos de datos de Power BI no se admiten como origen de datos para los informes paginados insertados en escenarios en los que la aplicación posee los datos.  Para garantizar la conectividad adecuada en Power BI Report Builder, asegúrese de que la opción **No usar credenciales** está seleccionada al establecer el origen de datos.<br />El acceso a través de XMLA respetará la pertenencia a grupos de seguridad establecida en el nivel de área de trabajo o aplicación.<br />Los usuarios que tengan al menos el [rol Colaborador en un área de trabajo](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) pueden representar informes paginados con conjuntos de datos de Power BI Prémium. Otros usuarios necesitan el [permiso de compilación en los conjunto de datos subyacentes](../connect-data/service-datasets-build-permissions.md).    |
 | Especificar datos | N/D | Los datos se insertan en el informe. |
 
 A excepción de Azure SQL Database, todos los orígenes de datos están listos para usarse después de haber cargado el informe en el servicio Power BI. De forma predeterminada, los orígenes de datos usan el inicio de sesión único (SSO), si procede. Para Azure Analysis Services, puede cambiar el tipo de autenticación a OAuth2. Sin embargo, una vez que se cambia el tipo de autenticación para un origen de datos determinado a OAuth2, no se puede revertir para usar SSO.  Además, este cambio se aplica a todos los informes que usan ese origen de datos en todas las áreas de trabajo de un inquilino determinado.  La seguridad de nivel de fila en los informes paginados no funcionará a menos que los usuarios elijan SSO para el tipo de autenticación.

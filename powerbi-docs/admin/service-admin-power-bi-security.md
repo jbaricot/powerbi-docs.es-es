@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 9019ed9e64bca94a87e2ab9b6febdb7a25055b75
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
+ms.openlocfilehash: b21443fd334e465ca5ced3efd00fe66828367615
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961164"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780930"
 ---
 # <a name="power-bi-security"></a>Seguridad de Power BI
 
@@ -39,7 +39,7 @@ El clúster **back-end** informa de cómo interactúan los clientes autenticados
 
 ## <a name="data-storage-security"></a>Seguridad del almacenamiento de datos
 
-Power BI utiliza dos repositorios principales para almacenar y administrar datos: los datos cargados por los usuarios se envían normalmente a **Azure Blob Storage** y todos los metadatos, así como los artefactos para el propio sistema, se almacenan en **Azure SQL Database**.
+Power BI utiliza dos repositorios principales para almacenar y administrar datos: los datos cargados por los usuarios se envían normalmente a **Azure Blob Storage** y todos los metadatos, así como los artefactos para el propio sistema, se almacenan en **Azure SQL Database**.
 
 La línea de puntos en la imagen del clúster del **back-end** anterior aclara el límite entre los dos únicos componentes a los que los usuarios pueden obtener acceso (a la izquierda de la línea de puntos) y los roles a los que únicamente puede obtener acceso el sistema. Cuando un usuario autenticado se conecta al servicio de Power BI, la conexión y cualquier solicitud del cliente se acepta y administra mediante el rol **Puerta de enlace** (para que lo administre finalmente **Azure API Management**), que luego interactúa en nombre del usuario con el resto del servicio de Power BI. Por ejemplo, cuando un cliente intenta ver un panel, el rol **Puerta de enlace** acepta la solicitud y, a continuación, envía de forma independiente una solicitud al rol **Presentación** para recuperar los datos necesarios para que el explorador muestre el panel.
 

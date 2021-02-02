@@ -7,31 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 01/20/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: b0132996be1ed70f228ce96d413c4925dc1a3e48
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: f68c01e503400b83fe3e0488fdc49e15f55d7067
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512778"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687060"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configuración de compatibilidad con Multi-Geo en Power BI Premium
 
-Multi-Geo es una característica de Power BI Premium que ayuda a que los clientes multinacionales aborden los requisitos de residencia de datos organizacionales, regionales o específicos del sector. Como cliente de Power BI Premium, puede implementar contenido en centros de datos de regiones distintas de la región principal del inquilino de Power BI. Una geoárea (geografía) puede contener más de una región. Por ejemplo, Estados Unidos es una geoárea y Centro-oeste de EE. UU. y Centro-sur de EE. UU. son regiones de Estados Unidos. Puede elegir implementar contenido en cualquiera de las geoáreas siguientes:
+Multi-Geo es una característica de Power BI Premium que ayuda a que los clientes multinacionales aborden los requisitos de residencia de datos organizacionales, regionales o específicos del sector. Como cliente de Power BI Premium, puede implementar contenido en centros de datos de regiones distintas de la región principal del inquilino de Power BI. Una geoárea (geografía) puede contener más de una región. Por ejemplo, Estados Unidos es una geoárea y Centro-oeste de EE. UU. y Centro-sur de EE. UU. son regiones de Estados Unidos. Puede optar por implementar contenido en cualquiera de las siguientes zonas geográficas (geoáreas) definidas en el [mapa de zonas geográficas de Azure](https://azure.microsoft.com/global-infrastructure/geographies/).
 
-- Estados Unidos
-- Canadá
-- Reino Unido
-- Brasil
-- Europa
-- Japón
-- India
-- Asia Pacífico
-- Australia
-- África
+Las nubes soberanas admiten Multi-Geo en todas las regiones que abarcan.
 
-Multi-Geo no está disponible para Power BI Alemania, Power BI China operado por 21Vianet o Power BI para la Administración Pública de Estados Unidos.
+> [!NOTE]
+> En la actualidad, el Norte de China no admite Multi-Geo para las funcionalidades Prémium Gen2.
 
 Multi-Geo ahora está también disponible en Power BI Embedded. Más información en [Compatibilidad de Multi-Geo con Power BI Embedded](../developer/embedded/embedded-multi-geo.md).
 

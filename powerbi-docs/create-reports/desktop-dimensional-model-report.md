@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 01/11/2021
+ms.date: 01/19/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: f5d35d7fc189f055a6f51e493fd313eb31f0564f
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: 03eac7aefdebb31eac353c969db2bf8810173395
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565986"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687380"
 ---
 # <a name="tutorial-from-dimensional-model-to-stunning-report-in-power-bi-desktop"></a>Tutorial: De modelo dimensional a impresionante informe en Power BI Desktop 
 
@@ -64,11 +64,10 @@ Seleccione todas las tablas y luego  **Transformar datos**. Asegúrese de no s
 
 :::image type="content" source="media/desktop-dimensional-model-report/desktop-load-tables.png" alt-text="Carga de tablas en Navegador.":::
 
-Compruebe que los tipos de datos de las columnas coinciden con los de la tabla siguiente. Para realizar cambios, seleccione una consulta y luego una o varias columnas.
+Compruebe que los tipos de datos de las columnas coinciden con los de la tabla siguiente. Para permitir que Power BI detecte tipos de datos automáticamente, seleccione una consulta y, después, seleccione una o varias columnas, siga estos pasos. En la pestaña **Transformar**, seleccione **Detectar tipo de datos**. Para realizar cualquier cambio en el tipo de datos detectado, en la pestaña **Inicio**, seleccione **Tipo de datos** y, luego, el tipo de datos adecuado de la tabla.
 
 :::image type="content" source="media/desktop-dimensional-model-report/power-query-change-data-types.png" alt-text="Comprobación de los tipos de datos de las columnas.":::
 
-En la pestaña **Inicio**, seleccione **Tipo de datos** y, luego, el tipo de datos adecuado de la tabla.
 
 |Consultar  |Columna  |Tipo de datos  |
 |---------|---------|---------|
@@ -330,8 +329,9 @@ A continuación vamos a crear un gráfico de columnas para investigar qué produ
 
 1. Seleccione un área en blanco en la mitad inferior del lienzo del informe. 
 
-1. En el panel Campos, seleccione **Importe de ventas** de **Ventas**, **Categoría de producto** de **Producto** y **Tipo de negocio** de **Revendedor**. 
-
+1. En el panel Campos, seleccione **Importe de ventas** de **Ventas**, **Categoría de producto** de **Producto** y **Tipo de negocio** de **Revendedor**.
+    :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-field-well.png" alt-text="Compruebe que Categoría y Tipo de negocio aparecen como filas y que Importe de ventas está seleccionado como valores":::.
+    
     Power BI crea automáticamente un gráfico de columnas agrupadas. Cambie la visualización a una **matriz**: 
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-change-to-matrix.png" alt-text="Cambio del gráfico de columnas agrupadas a una matriz.":::
@@ -346,7 +346,7 @@ A continuación vamos a crear un gráfico de columnas para investigar qué produ
 
 1. En el panel Formato de la matriz, abra la sección **Formato condicional** y active **Barras de datos**. Seleccione **Controles avanzados** y establezca un color más claro para la barra positiva. Seleccione **Aceptar**. 
 
-1. Aumente el ancho de la columna Importe de ventas para que cubra toda el área. 
+1. Aumente el ancho de la columna Importe de ventas para que cubra toda el área; para ello, arrastre la matriz.
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-add-databars.png" alt-text="Matriz con barras de datos de Importe de ventas.":::
 

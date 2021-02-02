@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 122028b2ac838763318ab5a0c4e6208138d93188
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 8fac168bf4e2d1cb7b386a1e22da99f39b579da8
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887624"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781576"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>¿Qué pueden hacer los desarrolladores con la API de Power BI?
 
@@ -37,8 +37,8 @@ A continuación se indican algunas de las cosas que puede hacer con las API de P
 
 | Herramientas | Description |
 |---------|-------------|
-| [Área de juegos](https://microsoft.github.io/PowerBI-JavaScript/demo) | Descubra un ejemplo completo del uso de las API de JavaScript para Power BI. Esta herramienta es también una forma rápida de reproducir diferentes tipos de ejemplos de Power BI Embedded. |
-| [Wiki de JavaScript para Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Para obtener más información sobre las API de JavaScript para Power BI. |
+| [Área de juegos](https://microsoft.github.io/PowerBI-JavaScript/demo) | Descubra un ejemplo completo del uso de las API de cliente de análisis integrados de Power BI. Esta herramienta es también una forma rápida de reproducir diferentes tipos de ejemplos de Power BI Embedded. |
+| [API de cliente de análisis integrados de Power BI](/javascript/api/overview/powerbi/) | Para obtener más información sobre las API de cliente de Power BI. |
 | [Postman](https://www.getpostman.com/) | Ejecute solicitudes, pruebe, depure, supervise, realice pruebas automatizadas y mucho más. |
 
 ## <a name="push-data-into-power-bi"></a>Insertar datos en Power BI
@@ -51,7 +51,7 @@ Puede usar la API de Power BI para [insertar datos en un conjunto de datos](wal
 
 * [Power BI developer samples](https://github.com/Microsoft/PowerBI-Developer-Samples) (Ejemplos de desarrolladores de Power BI)
 * [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
-* [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
+* [API de cliente de análisis integrados de Power BI](/javascript/api/overview/powerbi/)
 
 ## <a name="next-steps"></a>Pasos siguientes
 

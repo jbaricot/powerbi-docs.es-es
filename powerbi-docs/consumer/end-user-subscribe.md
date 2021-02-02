@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/13/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: df2083effaec83639d5c14cd62d81ee4b44ffcd7
-ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
+ms.openlocfilehash: 9f02d3785c5a74c1f2658c3c00fb16c076558213
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98191622"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718609"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Suscripción a un informe o panel en el servicio Power BI 
 
@@ -36,7 +36,9 @@ Cuando reciba el correo electrónico, incluye un vínculo para "ir al informe o 
 ## <a name="requirements"></a>Requisitos
 **Crear** una suscripción para usted mismo requiere una [licencia](end-user-license.md) de *Power BI Pro* o *Premium por usuario*. También puede crear una suscripción para usted mismo si el informe o el panel se encuentra en un área de trabajo Premium y se le ha concedido acceso a esa área de trabajo. Si no puede crear una suscripción, póngase en contacto con el administrador de Power BI o con el soporte técnico de TI. 
 
-La **suscripción de otros usuarios** solo está disponible para los propietarios del panel o del informe que tengan una licencia de *Power BI Pro*. La suscripción a informes paginados varía un poco. Para obtener más información, consulte [Suscripción personal y de otros usuarios a un informe paginado en el servicio Power BI](paginated-reports-subscriptions.md). 
+La **suscripción de otros usuarios** solo está disponible para los propietarios del panel o del informe que tengan una licencia de *Power BI Pro*.
+
+La **suscripción a informes paginados** varía un poco. Vea [Suscripción a un informe paginado en el servicio Power BI](paginated-reports-subscriptions.md). 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Suscribirse a un panel o una página de informe
 El proceso para suscribirse a un panel y a un informe es similar. El mismo botón permite suscribirse a los paneles e informes del servicio Power BI.

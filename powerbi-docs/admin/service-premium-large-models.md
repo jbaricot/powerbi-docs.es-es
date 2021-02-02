@@ -7,25 +7,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/10/2020
+ms.date: 01/21/2021
 ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 7256e17f561aa79d63b7fefd268df560903de6b2
-ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
+ms.openlocfilehash: 4fd953eac998e954579af83f2acec975f66e7436
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97353114"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687037"
 ---
 # <a name="large-datasets-in-power-bi-premium"></a>Conjuntos de datos grandes en Power BI Premium
 
-Los conjuntos de datos de Power BI pueden almacenar datos en una memoria caché en memoria muy comprimida para optimizar el rendimiento de las consultas, a fin de permitir una rápida interactividad del usuario. Gracias a las capacidades Premium, se pueden habilitar conjuntos de datos grandes que superen el límite predeterminado de 10 GB por medio de la opción **Formato de almacenamiento de conjunto de datos de gran tamaño**. Si esta opción está habilitada, el tamaño de los conjuntos de datos estará limitado por el tamaño de la *capacidad* prémium o por el tamaño máximo establecido por el administrador.
+Los conjuntos de datos de Power BI pueden almacenar datos en una memoria caché en memoria muy comprimida para optimizar el rendimiento de las consultas, a fin de permitir una rápida interactividad del usuario. Gracias a las capacidades Prémium, se pueden habilitar conjuntos de datos grandes que superen el límite predeterminado por medio de la opción **Formato de almacenamiento de conjunto de datos de gran tamaño**. Si esta opción está habilitada, el tamaño de los conjuntos de datos estará limitado por el tamaño de la *capacidad* prémium o por el tamaño máximo establecido por el administrador.
 
 Los conjuntos de datos grandes se pueden habilitar para todas las SKU P de la versión Premium y las SKU A de la versión Embedded. El límite de tamaño de los conjuntos de datos grandes en Premium es comparable al de Azure Analysis Services en cuanto a la limitación del tamaño del modelo de datos.
 
 Aunque es necesario que los conjuntos de datos tengan más de 10 GB, habilitar la opción Formato de almacenamiento de conjunto de datos de gran tamaño reporta más ventajas. Si tiene previsto usar herramientas basadas en puntos de conexión XMLA para realizar operaciones de escritura en el conjunto de datos, procure habilitar esta opción, incluso en el caso de aquellos conjuntos de datos que no se caractericen necesariamente por ser un conjunto de datos *grande*. Si se habilita, el formato de almacenamiento de conjuntos de datos grandes puede mejorar el rendimiento de las operaciones de escritura de XMLA.
 
-Los conjuntos de datos grandes del servicio no afectan al tamaño de carga de modelos de Power BI Desktop, que sigue estando restringido a 10 GB. En su lugar, los conjuntos de datos pueden crecer más de 10 GB en el servicio al actualizarse.
+Los conjuntos de datos grandes del servicio no afectan al tamaño de carga de modelos de Power BI Desktop, que sigue estando restringido a 10 GB. En su lugar, los conjuntos de datos pueden superar dicho límite en el servicio al actualizarse.
+
+> [!IMPORTANT]
+> Power BI Prémium no admite conjunto de datos grandes. Habilite la opción **Formato de almacenamiento de conjunto de datos de gran tamaño** para usar conjuntos de datos en Power BI Prémium con un tamaño superior al límite predeterminado. 
+
 
 ## <a name="enable-large-datasets"></a>Habilitar conjuntos de datos grandes
 

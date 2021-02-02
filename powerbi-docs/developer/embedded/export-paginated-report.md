@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 42f110356c891235d17810dbb1f220f0a006c066
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: befb64ec85c02f8993d828202df06aafc5901482
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887095"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781532"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Exportación de un informe paginado a un archivo (versión preliminar)
 
@@ -122,6 +122,42 @@ Este es un ejemplo para proporcionar un nombre de usuario efectivo para RLS.
       }
 }
 ```
+
+### <a name="single-sign-on-sql-and-dataverse-sso"></a>Inicio de sesión único en SQL y Dataverse (SSO)
+
+En Power BI, tiene la opción de establecer OAuth con SSO. Al hacerlo, las credenciales del usuario que consulta el informe se usan para recuperar los datos. El token de acceso del encabezado de solicitud no se utiliza para acceder a los datos; el token debe pasarse con la identidad efectiva en el cuerpo de la publicación.
+
+Lo que puede hacer que los tokens de acceso sean confusos es obtener el token de acceso correcto para el recurso al que desea acceder.
+
+- En Azure SQL, el recurso es `https://database.windows.net`.
+- En Dataverse, el recurso es la dirección `https://` de su entorno. Por ejemplo, `https://contoso.crm.dynamics.com`.
+
+Acceda a la API de tokens con el método [AuthenticationContext.AcquireTokenAsync](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync).
+
+Este es un ejemplo para proporcionar un nombre de usuario efectivo con un token de acceso.
+
+```json
+{
+       "format":"PDF",
+       "paginatedReportConfiguration":{
+          "formatSettings":{
+             "AccessiblePDF":"true",
+             "PageHeight":"11in",
+             "PageWidth":"8.5in",
+             "MarginBottom":"2in"
+          },
+          "identities":[
+             {
+                "username":"john@contoso.com",
+                "identityBlob": {
+                "value": "eyJ0eX....full access token"
+         }
+        }
+     ]
+   }
+}
+```
+
 ## <a name="ppu-concurrent-requests"></a>Solicitudes simultáneas de PPU
 La API `exportToFile` permite una solicitud en un período de cinco minutos al usar [Premium por usuario (PPU)](../../admin/service-premium-per-user-faq.md). Si hay varias solicitudes (más de una) en un período de cinco minutos, se producirá un error *Demasiadas solicitudes* (429).
 

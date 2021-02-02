@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: b9623b91555efe01817e4ffca3c6f80bd73c5243
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
+ms.openlocfilehash: 1cbe656618e2d4240aebfe95ef4ebc2679616054
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110898"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781643"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Tutorial: Inserción de informes paginados de Power BI en una aplicación para los clientes.
 
-Con **Power BI Embedded en Azure** o la **inserción de Power BI en Office**, puede insertar informes paginados en una aplicación mediante el uso de "la aplicación posee los datos". Una **aplicación que posee los datos** consiste en tener una aplicación que use Power BI como plataforma de análisis integrados. Como **ISV** o **desarrollador**, puede crear contenido de Power BI que muestre informes paginados en una aplicación que esté completamente integrada e interactiva, sin necesidad de que los usuarios dispongan de una licencia de Power BI. En este tutorial se muestra cómo integrar un informe paginado en una aplicación mediante el SDK para .NET de Power BI con la API para JavaScript de Power BI.
+Con **Power BI Embedded en Azure** o la **inserción de Power BI en Office**, puede insertar informes paginados en una aplicación mediante el uso de "la aplicación posee los datos". Una **aplicación que posee los datos** consiste en tener una aplicación que use Power BI como plataforma de análisis integrados. Como **ISV** o **desarrollador**, puede crear contenido de Power BI que muestre informes paginados en una aplicación que esté completamente integrada e interactiva, sin necesidad de que los usuarios dispongan de una licencia de Power BI. En este tutorial se muestra cómo integrar un informe paginado en una aplicación mediante el SDK para .NET de Power BI con las API de cliente de Power BI.
 
 ![Informe insertado de Power BI](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
 
@@ -58,16 +58,10 @@ Antes de importar o cargar un informe paginado para su inserción, el área de t
 * **Power BI Premium**: para insertar un informe paginado, se requiere una capacidad de SKU de tipo *P*. Al insertar contenido de Power BI, se hace referencia a esta solución como *Inserción de Power BI*. Para más información acerca de esta suscripción, consulte [¿Qué es Power BI Premium?](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded**: puede adquirir una capacidad en [Microsoft Azure Portal](https://portal.azure.com). Esta suscripción utiliza las SKU de tipo *A*. Para insertar informes paginados, necesita al menos una suscripción *A4*. Para obtener más información sobre cómo crear la capacidad de Power BI Embedded, consulte [Creación de una capacidad de Power BI Embedded en Azure Portal](azure-pbie-create-capacity.md).
 
-    >[!NOTE]
-    >Power BI Embedded ha publicado recientemente una nueva versión, denominada **Embedded Gen2**. Embedded Gen2 simplificará la administración de las funciones insertadas y mejorará la experiencia de Power BI Embedded. Para obtener más información, vea [Power BI Embedded Generation 2](power-bi-embedded-generation-2.md).
-
 En la tabla siguiente se describen los recursos y los límites de cada SKU. Para determinar cuál es la capacidad que mejor se adapta a sus necesidades, consulte la tabla [Qué SKU debo comprar para mi escenario](./embedded-faq.md#which-solution-should-i-choose).
 
 | Nodos de capacidad | Total de núcleos virtuales | Núcleos virtuales de back-end | RAM (GB) | Núcleos virtuales de front-end | 
 | --- | --- | --- | --- | --- |
-| A1 con [Embedded Gen2](power-bi-embedded-generation-2.md) | 1 | 0,5 | 2.5 | 0,5 |
-| A2 con [Embedded Gen2](power-bi-embedded-generation-2.md) | 2 | 1 | 5 | 1 |
-| A3 con [Embedded Gen2](power-bi-embedded-generation-2.md) | 4 | 2 | 10 | 2 |
 | P1/A4 | 8 | 4 | 25 | 4 |
 | P2/A5 | 16 | 8 | 50 | 8 |
 | P3/A6 | 32 | 16 | 100 | 16 |
@@ -249,7 +243,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Creación del token de inserción
 
-Genere un token de inserción, que se puede usar desde la API de JavaScript. Para crear un token insertado para insertar informes paginados de Power BI, use [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API.
+Genere un token de inserción, que se pueda usar desde las API de cliente de análisis integrados de Power BI. Para crear un token insertado para insertar informes paginados de Power BI, use [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API.
 
 Un ejemplo de creación de un token de inserción está disponible en el archivo *Services\EmbedService.cs* de la [aplicación de ejemplo](https://github.com/Microsoft/PowerBI-Developer-Samples).
 
@@ -270,11 +264,11 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-### <a name="load-an-item-using-javascript"></a>Carga de un elemento por medio de JavaScript
+### <a name="load-an-item-using-the-client-apis"></a>Carga de un elemento mediante las API de cliente
 
-Puede usar JavaScript para cargar un informe paginado en un elemento div de su página web.
+Puede usar las API de cliente de análisis integrados de Power BI para cargar un informe paginado en un elemento div de la página web.
 
-Para obtener un ejemplo completo del uso de la API de JavaScript, puede usar la [herramienta del sitio de prueba](https://microsoft.github.io/PowerBI-JavaScript/demo). La herramienta de área de juegos es una forma rápida de reproducir diferentes tipos de ejemplos de Power BI Embedded. También puede obtener más información sobre la API de JavaScript si consulta la página de la [wiki de PowerBI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
+Para obtener un ejemplo completo del uso de la API de cliente, puede usar la [herramienta del sitio de prueba](https://microsoft.github.io/PowerBI-JavaScript/demo). La herramienta de área de juegos es una forma rápida de reproducir diferentes tipos de ejemplos de Power BI Embedded. También puede obtener más información sobre la API de cliente de análisis integrados de Power BI en la página [API de cliente de análisis integrados de Power BI](/javascript/api/overview/powerbi/).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

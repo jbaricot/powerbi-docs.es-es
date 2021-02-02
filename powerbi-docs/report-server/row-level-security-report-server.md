@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 01/22/2019
-ms.openlocfilehash: eb06bc41aaaeea9790c34bb808548506963b8cb8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 01/22/2021
+ms.openlocfilehash: 50c89bdaa47aa8a687178a33627cf9148720acf2
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861852"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718586"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Seguridad de nivel de fila (RLS) en Power BI Report Server
 
@@ -95,6 +95,7 @@ Si usa la seguridad integrada con DirectQuery, es posible que sus usuarios obser
 
 Los autores de informes no tendrán acceso para ver los datos del informe en Power BI Report Server hasta que se asignen algún rol según corresponda tras cargar el informe. 
 
+Las asignaciones de roles mediante la pertenencia a grupos solo se admiten cuando Power BI Report Server está configurado para ejecutarse con la autenticación NTLM o Kerberos. Los servidores que se ejecutan con autenticación personalizada o Windows Basic necesitan que los usuarios se asignen explícitamente a los roles.
  
 
 ## <a name="faq"></a>Preguntas frecuentes 

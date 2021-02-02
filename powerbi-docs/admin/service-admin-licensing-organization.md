@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 00c375267ceaede23b317fb71d76e31e4ae66a83
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0c13d0f54d18527e6b8614f40b5b15fd46187968
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408651"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718517"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Licencias del servicio Power BI para los usuarios de la organización
 
@@ -121,7 +121,7 @@ Power BI Pro tiene el mismo ciclo de vida de licencia que Microsoft 365. Para
 
 Power BI ha introducido Power BI Premium Gen2 como una oferta en versión preliminar, lo que mejora la experiencia con Power BI Premium mediante mejoras en los siguientes aspectos:
 * Rendimiento
-* Concesión de licencias por usuario
+* Concesión de licencias por usuario Vea las [Preguntas más frecuentes sobre Power BI Prémium por usuario](service-premium-per-user-faq.md) para más información.
 * Mayor escala
 * Métricas mejoradas
 * Escalado automático

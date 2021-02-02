@@ -7,18 +7,18 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 10/22/2020
+ms.date: 1/25/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c16405ff211620580f739facda8556e81774935
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 46d7c0247cfd644b9a085862bbf7d0d41557a371
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415137"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780831"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>El nuevo aspecto: ¿Dónde están ahora las acciones?
 
-El servicio Power BI (app.powerbi.com) tiene un nuevo aspecto que facilita la visualización de los informes y la interacción con ellos. Como resultado, muchas acciones de menú se han reubicado. Las tablas de este artículo relacionan la ubicación antigua con la nueva. Para saber de qué hablamos, vea [el "nuevo aspecto" del servicio Power BI](service-new-look.md).
+El servicio Power BI (app.powerbi.com) ahora tiene un nuevo aspecto que facilita la visualización de los informes y la interacción con ellos. Como resultado, muchas acciones de menú se han reubicado. Si su organización ha migrado al nuevo aspecto, pero está más familiarizado con el anterior, este artículo le ayudará a encontrar la solución. Las tablas de este artículo relacionan la ubicación antigua con la nueva. 
 
 ¿Busca información sobre el nuevo aspecto de **Power BI Desktop**? Consulte [Uso de la cinta actualizada en Power BI Desktop](../create-reports/desktop-ribbon.md).
 
@@ -70,7 +70,3 @@ El servicio Power BI (app.powerbi.com) tiene un nuevo aspecto que facilita la v
 | Actualizar iconos de panel | Barra de menús Más opciones (...) > Actualizar iconos de panel | Actualizar objetos visuales (lado derecho) |
 | Inspector de rendimiento | Barra de menús Más opciones (...) > Inspector de rendimiento | Archivo > Inspector de rendimiento |
 | Configuración | Barra de menús Más opciones (...) > Configuración | Archivo > Configuración |
-
-## <a name="next-steps"></a>Pasos siguientes
-
-[Nuevo aspecto del servicio Power BI](service-new-look.md)

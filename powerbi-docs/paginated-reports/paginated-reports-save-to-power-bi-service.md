@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 28058161672de9db0cac5093e652e1d551f6a80a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 01/25/2021
+ms.openlocfilehash: bbe88b206c4c07e2e296b9c85d46be7901f5972a
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297322"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861293"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Publicación de un informe paginado en el servicio Power BI
 
@@ -27,23 +27,23 @@ Si el origen de datos del informe es local, debe crear una puerta de enlace desp
 
 Si el área de trabajo no tiene el icono de diamante ![Icono de diamante de capacidad Premium de Power BI](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) junto al nombre, deberá agregar el área de trabajo a una capacidad Premium. 
 
-1. Seleccione **Áreas de trabajo** , seleccione el botón de puntos suspensivos ( **...** ) junto al nombre del área de trabajo y después seleccione **Editar área de trabajo**.
+1. Seleccione **Áreas de trabajo**, seleccione el botón de puntos suspensivos (**...**) junto al nombre del área de trabajo y después seleccione **Editar área de trabajo**.
 
     ![Selección de Editar área de trabajo](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 
-1. En el cuadro de diálogo **Editar área de trabajo** , expanda **Avanzado** y después establezca la opción **Capacidad dedicada** en **Activado**.
+1. En el cuadro de diálogo **Editar área de trabajo**, expanda **Avanzado** y después establezca la opción **Capacidad dedicada** en **Activado**.
 
     ![Selección de Capacidad dedicada](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace-dialog.png)
 
    Es posible que no pueda cambiar esta configuración. Si no puede, póngase en contacto con el administrador de capacidad Premium de Power BI para que le conceda derechos de asignación para agregar el área de trabajo a una capacidad Premium.
 
-## <a name="from-report-builder-publish-a-paginated-report"></a>En Report Builder, publique un informe paginado.
+## <a name="from-report-builder-publish-a-paginated-report-to-the-power-bi-service"></a>Publicación de un informe paginado en el servicio Power BI desde Report Builder
 
-1. Cree el informe paginado en el generador de informes y guárdelo en el equipo local.
+1. Cree un informe paginado o abra uno existente desde el servicio Power BI en Report Builder. Si abre un informe paginado existente desde el servicio, la opción **Guardar** está deshabilitada porque va a actualizar un informe que está activo en el servicio Power BI.
 
-1. En el menú **Archivo** de Report Builder, seleccione **Guardar como**.
+1. En el menú **Archivo** de Report Builder, seleccione **Publicar**.
 
-    ![Menú Archivo > Guardar > Guardar como](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
+    ![Seleccione el menú Archivo y, después, Publicar.](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
 
     Si aún no ha iniciado sesión en Power BI, debe hacerlo o crear una cuenta. En la esquina superior derecha de Report Builder, seleccione **Iniciar sesión** y complete los pasos.
 
@@ -51,7 +51,7 @@ Si el área de trabajo no tiene el icono de diamante ![Icono de diamante de capa
 
     ![Selección de un área de trabajo Premium](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-workspace.png)
 
-4. Abra el servicio Power BI en un explorador y vaya al área de trabajo Premium donde ha publicado el informe paginado. En la pestaña **Informes** , se ve el informe.
+4. Abra el servicio Power BI en un explorador y vaya al área de trabajo Premium donde ha publicado el informe paginado. En la pestaña **Informes**, se ve el informe.
 
     ![Informe paginado en la lista Informes](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
 
@@ -89,7 +89,7 @@ También puede empezar desde el servicio Power BI y cargar un informe paginado.
 
     ![Editar credenciales](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
-   En la pestaña **Informes** , se ve el informe.
+   En la pestaña **Informes**, se ve el informe.
 
     ![Informe paginado en la lista Informes](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
 
