@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/08/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 6e00474d81d4de1c8316625c6e3a7ade1bf73197
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 929540e0f04fb6f8fa7b3f71da2a2f34f5fd273b
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408605"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085576"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Visualización y administración de licencias de usuario de Power BI
 
@@ -37,11 +37,11 @@ Las suscripciones de Power BI activas se muestran junto con cualquier otra susc
 
   ![Captura de pantalla de la suscripción de Power BI, en la que se muestra una suscripción gratuita.](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
-Este tipo de suscripción se crea automáticamente cuando los usuarios aprovechan el registro de autoservicio. Para obtener más información, consulte [Power BI en su organización](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
+Este tipo de suscripción se crea automáticamente cuando los usuarios aprovechan el registro de autoservicio. Para obtener más información, consulte [Power BI en su organización](/microsoft-365/admin/misc/power-bi-in-your-organization).
 
 ## <a name="manage-user-licenses-in-microsoft-365"></a>Administración de licencias de usuario en Microsoft 365
 
-Para usar el Centro de administración de Microsoft 365 para administrar licencias de usuario, consulte las [suscripciones de empresa y la documentación de facturación](/microsoft-365/commerce/?view=o365-worldwide).
+Para usar el Centro de administración de Microsoft 365 para administrar licencias de usuario, consulte las [suscripciones de empresa y la documentación de facturación](/microsoft-365/commerce/).
 
 ## <a name="manage-user-licenses-in-azure-portal"></a>Administración de licencias de usuario en Azure Portal
 

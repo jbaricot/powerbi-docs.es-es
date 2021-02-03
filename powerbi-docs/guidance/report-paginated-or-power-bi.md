@@ -2,18 +2,18 @@
 title: Cuándo usar informes paginados en Power BI
 description: Guía de uso de los informes paginados de Power BI.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/04/2020
-ms.openlocfilehash: 2a13e5d697d4e0bda32068a3b6eb908959ce0643
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a8cf6611597ec0dcf9f207b62e7e9e9f5035cfca
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419001"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088014"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Cuándo usar informes paginados en Power BI
 

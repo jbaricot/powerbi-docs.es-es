@@ -9,12 +9,12 @@ ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
-ms.openlocfilehash: 32d42ee139ceb03326b99d88e6033475ed2a4cc7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ce45260c536733dde9dcfe7c654ed4f56c58c7ea
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416264"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925763"
 ---
 # <a name="power-bi-report-builder"></a>Generador de informes de Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "96416264"
 
 Power BI Report Builder es una herramienta para crear informes paginados que se pueden publicar en el servicio Power BI.  Al diseñar un informe paginado, se crea una definición de informe que especifica qué datos recuperar y de dónde y cómo mostrarlos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Puede obtener una vista previa del informe en el Generador de informes. Después, puede publicar el informe en el servicio Power BI.
  
-¿Está listo para empezar a crear? [Instale Power BI Report Builder](https://aka.ms/pbireportbuilder) desde el Centro de descarga de Microsoft.
+¿Está listo para empezar a crear? [Instale Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513) desde el Centro de descarga de Microsoft.
 
 ¿Prefiere aprender de los vídeos? Consulte el [curso basado en vídeo: Informes paginados de Power BI en un día](../learning-catalog/paginated-reports-online-course.md).
 

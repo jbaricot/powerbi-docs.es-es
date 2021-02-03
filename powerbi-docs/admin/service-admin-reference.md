@@ -9,17 +9,17 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 6afc49e0d2fe67c89d906d4715959892868b0027
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2218889e170519e651127d4246ab61a7505735fb
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408099"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085621"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>Cmdlets de PowerShell, API REST y biblioteca cliente de .NET para la administración de Power BI
 Con Power BI, los administradores pueden generar scripts de tareas comunes usando cmdlets de PowerShell. También expone API REST y proporciona una biblioteca cliente de .NET para desarrollar soluciones administrativas. En este tema se muestra una lista de cmdlets y las API y el punto de conexión de API REST correspondientes. Para más información, consulte:
 
-- [Descarga](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) y [documentación](/powershell/power-bi/overview?view=powerbi-ps) de PowerShell
+- [Descarga](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) y [documentación](/powershell/power-bi/overview?view=powerbi-ps&preserve-view=true) de PowerShell
 - [Documentación](/rest/api/power-bi/admin) de la API de REST
 - [Descarga](https://www.nuget.org/packages/Microsoft.PowerBI.Api/) de la biblioteca cliente de .NET
 

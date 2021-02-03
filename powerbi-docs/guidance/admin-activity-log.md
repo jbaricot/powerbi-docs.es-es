@@ -2,18 +2,18 @@
 title: Acceso al registro de actividad de Power BI
 description: Instrucciones y código de script de PowerShell de muestra para trabajar con el registro de actividad de Power BI.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: sample
 ms.date: 09/03/2020
-ms.openlocfilehash: 18ce155419f712cce2c4973949cd02ffbd870724
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0e86966225060c24aa154c0b29ea533dad89908b
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394667"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088704"
 ---
 # <a name="access-the-power-bi-activity-log"></a>Acceso al registro de actividad de Power BI
 
@@ -30,7 +30,7 @@ Hay disponible una muestra de PowerShell para ayudarle a obtener información so
 - Recupera una lista de usuarios para el uso compartido de informes directos.
 
 > [!NOTE]
-> Deberá estar familiarizado con la [API de administrador de Power BI](/rest/api/power-bi/admin) y los [módulos PowerShell de Power BI](/powershell/power-bi/overview?view=powerbi-ps). Los módulos PowerShell deben instalarse antes de ejecutar estos bloques de scripts. Para obtener más información, vea [Seguimiento de actividades de usuario en Power BI](../admin/service-admin-auditing.md#use-the-activity-log).
+> Deberá estar familiarizado con la [API de administrador de Power BI](/rest/api/power-bi/admin) y los [módulos PowerShell de Power BI](/powershell/power-bi/overview?view=powerbi-ps&preserve-view=true). Los módulos PowerShell deben instalarse antes de ejecutar estos bloques de scripts. Para obtener más información, vea [Seguimiento de actividades de usuario en Power BI](../admin/service-admin-auditing.md#use-the-activity-log).
 >
 > Puede haber un retraso de hasta 30 minutos para recuperar los eventos de Power BI.
 

@@ -2,19 +2,19 @@
 title: Deshabilitación de la actualización en segundo plano de Power Query
 description: Instrucciones sobre cuándo deshabilitar la actualización en segundo plano de Power Query.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 09/26/2019
-ms.openlocfilehash: 54e8524d2997e086b218e7d5b569e58ace21c48e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e620841089cd7a039fc157fe8b3f8f0857773cb8
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418656"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087462"
 ---
 # <a name="disable-power-query-background-refresh"></a>Deshabilitación de la actualización en segundo plano de Power Query
 

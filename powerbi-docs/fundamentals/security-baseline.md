@@ -8,12 +8,12 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: a76c7f9d205fe47322768a514a1e5d89a36a2306
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: 04a971aa6d1e584866ff7740676ab35b2e0e17af
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565752"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494889"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Línea de base de seguridad de Azure para Power BI
 
@@ -166,7 +166,7 @@ Habilite el acceso con privilegios Just-in-Time (JIT) para las cuentas de admini
 
 - [Roles de administrador relacionados con Power BI](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)
 
-- [Privileged Access Management de M365](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)
+- [Privileged Access Management de M365](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true)
 
 - [Controles de Cloud App Security en Power BI](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
@@ -178,7 +178,7 @@ Habilite el acceso con privilegios Just-in-Time (JIT) para las cuentas de admini
 
 **Instrucciones**: Limite el número de roles o cuentas con privilegios elevados con acceso elevado a Power BI.
 
-Puede habilitar el acceso con privilegios Just-in-Time (JIT) mediante [estas](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide) instrucciones de Privileged Access Management de M365.
+Puede habilitar el acceso con privilegios Just-in-Time (JIT) mediante [estas](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true) instrucciones de Privileged Access Management de M365.
 
 Puede encontrar más detalles en la página 183 de [este](https://aka.ms/PBIEnterpriseDeploymentWP) documento de implementación de Power BI Enterprise.
 
@@ -221,7 +221,7 @@ Debe asegurarse de que las credenciales (como contraseña, certificado o tarjeta
 **Guía**: Las estaciones de trabajo seguras y aisladas son de una importancia vital para la seguridad de los roles con acceso a información confidencial como administradores, desarrolladores y operadores de servicios críticos. Use estaciones de trabajo de usuario de alta seguridad o Azure Bastion para las tareas administrativas relacionadas con la administración de Power BI. Use Azure Active Directory, Protección contra amenazas avanzada de Microsoft Defender (ATP) o Microsoft Intune para implementar una estación de trabajo de usuario segura y administrada para las tareas administrativas. Las estaciones de trabajo protegidas se pueden administrar de forma centralizada para aplicar una configuración segura, como autenticación sólida, líneas de base de software y hardware y acceso lógico y de red restringido.
 
 Descripción del acceso con privilegios
-- [estaciones de trabajo](/azure/active-directory/devices/concept-azure-managed-workstation)
+- [estaciones de trabajo](https://4sysops.com/archives/understand-the-microsoft-privileged-access-workstation-paw-security-model/)
 
 - [Implementación de una estación de trabajo con privilegios de acceso](/azure/active-directory/devices/howto-azure-managed-workstation)
 
@@ -533,7 +533,7 @@ Asegúrese de que haya planes de respuesta a incidentes escritos que definan tod
  
 Protección contra amenazas de Microsoft aplica el análisis de correlación y agrega todas las alertas y las investigaciones relacionadas de distintos productos a un solo incidente. Protección contra amenazas de Microsoft también desencadena alertas únicas sobre actividades que solo se pueden identificar como malintencionadas dada la visibilidad de un extremo a otro de Protección contra amenazas de Microsoft sobre todo el conjunto de productos. De esta forma, Protección contra amenazas de Microsoft narra una historia de ataques más amplia, lo que permite a un analista de operaciones de seguridad comprender y solucionar amenazas complejas en toda la organización.
 
-- [Prioridad de los incidentes en Protección contra amenazas de Microsoft](/microsoft-365/security/mtp/incident-queue?amp;preserve-view=true&view=o365-worldwide)
+- [Prioridad de los incidentes en Protección contra amenazas de Microsoft](/microsoft-365/security/mtp/incident-queue?view=o365-worldwide&preserve-view=true)
 
 **Supervisión de Azure Security Center**: No aplicable
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/08/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 5845e56bdcb2257d67d541e35d26c9285a5e9319
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0184e549911afb784e06b1ee829bf113ff97e067
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408145"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086312"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Compra y asignación de licencias de usuario de Power BI Pro
 
@@ -40,7 +40,7 @@ Para asignar licencias en Azure Portal, debe ser propietario de la suscripción 
 ### <a name="purchase-licenses-in-microsoft-365"></a>Compra de licencias en Microsoft 365
 
 > [!NOTE]
-> Si normalmente compra licencias a través de un contrato de licencias por volumen, como un Contrato Enterprise, y quiere recibir una factura en lugar de comprar con una tarjeta de crédito o una cuenta bancaria, tendrá que enviar el pedido de otra manera. Trabaje con el revendedor de Microsoft o el Centro de servicios de licencias por volumen para agregar o quitar licencias. Para obtener más información, vea [Administración de licencias de suscripción](/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide).
+> Si normalmente compra licencias a través de un contrato de licencias por volumen, como un Contrato Enterprise, y quiere recibir una factura en lugar de comprar con una tarjeta de crédito o una cuenta bancaria, tendrá que enviar el pedido de otra manera. Trabaje con el revendedor de Microsoft o el Centro de servicios de licencias por volumen para agregar o quitar licencias. Para obtener más información, vea [Administración de licencias de suscripción](/microsoft-365/commerce/licenses/buy-licenses).
 
 Siga estos pasos para comprar licencias de Power BI Pro en el Centro de administración de Microsoft 365:
 

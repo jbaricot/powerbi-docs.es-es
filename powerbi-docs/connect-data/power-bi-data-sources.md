@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/14/2020
-ms.openlocfilehash: 67a0577c906e23fc51182120f1445814bdcd8028
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: def849c9a3b867f181dbc91628260cf24491e855
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491837"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087945"
 ---
 # <a name="power-bi-data-sources"></a>Orígenes de datos de Power BI
 
@@ -44,7 +44,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Azure Table Storage | Sí | Sí | No | Sí | No | Sí |
 | Conector de BI | Sí | Sí | Sí | Sí | Sí | No |
 | BI360: informes presupuestarios y financieros | Sí | Sí | No | No | No | No |
-| Microsoft Dataverse | Sí | Sí | No | No | No | Sí |
+| Microsoft Dataverse | Sí | Sí | Sí | No | No | Sí |
 | Data.World - Obtener un conjunto de datos | Sí | Sí | No | No | No | No |
 | Denodo | Sí | Sí | Sí | Sí | Sí | No |
 | Dremio | Sí | Sí | Sí | Sí | Sí | No |
@@ -171,7 +171,7 @@ La opción SSO surte efecto en todos los conjuntos de datos que usan este origen
 - Servidor de mensajes de SAP BW
 - Snowflake
 - Spark
-- SQL Server
+- SQL Server
 - Teradatos
 
 ## <a name="next-steps"></a>Pasos siguientes

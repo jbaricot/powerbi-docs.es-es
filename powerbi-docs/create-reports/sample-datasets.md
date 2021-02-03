@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 03/27/2020
 LocalizationGroup: Samples
-ms.openlocfilehash: 2e14a81c6ae04048f85fae417b354a110436fc50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f69be1cd602c0b20c48581a5d6ee1ff034749b2a
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396209"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495142"
 ---
 # <a name="get-samples-for-power-bi"></a>Obtención de ejemplos para Power BI
 Supongamos que nunca antes ha utilizado Power BI y quiere probarlo, pero no tiene datos con los que trabajar.  O quizás quiera ver informes que muestran algunas de las funcionalidades de Power BI. Tenemos lo que necesita.
@@ -42,7 +42,7 @@ El escenario que se ha creado para este informe es una empresa que vende monopat
 Puede explorarlo de estas maneras:
 
 - Véalo e interactúe con él en [Data Stories Gallery](https://community.powerbi.com/t5/Data-Stories-Gallery/Sales-amp-Returns-Sample-Report/m-p/876607) de la Comunidad de Power BI.
-- Descargue el archivo. pbix y explórelo en profundidad. Eche un vistazo "tras el telón" para ver cómo lo creó Miguel. Al seleccionar este vínculo se descarga el archivo automáticamente: [Informe de ejemplo de ventas y devoluciones](https://go.microsoft.com/fwlink/?linkid=2113239).
+- Descargue el archivo. pbix y explórelo en profundidad. Eche un vistazo "tras el telón" para ver cómo lo creó Miguel. Al seleccionar este vínculo se descarga el archivo automáticamente: [Informe de ejemplo de ventas y devoluciones](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Sample%20Reports/Sales%20%26%20Returns%20Sample%20v201912.pbix).
 - Lea sobre el informe en la entrada de blog Power BI [Un recorrido por el nuevo informe de ejemplo de ventas y devoluciones](https://powerbi.microsoft.com/blog/take_a_tour_of_the_new_sales_returns_sample_report/).
 
 ## <a name="sample-app-from-appsource"></a>Aplicación de ejemplo de AppSource

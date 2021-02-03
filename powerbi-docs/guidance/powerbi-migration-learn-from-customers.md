@@ -2,18 +2,18 @@
 title: Más información sobre las migraciones de los clientes a Power BI
 description: Obtenga información de los clientes al realizar la migración a Power BI.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.openlocfilehash: fd5490eae689a4119566474da2ef4d19017a8134
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7982598ac7a475cae4f0524c8d3d914b4f1a6341
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419185"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086772"
 ---
 # <a name="learn-from-customer-power-bi-migrations"></a>Más información sobre las migraciones de los clientes a Power BI
 

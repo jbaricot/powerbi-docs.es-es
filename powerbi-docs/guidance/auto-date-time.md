@@ -2,19 +2,19 @@
 title: Guía sobre la fecha y hora automáticas en Power BI Desktop
 description: Instrucciones para usar la funcionalidad de fecha y hora automáticas en Power BI Desktop.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 10/23/2019
-ms.openlocfilehash: ed99c48aaef116f58ebff0d8026b37938a39de3b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e7fcab58dc61735639689c4574a9ce89757882ca
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394598"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088681"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Guía sobre la fecha y hora automáticas en Power BI Desktop
 

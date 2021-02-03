@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 10/24/2019
-ms.openlocfilehash: 943c8283d48b4281d2ddb5d7eeed0e69db4ee6fc
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ae73a14763babb4bf3d2c2a80d1b90d8a1cff76f
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405316"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086496"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Solución de problemas de desarrollo de modelos de DirectQuery en Power BI Desktop
 
@@ -54,7 +54,7 @@ Vaya a la carpeta principal de esta carpeta donde se muestra la carpeta que cont
 
 En la carpeta hay una subcarpeta _\Data_ que contiene el archivo de seguimientos FlightRecorderCurrent.trc para la sesión de Power BI actual. La carpeta de área de trabajo correspondiente se elimina cuando finaliza la sesión de Power BI Desktop asociada.
 
-Los archivos de seguimiento se pueden abrir con la herramienta SQL Server Profiler, que está disponible como descarga gratis como parte de SQL Server Management Studio. Puede obtenerlo en [esta ubicación](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
+Los archivos de seguimiento se pueden abrir con la herramienta SQL Server Profiler, que está disponible como descarga gratis como parte de SQL Server Management Studio. Puede obtenerlo en [esta ubicación](/sql/ssms/download-sql-server-management-studio-ssms).
 
 Una vez que descargue e instale SQL Server Management Studio, ejecute SQL Server Profiler.
 

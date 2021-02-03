@@ -2,18 +2,18 @@
 title: Guía de modelos compuestos de Power BI Desktop
 description: Guía para el desarrollo de modelos compuestos.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 12/24/2019
-ms.openlocfilehash: e4ddc487f81835edfdc5ad8a4074a91204ee0336
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 5a88e22450b5ae9b8000f3c321d87a2349a9f960
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97884795"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088612"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Guía de modelos compuestos de Power BI Desktop
 

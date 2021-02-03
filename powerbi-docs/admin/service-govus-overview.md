@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: 06a2dff78cc2367afb153111e080e29a16fc82ab
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 93198628677966208609892ee45ea4a28932c091
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98686991"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085852"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 
@@ -66,7 +66,7 @@ Es posible que la cuenta esté configurada en más de una nube. Si la cuenta est
 
 Para usar el servicio Power BI, debe permitir las conexiones a los puntos de conexión necesarios en Internet. Estos destinos deben ser accesibles para permitir la comunicación entre su propia red, Power BI y otros servicios dependientes.
 
-En la tabla siguiente, se enumeran los puntos de conexión necesarios que se deben agregar a la lista de permitidos para habilitar la conexión al servicio Power BI para el uso general del sitio. Estos puntos de conexión son exclusivos de la nube de la Administración Pública de Estados Unidos. El servicio Power BI solo requiere que el puerto TCP 443 esté abierto para los puntos de conexión enumerados. Los puntos de conexión para la obtención de datos, la integración del panel y los informes, los objetos visuales de Power BI y otros servicios opcionales no son exclusivos de la nube de la Administración Pública de Estados Unidos. Para agregar también estas direcciones URL a la lista de permitidos, consulte [Incorporación de direcciones URL de Power BI a la lista de permitidos](power-bi-whitelist-urls.md).
+En la tabla siguiente, se enumeran los puntos de conexión necesarios que se deben agregar a la lista de permitidos para habilitar la conexión al servicio Power BI para el uso general del sitio. Estos puntos de conexión son exclusivos de la nube de la Administración Pública de Estados Unidos. El servicio Power BI solo requiere que el puerto TCP 443 esté abierto para los puntos de conexión enumerados. Los puntos de conexión para la obtención de datos, la integración del panel y los informes, los objetos visuales de Power BI y otros servicios opcionales no son exclusivos de la nube de la Administración Pública de Estados Unidos. Para agregar también estas direcciones URL a la lista de permitidos, consulte [Incorporación de direcciones URL de Power BI a la lista de permitidos](power-bi-allow-list-urls.md).
 
 La autenticación, la identidad y la administración de Power BI dependen de la conectividad a los servicios de Microsoft 365. También tiene que conectarse a Microsoft 365 para ver los registros de auditoría. Para identificar los puntos de conexión para estos servicios, vea la integración de Microsoft 365 en la tabla siguiente.
 

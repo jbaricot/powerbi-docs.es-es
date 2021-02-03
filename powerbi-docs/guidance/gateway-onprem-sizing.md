@@ -2,18 +2,18 @@
 title: Ajuste de tamaño de la puerta de enlace de datos local
 description: Guía para trabajar con el tamaño de la puerta de enlace de datos local.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/30/2019
-ms.openlocfilehash: c0506b492a0c28140256dc0be850358836b284b0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 35630891a66b9aed0b9e568d8e34180e3ee41544
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419427"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088405"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Ajuste de tamaño de la puerta de enlace de datos local
 
@@ -84,7 +84,7 @@ Planee la mejor conectividad posible entre el servicio Power BI y la puerta de 
 
 - Busque confiabilidad, velocidad rápida y latencias sistemáticamente bajas
 - Elimine (o reduzca) los saltos de máquina entre la puerta de enlace y los orígenes de datos.
-- Quite todas las limitaciones de red impuestas por la capa de proxy del firewall. Para más información sobre los puntos de conexión de Power BI, consulte [Incorporación de direcciones URL de Power BI a la lista de permitidos](../admin/power-bi-whitelist-urls.md).
+- Quite todas las limitaciones de red impuestas por la capa de proxy del firewall. Para más información sobre los puntos de conexión de Power BI, consulte [Incorporación de direcciones URL de Power BI a la lista de permitidos](../admin/power-bi-allow-list-urls.md).
 - Configure [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) para establecer conexiones privadas y administradas a Power BI
 - En el caso de los orígenes de datos de máquinas virtuales de Azure, asegúrese de que las máquinas virtuales estén [colocadas con el servicio Power BI](../admin/service-admin-where-is-my-tenant-located.md)
 - En el caso de cargas de trabajo de conexión dinámica a SQL Server Analysis Services (SSAS) que supongan RLS dinámico, asegúrese de que la conectividad entre la máquina de puerta de enlace y Active Directory local sea correcta.

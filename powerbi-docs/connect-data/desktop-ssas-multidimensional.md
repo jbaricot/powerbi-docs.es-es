@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/15/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9567c0511a771b9b92de74171dec5fed3110e2d8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b3ff42b33ccf2d93217d9d88ada4dfbe45a5436c
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410905"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085461"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Conexión a modelos SSAS multidimensionales en Power BI Desktop
 
@@ -98,7 +98,7 @@ Existen ciertas limitaciones en el uso de SSAS MD:
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Características de SSAS MD admitidas en Power BI Desktop
 
-En esta versión de SSAS MD se admite el consumo de los siguientes elementos. Para obtener más información sobre estas características, vea [Descripción de Power View para modelos multidimensionales](/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014).
+En esta versión de SSAS MD se admite el consumo de los siguientes elementos. Para obtener más información sobre estas características, vea [Descripción de Power View para modelos multidimensionales](/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models).
 
 * Miembros predeterminados
 * Atributos de dimensión

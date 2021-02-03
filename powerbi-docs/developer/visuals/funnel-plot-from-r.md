@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: f1f8c037a3ceb66d8ffb5abab6bccd4ec9bc7adc
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: 3d618735f2783e0fce0be938fbdcac7beb5d399e
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969567"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495119"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Tutorial: Creación de un trazado de embudo a partir de un script de R para un elemento visual de R
 En este artículo se describe paso a paso cómo crear un trazado de embudo a partir de un script de R en un objeto visual de R.
@@ -270,7 +270,7 @@ Como el objeto visual resultante está basado en PNG, no responde al desplazamie
 
 * No es necesario desarrollar objetos visuales con tecnología de R desde cero con código disponible en [GitHub](https://github.com/Microsoft?utf8=%E2%9C%93&q=PowerBI&type=&language=R). Puede seleccionar el objeto visual que se va a usar como plantilla y copiar el código en un proyecto nuevo.
 
-   Por ejemplo, pruebe a usar el [objeto visual personalizado de spline](https://github.com/PowerBi-Projects/PowerBI-visuals-spline).
+   Por ejemplo, pruebe a usar el [objeto visual personalizado de spline](https://github.com/microsoft/PowerBI-visuals-spline).
 
 * Todos los objetos visuales de R aplican el operador `unique` a su tabla de entrada. Para evitar que se quiten filas idénticas, considere la posibilidad de agregar un campo de entrada adicional con un identificador único y omitirlo en el código de R.   
 

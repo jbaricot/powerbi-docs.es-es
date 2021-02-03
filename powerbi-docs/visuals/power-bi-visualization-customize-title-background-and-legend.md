@@ -11,22 +11,20 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 1/13/2021
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b285d699d71001d8015615fdeb3652ba35274896
-ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
+ms.openlocfilehash: 8cfba48839f4055c7d48bf01a475cf2804053239
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98191847"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422338"
 ---
 # <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>Personalización de los títulos, los fondos, las etiquetas y las leyendas de las visualizaciones
 
-[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
-
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 En este tutorial obtendrá información sobre diferentes formas de personalizar las visualizaciones. Hay numerosas opciones para personalizar las visualizaciones. La mejor manera para obtener información de todas ellas es explorando el panel **Formato** (seleccione el icono de rodillo de pintura). Para ayudarle a comenzar, en este artículo se muestra cómo personalizar un título, una leyenda, un fondo, una etiqueta o una capa de una visualización y cómo agregar un tema.
 
 No se pueden personalizar todas las visualizaciones. Consulte la [lista completa](#visualization-types-that-you-can-customize) de visualizaciones para obtener más información.
-
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -60,14 +58,13 @@ Para continuar, inicie sesión en Power BI Desktop y abra el informe [Ejemplo d
 
     ![Captura de pantalla del panel Formato con el texto Título escrito.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-title.png)
 
-1. Cambie el **color de fuente** a blanco y el **color de fondo** a azul.    
+1. Cambie el **color de fuente** a blanco y el **color de fondo** a azul.
 
     a. Seleccione la lista desplegable y elija un color en **Colores del tema**, **Colores recientes** o **Color personalizado**.
-    
+
     ![Captura de pantalla de las opciones de color de fuente y color de fondo.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
     b. Seleccione el menú desplegable para cerrar la ventana de colores.
-
 
 1. Aumente el tamaño del texto a **16 puntos**.
 
@@ -128,6 +125,7 @@ Guarde los cambios realizados y pase a la sección siguiente.
 Si necesita revertir todos los cambios, seleccione **Volver al valor predeterminado** en la parte inferior del panel de personalización **Leyenda**.
 
 ## <a name="customize-total-labels-for-stacked-visuals"></a>Personalización de las etiquetas totales para objetos visuales apilados
+
 Los objetos visuales apilados pueden mostrar las etiquetas de datos y las etiquetas totales. En un gráfico de columnas apiladas, las etiquetas de datos identifican el valor de cada parte de una columna. Las etiquetas totales muestran el valor total de toda la columna agregada. 
 
 Vea como Rien agrega las etiquetas locales a un gráfico apilado y, luego, siga los pasos siguientes para intentarlo usted mismo.
@@ -136,7 +134,7 @@ Vea como Rien agrega las etiquetas locales a un gráfico apilado y, luego, siga 
 
 1. Abra la página del informe **Información general** y seleccione el gráfico de barras **Promedio de tamaño de área de ventas por cadena y tipo de tienda**.
 
-1. En la pestaña **Visualización**, seleccione el ![icono del gráfico de barras apiladas](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-bar.png) para convertir este gráfico de barras en un gráfico de barras apiladas. Observe que el objeto visual conserva sus etiquetas de datos. 
+1. En la pestaña **Visualización**, seleccione el ![icono del gráfico de barras apiladas](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-bar.png) para convertir este gráfico de barras en un gráfico de barras apiladas. Observe que el objeto visual conserva sus etiquetas de datos.
 
     ![Captura de pantalla del gráfico de barras apiladas nuevo.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-chart.png)
 
@@ -150,24 +148,23 @@ Vea como Rien agrega las etiquetas locales a un gráfico apilado y, luego, siga 
 
     ![Captura de pantalla del gráfico de barras apiladas nuevo con las etiquetas totales.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
 
-
 ## <a name="customize-layer-order"></a>Personalización del orden de las capas
+
 Cambie el orden de las capas de los objetos visuales y las formas de los informes. El orden de las capas determina qué objetos aparecen delante cuando se seleccionan. Siempre que se selecciona un objeto en el lienzo del informe, se activa y se desplaza a la capa superior. En el caso de los objetos visuales, esto facilita la interacción con el objeto visual seleccionado. Pero en el caso de las formas y los fondos, se recomienda protegerlos en el nivel inferior, de modo que no se puedan seleccionar accidentalmente y cubran u oculten los objetos visuales del informe. 
 
 Los controles de las capas están disponibles en el servicio Power BI, Power BI Desktop, Mobile y Report Server. En este artículo se muestra cómo cambiar el comportamiento del orden de las capas en el servicio Power BI.
 
 Vea cómo Rien cambia el orden de las capas y luego siga los pasos para intentarlo por sí mismo.
 
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IY3L]
 
-1. Agregue una nueva página de informe al seleccionar el signo más amarillo. 
+1. Agregue una nueva página de informe al seleccionar el signo más amarillo.
 
-1. Agregue una forma al lienzo. Aquí se ha agregado un rectángulo azul. 
+1. Agregue una forma al lienzo. Aquí se ha agregado un rectángulo azul.
 
     ![Captura de pantalla de la nueva página de informe con un rectángulo azul.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-shape.png)
 
-1. Copie y pegue un objeto visual de otra página del informe. 
+1. Copie y pegue un objeto visual de otra página del informe.
 
     ![Captura de pantalla de la nueva página de informe con un rectángulo azul y un gráfico circular.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-layer.png)
 
@@ -179,14 +176,12 @@ Vea cómo Rien cambia el orden de las capas y luego siga los pasos para intentar
 
 1. En la vista de lectura, al seleccionar el rectángulo azul, se mantiene en la capa de detrás.
 
-
 ## <a name="customize-colors-using-a-theme"></a>Personalizar los colores con un tema
 
 Con los temas para informes puede aplicar cambios de diseño a todo el informe; por ejemplo, usar colores corporativos, cambiar conjuntos de iconos o aplicar nuevos formatos visuales predeterminados. Al aplicar un tema para informe, todos los objetos visuales del informe usan los colores y el formato del tema seleccionado.
 
 Para aplicar un tema a un informe, seleccione **Cambiar tema** en la barra de menús. Elija un tema.  El siguiente informe usa el tema **Solar**.
 
- 
 ![Informe con el tema Solar de amarillos, naranjas y rojos](media/power-bi-visualization-customize-title-background-and-legend/power-bi-theme.png)
 
 ## <a name="visualization-types-that-you-can-customize"></a>Tipos de visualización que se pueden personalizar
@@ -227,5 +222,3 @@ A continuación, encontrará una lista de las visualizaciones y opciones de pers
 - [Introducción a las propiedades de eje y formato de color](service-getting-started-with-color-formatting-and-axis-properties.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
-
-

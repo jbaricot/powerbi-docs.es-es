@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/20/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 3c1e2b4513b3ac920d447ef0b8195c76c1ec2a04
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: cf10ac72f387438a60d3840c69ad1ee713c26708
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413757"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086221"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Seguimiento de actividades de usuario en Power BI
 
@@ -122,7 +122,7 @@ Puede filtrar los datos de auditoría por intervalo de fechas, usuario, panel, i
 
 Debe cumplir estos requisitos para acceder a los registros de auditoría:
 
-- Debe ser un administrador global o tener asignado el rol Registros de auditoría o Registros de auditoría de solo lectura de Exchange Online para obtener acceso al registro de auditoría. De manera predeterminada, los grupos de roles de Administración de cumplimiento y Administración de organizaciones incluyen estos roles asignados en la página **Permisos** en el centro de administración de Exchange. Para obtener más información sobre los roles que pueden ver registros de auditoría, vea [Requisitos para realizar búsquedas en el registro de auditoría](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log).
+- Debe ser un administrador global o tener asignado el rol Registros de auditoría o Registros de auditoría de solo lectura de Exchange Online para obtener acceso al registro de auditoría. De manera predeterminada, los grupos de roles de Administración de cumplimiento y Administración de organizaciones incluyen estos roles asignados en la página **Permisos** en el centro de administración de Exchange. Para obtener más información sobre los roles que pueden ver registros de auditoría, vea [Requisitos para realizar búsquedas en el registro de auditoría](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#requirements-to-search-the-audit-log).
 
     Para proporcionar acceso al registro de auditoría a las cuentas que no son de administrador, agregue el usuario como miembro de uno de estos grupos de roles. Si quiere hacerlo de otra manera, puede crear un grupo de roles personalizados en el centro de administración de Exchange, asignar el rol Registros de auditoría o Registros de auditoría de solo visualización a este grupo y, luego, agregar la cuenta que no es de administrador al nuevo grupo de roles. Para obtener más información, vea [Manage role groups in Exchange Online](/Exchange/permissions-exo/role-groups) (Administración de grupos de roles en Exchange Online).
 
@@ -211,7 +211,7 @@ Para exportar el registro de auditoría de Power BI a un archivo .csv, siga esto
 
 ### <a name="use-powershell-to-search-audit-logs"></a>Uso de PowerShell para buscar registros de auditoría
 
-También puede usar PowerShell para acceder a los registros de auditoría mediante el inicio de sesión. En el ejemplo siguiente se muestra cómo conectarse a Exchange Online PowerShell y usar luego el comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) para extraer las entradas de registro de auditoría de Power BI. Para ejecutar el script, un administrador debe asignarle los permisos adecuados, como se describe en la sección [Requisitos del registro de auditoría](#audit-log-requirements).
+También puede usar PowerShell para acceder a los registros de auditoría mediante el inicio de sesión. En el ejemplo siguiente se muestra cómo conectarse a Exchange Online PowerShell y usar luego el comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps&preserve-view=true/) para extraer las entradas de registro de auditoría de Power BI. Para ejecutar el script, un administrador debe asignarle los permisos adecuados, como se describe en la sección [Requisitos del registro de auditoría](#audit-log-requirements).
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -226,7 +226,7 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 
 ### <a name="use-powershell-to-export-audit-logs"></a>Uso de PowerShell para exportar registros de auditoría
 
-También puede usar PowerShell para exportar los resultados de la búsqueda de registros de auditoría. En el ejemplo siguiente se muestra cómo enviar desde el comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) y exportar los resultados con el cmdlet [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv). Para ejecutar el script, un administrador debe asignarle los permisos adecuados, como se describe en la sección [Requisitos del registro de auditoría](#audit-log-requirements).
+También puede usar PowerShell para exportar los resultados de la búsqueda de registros de auditoría. En el ejemplo siguiente se muestra cómo enviar desde el comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps&preserve-view=true/) y exportar los resultados con el cmdlet [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv). Para ejecutar el script, un administrador debe asignarle los permisos adecuados, como se describe en la sección [Requisitos del registro de auditoría](#audit-log-requirements).
 
 ```powershell
 $UserCredential = Get-Credential

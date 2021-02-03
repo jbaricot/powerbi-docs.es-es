@@ -9,18 +9,18 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/10/2019
 LocalizationGroup: Data from files
-ms.openlocfilehash: 333651ad89e50a3debe73dfdafc0dced865553a5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b339117e8cba73da35759a600d3f303b93415711
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405454"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086414"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>Trabajo con modelos multidimensionales en Power BI
 
 Puede conectarse a modelos multidimensionales en Power BI y crear informes que en los que se visualizan todos los tipos de datos dentro del modelo. Cuando se trabaja con modelos multidimensionales, Power BI aplica reglas al modo de procesar datos, en función de la columna que se defina como *miembro predeterminado*. 
 
-Cuando se trabaja con los modelos multidimensionales, Power BI trata los datos del modelo en función de dónde se utilice la columna que contiene el valor **DefaultMember**. El atributo *DefaultMember* se establece en CSDL (lenguaje de definición de esquemas conceptuales) para una columna determinada en un modelo multidimensional. Puede aprender más sobre el miembro predeterminado en el [artículo de las propiedades de su atributo](/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017). Cuando se ejecuta una consulta de DAX, el miembro predeterminado especificado en el modelo se aplica automáticamente.
+Cuando se trabaja con los modelos multidimensionales, Power BI trata los datos del modelo en función de dónde se utilice la columna que contiene el valor **DefaultMember**. El atributo *DefaultMember* se establece en CSDL (lenguaje de definición de esquemas conceptuales) para una columna determinada en un modelo multidimensional. Puede aprender más sobre el miembro predeterminado en el [artículo de las propiedades de su atributo](/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member). Cuando se ejecuta una consulta de DAX, el miembro predeterminado especificado en el modelo se aplica automáticamente.
 
 En este artículo se describe cómo se comporta Power BI en diversas circunstancias cuando se trabaja con modelos multidimensionales, en función de dónde se encuentre el *modelo predeterminado*. 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 0c13d0f54d18527e6b8614f40b5b15fd46187968
-ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.openlocfilehash: 0da3b5134db770c97b5b86b215998df91c1f646c
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98718517"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085990"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Licencias del servicio Power BI para los usuarios de la organización
 
@@ -27,7 +27,7 @@ Este artículo se centra en la compra de servicios y licencias por usuario desde
 
 ## <a name="who-can-purchase-and-assign-licenses"></a>¿Quién puede comprar y asignar licencias?
 
-Debe tener asignado un rol de administrador para poder comprar o asignar licencias para su organización. Los roles de administrador se asignan mediante el centro de administración de Azure Active Directory o de Microsoft 365. En la tabla siguiente se muestra qué rol es necesario para realizar tareas relacionadas con la adquisición y la concesión de licencias. Para obtener más información sobre los roles de administrador en Azure Active Directory, consulte [Visualización y asignación de roles de administrador en Azure Active Directory](/azure/active-directory/users-groups-roles/directory-manage-roles-portal). Si lo que quiere es obtener información sobre los roles de administrador en Microsoft 365, incluidos los procedimientos recomendados, vea el artículo [Acerca de los roles de administrador](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
+Debe tener asignado un rol de administrador para poder comprar o asignar licencias para su organización. Los roles de administrador se asignan mediante el centro de administración de Azure Active Directory o de Microsoft 365. En la tabla siguiente se muestra qué rol es necesario para realizar tareas relacionadas con la adquisición y la concesión de licencias. Para obtener más información sobre los roles de administrador en Azure Active Directory, consulte [Visualización y asignación de roles de administrador en Azure Active Directory](/azure/active-directory/users-groups-roles/directory-manage-roles-portal). Si lo que quiere es obtener información sobre los roles de administrador en Microsoft 365, incluidos los procedimientos recomendados, vea el artículo [Acerca de los roles de administrador](/microsoft-365/admin/add-users/about-admin-roles).
 
 | ¿Quién puede adquirir servicios y licencias? | ¿Quién puede administrar licencias de usuario? |
 | --------------- | --------------- |
@@ -114,7 +114,7 @@ Power BI Pro tiene el mismo ciclo de vida de licencia que Microsoft 365. Para
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [Adquirir y asignar licencias de Power BI Pro](service-admin-purchasing-power-bi-pro.md)
-- [Suscripciones de empresa y documentación de facturación](/microsoft-365/commerce/?view=o365-worldwide)
+- [Suscripciones de empresa y documentación de facturación](/microsoft-365/commerce/)
 - [Find Power BI users that have signed in](service-admin-access-usage.md) (Búsqueda de usuarios de Power BI que hayan iniciado sesión)
 - ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 
