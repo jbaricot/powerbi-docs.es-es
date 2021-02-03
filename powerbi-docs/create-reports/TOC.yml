@@ -248,7 +248,7 @@
               href: ../visuals/power-bi-report-visualizations.md
             - name: Cambio de objetos visuales en informes
               href: ../visuals/power-bi-report-change-visualization-type.md
-            - name: 'Personalización de los títulos, las leyendas y los fondos de los objetos visuales'
+            - name: 'Personalización de los títulos, las leyendas, los fondos (y más) de los objetos visuales'
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
             - name: Mostrar elementos sin datos
               href: desktop-show-items-no-data.md
