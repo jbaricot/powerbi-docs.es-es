@@ -12,24 +12,24 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 12/16/2020
-  ms.openlocfilehash: be6ec499d78d3ba5f3899fcb8556296568a40319
-  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+  ms.date: 02/03/2021
+  ms.openlocfilehash: 8f8956075030eee75077b9da9b6fccca94b73546
+  ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 12/17/2020
-  ms.locfileid: "97621864"
+  ms.lasthandoff: 02/04/2021
+  ms.locfileid: "99533059"
 highlightedContent:
   items:
   - title: Introducción a Power BI Desktop
     itemType: get-started
     url: fundamentals/desktop-getting-started.md
-  - title: DirectQuery para conjuntos de datos de Power BI y Azure Analysis
+  - title: API de cliente de análisis integrados de Power BI
+    itemType: overview
+    url: /javascript/api/overview/powerbi/
+  - title: Detección de conjuntos de datos mediante el centro de conectividad de conjuntos de datos (versión preliminar)
     itemType: concept
-    url: connect-data/desktop-directquery-datasets-azure-analysis-services.md
-  - title: Consumo de modelos de Azure Machine Learning en Power BI.
-    itemType: tutorial
-    url: connect-data/service-aml-integrate.md
+    url: connect-data/service-datasets-hub.md
   - title: Power BI en Microsoft Learn
     itemType: learn
     url: /learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
@@ -234,13 +234,24 @@ conceptualContent:
 additionalContent:
   sections:
   - title: Herramientas relacionadas
-  - items:
+    items:
     - title: Power BI Report Server
       summary: Explore Power BI Report Server, un servidor de informes local con un portal web en el que se muestran y administran informes de Power BI, informes paginados y KPI.
       url: report-server/index.yml
     - title: API REST de Power BI
       summary: Las API de REST de Power BI proporcionan puntos de conexión de servicio para la inserción, la administración y los recursos de usuario.
       url: /rest/api/power-bi/
-    - title: Documentación de Power Platform
-      summary: Obtenga información sobre cómo Power BI, Power Apps, Power Automate y Power Virtual Agents funcionan en conjunto para mejorarse entre sí.
-      url: /power-platform/
+    - title: API de cliente de análisis integrados de Power BI
+      summary: Biblioteca del lado cliente para insertar Power BI mediante JavaScript o TypeScript
+      url: /javascript/api/overview/powerbi/
+  - title: Otros productos de Microsoft Power Platform
+    items:
+    - title: PowerApps
+      summary: Cree rápidamente aplicaciones con poco código que modernicen procesos y resuelvan los desafíos empresariales complicados de su organización.
+      url: /powerapps/
+    - title: Power Automate
+      summary: Cree flujos de trabajo automatizados entre sus aplicaciones y servicios preferidos para sincronizar archivos, obtener notificaciones y mucho más.
+      url: /power-automate/
+    - title: Power Virtual Agents
+      summary: Cree bots eficaces mediante una interfaz gráfica guiada y sin código sin necesidad de científicos de datos ni desarrolladores.
+      url: /power-virtual-agents/
