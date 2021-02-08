@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: a1c8e11fbf3b157a0d9fc1a897347875b82226fa
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9b4b7557a977c5975920e0ef414b7daf8183c062
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96387267"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044250"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Información general para administradores, Power BI Report Server
 Este artículo contiene información general de administración de Power BI Report Server, una ubicación local para almacenar y administrar informes paginados, móviles o de Power BI. En este artículo se presentan los conceptos de planeamiento, implementación y administración de Power BI Report Server, con vínculos a información adicional.
@@ -46,7 +46,7 @@ La seguridad y la protección son dos aspectos importantes para todas las organi
 ## <a name="next-steps"></a>Pasos siguientes
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Buscar la clave de producto del servidor de informes](find-product-key.md)  
-[Instalar Power BI Desktop optimizado para el servidor de informes de Power BI](install-powerbi-desktop.md)  
+[Instalar Power BI Desktop para Power BI Report Server](install-powerbi-desktop.md)  
 [Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
 [Descargar SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 

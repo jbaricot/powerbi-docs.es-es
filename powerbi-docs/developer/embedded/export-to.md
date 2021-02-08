@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 12/28/2020
-ms.openlocfilehash: acd9d98b55697e8ca3729cad65a1ead8f01f6e62
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 02/01/2021
+ms.openlocfilehash: 64a9472960195c8d4f91013a778bb61cdf029ab4
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887026"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422361"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportación de un informe de Power BI a un archivo (versión preliminar)
 
@@ -40,15 +40,41 @@ Antes de usar la API, compruebe que las siguientes [configuraciones de inquilino
 
 La API es asincrónica. Cuando se llama a la API [exportToFile](/rest/api/power-bi/reports/exporttofile), se desencadena un trabajo de exportación. Después de activar un trabajo de exportación, use el [sondeo](/rest/api/power-bi/reports/getexporttofilestatus) para realizar un seguimiento del trabajo, hasta que se complete.
 
-Durante el sondeo, la API devuelve un número que representa la cantidad de trabajo completado. El trabajo en cada trabajo de exportación se calcula en función del número de páginas que tiene el informe. Todas las páginas tienen el mismo peso. Si, por ejemplo, está exportando un informe con diez páginas, y el sondeo devuelve setenta, significa que la API ha procesado siete de las diez páginas en el trabajo de exportación.
+Durante el sondeo, la API devuelve un número que representa la cantidad de trabajo completado. El progreso de cada trabajo de exportación se calcula en función del número total de exportaciones que tenga ese trabajo. Un trabajo de exportación incluye la exportación de un solo objeto visual, o una página con o sin marcadores. Todas las exportaciones tienen el mismo peso. Si, por ejemplo, el trabajo de exportación incluye la exportación de un informe con 10 páginas, y el sondeo devuelve 70, significa que la API ha procesado 7 de las 10 páginas en el trabajo de exportación.
 
 Cuando se completa la exportación, la llamada API de sondeo devuelve una [dirección URL de Power BI](/rest/api/power-bi/reports/getfileofexporttofile) para obtener el archivo. La dirección URL estará disponible durante veinticuatro horas.
 
 ## <a name="supported-features"></a>Características admitidas
 
+En esta sección se describe el funcionamiento de las siguientes características admitidas:
+
+* [Selección de páginas para imprimir](#selecting-which-pages-to-print)
+* [Exportación de una página o un solo objeto visual](#exporting-a-page-or-a-single-visual)
+* [Marcadores](#bookmarks)
+* [Filtros](#filters)
+* [Autenticación](#authentication)
+* [Seguridad de nivel de fila (RLS)](#row-level-security-rls)
+* [Protección de datos](#data-protection)
+* [Localización](#localization)
+
 ### <a name="selecting-which-pages-to-print"></a>Selección de páginas para imprimir
 
 Especifique las páginas que desea imprimir conforme al valor devuelto de [Obtener páginas](/rest/api/power-bi/reports/getpages) u [Obtener páginas en grupo](/rest/api/power-bi/reports/getpagesingroup). También puede especificar el orden de las páginas que está exportando.
+
+### <a name="exporting-a-page-or-a-single-visual"></a>Exportación de una página o un solo objeto visual
+
+Puede especificar una página o un solo objeto visual para que se exporte. Las páginas se pueden exportar con o sin marcadores.
+
+Dependiendo del tipo de exportación, deberá pasar atributos diferentes al objeto [ExportReportPage](/rest/api/power-bi/reports/exporttofile#exportreportpage). En la tabla siguiente se especifican los atributos necesarios para cada trabajo de exportación.  
+
+>[!NOTE]
+>Exportar un solo objeto visual tiene el mismo peso que exportar una página (con o sin marcadores). Esto significa que, en cuanto a los cálculos del sistema, ambas operaciones tienen el mismo valor.
+
+|Atributo   |Página     |Un solo objeto visual  |Comentarios|
+|------------|---------|---------|---|
+|`bookmark`  |Opcional |![No se aplica.](../../media/no.png)|Úselo para exportar una página con un estado específico.|
+|`pageName`  |![Se aplica a.](../../media/yes.png)|![Se aplica a.](../../media/yes.png)|Use la API REST [GetPages](/rest/api/power-bi/reports/getpage) o la API de cliente `getPages`. Para obtener más información, vea [Obtención de páginas y objetos visuales](/javascript/api/overview/powerbi/get-visuals).   |
+|`visualName`|![No se aplica.](../../media/no.png)|![Se aplica a.](../../media/yes.png)|Hay dos maneras de obtener el nombre del objeto visual:<li>Usar la API de cliente `getVisuals`. Para obtener más información, vea [Obtención de páginas y objetos visuales](/javascript/api/overview/powerbi/get-visuals).</li><li>Escuchar y registrar el evento *visualClicked*, que se desencadena cuando se selecciona un objeto visual. Para obtener más información, consulte [Procedimiento para controlar eventos](/javascript/api/overview/powerbi/handle-events).</li>. |
 
 ### <a name="bookmarks"></a>Marcadores
 
@@ -127,10 +153,10 @@ Un trabajo que supere su número de solicitudes simultáneas no se termina. Por 
 
 * El informe que va a exportar debe estar en una capacidad Premium o Embedded.
 * El conjunto de datos del informe que va a exportar debe estar en una capacidad Premium o Embedded.
-* Para la versión preliminar pública, el número de páginas de informes de Power BI exportadas por hora está limitado a 50 por capacidad.
+* En la versión preliminar pública, el número de exportaciones de Power BI por hora está limitado a 50 por capacidad. El término "exportación" se refiere a exportar un solo objeto visual o una página de informe con o sin marcadores (no se incluye la exportación de informes paginados).
 * Los informes exportados no pueden tener un tamaño superior a 250 MB.
 * Al exportar a .png, no se admiten las etiquetas de confidencialidad.
-* El número de páginas que se pueden incluir en un informe exportado es 50. Si el informe incluye más páginas, la API devuelve un error y el trabajo de exportación se cancela.
+* El número de exportaciones (objetos visuales individuales o páginas de informe) que se pueden incluir en un informe exportado es de 50 (no se incluye la exportación de informes paginados). Si la solicitud incluye más exportaciones, la API devuelve un error y el trabajo de exportación se cancela.
 * Los [marcadores personales](../../consumer/end-user-bookmarks.md#personal-bookmarks) y los [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) no se admiten.
 * Los objetos visuales de Power BI que se enumeran a continuación no se admiten. Cuando se exporta un informe que contiene estos objetos visuales, las partes del informe que contienen dichos objetos visuales no se representarán y mostrarán un símbolo de error.
     * Objetos visuales de Power BI sin certificar

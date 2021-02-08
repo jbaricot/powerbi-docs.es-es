@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 698f12f4bf5266373be8393d2add45d70979ab41
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8141b5049d777d27208e2db4b026a3fad4b74cfe
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418449"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043123"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Inserción de un informe de Power BI Report Server con un elemento iFrame en SharePoint Server
 
@@ -23,7 +23,7 @@ En este artículo, obtendrá información sobre cómo insertar un informe de Pow
 
 ## <a name="prerequisites"></a>Requisitos previos
 * [Power BI Report Server](https://powerbi.microsoft.com/report-server/) instalado y configurado.
-* [Power BI Desktop optimizado para Power BI Report Server](install-powerbi-desktop.md) instalado.
+* [Power BI Desktop para Power BI Report Server](install-powerbi-desktop.md) instalado.
 * Un [entorno de SharePoint 2013, 2016 o 2019](/sharepoint/install/install) instalado y configurado.
 * Internet Explorer 11 solo se admite si el modo de documento está establecido en el modo IE11 (Microsoft Edge) o cuando se usa SharePoint Online. Puede usar otros exploradores compatibles con SharePoint local y SharePoint Online.
 
@@ -33,7 +33,7 @@ En este artículo, obtendrá información sobre cómo insertar un informe de Pow
 
     ![Descarga del archivo PBIX de ejemplo](media/quickstart-embed/quickstart_embed_14.png)
 
-2. Descomprima el archivo y abra el archivo .pbix de ejemplo en Power BI Desktop optimizado para Power BI Report Server.
+2. Descomprima el archivo y abra el archivo .pbix de ejemplo en Power BI Desktop para Power BI Report Server.
 
     ![Herramienta de PBI RS Desktop](media/quickstart-embed/quickstart_embed_02.png)
 

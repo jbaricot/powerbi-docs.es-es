@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/06/2021
-ms.openlocfilehash: 51df40463a02c2c165ca6cde59ef2b16cda8860c
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
+ms.date: 02/01/2021
+ms.openlocfilehash: 6742b915cf4418cd0f9f735eaffea8da1d010e79
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053337"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422384"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registro de cambios de Power BI Report Server
 
@@ -21,6 +21,23 @@ Este registro de cambios es para el servidor de informes de Power BI y enumera l
 
 Para obtener más información sobre las nuevas características, vea [Novedades de Power BI Report Server](whats-new.md). 
 
+
+## <a name="january-2021"></a>Enero de 2021
+- **Servidor de informes de Power BI**
+    - *Versión: 1.10.7698.12811 (compilación 15.0.1105.194), fecha de publicación: 21 de enero de 2021*
+        - Características
+            - Se han agregado nuevos iconos relacionados con Power BI y con los informes de Power BI.
+            - API de objetos visuales personalizados incluida (versión 3.5.0)
+            - Se ha agregado una nueva experiencia en versión preliminar del portal mediante el cambio de características "UsePortalV2" de la tabla ConfigurationInfo del catálogo ReportServer.
+        - Corrección de errores
+            - Se ha corregido un problema con la actualización programada de los informes de Power BI con ciertos modelos que usan metadatos de modelo mejorados.
+            - Se ha corregido un problema al editar suscripciones controladas por datos en el portal.
+        - Actualizaciones de seguridad
+
+- **Power BI Desktop (optimizado para Power BI Report Server)**
+   - *Versión: 2.88.1382.0 (enero de 2021), fecha de publicación: 21 de enero de 2021* (nueva compilación y nueva versión)
+        - Contiene los cambios necesarios para la conexión con Power BI Report Server (enero de 2021)        
+   
 ## <a name="october-2020"></a>Octubre de 2020
 - **Servidor de informes de Power BI**
     - *Versión: 1.9.7675.15620 (compilación 15.0.1104.300), fecha de publicación: 8 de enero de 2021*

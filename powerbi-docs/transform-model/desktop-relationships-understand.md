@@ -2,18 +2,18 @@
 title: Relaciones de modelos en Power BI Desktop
 description: Introducción a la teoría sobre las relaciones de modelo en Power BI Desktop
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.openlocfilehash: 7aeae77efeadfa3b39f9c39cadc36b2a046286b2
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 101207fe60f4e66344b936bdef2c4b18d9ab947f
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888623"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088175"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Relaciones de modelos en Power BI Desktop
 
@@ -53,7 +53,7 @@ Una relación de modelo relaciona una columna de una tabla con una columna de ot
 
 ### <a name="cardinality"></a>Cardinalidad
 
-Cada relación de modelo debe definirse con un tipo de cardinalidad. Hay cuatro opciones de tipo de cardinalidad, que representan las características de los datos de las columnas relacionadas "de" y "a". El lado "uno" significa que la columna contiene valores únicos; el lado "dos" significa que la columna puede contener valores duplicados.
+Cada relación de modelo debe definirse con un tipo de cardinalidad. Hay cuatro opciones de tipo de cardinalidad, que representan las características de los datos de las columnas relacionadas "de" y "a". El lado "uno" significa que la columna contiene valores únicos; el lado "varios" significa que la columna puede contener valores duplicados.
 
 > [!NOTE]
 > Si una operación de actualización de datos intenta cargar valores duplicados en una columna de lado "uno", se producirá un error en la operación completa de actualización.

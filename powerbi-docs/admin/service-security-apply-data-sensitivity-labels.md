@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 12/09/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 09188b3b03fd5bfb720b98045ee9d895d337d677
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: a50a8c8514a4316f16a6a38647804aabf878d5ad
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969176"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925691"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Aplicación de etiquetas de confidencialidad en Power BI
 
@@ -95,7 +95,7 @@ Una vez aplicada la etiqueta, estará visible en la barra de estado.
 ![Captura de pantalla que muestra la etiqueta de confidencialidad en la barra de estado de Desktop.](media/service-security-apply-data-sensitivity-labels/sensitivity-label-in-desktop-status-bar.png)
 
 ### <a name="sensitivity-labels-when-uploading-or-downloading-pbix-files-tofrom-the-service"></a>Etiquetas de confidencialidad al cargar o descargar archivos .pbix en el servicio
-* Al publicar un archivo .pbix en el servicio Power BI desde Desktop, o al cargar un archivo .pbix en el servicio Power BI directamente a través de **Obtener datos**, la etiqueta del archivo .pbix se aplica tanto al informe como al conjunto de datos que se crean en el servicio. Si el archivo .pbix que está publicando o cargando reemplaza los recursos existentes (es decir, los recursos que tienen el mismo nombre que el archivo .pbix), la etiqueta del archivo .pbix sobrescribirá cualquier etiqueta de esos recursos.
+* Al publicar un archivo .pbix en el servicio Power BI desde Desktop, o al cargar un archivo .pbix en el servicio Power BI directamente a través de **Obtener datos**, la etiqueta del archivo .pbix se aplica tanto al informe como al conjunto de datos que se crean en el servicio. Si el archivo .pbix que está publicando o cargando reemplaza los recursos existentes (es decir, los recursos que tienen el mismo nombre que el archivo .pbix), la etiqueta del archivo .pbix sobrescribirá cualquier etiqueta de esos recursos. Si el archivo .pbix no tiene etiquetas, se conservarán las etiquetas del servicio.
 * Cuando se usa "Descargar al archivo .pbix" en el servicio Power BI, si el informe y el conjunto de datos que se está descargando tienen etiquetas y esas etiquetas son diferentes, la etiqueta que se aplicará al archivo .pbix es la más restrictiva de las dos.
 
 ## <a name="remove-sensitivity-labels"></a>Etiquetas de confidencialidad remotas

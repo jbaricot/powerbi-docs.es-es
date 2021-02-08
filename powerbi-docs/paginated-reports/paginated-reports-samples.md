@@ -7,13 +7,13 @@ ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/10/2020
-ms.openlocfilehash: cfa4b46e521079802ec87b63d6323e01213625c3
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.date: 01/28/2021
+ms.openlocfilehash: 282700151e605bd3571847b3b75f08e65f948e08
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483928"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044359"
 ---
 # <a name="sample-power-bi-paginated-reports"></a>Informes paginados de Power BI de ejemplo
 
@@ -119,6 +119,32 @@ Rendimiento de las ventas por países es un ejemplo de informe paginado independ
 - Barras de datos.
 - Líneas de tendencia.
 - Paneles de medidores.
+
+Origen de datos: incluido en el archivo .rdl
+
+## <a name="regional-sales"></a>Ventas regionales
+
+:::image type="content" source="media/paginated-reports-samples/paginated-report-regional-sales.png" alt-text="Captura de pantalla del ejemplo de informe paginado de Power BI relativo a las ventas regionales.":::
+
+Las ventas regionales es un ejemplo de un informe paginado independiente. El escenario de este informe es que quiere un informe que se pueda imprimir con una calidad de píxeles perfecta para ver las ventas totales frente a la cuota. Muestra estas características:
+
+- Uso de un parámetro para mostrar los detalles seleccionados de la tabla.
+- Encabezados y pies de página.
+- Elementos del informe como cuadros de texto, líneas y rectángulos con marcadores de posición de expresiones.
+- Paneles de medidores.
+- Gráfico de líneas colocado dentro de la tabla.
+
+Origen de datos: incluido en el archivo .rdl
+
+## <a name="organization-expenditures"></a>Gastos de la organización
+
+:::image type="content" source="media/paginated-reports-samples/paginated-report-organization-expenditures.png" alt-text="Captura de pantalla de un ejemplo de informe paginado de Power BI relativo a los gastos de la organización.":::
+
+Los gastos de la organización es un ejemplo de informe paginado independiente. El escenario de este informe es que quiere un informe que se pueda imprimir con una calidad de píxeles perfecta para ver el desglose de los gastos de su organización. Muestra estas características:
+
+- Encabezados y pies de página.
+- Elementos del informe como cuadros de texto, líneas y rectángulos con marcadores de posición de expresiones.
+- Gráficos como gráfico de rectángulos y de proyección solar.
 
 Origen de datos: incluido en el archivo .rdl
   

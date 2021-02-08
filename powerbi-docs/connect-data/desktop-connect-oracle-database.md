@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 134c11108da77c87ba087df9ac5564521d7a303d
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 32029ee1c5b19205fafe10c77babfe9bf764341d
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926386"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086473"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Conexión a una base de datos de Oracle con Power BI Desktop
 Para conectarse a una base de datos de Oracle con Power BI Desktop, en el equipo donde se ejecute Power BI Desktop debe estar instalado el software cliente de Oracle correcto. El software cliente de Oracle que use depende de la versión que Power BI Desktop que haya instalado: 32 bits o 64 bits. También depende de la versión del servidor de Oracle.
@@ -24,7 +24,7 @@ Versiones de Oracle compatibles:
 - Software de Oracle Data Access Client (ODAC) 11.2 y versiones posteriores
 
 > [!NOTE]
-> Si va a configurar una base de datos de Oracle para Power BI Desktop, una puerta de enlace de datos local o Power BI Report Server, consulte la información del artículo [Tipo de conexión de Oracle](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15). 
+> Si va a configurar una base de datos de Oracle para Power BI Desktop, una puerta de enlace de datos local o Power BI Report Server, consulte la información del artículo [Tipo de conexión de Oracle](/sql/reporting-services/report-data/oracle-connection-type-ssrs). 
 
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Determinación de versión instalada de Power BI Desktop
@@ -58,7 +58,7 @@ Después de instalar el controlador cliente de Oracle que corresponda, puede con
    > [!NOTE]
    > Si está utilizando una base de datos local, o conexiones a bases de datos autónomas, es posible que deba colocar el nombre del servidor entre comillas para evitar errores de conexión. 
       
-4. Si quiere importar datos con una consulta de base de datos nativa, incluya la consulta en el cuadro **Instrucción SQL**, que aparece al expandir la sección **Opciones avanzadas** del cuadro de diálogo **Base de datos de Oracle**.
+4. Si quiere importar datos con una consulta de base de datos nativa, incluya la consulta en el cuadro **Instrucción SQL**, que aparece al expandir la sección **Opciones avanzadas** del cuadro de diálogo **Base de datos de Oracle**.  Power BI Desktop no admite consultas nativas de Oracle que ejecuten un procedimiento almacenado. Las consultas nativas de Oracle en el bloque "begin... end" no devuelven ningún conjunto de resultados.  
    
    ![Expansión de Opciones avanzadas](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
 
@@ -89,4 +89,5 @@ Si ha descargado Power BI Desktop desde Microsoft Store, es posible que no pueda
 
 Si ve el mensaje de error *Referencia de objeto no establecida* en Power BI Gateway al conectarse a una base de datos de Oracle, siga las instrucciones de [Administración del origen de datos: Oracle](service-gateway-onprem-manage-oracle.md).
 
-Si usa Power BI Report Server, consulte las instrucciones del artículo [Tipo de conexión de Oracle](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15).
+Si usa Power BI Report Server, consulte las instrucciones del artículo [Tipo de conexión de Oracle](/sql/reporting-services/report-data/oracle-connection-type-ssrs).
+

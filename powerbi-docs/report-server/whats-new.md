@@ -7,33 +7,98 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/30/2020
-ms.openlocfilehash: 14b629eed17eca2d1e016913dcfffb5858d4ddc3
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.date: 01/27/2021
+ms.openlocfilehash: bb69df893a3a9841d911e558e2ef2afb09230122
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96120762"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087094"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
 
-Obtenga información sobre las novedades de las últimas versiones de Power BI Report Server y Power BI Desktop optimizado para Power BI Report Server. En este artículo se cubren las principales áreas de características y se actualiza con cada nueva versión. Para obtener más información sobre las novedades de Power BI Report Server, vea el [Registro de cambios de Power BI Report Server](changelog.md).
+Obtenga información sobre las novedades de las últimas versiones de Power BI Report Server y Power BI Desktop para Power BI Report Server. En este artículo se cubren las principales áreas de características y se actualiza con cada nueva versión. Para obtener más información sobre las novedades de Power BI Report Server, vea el [Registro de cambios de Power BI Report Server](changelog.md).
 
-Descargue [Power BI Report Server y Power BI Desktop optimizado para Power BI Report Server](https://powerbi.microsoft.com/report-server/).
+Descargue [Power BI Report Server y Power BI Desktop para Power BI Report Server](https://powerbi.microsoft.com/report-server/).
+
+## <a name="january-2021"></a>Enero de 2021
+
+A continuación se muestra una lista de las características nuevas y actualizadas. Para obtener más información, vea la [entrada de blog de Power BI Report Server de enero de 2021](https://powerbi.microsoft.com/blog/power-bi-report-server-january-2021-feature-summary/).
+
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>Power BI Desktop para Power BI Report Server
+
+Estos son algunos aspectos destacados de las nuevas características.
+
+**Informes de Power BI**
+
+- Aplicación de todos los filtros ya disponible con carácter general
+- Control deslizante de zoom de objetos visuales
+- Comprobación de la revocación de certificados para las conexiones web
+- Panel de selección en la vista de diseño para dispositivos móviles
+- Compatibilidad de ArcGIS con Power BI
+
+**Conectividad de datos**
+
+- Disponibilidad general del conector Hive LLAP
+- Nuevos conectores: Actian, Anaplan, Starburst Presto
+
+### <a name="new-connection-metadata-format-preview"></a>Nuevo formato de metadatos de conexión (versión preliminar)
+
+En octubre actualizamos la forma en la que se almacenan los metadatos de conexión en el formato de archivo .pbix. Esta actualización forma parte de un recorrido a largo plazo para hacer que los archivos .pbix sean más accesibles y editables mediante programación. Ya se ha habilitado el cambio en la versión de Power BI Desktop que se lanza mensualmente en línea con el servicio Power BI. A partir de este mes, dichos cambios estarán disponibles a modo de versión preliminar en esta versión de Power BI Desktop para Report Server.
+
+A partir de esta versión, verá la siguiente notificación, en la que se le pedirá que active la versión preliminar y realice la actualización al formato mejorado:
+
+"Próximamente: active la versión preliminar del formato de metadatos mejorado para obtener mejores actualizaciones de rendimiento y seguridad en Power BI".
+
+Tenga en cuenta lo siguiente:
+
+- Los conjuntos de datos existentes seguirán funcionando, incluso sin aplicar la actualización. Estos se actualizarán cuando el formato mejorado esté disponible con carácter general.
+- Power BI Desktop para Report Server actualizará automáticamente un conjunto de datos existente al formato mejorado. Se recomienda no sobrescribir los informes existentes en Report Server por esta versión actualizada, en caso de que quiera revertirlos al formato anterior.
+- Participar en esta versión preliminar es opcional, pero le recomendamos que la pruebe y nos envíe sus comentarios. Nuestro objetivo es que el formato mejorado esté disponible con carácter general como única opción en la próxima versión de Report Server.
+ 
+Como administrador, puede deshabilitar esta versión preliminar, forzar la desactivación de la V3 y ocultar la casilla de la característica en versión preliminar. Establezca el siguiente valor DWORD en 0 en el Registro: AllowV3Models en:
+
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop SSRS]
+"AllowV3Models"=dword:00000000
+```
+
+or
+
+```
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop SSRS]
+"AllowV3Models"=dword:00000000
+```
+
+Para obtener más información, consulte [Uso de los metadatos de conjuntos de datos mejorados](../connect-data/desktop-enhanced-dataset-metadata.md).
+
+### <a name="power-bi-report-server"></a>Power BI Report Server
+
+**Fin de la compatibilidad del explorador**
+
+Si usa la versión heredada de Edge o Internet Explorer 11, es el momento de actualizar su explorador. La compatibilidad con el explorador heredado Edge finaliza el 9 de marzo de 2021. La compatibilidad con Internet Explorer 11 termina el 17 de agosto de 2021. 
+
+Verá una advertencia en el portal web de Power BI Report Server que indica que Internet Explorer 11 está en desuso. Es el momento de una actualización. Para obtener más información, consulte [Compatibilidad del explorador con Power BI Report Server](browser-support.md).
+
+**Nuevo icono de producto**
+
+Power BI Report Server tiene un nuevo icono de producto, en consonancia con los nuevos iconos que se están implementando en todos los productos de Microsoft.
+
+:::image type="content" source="media/whats-new/power-bi-report-server-new-logo.png" alt-text="Nuevo logotipo de Power BI Report Server.":::
 
 ## <a name="october-2020"></a>Octubre de 2020
 
 A continuación se muestra una lista completa de las características nuevas y actualizadas. Para obtener más información, vea la [entrada de blog de Power BI Report Server de octubre de 2020](https://powerbi.microsoft.com/blog/power-bi-report-server-october-2020-feature-summary/). 
 
-### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Desktop optimizado para Power BI Report Server
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>Power BI Desktop para Power BI Report Server
 
 Estos son algunos aspectos destacados de las nuevas características.
 
 **Cinta moderna**  
 
-La cinta moderna ha llegado a Power BI Desktop optimizado para Power BI Report Server. Se seguirán realizando adiciones y agregando más características a la cinta. Vea [Uso de la cinta actualizada en Power BI Desktop](../create-reports/desktop-ribbon.md) para obtener más información sobre sus cambios y ventajas.
+La cinta moderna ha llegado a Power BI Desktop para Power BI Report Server. Se seguirán realizando adiciones y agregando más características a la cinta. Vea [Uso de la cinta actualizada en Power BI Desktop](../create-reports/desktop-ribbon.md) para obtener más información sobre sus cambios y ventajas.
 
-:::image type="content" source="media/whats-new/report-server-new-ribbon.png" alt-text="Captura de pantalla de la nueva cinta en Power BI Desktop optimizado para Power BI Report Server.":::
+:::image type="content" source="media/whats-new/report-server-new-ribbon.png" alt-text="Captura de pantalla de la nueva cinta en Power BI Desktop para Power BI Report Server.":::
 
 **Segmentaciones de jerarquías**
 
@@ -44,13 +109,13 @@ Puede crear lo que se denomina una *segmentación de jerarquía* para filtrar va
 - Sangría personalizable para los elementos secundarios.
 - Personalización adicional para el texto de encabezado de la segmentación.
 
-:::image type="content" source="media/whats-new/report-server-slicer-hierarchy.png" alt-text="Segmentación de jerarquía en Power BI Desktop optimizado para Power BI Report Server.":::
+:::image type="content" source="media/whats-new/report-server-slicer-hierarchy.png" alt-text="Segmentación de jerarquía en Power BI Desktop para Power BI Report Server.":::
 
 Vea [Segmentaciones en Power BI](../visuals/power-bi-visualization-slicers.md) en la documentación para obtener más información.
 
 **Mejoras en la creación para dispositivos móviles** 
 
-En esta versión, se presenta una experiencia mejorada de creación de diseño para dispositivos móviles y otras funcionalidades de diseño para dispositivos móviles. A medida que más organizaciones han adoptado las aplicaciones móviles de Power BI, hemos recibido comentarios solicitando más funciones y mejoras relativas a la experiencia de creación para dispositivos móviles. Las mejoras de esta versión le ayudarán a crear informes interactivos y atractivos optimizados para dispositivos móviles con más facilidad.
+En esta versión, se presenta una experiencia mejorada de creación de diseño para dispositivos móviles y más funcionalidades de diseño para dispositivos móviles. A medida que más organizaciones han adoptado las aplicaciones móviles de Power BI, hemos recibido comentarios solicitando más funciones y mejoras relativas a la experiencia de creación para dispositivos móviles. Las mejoras de esta versión le ayudarán a crear informes interactivos y atractivos optimizados para dispositivos móviles con más facilidad.
 
 Estas son las nuevas experiencias y funciones a fin de crear informes optimizados para dispositivos móviles:  
 
@@ -60,7 +125,7 @@ Estas son las nuevas experiencias y funciones a fin de crear informes optimizado
 - Marcadores disponibles en la vista de diseño para móviles  
 - Desactivación de las líneas de la cuadrícula y ajuste a la cuadrícula  
 
-:::image type="content" source="media/whats-new/report-server-mobile-layout.png" alt-text="Diseño para dispositivos móviles mejorado en Power BI Desktop optimizado para Power BI Report Server.":::
+:::image type="content" source="media/whats-new/report-server-mobile-layout.png" alt-text="Diseño para dispositivos móviles mejorado en Power BI Desktop para Power BI Report Server.":::
 
 Vea la entrada del blog [Mejoras en la creación para dispositivos móviles](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) para obtener más información.
 
@@ -68,7 +133,7 @@ Vea la entrada del blog [Mejoras en la creación para dispositivos móviles](htt
 
 Esta nueva característica del conector de Excel identifica automáticamente las secciones de cada hoja de cálculo de Excel que se van a extraer en una tabla. Se muestran en un grupo "Tablas sugeridas" en el Navegador. Anteriormente, los datos debían tener formato de tabla o rango con nombre en Excel. De lo contrario, había que descartar las filas o columnas pertinentes con transformaciones específicas, como omitir filas y quitar columnas, de objetos de hoja de cálculo, como en Hoja1 en el ejemplo siguiente. Para usar esta característica, debe habilitarla en el cuadro de diálogo **Configuración**.
 
-:::image type="content" source="media/whats-new/report-server-excel-table.png" alt-text="Reconocimiento de una tabla de Excel en Power BI Desktop optimizado para Power BI Report Server.":::
+:::image type="content" source="media/whats-new/report-server-excel-table.png" alt-text="Reconocimiento de una tabla de Excel en Power BI Desktop para Power BI Report Server.":::
 
 **Modelado: metadatos de conjuntos de datos mejorados**
 
@@ -81,15 +146,15 @@ Por ejemplo:
 - Con la adición de herramientas externas en Power BI Desktop (actualmente en versión preliminar), las tablas que agregue a través de estas herramientas externas aparecen ahora como consultas al volver a abrir el informe.
 - Si ha intentado exportar un archivo .pbit y descomprimirlo, ahora verá el modelo en JSON y ya no obtendrá errores de archivos dañados. 
 
-Si tiene un archivo .pbix anterior que no se puede actualizar de forma automática, por motivos como cambios no aplicados, tendrá que actualizar correctamente el modelo antes de poder realizar cualquier cambio de modelado adicional. 
+Si tiene un archivo .pbix anterior que no se puede actualizar de forma automática, por motivos como cambios no aplicados, tendrá que actualizar correctamente el modelo antes de poder realizar cualquier otro cambio de modelado. 
 
 **Fin de la compatibilidad con Windows 7**
 
-Después de 10 años, la compatibilidad con Windows 7 finalizó el 14 de enero de 2020. En el mismo sentido, la compatibilidad con Power BI Desktop en Windows 7 dejará de estar disponible el 31 de enero de 2021. Después de esa fecha, Power BI Desktop solo se admitirá en Windows 8 y versiones posteriores. La versión de enero de 2021 de Power BI Desktop optimizado para Report Server se admitirá según la directiva relativa al ciclo de vida moderno. Es decir, será totalmente compatible hasta la próxima versión (programada actualmente para mayo de 2021). Después de mayo de 2021, solo recibirá actualizaciones de seguridad hasta enero de 2022. Toda la compatibilidad se detendrá después de enero de 2022. Vea [Escala de tiempo del soporte técnico para el servidor de informes de Power BI](support-timeline.md) para obtener más información. 
+Después de 10 años, la compatibilidad con Windows 7 finalizó el 14 de enero de 2020. En línea con este cambio, la compatibilidad con Power BI Desktop en Windows 7 dejará de estar disponible el 31 de enero de 2021. Después de esa fecha, Power BI Desktop solo se admitirá en Windows 8 y versiones posteriores. La versión de enero de 2021 de Power BI Desktop optimizado para Report Server se admitirá según la directiva relativa al ciclo de vida moderno. Es decir, será totalmente compatible hasta la próxima versión (programada actualmente para mayo de 2021). Después de mayo de 2021, solo recibirá actualizaciones de seguridad hasta enero de 2022. Toda la compatibilidad se detendrá después de enero de 2022. Vea [Escala de tiempo del soporte técnico para el servidor de informes de Power BI](support-timeline.md) para obtener más información. 
 
 **Lista completa de actualizaciones**
 
-Esta es una lista completa de las actualizaciones de la edición de octubre de Power BI Desktop optimizado para Power BI Report Server. 
+Aquí tiene una lista completa de las actualizaciones de la edición de octubre de Power BI Desktop para Power BI Report Server. 
 
 **Generación de informes**
 
@@ -145,7 +210,7 @@ En la versión de octubre de Power BI Report Server, se habilita la capacidad d
 
 ## <a name="may-2020"></a>Mayo de 2020
 
-### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Desktop optimizado para Power BI Report Server
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>Power BI Desktop para Power BI Report Server
 
 Entre los aspectos destacados de esta actualización se encuentran los objetos visuales de segmentación de datos jerárquica y de esquema jerárquico, y los diagnósticos de consultas. A continuación se muestra una lista completa de las características nuevas y actualizadas. Para obtener más información, vea la [entrada de blog de Power BI Report Server de mayo de 2020](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/). 
 
@@ -203,7 +268,7 @@ La versión de la API incluida con esta versión es la 3.2.
 
 Para más información, consulte la entrada de blog de Power BI Report Server de enero de 2020.
 
-### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Desktop optimizado para Power BI Report Server
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>Power BI Desktop para Power BI Report Server
 
 Esta versión ofrece muchas características nuevas, como el formato condicional de botones, mejoras en la generación de perfiles de datos y más valores de formato para KPI y objetos visuales de tabla. Esta es una lista resumida de actualizaciones:
 
@@ -427,7 +492,7 @@ Los informes de Power BI son interactivos. Tiene sentido que los títulos de un 
 
 #### <a name="cross-highlight-by-axis-labels"></a>Resaltado cruzado por etiquetas de eje
 
-Seleccione las etiquetas de la categoría del eje en un elemento visual para resaltar de forma cruzada el resto de elementos de una página, igual que seleccionaría los puntos de datos de un elemento visual. Obtenga más información sobre el [Resaltado cruzado](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
+Seleccione las etiquetas de la categoría del eje en un elemento visual para resaltar de forma cruzada el resto de elementos de una página, igual que seleccionaría los puntos de datos de un elemento visual. Obtenga más información sobre el [Resaltado cruzado](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-cross-filtering-and-cross-highlighting).
 
 #### <a name="all-the-new-features"></a>Todas las características nuevas
 
@@ -503,7 +568,7 @@ Los administradores pueden establecer las siguientes propiedades en las propieda
 
 ## <a name="august-2018"></a>Agosto de 2018
 
-La versión de agosto de 2018 incluye muchas características nuevas incorporadas a Power BI Desktop optimizado para Power BI Report Server. Aquí están, desglosadas por área:
+La versión de agosto de 2018 incluye muchas características nuevas incorporadas a Power BI Desktop para Power BI Report Server. Aquí están, desglosadas por área:
 
 - [Informes](#reporting)
 - [Análisis](#analytics)
@@ -609,7 +674,7 @@ Como administrador de TI, ya puede usar la herramienta MDM de su organización p
 
 ## <a name="march-2018"></a>Marzo de 2018
 
-La versión de marzo de 2018 incluye muchísimas características nuevas a la versión de Power BI Desktop optimizado para Power BI Report Server. Aquí están, desglosadas por área:
+La versión de marzo de 2018 incluye muchísimas características nuevas incorporadas a Power BI Desktop para Power BI Report Server. Aquí están, desglosadas por área:
 
 - [Objetos visuales](#visuals-updates)
 - [Informes](#reporting)

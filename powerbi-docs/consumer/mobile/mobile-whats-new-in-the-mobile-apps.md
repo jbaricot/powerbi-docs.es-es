@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 8301b51ccbb2ac344e24a297f9a309fc3601b3e1
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: 4a50d35ee3aa25932537846a13fc2d75c6fa38df
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565585"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925799"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -24,6 +24,10 @@ Para obtener información sobre novedades, vea:
 
 >[!NOTE]
 >El soporte técnico de la aplicación móvil de Power BI con **teléfonos con Windows 10 Mobile** finalizará el 16 de marzo de 2021. [Más información](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="january-2021"></a>Enero de 2021
+### <a name="workspace-support-with-a-power-bi-free-license"></a>Compatibilidad de las áreas de trabajo con una licencia gratuita de Power BI
+Los usuarios con una licencia gratuita de Power BI pueden ver las áreas de trabajo a las que se les haya agregado como espectadores directamente desde la lista de áreas de trabajo, así como acceder a ellas. Este cambio se aplica al contenido hospedado en una capacidad de Power BI Premium.
 
 ## <a name="december-2020"></a>Diciembre de 2020
 ### <a name="weve-added-anomaly-detection-to-the-mobile-apps"></a>La detección de anomalías se agregó a las aplicaciones móviles

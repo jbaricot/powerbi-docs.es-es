@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
-ms.openlocfilehash: 85fcd6249a833c35cb98fca6abf2881ab1a4bf7e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e66b15498f7ba66005448d88dc26cf715947f7da
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418426"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044030"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Exploración del portal web de Power BI Report Server en una máquina virtual
 En este tutorial, creara una máquina virtual de Azure con Power BI Report Server ya instalado, para que pueda experimentar con la visualización, edición y administración de KPI e informes paginados y de Power BI de ejemplo.
@@ -103,7 +103,7 @@ Cuando se abre la máquina virtual, estos son los elementos que puede ver en el 
 |---------|---------|
 |![Número 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Ejemplo de informes de Power BI (.PBIX) |
 |![Número 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Vínculos a documentación de Power BI Report Server |
-|![Número 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Inicia Power BI Desktop optimizado para Power BI Report Server (enero de 2019) |
+|![Número 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Inicia Power BI Desktop para Power BI Report Server (enero de 2021). |
 |![Número 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Abre el portal web de Power BI Report Server en el explorador |
 |![Número 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Inicia SQL Server Data Tools para crear informes paginados (.RDL) |
 
@@ -162,7 +162,7 @@ Puede visualizar informes de Power BI en el portal web e interactuar con ellos, 
 
 1. Seleccione **Permitir** para permitir que este sitio web abra un programa en el equipo. 
 
-     El informe se abre en Power BI Desktop. Fíjese en el nombre de la barra superior, "Power BI Desktop (enero de 2019)". Se trata de la versión optimizada para Power BI Report Server.
+     El informe se abre en Power BI Desktop. Fíjese en el nombre de la barra superior, "Power BI Desktop (enero de 2021)". Se trata de la versión optimizada para Power BI Report Server.
 
     Use la versión de Power BI Desktop instalada en la máquina virtual. No puede pasar entre dominios para cargar un informe.
 

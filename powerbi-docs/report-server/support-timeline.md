@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 07b3004553f62dbdd138d93bf1aba2c08287b9c6
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.date: 01/25/2021
+ms.openlocfilehash: 5dbc4526061d6b39a3e7f4eff3b06a68784792f6
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044810"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043468"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Escala de tiempo del soporte técnico para el servidor de informes de Power BI
 
@@ -30,12 +30,12 @@ Esta directiva de soporte técnico nos permite ofrecer innovación a nuestros cl
 
 | **Versión** | **Fecha de disponibilidad** | **Fecha de finalización del soporte técnico** |
 | --- | --- | --- |
-| Septiembre de 2019 | Septiembre de 2019 | Ya no se admiten las versiones de septiembre de 2019 ni ninguna de las anteriores.
-| Enero de 2020 | Enero de 2020 | Enero de 2021
+| Enero de 2020 | Enero de 2020 | Ya no se admiten las versiones de enero de 2020 ni ninguna de las anteriores
 | Mayo de 2020 | Mayo de 2020 | Mayo de 2021
 | Octubre de 2020 | Octubre de 2020 | Octubre de 2021
+| Enero de 2021 | Enero de 2021 | Enero de 2022
 
-Para descargar el servidor de informes de Power BI y Power BI Desktop optimizado para el servidor de informes de Power BI, vaya a [Publicar informes en almacenamiento local con el servidor de informes de Power BI](https://powerbi.microsoft.com/report-server/).
+Para descargar Power BI Report Server y Power BI Desktop para Power BI Report Server, vaya a [Informes locales con Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Novedades en el servidor de informes de Power BI](whats-new.md)  

@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: d485c7ab7583d2604cd9da9e4c122c6cceeeb4fe
-ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
+ms.openlocfilehash: 8fbe19beddbb95b27828ee1fae73860fe92e6b4f
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95012010"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044171"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Introducción al manual del desarrollador: servidor de informes de Power BI
 
 Este es el manual del desarrollador para el servidor de informes de Power BI, una ubicación local para almacenar y administrar informes paginados, móviles o de Power BI.
 
-![Manual del administrador](media/developer-handbook-overview/admin-handbook.png)
+![Información general de Power BI Report Server.](media/admin-handbook-overview/admin-handbook.png)
 
 En este manual se resaltan las opciones que, como desarrollador, tiene para trabajar con Power BI Report Server.
 

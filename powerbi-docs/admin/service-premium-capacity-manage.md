@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 02/01/2021
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: ced239ba0ac8f34314caf559a04126bf64ca7c50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 32ef0845c2482b4f8a71240f432071b44cb518ea
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412354"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494337"
 ---
 # <a name="managing-premium-capacities"></a>Administración de las capacidades Premium
 
@@ -44,7 +44,7 @@ Se debe asignar al menos un administrador de capacidad. Los usuarios asignados c
 
 Los administradores de capacidad no pueden acceder al contenido del área de trabajo a menos que se los asigne explícitamente en permisos del área de trabajo. Tampoco tienen acceso a todas las áreas de administración de Power BI (a menos que se asignen de manera explícita), como métricas de uso, registros de auditoría o configuración del inquilino. Lo importante es que los administradores de capacidad no tienen permisos para crear capacidades nuevas ni para escalar las existentes. Los administradores se asignan por capacidad, lo que garantiza que solo podrán ver y administrar las capacidades a las que están asignados.
 
-El tamaño de la capacidad se selecciona en una lista de las opciones de SKU disponible, que se ve restringida por el número de núcleos virtuales disponibles en el grupo. Es posible crear varias capacidades desde el grupo, cuyo origen puede ser una o varias SKU compradas. Por ejemplo, una SKU P3 (32 núcleos virtuales) se podría usar para crear tres capacidades: una P2 (16 núcleos virtuales) y dos P1 (2 x 8 núcleos virtuales). Es posible mejorar el rendimiento y la escala mediante la creación de capacidades de menor tamaño, tal como se describe en el artículo [Optimización de las capacidades Premium](service-premium-capacity-optimize.md). En la imagen siguiente se muestra una configuración de ejemplo para la organización ficticia Contoso, que consta de cinco capacidades Premium (3 x P1 y 2 x P3), donde cada una contiene áreas de trabajo y varias áreas de trabajo en la capacidad compartida.
+El tamaño de la capacidad se selecciona en una lista de las opciones de SKU disponible, que se ve restringida por el número de núcleos virtuales disponibles en el grupo. Es posible crear varias capacidades desde el grupo, cuyo origen puede ser una o varias SKU compradas. Por ejemplo, una SKU P3 (32 núcleos virtuales) se podría usar para crear tres capacidades: una P2 (16 núcleos virtuales) y dos P1 (2 x 8 núcleos virtuales). En la imagen siguiente se muestra una configuración de ejemplo para la organización ficticia Contoso, que consta de cinco capacidades Premium (3 x P1 y 2 x P3), donde cada una contiene áreas de trabajo y varias áreas de trabajo en la capacidad compartida.
 
 ![Una configuración de ejemplo para la organización ficticia Contoso](media/service-premium-capacity-manage/contoso-organization-example.png)
 
@@ -63,6 +63,8 @@ Los permisos de asignación son necesarios para asignar un área de trabajo a un
 De manera predeterminada, las capacidades Premium admiten cargas de trabajo asociadas con la ejecución de consultas de Power BI. Las capacidades Premium también admiten otras cargas de trabajo: **IA (Cognitive Services)** , **Informes paginados** y **Flujos de datos**. Cada carga de trabajo requiere configurar la memoria máxima (como un porcentaje de la memoria total disponible) que puede usar la carga de trabajo. Es importante comprender que el aumento de las asignaciones de memoria máxima puede afectar el número de modelos activos que se pueden hospedar y el rendimiento de las actualizaciones. 
 
 La memoria se asigna de manera dinámica a los flujos de datos, pero de forma estática a los informes paginados. La razón para asignar estáticamente la memoria máxima es que los informes paginados se ejecutan dentro de un espacio contenido protegido de la capacidad. Se debe tener cuidado al establecer la memoria de los informes paginados, ya que se reduce la memoria disponible para cargar los modelos. Para más información, consulte la [configuración de memoria predeterminada](service-admin-premium-workloads.md#default-memory-settings).
+
+En el caso de Premium Gen2, no es necesaria ninguna actualización ni configuración de memoria. Todas las cargas de trabajo tienen toda la memoria que necesitan, dentro de los límites de su SKU de capacidad.
 
 Es posible eliminar una capacidad Premium, lo que no eliminará las áreas de trabajo ni el contenido. En lugar de eso, todas las áreas de trabajo asignadas se mueven a la capacidad compartida. Cuando se creó la capacidad Premium en otra región, el área de trabajo se mueve a la capacidad compartida de la región de inicio.
 

@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/29/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a793ff966f7560924f53357ce7518f0ede65c56
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 572bbc8b24fc3ebf8ee2890480eff25eab87d37d
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393586"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087830"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filtros y resaltado en informes de Power BI
- En este artículo se presentan el filtrado y el resaltado en el servicio Power BI. aunque la experiencia es casi exactamente la misma que en Power BI Desktop. Los *filtros* eliminan todos los datos excepto aquellos en los que desea centrarse. El *resaltado* no es el filtrado. No elimina los datos, sino que resalta un subconjunto de los datos visibles; los datos que no se resaltan permanecen visibles pero atenuados.
+ En este artículo se presentan el filtrado y el resaltado en el servicio Power BI. aunque la experiencia es casi exactamente la misma que en Power BI Desktop. Los *filtros* eliminan todos los datos excepto aquellos en los que desea centrarse. En términos generales, *resaltar* no es lo mismo que filtrar. En la mayoría de los objetos visuales, los datos no relacionados no se eliminan. En su lugar, se resalta el subconjunto de datos relacionados. El resto de los datos permanecen visibles pero atenuados. Consulte [Resaltado y filtrado cruzado ad hoc](#ad-hoc-cross-filtering-and-cross-highlighting) más adelante en este artículo para obtener más información.
 
 Hay muchas formas distintas de filtrar y resaltar informes en Power BI. Colocar toda la información en un artículo podría ser confuso, por lo que se han realizado las siguientes divisiones:
 
@@ -41,7 +41,7 @@ Puede aplicar filtros en el panel **Filtros** o [realizando selecciones en las s
 Hay cuatro tipos de filtros.
 
 - Los **filtros de página** se aplican a todos los objetos visuales de la página del informe.     
-- Los **filtros visuales** se aplican a un solo objeto visual de una página del informe. Solo verá los filtros de nivel visual en caso de haber seleccionado un objeto visual en el lienzo del informe.    
+- Los **filtros visuales** se aplican a un solo objeto visual de una página del informe. Solo verá los filtros a nivel de objeto visual si ha seleccionado un objeto visual en el lienzo del informe.    
 - Los **filtros de informe** se aplican a todas las páginas del informe.    
 - Los **filtros de obtención de detalles** se aplican a una sola entidad en un informe.    
 
@@ -49,7 +49,7 @@ Puede realizar búsquedas en los filtros de página, objeto visual e informe en 
 
 ![Búsqueda en un filtro](media/power-bi-reports-filters-and-highlighting/power-bi-search-filter.png)
 
-Si el filtro contiene la palabra **Todo** junto a él, que significa que todos los valores del campo se incluyen en el filtro.  Por ejemplo, **Cadena(Todas)** , como se puede ver en la captura de pantalla siguiente, indica que esta página del informe incluye datos sobre todas las cadenas del almacén.  Por otro lado, el filtro de nivel de informe **AñoFiscal es 2013 o 2014** nos indica que el informe solo incluye los datos de los años fiscales de 2013 y 2014.
+Si el filtro contiene la palabra **Todo** junto a él, que significa que todos los valores del campo se incluyen en el filtro.  Por ejemplo, **Cadena(Todas)**, como se puede ver en la captura de pantalla siguiente, indica que esta página del informe incluye datos sobre todas las cadenas del almacén.  Por otro lado, el filtro de nivel de informe **AñoFiscal es 2013 o 2014** nos indica que el informe solo incluye los datos de los años fiscales de 2013 y 2014.
 
 ## <a name="filters-in-reading-or-editing-view"></a>Filtros en las vistas de lectura y edición
 Existen dos modos de interactuar con los informes: [la vista de lectura](../consumer/end-user-reading-view.md) y la vista de edición. Las funcionalidades de filtrado disponibles dependen del modo en el que se encuentre.
@@ -70,7 +70,7 @@ Cada objeto visual puede tener filtros para todos los campos en el objeto visual
 
 En la vista de lectura puede modificar los filtros existentes para explorar los datos. Los cambios que realice se guardan con el informe, aunque se abra en una aplicación móvil. Vea cómo se hace con [un paseo por el panel Filtros del informe](../consumer/end-user-report-filter.md).
 
-Cuando se cierra el informe, se guardan los filtros. Para deshacer el filtrado y volver a los valores predeterminados de filtrado, segmentación, obtención de detalles y ordenación establecidos por el autor del informe, seleccione **Restablecer valores predeterminados** en la barra de menús superior.
+Cuando cierre el informe, los filtros se guardan. Para deshacer el filtrado y volver a los valores predeterminados de filtrado, segmentación, obtención de detalles y ordenación establecidos por el autor del informe, seleccione **Restablecer valores predeterminados** en la barra de menús superior.
 
 ![Icono Restablecer valores predeterminados](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
@@ -83,11 +83,14 @@ Como en el caso de la vista de lectura, esta página del informe tiene seis filt
 
 Se puede hacer más con los filtros y el resaltado en la vista de edición. Principalmente, se pueden agregar nuevos filtros. Obtenga información sobre cómo [agregar un filtro a un informe](power-bi-report-add-filter.md) y mucho más.
 
-## <a name="ad-hoc-highlighting"></a>Resaltado ad hoc
-Seleccione un valor o una etiqueta de eje en un objeto visual para resaltar los otros objetos visuales de la página. Para quitar el resaltado, vuelva a seleccionar el valor, o bien seleccione cualquier espacio vacío en el mismo objeto visual. El resaltado es una forma muy interesante de explorar rápidamente el impacto sobre los datos. Para profundizar en el funcionamiento de este tipo de resaltado cruzado, vea [Interacciones de objetos visuales](service-reports-visual-interactions.md).
+## <a name="ad-hoc-cross-filtering-and-cross-highlighting"></a>Resaltado y filtrado cruzado ad hoc
+Seleccione un valor o una etiqueta de eje en un objeto visual para aplicar un filtro o resaltado cruzado en los valores relacionados en otros objetos visuales de la página. En la mayoría de los objetos visuales, la selección de un valor en un objeto visual no quita los datos no relacionados en los otros objetos visuales. En su lugar, se resalta el subconjunto de datos relacionados. Los datos no relacionados permanecen visibles pero atenuados. Sin embargo, en algunos objetos visuales, la selección de un valor en un objeto visual actúa como filtro en el resto de ellos. Por ejemplo, en los gráficos de líneas y en los gráficos de dispersión, solo permanecen visibles los datos relacionados. Los datos no relacionados no son visibles, como si se tratara de un filtro. 
 
-![Resaltado cruzado](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
+Para quitar el resaltado, vuelva a seleccionar el valor, o bien seleccione cualquier espacio vacío en el mismo objeto visual. El resaltado es una forma muy interesante de explorar rápidamente el impacto sobre los datos. Para obtener más ejemplos, consulte la sección [Resaltado cruzado y filtrado cruzado](../consumer/end-user-interactions.md#cross-filtering-and-cross-highlighting) de "Aplicación de un filtro cruzado entre objetos visuales en un informe de Power BI".
 
+![Animación que muestra el resaltado cruzado y filtrado cruzado.](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
+
+Los editores de informes pueden cambiar la forma en la que interactúan los objetos visuales. Para ajustar el funcionamiento del resaltado cruzado, consulte [Cambiar cómo interactúan los objetos visuales en un informe de Power BI](service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
@@ -97,6 +100,6 @@ Seleccione un valor o una etiqueta de eje en un objeto visual para resaltar los 
 
 [Ver los filtros de informes](../consumer/end-user-report-filter.md)
 
-[Cambiar el filtro cruzado y el resaltado entre los objetos visuales de los informes](../consumer/end-user-interactions.md)
+[Aplicación de filtro y resaltado cruzado entre los objetos visuales de un informe](../consumer/end-user-interactions.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

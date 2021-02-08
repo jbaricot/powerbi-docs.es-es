@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/24/2020
-ms.openlocfilehash: 965c3837b2d0153716442ea37b52b468be9742fb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e3c4d97ba6d5ba43e05feecca6a1f0d0c27c89aa
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414125"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043812"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Creación de un informe de Power BI para Power BI Report Server
 Puede almacenar y administrar informes de Power BI en el portal web de Power BI Report Server, así como también puede almacenarlos en la nube del servicio Power BI (https://powerbi.com) ). Cree y edite informes en Power BI Desktop y publíquelos en el portal web. Luego, los lectores de informes de su organización pueden verlos en un explorador o en una aplicación móvil de Power BI de un dispositivo móvil.
@@ -22,13 +22,13 @@ Puede almacenar y administrar informes de Power BI en el portal web de Power BI 
 
 Aquí tiene cuatro pasos para ayudarle a comenzar.
 
-## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Paso 1: Instalar Power BI Desktop optimizado para el servidor de informes de Power BI
+## <a name="step-1-install-power-bi-desktop-for-power-bi-report-server"></a>Paso 1: Instalar Power BI Desktop para Power BI Report Server
 
-Si ya ha creado informes de Power BI en Power BI Desktop, estará casi listo para crearlos en Power BI Report Server. Se recomienda instalar la versión de Power BI Desktop optimizada para el servidor de informes de Power BI, ya que así se tendrá la certeza de que el servidor y la aplicación siempre están sincronizados. Ambas versiones de Power BI Desktop pueden estar en el mismo equipo.
+Si ya ha creado informes de Power BI en Power BI Desktop, estará casi listo para crearlos en Power BI Report Server. Se recomienda instalar la versión de Power BI Desktop para Power BI Report Server, ya que así tendrá la certeza de que el servidor y la aplicación siempre están sincronizados. Ambas versiones de Power BI Desktop pueden estar en el mismo equipo.
 
 1. En el portal web de Report Server, seleccione la flecha **Descargar** > **Power BI Desktop**.
 
-    ![Descarga de Power BI Desktop desde el portal web](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
+    ![Descarga de Power BI Desktop desde el portal web](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
     O bien, vaya a la página principal de [Power BI Report Server](https://powerbi.microsoft.com/report-server/) y seleccione **Opciones avanzadas de descarga**.
 
@@ -44,9 +44,9 @@ Si ya ha creado informes de Power BI en Power BI Desktop, estará casi listo par
 
 2. Al final del proceso de instalación, seleccione **Iniciar Power BI Desktop ahora**.
    
-    Se inicia automáticamente y está listo para funcionar. Sabrá que tiene la versión correcta porque aparecerá **Power BI Desktop (octubre 2020)** en la barra de título.
+    Se inicia automáticamente y está listo para funcionar. Sabrá que tiene la versión correcta porque en la barra de título aparece **Power BI Desktop (enero de 2021)** .
 
-    ![Power BI Desktop (octubre 2020)](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
+    ![Power BI Desktop, enero de 2021](media/install-powerbi-desktop/power-bi-report-server-desktop.png)
 
 3. Si no conoce Power BI Desktop, considere la posibilidad de ver los vídeos de la pantalla de inicio de sesión.
    
@@ -102,7 +102,7 @@ Hay muchos recursos excelentes para crear informes en Power BI Desktop. Este ví
 * Aprendizaje guiado: [Exploración de Power BI Desktop](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
-* [Instalar Power BI Desktop optimizado para el servidor de informes de Power BI](install-powerbi-desktop.md)  
+* [Instalación de Power BI Desktop para Power BI Report Server](install-powerbi-desktop.md)  
 * [¿Qué es Power BI Report Server?](get-started.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

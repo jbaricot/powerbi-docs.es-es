@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
 ms.date: 09/22/2020
-ms.openlocfilehash: 890b3c8124cc1711e08415cdcfda1f51b548fa63
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 68494784e3c5b21c0c3e15bd5a3a816fd07e5f8b
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983077"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043560"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Actualización de Power BI Report Server
 
@@ -22,7 +22,7 @@ Aprenda a actualizar un servidor de informes de Power BI.
 
  **Descargar** ![icono de descarga](media/upgrade/download.png "icono de descarga")
 
-Para descargar el servidor de informes de Power BI y Power BI Desktop optimizado para el servidor de informes de Power BI, vaya a [Publicar informes en almacenamiento local con el servidor de informes de Power BI](https://powerbi.microsoft.com/report-server/).
+Para descargar Power BI Report Server y Power BI Desktop para Power BI Report Server, vaya a [Informes locales con Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
 ## <a name="before-you-begin"></a>Antes de empezar
 
@@ -82,12 +82,12 @@ Power BI Report Server recibe correcciones de seguridad a través de Microsoft U
 
 ## <a name="upgrade-power-bi-desktop"></a>Actualización de Power BI Desktop
 
-Después de actualizar el servidor de informes, deseará asegurarse de que los autores de informes de Power BI actualicen a la versión de Power BI Desktop optimizado para la instancia de Power BI Report Server que coincida con el servidor.
+Después de actualizar el servidor de informes, asegúrese de que los autores de informes de Power BI realicen la actualización a la versión de Power BI Desktop para la instancia de Power BI Report Server que coincida con la del servidor.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [Información general de administrador](admin-handbook-overview.md)  
-* [Instalar Power BI Desktop optimizado para el servidor de informes de Power BI](install-powerbi-desktop.md)  
+* [Instalación de Power BI Desktop para Power BI Report Server](install-powerbi-desktop.md)  
 * [Verify a Reporting Services Installation](/sql/reporting-services/install-windows/verify-a-reporting-services-installation) (Comprobar una instalación de Reporting Services)  
 * [Configure the report server service account](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configurar la cuenta de servicio del servidor de informes)  
 * [Configure report server URLs](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager) (Configurar direcciones URL del servidor de informes)  

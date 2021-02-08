@@ -8,429 +8,324 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 02/04/2020
-ms.openlocfilehash: da356800a49e6d8876a147862dd08541ed2999bc
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.date: 12/17/2020
+ms.openlocfilehash: fbae63597ecf4ff36783ad83785f87c242359f90
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565672"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99494993"
 ---
-# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Insertar contenido de Power BI en una aplicación para la organización
+# <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-organization-application"></a>Tutorial: Inserción de contenido de Power BI por medio de una aplicación de ejemplo de *inserción para la organización*
 
-En **Power BI**, puede insertar informes (Power BI o paginados), paneles o iconos en una aplicación mediante User owns data. **User owns data** permite a la aplicación ampliar el servicio Power BI para usar análisis integrados. En este tutorial se muestra cómo integrar un informe (Power BI o paginado) en una aplicación. Puede usar .NET SDK de Power BI, junto con la API JavaScript de Power BI para insertar Power BI en una aplicación para la organización.
+Los análisis insertados de Power BI le permiten insertar contenido de Power BI, como son los informes, los paneles y los iconos, en una aplicación.
 
-![Informe insertado de Power BI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+En este tutorial, aprenderá a:
 
-En este tutorial, aprenderá las tareas siguientes:
-> [!div class="checklist"]
-> * Registrar una aplicación en Azure.
-> * Insertar un informe de Power BI o paginado en una aplicación mediante el inquilino de Power BI.
+>[!div class="checklist"]
+>* Configurar el entorno integrado
+>* Configurar una aplicación de ejemplo de *inserción para la organización* (también conocida como *datos en posesión del usuario*)
+
+Para usar esa aplicación, los usuarios tendrán que iniciar sesión en Power BI.
+
+La solución de inserción para la organización suelen usarla empresas y organizaciones de gran tamaño, y está pensada para los usuarios internos.
+
+## <a name="code-sample-specifications"></a>Especificaciones de ejemplos de código
+
+En este tutorial se incluyen instrucciones para configurar una aplicación de ejemplo de *inserción para la organización* en uno de los siguientes marcos:
+
+* .NET Framework
+* .NET Core
+* React TypeScript
+
+>[!NOTE]
+>Los ejemplos de *.NET Core* y *.NET Framework* permitirán al usuario final ver cualquier panel, informe o icono de Power BI al que tenga acceso en el servicio Power BI. El ejemplo de *React TypeScript* solo le permite insertar un informe al que el usuario final ya tenga acceso en el servicio Power BI.
+
+Los ejemplos de código admiten los siguientes exploradores:
+
+* Microsoft Edge
+* Google Chrome
+* Mozilla Firefox
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Para empezar, es necesario que tenga:
+Antes de comenzar este tutorial, compruebe que tiene las siguientes dependencias de código y de Power BI:
 
-* Una [cuenta de Power BI Pro](../../fundamentals/service-self-service-signup-for-power-bi.md).
-* Una suscripción a [Microsoft Azure](https://azure.microsoft.com/).
-* Debe tener configurado un [inquilino de Azure Active Directory](create-an-azure-active-directory-tenant.md) propio.
-* Para insertar informes paginados, necesita al menos una capacidad P1. Vea [¿Qué tamaño de capacidad Premium se necesita para los informes paginados?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
+* **Dependencias de Power BI**
 
-Si no está registrado en **Power BI Pro**, [regístrese para obtener una evaluación gratuita](https://powerbi.microsoft.com/pricing/) antes de empezar.
+    * Un [inquilino de Azure Active Directory](create-an-azure-active-directory-tenant.md) propio.
 
-Si no tiene ninguna suscripción a Azure, cree una [cuenta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de empezar.
+    * Una de las siguientes licencias:
 
->[!NOTE]
->Se admite la licencia [Premium por usuario (PPU)](../../admin/service-premium-per-user-faq.md). Sin embargo, si usa PPU, solo los usuarios de su organización que tengan la licencia PPU podrán acceder a la solución.
+        * [Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md)
 
-## <a name="set-up-your-embedded-analytics-development-environment"></a>Configuración del entorno de desarrollo de análisis integrados
+        * [Prémium por usuario (PPU)](../../admin/service-premium-per-user-faq.md)
 
-Antes de empezar a insertar informes, paneles o iconos en la aplicación, debe asegurarse de que su entorno permita la inserción con Power BI.
+    >[!NOTE]
+    >Para [pasar a producción](move-to-production.md), necesitará una de las siguientes configuraciones:
+    >* Todos los usuarios con licencias Pro.
+    >* Todos los usuarios con licencias PPU.
+    >* Una [capacidad](embedded-capacity.md). Esta configuración permite que todos los usuarios tengan licencias gratuitas.
 
-Puede seguir los pasos de la [herramienta de configuración de integración](https://app.powerbi.com/embedsetup) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo que sirve para crear un entorno e insertar un informe. En el caso de insertar un informe paginado, debe asignar al menos una capacidad P1 al área de trabajo creada.
+* **Dependencias de código**
 
-Si prefiere configurar el entorno manualmente, siga los pasos que se indican más adelante.
+    # <a name="net-core"></a>[.NET Core](#tab/net-core)
 
-### <a name="register-an-application-in-azure-active-directory"></a>Registro de una aplicación en Azure Active Directory
+    * [SDK de .NET Core 3.1](https://dotnet.microsoft.com/download/dotnet-core) (o superior)
+    
+    * Un entorno de desarrollo integrado (IDE). Se recomienda usar uno de los siguientes:
 
-[Registre la aplicación](register-app.md) con Azure Active Directory para permitir que acceda a las [API REST de Power BI](/rest/api/power-bi/). El hecho de registrar su aplicación permite establecer una identidad para esta y especificar los permisos para los recursos de REST de Power BI.
+        * [Visual Studio](https://visualstudio.microsoft.com/)
 
->[!NOTE]
->En su propia aplicación, tendrá que ir a *Autenticación* y, en el campo *URI de redirección*, insertar la dirección pertinente.
-Para obtener más información sobre el redireccionamiento, consulte [Restricciones y limitaciones del identificador URI de redirección (dirección URL de respuesta)](/azure/active-directory/develop/reply-url).
+        * [Visual Studio Code](https://code.visualstudio.com/)
 
-## <a name="set-up-your-power-bi-environment"></a>Configuración del entorno de Power BI
+    # <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
 
-### <a name="create-a-workspace"></a>Creación de un área de trabajo
+    * [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
+    
+    * [Visual Studio](https://visualstudio.microsoft.com/)
 
-Si va a insertar informes, paneles o iconos para los clientes, tiene que colocar el contenido en un área de trabajo. Existen distintos tipos de áreas de trabajo que se pueden configurar: las [áreas de trabajo tradicionales](../../collaborate-share/service-create-workspaces.md) o las [áreas de trabajo nuevas](../../collaborate-share/service-create-the-new-workspaces.md).
+    # <a name="react-typescript"></a>[React TypeScript](#tab/react)
 
-### <a name="create-and-publish-your-power-bi-reports"></a>Creación y publicación de informes de Power BI
+    * Un editor de texto
 
-Con Power BI Desktop puede crear informes y conjuntos de datos propios. Después, puede publicar esos informes en un área de trabajo. El usuario final que publique los informes deberá tener una licencia de Power BI Pro para publicar en un área de trabajo.
+    * Terminal de línea de comandos (o PowerShell)
 
-1. Descargue la [demostración](https://github.com/Microsoft/powerbi-desktop-samples) de ejemplo de GitHub.
+---
 
-    ![Descarga de la demostración](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026-1.png)
+## <a name="method"></a>Método
 
-2. Abra el informe .pbix de ejemplo en Power BI Desktop.
+Para crear una aplicación de ejemplo de *inserción para la organización*, siga los siguientes pasos:
 
-   ![Ejemplo de informe de Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
+1. [Registrar una de aplicación de Azure AD](#step-1---register-an-azure-ad-application)
 
-3. Publíquelo en el área de trabajo.
+2. [Crear un área de trabajo de Power BI](#step-2---create-a-power-bi-workspace)
 
-   ![Publicación de un informe de Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
+3. [Crear y publicar un informe de Power BI](#step-3---create-and-publish-a-power-bi-report)
 
-    Ahora puede ver el informe en el servicio Power BI en línea.
+4. [Obtener los valores de parámetro de la inserción](#step-4---get-the-embedding-parameter-values)
 
-   ![Visualización de un informe de Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
-   
-### <a name="create-and-publish-your-paginated-reports"></a>Creación y publicación de informes paginados
+5. [Insertar el contenido](#step-5---embed-your-content)
 
-Puede crear los informes paginados con el [Generador de informes de Power BI](../../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Después, puede [cargar el informe](../../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) a un área de trabajo asignada al menos a una capacidad P1. El usuario final que cargue el informe necesita tener una licencia de Power BI Pro para publicar en un área de trabajo.
-   
-## <a name="embed-your-content-by-using-the-sample-application"></a>Inserción del contenido mediante la aplicación de ejemplo
+## <a name="step-1---register-an-azure-ad-application"></a>Paso 1: Registrar una aplicación de Azure AD
 
-Este ejemplo se mantiene deliberadamente sencillo para fines de demostración.
+El registro de la aplicación con Azure AD le permite establecer una identidad para la aplicación.
 
-Siga estos pasos para empezar a insertar contenido mediante la aplicación de ejemplo.
+[!INCLUDE[Register Azure AD app](../../includes/embed-tutorial-register-app.md)]
 
-1. Descargue [Visual Studio](https://www.visualstudio.com/) (versión 2013 o posterior). Asegúrese de descargar el [paquete NuGet](https://www.nuget.org/profiles/powerbi) más reciente.
+## <a name="step-2---create-a-power-bi-workspace"></a>Paso 2: Crear un área de trabajo de Power BI
 
-2. Descargue el [ejemplo User Owns Data](https://github.com/Microsoft/PowerBI-Developer-Samples) de GitHub para comenzar.
+[!INCLUDE[Create a Power BI workspace](../../includes/embed-tutorial-create-workspace.md)]
 
-    ![Ejemplo de aplicación User Owns Data](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
+## <a name="step-3---create-and-publish-a-power-bi-report"></a>Paso 3: Crear y publicar un informe de Power BI
 
-3. Abra el archivo **Cloud.config** de la aplicación de ejemplo.
+[!INCLUDE[Create a Power BI report](../../includes/embed-tutorial-create-report.md)]
 
-    Hay campos que debe rellenar para ejecutar la aplicación.
+## <a name="step-4---get-the-embedding-parameter-values"></a>Paso 4: Obtener los valores de parámetro de la inserción
 
-    | Campo |
-    |--------------------|
-    | **[Id. de aplicación](#application-id)** |
-    | **[Id. del área de trabajo](#workspace-id)** |
-    | **[Id. de informe](#report-id)** |
-    | **[AADAuthorityUrl](#aadauthorityurl)** |
+Para insertar el contenido, debe obtener una serie de valores de parámetros. Los valores de parámetros necesarios dependerán del lenguaje de la aplicación de ejemplo que quiera usar. En la siguiente tabla se enumeran los valores de parámetros necesarios para cada ejemplo.
 
-    ![Archivo Cloud.config](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
+|Parámetro  |.NET Core  |.NET Framework  |React TypeScript |
+|---------|---------|---------|---------|
+|[Id. de cliente](#client-id) |![Se aplica a.](../../media/yes.png) |![Se aplica a.](../../media/yes.png)         |![Se aplica a.](../../media/yes.png) |
+|[Secreto de cliente](#workspace-id) |![Se aplica a.](../../media/yes.png) |![Se aplica a.](../../media/yes.png) |![No se aplica.](../../media/no.png) |
+|[Id. del área de trabajo]() |![No se aplica.](../../media/no.png) |![No se aplica.](../../media/no.png) |![Se aplica a.](../../media/yes.png) |
+|[Id. del informe]() |![No se aplica.](../../media/no.png) |![No se aplica.](../../media/no.png) |![Se aplica a.](../../media/yes.png) |
 
-### <a name="application-id"></a>Id. de aplicación
+### <a name="client-id"></a>Id. de cliente
 
-Rellene la información de **applicationId** con el **identificador de aplicación** de **Azure**. La aplicación usa **applicationId** para identificarse ante los usuarios a los que solicita permisos.
+>[!TIP]
+>**Se aplica a:** ![Se aplica a ](../../media/yes.png).NET Core ![Se aplica a ](../../media/yes.png).NET Framework ![Se aplica a ](../../media/yes.png)React TypeScript
 
-Para obtener **applicationId**, siga estos pasos:
+[!INCLUDE[Get the client ID](../../includes/embed-tutorial-client-id.md)]
 
-1. Inicie sesión en [Azure Portal](https://portal.azure.com).
+### <a name="client-secret"></a>Secreto del cliente
 
-2. En el panel de navegación izquierdo, seleccione **Todos los servicios** y seleccione **Registros de aplicaciones**.
+>[!TIP]
+>**Se aplica a:** ![Se aplica a ](../../media/yes.png).NET Core ![Se aplica a ](../../media/yes.png).NET Framework ![No se aplica a ](../../media/no.png)React TypeScript
 
-3. Seleccione la aplicación que necesite el valor **applicationId**.
-
-    ![Elegir aplicación](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
-
-4. Hay un **identificador de la aplicación** que se muestra como un GUID. Use este **identificador de aplicación** como **applicationId** de la aplicación.
-
-    ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
+[!INCLUDE[Get the client secret](../../includes/embed-tutorial-client-secret.md)]
 
 ### <a name="workspace-id"></a>Id. del área de trabajo
 
-Rellene la información del valor **workspaceId** con el GUID del área de trabajo (grupo) de Power BI. Puede obtener esta información de la dirección URL cuando inicie sesión en el servicio Power BI o mediante PowerShell.
+>[!TIP]
+>**Se aplica a:** ![No se aplica a ](../../media/no.png).NET Core ![No se aplica a ](../../media/no.png).NET Framework ![Se aplica a ](../../media/yes.png)React TypeScript
 
-URL <br>
-
-![workspaceId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-040.png)
-
-PowerShell <br>
-
-```powershell
-Get-PowerBIworkspace -name "User Owns Embed Test"
-```
-
-   ![Valor de workspaceId de PowerShell](media/embed-sample-for-your-organization/embed-sample-for-your-organization-040-ps.png)
+[!INCLUDE[Get the workspace ID](../../includes/embed-tutorial-workspace-id.md)]
 
 ### <a name="report-id"></a>Report ID (Id. de informe)
 
-Rellene la información de **reportId** con el GUID de informe de Power BI. Puede obtener esta información de la dirección URL cuando inicie sesión en el servicio Power BI o mediante PowerShell.
+>[!TIP]
+>**Se aplica a:** ![No se aplica a ](../../media/no.png).NET Core ![No se aplica a ](../../media/no.png).NET Framework ![Se aplica a ](../../media/yes.png)ReactTypeScript
 
-URL del informe de Power BI <br>
+[!INCLUDE[Get the report ID](../../includes/embed-tutorial-report-id.md)]
 
-![Valor reportId de PBI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+## <a name="step-5---embed-your-content"></a>Paso 5: Inserción del contenido
 
+La aplicación de ejemplo insertada de Power BI permite crear una aplicación de Power BI de *inserción para la organización*.
 
-URL del informe paginado<br>
+Siga estos pasos para modificar la aplicación de ejemplo de *inserción para la organización* con el fin de insertar su informe de Power BI.
 
-![Valor reportId del informe paginado](media/embed-sample-for-your-organization/paginated-reports-url.png)
+[!INCLUDE[Embedding steps](../../includes/embed-tutorial-embedding-steps.md)]
 
-PowerShell <br>
+4. Abra una de estas carpetas según el lenguaje que quiera que use la aplicación:
 
-```powershell
-Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
-```
+    * .NET Core
+    * .NET Framework
+    * React-TS
 
-![Valor de reportId de PowerShell](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041-ps.png)
+    >[!NOTE]
+    >Las aplicaciones de ejemplo de *inserción para la organización* solo admiten los marcos que figuran arriba. Las aplicaciones de ejemplo de *Java*, *Node JS* y *Python* solo admiten la *[inserción para la solución de los clientes](embed-sample-for-customers.md)* .
 
-### <a name="aadauthorityurl"></a>AADAuthorityUrl
+# <a name="net-core"></a>[.NET Core](#tab/net-core)
 
-Rellene la información **AADAuthorityUrl** con la dirección URL que le permite insertar en el inquilino organizativo o hacerlo con un usuario invitado.
+### <a name="configure-your-azure-ad-app"></a>Configuración de su aplicación de Azure AD
 
-Para insertar con el inquilino organizativo, use la dirección URL: *https://login.microsoftonline.com/common/oauth2/authorize* .
+[!INCLUDE[Configure the Azure AD authentication options](../../includes/embed-tutorial-org-azure-ad-app.md)]
 
-Para insertar con un invitado, use la dirección URL - `https://login.microsoftonline.com/report-owner-tenant-id` -, donde se agrega el id. de inquilino del propietario del informe en sustitución de *report-owner-tenant-id*.
+5. En *Configuraciones de plataforma*, abra la plataforma *Web* y, en la sección **URI de redirección**, agregue `https://localhost:5000/signin-oidc`.
 
-### <a name="run-the-application"></a>Ejecutar la aplicación
+    > [!NOTE]
+    >Si no tiene una plataforma **Web**, seleccione **Agregar una plataforma** y, en la ventana *Configurar plataformas*, seleccione **Web**.
 
-1. Seleccione **Ejecutar** en **Visual Studio**.
+6. Guarde los cambios.
 
-    ![Ejecutar la aplicación](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+:::image type="content" source="media/embed-sample-for-your-organization/azure-ad-net-configurations.png" alt-text="Captura de pantalla que muestra las configuraciones de autenticación de la aplicación de Azure AD, incluido el URI de redireccionamiento web para la aplicación .NET Core de ejemplo.":::
 
-2. Luego seleccione **Insertar informe**. En función del contenido con el que desee realizar las pruebas, es decir, informes, paneles o iconos, seleccione la opción correspondiente en la aplicación.
+### <a name="configure-the-sample-embedding-app"></a>Configuración de la aplicación de inserción de ejemplo
 
-    ![Selección de contenido](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+1. Abra la carpeta **Embed for your organization** (Inserción para la organización).
 
-3. Ahora puede ver el informe en la aplicación de ejemplo.
+2. Abra la *aplicación de ejemplo Embed for your organization* (Inserción para la organización) con uno de estos métodos:
 
-    ![Visualización del informe en la aplicación](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+    * Si usa [Visual Studio](https://visualstudio.microsoft.com/), abra el archivo **UserOwnsData.sln**.
 
-## <a name="embed-your-content-within-your-application"></a>Inserción de contenido en la aplicación
+    * Si usa [Visual Studio Code](https://code.visualstudio.com/), abra la carpeta **UserOwnsData**.
 
-Aunque los pasos para insertar el contenido se pueden realizar con las [API REST de Power BI](/rest/api/power-bi/), la inserción de los códigos de ejemplo descritos en este artículo se ha realizado con el SDK de .NET.
+3. Abra **appsettings.json** y rellene los siguientes valores de parámetros:
 
-Para integrar un informe en una aplicación web, use la API REST de Power BI o el SDK de C# de Power BI. También puede usar un token de acceso de autorización de Azure Active Directory para obtener un informe. Luego, cargue el informe con el mismo token de acceso. La API REST de Power BI proporciona acceso mediante programación a recursos concretos de Power BI. Para obtener más información, vea [Power BI REST APIs](/rest/api/power-bi/) (API REST de Power BI) y la [API de JavaScript de Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+    * `ClientId`: use el GUID de [id. de cliente](#client-id).
 
-### <a name="get-an-access-token-from-azure-ad"></a>Obtener un token de acceso de Azure AD
+    * `ClientSecret`: use el [secreto de cliente](#client-secret).
 
-En la aplicación, debe obtener un token de acceso de Azure AD para poder realizar llamadas a la API REST de Power BI. Para más información, consulte [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (Autenticación de usuarios y obtención de un token de acceso de Azure AD para su aplicación de Power BI).
+### <a name="run-the-sample-app"></a>Ejecutar la aplicación de ejemplo
 
-### <a name="get-a-report"></a>Obtener un informe
+1. Ejecute el proyecto seleccionando la opción que proceda:
 
-Para obtener un informe de Power BI o paginado, use la operación [Obtener informes](/rest/api/power-bi/reports/getreports), que obtiene una lista de informes de Power BI y paginados. En la lista de informes, puede obtener un identificador de informe.
+    * Si usa **Visual Studio**, seleccione **IIS Express** (Reproducir).
 
-### <a name="get-reports-by-using-an-access-token"></a>Obtención de informes mediante un token de acceso
+    * Si usa **Visual Studio Code**, seleccione **Ejecutar > Iniciar depuración**.
 
-La operación [Obtener informes](/rest/api/power-bi/reports/getreports) devuelve una lista de informes. Puede obtener un informe de la lista de informes.
+[!INCLUDE[The embedded application sample app interface](../../includes/embed-tutorial-org-sample-app.md)]
 
-Para realizar la llamada de API de REST, debe incluir un encabezado *Autorización* con el formato de *Portador {token de acceso}* .
+# <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
 
-#### <a name="get-reports-with-the-rest-api"></a>Obtención de informes con la API de REST
+### <a name="configure-your-azure-ad-app"></a>Configuración de su aplicación de Azure AD
 
-En el ejemplo de código siguiente se muestra cómo recuperar informes con la API de REST:
+[!INCLUDE[Configure the Azure AD authentication options](../../includes/embed-tutorial-org-azure-ad-app.md)]
 
-> [!Note]
-> En el archivo Default.aspx.cs de la [aplicación de ejemplo](https://github.com/Microsoft/PowerBI-Developer-Samples) hay un ejemplo de cómo obtener un elemento de contenido que se quiere insertar. Los ejemplos son un informe, panel o icono.
+5. En *Configuraciones de plataforma*, configure lo siguiente:
 
-```csharp
-using Newtonsoft.Json;
+    1. En la sección **URI de redirección** de la plataforma *Web*, agregue `https://localhost:44300/`.
 
-//Get a Report. In this sample, you get the first Report.
-protected void GetReport(int index)
-{
-    //Configure Reports request
-    System.Net.WebRequest request = System.Net.WebRequest.Create(
-        String.Format("{0}/Reports",
-        baseUri)) as System.Net.HttpWebRequest;
+        > [!NOTE]
+        >Si no tiene una plataforma **Web**, seleccione **Agregar una plataforma** y, en la ventana *Configurar plataformas*, seleccione **Web**.
+    
+    2. Habilite la opción **Tokens de id.** en *Implicit grant and hybrid flows* (Flujos híbridos y concesión implícita).
+    
+6. Guarde los cambios.
 
-    request.Method = "GET";
-    request.ContentLength = 0;
-    request.Headers.Add("Authorization", String.Format("Bearer {0}", accessToken.Value));
+:::image type="content" source="media/embed-sample-for-your-organization/azure-ad-framework-configurations.png" alt-text="Captura de pantalla que muestra las configuraciones de autenticación de la aplicación de Azure AD, incluido el URI de redireccionamiento web y la opción de token de acceso seleccionada para la aplicación .NET Framework de ejemplo.":::
 
-    //Get Reports response from request.GetResponse()
-    using (var response = request.GetResponse() as System.Net.HttpWebResponse)
-    {
-        //Get reader from response stream
-        using (var reader = new System.IO.StreamReader(response.GetResponseStream()))
-        {
-            //Deserialize JSON string
-            PBIReports Reports = JsonConvert.DeserializeObject<PBIReports>(reader.ReadToEnd());
+### <a name="configure-the-sample-embedding-app"></a>Configuración de la aplicación de inserción de ejemplo
 
-            //Sample assumes at least one Report.
-            //You could write an app that lists all Reports
-            if (Reports.value.Length > 0)
-            {
-                var report = Reports.value[index];
+1. Abra la carpeta **Embed for your organization** (Inserción para la organización).
 
-                txtEmbedUrl.Text = report.embedUrl;
-                txtReportId.Text = report.id;
-                txtReportName.Text = report.name;
-            }
-        }
-    }
-}
-
-//Power BI Reports used to deserialize the Get Reports response.
-public class PBIReports
-{
-    public PBIReport[] value { get; set; }
-}
-public class PBIReport
-{
-    public string id { get; set; }
-    public string reportType { get; set }
-    public string name { get; set; }
-    public string webUrl { get; set; }
-    public string embedUrl { get; set; }
-}
-```
-
-#### <a name="get-reports-by-using-the-net-sdk"></a>Obtención de informes mediante el SDK de .NET
-
-Puede usar el SDK de .NET para recuperar una lista de informes, en lugar de llamar directamente a la API de REST. En el ejemplo de código siguiente se muestra cómo enumerar los informes:
-
-```csharp
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-var tokenCredentials = new TokenCredentials(<ACCESS TOKEN>, "Bearer");
-
-// Create a Power BI Client object. It is used to call Power BI APIs.
-using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
-{
-    // Get the first report all reports in that workspace
-    ODataResponseListReport reports = client.Reports.GetReports();
-
-    Report report = reports.Value.FirstOrDefault();
-
-    var embedUrl = report.EmbedUrl;
-}
-```
-
-### <a name="load-a-report-by-using-javascript"></a>Carga de un informe mediante JavaScript
-
-Puede usar JavaScript para cargar un informe en un elemento div en su página web. En el ejemplo de código siguiente se muestra cómo recuperar un informe de un área de trabajo determinada:
-
-> [!NOTE]  
-> En el archivo **Default.aspx** de la [aplicación de ejemplo](https://github.com/Microsoft/PowerBI-Developer-Samples) hay disponible un ejemplo de cómo cargar un elemento de contenido que se quiera insertar.
-
-```javascript
-<!-- Embed Report-->
-<div> 
-    <asp:Panel ID="PanelEmbed" runat="server" Visible="true">
-        <div>
-            <div><b class="step">Step 3</b>: Embed a report</div>
-
-            <div>Enter an embed url for a report from Step 2 (starts with https://):</div>
-            <input type="text" id="tb_EmbedURL" style="width: 1024px;" />
-            <br />
-            <input type="button" id="bEmbedReportAction" value="Embed Report" />
-        </div>
-
-        <div id="reportContainer"></div>
-    </asp:Panel>
-</div>
-```
-
-#### <a name="sitemaster"></a>Site.master
-
-```javascript
-window.onload = function () {
-    // client side click to embed a selected report.
-    var el = document.getElementById("bEmbedReportAction");
-    if (el.addEventListener) {
-        el.addEventListener("click", updateEmbedReport, false);
-    } else {
-        el.attachEvent('onclick', updateEmbedReport);
-    }
-
-    // handle server side post backs, optimize for reload scenarios
-    // show embedded report if all fields were filled in.
-    var accessTokenElement = document.getElementById('MainContent_accessTokenTextbox');
-    if (accessTokenElement !== null) {
-        var accessToken = accessTokenElement.value;
-        if (accessToken !== "")
-            updateEmbedReport();
-    }
-};
-
-// update embed report
-function updateEmbedReport() {
-
-    // check if the embed url was selected
-    var embedUrl = document.getElementById('tb_EmbedURL').value;
-    if (embedUrl === "")
-        return;
-
-    // get the access token.
-    accessToken = document.getElementById('MainContent_accessTokenTextbox').value;
-
-    // Embed configuration used to describe the what and how to embed.
-    // This object is used when calling powerbi.embed.
-    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
-    var config = {
-        type: 'report',
-        accessToken: accessToken,
-        embedUrl: embedUrl
-    };
-
-    // Grab the reference to the div HTML element that will host the report.
-    var reportContainer = document.getElementById('reportContainer');
-
-    // Embed the report and display it within the div container.
-    var report = powerbi.embed(reportContainer, config);
-
-    // report.on will add an event handler which prints to Log window.
-    report.on("error", function (event) {
-        var logView = document.getElementById('logView');
-        logView.innerHTML = logView.innerHTML + "Error<br/>";
-        logView.innerHTML = logView.innerHTML + JSON.stringify(event.detail, null, "  ") + "<br/>";
-        logView.innerHTML = logView.innerHTML + "---------<br/>";
-    }
-  );
-}
-```
-
-## <a name="using-a-power-bi-premium-capacity"></a>Uso de una capacidad de Power BI Premium
-
-Ahora que ya ha terminado de desarrollar la aplicación, es el momento de proporcionar una capacidad al área de trabajo.
-
-### <a name="create-a-capacity"></a>Creación de una capacidad
-
-Al crear una capacidad, puede aprovechar las ventajas de disponer de un recurso para el contenido del área de trabajo. En el caso de los informes paginados, debe asignar al área de trabajo al menos una capacidad P1. Puede crear una capacidad mediante [Power BI Premium](../../admin/service-premium-what-is.md).
-
-En la tabla siguiente se enumeran las SKU de Power BI Premium disponibles en [Microsoft 365](../../admin/service-admin-premium-purchase.md):
-
-| Nodo de capacidad | Núcleos virtuales totales<br/>(back-end y front-end) | Núcleos virtuales de back-end | Núcleos virtuales de front-end | Límites de conexiones dinámicas/DirectQuery |
-| --- | --- | --- | --- | --- | --- |
-| EM1 |1 núcleo virtual |0,5 núcleos virtuales, 3 GB de RAM |0,5 núcleos virtuales |3,75 por segundo |
-| EM2 |2 núcleos virtuales |1 núcleo virtual, 5 GB de RAM |1 núcleo virtual |7,5 por segundo |
-| EM3 |4 núcleos virtuales |2 núcleos virtuales, 10 GB de RAM |2 núcleos virtuales |15 por segundo |
-| P1 |8 núcleos virtuales |4 núcleos virtuales, 25 GB de RAM |4 núcleos virtuales |30 por segundo |
-| P2 |16 núcleos virtuales |8 núcleos virtuales, 50 GB de RAM |8 núcleos virtuales |60 por segundo |
-| P3 |32 núcleos virtuales |16 núcleos virtuales, 100 GB de RAM |16 núcleos virtuales |120 por segundo |
-| P4 |64 núcleos virtuales |32 núcleos virtuales, 200 GB de RAM |32 núcleos virtuales |240 por segundo |
-| P5 |128 núcleos virtuales |64 núcleos virtuales, 400 GB de RAM |64 núcleos virtuales |480 por segundo |
-
-> [!NOTE]
-> - Cuando intente la inserción con aplicaciones de Microsoft Office, puede usar las SKU EM para acceder a contenido con una licencia gratuita de Power BI. Pero no puede acceder al contenido con una licencia gratuita de Power BI cuando se usa Powerbi.com o Power BI Mobile.
-> - Cuando intente realizar la inserción con aplicaciones de Microsoft Office mediante Powerbi.com o Power BI Mobile, puede acceder al contenido con una licencia gratuita de Power BI.
-
-### <a name="assign-a-workspace-to-a-capacity"></a>Asignación de un área de trabajo a una capacidad
-
-Después de crear una capacidad, puede asignarla a su área de trabajo. Para completar este proceso, siga estos pasos:
-
-1. En el servicio Power BI, expanda las áreas de trabajo y haga clic en el botón de puntos suspensivos del área de trabajo en la que quiera insertar el contenido. A continuación, seleccione **Editar áreas de trabajo**.
-
-    ![Edición de un área de trabajo](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
-
-2. Expanda **Avanzado** y habilite **Capacidad**. Seleccione la capacidad que ha creado. Luego seleccione **Guardar**.
-
-    ![Asignación de una capacidad](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
-
-3. Después de seleccionar **Guardar**, debería ver un rombo junto al nombre del área de trabajo.
-
-    ![área de trabajo vinculada a una capacidad](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
-
-## <a name="admin-settings"></a>Configuración de administrador
-
-Los administradores globales o los administradores de servicios de Power BI pueden activar o desactivar la capacidad para usar las API REST de un inquilino. Los administradores de Power BI pueden establecer esta opción para toda la organización o para grupos de seguridad individuales. De forma predeterminada, está habilitada para toda la organización. Puede realizar estos cambios en el [portal de administración de Power BI](../../admin/service-admin-portal.md).
+2. Si usa [Visual Studio](https://visualstudio.microsoft.com/), abra el archivo **UserOwnsData.sln**.
+
+3. Abra **Web.config** y rellene los siguientes valores de parámetros:
+
+    * `clientId`: use el GUID de [id. de cliente](#client-id).
+
+    * `clientSecret`: use el [secreto de cliente](#client-secret).
+
+### <a name="run-the-sample-app"></a>Ejecutar la aplicación de ejemplo
+
+1. Ejecute el proyecto seleccionando **IIS Express** (Reproducir).
+
+[!INCLUDE[The embedded application sample app interface](../../includes/embed-tutorial-org-sample-app.md)]
+
+# <a name="react-typescript"></a>[React TypeScript](#tab/react)
+
+### <a name="configure-your-azure-ad-app"></a>Configuración de su aplicación de Azure AD
+
+[!INCLUDE[Configure the Azure AD authentication options](../../includes/embed-tutorial-org-azure-ad-app.md)]
+
+5. En *Configuraciones de plataforma*, configure la plataforma **Web** de la siguiente manera:
+
+    1. En **URI de redirección**, agregue `https://localhost:3000` y seleccione **Configurar**.
+
+        > [!NOTE]
+        >Si no tiene una plataforma **Web**, seleccione **Agregar una plataforma** y, en la ventana *Configurar plataformas*, seleccione **Web**.
+
+    2. Habilite ambas opciones en *Implicit grant and hybrid flows* (Flujos híbridos y concesión implícita).
+        * **Tokens de acceso**
+        * **Tokens de identificador**
+    
+6. Guarde los cambios.
+
+:::image type="content" source="media/embed-sample-for-your-organization/azure-ad-react-configurations.png" alt-text="Captura de pantalla que muestra las configuraciones de autenticación de la aplicación de Azure AD, incluido el URI de redireccionamiento web, establecidas para el localhost 3000.":::
+
+### <a name="configure-the-sample-embedding-app"></a>Configuración de la aplicación de inserción de ejemplo
+
+1. Abra la carpeta **Embed for your organization** > **UserOwnsData** > **src**.
+
+2. Con un editor de texto, abra el archivo **Config.ts** y rellene los siguientes valores de parámetros:
+
+    * `clientId`: use el GUID de [id. de cliente](#client-id).
+
+    * `workspaceId`: use el [id. de área de trabajo](#client-secret).
+
+    * `reportId`: use el [id. de informe](#report-id).
+
+3. Guarde el archivo.
+
+### <a name="run-the-sample-app"></a>Ejecutar la aplicación de ejemplo
+
+1. Abra un terminal y navegue a **Embed for your organization** > **UserOwnsData**.
+
+2. Ejecute el siguiente comando para instalar las dependencias requeridas:
+
+   `npm install`
+
+3. Ejecute la aplicación mediante la ejecución del siguiente comando:
+
+   `npm run start`
+
+    >[!NOTE]
+    >La primera vez que inicie sesión, se le pedirá que acepte los permisos de Azure AD para la aplicación.
+
+---
+
+## <a name="developing-your-application"></a>Desarrollo de la aplicación
+
+Tras configurar y ejecutar la aplicación de ejemplo de *inserción para los clientes*, puede empezar a desarrollar su propia aplicación.
+
+[!INCLUDE[Move to production](../../includes/embed-tutorial-production.md)]
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-En este tutorial, ha obtenido información sobre cómo insertar contenido de Power BI en una aplicación mediante la cuenta de la organización de Power BI. Ahora puede intentar insertar contenido de Power BI en una aplicación mediante aplicaciones. También puede intentar insertar contenido de Power BI para los clientes (todavía no se admite para insertar informes paginados):
-
 > [!div class="nextstepaction"]
-> [Insertar desde aplicaciones](./index.yml)
+>[Paso a producción](move-to-production.md)
 
-> [!div class="nextstepaction"]
+>[!div class="nextstepaction"]
 >[Insertar para los clientes](embed-sample-for-customers.md)
 
-Si tiene más preguntas, [pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/).
+> [!div class="nextstepaction"]
+>[Inserción de informes paginados para clientes](embed-paginated-reports-customers.md)
+
+> [!div class="nextstepaction"]
+>[Inserción de informes paginados para la organización](embed-paginated-reports-organization.md)
+
+>[!div class="nextstepaction"]
+>[Pregunte a la comunidad de Power BI](https://community.powerbi.com/)

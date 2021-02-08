@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 03/25/2020
+ms.date: 02/01/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 425a7561d33a96db7c9537a934d9707af6388f1e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: c7f5f5769c5d4f29ba67b64c0e0fa646aa5d4ddb
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416747"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495096"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Exploradores compatibles con Power BI
 
-Power BI está diseñado para funcionar con cualquiera de estos exploradores admitidos, pero el rendimiento varía en función del explorador elegido. Si usa Internet Explorer en particular, es posible que experimente un peor rendimiento. Se recomienda encarecidamente cambiar de Internet Explorer a un explorador moderno, incluido Microsoft Edge. Si el rendimiento sigue sin ser aceptable, pruebe otros exploradores modernos compatibles para ver si proporcionan mejores resultados para la solución de Power BI.
+Power BI está diseñado para funcionar con cualquiera de los exploradores compatibles que se mencionan a continuación. Sin embargo, el rendimiento varía en función del explorador que elija. Si usa Internet Explorer en particular, es posible que experimente un peor rendimiento. Se recomienda encarecidamente cambiar de Internet Explorer a un explorador moderno, incluido Microsoft Edge. Si el rendimiento sigue sin ser aceptable, pruebe otros exploradores modernos compatibles para ver si proporcionan mejores resultados para la solución de Power BI.
 
 Power BI admite estos exploradores en todas las plataformas en las que están disponibles:
 
@@ -33,5 +33,5 @@ Power BI admite estos exploradores en todas las plataformas en las que están d
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [¿Qué es Power BI?](power-bi-overview.md)
-* Pruebe a preguntar a la [comunidad de Power BI](https://community.powerbi.com/).
+* Pregunte a la [comunidad de Power BI](https://community.powerbi.com/).
 * ¿Sigue teniendo problemas? Visite la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
