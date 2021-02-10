@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 09/09/2020
-ms.openlocfilehash: 6ad81bc88ee559fa08400b5ed8a74dd1a9b6051f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 74e99f42677c6adda73a8b5e2e3043e2d039f5b3
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410031"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569908"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Limitaciones de Preguntas y respuestas de Power BI
 
@@ -34,8 +34,6 @@ En cada una de estas configuraciones, también se admite la seguridad en el nive
 **Compatibilidad con DirectQuery para Preguntas y respuestas** (versión preliminar)
 
 Preguntas y respuestas ahora es compatible con orígenes de DirectQuery de SQL, incluidos SQL Server 2019, Azure SQL Database y Azure Synapse Analytics. Puede usar Preguntas y respuestas para formular preguntas en lenguaje natural en estos orígenes de datos. Hay un pequeño cambio en el comportamiento de Preguntas y respuestas cuando está en el modo DirectQuery: Después de escribir una pregunta, haga clic en el botón **Enviar**. Este cambio evita que se sobrecargue el origen de DirectQuery con consultas innecesarias a medida que escribe.
-
-No se admiten otros orígenes de DirectQuery para Preguntas y respuestas. No se bloquea Preguntas y respuestas si tiene otros orígenes de DirectQuery en el conjunto de datos, pero es posible que algunas preguntas no se respondan correctamente o que devuelvan errores.
 
 ### <a name="data-sources-not-supported"></a>Orígenes de datos no compatibles
 

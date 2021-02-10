@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 02/04/2021
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 48e1a82b7a88bf4535acea49ea6770cedfdbf304
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: e255fbef8b29422ea7736e43adaa5e4197a6338f
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98564881"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569954"
 ---
 # <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>Habilitación de la autenticación de entidad de servicio para las API de administración de solo lectura (versión preliminar)
 
@@ -51,19 +51,23 @@ Para habilitar la autenticación de entidad de servicio para API de solo lectura
     >[!IMPORTANT]
     >Después de habilitar la entidad de servicio para usarla con Power BI, los permisos de Azure AD de la aplicación ya no tendrán efecto. Los permisos de la aplicación se administrarán desde el portal de administración de Power BI.
 
+## <a name="supported-apis"></a>API admitidas
+
+La entidad de servicio admite actualmente las API siguientes:
+* [GetGroupsAsAdmin](/rest/api/power-bi/admin/groups_getgroupsasadmin) con $expand para paneles, conjuntos de datos, informes y flujos de entrada 
+* [GetDashboardsAsAdmin](/rest/api/power-bi/admin/dashboards_getdashboardsasadmin) con iconos $expand
+* [GetDatasourcesAsAdmin](/rest/api/power-bi/admin/datasets_getdatasourcesasadmin) 
+* [GetDatasetToDataflowsLinksAsAdmin](/rest/api/power-bi/admin/datasets_getdatasettodataflowslinksingroupasadmin)
+* [GetDataflowDatasourcesAsAdmin](/rest/api/power-bi/admin/dataflows_getdataflowdatasourcesasadmin) 
+* [GetDataflowUpstreamDataflowsAsAdmin](/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) 
+* [GetCapacitiesAsAdmin](/rest/api/power-bi/admin/getcapacitiesasadmin)
+* [GetActivityLog](/rest/api/power-bi/admin/getactivityevents)
+* [GetModifiedWorkspaces](/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
+* [WorkspaceGetInfo](/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
+* [WorkspaceScanStatus](/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
+* [WorkspaceScanResult](/rest/api/power-bi/admin/workspaceinfo_getscanresult)
+
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
+
 * No se puede iniciar sesión en el portal de Power BI con la entidad de servicio.
 * Se necesitan derechos de administrador de Power BI para habilitar la entidad de servicio en la configuración de API de administración en el portal de administración de Power BI.
-* La entidad de servicio admite actualmente las API siguientes:
-    * [GetGroupsAsAdmin](/rest/api/power-bi/admin/groups_getgroupsasadmin) con $expand para paneles, conjuntos de datos, informes y flujos de entrada 
-    * [GetDashboardsAsAdmin](/rest/api/power-bi/admin/dashboards_getdashboardsasadmin) con iconos $expand
-    * [GetDatasourcesAsAdmin](/rest/api/power-bi/admin/datasets_getdatasourcesasadmin) 
-    * [GetDatasetToDataflowsLinksAsAdmin](/rest/api/power-bi/admin/datasets_getdatasettodataflowslinksingroupasadmin)
-    * [GetDataflowDatasourcesAsAdmin](/rest/api/power-bi/admin/dataflows_getdataflowdatasourcesasadmin) 
-    * [GetDataflowUpstreamDataflowsAsAdmin](/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) 
-    * [GetCapacitiesAsAdmin](/rest/api/power-bi/admin/getcapacitiesasadmin)
-    * [GetActivityLog](/rest/api/power-bi/admin/getactivityevents)
-    * [GetModifiedWorkspaces](/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
-    * [WorkspaceGetInfo](/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
-    * [WorkspaceScanStatus](/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
-    * [WorkspaceScanResult](/rest/api/power-bi/admin/workspaceinfo_getscanresult)

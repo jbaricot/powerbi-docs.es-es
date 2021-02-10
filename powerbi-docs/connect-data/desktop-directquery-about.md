@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 340f29394d0c6c83659d77f2545a4f76eef99a9a
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
+ms.openlocfilehash: a35b8e127c008f78cb9348704b9e049f9fa3b46f
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597650"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99570000"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Acerca del uso de DirectQuery en Power BI
 
@@ -163,7 +163,6 @@ Cuando se usa DirectQuery, de todos modos se pueden aplicar muchos de estos enri
 Los modelos DirectQuery admiten casi todas las funcionalidades de informes. Por lo tanto, y siempre que el origen subyacente ofrezca un nivel de rendimiento adecuado, se puede usar el mismo conjunto de visualizaciones. Hay algunas limitaciones importantes en algunas de las demás funcionalidades que ofrece el servicio Power BI una vez que se publica un informe:
 
 * **No se admite Conclusiones rápidas:** Conclusiones rápidas de Power BI busca rápidamente en distintos subconjuntos del conjunto de datos al tiempo que aplica un conjunto de algoritmos sofisticados para detectar información de posible interés. Dada la necesidad de consultas de muy alto rendimiento, esta funcionalidad no está disponible en conjuntos de datos que usan DirectQuery.
-* **No se admite Preguntas y respuestas:** Preguntas y respuestas de Power BI le permite explorar los datos a través de las funcionalidades de lenguaje natural e intuitivo y reciba respuestas en forma de gráficos. Pero actualmente no se admite en los conjuntos de datos que usan DirectQuery.
 * **El uso de Explorar en Excel probablemente genere un rendimiento más deficiente:** es posible explorar datos si usa la funcionalidad Explorar en Excel en un conjunto de datos. Este enfoque permite crear tablas dinámicas y gráficos dinámicos en Excel. Si bien esta funcionalidad se admite en conjuntos de datos que usan DirectQuery, generalmente el rendimiento es más lento que al crear objetos visuales en Power BI y, por lo tanto, si el uso de Excel es importante en sus escenarios, debe tener en cuenta este hecho en su decisión de usar DirectQuery.
 * **Longitud máxima de las columnas de texto**: la longitud máxima de los datos de una columna de texto para los conjuntos de datos que usan DirectQuery es de 32 764 caracteres. Los informes del texto que tenga más caracteres producirán un error.
 
