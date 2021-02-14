@@ -63,7 +63,7 @@
     - name: Guías paso a paso
       expanded: true
       items:
-        - name: Conectarse a orígenes de datos
+        - name: Conexión a orígenes de datos
           href: desktop-connect-to-data.md
         - name: Conectar a datos
           items:
@@ -207,7 +207,7 @@
           items:
             - name: Actualizar datos en Power BI
               href: refresh-data.md
-            - name: Configuración de actualización programada
+            - name: Configuración de la actualización programada
               href: refresh-scheduled-refresh.md
             - name: Resúmenes de las actualizaciones
               href: refresh-summaries.md
@@ -257,6 +257,8 @@
           items:
             - name: Conexión a servicios con aplicaciones
               href: service-connect-to-services.md
+            - name: "Análisis de cotizaciones populares con Power\_BI"
+              href: service-connect-to-analyze-stocks.md
             - name: "Informe de seguimiento de la COVID-19 en EE.\_UU."
               href: service-connect-to-covid-19-tracking.md
             - name: Informe de presencia de comunicación de crisis
