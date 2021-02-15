@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.openlocfilehash: 3d35df1c38a0a62325f88fa19ee7267a3b209647
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: 28baefb80037d1f78d2a2fd51b3989aa5d2a1ebb
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494538"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533105"
 ---
 # <a name="scan-barcodes-from-the-mobile-app-to-get-filtered-data"></a>Digitalización de códigos de barras mediante la aplicación móvil para obtener datos filtrados 
 Digitalice códigos de barras del mundo real para acceder directamente a información filtrada de BI en la aplicación móvil de Power BI.
@@ -73,7 +73,7 @@ Para borrar el filtrado de códigos de barras desde un informe filtrado:
 * Las aplicaciones móviles solo admiten el filtrado de códigos de barras en informes que únicamente tienen una columna de código de barras en todas las tablas de datos del informe. Si digitaliza un código de barras para un informe que tiene más de una columna de código de barras, no se realiza ningún filtrado.
 
 ## <a name="issues-with-scanning-a-barcode"></a>Problemas con el escaneo de código de barras
-A continuación le indicamos una serie de problemas con los que se podría encontrar al digitalizar un código de barras de un artículo.
+A continuación, indicamos algunos problemas con los que se podría encontrar al digitalizar un código de barras de un artículo.
 
 * Se le muestra el mensaje **No se pudo filtrar el informe: parece que este código de barras no existe en los datos del informe**: Esto significa que el valor del código de barras que ha digitalizado no aparece en el modelo de datos del informe que ha elegido filtrar. Por ejemplo, esto podría pasar si el producto cuyo código de barras ha digitalizado no está incluido en el informe. Puede escanear un producto diferente, elegir otro informe (si hay más de uno disponible) o ver el informe sin filtrar.
 

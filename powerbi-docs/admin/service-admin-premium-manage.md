@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5cce18c2ec4a24b06f4cf48d5fd2b542109d70c6
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 2eb1c5bd685cedabd96483867546c7578124af45
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512502"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532852"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Configuración y administración de capacidades en Power BI Premium
 
@@ -24,7 +24,7 @@ Aprenda a administrar las capacidades de Power BI Premium y Power BI Embedded, q
 
 ![Pantalla de configuración de la capacidad de Power BI](media/service-admin-premium-manage/premium-capacity-management.png)
 
-La *capacidad* es el núcleo de las ofertas Power BI Premium y Power BI Embedded. Es un conjunto de recursos reservados para uso exclusivo por parte de la organización. Tener una capacidad le permite publicar paneles, informes y conjuntos de datos para los usuarios de la organización sin necesidad de comprarles licencias por usuario. También ofrece un rendimiento confiable y continuo del contenido hospedado en la capacidad. Para más información, consulte [What is Power BI Pro?](service-premium-what-is.md) (¿Qué es Power BI Premium?).
+La *capacidad* es el núcleo de las ofertas Power BI Prémium y [Power BI Embedded](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md). Es un conjunto de recursos reservados para uso exclusivo por parte de la organización. Tener una capacidad le permite publicar paneles, informes y conjuntos de datos para los usuarios de la organización sin necesidad de comprarles licencias por usuario. También ofrece un rendimiento confiable y continuo del contenido hospedado en la capacidad. Para más información, consulte [What is Power BI Pro?](service-premium-what-is.md) (¿Qué es Power BI Premium?).
 
 > [!NOTE]
 > Power BI Premium publicó recientemente una nueva versión Premium, denominada **Premium Gen2**, que se encuentra actualmente en versión preliminar. Premium Gen2 simplifica la administración de las funcionalidades Premium y reduce la sobrecarga de administración. Para más información, vea [Power BI Premium Generation 2 (versión preliminar)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

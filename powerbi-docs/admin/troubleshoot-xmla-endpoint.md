@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 02/02/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 98bc3da33f38974f3dfcb9e155111e7d16e6c069
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: 0ae9a37d8d3a54d02811b9f3051d11cb1ab82ff8
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494475"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532576"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Solución de problemas de conectividad de los puntos de conexión XMLA
 
@@ -144,7 +144,7 @@ Las invalidaciones en el [comando Refresh (TMSL)](/analysis-services/tmsl/refres
 
 ### <a name="query-execution"></a>Ejecución de consultas
 
-Cuando se conecta a un área de trabajo en una capacidad [Premium Gen2](service-premium-what-is.md#power-bi-premium-generation-2-preview), SQL Server Management Studio puede mostrar el siguiente error:
+Cuando se conecta a un área de trabajo en una capacidad de [Prémium Gen2](service-premium-what-is.md#power-bi-premium-generation-2-preview) o [Embedded Gen2](../developer/embedded/power-bi-embedded-generation-2.md), SQL Server Management Studio puede mostrar el siguiente error:
 
 ```
 Executing the query ...
@@ -155,7 +155,7 @@ Esto se debe a que las bibliotecas cliente instaladas con SSMS v18.7.1 no admit
 
 ### <a name="refresh-operations"></a>Operaciones de actualización
 
-Cuando se usa SSMS v18.7.1 o una versión anterior para realizar una operación de actualización de larga duración (> 1 min) de un conjunto de datos en una capacidad Premium Gen2, SSMS puede mostrar un error similar al siguiente aunque la operación de actualización se realice correctamente:
+Cuando se usa SSMS v18.7.1 o una versión anterior para realizar una operación de actualización de larga duración (> 1 min) de un conjunto de datos en una capacidad de Prémium Gen2 o [Embedded Gen2](../developer/embedded/power-bi-embedded-generation-2.md), SSMS puede mostrar un error similar al siguiente aunque la operación de actualización se realice correctamente:
 
 ```
 Executing the query ...

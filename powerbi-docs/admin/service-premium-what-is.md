@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/01/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 05f2523e468759444a731d5484e8ce17350a46ae
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: e226d70822e9462f376ec3b5d4d9fd5f36ade252
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494912"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532783"
 ---
 # <a name="what-is-power-bi-premium"></a>¿Qué es Power BI Premium?
 
@@ -38,6 +38,9 @@ En este artículo se presentan las características principales de Power BI Pr
 ## <a name="power-bi-premium-generation-2-preview"></a>Power BI Premium Generation 2 (versión preliminar)
 
 Power BI Premium publicó recientemente una nueva versión de Power BI Premium, **Power BI Premium Generation 2**, a la que se hace referencia como **Premium Gen2** por comodidad. Premium Gen2 se encuentra actualmente en versión preliminar y está disponible para que lo usen los suscriptores Premium durante el período de versión preliminar. Puede seleccionar la versión original de Premium o cambiar a Premium Gen2. Basta con que use una versión u otra para su capacidad Premium.
+
+>[!NOTE]
+>Para consultar las mejoras de Power BI Embedded Gen2, vea [Power BI Embedded Generation 2](../developer/embedded/power-bi-embedded-generation-2.md).
 
 Premium Gen2 proporciona las siguientes características o experiencias mejoradas:
 
@@ -136,9 +139,9 @@ Los recursos y los límites de cada SKU Premium (y la SKU A de tamaño equivalen
 | EM1/A1 | 1 | 0,5 | 3 | 0,5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
-| P1 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2 | 16 | 8 | 50 | 8 | 60 | 12 |
-| P3 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | P4 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
 | P5 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
@@ -150,7 +153,7 @@ Los recursos y los límites de cada SKU Premium (y la SKU A de tamaño equivalen
 
 #### <a name="updates-for-premium-gen2-preview"></a>Actualizaciones de Premium Gen2 (versión preliminar)
 
-Con **Premium Gen2**, la cantidad de memoria disponible en cada tamaño de nodo se establece en el límite de la superficie de memoria de un solo artefacto y no en el consumo acumulativo de memoria. Por ejemplo, en Premium Gen2, solo un único tamaño de conjunto de datos se limita a 25 GB, en comparación con la versión Premium original, donde la superficie de memoria total de los conjuntos de datos administrados al mismo tiempo estaba limitada a 25 GB.
+Con **Prémium Gen2** y [Embedded Gen 2](../developer/embedded/power-bi-embedded-generation-2.md), la cantidad de memoria disponible en cada tamaño de nodo se establece en el límite de la superficie de memoria de un solo artefacto y no en el consumo acumulativo de memoria. Por ejemplo, en la capacidad P1 de Prémium Gen2, solo un único tamaño de conjunto de datos se limita a 25 GB, en comparación con la versión Prémium original, donde la superficie de memoria total de los conjuntos de datos administrados al mismo tiempo estaba limitada a 25 GB.
 
 ### <a name="capacity-workloads"></a>Cargas de trabajo de capacidad
 
@@ -186,7 +189,7 @@ Las actualizaciones, como las consultas, requieren que el modelo se cargue en me
 
 #### <a name="updates-for-premium-gen2-preview"></a>Actualizaciones de Premium Gen2 (versión preliminar)
 
-En Premium Gen2 no se necesitan límites de memoria acumulados y, por tanto, las actualizaciones simultáneas del conjunto de datos no contribuyen a las restricciones de recursos. No hay ningún límite en cuanto al número de actualizaciones en ejecución por núcleo virtual. Pero la actualización de conjuntos de datos individuales todavía se controla mediante los límites de CPU y memoria de la capacidad existente. Puede programar y ejecutar tantas actualizaciones como sea necesario en un momento dado, y el servicio Power BI las ejecutará en el momento programado pertinente.
+En Prémium Gen2 y [Embedded Gen 2](../developer/embedded/power-bi-embedded-generation-2.md) no se necesitan límites de memoria acumulativa y, por tanto, las actualizaciones simultáneas del conjunto de datos no contribuyen a las restricciones de recursos. No hay ningún límite en cuanto al número de actualizaciones en ejecución por núcleo virtual. Pero la actualización de conjuntos de datos individuales todavía se controla mediante los límites de CPU y memoria de la capacidad existente. Puede programar y ejecutar tantas actualizaciones como sea necesario en un momento dado, y el servicio Power BI las ejecutará en el momento programado pertinente.
 
 Notas de la sección:   
 <a name="endnote-1"></a>\[1\] Sujeto a cambios.
@@ -290,10 +293,10 @@ Para más información, vea [Actualizaciones incrementales en Power BI Premium](
 
 Los informes paginados, compatibles con las SKU P1-P3 y A4-A6, se basan en la tecnología de lenguaje RDL (Report Definition Language) de SQL Server Reporting Services. Aunque se basen en la tecnología RDL, no es lo mismo que Power BI Report Server, que es una plataforma de informes descargable que se puede instalar en el entorno local, y que también se incluye con Power BI Premium. Los informes paginados se formatean para ajustarse a una página que se puede imprimir o compartir. Los datos se muestran en una tabla, incluso si esta abarca varias páginas. Mediante el uso de la aplicación de escritorio de Windows gratuita [**Generador de informes de Microsoft Power BI**](https://aka.ms/pbireportbuilder), los usuarios pueden crear informes paginados y publicarlos en el servicio.
 
-En Power BI Premium, los informes paginados son una carga de trabajo que se debe habilitar para una capacidad mediante el portal de administración. Los administradores de capacidad pueden habilitar y después especificar la cantidad de memoria como un porcentaje del total de recursos de memoria de la capacidad. A diferencia de otros tipos de carga de trabajo, Premium ejecuta los informes paginados en un espacio contenido dentro de la capacidad. Se usa la memoria máxima especificada para este espacio, con independencia de si la carga de trabajo está o no activa. El valor predeterminado es 20 %.
+En Power BI Premium, los informes paginados son una carga de trabajo que se debe habilitar para una capacidad mediante el portal de administración. Los administradores de capacidad pueden habilitar y después especificar la cantidad de memoria como un porcentaje del total de recursos de memoria de la capacidad. A diferencia de otros tipos de carga de trabajo, Premium ejecuta los informes paginados en un espacio contenido dentro de la capacidad. Se usa la memoria máxima especificada para este espacio, con independencia de si la carga de trabajo está o no activa. El valor predeterminado es 20 %. 
 
 > [!NOTE]
-> En **Premium Gen2 (versión preliminar)** , no hay administración de memoria para los informes paginados. Con Premium Gen2, los informes paginados se admiten en los SKU EM1-EM3.
+> En **Prémium Gen2 (versión preliminar)** y [Embedded Gen2](../developer/embedded/power-bi-embedded-generation-2.md), no hay administración de memoria para los informes paginados. Con Prémium Gen2 y Embedded Gen2, los informes paginados se admiten en las SKU EM1-EM3 y A1-A3.
 
 ### <a name="paginated-reports-and-premium-gen2"></a>Informes paginados y Premium Gen2
 
@@ -327,7 +330,7 @@ Para más información, vea [Licencias de Power BI](service-admin-licensing-orga
 
 ## <a name="analysis-services-in-power-bi-premium"></a>Analysis Services en Power BI Premium
 
-De forma interna, el **motor Vertipaq de Analysis Services** probado por Microsoft impulsa los conjuntos de datos y áreas de trabajo de Power BI Premium. Analysis Services proporciona la capacidad de programación y compatibilidad con herramientas y aplicaciones cliente a través de las bibliotecas de cliente y las API que admiten el protocolo XMLA de estándar abierto. De manera predeterminada, las cargas de trabajo del conjunto de datos de la capacidad Premium de Power BI admiten conexiones *de solo lectura* desde herramientas y aplicaciones cliente de Microsoft y de terceros a través de un **punto de conexión de XMLA**. Los administradores de capacidad también pueden optar por deshabilitar o permitir las operaciones de *lectura/escritura* a través del punto de conexión.
+De forma interna, el **motor VertiPaq de Analysis Services** probado por Microsoft impulsa los conjuntos de datos y las áreas de trabajo de Power BI Prémium. Analysis Services proporciona la capacidad de programación y compatibilidad con herramientas y aplicaciones cliente a través de las bibliotecas de cliente y las API que admiten el protocolo XMLA de estándar abierto. De manera predeterminada, las cargas de trabajo del conjunto de datos de la capacidad Premium de Power BI admiten conexiones *de solo lectura* desde herramientas y aplicaciones cliente de Microsoft y de terceros a través de un **punto de conexión de XMLA**. Los administradores de capacidad también pueden optar por deshabilitar o permitir las operaciones de *lectura/escritura* a través del punto de conexión.
 
 Con el acceso de solo lectura, herramientas de Microsoft como SQL Server Management Studio (SSMS) y SQL Server Profiler, y aplicaciones de terceros como DAX Studio y aplicaciones de visualización de datos, se pueden conectar a conjuntos de datos Premium y consultarlos mediante XMLA, MDX, DAX, DMV y eventos de seguimiento. Con el acceso de lectura y escritura, herramientas de modelado de datos empresariales como Visual Studio con la extensión de proyectos de Analysis Services o Tabular Editor de código abierto pueden implementar modelos tabulares como un conjunto de datos en un área de trabajo Premium. Y con herramientas como SSMS, los administradores pueden usar el lenguaje de scripting de modelos tabulares (TMSL) para generar scripts de cambios de metadatos y escenarios de actualización de datos avanzados. 
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/06/2021
-ms.openlocfilehash: c27d95715fe436b59825390b1cc16111e83ffc1d
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.date: 01/14/2021
+ms.openlocfilehash: b37182cbdf030e8b32fdfe307d0a652fef678b9b
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98564982"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533036"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capacidad y SKU de los análisis incrustados de Power BI
 
@@ -37,6 +37,9 @@ Los análisis incrustados de Power BI incluyen dos soluciones:
 Power BI Embedded está pensado para aquellos ISV y desarrolladores que quieran insertar objetos visuales en sus aplicaciones.
 
 Las aplicaciones que usan Power BI Embedded permiten a los usuarios consumir contenido almacenado en la capacidad de Power BI Embedded.
+
+>[!NOTE]
+>Power BI Embedded ha publicado recientemente una nueva versión, denominada **Embedded Gen2**. Embedded Gen2 simplificará la administración de las funciones insertadas y mejorará la experiencia de Power BI Embedded. Para obtener más información, vea [Power BI Embedded Generation 2](power-bi-embedded-generation-2.md).
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -142,6 +145,10 @@ En la tabla siguiente se describen los recursos y los límites de cada SKU.
 | P4 | 64 | 32 | 200 | 32 | 240 | 48 |
 | P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
+
+#### <a name="embedded-gen-2-memory-enhancements-preview"></a>Mejoras de la memoria en Embedded Gen 2 (versión preliminar)
+
+Con [Power BI Embedded Generation 2](power-bi-embedded-generation-2.md) (también conocido como Embedded Gen 2), la cantidad de memoria disponible en cada tamaño de nodo se establece en el límite de la superficie de memoria de un solo elemento de Power BI (como un informe o un panel) y no en el consumo acumulativo de memoria. Por ejemplo, en la capacidad A4 de Embedded Gen2, solo un único tamaño de conjunto de datos se limita a 25 GB, en comparación con la capacidad de Power BI Embedded original, donde la superficie de memoria total de los conjuntos de datos administrados al mismo tiempo está limitada a 25 GB.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

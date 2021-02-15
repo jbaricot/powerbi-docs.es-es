@@ -10,12 +10,12 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 06/26/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 07b16bb90b548f071472f9f7d22095ccdff78f56
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d3a30098b793ccb75cbae6c271ab1685b3176a10
+ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401728"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99616977"
 ---
 # <a name="create-visuals-by-using-python-packages-in-the-power-bi-service"></a>Creación de objetos visuales mediante paquetes de Python en el servicio Power BI
 Puede usar el eficaz [lenguaje de programación Python](https://www.python.org/) para crear objetos visuales en el servicio Power BI. En el servicio Power BI se admiten muchos paquetes de Python y con el tiempo se van admitiendo más.
@@ -46,7 +46,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 |Pandas|1.0.1|https://pypi.org/project/pandas|
 |scikit-learn|0.23.0|https://pypi.org/project/scikit-learn|
 |scipy|1.4.1|https://pypi.org/project/scipy|
-|s  eaborn|0.10.1|https://pypi.org/project/seaborn|
+|seaborn|0.10.1|https://pypi.org/project/seaborn|
 |statsmodels|0.11.1|https://pypi.org/project/statsmodels|
 |xgboost|1.1.0|https://pypi.org/project/xgboost|
 

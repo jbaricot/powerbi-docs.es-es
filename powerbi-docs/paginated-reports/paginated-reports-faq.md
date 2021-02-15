@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 10/19/2020
-ms.openlocfilehash: 7cba43ff6339ce890ca2f4f1744282648eaf877b
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 02/09/2021
+ms.openlocfilehash: d8460fe1a3eb199848f47181837225f1e540bb08
+ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297904"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100013645"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: Preguntas frecuentes 
 
@@ -28,6 +28,13 @@ En este artículo se responden muchas preguntas comunes que los usuarios se plan
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>¿Qué tamaño de capacidad Premium se necesita para los informes paginados?
 
 La carga de trabajo de los informes paginados está disponible en las SKU P1 – P3.  También puede usarla con las SKU A4 – A6 para escenarios de inserción o de desarrollo y pruebas.
+
+> [!NOTE]
+> Power BI publicó recientemente una nueva versión Prémium, denominada **Prémium Gen2**, que se encuentra actualmente en versión preliminar. En **Prémium Gen2**, la carga de trabajo de los informes paginados está disponible en las SKU P1-P3 y A1-A6. 
+>
+>Prémium Gen2 simplifica la administración de las capacidades Prémium y reduce la sobrecarga de administración. Para más información, vea [Power BI Premium Generation 2 (versión preliminar)](../admin/service-premium-what-is.md#power-bi-premium-generation-2-preview).
+>
+>Para consultar las mejoras de Power BI Embedded Gen2, vea [Power BI Embedded Generation 2](../developer/embedded/power-bi-embedded-generation-2.md).
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>¿Cuál es el umbral de memoria máxima que puedo asignar para los informes paginados en mi capacidad?
 
@@ -74,13 +81,16 @@ Recibe un mensaje de error y no se puede ver el informe hasta que la carga de tr
 
 Memoria predeterminada de cada SKU Premium en los informes paginados:
 
-- **P1/A4** : 20 % predeterminado; 10 % mínimo
-- **P2/A5** : 20 % predeterminado; 5 % mínimo
-- **P3/A6** : 20 % predeterminado; 2,5 % mínimo
+- **P1/A4**: 20 % predeterminado; 10 % mínimo
+- **P2/A5**: 20 % predeterminado; 5 % mínimo
+- **P3/A6**: 20 % predeterminado; 2,5 % mínimo
 
 Los administradores de Power BI pueden modificar el porcentaje de memoria máximo predeterminado en el portal de administración. Vea la sección de la carga de trabajo **Informes paginados** de **Power BI Premium** en la pestaña **Configuración de la capacidad**.
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Pestaña Configuración de la capacidad de Informes paginados":::
+
+> [!NOTE]
+> **Prémium Gen2**, que actualmente se encuentra en versión preliminar, no requiere cambiar la configuración de la memoria. El sistema subyacente administra automáticamente la memoria de Prémium Gen2. La carga de trabajo de los informes paginados está disponible en las SKU P1-P3 y A1-A6 en **Prémium Gen2**.
 
 ## <a name="general"></a>General
 

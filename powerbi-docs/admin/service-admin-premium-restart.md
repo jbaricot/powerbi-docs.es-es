@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 367195e0e09bbfb7de20acfa71b8da9742664ca2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: da6108927e9d6182c08db68972a5452514eedca7
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413573"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532967"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Reinicio de una capacidad de Power BI Premium
 
@@ -30,6 +30,8 @@ Power BI está mejorando constantemente en cuanto al modo en que se protege a lo
 
 > [!NOTE]
 > Power BI Premium publicó recientemente una nueva versión Premium, denominada **Premium Gen2**, que se encuentra actualmente en versión preliminar. Las capacidades de Gen2 en versión preliminar no requieren reinicios, por lo que esta característica no está disponible en Premium Gen2.
+>
+> Las capacidades de **Embedded Gen2** tampoco requieren un reinicio. Para consultar las mejoras de Power BI Embedded Gen2, vea [Power BI Embedded Generation 2](../developer/embedded/power-bi-embedded-generation-2.md).
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>¿Es seguro el proceso de reinicio? ¿Se pierden datos?
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: fd4ca0d87530c6421321e10ed97c3ea4e9a32c8d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2313e736dee73666bb5ddb380b39a217c6b61237
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408030"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532645"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Sus propias claves de cifrado para Power BI
 
@@ -26,6 +26,8 @@ BYOK permite satisfacer más fácilmente los requisitos de cumplimiento que espe
 
 > [!IMPORTANT]
 > Power BI Premium publicó recientemente una nueva versión Premium, denominada **Premium Gen2**, que se encuentra actualmente en versión preliminar. Las capacidades de Gen2 en versión preliminar **no** admiten BYOK mientras se encuentra en versión preliminar.
+>
+>Las capacidades de **Embedded Gen2** **tampoco** admiten BYOK mientras se encuentra en versión preliminar. Para consultar las mejoras de Power BI Embedded Gen2, vea [Power BI Embedded Generation 2](../developer/embedded/power-bi-embedded-generation-2.md).
 
 ## <a name="data-source-and-storage-considerations"></a>Consideraciones sobre el origen de datos y el almacenamiento
 

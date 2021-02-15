@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8a09de5777332d69332cae6928022e7e99fe689e
-ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.openlocfilehash: 7907242c3ef71b1b621820cbb66bd93e88ff1c99
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99422292"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532714"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Uso de controles de Microsoft Cloud App Security en Power BI
 
@@ -63,7 +63,7 @@ Puede leer el artículo sobre [etiquetas de confidencialidad en Power BI](servi
 
 ## <a name="custom-policies-to-alert-on-suspicious-user-activity-in-power-bi"></a>Directivas personalizadas para enviar alertas sobre actividades sospechosas de usuarios en Power BI
 
-La directiva de actividad de Cloud App Security permite que los administradores definan sus propias reglas personalizadas para ayudar a detectar comportamientos de los usuarios que se desvíen de la norma, e incluso, si se determina que son demasiado peligrosos, actuar de forma automática. Por ejemplo:
+Las directivas de actividad de Cloud App Security permiten que los administradores definan sus propias reglas personalizadas para ayudar a detectar comportamientos de los usuarios que se desvíen de la norma, e incluso, si se determina que son demasiado peligrosos, actuar de forma automática. Por ejemplo:
 
 * **Eliminación de etiquetas de confidencialidad de forma masiva.** Por ejemplo: recibir una alerta cuando un usuario quite las etiquetas de confidencialidad de 20 informes diferentes en un período inferior a 5 minutos.
 

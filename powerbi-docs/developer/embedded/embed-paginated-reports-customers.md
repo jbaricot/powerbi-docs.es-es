@@ -1,6 +1,6 @@
 ---
-title: Inserción de informes paginados en la aplicación de análisis integrados de Power BI para procurar una mejor información de BI insertada para sus clientes
-description: Obtenga información sobre cómo integrar o insertar un informe paginado de Power BI en una aplicación con las API de Power BI. Consiga mejores conclusiones insertadas de BI con los análisis insertados de Power BI.
+title: Inserción de informes paginados en su aplicación de análisis insertados de Power BI para sus clientes
+description: Obtenga información sobre cómo integrar o insertar un informe paginado de Power BI en una aplicación de análisis integrados.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 01/04/2019
-ms.openlocfilehash: 1cbe656618e2d4240aebfe95ef4ebc2679616054
-ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.date: 01/14/2021
+ms.openlocfilehash: 081c6c409a2aed7003952b30ff16dcb7f032ed40
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98781643"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533151"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Tutorial: Inserción de informes paginados de Power BI en una aplicación para los clientes.
 
@@ -58,10 +58,16 @@ Antes de importar o cargar un informe paginado para su inserción, el área de t
 * **Power BI Premium**: para insertar un informe paginado, se requiere una capacidad de SKU de tipo *P*. Al insertar contenido de Power BI, se hace referencia a esta solución como *Inserción de Power BI*. Para más información acerca de esta suscripción, consulte [¿Qué es Power BI Premium?](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded**: puede adquirir una capacidad en [Microsoft Azure Portal](https://portal.azure.com). Esta suscripción utiliza las SKU de tipo *A*. Para insertar informes paginados, necesita al menos una suscripción *A4*. Para obtener más información sobre cómo crear la capacidad de Power BI Embedded, consulte [Creación de una capacidad de Power BI Embedded en Azure Portal](azure-pbie-create-capacity.md).
 
+    >[!NOTE]
+    >Power BI Embedded ha publicado recientemente una nueva versión, denominada **Embedded Gen2**. Embedded Gen2 simplificará la administración de las funciones insertadas y mejorará la experiencia de Power BI Embedded. Para obtener más información, vea [Power BI Embedded Generation 2](power-bi-embedded-generation-2.md).
+
 En la tabla siguiente se describen los recursos y los límites de cada SKU. Para determinar cuál es la capacidad que mejor se adapta a sus necesidades, consulte la tabla [Qué SKU debo comprar para mi escenario](./embedded-faq.md#which-solution-should-i-choose).
 
 | Nodos de capacidad | Total de núcleos virtuales | Núcleos virtuales de back-end | RAM (GB) | Núcleos virtuales de front-end | 
 | --- | --- | --- | --- | --- |
+| A1 con [Embedded Gen2](power-bi-embedded-generation-2.md) | 1 | 0,5 | 2.5 | 0,5 |
+| A2 con [Embedded Gen2](power-bi-embedded-generation-2.md) | 2 | 1 | 5 | 1 |
+| A3 con [Embedded Gen2](power-bi-embedded-generation-2.md) | 4 | 2 | 10 | 2 |
 | P1/A4 | 8 | 4 | 25 | 4 |
 | P2/A5 | 16 | 8 | 50 | 8 |
 | P3/A6 | 32 | 16 | 100 | 16 |
@@ -206,7 +212,7 @@ Aunque los pasos para insertar los informes paginados de Power BI se realizan c
 
 La inserción de informes paginados de Power BI para los clientes dentro de la aplicación requiere que tenga una [entidad de servicio](embed-service-principal.md) de **Azure AD** y obtener un [token de acceso de Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) para la aplicación de Power BI antes de realizar llamadas a las [API REST de Power BI](/rest/api/power-bi/).
 
-Para crear el cliente de Power BI con el **token de acceso**, deberá crear un objeto de cliente de Power BI, que permite interactuar con las [API REST de Power BI](/rest/api/power-bi/). Para crear un objeto de cliente de Power BI, ajuste el valor de **AccessToken** con un objeto **_Microsoft.Rest.TokenCredentials_* _.
+Para crear el cliente de Power BI con el **token de acceso**, deberá crear un objeto de cliente de Power BI, que permite interactuar con las [API REST de Power BI](/rest/api/power-bi/). Para crear un objeto de cliente de Power BI, ajuste el valor de **AccessToken** con un objeto **_Microsoft.Rest.TokenCredentials_**.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -228,7 +234,7 @@ Puede usar el objeto de cliente de Power BI para recuperar una referencia al ele
 
 A continuación tiene un código de ejemplo sobre cómo recuperar el primer informe de un área de trabajo determinada.
 
-_En el archivo Services\EmbedService.cs de la [aplicación de ejemplo](https://github.com/Microsoft/PowerBI-Developer-Samples) se incluye un ejemplo de cómo obtener un elemento de contenido que se quiere insertar, ya sea un informe, un panel o un icono.*
+*En el archivo Services\EmbedService.cs de la [aplicación de ejemplo](https://github.com/Microsoft/PowerBI-Developer-Samples) se incluye un ejemplo de cómo obtener un elemento de contenido, ya sea un informe, un panel o un icono, que se quiere insertar.*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;

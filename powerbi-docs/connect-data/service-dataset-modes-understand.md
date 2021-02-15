@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/01/2020
-ms.openlocfilehash: 5b4c32296c7121fa3d161461af7e86caba617ee1
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.openlocfilehash: 5f03a994085e139da714219ce2e9095bde3a35d6
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96501958"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99570046"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Modos de conjuntos de datos en el servicio Power BI
 
@@ -80,7 +80,7 @@ Hay varias ventajas asociadas con los modelos de DirectQuery:
 Pero hay algunas limitaciones asociadas a los modelos de DirectQuery:
 
 - Las fórmulas de DAX se limitan a usar solo las funciones que se pueden transponer en consultas nativas que comprende el origen de datos. No se admiten las tablas calculadas.
-- No se admiten las características Preguntas y respuestas, y Conclusiones rápidas.
+- No se admiten las características de Conclusiones rápidas.
 
 Desde una perspectiva de recursos del servicio Power BI, los modelos de DirectQuery requieren:
 

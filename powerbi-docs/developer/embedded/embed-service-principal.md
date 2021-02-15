@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 11/23/2020
-ms.openlocfilehash: 35bdaa8af06187767975126daa1f2445908fed9f
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 02/04/2021
+ms.openlocfilehash: 6a322d331dce9fd989a93545745cf7feb2d9eb70
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886796"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569977"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Inserción de contenido de Power BI con entidades de servicio y un secreto de aplicación
 
@@ -243,7 +243,7 @@ Una vez insertado el contenido, está listo para [pasar a producción](move-to-p
 * Se necesitan derechos de administrador de Power BI para habilitar la entidad de servicio en la configuración de desarrollador en el portal de administración de Power BI.
 * Las aplicaciones de [inserción para la organización](embed-sample-for-your-organization.md) no pueden usar la entidad de servicio.
 * No se admite la administración de [flujos de datos](../../transform-model/dataflows/dataflows-introduction-self-service.md).
-* Actualmente la entidad de servicio no admite ninguna API de administración.
+* La entidad de servicio solo admite algunas API de administración de solo lectura. Para habilitar la compatibilidad de la entidad de servicio con las API de administración de solo lectura, debe habilitar la configuración de administración del servicio Power BI en su inquilino. Para más información, vea [Habilitación de la autenticación de entidad de servicio para las API de administración de solo lectura](../../admin/read-only-apis-service-principal-authentication.md).
 * Al usar una entidad de servicio con un origen de datos de [Azure Analysis Services](/azure/analysis-services/analysis-services-overview), la propia entidad de servicio debe tener permisos de una instancia de Azure Analysis Services. El uso de un grupo de seguridad que contiene la entidad de servicio para este propósito no funciona.
 
 ## <a name="next-steps"></a>Pasos siguientes
