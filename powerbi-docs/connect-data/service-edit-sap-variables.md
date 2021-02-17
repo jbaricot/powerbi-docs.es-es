@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 02/05/2021
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 179e8740bed71d3d295cfc2fe5f103744e9dbd07
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1451b6812e9304eb1933de6cde2ed3cc681b7207
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96402740"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531916"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>Edición de variables de SAP en el servicio Power BI
 
@@ -27,11 +27,6 @@ En este documento se explican los requisitos para editar variables en Power BI, 
 ## <a name="requirements-for-sap-edit-variables"></a>Requisitos para editar variables de SAP
 
 Hay algunos requisitos para usar la característica Editar variables de SAP. En la tabla siguiente se describen estos requisitos.
-
-**Nueva experiencia de filtro necesaria**: debe tener habilitada la [nueva experiencia de filtro](../create-reports/power-bi-report-filter.md) para el informe. Así es como puede habilitarla para el informe en Power BI Desktop:
-- En Power BI Desktop, seleccione **Archivo** > **Opciones y configuración** > **Opciones**.
-- En el panel de navegación, en **Archivo actual**, seleccione **Configuración de informes**.
-- En **Experiencia de filtrado**, seleccione **Habilitar el panel de filtros actualizado**.
 
 **Conexiones de DirectQuery necesarias**: debe conectarse al origen de datos de SAP mediante DirectQuery. No se admiten conexiones de importación.
 
@@ -80,7 +75,7 @@ Al trabajar en un informe publicado en el servicio Power BI que usa SAP HANA o S
 
 Para obtener más información sobre SAP HANA, SAP BW y DirectQuery, lea los siguientes artículos:
 
-- [Usar SAP HANA en Power BI Desktop](desktop-sap-hana.md)
+- [Uso de SAP HANA en Power BI Desktop](desktop-sap-hana.md)
 - [DirectQuery y SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 - [DirectQuery y SAP HANA](desktop-directquery-sap-hana.md)
 - [Uso de DirectQuery en Power BI](desktop-directquery-about.md)

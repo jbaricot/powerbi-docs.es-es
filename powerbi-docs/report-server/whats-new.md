@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/27/2021
-ms.openlocfilehash: bb69df893a3a9841d911e558e2ef2afb09230122
-ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.openlocfilehash: a0e5ced79c5aee6d6392b3d52fcc8e6d638faf27
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "99087094"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531939"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
 
@@ -492,7 +492,7 @@ Los informes de Power BI son interactivos. Tiene sentido que los títulos de un 
 
 #### <a name="cross-highlight-by-axis-labels"></a>Resaltado cruzado por etiquetas de eje
 
-Seleccione las etiquetas de la categoría del eje en un elemento visual para resaltar de forma cruzada el resto de elementos de una página, igual que seleccionaría los puntos de datos de un elemento visual. Obtenga más información sobre el [Resaltado cruzado](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-cross-filtering-and-cross-highlighting).
+Seleccione las etiquetas de la categoría del eje en un elemento visual para resaltar de forma cruzada el resto de elementos de una página, igual que seleccionaría los puntos de datos de un elemento visual. Obtenga más información sobre el [Resaltado cruzado](../create-reports/power-bi-reports-filters-and-highlighting.md#cross-filter-and-cross-highlight-visuals).
 
 #### <a name="all-the-new-features"></a>Todas las características nuevas
 
